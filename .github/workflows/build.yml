@@ -1,4 +1,5 @@
 name: Build
+
 on:
   push:
     branches:
@@ -8,8 +9,10 @@ on:
     branches:
       - master
       - main
+
 permissions:
   contents: write
+
 jobs:
   build:
     name: Page Build
@@ -17,22 +20,31 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
-      - name: Config Git
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
       - name: Install Python dependencies
         run: pip install -r ./requirements.txt
-      - name: Pre Build
+
+      - name: Config Git
         run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - name: Update Submodule
+        run: |
+          git config --global diff.submodule log
           git submodule update --init --recursive
-          git rev-parse --short HEAD | xargs -I % sed -i "s/githash: ''/githash: '%'/g" mkdocs.yml
+          git submodule update --remote
+          git add .
+          git commit -m "Update Submodule"
+          git push
+
       - name: Page Build
-        run: mkdocs gh-deploy --force -v
+        run: |
+          git rev-parse --short HEAD | xargs -I % sed -i "s/githash: ''/githash: '%'/g" mkdocs.yml
+          mkdocs gh-deploy --force --verbose
 
       # - uses: actions/cache@v4
       #   with:
