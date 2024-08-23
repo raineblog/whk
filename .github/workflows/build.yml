@@ -17,22 +17,24 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
-      - name: Configure Git Credentials
+      - name: Config Git
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git submodule update --init --recursive
-          git -C "$THEME_NAME" log -1
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+      - name: Install Python dependencies
+        run: pip install -r ./requirements.txt
+      - name: Pre Build
+        run: |
+          git submodule update --init --recursive
+          git rev-parse --short HEAD | xargs -I % sed -i "s/githash: ''/githash: '%'/g" mkdocs.yml
+      - name: Page Build
+        run: mkdocs gh-deploy --force -v
+
       # - uses: actions/cache@v4
       #   with:
       #     key: ${{ github.ref }}
       #     path: .cache
-      - name: Install Python dependencies
-        run: pip install -r ./requirements.txt
-      - name: Page Build
-        run: mkdocs gh-deploy --force -v
-
