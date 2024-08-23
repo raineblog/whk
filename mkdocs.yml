@@ -1,0 +1,167 @@
+# Project Information
+site_name: RainPPR's WHK Blog
+site_description: by RainPPR
+site_author: RainPPR
+strict: false
+
+site_url: https://rainppr.github.io/whk/
+
+repo_name: RainPPR/whk
+repo_url: https://github.com/RainPPR/whk
+edit_uri: edit/main/docs/
+copyright: by RainPPR
+
+# Contents
+nav:
+    - 简介:
+        - index.md
+        - format.md
+        - usage.md
+        - discussion.md
+        - setting.md
+        - KaTeX v0.16.11: static/katex/README.md
+    - 数学:
+        - math/sqrt.md
+        - math/inverse.md
+        - math/trigonometric.md
+        - math/sequence.md
+
+# Theme
+
+# theme:
+#     name: material
+#     language: 'zh'
+#     palette:
+#         primary: white
+#         accent: red
+#         scheme: preference
+#     icon:
+#         repo: fontawesome/brands/github-alt
+#    # logo: static/img/logo.png
+#     features:
+#         - navigation.tabs
+#         - navigation.instant
+#         - navigation.tabs.sticky
+#         - search.suggest
+#         - search.highlight
+#         - search.share
+#         - content.action.edit
+#         - content.code.copy
+#         - content.footnote.tooltips
+#     include_search_page: false
+#     search_index_only: true
+#     font:
+#         text: 'Segoe UI'
+#         code: 'Fira Code'
+
+theme:
+    name: null
+    custom_dir: 'material/templates'
+    # static_templates:
+    #     - 404.html
+    language: 'zh'
+    palette:
+        scheme: default
+        primary: white
+        accent: red
+        scheme: preference
+    icon:
+        repo: fontawesome/brands/github-alt
+   # logo: static/img/logo.png
+    features:
+        - navigation.tabs
+        - navigation.instant
+        - navigation.tabs.sticky
+        - search.suggest
+        - search.highlight
+        - search.share
+        - content.action.edit
+        - content.code.copy
+        - content.footnote.tooltips
+    include_search_page: false
+    search_index_only: true
+    font:
+        text: 'Segoe UI'
+        code: 'Fira Code'
+
+plugins:
+    - glightbox
+    - search
+    - minify:
+        minify_html: true
+#    - pdf-export:
+#        combined: true
+
+# Customization
+extra:
+    # disqus: 'RainPPR'
+    pagetime: 'on'
+    manifest: 'manifest.webmanifest'
+    githash: ''
+    # copyright: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a> 和 <a href="https://github.com/zTrix/sata-license">SATA</a>'
+
+extra_javascript:
+    - static/js/extra.js
+
+    - static/js/jquery.min.js
+    # - static/js/bootstrap.min.js
+    # - static/js/fontawesome.min.js
+
+    - static/katex/katex.min.js
+    - static/katex/contrib/mhchem.min.js
+    - static/katex/contrib/auto-render.min.js
+    - static/katex/contrib/copy-tex.min.js
+
+    - static/js/custom.js
+
+extra_css:
+    - static/css/extra.css
+
+    - static/css/all.min.css
+    - static/katex/katex.min.css
+
+    - static/css/custom.css
+
+# Extensions
+markdown_extensions:
+    - md_in_html
+    - admonition
+    - attr_list
+    - def_list
+    - footnotes
+    - meta
+    - codehilite:
+        guess_lang: false
+        linenums: true
+    - toc:
+        permalink: true
+    - pymdownx.arithmatex:
+        generic: true
+    - pymdownx.details
+    - pymdownx.critic
+    - pymdownx.caret
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.tilde
+    - pymdownx.emoji:
+        # emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.smartsymbols
+    - pymdownx.snippets:
+        check_paths: true
+    - pymdownx.progressbar
+    - pymdownx.superfences:
+        custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tabbed:
+        alternate_style: true

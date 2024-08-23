@@ -1,0 +1,33 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% set disqus = config.extra.disqus %} {% if page and page.meta and page.meta.disqus is string %} {% set disqus = page.meta.disqus
+  %} {% endif %}
+{% set copyright = config.extra.copyright %} {% if page and page.meta and page.meta.copyright is string %} {% set copyright = page.meta.copyright
+  %} {% endif %}
+{% set authors = 'RainPPR' %} {% if page and page.meta and page.meta.author is string %} {% set authors = page.meta.author
+  %} {% endif %}
+<hr><blockquote class="page-copyright">
+  <span><i class="md-icon">{% include ".icons/material/wrench.svg" %}</i>本页面最近更新：</span><span class="facts_modified">正在加载中</span>，<a class="edit_history">更新历史</a>。<br>
+  <span><i class="md-icon">{% include ".icons/material/pencil.svg" %}</i>编辑页面：<a href="{{ page.edit_url }}" title="{{ lang.t('edit.link.title') }}" class="page_edit_url">在 GitHub 上编辑此页</a>！</span><br>
+  <span><i class="md-icon">{% include ".icons/material/account-multiple.svg" %}</i>本页面贡献者：</span><span class="page_contributors">{{ authors }}</span>。<br>
+</blockquote>
+
+<div id="__comments" class="giscus no-print" data-no-instant></div>
+
+<script src="https://giscus.app/client.js"
+        data-repo="RainPPR/blog-giscus"
+        data-repo-id="R_kgDOMhpKmw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOMhpKm84ChhZ7"
+        data-mapping="pathname"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
