@@ -101,26 +101,24 @@ extra:
     # copyright: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a> 和 <a href="https://github.com/zTrix/sata-license">SATA</a>'
 
 extra_javascript:
-    - static/js/extra.js
+    - assets/javascripts/extra.js
 
-    - static/js/jquery.min.js
-    # - static/js/bootstrap.min.js
-    # - static/js/fontawesome.min.js
+    - assets/javascripts/jquery.min.js
 
-    - static/katex/katex.min.js
-    - static/katex/contrib/mhchem.min.js
-    - static/katex/contrib/auto-render.min.js
-    - static/katex/contrib/copy-tex.min.js
+    - assets/katex/katex.min.js
+    - assets/katex/contrib/mhchem.min.js
+    - assets/katex/contrib/auto-render.min.js
+    - assets/katex/contrib/copy-tex.min.js
 
-    - static/js/custom.js
+    - assets/javascripts/custom.js
 
 extra_css:
-    - static/css/extra.css
+    - assets/stylesheets/extra.css
 
-    - static/css/all.min.css
-    - static/katex/katex.min.css
+    - assets/stylesheets/all.min.css
+    - assets/katex/katex.min.css
 
-    - static/css/custom.css
+    - assets/stylesheets/custom.css
 
 # Extensions
 markdown_extensions:
