@@ -37,9 +37,14 @@ jobs:
           git config --global diff.submodule log
           git submodule update --init --recursive
           git submodule update --remote
-          git add .
-          git commit -m "Update Submodule"
-          git push
+          if [[ `git status --porcelain` ]]; then
+            echo Changes.
+            git add .
+            git commit -m "Update Submodule"
+            git push
+          else
+            echo No Changes.
+          fi
 
       - name: Page Build
         run: |
