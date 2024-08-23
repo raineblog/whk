@@ -15,11 +15,10 @@ copyright: by RainPPR
 nav:
     - 简介:
         - index.md
-        - format.md
-        - usage.md
-        - discussion.md
-        - setting.md
-        - KaTeX v0.16.11: static/katex/README.md
+        - intro/format.md
+        - intro/usage.md
+        - intro/discussion.md
+        - intro/setting.md
     - 数学:
         - math/sqrt.md
         - math/inverse.md
