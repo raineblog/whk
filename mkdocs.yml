@@ -29,60 +29,34 @@ nav:
             - misc/math/2024-gk-1.md
             - misc/math/2024-qd-qjjh.md
 
-# Theme
-
-# theme:
-#     name: material
-#     language: 'zh'
-#     palette:
-#         primary: white
-#         accent: red
-#         scheme: preference
-#     icon:
-#         repo: fontawesome/brands/github-alt
-#    # logo: static/img/logo.png
-#     features:
-#         - navigation.tabs
-#         - navigation.instant
-#         - navigation.tabs.sticky
-#         - search.suggest
-#         - search.highlight
-#         - search.share
-#         - content.action.edit
-#         - content.code.copy
-#         - content.footnote.tooltips
-#     include_search_page: false
-#     search_index_only: true
-#     font:
-#         text: 'Segoe UI'
-#         code: 'Fira Code'
-
 theme:
     name: null
     custom_dir: 'material/templates'
-    # static_templates:
-    #     - 404.html
     language: 'zh'
     palette:
         scheme: default
         primary: white
         accent: red
-        scheme: preference
-    icon:
-        repo: fontawesome/brands/github-alt
-   # logo: static/img/logo.png
+        # scheme: preference
     features:
         - navigation.tabs
         - navigation.instant
         - navigation.tabs.sticky
+        - navigation.prune
+        - navigation.path
         - search.suggest
         - search.highlight
         - search.share
+        - announce.dismiss
         - content.action.edit
         - content.code.copy
+        - content.code.select
         - content.footnote.tooltips
+        # - header.autohide
     include_search_page: false
     search_index_only: true
+    icon:
+        repo: fontawesome/brands/github-alt
     font:
         text: 'Segoe UI'
         code: 'Fira Code'
@@ -92,12 +66,8 @@ plugins:
     - search
     - minify:
         minify_html: true
-#    - pdf-export:
-#        combined: true
 
-# Customization
 extra:
-    # disqus: 'RainPPR'
     pagetime: 'on'
     manifest: 'manifest.webmanifest'
     githash: ''
@@ -107,6 +77,8 @@ extra_javascript:
     - assets/javascripts/extra.js
 
     - assets/javascripts/jquery.min.js
+
+    - assets/highlight/highlight.min.js
 
     - assets/katex/katex.min.js
     - assets/katex/contrib/mhchem.min.js
@@ -119,7 +91,10 @@ extra_css:
     - assets/stylesheets/extra.css
 
     - assets/stylesheets/all.min.css
+
     - assets/katex/katex.min.css
+
+    - assets/highlight/styles/stackoverflow-light.min.css
 
     - assets/stylesheets/custom.css
 
@@ -144,24 +119,23 @@ markdown_extensions:
     - pymdownx.keys
     - pymdownx.mark
     - pymdownx.tilde
+    - pymdownx.betterem
     - pymdownx.emoji:
-        # emoji_index: !!python/name:materialx.emoji.twemoji
         emoji_generator: !!python/name:pymdownx.emoji.to_svg
     - pymdownx.highlight:
         anchor_linenums: true
-        line_spans: __span
+        use_pygments: false
         pygments_lang_class: true
+        auto_title: true
+        linenums: true
+        line_spans: __span
+    - pymdownx.superfences
     - pymdownx.inlinehilite
     - pymdownx.magiclink
     - pymdownx.smartsymbols
     - pymdownx.snippets:
         check_paths: true
     - pymdownx.progressbar
-    - pymdownx.superfences:
-        custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
     - pymdownx.tasklist:
         custom_checkbox: true
     - pymdownx.tabbed:
