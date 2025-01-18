@@ -24,6 +24,16 @@ nav:
         - math/inverse.md
         - math/trigonometric.md
         - math/sequence.md
+        - 立体几何:
+            - math/solid/1.md
+            - math/solid/2.md
+    - 物理:
+        - physics/electricity/electricity.md
+        # - 电学和静电学:
+        #     - physics/electricity/electricity/1.md
+        #     - physics/electricity/electricity/2.md
+        #     - physics/electricity/electricity/3.md
+        #     - physics/electricity/electricity/4.md
     - 杂题选讲:
         - 数学:
             - misc/math/2024-gk-1.md
@@ -120,6 +130,7 @@ markdown_extensions:
     - pymdownx.mark
     - pymdownx.tilde
     - pymdownx.betterem
+    - pymdownx.blocks.caption
     - pymdownx.emoji:
         emoji_generator: !!python/name:pymdownx.emoji.to_svg
     - pymdownx.highlight:
