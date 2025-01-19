@@ -21,15 +21,21 @@ nav:
         - intro/setting.md
     - 数学:
         - math/sqrt.md
-        - math/inverse.md
-        - math/trigonometric.md
+        - 初等函数:
+            - math/inverse.md
+            - math/trigonometric.md
         - math/sequence.md
         - 立体几何:
             - math/solid/1.md
             - math/solid/2.md
     - 物理:
-        - physics/electricity/electricity.md
-        # - 电学和静电学:
+        - 力学:
+            - physics/mechanics/kinematics.md
+            - physics/mechanics/statics.md
+            - physics/mechanics/dynamics.md
+            - physics/mechanics/energy.md
+        - 电学:
+            - physics/electricity/electricity.md
         #     - physics/electricity/electricity/1.md
         #     - physics/electricity/electricity/2.md
         #     - physics/electricity/electricity/3.md
