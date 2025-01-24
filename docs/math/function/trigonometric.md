@@ -33,7 +33,7 @@ $$
 与角 $\alpha$ 终边位置相同的角的集合很容易得出，为：
 
 $$
-\{\varphi \mid \varphi = \alpha + 2k\pi, k \in \mathbb{Z}\}
+\{\varphi \mid \varphi = \alpha - 2k\pi, k \in \mathbb{Z}\}
 $$
 
 ### 弧度与角度的转化
@@ -179,24 +179,24 @@ $$
 #### 对称性
 
 1. 正弦函数：
-   * 中心对称：$(k\pi,0),k\in\mathbb Z$；
-   * 轴对称：$x=k\pi-\pi/2,k\in\mathbb Z$；
+   - 中心对称：$(k\pi,0),k\in\mathbb Z$；
+   - 轴对称：$x=k\pi-\pi/2,k\in\mathbb Z$；
 
 2. 余弦函数：
-   * 中心对称：$(k\pi-\pi/2),k\in\mathbb Z$；
-   * 轴对称：$x=k\pi,k\in\mathbb Z$。
+   - 中心对称：$(k\pi-\pi/2),k\in\mathbb Z$；
+   - 轴对称：$x=k\pi,k\in\mathbb Z$。
 
 - 对称中心：零点；对称轴：极值点。
 
 #### 单调性
 
 1. 正弦函数：
-   * 单调递增：$[2k\pi-\pi/2,2k\pi+\pi/2],k\in\mathbb Z$；
-   * 单调递减：$[2k\pi+\pi/2,2k\pi+3\pi/2],k\in\mathbb Z$；
+   - 单调递增：$[2k\pi-\pi/2,2k\pi+\pi/2],k\in\mathbb Z$；
+   - 单调递减：$[2k\pi+\pi/2,2k\pi+3\pi/2],k\in\mathbb Z$；
 
 2. 余弦函数：
-   * 单调递增：$[2k\pi-\pi,2k\pi],k\in\mathbb Z$；
-   * 单调递减：$[2k\pi,2k\pi+\pi],k\in\mathbb Z$；
+   - 单调递增：$[2k\pi-\pi,2k\pi],k\in\mathbb Z$；
+   - 单调递减：$[2k\pi,2k\pi+\pi],k\in\mathbb Z$；
 
 ### 函数 $y=A\sin x$ 的性质
 
@@ -241,18 +241,18 @@ $$
 考虑 $y=\sin x$ 平移 $\varphi$ 和 $x$ 轴伸缩 $\omega$ 这两个操作以不同的顺序会得到什么：
 
 - 先平移 $\varphi$，后 $x$ 轴伸缩 $\omega$：
-	1. $y=\sin x$
+    1. $y=\sin x$
     2. $y=\sin(x+\varphi)$
     3. $y=\sin(\omega x+\varphi)$
 - 先 $x$ 轴伸缩 $\omega$，后平移 $\varphi$：
-	1. $y=\sin x$
+    1. $y=\sin x$
     2. $y=\sin(\omega x)$
     3. $y=\sin(\omega(x+\varphi))$
     4. $y=\sin(\omega x+\omega\varphi)$
 - 易错点：
-	- 平移是对于 $x$ 的，而伸缩（在 $x$ 轴上）是对应整个函数的。
-	- 把函数 $y=\sin(\omega x+\varphi)$（可以看为 $f(x)=\sin(\omega x+\varphi)$）：
-	- 平移 $\varphi'$ 是 $y=\sin(\omega(x+\varphi')+\varphi)$，而不是 $y=\sin(\omega x+\varphi'+\varphi)$
+    - 平移是对于 $x$ 的，而伸缩（在 $x$ 轴上）是对应整个函数的。
+    - 把函数 $y=\sin(\omega x+\varphi)$（可以看为 $f(x)=\sin(\omega x+\varphi)$）：
+    - 平移 $\varphi'$ 是 $y=\sin(\omega(x+\varphi')+\varphi)$，而不是 $y=\sin(\omega x+\varphi'+\varphi)$
     - 伸缩 $\omega'$ 是 $y=\sin(\omega'\omega x+\varphi)$，而不是 $y=\sin(\omega'(\omega x+\varphi))$
     - 即，平移是对于 $x$ 的操作，伸缩是对于传入函数的值的操作。
 
@@ -307,11 +307,11 @@ PS：（其实也包括上文）
 首先我们整理一下各个字母的含义：
 
 - $A$ 表示振幅：
-	- 若 $A>1$，图像在 $y$ 轴上伸长；
+    - 若 $A>1$，图像在 $y$ 轴上伸长；
     - 若 $A<1$，图像在 $y$ 轴上压缩；
     - 伸缩倍率为 $A$。
 - $\omega$ 表示角速度：
-	- 若 $\omega>1$，图像在 $x$ 轴上压缩；
+    - 若 $\omega>1$，图像在 $x$ 轴上压缩；
     - 若 $\omega<1$，图像在 $x$ 轴上伸长；
     - 伸缩倍率为 $1/\omega$。
 - $\varphi$ 表示初相，但是并不单独决定函数的位置。
@@ -454,7 +454,6 @@ $$
 \tan(\alpha+2\pi)&=\tan\alpha
 \end{aligned}
 $$
-
 
 ### 函数关于 π 的周期性
 
@@ -966,6 +965,4 @@ $$
 
 知识点：函数、和差恒等式、降次公式、辅助角公式。
 
-PS：最后辅助角公式的应用中，$\arctan b/a$ 可以不用算出来，因为 $x$ 属于实数域，$\sin$ 函数里面一定是任何一个实数都取得到，直接取 $r=\sqrt{a^2+b^2}=2\sqrt3$ 即可得出答案。
-
-The END.
+另外：最后辅助角公式的应用中，$\arctan b/a$ 可以不用算出来，因为 $x$ 属于实数域，$\sin$ 函数里面一定是任何一个实数都取得到，直接取 $r=\sqrt{a^2+b^2}=2\sqrt3$ 即可得出答案。

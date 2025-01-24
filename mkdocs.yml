@@ -20,10 +20,10 @@ nav:
         - intro/discussion.md
         - intro/setting.md
     - 数学:
-        - math/sqrt.md
         - 初等函数:
-            - math/inverse.md
-            - math/trigonometric.md
+            - math/function/function.md
+            - math/function/sqrt.md
+            - math/function/trigonometric.md
         - 平面向量:
             - math/vector/1.md
             - math/vector/2.md
