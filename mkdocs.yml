@@ -24,7 +24,10 @@ nav:
         - 初等函数:
             - math/inverse.md
             - math/trigonometric.md
-        - math/vector.md
+        - 平面向量:
+            - math/vector/1.md
+            - math/vector/2.md
+            - math/vector/3.md
         - math/sequence.md
         - 立体几何:
             - math/solid/1.md
