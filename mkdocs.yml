@@ -28,7 +28,10 @@ nav:
             - math/vector/1.md
             - math/vector/2.md
             - math/vector/3.md
-        - math/sequence.md
+        - 数列:
+            - math/sequence/1.md
+            - math/sequence/2.md
+            - math/sequence/3.md
         - 立体几何:
             - math/solid/1.md
             - math/solid/2.md
