@@ -4,10 +4,10 @@ site_description: by RainPPR
 site_author: RainPPR
 strict: false
 
-site_url: https://rainppr.github.io/whk/
+site_url: https://raineblog.github.io/whk/
 
-repo_name: RainPPR/whk
-repo_url: https://github.com/RainPPR/whk
+repo_name: raineblog/whk
+repo_url: https://github.com/raineblog/whk
 edit_uri: edit/main/docs/
 copyright: by RainPPR
 
