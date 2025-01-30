@@ -36,6 +36,8 @@ nav:
             - math/solid/1.md
             - math/solid/2.md
             - math/solid/3.md
+        - 概率和统计:
+            - math/statistics/1.md
     - 物理:
         - 力学:
             - physics/mechanics/kinematics.md
@@ -44,10 +46,6 @@ nav:
             - physics/mechanics/energy.md
         - 电学:
             - physics/electricity/electricity.md
-        #     - physics/electricity/electricity/1.md
-        #     - physics/electricity/electricity/2.md
-        #     - physics/electricity/electricity/3.md
-        #     - physics/electricity/electricity/4.md
     - 杂题选讲:
         - 数学:
             - misc/math/2024-gk-1.md
