@@ -34,7 +34,7 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
       - name: Update Submodule
         run: |
-          git config --global diff.submodule log
+          git submodule sync
           git submodule update --init --recursive
           git submodule update --remote
           if [[ `git status --porcelain` ]]; then
