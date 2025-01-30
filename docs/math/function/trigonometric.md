@@ -651,13 +651,38 @@ $$
 
 正负号由半角所在象限决定。
 
-### 三倍角公式
+### 第一类切比雪夫多项式
+
+第一类 Chebyshev（切比雪夫）多项式由以下递推关系确定：
 
 $$
 \begin{aligned}
-\sin3\alpha&=3\sin\alpha-4\sin^2\alpha\\
-\cos3\alpha&=4\cos^2\alpha-3\cos\alpha\\
-\tan3\alpha&={3\tan\alpha-\tan^3\alpha\over1-3\tan^2\alpha}\\
+T_0(x)&=1\\
+T_1(x)&=x\\
+T_{n+1}(x)&=2xT_n(x)-T_{n-1}(x)
+\end{aligned}
+$$
+
+有三角恒等式：
+
+$$
+cos(n\theta)=T_n(\cos\theta)
+$$
+
+其中：
+
+$$
+\begin{aligned}
+T_{0}(x) & = 1\\
+T_{1}(x) & = x\\
+T_{2}(x) & = 2x^{2}-1\\
+T_{3}(x) & = 4x^{3}-3x\\
+T_{4}(x) & = 8x^{4}-8x^{2}+1\\
+T_{5}(x) & = 16x^{5}-20x^{3}+5x\\
+T_{6}(x) & = 32x^{6}-48x^{4}+18x^{2}-1\\
+T_{7}(x) & = 64x^{7}-112x^{5}+56x^{3}-7x\\
+T_{8}(x) & = 128x^{8}-256x^{6}+160x^{4}-32x^{2}+1\\
+T_{9}(x) & = 256x^{9}-576x^{7}+432x^{5}-120x^{3}+9x
 \end{aligned}
 $$
 
