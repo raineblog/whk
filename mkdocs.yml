@@ -1,7 +1,7 @@
 # Project Information
-site_name: RainPPR's WHK Blog
-site_description: by RainPPR
-site_author: RainPPR
+site_name: raine's WHK Blog
+site_description: by raine
+site_author: raine
 strict: false
 
 site_url: https://raineblog.github.io/whk/
@@ -9,7 +9,7 @@ site_url: https://raineblog.github.io/whk/
 repo_name: raineblog/whk
 repo_url: https://github.com/raineblog/whk
 edit_uri: edit/main/docs/
-copyright: by RainPPR
+copyright: by raine
 
 # Contents
 nav:
