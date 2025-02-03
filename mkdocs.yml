@@ -37,7 +37,8 @@ nav:
             - math/solid/2.md
             - math/solid/3.md
         - 概率和统计:
-            - math/statistics/1.md
+            - math/statistics.md
+            - math/probability/1.md
     - 物理:
         - 力学:
             - physics/mechanics/kinematics.md
