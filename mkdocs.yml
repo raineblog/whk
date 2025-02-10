@@ -1,7 +1,7 @@
 # Project Information
-site_name: raine's WHK Blog
+site_name: RainPPR's WHK Blog
 site_description: by raine
-site_author: raine
+site_author: RainPPR
 strict: false
 
 site_url: https://raineblog.github.io/whk/
@@ -9,7 +9,7 @@ site_url: https://raineblog.github.io/whk/
 repo_name: raineblog/whk
 repo_url: https://github.com/raineblog/whk
 edit_uri: edit/main/docs/
-copyright: by raine
+copyright: by RainPPR
 
 # Contents
 nav:
@@ -19,6 +19,10 @@ nav:
         - intro/usage.md
         - intro/discussion.md
         - intro/setting.md
+        - misc/madoka.md
+    - 语文:
+        - 必背古诗文:
+            - chinese/book/2.md
     - 数学:
         - 初等函数:
             - math/function/function.md
@@ -47,6 +51,27 @@ nav:
             - physics/mechanics/energy.md
         - 电学:
             - physics/electricity/electricity.md
+    - 化学:
+        - 化学原理:
+            - chemistry/principle/basics.md
+            - chemistry/principle/structure.md
+            - chemistry/principle/thermo.md
+            - chemistry/principle/electro.md
+            - chemistry/principle/solution.md
+            - chemistry/principle/speed.md
+        - 化学元素:
+            - chemistry/element/na.md
+            - chemistry/element/cl.md
+            - chemistry/element/fe.md
+            - chemistry/element/s.md
+            - chemistry/element/n.md
+            - chemistry/element/al.md
+            - chemistry/element/si.md
+       # - 有机化学:
+        - 化学应用:
+            - chemistry/use/experiment.md
+            - chemistry/use/industry.md
+            - chemistry/use/life.md
     - 杂题选讲:
         - 数学:
             - misc/math/2024-gk-1.md
