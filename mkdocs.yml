@@ -1,15 +1,15 @@
 # Project Information
 site_name: RainPPR's WHK Blog
 site_description: by raine
-site_author: RainPPR
+site_author: RainPPR # 显示为 commit 记录的默认名称
 strict: false
 
 site_url: https://raineblog.github.io/whk/
 
-repo_name: raineblog/whk
+repo_name: raineblog/whk # 用于寻找 commit 记录
 repo_url: https://github.com/raineblog/whk
 edit_uri: edit/main/docs/
-copyright: by RainPPR
+copyright: by RainPPR # 页脚
 
 # Contents
 nav:
