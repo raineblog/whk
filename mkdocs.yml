@@ -106,7 +106,7 @@ theme:
     icon:
         repo: fontawesome/brands/github-alt
     font:
-        text: 'Segoe UI'
+        text: 'Noto Sans SC'
         code: 'Fira Code'
 
 plugins:
