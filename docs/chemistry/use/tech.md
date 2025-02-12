@@ -327,14 +327,3 @@ Cl2 + HI(g)
 Fe + H2O(g)
 
 C + H2O -> CO + H2
-
-<style>
-h2, h3 {
-    text-align: center;
-}
-@media print{
-    h1{
-        text-align: center;
-    }
-}
-</style>
