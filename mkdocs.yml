@@ -2,7 +2,7 @@
 site_name: RainPPR's WHK Blog
 site_description: by raine
 site_author: RainPPR # 显示为 commit 记录的默认名称
-strict: false
+strict: true
 
 site_url: https://raineblog.github.io/whk/
 
@@ -79,14 +79,27 @@ nav:
             - misc/math/2024-qd-qjjh.md
 
 theme:
-    name: null
+    name: material
     custom_dir: 'material/templates'
     language: 'zh'
     palette:
+        # Palette toggle for light mode
+        - media: "(prefers-color-scheme: light)"
         scheme: default
         primary: white
         accent: red
-        # scheme: preference
+        toggle:
+            icon: material/weather-sunny
+            name: Switch to dark mode
+
+        # Palette toggle for dark mode
+        - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        primary: blue
+        accent: blue
+        toggle:
+            icon: material/weather-night
+            name: Switch to light mode
     features:
         - navigation.tabs
         - navigation.instant
@@ -98,23 +111,29 @@ theme:
         - search.share
         - announce.dismiss
         - content.action.edit
+        - content.action.view
         - content.code.copy
         - content.code.select
         - content.footnote.tooltips
         # - header.autohide
     include_search_page: false
-    search_index_only: true
     icon:
-        repo: fontawesome/brands/github-alt
+        repo: fontawesome/brands/github
+        edit: material/pencil 
+        view: material/eye
     font:
         text: 'Noto Sans SC'
         code: 'Fira Code'
 
 plugins:
     - glightbox
-    - search
-    - minify:
-        minify_html: true
+    - search:
+        lang: zh
+        pipeline:
+            - stemmer
+            - stopWordFilter
+            - trimmer
+    - tags
 
 extra:
     pagetime: 'on'
