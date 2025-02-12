@@ -133,7 +133,6 @@ plugins:
             - stemmer
             - stopWordFilter
             - trimmer
-    - tags
 
 extra:
     pagetime: 'on'
