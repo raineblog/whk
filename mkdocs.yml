@@ -127,12 +127,7 @@ theme:
 
 plugins:
     - glightbox
-    - search:
-        lang: zh
-        pipeline:
-            - stemmer
-            - stopWordFilter
-            - trimmer
+    - search
 
 extra:
     pagetime: 'on'
