@@ -69,6 +69,7 @@ nav:
             - chemistry/element/si.md
        # - 有机化学:
         - 化学应用:
+            - chemistry/use/tech.md
             - chemistry/use/experiment.md
             - chemistry/use/industry.md
             - chemistry/use/life.md
