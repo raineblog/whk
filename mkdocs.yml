@@ -79,7 +79,7 @@ nav:
             - misc/math/2024-qd-qjjh.md
 
 theme:
-    name: material
+    name: null
     custom_dir: 'material/templates'
     language: 'zh'
     palette:
