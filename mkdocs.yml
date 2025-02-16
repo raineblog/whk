@@ -2,7 +2,7 @@
 site_name: RainPPR's WHK Blog
 site_description: by raine
 site_author: RainPPR # 显示为 commit 记录的默认名称
-strict: true
+strict: false
 
 site_url: https://raineblog.github.io/whk/
 
@@ -20,9 +20,6 @@ nav:
         - intro/discussion.md
         - intro/setting.md
         - misc/madoka.md
-    - 语文:
-        - 必背古诗文:
-            - chinese/book/2.md
     - 数学:
         - 初等函数:
             - math/function/function.md
@@ -44,11 +41,18 @@ nav:
             - math/statistics.md
             - math/probability/1.md
     - 物理:
-        - 力学:
-            - physics/mechanics/kinematics.md
-            - physics/mechanics/statics.md
-            - physics/mechanics/dynamics.md
-            - physics/mechanics/energy.md
+        - 经典力学:
+            - 运动学:
+                - physics/mechanics/kinematics/1.md
+                - physics/mechanics/kinematics/2.md
+                - physics/mechanics/kinematics/3.md
+            - 静力学:
+                - physics/mechanics/statics/1.md
+                - physics/mechanics/statics/2.md
+            - 动力学:
+                - physics/mechanics/dynamics/dynamics.md
+                - physics/mechanics/dynamics/energy.md
+                - physics/mechanics/dynamics/celestial.md
         - 电学:
             - physics/electricity/electricity.md
     - 化学:

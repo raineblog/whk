@@ -54,4 +54,4 @@ jobs:
       - name: Page Build
         run: |
           git rev-parse --short HEAD | xargs -I % sed -i "s/githash: ''/githash: '%'/g" mkdocs.yml
-          mkdocs gh-deploy --force --verbose
+          mkdocs gh-deploy --force
