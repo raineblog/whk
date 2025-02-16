@@ -48,7 +48,7 @@
 
 第一宇宙速度（环绕速度）是指在地球上发射的物体绕地球飞行作圆周运动所需的最小初始速度。
 
-物体从地面发射，即 $r=R$，那么 $v=\sqrt{\dfrac{GM}{R}}=\sqrt{\dfrac{R^2g}{R}}=\sqrt{gR}\doteq9.7\mathrm{km/s}$。
+物体从地面发射，即 $r=R$，那么 $v=\sqrt{\dfrac{GM}{R}}=\sqrt{\dfrac{R^2g}{R}}=\sqrt{gR}\approx 7.9\mathrm{km/s}$。
 
 ### 第二宇宙速度
 
@@ -61,13 +61,13 @@ $$
 \dfrac{1}{2}mv^2&=G\dfrac{Mm}{R}\\
 v^2&=\dfrac{2GM}{R}\\
 v&=\sqrt{\dfrac{2R^2g}{R}}\\
-v&=\sqrt{2gR}\doteq 11.2\mathrm{km/s}
+v&=\sqrt{2gR}\approx 11.2\mathrm{km/s}
 \end{aligned}
 $$
 
 ### 第三宇宙速度
 
-第三宇宙速度（英语：third cosmic velocity)，是指在地球上发射的物体摆脱太阳引力束缚，飞出太阳系所需的最小初始速度。
+第三宇宙速度（英语：third cosmic velocity），是指在地球上发射的物体摆脱太阳引力束缚，飞出太阳系所需的最小初始速度。
 
 在地球轨道上，要脱离太阳引力所需的初始速度为 $42.1\mathrm{km/s}$；地球绕太阳公转时令地面所有物体已具有 $29.8\mathrm{km/s}$ 的初始速度。
 
@@ -78,13 +78,13 @@ $$
 \dfrac{1}{2}m{v_3}^2&=\dfrac{1}{2}m{v_2}^2+\dfrac{1}{2}m\Delta v^2\\
 {v_3}^2&={v_2}^2+\Delta v^2\\
 v_3&=\sqrt{{v_2}^2+\Delta v^2}\\
-v_3&\doteq\sqrt{11.2^2+12.3^2}\doteq16.7\mathrm{km/s}
+v_3&\approx\sqrt{11.2^2+12.3^2}\approx 16.7\mathrm{km/s}
 \end{aligned}
 $$
 
 记忆方法：
 
-- 第一 $[9.7]$。
+- 第一 $[7.9]$。
 
 - 第二 $[1+1]$（$1+1=2\Rightarrow11.2$）。
 
@@ -110,7 +110,7 @@ $$
 
 物理量的变化：当 $r$ 增大时，$v$ 减小、$\omega$ 减小、$a$ 减小，$T$ 增大（前提：圆周运动）。
 
-代数运算：常取 $G\doteq20/3\times10^{-11}$（忽略单位），$\pi^2\doteq10$。
+代数运算：常取 $G\approx 20/3\times10^{-11}$（忽略单位），$\pi^2\approx 10$。
 
 古老的公式：$\rho=\dfrac{m}{V}$，$V=\dfrac{4}{3}\pi r^3$。
 
@@ -196,7 +196,7 @@ $$
 \begin{aligned}
 \rho&=\dfrac{M}{V}=\dfrac{\frac{R^2g_0}{G}}{\frac{4}{3}\pi R^3}=\dfrac{3R^2g_0}{4\pi GR^3}\\
 &=\dfrac{3g_0}{4\pi GR}=\dfrac{3g_0}{4\pi G\frac{(g_0-g)T^2}{4\pi^2}}=\dfrac{3g_0\pi}{G(g_0-g)T^2}\\
-&=\dfrac{g_0}{g_0-g}\cdot\dfrac{3\pi}{GT_2}
+&=\dfrac{g_0}{g_0-g}\cdot\dfrac{3\pi}{GT^2}
 \end{aligned}
 $$
 
