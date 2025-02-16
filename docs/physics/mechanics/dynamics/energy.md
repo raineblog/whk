@@ -1,4 +1,4 @@
-# 功能动量
+# 功和动量
 
 ## 功和功率
 
@@ -36,7 +36,7 @@ $$
 ### 瞬时功率
 
 $$
-P=\frac{\mathrm dW}{\mathrm dt}=\frac{\vec F\vec x}{t}=\vec F\vec v=Fv\cos\theta
+P=\frac{\mathrm{d}W}{\mathrm{d}t}=\frac{\vec{F}\vec{x}}{t}=\vec{F}\vec{v}=Fv\cos\theta
 $$
 
 符号解释同上。
@@ -51,7 +51,7 @@ $$
 
 $$
 \begin{aligned}
-F_合=ma&=F-f\\
+F_{\text{合}}=ma&=F-f\\
 F&=\frac{P}{v}
 \end{aligned}
 $$
@@ -179,19 +179,19 @@ $$
 胡克定律：
 
 $$
-F_弹=kx
+F_{\text{弹}}=kx
 $$
 
 弹性势能公式：
 
 $$
-E_{p弹}={1\over2}kx^2
+E_{p\text{弹}}=\frac{1}{2}kx^2
 $$
 
 弹力做正功，弹性势能减少。
 
 $$
-W_弹=-\Delta E_{p弹}
+W_{\text{弹}}=-\Delta E_{p\text{弹}}
 $$
 
 注意：这里讨论的做功是弹簧对物体做功，弹簧的势能减小。
@@ -203,7 +203,7 @@ $$
 机械能是指宏观物质所表现出的势能 $E_p$ 与动能 $E_k$ 的总和，即：
 
 $$
-E_机=E_k+E_p
+E_{\text{机}}=E_k+E_p
 $$
 
 不包括电势能。
@@ -211,7 +211,7 @@ $$
 #### 机械能与做功的关系
 
 $$
-W_{除G}=\Delta E_机
+W_{\text{除G}}=\Delta E_{\text{机}}
 $$
 
 做正功，机械能增加；排除了重力做功，因为：
@@ -224,10 +224,10 @@ $$
 
 冲量是作用在物体上的力在时间上的累积效果。
 
-用符号 $\bm I$ 表示，也可用 $\bm J$ 或 Imp 表示冲量，公式：
+用符号 $\bm{I}$ 表示，也可用 $\bm{J}$ 或 Imp 表示冲量，公式：
 
 $$
-\bm I=\bm Ft
+\bm{I}=\bm{F}t
 $$
 
 没有特殊的单位，其单位为 $F$ 和 $t$ 单位的合成，即 $\mathrm{N\cdot s}$（牛秒）。
@@ -236,8 +236,8 @@ $$
 
 $$
 \begin{aligned}
-\bm I=\bm Ft\\
-W=\bm F\bm x=Fx\cos\theta
+\bm{I}=\bm{F}t\\
+W=\bm{F}\bm{x}=Fx\cos\theta
 \end{aligned}
 $$
 
@@ -249,8 +249,8 @@ $$
 
 $$
 \begin{aligned}
-\bm I_合=\Sigma\bm I=t\Sigma\bm F=\bm F_合t\\
-W_合=\Sigma(\bm F\bm x)=\Sigma W
+\bm{I}_{\text{合}}=\Sigma\bm{I}=t\Sigma\bm{F}=\bm{F}_{\text{合}}t\\
+W_{\text{合}}=\Sigma(\bm{F}\bm{x})=\Sigma W
 \end{aligned}
 $$
 
@@ -258,10 +258,10 @@ $$
 
 动量是一个物体在它运动方向上保持运动的趋势。
 
-用符号 $\bm p$ 表示，公式：
+用符号 $\bm{p}$ 表示，公式：
 
 $$
-\bm p=m\bm v
+\bm{p}=m\bm{v}
 $$
 
 没有特殊的单位，其单位为 $m$ 和 $v$ 单位的合成，即 $\mathrm{kg\cdot m/s}$（牛秒）。
@@ -269,7 +269,7 @@ $$
 变化量的计算：
 
 $$
-\Delta\bm p=m\bm v_t-m\bm v_0
+\Delta\bm{p}=m\bm{v}_t-m\bm{v}_0
 $$
 
 注意相减一定要是矢量相减，因此在一条直线上的运算需要规定正方向。
@@ -279,21 +279,21 @@ PS：默认初速度方向为正方向。
 动量与动能的转化：
 
 $$
-p^2=m^2v^2={1\over2}mv^2\times2m=2m\cdot E_k
+p^2=m^2v^2=\frac{1}{2}mv^2\times2m=2m\cdot E_k
 $$
 
-即 $\displaystyle E_k={p^2\over2m}$，但是这个结论适用范围很窄，一定要考虑方向的问题。
+即 $E_k=\frac{p^2}{2m}$，但是这个结论适用范围很窄，一定要考虑方向的问题。
 
 ### 动量和动能
 
 $$
 \begin{aligned}
-\bm p=m\bm v\\
-E_k={1\over2}mv^2
+\bm{p}=m\bm{v}\\
+E_k=\frac{1}{2}mv^2
 \end{aligned}
 $$
 
-其中 $\bm v$ 表示速度，$v$ 表示速率。
+其中 $\bm{v}$ 表示速度，$v$ 表示速率。
 
 在 $m$ 不改变的情况下：
 
@@ -372,13 +372,13 @@ $$
 功动能定理指合力作用在物质上（合力做功）的功等于物质的动能变化量。
 
 $$
-W_合=\Delta E_k=\frac{1}{2}m{v_t}^2-\frac{1}{2}m{v_0}^2
+W_{\text{合}}=\Delta E_k=\frac{1}{2}m{v_t}^2-\frac{1}{2}m{v_0}^2
 $$
 
 其中可以表示，
 
 $$
-W_合=F_合x=\Sigma W
+W_{\text{合}}=F_{\text{合}}x=\Sigma W
 $$
 
 ### 解题方法
@@ -387,8 +387,8 @@ $$
 
 $$
 \begin{aligned}
-W_合&=\Delta E_k\\
-W_G+W_f+\dots&={1\over2}m{v_t}^2-{1\over2}m{v_0}^2
+W_{\text{合}}&=\Delta E_k\\
+W_G+W_f+\dots&=\frac{1}{2}m{v_t}^2-\frac{1}{2}m{v_0}^2
 \end{aligned}
 $$
 
@@ -403,7 +403,7 @@ PS：仅是具体，具体什么做功请分析。
 $$
 \begin{aligned}
 W_G&=-\Delta E_{pG}\\
-W_弹&=-\Delta E_{p弹}\\
+W_{\text{弹}}&=-\Delta E_{p\text{弹}}
 \end{aligned}
 $$
 
@@ -417,8 +417,8 @@ $$
 
 $$
 \begin{aligned}
-W_合=&\Delta E_k\\
-W_{除G}=&\Delta E_机
+W_{\text{合}}&=\Delta E_k\\
+W_{\text{除G}}&=\Delta E_{\text{机}}
 \end{aligned}
 $$
 
@@ -465,15 +465,15 @@ $$
 
 $$
 \begin{aligned}
-\Sigma\bm I&=\Delta\bm p\\
-\bm F_合t&=m\Delta\bm v
+\Sigma\bm{I}&=\Delta\bm{p}\\
+\bm{F}_{\text{合}}t&=m\Delta\bm{v}
 \end{aligned}
 $$
 
 上述式子可以用一行，更清晰的表示：
 
 $$
-\bm I=\bm F\Delta t=m\Delta\bm v=\Delta\bm p
+\bm{I}=\bm{F}\Delta t=m\Delta\bm{v}=\Delta\bm{p}
 $$
 
 其中 $I$ 表示物体所受冲量，$m$ 表示物体的质量，$F$ 表示物体所受的合外力（恒力），$\Delta t$ 表示力的作用时间，$\Delta v$ 表示速度的变化量，$\Delta p$ 是动量变化量。
@@ -483,13 +483,13 @@ $$
 ### 一点解释
 
 $$
-\Delta\bm p=\bm I
+\Delta\bm{p}=\bm{I}
 $$
 
 即物体的动量变化量即为物体受到的冲量。
 
 $$
-{\Delta\bm p\over\Delta t}=\bm F
+{\Delta\bm{p}\over\Delta t}=\bm{F}
 $$
 
 即物体的动量变化率即为其受到的合外力。
@@ -497,15 +497,15 @@ $$
 另外，有牛顿第二定律的原式形式：
 
 $$
-\bm F={\Delta\bm p\over\Delta t}={m\Delta\bm v\over\Delta t}=m\bm a
+\bm{F}={\Delta\bm{p}\over\Delta t}={m\Delta\bm{v}\over\Delta t}=m\bm{a}
 $$
 
 部分推导如下：
 
 $$
 \begin{aligned}
-\bm F\Delta t=m\bm a\Delta t=m\Delta\bm v\\
-m\Delta\bm v=\Delta(m\bm v)=\Delta\bm p
+\bm{F}\Delta t=m\bm{a}\Delta t=m\Delta\bm{v}\\
+m\Delta\bm{v}=\Delta(m\bm{v})=\Delta\bm{p}
 \end{aligned}
 $$
 
@@ -538,8 +538,8 @@ $$
 
 $$
 \begin{aligned}
-&m_1\bm v_1+m_2\bm v_2+\dots+m_n\bm v_n\\
-=\;&m_1\bm v_1'+m_2\bm v_2'+\dots+m_n\bm v_n'
+&m_1\bm{v}_1+m_2\bm{v}_2+\dots+m_n\bm{v}_n\\
+=\;&m_1\bm{v}_1'+m_2\bm{v}_2'+\dots+m_n\bm{v}_n'
 \end{aligned}
 $$
 
@@ -590,21 +590,21 @@ $$
 数学表示：
 
 $$
-\sum_{i=1}^n\bm p_i=\mathit{const}
+\sum_{i=1}^n\bm{p}_i=\mathit{const}
 $$
 
 一般更常用以以下形式表示：
 
 $$
-\sum_{i=1}^nm_i\bm v_i=\mathit{const}
+\sum_{i=1}^nm_i\bm{v}_i=\mathit{const}
 $$
 
 即：
 
 $$
 \begin{aligned}
-&m_1\bm v_1+m_2\bm v_2+\dots+m_n\bm v_n\\
-=\;&m_1\bm v_1'+m_2\bm v_2'+\dots+m_n\bm v_n'
+&m_1\bm{v}_1+m_2\bm{v}_2+\dots+m_n\bm{v}_n\\
+=\;&m_1\bm{v}_1'+m_2\bm{v}_2'+\dots+m_n\bm{v}_n'
 \end{aligned}
 $$
 
@@ -625,13 +625,13 @@ $$
 2. 动量守恒
 
     $$
-    m_1\bm v_1+m_2\bm v_2=m_1\bm v_1'+m_2\bm v_2'
+    m_1\bm{v}_1+m_2\bm{v}_2=m_1\bm{v}_1'+m_2\bm{v}_2'
     $$
 
 3. 动能守恒
 
     $$
-    {1\over2}m_1v_1^2+{1\over2}m_2v_2^2={1\over2}m_1v_1'^2+{1\over2}m_2v_2'^2
+    \frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2=\frac{1}{2}m_1v_1'^2+\frac{1}{2}m_2v_2'^2
     $$
 
 4. 结论，$v_f$ 表示质心速度
@@ -640,7 +640,7 @@ $$
     \left\{\begin{aligned}
     v_1'&=2v_f-v_1\\
     v_2'&=2v_f-v_2\\
-    v_f&={m_1v_1+m_2v_2\over m_1+m_2}
+    v_f&=\frac{m_1v_1+m_2v_2}{m_1+m_2}
     \end{aligned}\right.
     $$
 
@@ -651,13 +651,13 @@ $$
 1. 动量守恒
 
     $$
-    m_1\bm v_1+m_2\bm v_2=m_1\bm v_1'+m_2\bm v_2'
+    m_1\bm{v}_1+m_2\bm{v}_2=m_1\bm{v}_1'+m_2\bm{v}_2'
     $$
 
 2. 能量损失
 
     $$
-    E_损=\left({1\over2}m_1v_1^2+{1\over2}m_2v_2^2\right)-{1\over2}(m_1+m_2)v_f^2
+    E_{\text{损}}=\left(\frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2\right)-\frac{1}{2}(m_1+m_2)v_f^2
     $$
 
 3. 损失去向
@@ -671,7 +671,7 @@ $$
     注意这里的加号是矢量相加：
 
     $$
-    0=m_1\bm v_1+m_2\bm v_2
+    0=m_1\bm{v}_1+m_2\bm{v}_2
     $$
 
 2. 位移关系
@@ -691,8 +691,8 @@ $$
 
     $$
     \begin{aligned}
-    x_1&={m_2x\over m_1+m_2}\\
-    x_2&={m_1x\over m_1+m_2}
+    x_1&=\frac{m_2x}{m_1+m_2}\\
+    x_2&=\frac{m_1x}{m_1+m_2}
     \end{aligned}
     $$
 
@@ -721,19 +721,19 @@ $$
 即质心速度，
 
 $$
-v_f=v_0\cdot{m\over m+M}=2\mathrm{m/s}
+v_f=v_0\cdot\frac{m}{m+M}=2\mathrm{m/s}
 $$
 
 损失的动能：
 
 $$
-E_损={1\over2}mv_0^2-{1\over2}(m+M)v_f^2=24(\mathrm{J})
+E_{\text{损}}=\frac{1}{2}mv_0^2-\frac{1}{2}(m+M)v_f^2=24(\mathrm{J})
 $$
 
 损失的动能全部转化为重力势能：
 
 $$
-E_损=E_p=mgh=20h
+E_{\text{损}}=E_p=mgh=20h
 $$
 
 解得 $h=1.2\mathrm{m}$。
@@ -763,8 +763,8 @@ $$
 
 $$
 \begin{aligned}
-E_0&={1\over2}mv_0^2=36(\mathrm{J})\\
-E_t&={1\over2}Mv_1^2=18(\mathrm{J})
+E_0&=\frac{1}{2}mv_0^2=36(\mathrm{J})\\
+E_t&=\frac{1}{2}Mv_1^2=18(\mathrm{J})
 \end{aligned}
 $$
 
@@ -802,13 +802,13 @@ PS：这里只讨论垂直碰撞，不讨论斜碰撞。
 - 动能守恒：
 
 $$
-{1\over2}m_1v_1^2+{1\over2}m_2v_2^2={1\over2}m_1v_1'^2+{1\over2}m_2v_2'^2
+\frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2=\frac{1}{2}m_1v_1'^2+\frac{1}{2}m_2v_2'^2
 $$
 
 - 动量守恒：
 
 $$
-m_1\bm v_1+m_2\bm v_2=m_1\bm v_1'+m_2\bm v_2'
+m_1\bm{v}_1+m_2\bm{v}_2=m_1\bm{v}_1'+m_2\bm{v}_2'
 $$
 
 #### 做题方法
@@ -818,7 +818,7 @@ $$
 $$
 \left\{\begin{aligned}
 m_1v_1+m_2v_2&=m_1v_1'+m_2v_2'\\
-{1\over2}m_1v_1^2+{1\over2}m_2v_2^2&={1\over2}m_1v_1'^2+{1\over2}m_2v_2'^2
+\frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2&=\frac{1}{2}m_1v_1'^2+\frac{1}{2}m_2v_2'^2
 \end{aligned}\right.
 $$
 
@@ -835,8 +835,8 @@ $$
 
 $$
 \left\{\begin{aligned}
-v_1'&={v_1(m_1-m_2)+2m_2v_2\over m_1+m_2}\\
-v_2'&={v_2(m_2-m_1)+2m_1v_1\over m_1+m_2}
+v_1'&=\frac{v_1(m_1-m_2)+2m_2v_2}{m_1+m_2}\\
+v_2'&=\frac{v_2(m_2-m_1)+2m_1v_1}{m_1+m_2}
 \end{aligned}\right.
 $$
 
@@ -848,8 +848,8 @@ PS：下面的式子不用记，直接用上面的方程组解即可。
 
 $$
 \left\{\begin{aligned}
-v_1'&={v_1(m_1-m_2)\over m_1+m_2}\\
-v_2'&={2m_1v_1\over m_1+m_2}
+v_1'&=\frac{v_1(m_1-m_2)}{m_1+m_2}\\
+v_2'&=\frac{2m_1v_1}{m_1+m_2}
 \end{aligned}\right.
 $$
 
@@ -884,7 +884,7 @@ $$
 $$
 \begin{aligned}
 m_1v_1+m_2v_2=(m_1+m_2)v_f\\
-v_f={m_1v_1+m_2v_2\over m_1+m_2}
+v_f=\frac{m_1v_1+m_2v_2}{m_1+m_2}
 \end{aligned}
 $$
 
@@ -892,9 +892,9 @@ $$
 
 $$
 \left\{\begin{aligned}
-v_1'&=2\cdot{m_1v_1+m_2v_2\over m_1+m_2}-v_1\\
-v_2'&=2\cdot{m_1v_1+m_2v_2\over m_1+m_2}-v_2
-\end{aligned}\right.
+v_1'&=2\cdot\frac{m_1v_1+m_2v_2}{m_1+m_2}-v_1\\
+v_2'&=2\cdot\frac{m_1v_1+m_2v_2}{m_1+m_2}-v_2
+\end{aligned}
 $$
 
 不要化简。
@@ -923,13 +923,13 @@ $$
 - 动能不守恒：
 
 $$
-{1\over2}m_1v_1^2+{1\over2}m_2v_2^2\ge{1\over2}m_1v_1'^2+{1\over2}m_2v_2'^2
+\frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2\ge\frac{1}{2}m_1v_1'^2+\frac{1}{2}m_2v_2'^2
 $$
 
 - 动量守恒：
 
 $$
-m_1\bm v_1+m_2\bm v_2=m_1\bm v_1'+m_2\bm v_2'
+m_1\bm{v}_1+m_2\bm{v}_2=m_1\bm{v}_1'+m_2\bm{v}_2'
 $$
 
 #### 做题方法
@@ -944,9 +944,9 @@ $$
 
 $$
 \begin{aligned}
-E_损&=E_{k0}-E_{kt}\\
-&=({1\over2}m_1v_1^2+{1\over2}m_2v_2^2)\\
-&-({1\over2}m_1v_1'^2+{1\over2}m_2v_2'^2)
+E_{\text{损}}&=E_{k0}-E_{kt}\\
+&=(\frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2)\\
+&-(\frac{1}{2}m_1v_1'^2+\frac{1}{2}m_2v_2'^2)
 \end{aligned}
 $$
 
@@ -963,7 +963,7 @@ $$
 非完全弹性碰撞后两物体速度相同，设为 $v_f$，可以列出动量守恒：
 
 $$
-m_1\bm v_1+m_2\bm v_2=(m_1+m_2)\bm v_f
+m_1\bm{v}_1+m_2\bm{v}_2=(m_1+m_2)\bm{v}_f
 $$
 
 #### 做题方法
@@ -993,7 +993,7 @@ $$
 其中，恢复系数有公式：
 
 $$
-C_r={v_1'-v_2'\over v_2-v_1}={v_2'-v_1'\over v_1-v_2}
+C_r=\frac{v_1'-v_2'}{v_2-v_1}=\frac{v_2'-v_1'}{v_1-v_2}
 $$
 
 于是，我们可以根据一次碰撞，求出两物体（材质）的恢复系数，再带入计算另一次碰撞。
@@ -1011,7 +1011,7 @@ $$
 - 动量守恒：
 
     $$
-    m_1\bm v_1+m_2\bm v_2=m_1\bm v_1'+m_2\bm v_2'
+    m_1\bm{v}_1+m_2\bm{v}_2=m_1\bm{v}_1'+m_2\bm{v}_2'
     $$
 
 - 同向相撞，后面的球的速度大于前面的球：
@@ -1054,8 +1054,8 @@ $$
 
 $$
 \begin{aligned}
-F_合x={1\over2}mv_t^2-{1\over2}mv_0^2&&(1)\\
-F_合t=mv_t-mv_0&&(2)
+F_{\text{合}}x=\frac{1}{2}mv_t^2-\frac{1}{2}mv_0^2&&(1)\\
+F_{\text{合}}t=mv_t-mv_0&&(2)
 \end{aligned}
 $$
 
@@ -1071,7 +1071,7 @@ $$
 
 $$
 \begin{aligned}
-{1\over2}m_1v_1^2+{1\over2}m_2v_2^2={1\over2}m_1v_1'^2+{1\over2}m_2v_2'^2&&(1)\\
+\frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2=\frac{1}{2}m_1v_1'^2+\frac{1}{2}m_2v_2'^2&&(1)\\
 m_1v_1+m_2v_2=m_1v_1'+m_2v_2'&&(2)
 \end{aligned}
 $$
