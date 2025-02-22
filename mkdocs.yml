@@ -22,24 +22,24 @@ nav:
         - misc/madoka.md
     - 数学:
         - 初等函数:
-            - math/function/function.md
-            - math/function/sqrt.md
-            - math/function/trigonometric.md
+            - mathematics/function/function.md
+            - mathematics/function/sqrt.md
+            - mathematics/function/trigonometric.md
         - 平面向量:
-            - math/vector/1.md
-            - math/vector/2.md
-            - math/vector/3.md
+            - mathematics/vector/1.md
+            - mathematics/vector/2.md
+            - mathematics/vector/3.md
         - 数列:
-            - math/sequence/1.md
-            - math/sequence/2.md
-            - math/sequence/3.md
+            - mathematics/sequence/1.md
+            - mathematics/sequence/2.md
+            - mathematics/sequence/3.md
         - 立体几何:
-            - math/solid/1.md
-            - math/solid/2.md
-            - math/solid/3.md
+            - mathematics/solid/1.md
+            - mathematics/solid/2.md
+            - mathematics/solid/3.md
         - 概率和统计:
-            - math/statistics.md
-            - math/probability/1.md
+            - mathematics/statistics.md
+            - mathematics/probability/1.md
     - 物理:
         - 经典力学:
             - 运动学:
@@ -78,10 +78,6 @@ nav:
             - chemistry/use/experiment.md
             - chemistry/use/industry.md
             - chemistry/use/life.md
-    - 杂题选讲:
-        - 数学:
-            - misc/math/2024-gk-1.md
-            - misc/math/2024-qd-qjjh.md
 
 # Theme Configuration
 theme:
