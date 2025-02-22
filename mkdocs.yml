@@ -71,7 +71,7 @@ nav:
             - chemistry/element/n.md
             - chemistry/element/al.md
             - chemistry/element/si.md
-       # - 有机化学:
+        # - 有机化学:
         - 化学应用:
             - chemistry/use/tech.md
             - chemistry/use/experiment.md
@@ -82,6 +82,7 @@ nav:
             - misc/math/2024-gk-1.md
             - misc/math/2024-qd-qjjh.md
 
+# Theme Configuration
 theme:
     name: null
     custom_dir: 'material/templates'
@@ -129,10 +130,12 @@ theme:
         text: 'Noto Sans SC'
         code: 'Fira Code'
 
+# Plugins
 plugins:
     - glightbox
     - search
 
+# Extra Configuration
 extra:
     pagetime: 'on'
     manifest: 'manifest.webmanifest'
@@ -141,27 +144,19 @@ extra:
 
 extra_javascript:
     - assets/javascripts/extra.js
-
     - assets/javascripts/jquery.min.js
-
     - assets/highlight/highlight.min.js
-
     - assets/katex/katex.min.js
     - assets/katex/contrib/mhchem.min.js
     - assets/katex/contrib/auto-render.min.js
     - assets/katex/contrib/copy-tex.min.js
-
     - assets/javascripts/custom.js
 
 extra_css:
     - assets/stylesheets/extra.css
-
     - assets/stylesheets/all.min.css
-
     - assets/katex/katex.min.css
-
     - assets/highlight/styles/stackoverflow-light.min.css
-
     - assets/stylesheets/custom.css
 
 # Extensions
