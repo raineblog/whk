@@ -41,6 +41,7 @@ example.zip
 # Temporary files
 TODO
 tmp
+TBD
 
 # IDEs
 .vscode
@@ -49,4 +50,3 @@ tmp
 
 # Vendor resources
 /material/assets/vendor
-run.bat

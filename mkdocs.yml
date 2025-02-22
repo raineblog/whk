@@ -57,12 +57,13 @@ nav:
             - physics/electricity/electricity.md
     - 化学:
         - 化学原理:
-            - chemistry/principle/basics.md
+            - chemistry/principle/substance.md
+            - chemistry/principle/redox.md
+            - chemistry/principle/period.md
             - chemistry/principle/structure.md
             - chemistry/principle/thermo.md
             - chemistry/principle/electro.md
-            - chemistry/principle/solution.md
-            - chemistry/principle/speed.md
+            - chemistry/principle/equilibrium.md
         - 化学元素:
             - chemistry/element/na.md
             - chemistry/element/cl.md
