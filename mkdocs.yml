@@ -41,18 +41,23 @@ nav:
             - mathematics/statistics.md
             - mathematics/probability/1.md
     - 物理:
-        - 经典力学:
+        - 力学:
             - 运动学:
                 - physics/mechanics/kinematics/1.md
                 - physics/mechanics/kinematics/2.md
                 - physics/mechanics/kinematics/3.md
-            - 静力学:
-                - physics/mechanics/statics/1.md
-                - physics/mechanics/statics/2.md
-            - 动力学:
-                - physics/mechanics/dynamics/dynamics.md
-                - physics/mechanics/dynamics/energy.md
-                - physics/mechanics/dynamics/celestial.md
+            - 力学基础:
+                - physics/mechanics/mechanics/statics.md
+                - physics/mechanics/mechanics/dynamics.md
+            - 功能动量:
+                - physics/mechanics/energy/1.md
+                - physics/mechanics/energy/2.md
+                - physics/mechanics/energy/3.md
+            - 角动量:
+                - physics/mechanics/angular/celestial.md
+            # - 震动和波动:
+            #     - physics/mechanics/vibration/1.md
+            #     - physics/mechanics/vibration/2.md
         - 电学:
             - physics/electricity/electricity.md
     - 化学:
