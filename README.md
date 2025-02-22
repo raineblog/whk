@@ -1,5 +1,11 @@
 # whk
 
+```
+git submodule add https://github.com/RainPPR/material
+git submodule add https://github.com/RainPPR/intro docs/intro/
+git submodule update --remote
+```
+
 ```html
 <details>
 <summary>点击查看代码</summary>
