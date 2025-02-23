@@ -30,7 +30,8 @@ nav:
             - mathematics/function/power.md # 幂函数
             - mathematics/function/exponential.md # 指数函数
             - mathematics/function/logarithm.md # 对数函数
-            - mathematics/function/trigonometric.md # 三角函数
+            - mathematics/function/trigonometric/1.md # 三角函数公式
+            - mathematics/function/trigonometric/2.md # 三角函数进阶
             - mathematics/function/derivative.md # 导数
         - 数列:
             - mathematics/sequence/1.md # 基础
