@@ -21,45 +21,60 @@ nav:
         - intro/setting.md
         - misc/madoka.md
     - 数学:
-        - 初等函数:
-            - mathematics/function/function.md
-            - mathematics/function/sqrt.md
-            - mathematics/function/trigonometric.md
-        - 平面向量:
-            - mathematics/vector/1.md
-            - mathematics/vector/2.md
-            - mathematics/vector/3.md
+        - 逻辑:
+           - mathematics/logic/1.md # 集合
+           - mathematics/logic/2.md # 逻辑
+           - mathematics/logic/3.md # 不等式
+        - 函数:
+            - mathematics/function/function.md # 函数概括
+            - mathematics/function/power.md # 幂函数
+            - mathematics/function/exponential.md # 指数函数
+            - mathematics/function/logarithm.md # 对数函数
+            - mathematics/function/trigonometric.md # 三角函数
+            - mathematics/function/derivative.md # 导数
         - 数列:
-            - mathematics/sequence/1.md
-            - mathematics/sequence/2.md
-            - mathematics/sequence/3.md
+            - mathematics/sequence/1.md # 基础
+            - mathematics/sequence/2.md # 进阶
+            - mathematics/sequence/induction.md # 数学归纳法
+        - 平面向量:
+            - mathematics/vector/1.md # 平面向量
+            - mathematics/vector/2.md # 解三角形
+            - mathematics/vector/3.md # 复数
+            - mathematics/vector/example.md # 例题
         - 立体几何:
-            - mathematics/solid/1.md
-            - mathematics/solid/2.md
-            - mathematics/solid/3.md
+            - mathematics/solid/1.md # 几何体
+            - mathematics/solid/2.md # 点线面
+            - mathematics/solid/3.md # 空间向量
+        # - 解析几何:
+        #     - mathematics/analytic/1.md
+        #     - mathematics/analytic/2.md
+        #     - mathematics/analytic/3.md
         - 概率和统计:
-            - mathematics/statistics.md
-            - mathematics/probability/1.md
+            - mathematics/probability/combination.md # 组合数学
+            - mathematics/probability/statistics.md # 统计学
+            - mathematics/probability/1.md # 概率论
+            # - mathematics/probability/2.md
     - 物理:
         - 力学:
             - 运动学:
-                - physics/mechanics/kinematics/1.md
-                - physics/mechanics/kinematics/2.md
-                - physics/mechanics/kinematics/3.md
+                - physics/mechanics/kinematics/1.md # 直线运动
+                - physics/mechanics/kinematics/2.md # 抛体运动
+                - physics/mechanics/kinematics/3.md # 圆周运动
             - 力学基础:
-                - physics/mechanics/mechanics/statics.md
-                - physics/mechanics/mechanics/dynamics.md
+                - physics/mechanics/mechanics/statics.md # 静力学
+                - physics/mechanics/mechanics/dynamics.md # 动力学
             - 功能动量:
-                - physics/mechanics/energy/1.md
-                - physics/mechanics/energy/2.md
-                - physics/mechanics/energy/3.md
+                - physics/mechanics/energy/1.md # 定义
+                - physics/mechanics/energy/2.md # 守恒
+                - physics/mechanics/energy/3.md # 模型
             - 角动量:
-                - physics/mechanics/angular/celestial.md
+                - physics/mechanics/angular/celestial.md # 天体运动
             # - 震动和波动:
             #     - physics/mechanics/vibration/1.md
             #     - physics/mechanics/vibration/2.md
         - 电学:
-            - physics/electricity/electricity.md
+            - 静电学:
+                - physics/electricity/electricity.md
     - 化学:
         - 化学原理:
             - chemistry/principle/substance.md
