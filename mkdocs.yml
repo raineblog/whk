@@ -20,6 +20,11 @@ nav:
         - intro/discussion.md
         - intro/setting.md
         - misc/madoka.md
+    - 语文:
+        - 必读书目:
+            # - chinese/reading/1.md
+            - chinese/reading/2.md
+            # - chinese/reading/3.md
     - 数学:
         - 逻辑:
            - mathematics/logic/1.md # 集合
@@ -75,7 +80,11 @@ nav:
             #     - physics/mechanics/vibration/2.md
         - 电学:
             - 静电学:
-                - physics/electricity/electricity.md
+                - physics/electricity/field/1.md
+                - physics/electricity/field/2.md
+            - 电流学:
+                - physics/electricity/current/1.md
+                - physics/electricity/current/2.md
     - 化学:
         - 化学原理:
             - chemistry/principle/substance.md
