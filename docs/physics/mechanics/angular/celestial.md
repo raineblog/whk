@@ -74,6 +74,12 @@ $$
 T'=T\sqrt{\lambda^3}
 $$
 
+也就是，
+
+$$
+\lambda=\sqrt[3]{\left(\dfrac{T'}{T}\right)^2}
+$$
+
 ## 三大宇宙速度
 
 ### 第一宇宙速度
