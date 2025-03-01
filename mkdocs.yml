@@ -5,7 +5,6 @@ site_author: RainPPR # 显示为 commit 记录的默认名称
 strict: false
 
 site_url: https://raineblog.github.io/whk/
-base_url: https://raineblog.github.io/whk
 
 repo_name: raineblog/whk # 用于寻找 commit 记录
 repo_url: https://github.com/raineblog/whk
@@ -150,6 +149,7 @@ theme:
         - content.footnote.tooltips
         # - header.autohide
     include_search_page: false
+    search_index_only: true
     icon:
         repo: fontawesome/brands/github
         edit: material/pencil 
