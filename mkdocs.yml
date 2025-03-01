@@ -161,6 +161,19 @@ theme:
 plugins:
     - glightbox
     - search
+    - minify:
+        minify_html: true
+        minify_js: true
+        minify_css: true
+        htmlmin_opts:
+            remove_comments: true
+        cache_safe: true
+        js_files:
+            - assets/javascripts/extra.js
+            - assets/javascripts/custom.js
+        css_files:
+            - assets/stylesheets/extra.css
+            - assets/stylesheets/custom.css
 
 # Extra Configuration
 extra:
