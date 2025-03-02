@@ -19,7 +19,7 @@ nav:
         - intro/usage.md
         - intro/discussion.md
         - intro/setting.md
-        - misc/madoka.md
+        - madoka.md
     - 语文:
         - 必读书目:
             # - chinese/reading/1.md
@@ -35,16 +35,13 @@ nav:
             - mathematics/function/power.md # 幂函数
             - mathematics/function/exponential.md # 指数函数
             - mathematics/function/logarithm.md # 对数函数
-            - mathematics/function/trigonometric/1.md # 三角函数公式
-            - mathematics/function/trigonometric/2.md # 三角函数进阶
             - mathematics/function/derivative.md # 导数
-        - 数列:
-            - mathematics/sequence/1.md # 基础
-            - mathematics/sequence/2.md # 进阶
-            - mathematics/sequence/induction.md # 数学归纳法
+        - 三角函数:
+            - mathematics/trigonometric/1.md # 三角函数公式
+            - mathematics/trigonometric/2.md # 三角函数进阶
+            - mathematics/trigonometric/3.md # 解三角形
         - 平面向量:
             - mathematics/vector/1.md # 平面向量
-            - mathematics/vector/2.md # 解三角形
             - mathematics/vector/3.md # 复数
             - mathematics/vector/example.md # 例题
         - 立体几何:
@@ -55,6 +52,10 @@ nav:
         #     - mathematics/analytic/1.md
         #     - mathematics/analytic/2.md
         #     - mathematics/analytic/3.md
+        - 数列:
+            - mathematics/sequence/1.md # 基础
+            - mathematics/sequence/2.md # 进阶
+            - mathematics/sequence/induction.md # 数学归纳法
         - 概率和统计:
             - mathematics/probability/combination.md # 组合数学
             - mathematics/probability/statistics.md # 统计学
@@ -66,6 +67,7 @@ nav:
                 - physics/mechanics/kinematics/1.md # 直线运动
                 - physics/mechanics/kinematics/2.md # 抛体运动
                 - physics/mechanics/kinematics/3.md # 圆周运动
+                - physics/mechanics/kinematics/4.md # 相对运动
             - 力学基础:
                 - physics/mechanics/mechanics/statics.md # 静力学
                 - physics/mechanics/mechanics/dynamics.md # 动力学
@@ -108,6 +110,7 @@ nav:
             - chemistry/use/experiment.md
             - chemistry/use/industry.md
             - chemistry/use/life.md
+    # - 训练:
 
 # Theme Configuration
 theme:
@@ -169,12 +172,12 @@ plugins:
         htmlmin_opts:
             remove_comments: true
         cache_safe: true
-        js_files:
-            - assets/javascripts/extra.js
-            - assets/javascripts/custom.js
-        css_files:
-            - assets/stylesheets/extra.css
-            - assets/stylesheets/custom.css
+        # js_files:
+        #     - assets/javascripts/extra.js
+        #     - assets/javascripts/custom.js
+        # css_files:
+        #     - assets/stylesheets/extra.css
+        #     - assets/stylesheets/custom.css
 
 # Extra Configuration
 extra:
