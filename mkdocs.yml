@@ -89,14 +89,18 @@ nav:
                 - physics/electricity/current/2.md
     - 化学:
         - 化学原理:
-            - chemistry/principle/substance.md
-            - chemistry/principle/redox.md
-            - chemistry/principle/period.md
-            - chemistry/principle/structure.md
-            - chemistry/principle/thermo.md
-            - chemistry/principle/electro.md
-            - chemistry/principle/equilibrium.md
+            - chemistry/principle/substance.md # 分类和计量
+            - chemistry/principle/redox.md # 氧化还原
+            - chemistry/principle/atom.md # 原子与元素
+
+            - chemistry/principle/structure.md # 分子与晶体
+            - chemistry/principle/thermo.md # 反应与热能
+            - chemistry/principle/electro.md # 反应与电能
+            - chemistry/principle/equilibrium.md # 速率与平衡
+            - chemistry/principle/liquid.md # 溶液的行为
         - 化学元素:
+            - chemistry/element/index.md
+            # - chemistry/element/periodic.md # 元素周期律
             - chemistry/element/na.md
             - chemistry/element/cl.md
             - chemistry/element/fe.md
