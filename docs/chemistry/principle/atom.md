@@ -9,7 +9,7 @@ $$
 
 ## 原子结构概述
 
-### 原子结构模型
+### 结构模型历史
 
 | 时间 | 科学家 | 模型名称 | 备注 |
 | :-: | :-: | :-: | :-: |
@@ -109,7 +109,7 @@ $$
 
     ![十字交叉](./十字交叉法.svg){ width="50%" }
 
-## 波尔原子结构
+## 原子结构模型
 
 ### 原子轨道
 
@@ -132,7 +132,25 @@ $$
 
 - 同一能层不同能级电子能量接近，故电子先分层后分级。
 
+四个量子数，描述电子运动状态：
+
+| 量子数 | 意义 | 规律 | 取值范围 |
+| :-: | :-: | :-: | :-: |
+| <br>主量子数 $n$ | <br>描述电子离核远近 | 电子离核越远<br>主量子数越大<br>能量越大 | 字母与数字对应<br>$1,2,3,4,5,6,7$<br>$\mathrm{K,L,M,N,O,P,Q}$ |
+| <br>角量子数 $\ell$ | <br>描述电子云形状 | $\mathrm{s,p,d,f,g}$<br>角量子数越大<br>能量越大 | $[0,n)$<br>$0$ 为 $s$ 球形，$1$ 为 $p$ 纺锤形或哑铃型<br>$d$ 以花瓣形为主，更大为复杂形状 |
+| <br>磁量子数 $m$ | <br>描述电子云伸展方向 | <br>与能量无关 | $[-\ell,+\ell]$<br>$\mathrm{p_x,p_y,p_z}$<br>$\mathrm{d_{xy},d_{xz},d_{yz}}$ 等 |
+| 自旋量子数 $m_s$ | 描述电子自旋方向 | 与能量无关 | $\pm\dfrac{1}{2}$ |
+
+
+- 其中，$n,\ell,m$ 决定原子轨道 $n^2$ 个（空间运动状态），最大总电子数 $2n^2$ 个。
+
+- 一个原子核外不可能有两个运动状态完全相等（四个量子数都相等）的电子。
+
+- 一般 $n,\ell$ 决定能量，$m,m_s$ 几乎不影响能量，故 $n,\ell$ 相等成为简并轨道。
+
 ### 基态与激发态
+
+![基态激发态](./基态激发态.svg){ width="60%" }
 
 - 处于最低能量状态的原子叫做基态，基态原子吸收能量，它的原子灰跃迁到较高能级变为激发态原子。
 
@@ -166,60 +184,15 @@ $$
 
 在现代化学中，常利用原子光谱上的特征谱线来鉴定元素，称为光谱分析。
 
-### 构造原理
-
-根据光谱学事实，人们**理想化**的总结出，从氢开始随着核电荷数的递增，新增电子填入能层、能级的顺序，称为构造原理：核电荷数每增加一，核外电子增加一个，填满一个能级后开始填入下一个能级，根据构造原理可以得到元素周期表中各元素**基态原子**的电子排布。
-
-- 能量最低原理表示，在构建基态原子时，电子将尽可能地占据能量最低的原子轨道，使整个原子能量最低。
-
-- 构造原理告诉我们，随着电荷数递增，电子不总是填满一个能层后，再开始填入下一个能层的（这个对于前 $20$ 号元素满足）。同时基于光谱学事实，存在**能级交错**的现象，表明了电子排布顺序（如图）。
-
-![能级交错](./能级交错.png){ width="70%" }
-
-然而，构造原理是基于光谱学事实的理想化、经验化的，某些过渡元素基态原子电子排布不符合构造原理，例如 $\za{Cu}{\el3d{10}\el4s{1}},\za{Cr}{\el3d5\el4s1}$。
-
-不仅如此, 核外运动的电子还存在一种被称为“自旋”的量子化状态。处于同一原子轨道上的电子自旋状态只能有两种，分别用符号 $\uparrow$ 和 $\downarrow$ 表示。氢原子的电子由 $n=2$ 的状态跃迁到 $n=1$ 的状态时得到两条靠得很近的谱线，钠的原子光谱中存在靠得很近的两条黄色谱线，都与电子的自旋有关。这里的“自旋”并不意味着电子像地球那样绕轴“自转”，它的实质仍在探索之中。
-
-- 电子排布的轨道表示式：
-
-    表示电子排布的一种图示，画出电子的自旋方向，以氧元素为例：
-
-    $$
-    \begin{array}{ccc}
-    \el1s{}&\el2s{}&\el2p{}\\
-    \begin{array}{|c|}\hline\uparrow\downarrow\\\hline\end{array}&
-    \begin{array}{|c|}\hline\uparrow\downarrow\\\hline\end{array}&
-    \begin{array}{|c|c|c|}\hline\uparrow\downarrow&\uparrow&\uparrow\\\hline\end{array}
-    \end{array}
-    $$
-
-    符合下面两个规律。
-
-- 泡利不相容原理：在一个原子轨道里，最多只能容纳两个电子，他们的自旋相反。
-
-- 洪特规则：基态原子中填入简并轨道的电子总是先单独分占且自选平行，即先独占后成对，其同余适用于基态离子。
-
-![轨道表示式](./轨道表示式.png){ width="100%" }
-
-价电子：
-
-- 通常只有最外能级组的电子才有可能参与化学反应，最外能级组中那些有可能参与化学反应的电子称为价电子。
-
-- 一般情况下，主族元素原子的价电子只包括最外层电子；过渡元素原子的价电子除最外层电子外，还包括次外层的部分电子，甚至倒数第三层的电子。
-
-- 元素性质与原子的价电子的数目密切相关。为了便于研究元素性质与核外电子间的关系，人们常常只表示出原子的价电子排布。
-
-以硫元素（第 $16$ 号元素）为例：
-
-| | 表示 | 要求及说明 |
-| :-: | :-: | - |
-| 原子结构示意图 | $+16\space2\space8\space6$ | |
-| 电子排布式 | $\el1s2\el2s2\el2p6\el3s2\el3p4$ | 一般情况下能层低的能级要写在左边 |
-| 价电子排布式 | $\el2s2\el3p4$ | 仅保留能层最高的一层（最外层电子） |
-| 简化电子排布式 | $\zb{Ne}{\el3s2\el3p4}$ | 将内层电子用其对应的稀有气体元素表示 |
-| 轨道表示式 | <svg xmlns="http://www.w3.org/2000/svg" width="47.466ex" height="6.722ex" viewBox="0 -1735.5 20980 2971" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style=""><style>mjx-container[jax="SVG"] {  direction: ltr;}mjx-container[jax="SVG"] &gt; svg {  overflow: visible;}mjx-container[jax="SVG"] &gt; svg a {  fill: blue;  stroke: blue;}mjx-assistive-mml {  position: absolute !important;  top: 0px;  left: 0px;  clip: rect(1px, 1px, 1px, 1px);  padding: 1px 0px 0px 0px !important;  border: 0px !important;  display: block !important;  width: auto !important;  overflow: hidden !important;  -webkit-touch-callout: none;  -webkit-user-select: none;  -khtml-user-select: none;  -moz-user-select: none;  -ms-user-select: none;  user-select: none;}mjx-assistive-mml[display="block"] {  width: 100% !important;}mjx-container[jax="SVG"][display="true"] {  display: block;  text-align: center;  margin: 1em 0;}mjx-container[jax="SVG"][display="true"][width="full"] {  display: flex;}mjx-container[jax="SVG"][justify="left"] {  text-align: left;}mjx-container[jax="SVG"][justify="right"] {  text-align: right;}g[data-mml-node="merror"] &gt; g {  fill: red;  stroke: red;}g[data-mml-node="merror"] &gt; rect[data-background] {  fill: yellow;  stroke: none;}g[data-mml-node="mtable"] &gt; line[data-line] {  stroke-width: 70px;  fill: none;}g[data-mml-node="mtable"] &gt; rect[data-frame] {  stroke-width: 70px;  fill: none;}g[data-mml-node="mtable"] &gt; .mjx-dashed {  stroke-dasharray: 140;}g[data-mml-node="mtable"] &gt; .mjx-dotted {  stroke-linecap: round;  stroke-dasharray: 0,140;}g[data-mml-node="mtable"] &gt; g &gt; svg {  overflow: visible;}[jax="SVG"] mjx-tool {  display: inline-block;  position: relative;  width: 0;  height: 0;}[jax="SVG"] mjx-tool &gt; mjx-tip {  position: absolute;  top: 0;  left: 0;}mjx-tool &gt; mjx-tip {  display: inline-block;  padding: .2em;  border: 1px solid #888;  font-size: 70%;  background-color: #F8F8F8;  color: black;  box-shadow: 2px 2px 5px #AAAAAA;}g[data-mml-node="maction"][data-toggle] {  cursor: pointer;}mjx-status {  display: block;  position: fixed;  left: 1em;  bottom: 1em;  min-width: 25%;  padding: .2em .4em;  border: 1px solid #888;  font-size: 90%;  background-color: #F8F8F8;  color: black;}foreignObject[data-mjx-xml] {  font-family: initial;  line-height: normal;  overflow: visible;}.MathJax path {  stroke-width: 3;}</style><defs><path id="MJX-288-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path id="MJX-288-TEX-N-73" d="M295 316Q295 356 268 385T190 414Q154 414 128 401Q98 382 98 349Q97 344 98 336T114 312T157 287Q175 282 201 278T245 269T277 256Q294 248 310 236T342 195T359 133Q359 71 321 31T198 -10H190Q138 -10 94 26L86 19L77 10Q71 4 65 -1L54 -11H46H42Q39 -11 33 -5V74V132Q33 153 35 157T45 162H54Q66 162 70 158T75 146T82 119T101 77Q136 26 198 26Q295 26 295 104Q295 133 277 151Q257 175 194 187T111 210Q75 227 54 256T33 318Q33 357 50 384T93 424T143 442T187 447H198Q238 447 268 432L283 424L292 431Q302 440 314 448H322H326Q329 448 335 442V310L329 304H301Q295 310 295 316Z"></path><path id="MJX-288-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path id="MJX-288-TEX-N-70" d="M36 -148H50Q89 -148 97 -134V-126Q97 -119 97 -107T97 -77T98 -38T98 6T98 55T98 106Q98 140 98 177T98 243T98 296T97 335T97 351Q94 370 83 376T38 385H20V408Q20 431 22 431L32 432Q42 433 61 434T98 436Q115 437 135 438T165 441T176 442H179V416L180 390L188 397Q247 441 326 441Q407 441 464 377T522 216Q522 115 457 52T310 -11Q242 -11 190 33L182 40V-45V-101Q182 -128 184 -134T195 -145Q216 -148 244 -148H260V-194H252L228 -193Q205 -192 178 -192T140 -191Q37 -191 28 -194H20V-148H36ZM424 218Q424 292 390 347T305 402Q234 402 182 337V98Q222 26 294 26Q345 26 384 80T424 218Z"></path><path id="MJX-288-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path><path id="MJX-288-TEX-N-2191" d="M27 414Q17 414 17 433Q17 437 17 439T17 444T19 447T20 450T22 452T26 453T30 454T36 456Q80 467 120 494T180 549Q227 607 238 678Q240 694 251 694Q259 694 261 684Q261 677 265 659T284 608T320 549Q340 525 363 507T405 479T440 463T467 455T479 451Q483 447 483 433Q483 413 472 413Q467 413 458 416Q342 448 277 545L270 555V-179Q262 -193 252 -193H250H248Q236 -193 230 -179V555L223 545Q192 499 146 467T70 424T27 414Z"></path><path id="MJX-288-TEX-N-2193" d="M473 86Q483 86 483 67Q483 63 483 61T483 56T481 53T480 50T478 48T474 47T470 46T464 44Q428 35 391 14T316 -55T264 -168Q264 -170 263 -173T262 -180T261 -184Q259 -194 251 -194Q242 -194 238 -176T221 -121T180 -49Q169 -34 155 -21T125 2T95 20T67 33T44 42T27 47L21 49Q17 53 17 67Q17 87 28 87Q33 87 42 84Q158 52 223 -45L230 -55V312Q230 391 230 482T229 591Q229 662 231 676T243 693Q244 694 251 694Q264 692 270 679V-55L277 -45Q307 1 353 33T430 76T473 86Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="mtable"><g data-mml-node="mtr" transform="translate(0, 985.5)"><g data-mml-node="mtd" transform="translate(523, 0)"><g data-mml-node="mn"><use xlink:href="#MJX-288-TEX-N-31"></use></g><g data-mml-node="mi" transform="translate(500, 0)"><use xlink:href="#MJX-288-TEX-N-73"></use></g></g><g data-mml-node="mtd" transform="translate(3463, 0)"><g data-mml-node="mn"><use xlink:href="#MJX-288-TEX-N-32"></use></g><g data-mml-node="mi" transform="translate(500, 0)"><use xlink:href="#MJX-288-TEX-N-73"></use></g></g><g data-mml-node="mtd" transform="translate(8392, 0)"><g data-mml-node="mn"><use xlink:href="#MJX-288-TEX-N-32"></use></g><g data-mml-node="mi" transform="translate(500, 0)"><use xlink:href="#MJX-288-TEX-N-70"></use></g></g><g data-mml-node="mtd" transform="translate(13483, 0)"><g data-mml-node="mn"><use xlink:href="#MJX-288-TEX-N-33"></use></g><g data-mml-node="mi" transform="translate(500, 0)"><use xlink:href="#MJX-288-TEX-N-73"></use></g></g><g data-mml-node="mtd" transform="translate(17912, 0)"><g data-mml-node="mn"><use xlink:href="#MJX-288-TEX-N-33"></use></g><g data-mml-node="mi" transform="translate(500, 0)"><use xlink:href="#MJX-288-TEX-N-70"></use></g></g></g><g data-mml-node="mtr" transform="translate(0, -700)"><g data-mml-node="mtd"><g data-mml-node="mtable"><g data-mml-node="mtr" transform="translate(0, 0)"><g data-mml-node="mtd" transform="translate(470, 0)"><g data-mml-node="mo"><use xlink:href="#MJX-288-TEX-N-2191"></use><use xlink:href="#MJX-288-TEX-N-2193" transform="translate(500, 0)"></use></g></g></g><rect data-frame="true" class="mjx-solid" width="1870" height="1501" x="35" y="-500.5"></rect></g></g><g data-mml-node="mtd" transform="translate(2940, 0)"><g data-mml-node="mtable"><g data-mml-node="mtr" transform="translate(0, 0)"><g data-mml-node="mtd" transform="translate(470, 0)"><g data-mml-node="mo"><use xlink:href="#MJX-288-TEX-N-2191"></use><use xlink:href="#MJX-288-TEX-N-2193" transform="translate(500, 0)"></use></g></g></g><rect data-frame="true" class="mjx-solid" width="1870" height="1501" x="35" y="-500.5"></rect></g></g><g data-mml-node="mtd" transform="translate(5880, 0)"><g data-mml-node="mtable"><g data-mml-node="mtr" transform="translate(0, 0)"><g data-mml-node="mtd" transform="translate(470, 0)"><g data-mml-node="mo"><use xlink:href="#MJX-288-TEX-N-2191"></use><use xlink:href="#MJX-288-TEX-N-2193" transform="translate(500, 0)"></use></g></g><g data-mml-node="mtd" transform="translate(2540, 0)"><g data-mml-node="mo"><use xlink:href="#MJX-288-TEX-N-2191"></use><use xlink:href="#MJX-288-TEX-N-2193" transform="translate(500, 0)"></use></g></g><g data-mml-node="mtd" transform="translate(4610, 0)"><g data-mml-node="mo"><use xlink:href="#MJX-288-TEX-N-2191"></use><use xlink:href="#MJX-288-TEX-N-2193" transform="translate(500, 0)"></use></g></g></g><line data-line="v" class="mjx-solid" x1="2005" y1="-535.5" x2="2005" y2="1035.5"></line><line data-line="v" class="mjx-solid" x1="4075" y1="-535.5" x2="4075" y2="1035.5"></line><rect data-frame="true" class="mjx-solid" width="6010" height="1501" x="35" y="-500.5"></rect></g></g><g data-mml-node="mtd" transform="translate(12960, 0)"><g data-mml-node="mtable"><g data-mml-node="mtr" transform="translate(0, 0)"><g data-mml-node="mtd" transform="translate(470, 0)"><g data-mml-node="mo"><use xlink:href="#MJX-288-TEX-N-2191"></use><use xlink:href="#MJX-288-TEX-N-2193" transform="translate(500, 0)"></use></g></g></g><rect data-frame="true" class="mjx-solid" width="1870" height="1501" x="35" y="-500.5"></rect></g></g><g data-mml-node="mtd" transform="translate(15900, 0)"><g data-mml-node="mtable"><g data-mml-node="mtr" transform="translate(0, 0)"><g data-mml-node="mtd" transform="translate(470, 0)"><g data-mml-node="mo"><use xlink:href="#MJX-288-TEX-N-2191"></use><use xlink:href="#MJX-288-TEX-N-2193" transform="translate(500, 0)"></use></g></g><g data-mml-node="mtd" transform="translate(2540, 0)"><g data-mml-node="mo"><use xlink:href="#MJX-288-TEX-N-2191"></use></g></g><g data-mml-node="mtd" transform="translate(4110, 0)"><g data-mml-node="mo"><use xlink:href="#MJX-288-TEX-N-2191"></use></g></g></g><line data-line="v" class="mjx-solid" x1="2005" y1="-535.5" x2="2005" y2="1035.5"></line><line data-line="v" class="mjx-solid" x1="3575" y1="-535.5" x2="3575" y2="1035.5"></line><rect data-frame="true" class="mjx-solid" width="5010" height="1501" x="35" y="-500.5"></rect></g></g></g></g></g></g></svg> | 能量最低原理、泡利不相容原理、洪特规则 |
-
-关于铜 $\ce{Cu}$ 和铬 $\ce{Cr}$ 的特例，洪特通过分析光谱实验的结果指出，能量相同的原子轨道在全充满（如 $\rm d^{10}$）、半充满（如 $\rm d^5$）和全空（如 $\rm d^0$）状态时，体系的能量较低。基态铬原子和基态铜原子的核外电子排布就反映了这种情况。
+| 颜色 | 波长 |
+| :-: | :-: |
+| 红 | $\pu{620nm \sim760nm}$ | 
+| 橙 | $\pu{592nm \sim620nm}$ |
+| 黄 | $\pu{578nm \sim592nm}$ |
+| 绿 | $\pu{500nm \sim578nm}$ |
+| 青 | $\pu{464nm \sim500nm}$ |
+| 蓝 | $\pu{446nm \sim464nm}$ |
+| 紫 | $\pu{400nm \sim446nm}$ |
 
 ### 电子云模型
 
@@ -245,7 +218,144 @@ $$
 
 - 当有磁场时，同能级上电子能量不同，说明电子云在合外空间伸展方向不同。
 
+## 波尔原子结构
+
+### 构造原理
+
+根据光谱学事实，人们**理想化**的总结出，从氢开始随着核电荷数的递增，新增电子填入能层、能级的顺序，称为构造原理：核电荷数每增加一，核外电子增加一个，填满一个能级后开始填入下一个能级，根据构造原理可以得到元素周期表中各元素**基态原子**的电子排布。
+
+构造原理就是告诉我们，随着电荷数递增，电子不总是填满一个能层后，再开始填入下一个能层的（这个对于前 $20$ 号元素满足）。
+
+- 能量最低原理表示，在构建基态原子时，电子将尽可能地占据能量最低的原子轨道，使整个原子能量最低。
+
+- 泡利不相容原理：在一个原子轨道里，最多只能容纳两个电子，他们的自旋相反。
+
+- 洪特规则：基态原子中填入简并轨道的电子总是先单独分占且自选平行，即先独占后成对，其同余适用于基态离子。
+
+- 洪特规则特例：能量相同的原子轨道在全充满（如 $\rm d^{10}$）、半充满（如 $\rm d^5$）和全空（如 $\rm d^0$）状态时，体系的能量较低，反常稳定。基态铬原子 $\za{Cr}{\el3d5\el4s1}$ 和基态铜原子 $\za{Cu}{\el3d{10}\el4s{1}}$ 的核外电子排布就反映了这种情况。
+
+同时基于光谱学事实，存在**能级交错**的现象。
+
+### 能级交错
+
+| 能级组 | | | | | |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| 第一能级组 | $\rm 1s$ | | | | |
+| 第二能级组 | $\rm 2s$ | | | | $\rm 2p$ |
+| 第三能级组 | $\rm 3s$ | | | | $\rm 3p$ |
+| 第四能级组 | $\rm 4s$ | | | $\rm 3d$ | $\rm 4p$ |
+| 第五能级组 | $\rm 5s$ | | | $\rm 4d$ | $\rm 5p$ |
+| 第六能级组 | $\rm 6s$ | | $\rm 7f$ | $\rm 5d$ | $\rm 6p$ |
+| 第七能级组 | $\rm 7s$ | | $\rm 5f$ | $\rm 6d$ | $\rm 7p$ |
+| 第八能级组 | $\rm 8s$ | $\rm 5g$ | $\rm 6f$ | $\rm 7d$ | $\rm 8p$ |
+
+![能级交错](./能级交错.png){ width="70%" }
+
+记为：
+
+$$
+n\mathrm{s}<(n-3)\mathrm{g}<(n-2)\mathrm{f}<(n-1)\mathrm{d}<n\mathrm{p}
+$$
+
+然而，构造原理是基于光谱学事实的理想化、经验化的，某些过渡元素基态原子电子排布不符合构造原理。
+
+### 特例问题
+
+- 有 $\za{Cr}{\el 3d5\el 4s1},\za{Mo}{\el 4d5\el 5s1},\za{Cu}{\el 3d{10}\el4s1},\za{Ag}{\el4d{10}\el5s1},\za{Au}{\el5d{10}\el6s1}$ 符合洪特规则特例，$\za{W}{\el5d4\el6s2}$ 符合洪特规则、不符合洪特规则特例。
+
+- 有铌 $\za{Nb}{\el 4d4\el5s1}$、钌 $\za{Ru}{\el4d7\el5s1}$、铑 $\za{Rh}{\el4d8\el5s1}$、铂 $\za{Pt}{\el5d9\el6s1}$ 类似洪特规则特例。
+
+- 有钯 $\za{Pd}{\el4d{10}}$ 没有 $\rm 5s$ 轨道。
+
+### 电子排布式
+
+- 核外运动的电子还存在一种被称为“自旋”的量子化状态。处于同一原子轨道上的电子自旋状态只能有两种，分别用符号 $\uparrow$ 和 $\downarrow$ 表示。
+
+- 电子排布的轨道表示式：
+
+    表示电子排布的一种图示，画出电子的自旋方向，以氧元素为例：
+
+    $$
+    \begin{array}{ccc}
+    \el1s{}&\el2s{}&\el2p{}\\
+    \begin{array}{|c|}\hline\uparrow\downarrow\\\hline\end{array}&
+    \begin{array}{|c|}\hline\uparrow\downarrow\\\hline\end{array}&
+    \begin{array}{|c|c|c|}\hline\uparrow\downarrow&\uparrow&\uparrow\\\hline\end{array}
+    \end{array}
+    $$
+
+- 氢原子的电子由 $n=2$ 的状态跃迁到 $n=1$ 的状态时得到两条靠得很近的谱线，钠的原子光谱中存在靠得很近的两条黄色谱线，都与电子的自旋有关。这里的“自旋”并不意味着电子像地球那样绕轴“自转”，它的实质仍在探索之中。
+
+四个排布式：
+
+1. （基态原子）**核外电子排布式**。
+
+2. （基态原子）**简化核外电子排布式**。
+
+3. **价电子排布式**、又称**外围电子排布式**、又称**特征排布式**。
+
+4. **轨道表示式**，又称**电子排布图**。
+
+5. **价电子轨道表示式**，又称**价电子排布图**。
+
+价电子：
+
+- 通常只有最外能级组的电子才有可能参与化学反应，最外能级组中那些有可能参与化学反应的电子称为价电子。
+
+- 一般情况下，主族元素原子的价电子只包括最外层电子；过渡元素原子的价电子除最外层电子外，还包括次外层的部分电子，甚至倒数第三层的电子。
+
+- 元素性质与原子的价电子的数目密切相关。为了便于研究元素性质与核外电子间的关系，人们常常只表示出原子的价电子排布。
+
+- 价电子直接看价电子排布式即可，可以观察元素周期表记忆。
+
+![轨道表示式](./轨道表示式.png){ width="100%" }
+
 ![原子轨道](./原子轨道.png){ width="80%" }
+
+### 未成对电子问题
+
+有 $1$ 个未成对电子：
+
+| 未成对轨道 | 价电子通式 | 对应元素 |
+| :-: | :-: | :-: |
+| $\rm{s}$ | $\el ns1$ | $\ce{H,Li,Na,K}$ |
+| $\rm{p}$ | $\el ns2\el np1$ | $\ce{B,Al,Ga}$ |
+| | $\el ns2\el np5$ | $\ce{F,Cl,Br}$ |
+| $\rm{d}$ | $\el{(n-1)}d1\el ns2$ | $\ce{Sc}$ |
+| | $\el{(n-1)}d{10}\el ns1$ | $\ce{Cu}$ |
+
+有 $2$ 个未成对电子：
+
+| 未成对轨道 | 价电子通式 | 对应元素 |
+| :-: | :-: | :-: |
+| $\rm{p}$ | $\el ns2\el np2$ | $\ce{C,Si,Ge}$ |
+| | $\el ns2\el np4$ | $\ce{O,S,Se}$ |
+| $\rm{d}$ | $\el{(n-1)}d2\el ns2$ | $\ce{Ti}$ |
+| | $\el{(n-1)}d8\el ns2$ | $\ce{Ni}$ |
+
+有 $3$ 个未成对电子：
+
+| 未成对轨道 | 价电子通式 | 对应元素 |
+| :-: | :-: | :-: |
+| $\rm{p}$ | $\el ns2\el np3$ | $\ce{N,P,As}$ |
+| $\rm{d}$ | $\el{(n-1)}d3\el ns2$ | $\ce{V}$ |
+| | $\el{(n-1)}d7\el ns2$ | $\ce{Co}$ |
+
+有 $4\sim6$ 个未成对电子：
+
+- 有 $4$ 个未成对电子：$\ce{Fe}$。
+
+- 有 $5$ 个未成对电子：$\ce{Mn}$。
+
+- 有 $6$ 个未成对电子：$\ce{Cr}$（最多）。
+
+有 $0$ 个未成对电子：
+
+- $\rm s$ 区：IIA。
+
+- $\rm ds$ 区：IIB。
+
+- $\rm p$ 区：〇族。
 
 ## 元素周期表
 
@@ -263,37 +373,45 @@ $$
 
 - 周期与量子数 $n$（电子层数）相关。最外层电子所在轨道处于第 $n$ 电子层时，该原子所属元素通常属于第 $n$ 周期。
 
-### 周期表的周期
+### 周期表的周期和族
 
-元素周期表一共有七个周期。
+- 元素周期表一共有七个周期，其中 $3$ 个短周期，$4$ 个长周期。
 
-- 每个周期的元素个数计算方法如下：第 $n$ 周期，从 $n\mathrm s$ 开始，经过 $n\mathrm s, (n-3)\mathrm g, (n-2)\mathrm f, (n-1)\mathrm d, n\mathrm p$，即始于 $n\mathrm s$ 终于 $n\mathrm p$，这其中的元素数就等于第 $n$ 周期的元素个数。
+- 元素周期表一共有 $18$ 列 $16$ 个族，其中主族 $7$ 个，副族 $7$ 个，第八族和零族。
+
+| 周期 | IA | 〇 | 元素种类数 |
+| :-: | :-: | :-: | :-: |
+| 一 | $\el1s1$ | $\el1s2$ | $2$ |
+| 二 | $\el2s1$ | $\el2s2\el2p6$ | $8$ |
+| 三 | $\el3s1$ | $\el3s2\el3p6$ | $8$ |
+| 四 | $\el4s1$ | $\el4s2\el4p6$ | $8$ |
+| 五 | $\el5s1$ | $\el5s2\el5p6$ | $8$ |
+| 六 | $\el6s1$ | $\el6s2\el6p6$ | $8$ |
+| 七 | $\el7s1$ | $\el7s2\el7p6$ | $8$ |
+
+- 一般来说，第八族不属于副族，但是也可以属于副族。
+
+- 镧系锕系各 $15$ 个元素，IIIV 共 $32$ 个元素，过渡元素共 $68$ 个。
+
+- 碱金属 IA，碱土金属 IIA，IIIA ~ VIA 以第一个元素称族，卤族元素 VIIA。
+
+- 半导体 Ge Si，稀有金属 Sc Y 镧系，国防金属 Mg，耐腐蚀 Ti Mo W Cr，农药 F Al P S。
 
 ![轮廓图](./元素周期表轮廓图.png){ width="90%" }
 
-### 周期表的族
+- 元素的化合价与原子的核外电子排布尤其是价电子排布有着密切的关系，族的划分与原子的价电子数目和价电子排布密切相关。
 
-元素周期表共有 $18$ 个列，$16$ 个族，$7$ 个主族。
+- 主族元素所在族的序数等于该元素原子的价电子数，其价电子全部排布在最外层的 $n\rm s$ 或 $n\rm s$、$n\rm p$ 轨道上。
 
-- 族的划分与原子的价电子数目和价电子排布密切相关。
+- 尽管同族元素原子的电子层数从上到下逐渐增加，但价电子排布基本相同、原子的价电子数目一般相同。
 
-- 一般来说，同族元素原子的价电子数目相同。主族元素原子的价电子全部排布在最外层的 $n\rm s$ 或 $n\rm s$、$n\rm p$ 轨道上。
+- 第八族的化学性质和物理性质都很接近（镧系收缩）。
 
-- 尽管同族元素原子的电子层数从上到下逐渐增加，但价电子排布却类似。主族元素所在族的序数等于该元素原子的价电子数。
+### 周期表的分区
 
-- 除氦元素外，稀有气体元素原子的最外层电子排布均为 $\el ns2\el np6$。稀有气体元素所处的族为 $0$ 族。
+最后一个电子排到 $\mathrm{s,p}$ 能级为主族、排到 $\rm d$ 的为过渡元素、排到 $\rm f$ 的为镧系锕系。
 
-- 对于过渡元素的原子，价电子排布为 $\el{(n-1)}d{1\sim10}\el ns{1\sim 2}$。
-
-- 由此可以看出，虽然同一副族内不同元素原子的电子层数不同，价电子排布却基本相同，
-
-- 第八族的化学性质和物理性质都很接近。
-
-- 处于金属与非金属分界线附近的元素被称为半金属或类金属。
-
-- 多出主族元素的，均为金属元素。
-
-排到 $\mathrm{s,p}$ 能级为主族、排到 $\rm d$ 的为过渡元素、排到 $\rm f$ 的为镧系锕系，根据这些将元素周期表划分为 $5$ 个区：
+根据这些将元素周期表划分为 $5$ 个区：
 
 ![分区](./元素周期表的分区.png){ width="90%" }
 
@@ -345,7 +463,19 @@ $$
     
     - 因为最外层的电子数基本相同，$(n-1)\rm d$ 的电子数也基本相同，所以镧系元素的化学性质非常相近，锕系元素的化学性质也非常相近。
 
-元素的化合价与原子的核外电子排布尤其是价电子排布有着密切的关系。
+## 元素周期律
+
+元素周期律，位置、结构、性质，三位一体。
+
+### 化合价规律
+
+- 最高正价，等于主族序数，等于最外层电子数。
+
+- 最低负价，缺几个达到稳定结构，就是负几价。
+
+- 特殊的，氟没有正价，氧唯一 $-2$ 价于 $\ce{OF2}$ 二氟化氧中。
+
+具体的：
 
 - 除 VIII 族、IB 族的某些元素和 $0$ 族元素外，元素的最高化合价等于它所在族的序数。
 
@@ -355,16 +485,76 @@ $$
 
 - 过渡元素的价电子较多且所在轨道的能量相差不大，因此过渡元素具有多种价态。
 
-## 元素周期律
+### 原子与离子半径
 
-### 原子半径与离子半径
+原子半径的大小取决于两个相反的因素：能层数、核电荷数。通常能层数越多，半径越大；核电荷数越大，原子半径越小。
+
+- 对于主族元素：同一周期从左到右原子半径减小，同一族从上到下原子半径增大。
+
+- 对于稀有气体：符合范德华半径，与共价半径相比，原子半径反常大。
+
+- 对于过渡元素：因为具有屏蔽和钻穿，通常不具有明显的周期性。
+
+判断原子半径的规则，依次判断：
+
+1. 电子层数。
+
+2. 核电荷数。
+
+3. 核外电子数。
+
+注意；电子层数多，不一定半径大，例如 At 与 K 元素。
+
+对角线原则：某些主族元素与其右下方的主族元素有些性质是相似的，可以理解为原子半径越相近，性质越相似。
+
+例如 $\ce{Be,Al}$，有 $\ce{Na[Al(OH)4]},\ce{Na2[Be(OH)]4}$。
 
 ### 金属性与非金属性
 
-### 电离能与电子亲和能
+金属性：
 
-### 电负性
+- 反应失电子能力，单质还原性。
 
-### 其他周期律
+- 同主族向下金属性增强，同周期向左金属性增强。
 
-对角线原则：某些主族元素与其右下方的主族元素有些性质是相似的，例如 $\ce{Be,Al}$。
+- 金属性最强的元素是钫 Fr，自然界中为铯 Cs（现在认为自然界中也存在钫，但是存在量极少）。
+
+非金属性：
+
+- 反应得电子能力，单质氧化性。
+
+- 同主族向上非金属性增强，同周期向右非金属性增强。
+
+- 非金属性最强的元素是氟 F。
+
+普遍规律：
+
+- 原子半径越大，原子核对电子的控制力越弱，最外层电子越易失去。
+
+- 半导体（类金属、半金属），金属性、非金属性均有且均不强。
+
+### 电离能与电负性
+
+电离能：
+
+- 气态基态，失一个电子，变为气态阳离子，所需要的最低能量 $I$ 为电离能。
+
+- $\ce{M -> M+}$ 为第一电离能 $I_1$，$\ce{M+ -> M2+}$ 为第二电离能 $I_2$，$\dots$，$\ce{M(n-1)+ -> Mn+}$ 为第 $n$ 电离能 $I_n$。
+
+- 破坏大稳定结构（能层）电离能突跃，通常于主要化合价有关。
+
+- 同一周期小稳定结构（洪特规则特例）电离能反常大，例如镁大于铝。
+
+- 通常电离能越小，活动性越强，但不一定一一对应（与环境有关），例如锌大于铜。
+
+电负性：
+
+- 在化合物中，吸引电子能力越强，电负性越大，用符号 $\chi$ 表示。
+
+- 电负性氟最大，定义为 $4.0$，则 $\chi$ 大于 $1.8$ 的通常为非金属，小于 $1.8$ 的通常为金属。
+
+- 在化合物 $\ce{AB}$ 中，若电负性 $\ce{B}>\ce{A}$ 则 $\ce{B}$ 通常显示负价，$\ce{A}$ 通常显示正价。
+
+- 若化学键电负性差值 $|\Delta\chi|$ 小于 $1.7$ 通常为共价键，大于 $1.7$ 通常为离子键。
+
+- 常见电负性顺序：$\ce{F,O,Cl,N,Br,I,S,P,C,H,B}$，通常 $\ce{Cl,N}$ 电负性相差不大。
