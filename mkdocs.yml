@@ -18,7 +18,7 @@ nav:
         - intro/format.md
         - intro/usage.md
         - intro/discussion.md
-        - intro/setting.md
+        # - intro/setting.md # 不建议使用
         - madoka.md
     - 语文:
         - 必读书目:
@@ -152,7 +152,6 @@ theme:
           toggle:
             icon: material/weather-sunny
             name: Switch to dark mode
-
         # Palette toggle for dark mode
         - media: "(prefers-color-scheme: dark)"
           scheme: slate
