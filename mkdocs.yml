@@ -100,7 +100,8 @@ nav:
             - chemistry/principle/liquid.md # 溶液的行为
         - 化学元素:
             - chemistry/element/index.md
-            # - chemistry/element/periodic.md # 元素周期律
+            - chemistry/element/metal.md # 金属概述
+            - chemistry/element/nonmetal.md # 非金属概述
             - chemistry/element/na.md
             - chemistry/element/cl.md
             - chemistry/element/fe.md
@@ -108,12 +109,12 @@ nav:
             - chemistry/element/n.md
             - chemistry/element/al.md
             - chemistry/element/si.md
+            - chemistry/element/mg.md
         # - 有机化学:
         - 化学应用:
-            - chemistry/use/tech.md
-            - chemistry/use/experiment.md
-            - chemistry/use/industry.md
-            - chemistry/use/life.md
+            - chemistry/use/tech.md # 化学与技术
+            - chemistry/use/experiment.md # 化学与实验
+            - chemistry/use/life.md # 化学与生活
     - 生物:
         # - 细胞与分子:
         #     - biology/cell/1.md
