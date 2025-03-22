@@ -92,24 +92,22 @@ nav:
             - chemistry/principle/substance.md # 分类和计量
             - chemistry/principle/redox.md # 氧化还原
             - chemistry/principle/atom.md # 原子与元素
-
             - chemistry/principle/structure.md # 分子与晶体
             - chemistry/principle/thermo.md # 反应与热能
             - chemistry/principle/electro.md # 反应与电能
             - chemistry/principle/equilibrium.md # 速率与平衡
             - chemistry/principle/liquid.md # 溶液的行为
         - 化学元素:
-            - chemistry/element/index.md
             - chemistry/element/metal.md # 金属概述
             - chemistry/element/nonmetal.md # 非金属概述
-            - chemistry/element/na.md
-            - chemistry/element/cl.md
+            - chemistry/element/na.md # IA
+            - chemistry/element/mg.md # IIA
+            - chemistry/element/al.md # IIIA
+            - chemistry/element/si.md # IVA
+            - chemistry/element/n.md # VA
+            - chemistry/element/s.md # VIA
+            - chemistry/element/cl.md # VIIA
             - chemistry/element/fe.md
-            - chemistry/element/s.md
-            - chemistry/element/n.md
-            - chemistry/element/al.md
-            - chemistry/element/si.md
-            - chemistry/element/mg.md
         # - 有机化学:
         - 化学应用:
             - chemistry/use/tech.md # 化学与技术
