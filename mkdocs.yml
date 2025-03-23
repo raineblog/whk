@@ -90,7 +90,6 @@ nav:
     - 化学:
         - 化学原理:
             - chemistry/principle/substance.md # 分类和计量
-            - chemistry/principle/redox.md # 氧化还原
             - chemistry/principle/atom.md # 原子与元素
             - chemistry/principle/structure.md # 分子与晶体
             - chemistry/principle/thermo.md # 反应与热能
