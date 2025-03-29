@@ -113,8 +113,9 @@ nav:
             - mathematics/vector/example.md # 例题
         - 三角函数与几何学:
             - mathematics/geometry/1.md # 三角函数公式
-            - mathematics/geometry/2.md # 三角函数进阶
+            - mathematics/geometry/2.md # 三角函数题型
             - mathematics/geometry/3.md # 解三角形
+            - mathematics/geometry/4.md # 直线和圆
         - 立体几何与空间向量:
             - mathematics/solid/1.md # 几何体
             - mathematics/solid/2.md # 点线面
