@@ -1,4 +1,4 @@
 mkdocs
 mkdocs-glightbox
-# mkdocs-minify-plugin
+mkdocs-minify-plugin
 pymdown-extensions

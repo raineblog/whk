@@ -48,8 +48,7 @@ nav:
             - science/electricity/current/1.md
             - science/electricity/current/2.md
             # - science/electricity/magnetism/1.md
-        - 热学和光学:
-            - javascript:void(0);
+        # - 热学和光学:
         #     - 热学:
         #         - science/physics/thermodynamics/1.md
         #     - 光学:
@@ -76,19 +75,16 @@ nav:
             - science/element/s.md # VIA
             - science/element/cl.md # VIIA
             - science/element/fe.md
-        - 有机与生物化学:
-            - javascript:void(0);
+        # - 有机与生物化学:
         #     - science/organic/1.md
         - 遗传与进化:
             - science/genetics/1.md # 基因与染色体
             - science/genetics/2.md # 孟德尔遗传规律
             - science/genetics/3.md # 人类遗传病
             # - science/genetics/4.md # 变异与进化
-        - 稳态与调节:
-            - javascript:void(0);
+        # - 稳态与调节:
         #     - science/steady/1.md
-        - 生物与环境:
-            - javascript:void(0);
+        # - 生物与环境:
         #     - science/environment/1.md
         - 生化技术与工程:
             - science/technology/tech.md # 化学与技术
