@@ -58,6 +58,7 @@ nav:
         - 物质的结构与性质:
             - science/structure/1.md # 原子与元素
             - science/structure/2.md # 分子与晶体
+            - science/structure/3.md # 元素的推断
         - 化学反应原理:
             - science/reaction/thermo.md # 反应与热能
             - science/reaction/electro.md # 反应与电能
