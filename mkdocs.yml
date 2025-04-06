@@ -78,6 +78,11 @@ nav:
             - science/element/fe.md
         # - 有机与生物化学:
         #     - science/organic/1.md
+        # - 细胞生物学:
+        #     - science/cell/1.md # 细胞的基本结构
+        #     - science/cell/2.md # 细胞的基本功能
+        #     - science/cell/3.md # 细胞的分裂与增殖
+        #     - science/cell/4.md # 细胞的代谢与能量转换
         - 遗传与进化:
             - science/genetics/1.md # 基因与染色体
             - science/genetics/2.md # 孟德尔遗传规律
