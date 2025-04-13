@@ -18,7 +18,7 @@ nav:
         - intro/format.md
         - intro/usage.md
         - intro/discussion.md
-        # - intro/setting.md # 不建议使用
+        - intro/setting.md # 不建议使用
         - madoka.md
     - 人文历史:
         - 名著阅读:
@@ -27,40 +27,35 @@ nav:
             # - cultural/reading/3.md
     # - 思想政治: # ideology
     - 自然科学:
-        - 运动学与振动:
+        - 运动学:
             - science/kinematics/1.md # 直线运动
             - science/kinematics/2.md # 抛体运动
             - science/kinematics/3.md # 圆周运动
             - science/kinematics/4.md # 相对运动
-            # - science/kinematics/5.md # 震动
-            # - science/kinematics/6.md # 波动
-        - 牛顿力学:
-            - science/mechanics/statics.md # 静力学
-            - science/mechanics/dynamics.md # 动力学
-            - science/mechanics/energy/1.md # 功能动量的定义
-            - science/mechanics/energy/2.md # 功能动量的守恒
-            - science/mechanics/energy/3.md # 功能动量的模型
-            - science/mechanics/angular/1.md # 角动量
-            - science/mechanics/angular/2.md # 天体运动
-            - science/mechanics/angular/3.md # 轨道力学
+        - 平动动力学:
+            - science/mechanics/1.md # 力及其性质与动量
+            - science/mechanics/2.md # 运动学与功和能量
+            - science/mechanics/3.md # 动力学的模型总结
+        - 角动量与天体:
+            - science/angular/1.md # 角动量
+            - science/angular/2.md # 天体运动
+            - science/angular/3.md # 轨道力学
         - 电学和磁学:
             - science/electricity/field/1.md
             - science/electricity/field/2.md
             - science/electricity/current/1.md
             - science/electricity/current/2.md
             # - science/electricity/magnetism/1.md
-        # - 热学和光学:
-        #     - 热学:
-        #         - science/physics/thermodynamics/1.md
-        #     - 光学:
-        #         - science/physics/optics/1.md
-        #     - 近代物理:
-        #         - science/physics/modern/1.md
+        - 声光与近代物理:
+            - science/wave/1.md # 震动与波动
+            - science/wave/relativity.md # 相对论
         - 物质的结构与性质:
             - science/structure/1.md # 原子与元素
             - science/structure/2.md # 分子与晶体
             - science/structure/3.md # 元素的推断
         - 化学反应原理:
+            # - science/reaction/1.md # 热力学基础
+            # - science/reaction/2.md # 理想气体状态方程
             - science/reaction/thermo.md # 反应与热能
             - science/reaction/electro.md # 反应与电能
             - science/reaction/equilibrium.md # 速率与平衡
@@ -76,7 +71,7 @@ nav:
             - science/element/n.md # VA
             - science/element/s.md # VIA
             - science/element/cl.md # VIIA
-            - science/element/fe.md
+            - science/element/fe.md # 过渡元素
         # - 有机与生物化学:
         #     - science/organic/1.md
         # - 细胞生物学:
