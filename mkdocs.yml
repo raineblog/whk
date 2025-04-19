@@ -36,7 +36,7 @@ nav:
             - science/mechanics/1.md # 力及其性质与动量
             - science/mechanics/2.md # 运动学与功和能量
             - science/mechanics/3.md # 动力学的模型总结
-        - 角动量与天体力学:
+        - 角动量与天体学:
             - science/angular/1.md # 角动量
             - science/angular/2.md # 天体运动
             - science/angular/3.md # 轨道力学
@@ -56,7 +56,7 @@ nav:
             - science/structure/3.md # 元素的推断
         - 化学反应与电能:
             - science/electro/1.md # 氧化还原反应
-        - 热化学与反应速率:
+        - 热化学及其速率:
             - science/thermo/1.md # 热化学基础
         - 化学平衡与溶液:
             - science/equilibrium/1.md # 化学反应速率

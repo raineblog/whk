@@ -50,7 +50,7 @@ jobs:
       - name: Page Build
         run: |
           git rev-parse --short HEAD | xargs -I % sed -i "s/githash: ''/githash: '%'/g" mkdocs.yml
-          mkdocs build
+          mkdocs build --strict
       - name: Upload Artifacts
         id: deployment
         uses: actions/upload-pages-artifact@v3
