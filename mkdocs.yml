@@ -27,20 +27,20 @@ nav:
             # - cultural/reading/3.md
     # - 思想政治: # ideology
     - 自然科学:
-        - 运动学:
+        - 空间测量与运动:
             - science/kinematics/1.md # 直线运动
             - science/kinematics/2.md # 抛体运动
             - science/kinematics/3.md # 圆周运动
             - science/kinematics/4.md # 相对运动
-        - 平动动力学:
+        - 动力学与热力学:
             - science/mechanics/1.md # 力及其性质与动量
             - science/mechanics/2.md # 运动学与功和能量
             - science/mechanics/3.md # 动力学的模型总结
-        - 角动量与天体:
+        - 角动量与天体力学:
             - science/angular/1.md # 角动量
             - science/angular/2.md # 天体运动
             - science/angular/3.md # 轨道力学
-        - 电学和磁学:
+        - 电磁及其动力学:
             - science/electricity/field/1.md
             - science/electricity/field/2.md
             - science/electricity/current/1.md
@@ -48,22 +48,26 @@ nav:
             # - science/electricity/magnetism/1.md
         - 声光与近代物理:
             - science/wave/1.md # 震动与波动
-            - science/wave/relativity.md # 相对论
-        - 物质的结构与性质:
+            - science/wave/relativity.md # 相对论概述
+        - 计量与结构化学:
+            - science/structure/mole.md # 物质的计量
             - science/structure/1.md # 原子与元素
             - science/structure/2.md # 分子与晶体
             - science/structure/3.md # 元素的推断
-        - 化学反应原理:
-            # - science/reaction/1.md # 热力学基础
-            # - science/reaction/2.md # 理想气体状态方程
-            - science/reaction/thermo.md # 反应与热能
-            - science/reaction/electro.md # 反应与电能
-            - science/reaction/equilibrium.md # 速率与平衡
-            - science/reaction/liquid.md # 溶液的行为
+        - 化学反应与电能:
+            - science/electro/1.md # 氧化还原反应
+        - 热化学与反应速率:
+            - science/thermo/1.md # 热化学基础
+        - 化学平衡与溶液:
+            - science/equilibrium/1.md # 化学反应速率
+            - science/equilibrium/2.md # 化学反应平衡
+            - science/equilibrium/3.md # 溶液的行为
+        - 化学工业与实验:
+            - science/experiment/tech.md # 化学与技术
+            - science/experiment/experiment.md # 化学与实验
+            - science/experiment/life.md # 化学与生活
         - 化学元素及其性质:
             - science/element/index.md # 物质概述
-            - science/element/metal.md # 金属概述
-            - science/element/nonmetal.md # 非金属概述
             - science/element/na.md # IA
             - science/element/mg.md # IIA
             - science/element/al.md # IIIA
@@ -72,27 +76,24 @@ nav:
             - science/element/s.md # VIA
             - science/element/cl.md # VIIA
             - science/element/fe.md # 过渡元素
-        # - 有机与生物化学:
-        #     - science/organic/1.md
-        # - 细胞生物学:
-        #     - science/cell/1.md # 细胞的基本结构
-        #     - science/cell/2.md # 细胞的基本功能
-        #     - science/cell/3.md # 细胞的分裂与增殖
-        #     - science/cell/4.md # 细胞的代谢与能量转换
-        - 遗传与进化:
-            - science/genetics/1.md # 基因与染色体
+        - 有机与材料化学:
+            - science/organic/index.md # 有机化学概述
+        - 细胞与生物化学:
+            - science/cell/1.md # 细胞的结构
+            - science/cell/2.md # 细胞的能量转化
+            - science/cell/3.md # 细胞的增殖
+            # - science/cell/organic.md # 糖脂质蛋白质
+            - science/cell/nucleic.md # 核酸及其衍生物
+            - science/cell/enzyme.md # 酶与酶促反应
+        - 遗传与基因工程:
+            - science/genetics/1.md # 变异与进化
             - science/genetics/2.md # 孟德尔遗传规律
             - science/genetics/3.md # 人类遗传病
-            # - science/genetics/4.md # 变异与进化
+            - science/genetics/4.md # 基因工程
         # - 稳态与调节:
         #     - science/steady/1.md
         # - 生物与环境:
         #     - science/environment/1.md
-        - 生化技术与工程:
-            - science/technology/tech.md # 化学与技术
-            - science/technology/experiment.md # 化学与实验
-            - science/technology/life.md # 化学与生活
-        #     - science/technology/1.md
     - 数理逻辑:
         - 逻辑与不等式:
            - mathematics/logic/1.md # 集合
@@ -113,12 +114,12 @@ nav:
             - mathematics/vector/2.md # 线性代数
             - mathematics/vector/3.md # 复数
             - mathematics/vector/example.md # 例题
-        - 三角函数与几何学:
+        - 三角与平面几何:
             - mathematics/geometry/1.md # 三角函数公式
             - mathematics/geometry/2.md # 三角函数题型
             - mathematics/geometry/3.md # 解三角形
             - mathematics/geometry/4.md # 直线和圆
-        - 立体几何与空间向量:
+        - 立体几何与向量:
             - mathematics/solid/1.md # 几何体
             - mathematics/solid/2.md # 点线面
             - mathematics/solid/3.md # 空间向量
