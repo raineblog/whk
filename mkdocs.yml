@@ -54,11 +54,11 @@ nav:
             - science/structure/1.md # 原子与元素
             - science/structure/2.md # 分子与晶体
             - science/structure/3.md # 元素的推断
-        - 化学反应与电能:
-            - science/electro/1.md # 氧化还原反应
-        - 热化学及其速率:
-            - science/thermo/1.md # 热化学
-            - science/thermo/2.md # 反应速率
+        - 化学反应的原理:
+            - science/reaction/thermo.md # 热化学
+            - science/reaction/speed.md # 反应速率
+            - science/reaction/redox.md # 氧化还原反应
+            - science/reaction/electro.md # 电化学
         - 化学平衡与溶液:
             - science/equilibrium/1.md # 化学反应速率
             - science/equilibrium/2.md # 化学反应平衡

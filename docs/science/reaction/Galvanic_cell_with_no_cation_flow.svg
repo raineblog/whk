@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   viewBox="0 0 6139.4717 3563.7649"
+   id="svg2739"
+   version="1.1">
+  <metadata
+     id="metadata2745">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style>
+    text { font-family:Liberation Sans, sans-serif; }
+    tspan.state { font-size: 150px; }
+  </style>
+  <defs
+     id="defs2743">
+    <marker
+       style="overflow:visible;"
+       id="marker6387"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;fill:#000000"
+         id="path6385" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker6197"
+       style="overflow:visible;">
+      <path
+         id="path6195"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;fill:#000000"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5739"
+       style="overflow:visible;">
+      <path
+         id="path5737"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;fill:#000000"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;fill:#000000"
+         id="path5490" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;fill:#000000"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path5478" />
+    </marker>
+    <linearGradient
+       id="linearGradient5363">
+      <stop
+         id="stop5359"
+         offset="0"
+         style="stop-color:#d5914a;stop-opacity:1;" />
+      <stop
+         id="stop5361"
+         offset="1"
+         style="stop-color:#fcd37c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5351">
+      <stop
+         style="stop-color:#b3b3b3;stop-opacity:1"
+         offset="0"
+         id="stop5349" />
+      <stop
+         style="stop-color:#e6e6e6;stop-opacity:1;"
+         offset="1"
+         id="stop5347" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="reflect"
+       gradientUnits="userSpaceOnUse"
+       y2="2062.7605"
+       x2="1497.8838"
+       y1="2062.7605"
+       x1="1247.181"
+       id="linearGradient5353"
+       xlink:href="#linearGradient5351" />
+    <linearGradient
+       spreadMethod="reflect"
+       gradientUnits="userSpaceOnUse"
+       y2="2062.7605"
+       x2="4638.4175"
+       y1="2062.7605"
+       x1="4368.666"
+       id="linearGradient5365"
+       xlink:href="#linearGradient5363" />
+
+    <g id="electron">
+      <circle style="fill:#fff4b7;stroke:#000000;stroke-width:7.55905533;stroke-miterlimit:4" cx="0" cy="0" r="146.7579" />
+      <text style="font-size:208px;font-style:italic;text-anchor:middle" x="0" y="62"><tspan>e⁻</tspan></text>
+    </g>
+
+  </defs>
+  <g
+     style="display:inline"
+     id="layer1">
+    <path
+       style="fill:#a1c9ff;stroke:none;stroke-width:7.63801098;stroke-miterlimit:4"
+       d="m 6127.3661,1740.926 c -127.1409,103.8921 -312.1534,103.8407 -439.3483,-0.015 -124.4422,103.9553 -305.5132,103.9038 -429.9885,-0.015 -124.4322,103.9703 -305.5032,103.9188 -429.9785,0 h -453.0333 c -124.4323,103.9703 -305.5032,103.9188 -429.9785,0 -124.4323,103.9703 -305.5032,103.9188 -429.9785,0 -97.6103,81.5591 -230.0736,99.1078 -342.7302,52.7207 l -0.7755,1769.4855 2967.9169,0.6627 V 1740.926 Z"
+       id="path5357" />
+    <path
+       style="fill:#e6e6e6;stroke:none;stroke-width:7.63801098;stroke-miterlimit:4"
+       d="m 2966.1901,1791.7817 c -113.574,48.6852 -248.235,31.6974 -347.1542,-50.8857 -124.4323,103.9703 -305.5032,103.9188 -429.9785,0 -124.4323,103.9703 -305.5032,103.9188 -429.9785,0 h -447.147 c -124.4323,103.9703 -305.5032,103.9188 -429.97847,0 -124.43226,103.9703 -305.50318,103.9188 -430.32295,0 -124.77673,103.9703 -305.84765,103.9188 -430.322939,0 L 0,1740.8964 v 1822.8685 h 2966.8863 z"
+       id="path5345" />
+    <rect
+       ry="0.66291302"
+       y="1649.3099"
+       x="2966.2234"
+       height="1914.455"
+       width="205.33141"
+       id="rect6492"
+       style="fill:#ffc2bc;stroke:#000000;stroke-width:7.55905533" />
+    <path
+       id="path6494"
+       d="M 1497.8838,1462.15 V 878.2099 H 4638.4173 V 1462.15"
+       style="fill:none;stroke:#000000;stroke-width:11.33858299;stroke-linecap:butt;stroke-linejoin:miter" />
+    <path
+       id="path5343"
+       d="m 3172.3303,1793.6167 c 112.6566,46.3871 245.1199,28.8384 342.7302,-52.7207 124.4753,103.9188 305.5462,103.9703 429.9785,0 124.4753,103.9188 305.5462,103.9703 429.9785,0 h 453.0333 c 124.4753,103.9188 305.5463,103.9703 429.9785,0 124.4753,103.9188 305.5463,103.9703 429.9885,0.015 127.1949,103.8557 312.2074,103.9071 439.3483,0.015 h 12.1056"
+       style="fill:none;stroke:#000000;stroke-width:11.33858299;stroke-miterlimit:4" />
+    <path
+       id="path6502-60"
+       d="m 2966.1901,1791.7817 c -113.574,48.6852 -248.235,31.6974 -347.1542,-50.8857 -124.4323,103.9703 -305.5032,103.9188 -429.9785,0 -124.4323,103.9703 -305.5032,103.9188 -429.9785,0 h -447.147 c -124.4323,103.9703 -305.5032,103.9188 -429.97847,0 -124.43226,103.9703 -305.50318,103.9188 -430.32295,0 -124.77673,103.9703 -305.84765,103.9188 -430.322939,0 H 0"
+       style="fill:none;stroke:#000000;stroke-width:11.33858299;stroke-miterlimit:4" />
+    <use xlink:href="#electron" x="4869.1245" y="581.0802" />
+    <use xlink:href="#electron" x="4869.1245" y="581.0802" transform="translate(174.17078,341.56348)"/>
+    <use xlink:href="#electron" x="4869.1245" y="581.0802" transform="translate(-3597.1012,0.16839784)"/>
+    <use xlink:href="#electron" x="4869.1245" y="581.0802" transform="translate(-3770.7014,341.20295)"/>
+    <path
+       id="path4709"
+       d="m 3519.4361,597.17201 18.8343,68.32064 -230.8597,53.78579 -0.9183,-3.76556 z"
+       style="fill:#ffff00;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
+    <path
+       id="path4709-9"
+       d="m 3291.8829,393.26161 55.9898,43.44638 -152.7092,181.29813 -2.99,-2.4663 z"
+       style="fill:#ffff00;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
+    <path
+       id="path4709-9-2"
+       d="m 3004.4744,334.45224 70.2117,9.63077 -41.6009,233.36339 -3.8226,-0.64088 z"
+       style="fill:#ffff00;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
+    <path
+       id="path4709-9-2-0"
+       d="m 2707.9838,430.64384 61.5232,-35.17566 109.3117,210.33319 -3.4206,1.82272 z"
+       style="fill:#ffff00;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
+    <path
+       id="path4709-9-2-2"
+       d="m 2540.2228,628.27202 39.609,-58.76702 191.0946,140.25668 -2.261,3.14811 z"
+       style="fill:#ffff00;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
+    <circle
+       r="252.77875"
+       cy="865.71747"
+       cx="3046.9236"
+       id="path4762"
+       style="fill:#ffffff;stroke:#000000;stroke-width:11.33858299;stroke-miterlimit:4" />
+    <path
+       d="m 3039.6121,912.72176 c 18.0183,-17.75718 61.0423,-53.27029 61.0423,-96.07147 0,-42.80118 -23.5812,-60.71863 -47.9855,-60.0873 -24.4043,0.63133 -53.0922,13.06578 -54.8384,60.06106 -1.7462,46.99528 22.5375,71.40048 41.7816,96.09771 z m -240.3162,3.76627 c 87.4106,74.14518 172.653,57.91558 240.3162,-3.76627 79.0706,58.09742 171.4512,64.16506 251.9145,16.76454"
+       style="fill:none;stroke:#000000;stroke-width:7.55905533;stroke-linecap:butt;stroke-linejoin:miter"
+       id="path4770" />
+    <rect
+       ry="0.66291302"
+       y="1462.15"
+       x="1247.181"
+       height="1201.2212"
+       width="509.73569"
+       id="rect6488"
+       style="fill:url(#linearGradient5353);stroke:#000000;stroke-width:7.55905533" />
+    <g
+       id="g4838">
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:7.55905533;stroke-miterlimit:4"
+         id="path4762-3"
+         cx="2226.4167"
+         cy="3069.5181"
+         r="310.38968" />
+      <text
+         xml:space="preserve" translate="no"
+         style="font-size:208px;text-anchor:middle"
+         x="2226.4167"
+         y="3115.4338"
+         id="text4792"><tspan id="tspan4790">Zn⁺²</tspan></text>
+      <text
+         xml:space="preserve" translate="no"
+         style="text-anchor:middle"
+         x="2226.4167"
+         y="3300"
+         id="text4800"><tspan class="state" id="tspan4798">(aq)</tspan></text>
+    </g>
+    <g
+       transform="translate(1685.888,-2.0890804)"
+       id="g5028">
+      <circle
+         r="310.38968"
+         cy="3069.5181"
+         cx="2226.4167"
+         id="circle4840"
+         style="fill:none;stroke:#000000;stroke-width:7.55905533;stroke-miterlimit:4" />
+      <text
+         id="text4844"
+         y="3119.8655"
+         x="2226.4167"
+         style="font-size:208px;text-anchor:middle"
+         xml:space="preserve" translate="no"><tspan id="tspan4842">Cu⁺²</tspan></text>
+      <text
+         id="text4852"
+         y="3300"
+         x="2226.4167"
+         style="text-anchor:middle"
+         xml:space="preserve" translate="no"><tspan class="state" id="tspan4850">(aq)</tspan></text>
+    </g>
+    <g
+       id="g5007"
+       transform="translate(-3324.7844,-2.0890791)">
+      <text
+         id="text4858"
+         y="3393.0212"
+         x="3408.1218"
+         style="font-size:208px"
+         xml:space="preserve" translate="no"><tspan id="tspan4856">ZnSO₄</tspan><tspan class="state"> (aq)</tspan></text>
+      
+    </g>
+    <rect
+       ry="0.66291302"
+       y="1462.15"
+       x="4372.4453"
+       height="1201.2212"
+       width="518.09198"
+       id="rect6490"
+       style="fill:url(#linearGradient5365);stroke:#000000;stroke-width:7.55905533" />
+    <g
+       transform="translate(-2249.3806,-1071.5841)"
+       id="g5019">
+      <text
+         xml:space="preserve" translate="no"
+         style="font-size:208px"
+         x="3534.4226"
+         y="3164.7935"
+         id="text5011"><tspan id="tspan5009">Zn</tspan><tspan class="state" id="tspan5015"> (s)</tspan></text>
+    </g>
+    <g
+       id="g5057"
+       transform="translate(873.40102,-1070.9288)">
+      <text
+         id="text5051"
+         y="3165.8379"
+         x="3521.8882"
+         style="font-size:208px"
+         xml:space="preserve" translate="no"><tspan id="tspan5049">Cu</tspan><tspan class="state" id="tspan5053"> (s)</tspan></text>
+    </g>
+    
+    <switch transform="translate(3400, 2430.4387)" style="font-size:180px">
+      <text systemLanguage="ca"><tspan>Flux </tspan><tspan x="0" dy="165">d'anions</tspan></text>
+      <text systemLanguage="cs"><tspan>Aniontový </tspan><tspan x="0" dy="165">proud</tspan></text>
+      <text systemLanguage="en"><tspan>Anion </tspan><tspan x="0" dy="165">flow</tspan></text>
+      <text systemLanguage="es"><tspan>Flujo de </tspan><tspan x="0" dy="165">aniones</tspan></text>
+      <text systemLanguage="it"><tspan>Flusso </tspan><tspan x="0" dy="165">degli anioni</tspan></text>
+      <text systemLanguage="sw"><tspan>Mwendo </tspan><tspan x="0" dy="165">wa anioni</tspan></text>
+      <text systemLanguage="ru"><tspan>Поток </tspan><tspan x="0" dy="165">анионов</tspan></text>
+      <text><tspan>Anion </tspan><tspan x="0" dy="165">flow</tspan></text>
+    </switch>
+
+    <switch transform="translate(3055.5901, 1427.6799)" style="text-align:center;text-anchor:middle;font-size:168px">
+      <text systemLanguage="ca"><tspan>Disc</tspan><tspan x="0" dy="168">porós</tspan></text>
+      <text systemLanguage="cs"><tspan>Porézní</tspan><tspan x="0" dy="168">deska</tspan></text>
+      <text systemLanguage="en"><tspan>Porous</tspan><tspan x="0" dy="168">membrane</tspan></text>
+      <text systemLanguage="es"><tspan>Membrana</tspan><tspan x="0" dy="168">porosa</tspan></text>
+      <text systemLanguage="it"><tspan>disco</tspan><tspan x="0" dy="168">poroso</tspan></text>
+      <text systemLanguage="sw"><tspan>Ukuta mwenye </tspan><tspan x="0" dy="168">vinyweleo</tspan></text>
+      <text systemLanguage="ru"><tspan>Пористая</tspan><tspan x="0" dy="168">перегородка</tspan></text>
+      <text><tspan>Porous</tspan><tspan x="0" dy="168">membrane</tspan></text>
+    </switch>
+    
+    <g
+       transform="translate(1689.8128,0)"
+       id="g5085">
+      <text
+         xml:space="preserve" translate="no"
+         style="font-size:208px;fill:#000000;text-anchor:end"
+         x="4380"
+         y="3389.0212"
+         id="text5077"><tspan
+           id="tspan5075">CuSO₄</tspan><tspan class="state"> (aq)</tspan></text>
+
+      <switch transform="translate(-200, 270)" style="font-size:220px; text-anchor:middle">
+        <text systemLanguage="ca"><tspan>Ánode de zinc</tspan></text>
+        <text systemLanguage="cs"><tspan>Zinková anoda</tspan></text>
+        <text systemLanguage="en"><tspan>Zinc anode</tspan></text>
+        <text systemLanguage="es"><tspan>Ánodo de cinc</tspan></text>
+        <text systemLanguage="it"><tspan>Anodo di zinco</tspan></text>
+        <text systemLanguage="sw"><tspan>Anodi ya zinki (Zn)</tspan></text>
+        <text systemLanguage="ru"><tspan>Цинковый анод</tspan></text>
+        <text><tspan>Zinc anode</tspan></text>
+      </switch>
+
+      <switch transform="translate(2950, 270)" style="font-size:220px; text-anchor:middle">
+        <text systemLanguage="ca"><tspan>Cátode de coure</tspan></text>
+        <text systemLanguage="cs"><tspan>Měděná katoda</tspan></text>
+        <text systemLanguage="en"><tspan>Copper cathode</tspan></text>
+        <text systemLanguage="es"><tspan>Cátodo de cobre</tspan></text>
+        <text systemLanguage="it"><tspan>Catodo di rame</tspan></text>
+        <text systemLanguage="sw"><tspan>Kathodi ya shaba (Cu)</tspan></text>
+        <text systemLanguage="ru"><tspan>Медный катод</tspan></text>
+        <text><tspan>Copper cathode</tspan></text>
+      </switch>
+    </g>
+    <path
+       id="path5464"
+       d="m 2836.2297,2593.925 v -96.7007 h 525.8843 v -98.9726 h -525.8843 v -98.1779 l -194.9768,146.9256 z"
+       style="fill:#ffebe9;stroke:#000000;stroke-width:11.33858299;stroke-linecap:butt;stroke-linejoin:miter" />
+    <path
+       id="path5467"
+       d="m 1330.7443,989.49546 c 0,-254.67103 128.8393,-285.68175 339.9978,-285.68175"
+       style="fill:none;stroke:#000000;stroke-width:11.33858299;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;marker-end:url(#Arrow2Lend)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:11.33858299;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;marker-end:url(#marker5739)"
+       d="m 4541.7047,707.14831 c 254.671,0 268.9691,148.16329 268.9691,359.32179"
+       id="path5735" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:11.33858299;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;marker-end:url(#marker6197)"
+       d="m 1497.8838,2802.4411 c 0,254.6711 128.8393,285.6818 339.9978,285.6818"
+       id="path6193" />
+    <path
+       id="path6379"
+       d="m 4369.4482,3082.0952 c 254.671,0 268.9691,-148.1633 268.9691,-359.3218"
+       style="fill:none;stroke:#000000;stroke-width:11.33858299;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;marker-end:url(#marker6387)" />
+    <path
+       id="path6593"
+       d="M 0,0 V 3563.7649 H 6139.4717 V 0 Z"
+       style="fill:none;stroke:#000000;stroke-width:15.11811066;stroke-linecap:butt;stroke-linejoin:miter" />
+    <text translate="no"
+       id="text6597"
+       y="1353.9365"
+       x="4229.7432"
+       style="font-size:585px"><tspan id="tspan6595">+</tspan></text>
+    <text translate="no"
+       id="text6601"
+       x="1587.0563"
+       y="1356.0255"
+       style="font-size:585px"><tspan id="tspan6599">−</tspan></text>
+  </g>
+</svg>
