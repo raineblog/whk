@@ -2,3 +2,4 @@ mkdocs
 mkdocs-glightbox
 mkdocs-minify-plugin
 pymdown-extensions
+python-markdown-document-offsets-injection-extension

@@ -67,7 +67,7 @@ nav:
             - science/experiment/tech.md # 化学与技术
             - science/experiment/experiment.md # 化学与实验
             - science/experiment/life.md # 化学与生活
-        - 化学元素及性质:
+        - 化学元素与性质:
             - science/element/index.md # 物质概述
             - science/element/na.md # IA
             - science/element/mg.md # IIA
@@ -79,7 +79,7 @@ nav:
             - science/element/fe.md # 过渡元素
         - 有机与材料化学:
             - science/organic/index.md # 有机化学概述
-        - 细胞与生物化学:
+        - 细胞与细胞工程:
             - science/cell/1.md # 细胞的结构
             - science/cell/2.md # 细胞的能量转化
             - science/cell/3.md # 细胞的增殖
@@ -96,21 +96,32 @@ nav:
         # - 生物与环境:
         #     - science/environment/1.md
     - 数理逻辑:
-        - 逻辑与不等式:
-           - mathematics/logic/1.md # 集合
-           - mathematics/logic/2.md # 逻辑
-           - mathematics/logic/3.md # 不等式
-        - 函数及其性质:
+        - 不等式与新定义:
+            - mathematics/logic/1.md # 集合
+            - mathematics/logic/2.md # 逻辑
+            - mathematics/logic/3.md # 不等式
+            # - mathematics/logic/4.md # 序理论
+            # - mathematics/logic/5.md # 群论
+            # - mathematics/logic/6.md # 置换与排列
+        # - 数论与抽象代数:
+        #     - mathematics/number/1.md # 数论
+        #     - mathematics/number/2.md # 群论
+        #     - mathematics/number/algebra.md # 抽象代数
+        # - 博弈与算法理论:
+        #     - mathematics/game/1.md # 博弈论
+        #     - mathematics/game/2.md # 计算理论
+        #     - mathematics/game/3.md # 线性规划
+        - 初等函数与导数:
             - mathematics/function/function.md # 函数概括
             - mathematics/function/power.md # 幂函数
             - mathematics/function/exponential.md # 指数函数
             - mathematics/function/logarithm.md # 对数函数
             - mathematics/function/derivative.md # 导数
-        - 多项式与数列:
+        - 多项式数值数列:
             - mathematics/sequence/1.md # 基础
             - mathematics/sequence/2.md # 进阶
             - mathematics/sequence/induction.md # 数学归纳法
-        - 平面向量与复数:
+        - 平面向量与线代:
             - mathematics/vector/1.md # 平面向量
             - mathematics/vector/2.md # 线性代数
             - mathematics/vector/3.md # 复数
@@ -120,15 +131,16 @@ nav:
             - mathematics/geometry/2.md # 三角函数题型
             - mathematics/geometry/3.md # 解三角形
             - mathematics/geometry/4.md # 直线和圆
-        - 立体几何与向量:
+        - 空间与立体几何:
             - mathematics/solid/1.md # 几何体
             - mathematics/solid/2.md # 点线面
             - mathematics/solid/3.md # 空间向量
-        - 统计与概率:
+        - 组合数学与概率:
             - mathematics/probability/combination.md # 组合数学
-            - mathematics/probability/statistics.md # 统计学
-            - mathematics/probability/1.md # 概率入门
-            # - mathematics/probability/2.md
+            - mathematics/probability/1.md # 统计模型
+            - mathematics/probability/2.md # 概率入门
+            - mathematics/probability/3.md # 随机变量
+            - mathematics/probability/4.md # 概率分布
 
 # Theme Configuration
 theme:
@@ -222,6 +234,7 @@ extra_css:
 
 # Extensions
 markdown_extensions:
+    - document-offsets-injection
     - md_in_html
     - admonition
     - attr_list
