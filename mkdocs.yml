@@ -36,6 +36,8 @@ nav:
             - science/mechanics/1.md # 力及其性质与动量
             - science/mechanics/2.md # 运动学与功和能量
             - science/mechanics/3.md # 动力学的模型总结
+            - science/mechanics/4.md # 热力学的基本概念
+            - science/mechanics/5.md # 理想气体状态方程
         - 角动量与天体学:
             - science/angular/1.md # 角动量
             - science/angular/2.md # 天体运动
@@ -55,11 +57,12 @@ nav:
             - science/structure/2.md # 分子与晶体
             - science/structure/3.md # 元素的推断
         - 化学反应的原理:
+            - science/reaction/electro.md # 电化学
+            - science/reaction/battery.md # 电池概述
             - science/reaction/thermo.md # 热化学
             - science/reaction/speed.md # 反应速率
             - science/reaction/equilibrium.md # 化学平衡
-            - science/reaction/electro.md # 电化学
-            - science/reaction/battery.md # 电池概述
+            - science/reaction/liquid.md # 溶液行为
         - 化学工业与实验:
             - science/experiment/tech.md # 化学与技术
             - science/experiment/experiment.md # 化学与实验
