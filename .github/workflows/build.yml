@@ -32,7 +32,6 @@ jobs:
       - name: Update Submodule
         run: |
           git submodule add https://github.com/raineblog/mkdocs-material
-          git submodule add https://github.com/raineblog/intro docs/intro/
           git submodule sync
           git submodule update --init --recursive
           git submodule update --remote
