@@ -145,7 +145,7 @@ nav:
 # Theme Configuration
 theme:
     name: null
-    custom_dir: 'material/templates'
+    custom_dir: 'mkdocs-material/material/templates'
     language: 'zh'
     palette:
         # Palette toggle for light mode
