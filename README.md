@@ -1,7 +1,7 @@
 # whk
 
 ```
-git submodule add https://github.com/RainPPR/material
+git submodule add https://github.com/RainPPR/mkdocs-material
 git submodule add https://github.com/RainPPR/intro docs/intro/
 git submodule update --remote
 ```
