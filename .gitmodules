@@ -1,5 +1,5 @@
 [submodule "mkdocs-material"]
-	path = material
+	path = mkdocs-material
 	url = https://github.com/raineblog/mkdocs-material
 [submodule "docs/intro"]
 	path = docs/intro
