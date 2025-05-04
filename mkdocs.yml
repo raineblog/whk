@@ -65,7 +65,8 @@ nav:
             - science/reaction/liquid.md # 溶液行为
         - 化学工业与实验:
             - science/experiment/tech.md # 化学与技术
-            - science/experiment/experiment.md # 化学与实验
+            - science/experiment/experiment.md # 化学实验操作
+            - science/experiment/instrument.md # 化学实验仪器
             - science/experiment/life.md # 化学与生活
         - 化学元素与性质:
             - science/element/index.md # 物质概述
