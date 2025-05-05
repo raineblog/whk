@@ -29,43 +29,47 @@ nav:
     - 自然科学:
 # 以下为物理
         - 空间测量与运动:
-            - science/kinematics/index.md # 空间测量         3
+            - science/kinematics/index.md # 空间测量         待完成
             - science/kinematics/1.md # 直线运动
             - science/kinematics/2.md # 抛体运动
             - science/kinematics/3.md # 圆周运动
             - science/kinematics/4.md # 相对运动
-            - science/kinematics/5.md # 简谐振动             3
-        - 动力学与热力学:
+            - science/kinematics/5.md # 简谐振动             待完成
+        - 动力学与热力学:                                  # 热力学完善
             - science/mechanics/1.md # 力及其性质与动量
             - science/mechanics/2.md # 运动学与功和能量
             - science/mechanics/3.md # 动力学的模型总结
-            - science/mechanics/4.md # 热力学的基本概念      3
-            - science/mechanics/5.md # 理想气体状态方程        3
+            - science/mechanics/4.md # 热力学的基本概念      
+            - science/mechanics/5.md # 理想气体状态方程
         - 角动量与天体学:
-            - science/angular/1.md # 角动量                   3
-            - science/angular/2.md # 天体运动
-            - science/angular/3.md # 轨道力学                   3
+            - science/angular/1.md # 角动量                   待完善
+            - science/angular/2.md # 天体概述               补充地理天体
+            - science/angular/3.md # 天体运动
+            - science/angular/4.md # 轨道力学                   待完善
         - 电及磁学与电路:
             - science/electricity/field/1.md
             - science/electricity/field/2.md
             - science/electricity/current/1.md
             - science/electricity/current/2.md
             # - science/electricity/magnetism/1.md
-        - 声光与近代物理:
-            - science/wave/relativity.md # 相对论概述        3
+        - 光学与近代物理:                                    # 光学待完善
+            - science/wave/1.md # 几何光学
+            - science/wave/2.md # 波动光学
+            - science/wave/3.md # 近代物理学                待补充量子力学
 # 以下为化学
         - 计量与结构化学:
             - science/structure/index.md # 物质的计量
-            - science/structure/1.md # 原子与元素
-            - science/structure/2.md # 分子与晶体
+            - science/structure/1.md # 元素周期表律
+            - science/structure/2.md # 化学键与分子
+            - science/structure/3.md # 晶体及其计算
         - 化学反应的原理:
             - science/reaction/electro.md # 电化学
             - science/reaction/battery.md # 电池概述
             - science/reaction/thermo.md # 热化学
             - science/reaction/speed.md # 反应速率
             - science/reaction/equilibrium.md # 化学平衡
-            - science/reaction/liquid.md # 溶液行为
-        - 化学工业与实验:
+            - science/reaction/liquid.md # 溶液行为            完善
+        - 化学工业与实验:                                        # 全面整改和完善
             - science/experiment/tech.md # 化学与技术
             - science/experiment/experiment.md # 化学实验操作
             - science/experiment/instrument.md # 化学实验仪器
@@ -80,12 +84,12 @@ nav:
             - science/element/s.md # VIA
             - science/element/cl.md # VIIA
             - science/element/fe.md # 过渡元素
-        - 有机与材料化学:
+        - 有机与材料化学:                                       # 有机化学待完善
             - science/organic/index.md # 有机化学概述
 
-            - science/organic/material.md # 材料化学概述
-            - science/organic/polymer.md # 有机高分子材料
-# 以下为生物
+            - science/organic/material.md # 材料化学概述          待完善
+            - science/organic/polymer.md # 有机高分子材料        待完善
+# 以下为生物                                                   除孟德尔待完善
         - 细胞与细胞工程:
             - science/cell/1.md # 细胞的结构
             - science/cell/2.md # 细胞的能量转化
