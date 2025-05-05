@@ -27,35 +27,37 @@ nav:
             # - cultural/reading/3.md
     # - 思想政治: # ideology
     - 自然科学:
+# 以下为物理
         - 空间测量与运动:
+            - science/kinematics/index.md # 空间测量         3
             - science/kinematics/1.md # 直线运动
             - science/kinematics/2.md # 抛体运动
             - science/kinematics/3.md # 圆周运动
             - science/kinematics/4.md # 相对运动
+            - science/kinematics/5.md # 简谐振动             3
         - 动力学与热力学:
             - science/mechanics/1.md # 力及其性质与动量
             - science/mechanics/2.md # 运动学与功和能量
             - science/mechanics/3.md # 动力学的模型总结
-            - science/mechanics/4.md # 热力学的基本概念
-            - science/mechanics/5.md # 理想气体状态方程
+            - science/mechanics/4.md # 热力学的基本概念      3
+            - science/mechanics/5.md # 理想气体状态方程        3
         - 角动量与天体学:
-            - science/angular/1.md # 角动量
+            - science/angular/1.md # 角动量                   3
             - science/angular/2.md # 天体运动
-            - science/angular/3.md # 轨道力学
-        - 电磁及其动力学:
+            - science/angular/3.md # 轨道力学                   3
+        - 电及磁学与电路:
             - science/electricity/field/1.md
             - science/electricity/field/2.md
             - science/electricity/current/1.md
             - science/electricity/current/2.md
             # - science/electricity/magnetism/1.md
         - 声光与近代物理:
-            - science/wave/1.md # 震动与波动
-            - science/wave/relativity.md # 相对论概述
+            - science/wave/relativity.md # 相对论概述        3
+# 以下为化学
         - 计量与结构化学:
-            - science/structure/mole.md # 物质的计量
+            - science/structure/index.md # 物质的计量
             - science/structure/1.md # 原子与元素
             - science/structure/2.md # 分子与晶体
-            - science/structure/3.md # 元素的推断
         - 化学反应的原理:
             - science/reaction/electro.md # 电化学
             - science/reaction/battery.md # 电池概述
@@ -69,7 +71,7 @@ nav:
             - science/experiment/instrument.md # 化学实验仪器
             - science/experiment/life.md # 化学与生活
         - 化学元素与性质:
-            - science/element/index.md # 物质概述
+            - science/element/index.md # 物质及元素推断
             - science/element/na.md # IA
             - science/element/mg.md # IIA
             - science/element/al.md # IIIA
@@ -80,6 +82,10 @@ nav:
             - science/element/fe.md # 过渡元素
         - 有机与材料化学:
             - science/organic/index.md # 有机化学概述
+
+            - science/organic/material.md # 材料化学概述
+            - science/organic/polymer.md # 有机高分子材料
+# 以下为生物
         - 细胞与细胞工程:
             - science/cell/1.md # 细胞的结构
             - science/cell/2.md # 细胞的能量转化
@@ -87,15 +93,21 @@ nav:
             # - science/cell/organic.md # 糖脂质蛋白质
             - science/cell/nucleic.md # 核酸及其衍生物
             - science/cell/enzyme.md # 酶与酶促反应
+            - science/cell/fermentation.md # 发酵工程
         - 遗传与基因工程:
             - science/genetics/1.md # 变异与进化
             - science/genetics/2.md # 孟德尔遗传规律
             - science/genetics/3.md # 人类遗传病
             - science/genetics/4.md # 基因工程
-        # - 稳态与调节:
-        #     - science/steady/1.md
-        # - 生物与环境:
-        #     - science/environment/1.md
+        - 生物与生态系统:
+            - science/ecosystem/1.md # 种群与群落
+            - science/ecosystem/2.md # 生态系统
+        - 人体稳态与调节:
+            - science/steady/1.md # 人体内环境
+            - science/steady/2.md # 神经调节
+            - science/steady/3.md # 体液调节
+            - science/steady/4.md # 免疫调节
+            - science/steady/5.md # 植物的调节
     - 数理逻辑:
         - 不等式与新定义:
             - mathematics/logic/1.md # 集合
