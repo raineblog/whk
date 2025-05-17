@@ -84,7 +84,9 @@ jobs:
         run: |
           pip install -r ./script/requirements.txt
           playwright install --with-deps chromium
-          sudo apt install pdf2svg typst
+          sudo apt install pdf2svg
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v4
       - name: Check TOC
         run: python script/toc.py
       - name: Export to PDF
