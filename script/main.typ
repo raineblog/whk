@@ -20,7 +20,7 @@
 
 #set par(first-line-indent: 2em)
 
-= #text(font: sans, "序言", size: 1.5em)
+= #text("序言", size: 1.5em)
 
 #set page(footer: none)
 

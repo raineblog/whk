@@ -84,7 +84,7 @@ jobs:
         run: |
           pip install -r ./script/requirements.txt
           playwright install --with-deps chromium
-          sudo apt install pdf2svg
+          sudo apt install pdf2svg fonts-noto-cjk
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
       - name: Check TOC
@@ -115,4 +115,4 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         files: "*.pdf"
-        tag_name: "$(date +'%Y-%m-%d')-$(git rev-parse --short HEAD)"
+        # tag_name: ${{ steps.date.outputs.date }}
