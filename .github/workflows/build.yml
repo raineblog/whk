@@ -85,12 +85,16 @@ jobs:
         run: pip install -r ./script/requirements.txt
       - name: Install Playwright
         run: |
-          playwright install
-          playwright install-deps
+          playwright install chromium
+          playwright install-deps chromium
       - name: Check TOC
         run: python script/toc.py
       - name: Export to PDF
         run: python ./script/export.py
+      - name: Check PDF
+        run: |
+          cd script
+          ls -a
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:

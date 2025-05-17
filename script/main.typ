@@ -12,7 +12,7 @@
   authors: book-data.authors.join(", "),
   date: datetime.today(),
   titlepage: true,
-  # cover: image("cover.png"),
+  // cover: image("cover.png"),
   paper: "a4",
   part: "Chapter",
   chapter: "Detail",

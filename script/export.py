@@ -122,6 +122,7 @@ def process_top_level(top_title, sub_nav, docs_path, site_url, script_dir):
     # Compile main.typ (assumed to be in script_dir) into main.pdf
     typst_in = os.path.join(script_dir, "main.typ")
     typst_out = os.path.join(script_dir, f"{top_title}.pdf")
+    print(f"typst compile {typst_in} {typst_out}")
     os.system(f"typst compile {typst_in} {typst_out}")
 
 def generate_toc_and_export():
