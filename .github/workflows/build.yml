@@ -95,6 +95,11 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
+          name: TYP
+          path: ./script/main.typ
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
           name: PDF
           path: ./script/*.pdf
   release:
