@@ -84,7 +84,7 @@ jobs:
         run: |
           pip install -r ./script/requirements.txt
           playwright install --with-deps chromium
-          sudo apt install pdf2svg
+          sudo apt install pdf2svg typst
       - name: Check TOC
         run: python script/toc.py
       - name: Export to PDF
@@ -92,11 +92,6 @@ jobs:
           python ./script/export.py
           cd script
           ls -a
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: TYP
-          path: ./script/main.typ
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
