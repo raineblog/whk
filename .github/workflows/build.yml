@@ -111,8 +111,15 @@ jobs:
         path: ./
     - name: Artifacts List
       run: ls -R
+    - name: Get Current Time
+      id: datetime
+      run: |
+        # 获取 UTC 时间
+        echo "utc_time=$(date -u +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
+        # 获取中国标准时间（CST）
+        echo "cst_time=$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
     - name: Upload to Release
       uses: softprops/action-gh-release@v2
       with:
         files: "*.pdf"
-        tag_name: ${{ github.sha.substring(33, 40) }}
+        tag_name: ${{ steps.datetime.outputs.utc_time }}
