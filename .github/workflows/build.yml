@@ -115,4 +115,4 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         files: "*.pdf"
-        tag_name: ${{ github.sha }}
+        tag_name: ${{ github.sha.substring(33, 40) }}

@@ -1,7 +1,7 @@
 #import "@preview/min-book:0.1.0": *
 
-#let sans = ("Noto Sans", "Noto Sans CJK SC")
-#let serif = ("New Computer Modern", "Noto Serif CJK SC")
+#let sans = ("Noto Sans", "Noto Sans CJK SC", "Noto Sans SC")
+#let serif = ("New Computer Modern", "Noto Serif CJK SC", "Noto Serif SC")
 #set text(font: serif, lang: "zh", region: "CN")
 
 #let book-data = json("toc.json")
