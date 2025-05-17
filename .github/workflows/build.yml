@@ -16,9 +16,8 @@ permissions:
   id-token: write
 
 jobs:
-  # check:
   build:
-    name: Page Build
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main
@@ -81,18 +80,16 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install Python dependencies
-        run: pip install -r ./script/requirements.txt
-      - name: Install Playwright
+      - name: Install Dependencies
         run: |
-          playwright install chromium
-          playwright install-deps chromium
+          pip install -r ./script/requirements.txt
+          playwright install --with-deps chromium
+          sudo apt install pdf2svg
       - name: Check TOC
         run: python script/toc.py
       - name: Export to PDF
-        run: python ./script/export.py
-      - name: Check PDF
         run: |
+          python ./script/export.py
           cd script
           ls -a
       - name: Upload Artifact
