@@ -83,6 +83,10 @@ jobs:
           python-version: '3.12'
       - name: Install Python dependencies
         run: pip install -r ./script/requirements.txt
+      - name: Install Playwright
+        run: |
+          playwright install
+          playwright install-deps
       - name: Check TOC
         run: python script/toc.py
       - name: Export to PDF
