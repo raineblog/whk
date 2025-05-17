@@ -67,20 +67,45 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-  # export:
-  #   name: Export
-  #   runs-on: ubuntu-latest
-  #   needs: [build, check]
-  #   steps:
-  #     - name: Checkout main
-  #       uses: actions/checkout@v4
-  #       with:
-  #         submodules: 'true'
-  #     - name: Setup Python
-  #       uses: actions/setup-python@v5
-  #       with:
-  #         python-version: '3.12'
-  #     - name: Install Python dependencies
-  #       run: pip install -r ./requirements.txt
-  #     - name: Export to PDF
-  #       run: mkdocs pdf-export --config-file mkdocs.yml --output-dir export --clean-export-dir --no-commit --no-push --no-pdf-export --no-serve --no-watch --no-reload --no-verbose --no-color --no-cache
+  export:
+    if: startsWith(github.event.head_commit.message, '[export]')
+    name: Export
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          submodules: 'true'
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Python dependencies
+        run: pip install -r ./script/requirements.txt
+      - name: Check TOC
+        run: python script/toc.py
+      - name: Export to PDF
+        run: python ./script/export.py
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: PDF
+          path: ./script/*.pdf
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    needs: export
+    steps:
+    - name: Download artifact
+      uses: actions/download-artifact@v4
+      with:
+        merge-multiple: true
+        path: ./
+    - name: Artifacts List
+      run: ls -R
+    - name: Upload to Release
+      uses: softprops/action-gh-release@v2
+      with:
+        files: "*.pdf"
+        tag_name: "$(date +'%Y-%m-%d')-$(git rev-parse --short HEAD)"
