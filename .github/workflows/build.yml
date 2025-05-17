@@ -83,8 +83,8 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install -r ./script/requirements.txt
-          playwright install --with-deps chromium
           sudo apt install pdf2svg fonts-noto-cjk
+          playwright install --with-deps chromium
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
       - name: Check TOC
