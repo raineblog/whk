@@ -118,6 +118,7 @@ def process_top_level(top_title, sub_nav, docs_path, site_url, script_dir):
     toc_path = os.path.join(script_dir, "toc.json")
     with open(toc_path, 'w', encoding='utf-8') as f:
         json.dump(toc, f, ensure_ascii=False, indent=4)
+    print(json.dumps(toc, ensure_ascii=False, indent=4))
     
     # Compile main.typ (assumed to be in script_dir) into main.pdf
     typst_in = os.path.join(script_dir, "main.typ")

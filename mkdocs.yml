@@ -132,7 +132,7 @@ nav:
             - science/element/s.md     # VIA
             - science/element/cl.md    # VIIA
             - science/element/fe.md    # 过渡元素
-        - 有机与材料化学:
+        - 有机与生物化学:
             - science/organic/index.md # 有机化学概述
             - science/organic/material.md # 材料化学概述
             - science/organic/polymer.md # 有机高分子材料

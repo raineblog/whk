@@ -10,7 +10,6 @@ on:
       - 'README.md'
       - 'todo.ipynb'
       - '.vscode/**'
-      - '.github/**'
   pull_request:
     branches:
       - master
@@ -20,7 +19,6 @@ on:
       - 'README.md'
       - 'todo.ipynb'
       - '.vscode/**'
-      - '.github/**'
   workflow_dispatch:
 
 permissions:
