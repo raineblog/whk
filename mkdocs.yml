@@ -26,7 +26,55 @@ nav:
             - cultural/reading/2.md
             # - cultural/reading/3.md
     # - 思想政治: # ideology
-    - 自然科学:
+    - 高中理科:
+# 以下为数学
+        - 逻辑集合不等式:
+            - science/logic/1.md # 集合
+            - science/logic/2.md # 逻辑
+            - science/logic/3.md # 不等式
+        - 抽象代数与数论:
+            - science/number/linear.md # 线性代数
+            - science/number/complex.md # 复数与复平面
+            - science/number/group.md # 群论
+            # - science/number/1.md # 数论
+        - 博弈与算法理论:
+            - science/algorithm/1.md # 博弈论
+            # - science/algorithm/2.md # 计算理论
+            # - science/algorithm/3.md # 线性规划
+            # - science/algorithm/4.md # 序理论
+            # - science/algorithm/5.md # 置换与排列
+        - 初等函数与导数:
+            - science/function/index.md # 函数概括
+            - science/function/power.md # 幂函数
+            - science/function/exponential.md # 指数函数
+            - science/function/logarithm.md # 对数函数
+            - science/function/derivative.md # 导数
+            - science/function/1.md # 三角函数公式
+            - science/function/2.md # 三角函数题型
+        - 多项式数值数列:
+            - science/sequence/1.md # 数列基础
+            - science/sequence/2.md # 数列进阶
+            - science/sequence/induction.md # 数学归纳法
+        - 欧式与立体几何:
+            - science/geometry/1.md # 平面体系
+            - science/geometry/2.md # 相似与比例
+            - science/geometry/3.md # 圆的几何
+            # - science/geometry/4.md # gugugu
+            - science/geometry/5.md # 空间体系
+            - science/geometry/6.md # 空间几何体
+        - 平面与空间向量:
+            - science/vector/1.md # 平面向量
+            - science/vector/2.md # 空间向量
+            - science/vector/3.md # 解三角形
+            - science/vector/example.md # 例题
+        - 坐标与解析几何:
+            - science/coordinate/1.md # 直线和圆
+        - 组合与概率统计:
+            - science/probability/combination.md # 组合数学
+            - science/probability/1.md # 统计模型
+            - science/probability/2.md # 概率入门
+            - science/probability/3.md # 随机变量
+            - science/probability/4.md # 概率分布
 # 以下为物理
         - 空间测量与运动:
             - science/kinematics/index.md # 空间测量
@@ -110,54 +158,6 @@ nav:
             - science/steady/3.md # 体液调节
             - science/steady/4.md # 免疫调节
             - science/steady/5.md # 植物的调节
-    - 数理逻辑:
-        - 逻辑集合不等式:
-            - mathematics/logic/1.md # 集合
-            - mathematics/logic/2.md # 逻辑
-            - mathematics/logic/3.md # 不等式
-        - 抽象代数与数论:
-            - mathematics/number/linear.md # 线性代数
-            - mathematics/number/complex.md # 复数与复平面
-            - mathematics/number/group.md # 群论
-            # - mathematics/number/1.md # 数论
-        - 博弈与算法理论:
-            - mathematics/algorithm/1.md # 博弈论
-            # - mathematics/algorithm/2.md # 计算理论
-            # - mathematics/algorithm/3.md # 线性规划
-            # - mathematics/algorithm/4.md # 序理论
-            # - mathematics/algorithm/5.md # 置换与排列
-        - 初等函数与导数:
-            - mathematics/function/index.md # 函数概括
-            - mathematics/function/power.md # 幂函数
-            - mathematics/function/exponential.md # 指数函数
-            - mathematics/function/logarithm.md # 对数函数
-            - mathematics/function/derivative.md # 导数
-            - mathematics/function/1.md # 三角函数公式
-            - mathematics/function/2.md # 三角函数题型
-        - 多项式数值数列:
-            - mathematics/sequence/1.md # 数列基础
-            - mathematics/sequence/2.md # 数列进阶
-            - mathematics/sequence/induction.md # 数学归纳法
-        - 欧式与立体几何:
-            - mathematics/geometry/1.md # 平面体系
-            - mathematics/geometry/2.md # 相似与比例
-            - mathematics/geometry/3.md # 圆的几何
-            # - mathematics/geometry/4.md # gugugu
-            - mathematics/geometry/5.md # 空间体系
-            - mathematics/geometry/6.md # 空间几何体
-        - 平面与空间向量:
-            - mathematics/vector/1.md # 平面向量
-            - mathematics/vector/2.md # 空间向量
-            - mathematics/vector/3.md # 解三角形
-            - mathematics/vector/example.md # 例题
-        - 坐标与解析几何:
-            - mathematics/coordinate/1.md # 直线和圆
-        - 组合与概率统计:
-            - mathematics/probability/combination.md # 组合数学
-            - mathematics/probability/1.md # 统计模型
-            - mathematics/probability/2.md # 概率入门
-            - mathematics/probability/3.md # 随机变量
-            - mathematics/probability/4.md # 概率分布
 
 # Theme Configuration
 theme:
