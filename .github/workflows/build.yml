@@ -5,10 +5,23 @@ on:
     branches:
       - master
       - main
+    paths-ignore:
+      - '.gitignore'
+      - 'README.md'
+      - 'todo.ipynb'
+      - '.vscode/**'
+      - '.github/**'
   pull_request:
     branches:
       - master
       - main
+    paths-ignore:
+      - '.gitignore'
+      - 'README.md'
+      - 'todo.ipynb'
+      - '.vscode/**'
+      - '.github/**'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -16,6 +29,24 @@ permissions:
   id-token: write
 
 jobs:
+  # check:
+  #   name: Check
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Checkout main
+  #       uses: actions/checkout@v4
+  #       with:
+  #         submodules: 'true'
+  #     - name: Setup Python
+  #       uses: actions/setup-python@v5
+  #       with:
+  #         python-version: '3.12'
+  #     - name: Install Dependencies
+  #       run: pip install -r ./requirements.txt
+  #     - name: Lint Markdown files
+  #       run: |
+  #         pip install markdownlint-cli
+  #         markdownlint docs/**/*.md --ignore docs/README.md --ignore docs/todo.ipynb --ignore docs/.vscode --ignore docs/.github
   build:
     if: startsWith(github.event.head_commit.message, '[build]') || startsWith(github.event.head_commit.message, '[export]')
     name: Build
@@ -45,7 +76,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install Python dependencies
+      - name: Install Dependencies
         run: pip install -r ./requirements.txt
       - name: Page Build
         run: |
