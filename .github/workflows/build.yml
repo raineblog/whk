@@ -17,6 +17,7 @@ permissions:
 
 jobs:
   build:
+    if: startsWith(github.event.head_commit.message, '[build]') || startsWith(github.event.head_commit.message, '[export]')
     name: Build
     runs-on: ubuntu-latest
     steps:
@@ -83,7 +84,7 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install -r ./script/requirements.txt
-          sudo apt install pdf2svg fonts-noto-cjk
+          sudo apt install pdf2svg
           playwright install --with-deps chromium
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
