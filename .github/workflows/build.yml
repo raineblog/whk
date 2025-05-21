@@ -124,7 +124,8 @@ jobs:
           export TYPST_FONT_PATHS="./script/fonts"
           python ./script/export.py
           cd script
-          ls -Rlh
+      - name: Check Dir
+        run: ls -Rlh
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
