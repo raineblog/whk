@@ -126,7 +126,7 @@ def process_top_level(top_title, sub_nav, docs_path, site_url, script_dir):
     print(f"typst compile {typst_in} {typst_out}")
     os.system(f"typst compile {typst_in} {typst_out}")
 
-    shutil.rmtree(top_out)
+    # shutil.rmtree(top_out)
 
 def generate_toc_and_export():
     """
