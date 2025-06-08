@@ -60,6 +60,8 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
       - name: Update Submodule
         run: |
+          git submodule add https://github.com/raineblog/mkdocs-material material
+          git submodule add https://github.com/raineblog/mkdocs-script script
           git submodule sync
           git submodule update --init --recursive
           git submodule update --remote
@@ -123,10 +125,10 @@ jobs:
         run: |
           export TYPST_FONT_PATHS="./script/fonts"
           python ./script/export.py
-      - name: Check Dir
-        run: |
-          cd script
-          ls -Rlh
+      # - name: Check Dir
+      #   run: |
+      #     cd script
+      #     ls -Rlh
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:

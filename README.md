@@ -1,7 +1,8 @@
 # whk
 
 ```
-git submodule add https://github.com/raineblog/mkdocs-material
+git submodule add https://github.com/raineblog/mkdocs-material material
+git submodule add https://github.com/raineblog/mkdocs-script script
 git submodule add https://github.com/raineblog/intro docs/intro/
 git submodule update --remote
 ```

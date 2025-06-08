@@ -100,7 +100,7 @@ def process_top_level(top_title, sub_nav, docs_path, site_url, script_dir):
                 original_dir = os.getcwd()
                 try:
                     os.chdir(current_dir)
-                    out_svg_pattern = f"{third_title}.%4d.svg"
+                    out_svg_pattern = f"{third_title}.%04d.svg"
                     os.system(f"pdf2svg test.pdf {out_svg_pattern} all")
                 finally:
                     os.chdir(original_dir)
