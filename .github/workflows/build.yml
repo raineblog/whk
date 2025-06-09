@@ -110,12 +110,9 @@ jobs:
         run: python script/toc.py
       - name: Export to PDF
         run: |
+          typst -V
           export TYPST_FONT_PATHS="./script/fonts"
           python ./script/export.py
-      # - name: Check Dir
-      #   run: |
-      #     cd script
-      #     ls -Rlh
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
