@@ -44,7 +44,7 @@ nav:
             # - science/algorithm/4.md # 序理论
             # - science/algorithm/5.md # 置换与排列
         - 初等函数与导数:
-            - science/function/index.md # 函数概括
+            - science/function/index.md # 函数概述
             - science/function/power.md # 幂函数
             - science/function/exponential.md # 指数函数
             - science/function/logarithm.md # 对数函数
