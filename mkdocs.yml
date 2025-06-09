@@ -62,13 +62,15 @@ nav:
             # - science/geometry/4.md # gugugu
             - science/geometry/5.md # 空间体系
             - science/geometry/6.md # 空间几何体
-        - 平面与空间向量:
-            - science/vector/1.md # 平面向量
-            - science/vector/2.md # 空间向量
-            - science/vector/3.md # 解三角形
-            - science/vector/example.md # 例题
-        - 坐标与解析几何:
-            - science/coordinate/1.md # 直线和圆
+        - 向量与解析几何:
+            - science/coordinate/1.md # 平面向量
+            - science/coordinate/2.md # 空间向量
+            - science/coordinate/3.md # 解三角形
+            - science/coordinate/4.md # 直线平面
+            - science/coordinate/5.md # 圆和椭圆
+            - science/coordinate/6.md # 圆锥曲线
+
+            - science/coordinate/example.md # 例题
         - 组合与概率统计:
             - science/probability/combination.md # 组合数学
             - science/probability/1.md # 统计模型
