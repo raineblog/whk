@@ -1,4 +1,4 @@
-# 对数函数 TBD
+# 对数函数
 
 $$
 \begin{aligned}
