@@ -52,9 +52,9 @@ nav:
             - science/function/1.md # 三角函数公式
             - science/function/2.md # 三角函数题型
         - 多项式数值数列:
+            - science/sequence/index.md # 数学归纳法
             - science/sequence/1.md # 数列基础
             - science/sequence/2.md # 数列进阶
-            - science/sequence/induction.md # 数学归纳法
         - 欧式与立体几何:
             - science/geometry/1.md # 平面体系
             - science/geometry/2.md # 相似与比例
@@ -72,7 +72,7 @@ nav:
 
             - science/coordinate/example.md # 例题
         - 组合与概率统计:
-            - science/probability/combination.md # 组合数学
+            - science/probability/index.md # 组合数学
             - science/probability/1.md # 统计模型
             - science/probability/2.md # 概率入门
             - science/probability/3.md # 随机变量
@@ -136,10 +136,11 @@ nav:
             - science/element/cl.md    # VIIA
             - science/element/fe.md    # 过渡元素
         - 有机与生物化学:
-            - science/organic/index.md # 有机化学概述
-            - science/organic/nucleic.md # 核酸及其衍生物
-            - science/organic/material.md # 材料化学概述
-            - science/organic/polymer.md # 有机高分子材料
+            - science/organic/index.md # 有机物及其结构
+            - science/organic/1.md     # 烃及烃的衍生物
+            - science/organic/2.md     # 有机合成高分子
+            - science/organic/3.md     # 有机反应及推断
+            - science/organic/4.md     # 生物大分子概述
 # 以下为生物
         - 细胞与细胞工程:
             - science/cell/1.md # 细胞的结构
