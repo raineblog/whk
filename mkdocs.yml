@@ -138,9 +138,9 @@ nav:
         - 有机与生物化学:
             - science/organic/index.md # 有机物及其结构
             - science/organic/1.md     # 烃及烃的衍生物
-            - science/organic/2.md     # 有机合成高分子
-            - science/organic/3.md     # 有机反应及推断
-            - science/organic/4.md     # 生物大分子概述
+            - science/organic/2.md     # 生物有机大分子
+            - science/organic/3.md     # 煤与石油的利用
+            - science/organic/4.md     # 有机合成高分子
 # 以下为生物
         - 细胞与细胞工程:
             - science/cell/1.md # 细胞的结构
