@@ -1,12 +1,5 @@
 # 物质及元素推断
 
-$$
-\gdef\el#1#2#3{#1\mathrm{#2}^{#3}}
-\gdef\za#1#2{\ce{#1}\left({#2}\right)}
-\gdef\zb#1#2{\left[\ce{#1}\right]{#2}}
-\textrm{This page intentionally left blank.}
-$$
-
 ## 定义
 
 ### 性质
