@@ -1,8 +1,6 @@
 # 物质的计量
 
 $$
-\gdef\ceq{\xlongequal{\quad}}
-\gdef\val#1#2{\overset{#2}{\ce{#1}}}
 \textrm{This page intentionally left blank.}
 $$
 

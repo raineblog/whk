@@ -1,9 +1,4 @@
-# 热化学
-
-$$
-\gdef\thermo#1#2{\ce{#1};\quad\Delta H=\pu{#2}}
-\textrm{This page intentionally left blank.}
-$$
+# 化学与热
 
 ## 反应热
 
