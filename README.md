@@ -8,6 +8,7 @@ git submodule update --remote
 ```
 
 ```html
+.{.{ read_csv('path_to_table.csv') }.}.
 <details>
 <summary>点击查看代码</summary>
 
