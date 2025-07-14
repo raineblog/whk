@@ -217,6 +217,7 @@ theme:
 plugins:
     - glightbox
     - search
+    - table-reader
     - minify:
         minify_html: true
         # minify_js: true
