@@ -93,7 +93,7 @@ nav:
             - science/angular/2.md # 天体概述
             - science/angular/3.md # 天体运动
             - science/angular/4.md # 轨道力学
-        - 电及磁学与电路:
+        - 电与电路及磁学:
             - science/electricity/field/1.md
             - science/electricity/field/2.md
             - science/electricity/field/3.md
