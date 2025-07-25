@@ -32,18 +32,7 @@ nav:
             - science/logic/1.md # 集合
             - science/logic/2.md # 逻辑
             - science/logic/3.md # 不等式
-        - 抽象代数与数论:
-            - science/number/linear.md # 线性代数
-            - science/number/complex.md # 复数与复平面
-            - science/number/group.md # 群论
-            # - science/number/1.md # 数论
-        - 博弈与算法理论:
-            - science/algorithm/1.md # 博弈论
-            # - science/algorithm/2.md # 计算理论
-            # - science/algorithm/3.md # 线性规划
-            # - science/algorithm/4.md # 序理论
-            # - science/algorithm/5.md # 置换与排列
-        - 初等函数与导数:
+        - 函数与三角函数:
             - science/function/index.md # 函数概述
             - science/function/power.md # 幂函数
             - science/function/exponential.md # 指数函数
@@ -52,6 +41,12 @@ nav:
             - science/function/1.md # 三角函数公式
             - science/function/2.md # 三角函数题型
             - science/function/3.md # 三角函数例题
+        - 导数与微积分学:
+            - science/calculus/1.md # 导数入门
+            # - science/calculus/2.md # 导数与微分
+            # - science/calculus/3.md # 不定积分
+            # - science/calculus/4.md # 定积分
+            # - science/calculus/5.md # 微分方程
         - 多项式数值数列:
             - science/sequence/index.md # 数学归纳法
             - science/sequence/1.md # 数列基础
@@ -63,6 +58,17 @@ nav:
             - science/probability/2.md # 概率入门
             - science/probability/3.md # 随机变量
             - science/probability/4.md # 概率分布
+        - 抽象代数与数论:
+            - science/number/linear.md # 线性代数
+            - science/number/complex.md # 复数与复平面
+            - science/number/group.md # 群论
+            # - science/number/1.md # 数论
+        - 博弈与算法理论:
+            - science/algorithm/1.md # 博弈论
+            # - science/algorithm/2.md # 计算理论
+            # - science/algorithm/3.md # 线性规划
+            # - science/algorithm/4.md # 序理论
+            # - science/algorithm/5.md # 置换与排列
         - 平面与解析几何:
             - science/plane/1.md # 平面体系
             - science/plane/2.md # 平面向量
