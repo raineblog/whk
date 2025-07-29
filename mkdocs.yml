@@ -35,7 +35,8 @@ nav:
         - 函数与函数性质:
             - science/function/1.md # 简单函数
             - science/function/2.md # 导数入门
-            - science/function/3.md # 导数题型
+            - science/function/3.md # 函数性质
+            - science/function/4.md # 导数题型
         - 数列与离散数学:
             - science/sequence/index.md # 数学归纳法
             - science/sequence/1.md # 数列基础
@@ -57,7 +58,7 @@ nav:
             # - science/number/3.md # 线性规划
             # - science/number/4.md # 序理论
             # - science/number/5.md # 置换与排列
-        - 平面与解析几何:
+        - 三角与平面几何:
             - science/plane/1.md # 平面体系
             - science/plane/2.md # 平面向量
             - science/plane/3.md # 三角函数公式
