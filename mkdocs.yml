@@ -4,7 +4,7 @@ site_description: by raine
 site_author: RainPPR # 显示为 commit 记录的默认名称
 strict: false
 
-site_url: https://raineblog.github.io/whk/
+site_url: https://blog.rainppr.dns-dynamic.net/whk/
 
 repo_name: raineblog/whk # 用于寻找 commit 记录
 repo_url: https://github.com/raineblog/whk
@@ -18,7 +18,7 @@ nav:
         - intro/format.md
         - intro/usage.md
         - intro/discussion.md
-        - intro/setting.md # 不建议使用
+        - intro/setting.md
         - madoka.md
     - 人文历史:
         - 名著阅读:
@@ -280,8 +280,6 @@ markdown_extensions:
     - pymdownx.tilde
     - pymdownx.betterem
     - pymdownx.blocks.caption
-    - pymdownx.emoji:
-        emoji_generator: !!python/name:pymdownx.emoji.to_svg
     - pymdownx.highlight:
         anchor_linenums: true
         use_pygments: false
