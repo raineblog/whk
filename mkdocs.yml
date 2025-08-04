@@ -31,7 +31,10 @@ nav:
         - 逻辑集合不等式:
             - science/logic/1.md # 集合
             - science/logic/2.md # 逻辑
-            - science/logic/3.md # 不等式
+        - 多项式与不等式:
+            - science/polynomial/index.md # 多项式
+            - science/polynomial/1.md # 均值不等式
+            - science/polynomial/2.md # 不等式进阶
         - 函数与函数性质:
             - science/function/1.md # 简单函数
             - science/function/2.md # 导数入门
@@ -207,7 +210,7 @@ theme:
         edit: material/pencil 
         view: material/eye
     font:
-        text: 'Noto Sans SC'
+        text: 'familyYEFONTZongYiDanMuTi'
         code: 'Fira Code'
 
 # Plugins
