@@ -1,15 +1,15 @@
 # Project Information
 site_name: RainPPR's WHK Blog
-site_description: by raine
-site_author: RainPPR # 显示为 commit 记录的默认名称
+site_description: by RainPPR
+site_author: RainPPR
 strict: false
 
 site_url: https://blog.rainppr.dns-dynamic.net/whk/
 
-repo_name: raineblog/whk # 用于寻找 commit 记录
+repo_name: raineblog/whk
 repo_url: https://github.com/raineblog/whk
 edit_uri: edit/main/docs/
-copyright: by RainPPR # 页脚
+copyright: Copyright © 2025 RainPPR
 
 # Contents
 nav:
@@ -210,7 +210,7 @@ theme:
         edit: material/pencil 
         view: material/eye
     font:
-        text: 'familyYEFONTZongYiDanMuTi'
+        text: 'YEFONTZongYiDanMuTi'
         code: 'Fira Code'
 
 # Plugins
@@ -220,24 +220,15 @@ plugins:
     - table-reader
     - minify:
         minify_html: true
-        # minify_js: true
-        # minify_css: true
         htmlmin_opts:
             remove_comments: true
         cache_safe: true
-        # js_files:
-        #     - assets/javascripts/extra.js
-        #     - assets/javascripts/custom.js
-        # css_files:
-        #     - assets/stylesheets/extra.css
-        #     - assets/stylesheets/custom.css
 
 # Extra Configuration
 extra:
     pagetime: 'on'
     manifest: 'manifest.webmanifest'
     githash: ''
-    # copyright: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a> 和 <a href="https://github.com/zTrix/sata-license">SATA</a>'
 
 extra_javascript:
     - assets/javascripts/extra.js
