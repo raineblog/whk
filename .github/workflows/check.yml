@@ -1,0 +1,30 @@
+name: Check Pull Request
+
+on:
+  pull_request:
+    branches:
+      - master
+      - main
+    paths-ignore:
+      - '.gitignore'
+      - 'README.md'
+      - 'todo.ipynb'
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          submodules: 'true'
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Dependencies
+        run: pip install -r ./requirements.txt
+      - name: Page Build
+        run: mkdocs build --strict

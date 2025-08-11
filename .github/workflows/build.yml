@@ -1,4 +1,4 @@
-name: Build
+name: Build Pages
 
 on:
   push:
@@ -9,7 +9,6 @@ on:
       - '.gitignore'
       - 'README.md'
       - 'todo.ipynb'
-      - '.vscode/**'
   pull_request:
     branches:
       - master
@@ -18,7 +17,6 @@ on:
       - '.gitignore'
       - 'README.md'
       - 'todo.ipynb'
-      - '.vscode/**'
   workflow_dispatch:
 
 permissions:
@@ -27,33 +25,10 @@ permissions:
   id-token: write
 
 jobs:
-  check:
-    name: Check
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout main
-        uses: actions/checkout@v4
-      - name: Config Git
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - name: Update Submodule
-        run: |
-          git submodule sync
-          git submodule update --init --recursive
-          git submodule update --remote
-          if [[ `git status --porcelain` ]]; then
-            git add .
-            git commit -m "Update Submodule"
-            git push
-          else
-            echo pass
-          fi
   build:
     if: startsWith(github.event.head_commit.message, '[build]') || startsWith(github.event.head_commit.message, '[export]')
     name: Build
     runs-on: ubuntu-latest
-    needs: check
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
