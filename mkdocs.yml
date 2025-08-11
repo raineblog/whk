@@ -31,15 +31,17 @@ nav:
         - 逻辑集合不等式:
             - science/logic/1.md # 集合
             - science/logic/2.md # 逻辑
+        - 函数极限微积分:
+            - science/function/1.md # 简单函数
+            - science/function/2.md # 导数入门
+            - science/function/3.md # 函数性质
+            - science/function/4.md # 极限论
+            - science/function/5.md # 微积分
         - 多项式与不等式:
             - science/polynomial/index.md # 多项式
             - science/polynomial/1.md # 均值不等式
             - science/polynomial/2.md # 不等式进阶
-        - 函数与函数性质:
-            - science/function/1.md # 简单函数
-            - science/function/2.md # 导数入门
-            - science/function/3.md # 函数性质
-            - science/function/4.md # 导数题型
+            - science/polynomial/5.md # 导数与不等式
         - 数列与离散数学:
             - science/sequence/index.md # 数学归纳法
             - science/sequence/1.md # 数列基础
