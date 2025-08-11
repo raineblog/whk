@@ -376,6 +376,12 @@ $$
 
 碎片拼接法：
 
+<style>
+.md-typeset .grid {
+    grid-template-columns: 1fr 1fr !important;
+}
+</style>
+
 <div class="grid" markdown>
 
 ![](./碎片法1.png)
