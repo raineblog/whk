@@ -71,9 +71,9 @@ nav:
             - science/plane/5.md # 三角函数例题
             - science/plane/6.md # 解三角形
         - 解析几何与圆曲:
-            - science/geometry/4.md # 直线和圆
-            - science/geometry/5.md # 圆锥曲线
-            - science/geometry/6.md # 圆曲进阶
+            - science/geometry/1.md # 直线和圆
+            - science/geometry/2.md # 圆锥曲线
+            - science/geometry/3.md # 圆曲进阶
         - 空间与立体几何:
             - science/solid/1.md # 空间体系
             - science/solid/2.md # 空间向量
