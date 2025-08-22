@@ -14,16 +14,16 @@ copyright: Copyright © 2025 RainPPR
 # Contents
 nav:
     - 简介:
-        - index.md
-        - intro/format.md
-        - intro/usage.md
-        - intro/discussion.md
-        - intro/setting.md
-        - madoka.md
+        - index.md            # 简介
+        - intro/format.md     # 格式手册
+        - intro/usage.md      # 如何使用
+        - intro/discussion.md # 讨论交流
+        - intro/setting.md    # 主题设置
+        - madoka.md           # 魔法少女小圆
     - 人文历史:
         - 名著阅读:
             # - cultural/reading/1.md
-            - cultural/reading/2.md
+            - cultural/reading/2.md # 红楼梦
             # - cultural/reading/3.md
     # - 思想政治: # ideology
     - 高中理科:
@@ -68,8 +68,8 @@ nav:
         - 解析几何与圆曲:
             - science/geometry/1.md # 平面体系
             - science/geometry/2.md # 直线和圆
-            - science/geometry/3.md # 圆锥曲线
-            - science/geometry/4.md # 圆曲进阶
+            - science/geometry/3.md # 圆曲初步
+            - science/geometry/4.md # 解析几何
             - science/geometry/5.md # 线性代数
         - 空间与立体几何:
             - science/solid/1.md # 空间体系
@@ -95,13 +95,13 @@ nav:
             - science/angular/3.md # 天体运动
             - science/angular/4.md # 轨道力学
         - 电与电路及磁学:
-            - science/electricity/field/1.md
-            - science/electricity/field/2.md
-            - science/electricity/field/3.md
-            - science/electricity/current/1.md
-            - science/electricity/current/2.md
-            - science/electricity/magnetism/1.md
-            - science/electricity/magnetism/2.md
+            - science/electricity/field/1.md     # 静电力学
+            - science/electricity/field/2.md     # 电场电势
+            - science/electricity/field/3.md     # 电场运动
+            - science/electricity/current/1.md   # 恒定电流
+            - science/electricity/current/2.md   # 电路拓展
+            - science/electricity/magnetism/1.md # 磁场概述
+            - science/electricity/magnetism/2.md # 电磁感应
         - 光学与近代物理:
             - science/wave/1.md # 几何光学
             - science/wave/2.md # 波动光学
@@ -113,7 +113,7 @@ nav:
             - science/structure/2.md     # 化学键与分子
             - science/structure/3.md     # 晶体及其计算
         - 化学反应的原理:
-            - science/reaction/index.md  # 原理概述
+            - science/reaction/index.md       # 原理概述
             - science/reaction/electro.md     # 化学与电
             - science/reaction/battery.md     # 电池概述
             - science/reaction/thermo.md      # 化学与热
@@ -127,14 +127,14 @@ nav:
             - science/experiment/life.md       # 化学与生活
         - 化学元素与性质:
             - science/element/index.md # 物质及元素推断
-            - science/element/na.md    # IA
-            - science/element/mg.md    # IIA
-            - science/element/al.md    # IIIA
-            - science/element/si.md    # IVA
-            - science/element/n.md     # VA
-            - science/element/s.md     # VIA
-            - science/element/cl.md    # VIIA
-            - science/element/fe.md    # 过渡元素
+            - science/element/na.md    # 碱金属概述
+            - science/element/mg.md    # 碱土金属概述
+            - science/element/al.md    # 硼族元素概述
+            - science/element/si.md    # 碳族元素概述
+            - science/element/n.md     # 氮族元素概述
+            - science/element/s.md     # 氧族元素概述
+            - science/element/cl.md    # 卤族元素概述
+            - science/element/fe.md    # 过渡元素概述
         - 有机与生物化学:
             - science/organic/index.md # 有机物及其结构
             - science/organic/1.md     # 烃及烃的衍生物
@@ -143,12 +143,12 @@ nav:
             - science/organic/4.md     # 有机合成高分子
 # 以下为生物
         - 细胞与细胞工程:
-            - science/cell/1.md # 细胞的结构
-            - science/cell/2.md # 细胞的能量转化
-            - science/cell/3.md # 细胞的增殖
+            - science/cell/1.md              # 细胞的结构
+            - science/cell/2.md              # 细胞的能量转化
+            - science/cell/3.md              # 细胞的增殖
             - science/cell/centrifugation.md # 专题：离心法
-            - science/cell/enzyme.md # 专题：酶促反应
-            - science/cell/fermentation.md # 发酵工程
+            - science/cell/enzyme.md         # 专题：酶促反应
+            - science/cell/fermentation.md   # 发酵工程
         - 遗传与基因工程:
             - science/genetics/1.md # 变异与进化
             - science/genetics/2.md # 孟德尔遗传规律
