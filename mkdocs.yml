@@ -76,7 +76,7 @@ nav:
             - science/solid/2.md # 空间向量
             - science/solid/3.md # 空间几何体
 # 以下为物理
-        - 空间测量与运动:
+        - 测量与运动波动:
             - science/kinematics/index.md # 空间测量
             - science/kinematics/1.md     # 直线运动
             - science/kinematics/2.md     # 抛体运动
