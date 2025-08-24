@@ -56,9 +56,10 @@ nav:
             - science/probability/4.md # 概率分布
             - science/probability/5.md # 组合数学
         - 数论与算法初步:
-            - science/number/1.md # 数论入门
+            - science/number/1.md # 线性规划
             # - science/number/2.md # 计算理论
-            # - science/number/3.md # 线性规划
+            - science/number/3.md # 数论入门
+            - science/number/4.md # 数论测试
         - 三角与平面几何:
             - science/plane/1.md # 平面向量
             - science/plane/2.md # 三角函数公式
