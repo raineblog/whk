@@ -50,3 +50,6 @@ TBD
 
 # Vendor resources
 /material/assets/vendor
+
+mkdocs.yml
+cache/

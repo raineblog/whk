@@ -12,7 +12,6 @@
     "nav": [
         {
             "title": "人文历史",
-            "export": false,
             "children": [
                 {
                     "名著阅读": [
