@@ -1,0 +1,67 @@
+name: Export to PDF
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  export:
+    name: Export
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          submodules: 'true'
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: script/requirements.txt
+      - name: Install Dependencies
+        run: |
+          pip install -r script/requirements.txt
+          echo "set man-db/auto-update false" | sudo debconf-communicate
+          sudo dpkg-reconfigure man-db
+          sudo apt install pdf2svg
+      - name: Install Playwright
+        run: playwright install --with-deps chromium
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v4
+      - name: Export to PDF
+        run: |
+          typst -V
+          export TYPST_FONT_PATHS="./script/fonts"
+          python script/export_to_pdf.py
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: PDF
+          path: ./cache/*.pdf
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    needs: export
+    steps:
+    - name: Download artifact
+      uses: actions/download-artifact@v5
+      with:
+        merge-multiple: true
+        path: ./
+    - name: Get Current Time
+      id: datetime
+      run: |
+        echo "utc_time=$(date -u +'%Y%m%d%H%M')" >> $GITHUB_OUTPUT
+        echo "cst_time=$(TZ='Asia/Shanghai' date +'%Y%m%d%H%M')" >> $GITHUB_OUTPUT
+    - name: Upload to Release
+      uses: softprops/action-gh-release@v2
+      with:
+        files: ./*.pdf
+        tag_name: ${{ steps.datetime.outputs.utc_time }}
