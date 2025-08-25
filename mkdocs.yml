@@ -169,6 +169,8 @@ nav:
 theme:
     name: null
     custom_dir: 'material/material/templates'
+    static_templates:
+        - 404.html
     language: 'zh'
     palette:
         # Palette toggle for light mode
@@ -264,6 +266,7 @@ markdown_extensions:
     - pymdownx.arithmatex:
         generic: true
     - pymdownx.details
+    - pymdownx.emoji
     - pymdownx.critic
     - pymdownx.caret
     - pymdownx.keys
