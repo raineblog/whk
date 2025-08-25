@@ -38,9 +38,7 @@ jobs:
       - name: Install Dependencies
         run: pip install -r ./requirements.txt
       - name: Page Build
-        run: |
-          git rev-parse --short HEAD | xargs -I % sed -i "s/githash: ''/githash: '%'/g" mkdocs.yml
-          mkdocs build --strict
+        run: make build
       - name: Upload Artifacts
         id: deployment
         uses: actions/upload-pages-artifact@v4
@@ -82,13 +80,8 @@ jobs:
         run: playwright install --with-deps chromium
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
-      - name: Check TOC
-        run: python script/toc.py
       - name: Export to PDF
-        run: |
-          typst -V
-          export TYPST_FONT_PATHS="./script/fonts"
-          python ./script/export.py
+        run: make export
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:

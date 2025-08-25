@@ -1,0 +1,247 @@
+{
+    "project": {
+        "site_name": "RainPPR's WHK Blog",
+        "site_description": "by RainPPR",
+        "site_author": "RainPPR",
+        "site_url": "https://blog.rainppr.dns-dynamic.net/whk/",
+        "repo_name": "raineblog/whk",
+        "repo_url": "https://github.com/raineblog/whk",
+        "edit_uri": "edit/main/docs/",
+        "copyright": "Copyright © 2025 RainPPR"
+    },
+    "nav": [
+        {
+            "title": "人文历史",
+            "export": false,
+            "children": [
+                {
+                    "名著阅读": [
+                        "cultural/reading/2.md"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "高中理科",
+            "export": {
+                "title": "高中理科",
+                "subtitle": "文化课笔记",
+                "filename": "science.pdf",
+                "authors": [
+                    "RainPPR"
+                ],
+                "info": {
+                    "publishing": "Qingdao #2 Middle School",
+                    "abstract": [
+                        "本书是高中理科的笔记，包含了高中阶段的数学、物理、化学、生物等课程的知识点及部分进阶内容。",
+                        "本书的内容是基于高中课程标准编写的，同时加入了部分竞赛的内容，旨在帮助学生更好地理解和掌握自然科学的基本概念和原理。",
+                        "我不知道在别人看来我是什么样的人，但在我看来，我不过就像是一个在海滨玩耍的小孩，为不时发现比寻常更为光滑的一块卵石或比寻常更为美丽的一片贝壳而沾沾自喜，而对于展现在我面前的浩瀚的真理的海洋，却全然没有发现。——牛顿"
+                    ]
+                }
+            },
+            "children": [
+                {
+                    "数学体系与理解": [
+                        "science/mathematics/1.md",
+                        "science/mathematics/2.md",
+                        "science/mathematics/3.md"
+                    ]
+                },
+                {
+                    "函数极限微积分": [
+                        "science/function/1.md",
+                        "science/function/2.md",
+                        "science/function/3.md",
+                        "science/function/4.md",
+                        "science/function/5.md"
+                    ]
+                },
+                {
+                    "多项式与不等式": [
+                        "science/polynomial/1.md",
+                        "science/polynomial/2.md",
+                        "science/polynomial/3.md",
+                        "science/polynomial/4.md",
+                        "science/polynomial/5.md"
+                    ]
+                },
+                {
+                    "数列与离散数学": [
+                        "science/sequence/1.md",
+                        "science/sequence/2.md",
+                        "science/sequence/3.md",
+                        "science/sequence/4.md"
+                    ]
+                },
+                {
+                    "组合与概率统计": [
+                        "science/probability/1.md",
+                        "science/probability/2.md",
+                        "science/probability/3.md",
+                        "science/probability/4.md",
+                        "science/probability/5.md"
+                    ]
+                },
+                {
+                    "数论与算法初步": [
+                        "science/number/1.md",
+                        "science/number/3.md",
+                        "science/number/4.md"
+                    ]
+                },
+                {
+                    "三角与平面几何": [
+                        "science/plane/1.md",
+                        "science/plane/2.md",
+                        "science/plane/3.md",
+                        "science/plane/4.md",
+                        "science/plane/5.md"
+                    ]
+                },
+                {
+                    "解析几何与圆曲": [
+                        "science/geometry/1.md",
+                        "science/geometry/2.md",
+                        "science/geometry/3.md",
+                        "science/geometry/4.md",
+                        "science/geometry/5.md"
+                    ]
+                },
+                {
+                    "空间与立体几何": [
+                        "science/solid/1.md",
+                        "science/solid/2.md",
+                        "science/solid/3.md"
+                    ]
+                },
+                {
+                    "测量与运动波动": [
+                        "science/kinematics/index.md",
+                        "science/kinematics/1.md",
+                        "science/kinematics/2.md",
+                        "science/kinematics/3.md",
+                        "science/kinematics/4.md",
+                        "science/kinematics/5.md"
+                    ]
+                },
+                {
+                    "动力学与热力学": [
+                        "science/mechanics/1.md",
+                        "science/mechanics/2.md",
+                        "science/mechanics/3.md",
+                        "science/mechanics/4.md",
+                        "science/mechanics/5.md"
+                    ]
+                },
+                {
+                    "角动量与天体学": [
+                        "science/angular/1.md",
+                        "science/angular/2.md",
+                        "science/angular/3.md",
+                        "science/angular/4.md"
+                    ]
+                },
+                {
+                    "电与电路及磁学": [
+                        "science/electricity/field/1.md",
+                        "science/electricity/field/2.md",
+                        "science/electricity/field/3.md",
+                        "science/electricity/current/1.md",
+                        "science/electricity/current/2.md",
+                        "science/electricity/magnetism/1.md",
+                        "science/electricity/magnetism/2.md"
+                    ]
+                },
+                {
+                    "光学与近代物理": [
+                        "science/wave/1.md",
+                        "science/wave/2.md",
+                        "science/wave/3.md"
+                    ]
+                },
+                {
+                    "计量与结构化学": [
+                        "science/structure/index.md",
+                        "science/structure/1.md",
+                        "science/structure/2.md",
+                        "science/structure/3.md"
+                    ]
+                },
+                {
+                    "化学反应的原理": [
+                        "science/reaction/index.md",
+                        "science/reaction/electro.md",
+                        "science/reaction/battery.md",
+                        "science/reaction/thermo.md",
+                        "science/reaction/speed.md",
+                        "science/reaction/equilibrium.md",
+                        "science/reaction/liquid.md"
+                    ]
+                },
+                {
+                    "化学工业与实验": [
+                        "science/experiment/tech.md",
+                        "science/experiment/experiment.md",
+                        "science/experiment/instrument.md",
+                        "science/experiment/life.md"
+                    ]
+                },
+                {
+                    "化学元素与性质": [
+                        "science/element/index.md",
+                        "science/element/na.md",
+                        "science/element/mg.md",
+                        "science/element/al.md",
+                        "science/element/si.md",
+                        "science/element/n.md",
+                        "science/element/s.md",
+                        "science/element/cl.md",
+                        "science/element/fe.md"
+                    ]
+                },
+                {
+                    "有机与生物化学": [
+                        "science/organic/index.md",
+                        "science/organic/1.md",
+                        "science/organic/2.md",
+                        "science/organic/3.md",
+                        "science/organic/4.md"
+                    ]
+                },
+                {
+                    "细胞与细胞工程": [
+                        "science/cell/1.md",
+                        "science/cell/2.md",
+                        "science/cell/3.md",
+                        "science/cell/centrifugation.md",
+                        "science/cell/enzyme.md",
+                        "science/cell/fermentation.md"
+                    ]
+                },
+                {
+                    "遗传与基因工程": [
+                        "science/genetics/1.md",
+                        "science/genetics/2.md",
+                        "science/genetics/3.md",
+                        "science/genetics/4.md"
+                    ]
+                },
+                {
+                    "生态与环境科学": [
+                        "science/ecosystem/1.md",
+                        "science/ecosystem/2.md"
+                    ]
+                },
+                {
+                    "人体稳态与调节": [
+                        "science/steady/1.md",
+                        "science/steady/2.md",
+                        "science/steady/3.md",
+                        "science/steady/4.md",
+                        "science/steady/5.md"
+                    ]
+                }
+            ]
+        }
+    ]
+}

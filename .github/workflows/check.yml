@@ -29,4 +29,4 @@ jobs:
       - name: Install Dependencies
         run: pip install -r ./requirements.txt
       - name: Page Build
-        run: mkdocs build --strict
+        run: make build
