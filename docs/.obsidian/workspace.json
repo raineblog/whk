@@ -1,0 +1,206 @@
+{
+  "main": {
+    "id": "b28b275351b968bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "73ca535428c426bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "796a5e9b7859ccba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "science/structure/3.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "3"
+            },
+            "group": "3a402a61cd6338e1"
+          }
+        ]
+      },
+      {
+        "id": "6d383e49ded704e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9790c22481a967f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "science/structure/3.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "3"
+            },
+            "group": "3a402a61cd6338e1"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4b5c63a4f5d91561",
+    "type": "split",
+    "children": [
+      {
+        "id": "94d9825b54748073",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "273bf74116dc2e0d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "bc46cd9883f46b0e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "444f377d8f38d391",
+    "type": "split",
+    "children": [
+      {
+        "id": "504b730be45fc8de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c22889a82baf5de5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "欢迎.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "欢迎 的反向链接列表"
+            }
+          },
+          {
+            "id": "e6b3b388bae3c5d1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "欢迎.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "欢迎 的出链列表"
+            }
+          },
+          {
+            "id": "45566129d76fb47a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "science/structure/3.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "3 的大纲"
+            }
+          },
+          {
+            "id": "2bfec16ccbc3efd6",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "欢迎.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "脚注"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 263.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {}
+  },
+  "active": "796a5e9b7859ccba",
+  "lastOpenFiles": [
+    "science/structure/2.md",
+    "science/structure/3.md",
+    "science/structure/1.md",
+    "science/structure/第一电离能.png",
+    "science/element/fe.md",
+    "science/element/index.md",
+    "science/element/al.md",
+    "science/element/image.png",
+    "science/electricity/magnetism/1.md",
+    "science/reaction/thermo.md",
+    "science/structure/index.md",
+    "science/structure/image-1.png",
+    "science/structure/元素周期表轮廓图.png",
+    "science/structure/基态激发态.svg",
+    "science/structure/电负性.png",
+    "science/experiment/experiment.md",
+    "science/element/cl.md",
+    "science/element/海水工业.svg",
+    "海水工业.svg",
+    "science/element/mg.md",
+    "science/reaction/electro.md",
+    "science/element/na.md",
+    "science/experiment/life.md",
+    "science/experiment/tech.md",
+    "science/experiment/instrument.md",
+    "science/experiment/实验室玻璃仪器手册.pdf",
+    "202508271134.md",
+    "未命名.base",
+    "未命名.canvas",
+    "欢迎.md"
+  ]
+}

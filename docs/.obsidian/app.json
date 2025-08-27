@@ -1,0 +1,12 @@
+{
+  "smartIndentList": false,
+  "showLineNumber": true,
+  "strictLineBreaks": true,
+  "livePreview": false,
+  "trashOption": "local",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": false,
+  "readableLineLength": true,
+  "propertiesInDocument": "visible",
+  "spellcheck": true
+}
