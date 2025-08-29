@@ -4,46 +4,84 @@
     "type": "split",
     "children": [
       {
-        "id": "73ca535428c426bc",
-        "type": "tabs",
+        "id": "a2575642a0f2f75b",
+        "type": "split",
         "children": [
           {
-            "id": "796a5e9b7859ccba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "science/structure/3.md",
-                "mode": "source",
-                "source": true
+            "id": "2199ec158f5eb35a",
+            "type": "split",
+            "dimension": 48.44491302055878,
+            "children": [
+              {
+                "id": "73ca535428c426bc",
+                "type": "tabs",
+                "dimension": 39.43798449612403,
+                "children": [
+                  {
+                    "id": "796a5e9b7859ccba",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "science/electricity/magnetism/2.md",
+                        "mode": "source",
+                        "source": true
+                      },
+                      "icon": "lucide-file",
+                      "title": "2"
+                    },
+                    "group": "3a402a61cd6338e1"
+                  }
+                ]
               },
-              "icon": "lucide-file",
-              "title": "3"
-            },
-            "group": "3a402a61cd6338e1"
-          }
-        ]
-      },
-      {
-        "id": "6d383e49ded704e4",
-        "type": "tabs",
-        "children": [
+              {
+                "id": "fc0e718a326a5af9",
+                "type": "tabs",
+                "dimension": 60.56201550387597,
+                "children": [
+                  {
+                    "id": "c1d7745ac0a4c208",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://www.bilibili.com/video/BV1JJ411W7kY/?vd_source=90c8b28a842bf61304c3ebfb6288bb56&spm_id_from=333.788.player.switch",
+                        "title": "【选修3-2电磁感应】【感应电流】2.感应电流的产生条件_哔哩哔哩_bilibili",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "【选修3-2电磁感应】【感应电流】2.感应电流的产生条件_哔哩哔哩_bilibili"
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "horizontal"
+          },
           {
-            "id": "c9790c22481a967f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "science/structure/3.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "3"
-            },
-            "group": "3a402a61cd6338e1"
+            "id": "cce73c2387a35911",
+            "type": "tabs",
+            "dimension": 51.55508697944122,
+            "children": [
+              {
+                "id": "c9790c22481a967f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "science/electricity/magnetism/2.md",
+                    "mode": "preview",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "2"
+                },
+                "group": "3a402a61cd6338e1"
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
@@ -90,7 +128,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 274,
+    "collapsed": true
   },
   "right": {
     "id": "444f377d8f38d391",
@@ -139,13 +178,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "science/structure/3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "3 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -165,15 +203,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5
+    "width": 214,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {}
   },
-  "active": "796a5e9b7859ccba",
+  "active": "c1d7745ac0a4c208",
   "lastOpenFiles": [
-    "science/structure/2.md",
+    "science/electricity/magnetism/2.md",
+    "science/electricity/magnetism/image-24.png",
     "science/structure/3.md",
+    "science/structure/2.md",
     "science/structure/1.md",
     "science/structure/第一电离能.png",
     "science/element/fe.md",
