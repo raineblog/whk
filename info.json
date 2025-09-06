@@ -114,8 +114,7 @@
                     ]
                 },
                 {
-                    "测量与运动波动": [
-                        "science/kinematics/index.md",
+                    "运动与空间测量": [
                         "science/kinematics/1.md",
                         "science/kinematics/2.md",
                         "science/kinematics/3.md",
@@ -124,24 +123,18 @@
                     ]
                 },
                 {
-                    "动力学与热力学": [
+                    "力学及天体力学": [
                         "science/mechanics/1.md",
                         "science/mechanics/2.md",
                         "science/mechanics/3.md",
                         "science/mechanics/4.md",
-                        "science/mechanics/5.md"
+                        "science/mechanics/5.md",
+                        "science/mechanics/6.md",
+                        "science/mechanics/7.md"
                     ]
                 },
                 {
-                    "角动量与天体学": [
-                        "science/angular/1.md",
-                        "science/angular/2.md",
-                        "science/angular/3.md",
-                        "science/angular/4.md"
-                    ]
-                },
-                {
-                    "电与电路及磁学": [
+                    "电场电路及磁学": [
                         "science/electricity/field/1.md",
                         "science/electricity/field/2.md",
                         "science/electricity/field/3.md",
@@ -153,10 +146,11 @@
                     ]
                 },
                 {
-                    "光学与近代物理": [
+                    "波与光及热力学": [
                         "science/wave/1.md",
                         "science/wave/2.md",
-                        "science/wave/3.md"
+                        "science/wave/3.md",
+                        "science/wave/4.md"
                     ]
                 },
                 {
