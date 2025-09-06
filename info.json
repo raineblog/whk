@@ -11,16 +11,6 @@
     },
     "nav": [
         {
-            "title": "人文历史",
-            "children": [
-                {
-                    "名著阅读": [
-                        "cultural/reading/2.md"
-                    ]
-                }
-            ]
-        },
-        {
             "title": "高中理科",
             "export": {
                 "title": "高中理科",
