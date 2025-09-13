@@ -43,7 +43,7 @@
     ---
 
     <center><span style="color:#eb234b;">
-    <b>佐倉杏子 Sakura Kyōko</b><br><i>a.k.a. RainPPR</i>
+    <b>佐倉杏子 Sakura Kyoko</b><br><i>a.k.a. RainPPR</i>
     </span></center>
 
 -   <figure markdown="span">
