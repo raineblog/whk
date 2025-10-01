@@ -29,8 +29,6 @@ jobs:
           echo "set man-db/auto-update false" | sudo debconf-communicate
           sudo dpkg-reconfigure man-db
           sudo apt install pdf2svg
-      - name: Install Playwright
-        run: playwright install --with-deps chromium
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
       - name: Export to PDF
