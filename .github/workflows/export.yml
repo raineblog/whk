@@ -24,7 +24,7 @@ jobs:
           echo "set man-db/auto-update false" | sudo debconf-communicate
           sudo dpkg-reconfigure man-db
           sudo apt-get update
-          sudo apt-get install -y pdf2svg libegl1-mesa-dev qt6-base-dev
+          sudo apt-get install -y pdf2svg libegl1-mesa-dev libxcb-xinerama0
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
