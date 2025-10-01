@@ -25,19 +25,20 @@ jobs:
           python-version: '3.12'
       - name: Install Python Dependencies
         run: pip install -r script/requirements.txt
-      - name: Install APT packages
+      - name: Install APT Packages
         run: |
           echo "set man-db/auto-update false" | sudo debconf-communicate
           sudo dpkg-reconfigure man-db
-          sudo apt update
-          sudo apt install -y pdf2svg mesa-utils-extra
+          sudo apt-get update
+          sudo apt-get install -y pdf2svg xvfb
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
-      - name: Export to PDF
+      - name: Prebuild
         run: |
           typst -V
           export TYPST_FONT_PATHS="./script/fonts"
-          python script/export_to_pdf.py
+      - name: Export to PDF
+        run: xvfb-run python script/export_to_pdf.py
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
