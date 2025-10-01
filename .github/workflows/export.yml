@@ -30,15 +30,14 @@ jobs:
           echo "set man-db/auto-update false" | sudo debconf-communicate
           sudo dpkg-reconfigure man-db
           sudo apt-get update
-          sudo apt-get install -y pdf2svg xvfb
+          sudo apt-get install -y pdf2svg ffmpeg libsm6 libxext6
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
-      - name: Prebuild
+      - name: Export to PDF
         run: |
           typst -V
           export TYPST_FONT_PATHS="./script/fonts"
-      - name: Export to PDF
-        run: xvfb-run python script/export_to_pdf.py
+          python script/export_to_pdf.py
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
