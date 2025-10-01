@@ -30,9 +30,10 @@ jobs:
         uses: typst-community/setup-typst@v4
       - name: Install APT Packages
         run: |
-          sudo apt-get update
-          sudo apt-get install -y pdf2svg
+          echo "set man-db/auto-update false" | sudo debconf-communicate
+          sudo dpkg-reconfigure man-db
           playwright install --with-deps chromium
+          sudo apt-get install -y pdf2svg
       - name: Export to PDF
         run: |
           export TYPST_FONT_PATHS="./script/fonts"
