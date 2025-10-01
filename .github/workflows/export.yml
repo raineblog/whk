@@ -22,23 +22,22 @@ jobs:
       - name: Install APT Packages
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          packages: pdf2svg libegl1-mesa-dev libxcb-cursor0
+          packages: pdf2svg
           version: 1.0
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
-          python-version: '3.12'
+          python-version: 'pypy3.10'
+          cache: 'pip'
       - name: Install Python Dependencies
         run: pip install -r script/requirements.txt
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
-      - name: Prebuild
-        run: |
-          typst -V
-          export TYPST_FONT_PATHS="./script/fonts"
+      - name: Install Playwright
+        run: playwright install --with-deps chromium
       - name: Export to PDF
         run: |
-          export QT_QPA_PLATFORM=offscreen
+          export TYPST_FONT_PATHS="./script/fonts"
           python script/export_to_pdf.py
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
