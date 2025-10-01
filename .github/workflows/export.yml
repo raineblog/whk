@@ -28,7 +28,7 @@ jobs:
       - name: Cache and install APT packages
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          packages: pdf2svg libgl1 libegl1 libdbus-1-3 libxcb-xinerama0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-render-util0 libxcb-shm0 libxkbcommon-x11-0 xvfb fonts-noto
+          packages: pdf2svg python3-pyside6 xvfb
           version: 1.0
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
