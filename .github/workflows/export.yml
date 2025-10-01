@@ -24,7 +24,7 @@ jobs:
           echo "set man-db/auto-update false" | sudo debconf-communicate
           sudo dpkg-reconfigure man-db
           sudo apt-get update
-          sudo apt-get install -y pdf2svg libegl1-mesa-dev libxcb-xinerama0
+          sudo apt-get install -y pdf2svg libegl1-mesa-dev libxcb-cursor0
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
@@ -37,6 +37,7 @@ jobs:
         run: |
           typst -V
           export TYPST_FONT_PATHS="./script/fonts"
+          export QT_QPA_PLATFORM=offscreen
           python script/export_to_pdf.py
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
