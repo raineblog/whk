@@ -25,11 +25,12 @@ jobs:
           python-version: '3.12'
       - name: Install Python Dependencies
         run: pip install -r script/requirements.txt
-      - name: Cache and install APT packages
-        uses: awalsh128/cache-apt-pkgs-action@latest
-        with:
-          packages: pdf2svg xvfb
-          version: 1.0
+      - name: Install APT packages
+        run: |
+          echo "set man-db/auto-update false" | sudo debconf-communicate
+          sudo dpkg-reconfigure man-db
+          sudo apt update
+          sudo apt install -y pdf2svg mesa-utils-extra
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
       - name: Export to PDF
