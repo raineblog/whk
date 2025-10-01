@@ -20,11 +20,10 @@ jobs:
         with:
           submodules: 'true'
       - name: Install APT Packages
-        run: |
-          echo "set man-db/auto-update false" | sudo debconf-communicate
-          sudo dpkg-reconfigure man-db
-          sudo apt-get update
-          sudo apt-get install -y pdf2svg libegl1-mesa-dev libxcb-cursor0
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: pdf2svg libegl1-mesa-dev libxcb-cursor0
+          version: 1.0
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
@@ -33,10 +32,12 @@ jobs:
         run: pip install -r script/requirements.txt
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
-      - name: Export to PDF
+      - name: Prebuild
         run: |
           typst -V
           export TYPST_FONT_PATHS="./script/fonts"
+      - name: Export to PDF
+        run: |
           export QT_QPA_PLATFORM=offscreen
           python script/export_to_pdf.py
       - name: Upload Artifact
