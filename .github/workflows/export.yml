@@ -13,6 +13,7 @@ permissions:
 jobs:
   export:
     name: Export
+    timeout-minutes: 20
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main
