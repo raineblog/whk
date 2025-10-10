@@ -113,7 +113,7 @@
                     ]
                 },
                 {
-                    "力学及天体力学": [
+                    "力学与天体力学": [
                         "science/mechanics/1.md",
                         "science/mechanics/2.md",
                         "science/mechanics/3.md",
@@ -124,7 +124,7 @@
                     ]
                 },
                 {
-                    "电场电路及磁学": [
+                    "电场电路与磁学": [
                         "science/electricity/field/1.md",
                         "science/electricity/field/2.md",
                         "science/electricity/field/3.md",
@@ -137,7 +137,7 @@
                     ]
                 },
                 {
-                    "波与光及热力学": [
+                    "机械波与热力学": [
                         "science/wave/1.md",
                         "science/wave/2.md",
                         "science/wave/3.md",

@@ -1,5 +1,5 @@
 serve: mkdocs.yml
-	mkdocs serve --dirty
+	mkdocs serve --livereload --dirty
 
 build: mkdocs.yml
 	git rev-parse --short HEAD | xargs -I % sed -i "s/githash: ''/githash: '%'/g" mkdocs.yml
