@@ -30,7 +30,7 @@
             },
             "children": [
                 {
-                    "数学体系与理解": [
+                    "数系与公理系统": [
                         "science/mathematics/1.md",
                         "science/mathematics/2.md",
                         "science/mathematics/3.md"
@@ -104,7 +104,7 @@
                     ]
                 },
                 {
-                    "运动与空间测量": [
+                    "运动与实验操作": [
                         "science/kinematics/1.md",
                         "science/kinematics/2.md",
                         "science/kinematics/3.md",
@@ -137,11 +137,11 @@
                     ]
                 },
                 {
-                    "机械波与热力学": [
-                        "science/wave/1.md",
-                        "science/wave/2.md",
-                        "science/wave/3.md",
-                        "science/wave/4.md"
+                    "热学与近代物理": [
+                        "science/modern/1.md",
+                        "science/modern/2.md",
+                        "science/modern/3.md",
+                        "science/modern/4.md"
                     ]
                 },
                 {
