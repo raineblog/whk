@@ -146,29 +146,20 @@
                 },
                 {
                     "计量与结构化学": [
-                        "science/structure/index.md",
                         "science/structure/1.md",
                         "science/structure/2.md",
-                        "science/structure/3.md"
+                        "science/structure/3.md",
+                        "science/structure/4.md"
                     ]
                 },
                 {
                     "化学反应的原理": [
-                        "science/reaction/index.md",
                         "science/reaction/electro.md",
                         "science/reaction/battery.md",
                         "science/reaction/thermo.md",
                         "science/reaction/speed.md",
                         "science/reaction/equilibrium.md",
                         "science/reaction/liquid.md"
-                    ]
-                },
-                {
-                    "化学工业与实验": [
-                        "science/experiment/tech.md",
-                        "science/experiment/experiment.md",
-                        "science/experiment/instrument.md",
-                        "science/experiment/life.md"
                     ]
                 },
                 {
@@ -194,13 +185,20 @@
                     ]
                 },
                 {
+                    "生化实验与应用": [
+                        "science/experiment/tech.md",
+                        "science/experiment/experiment.md",
+                        "science/experiment/instrument.md",
+                        "science/experiment/life.md"
+                    ]
+                },
+                {
                     "细胞与细胞工程": [
                         "science/cell/1.md",
                         "science/cell/2.md",
                         "science/cell/3.md",
-                        "science/cell/centrifugation.md",
-                        "science/cell/enzyme.md",
-                        "science/cell/fermentation.md"
+                        "science/cell/4.md",
+                        "science/cell/9.md"
                     ]
                 },
                 {
