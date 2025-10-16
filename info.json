@@ -7,7 +7,12 @@
         "repo_name": "raineblog/whk",
         "repo_url": "https://github.com/raineblog/whk",
         "edit_uri": "edit/main/docs/",
-        "copyright": "Copyright © 2025 RainPPR"
+        "copyright": "Copyright © 2025 RainPPR",
+        "giscus": {
+            "data_repo": "raineblog/giscus",
+            "data_repo_id": "R_kgDOMhpKmw",
+            "data_category_id": "DIC_kwDOMhpKm84ChhZ7"
+        }
     },
     "nav": [
         {
