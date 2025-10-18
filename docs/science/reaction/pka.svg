@@ -1,0 +1,17 @@
+<svg width="610" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333" />
+    </marker>
+  </defs>
+  <line x1="10" y1="50" x2="600" y2="50" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <line x1="150" y1="40" x2="150" y2="60" stroke="#333" stroke-width="3" />
+  <text x="150" y="85" text-anchor="middle" font-size="20" font-weight="bold" fill="#333">0</text>
+  <line x1="400" y1="40" x2="400" y2="60" stroke="#333" stroke-width="3" />
+  <text x="400" y="85" text-anchor="middle" font-size="20" font-weight="bold" fill="#333">4</text>
+  <text x="550" y="75" font-size="18" font-style="italic" fill="#333">pK</text>
+  <text x="572" y="80" font-size="14" font-style="italic" fill="#333">a</text>
+  <text x="75" y="30" text-anchor="middle" font-size="18" fill="#d63031" font-weight="bold">强酸</text>
+  <text x="275" y="30" text-anchor="middle" font-size="18" fill="#fdcb6e" font-weight="bold">中强酸</text>
+  <text x="500" y="30" text-anchor="middle" font-size="18" fill="#74b9ff" font-weight="bold">弱酸</text>
+</svg>

@@ -104,7 +104,7 @@
                     ]
                 },
                 {
-                    "运动与实验操作": [
+                    "运动与物理方法": [
                         "science/kinematics/1.md",
                         "science/kinematics/2.md",
                         "science/kinematics/3.md",
@@ -163,7 +163,7 @@
                     ]
                 },
                 {
-                    "化学元素与性质": [
+                    "元素与物质性质": [
                         "science/element/index.md",
                         "science/element/na.md",
                         "science/element/mg.md",
