@@ -1,5 +1,4 @@
 mkdocs
 mkdocs-glightbox
 mkdocs-minify-plugin
-mkdocs-table-reader-plugin
 pymdown-extensions
