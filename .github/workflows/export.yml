@@ -39,7 +39,7 @@ jobs:
           export TYPST_FONT_PATHS="./script/fonts"
           python script/export_to_pdf.py
       - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: PDF
           path: ./cache/*.pdf
