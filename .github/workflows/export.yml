@@ -49,7 +49,7 @@ jobs:
     needs: export
     steps:
     - name: Download artifact
-      uses: actions/download-artifact@v5
+      uses: actions/download-artifact@v6
       with:
         merge-multiple: true
         path: ./
