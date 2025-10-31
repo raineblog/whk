@@ -190,7 +190,8 @@
                         "science/experiment/tech.md",
                         "science/experiment/experiment.md",
                         "science/experiment/instrument.md",
-                        "science/experiment/life.md"
+                        "science/experiment/life.md",
+                        "science/experiment/bio.md"
                     ]
                 },
                 {
@@ -224,10 +225,18 @@
                     ]
                 },
                 {
-                    "生态环境与物种": [
+                    "生物概述与物种": [
                         "science/species/1.md",
                         "science/species/2.md",
-                        "science/species/5.md"
+                        "science/species/3.md",
+                        "science/species/4.md"
+                    ]
+                },
+                {
+                    "环境与生态系统": [
+                        "science/environment/1.md",
+                        "science/environment/2.md",
+                        "science/environment/3.md"
                     ]
                 }
             ]
