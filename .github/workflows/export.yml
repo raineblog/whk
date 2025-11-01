@@ -20,24 +20,14 @@ jobs:
         uses: actions/checkout@v5
         with:
           submodules: 'true'
-      - name: Setup Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: '3.12'
-      - name: Install Python Dependencies
-        run: pip install -r script/requirements.txt
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
-      - name: Install APT Packages
-        run: |
-          echo "set man-db/auto-update false" | sudo debconf-communicate
-          sudo dpkg-reconfigure man-db
-          playwright install --with-deps chromium
-          sudo apt-get install -y pdf2svg
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+      - name: Install Dependencies
+        run: uv pip install --group export
       - name: Export to PDF
-        run: |
-          export TYPST_FONT_PATHS="./script/fonts"
-          python script/export_to_pdf.py
+        run: uv run poe export
       - name: Upload Artifact
         uses: actions/upload-artifact@v5
         with:
@@ -53,13 +43,11 @@ jobs:
       with:
         merge-multiple: true
         path: ./
-    - name: Get Current Time
-      id: datetime
-      run: |
-        echo "utc_time=$(date -u +'%Y%m%d%H%M')" >> $GITHUB_OUTPUT
-        echo "cst_time=$(TZ='Asia/Shanghai' date +'%Y%m%d%H%M')" >> $GITHUB_OUTPUT
+    - name: Get Time
+      id: gettime
+      run: echo "utc_time=$(date -u +'%Y%m%d%H%M')" >> $GITHUB_OUTPUT
     - name: Upload to Release
       uses: softprops/action-gh-release@v2
       with:
         files: ./*.pdf
-        tag_name: ${{ steps.datetime.outputs.utc_time }}
+        tag_name: ${{ steps.gettime.outputs.utc_time }}
