@@ -28,9 +28,7 @@ build = [
 [tool.poe.tasks]
 toc = "uv run script/toc.py"
 generate = "uv run script/generate.py"
-
 update = "git submodule update --remote"
-githash = "git rev-parse --short HEAD | xargs -I % sed -i \"s/githash: ''/githash: '%'/g\" mkdocs.yml"
 
 serve = [
     "generate",
@@ -39,7 +37,6 @@ serve = [
 
 build = [
     "generate",
-    "githash",
     { cmd = "mkdocs build --strict" },
 ]
 
