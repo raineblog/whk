@@ -28,7 +28,13 @@ build = [
 [tool.poe.tasks]
 toc = "uv run script/toc.py"
 generate = "uv run script/generate.py"
+
 update = "git submodule update --remote"
+push = [
+    { cmd = "git add ." },
+    { cmd = "git commit -m \"[build] Update $(Get-Date -format 'yyyy-MM-dd HH:mm:ss')\"" },
+    { cmd = "git push" },
+]
 
 serve = [
     "generate",
