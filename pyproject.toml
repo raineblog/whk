@@ -46,14 +46,4 @@ build = [
     { cmd = "mkdocs build --strict" },
 ]
 
-apt = [
-    { cmd = "echo \"set man-db/auto-update false\" | sudo debconf-communicate" },
-    { cmd = "sudo dpkg-reconfigure man-db"},
-    { cmd = "playwright install --with-deps chromium"},
-    { cmd = "sudo apt-get install -y pdf2svg"},
-]
-
-export = [
-    "apt",
-    { cmd = "uv run script/export.py" },
-]
+export = "uv run script/export.py"

@@ -29,7 +29,12 @@ jobs:
       - name: Install Dependencies
         run: uv pip install --group export
       - name: Export to PDF
-        run: uv run poe export
+        run: |
+          echo "set man-db/auto-update false" | sudo debconf-communicate
+          sudo dpkg-reconfigure man-db
+          playwright install --with-deps chromium
+          sudo apt-get install -y pdf2svg
+          uv run poe export
       - name: Upload Artifact
         uses: actions/upload-artifact@v5
         with:
