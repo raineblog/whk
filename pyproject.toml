@@ -1,9 +1,9 @@
 [project]
 name = "whk"
-version = "0.1.0"
+version = "1.0.0"
 description = "RainPPR's WHK Blog"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12,<3.13"
 dependencies = []
 
 [dependency-groups]
@@ -55,7 +55,5 @@ apt = [
 
 export = [
     "apt",
-    { cmd = "export TYPST_FONT_PATHS=\"./script/fonts\"" },
     { cmd = "uv run script/export.py" },
 ]
-
