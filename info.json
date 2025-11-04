@@ -178,11 +178,12 @@
                 },
                 {
                     "有机与生物化学": [
-                        "science/organic/index.md",
                         "science/organic/1.md",
                         "science/organic/2.md",
                         "science/organic/3.md",
-                        "science/organic/4.md"
+                        "science/organic/4.md",
+                        "science/organic/5.md",
+                        "science/organic/6.md"
                     ]
                 },
                 {
