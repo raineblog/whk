@@ -1,12 +1,12 @@
 [submodule "docs/intro"]
 	path = docs/intro
-	url = https://github.com/raineblog/intro
+	url = git@github.com:raineblog/intro
 [submodule "material"]
 	path = material
-	url = https://github.com/raineblog/mkdocs-material
+	url = git@github.com:raineblog/mkdocs-material
 [submodule "script"]
 	path = script
-	url = https://github.com/raineblog/mkdocs-script
+	url = git@github.com:raineblog/mkdocs-script
 [submodule "docs/assets"]
 	path = docs/assets
-	url = https://github.com/raineblog/assets
+	url = git@github.com:raineblog/assets
