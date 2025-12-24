@@ -129,14 +129,21 @@
                     ]
                 },
                 {
-                    "电场电路与磁学": [
-                        "science/electricity/field/1.md",
-                        "science/electricity/field/2.md",
-                        "science/electricity/field/3.md",
-                        "science/electricity/current/1.md",
-                        "science/electricity/current/2.md",
-                        "science/electricity/magnetism/1.md",
-                        "science/electricity/magnetism/2.md"
+                    "电路学与电化学": [
+                        "science/circuitry/1.md",
+                        "science/circuitry/2.md",
+                        "science/circuitry/3.md",
+                        "science/circuitry/4.md"
+                    ]
+                },
+                {
+                    "电场磁场电磁波": [
+                        "science/electromagnetism/1.md",
+                        "science/electromagnetism/2.md",
+                        "science/electromagnetism/3.md",
+                        "science/electromagnetism/4.md",
+                        "science/electromagnetism/5.md",
+                        "science/electromagnetism/6.md"
                     ]
                 },
                 {
@@ -158,16 +165,6 @@
                     ]
                 },
                 {
-                    "化学反应的原理": [
-                        "science/reaction/electro.md",
-                        "science/reaction/battery.md",
-                        "science/reaction/thermo.md",
-                        "science/reaction/speed.md",
-                        "science/reaction/equilibrium.md",
-                        "science/reaction/liquid.md"
-                    ]
-                },
-                {
                     "元素与物质性质": [
                         "science/element/index.md",
                         "science/element/na.md",
@@ -181,6 +178,13 @@
                     ]
                 },
                 {
+                    "反应速率与平衡": [
+                        "science/reaction/1.md",
+                        "science/reaction/2.md",
+                        "science/reaction/3.md"
+                    ]
+                },
+                {
                     "有机与生物化学": [
                         "science/organic/1.md",
                         "science/organic/2.md",
@@ -188,15 +192,6 @@
                         "science/organic/4.md",
                         "science/organic/5.md",
                         "science/organic/6.md"
-                    ]
-                },
-                {
-                    "生化实验与应用": [
-                        "science/experiment/tech.md",
-                        "science/experiment/experiment.md",
-                        "science/experiment/instrument.md",
-                        "science/experiment/life.md",
-                        "science/experiment/bio.md"
                     ]
                 },
                 {
@@ -217,6 +212,15 @@
                     ]
                 },
                 {
+                    "生化实验与应用": [
+                        "science/experiment/tech.md",
+                        "science/experiment/experiment.md",
+                        "science/experiment/instrument.md",
+                        "science/experiment/life.md",
+                        "science/experiment/bio.md"
+                    ]
+                },
+                {
                     "人体结构与功能": [
                         "science/human/1.md",
                         "science/human/2.md",
@@ -230,7 +234,7 @@
                     ]
                 },
                 {
-                    "生物概述与物种": [
+                    "物种与生物概述": [
                         "science/species/1.md",
                         "science/species/2.md",
                         "science/species/3.md",
@@ -238,7 +242,7 @@
                     ]
                 },
                 {
-                    "地理学与生态学": [
+                    "生态学与地理学": [
                         "science/nature/1.md",
                         "science/nature/2.md",
                         "science/nature/3.md",
