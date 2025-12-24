@@ -1,20 +1,17 @@
-name: Build Pages
+name: Check Build
 
 on:
-  push:
+  pull_request:
     branches:
       - master
       - main
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    paths-ignore:
+      - '.gitignore'
+      - 'README.md'
 
 jobs:
-  build:
-    if: startsWith(github.event.head_commit.message, '[build]')
-    concurrency: ci-${{ github.ref }}
-    name: Build Pages
+  check:
+    name: Check Build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -25,6 +22,3 @@ jobs:
           python-version: '3.12' 
       - run: pip install -r requirements.txt
       - run: make build
-      - uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: site
