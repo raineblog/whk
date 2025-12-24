@@ -1,3 +1,4 @@
+pyyaml
 mkdocs
 mkdocs-glightbox
 mkdocs-minify-plugin

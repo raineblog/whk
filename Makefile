@@ -1,5 +1,5 @@
 mkdocs.yml:
-	uv run script/generate.py
+	python script/generate.py
 
 serve: mkdocs.yml
 	mkdocs serve --livereload --dirty
