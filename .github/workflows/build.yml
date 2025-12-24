@@ -5,14 +5,37 @@ on:
     branches:
       - master
       - main
+  pull_request:
+    branches:
+      - master
+      - main
+    paths-ignore:
+      - '.gitignore'
+      - 'README.md'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
+  check:
+    name: Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v6
+        with:
+          submodules: 'true'
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12' 
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+      - name: Page Build
+        run: make build
   build:
     if: startsWith(github.event.head_commit.message, '[build]')
+    concurrency: ci-${{ github.ref }}
     name: Build
     runs-on: ubuntu-latest
     steps:
