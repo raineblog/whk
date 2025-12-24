@@ -6,6 +6,7 @@ serve: mkdocs.yml
 
 build: mkdocs.yml
 	mkdocs build --strict
+	touch site/.nojekyll
 
 export2pdf:
 	python script/export.py
