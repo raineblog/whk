@@ -1,10 +1,12 @@
-mkdocs.yml:
+generate:
 	python script/generate.py
 
-serve: mkdocs.yml
+serve:
+	python script/generate.py
 	mkdocs serve --livereload --dirty
 
-build: mkdocs.yml
+build:
+	python script/generate.py
 	mkdocs build --strict
 	touch site/.nojekyll
 
