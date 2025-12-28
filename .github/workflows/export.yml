@@ -27,8 +27,8 @@ jobs:
       - run: |
           echo "set man-db/auto-update false" | sudo debconf-communicate
           sudo dpkg-reconfigure man-db
-          sudo apt-get install -y pdf2svg
           playwright install --with-deps chromium
+          sudo apt-get install -y pdf2svg
       - run: make export2pdf
       - uses: actions/upload-artifact@v6
         with:
