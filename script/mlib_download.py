@@ -8,23 +8,23 @@ from playwright.sync_api import sync_playwright
 
 task_list = []
 
-def convert_pdf_to_svg(pdf_full_path: str, final_file_name: str):
-    directory = os.path.dirname(pdf_full_path)
-    current_temp_name = os.path.basename(pdf_full_path)
-    stem_name = os.path.splitext(final_file_name)[0]
+# def convert_pdf_to_svg(pdf_full_path: str, final_file_name: str):
+#     directory = os.path.dirname(pdf_full_path)
+#     current_temp_name = os.path.basename(pdf_full_path)
+#     stem_name = os.path.splitext(final_file_name)[0]
 
-    subprocess.run(
-        [
-            "pdf2svg", 
-            current_temp_name, 
-            f"{stem_name}.%04d.svg", 
-            "all"
-        ], 
-        cwd=directory, 
-        check=True, 
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.PIPE
-    )
+#     subprocess.run(
+#         [
+#             "pdf2svg", 
+#             current_temp_name, 
+#             f"{stem_name}.%04d.svg", 
+#             "all"
+#         ], 
+#         cwd=directory, 
+#         check=True, 
+#         stdout=subprocess.DEVNULL,
+#         stderr=subprocess.PIPE
+#     )
 
 def pdf_worker(worker_id: int, task_queue: queue.Queue):
     print(f"[Worker-{worker_id}] 启动")
@@ -45,7 +45,7 @@ def pdf_worker(worker_id: int, task_queue: queue.Queue):
             url, final_path = task
 
             target_dir = os.path.dirname(final_path)
-            final_name = os.path.basename(final_path)
+            # final_name = os.path.basename(final_path)
             if not os.path.exists(target_dir):
                 os.makedirs(target_dir, exist_ok=True)
     
@@ -79,7 +79,7 @@ def pdf_worker(worker_id: int, task_queue: queue.Queue):
 
             page.close()
 
-            convert_pdf_to_svg(temp_full_path, final_name)
+            # convert_pdf_to_svg(temp_full_path, final_name)
 
             if os.path.exists(final_path):
                 os.remove(final_path)

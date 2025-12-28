@@ -1,0 +1,224 @@
+% !TeX program = lualatex
+\documentclass[a4paper,11pt,twoside,openright]{ctexbook}
+
+% ====================
+% 1. 基础宏包配置
+% ====================
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    top=3cm, bottom=3cm,
+    left=3.5cm, right=2.5cm, % 内侧留白大一点用于装订
+}
+
+\usepackage{pdfpages} % 核心：插入PDF
+\usepackage{luacode}  % 核心：Lua代码
+\usepackage{hyperref} % 书签和链接
+\usepackage{xcolor}
+\usepackage{titlesec} % 标题样式
+\usepackage{fancyhdr} % 页眉页脚
+\usepackage{etoolbox} % 编程逻辑
+
+% 配色 (深蓝灰，显得高级)
+\definecolor{maincolor}{RGB}{45, 52, 54}
+\definecolor{accentcolor}{RGB}{9, 132, 227}
+
+% 超链接设置
+\hypersetup{
+    colorlinks=true,
+    linkcolor=maincolor,
+    urlcolor=accentcolor,
+    pdftitle={My Auto Book},
+    pdfauthor={Author},
+    bookmarksnumbered=true
+}
+
+% ====================
+% 2. 版面设计 (高雅风格)
+% ====================
+
+% 字体设置 (根据环境自动回退，建议在 CI 中安装 Noto CJK)
+% 默认 ctex 已经处理得很好，这里可以不做额外设置
+
+% 章节标题样式 (Chapter)
+% 效果：右对齐，巨大的数字，下方是标题
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\color{maincolor}}
+  {\flushright\fontsize{60}{60}\selectfont\thechapter}
+  {20pt}
+  {\flushright\Huge}
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}
+
+% 目录样式
+\usepackage{titletoc}
+\titlecontents{chapter}[0pt]{\addvspace{1pc}\bfseries}
+{\contentslabel{1.5em}}{}{\titlerule*[0.3pc]{.}\contentspage}
+
+% 页眉页脚
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\small\thepage}
+\fancyhead[RE]{\small\itshape\leftmark}
+\fancyhead[LO]{\small\itshape\rightmark}
+\renewcommand{\headrulewidth}{0pt} % 去掉页眉横线，更极简
+
+% ====================
+% 3. Lua 脚本：读取 JSON 并生成内容
+% ====================
+\begin{luacode*}
+    require("lualibs") 
+    
+    function process_book_structure()
+        -- 1. 读取文件
+        local f = io.open("toc.json", "rb")
+        if not f then
+            tex.error("Lua Error: 'toc.json' not found in " .. lfs.currentdir())
+            return
+        end
+        local content = f:read("*all")
+        f:close()
+
+        -- 去除 UTF-8 BOM
+        if string.byte(content, 1) == 0xEF and string.byte(content, 2) == 0xBB and string.byte(content, 3) == 0xBF then
+            content = string.sub(content, 4)
+        end
+
+        -- 3. 解析 JSON
+        local data = utilities.json.tolua(content)
+
+        -- 4. 核心修复：检查 data 是否为空
+        if not data then
+            tex.error("Lua Error: JSON parsing failed! content might be empty or invalid encoding.")
+            return
+        end
+        
+        -- 5. 正常的处理逻辑
+        tex.print("\\title{" .. (data.title or "Untitled"):gsub("#", "\\#") .. "}")
+        if data.authors then
+            local authors = {}
+            for i, a in ipairs(data.authors) do authors[i] = a:gsub("#", "\\#") end
+            tex.print("\\author{" .. table.concat(authors, ", ") .. "}")
+        end
+        tex.print("\\date{" .. (data.date or "\\today") .. "}")
+        
+        if data.info then
+            if data.info.abstract then
+                tex.print("\\newcommand{\\bookabstract}{")
+                for _, para in ipairs(data.info.abstract) do
+                    tex.print(para:gsub("#", "\\#") .. "\\par\\vspace{0.5em}")
+                end
+                tex.print("}")
+            end
+            if data.info.publishing then
+                tex.print("\\newcommand{\\bookpublishing}{" .. data.info.publishing:gsub("#", "\\#") .. "}")
+            end
+        end
+        
+        -- 兼容 sections 字段名
+        _G.book_content = data.sections or data.content
+    end
+
+    function print_chapters_and_sections()
+        if not _G.book_content then return end
+        
+        for i, chapter in ipairs(_G.book_content) do
+            tex.print("\\chapter{" .. (chapter.title or "Chapter") .. "}")
+            -- 兼容 sections 字段名
+            local sections = chapter.sections or chapter.content
+            if sections then
+                for j, section in ipairs(sections) do
+                    -- 兼容 path 字段名
+                    local file_path = section.path or section.file
+                    local sec_title = section.title or "Section"
+                    
+                    -- 检查文件路径是否为空
+                    if file_path and file_path ~= "" then
+                        -- 这里如果不转义路径中的特殊字符可能会有问题，但在 Windows 路径通常斜杠处理要注意
+                        -- 最好在 Python 端把路径都转为正斜杠 /
+                        local options = "pages=-, width=\\textwidth, height=\\textheight, keepaspectratio, " ..
+                                        "pagecommand={\\thispagestyle{fancy}}, " .. 
+                                        "addtotoc={1, section, 1, {" .. sec_title .. "}, sec:" .. i .. "-" .. j .. "}"
+                        tex.print("\\includepdf[" .. options .. "]{" .. file_path .. "}")
+                    end
+                end
+            end
+        end
+    end
+\end{luacode*}
+
+% 初始化数据
+\directlua{process_book_structure()}
+
+\begin{document}
+
+% ====================
+% 4. 封面与前言 (Front Matter)
+% ====================
+\frontmatter
+
+% --- 封面 ---
+\begin{titlepage}
+    \centering
+    \vspace*{4cm}
+    
+    {\fontsize{40}{48}\selectfont \bfseries \makeatletter \@title \makeatother \par}
+    \vspace{1cm}
+    {\Large \itshape \color{gray} \makeatletter 基于 \@date 构建 \makeatother \par}
+    
+    \vfill
+    
+    {\Large \makeatletter \@author \makeatother \par}
+    \vspace{2cm}
+    {\small \bookpublishing \par}
+\end{titlepage}
+
+% --- 扉页/致谢/摘要 ---
+\newpage
+\thispagestyle{empty}
+\vspace*{3cm}
+\begin{center}
+    {\Large \textbf{本书简介}} \par
+    \vspace{1cm}
+    \begin{minipage}{0.7\textwidth}
+        \setlength{\parindent}{2em}
+        \bookabstract
+    \end{minipage}
+\end{center}
+\vfill
+\begin{center}
+    \textit{献给 佐倉杏子}
+\end{center}
+\cleardoublepage
+
+% --- 目录 ---
+{
+    \hypersetup{linkcolor=black}
+    \tableofcontents
+}
+\cleardoublepage
+
+% ====================
+% 5. 正文 (Main Matter)
+% ====================
+\mainmatter
+
+% 调用 Lua 循环插入所有 PDF
+\directlua{print_chapters_and_sections()}
+
+% ====================
+% 6. 封底 (Back Matter)
+% ====================
+\backmatter
+\cleardoublepage
+\thispagestyle{empty}
+\pagecolor{maincolor} % 封底颜色
+\vspace*{\fill}
+\begin{center}
+    \color{white}
+    {\Large \textbf{Thank you for reading.}} \\
+    \vspace{1cm}
+    {\small Generated by GitHub Actions & LuaLaTeX}
+\end{center}
+\vspace*{\fill}
+
+\end{document}
