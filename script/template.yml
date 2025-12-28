@@ -1,8 +1,6 @@
 theme:
     name: null
     custom_dir: material/material/templates
-    static_templates:
-    - 404.html
     language: zh
     palette:
     -   media: '(prefers-color-scheme: light)'
@@ -20,32 +18,25 @@ theme:
             icon: material/weather-night
             name: 切换到亮色模式
     features:
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
-    - navigation.tabs.sticky
+    - navigation.tabs.
+    - navigation.sections
+    - navigation.expand
     - navigation.prune
-    - navigation.indexes
     - navigation.top
     - navigation.footer
     - toc.follow
-    - search.highlight
     - announce.dismiss
     - content.action.edit
     - content.action.view
     - content.code.copy
     - content.code.select
     - content.tooltips
-    - content.footnote.tooltips
     icon:
         repo: fontawesome/brands/github
         edit: material/pencil
         view: material/eye
-    font:
-        text: Roboto
-        code: Roboto Mono
 plugins:
 - glightbox
 -   minify:
@@ -61,8 +52,9 @@ markdown_extensions:
 - footnotes
 - md_in_html
 - tables
-- toc:
-    permalink: true
+-   toc:
+        permalink: true
+        toc_depth: 3
 -   pymdownx.arithmatex:
         generic: true
 - pymdownx.caret

@@ -7,10 +7,13 @@ serve:
 
 build:
 	python script/generate.py
-	mkdocs build --strict
+	mkdocs build --strict --clean
 	touch site/.nojekyll
 
 export2pdf:
+	python script/generate.py
+	mkdocs build --strict --clean
+	export TYPST_FONT_PATHS="./docs/assets/fonts/typst"
 	python script/export.py
 
 pull:
