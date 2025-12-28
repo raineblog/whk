@@ -16,26 +16,21 @@ jobs:
     timeout-minutes: 20
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main
-        uses: actions/checkout@v6
+      - uses: actions/checkout@v6
         with:
           submodules: 'true'
-      - name: Setup Typst
-        uses: typst-community/setup-typst@v4
+      - uses: typst-community/setup-typst@v4
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - name: Install Dependencies
-        run: pip install -r script/requirements.txt
-      - name: Export to PDF
-        run: |
+      - run: pip install -r script/requirements.txt
+      - run: |
           echo "set man-db/auto-update false" | sudo debconf-communicate
           sudo dpkg-reconfigure man-db
-          playwright install --with-deps chromium
           sudo apt-get install -y pdf2svg
-          make export2pdf
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v6
+          playwright install --with-deps chromium
+      - run: make export2pdf
+      - uses: actions/upload-artifact@v6
         with:
           name: PDF
           path: ./cache/*.pdf
@@ -44,16 +39,13 @@ jobs:
     runs-on: ubuntu-latest
     needs: export
     steps:
-    - name: Download artifact
-      uses: actions/download-artifact@v7
+    - uses: actions/download-artifact@v7
       with:
         merge-multiple: true
         path: ./
-    - name: Get Time
-      id: gettime
+    - id: nowtime
       run: echo "utc_time=$(date -u +'%Y%m%d%H%M')" >> $GITHUB_OUTPUT
-    - name: Upload to Release
-      uses: softprops/action-gh-release@v2
+    - uses: softprops/action-gh-release@v2
       with:
         files: ./*.pdf
-        tag_name: ${{ steps.gettime.outputs.utc_time }}
+        tag_name: ${{ steps.nowtime.outputs.utc_time }}
