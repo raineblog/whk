@@ -2,7 +2,7 @@ name: Export to PDF
 
 on:
   schedule:
-    - cron: '0 0 1 * *'
+    - cron: '28 6 1 * *'
   workflow_dispatch:
 
 permissions:
@@ -16,7 +16,7 @@ jobs:
     timeout-minutes: 20
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/rainppr/mkdocs-exporter
+      image: ghcr.io/rainppr/mkdocs-exporter:least
     steps:
       - uses: actions/checkout@v6
         with:
