@@ -21,25 +21,10 @@ jobs:
         with:
           submodules: 'true'
       - run: export-pdf
-      - uses: actions/upload-artifact@v6
+      - id: nowtime
+        run: echo "utc_time=$(date -u +'%Y%m%d%H%M')" >> $GITHUB_OUTPUT
+      - uses: softprops/action-gh-release@v2
         with:
-          name: PDF
-          path: cache/*.pdf
-          if-no-files-found: error
-          retention-days: 1
-  release:
-    name: Create Release
-    runs-on: ubuntu-latest
-    needs: export
-    steps:
-    - uses: actions/download-artifact@v7
-      with:
-        merge-multiple: true
-        path: ./dist
-    - id: nowtime
-      run: echo "utc_time=$(date -u +'%Y%m%d%H%M')" >> $GITHUB_OUTPUT
-    - uses: softprops/action-gh-release@v2
-      with:
-        files: ./dist/*.pdf
-        tag_name: ${{ steps.nowtime.outputs.utc_time }}
-        make_latest: true
+          files: ./build/*.pdf
+          tag_name: ${{ steps.nowtime.outputs.utc_time }}
+          make_latest: true
