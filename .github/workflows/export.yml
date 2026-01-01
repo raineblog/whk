@@ -16,7 +16,7 @@ jobs:
     timeout-minutes: 20
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/rainppr/mkdocs-exporter:sha256-d77827d0a84c85563d665c2494a7acc4895026ec31c12efa10220b6ba3f26c59.sig
+      image: ghcr.io/rainppr/mkdocs-exporter
     steps:
       - uses: actions/checkout@v6
         with:
