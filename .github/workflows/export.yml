@@ -23,6 +23,7 @@ jobs:
         with:
           packages: |
             scheme-basic
+            latexmk
             titletoc
             geometry
             pdfpages
