@@ -21,11 +21,12 @@ def compile_latex(tex_filename, output_pdf_filename=None):
     cmd = [
         "latexmk",
         "-cd",
-        "-g",
         "-lualatex",
         "-interaction=nonstopmode",
         "-file-line-error",
         "-halt-on-error",
+        "-c",
+        "-g",
         tex_filename
     ]
 
@@ -43,6 +44,12 @@ def compile_latex(tex_filename, output_pdf_filename=None):
         print(f"Exit code: {e.returncode}")
         print("Please check the log output above for details.")
         print("==============================")
+        subprocess.run([
+            "cat",
+            "cache/main.log",
+            "-n",
+            "-s"
+        ])
         sys.exit(e.returncode)
 
     if output_pdf_filename:

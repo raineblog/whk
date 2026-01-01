@@ -1,31 +1,33 @@
-% !TeX program = lualatex
-\batchmode
+\batchmode % 1. 开启批处理模式，减少控制台刷屏
 
-\hbadness=10000           % 屏蔽 Underfull \hbox
-\vbadness=10000           % 屏蔽 Underfull \vbox
-\hfuzz=\maxdimen          % 屏蔽 Overfull \hbox
-\vfuzz=\maxdimen          % 屏蔽 Overfull \vbox
+% =================================================================
+% 强力静音补丁 (放在 \documentclass 之前)
+% =================================================================
+\makeatletter
+% 2. 核心：屏蔽 graphicx 和 luatex.def 的图片加载日志
+%    这解决了 "File: ... Graphic file" 和 "Requested size" 的刷屏
+\def\Gin@log#1{} 
 
-% 屏蔽所有 LaTeX 标准警告
+% 3. 核心：屏蔽所有宏包的 Info 信息
+%    这解决了 "Package luatex.def Info: ..."
+\long\def\PackageInfo#1#2{}
+
+% 4. 屏蔽 pdfpages 宏包特定的繁琐日志
+\def\AM@Message#1{}
+\makeatother
+
+% 6. 底层排版引擎静音 (Bad Box)
+\hbadness=10000
+\vbadness=10000
+\hfuzz=\maxdimen
+\vfuzz=\maxdimen
+
+% 7. 加载 silence 包屏蔽剩余的 Warnings
+\RequirePackage{silence}
 \WarningsOff* 
-% 屏蔽所有 LaTeX 建议/消息
-\ErrorsOff[LaTeX] % 如果你连 LaTeX 核心错误都不想看（不推荐，但很彻底）
-
-\directlua{
-    % 屏蔽控制台输出的页码信息，例如 [1] [2]
-    callback.register("start_page_number", function() end)
-    callback.register("stop_page_number", function() end)
-    
-    % 屏蔽文件读写过程中的部分日志
-    % 注意：完全屏蔽 start_run/stop_run 可能会导致严重错误难以调试，
-    % 但这里可以屏蔽字体加载器的冗长日志。
-    if luaotfload and luaotfload.log then
-        luaotfload.log.set_loglevel(0)
-    end
-}
+% =================================================================
 
 \documentclass[a4paper,11pt,twoside,openright]{ctexbook}
-
 % ====================
 % 1. 基础宏包配置
 % ====================
@@ -44,7 +46,6 @@
 \usepackage{fancyhdr} % 页眉页脚
 \setlength{\headheight}{13pt}
 \usepackage{etoolbox} % 编程逻辑
-\usepackage{silence}
 
 
 % 配色 (深蓝灰，显得高级)
