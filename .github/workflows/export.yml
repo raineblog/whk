@@ -13,10 +13,10 @@ permissions:
 jobs:
   export:
     name: Export
-    timeout-minutes: 20
+    timeout-minutes: 10
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/rainppr/mkdocs-exporter:least
+      image: ghcr.io/rainppr/mkdocs-exporter:latest
     steps:
       - uses: actions/checkout@v6
         with:
