@@ -25,8 +25,8 @@ def compile_latex(tex_filename, output_pdf_filename=None):
         "-interaction=nonstopmode",
         "-file-line-error",
         "-halt-on-error",
-        "-c",
         "-g",
+        "-gg",
         tex_filename
     ]
 
