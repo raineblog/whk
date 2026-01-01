@@ -10,10 +10,5 @@ build:
 	mkdocs build --strict --clean
 	touch site/.nojekyll
 
-export2pdf:
-	python script/generate.py
-	mkdocs build --strict --clean
-	python script/export.py
-
 pull:
 	git submodule update --remote

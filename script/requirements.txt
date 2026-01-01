@@ -1,7 +1,0 @@
-playwright
-pyyaml
-aiohttp
-mkdocs
-mkdocs-glightbox
-mkdocs-minify-plugin
-pymdown-extensions
