@@ -13,7 +13,6 @@ permissions:
 jobs:
   export:
     name: Export PDF
-    timeout-minutes: 10
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/rainppr/mkdocs-exporter:latest
