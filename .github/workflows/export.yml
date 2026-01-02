@@ -20,11 +20,11 @@ jobs:
       - uses: actions/checkout@v6
         with:
           submodules: 'true'
-      - run: export-pdf
-      - id: nowtime
+      - run: mkdocs-export
+      - id: timestamp
         run: echo "utc_time=$(date -u +'%Y%m%d%H%M')" >> $GITHUB_OUTPUT
       - uses: softprops/action-gh-release@v2
         with:
           files: ./build/*.pdf
-          tag_name: ${{ steps.nowtime.outputs.utc_time }}
+          tag_name: ${{ steps.timestamp.outputs.utc_time }}
           make_latest: true
