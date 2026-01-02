@@ -20,7 +20,9 @@ jobs:
       - uses: actions/checkout@v6
         with:
           submodules: 'true'
-      - run: mkdocs-export
+      - run: |
+          export MAX_THREADS=2
+          mkdocs-export
       - id: timestamp
         run: echo "utc_time=$(date -u +'%Y%m%d%H%M')" >> $GITHUB_OUTPUT
       - uses: softprops/action-gh-release@v2
