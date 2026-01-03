@@ -3,7 +3,7 @@ generate:
 
 serve:
 	python script/generate.py
-	mkdocs serve --livereload --dirty
+	zensical serve
 
 build:
 	python script/generate.py
