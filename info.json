@@ -14,10 +14,20 @@
             "data_repo_id": "R_kgDOMhpKmw",
             "data_category_id": "DIC_kwDOMhpKm84ChhZ7"
         },
-        "analytics": {
-            "provider": "google",
-            "property": "G-P4BSLDT3CP"
-        }
+        "analytics": [
+            {
+                "provider": "gtag",
+                "config": {
+                    "code": "G-P4BSLDT3CP"
+                }
+            },
+            {
+                "provider": "gtm",
+                "config": {
+                    "code": "GTM-NNRJ8F2J"
+                }
+            }
+        ]
     },
     "nav": [
         {
