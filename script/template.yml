@@ -81,3 +81,4 @@ markdown_extensions:
 exclude_docs: |
     /test/
     /cultural/
+    /assets/
