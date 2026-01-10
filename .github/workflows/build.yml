@@ -12,8 +12,6 @@ permissions:
 
 jobs:
   build:
-    if: startsWith(github.event.head_commit.message, '[build]')
-    concurrency: ci-${{ github.ref }}
     name: Build Pages
     runs-on: ubuntu-latest
     steps:
@@ -22,9 +20,11 @@ jobs:
           submodules: 'true'
       - uses: actions/setup-python@v6
         with:
-          python-version: '3.12' 
-      - run: pip install -r requirements.txt
-      - run: make build
+          python-version: '3.12'
+      - run: |
+          pip install -r requirements.txt
+          make build
       - uses: JamesIves/github-pages-deploy-action@v4
+        if: '!startsWith(github.event.head_commit.message, ''[push]'')'
         with:
           folder: site
