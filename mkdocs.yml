@@ -1,0 +1,260 @@
+site_name: RainPPR's WHK Blog
+site_description: by RainPPR
+site_author: RainPPR
+repo_name: raineblog/whk
+repo_url: https://github.com/raineblog/whk
+edit_uri: edit/main/docs/
+copyright: Copyright © 2025 RainPPR
+theme:
+    name: null
+    custom_dir: material/material/templates
+    language: zh
+    palette:
+    -   media: '(prefers-color-scheme: light)'
+        scheme: default
+        primary: white
+        accent: red
+        toggle:
+            icon: material/weather-sunny
+            name: 切换到暗色模式
+    -   media: '(prefers-color-scheme: dark)'
+        scheme: slate
+        primary: blue
+        accent: blue
+        toggle:
+            icon: material/weather-night
+            name: 切换到亮色模式
+    features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.prune
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - content.code.select
+    - content.tooltips
+    icon:
+        repo: fontawesome/brands/github
+        edit: material/pencil
+        view: material/eye
+plugins:
+- glightbox
+-   minify:
+        minify_html: true
+        htmlmin_opts:
+            remove_comments: true
+        cache_safe: true
+markdown_extensions:
+- abbr
+- admonition
+- attr_list
+- def_list
+- footnotes
+- md_in_html
+- tables
+-   toc:
+        permalink: true
+        toc_depth: 3
+-   pymdownx.arithmatex:
+        generic: true
+- pymdownx.caret
+- pymdownx.keys
+- pymdownx.mark
+- pymdownx.tilde
+- pymdownx.betterem
+- pymdownx.blocks.admonition
+- pymdownx.blocks.details
+- pymdownx.blocks.caption
+- pymdownx.blocks.tab
+-   pymdownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
+        linenums: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.superfences
+- pymdownx.magiclink
+- pymdownx.smartsymbols
+- pymdownx.tasklist
+- pymdownx.tabbed
+exclude_docs: '/test/
+
+    /cultural/
+
+    '
+extra_javascript:
+- assets/jquery.min.js
+- assets/katex/katex.min.js
+- assets/katex/contrib/mhchem.min.js
+- assets/katex/contrib/auto-render.min.js
+- assets/katex/contrib/copy-tex.min.js
+- assets/katex.js
+extra_css:
+- assets/custom.css
+- assets/katex/katex-swap.min.css
+- assets/fonts.mkdocs.css
+extra:
+    giscus:
+        data_repo: raineblog/giscus
+        data_repo_id: R_kgDOMhpKmw
+        data_category_id: DIC_kwDOMhpKm84ChhZ7
+    analytics:
+        provider: google
+        property: G-P4BSLDT3CP
+nav:
+-   简介:
+    - index.md
+    - intro/format.md
+    - intro/usage.md
+    - intro/discussion.md
+    - madoka.md
+-   高中理科:
+    -   数系与公理系统:
+        - science/mathematics/1.md
+        - science/mathematics/2.md
+        - science/mathematics/3.md
+    -   函数极限微积分:
+        - science/function/1.md
+        - science/function/2.md
+        - science/function/3.md
+        - science/function/4.md
+        - science/function/5.md
+    -   多项式与不等式:
+        - science/polynomial/1.md
+        - science/polynomial/2.md
+        - science/polynomial/3.md
+        - science/polynomial/4.md
+        - science/polynomial/5.md
+    -   数列与离散数学:
+        - science/sequence/1.md
+        - science/sequence/2.md
+        - science/sequence/3.md
+        - science/sequence/4.md
+    -   组合与概率统计:
+        - science/probability/1.md
+        - science/probability/2.md
+        - science/probability/3.md
+        - science/probability/4.md
+        - science/probability/5.md
+    -   数论与算法初步:
+        - science/number/1.md
+        - science/number/3.md
+        - science/number/4.md
+    -   三角与平面几何:
+        - science/plane/1.md
+        - science/plane/2.md
+        - science/plane/3.md
+        - science/plane/4.md
+        - science/plane/5.md
+    -   解析几何与圆曲:
+        - science/geometry/1.md
+        - science/geometry/2.md
+        - science/geometry/3.md
+        - science/geometry/4.md
+        - science/geometry/5.md
+    -   空间与立体几何:
+        - science/solid/1.md
+        - science/solid/2.md
+        - science/solid/3.md
+    -   运动与物理方法:
+        - science/kinematics/1.md
+        - science/kinematics/2.md
+        - science/kinematics/3.md
+        - science/kinematics/4.md
+        - science/kinematics/5.md
+    -   力学与天体力学:
+        - science/mechanics/1.md
+        - science/mechanics/2.md
+        - science/mechanics/3.md
+        - science/mechanics/4.md
+        - science/mechanics/5.md
+        - science/mechanics/6.md
+        - science/mechanics/7.md
+    -   电路学与电化学:
+        - science/circuitry/1.md
+        - science/circuitry/2.md
+        - science/circuitry/3.md
+        - science/circuitry/4.md
+    -   电场磁场电磁波:
+        - science/electromagnetism/1.md
+        - science/electromagnetism/2.md
+        - science/electromagnetism/3.md
+        - science/electromagnetism/4.md
+        - science/electromagnetism/5.md
+        - science/electromagnetism/6.md
+    -   热学与近代物理:
+        - science/modern/1.md
+        - science/modern/2.md
+        - science/modern/3.md
+        - science/modern/4.md
+    -   计量与结构化学:
+        - science/structure/1.md
+        - science/structure/2.md
+        - science/structure/3.md
+        - science/structure/4.md
+    -   元素与物质性质:
+        - science/element/index.md
+        - science/element/na.md
+        - science/element/mg.md
+        - science/element/al.md
+        - science/element/si.md
+        - science/element/n.md
+        - science/element/s.md
+        - science/element/cl.md
+        - science/element/fe.md
+    -   反应速率与平衡:
+        - science/reaction/1.md
+        - science/reaction/2.md
+        - science/reaction/3.md
+    -   有机与生物化学:
+        - science/organic/1.md
+        - science/organic/2.md
+        - science/organic/3.md
+        - science/organic/4.md
+        - science/organic/5.md
+        - science/organic/6.md
+    -   细胞与细胞工程:
+        - science/cell/1.md
+        - science/cell/2.md
+        - science/cell/3.md
+        - science/cell/4.md
+        - science/cell/9.md
+    -   遗传与基因工程:
+        - science/genetics/1.md
+        - science/genetics/2.md
+        - science/genetics/3.md
+        - science/genetics/4.md
+    -   生化实验与应用:
+        - science/experiment/tech.md
+        - science/experiment/experiment.md
+        - science/experiment/instrument.md
+        - science/experiment/life.md
+        - science/experiment/bio.md
+    -   人体结构与功能:
+        - science/human/1.md
+        - science/human/2.md
+        - science/human/3.md
+        - science/human/4.md
+        - science/human/5.md
+        - science/human/6.md
+        - science/human/7.md
+        - science/human/8.md
+        - science/human/9.md
+    -   物种与生物概述:
+        - science/species/1.md
+        - science/species/2.md
+        - science/species/3.md
+        - science/species/4.md
+    -   生态学与地理学:
+        - science/nature/1.md
+        - science/nature/2.md
+        - science/nature/3.md
+        - science/nature/4.md
