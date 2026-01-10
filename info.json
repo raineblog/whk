@@ -8,10 +8,16 @@
         "edit_uri": "edit/main/docs/",
         "copyright": "Copyright © 2025 RainPPR"
     },
-    "giscus": {
-        "data_repo": "raineblog/giscus",
-        "data_repo_id": "R_kgDOMhpKmw",
-        "data_category_id": "DIC_kwDOMhpKm84ChhZ7"
+    "extra": {
+        "giscus": {
+            "data_repo": "raineblog/giscus",
+            "data_repo_id": "R_kgDOMhpKmw",
+            "data_category_id": "DIC_kwDOMhpKm84ChhZ7"
+        },
+        "analytics": {
+            "provider": "google",
+            "property": "G-P4BSLDT3CP"
+        }
     },
     "nav": [
         {

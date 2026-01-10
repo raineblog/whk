@@ -20,7 +20,7 @@ theme:
     features:
     - navigation.tracking
     - navigation.tabs
-    - navigation.tabs.
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.prune
@@ -81,4 +81,3 @@ markdown_extensions:
 exclude_docs: |
     /test/
     /cultural/
-    /assets/
