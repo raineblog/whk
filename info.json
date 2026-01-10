@@ -17,12 +17,6 @@
         },
         "analytics": [
             {
-                "provider": "gtag",
-                "config": {
-                    "code": "G-P4BSLDT3CP"
-                }
-            },
-            {
                 "provider": "gtm",
                 "config": {
                     "code": "GTM-NNRJ8F2J"
