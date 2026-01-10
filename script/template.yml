@@ -37,7 +37,7 @@ theme:
     - content.code.select
     - content.tooltips
     icon:
-        repo: fontawesome/brands/github
+        repo: fontawesome/brands/git-alt
         edit: material/pencil
         view: material/eye
 plugins:
