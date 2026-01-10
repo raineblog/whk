@@ -9,22 +9,81 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build:
-    name: Build Pages
+    name: Build and Push to gh-pages
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.push.outputs.changed }}
     steps:
       - uses: actions/checkout@v6
         with:
           submodules: 'true'
+          fetch-depth: 0
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
       - run: |
           pip install -r requirements.txt
           make build
-      - uses: JamesIves/github-pages-deploy-action@v4
-        if: '!startsWith(github.event.head_commit.message, ''[push]'')'
+      - name: Push site to gh-pages
+        id: push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 暂存 site 目录到一个临时位置
+          cp -r site ../site_temp
+          
+          # 切换到 gh-pages 分支，如果不存在则创建
+          if git rev-parse --verify origin/gh-pages >/dev/null 2>&1; then
+            git checkout gh-pages
+          else
+            git checkout --orphan gh-pages
+          fi
+          
+          # 清理当前分支内容（除了 .git）
+          git rm -rf .
+          
+          # 将 site 内容拷回
+          cp -r ../site_temp/* .
+          rm -rf ../site_temp
+          
+          # 检查是否有更改
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "Build: ${{ github.sha }}"
+            git push origin gh-pages
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "No changes to commit"
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    if: needs.build.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+      contents: read
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout gh-pages
+        uses: actions/checkout@v6
         with:
-          folder: site
+          ref: gh-pages
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
