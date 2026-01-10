@@ -3,6 +3,7 @@
         "site_name": "RainPPR's WHK Blog",
         "site_description": "by RainPPR",
         "site_author": "RainPPR",
+        "site_url": "https://raineblog.dpdns.org/whk/",
         "repo_name": "raineblog/whk",
         "repo_url": "https://github.com/raineblog/whk",
         "edit_uri": "edit/main/docs/",

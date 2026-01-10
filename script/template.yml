@@ -18,6 +18,9 @@ theme:
             icon: material/weather-night
             name: 切换到亮色模式
     features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
@@ -39,11 +42,11 @@ theme:
         view: material/eye
 plugins:
 - glightbox
-# -   minify:
-#         minify_html: true
-#         htmlmin_opts:
-#             remove_comments: true
-#         cache_safe: true
+-   minify:
+        minify_html: true
+        htmlmin_opts:
+            remove_comments: true
+        cache_safe: true
 markdown_extensions:
 - abbr
 - admonition
