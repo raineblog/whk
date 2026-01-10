@@ -83,6 +83,9 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: .
+          name: github-pages-new
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-new
