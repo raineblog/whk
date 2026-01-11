@@ -1,14 +1,8 @@
-generate:
-	python script/generate.py
-
 serve:
-	python script/generate.py
-	zensical serve
+	docker run --rm -it --init -p 8000:8000 -v $(CURDIR):/app/workspace -w /app/workspace ghcr.io/raineblog/mkdocs-docker:latest zensical-serve
 
 build:
-	python script/generate.py
-	mkdocs build --strict --clean
-	python -c "import shutil; shutil.copytree('public', 'site', dirs_exist_ok=True)"
+	docker run --rm -v $(CURDIR):/app/workspace -w /app/workspace ghcr.io/raineblog/mkdocs-docker:latest mkdocs-build
 
 pull:
 	git submodule update --remote
