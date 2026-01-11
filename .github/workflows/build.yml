@@ -21,7 +21,7 @@ jobs:
     name: Build & Stage
     runs-on: ubuntu-latest
     outputs:
-      deployed: ${{ steps.check-deployed.outputs.deployed }}
+      pushed: ${{ steps.check-pushed.outputs.pushed }}
     steps:
       - name: Checkout Source Code
         uses: actions/checkout@v6
@@ -39,6 +39,10 @@ jobs:
       - name: Build Static Site
         run: make build
 
+      - name: Get gh-pages SHA before
+        id: before
+        run: echo "sha=$(git ls-remote origin refs/heads/gh-pages | cut -f1)" >> $GITHUB_OUTPUT
+
       - name: Push to gh-pages Branch
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -48,35 +52,27 @@ jobs:
           user_email: "github-actions[bot]@users.noreply.github.com"
           full_commit_message: "Deploying to gh-pages from ${{ github.sha }}"
 
-      - name: Checkout gh-pages for Verification
-        uses: actions/checkout@v6
-        with:
-          ref: gh-pages
-          path: gh-pages
-          sparse-checkout: |
-            sitemap.xml
-            .deployed
-
-      - name: Check Deployment Status
-        id: check-deployed
+      - name: Check if gh-pages updated
+        id: check-pushed
         run: |
-          if [ -f gh-pages/.deployed ]; then
-            echo "deployed=true" >> $GITHUB_OUTPUT
+          NEW_SHA=$(git ls-remote origin refs/heads/gh-pages | cut -f1)
+          if [ "${{ steps.before.outputs.sha }}" != "$NEW_SHA" ]; then
+            echo "pushed=true" >> $GITHUB_OUTPUT
           else
-            echo "deployed=false" >> $GITHUB_OUTPUT
+            echo "pushed=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Upload Sitemap Artifact
         uses: actions/upload-artifact@v4
         with:
           name: sitemap
-          path: gh-pages/sitemap.xml
+          path: ./site/sitemap.xml
 
   deploy:
     name: GitHub Pages Deployment
     runs-on: ubuntu-latest
     needs: [build]
-    if: needs.build.outputs.deployed=='false'
+    if: needs.build.outputs.pushed == 'true' || github.event_name == 'workflow_dispatch'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -97,12 +93,3 @@ jobs:
       - name: Deploy to GitHub Pages environment
         id: deployment
         uses: actions/deploy-pages@v4
-
-      - name: Mark Deployment as Complete
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-          touch .deployed
-          git add .deployed
-          git commit -m "Mark deployment as complete"
-          git push
