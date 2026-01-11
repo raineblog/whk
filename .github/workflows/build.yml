@@ -48,7 +48,9 @@ jobs:
       - name: Checkout Source Code
         uses: actions/checkout@v6
         with:
-          sparse-checkout: info.json
+          sparse-checkout: |
+            info.json
+          sparse-checkout-cone-mode: false
 
       - name: Download Pages Artifact
         uses: actions/download-artifact@v7
