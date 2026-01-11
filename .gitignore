@@ -1,0 +1,58 @@
+# Dependencies
+node_modules
+__pycache__
+venv
+.venv
+.env
+*.pyc
+
+# Build files
+build/
+_build/
+site/
+docs_build/
+
+# Distribution files
+dist
+mkdocs_material.egg-info
+
+# Caches and logs
+*.cpuprofile
+*.log
+*.tsbuildinfo
+.cache
+.eslintcache
+__pycache__
+
+# Examples
+example
+example.zip
+
+# -----------------------------------------------------------------------------
+# General
+# -----------------------------------------------------------------------------
+
+# Never ignore .gitkeep files
+!**/.gitkeep
+
+# macOS internals
+.DS_Store
+
+# Temporary files
+TODO
+tmp
+TBD
+
+# IDEs
+.vscode
+.idea
+*~
+
+# Vendor resources
+/material/assets/vendor
+
+mkdocs.yml
+cache/
+docs/test/
+
+web_cache

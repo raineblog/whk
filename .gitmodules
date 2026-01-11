@@ -1,0 +1,9 @@
+[submodule "docs/intro"]
+	path = docs/intro
+	url = git@github.com:raineblog/intro
+[submodule "material"]
+	path = material
+	url = git@github.com:raineblog/mkdocs-material
+[submodule "docs/assets"]
+	path = docs/assets
+	url = git@github.com:raineblog/assets
