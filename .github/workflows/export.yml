@@ -1,4 +1,4 @@
-name: Export PDF
+name: PDF Documentation Export
 
 on:
   schedule:
@@ -11,21 +11,28 @@ permissions:
   id-token: write
 
 jobs:
-  export:
-    name: Export PDF
+  export_pdf:
+    name: Generate and Publish PDF Documentation
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/rainppr/mkdocs-exporter:latest
+      image: ghcr.io/raineblog/mkdocs-exporter:latest
     steps:
-      - uses: actions/checkout@v6
+      - name: Initialize repository checkout
+        uses: actions/checkout@v6
         with:
           submodules: 'true'
-      - run: |
+
+      - name: Execute PDF generation process
+        run: |
           export MAX_THREADS=2
           mkdocs-export
-      - id: timestamp
+
+      - name: Capture UTC timestamp for versioning
+        id: timestamp
         run: echo "utc_time=$(date -u +'%Y%m%d%H%M')" >> $GITHUB_OUTPUT
-      - uses: softprops/action-gh-release@v2
+
+      - name: Upload PDF to GitHub Release
+        uses: softprops/action-gh-release@v2
         with:
           files: ./build/*.pdf
           tag_name: ${{ steps.timestamp.outputs.utc_time }}
