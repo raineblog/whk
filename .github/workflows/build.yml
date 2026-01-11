@@ -45,6 +45,11 @@ jobs:
     outputs:
       pushed: ${{ steps.check-pushed.outputs.pushed }}
     steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v6
+        with:
+          sparse-checkout: ''
+
       - name: Download Pages Artifact
         uses: actions/download-artifact@v7
         with:
