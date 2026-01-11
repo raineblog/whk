@@ -1,0 +1,31 @@
+name: Bug Report / 学术纠错
+description: 发现笔记中的错别字、科学错误或排版问题
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你帮助改进这份笔记！请尽可能详细地描述错误。
+  - type: checkboxes
+    id: category
+    attributes:
+      label: 错误分类
+      options:
+        - label: 错别字 / 语法错误
+        - label: 科学性/学术错误 (公式推导、事实性错误)
+        - label: 排版问题 (中英文空格、KaTeX 渲染失败)
+        - label: 外部链接失效
+  - type: textarea
+    id: description
+    attributes:
+      label: 详细描述
+      description: 请说明错误所在的具体文件或路径，以及正确的描述应该是怎样的。
+      placeholder: |
+        例如：在 science/mathematics/1.md 中，第 12 行的公式 $\pu{E=mc^2}$ 应该是 ...
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 改进建议 (可选)
+      description: 如果你知道如何修正，请告诉我们。
