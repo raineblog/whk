@@ -81,7 +81,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: sitemap
-          path: ./site/sitemap.xml
+          path: sitemap.xml
 
   deploy:
     name: GitHub Pages Deployment
