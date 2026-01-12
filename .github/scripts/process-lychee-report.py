@@ -116,7 +116,10 @@ def main():
     """主函数"""
     # 默认路径
     report_path = Path(__file__).parent.parent / 'lychee.md'
-    redirect_map_path = Path(__file__).parent / 'redirects.txt'
+    redirect_map_path = Path(__file__).parent.parent / 'redirects.txt'
+
+    print(report_path)
+    print(redirect_map_path)
     
     # 如果提供了命令行参数，使用参数路径
     if len(sys.argv) > 1:
