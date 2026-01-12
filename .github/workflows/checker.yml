@@ -34,13 +34,6 @@ jobs:
           output: .github/lychee.md
           fail: false
 
-      - name: Process link checker report
-        run: python .github/scripts/process-lychee-report.py .github/lychee.md
-        continue-on-error: true
-      - name: Replace redirected links
-        run: python .github/scripts/replace-redirects.py .github/scripts/redirects.txt docs
-        continue-on-error: true
-
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -48,4 +41,4 @@ jobs:
           commit_user_name: "github-actions[bot]"
           commit_user_email: "github-actions[bot]@users.noreply.github.com"
           commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
-          file_pattern: "docs/**/*.md .github/lychee.md .github/scripts/redirects.txt"
+          file_pattern: "docs/**/*.md .github/lychee.md"

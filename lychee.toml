@@ -27,7 +27,7 @@ exclude_path = [
 
 # 其他设置
 verbose = "info"
-no_progress = false
+no_progress = true
 
 # User-Agent 设置（避免某些网站屏蔽爬虫）
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
