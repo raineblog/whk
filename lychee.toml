@@ -5,6 +5,8 @@
 accept = [200, 201, 202, 203, 204, 206, 300, 301, 302, 303, 304, 307, 308, 403, 412, 429]
 
 # 网络设置
+max_retries = 5
+timeout = 10
 max_redirects = 10
 
 # 忽略 SSL 证书验证错误
@@ -27,7 +29,7 @@ exclude_path = [
 
 # 其他设置
 verbose = "info"
-no_progress = true
+no_progress = false
 
 # User-Agent 设置（避免某些网站屏蔽爬虫）
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
