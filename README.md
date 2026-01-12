@@ -25,9 +25,9 @@
 
 ## 🚀 快速访问
 
--   [**在线阅读**](https://raineblog.dpdns.org/whk/)：通过 MkDocs Material 实时渲染，支持公式搜索、暗黑模式，提供最舒适的阅读体验。
+- [**在线阅读**](https://raineblog.dpdns.org/whk/)：通过 MkDocs Material 实时渲染，支持公式搜索、暗黑模式，提供最舒适的阅读体验。
 
--   [**离线 PDF**](https://github.com/raineblog/whk/releases)：由 GitHub Actions 自动构建的最新版 PDF 文档，带目录索引，方便打印与离线查阅。
+- [**离线 PDF**](https://github.com/raineblog/whk/releases)：由 GitHub Actions 自动构建的最新版 PDF 文档，带目录索引，方便打印与离线查阅。
 
 ## 🛠️ 本地开发与构建
 
@@ -44,13 +44,16 @@ cd whk
 
 建议使用 Docker 以保证构建环境的一致性。
 
--   **启动本地实时预览**：
+- **启动本地实时预览**：
+
     ```bash
     make serve
     ```
+
     服务启动后，可以通过浏览器访问 `http://localhost:8000`。
 
--   **构建静态站点**：
+- **构建静态站点**：
+
     ```bash
     make build
     ```
@@ -59,9 +62,9 @@ cd whk
 
 本项目主要由 **RainPPR** 个人维护，目的是记录个人的学习历程与思考。
 
--   **纠错与反馈**：非常欢迎通过 [Issues](https://github.com/raineblog/whk/issues) 提交纠错（如错别字、公式错误、逻辑漏洞等）。
--   **功能请求**：由于个人维护精力有限，目前**不接受**大规模的功能性添加建议或内容扩充请求。
--   **参与贡献**：如果您希望参与维护或修复项目 Bug，请务必先阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 以了解详细的格式规范。
+- **纠错与反馈**：非常欢迎通过 [Issues](https://github.com/raineblog/whk/issues) 提交纠错（如错别字、公式错误、逻辑漏洞等）。
+- **功能请求**：由于个人维护精力有限，目前**不接受**大规模的功能性添加建议或内容扩充请求。
+- **参与贡献**：如果您希望参与维护或修复项目 Bug，请务必先阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 以了解详细的格式规范。
 
 ---
 

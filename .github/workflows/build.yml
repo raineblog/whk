@@ -40,9 +40,3 @@ jobs:
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
           full_commit_message: "Deploying to gh-pages from ${{ github.sha }}"
-
-      - name: Upload Sitemap Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: sitemap
-          path: sitemap.xml

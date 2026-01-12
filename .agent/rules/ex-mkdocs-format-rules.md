@@ -1,6 +1,6 @@
 ---
 trigger: glob
-globs: *.md
+globs: docs/**/*.md
 ---
 
 用户使用的 Markdown 标准和扩展参考下面的 mkdocs 配置文件：

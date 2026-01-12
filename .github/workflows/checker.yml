@@ -1,0 +1,48 @@
+name: Documentation Quality Assurance
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 0 * * 1'
+
+jobs:
+  linkChecker:
+    name: Documentation Health Check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Initialize repository checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Lint documentation content
+        uses: DavidAnson/markdownlint-cli2-action@v22
+        with:
+          globs: |
+            docs/**/*.md
+            README.md
+          fix: true
+          config: .markdownlint.json
+          continue-on-error: true
+
+      - name: Validate hyperlink integrity
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: "docs/**/*.md"
+          output: .github/lychee.md
+          fail: false
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: [bot] automatic documentation quality updates"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          file_pattern: "docs/**/*.md README.md .github/lychee.md"

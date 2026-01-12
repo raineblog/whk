@@ -11,7 +11,7 @@ body:
     attributes:
       label: 错误分类
       options:
-        - label: 错别字 / 语法错误
+        - label: 错别字/语法错误
         - label: 科学性/学术错误 (公式推导、事实性错误)
         - label: 排版问题 (中英文空格、KaTeX 渲染失败)
         - label: 外部链接失效
