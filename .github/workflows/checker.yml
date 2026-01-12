@@ -22,13 +22,13 @@ jobs:
 
       - name: Lint documentation content
         uses: DavidAnson/markdownlint-cli2-action@v22
+        continue-on-error: true
         with:
           globs: |
             docs/**/*.md
             README.md
           fix: true
           config: .markdownlint.json
-          continue-on-error: true
 
       - name: Validate hyperlink integrity
         id: lychee
