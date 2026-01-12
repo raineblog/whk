@@ -33,6 +33,19 @@ jobs:
       - name: Initialize repository checkout
         uses: actions/checkout@v4
 
+      - name: Validate hyperlink integrity
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config lychee.toml docs/**/*.md
+          fail: false
+      - name: Output lychee Job Summary
+        run: |
+          if [ -f ./lychee/out.md ]; then
+            cat ./lychee/out.md >> $GITHUB_STEP_SUMMARY
+          else
+            echo "✅ No broken links found (or report not generated)." >> $GITHUB_STEP_SUMMARY
+          fi
+
       - name: Lint documentation content
         uses: DavidAnson/markdownlint-cli2-action@v22
         continue-on-error: true
@@ -40,15 +53,6 @@ jobs:
           globs: docs/**/*.md
           fix: true
           config: .markdownlint.json
-
-      - name: Validate hyperlink integrity
-        id: lychee
-        uses: lycheeverse/lychee-action@v2
-        with:
-          args: --config lychee.toml docs/**/*.md
-          output: .github/lychee.md
-          fail: false
-
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -56,7 +60,7 @@ jobs:
           commit_user_name: "github-actions[bot]"
           commit_user_email: "github-actions[bot]@users.noreply.github.com"
           commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
-          file_pattern: "docs/**/*.md .github/lychee.md"
+          file_pattern: docs/**/*.md
 
   deploy:
     name: Build and Deploy
