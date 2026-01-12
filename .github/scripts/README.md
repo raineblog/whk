@@ -20,9 +20,10 @@
 **功能：**
 - 清理 `.github/lychee.md` 报告文件，移除以下内容：
     - `[403]` 错误（Forbidden）
+    - `[412]` 错误（Precondition Failed，常见于 B站等网站）
     - `[ERROR]` SSL 证书验证失败
     - `[200]` 已成功跟随的重定向
-- 提取重定向映射并保存到 `redirects.txt`
+- 提取重定向映射并保存到 `redirects.txt`（即使为空也会创建文件）
 
 **运行方式：**
 ```bash
