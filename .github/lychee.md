@@ -2,9 +2,9 @@
 
 | Status         | Count |
 |----------------|-------|
-| 🔍 Total       | 605   |
-| ✅ Successful  | 593   |
-| ⏳ Timeouts    | 1     |
+| 🔍 Total       | 607   |
+| ✅ Successful  | 596   |
+| ⏳ Timeouts    | 0     |
 | 🔀 Redirected  | 2     |
 | 👻 Excluded    | 0     |
 | ❓ Unknown     | 0     |
@@ -12,10 +12,6 @@
 | ⛔ Unsupported | 0     |
 
 ## Errors per input
-
-### Errors in docs/science/electromagnetism/1.md
-
-* [TIMEOUT] <https://www.esda.org/assets/Documents/Fundamentals-Part-1-SimplifiedChinese.pdf> | Timeout
 
 ### Errors in docs/science/function/3.md
 
@@ -56,4 +52,4 @@
 ### Redirects in docs/science/polynomial/3.md
 
 * [200] <https://www.bilibili.com/video/BV1Nf4y1G7xV> | Redirect: Followed 1 redirect resolving to the final status of: OK. Redirects: https://www.bilibili.com/video/BV1Nf4y1G7xV --> https://www.bilibili.com/video/BV1Nf4y1G7xV/
-[Full Github Actions output](https://github.com/raineblog/whk/actions/runs/20907742173?check_suite_focus=true)
+[Full Github Actions output](https://github.com/raineblog/whk/actions/runs/20908074067?check_suite_focus=true)
