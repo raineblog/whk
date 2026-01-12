@@ -6,8 +6,6 @@ accept = [200, 201, 202, 203, 204, 206, 300, 301, 302, 303, 304, 307, 308, 403, 
 
 # 网络设置
 max_redirects = 10
-max_retries = 3
-timeout = 20
 
 # 忽略 SSL 证书验证错误
 insecure = true
@@ -32,7 +30,7 @@ verbose = "info"
 no_progress = false
 
 # User-Agent 设置（避免某些网站屏蔽爬虫）
-user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
 
 # 跟随重定向
 include_verbatim = false

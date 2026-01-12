@@ -134,7 +134,7 @@ def main():
     redirects = load_redirect_mapping(mapping_file)
     
     if not redirects:
-        print("⚠️  没有重定向映射，退出")
+        print("ℹ️  当前没有重定向链接需要替换")
         return
     
     # 确认操作（仅在无参数直接运行时询问）

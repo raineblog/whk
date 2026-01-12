@@ -97,18 +97,19 @@ def save_cleaned_report(report_path: Path, cleaned_lines: List[str]) -> None:
 
 
 def save_redirect_mapping(output_path: Path, redirects: Dict[str, str]) -> None:
-    """保存重定向映射到文件"""
-    if not redirects:
-        print("ℹ️  没有检测到重定向，跳过映射文件生成")
-        return
-    
+    """保存重定向映射到文件（即使为空也创建文件）"""
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write("# 链接重定向映射\n")
-        f.write("# 格式: 原始URL --> 最终URL\n\n")
-        for original, final in redirects.items():
-            f.write(f"{original} --> {final}\n")
-    
-    print(f"💾 已保存重定向映射: {output_path}")
+        f.write("# 格式: 原始URL --> 最终URL\n")
+        f.write("# 此文件由自动化脚本生成，用于跟踪检测到的重定向链接\n\n")
+        
+        if redirects:
+            for original, final in redirects.items():
+                f.write(f"{original} --> {final}\n")
+            print(f"💾 已保存 {len(redirects)} 个重定向映射: {output_path}")
+        else:
+            f.write("# 当前没有检测到重定向链接\n")
+            print(f"💾 已创建空的重定向映射文件: {output_path}")
 
 
 def main():
