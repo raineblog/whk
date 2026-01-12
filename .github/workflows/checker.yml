@@ -24,9 +24,7 @@ jobs:
         uses: DavidAnson/markdownlint-cli2-action@v22
         continue-on-error: true
         with:
-          globs: |
-            docs/**/*.md
-            README.md
+          globs: docs/**/*.md
           fix: true
           config: .markdownlint.json
 
@@ -34,7 +32,7 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          args: "docs/**/*.md"
+          args: docs/**/*.md
           output: .github/lychee.md
           fail: false
 
