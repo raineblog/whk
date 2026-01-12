@@ -32,9 +32,16 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          args: docs/**/*.md
+          args: --config lychee.toml docs/**/*.md
           output: .github/lychee.md
           fail: false
+
+      - name: Process link checker report
+        run: python .github/scripts/process-lychee-report.py .github/lychee.md
+        continue-on-error: true
+      - name: Replace redirected links
+        run: python .github/scripts/replace-redirects.py .github/scripts/redirects.txt docs
+        continue-on-error: true
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -43,4 +50,4 @@ jobs:
           commit_user_name: "github-actions[bot]"
           commit_user_email: "github-actions[bot]@users.noreply.github.com"
           commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
-          file_pattern: "docs/**/*.md README.md .github/lychee.md"
+          file_pattern: "docs/**/*.md github/lychee.md .github/scripts/redirects.txt"

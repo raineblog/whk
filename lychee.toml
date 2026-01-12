@@ -1,0 +1,38 @@
+# Lychee 链接检查器配置文件
+
+# 接受的 HTTP 状态码
+# 包含 403 以忽略 Forbidden 错误
+accept = [200, 201, 202, 203, 204, 206, 300, 301, 302, 303, 304, 307, 308, 403, 429]
+
+# 网络设置
+max_redirects = 10
+max_retries = 3
+timeout = 20
+
+# 忽略 SSL 证书验证错误
+insecure = true
+
+# 排除的链接模式
+exclude = [
+    # 本地链接
+    "^file://",
+    # 邮箱链接
+    "^mailto:",
+]
+
+# 排除文件
+exclude_path = [
+    ".git",
+    "node_modules",
+    "vendor",
+]
+
+# 其他设置
+verbose = "info"
+no_progress = false
+
+# User-Agent 设置（避免某些网站屏蔽爬虫）
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+# 跟随重定向
+include_verbatim = false

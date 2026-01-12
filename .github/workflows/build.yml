@@ -1,4 +1,4 @@
-name: Static Site Build & Deploy
+name: Static Site Deploy
 
 on:
   push:
@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   build:
-    name: Build & Stage
+    name: Build
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/raineblog/mkdocs-docker:latest
