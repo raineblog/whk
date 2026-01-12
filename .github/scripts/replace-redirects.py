@@ -137,13 +137,15 @@ def main():
         print("⚠️  没有重定向映射，退出")
         return
     
-    # 确认操作
-    print("\n⚠️  警告：此操作将直接修改 Markdown 文件！")
+    # 确认操作（仅在无参数直接运行时询问）
     if len(sys.argv) <= 1:  # 交互模式
+        print("\n⚠️  警告：此操作将直接修改 Markdown 文件！")
         response = input("是否继续？[y/N]: ")
         if response.lower() != 'y':
             print("❌ 操作已取消")
             return
+    else:
+        print("\n🤖 非交互模式，自动执行替换...")
     
     # 处理文件
     process_markdown_files(docs_dir, redirects)

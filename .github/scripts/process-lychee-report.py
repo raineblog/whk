@@ -30,11 +30,16 @@ def should_remove_line(line: str) -> bool:
     判断是否应该从报告中删除此行
     删除条件：
     1. 403 错误
-    2. SSL 证书验证失败错误
-    3. 200 状态的重定向（已经跟随成功）
+    2. 412 错误（Precondition Failed，常见于 B站等网站）
+    3. SSL 证书验证失败错误
+    4. 200 状态的重定向（已经跟随成功）
     """
     # 403 错误
     if '[403]' in line and 'Forbidden' in line:
+        return True
+    
+    # 412 错误
+    if '[412]' in line and 'Precondition Failed' in line:
         return True
     
     # SSL 证书错误
