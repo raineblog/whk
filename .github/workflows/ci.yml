@@ -1,0 +1,84 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+  schedule:
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  packages: read
+  id-token: write
+
+jobs:
+  quality-check:
+    name: Quality Assurance
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Initialize repository checkout
+        uses: actions/checkout@v4
+
+      - name: Lint documentation content
+        uses: DavidAnson/markdownlint-cli2-action@v22
+        continue-on-error: true
+        with:
+          globs: docs/**/*.md
+          fix: true
+          config: .markdownlint.json
+
+      - name: Validate hyperlink integrity
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config lychee.toml docs/**/*.md
+          output: .github/lychee.md
+          fail: false
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: [bot] automatic documentation quality updates"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          file_pattern: "docs/**/*.md .github/lychee.md"
+
+  deploy:
+    name: Build and Deploy
+    needs: quality-check
+    if: (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/raineblog/mkdocs-docker:latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v6
+        with:
+          submodules: "true"
+
+      - name: Build Static Site
+        run: mkdocs-build
+      
+      - name: Push to gh-pages Branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+          full_commit_message: "Deploying to gh-pages from ${{ github.sha }}"
