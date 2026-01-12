@@ -1,6 +1,6 @@
 # 网络设置
-max_retries = 5
-timeout = 20
+max_retries = 2
+timeout = 0.5
 max_redirects = 10
 
 # 忽略 SSL 证书验证错误
