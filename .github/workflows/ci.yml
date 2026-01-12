@@ -27,8 +27,6 @@ jobs:
   quality-check:
     name: Quality Assurance
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Initialize repository checkout
         uses: actions/checkout@v6
@@ -41,7 +39,6 @@ jobs:
 
   deploy:
     name: Build and Deploy
-    needs: quality-check
     if: (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
     runs-on: ubuntu-latest
     container:
@@ -54,12 +51,8 @@ jobs:
       - name: Configure Git safe directory
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
-      - name: Build Static Site
-        run: mkdocs-build
-
       - name: Lint documentation content
         run: mkdocs-lint
-
       - name: Output lint Job Summary
         run: |
           if [ -f ./lint.log ]; then
@@ -68,14 +61,8 @@ jobs:
             echo "✅ No broken links found (or report not generated)." >> $GITHUB_STEP_SUMMARY
           fi
 
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: [bot] automatic documentation quality updates"
-          commit_user_name: "github-actions[bot]"
-          commit_user_email: "github-actions[bot]@users.noreply.github.com"
-          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
-          file_pattern: docs/**/*.md
+      - name: Build Static Site
+        run: mkdocs-build
 
       - name: Push to gh-pages Branch
         uses: peaceiris/actions-gh-pages@v4
@@ -85,3 +72,12 @@ jobs:
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
           full_commit_message: "Deploying to gh-pages from ${{ github.sha }}"
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: [bot] automatic documentation quality updates"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          file_pattern: docs/**/*.md
