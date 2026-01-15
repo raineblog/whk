@@ -74,7 +74,7 @@ jobs:
           full_commit_message: "Deploying to gh-pages from ${{ github.sha }}"
 
       - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: [bot] automatic documentation quality updates"
           commit_user_name: "github-actions[bot]"
