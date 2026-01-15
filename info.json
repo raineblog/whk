@@ -233,7 +233,6 @@
                 },
                 {
                     "生化实验与应用": [
-                        "science/experiment/tech.md",
                         "science/experiment/experiment.md",
                         "science/experiment/instrument.md",
                         "science/experiment/life.md",

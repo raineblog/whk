@@ -56,3 +56,4 @@ cache/
 docs/test/
 
 web_cache
+/.shared
