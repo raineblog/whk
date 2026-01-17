@@ -12,6 +12,12 @@ on:
   schedule:
     - cron: '0 0 * * 1'
   workflow_dispatch:
+    inputs:
+      clear_cache:
+        description: 'Ignore and delete all cache records'
+        required: false
+        type: boolean
+        default: false
 
 concurrency:
   group: "pages"
@@ -22,6 +28,7 @@ permissions:
   pages: write
   packages: read
   id-token: write
+  actions: write
 
 jobs:
   quality-check:
@@ -49,21 +56,46 @@ jobs:
         with:
           submodules: "true"
           fetch-depth: 0
+          fetch-tags: false
+
+      - name: Clear Caches
+        if: github.event.inputs.clear_cache == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const caches = await github.rest.actions.getActionsCacheList({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+            })
+            for (const cache of caches.data.actions_caches) {
+              console.log(`Deleting cache ${cache.key}...`)
+              await github.rest.actions.deleteActionsCacheById({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                cache_id: cache.id,
+              })
+            }
+
+      - name: Restore Cache
+        if: github.event.inputs.clear_cache != 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache
+          key: mkdocs-cache
+          restore-keys: |
+            mkdocs-cache
+
       - name: Configure Git safe directory
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
-      - name: Lint documentation content
-        run: mkdocs-lint
-      - name: Output lint Job Summary
-        run: |
-          if [ -f ./lint.log ]; then
-            cat ./lint.log >> $GITHUB_STEP_SUMMARY
-          else
-            echo "✅ No broken links found (or report not generated)." >> $GITHUB_STEP_SUMMARY
-          fi
-
       - name: Build Static Site
         run: mkdocs-build
+
+      - name: Save Cache
+        uses: actions/cache/save@v4
+        with:
+          path: .cache
+          key: mkdocs-cache
 
       - name: Push to gh-pages Branch
         uses: peaceiris/actions-gh-pages@v4
@@ -82,3 +114,11 @@ jobs:
           commit_user_email: "github-actions[bot]@users.noreply.github.com"
           commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
           file_pattern: docs/**/*.md
+
+      - name: Output lint Job Summary
+        run: |
+          if [ -f ./lint.log ]; then
+            cat ./lint.log >> $GITHUB_STEP_SUMMARY
+          else
+            echo "✅ No broken links found (or report not generated)." >> $GITHUB_STEP_SUMMARY
+          fi
