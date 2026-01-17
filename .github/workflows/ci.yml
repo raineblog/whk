@@ -42,7 +42,7 @@ jobs:
       - name: Validate hyperlink integrity
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --base . --config .github/lychee.toml docs/**/*.md
+          args: --config .github/lychee.toml ./docs/**/*.md
           fail: false
 
   deploy:
