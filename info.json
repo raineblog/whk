@@ -42,6 +42,13 @@
             }
         ]
     },
+    "front": [
+        "index.md",
+        "discussion.md",
+        "usage.md",
+        "format.md",
+        "madoka.md"
+    ],
     "nav": [
         {
             "title": "高中理科",
