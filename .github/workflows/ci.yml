@@ -13,11 +13,11 @@ on:
     - cron: '0 0 * * 1'
   workflow_dispatch:
     inputs:
-      clear_cache:
-        description: 'Ignore and delete all cache records'
+      use_cache:
+        description: 'Use cache'
         required: false
         type: boolean
-        default: false
+        default: true
 
 concurrency:
   group: "pages"
@@ -38,12 +38,15 @@ jobs:
     steps:
       - name: Initialize repository checkout
         uses: actions/checkout@v6
+        with:
+          submodules: true
 
       - name: Validate hyperlink integrity
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --config .github/lychee.toml docs/**/*.md
+          args: --config .github/lychee.toml docs
           fail: false
+          failIfEmpty: false
 
   deploy:
     name: Build and Deploy
@@ -60,41 +63,24 @@ jobs:
           fetch-tags: false
       - run: git config --global --add safe.directory "/__w/whk/whk"
 
-      - name: Clear Caches
-        if: github.event.inputs.clear_cache == 'true'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const caches = await github.rest.actions.getActionsCacheList({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-            })
-            for (const cache of caches.data.actions_caches) {
-              console.log(`Deleting cache ${cache.key}...`)
-              await github.rest.actions.deleteActionsCacheById({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                cache_id: cache.id,
-              })
-            }
-
       - name: Restore Cache
-        if: github.event.inputs.clear_cache != 'true'
+        if: github.event.inputs.use_cache == 'true'
         uses: actions/cache/restore@v4
         with:
           path: .cache
-          key: mkdocs-cache
+          key: mkdocs-cache-${{ github.run_id }}
           restore-keys: |
-            mkdocs-cache
+            mkdocs-cache-
 
       - name: Build Static Site
         run: mkdocs-build
 
       - name: Save Cache
+        if: github.event.inputs.use_cache == 'true'
         uses: actions/cache/save@v4
         with:
           path: .cache
-          key: mkdocs-cache
+          key: mkdocs-cache-${{ github.run_id }}
 
       - name: Push to gh-pages Branch
         uses: peaceiris/actions-gh-pages@v4
