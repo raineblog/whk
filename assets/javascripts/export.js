@@ -1,4 +1,5 @@
 const exportParam = new URLSearchParams(location.search).get('export')?.toLowerCase();
+
 if (exportParam === 'true') {
     document$.subscribe(({ body }) => {
         console.log("export");

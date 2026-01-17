@@ -1,0 +1,105 @@
+:root {
+    --md-code-font: fira-code, sans-serif;
+    --md-text-font: source-serif-4, source-han-serif-sc, serif;
+}
+
+.recently-updated {
+    font-family: var(--md-text-font) !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.glightbox img, img {
+    display: block;
+    margin: auto;
+}
+
+.katex-display {
+    margin-top: -1.5em !important;
+    margin-bottom: -1.5em !important;
+}
+
+.md-typeset div.arithmatex {
+    overflow: hidden !important;
+}
+
+.md-header__topic:first-child {
+    font-weight: initial !important;
+}
+
+details .linenos,
+details code,
+.admonition code {
+    font-size: inherit !important;
+}
+
+.md-typeset__table {
+    display: block !important;
+}
+
+.md-typeset table:not(.highlighttable) {
+    display: table !important;
+}
+
+.md-typeset table:not([class]) th {
+    min-width: 0rem;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #2e303e;
+    --md-accent-fg-color: #00bda4;
+    --md-typeset-a-color: #526cfe;
+}
+
+[data-md-color-scheme="slate"] .md-typeset img {
+    background: white;
+    filter: brightness(0.9);
+}
+
+[data-md-color-scheme="slate"] .md-typeset img[src$=".svg"] {
+    border: 4px solid white;
+}
+
+a:hover {
+    filter: invert(0.2);
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+@media print {
+    .not-printable {
+        display: none !important;
+    }
+
+    code, pre {
+        white-space: pre-wrap;
+        overflow: hidden;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .md-typeset .grid {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    a {
+        text-decoration: underline !important;
+    }
+}
+
+no-wrap, .no-wrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+}
+
+.md-typeset .Box-body {
+    overflow: hidden !important;
+}
