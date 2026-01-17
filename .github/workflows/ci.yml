@@ -63,24 +63,15 @@ jobs:
           fetch-tags: false
       - run: git config --global --add safe.directory "/__w/whk/whk"
 
-      - name: Restore Cache
+      - name: Cache
         if: github.event.inputs.use_cache == 'true'
-        uses: actions/cache/restore@v4
+        uses: actions/cache@v5
         with:
           path: .cache
-          key: mkdocs-cache-${{ github.run_id }}
-          restore-keys: |
-            mkdocs-cache-
+          key: ${{ runner.os }}-mkdocs
 
       - name: Build Static Site
         run: mkdocs-build
-
-      - name: Save Cache
-        if: github.event.inputs.use_cache == 'true'
-        uses: actions/cache/save@v4
-        with:
-          path: .cache
-          key: mkdocs-cache-${{ github.run_id }}
 
       - name: Push to gh-pages Branch
         uses: peaceiris/actions-gh-pages@v4
