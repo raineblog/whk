@@ -1,5 +1,5 @@
 
-.PHONY: serve build lint pull
+.PHONY: serve build lint pull sub-update sub-sync
 
 IMAGE := ghcr.io/raineblog/mkdocs-docker:latest
 
@@ -20,3 +20,10 @@ lint:
 
 pull:
 	docker pull $(IMAGE)
+
+sub-update:
+	git submodule update --remote --init --recursive
+
+sub-sync:
+	git submodule sync --recursive
+	git submodule update --init --recursive

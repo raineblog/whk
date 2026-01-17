@@ -42,7 +42,7 @@ jobs:
       - name: Validate hyperlink integrity
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --config lychee.toml docs/**/*.md
+          args: --config ./github/lychee.toml docs/**/*.md
           fail: false
 
   deploy:
@@ -58,7 +58,6 @@ jobs:
           submodules: "true"
           fetch-depth: 0
           fetch-tags: false
-      - run: git config --global --add safe.directory "/__w/whk/whk"
 
       - name: Clear Caches
         if: github.event.inputs.clear_cache == 'true'
