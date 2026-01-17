@@ -8,4 +8,3 @@ extra_javascript:
 extra_css:
 - assets/custom.css
 - assets/katex/katex-swap.min.css
-- assets/fonts.mkdocs.css
