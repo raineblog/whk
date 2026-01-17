@@ -42,7 +42,7 @@ jobs:
       - name: Validate hyperlink integrity
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --config .github/lychee.toml ./docs/**/*.md
+          args: --config lychee.toml docs/**/*.md
           fail: false
 
   deploy:
@@ -87,7 +87,6 @@ jobs:
           restore-keys: |
             mkdocs-cache
 
-      - run: tree
       - name: Build Static Site
         run: mkdocs-build
 
