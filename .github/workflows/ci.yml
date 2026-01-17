@@ -33,6 +33,7 @@ permissions:
 jobs:
   quality-check:
     name: Quality Assurance
+    if: github.event_name != 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - name: Initialize repository checkout
@@ -84,9 +85,6 @@ jobs:
           key: mkdocs-cache
           restore-keys: |
             mkdocs-cache
-
-      - name: Configure Git safe directory
-        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
       - name: Build Static Site
         run: mkdocs-build
