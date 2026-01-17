@@ -1,6 +1,3 @@
-
-.PHONY: serve build lint pull sub-update sub-sync
-
 IMAGE := ghcr.io/raineblog/mkdocs-docker:latest
 
 serve:
