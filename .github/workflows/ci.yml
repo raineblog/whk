@@ -86,6 +86,7 @@ jobs:
           restore-keys: |
             mkdocs-cache
 
+      - run: tree
       - name: Build Static Site
         run: mkdocs-build
 
