@@ -1,8 +1,8 @@
 # RainPPR's WHK Blog
 
 <p align="center">
-  <a href="https://github.com/raineblog/whk/actions/workflows/build.yml">
-    <img src="https://github.com/raineblog/whk/actions/workflows/build.yml/badge.svg" alt="Build and Deploy">
+  <a href="https://github.com/raineblog/whk/actions/workflows/ci.yml">
+    <img src="https://github.com/raineblog/whk/actions/workflows/ci.yml/badge.svg" alt="Build and Deploy">
   </a>
   <a href="https://github.com/raineblog/whk/actions/workflows/export.yml">
     <img src="https://github.com/raineblog/whk/actions/workflows/export.yml/badge.svg" alt="Export to PDF">
