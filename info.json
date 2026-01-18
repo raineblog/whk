@@ -23,14 +23,6 @@
                 }
             }
         ],
-        "fonts": [
-            {
-                "provider": "adobe",
-                "config": {
-                    "code": "rur1fuq"
-                }
-            }
-        ],
         "social": [
             {
                 "icon": "fontawesome/brands/github",
