@@ -1,8 +1,3 @@
----
-created: 2025-01-01T00:00:00+00:00
-updated: 2025-01-01T00:00:00+00:00
----
-
 # 格式手册
 
 请参考 [OI Wiki 格式手册](https://oi-wiki.org/intro/format/)。

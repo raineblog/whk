@@ -23,6 +23,7 @@
                 }
             }
         ],
+        "mastodon": "rainppr",
         "social": [
             {
                 "icon": "fontawesome/brands/github",
@@ -31,6 +32,10 @@
             {
                 "icon": "fontawesome/brands/x-twitter",
                 "link": "https://x.com/rainppr2008"
+            },
+            {
+                "icon": "fontawesome/brands/mastodon",
+                "link": "https://mastodon.social/@rainppr"
             }
         ]
     },

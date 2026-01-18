@@ -70,15 +70,6 @@ jobs:
       - name: Build Static Site
         run: mkdocs-build
 
-      - name: Push to gh-pages Branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
-          user_name: "github-actions[bot]"
-          user_email: "github-actions[bot]@users.noreply.github.com"
-          full_commit_message: "Deploying to gh-pages from ${{ github.sha }}"
-
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
@@ -95,3 +86,21 @@ jobs:
           else
             echo "✅ No broken links found (or report not generated)." >> $GITHUB_STEP_SUMMARY
           fi
+
+      - name: Push to gh-pages Branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+          full_commit_message: "Deploying to gh-pages from ${{ github.sha }}"
+
+      - name: SEO Push
+        env:
+          SITE_HOST: "raineblog.dpdns.org"
+          SITE_BASE: "https://raineblog.dpdns.org"
+          SITE_NAME: "RainPPR's WHK Wiki"
+          SITE_PROJECT: "whk"
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+        run: mkdocs-seo
