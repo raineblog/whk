@@ -1,7 +1,7 @@
 IMAGE := ghcr.io/raineblog/mkdocs-docker:latest
 
 serve:
-	docker run --rm -it --init -p 8000:8000 \
+	docker run --rm -it -p 8000:8000 \
 		-v $(CURDIR):/app/workspace -w /app/workspace \
 		$(IMAGE) mkdocs-serve
 
