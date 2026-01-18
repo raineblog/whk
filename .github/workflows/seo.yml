@@ -1,16 +1,8 @@
-name: CI/CD Pipeline
+name: SEO Pusher
 
 on:
-  push:
-    branches:
-      - main
-      - master
-  pull_request:
-    branches:
-      - main
-      - master
   schedule:
-    - cron: '0 0 * * 1'
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 concurrency:
@@ -27,7 +19,7 @@ permissions:
 jobs:
   quality-check:
     name: Quality Assurance
-    if: github.event_name == 'schedule'
+    if: github.event_name != 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - name: Initialize repository checkout
@@ -44,15 +36,7 @@ jobs:
 
   deploy:
     name: Build and Deploy
-    if: |
-      (github.event_name == 'push' || github.event_name == 'workflow_dispatch') &&
-      (github.event_name != 'push' || (
-        !contains(github.event.head_commit.message, '[skip ci]') &&
-        !contains(github.event.head_commit.message, '[ci skip]') &&
-        !contains(github.event.head_commit.message, '[no ci]') &&
-        !contains(github.event.head_commit.message, 'skip-ci') &&
-        !contains(github.event.head_commit.message, 'ci-skip')
-      ))
+    if: (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/raineblog/mkdocs-docker:latest
