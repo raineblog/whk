@@ -1,5 +1,6 @@
 const scriptSrc = document.currentScript ? document.currentScript.src : "";
-const katexBase = scriptSrc.substring(0, scriptSrc.lastIndexOf("/") + 1);
+const primaryBase = "https://cdn.jsdelivr.net/npm/katex@latest/dist/";
+const fallbackBase = "https://unpkg.com/katex@latest/dist/";
 
 const loadKaTeX = () => {
     if (window.__katexLoaded) return Promise.resolve();
@@ -9,15 +10,19 @@ const loadKaTeX = () => {
         // Load CSS
         const link = document.createElement("link");
         link.rel = "stylesheet";
-        link.href = katexBase + "katex/katex.min.css";
+        link.href = primaryBase + "katex.min.css";
+        link.onerror = () => {
+            console.warn("Failed to load KaTeX CSS from jsDelivr, trying unpkg...");
+            link.href = fallbackBase + "katex.min.css";
+        };
         document.head.appendChild(link);
 
         // Load Scripts sequentially
         const scripts = [
-            "katex/katex.min.js",
-            "katex/contrib/mhchem.min.js",
-            "katex/contrib/auto-render.min.js",
-            "katex/contrib/copy-tex.min.js"
+            "katex.min.js",
+            "contrib/mhchem.min.js",
+            "contrib/auto-render.min.js",
+            "contrib/copy-tex.min.js"
         ];
 
         const loadNext = (i) => {
@@ -27,11 +32,17 @@ const loadKaTeX = () => {
                 return;
             }
             const script = document.createElement("script");
-            script.src = katexBase + scripts[i];
+            script.src = primaryBase + scripts[i];
             script.onload = () => loadNext(i + 1);
             script.onerror = (e) => {
-                console.error("Failed to load KaTeX asset:", scripts[i], e);
-                reject(e);
+                if (script.getAttribute('data-fallback') !== 'true') {
+                    console.warn(`Failed to load ${scripts[i]} from jsDelivr, trying unpkg...`);
+                    script.setAttribute('data-fallback', 'true');
+                    script.src = fallbackBase + scripts[i];
+                } else {
+                    console.error(`Failed to load KaTeX asset ${scripts[i]} from both CDNs:`, e);
+                    reject(e);
+                }
             };
             document.head.appendChild(script);
         };
