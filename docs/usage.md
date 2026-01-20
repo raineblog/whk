@@ -10,10 +10,10 @@ RainPPR's Blog 由两个姊妹项目构成：
 
 关注作者：
 
-+ 洛谷账号：[RainPPR (uid: 371511)](https://www.luogu.com.cn/user/371511)。
+- 洛谷账号：[RainPPR (uid: 371511)](https://www.luogu.com.cn/user/371511)。
 
-+ 博客园：[RainPPR](https://www.cnblogs.com/RainPPR)。
+- 博客园：[RainPPR](https://www.cnblogs.com/RainPPR)。
 
-+ Github：[RainPPR](https://github.com/RainPPR)。
+- Github：[RainPPR](https://github.com/RainPPR)。
 
-+ X (Twitter)：[RainPPR @rainppr2008](https://x.com/rainppr2008)。
+- X (Twitter)：[RainPPR @rainppr2008](https://x.com/rainppr2008)。
