@@ -8,12 +8,12 @@
         "edit_uri": "edit/main/docs/",
         "copyright": "by RainPPR"
     },
+    "theme": {
+        "logo": "logo.svg",
+        "favicon": "favicon.svg"
+    },
     "social": {
         "site_url": "https://raineblog.dpdns.org/whk/",
-        "theme": {
-            "logo": "logo.svg",
-            "favicon": "favicon.svg"
-        },
         "extra": {
             "giscus": {
                 "data_repo": "raineblog/giscus",
