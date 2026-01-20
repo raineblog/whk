@@ -6,22 +6,22 @@
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>https://raineblog.dpdns.org/whk/discussion/</loc>
-        <lastmod>2026-01-18</lastmod>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>https://raineblog.dpdns.org/whk/format/</loc>
-        <lastmod>2026-01-18</lastmod>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>https://raineblog.dpdns.org/whk/madoka/</loc>
+        <loc>https://raineblog.dpdns.org/whk/intro/discussion/</loc>
         <lastmod>2026-01-20</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>https://raineblog.dpdns.org/whk/usage/</loc>
+        <loc>https://raineblog.dpdns.org/whk/intro/format/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://raineblog.dpdns.org/whk/intro/madoka/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://raineblog.dpdns.org/whk/intro/usage/</loc>
         <lastmod>2026-01-20</lastmod>
         <changefreq>daily</changefreq>
     </url>
