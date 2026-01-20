@@ -3,50 +3,59 @@
         "site_name": "RainPPR's WHK Blog",
         "site_description": "RainPPR 的文化课博客，主要是理科，尤其是数学、物理、化学、生物等高中学科的知识及题型等笔记。",
         "site_author": "RainPPR",
-        "site_url": "https://raineblog.dpdns.org/whk/",
         "repo_name": "raineblog/whk",
         "repo_url": "https://github.com/raineblog/whk",
         "edit_uri": "edit/main/docs/",
         "copyright": "by RainPPR"
     },
-    "extra": {
-        "giscus": {
-            "data_repo": "raineblog/giscus",
-            "data_repo_id": "R_kgDOMhpKmw",
-            "data_category_id": "DIC_kwDOMhpKm84ChhZ7"
+    "social": {
+        "site_url": "https://raineblog.dpdns.org/whk/",
+        "theme": {
+            "logo": "logo.svg",
+            "favicon": "favicon.svg"
         },
-        "analytics": [
-            {
-                "provider": "gtm",
-                "config": {
-                    "code": "GTM-NNRJ8F2J"
+        "extra": {
+            "giscus": {
+                "data_repo": "raineblog/giscus",
+                "data_repo_id": "R_kgDOMhpKmw",
+                "data_category_id": "DIC_kwDOMhpKm84ChhZ7"
+            },
+            "analytics": [
+                {
+                    "provider": "gtm",
+                    "config": {
+                        "code": "GTM-NNRJ8F2J"
+                    }
                 }
-            }
-        ],
-        "mastodon": "rainppr",
-        "social": [
-            {
-                "icon": "fontawesome/brands/github",
-                "link": "https://github.com/RainPPR"
-            },
-            {
-                "icon": "fontawesome/brands/x-twitter",
-                "link": "https://x.com/rainppr2008"
-            },
-            {
-                "icon": "fontawesome/brands/mastodon",
-                "link": "https://mastodon.social/@rainppr"
-            }
-        ]
+            ],
+            "mastodon": "rainppr",
+            "social": [
+                {
+                    "icon": "fontawesome/brands/github",
+                    "link": "https://github.com/RainPPR"
+                },
+                {
+                    "icon": "fontawesome/brands/x-twitter",
+                    "link": "https://x.com/rainppr2008"
+                },
+                {
+                    "icon": "fontawesome/brands/mastodon",
+                    "link": "https://mastodon.social/@rainppr"
+                }
+            ]
+        }
     },
-    "front": [
-        "index.md",
-        "discussion.md",
-        "usage.md",
-        "format.md",
-        "madoka.md"
-    ],
     "nav": [
+        {
+            "title": "简介",
+            "children": [
+                "index.md",
+                "intro/discussion.md",
+                "intro/usage.md",
+                "intro/format.md",
+                "intro/madoka.md"
+            ]
+        },
         {
             "title": "高中理科",
             "export": {
