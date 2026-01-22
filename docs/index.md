@@ -2,11 +2,7 @@
 
 ## 这里是 **RainPPR's WHK Blog**！
 
-这个是 WHK 博客，是目前作者比较活跃的百科性质博客。本项目受 [CTF Wiki](https://ctf-wiki.org/)、[OI Wiki](https://oi-wiki.org/) 的启发。
-
-<!-- RECENTLY_UPDATED_DOCS -->
-
-在本项目的编写过程中，作者进行了很多创造性（造轮子性）的改造，尤其是对于高中知识体系框架的构建。
+这个是 WHK 博客，是目前作者比较活跃的百科性质博客。本项目受 [CTF Wiki](https://ctf-wiki.org/)、[OI Wiki](https://oi-wiki.org/) 的启发。在本项目的编写过程中，作者进行了很多创造性（造轮子性）的改造，尤其是对于高中知识体系框架的构建。
 
 在编写过程中参考了诸多资料，主要内容来自于教材、书籍、网课、培训机构（山东青岛地区）等，部分资料来源于一些网站，已经放在下面的 Reference 部分，在此一并致谢！
 
@@ -54,7 +50,7 @@
     border-radius: 18px;
     text-decoration: none !important;
     color: inherit !important;
-    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -67,10 +63,32 @@
     border-color: rgba(255, 255, 255, 0.08);
   }
 
+  /* Shine Scan Animation */
+  .bib-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(
+      to right,
+      transparent,
+      rgba(255, 255, 255, 0.2),
+      transparent
+    );
+    transform: skewX(-25deg);
+    transition: 0.8s;
+  }
+
   .bib-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
-    border-color: rgba(59, 130, 246, 0.3);
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
+    border-color: rgba(59, 130, 246, 0.4);
+  }
+
+  .bib-card:hover::after {
+    left: 150%;
   }
 
   /* Academic Background Index */
@@ -83,16 +101,22 @@
     font-family: var(--md-code-font-family, monospace);
     opacity: 0.03;
     pointer-events: none;
-    transition: opacity 0.5s ease;
+    transition: all 0.6s ease;
   }
 
   .bib-card:hover .bib-card-index {
-    opacity: 0.08;
+    opacity: 0.1;
+    transform: rotate(-10deg) scale(1.1);
   }
 
   /* Card Content */
   .bib-card-main {
     margin-bottom: 20px;
+    transition: transform 0.6s ease;
+  }
+
+  .bib-card:hover .bib-card-main {
+    transform: translateX(4px);
   }
 
   .bib-card-author {
@@ -126,10 +150,15 @@
     padding-top: 16px;
     border-top: 1px solid rgba(0,0,0,0.03);
     font-size: 0.75rem;
+    transition: all 0.6s ease;
   }
 
   [data-md-color-scheme="slate"] .bib-card-meta {
     border-top-color: rgba(255,255,255,0.05);
+  }
+
+  .bib-card:hover .bib-card-meta {
+    border-top-color: rgba(59, 130, 246, 0.2);
   }
 
   .bib-meta-item {
@@ -152,10 +181,16 @@
   }
 
   /* Healing Color Accents */
-  .accent-blue { border-top: 4px solid #93c5fd; }
-  .accent-green { border-top: 4px solid #a7f3d0; }
-  .accent-red { border-top: 4px solid #fca5a5; }
-  .accent-purple { border-top: 4px solid #ddd6fe; }
+  .bib-card { border-top: 4px solid transparent; transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); }
+  .accent-blue { border-top-color: #bfdbfe; }
+  .accent-green { border-top-color: #bbf7d0; }
+  .accent-red { border-top-color: #fecaca; }
+  .accent-purple { border-top-color: #e9d5ff; }
+
+  .bib-card.accent-blue:hover { border-top-color: #3b82f6; border-top-width: 6px; }
+  .bib-card.accent-green:hover { border-top-color: #10b981; border-top-width: 6px; }
+  .bib-card.accent-red:hover { border-top-color: #ef4444; border-top-width: 6px; }
+  .bib-card.accent-purple:hover { border-top-color: #8b5cf6; border-top-width: 6px; }
   </style>
 
   <div class="bib-grid">
@@ -235,4 +270,8 @@
       </div>
     </a>
   </div>
+
+  <h3 class="bib-header-title">Recently Updated Docs</h3>
+
+  <!-- RECENTLY_UPDATED_DOCS -->
 </div>
