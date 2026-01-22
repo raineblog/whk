@@ -1,8 +1,3 @@
----
-date: 2024-01-01 00:00:00
-update: 2025-01-01 00:00:00
----
-
 # 魔法少女小圆
 
 <div class="grid cards" markdown>

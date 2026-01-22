@@ -1,13 +1,8 @@
----
-date: 2024-01-01 00:00:00
-update: 2025-01-01 00:00:00
----
-
 # 如何使用
 
 ## 简介
 
-RainPPR's Blog 由两个姊妹项目构成：
+RainPPR's Blog 由两个项目构成：
 
 - 这里正在更新。
 
@@ -15,10 +10,14 @@ RainPPR's Blog 由两个姊妹项目构成：
 
 关注作者：
 
-- 洛谷账号：[RainPPR (uid: 371511)](https://www.luogu.com.cn/user/371511)。
-
 - 博客园：[RainPPR](https://www.cnblogs.com/RainPPR)。
 
 - Github：[RainPPR](https://github.com/RainPPR)。
 
 - X (Twitter)：[RainPPR @rainppr2008](https://x.com/rainppr2008)。
+
+## 安利
+
+欢迎帮我宣传这个博客！
+
+本人不是很懂（没有太多经历）搞宣传和 SEO、GEO 什么的 TvT

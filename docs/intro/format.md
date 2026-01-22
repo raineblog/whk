@@ -1,8 +1,3 @@
----
-date: 2024-01-01 00:00:00
-update: 2025-01-01 00:00:00
----
-
 # 格式手册
 
 请参考 [OI Wiki 格式手册](https://oi-wiki.org/intro/format/)。
