@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Thu, 22 Jan 2026 02:46:06 -0000</pubDate>
-    <lastBuildDate>Thu, 22 Jan 2026 02:46:06 -0000</lastBuildDate>
+    <pubDate>Thu, 22 Jan 2026 02:56:25 -0000</pubDate>
+    <lastBuildDate>Thu, 22 Jan 2026 02:56:25 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -39,10 +39,7 @@
       
       <description>&lt;h1&gt;简介&lt;/h1&gt;
 &lt;h2&gt;这里是 &lt;strong&gt;RainPPR&#39;s WHK Blog&lt;/strong&gt;！&lt;/h2&gt;
-&lt;p&gt;这个是 WHK 博客，是目前作者比较活跃的百科性质博客。本项目受 &lt;a href=&#34;https://ctf-wiki.org/&#34;&gt;CTF Wiki&lt;/a&gt;、&lt;a href=&#34;https://oi-wiki.org/&#34;&gt;OI Wiki&lt;/a&gt; 的启发。&lt;/p&gt;
-&lt;!-- RECENTLY_UPDATED_DOCS --&gt;
-
-&lt;p&gt;在本项目的编写过程中，作者进行了很多创造性（造轮子性）的改造，尤其是对于高中知识体系框架的构建。&lt;/p&gt;
+&lt;p&gt;这个是 WHK 博客，是目前作者比较活跃的百科性质博客。本项目受 &lt;a href=&#34;https://ctf-wiki.org/&#34;&gt;CTF Wiki&lt;/a&gt;、&lt;a href=&#34;https://oi-wiki.org/&#34;&gt;OI Wiki&lt;/a&gt; 的启发。在本项目的编写过程中，作者进行了很多创造性（造轮子性）的改造，尤其是对于高中知识体系框架的构建。&lt;/p&gt;
 &lt;p&gt;在编写过程中参考了诸多资料，主要内容来自于教材、书籍、网课、培训机构（山东青岛地区）等，部分资料来源于一些网站，已经放在下面的 Reference 部分，在此一并致谢！&lt;/p&gt;
 &lt;div class=&#34;bib-wrapper&#34;&gt;
   &lt;h3 class=&#34;bib-header-title&#34;&gt;Core References &amp; Bibliography&lt;/h3&gt;
@@ -50,9 +47,12 @@
   &lt;style&gt;
   .bib-wrapper {
     margin: 2rem 0;
-    font-family: var(--md-text-font-family,...</description>
+    font-family: var(--md-text-font-family, sans-serif);
+  }
+
+  /* Section Ti...</description>
       <link>https://raineblog.dpdns.org/whk/</link>
-      <pubDate>Thu, 22 Jan 2026 02:45:07 +0000</pubDate>
+      <pubDate>Thu, 22 Jan 2026 02:55:16 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/</guid>
