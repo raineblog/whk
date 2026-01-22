@@ -177,8 +177,8 @@
   }
 
   /* Healing Color Accents */
-  .bib-card { 
-    border-top: 4px solid transparent; 
+  .bib-card {
+    border-top: 4px solid transparent;
   }
   .accent-blue { border-top-color: #bfdbfe; }
   .accent-green { border-top-color: #bbf7d0; }
