@@ -11,7 +11,7 @@
   
   <style>
   .bib-wrapper {
-    margin: 2rem 0;
+    margin: 2rem 0 0 0;
     font-family: var(--md-text-font-family, sans-serif);
   }
 
