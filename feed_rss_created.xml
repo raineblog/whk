@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Wed, 21 Jan 2026 11:11:19 -0000</pubDate>
-    <lastBuildDate>Wed, 21 Jan 2026 11:11:19 -0000</lastBuildDate>
+    <pubDate>Thu, 22 Jan 2026 02:46:06 -0000</pubDate>
+    <lastBuildDate>Thu, 22 Jan 2026 02:46:06 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -48,6 +48,8 @@
       <comments>https://raineblog.dpdns.org/whk/intro/discussion/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/intro/discussion/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/intro/discussion.png" type="image/png" length="44724" />
+      
     </item>
     
     <item>
@@ -66,6 +68,8 @@
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/intro/format/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/intro/format/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/intro/format.png" type="image/png" length="42420" />
       
     </item>
     
@@ -103,6 +107,8 @@
       <comments>https://raineblog.dpdns.org/whk/intro/madoka/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/intro/madoka/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/intro/madoka.png" type="image/png" length="48253" />
+      
     </item>
     
     <item>
@@ -139,6 +145,8 @@
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/intro/usage/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/intro/usage/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/intro/usage.png" type="image/png" length="41724" />
       
     </item>
     
@@ -215,6 +223,8 @@
       <comments>https://raineblog.dpdns.org/whk/science/circuitry/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/circuitry/1/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/circuitry/1.png" type="image/png" length="42397" />
+      
     </item>
     
     <item>
@@ -247,6 +257,8 @@
       <comments>https://raineblog.dpdns.org/whk/science/circuitry/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/circuitry/2/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/circuitry/2.png" type="image/png" length="44234" />
+      
     </item>
     
     <item>
@@ -277,6 +289,8 @@
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/circuitry/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/circuitry/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/circuitry/3.png" type="image/png" length="41131" />
       
     </item>
     
@@ -324,6 +338,8 @@
       <comments>https://raineblog.dpdns.org/whk/science/circuitry/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/circuitry/4/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/circuitry/4.png" type="image/png" length="43920" />
+      
     </item>
     
     <item>
@@ -355,6 +371,8 @@
       <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/1/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/1.png" type="image/png" length="42018" />
+      
     </item>
     
     <item>
@@ -377,6 +395,8 @@
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/2.png" type="image/png" length="42008" />
       
     </item>
     
@@ -412,6 +432,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/3/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/3.png" type="image/png" length="44022" />
+      
     </item>
     
     <item>
@@ -434,6 +456,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/4.png" type="image/png" length="47022" />
       
     </item>
     
@@ -460,6 +484,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/5.png" type="image/png" length="45534" />
       
     </item>
     
@@ -496,6 +522,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/6/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/6/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/6.png" type="image/png" length="44202" />
+      
     </item>
     
     <item>
@@ -529,6 +557,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/reaction/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/1/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/1.png" type="image/png" length="45367" />
+      
     </item>
     
     <item>
@@ -559,6 +589,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/reaction/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/2.png" type="image/png" length="42932" />
       
     </item>
     
@@ -612,6 +644,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/reaction/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/3/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/3.png" type="image/png" length="45468" />
+      
     </item>
     
     <item>
@@ -636,6 +670,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/nature/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/nature/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/nature/4.png" type="image/png" length="45443" />
       
     </item>
     
@@ -676,6 +712,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/nature/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/nature/1/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/nature/1.png" type="image/png" length="43158" />
+      
     </item>
     
     <item>
@@ -699,6 +737,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/nature/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/nature/2/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/nature/2.png" type="image/png" length="42173" />
+      
     </item>
     
     <item>
@@ -718,6 +758,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/nature/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/nature/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/nature/3.png" type="image/png" length="42075" />
       
     </item>
     
@@ -742,6 +784,8 @@ $$
       <comments>https://raineblog.dpdns.org/whk/science/organic/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/5/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/5.png" type="image/png" length="47438" />
+      
     </item>
     
     <item>
@@ -757,6 +801,8 @@ $$
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/organic/6/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/6/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/6.png" type="image/png" length="48962" />
       
     </item>
     
@@ -774,6 +820,8 @@ $$
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/experiment/bio/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/bio/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/bio.png" type="image/png" length="45484" />
       
     </item>
     
@@ -798,6 +846,8 @@ $$
       <comments>https://raineblog.dpdns.org/whk/science/species/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/3/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/3.png" type="image/png" length="45336" />
+      
     </item>
     
     <item>
@@ -813,6 +863,8 @@ $$
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/species/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/4.png" type="image/png" length="46201" />
       
     </item>
     
@@ -830,6 +882,8 @@ $$
       <comments>https://raineblog.dpdns.org/whk/science/human/6/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/6/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/6.png" type="image/png" length="45720" />
+      
     </item>
     
     <item>
@@ -845,6 +899,8 @@ $$
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/human/7/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/7/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/7.png" type="image/png" length="47246" />
       
     </item>
     
@@ -869,6 +925,8 @@ $$
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/human/8/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/8/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/8.png" type="image/png" length="44965" />
       
     </item>
     
@@ -901,6 +959,8 @@ $$
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/human/9/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/9/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/9.png" type="image/png" length="46571" />
       
     </item>
     
@@ -938,6 +998,8 @@ $$
       <comments>https://raineblog.dpdns.org/whk/science/cell/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/4/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/4.png" type="image/png" length="44634" />
+      
     </item>
     
     <item>
@@ -953,6 +1015,8 @@ $$
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/cell/9/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/9/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/9.png" type="image/png" length="42823" />
       
     </item>
     
@@ -981,6 +1045,8 @@ $$
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/structure/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/4.png" type="image/png" length="42194" />
       
     </item>
     
@@ -1019,6 +1085,8 @@ $$
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/modern/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/1.png" type="image/png" length="43763" />
       
     </item>
     
@@ -1082,6 +1150,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/modern/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/2/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/2.png" type="image/png" length="47719" />
+      
     </item>
     
     <item>
@@ -1117,6 +1187,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/modern/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/3/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/3.png" type="image/png" length="47160" />
+      
     </item>
     
     <item>
@@ -1148,6 +1220,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/modern/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/4.png" type="image/png" length="48509" />
       
     </item>
     
@@ -1211,6 +1285,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/mechanics/6/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/6/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/6.png" type="image/png" length="46077" />
+      
     </item>
     
     <item>
@@ -1244,6 +1320,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/mechanics/7/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/7/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/7.png" type="image/png" length="43857" />
+      
     </item>
     
     <item>
@@ -1260,6 +1338,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/human/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/1.png" type="image/png" length="46756" />
       
     </item>
     
@@ -1296,6 +1376,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/human/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/2/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/2.png" type="image/png" length="46009" />
+      
     </item>
     
     <item>
@@ -1326,6 +1408,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/human/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/3/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/3.png" type="image/png" length="48736" />
+      
     </item>
     
     <item>
@@ -1342,6 +1426,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/human/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/4/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/4.png" type="image/png" length="45896" />
+      
     </item>
     
     <item>
@@ -1357,6 +1443,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/human/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/5.png" type="image/png" length="45962" />
       
     </item>
     
@@ -1390,6 +1478,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/species/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/1/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/1.png" type="image/png" length="41097" />
+      
     </item>
     
     <item>
@@ -1405,6 +1495,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/species/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/2.png" type="image/png" length="44253" />
       
     </item>
     
@@ -1434,6 +1526,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/number/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/3/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/number/3.png" type="image/png" length="44053" />
+      
     </item>
     
     <item>
@@ -1461,6 +1555,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/number/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/number/4.png" type="image/png" length="46425" />
       
     </item>
     
@@ -1506,6 +1602,8 @@ $$
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/mathematics/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mathematics/1.png" type="image/png" length="45949" />
       
     </item>
     
@@ -1558,6 +1656,8 @@ $$
       <comments>https://raineblog.dpdns.org/whk/science/mathematics/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/2/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mathematics/2.png" type="image/png" length="45630" />
+      
     </item>
     
     <item>
@@ -1573,6 +1673,8 @@ $$
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/mathematics/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mathematics/3.png" type="image/png" length="47477" />
       
     </item>
     
@@ -1604,6 +1706,8 @@ $$
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/number/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/number/1.png" type="image/png" length="45301" />
       
     </item>
     
@@ -1651,6 +1755,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/polynomial/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/3.png" type="image/png" length="44643" />
       
     </item>
     
@@ -1704,6 +1810,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/polynomial/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/4/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/4.png" type="image/png" length="46216" />
+      
     </item>
     
     <item>
@@ -1756,6 +1864,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/probability/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/5/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/5.png" type="image/png" length="44817" />
+      
     </item>
     
     <item>
@@ -1789,6 +1899,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/sequence/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/sequence/4/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/sequence/4.png" type="image/png" length="47706" />
+      
     </item>
     
     <item>
@@ -1812,6 +1924,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/function/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/5.png" type="image/png" length="42950" />
       
     </item>
     
@@ -1849,6 +1963,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/polynomial/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/5.png" type="image/png" length="45190" />
       
     </item>
     
@@ -1896,6 +2012,8 @@ a^3-b^3&amp;amp;=(...&lt;/p&gt;</description>
       <comments>https://raineblog.dpdns.org/whk/science/polynomial/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/1/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/1.png" type="image/png" length="44413" />
+      
     </item>
     
     <item>
@@ -1923,6 +2041,8 @@ a^3-b^3&amp;amp;=(...&lt;/p&gt;</description>
       <comments>https://raineblog.dpdns.org/whk/science/polynomial/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/2/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/2.png" type="image/png" length="46472" />
+      
     </item>
     
     <item>
@@ -1947,6 +2067,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/function/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/4/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/4.png" type="image/png" length="42641" />
+      
     </item>
     
     <item>
@@ -1962,6 +2084,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/4.png" type="image/png" length="40938" />
       
     </item>
     
@@ -2018,6 +2142,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/function/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/3/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/3.png" type="image/png" length="45116" />
+      
     </item>
     
     <item>
@@ -2045,6 +2171,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/plane/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/1.png" type="image/png" length="39471" />
       
     </item>
     
@@ -2083,6 +2211,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/plane/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/2/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/2.png" type="image/png" length="47861" />
+      
     </item>
     
     <item>
@@ -2113,6 +2243,8 @@ $$
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/plane/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/3.png" type="image/png" length="47566" />
       
     </item>
     
@@ -2162,6 +2294,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/plane/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/4/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/4.png" type="image/png" length="48308" />
+      
     </item>
     
     <item>
@@ -2201,6 +2335,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/plane/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/5.png" type="image/png" length="42472" />
       
     </item>
     
@@ -2265,6 +2401,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/solid/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/solid/1/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/solid/1.png" type="image/png" length="43480" />
+      
     </item>
     
     <item>
@@ -2288,6 +2426,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/solid/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/solid/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/solid/2.png" type="image/png" length="40649" />
       
     </item>
     
@@ -2321,6 +2461,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/solid/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/solid/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/solid/3.png" type="image/png" length="42690" />
       
     </item>
     
@@ -2371,6 +2513,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/sequence/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/sequence/3/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/sequence/3.png" type="image/png" length="45583" />
+      
     </item>
     
     <item>
@@ -2407,6 +2551,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/organic/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/1/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/1.png" type="image/png" length="50541" />
+      
     </item>
     
     <item>
@@ -2430,6 +2576,8 @@ $$
       <comments>https://raineblog.dpdns.org/whk/science/organic/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/2/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/2.png" type="image/png" length="49379" />
+      
     </item>
     
     <item>
@@ -2452,6 +2600,8 @@ $$
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/organic/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/3.png" type="image/png" length="47411" />
       
     </item>
     
@@ -2481,6 +2631,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/organic/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/4.png" type="image/png" length="46960" />
       
     </item>
     
@@ -2515,6 +2667,8 @@ f(t)...&lt;/p&gt;</description>
       <comments>https://raineblog.dpdns.org/whk/science/function/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/1/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/1.png" type="image/png" length="44740" />
+      
     </item>
     
     <item>
@@ -2542,6 +2696,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/function/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/2/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/2.png" type="image/png" length="43078" />
+      
     </item>
     
     <item>
@@ -2562,6 +2718,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/1.png" type="image/png" length="42360" />
       
     </item>
     
@@ -2599,6 +2757,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/geometry/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/2/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/2.png" type="image/png" length="43074" />
+      
     </item>
     
     <item>
@@ -2629,6 +2789,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/3.png" type="image/png" length="43689" />
       
     </item>
     
@@ -2671,6 +2833,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/geometry/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/5/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/5.png" type="image/png" length="46523" />
+      
     </item>
     
     <item>
@@ -2691,6 +2855,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/probability/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/1.png" type="image/png" length="43769" />
       
     </item>
     
@@ -2717,6 +2883,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/probability/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/2/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/2.png" type="image/png" length="43563" />
+      
     </item>
     
     <item>
@@ -2740,6 +2908,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/probability/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/3/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/3.png" type="image/png" length="43418" />
+      
     </item>
     
     <item>
@@ -2755,6 +2925,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/probability/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/4.png" type="image/png" length="44679" />
       
     </item>
     
@@ -2783,6 +2955,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/sequence/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/sequence/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/sequence/1.png" type="image/png" length="44601" />
       
     </item>
     
@@ -2839,6 +3013,8 @@ q^2=xq...&lt;/p&gt;</description>
       <comments>https://raineblog.dpdns.org/whk/science/sequence/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/sequence/2/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/sequence/2.png" type="image/png" length="44872" />
+      
     </item>
     
     <item>
@@ -2855,6 +3031,8 @@ q^2=xq...&lt;/p&gt;</description>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/kinematics/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/5.png" type="image/png" length="43587" />
       
     </item>
     
@@ -2941,6 +3119,8 @@ q^2=xq...&lt;/p&gt;</description>
       <comments>https://raineblog.dpdns.org/whk/science/experiment/instrument/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/instrument/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/instrument.png" type="image/png" length="49762" />
+      
     </item>
     
     <item>
@@ -2998,6 +3178,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/mechanics/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/4/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/4.png" type="image/png" length="45355" />
+      
     </item>
     
     <item>
@@ -3027,6 +3209,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/mechanics/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/5.png" type="image/png" length="47946" />
       
     </item>
     
@@ -3059,6 +3243,8 @@ RNA和蛋白质，从而执行细胞丰富多彩的功
       <comments>https://raineblog.dpdns.org/whk/science/cell/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/1/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/1.png" type="image/png" length="46422" />
+      
     </item>
     
     <item>
@@ -3075,6 +3261,8 @@ RNA和蛋白质，从而执行细胞丰富多彩的功
       <comments>https://raineblog.dpdns.org/whk/science/cell/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/2/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/2.png" type="image/png" length="49887" />
+      
     </item>
     
     <item>
@@ -3090,6 +3278,8 @@ RNA和蛋白质，从而执行细胞丰富多彩的功
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/cell/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="45825" />
       
     </item>
     
@@ -3116,6 +3306,8 @@ RNA和蛋白质，从而执行细胞丰富多彩的功
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/experiment/experiment/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/experiment/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/experiment.png" type="image/png" length="49166" />
       
     </item>
     
@@ -3146,6 +3338,8 @@ RNA和蛋白质，从而执行细胞丰富多彩的功
       <comments>https://raineblog.dpdns.org/whk/science/experiment/life/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/life/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/life.png" type="image/png" length="43586" />
+      
     </item>
     
     <item>
@@ -3173,6 +3367,8 @@ Shull（1914）提出，杂合等位基因（如Aa）的互作效应超过纯合
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/genetics/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/genetics/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/4.png" type="image/png" length="45363" />
       
     </item>
     
@@ -3209,6 +3405,8 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/mechanics/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/1/</guid>
       
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/1.png" type="image/png" length="44477" />
+      
     </item>
     
     <item>
@@ -3237,6 +3435,8 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/mechanics/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/2.png" type="image/png" length="45810" />
       
     </item>
     
