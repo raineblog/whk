@@ -95,12 +95,3 @@ jobs:
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
           full_commit_message: "Deploying to gh-pages from ${{ github.sha }}"
-
-      - name: SEO Push
-        env:
-          SITE_HOST: "raineblog.dpdns.org"
-          SITE_BASE: "https://raineblog.dpdns.org"
-          SITE_NAME: "RainPPR's WHK Wiki"
-          SITE_PROJECT: "whk"
-          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
-        run: mkdocs-seo
