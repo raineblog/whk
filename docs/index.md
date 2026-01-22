@@ -45,22 +45,22 @@
   .bib-card {
     position: relative;
     padding: 24px;
-    background: var(--md-code-bg-color, #ffffff);
-    border: 1px solid rgba(0,0,0,0.04);
+    background: var(--md-code-bg-color, #ffffff) !important;
+    border: 1px solid rgba(0,0,0,0.06);
     border-radius: 18px;
     text-decoration: none !important;
     color: inherit !important;
-    transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+    transition: all 0.4s ease-out;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -1px rgba(0, 0, 0, 0.01);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
   }
 
   [data-md-color-scheme="slate"] .bib-card {
-    background: rgba(255, 255, 255, 0.03);
-    border-color: rgba(255, 255, 255, 0.08);
+    background: rgba(45, 49, 59, 1) !important; /* Explicitly solid to avoid external overlay issues */
+    border-color: rgba(255, 255, 255, 0.1);
   }
 
   /* Shine Scan Animation */
@@ -74,21 +74,28 @@
     background: linear-gradient(
       to right,
       transparent,
-      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.25),
       transparent
     );
     transform: skewX(-25deg);
-    transition: 0.8s;
+    transition: 0s; /* No transition for background resetting */
   }
 
   .bib-card:hover {
-    transform: translateY(-10px) scale(1.02);
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
-    border-color: rgba(59, 130, 246, 0.4);
+    /* No displacement, focus on glow and color clarity */
+    background: var(--md-code-bg-color, #ffffff) !important;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+    border-color: rgba(59, 130, 246, 0.25);
+  }
+
+  [data-md-color-scheme="slate"] .bib-card:hover {
+    background: rgba(50, 55, 66, 1) !important;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
   }
 
   .bib-card:hover::after {
     left: 150%;
+    transition: 0.85s cubic-bezier(0.23, 1, 0.32, 1);
   }
 
   /* Academic Background Index */
@@ -101,22 +108,16 @@
     font-family: var(--md-code-font-family, monospace);
     opacity: 0.03;
     pointer-events: none;
-    transition: all 0.6s ease;
+    transition: opacity 0.4s ease;
   }
 
   .bib-card:hover .bib-card-index {
-    opacity: 0.1;
-    transform: rotate(-10deg) scale(1.1);
+    opacity: 0.08;
   }
 
   /* Card Content */
   .bib-card-main {
     margin-bottom: 20px;
-    transition: transform 0.6s ease;
-  }
-
-  .bib-card:hover .bib-card-main {
-    transform: translateX(4px);
   }
 
   .bib-card-author {
@@ -150,15 +151,10 @@
     padding-top: 16px;
     border-top: 1px solid rgba(0,0,0,0.03);
     font-size: 0.75rem;
-    transition: all 0.6s ease;
   }
 
   [data-md-color-scheme="slate"] .bib-card-meta {
     border-top-color: rgba(255,255,255,0.05);
-  }
-
-  .bib-card:hover .bib-card-meta {
-    border-top-color: rgba(59, 130, 246, 0.2);
   }
 
   .bib-meta-item {
@@ -181,16 +177,19 @@
   }
 
   /* Healing Color Accents */
-  .bib-card { border-top: 4px solid transparent; transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); }
+  .bib-card { 
+    border-top: 4px solid transparent; 
+  }
   .accent-blue { border-top-color: #bfdbfe; }
   .accent-green { border-top-color: #bbf7d0; }
   .accent-red { border-top-color: #fecaca; }
   .accent-purple { border-top-color: #e9d5ff; }
 
-  .bib-card.accent-blue:hover { border-top-color: #3b82f6; border-top-width: 6px; }
-  .bib-card.accent-green:hover { border-top-color: #10b981; border-top-width: 6px; }
-  .bib-card.accent-red:hover { border-top-color: #ef4444; border-top-width: 6px; }
-  .bib-card.accent-purple:hover { border-top-color: #8b5cf6; border-top-width: 6px; }
+  /* Subtle Border-Top Breath */
+  .bib-card.accent-blue:hover { border-top-color: #60a5fa; }
+  .bib-card.accent-green:hover { border-top-color: #34d399; }
+  .bib-card.accent-red:hover { border-top-color: #f87171; }
+  .bib-card.accent-purple:hover { border-top-color: #a78bfa; }
   </style>
 
   <div class="bib-grid">
@@ -199,7 +198,7 @@
       <div class="bib-card-index">01</div>
       <div class="bib-card-main">
         <span class="bib-card-author">维基教科书</span>
-        <div class="bib-card-title">📚 Math / <i>高中数学</i></div>
+        <div class="bib-card-title">高中数学</div>
       </div>
       <div class="bib-card-meta">
         <div class="bib-meta-item">
@@ -218,7 +217,7 @@
       <div class="bib-card-index">02</div>
       <div class="bib-card-main">
         <span class="bib-card-author">whk-wiki</span>
-        <div class="bib-card-title">🌿 Wiki / <i>WHK Wiki</i></div>
+        <div class="bib-card-title">whk wiki</div>
       </div>
       <div class="bib-card-meta">
         <div class="bib-meta-item">
@@ -237,7 +236,7 @@
       <div class="bib-card-index">03</div>
       <div class="bib-card-main">
         <span class="bib-card-author">liuhaopeng543</span>
-        <div class="bib-card-title">📐 Book / <i>MathBook</i></div>
+        <div class="bib-card-title">MathBook</div>
       </div>
       <div class="bib-card-meta">
         <div class="bib-meta-item">
@@ -256,7 +255,7 @@
       <div class="bib-card-index">04</div>
       <div class="bib-card-main">
         <span class="bib-card-author">lailai</span>
-        <div class="bib-card-title">📝 Note / <i>笔记</i></div>
+        <div class="bib-card-title">Note</div>
       </div>
       <div class="bib-card-meta">
         <div class="bib-meta-item">
