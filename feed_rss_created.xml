@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Fri, 23 Jan 2026 08:24:49 -0000</pubDate>
-    <lastBuildDate>Fri, 23 Jan 2026 08:24:49 -0000</lastBuildDate>
+    <pubDate>Fri, 23 Jan 2026 08:46:53 -0000</pubDate>
+    <lastBuildDate>Fri, 23 Jan 2026 08:46:53 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -32,158 +32,14 @@
     
     
     <item>
-      <title>Bot</title>
+      <title>博客</title>
       
       
       
       
-      <description>&lt;h1&gt;Bot&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-23T08:24:50.225304+00:00&#39;&gt;2026-01-23 08:24:50&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;20...</description>
-      <link>https://raineblog.dpdns.org/whk/blog/author/Bot/</link>
-      <pubDate>Fri, 23 Jan 2026 08:25:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/blog/author/Bot/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/author/Bot/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/author/Bot.png" type="image/png" length="37475" />
-      
-    </item>
-    
-    <item>
-      <title>2026</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;2026&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-23T08:24:50.225304+00:00&#39;&gt;2026-01-23 08:24:50&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2...</description>
-      <link>https://raineblog.dpdns.org/whk/blog/archive/2026/</link>
-      <pubDate>Fri, 23 Jan 2026 08:24:59 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/blog/archive/2026/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2026/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/archive/2026.png" type="image/png" length="38762" />
-      
-    </item>
-    
-    <item>
-      <title>电磁感应全景导读</title>
-      
-      
-        
-      <author>Bot</author>
-        
-      
-      
-      
-      <description>&lt;h1&gt;电磁感应全景导读&lt;/h1&gt;
-&lt;p&gt;本文为您浓缩了《电磁感应》细致入微的核心要点，从磁通量的定义、安培环路到楞次定律与法拉第电磁感应，再到动生、感生与自感电动势的实际应用，以及常见的求解思路（含容模型、力学、能量与动量）和典型题型（旋转切割、双杆模型、 电动机概述），帮助读者快速抓住重点、提升做题效率。&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94%E5%85%A8%E6%99%AF%E5%AF%BC%E8%AF%BB/</link>
-      <pubDate>Fri, 23 Jan 2026 08:10:31 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94%E5%85%A8%E6%99%AF%E5%AF%BC%E8%AF%BB/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94%E5%85%A8%E6%99%AF%E5%AF%BC%E8%AF%BB/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/01/23/电磁感应全景导读.png" type="image/png" length="54134" />
-      
-    </item>
-    
-    <item>
-      <title>导数入门全攻略：从概念到实战一览</title>
-      
-      
-        
-      <author>Bot</author>
-        
-      
-      
-      
-      <description>&lt;h1&gt;导数入门全攻略：从概念到实战一览&lt;/h1&gt;
-&lt;p&gt;导数是微积分的基石，本文用通俗语言快速梳理导数的定义、运算规则以及常见求导技巧，并配以直观图例与实用示例，帮助读者在几分钟内掌握从切线到洛必达法则的全套工具，是学习高等数学的理想入门。&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E5%AF%BC%E6%95%B0%E5%85%A5%E9%97%A8%E5%85%A8%E6%94%BB%E7%95%A5%E4%BB%8E%E6%A6%82%E5%BF%B5%E5%88%B0%E5%AE%9E%E6%88%98%E4%B8%80%E8%A7%88/</link>
-      <pubDate>Fri, 23 Jan 2026 08:10:31 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E5%AF%BC%E6%95%B0%E5%85%A5%E9%97%A8%E5%85%A8%E6%94%BB%E7%95%A5%E4%BB%8E%E6%A6%82%E5%BF%B5%E5%88%B0%E5%AE%9E%E6%88%98%E4%B8%80%E8%A7%88/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/01/23/%E5%AF%BC%E6%95%B0%E5%85%A5%E9%97%A8%E5%85%A8%E6%94%BB%E7%95%A5%E4%BB%8E%E6%A6%82%E5%BF%B5%E5%88%B0%E5%AE%9E%E6%88%98%E4%B8%80%E8%A7%88/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/01/23/导数入门全攻略从概念到实战一览.png" type="image/png" length="65409" />
-      
-    </item>
-    
-    <item>
-      <title>直线与圆的完整指南：从点斜式到阿波罗尼斯圆的全景概览</title>
-      
-      
-        
-      <author>Bot</author>
-        
-      
-      
-      
-      <description>&lt;h1&gt;直线与圆的完整指南：从点斜式到阿波罗尼斯圆的全景概览&lt;/h1&gt;
-&lt;p&gt;本篇博文为您浓缩《直线和圆》全文的核心要点，涵盖直线方程、圆的方程、二者的几何关系以及若干经典定理，帮助您快速抓住解析几何的关键概念，点燃学习兴趣，立即提升解题效率。&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%9B%B4%E7%BA%BF%E4%B8%8E%E5%9C%86%E7%9A%84%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97%E4%BB%8E%E7%82%B9%E6%96%9C%E5%BC%8F%E5%88%B0%E9%98%BF%E6%B3%A2%E7%BD%97%E5%B0%BC%E6%96%AF%E5%9C%86%E7%9A%84%E5%85%A8%E6%99%AF%E6%A6%82%E8%A7%88/</link>
-      <pubDate>Fri, 23 Jan 2026 08:10:31 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%9B%B4%E7%BA%BF%E4%B8%8E%E5%9C%86%E7%9A%84%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97%E4%BB%8E%E7%82%B9%E6%96%9C%E5%BC%8F%E5%88%B0%E9%98%BF%E6%B3%A2%E7%BD%97%E5%B0%BC%E6%96%AF%E5%9C%86%E7%9A%84%E5%85%A8%E6%99%AF%E6%A6%82%E8%A7%88/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%9B%B4%E7%BA%BF%E4%B8%8E%E5%9C%86%E7%9A%84%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97%E4%BB%8E%E7%82%B9%E6%96%9C%E5%BC%8F%E5%88%B0%E9%98%BF%E6%B3%A2%E7%BD%97%E5%B0%BC%E6%96%AF%E5%9C%86%E7%9A%84%E5%85%A8%E6%99%AF%E6%A6%82%E8%A7%88/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/01/23/直线与圆的完整指南从点斜式到阿波罗尼斯圆的全景概览.png" type="image/png" length="64427" />
-      
-    </item>
-    
-    <item>
-      <title>数系与复数——从虚数到复平面的全景指南</title>
-      
-      
-        
-      <author>Bot</author>
-        
-      
-      
-      
-      <description>&lt;h1&gt;数系与复数——从虚数到复平面的全景指南&lt;/h1&gt;
-&lt;p&gt;本文在两百字以内概述复数的起源、运算规则与几何表现，帮助读者快速掌握从虚数到复平面的核心概念，并点明复数在方程求解中的关键作用，适合数学爱好者、学生以及想提升逻辑思维的大众阅读。&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E6%95%B0%E7%B3%BB%E4%B8%8E%E5%A4%8D%E6%95%B0%E4%BB%8E%E8%99%9A%E6%95%B0%E5%88%B0%E5%A4%8D%E5%B9%B3%E9%9D%A2%E7%9A%84%E5%85%A8%E6%99%AF%E6%8C%87%E5%8D%97/</link>
-      <pubDate>Fri, 23 Jan 2026 08:10:31 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E6%95%B0%E7%B3%BB%E4%B8%8E%E5%A4%8D%E6%95%B0%E4%BB%8E%E8%99%9A%E6%95%B0%E5%88%B0%E5%A4%8D%E5%B9%B3%E9%9D%A2%E7%9A%84%E5%85%A8%E6%99%AF%E6%8C%87%E5%8D%97/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/01/23/%E6%95%B0%E7%B3%BB%E4%B8%8E%E5%A4%8D%E6%95%B0%E4%BB%8E%E8%99%9A%E6%95%B0%E5%88%B0%E5%A4%8D%E5%B9%B3%E9%9D%A2%E7%9A%84%E5%85%A8%E6%99%AF%E6%8C%87%E5%8D%97/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/01/23/数系与复数从虚数到复平面的全景指南.png" type="image/png" length="57313" />
-      
-    </item>
-    
-    <item>
-      <title>统计模型与抽样技巧全解析</title>
-      
-      
-        
-      <author>Bot</author>
-        
-      
-      
-      
-      <description>&lt;h1&gt;统计模型与抽样技巧全解析&lt;/h1&gt;
-&lt;p&gt;统计模型是数据分析的基础工具。本文围绕抽样概念，系统介绍等距抽样、分层抽样等核心方法，并配以公式演示，帮助读者快速掌握统计建模的实用技巧。&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%BB%9F%E8%AE%A1%E6%A8%A1%E5%9E%8B%E4%B8%8E%E6%8A%BD%E6%A0%B7%E6%8A%80%E5%B7%A7%E5%85%A8%E8%A7%A3%E6%9E%90/</link>
-      <pubDate>Fri, 23 Jan 2026 08:10:31 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%BB%9F%E8%AE%A1%E6%A8%A1%E5%9E%8B%E4%B8%8E%E6%8A%BD%E6%A0%B7%E6%8A%80%E5%B7%A7%E5%85%A8%E8%A7%A3%E6%9E%90/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%BB%9F%E8%AE%A1%E6%A8%A1%E5%9E%8B%E4%B8%8E%E6%8A%BD%E6%A0%B7%E6%8A%80%E5%B7%A7%E5%85%A8%E8%A7%A3%E6%9E%90/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/01/23/统计模型与抽样技巧全解析.png" type="image/png" length="58817" />
-      
-    </item>
-    
-    <item>
-      <title>Index</title>
-      
-      
-      
-      
-      <description>&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-23T15:58:27+08:00&#39;&gt;2026-01-23 15:58:27&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-23T07:...</description>
+      <description>&lt;h1&gt;博客&lt;/h1&gt;
+&lt;p&gt;这里是博客，主要是用 AI (GPT-OSS) 自动生成的。&lt;/p&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-23T15:58:27+08:00&#39;&gt;2026-01-23 15:58:27&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;...</description>
       <link>https://raineblog.dpdns.org/whk/blog/</link>
       <pubDate>Fri, 23 Jan 2026 15:58:27 +0800</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -3373,6 +3229,201 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/5/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/5.png" type="image/png" length="47946" />
+      
+    </item>
+    
+    <item>
+      <title>细胞的结构</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;细胞的结构&lt;/h1&gt;
+&lt;p&gt;目前，生物学已经能在分子水平上，
+利用定量的物理、化学等手段来研究基本的生
+命过程和重大疾病的分子基础， 从根本上理解生
+命、促进健康。生老病死等生命过程在微观世界都有其分子基础，DNA所承载的信息被传递到
+RNA和蛋白质，从而执行细胞丰富多彩的功
+能。结构生物学利用X射线晶体学、核磁共
+振和电子显微镜等手段，通过揭示生物大分
+子和超大分子复合物（分子机器）的高分辨
+率空间三维结构来解释其功能，不仅诠释生
+命过程的机理，也可以揭示药物靶点。目前，
+许多创新药物的研发都依赖于对其靶标蛋白
+结构的解析。其实，结构决定功能，这是所
+有物质科学的基本共识。从某种意义上来说，
+所有物质科学研究的目标都是理解结构，从
+而诠释功能和机理、找寻规律。&lt;/p&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-...</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/1/</link>
+      <pubDate>Sat, 19 Apr 2025 22:19:04 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/1.png" type="image/png" length="46422" />
+      
+    </item>
+    
+    <item>
+      <title>细胞的能量转化</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;细胞的能量转化&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-04-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-04-19T22:19:04+08:00&#39;&gt;2025-04-19 22:19:04&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-12&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026...</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/2/</link>
+      <pubDate>Sat, 19 Apr 2025 22:19:04 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/2.png" type="image/png" length="49887" />
+      
+    </item>
+    
+    <item>
+      <title>细胞的增殖</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;细胞的增殖&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-04-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-04-19T22:19:04+08:00&#39;&gt;2025-04-19 22:19:04&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-04-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-0...</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/3/</link>
+      <pubDate>Sat, 19 Apr 2025 22:19:04 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="45825" />
+      
+    </item>
+    
+    <item>
+      <title>化学实验操作</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;化学实验操作&lt;/h1&gt;
+&lt;p&gt;一、实验室突发事件的应对措施&lt;/p&gt;
+&lt;p&gt;1.烫伤和烧伤：轻微烫伤或烧伤时，可先用洁净的冷水处理，降低局部温度，然后涂上烫伤药膏(若有水疱，尽量不要弄破)。严重时需及时就医。&lt;/p&gt;
+&lt;p&gt;2.创伤：用药棉把伤口清理干净(伤口处若有碎玻璃片，先要小心除去)，然后用双氧水或碘酒擦洗，最后用创可贴外敷。&lt;/p&gt;
+&lt;p&gt;3.酸或碱等腐蚀性试剂灼伤如果不慎将酸沾到皮肤上，应立即用大量水冲洗，然后用3% ~5%的NaHCO3溶液冲洗；如果不慎将碱沾到皮肤上，应立即用大量水冲洗，然后涂上1%的硼酸。&lt;/p&gt;
+&lt;p&gt;如果有少量酸(或碱)滴到实验桌上，应立即用湿抹布擦净，然后用水冲洗抹布。&lt;/p&gt;
+&lt;p&gt;4.着火：立即切断室内电源，移走可燃物。如果火势不大，用湿布或灭火毯覆盖火源以灭火；火势较猛时，选用合适的灭火器进行灭火，并立即与消防联系。&lt;/p&gt;
+&lt;p&gt;如果身上的衣物着火，立即用湿布灭火；如果燃烧面积较大，应躺在地上翻滚以达到灭火的目的。&lt;/p&gt;
+&lt;p&gt;二、常见废弃物的处理方法&lt;/p&gt;
+&lt;p&gt;1.废液的处理&lt;/p&gt;
+&lt;p&gt;(1)对于酸、碱、氧化剂或还原剂的废液，应分别收集。在确定酸与碱混合、氧化剂与还原剂混合无危险时，可用中和法或氧化还原法，每次各取少量分次混合后再排放。&lt;/p&gt;
+&lt;p&gt;...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/experiment/experiment/</link>
+      <pubDate>Sat, 19 Apr 2025 22:19:04 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/experiment/experiment/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/experiment/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/experiment.png" type="image/png" length="49166" />
+      
+    </item>
+    
+    <item>
+      <title>化学与生活</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;化学与生活&lt;/h1&gt;
+&lt;p&gt;海水淡化
+蒸馏法：将海水加热至沸腾气汽化，然后使水蒸气冷凝得到蒸馏水。&lt;/p&gt;
+&lt;p&gt;电渗析法：利用阴阳离子交换膜对水中阴阳离子的选择透过性，在外加直流电场的作用下，使水中一部分离子转移到另一部分水中，从而达到除盐的目的；&lt;/p&gt;
+&lt;p&gt;离子交换法：用离子交换树脂除去海水中的阴阳离子，得到去离子水。&lt;/p&gt;
+&lt;p&gt;注意：必须先通过阳离子，再通过阴离子，因为如果先通过阴离子，氢氧根沉淀能力很强，会与其它金属离子形成沉淀。&lt;/p&gt;
+&lt;p&gt;人类活动对环境的影响
+酸雨​&lt;/p&gt;
+&lt;p&gt;概念：$\rm{pH\le5.6}$ 的雨水&lt;/p&gt;
+&lt;p&gt;成因：主要是 $\rm{SO_2}$ 和 $\rm{NO_x}$ 及它们在大气中发生反应后的生成物溶于水形成的&lt;/p&gt;
+&lt;p&gt;硫酸型酸雨：$\rm{SO_2+H_2O\rightleftharpoons H_2SO_3\,,&amp;gt;2H_2SO_3+O_2=2H_2SO_4}$
+硝酸型酸雨：$\rm{2NO+O_2=2NO_2\,,&amp;gt;4NO_2+O_2+2H_2O=4HNO_3}$&lt;/p&gt;
+&lt;p&gt;危害：损伤农作物、破坏森林和草原、酸化土壤和湖泊、腐蚀建筑物&lt;/p&gt;
+&lt;p&gt;防治：&lt;/p&gt;
+&lt;p&gt;$\rm{2CaO+2SO_2+O_2\xlongequa...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/experiment/life/</link>
+      <pubDate>Sat, 19 Apr 2025 22:19:04 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/experiment/life/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/life/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/life.png" type="image/png" length="43586" />
+      
+    </item>
+    
+    <item>
+      <title>基因组与育种</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;基因组与育种&lt;/h1&gt;
+&lt;h2&gt;杂种优势&lt;/h2&gt;
+&lt;h3&gt;遗传学机制&lt;/h3&gt;
+&lt;p&gt;杂种优势（Heterosis）是指两个遗传组成不同的亲本杂交产生的杂种一代（F1）在生长势、生活力、繁殖力、抗逆性及产量等方面显著优于双亲均值的现象。其核心原理在于遗传异质性的互补与协同效应，通过基因组的重新组合，掩盖隐性有害基因、增强显性有利基因的表达，或通过杂合等位基因的互作形成超显性效应
+。&lt;/p&gt;
+&lt;p&gt;二、遗传学机制与理论假说
+经典假说：&lt;/p&gt;
+&lt;p&gt;显性假说（Dominance Hypothesis）：
+由Bruce（1910）提出，认为显性有利基因通过杂交覆盖隐性有害基因，形成互补效应。例如，若亲本基因型为AAbb和aaBB，F1代AaBb可同时携带显性有利基因A和B，显著提升性状表现。
+超显性假说（Overdominance Hypothesis）：
+Shull（1914）提出，杂合等位基因（如Aa）的互作效应超过纯合基因型（AA或aa），例如某些代谢酶在杂合状态下活性更高，促进生长和抗逆性
+。
+上位性假说（Epistasis Hypothesis）：
+强调非等位基因间的互作，例如基因A的显性表达可能抑制基因B的有害作用，形成...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/genetics/4/</link>
+      <pubDate>Sat, 19 Apr 2025 22:19:04 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/genetics/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/genetics/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/4.png" type="image/png" length="45363" />
+      
+    </item>
+    
+    <item>
+      <title>静力与动量</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;静力与动量&lt;/h1&gt;
+&lt;h2&gt;基本性质力&lt;/h2&gt;
+&lt;h3&gt;力&lt;/h3&gt;
+&lt;p&gt;力：力是物体间的相互作用。&lt;/p&gt;
+&lt;p&gt;力是改变物体运动状态或改变物体形状的原因。&lt;/p&gt;
+&lt;p&gt;力有大小、方向、作用点三个要素。&lt;/p&gt;
+&lt;p&gt;当我们把物体理想化为质点或刚体时，即不计物体的大小或不计物体形状变化时：&lt;/p&gt;
+&lt;p&gt;力是改变物体运动状态的原因。&lt;/p&gt;
+&lt;p&gt;力对于刚体具有可传递特性，即可以沿作用线滑移。&lt;/p&gt;
+&lt;p&gt;可以沿作用线方向改变作用点，而不改变该力对刚体的作用效果。&lt;/p&gt;
+&lt;p&gt;所以作用在刚体上的力，三个要素是：大小、方向和作用线。&lt;/p&gt;
+&lt;p&gt;如果物体平衡，即物体静止或保持运动状态不变，作用于物体的各力相互抵消。&lt;/p&gt;
+&lt;p&gt;受力分析的顺序：先主动力（外力、重力）、后被动力（弹力、摩擦力）。&lt;/p&gt;
+&lt;p&gt;注意：效果力由性质力充当，例如拉力支持力向心力。&lt;/p&gt;
+&lt;h3&gt;拉密定理&lt;/h3&gt;
+&lt;p&gt;拉密定理指出，如果三个共点力的合力为零，那么任一力与其相对角的正弦的比值均相等：&lt;/p&gt;
+&lt;p&gt;$$
+\dfrac{A}{\sin\alpha}=\dfrac{B}{\sin\beta}=\dfrac{C}{\sin\gamma}
+$$&lt;/p&gt;
+&lt;p&gt;其中 $A$、$B$、$C$ 为作用在一点（假设为 $P$）力的大小。&lt;/p&gt;
+&lt;p&gt;而 $\alpha$、$\beta...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/mechanics/1/</link>
+      <pubDate>Sun, 13 Apr 2025 21:42:37 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mechanics/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/1.png" type="image/png" length="44477" />
       
     </item>
     
