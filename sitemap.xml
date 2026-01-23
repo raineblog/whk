@@ -6,6 +6,11 @@
         <changefreq>daily</changefreq>
     </url>
     <url>
+        <loc>https://raineblog.dpdns.org/whk/blog/</loc>
+        <lastmod>2026-01-23</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
         <loc>https://raineblog.dpdns.org/whk/intro/discussion/</loc>
         <lastmod>2026-01-22</lastmod>
         <changefreq>daily</changefreq>

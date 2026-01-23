@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Thu, 22 Jan 2026 10:07:36 -0000</pubDate>
-    <lastBuildDate>Thu, 22 Jan 2026 10:07:36 -0000</lastBuildDate>
+    <pubDate>Fri, 23 Jan 2026 07:59:25 -0000</pubDate>
+    <lastBuildDate>Fri, 23 Jan 2026 07:59:25 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,23 @@
     
 
     
+    
+    <item>
+      <title>Index</title>
+      
+      
+      
+      
+      <description>&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-23T15:58:27+08:00&#39;&gt;2026-01-23 15:58:27&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-23T07:...</description>
+      <link>https://raineblog.dpdns.org/whk/blog/</link>
+      <pubDate>Fri, 23 Jan 2026 15:58:27 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog.png" type="image/png" length="None" />
+      
+    </item>
     
     <item>
       <title>讨论交流</title>
@@ -3405,37 +3422,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/1/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/1.png" type="image/png" length="44477" />
-      
-    </item>
-    
-    <item>
-      <title>运动与能量</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;运动与能量&lt;/h1&gt;
-&lt;p&gt;这一部分的根本是受力分析，因为这里面绝大部分的力都是不平衡的。&lt;/p&gt;
-&lt;p&gt;其实在后面几乎所有的力学都需要受力分析，虽然可能简单题不需要画出来也能想清楚。&lt;/p&gt;
-&lt;p&gt;受力分析的一个常用方法就是整体法，整体法一定是能用就用的。&lt;/p&gt;
-&lt;h2&gt;牛顿运动定律&lt;/h2&gt;
-&lt;h3&gt;牛顿第一定律&lt;/h3&gt;
-&lt;p&gt;牛顿第一定律表述为：不受外力作用的物体必将作匀速直线运动或保持静止。&lt;/p&gt;
-&lt;p&gt;这条定律就其叙述的内容本身提出了力和惯性两个重要概念：牛顿把改变物体运动状态的因素归于物体受到了力，而运动物体自身又具有保持其匀速直线运动或保持静止的属性，并称此属性为惯性。&lt;/p&gt;
-&lt;p&gt;根据运动的相对性，对于不同的参照系，物体往往有不同的加速度，在一个参照系中作匀速运动的物体，在另一个参照系中可能有加速度。&lt;/p&gt;
-&lt;p&gt;牛顿第一定律断言存在着一个参照系，在此参照系中，物体的运动遵循牛顿第一定律。这个参照系称为惯性系，因此，第一定律又称为惯性定律。&lt;/p&gt;
-&lt;p&gt;运动的相对性告诉我们，对于任何两个相互作匀速运动的参照系，同一质点具有相同的加速度。因此，只要存在一个惯性系，那么相对于此惯性系作匀速运动的所有参照系都是惯性系。&lt;/p&gt;
-&lt;p&gt;总结：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;假若施加于某物体的外力为零，则该...&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/mechanics/2/</link>
-      <pubDate>Sun, 13 Apr 2025 21:42:37 +0800</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/mechanics/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/2.png" type="image/png" length="45810" />
       
     </item>
     
