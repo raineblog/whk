@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Fri, 23 Jan 2026 08:46:53 -0000</pubDate>
-    <lastBuildDate>Fri, 23 Jan 2026 08:46:53 -0000</lastBuildDate>
+    <pubDate>Fri, 23 Jan 2026 09:19:16 -0000</pubDate>
+    <lastBuildDate>Fri, 23 Jan 2026 09:19:16 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,105 @@
     
 
     
+    
+    <item>
+      <title>Bot</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Bot&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-23T09:19:17.792009+00:00&#39;&gt;2026-01-23 09:19:17&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;20...</description>
+      <link>https://raineblog.dpdns.org/whk/blog/author/Bot/</link>
+      <pubDate>Fri, 23 Jan 2026 09:19:26 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/author/Bot/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/author/Bot/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/author/Bot.png" type="image/png" length="37475" />
+      
+    </item>
+    
+    <item>
+      <title>2026</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;2026&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-23T09:19:17.792009+00:00&#39;&gt;2026-01-23 09:19:17&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2...</description>
+      <link>https://raineblog.dpdns.org/whk/blog/archive/2026/</link>
+      <pubDate>Fri, 23 Jan 2026 09:19:26 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/archive/2026/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2026/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/archive/2026.png" type="image/png" length="38762" />
+      
+    </item>
+    
+    <item>
+      <title>随机变量综述：概念到实践的全景指南</title>
+      
+      
+        
+      <author>Bot</author>
+        
+      
+      
+      
+      <description>了解随机变量的核心概念、分布函数、期望和方差等关键统计特性，并探索其在信息熵、直方图和百分位数中的实际应用。</description>
+      <link>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E7%BB%BC%E8%BF%B0%E6%A6%82%E5%BF%B5%E5%88%B0%E5%AE%9E%E8%B7%B5%E7%9A%84%E5%85%A8%E6%99%AF%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Fri, 23 Jan 2026 09:15:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E7%BB%BC%E8%BF%B0%E6%A6%82%E5%BF%B5%E5%88%B0%E5%AE%9E%E8%B7%B5%E7%9A%84%E5%85%A8%E6%99%AF%E6%8C%87%E5%8D%97/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/01/23/%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E7%BB%BC%E8%BF%B0%E6%A6%82%E5%BF%B5%E5%88%B0%E5%AE%9E%E8%B7%B5%E7%9A%84%E5%85%A8%E6%99%AF%E6%8C%87%E5%8D%97/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/01/23/随机变量综述概念到实践的全景指南.png" type="image/png" length="72517" />
+      
+    </item>
+    
+    <item>
+      <title>组合数学 - 从零入门到进阶的全方位指南</title>
+      
+      
+        
+      <author>Bot</author>
+        
+      
+      
+      
+      <description>探索组合数学的核心概念与常用技巧，从四大原理到卡特兰数，帮助读者快速上手并提升解题效率。</description>
+      <link>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6---%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%88%B0%E8%BF%9B%E9%98%B6%E7%9A%84%E5%85%A8%E6%96%B9%E4%BD%8D%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Fri, 23 Jan 2026 09:15:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6---%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%88%B0%E8%BF%9B%E9%98%B6%E7%9A%84%E5%85%A8%E6%96%B9%E4%BD%8D%E6%8C%87%E5%8D%97/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6---%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%88%B0%E8%BF%9B%E9%98%B6%E7%9A%84%E5%85%A8%E6%96%B9%E4%BD%8D%E6%8C%87%E5%8D%97/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/01/23/组合数学---从零入门到进阶的全方位指南.png" type="image/png" length="76537" />
+      
+    </item>
+    
+    <item>
+      <title>数列基础全攻略：从概念到高级技巧</title>
+      
+      
+        
+      <author>Bot</author>
+        
+      
+      
+      
+      <description>通过通俗的文字、清晰的公式和典型例题，系统讲解数列的基本概念、等差/等比性质、裂项放缩以及常用求解技巧，让你快速掌握序列思维。</description>
+      <link>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E6%95%B0%E5%88%97%E5%9F%BA%E7%A1%80%E5%85%A8%E6%94%BB%E7%95%A5%E4%BB%8E%E6%A6%82%E5%BF%B5%E5%88%B0%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Fri, 23 Jan 2026 09:15:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E6%95%B0%E5%88%97%E5%9F%BA%E7%A1%80%E5%85%A8%E6%94%BB%E7%95%A5%E4%BB%8E%E6%A6%82%E5%BF%B5%E5%88%B0%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/01/23/%E6%95%B0%E5%88%97%E5%9F%BA%E7%A1%80%E5%85%A8%E6%94%BB%E7%95%A5%E4%BB%8E%E6%A6%82%E5%BF%B5%E5%88%B0%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/01/23/数列基础全攻略从概念到高级技巧.png" type="image/png" length="72828" />
+      
+    </item>
     
     <item>
       <title>博客</title>
@@ -3280,150 +3379,6 @@ RNA和蛋白质，从而执行细胞丰富多彩的功
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/2/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/2.png" type="image/png" length="49887" />
-      
-    </item>
-    
-    <item>
-      <title>细胞的增殖</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;细胞的增殖&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-04-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-04-19T22:19:04+08:00&#39;&gt;2025-04-19 22:19:04&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-04-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-0...</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/3/</link>
-      <pubDate>Sat, 19 Apr 2025 22:19:04 +0800</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="45825" />
-      
-    </item>
-    
-    <item>
-      <title>化学实验操作</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;化学实验操作&lt;/h1&gt;
-&lt;p&gt;一、实验室突发事件的应对措施&lt;/p&gt;
-&lt;p&gt;1.烫伤和烧伤：轻微烫伤或烧伤时，可先用洁净的冷水处理，降低局部温度，然后涂上烫伤药膏(若有水疱，尽量不要弄破)。严重时需及时就医。&lt;/p&gt;
-&lt;p&gt;2.创伤：用药棉把伤口清理干净(伤口处若有碎玻璃片，先要小心除去)，然后用双氧水或碘酒擦洗，最后用创可贴外敷。&lt;/p&gt;
-&lt;p&gt;3.酸或碱等腐蚀性试剂灼伤如果不慎将酸沾到皮肤上，应立即用大量水冲洗，然后用3% ~5%的NaHCO3溶液冲洗；如果不慎将碱沾到皮肤上，应立即用大量水冲洗，然后涂上1%的硼酸。&lt;/p&gt;
-&lt;p&gt;如果有少量酸(或碱)滴到实验桌上，应立即用湿抹布擦净，然后用水冲洗抹布。&lt;/p&gt;
-&lt;p&gt;4.着火：立即切断室内电源，移走可燃物。如果火势不大，用湿布或灭火毯覆盖火源以灭火；火势较猛时，选用合适的灭火器进行灭火，并立即与消防联系。&lt;/p&gt;
-&lt;p&gt;如果身上的衣物着火，立即用湿布灭火；如果燃烧面积较大，应躺在地上翻滚以达到灭火的目的。&lt;/p&gt;
-&lt;p&gt;二、常见废弃物的处理方法&lt;/p&gt;
-&lt;p&gt;1.废液的处理&lt;/p&gt;
-&lt;p&gt;(1)对于酸、碱、氧化剂或还原剂的废液，应分别收集。在确定酸与碱混合、氧化剂与还原剂混合无危险时，可用中和法或氧化还原法，每次各取少量分次混合后再排放。&lt;/p&gt;
-&lt;p&gt;...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/experiment/experiment/</link>
-      <pubDate>Sat, 19 Apr 2025 22:19:04 +0800</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/experiment/experiment/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/experiment/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/experiment.png" type="image/png" length="49166" />
-      
-    </item>
-    
-    <item>
-      <title>化学与生活</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;化学与生活&lt;/h1&gt;
-&lt;p&gt;海水淡化
-蒸馏法：将海水加热至沸腾气汽化，然后使水蒸气冷凝得到蒸馏水。&lt;/p&gt;
-&lt;p&gt;电渗析法：利用阴阳离子交换膜对水中阴阳离子的选择透过性，在外加直流电场的作用下，使水中一部分离子转移到另一部分水中，从而达到除盐的目的；&lt;/p&gt;
-&lt;p&gt;离子交换法：用离子交换树脂除去海水中的阴阳离子，得到去离子水。&lt;/p&gt;
-&lt;p&gt;注意：必须先通过阳离子，再通过阴离子，因为如果先通过阴离子，氢氧根沉淀能力很强，会与其它金属离子形成沉淀。&lt;/p&gt;
-&lt;p&gt;人类活动对环境的影响
-酸雨​&lt;/p&gt;
-&lt;p&gt;概念：$\rm{pH\le5.6}$ 的雨水&lt;/p&gt;
-&lt;p&gt;成因：主要是 $\rm{SO_2}$ 和 $\rm{NO_x}$ 及它们在大气中发生反应后的生成物溶于水形成的&lt;/p&gt;
-&lt;p&gt;硫酸型酸雨：$\rm{SO_2+H_2O\rightleftharpoons H_2SO_3\,,&amp;gt;2H_2SO_3+O_2=2H_2SO_4}$
-硝酸型酸雨：$\rm{2NO+O_2=2NO_2\,,&amp;gt;4NO_2+O_2+2H_2O=4HNO_3}$&lt;/p&gt;
-&lt;p&gt;危害：损伤农作物、破坏森林和草原、酸化土壤和湖泊、腐蚀建筑物&lt;/p&gt;
-&lt;p&gt;防治：&lt;/p&gt;
-&lt;p&gt;$\rm{2CaO+2SO_2+O_2\xlongequa...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/experiment/life/</link>
-      <pubDate>Sat, 19 Apr 2025 22:19:04 +0800</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/experiment/life/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/life/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/life.png" type="image/png" length="43586" />
-      
-    </item>
-    
-    <item>
-      <title>基因组与育种</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;基因组与育种&lt;/h1&gt;
-&lt;h2&gt;杂种优势&lt;/h2&gt;
-&lt;h3&gt;遗传学机制&lt;/h3&gt;
-&lt;p&gt;杂种优势（Heterosis）是指两个遗传组成不同的亲本杂交产生的杂种一代（F1）在生长势、生活力、繁殖力、抗逆性及产量等方面显著优于双亲均值的现象。其核心原理在于遗传异质性的互补与协同效应，通过基因组的重新组合，掩盖隐性有害基因、增强显性有利基因的表达，或通过杂合等位基因的互作形成超显性效应
-。&lt;/p&gt;
-&lt;p&gt;二、遗传学机制与理论假说
-经典假说：&lt;/p&gt;
-&lt;p&gt;显性假说（Dominance Hypothesis）：
-由Bruce（1910）提出，认为显性有利基因通过杂交覆盖隐性有害基因，形成互补效应。例如，若亲本基因型为AAbb和aaBB，F1代AaBb可同时携带显性有利基因A和B，显著提升性状表现。
-超显性假说（Overdominance Hypothesis）：
-Shull（1914）提出，杂合等位基因（如Aa）的互作效应超过纯合基因型（AA或aa），例如某些代谢酶在杂合状态下活性更高，促进生长和抗逆性
-。
-上位性假说（Epistasis Hypothesis）：
-强调非等位基因间的互作，例如基因A的显性表达可能抑制基因B的有害作用，形成...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/genetics/4/</link>
-      <pubDate>Sat, 19 Apr 2025 22:19:04 +0800</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/genetics/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/genetics/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/4.png" type="image/png" length="45363" />
-      
-    </item>
-    
-    <item>
-      <title>静力与动量</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;静力与动量&lt;/h1&gt;
-&lt;h2&gt;基本性质力&lt;/h2&gt;
-&lt;h3&gt;力&lt;/h3&gt;
-&lt;p&gt;力：力是物体间的相互作用。&lt;/p&gt;
-&lt;p&gt;力是改变物体运动状态或改变物体形状的原因。&lt;/p&gt;
-&lt;p&gt;力有大小、方向、作用点三个要素。&lt;/p&gt;
-&lt;p&gt;当我们把物体理想化为质点或刚体时，即不计物体的大小或不计物体形状变化时：&lt;/p&gt;
-&lt;p&gt;力是改变物体运动状态的原因。&lt;/p&gt;
-&lt;p&gt;力对于刚体具有可传递特性，即可以沿作用线滑移。&lt;/p&gt;
-&lt;p&gt;可以沿作用线方向改变作用点，而不改变该力对刚体的作用效果。&lt;/p&gt;
-&lt;p&gt;所以作用在刚体上的力，三个要素是：大小、方向和作用线。&lt;/p&gt;
-&lt;p&gt;如果物体平衡，即物体静止或保持运动状态不变，作用于物体的各力相互抵消。&lt;/p&gt;
-&lt;p&gt;受力分析的顺序：先主动力（外力、重力）、后被动力（弹力、摩擦力）。&lt;/p&gt;
-&lt;p&gt;注意：效果力由性质力充当，例如拉力支持力向心力。&lt;/p&gt;
-&lt;h3&gt;拉密定理&lt;/h3&gt;
-&lt;p&gt;拉密定理指出，如果三个共点力的合力为零，那么任一力与其相对角的正弦的比值均相等：&lt;/p&gt;
-&lt;p&gt;$$
-\dfrac{A}{\sin\alpha}=\dfrac{B}{\sin\beta}=\dfrac{C}{\sin\gamma}
-$$&lt;/p&gt;
-&lt;p&gt;其中 $A$、$B$、$C$ 为作用在一点（假设为 $P$）力的大小。&lt;/p&gt;
-&lt;p&gt;而 $\alpha$、$\beta...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/mechanics/1/</link>
-      <pubDate>Sun, 13 Apr 2025 21:42:37 +0800</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/mechanics/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/1.png" type="image/png" length="44477" />
       
     </item>
     
