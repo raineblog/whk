@@ -76,6 +76,12 @@ jobs:
           FEED_URL: https://raineblog.dpdns.org/whk/feed_json_updated.json
         run: mkdocs-autoblog
 
+      - name: Run publish-hashnode
+        env:
+          HASHNODE_API_KEY: ${{ secrets.HASHNODE_API_KEY }}
+          HASHNODE_HOST: https://rainesblog.hashnode.dev/
+        run: publish-hashnode
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
