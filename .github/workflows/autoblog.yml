@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '0 0 * * 1'
   workflow_dispatch:
+    inputs:
+      skip_update:
+        description: 'Skip the autoblog update step'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   packages: read
@@ -68,6 +74,7 @@ jobs:
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
       - name: Run mkdocs-autoblog
+        if: github.event.inputs.skip_update != 'true'
         env:
           PROVIDER: CEREBRAS
           PROVIDER_MODEL: gpt-oss-120b
