@@ -69,6 +69,12 @@ jobs:
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
       - name: Run mkdocs-autoblog
+        env:
+          PROVIDER: CEREBRAS
+          PROVIDER_MODEL: gpt-oss-120b
+          PROVIDER_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          BASE_URL: https://raineblog.dpdns.org/whk/
+          FEED_URL: https://raineblog.dpdns.org/whk/feed_json_updated.json
         run: mkdocs-autoblog
 
       - name: Create Pull Request
