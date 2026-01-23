@@ -1,0 +1,56 @@
+name: Quality Assurance
+
+on:
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  packages: read
+  id-token: write
+
+jobs:
+  quality-check:
+    name: Quality Assurance
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/raineblog/mkdocs-docker:latest
+    steps:
+      - name: Initialize repository checkout
+        uses: actions/checkout@v6
+        with:
+          submodules: true
+
+      - name: Configure Git Safe Directory
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+      - run: mkdocs-lint
+
+      - name: Validate hyperlink integrity
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config .github/lychee.toml docs
+          fail: false
+          failIfEmpty: false
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: [bot] automatic documentation quality updates"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          file_pattern: docs/**/*.md
+
+      - name: Output lint Job Summary
+        run: |
+          if [ -f ./lint.log ]; then
+            cat ./lint.log >> $GITHUB_STEP_SUMMARY
+          else
+            echo "✅ No broken links found (or report not generated)." >> $GITHUB_STEP_SUMMARY
+          fi

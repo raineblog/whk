@@ -22,23 +22,6 @@ permissions:
   id-token: write
 
 jobs:
-  quality-check:
-    name: Quality Assurance
-    if: github.event_name == 'schedule'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Initialize repository checkout
-        uses: actions/checkout@v6
-        with:
-          submodules: true
-
-      - name: Validate hyperlink integrity
-        uses: lycheeverse/lychee-action@v2
-        with:
-          args: --config .github/lychee.toml docs
-          fail: false
-          failIfEmpty: false
-
   deploy:
     name: Build and Deploy
     if: |
