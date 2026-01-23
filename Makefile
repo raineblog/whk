@@ -24,3 +24,12 @@ sub-update:
 sub-sync:
 	git submodule sync --recursive
 	git submodule update --init --recursive
+
+DOCKER_LOCAL_AUTOBLOG = docker run --rm -it \
+	-v $(CURDIR):/app/workspace \
+	-w /app/workspace \
+	--env-file .env \
+	mkdocs-autoblog:latest
+
+autoblog:
+	$(DOCKER_LOCAL_AUTOBLOG)

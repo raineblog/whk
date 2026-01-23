@@ -290,6 +290,12 @@
                     ]
                 }
             ]
+        },
+        {
+            "title": "Blog",
+            "children": [
+                "blog/index.md"
+            ]
         }
     ]
 }
