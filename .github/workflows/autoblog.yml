@@ -2,8 +2,7 @@ name: Autoblog Update
 
 on:
   schedule:
-    # Run at 00:00 on day-of-month 1 and 15 (Twice a month, approx every 2 weeks)
-    - cron: '0 0 1,15 * *'
+    - cron: '0 0 * * 1'
   workflow_dispatch:
 
 permissions:
