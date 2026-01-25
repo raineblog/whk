@@ -64,7 +64,7 @@ jobs:
         if: github.event.inputs.skip_update != 'true'
         env:
           PROVIDER: CEREBRAS
-          PROVIDER_MODEL: gpt-oss-120b
+          PROVIDER_MODEL: zai-glm-4.7
           PROVIDER_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
           BASE_URL: https://raineblog.dpdns.org/whk/
           FEED_URL: https://raineblog.dpdns.org/whk/feed_json_updated.json
