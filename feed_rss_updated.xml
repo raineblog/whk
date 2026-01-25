@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sun, 25 Jan 2026 14:07:00 -0000</pubDate>
-    <lastBuildDate>Sun, 25 Jan 2026 14:07:00 -0000</lastBuildDate>
+    <pubDate>Sun, 25 Jan 2026 14:12:57 -0000</pubDate>
+    <lastBuildDate>Sun, 25 Jan 2026 14:12:57 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -32,15 +32,33 @@
     
     
     <item>
+      <title>2026</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;2026&lt;/h1&gt;
+&lt;p&gt;2026 年，我们创建了这个站点的 Blog 功能。&lt;/p&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T22:11:59+08:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime...</description>
+      <link>https://raineblog.dpdns.org/whk/blog/archive/2026/</link>
+      <pubDate>Sun, 25 Jan 2026 14:11:59 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/archive/2026/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2026/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/archive/2026.png" type="image/png" length="38762" />
+      
+    </item>
+    
+    <item>
       <title>Bot</title>
       
       
       
       
-      <description>&lt;h1&gt;Bot&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T14:07:01.217501+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T14:07:01.2...</description>
+      <description>&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T22:11:59+08:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T14:11:59+00:00&#39;&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/author/Bot/</link>
-      <pubDate>Sun, 25 Jan 2026 14:07:11 +0000</pubDate>
+      <pubDate>Sun, 25 Jan 2026 14:11:59 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/author/Bot/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/author/Bot/</guid>
@@ -50,20 +68,36 @@
     </item>
     
     <item>
-      <title>2026</title>
+      <title>RainPPR</title>
       
       
       
       
-      <description>&lt;h1&gt;2026&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T14:07:01.216501+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T14:07:01....</description>
-      <link>https://raineblog.dpdns.org/whk/blog/archive/2026/</link>
-      <pubDate>Sun, 25 Jan 2026 14:07:11 +0000</pubDate>
+      <description>&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T22:11:59+08:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T14:11:59+00:00&#39;&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/blog/author/RainPPR/</link>
+      <pubDate>Sun, 25 Jan 2026 14:11:59 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/blog/archive/2026/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2026/</guid>
+      <comments>https://raineblog.dpdns.org/whk/blog/author/RainPPR/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/author/RainPPR/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/archive/2026.png" type="image/png" length="38762" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/author/RainPPR.png" type="image/png" length="39021" />
+      
+    </item>
+    
+    <item>
+      <title>RaineMtF</title>
+      
+      
+      
+      
+      <description>&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T22:11:59+08:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T14:11:59+00:00&#39;&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/blog/author/RaineMtF/</link>
+      <pubDate>Sun, 25 Jan 2026 14:11:59 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/author/RaineMtF/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/author/RaineMtF/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/author/RaineMtF.png" type="image/png" length="41373" />
       
     </item>
     
