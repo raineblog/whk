@@ -109,6 +109,8 @@ document$.subscribe(({ body }) => {
                 "—": "-",
                 "…": "\\dots",
                 "·": "\\cdot",
+                "->": "\\to",
+                "<-": "\\gets",
                 "\\pH": "p\\ce{H}",
                 "\\pOH": "p\\ce{OH}",
                 "\\con": "\\left[\\ce{#1}\\right]",

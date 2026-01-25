@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sun, 25 Jan 2026 13:33:12 -0000</pubDate>
-    <lastBuildDate>Sun, 25 Jan 2026 13:33:12 -0000</lastBuildDate>
+    <pubDate>Sun, 25 Jan 2026 13:49:55 -0000</pubDate>
+    <lastBuildDate>Sun, 25 Jan 2026 13:49:55 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;Bot&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T13:33:14.145120+00:00&#39;&gt;2026-01-25 13:33:14&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;20...</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T13:49:56.750270+00:00&#39;&gt;2026-01-25 13:49:56&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;20...</description>
       <link>https://raineblog.dpdns.org/whk/blog/author/Bot/</link>
-      <pubDate>Sun, 25 Jan 2026 13:33:24 +0000</pubDate>
+      <pubDate>Sun, 25 Jan 2026 13:50:07 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/author/Bot/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/author/Bot/</guid>
@@ -56,14 +56,34 @@
       
       
       <description>&lt;h1&gt;2026&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T13:33:14.145120+00:00&#39;&gt;2026-01-25 13:33:14&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2...</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T13:49:56.749270+00:00&#39;&gt;2026-01-25 13:49:56&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2...</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2026/</link>
-      <pubDate>Sun, 25 Jan 2026 13:33:24 +0000</pubDate>
+      <pubDate>Sun, 25 Jan 2026 13:50:06 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2026/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2026/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/archive/2026.png" type="image/png" length="38762" />
+      
+    </item>
+    
+    <item>
+      <title>最近更新</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;最近更新&lt;/h1&gt;
+&lt;!-- RECENTLY_UPDATED_DOCS --&gt;
+
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T21:48:57+08:00&#39;&gt;2026-01-25 21:48:57&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated...</description>
+      <link>https://raineblog.dpdns.org/whk/intro/recent/</link>
+      <pubDate>Sun, 25 Jan 2026 21:48:57 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/intro/recent/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/intro/recent/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/intro/recent.png" type="image/png" length="43777" />
       
     </item>
     
@@ -3381,6 +3401,1082 @@ RNA和蛋白质，从而执行细胞丰富多彩的功
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/3/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="45825" />
+      
+    </item>
+    
+    <item>
+      <title>化学实验操作</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;化学实验操作&lt;/h1&gt;
+&lt;p&gt;一、实验室突发事件的应对措施&lt;/p&gt;
+&lt;p&gt;1.烫伤和烧伤：轻微烫伤或烧伤时，可先用洁净的冷水处理，降低局部温度，然后涂上烫伤药膏(若有水疱，尽量不要弄破)。严重时需及时就医。&lt;/p&gt;
+&lt;p&gt;2.创伤：用药棉把伤口清理干净(伤口处若有碎玻璃片，先要小心除去)，然后用双氧水或碘酒擦洗，最后用创可贴外敷。&lt;/p&gt;
+&lt;p&gt;3.酸或碱等腐蚀性试剂灼伤如果不慎将酸沾到皮肤上，应立即用大量水冲洗，然后用3% ~5%的NaHCO3溶液冲洗；如果不慎将碱沾到皮肤上，应立即用大量水冲洗，然后涂上1%的硼酸。&lt;/p&gt;
+&lt;p&gt;如果有少量酸(或碱)滴到实验桌上，应立即用湿抹布擦净，然后用水冲洗抹布。&lt;/p&gt;
+&lt;p&gt;4.着火：立即切断室内电源，移走可燃物。如果火势不大，用湿布或灭火毯覆盖火源以灭火；火势较猛时，选用合适的灭火器进行灭火，并立即与消防联系。&lt;/p&gt;
+&lt;p&gt;如果身上的衣物着火，立即用湿布灭火；如果燃烧面积较大，应躺在地上翻滚以达到灭火的目的。&lt;/p&gt;
+&lt;p&gt;二、常见废弃物的处理方法&lt;/p&gt;
+&lt;p&gt;1.废液的处理&lt;/p&gt;
+&lt;p&gt;(1)对于酸、碱、氧化剂或还原剂的废液，应分别收集。在确定酸与碱混合、氧化剂与还原剂混合无危险时，可用中和法或氧化还原法，每次各取少量分次混合后再排放。&lt;/p&gt;
+&lt;p&gt;...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/experiment/experiment/</link>
+      <pubDate>Sat, 19 Apr 2025 22:19:04 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/experiment/experiment/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/experiment/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/experiment.png" type="image/png" length="49166" />
+      
+    </item>
+    
+    <item>
+      <title>化学与生活</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;化学与生活&lt;/h1&gt;
+&lt;p&gt;海水淡化
+蒸馏法：将海水加热至沸腾气汽化，然后使水蒸气冷凝得到蒸馏水。&lt;/p&gt;
+&lt;p&gt;电渗析法：利用阴阳离子交换膜对水中阴阳离子的选择透过性，在外加直流电场的作用下，使水中一部分离子转移到另一部分水中，从而达到除盐的目的；&lt;/p&gt;
+&lt;p&gt;离子交换法：用离子交换树脂除去海水中的阴阳离子，得到去离子水。&lt;/p&gt;
+&lt;p&gt;注意：必须先通过阳离子，再通过阴离子，因为如果先通过阴离子，氢氧根沉淀能力很强，会与其它金属离子形成沉淀。&lt;/p&gt;
+&lt;p&gt;人类活动对环境的影响
+酸雨​&lt;/p&gt;
+&lt;p&gt;概念：$\rm{pH\le5.6}$ 的雨水&lt;/p&gt;
+&lt;p&gt;成因：主要是 $\rm{SO_2}$ 和 $\rm{NO_x}$ 及它们在大气中发生反应后的生成物溶于水形成的&lt;/p&gt;
+&lt;p&gt;硫酸型酸雨：$\rm{SO_2+H_2O\rightleftharpoons H_2SO_3\,,&amp;gt;2H_2SO_3+O_2=2H_2SO_4}$
+硝酸型酸雨：$\rm{2NO+O_2=2NO_2\,,&amp;gt;4NO_2+O_2+2H_2O=4HNO_3}$&lt;/p&gt;
+&lt;p&gt;危害：损伤农作物、破坏森林和草原、酸化土壤和湖泊、腐蚀建筑物&lt;/p&gt;
+&lt;p&gt;防治：&lt;/p&gt;
+&lt;p&gt;$\rm{2CaO+2SO_2+O_2\xlongequa...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/experiment/life/</link>
+      <pubDate>Sat, 19 Apr 2025 22:19:04 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/experiment/life/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/life/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/life.png" type="image/png" length="43586" />
+      
+    </item>
+    
+    <item>
+      <title>基因组与育种</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;基因组与育种&lt;/h1&gt;
+&lt;h2&gt;杂种优势&lt;/h2&gt;
+&lt;h3&gt;遗传学机制&lt;/h3&gt;
+&lt;p&gt;杂种优势（Heterosis）是指两个遗传组成不同的亲本杂交产生的杂种一代（F1）在生长势、生活力、繁殖力、抗逆性及产量等方面显著优于双亲均值的现象。其核心原理在于遗传异质性的互补与协同效应，通过基因组的重新组合，掩盖隐性有害基因、增强显性有利基因的表达，或通过杂合等位基因的互作形成超显性效应
+。&lt;/p&gt;
+&lt;p&gt;二、遗传学机制与理论假说
+经典假说：&lt;/p&gt;
+&lt;p&gt;显性假说（Dominance Hypothesis）：
+由Bruce（1910）提出，认为显性有利基因通过杂交覆盖隐性有害基因，形成互补效应。例如，若亲本基因型为AAbb和aaBB，F1代AaBb可同时携带显性有利基因A和B，显著提升性状表现。
+超显性假说（Overdominance Hypothesis）：
+Shull（1914）提出，杂合等位基因（如Aa）的互作效应超过纯合基因型（AA或aa），例如某些代谢酶在杂合状态下活性更高，促进生长和抗逆性
+。
+上位性假说（Epistasis Hypothesis）：
+强调非等位基因间的互作，例如基因A的显性表达可能抑制基因B的有害作用，形成...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/genetics/4/</link>
+      <pubDate>Sat, 19 Apr 2025 22:19:04 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/genetics/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/genetics/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/4.png" type="image/png" length="45363" />
+      
+    </item>
+    
+    <item>
+      <title>静力与动量</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;静力与动量&lt;/h1&gt;
+&lt;h2&gt;基本性质力&lt;/h2&gt;
+&lt;h3&gt;力&lt;/h3&gt;
+&lt;p&gt;力：力是物体间的相互作用。&lt;/p&gt;
+&lt;p&gt;力是改变物体运动状态或改变物体形状的原因。&lt;/p&gt;
+&lt;p&gt;力有大小、方向、作用点三个要素。&lt;/p&gt;
+&lt;p&gt;当我们把物体理想化为质点或刚体时，即不计物体的大小或不计物体形状变化时：&lt;/p&gt;
+&lt;p&gt;力是改变物体运动状态的原因。&lt;/p&gt;
+&lt;p&gt;力对于刚体具有可传递特性，即可以沿作用线滑移。&lt;/p&gt;
+&lt;p&gt;可以沿作用线方向改变作用点，而不改变该力对刚体的作用效果。&lt;/p&gt;
+&lt;p&gt;所以作用在刚体上的力，三个要素是：大小、方向和作用线。&lt;/p&gt;
+&lt;p&gt;如果物体平衡，即物体静止或保持运动状态不变，作用于物体的各力相互抵消。&lt;/p&gt;
+&lt;p&gt;受力分析的顺序：先主动力（外力、重力）、后被动力（弹力、摩擦力）。&lt;/p&gt;
+&lt;p&gt;注意：效果力由性质力充当，例如拉力支持力向心力。&lt;/p&gt;
+&lt;h3&gt;拉密定理&lt;/h3&gt;
+&lt;p&gt;拉密定理指出，如果三个共点力的合力为零，那么任一力与其相对角的正弦的比值均相等：&lt;/p&gt;
+&lt;p&gt;$$
+\dfrac{A}{\sin\alpha}=\dfrac{B}{\sin\beta}=\dfrac{C}{\sin\gamma}
+$$&lt;/p&gt;
+&lt;p&gt;其中 $A$、$B$、$C$ 为作用在一点（假设为 $P$）力的大小。&lt;/p&gt;
+&lt;p&gt;而 $\alpha$、$\beta...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/mechanics/1/</link>
+      <pubDate>Sun, 13 Apr 2025 21:42:37 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mechanics/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/1.png" type="image/png" length="44477" />
+      
+    </item>
+    
+    <item>
+      <title>运动与能量</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;运动与能量&lt;/h1&gt;
+&lt;p&gt;这一部分的根本是受力分析，因为这里面绝大部分的力都是不平衡的。&lt;/p&gt;
+&lt;p&gt;其实在后面几乎所有的力学都需要受力分析，虽然可能简单题不需要画出来也能想清楚。&lt;/p&gt;
+&lt;p&gt;受力分析的一个常用方法就是整体法，整体法一定是能用就用的。&lt;/p&gt;
+&lt;h2&gt;牛顿运动定律&lt;/h2&gt;
+&lt;h3&gt;牛顿第一定律&lt;/h3&gt;
+&lt;p&gt;牛顿第一定律表述为：不受外力作用的物体必将作匀速直线运动或保持静止。&lt;/p&gt;
+&lt;p&gt;这条定律就其叙述的内容本身提出了力和惯性两个重要概念：牛顿把改变物体运动状态的因素归于物体受到了力，而运动物体自身又具有保持其匀速直线运动或保持静止的属性，并称此属性为惯性。&lt;/p&gt;
+&lt;p&gt;根据运动的相对性，对于不同的参照系，物体往往有不同的加速度，在一个参照系中作匀速运动的物体，在另一个参照系中可能有加速度。&lt;/p&gt;
+&lt;p&gt;牛顿第一定律断言存在着一个参照系，在此参照系中，物体的运动遵循牛顿第一定律。这个参照系称为惯性系，因此，第一定律又称为惯性定律。&lt;/p&gt;
+&lt;p&gt;运动的相对性告诉我们，对于任何两个相互作匀速运动的参照系，同一质点具有相同的加速度。因此，只要存在一个惯性系，那么相对于此惯性系作匀速运动的所有参照系都是惯性系。&lt;/p&gt;
+&lt;p&gt;总结：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;假若施加于某物体的外力为零，则该...&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/mechanics/2/</link>
+      <pubDate>Sun, 13 Apr 2025 21:42:37 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mechanics/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/2.png" type="image/png" length="45810" />
+      
+    </item>
+    
+    <item>
+      <title>动力学模型</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;动力学模型&lt;/h1&gt;
+&lt;h2&gt;动力学模型&lt;/h2&gt;
+&lt;h3&gt;晾衣绳模型&lt;/h3&gt;
+&lt;p&gt;等腰三角形、晾衣杆问题，特征为动滑轮通过刚性轻绳固定，有公式：&lt;/p&gt;
+&lt;p&gt;$$
+F=\dfrac{G}{2\cos\theta}
+$$&lt;/p&gt;
+&lt;p&gt;特征；$F$ 仅与 $\theta$ 有关，上下移动绳子端点力不变，端点水平靠近拉力下降、远离拉力上升。&lt;/p&gt;
+&lt;p&gt;物体的平衡可以分为稳定平衡、不稳定平衡和随遇平衡三种。&lt;/p&gt;
+&lt;h3&gt;弹簧突变&lt;/h3&gt;
+&lt;p&gt;因为弹簧的弹力无法突变，因此我们：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;受力分析初状态，得出弹簧弹力。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;把弹簧弹力当做外力，重新受力分析。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;沿绳方向速度、受力大小一定相等。&lt;/p&gt;
+&lt;h3&gt;斜面模型&lt;/h3&gt;
+&lt;p&gt;斜面模型「物体是否会下滑」，设斜面与水平面夹角为 $\theta$：&lt;/p&gt;
+&lt;p&gt;受力分析，得 $G_x=mg\sin\theta$，$f=\mu mg\cos\theta$。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;若物体下滑：$G_x&amp;gt;f \Rightarrow G_x/f&amp;gt;1 \Rightarrow \tan\theta/\mu&amp;gt;1 \Rightarrow \tan\theta&amp;gt;\mu$。&lt;/li&gt;
+&lt;li&gt;同理，若物体静止不动，$G_x\le f \Rightarrow \tan\th...&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/mechanics/3/</link>
+      <pubDate>Sun, 13 Apr 2025 21:42:37 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mechanics/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/3.png" type="image/png" length="45533" />
+      
+    </item>
+    
+    <item>
+      <title>分子的结构</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;分子的结构&lt;/h1&gt;
+&lt;h2&gt;共价键模型&lt;/h2&gt;
+&lt;h3&gt;分子轨道理论&lt;/h3&gt;
+&lt;p&gt;根据已学的知识，氧分子的结构是 $\ce{O \bond{2} O}$，因此，氧分子中的电子已经完全配对，氧分子应该是逆磁性分子。但事实上，将液态氧倒入配有磁铁的仪器中时，氧分子被磁场吸引而悬浮在磁场中，这说明氧分子是顺磁性分子，即分子中存在未成对电子。&lt;/p&gt;
+&lt;p&gt;利用分子轨道理论能够很好地解释氧分子是顺磁性分子这一事实。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;分子轨道理论认为，分子中的每个电子都是在整个分子中运动的，分子中的单电子运动状态可以用分子轨道来描述。分子轨道可以用能级相近的原子轨道线性组合来表示。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;光电子能谱为分子轨道理论提供了实验基础，若入射光的能量超过一定值，就能够将电子击出，由此产生的电子称为光电子。通过光电子能谱可以了解分子轨道能级的信息。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;共价键及其性质&lt;/h3&gt;
+&lt;p&gt;定义：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;共价键：原子间通过共用电子对形成的相互作用。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;共价化合物：只有共价键的化合物称为共价化合物。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;根据共用电子对数，可以分为单键、双键、三键。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注意区分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;含有离子键即为离子化合物，只有共价键才为共价化合物。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;离子化合物中可能含有共...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/structure/3/</link>
+      <pubDate>Sun, 30 Mar 2025 21:51:14 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/structure/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/3.png" type="image/png" length="45511" />
+      
+    </item>
+    
+    <item>
+      <title>物质及元素</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;物质及元素&lt;/h1&gt;
+&lt;p&gt;性质本身是能力、本领、也可以说是对外所起的作用，是物质或体系呈现给客观世界的一种形象或状态。&lt;/p&gt;
+&lt;p&gt;对于化学性质有哪些，没有确定的结论，一般认为发生化学变化中才表现出来的性质就是化学性质；没有发生化学变化就表现出来的性质是物理性质。&lt;/p&gt;
+&lt;h2&gt;物质的分类&lt;/h2&gt;
+&lt;h3&gt;分类标准&lt;/h3&gt;
+&lt;p&gt;&lt;img alt=&#34;物质&#34; src=&#34;./物质.svg&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
+&lt;p&gt;纯净物注意：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;化学式相同，并不一定就是纯净物。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;高聚物，又称高分子化合物，由于其分子中的链节数目不同，相对分子质量也不同，因此高聚物一定是混合物。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;水合盐又称结晶水合物，组成确定、性质确定，属于纯净物。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;均匀不能成为判定是否为纯净物的依据，例如气体和互溶的液体。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;同一物质、不同状态的物质混在一起，仍然属于化学上的纯净物。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;除高聚物之外，凡是使用化学式表示的物质都是按照纯净物来对待和使用的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;一般不认为光或热为能量，不属于物质，就像单质不属于电解质和非电解质范畴一样。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;混合物中对应的不同成分一定具有不同的性质，特别是物理性质，可以用物理方法鉴别和分离。有时物理状态相同，不便分...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/</link>
+      <pubDate>Sat, 29 Mar 2025 19:23:26 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/index.png" type="image/png" length="47564" />
+      
+    </item>
+    
+    <item>
+      <title>硼族元素概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;硼族元素概述&lt;/h1&gt;
+&lt;h2&gt;铝单质&lt;/h2&gt;
+&lt;h3&gt;铝单质概况&lt;/h3&gt;
+&lt;p&gt;铝是地壳中含量最高的金属，大多以化合态存在。铝制餐具不宜用来蒸煮或长时间存放酸性或碱性食物。&lt;/p&gt;
+&lt;p&gt;铝土矿是最重要的一种铝矿石，其主要成分为 $\ce{Al2O3}$（也以氢氧化铝形式存在），其中还含有针铁矿、赤铁矿、高岭土（含二氧化硅）和少量的二氧化钛。&lt;/p&gt;
+&lt;p&gt;三氧化二铝同时为绿宝石和蓝宝石的主要成分。&lt;/p&gt;
+&lt;p&gt;纯铝的硬度和强度较小，不适合制造机器零件等。向铝中加入少量合金元素，可制成铝合金。铝合金是目前用途广泛的合金之一。&lt;/p&gt;
+&lt;p&gt;硬铝中含铜、镁、锰、硅，它的密度小、强度高，具有较强的抗腐蚀能力，是制造飞机和宇宙飞船的理想材料。&lt;/p&gt;
+&lt;h3&gt;铝的化学性质&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;还原性：&lt;/p&gt;
+&lt;p&gt;| 氧化剂 | 反应方程式 |
+| :-: | :-: |
+| $\ce{O2}$ | $\ce{4Al + 3O2 -&amp;gt; 2Al2O3}$ |
+| $\ce{Cl2}$ | $\ce{2Al + 3Cl2 -&amp;gt; 2AlCl3}$ |
+| $\ce{S}$ | $\ce{2Al + 3S -&amp;gt; Al2S3}$ |&lt;/p&gt;
+&lt;p&gt;其中三氯...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/al/</link>
+      <pubDate>Sat, 29 Mar 2025 19:23:26 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/al/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/al/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/al.png" type="image/png" length="50362" />
+      
+    </item>
+    
+    <item>
+      <title>卤族元素概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;卤族元素概述&lt;/h1&gt;
+&lt;h2&gt;卤素性质概述&lt;/h2&gt;
+&lt;h3&gt;卤素物理性质&lt;/h3&gt;
+&lt;p&gt;卤族元素普遍在 $\ce{CCl4}$ 中溶解度大于水，相似相容。&lt;/p&gt;
+&lt;p&gt;卤族元素颜色：&lt;/p&gt;
+&lt;p&gt;| | 氯元素 $\ce{Cl}$ | 溴元素 $\ce{Br}$ | 碘元素 $\ce{I}$ |
+| :-: | :-: | :-: | :-: |
+| 单质 | 黄绿色气体 | 深红棕色气体 | 紫黑色固体 |
+| 卤化银沉淀 | 白色 | 淡黄色 | 黄色 |
+| 水溶液颜色 | 黄绿色 | 橙色 | 黄褐色 |
+| 四氯化碳溶液颜色 | 黄绿色 | 橙红色 | 紫红色 |&lt;/p&gt;
+&lt;p&gt;从上到下，熔沸点升高，非金属性减弱，与氢气反应依次减弱。&lt;/p&gt;
+&lt;p&gt;$$
+\ce{H2 + F2 -&amp;gt;[暗处爆炸] 2HF}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\ce{H2 + Cl2 -&amp;gt;[光照或点燃] 2HCl}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\ce{H2 + Br2 -&amp;gt;[加热] 2HBr}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\ce{H2 + I2 &amp;lt;=&amp;gt;[高温] 2HI}
+$$&lt;/p&gt;
+&lt;p&gt;氯气的物理性质：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;黄绿色气体。&lt;/li&gt;
+&lt;li&gt;有刺激性气味。&lt;/li&gt;
+&lt;li&gt;密度大于水。&lt;/li&gt;
+&lt;li&gt;可溶于水。&lt;/li&gt;
+&lt;li&gt;有毒。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;卤素化学性...&lt;/h3&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/cl/</link>
+      <pubDate>Sat, 29 Mar 2025 19:23:26 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/cl/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/cl/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/cl.png" type="image/png" length="49918" />
+      
+    </item>
+    
+    <item>
+      <title>过渡元素概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;过渡元素概述&lt;/h1&gt;
+&lt;h2&gt;铁单质&lt;/h2&gt;
+&lt;h3&gt;物理性质&lt;/h3&gt;
+&lt;p&gt;固体，铁块为银白色，铁粉为黑色。&lt;/p&gt;
+&lt;p&gt;常见形式为化合态，游离态存在于陨铁中。&lt;/p&gt;
+&lt;p&gt;有矿石：黄铁矿（$\ce{FeS2}$）、赤铁矿（$\ce{Fe2O3}$）、磁铁矿（$\ce{Fe3O4}$）、黄铜矿（$\ce{FeCuS2}$）。&lt;/p&gt;
+&lt;p&gt;不锈钢的合金元素主要是铬（$\ce{Cr}$）和镍（$\ce{Ni}$）。&lt;/p&gt;
+&lt;p&gt;碳素钢的分类：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;低碳钢（含碳量少于 $0.3\%$）：韧性好，焊接性好，强度低。用于制造钢丝、钢管、钢板等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;中碳钢（含碳量在 $0.3\%\sim0.6\%$）：强度高，韧性和加工性好。用于制造钢轨、车轮和建材等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;高碳钢（含碳量大于 $0.6\%$）：硬而脆。用于制造器械、弹簧和刀具等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;化学性质&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;与氧气反应：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;常温：$\ce{Fe + O2 + H2O -&amp;gt; Fe2O3*xH2O}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;点燃：$\ce{3Fe + 2O2 -&amp;gt;[点燃] Fe3O4}$，火星四射。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;与酸反应：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;与非氧化性酸反应：$\ce{Fe + 2H+ -&amp;gt; ...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/fe/</link>
+      <pubDate>Sat, 29 Mar 2025 19:23:26 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/fe/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/fe/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/fe.png" type="image/png" length="50260" />
+      
+    </item>
+    
+    <item>
+      <title>碱土金属概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;碱土金属概述&lt;/h1&gt;
+&lt;h2&gt;镁概述&lt;/h2&gt;
+&lt;h2&gt;镁的化学性质&lt;/h2&gt;
+&lt;p&gt;镁比较活泼，&lt;/p&gt;
+&lt;p&gt;$$
+\ce{2Mg + O2 = 2MgO}
+$$&lt;/p&gt;
+&lt;p&gt;这个反应剧烈发光发热，通常作为光源，引发氢气、氯气混合气体爆炸，或者作为热源，引发铝热反应。&lt;/p&gt;
+&lt;p&gt;镁也可以在二氧化碳中燃烧，置换出碳单质。&lt;/p&gt;
+&lt;p&gt;$$
+\ce{2Mg + CO2 = 2MgO + C}
+$$&lt;/p&gt;
+&lt;p&gt;氧化镁性质稳定，难溶、难熔，与氧化铝类似可以作为防火材料。&lt;/p&gt;
+&lt;h3&gt;海水制镁&lt;/h3&gt;
+&lt;p&gt;海水中富含镁离子，通常以 $\ce{MgSO4}$ 为主要存在形式。&lt;/p&gt;
+&lt;p&gt;我们向母液（提取粗盐后的海水）中加入石灰乳，产生氢氧化镁沉淀，过滤，加入足量稀盐酸，富集并在氯化氢氛围中蒸干，得到氯化镁固体，电解熔融氯化镁制取镁。&lt;/p&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content dat...</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/mg/</link>
+      <pubDate>Sat, 29 Mar 2025 19:23:26 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/mg/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/mg/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/mg.png" type="image/png" length="48747" />
+      
+    </item>
+    
+    <item>
+      <title>氮族元素概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;氮族元素概述&lt;/h1&gt;
+&lt;h2&gt;氮气及固氮&lt;/h2&gt;
+&lt;h3&gt;固氮概述&lt;/h3&gt;
+&lt;p&gt;固氮的定义：从氮气 $\ce{N2}$ 到各种含氮化合物。&lt;/p&gt;
+&lt;p&gt;$$
+\ce{N2 -&amp;gt;[O2,闪电] NO -&amp;gt;[O2] NO2 -&amp;gt;[H2O] HNO3 -&amp;gt; 降雨}
+$$
+/// caption
+酸雨的形成过程
+///&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;自然固氮：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;高能固氮：闪电。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;生物固氮：豆科植物的根瘤菌。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;人工固氮：$\ce{N2 + 3H2 &amp;lt;=&amp;gt;[高温高压][催化剂] 2NH3}$（工业合成氨）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;工业合成氨&lt;/h3&gt;
+&lt;p&gt;反应原理：&lt;/p&gt;
+&lt;p&gt;$$
+\ce{N2(g) + 3H2(g) &amp;lt;=&amp;gt; 2NH3(g)}\quad\Delta H = \pu{-91.5kJ/mol}
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;压强效应：增大压强，反应向右移动。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;温度效应：降低温度，反应向右移动。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;哈伯法制氨的过程，即使高温会降低产率，温度仍被设定为较高值以保证反应的速率快速。对于这类放热并且反应速率随温度升高而升高的反应，一般都会取一个折中的反应温度。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;催化剂：铁触媒。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;温度：一般取催化剂的适宜温度，即约 $\pu{700K}$...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/n/</link>
+      <pubDate>Sat, 29 Mar 2025 19:23:26 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/n/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/n/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/n.png" type="image/png" length="52031" />
+      
+    </item>
+    
+    <item>
+      <title>碱金属概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;碱金属概述&lt;/h1&gt;
+&lt;h2&gt;碱金属的性质&lt;/h2&gt;
+&lt;h3&gt;碱金属性质概述&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;碱金属大多为银白色固体（铯 Cs 略带金色）、密度小柔软、熔沸点低。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;按照从上到下，$\ce{Li,Na,K,Rb,Cs}$，熔沸点降低、密度增大（钾反常小），与氧气反应更加复杂。&lt;/p&gt;
+&lt;p&gt;$$
+\ce{Li + O2 -&amp;gt; LiO2}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\ce{Na + O2 -&amp;gt; Na2O, Na2O2}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\ce{K + O2 -&amp;gt; K2O, K2O2, KO2, KO3}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;对应的碱，除了氢氧化锂外均为强碱，且碱性依次增强。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;钠单质的物理性质&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;质软。&lt;/li&gt;
+&lt;li&gt;银白色金属光泽。&lt;/li&gt;
+&lt;li&gt;常温下是固态。&lt;/li&gt;
+&lt;li&gt;密度比水小，比煤油大。&lt;/li&gt;
+&lt;li&gt;熔点低。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;钠单质的化学性质&lt;/h2&gt;
+&lt;h3&gt;钠与氧气的反应&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;常温：迅速被氧化为 $\ce{Na2O}$，失去金属光泽。&lt;/p&gt;
+&lt;p&gt;$$
+\ce{4Na + O2 -&amp;gt; 2Na2O}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;加热：先熔化后燃烧，发出黄色火焰，生成淡黄色固体。
+...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/na/</link>
+      <pubDate>Sat, 29 Mar 2025 19:23:26 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/na/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/na/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/na.png" type="image/png" length="48111" />
+      
+    </item>
+    
+    <item>
+      <title>氧族元素概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;氧族元素概述&lt;/h1&gt;
+&lt;h2&gt;硫单质&lt;/h2&gt;
+&lt;h3&gt;硫单质的物理性质&lt;/h3&gt;
+&lt;p&gt;游离态主要存在于火山口，化合态包括硫酸盐和硫化物。&lt;/p&gt;
+&lt;p&gt;常见的含硫矿石：黄铁矿（$\ce{FeS2}$）、黄铜矿（$\ce{FeCuS2}$）、辰砂朱砂（$\ce{HgS}$）、雄黄（$\ce{As4S4}$）、雌黄（$\ce{As2S3}$）、芒硝（$\ce{Na2SO4&lt;em&gt;10H2O}$）、生石膏（$\ce{2CaSO4&lt;/em&gt;H2O}$）、熟石膏（$\ce{CaSO4*2H2O}$）。&lt;/p&gt;
+&lt;p&gt;硫（硫磺）为黄色到浅黄色固体，存在同素异形体（正交硫、单斜硫）：$\ce{S2,S4,S6,S8}$。&lt;/p&gt;
+&lt;p&gt;不溶于水、微溶于酒精、易溶于二硫化碳（$\ce{CS2}$），因此常用二硫化碳洗涤试管上的硫磺，硫单质在水溶液中的反应通常先用酒精浸泡硫磺。&lt;/p&gt;
+&lt;h3&gt;硫的化学性质&lt;/h3&gt;
+&lt;p&gt;硫单质的氧化性：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;与金属反应：生成较低价硫化物。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;$\ce{2Na + S -&amp;gt;[研磨] Na2S}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\ce{Fe + S -&amp;gt;[\triangle] FeS}$（黑色固体）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\ce{Cu + S -&amp;gt;[\tr...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/s/</link>
+      <pubDate>Sat, 29 Mar 2025 19:23:26 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/s/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/s/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/s.png" type="image/png" length="50672" />
+      
+    </item>
+    
+    <item>
+      <title>碳族元素概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;碳族元素概述&lt;/h1&gt;
+&lt;h2&gt;硅单质&lt;/h2&gt;
+&lt;h3&gt;硅的物理性质&lt;/h3&gt;
+&lt;p&gt;硅有同素异形体：晶体硅、无定形硅。下文除非特殊说明，默认指晶体硅。&lt;/p&gt;
+&lt;p&gt;硅为灰黑色固体，熔沸点高，自然界中主要存在形式为硅酸盐和二氧化硅。&lt;/p&gt;
+&lt;p&gt;硅是现在使用最多的半导体材料，曾经最早使用的是锗 $\ce{Ge}$。&lt;/p&gt;
+&lt;h3&gt;硅的化学性质&lt;/h3&gt;
+&lt;p&gt;与强碱反应：&lt;/p&gt;
+&lt;p&gt;$$
+\ce{Si + 2NaOH + H2O -&amp;gt; Na2SiO3 + 2H2 ^}
+$$&lt;/p&gt;
+&lt;p&gt;与 $\ce{HF}$（唯一可以溶解硅的酸）：&lt;/p&gt;
+&lt;p&gt;$$
+\ce{Si + 4HF -&amp;gt; SiF4 ^ + 2H2 ^}
+$$&lt;/p&gt;
+&lt;h3&gt;硅的工业制取&lt;/h3&gt;
+&lt;p&gt;粗硅的制备：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;$\ce{SiO2 + 2C -&amp;gt;[高温] Si(粗硅) + 2CO}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;注意：此处碳做还原剂，不能说明碳的非金属性比硅强。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;纯硅的制备：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\ce{Si + 2Cl2 -&amp;gt;[高温] SiCl4}$。&lt;/li&gt;
+&lt;li&gt;$\ce{SiCl4 + 2H2 -&amp;gt;[高温] Si(粗硅) + 4HCl}$。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;总结如下：&lt;/p&gt;
+&lt;p&gt;$$
+\ce{SiO2 -&amp;gt;[C][高温] Si(粗硅) -&amp;gt;[Cl2] SiCl4 -&amp;gt;[...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/si/</link>
+      <pubDate>Sat, 29 Mar 2025 19:23:26 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/si/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/si/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/si.png" type="image/png" length="51397" />
+      
+    </item>
+    
+    <item>
+      <title>变异与进化</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;变异与进化&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-03-29&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-03-29T19:23:26+08:00&#39;&gt;2025-03-29 19:23:26&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-04-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-0...</description>
+      <link>https://raineblog.dpdns.org/whk/science/genetics/1/</link>
+      <pubDate>Sat, 29 Mar 2025 19:23:26 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/genetics/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/genetics/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/1.png" type="image/png" length="44339" />
+      
+    </item>
+    
+    <item>
+      <title>孟德尔遗传规律</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;孟德尔遗传规律&lt;/h1&gt;
+&lt;h2&gt;孟德尔规律基础&lt;/h2&gt;
+&lt;h3&gt;性状和基因&lt;/h3&gt;
+&lt;p&gt;性状：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;性状：生物体具有的形态结构和生理特征。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;相对性状：同种生物的同一性状的不同表现类型。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;隐性性状：一对相对性状的亲本杂交，杂种子一代未显现出来的性状。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;显性性状：一对相对性状的亲本杂交，杂种子一代显现出来的性状。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;性状分离：在杂种后代中，同时出现显性性状和隐性性状的现象。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;丹麦生物学家约翰逊给孟德尔的“遗传因子”一词起了一个新名字，叫作“基因”，并且提出了表型（也叫表现型）和基因型的概念：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;表型指生物个体表现出来的性状，如豌豆的高茎和矮茎。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;与表型有关的基因组成叫作基因型，如高茎豌豆的基因型是 DD 或 Dd，矮茎豌豆的基因型是 dd。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;控制相对性状的基因，叫作等位基因，如 D 和 d。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;基因型与表现型的关系：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;基因型是性状表现的内在因素，在很大程度上决定表现型，而表现型是基因型的表现形式。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;表现型（生物的性状表现）是基因型（遗传物质组成）和环境条件共同作用的结果。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;孟德尔的假说&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;生物的性状是由遗传因子决定的。这些因子就像...&lt;/li&gt;
+&lt;/ol&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/genetics/2/</link>
+      <pubDate>Sat, 29 Mar 2025 19:23:26 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/genetics/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/genetics/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/2.png" type="image/png" length="50781" />
+      
+    </item>
+    
+    <item>
+      <title>人类遗传病</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;人类遗传病&lt;/h1&gt;
+&lt;h2&gt;遗传病概述&lt;/h2&gt;
+&lt;h3&gt;单基因遗传病&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;判断是否是细胞质、伴 Y 染色体遗传。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;判断显隐性，依据「无中生有，凭空消失」。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;判断是否是伴 X 染色体遗传。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;判断是否是常染色体遗传。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;遗传病的分类&lt;/h2&gt;
+&lt;h3&gt;常染色体显性遗传&lt;/h3&gt;
+&lt;h3&gt;常染色体隐性遗传&lt;/h3&gt;
+&lt;h3&gt;伴性遗传概述&lt;/h3&gt;
+&lt;h3&gt;伴 X 染色体显性遗传&lt;/h3&gt;
+&lt;h3&gt;伴 X 染色体隐性遗传&lt;/h3&gt;
+&lt;h3&gt;伴 Y 染色体遗传&lt;/h3&gt;
+&lt;h3&gt;性染色体同源区段&lt;/h3&gt;
+&lt;h3&gt;伴性遗传致死问题&lt;/h3&gt;
+&lt;h3&gt;伴性遗传的应用&lt;/h3&gt;
+&lt;h3&gt;多基因遗传病&lt;/h3&gt;
+&lt;h3&gt;染色体异常遗传病&lt;/h3&gt;
+&lt;h2&gt;遗传病概率统计&lt;/h2&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-03-29&#39;&gt;...</description>
+      <link>https://raineblog.dpdns.org/whk/science/genetics/3/</link>
+      <pubDate>Sat, 29 Mar 2025 19:23:26 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/genetics/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/genetics/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/3.png" type="image/png" length="47057" />
+      
+    </item>
+    
+    <item>
+      <title>物理方法</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;物理方法&lt;/h1&gt;
+&lt;h2&gt;物理学史&lt;/h2&gt;
+&lt;p&gt;| 时期 | 关键人物与事件 | 科学意义与贡献 |
+| :--- | :--- | :--- |
+| &lt;strong&gt;古代&lt;/strong&gt; | 亚里士多德（Aristotle）提出落体论；泰勒斯（Thalēs）发现琥珀吸物；我国古人发明司南及论述“顿牟掇芥” | 物理学的萌芽时期，初步探索自然现象及其背后的逻辑。 |
+| &lt;strong&gt;16-17 世纪&lt;/strong&gt; | 哥白尼（Copernicus）发表《天体运行论》（1543）；伽利略（Galileo）研究落体运动与理想斜面实验（1638） | 标志着现代意义物理学的正式诞生；确立了实验与逻辑推理相结合的研究方法。 |
+| | 开普勒（Kepler）发现行星运动三定律（1609-1619）；牛顿（Newton）发表《自然哲学的数学原理》（1687） | 建立了系统性的力学理论，实现了天体与地面物体运动规律的统一。 |
+| | 惠更斯（Huygens）确定单摆周期公式（1656）；玻意耳（Boyle）发现气体定律（1662） | 推动了动力学和实验技术的发展，确立了波动学说基础。 |
+| &lt;strong&gt;18 世纪&lt;/strong&gt; | 富兰克林（Frankli...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/kinematics/1/</link>
+      <pubDate>Sat, 29 Mar 2025 19:23:26 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/kinematics/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/1.png" type="image/png" length="44098" />
+      
+    </item>
+    
+    <item>
+      <title>直线运动</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;直线运动&lt;/h1&gt;
+&lt;h2&gt;相关定义&lt;/h2&gt;
+&lt;h3&gt;位移&lt;/h3&gt;
+&lt;p&gt;如果质点做直线运动，我们可以取运动直线为坐标轴，设正方向为 $x$ 方向。&lt;/p&gt;
+&lt;p&gt;质点位置：&lt;/p&gt;
+&lt;p&gt;$$
+x=x(t)
+$$&lt;/p&gt;
+&lt;p&gt;质点的位移：&lt;/p&gt;
+&lt;p&gt;$$
+\Delta x=x(t+\Delta t)-x(t)
+$$&lt;/p&gt;
+&lt;h3&gt;速度&lt;/h3&gt;
+&lt;p&gt;质点的平均速度定义为：&lt;/p&gt;
+&lt;p&gt;$$
+\bar v=\dfrac{\Delta v}{\Delta t}
+$$&lt;/p&gt;
+&lt;p&gt;平均速度是反映质点运动快慢与运动方向的物理量，而且是较为粗糙的反映 $\Delta t$ 时间段内运动的平均快慢和方向。如果要精确的描述质点在各时刻运动的快慢和方向，需取 $\Delta t\to0$ 的极限：&lt;/p&gt;
+&lt;p&gt;$$
+v=\lim_{\Delta t\to0}\dfrac{\Delta v}{\Delta t}
+$$&lt;/p&gt;
+&lt;p&gt;做直线运动的质点的位置随时间变化的关系，可以在 $x-t$ 坐标中用一条曲线（称为位置图线）来表示。速度等于过曲线上一点切线的斜率，它是位置对时间的瞬时变化率。&lt;/p&gt;
+&lt;p&gt;于是，平均速度：&lt;/p&gt;
+&lt;p&gt;$$
+\bar v=\dfrac{x(t+\Delta t)-x(t)}{\Delta t}=\tan\a...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/kinematics/2/</link>
+      <pubDate>Sat, 29 Mar 2025 19:23:26 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/kinematics/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/2.png" type="image/png" length="45063" />
+      
+    </item>
+    
+    <item>
+      <title>抛体运动</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;抛体运动&lt;/h1&gt;
+&lt;h2&gt;曲线运动概述&lt;/h2&gt;
+&lt;h3&gt;曲线运动特点&lt;/h3&gt;
+&lt;p&gt;条件：$v,a$ 不共线。&lt;/p&gt;
+&lt;p&gt;特点：瞬时速度方向等于轨迹切线方向，证明：&lt;/p&gt;
+&lt;p&gt;$$
+\dfrac{v_y}{v_x}=\dfrac{\d y}{\d t}\cdot\dfrac{\d t}{\d x}=\dfrac{\d y}{\d x}
+$$&lt;/p&gt;
+&lt;p&gt;合速度加在 $a,v$ 之间，向 $a$ 靠拢，但不会和 $a$ 共线。&lt;/p&gt;
+&lt;p&gt;合运动类型：&lt;/p&gt;
+&lt;p&gt;| | 匀速直线运动 | 匀加速直线运动 |
+| :-: | :-: | :-: |
+| &lt;strong&gt;匀速直线运动&lt;/strong&gt; | 匀速直线运动 | 曲线运动 |
+| &lt;br&gt;&lt;strong&gt;匀加速直线运动&lt;/strong&gt; | &lt;br&gt;曲线运动 | 若 $v_合$ 与 $a_合$ 共线则为匀加速直线运动&lt;br&gt;否则为曲线运动 |&lt;/p&gt;
+&lt;h3&gt;小船过河问题&lt;/h3&gt;
+&lt;p&gt;&lt;img alt=&#34;过河问题&#34; src=&#34;./过河问题.svg&#34;&gt;{ align=right width=&#34;40%&#34; }&lt;/p&gt;
+&lt;p&gt;如果船速大于水速：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;垂直河对岸：时间最短。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;斜向上、合速度指向对岸：位移最短。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果船速小于水速：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;垂直河对岸：时间最短。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;斜向上、位与圆的切线：位移最短...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/kinematics/3/</link>
+      <pubDate>Sat, 29 Mar 2025 19:23:26 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/kinematics/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/3.png" type="image/png" length="44832" />
+      
+    </item>
+    
+    <item>
+      <title>圆周运动</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;圆周运动&lt;/h1&gt;
+&lt;h2&gt;圆周运动相关定义&lt;/h2&gt;
+&lt;h3&gt;物理量&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;线速度：单位时间通过的弧长，$v(\mathrm{m/s})$；&lt;/li&gt;
+&lt;li&gt;角速度：单位时间通过的角度，$\omega(\mathrm{rad/s})$；&lt;/li&gt;
+&lt;li&gt;周期：完成一次的时间，$T(\mathrm{s})$；&lt;/li&gt;
+&lt;li&gt;频率：单位时间完成的次数：$f(\mathrm{s^{-1},Hz})$；&lt;/li&gt;
+&lt;li&gt;转速：单位时间完成的圈数：$n(\mathrm{r/s})$。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;匀速圆周运动&lt;/h3&gt;
+&lt;p&gt;$$
+T=\dfrac{2\pi r}{v}=\dfrac{2\pi}{\omega}
+$$&lt;/p&gt;
+&lt;p&gt;推导出来：&lt;/p&gt;
+&lt;p&gt;$$
+v=\omega r
+$$&lt;/p&gt;
+&lt;p&gt;即速度（$v$）在（$=$）绕（$r$）弯（$\omega$）。&lt;/p&gt;
+&lt;p&gt;$$
+f=n=\dfrac{1}{T}
+$$&lt;/p&gt;
+&lt;h3&gt;向心力和向心加速度&lt;/h3&gt;
+&lt;p&gt;向心力：&lt;/p&gt;
+&lt;p&gt;$$
+F_c=\dfrac{mv^2}{r}=m\omega^2r=mv\omega
+$$&lt;/p&gt;
+&lt;p&gt;向心加速度：&lt;/p&gt;
+&lt;p&gt;$$
+a_c=\dfrac{v^2}{r}=\omega^2r=v\omega
+$$&lt;/p&gt;
+&lt;h2&gt;圆周运动解题思路&lt;/h2&gt;
+&lt;h3&gt;...&lt;/h3&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/kinematics/4/</link>
+      <pubDate>Sat, 29 Mar 2025 19:23:26 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/kinematics/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/4.png" type="image/png" length="43504" />
+      
+    </item>
+    
+    <item>
+      <title>物质与分子</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;物质与分子&lt;/h1&gt;
+&lt;p&gt;$$
+\textrm{This page intentionally left blank.}
+$$&lt;/p&gt;
+&lt;h2&gt;物质的量相关定义&lt;/h2&gt;
+&lt;h3&gt;物质的量&lt;/h3&gt;
+&lt;p&gt;反映粒子数目：符号 $n$，单位 $\pu{mol}$。&lt;/p&gt;
+&lt;p&gt;重点：指明具体的&lt;strong&gt;微观&lt;/strong&gt;物质粒子（原子、离子、分子、质子、电子、种子）。&lt;/p&gt;
+&lt;h3&gt;阿伏伽德罗常数&lt;/h3&gt;
+&lt;p&gt;数值上：&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+N_A&amp;amp;=6.022\ 140\ 76\times10^{23}\pu{mol^-1}
+\end{aligned}
+$$&lt;/p&gt;
+&lt;p&gt;一般取约数为 $6.02$，注意：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;早期的阿伏伽德罗常数定义为 $\pu{12g}$ 的 $\ce{^12C}$ 中所含的原子个数。&lt;/li&gt;
+&lt;li&gt;现代的定义是一个固定的值（上），由阿伏伽德罗常数和质量定义物质的量。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+n=\dfrac N{N_A}
+$$&lt;/p&gt;
+&lt;p&gt;其中 $N$ 表示微粒个数。&lt;/p&gt;
+&lt;h3&gt;摩尔质量&lt;/h3&gt;
+&lt;p&gt;单位物质的量的物质所具有的质量：&lt;/p&gt;
+&lt;p&gt;$$
+M=\dfrac{m}{n}
+$$&lt;/p&gt;
+&lt;p&gt;标准单位为 $\pu{g/mol}$，此时摩尔质量数值上等于粒子的相对质量。&lt;/p&gt;
+&lt;h3&gt;摩尔...&lt;/h3&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/structure/1/</link>
+      <pubDate>Sat, 29 Mar 2025 19:23:26 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/structure/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/1.png" type="image/png" length="45316" />
+      
+    </item>
+    
+    <item>
+      <title>原子与元素</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;原子与元素&lt;/h1&gt;
+&lt;h2&gt;核物理初步&lt;/h2&gt;
+&lt;h3&gt;射线与放射性&lt;/h3&gt;
+&lt;p&gt;1895 年年末，德国物理学家&lt;strong&gt;伦琴&lt;/strong&gt;发现了一种新的射线——&lt;strong&gt;X 射线&lt;/strong&gt;（即伦琴射线）。它具有一定的辐射性。现在我们知道，X 射线是原子内层电子跃迁时发射的波长很短的电磁波。&lt;/p&gt;
+&lt;p&gt;法国物理学家&lt;strong&gt;贝克勒尔&lt;/strong&gt;对荧光研究了多年，他决定研究荧光与 X 射线的关系。1896 年年初，他选择了在日光照晒时能发出荧光的铀盐——硫酸铀酰钾做实验材料。他用黑纸把照相底片包住，放到这种铀盐的下面，在阳光下曝晒了几小时。底片显影后，发现了铀盐在底片上的黑色轮廓，表示底片已经感“光”。阳光是不能透过黑纸的，贝克勒尔认为，这种铀盐受到阳光照射后除了能够发出可见的荧光外，还能发射 X 射线，是 X 射线透过黑纸使底片感光。再次准备实验的时候遇到了几个阴天，贝克勒尔只好把准备好的铀盐和包好的底片一起放进了抽屉。几天以后，贝克勒尔在检查底片时意外发现底片又已经感光。这个事实使贝克勒尔认为铀盐本身能够发射一种神秘的射线，正是这种射线导致了底片感光。贝克勒尔进一步用不发荧光的其他铀化合物进行实验，发现也能使底片感光。铀化合物发出的射线也像 X ...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/structure/2/</link>
+      <pubDate>Sat, 29 Mar 2025 19:23:26 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/structure/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/2.png" type="image/png" length="43891" />
+      
+    </item>
+    
+    <item>
+      <title>简介</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;简介&lt;/h1&gt;
+&lt;h2&gt;这里是 &lt;strong&gt;RainPPR&#39;s WHK Blog&lt;/strong&gt;！&lt;/h2&gt;
+&lt;p&gt;这个是 WHK 博客，是目前作者比较活跃的百科性质博客。本项目受 &lt;a href=&#34;https://ctf-wiki.org/&#34;&gt;CTF Wiki&lt;/a&gt;、&lt;a href=&#34;https://oi-wiki.org/&#34;&gt;OI Wiki&lt;/a&gt; 的启发。在本项目的编写过程中，作者进行了很多创造性（造轮子性）的改造，尤其是对于高中知识体系框架的构建。&lt;/p&gt;
+&lt;p&gt;在编写过程中参考了诸多资料，主要内容来自于教材、书籍、网课、培训机构（山东青岛地区）等，部分资料来源于一些网站，已经放在下面的 Reference 部分，在此一并致谢！&lt;/p&gt;
+&lt;div class=&#34;bib-wrapper&#34;&gt;
+  &lt;h3 class=&#34;bib-header-title&#34;&gt;Core References &amp; Bibliography&lt;/h3&gt;
+
+  &lt;style&gt;
+  .bib-wrapper {
+    margin: 2rem 0 0 0;
+    font-family: var(--md-text-font-family, sans-serif);
+  }
+
+  /* Sectio...</description>
+      <link>https://raineblog.dpdns.org/whk/</link>
+      <pubDate>Fri, 23 Aug 2024 11:15:44 +0800</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/index.png" type="image/png" length="39072" />
       
     </item>
     

@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sun, 25 Jan 2026 13:33:12 -0000</pubDate>
-    <lastBuildDate>Sun, 25 Jan 2026 13:33:12 -0000</lastBuildDate>
+    <pubDate>Sun, 25 Jan 2026 13:49:55 -0000</pubDate>
+    <lastBuildDate>Sun, 25 Jan 2026 13:49:55 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;Bot&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T13:33:14.145120+00:00&#39;&gt;2026-01-25 13:33:14&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;20...</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T13:49:56.750270+00:00&#39;&gt;2026-01-25 13:49:56&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;20...</description>
       <link>https://raineblog.dpdns.org/whk/blog/author/Bot/</link>
-      <pubDate>Sun, 25 Jan 2026 13:33:24 +0000</pubDate>
+      <pubDate>Sun, 25 Jan 2026 13:50:07 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/author/Bot/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/author/Bot/</guid>
@@ -56,14 +56,64 @@
       
       
       <description>&lt;h1&gt;2026&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T13:33:14.145120+00:00&#39;&gt;2026-01-25 13:33:14&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2...</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T13:49:56.749270+00:00&#39;&gt;2026-01-25 13:49:56&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2...</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2026/</link>
-      <pubDate>Sun, 25 Jan 2026 13:33:24 +0000</pubDate>
+      <pubDate>Sun, 25 Jan 2026 13:50:06 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2026/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2026/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/archive/2026.png" type="image/png" length="38762" />
+      
+    </item>
+    
+    <item>
+      <title>简介</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;简介&lt;/h1&gt;
+&lt;h2&gt;这里是 &lt;strong&gt;RainPPR&#39;s WHK Blog&lt;/strong&gt;！&lt;/h2&gt;
+&lt;p&gt;这个是 WHK 博客，是目前作者比较活跃的百科性质博客。本项目受 &lt;a href=&#34;https://ctf-wiki.org/&#34;&gt;CTF Wiki&lt;/a&gt;、&lt;a href=&#34;https://oi-wiki.org/&#34;&gt;OI Wiki&lt;/a&gt; 的启发。在本项目的编写过程中，作者进行了很多创造性（造轮子性）的改造，尤其是对于高中知识体系框架的构建。&lt;/p&gt;
+&lt;p&gt;在编写过程中参考了诸多资料，主要内容来自于教材、书籍、网课、培训机构（山东青岛地区）等，部分资料来源于一些网站，已经放在下面的 Reference 部分，在此一并致谢！&lt;/p&gt;
+&lt;div class=&#34;bib-wrapper&#34;&gt;
+  &lt;h3 class=&#34;bib-header-title&#34;&gt;Core References &amp; Bibliography&lt;/h3&gt;
+
+  &lt;style&gt;
+  .bib-wrapper {
+    margin: 2rem 0 0 0;
+    font-family: var(--md-text-font-family, sans-serif);
+  }
+
+  /* Sectio...</description>
+      <link>https://raineblog.dpdns.org/whk/</link>
+      <pubDate>Sun, 25 Jan 2026 13:48:57 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/index.png" type="image/png" length="39072" />
+      
+    </item>
+    
+    <item>
+      <title>最近更新</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;最近更新&lt;/h1&gt;
+&lt;!-- RECENTLY_UPDATED_DOCS --&gt;
+
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T21:48:57+08:00&#39;&gt;2026-01-25 21:48:57&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated...</description>
+      <link>https://raineblog.dpdns.org/whk/intro/recent/</link>
+      <pubDate>Sun, 25 Jan 2026 13:48:57 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/intro/recent/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/intro/recent/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/intro/recent.png" type="image/png" length="43777" />
       
     </item>
     
@@ -509,36 +559,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/3/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/3.png" type="image/png" length="45116" />
-      
-    </item>
-    
-    <item>
-      <title>简介</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;简介&lt;/h1&gt;
-&lt;h2&gt;这里是 &lt;strong&gt;RainPPR&#39;s WHK Blog&lt;/strong&gt;！&lt;/h2&gt;
-&lt;p&gt;这个是 WHK 博客，是目前作者比较活跃的百科性质博客。本项目受 &lt;a href=&#34;https://ctf-wiki.org/&#34;&gt;CTF Wiki&lt;/a&gt;、&lt;a href=&#34;https://oi-wiki.org/&#34;&gt;OI Wiki&lt;/a&gt; 的启发。在本项目的编写过程中，作者进行了很多创造性（造轮子性）的改造，尤其是对于高中知识体系框架的构建。&lt;/p&gt;
-&lt;p&gt;在编写过程中参考了诸多资料，主要内容来自于教材、书籍、网课、培训机构（山东青岛地区）等，部分资料来源于一些网站，已经放在下面的 Reference 部分，在此一并致谢！&lt;/p&gt;
-&lt;div class=&#34;bib-wrapper&#34;&gt;
-  &lt;h3 class=&#34;bib-header-title&#34;&gt;Core References &amp; Bibliography&lt;/h3&gt;
-
-  &lt;style&gt;
-  .bib-wrapper {
-    margin: 2rem 0 0 0;
-    font-family: var(--md-text-font-family, sans-serif);
-  }
-
-  /* Sectio...</description>
-      <link>https://raineblog.dpdns.org/whk/</link>
-      <pubDate>Thu, 22 Jan 2026 03:19:49 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/index.png" type="image/png" length="39072" />
       
     </item>
     
@@ -3667,6 +3687,796 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/bio/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/bio.png" type="image/png" length="45484" />
+      
+    </item>
+    
+    <item>
+      <title>低等生物</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;低等生物&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-09-06&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-09-06T18:39:00+08:00&#39;&gt;2025-09-06 18:39:00&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-10-31&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-10...</description>
+      <link>https://raineblog.dpdns.org/whk/science/species/2/</link>
+      <pubDate>Fri, 31 Oct 2025 14:20:07 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/species/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/2.png" type="image/png" length="44253" />
+      
+    </item>
+    
+    <item>
+      <title>动物概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;动物概述&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-10-31&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-10-31T22:20:07+08:00&#39;&gt;2025-10-31 22:20:07&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-10-31&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-10...</description>
+      <link>https://raineblog.dpdns.org/whk/science/species/4/</link>
+      <pubDate>Fri, 31 Oct 2025 14:20:07 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/species/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/4.png" type="image/png" length="46201" />
+      
+    </item>
+    
+    <item>
+      <title>运动系统</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;运动系统&lt;/h1&gt;
+&lt;p&gt;运动系统、神经系统、内分泌系统、循环系统、呼吸系统、消化系统、泌尿系统、生殖系统。&lt;/p&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-09-06&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-09-06T18:39:00+08:00&#39;&gt;2025-09-06 18:39:00&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-10-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;...</description>
+      <link>https://raineblog.dpdns.org/whk/science/human/1/</link>
+      <pubDate>Sat, 25 Oct 2025 13:57:30 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/human/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/1.png" type="image/png" length="46756" />
+      
+    </item>
+    
+    <item>
+      <title>循环系统</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;循环系统&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-09-06&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-09-06T18:39:00+08:00&#39;&gt;2025-09-06 18:39:00&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-10-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-10...</description>
+      <link>https://raineblog.dpdns.org/whk/science/human/4/</link>
+      <pubDate>Sat, 25 Oct 2025 13:57:30 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/human/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/4.png" type="image/png" length="45896" />
+      
+    </item>
+    
+    <item>
+      <title>呼吸系统</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;呼吸系统&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-09-06&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-09-06T18:39:00+08:00&#39;&gt;2025-09-06 18:39:00&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-10-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-10...</description>
+      <link>https://raineblog.dpdns.org/whk/science/human/5/</link>
+      <pubDate>Sat, 25 Oct 2025 13:57:30 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/human/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/5.png" type="image/png" length="45962" />
+      
+    </item>
+    
+    <item>
+      <title>消化系统</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;消化系统&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-10-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-10-25T21:57:30+08:00&#39;&gt;2025-10-25 21:57:30&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-10-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-10...</description>
+      <link>https://raineblog.dpdns.org/whk/science/human/6/</link>
+      <pubDate>Sat, 25 Oct 2025 13:57:30 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/human/6/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/6/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/6.png" type="image/png" length="45720" />
+      
+    </item>
+    
+    <item>
+      <title>泌尿系统</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;泌尿系统&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-10-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-10-25T21:57:30+08:00&#39;&gt;2025-10-25 21:57:30&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-10-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-10...</description>
+      <link>https://raineblog.dpdns.org/whk/science/human/7/</link>
+      <pubDate>Sat, 25 Oct 2025 13:57:30 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/human/7/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/7/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/7.png" type="image/png" length="47246" />
+      
+    </item>
+    
+    <item>
+      <title>生殖系统</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;生殖系统&lt;/h1&gt;
+&lt;p&gt;性传播疾病有 50 多种，其中艾滋病、梅毒、淋病等对人类健康和社会的危害最为严重。&lt;/p&gt;
+&lt;p&gt;艾滋病的传播途径主要有性接触传播、血液传播和母
+婴传播。下面这些做法可以预防艾滋病的传播：（1）采取
+安全的性行为，如使用避孕套；（2）避免注射时经血液传
+播，不吸毒；（3）发生易感行为后主动检测并积极治疗；
+（4）不与他人共用牙刷和剃须刀；（5）不用未经消毒的器
+械文眉、穿耳等。与HIV感染者的一般接触，如握手、拥
+抱等，不会使人感染HIV ；&lt;/p&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-10-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time dat...</description>
+      <link>https://raineblog.dpdns.org/whk/science/human/8/</link>
+      <pubDate>Sat, 25 Oct 2025 13:57:30 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/human/8/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/8/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/8.png" type="image/png" length="44965" />
+      
+    </item>
+    
+    <item>
+      <title>动力学模型</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;动力学模型&lt;/h1&gt;
+&lt;h2&gt;动力学模型&lt;/h2&gt;
+&lt;h3&gt;晾衣绳模型&lt;/h3&gt;
+&lt;p&gt;等腰三角形、晾衣杆问题，特征为动滑轮通过刚性轻绳固定，有公式：&lt;/p&gt;
+&lt;p&gt;$$
+F=\dfrac{G}{2\cos\theta}
+$$&lt;/p&gt;
+&lt;p&gt;特征；$F$ 仅与 $\theta$ 有关，上下移动绳子端点力不变，端点水平靠近拉力下降、远离拉力上升。&lt;/p&gt;
+&lt;p&gt;物体的平衡可以分为稳定平衡、不稳定平衡和随遇平衡三种。&lt;/p&gt;
+&lt;h3&gt;弹簧突变&lt;/h3&gt;
+&lt;p&gt;因为弹簧的弹力无法突变，因此我们：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;受力分析初状态，得出弹簧弹力。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;把弹簧弹力当做外力，重新受力分析。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;沿绳方向速度、受力大小一定相等。&lt;/p&gt;
+&lt;h3&gt;斜面模型&lt;/h3&gt;
+&lt;p&gt;斜面模型「物体是否会下滑」，设斜面与水平面夹角为 $\theta$：&lt;/p&gt;
+&lt;p&gt;受力分析，得 $G_x=mg\sin\theta$，$f=\mu mg\cos\theta$。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;若物体下滑：$G_x&amp;gt;f \Rightarrow G_x/f&amp;gt;1 \Rightarrow \tan\theta/\mu&amp;gt;1 \Rightarrow \tan\theta&amp;gt;\mu$。&lt;/li&gt;
+&lt;li&gt;同理，若物体静止不动，$G_x\le f \Rightarrow \tan\th...&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/mechanics/3/</link>
+      <pubDate>Sat, 11 Oct 2025 13:39:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mechanics/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/3.png" type="image/png" length="45533" />
+      
+    </item>
+    
+    <item>
+      <title>直线运动</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;直线运动&lt;/h1&gt;
+&lt;h2&gt;相关定义&lt;/h2&gt;
+&lt;h3&gt;位移&lt;/h3&gt;
+&lt;p&gt;如果质点做直线运动，我们可以取运动直线为坐标轴，设正方向为 $x$ 方向。&lt;/p&gt;
+&lt;p&gt;质点位置：&lt;/p&gt;
+&lt;p&gt;$$
+x=x(t)
+$$&lt;/p&gt;
+&lt;p&gt;质点的位移：&lt;/p&gt;
+&lt;p&gt;$$
+\Delta x=x(t+\Delta t)-x(t)
+$$&lt;/p&gt;
+&lt;h3&gt;速度&lt;/h3&gt;
+&lt;p&gt;质点的平均速度定义为：&lt;/p&gt;
+&lt;p&gt;$$
+\bar v=\dfrac{\Delta v}{\Delta t}
+$$&lt;/p&gt;
+&lt;p&gt;平均速度是反映质点运动快慢与运动方向的物理量，而且是较为粗糙的反映 $\Delta t$ 时间段内运动的平均快慢和方向。如果要精确的描述质点在各时刻运动的快慢和方向，需取 $\Delta t\to0$ 的极限：&lt;/p&gt;
+&lt;p&gt;$$
+v=\lim_{\Delta t\to0}\dfrac{\Delta v}{\Delta t}
+$$&lt;/p&gt;
+&lt;p&gt;做直线运动的质点的位置随时间变化的关系，可以在 $x-t$ 坐标中用一条曲线（称为位置图线）来表示。速度等于过曲线上一点切线的斜率，它是位置对时间的瞬时变化率。&lt;/p&gt;
+&lt;p&gt;于是，平均速度：&lt;/p&gt;
+&lt;p&gt;$$
+\bar v=\dfrac{x(t+\Delta t)-x(t)}{\Delta t}=\tan\a...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/kinematics/2/</link>
+      <pubDate>Thu, 09 Oct 2025 12:42:02 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/kinematics/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/2.png" type="image/png" length="45063" />
+      
+    </item>
+    
+    <item>
+      <title>抛体运动</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;抛体运动&lt;/h1&gt;
+&lt;h2&gt;曲线运动概述&lt;/h2&gt;
+&lt;h3&gt;曲线运动特点&lt;/h3&gt;
+&lt;p&gt;条件：$v,a$ 不共线。&lt;/p&gt;
+&lt;p&gt;特点：瞬时速度方向等于轨迹切线方向，证明：&lt;/p&gt;
+&lt;p&gt;$$
+\dfrac{v_y}{v_x}=\dfrac{\d y}{\d t}\cdot\dfrac{\d t}{\d x}=\dfrac{\d y}{\d x}
+$$&lt;/p&gt;
+&lt;p&gt;合速度加在 $a,v$ 之间，向 $a$ 靠拢，但不会和 $a$ 共线。&lt;/p&gt;
+&lt;p&gt;合运动类型：&lt;/p&gt;
+&lt;p&gt;| | 匀速直线运动 | 匀加速直线运动 |
+| :-: | :-: | :-: |
+| &lt;strong&gt;匀速直线运动&lt;/strong&gt; | 匀速直线运动 | 曲线运动 |
+| &lt;br&gt;&lt;strong&gt;匀加速直线运动&lt;/strong&gt; | &lt;br&gt;曲线运动 | 若 $v_合$ 与 $a_合$ 共线则为匀加速直线运动&lt;br&gt;否则为曲线运动 |&lt;/p&gt;
+&lt;h3&gt;小船过河问题&lt;/h3&gt;
+&lt;p&gt;&lt;img alt=&#34;过河问题&#34; src=&#34;./过河问题.svg&#34;&gt;{ align=right width=&#34;40%&#34; }&lt;/p&gt;
+&lt;p&gt;如果船速大于水速：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;垂直河对岸：时间最短。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;斜向上、合速度指向对岸：位移最短。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果船速小于水速：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;垂直河对岸：时间最短。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;斜向上、位与圆的切线：位移最短...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/kinematics/3/</link>
+      <pubDate>Wed, 08 Oct 2025 12:36:39 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/kinematics/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/3.png" type="image/png" length="44832" />
+      
+    </item>
+    
+    <item>
+      <title>空间体系</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;空间体系&lt;/h1&gt;
+&lt;h2&gt;公理体系&lt;/h2&gt;
+&lt;h3&gt;公理和推论&lt;/h3&gt;
+&lt;p&gt;公理：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;经过不共线三个点，有且仅有一个平面。&lt;/li&gt;
+&lt;li&gt;若点 $A,B$ 在一平面内，则直线 $AB$ 也在该平面内。&lt;/li&gt;
+&lt;li&gt;若两个不重合的平面有公共点，则有且仅有一条过公共点的直线，称为平面和平面的交线。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;推论：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;经过直线和直线外一点，有且仅有一个平面。&lt;/li&gt;
+&lt;li&gt;经过两条相交的直线，有且仅有一个平面。&lt;/li&gt;
+&lt;li&gt;经过两条平行的直线，有且仅有一个平面。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;证明方式：由公理一得出存在性，由公理二得出唯一性。&lt;/p&gt;
+&lt;h3&gt;点线面的关系&lt;/h3&gt;
+&lt;p&gt;点和线的关系：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;点在线上。&lt;/li&gt;
+&lt;li&gt;点在线外。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;线和线的关系：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;线与线相交（与一点）。&lt;/li&gt;
+&lt;li&gt;线与线平行。&lt;/li&gt;
+&lt;li&gt;线与线异面。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;线与面的关系：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;线与面相交。&lt;/li&gt;
+&lt;li&gt;线与面平行。&lt;/li&gt;
+&lt;li&gt;线在面外。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;面与面的关系：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;面与面相交。&lt;/li&gt;
+&lt;li&gt;面与面平行。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;三大关系&lt;/h3&gt;
+&lt;p&gt;相交关系：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;我们认为直线是点的集合，平面亦如此。因此我们可以使用元素属于集合来表示点与直线、平面的关系，使用集合包含来表示直线与平面的关系。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;具体的，我们用大写字母表示点，如点 $A$；使用小写字母表示直...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/solid/1/</link>
+      <pubDate>Fri, 03 Oct 2025 10:00:28 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/solid/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/solid/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/solid/1.png" type="image/png" length="43480" />
+      
+    </item>
+    
+    <item>
+      <title>圆周运动</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;圆周运动&lt;/h1&gt;
+&lt;h2&gt;圆周运动相关定义&lt;/h2&gt;
+&lt;h3&gt;物理量&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;线速度：单位时间通过的弧长，$v(\mathrm{m/s})$；&lt;/li&gt;
+&lt;li&gt;角速度：单位时间通过的角度，$\omega(\mathrm{rad/s})$；&lt;/li&gt;
+&lt;li&gt;周期：完成一次的时间，$T(\mathrm{s})$；&lt;/li&gt;
+&lt;li&gt;频率：单位时间完成的次数：$f(\mathrm{s^{-1},Hz})$；&lt;/li&gt;
+&lt;li&gt;转速：单位时间完成的圈数：$n(\mathrm{r/s})$。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;匀速圆周运动&lt;/h3&gt;
+&lt;p&gt;$$
+T=\dfrac{2\pi r}{v}=\dfrac{2\pi}{\omega}
+$$&lt;/p&gt;
+&lt;p&gt;推导出来：&lt;/p&gt;
+&lt;p&gt;$$
+v=\omega r
+$$&lt;/p&gt;
+&lt;p&gt;即速度（$v$）在（$=$）绕（$r$）弯（$\omega$）。&lt;/p&gt;
+&lt;p&gt;$$
+f=n=\dfrac{1}{T}
+$$&lt;/p&gt;
+&lt;h3&gt;向心力和向心加速度&lt;/h3&gt;
+&lt;p&gt;向心力：&lt;/p&gt;
+&lt;p&gt;$$
+F_c=\dfrac{mv^2}{r}=m\omega^2r=mv\omega
+$$&lt;/p&gt;
+&lt;p&gt;向心加速度：&lt;/p&gt;
+&lt;p&gt;$$
+a_c=\dfrac{v^2}{r}=\omega^2r=v\omega
+$$&lt;/p&gt;
+&lt;h2&gt;圆周运动解题思路&lt;/h2&gt;
+&lt;h3&gt;...&lt;/h3&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/kinematics/4/</link>
+      <pubDate>Sat, 06 Sep 2025 11:11:44 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/kinematics/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/4.png" type="image/png" length="43504" />
+      
+    </item>
+    
+    <item>
+      <title>相对运动</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;相对运动&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-3.png&#34;&gt;&lt;/p&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-05-05&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-05-05T15:34:38+08:00&#39;&gt;2025-05-05 15:34:38&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-09-06&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/kinematics/5/</link>
+      <pubDate>Sat, 06 Sep 2025 11:11:44 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/kinematics/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/5.png" type="image/png" length="43587" />
+      
+    </item>
+    
+    <item>
+      <title>碱土金属概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;碱土金属概述&lt;/h1&gt;
+&lt;h2&gt;镁概述&lt;/h2&gt;
+&lt;h2&gt;镁的化学性质&lt;/h2&gt;
+&lt;p&gt;镁比较活泼，&lt;/p&gt;
+&lt;p&gt;$$
+\ce{2Mg + O2 = 2MgO}
+$$&lt;/p&gt;
+&lt;p&gt;这个反应剧烈发光发热，通常作为光源，引发氢气、氯气混合气体爆炸，或者作为热源，引发铝热反应。&lt;/p&gt;
+&lt;p&gt;镁也可以在二氧化碳中燃烧，置换出碳单质。&lt;/p&gt;
+&lt;p&gt;$$
+\ce{2Mg + CO2 = 2MgO + C}
+$$&lt;/p&gt;
+&lt;p&gt;氧化镁性质稳定，难溶、难熔，与氧化铝类似可以作为防火材料。&lt;/p&gt;
+&lt;h3&gt;海水制镁&lt;/h3&gt;
+&lt;p&gt;海水中富含镁离子，通常以 $\ce{MgSO4}$ 为主要存在形式。&lt;/p&gt;
+&lt;p&gt;我们向母液（提取粗盐后的海水）中加入石灰乳，产生氢氧化镁沉淀，过滤，加入足量稀盐酸，富集并在氯化氢氛围中蒸干，得到氯化镁固体，电解熔融氯化镁制取镁。&lt;/p&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content dat...</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/mg/</link>
+      <pubDate>Wed, 27 Aug 2025 09:06:09 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/mg/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/mg/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/mg.png" type="image/png" length="48747" />
+      
+    </item>
+    
+    <item>
+      <title>碳族元素概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;碳族元素概述&lt;/h1&gt;
+&lt;h2&gt;硅单质&lt;/h2&gt;
+&lt;h3&gt;硅的物理性质&lt;/h3&gt;
+&lt;p&gt;硅有同素异形体：晶体硅、无定形硅。下文除非特殊说明，默认指晶体硅。&lt;/p&gt;
+&lt;p&gt;硅为灰黑色固体，熔沸点高，自然界中主要存在形式为硅酸盐和二氧化硅。&lt;/p&gt;
+&lt;p&gt;硅是现在使用最多的半导体材料，曾经最早使用的是锗 $\ce{Ge}$。&lt;/p&gt;
+&lt;h3&gt;硅的化学性质&lt;/h3&gt;
+&lt;p&gt;与强碱反应：&lt;/p&gt;
+&lt;p&gt;$$
+\ce{Si + 2NaOH + H2O -&amp;gt; Na2SiO3 + 2H2 ^}
+$$&lt;/p&gt;
+&lt;p&gt;与 $\ce{HF}$（唯一可以溶解硅的酸）：&lt;/p&gt;
+&lt;p&gt;$$
+\ce{Si + 4HF -&amp;gt; SiF4 ^ + 2H2 ^}
+$$&lt;/p&gt;
+&lt;h3&gt;硅的工业制取&lt;/h3&gt;
+&lt;p&gt;粗硅的制备：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;$\ce{SiO2 + 2C -&amp;gt;[高温] Si(粗硅) + 2CO}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;注意：此处碳做还原剂，不能说明碳的非金属性比硅强。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;纯硅的制备：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\ce{Si + 2Cl2 -&amp;gt;[高温] SiCl4}$。&lt;/li&gt;
+&lt;li&gt;$\ce{SiCl4 + 2H2 -&amp;gt;[高温] Si(粗硅) + 4HCl}$。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;总结如下：&lt;/p&gt;
+&lt;p&gt;$$
+\ce{SiO2 -&amp;gt;[C][高温] Si(粗硅) -&amp;gt;[Cl2] SiCl4 -&amp;gt;[...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/si/</link>
+      <pubDate>Wed, 27 Aug 2025 09:06:09 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/si/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/si/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/si.png" type="image/png" length="51397" />
+      
+    </item>
+    
+    <item>
+      <title>平面体系</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;平面体系&lt;/h1&gt;
+&lt;h2&gt;平面坐标系&lt;/h2&gt;
+&lt;h3&gt;笛卡尔坐标系&lt;/h3&gt;
+&lt;p&gt;笛卡尔坐标系（也称直角坐标系）在数学中是一种正交坐标系，二维的直角坐标系是由两条相互垂直、相交于原点的数线构成的。在平面内，任何一点的坐标是根据数轴上对应的点的坐标设定的，类似于数轴上点与坐标的对应关系。&lt;/p&gt;
+&lt;p&gt;二维的直角坐标系通常由两个互相垂直的坐标轴设定，通常分别称为 $x$ 轴和 $y$ 轴；两个坐标轴的相交点，称为原点，通常标记为 $O$。每一个轴都指向一个特定的方向。这两个不同线的坐标轴，决定了一个平面，称为 $xy$ 平面，又称为笛卡尔平面。&lt;/p&gt;
+&lt;p&gt;通常两个坐标轴只要互相垂直，其指向何方对于分析问题是没有影响的，但习惯性地，$x$ 轴被水平摆放，称为横轴，通常指向右方；$y$ 轴被竖直摆放而称为纵轴，通常指向上方。&lt;/p&gt;
+&lt;p&gt;为了要知道坐标轴的任何一点，离原点的距离。假设，我们可以刻画数值于坐标轴。那么，从原点开始，往坐标轴所指的方向，每隔一个单位长度，就刻画数值于坐标轴。这数值是刻画的次数，也是离原点的正值整数距离；同样地，背着坐标轴所指的方向，我们也可以刻画出离原点的负值整数距离。称 $x$ 轴刻画的数值为 $x$ 坐标...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/1/</link>
+      <pubDate>Sun, 24 Aug 2025 12:43:45 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/1.png" type="image/png" length="42360" />
+      
+    </item>
+    
+    <item>
+      <title>三角函数题型</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;三角函数题型&lt;/h1&gt;
+&lt;h2&gt;函数思想&lt;/h2&gt;
+&lt;h3&gt;变角思想&lt;/h3&gt;
+&lt;p&gt;在三角函数式的化简中，“次降角升”和“次升角降”是基本的规律，根号中含有三角函数式时，一般需要升次。其化简往往要遵循以下三个原则：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一看“角”，这是最重要的一环，通过看角之间的差别与联系，把角进行合理的拆分，从而正确使用公式；&lt;/li&gt;
+&lt;li&gt;二看“函数名称”，看函数名称之间的差异，从而确定使用的公式，常见的有“切化弦”等；&lt;/li&gt;
+&lt;li&gt;三看“结构特征”，分析结构特征，可以帮助我们找到变形的方向，如“遇到分式要通分”等。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我们知道单独考查三角函数式的化简是极少见的，绝大多数的化简其背后就是求值，常见的求值问题有：给值求值、给角求值、给值求角。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;变角&#34; src=&#34;./图片1.svg&#34;&gt;{ width=&#34;30%&#34; align=right }&lt;/p&gt;
+&lt;p&gt;三角函数：角为先，公式特征为要。&lt;/p&gt;
+&lt;p&gt;公式特征注意：用 $\cos2\alpha$ 联系 $\sin\alpha,\cos\alpha$。&lt;/p&gt;
+&lt;p&gt;$$
+4\sin\alpha\cos\alpha=(\sin\alpha+\cos\alpha)^2-(\sin\alpha-\cos\alpha)^2
+$$
+...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/plane/3/</link>
+      <pubDate>Sun, 24 Aug 2025 05:12:24 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/plane/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/3.png" type="image/png" length="47566" />
+      
+    </item>
+    
+    <item>
+      <title>空间几何体</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;空间几何体&lt;/h1&gt;
+&lt;h2&gt;基础知识&lt;/h2&gt;
+&lt;h3&gt;分类&lt;/h3&gt;
+&lt;p&gt;&lt;img alt=&#34;空间几何体&#34; src=&#34;空间几何体.png&#34;&gt;
+/// caption
+多面体和旋转体
+///&lt;/p&gt;
+&lt;p&gt;多面体是指三维空间中由平面多边形、直边和顶点组成的几何形状。多面体表面积通用公式就是将每一个平面多边形的面积相加求和。&lt;/p&gt;
+&lt;p&gt;旋转体是指平面曲线以同一平面内的一条直线作为旋转轴进行旋转所形成的立体几何图形。&lt;/p&gt;
+&lt;h3&gt;斜二测画法&lt;/h3&gt;
+&lt;p&gt;将平面 $x$ 轴不变，$y$ 轴向右倾斜 $45^\circ$ 并长度缩短到原来的 $1/2$，称为斜二测画法，画出来的图称为直观图。&lt;/p&gt;
+&lt;p&gt;容易知道，直观图的面积是原图形的 $\dfrac{\sqrt2}4$，原图形的面积是直观图的 $2\sqrt2$ 倍。&lt;/p&gt;
+&lt;p&gt;竖直的 $z$ 轴也不变，称所画出的图形称为直观图。&lt;/p&gt;
+&lt;h3&gt;祖暅原理&lt;/h3&gt;
+&lt;p&gt;祖暅（gèng）之《缀术》有云：「缘幂势既同，则积不容异」。&lt;/p&gt;
+&lt;p&gt;$$
+V=\int_{0}^HS(h)\mathrm{d}h
+$$&lt;/p&gt;
+&lt;p&gt;祖暅原理（也称等幂等积定理）指出：所有等高处横截面积相等的两个等高的立体，其体积也必然相等。经典推论是，两个等高的立体，如果其所有等高处横截面积相等，则...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/solid/3/</link>
+      <pubDate>Sun, 24 Aug 2025 05:12:24 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/solid/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/solid/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/solid/3.png" type="image/png" length="42690" />
+      
+    </item>
+    
+    <item>
+      <title>公理化系统</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;公理化系统&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-08-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-08-19T19:57:22+08:00&#39;&gt;2025-08-19 19:57:22&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-08-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-0...</description>
+      <link>https://raineblog.dpdns.org/whk/science/mathematics/3/</link>
+      <pubDate>Tue, 19 Aug 2025 11:57:22 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mathematics/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mathematics/3.png" type="image/png" length="47477" />
+      
+    </item>
+    
+    <item>
+      <title>数列进阶</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;数列进阶&lt;/h1&gt;
+&lt;h2&gt;回顾及补充&lt;/h2&gt;
+&lt;h3&gt;经典常量&lt;/h3&gt;
+&lt;p&gt;$$
+\pi\approx3.14159
+$$&lt;/p&gt;
+&lt;p&gt;$$
+e\approx2.71828
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\gamma\approx0.57721
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\varphi={1+\sqrt5\over2}\approx1.61803
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\hat\varphi={1-\sqrt5\over2}\approx-.61803
+$$&lt;/p&gt;
+&lt;h3&gt;基础公式&lt;/h3&gt;
+&lt;p&gt;一些公式，&lt;/p&gt;
+&lt;p&gt;$$
+\sum_{i=1}^ni={n(n+1)\over2}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\sum_{i=1}^ni^2={n(n+1)(2n+1)\over6}={n(n+1/2)(n+1)\over3}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\sum_{i=1}^ni^3=\left[{n(n+1)\over2}\right]^2={n^2(n+1)^2\over4}
+$$&lt;/p&gt;
+&lt;p&gt;可以通过扰动法（见下）或者待定系数并归纳得出。&lt;/p&gt;
+&lt;p&gt;$$
+\sum_{i=0}^nc^i={c^{n+1}-1\over c-1},c\neq1
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\sum_{i\ge0}c^i={1\over 1-c...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/sequence/3/</link>
+      <pubDate>Sun, 20 Jul 2025 11:14:42 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/sequence/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/sequence/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/sequence/3.png" type="image/png" length="45583" />
+      
+    </item>
+    
+    <item>
+      <title>概率入门</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;概率入门&lt;/h1&gt;
+&lt;p&gt;以下部分内容来自 &lt;a href=&#34;https://oi-wiki.org/&#34;&gt;&lt;strong&gt;OI Wiki&lt;/strong&gt;&lt;/a&gt;。&lt;/p&gt;
+&lt;h2&gt;概率论基本概念&lt;/h2&gt;
+&lt;h3&gt;样本空间&lt;/h3&gt;
+&lt;p&gt;简而言之，样本空间 $\Omega$ 指明随机现象&lt;strong&gt;所有&lt;/strong&gt;可能出现的结果。&lt;/p&gt;
+&lt;p&gt;具体的，一个随机现象中可能发生的不能再细分的结果被称为&lt;strong&gt;样本点&lt;/strong&gt;，所有样本点的集合称为&lt;strong&gt;样本空间&lt;/strong&gt;，通常用 $\Omega$ 来表示。&lt;/p&gt;
+&lt;p&gt;二维样本空间的列举，表格法：&lt;/p&gt;
+&lt;p&gt;|       |    1      |    2      |    3      |    4      |    5      |    6      |
+|:-----:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+| &lt;strong&gt;1&lt;/strong&gt; | $(1, 1)$ | $(1, 2)$ | $(1, 3)$ | $(1, 4)$ | $(1, 5)$ | $(1, 6)$ |
+| &lt;strong&gt;2&lt;/strong&gt; | $(2, 1)$ | $(2, 2)$ | $(2, 3)$ | $(2, 4)...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/probability/2/</link>
+      <pubDate>Sat, 05 Jul 2025 11:14:21 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/probability/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/2.png" type="image/png" length="43563" />
+      
+    </item>
+    
+    <item>
+      <title>概率分布</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;概率分布&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-05-18&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-05-18T17:51:56+08:00&#39;&gt;2025-05-18 17:51:56&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-05-18&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-05...</description>
+      <link>https://raineblog.dpdns.org/whk/science/probability/4/</link>
+      <pubDate>Sun, 18 May 2025 09:51:56 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/probability/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/4.png" type="image/png" length="44679" />
+      
+    </item>
+    
+    <item>
+      <title>细胞的增殖</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;细胞的增殖&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-04-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-04-19T22:19:04+08:00&#39;&gt;2025-04-19 22:19:04&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-04-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-0...</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/3/</link>
+      <pubDate>Sat, 19 Apr 2025 14:19:04 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="45825" />
+      
+    </item>
+    
+    <item>
+      <title>变异与进化</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;变异与进化&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-03-29&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-03-29T19:23:26+08:00&#39;&gt;2025-03-29 19:23:26&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-04-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-0...</description>
+      <link>https://raineblog.dpdns.org/whk/science/genetics/1/</link>
+      <pubDate>Sat, 19 Apr 2025 14:19:04 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/genetics/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/genetics/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/1.png" type="image/png" length="44339" />
+      
+    </item>
+    
+    <item>
+      <title>人类遗传病</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;人类遗传病&lt;/h1&gt;
+&lt;h2&gt;遗传病概述&lt;/h2&gt;
+&lt;h3&gt;单基因遗传病&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;判断是否是细胞质、伴 Y 染色体遗传。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;判断显隐性，依据「无中生有，凭空消失」。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;判断是否是伴 X 染色体遗传。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;判断是否是常染色体遗传。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;遗传病的分类&lt;/h2&gt;
+&lt;h3&gt;常染色体显性遗传&lt;/h3&gt;
+&lt;h3&gt;常染色体隐性遗传&lt;/h3&gt;
+&lt;h3&gt;伴性遗传概述&lt;/h3&gt;
+&lt;h3&gt;伴 X 染色体显性遗传&lt;/h3&gt;
+&lt;h3&gt;伴 X 染色体隐性遗传&lt;/h3&gt;
+&lt;h3&gt;伴 Y 染色体遗传&lt;/h3&gt;
+&lt;h3&gt;性染色体同源区段&lt;/h3&gt;
+&lt;h3&gt;伴性遗传致死问题&lt;/h3&gt;
+&lt;h3&gt;伴性遗传的应用&lt;/h3&gt;
+&lt;h3&gt;多基因遗传病&lt;/h3&gt;
+&lt;h3&gt;染色体异常遗传病&lt;/h3&gt;
+&lt;h2&gt;遗传病概率统计&lt;/h2&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-03-29&#39;&gt;...</description>
+      <link>https://raineblog.dpdns.org/whk/science/genetics/3/</link>
+      <pubDate>Sun, 06 Apr 2025 11:06:15 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/genetics/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/genetics/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/3.png" type="image/png" length="47057" />
       
     </item>
     
