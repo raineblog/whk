@@ -50,6 +50,7 @@
             "title": "简介",
             "children": [
                 "index.md",
+                "intro/recent.md",
                 "intro/discussion.md",
                 "intro/usage.md",
                 "intro/format.md",
