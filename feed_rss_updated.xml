@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Fri, 23 Jan 2026 09:19:16 -0000</pubDate>
-    <lastBuildDate>Fri, 23 Jan 2026 09:19:16 -0000</lastBuildDate>
+    <pubDate>Sun, 25 Jan 2026 13:33:12 -0000</pubDate>
+    <lastBuildDate>Sun, 25 Jan 2026 13:33:12 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;Bot&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-23T09:19:17.792009+00:00&#39;&gt;2026-01-23 09:19:17&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;20...</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T13:33:14.145120+00:00&#39;&gt;2026-01-25 13:33:14&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;20...</description>
       <link>https://raineblog.dpdns.org/whk/blog/author/Bot/</link>
-      <pubDate>Fri, 23 Jan 2026 09:19:26 +0000</pubDate>
+      <pubDate>Sun, 25 Jan 2026 13:33:24 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/author/Bot/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/author/Bot/</guid>
@@ -56,14 +56,169 @@
       
       
       <description>&lt;h1&gt;2026&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-23T09:19:17.792009+00:00&#39;&gt;2026-01-23 09:19:17&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2...</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T13:33:14.145120+00:00&#39;&gt;2026-01-25 13:33:14&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2...</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2026/</link>
-      <pubDate>Fri, 23 Jan 2026 09:19:26 +0000</pubDate>
+      <pubDate>Sun, 25 Jan 2026 13:33:24 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2026/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2026/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/archive/2026.png" type="image/png" length="38762" />
+      
+    </item>
+    
+    <item>
+      <title>酶与发酵技术</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;酶与发酵技术&lt;/h1&gt;
+&lt;h2&gt;酶抑制剂及其原理&lt;/h2&gt;
+&lt;h3&gt;酶抑制剂概述&lt;/h3&gt;
+&lt;p&gt;酶抑制剂（Enzyme Inhibitor）是指能够结合酶分子，从而降低或消除酶活性的分子。在细胞代谢调控、药物研发以及农业生产中，酶抑制剂都扮演着至关重要的角色。&lt;/p&gt;
+&lt;p&gt;从应试和学科交叉的角度来看，理解抑制剂不仅仅是记忆几种类型，更重要的是理解&lt;strong&gt;酶 - 底物相互作用的专一性&lt;/strong&gt;以及&lt;strong&gt;蛋白质构象改变对功能的影响&lt;/strong&gt;。在大学生物化学和分子生物学中，酶动力学（Enzyme Kinetics）是定量分析抑制剂作用的核心方法。&lt;/p&gt;
+&lt;h3&gt;常见的可逆抑制剂&lt;/h3&gt;
+&lt;p&gt;可逆抑制剂与酶是非共价结合的（如氢键、离子键、疏水作用等），可以通过透析或超滤等物理方法除去。根据它们与酶结合的部位及对动力学参数的影响，主要分为以下三类：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;竞争性抑制剂（Competitive Inhibitor）：这是高中和大学考试中最常考查的一类。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;机制&lt;/strong&gt;：抑制剂的结构与底物（Substrate）十分相似，因此能与底物竞争酶的&lt;strong&gt;活性中心&lt;/strong&gt;（Active Site）。酶的活性中心“寸土寸金”，一旦被抑制剂占据，底物就无法结合。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/4/</link>
+      <pubDate>Sun, 25 Jan 2026 13:32:05 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/4.png" type="image/png" length="49043" />
+      
+    </item>
+    
+    <item>
+      <title>细胞工程</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;细胞工程&lt;/h1&gt;
+&lt;p&gt;生物技术是应用生命科学的研究
+成果，对生物或生物的成分、产物等进行
+改造和利用的技术。生物技术是一个综合
+性的技术体系，我们可以
+将它与工程学原理相结
+合，来进行研究、设计和
+加工生产，为社会提供
+服务。&lt;/p&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-10-12&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-10-12T21:16:14+08:00&#39;&gt;2025-10-12 21:16:14&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-ti...</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/9/</link>
+      <pubDate>Sun, 25 Jan 2026 13:32:05 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/9/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/9/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/9.png" type="image/png" length="41678" />
+      
+    </item>
+    
+    <item>
+      <title>振动机械波</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;振动机械波&lt;/h1&gt;
+&lt;h2&gt;机械振动&lt;/h2&gt;
+&lt;h3&gt;基本概念&lt;/h3&gt;
+&lt;p&gt;我们把物体或物体的一部分在一个位置附近的往复运动称为&lt;strong&gt;机械振动&lt;/strong&gt;，简称&lt;strong&gt;振动&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;振动不仅存在于机械运动中，在其他多种多样的运动变化中，也存在着与机械振动特征相类似的现象。例如，交流电路中的电压和电流，交变电磁场中的电场强度和磁场强度等，它们也是随着时间在一定量值附近反复变化着。因此，在物理学中，人们将振动的概念予以推广，把一个物理量在某一数值附近的反复变化都叫做振动。上述交变电磁场中的振动就称为电磁振动或电磁振荡。除此之外，还有高温下分子的振动，固体晶格上原子的振动等等。&lt;/p&gt;
+&lt;p&gt;我们将一个小球连在一个理想弹簧上，放在光滑平面上，我们称小球在运动方向上合力为零的位置称为&lt;strong&gt;平衡位置&lt;/strong&gt;（通常是弹簧原长），把小球和弹簧所组成的系统称为&lt;strong&gt;弹簧振子&lt;/strong&gt;，也可以简称为振子。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;m-image-9.png&#34;&gt;{ width=&#34;40%&#34; }&lt;/p&gt;
+&lt;p&gt;一般来说，默认称位移即为从平衡位置的距离，位移的正负通常需要规定正方向。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在平衡位置，速度最大，弹性势能最小。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在两段位移的绝对值最大处，速度最小（通常为...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/mechanics/5/</link>
+      <pubDate>Sun, 25 Jan 2026 13:32:05 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mechanics/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/5.png" type="image/png" length="47946" />
+      
+    </item>
+    
+    <item>
+      <title>光学原理初步</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;光学原理初步&lt;/h1&gt;
+&lt;h2&gt;几何光学&lt;/h2&gt;
+&lt;h3&gt;光的传播&lt;/h3&gt;
+&lt;p&gt;光在同种均匀介质中沿直线传播，在真空中光的传播速度为 $c=\pu{299 792 458 m/s}$，约 $\pu{3\times10^8m/s}$，不同颜色的光在真空中的传播速度相同，在其他介质中的传播速度不同。正在发光的物体叫做光源。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-18.png&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
+&lt;p&gt;以上为光的最简单三个性质，我们在初中就已经涉及，后面我们会分别展开讲解。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;费马原理：光（或任何波）在两点间传播时，所走的路径是所需光程（或时间）为极值（通常是极小值）的路径。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;光路可逆原理：在干涉与绕射可忽略的情况中，入射光线与反射光线的可交换性。就是在一条光径的终点，发出反方向的光，此光可沿原路径回到原来的起点。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;光的反射&lt;/h3&gt;
+&lt;h3&gt;光的折射&lt;/h3&gt;
+&lt;p&gt;折射率也称折射系数，视光学称屈光指数、屈光率，表示光在真空中的传播速度是在这种介质中传播速度的多少倍：&lt;/p&gt;
+&lt;p&gt;$$
+n=\dfrac{c}{v}
+$$&lt;/p&gt;
+&lt;p&gt;这个比值即为这种介质的&lt;strong&gt;绝对折射率&lt;/strong&gt;，简称折射率，其中 $v$ 为光在这种介质中...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/modern/3/</link>
+      <pubDate>Sun, 25 Jan 2026 13:32:05 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/modern/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/3.png" type="image/png" length="47160" />
+      
+    </item>
+    
+    <item>
+      <title>化学实验操作</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;化学实验操作&lt;/h1&gt;
+&lt;p&gt;一、实验室突发事件的应对措施&lt;/p&gt;
+&lt;p&gt;1.烫伤和烧伤：轻微烫伤或烧伤时，可先用洁净的冷水处理，降低局部温度，然后涂上烫伤药膏(若有水疱，尽量不要弄破)。严重时需及时就医。&lt;/p&gt;
+&lt;p&gt;2.创伤：用药棉把伤口清理干净(伤口处若有碎玻璃片，先要小心除去)，然后用双氧水或碘酒擦洗，最后用创可贴外敷。&lt;/p&gt;
+&lt;p&gt;3.酸或碱等腐蚀性试剂灼伤如果不慎将酸沾到皮肤上，应立即用大量水冲洗，然后用3% ~5%的NaHCO3溶液冲洗；如果不慎将碱沾到皮肤上，应立即用大量水冲洗，然后涂上1%的硼酸。&lt;/p&gt;
+&lt;p&gt;如果有少量酸(或碱)滴到实验桌上，应立即用湿抹布擦净，然后用水冲洗抹布。&lt;/p&gt;
+&lt;p&gt;4.着火：立即切断室内电源，移走可燃物。如果火势不大，用湿布或灭火毯覆盖火源以灭火；火势较猛时，选用合适的灭火器进行灭火，并立即与消防联系。&lt;/p&gt;
+&lt;p&gt;如果身上的衣物着火，立即用湿布灭火；如果燃烧面积较大，应躺在地上翻滚以达到灭火的目的。&lt;/p&gt;
+&lt;p&gt;二、常见废弃物的处理方法&lt;/p&gt;
+&lt;p&gt;1.废液的处理&lt;/p&gt;
+&lt;p&gt;(1)对于酸、碱、氧化剂或还原剂的废液，应分别收集。在确定酸与碱混合、氧化剂与还原剂混合无危险时，可用中和法或氧化还原法，每次各取少量分次混合后再排放。&lt;/p&gt;
+&lt;p&gt;...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/experiment/experiment/</link>
+      <pubDate>Sat, 24 Jan 2026 13:01:19 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/experiment/experiment/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/experiment/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/experiment.png" type="image/png" length="49166" />
       
     </item>
     
@@ -419,43 +574,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>光学原理初步</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;光学原理初步&lt;/h1&gt;
-&lt;h2&gt;几何光学&lt;/h2&gt;
-&lt;h3&gt;光的传播&lt;/h3&gt;
-&lt;p&gt;光在同种均匀介质中沿直线传播，在真空中光的传播速度为 $c=\pu{299 792 458 m/s}$，约 $\pu{3\times10^8m/s}$，不同颜色的光在真空中的传播速度相同，在其他介质中的传播速度不同。正在发光的物体叫做光源。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-18.png&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
-&lt;p&gt;以上为光的最简单三个性质，我们在初中就已经涉及，后面我们会分别展开讲解。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;费马原理：光（或任何波）在两点间传播时，所走的路径是所需光程（或时间）为极值（通常是极小值）的路径。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;光路可逆原理：在干涉与绕射可忽略的情况中，入射光线与反射光线的可交换性。就是在一条光径的终点，发出反方向的光，此光可沿原路径回到原来的起点。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;光的反射&lt;/h3&gt;
-&lt;h3&gt;光的折射&lt;/h3&gt;
-&lt;p&gt;折射率也称折射系数，视光学称屈光指数、屈光率，表示光在真空中的传播速度是在这种介质中传播速度的多少倍：&lt;/p&gt;
-&lt;p&gt;$$
-n=\dfrac{c}{v}
-$$&lt;/p&gt;
-&lt;p&gt;这个比值即为这种介质的&lt;strong&gt;绝对折射率&lt;/strong&gt;，简称折射率，其中 $v$ 为光在这种介质中...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/modern/3/</link>
-      <pubDate>Sun, 18 Jan 2026 14:10:08 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/modern/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/3.png" type="image/png" length="47160" />
-      
-    </item>
-    
-    <item>
       <title>烃及烃的衍生物</title>
       
       
@@ -516,34 +634,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/2/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/2.png" type="image/png" length="47861" />
-      
-    </item>
-    
-    <item>
-      <title>化学实验操作</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;化学实验操作&lt;/h1&gt;
-&lt;p&gt;一、实验室突发事件的应对措施&lt;/p&gt;
-&lt;p&gt;1.烫伤和烧伤：轻微烫伤或烧伤时，可先用洁净的冷水处理，降低局部温度，然后涂上烫伤药膏(若有水疱，尽量不要弄破)。严重时需及时就医。&lt;/p&gt;
-&lt;p&gt;2.创伤：用药棉把伤口清理干净(伤口处若有碎玻璃片，先要小心除去)，然后用双氧水或碘酒擦洗，最后用创可贴外敷。&lt;/p&gt;
-&lt;p&gt;3.酸或碱等腐蚀性试剂灼伤如果不慎将酸沾到皮肤上，应立即用大量水冲洗，然后用3% ~5%的NaHCO3溶液冲洗；如果不慎将碱沾到皮肤上，应立即用大量水冲洗，然后涂上1%的硼酸。&lt;/p&gt;
-&lt;p&gt;如果有少量酸(或碱)滴到实验桌上，应立即用湿抹布擦净，然后用水冲洗抹布。&lt;/p&gt;
-&lt;p&gt;4.着火：立即切断室内电源，移走可燃物。如果火势不大，用湿布或灭火毯覆盖火源以灭火；火势较猛时，选用合适的灭火器进行灭火，并立即与消防联系。&lt;/p&gt;
-&lt;p&gt;如果身上的衣物着火，立即用湿布灭火；如果燃烧面积较大，应躺在地上翻滚以达到灭火的目的。&lt;/p&gt;
-&lt;p&gt;二、常见废弃物的处理方法&lt;/p&gt;
-&lt;p&gt;1.废液的处理&lt;/p&gt;
-&lt;p&gt;(1)对于酸、碱、氧化剂或还原剂的废液，应分别收集。在确定酸与碱混合、氧化剂与还原剂混合无危险时，可用中和法或氧化还原法，每次各取少量分次混合后再排放。&lt;/p&gt;
-&lt;p&gt;...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/experiment/experiment/</link>
-      <pubDate>Thu, 15 Jan 2026 13:15:11 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/experiment/experiment/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/experiment/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/experiment.png" type="image/png" length="49166" />
       
     </item>
     
@@ -2477,38 +2567,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>振动机械波</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;振动机械波&lt;/h1&gt;
-&lt;h2&gt;机械振动&lt;/h2&gt;
-&lt;h3&gt;基本概念&lt;/h3&gt;
-&lt;p&gt;我们把物体或物体的一部分在一个位置附近的往复运动称为&lt;strong&gt;机械振动&lt;/strong&gt;，简称&lt;strong&gt;振动&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;振动不仅存在于机械运动中，在其他多种多样的运动变化中，也存在着与机械振动特征相类似的现象。例如，交流电路中的电压和电流，交变电磁场中的电场强度和磁场强度等，它们也是随着时间在一定量值附近反复变化着。因此，在物理学中，人们将振动的概念予以推广，把一个物理量在某一数值附近的反复变化都叫做振动。上述交变电磁场中的振动就称为电磁振动或电磁振荡。除此之外，还有高温下分子的振动，固体晶格上原子的振动等等。&lt;/p&gt;
-&lt;p&gt;我们将一个小球连在一个理想弹簧上，放在光滑平面上，我们称小球在运动方向上合力为零的位置称为&lt;strong&gt;平衡位置&lt;/strong&gt;（通常是弹簧原长），把小球和弹簧所组成的系统称为&lt;strong&gt;弹簧振子&lt;/strong&gt;，也可以简称为振子。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;m-image-9.png&#34;&gt;{ width=&#34;40%&#34; }&lt;/p&gt;
-&lt;p&gt;一般来说，默认称位移即为从平衡位置的距离，位移的正负通常需要规定正方向。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;在平衡位置，速度最大，弹性势能最小。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;在两段位移的绝对值最大处，速度最小（通常为...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/mechanics/5/</link>
-      <pubDate>Mon, 12 Jan 2026 04:07:58 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/mechanics/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/5/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/5.png" type="image/png" length="47946" />
-      
-    </item>
-    
-    <item>
       <title>天体的运动</title>
       
       
@@ -3594,24 +3652,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>生物之发酵工程</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;生物之发酵工程&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-11-04&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-11-04T21:16:15+08:00&#39;&gt;2025-11-04 21:16:15&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-11-04&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025...</description>
-      <link>https://raineblog.dpdns.org/whk/science/organic/6/</link>
-      <pubDate>Tue, 04 Nov 2025 13:16:15 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/organic/6/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/6/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/6.png" type="image/png" length="48962" />
-      
-    </item>
-    
-    <item>
       <title>生物实验</title>
       
       
@@ -3627,24 +3667,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/bio/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/bio.png" type="image/png" length="45484" />
-      
-    </item>
-    
-    <item>
-      <title>低等生物</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;低等生物&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-09-06&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-09-06T18:39:00+08:00&#39;&gt;2025-09-06 18:39:00&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-10-31&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-10...</description>
-      <link>https://raineblog.dpdns.org/whk/science/species/2/</link>
-      <pubDate>Fri, 31 Oct 2025 14:20:07 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/species/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/2.png" type="image/png" length="44253" />
       
     </item>
     

@@ -62,12 +62,12 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/cell/4/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <lastmod>2026-01-25</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/cell/9/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <lastmod>2026-01-25</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -172,7 +172,7 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/experiment/experiment/</loc>
-        <lastmod>2026-01-15</lastmod>
+        <lastmod>2026-01-24</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -362,7 +362,7 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/mechanics/5/</loc>
-        <lastmod>2026-01-12</lastmod>
+        <lastmod>2026-01-25</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -387,7 +387,7 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/modern/3/</loc>
-        <lastmod>2026-01-18</lastmod>
+        <lastmod>2026-01-25</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -453,11 +453,6 @@
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/organic/5/</loc>
         <lastmod>2026-01-12</lastmod>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>https://raineblog.dpdns.org/whk/science/organic/6/</loc>
-        <lastmod>2025-11-04</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -627,12 +622,12 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/blog/archive/2026/</loc>
-        <lastmod>2026-01-23</lastmod>
+        <lastmod>2026-01-25</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/blog/author/Bot/</loc>
-        <lastmod>2026-01-23</lastmod>
+        <lastmod>2026-01-25</lastmod>
         <changefreq>daily</changefreq>
     </url>
 </urlset>
