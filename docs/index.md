@@ -269,8 +269,4 @@
       </div>
     </a>
   </div>
-
-  <h3 class="bib-header-title">Recently Updated Docs</h3>
 </div>
-
-<!-- RECENTLY_UPDATED_DOCS -->
