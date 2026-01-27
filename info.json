@@ -6,7 +6,7 @@
         "repo_name": "raineblog/whk",
         "repo_url": "https://github.com/raineblog/whk",
         "edit_uri": "edit/main/docs/",
-        "copyright": "by RainPPR"
+        "copyright": "Except where otherwise noted, content is <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> & code is <a href=\"https://opensource.org/licenses/MIT\" target=\"_blank\" rel=\"noopener\">MIT</a>."
     },
     "theme": {
         "logo": "logo.svg",
