@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 26 Jan 2026 08:25:42 -0000</pubDate>
-    <lastBuildDate>Mon, 26 Jan 2026 08:25:42 -0000</lastBuildDate>
+    <pubDate>Tue, 27 Jan 2026 11:54:42 -0000</pubDate>
+    <lastBuildDate>Tue, 27 Jan 2026 11:54:42 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,75 @@
     
 
     
+    
+    <item>
+      <title>酶与发酵技术</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;酶与发酵技术&lt;/h1&gt;
+&lt;h2&gt;酶抑制剂及其原理&lt;/h2&gt;
+&lt;h3&gt;酶抑制剂概述&lt;/h3&gt;
+&lt;p&gt;酶抑制剂（Enzyme Inhibitor）是指能够结合酶分子，从而降低或消除酶活性的分子。在细胞代谢调控、药物研发以及农业生产中，酶抑制剂都扮演着至关重要的角色。&lt;/p&gt;
+&lt;p&gt;从应试和学科交叉的角度来看，理解抑制剂不仅仅是记忆几种类型，更重要的是理解&lt;strong&gt;酶 - 底物相互作用的专一性&lt;/strong&gt;以及&lt;strong&gt;蛋白质构象改变对功能的影响&lt;/strong&gt;。在大学生物化学和分子生物学中，酶动力学（Enzyme Kinetics）是定量分析抑制剂作用的核心方法。&lt;/p&gt;
+&lt;h3&gt;常见的可逆抑制剂&lt;/h3&gt;
+&lt;p&gt;可逆抑制剂与酶是非共价结合的（如氢键、离子键、疏水作用等），可以通过透析或超滤等物理方法除去。根据它们与酶结合的部位及对动力学参数的影响，主要分为以下三类：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;竞争性抑制剂（Competitive Inhibitor）：这是高中和大学考试中最常考查的一类。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;机制&lt;/strong&gt;：抑制剂的结构与底物（Substrate）十分相似，因此能与底物竞争酶的&lt;strong&gt;活性中心&lt;/strong&gt;（Active Site）。酶的活性中心“寸土寸金”，一旦被抑制剂占据，底物就无法结合。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/4/</link>
+      <pubDate>Tue, 27 Jan 2026 11:53:34 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/4.png" type="image/png" length="49043" />
+      
+    </item>
+    
+    <item>
+      <title>光学原理初步</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;光学原理初步&lt;/h1&gt;
+&lt;h2&gt;几何光学&lt;/h2&gt;
+&lt;h3&gt;光的传播&lt;/h3&gt;
+&lt;p&gt;光在同种均匀介质中沿直线传播，在真空中光的传播速度为 $c=\pu{299 792 458 m/s}$，约 $\pu{3\times10^8m/s}$，不同颜色的光在真空中的传播速度相同，在其他介质中的传播速度不同。正在发光的物体叫做光源。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-18.png&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
+&lt;p&gt;以上为光的最简单三个性质，我们在初中就已经涉及，后面我们会分别展开讲解。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;费马原理：光（或任何波）在两点间传播时，所走的路径是所需光程（或时间）为极值（通常是极小值）的路径。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;光路可逆原理：在干涉与绕射可忽略的情况中，入射光线与反射光线的可交换性。就是在一条光径的终点，发出反方向的光，此光可沿原路径回到原来的起点。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;光的反射&lt;/h3&gt;
+&lt;h3&gt;光的折射&lt;/h3&gt;
+&lt;p&gt;折射率也称折射系数，视光学称屈光指数、屈光率，表示光在真空中的传播速度是在这种介质中传播速度的多少倍：&lt;/p&gt;
+&lt;p&gt;$$
+n=\dfrac{c}{v}
+$$&lt;/p&gt;
+&lt;p&gt;这个比值即为这种介质的&lt;strong&gt;绝对折射率&lt;/strong&gt;，简称折射率，其中 $v$ 为光在这种介质中...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/modern/3/</link>
+      <pubDate>Tue, 27 Jan 2026 11:53:34 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/modern/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/3.png" type="image/png" length="47160" />
+      
+    </item>
     
     <item>
       <title>酶与发酵技术：从微观调控到宏观酿造的生物学盛宴</title>
@@ -215,38 +284,6 @@
     </item>
     
     <item>
-      <title>酶与发酵技术</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;酶与发酵技术&lt;/h1&gt;
-&lt;h2&gt;酶抑制剂及其原理&lt;/h2&gt;
-&lt;h3&gt;酶抑制剂概述&lt;/h3&gt;
-&lt;p&gt;酶抑制剂（Enzyme Inhibitor）是指能够结合酶分子，从而降低或消除酶活性的分子。在细胞代谢调控、药物研发以及农业生产中，酶抑制剂都扮演着至关重要的角色。&lt;/p&gt;
-&lt;p&gt;从应试和学科交叉的角度来看，理解抑制剂不仅仅是记忆几种类型，更重要的是理解&lt;strong&gt;酶 - 底物相互作用的专一性&lt;/strong&gt;以及&lt;strong&gt;蛋白质构象改变对功能的影响&lt;/strong&gt;。在大学生物化学和分子生物学中，酶动力学（Enzyme Kinetics）是定量分析抑制剂作用的核心方法。&lt;/p&gt;
-&lt;h3&gt;常见的可逆抑制剂&lt;/h3&gt;
-&lt;p&gt;可逆抑制剂与酶是非共价结合的（如氢键、离子键、疏水作用等），可以通过透析或超滤等物理方法除去。根据它们与酶结合的部位及对动力学参数的影响，主要分为以下三类：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;竞争性抑制剂（Competitive Inhibitor）：这是高中和大学考试中最常考查的一类。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;机制&lt;/strong&gt;：抑制剂的结构与底物（Substrate）十分相似，因此能与底物竞争酶的&lt;strong&gt;活性中心&lt;/strong&gt;（Active Site）。酶的活性中心“寸土寸金”，一旦被抑制剂占据，底物就无法结合。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/4/</link>
-      <pubDate>Sun, 25 Jan 2026 13:32:05 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/4.png" type="image/png" length="49043" />
-      
-    </item>
-    
-    <item>
       <title>细胞工程</title>
       
       
@@ -301,43 +338,6 @@
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/5/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/5.png" type="image/png" length="47946" />
-      
-    </item>
-    
-    <item>
-      <title>光学原理初步</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;光学原理初步&lt;/h1&gt;
-&lt;h2&gt;几何光学&lt;/h2&gt;
-&lt;h3&gt;光的传播&lt;/h3&gt;
-&lt;p&gt;光在同种均匀介质中沿直线传播，在真空中光的传播速度为 $c=\pu{299 792 458 m/s}$，约 $\pu{3\times10^8m/s}$，不同颜色的光在真空中的传播速度相同，在其他介质中的传播速度不同。正在发光的物体叫做光源。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-18.png&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
-&lt;p&gt;以上为光的最简单三个性质，我们在初中就已经涉及，后面我们会分别展开讲解。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;费马原理：光（或任何波）在两点间传播时，所走的路径是所需光程（或时间）为极值（通常是极小值）的路径。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;光路可逆原理：在干涉与绕射可忽略的情况中，入射光线与反射光线的可交换性。就是在一条光径的终点，发出反方向的光，此光可沿原路径回到原来的起点。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;光的反射&lt;/h3&gt;
-&lt;h3&gt;光的折射&lt;/h3&gt;
-&lt;p&gt;折射率也称折射系数，视光学称屈光指数、屈光率，表示光在真空中的传播速度是在这种介质中传播速度的多少倍：&lt;/p&gt;
-&lt;p&gt;$$
-n=\dfrac{c}{v}
-$$&lt;/p&gt;
-&lt;p&gt;这个比值即为这种介质的&lt;strong&gt;绝对折射率&lt;/strong&gt;，简称折射率，其中 $v$ 为光在这种介质中...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/modern/3/</link>
-      <pubDate>Sun, 25 Jan 2026 13:32:05 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/modern/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/3.png" type="image/png" length="47160" />
       
     </item>
     
