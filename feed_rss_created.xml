@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Tue, 27 Jan 2026 11:54:42 -0000</pubDate>
-    <lastBuildDate>Tue, 27 Jan 2026 11:54:42 -0000</lastBuildDate>
+    <pubDate>Tue, 27 Jan 2026 12:09:43 -0000</pubDate>
+    <lastBuildDate>Tue, 27 Jan 2026 12:09:43 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -1181,34 +1181,24 @@ $$
     </item>
     
     <item>
-      <title>酶与发酵技术</title>
+      <title>发酵技术与工程</title>
       
       
       
       
-      <description>&lt;h1&gt;酶与发酵技术&lt;/h1&gt;
-&lt;h2&gt;酶抑制剂及其原理&lt;/h2&gt;
-&lt;h3&gt;酶抑制剂概述&lt;/h3&gt;
-&lt;p&gt;酶抑制剂（Enzyme Inhibitor）是指能够结合酶分子，从而降低或消除酶活性的分子。在细胞代谢调控、药物研发以及农业生产中，酶抑制剂都扮演着至关重要的角色。&lt;/p&gt;
-&lt;p&gt;从应试和学科交叉的角度来看，理解抑制剂不仅仅是记忆几种类型，更重要的是理解&lt;strong&gt;酶 - 底物相互作用的专一性&lt;/strong&gt;以及&lt;strong&gt;蛋白质构象改变对功能的影响&lt;/strong&gt;。在大学生物化学和分子生物学中，酶动力学（Enzyme Kinetics）是定量分析抑制剂作用的核心方法。&lt;/p&gt;
-&lt;h3&gt;常见的可逆抑制剂&lt;/h3&gt;
-&lt;p&gt;可逆抑制剂与酶是非共价结合的（如氢键、离子键、疏水作用等），可以通过透析或超滤等物理方法除去。根据它们与酶结合的部位及对动力学参数的影响，主要分为以下三类：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;竞争性抑制剂（Competitive Inhibitor）：这是高中和大学考试中最常考查的一类。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;机制&lt;/strong&gt;：抑制剂的结构与底物（Substrate）十分相似，因此能与底物竞争酶的&lt;strong&gt;活性中心&lt;/strong&gt;（Active Site）。酶的活性中心“寸土寸金”，一旦被抑制剂占据，底物就无法结合。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;...&lt;/p&gt;</description>
+      <description>&lt;h1&gt;发酵技术与工程&lt;/h1&gt;
+&lt;h2&gt;发酵技术与工程&lt;/h2&gt;
+&lt;h3&gt;发酵与发酵技术&lt;/h3&gt;
+&lt;p&gt;1857 年，法国微生物学家巴斯德通过实验证明，酒精发酵是由活的酵母菌引起的。此后，人们才开始了解发酵的本质。这里所说的发酵（fermentation），是指人们利用微生物，在适宜的条件下，将原料通过微生物的代谢转化为人类所需要的产物的过程。不同的微生物具有产生不同代谢物的能力，因此利用它们就可以生产出人们所需要的多种产物。&lt;/p&gt;
+&lt;p&gt;腐乳是我国古代劳动人民通过微生物发酵制作而成的一种大豆食品。早在公元 5 世纪的北魏古籍中，就有关于腐乳生产工艺的记载。千百年来，腐乳一直受到人们的喜爱。这是因为经过微生物的发酵，豆腐中的蛋白质被分解成小分子的肽和氨基酸，味道鲜美，易于消化吸收，而腐乳本身又便于保存。多种微生物参与了豆腐的发酵，如酵母、曲霉和毛霉等，其中起主要作用的是&lt;strong&gt;毛霉&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;像这种直接利用原材料中天然存在的微生物，或利用前一次发酵保存下来的面团、卤汁等发酵物中的微生物进行发酵、制作食品的技术一般称为传统发酵技术。传统发酵以混合菌种的固体发酵及半固体发酵为主，通常是家庭式或作坊式的。利用传统发酵技术制作的食品还...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/4/</link>
       <pubDate>Sun, 12 Oct 2025 21:16:14 +0800</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/cell/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/4.png" type="image/png" length="49043" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/4.png" type="image/png" length="48598" />
       
     </item>
     
@@ -3490,7 +3480,21 @@ RNA和蛋白质，从而执行细胞丰富多彩的功
       
       
       <description>&lt;h1&gt;细胞的增殖&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-04-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-04-19T22:19:04+08:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-04-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-04-19T14:19:04+00:00...</description>
+&lt;h2&gt;酶抑制剂及其原理&lt;/h2&gt;
+&lt;h3&gt;酶抑制剂概述&lt;/h3&gt;
+&lt;p&gt;酶抑制剂（Enzyme Inhibitor）是指能够结合酶分子，从而降低或消除酶活性的分子。在细胞代谢调控、药物研发以及农业生产中，酶抑制剂都扮演着至关重要的角色。&lt;/p&gt;
+&lt;p&gt;从应试和学科交叉的角度来看，理解抑制剂不仅仅是记忆几种类型，更重要的是理解&lt;strong&gt;酶 - 底物相互作用的专一性&lt;/strong&gt;以及&lt;strong&gt;蛋白质构象改变对功能的影响&lt;/strong&gt;。在大学生物化学和分子生物学中，酶动力学（Enzyme Kinetics）是定量分析抑制剂作用的核心方法。&lt;/p&gt;
+&lt;h3&gt;常见的可逆抑制剂&lt;/h3&gt;
+&lt;p&gt;可逆抑制剂与酶是非共价结合的（如氢键、离子键、疏水作用等），可以通过透析或超滤等物理方法除去。根据它们与酶结合的部位及对动力学参数的影响，主要分为以下三类：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;竞争性抑制剂（Competitive Inhibitor）：这是高中和大学考试中最常考查的一类。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;机制&lt;/strong&gt;：抑制剂的结构与底物（Substrate）十分相似，因此能与底物竞争酶的&lt;strong&gt;活性中心&lt;/strong&gt;（Active Site）。酶的活性中心“寸土寸金”，一旦被抑制剂占据，底物就无法结合。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/3/</link>
       <pubDate>Sat, 19 Apr 2025 22:19:04 +0800</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -3586,7 +3590,7 @@ Shull（1914）提出，杂合等位基因（如Aa）的互作效应超过纯合
       <comments>https://raineblog.dpdns.org/whk/science/genetics/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/genetics/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/4.png" type="image/png" length="45363" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/4.png" type="image/png" length="35263" />
       
     </item>
     
