@@ -58,6 +58,8 @@ cd whk
     make build
     ```
 
+    构建已启用 KaTeX SSR。
+
 ## 🤝 贡献与反馈
 
 本项目主要由 **RainPPR** 个人维护，目的是记录个人的学习历程与思考。
