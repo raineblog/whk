@@ -15,6 +15,11 @@ html {
     overflow: hidden !important;
 }
 
+.md-typeset div.arithmatex .katex-display {
+    margin-top: -0.5em !important;
+    margin-bottom: -0.5em !important;
+}
+
 .md-typeset__table {
     display: block !important;
 }
