@@ -2,4 +2,6 @@
 
 本人是退役高中信息学竞赛选手，所以你可以在洛谷 LA 群、菜菜园子等群中找到我。
 
+你可以通过我的邮件 [whk@raineblog.dpdns.org](mailto:whk@raineblog.dpdns.org) 联系我，这个链接仅限本博客的相关内容。如果你想关于 RaineBlog 与我交流，可以联系 [contact@raineblog.dpdns.org](mailto:contact@raineblog.dpdns.org)。以上邮件通过 Proton Mail 接收，回复可能不及时，同时有被认为是垃圾邮件而被退回的可能（我已经将比较常用的一些国内域名加入了白名单，但是仍然可能被屏蔽），请你先尝试修改你的邮件，但不要多次发送。如果你确有急事，可以联系 [rainppr@raineblog.dpdns.org](mailto:rainppr@raineblog.dpdns.org) 以直接发送到我的个人邮箱，但是我不建议这样做，因为如果被骚扰，我可能会不耐烦，届时可能关闭这一渠道。
+
 有对于本百科的看法，建议直接发到页面下方的评论区（基于 Giscus）；如果你找我有急事，或者你也是算法竞赛选手，想要讨论的话，也可以加我 QQ 交流！
