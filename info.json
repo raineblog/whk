@@ -22,10 +22,8 @@
             },
             "analytics": [
                 {
-                    "provider": "gtm",
-                    "config": {
-                        "code": "GTM-NNRJ8F2J"
-                    }
+                    "provider": "google",
+                    "property": "GTM-NNRJ8F2J"
                 }
             ],
             "mastodon": "rainppr",
