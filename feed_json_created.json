@@ -1010,7 +1010,7 @@
             "title": "\u5bfc\u6570\u5165\u95e8",
             "content_html": "<h1>\u5bfc\u6570\u5165\u95e8</h1>\n<h2>\u5bfc\u6570\u7684\u5b9a\u4e49</h2>\n<h3>\u5bfc\u6570\u6982\u5ff5</h3>\n<p>\u5982\u679c\u51fd\u6570 $f(x)$ \u5728 $x_{0}$ \u7684\u4e00\u4e2a<strong>\u90bb\u57df</strong> $(x_{0} - \\delta, x_{0} + \\delta)$ \u6709\u5b9a\u4e49\uff0c\u4e14\u6781\u9650</p>\n<p>$$\n\\boxed{\\lim\\limits_{\\Delta x \\to 0} \\dfrac{f(x_{0} + \\Delta x) - f(x_{0})}{\\Delta x}}\n$$</p>\n<p>\u5b58\u5728\uff0c\u90a3\u4e48\u79f0\u8fd9\u4e2a\u6781\u9650\u4e3a $f$ \u5728 $x_{0}$ \u7684<strong>\u5bfc\u6570</strong>\uff0c\u8bb0\u4f5c $f'(x_{0})$ \u6216 $\\dfrac{\\d f}{\\d x}(x_{0})$\u3002\u6b64\u65f6\u79f0 $f$ \u5728 $x_{0}$ <strong>\u53ef\u5bfc</strong>\u3002</p>\n<p>\u5982\u679c\u51fd\u6570 $f(x)$ \u5728 $x_{0}$ \u7684\u4e00\u4e2a<strong>\u5de6\u90bb\u57df</strong> $(x_{0} - \\delta, x_{0}]$ \u6709\u5b9a\u4e49\uff0c\u4e14\u6781\u9650</p>\n<p>$$\n\\lim\\limits_{\\Delta x \\to 0^{-}} \\dfrac{f(x_{0} + \\Delta x) - f(x_{0})}{\\Delta x}\n$$</p>\n<p>\u5b58\u5728\uff0c\u90a3\u4e48\u79f0\u8fd9\u4e2a\u6781\u9650\u4e3a $f$ \u5728 $x_{0}$ \u7684<strong>\u5de6\u5bfc\u6570</strong>\uff0c\u8bb0\u4f5c...</p>",
             "image": "https://raineblog.dpdns.org/whk/assets/images/social/science/function/2.png",
-            "date_modified": "2026-01-12T04:07:58+00:00",
+            "date_modified": "2026-02-02T13:09:25+00:00",
             "date_published": "2025-05-18T17:51:56+08:00",
             "authors": [],
             "tags": null
