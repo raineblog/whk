@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 02 Feb 2026 13:22:14 -0000</pubDate>
-    <lastBuildDate>Mon, 02 Feb 2026 13:22:14 -0000</lastBuildDate>
+    <pubDate>Wed, 04 Feb 2026 09:28:57 -0000</pubDate>
+    <lastBuildDate>Wed, 04 Feb 2026 09:28:57 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,14 +38,35 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-02&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-02T13:22:15.082176+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-02&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-02T13:22:15....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-04&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-04T09:28:58.623207+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-04&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-04T09:28:58....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Mon, 02 Feb 2026 13:22:24 +0000</pubDate>
+      <pubDate>Wed, 04 Feb 2026 09:29:09 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/archive/2025.png" type="image/png" length="38435" />
+      
+    </item>
+    
+    <item>
+      <title>Index</title>
+      
+      
+        
+      <author>RainPPR</author>
+        
+      
+      
+      
+      <description>生成式人工智能在中等教育领域的应用深度、技术边界与学习范式变革：一项多维度的实证探究报告。</description>
+      <link>https://raineblog.dpdns.org/whk/blog/2025/02/04/</link>
+      <pubDate>Wed, 04 Feb 2026 08:44:26 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/2025/02/04/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2025/02/04/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2025/02/04.png" type="image/png" length="None" />
       
     </item>
     
