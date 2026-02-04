@@ -1,4 +1,11 @@
 ---
+date:
+  created: 2025-02-04 05:00:00
+  updated: 2025-02-04 08:00:00
+document_dates_created: 2025-02-04T05:00:00+0000
+document_dates_updated: 2025-02-04T08:00:00+0000
+readtime: 20
+description: 生成式人工智能在中等教育领域的应用深度、技术边界与学习范式变革：一项多维度的实证探究报告。
 authors:
   - RainPPR
 ---
