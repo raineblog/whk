@@ -10,9 +10,11 @@ authors:
   - RainPPR
 ---
 
+<!-- more -->
+
 <div style="text-align: center; margin: 3rem 0;">
     <h1 style="font-family: var(--fontkit-cjk-kai); font-size: 2.2rem; border-bottom: none; margin-bottom: 2rem; color: #000; line-height: 1.4;">生成式人工智能在中等教育领域的应用深度、技术边界与学习范式变革：一项多维度的实证探究报告</h1>
-    
+
     <div style="display: flex; justify-content: center; gap: 3rem; margin-bottom: 1rem;">
         <div>
             <div style="font-size: 1rem; font-weight: 600;">逄沛然</div>
