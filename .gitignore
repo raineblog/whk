@@ -58,3 +58,6 @@ docs/test/
 web_cache
 /.shared
 docs/assets
+
+package.json
+package-lock.json
