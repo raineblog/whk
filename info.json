@@ -42,7 +42,6 @@
             "title": "简介",
             "children": [
                 "index.md",
-                "intro/recent.md",
                 "intro/discussion.md",
                 "intro/usage.md",
                 "intro/format.md",
@@ -219,12 +218,11 @@
                     ]
                 },
                 {
-                    "有机与生物化学": [
+                    "有机化学与合成": [
                         "science/organic/1.md",
                         "science/organic/2.md",
                         "science/organic/3.md",
-                        "science/organic/4.md",
-                        "science/organic/5.md"
+                        "science/organic/4.md"
                     ]
                 },
                 {
