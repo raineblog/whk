@@ -48,7 +48,9 @@ jobs:
         uses: actions/cache@v5
         with:
           path: .cache
-          key: ${{ runner.os }}-mkdocs
+          key: ${{ runner.os }}-mkdocs-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            ${{ runner.os }}-mkdocs-
 
       - name: Build Static Site
         run: mkdocs-build
