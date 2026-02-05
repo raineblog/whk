@@ -96,7 +96,7 @@ $$
 硅酸加热易分解：
 
 $$
-\ce{H2SiO3 ->[\heat] SiO2 + H2O}
+\ce{H2SiO3 ->[\triangle] SiO2 + H2O}
 $$
 
 ### 硅的应用

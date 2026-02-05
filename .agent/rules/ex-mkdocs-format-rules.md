@@ -108,50 +108,6 @@ $$
 
 ```
 
-以及 KaTeX 宏，你可以参考里面的一些公式写法，但是你**不被允许**使用宏命令，例如你需要写 $\overrightarrow$ 而不是 $\vecc$，你仅仅可以参考里面后面键值中值的写法：
-
-```js
-macros: {
-    "\\i": "\\mathrm{i}",
-    "\\d": "\\mathrm{d}",
-    "\\C": "\\mathbb{C}",
-    "\\R": "\\mathbb{R}",
-    "\\Q": "\\mathbb{Q}",
-    "\\Z": "\\mathbb{Z}",
-    "\\N": "\\mathbb{N}",
-    "\\P": "\\mathbb{P}",
-    "\\degree": "^\\circ",
-    "\\op": "\\operatorname",
-    "\\la": "\\left\\langle",
-    "\\ra": "\\right\\rangle",
-    "\\lc": "\\left\\lceil",
-    "\\rc": "\\right\\rceil",
-    "\\lf": "\\left\\lfloor",
-    "\\rf": "\\right\\rfloor",
-    "\\lv": "\\left\\lvert",
-    "\\rv": "\\right\\rvert",
-    "\\paren": "\\left({#1}\\right)",
-    "\\bracket": "\\left[{#1}\\right]",
-    "\\brace": "\\left\\{{#1}\\right\\}",
-    "\\ceil": "\\left\\lceil{#1}\\right\\rceil",
-    "\\floor": "\\left\\lfloor{#1}\\right\\rfloor",
-    "\\vert": "\\left\\lvert{#1}\\right\\rvert",
-    "\\vec": "\\bm",
-    "\\vecc": "\\overrightarrow",
-    "\\mol": "\\operatorname{mol}",
-    "\\thermo": "\\ce{#1};\\quad\\Delta H=\\pu{#2}",
-    "\\cat": "\\ce{催化剂}",
-    "\\heat": "\\triangle",
-    "\\pH": "p\\ce{H}",
-    "\\pOH": "p\\ce{OH}",
-    "\\rank": "\\operatorname{rank}",
-    "\\trans": "^{\\mathrm{T}}",
-    "\\sgn": "\\operatorname{sgn}",
-}
-```
-
-你可以使用这里面的一些特性和方法，再次强调不允许使用上面定义的宏，你只能参考后面的写法。
-
 数学公式内尽量避免使用中文，如果公式里面有很多中文，可以用下面的方式书写：
 
 <center>
