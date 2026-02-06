@@ -1,14 +1,14 @@
 name: CI/CD Pipeline
 
 on:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
   pull_request:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * 1'
+    - cron: '0 0 * * 0'
   workflow_dispatch:
 
 concurrency:
@@ -64,7 +64,7 @@ jobs:
           fi
 
       - name: Post-process with MkDocs PostHTML
-        uses: raineblog/mkdocs-posthtml@v1.0.1
+        uses: raineblog/mkdocs-posthtml@v1.0.2
         with:
           input_dir: 'site'  # The directory containing your built site
           output_dir: 'dist' # Where the optimized files will be saved
