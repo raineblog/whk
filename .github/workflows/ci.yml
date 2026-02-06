@@ -64,7 +64,7 @@ jobs:
           fi
 
       - name: Post-process with MkDocs PostHTML
-        uses: raineblog/mkdocs-posthtml@v1.0.0
+        uses: raineblog/mkdocs-posthtml@v1.0.1
         with:
           input_dir: 'site'  # The directory containing your built site
           output_dir: 'dist' # Where the optimized files will be saved
