@@ -96,3 +96,5 @@ Object.entries(userLanguages).forEach(([locale, data]) => {
     TooltipLanguage.register(locale, data);
 });
 */
+
+//# sourceMappingURL=user.config.js.map
