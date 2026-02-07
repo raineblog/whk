@@ -55,17 +55,11 @@ jobs:
       - name: Build Static Site
         run: mkdocs-build
 
-      - uses: x-color/github-actions-job-summary@v0.1.1
+      - name: Upload Lint Results
+        uses: RainPPR/upload-job-summary@v1.0.0
         with:
           file: lint.log
-
-      # - name: Output lint Job Summary
-      #   run: |
-      #     if [ -f ./lint.log ]; then
-      #       cat ./lint.log >> $GITHUB_STEP_SUMMARY
-      #     else
-      #       echo "✅ No broken links found (or report not generated)." >> $GITHUB_STEP_SUMMARY
-      #     fi
+          overwrite: 'true'
 
       - name: Push to gh-pages Branch
         uses: peaceiris/actions-gh-pages@v4
