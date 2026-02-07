@@ -55,13 +55,17 @@ jobs:
       - name: Build Static Site
         run: mkdocs-build
 
-      - name: Output lint Job Summary
-        run: |
-          if [ -f ./lint.log ]; then
-            cat ./lint.log >> $GITHUB_STEP_SUMMARY
-          else
-            echo "✅ No broken links found (or report not generated)." >> $GITHUB_STEP_SUMMARY
-          fi
+      - uses: x-color/github-actions-job-summary@v0.1.1
+        with:
+          file: lint.log
+
+      # - name: Output lint Job Summary
+      #   run: |
+      #     if [ -f ./lint.log ]; then
+      #       cat ./lint.log >> $GITHUB_STEP_SUMMARY
+      #     else
+      #       echo "✅ No broken links found (or report not generated)." >> $GITHUB_STEP_SUMMARY
+      #     fi
 
       - name: Push to gh-pages Branch
         uses: peaceiris/actions-gh-pages@v4
