@@ -63,12 +63,6 @@ jobs:
             echo "✅ No broken links found (or report not generated)." >> $GITHUB_STEP_SUMMARY
           fi
 
-      - name: Post-process with MkDocs PostHTML
-        uses: raineblog/mkdocs-posthtml@v1.0.2
-        with:
-          input_dir: 'site'  # The directory containing your built site
-          output_dir: 'dist' # Where the optimized files will be saved
-
       - name: Push to gh-pages Branch
         uses: peaceiris/actions-gh-pages@v4
         with:
