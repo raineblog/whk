@@ -22,6 +22,22 @@ permissions:
   id-token: write
 
 jobs:
+  seo-push:
+    if: github.event_name == 'schedule'
+    name: SEO Push
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/raineblog/mkdocs-docker:latest
+    steps:
+      - name: SEO Push
+        env:
+          SITE_HOST: "raineblog.dpdns.org"
+          SITE_BASE: "https://raineblog.dpdns.org"
+          SITE_NAME: "RainPPR's WHK Wiki"
+          SITE_PROJECT: "whk"
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+        run: mkdocs-seo
+
   deploy:
     name: Build and Deploy
     if: |

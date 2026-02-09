@@ -1,9 +1,17 @@
 name: PDF Documentation Export
 
 on:
-  schedule:
-    - cron: '28 6 1 * *'
+  push:
+    tags:
+      - 'v*'
   workflow_dispatch:
+    inputs:
+      tag_name:
+        description: 'Tag name for release (optional)'
+        required: false
+        default: ''
+# git tag v20260101
+# git push origin v20260101
 
 permissions:
   contents: write
@@ -23,17 +31,30 @@ jobs:
           submodules: 'true'
 
       - name: Execute PDF generation process
-        run: |
-          export MAX_THREADS=2
-          mkdocs-export
+        env:
+          MAX_THREADS: 4
+        run: mkdocs-export
 
-      - name: Capture UTC timestamp for versioning
-        id: timestamp
-        run: echo "utc_time=$(date -u +'%Y%m%d%H%M')" >> $GITHUB_OUTPUT
+      - name: Upload Binaries (Tag Trigger)
+        uses: softprops/action-gh-release@v2
+        if: (!github.event_name == 'workflow_dispatch') && startsWith(github.ref, 'refs/tags/')
+        with:
+          files: build/*.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload PDF to GitHub Release
+      - name: Upload Binaries (Manual Trigger with Tag)
+        if: github.event_name == 'workflow_dispatch' && inputs.tag_name != ''
         uses: softprops/action-gh-release@v2
         with:
-          files: ./build/*.pdf
-          tag_name: ${{ steps.timestamp.outputs.utc_time }}
-          make_latest: true
+          tag_name: ${{ github.event.inputs.tag_name }}
+          files: build/*.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Artifact (Manual Trigger without Tag)
+        if: github.event_name == 'workflow_dispatch' && (inputs.tag_name == '' || !inputs.tag_name)
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdf-documentation
+          path: build/*.pdf
