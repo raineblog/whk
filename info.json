@@ -42,10 +42,11 @@
             "title": "简介",
             "children": [
                 "index.md",
-                "intro/discussion.md",
-                "intro/usage.md",
-                "intro/format.md",
-                "intro/madoka.md"
+                "home/discussion.md",
+                "home/usage.md",
+                "home/format.md",
+                "home/pymdownx.md",
+                "home/madoka.md"
             ]
         },
         {
@@ -65,39 +66,49 @@
                     ]
                 }
             },
-            "children": {
-                "语法常识": [
-                    "cultural/grammar/1.md",
-                    "cultural/grammar/2.md",
-                    "cultural/grammar/3.md",
-                    "cultural/grammar/4.md",
-                    "cultural/grammar/5.md"
-                ],
-                "阅读理解": [
-                    "cultural/reading/1.md",
-                    "cultural/reading/2.md",
-                    "cultural/reading/3.md",
-                    "cultural/reading/4.md",
-                    "cultural/reading/5.md"
-                ],
-                "语言写作": [
-                    "cultural/writing/1.md",
-                    "cultural/writing/2.md",
-                    "cultural/writing/3.md"
-                ],
-                "哲学艺术": [
-                    "cultural/philosophy/1.md",
-                    "cultural/philosophy/2.md",
-                    "cultural/philosophy/3.md",
-                    "cultural/philosophy/4.md"
-                ],
-                "科学技术": [
-                    "cultural/technology/1.md",
-                    "cultural/technology/2.md",
-                    "cultural/technology/3.md",
-                    "cultural/technology/4.md"
-                ]
-            }
+            "children": [
+                {
+                    "语法常识": [
+                        "cultural/grammar/1.md",
+                        "cultural/grammar/2.md",
+                        "cultural/grammar/3.md",
+                        "cultural/grammar/4.md",
+                        "cultural/grammar/5.md"
+                    ]
+                },
+                {
+                    "阅读理解": [
+                        "cultural/reading/1.md",
+                        "cultural/reading/2.md",
+                        "cultural/reading/3.md",
+                        "cultural/reading/4.md",
+                        "cultural/reading/5.md"
+                    ]
+                },
+                {
+                    "语言写作": [
+                        "cultural/writing/1.md",
+                        "cultural/writing/2.md",
+                        "cultural/writing/3.md"
+                    ]
+                },
+                {
+                    "哲学艺术": [
+                        "cultural/philosophy/1.md",
+                        "cultural/philosophy/2.md",
+                        "cultural/philosophy/3.md",
+                        "cultural/philosophy/4.md"
+                    ]
+                },
+                {
+                    "科学技术": [
+                        "cultural/technology/1.md",
+                        "cultural/technology/2.md",
+                        "cultural/technology/3.md",
+                        "cultural/technology/4.md"
+                    ]
+                }
+            ]
         },
         {
             "title": "高中理科",
