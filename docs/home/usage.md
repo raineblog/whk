@@ -3,7 +3,7 @@
 ## 简介
 
 /// details | 最新更新
-<div class="recently-updated-docs-container" id="recently-updated-docs-container">
+<div class="recently-updated-box" id="recently-updated-box">
 <!-- RECENTLY_UPDATED_DOCS -->
 </div>
 ///
