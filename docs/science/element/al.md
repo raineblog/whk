@@ -54,13 +54,13 @@
     \ce{Al^3+ + 3HCO3^- = Al(OH)3 v + 3CO2 ^}
     $$
 
-![alt text](image.png){ width="80%" }
+![alt text](image.avif){ width="80%" }
 
 ### 铝的工业制取
 
 常见的工业制铝为霍尔-埃鲁法，现在常与与拜耳法联用，产铝量大。
 
-![](./Bayer_process-chinese_annotation.jpg){ width="70%" }
+![](./Bayer_process-chinese_annotation.avif){ width="70%" }
 
 1. 粉碎：
 
