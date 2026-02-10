@@ -2,9 +2,11 @@
 
 ## 简介
 
-RainPPR's Blog 由两个项目构成：
-
-- 这里正在更新。
+/// details | 最新更新
+<div class="recently-updated-docs-container" id="recently-updated-docs-container">
+<!-- RECENTLY_UPDATED_DOCS -->
+</div>
+///
 
 ## 如何找到文章相关资源
 
