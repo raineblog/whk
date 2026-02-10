@@ -23,7 +23,7 @@ permissions:
 
 jobs:
   seo-push:
-    if: github.event_name == 'schedule'
+    if: (github.event_name == 'schedule') || (github.event_name == 'push' && contains(github.event.head_commit.message, '[seo]'))
     name: SEO Push
     runs-on: ubuntu-latest
     container:
