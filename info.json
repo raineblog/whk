@@ -6,7 +6,7 @@
         "repo_name": "raineblog/whk",
         "repo_url": "https://github.com/raineblog/whk",
         "edit_uri": "edit/main/docs/",
-        "copyright": "The content of this project itself is licensed under the <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">Creative Commons Attribution 4.0 International</a> license, and the underlying source code used to format and display that content is licensed under the <a href=\"https://github.com/raineblog/whk/blob/main/LICENSE\" target=\"_blank\" rel=\"noopener\">MIT</a> license."
+        "copyright": "<a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">Creative Commons Attribution 4.0 International</a> | <a href=\"https://github.com/raineblog/whk/blob/main/LICENSE\" target=\"_blank\" rel=\"noopener\">MIT</a>"
     },
     "theme": {
         "logo": "logo.svg",
