@@ -102,7 +102,7 @@
 - [平面体系](https://raineblog.dpdns.org/whk/science/geometry/1/index.md)
 - [直线和圆](https://raineblog.dpdns.org/whk/science/geometry/2/index.md)
 - [圆锥曲线](https://raineblog.dpdns.org/whk/science/geometry/3/index.md)
-- [计算几何](https://raineblog.dpdns.org/whk/science/geometry/4/index.md)
+- [解析几何](https://raineblog.dpdns.org/whk/science/geometry/4/index.md)
 - [线性代数](https://raineblog.dpdns.org/whk/science/geometry/5/index.md)
 - [运动系统](https://raineblog.dpdns.org/whk/science/human/1/index.md)
 - [神经系统](https://raineblog.dpdns.org/whk/science/human/2/index.md)

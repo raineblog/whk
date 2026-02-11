@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Wed, 11 Feb 2026 11:03:21 -0000</pubDate>
-    <lastBuildDate>Wed, 11 Feb 2026 11:03:21 -0000</lastBuildDate>
+    <pubDate>Wed, 11 Feb 2026 15:04:04 -0000</pubDate>
+    <lastBuildDate>Wed, 11 Feb 2026 15:04:04 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-11&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-11T11:03:22.299702+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-11&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-11T11:03:22....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-11&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-11T15:04:05.519017+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-11&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-11T15:04:05....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Wed, 11 Feb 2026 11:03:00 +0000</pubDate>
+      <pubDate>Wed, 11 Feb 2026 15:04:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
@@ -50,30 +50,155 @@
     </item>
     
     <item>
-      <title>细胞工程</title>
+      <title>开发进程</title>
       
       
       
       
-      <description>&lt;h1&gt;细胞工程&lt;/h1&gt;
-&lt;p&gt;生物技术是应用生命科学的研究成果，对生物或生物的成分、产物等进行改造和利用的技术。生物技术是一个综合性的技术体系，我们可以将它与工程学原理相结合，来进行研究、设计和加工生产，为社会提供服务。&lt;/p&gt;
-&lt;h2&gt;植物细胞工程&lt;/h2&gt;
-&lt;p&gt;| 时间 | 内容 |
-| :--: | :--- |
-| 1902 年 | &lt;strong&gt;哈伯兰特&lt;/strong&gt;提出了细胞全能性的理论，但相关的实验尝试没有成功。 |
-| 1958 年 | &lt;strong&gt;斯图尔德&lt;/strong&gt;等发现胡萝卜的体细胞可以分化为胚，为细胞全能性理论提供了强有力的支持。 |
-| 1960 年 | &lt;strong&gt;科金&lt;/strong&gt;用真菌的纤维素酶分解番茄根的细胞壁，成功获得了原生质体。 |
-| 1964 年 | &lt;strong&gt;古哈&lt;/strong&gt;等在培养毛曼陀罗的花药时，首次得到了由花药中的花粉粒发育而来的胚。 |
-| 1971 年 | &lt;strong&gt;卡尔森&lt;/strong&gt;诱导烟草种间原生质体融合，获得了第一株体细胞种间杂种植株。 |
-| 1974 年 | 土壤农杆菌的 Ti 质粒被发现。之后，该质粒应用于植物分子生物学领域，促进了植物细胞工程与分子生物学技术的紧密结合。 |&lt;/p&gt;
-&lt;p&gt;**细胞经分裂和分化后，仍然具有产生完整生物体或分...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/9/</link>
-      <pubDate>Wed, 11 Feb 2026 11:01:00 +0000</pubDate>
+      <description>&lt;p&gt;{
+ &#34;cells&#34;: [
+  {
+   &#34;cell_type&#34;: &#34;markdown&#34;,
+   &#34;id&#34;: &#34;8695cf91&#34;,
+   &#34;metadata&#34;: {},
+   &#34;source&#34;: [
+    &#34;# 开发进程&#34;
+   ]
+  },
+  {
+   &#34;cell_type&#34;: &#34;markdown&#34;,
+   &#34;id&#34;: &#34;a88c6cbc&#34;,
+   &#34;metadata&#34;: {},
+   &#34;source&#34;: [
+    &#34;## 生物\n&#34;,
+    &#34;\n&#34;,
+    &#34;- （待完善）孟德尔遗传规律：五三 310 页考法 1, 2, 3。\n&#34;,
+    &#34;\n&#34;,
+    &#34;- 细胞活动。\n&#34;,
+    &#34;\n&#34;,
+    &#34;- 遗传除了孟德尔以外的。&#34;
+   ]
+  },
+  {
+   &#34;cell_type&#34;: &#34;markdown&#34;,
+   &#34;id&#34;: &#34;ebea725e&#34;,
+   &#34;metadata&#34;: {},
+   &#34;source&#34;: [
+    &#34;## 物理\n&#34;,
+    &#34;\n&#34;,
+    &#34;- 空间测量，参考新概念、初中课本。\n&#34;,
+    &#34;\n&#34;,
+...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/home/roadmap/</link>
+      <pubDate>Wed, 11 Feb 2026 15:03:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/9/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/9/</guid>
+      <comments>https://raineblog.dpdns.org/whk/home/roadmap/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/roadmap/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/9.png" type="image/png" length="41678" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/roadmap.png" type="image/png" length="41226" />
+      
+    </item>
+    
+    <item>
+      <title>汉语语法</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;汉语语法&lt;/h1&gt;
+&lt;p&gt;```bash
+Kyoko: 02-08 15:52:22
+https://zhuanlan.zhihu.com/p/52369009&lt;/p&gt;
+&lt;p&gt;Kyoko: 02-08 15:52:27
+https://zhuanlan.zhihu.com/p/52459340&lt;/p&gt;
+&lt;p&gt;Kyoko: 02-08 15:52:31
+https://zhuanlan.zhihu.com/p/53919249&lt;/p&gt;
+&lt;p&gt;Kyoko: 02-08 15:52:35
+https://zhuanlan.zhihu.com/p/54393154&lt;/p&gt;
+&lt;p&gt;Kyoko: 02-08 16:00:35
+https://chi.lushuyu.site/%E6%96%87%E8%A8%80%E6%96%87/%E5%8F%A4%E4%BB%A3%E6%96%87%E5%8C%96%E5%B8%B8%E8%AF%86/&lt;/p&gt;
+&lt;p&gt;Kyoko: 02-08 16:00:39
+https://chi.lushuyu.site/%E6%96%87%E8%A8%80%E6%96%87/%E6%96%87%E8%A8%80%E8%99%9A%E8...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/cultural/grammar/1/</link>
+      <pubDate>Wed, 11 Feb 2026 14:11:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/cultural/grammar/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/cultural/grammar/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/cultural/grammar/1.png" type="image/png" length="42752" />
+      
+    </item>
+    
+    <item>
+      <title>物质及元素</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;物质及元素&lt;/h1&gt;
+&lt;h2&gt;化学概念&lt;/h2&gt;
+&lt;p&gt;性质本身是能力、本领、也可以说是对外所起的作用，是物质或体系呈现给客观世界的一种形象或状态。对于化学性质有哪些，没有确定的结论，一般认为发生化学变化中才表现出来的性质就是化学性质；没有发生化学变化就表现出来的性质是物理性质。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;化学是一门研究物质的组成、结构、性质和变化规律的自然科学。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;化学变化是有其他物质生成的变化，物理变化是没有其他物质生成的变化。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;化学性质是只有通过化学变化才能表现出来的性质，物理性质是如颜色、状态、气味、熔点、沸点、硬度、密度等是不需要通过化学变化就能表现出来的性质。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;由一种元素构成的结构不同的单质互称为同素异形体。如金刚石、石墨和 C60 互称为同素异形体。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;木炭、焦炭、炭黑都是由微小的石墨晶体和少量杂质组成的，统称为无定形碳。因此，无定形碳不属于碳的同素异形体。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;燃烧是可燃物跟空气中的氧气发生的发光发热的剧烈的氧化反应。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;可燃性通常是指可燃物能在空气或氧气中发生燃烧的性质；在一定条件下，可以发生燃烧的物质称为可燃物。可燃物具有可燃性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;分散系是将一种或多种物质分散到另一种...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/</link>
+      <pubDate>Wed, 11 Feb 2026 14:11:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/index.png" type="image/png" length="47564" />
+      
+    </item>
+    
+    <item>
+      <title>化学实验操作</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;化学实验操作&lt;/h1&gt;
+&lt;p&gt;一、实验室突发事件的应对措施&lt;/p&gt;
+&lt;p&gt;1.烫伤和烧伤：轻微烫伤或烧伤时，可先用洁净的冷水处理，降低局部温度，然后涂上烫伤药膏(若有水疱，尽量不要弄破)。严重时需及时就医。&lt;/p&gt;
+&lt;p&gt;2.创伤：用药棉把伤口清理干净(伤口处若有碎玻璃片，先要小心除去)，然后用双氧水或碘酒擦洗，最后用创可贴外敷。&lt;/p&gt;
+&lt;p&gt;3.酸或碱等腐蚀性试剂灼伤如果不慎将酸沾到皮肤上，应立即用大量水冲洗，然后用3% ~5%的NaHCO3溶液冲洗；如果不慎将碱沾到皮肤上，应立即用大量水冲洗，然后涂上1%的硼酸。&lt;/p&gt;
+&lt;p&gt;如果有少量酸(或碱)滴到实验桌上，应立即用湿抹布擦净，然后用水冲洗抹布。&lt;/p&gt;
+&lt;p&gt;4.着火：立即切断室内电源，移走可燃物。如果火势不大，用湿布或灭火毯覆盖火源以灭火；火势较猛时，选用合适的灭火器进行灭火，并立即与消防联系。&lt;/p&gt;
+&lt;p&gt;如果身上的衣物着火，立即用湿布灭火；如果燃烧面积较大，应躺在地上翻滚以达到灭火的目的。&lt;/p&gt;
+&lt;p&gt;二、常见废弃物的处理方法&lt;/p&gt;
+&lt;p&gt;1.废液的处理&lt;/p&gt;
+&lt;p&gt;(1)对于酸、碱、氧化剂或还原剂的废液，应分别收集。在确定酸与碱混合、氧化剂与还原剂混合无危险时，可用中和法或氧化还原法，每次各取少量分次混合后再排放。&lt;/p&gt;
+&lt;p&gt;...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/experiment/1/</link>
+      <pubDate>Wed, 11 Feb 2026 14:11:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/experiment/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/1.png" type="image/png" length="49166" />
       
     </item>
     
@@ -106,7 +231,7 @@ k=\tan\theta,\quad\theta=\arctan k
 $$&lt;/p&gt;
 &lt;p&gt;因此，我们...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/geometry/2/</link>
-      <pubDate>Wed, 11 Feb 2026 11:01:00 +0000</pubDate>
+      <pubDate>Wed, 11 Feb 2026 14:11:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/2/</guid>
@@ -122,6 +247,41 @@ $$&lt;/p&gt;
       
       
       <description>&lt;h1&gt;圆锥曲线&lt;/h1&gt;
+&lt;h2&gt;椭圆&lt;/h2&gt;
+&lt;h3&gt;第一定义&lt;/h3&gt;
+&lt;p&gt;到两个定点 $F_1$、$F_2$ 的距离之和为定值（大于 $|F_1F_2|$）的点所形成的轨迹称为椭圆。这两个定点叫做椭圆的焦点，两焦点间的距离叫做椭圆的焦距，焦距的一半称为半焦距。&lt;/p&gt;
+&lt;p&gt;我们不妨设 $F_1=(-c,0),F_2=(c,0)$ 为焦点的椭圆经过 $M$ 点，且 $M$ 到 $F_1,F_2$ 的局里之和为 $2a$，其中 $a&amp;gt;c$，那么写出方程：&lt;/p&gt;
+&lt;p&gt;$$
+\sqrt{(x-c)^2+y^2}+\sqrt{(x+c)^2+y^2}=2a
+$$&lt;/p&gt;
+&lt;p&gt;我们把一个根号移到另一侧，然后两边平方，整理后再平方，可以得到：&lt;/p&gt;
+&lt;p&gt;$$
+\dfrac{x^2}{a^2}+\dfrac{y^2}{a^2-c^2}=1
+$$&lt;/p&gt;
+&lt;p&gt;不妨令 $b=\sqrt{a^2-c^2}$，那么&lt;strong&gt;椭圆的标准方程&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;$$
+\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1(a&amp;gt;b&amp;gt;0)
+$$&lt;/p&gt;
+&lt;p&gt;这个椭圆的焦点在 $x$ 轴上，容易知道焦点在 $y$ 轴上的椭圆&lt;/p&gt;
+&lt;p&gt;$$
+\dfrac{x^2}{b^2}+\dfrac{y^2}{...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/3/</link>
+      <pubDate>Wed, 11 Feb 2026 14:11:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/3.png" type="image/png" length="43689" />
+      
+    </item>
+    
+    <item>
+      <title>解析几何</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;解析几何&lt;/h1&gt;
 &lt;h2&gt;二次曲线&lt;/h2&gt;
 &lt;h3&gt;圆锥截线&lt;/h3&gt;
 &lt;p&gt;用一平面去截双顶圆锥，得到的截线就是圆锥曲线。圆锥曲线是平面上满足距某定点（焦点）的距离与距某定直线（准线）的距离之比为常数 $e$ 的点的轨迹。&lt;/p&gt;
@@ -147,34 +307,104 @@ $$&lt;/p&gt;
 &lt;p&gt;第二宇...&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/geometry/3/</link>
-      <pubDate>Wed, 11 Feb 2026 11:01:00 +0000</pubDate>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/4/</link>
+      <pubDate>Wed, 11 Feb 2026 14:11:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/geometry/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/3/</guid>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/3.png" type="image/png" length="43689" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/4.png" type="image/png" length="42236" />
       
     </item>
     
     <item>
-      <title>原子与元素</title>
+      <title>神经系统</title>
       
       
       
       
-      <description>&lt;h1&gt;原子与元素&lt;/h1&gt;
-&lt;h2&gt;核物理初步&lt;/h2&gt;
-&lt;h3&gt;射线与放射性&lt;/h3&gt;
-&lt;p&gt;1895 年年末，德国物理学家&lt;strong&gt;伦琴&lt;/strong&gt;发现了一种新的射线——&lt;strong&gt;X 射线&lt;/strong&gt;（即伦琴射线）。它具有一定的辐射性。现在我们知道，X 射线是原子内层电子跃迁时发射的波长很短的电磁波。&lt;/p&gt;
-&lt;p&gt;法国物理学家&lt;strong&gt;贝克勒尔&lt;/strong&gt;对荧光研究了多年，他决定研究荧光与 X 射线的关系。1896 年年初，他选择了在日光照晒时能发出荧光的铀盐——硫酸铀酰钾做实验材料。他用黑纸把照相底片包住，放到这种铀盐的下面，在阳光下曝晒了几小时。底片显影后，发现了铀盐在底片上的黑色轮廓，表示底片已经感“光”。阳光是不能透过黑纸的，贝克勒尔认为，这种铀盐受到阳光照射后除了能够发出可见的荧光外，还能发射 X 射线，是 X 射线透过黑纸使底片感光。再次准备实验的时候遇到了几个阴天，贝克勒尔只好把准备好的铀盐和包好的底片一起放进了抽屉。几天以后，贝克勒尔在检查底片时意外发现底片又已经感光。这个事实使贝克勒尔认为铀盐本身能够发射一种神秘的射线，正是这种射线导致了底片感光。贝克勒尔进一步用不发荧光的其他铀化合物进行实验，发现也能使底片感光。铀化合物发出的射线也像 X ...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/structure/2/</link>
-      <pubDate>Wed, 11 Feb 2026 11:01:00 +0000</pubDate>
+      <description>&lt;h1&gt;神经系统&lt;/h1&gt;
+&lt;p&gt;对信息进行处理并迅速作出反应，是一个快速而协调的过程，需要体内多个器官、系统的配合，在这个过程中，神经系统扮演了主要角色，它通过复杂而精巧的调节，使得机体能够保持高度的协调一致与稳定。&lt;/p&gt;
+&lt;h2&gt;神经系统&lt;/h2&gt;
+&lt;p&gt;人的神经系统就包括中枢神经系统和外周神经系统两部分。&lt;/p&gt;
+&lt;h3&gt;中枢神经系统&lt;/h3&gt;
+&lt;p&gt;中枢神经系统包括脑（大脑、脑干和小脑等，位于颅腔内）和脊髓（位于椎管内）。在中枢神经系统内，大量神经细胞聚集在一起，形成许多不同的神经中枢，分别负责调控某一特定的生理功能。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;大脑：包括左右两个大脑半球，表面是大脑皮层；大脑皮层是调节机体活动的最高级中枢。&lt;/p&gt;
+&lt;p&gt;大脑的表面覆盖着主要由神经元胞体及其树突构成的薄层结构——大脑皮层。人的大脑有着丰富的沟回（沟即为凹陷部分，回为隆起部分），这使得大脑在有限体积的颅腔内，可以具有更大的表面积。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;小脑：位于大脑的后下方，它能够协调运动，维持身体平衡。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;下丘脑：脑的重要组成部分，其中有体温调节中枢、水平衡调节中枢等，还与生物节律等的控制有关。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;脑干：是连接脊髓和脑其他部分的重要通路，有许多维持生命的必要中枢，如调节呼吸...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/human/2/</link>
+      <pubDate>Wed, 11 Feb 2026 14:11:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/structure/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/2/</guid>
+      <comments>https://raineblog.dpdns.org/whk/science/human/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/2.png" type="image/png" length="43891" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/2.png" type="image/png" length="46009" />
+      
+    </item>
+    
+    <item>
+      <title>内分泌系统</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;内分泌系统&lt;/h1&gt;
+&lt;h2&gt;内环境概述&lt;/h2&gt;
+&lt;p&gt;细胞是生命活动的基本单位。无论是单细胞生物还是多细胞生物的细胞，都有其特定的生活环境，并与环境之间不断进行着&lt;strong&gt;物质和能量的交换&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3&gt;生活的环境&lt;/h3&gt;
+&lt;p&gt;人体内都含有大量以水为基础的液体，这些液体统称为&lt;strong&gt;体液&lt;/strong&gt;。体液中除含有大量的水以外，还含有许多离子和化合物。注意：有孔道与外界相连的，如尿液、泪液、消化液等，不属于体液。&lt;/p&gt;
+&lt;p&gt;体液分为&lt;strong&gt;细胞内液&lt;/strong&gt;（存在于细胞内，约占 2/3）和&lt;strong&gt;细胞外液&lt;/strong&gt;（存在于细胞外，约占 1/3），细胞外液主要有&lt;strong&gt;组织液&lt;/strong&gt;、&lt;strong&gt;血浆&lt;/strong&gt;、&lt;strong&gt;淋巴液&lt;/strong&gt;等，部分题目中可能会出现脑脊液等。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;血浆&lt;/strong&gt;：血浆是血细胞直接生活的环境。&lt;/p&gt;
+&lt;p&gt;血液并不全是体液，这是因为血液中除了液体部分血浆，还有大量的&lt;strong&gt;血细胞&lt;/strong&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;组织液&lt;/strong&gt;：是存在于组织细胞间隙的液体，又叫组织间隙液。绝大多数细胞都浸浴在组织液中，因此，组织液是体内绝大多数细胞直接生活的环境。&lt;/p&gt;
+&lt;p&gt;它主要由血浆通过毛细血管壁渗出到细胞间而形成，大部分物质能够被重新吸收回血浆。组织液为细胞提供营养物质，细胞的代谢产物也透过细胞...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/human/3/</link>
+      <pubDate>Wed, 11 Feb 2026 14:11:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/human/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/3.png" type="image/png" length="48736" />
+      
+    </item>
+    
+    <item>
+      <title>种群群落</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;种群群落&lt;/h1&gt;
+&lt;h2&gt;生态学概述&lt;/h2&gt;
+&lt;h3&gt;生态学&lt;/h3&gt;
+&lt;p&gt;生态学是生态文明建设的科学支撑。生态学使人类认识了生态系统的结构、动态变化以及机制。只要尊重自然规律，在可允许的范围内操作，就可以既不损害自然，又能合理利用自然，促进自然和社会的协调。而生态文明建设会为生态学及相关学科提供发展的机会和平台，有利于推动科学的发展。&lt;/p&gt;
+&lt;p&gt;生物的生存与它周围的环境有着密切的关系。生物与环境是相互影响、相互作用的。例如，生物的尸体经过微生物的分解，成为二氧化碳、水等物质，这些物质又被绿色植物吸收利用，而绿色植物制造的有机物又被动物所摄取。正是由于自然界的植物、动物、微生物之间有着密切的相互关系，从而保证了自然界中氧气、二氧化碳、水等物质的循环，为生物的生存创造了必要条件。&lt;/p&gt;
+&lt;p&gt;生态学是研究生物与环境之间相互关系的科学。面对日益严重的全球环境问题，为了人类的生存与发展，维持生物与环境之间的平衡，生态学越来越受到人们的重视。生态学是从宏观和微观两个方面来研究生命现象的。传统的生态学主要从宏观的方面探索生态系统的奥秘，着重研究个体、种群、群落、生态系统四个层次。随着科学技术的不断进步，生态学除了继续研究宏观方面...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/nature/3/</link>
+      <pubDate>Wed, 11 Feb 2026 14:11:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/nature/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/nature/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/nature/3.png" type="image/png" length="42075" />
       
     </item>
     
@@ -220,7 +450,7 @@ $$&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/structure/3/</link>
-      <pubDate>Wed, 11 Feb 2026 11:01:00 +0000</pubDate>
+      <pubDate>Wed, 11 Feb 2026 14:11:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/structure/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/3/</guid>
@@ -249,12 +479,61 @@ $$&lt;/p&gt;
 | 分子晶体 | 分子间作用力 | 气体、酸、有机物 | | | |
 | 混合晶体 | | | $\ce{C...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/structure/4/</link>
-      <pubDate>Wed, 11 Feb 2026 11:01:00 +0000</pubDate>
+      <pubDate>Wed, 11 Feb 2026 14:11:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/structure/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/4/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/4.png" type="image/png" length="42194" />
+      
+    </item>
+    
+    <item>
+      <title>细胞工程</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;细胞工程&lt;/h1&gt;
+&lt;p&gt;生物技术是应用生命科学的研究成果，对生物或生物的成分、产物等进行改造和利用的技术。生物技术是一个综合性的技术体系，我们可以将它与工程学原理相结合，来进行研究、设计和加工生产，为社会提供服务。&lt;/p&gt;
+&lt;h2&gt;植物细胞工程&lt;/h2&gt;
+&lt;p&gt;| 时间 | 内容 |
+| :--: | :--- |
+| 1902 年 | &lt;strong&gt;哈伯兰特&lt;/strong&gt;提出了细胞全能性的理论，但相关的实验尝试没有成功。 |
+| 1958 年 | &lt;strong&gt;斯图尔德&lt;/strong&gt;等发现胡萝卜的体细胞可以分化为胚，为细胞全能性理论提供了强有力的支持。 |
+| 1960 年 | &lt;strong&gt;科金&lt;/strong&gt;用真菌的纤维素酶分解番茄根的细胞壁，成功获得了原生质体。 |
+| 1964 年 | &lt;strong&gt;古哈&lt;/strong&gt;等在培养毛曼陀罗的花药时，首次得到了由花药中的花粉粒发育而来的胚。 |
+| 1971 年 | &lt;strong&gt;卡尔森&lt;/strong&gt;诱导烟草种间原生质体融合，获得了第一株体细胞种间杂种植株。 |
+| 1974 年 | 土壤农杆菌的 Ti 质粒被发现。之后，该质粒应用于植物分子生物学领域，促进了植物细胞工程与分子生物学技术的紧密结合。 |&lt;/p&gt;
+&lt;p&gt;**细胞经分裂和分化后，仍然具有产生完整生物体或分...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/9/</link>
+      <pubDate>Wed, 11 Feb 2026 11:01:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/9/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/9/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/9.png" type="image/png" length="41678" />
+      
+    </item>
+    
+    <item>
+      <title>原子与元素</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;原子与元素&lt;/h1&gt;
+&lt;h2&gt;核物理初步&lt;/h2&gt;
+&lt;h3&gt;射线与放射性&lt;/h3&gt;
+&lt;p&gt;1895 年年末，德国物理学家&lt;strong&gt;伦琴&lt;/strong&gt;发现了一种新的射线——&lt;strong&gt;X 射线&lt;/strong&gt;（即伦琴射线）。它具有一定的辐射性。现在我们知道，X 射线是原子内层电子跃迁时发射的波长很短的电磁波。&lt;/p&gt;
+&lt;p&gt;法国物理学家&lt;strong&gt;贝克勒尔&lt;/strong&gt;对荧光研究了多年，他决定研究荧光与 X 射线的关系。1896 年年初，他选择了在日光照晒时能发出荧光的铀盐——硫酸铀酰钾做实验材料。他用黑纸把照相底片包住，放到这种铀盐的下面，在阳光下曝晒了几小时。底片显影后，发现了铀盐在底片上的黑色轮廓，表示底片已经感“光”。阳光是不能透过黑纸的，贝克勒尔认为，这种铀盐受到阳光照射后除了能够发出可见的荧光外，还能发射 X 射线，是 X 射线透过黑纸使底片感光。再次准备实验的时候遇到了几个阴天，贝克勒尔只好把准备好的铀盐和包好的底片一起放进了抽屉。几天以后，贝克勒尔在检查底片时意外发现底片又已经感光。这个事实使贝克勒尔认为铀盐本身能够发射一种神秘的射线，正是这种射线导致了底片感光。贝克勒尔进一步用不发荧光的其他铀化合物进行实验，发现也能使底片感光。铀化合物发出的射线也像 X ...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/structure/2/</link>
+      <pubDate>Wed, 11 Feb 2026 11:01:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/structure/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/2.png" type="image/png" length="43891" />
       
     </item>
     
@@ -530,53 +809,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>物质及元素</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;物质及元素&lt;/h1&gt;
-&lt;p&gt;性质本身是能力、本领、也可以说是对外所起的作用，是物质或体系呈现给客观世界的一种形象或状态。&lt;/p&gt;
-&lt;p&gt;对于化学性质有哪些，没有确定的结论，一般认为发生化学变化中才表现出来的性质就是化学性质；没有发生化学变化就表现出来的性质是物理性质。&lt;/p&gt;
-&lt;h2&gt;物质的分类&lt;/h2&gt;
-&lt;h3&gt;分类标准&lt;/h3&gt;
-&lt;p&gt;&lt;img alt=&#34;物质&#34; src=&#34;./物质.svg&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
-&lt;p&gt;纯净物注意：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;化学式相同，并不一定就是纯净物。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;高聚物，又称高分子化合物，由于其分子中的链节数目不同，相对分子质量也不同，因此高聚物一定是混合物。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;水合盐又称结晶水合物，组成确定、性质确定，属于纯净物。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;均匀不能成为判定是否为纯净物的依据，例如气体和互溶的液体。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;同一物质、不同状态的物质混在一起，仍然属于化学上的纯净物。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;除高聚物之外，凡是使用化学式表示的物质都是按照纯净物来对待和使用的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;一般不认为光或热为能量，不属于物质，就像单质不属于电解质和非电解质范畴一样。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;混合物中对应的不同成分一定具有不同的性质，特别是物理性质，可以用物理方法鉴别和分离。有时物理状态相同，不便分...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/element/</link>
-      <pubDate>Tue, 10 Feb 2026 05:35:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/element/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/index.png" type="image/png" length="47564" />
-      
-    </item>
-    
-    <item>
       <title>硼族元素概述</title>
       
       
@@ -609,66 +841,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/al/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/al.png" type="image/png" length="50362" />
-      
-    </item>
-    
-    <item>
-      <title>化学实验操作</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;化学实验操作&lt;/h1&gt;
-&lt;p&gt;一、实验室突发事件的应对措施&lt;/p&gt;
-&lt;p&gt;1.烫伤和烧伤：轻微烫伤或烧伤时，可先用洁净的冷水处理，降低局部温度，然后涂上烫伤药膏(若有水疱，尽量不要弄破)。严重时需及时就医。&lt;/p&gt;
-&lt;p&gt;2.创伤：用药棉把伤口清理干净(伤口处若有碎玻璃片，先要小心除去)，然后用双氧水或碘酒擦洗，最后用创可贴外敷。&lt;/p&gt;
-&lt;p&gt;3.酸或碱等腐蚀性试剂灼伤如果不慎将酸沾到皮肤上，应立即用大量水冲洗，然后用3% ~5%的NaHCO3溶液冲洗；如果不慎将碱沾到皮肤上，应立即用大量水冲洗，然后涂上1%的硼酸。&lt;/p&gt;
-&lt;p&gt;如果有少量酸(或碱)滴到实验桌上，应立即用湿抹布擦净，然后用水冲洗抹布。&lt;/p&gt;
-&lt;p&gt;4.着火：立即切断室内电源，移走可燃物。如果火势不大，用湿布或灭火毯覆盖火源以灭火；火势较猛时，选用合适的灭火器进行灭火，并立即与消防联系。&lt;/p&gt;
-&lt;p&gt;如果身上的衣物着火，立即用湿布灭火；如果燃烧面积较大，应躺在地上翻滚以达到灭火的目的。&lt;/p&gt;
-&lt;p&gt;二、常见废弃物的处理方法&lt;/p&gt;
-&lt;p&gt;1.废液的处理&lt;/p&gt;
-&lt;p&gt;(1)对于酸、碱、氧化剂或还原剂的废液，应分别收集。在确定酸与碱混合、氧化剂与还原剂混合无危险时，可用中和法或氧化还原法，每次各取少量分次混合后再排放。&lt;/p&gt;
-&lt;p&gt;...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/experiment/1/</link>
-      <pubDate>Tue, 10 Feb 2026 05:35:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/experiment/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/1.png" type="image/png" length="49166" />
-      
-    </item>
-    
-    <item>
-      <title>内分泌系统</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;内分泌系统&lt;/h1&gt;
-&lt;h2&gt;内环境概述&lt;/h2&gt;
-&lt;p&gt;细胞是生命活动的基本单位。无论是单细胞生物还是多细胞生物的细胞，都有其特定的生活环境，并与环境之间不断进行着&lt;strong&gt;物质和能量的交换&lt;/strong&gt;。&lt;/p&gt;
-&lt;h3&gt;生活的环境&lt;/h3&gt;
-&lt;p&gt;人体内都含有大量以水为基础的液体，这些液体统称为&lt;strong&gt;体液&lt;/strong&gt;。体液中除含有大量的水以外，还含有许多离子和化合物。注意：有孔道与外界相连的，如尿液、泪液、消化液等，不属于体液。&lt;/p&gt;
-&lt;p&gt;体液分为&lt;strong&gt;细胞内液&lt;/strong&gt;（存在于细胞内，约占 2/3）和&lt;strong&gt;细胞外液&lt;/strong&gt;（存在于细胞外，约占 1/3），细胞外液主要有&lt;strong&gt;组织液&lt;/strong&gt;、&lt;strong&gt;血浆&lt;/strong&gt;、&lt;strong&gt;淋巴液&lt;/strong&gt;等，部分题目中可能会出现脑脊液等。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;血浆&lt;/strong&gt;：血浆是血细胞直接生活的环境。&lt;/p&gt;
-&lt;p&gt;血液并不全是体液，这是因为血液中除了液体部分血浆，还有大量的&lt;strong&gt;血细胞&lt;/strong&gt;。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;组织液&lt;/strong&gt;：是存在于组织细胞间隙的液体，又叫组织间隙液。绝大多数细胞都浸浴在组织液中，因此，组织液是体内绝大多数细胞直接生活的环境。&lt;/p&gt;
-&lt;p&gt;它主要由血浆通过毛细血管壁渗出到细胞间而形成，大部分物质能够被重新吸收回血浆。组织液为细胞提供营养物质，细胞的代谢产物也透过细胞...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/human/3/</link>
-      <pubDate>Tue, 10 Feb 2026 05:35:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/human/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/3.png" type="image/png" length="48736" />
       
     </item>
     
@@ -1559,43 +1731,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>神经系统</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;神经系统&lt;/h1&gt;
-&lt;p&gt;对信息进行处理并迅速作出反应，是一个快速而协调的过程，需要体内多个器官、系统的配合，在这个过程中，神经系统扮演了主要角色，它通过复杂而精巧的调节，使得机体能够保持高度的协调一致与稳定。&lt;/p&gt;
-&lt;h2&gt;神经系统&lt;/h2&gt;
-&lt;p&gt;人的神经系统就包括中枢神经系统和外周神经系统两部分。&lt;/p&gt;
-&lt;h3&gt;中枢神经系统&lt;/h3&gt;
-&lt;p&gt;中枢神经系统包括脑（大脑、脑干和小脑等，位于颅腔内）和脊髓（位于椎管内）。在中枢神经系统内，大量神经细胞聚集在一起，形成许多不同的神经中枢，分别负责调控某一特定的生理功能。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;大脑：包括左右两个大脑半球，表面是大脑皮层；大脑皮层是调节机体活动的最高级中枢。&lt;/p&gt;
-&lt;p&gt;大脑的表面覆盖着主要由神经元胞体及其树突构成的薄层结构——大脑皮层。人的大脑有着丰富的沟回（沟即为凹陷部分，回为隆起部分），这使得大脑在有限体积的颅腔内，可以具有更大的表面积。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;小脑：位于大脑的后下方，它能够协调运动，维持身体平衡。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;下丘脑：脑的重要组成部分，其中有体温调节中枢、水平衡调节中枢等，还与生物节律等的控制有关。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;脑干：是连接脊髓和脑其他部分的重要通路，有许多维持生命的必要中枢，如调节呼吸...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/human/2/</link>
-      <pubDate>Tue, 10 Feb 2026 01:17:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/human/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/2.png" type="image/png" length="46009" />
-      
-    </item>
-    
-    <item>
       <title>免疫系统</title>
       
       
@@ -2088,28 +2223,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/3/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/3.png" type="image/png" length="47160" />
-      
-    </item>
-    
-    <item>
-      <title>种群群落</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;种群群落&lt;/h1&gt;
-&lt;h2&gt;生态学概述&lt;/h2&gt;
-&lt;h3&gt;生态学&lt;/h3&gt;
-&lt;p&gt;生态学是生态文明建设的科学支撑。生态学使人类认识了生态系统的结构、动态变化以及机制。只要尊重自然规律，在可允许的范围内操作，就可以既不损害自然，又能合理利用自然，促进自然和社会的协调。而生态文明建设会为生态学及相关学科提供发展的机会和平台，有利于推动科学的发展。&lt;/p&gt;
-&lt;p&gt;生物的生存与它周围的环境有着密切的关系。生物与环境是相互影响、相互作用的。例如，生物的尸体经过微生物的分解，成为二氧化碳、水等物质，这些物质又被绿色植物吸收利用，而绿色植物制造的有机物又被动物所摄取。正是由于自然界的植物、动物、微生物之间有着密切的相互关系，从而保证了自然界中氧气、二氧化碳、水等物质的循环，为生物的生存创造了必要条件。&lt;/p&gt;
-&lt;p&gt;生态学是研究生物与环境之间相互关系的科学。面对日益严重的全球环境问题，为了人类的生存与发展，维持生物与环境之间的平衡，生态学越来越受到人们的重视。生态学是从宏观和微观两个方面来研究生命现象的。传统的生态学主要从宏观的方面探索生态系统的奥秘，着重研究个体、种群、群落、生态系统四个层次。随着科学技术的不断进步，生态学除了继续研究宏观方面...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/nature/3/</link>
-      <pubDate>Tue, 10 Feb 2026 01:17:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/nature/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/nature/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/nature/3.png" type="image/png" length="42075" />
       
     </item>
     
@@ -4416,42 +4529,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/nature/2/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/nature/2.png" type="image/png" length="42173" />
-      
-    </item>
-    
-    <item>
-      <title>计算几何</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;计算几何&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-07-22&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-07-22T23:55:09.413410+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-11-14&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-11-14T10:11:57...</description>
-      <link>https://raineblog.dpdns.org/whk/science/geometry/4/</link>
-      <pubDate>Fri, 14 Nov 2025 10:11:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/geometry/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/4.png" type="image/png" length="40938" />
-      
-    </item>
-    
-    <item>
-      <title>汉语语法</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;汉语语法&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-11-04&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-11-04T13:07:26.053414+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-11-04&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-11-04T13:16:15...</description>
-      <link>https://raineblog.dpdns.org/whk/cultural/grammar/1/</link>
-      <pubDate>Tue, 04 Nov 2025 13:16:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/cultural/grammar/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/cultural/grammar/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/cultural/grammar/1.png" type="image/png" length="42752" />
       
     </item>
     
