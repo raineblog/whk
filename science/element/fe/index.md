@@ -225,5 +225,3 @@
 我国的稀土储量、稀土产量、稀土用量和稀土出口量均居世界第一位。我国化学家徐光宪院士与其研究团队在稀土元素的分离及应用中作出了重要贡献。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

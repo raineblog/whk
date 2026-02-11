@@ -79,5 +79,3 @@
 [ \\det A=\\sum\_{\\pi\\in S_n}\\operatorname{sgn}(\\pi)\\prod\_{i=1}^na\_{i,\\pi(i)} ]
 
 [RainPPR](https://github.com/RainPPR)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

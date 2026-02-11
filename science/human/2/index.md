@@ -248,5 +248,3 @@
 当可卡因药效失去后，由于多巴胺受体已减少，机体正常的神经活动受到影响，服药者就必须服用可卡因来维持这些神经元的活动，于是形成恶性循环，毒瘾难戒。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

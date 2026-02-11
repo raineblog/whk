@@ -248,5 +248,3 @@ NH4HCO3、Na2H2P2O7 焦磷酸二氢二钠。
   - 反应前排尽空气，反应后排产物，使充分吸收。
 
 [RainPPR](https://github.com/RainPPR)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

@@ -383,5 +383,3 @@
 我们知道高能微观粒子在碰撞中，会损失动能，而 (mc^2=E_k+E_0)，物体的静质量不变，动能减小，动质量就会减小，这称为**质量亏损**。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

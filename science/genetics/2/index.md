@@ -376,5 +376,3 @@
 举例：酶甲控制蓝色色素合成，酶乙控制黄色色素合成，两种酶相互抑制。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

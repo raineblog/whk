@@ -496,8 +496,6 @@ B 细胞激活后可以产生抗体，由于抗体存在于体液中，所以这
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
 
-BACKLINK_PLUGIN_4114496_PLACEHOLDER
-
 ______________________________________________________________________
 
 1. 参考：<https://www.organtranspl.com/cn/article/pdf/preview/10.3969/j.issn.1674-7445.2012.01.013.pdf>。 [↩](#fnref:note1 "Jump back to footnote 1 in the text")

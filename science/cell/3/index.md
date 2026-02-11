@@ -67,5 +67,3 @@
   - **青霉素**：作为一种**自杀性基质**（Suicide Substrate），它通过共价结合不可逆地抑制细菌细胞壁合成酶（转肽酶），导致细菌细胞壁缺损，最终吸水涨破死亡。
 
 [RainPPR](https://github.com/RainPPR)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

@@ -255,5 +255,3 @@ Basel 问题即 (\\displaystyle\\zeta(2)=\\sum\_{n=1}^{+\\infty}\\frac{1}{n^2})�
 [\\int_0^nf(x)\\ dx\<\\sum\_{k=1}^nf(k)\<\\int_1^{n+1}f(x)\\ dx-\\frac{f(n+1)-f(1)}{2}]
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

@@ -615,5 +615,3 @@
 这个分析也从一个侧面解释了为什么我们的宇宙是现在这个样子。平方反比定律（(n=2)）不仅允许稳定的轨道存在，而且还具有一个非常特殊的性质（伯特兰定理表明），即它是唯一能保证所有有界轨道都闭合的引力形式（除了线性回复力），这使得行星系统更加稳定和有序。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

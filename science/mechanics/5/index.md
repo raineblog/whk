@@ -511,5 +511,3 @@
 按照相对论，任何物体的速度不能超过真空中的光速，但可以超过介质中的光速。当在透明介质里穿行的带电粒子的速度超过那里的光速时，会发出一种特殊的辐射，叫做**切伦科夫辐射**。它是电磁波的艏波。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

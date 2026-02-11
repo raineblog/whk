@@ -311,5 +311,3 @@ S2：和差化积恒等式
 本质也是角的变换。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

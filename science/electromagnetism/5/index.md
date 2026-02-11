@@ -301,5 +301,3 @@
 总之，对于电动机来说，无论其是否转动，欧姆定律肯定是适用的。只是当其转动时，加在线圈两端的电压要减掉其产生的反电动势而已。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

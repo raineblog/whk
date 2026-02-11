@@ -195,5 +195,3 @@
 <https://oi-wiki.org/math/game-theory/impartial-game/>
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

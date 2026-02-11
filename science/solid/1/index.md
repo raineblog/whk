@@ -182,5 +182,3 @@
 如果点的轨迹与交线平行，那么二面角不变。
 
 [RainPPR](https://github.com/RainPPR)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

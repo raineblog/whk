@@ -406,5 +406,3 @@
 其中 (a, a_k, b_k, c_k \\in \\mathbb{R})，(s+2t=n)，且 (c_k > 0)，(b_k^2 < 4c_k)。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

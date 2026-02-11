@@ -426,5 +426,3 @@ C + H2O -> CO + H2
 另外注意甲紫溶液（又称龙胆紫，详见生物）与亚甲蓝不同，应注意勿混用。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

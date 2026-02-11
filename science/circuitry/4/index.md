@@ -69,5 +69,3 @@
 - 负极反应：(\\ce{CH3OH + 3CO3^2- - 6e- = 4CO2 + 2H2O})。
 
 [RainPPR](https://github.com/RainPPR)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

@@ -23,5 +23,3 @@
 我们向母液（提取粗盐后的海水）中加入石灰乳，产生氢氧化镁沉淀，过滤，加入足量稀盐酸，富集并在氯化氢氛围中蒸干，得到氯化镁固体，电解熔融氯化镁制取镁。
 
 [RainPPR](https://github.com/RainPPR)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

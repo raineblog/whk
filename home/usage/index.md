@@ -19,5 +19,3 @@
 本人不是很懂（没有太多经历）搞宣传和 SEO、GEO 什么的 TvT
 
 [RainPPR](https://github.com/RainPPR)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

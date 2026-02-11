@@ -454,5 +454,3 @@ $$ \\overrightarrow{OG}=\\frac{1}{3}\\overrightarrow{OH}=\\frac{1}{3}(\\overrigh
 其中 (p) 为四边形的半周长。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

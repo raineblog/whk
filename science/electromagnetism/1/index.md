@@ -376,8 +376,6 @@
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
 
-BACKLINK_PLUGIN_4114496_PLACEHOLDER
-
 ______________________________________________________________________
 
 1. <https://www.esda.org/assets/Documents/Fundamentals-Part-1-SimplifiedChinese.pdf> [↩](#fnref:noteesda "Jump back to footnote 1 in the text")[↩](#fnref2:noteesda "Jump back to footnote 1 in the text")

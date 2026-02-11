@@ -357,6 +357,8 @@
 
 阿氏圆的性质：(\\triangle POA\\backsim\\triangle POB)，根据相似。
 
+### 卡西尼卵形线
+
 卡西尼卵形线，是平面内到两个定点的距离之积为常数的点的轨迹，我们不妨设两顶点 (F_1=(-c,0),F_2=(c,0))，曲线上的点 (P(x,y)) 满足
 
 [ |PF_1|\\cdot|PF_2|=b^2 ]
@@ -368,6 +370,42 @@
 - 如果 (b/c) 等于 (1)，则是伯努利双扭线。
 
 伯努利双纽线的形状类似无穷大的符号，是双曲线关于圆心在双曲线中心的圆的反演图形。
+
+卡西尼卵形线的推导相对复杂，尤其是纯坐标运算，很难快速得出有用的结论，但是我们有一些简化的技巧，先不妨写出坐标方程：
+
+\[ [(x+c)^2+y^2][(x-c)^2+y^2]=b^4 \]
+
+[ (x^2+c^2+y^2+2cx)(x^2+c^2+y^2-2cx)=b^4 ]
+
+[ (x^2+c^2+y^2)^2-4c^2x^2=b^4 ]
+
+注意到左侧 (x^2+y^2) 的形式很好看，不妨设：
+
+[ \\begin{cases} x=\\rho\\cos\\varphi\\ y=\\rho\\sin\\varphi \\end{cases} ]
+
+因此：
+
+[ (\\rho^2+c^2)^2-4c^2\\rho^2\\cos^2\\varphi=b^4 ]
+
+[ \\cos^2\\varphi=\\dfrac{\\rho^2+c^4-b^4+2c^2}{4c^2} ]
+
+我们考虑双纽线 (b=c)，就会得到一个相当简单的式子：
+
+[ \\cos^2\\varphi=\\dfrac{\\rho^2+2c^2}{4c^2} ]
+
+[ \\rho^2=2c^2\\cos2\\varphi ]
+
+因此：
+
+[ \\begin{cases} x^2=2c^2\\cos^2\\varphi\\cos2\\varphi\\ y^2=2c^2\\sin^2\\varphi\\cos2\\varphi \\end{cases} ]
+
+如果我们要求最值的话，不妨：
+
+[ \\begin{cases} x^2=2c^2\\cos^2\\varphi(2\\cos^2\\varphi-1)\\ y^2=2c^2\\sin^2\\varphi(1-2\\sin^2\\varphi) \\end{cases} ]
+
+然后就是简单的二次函数问题了。
+
+### 拉梅曲线
 
 ## 代数关系
 
@@ -659,5 +697,3 @@
 注意到这符合双曲线 (xy=\\dfrac{1}{4}) 的特征，因此直线为该曲线的包络线。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

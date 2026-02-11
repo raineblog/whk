@@ -151,5 +151,3 @@
 - 钛（Ti）：铝热反应可制备钛铝合金（TiAl₃），用于航空航天材料。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

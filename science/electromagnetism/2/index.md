@@ -307,8 +307,6 @@ PS：右图为矢量叠加的电场线。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
 
-BACKLINK_PLUGIN_4114496_PLACEHOLDER
-
 ______________________________________________________________________
 
 1. 曲线积分：对于标量函数，曲线积分的值是积分路径各点上的函数值乘上该点切向量的长度；对于向量函数，曲线积分的值是积分向量函数与曲线切向量的内积。 [↩](#fnref:notejf "Jump back to footnote 1 in the text")

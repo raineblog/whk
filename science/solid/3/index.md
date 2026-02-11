@@ -257,5 +257,3 @@
 [ r=\\dfrac{3V}{S_1+S_2+S_3+S_4}=\\dfrac{3V}{S_表} ]
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

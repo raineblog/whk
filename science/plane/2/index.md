@@ -594,5 +594,3 @@ PS：（其实也包括上文）
 [ \\tan\\alpha-\\dfrac{1}{\\tan\\alpha}=\\dfrac{\\sin^2\\alpha-\\cos^2\\alpha}{\\sin\\alpha\\cos\\alpha}=-2\\dfrac{1}{\\tan2\\alpha} ]
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

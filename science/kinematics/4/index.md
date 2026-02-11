@@ -312,5 +312,3 @@
 - 根据 (\\displaystyle T=\\dfrac{2\\pi}{\\omega})，周期减小。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

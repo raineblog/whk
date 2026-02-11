@@ -397,5 +397,3 @@ $0\<$ 转化量 $\<$ 投入量
 - 平台的拐点，反应的是速率，温高压大先拐先平。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

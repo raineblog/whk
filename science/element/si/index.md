@@ -105,5 +105,3 @@
 钢化玻璃：将玻璃加热到软化点以上，然后迅速冷却，形成表面压应力，增加强度和韧性。
 
 [RainPPR](https://github.com/RainPPR)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

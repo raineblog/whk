@@ -631,5 +631,3 @@
 这一成就与以色列在沙漠地区建立的滴灌农业、荷兰在沿海地区围海造田的生态工程等国际项目一样，都展示了人类通过科学方法改善环境、与自然和谐共生的可能。2017 年，塞罕坝林场建设者获得联合国环保最高荣誉——“地球卫士奖”，这体现了国际社会对中国生态建设成就的认可。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

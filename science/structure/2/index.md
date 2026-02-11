@@ -712,5 +712,3 @@
 - 电子亲和能的数据不易测定，准确性较差，来自不同文献的数据往往不同。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

@@ -387,5 +387,3 @@
   [ \\cos\\theta=\\frac{|AD^2+BC^2-AC^2-BD^2|}{2AB\\cdot CD} ]
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

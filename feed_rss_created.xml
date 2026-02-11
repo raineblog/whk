@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Tue, 10 Feb 2026 14:20:28 -0000</pubDate>
-    <lastBuildDate>Tue, 10 Feb 2026 14:20:28 -0000</lastBuildDate>
+    <pubDate>Wed, 11 Feb 2026 11:03:21 -0000</pubDate>
+    <lastBuildDate>Wed, 11 Feb 2026 11:03:21 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-10&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-10T14:20:29.215507+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-10&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-10T14:20:29....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-11&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-11T11:03:22.299702+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-11&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-11T11:03:22....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Tue, 10 Feb 2026 14:20:00 +0000</pubDate>
+      <pubDate>Wed, 11 Feb 2026 11:03:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
@@ -1632,8 +1632,7 @@ $$&lt;/p&gt;
       <description>&lt;h1&gt;晶体与晶胞&lt;/h1&gt;
 &lt;h2&gt;化学键与晶体&lt;/h2&gt;
 &lt;h3&gt;化学键&lt;/h3&gt;
-&lt;p&gt;化学键：&lt;strong&gt;分子内部&lt;/strong&gt;相邻原子间&lt;strong&gt;强烈&lt;/strong&gt;的&lt;strong&gt;相互作用&lt;/strong&gt;，称为化学键，主要决定了物质的化学性质。&lt;/p&gt;
-&lt;p&gt;化学反应的过程实质是，旧化学键的断裂（吸收热量），和新化学键的生成（放出热量）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分子内部&lt;/strong&gt;相邻原子间&lt;strong&gt;强烈&lt;/strong&gt;的&lt;strong&gt;相互作用&lt;/strong&gt;，称为化学键，主要决定了物质的化学性质。化学反应的过程实质是，旧化学键的断裂（吸收热量），和新化学键的生成（放出热量）。&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-2.avif&#34;&gt;&lt;/p&gt;
 &lt;p&gt;化学键分为&lt;strong&gt;离子键&lt;/strong&gt;、&lt;strong&gt;共价键&lt;/strong&gt;、&lt;strong&gt;金属键&lt;/strong&gt;，其中有&lt;strong&gt;配位键&lt;/strong&gt;作为一个特殊的共价键。&lt;/p&gt;
 &lt;p&gt;| 四大晶体类型 | 作用力 | 常见类型 | 常见物质 | 方向性 | 饱和性 |
@@ -1642,7 +1641,7 @@ $$&lt;/p&gt;
 | 共价晶体 | 共价键 | | $\ce{AlCl3,C(金刚石),SiC}$ | ✓ | ✓ |
 | 金属晶体 | 金属键 | 金属单质 | $\ce{K,Na,Cu}$ | × | × |
 | 分子晶体 | 分子间作用力 | 气体、酸、有机物 | | | |
-| 混合晶体 | | | ...&lt;/p&gt;</description>
+| 混合晶体 | | | $\ce{C...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/structure/4/</link>
       <pubDate>Sun, 12 Oct 2025 13:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>

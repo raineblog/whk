@@ -233,5 +233,3 @@
 [ \\begin{aligned} 4I^2-8maF\<0\\ I^2\<2maF \\end{aligned} ]
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

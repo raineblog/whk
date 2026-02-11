@@ -1027,5 +1027,3 @@ $\\alpha$ 氨基酸的结构式
 最终形成脱氧核糖核酸的形式如下：
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

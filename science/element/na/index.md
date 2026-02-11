@@ -184,5 +184,3 @@
 - 中国农业化肥需求量大，(\\ce{NH4Cl}) 直接作为化肥生产，无 (\\ce{CaCl2}) 污染。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

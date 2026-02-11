@@ -3,5 +3,3 @@
 运动系统、神经系统、内分泌系统、循环系统、呼吸系统、消化系统、泌尿系统、生殖系统。
 
 [RainPPR](https://github.com/RainPPR)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

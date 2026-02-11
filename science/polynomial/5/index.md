@@ -137,5 +137,3 @@ ______________________________________________________________________
 [ ab\\le\\dfrac{1}{p}a^{p}+\\dfrac{1}{q}b^{q}。 ]
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

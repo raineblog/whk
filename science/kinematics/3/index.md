@@ -256,5 +256,3 @@
 [ (x_0,y_0)=\\left(\\dfrac{v^2\\sin\\theta\\cos\\theta}{10\\mathrm{m/s^2}},\\dfrac{v^2\\cos^2\\theta}{20\\mathrm{m/s^2}}\\right) ]
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

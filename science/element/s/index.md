@@ -125,5 +125,3 @@ ______________________________________________________________________
 酸雨的来源常为硫氧化物、氮氧化物，最终形成 (\\ce{H2SO4,HNO3}) 等酸性雨水。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

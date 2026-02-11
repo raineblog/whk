@@ -371,5 +371,3 @@ PS：下面的式子不用记，直接用上面的方程组解即可。
 流密度是一个关于位置的矢量函数，即矢量场。其中，质量可以替换为不同的物理量，若替换为能量则称为能流密度，若是粒子数则称为粒子流密度，若是电荷量则称为电流密度，等等。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

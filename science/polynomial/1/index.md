@@ -263,5 +263,3 @@
 [ f(x)=\\sum\_{i=1}^ny_i\\prod\_{j\\neq i}{x-x_j\\over x_i-x_j} ]
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

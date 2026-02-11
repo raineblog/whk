@@ -371,5 +371,3 @@ $$\begin{aligned}(p-1)!&=1\times 2\times\dots\times a\times\dots\times b\times\d
 若 (p) 是质数，则对于模 (p) 意义下的 (n) 次整系数多项式 (f(x)=a_nx^n+a\_{n-1}x^{n-1}+\\dots+a_0(p\\nmid a_n)) 同余方程 (f(x)\\equiv 0(\\mathrm{mod}\\ p)) 至多有 (n) 个不同的解。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

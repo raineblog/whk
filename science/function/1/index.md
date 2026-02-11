@@ -201,5 +201,3 @@
 [ \\begin{aligned} \\log_am\\log_bn&=\\log_bm\\log_an\\ \\dfrac nm\\log_ab&=\\log\_{a^m}b^n=\\log_ab^{\\frac nm} \\end{aligned} ]
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

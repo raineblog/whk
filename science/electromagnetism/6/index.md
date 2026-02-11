@@ -505,5 +505,3 @@ X 射线和 (\\gamma) 射线：波长比紫外线更短的电磁波就是 X 射�
 产生机制的统一理解：加速电荷辐射电磁波——这是所有电磁波产生的根本原因。无线电波，导线中电子的振荡加速；热辐射，分子热运动（加速运动）；原子光谱，电子在轨道间跃迁（加速）；(\\gamma) 射线，核子的跃迁。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

@@ -404,5 +404,3 @@
 横向多普勒效应：这是纯粹的相对论效应。即使波源的运动方向与观测方向垂直，也会因为**时间膨胀**效应而观测到频率降低。经典理论中不存在横向多普勒效应。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

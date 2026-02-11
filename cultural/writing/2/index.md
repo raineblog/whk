@@ -69,5 +69,3 @@ Our school has witnessed tremendous changes.
 Not only have we seen significant advances in teaching facilities, but we have also remained committed to providing a holistic education that fosters both knowledge and character.
 
 [RainPPR](https://github.com/RainPPR)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

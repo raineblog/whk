@@ -940,5 +940,3 @@
 其中 (x\\in(0,1))，不妨令 (t=2x-x^2\\in(0,1))，由 (\\ln t\<x-1)，不等式显然成立。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

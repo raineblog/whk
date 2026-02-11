@@ -76,5 +76,3 @@
 \[\\implies f(x)=\\frac{1-\\left{1+\\displaystyle\\sum\_{k=1}^{+\\infty}\\left[-2\\begin{pmatrix}2k-2\\ k-1\\end{pmatrix}\\right]x^k\\right}}{2x}=\\sum\_{k=0}^{+\\infty}\\frac{\\begin{pmatrix}2k\\k\\end{pmatrix}x^k}{k+1}\\implies\\red{\\boxed{C_n=\\frac{\\begin{pmatrix}2n\\n\\end{pmatrix}}{n+1}}}\]
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

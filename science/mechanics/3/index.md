@@ -300,5 +300,3 @@
 做题方法：同上，一定要分析的是拐点和端点处的受力分析。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

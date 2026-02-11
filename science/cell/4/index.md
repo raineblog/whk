@@ -641,5 +641,3 @@ $1$ 葡萄糖 $\\to$ $1$ 乳酸 $+$ $1$ 乙醇 $+$ $1$ $\\ce{CO2}$ $+$ $1$ ATP
 > **未来趋势：合成生物学**：**合成生物学（Synthetic Biology）** 正在重新定义发酵。我们不再只是利用现有的微生物，而是像编程一样编写 DNA 代码，从头设计细胞工厂，甚至实现“无细胞发酵系统”。发酵正在成为制造万物（从塑料替代品到人造牛奶）的通用平台。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

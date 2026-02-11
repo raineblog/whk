@@ -604,8 +604,6 @@
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
 
-BACKLINK_PLUGIN_4114496_PLACEHOLDER
-
 ______________________________________________________________________
 
 1. <https://zh.wikipedia.org/wiki/%E6%AC%A7%E5%A7%86%E5%AE%9A%E5%BE%8B#%E5%B8%B8%E8%A6%8B%E9%8C%AF%E8%AA%A4>。 [↩](#fnref:note100 "Jump back to footnote 1 in the text")

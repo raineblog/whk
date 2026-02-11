@@ -400,5 +400,3 @@
 - 典型例子：在水溶液中，**葡萄糖**绝大部分不是以我们常画的链状结构存在，而是以环状的半缩醛形式存在。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

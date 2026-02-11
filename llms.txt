@@ -2,7 +2,7 @@
 
 > RainPPR 的文化课博客，主要是理科，尤其是数学、物理、化学、生物等高中学科的知识及题型等笔记。
 
-## About
+## 关于
 
 - [简介](https://raineblog.dpdns.org/whk/index.md)
 - [讨论交流](https://raineblog.dpdns.org/whk/home/discussion/index.md)
@@ -11,7 +11,23 @@
 - [语法扩展](https://raineblog.dpdns.org/whk/home/pymdownx/index.md)
 - [如何使用](https://raineblog.dpdns.org/whk/home/usage/index.md)
 
-## All
+## 博客
+
+- [博客](https://raineblog.dpdns.org/whk/blog/index.md)
+- [2026](https://raineblog.dpdns.org/whk/blog/archive/2026/index.md)
+- [Bot](https://raineblog.dpdns.org/whk/blog/author/Bot/index.md)
+- [RainPPR](https://raineblog.dpdns.org/whk/blog/author/RainPPR/index.md)
+- [RaineMtF](https://raineblog.dpdns.org/whk/blog/author/RaineMtF/index.md)
+- [随机变量综述：概念到实践的全景指南](https://raineblog.dpdns.org/whk/blog/2026/01/23/随机变量综述概念到实践的全景指南/index.md)
+- [组合数学 - 从零入门到进阶的全方位指南](https://raineblog.dpdns.org/whk/blog/2026/01/23/组合数学---从零入门到进阶的全方位指南/index.md)
+- [数列基础全攻略：从概念到高级技巧](https://raineblog.dpdns.org/whk/blog/2026/01/23/数列基础全攻略从概念到高级技巧/index.md)
+- [酶与发酵技术：从微观调控到宏观酿造的生物学盛宴](https://raineblog.dpdns.org/whk/blog/2026/01/26/酶与发酵技术从微观调控到宏观酿造的生物学盛宴/index.md)
+- [探索物理的律动：深入解析机械振动与机械波](https://raineblog.dpdns.org/whk/blog/2026/01/26/探索物理的律动深入解析机械振动与机械波/index.md)
+- [探秘圆锥曲线：从代数结构到几何美学的深度之旅](https://raineblog.dpdns.org/whk/blog/2025/11/13/探秘圆锥曲线从代数结构到几何美学的深度之旅/index.md)
+- [运动与能量：从受力分析到能量守恒的进阶指南](https://raineblog.dpdns.org/whk/blog/2026/02/02/运动与能量从受力分析到能量守恒的进阶指南/index.md)
+- [生成式人工智能在学习中的应用与实例探究报告](https://raineblog.dpdns.org/whk/blog/2026/02/04/生成式人工智能在学习中的应用与实例探究报告/index.md)
+
+## 所有（包含上面两类）
 
 - [简介](https://raineblog.dpdns.org/whk/index.md)
 - [2026](https://raineblog.dpdns.org/whk/blog/archive/2026/index.md)

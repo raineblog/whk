@@ -280,5 +280,3 @@ Pearson 相关系数描述了两个随机变量之间线性关联的紧密程度
 另外的，(P\_{75}) 与 (P\_{25}) 的差称为四分位距。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

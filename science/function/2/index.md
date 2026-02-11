@@ -346,5 +346,3 @@
 表示的曲线上至少有一点的切线平行于曲线两个端点的连线。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

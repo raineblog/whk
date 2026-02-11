@@ -111,5 +111,3 @@
 方程就是上面两个合在一起。
 
 [RainPPR](https://github.com/RainPPR)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

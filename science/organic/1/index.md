@@ -259,5 +259,3 @@ $\\Omega=$ 重键数 $+$ 最简环数
 内酯与碱（如氢氧化钠）共热会发生水解，生成母体羟基酸，是内酯合成的逆反应。不同内酯发生水解的程度不同，有些是可逆反应，一般反应的平衡常数要大于对应的直链酯类，水解更加容易，原因是两者反应的焓变相差不大，但内酯的水解在熵变上有利。内酯加酸亦会水解生成相应的羟基酸。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

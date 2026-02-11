@@ -65,5 +65,3 @@ $(2x+y)*{\\mathrm{max}}=4(2x+y)*, a= $ ?}
 <https://oi-wiki.org/math/linear-programming/#%E5%BC%95%E5%85%A5>
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

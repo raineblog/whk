@@ -1724,5 +1724,3 @@ D. (\\displaystyle\\lim\_{n\\to\\infty}\\left({1\\over a_1-1}+{1\\over a_2-1}+\\
 显然无界，不成立。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

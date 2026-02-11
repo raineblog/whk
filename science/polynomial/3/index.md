@@ -355,5 +355,3 @@
 [ 36=(2a+6b)(6a+3b)\\le\\dfrac14(8a+9b)^2 ]
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

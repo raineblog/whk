@@ -225,5 +225,3 @@
 超分子化学的发展不仅与大环化学（冠醚、穴醚、环糊精、杯芳烃、C60 等）的发展密切相连，而且与分子的自组装（双分子膜、胶束、DNA 双螺旋等）、分子器件和新兴有机材料的研究息息相关。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

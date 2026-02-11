@@ -242,5 +242,3 @@ In general，若一组事件 (A_1, \\cdots, A_n) 共同对立（两两不交、�
 最经典的例子是患病概率，考虑到灵敏度、特异度等因素，本文不予讲解，详见 [Wikipedia](https://en.wikipedia.org/wiki/Positive_and_negative_predictive_values)。
 
 [RainPPR](https://github.com/RainPPR)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER

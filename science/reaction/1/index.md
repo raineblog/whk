@@ -238,8 +238,6 @@
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
 
-BACKLINK_PLUGIN_4114496_PLACEHOLDER
-
 ______________________________________________________________________
 
 1. 详见 [IUPAC Gold Book C00876](https://goldbook.iupac.org/terms/view/C00876) 相关内容。 [↩](#fnref:noteiupac1 "Jump back to footnote 1 in the text")

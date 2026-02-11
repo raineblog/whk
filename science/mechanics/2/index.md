@@ -462,5 +462,3 @@ PS：善用 Fs 图像，FS 图像中图形围成的面积即功。
 - 内部运动：各个质点相对于质心的运动。
 
 [RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
-
-BACKLINK_PLUGIN_4114496_PLACEHOLDER
