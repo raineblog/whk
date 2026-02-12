@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Wed, 11 Feb 2026 15:04:04 -0000</pubDate>
-    <lastBuildDate>Wed, 11 Feb 2026 15:04:04 -0000</lastBuildDate>
+    <pubDate>Thu, 12 Feb 2026 07:10:59 -0000</pubDate>
+    <lastBuildDate>Thu, 12 Feb 2026 07:10:59 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-11&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-11T15:04:05.519017+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-11&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-11T15:04:05....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-12&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-12T07:10:59.343930+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-12&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-12T07:10:59....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Wed, 11 Feb 2026 15:04:00 +0000</pubDate>
+      <pubDate>Thu, 12 Feb 2026 07:10:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
@@ -50,52 +50,92 @@
     </item>
     
     <item>
+      <title>语法扩展</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;语法扩展&lt;/h1&gt;
+&lt;p&gt;```python exec=&#34;1&#34; session=&#34;filetree&#34;
+from fnmatch import fnmatch
+from pathlib import Path&lt;/p&gt;
+&lt;p&gt;exclude = {&#34;dist&#34;, &#34;site&#34;, &#34;dest&#34;, &#34;node_modules&#34;, &#34;.cache&#34;, &#34;cache&#34;, &#34;.agent&#34;, &#34;.git&#34;}
+no_recurse = {&#34;.venv*&#34;, &#34;.github&#34;}&lt;/p&gt;
+&lt;p&gt;def exptree(path: str, session: str) -&amp;gt; None:
+    # List files and directories separately.
+    files = []
+    dirs = []
+    for node in Path(path).iterdir():
+        if any(fnmatch(node.name, pattern) for pattern in exclude):
+            continue
+        if node.is_dir():...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/home/pymdownx/</link>
+      <pubDate>Thu, 12 Feb 2026 07:09:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/home/pymdownx/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/pymdownx/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/pymdownx.png" type="image/png" length="43760" />
+      
+    </item>
+    
+    <item>
       <title>开发进程</title>
       
       
       
       
-      <description>&lt;p&gt;{
- &#34;cells&#34;: [
-  {
-   &#34;cell_type&#34;: &#34;markdown&#34;,
-   &#34;id&#34;: &#34;8695cf91&#34;,
-   &#34;metadata&#34;: {},
-   &#34;source&#34;: [
-    &#34;# 开发进程&#34;
-   ]
-  },
-  {
-   &#34;cell_type&#34;: &#34;markdown&#34;,
-   &#34;id&#34;: &#34;a88c6cbc&#34;,
-   &#34;metadata&#34;: {},
-   &#34;source&#34;: [
-    &#34;## 生物\n&#34;,
-    &#34;\n&#34;,
-    &#34;- （待完善）孟德尔遗传规律：五三 310 页考法 1, 2, 3。\n&#34;,
-    &#34;\n&#34;,
-    &#34;- 细胞活动。\n&#34;,
-    &#34;\n&#34;,
-    &#34;- 遗传除了孟德尔以外的。&#34;
-   ]
-  },
-  {
-   &#34;cell_type&#34;: &#34;markdown&#34;,
-   &#34;id&#34;: &#34;ebea725e&#34;,
-   &#34;metadata&#34;: {},
-   &#34;source&#34;: [
-    &#34;## 物理\n&#34;,
-    &#34;\n&#34;,
-    &#34;- 空间测量，参考新概念、初中课本。\n&#34;,
-    &#34;\n&#34;,
-...&lt;/p&gt;</description>
+      <description>&lt;h1&gt;开发进程&lt;/h1&gt;
+&lt;h2&gt;生物&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;（待完善）孟德尔遗传规律：五三 310 页考法 1, 2, 3。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;细胞活动。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;遗传除了孟德尔以外的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;物理&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;空间测量，参考新概念、初中课本。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;热力学。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;角动量、轨道力学。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;天体概述，补充地理内容。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;数学&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;目录&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;science/function/5.md # [TODO] 微积分&lt;/li&gt;
+&lt;li&gt;science/polynomial/1.md # [TODO] 多项式入门&lt;/li&gt;
+&lt;li&gt;science/polynomial/2.md # [TODO] 多项式科技&lt;/li&gt;
+&lt;li&gt;science/polynomial/5.md # [TODO] 不等式进阶&lt;/li&gt;
+&lt;li&gt;science/sequence/3.md # [TODO] 数列进阶&lt;/li&gt;
+&lt;li&gt;science/probability/1.md # [TODO] 统计模型&lt;/li&gt;
+&lt;li&gt;science/probability/4.md # [TODO] 概率分布&lt;/li&gt;
+&lt;li&gt;science/number/1.md # [TODO] 线性...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/home/roadmap/</link>
-      <pubDate>Wed, 11 Feb 2026 15:03:00 +0000</pubDate>
+      <pubDate>Thu, 12 Feb 2026 07:09:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/home/roadmap/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/roadmap/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/roadmap.png" type="image/png" length="41226" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/roadmap.png" type="image/png" length="43187" />
       
     </item>
     
@@ -2820,25 +2860,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/madoka/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/madoka.png" type="image/png" length="48253" />
-      
-    </item>
-    
-    <item>
-      <title>语法扩展</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;语法扩展&lt;/h1&gt;
-&lt;p&gt;🚧正在施工……&lt;/p&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-09&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-09T10:34:49.299774+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-09&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-09...</description>
-      <link>https://raineblog.dpdns.org/whk/home/pymdownx/</link>
-      <pubDate>Mon, 09 Feb 2026 10:41:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/home/pymdownx/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/pymdownx/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/pymdownx.png" type="image/png" length="43760" />
       
     </item>
     
