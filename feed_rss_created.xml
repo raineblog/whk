@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Thu, 12 Feb 2026 07:10:59 -0000</pubDate>
-    <lastBuildDate>Thu, 12 Feb 2026 07:10:59 -0000</lastBuildDate>
+    <pubDate>Thu, 12 Feb 2026 14:32:39 -0000</pubDate>
+    <lastBuildDate>Thu, 12 Feb 2026 14:32:39 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,14 +38,73 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-12&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-12T07:10:59.343930+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-12&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-12T07:10:59....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-12&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-12T14:32:39.366965+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-12&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-12T14:32:39....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Thu, 12 Feb 2026 07:10:00 +0000</pubDate>
+      <pubDate>Thu, 12 Feb 2026 14:32:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/archive/2025.png" type="image/png" length="38435" />
+      
+    </item>
+    
+    <item>
+      <title>有机反应记忆</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;有机反应记忆&lt;/h1&gt;
+&lt;h2&gt;烃&lt;/h2&gt;
+&lt;h3&gt;烷烃（甲烷）&lt;/h3&gt;
+&lt;p&gt;烷烃通式：$\ce{C_nH_{2n+2}}$&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;氧化反应：&lt;/p&gt;
+&lt;p&gt;甲烷&lt;strong&gt;不能使&lt;/strong&gt;酸性高锰酸钾溶液及溴水褪色。&lt;/p&gt;
+&lt;p&gt;甲烷的燃烧：&lt;/p&gt;
+&lt;p&gt;$$
+\ce{CH4 + 2O2 -&amp;gt;[\text{点燃}] CO2 + 2H2O}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;取代反应：&lt;/p&gt;
+&lt;p&gt;$$
+\ce{CH4 + Cl2 -&amp;gt;[\text{光照}] CH3Cl + HCl}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;烯烃（乙烯）&lt;/h3&gt;
+&lt;p&gt;烯烃通式：$\ce{C_nH_{2n}}$&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;乙烯的制取：&lt;/p&gt;
+&lt;p&gt;$$
+\ce{CH3CH2OH -&amp;gt;[\text{浓}H2SO4][\pu{170^oC}] CH2=CH2 ^ + H2O}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;氧化反应：&lt;/p&gt;
+&lt;p&gt;乙烯&lt;strong&gt;能使&lt;/strong&gt;酸性高锰酸钾溶液褪色，发生氧化反应。&lt;/p&gt;
+&lt;p&gt;乙烯的燃烧：&lt;/p&gt;
+&lt;p&gt;$$
+\ce{C2H4 + 3O2 -&amp;gt;[\text{点燃}] 2CO2 + 2H2O}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;加成反应：&lt;/p&gt;
+&lt;p&gt;乙烯与溴水加成：
+...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/organic/5/</link>
+      <pubDate>Thu, 12 Feb 2026 12:38:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/organic/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/5.png" type="image/png" length="46280" />
       
     </item>
     
@@ -724,33 +783,27 @@ no_recurse = {&#34;.venv*&#34;, &#34;.github&#34;}&lt;/p&gt;
     </item>
     
     <item>
-      <title>化学与生活</title>
+      <title>技术与社会</title>
       
       
       
       
-      <description>&lt;h1&gt;化学与生活&lt;/h1&gt;
-&lt;p&gt;海水淡化
-蒸馏法：将海水加热至沸腾气汽化，然后使水蒸气冷凝得到蒸馏水。&lt;/p&gt;
-&lt;p&gt;电渗析法：利用阴阳离子交换膜对水中阴阳离子的选择透过性，在外加直流电场的作用下，使水中一部分离子转移到另一部分水中，从而达到除盐的目的；&lt;/p&gt;
-&lt;p&gt;离子交换法：用离子交换树脂除去海水中的阴阳离子，得到去离子水。&lt;/p&gt;
-&lt;p&gt;注意：必须先通过阳离子，再通过阴离子，因为如果先通过阴离子，氢氧根沉淀能力很强，会与其它金属离子形成沉淀。&lt;/p&gt;
-&lt;p&gt;人类活动对环境的影响
-酸雨​&lt;/p&gt;
-&lt;p&gt;概念：$\rm{pH\le5.6}$ 的雨水&lt;/p&gt;
-&lt;p&gt;成因：主要是 $\rm{SO_2}$ 和 $\rm{NO_x}$ 及它们在大气中发生反应后的生成物溶于水形成的&lt;/p&gt;
-&lt;p&gt;硫酸型酸雨：$\rm{SO_2+H_2O\rightleftharpoons H_2SO_3\,,&amp;gt;2H_2SO_3+O_2=2H_2SO_4}$
-硝酸型酸雨：$\rm{2NO+O_2=2NO_2\,,&amp;gt;4NO_2+O_2+2H_2O=4HNO_3}$&lt;/p&gt;
-&lt;p&gt;危害：损伤农作物、破坏森林和草原、酸化土壤和湖泊、腐蚀建筑物&lt;/p&gt;
-&lt;p&gt;防治：&lt;/p&gt;
-&lt;p&gt;$\rm{2CaO+2SO_2+O_2\xlongequa...&lt;/p&gt;</description>
+      <description>&lt;h1&gt;技术与社会&lt;/h1&gt;
+&lt;h2&gt;STSE&lt;/h2&gt;
+&lt;p&gt;STSE 教育理念是科学（Science）、技术（Technology）、社会（Society）和环境（Environment）的英文缩写。科学、技术、社会与环境（STSE）教育起源于科学教育领域的科学技术与社会（STS）运动。这种科学教育理念强调在文化、经济、社会和政治背景下教授科学技术发展。在这种科学教育观下，学生被鼓励参与到与科学对日常生活的影响相关的问题中，并就如何解决这些问题做出负责任的决定。&lt;/p&gt;
+&lt;p&gt;借助解决实际问题、开展活动、进行调查以及分析等方式，引导学生在 STSE 情境里运用学科知识。激励学生针对那些关乎社会与环境的重要议题积极发表评价，进而做出合理决策，以此帮助学生塑造正确的价值观，并促使其养成良好的行为准则。STSE 教育理念注重培养学生的综合素养，使其能够理解科学技术在社会发展中的应用以及对环境的影响。&lt;/p&gt;
+&lt;h2&gt;生物技术的安全性与伦理问题&lt;/h2&gt;
+&lt;p&gt;在人类社会中，伦，是指人与人之间的关系；理，是道德和规则。伦理特指人与人之间的道德准则。&lt;/p&gt;
+&lt;h3&gt;转基因产品的安全性&lt;/h3&gt;
+&lt;p&gt;人们对转基因生物安全性的关注，随着转基因成果的
+不断涌现而与日俱...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/experiment/3/</link>
       <pubDate>Mon, 12 Jan 2026 04:31:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/experiment/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/3.png" type="image/png" length="43586" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/3.png" type="image/png" length="44793" />
       
     </item>
     
@@ -2742,34 +2795,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>细胞工程</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;细胞工程&lt;/h1&gt;
-&lt;p&gt;生物技术是应用生命科学的研究成果，对生物或生物的成分、产物等进行改造和利用的技术。生物技术是一个综合性的技术体系，我们可以将它与工程学原理相结合，来进行研究、设计和加工生产，为社会提供服务。&lt;/p&gt;
-&lt;h2&gt;植物细胞工程&lt;/h2&gt;
-&lt;p&gt;| 时间 | 内容 |
-| :--: | :--- |
-| 1902 年 | &lt;strong&gt;哈伯兰特&lt;/strong&gt;提出了细胞全能性的理论，但相关的实验尝试没有成功。 |
-| 1958 年 | &lt;strong&gt;斯图尔德&lt;/strong&gt;等发现胡萝卜的体细胞可以分化为胚，为细胞全能性理论提供了强有力的支持。 |
-| 1960 年 | &lt;strong&gt;科金&lt;/strong&gt;用真菌的纤维素酶分解番茄根的细胞壁，成功获得了原生质体。 |
-| 1964 年 | &lt;strong&gt;古哈&lt;/strong&gt;等在培养毛曼陀罗的花药时，首次得到了由花药中的花粉粒发育而来的胚。 |
-| 1971 年 | &lt;strong&gt;卡尔森&lt;/strong&gt;诱导烟草种间原生质体融合，获得了第一株体细胞种间杂种植株。 |
-| 1974 年 | 土壤农杆菌的 Ti 质粒被发现。之后，该质粒应用于植物分子生物学领域，促进了植物细胞工程与分子生物学技术的紧密结合。 |&lt;/p&gt;
-&lt;p&gt;**细胞经分裂和分化后，仍然具有产生完整生物体或分...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/9/</link>
-      <pubDate>Tue, 22 Jul 2025 23:55:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/9/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/9/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/9.png" type="image/png" length="41678" />
-      
-    </item>
-    
-    <item>
       <title>电场电势</title>
       
       
@@ -4057,12 +4082,12 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>细胞的结构</title>
+      <title>细胞的基本结构</title>
       
       
       
       
-      <description>&lt;h1&gt;细胞的结构&lt;/h1&gt;
+      <description>&lt;h1&gt;细胞的基本结构&lt;/h1&gt;
 &lt;p&gt;目前，生物学已经能在分子水平上，
 利用定量的物理、化学等手段来研究基本的生
 命过程和重大疾病的分子基础， 从根本上理解生
@@ -4080,61 +4105,24 @@ RNA和蛋白质，从而执行细胞丰富多彩的功
 而诠释功能和机理、找寻规律。&lt;/p&gt;
 &lt;h1&gt;生物实验&lt;/h1&gt;
 &lt;p&gt;预实验：在进行科学研究时，有时需要在正式实验前先做一个预实验。这样可以为进一步的实验摸索条件，也可以检验实验设计的科学性和可行性，例如，在探索生长素类调节剂促进插条生根的最适浓度时，通过预实验确定有效浓度的大致范围，可为确定最适浓度打下基础。预实验也必须像正式实验一样认真进行才有意义。&lt;/p&gt;
-&lt;p&gt;&amp;lt;div class=...&lt;/p&gt;</description>
+&lt;p&gt;&amp;lt;div clas...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/1/</link>
       <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/cell/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/1.png" type="image/png" length="46422" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/1.png" type="image/png" length="50112" />
       
     </item>
     
     <item>
-      <title>细胞的能量转化</title>
+      <title>细胞的物质与能量</title>
       
       
       
       
-      <description>&lt;h1&gt;细胞的能量转化&lt;/h1&gt;
-&lt;h3&gt;特殊的碱基&lt;/h3&gt;
-&lt;p&gt;$\text{5-BrdU}$（5-溴尿嘧啶脱氧核糖核苷）：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;$\text{5-BrdU}$ 是一种&lt;strong&gt;合成的&lt;/strong&gt;核苷类似物，其结构特征为胸腺嘧啶的 5 号位甲基被溴原子取代，形成溴代嘧啶环。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$\text{5-BrdU}$ 与胸腺嘧啶（$\text{T}$）竞争，与腺嘌呤（$\text{A}$）配对，可以通过免疫荧光染色显示增殖细胞（绿色荧光）。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;二腺嘌呤（$\text{Z}$）：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;$\text{Z}$ 是一种嘌呤类碱基，与腺嘌呤（$\text{A}$）相比，在 2 号位位置多了一个氨基（$\ce{-NH2}$），使得它与胸腺嘧啶（$\text{T}$）配对时能形成三个氢键（$\text{A}$ 与 $\text{T}$ 仅有两个氢键），显著增强了碱基对的稳定性。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$\text{Z}$ 最早于 1977 年在蓝细菌噬菌体 S-2L 的基因组中被苏联科学家发现，其完全取代了腺嘌呤，成为噬菌体 DNA 的组成碱基。近年研究发现，含有 $\text{Z}$ 基因组的噬菌体分布广泛。$\text{Z}$ 基因组的合成...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/2/</link>
-      <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/2.png" type="image/png" length="49887" />
-      
-    </item>
-    
-    <item>
-      <title>细胞的增殖</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;细胞的增殖&lt;/h1&gt;
-&lt;h2&gt;胚胎工程&lt;/h2&gt;
+      <description>&lt;h1&gt;细胞的物质与能量&lt;/h1&gt;
 &lt;h2&gt;酶抑制剂及其原理&lt;/h2&gt;
 &lt;h3&gt;酶抑制剂概述&lt;/h3&gt;
 &lt;p&gt;酶抑制剂（Enzyme Inhibitor）是指能够结合酶分子，从而降低或消除酶活性的分子。在细胞代谢调控、药物研发以及农业生产中，酶抑制剂都扮演着至关重要的角色。&lt;/p&gt;
@@ -4145,47 +4133,78 @@ RNA和蛋白质，从而执行细胞丰富多彩的功
 &lt;li&gt;
 &lt;p&gt;竞争性抑制剂（Competitive Inhibitor）：这是高中和大学考试中最常考查的一类。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;机制&lt;/strong&gt;：抑制剂的结构与底物（Substrate）十分相似，因此能与底物竞争酶的&lt;strong&gt;活性中心&lt;/strong&gt;（Active Site）。酶的活性中心“寸土寸金”，一旦被抑制剂占据，底物...&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;机制&lt;/strong&gt;：抑制剂的结构与底物（Substrate）十分相似，因此能与底物竞争酶的&lt;strong&gt;活性中心&lt;/strong&gt;（Active Site）。酶的活性中心“寸土寸金”，一旦被抑制剂占据，底物就无法结合。...&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/2/</link>
+      <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/2.png" type="image/png" length="52591" />
+      
+    </item>
+    
+    <item>
+      <title>细胞的生命历程</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;细胞的生命历程&lt;/h1&gt;
+&lt;h2&gt;细胞分裂&lt;/h2&gt;
+&lt;h3&gt;细胞分裂的分类&lt;/h3&gt;
+&lt;h3&gt;减数分裂的过程&lt;/h3&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-4.png&#34;&gt;&lt;/p&gt;
+&lt;h2&gt;细胞工程&lt;/h2&gt;
+&lt;p&gt;细胞工程是指应用细胞生物学、分子生物学和发育生物学等多学科的原理和方法，通过细胞器、细胞或组织水平上的操作，有目的地获得特定的细胞、组织、器官、个体或其产品的一门综合性的生物工程。&lt;/p&gt;
+&lt;p&gt;生物技术是应用生命科学的研究成果，对生物或生物的成分、产物等进行改造和利用的技术。生物技术是一个综合性的技术体系，我们可以将它与工程学原理相结合，来进行研究、设计和加工生产，为社会提供服务。&lt;/p&gt;
+&lt;h3&gt;植物细胞工程&lt;/h3&gt;
+&lt;p&gt;| 时间 | 内容 |
+| :--: | :--- |
+| 1902 年 | &lt;strong&gt;哈伯兰特&lt;/strong&gt;提出了细胞全能性的理论，但相关的实验尝试没有成功。 |
+| 1958 年 | &lt;strong&gt;斯图尔德&lt;/strong&gt;等发现胡萝卜的体细胞可以分化为胚，为细胞全能性理论提供了强有力的支持。 |
+| 1960 年 | &lt;strong&gt;科金&lt;/strong&gt;用真菌的纤维素酶分解番茄根的细胞壁，成功获得了原生质体。 |
+| 1964 年 | &lt;strong&gt;古哈&lt;/strong&gt;等在培养毛曼陀罗的花药时，首次得到了...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/3/</link>
       <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/cell/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="45825" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="48625" />
       
     </item>
     
     <item>
-      <title>基因组与育种</title>
+      <title>基因工程</title>
       
       
       
       
-      <description>&lt;h1&gt;基因组与育种&lt;/h1&gt;
-&lt;h2&gt;杂种优势&lt;/h2&gt;
-&lt;h3&gt;遗传学机制&lt;/h3&gt;
-&lt;p&gt;杂种优势（Heterosis）是指两个遗传组成不同的亲本杂交产生的杂种一代（F1）在生长势、生活力、繁殖力、抗逆性及产量等方面显著优于双亲均值的现象。其核心原理在于遗传异质性的互补与协同效应，通过基因组的重新组合，掩盖隐性有害基因、增强显性有利基因的表达，或通过杂合等位基因的互作形成超显性效应
-。&lt;/p&gt;
-&lt;p&gt;二、遗传学机制与理论假说
-经典假说：&lt;/p&gt;
-&lt;p&gt;显性假说（Dominance Hypothesis）：
-由Bruce（1910）提出，认为显性有利基因通过杂交覆盖隐性有害基因，形成互补效应。例如，若亲本基因型为AAbb和aaBB，F1代AaBb可同时携带显性有利基因A和B，显著提升性状表现。
-超显性假说（Overdominance Hypothesis）：
-Shull（1914）提出，杂合等位基因（如Aa）的互作效应超过纯合基因型（AA或aa），例如某些代谢酶在杂合状态下活性更高，促进生长和抗逆性
-。
-上位性假说（Epistasis Hypothesis）：
-强调非等位基因间的互作，例如基因A的显性表达可能抑制基因B的有害作用，形成...&lt;/p&gt;</description>
+      <description>&lt;h1&gt;基因工程&lt;/h1&gt;
+&lt;h2&gt;基因工程概述&lt;/h2&gt;
+&lt;p&gt;基因工程是在生物化学、分子生物学和微生物学等学科的基础上发展起来的，正是这些学科的基础理论和相关技术的发展催生了基因工程。基因工程是指按照人们的愿望，通过转基因等技术，赋予生物新的遗传特性，创造出更符合人们需要的新的生物类型和生物产品。从技术操作层面看，由于基因工程是在 DNA 分子水平上进行设计和施工的，因此又叫作重组 DNA 技术。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;1944 年，艾弗里（O. Avery， $1877 \sim 1955$）等通过肺炎链球菌的转化实验，不仅证明了遗传物质是 DNA，还证明了 DNA 可以在同种生物的不同个体之间转移。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1950 年，埃德曼（P. Edman， $1916 \sim 1977$）发明了一种测定氨基酸序列的方法。2 年后，桑格（F. Sanger， $1918 \sim 2013$）首次完成了对胰岛素氨基酸序列的测定。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1953 年，沃森（J. D. Watson， $1928 \sim$）和克里克（F. Crick， $1916 \sim 2004$）建立了 DNA 双螺旋结构模型并提出了遗传物质自我复制的...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/genetics/4/</link>
       <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/genetics/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/genetics/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/4.png" type="image/png" length="45363" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/4.png" type="image/png" length="40657" />
       
     </item>
     

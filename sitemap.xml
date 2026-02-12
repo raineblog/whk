@@ -207,27 +207,22 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/cell/1/</loc>
-        <lastmod>2026-02-08</lastmod>
+        <lastmod>2026-02-12</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/cell/2/</loc>
-        <lastmod>2026-02-05</lastmod>
+        <lastmod>2026-02-12</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/cell/3/</loc>
-        <lastmod>2026-02-07</lastmod>
+        <lastmod>2026-02-12</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/cell/4/</loc>
         <lastmod>2026-02-10</lastmod>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>https://raineblog.dpdns.org/whk/science/cell/9/</loc>
-        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -282,7 +277,7 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/element/</loc>
-        <lastmod>2026-02-11</lastmod>
+        <lastmod>2026-02-12</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -337,7 +332,7 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/experiment/3/</loc>
-        <lastmod>2026-02-08</lastmod>
+        <lastmod>2026-02-12</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -382,7 +377,7 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/genetics/4/</loc>
-        <lastmod>2026-01-12</lastmod>
+        <lastmod>2026-02-12</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -603,6 +598,11 @@
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/organic/4/</loc>
         <lastmod>2026-02-10</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://raineblog.dpdns.org/whk/science/organic/5/</loc>
+        <lastmod>2026-02-12</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>

@@ -150,13 +150,17 @@
           2.md
           3.md
           4.md
-          9.md
           image-1.avif
+          image-1.png
           image-2.avif
+          image-2.png
           image-3.avif
+          image-3.png
           image-4.avif
+          image-4.png
           image-5.avif
           image.avif
+          image.png
          ```
       1. ```bash
           1.avif
@@ -702,6 +706,7 @@
           3.md
           4.md
           5.19.avif
+          5.md
           9.4.svg
           9.5.svg
           9.6.svg
