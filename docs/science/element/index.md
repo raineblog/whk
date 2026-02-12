@@ -24,7 +24,7 @@
 
 - 酸碱性是溶液的一种特性。据此，溶液可分为酸性溶液、中性溶液和碱性溶液。
 
-以上内容来自 ![ChemWiki](https://chemwiki.mrwillcom.com/)，由于该项目没有 LICENSE 且截止到本文编写，已经停止维护近两年，如果认定为侵权请联系删除。
+以上内容来自 [ChemWiki](https://chemwiki.mrwillcom.com/)，由于该项目没有 LICENSE 且截止到本文编写，已经停止维护近两年，如果认定为侵权请联系删除。
 
 ## 物质的分类
 
