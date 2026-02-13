@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Thu, 12 Feb 2026 14:32:39 -0000</pubDate>
-    <lastBuildDate>Thu, 12 Feb 2026 14:32:39 -0000</lastBuildDate>
+    <pubDate>Fri, 13 Feb 2026 15:24:01 -0000</pubDate>
+    <lastBuildDate>Fri, 13 Feb 2026 15:24:01 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-12&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-12T14:32:39.366965+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-12&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-12T14:32:39....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-13&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-13T15:24:01.374659+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-13&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-13T15:24:01....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Thu, 12 Feb 2026 14:32:00 +0000</pubDate>
+      <pubDate>Fri, 13 Feb 2026 15:24:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
@@ -615,8 +615,8 @@ no_recurse = {&#34;.venv*&#34;, &#34;.github&#34;}&lt;/p&gt;
       
       <description>&lt;h1&gt;格式手册&lt;/h1&gt;
 &lt;p&gt;在学术方面，排版大体上参考 &lt;a href=&#34;https://oi-wiki.org/intro/format/&#34;&gt;OI Wiki 格式手册&lt;/a&gt;，中文排版参考 RainPPR 的（就是我自己的）&lt;a href=&#34;https://rainppr.dpdns.org/chinese-copywriting-guidelines/&#34;&gt;中文文案排版指北（个人重制版）&lt;/a&gt;，本网站采用了一些 pymdownx 扩展，相应的语法参考&lt;a href=&#34;./pymdownx.md&#34;&gt;语法扩展&lt;/a&gt;一节。由于本网站的核心目标是，打造一个适合高中生“阅读”而非作为参考书、教科书的文化课文档，因此本网站的排版可以稍微松懈一些，核心目的是易懂和美观。&lt;/p&gt;
-&lt;p&gt;与此同时，我们对文字的设计和语言的描述有着较高的要求和取向，正如前面所说，我们希望打造的文档，是一个适合阅读的，因此可以适当用一些描述性的语言，但是要避免长篇大论的啰唆，用精炼的语言构造出丰富的知识库。&lt;/p&gt;
-&lt;p&gt;最近，我阅读到了一篇文章，叫作 &lt;a href=&#34;https://jzhao.xyz/posts/networked-thought&#34;&gt;Networked Thought&lt;/a&gt;，我很欣赏其中指出的一些观点，并且将...&lt;/p&gt;</description>
+&lt;p&gt;在文件托管上面，这个 Github 仓库默认只存放图片和 Markdown 源码一类的，对于需要存放的 PDF 文件，请迁移到对应的 &lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/tree/main&#34;&gt;HuggingFace 仓库&lt;/a&gt;中，它对大文件支持更好，而且专门为大文件优化。&lt;/p&gt;
+&lt;p&gt;与此同时，我们对文字的设计和语言的描述有着较高的要求和取向，正如前面所说...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/home/format/</link>
       <pubDate>Sat, 17 Jan 2026 13:37:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -3848,14 +3848,10 @@ $$&lt;/p&gt;
       
       
       <description>&lt;h1&gt;随机变量&lt;/h1&gt;
+&lt;p&gt;提示：高中这一部分涉及的非常浅，并且一般的讲解也没有逻辑和思维可言，如果你想要更深刻的了解这些内容，又不想过于深入，建议你阅读 &lt;a href=&#34;http://staff.ustc.edu.cn/~zwp/teach/Prob-Stat/probstat.htm&#34;&gt;Prob-Stat&lt;/a&gt;，以及我爬取的这个课程的&lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/resolve/main/math/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E8%AE%B2%E4%B9%89.pdf&#34;&gt;讲义&lt;/a&gt;和&lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/resolve/main/math/USTC_Prob_Stat_Complete.pdf&#34;&gt;课件&lt;/a&gt;。&lt;/p&gt;
 &lt;h2&gt;随机变量的概念&lt;/h2&gt;
 &lt;h3&gt;随机变量&lt;/h3&gt;
-&lt;p&gt;随机变量是用来表示随机试验结果的变量，通常用大写字母 $X,Y,Z$ 或小写希腊字母 $\xi,\eta,\zeta$ 表示。&lt;/p&gt;
-&lt;p&gt;随机函数是一个特殊的实函数，对于任意 $e\in S$，都有唯一一个对应 $X(e)$，如图。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;Zufall.avif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;随机变量实质上是样本空间上的函数，可作为因变量，满足其值不大于某数的状况都是事件。我们称随机变量这个函数的值域为随机变量的取值范围，或值域。&lt;/p&gt;
-&lt;p&gt;随机变量在不同的条件下由于偶然因素影响，其可能取各种随机变量不同的值，具有不确定性和随机性，但这些取值落在某个范围的概率是一定的，此种变量称为随机变量。随机变量可以是离散型的，也可以是连续型的。如分析测试中的测定值就是一个以概率取值的随机变量，被测定量的取值可能在某一范围内随机变化，具体取什么值在测定之前是无法确定的，但测定的结果是确定的，多次重复测定所得到的测定值具有统计规律性。随机变量与模糊变量的不确定性的本质差别在于，后者的测定结果仍具有不确定性，即模糊性。&lt;/p&gt;
-&lt;p&gt;随机变量按其值域（根据定义，随机变量是一个函数）是否可...&lt;/p&gt;</description>
+&lt;p&gt;随机变量是用来表示随机试验结果的变量，通常用大写字母 $X,Y,Z$ 或小写希腊字母 $\xi,\eta,\zeta$...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/probability/3/</link>
       <pubDate>Sun, 18 May 2025 09:51:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -3867,20 +3863,20 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>概率分布</title>
+      <title>咕咕咕</title>
       
       
       
       
-      <description>&lt;h1&gt;概率分布&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-05-18&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-05-18T09:51:56+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-05-18&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-05-18T09:51:56+00:00&#39;...</description>
+      <description>&lt;h1&gt;咕咕咕&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-05-18&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-05-18T09:51:56+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-13&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-13T15:22:13+00:00&#39;&gt;...</description>
       <link>https://raineblog.dpdns.org/whk/science/probability/4/</link>
       <pubDate>Sun, 18 May 2025 09:51:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/probability/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/4.png" type="image/png" length="44679" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/4.png" type="image/png" length="35970" />
       
     </item>
     
@@ -4164,10 +4160,10 @@ RNA和蛋白质，从而执行细胞丰富多彩的功
 &lt;h3&gt;植物细胞工程&lt;/h3&gt;
 &lt;p&gt;| 时间 | 内容 |
 | :--: | :--- |
-| 1902 年 | &lt;strong&gt;哈伯兰特&lt;/strong&gt;提出了细胞全能性的理论，但相关的实验尝试没有成功。 |
+| &lt;no-wrap&gt;1902 年&lt;/no-wrap&gt; | &lt;strong&gt;哈伯兰特&lt;/strong&gt;提出了细胞全能性的理论，但相关的实验尝试没有成功。 |
 | 1958 年 | &lt;strong&gt;斯图尔德&lt;/strong&gt;等发现胡萝卜的体细胞可以分化为胚，为细胞全能性理论提供了强有力的支持。 |
 | 1960 年 | &lt;strong&gt;科金&lt;/strong&gt;用真菌的纤维素酶分解番茄根的细胞壁，成功获得了原生质体。 |
-| 1964 年 | &lt;strong&gt;古哈&lt;/strong&gt;等在培养毛曼陀罗的花药时，首次得到了...&lt;/p&gt;</description>
+| 1964 年 | *&lt;em&gt;古哈&lt;/em&gt;...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/3/</link>
       <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>

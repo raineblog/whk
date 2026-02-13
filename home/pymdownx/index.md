@@ -588,7 +588,6 @@
           惠更斯碰撞实验.avif
           方法总结.avif
           最速降线.avif
-          第13讲 板块模型.pdf
          ```
       1. ```bash
           1.md
@@ -849,6 +848,7 @@
           3.md
           4.md
           5.md
+          Standard_deviation_diagram.svg
           Zufall.avif
           image-1.avif
           image.avif

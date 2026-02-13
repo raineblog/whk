@@ -1,3 +1,3 @@
-# 概率分布
+# 咕咕咕
 
 [RainPPR](https://github.com/RainPPR)

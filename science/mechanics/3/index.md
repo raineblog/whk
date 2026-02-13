@@ -206,7 +206,7 @@
 - 木板有初速度。
 - 木板无初速度。
 
-详见 [TC 课件](https://raineblog.dpdns.org/whk/science/mechanics/%E7%AC%AC13%E8%AE%B2%20%E6%9D%BF%E5%9D%97%E6%A8%A1%E5%9E%8B.pdf) 内容。
+详见[课件](https://huggingface.co/datasets/RainPPR/whk/resolve/main/physics/%E7%AC%AC13%E8%AE%B2%20%E6%9D%BF%E5%9D%97%E6%A8%A1%E5%9E%8B.pdf)内容。
 
 ### 叠加体相对静止
 
