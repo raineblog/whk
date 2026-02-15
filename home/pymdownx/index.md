@@ -847,7 +847,6 @@
           2.md
           3.md
           4.md
-          5.md
           Standard_deviation_diagram.svg
           Zufall.avif
           image-1.avif

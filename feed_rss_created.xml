@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sun, 15 Feb 2026 01:28:18 -0000</pubDate>
-    <lastBuildDate>Sun, 15 Feb 2026 01:28:18 -0000</lastBuildDate>
+    <pubDate>Sun, 15 Feb 2026 13:00:52 -0000</pubDate>
+    <lastBuildDate>Sun, 15 Feb 2026 13:00:52 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-15&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-15T01:28:18.780469+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-15&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-15T01:28:18....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-15&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-15T13:00:52.219621+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-15&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-15T13:00:52....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Sun, 15 Feb 2026 01:28:00 +0000</pubDate>
+      <pubDate>Sun, 15 Feb 2026 13:00:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
@@ -2460,60 +2460,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>组合数学</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;组合数学&lt;/h1&gt;
-&lt;center&gt;
-组合数学是一门古老而迷人的学科。
-
-传说早在 $\texttt{114514}$ 年前，&lt;br&gt;
-一位名为忆哀的神灵来到地球，&lt;br&gt;
-发现了人类——另一种有智慧的物种。
-
-她觉得这很有趣，为了加速人类文明的发展，&lt;br&gt;
-她向人间传下了一类计数问题——十二重计数，&lt;br&gt;
-这也正是组合数学的开端。
-
-而只有搞明白这类问题，才能在组合数学上继续深入。
-&lt;/center&gt;
-
-&lt;h2&gt;基础内容&lt;/h2&gt;
-&lt;h3&gt;四大原理&lt;/h3&gt;
-&lt;p&gt;加法原理：分类相加，&lt;/p&gt;
-&lt;p&gt;$$
-N=\sum m_n
-$$&lt;/p&gt;
-&lt;p&gt;乘法原理：分步相乘，&lt;/p&gt;
-&lt;p&gt;$$
-N=\prod m_n
-$$&lt;/p&gt;
-&lt;p&gt;减法原理：正难则反，&lt;/p&gt;
-&lt;p&gt;$$
-|A|=|S|-|S\setminus A|,A\subseteq S
-$$&lt;/p&gt;
-&lt;p&gt;除法原理：反悔划分。&lt;/p&gt;
-&lt;p&gt;这玩意想不明白回初赛重造。&lt;/p&gt;
-&lt;p&gt;注：本文将会偶尔用到大型运算符，不清楚的见我数列进阶。&lt;/p&gt;
-&lt;h3&gt;经典例题&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;从 $A\to B$ 有 $2$ 条路，$B\to D$ 有 $3$ 条路；&lt;/li&gt;
-&lt;li&gt;从 $A\to C$ 有 $4$ 条路，$C\to D$ 有 $5$ 条路。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;问：从 $A\t...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/probability/5/</link>
-      <pubDate>Tue, 19 Aug 2025 11:57:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/probability/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/5/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/5.png" type="image/png" length="44817" />
-      
-    </item>
-    
-    <item>
       <title>数学归纳法</title>
       
       
@@ -3863,20 +3809,56 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>咕咕咕</title>
+      <title>组合数学</title>
       
       
       
       
-      <description>&lt;h1&gt;咕咕咕&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-05-18&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-05-18T09:51:56+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-13&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-13T15:22:13+00:00&#39;&gt;...</description>
+      <description>&lt;h1&gt;组合数学&lt;/h1&gt;
+&lt;center&gt;
+组合数学是一门古老而迷人的学科。
+
+传说早在 $\texttt{114514}$ 年前，&lt;br&gt;
+一位名为忆哀的神灵来到地球，&lt;br&gt;
+发现了人类——另一种有智慧的物种。
+
+她觉得这很有趣，为了加速人类文明的发展，&lt;br&gt;
+她向人间传下了一类计数问题——十二重计数，&lt;br&gt;
+这也正是组合数学的开端。
+
+而只有搞明白这类问题，才能在组合数学上继续深入。
+&lt;/center&gt;
+
+&lt;h2&gt;基础内容&lt;/h2&gt;
+&lt;h3&gt;四大原理&lt;/h3&gt;
+&lt;p&gt;加法原理：分类相加，&lt;/p&gt;
+&lt;p&gt;$$
+N=\sum m_n
+$$&lt;/p&gt;
+&lt;p&gt;乘法原理：分步相乘，&lt;/p&gt;
+&lt;p&gt;$$
+N=\prod m_n
+$$&lt;/p&gt;
+&lt;p&gt;减法原理：正难则反，&lt;/p&gt;
+&lt;p&gt;$$
+|A|=|S|-|S\setminus A|,A\subseteq S
+$$&lt;/p&gt;
+&lt;p&gt;除法原理：反悔划分。&lt;/p&gt;
+&lt;p&gt;这玩意想不明白回初赛重造。&lt;/p&gt;
+&lt;p&gt;注：本文将会偶尔用到大型运算符，不清楚的见我数列进阶。&lt;/p&gt;
+&lt;h3&gt;经典例题&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;从 $A\to B$ 有 $2$ 条路，$B\to D$ 有 $3$ 条路；&lt;/li&gt;
+&lt;li&gt;从 $A\to C$ 有 $4$ 条路，$C\to D$ 有 $5$ 条路。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;问：从 $A\t...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/probability/4/</link>
       <pubDate>Sun, 18 May 2025 09:51:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/probability/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/4.png" type="image/png" length="35970" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/4.png" type="image/png" length="44817" />
       
     </item>
     

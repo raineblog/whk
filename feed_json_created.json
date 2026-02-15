@@ -16,10 +16,10 @@
             "id": "https://raineblog.dpdns.org/whk/blog/archive/2025/",
             "url": "https://raineblog.dpdns.org/whk/blog/archive/2025/",
             "title": "2025",
-            "content_html": "<h1>2025</h1>\n<div class='document-dates-plugin-wrapper document-dates-bottom'><div class='document-dates-plugin' locale=''><div class='dd-left'><span class='dd-item' data-tippy-content data-tippy-raw='2026-02-15'><span class='material-icons' data-icon='doc_created'></span><time datetime='2026-02-15T01:28:18.780469+00:00'></time></span><span class='dd-item' data-tippy-content data-tippy-raw='2026-02-15'><span class='material-icons' data-icon='doc_updated'></span><time datetime='2026-02-15T01:28:18....",
+            "content_html": "<h1>2025</h1>\n<div class='document-dates-plugin-wrapper document-dates-bottom'><div class='document-dates-plugin' locale=''><div class='dd-left'><span class='dd-item' data-tippy-content data-tippy-raw='2026-02-15'><span class='material-icons' data-icon='doc_created'></span><time datetime='2026-02-15T13:00:52.219621+00:00'></time></span><span class='dd-item' data-tippy-content data-tippy-raw='2026-02-15'><span class='material-icons' data-icon='doc_updated'></span><time datetime='2026-02-15T13:00:52....",
             "image": "https://raineblog.dpdns.org/whk/assets/images/social/blog/archive/2025.png",
-            "date_modified": "2026-02-15T01:28:00+00:00",
-            "date_published": "2026-02-15T01:28:00+00:00",
+            "date_modified": "2026-02-15T13:00:00+00:00",
+            "date_published": "2026-02-15T13:00:00+00:00",
             "authors": [],
             "tags": null
         },
@@ -947,17 +947,6 @@
             "tags": null
         },
         {
-            "id": "https://raineblog.dpdns.org/whk/science/probability/5/",
-            "url": "https://raineblog.dpdns.org/whk/science/probability/5/",
-            "title": "\u7ec4\u5408\u6570\u5b66",
-            "content_html": "<h1>\u7ec4\u5408\u6570\u5b66</h1>\n<center>\n\u7ec4\u5408\u6570\u5b66\u662f\u4e00\u95e8\u53e4\u8001\u800c\u8ff7\u4eba\u7684\u5b66\u79d1\u3002\n\n\u4f20\u8bf4\u65e9\u5728 $\\texttt{114514}$ \u5e74\u524d\uff0c<br>\n\u4e00\u4f4d\u540d\u4e3a\u5fc6\u54c0\u7684\u795e\u7075\u6765\u5230\u5730\u7403\uff0c<br>\n\u53d1\u73b0\u4e86\u4eba\u7c7b\u2014\u2014\u53e6\u4e00\u79cd\u6709\u667a\u6167\u7684\u7269\u79cd\u3002\n\n\u5979\u89c9\u5f97\u8fd9\u5f88\u6709\u8da3\uff0c\u4e3a\u4e86\u52a0\u901f\u4eba\u7c7b\u6587\u660e\u7684\u53d1\u5c55\uff0c<br>\n\u5979\u5411\u4eba\u95f4\u4f20\u4e0b\u4e86\u4e00\u7c7b\u8ba1\u6570\u95ee\u9898\u2014\u2014\u5341\u4e8c\u91cd\u8ba1\u6570\uff0c<br>\n\u8fd9\u4e5f\u6b63\u662f\u7ec4\u5408\u6570\u5b66\u7684\u5f00\u7aef\u3002\n\n\u800c\u53ea\u6709\u641e\u660e\u767d\u8fd9\u7c7b\u95ee\u9898\uff0c\u624d\u80fd\u5728\u7ec4\u5408\u6570\u5b66\u4e0a\u7ee7\u7eed\u6df1\u5165\u3002\n</center>\n\n<h2>\u57fa\u7840\u5185\u5bb9</h2>\n<h3>\u56db\u5927\u539f\u7406</h3>\n<p>\u52a0\u6cd5\u539f\u7406\uff1a\u5206\u7c7b\u76f8\u52a0\uff0c</p>\n<p>$$\nN=\\sum m_n\n$$</p>\n<p>\u4e58\u6cd5\u539f\u7406\uff1a\u5206\u6b65\u76f8\u4e58\uff0c</p>\n<p>$$\nN=\\prod m_n\n$$</p>\n<p>\u51cf\u6cd5\u539f\u7406\uff1a\u6b63\u96be\u5219\u53cd\uff0c</p>\n<p>$$\n|A|=|S|-|S\\setminus A|,A\\subseteq S\n$$</p>\n<p>\u9664\u6cd5\u539f\u7406\uff1a\u53cd\u6094\u5212\u5206\u3002</p>\n<p>\u8fd9\u73a9\u610f\u60f3\u4e0d\u660e\u767d\u56de\u521d\u8d5b\u91cd\u9020\u3002</p>\n<p>\u6ce8\uff1a\u672c\u6587\u5c06\u4f1a\u5076\u5c14\u7528\u5230\u5927\u578b\u8fd0\u7b97\u7b26\uff0c\u4e0d\u6e05\u695a\u7684\u89c1\u6211\u6570\u5217\u8fdb\u9636\u3002</p>\n<h3>\u7ecf\u5178\u4f8b\u9898</h3>\n<ul>\n<li>\u4ece $A\\to B$ \u6709 $2$ \u6761\u8def\uff0c$B\\to D$ \u6709 $3$ \u6761\u8def\uff1b</li>\n<li>\u4ece $A\\to C$ \u6709 $4$ \u6761\u8def\uff0c$C\\to D$ \u6709 $5$ \u6761\u8def\u3002</li>\n</ul>\n<p>\u95ee\uff1a\u4ece $A\\t...</p>",
-            "image": "https://raineblog.dpdns.org/whk/assets/images/social/science/probability/5.png",
-            "date_modified": "2026-02-10T03:22:00+00:00",
-            "date_published": "2025-08-19T11:57:00+00:00",
-            "authors": [],
-            "tags": null
-        },
-        {
             "id": "https://raineblog.dpdns.org/whk/science/sequence/4/",
             "url": "https://raineblog.dpdns.org/whk/science/sequence/4/",
             "title": "\u6570\u5b66\u5f52\u7eb3\u6cd5",
@@ -1370,7 +1359,7 @@
             "title": "\u968f\u673a\u53d8\u91cf",
             "content_html": "<h1>\u968f\u673a\u53d8\u91cf</h1>\n<p>\u63d0\u793a\uff1a\u9ad8\u4e2d\u8fd9\u4e00\u90e8\u5206\u6d89\u53ca\u7684\u975e\u5e38\u6d45\uff0c\u5e76\u4e14\u4e00\u822c\u7684\u8bb2\u89e3\u4e5f\u6ca1\u6709\u903b\u8f91\u548c\u601d\u7ef4\u53ef\u8a00\uff0c\u5982\u679c\u4f60\u60f3\u8981\u66f4\u6df1\u523b\u7684\u4e86\u89e3\u8fd9\u4e9b\u5185\u5bb9\uff0c\u53c8\u4e0d\u60f3\u8fc7\u4e8e\u6df1\u5165\uff0c\u5efa\u8bae\u4f60\u9605\u8bfb <a href=\"http://staff.ustc.edu.cn/~zwp/teach/Prob-Stat/probstat.htm\">Prob-Stat</a>\uff0c\u4ee5\u53ca\u6211\u722c\u53d6\u7684\u8fd9\u4e2a\u8bfe\u7a0b\u7684<a href=\"https://huggingface.co/datasets/RainPPR/whk/resolve/main/math/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E8%AE%B2%E4%B9%89.pdf\">\u8bb2\u4e49</a>\u548c<a href=\"https://huggingface.co/datasets/RainPPR/whk/resolve/main/math/USTC_Prob_Stat_Complete.pdf\">\u8bfe\u4ef6</a>\u3002</p>\n<h2>\u968f\u673a\u53d8\u91cf\u7684\u6982\u5ff5</h2>\n<h3>\u968f\u673a\u53d8\u91cf</h3>\n<p>\u968f\u673a\u53d8\u91cf\u662f\u7528\u6765\u8868\u793a\u968f\u673a\u8bd5\u9a8c\u7ed3\u679c\u7684\u53d8\u91cf\uff0c\u901a\u5e38\u7528\u5927\u5199\u5b57\u6bcd $X,Y,Z$ \u6216\u5c0f\u5199\u5e0c\u814a\u5b57\u6bcd $\\xi,\\eta,\\zeta$...</p>",
             "image": "https://raineblog.dpdns.org/whk/assets/images/social/science/probability/3.png",
-            "date_modified": "2026-02-13T15:22:00+00:00",
+            "date_modified": "2026-02-15T12:57:00+00:00",
             "date_published": "2025-05-18T09:51:00+00:00",
             "authors": [],
             "tags": null
@@ -1378,10 +1367,10 @@
         {
             "id": "https://raineblog.dpdns.org/whk/science/probability/4/",
             "url": "https://raineblog.dpdns.org/whk/science/probability/4/",
-            "title": "\u5495\u5495\u5495",
-            "content_html": "<h1>\u5495\u5495\u5495</h1>\n<div class='document-dates-plugin-wrapper document-dates-bottom'><div class='document-dates-plugin' locale=''><div class='dd-left'><span class='dd-item' data-tippy-content data-tippy-raw='2025-05-18'><span class='material-icons' data-icon='doc_created'></span><time datetime='2025-05-18T09:51:56+00:00'></time></span><span class='dd-item' data-tippy-content data-tippy-raw='2026-02-13'><span class='material-icons' data-icon='doc_updated'></span><time datetime='2026-02-13T15:22:13+00:00'>...",
+            "title": "\u7ec4\u5408\u6570\u5b66",
+            "content_html": "<h1>\u7ec4\u5408\u6570\u5b66</h1>\n<center>\n\u7ec4\u5408\u6570\u5b66\u662f\u4e00\u95e8\u53e4\u8001\u800c\u8ff7\u4eba\u7684\u5b66\u79d1\u3002\n\n\u4f20\u8bf4\u65e9\u5728 $\\texttt{114514}$ \u5e74\u524d\uff0c<br>\n\u4e00\u4f4d\u540d\u4e3a\u5fc6\u54c0\u7684\u795e\u7075\u6765\u5230\u5730\u7403\uff0c<br>\n\u53d1\u73b0\u4e86\u4eba\u7c7b\u2014\u2014\u53e6\u4e00\u79cd\u6709\u667a\u6167\u7684\u7269\u79cd\u3002\n\n\u5979\u89c9\u5f97\u8fd9\u5f88\u6709\u8da3\uff0c\u4e3a\u4e86\u52a0\u901f\u4eba\u7c7b\u6587\u660e\u7684\u53d1\u5c55\uff0c<br>\n\u5979\u5411\u4eba\u95f4\u4f20\u4e0b\u4e86\u4e00\u7c7b\u8ba1\u6570\u95ee\u9898\u2014\u2014\u5341\u4e8c\u91cd\u8ba1\u6570\uff0c<br>\n\u8fd9\u4e5f\u6b63\u662f\u7ec4\u5408\u6570\u5b66\u7684\u5f00\u7aef\u3002\n\n\u800c\u53ea\u6709\u641e\u660e\u767d\u8fd9\u7c7b\u95ee\u9898\uff0c\u624d\u80fd\u5728\u7ec4\u5408\u6570\u5b66\u4e0a\u7ee7\u7eed\u6df1\u5165\u3002\n</center>\n\n<h2>\u57fa\u7840\u5185\u5bb9</h2>\n<h3>\u56db\u5927\u539f\u7406</h3>\n<p>\u52a0\u6cd5\u539f\u7406\uff1a\u5206\u7c7b\u76f8\u52a0\uff0c</p>\n<p>$$\nN=\\sum m_n\n$$</p>\n<p>\u4e58\u6cd5\u539f\u7406\uff1a\u5206\u6b65\u76f8\u4e58\uff0c</p>\n<p>$$\nN=\\prod m_n\n$$</p>\n<p>\u51cf\u6cd5\u539f\u7406\uff1a\u6b63\u96be\u5219\u53cd\uff0c</p>\n<p>$$\n|A|=|S|-|S\\setminus A|,A\\subseteq S\n$$</p>\n<p>\u9664\u6cd5\u539f\u7406\uff1a\u53cd\u6094\u5212\u5206\u3002</p>\n<p>\u8fd9\u73a9\u610f\u60f3\u4e0d\u660e\u767d\u56de\u521d\u8d5b\u91cd\u9020\u3002</p>\n<p>\u6ce8\uff1a\u672c\u6587\u5c06\u4f1a\u5076\u5c14\u7528\u5230\u5927\u578b\u8fd0\u7b97\u7b26\uff0c\u4e0d\u6e05\u695a\u7684\u89c1\u6211\u6570\u5217\u8fdb\u9636\u3002</p>\n<h3>\u7ecf\u5178\u4f8b\u9898</h3>\n<ul>\n<li>\u4ece $A\\to B$ \u6709 $2$ \u6761\u8def\uff0c$B\\to D$ \u6709 $3$ \u6761\u8def\uff1b</li>\n<li>\u4ece $A\\to C$ \u6709 $4$ \u6761\u8def\uff0c$C\\to D$ \u6709 $5$ \u6761\u8def\u3002</li>\n</ul>\n<p>\u95ee\uff1a\u4ece $A\\t...</p>",
             "image": "https://raineblog.dpdns.org/whk/assets/images/social/science/probability/4.png",
-            "date_modified": "2026-02-13T15:22:00+00:00",
+            "date_modified": "2026-02-15T12:57:00+00:00",
             "date_published": "2025-05-18T09:51:00+00:00",
             "authors": [],
             "tags": null
