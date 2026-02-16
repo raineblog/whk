@@ -66,6 +66,9 @@
           2026-01-26-science-mechanics-5.md
           2026-02-02-science-geometry-3.md
           2026-02-02-science-mechanics-2.md
+          2026-02-16-science-cell-3.md
+          2026-02-16-science-function-3.md
+          2026-02-16-science-reaction-2.md
           llm-image-1.avif
           llm-image.avif
           llms.md
@@ -151,16 +154,11 @@
           3.md
           4.md
           image-1.avif
-          image-1.png
           image-2.avif
-          image-2.png
           image-3.avif
-          image-3.png
           image-4.avif
-          image-4.png
           image-5.avif
           image.avif
-          image.png
          ```
       1. ```bash
           1.avif
@@ -416,10 +414,9 @@
           Construction_triangle_Reuleaux[1].svg
           Reinhardt_15-gons[1].svg
           Sinh_cosh_tanh.svg
-          Superellipse-3.svg
+          Superellipse-3.avif
           desmos-graph (6).svg
           image-1.avif
-          image-1.png
           image-10.avif
           image-11.avif
           image-12.avif
@@ -465,7 +462,6 @@
           image-8.avif
           image-9.avif
           image.avif
-          image.png
           imagett.avif
           reconstructed_image.svg
          ```
@@ -920,11 +916,9 @@
           fimage-3.avif
           fimage.avif
           image-1.avif
-          image-1.png
           image-10.avif
           image-11.avif
           image-2.avif
-          image-2.png
           image-3.avif
           image-4.avif
           image-5.avif
@@ -933,7 +927,6 @@
           image-8.avif
           image-9.avif
           image.avif
-          image.png
           sp3.avif
           元素周期律.avif
           元素周期表的分区.avif

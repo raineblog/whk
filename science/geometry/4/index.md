@@ -667,4 +667,4 @@
 
 注意到这符合双曲线 (xy=\\dfrac{1}{4}) 的特征，因此直线为该曲线的包络线。
 
-[RainPPR](https://github.com/RainPPR)
+[RainPPR](https://github.com/RainPPR),  [Bot](https://github.com/features/actions)
