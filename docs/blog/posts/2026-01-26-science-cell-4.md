@@ -69,7 +69,7 @@ authors:
 
 乳酸菌是严格的厌氧菌，它们在无氧条件下将葡萄糖转化为乳酸。
 
-<center>
+<center markdown>
 $\ce{C6H12O6 ->[酶] 2C3H6O3} + \text{能量}$
 </center>
 
@@ -82,7 +82,7 @@ $\ce{C6H12O6 ->[酶] 2C3H6O3} + \text{能量}$
 - **有氧条件**：大量繁殖，增加菌体数量。
 - **无氧条件**：进行酒精发酵。
 
-<center>
+<center markdown>
 $\ce{C6H12O6 ->[酶] 2C2H5OH + 2CO2} + \text{能量}$
 </center>
 
