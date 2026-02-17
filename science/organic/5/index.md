@@ -306,7 +306,7 @@
 
 以 (\\ce{CH3CH2Br}) 为例：
 
-卤代烃 $\\ce{R-X}$ $\\xrightarrow{①\\ \\text{水解}}$ 醇 $\\ce{R-OH}$ $\\xrightarrow{②\\ \\text{氧化}}$ 醛 $\\ce{R-CHO}$ $\\xrightarrow{③\\ \\text{氧化}}$ 羧酸 $\\ce{RCOOH}$ $\\xrightarrow{④\\ \\text{酯化}}$ 酯 $\\ce{RCOOR'}$
+卤代烃 (\\ce{R-X}) (\\xrightarrow{①\\ \\text{水解}}) 醇 (\\ce{R-OH}) (\\xrightarrow{②\\ \\text{氧化}}) 醛 (\\ce{R-CHO}) (\\xrightarrow{③\\ \\text{氧化}}) 羧酸 (\\ce{RCOOH}) (\\xrightarrow{④\\ \\text{酯化}}) 酯 (\\ce{RCOOR'})
 
 1. (\\ce{CH3CH2Br + NaOH ->[H2O][\\triangle] CH3CH2OH + NaBr})
 1. (\\ce{2C2H5OH + O2 ->[Cu][\\triangle] 2CH3CHO + 2H2O})

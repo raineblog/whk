@@ -402,6 +402,7 @@
           3.md
           4.md
           image.avif
+          image.svg
          ```
       1. ```bash
           1.md
@@ -918,6 +919,7 @@
           fimage-3.avif
           fimage.avif
           image-1.avif
+          image-1.png
           image-10.avif
           image-11.avif
           image-2.avif
@@ -929,6 +931,7 @@
           image-8.avif
           image-9.avif
           image.avif
+          image.png
           sp3.avif
           元素周期律.avif
           元素周期表的分区.avif
