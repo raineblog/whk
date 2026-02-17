@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 16 Feb 2026 09:29:22 -0000</pubDate>
-    <lastBuildDate>Mon, 16 Feb 2026 09:29:22 -0000</lastBuildDate>
+    <pubDate>Tue, 17 Feb 2026 06:54:50 -0000</pubDate>
+    <lastBuildDate>Tue, 17 Feb 2026 06:54:50 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-16&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-16T09:29:22.359086+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-16&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-16T09:29:22....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-17&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-17T06:54:50.791418+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-17&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-17T06:54:50....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Mon, 16 Feb 2026 09:29:00 +0000</pubDate>
+      <pubDate>Tue, 17 Feb 2026 06:54:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
@@ -57,12 +57,110 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/page/2/</link>
-      <pubDate>Mon, 16 Feb 2026 09:29:00 +0000</pubDate>
+      <pubDate>Tue, 17 Feb 2026 06:54:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/page/2/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/page/2.png" type="image/png" length="None" />
+      
+    </item>
+    
+    <item>
+      <title>圆锥曲线</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;圆锥曲线&lt;/h1&gt;
+&lt;h2&gt;椭圆&lt;/h2&gt;
+&lt;h3&gt;第一定义&lt;/h3&gt;
+&lt;p&gt;到两个定点 $F_1$、$F_2$ 的距离之和为定值（大于 $|F_1F_2|$）的点所形成的轨迹称为椭圆。这两个定点叫做椭圆的焦点，两焦点间的距离叫做椭圆的焦距，焦距的一半称为半焦距。&lt;/p&gt;
+&lt;p&gt;我们不妨设 $F_1=(-c,0),F_2=(c,0)$ 为焦点的椭圆经过 $M$ 点，且 $M$ 到 $F_1,F_2$ 的局里之和为 $2a$，其中 $a&amp;gt;c$，那么写出方程：&lt;/p&gt;
+&lt;p&gt;$$
+\sqrt{(x-c)^2+y^2}+\sqrt{(x+c)^2+y^2}=2a
+$$&lt;/p&gt;
+&lt;p&gt;我们把一个根号移到另一侧，然后两边平方，整理后再平方，可以得到：&lt;/p&gt;
+&lt;p&gt;$$
+\dfrac{x^2}{a^2}+\dfrac{y^2}{a^2-c^2}=1
+$$&lt;/p&gt;
+&lt;p&gt;不妨令 $b=\sqrt{a^2-c^2}$，那么&lt;strong&gt;椭圆的标准方程&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;$$
+\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1(a&amp;gt;b&amp;gt;0)
+$$&lt;/p&gt;
+&lt;p&gt;这个椭圆的焦点在 $x$ 轴上，容易知道焦点在 $y$ 轴上的椭圆&lt;/p&gt;
+&lt;p&gt;$$
+\dfrac{x^2}{b^2}+\dfrac{y^2}{...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/3/</link>
+      <pubDate>Tue, 17 Feb 2026 06:53:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/3.png" type="image/png" length="43689" />
+      
+    </item>
+    
+    <item>
+      <title>解析几何</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;解析几何&lt;/h1&gt;
+&lt;h2&gt;二次曲线&lt;/h2&gt;
+&lt;h3&gt;圆锥截线&lt;/h3&gt;
+&lt;p&gt;用一平面去截双顶圆锥，得到的截线就是圆锥曲线。圆锥曲线是平面上满足距某定点（焦点）的距离与距某定直线（准线）的距离之比为常数 $e$ 的点的轨迹。&lt;/p&gt;
+&lt;p&gt;不妨设 $\alpha$ 指母线与轴的夹角（$0&amp;lt;\alpha&amp;lt;90^\circ$），切平面与轴的夹角为 $\beta$（$0\le\beta\le90^\circ$），则所得截线的离心率 $e$ 仅由这两个角决定：&lt;/p&gt;
+&lt;p&gt;$$
+e = \dfrac{\cos\beta}{\cos\alpha}
+$$&lt;/p&gt;
+&lt;p&gt;角度—类型—离心率的对照：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\beta &amp;gt; \alpha$：椭圆，且 $e &amp;lt; 1$；$\beta = 90^\circ$ 时 $e=0$，为圆。&lt;/li&gt;
+&lt;li&gt;$\beta = \alpha$：抛物线，$e = 1$（此时平面与某条母线平行）。&lt;/li&gt;
+&lt;li&gt;$\beta &amp;lt; \alpha$：双曲线，$e &amp;gt; 1$（平面切到两片圆锥）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;离心率与行星运动，以牛顿大炮为例（忽略太阳的引力作用）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;以第一宇宙速度发射：圆形。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;大于第一宇宙速度，小于第二宇宙速度：椭圆形。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第二宇...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/4/</link>
+      <pubDate>Tue, 17 Feb 2026 06:53:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/4.png" type="image/png" length="42236" />
+      
+    </item>
+    
+    <item>
+      <title>随机变量</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;随机变量&lt;/h1&gt;
+&lt;p&gt;提示：高中这一部分涉及的非常浅，并且一般的讲解也没有逻辑和思维可言，如果你想要更深刻的了解这些内容，又不想过于深入，建议你阅读 &lt;a href=&#34;http://staff.ustc.edu.cn/~zwp/teach/Prob-Stat/probstat.htm&#34;&gt;Prob-Stat&lt;/a&gt;，以及我爬取的这个课程的&lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/resolve/main/math/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E8%AE%B2%E4%B9%89.pdf&#34;&gt;讲义&lt;/a&gt;和&lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/resolve/main/math/USTC_Prob_Stat_Complete.pdf&#34;&gt;课件&lt;/a&gt;。&lt;/p&gt;
+&lt;h2&gt;随机变量的概念&lt;/h2&gt;
+&lt;h3&gt;随机变量&lt;/h3&gt;
+&lt;p&gt;随机变量是用来表示随机试验结果的变量，通常用大写字母 $X,Y,Z$ 或小写希腊字母 $\xi,\eta,\zeta$...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/probability/3/</link>
+      <pubDate>Tue, 17 Feb 2026 06:53:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/probability/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/3.png" type="image/png" length="43418" />
       
     </item>
     
@@ -161,48 +259,6 @@
     </item>
     
     <item>
-      <title>解析几何</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;解析几何&lt;/h1&gt;
-&lt;h2&gt;二次曲线&lt;/h2&gt;
-&lt;h3&gt;圆锥截线&lt;/h3&gt;
-&lt;p&gt;用一平面去截双顶圆锥，得到的截线就是圆锥曲线。圆锥曲线是平面上满足距某定点（焦点）的距离与距某定直线（准线）的距离之比为常数 $e$ 的点的轨迹。&lt;/p&gt;
-&lt;p&gt;不妨设 $\alpha$ 指母线与轴的夹角（$0&amp;lt;\alpha&amp;lt;90^\circ$），切平面与轴的夹角为 $\beta$（$0\le\beta\le90^\circ$），则所得截线的离心率 $e$ 仅由这两个角决定：&lt;/p&gt;
-&lt;p&gt;$$
-e = \dfrac{\cos\beta}{\cos\alpha}
-$$&lt;/p&gt;
-&lt;p&gt;角度—类型—离心率的对照：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;$\beta &amp;gt; \alpha$：椭圆，且 $e &amp;lt; 1$；$\beta = 90^\circ$ 时 $e=0$，为圆。&lt;/li&gt;
-&lt;li&gt;$\beta = \alpha$：抛物线，$e = 1$（此时平面与某条母线平行）。&lt;/li&gt;
-&lt;li&gt;$\beta &amp;lt; \alpha$：双曲线，$e &amp;gt; 1$（平面切到两片圆锥）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;离心率与行星运动，以牛顿大炮为例（忽略太阳的引力作用）：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;以第一宇宙速度发射：圆形。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;大于第一宇宙速度，小于第二宇宙速度：椭圆形。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;第二宇...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/geometry/4/</link>
-      <pubDate>Mon, 16 Feb 2026 01:50:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/geometry/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/4.png" type="image/png" length="42236" />
-      
-    </item>
-    
-    <item>
       <title>晶体与晶胞</title>
       
       
@@ -228,27 +284,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/4/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/4.png" type="image/png" length="42194" />
-      
-    </item>
-    
-    <item>
-      <title>随机变量</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;随机变量&lt;/h1&gt;
-&lt;p&gt;提示：高中这一部分涉及的非常浅，并且一般的讲解也没有逻辑和思维可言，如果你想要更深刻的了解这些内容，又不想过于深入，建议你阅读 &lt;a href=&#34;http://staff.ustc.edu.cn/~zwp/teach/Prob-Stat/probstat.htm&#34;&gt;Prob-Stat&lt;/a&gt;，以及我爬取的这个课程的&lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/resolve/main/math/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E8%AE%B2%E4%B9%89.pdf&#34;&gt;讲义&lt;/a&gt;和&lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/resolve/main/math/USTC_Prob_Stat_Complete.pdf&#34;&gt;课件&lt;/a&gt;。&lt;/p&gt;
-&lt;h2&gt;随机变量的概念&lt;/h2&gt;
-&lt;h3&gt;随机变量&lt;/h3&gt;
-&lt;p&gt;随机变量是用来表示随机试验结果的变量，通常用大写字母 $X,Y,Z$ 或小写希腊字母 $\xi,\eta,\zeta$...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/probability/3/</link>
-      <pubDate>Sun, 15 Feb 2026 12:57:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/probability/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/3.png" type="image/png" length="43418" />
       
     </item>
     
@@ -777,41 +812,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/2/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/2.png" type="image/png" length="43074" />
-      
-    </item>
-    
-    <item>
-      <title>圆锥曲线</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;圆锥曲线&lt;/h1&gt;
-&lt;h2&gt;椭圆&lt;/h2&gt;
-&lt;h3&gt;第一定义&lt;/h3&gt;
-&lt;p&gt;到两个定点 $F_1$、$F_2$ 的距离之和为定值（大于 $|F_1F_2|$）的点所形成的轨迹称为椭圆。这两个定点叫做椭圆的焦点，两焦点间的距离叫做椭圆的焦距，焦距的一半称为半焦距。&lt;/p&gt;
-&lt;p&gt;我们不妨设 $F_1=(-c,0),F_2=(c,0)$ 为焦点的椭圆经过 $M$ 点，且 $M$ 到 $F_1,F_2$ 的局里之和为 $2a$，其中 $a&amp;gt;c$，那么写出方程：&lt;/p&gt;
-&lt;p&gt;$$
-\sqrt{(x-c)^2+y^2}+\sqrt{(x+c)^2+y^2}=2a
-$$&lt;/p&gt;
-&lt;p&gt;我们把一个根号移到另一侧，然后两边平方，整理后再平方，可以得到：&lt;/p&gt;
-&lt;p&gt;$$
-\dfrac{x^2}{a^2}+\dfrac{y^2}{a^2-c^2}=1
-$$&lt;/p&gt;
-&lt;p&gt;不妨令 $b=\sqrt{a^2-c^2}$，那么&lt;strong&gt;椭圆的标准方程&lt;/strong&gt;：&lt;/p&gt;
-&lt;p&gt;$$
-\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1(a&amp;gt;b&amp;gt;0)
-$$&lt;/p&gt;
-&lt;p&gt;这个椭圆的焦点在 $x$ 轴上，容易知道焦点在 $y$ 轴上的椭圆&lt;/p&gt;
-&lt;p&gt;$$
-\dfrac{x^2}{b^2}+\dfrac{y^2}{...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/geometry/3/</link>
-      <pubDate>Wed, 11 Feb 2026 14:11:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/geometry/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/3.png" type="image/png" length="43689" />
       
     </item>
     

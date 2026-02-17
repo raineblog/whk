@@ -428,6 +428,7 @@
           image-18.avif
           image-19.avif
           image-2.avif
+          image-2.png
           image-20.avif
           image-21.avif
           image-22.avif
@@ -847,6 +848,7 @@
           Zufall.avif
           image-1.avif
           image.avif
+          image.png
          ```
       1. ```bash
           1.md
