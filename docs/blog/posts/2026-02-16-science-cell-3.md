@@ -26,7 +26,7 @@ authors:
 
 植物组织培养技术利用激素（如生长素和细胞分裂素）的诱导，使已分化的细胞经历“脱分化”形成愈伤组织，再通过“再分化”发育成完整植株。
 
-<center>
+<center markdown>
 已分化细胞 $\xrightarrow{\text{脱分化}}$ 愈伤组织 $\xrightarrow{\text{再分化}}$ 完整植株
 </center>
 
@@ -73,7 +73,7 @@ authors:
 
 单克隆抗体不仅用于诊断（如定位肿瘤），还可用于治疗。特别是**抗体—药物偶联物（ADC）**，它由抗体、接头和药物组成，能将细胞毒素精准投递到肿瘤细胞，实现选择性杀伤。
 
-<center>
+<center markdown>
 抗体 $+$ 药物 $\rightarrow$ 特异性杀伤肿瘤细胞
 </center>
 

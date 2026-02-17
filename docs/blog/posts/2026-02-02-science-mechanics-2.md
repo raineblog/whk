@@ -128,7 +128,7 @@ $$
 
 机械能是动能与势能的总和。
 
-<center>
+<center markdown>
 机械能$=$ 动能$+$ 势能
 </center>
 
