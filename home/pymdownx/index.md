@@ -19,6 +19,7 @@
  lint.log
  mkdocs.yml
  package.json
+ 自动下载svg预加载版.py
 ```
 
 1. ```bash
@@ -552,12 +553,15 @@
           5.md
           6.md
           7.md
+          786ede037f970bf8_e2317df.svg
+          997a0e28b6108d82_6fa4db1.svg
           Bi-elliptic_transfer.svg
           Doppler_effect_diagrammatic.svg
           KSPedia_102.avif
           KSPedia_103.avif
           KSPedia_89.avif
           cb3qxhf5.avif
+          e9057a15a2bbb76c_c2b0c7e.svg
           image-1.avif
           image-2.avif
           image.avif
@@ -593,9 +597,13 @@
           3.md
           3_Phase_Power_Connected_to_Wye_Load.svg
           4.md
+          7f497ec15f6c0d1f_e77bd7e.svg
+          Cornerreflector_b0ec3b2.svg
+          Diffuse_reflection1_0d7ce0d.svg
           EM_spectrum_zh-hans.svg
           Light-matter_interaction_-_schematic.svg
           Mirage_principle.svg
+          Optical_fiber_types_8399934.svg
           Optical_flat_interference.svg
           Pencil_in_a_bowl_of_water.svg
           Photoelectric_effect_diagram_zh-hans.avif
@@ -605,9 +613,11 @@
           Standard_Model_of_Elementary_Particles_zh-hans.svg
           Wiens.svg
           image-1.avif
+          image-1.png
           image-18.avif
           image-19.avif
           image-2.avif
+          image-2.png
           image-20.avif
           image-21.avif
           image-22.avif
@@ -619,14 +629,19 @@
           image-28.avif
           image-29.avif
           image-3.avif
+          image-3.png
           image-30.avif
           image-31.avif
           image-4.avif
+          image-4.png
           image-5.avif
           image-6.avif
           image-7.avif
           image-8.avif
           image.avif
+          image.png
+          image_2ae7a8c.svg
+          image_a673292.svg
          ```
       1. ```bash
           1.md

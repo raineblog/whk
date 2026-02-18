@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Tue, 17 Feb 2026 09:06:59 -0000</pubDate>
-    <lastBuildDate>Tue, 17 Feb 2026 09:06:59 -0000</lastBuildDate>
+    <pubDate>Wed, 18 Feb 2026 14:47:24 -0000</pubDate>
+    <lastBuildDate>Wed, 18 Feb 2026 14:47:24 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-17&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-17T09:06:59.385057+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-17&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-17T09:06:59....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-18&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-18T14:47:24.640522+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-18&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-18T14:47:24....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Tue, 17 Feb 2026 09:06:00 +0000</pubDate>
+      <pubDate>Wed, 18 Feb 2026 14:47:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
@@ -57,7 +57,7 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/page/2/</link>
-      <pubDate>Tue, 17 Feb 2026 09:06:00 +0000</pubDate>
+      <pubDate>Wed, 18 Feb 2026 14:47:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/page/2/</guid>
@@ -2966,26 +2966,10 @@ $$&lt;/p&gt;
       
       
       <description>&lt;h1&gt;光学原理初步&lt;/h1&gt;
-&lt;h2&gt;几何光学&lt;/h2&gt;
-&lt;h3&gt;光的传播&lt;/h3&gt;
-&lt;p&gt;光在同种均匀介质中沿直线传播，在真空中光的传播速度为 $c=\pu{299 792 458 m/s}$，约 $\pu{3\times10^8m/s}$，不同颜色的光在真空中的传播速度相同，在其他介质中的传播速度不同。正在发光的物体叫做光源。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-18.avif&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
-&lt;p&gt;以上为光的最简单三个性质，我们在初中就已经涉及，后面我们会分别展开讲解。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;费马原理：光（或任何波）在两点间传播时，所走的路径是所需光程（或时间）为极值（通常是极小值）的路径。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;光路可逆原理：在干涉与绕射可忽略的情况中，入射光线与反射光线的可交换性。就是在一条光径的终点，发出反方向的光，此光可沿原路径回到原来的起点。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;光的反射&lt;/h3&gt;
-&lt;h3&gt;光的折射&lt;/h3&gt;
-&lt;p&gt;折射率也称折射系数，视光学称屈光指数、屈光率，表示光在真空中的传播速度是在这种介质中传播速度的多少倍：&lt;/p&gt;
-&lt;p&gt;$$
-n=\dfrac{c}{v}
-$$&lt;/p&gt;
-&lt;p&gt;这个比值即为这种介质的&lt;strong&gt;绝对折射率&lt;/strong&gt;，简称折射率，其中 $v$ 为光在这种介质...&lt;/p&gt;</description>
+&lt;h2&gt;光的传播&lt;/h2&gt;
+&lt;p&gt;研究光，就必须要有发出光的物体，像太阳、灯泡等可以辐射光能的物体称为光源。现实生活中的光源都有着一定大小，光源大小相应会影响到光场光的特性。如果这一影响微乎其微，我们可以将这样的光源抽象成一个几何点，称为点光源。&lt;/p&gt;
+&lt;p&gt;光源发出的光是一种电磁波，按照波动光学的研究方法，我们可以使用描述电磁波的基本方法来描述光波，比如使用频率、波长和相位等物理量。波动光学中，对于由同一光源发出的单色波（即只有一种频率的光波），把同一时刻相位相同的各点连接起来形成的曲面，即为该光波的波面。对于单色点光源来说，它的波面为球面，光波沿着垂直于球面的方向向外传播（即法线方向），波动光学中把这个方向定义为光波的方向，用波矢量来描述。&lt;/p&gt;
+&lt;p&gt;光波的传播过程实际上是光能量的传播过程。光能量在空间中的传播用能流密度矢量描述。在各向同性介质中，能流密度矢量与波矢量方向相同，即光波方向代表了能量流动方向。我们可以把这两个矢量对应的方向抽象为一条几何线，这就是几何光学中光线的由来。按照上述抽象，一个波面可以对应无限条光线，它们构成了一个光线束，即光束。如果光束中光线直接相交于一点，或者它们...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/modern/3/</link>
       <pubDate>Tue, 22 Jul 2025 23:55:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
