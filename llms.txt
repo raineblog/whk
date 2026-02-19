@@ -104,7 +104,7 @@
 - [变异与进化](https://raineblog.dpdns.org/whk/science/genetics/1/index.md)
 - [孟德尔遗传规律](https://raineblog.dpdns.org/whk/science/genetics/2/index.md)
 - [人类遗传病](https://raineblog.dpdns.org/whk/science/genetics/3/index.md)
-- [基因工程](https://raineblog.dpdns.org/whk/science/genetics/4/index.md)
+- [基因工程育种](https://raineblog.dpdns.org/whk/science/genetics/4/index.md)
 - [平面体系](https://raineblog.dpdns.org/whk/science/geometry/1/index.md)
 - [直线和圆](https://raineblog.dpdns.org/whk/science/geometry/2/index.md)
 - [圆锥曲线](https://raineblog.dpdns.org/whk/science/geometry/3/index.md)

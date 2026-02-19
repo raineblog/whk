@@ -5,6 +5,7 @@
 📁 docs/ # (1)!
 📁 public/ # (2)!
  .autoblog.json
+ .autocorrectrc
  .gitignore
  .imgbotconfig
  .mailmap
@@ -155,11 +156,19 @@
           3.md
           4.md
           image-1.avif
+          image-1.png
           image-2.avif
+          image-2.png
           image-3.avif
+          image-3.png
           image-4.avif
+          image-4.png
           image-5.avif
+          image-5.png
+          image-6.png
+          image-7.png
           image.avif
+          image.png
          ```
       1. ```bash
           1.avif

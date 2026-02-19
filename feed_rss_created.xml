@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Wed, 18 Feb 2026 14:47:24 -0000</pubDate>
-    <lastBuildDate>Wed, 18 Feb 2026 14:47:24 -0000</lastBuildDate>
+    <pubDate>Thu, 19 Feb 2026 14:06:54 -0000</pubDate>
+    <lastBuildDate>Thu, 19 Feb 2026 14:06:54 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-18&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-18T14:47:24.640522+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-18&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-18T14:47:24....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-19T14:06:54.151275+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-19T14:06:54....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Wed, 18 Feb 2026 14:47:00 +0000</pubDate>
+      <pubDate>Thu, 19 Feb 2026 14:06:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
@@ -57,7 +57,7 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/page/2/</link>
-      <pubDate>Wed, 18 Feb 2026 14:47:00 +0000</pubDate>
+      <pubDate>Thu, 19 Feb 2026 14:06:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/page/2/</guid>
@@ -3051,22 +3051,14 @@ $$&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;复合函数的奇偶性：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;奇函数 $\circ$ 奇函数 $=$ 奇函数。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;偶函数 $\circ$ 奇函数 $=$ 奇函数。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;奇函数 $\circ$ 偶函数 $=$ 奇函数。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;偶函数 $\circ$ 偶函数 $=$ 奇函数。&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;奇函数 $\circ$ 奇函数 $=$ 奇函数。&lt;/li&gt;
+&lt;li&gt;偶函数 $\circ$ 奇函数 $=$ 偶函数。&lt;/li&gt;
+&lt;li&gt;奇函数 $\circ$ 偶函数 $=$ 偶函数。&lt;/li&gt;
+&lt;li&gt;偶函数 $\circ$ 偶函数 $=$ 偶函数。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;经典做题套路：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;若 $f(x)$ 为偶函数，首先判断是否能转化为奇...&lt;/li&gt;
+&lt;li&gt;若 $f(x)$ 为偶函数，首先判断是否能转化为奇函数来...&lt;/li&gt;
 &lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/function/3/</link>
       <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
@@ -4221,32 +4213,32 @@ RNA和蛋白质，从而执行细胞丰富多彩的功
     </item>
     
     <item>
-      <title>基因工程</title>
+      <title>基因工程育种</title>
       
       
       
       
-      <description>&lt;h1&gt;基因工程&lt;/h1&gt;
-&lt;h2&gt;基因工程概述&lt;/h2&gt;
-&lt;p&gt;基因工程是在生物化学、分子生物学和微生物学等学科的基础上发展起来的，正是这些学科的基础理论和相关技术的发展催生了基因工程。基因工程是指按照人们的愿望，通过转基因等技术，赋予生物新的遗传特性，创造出更符合人们需要的新的生物类型和生物产品。从技术操作层面看，由于基因工程是在 DNA 分子水平上进行设计和施工的，因此又叫作重组 DNA 技术。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;1944 年，艾弗里（O. Avery， $1877 \sim 1955$）等通过肺炎链球菌的转化实验，不仅证明了遗传物质是 DNA，还证明了 DNA 可以在同种生物的不同个体之间转移。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1950 年，埃德曼（P. Edman， $1916 \sim 1977$）发明了一种测定氨基酸序列的方法。2 年后，桑格（F. Sanger， $1918 \sim 2013$）首次完成了对胰岛素氨基酸序列的测定。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1953 年，沃森（J. D. Watson， $1928 \sim$）和克里克（F. Crick， $1916 \sim 2004$）建立了 DNA 双螺旋结构模型并提出了遗传物质自我复制的...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>&lt;h1&gt;基因工程育种&lt;/h1&gt;
+&lt;h2&gt;杂种优势&lt;/h2&gt;
+&lt;h3&gt;遗传学机制&lt;/h3&gt;
+&lt;p&gt;杂种优势（Heterosis）是指两个遗传组成不同的亲本杂交产生的杂种一代（F1）在生长势、生活力、繁殖力、抗逆性及产量等方面显著优于双亲均值的现象。其核心原理在于遗传异质性的互补与协同效应，通过基因组的重新组合，掩盖隐性有害基因、增强显性有利基因的表达，或通过杂合等位基因的互作形成超显性效应
+。&lt;/p&gt;
+&lt;p&gt;二、遗传学机制与理论假说
+经典假说：&lt;/p&gt;
+&lt;p&gt;显性假说（Dominance Hypothesis）：
+由 Bruce（1910）提出，认为显性有利基因通过杂交覆盖隐性有害基因，形成互补效应。例如，若亲本基因型为 AAbb 和 aaBB，F1 代 AaBb 可同时携带显性有利基因 A 和 B，显著提升性状表现。
+超显性假说（Overdominance Hypothesis）：
+Shull（1914）提出，杂合等位基因（如Aa）的互作效应超过纯合基因型（AA或aa），例如某些代谢酶在杂合状态下活性更高，促进生长和抗逆性
+。
+上位性假说（Epistasis Hypothesis）：
+强调非等位基因间的互作，例如基因A的显性表达可能抑制基...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/genetics/4/</link>
       <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/genetics/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/genetics/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/4.png" type="image/png" length="40657" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/4.png" type="image/png" length="44177" />
       
     </item>
     
