@@ -23,7 +23,7 @@ $z = 10x + 10y, \\max{z} = $ ？
 
 $(\\begin{cases}5x-11y \\geq -22 & \\displaystyle \\implies y \\leq \\frac{5}{11}x + \\frac{1}{2} & \\implies & \\displaystyle y = \\frac{5}{11}x + \\frac{1}{2}\\ 图像的下边 \\ 2x+3y \\geq 9 & \\displaystyle \\implies y \\geq -\\frac{2}{3}x + 3 & \\implies & \\displaystyle y = -\\frac{2}{3}x + 3\\ 图像的上边 \\ 2x \\leq 11 & \\displaystyle \\implies x \\leq \\frac{11}{2} & \\implies & \\displaystyle x=\\frac{11}{2}\\ 图像的左边 \\end{cases})$
 
-在平面直角坐标系上画出对应的平面区域 （ 可行域 ），再把目标函数 (z=ax+by) 变形为 (\\displaystyle y=-\\frac{a}{b}x + \\frac{z}{b})，(\\) 所以求 (z) 的最值可看成是求直线 (\\displaystyle y=-\\frac{a}{b}x + \\frac{z}{b}) 在 (y) 轴上截距的最值。以这题为例，(\\displaystyle z=10x+10y \\implies y= -x + \\frac{z}{10}) 容易证明，当 (z=85) 时 (y) 轴上截距取最值，所以 (\\max{z}=85.)
+在平面直角坐标系上画出对应的平面区域（可行域），再把目标函数 (z=ax+by) 变形为 (\\displaystyle y=-\\frac{a}{b}x + \\frac{z}{b})，(\\) 所以求 (z) 的最值可看成是求直线 (\\displaystyle y=-\\frac{a}{b}x + \\frac{z}{b}) 在 (y) 轴上截距的最值。以这题为例，(\\displaystyle z=10x+10y \\implies y= -x + \\frac{z}{10}) 容易证明，当 (z=85) 时 (y) 轴上截距取最值，所以 (\\max{z}=85.)
 
 1. 仔细观察，可以发现最优解非常容易出现在可行域构成的**多面体的顶点**处。
 
@@ -37,7 +37,7 @@ $(2x+y)*{\\mathrm{max}}=4(2x+y)*, a= $ ?}
 - 求 ((2x+y)_{\\mathrm{max}})：(\\begin{cases}x-y\\leq 0 \\ x+y\\leq 2\\end{cases}\\xRightarrow{\\mathrm{Add\\ }} x\\leq 1\\implies y\\leq 1\\implies (2x+y)_{\\mathrm{max}}=3)
 - (\\displaystyle 3=4\\times 3a\\implies a=\\frac{1}{4})
 
-### 例题 3（ 2024 九省联考 T14 ）
+### 例题 3（2024 九省联考 T14）
 
 [\\begin{cases} 0\<a\<b\<c\<1 \\ b\\geq 2a \\ \\ \\ \\mathrm{or}\\ \\ \\ a+b\\leq 1 \\end{cases}]
 

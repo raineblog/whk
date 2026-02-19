@@ -17,7 +17,6 @@
  README.md
  gulpfile.js
  info.json
- lint.log
  mkdocs.yml
  package.json
  自动下载svg预加载版.py

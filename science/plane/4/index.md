@@ -46,7 +46,7 @@
 [ 2b\\sin A-\\sqrt3a=0 ]
 
 - 求 (B).
-- 求 (\\cos A+\\cos B+\\cos C) 的取值范围.
+- 求 (\\cos A+\\cos B+\\cos C) 的取值范围。
 
 不考虑 (\\sin A) 是边的二次齐次式，于是应用正弦定理，
 
@@ -256,7 +256,7 @@ Solution 1:
 
 [ bc\\le12,,S\\le3\\sqrt3 ]
 
-Solution 2：
+Solution 2:
 
 考虑到顶角不变，则可以固定底边，使顶点移动。
 

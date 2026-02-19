@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Thu, 19 Feb 2026 14:06:54 -0000</pubDate>
-    <lastBuildDate>Thu, 19 Feb 2026 14:06:54 -0000</lastBuildDate>
+    <pubDate>Thu, 19 Feb 2026 14:34:17 -0000</pubDate>
+    <lastBuildDate>Thu, 19 Feb 2026 14:34:17 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-19T14:06:54.151275+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-19T14:06:54....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-19T14:34:17.583375+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-19T14:34:17....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Thu, 19 Feb 2026 14:06:00 +0000</pubDate>
+      <pubDate>Thu, 19 Feb 2026 14:34:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
@@ -57,7 +57,7 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/page/2/</link>
-      <pubDate>Thu, 19 Feb 2026 14:06:00 +0000</pubDate>
+      <pubDate>Thu, 19 Feb 2026 14:34:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/page/2/</guid>
@@ -755,16 +755,15 @@ no_recurse = {&#34;.venv*&#34;, &#34;.github&#34;}&lt;/p&gt;
       
       <description>&lt;h1&gt;化学实验操作&lt;/h1&gt;
 &lt;p&gt;一、实验室突发事件的应对措施&lt;/p&gt;
-&lt;p&gt;1.烫伤和烧伤：轻微烫伤或烧伤时，可先用洁净的冷水处理，降低局部温度，然后涂上烫伤药膏(若有水疱，尽量不要弄破)。严重时需及时就医。&lt;/p&gt;
-&lt;p&gt;2.创伤：用药棉把伤口清理干净(伤口处若有碎玻璃片，先要小心除去)，然后用双氧水或碘酒擦洗，最后用创可贴外敷。&lt;/p&gt;
+&lt;p&gt;1.烫伤和烧伤：轻微烫伤或烧伤时，可先用洁净的冷水处理，降低局部温度，然后涂上烫伤药膏 (若有水疱，尽量不要弄破)。严重时需及时就医。&lt;/p&gt;
+&lt;p&gt;2.创伤：用药棉把伤口清理干净 (伤口处若有碎玻璃片，先要小心除去)，然后用双氧水或碘酒擦洗，最后用创可贴外敷。&lt;/p&gt;
 &lt;p&gt;3.酸或碱等腐蚀性试剂灼伤如果不慎将酸沾到皮肤上，应立即用大量水冲洗，然后用3% ~5%的NaHCO3溶液冲洗；如果不慎将碱沾到皮肤上，应立即用大量水冲洗，然后涂上1%的硼酸。&lt;/p&gt;
-&lt;p&gt;如果有少量酸(或碱)滴到实验桌上，应立即用湿抹布擦净，然后用水冲洗抹布。&lt;/p&gt;
+&lt;p&gt;如果有少量酸 (或碱) 滴到实验桌上，应立即用湿抹布擦净，然后用水冲洗抹布。&lt;/p&gt;
 &lt;p&gt;4.着火：立即切断室内电源，移走可燃物。如果火势不大，用湿布或灭火毯覆盖火源以灭火；火势较猛时，选用合适的灭火器进行灭火，并立即与消防联系。&lt;/p&gt;
 &lt;p&gt;如果身上的衣物着火，立即用湿布灭火；如果燃烧面积较大，应躺在地上翻滚以达到灭火的目的。&lt;/p&gt;
 &lt;p&gt;二、常见废弃物的处理方法&lt;/p&gt;
 &lt;p&gt;1.废液的处理&lt;/p&gt;
-&lt;p&gt;(1)对于酸、碱、氧化剂或还原剂的废液，应分别收集。在确定酸与碱混合、氧化剂与还原剂混合无危险时，可用中和法或氧化还原法，每次各取少量分次混合后再排放。&lt;/p&gt;
-&lt;p&gt;...&lt;/p&gt;</description>
+&lt;p&gt;(1) 对于酸、碱、氧化剂或还原剂的废液，应分别收集。在确定酸与碱混合、氧化剂与还原剂混合无危险时，可用中和法或氧化还原法，每次各取少量分次混合后再...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/experiment/1/</link>
       <pubDate>Mon, 12 Jan 2026 04:31:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -1384,7 +1383,7 @@ $$&lt;/p&gt;
       <description>&lt;h1&gt;读后续写&lt;/h1&gt;
 &lt;h2&gt;语料&lt;/h2&gt;
 &lt;h3&gt;情感描写&lt;/h3&gt;
-&lt;p&gt;恐惧(horror)、痛苦(sorrow)、愤怒(anger)、感激(gratitude)&lt;/p&gt;
+&lt;p&gt;恐惧 (horror)、痛苦 (sorrow)、愤怒 (anger)、感激 (gratitude)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Sb. felt a great sense of [情感名词] welling up in sb&#39;s heart and surging through sb.&lt;/p&gt;
@@ -1396,7 +1395,7 @@ $$&lt;/p&gt;
 &lt;p&gt;Enveloped / Seized by a wave of [情感名词], sb. did sth.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;So [形容词] was sb. that + 从句.&lt;/p&gt;
+&lt;p&gt;So [形容词] was sb. that + 从句。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;喜悦与激动 (Joy &amp;amp; Excitement)&lt;/p&gt;
@@ -1410,9 +1409,8 @@ $$&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;悲伤与绝望 (Sadness &amp;amp; Despair)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Tears welled up in one&#39;s eyes and streamed down one&#39;s cheeks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;...&lt;/p&gt;</description>
+&lt;li&gt;Tears welled up in one&#39;s eyes and streamed down one&#39;s chee...&lt;/li&gt;
+&lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/cultural/writing/3/</link>
       <pubDate>Tue, 04 Nov 2025 13:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -1827,8 +1825,8 @@ https://chi.lushuyu.site/%E6%96%87%E8%A8%80%E6%96%87/%E6%96%87%E8%A8%80%E8%99%9A
 播，不吸毒；（3）发生易感行为后主动检测并积极治疗；
 （4）不与他人共用牙刷和剃须刀；（5）不用未经消毒的器
 械文眉、穿耳等。与HIV感染者的一般接触，如握手、拥
-抱等，不会使人感染HIV ；&lt;/p&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-10-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time dat...</description>
+抱等，不会使人感染HIV；&lt;/p&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-10-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time date...</description>
       <link>https://raineblog.dpdns.org/whk/science/human/8/</link>
       <pubDate>Sat, 25 Oct 2025 10:29:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -2713,7 +2711,7 @@ a^3-b^3&amp;amp;=(...&lt;/p&gt;</description>
       
       <description>&lt;h1&gt;多项式科技&lt;/h1&gt;
 &lt;h2&gt;生成函数&lt;/h2&gt;
-&lt;p&gt;序列 $a$ （ 有穷无穷均可 ）的普通生成函数定义为形式幂级数：$\displaystyle F(x)=\sum_na_nx^n$。例如：&lt;/p&gt;
+&lt;p&gt;序列 $a$ （有穷无穷均可）的普通生成函数定义为形式幂级数：$\displaystyle F(x)=\sum_na_nx^n$。例如：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$a=\lang1,2,3\rang$ 的普通生成函数是 $1+2x+3x^2$&lt;/li&gt;
 &lt;li&gt;$a=\lang1,1,1,\dots\rang$ 的普通生成函数是 $\displaystyle\sum_{n\geq 0}x^n$&lt;/li&gt;
@@ -2723,7 +2721,7 @@ a^3-b^3&amp;amp;=(...&lt;/p&gt;</description>
 &lt;p&gt;换句话说，如果序列 $a$ 有通项公式，那么它的普通生成函数的系数就是通项公式。&lt;/p&gt;
 &lt;h4&gt;基本运算&lt;/h4&gt;
 &lt;p&gt;两个序列 $a,b$ 的生成函数 $F(x),G(x)$，则 $F(x)\pm G(x)$ 是序列 $\lang a_n\pm b_n\rang$ 的生成函数。&lt;/p&gt;
-&lt;p&gt;$$F(x)...&lt;/p&gt;</description>
+&lt;p&gt;$$F(x)\p...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/polynomial/2/</link>
       <pubDate>Mon, 04 Aug 2025 03:43:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -2938,7 +2936,7 @@ $$&lt;/p&gt;
 &lt;p&gt;$$
 rv\sin\alpha=\text{const.}
 $$&lt;/p&gt;
-&lt;p&gt;其中 $\alpha$ 是$\bm v,\bm r$ 夹角，两边同时乘以质量，这个物理量称为角动量（标量式）。&lt;/p&gt;
+&lt;p&gt;其中 $\alpha$ 是 $\bm v,\bm r$ 夹角，两边同时乘以质量，这个物理量称为角动量（标量式）。&lt;/p&gt;
 &lt;p&gt;角动量通常用字母 $J$ 表示，有矢量式：&lt;/p&gt;
 &lt;p&gt;$$
 \bm J=\bm r\times\bm p=\bm r\times m\bm v
@@ -2948,7 +2946,7 @@ $$&lt;/p&gt;
 &lt;p&gt;当质点做直线运动，对于直线外一点到这个质点作为位失，依然是有角动量的。&lt;/p&gt;
 &lt;h3&gt;角动量定理&lt;/h3&gt;
 &lt;p&gt;在角动量中，我们也可以把 $\bm v$ 和 $\sin\alpha$ 放在一起，得到卫星的质量与其速度在垂直于中心天体连线分量的乘积为一个定值，根据这个可以推出一些结论。&lt;/p&gt;
-&lt;p&gt;质点 $O$ 在某一时刻受到力 $F$ 的左右，我们取平面内一点 $O$，记位失 $\bm r=\ove...&lt;/p&gt;</description>
+&lt;p&gt;质点 $O$ 在某一时刻受到力 $F$ 的左右，我们取平面内一点 $O$，记位失 $\bm r=\ov...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/mechanics/7/</link>
       <pubDate>Tue, 22 Jul 2025 23:55:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -4124,7 +4122,7 @@ $$&lt;/p&gt;
       <description>&lt;h1&gt;细胞的基本结构&lt;/h1&gt;
 &lt;p&gt;目前，生物学已经能在分子水平上，
 利用定量的物理、化学等手段来研究基本的生
-命过程和重大疾病的分子基础， 从根本上理解生
+命过程和重大疾病的分子基础，从根本上理解生
 命、促进健康。生老病死等生命过程在微观世界都有其分子基础，DNA所承载的信息被传递到
 RNA和蛋白质，从而执行细胞丰富多彩的功
 能。结构生物学利用X射线晶体学、核磁共
@@ -4139,7 +4137,7 @@ RNA和蛋白质，从而执行细胞丰富多彩的功
 而诠释功能和机理、找寻规律。&lt;/p&gt;
 &lt;h1&gt;生物实验&lt;/h1&gt;
 &lt;p&gt;预实验：在进行科学研究时，有时需要在正式实验前先做一个预实验。这样可以为进一步的实验摸索条件，也可以检验实验设计的科学性和可行性，例如，在探索生长素类调节剂促进插条生根的最适浓度时，通过预实验确定有效浓度的大致范围，可为确定最适浓度打下基础。预实验也必须像正式实验一样认真进行才有意义。&lt;/p&gt;
-&lt;p&gt;&amp;lt;div clas...&lt;/p&gt;</description>
+&lt;p&gt;&amp;lt;div class...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/1/</link>
       <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -4653,7 +4651,7 @@ $$&lt;/p&gt;
 &lt;h3&gt;固氮概述&lt;/h3&gt;
 &lt;p&gt;固氮的定义：从氮气 $\ce{N2}$ 到各种含氮化合物。&lt;/p&gt;
 &lt;p&gt;$$
-\ce{N2 -&amp;gt;[O2,闪电] NO -&amp;gt;[O2] NO2 -&amp;gt;[H2O] HNO3 -&amp;gt; 降雨}
+\ce{N2 -&amp;gt;[O2，闪电] NO -&amp;gt;[O2] NO2 -&amp;gt;[H2O] HNO3 -&amp;gt; 降雨}
 $$
 /// caption
 酸雨的形成过程
@@ -5069,7 +5067,7 @@ $$&lt;/p&gt;
 &lt;p&gt;| | 匀速直线运动 | 匀加速直线运动 |
 | :-: | :-: | :-: |
 | &lt;strong&gt;匀速直线运动&lt;/strong&gt; | 匀速直线运动 | 曲线运动 |
-| &lt;br&gt;&lt;strong&gt;匀加速直线运动&lt;/strong&gt; | &lt;br&gt;曲线运动 | 若 $v_合$ 与 $a_合$ 共线则为匀加速直线运动&lt;br&gt;否则为曲线运动 |&lt;/p&gt;
+| &lt;br&gt;&lt;strong&gt;匀加速直线运动&lt;/strong&gt; | &lt;br&gt;曲线运动 | 若 $v_合 $ 与 $a_合 $ 共线则为匀加速直线运动&lt;br&gt;否则为曲线运动 |&lt;/p&gt;
 &lt;h3&gt;小船过河问题&lt;/h3&gt;
 &lt;p&gt;&lt;img alt=&#34;过河问题&#34; src=&#34;./过河问题.avif&#34;&gt;{ align=right width=&#34;40%&#34; }&lt;/p&gt;
 &lt;p&gt;如果船速大于水速：&lt;/p&gt;
@@ -5087,7 +5085,7 @@ $$&lt;/p&gt;
 &lt;p&gt;垂直河对岸：时间最短。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;斜向上、位与圆的切线：位移最...&lt;/p&gt;
+&lt;p&gt;斜向上、位与圆的切线：位...&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/kinematics/3/</link>
