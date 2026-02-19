@@ -208,7 +208,7 @@ class SvgHelperApp(QWidget):
         if url != self.current_url:
             return
         self.is_downloading = False
-        self.status_bar.setText(f"❌ 预加载失败: {error_msg}")
+        self.status_bar.setText(f"❌ 预加载失败：{error_msg}")
         self.status_bar.setStyleSheet("background-color: #f8d7da; color: #721c24; padding: 5px;")
         self.btn_save.setText("重试 / 失败")
 
@@ -239,7 +239,7 @@ class SvgHelperApp(QWidget):
             # 4. 复制文件到剪贴板
             self.copy_file_to_clipboard(file_path)
 
-            self.status_bar.setText(f"🎉 已保存: {filename} | 文件已在剪贴板")
+            self.status_bar.setText(f"🎉 已保存：{filename} | 文件已在剪贴板")
             self.status_bar.setStyleSheet("background-color: #cce5ff; color: #004085; padding: 5px;")
             
         except Exception as e:
