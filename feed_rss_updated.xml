@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Thu, 19 Feb 2026 14:34:17 -0000</pubDate>
-    <lastBuildDate>Thu, 19 Feb 2026 14:34:17 -0000</lastBuildDate>
+    <pubDate>Fri, 20 Feb 2026 14:31:32 -0000</pubDate>
+    <lastBuildDate>Fri, 20 Feb 2026 14:31:32 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-19T14:34:17.583375+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-19T14:34:17....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-20&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-20T14:31:33.103654+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-20&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-20T14:31:33....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Thu, 19 Feb 2026 14:34:00 +0000</pubDate>
+      <pubDate>Fri, 20 Feb 2026 14:31:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
@@ -57,12 +57,85 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/page/2/</link>
-      <pubDate>Thu, 19 Feb 2026 14:34:00 +0000</pubDate>
+      <pubDate>Fri, 20 Feb 2026 14:31:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/page/2/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/page/2.png" type="image/png" length="None" />
+      
+    </item>
+    
+    <item>
+      <title>组合数学 - 从零入门到进阶的全方位指南</title>
+      
+      
+        
+      <author>Bot</author>
+        
+      
+      
+      
+      <description>探索组合数学的核心概念与常用技巧，从四大原理到卡特兰数，帮助读者快速上手并提升解题效率。</description>
+      <link>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6---%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%88%B0%E8%BF%9B%E9%98%B6%E7%9A%84%E5%85%A8%E6%96%B9%E4%BD%8D%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Fri, 20 Feb 2026 14:29:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6---%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%88%B0%E8%BF%9B%E9%98%B6%E7%9A%84%E5%85%A8%E6%96%B9%E4%BD%8D%E6%8C%87%E5%8D%97/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6---%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%88%B0%E8%BF%9B%E9%98%B6%E7%9A%84%E5%85%A8%E6%96%B9%E4%BD%8D%E6%8C%87%E5%8D%97/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/01/23/组合数学---从零入门到进阶的全方位指南.png" type="image/png" length="76537" />
+      
+    </item>
+    
+    <item>
+      <title>细胞的基本结构</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;细胞的基本结构&lt;/h1&gt;
+&lt;p&gt;目前，生物学已经能在分子水平上，
+利用定量的物理、化学等手段来研究基本的生
+命过程和重大疾病的分子基础，从根本上理解生
+命、促进健康。生老病死等生命过程在微观世界都有其分子基础，DNA所承载的信息被传递到
+RNA和蛋白质，从而执行细胞丰富多彩的功
+能。结构生物学利用X射线晶体学、核磁共
+振和电子显微镜等手段，通过揭示生物大分
+子和超大分子复合物（分子机器）的高分辨
+率空间三维结构来解释其功能，不仅诠释生
+命过程的机理，也可以揭示药物靶点。目前，
+许多创新药物的研发都依赖于对其靶标蛋白
+结构的解析。其实，结构决定功能，这是所
+有物质科学的基本共识。从某种意义上来说，
+所有物质科学研究的目标都是理解结构，从
+而诠释功能和机理、找寻规律。&lt;/p&gt;
+&lt;h1&gt;生物实验&lt;/h1&gt;
+&lt;p&gt;预实验：在进行科学研究时，有时需要在正式实验前先做一个预实验。这样可以为进一步的实验摸索条件，也可以检验实验设计的科学性和可行性，例如，在探索生长素类调节剂促进插条生根的最适浓度时，通过预实验确定有效浓度的大致范围，可为确定最适浓度打下基础。预实验也必须像正式实验一样认真进行才有意义。&lt;/p&gt;
+&lt;p&gt;&amp;lt;div class...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/1/</link>
+      <pubDate>Fri, 20 Feb 2026 14:29:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/1.png" type="image/png" length="50112" />
+      
+    </item>
+    
+    <item>
+      <title>细胞的生命历程</title>
+      
+      
+      
+      
+      <description>本文系统梳理了细胞的生命历程相关知识，涵盖细胞分裂（减数分裂）、植物细胞工程（组织培养、体细胞杂交）、动物细胞工程（细胞培养、融合、核移植、干细胞与 iPS 细胞）、胚胎工程（受精、早期胚胎发育、体外受精、胚胎移植与分割）以及基因工程（重组 DNA 技术的工具与操作程序、PCR 扩增、基因表达载体构建、转基因应用）和蛋白质工程的原理与应用，是高中生物选择性必修三的核心内容整理。</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/3/</link>
+      <pubDate>Fri, 20 Feb 2026 14:29:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="31283" />
       
     </item>
     
@@ -194,72 +267,6 @@
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/cultural/writing/3/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/cultural/writing/3.png" type="image/png" length="44706" />
-      
-    </item>
-    
-    <item>
-      <title>细胞的基本结构</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;细胞的基本结构&lt;/h1&gt;
-&lt;p&gt;目前，生物学已经能在分子水平上，
-利用定量的物理、化学等手段来研究基本的生
-命过程和重大疾病的分子基础，从根本上理解生
-命、促进健康。生老病死等生命过程在微观世界都有其分子基础，DNA所承载的信息被传递到
-RNA和蛋白质，从而执行细胞丰富多彩的功
-能。结构生物学利用X射线晶体学、核磁共
-振和电子显微镜等手段，通过揭示生物大分
-子和超大分子复合物（分子机器）的高分辨
-率空间三维结构来解释其功能，不仅诠释生
-命过程的机理，也可以揭示药物靶点。目前，
-许多创新药物的研发都依赖于对其靶标蛋白
-结构的解析。其实，结构决定功能，这是所
-有物质科学的基本共识。从某种意义上来说，
-所有物质科学研究的目标都是理解结构，从
-而诠释功能和机理、找寻规律。&lt;/p&gt;
-&lt;h1&gt;生物实验&lt;/h1&gt;
-&lt;p&gt;预实验：在进行科学研究时，有时需要在正式实验前先做一个预实验。这样可以为进一步的实验摸索条件，也可以检验实验设计的科学性和可行性，例如，在探索生长素类调节剂促进插条生根的最适浓度时，通过预实验确定有效浓度的大致范围，可为确定最适浓度打下基础。预实验也必须像正式实验一样认真进行才有意义。&lt;/p&gt;
-&lt;p&gt;&amp;lt;div class...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/1/</link>
-      <pubDate>Thu, 19 Feb 2026 14:33:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/1.png" type="image/png" length="50112" />
-      
-    </item>
-    
-    <item>
-      <title>细胞的生命历程</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;细胞的生命历程&lt;/h1&gt;
-&lt;h2&gt;细胞分裂&lt;/h2&gt;
-&lt;h3&gt;细胞分裂的分类&lt;/h3&gt;
-&lt;h3&gt;减数分裂的过程&lt;/h3&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-4.avif&#34;&gt;&lt;/p&gt;
-&lt;h2&gt;细胞工程&lt;/h2&gt;
-&lt;p&gt;细胞工程是指应用细胞生物学、分子生物学和发育生物学等多学科的原理和方法，通过细胞器、细胞或组织水平上的操作，有目的地获得特定的细胞、组织、器官、个体或其产品的一门综合性的生物工程。&lt;/p&gt;
-&lt;p&gt;生物技术是应用生命科学的研究成果，对生物或生物的成分、产物等进行改造和利用的技术。生物技术是一个综合性的技术体系，我们可以将它与工程学原理相结合，来进行研究、设计和加工生产，为社会提供服务。&lt;/p&gt;
-&lt;h3&gt;植物细胞工程&lt;/h3&gt;
-&lt;p&gt;| 时间 | 内容 |
-| :--: | :--- |
-| &lt;no-wrap&gt;1902 年&lt;/no-wrap&gt; | &lt;strong&gt;哈伯兰特&lt;/strong&gt;提出了细胞全能性的理论，但相关的实验尝试没有成功。 |
-| 1958 年 | &lt;strong&gt;斯图尔德&lt;/strong&gt;等发现胡萝卜的体细胞可以分化为胚，为细胞全能性理论提供了强有力的支持。 |
-| 1960 年 | &lt;strong&gt;科金&lt;/strong&gt;用真菌的纤维素酶分解番茄根的细胞壁，成功获得了原生质体。 |
-| 1964 年 | **古哈...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/3/</link>
-      <pubDate>Thu, 19 Feb 2026 14:33:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="48625" />
       
     </item>
     
@@ -3875,27 +3882,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/01/23/%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E7%BB%BC%E8%BF%B0%E6%A6%82%E5%BF%B5%E5%88%B0%E5%AE%9E%E8%B7%B5%E7%9A%84%E5%85%A8%E6%99%AF%E6%8C%87%E5%8D%97/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/01/23/随机变量综述概念到实践的全景指南.png" type="image/png" length="72517" />
-      
-    </item>
-    
-    <item>
-      <title>组合数学 - 从零入门到进阶的全方位指南</title>
-      
-      
-        
-      <author>Bot</author>
-        
-      
-      
-      
-      <description>探索组合数学的核心概念与常用技巧，从四大原理到卡特兰数，帮助读者快速上手并提升解题效率。</description>
-      <link>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6---%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%88%B0%E8%BF%9B%E9%98%B6%E7%9A%84%E5%85%A8%E6%96%B9%E4%BD%8D%E6%8C%87%E5%8D%97/</link>
-      <pubDate>Wed, 04 Feb 2026 09:27:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6---%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%88%B0%E8%BF%9B%E9%98%B6%E7%9A%84%E5%85%A8%E6%96%B9%E4%BD%8D%E6%8C%87%E5%8D%97/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6---%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%88%B0%E8%BF%9B%E9%98%B6%E7%9A%84%E5%85%A8%E6%96%B9%E4%BD%8D%E6%8C%87%E5%8D%97/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/01/23/组合数学---从零入门到进阶的全方位指南.png" type="image/png" length="76537" />
       
     </item>
     

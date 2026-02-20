@@ -61,7 +61,7 @@
          ```
       1. ```bash
           2026-01-23-science-probability-3.md
-          2026-01-23-science-probability-5.md
+          2026-01-23-science-probability-7.md
           2026-01-23-science-sequence-1.md
           2026-01-26-science-cell-4.md
           2026-01-26-science-mechanics-5.md
