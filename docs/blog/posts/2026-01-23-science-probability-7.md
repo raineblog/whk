@@ -26,7 +26,7 @@ authors:
 
 随后进入进阶部分，系统讲解容斥、鸽巢、错位排列等技巧，最后提供一套完整的解题模型与实战案例，帮助你在实际题目中快速定位解法。
 
-> 想获取全文细节，请访问原文链接：<https://raineblog.dpdns.org/whk/science/probability/5/>
+> 想获取全文细节，请访问原文链接：<https://raineblog.dpdns.org/whk/science/probability/4/>
 
 ## 基础内容
 
@@ -393,6 +393,6 @@ $$
 
 ---
 
-> 想了解完整的推导过程、更多练习题以及细节解释，请访问原文链接：<https://raineblog.dpdns.org/whk/science/probability/5/>
+> 想了解完整的推导过程、更多练习题以及细节解释，请访问原文链接：<https://raineblog.dpdns.org/whk/science/probability/4/>
 
 祝你在组合数学的世界里玩得开心，解题更顺手！
