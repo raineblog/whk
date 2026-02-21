@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sat, 21 Feb 2026 09:50:07 -0000</pubDate>
-    <lastBuildDate>Sat, 21 Feb 2026 09:50:07 -0000</lastBuildDate>
+    <pubDate>Sat, 21 Feb 2026 11:05:35 -0000</pubDate>
+    <lastBuildDate>Sat, 21 Feb 2026 11:05:35 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-21&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-21T09:50:07.972439+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-21&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-21T09:50:07....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-21&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-21T11:05:35.616371+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-21&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-21T11:05:35....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Sat, 21 Feb 2026 09:50:00 +0000</pubDate>
+      <pubDate>Sat, 21 Feb 2026 11:05:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
@@ -57,7 +57,7 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/page/2/</link>
-      <pubDate>Sat, 21 Feb 2026 09:50:00 +0000</pubDate>
+      <pubDate>Sat, 21 Feb 2026 11:05:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/page/2/</guid>
@@ -786,8 +786,8 @@ no_recurse = {&#34;.venv*&#34;, &#34;.github&#34;}&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;为了便于阅读，这一部分的内容请放在无序、有序列表中，允许正文文本作为分段。&lt;/p&gt;
 &lt;p&gt;下列仪器分类以玻璃仪器为核心。&lt;/p&gt;
-&lt;h3&gt;测量仪器类&lt;/h3&gt;
-&lt;h4&gt;托盘天平&lt;/h4&gt;
+&lt;h2&gt;测量仪器类&lt;/h2&gt;
+&lt;h3&gt;托盘天平&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;左物右码。&lt;/p&gt;
@@ -848,7 +848,8 @@ no_recurse = {&#34;.venv*&#34;, &#34;.github&#34;}&lt;/p&gt;
 &lt;p&gt;油浴加热：。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;沙浴加热：...&lt;/p&gt;
+&lt;p&gt;沙浴加热：。
+...&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/experiment/2/</link>
@@ -2162,7 +2163,7 @@ $$&lt;/p&gt;
       
       
       <description>&lt;h1&gt;生物物种&lt;/h1&gt;
-&lt;h3&gt;自然选择学说&lt;/h3&gt;
+&lt;h2&gt;自然选择学说&lt;/h2&gt;
 &lt;p&gt;适应作为一个生物学术语，包括两方面的含义：一是指生物的形态结构适合于完成一定的功能，二是指生物的形态结构及其功能适合于该生物在一定的环境中生存和繁殖。&lt;/p&gt;
 &lt;p&gt;适应是普遍存在的，是普遍性的，但是也具有相对性和局限性。&lt;/p&gt;
 &lt;ul&gt;
@@ -2278,7 +2279,7 @@ $$&lt;/p&gt;
       
       
       <description>&lt;h1&gt;数论测试&lt;/h1&gt;
-&lt;h3&gt;一、请给出整除的概念及性质&lt;/h3&gt;
+&lt;h2&gt;一、请给出整除的概念及性质&lt;/h2&gt;
 &lt;p&gt;对于整数 $a,b$ $(b\neq0)$，如果存在整数 $c$，使得 $a=bc$，&lt;/p&gt;
 &lt;p&gt;则称 $b$ 整除 $a$，记作 $b \mid a$；否则称 $b$ 不整除 $a$，记作 $b \nmid a$。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;性质&lt;/strong&gt;：&lt;/p&gt;
@@ -2290,7 +2291,7 @@ $$&lt;/p&gt;
 3.&amp;amp;\forall i:b\mid a_i&amp;amp;\Longrightarrow&amp;amp;b\mid\Sigma\ a_ik_i\
 4.&amp;amp;b\mid a&amp;amp;\Longrightarrow&amp;amp;bc\mid ac\ (c\in\mathbb Z,c\neq0)\
 5.&amp;amp;b\mid a\ (a\neq0)&amp;amp;\Longrightarrow&amp;amp;|b|\le|a|\
-5.&amp;amp;b\mid a,\ |a|&amp;lt;|b|&amp;amp;\Longrightarrow&amp;amp;a=0...&lt;/p&gt;</description>
+5.&amp;amp;b\mid a,\ |a|&amp;lt;|b|&amp;amp;\Longrightarrow&amp;amp;a=0\...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/number/4/</link>
       <pubDate>Sun, 24 Aug 2025 11:55:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -2409,7 +2410,7 @@ $$
       
       <description>&lt;h1&gt;线性规划&lt;/h1&gt;
 &lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-24.avif&#34;&gt;&lt;/p&gt;
-&lt;h3&gt;例题 1&lt;/h3&gt;
+&lt;h2&gt;例题 1&lt;/h2&gt;
 &lt;p&gt;$$\begin{cases}5x-11y \geq -22 \ 2x+3y \geq 9 \ 2x \leq 11\end{cases}$$&lt;/p&gt;
 &lt;p&gt;$z = 10x + 10y, \max{z} = $ ？&lt;/p&gt;
 &lt;h3&gt;基本概念&lt;/h3&gt;
@@ -2421,9 +2422,9 @@ $$
 &lt;li&gt;线性规划问题：在线性约束条件下求线性目标函数的问题。&lt;/li&gt;
 &lt;li&gt;可行解：满足线性约束条件的解 $(x,y)$.&lt;/li&gt;
 &lt;li&gt;可行域：由所有可行解组成的集合。&lt;/li&gt;
-&lt;li&gt;最优解：使目标函数取得 $\max$ 或 $\min$ 的可行解。
-...&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;li&gt;最优解：使目标函数取得 $\max$ 或 $\min$ 的可行解。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/number/1/</link>
       <pubDate>Tue, 19 Aug 2025 11:57:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -2719,9 +2720,9 @@ a^3-b^3&amp;amp;=(...&lt;/p&gt;</description>
 &lt;li&gt;$a=\lang1,3,5,7,9\rang$ 的生成函数是 $\displaystyle\sum_{n\geq 0}(2n+1)x^n$&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;换句话说，如果序列 $a$ 有通项公式，那么它的普通生成函数的系数就是通项公式。&lt;/p&gt;
-&lt;h4&gt;基本运算&lt;/h4&gt;
+&lt;h3&gt;基本运算&lt;/h3&gt;
 &lt;p&gt;两个序列 $a,b$ 的生成函数 $F(x),G(x)$，则 $F(x)\pm G(x)$ 是序列 $\lang a_n\pm b_n\rang$ 的生成函数。&lt;/p&gt;
-&lt;p&gt;$$F(x)\p...&lt;/p&gt;</description>
+&lt;p&gt;$$F(x)\pm...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/polynomial/2/</link>
       <pubDate>Mon, 04 Aug 2025 03:43:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>

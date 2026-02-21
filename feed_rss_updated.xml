@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sat, 21 Feb 2026 09:50:07 -0000</pubDate>
-    <lastBuildDate>Sat, 21 Feb 2026 09:50:07 -0000</lastBuildDate>
+    <pubDate>Sat, 21 Feb 2026 11:05:35 -0000</pubDate>
+    <lastBuildDate>Sat, 21 Feb 2026 11:05:35 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-21&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-21T09:50:07.972439+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-21&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-21T09:50:07....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-21&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-21T11:05:35.616371+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-21&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-21T11:05:35....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Sat, 21 Feb 2026 09:50:00 +0000</pubDate>
+      <pubDate>Sat, 21 Feb 2026 11:05:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
@@ -57,12 +57,796 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/page/2/</link>
-      <pubDate>Sat, 21 Feb 2026 09:50:00 +0000</pubDate>
+      <pubDate>Sat, 21 Feb 2026 11:05:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/page/2/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/page/2.png" type="image/png" length="None" />
+      
+    </item>
+    
+    <item>
+      <title>物质与分子</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;物质与分子&lt;/h1&gt;
+&lt;p&gt;$$
+\textrm{This page intentionally left blank.}
+$$&lt;/p&gt;
+&lt;h2&gt;物质的量相关定义&lt;/h2&gt;
+&lt;h3&gt;物质的量&lt;/h3&gt;
+&lt;p&gt;反映粒子数目：符号 $n$，单位 $\pu{mol}$。&lt;/p&gt;
+&lt;p&gt;重点：指明具体的&lt;strong&gt;微观&lt;/strong&gt;物质粒子（原子、离子、分子、质子、电子、种子）。&lt;/p&gt;
+&lt;h3&gt;阿伏伽德罗常数&lt;/h3&gt;
+&lt;p&gt;数值上：&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+N_A&amp;amp;=6.022\ 140\ 76\times10^{23}\pu{mol^-1}
+\end{aligned}
+$$&lt;/p&gt;
+&lt;p&gt;一般取约数为 $6.02$，注意：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;早期的阿伏伽德罗常数定义为 $\pu{12g}$ 的 $\ce{^12C}$ 中所含的原子个数。&lt;/li&gt;
+&lt;li&gt;现代的定义是一个固定的值（上），由阿伏伽德罗常数和质量定义物质的量。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+n=\dfrac N{N_A}
+$$&lt;/p&gt;
+&lt;p&gt;其中 $N$ 表示微粒个数。&lt;/p&gt;
+&lt;h3&gt;摩尔质量&lt;/h3&gt;
+&lt;p&gt;单位物质的量的物质所具有的质量：&lt;/p&gt;
+&lt;p&gt;$$
+M=\dfrac{m}{n}
+$$&lt;/p&gt;
+&lt;p&gt;标准单位为 $\pu{g/mol}$，此时摩尔质量数值上等于粒子的相对质量。&lt;/p&gt;
+&lt;h3&gt;摩尔...&lt;/h3&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/structure/1/</link>
+      <pubDate>Sat, 21 Feb 2026 11:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/structure/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/1.png" type="image/png" length="45316" />
+      
+    </item>
+    
+    <item>
+      <title>简介</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;简介&lt;/h1&gt;
+&lt;h2&gt;这里是 &lt;strong&gt;RainPPR&#39;s WHK Blog&lt;/strong&gt;！&lt;/h2&gt;
+&lt;p&gt;这个是 WHK 博客，是目前作者比较活跃的百科性质博客。本项目受 &lt;a href=&#34;https://ctf-wiki.org/&#34;&gt;CTF Wiki&lt;/a&gt;、&lt;a href=&#34;https://oi-wiki.org/&#34;&gt;OI Wiki&lt;/a&gt; 的启发。在本项目的编写过程中，作者进行了很多创造性（造轮子性）的改造，尤其是对于高中知识体系框架的构建。&lt;/p&gt;
+&lt;p&gt;在编写过程中参考了诸多资料，主要内容来自于教材、书籍、网课、培训机构（山东青岛地区）等，部分资料来源于一些网站，已经放在下面的 Reference 部分，在此一并致谢！&lt;/p&gt;
+&lt;div class=&#34;bib-wrapper&#34;&gt;
+  &lt;h3 class=&#34;bib-header-title&#34;&gt;Core References &amp; Bibliography&lt;/h3&gt;
+
+  &lt;style&gt;
+  .bib-wrapper {
+    margin: 2rem 0 0 0;
+    font-family: var(--md-text-font-family, sans-serif);
+  }
+
+  /* Sectio...</description>
+      <link>https://raineblog.dpdns.org/whk/</link>
+      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/index.png" type="image/png" length="39072" />
+      
+    </item>
+    
+    <item>
+      <title>生成式人工智能在学习中的应用与实例探究报告</title>
+      
+      
+        
+      <author>RainPPR</author>
+        
+      
+      
+      
+      <description>生成式人工智能在学习中的应用与实例探究报告</description>
+      <link>https://raineblog.dpdns.org/whk/blog/2026/02/04/%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%9C%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E4%B8%8E%E5%AE%9E%E4%BE%8B%E6%8E%A2%E7%A9%B6%E6%8A%A5%E5%91%8A/</link>
+      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/2026/02/04/%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%9C%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E4%B8%8E%E5%AE%9E%E4%BE%8B%E6%8E%A2%E7%A9%B6%E6%8A%A5%E5%91%8A/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/02/04/%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%9C%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E4%B8%8E%E5%AE%9E%E4%BE%8B%E6%8E%A2%E7%A9%B6%E6%8A%A5%E5%91%8A/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/02/04/生成式人工智能在学习中的应用与实例探究报告.png" type="image/png" length="53425" />
+      
+    </item>
+    
+    <item>
+      <title>细胞的基本结构</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;细胞的基本结构&lt;/h1&gt;
+&lt;p&gt;目前，生物学已经能在分子水平上，
+利用定量的物理、化学等手段来研究基本的生
+命过程和重大疾病的分子基础，从根本上理解生
+命、促进健康。生老病死等生命过程在微观世界都有其分子基础，DNA所承载的信息被传递到
+RNA和蛋白质，从而执行细胞丰富多彩的功
+能。结构生物学利用X射线晶体学、核磁共
+振和电子显微镜等手段，通过揭示生物大分
+子和超大分子复合物（分子机器）的高分辨
+率空间三维结构来解释其功能，不仅诠释生
+命过程的机理，也可以揭示药物靶点。目前，
+许多创新药物的研发都依赖于对其靶标蛋白
+结构的解析。其实，结构决定功能，这是所
+有物质科学的基本共识。从某种意义上来说，
+所有物质科学研究的目标都是理解结构，从
+而诠释功能和机理、找寻规律。&lt;/p&gt;
+&lt;h1&gt;生物实验&lt;/h1&gt;
+&lt;p&gt;预实验：在进行科学研究时，有时需要在正式实验前先做一个预实验。这样可以为进一步的实验摸索条件，也可以检验实验设计的科学性和可行性，例如，在探索生长素类调节剂促进插条生根的最适浓度时，通过预实验确定有效浓度的大致范围，可为确定最适浓度打下基础。预实验也必须像正式实验一样认真进行才有意义。&lt;/p&gt;
+&lt;p&gt;&amp;lt;div class...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/1/</link>
+      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/1.png" type="image/png" length="50112" />
+      
+    </item>
+    
+    <item>
+      <title>交变电流</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;交变电流&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;科学的历史不仅是一连串事实、规则和随之而来的数学描述，它也是一部概念的历史。当我们进入一个新的领域时，常常需要新的概念。——普朗克&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;交变电流&lt;/h2&gt;
+&lt;p&gt;我们已经学过了恒定电流。在恒定电流的电路中，电源的电动势不随时间变化，电路中的电流、电压也不随时间变化。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;e-image-43.avif&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
+&lt;p&gt;很多用电器中的电流、电压（方向）也随时间做周期性变化，这样的电流叫作交变电流（Alternating Current，AC），简称交流。&lt;strong&gt;方向&lt;/strong&gt;不随时间变化的电流称为直流（Direct Current，DC）。干电池供给的电流方向不随时间变化，所以属于直流。交变电流经过电子电路的处理，也能变成直流。&lt;/p&gt;
+&lt;p&gt;注意：基尔霍夫定律定律适用于直流电路和较低频率的交流电路中，而对高频率的交流电路有较大误差。&lt;/p&gt;
+&lt;p&gt;各类交流电波形具有共同特征：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;具有固定的频率（或作周期性的变化）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;任何非简谐式的交流电都可以分解为一系列不同频率的简谐成分（傅立叶级数）。所以最基本、最重要的是简谐交流电。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;不同频率的简谐波在...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/electromagnetism/6/</link>
+      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/6/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/6/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/6.png" type="image/png" length="44202" />
+      
+    </item>
+    
+    <item>
+      <title>过渡元素概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;过渡元素概述&lt;/h1&gt;
+&lt;h2&gt;铁单质&lt;/h2&gt;
+&lt;h3&gt;物理性质&lt;/h3&gt;
+&lt;p&gt;固体，铁块为银白色，铁粉为黑色。&lt;/p&gt;
+&lt;p&gt;常见形式为化合态，游离态存在于陨铁中。&lt;/p&gt;
+&lt;p&gt;有矿石：黄铁矿（$\ce{FeS2}$）、赤铁矿（$\ce{Fe2O3}$）、磁铁矿（$\ce{Fe3O4}$）、黄铜矿（$\ce{FeCuS2}$）。&lt;/p&gt;
+&lt;p&gt;不锈钢的合金元素主要是铬（$\ce{Cr}$）和镍（$\ce{Ni}$）。&lt;/p&gt;
+&lt;p&gt;碳素钢的分类：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;低碳钢（含碳量少于 $0.3\%$）：韧性好，焊接性好，强度低。用于制造钢丝、钢管、钢板等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;中碳钢（含碳量在 $0.3\%\sim0.6\%$）：强度高，韧性和加工性好。用于制造钢轨、车轮和建材等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;高碳钢（含碳量大于 $0.6\%$）：硬而脆。用于制造器械、弹簧和刀具等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;化学性质&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;与氧气反应：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;常温：$\ce{Fe + O2 + H2O -&amp;gt; Fe2O3*xH2O}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;点燃：$\ce{3Fe + 2O2 -&amp;gt;[点燃] Fe3O4}$，火星四射。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;与酸反应：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;与非氧化性酸反应：$\ce{Fe + 2H+ -&amp;gt; ...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/fe/</link>
+      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/fe/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/fe/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/fe.png" type="image/png" length="50260" />
+      
+    </item>
+    
+    <item>
+      <title>化学实验仪器</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;化学实验仪器&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;多孔球泡：增大气体与溶液的接触面积，加快反应速率，提高气体利用率。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;为了便于阅读，这一部分的内容请放在无序、有序列表中，允许正文文本作为分段。&lt;/p&gt;
+&lt;p&gt;下列仪器分类以玻璃仪器为核心。&lt;/p&gt;
+&lt;h2&gt;测量仪器类&lt;/h2&gt;
+&lt;h3&gt;托盘天平&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;左物右码。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;分度值为 $\pu{0.1g}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;干燥固体垫称量纸、易潮解或有腐蚀性放在烧杯内称量。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;量筒&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;先倒后滴。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;分度值为 $\pu{0.1mL}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;实现与凹液面下表面向平，或凸液面上表面。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;容量瓶&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;瓶口放磨口橡胶塞或塑料塞，使用前请检漏。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;瓶上标有温度和容量。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;常见容量 $\pu{100, 250, 500, 1000 mL}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;大而近原则。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;颈部有刻度线，没有零刻度线。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;四不能：不能溶解稀释、不能做反应仪器、不能长期贮存。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;加热仪器类&lt;/h3&gt;
+&lt;h4&gt;加热概述&lt;/h4&gt;
+&lt;p&gt;浴加热：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;控制反应，受热均匀，温度计放在浴中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;水浴加热：$\pu{90\sim100^oC}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;油浴加热：。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;沙浴加热：。
+...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/experiment/2/</link>
+      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/experiment/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/2.png" type="image/png" length="49762" />
+      
+    </item>
+    
+    <item>
+      <title>微积分</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;微积分&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-6.avif&#34;&gt;&lt;/p&gt;
+&lt;h2&gt;积分&lt;/h2&gt;
+&lt;h3&gt;几何意义&lt;/h3&gt;
+&lt;p&gt;如果在 $&lt;a href=&#34;a\neq b&#34;&gt;a,b&lt;/a&gt;$ 上函数 $f(x)$ 连续且恒有 $f(x)\geq 0$，那么定积分 $\displaystyle\int_{a}^{b}f(x)dx$ 表示由曲线 $y=f(x)$ 以及直线 $x=a,x=b,y=0$ 围成的曲边梯形的面积。&lt;/p&gt;
+&lt;p&gt;若 $f(x)\leq 0$，那么定积分 $\displaystyle\int_{a}^{b}f(x)dx$ 表示由曲线 $y=f(x)$ 以及直线 $x=a,x=b,y=0$ 围成的曲边梯形的面积的&lt;strong&gt;负值&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;如果我们把 $x$ 轴上方的面积赋予正号，下方的面积赋予负号，那么在一般情形下，定积分 $\displaystyle\int_{a}^{b}f(x)dx$ 表示由曲线 $y=f(x)$ 以及直线 $x=a,x=b,y=0$ 围成的各部分图形面积的代数和。&lt;/p&gt;
+&lt;h3&gt;微积分基本定理 / $\mathrm{Newton-Leibniz}$ 牛顿 - 莱布尼兹公式&lt;/h3&gt;
+&lt;p&gt;以下设 $C$ 是一个常数。&lt;/p&gt;
+&lt;p&gt;如...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/function/5/</link>
+      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/function/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/5.png" type="image/png" length="42950" />
+      
+    </item>
+    
+    <item>
+      <title>抛体运动</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;抛体运动&lt;/h1&gt;
+&lt;h2&gt;曲线运动概述&lt;/h2&gt;
+&lt;h3&gt;曲线运动特点&lt;/h3&gt;
+&lt;p&gt;条件：$v,a$ 不共线。&lt;/p&gt;
+&lt;p&gt;特点：瞬时速度方向等于轨迹切线方向，证明：&lt;/p&gt;
+&lt;p&gt;$$
+\dfrac{v_y}{v_x}=\dfrac{\d y}{\d t}\cdot\dfrac{\d t}{\d x}=\dfrac{\d y}{\d x}
+$$&lt;/p&gt;
+&lt;p&gt;合速度加在 $a,v$ 之间，向 $a$ 靠拢，但不会和 $a$ 共线。&lt;/p&gt;
+&lt;p&gt;合运动类型：&lt;/p&gt;
+&lt;p&gt;| | 匀速直线运动 | 匀加速直线运动 |
+| :-: | :-: | :-: |
+| &lt;strong&gt;匀速直线运动&lt;/strong&gt; | 匀速直线运动 | 曲线运动 |
+| &lt;br&gt;&lt;strong&gt;匀加速直线运动&lt;/strong&gt; | &lt;br&gt;曲线运动 | 若 $v_合 $ 与 $a_合 $ 共线则为匀加速直线运动&lt;br&gt;否则为曲线运动 |&lt;/p&gt;
+&lt;h3&gt;小船过河问题&lt;/h3&gt;
+&lt;p&gt;&lt;img alt=&#34;过河问题&#34; src=&#34;./过河问题.avif&#34;&gt;{ align=right width=&#34;40%&#34; }&lt;/p&gt;
+&lt;p&gt;如果船速大于水速：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;垂直河对岸：时间最短。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;斜向上、合速度指向对岸：位移最短。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果船速小于水速：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;垂直河对岸：时间最短。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;斜向上、位与圆的切线：位...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/kinematics/3/</link>
+      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/kinematics/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/3.png" type="image/png" length="44832" />
+      
+    </item>
+    
+    <item>
+      <title>化学反应能量</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;化学反应能量&lt;/h1&gt;
+&lt;h2&gt;反应热&lt;/h2&gt;
+&lt;h3&gt;物理量&lt;/h3&gt;
+&lt;p&gt;内能：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;内能用符号 $U$ 表示，是物体所有分子的热运动动能和分子势能的总和。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;内能与物质及其状态、温度压强决定，考虑热力学第一定律 $\Delta U=Q+W$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;热量：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;一个途径中，热量指因温度不同而在系统与环境之间交换或传递的能量，用 $Q$ 表示。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;系统得到正热量（对应环境失去正热量）时「吸收热量」，途径热量为正；系统失去正热量时「放出热量」，途径热量为负。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;焓：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;焓为人为定义的一种系统的属性，有公式 $H=U+pV$，与温度压强等有关。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通常上，焓不具有特定的物理意义，只是系统的状态参量，我们稍后讨论其变化量的物理意义。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;有性质：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;通常来说：&lt;/p&gt;
+&lt;p&gt;物质的能量越低越稳定。&lt;/p&gt;
+&lt;p&gt;因此，放热反应产物通常更稳定，吸热反应产物通常不稳定。&lt;/p&gt;
+&lt;p&gt;因此，自然界化学反应放热的更常见。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;等压反应中，焓变等于反应热；等容反应中，内能变化等于反应热。&lt;/p&gt;
+&lt;p&gt;$$
+\Delta H=Q_p
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\Delta U=Q_V
+  ...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/modern/2/</link>
+      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/modern/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/2.png" type="image/png" length="47719" />
+      
+    </item>
+    
+    <item>
+      <title>光学原理初步</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;光学原理初步&lt;/h1&gt;
+&lt;h2&gt;光的传播&lt;/h2&gt;
+&lt;p&gt;研究光，就必须要有发出光的物体，像太阳、灯泡等可以辐射光能的物体称为光源。现实生活中的光源都有着一定大小，光源大小相应会影响到光场光的特性。如果这一影响微乎其微，我们可以将这样的光源抽象成一个几何点，称为点光源。&lt;/p&gt;
+&lt;p&gt;光源发出的光是一种电磁波，按照波动光学的研究方法，我们可以使用描述电磁波的基本方法来描述光波，比如使用频率、波长和相位等物理量。波动光学中，对于由同一光源发出的单色波（即只有一种频率的光波），把同一时刻相位相同的各点连接起来形成的曲面，即为该光波的波面。对于单色点光源来说，它的波面为球面，光波沿着垂直于球面的方向向外传播（即法线方向），波动光学中把这个方向定义为光波的方向，用波矢量来描述。&lt;/p&gt;
+&lt;p&gt;光波的传播过程实际上是光能量的传播过程。光能量在空间中的传播用能流密度矢量描述。在各向同性介质中，能流密度矢量与波矢量方向相同，即光波方向代表了能量流动方向。我们可以把这两个矢量对应的方向抽象为一条几何线，这就是几何光学中光线的由来。按照上述抽象，一个波面可以对应无限条光线，它们构成了一个光线束，即光束。如果光束中光线直接相交于一点，或者它们...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/modern/3/</link>
+      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/modern/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/3.png" type="image/png" length="47160" />
+      
+    </item>
+    
+    <item>
+      <title>线性规划</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;线性规划&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-24.avif&#34;&gt;&lt;/p&gt;
+&lt;h2&gt;例题 1&lt;/h2&gt;
+&lt;p&gt;$$\begin{cases}5x-11y \geq -22 \ 2x+3y \geq 9 \ 2x \leq 11\end{cases}$$&lt;/p&gt;
+&lt;p&gt;$z = 10x + 10y, \max{z} = $ ？&lt;/p&gt;
+&lt;h3&gt;基本概念&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;约束条件：变量 $x,y,\dots$ 满足的一组条件，上述二元一次不等式组就是对 $x,y$ 的约束条件。&lt;/li&gt;
+&lt;li&gt;线性约束条件：由变量 $x,y,\dots$ 的一次不等式 / 方程组成的不等式组就称为线性约束条件，如上述二元一次不等式。&lt;/li&gt;
+&lt;li&gt;目标函数：欲求最大值或最小值所涉及的变量 $x,y,\dots$ 的解析式，如上述 $z$.&lt;/li&gt;
+&lt;li&gt;线性目标函数：目标函数关于变量 $x,y,\dots$ 的一次解析式，如上述 $z$.&lt;/li&gt;
+&lt;li&gt;线性规划问题：在线性约束条件下求线性目标函数的问题。&lt;/li&gt;
+&lt;li&gt;可行解：满足线性约束条件的解 $(x,y)$.&lt;/li&gt;
+&lt;li&gt;可行域：由所有可行解组成的集合。&lt;/li&gt;
+&lt;li&gt;最优解：使目标函数取得 $\max$ 或 $\min$ 的可行解。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/number/1/</link>
+      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/number/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/number/1.png" type="image/png" length="45301" />
+      
+    </item>
+    
+    <item>
+      <title>数论测试</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;数论测试&lt;/h1&gt;
+&lt;h2&gt;一、请给出整除的概念及性质&lt;/h2&gt;
+&lt;p&gt;对于整数 $a,b$ $(b\neq0)$，如果存在整数 $c$，使得 $a=bc$，&lt;/p&gt;
+&lt;p&gt;则称 $b$ 整除 $a$，记作 $b \mid a$；否则称 $b$ 不整除 $a$，记作 $b \nmid a$。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;性质&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;$$
+\def\arraystretch{1.1}
+\begin{array}{rlrl}
+1.&amp;amp;a\mid b&amp;amp;\Longrightarrow&amp;amp;\pm a \mid \pm b\
+2.&amp;amp;a \mid b,\ b\mid c&amp;amp;\Longrightarrow&amp;amp;a \mid c\
+3.&amp;amp;\forall i:b\mid a_i&amp;amp;\Longrightarrow&amp;amp;b\mid\Sigma\ a_ik_i\
+4.&amp;amp;b\mid a&amp;amp;\Longrightarrow&amp;amp;bc\mid ac\ (c\in\mathbb Z,c\neq0)\
+5.&amp;amp;b\mid a\ (a\neq0)&amp;amp;\Longrightarrow&amp;amp;|b|\le|a|\
+5.&amp;amp;b\mid a,\ |a|&amp;lt;|b|&amp;amp;\Longrightarrow&amp;amp;a=0\...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/number/4/</link>
+      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/number/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/number/4.png" type="image/png" length="46425" />
+      
+    </item>
+    
+    <item>
+      <title>有机物的分类</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;有机物的分类&lt;/h1&gt;
+&lt;h2&gt;按照物质&lt;/h2&gt;
+&lt;h3&gt;烷烃概述&lt;/h3&gt;
+&lt;p&gt;我们熟悉的甲烷（$\ce{CH4}$）是最简单的有机化合物。其分子中的碳原子以最外层的 $4$ 个电子分别与 $4$ 个氢原子的电子形成了 $4$ 个 $\ce{C - H}$ 共价键。&lt;/p&gt;
+&lt;p&gt;实验数据表明，甲烷分子并非平面结构，而是呈正四面体空间构型。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;碳原子位于正四面体的中心。&lt;/li&gt;
+&lt;li&gt;$4$ 个氢原子分别位于 $4$ 个顶点。&lt;/li&gt;
+&lt;li&gt;$4$ 个 $\ce{C - H}$ 键的长度和强度完全相同，任意两个 $\ce{C - H}$ 键之间的夹角均为 $\pu{109.5^\circ C}$。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;与甲烷结构相似的有机化合物还有很多，随着分子中碳原子数的增加，还有乙烷、丙烷、丁烷等一系列有机化合物。这些化合物的碳链呈锯齿状或折线形。&lt;/p&gt;
+&lt;p&gt;烷烃分子中的碳原子都采取 $\text{sp3}$ 杂化，形成四面体结构；碳原子以 $\sigma$ 键与其他碳原子或氢原子结合；每个碳原子形成 $4$ 个共价单键；除甲烷外，烷烃分子中既有极性键，又有非极性键。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;烷烃&lt;/strong&gt;是只含有碳和氢两种元素，且分子中的碳原子之间都以单键结合，碳原子的剩...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/organic/2/</link>
+      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/organic/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/2.png" type="image/png" length="48454" />
+      
+    </item>
+    
+    <item>
+      <title>有机经典问题</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;有机经典问题&lt;/h1&gt;
+&lt;h2&gt;有机物概述&lt;/h2&gt;
+&lt;h3&gt;同分异构现象&lt;/h3&gt;
+&lt;p&gt;化合物具有相同的分子式，但具有不同结构的现象，称为同分异构现象。具有这种现象的化合物互称为同分异构体。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;碳链异构&lt;/strong&gt;：碳链骨架不同。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$\ce{CH3CH2CH2CH3}$ 和 $\ce{CH3CH(CH3)2}$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;位置异构&lt;/strong&gt;：官能团或取代基在碳骨架（碳链或碳环）上位置不同。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$\ce{CH2=CHCH2CH3}$ 和 $\ce{CH3CH=CHCH3}$&lt;/p&gt;
+&lt;p&gt;$\ce{CH3CH2CH2OH}$ 和 $\ce{CH3CH(OH)CH3}$&lt;/p&gt;
+&lt;p&gt;$\ce{CH3OCH2CH2CH3}$ 和 $\ce{CH3CH2OCH2CH3}$&lt;/p&gt;
+&lt;p&gt;$\ce{R1COOR2}$ 和 $\ce{R2COOR1}$ ($R1 \neq R2$，且均为烃基)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;官能团异构&lt;/strong&gt;：官能团不同。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$\ce{CH3CH2OH}$ 和 $\ce{CH3OCH3}$&lt;/p&gt;
+&lt;p&gt;$\ce{CH3CH2CHO...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/organic/3/</link>
+      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/organic/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/3.png" type="image/png" length="46454" />
+      
+    </item>
+    
+    <item>
+      <title>多项式科技</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;多项式科技&lt;/h1&gt;
+&lt;h2&gt;生成函数&lt;/h2&gt;
+&lt;p&gt;序列 $a$ （有穷无穷均可）的普通生成函数定义为形式幂级数：$\displaystyle F(x)=\sum_na_nx^n$。例如：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$a=\lang1,2,3\rang$ 的普通生成函数是 $1+2x+3x^2$&lt;/li&gt;
+&lt;li&gt;$a=\lang1,1,1,\dots\rang$ 的普通生成函数是 $\displaystyle\sum_{n\geq 0}x^n$&lt;/li&gt;
+&lt;li&gt;$a=\lang1,2,4,8,16,\dots\rang$ 的生成函数是 $\displaystyle\sum_{n\geq 0}2^nx^n$&lt;/li&gt;
+&lt;li&gt;$a=\lang1,3,5,7,9\rang$ 的生成函数是 $\displaystyle\sum_{n\geq 0}(2n+1)x^n$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;换句话说，如果序列 $a$ 有通项公式，那么它的普通生成函数的系数就是通项公式。&lt;/p&gt;
+&lt;h3&gt;基本运算&lt;/h3&gt;
+&lt;p&gt;两个序列 $a,b$ 的生成函数 $F(x),G(x)$，则 $F(x)\pm G(x)$ 是序列 $\lang a_n\pm b_n\rang$ 的生成函数。&lt;/p&gt;
+&lt;p&gt;$$F(x)\pm...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/polynomial/2/</link>
+      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/polynomial/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/2.png" type="image/png" length="46472" />
+      
+    </item>
+    
+    <item>
+      <title>组合数学</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;组合数学&lt;/h1&gt;
+&lt;center markdown&gt;
+组合数学是一门古老而迷人的学科。
+
+传说早在 $\texttt{114514}$ 年前，&lt;br&gt;
+一位名为忆哀的神灵来到地球，&lt;br&gt;
+发现了人类——另一种有智慧的物种。
+
+她觉得这很有趣，为了加速人类文明的发展，&lt;br&gt;
+她向人间传下了一类计数问题——十二重计数，&lt;br&gt;
+这也正是组合数学的开端。
+
+而只有搞明白这类问题，才能在组合数学上继续深入。
+&lt;/center&gt;
+
+&lt;h2&gt;基础内容&lt;/h2&gt;
+&lt;h3&gt;四大原理&lt;/h3&gt;
+&lt;p&gt;加法原理：分类相加，&lt;/p&gt;
+&lt;p&gt;$$
+N=\sum m_n
+$$&lt;/p&gt;
+&lt;p&gt;乘法原理：分步相乘，&lt;/p&gt;
+&lt;p&gt;$$
+N=\prod m_n
+$$&lt;/p&gt;
+&lt;p&gt;减法原理：正难则反，&lt;/p&gt;
+&lt;p&gt;$$
+|A|=|S|-|S\setminus A|,A\subseteq S
+$$&lt;/p&gt;
+&lt;p&gt;除法原理：反悔划分。&lt;/p&gt;
+&lt;p&gt;这玩意想不明白回初赛重造。&lt;/p&gt;
+&lt;p&gt;注：本文将会偶尔用到大型运算符，不清楚的见我数列进阶。&lt;/p&gt;
+&lt;h3&gt;经典例题&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;从 $A\to B$ 有 $2$ 条路，$B\to D$ 有 $3$ 条路；&lt;/li&gt;
+&lt;li&gt;从 $A\to C$ 有 $4$ 条路，$C\to D$ 有 $5$ 条路。
+...&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/probability/4/</link>
+      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/probability/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/4.png" type="image/png" length="44817" />
+      
+    </item>
+    
+    <item>
+      <title>数列提高</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;数列提高&lt;/h1&gt;
+&lt;h2&gt;线性递推&lt;/h2&gt;
+&lt;h3&gt;概念&lt;/h3&gt;
+&lt;p&gt;对于 $k$ 阶线性递推式，$a_n$ 仅与 $n$ 前面的 $k$ 项有关。&lt;/p&gt;
+&lt;p&gt;对于常系数齐次线性递推，形如，&lt;/p&gt;
+&lt;p&gt;$$
+\boxed{a_n=\sum_{i=1}^kf_i\times a_{n-i}}
+$$&lt;/p&gt;
+&lt;p&gt;拓展：对于常系数非齐次线性递推，形如，&lt;/p&gt;
+&lt;p&gt;$$
+a_n=P(n)+\sum_{i=1}^kf_i\times a_{n-i}
+$$&lt;/p&gt;
+&lt;p&gt;其中 $P(x)$ 是一个 $m$ 次多项式。&lt;/p&gt;
+&lt;h3&gt;特征方程&lt;/h3&gt;
+&lt;p&gt;形如，&lt;/p&gt;
+&lt;p&gt;$$
+a_n=xa_{n-1}+ya_{n-2}
+$$&lt;/p&gt;
+&lt;p&gt;其特征方程可以表示为，&lt;/p&gt;
+&lt;p&gt;$$
+\boxed{q^2=xq+y}\
+q^2-xq-y=0
+$$&lt;/p&gt;
+&lt;p&gt;推导：&lt;/p&gt;
+&lt;p&gt;设有 $q,t$ 满足，&lt;/p&gt;
+&lt;p&gt;$$
+a_n-qa_{n-1}=t(a_{n-1}-qa_{n-2})\
+a_n=(q+t)a_{n-1}-qta_{n-2}
+$$&lt;/p&gt;
+&lt;p&gt;则，&lt;/p&gt;
+&lt;p&gt;$$
+\begin{cases}
+x=q+t\
+y=-qt
+\end{cases}
+$$&lt;/p&gt;
+&lt;p&gt;得，&lt;/p&gt;
+&lt;p&gt;$$
+q=x-t=x+y/q\
+t=x-q=-y/q\
+q^2=xq...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/sequence/2/</link>
+      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/sequence/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/sequence/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/sequence/2.png" type="image/png" length="44872" />
+      
+    </item>
+    
+    <item>
+      <title>生物物种</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;生物物种&lt;/h1&gt;
+&lt;h2&gt;自然选择学说&lt;/h2&gt;
+&lt;p&gt;适应作为一个生物学术语，包括两方面的含义：一是指生物的形态结构适合于完成一定的功能，二是指生物的形态结构及其功能适合于该生物在一定的环境中生存和繁殖。&lt;/p&gt;
+&lt;p&gt;适应是普遍存在的，是普遍性的，但是也具有相对性和局限性。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;物种不变论&lt;/strong&gt;认为，各种生物都是自古以来就如此的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;拉马克彻底否定了物种不变论，提出当今所有的生物都是由更古老的生物进化来的，各种生物的适应性特征并不是自古以来就如此的，而是在进化过程中逐渐形成的。&lt;/p&gt;
+&lt;p&gt;不过他认为适应的形成都是由于&lt;strong&gt;用进废退和获得性遗传&lt;/strong&gt;：器官用得越多就越发达，比如食蚁兽的舌头之所以细长，是长期舔食蚂蚁的结果。器官废而不用，就会造成形态上的退化，比如鼹鼠长期生活在地下，视觉派不上用场，眼睛就萎缩、退化。这些因用进废退而获得的性状是可以遗传给后代的。&lt;/p&gt;
+&lt;p&gt;拉马克提出的进化学说在当时是有进步意义的，但他对适应形成的解释是肤浅的，未被人们普遍接受。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;达尔文提出的&lt;strong&gt;自然选择学说&lt;/strong&gt;对生物的进化和适应的形成作出了合理的解释。他认为适应的来源是可遗传的变异，适应是自然选择的结果。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/species/1/</link>
+      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/species/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/1.png" type="image/png" length="41097" />
       
     </item>
     
@@ -139,41 +923,6 @@
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/01/23/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6---%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%88%B0%E8%BF%9B%E9%98%B6%E7%9A%84%E5%85%A8%E6%96%B9%E4%BD%8D%E6%8C%87%E5%8D%97/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/01/23/组合数学---从零入门到进阶的全方位指南.png" type="image/png" length="76537" />
-      
-    </item>
-    
-    <item>
-      <title>细胞的基本结构</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;细胞的基本结构&lt;/h1&gt;
-&lt;p&gt;目前，生物学已经能在分子水平上，
-利用定量的物理、化学等手段来研究基本的生
-命过程和重大疾病的分子基础，从根本上理解生
-命、促进健康。生老病死等生命过程在微观世界都有其分子基础，DNA所承载的信息被传递到
-RNA和蛋白质，从而执行细胞丰富多彩的功
-能。结构生物学利用X射线晶体学、核磁共
-振和电子显微镜等手段，通过揭示生物大分
-子和超大分子复合物（分子机器）的高分辨
-率空间三维结构来解释其功能，不仅诠释生
-命过程的机理，也可以揭示药物靶点。目前，
-许多创新药物的研发都依赖于对其靶标蛋白
-结构的解析。其实，结构决定功能，这是所
-有物质科学的基本共识。从某种意义上来说，
-所有物质科学研究的目标都是理解结构，从
-而诠释功能和机理、找寻规律。&lt;/p&gt;
-&lt;h1&gt;生物实验&lt;/h1&gt;
-&lt;p&gt;预实验：在进行科学研究时，有时需要在正式实验前先做一个预实验。这样可以为进一步的实验摸索条件，也可以检验实验设计的科学性和可行性，例如，在探索生长素类调节剂促进插条生根的最适浓度时，通过预实验确定有效浓度的大致范围，可为确定最适浓度打下基础。预实验也必须像正式实验一样认真进行才有意义。&lt;/p&gt;
-&lt;p&gt;&amp;lt;div class...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/1/</link>
-      <pubDate>Fri, 20 Feb 2026 14:29:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/1.png" type="image/png" length="50112" />
       
     </item>
     
@@ -597,32 +1346,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>微积分</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;微积分&lt;/h1&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-6.avif&#34;&gt;&lt;/p&gt;
-&lt;h2&gt;积分&lt;/h2&gt;
-&lt;h3&gt;几何意义&lt;/h3&gt;
-&lt;p&gt;如果在 $&lt;a href=&#34;a\neq b&#34;&gt;a,b&lt;/a&gt;$ 上函数 $f(x)$ 连续且恒有 $f(x)\geq 0$，那么定积分 $\displaystyle\int_{a}^{b}f(x)dx$ 表示由曲线 $y=f(x)$ 以及直线 $x=a,x=b,y=0$ 围成的曲边梯形的面积。&lt;/p&gt;
-&lt;p&gt;若 $f(x)\leq 0$，那么定积分 $\displaystyle\int_{a}^{b}f(x)dx$ 表示由曲线 $y=f(x)$ 以及直线 $x=a,x=b,y=0$ 围成的曲边梯形的面积的&lt;strong&gt;负值&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;如果我们把 $x$ 轴上方的面积赋予正号，下方的面积赋予负号，那么在一般情形下，定积分 $\displaystyle\int_{a}^{b}f(x)dx$ 表示由曲线 $y=f(x)$ 以及直线 $x=a,x=b,y=0$ 围成的各部分图形面积的代数和。&lt;/p&gt;
-&lt;h3&gt;微积分基本定理 / $\mathrm{Newton-Leibniz}$ 牛顿 - 莱布尼兹公式&lt;/h3&gt;
-&lt;p&gt;以下设 $C$ 是一个常数。&lt;/p&gt;
-&lt;p&gt;如...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/function/5/</link>
-      <pubDate>Thu, 19 Feb 2026 14:33:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/function/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/5/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/5.png" type="image/png" length="42950" />
-      
-    </item>
-    
-    <item>
       <title>圆锥曲线</title>
       
       
@@ -751,56 +1474,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/9/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/9.png" type="image/png" length="46571" />
-      
-    </item>
-    
-    <item>
-      <title>抛体运动</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;抛体运动&lt;/h1&gt;
-&lt;h2&gt;曲线运动概述&lt;/h2&gt;
-&lt;h3&gt;曲线运动特点&lt;/h3&gt;
-&lt;p&gt;条件：$v,a$ 不共线。&lt;/p&gt;
-&lt;p&gt;特点：瞬时速度方向等于轨迹切线方向，证明：&lt;/p&gt;
-&lt;p&gt;$$
-\dfrac{v_y}{v_x}=\dfrac{\d y}{\d t}\cdot\dfrac{\d t}{\d x}=\dfrac{\d y}{\d x}
-$$&lt;/p&gt;
-&lt;p&gt;合速度加在 $a,v$ 之间，向 $a$ 靠拢，但不会和 $a$ 共线。&lt;/p&gt;
-&lt;p&gt;合运动类型：&lt;/p&gt;
-&lt;p&gt;| | 匀速直线运动 | 匀加速直线运动 |
-| :-: | :-: | :-: |
-| &lt;strong&gt;匀速直线运动&lt;/strong&gt; | 匀速直线运动 | 曲线运动 |
-| &lt;br&gt;&lt;strong&gt;匀加速直线运动&lt;/strong&gt; | &lt;br&gt;曲线运动 | 若 $v_合 $ 与 $a_合 $ 共线则为匀加速直线运动&lt;br&gt;否则为曲线运动 |&lt;/p&gt;
-&lt;h3&gt;小船过河问题&lt;/h3&gt;
-&lt;p&gt;&lt;img alt=&#34;过河问题&#34; src=&#34;./过河问题.avif&#34;&gt;{ align=right width=&#34;40%&#34; }&lt;/p&gt;
-&lt;p&gt;如果船速大于水速：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;垂直河对岸：时间最短。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;斜向上、合速度指向对岸：位移最短。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;如果船速小于水速：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;垂直河对岸：时间最短。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;斜向上、位与圆的切线：位...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/kinematics/3/</link>
-      <pubDate>Thu, 19 Feb 2026 14:33:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/kinematics/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/3.png" type="image/png" length="44832" />
       
     </item>
     
@@ -1019,91 +1692,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>化学反应能量</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;化学反应能量&lt;/h1&gt;
-&lt;h2&gt;反应热&lt;/h2&gt;
-&lt;h3&gt;物理量&lt;/h3&gt;
-&lt;p&gt;内能：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;内能用符号 $U$ 表示，是物体所有分子的热运动动能和分子势能的总和。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;内能与物质及其状态、温度压强决定，考虑热力学第一定律 $\Delta U=Q+W$。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;热量：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;一个途径中，热量指因温度不同而在系统与环境之间交换或传递的能量，用 $Q$ 表示。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;系统得到正热量（对应环境失去正热量）时「吸收热量」，途径热量为正；系统失去正热量时「放出热量」，途径热量为负。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;焓：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;焓为人为定义的一种系统的属性，有公式 $H=U+pV$，与温度压强等有关。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;通常上，焓不具有特定的物理意义，只是系统的状态参量，我们稍后讨论其变化量的物理意义。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;有性质：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;通常来说：&lt;/p&gt;
-&lt;p&gt;物质的能量越低越稳定。&lt;/p&gt;
-&lt;p&gt;因此，放热反应产物通常更稳定，吸热反应产物通常不稳定。&lt;/p&gt;
-&lt;p&gt;因此，自然界化学反应放热的更常见。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;等压反应中，焓变等于反应热；等容反应中，内能变化等于反应热。&lt;/p&gt;
-&lt;p&gt;$$
-\Delta H=Q_p
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\Delta U=Q_V
-  ...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/modern/2/</link>
-      <pubDate>Thu, 19 Feb 2026 14:33:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/modern/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/2.png" type="image/png" length="47719" />
-      
-    </item>
-    
-    <item>
-      <title>光学原理初步</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;光学原理初步&lt;/h1&gt;
-&lt;h2&gt;光的传播&lt;/h2&gt;
-&lt;p&gt;研究光，就必须要有发出光的物体，像太阳、灯泡等可以辐射光能的物体称为光源。现实生活中的光源都有着一定大小，光源大小相应会影响到光场光的特性。如果这一影响微乎其微，我们可以将这样的光源抽象成一个几何点，称为点光源。&lt;/p&gt;
-&lt;p&gt;光源发出的光是一种电磁波，按照波动光学的研究方法，我们可以使用描述电磁波的基本方法来描述光波，比如使用频率、波长和相位等物理量。波动光学中，对于由同一光源发出的单色波（即只有一种频率的光波），把同一时刻相位相同的各点连接起来形成的曲面，即为该光波的波面。对于单色点光源来说，它的波面为球面，光波沿着垂直于球面的方向向外传播（即法线方向），波动光学中把这个方向定义为光波的方向，用波矢量来描述。&lt;/p&gt;
-&lt;p&gt;光波的传播过程实际上是光能量的传播过程。光能量在空间中的传播用能流密度矢量描述。在各向同性介质中，能流密度矢量与波矢量方向相同，即光波方向代表了能量流动方向。我们可以把这两个矢量对应的方向抽象为一条几何线，这就是几何光学中光线的由来。按照上述抽象，一个波面可以对应无限条光线，它们构成了一个光线束，即光束。如果光束中光线直接相交于一点，或者它们...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/modern/3/</link>
-      <pubDate>Thu, 19 Feb 2026 14:33:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/modern/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/3.png" type="image/png" length="47160" />
-      
-    </item>
-    
-    <item>
       <title>种群群落</title>
       
       
@@ -1153,39 +1741,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>线性规划</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;线性规划&lt;/h1&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-24.avif&#34;&gt;&lt;/p&gt;
-&lt;h3&gt;例题 1&lt;/h3&gt;
-&lt;p&gt;$$\begin{cases}5x-11y \geq -22 \ 2x+3y \geq 9 \ 2x \leq 11\end{cases}$$&lt;/p&gt;
-&lt;p&gt;$z = 10x + 10y, \max{z} = $ ？&lt;/p&gt;
-&lt;h3&gt;基本概念&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;约束条件：变量 $x,y,\dots$ 满足的一组条件，上述二元一次不等式组就是对 $x,y$ 的约束条件。&lt;/li&gt;
-&lt;li&gt;线性约束条件：由变量 $x,y,\dots$ 的一次不等式 / 方程组成的不等式组就称为线性约束条件，如上述二元一次不等式。&lt;/li&gt;
-&lt;li&gt;目标函数：欲求最大值或最小值所涉及的变量 $x,y,\dots$ 的解析式，如上述 $z$.&lt;/li&gt;
-&lt;li&gt;线性目标函数：目标函数关于变量 $x,y,\dots$ 的一次解析式，如上述 $z$.&lt;/li&gt;
-&lt;li&gt;线性规划问题：在线性约束条件下求线性目标函数的问题。&lt;/li&gt;
-&lt;li&gt;可行解：满足线性约束条件的解 $(x,y)$.&lt;/li&gt;
-&lt;li&gt;可行域：由所有可行解组成的集合。&lt;/li&gt;
-&lt;li&gt;最优解：使目标函数取得 $\max$ 或 $\min$ 的可行解。
-...&lt;/li&gt;
-&lt;/ol&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/number/1/</link>
-      <pubDate>Thu, 19 Feb 2026 14:33:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/number/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/number/1.png" type="image/png" length="45301" />
-      
-    </item>
-    
-    <item>
       <title>数论入门</title>
       
       
@@ -1212,109 +1767,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/3/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/number/3.png" type="image/png" length="44053" />
-      
-    </item>
-    
-    <item>
-      <title>数论测试</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;数论测试&lt;/h1&gt;
-&lt;h3&gt;一、请给出整除的概念及性质&lt;/h3&gt;
-&lt;p&gt;对于整数 $a,b$ $(b\neq0)$，如果存在整数 $c$，使得 $a=bc$，&lt;/p&gt;
-&lt;p&gt;则称 $b$ 整除 $a$，记作 $b \mid a$；否则称 $b$ 不整除 $a$，记作 $b \nmid a$。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;性质&lt;/strong&gt;：&lt;/p&gt;
-&lt;p&gt;$$
-\def\arraystretch{1.1}
-\begin{array}{rlrl}
-1.&amp;amp;a\mid b&amp;amp;\Longrightarrow&amp;amp;\pm a \mid \pm b\
-2.&amp;amp;a \mid b,\ b\mid c&amp;amp;\Longrightarrow&amp;amp;a \mid c\
-3.&amp;amp;\forall i:b\mid a_i&amp;amp;\Longrightarrow&amp;amp;b\mid\Sigma\ a_ik_i\
-4.&amp;amp;b\mid a&amp;amp;\Longrightarrow&amp;amp;bc\mid ac\ (c\in\mathbb Z,c\neq0)\
-5.&amp;amp;b\mid a\ (a\neq0)&amp;amp;\Longrightarrow&amp;amp;|b|\le|a|\
-5.&amp;amp;b\mid a,\ |a|&amp;lt;|b|&amp;amp;\Longrightarrow&amp;amp;a=0...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/number/4/</link>
-      <pubDate>Thu, 19 Feb 2026 14:33:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/number/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/number/4.png" type="image/png" length="46425" />
-      
-    </item>
-    
-    <item>
-      <title>有机物的分类</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;有机物的分类&lt;/h1&gt;
-&lt;h2&gt;按照物质&lt;/h2&gt;
-&lt;h3&gt;烷烃概述&lt;/h3&gt;
-&lt;p&gt;我们熟悉的甲烷（$\ce{CH4}$）是最简单的有机化合物。其分子中的碳原子以最外层的 $4$ 个电子分别与 $4$ 个氢原子的电子形成了 $4$ 个 $\ce{C - H}$ 共价键。&lt;/p&gt;
-&lt;p&gt;实验数据表明，甲烷分子并非平面结构，而是呈正四面体空间构型。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;碳原子位于正四面体的中心。&lt;/li&gt;
-&lt;li&gt;$4$ 个氢原子分别位于 $4$ 个顶点。&lt;/li&gt;
-&lt;li&gt;$4$ 个 $\ce{C - H}$ 键的长度和强度完全相同，任意两个 $\ce{C - H}$ 键之间的夹角均为 $\pu{109.5^\circ C}$。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;与甲烷结构相似的有机化合物还有很多，随着分子中碳原子数的增加，还有乙烷、丙烷、丁烷等一系列有机化合物。这些化合物的碳链呈锯齿状或折线形。&lt;/p&gt;
-&lt;p&gt;烷烃分子中的碳原子都采取 $\text{sp3}$ 杂化，形成四面体结构；碳原子以 $\sigma$ 键与其他碳原子或氢原子结合；每个碳原子形成 $4$ 个共价单键；除甲烷外，烷烃分子中既有极性键，又有非极性键。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;烷烃&lt;/strong&gt;是只含有碳和氢两种元素，且分子中的碳原子之间都以单键结合，碳原子的剩...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/organic/2/</link>
-      <pubDate>Thu, 19 Feb 2026 14:33:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/organic/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/2.png" type="image/png" length="48454" />
-      
-    </item>
-    
-    <item>
-      <title>有机经典问题</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;有机经典问题&lt;/h1&gt;
-&lt;h2&gt;有机物概述&lt;/h2&gt;
-&lt;h3&gt;同分异构现象&lt;/h3&gt;
-&lt;p&gt;化合物具有相同的分子式，但具有不同结构的现象，称为同分异构现象。具有这种现象的化合物互称为同分异构体。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;碳链异构&lt;/strong&gt;：碳链骨架不同。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;$\ce{CH3CH2CH2CH3}$ 和 $\ce{CH3CH(CH3)2}$&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;位置异构&lt;/strong&gt;：官能团或取代基在碳骨架（碳链或碳环）上位置不同。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;$\ce{CH2=CHCH2CH3}$ 和 $\ce{CH3CH=CHCH3}$&lt;/p&gt;
-&lt;p&gt;$\ce{CH3CH2CH2OH}$ 和 $\ce{CH3CH(OH)CH3}$&lt;/p&gt;
-&lt;p&gt;$\ce{CH3OCH2CH2CH3}$ 和 $\ce{CH3CH2OCH2CH3}$&lt;/p&gt;
-&lt;p&gt;$\ce{R1COOR2}$ 和 $\ce{R2COOR1}$ ($R1 \neq R2$，且均为烃基)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;官能团异构&lt;/strong&gt;：官能团不同。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;$\ce{CH3CH2OH}$ 和 $\ce{CH3OCH3}$&lt;/p&gt;
-&lt;p&gt;$\ce{CH3CH2CHO...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/organic/3/</link>
-      <pubDate>Thu, 19 Feb 2026 14:33:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/organic/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/3.png" type="image/png" length="46454" />
       
     </item>
     
@@ -1563,35 +2015,6 @@ a^3-b^3&amp;amp;=(...&lt;/p&gt;</description>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/1/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/1.png" type="image/png" length="44413" />
-      
-    </item>
-    
-    <item>
-      <title>多项式科技</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;多项式科技&lt;/h1&gt;
-&lt;h2&gt;生成函数&lt;/h2&gt;
-&lt;p&gt;序列 $a$ （有穷无穷均可）的普通生成函数定义为形式幂级数：$\displaystyle F(x)=\sum_na_nx^n$。例如：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;$a=\lang1,2,3\rang$ 的普通生成函数是 $1+2x+3x^2$&lt;/li&gt;
-&lt;li&gt;$a=\lang1,1,1,\dots\rang$ 的普通生成函数是 $\displaystyle\sum_{n\geq 0}x^n$&lt;/li&gt;
-&lt;li&gt;$a=\lang1,2,4,8,16,\dots\rang$ 的生成函数是 $\displaystyle\sum_{n\geq 0}2^nx^n$&lt;/li&gt;
-&lt;li&gt;$a=\lang1,3,5,7,9\rang$ 的生成函数是 $\displaystyle\sum_{n\geq 0}(2n+1)x^n$&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;换句话说，如果序列 $a$ 有通项公式，那么它的普通生成函数的系数就是通项公式。&lt;/p&gt;
-&lt;h4&gt;基本运算&lt;/h4&gt;
-&lt;p&gt;两个序列 $a,b$ 的生成函数 $F(x),G(x)$，则 $F(x)\pm G(x)$ 是序列 $\lang a_n\pm b_n\rang$ 的生成函数。&lt;/p&gt;
-&lt;p&gt;$$F(x)\p...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/polynomial/2/</link>
-      <pubDate>Thu, 19 Feb 2026 14:33:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/polynomial/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/2.png" type="image/png" length="46472" />
       
     </item>
     
@@ -2149,60 +2572,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>组合数学</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;组合数学&lt;/h1&gt;
-&lt;center markdown&gt;
-组合数学是一门古老而迷人的学科。
-
-传说早在 $\texttt{114514}$ 年前，&lt;br&gt;
-一位名为忆哀的神灵来到地球，&lt;br&gt;
-发现了人类——另一种有智慧的物种。
-
-她觉得这很有趣，为了加速人类文明的发展，&lt;br&gt;
-她向人间传下了一类计数问题——十二重计数，&lt;br&gt;
-这也正是组合数学的开端。
-
-而只有搞明白这类问题，才能在组合数学上继续深入。
-&lt;/center&gt;
-
-&lt;h2&gt;基础内容&lt;/h2&gt;
-&lt;h3&gt;四大原理&lt;/h3&gt;
-&lt;p&gt;加法原理：分类相加，&lt;/p&gt;
-&lt;p&gt;$$
-N=\sum m_n
-$$&lt;/p&gt;
-&lt;p&gt;乘法原理：分步相乘，&lt;/p&gt;
-&lt;p&gt;$$
-N=\prod m_n
-$$&lt;/p&gt;
-&lt;p&gt;减法原理：正难则反，&lt;/p&gt;
-&lt;p&gt;$$
-|A|=|S|-|S\setminus A|,A\subseteq S
-$$&lt;/p&gt;
-&lt;p&gt;除法原理：反悔划分。&lt;/p&gt;
-&lt;p&gt;这玩意想不明白回初赛重造。&lt;/p&gt;
-&lt;p&gt;注：本文将会偶尔用到大型运算符，不清楚的见我数列进阶。&lt;/p&gt;
-&lt;h3&gt;经典例题&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;从 $A\to B$ 有 $2$ 条路，$B\to D$ 有 $3$ 条路；&lt;/li&gt;
-&lt;li&gt;从 $A\to C$ 有 $4$ 条路，$C\to D$ 有 $5$ 条路。
-...&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/probability/4/</link>
-      <pubDate>Tue, 17 Feb 2026 09:05:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/probability/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/4.png" type="image/png" length="44817" />
-      
-    </item>
-    
-    <item>
       <title>分子的结构</title>
       
       
@@ -2577,36 +2946,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>简介</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;简介&lt;/h1&gt;
-&lt;h2&gt;这里是 &lt;strong&gt;RainPPR&#39;s WHK Blog&lt;/strong&gt;！&lt;/h2&gt;
-&lt;p&gt;这个是 WHK 博客，是目前作者比较活跃的百科性质博客。本项目受 &lt;a href=&#34;https://ctf-wiki.org/&#34;&gt;CTF Wiki&lt;/a&gt;、&lt;a href=&#34;https://oi-wiki.org/&#34;&gt;OI Wiki&lt;/a&gt; 的启发。在本项目的编写过程中，作者进行了很多创造性（造轮子性）的改造，尤其是对于高中知识体系框架的构建。&lt;/p&gt;
-&lt;p&gt;在编写过程中参考了诸多资料，主要内容来自于教材、书籍、网课、培训机构（山东青岛地区）等，部分资料来源于一些网站，已经放在下面的 Reference 部分，在此一并致谢！&lt;/p&gt;
-&lt;div class=&#34;bib-wrapper&#34;&gt;
-  &lt;h3 class=&#34;bib-header-title&#34;&gt;Core References &amp; Bibliography&lt;/h3&gt;
-
-  &lt;style&gt;
-  .bib-wrapper {
-    margin: 2rem 0 0 0;
-    font-family: var(--md-text-font-family, sans-serif);
-  }
-
-  /* Sectio...</description>
-      <link>https://raineblog.dpdns.org/whk/</link>
-      <pubDate>Tue, 10 Feb 2026 10:23:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/index.png" type="image/png" length="39072" />
-      
-    </item>
-    
-    <item>
       <title>Bot</title>
       
       
@@ -2887,74 +3226,6 @@ $$...&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>物质与分子</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;物质与分子&lt;/h1&gt;
-&lt;p&gt;$$
-\textrm{This page intentionally left blank.}
-$$&lt;/p&gt;
-&lt;h2&gt;物质的量相关定义&lt;/h2&gt;
-&lt;h3&gt;物质的量&lt;/h3&gt;
-&lt;p&gt;反映粒子数目：符号 $n$，单位 $\pu{mol}$。&lt;/p&gt;
-&lt;p&gt;重点：指明具体的&lt;strong&gt;微观&lt;/strong&gt;物质粒子（原子、离子、分子、质子、电子、种子）。&lt;/p&gt;
-&lt;h3&gt;阿伏伽德罗常数&lt;/h3&gt;
-&lt;p&gt;数值上：&lt;/p&gt;
-&lt;p&gt;$$
-\begin{aligned}
-N_A&amp;amp;=6.022\ 140\ 76\times10^{23}\pu{mol^-1}
-\end{aligned}
-$$&lt;/p&gt;
-&lt;p&gt;一般取约数为 $6.02$，注意：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;早期的阿伏伽德罗常数定义为 $\pu{12g}$ 的 $\ce{^12C}$ 中所含的原子个数。&lt;/li&gt;
-&lt;li&gt;现代的定义是一个固定的值（上），由阿伏伽德罗常数和质量定义物质的量。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;$$
-n=\dfrac N{N_A}
-$$&lt;/p&gt;
-&lt;p&gt;其中 $N$ 表示微粒个数。&lt;/p&gt;
-&lt;h3&gt;摩尔质量&lt;/h3&gt;
-&lt;p&gt;单位物质的量的物质所具有的质量：&lt;/p&gt;
-&lt;p&gt;$$
-M=\dfrac{m}{n}
-$$&lt;/p&gt;
-&lt;p&gt;标准单位为 $\pu{g/mol}$，此时摩尔质量数值上等于粒子的相对质量。&lt;/p&gt;
-&lt;h3&gt;摩尔...&lt;/h3&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/structure/1/</link>
-      <pubDate>Tue, 10 Feb 2026 05:35:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/structure/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/1.png" type="image/png" length="45316" />
-      
-    </item>
-    
-    <item>
-      <title>生成式人工智能在学习中的应用与实例探究报告</title>
-      
-      
-        
-      <author>RainPPR</author>
-        
-      
-      
-      
-      <description>生成式人工智能在学习中的应用与实例探究报告</description>
-      <link>https://raineblog.dpdns.org/whk/blog/2026/02/04/%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%9C%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E4%B8%8E%E5%AE%9E%E4%BE%8B%E6%8E%A2%E7%A9%B6%E6%8A%A5%E5%91%8A/</link>
-      <pubDate>Tue, 10 Feb 2026 01:17:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/blog/2026/02/04/%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%9C%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E4%B8%8E%E5%AE%9E%E4%BE%8B%E6%8E%A2%E7%A9%B6%E6%8A%A5%E5%91%8A/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/02/04/%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%9C%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E4%B8%8E%E5%AE%9E%E4%BE%8B%E6%8E%A2%E7%A9%B6%E6%8A%A5%E5%91%8A/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/02/04/生成式人工智能在学习中的应用与实例探究报告.png" type="image/png" length="53425" />
-      
-    </item>
-    
-    <item>
       <title>静电力学</title>
       
       
@@ -3048,43 +3319,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/5/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/5.png" type="image/png" length="45534" />
-      
-    </item>
-    
-    <item>
-      <title>交变电流</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;交变电流&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;科学的历史不仅是一连串事实、规则和随之而来的数学描述，它也是一部概念的历史。当我们进入一个新的领域时，常常需要新的概念。——普朗克&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;交变电流&lt;/h2&gt;
-&lt;p&gt;我们已经学过了恒定电流。在恒定电流的电路中，电源的电动势不随时间变化，电路中的电流、电压也不随时间变化。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;e-image-43.avif&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
-&lt;p&gt;很多用电器中的电流、电压（方向）也随时间做周期性变化，这样的电流叫作交变电流（Alternating Current，AC），简称交流。&lt;strong&gt;方向&lt;/strong&gt;不随时间变化的电流称为直流（Direct Current，DC）。干电池供给的电流方向不随时间变化，所以属于直流。交变电流经过电子电路的处理，也能变成直流。&lt;/p&gt;
-&lt;p&gt;注意：基尔霍夫定律定律适用于直流电路和较低频率的交流电路中，而对高频率的交流电路有较大误差。&lt;/p&gt;
-&lt;p&gt;各类交流电波形具有共同特征：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;具有固定的频率（或作周期性的变化）。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;任何非简谐式的交流电都可以分解为一系列不同频率的简谐成分（傅立叶级数）。所以最基本、最重要的是简谐交流电。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;不同频率的简谐波在...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/electromagnetism/6/</link>
-      <pubDate>Tue, 10 Feb 2026 01:17:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/6/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/6/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/6.png" type="image/png" length="44202" />
       
     </item>
     
@@ -3387,63 +3621,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>数列提高</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;数列提高&lt;/h1&gt;
-&lt;h2&gt;线性递推&lt;/h2&gt;
-&lt;h3&gt;概念&lt;/h3&gt;
-&lt;p&gt;对于 $k$ 阶线性递推式，$a_n$ 仅与 $n$ 前面的 $k$ 项有关。&lt;/p&gt;
-&lt;p&gt;对于常系数齐次线性递推，形如，&lt;/p&gt;
-&lt;p&gt;$$
-\boxed{a_n=\sum_{i=1}^kf_i\times a_{n-i}}
-$$&lt;/p&gt;
-&lt;p&gt;拓展：对于常系数非齐次线性递推，形如，&lt;/p&gt;
-&lt;p&gt;$$
-a_n=P(n)+\sum_{i=1}^kf_i\times a_{n-i}
-$$&lt;/p&gt;
-&lt;p&gt;其中 $P(x)$ 是一个 $m$ 次多项式。&lt;/p&gt;
-&lt;h3&gt;特征方程&lt;/h3&gt;
-&lt;p&gt;形如，&lt;/p&gt;
-&lt;p&gt;$$
-a_n=xa_{n-1}+ya_{n-2}
-$$&lt;/p&gt;
-&lt;p&gt;其特征方程可以表示为，&lt;/p&gt;
-&lt;p&gt;$$
-\boxed{q^2=xq+y}\
-q^2-xq-y=0
-$$&lt;/p&gt;
-&lt;p&gt;推导：&lt;/p&gt;
-&lt;p&gt;设有 $q,t$ 满足，&lt;/p&gt;
-&lt;p&gt;$$
-a_n-qa_{n-1}=t(a_{n-1}-qa_{n-2})\
-a_n=(q+t)a_{n-1}-qta_{n-2}
-$$&lt;/p&gt;
-&lt;p&gt;则，&lt;/p&gt;
-&lt;p&gt;$$
-\begin{cases}
-x=q+t\
-y=-qt
-\end{cases}
-$$&lt;/p&gt;
-&lt;p&gt;得，&lt;/p&gt;
-&lt;p&gt;$$
-q=x-t=x+y/q\
-t=x-q=-y/q\
-q^2=xq...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/sequence/2/</link>
-      <pubDate>Tue, 10 Feb 2026 01:17:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/sequence/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/sequence/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/sequence/2.png" type="image/png" length="44872" />
-      
-    </item>
-    
-    <item>
       <title>空间几何体</title>
       
       
@@ -3475,40 +3652,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/solid/3/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/solid/3.png" type="image/png" length="42690" />
-      
-    </item>
-    
-    <item>
-      <title>生物物种</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;生物物种&lt;/h1&gt;
-&lt;h3&gt;自然选择学说&lt;/h3&gt;
-&lt;p&gt;适应作为一个生物学术语，包括两方面的含义：一是指生物的形态结构适合于完成一定的功能，二是指生物的形态结构及其功能适合于该生物在一定的环境中生存和繁殖。&lt;/p&gt;
-&lt;p&gt;适应是普遍存在的，是普遍性的，但是也具有相对性和局限性。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;物种不变论&lt;/strong&gt;认为，各种生物都是自古以来就如此的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;拉马克彻底否定了物种不变论，提出当今所有的生物都是由更古老的生物进化来的，各种生物的适应性特征并不是自古以来就如此的，而是在进化过程中逐渐形成的。&lt;/p&gt;
-&lt;p&gt;不过他认为适应的形成都是由于&lt;strong&gt;用进废退和获得性遗传&lt;/strong&gt;：器官用得越多就越发达，比如食蚁兽的舌头之所以细长，是长期舔食蚂蚁的结果。器官废而不用，就会造成形态上的退化，比如鼹鼠长期生活在地下，视觉派不上用场，眼睛就萎缩、退化。这些因用进废退而获得的性状是可以遗传给后代的。&lt;/p&gt;
-&lt;p&gt;拉马克提出的进化学说在当时是有进步意义的，但他对适应形成的解释是肤浅的，未被人们普遍接受。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;达尔文提出的&lt;strong&gt;自然选择学说&lt;/strong&gt;对生物的进化和适应的形成作出了合理的解释。他认为适应的来源是可遗传的变异，适应是自然选择的结果。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/species/1/</link>
-      <pubDate>Tue, 10 Feb 2026 01:17:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/species/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/1.png" type="image/png" length="41097" />
       
     </item>
     
@@ -3693,93 +3836,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/cultural/technology/4/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/cultural/technology/4.png" type="image/png" length="45482" />
-      
-    </item>
-    
-    <item>
-      <title>化学实验仪器</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;化学实验仪器&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;多孔球泡：增大气体与溶液的接触面积，加快反应速率，提高气体利用率。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;为了便于阅读，这一部分的内容请放在无序、有序列表中，允许正文文本作为分段。&lt;/p&gt;
-&lt;p&gt;下列仪器分类以玻璃仪器为核心。&lt;/p&gt;
-&lt;h3&gt;测量仪器类&lt;/h3&gt;
-&lt;h4&gt;托盘天平&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;左物右码。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;分度值为 $\pu{0.1g}$。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;干燥固体垫称量纸、易潮解或有腐蚀性放在烧杯内称量。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;量筒&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;先倒后滴。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;分度值为 $\pu{0.1mL}$。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;实现与凹液面下表面向平，或凸液面上表面。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;容量瓶&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;瓶口放磨口橡胶塞或塑料塞，使用前请检漏。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;瓶上标有温度和容量。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;常见容量 $\pu{100, 250, 500, 1000 mL}$。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;大而近原则。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;颈部有刻度线，没有零刻度线。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;四不能：不能溶解稀释、不能做反应仪器、不能长期贮存。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;加热仪器类&lt;/h3&gt;
-&lt;h4&gt;加热概述&lt;/h4&gt;
-&lt;p&gt;浴加热：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;控制反应，受热均匀，温度计放在浴中。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;水浴加热：$\pu{90\sim100^oC}$。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;油浴加热：。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;沙浴加热：...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/experiment/2/</link>
-      <pubDate>Sun, 08 Feb 2026 07:16:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/experiment/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/2.png" type="image/png" length="49762" />
       
     </item>
     
@@ -4146,61 +4202,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/cl/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/cl.png" type="image/png" length="49918" />
-      
-    </item>
-    
-    <item>
-      <title>过渡元素概述</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;过渡元素概述&lt;/h1&gt;
-&lt;h2&gt;铁单质&lt;/h2&gt;
-&lt;h3&gt;物理性质&lt;/h3&gt;
-&lt;p&gt;固体，铁块为银白色，铁粉为黑色。&lt;/p&gt;
-&lt;p&gt;常见形式为化合态，游离态存在于陨铁中。&lt;/p&gt;
-&lt;p&gt;有矿石：黄铁矿（$\ce{FeS2}$）、赤铁矿（$\ce{Fe2O3}$）、磁铁矿（$\ce{Fe3O4}$）、黄铜矿（$\ce{FeCuS2}$）。&lt;/p&gt;
-&lt;p&gt;不锈钢的合金元素主要是铬（$\ce{Cr}$）和镍（$\ce{Ni}$）。&lt;/p&gt;
-&lt;p&gt;碳素钢的分类：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;低碳钢（含碳量少于 $0.3\%$）：韧性好，焊接性好，强度低。用于制造钢丝、钢管、钢板等。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;中碳钢（含碳量在 $0.3\%\sim0.6\%$）：强度高，韧性和加工性好。用于制造钢轨、车轮和建材等。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;高碳钢（含碳量大于 $0.6\%$）：硬而脆。用于制造器械、弹簧和刀具等。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3&gt;化学性质&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;与氧气反应：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;常温：$\ce{Fe + O2 + H2O -&amp;gt; Fe2O3*xH2O}$。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;点燃：$\ce{3Fe + 2O2 -&amp;gt;[点燃] Fe3O4}$，火星四射。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;与酸反应：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;与非氧化性酸反应：$\ce{Fe + 2H+ -&amp;gt; ...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/element/fe/</link>
-      <pubDate>Mon, 12 Jan 2026 04:27:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/element/fe/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/fe/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/fe.png" type="image/png" length="50260" />
       
     </item>
     

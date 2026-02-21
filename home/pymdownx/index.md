@@ -31,8 +31,8 @@
    📁 science/ # (6)!
     .dates_cache.jsonl
     .gitattributes
-    favicon-8e71907.avif
     favicon.ico
+    favicon.png
     favicon.svg
     index.md
     logo.svg
@@ -154,20 +154,20 @@
           2.md
           3.md
           4.md
-          image-1-58e56a7.avif
           image-1.avif
-          image-2-19b443a.avif
+          image-1.png
           image-2.avif
-          image-3-cca4644.avif
+          image-2.png
           image-3.avif
-          image-4-b513e48.avif
+          image-3.png
           image-4.avif
-          image-5-67e1749.avif
+          image-4.png
           image-5.avif
-          image-6-d80fabd.avif
-          image-6aa58df.avif
-          image-7-db0a7b7.avif
+          image-5.png
+          image-6.png
+          image-7.png
           image.avif
+          image.png
          ```
       1. ```bash
           1.avif
@@ -371,8 +371,8 @@
           单线桥.avif
           双线桥.avif
           套管实验.avif
-          海水工业-b062e51.avif
-          物质-d1a02d8.avif
+          海水工业.svg
+          物质.svg
           铝三角.avif
          ```
       1. ```bash
@@ -437,8 +437,8 @@
           image-17.avif
           image-18.avif
           image-19.avif
-          image-2-7b93ac4.avif
           image-2.avif
+          image-2.png
           image-20.avif
           image-21.avif
           image-22.avif
@@ -562,7 +562,7 @@
           6.md
           7.md
           786ede037f970bf8_e2317df.svg
-          997a0e28b6108d82_6fa4db1-04f417b.avif
+          997a0e28b6108d82_6fa4db1.svg
           Bi-elliptic_transfer.svg
           Doppler_effect_diagrammatic.svg
           KSPedia_102.avif
@@ -611,7 +611,7 @@
           EM_spectrum_zh-hans.svg
           Light-matter_interaction_-_schematic.svg
           Mirage_principle.svg
-          Optical_fiber_types_8399934-ad283e8.avif
+          Optical_fiber_types_8399934.svg
           Optical_flat_interference.svg
           Pencil_in_a_bowl_of_water.svg
           Photoelectric_effect_diagram_zh-hans.avif
@@ -620,12 +620,12 @@
           RefractionReflextion-zh.svg
           Standard_Model_of_Elementary_Particles_zh-hans.svg
           Wiens.svg
-          image-1-0a6c3ee.avif
           image-1.avif
+          image-1.png
           image-18.avif
           image-19.avif
-          image-2-579e3e1.avif
           image-2.avif
+          image-2.png
           image-20.avif
           image-21.avif
           image-22.avif
@@ -636,18 +636,18 @@
           image-27.avif
           image-28.avif
           image-29.avif
-          image-3-d77f972.avif
           image-3.avif
+          image-3.png
           image-30.avif
           image-31.avif
-          image-4-7226621.avif
           image-4.avif
+          image-4.png
           image-5.avif
-          image-5bb648c.avif
           image-6.avif
           image-7.avif
           image-8.avif
           image.avif
+          image.png
           image_2ae7a8c.svg
           image_a673292.svg
          ```
@@ -871,8 +871,8 @@
           Standard_deviation_diagram.svg
           Zufall.avif
           image-1.avif
-          image-b1cb125.avif
           image.avif
+          image.png
          ```
       1. ```bash
           1.md
@@ -941,8 +941,8 @@
           fimage-2.avif
           fimage-3.avif
           fimage.avif
-          image-1-c11ec30.avif
           image-1.avif
+          image-1.png
           image-10.avif
           image-11.avif
           image-2.avif
@@ -953,8 +953,8 @@
           image-7.avif
           image-8.avif
           image-9.avif
-          image-de00e51.avif
           image.avif
+          image.png
           sp3.avif
           元素周期律.avif
           元素周期表的分区.avif

@@ -1,6 +1,6 @@
 # 线性规划
 
-### 例题 1
+## 例题 1
 
 [\\begin{cases}5x-11y \\geq -22 \\ 2x+3y \\geq 9 \\ 2x \\leq 11\\end{cases}]
 
