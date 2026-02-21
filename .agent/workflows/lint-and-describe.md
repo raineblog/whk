@@ -23,3 +23,7 @@ description: 检查 lint 和自动生成 meta 中的 description 字段要求。
 - 对于 Markdown codeblock 中的文字，默认开启了 autocorrect 中相应配置，但是对于大量英文代码的情况，可能会有问题，如果问题过多，或者你认为可能引起不必要的麻烦，请忽略这类问题。
 
 - 对于中文之间有多余空格，目前的 lint 无法识别，例如从 PDF 中拷贝进去的文字，有 `中 文 之 间 多 余 空 格` 的问题，请你修复为例如中文之间多余空格。
+
+- 部分 KaTeX 公式使用了自定义宏，尽管我们不建议你使用，但是用户使用就不要动了，请参考 `.agent/rules/ex-markdown-format-rules.md` `.agent/rules/ex-mkdocs-format-rules.md` `.agent/rules/ex-copywriting-guidelines.md` 三个文件。请你在执行任何命令之前阅读 rules 中的所有内容，确保你掌握整个项目。
+
+- 注意：请严格按照 4 空格缩进有无序列表等。

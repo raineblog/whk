@@ -12,6 +12,8 @@ def remove_ansi_codes(text):
 def run_lint(file_path):
     log_file = f"{file_path}.log"
     results = []
+
+    results.append(sys.executable + ' ' + ' '.join(sys.argv) + "\n" )
     
     def run_tool(cmd_list, name):
         results.append(f"=== {name} ===\n")
