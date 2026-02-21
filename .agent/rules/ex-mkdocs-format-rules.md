@@ -47,6 +47,58 @@ extra_css:
 - assets/katex/katex-swap.min.css
 ```
 
+```
+katex_options:
+            trust: true
+            macros:
+                # 下面是一些符号的兼容性定义
+                "\\RR": "\\mathbb{R}"
+                "\\i": "\\mathrm{i}"
+                "\\d": "\\mathrm{d}"
+                "\\C": "\\mathbb{C}"
+                "\\R": "\\mathbb{R}"
+                "\\Q": "\\mathbb{Q}"
+                "\\Z": "\\mathbb{Z}"
+                "\\N": "\\mathbb{N}"
+                "\\P": "\\mathbb{P}"
+                "\\degree": "^\\circ"
+                "\\rank": "\\operatorname{rank}" # 矩阵的秩
+                # 下面是一些简写的定义
+                "\\op": "\\operatorname"
+                "\\paren": "\\left({#1}\\right)"
+                "\\bracket": "\\left[{#1}\\right]"
+                "\\brace": "\\left\\{{#1}\\right\\}"
+                "\\ceil": "\\left\\lceil{#1}\\right\\rceil"
+                "\\floor": "\\left\\lfloor{#1}\\right\\rfloor"
+                "\\vert": "\\left\\lvert{#1}\\right\\rvert"
+                "\\vec": "\\bm" # 默认使用粗体表示向量
+                "\\vecc": "\\overrightarrow" # 默认使用上标箭头表示有向线段
+                # 下面是一些文化课用的定义
+                "\\poly": "\\ce{-\\!\\!\\![ #1 ]_n\\!\\!\\!\\!\\!-}" # 有机化学 聚合物
+                "\\el": "#1\\mathrm{#2}^{#3}" # 结构化学 能级
+                "\\pH": "p\\ce{H}"
+                "\\pOH": "p\\ce{OH}"
+                "\\con": "\\left[\\ce{#1}\\right]" # 化学计量 一般表示摩尔浓度
+                # 下面都是一些不标准的 Unicode 转移
+                "’": "'"
+                "，": ","
+                "。": "."
+                "；": ";"
+                "：": ":"
+                "！": "!"
+                "？": "?"
+                "【": "["
+                "】": "]"
+                "（": "("
+                "）": ")"
+                "、": ","
+                "—": "-"
+                "…": "\\dots"
+                "·": "\\cdot"
+                "->": "\\to"
+                "<-": "\\gets"
+```
+
 在具体书写上，下面提供一个较为完整的写法提示：
 
 ```md
@@ -125,3 +177,5 @@ $\ce{H2 + O2 -> H2O}+$ 能量
 </center>
 
 同时这意味着 HTML 的块可以写，也要与段落之间有空行，尽量避免使用太多无用的 <p> <a> 标签等，如果能用原生的 Markdown 语法，避免使用 HTML 标签。
+
+注意：请严格按照 4 空格缩进有无序列表等。
