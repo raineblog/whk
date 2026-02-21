@@ -61,3 +61,7 @@ docs/assets
 
 package.json
 package-lock.json
+
+*.log
+*.txt
+*.tmp

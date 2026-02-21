@@ -193,80 +193,80 @@
   </style>
 
   <div class="bib-grid">
-    <!-- Entry 01 -->
-    <a href="https://zh.wikibooks.org/wiki/%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6" target="_blank" class="bib-card accent-blue">
-      <div class="bib-card-index">01</div>
-      <div class="bib-card-main">
-        <span class="bib-card-author">维基教科书</span>
-        <div class="bib-card-title">高中数学</div>
+  <!-- Entry 01 -->
+  <a href="https://zh.wikibooks.org/wiki/%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6" target="_blank" class="bib-card accent-blue">
+  <div class="bib-card-index">01</div>
+  <div class="bib-card-main">
+  <span class="bib-card-author">维基教科书</span>
+  <div class="bib-card-title">高中数学</div>
       </div>
-      <div class="bib-card-meta">
-        <div class="bib-meta-item">
-          <span class="bib-meta-label">Source</span>
-          <span class="bib-meta-value">wikibooks.org</span>
+  <div class="bib-card-meta">
+  <div class="bib-meta-item">
+  <span class="bib-meta-label">Source</span>
+  <span class="bib-meta-value">wikibooks.org</span>
         </div>
-        <div class="bib-meta-item">
-          <span class="bib-meta-label">Type</span>
-          <span class="bib-meta-value">Textbook</span>
+  <div class="bib-meta-item">
+  <span class="bib-meta-label">Type</span>
+  <span class="bib-meta-value">Textbook</span>
         </div>
       </div>
-    </a>
+  </a>
 
-    <!-- Entry 02 -->
-    <a href="https://whk-wiki.github.io/whk-wiki/" target="_blank" class="bib-card accent-green">
-      <div class="bib-card-index">02</div>
-      <div class="bib-card-main">
-        <span class="bib-card-author">whk-wiki</span>
-        <div class="bib-card-title">whk wiki</div>
+  <!-- Entry 02 -->
+  <a href="https://whk-wiki.github.io/whk-wiki/" target="_blank" class="bib-card accent-green">
+  <div class="bib-card-index">02</div>
+  <div class="bib-card-main">
+  <span class="bib-card-author">whk-wiki</span>
+  <div class="bib-card-title">whk wiki</div>
       </div>
-      <div class="bib-card-meta">
-        <div class="bib-meta-item">
-          <span class="bib-meta-label">Source</span>
-          <span class="bib-meta-value">github.io</span>
+  <div class="bib-card-meta">
+  <div class="bib-meta-item">
+  <span class="bib-meta-label">Source</span>
+  <span class="bib-meta-value">github.io</span>
         </div>
-        <div class="bib-meta-item">
-          <span class="bib-meta-label">Type</span>
-          <span class="bib-meta-value">Community</span>
+  <div class="bib-meta-item">
+  <span class="bib-meta-label">Type</span>
+  <span class="bib-meta-value">Community</span>
         </div>
       </div>
-    </a>
+  </a>
 
-    <!-- Entry 03 -->
-    <a href="https://github.com/liuhaopeng543/MathBook" target="_blank" class="bib-card accent-red">
-      <div class="bib-card-index">03</div>
-      <div class="bib-card-main">
-        <span class="bib-card-author">liuhaopeng543</span>
-        <div class="bib-card-title">MathBook</div>
+  <!-- Entry 03 -->
+  <a href="https://github.com/liuhaopeng543/MathBook" target="_blank" class="bib-card accent-red">
+  <div class="bib-card-index">03</div>
+  <div class="bib-card-main">
+  <span class="bib-card-author">liuhaopeng543</span>
+  <div class="bib-card-title">MathBook</div>
       </div>
-      <div class="bib-card-meta">
-        <div class="bib-meta-item">
-          <span class="bib-meta-label">Source</span>
-          <span class="bib-meta-value">github.com</span>
+  <div class="bib-card-meta">
+  <div class="bib-meta-item">
+  <span class="bib-meta-label">Source</span>
+  <span class="bib-meta-value">github.com</span>
         </div>
-        <div class="bib-meta-item">
-          <span class="bib-meta-label">Type</span>
-          <span class="bib-meta-value">Personal</span>
+  <div class="bib-meta-item">
+  <span class="bib-meta-label">Type</span>
+  <span class="bib-meta-value">Personal</span>
         </div>
       </div>
-    </a>
+  </a>
 
-    <!-- Entry 04 -->
-    <a href="https://lailai.one/zh-Hans/docs/note" target="_blank" class="bib-card accent-purple">
-      <div class="bib-card-index">04</div>
-      <div class="bib-card-main">
-        <span class="bib-card-author">lailai</span>
-        <div class="bib-card-title">Note</div>
+  <!-- Entry 04 -->
+  <a href="https://lailai.one/zh-Hans/docs/note" target="_blank" class="bib-card accent-purple">
+  <div class="bib-card-index">04</div>
+  <div class="bib-card-main">
+  <span class="bib-card-author">lailai</span>
+  <div class="bib-card-title">Note</div>
       </div>
-      <div class="bib-card-meta">
-        <div class="bib-meta-item">
-          <span class="bib-meta-label">Source</span>
-          <span class="bib-meta-value">lailai.one</span>
+  <div class="bib-card-meta">
+  <div class="bib-meta-item">
+  <span class="bib-meta-label">Source</span>
+  <span class="bib-meta-value">lailai.one</span>
         </div>
-        <div class="bib-meta-item">
-          <span class="bib-meta-label">Type</span>
-          <span class="bib-meta-value">Personal</span>
+  <div class="bib-meta-item">
+  <span class="bib-meta-label">Type</span>
+  <span class="bib-meta-value">Personal</span>
         </div>
       </div>
-    </a>
+  </a>
   </div>
 </div>

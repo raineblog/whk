@@ -1,6 +1,6 @@
 {
     "default": true,
-    "MD001": true,
+    "MD001": false,
     "MD003": {
         "style": "atx"
     },
@@ -49,5 +49,6 @@
     },
     "MD050": {
         "style": "asterisk"
-    }
+    },
+    "MD060": false
 }
