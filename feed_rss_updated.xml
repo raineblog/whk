@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Fri, 20 Feb 2026 14:31:32 -0000</pubDate>
-    <lastBuildDate>Fri, 20 Feb 2026 14:31:32 -0000</lastBuildDate>
+    <pubDate>Sat, 21 Feb 2026 09:33:13 -0000</pubDate>
+    <lastBuildDate>Sat, 21 Feb 2026 09:33:13 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-20&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-20T14:31:33.103654+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-20&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-20T14:31:33....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-21&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-21T09:33:13.647812+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-21&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-21T09:33:13....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Fri, 20 Feb 2026 14:31:00 +0000</pubDate>
+      <pubDate>Sat, 21 Feb 2026 09:33:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
@@ -57,12 +57,67 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/page/2/</link>
-      <pubDate>Fri, 20 Feb 2026 14:31:00 +0000</pubDate>
+      <pubDate>Sat, 21 Feb 2026 09:33:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/page/2/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/page/2.png" type="image/png" length="None" />
+      
+    </item>
+    
+    <item>
+      <title>函数性质</title>
+      
+      
+      
+      
+      <description>深入剖析了各类函数的基本性质及其内在联系，详细介绍了几类重要函数模型。文章突破了传统的高中解法，引入微分算子和积分因子的概念，揭示了构造辅助函数的理论本质。同时，结合内点效应与牛顿迭代等拓展技巧，为解决高中与竞赛中的函数单调性、极值、零点存在性及数量判定等复杂问题提供了严密的方法论基础。</description>
+      <link>https://raineblog.dpdns.org/whk/science/function/3/</link>
+      <pubDate>Sat, 21 Feb 2026 09:31:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/function/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/3.png" type="image/png" length="48430" />
+      
+    </item>
+    
+    <item>
+      <title>有机化学概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;有机化学概述&lt;/h1&gt;
+&lt;h2&gt;有机化学&lt;/h2&gt;
+&lt;h3&gt;有机化合物&lt;/h3&gt;
+&lt;p&gt;有机物指的是含碳元素的化合物，研究有机物的化学则称为有机化学。有机物中除了碳通常还含有氢、氧、氮、硫、卤素、磷等元素。碳氧化物、碳酸盐、碳酸氢盐、碳化物等虽然含有碳但是不算为有机物。&lt;/p&gt;
+&lt;p&gt;与无机物相比，有机物普遍具有以下性质：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;物理性质：大多熔点较低，且难溶于水，易溶于汽油、乙醇、苯等有机溶剂。  &lt;/li&gt;
+&lt;li&gt;热稳定性：大多数有机物易燃，受热会分解。  &lt;/li&gt;
+&lt;li&gt;化学反应：有机物的化学反应较为复杂，常伴有副反应，许多反应需在加热、光照或催化剂作用下进行。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;碳的成键特点&lt;/h3&gt;
+&lt;p&gt;碳原子有四个价电子，使其不易失去或得到电子形成离子，故与各非金属元素之间形成共价键，但是有机物不一定就只能是共价化合物，离子化合物如有机酸盐等。&lt;/p&gt;
+&lt;p&gt;碳原子在有机物中，通常与四个原子直接相连，即配位数为 $4$，与一个碳原子相连的原子既可以是碳原子、也可以是其他原子，碳原子的这种独特的成键能力，是有机化合物多样性的根本原因。&lt;/p&gt;
+&lt;p&gt;/// note | 为什么硅没有形成硅基有机化合物？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;碳碳单键稳定性强，增强了有机物的稳定性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;碳的原子半径...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/organic/1/</link>
+      <pubDate>Sat, 21 Feb 2026 09:31:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/organic/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/1.png" type="image/png" length="47250" />
       
     </item>
     
@@ -1191,44 +1246,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>有机化学概述</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;有机化学概述&lt;/h1&gt;
-&lt;h2&gt;有机化学&lt;/h2&gt;
-&lt;h3&gt;有机化合物&lt;/h3&gt;
-&lt;p&gt;有机物指的是含碳元素的化合物，研究有机物的化学则称为有机化学。有机物中除了碳通常还含有氢、氧、氮、硫、卤素、磷等元素。碳氧化物、碳酸盐、碳酸氢盐、碳化物等虽然含有碳但是不算为有机物。&lt;/p&gt;
-&lt;p&gt;与无机物相比，有机物普遍具有以下性质：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;物理性质：大多熔点较低，且难溶于水，易溶于汽油、乙醇、苯等有机溶剂。  &lt;/li&gt;
-&lt;li&gt;热稳定性：大多数有机物易燃，受热会分解。  &lt;/li&gt;
-&lt;li&gt;化学反应：有机物的化学反应较为复杂，常伴有副反应，许多反应需在加热、光照或催化剂作用下进行。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;碳的成键特点&lt;/h3&gt;
-&lt;p&gt;碳原子有四个价电子，使其不易失去或得到电子形成离子，故与各非金属元素之间形成共价键，但是有机物不一定就只能是共价化合物，离子化合物如有机酸盐等。&lt;/p&gt;
-&lt;p&gt;碳原子在有机物中，通常与四个原子直接相连，即配位数为 $4$，与一个碳原子相连的原子既可以是碳原子、也可以是其他原子，碳原子的这种独特的成键能力，是有机化合物多样性的根本原因。&lt;/p&gt;
-&lt;p&gt;/// note | 为什么硅没有形成硅基有机化合物？&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;碳碳单键稳定性强，增强了有机物的稳定性。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;碳的原子半径...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/organic/1/</link>
-      <pubDate>Thu, 19 Feb 2026 14:33:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/organic/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/1.png" type="image/png" length="47250" />
-      
-    </item>
-    
-    <item>
       <title>有机物的分类</title>
       
       
@@ -1902,55 +1919,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/2/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/2.png" type="image/png" length="43078" />
-      
-    </item>
-    
-    <item>
-      <title>函数性质</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;函数性质&lt;/h1&gt;
-&lt;h2&gt;基本性质&lt;/h2&gt;
-&lt;h3&gt;奇偶性&lt;/h3&gt;
-&lt;p&gt;定义奇偶性于定义域关于 $0$ 对称的函数上，奇函数为：&lt;/p&gt;
-&lt;p&gt;$$
-f(x)+f(-x)=0
-$$&lt;/p&gt;
-&lt;p&gt;因此，我们知道，如果定义域中有 $0$，那么只有 $f(0)=0$ 的函数才可能为奇函数。&lt;/p&gt;
-&lt;p&gt;偶函数为：&lt;/p&gt;
-&lt;p&gt;$$
-f(x)=f(-x)
-$$&lt;/p&gt;
-&lt;p&gt;特殊的，奇函数的绝对值为偶函数。&lt;/p&gt;
-&lt;p&gt;奇偶性的乘除法则：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;奇函数 $\pm$ 奇函数 $=$ 奇函数。&lt;/li&gt;
-&lt;li&gt;偶函数 $\pm$ 偶函数 $=$ 偶函数。&lt;/li&gt;
-&lt;li&gt;奇函数 $\pm$ 偶函数 $=$ 非奇非偶。&lt;/li&gt;
-&lt;li&gt;奇函数 $\times$ 奇函数 $=$ 偶函数。&lt;/li&gt;
-&lt;li&gt;奇函数 $\times$ 偶函数 $=$ 奇函数。&lt;/li&gt;
-&lt;li&gt;偶函数 $\times$ 偶函数 $=$ 偶函数。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;复合函数的奇偶性：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;奇函数 $\circ$ 奇函数 $=$ 奇函数。&lt;/li&gt;
-&lt;li&gt;偶函数 $\circ$ 奇函数 $=$ 偶函数。&lt;/li&gt;
-&lt;li&gt;奇函数 $\circ$ 偶函数 $=$ 偶函数。&lt;/li&gt;
-&lt;li&gt;偶函数 $\circ$ 偶函数 $=$ 偶函数。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;经典做题套路：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;若 $f(x)$ 为偶函数，首先判断是否能转化为奇函数来...&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/function/3/</link>
-      <pubDate>Thu, 19 Feb 2026 14:05:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/function/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/3.png" type="image/png" length="45116" />
       
     </item>
     

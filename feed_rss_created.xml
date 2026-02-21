@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Fri, 20 Feb 2026 14:31:32 -0000</pubDate>
-    <lastBuildDate>Fri, 20 Feb 2026 14:31:32 -0000</lastBuildDate>
+    <pubDate>Sat, 21 Feb 2026 09:33:13 -0000</pubDate>
+    <lastBuildDate>Sat, 21 Feb 2026 09:33:13 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-20&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-20T14:31:33.103654+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-20&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-20T14:31:33....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-21&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-21T09:33:13.647812+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-21&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-21T09:33:13....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Fri, 20 Feb 2026 14:31:00 +0000</pubDate>
+      <pubDate>Sat, 21 Feb 2026 09:33:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
@@ -57,7 +57,7 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/page/2/</link>
-      <pubDate>Fri, 20 Feb 2026 14:31:00 +0000</pubDate>
+      <pubDate>Sat, 21 Feb 2026 09:33:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/page/2/</guid>
@@ -3025,46 +3025,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;函数性质&lt;/h1&gt;
-&lt;h2&gt;基本性质&lt;/h2&gt;
-&lt;h3&gt;奇偶性&lt;/h3&gt;
-&lt;p&gt;定义奇偶性于定义域关于 $0$ 对称的函数上，奇函数为：&lt;/p&gt;
-&lt;p&gt;$$
-f(x)+f(-x)=0
-$$&lt;/p&gt;
-&lt;p&gt;因此，我们知道，如果定义域中有 $0$，那么只有 $f(0)=0$ 的函数才可能为奇函数。&lt;/p&gt;
-&lt;p&gt;偶函数为：&lt;/p&gt;
-&lt;p&gt;$$
-f(x)=f(-x)
-$$&lt;/p&gt;
-&lt;p&gt;特殊的，奇函数的绝对值为偶函数。&lt;/p&gt;
-&lt;p&gt;奇偶性的乘除法则：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;奇函数 $\pm$ 奇函数 $=$ 奇函数。&lt;/li&gt;
-&lt;li&gt;偶函数 $\pm$ 偶函数 $=$ 偶函数。&lt;/li&gt;
-&lt;li&gt;奇函数 $\pm$ 偶函数 $=$ 非奇非偶。&lt;/li&gt;
-&lt;li&gt;奇函数 $\times$ 奇函数 $=$ 偶函数。&lt;/li&gt;
-&lt;li&gt;奇函数 $\times$ 偶函数 $=$ 奇函数。&lt;/li&gt;
-&lt;li&gt;偶函数 $\times$ 偶函数 $=$ 偶函数。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;复合函数的奇偶性：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;奇函数 $\circ$ 奇函数 $=$ 奇函数。&lt;/li&gt;
-&lt;li&gt;偶函数 $\circ$ 奇函数 $=$ 偶函数。&lt;/li&gt;
-&lt;li&gt;奇函数 $\circ$ 偶函数 $=$ 偶函数。&lt;/li&gt;
-&lt;li&gt;偶函数 $\circ$ 偶函数 $=$ 偶函数。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;经典做题套路：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;若 $f(x)$ 为偶函数，首先判断是否能转化为奇函数来...&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>深入剖析了各类函数的基本性质及其内在联系，详细介绍了几类重要函数模型。文章突破了传统的高中解法，引入微分算子和积分因子的概念，揭示了构造辅助函数的理论本质。同时，结合内点效应与牛顿迭代等拓展技巧，为解决高中与竞赛中的函数单调性、极值、零点存在性及数量判定等复杂问题提供了严密的方法论基础。</description>
       <link>https://raineblog.dpdns.org/whk/science/function/3/</link>
       <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/function/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/3.png" type="image/png" length="45116" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/3.png" type="image/png" length="48430" />
       
     </item>
     
