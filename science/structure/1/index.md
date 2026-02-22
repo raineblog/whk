@@ -105,7 +105,7 @@
 
 ## 分子动理论
 
-注意：关于分子动理论的部分，这篇文章作者自己感觉写的并不是很好，建议先阅读[小时百科上的分子动理论（高中）](https://huggingface.co/datasets/RainPPR/whk/blob/main/physics/%E5%88%86%E5%AD%90%E5%8A%A8%E7%90%86%E8%AE%BA%EF%BC%88%E9%AB%98%E4%B8%AD%EF%BC%89%20-%20%E5%B0%8F%E6%97%B6%E7%99%BE%E7%A7%91.pdf)内容，或者看完本文后，结合那个进行记忆。
+注意：关于分子动理论的部分，这篇文章作者自己感觉写的并不是很好，建议先阅读[小时百科上的分子动理论（高中）](https://web.archive.org/web/20260221104106/https://wuli.wiki/online/thermo.html)或者[我的 PDF 存档](https://huggingface.co/datasets/RainPPR/whk/blob/main/physics/%E5%88%86%E5%AD%90%E5%8A%A8%E7%90%86%E8%AE%BA%EF%BC%88%E9%AB%98%E4%B8%AD%EF%BC%89%20-%20%E5%B0%8F%E6%97%B6%E7%99%BE%E7%A7%91.pdf)内容，或者看完本文后，结合那个进行记忆。
 
 ### 分子热运动
 

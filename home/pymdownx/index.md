@@ -643,6 +643,7 @@
           image-4-8076e3a.avif
           image-4.avif
           image-5.avif
+          image-5.png
           image-6.avif
           image-7.avif
           image-8.avif
