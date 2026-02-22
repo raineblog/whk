@@ -154,20 +154,20 @@
           2.md
           3.md
           4.md
+          image-1-61c552e.avif
           image-1.avif
-          image-1.png
+          image-2-d777481.avif
           image-2.avif
-          image-2.png
+          image-3-9f83429.avif
           image-3.avif
-          image-3.png
+          image-4-935faa7.avif
           image-4.avif
-          image-4.png
+          image-5-774ea67.avif
           image-5.avif
-          image-5.png
-          image-6.png
-          image-7.png
+          image-6-0faf96a.avif
+          image-7-0ace124.avif
+          image-b242dda.avif
           image.avif
-          image.png
          ```
       1. ```bash
           1.avif
@@ -371,8 +371,8 @@
           单线桥.avif
           双线桥.avif
           套管实验.avif
-          海水工业.svg
-          物质.svg
+          海水工业-f9e510d.avif
+          物质-dcbbc0d.avif
           铝三角.avif
          ```
       1. ```bash
@@ -437,8 +437,8 @@
           image-17.avif
           image-18.avif
           image-19.avif
+          image-2-9525fa1.avif
           image-2.avif
-          image-2.png
           image-20.avif
           image-21.avif
           image-22.avif
@@ -562,7 +562,7 @@
           6.md
           7.md
           786ede037f970bf8_e2317df.svg
-          997a0e28b6108d82_6fa4db1.svg
+          997a0e28b6108d82_6fa4db1-56c4028.avif
           Bi-elliptic_transfer.svg
           Doppler_effect_diagrammatic.svg
           KSPedia_102.avif
@@ -611,7 +611,7 @@
           EM_spectrum_zh-hans.svg
           Light-matter_interaction_-_schematic.svg
           Mirage_principle.svg
-          Optical_fiber_types_8399934.svg
+          Optical_fiber_types_8399934-5168fcc.avif
           Optical_flat_interference.svg
           Pencil_in_a_bowl_of_water.svg
           Photoelectric_effect_diagram_zh-hans.avif
@@ -620,12 +620,12 @@
           RefractionReflextion-zh.svg
           Standard_Model_of_Elementary_Particles_zh-hans.svg
           Wiens.svg
+          image-1-dfbe10f.avif
           image-1.avif
-          image-1.png
           image-18.avif
           image-19.avif
+          image-2-2b384b7.avif
           image-2.avif
-          image-2.png
           image-20.avif
           image-21.avif
           image-22.avif
@@ -636,18 +636,18 @@
           image-27.avif
           image-28.avif
           image-29.avif
+          image-3-d4e31b1.avif
           image-3.avif
-          image-3.png
           image-30.avif
           image-31.avif
+          image-4-8076e3a.avif
           image-4.avif
-          image-4.png
           image-5.avif
           image-6.avif
           image-7.avif
           image-8.avif
+          image-c6b859b.avif
           image.avif
-          image.png
           image_2ae7a8c.svg
           image_a673292.svg
          ```
@@ -870,9 +870,9 @@
           4.md
           Standard_deviation_diagram.svg
           Zufall.avif
+          image-07dd56b.avif
           image-1.avif
           image.avif
-          image.png
          ```
       1. ```bash
           1.md
@@ -941,9 +941,10 @@
           fimage-2.avif
           fimage-3.avif
           fimage.avif
+          image-1-99bf5e2.avif
           image-1.avif
-          image-1.png
           image-10.avif
+          image-1038de9.avif
           image-11.avif
           image-2.avif
           image-3.avif
@@ -954,7 +955,6 @@
           image-8.avif
           image-9.avif
           image.avif
-          image.png
           sp3.avif
           元素周期律.avif
           元素周期表的分区.avif

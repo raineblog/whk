@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sun, 22 Feb 2026 01:25:56 -0000</pubDate>
-    <lastBuildDate>Sun, 22 Feb 2026 01:25:56 -0000</lastBuildDate>
+    <pubDate>Sun, 22 Feb 2026 08:42:08 -0000</pubDate>
+    <lastBuildDate>Sun, 22 Feb 2026 08:42:08 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-22&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-22T01:25:56.887287+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-22&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-22T01:25:56....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-22&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-22T08:42:08.690304+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-22&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-22T08:42:08....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Sun, 22 Feb 2026 01:25:00 +0000</pubDate>
+      <pubDate>Sun, 22 Feb 2026 08:42:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
@@ -57,12 +57,283 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/page/2/</link>
-      <pubDate>Sun, 22 Feb 2026 01:25:00 +0000</pubDate>
+      <pubDate>Sun, 22 Feb 2026 08:42:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/page/2/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/page/2.png" type="image/png" length="None" />
+      
+    </item>
+    
+    <item>
+      <title>细胞的生命历程</title>
+      
+      
+      
+      
+      <description>本文系统梳理了细胞的生命历程相关知识，涵盖细胞分裂（减数分裂）、植物细胞工程（组织培养、体细胞杂交）、动物细胞工程（细胞培养、融合、核移植、干细胞与 iPS 细胞）、胚胎工程（受精、早期胚胎发育、体外受精、胚胎移植与分割）以及基因工程（重组 DNA 技术的工具与操作程序、PCR 扩增、基因表达载体构建、转基因应用）和蛋白质工程的原理与应用，是高中生物选择性必修三的核心内容整理。</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/3/</link>
+      <pubDate>Sat, 21 Feb 2026 14:24:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="31283" />
+      
+    </item>
+    
+    <item>
+      <title>物质及元素</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;物质及元素&lt;/h1&gt;
+&lt;h2&gt;化学概念&lt;/h2&gt;
+&lt;p&gt;性质本身是能力、本领、也可以说是对外所起的作用，是物质或体系呈现给客观世界的一种形象或状态。对于化学性质有哪些，没有确定的结论，一般认为发生化学变化中才表现出来的性质就是化学性质；没有发生化学变化就表现出来的性质是物理性质。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;化学是一门研究物质的组成、结构、性质和变化规律的自然科学。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;化学变化是有其他物质生成的变化，物理变化是没有其他物质生成的变化。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;化学性质是只有通过化学变化才能表现出来的性质，物理性质是如颜色、状态、气味、熔点、沸点、硬度、密度等是不需要通过化学变化就能表现出来的性质。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;由一种元素构成的结构不同的单质互称为同素异形体。如金刚石、石墨和 C60 互称为同素异形体。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;木炭、焦炭、炭黑都是由微小的石墨晶体和少量杂质组成的，统称为无定形碳。因此，无定形碳不属于碳的同素异形体。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;燃烧是可燃物跟空气中的氧气发生的发光发热的剧烈的氧化反应。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;可燃性通常是指可燃物能在空气或氧气中发生燃烧的性质；在一定条件下，可以发生燃烧的物质称为可燃物。可燃物具有可燃性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;分散系是将一种或多种物质分散到另一种...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/</link>
+      <pubDate>Sat, 21 Feb 2026 14:24:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/index.png" type="image/png" length="47564" />
+      
+    </item>
+    
+    <item>
+      <title>卤族元素概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;卤族元素概述&lt;/h1&gt;
+&lt;h2&gt;卤素性质概述&lt;/h2&gt;
+&lt;h3&gt;卤素物理性质&lt;/h3&gt;
+&lt;p&gt;卤族元素普遍在 $\ce{CCl4}$ 中溶解度大于水，相似相容。&lt;/p&gt;
+&lt;p&gt;卤族元素颜色：&lt;/p&gt;
+&lt;p&gt;| | 氯元素 $\ce{Cl}$ | 溴元素 $\ce{Br}$ | 碘元素 $\ce{I}$ |
+| :-: | :-: | :-: | :-: |
+| 单质 | 黄绿色气体 | 深红棕色气体 | 紫黑色固体 |
+| 卤化银沉淀 | 白色 | 淡黄色 | 黄色 |
+| 水溶液颜色 | 黄绿色 | 橙色 | 黄褐色 |
+| 四氯化碳溶液颜色 | 黄绿色 | 橙红色 | 紫红色 |&lt;/p&gt;
+&lt;p&gt;从上到下，熔沸点升高，非金属性减弱，与氢气反应依次减弱。&lt;/p&gt;
+&lt;p&gt;$$
+\ce{H2 + F2 -&amp;gt;[暗处爆炸] 2HF}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\ce{H2 + Cl2 -&amp;gt;[光照或点燃] 2HCl}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\ce{H2 + Br2 -&amp;gt;[加热] 2HBr}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\ce{H2 + I2 &amp;lt;=&amp;gt;[高温] 2HI}
+$$&lt;/p&gt;
+&lt;p&gt;氯气的物理性质：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;黄绿色气体。&lt;/li&gt;
+&lt;li&gt;有刺激性气味。&lt;/li&gt;
+&lt;li&gt;密度大于水。&lt;/li&gt;
+&lt;li&gt;可溶于水。&lt;/li&gt;
+&lt;li&gt;有毒。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;卤素化学性...&lt;/h3&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/cl/</link>
+      <pubDate>Sat, 21 Feb 2026 14:24:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/cl/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/cl/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/cl.png" type="image/png" length="49918" />
+      
+    </item>
+    
+    <item>
+      <title>圆锥曲线</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;圆锥曲线&lt;/h1&gt;
+&lt;h2&gt;椭圆&lt;/h2&gt;
+&lt;h3&gt;第一定义&lt;/h3&gt;
+&lt;p&gt;到两个定点 $F_1$、$F_2$ 的距离之和为定值（大于 $|F_1F_2|$）的点所形成的轨迹称为椭圆。这两个定点叫做椭圆的焦点，两焦点间的距离叫做椭圆的焦距，焦距的一半称为半焦距。&lt;/p&gt;
+&lt;p&gt;我们不妨设 $F_1=(-c,0),F_2=(c,0)$ 为焦点的椭圆经过 $M$ 点，且 $M$ 到 $F_1,F_2$ 的局里之和为 $2a$，其中 $a&amp;gt;c$，那么写出方程：&lt;/p&gt;
+&lt;p&gt;$$
+\sqrt{(x-c)^2+y^2}+\sqrt{(x+c)^2+y^2}=2a
+$$&lt;/p&gt;
+&lt;p&gt;我们把一个根号移到另一侧，然后两边平方，整理后再平方，可以得到：&lt;/p&gt;
+&lt;p&gt;$$
+\dfrac{x^2}{a^2}+\dfrac{y^2}{a^2-c^2}=1
+$$&lt;/p&gt;
+&lt;p&gt;不妨令 $b=\sqrt{a^2-c^2}$，那么&lt;strong&gt;椭圆的标准方程&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;$$
+\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1(a&amp;gt;b&amp;gt;0)
+$$&lt;/p&gt;
+&lt;p&gt;这个椭圆的焦点在 $x$ 轴上，容易知道焦点在 $y$ 轴上的椭圆&lt;/p&gt;
+&lt;p&gt;$$
+\dfrac{x^2}{b^2}+\dfrac{y^2}{...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/3/</link>
+      <pubDate>Sat, 21 Feb 2026 14:24:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/3.png" type="image/png" length="43689" />
+      
+    </item>
+    
+    <item>
+      <title>振动机械波</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;振动机械波&lt;/h1&gt;
+&lt;h2&gt;机械振动&lt;/h2&gt;
+&lt;h3&gt;基本概念&lt;/h3&gt;
+&lt;p&gt;我们把物体或物体的一部分在一个位置附近的往复运动称为&lt;strong&gt;机械振动&lt;/strong&gt;，简称&lt;strong&gt;振动&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;振动不仅存在于机械运动中，在其他多种多样的运动变化中，也存在着与机械振动特征相类似的现象。例如，交流电路中的电压和电流，交变电磁场中的电场强度和磁场强度等，它们也是随着时间在一定量值附近反复变化着。因此，在物理学中，人们将振动的概念予以推广，把一个物理量在某一数值附近的反复变化都叫做振动。上述交变电磁场中的振动就称为电磁振动或电磁振荡。除此之外，还有高温下分子的振动，固体晶格上原子的振动等等。&lt;/p&gt;
+&lt;p&gt;我们将一个小球连在一个理想弹簧上，放在光滑平面上，我们称小球在运动方向上合力为零的位置称为&lt;strong&gt;平衡位置&lt;/strong&gt;（通常是弹簧原长），把小球和弹簧所组成的系统称为&lt;strong&gt;弹簧振子&lt;/strong&gt;，也可以简称为振子。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;m-image-9.avif&#34;&gt;{ width=&#34;40%&#34; }&lt;/p&gt;
+&lt;p&gt;一般来说，默认称位移即为从平衡位置的距离，位移的正负通常需要规定正方向。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在平衡位置，速度最大，弹性势能最小。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在两段位移的绝对值最大处，速度最小（通常...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/mechanics/5/</link>
+      <pubDate>Sat, 21 Feb 2026 14:24:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mechanics/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/5.png" type="image/png" length="47946" />
+      
+    </item>
+    
+    <item>
+      <title>光学原理初步</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;光学原理初步&lt;/h1&gt;
+&lt;h2&gt;光的传播&lt;/h2&gt;
+&lt;p&gt;研究光，就必须要有发出光的物体，像太阳、灯泡等可以辐射光能的物体称为光源。现实生活中的光源都有着一定大小，光源大小相应会影响到光场光的特性。如果这一影响微乎其微，我们可以将这样的光源抽象成一个几何点，称为点光源。&lt;/p&gt;
+&lt;p&gt;光源发出的光是一种电磁波，按照波动光学的研究方法，我们可以使用描述电磁波的基本方法来描述光波，比如使用频率、波长和相位等物理量。波动光学中，对于由同一光源发出的单色波（即只有一种频率的光波），把同一时刻相位相同的各点连接起来形成的曲面，即为该光波的波面。对于单色点光源来说，它的波面为球面，光波沿着垂直于球面的方向向外传播（即法线方向），波动光学中把这个方向定义为光波的方向，用波矢量来描述。&lt;/p&gt;
+&lt;p&gt;光波的传播过程实际上是光能量的传播过程。光能量在空间中的传播用能流密度矢量描述。在各向同性介质中，能流密度矢量与波矢量方向相同，即光波方向代表了能量流动方向。我们可以把这两个矢量对应的方向抽象为一条几何线，这就是几何光学中光线的由来。按照上述抽象，一个波面可以对应无限条光线，它们构成了一个光线束，即光束。如果光束中光线直接相交于一点，或者它们...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/modern/3/</link>
+      <pubDate>Sat, 21 Feb 2026 14:24:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/modern/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/3.png" type="image/png" length="47160" />
+      
+    </item>
+    
+    <item>
+      <title>随机变量</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;随机变量&lt;/h1&gt;
+&lt;p&gt;提示：高中这一部分涉及的非常浅，并且一般的讲解也没有逻辑和思维可言，如果你想要更深刻的了解这些内容，又不想过于深入，建议你阅读 &lt;a href=&#34;http://staff.ustc.edu.cn/~zwp/teach/Prob-Stat/probstat.htm&#34;&gt;Prob-Stat&lt;/a&gt;，以及我爬取的这个课程的&lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/resolve/main/math/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E8%AE%B2%E4%B9%89.pdf&#34;&gt;讲义&lt;/a&gt;和&lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/resolve/main/math/USTC_Prob_Stat_Complete.pdf&#34;&gt;课件&lt;/a&gt;。&lt;/p&gt;
+&lt;h2&gt;随机变量的概念&lt;/h2&gt;
+&lt;h3&gt;随机变量&lt;/h3&gt;
+&lt;p&gt;随机变量是用来表示随机试验结果的变量，通常用大写字母 $X,Y,Z$ 或小写希腊字母 $\xi,\eta,\zeta$...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/probability/3/</link>
+      <pubDate>Sat, 21 Feb 2026 14:24:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/probability/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/3.png" type="image/png" length="43418" />
+      
+    </item>
+    
+    <item>
+      <title>分子的结构</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;分子的结构&lt;/h1&gt;
+&lt;h2&gt;共价键模型&lt;/h2&gt;
+&lt;h3&gt;分子轨道理论&lt;/h3&gt;
+&lt;p&gt;根据已学的知识，氧分子的结构是 $\ce{O \bond{2} O}$，因此，氧分子中的电子已经完全配对，氧分子应该是逆磁性分子。但事实上，将液态氧倒入配有磁铁的仪器中时，氧分子被磁场吸引而悬浮在磁场中，这说明氧分子是顺磁性分子，即分子中存在未成对电子。&lt;/p&gt;
+&lt;p&gt;利用分子轨道理论能够很好地解释氧分子是顺磁性分子这一事实。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;分子轨道理论认为，分子中的每个电子都是在整个分子中运动的，分子中的单电子运动状态可以用分子轨道来描述。分子轨道可以用能级相近的原子轨道线性组合来表示。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;光电子能谱为分子轨道理论提供了实验基础，若入射光的能量超过一定值，就能够将电子击出，由此产生的电子称为光电子。通过光电子能谱可以了解分子轨道能级的信息。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;共价键及其性质&lt;/h3&gt;
+&lt;p&gt;定义：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;共价键：原子间通过共用电子对形成的相互作用。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;共价化合物：只有共价键的化合物称为共价化合物。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;根据共用电子对数，可以分为单键、双键、三键。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注意区分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;含有离子键即为离子化合物，只有共价键才为共价化合物。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;离子化合物中可能含有共...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/structure/3/</link>
+      <pubDate>Sat, 21 Feb 2026 14:24:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/structure/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/3.png" type="image/png" length="45511" />
       
     </item>
     
@@ -520,27 +791,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>光学原理初步</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;光学原理初步&lt;/h1&gt;
-&lt;h2&gt;光的传播&lt;/h2&gt;
-&lt;p&gt;研究光，就必须要有发出光的物体，像太阳、灯泡等可以辐射光能的物体称为光源。现实生活中的光源都有着一定大小，光源大小相应会影响到光场光的特性。如果这一影响微乎其微，我们可以将这样的光源抽象成一个几何点，称为点光源。&lt;/p&gt;
-&lt;p&gt;光源发出的光是一种电磁波，按照波动光学的研究方法，我们可以使用描述电磁波的基本方法来描述光波，比如使用频率、波长和相位等物理量。波动光学中，对于由同一光源发出的单色波（即只有一种频率的光波），把同一时刻相位相同的各点连接起来形成的曲面，即为该光波的波面。对于单色点光源来说，它的波面为球面，光波沿着垂直于球面的方向向外传播（即法线方向），波动光学中把这个方向定义为光波的方向，用波矢量来描述。&lt;/p&gt;
-&lt;p&gt;光波的传播过程实际上是光能量的传播过程。光能量在空间中的传播用能流密度矢量描述。在各向同性介质中，能流密度矢量与波矢量方向相同，即光波方向代表了能量流动方向。我们可以把这两个矢量对应的方向抽象为一条几何线，这就是几何光学中光线的由来。按照上述抽象，一个波面可以对应无限条光线，它们构成了一个光线束，即光束。如果光束中光线直接相交于一点，或者它们...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/modern/3/</link>
-      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/modern/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/3.png" type="image/png" length="47160" />
-      
-    </item>
-    
-    <item>
       <title>线性规划</title>
       
       
@@ -927,23 +1177,6 @@ q^2=xq...&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>细胞的生命历程</title>
-      
-      
-      
-      
-      <description>本文系统梳理了细胞的生命历程相关知识，涵盖细胞分裂（减数分裂）、植物细胞工程（组织培养、体细胞杂交）、动物细胞工程（细胞培养、融合、核移植、干细胞与 iPS 细胞）、胚胎工程（受精、早期胚胎发育、体外受精、胚胎移植与分割）以及基因工程（重组 DNA 技术的工具与操作程序、PCR 扩增、基因表达载体构建、转基因应用）和蛋白质工程的原理与应用，是高中生物选择性必修三的核心内容整理。</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/3/</link>
-      <pubDate>Fri, 20 Feb 2026 14:29:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="31283" />
-      
-    </item>
-    
-    <item>
       <title>运动与能量：从受力分析到能量守恒的进阶指南</title>
       
       
@@ -1185,51 +1418,6 @@ q^2=xq...&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>物质及元素</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;物质及元素&lt;/h1&gt;
-&lt;h2&gt;化学概念&lt;/h2&gt;
-&lt;p&gt;性质本身是能力、本领、也可以说是对外所起的作用，是物质或体系呈现给客观世界的一种形象或状态。对于化学性质有哪些，没有确定的结论，一般认为发生化学变化中才表现出来的性质就是化学性质；没有发生化学变化就表现出来的性质是物理性质。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;化学是一门研究物质的组成、结构、性质和变化规律的自然科学。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;化学变化是有其他物质生成的变化，物理变化是没有其他物质生成的变化。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;化学性质是只有通过化学变化才能表现出来的性质，物理性质是如颜色、状态、气味、熔点、沸点、硬度、密度等是不需要通过化学变化就能表现出来的性质。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;由一种元素构成的结构不同的单质互称为同素异形体。如金刚石、石墨和 C60 互称为同素异形体。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;木炭、焦炭、炭黑都是由微小的石墨晶体和少量杂质组成的，统称为无定形碳。因此，无定形碳不属于碳的同素异形体。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;燃烧是可燃物跟空气中的氧气发生的发光发热的剧烈的氧化反应。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;可燃性通常是指可燃物能在空气或氧气中发生燃烧的性质；在一定条件下，可以发生燃烧的物质称为可燃物。可燃物具有可燃性。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;分散系是将一种或多种物质分散到另一种...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/element/</link>
-      <pubDate>Thu, 19 Feb 2026 14:33:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/element/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/index.png" type="image/png" length="47564" />
-      
-    </item>
-    
-    <item>
       <title>氮族元素概述</title>
       
       
@@ -1342,41 +1530,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/3/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/3.png" type="image/png" length="44793" />
-      
-    </item>
-    
-    <item>
-      <title>圆锥曲线</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;圆锥曲线&lt;/h1&gt;
-&lt;h2&gt;椭圆&lt;/h2&gt;
-&lt;h3&gt;第一定义&lt;/h3&gt;
-&lt;p&gt;到两个定点 $F_1$、$F_2$ 的距离之和为定值（大于 $|F_1F_2|$）的点所形成的轨迹称为椭圆。这两个定点叫做椭圆的焦点，两焦点间的距离叫做椭圆的焦距，焦距的一半称为半焦距。&lt;/p&gt;
-&lt;p&gt;我们不妨设 $F_1=(-c,0),F_2=(c,0)$ 为焦点的椭圆经过 $M$ 点，且 $M$ 到 $F_1,F_2$ 的局里之和为 $2a$，其中 $a&amp;gt;c$，那么写出方程：&lt;/p&gt;
-&lt;p&gt;$$
-\sqrt{(x-c)^2+y^2}+\sqrt{(x+c)^2+y^2}=2a
-$$&lt;/p&gt;
-&lt;p&gt;我们把一个根号移到另一侧，然后两边平方，整理后再平方，可以得到：&lt;/p&gt;
-&lt;p&gt;$$
-\dfrac{x^2}{a^2}+\dfrac{y^2}{a^2-c^2}=1
-$$&lt;/p&gt;
-&lt;p&gt;不妨令 $b=\sqrt{a^2-c^2}$，那么&lt;strong&gt;椭圆的标准方程&lt;/strong&gt;：&lt;/p&gt;
-&lt;p&gt;$$
-\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1(a&amp;gt;b&amp;gt;0)
-$$&lt;/p&gt;
-&lt;p&gt;这个椭圆的焦点在 $x$ 轴上，容易知道焦点在 $y$ 轴上的椭圆&lt;/p&gt;
-&lt;p&gt;$$
-\dfrac{x^2}{b^2}+\dfrac{y^2}{...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/geometry/3/</link>
-      <pubDate>Thu, 19 Feb 2026 14:33:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/geometry/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/3.png" type="image/png" length="43689" />
       
     </item>
     
@@ -2073,27 +2226,6 @@ a^3-b^3&amp;amp;=(...&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>随机变量</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;随机变量&lt;/h1&gt;
-&lt;p&gt;提示：高中这一部分涉及的非常浅，并且一般的讲解也没有逻辑和思维可言，如果你想要更深刻的了解这些内容，又不想过于深入，建议你阅读 &lt;a href=&#34;http://staff.ustc.edu.cn/~zwp/teach/Prob-Stat/probstat.htm&#34;&gt;Prob-Stat&lt;/a&gt;，以及我爬取的这个课程的&lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/resolve/main/math/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E8%AE%B2%E4%B9%89.pdf&#34;&gt;讲义&lt;/a&gt;和&lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/resolve/main/math/USTC_Prob_Stat_Complete.pdf&#34;&gt;课件&lt;/a&gt;。&lt;/p&gt;
-&lt;h2&gt;随机变量的概念&lt;/h2&gt;
-&lt;h3&gt;随机变量&lt;/h3&gt;
-&lt;p&gt;随机变量是用来表示随机试验结果的变量，通常用大写字母 $X,Y,Z$ 或小写希腊字母 $\xi,\eta,\zeta$...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/probability/3/</link>
-      <pubDate>Thu, 19 Feb 2026 14:33:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/probability/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/3.png" type="image/png" length="43418" />
-      
-    </item>
-    
-    <item>
       <title>反应速率</title>
       
       
@@ -2376,38 +2508,6 @@ Shull（1914）提出，杂合等位基因（如Aa）的互作效应超过纯合
     </item>
     
     <item>
-      <title>振动机械波</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;振动机械波&lt;/h1&gt;
-&lt;h2&gt;机械振动&lt;/h2&gt;
-&lt;h3&gt;基本概念&lt;/h3&gt;
-&lt;p&gt;我们把物体或物体的一部分在一个位置附近的往复运动称为&lt;strong&gt;机械振动&lt;/strong&gt;，简称&lt;strong&gt;振动&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;振动不仅存在于机械运动中，在其他多种多样的运动变化中，也存在着与机械振动特征相类似的现象。例如，交流电路中的电压和电流，交变电磁场中的电场强度和磁场强度等，它们也是随着时间在一定量值附近反复变化着。因此，在物理学中，人们将振动的概念予以推广，把一个物理量在某一数值附近的反复变化都叫做振动。上述交变电磁场中的振动就称为电磁振动或电磁振荡。除此之外，还有高温下分子的振动，固体晶格上原子的振动等等。&lt;/p&gt;
-&lt;p&gt;我们将一个小球连在一个理想弹簧上，放在光滑平面上，我们称小球在运动方向上合力为零的位置称为&lt;strong&gt;平衡位置&lt;/strong&gt;（通常是弹簧原长），把小球和弹簧所组成的系统称为&lt;strong&gt;弹簧振子&lt;/strong&gt;，也可以简称为振子。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;m-image-9.avif&#34;&gt;{ width=&#34;40%&#34; }&lt;/p&gt;
-&lt;p&gt;一般来说，默认称位移即为从平衡位置的距离，位移的正负通常需要规定正方向。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;在平衡位置，速度最大，弹性势能最小。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;在两段位移的绝对值最大处，速度最小（通常...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/mechanics/5/</link>
-      <pubDate>Wed, 18 Feb 2026 14:46:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/mechanics/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/5/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/5.png" type="image/png" length="47946" />
-      
-    </item>
-    
-    <item>
       <title>酶与发酵技术：从微观调控到宏观酿造的生物学盛宴</title>
       
       
@@ -2568,57 +2668,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/5/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/5.png" type="image/png" length="46280" />
-      
-    </item>
-    
-    <item>
-      <title>分子的结构</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;分子的结构&lt;/h1&gt;
-&lt;h2&gt;共价键模型&lt;/h2&gt;
-&lt;h3&gt;分子轨道理论&lt;/h3&gt;
-&lt;p&gt;根据已学的知识，氧分子的结构是 $\ce{O \bond{2} O}$，因此，氧分子中的电子已经完全配对，氧分子应该是逆磁性分子。但事实上，将液态氧倒入配有磁铁的仪器中时，氧分子被磁场吸引而悬浮在磁场中，这说明氧分子是顺磁性分子，即分子中存在未成对电子。&lt;/p&gt;
-&lt;p&gt;利用分子轨道理论能够很好地解释氧分子是顺磁性分子这一事实。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;分子轨道理论认为，分子中的每个电子都是在整个分子中运动的，分子中的单电子运动状态可以用分子轨道来描述。分子轨道可以用能级相近的原子轨道线性组合来表示。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;光电子能谱为分子轨道理论提供了实验基础，若入射光的能量超过一定值，就能够将电子击出，由此产生的电子称为光电子。通过光电子能谱可以了解分子轨道能级的信息。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;共价键及其性质&lt;/h3&gt;
-&lt;p&gt;定义：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;共价键：原子间通过共用电子对形成的相互作用。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;共价化合物：只有共价键的化合物称为共价化合物。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;根据共用电子对数，可以分为单键、双键、三键。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;注意区分：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;含有离子键即为离子化合物，只有共价键才为共价化合物。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;离子化合物中可能含有共...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/structure/3/</link>
-      <pubDate>Tue, 17 Feb 2026 09:05:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/structure/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/3.png" type="image/png" length="45511" />
       
     </item>
     
@@ -4153,55 +4202,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/3/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/3.png" type="image/png" length="44643" />
-      
-    </item>
-    
-    <item>
-      <title>卤族元素概述</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;卤族元素概述&lt;/h1&gt;
-&lt;h2&gt;卤素性质概述&lt;/h2&gt;
-&lt;h3&gt;卤素物理性质&lt;/h3&gt;
-&lt;p&gt;卤族元素普遍在 $\ce{CCl4}$ 中溶解度大于水，相似相容。&lt;/p&gt;
-&lt;p&gt;卤族元素颜色：&lt;/p&gt;
-&lt;p&gt;| | 氯元素 $\ce{Cl}$ | 溴元素 $\ce{Br}$ | 碘元素 $\ce{I}$ |
-| :-: | :-: | :-: | :-: |
-| 单质 | 黄绿色气体 | 深红棕色气体 | 紫黑色固体 |
-| 卤化银沉淀 | 白色 | 淡黄色 | 黄色 |
-| 水溶液颜色 | 黄绿色 | 橙色 | 黄褐色 |
-| 四氯化碳溶液颜色 | 黄绿色 | 橙红色 | 紫红色 |&lt;/p&gt;
-&lt;p&gt;从上到下，熔沸点升高，非金属性减弱，与氢气反应依次减弱。&lt;/p&gt;
-&lt;p&gt;$$
-\ce{H2 + F2 -&amp;gt;[暗处爆炸] 2HF}
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\ce{H2 + Cl2 -&amp;gt;[光照或点燃] 2HCl}
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\ce{H2 + Br2 -&amp;gt;[加热] 2HBr}
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\ce{H2 + I2 &amp;lt;=&amp;gt;[高温] 2HI}
-$$&lt;/p&gt;
-&lt;p&gt;氯气的物理性质：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;黄绿色气体。&lt;/li&gt;
-&lt;li&gt;有刺激性气味。&lt;/li&gt;
-&lt;li&gt;密度大于水。&lt;/li&gt;
-&lt;li&gt;可溶于水。&lt;/li&gt;
-&lt;li&gt;有毒。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;卤素化学性...&lt;/h3&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/element/cl/</link>
-      <pubDate>Mon, 12 Jan 2026 04:27:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/element/cl/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/cl/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/cl.png" type="image/png" length="49918" />
       
     </item>
     
