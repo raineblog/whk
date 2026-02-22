@@ -75,8 +75,8 @@ jobs:
           user_email: "github-actions[bot]@users.noreply.github.com"
           full_commit_message: "Deploying to gh-pages from ${{ github.sha }}"
 
-  build-zensical:
-    name: Build via Zensical
+  build-materialx:
+    name: Build via MaterialX
     if: |
       (github.event_name == 'workflow_dispatch' || github.event_name == 'schedule') ||
       (github.event_name == 'push' && contains(github.event.head_commit.message, '[ci]'))
@@ -96,18 +96,18 @@ jobs:
         uses: actions/cache@v5
         with:
           path: .cache
-          key: ${{ runner.os }}-zensical-${{ github.run_id }}-${{ github.run_attempt }}
+          key: ${{ runner.os }}-materialx-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
-            ${{ runner.os }}-zensical-
+            ${{ runner.os }}-materialx-
 
       - name: Build Static Site
-        run: mkdocs-zensical
+        run: mkdocs-buildx
 
       - name: Push to gh-pages Branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages-zensical
+          publish_branch: gh-pages-materialx
           publish_dir: ./dist
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
