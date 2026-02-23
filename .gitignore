@@ -65,3 +65,5 @@ package-lock.json
 *.log
 *.txt
 *.tmp
+
+gulpfile.js

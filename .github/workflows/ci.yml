@@ -32,17 +32,23 @@ jobs:
           - name: Mkdocs to Github Pages
             image: ghcr.io/raineblog/mkdocs-docker:latest
             cache: gh-mkdocs
-            pwd: mkdocs-build
+            pwd: |
+              mkdocs-build
+              mkdocs-gulp
             url: https://raineblog.dpdns.org/whk/
             branch: gh-pages
             type: normal
+            dir: ./site
           - name: Mkdocs to Cloudflare Pages
             image: ghcr.io/raineblog/mkdocs-docker:latest
             cache: cf-mkdocs
-            pwd: mkdocs-build
+            pwd: |
+              mkdocs-build
+              mkdocs-gulp
             url: https://raineblog-whk.pages.dev/
             branch: cloudflare-pages
             type: normal
+            dir: ./site
 
     runs-on: ubuntu-latest
     container:
@@ -74,7 +80,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: ${{ matrix.branch }}
-          publish_dir: ./dist
+          publish_dir: ${{ matrix.dir }}
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
           full_commit_message: "Deploying to gh-pages from ${{ github.sha }}"
