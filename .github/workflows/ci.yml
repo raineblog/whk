@@ -49,6 +49,15 @@ jobs:
             branch: cloudflare-pages
             type: normal
             dir: ./site
+            disable_giscus: 'true'
+          - name: Mkdocs Fragment
+            image: ghcr.io/raineblog/mkdocs-docker:latest
+            cache: mkdocs
+            pwd: mkdocs-fragment
+            url: https://raineblog-whk.pages.dev/
+            branch: fragment-pages
+            type: normal
+            dir: ./
 
     runs-on: ubuntu-latest
     container:
@@ -74,6 +83,7 @@ jobs:
         env:
           site_url: ${{ matrix.url }}
           build_type: ${{ matrix.type }}
+          disable_giscus: ${{ matrix.disable_giscus }}
 
       - name: Push to gh-pages Branch
         uses: peaceiris/actions-gh-pages@v4
