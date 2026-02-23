@@ -3,14 +3,14 @@ name: Auto Resize Images
 on:
   schedule:
     - cron: '0 0 * * 1'
-  push:
-    paths:
-      - '**.svg'
-      - '**.png'
-      - '**.jpg'
-      - '**.jpeg'
-      - '**.gif'
-      - '**.webp'
+  # push:
+  #   paths:
+  #     - '**.svg'
+  #     - '**.png'
+  #     - '**.jpg'
+  #     - '**.jpeg'
+  #     - '**.gif'
+  #     - '**.webp'
   workflow_dispatch:
     inputs:
       skip_update:

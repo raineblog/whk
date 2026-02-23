@@ -1,14 +1,11 @@
 name: CI/CD Pipeline
 
 on:
+  schedule:
+    - cron: '0 0 * * 1'
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
-  schedule:
-    - cron: '0 0 * * 0'
   workflow_dispatch:
 
 concurrency:
@@ -22,153 +19,62 @@ permissions:
   id-token: write
 
 jobs:
-  seo-push:
-    if: (github.event_name == 'schedule') || (github.event_name == 'push' && contains(github.event.head_commit.message, '[seo]'))
-    name: SEO Push
+  build:
+    name: Build and Deploy via ${{ matrix.name }}
+    if: |
+      (github.event_name == 'workflow_dispatch' || github.event_name == 'schedule') ||
+      (github.event_name == 'push' && contains(github.event.head_commit.message, '[ci]'))
+    
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: Mkdocs to Github Pages
+            image: ghcr.io/raineblog/mkdocs-docker:latest
+            cache: gh-mkdocs
+            pwd: mkdocs-build
+            url: https://raineblog.dpdns.org/whk/
+            branch: gh-pages
+            type: normal
+          - name: Mkdocs to Cloudflare Pages
+            image: ghcr.io/raineblog/mkdocs-docker:latest
+            cache: cf-mkdocs
+            pwd: mkdocs-build
+            url: https://raineblog-whk.pages.dev/
+            branch: cloudflare-pages
+            type: normal
+
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/raineblog/mkdocs-docker:latest
+      image: ${{ matrix.image }}
     steps:
-      - name: SEO Push
+      - name: Checkout Source Code
+        uses: actions/checkout@v6
+        with:
+          submodules: "true"
+          fetch-depth: 0
+          fetch-tags: false
+
+      - name: Cache
+        uses: actions/cache@v5
+        with:
+          path: .cache
+          key: ${{ runner.os }}-${{ matrix.cache }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            ${{ runner.os }}-${{ matrix.cache }}-
+
+      - name: Build Static Site
+        run: ${{ matrix.pwd }}
         env:
-          SITE_HOST: "raineblog.dpdns.org"
-          SITE_BASE: "https://raineblog.dpdns.org"
-          SITE_NAME: "RainPPR's WHK Wiki"
-          SITE_PROJECT: "whk"
-          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
-        run: mkdocs-seo
-
-  build-mkdocs:
-    name: Build via Mkdocs
-    if: |
-      (github.event_name == 'workflow_dispatch' || github.event_name == 'schedule') ||
-      (github.event_name == 'push' && contains(github.event.head_commit.message, '[ci]'))
-    runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/raineblog/mkdocs-docker:latest
-    steps:
-      - name: Checkout Source Code
-        uses: actions/checkout@v6
-        with:
-          submodules: "true"
-          fetch-depth: 0
-          fetch-tags: false
-      - run: git config --global --add safe.directory "/__w/whk/whk"
-
-      - name: Cache
-        uses: actions/cache@v5
-        with:
-          path: .cache
-          key: ${{ runner.os }}-mkdocs-${{ github.run_id }}-${{ github.run_attempt }}
-          restore-keys: |
-            ${{ runner.os }}-mkdocs-
-
-      - name: Build Static Site
-        run: mkdocs-build
+          site_url: ${{ matrix.url }}
+          build_type: ${{ matrix.type }}
 
       - name: Push to gh-pages Branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: ${{ matrix.branch }}
           publish_dir: ./dist
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
           full_commit_message: "Deploying to gh-pages from ${{ github.sha }}"
-
-  build-materialx:
-    name: Build via MaterialX
-    if: |
-      (github.event_name == 'workflow_dispatch' || github.event_name == 'schedule') ||
-      (github.event_name == 'push' && contains(github.event.head_commit.message, '[ci]'))
-    runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/raineblog/mkdocs-docker:latest
-    steps:
-      - name: Checkout Source Code
-        uses: actions/checkout@v6
-        with:
-          submodules: "true"
-          fetch-depth: 0
-          fetch-tags: false
-      - run: git config --global --add safe.directory "/__w/whk/whk"
-
-      - name: Cache
-        uses: actions/cache@v5
-        with:
-          path: .cache
-          key: ${{ runner.os }}-materialx-${{ github.run_id }}-${{ github.run_attempt }}
-          restore-keys: |
-            ${{ runner.os }}-materialx-
-
-      - name: Build Static Site
-        run: mkdocs-buildx
-
-      - name: Push to gh-pages Branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages-materialx
-          publish_dir: ./dist
-          user_name: "github-actions[bot]"
-          user_email: "github-actions[bot]@users.noreply.github.com"
-          full_commit_message: "Deploying to gh-pages from ${{ github.sha }}"
-
-  # check-prlint:
-  #   name: Check Open PRs
-  #   runs-on: ubuntu-latest
-  #   outputs:
-  #     should_run: ${{ steps.check.outputs.should_run }}
-  #   steps:
-  #     - name: Check for existing open Pull Request
-  #       id: check
-  #       shell: bash
-  #       env:
-  #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  #       run: |
-  #         # Check if a PR from the branch 'lint/update' is already open
-  #         count=$(gh pr list \
-  #           --repo "${{ github.repository }}" \
-  #           --head "lint/update" \
-  #           --state open \
-  #           --json number \
-  #           --jq 'length')
-          
-  #         if [ "$count" -gt 0 ]; then
-  #           echo "::notice::An open lint PR already exists. Skipping execution."
-  #           echo "should_run=false" >> $GITHUB_OUTPUT
-  #         else
-  #           echo "No open lint PR found. Proceeding."
-  #           echo "should_run=true" >> $GITHUB_OUTPUT
-  #         fi
-
-  # lint:
-  #   name: Auto Lint and PR
-  #   needs: check-prlint
-  #   if: (needs.check-prlint.outputs.should_run == 'true') && ((github.event_name == 'schedule') || (github.event_name == 'push' && contains(github.event.head_commit.message, '[lint]')))
-  #   runs-on: ubuntu-latest
-  #   container:
-  #     image: ghcr.io/raineblog/mkdocs-docker:latest
-  #   steps:
-  #     - name: Checkout Source Code
-  #       uses: actions/checkout@v6
-  #     - name: AutoCorrectPre
-  #       uses: huacnlee/autocorrect-action@main
-  #     - name: Build Static Site
-  #       run: mkdocs-lint
-  #     - name: AutoCorrectPost
-  #       uses: huacnlee/autocorrect-action@main
-
-  #     - name: Create Pull Request
-  #       if: github.event.inputs.skip_update != 'true'
-  #       uses: peter-evans/create-pull-request@v8
-  #       with:
-  #         token: ${{ secrets.GITHUB_TOKEN }}
-  #         commit-message: "chore: [bot] automatic blog updates"
-  #         committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
-  #         author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
-  #         branch: lint/update
-  #         delete-branch: true
-  #         title: "chore: [bot] Auto Lint Updates"
-  #         body: |
-  #           Automated content updates generated by `mkdocs-lint`.
-  #         add-paths: "*.md"
