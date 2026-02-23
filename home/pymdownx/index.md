@@ -1,10 +1,10 @@
 # 语法扩展
 
 ```bash
+📁 .clinerules/ # (1)!
 📁 .github/
-📁 config/ # (1)!
-📁 docs/ # (2)!
-📁 mkdocs-fragment-theme/ # (3)!
+📁 config/ # (2)!
+📁 docs/ # (3)!
 📁 public/ # (4)!
 📁 scripts/ # (5)!
  .autoblog.json
@@ -22,6 +22,16 @@
  package.json
 ```
 
+1. ```bash
+   📁 workflows/ # (1)!
+    ex-copywriting-guidelines.md
+    ex-markdown-format-rules.md
+    ex-mkdocs-format-rules.md
+    seo-guide.md
+   ```
+   1. ```bash
+       lint-and-describe.md
+      ```
 1. ```bash
     extra.json
     nav.json
@@ -984,9 +994,6 @@
           键能.avif
           键长-43e243a.avif
          ```
-1. ```bash
-    main.html
-   ```
 1. ```bash
     .nojekyll
    ```
