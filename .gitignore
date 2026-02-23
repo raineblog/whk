@@ -61,6 +61,7 @@ docs/assets
 
 package.json
 package-lock.json
+pnpm-lock.yaml
 
 *.log
 *.txt

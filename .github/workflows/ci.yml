@@ -31,7 +31,7 @@ jobs:
         include:
           - name: Mkdocs to Github Pages
             image: ghcr.io/raineblog/mkdocs-docker:latest
-            cache: gh-mkdocs
+            cache: mkdocs
             pwd: |
               mkdocs-build
               mkdocs-gulp
@@ -41,7 +41,7 @@ jobs:
             dir: ./site
           - name: Mkdocs to Cloudflare Pages
             image: ghcr.io/raineblog/mkdocs-docker:latest
-            cache: cf-mkdocs
+            cache: mkdocs
             pwd: |
               mkdocs-build
               mkdocs-gulp
