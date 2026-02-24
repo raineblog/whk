@@ -355,21 +355,3 @@ thumb
 sketch
 
 # End of https://www.toptal.com/developers/gitignore/api/react,nextjs,node,python
-
-mkdocs.yml
-cache/
-docs/test/
-
-web_cache
-/.shared
-docs/assets
-
-package.json
-package-lock.json
-pnpm-lock.yaml
-
-*.log
-*.txt
-*.tmp
-
-gulpfile.js
