@@ -4,69 +4,39 @@
 
 ### 角动量 {#_3}
 
-我们知道，绕太阳运动的行星有速度 []{.arithmatex}$\bm v$ 与位失 []{.arithmatex}$\bm r$。
+我们知道，绕太阳运动的行星有速度 \$\bm v\$ 与位失 \$\bm r\$。
 
 由开普勒第二定律，我们可以推出：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-rv\sin\alpha=\text{const.}
-:::
+\$\$ rv\sin\alpha=\text{const.} \$\$
 
-$$rv\sin\alpha=\text{const.}$$
-::::
+其中 \$\alpha\$ 是 \$\bm v,\bm r\$ 夹角，两边同时乘以质量，这个物理量称为角动量（标量式）。
 
-其中 []{.arithmatex}$\alpha$ 是 []{.arithmatex}$\bm v,\bm r$ 夹角，两边同时乘以质量，这个物理量称为角动量（标量式）。
+角动量通常用字母 \$J\$ 表示，有矢量式：
 
-角动量通常用字母 []{.arithmatex}$J$ 表示，有矢量式：
+\$\$ \bm J=\bm r\times\bm p=\bm r\times m\bm v \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\bm J=\bm r\times\bm p=\bm r\times m\bm v
-:::
+在国际单位制中，其单位为 \$\pu{kg*m2*s-1}\$。
 
-$$\bm J=\bm r\times\bm p=\bm r\times m\bm v$$
-::::
-
-在国际单位制中，其单位为 []{.arithmatex}$\pu{kg*m2*s-1}$。
-
-当质点做圆周运动时，夹角恒为直角，那么 []{.arithmatex}$J=mrv$。
+当质点做圆周运动时，夹角恒为直角，那么 \$J=mrv\$。
 
 当质点做直线运动，对于直线外一点到这个质点作为位失，依然是有角动量的。
 
 ### 角动量定理 {#_4}
 
-在角动量中，我们也可以把 []{.arithmatex}$\bm v$ 和 []{.arithmatex}$\sin\alpha$ 放在一起，得到卫星的质量与其速度在垂直于中心天体连线分量的乘积为一个定值，根据这个可以推出一些结论。
+在角动量中，我们也可以把 \$\bm v\$ 和 \$\sin\alpha\$ 放在一起，得到卫星的质量与其速度在垂直于中心天体连线分量的乘积为一个定值，根据这个可以推出一些结论。
 
-质点 []{.arithmatex}$O$ 在某一时刻受到力 []{.arithmatex}$F$ 的左右，我们取平面内一点 []{.arithmatex}$O$，记位失 []{.arithmatex}$\bm r=\overrightarrow{OA}$。我们将力 []{.arithmatex}$F$ 分解为平行于 []{.arithmatex}$\bm r$ 的分量 []{.arithmatex}$F_r$ 与垂直于其的分量 []{.arithmatex}$F_\perp$，我们知道 []{.arithmatex}$F_r$ 对角动量是没有作用的，而 []{.arithmatex}$F_\perp$ 则改变物体的角动量：
+质点 \$O\$ 在某一时刻受到力 \$F\$ 的左右，我们取平面内一点 \$O\$，记位失 \$\bm r=\overrightarrow{OA}\$。我们将力 \$F\$ 分解为平行于 \$\bm r\$ 的分量 \$F_r\$ 与垂直于其的分量 \$F\_\perp\$，我们知道 \$F_r\$ 对角动量是没有作用的，而 \$F\_\perp\$ 则改变物体的角动量：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\Delta J=r\Delta p\_\perp=rF\_\perp\Delta T
-:::
-
-$$\Delta J=r\Delta p_\perp=rF_\perp\Delta T$$
-::::
+\$\$ \Delta J=r\Delta p\_\perp=rF\_\perp\Delta T \$\$
 
 也即：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-M=rF\_\perp=\dfrac{\Delta J}{\Delta T}
-:::
+\$\$ M=rF\_\perp=\dfrac{\Delta J}{\Delta T} \$\$
 
-$$M=rF_\perp=\dfrac{\Delta J}{\Delta T}$$
-::::
+力矩（\$\bm M\$）为物体角动量的改变率，单位为牛米。
 
-力矩（[]{.arithmatex}$\bm M$）为物体角动量的改变率，单位为牛米。
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\bm M=\bm r\times\bm F
-:::
-
-$$\bm M=\bm r\times\bm F$$
-::::
+\$\$ \bm M=\bm r\times\bm F \$\$
 
 为矢量式。
 
@@ -84,43 +54,25 @@ $$\bm M=\bm r\times\bm F$$
 
 在绕轴转动的情况下，力矩是改变物体绕轴转动状态的原因。
 
-力矩等于力在与轴垂直的平面上的分量 []{.arithmatex}$F$ 和 []{.arithmatex}$F$ 的作用线到轴的距离 []{.arithmatex}$d$（力臂）的乘积。
+力矩等于力在与轴垂直的平面上的分量 \$F\$ 和 \$F\$ 的作用线到轴的距离 \$d\$（力臂）的乘积。
 
-其单位为 []{.arithmatex}$\mathrm{N\cdot m}$（牛顿米，不能记为焦耳）；定义式为：
+其单位为 \$\mathrm{N\cdot m}\$（牛顿米，不能记为焦耳）；定义式为：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-M=Fd=Fr\_\perp=Fr\sin\theta
-:::
-
-$$M=Fd=Fr_\perp=Fr\sin\theta$$
-::::
+\$\$ M=Fd=Fr\_\perp=Fr\sin\theta \$\$
 
 力矩是一个矢量，它不仅有大小，而且有方向，且满足平行四边形加法法则。
 
 在绕轴的情况下，其方向视其作用使物体从静止发生绕轴转动是逆时针转还是顺时针转，前者取为正，后者取为负（这种判定称右手定则）。
 
-因此在定轴转动情况下，力矩 []{.arithmatex}$M$ 可用代数值表示。
+因此在定轴转动情况下，力矩 \$M\$ 可用代数值表示。
 
-一般情况下，常把力矩写成位矢 []{.arithmatex}$r$ 与力 []{.arithmatex}$F$ 的叉积：
+一般情况下，常把力矩写成位矢 \$r\$ 与力 \$F\$ 的叉积：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\bm M=\bm r\times\bm F
-:::
-
-$$\bm M=\bm r\times\bm F$$
-::::
+\$\$ \bm M=\bm r\times\bm F \$\$
 
 其大小为：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\|\bm M\|=\|\bm r\|\|\bm F\|\sin\theta
-:::
-
-$$|\bm M|=|\bm r||\bm F|\sin\theta$$
-::::
+\$\$ \|\bm M\|=\|\bm r\|\|\bm F\|\sin\theta \$\$
 
 因而，如果是定轴转动，只需求代数和。
 
@@ -136,23 +88,11 @@ $$|\bm M|=|\bm r||\bm F|\sin\theta$$
 
 一般来说，一对大小相等、方向相反但不共线的力称为力偶：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\|F_1\|=\|F_2\|=\|F\|
-:::
-
-$$|F_1|=|F_2|=|F|$$
-::::
+\$\$ \|F_1\|=\|F_2\|=\|F\| \$\$
 
 对于与力偶所在平面垂直的任一轴，这一对力的力矩的代数和称为力偶矩：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-M=F_1\|OA\|-F_2\|OB\|=F\cdot\|AB\|
-:::
-
-$$M=F_1|OA|-F_2|OB|=F\cdot|AB|$$
-::::
+\$\$ M=F_1\|OA\|-F_2\|OB\|=F\cdot\|AB\| \$\$
 
 即力偶矩等于力乘两平行力间距离，它与轴的位置选取无关。
 
@@ -162,13 +102,7 @@ $$M=F_1|OA|-F_2|OB|=F\cdot|AB|$$
 
 可绕定轴转动的物体平衡的条件是：作用在物体上各力对轴的力矩代数和等于零。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\sum M_i=0
-:::
-
-$$\sum M_i=0$$
-::::
+\$\$ \sum M_i=0 \$\$
 
 ### 一般物体平衡 {#_10}
 

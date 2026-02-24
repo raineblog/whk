@@ -21,22 +21,22 @@
 <p>注意：</p>
 <ul>
 <li>
-<p>解一元一次不等式 <span class="arithmatex"><span class="MathJax_Preview">ax&gt;b</span><script type="math/tex">ax>b</script></span>，需要按照 <span class="arithmatex"><span class="MathJax_Preview">a&gt;0,a=0,a&lt;0</span><script type="math/tex">a>0,a=0,a<0</script></span> 分类讨论。</p>
+<p>解一元一次不等式 $ax&gt;b$，需要按照 $a&gt;0,a=0,a&lt;0$ 分类讨论。</p>
 </li>
 <li>
-<p>解一元一次不等式 <span class="arithmatex"><span class="MathJax_Preview">ax&gt;b</span><script type="math/tex">ax>b</script></span>，其中 <span class="arithmatex"><span class="MathJax_Preview">x\in[m,n]</span><script type="math/tex">x\in[m,n]</script></span>，先按照 <span class="arithmatex"><span class="MathJax_Preview">a&gt;0,a=0,a&lt;0</span><script type="math/tex">a>0,a=0,a<0</script></span> 分类讨论，然后按照 <span class="arithmatex"><span class="MathJax_Preview">\dfrac{b}{a}</span><script type="math/tex">\dfrac{b}{a}</script></span> 是否落在区间 <span class="arithmatex"><span class="MathJax_Preview">[m,n]</span><script type="math/tex">[m,n]</script></span> 内。</p>
+<p>解一元一次不等式 $ax&gt;b$，其中 $x\in[m,n]$，先按照 $a&gt;0,a=0,a&lt;0$ 分类讨论，然后按照 $\dfrac{b}{a}$ 是否落在区间 $[m,n]$ 内。</p>
 </li>
 </ul>
 <p>边界条件：</p>
 <ol>
 <li>
-<p>二次项系数不含参数且自变量没有限制时，临界条件是 <span class="arithmatex"><span class="MathJax_Preview">\Delta = 0</span><script type="math/tex">\Delta = 0</script></span>。</p>
+<p>二次项系数不含参数且自变量没有限制时，临界条件是 $\Delta = 0$。</p>
 </li>
 <li>
-<p>二次项系数含有参数且自变量没有限制时，临界条件是二次项系数为零与 <span class="arithmatex"><span class="MathJax_Preview">\Delta = 0</span><script type="math/tex">\Delta = 0</script></span> 联立。</p>
+<p>二次项系数含有参数且自变量没有限制时，临界条件是二次项系数为零与 $\Delta = 0$ 联立。</p>
 </li>
 <li>
-<p>二次项系数含参数且自变量有限制时，临界条件是二次项系数为零，<span class="arithmatex"><span class="MathJax_Preview">\Delta = 0</span><script type="math/tex">\Delta = 0</script></span> 与区间端点处的函数值为零同时联立。</p>
+<p>二次项系数含参数且自变量有限制时，临界条件是二次项系数为零，$\Delta = 0$ 与区间端点处的函数值为零同时联立。</p>
 </li>
 </ol>
 <p>对于更复杂的情况，一般步骤如下：</p>
@@ -57,371 +57,185 @@
 <p>变形法：</p>
 <ul>
 <li>
-<p>除以单项式变形（<span class="arithmatex"><span class="MathJax_Preview">x^n</span><script type="math/tex">x^n</script></span>）。</p>
+<p>除以单项式变形（$x^n$）。</p>
 </li>
 <li>
 <p>整体代换、同构化变形、拆分函数、局部求值。</p>
 </li>
 <li>
 <p>对数化：对数化是利用对数性质，将函数式中的对数与常数合并，再使用相关不等式进行放缩。例如：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \ln x+a=\ln(xe^a)。
-</div>
-<script type="math/tex; mode=display">
-\ln x+a=\ln(xe^a)。
-</script>
-</div>
+$$</p>
 </li>
 <li>
 <p>指数化：指数化是利用指数性质，将式子或者参数转移到指数位置上，以方便放缩。例如：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-xe^x=e^{x+\ln x}\,(x&gt;0)，a^x=e^{\ln a^x}=e^{x\ln a}。
-</div>
-<script type="math/tex; mode=display">
-xe^x=e^{x+\ln x}\,(x>0)，a^x=e^{\ln a^x}=e^{x\ln a}。
-</script>
-</div>
+<p>$$
+xe<sup x="x" x_ln="x+\ln">x=e</sup>\,(x&gt;0)，a<sup>x=e</sup>{\ln a<sup a="a" x_ln="x\ln">x}=e</sup>。
+$$</p>
 </li>
 </ul>
 <h3 id="_4">简单不等式</h3>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{e^x\ge x+1,\quad x\in\R}\tag a
-</div>
-<script type="math/tex; mode=display">
-\boxed{e^x\ge x+1,\quad x\in\R}\tag a
-</script>
-</div>
-<p>证明：设 <span class="arithmatex"><span class="MathJax_Preview">f(x)=e^x-x-1</span><script type="math/tex">f(x)=e^x-x-1</script></span>，那么：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>证明：设 $f(x)=e^x-x-1$，那么：</p>
+<p>$$
 f'(x)=e^x-1
-</div>
-<script type="math/tex; mode=display">
-f'(x)=e^x-1
-</script>
-</div>
-<p>因此，当 <span class="arithmatex"><span class="MathJax_Preview">x&gt;0</span><script type="math/tex">x>0</script></span> 时，<span class="arithmatex"><span class="MathJax_Preview">f'(x)&gt;0</span><script type="math/tex">f'(x)>0</script></span>；当 <span class="arithmatex"><span class="MathJax_Preview">x&lt;0</span><script type="math/tex">x<0</script></span> 时 <span class="arithmatex"><span class="MathJax_Preview">f'(x)&lt;0</span><script type="math/tex">f'(x)<0</script></span>，因此：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>因此，当 $x&gt;0$ 时，$f'(x)&gt;0$；当 $x&lt;0$ 时 $f'(x)&lt;0$，因此：</p>
+<p>$$
 f(x)\ge f(0)=0
-</div>
-<script type="math/tex; mode=display">
-f(x)\ge f(0)=0
-</script>
-</div>
-<p>即 <span class="arithmatex"><span class="MathJax_Preview">e^x\ge x+1</span><script type="math/tex">e^x\ge x+1</script></span>，带入 <span class="arithmatex"><span class="MathJax_Preview">x\gets\ln x</span><script type="math/tex">x\gets\ln x</script></span> 有：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>即 $e^x\ge x+1$，带入 $x\gets\ln x$ 有：</p>
+<p>$$
 \boxed{x\ge\ln x+1,\quad x&gt;0}\tag b
-</div>
-<script type="math/tex; mode=display">
-\boxed{x\ge\ln x+1,\quad x>0}\tag b
-</script>
-</div>
+$$</p>
 <p>三角函数也有一些不等式：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\boxed{\sin x&lt;x,\quad x&gt;0}\tag c
-</div>
-<script type="math/tex; mode=display">
+<p>$$
 \boxed{\sin x<x,\quad x>0}\tag c
-</script>
-</div>
-<p>证明：设 <span class="arithmatex"><span class="MathJax_Preview">f(x)=x-\sin x</span><script type="math/tex">f(x)=x-\sin x</script></span>，那么 <span class="arithmatex"><span class="MathJax_Preview">f'(x)=1-\cos x\ge0</span><script type="math/tex">f'(x)=1-\cos x\ge0</script></span>。</p>
-<p>所以 <span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">(0,\infty)</span><script type="math/tex">(0,\infty)</script></span> 上单调递增，<span class="arithmatex"><span class="MathJax_Preview">f(x)&gt;f(0)=0</span><script type="math/tex">f(x)>f(0)=0</script></span> 即 <span class="arithmatex"><span class="MathJax_Preview">x&gt;\sin x</span><script type="math/tex">x>\sin x</script></span>。</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>证明：设 $f(x)=x-\sin x$，那么 $f'(x)=1-\cos x\ge0$。</p>
+<p>所以 $f(x)$ 在 $(0,\infty)$ 上单调递增，$f(x)&gt;f(0)=0$ 即 $x&gt;\sin x$。</p>
+<p>$$
 \boxed{x&lt;\tan x,\quad x\in(0,\pi/2)}\tag d
-</div>
-<script type="math/tex; mode=display">
-\boxed{x<\tan x,\quad x\in(0,\pi/2)}\tag d
-</script>
-</div>
-<p>证明：令 <span class="arithmatex"><span class="MathJax_Preview">f(x)=\tan x-x</span><script type="math/tex">f(x)=\tan x-x</script></span>，则</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>证明：令 $f(x)=\tan x-x$，则</p>
+<p>$$
 f'(x)=\dfrac{1}{\cos^2 x}-1&gt;0
-</div>
-<script type="math/tex; mode=display">
-f'(x)=\dfrac{1}{\cos^2 x}-1>0
-</script>
-</div>
-<p>所以 <span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">(0,\pi/2)</span><script type="math/tex">(0,\pi/2)</script></span> 上单调递增，<span class="arithmatex"><span class="MathJax_Preview">f(x)&gt;f(0)=0</span><script type="math/tex">f(x)>f(0)=0</script></span> 即 <span class="arithmatex"><span class="MathJax_Preview">\tan x&gt;x</span><script type="math/tex">\tan x>x</script></span>。</p>
-<p>我们由 <span class="arithmatex"><span class="MathJax_Preview">\ln x\le x-1</span><script type="math/tex">\ln x\le x-1</script></span> 可以推导出来一下几个基本不等式：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>所以 $f(x)$ 在 $(0,\pi/2)$ 上单调递增，$f(x)&gt;f(0)=0$ 即 $\tan x&gt;x$。</p>
+<p>我们由 $\ln x\le x-1$ 可以推导出来一下几个基本不等式：</p>
+<p>$$
 \ln(x+1)\le x; \quad \ln\dfrac{1}{x}\ge1-x; \quad \ln x\ge1-\dfrac{1}{x}; \quad x\ln x\ge x-1
-</div>
-<script type="math/tex; mode=display">
-\ln(x+1)\le x; \quad \ln\dfrac{1}{x}\ge1-x; \quad \ln x\ge1-\dfrac{1}{x}; \quad x\ln x\ge x-1
-</script>
-</div>
+$$</p>
 <p>其中最常用的不等式链为：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \dfrac{x}{x+1}\le\ln(x+1)\le x
-</div>
-<script type="math/tex; mode=display">
-\dfrac{x}{x+1}\le\ln(x+1)\le x
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 1-\dfrac{1}{x}\le\ln x\le x-1
-</div>
-<script type="math/tex; mode=display">
-1-\dfrac{1}{x}\le\ln x\le x-1
-</script>
-</div>
+$$</p>
 <h3 id="_5">一元不等式</h3>
 <p>我们经常见到这种形式的式子：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 f'(x)+p(x)f(x)=q(x)
-</div>
-<script type="math/tex; mode=display">
-f'(x)+p(x)f(x)=q(x)
-</script>
-</div>
-<p>其中 <span class="arithmatex"><span class="MathJax_Preview">p(x),q(x)</span><script type="math/tex">p(x),q(x)</script></span> 是关于 <span class="arithmatex"><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span> 的式子，这称为一阶线性微分方程。</p>
+$$</p>
+<p>其中 $p(x),q(x)$ 是关于 $x$ 的式子，这称为一阶线性微分方程。</p>
 <p>我们更常见到的是不等式的形式：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 f'(x)+p(x)f(x)&gt;q(x)
-</div>
-<script type="math/tex; mode=display">
-f'(x)+p(x)f(x)>q(x)
-</script>
-</div>
+$$</p>
 <p>我们先简单说一下简单的微分方程怎么解，我们将式子最终化为：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 u(x)\d x=v(y)\d y
-</div>
-<script type="math/tex; mode=display">
-u(x)\d x=v(y)\d y
-</script>
-</div>
+$$</p>
 <p>然后两边求积分，化简即可。</p>
 <div class="admonition note">
-<p class="admonition-title"><span class="arithmatex"><span class="MathJax_Preview">p(x)=0</span><script type="math/tex">p(x)=0</script></span></p>
-<p>我们考虑一个比较简单的形式，<span class="arithmatex"><span class="MathJax_Preview">p(x)=0</span><script type="math/tex">p(x)=0</script></span>，即</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p class="admonition-title">$p(x)=0$</p>
+<p>我们考虑一个比较简单的形式，$p(x)=0$，即</p>
+<p>$$
 f'(x)=q(x)
-</div>
-<script type="math/tex; mode=display">
-f'(x)=q(x)
-</script>
-</div>
-<p>记 <span class="arithmatex"><span class="MathJax_Preview">Q'(x)=q(x)</span><script type="math/tex">Q'(x)=q(x)</script></span>，则：</p>
+$$</p>
+<p>记 $Q'(x)=q(x)$，则：</p>
 <ul>
 <li>
-<p>若符号为 <span class="arithmatex"><span class="MathJax_Preview">=</span><script type="math/tex">=</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">f(x)=Q(x)+C</span><script type="math/tex">f(x)=Q(x)+C</script></span>。</p>
+<p>若符号为 $=$，则 $f(x)=Q(x)+C$。</p>
 </li>
 <li>
-<p>若符号为 <span class="arithmatex"><span class="MathJax_Preview">&gt;</span><script type="math/tex">></script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">f(x)-[Q(x)+C]</span><script type="math/tex">f(x)-[Q(x)+C]</script></span> 单调递增。</p>
+<p>若符号为 $&gt;$，则 $f(x)-[Q(x)+C]$ 单调递增。</p>
 </li>
 </ul>
 </div>
 <div class="admonition note">
-<p class="admonition-title"><span class="arithmatex"><span class="MathJax_Preview">q(x)=0</span><script type="math/tex">q(x)=0</script></span></p>
-<p>我们考虑一个比较简单的形式，<span class="arithmatex"><span class="MathJax_Preview">q(x)=0</span><script type="math/tex">q(x)=0</script></span>，即</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p class="admonition-title">$q(x)=0$</p>
+<p>我们考虑一个比较简单的形式，$q(x)=0$，即</p>
+<p>$$
 f'(x)+p(x)f(x)=0
-</div>
-<script type="math/tex; mode=display">
-f'(x)+p(x)f(x)=0
-</script>
-</div>
-<p>我们有一个固定的解题方法，但是我们先推导一番，设 <span class="arithmatex"><span class="MathJax_Preview">P'(x)=p(x)</span><script type="math/tex">P'(x)=p(x)</script></span>。</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>我们有一个固定的解题方法，但是我们先推导一番，设 $P'(x)=p(x)$。</p>
+<p>$$
 \dfrac{\d y}{\d x}+p(x)y=0
-</div>
-<script type="math/tex; mode=display">
-\dfrac{\d y}{\d x}+p(x)y=0
-</script>
-</div>
+$$</p>
 <p>按照微分方程的思路，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \ln y=-P(x)+C
-</div>
-<script type="math/tex; mode=display">
-\ln y=-P(x)+C
-</script>
-</div>
+$$</p>
 <p>即：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 f(x)=e^{-P(x)+C}
-</div>
-<script type="math/tex; mode=display">
-f(x)=e^{-P(x)+C}
-</script>
-</div>
-<p>移项，构造函数 <span class="arithmatex"><span class="MathJax_Preview">g(x)</span><script type="math/tex">g(x)</script></span>：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-g(x)=e^{P(x)}f(x)=e^C
-</div>
-<script type="math/tex; mode=display">
-g(x)=e^{P(x)}f(x)=e^C
-</script>
-</div>
-<p>具体的，对于 <span class="arithmatex"><span class="MathJax_Preview">q(x)=0</span><script type="math/tex">q(x)=0</script></span> 的等式或不等式，我们两边同时乘以 <span class="arithmatex"><span class="MathJax_Preview">e^{P(x)}</span><script type="math/tex">e^{P(x)}</script></span>，即：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>移项，构造函数 $g(x)$：</p>
+<p>$$
+g(x)=e<sup>{P(x)}f(x)=e</sup>C
+$$</p>
+<p>具体的，对于 $q(x)=0$ 的等式或不等式，我们两边同时乘以 $e^{P(x)}$，即：</p>
+<p>$$
 \begin{aligned}
-e^{P(x)}[f'(x)+p(x)f(x)]&amp;=0\\
+e^{P(x)}[f'(x)+p(x)f(x)]&amp;=0\
 [e^{P(x)}f(x)]'&amp;=0
 \end{aligned}
+$$</p>
+<p>即 $f(x)=Ce^{-P(x)}$，而对于不等式即为 $e^{P(x)}f(x)$ 单调递增。</p>
 </div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-e^{P(x)}[f'(x)+p(x)f(x)]&=0\\
-[e^{P(x)}f(x)]'&=0
-\end{aligned}
-</script>
-</div>
-<p>即 <span class="arithmatex"><span class="MathJax_Preview">f(x)=Ce^{-P(x)}</span><script type="math/tex">f(x)=Ce^{-P(x)}</script></span>，而对于不等式即为 <span class="arithmatex"><span class="MathJax_Preview">e^{P(x)}f(x)</span><script type="math/tex">e^{P(x)}f(x)</script></span> 单调递增。</p>
-</div>
-<p>例题：已知函数 <span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 是定义在 <span class="arithmatex"><span class="MathJax_Preview">\mathbb{R}</span><script type="math/tex">\mathbb{R}</script></span> 上的函数，且满足 <span class="arithmatex"><span class="MathJax_Preview">f'(x) + f(x) &gt; 0</span><script type="math/tex">f'(x) + f(x) > 0</script></span>，设 <span class="arithmatex"><span class="MathJax_Preview">a = f(0)</span><script type="math/tex">a = f(0)</script></span>，<span class="arithmatex"><span class="MathJax_Preview">b = 2f(\ln 2)</span><script type="math/tex">b = 2f(\ln 2)</script></span>，<span class="arithmatex"><span class="MathJax_Preview">c = ef(1)</span><script type="math/tex">c = ef(1)</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">a, b, c</span><script type="math/tex">a, b, c</script></span> 的大小关系是？</p>
-<p>令 <span class="arithmatex"><span class="MathJax_Preview">g(x) = e^x f(x)</span><script type="math/tex">g(x) = e^x f(x)</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">g'(x) = e^x[f'(x) + f(x)] &gt; 0</span><script type="math/tex">g'(x) = e^x[f'(x) + f(x)] > 0</script></span>，即 <span class="arithmatex"><span class="MathJax_Preview">g(x)</span><script type="math/tex">g(x)</script></span> 递增，因为 <span class="arithmatex"><span class="MathJax_Preview">a = g(0)</span><script type="math/tex">a = g(0)</script></span>，<span class="arithmatex"><span class="MathJax_Preview">b = g(\ln 2)</span><script type="math/tex">b = g(\ln 2)</script></span>，<span class="arithmatex"><span class="MathJax_Preview">c = g(1)</span><script type="math/tex">c = g(1)</script></span>，由 <span class="arithmatex"><span class="MathJax_Preview">g(x)</span><script type="math/tex">g(x)</script></span> 的单调性可知 <span class="arithmatex"><span class="MathJax_Preview">g(0) &lt; g(\ln 2) &lt; g(1)</span><script type="math/tex">g(0) < g(\ln 2) < g(1)</script></span>，即 <span class="arithmatex"><span class="MathJax_Preview">c &gt; b &gt; a</span><script type="math/tex">c > b > a</script></span>。</p>
+<p>例题：已知函数 $f(x)$ 是定义在 $\mathbb{R}$ 上的函数，且满足 $f'(x) + f(x) &gt; 0$，设 $a = f(0)$，$b = 2f(\ln 2)$，$c = ef(1)$，则 $a, b, c$ 的大小关系是？</p>
+<p>令 $g(x) = e^x f(x)$，则 $g'(x) = e^x[f'(x) + f(x)] &gt; 0$，即 $g(x)$ 递增，因为 $a = g(0)$，$b = g(\ln 2)$，$c = g(1)$，由 $g(x)$ 的单调性可知 $g(0) &lt; g(\ln 2) &lt; g(1)$，即 $c &gt; b &gt; a$。</p>
 <h3 id="_6">二元不等式</h3>
 <p>二元不等式，首选方案是将两个未知数用一个未知数表示，最常见的是两个次数相等的齐次式相除，用比值还原，将二元不等式转化为一元后，就可以求导解决了。</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{\sqrt{x_1x_2}&lt;\dfrac{x_2-x_1}{\ln x_2-\ln x_1},\quad x_1,x_2&gt;0}\tag e
-</div>
-<script type="math/tex; mode=display">
-\boxed{\sqrt{x_1x_2}<\dfrac{x_2-x_1}{\ln x_2-\ln x_1},\quad x_1,x_2>0}\tag e
-</script>
-</div>
-<p>证明，不放假设 <span class="arithmatex"><span class="MathJax_Preview">x_2&gt;x_1</span><script type="math/tex">x_2>x_1</script></span>，则化简式子为：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>证明，不放假设 $x_2&gt;x_1$，则化简式子为：</p>
+<p>$$
 \ln x_2-\ln x_1&lt;\dfrac{x_2-x_1}{\sqrt{x_1x_2}}
-</div>
-<script type="math/tex; mode=display">
-\ln x_2-\ln x_1<\dfrac{x_2-x_1}{\sqrt{x_1x_2}}
-</script>
-</div>
-<p>设 <span class="arithmatex"><span class="MathJax_Preview">t=\sqrt{x_2/x_1}&gt;1</span><script type="math/tex">t=\sqrt{x_2/x_1}>1</script></span>，则：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>设 $t=\sqrt{x_2/x_1}&gt;1$，则：</p>
+<p>$$
 \begin{aligned}
-\text{LHS}&amp;=\ln t^2=2\ln t\\
-\text{RHS}&amp;=\dfrac{t^2-1}{t}=t-\dfrac{1}{t}
+\text{<abbr title="Left Hand Side (等式左侧)">LHS</abbr>}&amp;=\ln t^2=2\ln t\
+\text{<abbr title="Right Hand Side (等式右侧)">RHS</abbr>}&amp;=\dfrac{t^2-1}{t}=t-\dfrac{1}{t}
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-\text{LHS}&=\ln t^2=2\ln t\\
-\text{RHS}&=\dfrac{t^2-1}{t}=t-\dfrac{1}{t}
-\end{aligned}
-</script>
-</div>
-<p>令 <span class="arithmatex"><span class="MathJax_Preview">f(t)=t-\dfrac{1}{t}-2\ln t</span><script type="math/tex">f(t)=t-\dfrac{1}{t}-2\ln t</script></span>，则：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-f'(t)=1+\dfrac{1}{t^2}-\dfrac{2}{t}=\left(1-\dfrac{1}{t}\right)^2&gt;0
-</div>
-<script type="math/tex; mode=display">
-f'(t)=1+\dfrac{1}{t^2}-\dfrac{2}{t}=\left(1-\dfrac{1}{t}\right)^2>0
-</script>
-</div>
+$$</p>
+<p>令 $f(t)=t-\dfrac{1}{t}-2\ln t$，则：</p>
+<p>$$
+f'(t)=1+\dfrac{1}{t<sup>2}-\dfrac{2}{t}=\left(1-\dfrac{1}{t}\right)</sup>2&gt;0
+$$</p>
 <p>而这个也是一个不等式，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{\ln x&lt;\sqrt{x}-\dfrac{1}{\sqrt{x}},\quad x&gt;1}\tag{f$_1$}
-</div>
-<script type="math/tex; mode=display">
-\boxed{\ln x<\sqrt{x}-\dfrac{1}{\sqrt{x}},\quad x>1}\tag{f$_1$}
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \boxed{\ln x&lt;\dfrac{1}{2}\left(x-\dfrac1x\right),\quad x&gt;1}\tag{f$_2$}
-</div>
-<script type="math/tex; mode=display">
-\boxed{\ln x<\dfrac{1}{2}\left(x-\dfrac1x\right),\quad x>1}\tag{f$_2$}
-</script>
-</div>
-<p>因此 <span class="arithmatex"><span class="MathJax_Preview">f(t)&gt;f(1)=0</span><script type="math/tex">f(t)>f(1)=0</script></span>，这个也成为对数均值不等式：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>因此 $f(t)&gt;f(1)=0$，这个也成为对数均值不等式：</p>
+<p>$$
 \sqrt{x_1x_2}&lt;\boxed{\dfrac{x_2-x_1}{\ln x_2-\ln x_1}&lt;\dfrac{x_1+x_2}{2},\quad x_1,x_2&gt;0}\tag g
-</div>
-<script type="math/tex; mode=display">
-\sqrt{x_1x_2}<\boxed{\dfrac{x_2-x_1}{\ln x_2-\ln x_1}<\dfrac{x_1+x_2}{2},\quad x_1,x_2>0}\tag g
-</script>
-</div>
-<p>带入指数形式，替换 <span class="arithmatex"><span class="MathJax_Preview">a\gets e^x,b\gets e^y</span><script type="math/tex">a\gets e^x,b\gets e^y</script></span>，得：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\boxed{\dfrac{e^x-e^y}{x-y}&lt;\dfrac{e^x+e^y}{2}}\tag h
-</div>
-<script type="math/tex; mode=display">
-\boxed{\dfrac{e^x-e^y}{x-y}<\dfrac{e^x+e^y}{2}}\tag h
-</script>
-</div>
-<p>另外，还可以用韦达定理中的 <span class="arithmatex"><span class="MathJax_Preview">x_2+x_2=-\dfrac{b}{a}</span><script type="math/tex">x_2+x_2=-\dfrac{b}{a}</script></span> 或 <span class="arithmatex"><span class="MathJax_Preview">x_1x_2=\dfrac{c}{a}</span><script type="math/tex">x_1x_2=\dfrac{c}{a}</script></span> 关系将双变量问题转化为单变量问题。</p>
+$$</p>
+<p>带入指数形式，替换 $a\gets e^x,b\gets e^y$，得：</p>
+<p>$$
+\boxed{\dfrac{e<sup>x-e</sup>y}{x-y}&lt;\dfrac{e<sup>x+e</sup>y}{2}}\tag h
+$$</p>
+<p>另外，还可以用韦达定理中的 $x_2+x_2=-\dfrac{b}{a}$ 或 $x_1x_2=\dfrac{c}{a}$ 关系将双变量问题转化为单变量问题。</p>
 <p>另外，还有推导：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\boxed{\ln^2(x+1)&lt;\dfrac{x^2}{x+1},\quad x&gt;0}
-</div>
-<script type="math/tex; mode=display">
-\boxed{\ln^2(x+1)<\dfrac{x^2}{x+1},\quad x>0}
-</script>
-</div>
+<p>$$
+\boxed{\ln<sup>2(x+1)&lt;\dfrac{x</sup>2}{x+1},\quad x&gt;0}
+$$</p>
 <p>二元不等式的证明中，更加常用到齐次化的策略，常见的有：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-e^{x_1+x_2}=e^{x_1}e^{x_2}
-</div>
-<script type="math/tex; mode=display">
-e^{x_1+x_2}=e^{x_1}e^{x_2}
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-e^{x_1-x_2}=\dfrac{e^{x_1}}{e^{x_2}}
-</div>
-<script type="math/tex; mode=display">
-e^{x_1-x_2}=\dfrac{e^{x_1}}{e^{x_2}}
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
+e<sup x_1="x_1">{x_1+x_2}=e</sup>
+$$}e^{x_2</p>
+<p>$$
+e<sup x_1="x_1">{x_1-x_2}=\dfrac{e</sup>
+$$}}{e^{x_2}</p>
+<p>$$
 \ln(x_1x_2)=\ln x_1+\ln x_2
-</div>
-<script type="math/tex; mode=display">
-\ln(x_1x_2)=\ln x_1+\ln x_2
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \ln\dfrac{x_1}{x_2}=\ln x_1-\ln x_2
-</div>
-<script type="math/tex; mode=display">
-\ln\dfrac{x_1}{x_2}=\ln x_1-\ln x_2
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\sin^2x+\cos^2x=0
-</div>
-<script type="math/tex; mode=display">
-\sin^2x+\cos^2x=0
-</script>
-</div>
+$$</p>
+<p>$$
+\sin<sup>2x+\cos</sup>2x=0
+$$</p>
 <h3 id="_7">数字不等式</h3>
 <p>常用方法：</p>
 <ul>
@@ -432,410 +246,240 @@ e^{x_1-x_2}=\dfrac{e^{x_1}}{e^{x_2}}
 <p>对于有指数的，取对数。</p>
 </li>
 </ul>
-<p>将 <span class="arithmatex"><span class="MathJax_Preview">e^3,3^e,e^\pi,\pi^e,3^\pi,\pi^3</span><script type="math/tex">e^3,3^e,e^\pi,\pi^e,3^\pi,\pi^3</script></span> 按照从小到大都顺序排列。</p>
+<p>将 $e<sup>3,3</sup>e,e<sup>\pi,\pi</sup>e,3<sup>\pi,\pi</sup>3$ 按照从小到大都顺序排列。</p>
 <p>构造函数：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 f(x)=\dfrac{\ln x}{x}
-</div>
-<script type="math/tex; mode=display">
-f(x)=\dfrac{\ln x}{x}
-</script>
-</div>
+$$</p>
 <p>求导得出</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 f'(x)=\dfrac{1-\ln x}{x^2}
-</div>
-<script type="math/tex; mode=display">
-f'(x)=\dfrac{1-\ln x}{x^2}
-</script>
-</div>
-<p>容易知道在 <span class="arithmatex"><span class="MathJax_Preview">[e,+\infty)</span><script type="math/tex">[e,+\infty)</script></span> 上 <span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 是单调递减的。</p>
+$$</p>
+<p>容易知道在 $[e,+\infty)$ 上 $f(x)$ 是单调递减的。</p>
 <p>我们知道：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 e&lt;3&lt;\pi
-</div>
-<script type="math/tex; mode=display">
-e<3<\pi
-</script>
-</div>
+$$</p>
 <p>因此</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \dfrac{\ln\pi}{\pi}&lt;\dfrac{\ln3}{3}&lt;\dfrac{\ln e}{e}
-</div>
-<script type="math/tex; mode=display">
-\dfrac{\ln\pi}{\pi}<\dfrac{\ln3}{3}<\dfrac{\ln e}{e}
-</script>
-</div>
+$$</p>
 <p>可以得到三组不等式</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{cases}
-\pi^3&amp;&lt;3^\pi\\
-\pi^e&amp;&lt;e^\pi\\
-3^e&amp;&lt;e^3
+\pi<sup>3&amp;&lt;3</sup>\pi\
+\pi<sup>e&amp;&lt;e</sup>\pi\
+3<sup>e&amp;&lt;e</sup>3
 \end{cases}
-</div>
-<script type="math/tex; mode=display">
-\begin{cases}
-\pi^3&<3^\pi\\
-\pi^e&<e^\pi\\
-3^e&<e^3
-\end{cases}
-</script>
-</div>
+$$</p>
 <p>现在我们可以得到下面的（用括号表示两个暂不知道大小关系）</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-3^e&lt;(\pi^e,e^3)&lt;(\pi^3,e^\pi)&lt;3^\pi
-</div>
-<script type="math/tex; mode=display">
-3^e<(\pi^e,e^3)<(\pi^3,e^\pi)<3^\pi
-</script>
-</div>
-<p>证法一：当 <span class="arithmatex"><span class="MathJax_Preview">x&gt;0</span><script type="math/tex">x>0</script></span> 且 <span class="arithmatex"><span class="MathJax_Preview">x\neq1</span><script type="math/tex">x\neq1</script></span> 时，有不等式</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
+3<sup>e&lt;(\pi</sup>e,e<sup>3)&lt;(\pi</sup>3,e<sup>\pi)&lt;3</sup>\pi
+$$</p>
+<p>证法一：当 $x&gt;0$ 且 $x\neq1$ 时，有不等式</p>
+<p>$$
 \ln x&gt;1-\frac{1}{x}
-</div>
-<script type="math/tex; mode=display">
-\ln x>1-\frac{1}{x}
-</script>
-</div>
+$$</p>
 <p>从而：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \pi-3\ln\pi=\pi-3\ln\frac{\pi}{e}-3&lt;\pi-3\left(1-\frac{e}{\pi}\right)-3=\frac{\pi^2-6\pi+3e}{\pi}&lt;0
-</div>
-<script type="math/tex; mode=display">
-\pi-3\ln\pi=\pi-3\ln\frac{\pi}{e}-3<\pi-3\left(1-\frac{e}{\pi}\right)-3=\frac{\pi^2-6\pi+3e}{\pi}<0
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 3-e\ln\pi=3-e\ln\frac{\pi}{e}-e&lt;3-e\left(1-\frac{e}{\pi}\right)-e=\frac{3\pi-2e\pi+e^2}{\pi}&lt;0
-</div>
-<script type="math/tex; mode=display">
-3-e\ln\pi=3-e\ln\frac{\pi}{e}-e<3-e\left(1-\frac{e}{\pi}\right)-e=\frac{3\pi-2e\pi+e^2}{\pi}<0
-</script>
-</div>
-<p>证法二：当 <span class="arithmatex"><span class="MathJax_Preview">0&lt;x&lt;e</span><script type="math/tex">0<x<e</script></span> 时，有不等式</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>证法二：当 $0&lt;x&lt;e$ 时，有不等式</p>
+<p>$$
 \ln x&lt;\frac{x}{e}
-</div>
-<script type="math/tex; mode=display">
-\ln x<\frac{x}{e}
-</script>
-</div>
+$$</p>
 <p>从而：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\pi-3\ln\pi=\pi+3\ln\frac{e^2}{\pi}-6&lt;\pi+\frac{3e}{\pi}-6=\frac{\pi^2+3e-6\pi}{\pi}&lt;0
-</div>
-<script type="math/tex; mode=display">
-\pi-3\ln\pi=\pi+3\ln\frac{e^2}{\pi}-6<\pi+\frac{3e}{\pi}-6=\frac{\pi^2+3e-6\pi}{\pi}<0
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-3-e\ln\pi=3+e\ln\frac{e^2}{\pi}-2e&lt;3+\frac{e^2}{\pi}-2e=\frac{3\pi-2e\pi+e^2}{\pi}&lt;0
-</div>
-<script type="math/tex; mode=display">
-3-e\ln\pi=3+e\ln\frac{e^2}{\pi}-2e<3+\frac{e^2}{\pi}-2e=\frac{3\pi-2e\pi+e^2}{\pi}<0
-</script>
-</div>
+<p>$$
+\pi-3\ln\pi=\pi+3\ln\frac{e<sup>2}{\pi}-6&lt;\pi+\frac{3e}{\pi}-6=\frac{\pi</sup>2+3e-6\pi}{\pi}&lt;0
+$$</p>
+<p>$$
+3-e\ln\pi=3+e\ln\frac{e<sup>2}{\pi}-2e&lt;3+\frac{e</sup>2}{\pi}-2e=\frac{3\pi-2e\pi+e^2}{\pi}&lt;0
+$$</p>
 <p>证明：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\left(\frac{6}{5}\right)^{\sqrt{3}}&gt;\left(\frac{5}{4}\right)^{\sqrt{2}}
-</div>
-<script type="math/tex; mode=display">
-\left(\frac{6}{5}\right)^{\sqrt{3}}>\left(\frac{5}{4}\right)^{\sqrt{2}}
-</script>
-</div>
+<p>$$
+\left(\frac{6}{5}\right)<sup _sqrt_2="\sqrt{2">{\sqrt{3}}&gt;\left(\frac{5}{4}\right)</sup>
+$$}</p>
 <p>我们两边取对数，构造函数</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 f(x)=\frac{\sqrt{x}\ln x}{x-1},x&gt;1
-</div>
-<script type="math/tex; mode=display">
-f(x)=\frac{\sqrt{x}\ln x}{x-1},x>1
-</script>
-</div>
+$$</p>
 <p>去导数，计算可能有一点复杂：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 f'(x)=\frac{x+1}{2\sqrt{x}(x-1)^2}\cdot\left[\frac{2(x-1)}{x+1}-\ln x\right]&lt;0
-</div>
-<script type="math/tex; mode=display">
-f'(x)=\frac{x+1}{2\sqrt{x}(x-1)^2}\cdot\left[\frac{2(x-1)}{x+1}-\ln x\right]<0
-</script>
-</div>
-<p>故 <span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 单调递减，因此有</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>故 $f(x)$ 单调递减，因此有</p>
+<p>$$
 f\left(\frac{6}{5}\right)&gt;f\left(\frac{5}{4}\right)
-</div>
-<script type="math/tex; mode=display">
-f\left(\frac{6}{5}\right)>f\left(\frac{5}{4}\right)
-</script>
-</div>
+$$</p>
 <p>得证。</p>
 <h2 id="_8">恒成立问题</h2>
 <h3 id="_9">函数模型</h3>
 <p>简单的恒成立问题：</p>
 <ul>
 <li>
-<p><span class="arithmatex"><span class="MathJax_Preview">f(x)\ge0</span><script type="math/tex">f(x)\ge0</script></span> 在定义域内恒成立 <span class="arithmatex"><span class="MathJax_Preview">\iff f(x)_{\min}\ge0</span><script type="math/tex">\iff f(x)_{\min}\ge0</script></span>。</p>
+<p>$f(x)\ge0$ 在定义域内恒成立 $\iff f(x)_{\min}\ge0$。</p>
 </li>
 <li>
-<p><span class="arithmatex"><span class="MathJax_Preview">f(x)\le0</span><script type="math/tex">f(x)\le0</script></span> 在定义域内恒成立 <span class="arithmatex"><span class="MathJax_Preview">\iff f(x)_{\max}\le0</span><script type="math/tex">\iff f(x)_{\max}\le0</script></span>。</p>
+<p>$f(x)\le0$ 在定义域内恒成立 $\iff f(x)_{\max}\le0$。</p>
 </li>
 </ul>
 <p>对于任何单调函数，最值必在端点处取到：</p>
 <ul>
 <li>
-<p>单调函数 <span class="arithmatex"><span class="MathJax_Preview">f(x)\ge0</span><script type="math/tex">f(x)\ge0</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">[x_1,x_2]</span><script type="math/tex">[x_1,x_2]</script></span> 上恒成立等价于 <span class="arithmatex"><span class="MathJax_Preview">\begin{cases}f(x_1)&amp;\ge0\\ f(x_2)&amp;\ge0\end{cases}</span><script type="math/tex">\begin{cases}f(x_1)&\ge0\\ f(x_2)&\ge0\end{cases}</script></span>。</p>
+<p>单调函数 $f(x)\ge0$ 在 $[x_1,x_2]$ 上恒成立等价于 $\begin{cases}f(x_1)&amp;\ge0\ f(x_2)&amp;\ge0\end{cases}$。</p>
 </li>
 <li>
-<p>单调函数 <span class="arithmatex"><span class="MathJax_Preview">f(x)\le0</span><script type="math/tex">f(x)\le0</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">[x_1,x_2]</span><script type="math/tex">[x_1,x_2]</script></span> 上恒成立等价于 <span class="arithmatex"><span class="MathJax_Preview">\begin{cases}f(x_1)&amp;\le0\\ f(x_2)&amp;\le0\end{cases}</span><script type="math/tex">\begin{cases}f(x_1)&\le0\\ f(x_2)&\le0\end{cases}</script></span>。</p>
+<p>单调函数 $f(x)\le0$ 在 $[x_1,x_2]$ 上恒成立等价于 $\begin{cases}f(x_1)&amp;\le0\ f(x_2)&amp;\le0\end{cases}$。</p>
 </li>
 </ul>
-<p>对任何一个函数 <span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span>，若它在区间上是先减后增，则其最大值必在端点处取得，同理可得若函数在区间上先增后减，其最小值必在区间端点处取得：</p>
+<p>对任何一个函数 $f(x)$，若它在区间上是先减后增，则其最大值必在端点处取得，同理可得若函数在区间上先增后减，其最小值必在区间端点处取得：</p>
 <ul>
 <li>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">a &gt; 0</span><script type="math/tex">a > 0</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">f(x) = ax^2 + bx + c \le 0</span><script type="math/tex">f(x) = ax^2 + bx + c \le 0</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">[x_1, x_2]</span><script type="math/tex">[x_1, x_2]</script></span> 上恒成立等价于 <span class="arithmatex"><span class="MathJax_Preview">\begin{cases}f(x_1)&amp;\le0\\ f(x_2)&amp;\le0\end{cases}</span><script type="math/tex">\begin{cases}f(x_1)&\le0\\ f(x_2)&\le0\end{cases}</script></span>。</p>
+<p>若 $a &gt; 0$，则 $f(x) = ax^2 + bx + c \le 0$ 在 $[x_1, x_2]$ 上恒成立等价于 $\begin{cases}f(x_1)&amp;\le0\ f(x_2)&amp;\le0\end{cases}$。</p>
 </li>
 <li>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">a &lt; 0</span><script type="math/tex">a < 0</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">f(x) = ax^2 + bx + c \ge 0</span><script type="math/tex">f(x) = ax^2 + bx + c \ge 0</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">[x_1, x_2]</span><script type="math/tex">[x_1, x_2]</script></span> 上恒成立等价于 <span class="arithmatex"><span class="MathJax_Preview">\begin{cases}f(x_1)&amp;\ge0\\ f(x_2)&amp;\ge0\end{cases}</span><script type="math/tex">\begin{cases}f(x_1)&\ge0\\ f(x_2)&\ge0\end{cases}</script></span>。</p>
+<p>若 $a &lt; 0$，则 $f(x) = ax^2 + bx + c \ge 0$ 在 $[x_1, x_2]$ 上恒成立等价于 $\begin{cases}f(x_1)&amp;\ge0\ f(x_2)&amp;\ge0\end{cases}$。</p>
 </li>
 </ul>
 <p>二次函数恒正、恒负的等价条件：</p>
 <ol>
 <li>
-<p>对一切实数 <span class="arithmatex"><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span>，<span class="arithmatex"><span class="MathJax_Preview">ax^2 + bx + c \ge 0</span><script type="math/tex">ax^2 + bx + c \ge 0</script></span> 恒成立的条件是：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>对一切实数 $x$，$ax^2 + bx + c \ge 0$ 恒成立的条件是：</p>
+<p>$$
 \begin{cases}
-a &amp;&gt; 0 \\
+a &amp;&gt; 0 \
 \Delta &amp;\le 0
 \end{cases}
-</div>
-<script type="math/tex; mode=display">
-\begin{cases}
-a &> 0 \\
-\Delta &\le 0
-\end{cases}
-</script>
-</div>
+$$</p>
 </li>
 <li>
-<p>对一切实数 <span class="arithmatex"><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span>，<span class="arithmatex"><span class="MathJax_Preview">ax^2 + bx + c \le 0</span><script type="math/tex">ax^2 + bx + c \le 0</script></span> 恒成立的条件是：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>对一切实数 $x$，$ax^2 + bx + c \le 0$ 恒成立的条件是：</p>
+<p>$$
 \begin{cases}
-a &amp;&lt; 0 \\
+a &amp;&lt; 0 \
 \Delta &amp;\le 0
 \end{cases}
-</div>
-<script type="math/tex; mode=display">
-\begin{cases}
-a &< 0 \\
-\Delta &\le 0
-\end{cases}
-</script>
-</div>
+$$</p>
 </li>
 </ol>
 <p>绝对值函数：</p>
 <ul>
 <li>
-<p>函数 <span class="arithmatex"><span class="MathJax_Preview">f(x)=|ax+b|</span><script type="math/tex">f(x)=|ax+b|</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">[x_1,x_2]</span><script type="math/tex">[x_1,x_2]</script></span> 上的最大值必在端点处取到。</p>
+<p>函数 $f(x)=|ax+b|$ 在 $[x_1,x_2]$ 上的最大值必在端点处取到。</p>
 </li>
 <li>
-<p>对于内部不是一次函数的，可以设处二次函数为 <span class="arithmatex"><span class="MathJax_Preview">u</span><script type="math/tex">u</script></span>，利用换元法解决，例如：</p>
-<p>已知 <span class="arithmatex"><span class="MathJax_Preview">t</span><script type="math/tex">t</script></span> 为常数，函数 <span class="arithmatex"><span class="MathJax_Preview">y=|x^2-2x-t|</span><script type="math/tex">y=|x^2-2x-t|</script></span> 在区间 <span class="arithmatex"><span class="MathJax_Preview">[0,3]</span><script type="math/tex">[0,3]</script></span> 上的最大值为 <span class="arithmatex"><span class="MathJax_Preview">2</span><script type="math/tex">2</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">t=</span><script type="math/tex">t=</script></span>？</p>
-<p>令 <span class="arithmatex"><span class="MathJax_Preview">u=x^2-2x\in[-1,3]</span><script type="math/tex">u=x^2-2x\in[-1,3]</script></span>，则问题转化为求 <span class="arithmatex"><span class="MathJax_Preview">t</span><script type="math/tex">t</script></span> 大取值范围使得 <span class="arithmatex"><span class="MathJax_Preview">|u-t|</span><script type="math/tex">|u-t|</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">[-1,3]</span><script type="math/tex">[-1,3]</script></span> 上的最大值为 <span class="arithmatex"><span class="MathJax_Preview">2</span><script type="math/tex">2</script></span>。</p>
-<p>若最大值在 <span class="arithmatex"><span class="MathJax_Preview">u=-1</span><script type="math/tex">u=-1</script></span> 取到，解得 <span class="arithmatex"><span class="MathJax_Preview">t=1</span><script type="math/tex">t=1</script></span>；若最大值在 <span class="arithmatex"><span class="MathJax_Preview">u=3</span><script type="math/tex">u=3</script></span> 取到，解得 <span class="arithmatex"><span class="MathJax_Preview">t=1</span><script type="math/tex">t=1</script></span>。故 <span class="arithmatex"><span class="MathJax_Preview">t=1</span><script type="math/tex">t=1</script></span>。</p>
+<p>对于内部不是一次函数的，可以设处二次函数为 $u$，利用换元法解决，例如：</p>
+<p>已知 $t$ 为常数，函数 $y=|x^2-2x-t|$ 在区间 $[0,3]$ 上的最大值为 $2$，则 $t=$？</p>
+<p>令 $u=x^2-2x\in[-1,3]$，则问题转化为求 $t$ 大取值范围使得 $|u-t|$ 在 $[-1,3]$ 上的最大值为 $2$。</p>
+<p>若最大值在 $u=-1$ 取到，解得 $t=1$；若最大值在 $u=3$ 取到，解得 $t=1$。故 $t=1$。</p>
 </li>
 </ul>
 <h3 id="_10">共零点法</h3>
 <p>对于含参恒成立问题</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 f(x)g(x)\ge0
-</div>
-<script type="math/tex; mode=display">
-f(x)g(x)\ge0
-</script>
-</div>
+$$</p>
 <p>容易知道，我们只需要让两个函数处处异号（或为零）即可。</p>
-<p>首先验证当 <span class="arithmatex"><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span> 趋近于正负无穷是否满足，然后就可以令 <span class="arithmatex"><span class="MathJax_Preview">f,g</span><script type="math/tex">f,g</script></span> 零点重合即可。</p>
+<p>首先验证当 $x$ 趋近于正负无穷是否满足，然后就可以令 $f,g$ 零点重合即可。</p>
 <h3 id="_11">参变分离法</h3>
 <p>参变分离，即为将参数和变量分开，使不等式一边只有参数，另一边只含有变量，可以进行参变分离的一定是显式的。</p>
-<p><strong>例题</strong>：已知 <span class="arithmatex"><span class="MathJax_Preview">y = xe^x + x^2 + 2x + a</span><script type="math/tex">y = xe^x + x^2 + 2x + a</script></span> 恰有两个不同的零点，则 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 的取值范围为。</p>
-<p><strong>答案</strong>：由题意方程 <span class="arithmatex"><span class="MathJax_Preview">xe^x + x^2 + 2x + a = 0</span><script type="math/tex">xe^x + x^2 + 2x + a = 0</script></span> 有两个不同的实根，分离参数 <span class="arithmatex"><span class="MathJax_Preview">-a = xe^x + x^2 + 2x</span><script type="math/tex">-a = xe^x + x^2 + 2x</script></span>。令 <span class="arithmatex"><span class="MathJax_Preview">f(x) = xe^x + x^2 + 2x</span><script type="math/tex">f(x) = xe^x + x^2 + 2x</script></span>，则函数 <span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 的定义域为 <span class="arithmatex"><span class="MathJax_Preview">\mathbb{R}</span><script type="math/tex">\mathbb{R}</script></span>，求导</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p><strong>例题</strong>：已知 $y = xe^x + x^2 + 2x + a$ 恰有两个不同的零点，则 $a$ 的取值范围为。</p>
+<p><strong>答案</strong>：由题意方程 $xe^x + x^2 + 2x + a = 0$ 有两个不同的实根，分离参数 $-a = xe^x + x^2 + 2x$。令 $f(x) = xe^x + x^2 + 2x$，则函数 $f(x)$ 的定义域为 $\mathbb{R}$，求导</p>
+<p>$$
 f'(x) = (x+1)(e^x + 2)
-</div>
-<script type="math/tex; mode=display">
-f'(x) = (x+1)(e^x + 2)
-</script>
-</div>
-<p>当 <span class="arithmatex"><span class="MathJax_Preview">x &lt; -1</span><script type="math/tex">x < -1</script></span> 时，<span class="arithmatex"><span class="MathJax_Preview">f'(x) &lt; 0</span><script type="math/tex">f'(x) < 0</script></span>，<span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 单调递减；当 <span class="arithmatex"><span class="MathJax_Preview">x &gt; -1</span><script type="math/tex">x > -1</script></span> 时，<span class="arithmatex"><span class="MathJax_Preview">f'(x) &gt; 0</span><script type="math/tex">f'(x) > 0</script></span>，<span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 单调递增，所以函数 <span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">x = -1</span><script type="math/tex">x = -1</script></span> 处取得极小值：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>当 $x &lt; -1$ 时，$f'(x) &lt; 0$，$f(x)$ 单调递减；当 $x &gt; -1$ 时，$f'(x) &gt; 0$，$f(x)$ 单调递增，所以函数 $f(x)$ 在 $x = -1$ 处取得极小值：</p>
+<p>$$
 f(-1) = -\dfrac{1}{e} - 1
-</div>
-<script type="math/tex; mode=display">
-f(-1) = -\dfrac{1}{e} - 1
-</script>
-</div>
-<p>从而作出函数 <span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 的图像，则 <span class="arithmatex"><span class="MathJax_Preview">-a &gt; -\dfrac{1}{e} - 1</span><script type="math/tex">-a > -\dfrac{1}{e} - 1</script></span> 时，函数 <span class="arithmatex"><span class="MathJax_Preview">y = f(x)</span><script type="math/tex">y = f(x)</script></span> 的图像与直线 <span class="arithmatex"><span class="MathJax_Preview">y = -a</span><script type="math/tex">y = -a</script></span> 有两个交点，所以</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>从而作出函数 $f(x)$ 的图像，则 $-a &gt; -\dfrac{1}{e} - 1$ 时，函数 $y = f(x)$ 的图像与直线 $y = -a$ 有两个交点，所以</p>
+<p>$$
 a &lt; \dfrac{1}{e} + 1
-</div>
-<script type="math/tex; mode=display">
-a < \dfrac{1}{e} + 1
-</script>
-</div>
-<p><strong>例题</strong>：已知函数 <span class="arithmatex"><span class="MathJax_Preview">f(x) = x(\ln x - ax)</span><script type="math/tex">f(x) = x(\ln x - ax)</script></span> 有两个极值点，则实数 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 的取值范围为。</p>
-<p><strong>答案</strong>：函数 <span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 的定义域为 <span class="arithmatex"><span class="MathJax_Preview">x &gt; 0</span><script type="math/tex">x > 0</script></span>，由题意 <span class="arithmatex"><span class="MathJax_Preview">f'(x) = \ln x - 2ax + 1</span><script type="math/tex">f'(x) = \ln x - 2ax + 1</script></span> 有两个零点，分离参数</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p><strong>例题</strong>：已知函数 $f(x) = x(\ln x - ax)$ 有两个极值点，则实数 $a$ 的取值范围为。</p>
+<p><strong>答案</strong>：函数 $f(x)$ 的定义域为 $x &gt; 0$，由题意 $f'(x) = \ln x - 2ax + 1$ 有两个零点，分离参数</p>
+<p>$$
 2a = \dfrac{\ln x + 1}{x}=g(x)
-</div>
-<script type="math/tex; mode=display">
-2a = \dfrac{\ln x + 1}{x}=g(x)
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 g'(x) = \dfrac{1 - \ln x - 1}{x^2} = \dfrac{-\ln x}{x^2}
-</div>
-<script type="math/tex; mode=display">
-g'(x) = \dfrac{1 - \ln x - 1}{x^2} = \dfrac{-\ln x}{x^2}
-</script>
-</div>
-<p>当 <span class="arithmatex"><span class="MathJax_Preview">0 &lt; x &lt; 1</span><script type="math/tex">0 < x < 1</script></span> 时，<span class="arithmatex"><span class="MathJax_Preview">g'(x) &gt; 0</span><script type="math/tex">g'(x) > 0</script></span>，<span class="arithmatex"><span class="MathJax_Preview">g(x)</span><script type="math/tex">g(x)</script></span> 单调递增；当 <span class="arithmatex"><span class="MathJax_Preview">x &gt; 1</span><script type="math/tex">x > 1</script></span> 时，<span class="arithmatex"><span class="MathJax_Preview">g'(x) &lt; 0</span><script type="math/tex">g'(x) < 0</script></span>，<span class="arithmatex"><span class="MathJax_Preview">g(x)</span><script type="math/tex">g(x)</script></span> 单调递减，所以函数 <span class="arithmatex"><span class="MathJax_Preview">g(x)</span><script type="math/tex">g(x)</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">x = 1</span><script type="math/tex">x = 1</script></span> 处取得极大值 <span class="arithmatex"><span class="MathJax_Preview">g(1) = 1</span><script type="math/tex">g(1) = 1</script></span>。</p>
-<p>当 <span class="arithmatex"><span class="MathJax_Preview">x \to +\infty</span><script type="math/tex">x \to +\infty</script></span> 时，<span class="arithmatex"><span class="MathJax_Preview">g(x) \to 0</span><script type="math/tex">g(x) \to 0</script></span>；当 <span class="arithmatex"><span class="MathJax_Preview">x \to 0</span><script type="math/tex">x \to 0</script></span> 时，<span class="arithmatex"><span class="MathJax_Preview">g(x) \to -\infty</span><script type="math/tex">g(x) \to -\infty</script></span>。当 <span class="arithmatex"><span class="MathJax_Preview">0 &lt; 2a &lt; 1</span><script type="math/tex">0 < 2a < 1</script></span>，即 <span class="arithmatex"><span class="MathJax_Preview">0 &lt; a &lt; \dfrac{1}{2}</span><script type="math/tex">0 < a < \dfrac{1}{2}</script></span> 时，直线 <span class="arithmatex"><span class="MathJax_Preview">y = 2a</span><script type="math/tex">y = 2a</script></span> 与 <span class="arithmatex"><span class="MathJax_Preview">y = g(x)</span><script type="math/tex">y = g(x)</script></span> 的图像有两个交点。</p>
+$$</p>
+<p>当 $0 &lt; x &lt; 1$ 时，$g'(x) &gt; 0$，$g(x)$ 单调递增；当 $x &gt; 1$ 时，$g'(x) &lt; 0$，$g(x)$ 单调递减，所以函数 $g(x)$ 在 $x = 1$ 处取得极大值 $g(1) = 1$。</p>
+<p>当 $x \to +\infty$ 时，$g(x) \to 0$；当 $x \to 0$ 时，$g(x) \to -\infty$。当 $0 &lt; 2a &lt; 1$，即 $0 &lt; a &lt; \dfrac{1}{2}$ 时，直线 $y = 2a$ 与 $y = g(x)$ 的图像有两个交点。</p>
 <p>我们这一节的内容是恒成立问题，参变分离解决恒成立问题通常更加简单，直接把参数挪到一边，然后对另一边应用函数模型即可。</p>
 <p>解决这类问题的方法分为三种，带着参数讨论、参变分离和半分参，下面讲解一下半分参。半分参的技巧性比较强，下面只介绍几种最经典的。</p>
 <div class="admonition note">
 <p class="admonition-title">例题</p>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">f(x) = e^x - ax + 2a &gt; 0</span><script type="math/tex">f(x) = e^x - ax + 2a > 0</script></span> 恒成立，求 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 的取值范围。</p>
+<p>若 $f(x) = e^x - ax + 2a &gt; 0$ 恒成立，求 $a$ 的取值范围。</p>
 <p>我们进行化简：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 e^x &gt; a(x-2)
-</div>
-<script type="math/tex; mode=display">
-e^x > a(x-2)
-</script>
-</div>
-<p>我们发现此时如果进行参变分离，就要讨论 <span class="arithmatex"><span class="MathJax_Preview">x-2</span><script type="math/tex">x-2</script></span> 的符号，我们知道我们应当避免讨论自变量的符号，而应当讨论参数的符号（因为这也能帮我们确定参数的取值范围）。</p>
+$$</p>
+<p>我们发现此时如果进行参变分离，就要讨论 $x-2$ 的符号，我们知道我们应当避免讨论自变量的符号，而应当讨论参数的符号（因为这也能帮我们确定参数的取值范围）。</p>
 <p><img alt="alt text" src="../desmos-graph%20%283%29.svg" width="50%" /></p>
-<p>因此我们令 <span class="arithmatex"><span class="MathJax_Preview">g(x)=e^x</span><script type="math/tex">g(x)=e^x</script></span>，<span class="arithmatex"><span class="MathJax_Preview">h(x)=a(x-2)</span><script type="math/tex">h(x)=a(x-2)</script></span>。</p>
+<p>因此我们令 $g(x)=e^x$，$h(x)=a(x-2)$。</p>
 <ul>
 <li>
-<p>当 <span class="arithmatex"><span class="MathJax_Preview">a&lt;0</span><script type="math/tex">a<0</script></span> 时，<span class="arithmatex"><span class="MathJax_Preview">g(x)&gt;h(x)</span><script type="math/tex">g(x)>h(x)</script></span> 不恒成立。</p>
+<p>当 $a&lt;0$ 时，$g(x)&gt;h(x)$ 不恒成立。</p>
 </li>
 <li>
-<p>当 <span class="arithmatex"><span class="MathJax_Preview">a=0</span><script type="math/tex">a=0</script></span> 时 <span class="arithmatex"><span class="MathJax_Preview">e^x&gt;0</span><script type="math/tex">e^x>0</script></span> 恒成立。</p>
+<p>当 $a=0$ 时 $e^x&gt;0$ 恒成立。</p>
 </li>
 <li>
-<p>当 <span class="arithmatex"><span class="MathJax_Preview">a&gt;0</span><script type="math/tex">a>0</script></span> 时：设 <span class="arithmatex"><span class="MathJax_Preview">g(x)</span><script type="math/tex">g(x)</script></span> 与 <span class="arithmatex"><span class="MathJax_Preview">h(x)</span><script type="math/tex">h(x)</script></span> 相切于点 <span class="arithmatex"><span class="MathJax_Preview">(x_0,e^{x_0})</span><script type="math/tex">(x_0,e^{x_0})</script></span>，此时直线 <span class="arithmatex"><span class="MathJax_Preview">h(x)</span><script type="math/tex">h(x)</script></span> 的斜率 <span class="arithmatex"><span class="MathJax_Preview">a_0</span><script type="math/tex">a_0</script></span> 就应当等于曲线在该点的切线斜率</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>当 $a&gt;0$ 时：设 $g(x)$ 与 $h(x)$ 相切于点 $(x_0,e^{x_0})$，此时直线 $h(x)$ 的斜率 $a_0$ 就应当等于曲线在该点的切线斜率</p>
+<p>$$
 a_0=e^{x_0}
-</div>
-<script type="math/tex; mode=display">
-a_0=e^{x_0}
-</script>
-</div>
+$$</p>
 <p>根据斜率，写出：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\dfrac{e^{x_0}}{x_0-2}=e^{x_0}
-</div>
-<script type="math/tex; mode=display">
-\dfrac{e^{x_0}}{x_0-2}=e^{x_0}
-</script>
-</div>
-<p>解得 <span class="arithmatex"><span class="MathJax_Preview">x_0=3</span><script type="math/tex">x_0=3</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">a_0=e^{x_0}=e^3</span><script type="math/tex">a_0=e^{x_0}=e^3</script></span>。</p>
+<p>$$
+\dfrac{e<sup x_0="x_0">{x_0}}{x_0-2}=e</sup>
+$$</p>
+<p>解得 $x_0=3$，则 $a_0=e<sup>{x_0}=e</sup>3$。</p>
 </li>
 </ul>
-<p>综上，<span class="arithmatex"><span class="MathJax_Preview">a\in [0, e^3)</span><script type="math/tex">a\in [0, e^3)</script></span>。</p>
+<p>综上，$a\in [0, e^3)$。</p>
 </div>
 <p>在半分参中，通常是一条直线和一条曲线，除非两条曲线是非常经典且简单的形式，这也可以用于预判是否可以使用半分参。</p>
 <h3 id="_12">简单变形法</h3>
 <p>复杂的恒成立问题，优先考虑求导数的零点，如果很难求解，则通过下面两个方法：</p>
 <ul>
 <li>
-<p>与指数相关的恒成立问题，如果很难求导数的零点，则优先考虑将函数变形为 <span class="arithmatex"><span class="MathJax_Preview">e^xf(x)</span><script type="math/tex">e^xf(x)</script></span> 或 <span class="arithmatex"><span class="MathJax_Preview">e^{-x}f(x)</span><script type="math/tex">e^{-x}f(x)</script></span> 的形式。</p>
+<p>与指数相关的恒成立问题，如果很难求导数的零点，则优先考虑将函数变形为 $e^xf(x)$ 或 $e^{-x}f(x)$ 的形式。</p>
 </li>
 <li>
-<p>与对数相关的恒成立问题，如果很难求导数的零点，则优先考虑将函数变形为 <span class="arithmatex"><span class="MathJax_Preview">f(x) + \ln g(x)</span><script type="math/tex">f(x) + \ln g(x)</script></span> 的形式。其思想精髓是将对数与其他函数分离，达到求导后可以摆脱对数的干扰。除了 <span class="arithmatex"><span class="MathJax_Preview">f(x) + \ln g(x)</span><script type="math/tex">f(x) + \ln g(x)</script></span> 这种形式外，还有一种形式，求导后可以“甩掉”对数。</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>与对数相关的恒成立问题，如果很难求导数的零点，则优先考虑将函数变形为 $f(x) + \ln g(x)$ 的形式。其思想精髓是将对数与其他函数分离，达到求导后可以摆脱对数的干扰。除了 $f(x) + \ln g(x)$ 这种形式外，还有一种形式，求导后可以“甩掉”对数。</p>
+<p>$$
 f(x)(\ln f(x) + C)
-</div>
-<script type="math/tex; mode=display">
-f(x)(\ln f(x) + C)
-</script>
-</div>
+$$</p>
 <p>求导后的结果是：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 f'(x)(\ln f(x) + C + 1)，
-</div>
-<script type="math/tex; mode=display">
-f'(x)(\ln f(x) + C + 1)，
-</script>
-</div>
-<p>其中 <span class="arithmatex"><span class="MathJax_Preview">C</span><script type="math/tex">C</script></span> 为常数。显然其导数的零点与对数函数也无关。</p>
-<p>因此，与对数函数相关的函数题中，首先考虑将函数变形为 <span class="arithmatex"><span class="MathJax_Preview">f(x) + \ln g(x)</span><script type="math/tex">f(x) + \ln g(x)</script></span> 或 <span class="arithmatex"><span class="MathJax_Preview">f(x)(\ln f(x) + C)</span><script type="math/tex">f(x)(\ln f(x) + C)</script></span> 的形式。</p>
+$$</p>
+<p>其中 $C$ 为常数。显然其导数的零点与对数函数也无关。</p>
+<p>因此，与对数函数相关的函数题中，首先考虑将函数变形为 $f(x) + \ln g(x)$ 或 $f(x)(\ln f(x) + C)$ 的形式。</p>
 </li>
 <li>
 <p>不要一看到指数函数就想变形，因为某些与指数函数相关的问题就不需要变形也能求其极值点。</p>
 </li>
 <li>
-<p>如果问题是让你求函数 <span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 的最值、极值或者单调性之类的，则无论如何也<strong>不能变形</strong>，因为这会导致<strong>变形后的问题与原问题不等价</strong>。</p>
+<p>如果问题是让你求函数 $f(x)$ 的最值、极值或者单调性之类的，则无论如何也<strong>不能变形</strong>，因为这会导致<strong>变形后的问题与原问题不等价</strong>。</p>
 </li>
 </ul>
 <p>例如如果要求</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-e^x+ax^2-x\ge\dfrac{1}{2}x^3+1
-</div>
-<script type="math/tex; mode=display">
-e^x+ax^2-x\ge\dfrac{1}{2}x^3+1
-</script>
-</div>
-<p>在 <span class="arithmatex"><span class="MathJax_Preview">x\ge0</span><script type="math/tex">x\ge0</script></span> 恒成立，不妨移项得到</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-e^x\ge\dfrac{1}{2}x^3-ax^2+x+1
-</div>
-<script type="math/tex; mode=display">
-e^x\ge\dfrac{1}{2}x^3-ax^2+x+1
-</script>
-</div>
-<p>再把 <span class="arithmatex"><span class="MathJax_Preview">e^x</span><script type="math/tex">e^x</script></span> 除过去，得到</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\left\{\dfrac{\dfrac{1}{2}x^3-ax^2+x+1}{e^x}\right\}_{\max}\le1
-</div>
-<script type="math/tex; mode=display">
-\left\{\dfrac{\dfrac{1}{2}x^3-ax^2+x+1}{e^x}\right\}_{\max}\le1
-</script>
-</div>
+<p>$$
+e<sup>x+ax</sup>2-x\ge\dfrac{1}{2}x^3+1
+$$</p>
+<p>在 $x\ge0$ 恒成立，不妨移项得到</p>
+<p>$$
+e<sup>x\ge\dfrac{1}{2}x</sup>3-ax^2+x+1
+$$</p>
+<p>再把 $e^x$ 除过去，得到</p>
+<p>$$
+\left{\dfrac{\dfrac{1}{2}x<sup>3-ax</sup>2+x+1}{e^x}\right}_{\max}\le1
+$$</p>
 <p>恒成立，再用端点效应必要性探路即可解决。</p>
 <h3 id="_13">必要性探路</h3>
 <p>一种解题方法，可应用于一类带参数的恒成立问题。求参数范围时，从满足题意的自变量范围内选择一个数，代入求得一个参数范围，此时这个范围是题意的必要条件。之后再设法证明该必要条件也是题意的充分条件，或者讨论别的点。若充分性也成立，则该范围是题意的充要条件，即为所求的范围。这种方法需从逻辑条件上进行理解，因为先得到的是必要条件，故称为必要探路法。</p>
@@ -849,79 +493,74 @@ e^x\ge\dfrac{1}{2}x^3-ax^2+x+1
 <p>具体的：</p>
 <ol>
 <li>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">f(x) \ge 0</span><script type="math/tex">f(x) \ge 0</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">[a, b]</span><script type="math/tex">[a, b]</script></span> 上恒成立，则由端点效应可知 <span class="arithmatex"><span class="MathJax_Preview">\begin{cases}f(a) \ge 0\\ f(b) \ge 0\end{cases}</span><script type="math/tex">\begin{cases}f(a) \ge 0\\ f(b) \ge 0\end{cases}</script></span>。</p>
+<p>若 $f(x) \ge 0$ 在 $[a, b]$ 上恒成立，则由端点效应可知 $\begin{cases}f(a) \ge 0\ f(b) \ge 0\end{cases}$。</p>
 </li>
 <li>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">f(x) &gt; 0</span><script type="math/tex">f(x) > 0</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">[a, b]</span><script type="math/tex">[a, b]</script></span> 上恒成立，则由端点效应可知 <span class="arithmatex"><span class="MathJax_Preview">\begin{cases}f(a) &gt; 0\\ f(b) &gt; 0\end{cases}</span><script type="math/tex">\begin{cases}f(a) > 0\\ f(b) > 0\end{cases}</script></span>。</p>
+<p>若 $f(x) &gt; 0$ 在 $[a, b]$ 上恒成立，则由端点效应可知 $\begin{cases}f(a) &gt; 0\ f(b) &gt; 0\end{cases}$。</p>
 </li>
 <li>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">f(x) \ge 0</span><script type="math/tex">f(x) \ge 0</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">(a, b)</span><script type="math/tex">(a, b)</script></span> 上恒成立，则由端点效应可知 <span class="arithmatex"><span class="MathJax_Preview">\begin{cases}f(a) \ge 0\\ f(b) \ge 0\end{cases}</span><script type="math/tex">\begin{cases}f(a) \ge 0\\ f(b) \ge 0\end{cases}</script></span>。</p>
+<p>若 $f(x) \ge 0$ 在 $(a, b)$ 上恒成立，则由端点效应可知 $\begin{cases}f(a) \ge 0\ f(b) \ge 0\end{cases}$。</p>
 </li>
 <li>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">f(x) &gt; 0</span><script type="math/tex">f(x) > 0</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">(a, b)</span><script type="math/tex">(a, b)</script></span> 上恒成立，则由端点效应可知 <span class="arithmatex"><span class="MathJax_Preview">\begin{cases}f(a) \ge 0\\ f(b) \ge 0\end{cases}</span><script type="math/tex">\begin{cases}f(a) \ge 0\\ f(b) \ge 0\end{cases}</script></span>。</p>
+<p>若 $f(x) &gt; 0$ 在 $(a, b)$ 上恒成立，则由端点效应可知 $\begin{cases}f(a) \ge 0\ f(b) \ge 0\end{cases}$。</p>
 </li>
 </ol>
-<p>若函数 <span class="arithmatex"><span class="MathJax_Preview">f(x)g(x) \ge 0</span><script type="math/tex">f(x)g(x) \ge 0</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">(a, b)</span><script type="math/tex">(a, b)</script></span> 上恒成立，则：</p>
+<p>若函数 $f(x)g(x) \ge 0$ 在 $(a, b)$ 上恒成立，则：</p>
 <ul>
 <li>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">(a, b)</span><script type="math/tex">(a, b)</script></span> 恒正（恒负），则 <span class="arithmatex"><span class="MathJax_Preview">g(x)</span><script type="math/tex">g(x)</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">(a, b)</span><script type="math/tex">(a, b)</script></span> 也恒正（恒负）；</p>
+<p>若 $f(x)$ 在 $(a, b)$ 恒正（恒负），则 $g(x)$ 在 $(a, b)$ 也恒正（恒负）；</p>
 </li>
 <li>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">\alpha</span><script type="math/tex">\alpha</script></span> 是 <span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 的变号零点，则 <span class="arithmatex"><span class="MathJax_Preview">\alpha</span><script type="math/tex">\alpha</script></span> 也是 <span class="arithmatex"><span class="MathJax_Preview">g(x)</span><script type="math/tex">g(x)</script></span> 的变号零点。</p>
+<p>若 $\alpha$ 是 $f(x)$ 的变号零点，则 $\alpha$ 也是 $g(x)$ 的变号零点。</p>
 </li>
 </ul>
-<p>已知 <span class="arithmatex"><span class="MathJax_Preview">f(x) \ge 0</span><script type="math/tex">f(x) \ge 0</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">[a, b]</span><script type="math/tex">[a, b]</script></span>（或 <span class="arithmatex"><span class="MathJax_Preview">(a, b)</span><script type="math/tex">(a, b)</script></span>）上恒成立：</p>
+<p>已知 $f(x) \ge 0$ 在 $[a, b]$（或 $(a, b)$）上恒成立：</p>
 <ul>
 <li>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">f(a) = 0</span><script type="math/tex">f(a) = 0</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">f'(a) \ge 0</span><script type="math/tex">f'(a) \ge 0</script></span>；</p>
+<p>若 $f(a) = 0$，则 $f'(a) \ge 0$；</p>
 </li>
 <li>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">f(b) = 0</span><script type="math/tex">f(b) = 0</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">f'(b) \le 0</span><script type="math/tex">f'(b) \le 0</script></span>。</p>
+<p>若 $f(b) = 0$，则 $f'(b) \le 0$。</p>
 </li>
 </ul>
 <p>如果导数为零，我们求二阶导：</p>
 <ul>
 <li>
-<p><span class="arithmatex"><span class="MathJax_Preview">f(x) \ge 0</span><script type="math/tex">f(x) \ge 0</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">[a, b]</span><script type="math/tex">[a, b]</script></span> 上恒成立，若 <span class="arithmatex"><span class="MathJax_Preview">f(a) = 0</span><script type="math/tex">f(a) = 0</script></span>，<span class="arithmatex"><span class="MathJax_Preview">f'(a) = 0</span><script type="math/tex">f'(a) = 0</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">f''(a) \ge 0</span><script type="math/tex">f''(a) \ge 0</script></span>；若 <span class="arithmatex"><span class="MathJax_Preview">f(b) = 0</span><script type="math/tex">f(b) = 0</script></span>，<span class="arithmatex"><span class="MathJax_Preview">f'(b) = 0</span><script type="math/tex">f'(b) = 0</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">f''(b) \le 0</span><script type="math/tex">f''(b) \le 0</script></span>。</p>
+<p>$f(x) \ge 0$ 在 $[a, b]$ 上恒成立，若 $f(a) = 0$，$f'(a) = 0$，则 $f''(a) \ge 0$；若 $f(b) = 0$，$f'(b) = 0$，则 $f''(b) \le 0$。</p>
 </li>
 <li>
-<p><span class="arithmatex"><span class="MathJax_Preview">f(x) \ge 0</span><script type="math/tex">f(x) \ge 0</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">[a, b]</span><script type="math/tex">[a, b]</script></span> 上恒成立，若 <span class="arithmatex"><span class="MathJax_Preview">f(a) = 0</span><script type="math/tex">f(a) = 0</script></span> 且 <span class="arithmatex"><span class="MathJax_Preview">f'(x) = g(x)h(x)</span><script type="math/tex">f'(x) = g(x)h(x)</script></span>，其中 <span class="arithmatex"><span class="MathJax_Preview">g(x) \ge 0</span><script type="math/tex">g(x) \ge 0</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">h(a) \ge 0</span><script type="math/tex">h(a) \ge 0</script></span>。</p>
+<p>$f(x) \ge 0$ 在 $[a, b]$ 上恒成立，若 $f(a) = 0$ 且 $f'(x) = g(x)h(x)$，其中 $g(x) \ge 0$，则 $h(a) \ge 0$。</p>
 </li>
 </ul>
 <p>对于一小部分题目，可以直接观察使用端点效应等必要性探路，然后直接尝试证明充分性，可能直接证明。</p>
 <h3 id="_14">隐零点问题</h3>
 <p>考虑不等式组</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\begin{cases} f'(x_0) &amp;= 0 &amp;&amp;①\\ f(x_0) &amp;\ge 0 &amp;&amp;②\end{cases}
-</div>
-<script type="math/tex; mode=display">
-\begin{cases} f'(x_0) &= 0 &&①\\ f(x_0) &\ge 0 &&②\end{cases}
-</script>
-</div>
-<p>其中 <span class="arithmatex"><span class="MathJax_Preview">f'(x_0)</span><script type="math/tex">f'(x_0)</script></span> 和 <span class="arithmatex"><span class="MathJax_Preview">f(x_0)</span><script type="math/tex">f(x_0)</script></span> 均含有参数 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span>。</p>
+<p>$$
+\begin{cases} f'(x_0) &amp;= 0 &amp;&amp;①\ f(x_0) &amp;\ge 0 &amp;&amp;②\end{cases}
+$$</p>
+<p>其中 $f'(x_0)$ 和 $f(x_0)$ 均含有参数 $a$。</p>
 <p>有两种方式处理上面不等式组：</p>
 <ol>
 <li>
-<p><strong>若①中的参数 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 和 <span class="arithmatex"><span class="MathJax_Preview">x_0</span><script type="math/tex">x_0</script></span> 容易分离</strong>：</p>
+<p><strong>若①中的参数 $a$ 和 $x_0$ 容易分离</strong>：</p>
 <ul>
-<li>首先在①中用零点 <span class="arithmatex"><span class="MathJax_Preview">x_0</span><script type="math/tex">x_0</script></span> 表示参数 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span>。</li>
-<li>然后代入②来确定零点 <span class="arithmatex"><span class="MathJax_Preview">x_0</span><script type="math/tex">x_0</script></span> 的取值范围。</li>
-<li>最后利用获得的零点 <span class="arithmatex"><span class="MathJax_Preview">x_0</span><script type="math/tex">x_0</script></span> 的范围和①确定参数 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 的取值范围。</li>
+<li>首先在①中用零点 $x_0$ 表示参数 $a$。</li>
+<li>然后代入②来确定零点 $x_0$ 的取值范围。</li>
+<li>最后利用获得的零点 $x_0$ 的范围和①确定参数 $a$ 的取值范围。</li>
 <li>既适合已知恒成立求参数范围的问题，也适用于不等式的证明。</li>
 </ul>
 </li>
 <li>
-<p><strong>若①不容易分离参数 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 和 <span class="arithmatex"><span class="MathJax_Preview">x_0</span><script type="math/tex">x_0</script></span>，或分离后结构复杂</strong>：</p>
+<p><strong>若①不容易分离参数 $a$ 和 $x_0$，或分离后结构复杂</strong>：</p>
 <ul>
-<li>首先猜测方程组 <span class="arithmatex"><span class="MathJax_Preview">\begin{cases} f'(x_0) = 0 \\ f(x_0) = 0 \end{cases}</span><script type="math/tex">\begin{cases} f'(x_0) = 0 \\ f(x_0) = 0 \end{cases}</script></span> 的解 <span class="arithmatex"><span class="MathJax_Preview">x_0</span><script type="math/tex">x_0</script></span>。</li>
-<li>然后由 <span class="arithmatex"><span class="MathJax_Preview">f(x_0) \ge 0</span><script type="math/tex">f(x_0) \ge 0</script></span> 和端点效应解出 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 的取值范围（该范围为最终的答案）。</li>
-<li>最后证明在该范围下 <span class="arithmatex"><span class="MathJax_Preview">f(x) \ge 0</span><script type="math/tex">f(x) \ge 0</script></span> 恒成立。</li>
+<li>首先猜测方程组 $\begin{cases} f'(x_0) = 0 \ f(x_0) = 0 \end{cases}$ 的解 $x_0$。</li>
+<li>然后由 $f(x_0) \ge 0$ 和端点效应解出 $a$ 的取值范围（该范围为最终的答案）。</li>
+<li>最后证明在该范围下 $f(x) \ge 0$ 恒成立。</li>
 <li>注意这个只适合已知恒成立求参数范围的问题，不适于不等式的证明。</li>
 </ul>
 </li>
 </ol>
-<p>通常来说，我们设 <span class="arithmatex"><span class="MathJax_Preview">x_0</span><script type="math/tex">x_0</script></span> 为函数的零点，列出 <span class="arithmatex"><span class="MathJax_Preview">f(x_0)=0</span><script type="math/tex">f(x_0)=0</script></span> 和要求的条件，组成方程组解方程即可。</p>
+<p>通常来说，我们设 $x_0$ 为函数的零点，列出 $f(x_0)=0$ 和要求的条件，组成方程组解方程即可。</p>
 <p>如果函数的导数非常复杂，则考虑变换主元法：</p>
 <ol>
 <li>
@@ -935,481 +574,236 @@ e^x\ge\dfrac{1}{2}x^3-ax^2+x+1
 <h3 id="_16">一般放缩法</h3>
 <p>首先放缩的依据见简单不等式中的三个不等式，以及四个推导不等式。</p>
 <p>若问题没有任何第（I）问的提示且函数为指数、对数和其他幂函数的混合型，则把指数与对数分开，再平衡幂函数和指数与对数函数，使得不等式两边一边是指数，另外一边是对数，然后分别计算它们的最值。这种方法一般只适合不等式的证明！</p>
-<p>函数不等式中含有 <span class="arithmatex"><span class="MathJax_Preview">xe^x</span><script type="math/tex">xe^x</script></span> 与 <span class="arithmatex"><span class="MathJax_Preview">\frac{e^x}{x}</span><script type="math/tex">\frac{e^x}{x}</script></span> 这类固定搭配，则考虑放缩如下：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>函数不等式中含有 $xe^x$ 与 $\frac{e^x}{x}$ 这类固定搭配，则考虑放缩如下：</p>
+<p>$$
 \begin{aligned}
-xe^x &amp;= e^{x+\ln x} &amp;&amp;\ge x + \ln x + 1\\
+xe^x &amp;= e^{x+\ln x} &amp;&amp;\ge x + \ln x + 1\
 \frac{e^x}{x} &amp;= e^{x-\ln x} &amp;&amp;\ge x - \ln x + 1
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-xe^x &= e^{x+\ln x} &&\ge x + \ln x + 1\\
-\frac{e^x}{x} &= e^{x-\ln x} &&\ge x - \ln x + 1
-\end{aligned}
-</script>
-</div>
+$$</p>
 <h3 id="_17">整体代换法</h3>
 <p>一部分导数题形式为第一问要求证明一个不等式，而在第二问就可以用这个不等式，通过整体代换的形式进行解决。</p>
-<p>例题：证明 <span class="arithmatex"><span class="MathJax_Preview">\dfrac{e^x}{x^2}-x\ge1-2\ln x</span><script type="math/tex">\dfrac{e^x}{x^2}-x\ge1-2\ln x</script></span>。</p>
+<p>例题：证明 $\dfrac{e<sup>x}{x</sup>2}-x\ge1-2\ln x$。</p>
 <p>问题显然为：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\dfrac{e^x}{x^2}\ge\ln\dfrac{e^x}{x^2}+1
-</div>
-<script type="math/tex; mode=display">
-\dfrac{e^x}{x^2}\ge\ln\dfrac{e^x}{x^2}+1
-</script>
-</div>
-<p>根据 <span class="arithmatex"><span class="MathJax_Preview">x\ge\ln x-1</span><script type="math/tex">x\ge\ln x-1</script></span>，不等式显然。</p>
+<p>$$
+\dfrac{e<sup>x}{x</sup>2}\ge\ln\dfrac{e<sup>x}{x</sup>2}+1
+$$</p>
+<p>根据 $x\ge\ln x-1$，不等式显然。</p>
 <h3 id="_18">同构化构造</h3>
-<p>简单的同构化，例如 <span class="arithmatex"><span class="MathJax_Preview">\sqrt{11}-\sqrt{10}</span><script type="math/tex">\sqrt{11}-\sqrt{10}</script></span> 与 <span class="arithmatex"><span class="MathJax_Preview">\sqrt{12}-\sqrt{11}</span><script type="math/tex">\sqrt{12}-\sqrt{11}</script></span> 比大小，构造同构化函数 <span class="arithmatex"><span class="MathJax_Preview">f(x)=\sqrt{x}-\sqrt{x-1}</span><script type="math/tex">f(x)=\sqrt{x}-\sqrt{x-1}</script></span>，求导解决。</p>
+<p>简单的同构化，例如 $\sqrt{11}-\sqrt{10}$ 与 $\sqrt{12}-\sqrt{11}$ 比大小，构造同构化函数 $f(x)=\sqrt{x}-\sqrt{x-1}$，求导解决。</p>
 <div class="admonition note">
 <p class="admonition-title">例题</p>
-<p>当 <span class="arithmatex"><span class="MathJax_Preview">m &gt; n &gt; 0</span><script type="math/tex">m > n > 0</script></span> 时，证明：<span class="arithmatex"><span class="MathJax_Preview">me^n + n &lt; ne^m + m</span><script type="math/tex">me^n + n < ne^m + m</script></span>。</p>
-<p>要证 <span class="arithmatex"><span class="MathJax_Preview">me^n + n &lt; ne^m + m</span><script type="math/tex">me^n + n < ne^m + m</script></span>，即证</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>当 $m &gt; n &gt; 0$ 时，证明：$me^n + n &lt; ne^m + m$。</p>
+<p>要证 $me^n + n &lt; ne^m + m$，即证</p>
+<p>$$
 \dfrac{me^n}{mn} + \dfrac{n}{mn} &lt; \dfrac{ne^m}{mn} + \dfrac{m}{mn}
-</div>
-<script type="math/tex; mode=display">
-\dfrac{me^n}{mn} + \dfrac{n}{mn} < \dfrac{ne^m}{mn} + \dfrac{m}{mn}
-</script>
-</div>
+$$</p>
 <p>即</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \dfrac{e^n}{n} - \dfrac{1}{n} &lt; \dfrac{e^m}{m} - \dfrac{1}{m}
-</div>
-<script type="math/tex; mode=display">
-\dfrac{e^n}{n} - \dfrac{1}{n} < \dfrac{e^m}{m} - \dfrac{1}{m}
-</script>
-</div>
-<p>此不等式两边的结构形式一致，构造 <span class="arithmatex"><span class="MathJax_Preview">f(x) = \dfrac{e^x}{x} - \dfrac{1}{x}</span><script type="math/tex">f(x) = \dfrac{e^x}{x} - \dfrac{1}{x}</script></span>，只需证明 <span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">(0, +\infty)</span><script type="math/tex">(0, +\infty)</script></span> 上单调递增即可。</p>
+$$</p>
+<p>此不等式两边的结构形式一致，构造 $f(x) = \dfrac{e^x}{x} - \dfrac{1}{x}$，只需证明 $f(x)$ 在 $(0, +\infty)$ 上单调递增即可。</p>
 </div>
 <p>最常见的一种形式是：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 yf(x)=xf(y)
-</div>
-<script type="math/tex; mode=display">
-yf(x)=xf(y)
-</script>
-</div>
+$$</p>
 <p>整理得到：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \dfrac{f(x)}{x}&gt;\dfrac{f(y)}{y}
-</div>
-<script type="math/tex; mode=display">
-\dfrac{f(x)}{x}>\dfrac{f(y)}{y}
-</script>
-</div>
-<p>其中 <span class="arithmatex"><span class="MathJax_Preview">y</span><script type="math/tex">y</script></span> 为关于 <span class="arithmatex"><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span> 的函数。</p>
-<p>以 <span class="arithmatex"><span class="MathJax_Preview">f(x) = xe^x - x - \ln x</span><script type="math/tex">f(x) = xe^x - x - \ln x</script></span> 的最小值为例，对其变形</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>其中 $y$ 为关于 $x$ 的函数。</p>
+<p>以 $f(x) = xe^x - x - \ln x$ 的最小值为例，对其变形</p>
+<p>$$
 f(x)=e^{x+\ln x}-(x+\ln x)=e^t-t
-</div>
-<script type="math/tex; mode=display">
-f(x)=e^{x+\ln x}-(x+\ln x)=e^t-t
-</script>
-</div>
+$$</p>
 <p>又或者，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-f(x)=xe^x-\ln(xe^x)
-</div>
-<script type="math/tex; mode=display">
-f(x)=xe^x-\ln(xe^x)
-</script>
-</div>
-<p>分别设 <span class="arithmatex"><span class="MathJax_Preview">t=x+\ln x</span><script type="math/tex">t=x+\ln x</script></span> 和 <span class="arithmatex"><span class="MathJax_Preview">t=xe^x</span><script type="math/tex">t=xe^x</script></span>，即可。</p>
+<p>$$
+f(x)=xe<sup>x-\ln(xe</sup>x)
+$$</p>
+<p>分别设 $t=x+\ln x$ 和 $t=xe^x$，即可。</p>
 <h3 id="_19">积分构造法</h3>
 <p>我们知道一个经典的不等式</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \ln x\le x-1
-</div>
-<script type="math/tex; mode=display">
-\ln x\le x-1
-</script>
-</div>
-<p>当且仅当 <span class="arithmatex"><span class="MathJax_Preview">x=1</span><script type="math/tex">x=1</script></span> 时取等，我们对两边同时求积分，如图左。为了使两边依旧在 <span class="arithmatex"><span class="MathJax_Preview">x=1</span><script type="math/tex">x=1</script></span> 时取等，我们将 <span class="arithmatex"><span class="MathJax_Preview">\ln x</span><script type="math/tex">\ln x</script></span> 的积分 <span class="arithmatex"><span class="MathJax_Preview">(\ln x-1)x</span><script type="math/tex">(\ln x-1)x</script></span> 修正为其加 <span class="arithmatex"><span class="MathJax_Preview">\dfrac{1}{2}</span><script type="math/tex">\dfrac{1}{2}</script></span>，如图右</p>
+$$</p>
+<p>当且仅当 $x=1$ 时取等，我们对两边同时求积分，如图左。为了使两边依旧在 $x=1$ 时取等，我们将 $\ln x$ 的积分 $(\ln x-1)x$ 修正为其加 $\dfrac{1}{2}$，如图右</p>
 <div class="grid">
 <p><img alt="alt text" src="../desmos-graph%20%282%29.svg" /></p>
 <p><img alt="alt text" src="../desmos-graph.svg" /></p>
 </div>
 <p>利用求导也可以证明下面的不等式：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\begin{cases}
-0&lt;x\le1&amp;\ln x\ge\dfrac{1}{2}\left(x-\dfrac{1}{x}\right)\\
-x&gt;1&amp;\ln x&lt;\dfrac{1}{2}\left(x-\dfrac{1}{x}\right)
-\end{cases}
-</div>
-<script type="math/tex; mode=display">
+<p>$$
 \begin{cases}
 0<x\le1&\ln x\ge\dfrac{1}{2}\left(x-\dfrac{1}{x}\right)\\
-x>1&\ln x<\dfrac{1}{2}\left(x-\dfrac{1}{x}\right)
+x>1&amp;\ln x&lt;\dfrac{1}{2}\left(x-\dfrac{1}{x}\right)
 \end{cases}
-</script>
-</div>
+$$</p>
 <p>类似的，继续求积分，我们还可以得到下面的不等式：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \ln x\le\dfrac{(x+5)(x-1)}{4x+2}
-</div>
-<script type="math/tex; mode=display">
-\ln x\le\dfrac{(x+5)(x-1)}{4x+2}
-</script>
-</div>
+$$</p>
 <p>类似的，我们对经典的不等式</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \ln x\ge1-\dfrac{1}{x}
-</div>
-<script type="math/tex; mode=display">
-\ln x\ge1-\dfrac{1}{x}
-</script>
-</div>
+$$</p>
 <p>进行类似的积分构造。可以得到</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\begin{cases}
-0&lt;x\le1&amp;\ln x\le\dfrac{2(x-1)}{x+1}\\
-x&gt;1&amp;\ln x\ge\dfrac{2(x-1)}{x+1}
-\end{cases}
-</div>
-<script type="math/tex; mode=display">
+<p>$$
 \begin{cases}
 0<x\le1&\ln x\le\dfrac{2(x-1)}{x+1}\\
-x>1&\ln x\ge\dfrac{2(x-1)}{x+1}
+x>1&amp;\ln x\ge\dfrac{2(x-1)}{x+1}
 \end{cases}
-</script>
-</div>
+$$</p>
 <h3 id="_20">替换构造法</h3>
 <p>我们对</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\begin{cases}
-0&lt;x\le1&amp;\ln x\ge\dfrac{1}{2}\left(x-\dfrac{1}{x}\right)\\
-x&gt;1&amp;\ln x&lt;\dfrac{1}{2}\left(x-\dfrac{1}{x}\right)
-\end{cases}
-</div>
-<script type="math/tex; mode=display">
+<p>$$
 \begin{cases}
 0<x\le1&\ln x\ge\dfrac{1}{2}\left(x-\dfrac{1}{x}\right)\\
-x>1&\ln x<\dfrac{1}{2}\left(x-\dfrac{1}{x}\right)
+x>1&amp;\ln x&lt;\dfrac{1}{2}\left(x-\dfrac{1}{x}\right)
 \end{cases}
-</script>
-</div>
-<p>令 <span class="arithmatex"><span class="MathJax_Preview">x\gets e^x</span><script type="math/tex">x\gets e^x</script></span>，则有</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>令 $x\gets e^x$，则有</p>
+<p>$$
 \begin{cases}
-x\le0&amp; e^x-e^{-x}\le2x\\
-x&gt;0&amp; e^x-e^{-x}&gt;2x
+x\le0&amp; e<sup -x="-x">x-e</sup>\le2x\
+x&gt;0&amp; e<sup -x="-x">x-e</sup>&gt;2x
 \end{cases}
-</div>
-<script type="math/tex; mode=display">
-\begin{cases}
-x\le0& e^x-e^{-x}\le2x\\
-x>0& e^x-e^{-x}>2x
-\end{cases}
-</script>
-</div>
+$$</p>
 <p>类似的，我们对</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\begin{cases}
-0&lt;x\le1&amp;\ln x\le\dfrac{2(x-1)}{x+1}\\
-x&gt;1&amp;\ln x\ge\dfrac{2(x-1)}{x+1}
-\end{cases}
-</div>
-<script type="math/tex; mode=display">
+<p>$$
 \begin{cases}
 0<x\le1&\ln x\le\dfrac{2(x-1)}{x+1}\\
-x>1&\ln x\ge\dfrac{2(x-1)}{x+1}
+x>1&amp;\ln x\ge\dfrac{2(x-1)}{x+1}
 \end{cases}
-</script>
-</div>
-<p>令 <span class="arithmatex"><span class="MathJax_Preview">x\gets e^x</span><script type="math/tex">x\gets e^x</script></span>，则有</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>令 $x\gets e^x$，则有</p>
+<p>$$
 \begin{cases}
-x\le0&amp;(2-x)e^x\ge2+x\\
+x\le0&amp;(2-x)e^x\ge2+x\
 x&gt;0&amp;(2-x)e^x&lt;2+x
 \end{cases}
-</div>
-<script type="math/tex; mode=display">
-\begin{cases}
-x\le0&(2-x)e^x\ge2+x\\
-x>0&(2-x)e^x<2+x
-\end{cases}
-</script>
-</div>
+$$</p>
 <h3 id="_21">局部求值法</h3>
 <p>证明函数最值大于或小于一个数，可以将函数拆为几个易于求值的部分，对每一个部分分别运算，在整体上，这个最值不一定取得到，但是也可以证出结果（要证明的不等式不一定很严格）。</p>
 <p>例题：证明</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\dfrac{e^x}{x}-\dfrac{8}{x^2}\ln\dfrac{2}{x}+x&gt;e+2
-</div>
-<script type="math/tex; mode=display">
-\dfrac{e^x}{x}-\dfrac{8}{x^2}\ln\dfrac{2}{x}+x>e+2
-</script>
-</div>
+<p>$$
+\dfrac{e<sup>x}{x}-\dfrac{8}{x</sup>2}\ln\dfrac{2}{x}+x&gt;e+2
+$$</p>
 <p>设</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 f(x)=\dfrac{e^x}{x}
-</div>
-<script type="math/tex; mode=display">
-f(x)=\dfrac{e^x}{x}
-</script>
-</div>
+$$</p>
 <p>则</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-f'(x)=e^x\dfrac{x-1}{x^2}
-</div>
-<script type="math/tex; mode=display">
-f'(x)=e^x\dfrac{x-1}{x^2}
-</script>
-</div>
+<p>$$
+f'(x)=e<sup>x\dfrac{x-1}{x</sup>2}
+$$</p>
 <p>因此</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 f(x)\ge f(1)=e
-</div>
-<script type="math/tex; mode=display">
-f(x)\ge f(1)=e
-</script>
-</div>
+$$</p>
 <p>设</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 g(x)=x-\dfrac{8}{x^2}\ln\dfrac{2}{x}
-</div>
-<script type="math/tex; mode=display">
-g(x)=x-\dfrac{8}{x^2}\ln\dfrac{2}{x}
-</script>
-</div>
+$$</p>
 <p>则</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 g'(x)=1-\dfrac{16\ln\dfrac{x}{2}-8}{x^3}
-</div>
-<script type="math/tex; mode=display">
-g'(x)=1-\dfrac{16\ln\dfrac{x}{2}-8}{x^3}
-</script>
-</div>
-<p>易知 <span class="arithmatex"><span class="MathJax_Preview">g'(x)</span><script type="math/tex">g'(x)</script></span> 单调递增且 <span class="arithmatex"><span class="MathJax_Preview">g'(2)=0</span><script type="math/tex">g'(2)=0</script></span>，因此：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>易知 $g'(x)$ 单调递增且 $g'(2)=0$，因此：</p>
+<p>$$
 g(x)\ge g(2)=2
-</div>
-<script type="math/tex; mode=display">
-g(x)\ge g(2)=2
-</script>
-</div>
+$$</p>
 <p>所以</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 f(x)+g(x)&gt;e+2
-</div>
-<script type="math/tex; mode=display">
-f(x)+g(x)>e+2
-</script>
-</div>
+$$</p>
 <p>不取等号因为局部不等式不同时取等。</p>
 <h3 id="_22">隐零点方法</h3>
-<p>在前文隐零点我们说过，如果可以简单的分离、带入，那么容易解决，但是有的时候不能这么解决，此时问题就麻烦一点，我们以例题：已知 <span class="arithmatex"><span class="MathJax_Preview">f(x)=e^x-\ln(x+2)</span><script type="math/tex">f(x)=e^x-\ln(x+2)</script></span>，求证 <span class="arithmatex"><span class="MathJax_Preview">f(x)&gt;\dfrac{1}{6}</span><script type="math/tex">f(x)>\dfrac{1}{6}</script></span> 恒成立。</p>
-<p>容易想到，我们对 <span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 求导</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>在前文隐零点我们说过，如果可以简单的分离、带入，那么容易解决，但是有的时候不能这么解决，此时问题就麻烦一点，我们以例题：已知 $f(x)=e^x-\ln(x+2)$，求证 $f(x)&gt;\dfrac{1}{6}$ 恒成立。</p>
+<p>容易想到，我们对 $f(x)$ 求导</p>
+<p>$$
 f'(x)=e^x-\dfrac{1}{x+2}
-</div>
-<script type="math/tex; mode=display">
-f'(x)=e^x-\dfrac{1}{x+2}
-</script>
-</div>
-<p>容易知道函数先单调递减，再单调递增，<span class="arithmatex"><span class="MathJax_Preview">f'(x_0)=0</span><script type="math/tex">f'(x_0)=0</script></span> 容易得到</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>容易知道函数先单调递减，再单调递增，$f'(x_0)=0$ 容易得到</p>
+<p>$$
 e^{x_0}=\dfrac{1}{x_0+2}
-</div>
-<script type="math/tex; mode=display">
-e^{x_0}=\dfrac{1}{x_0+2}
-</script>
-</div>
+$$</p>
 <p>那么就有</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 f(x_0)=e^{x_0}-\ln(x_0+2)=\dfrac{1}{x_0+2}+x_0
-</div>
-<script type="math/tex; mode=display">
-f(x_0)=e^{x_0}-\ln(x_0+2)=\dfrac{1}{x_0+2}+x_0
-</script>
-</div>
-<p>根据零点存在性定理，我们可以知道 <span class="arithmatex"><span class="MathJax_Preview">f'(x)</span><script type="math/tex">f'(x)</script></span> 的零点应该在 <span class="arithmatex"><span class="MathJax_Preview">(-1,0)</span><script type="math/tex">(-1,0)</script></span>。</p>
+$$</p>
+<p>根据零点存在性定理，我们可以知道 $f'(x)$ 的零点应该在 $(-1,0)$。</p>
 <p>不妨令</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 g(x)=\dfrac{1}{x+2}+x
-</div>
-<script type="math/tex; mode=display">
-g(x)=\dfrac{1}{x+2}+x
-</script>
-</div>
-<p>取等当且仅当 <span class="arithmatex"><span class="MathJax_Preview">x=-1</span><script type="math/tex">x=-1</script></span>，而 <span class="arithmatex"><span class="MathJax_Preview">g(x)</span><script type="math/tex">g(x)</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">(-1,0)</span><script type="math/tex">(-1,0)</script></span> 单调递增，不妨令</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>取等当且仅当 $x=-1$，而 $g(x)$ 在 $(-1,0)$ 单调递增，不妨令</p>
+<p>$$
 g(x_1)=\dfrac{1}{6}
-</div>
-<script type="math/tex; mode=display">
-g(x_1)=\dfrac{1}{6}
-</script>
-</div>
+$$</p>
 <p>解得</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 x_1=\dfrac{1}{2}
-</div>
-<script type="math/tex; mode=display">
-x_1=\dfrac{1}{2}
-</script>
-</div>
-<p>此时有 <span class="arithmatex"><span class="MathJax_Preview">f'(x_1)&lt;0</span><script type="math/tex">f'(x_1)<0</script></span>，因此 <span class="arithmatex"><span class="MathJax_Preview">x_0&gt;x_1</span><script type="math/tex">x_0>x_1</script></span></p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>此时有 $f'(x_1)&lt;0$，因此 $x_0&gt;x_1$</p>
+<p>$$
 f(x_0)&gt;f(x_1)=\dfrac{1}{6}
-</div>
-<script type="math/tex; mode=display">
-f(x_0)>f(x_1)=\dfrac{1}{6}
-</script>
-</div>
+$$</p>
 <h3 id="_23">加强不等式</h3>
 <p>加强不等式是一种构造方法，我们使待证不等式加强，使加强后的不等式能够更易于变形或求值，最常见的是增添项，或者改变恒正负者系数，以约去不等式的部分项。</p>
 <p>利用凹凸性割线放缩，是加强不等式的一种。</p>
 <h3 id="_24">拉格朗日乘数法</h3>
-<p>对于一个函数 <span class="arithmatex"><span class="MathJax_Preview">f(x,y)</span><script type="math/tex">f(x,y)</script></span> 在附加条件 <span class="arithmatex"><span class="MathJax_Preview">\varphi(x,y)=0</span><script type="math/tex">\varphi(x,y)=0</script></span> 下的极值，可以构造三元函数</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>对于一个函数 $f(x,y)$ 在附加条件 $\varphi(x,y)=0$ 下的极值，可以构造三元函数</p>
+<p>$$
 L(x,y,\lambda)=f(x,y)+\lambda\varphi(x,y)
-</div>
-<script type="math/tex; mode=display">
-L(x,y,\lambda)=f(x,y)+\lambda\varphi(x,y)
-</script>
-</div>
+$$</p>
 <p>求解下面这个方程组，代回原方程就是他的极值点</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{cases}
-\dfrac{\partial L}{\partial x}&amp;=0\\
-\dfrac{\partial L}{\partial y}&amp;=0\\
+\dfrac{\partial L}{\partial x}&amp;=0\
+\dfrac{\partial L}{\partial y}&amp;=0\
 \varphi(x,y)&amp;=0
 \end{cases}
-</div>
-<script type="math/tex; mode=display">
-\begin{cases}
-\dfrac{\partial L}{\partial x}&=0\\
-\dfrac{\partial L}{\partial y}&=0\\
-\varphi(x,y)&=0
-\end{cases}
-</script>
-</div>
-<p>例题：已知 <span class="arithmatex"><span class="MathJax_Preview">a,b,c</span><script type="math/tex">a,b,c</script></span> 均为正实数，<span class="arithmatex"><span class="MathJax_Preview">a^2+b^2+4c^2=1</span><script type="math/tex">a^2+b^2+4c^2=1</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">ab+2ac+3\sqrt{2}bc</span><script type="math/tex">ab+2ac+3\sqrt{2}bc</script></span> 的最大值为？</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\varphi(a,b,c)=a^2+b^2+4c^2-1
-</div>
-<script type="math/tex; mode=display">
-\varphi(a,b,c)=a^2+b^2+4c^2-1
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>例题：已知 $a,b,c$ 均为正实数，$a<sup>2+b</sup>2+4c^2=1$，则 $ab+2ac+3\sqrt{2}bc$ 的最大值为？</p>
+<p>$$
+\varphi(a,b,c)=a<sup>2+b</sup>2+4c^2-1
+$$</p>
+<p>$$
 f(a,b,c)=ab+2ac+3\sqrt{2}bc
-</div>
-<script type="math/tex; mode=display">
-f(a,b,c)=ab+2ac+3\sqrt{2}bc
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-L(a,b,c,\lambda)=ab+2ac+3\sqrt{2}bc+\lambda(a^2+b^2+4c^2-1)
-</div>
-<script type="math/tex; mode=display">
-L(a,b,c,\lambda)=ab+2ac+3\sqrt{2}bc+\lambda(a^2+b^2+4c^2-1)
-</script>
-</div>
+$$</p>
+<p>$$
+L(a,b,c,\lambda)=ab+2ac+3\sqrt{2}bc+\lambda(a<sup>2+b</sup>2+4c^2-1)
+$$</p>
 <p>求偏导，得</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \frac{\partial L}{\partial a}=b+2c+2a\lambda=0
-</div>
-<script type="math/tex; mode=display">
-\frac{\partial L}{\partial a}=b+2c+2a\lambda=0
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \frac{\partial L}{\partial b}=a+3\sqrt{2}c+2b\lambda=0
-</div>
-<script type="math/tex; mode=display">
-\frac{\partial L}{\partial b}=a+3\sqrt{2}c+2b\lambda=0
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \frac{\partial L}{\partial c}=2a+3\sqrt{2}b+8c\lambda=0
-</div>
-<script type="math/tex; mode=display">
-\frac{\partial L}{\partial c}=2a+3\sqrt{2}b+8c\lambda=0
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\varphi(a,b,c)=a^2+b^2+4c^2-1=0
-</div>
-<script type="math/tex; mode=display">
-\varphi(a,b,c)=a^2+b^2+4c^2-1=0
-</script>
-</div>
+$$</p>
+<p>$$
+\varphi(a,b,c)=a<sup>2+b</sup>2+4c^2-1=0
+$$</p>
 <p>联立解得</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{cases}
-a&amp;=\dfrac{\sqrt{2}}{\sqrt{10}}\\
-b&amp;=\dfrac{2}{\sqrt{10}}\\
-c&amp;=\dfrac{1}{\sqrt{10}}\\
+a&amp;=\dfrac{\sqrt{2}}{\sqrt{10}}\
+b&amp;=\dfrac{2}{\sqrt{10}}\
+c&amp;=\dfrac{1}{\sqrt{10}}\
 \lambda&amp;=-\sqrt{2}
 \end{cases}
-</div>
-<script type="math/tex; mode=display">
-\begin{cases}
-a&=\dfrac{\sqrt{2}}{\sqrt{10}}\\
-b&=\dfrac{2}{\sqrt{10}}\\
-c&=\dfrac{1}{\sqrt{10}}\\
-\lambda&=-\sqrt{2}
-\end{cases}
-</script>
-</div>
+$$</p>
 <p>代回得到</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 f_{\max}=\sqrt{2}
-</div>
-<script type="math/tex; mode=display">
-f_{\max}=\sqrt{2}
-</script>
-</div>
+$$</p>
 <h2 id="_25">极值点偏移</h2>
 <h3 id="_26">偏移概述</h3>
-<p>我们在证明形如 <span class="arithmatex"><span class="MathJax_Preview">x_1+x_2&gt;m</span><script type="math/tex">x_1+x_2>m</script></span> 或 <span class="arithmatex"><span class="MathJax_Preview">x_1x_2&gt;m</span><script type="math/tex">x_1x_2>m</script></span> 的式子成立时，可以尝试将待证的不等式在形式上进行转化，转而证明转化后的不等式 <span class="arithmatex"><span class="MathJax_Preview">x_1&gt;m-x_2</span><script type="math/tex">x_1>m-x_2</script></span> 或 <span class="arithmatex"><span class="MathJax_Preview">x_1&gt;\dfrac{m}{x_2}</span><script type="math/tex">x_1>\dfrac{m}{x_2}</script></span> 成立，之后利用函数的单调性，转化为函数值之间的关系，即 <span class="arithmatex"><span class="MathJax_Preview">f(x_1)</span><script type="math/tex">f(x_1)</script></span> 与 <span class="arithmatex"><span class="MathJax_Preview">f(m-x_2)</span><script type="math/tex">f(m-x_2)</script></span> 或 <span class="arithmatex"><span class="MathJax_Preview">f\left(\dfrac{m}{x_2}\right)</span><script type="math/tex">f\left(\dfrac{m}{x_2}\right)</script></span> 进行比较。</p>
+<p>我们在证明形如 $x_1+x_2&gt;m$ 或 $x_1x_2&gt;m$ 的式子成立时，可以尝试将待证的不等式在形式上进行转化，转而证明转化后的不等式 $x_1&gt;m-x_2$ 或 $x_1&gt;\dfrac{m}{x_2}$ 成立，之后利用函数的单调性，转化为函数值之间的关系，即 $f(x_1)$ 与 $f(m-x_2)$ 或 $f\left(\dfrac{m}{x_2}\right)$ 进行比较。</p>
 <p><img alt="alt text" src="../image-6.avif" /></p>
 <p>使用构造类对称法解此题时，首先要注意变量的取值范围，我们需要保证构造后不等号两边的变量取值在同一区间内，然后才能使用单调性进行证明。</p>
 <p>对于极值点偏移问题，有的还可以直接用变双变量为单变量的方法，这其实就是二元不等式的思想。同时，也可以通过零点的相关性质，将不等式中的常数或者参数转化为与两个零点相关的式子。</p>
@@ -1417,330 +811,169 @@ f_{\max}=\sqrt{2}
 <p>在解决极值点偏移或者类极值点偏移的题目中，经常用到以下两个单变量的不等式链：</p>
 <ul>
 <li>
-<p>在 <span class="arithmatex"><span class="MathJax_Preview">x\in(1,+\infty)</span><script type="math/tex">x\in(1,+\infty)</script></span>，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\small\frac{x-1}{x}&lt;\frac{2(x-1)}{x+1}&lt;\frac{3(x^2-1)}{x^2+4x+1}&lt;\ln x&lt;\sqrt{x}-\frac{1}{\sqrt{x}}&lt;\frac{1}{2}\left(x-\frac{1}{x}\right)&lt;x-1
-</div>
-<script type="math/tex; mode=display">
-\small\frac{x-1}{x}<\frac{2(x-1)}{x+1}<\frac{3(x^2-1)}{x^2+4x+1}<\ln x<\sqrt{x}-\frac{1}{\sqrt{x}}<\frac{1}{2}\left(x-\frac{1}{x}\right)<x-1
-</script>
-</div>
+<p>在 $x\in(1,+\infty)$，</p>
+<p>$$
+\small\frac{x-1}{x}&lt;\frac{2(x-1)}{x+1}&lt;\frac{3(x<sup>2-1)}{x</sup>2+4x+1}&lt;\ln x&lt;\sqrt{x}-\frac{1}{\sqrt{x}}&lt;\frac{1}{2}\left(x-\frac{1}{x}\right)&lt;x-1
+$$</p>
 </li>
 <li>
-<p>在 <span class="arithmatex"><span class="MathJax_Preview">x\in(0,1)</span><script type="math/tex">x\in(0,1)</script></span>，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\small\frac{x-1}{x}&lt;\frac{1}{2}\left(x-\frac{1}{x}\right)&lt;\sqrt{x}-\frac{1}{\sqrt{x}}&lt;\ln x&lt;\frac{3(x^2-1)}{x^2+4x+1}&lt;\frac{2(x-1)}{x+1}&lt;x-1
-</div>
-<script type="math/tex; mode=display">
-\small\frac{x-1}{x}<\frac{1}{2}\left(x-\frac{1}{x}\right)<\sqrt{x}-\frac{1}{\sqrt{x}}<\ln x<\frac{3(x^2-1)}{x^2+4x+1}<\frac{2(x-1)}{x+1}<x-1
-</script>
-</div>
+<p>在 $x\in(0,1)$，</p>
+<p>$$
+\small\frac{x-1}{x}&lt;\frac{1}{2}\left(x-\frac{1}{x}\right)&lt;\sqrt{x}-\frac{1}{\sqrt{x}}&lt;\ln x&lt;\frac{3(x<sup>2-1)}{x</sup>2+4x+1}&lt;\frac{2(x-1)}{x+1}&lt;x-1
+$$</p>
 </li>
 </ul>
 <p>对于一部分参数意义不明的题，可以采取分离参数的方法，把参数化没。</p>
-<p>例题：函数 <span class="arithmatex"><span class="MathJax_Preview">f(x)=x^2-2x+1+a e^x</span><script type="math/tex">f(x)=x^2-2x+1+a e^x</script></span>。函数有两个极值点 <span class="arithmatex"><span class="MathJax_Preview">x_1</span><script type="math/tex">x_1</script></span>、<span class="arithmatex"><span class="MathJax_Preview">x_2</span><script type="math/tex">x_2</script></span>，求证 <span class="arithmatex"><span class="MathJax_Preview">x_1+x_2&gt;4</span><script type="math/tex">x_1+x_2>4</script></span>。</p>
-<p>求出导函数 <span class="arithmatex"><span class="MathJax_Preview">f'(x)=2x-2+a e^x</span><script type="math/tex">f'(x)=2x-2+a e^x</script></span>，分离参数即 <span class="arithmatex"><span class="MathJax_Preview">a=\dfrac{2-2x}{e^x}</span><script type="math/tex">a=\dfrac{2-2x}{e^x}</script></span> 有 <span class="arithmatex"><span class="MathJax_Preview">2</span><script type="math/tex">2</script></span> 解 <span class="arithmatex"><span class="MathJax_Preview">x_1</span><script type="math/tex">x_1</script></span>、<span class="arithmatex"><span class="MathJax_Preview">x_2</span><script type="math/tex">x_2</script></span>。</p>
-<p>也就是说 <span class="arithmatex"><span class="MathJax_Preview">y=a</span><script type="math/tex">y=a</script></span> 与 <span class="arithmatex"><span class="MathJax_Preview">g=\dfrac{2-2x}{e^x}</span><script type="math/tex">g=\dfrac{2-2x}{e^x}</script></span> 有 <span class="arithmatex"><span class="MathJax_Preview">2</span><script type="math/tex">2</script></span> 交点 <span class="arithmatex"><span class="MathJax_Preview">x_1</span><script type="math/tex">x_1</script></span>、<span class="arithmatex"><span class="MathJax_Preview">x_2</span><script type="math/tex">x_2</script></span>。</p>
-<p>令 <span class="arithmatex"><span class="MathJax_Preview">g(x)=\dfrac{2-2x}{e^x}</span><script type="math/tex">g(x)=\dfrac{2-2x}{e^x}</script></span>，则有 <span class="arithmatex"><span class="MathJax_Preview">g(x_1)=g(x_2)=a</span><script type="math/tex">g(x_1)=g(x_2)=a</script></span>，这就是一个经典的极值点偏移问题。</p>
-<p>其中等于 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 是因为我们将 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 减到 <span class="arithmatex"><span class="MathJax_Preview">g(x)</span><script type="math/tex">g(x)</script></span> 里面是等价的，因此也可以分出来常数忽略。</p>
+<p>例题：函数 $f(x)=x^2-2x+1+a e^x$。函数有两个极值点 $x_1$、$x_2$，求证 $x_1+x_2&gt;4$。</p>
+<p>求出导函数 $f'(x)=2x-2+a e^x$，分离参数即 $a=\dfrac{2-2x}{e^x}$ 有 $2$ 解 $x_1$、$x_2$。</p>
+<p>也就是说 $y=a$ 与 $g=\dfrac{2-2x}{e^x}$ 有 $2$ 交点 $x_1$、$x_2$。</p>
+<p>令 $g(x)=\dfrac{2-2x}{e^x}$，则有 $g(x_1)=g(x_2)=a$，这就是一个经典的极值点偏移问题。</p>
+<p>其中等于 $a$ 是因为我们将 $a$ 减到 $g(x)$ 里面是等价的，因此也可以分出来常数忽略。</p>
 <h3 id="_27">对称和模型</h3>
-<p>模型形如证明 <span class="arithmatex"><span class="MathJax_Preview">h(x_1,x_2)&gt;C</span><script type="math/tex">h(x_1,x_2)>C</script></span>，其中 <span class="arithmatex"><span class="MathJax_Preview">x_1,x_2</span><script type="math/tex">x_1,x_2</script></span> 可交换。</p>
+<p>模型形如证明 $h(x_1,x_2)&gt;C$，其中 $x_1,x_2$ 可交换。</p>
 <ul>
 <li>
-<p>基础模型 <span class="arithmatex"><span class="MathJax_Preview">h(x_1,x_2)=x_1+x_2</span><script type="math/tex">h(x_1,x_2)=x_1+x_2</script></span>。有 <span class="arithmatex"><span class="MathJax_Preview">f'(x)</span><script type="math/tex">f'(x)</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">(-\infty,C/2)</span><script type="math/tex">(-\infty,C/2)</script></span> 恒正（函数单调递增），在 <span class="arithmatex"><span class="MathJax_Preview">(C/2,+\infty)</span><script type="math/tex">(C/2,+\infty)</script></span> 恒负（函数单调递减），且 <span class="arithmatex"><span class="MathJax_Preview">f'(C/2)=0</span><script type="math/tex">f'(C/2)=0</script></span>（极大值点）。</p>
-<p>设 <span class="arithmatex"><span class="MathJax_Preview">x_1,x_2</span><script type="math/tex">x_1,x_2</script></span> 为 <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> 的两个零点且 <span class="arithmatex"><span class="MathJax_Preview">x_1&lt;x_2</span><script type="math/tex">x_1<x_2</script></span>，满足 <span class="arithmatex"><span class="MathJax_Preview">f(x_1)=f(x_2)=0</span><script type="math/tex">f(x_1)=f(x_2)=0</script></span>。</p>
-<p>要证明 <span class="arithmatex"><span class="MathJax_Preview">x_1+x_2&gt;C</span><script type="math/tex">x_1+x_2>C</script></span>，不妨令</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>基础模型 $h(x_1,x_2)=x_1+x_2$。有 $f'(x)$ 在 $(-\infty,C/2)$ 恒正（函数单调递增），在 $(C/2,+\infty)$ 恒负（函数单调递减），且 $f'(C/2)=0$（极大值点）。</p>
+<p>设 $x_1,x_2$ 为 $f$ 的两个零点且 $x_1&lt;x_2$，满足 $f(x_1)=f(x_2)=0$。</p>
+<p>要证明 $x_1+x_2&gt;C$，不妨令</p>
+<p>$$
 F(\Delta)=f\left(\dfrac{C}{2}+\Delta\right)-f\left(\dfrac{C}{2}-\Delta\right)
-</div>
-<script type="math/tex; mode=display">
-F(\Delta)=f\left(\dfrac{C}{2}+\Delta\right)-f\left(\dfrac{C}{2}-\Delta\right)
-</script>
-</div>
-<p>其中 <span class="arithmatex"><span class="MathJax_Preview">\Delta\ge0</span><script type="math/tex">\Delta\ge0</script></span>，对 <span class="arithmatex"><span class="MathJax_Preview">F</span><script type="math/tex">F</script></span> 求导得</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>其中 $\Delta\ge0$，对 $F$ 求导得</p>
+<p>$$
 F'(\Delta)=f'\left(\dfrac{C}{2}+\Delta\right)+f'\left(\dfrac{C}{2}-\Delta\right)
-</div>
-<script type="math/tex; mode=display">
-F'(\Delta)=f'\left(\dfrac{C}{2}+\Delta\right)+f'\left(\dfrac{C}{2}-\Delta\right)
-</script>
-</div>
-<p>尝试证明其恒大于 <span class="arithmatex"><span class="MathJax_Preview">0</span><script type="math/tex">0</script></span>，即 <span class="arithmatex"><span class="MathJax_Preview">F</span><script type="math/tex">F</script></span> 单调递增。</p>
-<p>得出 <span class="arithmatex"><span class="MathJax_Preview">F(\Delta)\ge F(0)=0</span><script type="math/tex">F(\Delta)\ge F(0)=0</script></span>，因此对于 <span class="arithmatex"><span class="MathJax_Preview">\Delta&gt;0</span><script type="math/tex">\Delta>0</script></span> 有</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>尝试证明其恒大于 $0$，即 $F$ 单调递增。</p>
+<p>得出 $F(\Delta)\ge F(0)=0$，因此对于 $\Delta&gt;0$ 有</p>
+<p>$$
 f\left(\dfrac{C}{2}+\Delta\right)&gt;f\left(\dfrac{C}{2}-\Delta\right)
-</div>
-<script type="math/tex; mode=display">
-f\left(\dfrac{C}{2}+\Delta\right)>f\left(\dfrac{C}{2}-\Delta\right)
-</script>
-</div>
-<p>令 <span class="arithmatex"><span class="MathJax_Preview">x_1=\dfrac{C}{2}-\Delta</span><script type="math/tex">x_1=\dfrac{C}{2}-\Delta</script></span>，那么</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>令 $x_1=\dfrac{C}{2}-\Delta$，那么</p>
+<p>$$
 f(x_2)=f(x_1)=f\left(\dfrac{C}{2}-\Delta\right)&lt;f\left(\dfrac{C}{2}+\Delta\right)
-</div>
-<script type="math/tex; mode=display">
-f(x_2)=f(x_1)=f\left(\dfrac{C}{2}-\Delta\right)<f\left(\dfrac{C}{2}+\Delta\right)
-</script>
-</div>
-<p>因为 <span class="arithmatex"><span class="MathJax_Preview">x_2&gt;\dfrac{C}{2}</span><script type="math/tex">x_2>\dfrac{C}{2}</script></span>，因此 <span class="arithmatex"><span class="MathJax_Preview">x_2&gt;\dfrac{C}{2}+\Delta</span><script type="math/tex">x_2>\dfrac{C}{2}+\Delta</script></span>，那么</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>因为 $x_2&gt;\dfrac{C}{2}$，因此 $x_2&gt;\dfrac{C}{2}+\Delta$，那么</p>
+<p>$$
 x_1+x_2&gt;C
-</div>
-<script type="math/tex; mode=display">
-x_1+x_2>C
-</script>
-</div>
+$$</p>
 </li>
 <li>
-<p>基础模型 <span class="arithmatex"><span class="MathJax_Preview">h(x_1,x_2)=x_1x_2</span><script type="math/tex">h(x_1,x_2)=x_1x_2</script></span>。有 <span class="arithmatex"><span class="MathJax_Preview">f'(x)</span><script type="math/tex">f'(x)</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">(-\infty,C)</span><script type="math/tex">(-\infty,C)</script></span> 恒负（函数单调递减），在 <span class="arithmatex"><span class="MathJax_Preview">(C,+\infty)</span><script type="math/tex">(C,+\infty)</script></span> 恒正（函数单调递增），且 <span class="arithmatex"><span class="MathJax_Preview">f'(C)=0</span><script type="math/tex">f'(C)=0</script></span>（极小值点）。</p>
-<p>设 <span class="arithmatex"><span class="MathJax_Preview">x_1,x_2</span><script type="math/tex">x_1,x_2</script></span> 为 <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> 的两个零点且 <span class="arithmatex"><span class="MathJax_Preview">x_1&lt;x_2</span><script type="math/tex">x_1<x_2</script></span>，满足 <span class="arithmatex"><span class="MathJax_Preview">f(x_1)=f(x_2)=0</span><script type="math/tex">f(x_1)=f(x_2)=0</script></span>。</p>
-<p>要证明 <span class="arithmatex"><span class="MathJax_Preview">x_1x_2&lt;C^2</span><script type="math/tex">x_1x_2<C^2</script></span>，不妨令</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>基础模型 $h(x_1,x_2)=x_1x_2$。有 $f'(x)$ 在 $(-\infty,C)$ 恒负（函数单调递减），在 $(C,+\infty)$ 恒正（函数单调递增），且 $f'(C)=0$（极小值点）。</p>
+<p>设 $x_1,x_2$ 为 $f$ 的两个零点且 $x_1&lt;x_2$，满足 $f(x_1)=f(x_2)=0$。</p>
+<p>要证明 $x_1x_2&lt;C^2$，不妨令</p>
+<p>$$
 F(t)=f(tC)-f\left(\dfrac{1}{t}C\right)
-</div>
-<script type="math/tex; mode=display">
-F(t)=f(tC)-f\left(\dfrac{1}{t}C\right)
-</script>
-</div>
-<p>其中 <span class="arithmatex"><span class="MathJax_Preview">t\ge1</span><script type="math/tex">t\ge1</script></span>，对 <span class="arithmatex"><span class="MathJax_Preview">F</span><script type="math/tex">F</script></span> 求导得</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-F'(t)=Cf'(tC)+C\dfrac{1}{t^2}f'\left(\dfrac{1}{t}C\right)=C\left(1-\dfrac{1}{t^2}\right)f'\left(\dfrac{1}{t}C\right)
-</div>
-<script type="math/tex; mode=display">
-F'(t)=Cf'(tC)+C\dfrac{1}{t^2}f'\left(\dfrac{1}{t}C\right)=C\left(1-\dfrac{1}{t^2}\right)f'\left(\dfrac{1}{t}C\right)
-</script>
-</div>
-<p>尝试证明其恒大于 <span class="arithmatex"><span class="MathJax_Preview">0</span><script type="math/tex">0</script></span>，即 <span class="arithmatex"><span class="MathJax_Preview">F</span><script type="math/tex">F</script></span> 单调递增。</p>
-<p>得出 <span class="arithmatex"><span class="MathJax_Preview">F(\Delta)\ge F(1)=0</span><script type="math/tex">F(\Delta)\ge F(1)=0</script></span>，因此对于 <span class="arithmatex"><span class="MathJax_Preview">t&gt;1</span><script type="math/tex">t>1</script></span> 有</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>其中 $t\ge1$，对 $F$ 求导得</p>
+<p>$$
+F'(t)=Cf'(tC)+C\dfrac{1}{t<sup>2}f'\left(\dfrac{1}{t}C\right)=C\left(1-\dfrac{1}{t</sup>2}\right)f'\left(\dfrac{1}{t}C\right)
+$$</p>
+<p>尝试证明其恒大于 $0$，即 $F$ 单调递增。</p>
+<p>得出 $F(\Delta)\ge F(1)=0$，因此对于 $t&gt;1$ 有</p>
+<p>$$
 f(tC)&gt;f\left(\dfrac{1}{t}C\right)
-</div>
-<script type="math/tex; mode=display">
-f(tC)>f\left(\dfrac{1}{t}C\right)
-</script>
-</div>
-<p>令 <span class="arithmatex"><span class="MathJax_Preview">x_1=\dfrac{1}{t}C</span><script type="math/tex">x_1=\dfrac{1}{t}C</script></span>，那么</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>令 $x_1=\dfrac{1}{t}C$，那么</p>
+<p>$$
 f(x_2)=f(x_1)=f\left(\dfrac{1}{t}C\right)&lt;f(tC)
-</div>
-<script type="math/tex; mode=display">
-f(x_2)=f(x_1)=f\left(\dfrac{1}{t}C\right)<f(tC)
-</script>
-</div>
-<p>因为 <span class="arithmatex"><span class="MathJax_Preview">x_2&gt;C</span><script type="math/tex">x_2>C</script></span>，因此 <span class="arithmatex"><span class="MathJax_Preview">x_2&lt;tC</span><script type="math/tex">x_2<tC</script></span>，那么</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>因为 $x_2&gt;C$，因此 $x_2&lt;tC$，那么</p>
+<p>$$
 x_1x_2&lt;C^2
-</div>
-<script type="math/tex; mode=display">
-x_1x_2<C^2
-</script>
-</div>
+$$</p>
 </li>
 </ul>
-<p>注意，直接进行极值点偏移，需要保证函数的极值点就是 <span class="arithmatex"><span class="MathJax_Preview">C/2</span><script type="math/tex">C/2</script></span> 或 <span class="arithmatex"><span class="MathJax_Preview">\sqrt{C}</span><script type="math/tex">\sqrt{C}</script></span>，如果不满足，就需要进行一定的变换。</p>
+<p>注意，直接进行极值点偏移，需要保证函数的极值点就是 $C/2$ 或 $\sqrt{C}$，如果不满足，就需要进行一定的变换。</p>
 <h3 id="_28">构造变量法</h3>
-<p>经典例题：已知函数 <span class="arithmatex"><span class="MathJax_Preview">f(x)=e^x-ax(a\neq0)</span><script type="math/tex">f(x)=e^x-ax(a\neq0)</script></span> 有两个零点 <span class="arithmatex"><span class="MathJax_Preview">x_1,x_2</span><script type="math/tex">x_1,x_2</script></span> 且 <span class="arithmatex"><span class="MathJax_Preview">x_1&lt;x_2</span><script type="math/tex">x_1<x_2</script></span>，证明 <span class="arithmatex"><span class="MathJax_Preview">x_1+x_2&gt;2</span><script type="math/tex">x_1+x_2>2</script></span>。</p>
+<p>经典例题：已知函数 $f(x)=e^x-ax(a\neq0)$ 有两个零点 $x_1,x_2$ 且 $x_1<x_2$，证明 $x_1+x_2>2$。</p>
 <p>我们知道</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{cases}
-e^{x_1}&amp;=ax_1\\
+e^{x_1}&amp;=ax_1\
 e^{x_2}&amp;=ax_2
 \end{cases}
-</div>
-<script type="math/tex; mode=display">
-\begin{cases}
-e^{x_1}&=ax_1\\
-e^{x_2}&=ax_2
-\end{cases}
-</script>
-</div>
+$$</p>
 <p>那么：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 x_2-x_1=\ln\dfrac{x_2}{x_1}
-</div>
-<script type="math/tex; mode=display">
-x_2-x_1=\ln\dfrac{x_2}{x_1}
-</script>
-</div>
-<p>令 <span class="arithmatex"><span class="MathJax_Preview">t=\dfrac{x_2}{x_1}&gt;1</span><script type="math/tex">t=\dfrac{x_2}{x_1}>1</script></span>，则：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>令 $t=\dfrac{x_2}{x_1}&gt;1$，则：</p>
+<p>$$
 \begin{cases}
-x_1&amp;=\dfrac{\ln t}{t-1}\\
+x_1&amp;=\dfrac{\ln t}{t-1}\
 x_2&amp;=\dfrac{t\ln t}{t-1}
 \end{cases}
-</div>
-<script type="math/tex; mode=display">
-\begin{cases}
-x_1&=\dfrac{\ln t}{t-1}\\
-x_2&=\dfrac{t\ln t}{t-1}
-\end{cases}
-</script>
-</div>
-<p>要证 <span class="arithmatex"><span class="MathJax_Preview">x_1+x_2&gt;2</span><script type="math/tex">x_1+x_2>2</script></span> 即证：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>要证 $x_1+x_2&gt;2$ 即证：</p>
+<p>$$
 \dfrac{t+1}{t-1}\ln t&gt;2
-</div>
-<script type="math/tex; mode=display">
-\dfrac{t+1}{t-1}\ln t>2
-</script>
-</div>
+$$</p>
 <p>即：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \ln t&gt;\dfrac{2(t-1)}{t+1}
-</div>
-<script type="math/tex; mode=display">
-\ln t>\dfrac{2(t-1)}{t+1}
-</script>
-</div>
-<p>不妨令 <span class="arithmatex"><span class="MathJax_Preview">g(t)=\ln t-\dfrac{2(t-1)}{t+1}</span><script type="math/tex">g(t)=\ln t-\dfrac{2(t-1)}{t+1}</script></span>，则：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-g'(t)=\dfrac{1}{t}-\dfrac{2(t+1)-2(t-1)}{(t+1)^2}=\dfrac{1}{t}-\dfrac{4}{(t+1)^2}=\dfrac{(t-1)^2}{t(t+1)^2}
-</div>
-<script type="math/tex; mode=display">
-g'(t)=\dfrac{1}{t}-\dfrac{2(t+1)-2(t-1)}{(t+1)^2}=\dfrac{1}{t}-\dfrac{4}{(t+1)^2}=\dfrac{(t-1)^2}{t(t+1)^2}
-</script>
-</div>
-<p>我们注意到 <span class="arithmatex"><span class="MathJax_Preview">g'(1)=0</span><script type="math/tex">g'(1)=0</script></span> 且在 <span class="arithmatex"><span class="MathJax_Preview">(1,+\infty)</span><script type="math/tex">(1,+\infty)</script></span> 上恒正，因此</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>不妨令 $g(t)=\ln t-\dfrac{2(t-1)}{t+1}$，则：</p>
+<p>$$
+g'(t)=\dfrac{1}{t}-\dfrac{2(t+1)-2(t-1)}{(t+1)<sup>2}=\dfrac{1}{t}-\dfrac{4}{(t+1)</sup>2}=\dfrac{(t-1)<sup>2}{t(t+1)</sup>2}
+$$</p>
+<p>我们注意到 $g'(1)=0$ 且在 $(1,+\infty)$ 上恒正，因此</p>
+<p>$$
 g(x)&gt;g(1)=0
-</div>
-<script type="math/tex; mode=display">
-g(x)>g(1)=0
-</script>
-</div>
+$$</p>
 <p>即不等式成立。</p>
 <p>还有一种方法，由</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 x_2-x_1=\dfrac{x_2}{x_1}
-</div>
-<script type="math/tex; mode=display">
-x_2-x_1=\dfrac{x_2}{x_1}
-</script>
-</div>
+$$</p>
 <p>得</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \dfrac{x_2-x_1}{\ln\dfrac{x_2}{x_1}}=1
-</div>
-<script type="math/tex; mode=display">
-\dfrac{x_2-x_1}{\ln\dfrac{x_2}{x_1}}=1
-</script>
-</div>
-<p>要证 <span class="arithmatex"><span class="MathJax_Preview">x_1+x_2&gt;2</span><script type="math/tex">x_1+x_2>2</script></span> 即证：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>要证 $x_1+x_2&gt;2$ 即证：</p>
+<p>$$
 x_1+x_2&gt;\dfrac{2(x_2-x_1)}{\ln\dfrac{x_2}{x_1}}
-</div>
-<script type="math/tex; mode=display">
-x_1+x_2>\dfrac{2(x_2-x_1)}{\ln\dfrac{x_2}{x_1}}
-</script>
-</div>
-<p>令 <span class="arithmatex"><span class="MathJax_Preview">t=\dfrac{x_2}{x_1}&gt;1</span><script type="math/tex">t=\dfrac{x_2}{x_1}>1</script></span>，即证：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>令 $t=\dfrac{x_2}{x_1}&gt;1$，即证：</p>
+<p>$$
 \ln t&gt;\dfrac{2(t-1)}{t+1}
-</div>
-<script type="math/tex; mode=display">
-\ln t>\dfrac{2(t-1)}{t+1}
-</script>
-</div>
+$$</p>
 <p>前面已经证明，显然成立。</p>
-<p>对于形如证明 <span class="arithmatex"><span class="MathJax_Preview">x_1x_2&lt;C</span><script type="math/tex">x_1x_2<C</script></span> 的，我们将在下面构造函数法中写。</p>
+<p>对于形如证明 $x_1x_2&lt;C$ 的，我们将在下面构造函数法中写。</p>
 <h3 id="_29">构造函数法</h3>
-<p>例题：已知函数 <span class="arithmatex"><span class="MathJax_Preview">f(x)=\dfrac{1}{2}x+m+\dfrac{3}{2x}-\ln x(m\in\R)</span><script type="math/tex">f(x)=\dfrac{1}{2}x+m+\dfrac{3}{2x}-\ln x(m\in\R)</script></span>，若 <span class="arithmatex"><span class="MathJax_Preview">x_1,x_2</span><script type="math/tex">x_1,x_2</script></span> 是函数 <span class="arithmatex"><span class="MathJax_Preview">g(x)=xf(x)</span><script type="math/tex">g(x)=xf(x)</script></span> 的两个极值点，且 <span class="arithmatex"><span class="MathJax_Preview">x_1&lt;x_2</span><script type="math/tex">x_1<x_2</script></span>，证明 <span class="arithmatex"><span class="MathJax_Preview">x_1x_2&lt;1</span><script type="math/tex">x_1x_2<1</script></span>。</p>
-<p>我们令 <span class="arithmatex"><span class="MathJax_Preview">g(x)=xf(x)=mx-x\ln x+\dfrac{1}{2}x^2+\dfrac{3}{2}</span><script type="math/tex">g(x)=xf(x)=mx-x\ln x+\dfrac{1}{2}x^2+\dfrac{3}{2}</script></span>，对其求导</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>例题：已知函数 $f(x)=\dfrac{1}{2}x+m+\dfrac{3}{2x}-\ln x(m\in\R)$，若 $x_1,x_2$ 是函数 $g(x)=xf(x)$ 的两个极值点，且 $x_1&lt;x_2$，证明 $x_1x_2&lt;1$。</p>
+<p>我们令 $g(x)=xf(x)=mx-x\ln x+\dfrac{1}{2}x^2+\dfrac{3}{2}$，对其求导</p>
+<p>$$
 g'(x)=x-\ln x+m-1
-</div>
-<script type="math/tex; mode=display">
-g'(x)=x-\ln x+m-1
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 g''(x)=\dfrac{x-1}{x}
-</div>
-<script type="math/tex; mode=display">
-g''(x)=\dfrac{x-1}{x}
-</script>
-</div>
-<p>当 <span class="arithmatex"><span class="MathJax_Preview">0&lt;x&lt;1</span><script type="math/tex">0<x<1</script></span> 时，<span class="arithmatex"><span class="MathJax_Preview">g''(x)&lt;0</span><script type="math/tex">g''(x)<0</script></span>，<span class="arithmatex"><span class="MathJax_Preview">g'(x)</span><script type="math/tex">g'(x)</script></span> 单调递减；当 <span class="arithmatex"><span class="MathJax_Preview">x&gt;1</span><script type="math/tex">x>1</script></span> 时，<span class="arithmatex"><span class="MathJax_Preview">g''(x)&gt;0</span><script type="math/tex">g''(x)>0</script></span>，<span class="arithmatex"><span class="MathJax_Preview">g'(x)</span><script type="math/tex">g'(x)</script></span> 单调递增。因此 <span class="arithmatex"><span class="MathJax_Preview">1</span><script type="math/tex">1</script></span> 为 <span class="arithmatex"><span class="MathJax_Preview">g'(x)</span><script type="math/tex">g'(x)</script></span> 的极值点，因此 <span class="arithmatex"><span class="MathJax_Preview">0&lt;x_1&lt;1&lt;x_2</span><script type="math/tex">0<x_1<1<x_2</script></span>。</p>
-<p>要证 <span class="arithmatex"><span class="MathJax_Preview">x_1x_2&lt;1</span><script type="math/tex">x_1x_2<1</script></span> 即证</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>当 $0&lt;x&lt;1$ 时，$g''(x)&lt;0$，$g'(x)$ 单调递减；当 $x&gt;1$ 时，$g''(x)&gt;0$，$g'(x)$ 单调递增。因此 $1$ 为 $g'(x)$ 的极值点，因此 $0&lt;x_1&lt;1&lt;x_2$。</p>
+<p>要证 $x_1x_2&lt;1$ 即证</p>
+<p>$$
 x_2&lt;\dfrac{1}{x_1}
-</div>
-<script type="math/tex; mode=display">
-x_2<\dfrac{1}{x_1}
-</script>
-</div>
-<p>因为 <span class="arithmatex"><span class="MathJax_Preview">0&lt;x_1&lt;1</span><script type="math/tex">0<x_1<1</script></span> 所以 <span class="arithmatex"><span class="MathJax_Preview">\dfrac{1}{x_1}&gt;1</span><script type="math/tex">\dfrac{1}{x_1}>1</script></span>，因此尝试证明</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>因为 $0&lt;x_1&lt;1$ 所以 $\dfrac{1}{x_1}&gt;1$，因此尝试证明</p>
+<p>$$
 g'(x_2)&lt;g'\left(\dfrac{1}{x_1}\right)
-</div>
-<script type="math/tex; mode=display">
-g'(x_2)<g'\left(\dfrac{1}{x_1}\right)
-</script>
-</div>
-<p>又因为 <span class="arithmatex"><span class="MathJax_Preview">g'(x_1)=g'(x_2)=0</span><script type="math/tex">g'(x_1)=g'(x_2)=0</script></span>，因此证明</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>又因为 $g'(x_1)=g'(x_2)=0$，因此证明</p>
+<p>$$
 g'(x_1)&lt;g'\left(\dfrac{1}{x_1}\right)
-</div>
-<script type="math/tex; mode=display">
-g'(x_1)<g'\left(\dfrac{1}{x_1}\right)
-</script>
-</div>
+$$</p>
 <p>令函数</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 h(x)=g'(x)-g'\left(\dfrac{1}{x}\right)=x-\dfrac{1}{x}-2\ln x(0&lt;x&lt;1)
-</div>
-<script type="math/tex; mode=display">
-h(x)=g'(x)-g'\left(\dfrac{1}{x}\right)=x-\dfrac{1}{x}-2\ln x(0<x<1)
-</script>
-</div>
+$$</p>
 <p>求导得</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-h'(x)=\dfrac{(x-1)^2}{x^2}&gt;0
-</div>
-<script type="math/tex; mode=display">
-h'(x)=\dfrac{(x-1)^2}{x^2}>0
-</script>
-</div>
-<p>因此 <span class="arithmatex"><span class="MathJax_Preview">h(x)</span><script type="math/tex">h(x)</script></span> 单调递增，从而 <span class="arithmatex"><span class="MathJax_Preview">h(x)&lt;h(1)=0</span><script type="math/tex">h(x)<h(1)=0</script></span>，得证。</p>
-<p>这道题也可以用构造变量法，同样令 <span class="arithmatex"><span class="MathJax_Preview">t=\dfrac{x_2}{x_1}&gt;1</span><script type="math/tex">t=\dfrac{x_2}{x_1}>1</script></span>，证明</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
+h'(x)=\dfrac{(x-1)<sup>2}{x</sup>2}&gt;0
+$$</p>
+<p>因此 $h(x)$ 单调递增，从而 $h(x)&lt;h(1)=0$，得证。</p>
+<p>这道题也可以用构造变量法，同样令 $t=\dfrac{x_2}{x_1}&gt;1$，证明</p>
+<p>$$
 \ln t&lt;\sqrt{t}-\dfrac{1}{\sqrt{t}}
-</div>
-<script type="math/tex; mode=display">
-\ln t<\sqrt{t}-\dfrac{1}{\sqrt{t}}
-</script>
-</div>
+$$</p>
 <p>即可。</p>
 <h3 id="_30">变形双变量</h3>
 <p>当双变量不再对称，构造函数与构造变量都可以适用。</p>
@@ -1753,88 +986,45 @@ h'(x)=\dfrac{(x-1)^2}{x^2}>0
 </li>
 </ul>
 <p>联立两个零点，经常可以得到类似于</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \ln\dfrac{x_1}{x_2}=x_1-x_2
-</div>
-<script type="math/tex; mode=display">
-\ln\dfrac{x_1}{x_2}=x_1-x_2
-</script>
-</div>
-<p>的式子，设 <span class="arithmatex"><span class="MathJax_Preview">t=\dfrac{x_1}{x_2}\in(0,1)</span><script type="math/tex">t=\dfrac{x_1}{x_2}\in(0,1)</script></span>，一是可以将其化为</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>的式子，设 $t=\dfrac{x_1}{x_2}\in(0,1)$，一是可以将其化为</p>
+<p>$$
 \begin{cases}
-x_1&amp;=\dfrac{t\ln t}{t-1}\\
+x_1&amp;=\dfrac{t\ln t}{t-1}\
 x_2&amp;=\dfrac{\ln t}{t-1}
 \end{cases}
-</div>
-<script type="math/tex; mode=display">
-\begin{cases}
-x_1&=\dfrac{t\ln t}{t-1}\\
-x_2&=\dfrac{\ln t}{t-1}
-\end{cases}
-</script>
-</div>
+$$</p>
 <p>然后带入，直接证明一元不等式，二是可以将</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 1=\dfrac{x_1-x_2}{\ln\dfrac{x_1}{x_2}}
-</div>
-<script type="math/tex; mode=display">
-1=\dfrac{x_1-x_2}{\ln\dfrac{x_1}{x_2}}
-</script>
-</div>
-<p>或其倒数，利用 <span class="arithmatex"><span class="MathJax_Preview">1</span><script type="math/tex">1</script></span> 的代还，解决问题。</p>
+$$</p>
+<p>或其倒数，利用 $1$ 的代还，解决问题。</p>
 <h3 id="_31">拐点偏移</h3>
 <p>我们知道拐点是二阶导数的变号点。若函数在拐点两侧的变化速度相同，那么函数图像关于拐点中心对称；若变化速度不同，则图像会出现“偏移”。我们把这种现象称为“拐点偏移”。</p>
-<p>我们知道常见的极值点偏移是给出 <span class="arithmatex"><span class="MathJax_Preview">f(x_1)=f(x_2)=0</span><script type="math/tex">f(x_1)=f(x_2)=0</script></span>，而拐点偏移比较常见的是给出 <span class="arithmatex"><span class="MathJax_Preview">f(x_1)+f(x_2)=C</span><script type="math/tex">f(x_1)+f(x_2)=C</script></span> 这种，我们以例题。</p>
-<p>例题：已知函数 <span class="arithmatex"><span class="MathJax_Preview">f(x)=2\ln x+x^2-1</span><script type="math/tex">f(x)=2\ln x+x^2-1</script></span>，若 <span class="arithmatex"><span class="MathJax_Preview">x_1,x_2</span><script type="math/tex">x_1,x_2</script></span> 是两个不相等的正数，且 <span class="arithmatex"><span class="MathJax_Preview">f(x_1)+f(x_2)=0</span><script type="math/tex">f(x_1)+f(x_2)=0</script></span>，证明 <span class="arithmatex"><span class="MathJax_Preview">x_1+x_2&gt;2</span><script type="math/tex">x_1+x_2>2</script></span>。</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>我们知道常见的极值点偏移是给出 $f(x_1)=f(x_2)=0$，而拐点偏移比较常见的是给出 $f(x_1)+f(x_2)=C$ 这种，我们以例题。</p>
+<p>例题：已知函数 $f(x)=2\ln x+x^2-1$，若 $x_1,x_2$ 是两个不相等的正数，且 $f(x_1)+f(x_2)=0$，证明 $x_1+x_2&gt;2$。</p>
+<p>$$
 f'(x)=\dfrac{2}{x}+2x\ge4
-</div>
-<script type="math/tex; mode=display">
-f'(x)=\dfrac{2}{x}+2x\ge4
-</script>
-</div>
-<p>因此 <span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 单调递增，且 <span class="arithmatex"><span class="MathJax_Preview">f(1)=0</span><script type="math/tex">f(1)=0</script></span>，注意到 <span class="arithmatex"><span class="MathJax_Preview">2</span><script type="math/tex">2</script></span> 就是两倍的零点，我们不妨设</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>因此 $f(x)$ 单调递增，且 $f(1)=0$，注意到 $2$ 就是两倍的零点，我们不妨设</p>
+<p>$$
 0&lt;x_1&lt;1&lt;x_2&lt;2
-</div>
-<script type="math/tex; mode=display">
-0<x_1<1<x_2<2
-</script>
-</div>
-<p>因为 <span class="arithmatex"><span class="MathJax_Preview">x_2&gt;2</span><script type="math/tex">x_2>2</script></span> 的时候，显然 <span class="arithmatex"><span class="MathJax_Preview">x_1+x_2&gt;2</span><script type="math/tex">x_1+x_2>2</script></span>。考虑这个部分，即证</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>因为 $x_2&gt;2$ 的时候，显然 $x_1+x_2&gt;2$。考虑这个部分，即证</p>
+<p>$$
 f(x_2)&gt;f(2-x_1)
-</div>
-<script type="math/tex; mode=display">
-f(x_2)>f(2-x_1)
-</script>
-</div>
-<p>又因为 <span class="arithmatex"><span class="MathJax_Preview">f(x_2)=-f(x_1)</span><script type="math/tex">f(x_2)=-f(x_1)</script></span>，因此证</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>又因为 $f(x_2)=-f(x_1)$，因此证</p>
+<p>$$
 -f(x_1)&gt;f(2-x_1)
-</div>
-<script type="math/tex; mode=display">
--f(x_1)>f(2-x_1)
-</script>
-</div>
+$$</p>
 <p>不妨设</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-g(x)=f(x)+f(2-x)=2\ln(2x-x^2)-2(2x-x^2)+2
-</div>
-<script type="math/tex; mode=display">
-g(x)=f(x)+f(2-x)=2\ln(2x-x^2)-2(2x-x^2)+2
-</script>
-</div>
-<p>其中 <span class="arithmatex"><span class="MathJax_Preview">x\in(0,1)</span><script type="math/tex">x\in(0,1)</script></span>，不妨令 <span class="arithmatex"><span class="MathJax_Preview">t=2x-x^2\in(0,1)</span><script type="math/tex">t=2x-x^2\in(0,1)</script></span>，由 <span class="arithmatex"><span class="MathJax_Preview">\ln t&lt;x-1</span><script type="math/tex">\ln t<x-1</script></span>，不等式显然成立。</p>
+<p>$$
+g(x)=f(x)+f(2-x)=2\ln(2x-x<sup>2)-2(2x-x</sup>2)+2
+$$</p>
+<p>其中 $x\in(0,1)$，不妨令 $t=2x-x^2\in(0,1)$，由 $\ln t&lt;x-1$，不等式显然成立。</p>
 <!-- 数学 -->
 <!-- 物理 -->
 <!-- 化学 -->

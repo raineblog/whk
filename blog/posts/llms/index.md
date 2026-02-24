@@ -94,66 +94,66 @@
 <tbody>
 <tr>
 <td style="text-align: left;"><strong>Kimi K2.5</strong></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">66%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">88%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">3%</span></td>
+<td style="text-align: center;">$66\%$</td>
+<td style="text-align: center;">$88\%$</td>
+<td style="text-align: center;">$3\%$</td>
 <td style="text-align: center;">-</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Qwen3 Max</strong></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">66%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">86%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">2%</span></td>
+<td style="text-align: center;">$66\%$</td>
+<td style="text-align: center;">$86\%$</td>
+<td style="text-align: center;">$2\%$</td>
 <td style="text-align: center;">-</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>DeepSeek V3.2</strong></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">65%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">84%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">3%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">92%</span></td>
+<td style="text-align: center;">$65\%$</td>
+<td style="text-align: center;">$84\%$</td>
+<td style="text-align: center;">$3\%$</td>
+<td style="text-align: center;">$92\%$</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>GLM 4.7</strong></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">64%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">86%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">2%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">95%</span></td>
+<td style="text-align: center;">$64\%$</td>
+<td style="text-align: center;">$86\%$</td>
+<td style="text-align: center;">$2\%$</td>
+<td style="text-align: center;">$95\%$</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>MiMo V2 Flash</strong></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">63%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">85%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">4%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">96%</span></td>
+<td style="text-align: center;">$63\%$</td>
+<td style="text-align: center;">$85\%$</td>
+<td style="text-align: center;">$4\%$</td>
+<td style="text-align: center;">$96\%$</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Minimax M2.1</strong></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">59%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">83%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">0%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">83%</span></td>
+<td style="text-align: center;">$59\%$</td>
+<td style="text-align: center;">$83\%$</td>
+<td style="text-align: center;">$0\%$</td>
+<td style="text-align: center;">$83\%$</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>Claude Opus 4.5</em></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">74%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">87%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">5%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">91%</span></td>
+<td style="text-align: center;">$74\%$</td>
+<td style="text-align: center;">$87\%$</td>
+<td style="text-align: center;">$5\%$</td>
+<td style="text-align: center;">$91\%$</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>GPT 5.2</em></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">73%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">90%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">12%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">99%</span></td>
+<td style="text-align: center;">$73\%$</td>
+<td style="text-align: center;">$90\%$</td>
+<td style="text-align: center;">$12\%$</td>
+<td style="text-align: center;">$99\%$</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>Gemini 3 Pro</em></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">71%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">91%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">9%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">96%</span></td>
+<td style="text-align: center;">$71\%$</td>
+<td style="text-align: center;">$91\%$</td>
+<td style="text-align: center;">$9\%$</td>
+<td style="text-align: center;">$96\%$</td>
 </tr>
 </tbody>
 </table>
@@ -184,66 +184,66 @@
 <tbody>
 <tr>
 <td style="text-align: left;"><strong>Kimi K2.5</strong></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">29.4%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">33%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">36%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">70%</span></td>
+<td style="text-align: center;">$29.4\%$</td>
+<td style="text-align: center;">$33\%$</td>
+<td style="text-align: center;">$36\%$</td>
+<td style="text-align: center;">$70\%$</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Qwen3 Max</strong></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">26.2%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">29%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">7%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">71%</span></td>
+<td style="text-align: center;">$26.2\%$</td>
+<td style="text-align: center;">$29\%$</td>
+<td style="text-align: center;">$7\%$</td>
+<td style="text-align: center;">$71\%$</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>DeepSeek V3.2</strong></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">22.2%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">32%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">18%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">61%</span></td>
+<td style="text-align: center;">$22.2\%$</td>
+<td style="text-align: center;">$32\%$</td>
+<td style="text-align: center;">$18\%$</td>
+<td style="text-align: center;">$61\%$</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>GLM 4.7</strong></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">25.1%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">28%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">10%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">68%</span></td>
+<td style="text-align: center;">$25.1\%$</td>
+<td style="text-align: center;">$28\%$</td>
+<td style="text-align: center;">$10\%$</td>
+<td style="text-align: center;">$68\%$</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>MiMo V2 Flash</strong></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">21.1%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">26%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">7%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">64%</span></td>
+<td style="text-align: center;">$21.1\%$</td>
+<td style="text-align: center;">$26\%$</td>
+<td style="text-align: center;">$7\%$</td>
+<td style="text-align: center;">$64\%$</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Minimax M2.1</strong></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">22.2%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">22%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">33%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">70%</span></td>
+<td style="text-align: center;">$22.2\%$</td>
+<td style="text-align: center;">$22\%$</td>
+<td style="text-align: center;">$33\%$</td>
+<td style="text-align: center;">$70\%$</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>Claude Opus 4.5</em></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">28.4%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">43%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">42%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">58%</span></td>
+<td style="text-align: center;">$28.4\%$</td>
+<td style="text-align: center;">$43\%$</td>
+<td style="text-align: center;">$42\%$</td>
+<td style="text-align: center;">$58\%$</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>GPT 5.2</em></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">35.4%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">41%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">22%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">75%</span></td>
+<td style="text-align: center;">$35.4\%$</td>
+<td style="text-align: center;">$41\%$</td>
+<td style="text-align: center;">$22\%$</td>
+<td style="text-align: center;">$75\%$</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>Gemini 3 Pro</em></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">37.2%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">54%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">12%</span></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline">70%</span></td>
+<td style="text-align: center;">$37.2\%$</td>
+<td style="text-align: center;">$54\%$</td>
+<td style="text-align: center;">$12\%$</td>
+<td style="text-align: center;">$70\%$</td>
 </tr>
 </tbody>
 </table>
@@ -270,13 +270,7 @@
 
 4.  **明确限制（Constraints）**：规定输出的格式、语气或字数。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\text{角色} + \text{背景} + \text{任务} + \text{限制} = \text{理想结果}
-:::
-
-$$\text{角色} + \text{背景} + \text{任务} + \text{限制} = \text{理想结果}$$
-::::
+\$\$ \text{角色} + \text{背景} + \text{任务} + \text{限制} = \text{理想结果} \$\$
 
 提示工程并不是一种复杂的编程技术，而是一种**清晰表达需求**的能力。在实践中，你可以通过不断调整和追问（Iterative Prompting），引导 AI 逐步逼近你想要的答案。同时请记住，AI 生成的内容可能存在"幻觉"，始终保持批判性思维并进行事实核查是使用 AI 的基本准则。
 

@@ -118,14 +118,14 @@
 
 ### 假说演绎法 {#_11}
 
-|   步骤   |        分离定律        |       自由组合定律       |
-|:--------:|:----------------------:|:------------------------:|
-| 分析问题 |  []{.arithmatex}$3:1$  | []{.arithmatex}$9:3:3:1$ |
-| 提出假说 |    遗传因子彼此分离    |     遗传因子自由组合     |
-| 演绎推理 |        测交实验        |    测交实验、正交反交    |
-| 验证假说 |  []{.arithmatex}$1:1$  | []{.arithmatex}$1:1:1:1$ |
-| 分析结果 | 真实结果与预期结果一致 |  真实结果与预期结果一致  |
-| 得出结论 |        分离定律        |       自由组合定律       |
+|   步骤   |        分离定律        |      自由组合定律      |
+|:--------:|:----------------------:|:----------------------:|
+| 分析问题 |        \$3:1\$         |      \$9:3:3:1\$       |
+| 提出假说 |    遗传因子彼此分离    |    遗传因子自由组合    |
+| 演绎推理 |        测交实验        |   测交实验、正交反交   |
+| 验证假说 |        \$1:1\$         |      \$1:1:1:1\$       |
+| 分析结果 | 真实结果与预期结果一致 | 真实结果与预期结果一致 |
+| 得出结论 |        分离定律        |      自由组合定律      |
 
 ### 分离比模拟实验 {#_12}
 
@@ -153,11 +153,11 @@
 
 #### 连续自交比例 {#_17}
 
-杂合子 Aa 连续自交 []{.arithmatex}$n$ 代：
+杂合子 Aa 连续自交 \$n\$ 代：
 
 |  | Aa | aa + AA | aa, AA | Aa + AA |
 |:--:|:--:|:--:|:--:|:--:|
-| []{.arithmatex}$F_n$ | []{.arithmatex}$\dfrac{1}{2^n}$ | []{.arithmatex}$1-\dfrac{1}{2^n}=\dfrac{2^n-1}{2^n}$ | []{.arithmatex}$\dfrac{1}{2}-\dfrac{1}{2^{n+1}}=\dfrac{2^n-1}{2^{n+1}}$ | []{.arithmatex}$\dfrac{1}{2}+\dfrac{1}{2^{n+1}}=\dfrac{2^n+1}{2^{n+1}}$ |
+| \$F_n\$ | \$\dfrac{1}{2\^n}\$ | \$1-\dfrac{1}{2^n}=\dfrac{2^n-1}{2\^n}\$ | \$\dfrac{1}{2}-\dfrac{1}{2^{n+1}}=\dfrac{2^n-1}{2\^{n+1}}\$ | \$\dfrac{1}{2}+\dfrac{1}{2^{n+1}}=\dfrac{2^n+1}{2\^{n+1}}\$ |
 
 用途：自交多代，纯合子比例提高，用于选育种。
 
@@ -167,65 +167,53 @@
 
 根据上表有：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\dfrac{\rm{AA}}{\rm{AA+Aa}}=\dfrac{2\^n-1}{2\^n+1}
-:::
-
-$$\dfrac{\rm{AA}}{\rm{AA+Aa}}=\dfrac{2^n-1}{2^n+1}$$
-::::
+\$\$ \dfrac{\rm{AA}}{\rm{AA+Aa}}=\dfrac{2^n-1}{2^n+1} \$\$
 
 那么：
 
-|  | Aa | AA |
-|:--:|:--:|:--:|
-| []{.arithmatex}$F_n$ | []{.arithmatex}$\dfrac{2}{2^n+1}$ | []{.arithmatex}$1-\dfrac{2}{2^n+1}=\dfrac{2^n-1}{2^n+1}$ |
+|         |          Aa           |                      AA                      |
+|:-------:|:---------------------:|:--------------------------------------------:|
+| \$F_n\$ | \$\dfrac{2}{2\^n+1}\$ | \$1-\dfrac{2}{2^n+1}=\dfrac{2^n-1}{2\^n+1}\$ |
 
 #### 自由交配比例 {#_18}
 
-杂合子 Aa 自由交配：比例恒为 []{.arithmatex}$1:2:1$。
+杂合子 Aa 自由交配：比例恒为 \$1:2:1\$。
 
-配子法：一个区域内 []{.arithmatex}$\rm{AA:Aa}=1:2$，求自由交配一代后性状及其比例。
+配子法：一个区域内 \$\rm{AA:Aa}=1:2\$，求自由交配一代后性状及其比例。
 
-找出配子：[]{.arithmatex}$\rm{A:a}=2\times1+1\times2:1\times2=2:1$，列出表格：
+找出配子：\$\rm{A:a}=2\times1+1\times2:1\times2=2:1\$，列出表格：
 
 ![](../image.svg)
 
-得出答案：基因型 []{.arithmatex}$\rm{AA:Aa:aa}=4:4:1$，形状分离比为 []{.arithmatex}$8:1$。
+得出答案：基因型 \$\rm{AA:Aa:aa}=4:4:1\$，形状分离比为 \$8:1\$。
 
 杂合子 Aa 自由交配，逐代淘汰 aa 隐性个体：
 
-|  | AA | Aa |
-|:--:|:--:|:--:|
-| []{.arithmatex}$F_n$ | []{.arithmatex}$\dfrac{n}{n+2}$ | []{.arithmatex}$\dfrac{2}{n+2}$ |
+|         |         AA         |         Aa         |
+|:-------:|:------------------:|:------------------:|
+| \$F_n\$ | \$\dfrac{n}{n+2}\$ | \$\dfrac{2}{n+2}\$ |
 
 #### 合子致死问题 {#_19}
 
-形式为，[]{.arithmatex}$\rm{AA,Aa,aa}$ 中有基因型导致致死，或者部分致死。
+形式为，\$\rm{AA,Aa,aa}\$ 中有基因型导致致死，或者部分致死。
 
-在 []{.arithmatex}$1:2:1$ 的基础上，减掉一部分数即可，例如 []{.arithmatex}$\rm aa$ 有 []{.arithmatex}$50\%$ 致死：
+在 \$1:2:1\$ 的基础上，减掉一部分数即可，例如 \$\rm aa\$ 有 \$50\\\$ 致死：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-1:2:(1\times50\\)=2:4:1
-:::
-
-$$1:2:(1\times50\%)=2:4:1$$
-::::
+\$\$ 1:2:(1\times50\\)=2:4:1 \$\$
 
 ### 自由组合定律 {#_20}
 
 #### 实质与验证 {#_21}
 
-- 实质：验证双杂合子可以产生 []{.arithmatex}$4$ 种比例相等的配子。
+- 实质：验证双杂合子可以产生 \$4\$ 种比例相等的配子。
 
-- 自交法：性状分离比 []{.arithmatex}$9:3:3:1$。
+- 自交法：性状分离比 \$9:3:3:1\$。
 
-- 测交法：性状分离比 []{.arithmatex}$1:1:1:1$。
+- 测交法：性状分离比 \$1:1:1:1\$。
 
-- 花粉法：花粉形状比 []{.arithmatex}$1:1:1:1$。
+- 花粉法：花粉形状比 \$1:1:1:1\$。
 
-- 单倍体育种：取花药离体培养，（花粉）获得单倍体幼苗，用秋水仙素处理，使幼苗染色体加倍、恢复正常染色体数，最终植株性状分离比 []{.arithmatex}$1:1:1:1$。
+- 单倍体育种：取花药离体培养，（花粉）获得单倍体幼苗，用秋水仙素处理，使幼苗染色体加倍、恢复正常染色体数，最终植株性状分离比 \$1:1:1:1\$。
 
 #### 拆分组合法 {#_22}
 
@@ -233,31 +221,13 @@ $$1:2:(1\times50\%)=2:4:1$$
 
 拆分：将多对等位基因分别考虑，然后乘起来，有：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-(3:1)(3:1)=9:3:3:1
-:::
+\$\$ (3:1)(3:1)=9:3:3:1 \$\$
 
-$$(3:1)(3:1)=9:3:3:1$$
-::::
+\$\$ (3:1)(1:1)=3:3:1:1 \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-(3:1)(1:1)=3:3:1:1
-:::
+\$\$ (1:1)(1:1)=1:1:1:1 \$\$
 
-$$(3:1)(1:1)=3:3:1:1$$
-::::
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-(1:1)(1:1)=1:1:1:1
-:::
-
-$$(1:1)(1:1)=1:1:1:1$$
-::::
-
-因此，[]{.arithmatex}$n$ 对等位基因 []{.arithmatex}$\rm{AaBbCc\dots}$ 分离的现象：
+因此，\$n\$ 对等位基因 \$\rm{AaBbCc\dots}\$ 分离的现象：
 
 <table>
 <colgroup>
@@ -269,63 +239,57 @@ $$(1:1)(1:1)=1:1:1:1$$
 <thead>
 <tr>
 <th style="text-align: center;"></th>
-<th style="text-align: center;"><span class="arithmatex"></span><span class="math inline">1</span> 对相对性状</th>
-<th style="text-align: center;"><span class="arithmatex"></span><span class="math inline">2</span> 对相对性状</th>
-<th style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>n</em></span> 对相对性状</th>
+<th style="text-align: center;">$1$ 对相对性状</th>
+<th style="text-align: center;">$2$ 对相对性状</th>
+<th style="text-align: center;">$n$ 对相对性状</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align: center;"><br />
-<span class="arithmatex"></span><span class="math inline"><em>F</em><sub>1</sub></span> 配子</td>
-<td style="text-align: center;">有 <span class="arithmatex"></span><span class="math inline">2</span> 种<br />
-<span class="arithmatex"></span><span class="math inline">1 : 1</span></td>
-<td style="text-align: center;">有 <span class="arithmatex"></span><span class="math inline">2<sup>2</sup></span> 种<br />
-<span class="arithmatex"></span><span class="math inline">1 : 1 : 1 : 1</span></td>
-<td style="text-align: center;">有 <span class="arithmatex"></span><span class="math inline">2<sup><em>n</em></sup></span> 种<br />
-<span class="arithmatex"></span><span class="math inline">(1 : 1)<sup><em>n</em></sup></span></td>
+$F_1$ 配子</td>
+<td style="text-align: center;">有 $2$ 种<br />
+$1:1$</td>
+<td style="text-align: center;">有 $2^2$ 种<br />
+$1:1:1:1$</td>
+<td style="text-align: center;">有 $2^n$ 种<br />
+$(1:1)^n$</td>
 </tr>
 <tr>
 <td style="text-align: center;"><br />
-<span class="arithmatex"></span><span class="math inline"><em>F</em><sub>2</sub></span> 表现型</td>
-<td style="text-align: center;">有 <span class="arithmatex"></span><span class="math inline">2</span> 种<br />
-<span class="arithmatex"></span><span class="math inline">3 : 1</span></td>
-<td style="text-align: center;">有 <span class="arithmatex"></span><span class="math inline">2<sup>2</sup></span> 种<br />
-<span class="arithmatex"></span><span class="math inline">9 : 3 : 3 : 1</span></td>
-<td style="text-align: center;">有 <span class="arithmatex"></span><span class="math inline">2<sup><em>n</em></sup></span> 种<br />
-<span class="arithmatex"></span><span class="math inline">(3 : 1)<sup><em>n</em></sup></span></td>
+$F_2$ 表现型</td>
+<td style="text-align: center;">有 $2$ 种<br />
+$3:1$</td>
+<td style="text-align: center;">有 $2^2$ 种<br />
+$9:3:3:1$</td>
+<td style="text-align: center;">有 $2^n$ 种<br />
+$(3:1)^n$</td>
 </tr>
 <tr>
 <td style="text-align: center;"><br />
-<span class="arithmatex"></span><span class="math inline"><em>F</em><sub>2</sub></span> 基因型</td>
-<td style="text-align: center;">有 <span class="arithmatex"></span><span class="math inline">2</span> 种<br />
-<span class="arithmatex"></span><span class="math inline">1 : 2 : 1</span></td>
-<td style="text-align: center;">有 <span class="arithmatex"></span><span class="math inline">2<sup>2</sup></span> 种<br />
-<span class="arithmatex"></span><span class="math inline">1 : 2 : 1 : 2 : 4 : 2 : 1 : 2 : 1</span></td>
-<td style="text-align: center;">有 <span class="arithmatex"></span><span class="math inline">2<sup><em>n</em></sup></span> 种<br />
-<span class="arithmatex"></span><span class="math inline">(1 : 2 : 1)<sup><em>n</em></sup></span></td>
+$F_2$ 基因型</td>
+<td style="text-align: center;">有 $2$ 种<br />
+$1:2:1$</td>
+<td style="text-align: center;">有 $2^2$ 种<br />
+$1:2:1:2:4:2:1:2:1$</td>
+<td style="text-align: center;">有 $2^n$ 种<br />
+$(1:2:1)^n$</td>
 </tr>
 </tbody>
 </table>
 
-根据全隐、全显比例判断 []{.arithmatex}$n$ 等位基因对数：
+根据全隐、全显比例判断 \$n\$ 等位基因对数：
 
-|      |         全显比例         |         全隐比例         |
-|:----:|:------------------------:|:------------------------:|
-| 自交 | []{.arithmatex}$(3/4)^n$ | []{.arithmatex}$(1/4)^n$ |
-| 测交 | []{.arithmatex}$(1/2)^n$ | []{.arithmatex}$(1/2)^n$ |
+|      |  全显比例  |  全隐比例  |
+|:----:|:----------:|:----------:|
+| 自交 | \$(¾)\^n\$ | \$(¼)\^n\$ |
+| 测交 | \$(½)\^n\$ | \$(½)\^n\$ |
 
 #### 多项式展开法 {#_23}
 
 先对每一对相对性状单独分析，对单独得到的比例相乘：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-(3:1)(3:1)=9:3:3:1
-:::
-
-$$(3:1)(3:1)=9:3:3:1$$
-::::
+\$\$ (3:1)(3:1)=9:3:3:1 \$\$
 
 可以通过这种方法来快速解决自由组合的杂交子代基因型比例问题。
 
@@ -333,13 +297,13 @@ $$(3:1)(3:1)=9:3:3:1$$
 
 容斥原理：
 
-- 患甲病概率 []{.arithmatex}$n$，患乙病概率 []{.arithmatex}$m$。
+- 患甲病概率 \$n\$，患乙病概率 \$m\$。
 
-- 同时患两病概率 []{.arithmatex}$nm$，不患病概率 []{.arithmatex}$(1-n)(1-m)$。
+- 同时患两病概率 \$nm\$，不患病概率 \$(1-n)(1-m)\$。
 
-- 患病概率 []{.arithmatex}$n+m-nm$，患一种病概率 []{.arithmatex}$n+m-2nm$。
+- 患病概率 \$n+m-nm\$，患一种病概率 \$n+m-2nm\$。
 
-- 只患甲病概率 []{.arithmatex}$n(1-m)=n-nm$，只患乙病概率 []{.arithmatex}$m(1-n)=m-nm$。
+- 只患甲病概率 \$n(1-m)=n-nm\$，只患乙病概率 \$m(1-n)=m-nm\$。
 
 #### 配子致死问题 {#_25}
 
@@ -347,41 +311,23 @@ $$(3:1)(3:1)=9:3:3:1$$
 
 以基因型为 Ab 的花粉（雄配子）致死为例：
 
-我们知道 Ab 雄配子一定会与 []{.arithmatex}$1:1:1:1$ 的 []{.arithmatex}$\rm AB, Ab, aB, ab$ 的配子结合后死亡。
+我们知道 Ab 雄配子一定会与 \$1:1:1:1\$ 的 \$\rm AB, Ab, aB, ab\$ 的配子结合后死亡。
 
-因此，我们在 []{.arithmatex}$9:3:3:1$ 上减去对应的个体，即 []{.arithmatex}$(9-1-1):(3-1-1):3:1=7:3:1:1$。
+因此，我们在 \$9:3:3:1\$ 上减去对应的个体，即 \$(9-1-1):(3-1-1):3:1=7:3:1:1\$。
 
 配子部分致死问题：
 
-以 AaBb 中含 b 的花粉 []{.arithmatex}$50\%$ 致死为例。
+以 AaBb 中含 b 的花粉 \$50\\\$ 致死为例。
 
 我们分开讨论，我们知道：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\rm{Aa\times Aa=AA+2Aa+aa}
-:::
+\$\$ \rm{Aa\times Aa=AA+2Aa+aa} \$\$
 
-$$\rm{Aa\times Aa=AA+2Aa+aa}$$
-::::
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\rm{Bb\times B\dfrac{1}{2}b=BB+\dfrac{3}{2}Bb+\dfrac{1}{2}bb}
-:::
-
-$$\rm{Bb\times B\dfrac{1}{2}b=BB+\dfrac{3}{2}Bb+\dfrac{1}{2}bb}$$
-::::
+\$\$ \rm{Bb\times B\dfrac{1}{2}b=BB+\dfrac{3}{2}Bb+\dfrac{1}{2}bb} \$\$
 
 性状分离比：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-(1+2:1)(2+3:1)=(3:1)(5:1)=15:5:3:1
-:::
-
-$$(1+2:1)(2+3:1)=(3:1)(5:1)=15:5:3:1$$
-::::
+\$\$ (1+2:1)(2+3:1)=(3:1)(5:1)=15:5:3:1 \$\$
 
 这种将系数放在前面可以快速解决。
 
@@ -393,27 +339,27 @@ $$(1+2:1)(2+3:1)=(3:1)(5:1)=15:5:3:1$$
 
 - 显性 Aa 与 AA 表型不同。
 
-- 杂合子自交分离比为 []{.arithmatex}$1:2:1$。
+- 杂合子自交分离比为 \$1:2:1\$。
 
 #### 复等位基因 {#_29}
 
 - 例如 ABO 血型：
 
-  - AB 型血：[]{.arithmatex}$\rm{I^AI^B}$。
+  - AB 型血：\$\rm{I^AI^B}\$。
 
-  - A 型血：[]{.arithmatex}$\rm{I^AI^A,I^Ai}$。
+  - A 型血：\$\rm{I^AI^A,I\^Ai}\$。
 
-  - B 型血：[]{.arithmatex}$\rm{I^BI^B,I^Bi}$。
+  - B 型血：\$\rm{I^BI^B,I\^Bi}\$。
 
-  - O 型血：[]{.arithmatex}$\rm{ii}$。
+  - O 型血：\$\rm{ii}\$。
 
-  - 其中 []{.arithmatex}$\rm{I^A,I^B}$ 称为共显性基因。
+  - 其中 \$\rm{I^A,I^B}\$ 称为共显性基因。
 
 #### 表型模拟 {#_30}
 
 - 表型同时由基因型和环境影响。
 
-- 例如 AA 果蝇 []{.arithmatex}$\pu{0^oC}$ 为残翅。
+- 例如 AA 果蝇 \$\pu{0\^oC}\$ 为残翅。
 
 - 从性遗传和伴性遗传的表型都与性别有密切的联系，但它们是两种截然不同的遗传方式------伴性遗传的基因位于性染色体上，而从性遗传的基因位于常染色体上，后者基因在传递时并不与性别相联系，这与位于性染色体上基因的传递有本质区别。
 
@@ -433,144 +379,90 @@ $$(1+2:1)(2+3:1)=(3:1)(5:1)=15:5:3:1$$
 
 - 例如二十一三体综合征，通常是减数分裂异常导致的。
 
-- 例如 AAa 染色体的配子产生为：[]{.arithmatex}$\mathtt{(AA, a); (Aa, A); (Aa, A)}$，即 []{.arithmatex}$\rm{AA:Aa:A:a}=1:2:2:1$。
+- 例如 AAa 染色体的配子产生为：\$\mathtt{(AA, a); (Aa, A); (Aa, A)}\$，即 \$\rm{AA:Aa:A:a}=1:2:2:1\$。
 
 ### 自由组合定律 {#_34}
 
-#### 基础 []{.arithmatex}$9:3:3:1$ 型 {#93319331}
+#### 基础 \$9:3:3:1\$ 型 {#9331}
 
-最基本的类型，特征为和为 []{.arithmatex}$16$。
+最基本的类型，特征为和为 \$16\$。
 
-产生 []{.arithmatex}$9:3:3:1$ 通常是两对相对性状互不干扰，或者同时为显性时产生新的性状。
+产生 \$9:3:3:1\$ 通常是两对相对性状互不干扰，或者同时为显性时产生新的性状。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\mathtt{(A\\B\\);(A\\bb);(aaB\\);(aabb)}
-:::
-
-$$\mathtt{(A\_B\_);(A\_bb);(aaB\_);(aabb)}$$
-::::
+\$\$ \mathtt{(A_B\_);(A_bb);(aaB\_);(aabb)} \$\$
 
 举例：豌豆黄色、绿色，圆粒、皱粒。
 
 测交：一一对应，下面的变形也是如此，对应组内测交比例之和即为测交性状分离。
 
-#### 变形 []{.arithmatex}$9:7$ 型 {#9797}
+#### 变形 \$9:7\$ 型 {#97}
 
 两对独立的非等位基因，两个基因均为显性（纯合或杂合状态）决定一种性状的出现，单独一个为显性与全不显性表现相同。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\mathtt{(A\\B\\);(A\\bb,aaB\\,aabb)}
-:::
-
-$$\mathtt{(A\_B\_);(A\_bb,aaB\_,aabb)}$$
-::::
+\$\$ \mathtt{(A_B\_);(A_bb,aaB\_,aabb)} \$\$
 
 举例：酶甲基因，酶乙基因，底物经过酶甲和酶乙后产生有色物质。
 
-#### 变形 []{.arithmatex}$9:6:1$ 型 {#961961}
+#### 变形 \$9:6:1\$ 型 {#961}
 
 两种显性基因同时存在时产生一种性状，单独存在时则能表现相似的性状，无显性基因时表达出又一种性状来。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\mathtt{(A\\B\\);(A\\bb,aaB\\);(aabb)}
-:::
-
-$$\mathtt{(A\_B\_);(A\_bb,aaB\_);(aabb)}$$
-::::
+\$\$ \mathtt{(A_B\_);(A_bb,aaB\_);(aabb)} \$\$
 
 举例：酶甲和酶乙均控制某颜色色素合成，但是两种色素在一起后产生不同颜色。
 
-#### 变形 []{.arithmatex}$15:1$ 型 {#151151}
+#### 变形 \$15:1\$ 型 {#151}
 
 只要一个显性基因存在时就表现性状，显性效果不累加，无显性基因不表现性状。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\mathtt{(A\\B\\,A\\bb,aaB\\);(aabb)}
-:::
-
-$$\mathtt{(A\_B\_,A\_bb,aaB\_);(aabb)}$$
-::::
+\$\$ \mathtt{(A_B\_,A_bb,aaB\_);(aabb)} \$\$
 
 举例：酶甲和酶乙均控制某色素合成，只要存在一种酶即可合成。
 
-#### 叠加效应 []{.arithmatex}$1:4:6:4:1$ 型 {#1464114641}
+#### 叠加效应 \$1:4:6:4:1\$ 型 {#14641}
 
 当两对非等位基因决定某一性状时，由于基因的相互作用，后代由于显性基因的叠加，从而出现偏离。
 
-常见形式为 []{.arithmatex}$1:4:6:4:1$，这个表示性状与显性基因的个数有关。
+常见形式为 \$1:4:6:4:1\$，这个表示性状与显性基因的个数有关。
 
 在某些题目里面，可以看到显性基因与性状（长度、质量等）的线性关系。
 
-#### 隐性上位作用 []{.arithmatex}$9:3:4$ 型 {#934934}
+#### 隐性上位作用 \$9:3:4\$ 型 {#934}
 
 其中一个等位基因如果隐性纯合，则表现为一个形态，反之与另一个基因有关，我们称一对隐性基因对另一对基因起上位性作用。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\mathtt{(A\\B\\);(A\\bb);(aaB\\,aabb)}
-:::
+\$\$ \mathtt{(A_B\_);(A_bb);(aaB\_,aabb)} \$\$
 
-$$\mathtt{(A\_B\_);(A\_bb);(aaB\_,aabb)}$$
-::::
+举例：果蝇的有翅 \$\rm A\_\$ 无翅 \$\rm aa\$，与长翅 \$\rm B\_\$ 短翅 \$\rm bb\$。
 
-举例：果蝇的有翅 []{.arithmatex}$\rm A\_$ 无翅 []{.arithmatex}$\rm aa$，与长翅 []{.arithmatex}$\rm B\_$ 短翅 []{.arithmatex}$\rm bb$。
-
-#### 显性抑制作用 []{.arithmatex}$13:3$ 型 {#133133}
+#### 显性抑制作用 \$13:3\$ 型 {#133}
 
 其中一对基因对另一对其抑制作用且本身不控制性状的表现，称其为抑制基因，或者显性时性状抵消、与双隐性相同。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\mathtt{(A\\bb);(A\\B\\,aaB\\,aabb)}
-:::
-
-$$\mathtt{(A\_bb);(A\_B\_,aaB\_,aabb)}$$
-::::
+\$\$ \mathtt{(A_bb);(A_B\_,aaB\_,aabb)} \$\$
 
 举例：酶甲控制合成，酶乙控制抑制甲或者分解产物。
 
-#### 显性上位作用 []{.arithmatex}$12:3:1$ 型 {#12311231}
+#### 显性上位作用 \$12:3:1\$ 型 {#1231}
 
 两对独立的基因共同控制，其中一对基因对另一基因起遮盖作用且本身控制性状的表现。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\mathtt{(A\\B\\,aaB\\);(A\\bb);(aabb)}
-:::
-
-$$\mathtt{(A\_B\_,aaB\_);(A\_bb);(aabb)}$$
-::::
+\$\$ \mathtt{(A_B\_,aaB\_);(A_bb);(aabb)} \$\$
 
 举例：酶甲控制合成蓝色色素，酶乙控制合成黄色色素且抑制酶甲。
 
-#### 相互抑制作用 []{.arithmatex}$10:6$ 型 {#106106}
+#### 相互抑制作用 \$10:6\$ 型 {#106}
 
 只要一个显性基因存在时就表现性状，但双显性基因相互抑制、作用效果抵消，与双隐性基因效果相同。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\mathtt{(A\\B\\,aabb);(A\\bb,aaB\\)}
-:::
-
-$$\mathtt{(A\_B\_,aabb);(A\_bb,aaB\_)}$$
-::::
+\$\$ \mathtt{(A_B\_,aabb);(A_bb,aaB\_)} \$\$
 
 举例：酶甲和酶乙均控制合成某种色素，两种酶互相抑制。
 
-#### 相互抑制作用 []{.arithmatex}$10:3:3$ 型 {#10331033}
+#### 相互抑制作用 \$10:3:3\$ 型 {#1033}
 
 两个基因各自显性表现不同，但双显性基因相互抑制、作用效果抵消，与双隐性基因效果相同。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\mathtt{(A\\B\\,aabb);(A\\bb,aaB\\)}
-:::
-
-$$\mathtt{(A\_B\_,aabb);(A\_bb,aaB\_)}$$
-::::
+\$\$ \mathtt{(A_B\_,aabb);(A_bb,aaB\_)} \$\$
 
 举例：酶甲控制蓝色色素合成，酶乙控制黄色色素合成，两种酶相互抑制。

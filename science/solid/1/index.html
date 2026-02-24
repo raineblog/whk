@@ -7,7 +7,7 @@
 <p>公理：</p>
 <ol>
 <li>经过不共线三个点，有且仅有一个平面。</li>
-<li>若点 <span class="arithmatex"><span class="MathJax_Preview">A,B</span><script type="math/tex">A,B</script></span> 在一平面内，则直线 <span class="arithmatex"><span class="MathJax_Preview">AB</span><script type="math/tex">AB</script></span> 也在该平面内。</li>
+<li>若点 $A,B$ 在一平面内，则直线 $AB$ 也在该平面内。</li>
 <li>若两个不重合的平面有公共点，则有且仅有一条过公共点的直线，称为平面和平面的交线。</li>
 </ol>
 <p>推论：</p>
@@ -47,7 +47,7 @@
 <p>我们认为直线是点的集合，平面亦如此。因此我们可以使用元素属于集合来表示点与直线、平面的关系，使用集合包含来表示直线与平面的关系。</p>
 </li>
 <li>
-<p>具体的，我们用大写字母表示点，如点 <span class="arithmatex"><span class="MathJax_Preview">A</span><script type="math/tex">A</script></span>；使用小写字母表示直线，如直线 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span>；使用小写希腊字母表示平面，如平面 <span class="arithmatex"><span class="MathJax_Preview">\alpha</span><script type="math/tex">\alpha</script></span>。则可以写出 <span class="arithmatex"><span class="MathJax_Preview">A\in a,a\notin A,a\subset\alpha,a\not\subset\alpha</span><script type="math/tex">A\in a,a\notin A,a\subset\alpha,a\not\subset\alpha</script></span>。</p>
+<p>具体的，我们用大写字母表示点，如点 $A$；使用小写字母表示直线，如直线 $a$；使用小写希腊字母表示平面，如平面 $\alpha$。则可以写出 $A\in a,a\notin A,a\subset\alpha,a\not\subset\alpha$。</p>
 </li>
 </ul>
 <p>平行关系：</p>
@@ -72,93 +72,53 @@
 <h3 id="_7">线面平行</h3>
 <p><strong>线面平行判定定理</strong>：平面外一直线与平面内一直线平行，则称该直线与平面平行。</p>
 <p>公式表达：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 (a\not\subset\alpha)(b\subset\alpha)(a\parallel b\implies a\parallel\alpha)
-</div>
-<script type="math/tex; mode=display">
-(a\not\subset\alpha)(b\subset\alpha)(a\parallel b\implies a\parallel\alpha)
-</script>
-</div>
+$$</p>
 <p><strong>线面平行性质定理</strong>：一条直线与一个平面平行，如果过该直线的一个平面与该平面相交，则该直线与两平面交线平行。</p>
 <p>公式表达：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 (a\parallel\alpha)(a\subset\beta)(\alpha\cap\beta=b\implies a\parallel b)
-</div>
-<script type="math/tex; mode=display">
-(a\parallel\alpha)(a\subset\beta)(\alpha\cap\beta=b\implies a\parallel b)
-</script>
-</div>
+$$</p>
 <h3 id="_8">面面平行</h3>
 <p><strong>面面平行判定定理</strong>：如果一个平面内的两条相交直线与另一个平面平行，那么这两个平面平行。</p>
 <p>公式表达：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 (a\parallel\alpha)(a\subset\beta)(b\parallel\alpha)(b\subset\beta)(a\cap b=P\implies\alpha\parallel\beta)
-</div>
-<script type="math/tex; mode=display">
-(a\parallel\alpha)(a\subset\beta)(b\parallel\alpha)(b\subset\beta)(a\cap b=P\implies\alpha\parallel\beta)
-</script>
-</div>
+$$</p>
 <p><strong>面面平行性质定理</strong>：两个平面平行，如果另一个平面与这两个平面相交，那么两条交线平行。</p>
 <p>公式表达：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 (\alpha\parallel\beta)(\gamma\cap\alpha=a,\gamma\cap\beta=b\implies a\parallel b)
-</div>
-<script type="math/tex; mode=display">
-(\alpha\parallel\beta)(\gamma\cap\alpha=a,\gamma\cap\beta=b\implies a\parallel b)
-</script>
-</div>
+$$</p>
 <h3 id="_9">线面垂直</h3>
 <p><strong>线面垂直判定定理</strong>：一条直线与一个平面垂直当且仅当它与平面中的每一条直线都垂直。</p>
 <p>在实际应用中，通常表述为：如果一条直线与一个平面内的两条相交直线垂直，那么该直线与此平面垂直。</p>
 <p>公式表达：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 (a\subset\alpha)(b\subset\alpha)(a\cap b\neq\varnothing)(\ell\bot a,\ell\bot b\implies\ell\bot\alpha)
-</div>
-<script type="math/tex; mode=display">
-(a\subset\alpha)(b\subset\alpha)(a\cap b\neq\varnothing)(\ell\bot a,\ell\bot b\implies\ell\bot\alpha)
-</script>
-</div>
+$$</p>
 <p>证明：根据平面向量基本定理，后面忘了。</p>
 <p><strong>线与面的夹角</strong>：从直线上的一点做面的垂线，连接垂足和直线与面的交点的直线与该直线的夹角为该线与面的夹角。</p>
 <p><strong>线面垂直性质定理</strong>：垂直于同一平面的两直线平行。</p>
 <p>公式表达：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a\bot\alpha,b\bot\alpha\implies a\parallel b
-</div>
-<script type="math/tex; mode=display">
-a\bot\alpha,b\bot\alpha\implies a\parallel b
-</script>
-</div>
+$$</p>
 <p><strong>线与面的距离</strong>：过平行于平面的直线上任意一点做这个平面的垂线，垂线段长度即为这条直线到这个平面的距离。</p>
 <p><strong>面与面的距离</strong>：平面内一条直线到另一平面的距离，即为两个平行平面之间的距离。</p>
 <h3 id="_10">面面垂直</h3>
-<p>设平面 <span class="arithmatex"><span class="MathJax_Preview">\alpha,\beta</span><script type="math/tex">\alpha,\beta</script></span> 交于直线 <span class="arithmatex"><span class="MathJax_Preview">AB</span><script type="math/tex">AB</script></span>，设 <span class="arithmatex"><span class="MathJax_Preview">P,Q</span><script type="math/tex">P,Q</script></span> 分别为 <span class="arithmatex"><span class="MathJax_Preview">\alpha,\beta</span><script type="math/tex">\alpha,\beta</script></span> 上的点，容易知道此时 <span class="arithmatex"><span class="MathJax_Preview">\alpha,\beta</span><script type="math/tex">\alpha,\beta</script></span> 都可以用这四个点来表示，因此我们记 <span class="arithmatex"><span class="MathJax_Preview">P-AB-Q</span><script type="math/tex">P-AB-Q</script></span> 表示（半）平面 <span class="arithmatex"><span class="MathJax_Preview">\alpha,\beta</span><script type="math/tex">\alpha,\beta</script></span> 的二面角。注意到我们只取了其中一个角，因此这是半平面的二面角。</p>
+<p>设平面 $\alpha,\beta$ 交于直线 $AB$，设 $P,Q$ 分别为 $\alpha,\beta$ 上的点，容易知道此时 $\alpha,\beta$ 都可以用这四个点来表示，因此我们记 $P-AB-Q$ 表示（半）平面 $\alpha,\beta$ 的二面角。注意到我们只取了其中一个角，因此这是半平面的二面角。</p>
 <p><strong>面面垂直判定定理</strong>：如果一个平面过另一个平面的垂线，那么这两个平面垂直。</p>
 <p>公式表达：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \ell\bot\alpha,\ell\subset\beta\implies\alpha\bot\beta
-</div>
-<script type="math/tex; mode=display">
-\ell\bot\alpha,\ell\subset\beta\implies\alpha\bot\beta
-</script>
-</div>
+$$</p>
 <p><strong>面面垂直性质定理</strong>：若两个平面垂直且一个平面内有一直线垂直于这两个平面的交线，那么这条直线与另一个平面垂直。</p>
 <p>公式表达：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \alpha\bot\beta,a=\alpha\cap\beta,\ell\subset\beta,\ell\bot a\implies\ell\bot\alpha
-</div>
-<script type="math/tex; mode=display">
-\alpha\bot\beta,a=\alpha\cap\beta,\ell\subset\beta,\ell\bot a\implies\ell\bot\alpha
-</script>
-</div>
+$$</p>
 <h2 id="_11">解题方法</h2>
 <h3 id="_12">定理概述</h3>
 <p>定理的理解：</p>

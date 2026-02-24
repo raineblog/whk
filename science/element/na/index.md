@@ -6,31 +6,13 @@
 
 - 碱金属大多为银白色固体（铯 Cs 略带金色）、密度小柔软、熔沸点低。
 
-- 按照从上到下，[]{.arithmatex}$\ce{Li,Na,K,Rb,Cs}$，熔沸点降低、密度增大（钾反常小），与氧气反应更加复杂。
+- 按照从上到下，\$\ce{Li,Na,K,Rb,Cs}\$，熔沸点降低、密度增大（钾反常小），与氧气反应更加复杂。
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{Li + O2 -\> LiO2}
-  :::
+  \$\$ \ce{Li + O2 -\> LiO2} \$\$
 
-  $$\ce{Li + O2 -> LiO2}$$
-  ::::
+  \$\$ \ce{Na + O2 -\> Na2O, Na2O2} \$\$
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{Na + O2 -\> Na2O, Na2O2}
-  :::
-
-  $$\ce{Na + O2 -> Na2O, Na2O2}$$
-  ::::
-
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{K + O2 -\> K2O, K2O2, KO2, KO3}
-  :::
-
-  $$\ce{K + O2 -> K2O, K2O2, KO2, KO3}$$
-  ::::
+  \$\$ \ce{K + O2 -\> K2O, K2O2, KO2, KO3} \$\$
 
 - 对应的碱，除了氢氧化锂外均为强碱，且碱性依次增强。
 
@@ -46,37 +28,19 @@
 
 ### 钠与氧气的反应 {#_6}
 
-- 常温：迅速被氧化为 []{.arithmatex}$\ce{Na2O}$，失去金属光泽。
+- 常温：迅速被氧化为 \$\ce{Na2O}\$，失去金属光泽。
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{4Na + O2 -\> 2Na2O}
-  :::
-
-  $$\ce{4Na + O2 -> 2Na2O}$$
-  ::::
+  \$\$ \ce{4Na + O2 -\> 2Na2O} \$\$
 
 - 加热：先熔化后燃烧，发出黄色火焰，生成淡黄色固体。
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{2Na + O2 -\> Na2O2}
-  :::
-
-  $$\ce{2Na + O2 -> Na2O2}$$
-  ::::
+  \$\$ \ce{2Na + O2 -\> Na2O2} \$\$
 
 - 钠着火后用沙土盖灭。
 
 ### 钠与水的反应 {#_7}
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\ce{Na + 2H2O -\> 2NaOH + H2 \^}
-:::
-
-$$\ce{Na + 2H2O -> 2NaOH + H2 ^}$$
-::::
+\$\$ \ce{Na + 2H2O -\> 2NaOH + H2 \^} \$\$
 
 |         现象         |        解释        |
 |:--------------------:|:------------------:|
@@ -90,8 +54,8 @@ $$\ce{Na + 2H2O -> 2NaOH + H2 ^}$$
 
 与非氧化性酸（e.g. HCl）发生反应：
 
-1.  []{.arithmatex}$\ce{2Na + 2HCl -> 2NaCl + H2 ^}$。
-2.  []{.arithmatex}$\ce{2Na + H2O -> 2NaOH + H2 ^}$。
+1.  \$\ce{2Na + 2HCl -\> 2NaCl + H2 \^}\$。
+2.  \$\ce{2Na + H2O -\> 2NaOH + H2 \^}\$。
 
 其中与强酸的反应一般比与水的更剧烈。
 
@@ -103,25 +67,13 @@ $$\ce{Na + 2H2O -> 2NaOH + H2 ^}$$
 
 2.  后发生碱和盐的反应。
 
-    :::: {.arithmatex}
-    ::: {.MathJax_Preview}
-    \ce{2Na + 2H2O + CuSO4 -\> H2 \^ + Na2SO4 + Cu(OH)2 v}
-    :::
-
-    $$\ce{2Na + 2H2O + CuSO4 -> H2 ^ + Na2SO4 + Cu(OH)2 v}$$
-    ::::
+    \$\$ \ce{2Na + 2H2O + CuSO4 -\> H2 \^ + Na2SO4 + Cu(OH)2 v} \$\$
 
 3.  现象：同时有气体和沉淀产生。
 
 与熔融盐盐发生置换反应：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\ce{2Na + CuSO4 -\> Cu + Na2SO4}
-:::
-
-$$\ce{2Na + CuSO4 -> Cu + Na2SO4}$$
-::::
+\$\$ \ce{2Na + CuSO4 -\> Cu + Na2SO4} \$\$
 
 ### 钠的应用 {#_10}
 
@@ -146,85 +98,56 @@ $$\ce{2Na + CuSO4 -> Cu + Na2SO4}$$
 
 作为碱性氧化物，与酸、水、酸性氧化物的反应：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} \ce{Na2O + 2HCl &-\> 2NaCl + H2O}\\ \ce{Na2O + H2O &-\> 2NaOH}\\ \ce{Na2O + CO2 &-\> Na2CO3} \end{aligned}
-:::
+\$\$ \begin{aligned} \ce{Na2O + 2HCl &-\> 2NaCl + H2O}\\ \ce{Na2O + H2O &-\> 2NaOH}\\ \ce{Na2O + CO2 &-\> Na2CO3} \end{aligned} \$\$
 
-$$\begin{aligned}
-\ce{Na2O + 2HCl &-> 2NaCl + H2O}\\
-\ce{Na2O + H2O &-> 2NaOH}\\
-\ce{Na2O + CO2 &-> Na2CO3}
-\end{aligned}$$
-::::
-
-同时存在 []{.arithmatex}$\ce{2Na2O + O2 -> 2Na2O2}$ 在加热条件下生成。
+同时存在 \$\ce{2Na2O + O2 -\> 2Na2O2}\$ 在加热条件下生成。
 
 ### 过氧化钠的性质 {#_13}
 
 类似氧化钠的：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} \ce{2Na2O2 + 4HCl &-\> 4NaCl + 2H2O + O2}\\ \ce{2Na2O2 + 2H2O &-\> 4NaOH + O2}\\ \ce{2Na2O2 + 2CO2 &-\> 2Na2CO3 + O2} \end{aligned}
-:::
-
-$$\begin{aligned}
-\ce{2Na2O2 + 4HCl &-> 4NaCl + 2H2O + O2}\\
-\ce{2Na2O2 + 2H2O &-> 4NaOH + O2}\\
-\ce{2Na2O2 + 2CO2 &-> 2Na2CO3 + O2}
-\end{aligned}$$
-::::
+\$\$ \begin{aligned} \ce{2Na2O2 + 4HCl &-\> 4NaCl + 2H2O + O2}\\ \ce{2Na2O2 + 2H2O &-\> 4NaOH + O2}\\ \ce{2Na2O2 + 2CO2 &-\> 2Na2CO3 + O2} \end{aligned} \$\$
 
 可以进行氧气供给。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} \ce{Na2O2 + SO2 &-\> NaSO4}\\ \ce{Na2O2 + SO3 &-\> NaSO4 + O2} \end{aligned}
-:::
-
-$$\begin{aligned}
-\ce{Na2O2 + SO2 &-> NaSO4}\\
-\ce{Na2O2 + SO3 &-> NaSO4 + O2}
-\end{aligned}$$
-::::
+\$\$ \begin{aligned} \ce{Na2O2 + SO2 &-\> NaSO4}\\ \ce{Na2O2 + SO3 &-\> NaSO4 + O2} \end{aligned} \$\$
 
 这是因为其具有强氧化性，另外其还具有漂白性，可以用于杀菌消毒。
 
 ### 钠的氧化物题型 {#_14}
 
-关于 []{.arithmatex}$\ce{Na2O2}$ 的增重：
+关于 \$\ce{Na2O2}\$ 的增重：
 
-- []{.arithmatex}$\ce{Na2O2}$ 与 []{.arithmatex}$\ce{H2O}$ 反应，相当于增加了 []{.arithmatex}$\ce{H2}$ 的重量。
-- []{.arithmatex}$\ce{Na2O2}$ 与 []{.arithmatex}$\ce{CO2}$ 反应，相当于增加了 []{.arithmatex}$\ce{CO}$ 的重量。
+- \$\ce{Na2O2}\$ 与 \$\ce{H2O}\$ 反应，相当于增加了 \$\ce{H2}\$ 的重量。
+- \$\ce{Na2O2}\$ 与 \$\ce{CO2}\$ 反应，相当于增加了 \$\ce{CO}\$ 的重量。
 
-因此：[]{.arithmatex}$a\pu g$ 的 []{.arithmatex}$\ce{H2,CO}$ 混合气体与足量氧气点燃，生成的气体通过足量过氧化钠，增重 []{.arithmatex}$a\pu g$。
+因此：\$a\pu g\$ 的 \$\ce{H2,CO}\$ 混合气体与足量氧气点燃，生成的气体通过足量过氧化钠，增重 \$a\pu g\$。
 
-|                | []{.arithmatex}$\ce{Na2O}$ |   []{.arithmatex}$\ce{Na2O2}$    |
-|:--------------:|:--------------------------:|:--------------------------------:|
-|      颜色      |            白色            |              淡黄色              |
-|   氧的化合价   |    []{.arithmatex}$-2$     |       []{.arithmatex}$-1$        |
-| 阴阳离子个数比 |    []{.arithmatex}$1:2$    | []{.arithmatex}$1:2(\ce{O2^2-})$ |
-|     稳定性     |           不稳定           |              较稳定              |
+|                | \$\ce{Na2O}\$ |    \$\ce{Na2O2}\$    |
+|:--------------:|:-------------:|:--------------------:|
+|      颜色      |     白色      |        淡黄色        |
+|   氧的化合价   |    \$-2\$     |        \$-1\$        |
+| 阴阳离子个数比 |    \$1:2\$    | \$1:2(\ce{O2\^2-})\$ |
+|     稳定性     |    不稳定     |        较稳定        |
 
-钠单质长期暴露在空气中，会变为 []{.arithmatex}$\ce{Na2CO3}$ 固体。
+钠单质长期暴露在空气中，会变为 \$\ce{Na2CO3}\$ 固体。
 
 ## 钠的碳酸（氢）盐 {#_15}
 
 ### 套管实验 {#_16}
 
-理论：[]{.arithmatex}$\ce{Na2CO3}$ 比 []{.arithmatex}$\ce{NaHCO3}$ 更碱、更溶、更稳定。
+理论：\$\ce{Na2CO3}\$ 比 \$\ce{NaHCO3}\$ 更碱、更溶、更稳定。
 
 ![套管实验](../%E5%A5%97%E7%AE%A1%E5%AE%9E%E9%AA%8C.avif){width="50%"}
 
-- 外层：[]{.arithmatex}$\ce{Na2CO3}$，无明显现象。
-- 内层：[]{.arithmatex}$\ce{NaHCO3}$，塞蘸有无水硫酸铜的棉花，插入澄清石灰水中。
+- 外层：\$\ce{Na2CO3}\$，无明显现象。
+- 内层：\$\ce{NaHCO3}\$，塞蘸有无水硫酸铜的棉花，插入澄清石灰水中。
 
-类似的结论有 []{.arithmatex}$\ce{OH- + HCO3+ -> H2O + CO3^2-}$。
+类似的结论有 \$\ce{OH- + HCO3+ -\> H2O + CO3\^2-}\$。
 
 ### 半径法 {#_17}
 
-1.  向 []{.arithmatex}$\ce{NaOH}$ 溶液中通入二氧化碳。
+1.  向 \$\ce{NaOH}\$ 溶液中通入二氧化碳。
 2.  向得到的溶液中加入稀盐酸，记录二氧化碳产生量与加入盐酸的量的折线图。
 
 从折点开始画圆，半径为左右较小的长度，圆内平阶段发生碳酸钠的反应，前发生氢氧化钠的反应。
@@ -233,48 +156,36 @@ $$\begin{aligned}
 
 氨碱法（索尔维制碱法）：
 
-- 原料：食盐 []{.arithmatex}$\ce{NaCl}$、石灰石 []{.arithmatex}$\ce{CaCO3}$。
+- 原料：食盐 \$\ce{NaCl}\$、石灰石 \$\ce{CaCO3}\$。
 
-- 媒介：[]{.arithmatex}$\ce{NH3}$。
+- 媒介：\$\ce{NH3}\$。
 
 - 流程：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{饱和食盐水 -\>\[NH3\] 饱和氨盐水 -\>\[CO2\] 碳酸氢钠 -\>\[过滤\] -\>\[加热\] 碳酸钠}
-  :::
-
-  $$\ce{饱和食盐水 ->[NH3] 饱和氨盐水 ->[CO2] 碳酸氢钠 ->[过滤] ->[加热] 碳酸钠}$$
-  ::::
+  \$\$ \ce{饱和食盐水 -\>\[NH3\] 饱和氨盐水 -\>\[CO2\] 碳酸氢钠 -\>\[过滤\] -\>\[加热\] 碳酸钠} \$\$
 
 - 化学方程式：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{NaCl + NH3 + CO2 + H2O -\> NH4Cl + NaHCO3}
-  :::
-
-  $$\ce{NaCl + NH3 + CO2 + H2O -> NH4Cl + NaHCO3}$$
-  ::::
+  \$\$ \ce{NaCl + NH3 + CO2 + H2O -\> NH4Cl + NaHCO3} \$\$
 
 经典问题：
 
 - 氨气使溶液具有碱性，可以吸收更多的二氧化碳。
 
-- 相同温度下，[]{.arithmatex}$\ce{NaHCO3}$ 溶解度小于 []{.arithmatex}$\ce{NH4Cl}$，先析出。
+- 相同温度下，\$\ce{NaHCO3}\$ 溶解度小于 \$\ce{NH4Cl}\$，先析出。
 
-- []{.arithmatex}$\ce{NaHCO3}$ 的相对分子质量大于 []{.arithmatex}$\ce{NH4Cl}$，先达到饱和。
+- \$\ce{NaHCO3}\$ 的相对分子质量大于 \$\ce{NH4Cl}\$，先达到饱和。
 
 工业流程：
 
-- 循环使用 []{.arithmatex}$\ce{NaHCO3}$ 分解产生的氨气。
+- 循环使用 \$\ce{NaHCO3}\$ 分解产生的氨气。
 
-- 使用碳酸钙制取 []{.arithmatex}$\ce{Ca(OH)2}$ 与 []{.arithmatex}$\ce{NH4Cl}$ 反应，循环利用氨气。
+- 使用碳酸钙制取 \$\ce{Ca(OH)2}\$ 与 \$\ce{NH4Cl}\$ 反应，循环利用氨气。
 
-- 缺点：产生 []{.arithmatex}$\ce{CaCl2}$ 无用物质，[]{.arithmatex}$\ce{NaCl}$ 利用率低。
+- 缺点：产生 \$\ce{CaCl2}\$ 无用物质，\$\ce{NaCl}\$ 利用率低。
 
 联合制减法（侯氏制碱法）：
 
 - 氨厂与碱厂联合：碱厂直接利用氨厂产出的氨气和二氧化碳。
 
-- 中国农业化肥需求量大，[]{.arithmatex}$\ce{NH4Cl}$ 直接作为化肥生产，无 []{.arithmatex}$\ce{CaCl2}$ 污染。
+- 中国农业化肥需求量大，\$\ce{NH4Cl}\$ 直接作为化肥生产，无 \$\ce{CaCl2}\$ 污染。

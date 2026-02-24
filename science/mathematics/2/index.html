@@ -28,20 +28,20 @@
 <p>子集与空集：</p>
 <ul>
 <li>
-<p>子集：<span class="arithmatex"><span class="MathJax_Preview">A \subseteq B</span><script type="math/tex">A \subseteq B</script></span> 或 <span class="arithmatex"><span class="MathJax_Preview">B \supseteq A</span><script type="math/tex">B \supseteq A</script></span>，表示 <span class="arithmatex"><span class="MathJax_Preview">A</span><script type="math/tex">A</script></span> 中的任意元素都属于 <span class="arithmatex"><span class="MathJax_Preview">B</span><script type="math/tex">B</script></span></p>
-<p><span class="arithmatex"><span class="MathJax_Preview">A \subseteq A, \varnothing \subseteq A</span><script type="math/tex">A \subseteq A, \varnothing \subseteq A</script></span></p>
-<p><span class="arithmatex"><span class="MathJax_Preview">A \subseteq B</span><script type="math/tex">A \subseteq B</script></span> 且 <span class="arithmatex"><span class="MathJax_Preview">B \subseteq C \implies A \subseteq C</span><script type="math/tex">B \subseteq C \implies A \subseteq C</script></span></p>
-<p><span class="arithmatex"><span class="MathJax_Preview">A \subseteq B</span><script type="math/tex">A \subseteq B</script></span> 且 <span class="arithmatex"><span class="MathJax_Preview">B \subseteq A \implies A=B</span><script type="math/tex">B \subseteq A \implies A=B</script></span></p>
+<p>子集：$A \subseteq B$ 或 $B \supseteq A$，表示 $A$ 中的任意元素都属于 $B$</p>
+<p>$A \subseteq A, \varnothing \subseteq A$</p>
+<p>$A \subseteq B$ 且 $B \subseteq C \implies A \subseteq C$</p>
+<p>$A \subseteq B$ 且 $B \subseteq A \implies A=B$</p>
 </li>
 <li>
-<p>真子集：<span class="arithmatex"><span class="MathJax_Preview">A \subsetneqq B</span><script type="math/tex">A \subsetneqq B</script></span> 或 <span class="arithmatex"><span class="MathJax_Preview">B \supsetneqq A</span><script type="math/tex">B \supsetneqq A</script></span>，表示 <span class="arithmatex"><span class="MathJax_Preview">A \subseteq B</span><script type="math/tex">A \subseteq B</script></span> 且 <span class="arithmatex"><span class="MathJax_Preview">B</span><script type="math/tex">B</script></span> 中至少有一元素不属于 <span class="arithmatex"><span class="MathJax_Preview">A</span><script type="math/tex">A</script></span></p>
-<p><span class="arithmatex"><span class="MathJax_Preview">A \subsetneqq B</span><script type="math/tex">A \subsetneqq B</script></span> 且 <span class="arithmatex"><span class="MathJax_Preview">B \subsetneqq C \implies A \subsetneqq C</span><script type="math/tex">B \subsetneqq C \implies A \subsetneqq C</script></span></p>
+<p>真子集：$A \subsetneqq B$ 或 $B \supsetneqq A$，表示 $A \subseteq B$ 且 $B$ 中至少有一元素不属于 $A$</p>
+<p>$A \subsetneqq B$ 且 $B \subsetneqq C \implies A \subsetneqq C$</p>
 </li>
 <li>
-<p>空集（<span class="arithmatex"><span class="MathJax_Preview">\varnothing</span><script type="math/tex">\varnothing</script></span>）是任何集合的子集，是任何非空集合的真子集。</p>
+<p>空集（$\varnothing$）是任何集合的子集，是任何非空集合的真子集。</p>
 </li>
 <li>
-<p>有 <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 个元素的集合，有 <span class="arithmatex"><span class="MathJax_Preview">2^n</span><script type="math/tex">2^n</script></span> 个子集，<span class="arithmatex"><span class="MathJax_Preview">2^n-1</span><script type="math/tex">2^n-1</script></span> 个真子集，<span class="arithmatex"><span class="MathJax_Preview">2^n-1</span><script type="math/tex">2^n-1</script></span> 个非空子集，<span class="arithmatex"><span class="MathJax_Preview">2^n-2</span><script type="math/tex">2^n-2</script></span> 个非空真子集。</p>
+<p>有 $n$ 个元素的集合，有 $2^n$ 个子集，$2^n-1$ 个真子集，$2^n-1$ 个非空子集，$2^n-2$ 个非空真子集。</p>
 </li>
 <li>
 <p>空集只有一个子集，没有真子集、非空子集、非空真子集。</p>
@@ -50,140 +50,85 @@
 <p>集合的表示：</p>
 <ul>
 <li>
-<p>列举法：<span class="arithmatex"><span class="MathJax_Preview">\{a,b\}</span><script type="math/tex">\{a,b\}</script></span>（<span class="arithmatex"><span class="MathJax_Preview">a\neq b</span><script type="math/tex">a\neq b</script></span>）。</p>
+<p>列举法：${a,b}$（$a\neq b$）。</p>
 </li>
 <li>
-<p>描述法：<span class="arithmatex"><span class="MathJax_Preview">\{x\mid x=f(t), p(t)\}</span><script type="math/tex">\{x\mid x=f(t), p(t)\}</script></span>。</p>
+<p>描述法：${x\mid x=f(t), p(t)}$。</p>
 </li>
 <li>
-<p>符号法：<span class="arithmatex"><span class="MathJax_Preview">\R</span><script type="math/tex">\R</script></span> 实数集，<span class="arithmatex"><span class="MathJax_Preview">\C</span><script type="math/tex">\C</script></span> 复数集，<span class="arithmatex"><span class="MathJax_Preview">\Q</span><script type="math/tex">\Q</script></span> 有理数集，<span class="arithmatex"><span class="MathJax_Preview">\N</span><script type="math/tex">\N</script></span> 自然数集，<span class="arithmatex"><span class="MathJax_Preview">\Z</span><script type="math/tex">\Z</script></span> 整数集，<span class="arithmatex"><span class="MathJax_Preview">\P</span><script type="math/tex">\P</script></span> 质数集。右上角加星号（<span class="arithmatex"><span class="MathJax_Preview">*</span><script type="math/tex">*</script></span>）表示去零，右下角加正、负号表示取正、负。</p>
+<p>符号法：$\R$ 实数集，$\C$ 复数集，$\Q$ 有理数集，$\N$ 自然数集，$\Z$ 整数集，$\P$ 质数集。右上角加星号（$*$）表示去零，右下角加正、负号表示取正、负。</p>
 </li>
 <li>
 <p>图示法：Venn（维恩）图。</p>
 </li>
 </ul>
 <h3 id="_4">集合的运算</h3>
-<p>表示某一元素属于某个集合时，用 <span class="arithmatex"><span class="MathJax_Preview">\in</span><script type="math/tex">\in</script></span>，例如 <span class="arithmatex"><span class="MathJax_Preview">1 \in \{1, 2, 3\}</span><script type="math/tex">1 \in \{1, 2, 3\}</script></span>。若不属于则用 <span class="arithmatex"><span class="MathJax_Preview">\notin</span><script type="math/tex">\notin</script></span>。</p>
+<p>表示某一元素属于某个集合时，用 $\in$，例如 $1 \in {1, 2, 3}$。若不属于则用 $\notin$。</p>
 <ol>
 <li>
-<p>并集：<span class="arithmatex"><span class="MathJax_Preview">A = \{2, 3, 4\}, B = \{1, 2, 3\}, A \cup B = \{1, 2, 3, 4\}</span><script type="math/tex">A = \{2, 3, 4\}, B = \{1, 2, 3\}, A \cup B = \{1, 2, 3, 4\}</script></span>。</p>
+<p>并集：$A = {2, 3, 4}, B = {1, 2, 3}, A \cup B = {1, 2, 3, 4}$。</p>
 </li>
 <li>
-<p>交集：<span class="arithmatex"><span class="MathJax_Preview">A = \{2, 3, 4\}, B = \{1, 2, 3\}, A \cap B = \{2, 3\}</span><script type="math/tex">A = \{2, 3, 4\}, B = \{1, 2, 3\}, A \cap B = \{2, 3\}</script></span>。</p>
+<p>交集：$A = {2, 3, 4}, B = {1, 2, 3}, A \cap B = {2, 3}$。</p>
 </li>
 <li>
-<p>补集：<span class="arithmatex"><span class="MathJax_Preview">U = \{1, 2, 3\}, A \subseteq U</span><script type="math/tex">U = \{1, 2, 3\}, A \subseteq U</script></span>, 若 <span class="arithmatex"><span class="MathJax_Preview">A = \{1\}</span><script type="math/tex">A = \{1\}</script></span>, 则 <span class="arithmatex"><span class="MathJax_Preview">\complement_U A = \{2, 3\}</span><script type="math/tex">\complement_U A = \{2, 3\}</script></span>。</p>
+<p>补集：$U = {1, 2, 3}, A \subseteq U$, 若 $A = {1}$, 则 $\complement_U A = {2, 3}$。</p>
 </li>
 </ol>
 <p>交换律：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 A \cap B = B \cap A, A \cup B = B \cup A
-</div>
-<script type="math/tex; mode=display">
-A \cap B = B \cap A, A \cup B = B \cup A
-</script>
-</div>
+$$</p>
 <p>结合律：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 A \cup (B \cup C) = (A \cup B) \cup C, A \cap (B \cap C) = (A \cap B) \cap C
-</div>
-<script type="math/tex; mode=display">
-A \cup (B \cup C) = (A \cup B) \cup C, A \cap (B \cap C) = (A \cap B) \cap C
-</script>
-</div>
+$$</p>
 <p>分配对偶律：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 A \cap (B \cup C) = (A \cap B) \cup (A \cap C), A \cup (B \cap C) = (A \cup B) \cap (A \cup C)
-</div>
-<script type="math/tex; mode=display">
-A \cap (B \cup C) = (A \cap B) \cup (A \cap C), A \cup (B \cap C) = (A \cup B) \cap (A \cup C)
-</script>
-</div>
+$$</p>
 <p>德摩根定律：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \complement_U(A\cap B)=(\complement_UA)\cup(\complement_UB)
-</div>
-<script type="math/tex; mode=display">
-\complement_U(A\cap B)=(\complement_UA)\cup(\complement_UB)
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \complement_U(A\cup B)=(\complement_UA)\cap(\complement_UB)
-</div>
-<script type="math/tex; mode=display">
-\complement_U(A\cup B)=(\complement_UA)\cap(\complement_UB)
-</script>
-</div>
+$$</p>
 <p>推广到多个集合中：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \complement_U(A_1 \cap A_2 \cap \cdots \cap A_n) = (\complement_U A_1) \cup (\complement_U A_2) \cup \cdots \cup (\complement_U A_n)
-</div>
-<script type="math/tex; mode=display">
-\complement_U(A_1 \cap A_2 \cap \cdots \cap A_n) = (\complement_U A_1) \cup (\complement_U A_2) \cup \cdots \cup (\complement_U A_n)
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \complement_U(A_1 \cup A_2 \cup \cdots \cup A_n) = (\complement_U A_1) \cap (\complement_U A_2) \cap \cdots \cap (\complement_U A_n)
-</div>
-<script type="math/tex; mode=display">
-\complement_U(A_1 \cup A_2 \cup \cdots \cup A_n) = (\complement_U A_1) \cap (\complement_U A_2) \cap \cdots \cap (\complement_U A_n)
-</script>
-</div>
+$$</p>
 <p>容斥原理：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 |A\cup B|=|A|+|B|-|A\cap B|
-</div>
-<script type="math/tex; mode=display">
-|A\cup B|=|A|+|B|-|A\cap B|
-</script>
-</div>
+$$</p>
 <p>等价转化：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 A\cup B=B \iff A\subseteq  B
-</div>
-<script type="math/tex; mode=display">
-A\cup B=B \iff A\subseteq  B
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 A\cap B=A \iff A\subseteq B
-</div>
-<script type="math/tex; mode=display">
-A\cap B=A \iff A\subseteq B
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 A\cup B=A\cap B \iff A=B
-</div>
-<script type="math/tex; mode=display">
-A\cup B=A\cap B \iff A=B
-</script>
-</div>
+$$</p>
 <h3 id="_5">命题与量词</h3>
 <p>命题：</p>
 <ul>
 <li>
-<p>原命题：若 <span class="arithmatex"><span class="MathJax_Preview">p</span><script type="math/tex">p</script></span> 则 <span class="arithmatex"><span class="MathJax_Preview">q</span><script type="math/tex">q</script></span>。</p>
+<p>原命题：若 $p$ 则 $q$。</p>
 </li>
 <li>
-<p>逆命题：若 <span class="arithmatex"><span class="MathJax_Preview">q</span><script type="math/tex">q</script></span> 则 <span class="arithmatex"><span class="MathJax_Preview">p</span><script type="math/tex">p</script></span>。</p>
+<p>逆命题：若 $q$ 则 $p$。</p>
 </li>
 <li>
-<p>否命题：若非 <span class="arithmatex"><span class="MathJax_Preview">p</span><script type="math/tex">p</script></span> 则非 <span class="arithmatex"><span class="MathJax_Preview">q</span><script type="math/tex">q</script></span>。</p>
+<p>否命题：若非 $p$ 则非 $q$。</p>
 </li>
 <li>
-<p>逆否命题：若非 <span class="arithmatex"><span class="MathJax_Preview">q</span><script type="math/tex">q</script></span> 则非 <span class="arithmatex"><span class="MathJax_Preview">p</span><script type="math/tex">p</script></span>。</p>
+<p>逆否命题：若非 $q$ 则非 $p$。</p>
 </li>
 </ul>
 <p>容易知道，原命题与逆否命题同真同假，互为充要条件。</p>
@@ -198,13 +143,13 @@ A\cup B=A\cap B \iff A=B
 <tbody>
 <tr>
 <td style="text-align: center;">全称量词</td>
-<td style="text-align: center;"><span class="arithmatex"><span class="MathJax_Preview">\forall x\in M,p(x)</span><script type="math/tex">\forall x\in M,p(x)</script></span></td>
-<td style="text-align: center;"><span class="arithmatex"><span class="MathJax_Preview">\exist x\in M,\neg p(x)</span><script type="math/tex">\exist x\in M,\neg p(x)</script></span></td>
+<td style="text-align: center;">$\forall x\in M,p(x)$</td>
+<td style="text-align: center;">$\exist x\in M,\neg p(x)$</td>
 </tr>
 <tr>
 <td style="text-align: center;">存在量词</td>
-<td style="text-align: center;"><span class="arithmatex"><span class="MathJax_Preview">\exist x\in M,p(x)</span><script type="math/tex">\exist x\in M,p(x)</script></span></td>
-<td style="text-align: center;"><span class="arithmatex"><span class="MathJax_Preview">\forall x\in M,\neg p(x)</span><script type="math/tex">\forall x\in M,\neg p(x)</script></span></td>
+<td style="text-align: center;">$\exist x\in M,p(x)$</td>
+<td style="text-align: center;">$\forall x\in M,\neg p(x)$</td>
 </tr>
 </tbody>
 </table>

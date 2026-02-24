@@ -4,80 +4,65 @@
   <h1 id="_1">线性规划</h1>
 <p><img alt="alt text" src="../image-24.avif" /></p>
 <h2 id="1">例题 1</h2>
-<div class="arithmatex">
-<div class="MathJax_Preview">\begin{cases}5x-11y \geq -22 \\ 2x+3y \geq 9 \\ 2x \leq 11\end{cases}</div>
-<script type="math/tex; mode=display">\begin{cases}5x-11y \geq -22 \\ 2x+3y \geq 9 \\ 2x \leq 11\end{cases}</script>
-</div>
+<p>$$\begin{cases}5x-11y \geq -22 \ 2x+3y \geq 9 \ 2x \leq 11\end{cases}$$</p>
 <p>$z = 10x + 10y, \max{z} = $ ？</p>
 <h3 id="_2">基本概念</h3>
 <ol>
-<li>约束条件：变量 <span class="arithmatex"><span class="MathJax_Preview">x,y,\dots</span><script type="math/tex">x,y,\dots</script></span> 满足的一组条件，上述二元一次不等式组就是对 <span class="arithmatex"><span class="MathJax_Preview">x,y</span><script type="math/tex">x,y</script></span> 的约束条件。</li>
-<li>线性约束条件：由变量 <span class="arithmatex"><span class="MathJax_Preview">x,y,\dots</span><script type="math/tex">x,y,\dots</script></span> 的一次不等式 / 方程组成的不等式组就称为线性约束条件，如上述二元一次不等式。</li>
-<li>目标函数：欲求最大值或最小值所涉及的变量 <span class="arithmatex"><span class="MathJax_Preview">x,y,\dots</span><script type="math/tex">x,y,\dots</script></span> 的解析式，如上述 <span class="arithmatex"><span class="MathJax_Preview">z</span><script type="math/tex">z</script></span>.</li>
-<li>线性目标函数：目标函数关于变量 <span class="arithmatex"><span class="MathJax_Preview">x,y,\dots</span><script type="math/tex">x,y,\dots</script></span> 的一次解析式，如上述 <span class="arithmatex"><span class="MathJax_Preview">z</span><script type="math/tex">z</script></span>.</li>
+<li>约束条件：变量 $x,y,\dots$ 满足的一组条件，上述二元一次不等式组就是对 $x,y$ 的约束条件。</li>
+<li>线性约束条件：由变量 $x,y,\dots$ 的一次不等式 / 方程组成的不等式组就称为线性约束条件，如上述二元一次不等式。</li>
+<li>目标函数：欲求最大值或最小值所涉及的变量 $x,y,\dots$ 的解析式，如上述 $z$.</li>
+<li>线性目标函数：目标函数关于变量 $x,y,\dots$ 的一次解析式，如上述 $z$.</li>
 <li>线性规划问题：在线性约束条件下求线性目标函数的问题。</li>
-<li>可行解：满足线性约束条件的解 <span class="arithmatex"><span class="MathJax_Preview">(x,y)</span><script type="math/tex">(x,y)</script></span>.</li>
+<li>可行解：满足线性约束条件的解 $(x,y)$.</li>
 <li>可行域：由所有可行解组成的集合。</li>
-<li>最优解：使目标函数取得 <span class="arithmatex"><span class="MathJax_Preview">\max</span><script type="math/tex">\max</script></span> 或 <span class="arithmatex"><span class="MathJax_Preview">\min</span><script type="math/tex">\min</script></span> 的可行解。</li>
+<li>最优解：使目标函数取得 $\max$ 或 $\min$ 的可行解。</li>
 </ol>
 <h3 id="_3">解法</h3>
 <ol>
 <li>画图，数形结合。</li>
 </ol>
-<p>$<span class="arithmatex"><span class="MathJax_Preview">\begin{cases}5x-11y \geq -22 &amp; \displaystyle \implies y \leq \frac{5}{11}x + \frac{1}{2} &amp; \implies &amp; \displaystyle y = \frac{5}{11}x + \frac{1}{2}\ 图像的下边 \\ 2x+3y \geq 9 &amp; \displaystyle \implies y \geq -\frac{2}{3}x + 3 &amp; \implies &amp; \displaystyle y = -\frac{2}{3}x + 3\ 图像的上边 \\ 2x \leq 11 &amp; \displaystyle \implies x \leq \frac{11}{2} &amp; \implies &amp; \displaystyle x=\frac{11}{2}\ 图像的左边 \end{cases}</span><script type="math/tex">\begin{cases}5x-11y \geq -22 & \displaystyle \implies y \leq \frac{5}{11}x + \frac{1}{2} & \implies & \displaystyle y = \frac{5}{11}x + \frac{1}{2}\ 图像的下边 \\ 2x+3y \geq 9 & \displaystyle \implies y \geq -\frac{2}{3}x + 3 & \implies & \displaystyle y = -\frac{2}{3}x + 3\ 图像的上边 \\ 2x \leq 11 & \displaystyle \implies x \leq \frac{11}{2} & \implies & \displaystyle x=\frac{11}{2}\ 图像的左边 \end{cases}</script></span>$</p>
-<p>在平面直角坐标系上画出对应的平面区域（可行域），再把目标函数 <span class="arithmatex"><span class="MathJax_Preview">z=ax+by</span><script type="math/tex">z=ax+by</script></span> 变形为 <span class="arithmatex"><span class="MathJax_Preview">\displaystyle y=-\frac{a}{b}x + \frac{z}{b}</span><script type="math/tex">\displaystyle y=-\frac{a}{b}x + \frac{z}{b}</script></span>，<span class="arithmatex"><span class="MathJax_Preview">\\</span><script type="math/tex">\\</script></span> 所以求 <span class="arithmatex"><span class="MathJax_Preview">z</span><script type="math/tex">z</script></span> 的最值可看成是求直线 <span class="arithmatex"><span class="MathJax_Preview">\displaystyle y=-\frac{a}{b}x + \frac{z}{b}</span><script type="math/tex">\displaystyle y=-\frac{a}{b}x + \frac{z}{b}</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">y</span><script type="math/tex">y</script></span> 轴上截距的最值。以这题为例，<span class="arithmatex"><span class="MathJax_Preview">\displaystyle z=10x+10y \implies y= -x + \frac{z}{10}</span><script type="math/tex">\displaystyle z=10x+10y \implies y= -x + \frac{z}{10}</script></span> 容易证明，当 <span class="arithmatex"><span class="MathJax_Preview">z=85</span><script type="math/tex">z=85</script></span> 时 <span class="arithmatex"><span class="MathJax_Preview">y</span><script type="math/tex">y</script></span> 轴上截距取最值，所以 <span class="arithmatex"><span class="MathJax_Preview">\max{z}=85.</span><script type="math/tex">\max{z}=85.</script></span></p>
+<p>$$\begin{cases}5x-11y \geq -22 &amp; \displaystyle \implies y \leq \frac{5}{11}x + \frac{1}{2} &amp; \implies &amp; \displaystyle y = \frac{5}{11}x + \frac{1}{2} 图像的下边 \ 2x+3y \geq 9 &amp; \displaystyle \implies y \geq -\frac{2}{3}x + 3 &amp; \implies &amp; \displaystyle y = -\frac{2}{3}x + 3 图像的上边 \ 2x \leq 11 &amp; \displaystyle \implies x \leq \frac{11}{2} &amp; \implies &amp; \displaystyle x=\frac{11}{2} 图像的左边 \end{cases}$$</p>
+<p>在平面直角坐标系上画出对应的平面区域（可行域），再把目标函数 $z=ax+by$ 变形为 $\displaystyle y=-\frac{a}{b}x + \frac{z}{b}$，$\$ 所以求 $z$ 的最值可看成是求直线 $\displaystyle y=-\frac{a}{b}x + \frac{z}{b}$ 在 $y$ 轴上截距的最值。以这题为例，$\displaystyle z=10x+10y \implies y= -x + \frac{z}{10}$ 容易证明，当 $z=85$ 时 $y$ 轴上截距取最值，所以 $\max{z}=85.$</p>
 <p><img alt="" src="https://cdn.luogu.com.cn/upload/image_hosting/4tjm317j.png" /></p>
 <ol>
 <li>仔细观察，可以发现最优解非常容易出现在可行域构成的<strong>多面体的顶点</strong>处。</li>
 </ol>
 <h3 id="2">例题 2</h3>
-<div class="arithmatex">
-<div class="MathJax_Preview">\begin{cases}y \geq x \\ x + y \leq 2 \\ x \geq a\end{cases}</div>
-<script type="math/tex; mode=display">\begin{cases}y \geq x \\ x + y \leq 2 \\ x \geq a\end{cases}</script>
-</div>
+<p>$$\begin{cases}y \geq x \ x + y \leq 2 \ x \geq a\end{cases}$$</p>
 <p>$(2x+y)<em _mathrm_min="\mathrm{min">{\mathrm{max}}=4(2x+y)</em>, a= $ ?}</p>
 <ul>
 <li>
-<p>求 <span class="arithmatex"><span class="MathJax_Preview">(2x+y)_{\mathrm{min}}</span><script type="math/tex">(2x+y)_{\mathrm{min}}</script></span>：<span class="arithmatex"><span class="MathJax_Preview">x_{\min}=a \implies y_{\min}=a \implies (2x+y)_{\mathrm{min}}=3a</span><script type="math/tex">x_{\min}=a \implies y_{\min}=a \implies (2x+y)_{\mathrm{min}}=3a</script></span></p>
+<p>求 $(2x+y)<em _min="\min">{\mathrm{min}}$：$x</em>=3a$}=a \implies y_{\min}=a \implies (2x+y)_{\mathrm{min}</p>
 </li>
 <li>
-<p>求 <span class="arithmatex"><span class="MathJax_Preview">(2x+y)_{\mathrm{max}}</span><script type="math/tex">(2x+y)_{\mathrm{max}}</script></span>：<span class="arithmatex"><span class="MathJax_Preview">\begin{cases}x-y\leq 0 \\ x+y\leq 2\end{cases}\xRightarrow{\mathrm{Add\ }} x\leq 1\implies y\leq 1\implies (2x+y)_{\mathrm{max}}=3</span><script type="math/tex">\begin{cases}x-y\leq 0 \\ x+y\leq 2\end{cases}\xRightarrow{\mathrm{Add\ }} x\leq 1\implies y\leq 1\implies (2x+y)_{\mathrm{max}}=3</script></span></p>
+<p>求 $(2x+y)<em _mathrm_max="\mathrm{max">{\mathrm{max}}$：$\begin{cases}x-y\leq 0 \ x+y\leq 2\end{cases}\xRightarrow{\mathrm{Add }} x\leq 1\implies y\leq 1\implies (2x+y)</em>=3$}</p>
 </li>
 <li>
-<p><span class="arithmatex"><span class="MathJax_Preview">\displaystyle 3=4\times 3a\implies a=\frac{1}{4}</span><script type="math/tex">\displaystyle 3=4\times 3a\implies a=\frac{1}{4}</script></span></p>
+<p>$\displaystyle 3=4\times 3a\implies a=\frac{1}{4}$</p>
 </li>
 </ul>
 <h3 id="32024-t14">例题 3（2024 九省联考 T14）</h3>
-<div class="arithmatex">
-<div class="MathJax_Preview">\begin{cases} 0&lt;a&lt;b&lt;c&lt;1 \\ b\geq 2a \ \ \ \mathrm{or}\ \ \ a+b\leq 1 \end{cases}</div>
-<script type="math/tex; mode=display">\begin{cases} 0<a<b<c<1 \\ b\geq 2a \ \ \ \mathrm{or}\ \ \ a+b\leq 1 \end{cases}</script>
-</div>
-<p><span class="arithmatex"><span class="MathJax_Preview">\max{\set{b-a,c-b,1-c}}</span><script type="math/tex">\max{\set{b-a,c-b,1-c}}</script></span> 的最小值 <span class="arithmatex"><span class="MathJax_Preview">=</span><script type="math/tex">=</script></span> ？</p>
+<p>$$\begin{cases} 0&lt;a&lt;b&lt;c&lt;1 \ b\geq 2a    \mathrm{or}   a+b\leq 1 \end{cases}$$</p>
+<p>$\max{\set{b-a,c-b,1-c}}$ 的最小值 $=$ ？</p>
 <ul>
-<li>注意到 <span class="arithmatex"><span class="MathJax_Preview">c</span><script type="math/tex">c</script></span> 的约束条件是最少的，首先考虑消去它，得到</li>
+<li>注意到 $c$ 的约束条件是最少的，首先考虑消去它，得到</li>
 </ul>
-<div class="arithmatex">
-<div class="MathJax_Preview">\max{\set{b-a,c-b,1-c}}\geq\max{\set{b-a,\frac{1-b}{2}}}</div>
-<script type="math/tex; mode=display">\max{\set{b-a,c-b,1-c}}\geq\max{\set{b-a,\frac{1-b}{2}}}</script>
-</div>
-<p><span class="arithmatex"><span class="MathJax_Preview">\ \ \ \ \ \ \text{}</span><script type="math/tex">\ \ \ \ \ \ \text{}</script></span> 当且仅当 <span class="arithmatex"><span class="MathJax_Preview">\displaystyle c=\frac{1+b}{2}</span><script type="math/tex">\displaystyle c=\frac{1+b}{2}</script></span> 取等，消去 <span class="arithmatex"><span class="MathJax_Preview">c</span><script type="math/tex">c</script></span> 后把 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 看作 <span class="arithmatex"><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span>，把 <span class="arithmatex"><span class="MathJax_Preview">b</span><script type="math/tex">b</script></span> 看作 <span class="arithmatex"><span class="MathJax_Preview">y</span><script type="math/tex">y</script></span> 得：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">\begin{cases}0&lt;x \\ x&lt;y \\ y&lt;1 \\ y\geq 2x\ \ \ \mathrm{or}\ \ \ x+y\leq 1\end{cases}</div>
-<script type="math/tex; mode=display">\begin{cases}0<x \\ x<y \\ y<1 \\ y\geq 2x\ \ \ \mathrm{or}\ \ \ x+y\leq 1\end{cases}</script>
-</div>
+<p>$$\max{\set{b-a,c-b,1-c}}\geq\max{\set{b-a,\frac{1-b}{2}}}$$</p>
+<p>$      \text{}$ 当且仅当 $\displaystyle c=\frac{1+b}{2}$ 取等，消去 $c$ 后把 $a$ 看作 $x$，把 $b$ 看作 $y$ 得：</p>
+<p>$$\begin{cases}0&lt;x \ x&lt;y \ y&lt;1 \ y\geq 2x   \mathrm{or}   x+y\leq 1\end{cases}$$</p>
 <ul>
-<li>作出可行域：<span class="arithmatex"><span class="MathJax_Preview">\mathrm{and}</span><script type="math/tex">\mathrm{and}</script></span> 连接的区域之间取交，<span class="arithmatex"><span class="MathJax_Preview">\mathrm{or}</span><script type="math/tex">\mathrm{or}</script></span> 连接的区域之间取并。阴影部分即为可行域。</li>
+<li>作出可行域：$\mathrm{and}$ 连接的区域之间取交，$\mathrm{or}$ 连接的区域之间取并。阴影部分即为可行域。</li>
 </ul>
-<p><span class="arithmatex"><span class="MathJax_Preview">\ \ \ \ \ \ \text{}</span><script type="math/tex">\ \ \ \ \ \ \text{}</script></span> 图中 <span class="arithmatex"><span class="MathJax_Preview">y\geq 2x\ \ \  x+y\leq 1</span><script type="math/tex">y\geq 2x\ \ \  x+y\leq 1</script></span> 两条解析式用红色标出。</p>
+<p>$      \text{}$ 图中 $y\geq 2x    x+y\leq 1$ 两条解析式用红色标出。</p>
 <p><img alt="" src="https://cdn.luogu.com.cn/upload/image_hosting/0uvhhx28.png" /></p>
 <ul>
-<li>回到题目，要求 <span class="arithmatex"><span class="MathJax_Preview">\displaystyle M=\max{\set{y-x,\frac{1-y}{2}}}</span><script type="math/tex">\displaystyle M=\max{\set{y-x,\frac{1-y}{2}}}</script></span>，我们需要知道何时 <span class="arithmatex"><span class="MathJax_Preview">M=y-x</span><script type="math/tex">M=y-x</script></span>，何时 <span class="arithmatex"><span class="MathJax_Preview">\displaystyle M=\frac{1-y}{2}</span><script type="math/tex">\displaystyle M=\frac{1-y}{2}</script></span>.</li>
+<li>回到题目，要求 $\displaystyle M=\max{\set{y-x,\frac{1-y}{2}}}$，我们需要知道何时 $M=y-x$，何时 $\displaystyle M=\frac{1-y}{2}$.</li>
 </ul>
-<p><span class="arithmatex"><span class="MathJax_Preview">\ \ \ \ \ \ \text{}</span><script type="math/tex">\ \ \ \ \ \ \text{}</script></span> 直接列方程 <span class="arithmatex"><span class="MathJax_Preview">\displaystyle y-x=\frac{1-y}{2}</span><script type="math/tex">\displaystyle y-x=\frac{1-y}{2}</script></span> 可以得到 <span class="arithmatex"><span class="MathJax_Preview">\displaystyle y=\frac{2}{3}x+\frac{1}{3}</span><script type="math/tex">\displaystyle y=\frac{2}{3}x+\frac{1}{3}</script></span>，在图中作出这条直线，得到：</p>
+<p>$      \text{}$ 直接列方程 $\displaystyle y-x=\frac{1-y}{2}$ 可以得到 $\displaystyle y=\frac{2}{3}x+\frac{1}{3}$，在图中作出这条直线，得到：</p>
 <p><img alt="" src="https://cdn.luogu.com.cn/upload/image_hosting/0hyhebem.png" /></p>
 <ul>
-<li>因为最终要求的是 <span class="arithmatex"><span class="MathJax_Preview">M</span><script type="math/tex">M</script></span> 的最小值，所以对蓝色区域而言，<span class="arithmatex"><span class="MathJax_Preview">y</span><script type="math/tex">y</script></span> 尽量小，<span class="arithmatex"><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span> 尽量大，根据例题 1 的经验，这样的极值点通常出现在多边形的顶点处，经过比较后 <span class="arithmatex"><span class="MathJax_Preview">P</span><script type="math/tex">P</script></span> 点是极值点，此时 <span class="arithmatex"><span class="MathJax_Preview">M=0.2</span><script type="math/tex">M=0.2</script></span>. 对绿色区域而言，只需满足 <span class="arithmatex"><span class="MathJax_Preview">y</span><script type="math/tex">y</script></span> 尽量大，显然，<span class="arithmatex"><span class="MathJax_Preview">P</span><script type="math/tex">P</script></span> 点也是极值点。</li>
-<li>综上所述，<span class="arithmatex"><span class="MathJax_Preview">\max{\set{b-a,c-b,1-c}}</span><script type="math/tex">\max{\set{b-a,c-b,1-c}}</script></span> 的最小值 <span class="arithmatex"><span class="MathJax_Preview">\displaystyle=\frac{1}{5}</span><script type="math/tex">\displaystyle=\frac{1}{5}</script></span>.</li>
+<li>因为最终要求的是 $M$ 的最小值，所以对蓝色区域而言，$y$ 尽量小，$x$ 尽量大，根据例题 1 的经验，这样的极值点通常出现在多边形的顶点处，经过比较后 $P$ 点是极值点，此时 $M=0.2$. 对绿色区域而言，只需满足 $y$ 尽量大，显然，$P$ 点也是极值点。</li>
+<li>综上所述，$\max{\set{b-a,c-b,1-c}}$ 的最小值 $\displaystyle=\frac{1}{5}$.</li>
 </ul>
 <p><a href="https://oi-wiki.org/math/linear-programming/#%E5%BC%95%E5%85%A5">https://oi-wiki.org/math/linear-programming/#%E5%BC%95%E5%85%A5</a></p>
 <!-- 数学 -->

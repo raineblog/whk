@@ -8,37 +8,21 @@
 
 或者称为一个从原点指出的箭头，于是很自然的写出坐标表示，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{bmatrix} a\\b \end{bmatrix}
-:::
-
-$$\begin{bmatrix}
-a\\b
-\end{bmatrix}$$
-::::
+\$\$ \begin{bmatrix} a\b \end{bmatrix} \$\$
 
 这种写法也叫做**二元数组**。
 
-为了简便，也可以记为 []{.arithmatex}$(a,b)$，这非常直观的表示坐标轴中的位置。
+为了简便，也可以记为 \$(a,b)\$，这非常直观的表示坐标轴中的位置。
 
 这对坐标这指出了如何从原点到达这个向量所指的位置，即坐标的位置：
 
-其中 []{.arithmatex}$a$ 表示沿 []{.arithmatex}$x$ 方向走多远，[]{.arithmatex}$b$ 表示沿 []{.arithmatex}$y$ 方向走多远，正负表示方向。
+其中 \$a\$ 表示沿 \$x\$ 方向走多远，\$b\$ 表示沿 \$y\$ 方向走多远，正负表示方向。
 
-空间向量定义类似，[]{.arithmatex}$(a,b,c)$ 中，[]{.arithmatex}$c$ 表示沿 []{.arithmatex}$z$ 方向走多远，正负表示方向。
+空间向量定义类似，\$(a,b,c)\$ 中，\$c\$ 表示沿 \$z\$ 方向走多远，正负表示方向。
 
 而写作
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{bmatrix} a\\b\\c \end{bmatrix}
-:::
-
-$$\begin{bmatrix}
-a\\b\\c
-\end{bmatrix}$$
-::::
+\$\$ \begin{bmatrix} a\b\c \end{bmatrix} \$\$
 
 的，也叫做**三元数组**。
 
@@ -56,66 +40,29 @@ a\\b\\c
 
 当我们把向量看成上述两步（两个坐标轴方向），就容易得出公式，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{bmatrix} x_1\\y_1 \end{bmatrix}+\begin{bmatrix} x_2\\y_2 \end{bmatrix}=\begin{bmatrix} x_1+x_2\\y_1+y_2 \end{bmatrix}
-:::
-
-$$\begin{bmatrix}
-x_1\\y_1
-\end{bmatrix}+\begin{bmatrix}
-x_2\\y_2
-\end{bmatrix}=\begin{bmatrix}
-x_1+x_2\\y_1+y_2
-\end{bmatrix}$$
-::::
+\$\$ \begin{bmatrix} x_1\y_1 \end{bmatrix}+\begin{bmatrix} x_2\y_2 \end{bmatrix}=\begin{bmatrix} x_1+x_2\y_1+y_2 \end{bmatrix} \$\$
 
 ## 向量数乘 {#_4}
 
-向量数乘就是将向量伸缩 []{.arithmatex}$k$ 倍，从几何看就是缩放，类似于对实数的操作。
+向量数乘就是将向量伸缩 \$k\$ 倍，从几何看就是缩放，类似于对实数的操作。
 
 其中，我们定义了此操作为几何意义上的**缩放**，乘的数也称标量。
 
 我们可以类比将实数加法拓展到乘法的过程，这也是非常直观的，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\lambda\begin{bmatrix} x\\y \end{bmatrix}=\begin{bmatrix} \lambda x\\\lambda y \end{bmatrix}
-:::
-
-$$\lambda\begin{bmatrix}
-x\\y
-\end{bmatrix}=\begin{bmatrix}
-\lambda x\\\lambda y
-\end{bmatrix}$$
-::::
+\$\$ \lambda\begin{bmatrix} x\y \end{bmatrix}=\begin{bmatrix} \lambda x\\lambda y \end{bmatrix} \$\$
 
 ## 线性组合 {#_5}
 
 在若干向量中，有两个向量最特殊，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\def\vecc#1#2{\begin{bmatrix}#1\\#2\end{bmatrix}} \hat\imath=\vecc10\\\[0.5em\] \hat\jmath=\vecc01
-:::
+\$\$ \def\vecc#1#2{\begin{bmatrix}#1\\2\end{bmatrix}} \hat\imath=\vecc10\\0.5em\] \hat\jmath=\vecc01 \$\$
 
-$$\def\vecc#1#2{\begin{bmatrix}#1\\#2\end{bmatrix}}
-\hat\imath=\vecc10\\[0.5em]
-\hat\jmath=\vecc01$$
-::::
+于是，我们可以把向量 \$(a,b)\$ 看成上面两个向量的缩放，即
 
-于是，我们可以把向量 []{.arithmatex}$(a,b)$ 看成上面两个向量的缩放，即
+\$\$ \def\vecc#1#2{\begin{bmatrix}#1\\2\end{bmatrix}} \vecc a b=a\hat\imath+b\hat\jmath \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\def\vecc#1#2{\begin{bmatrix}#1\\#2\end{bmatrix}} \vecc a b=a\hat\imath+b\hat\jmath
-:::
-
-$$\def\vecc#1#2{\begin{bmatrix}#1\\#2\end{bmatrix}}
-\vecc a b=a\hat\imath+b\hat\jmath$$
-::::
-
-这种缩放向量并相加的思想很重要，我们称 []{.arithmatex}$\hat\imath,\hat\jmath$ 为 []{.arithmatex}$xy$ 坐标系的**基向量**。
+这种缩放向量并相加的思想很重要，我们称 \$\hat\imath,\hat\jmath\$ 为 \$xy\$ 坐标系的**基向量**。
 
 这意味着，把向量的坐标看为标量，那么基向量就是这些标量缩放的对象。
 
@@ -141,15 +88,9 @@ $$\def\vecc#1#2{\begin{bmatrix}#1\\#2\end{bmatrix}}
 
 最后，我们引出定义，称
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-a\vec v+b\vec w
-:::
+\$\$ a\vec v+b\vec w \$\$
 
-$$a\vec v+b\vec w$$
-::::
-
-为 []{.arithmatex}$\vec v$ 和 []{.arithmatex}$\vec w$ 的**线性组合**。
+为 \$\vec v\$ 和 \$\vec w\$ 的**线性组合**。
 
 所有可以表示为给定向量线性组合的向量的集合，被称为给定向量的**张成空间**。
 
@@ -161,13 +102,7 @@ $$a\vec v+b\vec w$$
 
 三维中的两个的向量呢？其线性组合类似的定义为，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-a\vec v+b\vec w+c\vec u
-:::
-
-$$a\vec v+b\vec w+c\vec u$$
-::::
+\$\$ a\vec v+b\vec w+c\vec u \$\$
 
 考虑在一个已经有两个向量的张成空间中，加入第三个向量，
 
@@ -201,95 +136,47 @@ $$a\vec v+b\vec w+c\vec u$$
 
 考虑在平面内，如何用数值来准确描述一个线性变换？
 
-根据上面基向量的思想，我们只需要记录 []{.arithmatex}$\hat\imath,\hat\jmath$ 的变换位置即可。
+根据上面基向量的思想，我们只需要记录 \$\hat\imath,\hat\jmath\$ 的变换位置即可。
 
-感性理解，我们可以根据变化的 []{.arithmatex}$\hat\imath,\hat\jmath$ 推断出述任意向量位置。
+感性理解，我们可以根据变化的 \$\hat\imath,\hat\jmath\$ 推断出述任意向量位置。
 
 有一个性质，若一向量可以表示为，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\vec v=a\hat\imath+b\hat\jmath
-:::
+\$\$ \vec v=a\hat\imath+b\hat\jmath \$\$
 
-$$\vec v=a\hat\imath+b\hat\jmath$$
-::::
+那么在 \$\hat\imath,\hat\jmath\$ 变换后的 \$\hat\imath\',\hat\jmath\'\$ 中，在原坐标系中，有，
 
-那么在 []{.arithmatex}$\hat\imath,\hat\jmath$ 变换后的 []{.arithmatex}$\hat\imath',\hat\jmath'$ 中，在原坐标系中，有，
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\vec v=a\hat\imath\'+b\hat\jmath\'
-:::
-
-$$\vec v=a\hat\imath'+b\hat\jmath'$$
-::::
+\$\$ \vec v=a\hat\imath\'+b\hat\jmath\' \$\$
 
 代数表示，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{x\\y}\to x\vecc{a\\b}+y\vecc{c\\d}=x\vecc{ax+cy\\bx+dy}
-:::
+\$\$ \def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{x\y}\to x\vecc{a\b}+y\vecc{c\d}=x\vecc{ax+cy\bx+dy} \$\$
 
-$$\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}}
-\vecc{x\\y}\to x\vecc{a\\b}+y\vecc{c\\d}=x\vecc{ax+cy\\bx+dy}$$
-::::
+我们通常把 \$a,b,c,d\$ 这四个数封装在一个东西中，称为**矩阵**，对于上面的，
 
-我们通常把 []{.arithmatex}$a,b,c,d$ 这四个数封装在一个东西中，称为**矩阵**，对于上面的，
+\$\$ \def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&c\b&d} \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&c\\b&d}
-:::
-
-$$\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}}
-\vecc{a&c\\b&d}$$
-::::
-
-左边一列右边一列（称为矩阵的列）分别表示变换之后的 []{.arithmatex}$\hat\imath,\hat\jmath$ 基，[]{.arithmatex}$(a,b),(c,d)$。
+左边一列右边一列（称为矩阵的列）分别表示变换之后的 \$\hat\imath,\hat\jmath\$ 基，\$(a,b),(c,d)\$。
 
 因此可以定义出矩阵乘向量的简化形式，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&c\\b&d}\vecc{x\\y}=x\vecc{a\\b}+y\vecc{c\\d}=\vecc{ax+cy\\bx+dy}
-:::
-
-$$\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}}
-\vecc{a&c\\b&d}\vecc{x\\y}=x\vecc{a\\b}+y\vecc{c\\d}=\vecc{ax+cy\\bx+dy}$$
-::::
+\$\$ \def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&c\b&d}\vecc{x\y}=x\vecc{a\b}+y\vecc{c\d}=\vecc{ax+cy\bx+dy} \$\$
 
 其中，左边的矩阵可以理解为一个函数，对于右边的向量操作。
 
 根据这个，可以得出很多有意思的矩阵，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{0&-1\\1&0}:\small\text{逆时针旋转 \$90\^\circ\$}\\\[0.5em\] \vecc{1&1\\0&1}:\small\text{剪切、错切}\\
-:::
+\$\$ \def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{0&-1\1&0}:\small\text{逆时针旋转 \$90\^\circ\$}\\0.5em\] \vecc{1&1\0&1}:\small\text{剪切、错切}\\ \$\$
 
-$$\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}}
-\vecc{0&-1\\1&0}:\small\text{逆时针旋转 $90^\circ$}\\[0.5em]
-\vecc{1&1\\0&1}:\small\text{剪切、错切}\\$$
-::::
+在变换的时候，可以先对 \$\hat\imath\$ 变换，再对 \$\hat\jmath\$ 变换，可以方便一点。
 
-在变换的时候，可以先对 []{.arithmatex}$\hat\imath$ 变换，再对 []{.arithmatex}$\hat\jmath$ 变换，可以方便一点。
+如果变换的 \$\hat\imath,\hat\jmath\$ 是线性相关的，那么就会丢失一个维度，使张成空间成为一个直线。
 
-如果变换的 []{.arithmatex}$\hat\imath,\hat\jmath$ 是线性相关的，那么就会丢失一个维度，使张成空间成为一个直线。
+注：线性的严格定义，若一个变换 \$L\$ 满足，
 
-注：线性的严格定义，若一个变换 []{.arithmatex}$L$ 满足，
+\$\$ L(\vec v+\vec w)=L(\vec v)+L(\vec w)\\ L(c\vec v)=cL(\vec v) \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-L(\vec v+\vec w)=L(\vec v)+L(\vec w)\\ L(c\vec v)=cL(\vec v)
-:::
-
-$$L(\vec v+\vec w)=L(\vec v)+L(\vec w)\\
-L(c\vec v)=cL(\vec v)$$
-::::
-
-则称 []{.arithmatex}$L$ 是线性的。
+则称 \$L\$ 是线性的。
 
 ## 矩阵乘法 {#_7}
 
@@ -299,81 +186,35 @@ L(c\vec v)=cL(\vec v)$$
 
 代数的，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{1&1\\0&1}\left(\vecc{0&-1\\1&0}\vecc{x\\y}\right)=\vecc{1&-1\\1&0}\vecc{x\\y}
-:::
-
-$$\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}}
-\vecc{1&1\\0&1}\left(\vecc{0&-1\\1&0}\vecc{x\\y}\right)=\vecc{1&-1\\1&0}\vecc{x\\y}$$
-::::
+\$\$ \def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{1&1\0&1}\left(\vecc{0&-1\1&0}\vecc{x\y}\right)=\vecc{1&-1\1&0}\vecc{x\y} \$\$
 
 右面的，即复合矩阵，于是我们定义**矩阵乘法**形如，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{1&1\\0&1}\vecc{0&-1\\1&0}=\vecc{1&-1\\1&0}
-:::
-
-$$\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}}
-\vecc{1&1\\0&1}\vecc{0&-1\\1&0}=\vecc{1&-1\\1&0}$$
-::::
+\$\$ \def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{1&1\0&1}\vecc{0&-1\1&0}=\vecc{1&-1\1&0} \$\$
 
 注意矩阵乘法是右结合性，即从右往左读，类似复合函数，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-(g\circ f)(x)=g(f(x))
-:::
-
-$$(g\circ f)(x)=g(f(x))$$
-::::
+\$\$ (g\circ f)(x)=g(f(x)) \$\$
 
 此时可以考虑矩阵乘法的数值表示。
 
 考虑右边的矩阵变换的基向量，再通过左边的矩阵变换，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&b\\c&d}\vecc{e&f\\g&h}\to\vecc{a&b\\c&d}\vecc{e\\g},\vecc{a&b\\c&d}\vecc{f\\h}
-:::
-
-$$\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}}
-\vecc{a&b\\c&d}\vecc{e&f\\g&h}\to\vecc{a&b\\c&d}\vecc{e\\g},\vecc{a&b\\c&d}\vecc{f\\h}$$
-::::
+\$\$ \def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&b\c&d}\vecc{e&f\g&h}\to\vecc{a&b\c&d}\vecc{e\g},\vecc{a&b\c&d}\vecc{f\h} \$\$
 
 即，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&b\\c&d}\vecc{e&f\\g&h}=\vecc{ae+bg&af+bh\\ce+dg&cf+dh}
-:::
-
-$$\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}}
-\vecc{a&b\\c&d}\vecc{e&f\\g&h}=\vecc{ae+bg&af+bh\\ce+dg&cf+dh}$$
-::::
+\$\$ \def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&b\c&d}\vecc{e&f\g&h}=\vecc{ae+bg&af+bh\ce+dg&cf+dh} \$\$
 
 可以看这个网站理解：<https://rainppr.dpdns.org/matrixmultiplication/>。
 
 容易发现，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-M_1M_2\neq M_2M_1
-:::
-
-$$M_1M_2\neq M_2M_1$$
-::::
+\$\$ M_1M_2\neq M_2M_1 \$\$
 
 即矩阵乘法没有交换律，但是
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-(AB)C=A(BC)
-:::
-
-$$(AB)C=A(BC)$$
-::::
+\$\$ (AB)C=A(BC) \$\$
 
 即矩阵乘法具有结合律。
 
@@ -381,31 +222,15 @@ $$(AB)C=A(BC)$$
 
 如果我们去尝试想象整个三维空间会很复杂，
 
-因此只考虑三个基向量，[]{.arithmatex}$\hat\imath,\hat\jmath,\hat k$。
+因此只考虑三个基向量，\$\hat\imath,\hat\jmath,\hat k\$。
 
 将三个基向量作为列的形式，依次记录在矩阵中，形如，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&b&c\\d&e&f\\g&h&i}
-:::
-
-$$\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}}
-\vecc{a&b&c\\d&e&f\\g&h&i}$$
-::::
+\$\$ \def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&b&c\d&e&f\g&h&i} \$\$
 
 和二维类似的，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&b&c\\d&e&f\\g&h&i}\vecc{x\\y\\z}=x\vecc{a\\d\\g}+y\vecc{b\\e\\h}+z\vecc{c\\f\\i}=\vecc{ax+by+cz\\ dx+ey+fz\\ gx+hy+iz}
-:::
-
-$$\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}}
-\vecc{a&b&c\\d&e&f\\g&h&i}\vecc{x\\y\\z}=x\vecc{a\\d\\g}+y\vecc{b\\e\\h}+z\vecc{c\\f\\i}=\vecc{ax+by+cz\\
-dx+ey+fz\\
-gx+hy+iz}$$
-::::
+\$\$ \def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&b&c\d&e&f\g&h&i}\vecc{x\y\z}=x\vecc{a\d\g}+y\vecc{b\e\h}+z\vecc{c\f\i}=\vecc{ax+by+cz\\ dx+ey+fz\\ gx+hy+iz} \$\$
 
 ## 行列式 {#_9}
 
@@ -415,81 +240,41 @@ gx+hy+iz}$$
 
 例如，线性变换
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{2&0\\0&3}
-:::
+\$\$ \def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{2&0\0&3} \$\$
 
-$$\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}}
-\vecc{2&0\\0&3}$$
-::::
+将空间拉伸了 \$6\$ 倍。这个缩放比例，叫做线性变换的**行列式**，即
 
-将空间拉伸了 []{.arithmatex}$6$ 倍。这个缩放比例，叫做线性变换的**行列式**，即
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \det\left(\vecc{2&0\\0&3}\right)=6
-:::
-
-$$\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}}
-\det\left(\vecc{2&0\\0&3}\right)=6$$
-::::
+\$\$ \def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \det\left(\vecc{2&0\0&3}\right)=6 \$\$
 
 这个值意味着，任意形状的图形，其面积经过变换后都会拉伸这个倍数。
 
-如果一个线性变换的行列式为 []{.arithmatex}$0$，这意味着这个线性变换使一些维度消失了。
+如果一个线性变换的行列式为 \$0\$，这意味着这个线性变换使一些维度消失了。
 
 然而，行列式是允许出现负数值的，这意味着空间被翻转了。
 
-具体的，正常情况下，[]{.arithmatex}$\hat\jmath$ 在 []{.arithmatex}$\hat\imath$ 的左侧，因此如果反过来了，就意味着空间被翻转。
+具体的，正常情况下，\$\hat\jmath\$ 在 \$\hat\imath\$ 的左侧，因此如果反过来了，就意味着空间被翻转。
 
 也被称为，**空间的定向**发生改变，此时行列式的绝对值表示缩放倍数。
 
-放在三维中，只需要考虑 []{.arithmatex}$1\times1\times1$ 的正方体即可。
+放在三维中，只需要考虑 \$1\times1\times1\$ 的正方体即可。
 
 三维空间的定向使用**右手定则**，
 
-食指、中指分别指向 []{.arithmatex}$\hat\imath,\hat\jmath$，此时若拇指指向 []{.arithmatex}$\hat k$，则行列式为正，反之为负。
+食指、中指分别指向 \$\hat\imath,\hat\jmath\$，此时若拇指指向 \$\hat k\$，则行列式为正，反之为负。
 
 那么如何计算呢？给出一个简单的公式，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \det\left(\vecc{a&b\\c&d}\right)=ad-bc
-:::
+\$\$ \def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \det\left(\vecc{a&b\c&d}\right)=ad-bc \$\$
 
-$$\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}}
-\det\left(\vecc{a&b\\c&d}\right)=ad-bc$$
-::::
-
-因此，如果 []{.arithmatex}$b,c$ 有一个为零，那么行列式的值即 []{.arithmatex}$ad$，平行四边形的面积。
+因此，如果 \$b,c\$ 有一个为零，那么行列式的值即 \$ad\$，平行四边形的面积。
 
 更进阶的公式（具体如何计算自己百度），
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \def\dett#1{\det\left(\vecc{#1}\right)} \begin{aligned} &\\\dett{a&b&c\\d&e&f\\g&h&i}\\ =&\\a\dett{e&f\\h&i}\\ -&\\b\dett{d&f\\g&i}\\ +&\\c\dett{d&e\\g&h} \end{aligned}
-:::
-
-$$\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}}
-\def\dett#1{\det\left(\vecc{#1}\right)}
-\begin{aligned}
-&\;\dett{a&b&c\\d&e&f\\g&h&i}\\
-=&\;a\dett{e&f\\h&i}\\
--&\;b\dett{d&f\\g&i}\\
-+&\;c\dett{d&e\\g&h}
-\end{aligned}$$
-::::
+\$\$ \def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \def\dett#1{\det\left(\vecc{#1}\right)} \begin{aligned} &\\\dett{a&b&c\d&e&f\g&h&i}\\ =&\\a\dett{e&f\h&i}\\ -&\\b\dett{d&f\g&i}\\ +&\\c\dett{d&e\g&h} \end{aligned} \$\$
 
 有性质，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\det(M_1M_2)=\det(M_1)\det(M_2)
-:::
-
-$$\det(M_1M_2)=\det(M_1)\det(M_2)$$
-::::
+\$\$ \det(M_1M_2)=\det(M_1)\det(M_2) \$\$
 
 ## 高斯消元 {#_10}
 
@@ -499,75 +284,37 @@ $$\det(M_1M_2)=\det(M_1)\det(M_2)$$
 
 比如，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{cases} 2x+5y+3z=-3\\ 4x+0y+8z=0\\ 1x+3y+0z=2 \end{cases}
-:::
-
-$$\begin{cases}
-2x+5y+3z=-3\\
-4x+0y+8z=0\\
-1x+3y+0z=2
-\end{cases}$$
-::::
+\$\$ \begin{cases} 2x+5y+3z=-3\\ 4x+0y+8z=0\\ 1x+3y+0z=2 \end{cases} \$\$
 
 可以发现这个东西类似向量乘法，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{2&5&3\\4&0&8\\1&3&0}\vecc{x\\y\\z}=\vecc{-3\\0\\2}
-:::
-
-$$\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}}
-\vecc{2&5&3\\4&0&8\\1&3&0}\vecc{x\\y\\z}=\vecc{-3\\0\\2}$$
-::::
+\$\$ \def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{2&5&3\4&0&8\1&3&0}\vecc{x\y\z}=\vecc{-3\0\2} \$\$
 
 简记为，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-A\vec x=\vec v
-:::
+\$\$ A\vec x=\vec v \$\$
 
-$$A\vec x=\vec v$$
-::::
+则解方程的过程，相当于找到一个向量 \$\vec x\$ 在经过 \$A\$ 的变换后，恰好等于 \$\vec v\$。
 
-则解方程的过程，相当于找到一个向量 []{.arithmatex}$\vec x$ 在经过 []{.arithmatex}$A$ 的变换后，恰好等于 []{.arithmatex}$\vec v$。
+对于 \$\det A\neq0\$ 的情况，显然解是唯一的，我们可以通过找到 \$A\$ 的逆的方式来求解。
 
-对于 []{.arithmatex}$\det A\neq0$ 的情况，显然解是唯一的，我们可以通过找到 []{.arithmatex}$A$ 的逆的方式来求解。
+这个线性变换为 \$A\$ 的逆，记为，\$A\^{-1}\$。例如逆时针旋转 \$90\^\circ\$ 的逆，为顺时针旋转 \$90\^\circ\$。
 
-这个线性变换为 []{.arithmatex}$A$ 的逆，记为，[]{.arithmatex}$A^{-1}$。例如逆时针旋转 []{.arithmatex}$90^\circ$ 的逆，为顺时针旋转 []{.arithmatex}$90^\circ$。
+那么，\$AA\^{-1}\$ 就对应一个什么都不做的变换，形如
 
-那么，[]{.arithmatex}$AA^{-1}$ 就对应一个什么都不做的变换，形如
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-AA\^{-1}=\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{1&0\\0&1}
-:::
-
-$$AA^{-1}=\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}}
-\vecc{1&0\\0&1}$$
-::::
+\$\$ AA\^{-1}=\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{1&0\0&1} \$\$
 
 那么，我们可以这么解方程，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-A\vec x=\vec v\\ AA\^{-1}\vec x=A\^{-1}\vec v\\ \vec x=A\^{-1}\vec v
-:::
-
-$$A\vec x=\vec v\\
-AA^{-1}\vec x=A^{-1}\vec v\\
-\vec x=A^{-1}\vec v$$
-::::
+\$\$ A\vec x=\vec v\\ AA\^{-1}\vec x=A\^{-1}\vec v\\ \vec x=A\^{-1}\vec v \$\$
 
 由上，一个线性变换存在逆的充要条件，即其行列式不为零。
 
 因为行列式为零一位置压缩维度，那么损失的维度就不存在信息来复原了。
 
-如果一个线性变换把维度确定为 []{.arithmatex}$k$ 维，那么其**秩**为 []{.arithmatex}$k$，或者说变换后空间的维数。
+如果一个线性变换把维度确定为 \$k\$ 维，那么其**秩**为 \$k\$，或者说变换后空间的维数。
 
-因此，对于一个 []{.arithmatex}$n\times n$ 的矩阵，其秩最大为 []{.arithmatex}$n$，即张成了整个 []{.arithmatex}$n$ 维空间，称为**满秩**。
+因此，对于一个 \$n\times n\$ 的矩阵，其秩最大为 \$n\$，即张成了整个 \$n\$ 维空间，称为**满秩**。
 
 经过变换所有能得到的向量的集合成为线性变换的**列空间**。
 
@@ -583,18 +330,11 @@ AA^{-1}\vec x=A^{-1}\vec v\\
 
 此时就存在内在的维度变化，例如，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{3&1\\4&1\\5&9}
-:::
+\$\$ \def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{3&1\4&1\5&9} \$\$
 
-$$\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}}
-\vecc{3&1\\4&1\\5&9}$$
-::::
+意味着把 \$\hat\imath\$ 变换到 \$(3,4,5)\$，把 \$\hat\jmath\$ 变换到 \$(1,1,9)\$。
 
-意味着把 []{.arithmatex}$\hat\imath$ 变换到 []{.arithmatex}$(3,4,5)$，把 []{.arithmatex}$\hat\jmath$ 变换到 []{.arithmatex}$(1,1,9)$。
-
-这是一个三行两列的矩阵，记作 []{.arithmatex}$3\times2$ 的矩阵。
+这是一个三行两列的矩阵，记作 \$3\times2\$ 的矩阵。
 
 这个矩阵的列空间，是一个过三维原点的二维平面。
 

@@ -10,7 +10,7 @@
 
 总结一下就是两个角全都可以，三个边可以，一个角两个边就需要是夹角。
 
-即知道 []{.arithmatex}$aCb$、[]{.arithmatex}$cBa$、[]{.arithmatex}$bAc$，才可以唯一确定一个两边一角的三角形。
+即知道 \$aCb\$、\$cBa\$、\$bAc\$，才可以唯一确定一个两边一角的三角形。
 
 至于 SSA，只有一个角是直角才可以唯一确定，不过这个就是 HL 了。
 
@@ -32,81 +32,27 @@
 
 在三角形中，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\global\let\vecc=\overrightarrow A+B+C=\pi
-:::
-
-$$\global\let\vecc=\overrightarrow
-A+B+C=\pi$$
-::::
+\$\$ \global\let\vecc=\overrightarrow A+B+C=\pi \$\$
 
 因此就有：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} \sin A&=\sin(B+C)\\ \sin B&=\sin(A+C)\\ \sin C&=\sin{A+B} \end{aligned}
-:::
+\$\$ \begin{aligned} \sin A&=\sin(B+C)\\ \sin B&=\sin(A+C)\\ \sin C&=\sin{A+B} \end{aligned} \$\$
 
-$$\begin{aligned}
-\sin A&=\sin(B+C)\\
-\sin B&=\sin(A+C)\\
-\sin C&=\sin{A+B}
-\end{aligned}$$
-::::
+\$\$ \begin{aligned} \cos A&=-\cos(B+C)\\ \cos B&=-\cos(A+C)\\ \cos C&=-\cos(A+B) \end{aligned} \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} \cos A&=-\cos(B+C)\\ \cos B&=-\cos(A+C)\\ \cos C&=-\cos(A+B) \end{aligned}
-:::
+\$\$ \begin{aligned} \sin\dfrac{A}{2}&=\cos\left(\dfrac{B+C}{2}\right)\\ \sin\dfrac{B}{2}&=\cos\left(\dfrac{A+C}{2}\right)\\ \sin\dfrac{C}{2}&=\cos\left(\dfrac{A+B}{2}\right) \end{aligned} \$\$
 
-$$\begin{aligned}
-\cos A&=-\cos(B+C)\\
-\cos B&=-\cos(A+C)\\
-\cos C&=-\cos(A+B)
-\end{aligned}$$
-::::
+\$\$ \begin{aligned} \cos\dfrac{A}{2}&=\sin\left(\dfrac{B+C}{2}\right)\\ \cos\dfrac{B}{2}&=\sin\left(\dfrac{A+C}{2}\right)\\ \cos\dfrac{C}{2}&=\sin\left(\dfrac{A+B}{2}\right) \end{aligned} \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} \sin\dfrac{A}{2}&=\cos\left(\dfrac{B+C}{2}\right)\\ \sin\dfrac{B}{2}&=\cos\left(\dfrac{A+C}{2}\right)\\ \sin\dfrac{C}{2}&=\cos\left(\dfrac{A+B}{2}\right) \end{aligned}
-:::
+在三角形中，\$a=b\cos C+c\cos B\$。
 
-$$\begin{aligned}
-\sin\dfrac{A}{2}&=\cos\left(\dfrac{B+C}{2}\right)\\
-\sin\dfrac{B}{2}&=\cos\left(\dfrac{A+C}{2}\right)\\
-\sin\dfrac{C}{2}&=\cos\left(\dfrac{A+B}{2}\right)
-\end{aligned}$$
-::::
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} \cos\dfrac{A}{2}&=\sin\left(\dfrac{B+C}{2}\right)\\ \cos\dfrac{B}{2}&=\sin\left(\dfrac{A+C}{2}\right)\\ \cos\dfrac{C}{2}&=\sin\left(\dfrac{A+B}{2}\right) \end{aligned}
-:::
-
-$$\begin{aligned}
-\cos\dfrac{A}{2}&=\sin\left(\dfrac{B+C}{2}\right)\\
-\cos\dfrac{B}{2}&=\sin\left(\dfrac{A+C}{2}\right)\\
-\cos\dfrac{C}{2}&=\sin\left(\dfrac{A+B}{2}\right)
-\end{aligned}$$
-::::
-
-在三角形中，[]{.arithmatex}$a=b\cos C+c\cos B$。
-
-若 []{.arithmatex}$\sin^2A+\sin^2B=\sin^2C$，则该三角形是以 []{.arithmatex}$\angle C$ 为直角的 []{.arithmatex}$\mathrm{Rt\triangle}$。
+若 \$\sin^2A+\sin^2B=\sin\^2C\$，则该三角形是以 \$\angle C\$ 为直角的 \$\mathrm{Rt\triangle}\$。
 
 解三角形里面常用的奇怪三角函数：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\sin15\^\circ=\cos75\^\circ={\sqrt6-\sqrt2\over4}\\\[0.5em\] \sin75\^\circ=\cos15\^\circ={\sqrt6+\sqrt2\over4}
-:::
+\$\$ \sin15^\circ=\cos75^\circ={\sqrt6-\sqrt2\over4}\\0.5em\] \sin75^\circ=\cos15^\circ={\sqrt6+\sqrt2\over4} \$\$
 
-$$\sin15^\circ=\cos75^\circ={\sqrt6-\sqrt2\over4}\\[0.5em]
-\sin75^\circ=\cos15^\circ={\sqrt6+\sqrt2\over4}$$
-::::
-
-特殊的，如果 []{.arithmatex}$\sin 2A=\sin 2B$，则有 []{.arithmatex}$2A=2B$ 或 []{.arithmatex}$2A+2B=\pi$，即 []{.arithmatex}$A=B$ 或 []{.arithmatex}$A+B=90^\circ$，即等腰或直角三角形。
+特殊的，如果 \$\sin 2A=\sin 2B\$，则有 \$2A=2B\$ 或 \$2A+2B=\pi\$，即 \$A=B\$ 或 \$A+B=90\^\circ\$，即等腰或直角三角形。
 
 ### 平面几何法 {#_5}
 
@@ -120,7 +66,7 @@ $$\sin15^\circ=\cos75^\circ={\sqrt6-\sqrt2\over4}\\[0.5em]
 
 建系法：将数据用坐标表示，详见解析几何。
 
-如果直角三角形三边成等差数列，则变长一定为 []{.arithmatex}$3,4,5$。
+如果直角三角形三边成等差数列，则变长一定为 \$3,4,5\$。
 
 ### 向量基底法 {#_6}
 
@@ -148,176 +94,92 @@ $$\sin15^\circ=\cos75^\circ={\sqrt6-\sqrt2\over4}\\[0.5em]
 
 回顾初中几何，三角形面积，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-S={1\over2}ab\sin C={1\over2}bc\sin A={1\over2}ac\sin B
-:::
-
-$$S={1\over2}ab\sin C={1\over2}bc\sin A={1\over2}ac\sin B$$
-::::
+\$\$ S={1\over2}ab\sin C={1\over2}bc\sin A={1\over2}ac\sin B \$\$
 
 下面的证明过程只考虑锐角三角形，对于钝角三角形，结论不变。
 
-做过 []{.arithmatex}$\angle A$ 的垂线，则该垂线长度 []{.arithmatex}$h$：
+做过 \$\angle A\$ 的垂线，则该垂线长度 \$h\$：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-h=b\sin C=c\sin B
-:::
-
-$$h=b\sin C=c\sin B$$
-::::
+\$\$ h=b\sin C=c\sin B \$\$
 
 对每个角应用，最后可得，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-{a\over\sin A}={b\over\sin B}={c\over\sin C}=k
-:::
+\$\$ {a\over\sin A}={b\over\sin B}={c\over\sin C}=k \$\$
 
-$${a\over\sin A}={b\over\sin B}={c\over\sin C}=k$$
-::::
+做出该三角形的外接圆，过圆心做 \$BC\$ 的高，则，
 
-做出该三角形的外接圆，过圆心做 []{.arithmatex}$BC$ 的高，则，
+\$\$ a=2R\sin A,\\{a\over\sin A}=2R \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-a=2R\sin A,\\{a\over\sin A}=2R
-:::
-
-$$a=2R\sin A,\,{a\over\sin A}=2R$$
-::::
-
-即值 []{.arithmatex}$k$ 为三角形外接圆直径 []{.arithmatex}$2R$。
+即值 \$k\$ 为三角形外接圆直径 \$2R\$。
 
 常常这么写：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-a=2R\sin A,\\b=2R\sin B,\\c=2R\sin C\\ \sin A={a\over2R},\\\sin B={b\over2R},\\\sin C={c\over2R}
-:::
-
-$$a=2R\sin A,\,b=2R\sin B,\,c=2R\sin C\\
-\sin A={a\over2R},\,\sin B={b\over2R},\,\sin C={c\over2R}$$
-::::
+\$\$ a=2R\sin A,\\b=2R\sin B,\\c=2R\sin C\\ \sin A={a\over2R},\\\sin B={b\over2R},\\\sin C={c\over2R} \$\$
 
 正弦定理推论：大边对大角，小边对小角。
 
 ### 余弦定理 {#_10}
 
-在 []{.arithmatex}$\triangle ABC$ 中，
+在 \$\triangle ABC\$ 中，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{array}{c} \overrightarrow{AB}=\overrightarrow{CB}-\overrightarrow{CA}\\\[0.5em\] \|\overrightarrow{AB}\|\^2=\|\overrightarrow{CB}\|\^2+\|\overrightarrow{CA}\|\^2-2\|\overrightarrow{CB}\|\cdot\|\overrightarrow{CA}\|\cdot\cos\theta\\\[0.5em\] c\^2=a\^2+b\^2-2ab\cos\theta \end{array}
-:::
+\$\$ \begin{array}{c} \overrightarrow{AB}=\overrightarrow{CB}-\overrightarrow{CA}\\0.5em\] \|\overrightarrow{AB}\|^2=\|\overrightarrow{CB}\|^2+\|\overrightarrow{CA}\|\^2-2\|\overrightarrow{CB}\|\cdot\|\overrightarrow{CA}\|\cdot\cos\theta\\0.5em\] c^2=a^2+b\^2-2ab\cos\theta \end{array} \$\$
 
-$$\begin{array}{c}
-\overrightarrow{AB}=\overrightarrow{CB}-\overrightarrow{CA}\\[0.5em]
-|\overrightarrow{AB}|^2=|\overrightarrow{CB}|^2+|\overrightarrow{CA}|^2-2|\overrightarrow{CB}|\cdot|\overrightarrow{CA}|\cdot\cos\theta\\[0.5em]
-c^2=a^2+b^2-2ab\cos\theta
-\end{array}$$
-::::
-
-其中 []{.arithmatex}$\theta$ 为 []{.arithmatex}$c$ 的对角，即 []{.arithmatex}$\angle C$；第二步就是两边平方。
+其中 \$\theta\$ 为 \$c\$ 的对角，即 \$\angle C\$；第二步就是两边平方。
 
 常写作：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\cos A={b\^2+c\^2-a\^2\over2bc},\\\cos B={a\^2+c\^2-b\^2\over2ac},\\\cos C={a\^2+b\^2-c\^2\over2ab}
-:::
-
-$$\cos A={b^2+c^2-a^2\over2bc},\,\cos B={a^2+c^2-b^2\over2ac},\,\cos C={a^2+b^2-c^2\over2ab}$$
-::::
+\$\$ \cos A={b^2+c^2-a\^2\over2bc},\\\cos B={a^2+c^2-b\^2\over2ac},\\\cos C={a^2+b^2-c\^2\over2ab} \$\$
 
 推论：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} a\^2+b\^2-c\^2\>0 &\Longrightarrow \cos C\>0 \Longrightarrow C\in(0,\pi/2)\\ a\^2+b\^2-c\^2=0 &\Longrightarrow \cos C=0 \Longrightarrow C=\pi/2\\ a\^2+b\^2-c\^2\<0 &\Longrightarrow \cos C\<0 \Longrightarrow C\in(\pi/2,\pi) \end{aligned}
-:::
-
-$$\begin{aligned}
-a^2+b^2-c^2>0 &\Longrightarrow \cos C>0 \Longrightarrow C\in(0,\pi/2)\\
-a^2+b^2-c^2=0 &\Longrightarrow \cos C=0 \Longrightarrow C=\pi/2\\
-a^2+b^2-c^2<0 &\Longrightarrow \cos C<0 \Longrightarrow C\in(\pi/2,\pi)
-\end{aligned}$$
-::::
+\$\$ \begin{aligned} a^2+b^2-c\^2\>0 &\Longrightarrow \cos C\>0 \Longrightarrow C\in(0,\pi/2)\\ a^2+b^2-c\^2=0 &\Longrightarrow \cos C=0 \Longrightarrow C=\pi/2\\ a^2+b^2-c\^2\<0 &\Longrightarrow \cos C\<0 \Longrightarrow C\in(\pi/2,\pi) \end{aligned} \$\$
 
 ### 余切定理 {#_11}
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} \zeta&=\sqrt{{1\over p}(p-a)(p-b)(p-c)}\\ p&={a+b+c\over2} \end{aligned}
-:::
+\$\$ \begin{aligned} \zeta&=\sqrt{{1\over p}(p-a)(p-b)(p-c)}\\ p&={a+b+c\over2} \end{aligned} \$\$
 
-$$\begin{aligned}
-\zeta&=\sqrt{{1\over p}(p-a)(p-b)(p-c)}\\
-p&={a+b+c\over2}
-\end{aligned}$$
-::::
-
-其中 []{.arithmatex}$\zeta$ 为 []{.arithmatex}$\triangle ABC$ 内切圆半径，[]{.arithmatex}$p$ 为三角形的半周长。
+其中 \$\zeta\$ 为 \$\triangle ABC\$ 内切圆半径，\$p\$ 为三角形的半周长。
 
 推论，一各三角形内切圆半径为，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-R_内={2S\over a+b+c}
-:::
+\$\$ R_内={2S\over a+b+c} \$\$
 
-$$R_内={2S\over a+b+c}$$
-::::
-
-其中 []{.arithmatex}$S$ 表示三角形面积，[]{.arithmatex}$a,b,c$ 分别表示三边长。
+其中 \$S\$ 表示三角形面积，\$a,b,c\$ 分别表示三边长。
 
 ### 正切定理 {#_12}
 
 正切定理指出，三角形中，两条边的和与差的比值，等于这两条边的对角的和与差的一半的正切的比值：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-{a-b\over a+b}={\tan{\angle A-\angle B\over2}\over\tan{\angle A+\angle B\over2}}
-:::
-
-$${a-b\over a+b}={\tan{\angle A-\angle B\over2}\over\tan{\angle A+\angle B\over2}}$$
-::::
+\$\$ {a-b\over a+b}={\tan{\angle A-\angle B\over2}\over\tan{\angle A+\angle B\over2}} \$\$
 
 ## 三角形四心 {#_13}
 
-|          编号           | 心的名称 |          定义          |
-|:-----------------------:|:--------:|:----------------------:|
-| []{.arithmatex}$X_1(I)$ |   内心   | 三条**角平分线**的交点 |
-| []{.arithmatex}$X_2(G)$ |   重心   |   三条**中线**的交点   |
-| []{.arithmatex}$X_3(O)$ |   外心   |  三条**中垂线**的交点  |
-| []{.arithmatex}$X_4(H)$ |   垂心   |   三条**高线**的交点   |
+|    编号    | 心的名称 |          定义          |
+|:----------:|:--------:|:----------------------:|
+| \$X_1(I)\$ |   内心   | 三条**角平分线**的交点 |
+| \$X_2(G)\$ |   重心   |   三条**中线**的交点   |
+| \$X_3(O)\$ |   外心   |  三条**中垂线**的交点  |
+| \$X_4(H)\$ |   垂心   |   三条**高线**的交点   |
 
 ### 奔驰定理 {#_14}
 
-在锐角 []{.arithmatex}$\triangle ABC$ 中，
+在锐角 \$\triangle ABC\$ 中，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-S\_{\triangle BOC}\cdot\overrightarrow{OA}+S\_{\triangle AOC}\cdot\overrightarrow{OB}+S\_{\triangle AOB}\cdot\overrightarrow{OC}=\vec0
-:::
-
-$$S_{\triangle BOC}\cdot\overrightarrow{OA}+S_{\triangle AOC}\cdot\overrightarrow{OB}+S_{\triangle AOB}\cdot\overrightarrow{OC}=\vec0$$
-::::
+\$\$ S\_{\triangle BOC}\cdot\overrightarrow{OA}+S\_{\triangle AOC}\cdot\overrightarrow{OB}+S\_{\triangle AOB}\cdot\overrightarrow{OC}=\vec0 \$\$
 
 推论：
 
-- 设 []{.arithmatex}$I$ 为内心，则 []{.arithmatex}$a\cdot\overrightarrow{IA}+b\cdot\overrightarrow{IB}+c\cdot\overrightarrow{IC}=\vec0$.
+- 设 \$I\$ 为内心，则 \$a\cdot\overrightarrow{IA}+b\cdot\overrightarrow{IB}+c\cdot\overrightarrow{IC}=\vec0\$.
 
-- 设 []{.arithmatex}$H$ 为垂心，则 []{.arithmatex}$\tan A\cdot\overrightarrow{HA}+\tan B\cdot\overrightarrow{HB}+\tan C\cdot\overrightarrow{HC}=\vec0$.
+- 设 \$H\$ 为垂心，则 \$\tan A\cdot\overrightarrow{HA}+\tan B\cdot\overrightarrow{HB}+\tan C\cdot\overrightarrow{HC}=\vec0\$.
 
-- 设 []{.arithmatex}$O$ 为外心，则 []{.arithmatex}$\sin2A\cdot\overrightarrow{OA}+\sin2B\cdot\overrightarrow{OB}+\sin2C\cdot\overrightarrow{OC}=\vec0$.
+- 设 \$O\$ 为外心，则 \$\sin2A\cdot\overrightarrow{OA}+\sin2B\cdot\overrightarrow{OB}+\sin2C\cdot\overrightarrow{OC}=\vec0\$.
 
 ### 欧拉线定理 {#_15}
 
-- 欧拉定理：[]{.arithmatex}$O,I$ 分别为外接圆、内切圆圆心，则有 []{.arithmatex}$OI^2=R^2-2Rr$.
+- 欧拉定理：\$O,I\$ 分别为外接圆、内切圆圆心，则有 \$OI^2=R^2-2Rr\$.
 
-- 欧拉线定理：三角形的外心 []{.arithmatex}$O$，垂心 []{.arithmatex}$H$，重心 []{.arithmatex}$G$ 依次位于同一直线上，且重心到外心的距离是重心到垂心的距离的一半，即
+- 欧拉线定理：三角形的外心 \$O\$，垂心 \$H\$，重心 \$G\$ 依次位于同一直线上，且重心到外心的距离是重心到垂心的距离的一半，即
 
 \$\$ \overrightarrow{OG}=\frac{1}{3}\overrightarrow{OH}=\frac{1}{3}(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}) \$\$
 
@@ -325,91 +187,43 @@ $$S_{\triangle BOC}\cdot\overrightarrow{OA}+S_{\triangle AOC}\cdot\overrightarro
 
 一般形式：
 
-- 已知平面上非零向量 []{.arithmatex}$\boldsymbol{a}$ 与 []{.arithmatex}$\boldsymbol{b}$，则 []{.arithmatex}$\boldsymbol{a} \cdot \boldsymbol{b} = \dfrac{1}{4}(|\boldsymbol{a} + \boldsymbol{b}|^2 - |\boldsymbol{a} - \boldsymbol{b}|^2)$。
+- 已知平面上非零向量 \$\boldsymbol{a}\$ 与 \$\boldsymbol{b}\$，则 \$\boldsymbol{a} \cdot \boldsymbol{b} = \dfrac{1}{4}(\|\boldsymbol{a} + \boldsymbol{b}\|\^2 - \|\boldsymbol{a} - \boldsymbol{b}\|\^2)\$。
 
-- 在 []{.arithmatex}$\triangle ABC$ 中，若 []{.arithmatex}$M$ 是 []{.arithmatex}$BC$ 的中点，则 []{.arithmatex}$\overrightarrow{AB} \cdot \overrightarrow{AC} = |\overrightarrow{AM}|^2 - \dfrac{1}{4}|\overrightarrow{BC}|^2$。
+- 在 \$\triangle ABC\$ 中，若 \$M\$ 是 \$BC\$ 的中点，则 \$\overrightarrow{AB} \cdot \overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}} = \|\overrightarrow{AM}\|\^2 - \dfrac{1}{4}\|\overrightarrow{BC}\|\^2\$。
 
-在 []{.arithmatex}$\triangle ABC$ 中，对于共起点的数量积 []{.arithmatex}$\overrightarrow{AB} \cdot \overrightarrow{AC}$ 的求解问题，我们首先想到的是找出 []{.arithmatex}$BC$ 的中点 []{.arithmatex}$M$，则
+在 \$\triangle ABC\$ 中，对于共起点的数量积 \$\overrightarrow{AB} \cdot \overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}}\$ 的求解问题，我们首先想到的是找出 \$BC\$ 的中点 \$M\$，则
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\overrightarrow{AM} = \dfrac{1}{2}(\overrightarrow{AB} + \overrightarrow{AC})
-:::
-
-$$\overrightarrow{AM} = \dfrac{1}{2}(\overrightarrow{AB} + \overrightarrow{AC})$$
-::::
+\$\$ \overrightarrow{AM} = \dfrac{1}{2}(\overrightarrow{AB} + \overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}}) \$\$
 
 所以
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\overrightarrow{AB} \cdot \overrightarrow{AC} = \left\[\dfrac{1}{2}(\overrightarrow{AB} + \overrightarrow{AC})\right\]\^2 - \dfrac{1}{4}\|\overrightarrow{BC}\|\^2
-:::
+\$\$ \overrightarrow{AB} \cdot \overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}} = \left\[\dfrac{1}{2}(\overrightarrow{AB} + \overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}})\right\]\^2 - \dfrac{1}{4}\|\overrightarrow{BC}\|\^2 \$\$
 
-$$\overrightarrow{AB} \cdot \overrightarrow{AC} = \left[\dfrac{1}{2}(\overrightarrow{AB} + \overrightarrow{AC})\right]^2 - \dfrac{1}{4}|\overrightarrow{BC}|^2$$
-::::
+化简整理便可得到如下结论：在 \$\triangle ABC\$ 中，
 
-化简整理便可得到如下结论：在 []{.arithmatex}$\triangle ABC$ 中，
+\$\$ 2\overrightarrow{AB} \cdot \overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}} = \|\overrightarrow{AB}\|\^2 + \|\overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}}\|\^2 - \|\overrightarrow{BC}\|\^2 \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-2\overrightarrow{AB} \cdot \overrightarrow{AC} = \|\overrightarrow{AB}\|\^2 + \|\overrightarrow{AC}\|\^2 - \|\overrightarrow{BC}\|\^2
-:::
+任何事物都是由特殊再到一般，我们研究平面几何问题更多的是在研究三角形，因为三角形是我们接触最多也是最熟悉的，然后由三角形再延伸到四边形问题。那么对于向量余弦式是否也可以延伸到四边形呢？我们知道四边形通过对角线是可以分割成三角形的，下面一起来探讨这个问题。在平面四边形 \$ABCD\$ 中，它可以由 \$\triangle ABC\$ 与 \$\triangle ACD\$ 组成，则在 \$\triangle ABC\$ 中，由向量余弦式可得
 
-$$2\overrightarrow{AB} \cdot \overrightarrow{AC} = |\overrightarrow{AB}|^2 + |\overrightarrow{AC}|^2 - |\overrightarrow{BC}|^2$$
-::::
+\$\$ \overrightarrow{AB} \cdot \overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}} = \dfrac{\|\overrightarrow{AB}\|\^2 + \|\overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}}\|\^2 - \|\overrightarrow{BC}\|\^2}{2} \$\$
 
-任何事物都是由特殊再到一般，我们研究平面几何问题更多的是在研究三角形，因为三角形是我们接触最多也是最熟悉的，然后由三角形再延伸到四边形问题。那么对于向量余弦式是否也可以延伸到四边形呢？我们知道四边形通过对角线是可以分割成三角形的，下面一起来探讨这个问题。在平面四边形 []{.arithmatex}$ABCD$ 中，它可以由 []{.arithmatex}$\triangle ABC$ 与 []{.arithmatex}$\triangle ACD$ 组成，则在 []{.arithmatex}$\triangle ABC$ 中，由向量余弦式可得
+那么在 \$\triangle ACD\$ 中，则向量余弦式可得
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\overrightarrow{AB} \cdot \overrightarrow{AC} = \dfrac{\|\overrightarrow{AB}\|\^2 + \|\overrightarrow{AC}\|\^2 - \|\overrightarrow{BC}\|\^2}{2}
-:::
-
-$$\overrightarrow{AB} \cdot \overrightarrow{AC} = \dfrac{|\overrightarrow{AB}|^2 + |\overrightarrow{AC}|^2 - |\overrightarrow{BC}|^2}{2}$$
-::::
-
-那么在 []{.arithmatex}$\triangle ACD$ 中，则向量余弦式可得
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\overrightarrow{AD} \cdot \overrightarrow{AC} = \dfrac{\|\overrightarrow{AD}\|\^2 + \|\overrightarrow{AC}\|\^2 - \|\overrightarrow{DC}\|\^2}{2}
-:::
-
-$$\overrightarrow{AD} \cdot \overrightarrow{AC} = \dfrac{|\overrightarrow{AD}|^2 + |\overrightarrow{AC}|^2 - |\overrightarrow{DC}|^2}{2}$$
-::::
+\$\$ \overrightarrow{AD} \cdot \overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}} = \dfrac{\|\overrightarrow{AD}\|\^2 + \|\overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}}\|\^2 - \|\overrightarrow{[DC]{.abbr title="Direct Current (直流电)"}}\|\^2}{2} \$\$
 
 两式相减可得
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\overrightarrow{AD} \cdot \overrightarrow{AC} - \overrightarrow{AB} \cdot \overrightarrow{AC} = \dfrac{\|\overrightarrow{AD}\|\^2 + \|\overrightarrow{AC}\|\^2 - \|\overrightarrow{DC}\|\^2}{2} - \dfrac{\|\overrightarrow{AB}\|\^2 + \|\overrightarrow{AC}\|\^2 - \|\overrightarrow{BC}\|\^2}{2}
-:::
-
-$$\overrightarrow{AD} \cdot \overrightarrow{AC} - \overrightarrow{AB} \cdot \overrightarrow{AC} = \dfrac{|\overrightarrow{AD}|^2 + |\overrightarrow{AC}|^2 - |\overrightarrow{DC}|^2}{2} - \dfrac{|\overrightarrow{AB}|^2 + |\overrightarrow{AC}|^2 - |\overrightarrow{BC}|^2}{2}$$
-::::
+\$\$ \overrightarrow{AD} \cdot \overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}} - \overrightarrow{AB} \cdot \overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}} = \dfrac{\|\overrightarrow{AD}\|\^2 + \|\overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}}\|\^2 - \|\overrightarrow{[DC]{.abbr title="Direct Current (直流电)"}}\|\^2}{2} - \dfrac{\|\overrightarrow{AB}\|\^2 + \|\overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}}\|\^2 - \|\overrightarrow{BC}\|\^2}{2} \$\$
 
 整理后可得
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\overrightarrow{AC} \cdot \overrightarrow{BD} = \dfrac{\|\overrightarrow{AD}\|\^2 + \|\overrightarrow{BC}\|\^2 - \|\overrightarrow{AB}\|\^2 - \|\overrightarrow{CD}\|\^2}{2}
-:::
-
-$$\overrightarrow{AC} \cdot \overrightarrow{BD} = \dfrac{|\overrightarrow{AD}|^2 + |\overrightarrow{BC}|^2 - |\overrightarrow{AB}|^2 - |\overrightarrow{CD}|^2}{2}$$
-::::
+\$\$ \overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}} \cdot \overrightarrow{BD} = \dfrac{\|\overrightarrow{AD}\|\^2 + \|\overrightarrow{BC}\|\^2 - \|\overrightarrow{AB}\|\^2 - \|\overrightarrow{CD}\|\^2}{2} \$\$
 
 这就得到了平面四边形的向量余弦式的形式。
 
-在四边形 []{.arithmatex}$ABCD$ 中，
+在四边形 \$ABCD\$ 中，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\overrightarrow{AC} \cdot \overrightarrow{BD} = \dfrac{\|\overrightarrow{AD}\|\^2 + \|\overrightarrow{BC}\|\^2 - \|\overrightarrow{AB}\|\^2 - \|\overrightarrow{CD}\|\^2}{2}
-:::
-
-$$\overrightarrow{AC} \cdot \overrightarrow{BD} = \dfrac{|\overrightarrow{AD}|^2 + |\overrightarrow{BC}|^2 - |\overrightarrow{AB}|^2 - |\overrightarrow{CD}|^2}{2}$$
-::::
+\$\$ \overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}} \cdot \overrightarrow{BD} = \dfrac{\|\overrightarrow{AD}\|\^2 + \|\overrightarrow{BC}\|\^2 - \|\overrightarrow{AB}\|\^2 - \|\overrightarrow{CD}\|\^2}{2} \$\$
 
 这个结论也称之为对角线定理，它不仅仅可以在平面四边形中得到应用，还可以推广到空间四边形的情形。
 
@@ -417,13 +231,7 @@ $$\overrightarrow{AC} \cdot \overrightarrow{BD} = \dfrac{|\overrightarrow{AD}|^2
 
 特殊的，中点的向量方程：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\vecc{AD}=\dfrac12\vecc{AB}+\dfrac12\vecc{AC}
-:::
-
-$$\vecc{AD}=\dfrac12\vecc{AB}+\dfrac12\vecc{AC}$$
-::::
+\$\$ \vecc{AD}=\dfrac12\vecc{AB}+\dfrac12\vecc{[AC]{.abbr title="Alternating Current (交流电)"}} \$\$
 
 ![交叉定理](../image.avif){width="100%"}
 
@@ -431,39 +239,21 @@ $$\vecc{AD}=\dfrac12\vecc{AB}+\dfrac12\vecc{AC}$$
 
 ### 重心及其性质 {#_18}
 
-重心：三角形三边中线交点，在平面直角坐标系中，重心的坐标是顶点坐标的算术平均，也就是说对于平面内任意一点 []{.arithmatex}$P$：
+重心：三角形三边中线交点，在平面直角坐标系中，重心的坐标是顶点坐标的算术平均，也就是说对于平面内任意一点 \$P\$：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\vecc{PG}=\dfrac13\left(\vecc{PA}+\vecc{PB}+\vecc{PC}\right)
-:::
-
-$$\vecc{PG}=\dfrac13\left(\vecc{PA}+\vecc{PB}+\vecc{PC}\right)$$
-::::
+\$\$ \vecc{PG}=\dfrac13\left(\vecc{PA}+\vecc{PB}+\vecc{PC}\right) \$\$
 
 重心和三角形任意两个顶点组成的三个三角形面积相等，而重心到三条边的距离与三条边的长成反比。
 
 根据奔驰定理，有三角形重心到其各个顶点向量之和为零。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\vecc{GA}+\vecc{GB}+\vecc{GC}=\vec 0
-:::
-
-$$\vecc{GA}+\vecc{GB}+\vecc{GC}=\vec 0$$
-::::
+\$\$ \vecc{GA}+\vecc{GB}+\vecc{GC}=\vec 0 \$\$
 
 特性：一个三角形的重心同时也是其中点三角形的重心，中位线证明。
 
-根据是中线的性质，做 []{.arithmatex}$AG$ 并延长交 []{.arithmatex}$BC$ 于点 []{.arithmatex}$H$，则：
+根据是中线的性质，做 \$AG\$ 并延长交 \$BC\$ 于点 \$H\$，则：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\dfrac{AG}{GH}=\dfrac21
-:::
-
-$$\dfrac{AG}{GH}=\dfrac21$$
-::::
+\$\$ \dfrac{AG}{GH}=\dfrac21 \$\$
 
 特殊的，重心到三边距离之积最大、到三角形三个顶点距离的平方和最小。
 
@@ -471,33 +261,15 @@ $$\dfrac{AG}{GH}=\dfrac21$$
 
 内心为三角形内切圆圆心，因此为三个角的角平分线交点：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\vecc{AI}=\lambda\left(\dfrac{\vecc{AB}}{\|\vecc{AB}}+\dfrac{\vecc{AC}}{\|\vecc{AC}\|}\right)
-:::
-
-$$\vecc{AI}=\lambda\left(\dfrac{\vecc{AB}}{|\vecc{AB}}+\dfrac{\vecc{AC}}{|\vecc{AC}|}\right)$$
-::::
+\$\$ \vecc{AI}=\lambda\left(\dfrac{\vecc{AB}}{\|\vecc{AB}}+\dfrac{\vecc{[AC]{.abbr title="Alternating Current (交流电)"}}}{\|\vecc{[AC]{.abbr title="Alternating Current (交流电)"}}\|}\right) \$\$
 
 有奔驰定理的形式：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\sin A\cdot\vecc{IA}+\sin B\cdot\vecc{IB}+\sin C\cdot\vecc{IC}=\vec 0
-:::
-
-$$\sin A\cdot\vecc{IA}+\sin B\cdot\vecc{IB}+\sin C\cdot\vecc{IC}=\vec 0$$
-::::
+\$\$ \sin A\cdot\vecc{IA}+\sin B\cdot\vecc{IB}+\sin C\cdot\vecc{IC}=\vec 0 \$\$
 
 三角形的内心到边的距离（即内切圆的半径）与三边长及面积之间有关系：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-r_内=\dfrac{2S}{a+b+c}=\dfrac{2S}{C}
-:::
-
-$$r_内=\dfrac{2S}{a+b+c}=\dfrac{2S}{C}$$
-::::
+\$\$ r_内=\dfrac{2S}{a+b+c}=\dfrac{2S}{C} \$\$
 
 可以连接内心与三顶点，等面积法求解。
 
@@ -505,33 +277,15 @@ $$r_内=\dfrac{2S}{a+b+c}=\dfrac{2S}{C}$$
 
 外心为三角形外接圆圆心，因此为三边中垂线交点，不一定在三角形内部，到三角形三点距离相等。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\vecc{OA}\^2=\vecc{OB}\^2=\vecc{OC}\^2
-:::
-
-$$\vecc{OA}^2=\vecc{OB}^2=\vecc{OC}^2$$
-::::
+\$\$ \vecc{OA}^2=\vecc{OB}^2=\vecc{OC}\^2 \$\$
 
 有奔驰定理的形式：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\sin2A\cdot\vecc{OA}+\sin2B\cdot\vecc{OB}+\sin2C\cdot\vecc{OC}=\vec 0
-:::
-
-$$\sin2A\cdot\vecc{OA}+\sin2B\cdot\vecc{OB}+\sin2C\cdot\vecc{OC}=\vec 0$$
-::::
+\$\$ \sin2A\cdot\vecc{OA}+\sin2B\cdot\vecc{OB}+\sin2C\cdot\vecc{OC}=\vec 0 \$\$
 
 而，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-R_外={abc\over4S}
-:::
-
-$$R_外={abc\over4S}$$
-::::
+\$\$ R_外={abc\over4S} \$\$
 
 - 当三角形为锐角三角形时，外心在三角形内部。
 
@@ -539,31 +293,15 @@ $$R_外={abc\over4S}$$
 
 - 当三角形为直角三角形时，外心在斜边的中点上。
 
-锐角三角形外心到三边距离之和等于 []{.arithmatex}$R+r$。
+锐角三角形外心到三边距离之和等于 \$R+r\$。
 
 证明：等价于证
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-R(\cos A+\cos B+\cos C)=R+r
-:::
-
-$$R(\cos A+\cos B+\cos C)=R+r$$
-::::
+\$\$ R(\cos A+\cos B+\cos C)=R+r \$\$
 
 我们知道
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} S\_{\Delta ABC}&=\frac{1}{2}(a+b+c)r\\ &=S\_{\Delta OAB}+S\_{\Delta OAC}+S\_{\Delta OBC}\\ &=\frac{1}{2}R(a\cos A+b\cos B+c\cos C) \end{aligned}
-:::
-
-$$\begin{aligned}
-S_{\Delta ABC}&=\frac{1}{2}(a+b+c)r\\
-&=S_{\Delta OAB}+S_{\Delta OAC}+S_{\Delta OBC}\\
-&=\frac{1}{2}R(a\cos A+b\cos B+c\cos C)
-\end{aligned}$$
-::::
+\$\$ \begin{aligned} S\_{\Delta ABC}&=\frac{1}{2}(a+b+c)r\\ &=S\_{\Delta OAB}+S\_{\Delta OAC}+S\_{\Delta OBC}\\ &=\frac{1}{2}R(a\cos A+b\cos B+c\cos C) \end{aligned} \$\$
 
 联立上两式（相乘），直接展开易知等式成立。
 
@@ -571,157 +309,73 @@ S_{\Delta ABC}&=\frac{1}{2}(a+b+c)r\\
 
 垂心是三角形三边垂线的交点，因此有点积为零。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\vecc{HA}\cdot{BC}=\vecc{HB}\cdot\vecc{AC}=\vecc{HC}\cdot\vecc{AB}=0
-:::
-
-$$\vecc{HA}\cdot{BC}=\vecc{HB}\cdot\vecc{AC}=\vecc{HC}\cdot\vecc{AB}=0$$
-::::
+\$\$ \vecc{HA}\cdot{BC}=\vecc{HB}\cdot\vecc{[AC]{.abbr title="Alternating Current (交流电)"}}=\vecc{HC}\cdot\vecc{AB}=0 \$\$
 
 两两整理，得到：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\vecc{HA}\cdot\vecc{HB}=\vecc{HB}\cdot\vecc{HC}=\vecc{HC}\cdot\vecc{HA}
-:::
-
-$$\vecc{HA}\cdot\vecc{HB}=\vecc{HB}\cdot\vecc{HC}=\vecc{HC}\cdot\vecc{HA}$$
-::::
+\$\$ \vecc{HA}\cdot\vecc{HB}=\vecc{HB}\cdot\vecc{HC}=\vecc{HC}\cdot\vecc{HA} \$\$
 
 有奔驰定理的形式：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\tan A\cdot\vecc{HA}+\tan B\cdot\vecc{HB}+\tan C\cdot\vecc{HC}=\vec 0
-:::
+\$\$ \tan A\cdot\vecc{HA}+\tan B\cdot\vecc{HB}+\tan C\cdot\vecc{HC}=\vec 0 \$\$
 
-$$\tan A\cdot\vecc{HA}+\tan B\cdot\vecc{HB}+\tan C\cdot\vecc{HC}=\vec 0$$
-::::
+而垂心到三角形一顶点距离等于此三角形外心到此顶点对边距离的 \$2\$ 倍。
 
-而垂心到三角形一顶点距离等于此三角形外心到此顶点对边距离的 []{.arithmatex}$2$ 倍。
-
-三角形外心 []{.arithmatex}$O$、重心 []{.arithmatex}$G$、垂心 []{.arithmatex}$H$ 三点共线且 []{.arithmatex}$OG:GH=1:2$ 此直线称为三角形的欧拉线。
+三角形外心 \$O\$、重心 \$G\$、垂心 \$H\$ 三点共线且 \$OG:GH=1:2\$ 此直线称为三角形的欧拉线。
 
 ## 三角形三线 {#_22}
 
 ### 中线长定理 {#_23}
 
-在 []{.arithmatex}$\triangle ABC$ 中，[]{.arithmatex}$BC$ 的中点为 []{.arithmatex}$M$，对于中线 []{.arithmatex}$AM$，有：
+在 \$\triangle ABC\$ 中，\$BC\$ 的中点为 \$M\$，对于中线 \$AM\$，有：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-AM\^2={1\over2}b\^2+{1\over2}c\^2-{1\over4}a\^2
-:::
-
-$$AM^2={1\over2}b^2+{1\over2}c^2-{1\over4}a^2$$
-::::
+\$\$ AM^2={1\over2}b^2+{1\over2}c^2-{1\over4}a^2 \$\$
 
 或，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-AM\^2+BM\^2={1\over2}(AC\^2+AB\^2)
-:::
-
-$$AM^2+BM^2={1\over2}(AC^2+AB^2)$$
-::::
+\$\$ AM^2+BM^2={1\over2}([AC]{.abbr title="Alternating Current (交流电)"}^2+AB^2) \$\$
 
 或，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-AM={1\over2}\sqrt{2b\^2+2c\^2-a\^2}
-:::
-
-$$AM={1\over2}\sqrt{2b^2+2c^2-a^2}$$
-::::
+\$\$ AM={1\over2}\sqrt{2b^2+2c^2-a\^2} \$\$
 
 证明，基底分解：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\overrightarrow{AM}={1\over2}\overrightarrow{AB}+{1\over2}\overrightarrow{AC}\\\[0.5em\] \overrightarrow{BM}={1\over2}\overrightarrow{AC}-{1\over2}\overrightarrow{AB}
-:::
-
-$$\overrightarrow{AM}={1\over2}\overrightarrow{AB}+{1\over2}\overrightarrow{AC}\\[0.5em]
-\overrightarrow{BM}={1\over2}\overrightarrow{AC}-{1\over2}\overrightarrow{AB}$$
-::::
+\$\$ \overrightarrow{AM}={1\over2}\overrightarrow{AB}+{1\over2}\overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}}\\0.5em\] \overrightarrow{BM}={1\over2}\overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}}-{1\over2}\overrightarrow{AB} \$\$
 
 则，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\|\overrightarrow{AM}\|\^2+\|\overrightarrow{BM}\|\^2={1\over2}\|\overrightarrow{AB}\|\^2+{1\over2}\|\overrightarrow{AC}\|\^2
-:::
-
-$$|\overrightarrow{AM}|^2+|\overrightarrow{BM}|^2={1\over2}|\overrightarrow{AB}|^2+{1\over2}|\overrightarrow{AC}|^2$$
-::::
+\$\$ \|\overrightarrow{AM}\|^2+\|\overrightarrow{BM}\|^2={1\over2}\|\overrightarrow{AB}\|^2+{1\over2}\|\overrightarrow{[AC]{.abbr title="Alternating Current (交流电)"}}\|^2 \$\$
 
 或者中点两个底角分别列余弦定理，相加化简。
 
 ### 分角定理 {#_24}
 
-在 []{.arithmatex}$\triangle ABC$ 中，[]{.arithmatex}$BC$ 上有一点 []{.arithmatex}$M$，则：
+在 \$\triangle ABC\$ 中，\$BC\$ 上有一点 \$M\$，则：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-{BM\over CM}={AB\sin\angle BAM\over AC\sin\angle CAM}
-:::
-
-$${BM\over CM}={AB\sin\angle BAM\over AC\sin\angle CAM}$$
-::::
+\$\$ {BM\over CM}={AB\sin\angle BAM\over [AC]{.abbr title="Alternating Current (交流电)"}\sin\angle CAM} \$\$
 
 证明，左右两边等面积法：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-{BM\over CM}={S\_{\triangle ABM}\over S\_{\triangle ACM}}={AB\cdot AM\sin\angle BAM\over AC\cdot AM\sin\angle CAM}={AB\sin\angle BAM\over AC\sin\angle CAM}
-:::
-
-$${BM\over CM}={S_{\triangle ABM}\over S_{\triangle ACM}}={AB\cdot AM\sin\angle BAM\over AC\cdot AM\sin\angle CAM}={AB\sin\angle BAM\over AC\sin\angle CAM}$$
-::::
+\$\$ {BM\over CM}={S\_{\triangle ABM}\over S\_{\triangle ACM}}={AB\cdot AM\sin\angle BAM\over [AC]{.abbr title="Alternating Current (交流电)"}\cdot AM\sin\angle CAM}={AB\sin\angle BAM\over [AC]{.abbr title="Alternating Current (交流电)"}\sin\angle CAM} \$\$
 
 或正弦定理：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-{BM\over\sin\angle BAM}={AB\over\sin\angle AMB}\\\[0.5em\] {CM\over\sin\angle CAM}={AC\over\sin\angle AMC}
-:::
-
-$${BM\over\sin\angle BAM}={AB\over\sin\angle AMB}\\[0.5em]
-{CM\over\sin\angle CAM}={AC\over\sin\angle AMC}$$
-::::
+\$\$ {BM\over\sin\angle BAM}={AB\over\sin\angle AMB}\\0.5em\] {CM\over\sin\angle CAM}={[AC]{.abbr title="Alternating Current (交流电)"}\over\sin\angle AMC} \$\$
 
 上下做比。
 
 ### 角平分线定理 {#_25}
 
-在 []{.arithmatex}$\triangle ABC$ 中，[]{.arithmatex}$\angle A$ 的平分线 []{.arithmatex}$AM$，有：
+在 \$\triangle ABC\$ 中，\$\angle A\$ 的平分线 \$AM\$，有：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-{BM\over CM}={AB\over AC}
-:::
-
-$${BM\over CM}={AB\over AC}$$
-::::
+\$\$ {BM\over CM}={AB\over [AC]{.abbr title="Alternating Current (交流电)"}} \$\$
 
 是分角定理的直接推论。
 
 ### 角平分线长定理 {#_26}
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} AD&=\sqrt{AB\cdot AC-BD\cdot CD}\\ &=\sqrt{bc\left(1-{a\^2\over(b+c)\^2}\right)}\\ &={2bc\over b+c}\cos{A\over2} \end{aligned}
-:::
-
-$$\begin{aligned}
-AD&=\sqrt{AB\cdot AC-BD\cdot CD}\\
-&=\sqrt{bc\left(1-{a^2\over(b+c)^2}\right)}\\
-&={2bc\over b+c}\cos{A\over2}
-\end{aligned}$$
-::::
+\$\$ \begin{aligned} AD&=\sqrt{AB\cdot [AC]{.abbr title="Alternating Current (交流电)"}-BD\cdot CD}\\ &=\sqrt{bc\left(1-{a^2\over(b+c)^2}\right)}\\ &={2bc\over b+c}\cos{A\over2} \end{aligned} \$\$
 
 ## 边长公式 {#_27}
 
@@ -729,87 +383,39 @@ AD&=\sqrt{AB\cdot AC-BD\cdot CD}\\
 
 射影定理表示为：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-a=b\cos C+c\cos B
-:::
-
-$$a=b\cos C+c\cos B$$
-::::
+\$\$ a=b\cos C+c\cos B \$\$
 
 在初中我们学习过影高乘积等于树高平方的射影定理。
 
-在 []{.arithmatex}$\triangle ABC$ 中 []{.arithmatex}$BC$ 上的高为 []{.arithmatex}$AD$，则：
+在 \$\triangle ABC\$ 中 \$BC\$ 上的高为 \$AD\$，则：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-AB\^2=BD\cdot BC
-:::
+\$\$ AB\^2=BD\cdot BC \$\$
 
-$$AB^2=BD\cdot BC$$
-::::
+\$\$ AD\^2=BD\cdot CD \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-AD\^2=BD\cdot CD
-:::
-
-$$AD^2=BD\cdot CD$$
-::::
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-AC\^2=BC\cdot CD
-:::
-
-$$AC^2=BC\cdot CD$$
-::::
+\$\$ [AC]{.abbr title="Alternating Current (交流电)"}\^2=BC\cdot CD \$\$
 
 ### 斯图尔特定理 {#_29}
 
-又译斯台沃特定理，在 []{.arithmatex}$\triangle ABC$ 边 []{.arithmatex}$BC$ 上任意一点 []{.arithmatex}$D$，
+又译斯台沃特定理，在 \$\triangle ABC\$ 边 \$BC\$ 上任意一点 \$D\$，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-AB\^2\cdot CD+AC\^2\cdot BD-AD\^2\cdot BC=BD\cdot CD\cdot BC
-:::
-
-$$AB^2\cdot CD+AC^2\cdot BD-AD^2\cdot BC=BD\cdot CD\cdot BC$$
-::::
+\$\$ AB\^2\cdot CD+[AC]{.abbr title="Alternating Current (交流电)"}\^2\cdot BD-AD\^2\cdot BC=BD\cdot CD\cdot BC \$\$
 
 可以由两次余弦定理推导得出。
 
 ### 平行四边形恒等式 {#_30}
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-AB\^2+BC\^2+CD\^2+AD\^2=AC\^2+BD\^2
-:::
-
-$$AB^2+BC^2+CD^2+AD^2=AC^2+BD^2$$
-::::
+\$\$ AB^2+BC^2+CD^2+AD^2=[AC]{.abbr title="Alternating Current (交流电)"}^2+BD^2 \$\$
 
 对于一般的四边形，等式不成立，但是有不等式：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-AB\^2+BC\^2+CD\^2+AD\^2\ge AC\^2+BD\^2
-:::
+\$\$ AB^2+BC^2+CD^2+AD^2\ge [AC]{.abbr title="Alternating Current (交流电)"}^2+BD^2 \$\$
 
-$$AB^2+BC^2+CD^2+AD^2\ge AC^2+BD^2$$
-::::
+或者设 \$x\$ 表示两条对角线中点所连线段的长度：
 
-或者设 []{.arithmatex}$x$ 表示两条对角线中点所连线段的长度：
+\$\$ AB^2+BC^2+CD^2+AD^2=[AC]{.abbr title="Alternating Current (交流电)"}^2+BD^2+4x\^2 \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-AB\^2+BC\^2+CD\^2+AD\^2=AC\^2+BD\^2+4x\^2
-:::
-
-$$AB^2+BC^2+CD^2+AD^2=AC^2+BD^2+4x^2$$
-::::
-
-注意到平行四边形对角线互相平分，即 []{.arithmatex}$x=0$，可得上面的第一个恒等式。
+注意到平行四边形对角线互相平分，即 \$x=0\$，可得上面的第一个恒等式。
 
 ### 边元塞瓦定理 {#_31}
 
@@ -819,19 +425,13 @@ $$AB^2+BC^2+CD^2+AD^2=AC^2+BD^2+4x^2$$
 
 ### 梅涅劳斯定理 {#_32}
 
-一直线与 []{.arithmatex}$\triangle ABC$ 的三边 []{.arithmatex}$AB,BC,AC$ 或他们的延长线分别交于 []{.arithmatex}$X,Y,Z$ 三点，则：
+一直线与 \$\triangle ABC\$ 的三边 \$AB,BC,[AC]{.abbr title="Alternating Current (交流电)"}\$ 或他们的延长线分别交于 \$X,Y,Z\$ 三点，则：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\dfrac{AX}{XB}\cdot\dfrac{BY}{YC}\cdot\dfrac{CZ}{ZA}=0
-:::
-
-$$\dfrac{AX}{XB}\cdot\dfrac{BY}{YC}\cdot\dfrac{CZ}{ZA}=0$$
-::::
+\$\$ \dfrac{AX}{XB}\cdot\dfrac{BY}{YC}\cdot\dfrac{CZ}{ZA}=0 \$\$
 
 ![梅涅劳斯定理](../%E6%A2%85%E6%B6%85%E5%8A%B3%E6%96%AF%E5%AE%9A%E7%90%86.avif){width="70%"}
 
-梅涅劳斯定理的逆定理表示为，满足上述式子，则 []{.arithmatex}$X,Y,Z$ 三点共线。
+梅涅劳斯定理的逆定理表示为，满足上述式子，则 \$X,Y,Z\$ 三点共线。
 
 ## 面积公式 {#_33}
 
@@ -839,61 +439,28 @@ $$\dfrac{AX}{XB}\cdot\dfrac{BY}{YC}\cdot\dfrac{CZ}{ZA}=0$$
 
 任意三角形面积可以表示为：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} S&=\sqrt{p(p-a)(p-b)(p-c)}\\ p&={a+b+c\over2} \end{aligned}
-:::
-
-$$\begin{aligned}
-S&=\sqrt{p(p-a)(p-b)(p-c)}\\
-p&={a+b+c\over2}
-\end{aligned}$$
-::::
+\$\$ \begin{aligned} S&=\sqrt{p(p-a)(p-b)(p-c)}\\ p&={a+b+c\over2} \end{aligned} \$\$
 
 即：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-S=\dfrac14\sqrt{(a+b+c)(a+b-c)(a-b+c)(-a+b+c)}
-:::
+\$\$ S=\dfrac14\sqrt{(a+b+c)(a+b-c)(a-b+c)(-a+b+c)} \$\$
 
-$$S=\dfrac14\sqrt{(a+b+c)(a+b-c)(a-b+c)(-a+b+c)}$$
-::::
-
-其中 []{.arithmatex}$p$ 为三角形的半周长。
+其中 \$p\$ 为三角形的半周长。
 
 ### 布雷特施奈德公式 {#_35}
 
 任意四边形面积可以表示为：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} S&=\sqrt{(p-a)(p-b)(p-c)(p-d)-abcd\cos\^2{\alpha+\beta\over2}}\\ p&={a+b+c+d\over2} \end{aligned}
-:::
+\$\$ \begin{aligned} S&=\sqrt{(p-a)(p-b)(p-c)(p-d)-abcd\cos\^2{\alpha+\beta\over2}}\\ p&={a+b+c+d\over2} \end{aligned} \$\$
 
-$$\begin{aligned}
-S&=\sqrt{(p-a)(p-b)(p-c)(p-d)-abcd\cos^2{\alpha+\beta\over2}}\\
-p&={a+b+c+d\over2}
-\end{aligned}$$
-::::
-
-其中 []{.arithmatex}$p$ 为四边形的半周长，[]{.arithmatex}$\alpha,\beta$ 为其中二个对角。
+其中 \$p\$ 为四边形的半周长，\$\alpha,\beta\$ 为其中二个对角。
 
 布雷特施奈德公式可视为婆罗摩笈多公式之推广。
 
 ### 婆罗摩笈多公式 {#_36}
 
-注意到圆内接四边形对角互补，其半角余弦值为零，[]{.arithmatex}$\cos90^\circ=0$ 则圆内接四边形面积可以简化为：
+注意到圆内接四边形对角互补，其半角余弦值为零，\$\cos90\^\circ=0\$ 则圆内接四边形面积可以简化为：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} S&=\sqrt{(p-a)(p-b)(p-c)(p-d)}\\ p&={a+b+c+d\over2} \end{aligned}
-:::
+\$\$ \begin{aligned} S&=\sqrt{(p-a)(p-b)(p-c)(p-d)}\\ p&={a+b+c+d\over2} \end{aligned} \$\$
 
-$$\begin{aligned}
-S&=\sqrt{(p-a)(p-b)(p-c)(p-d)}\\
-p&={a+b+c+d\over2}
-\end{aligned}$$
-::::
-
-其中 []{.arithmatex}$p$ 为四边形的半周长。
+其中 \$p\$ 为四边形的半周长。

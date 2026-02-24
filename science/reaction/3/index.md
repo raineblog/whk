@@ -10,7 +10,7 @@
 
 - 常见的电解质：酸、碱、盐、金属氧化物、水。
 
-- 常见的非电解质：非金属氧化物（除了水）、[]{.arithmatex}$\ce{NH3}$、部分有机物。
+- 常见的非电解质：非金属氧化物（除了水）、\$\ce{NH3}\$、部分有机物。
 
 - 注意，单质和混合物无权参与电解质和非电解质的分类。
 
@@ -20,27 +20,27 @@
 - 与离子电荷量成正比。
 - 与离子的摩尔质量成反比。
 
-注意区分：能导电的物质有酸碱盐的水溶液、熔融的碱性氧化物、石墨和金属、[]{.arithmatex}$\ce{Fe(OH)3}$ 胶体。
+注意区分：能导电的物质有酸碱盐的水溶液、熔融的碱性氧化物、石墨和金属、\$\ce{Fe(OH)3}\$ 胶体。
 
 强电解质：
 
 - 在水中完全电离的电解质，称为强电解质。
 
-- 常见的强电解质有：强酸、强碱、大部分盐、活泼金属氧化物（[]{.arithmatex}$\ce{Na2O,Na2O2,CaO}$）。
+- 常见的强电解质有：强酸、强碱、大部分盐、活泼金属氧化物（\$\ce{Na2O,Na2O2,CaO}\$）。
 
-- 六大强酸：氢氯酸 []{.arithmatex}$\ce{HCl}$、氢溴酸 []{.arithmatex}$\ce{HBr}$、氢碘酸 []{.arithmatex}$\ce{HI}$、硫酸 []{.arithmatex}$\ce{H2SO4}$、硝酸 []{.arithmatex}$\ce{HNO3}$、高氯酸 []{.arithmatex}$\ce{HClO4}$。
+- 六大强酸：氢氯酸 \$\ce{HCl}\$、氢溴酸 \$\ce{HBr}\$、氢碘酸 \$\ce{HI}\$、硫酸 \$\ce{H2SO4}\$、硝酸 \$\ce{HNO3}\$、高氯酸 \$\ce{HClO4}\$。
 
 - 高氯酸是自然界最强的含氧酸，详见原子周期律部分。
 
-- 四大强碱：[]{.arithmatex}$\ce{KOH,NaOH,Ca(OH)2,Ba(OH)2}$。
+- 四大强碱：\$\ce{KOH,NaOH,Ca(OH)2,Ba(OH)2}\$。
 
 弱电解质：
 
 - 在水中不完全电离的电解质，称为弱电解质。
 
-- 常见的弱电解质有：弱酸、弱碱、极少数盐（[]{.arithmatex}$\ce{HgCl2,HgCl,(CH3COO)2Pb}$ 醋酸铅）、不活泼金属氧化物、水。
+- 常见的弱电解质有：弱酸、弱碱、极少数盐（\$\ce{HgCl2,HgCl,(CH3COO)2Pb}\$ 醋酸铅）、不活泼金属氧化物、水。
 
-- 要注意的是，氢氧化镁 []{.arithmatex}$\ce{Mg(OH)2}$ 属于中强碱，其属于强电解质还是弱电解质有争议。
+- 要注意的是，氢氧化镁 \$\ce{Mg(OH)2}\$ 属于中强碱，其属于强电解质还是弱电解质有争议。
 
 ### 离子反应 {#_4}
 
@@ -60,13 +60,7 @@
 
 例如：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\ce{CH3COONa + HCl = NaCl + CH3COOH}
-:::
-
-$$\ce{CH3COONa + HCl = NaCl + CH3COOH}$$
-::::
+\$\$ \ce{CH3COONa + HCl = NaCl + CH3COOH} \$\$
 
 也是强酸制弱酸的体现。
 
@@ -95,81 +89,33 @@ $$\ce{CH3COONa + HCl = NaCl + CH3COOH}$$
 
 对于一般的反应：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\ce{A_xB_y(aq) \<=\> xA\^y+ (aq) + yB\^x+ (aq)}
-:::
-
-$$\ce{A_xB_y(aq) <=> xA^y+ (aq) + yB^x+ (aq)}$$
-::::
+\$\$ \ce{A_xB_y(aq) \<=\> xA\^y+ (aq) + yB\^x+ (aq)} \$\$
 
 定义其达到平衡时电离常数：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-K_d=\dfrac{\con{A\^y+}\^x\con{B\^x+}\^y}{\con{A_xB_y}}
-:::
+\$\$ K_d=\dfrac{\con{A^y+}^x\con{B^x+}^y}{\con{A_xB_y}} \$\$
 
-$$K_d=\dfrac{\con{A^y+}^x\con{B^x+}^y}{\con{A_xB_y}}$$
-::::
-
-特别的，如果该物质为固体不溶物，则定义其溶度积（这与活度有关，高中不考虑）。电离常数通常用于配合平衡，例如 []{.arithmatex}$\ce{Fe^3+}$ 与 []{.arithmatex}$\ce{CN-}$ 的平衡。
+特别的，如果该物质为固体不溶物，则定义其溶度积（这与活度有关，高中不考虑）。电离常数通常用于配合平衡，例如 \$\ce{Fe\^3+}\$ 与 \$\ce{CN-}\$ 的平衡。
 
 ### 酸碱理论 {#_6}
 
-酸碱电离理论（电离酸碱理论）：酸在水中能产生氢离子（[]{.arithmatex}$\ce{H+}$），碱在水中能产生氢氧根离子（[]{.arithmatex}$\ce{OH-}$）。该理论适用于水溶液，便于区分强酸/强碱与弱酸/弱碱。
+酸碱电离理论（电离酸碱理论）：酸在水中能产生氢离子（\$\ce{H+}\$），碱在水中能产生氢氧根离子（\$\ce{OH-}\$）。该理论适用于水溶液，便于区分强酸/强碱与弱酸/弱碱。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\ce{HCl -\> H+ + Cl-}
-:::
+\$\$ \ce{HCl -\> H+ + Cl-} \$\$
 
-$$\ce{HCl -> H+ + Cl-}$$
-::::
+\$\$ \ce{NaOH -\> Na+ + OH-} \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\ce{NaOH -\> Na+ + OH-}
-:::
+酸碱质子理论（质子酸碱理论）：酸被定义为质子（\$\ce{H+}\$）供体，碱为质子受体。该理论不局限于水溶液，可处理溶剂中发生的质子转移反应，并引入共轭酸-碱对的概念。
 
-$$\ce{NaOH -> Na+ + OH-}$$
-::::
+\$\$ \ce{HCl + H2O -\> H3O+ + Cl-} \$\$
 
-酸碱质子理论（质子酸碱理论）：酸被定义为质子（[]{.arithmatex}$\ce{H+}$）供体，碱为质子受体。该理论不局限于水溶液，可处理溶剂中发生的质子转移反应，并引入共轭酸-碱对的概念。
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\ce{HCl + H2O -\> H3O+ + Cl-}
-:::
-
-$$\ce{HCl + H2O -> H3O+ + Cl-}$$
-::::
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\ce{NH3 + H2O \<=\> NH4+ + OH-}
-:::
-
-$$\ce{NH3 + H2O <=> NH4+ + OH-}$$
-::::
+\$\$ \ce{NH3 + H2O \<=\> NH4+ + OH-} \$\$
 
 酸碱电子理论（路易斯酸碱理论）：酸是电子对受纳体，碱是电子对给体。该理论范围最广，可解释不涉及质子转移的配位、加成反应等（如路易斯酸为空轨道或正电中心）。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\ce{BF3 + :NH3 -\> F3B-NH3}
-:::
+\$\$ \ce{BF3 + :NH3 -\> F3B-NH3} \$\$
 
-$$\ce{BF3 + :NH3 -> F3B-NH3}$$
-::::
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\ce{Ag+ + :NH3 -\> \[Ag(NH3)\]+}
-:::
-
-$$\ce{Ag+ + :NH3 -> [Ag(NH3)]+}$$
-::::
+\$\$ \ce{Ag+ + :NH3 -\> \[Ag(NH3)\]+} \$\$
 
 简要比较：酸碱电离理论只适用于水溶液的电离过程；酸碱质子理论扩展到所有质子转移反应；酸碱电子理论最通用，可描述所有以电子对相互作用为主的酸碱反应。
 
@@ -179,21 +125,21 @@ $$\ce{Ag+ + :NH3 -> [Ag(NH3)]+}$$
 
 然而，在真实的、尤其是浓度较高的溶液中，离子间的相互作用力（吸引和排斥）变得不可忽略。这种相互作用会束缚离子的自由运动，使其表现出的"有效浓度"低于其实际浓度。为了修正这种偏差，我们引入了**活度**的概念。
 
-- **活度**：可以理解为物质的"有效浓度"。活度 = 活度系数（[]{.arithmatex}$\gamma$）[]{.arithmatex}$\times$ 浓度（[]{.arithmatex}$c$）。
+- **活度**：可以理解为物质的"有效浓度"。活度 = 活度系数（\$\gamma\$）\$\times\$ 浓度（\$c\$）。
 
-- **活度系数**（[]{.arithmatex}$\gamma$）：是衡量真实溶液偏离理想溶液程度的参数。对于稀溶液，离子间距大，相互作用弱，[]{.arithmatex}$\gamma$ 接近于 []{.arithmatex}$1$，此时活度 []{.arithmatex}$\approx$ 浓度，因此高中阶段使用浓度进行计算是合理的近似。但对于浓溶液，离子间作用增强，[]{.arithmatex}$\gamma$ 会显著偏离 []{.arithmatex}$1$，此时必须使用活度才能准确描述化学平衡。
+- **活度系数**（\$\gamma\$）：是衡量真实溶液偏离理想溶液程度的参数。对于稀溶液，离子间距大，相互作用弱，\$\gamma\$ 接近于 \$1\$，此时活度 \$\approx\$ 浓度，因此高中阶段使用浓度进行计算是合理的近似。但对于浓溶液，离子间作用增强，\$\gamma\$ 会显著偏离 \$1\$，此时必须使用活度才能准确描述化学平衡。
 
 利用活度，我们可以解释盐效应：加入不含共同离子的"无关"盐类所产生的影响。
 
 **盐效应**：在难溶电解质的饱和溶液中，加入一种不含有共同离子的强电解质（即惰性盐），导致难溶电解质溶解度增大的现象。核心原理是离子氛和活度的概念。
 
-- 在纯水中，[]{.arithmatex}$\ce{AgCl}$ 溶解产生的 []{.arithmatex}$\ce{Ag+}$ 和 []{.arithmatex}$\ce{Cl-}$ 离子之间存在静电吸引力，这种吸引力会促使它们重新结合成 []{.arithmatex}$\ce{AgCl}$ 沉淀。
+- 在纯水中，\$\ce{AgCl}\$ 溶解产生的 \$\ce{Ag+}\$ 和 \$\ce{Cl-}\$ 离子之间存在静电吸引力，这种吸引力会促使它们重新结合成 \$\ce{AgCl}\$ 沉淀。
 
-- 当我们加入一种惰性盐，比如硝酸钾时，溶液中充满了大量的 []{.arithmatex}$\ce{K+}$ 和 []{.arithmatex}$\ce{NO3-}$ 离子。这些惰性离子会在 []{.arithmatex}$\ce{Ag+}$ 和 []{.arithmatex}$\ce{Cl-}$ 离子周围形成一个带相反电荷的"离子氛"。
+- 当我们加入一种惰性盐，比如硝酸钾时，溶液中充满了大量的 \$\ce{K+}\$ 和 \$\ce{NO3-}\$ 离子。这些惰性离子会在 \$\ce{Ag+}\$ 和 \$\ce{Cl-}\$ 离子周围形成一个带相反电荷的"离子氛"。
 
-- 这个离子氛部分地屏蔽了 []{.arithmatex}$\ce{Ag+}$ 和 []{.arithmatex}$\ce{Cl-}$ 之间的静电吸引力，使得它们结合成 []{.arithmatex}$\ce{AgCl}$ 沉淀的趋势变弱了。从热力学角度看，惰性盐增加了溶液的离子强度，导致离子的活度系数减小。
+- 这个离子氛部分地屏蔽了 \$\ce{Ag+}\$ 和 \$\ce{Cl-}\$ 之间的静电吸引力，使得它们结合成 \$\ce{AgCl}\$ 沉淀的趋势变弱了。从热力学角度看，惰性盐增加了溶液的离子强度，导致离子的活度系数减小。
 
-- 溶度积常数 []{.arithmatex}$K_{sp}$ 是由活度决定的，当活度系数 []{.arithmatex}$\gamma$ 减小时，为了维持 []{.arithmatex}$K_{sp}$ 不变，离子的摩尔浓度 []{.arithmatex}$c$ 就必须增大，难溶电解质的溶解度增大。
+- 溶度积常数 \$K\_{sp}\$ 是由活度决定的，当活度系数 \$\gamma\$ 减小时，为了维持 \$K\_{sp}\$ 不变，离子的摩尔浓度 \$c\$ 就必须增大，难溶电解质的溶解度增大。
 
 注意：
 
@@ -209,55 +155,37 @@ $$\ce{Ag+ + :NH3 -> [Ag(NH3)]+}$$
 
 我们知道水是一种特殊的弱电解质：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\ce{H2O + H2O \<=\> H3O+ + OH-}
-:::
-
-$$\ce{H2O + H2O <=> H3O+ + OH-}$$
-::::
+\$\$ \ce{H2O + H2O \<=\> H3O+ + OH-} \$\$
 
 这称为水的自偶电离，可以理解为氢离子（仅仅是一个质子）太小，通常会和一个水分子结合，在高中阶段通常简写为：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\ce{H2O(l) \<=\> H+(aq) + OH-(aq)};\quad\Delta H\>0
-:::
+\$\$ \ce{H2O(l) \<=\> H+(aq) + OH-(aq)};\quad\Delta H\>0 \$\$
 
-$$\ce{H2O(l) <=> H+(aq) + OH-(aq)};\quad\Delta H>0$$
-::::
+我们知道水作为纯液体，其浓度视为 \$1\$，可以得到**水的电离常数**：
 
-我们知道水作为纯液体，其浓度视为 []{.arithmatex}$1$，可以得到**水的电离常数**：
+\$\$ K_w=\con{H+}\con{OH-} \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-K_w=\con{H+}\con{OH-}
-:::
-
-$$K_w=\con{H+}\con{OH-}$$
-::::
-
-在常温下 []{.arithmatex}$K_w=\pu{1E-14}$，也就是说 []{.arithmatex}$\con{H+}=\con{OH-}=\pu{1E-7}$。而在接近沸腾的水中，一般取 []{.arithmatex}$\pu{E-12}$ 左右。
+在常温下 \$K_w=\pu{1E-14}\$，也就是说 \$\con{H+}=\con{OH-}=\pu{1E-7}\$。而在接近沸腾的水中，一般取 \$\pu{E-12}\$ 左右。
 
 ![alt text](../image-3.avif){width="100%"}
 
 在这一部分中，我们考虑六个经典问题（三个定性、两个定量和一个备注）：
 
-1.  **越热越电离**：温度越高，平衡正向移动，平衡常数增大，纯水中 []{.arithmatex}$\con{H+},\con{OH-}$ 均增大，平衡常数仅仅是温度的函数。
+1.  **越热越电离**：温度越高，平衡正向移动，平衡常数增大，纯水中 \$\con{H+},\con{OH-}\$ 均增大，平衡常数仅仅是温度的函数。
 
-2.  **酸碱抑制水的电离**：加入酸或碱，温度不变、平衡常数不变，[]{.arithmatex}$\con{H+}$ 或 []{.arithmatex}$\con{OH-}$ 增大但不抵消，平衡逆向移动。
+2.  **酸碱抑制水的电离**：加入酸或碱，温度不变、平衡常数不变，\$\con{H+}\$ 或 \$\con{OH-}\$ 增大但不抵消，平衡逆向移动。
 
 3.  **水解促进水的电离**：加入弱酸或弱碱对应的正盐，温度不变、平衡常数不变，氢离子或氢氧根被消耗，平衡逆向移动。
 
-    注意：如果不是正盐，则同时会发生电离和水解，此时需要比较电离和水解的强弱。例如，对于 []{.arithmatex}$\ce{NaHCO3}$，因为其水溶液呈碱性，故水解作用强于电离，故其会促进水的电离。
+    注意：如果不是正盐，则同时会发生电离和水解，此时需要比较电离和水解的强弱。例如，对于 \$\ce{NaHCO3}\$，因为其水溶液呈碱性，故水解作用强于电离，故其会促进水的电离。
 
     对于酸式盐：若电离更强，则相当于酸，故会抑制水的电离，其水溶液呈酸性；若水解更强，则相当于盐，故会促进水的电离，其水溶液成碱性。
 
 4.  **质子守恒**：由水电离出的氢离子和氢氧根物质的量相等，故浓度相等。
 
-5.  **任何溶液中** []{.arithmatex}$\con{H+}\cdot\con{OH-}=K_w$。
+5.  **任何溶液中** \$\con{H+}\cdot\con{OH-}=K_w\$。
 
-6.  **备注**：溶液中的 []{.arithmatex}$\ce{H+}/\ce{OH-}$ 与水电离出的氢离子和氢氧根物质的量不一定相等。此处会有一些计算题，但是我们放到 []{.arithmatex}$\pH$ 定义之后再讲。
+6.  **备注**：溶液中的 \$\ce{H+}/\ce{OH-}\$ 与水电离出的氢离子和氢氧根物质的量不一定相等。此处会有一些计算题，但是我们放到 \$\pH\$ 定义之后再讲。
 
 水的电离是很弱的，对于强酸、强碱的溶液，在不是很稀的情况下一般可以直接忽略水的电离对溶液的影响。即使是稀溶液，或者弱酸、弱碱的溶液，通常也会忽略水的电离所产生的影响。但是要注意，在极端情况下，仍然是要考虑水的电离的，这是一个常见错误。
 
@@ -265,47 +193,29 @@ $$K_w=\con{H+}\con{OH-}$$
 
 我们定义：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\pH=-\lg\[\ce{H+}\]
-:::
+\$\$ \pH=-\lg\[\ce{H+}\] \$\$
 
-$$\pH=-\lg[\ce{H+}]$$
-::::
+\$\$ \pOH=-\lg\[\ce{OH-}\] \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\pOH=-\lg\[\ce{OH-}\]
-:::
+实际上，任何一个物理量的负对数都可以定义其的 \$p\$ 运算。
 
-$$\pOH=-\lg[\ce{OH-}]$$
-::::
-
-实际上，任何一个物理量的负对数都可以定义其的 []{.arithmatex}$p$ 运算。
-
-- 溶液的酸碱性的充要条件是 []{.arithmatex}$\con{H+})$ 和 []{.arithmatex}$\con{OH-}$ 的大小关系，因此只需要比较 []{.arithmatex}$\pH$ 与 []{.arithmatex}$\pOH$ 即可，纯水一定满足 []{.arithmatex}$\pH=\pOH$。常温下纯水 []{.arithmatex}$\pH=\pOH=7$，任意温度下任意溶液 []{.arithmatex}$\pH+\pOH=pK_w$。
+- 溶液的酸碱性的充要条件是 \$\con{H+})\$ 和 \$\con{OH-}\$ 的大小关系，因此只需要比较 \$\pH\$ 与 \$\pOH\$ 即可，纯水一定满足 \$\pH=\pOH\$。常温下纯水 \$\pH=\pOH=7\$，任意温度下任意溶液 \$\pH+\pOH=pK_w\$。
 
 - 酸与酸溶液混合不一定是酸性，例如亚硫酸与氢硫酸溶液混合后发生归中反应
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{H2SO3 + 2H2S -\> 3S v + 3H2O}
-  :::
+  \$\$ \ce{H2SO3 + 2H2S -\> 3S v + 3H2O} \$\$
 
-  $$\ce{H2SO3 + 2H2S -> 3S v + 3H2O}$$
-  ::::
-
-  如果物质的量比例恰好为 []{.arithmatex}$3:2$，则所得溶液接近中性。
+  如果物质的量比例恰好为 \$3:2\$，则所得溶液接近中性。
 
 在酸碱平衡中，常有两个问题：
 
 - **稀释问题**：通常是加溶剂，配制成体积为原溶液若干倍的新溶液。
 
-  对于强酸强碱溶液，在一定范围内，每稀释十倍，溶液 []{.arithmatex}$\pH$ 加一或减一。
+  对于强酸强碱溶液，在一定范围内，每稀释十倍，溶液 \$\pH\$ 加一或减一。
 
-  对于弱酸弱碱溶液，因为溶液中存在未电离的分子，稀释过程中电离平衡正向移动，因此相同 []{.arithmatex}$\pH$ 的弱酸稀释同样的倍数所得新溶液 []{.arithmatex}$\pH$ 会比强酸小，同理弱碱稀释也会比强碱大。
+  对于弱酸弱碱溶液，因为溶液中存在未电离的分子，稀释过程中电离平衡正向移动，因此相同 \$\pH\$ 的弱酸稀释同样的倍数所得新溶液 \$\pH\$ 会比强酸小，同理弱碱稀释也会比强碱大。
 
-  注意：**不过分**，当溶液接近中性后，再进行稀释，因为水的电离此时提供了大部分的氢离子，因此溶液 []{.arithmatex}$\pH$ 只会趋近于 []{.arithmatex}$7$。
+  注意：**不过分**，当溶液接近中性后，再进行稀释，因为水的电离此时提供了大部分的氢离子，因此溶液 \$\pH\$ 只会趋近于 \$7\$。
 
 - **混合问题**：等体积混合、一定体积比混合。
 
@@ -319,117 +229,65 @@ $$\pOH=-\lg[\ce{OH-}]$$
 
 - 若某溶液中由水电离出的氢离子浓度高于该温度下的纯水，则溶质对水的电离起促进作用，溶质应当为弱酸或弱碱的盐。
 
-- 某酸碱溶液常温下 []{.arithmatex}$\pH$ 之和为 []{.arithmatex}$14$，则对水的电离的抑制作用相同。
+- 某酸碱溶液常温下 \$\pH\$ 之和为 \$14\$，则对水的电离的抑制作用相同。
 
-- 任何酸碱溶液，若 []{.arithmatex}$\pH$ 相同，则不论强弱对水的电离的抑制作用相同。
+- 任何酸碱溶液，若 \$\pH\$ 相同，则不论强弱对水的电离的抑制作用相同。
 
-**抓唯一**：升高温度，强酸溶液中 []{.arithmatex}$\pH$ 基本不变，强碱溶液中 []{.arithmatex}$\pOH$ 基本不变。
+**抓唯一**：升高温度，强酸溶液中 \$\pH\$ 基本不变，强碱溶液中 \$\pOH\$ 基本不变。
 
 - 这一点经常与水的电离中第一个定量问题联合出题，即由水电离出的氢离子与氢氧根浓度相等，题目通常会将这个浓度作为已知量或待求量。
 
-- 常温下，由水电离出的氢离子浓度为 []{.arithmatex}$\pu{10^-11 mol/L}$，则由水电离出的氢氧根浓度也为 []{.arithmatex}$\pu{10^-11 mol/L}$，因此溶质对水的电离有抑制作用，为酸或碱。若溶质为强酸，则氢氧根浓度近似等于后者，则氢离子浓度为 []{.arithmatex}$\pu{10^-3 mol/L}$，溶液的 []{.arithmatex}$\pH=3$；若溶质为强碱，则氢离子浓度近似等于前者，溶液的 []{.arithmatex}$\pH=11$。
+- 常温下，由水电离出的氢离子浓度为 \$\pu{10\^-11 mol/L}\$，则由水电离出的氢氧根浓度也为 \$\pu{10\^-11 mol/L}\$，因此溶质对水的电离有抑制作用，为酸或碱。若溶质为强酸，则氢氧根浓度近似等于后者，则氢离子浓度为 \$\pu{10\^-3 mol/L}\$，溶液的 \$\pH=3\$；若溶质为强碱，则氢离子浓度近似等于前者，溶液的 \$\pH=11\$。
 
-- 常温下，由水电离出的氢离子浓度为 []{.arithmatex}$\pu{10^-3 mol/L}$，则由水电离出的氢氧根浓度也为 []{.arithmatex}$\pu{10^-3 mol/L}$，因此溶质对水的电离有促进作用，为弱酸或弱碱的盐。若溶质为弱酸的正盐，则氢氧根浓度近似等于后者，则氢离子浓度为 []{.arithmatex}$\pu{10^-11 mol/L}$，溶液的 []{.arithmatex}$\pH=11$；若溶质为弱碱的正盐，则氢离子浓度近似等于前者，溶液的 []{.arithmatex}$\pH=3$。
+- 常温下，由水电离出的氢离子浓度为 \$\pu{10\^-3 mol/L}\$，则由水电离出的氢氧根浓度也为 \$\pu{10\^-3 mol/L}\$，因此溶质对水的电离有促进作用，为弱酸或弱碱的盐。若溶质为弱酸的正盐，则氢氧根浓度近似等于后者，则氢离子浓度为 \$\pu{10\^-11 mol/L}\$，溶液的 \$\pH=11\$；若溶质为弱碱的正盐，则氢离子浓度近似等于前者，溶液的 \$\pH=3\$。
 
-- 反过来，如果溶液中 []{.arithmatex}$\pH=3$ 或 []{.arithmatex}$\pH=11$，讨论溶质是强酸强碱还是弱酸或弱碱的盐，则水电离出的氢离子浓度为 []{.arithmatex}$\pu{10^-3 mol/L}$ 或 []{.arithmatex}$\pu{10^-11 mol/L}$。
+- 反过来，如果溶液中 \$\pH=3\$ 或 \$\pH=11\$，讨论溶质是强酸强碱还是弱酸或弱碱的盐，则水电离出的氢离子浓度为 \$\pu{10\^-3 mol/L}\$ 或 \$\pu{10\^-11 mol/L}\$。
 
-注意：我们称一定浓度的溶液，指的是用一定物质的量的溶质加水配制成一定体积的溶液，例如在 []{.arithmatex}$\ce{NaHCO3}$ 溶液中，应当有
+注意：我们称一定浓度的溶液，指的是用一定物质的量的溶质加水配制成一定体积的溶液，例如在 \$\ce{NaHCO3}\$ 溶液中，应当有
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\con{CO3\^2-}+\con{HCO3\^-}+\con{H2CO3}=\con{Na+}
-:::
-
-$$\con{CO3^2-}+\con{HCO3^-}+\con{H2CO3}=\con{Na+}$$
-::::
+\$\$ \con{CO3^2-}+\con{HCO3^-}+\con{H2CO3}=\con{Na+} \$\$
 
 这也称为物料守恒，我们将在三大守恒中详细解释。
 
 ### 酸碱的电离 {#_11}
 
-我们知道 []{.arithmatex}$K_a,K_b$ 仅和温度有关，即仅仅是温度的函数，因为电离吸热，因此温度越高电离常数越小，电离度越小，我们会在图像和趋势部分详细说明。
+我们知道 \$K_a,K_b\$ 仅和温度有关，即仅仅是温度的函数，因为电离吸热，因此温度越高电离常数越小，电离度越小，我们会在图像和趋势部分详细说明。
 
 ::: {.grid .cards}
 - 对于一元弱酸的电离：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{HA \<=\> H+ + A-}
-  :::
-
-  $$\ce{HA <=> H+ + A-}$$
-  ::::
+  \$\$ \ce{HA \<=\> H+ + A-} \$\$
 
   定义其电离平衡常数：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  K_a=\dfrac{\con{H+}\con{A-}}{\con{HA}}
-  :::
-
-  $$K_a=\dfrac{\con{H+}\con{A-}}{\con{HA}}$$
-  ::::
+  \$\$ K_a=\dfrac{\con{H+}\con{A-}}{\con{HA}} \$\$
 
   在某一溶液中：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \pH=pK_a+\lg\dfrac{\con{A-}}{\con{HA}}
-  :::
+  \$\$ \pH=pK_a+\lg\dfrac{\con{A-}}{\con{HA}} \$\$
 
-  $$\pH=pK_a+\lg\dfrac{\con{A-}}{\con{HA}}$$
-  ::::
-
-  其中 []{.arithmatex}$pK_a$ 反应了这种弱酸内在酸性的强弱，与该溶液的 []{.arithmatex}$\pH$ 无关。
+  其中 \$pK_a\$ 反应了这种弱酸内在酸性的强弱，与该溶液的 \$\pH\$ 无关。
 
 - 对于一元弱碱的电离：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{BOH \<=\> B+ + OH-}
-  :::
-
-  $$\ce{BOH <=> B+ + OH-}$$
-  ::::
+  \$\$ \ce{BOH \<=\> B+ + OH-} \$\$
 
   定义其电离平衡常数：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  K_b=\dfrac{\con{B+}\con{OH-}}{\con{BOH}}
-  :::
-
-  $$K_b=\dfrac{\con{B+}\con{OH-}}{\con{BOH}}$$
-  ::::
+  \$\$ K_b=\dfrac{\con{B+}\con{OH-}}{\con{BOH}} \$\$
 
   在某一溶液中：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \pOH=pK_b+\lg\dfrac{\con{B+}}{\con{BOH}}
-  :::
+  \$\$ \pOH=pK_b+\lg\dfrac{\con{B+}}{\con{BOH}} \$\$
 
-  $$\pOH=pK_b+\lg\dfrac{\con{B+}}{\con{BOH}}$$
-  ::::
-
-  其中 []{.arithmatex}$pK_b$ 反应了这种弱碱内在碱性的强弱，与该溶液的 []{.arithmatex}$\pH$ 无关。
+  其中 \$pK_b\$ 反应了这种弱碱内在碱性的强弱，与该溶液的 \$\pH\$ 无关。
 :::
 
 亨德森---哈塞尔巴尔赫方程的推导：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} \pH&=-\lg\con{H+}\\ &=-\lg\paren{\dfrac{\con{H+}\con{A-}}{\con{HA}}\cdot\dfrac{\con{HA}}{\con{A-}}}\\ &=pK_a+\lg\dfrac{\con{A-}}{\con{HA}} \end{aligned}
-:::
+\$\$ \begin{aligned} \pH&=-\lg\con{H+}\\ &=-\lg\paren{\dfrac{\con{H+}\con{A-}}{\con{HA}}\cdot\dfrac{\con{HA}}{\con{A-}}}\\ &=pK_a+\lg\dfrac{\con{A-}}{\con{HA}} \end{aligned} \$\$
 
-$$\begin{aligned}
-\pH&=-\lg\con{H+}\\
-&=-\lg\paren{\dfrac{\con{H+}\con{A-}}{\con{HA}}\cdot\dfrac{\con{HA}}{\con{A-}}}\\
-&=pK_a+\lg\dfrac{\con{A-}}{\con{HA}}
-\end{aligned}$$
-::::
-
-对于弱碱 []{.arithmatex}$\ce{BOH}$ 也进行类似的操作即可。
+对于弱碱 \$\ce{BOH}\$ 也进行类似的操作即可。
 
 ![alt text](../image-4.avif){width="100%"}
 
@@ -439,137 +297,68 @@ $$\begin{aligned}
 
 - 电离平衡右移，电离程度不一定增大（加入醋酸）。
 
-我们知道 []{.arithmatex}$K_a$ 越大酸性越强，但是 []{.arithmatex}$pK_a$ 越小。
+我们知道 \$K_a\$ 越大酸性越强，但是 \$pK_a\$ 越小。
 
 ![alt text](../pka.svg){width="90%"}
 
-| 酸 | 化学式 | []{.arithmatex}$pK_a$ |  | 酸 | 化学式 | []{.arithmatex}$pK_a$ |
-|:--:|:--:|:--:|----|:--:|:--:|:--:|
-| *氟锑酸* | []{.arithmatex}$\ce{HSbF6}$ | []{.arithmatex}$-25.00$ |  | 磷酸 | []{.arithmatex}$\ce{H3PO4}$ | []{.arithmatex}$2.12$ |
-| *魔酸* | []{.arithmatex}$\ce{FSO3H-SbF5}$ | []{.arithmatex}$-19.20$ |  | 柠檬酸 | []{.arithmatex}$\ce{C6H8O7}$ | []{.arithmatex}$3.09$ |
-| 高氯酸 | []{.arithmatex}$\ce{HClO4}$ | []{.arithmatex}$-10.00$ |  | 碳酸 | []{.arithmatex}$\ce{H2CO3}$ | []{.arithmatex}$6.35$ |
-| 盐酸 | []{.arithmatex}$\ce{HCl}$ | []{.arithmatex}$-8.00$ |  | 硫化氢 | []{.arithmatex}$\ce{H2S}$ | []{.arithmatex}$7.00$ |
-| 硫酸 | []{.arithmatex}$\ce{H2SO4}$ | []{.arithmatex}$-3.00$ |  | 次氯酸 | []{.arithmatex}$\ce{HOCl}$ | []{.arithmatex}$7.50$ |
-| 硝酸 | []{.arithmatex}$\ce{HNO3}$ | []{.arithmatex}$-2.00$ |  | 水 | []{.arithmatex}$\ce{H2O}$ | []{.arithmatex}$14$ |
+|    酸    |       化学式        |  \$pK_a\$  |     |   酸   |     化学式      | \$pK_a\$ |
+|:--------:|:-------------------:|:----------:|-----|:------:|:---------------:|:--------:|
+| *氟锑酸* |   \$\ce{HSbF6}\$    | \$-25.00\$ |     |  磷酸  | \$\ce{H3PO4}\$  | \$2.12\$ |
+|  *魔酸*  | \$\ce{FSO3H-SbF5}\$ | \$-19.20\$ |     | 柠檬酸 | \$\ce{C6H8O7}\$ | \$3.09\$ |
+|  高氯酸  |   \$\ce{HClO4}\$    | \$-10.00\$ |     |  碳酸  | \$\ce{H2CO3}\$  | \$6.35\$ |
+|   盐酸   |    \$\ce{HCl}\$     | \$-8.00\$  |     | 硫化氢 |  \$\ce{H2S}\$   | \$7.00\$ |
+|   硫酸   |   \$\ce{H2SO4}\$    | \$-3.00\$  |     | 次氯酸 |  \$\ce{HOCl}\$  | \$7.50\$ |
+|   硝酸   |    \$\ce{HNO3}\$    | \$-2.00\$  |     |   水   |  \$\ce{H2O}\$   |  \$14\$  |
 
-- 多元弱酸分步电离，以 []{.arithmatex}$\ce{H2A}$ 为例：
+- 多元弱酸分步电离，以 \$\ce{H2A}\$ 为例：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{H2A \<=\> H+ + HA-};\quad K\_{a1}=\dfrac{\con{H+}\con{HA-}}{\con{H2A}}
-  :::
+  \$\$ \ce{H2A \<=\> H+ + HA-};\quad K\_{a1}=\dfrac{\con{H+}\con{HA-}}{\con{H2A}} \$\$
 
-  $$\ce{H2A <=> H+ + HA-};\quad K_{a1}=\dfrac{\con{H+}\con{HA-}}{\con{H2A}}$$
-  ::::
+  \$\$ \ce{HA- \<=\> H+ + A\^2-};\quad K\_{a2}=\dfrac{\con{H+}\con{A\^2-}}{\con{HA-}} \$\$
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{HA- \<=\> H+ + A\^2-};\quad K\_{a2}=\dfrac{\con{H+}\con{A\^2-}}{\con{HA-}}
-  :::
+  对于 \$n\$ 元弱酸，一般各级电离越来越弱，即
 
-  $$\ce{HA- <=> H+ + A^2-};\quad K_{a2}=\dfrac{\con{H+}\con{A^2-}}{\con{HA-}}$$
-  ::::
-
-  对于 []{.arithmatex}$n$ 元弱酸，一般各级电离越来越弱，即
-
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  K\_{a1}\gg K\_{a2}\>K\_{a3}\>\dots\>K\_{an}
-  :::
-
-  $$K_{a1}\gg K_{a2}>K_{a3}>\dots>K_{an}$$
-  ::::
+  \$\$ K\_{a1}\gg K\_{a2}\>K\_{a3}\>\dots\>K\_{an} \$\$
 
   因此一般只需要考虑一级电离即可。
 
-- 多元弱碱一步电离，以 []{.arithmatex}$\ce{B(OH)2}$ 为例：
+- 多元弱碱一步电离，以 \$\ce{B(OH)2}\$ 为例：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{B(OH)2 \<=\> B\^2+ + 2OH-};\quad K_b=\dfrac{\con{B\^2+}\con{OH-}\^2}{\con{B(OH)2}}
-  :::
-
-  $$\ce{B(OH)2 <=> B^2+ + 2OH-};\quad K_b=\dfrac{\con{B^2+}\con{OH-}^2}{\con{B(OH)2}}$$
-  ::::
+  \$\$ \ce{B(OH)2 \<=\> B\^2+ + 2OH-};\quad K_b=\dfrac{\con{B^2+}\con{OH-}^2}{\con{B(OH)2}} \$\$
 
   实际上其电离过程也分为多步，只不过高中阶段视为一步。
 
-- 注意：对于 []{.arithmatex}$\ce{H2A -> HA- -> A^2-}$，除了均为完全反应、均为可逆反应外，还存在第一步完全、第二步可逆的情况，此时溶液中 []{.arithmatex}$\ce{H2A}$ 电离完全，仅需要考虑后一步的平衡即可。
+- 注意：对于 \$\ce{H2A -\> HA- -\> A\^2-}\$，除了均为完全反应、均为可逆反应外，还存在第一步完全、第二步可逆的情况，此时溶液中 \$\ce{H2A}\$ 电离完全，仅需要考虑后一步的平衡即可。
 
-例题：常温下，[]{.arithmatex}$\pH=a$ 的稀盐酸（[]{.arithmatex}$\ce{HCl}$）与 []{.arithmatex}$\pH=b$ 的氨水（[]{.arithmatex}$\ce{NH3*H2O}$）等体积混合，恰好完全反应，问 []{.arithmatex}$\alpha(\ce{NH3*H2O})$。
+例题：常温下，\$\pH=a\$ 的稀盐酸（\$\ce{HCl}\$）与 \$\pH=b\$ 的氨水（\$\ce{NH3*H2O}\$）等体积混合，恰好完全反应，问 \$\alpha(\ce{NH3*H2O})\$。
 
-我们知道，对于 []{.arithmatex}$\pH=a$ 的稀盐酸，其氢离子浓度为 []{.arithmatex}$10^{-a}\space\pu{mol/L}$，因为氨水可以看作氨气溶于水，氨气与氯化氢的反应是 []{.arithmatex}$1:1$ 的，因此氨水的浓度也为 []{.arithmatex}$10^{-a}\space\pu{mol/L}$，而氨水的 []{.arithmatex}$\pH=b$ 也就是说 []{.arithmatex}$\pOH=b-14$，列出方程
+我们知道，对于 \$\pH=a\$ 的稀盐酸，其氢离子浓度为 \$10\^{-a}\space\pu{mol/L}\$，因为氨水可以看作氨气溶于水，氨气与氯化氢的反应是 \$1:1\$ 的，因此氨水的浓度也为 \$10\^{-a}\space\pu{mol/L}\$，而氨水的 \$\pH=b\$ 也就是说 \$\pOH=b-14\$，列出方程
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} \con{OH-}&=\alpha(\ce{NH3\*H2O})\con{NH3\*H2O}\\ 10\^{b-14}&=\alpha(\ce{NH3\*H2O})\cdot10\^{-a} \end{aligned}
-:::
-
-$$\begin{aligned}
-\con{OH-}&=\alpha(\ce{NH3*H2O})\con{NH3*H2O}\\
-10^{b-14}&=\alpha(\ce{NH3*H2O})\cdot10^{-a}
-\end{aligned}$$
-::::
+\$\$ \begin{aligned} \con{OH-}&=\alpha(\ce{NH3*H2O})\con{NH3*H2O}\\ 10^{b-14}&=\alpha(\ce{NH3\*H2O})\cdot10^ \end{aligned} \$\$
 
 因此
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\alpha(\ce{NH3\*H2O})=10\^{a+b-14}
-:::
+\$\$ \alpha(\ce{NH3\*H2O})=10\^{a+b-14} \$\$
 
-$$\alpha(\ce{NH3*H2O})=10^{a+b-14}$$
-::::
+电离度 \$\alpha\$：电离平衡的转化率，以反应
 
-电离度 []{.arithmatex}$\alpha$：电离平衡的转化率，以反应
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\ce{HAc \<=\> H+ + Ac-}
-:::
-
-$$\ce{HAc <=> H+ + Ac-}$$
-::::
+\$\$ \ce{HAc \<=\> H+ + Ac-} \$\$
 
 为例，设其平衡常数：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-K_a=\dfrac{\con{H+}\con{Ac-}}{\con{HAc}}
-:::
+\$\$ K_a=\dfrac{\con{H+}\con{Ac-}}{\con{HAc}} \$\$
 
-$$K_a=\dfrac{\con{H+}\con{Ac-}}{\con{HAc}}$$
-::::
+设转化率为 \$\alpha\$，醋酸浓度为 \$c\$，则转化了 \$c\alpha\$，因此
 
-设转化率为 []{.arithmatex}$\alpha$，醋酸浓度为 []{.arithmatex}$c$，则转化了 []{.arithmatex}$c\alpha$，因此
+\$\$ K_a=\dfrac{c^2\alpha^2}{c-c\alpha} \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-K_a=\dfrac{c\^2\alpha\^2}{c-c\alpha}
-:::
+因为电离度 \$\alpha\$ 很小，我们取 \$c\approx c-c\alpha\$，则
 
-$$K_a=\dfrac{c^2\alpha^2}{c-c\alpha}$$
-::::
-
-因为电离度 []{.arithmatex}$\alpha$ 很小，我们取 []{.arithmatex}$c\approx c-c\alpha$，则
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-K_a\approx c\alpha\^2
-:::
-
-$$K_a\approx c\alpha^2$$
-::::
+\$\$ K_a\approx c\alpha\^2 \$\$
 
 因此也有
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\alpha\approx\sqrt{\dfrac{K_a}{c}}
-:::
-
-$$\alpha\approx\sqrt{\dfrac{K_a}{c}}$$
-::::
+\$\$ \alpha\approx\sqrt{\dfrac{K_a}{c}} \$\$
 
 这可以推广到各种反应程度很低的反应。
 
@@ -585,7 +374,7 @@ $$\alpha\approx\sqrt{\dfrac{K_a}{c}}$$
 
 1.  谁强显谁性：强酸强碱盐显中性，强酸弱碱盐显酸性，弱酸强碱盐显碱性。
 
-2.  越弱越水解：比较酸碱性强弱，等温等浓度，测量正盐水溶液的 []{.arithmatex}$\pH$。
+2.  越弱越水解：比较酸碱性强弱，等温等浓度，测量正盐水溶液的 \$\pH\$。
 
 3.  越热越水解：水解是酸碱中和的逆过程，中和是放热的，水解是吸热的，温度越高水解越完全。
 
@@ -597,101 +386,77 @@ $$\alpha\approx\sqrt{\dfrac{K_a}{c}}$$
 
 在蒸干问题上，例如碳酸氢钠蒸干得到碳酸钠固体（自身热稳定性差，受热易分解）、亚硫酸钠蒸干混有硫酸钠（自身易被空气中的氧气氧化）、氯化镁蒸干得到氢氧化镁（水解变质），至于氯化镁晶体的制备，我们通常会在氯化氢氛围内蒸干，抑制其水解。
 
-盐的水溶液 []{.arithmatex}$\pH$ 比较：比较对应酸或碱的强弱，例如
+盐的水溶液 \$\pH\$ 比较：比较对应酸或碱的强弱，例如
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\ce{A- + H2O \<=\> HA + OH-};\quad K_h=\dfrac{\con{HA}\con{OH-}}{\con{A-}}
-:::
+\$\$ \ce{A- + H2O \<=\> HA + OH-};\quad K_h=\dfrac{\con{HA}\con{OH-}}{\con{A-}} \$\$
 
-$$\ce{A- + H2O <=> HA + OH-};\quad K_h=\dfrac{\con{HA}\con{OH-}}{\con{A-}}$$
-::::
-
-可以看为一元弱碱，那么就有 []{.arithmatex}$\ce{Na2CO3} > \ce{NaHCO3} > \ce{CH3COONa}$。
+可以看为一元弱碱，那么就有 \$\ce{Na2CO3} \> \ce{NaHCO3} \> \ce{CH3COONa}\$。
 
 特别注意的是，高价过渡金属在水溶液中一般不以简单离子形态存在，通常会以完全水解或者部分水解的形式存在。
 
 ### 沉淀溶解平衡 {#_13}
 
-离子积，是沉淀的反应商，用符号 []{.arithmatex}$Q_c$ 表示。对于难溶盐 []{.arithmatex}$\ce{A_xB_y}$ 的电离：
+离子积，是沉淀的反应商，用符号 \$Q_c\$ 表示。对于难溶盐 \$\ce{A_xB_y}\$ 的电离：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\ce{A_xB_y(s) \<=\> xA\^y+ + yB\^x+}
-:::
-
-$$\ce{A_xB_y(s) <=> xA^y+ + yB^x+}$$
-::::
+\$\$ \ce{A_xB_y(s) \<=\> xA\^y+ + yB\^x+} \$\$
 
 定义一个状态时的离子积：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-Q_c=\con{A\^y+}\^x\con{B\^x+}\^y
-:::
+\$\$ Q_c=\con{A^y+}^x\con{B^x+}^y \$\$
 
-$$Q_c=\con{A^y+}^x\con{B^x+}^y$$
-::::
-
-离子积是沉淀溶解的一个状态，不能反应该沉淀的性质。而溶度积，是沉淀的溶解平衡常数，用符号 []{.arithmatex}$K_{sp}$ 表示。
+离子积是沉淀溶解的一个状态，不能反应该沉淀的性质。而溶度积，是沉淀的溶解平衡常数，用符号 \$K\_{sp}\$ 表示。
 
 对于难溶盐，定义其溶度积为其电离平衡时的离子积（平衡常数）：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-K\_{sp}=\con{A\^y+}\^x\con{B\^x+}\^y
-:::
+\$\$ K\_{sp}=\con{A^y+}^x\con{B^x+}^y \$\$
 
-$$K_{sp}=\con{A^y+}^x\con{B^x+}^y$$
-::::
-
-在温度一定时，每一难溶盐类化合物的 []{.arithmatex}$K_{sp}$ 皆为一特定值。溶度积的大小反映了**难溶电解质**的溶解能力，可用实验方法测定。溶度积常数仅适用于难溶电解质的**饱和溶液**，对易溶的电解质不适用。
+在温度一定时，每一难溶盐类化合物的 \$K\_{sp}\$ 皆为一特定值。溶度积的大小反映了**难溶电解质**的溶解能力，可用实验方法测定。溶度积常数仅适用于难溶电解质的**饱和溶液**，对易溶的电解质不适用。
 
 难溶盐的电离平衡：
 
-- 当 []{.arithmatex}$Q_c<K_{sp}$ 时：平衡向右移动，电离出离子。
+- 当 \$Q_c\<K\_{sp}\$ 时：平衡向右移动，电离出离子。
 
-- 当 []{.arithmatex}$Q_c=K_{sp}$ 时：达到平衡状态，为动态平衡。
+- 当 \$Q_c=K\_{sp}\$ 时：达到平衡状态，为动态平衡。
 
-- 当 []{.arithmatex}$Q_c>K_{sp}$ 时：平衡向左移动，产生出沉淀。
+- 当 \$Q_c\>K\_{sp}\$ 时：平衡向左移动，产生出沉淀。
 
 沉淀溶解平衡，是在溶液行为中一个较为特殊的存在：
 
-1.  沉淀溶解平衡方程式要写聚集状态，尤其是沉淀要用 []{.arithmatex}$(s)$ 固体注明，但是如果判断题中没有写，一般也不会算错。
+1.  沉淀溶解平衡方程式要写聚集状态，尤其是沉淀要用 \$(s)\$ 固体注明，但是如果判断题中没有写，一般也不会算错。
 
 2.  固体和溶液同时存在时，才会有沉淀溶解平衡。其截止点为饱和溶液，低于截止点则倾向于完全电离。
 
-3.  **同离子效应**：例如 []{.arithmatex}$\ce{CaCO3}$ 在 []{.arithmatex}$\ce{CaCl2}$ 或 []{.arithmatex}$\ce{Na2CO3}$ 溶液中，溶解度降低。
+3.  **同离子效应**：例如 \$\ce{CaCO3}\$ 在 \$\ce{CaCl2}\$ 或 \$\ce{Na2CO3}\$ 溶液中，溶解度降低。
 
-4.  大部分沉淀溶解平衡 []{.arithmatex}$\Delta H>0$，越热越溶解。经典的反例是 []{.arithmatex}$\ce{Ca(OH)2}$ 越热越不易溶解。溶解度定义是：每 []{.arithmatex}$\pu{100g}$ 溶剂（通常是水）中最多可以溶解的溶质的质量。
+4.  大部分沉淀溶解平衡 \$\Delta H\>0\$，越热越溶解。经典的反例是 \$\ce{Ca(OH)2}\$ 越热越不易溶解。溶解度定义是：每 \$\pu{100g}\$ 溶剂（通常是水）中最多可以溶解的溶质的质量。
 
-5.  溶度积常数 []{.arithmatex}$K_{sp}$ 仅是温度 []{.arithmatex}$T$ 的函数。[]{.arithmatex}$K_{sp}$ 越大，溶解度不一定越大。两难溶物类型一样，以 []{.arithmatex}$\pu{mol/L}$ 为单位的溶解度与 []{.arithmatex}$K_{sp}$ 成正相关。
+5.  溶度积常数 \$K\_{sp}\$ 仅是温度 \$T\$ 的函数。\$K\_{sp}\$ 越大，溶解度不一定越大。两难溶物类型一样，以 \$\pu{mol/L}\$ 为单位的溶解度与 \$K\_{sp}\$ 成正相关。
 
-6.  以 []{.arithmatex}$\ce{CaCO3}$ 为例，沉淀溶解平衡时，[]{.arithmatex}$\con{Ca^2+}$ 略大于 []{.arithmatex}$\con{CO3^2-}$，因为 []{.arithmatex}$\ce{CO3^2-}$ 会水解。
+6.  以 \$\ce{CaCO3}\$ 为例，沉淀溶解平衡时，\$\con{Ca\^2+}\$ 略大于 \$\con{CO3\^2-}\$，因为 \$\ce{CO3\^2-}\$ 会水解。
 
 沉淀的产生和溶解：
 
-1.  沉淀产生的条件是 []{.arithmatex}$Q_c>K_{sp}$。
+1.  沉淀产生的条件是 \$Q_c\>K\_{sp}\$。
 
-2.  沉淀溶解以 []{.arithmatex}$\ce{CaCO3}$ 为例，溶解出 []{.arithmatex}$\ce{CO3^2-}$ 与加入的盐酸反应，沉淀溶解平衡正向移动，沉淀溶解。
+2.  沉淀溶解以 \$\ce{CaCO3}\$ 为例，溶解出 \$\ce{CO3\^2-}\$ 与加入的盐酸反应，沉淀溶解平衡正向移动，沉淀溶解。
 
-3.  强制弱的反例 []{.arithmatex}$\ce{CuSO4 + H2S -> CuS + H2SO4}$ 是因为 []{.arithmatex}$\ce{CuS}$ 的 []{.arithmatex}$K_{sp}$ 极小，氢离子无法从中抢夺生成 []{.arithmatex}$\ce{HS-}$，故无法溶解。加入稀硝酸，将硫氧化后可以溶解。
+3.  强制弱的反例 \$\ce{CuSO4 + H2S -\> CuS + H2SO4}\$ 是因为 \$\ce{CuS}\$ 的 \$K\_{sp}\$ 极小，氢离子无法从中抢夺生成 \$\ce{HS-}\$，故无法溶解。加入稀硝酸，将硫氧化后可以溶解。
 
-4.  **沉淀优先问题**：类型一样比较 []{.arithmatex}$K_{sp}$，类型不一样通过计算比较。沉淀的顺序与 []{.arithmatex}$K_{sp}$、类型、离子浓度都是有关的，必须要全部确定才可以得出沉淀顺序。总的来说，先达到 []{.arithmatex}$K_{sp}$ 先沉，浓度差异不大的情况下 []{.arithmatex}$K_{sp}$ 小的先沉。
+4.  **沉淀优先问题**：类型一样比较 \$K\_{sp}\$，类型不一样通过计算比较。沉淀的顺序与 \$K\_{sp}\$、类型、离子浓度都是有关的，必须要全部确定才可以得出沉淀顺序。总的来说，先达到 \$K\_{sp}\$ 先沉，浓度差异不大的情况下 \$K\_{sp}\$ 小的先沉。
 
-5.  **沉淀转化问题**：到达另一沉淀的 []{.arithmatex}$K_{sp}$ 后沉淀转化，在浓度差别不大的情况下，溶解度大的可以转化为溶解度小的，即 []{.arithmatex}$K_{sp}$ 大的可以转化为 []{.arithmatex}$K_{sp}$ 小的。
+5.  **沉淀转化问题**：到达另一沉淀的 \$K\_{sp}\$ 后沉淀转化，在浓度差别不大的情况下，溶解度大的可以转化为溶解度小的，即 \$K\_{sp}\$ 大的可以转化为 \$K\_{sp}\$ 小的。
 
-6.  **沉淀完全问题**：规定离子浓度小于 []{.arithmatex}$\pu{E-5 mol/L}$ 即为沉淀完全。将这个值带入 []{.arithmatex}$K_{sp}$ 得到另一离子浓度即为最少加入的浓度。
+6.  **沉淀完全问题**：规定离子浓度小于 \$\pu{E-5 mol/L}\$ 即为沉淀完全。将这个值带入 \$K\_{sp}\$ 得到另一离子浓度即为最少加入的浓度。
 
-7.  **分布沉淀问题**：规定先沉的已经沉淀完全，后沉的未开始沉淀，则为分布沉淀。将 []{.arithmatex}$\pu{E-5 mol/L}$ 带入某一沉淀 []{.arithmatex}$K_{sp}$，算出离子浓度后带入另一离子，判断浓度是否满足未沉淀即可。
+7.  **分布沉淀问题**：规定先沉的已经沉淀完全，后沉的未开始沉淀，则为分布沉淀。将 \$\pu{E-5 mol/L}\$ 带入某一沉淀 \$K\_{sp}\$，算出离子浓度后带入另一离子，判断浓度是否满足未沉淀即可。
 
-经典应用：分离铁、铜离子，加入氧化铜、氢氧化铁、碳酸铜等，增加铜离子浓度，使铜离子先沉淀；或者将亚铁离子氧化为铁离子，然后调节 []{.arithmatex}$\pH$ 使其分布沉淀。
+经典应用：分离铁、铜离子，加入氧化铜、氢氧化铁、碳酸铜等，增加铜离子浓度，使铜离子先沉淀；或者将亚铁离子氧化为铁离子，然后调节 \$\pH\$ 使其分布沉淀。
 
 ## 做题方法 {#_14}
 
 ### 三大守恒 {#_15}
 
-离子浓度大小问题，分为定性和定量两种，定性的以电中性（电荷守恒）、原子守恒（物料守恒），及其推演出来的质子守恒为基础；定量的，最简单的是由酸碱性推断 []{.arithmatex}$\ce{H+},\ce{OH-}$ 的浓度大小，然后在程序上，通过三大守恒的思想，进行进一步判断。
+离子浓度大小问题，分为定性和定量两种，定性的以电中性（电荷守恒）、原子守恒（物料守恒），及其推演出来的质子守恒为基础；定量的，最简单的是由酸碱性推断 \$\ce{H+},\ce{OH-}\$ 的浓度大小，然后在程序上，通过三大守恒的思想，进行进一步判断。
 
 质子守恒：
 
@@ -709,83 +474,41 @@ $$K_{sp}=\con{A^y+}^x\con{B^x+}^y$$
 
   物料守恒的重点在于，不一定只有原子、元素可以守恒，原子团也可以例如醋酸根。同时，我们经常写出来的是一个比例式，是根据电离后，某些弱电解质还会水解或继续电离，此时两个物质大概率是两个物质，根据混合比例求出，当然也可以是一个物质中的固有比例。
 
-- 质子守恒：溶液中由水电离出的 []{.arithmatex}$\ce{H+}$ 和 []{.arithmatex}$\ce{OH-}$ 浓度相等，或者酸失去的质子等于碱得到的质子。
+- 质子守恒：溶液中由水电离出的 \$\ce{H+}\$ 和 \$\ce{OH-}\$ 浓度相等，或者酸失去的质子等于碱得到的质子。
 
   质子守恒是最高级的守恒，但是某种意义上，可以通过电荷守恒和物料守恒推导出质子守恒，只需要将与氢氧元素无关的离子，例如钠离子、铝离子，消去即可。
 
-  更高级的质子守恒写法是，直接根据 []{.arithmatex}$\ce{H+}$，减去每产生某种物质消耗多少，加上每产生某种物质产生多少，等于 []{.arithmatex}$\ce{OH-}$ 即水电离的，直接写出质子守恒。
+  更高级的质子守恒写法是，直接根据 \$\ce{H+}\$，减去每产生某种物质消耗多少，加上每产生某种物质产生多少，等于 \$\ce{OH-}\$ 即水电离的，直接写出质子守恒。
 
 三大守恒除了在离子浓度大小和关系比较外，还有一些有趣的用处，下面给出一些经典例题：
 
-- 向 []{.arithmatex}$\ce{NH4HSO4}$ 溶液中加入 []{.arithmatex}$\ce{NaOH}$ 至中性，问离子浓度大小顺序。我们发现很难直接得出，于是我们考虑构建一种中介状态，即若等物质的量混合，我们发现应该有：
+- 向 \$\ce{NH4HSO4}\$ 溶液中加入 \$\ce{NaOH}\$ 至中性，问离子浓度大小顺序。我们发现很难直接得出，于是我们考虑构建一种中介状态，即若等物质的量混合，我们发现应该有：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \con{Na+} = \con{SO4\^2-} \> \con{NH4+} \> \con{H+} \> \con{OH-}
-  :::
-
-  $$\con{Na+} = \con{SO4^2-} > \con{NH4+} > \con{H+} > \con{OH-}$$
-  ::::
+  \$\$ \con{Na+} = \con{SO4\^2-} \> \con{NH4+} \> \con{H+} \> \con{OH-} \$\$
 
   此时溶液是显酸性的，为了让他显碱性，我们再稍微加一点（此时酸性不会很强）氢氧化钠，于是便可以写出：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \con{Na+} \> \con{SO4\^2-} \> \ce{NH4+} \> \con{H+} = \con{OH-}
-  :::
+  \$\$ \con{Na+} \> \con{SO4\^2-} \> \ce{NH4+} \> \con{H+} = \con{OH-} \$\$
 
-  $$\con{Na+} > \con{SO4^2-} > \ce{NH4+} > \con{H+} = \con{OH-}$$
-  ::::
+  注意，此时应当假设溶液没有过稀，即除了氢离子、氢氧根，离子浓度都应当在 \$10\^{-5}\$ 以上，反例是如果离子浓度都是 \$10\^{-9}\$ 这种极端数据，显然氢离子、氢氧根应当是最多的。
 
-  注意，此时应当假设溶液没有过稀，即除了氢离子、氢氧根，离子浓度都应当在 []{.arithmatex}$10^{-5}$ 以上，反例是如果离子浓度都是 []{.arithmatex}$10^{-9}$ 这种极端数据，显然氢离子、氢氧根应当是最多的。
+- 等体积等浓度的 \$\ce{NaCl}\$ 和 \$\ce{NaF}\$ 溶液中，总的离子浓度大小关系？我们列出电荷守恒：
 
-- 等体积等浓度的 []{.arithmatex}$\ce{NaCl}$ 和 []{.arithmatex}$\ce{NaF}$ 溶液中，总的离子浓度大小关系？我们列出电荷守恒：
+  \$\$ \con{Na+} + \con{H+} = \con{F-} + \con{OH-} \$\$
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \con{Na+} + \con{H+} = \con{F-} + \con{OH-}
-  :::
+  \$\$ \con{Na+} + \con{H+} = \con{Cl-} + \con{OH-} \$\$
 
-  $$\con{Na+} + \con{H+} = \con{F-} + \con{OH-}$$
-  ::::
+  我们发现溶液中的总离子浓度，就是左边加上右边，那么也就是左边的两倍，因为 \$\con{Na+}\$ 是一样的，因此只需要比较 \$\con{H+}\$ 就可以了。因为 \$\ce{NaF}\$ 是强碱弱酸盐，溶液显碱性，氢离子浓度小，所以 \$\ce{NaF}\$ 溶液中总离子浓度小于 \$\ce{NaCl}\$ 溶液。
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \con{Na+} + \con{H+} = \con{Cl-} + \con{OH-}
-  :::
+- 在 \$\pu{25\^oC}\$ 时将 \$\pu{0.02 mol/L}\$ 的氢氰酸和 \$\pu{0.01 mol/L}\$ 的氢氧化钠溶液等体积混合，混合溶液 \$\pH=9\$ 问 \$K_a(\ce{HCN})\$。我们发现题设情景相当于等体积等浓度（\$\pu{0.005 mol/L}\$）的氢氰酸、氰化钠溶液混合，那么总的 \$\con{Na+}=\pu{0.005 mol/L}\$，列出三大守恒：
 
-  $$\con{Na+} + \con{H+} = \con{Cl-} + \con{OH-}$$
-  ::::
+  \$\$ \con{HCN} + \con{CN-} = 2\con{Na+} \$\$
 
-  我们发现溶液中的总离子浓度，就是左边加上右边，那么也就是左边的两倍，因为 []{.arithmatex}$\con{Na+}$ 是一样的，因此只需要比较 []{.arithmatex}$\con{H+}$ 就可以了。因为 []{.arithmatex}$\ce{NaF}$ 是强碱弱酸盐，溶液显碱性，氢离子浓度小，所以 []{.arithmatex}$\ce{NaF}$ 溶液中总离子浓度小于 []{.arithmatex}$\ce{NaCl}$ 溶液。
+  \$\$ \con{H+} + \con{Na+} = \con{OH-} + \con{CN-} \$\$
 
-- 在 []{.arithmatex}$\pu{25^oC}$ 时将 []{.arithmatex}$\pu{0.02 mol/L}$ 的氢氰酸和 []{.arithmatex}$\pu{0.01 mol/L}$ 的氢氧化钠溶液等体积混合，混合溶液 []{.arithmatex}$\pH=9$ 问 []{.arithmatex}$K_a(\ce{HCN})$。我们发现题设情景相当于等体积等浓度（[]{.arithmatex}$\pu{0.005 mol/L}$）的氢氰酸、氰化钠溶液混合，那么总的 []{.arithmatex}$\con{Na+}=\pu{0.005 mol/L}$，列出三大守恒：
+  \$\$ \con{H+} + \dfrac{\con{HCN}-\con{CN-}}{2} = \con{OH-} \$\$
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \con{HCN} + \con{CN-} = 2\con{Na+}
-  :::
-
-  $$\con{HCN} + \con{CN-} = 2\con{Na+}$$
-  ::::
-
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \con{H+} + \con{Na+} = \con{OH-} + \con{CN-}
-  :::
-
-  $$\con{H+} + \con{Na+} = \con{OH-} + \con{CN-}$$
-  ::::
-
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \con{H+} + \dfrac{\con{HCN}-\con{CN-}}{2} = \con{OH-}
-  :::
-
-  $$\con{H+} + \dfrac{\con{HCN}-\con{CN-}}{2} = \con{OH-}$$
-  ::::
-
-  带入钠离子浓度即可解出求 []{.arithmatex}$K_a$ 所需的浓度。
+  带入钠离子浓度即可解出求 \$K_a\$ 所需的浓度。
 
 ### 浓度大小比较 {#_16}
 
@@ -793,95 +516,41 @@ $$K_{sp}=\con{A^y+}^x\con{B^x+}^y$$
 
 在大部分简单题中，甚至是不需要定量判断的（也可能是不会给数据），但是一些较难的题，可能会给出数据，有一些是根据数据计算才能判断大小，而还会有一些题，是根据计算会得出与我们一般定性方法不同的结论，这种情况下需要按照题目所给出的数据来。总的来说，标准就是如果给了数据就一定要带进去算一下一些经典的数值，尤其是一些数据看起来和平时做题遇到的数值，在量级上面有很大差异的。
 
-首先，我们以一般的 []{.arithmatex}$\ce{NaHA}$ 为例，首先我们要讨论酸 []{.arithmatex}$\ce{H2A}$ 的类型：
+首先，我们以一般的 \$\ce{NaHA}\$ 为例，首先我们要讨论酸 \$\ce{H2A}\$ 的类型：
 
-- 如果 []{.arithmatex}$\ce{H2A}$ 是二元强酸：那么 []{.arithmatex}$\ce{NaHA}$ 只会电离出 []{.arithmatex}$\ce{H+}$，因此相当于一元强酸，溶液显酸性、抑制水的电离。
+- 如果 \$\ce{H2A}\$ 是二元强酸：那么 \$\ce{NaHA}\$ 只会电离出 \$\ce{H+}\$，因此相当于一元强酸，溶液显酸性、抑制水的电离。
 
-- 如果 []{.arithmatex}$\ce{H2A}$ 第一级电离完全，第二级电离可逆（或者说 []{.arithmatex}$\ce{H2A}$ 是强酸 []{.arithmatex}$\ce{HA-}$ 是弱酸），那么与上面的类似，它会几乎完全电离产生 []{.arithmatex}$\ce{H+}$ 和 []{.arithmatex}$\ce{A-}$，溶液显酸性。
+- 如果 \$\ce{H2A}\$ 第一级电离完全，第二级电离可逆（或者说 \$\ce{H2A}\$ 是强酸 \$\ce{HA-}\$ 是弱酸），那么与上面的类似，它会几乎完全电离产生 \$\ce{H+}\$ 和 \$\ce{A-}\$，溶液显酸性。
 
-- 如果 []{.arithmatex}$\ce{H2A}$ 是经典的二元弱酸，那么我们考虑下面两个过程：
+- 如果 \$\ce{H2A}\$ 是经典的二元弱酸，那么我们考虑下面两个过程：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{HA- \<=\> H+ + A\^2-};\quad K\_{a2}
-  :::
+  \$\$ \ce{HA- \<=\> H+ + A\^2-};\quad K\_{a2} \$\$
 
-  $$\ce{HA- <=> H+ + A^2-};\quad K_{a2}$$
-  ::::
+  \$\$ \ce{HA- + H2O \<=\> OH- + H2A};\quad K\_{h2} \$\$
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{HA- + H2O \<=\> OH- + H2A};\quad K\_{h2}
-  :::
+  那么，只需要判断这两个平衡常数的大小关系即可，也就是说我们可以判断 \$K\_{a1}\cdot K\_{a2}\$ 和 \$\ce{K_w}\$ 的大小关系，如果 \$K\_{a1}\cdot K\_{a2}\>K_w\$ 那么显酸性，否则显碱性。
 
-  $$\ce{HA- + H2O <=> OH- + H2A};\quad K_{h2}$$
-  ::::
+  常见的显酸性的盐有 \$\ce{NaHSO3},\ce{NaHC2O4},\ce{NaH2PO4}\$，显碱性的物质有 \$\ce{NaHCO3},\ce{NaHS},\ce{Na2HPO4}\$，特别的，对于磷酸这样的三元酸，我们考虑这三步电离和水解：
 
-  那么，只需要判断这两个平衡常数的大小关系即可，也就是说我们可以判断 []{.arithmatex}$K_{a1}\cdot K_{a2}$ 和 []{.arithmatex}$\ce{K_w}$ 的大小关系，如果 []{.arithmatex}$K_{a1}\cdot K_{a2}>K_w$ 那么显酸性，否则显碱性。
+  \$\$ \ce{H3PO4 \<=\>\[\$K\_{a1}\$\]\[\$K\_{h3}\$\] H2PO4- \<=\>\[\$K\_{a2}\$\]\[\$K\_{h2}\$\] HPO4\^2- \<=\>\[\$K\_{a3}\$\]\[\$K\_{h1}\$\] PO4\^3-} \$\$
 
-  常见的显酸性的盐有 []{.arithmatex}$\ce{NaHSO3},\ce{NaHC2O4},\ce{NaH2PO4}$，显碱性的物质有 []{.arithmatex}$\ce{NaHCO3},\ce{NaHS},\ce{Na2HPO4}$，特别的，对于磷酸这样的三元酸，我们考虑这三步电离和水解：
+将 \$\ce{HA,NaA}\$ 等体积混合，如果 \$\ce{HA}\$ 是弱酸，那么考虑下面两个反应：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{H3PO4 \<=\>\[\$K\_{a1}\$\]\[\$K\_{h3}\$\] H2PO4- \<=\>\[\$K\_{a2}\$\]\[\$K\_{h2}\$\] HPO4\^2- \<=\>\[\$K\_{a3}\$\]\[\$K\_{h1}\$\] PO4\^3-}
-  :::
+\$\$ \ce{HA \<=\> H+ + A-};\quad K_a \$\$
 
-  $$\ce{H3PO4 <=>[$K_{a1}$][$K_{h3}$] H2PO4- <=>[$K_{a2}$][$K_{h2}$] HPO4^2- <=>[$K_{a3}$][$K_{h1}$] PO4^3-}$$
-  ::::
+\$\$ \ce{A- + H2O \<=\> HA + OH-};\quad K_h \$\$
 
-将 []{.arithmatex}$\ce{HA,NaA}$ 等体积混合，如果 []{.arithmatex}$\ce{HA}$ 是弱酸，那么考虑下面两个反应：
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\ce{HA \<=\> H+ + A-};\quad K_a
-:::
-
-$$\ce{HA <=> H+ + A-};\quad K_a$$
-::::
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\ce{A- + H2O \<=\> HA + OH-};\quad K_h
-:::
-
-$$\ce{A- + H2O <=> HA + OH-};\quad K_h$$
-::::
-
-因此，如果 []{.arithmatex}$K_a^2>Kw$ 则显酸性，否则显碱性。大部分弱酸在这个情境下，都是显酸性的，显碱性的常见酸是 []{.arithmatex}$\ce{HCN}$ 氢氰酸。
+因此，如果 \$K_a\^2\>Kw\$ 则显酸性，否则显碱性。大部分弱酸在这个情境下，都是显酸性的，显碱性的常见酸是 \$\ce{HCN}\$ 氢氰酸。
 
 对于一般的定性问题，我们认为强酸比弱酸更酸，强碱比弱碱更碱；多元酸比一元酸更强，且元数越多酸性越强；还有如下近似，电离通常比水解更强，即酸总比强酸弱碱盐更酸（实际上这确实是不准确的）、碱总比强碱弱酸盐更碱。
 
-我们有下面的顺序，等体积、等浓度 []{.arithmatex}$\pH$ 由大到小排序（第三行是相等）：
+我们有下面的顺序，等体积、等浓度 \$\pH\$ 由大到小排序（第三行是相等）：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{array}{rrrr} \ce{H2SO4} & \ce{HCl} & \ce{HAc} \\\[0.5em\] \ce{(NH4)2SO4} & \ce{NH4Cl} \\\[0.5em\] \ce{Na2SO4} & \ce{NaCl} \\\[0.5em\] \ce{NaAc} & \ce{NaHCO3} & \ce{NaClO} & \ce{Na2CO3} \\\[0.5em\] \ce{NH3\`H2O} & \ce{NaOH} & \ce{Ba(OH)2} \end{array}
-:::
-
-$$\begin{array}{rrrr}
-\ce{H2SO4} & \ce{HCl} & \ce{HAc} \\[0.5em]
-\ce{(NH4)2SO4} & \ce{NH4Cl} \\[0.5em]
-\ce{Na2SO4} & \ce{NaCl} \\[0.5em]
-\ce{NaAc} & \ce{NaHCO3} & \ce{NaClO} & \ce{Na2CO3} \\[0.5em]
-\ce{NH3`H2O} & \ce{NaOH} & \ce{Ba(OH)2}
-\end{array}$$
-::::
+\$\$ \begin{array}{rrrr} \ce{H2SO4} & \ce{HCl} & \ce{HAc} \\0.5em\] \ce{(NH4)2SO4} & \ce{NH4Cl} \\0.5em\] \ce{Na2SO4} & \ce{NaCl} \\0.5em\] \ce{NaAc} & \ce{NaHCO3} & \ce{NaClO} & \ce{Na2CO3} \\0.5em\] \ce{NH3\`H2O} & \ce{NaOH} & \ce{Ba(OH)2} \end{array} \$\$
 
 在此之后，我们如果想要定量判断，就需要用到三大守恒。例如，我们设想向醋酸钠溶液中不断加入氢氧化钠固体，问溶液离子浓度的变化趋势：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{array}{r\|l} \con{Na+} \> \con{AC-} \> \con{OH-} \> \con{H+} & \downarrow \\\[0.5em\] \con{Na+} \> \con{AC-} = \con{OH-} \> \con{H+} & \downarrow \\\[0.5em\] \con{Na+} \> \con{OH-} \> \con{AC-} \> \con{H+} & \downarrow \\\[0.5em\] \con{Na+} = \con{OH-} \> \con{AC-} = \con{H+} & \downarrow \\\[0.5em\] \con{OH-} \> \con{Na+} \> \con{H+} \> \con{AC-} \end{array}
-:::
-
-$$\begin{array}{r|l}
-\con{Na+} > \con{AC-} > \con{OH-} > \con{H+} & \downarrow \\[0.5em]
-\con{Na+} > \con{AC-} = \con{OH-} > \con{H+} & \downarrow \\[0.5em]
-\con{Na+} > \con{OH-} > \con{AC-} > \con{H+} & \downarrow \\[0.5em]
-\con{Na+} = \con{OH-} > \con{AC-} = \con{H+} & \downarrow \\[0.5em]
-\con{OH-} > \con{Na+} > \con{H+} > \con{AC-}
-\end{array}$$
-::::
+\$\$ \begin{array}{r\|l} \con{Na+} \> \con{[AC]{.abbr title="Alternating Current (交流电)"}-} \> \con{OH-} \> \con{H+} & \downarrow \\0.5em\] \con{Na+} \> \con{[AC]{.abbr title="Alternating Current (交流电)"}-} = \con{OH-} \> \con{H+} & \downarrow \\0.5em\] \con{Na+} \> \con{OH-} \> \con{[AC]{.abbr title="Alternating Current (交流电)"}-} \> \con{H+} & \downarrow \\0.5em\] \con{Na+} = \con{OH-} \> \con{[AC]{.abbr title="Alternating Current (交流电)"}-} = \con{H+} & \downarrow \\0.5em\] \con{OH-} \> \con{Na+} \> \con{H+} \> \con{[AC]{.abbr title="Alternating Current (交流电)"}-} \end{array} \$\$
 
 最后溶液会无限趋近于 *纯* 的氢氧化钠溶液，因此最后一个一定是氢氧化钠溶液的离子浓度大小顺序（再加上无限小的醋酸根）。
 
@@ -891,276 +560,234 @@ $$\begin{array}{r|l}
 
 2.  **守恒思想（后分析）**：利用电荷守恒、物料守恒、质子守恒建立各粒子浓度之间的等量关系。
 
-3.  **定性判断（贯穿始终）**：根据弱电解质的电离、盐类的水解是微弱的，以及题目给出的酸碱性信息（[]{.arithmatex}$\pH > 7$ 或 []{.arithmatex}$\pH < 7$）来进行大小的粗略和精细判断。
+3.  **定性判断（贯穿始终）**：根据弱电解质的电离、盐类的水解是微弱的，以及题目给出的酸碱性信息（\$\pH \> 7\$ 或 \$\pH \< 7\$）来进行大小的粗略和精细判断。
 
-::::: {.admonition .note}
-将 []{.arithmatex}$\pH=12$ 的氨水与 []{.arithmatex}$\pH=2$ 的盐酸溶液等体积混合
+::: {.admonition .note}
+将 \$\pH=12\$ 的氨水与 \$\pH=2\$ 的盐酸溶液等体积混合
 
 **第一步：等效转换**
 
-- **氨水**：[]{.arithmatex}$\pH=12$，是弱碱溶液，说明 []{.arithmatex}$\con{OH-} = \pu{E-2 mol/L}$。因为氨水是弱碱，电离微弱，故原始浓度 []{.arithmatex}$\con{NH3*H2O} \gg \pu{E-2 mol/L}$。
+- **氨水**：\$\pH=12\$，是弱碱溶液，说明 \$\con{OH-} = \pu{E-2 mol/L}\$。因为氨水是弱碱，电离微弱，故原始浓度 \$\con{NH3\*H2O} \gg \pu{E-2 mol/L}\$。
 
-- **盐酸**：[]{.arithmatex}$\pH=2$，是强酸溶液，说明 []{.arithmatex}$\con{H+} = \con{HCl} = \pu{E-2 mol/L}$。
+- **盐酸**：\$\pH=2\$，是强酸溶液，说明 \$\con{H+} = \con{HCl} = \pu{E-2 mol/L}\$。
 
 - **混合反应**：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{NH3\*H2O + HCl -\> NH4Cl + H2O}
-  :::
+  \$\$ \ce{NH3\*H2O + HCl -\> NH4Cl + H2O} \$\$
 
-  $$\ce{NH3*H2O + HCl -> NH4Cl + H2O}$$
-  ::::
+  由于 \$\con{NH3*H2O} \gg \con{HCl}\$，等体积混合时，氨水过量*\*。
 
-  由于 []{.arithmatex}$\con{NH3*H2O} \gg \con{HCl}$，等体积混合时，**氨水过量**。
-
-- **反应后溶质**：反应消耗了全部的 []{.arithmatex}$\ce{HCl}$，生成了等量的 []{.arithmatex}$\ce{NH4Cl}$，同时还有大量剩余的 []{.arithmatex}$\ce{NH3*H2O}$。因此，混合后的溶液等效于一个 **[]{.arithmatex}**$\ce{NH3*H2O}$ 和 []{.arithmatex}$\ce{NH4Cl}$ 的混合溶液，且 []{.arithmatex}$\con{NH3*H2O} \gg \con{NH4Cl}$。这是一个碱性缓冲溶液。
+- **反应后溶质**：反应消耗了全部的 \$\ce{HCl}\$，生成了等量的 \$\ce{NH4Cl}\$，同时还有大量剩余的 \$\ce{NH3*H2O}\$。因此，混合后的溶液等效于一个 \*\*\$\ce{NH3*H2O}\$ 和 \$\ce{NH4Cl}\$ 的混合溶液\**，且 \$\con{NH3*H2O} \gg \con{NH4Cl}\$。这是一个碱性缓冲溶液。
 
 **第二步：守恒与定性分析**
 
-- **溶液中所有粒子**：[]{.arithmatex}$\ce{NH3*H2O}$ (分子)、[]{.arithmatex}$\ce{NH4+}$、[]{.arithmatex}$\ce{Cl-}$、[]{.arithmatex}$\ce{OH-}$、[]{.arithmatex}$\ce{H+}$。
+- **溶液中所有粒子**：\$\ce{NH3\*H2O}\$ (分子)、\$\ce{NH4+}\$、\$\ce{Cl-}\$、\$\ce{OH-}\$、\$\ce{H+}\$。
 
 - **浓度排序**：
 
-  1.  **最大浓度**：[]{.arithmatex}$\con{NH3*H2O}$。因为氨水大量过量，是体系中最主要的。
+  1.  **最大浓度**：\$\con{NH3\*H2O}\$。因为氨水大量过量，是体系中最主要的。
 
-  2.  **比较 []{.arithmatex}**$\con{NH4+}$ 和 []{.arithmatex}$\con{Cl-}$：[]{.arithmatex}$\ce{Cl-}$ 完全来自于 []{.arithmatex}$\ce{HCl}$，混合后浓度稀释一半，为 []{.arithmatex}$\pu{0.5E-2 mol/L}$。[]{.arithmatex}$\ce{NH4+}$ 主要来自于反应生成的 []{.arithmatex}$\ce{NH4Cl}$，其量与消耗的 []{.arithmatex}$\ce{HCl}$ 相等。因此，[]{.arithmatex}$\con{NH4+} \approx \con{Cl-}$。
+  2.  **比较 \$\con{NH4+}\$ 和 \$\con{Cl-}\$**：\$\ce{Cl-}\$ 完全来自于 \$\ce{HCl}\$，混合后浓度稀释一半，为 \$\pu{0.5E-2 mol/L}\$。\$\ce{NH4+}\$ 主要来自于反应生成的 \$\ce{NH4Cl}\$，其量与消耗的 \$\ce{HCl}\$ 相等。因此，\$\con{NH4+} \approx \con{Cl-}\$。
 
-      - **精细比较**：利用**电荷守恒**：[]{.arithmatex}$\con{NH4+} + \con{H+} = \con{Cl-} + \con{OH-}$。
-      - 因为溶液氨水过量，呈碱性，所以 []{.arithmatex}$\con{OH-} > \con{H+}$。
-      - 移项得：[]{.arithmatex}$\con{NH4+} - \con{Cl-} = \con{OH-} - \con{H+} > 0$。
-      - 因此，**[]{.arithmatex}**$\con{NH4+} > \con{Cl-}$，尽管二者非常接近。
+      - **精细比较**：利用**电荷守恒**：\$\con{NH4+} + \con{H+} = \con{Cl-} + \con{OH-}\$。
+      - 因为溶液氨水过量，呈碱性，所以 \$\con{OH-} \> \con{H+}\$。
+      - 移项得：\$\con{NH4+} - \con{Cl-} = \con{OH-} - \con{H+} \> 0\$。
+      - 因此，**\$\con{NH4+} \> \con{Cl-}\$**，尽管二者非常接近。
 
-  3.  **比较 []{.arithmatex}**$\con{Cl-}$ 和 []{.arithmatex}$\con{OH-}$：[]{.arithmatex}$\con{Cl-} = \pu{0.5E-2 mol/L}$。混合后是碱性缓冲液，[]{.arithmatex}$\pH$ 比 []{.arithmatex}$12$ 降低，但仍是强碱性（例如 []{.arithmatex}$\pH \approx 10$），所以 []{.arithmatex}$\con{OH-}$ 远小于 []{.arithmatex}$\pu{E-2 mol/L}$。因此，**[]{.arithmatex}**$\con{Cl-} > \con{OH-}$。
+  3.  **比较 \$\con{Cl-}\$ 和 \$\con{OH-}\$**：\$\con{Cl-} = \pu{0.5E-2 mol/L}\$。混合后是碱性缓冲液，\$\pH\$ 比 \$12\$ 降低，但仍是强碱性（例如 \$\pH \approx 10\$），所以 \$\con{OH-}\$ 远小于 \$\pu{E-2 mol/L}\$。因此，**\$\con{Cl-} \> \con{OH-}\$**。
 
-  4.  **比较 []{.arithmatex}**$\con{OH-}$ 和 []{.arithmatex}$\con{H+}$：溶液呈碱性，**[]{.arithmatex}**$\con{OH-} > \con{H+}$。
+  4.  **比较 \$\con{OH-}\$ 和 \$\con{H+}\$**：溶液呈碱性，**\$\con{OH-} \> \con{H+}\$**。
 
 **结论**：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\con{NH3\*H2O} \> \con{NH4+} \> \con{Cl-} \> \con{OH-} \> \con{H+}
+\$\$ \con{NH3\*H2O} \> \con{NH4+} \> \con{Cl-} \> \con{OH-} \> \con{H+} \$\$
 :::
 
-$$\con{NH3*H2O} > \con{NH4+} > \con{Cl-} > \con{OH-} > \con{H+}$$
-::::
-:::::
-
-::::: {.admonition .note}
-将 []{.arithmatex}$\pu{0.2 mol/L}$ 的 []{.arithmatex}$\ce{NH4NO3}$ 溶液与 []{.arithmatex}$\pu{0.1 mol/L}$ 的 []{.arithmatex}$\ce{NaOH}$ 溶液等体积混合（[]{.arithmatex}$\pH > 7$）
+::: {.admonition .note}
+将 \$\pu{0.2 mol/L}\$ 的 \$\ce{NH4NO3}\$ 溶液与 \$\pu{0.1 mol/L}\$ 的 \$\ce{NaOH}\$ 溶液等体积混合（\$\pH \> 7\$）
 
 **第一步：等效转换**
 
 - **混合反应**：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{NH4+ + OH- -\> NH3\*H2O}
-  :::
+  \$\$ \ce{NH4+ + OH- -\> NH3\*H2O} \$\$
 
-  $$\ce{NH4+ + OH- -> NH3*H2O}$$
-  ::::
-
-- **物质的量**：等体积 []{.arithmatex}$V$ 混合，[]{.arithmatex}$n(\ce{NH4+}) = 0.2V$，[]{.arithmatex}$n(\ce{OH-}) = 0.1V$。[]{.arithmatex}$\ce{OH-}$ 是少量，完全反应。
+- **物质的量**：等体积 \$V\$ 混合，\$n(\ce{NH4+}) = 0.2V\$，\$n(\ce{OH-}) = 0.1V\$。\$\ce{OH-}\$ 是少量，完全反应。
 
 - **反应后**：
 
-  - 生成的 []{.arithmatex}$n(\ce{NH3*H2O}) = 0.1V$
-  - 剩余的 []{.arithmatex}$n(\ce{NH4+}) = 0.2V - 0.1V = 0.1V$
-  - 未参与反应的 []{.arithmatex}$n(\ce{NO3-}) = 0.2V$ 和 []{.arithmatex}$n(\ce{Na+}) = 0.1V$
+  - 生成的 \$n(\ce{NH3\*H2O}) = 0.1V\$
+  - 剩余的 \$n(\ce{NH4+}) = 0.2V - 0.1V = 0.1V\$
+  - 未参与反应的 \$n(\ce{NO3-}) = 0.2V\$ 和 \$n(\ce{Na+}) = 0.1V\$
 
-- **等效溶液**：混合后总体积为 []{.arithmatex}$2V$，溶液等效于 **[]{.arithmatex}**$\pu{0.05 mol/L}$ []{.arithmatex}$\ce{NH3*H2O}$、[]{.arithmatex}$\pu{0.05 mol/L}$ []{.arithmatex}$\ce{NH4NO3}$ 和 []{.arithmatex}$\pu{0.05 mol/L}$ []{.arithmatex}$\ce{NaNO3}$ 的混合溶液。这是一个 []{.arithmatex}$\con{NH3*H2O} \approx \con{NH4+}$ 的缓冲体系。
+- **等效溶液**：混合后总体积为 \$2V\$，溶液等效于 **\$\pu{0.05 mol/L}\$ \$\ce{NH3\*H2O}\$、\$\pu{0.05 mol/L}\$ \$\ce{NH4NO3}\$ 和 \$\pu{0.05 mol/L}\$ \$\ce{NaNO3}\$ 的混合溶液**。这是一个 \$\con{NH3\*H2O} \approx \con{NH4+}\$ 的缓冲体系。
 
 **第二步：守恒与定性分析**
 
-- **溶液中所有粒子**：[]{.arithmatex}$\ce{NO3-}$、[]{.arithmatex}$\ce{NH4+}$、[]{.arithmatex}$\ce{Na+}$、[]{.arithmatex}$\ce{NH3*H2O}$、[]{.arithmatex}$\ce{OH-}$、[]{.arithmatex}$\ce{H+}$。
+- **溶液中所有粒子**：\$\ce{NO3-}\$、\$\ce{NH4+}\$、\$\ce{Na+}\$、\$\ce{NH3\*H2O}\$、\$\ce{OH-}\$、\$\ce{H+}\$。
 
 - **浓度排序**：
 
   1.  **比较主要离子/分子**：根据等效转换的计算：
 
-      - []{.arithmatex}$\con{NO3-} = 0.2V / 2V = \pu{0.1 mol/L}$
-      - []{.arithmatex}$\con{Na+} = 0.1V / 2V = \pu{0.05 mol/L}$
-      - **物料守恒（N元素）**：[]{.arithmatex}$\con{NH4+} + \con{NH3*H2O} = 0.2V / 2V = \pu{0.1 mol/L}$。
+      - \$\con{NO3-} = 0.2V / 2V = \pu{0.1 mol/L}\$
+      - \$\con{Na+} = 0.1V / 2V = \pu{0.05 mol/L}\$
+      - **物料守恒（N元素）**：\$\con{NH4+} + \con{NH3\*H2O} = 0.2V / 2V = \pu{0.1 mol/L}\$。
 
-  2.  **利用 []{.arithmatex}**$\pH > 7$：溶液呈碱性，说明氨水的电离 ([]{.arithmatex}$\ce{NH3*H2O <=> NH4+ + OH-}$) 程度大于铵根的水解 ([]{.arithmatex}$\ce{NH4+ + H2O <=> NH3*H2O + H+}$)。这意味着体系中 **[]{.arithmatex}**$\ce{NH4+}$ 的消耗比 []{.arithmatex}$\ce{NH3*H2O}$ 的消耗要多（或者说 []{.arithmatex}$\ce{NH3*H2O}$ 的生成比 []{.arithmatex}$\ce{NH4+}$ 的生成多）。
+  2.  **利用 \$\pH \> 7\$**：溶液呈碱性，说明氨水的电离 (\$\ce{NH3*H2O \<=\> NH4+ + OH-}\$) 程度大于铵根的水解 (\$\ce{NH4+ + H2O \<=\> NH3*H2O + H+}\$)。这意味着体系中 **\$\ce{NH4+}\$ 的消耗比 \$\ce{NH3\*H2O}\$ 的消耗要多**（或者说 \$\ce{NH3\*H2O}\$ 的生成比 \$\ce{NH4+}\$ 的生成多）。
 
-      - 因此，相比于反应结束时设想的 []{.arithmatex}$\pu{0.05 M}$，实际上 []{.arithmatex}$\con{NH4+}$ 会略微 **小于** []{.arithmatex}$\pu{0.05 M}$，而 []{.arithmatex}$\con{NH3*H2O}$ 会略微 **大于** []{.arithmatex}$\pu{0.05 M}$。
+      - 因此，相比于反应结束时设想的 \$\pu{0.05 M}\$，实际上 \$\con{NH4+}\$ 会略微 **小于** \$\pu{0.05 M}\$，而 \$\con{NH3*H2O}\$ 会略微 \**大于\*\* \$\pu{0.05 M}\$。
 
-      - **精细比较**：利用**电荷守恒**：[]{.arithmatex}$\con{Na+} + \con{NH4+} + \con{H+} = \con{NO3-} + \con{OH-}$。
+      - **精细比较**：利用**电荷守恒**：\$\con{Na+} + \con{NH4+} + \con{H+} = \con{NO3-} + \con{OH-}\$。
 
-      - 代入已知浓度：[]{.arithmatex}$0.05 + \con{NH4+} + \con{H+} = 0.1 + \con{OH-}$。
+      - 代入已知浓度：\$0.05 + \con{NH4+} + \con{H+} = 0.1 + \con{OH-}\$。
 
-      - 整理得：[]{.arithmatex}$\con{NH4+} = 0.05 + \con{OH-} - \con{H+}$。
+      - 整理得：\$\con{NH4+} = 0.05 + \con{OH-} - \con{H+}\$。
 
-      - 因为 []{.arithmatex}$\pH > 7$，[]{.arithmatex}$\con{OH-} > \con{H+}$，所以 []{.arithmatex}$\con{OH-} - \con{H+} > 0$。
+      - 因为 \$\pH \> 7\$，\$\con{OH-} \> \con{H+}\$，所以 \$\con{OH-} - \con{H+} \> 0\$。
 
-      - 结论是 **[]{.arithmatex}**$\con{NH4+} > \pu{0.05 mol/L}$。（*注：此处定性判断与守恒计算出现矛盾，以**电荷守恒**为准*）。
+      - 结论是 **\$\con{NH4+} \> \pu{0.05 mol/L}\$**。（*注：此处定性判断与守恒计算出现矛盾，以**电荷守恒**为准*）。
 
-      - 既然 []{.arithmatex}$\con{NH4+} > \pu{0.05 mol/L}$，根据物料守恒 []{.arithmatex}$\con{NH4+} + \con{NH3*H2O} = \pu{0.1 mol/L}$，则必然有 **[]{.arithmatex}**$\con{NH3*H2O} < \pu{0.05 mol/L}$。
+      - 既然 \$\con{NH4+} \> \pu{0.05 mol/L}\$，根据物料守恒 \$\con{NH4+} + \con{NH3*H2O} = \pu{0.1 mol/L}\$，则必然有 \*\*\$\con{NH3*H2O} \< \pu{0.05 mol/L}\$\*\*。
 
   3.  **组合排序**：
 
-      - []{.arithmatex}$\con{NO3-} = \pu{0.1 mol/L}$ (最大)
-      - []{.arithmatex}$\con{NH4+}$ 略大于 []{.arithmatex}$\pu{0.05 mol/L}$
-      - []{.arithmatex}$\con{Na+}$ 等于 []{.arithmatex}$\pu{0.05 mol/L}$
-      - []{.arithmatex}$\con{NH3*H2O}$ 略小于 []{.arithmatex}$\pu{0.05 mol/L}$
-      - 所以 []{.arithmatex}$\con{NO3-} > \con{NH4+} > \con{Na+} > \con{NH3*H2O}$。
+      - \$\con{NO3-} = \pu{0.1 mol/L}\$ (最大)
+      - \$\con{NH4+}\$ 略大于 \$\pu{0.05 mol/L}\$
+      - \$\con{Na+}\$ 等于 \$\pu{0.05 mol/L}\$
+      - \$\con{NH3\*H2O}\$ 略小于 \$\pu{0.05 mol/L}\$
+      - 所以 \$\con{NO3-} \> \con{NH4+} \> \con{Na+} \> \con{NH3\*H2O}\$。
 
-  4.  **比较 []{.arithmatex}**$\con{OH-}$ 和 []{.arithmatex}$\con{H+}$：已知 []{.arithmatex}$\pH > 7$，故 **[]{.arithmatex}**$\con{OH-} > \con{H+}$。它们是电离/水解产生的，浓度远小于主要粒子。
+  4.  **比较 \$\con{OH-}\$ 和 \$\con{H+}\$**：已知 \$\pH \> 7\$，故 **\$\con{OH-} \> \con{H+}\$**。它们是电离/水解产生的，浓度远小于主要粒子。
 
 **结论**：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\con{NO3-} \> \con{NH4+} \> \con{Na+} \> \con{NH3\*H2O} \> \con{OH-} \> \con{H+}
+\$\$ \con{NO3-} \> \con{NH4+} \> \con{Na+} \> \con{NH3\*H2O} \> \con{OH-} \> \con{H+} \$\$
 :::
 
-$$\con{NO3-} > \con{NH4+} > \con{Na+} > \con{NH3*H2O} > \con{OH-} > \con{H+}$$
-::::
-:::::
-
-::::: {.admonition .note}
-将 []{.arithmatex}$\pu{0.2 mol/L}$ 此处为 []{.arithmatex}$\ce{CH3COONa}$ 与 []{.arithmatex}$\pu{0.1 mol/L}$ []{.arithmatex}$\ce{HCl}$ 溶液等体积混合（[]{.arithmatex}$\pH < 7$）
+::: {.admonition .note}
+将 \$\pu{0.2 mol/L}\$ 此处为 \$\ce{CH3COONa}\$ 与 \$\pu{0.1 mol/L}\$ \$\ce{HCl}\$ 溶液等体积混合（\$\pH \< 7\$）
 
 **第一步：等效转换**
 
 - **混合反应**：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \ce{CH3COO- + H+ -\> CH3COOH}
-  :::
+  \$\$ \ce{CH3COO- + H+ -\> CH3COOH} \$\$
 
-  $$\ce{CH3COO- + H+ -> CH3COOH}$$
-  ::::
-
-- **物质的量**：等体积 []{.arithmatex}$V$ 混合，[]{.arithmatex}$n(\ce{CH3COO-}) = 0.2V$，[]{.arithmatex}$n(\ce{H+}) = 0.1V$。[]{.arithmatex}$\ce{H+}$ 是少量，完全反应。
+- **物质的量**：等体积 \$V\$ 混合，\$n(\ce{CH3COO-}) = 0.2V\$，\$n(\ce{H+}) = 0.1V\$。\$\ce{H+}\$ 是少量，完全反应。
 
 - **反应后**：
 
-  - 生成的 []{.arithmatex}$n(\ce{CH3COOH}) = 0.1V$
-  - 剩余的 []{.arithmatex}$n(\ce{CH3COO-}) = 0.2V - 0.1V = 0.1V$
-  - 未参与反应的 []{.arithmatex}$n(\ce{Na+}) = 0.2V$ 和 []{.arithmatex}$n(\ce{Cl-}) = 0.1V$
+  - 生成的 \$n(\ce{CH3COOH}) = 0.1V\$
+  - 剩余的 \$n(\ce{CH3COO-}) = 0.2V - 0.1V = 0.1V\$
+  - 未参与反应的 \$n(\ce{Na+}) = 0.2V\$ 和 \$n(\ce{Cl-}) = 0.1V\$
 
-- **等效溶液**：混合后总体积为 []{.arithmatex}$2V$，溶液等效于 **[]{.arithmatex}**$\pu{0.05 mol/L}$ []{.arithmatex}$\ce{CH3COOH}$、[]{.arithmatex}$\pu{0.05 mol/L}$ []{.arithmatex}$\ce{CH3COONa}$ 和 []{.arithmatex}$\pu{0.05 mol/L}$ []{.arithmatex}$\ce{NaCl}$ 的混合溶液。这是一个 []{.arithmatex}$\con{CH3COOH} \approx \con{CH3COO-}$ 的缓冲体系。
+- **等效溶液**：混合后总体积为 \$2V\$，溶液等效于 **\$\pu{0.05 mol/L}\$ \$\ce{CH3COOH}\$、\$\pu{0.05 mol/L}\$ \$\ce{CH3COONa}\$ 和 \$\pu{0.05 mol/L}\$ \$\ce{NaCl}\$ 的混合溶液**。这是一个 \$\con{CH3COOH} \approx \con{CH3COO-}\$ 的缓冲体系。
 
 **第二步：守恒与定性分析**
 
-- **溶液中所有粒子**：[]{.arithmatex}$\ce{Na+}$、[]{.arithmatex}$\ce{CH3COO-}$、[]{.arithmatex}$\ce{Cl-}$、[]{.arithmatex}$\ce{CH3COOH}$、[]{.arithmatex}$\ce{H+}$、[]{.arithmatex}$\ce{OH-}$。
+- **溶液中所有粒子**：\$\ce{Na+}\$、\$\ce{CH3COO-}\$、\$\ce{Cl-}\$、\$\ce{CH3COOH}\$、\$\ce{H+}\$、\$\ce{OH-}\$。
 
 - **浓度排序**：
 
   1.  **比较主要离子/分子**：
 
-      - []{.arithmatex}$\con{Na+} = 0.1V / 2V = \pu{0.1 mol/L}$
-      - []{.arithmatex}$\con{Cl-} = 0.1V / 2V = \pu{0.05 mol/L}$
-      - **物料守恒（乙酸根）**：[]{.arithmatex}$\con{CH3COO-} + \con{CH3COOH} = 0.2V / 2V = \pu{0.1 mol/L}$。
+      - \$\con{Na+} = 0.1V / 2V = \pu{0.1 mol/L}\$
+      - \$\con{Cl-} = 0.1V / 2V = \pu{0.05 mol/L}\$
+      - **物料守恒（乙酸根）**：\$\con{CH3COO-} + \con{CH3COOH} = 0.2V / 2V = \pu{0.1 mol/L}\$。
 
-  2.  **利用 []{.arithmatex}**$\pH < 7$：溶液呈酸性，说明醋酸的电离 ([]{.arithmatex}$\ce{CH3COOH <=> CH3COO- + H+}$) 程度大于醋酸根的水解 ([]{.arithmatex}$\ce{CH3COO- + H2O <=> CH3COOH + OH-}$)。这意味着体系中 **[]{.arithmatex}**$\ce{CH3COOH}$ 的消耗比 []{.arithmatex}$\ce{CH3COO-}$ 要多。
+  2.  **利用 \$\pH \< 7\$**：溶液呈酸性，说明醋酸的电离 (\$\ce{CH3COOH \<=\> CH3COO- + H+}\$) 程度大于醋酸根的水解 (\$\ce{CH3COO- + H2O \<=\> CH3COOH + OH-}\$)。这意味着体系中 **\$\ce{CH3COOH}\$ 的消耗比 \$\ce{CH3COO-}\$ 要多**。
 
-      - 因此，[]{.arithmatex}$\con{CH3COO-}$ 会略微 **大于** []{.arithmatex}$\pu{0.05 M}$，而 []{.arithmatex}$\con{CH3COOH}$ 会略微 **小于** []{.arithmatex}$\pu{0.05 M}$。
+      - 因此，\$\con{CH3COO-}\$ 会略微 **大于** \$\pu{0.05 M}\$，而 \$\con{CH3COOH}\$ 会略微 **小于** \$\pu{0.05 M}\$。
 
-      - **精细比较**：利用**电荷守恒**：[]{.arithmatex}$\con{Na+} + \con{H+} = \con{Cl-} + \con{CH3COO-} + \con{OH-}$。
+      - **精细比较**：利用**电荷守恒**：\$\con{Na+} + \con{H+} = \con{Cl-} + \con{CH3COO-} + \con{OH-}\$。
 
-      - 代入已知浓度：[]{.arithmatex}$0.1 + \con{H+} = 0.05 + \con{CH3COO-} + \con{OH-}$。
+      - 代入已知浓度：\$0.1 + \con{H+} = 0.05 + \con{CH3COO-} + \con{OH-}\$。
 
-      - 整理得：[]{.arithmatex}$\con{CH3COO-} = 0.05 + \con{H+} - \con{OH-}$。
+      - 整理得：\$\con{CH3COO-} = 0.05 + \con{H+} - \con{OH-}\$。
 
-      - 因为 []{.arithmatex}$\pH < 7$，[]{.arithmatex}$\con{H+} > \con{OH-}$，所以 []{.arithmatex}$\con{H+} - \con{OH-} > 0$。
+      - 因为 \$\pH \< 7\$，\$\con{H+} \> \con{OH-}\$，所以 \$\con{H+} - \con{OH-} \> 0\$。
 
-      - 结论是 **[]{.arithmatex}**$\con{CH3COO-} > \pu{0.05 mol/L}$。
+      - 结论是 **\$\con{CH3COO-} \> \pu{0.05 mol/L}\$**。
 
-      - 既然 []{.arithmatex}$\con{CH3COO-} > \pu{0.05 mol/L}$，根据物料守恒，则必然有 **[]{.arithmatex}**$\con{CH3COOH} < \pu{0.05 mol/L}$。
+      - 既然 \$\con{CH3COO-} \> \pu{0.05 mol/L}\$，根据物料守恒，则必然有 **\$\con{CH3COOH} \< \pu{0.05 mol/L}\$**。
 
   3.  **组合排序**：
 
-      - []{.arithmatex}$\con{Na+} = \pu{0.1 mol/L}$ (最大)
-      - []{.arithmatex}$\con{CH3COO-}$ 略大于 []{.arithmatex}$\pu{0.05 mol/L}$
-      - []{.arithmatex}$\con{Cl-}$ 等于 []{.arithmatex}$\pu{0.05 mol/L}$
-      - []{.arithmatex}$\con{CH3COOH}$ 略小于 []{.arithmatex}$\pu{0.05 mol/L}$
-      - 所以 []{.arithmatex}$\con{Na+} > \con{CH3COO-} > \con{Cl-} > \con{CH3COOH}$。
+      - \$\con{Na+} = \pu{0.1 mol/L}\$ (最大)
+      - \$\con{CH3COO-}\$ 略大于 \$\pu{0.05 mol/L}\$
+      - \$\con{Cl-}\$ 等于 \$\pu{0.05 mol/L}\$
+      - \$\con{CH3COOH}\$ 略小于 \$\pu{0.05 mol/L}\$
+      - 所以 \$\con{Na+} \> \con{CH3COO-} \> \con{Cl-} \> \con{CH3COOH}\$。
 
-  4.  **比较 []{.arithmatex}**$\con{H+}$ 和 []{.arithmatex}$\con{OH-}$：已知 []{.arithmatex}$\pH < 7$，故 **[]{.arithmatex}**$\con{H+} > \con{OH-}$。它们浓度很小。
+  4.  **比较 \$\con{H+}\$ 和 \$\con{OH-}\$**：已知 \$\pH \< 7\$，故 **\$\con{H+} \> \con{OH-}\$**。它们浓度很小。
 
 **结论**：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\con{Na+} \> \con{CH3COO-} \> \con{Cl-} \> \con{CH3COOH} \> \con{H+} \> \con{OH-}
+\$\$ \con{Na+} \> \con{CH3COO-} \> \con{Cl-} \> \con{CH3COOH} \> \con{H+} \> \con{OH-} \$\$
 :::
 
-$$\con{Na+} > \con{CH3COO-} > \con{Cl-} > \con{CH3COOH} > \con{H+} > \con{OH-}$$
-::::
-:::::
-
-::::: {.admonition .note}
-将 []{.arithmatex}$\pu{0.1 mol/L}$ []{.arithmatex}$\ce{NaCN}$ 与 []{.arithmatex}$\pu{0.1 mol/L}$ []{.arithmatex}$\ce{HCN}$ 溶液等体积混合（[]{.arithmatex}$\pH > 7$）
+::: {.admonition .note}
+将 \$\pu{0.1 mol/L}\$ \$\ce{NaCN}\$ 与 \$\pu{0.1 mol/L}\$ \$\ce{HCN}\$ 溶液等体积混合（\$\pH \> 7\$）
 
 **第一步：等效转换**
 
 - **混合反应**：无明显化学反应，只是混合稀释。
 
-- **等效溶液**：混合后总体积为 []{.arithmatex}$2V$，溶液等效于 **[]{.arithmatex}**$\pu{0.05 mol/L}$ []{.arithmatex}$\ce{NaCN}$ 和 []{.arithmatex}$\pu{0.05 mol/L}$ []{.arithmatex}$\ce{HCN}$ 的混合溶液。这是一个典型的缓冲溶液。
+- **等效溶液**：混合后总体积为 \$2V\$，溶液等效于 **\$\pu{0.05 mol/L}\$ \$\ce{NaCN}\$ 和 \$\pu{0.05 mol/L}\$ \$\ce{HCN}\$ 的混合溶液**。这是一个典型的缓冲溶液。
 
 **第二步：守恒与定性分析**
 
-- **溶液中所有粒子**：[]{.arithmatex}$\ce{Na+}$、[]{.arithmatex}$\ce{CN-}$、[]{.arithmatex}$\ce{HCN}$、[]{.arithmatex}$\ce{OH-}$、[]{.arithmatex}$\ce{H+}$。
+- **溶液中所有粒子**：\$\ce{Na+}\$、\$\ce{CN-}\$、\$\ce{HCN}\$、\$\ce{OH-}\$、\$\ce{H+}\$。
 
 - **浓度排序**：
 
   1.  **比较主要离子/分子**：
 
-      - []{.arithmatex}$\con{Na+}$ 是旁观离子，浓度恒定为 []{.arithmatex}$0.1V / 2V = \pu{0.05 mol/L}$。
-      - **物料守恒（氰基）**：[]{.arithmatex}$\con{CN-} + \con{HCN} = (0.1V + 0.1V) / 2V = \pu{0.1 mol/L}$。
+      - \$\con{Na+}\$ 是旁观离子，浓度恒定为 \$0.1V / 2V = \pu{0.05 mol/L}\$。
+      - **物料守恒（氰基）**：\$\con{CN-} + \con{HCN} = (0.1V + 0.1V) / 2V = \pu{0.1 mol/L}\$。
 
-  2.  **利用 []{.arithmatex}**$\pH > 7$：溶液呈碱性，说明氰根的水解 ([]{.arithmatex}$\ce{CN- + H2O <=> HCN + OH-}$) 程度大于 []{.arithmatex}$\ce{HCN}$ 的电离 ([]{.arithmatex}$\ce{HCN <=> H+ + CN-}$)。这意味着体系中 **[]{.arithmatex}**$\ce{CN-}$ 的消耗比 []{.arithmatex}$\ce{HCN}$ 要多。
+  2.  **利用 \$\pH \> 7\$**：溶液呈碱性，说明氰根的水解 (\$\ce{CN- + H2O \<=\> HCN + OH-}\$) 程度大于 \$\ce{HCN}\$ 的电离 (\$\ce{HCN \<=\> H+ + CN-}\$)。这意味着体系中 **\$\ce{CN-}\$ 的消耗比 \$\ce{HCN}\$ 要多**。
 
-      - 因此，[]{.arithmatex}$\con{HCN}$ 会略微 **大于** []{.arithmatex}$\pu{0.05 M}$，而 []{.arithmatex}$\con{CN-}$ 会略微 **小于** []{.arithmatex}$\pu{0.05 M}$。
+      - 因此，\$\con{HCN}\$ 会略微 **大于** \$\pu{0.05 M}\$，而 \$\con{CN-}\$ 会略微 **小于** \$\pu{0.05 M}\$。
 
-      - **精细比较**：利用**电荷守恒**：[]{.arithmatex}$\con{Na+} + \con{H+} = \con{CN-} + \con{OH-}$。
+      - **精细比较**：利用**电荷守恒**：\$\con{Na+} + \con{H+} = \con{CN-} + \con{OH-}\$。
 
-      - 代入 []{.arithmatex}$\con{Na+}$：[]{.arithmatex}$0.05 + \con{H+} = \con{CN-} + \con{OH-}$。
+      - 代入 \$\con{Na+}\$：\$0.05 + \con{H+} = \con{CN-} + \con{OH-}\$。
 
-      - 整理得：[]{.arithmatex}$\con{CN-} = 0.05 + \con{H+} - \con{OH-}$。
+      - 整理得：\$\con{CN-} = 0.05 + \con{H+} - \con{OH-}\$。
 
-      - 因为 []{.arithmatex}$\pH > 7$，[]{.arithmatex}$\con{H+} < \con{OH-}$，所以 []{.arithmatex}$\con{H+} - \con{OH-} < 0$。
+      - 因为 \$\pH \> 7\$，\$\con{H+} \< \con{OH-}\$，所以 \$\con{H+} - \con{OH-} \< 0\$。
 
-      - 结论是 **[]{.arithmatex}**$\con{CN-} < \pu{0.05 mol/L}$。
+      - 结论是 **\$\con{CN-} \< \pu{0.05 mol/L}\$**。
 
-      - 既然 []{.arithmatex}$\con{CN-} < \pu{0.05 mol/L}$，根据物料守恒，则必然有 **[]{.arithmatex}**$\con{HCN} > \pu{0.05 mol/L}$。
+      - 既然 \$\con{CN-} \< \pu{0.05 mol/L}\$，根据物料守恒，则必然有 **\$\con{HCN} \> \pu{0.05 mol/L}\$**。
 
   3.  **组合排序**：
 
-      - []{.arithmatex}$\con{HCN}$ 略大于 []{.arithmatex}$\pu{0.05 mol/L}$
-      - []{.arithmatex}$\con{Na+}$ 等于 []{.arithmatex}$\pu{0.05 mol/L}$
-      - []{.arithmatex}$\con{CN-}$ 略小于 []{.arithmatex}$\pu{0.05 mol/L}$
-      - 所以 []{.arithmatex}$\con{HCN} > \con{Na+} > \con{CN-}$。
+      - \$\con{HCN}\$ 略大于 \$\pu{0.05 mol/L}\$
+      - \$\con{Na+}\$ 等于 \$\pu{0.05 mol/L}\$
+      - \$\con{CN-}\$ 略小于 \$\pu{0.05 mol/L}\$
+      - 所以 \$\con{HCN} \> \con{Na+} \> \con{CN-}\$。
 
-  4.  **比较 []{.arithmatex}**$\con{OH-}$ 和 []{.arithmatex}$\con{H+}$：已知 []{.arithmatex}$\pH > 7$，故 **[]{.arithmatex}**$\con{OH-} > \con{H+}$。它们浓度很小。
+  4.  **比较 \$\con{OH-}\$ 和 \$\con{H+}\$**：已知 \$\pH \> 7\$，故 **\$\con{OH-} \> \con{H+}\$**。它们浓度很小。
 
 **结论**：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\con{HCN} \> \con{Na+} \> \con{CN-} \> \con{OH-} \> \con{H+}
+\$\$ \con{HCN} \> \con{Na+} \> \con{CN-} \> \con{OH-} \> \con{H+} \$\$
 :::
-
-$$\con{HCN} > \con{Na+} > \con{CN-} > \con{OH-} > \con{H+}$$
-::::
-:::::
 
 ### 图像与应用 {#_17}
 
 酸碱电离平衡常数对元素化合物的指导意义：
 
-- 比较酸的强弱：比较其 []{.arithmatex}$K_a$ 或 []{.arithmatex}$K_{a1}$，例如 []{.arithmatex}$\ce{HAc}>\ce{H2CO3}>\ce{HClO}>\ce{HCO3^-}$。
+- 比较酸的强弱：比较其 \$K_a\$ 或 \$K\_{a1}\$，例如 \$\ce{HAc}\>\ce{H2CO3}\>\ce{HClO}\>\ce{HCO3\^-}\$。
 
-- 比较获得氢离子能力的强弱：比较其 []{.arithmatex}$K_a$，例如 []{.arithmatex}$\ce{Ac-}>\ce{HCO3^-}>\ce{ClO-}>\ce{CO3^2-}$。
+- 比较获得氢离子能力的强弱：比较其 \$K_a\$，例如 \$\ce{Ac-}\>\ce{HCO3^-}\>\ce{ClO-}\>\ce{CO3^2-}\$。
 
 - 例如将二氧化碳通入次氯酸钠溶液中，只能生成碳酸氢钠而不能生产碳酸钠。
 
-一元强酸（[]{.arithmatex}$\ce{HCl}$）与一元弱酸（[]{.arithmatex}$\ce{CH3COOH}$）的比较：
+一元强酸（\$\ce{HCl}\$）与一元弱酸（\$\ce{CH3COOH}\$）的比较：
 
 - 等体积等浓度：
 
@@ -1168,16 +795,16 @@ $$\con{HCN} > \con{Na+} > \con{CN-} > \con{OH-} > \con{H+}$$
 
   ![alt text](../image-5.avif){width="100%"}
 
-- 等体积等 []{.arithmatex}$\pH$：
+- 等体积等 \$\pH\$：
 
   ![alt text](../image-2.avif){width="100%"}
 
   ![alt text](../image-6.avif){width="100%"}
 
-判断 []{.arithmatex}$\dfrac{\con{A}}{\con{B}}$ 的变化：
+判断 \$\dfrac{\con{A}}{\con{B}}\$ 的变化：
 
 1.  一个变大、一个变小。
 
-2.  联系平衡常数，如 []{.arithmatex}$K_a,K_b,K_w$ 等。
+2.  联系平衡常数，如 \$K_a,K_b,K_w\$ 等。
 
 3.  极端假设法。

@@ -4,241 +4,106 @@
   <h1 id="_1">数列进阶</h1>
 <h2 id="_2">回顾及补充</h2>
 <h3 id="_3">经典常量</h3>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \pi\approx3.14159
-</div>
-<script type="math/tex; mode=display">
-\pi\approx3.14159
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 e\approx2.71828
-</div>
-<script type="math/tex; mode=display">
-e\approx2.71828
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \gamma\approx0.57721
-</div>
-<script type="math/tex; mode=display">
-\gamma\approx0.57721
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \varphi={1+\sqrt5\over2}\approx1.61803
-</div>
-<script type="math/tex; mode=display">
-\varphi={1+\sqrt5\over2}\approx1.61803
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \hat\varphi={1-\sqrt5\over2}\approx-.61803
-</div>
-<script type="math/tex; mode=display">
-\hat\varphi={1-\sqrt5\over2}\approx-.61803
-</script>
-</div>
+$$</p>
 <h3 id="_4">基础公式</h3>
 <p>一些公式，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \sum_{i=1}^ni={n(n+1)\over2}
-</div>
-<script type="math/tex; mode=display">
-\sum_{i=1}^ni={n(n+1)\over2}
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\sum_{i=1}^ni^2={n(n+1)(2n+1)\over6}={n(n+1/2)(n+1)\over3}
-</div>
-<script type="math/tex; mode=display">
-\sum_{i=1}^ni^2={n(n+1)(2n+1)\over6}={n(n+1/2)(n+1)\over3}
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\sum_{i=1}^ni^3=\left[{n(n+1)\over2}\right]^2={n^2(n+1)^2\over4}
-</div>
-<script type="math/tex; mode=display">
-\sum_{i=1}^ni^3=\left[{n(n+1)\over2}\right]^2={n^2(n+1)^2\over4}
-</script>
-</div>
+$$</p>
+<p>$$
+\sum_{i=1}<sup>ni</sup>2={n(n+1)(2n+1)\over6}={n(n+&frac12;)(n+1)\over3}
+$$</p>
+<p>$$
+\sum_{i=1}<sup>ni</sup>3=\left[{n(n+1)\over2}\right]<sup>2={n</sup>2(n+1)^2\over4}
+$$</p>
 <p>可以通过扰动法（见下）或者待定系数并归纳得出。</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\sum_{i=0}^nc^i={c^{n+1}-1\over c-1},c\neq1
-</div>
-<script type="math/tex; mode=display">
-\sum_{i=0}^nc^i={c^{n+1}-1\over c-1},c\neq1
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
+\sum_{i=0}<sup>nc</sup>i={c^{n+1}-1\over c-1},c\neq1
+$$</p>
+<p>$$
 \sum_{i\ge0}c^i={1\over 1-c},|c|&lt;1
-</div>
-<script type="math/tex; mode=display">
-\sum_{i\ge0}c^i={1\over 1-c},|c|<1
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \sum_{i\ge1}c^i={c\over 1-c},|c|&lt;1
-</div>
-<script type="math/tex; mode=display">
-\sum_{i\ge1}c^i={c\over 1-c},|c|<1
-</script>
-</div>
+$$</p>
 <p>上面的是等比数列，下面的用极限得出。</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\sum_{i=0}^nic^i={nc^{n+2}-(n-1)c^{n+1}+c\over(c-1)^2},c\neq1
-</div>
-<script type="math/tex; mode=display">
-\sum_{i=0}^nic^i={nc^{n+2}-(n-1)c^{n+1}+c\over(c-1)^2},c\neq1
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\sum_{i\ge0}ic^i={c\over(1-c)^2},|c|&lt;1
-</div>
-<script type="math/tex; mode=display">
-\sum_{i\ge0}ic^i={c\over(1-c)^2},|c|<1
-</script>
-</div>
+<p>$$
+\sum_{i=0}<sup>nic</sup>i={nc<sup n_1="n+1">{n+2}-(n-1)c</sup>,c\neq1
+$$}+c\over(c-1)^2</p>
+<p>$$
+\sum_{i\ge0}ic<sup>i={c\over(1-c)</sup>2},|c|&lt;1
+$$</p>
 <p>上面的可以扰动法得出，下面的极限得出。</p>
 <h3 id="_5">调和级数</h3>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 H_n=\sum_{i=1}^n{1\over i}
-</div>
-<script type="math/tex; mode=display">
-H_n=\sum_{i=1}^n{1\over i}
-</script>
-</div>
+$$</p>
 <p>有，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \ln n&lt;H_n&lt;\ln n+1
-</div>
-<script type="math/tex; mode=display">
-\ln n<H_n<\ln n+1
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 H_n=\ln n+\gamma+\mathcal O\left({1\over n}\right)
-</div>
-<script type="math/tex; mode=display">
-H_n=\ln n+\gamma+\mathcal O\left({1\over n}\right)
-</script>
-</div>
+$$</p>
 <p>同时，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \sum_{i=1}^nH_i=(n+1)H_n-n
-</div>
-<script type="math/tex; mode=display">
-\sum_{i=1}^nH_i=(n+1)H_n-n
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \sum_{i=1}^niH_i={n(n+1)\over2}H_n-{n(n-1)\over4}
-</div>
-<script type="math/tex; mode=display">
-\sum_{i=1}^niH_i={n(n+1)\over2}H_n-{n(n-1)\over4}
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \sum_{i=1}^n{i\choose m}H_i={n+1\choose m+1}\left(H_{n+1}-{1\over m+1}\right)
-</div>
-<script type="math/tex; mode=display">
-\sum_{i=1}^n{i\choose m}H_i={n+1\choose m+1}\left(H_{n+1}-{1\over m+1}\right)
-</script>
-</div>
+$$</p>
 <p>证明下面再说。</p>
 <h3 id="_6">欧拉公式</h3>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \def\ff#1{{1\over#1^2}}
 {\pi^2\over6}=\ff1+\ff2+\ff3+\ff4+\ff5+\dots
-</div>
-<script type="math/tex; mode=display">
-\def\ff#1{{1\over#1^2}}
-{\pi^2\over6}=\ff1+\ff2+\ff3+\ff4+\ff5+\dots
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \def\ff#1{{1\over#1^2}}
 {\pi^2\over8}=\ff1+\ff3+\ff5+\ff7+\ff9+\dots
-</div>
-<script type="math/tex; mode=display">
-\def\ff#1{{1\over#1^2}}
-{\pi^2\over8}=\ff1+\ff3+\ff5+\ff7+\ff9+\dots
-</script>
-</div>
+$$</p>
 <h3 id="_7">组合数学</h3>
 <p>见我的排列组合笔记。</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \def\qq{\quad}
 \begin{array}{c}
-1\\
-1\qq1\\
-1\qq2\qq1\\
-1\qq3\qq3\qq1\\
-1\qq4\qq6\qq4\qq1\\
-1\qq5\qq10\qq10\qq5\qq1\\
-1\qq6\qq15\qq20\qq15\qq6\qq1\\
-1\qq7\qq21\qq35\qq35\qq21\qq7\qq1\\
-1\qq8\qq28\qq56\qq70\qq56\qq28\qq8\qq1\\
-1\qq9\qq36\qq84\qq126\qq126\qq84\qq36\qq9\qq1\\
-1\qq10\qq45\qq120\qq210\qq252\qq210\qq120\qq45\qq10\qq1\\
+1\
+1\qq1\
+1\qq2\qq1\
+1\qq3\qq3\qq1\
+1\qq4\qq6\qq4\qq1\
+1\qq5\qq10\qq10\qq5\qq1\
+1\qq6\qq15\qq20\qq15\qq6\qq1\
+1\qq7\qq21\qq35\qq35\qq21\qq7\qq1\
+1\qq8\qq28\qq56\qq70\qq56\qq28\qq8\qq1\
+1\qq9\qq36\qq84\qq126\qq126\qq84\qq36\qq9\qq1\
+1\qq10\qq45\qq120\qq210\qq252\qq210\qq120\qq45\qq10\qq1\
 \end{array}
-</div>
-<script type="math/tex; mode=display">
-\def\qq{\quad}
-\begin{array}{c}
-1\\
-1\qq1\\
-1\qq2\qq1\\
-1\qq3\qq3\qq1\\
-1\qq4\qq6\qq4\qq1\\
-1\qq5\qq10\qq10\qq5\qq1\\
-1\qq6\qq15\qq20\qq15\qq6\qq1\\
-1\qq7\qq21\qq35\qq35\qq21\qq7\qq1\\
-1\qq8\qq28\qq56\qq70\qq56\qq28\qq8\qq1\\
-1\qq9\qq36\qq84\qq126\qq126\qq84\qq36\qq9\qq1\\
-1\qq10\qq45\qq120\qq210\qq252\qq210\qq120\qq45\qq10\qq1\\
-\end{array}
-</script>
-</div>
+$$</p>
 <h3 id="_8">线代基础</h3>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\left\lvert\begin{matrix}a&amp;b\\c&amp;d\end{matrix}\right\rvert=ad+bc
-</div>
-<script type="math/tex; mode=display">
-\left\lvert\begin{matrix}a&b\\c&d\end{matrix}\right\rvert=ad+bc
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
+\left\lvert\begin{matrix}a&amp;b\c&amp;d\end{matrix}\right\rvert=ad+bc
+$$</p>
+<p>$$
 \det A=\sum_{\pi\in S_n}\operatorname{sgn}(\pi)\prod_{i=1}^na_{i,\pi(i)}
-</div>
-<script type="math/tex; mode=display">
-\det A=\sum_{\pi\in S_n}\operatorname{sgn}(\pi)\prod_{i=1}^na_{i,\pi(i)}
-</script>
-</div>
+$$</p>
 <!-- 数学 -->
 <!-- 物理 -->
 <!-- 化学 -->

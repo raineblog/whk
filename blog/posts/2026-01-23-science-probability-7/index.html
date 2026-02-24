@@ -47,103 +47,58 @@
 <h3 id="_3">经典例题</h3>
 <blockquote>
 <p><strong>路径计数</strong><br />
-从 <span class="arithmatex"><span class="MathJax_Preview">A \to B</span><script type="math/tex">A \to B</script></span> 有 2 条路，<span class="arithmatex"><span class="MathJax_Preview">B \to D</span><script type="math/tex">B \to D</script></span> 有 3 条路；<br />
-从 <span class="arithmatex"><span class="MathJax_Preview">A \to C</span><script type="math/tex">A \to C</script></span> 有 4 条路，<span class="arithmatex"><span class="MathJax_Preview">C \to D</span><script type="math/tex">C \to D</script></span> 有 5 条路。<br />
-求 <span class="arithmatex"><span class="MathJax_Preview">A \to D</span><script type="math/tex">A \to D</script></span> 的所有路径数。</p>
+从 $A \to B$ 有 2 条路，$B \to D$ 有 3 条路；<br />
+从 $A \to C$ 有 4 条路，$C \to D$ 有 5 条路。<br />
+求 $A \to D$ 的所有路径数。</p>
 </blockquote>
 <p>解法直接使用乘法与加法原理：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-2 \times 3 \;+\; 4 \times 5 \;=\; 26  
-</div>
-<script type="math/tex; mode=display">  
-2 \times 3 \;+\; 4 \times 5 \;=\; 26  
-</script>
-</div>
+<p>$$<br />
+2 \times 3 \;+\; 4 \times 5 \;=\; 26<br />
+$$  </p>
 <h3 id="_4">经典应用：因数个数</h3>
-<p>给定整数 <span class="arithmatex"><span class="MathJax_Preview">N</span><script type="math/tex">N</script></span>，若其唯一素因子分解为  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-N = p_1^{c_1} p_2^{c_2} \dots p_k^{c_k}  
-</div>
-<script type="math/tex; mode=display">  
-N = p_1^{c_1} p_2^{c_2} \dots p_k^{c_k}  
-</script>
-</div>
-<p>则 <span class="arithmatex"><span class="MathJax_Preview">N</span><script type="math/tex">N</script></span> 的正因数个数为  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-\operatorname{cnt} = (c_1+1)(c_2+1)\dots(c_k+1)  
-</div>
-<script type="math/tex; mode=display">  
-\operatorname{cnt} = (c_1+1)(c_2+1)\dots(c_k+1)  
-</script>
-</div>
-<p>举例：<span class="arithmatex"><span class="MathJax_Preview">2160 = 2^4 \times 3^3 \times 5</span><script type="math/tex">2160 = 2^4 \times 3^3 \times 5</script></span>，因此  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-\operatorname{cnt} = (4+1)(3+1)(1+1)=40  
-</div>
-<script type="math/tex; mode=display">  
-\operatorname{cnt} = (4+1)(3+1)(1+1)=40  
-</script>
-</div>
+<p>给定整数 $N$，若其唯一素因子分解为  </p>
+<p>$$<br />
+N = p_1^{c_1} p_2^{c_2} \dots p_k^{c_k}<br />
+$$  </p>
+<p>则 $N$ 的正因数个数为  </p>
+<p>$$<br />
+\operatorname{cnt} = (c_1+1)(c_2+1)\dots(c_k+1)<br />
+$$  </p>
+<p>举例：$2160 = 2^4 \times 3^3 \times 5$，因此  </p>
+<p>$$<br />
+\operatorname{cnt} = (4+1)(3+1)(1+1)=40<br />
+$$  </p>
 <h3 id="_5">经典应用：子集个数</h3>
-<p>对大小为 <span class="arithmatex"><span class="MathJax_Preview">N</span><script type="math/tex">N</script></span> 的集合 <span class="arithmatex"><span class="MathJax_Preview">S</span><script type="math/tex">S</script></span>，其子集数为  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-2^{N}  
-</div>
-<script type="math/tex; mode=display">  
-2^{N}  
-</script>
-</div>
+<p>对大小为 $N$ 的集合 $S$，其子集数为  </p>
+<p>$$<br />
+2^{N}<br />
+$$  </p>
 <p>其中  </p>
 <ul>
-<li>真子集：<span class="arithmatex"><span class="MathJax_Preview">2^{N}-1</span><script type="math/tex">2^{N}-1</script></span>  </li>
-<li>非空子集：<span class="arithmatex"><span class="MathJax_Preview">2^{N}-1</span><script type="math/tex">2^{N}-1</script></span>  </li>
-<li>非空真子集：<span class="arithmatex"><span class="MathJax_Preview">2^{N}-2</span><script type="math/tex">2^{N}-2</script></span></li>
+<li>真子集：$2^{N}-1$  </li>
+<li>非空子集：$2^{N}-1$  </li>
+<li>非空真子集：$2^{N}-2$</li>
 </ul>
 <h2 id="_6">排列数和组合数</h2>
 <h3 id="_7">排列数</h3>
-<p>排列数 <span class="arithmatex"><span class="MathJax_Preview">A(n,m)</span><script type="math/tex">A(n,m)</script></span> 表示从 <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 件物品中取出 <span class="arithmatex"><span class="MathJax_Preview">m</span><script type="math/tex">m</script></span> 件并排成一列的方案数，公式为  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-A(n,m)=\frac{n!}{(n-m)!}  
-</div>
-<script type="math/tex; mode=display">  
-A(n,m)=\frac{n!}{(n-m)!}  
-</script>
-</div>
-<p>当 <span class="arithmatex"><span class="MathJax_Preview">m=n</span><script type="math/tex">m=n</script></span> 时，<span class="arithmatex"><span class="MathJax_Preview">A(n,n)=n!</span><script type="math/tex">A(n,n)=n!</script></span>；约定 <span class="arithmatex"><span class="MathJax_Preview">0!=1</span><script type="math/tex">0!=1</script></span>。</p>
+<p>排列数 $A(n,m)$ 表示从 $n$ 件物品中取出 $m$ 件并排成一列的方案数，公式为  </p>
+<p>$$<br />
+A(n,m)=\frac{n!}{(n-m)!}<br />
+$$  </p>
+<p>当 $m=n$ 时，$A(n,n)=n!$；约定 $0!=1$。</p>
 <h3 id="_8">组合数</h3>
-<p>组合数 <span class="arithmatex"><span class="MathJax_Preview">C(n,m)</span><script type="math/tex">C(n,m)</script></span>（记作 <span class="arithmatex"><span class="MathJax_Preview">\displaystyle{n\choose m}</span><script type="math/tex">\displaystyle{n\choose m}</script></span>）表示从 <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 件物品中任选 <span class="arithmatex"><span class="MathJax_Preview">m</span><script type="math/tex">m</script></span> 件，不计顺序的方案数，公式为  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-{n\choose m}= \frac{n!}{(n-m)!\,m!}  
-</div>
-<script type="math/tex; mode=display">  
-{n\choose m}= \frac{n!}{(n-m)!\,m!}  
-</script>
-</div>
+<p>组合数 $C(n,m)$（记作 $\displaystyle{n\choose m}$）表示从 $n$ 件物品中任选 $m$ 件，不计顺序的方案数，公式为  </p>
+<p>$$<br />
+{n\choose m}= \frac{n!}{(n-m)!\,m!}<br />
+$$  </p>
 <p>关键性质包括对称性  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-{n\choose m} = {n\choose n-m}  
-</div>
-<script type="math/tex; mode=display">  
-{n\choose m} = {n\choose n-m}  
-</script>
-</div>
+<p>$$<br />
+{n\choose m} = {n\choose n-m}<br />
+$$  </p>
 <p>以及递推式  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-{n\choose m} = {n-1\choose m} + {n-1\choose m-1}  
-</div>
-<script type="math/tex; mode=display">  
-{n\choose m} = {n-1\choose m} + {n-1\choose m-1}  
-</script>
-</div>
+<p>$$<br />
+{n\choose m} = {n-1\choose m} + {n-1\choose m-1}<br />
+$$  </p>
 <h3 id="_9">一些常用性质</h3>
 <ul>
 <li>
@@ -168,38 +123,23 @@ A(n,m)=\frac{n!}{(n-m)!}
 <h2 id="_10">二项式定理</h2>
 <h3 id="_11">基本形式</h3>
 <p>二项式定理给出</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-(a+b)^{n} = \sum_{i=0}^{n}{n\choose i}a^{n-i}b^{i}  
-</div>
-<script type="math/tex; mode=display">  
-(a+b)^{n} = \sum_{i=0}^{n}{n\choose i}a^{n-i}b^{i}  
-</script>
-</div>
-<p>令 <span class="arithmatex"><span class="MathJax_Preview">b=1</span><script type="math/tex">b=1</script></span> 可得到  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-(a+1)^{n}= \sum_{i=0}^{n}{n\choose i}a^{i}  
-</div>
-<script type="math/tex; mode=display">  
-(a+1)^{n}= \sum_{i=0}^{n}{n\choose i}a^{i}  
-</script>
-</div>
+<p>$$<br />
+(a+b)^{n} = \sum_{i=0}^{n}{n\choose i}a<sup i="i">{n-i}b</sup><br />
+$$  </p>
+<p>令 $b=1$ 可得到  </p>
+<p>$$<br />
+(a+1)^{n}= \sum_{i=0}^{n}{n\choose i}a^{i}<br />
+$$  </p>
 <h3 id="_12">杨辉三角</h3>
 <p>杨辉三角是组合数的可视化结构。递推规则为  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-a_{i,1}=a_{i,i}=1,\qquad a_{i,j}=a_{i-1,j-1}+a_{i-1,j}  
-</div>
-<script type="math/tex; mode=display">  
-a_{i,1}=a_{i,i}=1,\qquad a_{i,j}=a_{i-1,j-1}+a_{i-1,j}  
-</script>
-</div>
-<p>每行对应 <span class="arithmatex"><span class="MathJax_Preview">(a+1)^{i-1}</span><script type="math/tex">(a+1)^{i-1}</script></span> 的系数。</p>
+<p>$$<br />
+a_{i,1}=a_{i,i}=1,\qquad a_{i,j}=a_{i-1,j-1}+a_{i-1,j}<br />
+$$  </p>
+<p>每行对应 $(a+1)^{i-1}$ 的系数。</p>
 <h3 id="_13">一些性质</h3>
 <ul>
 <li>
-<p>奇偶系数相等（当 <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 为偶数）<br />
+<p>奇偶系数相等（当 $n$ 为偶数）<br />
   $$<br />
   \sum_{k\text{ 偶}}{n\choose k}= \sum_{k\text{ 奇}}{n\choose k}=2^{n-1}<br />
   $$  </p>
@@ -212,20 +152,15 @@ a_{i,1}=a_{i,i}=1,\qquad a_{i,j}=a_{i-1,j-1}+a_{i-1,j}
 </li>
 </ul>
 <h3 id="_14">有趣的练习题</h3>
-<p><strong>例题</strong>：在 <span class="arithmatex"><span class="MathJax_Preview">(x+y)(x-y)^{5}</span><script type="math/tex">(x+y)(x-y)^{5}</script></span> 的展开式中，求 <span class="arithmatex"><span class="MathJax_Preview">x^{n}y^{6-n}</span><script type="math/tex">x^{n}y^{6-n}</script></span> 的系数。<br />
+<p><strong>例题</strong>：在 $(x+y)(x-y)^{5}$ 的展开式中，求 $x<sup 6-n="6-n">{n}y</sup>$ 的系数。<br />
 解法利用二项式系数的交替符号，可得  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-(-1)^{n}\left[{5\choose 6-n}-{5\choose 5-n}\right]  
-</div>
-<script type="math/tex; mode=display">  
-(-1)^{n}\left[{5\choose 6-n}-{5\choose 5-n}\right]  
-</script>
-</div>
+<p>$$<br />
+(-1)^{n}\left[{5\choose 6-n}-{5\choose 5-n}\right]<br />
+$$  </p>
 <h3 id="_15">二项式定理的解题套路</h3>
 <ol>
-<li><strong>把目标指数转化为系数求和</strong>：如求某项之和，可先代入 <span class="arithmatex"><span class="MathJax_Preview">x=1</span><script type="math/tex">x=1</script></span> 与 <span class="arithmatex"><span class="MathJax_Preview">x=-1</span><script type="math/tex">x=-1</script></span> 形成线性方程组。  </li>
-<li><strong>利用对称性</strong>：<span class="arithmatex"><span class="MathJax_Preview">{n\choose i} = {n\choose n-i}</span><script type="math/tex">{n\choose i} = {n\choose n-i}</script></span> 常用于化简求和范围。  </li>
+<li><strong>把目标指数转化为系数求和</strong>：如求某项之和，可先代入 $x=1$ 与 $x=-1$ 形成线性方程组。  </li>
+<li><strong>利用对称性</strong>：${n\choose i} = {n\choose n-i}$ 常用于化简求和范围。  </li>
 <li><strong>正难则反</strong>：在计数题中常把“不满足条件”的组合计数后整体相减。</li>
 </ol>
 <h3 id="_16">推导组合性质</h3>
@@ -234,33 +169,19 @@ $$<br />
 \sum_{k=0}^{n}\frac{1}{k+1}{n\choose k}= \frac{2^{\,n+1}-1}{n+1}<br />
 $$  </p>
 <p>以及交替符号版本  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-\sum_{k=0}^{n}\frac{(-1)^{k}}{k+1}{n\choose k}= \frac{1}{n+1}  
-</div>
-<script type="math/tex; mode=display">  
-\sum_{k=0}^{n}\frac{(-1)^{k}}{k+1}{n\choose k}= \frac{1}{n+1}  
-</script>
-</div>
+<p>$$<br />
+\sum_{k=0}<sup k="k">{n}\frac{(-1)</sup>}}{k+1}{n\choose k}= \frac{1}{n+1<br />
+$$  </p>
 <h2 id="_17">进阶内容</h2>
 <h3 id="_18">容斥原理</h3>
 <p>计数时先把所有情况相加，再减去重叠部分，交叉部分加回，以此类推。公式概括为  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-\bigl|\!\bigcup_{i=1}^{m}A_{i}\bigr|
+<p>$$<br />
+\bigl|!\bigcup_{i=1}^{m}A_{i}\bigr|
 = \sum_{i}|A_{i}|
 - \sum_{i&lt;j}|A_{i}\cap A_{j}|
 + \sum_{i&lt;j&lt;k}|A_{i}\cap A_{j}\cap A_{k}|
-- \dots  
-</div>
-<script type="math/tex; mode=display">  
-\bigl|\!\bigcup_{i=1}^{m}A_{i}\bigr|
-= \sum_{i}|A_{i}|
-- \sum_{i<j}|A_{i}\cap A_{j}|
-+ \sum_{i<j<k}|A_{i}\cap A_{j}\cap A_{k}|
-- \dots  
-</script>
-</div>
+- \dots<br />
+$$  </p>
 <blockquote>
 <p>示例：四位老师分配到四个班级，甲不能在 A 班、丁不能在 B 班，总方案数为<br />
 $$<br />
@@ -268,92 +189,54 @@ $$<br />
 $$</p>
 </blockquote>
 <h3 id="_19">鸽巢原理</h3>
-<p>若把 <span class="arithmatex"><span class="MathJax_Preview">n+1</span><script type="math/tex">n+1</script></span> 件物品放入 <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 组，则必有至少一组包含两个或更多物品。推广为  </p>
+<p>若把 $n+1$ 件物品放入 $n$ 组，则必有至少一组包含两个或更多物品。推广为  </p>
 <blockquote>
-<p>把 <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 件物品划分到 <span class="arithmatex"><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span> 组，必有一组至少 <span class="arithmatex"><span class="MathJax_Preview">\left\lceil\frac{n}{k}\right\rceil</span><script type="math/tex">\left\lceil\frac{n}{k}\right\rceil</script></span> 件。</p>
+<p>把 $n$ 件物品划分到 $k$ 组，必有一组至少 $\left\lceil\frac{n}{k}\right\rceil$ 件。</p>
 </blockquote>
 <h3 id="_20">多重集</h3>
 <p>多重集允许元素出现多次。其排列数（多重组合数）为  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-{n\choose n_{1},n_{2},\dots ,n_{k}} = \frac{n!}{\prod_{i=1}^{k} n_{i}!}  
-</div>
-<script type="math/tex; mode=display">  
-{n\choose n_{1},n_{2},\dots ,n_{k}} = \frac{n!}{\prod_{i=1}^{k} n_{i}!}  
-</script>
-</div>
-<p>若只关心选取 <span class="arithmatex"><span class="MathJax_Preview">r</span><script type="math/tex">r</script></span> 项且每种元素无限供应，则组合数为  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview" k-1="k-1" r_k-1_choose="r+k-1\choose">  </div>
-<script k-1="k-1" r_k-1_choose="r+k-1\choose" type="math/tex; mode=display">  </script>
-</div>
+<p>$$<br />
+{n\choose n_{1},n_{2},\dots ,n_{k}} = \frac{n!}{\prod_{i=1}^{k} n_{i}!}<br />
+$$  </p>
+<p>若只关心选取 $r$ 项且每种元素无限供应，则组合数为  </p>
+<p>$$<br />
+{r+k-1\choose k-1}<br />
+$$  </p>
 <h3 id="_21">圆排列</h3>
 <p>圆形排列的方案数除以对称旋转数：  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-Q(n,n)=\frac{n!}{n}=(n-1)!  
-</div>
-<script type="math/tex; mode=display">  
-Q(n,n)=\frac{n!}{n}=(n-1)!  
-</script>
-</div>
-<p>一般 <span class="arithmatex"><span class="MathJax_Preview">Q(n,m)=\dfrac{n!}{m\,(n-m)!}</span><script type="math/tex">Q(n,m)=\dfrac{n!}{m\,(n-m)!}</script></span>。</p>
+<p>$$<br />
+Q(n,n)=\frac{n!}{n}=(n-1)!<br />
+$$  </p>
+<p>一般 $Q(n,m)=\dfrac{n!}{m\,(n-m)!}$。</p>
 <h3 id="_22">错位排列</h3>
-<p>错位排列（或称“错位排列”）指没有任何元素出现在原位的排列，记为 <span class="arithmatex"><span class="MathJax_Preview">D_{n}</span><script type="math/tex">D_{n}</script></span>。闭式为  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-D_{n}=n!\sum_{k=0}^{n}\frac{(-1)^{k}}{k!}  
-</div>
-<script type="math/tex; mode=display">  
-D_{n}=n!\sum_{k=0}^{n}\frac{(-1)^{k}}{k!}  
-</script>
-</div>
+<p>错位排列（或称“错位排列”）指没有任何元素出现在原位的排列，记为 $D_{n}$。闭式为  </p>
+<p>$$<br />
+D_{n}=n!\sum_{k=0}<sup k="k">{n}\frac{(-1)</sup>}}{k!<br />
+$$  </p>
 <p>递推公式  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-D_{n}=(n-1)(D_{n-1}+D_{n-2})  
-</div>
-<script type="math/tex; mode=display">  
-D_{n}=(n-1)(D_{n-1}+D_{n-2})  
-</script>
-</div>
-<p>极限概率 <span class="arithmatex"><span class="MathJax_Preview">P_{n}=D_{n}/n!</span><script type="math/tex">P_{n}=D_{n}/n!</script></span> 满足 $ \displaystyle\lim_{n\to\infty}P_{n}=\frac{1}{e}$。</p>
+<p>$$<br />
+D_{n}=(n-1)(D_{n-1}+D_{n-2})<br />
+$$  </p>
+<p>极限概率 $P_{n}=D_{n}/n!$ 满足 $ \displaystyle\lim_{n\to\infty}P_{n}=\frac{1}{e}$。</p>
 <h3 id="_23">卡特兰数</h3>
 <p>用于计数不穿越对角线的路径、合法括号序列等。显式公式  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-C_{n}= \frac{1}{n+1}{2n\choose n}  
-</div>
-<script type="math/tex; mode=display">  
-C_{n}= \frac{1}{n+1}{2n\choose n}  
-</script>
-</div>
-<p>前几项为 <span class="arithmatex"><span class="MathJax_Preview">1, 1, 2, 5, 14, 42, 132,\dots</span><script type="math/tex">1, 1, 2, 5, 14, 42, 132,\dots</script></span></p>
+<p>$$<br />
+C_{n}= \frac{1}{n+1}{2n\choose n}<br />
+$$  </p>
+<p>前几项为 $1, 1, 2, 5, 14, 42, 132,\dots$</p>
 <h3 id="lucas">Lucas 定理</h3>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">p</span><script type="math/tex">p</script></span> 为素数，则  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
+<p>若 $p$ 为素数，则  </p>
+<p>$$<br />
 {n\choose m}\equiv
-\prod_{i}{a_{i}\choose b_{i}}\pmod{p}  
-</div>
-<script type="math/tex; mode=display">  
-{n\choose m}\equiv
-\prod_{i}{a_{i}\choose b_{i}}\pmod{p}  
-</script>
-</div>
-<p>其中 <span class="arithmatex"><span class="MathJax_Preview">n=\sum a_{i}p^{i}</span><script type="math/tex">n=\sum a_{i}p^{i}</script></span>、<span class="arithmatex"><span class="MathJax_Preview">m=\sum b_{i}p^{i}</span><script type="math/tex">m=\sum b_{i}p^{i}</script></span> 为 <span class="arithmatex"><span class="MathJax_Preview">p</span><script type="math/tex">p</script></span> 进制展开。</p>
+\prod_{i}{a_{i}\choose b_{i}}\pmod{p}<br />
+$$  </p>
+<p>其中 $n=\sum a_{i}p^{i}$、$m=\sum b_{i}p^{i}$ 为 $p$ 进制展开。</p>
 <h3 id="_24">广义二项式定理</h3>
-<p>对任意实数 <span class="arithmatex"><span class="MathJax_Preview">r</span><script type="math/tex">r</script></span>，  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-(1+x)^{r}= \sum_{k=0}^{\infty}{r\choose k}x^{k},\qquad  
-{r\choose k}= \frac{r(r-1)\dots(r-k+1)}{k!}  
-</div>
-<script type="math/tex; mode=display">  
-(1+x)^{r}= \sum_{k=0}^{\infty}{r\choose k}x^{k},\qquad  
-{r\choose k}= \frac{r(r-1)\dots(r-k+1)}{k!}  
-</script>
-</div>
+<p>对任意实数 $r$，  </p>
+<p>$$<br />
+(1+x)^{r}= \sum_{k=0}^{\infty}{r\choose k}x^{k},\qquad<br />
+{r\choose k}= \frac{r(r-1)\dots(r-k+1)}{k!}<br />
+$$  </p>
 <p>适用于非整数指数的展开。</p>
 <h2 id="_25">常见解题技巧和模型</h2>
 <h3 id="_26">特殊优先策略</h3>
@@ -365,17 +248,11 @@ C_{n}= \frac{1}{n+1}{2n\choose n}
 <h3 id="_29">正难则反策略</h3>
 <p>先算全部方案数，再减去不满足条件的方案数，常用于“至少”类约束。</p>
 <h3 id="_30">成套思想</h3>
-<p>把多项式系数的求和视为代入特定 <span class="arithmatex"><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span>、<span class="arithmatex"><span class="MathJax_Preview">y</span><script type="math/tex">y</script></span> 的线性组合，例如  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-\sum a_{i}= \bigl[(a+1)^{n}\bigr]_{x=1},\qquad  
-\sum (-1)^{i}a_{i}= \bigl[(a+1)^{n}\bigr]_{x=-1}  
-</div>
-<script type="math/tex; mode=display">  
-\sum a_{i}= \bigl[(a+1)^{n}\bigr]_{x=1},\qquad  
-\sum (-1)^{i}a_{i}= \bigl[(a+1)^{n}\bigr]_{x=-1}  
-</script>
-</div>
+<p>把多项式系数的求和视为代入特定 $x$、$y$ 的线性组合，例如  </p>
+<p>$$<br />
+\sum a_{i}= \bigl[(a+1)^{n}\bigr]<em i="i">{x=1},\qquad<br />
+\sum (-1)^{i}a</em>}= \bigl[(a+1)^{n}\bigr]_{x=-1<br />
+$$  </p>
 <h3 id="_31">倍缩法和可重策略</h3>
 <p>将若干对象视为“一组”，先算整体排列，再除以组内部的内部排列数。</p>
 <h3 id="_32">多排问题直排策略</h3>
@@ -387,8 +264,8 @@ C_{n}= \frac{1}{n+1}{2n\choose n}
 <h4 id="_35">模型二：球盒模型</h4>
 <p>根据球与盒子的是否同质、是否有限制，分别使用：</p>
 <ul>
-<li>直接计数 <span class="arithmatex"><span class="MathJax_Preview">m^{n}</span><script type="math/tex">m^{n}</script></span>（球不同、盒子不同）  </li>
-<li>插板公式 <span class="arithmatex"><span class="MathJax_Preview">{n+m-1\choose m-1}</span><script type="math/tex">{n+m-1\choose m-1}</script></span>（球相同、盒子不同）  </li>
+<li>直接计数 $m^{n}$（球不同、盒子不同）  </li>
+<li>插板公式 ${n+m-1\choose m-1}$（球相同、盒子不同）  </li>
 <li>斯特林数（球不同、盒子相同）  </li>
 <li>其他限制使用容斥或分组计数。</li>
 </ul>
@@ -396,26 +273,16 @@ C_{n}= \frac{1}{n+1}{2n\choose n}
 <p>下面展示两条常用求和恒等式的简洁证明，帮助你在竞赛中快速写出严谨的推导。</p>
 <h3 id="1">例 1</h3>
 <p>证明  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-\sum_{i=0}^{k}(-1)^{i}{n\choose i}=(-1)^{k}{n-1\choose k}  
-</div>
-<script type="math/tex; mode=display">  
-\sum_{i=0}^{k}(-1)^{i}{n\choose i}=(-1)^{k}{n-1\choose k}  
-</script>
-</div>
-<p>利用二项式恒等式 <span class="arithmatex"><span class="MathJax_Preview">{n\choose i}+{n\choose i+1}={n+1\choose i+1}</span><script type="math/tex">{n\choose i}+{n\choose i+1}={n+1\choose i+1}</script></span>，并对上下标做适当移位，可得到所需等式。</p>
+<p>$$<br />
+\sum_{i=0}<sup i="i">{k}(-1)</sup>}{n\choose i}=(-1)^{k}{n-1\choose k<br />
+$$  </p>
+<p>利用二项式恒等式 ${n\choose i}+{n\choose i+1}={n+1\choose i+1}$，并对上下标做适当移位，可得到所需等式。</p>
 <h3 id="2">例 2</h3>
 <p>证明  </p>
-<div class="arithmatex">
-<div class="MathJax_Preview">  
-\sum_{k=0}^{n}\frac{1}{k+1}{n\choose k}= \frac{2^{\,n+1}-1}{n+1}  
-</div>
-<script type="math/tex; mode=display">  
-\sum_{k=0}^{n}\frac{1}{k+1}{n\choose k}= \frac{2^{\,n+1}-1}{n+1}  
-</script>
-</div>
-<p>先把 <span class="arithmatex"><span class="MathJax_Preview">\dfrac{1}{k+1}{n\choose k}</span><script type="math/tex">\dfrac{1}{k+1}{n\choose k}</script></span> 写成 <span class="arithmatex"><span class="MathJax_Preview">\dfrac{1}{n+1}{n+1\choose k+1}</span><script type="math/tex">\dfrac{1}{n+1}{n+1\choose k+1}</script></span>，再利用二项式系数求和 <span class="arithmatex"><span class="MathJax_Preview">\sum_{k=0}^{n}{n+1\choose k+1}=2^{\,n+1}-1</span><script type="math/tex">\sum_{k=0}^{n}{n+1\choose k+1}=2^{\,n+1}-1</script></span>。</p>
+<p>$$<br />
+\sum_{k=0}^{n}\frac{1}{k+1}{n\choose k}= \frac{2^{\,n+1}-1}{n+1}<br />
+$$  </p>
+<p>先把 $\dfrac{1}{k+1}{n\choose k}$ 写成 $\dfrac{1}{n+1}{n+1\choose k+1}$，再利用二项式系数求和 $\sum_{k=0}^{n}{n+1\choose k+1}=2^{\,n+1}-1$。</p>
 <p>这些技巧在处理带分母的组合求和时尤为有用。</p>
 <hr />
 <blockquote>

@@ -43,126 +43,81 @@
 ### 经典例题 {#_3}
 
 > **路径计数**  
-> 从 []{.arithmatex}$A \to B$ 有 2 条路，[]{.arithmatex}$B \to D$ 有 3 条路；  
-> 从 []{.arithmatex}$A \to C$ 有 4 条路，[]{.arithmatex}$C \to D$ 有 5 条路。  
-> 求 []{.arithmatex}$A \to D$ 的所有路径数。
+> 从 \$A \to B\$ 有 2 条路，\$B \to D\$ 有 3 条路；  
+> 从 \$A \to C\$ 有 4 条路，\$C \to D\$ 有 5 条路。  
+> 求 \$A \to D\$ 的所有路径数。
 
 解法直接使用乘法与加法原理：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-2 \times 3 \\+\\ 4 \times 5 \\=\\ 26
-:::
-
-$$  
-2 \times 3 \;+\; 4 \times 5 \;=\; 26  $$
-::::
+\$\$  
+2 \times 3 \\+\\ 4 \times 5 \\=\\ 26  
+\$\$
 
 ### 经典应用：因数个数 {#_4}
 
-给定整数 []{.arithmatex}$N$，若其唯一素因子分解为
+给定整数 \$N\$，若其唯一素因子分解为
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-N = p_1\^{c_1} p_2\^{c_2} \dots p_k\^{c_k}
-:::
+\$\$  
+N = p_1\^{c_1} p_2\^{c_2} \dots p_k\^{c_k}  
+\$\$
 
-$$  
-N = p_1^{c_1} p_2^{c_2} \dots p_k^{c_k}  $$
-::::
+则 \$N\$ 的正因数个数为
 
-则 []{.arithmatex}$N$ 的正因数个数为
+\$\$  
+\operatorname{cnt} = (c_1+1)(c_2+1)\dots(c_k+1)  
+\$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\operatorname{cnt} = (c_1+1)(c_2+1)\dots(c_k+1)
-:::
+举例：\$2160 = 2\^4 \times 3\^3 \times 5\$，因此
 
-$$  
-\operatorname{cnt} = (c_1+1)(c_2+1)\dots(c_k+1)  $$
-::::
-
-举例：[]{.arithmatex}$2160 = 2^4 \times 3^3 \times 5$，因此
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\operatorname{cnt} = (4+1)(3+1)(1+1)=40
-:::
-
-$$  
-\operatorname{cnt} = (4+1)(3+1)(1+1)=40  $$
-::::
+\$\$  
+\operatorname{cnt} = (4+1)(3+1)(1+1)=40  
+\$\$
 
 ### 经典应用：子集个数 {#_5}
 
-对大小为 []{.arithmatex}$N$ 的集合 []{.arithmatex}$S$，其子集数为
+对大小为 \$N\$ 的集合 \$S\$，其子集数为
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-2\^{N}
-:::
-
-$$  
-2^{N}  $$
-::::
+\$\$  
+2\^{N}  
+\$\$
 
 其中
 
-- 真子集：[]{.arithmatex}$2^{N}-1$
-- 非空子集：[]{.arithmatex}$2^{N}-1$
-- 非空真子集：[]{.arithmatex}$2^{N}-2$
+- 真子集：\$2\^{N}-1\$
+- 非空子集：\$2\^{N}-1\$
+- 非空真子集：\$2\^{N}-2\$
 
 ## 排列数和组合数 {#_6}
 
 ### 排列数 {#_7}
 
-排列数 []{.arithmatex}$A(n,m)$ 表示从 []{.arithmatex}$n$ 件物品中取出 []{.arithmatex}$m$ 件并排成一列的方案数，公式为
+排列数 \$A(n,m)\$ 表示从 \$n\$ 件物品中取出 \$m\$ 件并排成一列的方案数，公式为
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-A(n,m)=\frac{n!}{(n-m)!}
-:::
+\$\$  
+A(n,m)=\frac{n!}{(n-m)!}  
+\$\$
 
-$$  
-A(n,m)=\frac{n!}{(n-m)!}  $$
-::::
-
-当 []{.arithmatex}$m=n$ 时，[]{.arithmatex}$A(n,n)=n!$；约定 []{.arithmatex}$0!=1$。
+当 \$m=n\$ 时，\$A(n,n)=n!\$；约定 \$0!=1\$。
 
 ### 组合数 {#_8}
 
-组合数 []{.arithmatex}$C(n,m)$（记作 []{.arithmatex}$\displaystyle{n\choose m}$）表示从 []{.arithmatex}$n$ 件物品中任选 []{.arithmatex}$m$ 件，不计顺序的方案数，公式为
+组合数 \$C(n,m)\$（记作 \$\displaystyle{n\choose m}\$）表示从 \$n\$ 件物品中任选 \$m\$ 件，不计顺序的方案数，公式为
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-{n\choose m}= \frac{n!}{(n-m)!\\m!}
-:::
-
-$$  
-{n\choose m}= \frac{n!}{(n-m)!\,m!}  $$
-::::
+\$\$  
+{n\choose m}= \frac{n!}{(n-m)!\\m!}  
+\$\$
 
 关键性质包括对称性
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-{n\choose m} = {n\choose n-m}
-:::
-
-$$  
-{n\choose m} = {n\choose n-m}  $$
-::::
+\$\$  
+{n\choose m} = {n\choose n-m}  
+\$\$
 
 以及递推式
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-{n\choose m} = {n-1\choose m} + {n-1\choose m-1}
-:::
-
-$$  
-{n\choose m} = {n-1\choose m} + {n-1\choose m-1}  $$
-::::
+\$\$  
+{n\choose m} = {n-1\choose m} + {n-1\choose m-1}  
+\$\$
 
 ### 一些常用性质 {#_9}
 
@@ -187,44 +142,29 @@ $$
 
 二项式定理给出
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-(a+b)\^{n} = \sum\_{i=0}\^{n}{n\choose i}a\^{n-i}b\^{i}
-:::
+\$\$  
+(a+b)\^{n} = \sum\_{i=0}\^{n}{n\choose i}a^{n-i}b^  
+\$\$
 
-$$  
-(a+b)^{n} = \sum_{i=0}^{n}{n\choose i}a^{n-i}b^{i}  $$
-::::
+令 \$b=1\$ 可得到
 
-令 []{.arithmatex}$b=1$ 可得到
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-(a+1)\^{n}= \sum\_{i=0}\^{n}{n\choose i}a\^{i}
-:::
-
-$$  
-(a+1)^{n}= \sum_{i=0}^{n}{n\choose i}a^{i}  $$
-::::
+\$\$  
+(a+1)\^{n}= \sum\_{i=0}\^{n}{n\choose i}a\^{i}  
+\$\$
 
 ### 杨辉三角 {#_12}
 
 杨辉三角是组合数的可视化结构。递推规则为
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-a\_{i,1}=a\_{i,i}=1,\qquad a\_{i,j}=a\_{i-1,j-1}+a\_{i-1,j}
-:::
+\$\$  
+a\_{i,1}=a\_{i,i}=1,\qquad a\_{i,j}=a\_{i-1,j-1}+a\_{i-1,j}  
+\$\$
 
-$$  
-a_{i,1}=a_{i,i}=1,\qquad a_{i,j}=a_{i-1,j-1}+a_{i-1,j}  $$
-::::
-
-每行对应 []{.arithmatex}$(a+1)^{i-1}$ 的系数。
+每行对应 \$(a+1)\^{i-1}\$ 的系数。
 
 ### 一些性质 {#_13}
 
-- 奇偶系数相等（当 []{.arithmatex}$n$ 为偶数）  
+- 奇偶系数相等（当 \$n\$ 为偶数）  
   \$\$  
   \sum\_{k\text{ 偶}}{n\choose k}= \sum\_{k\text{ 奇}}{n\choose k}=2\^{n-1}  
   \$\$
@@ -236,22 +176,17 @@ a_{i,1}=a_{i,i}=1,\qquad a_{i,j}=a_{i-1,j-1}+a_{i-1,j}  $$
 
 ### 有趣的练习题 {#_14}
 
-**例题**：在 []{.arithmatex}$(x+y)(x-y)^{5}$ 的展开式中，求 []{.arithmatex}$x^{n}y^{6-n}$ 的系数。  
+**例题**：在 \$(x+y)(x-y)\^{5}\$ 的展开式中，求 \$x^{n}y^\$ 的系数。  
 解法利用二项式系数的交替符号，可得
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-(-1)\^{n}\left\[{5\choose 6-n}-{5\choose 5-n}\right\]
-:::
-
-$$  
-(-1)^{n}\left[{5\choose 6-n}-{5\choose 5-n}\right]  $$
-::::
+\$\$  
+(-1)\^{n}\left\[{5\choose 6-n}-{5\choose 5-n}\right\]  
+\$\$
 
 ### 二项式定理的解题套路 {#_15}
 
-1.  **把目标指数转化为系数求和**：如求某项之和，可先代入 []{.arithmatex}$x=1$ 与 []{.arithmatex}$x=-1$ 形成线性方程组。
-2.  **利用对称性**：[]{.arithmatex}${n\choose i} = {n\choose n-i}$ 常用于化简求和范围。
+1.  **把目标指数转化为系数求和**：如求某项之和，可先代入 \$x=1\$ 与 \$x=-1\$ 形成线性方程组。
+2.  **利用对称性**：\${n\choose i} = {n\choose n-i}\$ 常用于化简求和范围。
 3.  **正难则反**：在计数题中常把"不满足条件"的组合计数后整体相减。
 
 ### 推导组合性质 {#_16}
@@ -263,14 +198,9 @@ $$
 
 以及交替符号版本
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\sum\_{k=0}\^{n}\frac{(-1)\^{k}}{k+1}{n\choose k}= \frac{1}{n+1}
-:::
-
-$$  
-\sum_{k=0}^{n}\frac{(-1)^{k}}{k+1}{n\choose k}= \frac{1}{n+1}  $$
-::::
+\$\$  
+\sum\_{k=0}^{n}\frac{(-1)^}}{k+1}{n\choose k}= \frac{1}{n+1  
+\$\$
 
 ## 进阶内容 {#_17}
 
@@ -278,18 +208,9 @@ $$
 
 计数时先把所有情况相加，再减去重叠部分，交叉部分加回，以此类推。公式概括为
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\bigl\|\\\bigcup\_{i=1}\^{m}A\_{i}\bigr\| = \sum\_{i}\|A\_{i}\| - \sum\_{i\<j}\|A\_{i}\cap A\_{j}\| + \sum\_{i\<j\<k}\|A\_{i}\cap A\_{j}\cap A\_{k}\| - \dots
-:::
-
-$$  
-\bigl|\!\bigcup_{i=1}^{m}A_{i}\bigr|
-= \sum_{i}|A_{i}|
-- \sum_{i<j}|A_{i}\cap A_{j}|
-+ \sum_{i<j<k}|A_{i}\cap A_{j}\cap A_{k}|
-- \dots  $$
-::::
+\$\$  
+\bigl\|!\bigcup\_{i=1}\^{m}A\_{i}\bigr\| = \sum\_{i}\|A\_{i}\| - \sum\_{i\<j}\|A\_{i}\cap A\_{j}\| + \sum\_{i\<j\<k}\|A\_{i}\cap A\_{j}\cap A\_{k}\| - \dots  
+\$\$
 
 > 示例：四位老师分配到四个班级，甲不能在 A 班、丁不能在 B 班，总方案数为  
 > \$\$  
@@ -298,117 +219,78 @@ $$
 
 ### 鸽巢原理 {#_19}
 
-若把 []{.arithmatex}$n+1$ 件物品放入 []{.arithmatex}$n$ 组，则必有至少一组包含两个或更多物品。推广为
+若把 \$n+1\$ 件物品放入 \$n\$ 组，则必有至少一组包含两个或更多物品。推广为
 
-> 把 []{.arithmatex}$n$ 件物品划分到 []{.arithmatex}$k$ 组，必有一组至少 []{.arithmatex}$\left\lceil\frac{n}{k}\right\rceil$ 件。
+> 把 \$n\$ 件物品划分到 \$k\$ 组，必有一组至少 \$\left\lceil\frac{n}{k}\right\rceil\$ 件。
 
 ### 多重集 {#_20}
 
 多重集允许元素出现多次。其排列数（多重组合数）为
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-{n\choose n\_{1},n\_{2},\dots ,n\_{k}} = \frac{n!}{\prod\_{i=1}\^{k} n\_{i}!}
-:::
+\$\$  
+{n\choose n\_{1},n\_{2},\dots ,n\_{k}} = \frac{n!}{\prod\_{i=1}\^{k} n\_{i}!}  
+\$\$
 
-$$  
-{n\choose n_{1},n_{2},\dots ,n_{k}} = \frac{n!}{\prod_{i=1}^{k} n_{i}!}  $$
-::::
+若只关心选取 \$r\$ 项且每种元素无限供应，则组合数为
 
-若只关心选取 []{.arithmatex}$r$ 项且每种元素无限供应，则组合数为
-
-:::: {.arithmatex}
-::: {.MathJax_Preview k-1="k-1" r_k-1_choose="r+k-1\\choose"}
-:::
-
-$$  $$
-::::
+\$\$  
+{r+k-1\choose k-1}  
+\$\$
 
 ### 圆排列 {#_21}
 
 圆形排列的方案数除以对称旋转数：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-Q(n,n)=\frac{n!}{n}=(n-1)!
-:::
+\$\$  
+Q(n,n)=\frac{n!}{n}=(n-1)!  
+\$\$
 
-$$  
-Q(n,n)=\frac{n!}{n}=(n-1)!  $$
-::::
-
-一般 []{.arithmatex}$Q(n,m)=\dfrac{n!}{m\,(n-m)!}$。
+一般 \$Q(n,m)=\dfrac{n!}{m\\(n-m)!}\$。
 
 ### 错位排列 {#_22}
 
-错位排列（或称"错位排列"）指没有任何元素出现在原位的排列，记为 []{.arithmatex}$D_{n}$。闭式为
+错位排列（或称"错位排列"）指没有任何元素出现在原位的排列，记为 \$D\_{n}\$。闭式为
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-D\_{n}=n!\sum\_{k=0}\^{n}\frac{(-1)\^{k}}{k!}
-:::
-
-$$  
-D_{n}=n!\sum_{k=0}^{n}\frac{(-1)^{k}}{k!}  $$
-::::
+\$\$  
+D\_{n}=n!\sum\_{k=0}^{n}\frac{(-1)^}}{k!  
+\$\$
 
 递推公式
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-D\_{n}=(n-1)(D\_{n-1}+D\_{n-2})
-:::
+\$\$  
+D\_{n}=(n-1)(D\_{n-1}+D\_{n-2})  
+\$\$
 
-$$  
-D_{n}=(n-1)(D_{n-1}+D_{n-2})  $$
-::::
-
-极限概率 []{.arithmatex}$P_{n}=D_{n}/n!$ 满足 \$ \displaystyle\lim\_{n\to\infty}P\_{n}=\frac{1}{e}\$。
+极限概率 \$P\_{n}=D\_{n}/n!\$ 满足 \$ \displaystyle\lim\_{n\to\infty}P\_{n}=\frac{1}{e}\$。
 
 ### 卡特兰数 {#_23}
 
 用于计数不穿越对角线的路径、合法括号序列等。显式公式
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-C\_{n}= \frac{1}{n+1}{2n\choose n}
-:::
+\$\$  
+C\_{n}= \frac{1}{n+1}{2n\choose n}  
+\$\$
 
-$$  
-C_{n}= \frac{1}{n+1}{2n\choose n}  $$
-::::
-
-前几项为 []{.arithmatex}$1, 1, 2, 5, 14, 42, 132,\dots$
+前几项为 \$1, 1, 2, 5, 14, 42, 132,\dots\$
 
 ### Lucas 定理 {#lucas}
 
-若 []{.arithmatex}$p$ 为素数，则
+若 \$p\$ 为素数，则
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-{n\choose m}\equiv \prod\_{i}{a\_{i}\choose b\_{i}}\pmod{p}
-:::
+\$\$  
+{n\choose m}\equiv \prod\_{i}{a\_{i}\choose b\_{i}}\pmod{p}  
+\$\$
 
-$$  
-{n\choose m}\equiv
-\prod_{i}{a_{i}\choose b_{i}}\pmod{p}  $$
-::::
-
-其中 []{.arithmatex}$n=\sum a_{i}p^{i}$、[]{.arithmatex}$m=\sum b_{i}p^{i}$ 为 []{.arithmatex}$p$ 进制展开。
+其中 \$n=\sum a\_{i}p\^{i}\$、\$m=\sum b\_{i}p\^{i}\$ 为 \$p\$ 进制展开。
 
 ### 广义二项式定理 {#_24}
 
-对任意实数 []{.arithmatex}$r$，
+对任意实数 \$r\$，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-(1+x)\^{r}= \sum\_{k=0}\^{\infty}{r\choose k}x\^{k},\qquad {r\choose k}= \frac{r(r-1)\dots(r-k+1)}{k!}
-:::
-
-$$  
-(1+x)^{r}= \sum_{k=0}^{\infty}{r\choose k}x^{k},\qquad  
-{r\choose k}= \frac{r(r-1)\dots(r-k+1)}{k!}  $$
-::::
+\$\$  
+(1+x)\^{r}= \sum\_{k=0}\^{\infty}{r\choose k}x\^{k},\qquad  
+{r\choose k}= \frac{r(r-1)\dots(r-k+1)}{k!}  
+\$\$
 
 适用于非整数指数的展开。
 
@@ -432,17 +314,12 @@ $$
 
 ### 成套思想 {#_30}
 
-把多项式系数的求和视为代入特定 []{.arithmatex}$x$、[]{.arithmatex}$y$ 的线性组合，例如
+把多项式系数的求和视为代入特定 \$x\$、\$y\$ 的线性组合，例如
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\sum a\_{i}= \bigl\[(a+1)\^{n}\bigr\]\_{x=1},\qquad \sum (-1)\^{i}a\_{i}= \bigl\[(a+1)\^{n}\bigr\]\_{x=-1}
-:::
-
-$$  
-\sum a_{i}= \bigl[(a+1)^{n}\bigr]_{x=1},\qquad  
-\sum (-1)^{i}a_{i}= \bigl[(a+1)^{n}\bigr]_{x=-1}  $$
-::::
+\$\$  
+\sum a\_{i}= \bigl\[(a+1)\^{n}\bigr\]*{x=1},\qquad  
+\sum (-1)\^{i}a*}= \bigl\[(a+1)\^{n}\bigr\]\_{x=-1  
+\$\$
 
 ### 倍缩法和可重策略 {#_31}
 
@@ -464,8 +341,8 @@ $$
 
 根据球与盒子的是否同质、是否有限制，分别使用：
 
-- 直接计数 []{.arithmatex}$m^{n}$（球不同、盒子不同）
-- 插板公式 []{.arithmatex}${n+m-1\choose m-1}$（球相同、盒子不同）
+- 直接计数 \$m\^{n}\$（球不同、盒子不同）
+- 插板公式 \${n+m-1\choose m-1}\$（球相同、盒子不同）
 - 斯特林数（球不同、盒子相同）
 - 其他限制使用容斥或分组计数。
 
@@ -477,31 +354,21 @@ $$
 
 证明
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\sum\_{i=0}\^{k}(-1)\^{i}{n\choose i}=(-1)\^{k}{n-1\choose k}
-:::
+\$\$  
+\sum\_{i=0}^{k}(-1)^}{n\choose i}=(-1)\^{k}{n-1\choose k  
+\$\$
 
-$$  
-\sum_{i=0}^{k}(-1)^{i}{n\choose i}=(-1)^{k}{n-1\choose k}  $$
-::::
-
-利用二项式恒等式 []{.arithmatex}${n\choose i}+{n\choose i+1}={n+1\choose i+1}$，并对上下标做适当移位，可得到所需等式。
+利用二项式恒等式 \${n\choose i}+{n\choose i+1}={n+1\choose i+1}\$，并对上下标做适当移位，可得到所需等式。
 
 ### 例 2 {#2}
 
 证明
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\sum\_{k=0}\^{n}\frac{1}{k+1}{n\choose k}= \frac{2\^{\\n+1}-1}{n+1}
-:::
+\$\$  
+\sum\_{k=0}\^{n}\frac{1}{k+1}{n\choose k}= \frac{2\^{\\n+1}-1}{n+1}  
+\$\$
 
-$$  
-\sum_{k=0}^{n}\frac{1}{k+1}{n\choose k}= \frac{2^{\,n+1}-1}{n+1}  $$
-::::
-
-先把 []{.arithmatex}$\dfrac{1}{k+1}{n\choose k}$ 写成 []{.arithmatex}$\dfrac{1}{n+1}{n+1\choose k+1}$，再利用二项式系数求和 []{.arithmatex}$\sum_{k=0}^{n}{n+1\choose k+1}=2^{\,n+1}-1$。
+先把 \$\dfrac{1}{k+1}{n\choose k}\$ 写成 \$\dfrac{1}{n+1}{n+1\choose k+1}\$，再利用二项式系数求和 \$\sum\_{k=0}\^{n}{n+1\choose k+1}=2\^{\\n+1}-1\$。
 
 这些技巧在处理带分母的组合求和时尤为有用。
 

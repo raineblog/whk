@@ -8,63 +8,27 @@
 
     注意这里的加号是矢量相加：
 
-    :::: {.arithmatex}
-    ::: {.MathJax_Preview}
-    0=m_1\bm{v}\_1+m_2\bm{v}\_2
-    :::
-
-    $$0=m_1\bm{v}_1+m_2\bm{v}_2$$
-    ::::
+    \$\$ 0=m_1\bm{v}\_1+m_2\bm{v}\_2 \$\$
 
 2.  位移关系
 
-    可以用平均动量乘时间推出来（其中 []{.arithmatex}$x$ 为某一方向上的位移）：
+    可以用平均动量乘时间推出来（其中 \$x\$ 为某一方向上的位移）：
 
-    :::: {.arithmatex}
-    ::: {.MathJax_Preview}
-    \begin{aligned} m_1x_1&=m_2x_2\\ x_1+x_2&=x \end{aligned}
-    :::
-
-    $$\begin{aligned}
-    m_1x_1&=m_2x_2\\
-    x_1+x_2&=x
-    \end{aligned}$$
-    ::::
+    \$\$ \begin{aligned} m_1x_1&=m_2x_2\\ x_1+x_2&=x \end{aligned} \$\$
 
 3.  现象：人动船动，人停船停。
 
 4.  推论
 
-    :::: {.arithmatex}
-    ::: {.MathJax_Preview}
-    \begin{aligned} x_1&=\frac{m_2x}{m_1+m_2}\\ x_2&=\frac{m_1x}{m_1+m_2} \end{aligned}
-    :::
-
-    $$\begin{aligned}
-    x_1&=\frac{m_2x}{m_1+m_2}\\
-    x_2&=\frac{m_1x}{m_1+m_2}
-    \end{aligned}$$
-    ::::
+    \$\$ \begin{aligned} x_1&=\frac{m_2x}{m_1+m_2}\\ x_2&=\frac{m_1x}{m_1+m_2} \end{aligned} \$\$
 
 ### 爆炸模型 {#_4}
 
 人船模型的一种，但是人船模型一般问位移，爆炸模型一般问速度。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-0=m_1v_1+m_2v_2
-:::
+\$\$ 0=m_1v_1+m_2v_2 \$\$
 
-$$0=m_1v_1+m_2v_2$$
-::::
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-E_增=\dfrac12m_1v_1\^2+\dfrac12m_2v_2\^2
-:::
-
-$$E_增=\dfrac12m_1v_1^2+\dfrac12m_2v_2^2$$
-::::
+\$\$ E_增=\dfrac12m_1v_1^2+\dfrac12m_2v_2^2 \$\$
 
 动量守恒，能量（动能）增加；能量来源：重力势能、弹性势能、化学能（爆炸）。
 
@@ -72,110 +36,53 @@ $$E_增=\dfrac12m_1v_1^2+\dfrac12m_2v_2^2$$
 
 ### 凹槽模型 {#_5}
 
-质量为 []{.arithmatex}$m=2\mathrm{kg}$ 的小球，从 []{.arithmatex}$A$ 点以初速度 []{.arithmatex}$v_0=6\mathrm{m/s}$ 向右运动，小车质量 []{.arithmatex}$M=4\mathrm{kg}$：
+质量为 \$m=2\mathrm{kg}\$ 的小球，从 \$A\$ 点以初速度 \$v_0=6\mathrm{m/s}\$ 向右运动，小车质量 \$M=4\mathrm{kg}\$：
 
 ![题图](../uj7y6rn5.avif)
 
-问：小球运动到点 []{.arithmatex}$B$ 后，能达到的最大高度是多少（水平共速模型）。
+问：小球运动到点 \$B\$ 后，能达到的最大高度是多少（水平共速模型）。
 
 小球相对小车向上运动，水平方向上没有相对运动，即水平共速，小球做斜抛运动。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-mv_0=(m+M)v_f
-:::
-
-$$mv_0=(m+M)v_f$$
-::::
+\$\$ mv_0=(m+M)v_f \$\$
 
 即质心速度，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-v_f=v_0\cdot\frac{m}{m+M}=2\mathrm{m/s}
-:::
-
-$$v_f=v_0\cdot\frac{m}{m+M}=2\mathrm{m/s}$$
-::::
+\$\$ v_f=v_0\cdot\frac{m}{m+M}=2\mathrm{m/s} \$\$
 
 损失的动能：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-E\_{\text{损}}=\frac{1}{2}mv_0\^2-\frac{1}{2}(m+M)v_f\^2=24(\mathrm{J})
-:::
-
-$$E_{\text{损}}=\frac{1}{2}mv_0^2-\frac{1}{2}(m+M)v_f^2=24(\mathrm{J})$$
-::::
+\$\$ E\_{\text{损}}=\frac{1}{2}mv_0^2-\frac{1}{2}(m+M)v_f^2=24(\mathrm{J}) \$\$
 
 损失的动能全部转化为重力势能：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-E\_{\text{损}}=E_p=mgh=20h
-:::
+\$\$ E\_{\text{损}}=E_p=mgh=20h \$\$
 
-$$E_{\text{损}}=E_p=mgh=20h$$
-::::
+解得 \$h=1.2\mathrm{m}\$。
 
-解得 []{.arithmatex}$h=1.2\mathrm{m}$。
-
-问：当小球返回 []{.arithmatex}$A$ 时，小球和小车的速度分别是多少（弹性模型）。
+问：当小球返回 \$A\$ 时，小球和小车的速度分别是多少（弹性模型）。
 
 根据质心速度结论：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\left\\\begin{aligned} v_1&=2v_f-v_0=-2(\mathrm{m/s})\\ v_2&=2v_f=4(\mathrm{m/s}) \end{aligned}\right.
-:::
+\$\$ \left{\begin{aligned} v_1&=2v_f-v_0=-2(\mathrm{m/s})\\ v_2&=2v_f=4(\mathrm{m/s}) \end{aligned}\right. \$\$
 
-$$\left\{\begin{aligned}
-v_1&=2v_f-v_0=-2(\mathrm{m/s})\\
-v_2&=2v_f=4(\mathrm{m/s})
-\end{aligned}\right.$$
-::::
-
-问：若水平轨道粗糙且长度为 []{.arithmatex}$2\mathrm m$，小球回到远处后自由落体，问水平轨道的摩擦因数。
+问：若水平轨道粗糙且长度为 \$2\mathrm m\$，小球回到远处后自由落体，问水平轨道的摩擦因数。
 
 根据动量守恒定律：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-mv_0=Mv_1
-:::
+\$\$ mv_0=Mv_1 \$\$
 
-$$mv_0=Mv_1$$
-::::
-
-解得 []{.arithmatex}$v_1=3\mathrm{m/s}$。
+解得 \$v_1=3\mathrm{m/s}\$。
 
 求出动能：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} E_0&=\frac{1}{2}mv_0\^2=36(\mathrm{J})\\ E_t&=\frac{1}{2}Mv_1\^2=18(\mathrm{J}) \end{aligned}
-:::
-
-$$\begin{aligned}
-E_0&=\frac{1}{2}mv_0^2=36(\mathrm{J})\\
-E_t&=\frac{1}{2}Mv_1^2=18(\mathrm{J})
-\end{aligned}$$
-::::
+\$\$ \begin{aligned} E_0&=\frac{1}{2}mv_0\^2=36(\mathrm{J})\\ E_t&=\frac{1}{2}Mv_1\^2=18(\mathrm{J}) \end{aligned} \$\$
 
 根据发热公式：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} Q&=E_0-E_t=18(\mathrm{J})\\ Q&=f\Delta s=\mu mg(L+R) \end{aligned}
-:::
+\$\$ \begin{aligned} Q&=E_0-E_t=18(\mathrm{J})\\ Q&=f\Delta s=\mu mg(L+R) \end{aligned} \$\$
 
-$$\begin{aligned}
-Q&=E_0-E_t=18(\mathrm{J})\\
-Q&=f\Delta s=\mu mg(L+R)
-\end{aligned}$$
-::::
-
-解得 []{.arithmatex}$\mu=0.225$。
+解得 \$\mu=0.225\$。
 
 ### 碰撞模型 {#_6}
 
@@ -209,64 +116,25 @@ Q&=f\Delta s=\mu mg(L+R)
 
 - 动能守恒：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\frac{1}{2}m_1v_1\^2+\frac{1}{2}m_2v_2\^2=\frac{1}{2}m_1v_1\'\^2+\frac{1}{2}m_2v_2\'\^2
-:::
-
-$$\frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2=\frac{1}{2}m_1v_1'^2+\frac{1}{2}m_2v_2'^2$$
-::::
+\$\$ \frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2=\frac{1}{2}m_1v_1\'^2+\frac{1}{2}m_2v_2\'^2 \$\$
 
 - 动量守恒：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-m_1\bm{v}\_1+m_2\bm{v}\_2=m_1\bm{v}\_1\'+m_2\bm{v}\_2\'
-:::
-
-$$m_1\bm{v}_1+m_2\bm{v}_2=m_1\bm{v}_1'+m_2\bm{v}_2'$$
-::::
+\$\$ m_1\bm{v}\_1+m_2\bm{v}\_2=m_1\bm{v}\_1\'+m_2\bm{v}\_2\' \$\$
 
 ### 做题方法 {#_9}
 
 由动量守恒、动能守恒：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\left\\\begin{aligned} m_1v_1+m_2v_2&=m_1v_1\'+m_2v_2\'\\ \frac{1}{2}m_1v_1\^2+\frac{1}{2}m_2v_2\^2&=\frac{1}{2}m_1v_1\'\^2+\frac{1}{2}m_2v_2\'\^2 \end{aligned}\right.
-:::
-
-$$\left\{\begin{aligned}
-m_1v_1+m_2v_2&=m_1v_1'+m_2v_2'\\
-\frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2&=\frac{1}{2}m_1v_1'^2+\frac{1}{2}m_2v_2'^2
-\end{aligned}\right.$$
-::::
+\$\$ \left{\begin{aligned} m_1v_1+m_2v_2&=m_1v_1\'+m_2v_2\'\\ \frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2&=\frac{1}{2}m_1v_1\'^2+\frac{1}{2}m_2v_2\'^2 \end{aligned}\right. \$\$
 
 化简，得：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\left\\\begin{aligned} m_1v_1+m_2v_2&=m_1v_1\'+m_2v_2\'\\ v_1+v_1\'&=v_2+v_2\' \end{aligned}\right.
-:::
-
-$$\left\{\begin{aligned}
-m_1v_1+m_2v_2&=m_1v_1'+m_2v_2'\\
-v_1+v_1'&=v_2+v_2'
-\end{aligned}\right.$$
-::::
+\$\$ \left{\begin{aligned} m_1v_1+m_2v_2&=m_1v_1\'+m_2v_2\'\\ v_1+v_1\'&=v_2+v_2\' \end{aligned}\right. \$\$
 
 解得：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\left\\\begin{aligned} v_1\'&=\frac{v_1(m_1-m_2)+2m_2v_2}{m_1+m_2}\\ v_2\'&=\frac{v_2(m_2-m_1)+2m_1v_1}{m_1+m_2} \end{aligned}\right.
-:::
-
-$$\left\{\begin{aligned}
-v_1'&=\frac{v_1(m_1-m_2)+2m_2v_2}{m_1+m_2}\\
-v_2'&=\frac{v_2(m_2-m_1)+2m_1v_1}{m_1+m_2}
-\end{aligned}\right.$$
-::::
+\$\$ \left{\begin{aligned} v_1\'&=\frac{v_1(m_1-m_2)+2m_2v_2}{m_1+m_2}\\ v_2\'&=\frac{v_2(m_2-m_1)+2m_1v_1}{m_1+m_2} \end{aligned}\right. \$\$
 
 PS：下面的式子不用记，直接用上面的方程组解即可。
 
@@ -274,28 +142,19 @@ PS：下面的式子不用记，直接用上面的方程组解即可。
 
 动撞静：
 
-- 使用二元组表示，即 []{.arithmatex}$(v_1,m_1)$ 撞 []{.arithmatex}$(0,m_2)$：
+- 使用二元组表示，即 \$(v_1,m_1)\$ 撞 \$(0,m_2)\$：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \left\\\begin{aligned} v_1\'&=\frac{v_1(m_1-m_2)}{m_1+m_2}\\ v_2\'&=\frac{2m_1v_1}{m_1+m_2} \end{aligned}\right.
-  :::
+  \$\$ \left{\begin{aligned} v_1\'&=\frac{v_1(m_1-m_2)}{m_1+m_2}\\ v_2\'&=\frac{2m_1v_1}{m_1+m_2} \end{aligned}\right. \$\$
 
-  $$\left\{\begin{aligned}
-  v_1'&=\frac{v_1(m_1-m_2)}{m_1+m_2}\\
-  v_2'&=\frac{2m_1v_1}{m_1+m_2}
-  \end{aligned}\right.$$
-  ::::
+  注意到 \$v_2\'\$ 永远是正的，但是 \$v_1\'\$ 可能是负的。
 
-  注意到 []{.arithmatex}$v_2'$ 永远是正的，但是 []{.arithmatex}$v_1'$ 可能是负的。
+- 具体的，如果 \$m_1\<m_2\$，\$v_1\'\<0\$，即物体反向。
 
-- 具体的，如果 []{.arithmatex}$m_1<m_2$，[]{.arithmatex}$v_1'<0$，即物体反向。
-
-- 特殊的，如果 []{.arithmatex}$m_2\to\infty$，则 []{.arithmatex}$v_1'\to -v_1$，[]{.arithmatex}$v_2'\to0$，类比到小球撞墙。
+- 特殊的，如果 \$m_2\to\infty\$，则 \$v_1\'\to -v_1\$，\$v_2\'\to0\$，类比到小球撞墙。
 
 等重碰撞：
 
-- 即 []{.arithmatex}$(v_1,m)$ 撞 []{.arithmatex}$(v_2,m)$。易得 []{.arithmatex}$v_1'=v_2$，[]{.arithmatex}$v_2'=v_1$，即交换速度。
+- 即 \$(v_1,m)\$ 撞 \$(v_2,m)\$。易得 \$v_1\'=v_2\$，\$v_2\'=v_1\$，即交换速度。
 
 经典的性质如下：
 
@@ -312,44 +171,17 @@ PS：下面的式子不用记，直接用上面的方程组解即可。
 
 ### 十字交叉法 {#_11}
 
-质心的速度不变，可以列出初、末速度和质心速度 []{.arithmatex}$v_f$ 的关系：
+质心的速度不变，可以列出初、末速度和质心速度 \$v_f\$ 的关系：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\left\\\begin{aligned} v_1+v_1\'&=2v_f\\ v_2+v_2\'&=2v_f \end{aligned}\right.
-:::
+\$\$ \left{\begin{aligned} v_1+v_1\'&=2v_f\\ v_2+v_2\'&=2v_f \end{aligned}\right. \$\$
 
-$$\left\{\begin{aligned}
-v_1+v_1'&=2v_f\\
-v_2+v_2'&=2v_f
-\end{aligned}\right.$$
-::::
+考虑求质心速度，等价于两物体撞到共速的速度 \$v_f\$：
 
-考虑求质心速度，等价于两物体撞到共速的速度 []{.arithmatex}$v_f$：
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} m_1v_1+m_2v_2=(m_1+m_2)v_f\\ v_f=\frac{m_1v_1+m_2v_2}{m_1+m_2} \end{aligned}
-:::
-
-$$\begin{aligned}
-m_1v_1+m_2v_2=(m_1+m_2)v_f\\
-v_f=\frac{m_1v_1+m_2v_2}{m_1+m_2}
-\end{aligned}$$
-::::
+\$\$ \begin{aligned} m_1v_1+m_2v_2=(m_1+m_2)v_f\\ v_f=\frac{m_1v_1+m_2v_2}{m_1+m_2} \end{aligned} \$\$
 
 那么就有：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\left\\\begin{aligned} v_1\'&=2\cdot\frac{m_1v_1+m_2v_2}{m_1+m_2}-v_1\\ v_2\'&=2\cdot\frac{m_1v_1+m_2v_2}{m_1+m_2}-v_2 \end{aligned}\right.
-:::
-
-$$\left\{\begin{aligned}
-v_1'&=2\cdot\frac{m_1v_1+m_2v_2}{m_1+m_2}-v_1\\
-v_2'&=2\cdot\frac{m_1v_1+m_2v_2}{m_1+m_2}-v_2
-\end{aligned}\right.$$
-::::
+\$\$ \left{\begin{aligned} v_1\'&=2\cdot\frac{m_1v_1+m_2v_2}{m_1+m_2}-v_1\\ v_2\'&=2\cdot\frac{m_1v_1+m_2v_2}{m_1+m_2}-v_2 \end{aligned}\right. \$\$
 
 不要化简。
 
@@ -367,49 +199,21 @@ v_2'&=2\cdot\frac{m_1v_1+m_2v_2}{m_1+m_2}-v_2
 
 - 动能不守恒：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\frac{1}{2}m_1v_1\^2+\frac{1}{2}m_2v_2\^2\ge\frac{1}{2}m_1v_1\'\^2+\frac{1}{2}m_2v_2\'\^2
-:::
-
-$$\frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2\ge\frac{1}{2}m_1v_1'^2+\frac{1}{2}m_2v_2'^2$$
-::::
+\$\$ \frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2\ge\frac{1}{2}m_1v_1\'^2+\frac{1}{2}m_2v_2\'^2 \$\$
 
 - 动量守恒：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-m_1\bm{v}\_1+m_2\bm{v}\_2=m_1\bm{v}\_1\'+m_2\bm{v}\_2\'
-:::
-
-$$m_1\bm{v}_1+m_2\bm{v}_2=m_1\bm{v}_1'+m_2\bm{v}_2'$$
-::::
+\$\$ m_1\bm{v}\_1+m_2\bm{v}\_2=m_1\bm{v}\_1\'+m_2\bm{v}\_2\' \$\$
 
 ### 做题方法 {#_14}
 
 由于朴素的非弹性碰撞只有动量守恒，因此你也只能列这一个。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-m_1v_1+m_2v_2=m_1v_1\'+m_2v_2\'
-:::
-
-$$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$$
-::::
+\$\$ m_1v_1+m_2v_2=m_1v_1\'+m_2v_2\' \$\$
 
 此时可以问在碰撞中损耗的能量是多少：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} E\_{\text{损}}&=E\_{k0}-E\_{kt}\\ &=\left(\frac{1}{2}m_1v_1\^2+\frac{1}{2}m_2v_2\^2\right)\\ &-\left(\frac{1}{2}m_1v_1\'\^2+\frac{1}{2}m_2v_2\'\^2\right) \end{aligned}
-:::
-
-$$\begin{aligned}
-E_{\text{损}}&=E_{k0}-E_{kt}\\
-&=\left(\frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2\right)\\
-&-\left(\frac{1}{2}m_1v_1'^2+\frac{1}{2}m_2v_2'^2\right)
-\end{aligned}$$
-::::
+\$\$ \begin{aligned} E\_{\text{损}}&=E\_{k0}-E\_{kt}\\ &=\left(\frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2\right)\\ &-\left(\frac{1}{2}m_1v_1\'^2+\frac{1}{2}m_2v_2\'^2\right) \end{aligned} \$\$
 
 因为，注意到在小球中，有用的能量只有动能。
 
@@ -421,35 +225,17 @@ E_{\text{损}}&=E_{k0}-E_{kt}\\
 
 ### 一般形式 {#_16}
 
-非完全弹性碰撞后两物体速度相同，设为 []{.arithmatex}$v_f$，可以列出动量守恒：
+非完全弹性碰撞后两物体速度相同，设为 \$v_f\$，可以列出动量守恒：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-m_1\bm{v}\_1+m_2\bm{v}\_2=(m_1+m_2)\bm{v}\_f
-:::
-
-$$m_1\bm{v}_1+m_2\bm{v}_2=(m_1+m_2)\bm{v}_f$$
-::::
+\$\$ m_1\bm{v}\_1+m_2\bm{v}\_2=(m_1+m_2)\bm{v}\_f \$\$
 
 即：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-v_f=\frac{m_1v_1+m_2v_2}{m_1+m_2}
-:::
-
-$$v_f=\frac{m_1v_1+m_2v_2}{m_1+m_2}$$
-::::
+\$\$ v_f=\frac{m_1v_1+m_2v_2}{m_1+m_2} \$\$
 
 此时，动能的损失量最大：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-E_损=\dfrac12m_1v_1\^2+\dfrac12m_2v_2\^2-\dfrac12(m_1+m_2)v_f\^2
-:::
-
-$$E_损=\dfrac12m_1v_1^2+\dfrac12m_2v_2^2-\dfrac12(m_1+m_2)v_f^2$$
-::::
+\$\$ E_损=\dfrac12m_1v_1^2+\dfrac12m_2v_2^2-\dfrac12(m_1+m_2)v_f\^2 \$\$
 
 ### 做题方法 {#_17}
 
@@ -463,25 +249,19 @@ $$E_损=\dfrac12m_1v_1^2+\dfrac12m_2v_2^2-\dfrac12(m_1+m_2)v_f^2$$
 
 恢复系数是衡量两个物体在碰撞后的反弹程度。
 
-恢复系数通常在 []{.arithmatex}$0$ 与 []{.arithmatex}$1$ 之间，但是不是一定，我们记为 []{.arithmatex}$C_r$：
+恢复系数通常在 \$0\$ 与 \$1\$ 之间，但是不是一定，我们记为 \$C_r\$：
 
-- []{.arithmatex}$C_r=1$，则此碰撞为弹性碰撞；
-- []{.arithmatex}$0\le C_r<1$，则此碰撞为非弹性碰撞；
-- []{.arithmatex}$C_r=0$，则此碰撞为完全非弹性碰撞，两个物体黏贴在一起。
-- []{.arithmatex}$C_r>1$，表示产生动能的碰撞。例如，当两个地雷碰撞引起爆炸。
-- []{.arithmatex}$C_r<0$，表示其中一个物体会超过另外一个物体。例如，子弹穿过弹靶。
+- \$C_r=1\$，则此碰撞为弹性碰撞；
+- \$0\le C_r\<1\$，则此碰撞为非弹性碰撞；
+- \$C_r=0\$，则此碰撞为完全非弹性碰撞，两个物体黏贴在一起。
+- \$C_r\>1\$，表示产生动能的碰撞。例如，当两个地雷碰撞引起爆炸。
+- \$C_r\<0\$，表示其中一个物体会超过另外一个物体。例如，子弹穿过弹靶。
 
 恢复系数是两个物体相互碰撞的特性，而不是单独物体的属性。
 
 其中，恢复系数有公式：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-C_r=\frac{v_1\'-v_2\'}{v_2-v_1}=\frac{v_2\'-v_1\'}{v_1-v_2}
-:::
-
-$$C_r=\frac{v_1'-v_2'}{v_2-v_1}=\frac{v_2'-v_1'}{v_1-v_2}$$
-::::
+\$\$ C_r=\frac{v_1\'-v_2\'}{v_2-v_1}=\frac{v_2\'-v_1\'}{v_1-v_2} \$\$
 
 于是，我们可以根据一次碰撞，求出两物体（材质）的恢复系数，再带入计算另一次碰撞。
 
@@ -489,7 +269,7 @@ $$C_r=\frac{v_1'-v_2'}{v_2-v_1}=\frac{v_2'-v_1'}{v_1-v_2}$$
 
 两个物体间的实际碰撞是参考理想弹性碰撞和理想非弹性碰撞的混合模型来表述的。
 
-这个混合模型可以通过恢复系数 []{.arithmatex}$C_r$ 来表示，其中 []{.arithmatex}$C_r$ 是物体（材质）的特性。
+这个混合模型可以通过恢复系数 \$C_r\$ 来表示，其中 \$C_r\$ 是物体（材质）的特性。
 
 作为系统只考虑其中之一，所以并不考虑动能守恒，否则系统就改变了其状态。
 
@@ -497,13 +277,7 @@ $$C_r=\frac{v_1'-v_2'}{v_2-v_1}=\frac{v_2'-v_1'}{v_1-v_2}$$
 
 - 动量守恒：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  m_1\bm{v}\_1+m_2\bm{v}\_2=m_1\bm{v}\_1\'+m_2\bm{v}\_2\'
-  :::
-
-  $$m_1\bm{v}_1+m_2\bm{v}_2=m_1\bm{v}_1'+m_2\bm{v}_2'$$
-  ::::
+  \$\$ m_1\bm{v}\_1+m_2\bm{v}\_2=m_1\bm{v}\_1\'+m_2\bm{v}\_2\' \$\$
 
 - 同向相撞，后面的球的速度大于前面的球：
 
@@ -515,21 +289,21 @@ $$C_r=\frac{v_1'-v_2'}{v_2-v_1}=\frac{v_2'-v_1'}{v_1-v_2}$$
 
 依旧不考虑穿过物体的碰撞（穿墙），以及产生动能的碰撞（爆炸）。
 
-1.  速度的取值范围：[]{.arithmatex}$[$ 共速速度 []{.arithmatex}$,$ 弹性碰撞速度 []{.arithmatex}$]$，两边可以取等号。
+1.  速度的取值范围：\$\[\$ 共速速度 \$,\$ 弹性碰撞速度 \$\]\$，两边可以取等号。
 
     适用情况：没有给出任何末状态信息。
 
     注意问的是速度大小的最大、最小值，要看绝对值。
 
-2.  损失能量的范围：[]{.arithmatex}$[0,$ 完全非弹性碰撞损失的能量 []{.arithmatex}$]$，两边可以取等号。
+2.  损失能量的范围：\$\[0,\$ 完全非弹性碰撞损失的能量 \$\]\$，两边可以取等号。
 
 3.  质量未知的动量变化范围：极限法，后物体撞前物体，
 
-    1.  前物体质量极大速度极小，后物体近似原速返回，动量变化量为 []{.arithmatex}$-2p_1$。
+    1.  前物体质量极大速度极小，后物体近似原速返回，动量变化量为 \$-2p_1\$。
 
-    2.  前物体和后物体速度接近，后物体近似速度不变，动量变化量为 []{.arithmatex}$0$。
+    2.  前物体和后物体速度接近，后物体近似速度不变，动量变化量为 \$0\$。
 
-    故后物体动量变化范围为 []{.arithmatex}$(-2p_1,0)$，不能取等号。
+    故后物体动量变化范围为 \$(-2p_1,0)\$，不能取等号。
 
 ## 流体模型 {#_22}
 
@@ -543,109 +317,60 @@ $$C_r=\frac{v_1'-v_2'}{v_2-v_1}=\frac{v_2'-v_1'}{v_1-v_2}$$
 
 列出动能定理，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-Ft=mv-mv_0
-:::
+\$\$ Ft=mv-mv_0 \$\$
 
-$$Ft=mv-mv_0$$
-::::
+发现我们不知道 \$m\$ 和 \$t\$，考虑进行处理，我们发现这里的质量只是打在接触面上的质量：
 
-发现我们不知道 []{.arithmatex}$m$ 和 []{.arithmatex}$t$，考虑进行处理，我们发现这里的质量只是打在接触面上的质量：
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-m=\rho V=\rho Sh
-:::
-
-$$m=\rho V=\rho Sh$$
-::::
+\$\$ m=\rho V=\rho Sh \$\$
 
 然后进行化简：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-F=\rho S{h\over t}(v-v_0)=\rho Sv(v-v_0)
-:::
+\$\$ F=\rho S{h\over t}(v-v_0)=\rho Sv(v-v_0) \$\$
 
-$$F=\rho S{h\over t}(v-v_0)=\rho Sv(v-v_0)$$
-::::
+其中，\$v\$ 是打在墙面上时的流体速度，\$v_0\$ 为流体的初速度。
 
-其中，[]{.arithmatex}$v$ 是打在墙面上时的流体速度，[]{.arithmatex}$v_0$ 为流体的初速度。
-
-代数，[]{.arithmatex}$\rho$ 为流体密度，[]{.arithmatex}$S$ 为打在墙面上的接触面积，[]{.arithmatex}$F$ 为墙面受到的平均压力。
+代数，\$\rho\$ 为流体密度，\$S\$ 为打在墙面上的接触面积，\$F\$ 为墙面受到的平均压力。
 
 其中，后半边式子成立的前提是粒子均匀密布在接触面上，如风和水管。
 
-对于下雨一类的，需要带前半边的式子，用 []{.arithmatex}$h$ 表示 []{.arithmatex}$t$ 时间内的余量（积水高度）。
+对于下雨一类的，需要带前半边的式子，用 \$h\$ 表示 \$t\$ 时间内的余量（积水高度）。
 
 ### 流和流量 {#_24}
 
 一段时间内流经截面的某种物理量的总量就叫做**流量**。
 
-流量是时间 []{.arithmatex}$t$ 的函数，流是流量关于时间的导数，流量是流在某段时间的定积分，反之。
+流量是时间 \$t\$ 的函数，流是流量关于时间的导数，流量是流在某段时间的定积分，反之。
 
 单位时间流经某个截面的某种物理量叫**流**。
 
 最常见的例子是电流，即单位时间流经某截面的电荷量，用极限定义为：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-I=\lim\_{\Delta t\to0}{\Delta q\over\Delta t}
-:::
-
-$$I=\lim_{\Delta t\to0}{\Delta q\over\Delta t}$$
-::::
+\$\$ I=\lim\_{\Delta t\to0}{\Delta q\over\Delta t} \$\$
 
 或者用下文流密度定义，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-I=\int\bm j(\bm r,t)\\\mathrm d\bm s
-:::
+\$\$ I=\int\bm j(\bm r,t)\\\mathrm d\bm s \$\$
 
-$$I=\int\bm j(\bm r,t)\,\mathrm d\bm s$$
-::::
-
-把电荷 []{.arithmatex}$q$ 替换成其他物理量如质量、能量、粒子数，分别得到质量流、能流、粒子流。
+把电荷 \$q\$ 替换成其他物理量如质量、能量、粒子数，分别得到质量流、能流、粒子流。
 
 ### 能流密度 {#_25}
 
 **流密度**可以用于描述某时刻流体在的空间流动的速率。
 
-以水流为例，在一条河流或管道中，某时刻 []{.arithmatex}$t$ 在空间中任意一点 []{.arithmatex}$\bm r$ 处，都对应一个水流速度 []{.arithmatex}$\bm v$，如果我们在该点放置一个与速度垂直的微小截面（通常叫面元），令其面积为 []{.arithmatex}$\Delta S$，在一段微小时间 []{.arithmatex}$\Delta t$ 内流经截面的质量为 []{.arithmatex}$\Delta m$，那么质量流密度可以用极限定义为，
+以水流为例，在一条河流或管道中，某时刻 \$t\$ 在空间中任意一点 \$\bm r\$ 处，都对应一个水流速度 \$\bm v\$，如果我们在该点放置一个与速度垂直的微小截面（通常叫面元），令其面积为 \$\Delta S\$，在一段微小时间 \$\Delta t\$ 内流经截面的质量为 \$\Delta m\$，那么质量流密度可以用极限定义为，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\bm j(\bm r,t)=\hat{\bm n}\lim\_{\Delta S,\Delta t\to0}{\Delta m\over \Delta S\Delta t}
-:::
+\$\$ \bm j(\bm r,t)=\hat{\bm n}\lim\_{\Delta S,\Delta t\to0}{\Delta m\over \Delta S\Delta t} \$\$
 
-$$\bm j(\bm r,t)=\hat{\bm n}\lim_{\Delta S,\Delta t\to0}{\Delta m\over \Delta S\Delta t}$$
-::::
-
-其中 []{.arithmatex}$\hat{\bm n}$ 表示面元正方向法向量或者面元处流体的速度方向。
+其中 \$\hat{\bm n}\$ 表示面元正方向法向量或者面元处流体的速度方向。
 
 或者，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\bm j(\bm r,t)=\rho(\bm r,t)\bm v(\bm r,t)\\ \rho(\bm r,t)=\lim\_{\Delta V\to0}{\Delta m\over\Delta V}
-:::
-
-$$\bm j(\bm r,t)=\rho(\bm r,t)\bm v(\bm r,t)\\
-\rho(\bm r,t)=\lim_{\Delta V\to0}{\Delta m\over\Delta V}$$
-::::
+\$\$ \bm j(\bm r,t)=\rho(\bm r,t)\bm v(\bm r,t)\\ \rho(\bm r,t)=\lim\_{\Delta V\to0}{\Delta m\over\Delta V} \$\$
 
 注意到，
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\Delta V=\Delta S\cdot v\Delta t
-:::
+\$\$ \Delta V=\Delta S\cdot v\Delta t \$\$
 
-$$\Delta V=\Delta S\cdot v\Delta t$$
-::::
-
-因此，上式 []{.arithmatex}$(1)(2)$ 其实是等价的。
+因此，上式 \$(1)(2)\$ 其实是等价的。
 
 流密度是一个关于位置的矢量函数，即矢量场。其中，质量可以替换为不同的物理量，若替换为能量则称为能流密度，若是粒子数则称为粒子流密度，若是电荷量则称为电流密度，等等。

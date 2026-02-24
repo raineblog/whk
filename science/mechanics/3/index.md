@@ -6,15 +6,9 @@
 
 等腰三角形、晾衣杆问题，特征为动滑轮通过刚性轻绳固定，有公式：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-F=\dfrac{G}{2\cos\theta}
-:::
+\$\$ F=\dfrac{G}{2\cos\theta} \$\$
 
-$$F=\dfrac{G}{2\cos\theta}$$
-::::
-
-特征；[]{.arithmatex}$F$ 仅与 []{.arithmatex}$\theta$ 有关，上下移动绳子端点力不变，端点水平靠近拉力下降、远离拉力上升。
+特征；\$F\$ 仅与 \$\theta\$ 有关，上下移动绳子端点力不变，端点水平靠近拉力下降、远离拉力上升。
 
 物体的平衡可以分为稳定平衡、不稳定平衡和随遇平衡三种。
 
@@ -30,16 +24,16 @@ $$F=\dfrac{G}{2\cos\theta}$$
 
 ### 斜面模型 {#_5}
 
-斜面模型「物体是否会下滑」，设斜面与水平面夹角为 []{.arithmatex}$\theta$：
+斜面模型「物体是否会下滑」，设斜面与水平面夹角为 \$\theta\$：
 
-受力分析，得 []{.arithmatex}$G_x=mg\sin\theta$，[]{.arithmatex}$f=\mu mg\cos\theta$。
+受力分析，得 \$G_x=mg\sin\theta\$，\$f=\mu mg\cos\theta\$。
 
-- 若物体下滑：[]{.arithmatex}$G_x>f \Rightarrow G_x/f>1 \Rightarrow \tan\theta/\mu>1 \Rightarrow \tan\theta>\mu$。
-- 同理，若物体静止不动，[]{.arithmatex}$G_x\le f \Rightarrow \tan\theta\le\mu$。
+- 若物体下滑：\$G_x\>f \Rightarrow G_x/f\>1 \Rightarrow \tan\theta/\mu\>1 \Rightarrow \tan\theta\>\mu\$。
+- 同理，若物体静止不动，\$G_x\le f \Rightarrow \tan\theta\le\mu\$。
 
-即，若 []{.arithmatex}$\tan\theta>\mu$，物体会下滑。
+即，若 \$\tan\theta\>\mu\$，物体会下滑。
 
-同时也可以根据此探究动摩擦因数 []{.arithmatex}$\mu=\arctan\theta$。
+同时也可以根据此探究动摩擦因数 \$\mu=\arctan\theta\$。
 
 ### 直角劈模型 {#_6}
 
@@ -47,23 +41,13 @@ $$F=\dfrac{G}{2\cos\theta}$$
 
 根据已知常量列出方程，例如绳长不变，绳子切面速度相同，以及对应的加速度关系。
 
-典例是直角劈模型，有 []{.arithmatex}$\theta$ 角度的直角劈，一木块放在上面，则：
+典例是直角劈模型，有 \$\theta\$ 角度的直角劈，一木块放在上面，则：
 
 ![直角劈模型](../mnt847j0.avif)
 
-其中 []{.arithmatex}$V$ 和 []{.arithmatex}$A$ 为劈的速度和加速度，[]{.arithmatex}$x$ 为木块相对参考系的水平位移，[]{.arithmatex}$X$ 为木块相对参考系的水平位移，[]{.arithmatex}$(h-y)$ 为木块滑下的竖直高度：
+其中 \$V\$ 和 \$A\$ 为劈的速度和加速度，\$x\$ 为木块相对参考系的水平位移，\$X\$ 为木块相对参考系的水平位移，\$(h-y)\$ 为木块滑下的竖直高度：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} (x-X)=(h-y)\cot\theta\\ v_x-V=-v_y\cot\theta\\ a_x-A=-a_y\cot\theta \end{aligned}
-:::
-
-$$\begin{aligned}
-(x-X)=(h-y)\cot\theta\\
-v_x-V=-v_y\cot\theta\\
-a_x-A=-a_y\cot\theta
-\end{aligned}$$
-::::
+\$\$ \begin{aligned} (x-X)=(h-y)\cot\theta\\ v_x-V=-v_y\cot\theta\\ a_x-A=-a_y\cot\theta \end{aligned} \$\$
 
 上式从上到下，实为对方程两边做一次时间变化率，常数项忽略，常数系数不变。
 
@@ -79,25 +63,13 @@ a_x-A=-a_y\cot\theta
 
 可以得出，绳子拉力与斜面夹角、摩擦因数均无关：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-T=\dfrac{m_1}{m_1+m_2}F
-:::
+\$\$ T=\dfrac{m_1}{m_1+m_2}F \$\$
 
-$$T=\dfrac{m_1}{m_1+m_2}F$$
-::::
+这个公式可以成为连接体的质量分配原则，其中 \$1\$ 是绳子没有直接拉着的那个物体。
 
-这个公式可以成为连接体的质量分配原则，其中 []{.arithmatex}$1$ 是绳子没有直接拉着的那个物体。
+推广：如果两个物体两侧分别拉着（\$F_1\$ 拉质量为 \$m_1\$ 的物体，\$F_2\$ 对于 \$m_2\$）：
 
-推广：如果两个物体两侧分别拉着（[]{.arithmatex}$F_1$ 拉质量为 []{.arithmatex}$m_1$ 的物体，[]{.arithmatex}$F_2$ 对于 []{.arithmatex}$m_2$）：
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-T=\dfrac{F_1m_2+F_2m_1}{m_1+m_2}
-:::
-
-$$T=\dfrac{F_1m_2+F_2m_1}{m_1+m_2}$$
-::::
+\$\$ T=\dfrac{F_1m_2+F_2m_1}{m_1+m_2} \$\$
 
 即总是一个力乘上没有直接连接的物体。
 
@@ -105,96 +77,45 @@ $$T=\dfrac{F_1m_2+F_2m_1}{m_1+m_2}$$
 
 ![alt text](../image-2.avif){align="right" width="50%"}
 
-质点自半径为 []{.arithmatex}$R$ 的空心球（对于平面而言是圆环）的最高点由静止开始无摩擦地沿任一弦下滑至球面（或圆环），所需时间相等，且等于：
+质点自半径为 \$R\$ 的空心球（对于平面而言是圆环）的最高点由静止开始无摩擦地沿任一弦下滑至球面（或圆环），所需时间相等，且等于：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\sqrt{\dfrac{4R}{g}}
-:::
-
-$$\sqrt{\dfrac{4R}{g}}$$
-::::
+\$\$ \sqrt{\dfrac{4R}{g}} \$\$
 
 证明：
 
-设下滑的弦与法线的夹角为 []{.arithmatex}$\beta$，则弦长：
+设下滑的弦与法线的夹角为 \$\beta\$，则弦长：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-l=2R\cos\beta
-:::
-
-$$l=2R\cos\beta$$
-::::
+\$\$ l=2R\cos\beta \$\$
 
 沿弦方向加速度为：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-a=g\cos\beta
-:::
-
-$$a=g\cos\beta$$
-::::
+\$\$ a=g\cos\beta \$\$
 
 列运动学方程：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} l&=\dfrac{1}{2}at\^2\\ 2R\cos\beta&=\dfrac{1}{2}(g\cos\beta)t\^2 \end{aligned}
-:::
+\$\$ \begin{aligned} l&=\dfrac{1}{2}at\^2\\ 2R\cos\beta&=\dfrac{1}{2}(g\cos\beta)t\^2 \end{aligned} \$\$
 
-$$\begin{aligned}
-l&=\dfrac{1}{2}at^2\\
-2R\cos\beta&=\dfrac{1}{2}(g\cos\beta)t^2
-\end{aligned}$$
-::::
+易得 \$t\$ 与 \$\beta\$ 无关，且：
 
-易得 []{.arithmatex}$t$ 与 []{.arithmatex}$\beta$ 无关，且：
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-t=\sqrt{\dfrac{4R}{g}}
-:::
-
-$$t=\sqrt{\dfrac{4R}{g}}$$
-::::
+\$\$ t=\sqrt{\dfrac{4R}{g}} \$\$
 
 经典例题：
 
-一小球从角度为 []{.arithmatex}$\alpha$ 的斜面上某一点的上方 []{.arithmatex}$l$ 处沿某一直线无摩擦的滑下，问落到斜面上的最短时间。
+一小球从角度为 \$\alpha\$ 的斜面上某一点的上方 \$l\$ 处沿某一直线无摩擦的滑下，问落到斜面上的最短时间。
 
-由上面的结论，最佳下落线与法线的夹角 []{.arithmatex}$\theta=\alpha/2$。
+由上面的结论，最佳下落线与法线的夹角 \$\theta=\alpha/2\$。
 
-易知，该圆的直径（[]{.arithmatex}$Q$ 为圆与斜面的切点，[]{.arithmatex}$H$ 为最高点到斜面的垂足）：
+易知，该圆的直径（\$Q\$ 为圆与斜面的切点，\$H\$ 为最高点到斜面的垂足）：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-2R=\dfrac{OQ}{\cos\theta}=\dfrac{OH}{\cos\^2\theta}=\dfrac{l\cos\alpha}{\cos\^2(\alpha/2)}
-:::
-
-$$2R=\dfrac{OQ}{\cos\theta}=\dfrac{OH}{\cos^2\theta}=\dfrac{l\cos\alpha}{\cos^2(\alpha/2)}$$
-::::
+\$\$ 2R=\dfrac{OQ}{\cos\theta}=\dfrac{OH}{\cos^2\theta}=\dfrac{l\cos\alpha}{\cos^2(\alpha/2)} \$\$
 
 则：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-R=\dfrac{l\cos\alpha}{1+\cos\alpha}
-:::
-
-$$R=\dfrac{l\cos\alpha}{1+\cos\alpha}$$
-::::
+\$\$ R=\dfrac{l\cos\alpha}{1+\cos\alpha} \$\$
 
 则最短时间：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-t=\sqrt{\dfrac{4R}{g}}=2\sqrt{\dfrac{l\cos\alpha}{g(1+\cos\alpha)}}
-:::
-
-$$t=\sqrt{\dfrac{4R}{g}}=2\sqrt{\dfrac{l\cos\alpha}{g(1+\cos\alpha)}}$$
-::::
+\$\$ t=\sqrt{\dfrac{4R}{g}}=2\sqrt{\dfrac{l\cos\alpha}{g(1+\cos\alpha)}} \$\$
 
 等时圆的构造：
 
@@ -202,7 +123,7 @@ $$t=\sqrt{\dfrac{4R}{g}}=2\sqrt{\dfrac{l\cos\alpha}{g(1+\cos\alpha)}}$$
 
 ### 最速降线问题 {#_9}
 
-在平面内，[]{.arithmatex}$B$ 点在 []{.arithmatex}$A$ 右下，自 []{.arithmatex}$A$ 静止释放一个小球，运动到 []{.arithmatex}$B$ 点的最短时间。
+在平面内，\$B\$ 点在 \$A\$ 右下，自 \$A\$ 静止释放一个小球，运动到 \$B\$ 点的最短时间。
 
 ![](../%E6%9C%80%E9%80%9F%E9%99%8D%E7%BA%BF.avif){width="100%"}
 
@@ -212,184 +133,75 @@ $$t=\sqrt{\dfrac{4R}{g}}=2\sqrt{\dfrac{l\cos\alpha}{g(1+\cos\alpha)}}$$
 
 ![](../%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.avif){width="90%"}
 
-**例题1**：质量为 []{.arithmatex}$2\text{kg}$ 的物体沿光滑斜面下滑，斜面与水平面的夹角为 []{.arithmatex}$37^\circ$，求木块的加速度。
+**例题1**：质量为 \$2\text{kg}\$ 的物体沿光滑斜面下滑，斜面与水平面的夹角为 \$37\^\circ\$，求木块的加速度。
 
 列式：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{cases} F_r&=ma\\ F_r&=G\sin37\^\circ\\ G&=mg\\ m&=2\text{kg} \end{cases}
-:::
-
-$$\begin{cases}
-F_r&=ma\\
-F_r&=G\sin37^\circ\\
-G&=mg\\
-m&=2\text{kg}
-\end{cases}$$
-::::
+\$\$ \begin{cases} F_r&=ma\\ F_r&=G\sin37\^\circ\\ G&=mg\\ m&=2\text{kg} \end{cases} \$\$
 
 解得：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{cases} m&=2&\text{kg}\\ G&=20&\text{N}\\ F_r&=12&\text{N}\\ a&=6&\text{m/s}\^2\\ \end{cases}
-:::
+\$\$ \begin{cases} m&=2&\text{kg}\\ G&=20&\text{N}\\ F_r&=12&\text{N}\\ a&=6&\text{m/s}\^2\\ \end{cases} \$\$
 
-$$\begin{cases}
-m&=2&\text{kg}\\
-G&=20&\text{N}\\
-F_r&=12&\text{N}\\
-a&=6&\text{m/s}^2\\
-\end{cases}$$
-::::
+所以，加速度为 \$6\text{m/s}\^2\$，方向沿斜面向下。
 
-所以，加速度为 []{.arithmatex}$6\text{m/s}^2$，方向沿斜面向下。
-
-**例题2**：质量为 []{.arithmatex}$2\text{kg}$ 的物体沿斜面下滑，斜面的摩擦因数为 []{.arithmatex}$0.2$，斜面与水平面的夹角为 []{.arithmatex}$37^\circ$，求木块的加速度。
+**例题2**：质量为 \$2\text{kg}\$ 的物体沿斜面下滑，斜面的摩擦因数为 \$0.2\$，斜面与水平面的夹角为 \$37\^\circ\$，求木块的加速度。
 
 列式：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{cases} F_r&=ma\\ F_r&=G\sin37\^\circ-f\\ f&=\mu N\\ N&=G\cos37\^\circ\\ G&=mg\\ m&=2\text{kg} \end{cases}
-:::
-
-$$\begin{cases}
-F_r&=ma\\
-F_r&=G\sin37^\circ-f\\
-f&=\mu N\\
-N&=G\cos37^\circ\\
-G&=mg\\
-m&=2\text{kg}
-\end{cases}$$
-::::
+\$\$ \begin{cases} F_r&=ma\\ F_r&=G\sin37\^\circ-f\\ f&=\mu N\\ N&=G\cos37\^\circ\\ G&=mg\\ m&=2\text{kg} \end{cases} \$\$
 
 解得：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{cases} m&=2&\text{kg}\\ G&=20&\text{N}\\ N&=16&\text{N}\\ f&=3.2&\text{N}\\ F_r&=8.8&\text{N}\\ a&=4.4&\text{m/s}\^2\\ \end{cases}
-:::
+\$\$ \begin{cases} m&=2&\text{kg}\\ G&=20&\text{N}\\ N&=16&\text{N}\\ f&=3.2&\text{N}\\ F_r&=8.8&\text{N}\\ a&=4.4&\text{m/s}\^2\\ \end{cases} \$\$
 
-$$\begin{cases}
-m&=2&\text{kg}\\
-G&=20&\text{N}\\
-N&=16&\text{N}\\
-f&=3.2&\text{N}\\
-F_r&=8.8&\text{N}\\
-a&=4.4&\text{m/s}^2\\
-\end{cases}$$
-::::
+所以，加速度为 \$4.4\text{m/s}\^2\$，方向沿斜面向下。
 
-所以，加速度为 []{.arithmatex}$4.4\text{m/s}^2$，方向沿斜面向下。
+**例题3**：质量为 \$2\text{kg}\$ 的物体静止于水平面的 \$A\$ 处，\$AB\$ 间距 \$L=20\text{m}\$，如图：
 
-**例题3**：质量为 []{.arithmatex}$2\text{kg}$ 的物体静止于水平面的 []{.arithmatex}$A$ 处，[]{.arithmatex}$AB$ 间距 []{.arithmatex}$L=20\text{m}$，如图：
+\$\$ \begin{matrix} \underline{\kern{1em}\Box\kern{7em}\Box\kern{1em}}\\-0.8em\] \cdot\kern{7.5em}\cdot\\-0.4em\] {\small{A}}\kern{7em}{\small{B}} \end{matrix} \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{matrix} \underline{\kern{1em}\Box\kern{7em}\Box\kern{1em}}\\\[-0.8em\] \cdot\kern{7.5em}\cdot\\\[-0.4em\] {\small{A}}\kern{7em}{\small{B}} \end{matrix}
-:::
+现用大小为 \$30\text{N}\$ 的力，沿水平方向拉物体，\$2\text{s}\$ 后到达 \$B\$ 处。
 
-$$\begin{matrix}
-\underline{\kern{1em}\Box\kern{7em}\Box\kern{1em}}\\[-0.8em]
-\cdot\kern{7.5em}\cdot\\[-0.4em]
-{\small{A}}\kern{7em}{\small{B}}
-\end{matrix}$$
-::::
-
-现用大小为 []{.arithmatex}$30\text{N}$ 的力，沿水平方向拉物体，[]{.arithmatex}$2\text{s}$ 后到达 []{.arithmatex}$B$ 处。
-
-求物体与地面的摩擦因数 []{.arithmatex}$\mu$。
+求物体与地面的摩擦因数 \$\mu\$。
 
 解：
 
-对物体 []{.arithmatex}$A$ 受力分析：
+对物体 \$A\$ 受力分析：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{cases} F_r&=F-f\\ N&=G \end{cases}
-:::
-
-$$\begin{cases}
-F_r&=F-f\\
-N&=G
-\end{cases}$$
-::::
+\$\$ \begin{cases} F_r&=F-f\\ N&=G \end{cases} \$\$
 
 展开：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{cases} ma&=F-\mu N\\ N&=mg \end{cases}
-:::
-
-$$\begin{cases}
-ma&=F-\mu N\\
-N&=mg
-\end{cases}$$
-::::
+\$\$ \begin{cases} ma&=F-\mu N\\ N&=mg \end{cases} \$\$
 
 得到方程组：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{cases} x&=\dfrac{1}{2}at\^2\\ ma&=F-\mu mg \end{cases}
-:::
-
-$$\begin{cases}
-x&=\dfrac{1}{2}at^2\\
-ma&=F-\mu mg
-\end{cases}$$
-::::
+\$\$ \begin{cases} x&=\dfrac{1}{2}at\^2\\ ma&=F-\mu mg \end{cases} \$\$
 
 代数，得：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{cases} 20\text{m}&=\dfrac{1}{2}a\cdot(2\text{s})\^2\\ 2\text{kg}\cdot a&=30\text{N}-\mu\cdot20\text{N} \end{cases}
-:::
-
-$$\begin{cases}
-20\text{m}&=\dfrac{1}{2}a\cdot(2\text{s})^2\\
-2\text{kg}\cdot a&=30\text{N}-\mu\cdot20\text{N}
-\end{cases}$$
-::::
+\$\$ \begin{cases} 20\text{m}&=\dfrac{1}{2}a\cdot(2\text{s})\^2\\ 2\text{kg}\cdot a&=30\text{N}-\mu\cdot20\text{N} \end{cases} \$\$
 
 解得：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{cases} a&=10\text{m/s}\^2\\ \mu&=0.5 \end{cases}
-:::
+\$\$ \begin{cases} a&=10\text{m/s}\^2\\ \mu&=0.5 \end{cases} \$\$
 
-$$\begin{cases}
-a&=10\text{m/s}^2\\
-\mu&=0.5
-\end{cases}$$
-::::
-
-即 []{.arithmatex}$\mu=0.5$。
+即 \$\mu=0.5\$。
 
 ### 传送带模型 {#_11}
 
 加速度：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-a=g\sin\theta\pm\mu g\cos\theta
-:::
-
-$$a=g\sin\theta\pm\mu g\cos\theta$$
-::::
+\$\$ a=g\sin\theta\pm\mu g\cos\theta \$\$
 
 表示重力下滑分量和滑动摩擦力的作用。
 
-假设可以共速静止，比较 []{.arithmatex}$\tan\theta$ 和 []{.arithmatex}$\mu$。
+假设可以共速静止，比较 \$\tan\theta\$ 和 \$\mu\$。
 
 判断共速时的位与和传送带长度之间的关系。
 
-善用 []{.arithmatex}$v-t$ 图像。
+善用 \$v-t\$ 图像。
 
 ### 一板一物模型 {#_12}
 
@@ -419,25 +231,13 @@ $$a=g\sin\theta\pm\mu g\cos\theta$$
 
 可以得出，摩擦力与斜面夹角无关，与摩擦因数有关：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-f=\dfrac{m_1}{m_1+m_2}F-\mu mg\cos\theta
-:::
+\$\$ f=\dfrac{m_1}{m_1+m_2}F-\mu mg\cos\theta \$\$
 
-$$f=\dfrac{m_1}{m_1+m_2}F-\mu mg\cos\theta$$
-::::
+若斜面是水平面（\$\theta=0\$），那么 \$\cos\theta=1\$：
 
-若斜面是水平面（[]{.arithmatex}$\theta=0$），那么 []{.arithmatex}$\cos\theta=1$：
+\$\$ f=\dfrac{m_1}{m_1+m_2}F-\mu mg \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-f=\dfrac{m_1}{m_1+m_2}F-\mu mg
-:::
-
-$$f=\dfrac{m_1}{m_1+m_2}F-\mu mg$$
-::::
-
-同样也类似质量分配原则，其中 []{.arithmatex}$1$ 是力没有直接作用在的那个物体。
+同样也类似质量分配原则，其中 \$1\$ 是力没有直接作用在的那个物体。
 
 ### 叠加体相对滑动 {#_14}
 
@@ -445,45 +245,21 @@ $$f=\dfrac{m_1}{m_1+m_2}F-\mu mg$$
 2.  隔离法，求出这个物体的最大加速度，
 3.  整体法，求出最大的外力大小。
 
-形式一：拉着下面的 []{.arithmatex}$M$ 走，其上表面 []{.arithmatex}$\mu_1$、下表面 []{.arithmatex}$\mu_2$：
+形式一：拉着下面的 \$M\$ 走，其上表面 \$\mu_1\$、下表面 \$\mu_2\$：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-F=(m+M)(\mu_1+\mu_2+\tan\theta)g\cdot\cos\theta
-:::
+\$\$ F=(m+M)(\mu_1+\mu_2+\tan\theta)g\cdot\cos\theta \$\$
 
-$$F=(m+M)(\mu_1+\mu_2+\tan\theta)g\cdot\cos\theta$$
-::::
+若斜面是水平面（\$\theta=0\$），那么 \$\cos\theta=1,\tan\theta=0\$：
 
-若斜面是水平面（[]{.arithmatex}$\theta=0$），那么 []{.arithmatex}$\cos\theta=1,\tan\theta=0$：
+\$\$ F=(m+M)(\mu_1+\mu_2)g \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-F=(m+M)(\mu_1+\mu_2)g
-:::
+形式二：拉着上面的 \$m\$ 走，其下 \$M\$ 上表面 \$\mu_1\$、下表面 \$\mu_2\$：
 
-$$F=(m+M)(\mu_1+\mu_2)g$$
-::::
+\$\$ F=\dfrac{m}{M}(m+M)(\mu_1-\mu_2)g\cdot\cos\theta \$\$
 
-形式二：拉着上面的 []{.arithmatex}$m$ 走，其下 []{.arithmatex}$M$ 上表面 []{.arithmatex}$\mu_1$、下表面 []{.arithmatex}$\mu_2$：
+若斜面是水平面（\$\theta=0\$），那么 \$\cos\theta=1\$：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-F=\dfrac{m}{M}(m+M)(\mu_1-\mu_2)g\cdot\cos\theta
-:::
-
-$$F=\dfrac{m}{M}(m+M)(\mu_1-\mu_2)g\cdot\cos\theta$$
-::::
-
-若斜面是水平面（[]{.arithmatex}$\theta=0$），那么 []{.arithmatex}$\cos\theta=1$：
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-F=\dfrac{m}{M}(m+M)(\mu_1-\mu_2)g
-:::
-
-$$F=\dfrac{m}{M}(m+M)(\mu_1-\mu_2)g$$
-::::
+\$\$ F=\dfrac{m}{M}(m+M)(\mu_1-\mu_2)g \$\$
 
 注意此形式下，需要上物体能拉动下物体，拉不动的话就更简单了。
 
@@ -493,37 +269,19 @@ $$F=\dfrac{m}{M}(m+M)(\mu_1-\mu_2)g$$
 
 对（物体），做（运动段），如图（受力分析），列（平衡／牛二）。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} F\_{\text{合}}=ma&=F-f\\ F&=\frac{P}{v} \end{aligned}
-:::
-
-$$\begin{aligned}
-F_{\text{合}}=ma&=F-f\\
-F&=\frac{P}{v}
-\end{aligned}$$
-::::
+\$\$ \begin{aligned} F\_{\text{合}}=ma&=F-f\\ F&=\frac{P}{v} \end{aligned} \$\$
 
 得出（一定要受力分析）：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} F&=f+ma\\ ma&=\frac{P}{v}-f \end{aligned}
-:::
-
-$$\begin{aligned}
-F&=f+ma\\
-ma&=\frac{P}{v}-f
-\end{aligned}$$
-::::
+\$\$ \begin{aligned} F&=f+ma\\ ma&=\frac{P}{v}-f \end{aligned} \$\$
 
 ### 恒定功率启动 {#_17}
 
 随着汽车的加速，
 
-1.  []{.arithmatex}$v$ 增大，[]{.arithmatex}$P$ 不变，[]{.arithmatex}$F$ 减小，[]{.arithmatex}$F_r$ 减小；
-2.  []{.arithmatex}$m$ 不变，[]{.arithmatex}$a$ 减小，[]{.arithmatex}$v$ 变化放缓。
-3.  直至 []{.arithmatex}$F=f$，汽车匀速运动。
+1.  \$v\$ 增大，\$P\$ 不变，\$F\$ 减小，\$F_r\$ 减小；
+2.  \$m\$ 不变，\$a\$ 减小，\$v\$ 变化放缓。
+3.  直至 \$F=f\$，汽车匀速运动。
 
 即汽车加速到一定程度后，汽车将保持匀速运动。
 
@@ -531,16 +289,16 @@ ma&=\frac{P}{v}-f
 
 按照时间顺序：
 
-1.  []{.arithmatex}$a$ 不变，[]{.arithmatex}$m$ 不变，[]{.arithmatex}$f$ 不变，[]{.arithmatex}$F$ 不变；
-2.  []{.arithmatex}$v$ 增大，[]{.arithmatex}$P$ 增大，汽车持续增速；
-3.  汽车增速到一定程度后，[]{.arithmatex}$P$ 无法继续增大：
-4.  此时 []{.arithmatex}$P$ 恒定，故进行恒定功率启动式的加速。
+1.  \$a\$ 不变，\$m\$ 不变，\$f\$ 不变，\$F\$ 不变；
+2.  \$v\$ 增大，\$P\$ 增大，汽车持续增速；
+3.  汽车增速到一定程度后，\$P\$ 无法继续增大：
+4.  此时 \$P\$ 恒定，故进行恒定功率启动式的加速。
 
 ### 做题思路 {#_19}
 
-1.  对匀速运动状态分析：平衡 []{.arithmatex}$F=f$；
-2.  对匀加速末状态分析：牛二 []{.arithmatex}$ma=P/v-f$；
-3.  对加速阶段状态分析：牛二 []{.arithmatex}$ma=P/v-f$。
+1.  对匀速运动状态分析：平衡 \$F=f\$；
+2.  对匀加速末状态分析：牛二 \$ma=P/v-f\$；
+3.  对加速阶段状态分析：牛二 \$ma=P/v-f\$。
 
 ### F-1/v 图像 {#f-1v}
 

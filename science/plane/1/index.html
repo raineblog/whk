@@ -6,7 +6,7 @@
 <p>带有方向的线段称为有向线段。有向线段的三要素为：起点、方向、长度。</p>
 <p>根据初等几何，那么只要知道这三要素，这个有向线段就已经被确定了，也就是终点可知。</p>
 <p>从另一个角度思考，也可以认为是知道起点、终点，就可以唯一的确定一个有向线段。</p>
-<p>一个有向线段由其两个端点表示，记为 <span class="arithmatex"><span class="MathJax_Preview">\overrightarrow{AB}</span><script type="math/tex">\overrightarrow{AB}</script></span> 或 <span class="arithmatex"><span class="MathJax_Preview">\bm{a}</span><script type="math/tex">\bm{a}</script></span>，同时我们记其长度，称为<strong>向量的模</strong>。</p>
+<p>一个有向线段由其两个端点表示，记为 $\overrightarrow{AB}$ 或 $\bm{a}$，同时我们记其长度，称为<strong>向量的模</strong>。</p>
 <h3 id="_3">向量</h3>
 <p>向量（vector）又称欧几里得向量（Euclidean vector）。</p>
 <p>目前没有准确而统一的中文翻译，在物理、工程中通称矢量。</p>
@@ -24,95 +24,71 @@
 <p>于是我们将有向线段的起点不固定，将一个有向线段抽象为一个可以随意移动的量。</p>
 <p>此时，你也许发现了。有向线段其实可以再次表示为，起点和一个向量。</p>
 <p>我们通常把向量表示在平面直角坐标系内，没有说明的情况下，起点通常标在坐标轴原点。</p>
-<p>我们取这个向量在横、纵坐标上延伸的长度作为两个元素，将向量记为 <span class="arithmatex"><span class="MathJax_Preview">(a,b)</span><script type="math/tex">(a,b)</script></span>。</p>
-<p>那么我们就得出了向量的几何意义，即向量 <span class="arithmatex"><span class="MathJax_Preview">(a,b)</span><script type="math/tex">(a,b)</script></span> 表示向右走 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span>、向上走 <span class="arithmatex"><span class="MathJax_Preview">b</span><script type="math/tex">b</script></span> 的位移。</p>
-<p>已知两点 <span class="arithmatex"><span class="MathJax_Preview">A(a,b),B(c,d)</span><script type="math/tex">A(a,b),B(c,d)</script></span>，易证
-<span class="arithmatex"><span class="MathJax_Preview">\overrightarrow{AB}=(c-a,d-b)</span><script type="math/tex">\overrightarrow{AB}=(c-a,d-b)</script></span>。</p>
+<p>我们取这个向量在横、纵坐标上延伸的长度作为两个元素，将向量记为 $(a,b)$。</p>
+<p>那么我们就得出了向量的几何意义，即向量 $(a,b)$ 表示向右走 $a$、向上走 $b$ 的位移。</p>
+<p>已知两点 $A(a,b),B(c,d)$，易证
+$\overrightarrow{AB}=(c-a,d-b)$。</p>
 <h3 id="_4">向量的模</h3>
-<p>对于一个向量 <span class="arithmatex"><span class="MathJax_Preview">\vec a</span><script type="math/tex">\vec a</script></span>，有向线段
-<span class="arithmatex"><span class="MathJax_Preview">\vec a</span><script type="math/tex">\vec a</script></span> 的长度称为向量的模，即为这个向量的大小。</p>
-<p>符号表示为 <span class="arithmatex"><span class="MathJax_Preview">|\bm a|</span><script type="math/tex">|\bm a|</script></span> 或 <span class="arithmatex"><span class="MathJax_Preview">|\overrightarrow{AB}|</span><script type="math/tex">|\overrightarrow{AB}|</script></span> ，根据勾股定理，我们知道 <span class="arithmatex"><span class="MathJax_Preview">|\vec a|=|(x,y)|=\sqrt{x^2+y^2}</span><script type="math/tex">|\vec a|=|(x,y)|=\sqrt{x^2+y^2}</script></span>。</p>
+<p>对于一个向量 $\vec a$，有向线段
+$\vec a$ 的长度称为向量的模，即为这个向量的大小。</p>
+<p>符号表示为 $|\bm a|$ 或 $|\overrightarrow{AB}|$ ，根据勾股定理，我们知道 $|\vec a|=|(x,y)|=\sqrt{x<sup>2+y</sup>2}$。</p>
 <h3 id="_5">特殊的向量</h3>
-<p><strong>零向量</strong>：模为 <span class="arithmatex"><span class="MathJax_Preview">0</span><script type="math/tex">0</script></span> 的向量，零向量的方向任意（不过其实是无意义）。一般记为：<span class="arithmatex"><span class="MathJax_Preview">\vec 0</span><script type="math/tex">\vec 0</script></span>。</p>
-<p><strong>单位向量</strong>：模为 <span class="arithmatex"><span class="MathJax_Preview">1</span><script type="math/tex">1</script></span> 的向量称为单位向量。一般记为 <span class="arithmatex"><span class="MathJax_Preview">\bm e</span><script type="math/tex">\bm e</script></span>，最常见的单位向量就是基向量。</p>
-<p><strong>基向量</strong>：<span class="arithmatex"><span class="MathJax_Preview">\bm i=(1,0)</span><script type="math/tex">\bm i=(1,0)</script></span> 表示 <span class="arithmatex"><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span> 方向的单位向量，<span class="arithmatex"><span class="MathJax_Preview">\bm j=(0,1)</span><script type="math/tex">\bm j=(0,1)</script></span> 表示 <span class="arithmatex"><span class="MathJax_Preview">y</span><script type="math/tex">y</script></span> 方向的单位向量。</p>
-<p><strong>平行向量</strong>：方向相同或相反的两个非零向量，规定零向量与任何向量平行。记作： <span class="arithmatex"><span class="MathJax_Preview">\bm x\parallel\bm y</span><script type="math/tex">\bm x\parallel\bm y</script></span>。</p>
+<p><strong>零向量</strong>：模为 $0$ 的向量，零向量的方向任意（不过其实是无意义）。一般记为：$\vec 0$。</p>
+<p><strong>单位向量</strong>：模为 $1$ 的向量称为单位向量。一般记为 $\bm e$，最常见的单位向量就是基向量。</p>
+<p><strong>基向量</strong>：$\bm i=(1,0)$ 表示 $x$ 方向的单位向量，$\bm j=(0,1)$ 表示 $y$ 方向的单位向量。</p>
+<p><strong>平行向量</strong>：方向相同或相反的两个非零向量，规定零向量与任何向量平行。记作： $\bm x\parallel\bm y$。</p>
 <p><strong>共线向量</strong>：任一组平行向量都可以平移到同一直线上，所以平行向量又叫共线向量。</p>
 <p><strong>相等向量</strong>：模相等且方向相同的向量。<strong>相反向量</strong>：模相等且方向相反的向量。</p>
 <h3 id="_6">斜坐标系</h3>
-<p>我们称 <span class="arithmatex"><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span> 轴与 <span class="arithmatex"><span class="MathJax_Preview">y</span><script type="math/tex">y</script></span> 轴的角度为 <span class="arithmatex"><span class="MathJax_Preview">\theta(\theta\neq\pi/2)</span><script type="math/tex">\theta(\theta\neq\pi/2)</script></span> 的坐标系。</p>
-<p>定义平面直角坐标系中的点 <span class="arithmatex"><span class="MathJax_Preview">P(x,y)</span><script type="math/tex">P(x,y)</script></span>，将 <span class="arithmatex"><span class="MathJax_Preview">P</span><script type="math/tex">P</script></span> 转移到斜坐标系中变成 <span class="arithmatex"><span class="MathJax_Preview">P'(x',y')</span><script type="math/tex">P'(x',y')</script></span> 满足：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>我们称 $x$ 轴与 $y$ 轴的角度为 $\theta(\theta\neq\pi/2)$ 的坐标系。</p>
+<p>定义平面直角坐标系中的点 $P(x,y)$，将 $P$ 转移到斜坐标系中变成 $P'(x',y')$ 满足：</p>
+<p>$$
 \begin{cases}
-x'=x+y\cos\theta\\
+x'=x+y\cos\theta\
 y'=y\sin\theta
 \end{cases}
-</div>
-<script type="math/tex; mode=display">
+$$</p>
+<p>$$
 \begin{cases}
-x'=x+y\cos\theta\\
-y'=y\sin\theta
-\end{cases}
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\begin{cases}
-x=x'-\dfrac{y'}{\tan\theta}\\
+x=x'-\dfrac{y'}{\tan\theta}\
 y=\dfrac{y'}{\sin\theta}
 \end{cases}
-</div>
-<script type="math/tex; mode=display">
-\begin{cases}
-x=x'-\dfrac{y'}{\tan\theta}\\
-y=\dfrac{y'}{\sin\theta}
-\end{cases}
-</script>
-</div>
+$$</p>
 <p>于是我们可以把平面向量在平面直角坐标系中的一些运算迁移到斜坐标系中：</p>
 <ul>
 <li>
-<p>数量积：<span class="arithmatex"><span class="MathJax_Preview">(x_1',y_1')\cdot(x_2',y_2')=x_1x_2+y_1y_2+(x_1y_2+x_2y_1)\cos\theta</span><script type="math/tex">(x_1',y_1')\cdot(x_2',y_2')=x_1x_2+y_1y_2+(x_1y_2+x_2y_1)\cos\theta</script></span>。</p>
+<p>数量积：$(x_1',y_1')\cdot(x_2',y_2')=x_1x_2+y_1y_2+(x_1y_2+x_2y_1)\cos\theta$。</p>
 </li>
 <li>
-<p>模长：<span class="arithmatex"><span class="MathJax_Preview">\overrightarrow{a}=(x',y'),|\overrightarrow{a}|=\sqrt{x^2+y^2+2xy\cos\theta}</span><script type="math/tex">\overrightarrow{a}=(x',y'),|\overrightarrow{a}|=\sqrt{x^2+y^2+2xy\cos\theta}</script></span>。</p>
+<p>模长：$\overrightarrow{a}=(x',y'),|\overrightarrow{a}|=\sqrt{x<sup>2+y</sup>2+2xy\cos\theta}$。</p>
 </li>
 <li>
-<p>夹角：<span class="arithmatex"><span class="MathJax_Preview">\displaystyle\overrightarrow{a}=(x_1',y_1'),\overrightarrow{b}=(x_2',y_2'),\cos\gamma=\frac{\overrightarrow{a}\cdot\overrightarrow{b}}{|\overrightarrow{a}||\overrightarrow{b}|}</span><script type="math/tex">\displaystyle\overrightarrow{a}=(x_1',y_1'),\overrightarrow{b}=(x_2',y_2'),\cos\gamma=\frac{\overrightarrow{a}\cdot\overrightarrow{b}}{|\overrightarrow{a}||\overrightarrow{b}|}</script></span>。</p>
+<p>夹角：$\displaystyle\overrightarrow{a}=(x_1',y_1'),\overrightarrow{b}=(x_2',y_2'),\cos\gamma=\frac{\overrightarrow{a}\cdot\overrightarrow{b}}{|\overrightarrow{a}||\overrightarrow{b}|}$。</p>
 </li>
 </ul>
 <h2 id="_7">向量的线性运算</h2>
 <h3 id="_8">向量数乘</h3>
-<p>我们规定实数 <span class="arithmatex"><span class="MathJax_Preview">\lambda</span><script type="math/tex">\lambda</script></span> 与向量 <span class="arithmatex"><span class="MathJax_Preview">\bm a</span><script type="math/tex">\bm a</script></span> 的积为一个向量，称为向量的数乘运算，记作 <span class="arithmatex"><span class="MathJax_Preview">\lambda\vec a</span><script type="math/tex">\lambda\vec a</script></span>。</p>
-<p>我们定义 <span class="arithmatex"><span class="MathJax_Preview">\lambda\bm a=\lambda(x,y)=(\lambda x,\lambda y)</span><script type="math/tex">\lambda\bm a=\lambda(x,y)=(\lambda x,\lambda y)</script></span>。据此，我们可以得出以下向量数乘常用的结论：</p>
+<p>我们规定实数 $\lambda$ 与向量 $\bm a$ 的积为一个向量，称为向量的数乘运算，记作 $\lambda\vec a$。</p>
+<p>我们定义 $\lambda\bm a=\lambda(x,y)=(\lambda x,\lambda y)$。据此，我们可以得出以下向量数乘常用的结论：</p>
 <ul>
-<li><span class="arithmatex"><span class="MathJax_Preview">|\lambda\bm a|=|\lambda||\bm a|</span><script type="math/tex">|\lambda\bm a|=|\lambda||\bm a|</script></span>；</li>
-<li>当 <span class="arithmatex"><span class="MathJax_Preview">\lambda &gt;0</span><script type="math/tex">\lambda >0</script></span> 时，<span class="arithmatex"><span class="MathJax_Preview">\lambda\bm a</span><script type="math/tex">\lambda\bm a</script></span> 与 <span class="arithmatex"><span class="MathJax_Preview">\bm a</span><script type="math/tex">\bm a</script></span> 同向；</li>
-<li>当 <span class="arithmatex"><span class="MathJax_Preview">\lambda =0</span><script type="math/tex">\lambda =0</script></span> 时，<span class="arithmatex"><span class="MathJax_Preview">\lambda \bm a=\vec 0</span><script type="math/tex">\lambda \bm a=\vec 0</script></span>；</li>
-<li>当 <span class="arithmatex"><span class="MathJax_Preview">\lambda&lt;0</span><script type="math/tex">\lambda<0</script></span> 时，<span class="arithmatex"><span class="MathJax_Preview">\lambda \bm a</span><script type="math/tex">\lambda \bm a</script></span> 与 <span class="arithmatex"><span class="MathJax_Preview">\bm a</span><script type="math/tex">\bm a</script></span> 方向相反。</li>
+<li>$|\lambda\bm a|=|\lambda||\bm a|$；</li>
+<li>当 $\lambda &gt;0$ 时，$\lambda\bm a$ 与 $\bm a$ 同向；</li>
+<li>当 $\lambda =0$ 时，$\lambda \bm a=\vec 0$；</li>
+<li>当 $\lambda&lt;0$ 时，$\lambda \bm a$ 与 $\bm a$ 方向相反。</li>
 </ul>
 <p>根据数乘的定义，可以得出向量的数乘满足交换律、结合律、分配律等，即，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\lambda(\mu\bm a)=(\lambda\mu)\bm a\\
-\lambda(\bm a+\bm b)=\lambda\bm a+\lambda\bm b\\
-(\lambda+\mu)\bm a=\lambda\bm a+\mu\bm a\\
+<p>$$
+\lambda(\mu\bm a)=(\lambda\mu)\bm a\
+\lambda(\bm a+\bm b)=\lambda\bm a+\lambda\bm b\
+(\lambda+\mu)\bm a=\lambda\bm a+\mu\bm a\
 (-\lambda)\bm a=-(\lambda\bm a)=\lambda(-\bm a)
-</div>
-<script type="math/tex; mode=display">
-\lambda(\mu\bm a)=(\lambda\mu)\bm a\\
-\lambda(\bm a+\bm b)=\lambda\bm a+\lambda\bm b\\
-(\lambda+\mu)\bm a=\lambda\bm a+\mu\bm a\\
-(-\lambda)\bm a=-(\lambda\bm a)=\lambda(-\bm a)
-</script>
-</div>
+$$</p>
 <h3 id="_9">向量加法</h3>
 <p>注意，向量的数乘本质上也属于向量的线性运算，不过我把他们分开，方便理解。</p>
 <p>下面讨论向量的加法，类比的，向量的减法可以从公式入手理解。</p>
-<p>类比物理中的位移，从 <span class="arithmatex"><span class="MathJax_Preview">A</span><script type="math/tex">A</script></span> 经 <span class="arithmatex"><span class="MathJax_Preview">B</span><script type="math/tex">B</script></span> 到 <span class="arithmatex"><span class="MathJax_Preview">C</span><script type="math/tex">C</script></span>，那么经过的位移等价于直接从 <span class="arithmatex"><span class="MathJax_Preview">A</span><script type="math/tex">A</script></span> 到 <span class="arithmatex"><span class="MathJax_Preview">C</span><script type="math/tex">C</script></span>。</p>
-<p>符号表示即：<span class="arithmatex"><span class="MathJax_Preview">\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{AC}</span><script type="math/tex">\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{AC}</script></span>，其实这个也就是三角形法则所表述的。</p>
-<p>向量减法类似：<span class="arithmatex"><span class="MathJax_Preview">\overrightarrow{OA}-\overrightarrow{OB}=\overrightarrow{OA}+\overrightarrow{BO}=\overrightarrow{BA}</span><script type="math/tex">\overrightarrow{OA}-\overrightarrow{OB}=\overrightarrow{OA}+\overrightarrow{BO}=\overrightarrow{BA}</script></span>，后面用到了交换律。</p>
+<p>类比物理中的位移，从 $A$ 经 $B$ 到 $C$，那么经过的位移等价于直接从 $A$ 到 $C$。</p>
+<p>符号表示即：$\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{<abbr title="Alternating Current (交流电)">AC</abbr>}$，其实这个也就是三角形法则所表述的。</p>
+<p>向量减法类似：$\overrightarrow{OA}-\overrightarrow{OB}=\overrightarrow{OA}+\overrightarrow{BO}=\overrightarrow{BA}$，后面用到了交换律。</p>
 <p>同时，注意到力的合成法则（平行四边形法则），同样也可以看做向量的相加。</p>
 <p>因此，我们得出向量相加的两个运算法则，即三角形法则、平行四边形法则：</p>
 <ul>
@@ -127,67 +103,36 @@ y=\dfrac{y'}{\sin\theta}
 <p><img alt="alt text" src="../image-2.avif" /></p>
 <p>这样，向量的加法就具有了几何意义。并且向量的加法满足交换律与结合律。</p>
 <p>然后从几何的角度可以推出一些公式，其中三角形法则的公式比较简单，如下：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 (x_1,y_1)+(x_2,y_2)=(x_1+x_2,y_1+y_2)
-</div>
-<script type="math/tex; mode=display">
-(x_1,y_1)+(x_2,y_2)=(x_1+x_2,y_1+y_2)
-</script>
-</div>
+$$</p>
 <p>向量加法满足结合律和交换律，画图理解即可。</p>
 <p>向量加法可以导出三角形不等式，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 ||\bm a|-|\bm b||\le|\bm a+\bm b|\le|\bm a|+|\bm b|
-</div>
-<script type="math/tex; mode=display">
-||\bm a|-|\bm b||\le|\bm a+\bm b|\le|\bm a|+|\bm b|
-</script>
-</div>
+$$</p>
 <p>当且仅当两向量方向相同（注意不是平行），取等。</p>
 <h3 id="_10">线段中点</h3>
-<p>设 <span class="arithmatex"><span class="MathJax_Preview">A(x_1,y_1)</span><script type="math/tex">A(x_1,y_1)</script></span>、<span class="arithmatex"><span class="MathJax_Preview">B(x_2,y_2)</span><script type="math/tex">B(x_2,y_2)</script></span> 为一平面内两点。</p>
-<p>设 <span class="arithmatex"><span class="MathJax_Preview">C(x,y)</span><script type="math/tex">C(x,y)</script></span> 为线段 <span class="arithmatex"><span class="MathJax_Preview">AB</span><script type="math/tex">AB</script></span> 中点，则 <span class="arithmatex"><span class="MathJax_Preview">\overrightarrow{AC}=\overrightarrow{CB}</span><script type="math/tex">\overrightarrow{AC}=\overrightarrow{CB}</script></span>：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-x-x_1=x_2-x\\
+<p>设 $A(x_1,y_1)$、$B(x_2,y_2)$ 为一平面内两点。</p>
+<p>设 $C(x,y)$ 为线段 $AB$ 中点，则 $\overrightarrow{<abbr title="Alternating Current (交流电)">AC</abbr>}=\overrightarrow{CB}$：</p>
+<p>$$
+x-x_1=x_2-x\
 y-y_1=y_2-y
-</div>
-<script type="math/tex; mode=display">
-x-x_1=x_2-x\\
-y-y_1=y_2-y
-</script>
-</div>
+$$</p>
 <p>最终解得，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 C\left({x_1+x_2\over2},{y_1+y_2\over2}\right)
-</div>
-<script type="math/tex; mode=display">
-C\left({x_1+x_2\over2},{y_1+y_2\over2}\right)
-</script>
-</div>
+$$</p>
 <p>即中点坐标。</p>
 <h3 id="_11">线段长度</h3>
-<p>设 <span class="arithmatex"><span class="MathJax_Preview">A(x_1,y_1)</span><script type="math/tex">A(x_1,y_1)</script></span>、<span class="arithmatex"><span class="MathJax_Preview">B(x_2,y_2)</span><script type="math/tex">B(x_2,y_2)</script></span> 为一平面内两点，则，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-|\overrightarrow{AB}|=\sqrt{\overrightarrow{AB}\cdot\overrightarrow{AB}}=\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}
-</div>
-<script type="math/tex; mode=display">
-|\overrightarrow{AB}|=\sqrt{\overrightarrow{AB}\cdot\overrightarrow{AB}}=\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}
-</script>
-</div>
-<p>则线段 <span class="arithmatex"><span class="MathJax_Preview">AB</span><script type="math/tex">AB</script></span>，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-|AB|=|\overrightarrow{AB}|=\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}
-</div>
-<script type="math/tex; mode=display">
-|AB|=|\overrightarrow{AB}|=\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}
-</script>
-</div>
+<p>设 $A(x_1,y_1)$、$B(x_2,y_2)$ 为一平面内两点，则，</p>
+<p>$$
+|\overrightarrow{AB}|=\sqrt{\overrightarrow{AB}\cdot\overrightarrow{AB}}=\sqrt{(x_1-x_2)<sup>2+(y_1-y_2)</sup>2}
+$$</p>
+<p>则线段 $AB$，</p>
+<p>$$
+|AB|=|\overrightarrow{AB}|=\sqrt{(x_1-x_2)<sup>2+(y_1-y_2)</sup>2}
+$$</p>
 <p>即线段长度。</p>
 <h2 id="_12">向量的点积</h2>
 <h3 id="_13">点积的声明</h3>
@@ -221,335 +166,175 @@ C\left({x_1+x_2\over2},{y_1+y_2\over2}\right)
 <p>而「点积」和「叉积」是根据运算符号得来的俗称，这种俗称也很常见。</p>
 <h3 id="_14">点积的定义</h3>
 <p>提示：点积的概念对于任意维数的向量都适用。</p>
-<p>已知两个向量 <span class="arithmatex"><span class="MathJax_Preview">\bm a,\bm b</span><script type="math/tex">\bm a,\bm b</script></span> ，它们的夹角为 <span class="arithmatex"><span class="MathJax_Preview">\theta</span><script type="math/tex">\theta</script></span>，那么这两个向量的点积为：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>已知两个向量 $\bm a,\bm b$ ，它们的夹角为 $\theta$，那么这两个向量的点积为：</p>
+<p>$$
 \bm a \cdot \bm b=|\bm a||\bm b|\cos \theta
-</div>
-<script type="math/tex; mode=display">
-\bm a \cdot \bm b=|\bm a||\bm b|\cos \theta
-</script>
-</div>
+$$</p>
 <ul>
 <li>
-<p>其中，我们称 <span class="arithmatex"><span class="MathJax_Preview">|\bm a|\cos \theta</span><script type="math/tex">|\bm a|\cos \theta</script></span> 为 <span class="arithmatex"><span class="MathJax_Preview">\bm a</span><script type="math/tex">\bm a</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">\bm b</span><script type="math/tex">\bm b</script></span> 方向上的投影。</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>其中，我们称 $|\bm a|\cos \theta$ 为 $\bm a$ 在 $\bm b$ 方向上的投影。</p>
+<p>$$
 |\bm a|\cos\theta=\dfrac{\bm a\cdot\bm b}{|\bm b|}
-</div>
-<script type="math/tex; mode=display">
-|\bm a|\cos\theta=\dfrac{\bm a\cdot\bm b}{|\bm b|}
-</script>
-</div>
-<p>而投影向量需要再乘上 <span class="arithmatex"><span class="MathJax_Preview">\bm b</span><script type="math/tex">\bm b</script></span> 方向的单位向量：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>而投影向量需要再乘上 $\bm b$ 方向的单位向量：</p>
+<p>$$
 \dfrac{\bm a\cdot\bm b}{|\bm b|^2}\bm b
-</div>
-<script type="math/tex; mode=display">
-\dfrac{\bm a\cdot\bm b}{|\bm b|^2}\bm b
-</script>
-</div>
+$$</p>
 </li>
 <li>
-<p>其中，<span class="arithmatex"><span class="MathJax_Preview">\theta\in[0,\pi]</span><script type="math/tex">\theta\in[0,\pi]</script></span>，但是直线的夹角 <span class="arithmatex"><span class="MathJax_Preview">\theta\in[0,\pi)</span><script type="math/tex">\theta\in[0,\pi)</script></span>，因为相反向量是完全不同的。</p>
+<p>其中，$\theta\in[0,\pi]$，但是直线的夹角 $\theta\in[0,\pi)$，因为相反向量是完全不同的。</p>
 </li>
 </ul>
-<p>点积的几何意义即为：点积 <span class="arithmatex"><span class="MathJax_Preview">\bm a \cdot \bm b</span><script type="math/tex">\bm a \cdot \bm b</script></span> 等于 <span class="arithmatex"><span class="MathJax_Preview">\bm a</span><script type="math/tex">\bm a</script></span> 的模与 <span class="arithmatex"><span class="MathJax_Preview">\bm b</span><script type="math/tex">\bm b</script></span> 在 <span class="arithmatex"><span class="MathJax_Preview">\bm a</span><script type="math/tex">\bm a</script></span> 方向上的投影的乘积。</p>
+<p>点积的几何意义即为：点积 $\bm a \cdot \bm b$ 等于 $\bm a$ 的模与 $\bm b$ 在 $\bm a$ 方向上的投影的乘积。</p>
 <p>另外，我们定义向量点积数值上表示为（简记为先相乘再相加）：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 (x_1,y_1)\cdot(x_2,y_2)=x_1x_2+y_1y_2
-</div>
-<script type="math/tex; mode=display">
-(x_1,y_1)\cdot(x_2,y_2)=x_1x_2+y_1y_2
-</script>
-</div>
+$$</p>
 <p>可以发现，这种运算得到的结果是一个标量，并不属于向量的线性运算。</p>
-<p>向量与零向量点积，结果为 <span class="arithmatex"><span class="MathJax_Preview">\vec0</span><script type="math/tex">\vec0</script></span>。在不引起混淆的情况下，点积的点号可以省略不写。</p>
+<p>向量与零向量点积，结果为 $\vec0$。在不引起混淆的情况下，点积的点号可以省略不写。</p>
 <h3 id="_15">点积的性质</h3>
 <p>向量点乘满足交换律：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \bm a\cdot\bm b=\bm b\cdot\bm a=|\bm a|\cdot|\bm b|\cdot\cos\theta
-</div>
-<script type="math/tex; mode=display">
-\bm a\cdot\bm b=\bm b\cdot\bm a=|\bm a|\cdot|\bm b|\cdot\cos\theta
-</script>
-</div>
+$$</p>
 <p>向量点乘对数乘有结合律：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 (\lambda\bm a)\cdot\bm b=\lambda(\bm a\cdot\bm b)=\bm a\cdot(\lambda\bm b)
-</div>
-<script type="math/tex; mode=display">
-(\lambda\bm a)\cdot\bm b=\lambda(\bm a\cdot\bm b)=\bm a\cdot(\lambda\bm b)
-</script>
-</div>
+$$</p>
 <p>向量点乘对向量加法有分配率：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 (\bm a+\bm b)\cdot\bm c=\bm a\cdot\bm c+\bm b\cdot\bm c
-</div>
-<script type="math/tex; mode=display">
-(\bm a+\bm b)\cdot\bm c=\bm a\cdot\bm c+\bm b\cdot\bm c
-</script>
-</div>
+$$</p>
 <p>但是向量点乘不满足结合律，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 (\bm a\cdot\bm b)\cdot\bm c\neq\bm a\cdot(\bm b\cdot\bm c)
-</div>
-<script type="math/tex; mode=display">
-(\bm a\cdot\bm b)\cdot\bm c\neq\bm a\cdot(\bm b\cdot\bm c)
-</script>
-</div>
+$$</p>
 <p>注意到向量运算具有大部分的数字运算的性质（除了除法），因此可以当做字母计算。</p>
-<p>可以得到，若 <span class="arithmatex"><span class="MathJax_Preview">\bm b\neq\bm c</span><script type="math/tex">\bm b\neq\bm c</script></span>，<span class="arithmatex"><span class="MathJax_Preview">\bm a\cdot\bm b=\bm a\cdot\bm c</span><script type="math/tex">\bm a\cdot\bm b=\bm a\cdot\bm c</script></span> 的充要条件是 <span class="arithmatex"><span class="MathJax_Preview">\bm a\perp(\bm b-\bm c)</span><script type="math/tex">\bm a\perp(\bm b-\bm c)</script></span>，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\bm a\cdot\bm b=\bm a\cdot\bm c\\
+<p>可以得到，若 $\bm b\neq\bm c$，$\bm a\cdot\bm b=\bm a\cdot\bm c$ 的充要条件是 $\bm a\perp(\bm b-\bm c)$，</p>
+<p>$$
+\bm a\cdot\bm b=\bm a\cdot\bm c\
 \bm a\cdot(\bm b-\bm c)=\vec0
-</div>
-<script type="math/tex; mode=display">
-\bm a\cdot\bm b=\bm a\cdot\bm c\\
-\bm a\cdot(\bm b-\bm c)=\vec0
-</script>
-</div>
+$$</p>
 <p>即，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \bm a\perp(\bm b-\bm c)
-</div>
-<script type="math/tex; mode=display">
-\bm a\perp(\bm b-\bm c)
-</script>
-</div>
+$$</p>
 <p>我们可以发现，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-|\bm a+\bm b|^2-|\bm a-\bm b|^2=4\bm a\cdot\bm b\\
+<p>$$
+|\bm a+\bm b|^2-|\bm a-\bm b|^2=4\bm a\cdot\bm b\
 \bm a\cdot\bm b={1\over4}\left(|\bm a+\bm b|^2-|\bm a-\bm b|^2\right)
-</div>
-<script type="math/tex; mode=display">
-|\bm a+\bm b|^2-|\bm a-\bm b|^2=4\bm a\cdot\bm b\\
-\bm a\cdot\bm b={1\over4}\left(|\bm a+\bm b|^2-|\bm a-\bm b|^2\right)
-</script>
-</div>
+$$</p>
 <p>即极化恒等式，我们可以不通过求夹角的方式得出两向量点积。</p>
 <p>同时，常用的，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-|\bm a+\bm b|&amp;=\lambda\\
-(\bm a+\bm b)\cdot(\bm a+\bm b)&amp;=\lambda^2\\
-|\bm a|^2+2\bm a\cdot\bm b+|\bm b|^2&amp;=\lambda^2
+|\bm a+\bm b|&amp;=\lambda\
+(\bm a+\bm b)\cdot(\bm a+\bm b)&amp;=\lambda^2\
+|\bm a|^2+2\bm a\cdot\bm b+|\bm b|<sup>2&amp;=\lambda</sup>2
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-|\bm a+\bm b|&=\lambda\\
-(\bm a+\bm b)\cdot(\bm a+\bm b)&=\lambda^2\\
-|\bm a|^2+2\bm a\cdot\bm b+|\bm b|^2&=\lambda^2
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>即，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-|\bm a|^2+2\bm a\cdot\bm b+|\bm b|^2=|\bm a+\bm b|^2\\
-\bm a\cdot\bm b={1\over2}\left(|\bm a+\bm b|^2-|\bm a|^2-|\bm b|^2\right)\\
-</div>
-<script type="math/tex; mode=display">
-|\bm a|^2+2\bm a\cdot\bm b+|\bm b|^2=|\bm a+\bm b|^2\\
-\bm a\cdot\bm b={1\over2}\left(|\bm a+\bm b|^2-|\bm a|^2-|\bm b|^2\right)\\
-</script>
-</div>
+<p>$$
+|\bm a|^2+2\bm a\cdot\bm b+|\bm b|^2=|\bm a+\bm b|^2\
+\bm a\cdot\bm b={1\over2}\left(|\bm a+\bm b|^2-|\bm a|^2-|\bm b|^2\right)\
+$$</p>
 <p>总结一下，上面两个式子，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\bm a\cdot\bm b={1\over4}\left(|\bm a+\bm b|^2-|\bm a-\bm b|^2\right)\\
-\bm a\cdot\bm b={1\over2}\left(|\bm a+\bm b|^2-|\bm a|^2-|\bm b|^2\right)\\
-</div>
-<script type="math/tex; mode=display">
-\bm a\cdot\bm b={1\over4}\left(|\bm a+\bm b|^2-|\bm a-\bm b|^2\right)\\
-\bm a\cdot\bm b={1\over2}\left(|\bm a+\bm b|^2-|\bm a|^2-|\bm b|^2\right)\\
-</script>
-</div>
+<p>$$
+\bm a\cdot\bm b={1\over4}\left(|\bm a+\bm b|^2-|\bm a-\bm b|^2\right)\
+\bm a\cdot\bm b={1\over2}\left(|\bm a+\bm b|^2-|\bm a|^2-|\bm b|^2\right)\
+$$</p>
 <p>再结合点乘的定义，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\bm a\cdot\bm b=|\bm a|\cdot|\bm b|\cdot\cos\theta\\
+<p>$$
+\bm a\cdot\bm b=|\bm a|\cdot|\bm b|\cdot\cos\theta\
 \cos\theta={\bm a\cdot\bm b\over|\bm a|\cdot|\bm b|}
-</div>
-<script type="math/tex; mode=display">
-\bm a\cdot\bm b=|\bm a|\cdot|\bm b|\cdot\cos\theta\\
-\cos\theta={\bm a\cdot\bm b\over|\bm a|\cdot|\bm b|}
-</script>
-</div>
+$$</p>
 <p>就可以求出向量夹角。</p>
 <p>特殊的，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\theta=0\,(\cos\theta=1),\,\bm a\cdot\bm b=|\bm a|\cdot|\bm b|\\
-\theta=\pi\,(\cos\theta=-1),\,\bm a\cdot\bm b=-|\bm a|\cdot|\bm b|\\
-\theta=\pi/2\,(\cos\theta=0),\,\bm a\cdot\bm b=0\\
-\bm a\cdot\bm a=|\bm a|^2,\,|\bm a|=\sqrt{\bm a\cdot\bm a}\\
-</div>
-<script type="math/tex; mode=display">
-\theta=0\,(\cos\theta=1),\,\bm a\cdot\bm b=|\bm a|\cdot|\bm b|\\
-\theta=\pi\,(\cos\theta=-1),\,\bm a\cdot\bm b=-|\bm a|\cdot|\bm b|\\
-\theta=\pi/2\,(\cos\theta=0),\,\bm a\cdot\bm b=0\\
-\bm a\cdot\bm a=|\bm a|^2,\,|\bm a|=\sqrt{\bm a\cdot\bm a}\\
-</script>
-</div>
+<p>$$
+\theta=0\,(\cos\theta=1),\,\bm a\cdot\bm b=|\bm a|\cdot|\bm b|\
+\theta=\pi\,(\cos\theta=-1),\,\bm a\cdot\bm b=-|\bm a|\cdot|\bm b|\
+\theta=\pi/2\,(\cos\theta=0),\,\bm a\cdot\bm b=0\
+\bm a\cdot\bm a=|\bm a|^2,\,|\bm a|=\sqrt{\bm a\cdot\bm a}\
+$$</p>
 <p>经典的套路是，见模长便平方。</p>
 <p>其中，第三条即，垂直向量向量点积等于零。</p>
-<p>根据 <span class="arithmatex"><span class="MathJax_Preview">\cos 90^\circ=0</span><script type="math/tex">\cos 90^\circ=0</script></span>，<span class="arithmatex"><span class="MathJax_Preview">\bm a \perp \bm b \iff \bm a\cdot \bm b=0</span><script type="math/tex">\bm a \perp \bm b \iff \bm a\cdot \bm b=0</script></span>。</p>
+<p>根据 $\cos 90^\circ=0$，$\bm a \perp \bm b \iff \bm a\cdot \bm b=0$。</p>
 <h3 id="_16">柯西不等式</h3>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 |\bm a\cdot\bm b|\le|\bm a|\cdot|\bm b|
-</div>
-<script type="math/tex; mode=display">
-|\bm a\cdot\bm b|\le|\bm a|\cdot|\bm b|
-</script>
-</div>
+$$</p>
 <p>当且仅当两向量共线，取等。</p>
 <p>据此，可以判断两向量共线：</p>
-<p>两个非零向量 <span class="arithmatex"><span class="MathJax_Preview">\bm a</span><script type="math/tex">\bm a</script></span> 与 <span class="arithmatex"><span class="MathJax_Preview">\bm b</span><script type="math/tex">\bm b</script></span> 共线，等价于，有唯一实数 <span class="arithmatex"><span class="MathJax_Preview">\lambda</span><script type="math/tex">\lambda</script></span>，使得 <span class="arithmatex"><span class="MathJax_Preview">\bm b=\lambda \bm a</span><script type="math/tex">\bm b=\lambda \bm a</script></span>。</p>
-<p>由数乘的定义知，对于非零向量 <span class="arithmatex"><span class="MathJax_Preview">\bm a</span><script type="math/tex">\bm a</script></span>，如果存在实数 <span class="arithmatex"><span class="MathJax_Preview">\lambda</span><script type="math/tex">\lambda</script></span>，使得 <span class="arithmatex"><span class="MathJax_Preview">\bm b=\lambda \bm a</span><script type="math/tex">\bm b=\lambda \bm a</script></span>，那么 <span class="arithmatex"><span class="MathJax_Preview">\bm a \parallel \bm b</span><script type="math/tex">\bm a \parallel \bm b</script></span>。</p>
-<p>数值上，有判别式 <span class="arithmatex"><span class="MathJax_Preview">\bm a = \lambda \bm b \iff |\bm a\cdot \bm b|=|\bm a||\bm b|</span><script type="math/tex">\bm a = \lambda \bm b \iff |\bm a\cdot \bm b|=|\bm a||\bm b|</script></span>。</p>
+<p>两个非零向量 $\bm a$ 与 $\bm b$ 共线，等价于，有唯一实数 $\lambda$，使得 $\bm b=\lambda \bm a$。</p>
+<p>由数乘的定义知，对于非零向量 $\bm a$，如果存在实数 $\lambda$，使得 $\bm b=\lambda \bm a$，那么 $\bm a \parallel \bm b$。</p>
+<p>数值上，有判别式 $\bm a = \lambda \bm b \iff |\bm a\cdot \bm b|=|\bm a||\bm b|$。</p>
 <h3 id="_17">极化恒等式</h3>
-<p>对于任意平面向量 <span class="arithmatex"><span class="MathJax_Preview">\vec a,\vec b</span><script type="math/tex">\vec a,\vec b</script></span> 有：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>对于任意平面向量 $\vec a,\vec b$ 有：</p>
+<p>$$
 4\vec a\cdot\vec b=(\vec a+\vec b)^2-(\vec a-\vec b)^2
-</div>
-<script type="math/tex; mode=display">
-4\vec a\cdot\vec b=(\vec a+\vec b)^2-(\vec a-\vec b)^2
-</script>
-</div>
+$$</p>
 <p>常见形式为：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\vecc{PA}\cdot\vecc{PB}=|PM|^2-\dfrac{1}{4}|AB|^2
-</div>
-<script type="math/tex; mode=display">
-\vecc{PA}\cdot\vecc{PB}=|PM|^2-\dfrac{1}{4}|AB|^2
-</script>
-</div>
-<p>其中 <span class="arithmatex"><span class="MathJax_Preview">M</span><script type="math/tex">M</script></span> 为 <span class="arithmatex"><span class="MathJax_Preview">AB</span><script type="math/tex">AB</script></span> 中点。</p>
+<p>$$
+\vecc{PA}\cdot\vecc{PB}=|PM|<sup>2-\dfrac{1}{4}|AB|</sup>2
+$$</p>
+<p>其中 $M$ 为 $AB$ 中点。</p>
 <h2 id="_18">基底分解</h2>
 <h3 id="_19">平面向量基本定理</h3>
-<p>若基底 <span class="arithmatex"><span class="MathJax_Preview">\bm e_1,\bm e_2</span><script type="math/tex">\bm e_1,\bm e_2</script></span> 不共线，则对于平面内任一向量 <span class="arithmatex"><span class="MathJax_Preview">\bm a</span><script type="math/tex">\bm a</script></span>，存在唯一实数 <span class="arithmatex"><span class="MathJax_Preview">x,y</span><script type="math/tex">x,y</script></span> 使得 <span class="arithmatex"><span class="MathJax_Preview">\bm a=x\bm e_1+y\bm e_2</span><script type="math/tex">\bm a=x\bm e_1+y\bm e_2</script></span>。</p>
+<p>若基底 $\bm e_1,\bm e_2$ 不共线，则对于平面内任一向量 $\bm a$，存在唯一实数 $x,y$ 使得 $\bm a=x\bm e_1+y\bm e_2$。</p>
 <p>形式化的，平面内的任一向量都可以唯一的表示为两个不共线向量的线性组合。</p>
 <p>存在性的证明：感性理解（雾</p>
-<p>唯一性的证明，反证：假设存在两组实数 <span class="arithmatex"><span class="MathJax_Preview">\langle x_1,y_1\rangle</span><script type="math/tex">\langle x_1,y_1\rangle</script></span>、<span class="arithmatex"><span class="MathJax_Preview">\langle x_2,y_2\rangle</span><script type="math/tex">\langle x_2,y_2\rangle</script></span>，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\bm a=x_1\bm e_1+y_1\bm e_2=x_2\bm e_1+y_2\bm e_2\\
+<p>唯一性的证明，反证：假设存在两组实数 $\langle x_1,y_1\rangle$、$\langle x_2,y_2\rangle$，</p>
+<p>$$
+\bm a=x_1\bm e_1+y_1\bm e_2=x_2\bm e_1+y_2\bm e_2\
 \bm e_1(x_1-x_2)=\bm e_2(y_2-y_1)
-</div>
-<script type="math/tex; mode=display">
-\bm a=x_1\bm e_1+y_1\bm e_2=x_2\bm e_1+y_2\bm e_2\\
-\bm e_1(x_1-x_2)=\bm e_2(y_2-y_1)
-</script>
-</div>
-<p>因为 <span class="arithmatex"><span class="MathJax_Preview">x_1\neq x_2,y_1\neq y_2</span><script type="math/tex">x_1\neq x_2,y_1\neq y_2</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">\bm e_1,\bm e_2</span><script type="math/tex">\bm e_1,\bm e_2</script></span> 共线，与条件不符，因此存在唯一性。</p>
+$$</p>
+<p>因为 $x_1\neq x_2,y_1\neq y_2$，则 $\bm e_1,\bm e_2$ 共线，与条件不符，因此存在唯一性。</p>
 <p>考虑构造性的证明，</p>
 <p>若，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\bm a\cdot\bm e_1=a_1,\,\bm a\cdot\bm e_2=a_2\\
+<p>$$
+\bm a\cdot\bm e_1=a_1,\,\bm a\cdot\bm e_2=a_2\
 \langle\bm e_1,\bm e_2\rangle=\theta
-</div>
-<script type="math/tex; mode=display">
-\bm a\cdot\bm e_1=a_1,\,\bm a\cdot\bm e_2=a_2\\
-\langle\bm e_1,\bm e_2\rangle=\theta
-</script>
-</div>
-<p>设，<span class="arithmatex"><span class="MathJax_Preview">\bm a=x\bm e_1+y\bm e_2</span><script type="math/tex">\bm a=x\bm e_1+y\bm e_2</script></span>，用 <span class="arithmatex"><span class="MathJax_Preview">a_1,a_2,\theta</span><script type="math/tex">a_1,a_2,\theta</script></span> 表示 <span class="arithmatex"><span class="MathJax_Preview">\bm a</span><script type="math/tex">\bm a</script></span>。</p>
+$$</p>
+<p>设，$\bm a=x\bm e_1+y\bm e_2$，用 $a_1,a_2,\theta$ 表示 $\bm a$。</p>
 <p>考虑，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\bm e_1\bm e_2=\cos\theta\\
-\bm a\cdot\bm e_1=x+y\bm e_1\bm e_2=a_1\\
+<p>$$
+\bm e_1\bm e_2=\cos\theta\
+\bm a\cdot\bm e_1=x+y\bm e_1\bm e_2=a_1\
 \bm a\cdot\bm e_2=y+x\bm e_1\bm e_2=a_2
-</div>
-<script type="math/tex; mode=display">
-\bm e_1\bm e_2=\cos\theta\\
-\bm a\cdot\bm e_1=x+y\bm e_1\bm e_2=a_1\\
-\bm a\cdot\bm e_2=y+x\bm e_1\bm e_2=a_2
-</script>
-</div>
+$$</p>
 <p>列出方程组，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{cases}
-x+y\cos\theta=a_1\\
+x+y\cos\theta=a_1\
 y+x\cos\theta=a_2
 \end{cases}
-</div>
-<script type="math/tex; mode=display">
-\begin{cases}
-x+y\cos\theta=a_1\\
-y+x\cos\theta=a_2
-\end{cases}
-</script>
-</div>
+$$</p>
 <p>解得，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\left\{\begin{aligned}
-x={a_1-a_2\cos\theta\over\sin^2\theta}\\
+<p>$$
+\left{\begin{aligned}
+x={a_1-a_2\cos\theta\over\sin^2\theta}\
 y={a_2-a_1\cos\theta\over\sin^2\theta}
 \end{aligned}\right.
-</div>
-<script type="math/tex; mode=display">
-\left\{\begin{aligned}
-x={a_1-a_2\cos\theta\over\sin^2\theta}\\
-y={a_2-a_1\cos\theta\over\sin^2\theta}
-\end{aligned}\right.
-</script>
-</div>
+$$</p>
 <p>这个思想很重要，常用一个很奇怪的式子，去点乘两个不共线向量。</p>
 <h3 id="_20">共线向量基本定理</h3>
-<p>对于线段 <span class="arithmatex"><span class="MathJax_Preview">AB</span><script type="math/tex">AB</script></span> 及一点 <span class="arithmatex"><span class="MathJax_Preview">Q</span><script type="math/tex">Q</script></span>，若存在一点 <span class="arithmatex"><span class="MathJax_Preview">O</span><script type="math/tex">O</script></span> 满足，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>对于线段 $AB$ 及一点 $Q$，若存在一点 $O$ 满足，</p>
+<p>$$
 \overrightarrow{OQ}=\lambda\overrightarrow{OA}+(1-\lambda)\overrightarrow{OB}
-</div>
-<script type="math/tex; mode=display">
-\overrightarrow{OQ}=\lambda\overrightarrow{OA}+(1-\lambda)\overrightarrow{OB}
-</script>
-</div>
-<p>则 <span class="arithmatex"><span class="MathJax_Preview">Q</span><script type="math/tex">Q</script></span> 在直线 <span class="arithmatex"><span class="MathJax_Preview">AB</span><script type="math/tex">AB</script></span> 上，即 <span class="arithmatex"><span class="MathJax_Preview">A,B,Q</span><script type="math/tex">A,B,Q</script></span> 三点共线。</p>
+$$</p>
+<p>则 $Q$ 在直线 $AB$ 上，即 $A,B,Q$ 三点共线。</p>
 <p>证明如下：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-\vecc{AQ}&amp;=\lambda\vecc{AB}\\
+\vecc{AQ}&amp;=\lambda\vecc{AB}\
 \vecc{OQ}-\vecc{OA}&amp;=\lambda(\vecc{OB}-\vecc{OA})
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-\vecc{AQ}&=\lambda\vecc{AB}\\
-\vecc{OQ}-\vecc{OA}&=\lambda(\vecc{OB}-\vecc{OA})
-\end{aligned}
-</script>
-</div>
-<p>类似的，若 <span class="arithmatex"><span class="MathJax_Preview">C</span><script type="math/tex">C</script></span> 是线段 <span class="arithmatex"><span class="MathJax_Preview">AB</span><script type="math/tex">AB</script></span> 中点，则对于任意一点 <span class="arithmatex"><span class="MathJax_Preview">O</span><script type="math/tex">O</script></span>，有，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>类似的，若 $C$ 是线段 $AB$ 中点，则对于任意一点 $O$，有，</p>
+<p>$$
 \overrightarrow{OC}={1\over2}\overrightarrow{OA}+{1\over2}\overrightarrow{OB}
-</div>
-<script type="math/tex; mode=display">
-\overrightarrow{OC}={1\over2}\overrightarrow{OA}+{1\over2}\overrightarrow{OB}
-</script>
-</div>
-<p>而坐标表示，<span class="arithmatex"><span class="MathJax_Preview">(a,b)</span><script type="math/tex">(a,b)</script></span> 与 <span class="arithmatex"><span class="MathJax_Preview">(c,d)</span><script type="math/tex">(c,d)</script></span> 平行，等价于 <span class="arithmatex"><span class="MathJax_Preview">ad=bc</span><script type="math/tex">ad=bc</script></span>。</p>
+$$</p>
+<p>而坐标表示，$(a,b)$ 与 $(c,d)$ 平行，等价于 $ad=bc$。</p>
 <h3 id="_21">等系数和线</h3>
 <p><img alt="等系数和线" src="../%E7%AD%89%E7%B3%BB%E6%95%B0%E5%92%8C%E7%BA%BF.avif" width="100%" /></p>
 <p>证明过程：</p>

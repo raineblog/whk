@@ -14,13 +14,13 @@
 
 - 带有电荷的物质称为**带电物质**，带有电荷的粒子称为**带电粒子**。
 
-电荷量的国际单位是库仑（[]{.arithmatex}$\text C$），通常用符号 []{.arithmatex}$Q$ 表示。
+电荷量的国际单位是库仑（\$\text C\$），通常用符号 \$Q\$ 表示。
 
-**元电荷**（也成基本电荷）：基本电荷 []{.arithmatex}$e$ 是一个质子所带的**电荷量**，或一个电子所带的负**电荷量**。其中 []{.arithmatex}$e\approx 1.602\times 10^{-19}\text C$，一个电子携带的电荷量为 []{.arithmatex}$-e$。
+**元电荷**（也成基本电荷）：基本电荷 \$e\$ 是一个质子所带的**电荷量**，或一个电子所带的负**电荷量**。其中 \$e\approx 1.602\times 10\^{-19}\text C\$，一个电子携带的电荷量为 \$-e\$。
 
-为什么是小数？历史上，安培（电流强度）是先于库仑定义的，最初的库伦定义就是**安培秒**，即 []{.arithmatex}$1$ 库仑是 []{.arithmatex}$1$ 安培电流在 []{.arithmatex}$1$ 秒钟内传递的电荷，表示为 []{.arithmatex}$1\text C=1\mathrm{A\cdot s}$ 或 []{.arithmatex}$1\text C=1\text{A}\times1\text{s}$，而旧的安培定义为「在相距 []{.arithmatex}$1$ 米的两条平行导线间，产生每米 []{.arithmatex}$0.2$ 微牛顿的磁力所需的电流」。
+为什么是小数？历史上，安培（电流强度）是先于库仑定义的，最初的库伦定义就是**安培秒**，即 \$1\$ 库仑是 \$1\$ 安培电流在 \$1\$ 秒钟内传递的电荷，表示为 \$1\text C=1\mathrm{A\cdot s}\$ 或 \$1\text C=1\text{A}\times1\text{s}\$，而旧的安培定义为「在相距 \$1\$ 米的两条平行导线间，产生每米 \$0.2\$ 微牛顿的磁力所需的电流」。
 
-比荷、比电荷（又称荷质比）：即带电物体所带电荷比上其质量，电子比荷约为 []{.arithmatex}$1.758820024(11)\times 10^{11}\mathrm{C/kg}$，质子的比荷约为 []{.arithmatex}$9.578309\times 10^7\mathrm{C/kg}$。
+比荷、比电荷（又称荷质比）：即带电物体所带电荷比上其质量，电子比荷约为 \$1.758820024(11)\times 10\^{11}\mathrm{C/kg}\$，质子的比荷约为 \$9.578309\times 10\^7\mathrm{C/kg}\$。
 
 ::: {.admonition .note}
 电荷的总量和电量（电荷量）
@@ -56,7 +56,7 @@
 
 ### 电荷量子化 {#_5}
 
-电荷必须依赖载流子存在，一个载流子的电量绝对值为 []{.arithmatex}$e$，因此任何物体（夸克的分数电荷作为例外）的电量都是 []{.arithmatex}$e$ 的整数倍。
+电荷必须依赖载流子存在，一个载流子的电量绝对值为 \$e\$，因此任何物体（夸克的分数电荷作为例外）的电量都是 \$e\$ 的整数倍。
 
 也就是说，物体所带电荷量不可能连续地取任意量值，而只能取电子或质子电荷量的整数倍值。电荷量的这种只能取分立的、不连续量值的性质，称为电荷的量子化。
 
@@ -96,95 +96,47 @@
 
 库仑证明两带电体间有相互作用力，且其定量关系可以方程表示。库仑定律的标量形式可以表示为：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-F\_{库}=k\dfrac{Q_1Q_2}{r\^2}
-:::
+\$\$ F\_{库}=k\dfrac{Q_1Q_2}{r\^2} \$\$
 
-$$F_{库}=k\dfrac{Q_1Q_2}{r^2}$$
-::::
+理论上 \$Q\$ 应该带正负号，但是如果列标量方程，一般不带入正负号，表示库仑力的大小。
 
-理论上 []{.arithmatex}$Q$ 应该带正负号，但是如果列标量方程，一般不带入正负号，表示库仑力的大小。
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\bm F=k\dfrac{Q_1Q_2}{r_2}\hat{\bm r}
-:::
-
-$$\bm F=k\dfrac{Q_1Q_2}{r_2}\hat{\bm r}$$
-::::
+\$\$ \bm F=k\dfrac{Q_1Q_2}{r_2}\hat{\bm r} \$\$
 
 库仑定律适用范围：场源电荷静止​、点电荷；库仑力是可以叠加的，但是我们会在电场叠加处再讲。
 
 库仑定律不适用于场源电荷相对观测者运动的情形，对试探电荷运动或静止的情形没有要求。
 
-当两带电体之间的距离相对于两带电体的半径（考虑近似成球体）很大时，我们才能将两带电体看作点电荷：设两带电体距离为 []{.arithmatex}$r$，两带电体半径分别为 []{.arithmatex}$R$，必须有 []{.arithmatex}$r\gg R$。
+当两带电体之间的距离相对于两带电体的半径（考虑近似成球体）很大时，我们才能将两带电体看作点电荷：设两带电体距离为 \$r\$，两带电体半径分别为 \$R\$，必须有 \$r\gg R\$。
 
 一般情况下微观粒子的大小都远远小于彼此之间的距离，因此微观粒子在计算静电力时一般都可以看做点电荷。
 
-正因如此，[]{.arithmatex}$r\to0$ 时静电力趋于无穷大这种说法是错误的，两带电体不能看成点电荷（两球体之间相距过近时，两球内部的电量分布会影响静电力的大小），此时库仑定律已不再适用。
+正因如此，\$r\to0\$ 时静电力趋于无穷大这种说法是错误的，两带电体不能看成点电荷（两球体之间相距过近时，两球内部的电量分布会影响静电力的大小），此时库仑定律已不再适用。
 
 ### 介电常数 {#_12}
 
 在真空中，有公式：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-k_e=\dfrac{1}{4\pi\varepsilon_0}=\dfrac{c_0\^2\mu_0}{4\pi}=c_0\^2\times10\^{-7}\mathrm{H/m}
-:::
+\$\$ k_e=\dfrac{1}{4\pi\varepsilon_0}=\dfrac{c_0^2\mu_0}{4\pi}=c_0^2\times10\^{-7}\mathrm{H/m} \$\$
 
-$$k_e=\dfrac{1}{4\pi\varepsilon_0}=\dfrac{c_0^2\mu_0}{4\pi}=c_0^2\times10^{-7}\mathrm{H/m}$$
-::::
+其中 \$c_0\$ 表示光速，\$\varepsilon_0\$ 为介电常数，因此：
 
-其中 []{.arithmatex}$c_0$ 表示光速，[]{.arithmatex}$\varepsilon_0$ 为介电常数，因此：
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-k_e\approx9\times10\^9\\ \mathrm{Nm\^2C\^{-2}}
-:::
-
-$$k_e\approx9\times10^9\ \mathrm{Nm^2C^{-2}}$$
-::::
+\$\$ k_e\approx9\times10^9 \mathrm{Nm^2C\^{-2}} \$\$
 
 这个数是很大的。
 
-介质极化后，束缚电荷也要产生电场，该电场与外电场的方向相反，两电场叠加的结果是介质内部的电场减弱。在真空中场强为 []{.arithmatex}$E_0$ 的区域内充满电介质后，场强会减小到 []{.arithmatex}$E$，其比值就叫这种电介质的介电常数（亦称相对介电常数），用 []{.arithmatex}$\varepsilon$ 表示：
+介质极化后，束缚电荷也要产生电场，该电场与外电场的方向相反，两电场叠加的结果是介质内部的电场减弱。在真空中场强为 \$E_0\$ 的区域内充满电介质后，场强会减小到 \$E\$，其比值就叫这种电介质的介电常数（亦称相对介电常数），用 \$\varepsilon\$ 表示：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\varepsilon=\dfrac{E_0}{E}
-:::
+\$\$ \varepsilon=\dfrac{E_0}{E} \$\$
 
-$$\varepsilon=\dfrac{E_0}{E}$$
-::::
-
-显然，真空的介电常数 []{.arithmatex}$\varepsilon_0=1$，而空气的非常接近 []{.arithmatex}$1$（可以看做真空），而水中可以达到约 []{.arithmatex}$80$。
+显然，真空的介电常数 \$\varepsilon_0=1\$，而空气的非常接近 \$1\$（可以看做真空），而水中可以达到约 \$80\$。
 
 因此，电介质中的库仑定律及点电荷的场强公式和电势的公式分别为：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-F=k\dfrac{q_1q_2}{\varepsilon r\^2}
-:::
+\$\$ F=k\dfrac{q_1q_2}{\varepsilon r\^2} \$\$
 
-$$F=k\dfrac{q_1q_2}{\varepsilon r^2}$$
-::::
+\$\$ E=k\dfrac{Q}{\varepsilon r\^2} \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-E=k\dfrac{Q}{\varepsilon r\^2}
-:::
-
-$$E=k\dfrac{Q}{\varepsilon r^2}$$
-::::
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-U=k\dfrac{Q}{\varepsilon r}
-:::
-
-$$U=k\dfrac{Q}{\varepsilon r}$$
-::::
+\$\$ U=k\dfrac{Q}{\varepsilon r} \$\$
 
 ### 带电金属球 {#_13}
 
@@ -192,11 +144,11 @@ $$U=k\dfrac{Q}{\varepsilon r}$$
 
 两个不可以忽略大小的带电金属球靠近，因为感应起电，电荷在球内的分布不均，因此实际作用力与库仑定律不同，但是存在大小结论：
 
-- 设 []{.arithmatex}$F_0$ 表示球心等价点电荷的库仑力。
-- 若两球电性相同，则 []{.arithmatex}$F<F_0$；
-- 若两球电性不同，则 []{.arithmatex}$F>F_0$。
+- 设 \$F_0\$ 表示球心等价点电荷的库仑力。
+- 若两球电性相同，则 \$F\<F_0\$；
+- 若两球电性不同，则 \$F\>F_0\$。
 
-理解方式，本来提供库仑力的电荷因为感应，存在有相互远离或靠近的趋势。不考虑球内电荷的相互作用力变化，根据库仑力与 []{.arithmatex}$r$ 的平方成反比，可以得出上述结论。
+理解方式，本来提供库仑力的电荷因为感应，存在有相互远离或靠近的趋势。不考虑球内电荷的相互作用力变化，根据库仑力与 \$r\$ 的平方成反比，可以得出上述结论。
 
 ### 三点一线平衡 {#_14}
 
@@ -206,33 +158,15 @@ $$U=k\dfrac{Q}{\varepsilon r}$$
 
 - 带电正负为两同夹异，带电量为两大夹小、近小远大。
 
-公式表达：一条直线上一次有电荷量为 []{.arithmatex}$q_1,q_2,q_3$ 的点电荷，其间距分别为 []{.arithmatex}$\ell_1,\ell_2$，若三点电荷平衡：
+公式表达：一条直线上一次有电荷量为 \$q_1,q_2,q_3\$ 的点电荷，其间距分别为 \$\ell_1,\ell_2\$，若三点电荷平衡：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\dfrac{1}{\sqrt{q_2}}=\dfrac{1}{\sqrt{q_1}}+\dfrac{1}{\sqrt{q_3}}
-:::
+\$\$ \dfrac{1}{\sqrt{q_2}}=\dfrac{1}{\sqrt{q_1}}+\dfrac{1}{\sqrt{q_3}} \$\$
 
-$$\dfrac{1}{\sqrt{q_2}}=\dfrac{1}{\sqrt{q_1}}+\dfrac{1}{\sqrt{q_3}}$$
-::::
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-q_1:q_2:q_3=\ell_1\^2:\dfrac{\ell_1\^2\ell_2\^2}{\ell_1\^2+\ell_2\^2}:\ell_2\^2
-:::
-
-$$q_1:q_2:q_3=\ell_1^2:\dfrac{\ell_1^2\ell_2^2}{\ell_1^2+\ell_2^2}:\ell_2^2$$
-::::
+\$\$ q_1:q_2:q_3=\ell_1^2:\dfrac{\ell_1^2\ell_2^2}{\ell_1^2+\ell_2^2}:\ell_2^2 \$\$
 
 其中上面的式子可以化为
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\sqrt{q_1q_3}=\sqrt{q_1q_2}+\sqrt{q_2q_3}
-:::
-
-$$\sqrt{q_1q_3}=\sqrt{q_1q_2}+\sqrt{q_2q_3}$$
-::::
+\$\$ \sqrt{q_1q_3}=\sqrt{q_1q_2}+\sqrt{q_2q_3} \$\$
 
 的形式。
 
@@ -242,31 +176,19 @@ $$\sqrt{q_1q_3}=\sqrt{q_1q_2}+\sqrt{q_2q_3}$$
 
 ![alt text](../image.avif){width="80%"}
 
-形成等边三角形后，按照 []{.arithmatex}$1:1:2$ 的关系，库仑力等大同向，此时给一个匀强电场即可平衡。
+形成等边三角形后，按照 \$1:1:2\$ 的关系，库仑力等大同向，此时给一个匀强电场即可平衡。
 
 证明：暴力展开。
 
 ### 原子核问题 {#_16}
 
-已知氢核（质子）的质量为 []{.arithmatex}$1.67\times10^{-27}\pu{kg}$，电子的质量为 []{.arithmatex}$9.1\times10^{-31}\pu{kg}$，在氢原子内它们之间的最短距离为 []{.arithmatex}$5.3\times10^{-11}\pu{m}$。试比较氢核和核外电子之间的库仑力和万有引力。
+已知氢核（质子）的质量为 \$1.67\times10\^{-27}\pu{kg}\$，电子的质量为 \$9.1\times10\^{-31}\pu{kg}\$，在氢原子内它们之间的最短距离为 \$5.3\times10\^{-11}\pu{m}\$。试比较氢核和核外电子之间的库仑力和万有引力。
 
-氢核和电子所带的电量都是 []{.arithmatex}$1.6\times10^{-19}\pu{C}$。
+氢核和电子所带的电量都是 \$1.6\times10\^{-19}\pu{C}\$。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-F\_{\text{库}} = k \frac{q_1 q_2}{r\^2} = 8.2 \times 10\^{-8}(\pu{N})
-:::
+\$\$ F\_{\text{库}} = k \frac{q_1 q_2}{r\^2} = 8.2 \times 10\^{-8}(\pu{N}) \$\$
 
-$$F_{\text{库}} = k \frac{q_1 q_2}{r^2} = 8.2 \times 10^{-8}(\pu{N})$$
-::::
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-F\_{\text{引}} = G \frac{m_1 m_2}{r\^2} = 3.6 \times 10\^{-47}(\pu{N})
-:::
-
-$$F_{\text{引}} = G \frac{m_1 m_2}{r^2} = 3.6 \times 10^{-47}(\pu{N})$$
-::::
+\$\$ F\_{\text{引}} = G \frac{m_1 m_2}{r\^2} = 3.6 \times 10\^{-47}(\pu{N}) \$\$
 
 与量子物理部分不同，高中常常以原子核内中子、质子为多个点电荷（称为夸克）叠加为命题点，了解即可。
 
@@ -295,7 +217,7 @@ $$F_{\text{引}} = G \frac{m_1 m_2}{r^2} = 3.6 \times 10^{-47}(\pu{N})$$
 
 接触起电：发生在导体中，形如电荷量中和和平分，应用验电器。
 
-即 []{.arithmatex}$q_1+q_2\to(q_1+q_2)/2+(q_1+q_2)/2$ 的公式表达。
+即 \$q_1+q_2\to(q_1+q_2)/2+(q_1+q_2)/2\$ 的公式表达。
 
 注意到这是符合电荷守恒定律的。
 
@@ -325,12 +247,12 @@ $$F_{\text{引}} = G \frac{m_1 m_2}{r^2} = 3.6 \times 10^{-47}(\pu{N})$$
 
 ### 接地加感应起电 {#_21}
 
-感应起电接地模型：基础模型题目描述形如，带电物体 []{.arithmatex}$\text C$ 靠近枕形导体 []{.arithmatex}$\text{AB}$ 的 []{.arithmatex}$\text A$ 端，将导体 []{.arithmatex}$\mathrm{A/B}$ 端接地（或者用手触碰一下），然后拿开或不拿开 []{.arithmatex}$\text{C}$，问导体 []{.arithmatex}$\mathrm{A},\text{B}$ 两端分别带什么电荷。
+感应起电接地模型：基础模型题目描述形如，带电物体 \$\text C\$ 靠近枕形导体 \$\text{AB}\$ 的 \$\text A\$ 端，将导体 \$\mathrm{A/B}\$ 端接地（或者用手触碰一下），然后拿开或不拿开 \$\text{C}\$，问导体 \$\mathrm{A},\text{B}\$ 两端分别带什么电荷。
 
 性质：导体任意一端接地，效果相同。  
 解释：因为是导体，所以电荷自由移动，完全不需要考虑导体的两端的差异。
 
-性质：如果拿开 []{.arithmatex}$\text{C}$，则导体两端电荷相同。  
+性质：如果拿开 \$\text{C}\$，则导体两端电荷相同。  
 解释：显然。
 
 <figure>
@@ -338,24 +260,24 @@ $$F_{\text{引}} = G \frac{m_1 m_2}{r^2} = 3.6 \times 10^{-47}(\pu{N})$$
 <thead>
 <tr>
 <th style="text-align: center;"></th>
-<th style="text-align: center;">导体 <span class="arithmatex"></span><span class="math inline">$\text A$</span> 端</th>
-<th style="text-align: center;">导体 <span class="arithmatex"></span><span class="math inline">$\text B$</span> 端</th>
+<th style="text-align: center;">导体 $\text A$ 端</th>
+<th style="text-align: center;">导体 $\text B$ 端</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;">移开 <span class="arithmatex"></span><span class="math inline">C</span> 物体</td>
+<td style="text-align: center;">移开 $\text{C}$ 物体</td>
 <td style="text-align: center;">负电荷</td>
 <td style="text-align: center;">负电荷</td>
 </tr>
 <tr>
-<td style="text-align: center;">不移开 <span class="arithmatex"></span><span class="math inline">C</span> 物体</td>
+<td style="text-align: center;">不移开 $\text{C}$ 物体</td>
 <td style="text-align: center;">负电荷</td>
 <td style="text-align: center;">不带电</td>
 </tr>
 </tbody>
 </table>
-<figcaption><p>假设 <span class="arithmatex"></span><span class="math inline"><em>C</em></span> 带正点，且移开物体 <span class="arithmatex"></span><span class="math inline"><em>C</em></span> 前已经停止接地</p></figcaption>
+<figcaption><p>假设 ${C}$ 带正点，且移开物体 ${C}$ 前已经停止接地</p></figcaption>
 </figure>
 
 性质：靠近电荷的一段感应起电，远离电荷的一端不带电。  
@@ -419,7 +341,7 @@ $$F_{\text{引}} = G \frac{m_1 m_2}{r^2} = 3.6 \times 10^{-47}(\pu{N})$$
 
 等离子体（又称电浆、电离浆、等离体），是物质状态之一，是物质的高能状态。通俗的说，等离子体就是电离的气体。比较严格的定义是：等离子体是由电子、阳离子和中性粒子组成的整体上呈电中性的物质集合。等离子体可以被看成是由一群粒子所组成的系统，因此在数学上可以用统计的方式来研究，其形状和体积不固定，会依着容器而改变。
 
-宇宙中充斥着各种各样的等离子体，是其最常见的物质相态，亦可以经由对处于其他相态的物质的加工取得。等离子体是宇宙重子物质最常见的形态，其中大部分存在于稀薄的星系际空间（特别是星系团内介质）和恒星之中。地球大气离地表 []{.arithmatex}$300$ 公里的电离层也是处于等离子态，电离层是地球大气较外层的气体吸收了太阳辐射能量，发生光致游离而形成。
+宇宙中充斥着各种各样的等离子体，是其最常见的物质相态，亦可以经由对处于其他相态的物质的加工取得。等离子体是宇宙重子物质最常见的形态，其中大部分存在于稀薄的星系际空间（特别是星系团内介质）和恒星之中。地球大气离地表 \$300\$ 公里的电离层也是处于等离子态，电离层是地球大气较外层的气体吸收了太阳辐射能量，发生光致游离而形成。
 
 ### 离子化过程 {#_27}
 
@@ -461,11 +383,11 @@ $$F_{\text{引}} = G \frac{m_1 m_2}{r^2} = 3.6 \times 10^{-47}(\pu{N})$$
 
 | 静电发生情境 | 相对湿度 10-25%^[1](#fn:noteesda){.footnote-ref}^ | 相对湿度 65-90%^[1](#fn:noteesda){.footnote-ref}^ |
 |:--:|:--:|:--:|
-| 行走在地毯上 | []{.arithmatex}$\pu{35,000V}$ | []{.arithmatex}$\pu{1,500V}$ |
-| 行走在塑料地板 | []{.arithmatex}$\pu{12,000V}$ | []{.arithmatex}$\pu{250V}$ |
-| 在工作台边工作 | []{.arithmatex}$\pu{6,000V}$ | []{.arithmatex}$\pu{100V}$ |
-| 从工作台拿起塑料袋 | []{.arithmatex}$\pu{20,000V}$ | []{.arithmatex}$\pu{1,200V}$ |
-| 发泡胶椅 | []{.arithmatex}$\pu{18,000V}$ | []{.arithmatex}$\pu{1,500V}$ |
+| 行走在地毯上 | \$\pu{35,000V}\$ | \$\pu{1,500V}\$ |
+| 行走在塑料地板 | \$\pu{12,000V}\$ | \$\pu{250V}\$ |
+| 在工作台边工作 | \$\pu{6,000V}\$ | \$\pu{100V}\$ |
+| 从工作台拿起塑料袋 | \$\pu{20,000V}\$ | \$\pu{1,200V}\$ |
+| 发泡胶椅 | \$\pu{18,000V}\$ | \$\pu{1,500V}\$ |
 
 电击穿：当加在某一绝缘介质上的电压高于过一定程度（击穿电压）后，这时绝缘介质会发生突崩溃而使其电阻迅速下降，继而使得一部分绝缘介质变为导体。不同介质的击穿电压一般是不同的。
 

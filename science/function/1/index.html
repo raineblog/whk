@@ -4,484 +4,275 @@
   <h1 id="_1">简单函数</h1>
 <h2 id="_2">函数的概念</h2>
 <h3 id="_3">定义</h3>
-<p>函数是一个定义域 <span class="arithmatex"><span class="MathJax_Preview">A</span><script type="math/tex">A</script></span> 到值域 <span class="arithmatex"><span class="MathJax_Preview">B</span><script type="math/tex">B</script></span> 的映射关系，函数的定义域和值域是一个集合，对于定义域内的每一个数，有且仅有值域内的一个数与之对应，记为 <span class="arithmatex"><span class="MathJax_Preview">f:A\to B</span><script type="math/tex">f:A\to B</script></span>。</p>
+<p>函数是一个定义域 $A$ 到值域 $B$ 的映射关系，函数的定义域和值域是一个集合，对于定义域内的每一个数，有且仅有值域内的一个数与之对应，记为 $f:A\to B$。</p>
 <p>注意，定义域的是所有函数值的集合，是陪域的一个子集，严格来说函数是定义域到陪域的映射关系，只是陪域内的数，不一定是有效的函数值，只有值域内的数才是有效的函数值。</p>
 <ol>
 <li>函数的定义域就是能使解析式有意义的所有实数勿的集合，自然定义域是式子本身所要求的定义域。</li>
 <li>不要轻易对解析式进行化简变形，以免定义域发生变化。</li>
 <li>当一个函数由两个或两个以上代数式的和、差、积、商的形式构成时，定义域是使得各式子都有意义的公共部分、且（若有）分式有意义的集合。</li>
 </ol>
-<p>复合函数：如果 <span class="arithmatex"><span class="MathJax_Preview">g</span><script type="math/tex">g</script></span> 的值域为 <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> 的定义域的子集，那么定义 <span class="arithmatex"><span class="MathJax_Preview">y=(f\circ g)(x)=f(g(x))</span><script type="math/tex">y=(f\circ g)(x)=f(g(x))</script></span>。</p>
+<p>复合函数：如果 $g$ 的值域为 $f$ 的定义域的子集，那么定义 $y=(f\circ g)(x)=f(g(x))$。</p>
 <h3 id="_4">解析式</h3>
-<p>已知函数 <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> 的一些关系式，求 <span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span>，最常用的是换元法和变形法，例如：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>已知函数 $f$ 的一些关系式，求 $f(x)$，最常用的是换元法和变形法，例如：</p>
+<p>$$
 f(x+1)=x^2
-</div>
-<script type="math/tex; mode=display">
-f(x+1)=x^2
-</script>
-</div>
-<p>换元法，设 <span class="arithmatex"><span class="MathJax_Preview">t=x+1</span><script type="math/tex">t=x+1</script></span>，则：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-f(t)=(t-1)^2=t^2-2t+1
-</div>
-<script type="math/tex; mode=display">
-f(t)=(t-1)^2=t^2-2t+1
-</script>
-</div>
-<p>如果给出多个 <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> 的值，且自变量有对称性，那么对称联立，例如给出上式：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>换元法，设 $t=x+1$，则：</p>
+<p>$$
+f(t)=(t-1)<sup>2=t</sup>2-2t+1
+$$</p>
+<p>如果给出多个 $f$ 的值，且自变量有对称性，那么对称联立，例如给出上式：</p>
+<p>$$
 \begin{cases}
-3f(x)+2f(-x)&amp;=x+3\\
+3f(x)+2f(-x)&amp;=x+3\
 3f(-x)+2f(x)&amp;=-x+3
 \end{cases}
-</div>
-<script type="math/tex; mode=display">
-\begin{cases}
-3f(x)+2f(-x)&=x+3\\
-3f(-x)+2f(x)&=-x+3
-\end{cases}
-</script>
-</div>
-<p>类似的还有 <span class="arithmatex"><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span> 与 <span class="arithmatex"><span class="MathJax_Preview">1/x</span><script type="math/tex">1/x</script></span> 等。</p>
+$$</p>
+<p>类似的还有 $x$ 与 $1/x$ 等。</p>
 <p>由多个子函数分段定义的函数称为分段函数，如绝对值函数：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 |x|=\begin{cases}
-x&amp;x\ge0\\
+x&amp;x\ge0\
 -x&amp;x&lt;0
 \end{cases}
-</div>
-<script type="math/tex; mode=display">
-|x|=\begin{cases}
-x&x\ge0\\
--x&x<0
-\end{cases}
-</script>
-</div>
+$$</p>
 <p>分段函数的定义域是各段函数定义域的并集，值域是各段函数值域的并集。</p>
 <p>符号函数是一种常用的分段函数：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \op{sgn}x=\begin{cases}
-1&amp;x&gt;0\\
-0&amp;x=0\\
+1&amp;x&gt;0\
+0&amp;x=0\
 -1&amp;x&lt;0
 \end{cases}
-</div>
-<script type="math/tex; mode=display">
-\op{sgn}x=\begin{cases}
-1&x>0\\
-0&x=0\\
--1&x<0
-\end{cases}
-</script>
-</div>
+$$</p>
 <h3 id="_5">反函数</h3>
-<p>对于二元关系 <span class="arithmatex"><span class="MathJax_Preview">(f:X\rightarrow Y)</span><script type="math/tex">(f:X\rightarrow Y)</script></span> 和 <span class="arithmatex"><span class="MathJax_Preview">(g:Y\rightarrow X)</span><script type="math/tex">(g:Y\rightarrow X)</script></span>，若 <span class="arithmatex"><span class="MathJax_Preview">(\forall x\in X)\{g[f(x)]=x\}</span><script type="math/tex">(\forall x\in X)\{g[f(x)]=x\}</script></span> 且  <span class="arithmatex"><span class="MathJax_Preview">(\forall y\in Y)\{f[g(y)]=y\}</span><script type="math/tex">(\forall y\in Y)\{f[g(y)]=y\}</script></span>，则称 <span class="arithmatex"><span class="MathJax_Preview">g</span><script type="math/tex">g</script></span> 为 <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> 的反函数，记为 <span class="arithmatex"><span class="MathJax_Preview">f^{-1}</span><script type="math/tex">f^{-1}</script></span>。</p>
-<p>设 <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> 表示一个函数，其定义域为 <span class="arithmatex"><span class="MathJax_Preview">X</span><script type="math/tex">X</script></span>、陪域为 <span class="arithmatex"><span class="MathJax_Preview">Y</span><script type="math/tex">Y</script></span>，若存在一函数 <span class="arithmatex"><span class="MathJax_Preview">g</span><script type="math/tex">g</script></span>，其定义域为 <span class="arithmatex"><span class="MathJax_Preview">Y</span><script type="math/tex">Y</script></span>、陪域为 <span class="arithmatex"><span class="MathJax_Preview">X</span><script type="math/tex">X</script></span>，且对于 <span class="arithmatex"><span class="MathJax_Preview">x\in X</span><script type="math/tex">x\in X</script></span> 有 <span class="arithmatex"><span class="MathJax_Preview">g(f(x))=x</span><script type="math/tex">g(f(x))=x</script></span>、对于任意 <span class="arithmatex"><span class="MathJax_Preview">y\in Y</span><script type="math/tex">y\in Y</script></span> 有 <span class="arithmatex"><span class="MathJax_Preview">f(g(y))=y</span><script type="math/tex">f(g(y))=y</script></span>，则称 <span class="arithmatex"><span class="MathJax_Preview">g</span><script type="math/tex">g</script></span> 为 <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> 的反函数。</p>
-<p>函数 <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> 的反函数记为 <span class="arithmatex"><span class="MathJax_Preview">f^{-1}</span><script type="math/tex">f^{-1}</script></span>，注意此处的 <span class="arithmatex"><span class="MathJax_Preview">-1</span><script type="math/tex">-1</script></span>（次方的写法）并不是 <span class="arithmatex"><span class="MathJax_Preview">-1</span><script type="math/tex">-1</script></span> 次方，比如 <span class="arithmatex"><span class="MathJax_Preview">\sin</span><script type="math/tex">\sin</script></span> 的反函数 <span class="arithmatex"><span class="MathJax_Preview">\arcsin</span><script type="math/tex">\arcsin</script></span> 也记为 <span class="arithmatex"><span class="MathJax_Preview">\sin^{-1}</span><script type="math/tex">\sin^{-1}</script></span>。</p>
-<p>单调函数总是有反函数，并且反函数的单调性与原函数一致，原函数与反函数的图像关于函数 <span class="arithmatex"><span class="MathJax_Preview">y=x</span><script type="math/tex">y=x</script></span> 的图像对称。</p>
+<p>对于二元关系 $(f:X\rightarrow Y)$ 和 $(g:Y\rightarrow X)$，若 $(\forall x\in X){g[f(x)]=x}$ 且  $(\forall y\in Y){f[g(y)]=y}$，则称 $g$ 为 $f$ 的反函数，记为 $f^{-1}$。</p>
+<p>设 $f$ 表示一个函数，其定义域为 $X$、陪域为 $Y$，若存在一函数 $g$，其定义域为 $Y$、陪域为 $X$，且对于 $x\in X$ 有 $g(f(x))=x$、对于任意 $y\in Y$ 有 $f(g(y))=y$，则称 $g$ 为 $f$ 的反函数。</p>
+<p>函数 $f$ 的反函数记为 $f^{-1}$，注意此处的 $-1$（次方的写法）并不是 $-1$ 次方，比如 $\sin$ 的反函数 $\arcsin$ 也记为 $\sin^{-1}$。</p>
+<p>单调函数总是有反函数，并且反函数的单调性与原函数一致，原函数与反函数的图像关于函数 $y=x$ 的图像对称。</p>
 <p>水平线测试：</p>
 <ul>
 <li>
 <p>在数学里，水平线测试为一测试方法，用来判断一函数是否为单射、满射或双射。</p>
 </li>
 <li>
-<p>设一带有图像的函数为 <span class="arithmatex"><span class="MathJax_Preview">f:X\rightarrow Y</span><script type="math/tex">f:X\rightarrow Y</script></span>，接着使用 <span class="arithmatex"><span class="MathJax_Preview">X\times Y</span><script type="math/tex">X\times Y</script></span> 上的水平线：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-y_0\in Y,\ \{\langle x,y_0\rangle\in f\mid x\in X\}
-</div>
-<script type="math/tex; mode=display">
-y_0\in Y,\ \{\langle x,y_0\rangle\in f\mid x\in X\}
-</script>
-</div>
+<p>设一带有图像的函数为 $f:X\rightarrow Y$，接着使用 $X\times Y$ 上的水平线：</p>
+<p>$$
+y_0\in Y, {\langle x,y_0\rangle\in f\mid x\in X}
+$$</p>
 <p>若函数为单射，则其图像绝不会和任何一条水平线相交超过一次。</p>
 <p>若函数为满射，则每一水平线和图像至少相交一次。</p>
 <p>若函数为双射，则每一水平线和图像相交于一点且只有一点。</p>
 </li>
 </ul>
-<p>求反函数：记 <span class="arithmatex"><span class="MathJax_Preview">g</span><script type="math/tex">g</script></span> 表示函数 <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> 的反函数，那么从图像的角度考虑，若 <span class="arithmatex"><span class="MathJax_Preview">\langle x,y\rangle\in f</span><script type="math/tex">\langle x,y\rangle\in f</script></span>，那么 <span class="arithmatex"><span class="MathJax_Preview">\langle y,x\rangle\in g</span><script type="math/tex">\langle y,x\rangle\in g</script></span>，因此，我们对于 <span class="arithmatex"><span class="MathJax_Preview">y=f(x)=\dots x</span><script type="math/tex">y=f(x)=\dots x</script></span>，只需要将 <span class="arithmatex"><span class="MathJax_Preview">x,y</span><script type="math/tex">x,y</script></span> 互换，得到的就是反函数的解析式。当然也不能写 <span class="arithmatex"><span class="MathJax_Preview">x=\dots y</span><script type="math/tex">x=\dots y</script></span> 的形式，要化为 <span class="arithmatex"><span class="MathJax_Preview">y=\dots x</span><script type="math/tex">y=\dots x</script></span> 的形式。</p>
-<p>例题：求 <span class="arithmatex"><span class="MathJax_Preview">f(x)=2x+1</span><script type="math/tex">f(x)=2x+1</script></span> 的反函数。答案：有 <span class="arithmatex"><span class="MathJax_Preview">y=f(x)=2x+1</span><script type="math/tex">y=f(x)=2x+1</script></span>；交换 <span class="arithmatex"><span class="MathJax_Preview">x,y</span><script type="math/tex">x,y</script></span>，即 <span class="arithmatex"><span class="MathJax_Preview">x=g(y)=2y+1</span><script type="math/tex">x=g(y)=2y+1</script></span>；整理，得 <span class="arithmatex"><span class="MathJax_Preview">y=g(y)=\dfrac{1}{2}x-\dfrac{1}{2}</span><script type="math/tex">y=g(y)=\dfrac{1}{2}x-\dfrac{1}{2}</script></span>。</p>
+<p>求反函数：记 $g$ 表示函数 $f$ 的反函数，那么从图像的角度考虑，若 $\langle x,y\rangle\in f$，那么 $\langle y,x\rangle\in g$，因此，我们对于 $y=f(x)=\dots x$，只需要将 $x,y$ 互换，得到的就是反函数的解析式。当然也不能写 $x=\dots y$ 的形式，要化为 $y=\dots x$ 的形式。</p>
+<p>例题：求 $f(x)=2x+1$ 的反函数。答案：有 $y=f(x)=2x+1$；交换 $x,y$，即 $x=g(y)=2y+1$；整理，得 $y=g(y)=\dfrac{1}{2}x-\dfrac{1}{2}$。</p>
 <h3 id="w">朗博 W 函数</h3>
-<p>我们将朗博 <span class="arithmatex"><span class="MathJax_Preview">W</span><script type="math/tex">W</script></span> 函数定义为 <span class="arithmatex"><span class="MathJax_Preview">f(x)=xe^x</span><script type="math/tex">f(x)=xe^x</script></span> 的反函数。</p>
-<p>也就是说，有关方程 <span class="arithmatex"><span class="MathJax_Preview">\displaystyle xe^x=a</span><script type="math/tex">\displaystyle xe^x=a</script></span> 可以给出通解</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>我们将朗博 $W$ 函数定义为 $f(x)=xe^x$ 的反函数。</p>
+<p>也就是说，有关方程 $\displaystyle xe^x=a$ 可以给出通解</p>
+<p>$$
 \begin{cases}
-W_0(a)&amp;a\ge-\frac{1}{e}\\
+W_0(a)&amp;a\ge-\frac{1}{e}\
 W_{-1}(a)&amp;a\in\left(-\dfrac{1}{e},0\right)
 \end{cases}
-</div>
-<script type="math/tex; mode=display">
-\begin{cases}
-W_0(a)&a\ge-\frac{1}{e}\\
-W_{-1}(a)&a\in\left(-\dfrac{1}{e},0\right)
-\end{cases}
-</script>
-</div>
-<p>但是 <span class="arithmatex"><span class="MathJax_Preview">W(x)</span><script type="math/tex">W(x)</script></span> 没有初等意义的解析式，只有积分式。</p>
+$$</p>
+<p>但是 $W(x)$ 没有初等意义的解析式，只有积分式。</p>
 <ul>
 <li>
-<p>将定义域限制在 <span class="arithmatex"><span class="MathJax_Preview">\displaystyle\left[-\frac{1}{e},+\infty\right)</span><script type="math/tex">\displaystyle\left[-\frac{1}{e},+\infty\right)</script></span> 上，取其在 <span class="arithmatex"><span class="MathJax_Preview">[-1,+\infty)</span><script type="math/tex">[-1,+\infty)</script></span> 上的函数值，那么就定义了一个单调递增的函数 <span class="arithmatex"><span class="MathJax_Preview">W
-_0(x)</span><script type="math/tex">W
-_0(x)</script></span>；</p>
+<p>将定义域限制在 $\displaystyle\left[-\frac{1}{e},+\infty\right)$ 上，取其在 $[-1,+\infty)$ 上的函数值，那么就定义了一个单调递增的函数 $W
+_0(x)$；</p>
 </li>
 <li>
-<p>将定义域限制在 <span class="arithmatex"><span class="MathJax_Preview">\displaystyle\left(-\frac{1}{e},0\right)</span><script type="math/tex">\displaystyle\left(-\frac{1}{e},0\right)</script></span> 上，取其在 <span class="arithmatex"><span class="MathJax_Preview">(-\infty,-1)</span><script type="math/tex">(-\infty,-1)</script></span> 上的函数值，那么就定义了一个单调递减的函数 <span class="arithmatex"><span class="MathJax_Preview">W_{-1}(x)</span><script type="math/tex">W_{-1}(x)</script></span>.</p>
+<p>将定义域限制在 $\displaystyle\left(-\frac{1}{e},0\right)$ 上，取其在 $(-\infty,-1)$ 上的函数值，那么就定义了一个单调递减的函数 $W_{-1}(x)$.</p>
 </li>
 </ul>
 <p><img alt="" src="../Mplwp_lambert_W_branches.svg" /></p>
-<p>性质：当 <span class="arithmatex"><span class="MathJax_Preview">a\geq 0</span><script type="math/tex">a\geq 0</script></span> 时，<span class="arithmatex"><span class="MathJax_Preview">{W(x)\cdot e^{W(x)}=x}</span><script type="math/tex">{W(x)\cdot e^{W(x)}=x}</script></span>，此外可以推出</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>性质：当 $a\geq 0$ 时，${W(x)\cdot e^{W(x)}=x}$，此外可以推出</p>
+<p>$$
 \begin{aligned}
-x\ln x=a&amp;\implies x=e^{W(a)}\\
-x+\ln x=a&amp;\implies x=W(e^a)\\
+x\ln x=a&amp;\implies x=e^{W(a)}\
+x+\ln x=a&amp;\implies x=W(e^a)\
 \frac{\ln x}{x}=-a&amp;\implies x=e^{-W(a)}
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-x\ln x=a&\implies x=e^{W(a)}\\
-x+\ln x=a&\implies x=W(e^a)\\
-\frac{\ln x}{x}=-a&\implies x=e^{-W(a)}
-\end{aligned}
-</script>
-</div>
-<p>以及朗博不等式，可以同构证明：<span class="arithmatex"><span class="MathJax_Preview">{xe^x\geq x+\ln x+1}</span><script type="math/tex">{xe^x\geq x+\ln x+1}</script></span></p>
+$$</p>
+<p>以及朗博不等式，可以同构证明：${xe^x\geq x+\ln x+1}$</p>
 <h2 id="_6">初等函数</h2>
 <ul>
 <li>
-<p>正比例函数：<span class="arithmatex"><span class="MathJax_Preview">f(x+y)=f(x)+f(y)</span><script type="math/tex">f(x+y)=f(x)+f(y)</script></span>。</p>
+<p>正比例函数：$f(x+y)=f(x)+f(y)$。</p>
 </li>
 <li>
-<p>幂型函数：<span class="arithmatex"><span class="MathJax_Preview">f(xy)=f(x)f(y)</span><script type="math/tex">f(xy)=f(x)f(y)</script></span>。</p>
+<p>幂型函数：$f(xy)=f(x)f(y)$。</p>
 </li>
 <li>
-<p>对数型函数：<span class="arithmatex"><span class="MathJax_Preview">f(xy)=f(x)+f(y)</span><script type="math/tex">f(xy)=f(x)+f(y)</script></span>。</p>
+<p>对数型函数：$f(xy)=f(x)+f(y)$。</p>
 </li>
 <li>
-<p>指数形函数：<span class="arithmatex"><span class="MathJax_Preview">f(x+y)=f(x)f(y)</span><script type="math/tex">f(x+y)=f(x)f(y)</script></span>。</p>
+<p>指数形函数：$f(x+y)=f(x)f(y)$。</p>
 </li>
 </ul>
 <h3 id="_7">幂函数</h3>
-<p>形如 <span class="arithmatex"><span class="MathJax_Preview">y=x^\alpha</span><script type="math/tex">y=x^\alpha</script></span>（通常认为 <span class="arithmatex"><span class="MathJax_Preview">\alpha\neq0</span><script type="math/tex">\alpha\neq0</script></span>），有性质：</p>
+<p>形如 $y=x^\alpha$（通常认为 $\alpha\neq0$），有性质：</p>
 <ul>
 <li>
-<p>函数恒过 <span class="arithmatex"><span class="MathJax_Preview">(1,1)</span><script type="math/tex">(1,1)</script></span> 点。</p>
+<p>函数恒过 $(1,1)$ 点。</p>
 </li>
 <li>
-<p>如果 <span class="arithmatex"><span class="MathJax_Preview">\alpha&gt;0</span><script type="math/tex">\alpha>0</script></span>，那么函数恒过 <span class="arithmatex"><span class="MathJax_Preview">(0,0)</span><script type="math/tex">(0,0)</script></span>.</p>
+<p>如果 $\alpha&gt;0$，那么函数恒过 $(0,0)$.</p>
 </li>
 <li>
-<p>如果 <span class="arithmatex"><span class="MathJax_Preview">\alpha\in\Z^+</span><script type="math/tex">\alpha\in\Z^+</script></span>，那么函数有奇偶性，与 <span class="arithmatex"><span class="MathJax_Preview">\alpha</span><script type="math/tex">\alpha</script></span> 的奇偶性相同。</p>
+<p>如果 $\alpha\in\Z^+$，那么函数有奇偶性，与 $\alpha$ 的奇偶性相同。</p>
 </li>
 <li>
-<p>在 <span class="arithmatex"><span class="MathJax_Preview">(0,\infty)</span><script type="math/tex">(0,\infty)</script></span> 上函数奇偶性与 <span class="arithmatex"><span class="MathJax_Preview">\alpha</span><script type="math/tex">\alpha</script></span> 关于 <span class="arithmatex"><span class="MathJax_Preview">1</span><script type="math/tex">1</script></span> 的大小有关。</p>
+<p>在 $(0,\infty)$ 上函数奇偶性与 $\alpha$ 关于 $1$ 的大小有关。</p>
 </li>
 </ul>
 <p>有幂的性质：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-a^{\frac{m}{n}}=\sqrt[n]{a^m}=\sqrt[n]{a}^m
-</div>
-<script type="math/tex; mode=display">
-a^{\frac{m}{n}}=\sqrt[n]{a^m}=\sqrt[n]{a}^m
-</script>
-</div>
-<p>其中 <span class="arithmatex"><span class="MathJax_Preview">n,m</span><script type="math/tex">n,m</script></span> 均为正数且不同奇偶。</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-a^{-x}=\dfrac{1}{a^x}
-</div>
-<script type="math/tex; mode=display">
-a^{-x}=\dfrac{1}{a^x}
-</script>
-</div>
+<p>$$
+a<sup>{\frac{m}{n}}=\sqrt[n]{a</sup>m}=\sqrt[n]{a}^m
+$$</p>
+<p>其中 $n,m$ 均为正数且不同奇偶。</p>
+<p>$$
+a<sup>{-x}=\dfrac{1}{a</sup>x}
+$$</p>
 <p>这一条经常用于简化除法的求导，转化为乘法可以更方便。</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\sqrt{a\pm\sqrt{b}}=\sqrt{a+\sqrt{a^2-b}\over2}\pm\sqrt{a-\sqrt{a^2-b}\over2}
-</div>
-<script type="math/tex; mode=display">
-\sqrt{a\pm\sqrt{b}}=\sqrt{a+\sqrt{a^2-b}\over2}\pm\sqrt{a-\sqrt{a^2-b}\over2}
-</script>
-</div>
-<p>对于自然数 <span class="arithmatex"><span class="MathJax_Preview">a,b</span><script type="math/tex">a,b</script></span>，只有 <span class="arithmatex"><span class="MathJax_Preview">a^2-b</span><script type="math/tex">a^2-b</script></span> 是完全平方数的时候，才能开出来。</p>
-<p>证明：我们设 <span class="arithmatex"><span class="MathJax_Preview">\sqrt{a+\sqrt{b}}</span><script type="math/tex">\sqrt{a+\sqrt{b}}</script></span> 化简完的结果是 <span class="arithmatex"><span class="MathJax_Preview">\sqrt x+\sqrt y</span><script type="math/tex">\sqrt x+\sqrt y</script></span>：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
+\sqrt{a\pm\sqrt{b}}=\sqrt{a+\sqrt{a<sup>2-b}\over2}\pm\sqrt{a-\sqrt{a</sup>2-b}\over2}
+$$</p>
+<p>对于自然数 $a,b$，只有 $a^2-b$ 是完全平方数的时候，才能开出来。</p>
+<p>证明：我们设 $\sqrt{a+\sqrt{b}}$ 化简完的结果是 $\sqrt x+\sqrt y$：</p>
+<p>$$
 \begin{aligned}
-\sqrt{a+\sqrt{b}}&amp;=\sqrt x+\sqrt y\\
+\sqrt{a+\sqrt{b}}&amp;=\sqrt x+\sqrt y\
 a+\sqrt{b}&amp;=x+y+2\sqrt{xy}
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-\sqrt{a+\sqrt{b}}&=\sqrt x+\sqrt y\\
-a+\sqrt{b}&=x+y+2\sqrt{xy}
-\end{aligned}
-</script>
-</div>
-<p>因为 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 外面没有根号，与 <span class="arithmatex"><span class="MathJax_Preview">x+y</span><script type="math/tex">x+y</script></span> 相对应：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\left\{\begin{aligned}
-a&amp;=x+y\\
+$$</p>
+<p>因为 $a$ 外面没有根号，与 $x+y$ 相对应：</p>
+<p>$$
+\left{\begin{aligned}
+a&amp;=x+y\
 \sqrt{b}&amp;=2\sqrt{xy}
 \end{aligned}\right.
-</div>
-<script type="math/tex; mode=display">
-\left\{\begin{aligned}
-a&=x+y\\
-\sqrt{b}&=2\sqrt{xy}
-\end{aligned}\right.
-</script>
-</div>
+$$</p>
 <p>然后我们把下面的式子平方，可以写出方程组：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\left\{\begin{aligned}
-x+y&amp;=a\\
+<p>$$
+\left{\begin{aligned}
+x+y&amp;=a\
 xy&amp;={b\over4}
 \end{aligned}\right.
-</div>
-<script type="math/tex; mode=display">
-\left\{\begin{aligned}
-x+y&=a\\
-xy&={b\over4}
-\end{aligned}\right.
-</script>
-</div>
+$$</p>
 <p>然后用公式：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\left\{\begin{aligned}
-x+y&amp;=a\\
-x-y&amp;=\sqrt{(x+y)^2-4xy}\\
+<p>$$
+\left{\begin{aligned}
+x+y&amp;=a\
+x-y&amp;=\sqrt{(x+y)^2-4xy}\
 &amp;=\sqrt{a^2-b}
 \end{aligned}\right.
-</div>
-<script type="math/tex; mode=display">
-\left\{\begin{aligned}
-x+y&=a\\
-x-y&=\sqrt{(x+y)^2-4xy}\\
-&=\sqrt{a^2-b}
-\end{aligned}\right.
-</script>
-</div>
-<p>或者设 <span class="arithmatex"><span class="MathJax_Preview">t</span><script type="math/tex">t</script></span> 满足：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>或者设 $t$ 满足：</p>
+<p>$$
 \begin{aligned}
-(t-x)(t-y)&amp;=0\\
+(t-x)(t-y)&amp;=0\
 t^2-(x+y)t+xy&amp;=0
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-(t-x)(t-y)&=0\\
-t^2-(x+y)t+xy&=0
-\end{aligned}
-</script>
-</div>
-<p>解这个方程，得到的 <span class="arithmatex"><span class="MathJax_Preview">t</span><script type="math/tex">t</script></span> 的两个根分别就是 <span class="arithmatex"><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span> 和 <span class="arithmatex"><span class="MathJax_Preview">y</span><script type="math/tex">y</script></span>。</p>
+$$</p>
+<p>解这个方程，得到的 $t$ 的两个根分别就是 $x$ 和 $y$。</p>
 <p>具体的：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-t^2-at+{b\over4}=0\\
+t^2-at+{b\over4}=0\
 t={a\pm\sqrt{a^2-b}\over2}
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-t^2-at+{b\over4}=0\\
-t={a\pm\sqrt{a^2-b}\over2}
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>解得：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\left\{\begin{aligned}
-x&amp;={a+\sqrt{a^2-b}\over2}\\
+<p>$$
+\left{\begin{aligned}
+x&amp;={a+\sqrt{a^2-b}\over2}\
 y&amp;={a-\sqrt{a^2-b}\over2}
 \end{aligned}\right.
-</div>
-<script type="math/tex; mode=display">
-\left\{\begin{aligned}
-x&={a+\sqrt{a^2-b}\over2}\\
-y&={a-\sqrt{a^2-b}\over2}
-\end{aligned}\right.
-</script>
-</div>
+$$</p>
 <p>因此：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-&amp;\sqrt{a+\sqrt{b}}=\sqrt x+\sqrt y\\
-=\;&amp;\sqrt{a+\sqrt{a^2-b}\over2}+\sqrt{a-\sqrt{a^2-b}\over2}
+&amp;\sqrt{a+\sqrt{b}}=\sqrt x+\sqrt y\
+=\;&amp;\sqrt{a+\sqrt{a<sup>2-b}\over2}+\sqrt{a-\sqrt{a</sup>2-b}\over2}
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-&\sqrt{a+\sqrt{b}}=\sqrt x+\sqrt y\\
-=\;&\sqrt{a+\sqrt{a^2-b}\over2}+\sqrt{a-\sqrt{a^2-b}\over2}
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>减法同理。</p>
 <h3 id="_8">指数函数</h3>
-<p>形如 <span class="arithmatex"><span class="MathJax_Preview">y=f(x)=a^x</span><script type="math/tex">y=f(x)=a^x</script></span>（<span class="arithmatex"><span class="MathJax_Preview">a&gt;0</span><script type="math/tex">a>0</script></span> 且 <span class="arithmatex"><span class="MathJax_Preview">a\neq1</span><script type="math/tex">a\neq1</script></span>），有性质：</p>
+<p>形如 $y=f(x)=a^x$（$a&gt;0$ 且 $a\neq1$），有性质：</p>
 <ul>
 <li>
-<p>恒过 <span class="arithmatex"><span class="MathJax_Preview">(0,1)</span><script type="math/tex">(0,1)</script></span> 点。</p>
+<p>恒过 $(0,1)$ 点。</p>
 </li>
 <li>
-<p>满足 <span class="arithmatex"><span class="MathJax_Preview">f(x)\cdot f(-x)=1</span><script type="math/tex">f(x)\cdot f(-x)=1</script></span>。</p>
+<p>满足 $f(x)\cdot f(-x)=1$。</p>
 </li>
 </ul>
 <p>指数函数非积非偶，换元常常先统一底数，例如：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-4^x+2^{x+1}+3=(2^x)^2+2\cdot2^x+3
-</div>
-<script type="math/tex; mode=display">
-4^x+2^{x+1}+3=(2^x)^2+2\cdot2^x+3
-</script>
-</div>
+<p>$$
+4<sup x_1="x+1">x+2</sup>+3=(2<sup>x)</sup>2+2\cdot2^x+3
+$$</p>
 <p>指数函数中，有一种函数特别重要：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 f(x)=e^x
-</div>
-<script type="math/tex; mode=display">
-f(x)=e^x
-</script>
-</div>
-<p>其中，<span class="arithmatex"><span class="MathJax_Preview">e</span><script type="math/tex">e</script></span> 是一个无理数，近似值为 <span class="arithmatex"><span class="MathJax_Preview">2.71828\dots</span><script type="math/tex">2.71828\dots</script></span>。</p>
+$$</p>
+<p>其中，$e$ 是一个无理数，近似值为 $2.71828\dots$。</p>
 <h3 id="_9">对数函数</h3>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">a^x=n</span><script type="math/tex">a^x=n</script></span>（<span class="arithmatex"><span class="MathJax_Preview">a&gt;0</span><script type="math/tex">a>0</script></span> 且 <span class="arithmatex"><span class="MathJax_Preview">a\neq1</span><script type="math/tex">a\neq1</script></span>），则记 <span class="arithmatex"><span class="MathJax_Preview">x=\log_an</span><script type="math/tex">x=\log_an</script></span>，其中 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 为底数，<span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 为真数。</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>若 $a^x=n$（$a&gt;0$ 且 $a\neq1$），则记 $x=\log_an$，其中 $a$ 为底数，$n$ 为真数。</p>
+<p>$$
 \begin{aligned}
-a^{\log_ax}&amp;=x\\
+a^{\log_ax}&amp;=x\
 \log_aa^x&amp;=x
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-a^{\log_ax}&=x\\
-\log_aa^x&=x
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>因此：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-\log_a1&amp;=0\\
-\log_aa&amp;=1\\
+\log_a1&amp;=0\
+\log_aa&amp;=1\
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-\log_a1&=0\\
-\log_aa&=1\\
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>对数也有一些特殊记号，例如：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-\log_ex&amp;=\ln x\\
-\log_2x&amp;=\operatorname{lb}x\\
+\log_ex&amp;=\ln x\
+\log_2x&amp;=\operatorname{lb}x\
 \log_{10}x&amp;=\lg x
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-\log_ex&=\ln x\\
-\log_2x&=\operatorname{lb}x\\
-\log_{10}x&=\lg x
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>对数的运算法则与指数相对，如下：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-\log_axy&amp;=\log_ax+\log_ay&amp;&amp;\qquad&amp;a^xa^y&amp;=a^{x+y}\\
-\log_a\frac{x}{y}&amp;=\log_ax-\log_ay&amp;&amp;\qquad&amp;\frac{a^x}{a^y}&amp;=a^{x-y}\\
-\log_ax^y&amp;=y\log_ax&amp;&amp;\qquad&amp;(a^x)^y&amp;=a^{xy}\\
+\log_axy&amp;=\log_ax+\log_ay&amp;&amp;\qquad&amp;a<sup>xa</sup>y&amp;=a^{x+y}\
+\log_a\frac{x}{y}&amp;=\log_ax-\log_ay&amp;&amp;\qquad&amp;\frac{a<sup>x}{a</sup>y}&amp;=a^{x-y}\
+\log_ax<sup>y&amp;=y\log_ax&amp;&amp;\qquad&amp;(a</sup>x)<sup xy="xy">y&amp;=a</sup>\
 \log_a\sqrt[y]x&amp;=\frac{\log_ax}y&amp;&amp;\qquad&amp;\sqrt[y]x&amp;=x^\frac{1}{y}
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-\log_axy&=\log_ax+\log_ay&&\qquad&a^xa^y&=a^{x+y}\\
-\log_a\frac{x}{y}&=\log_ax-\log_ay&&\qquad&\frac{a^x}{a^y}&=a^{x-y}\\
-\log_ax^y&=y\log_ax&&\qquad&(a^x)^y&=a^{xy}\\
-\log_a\sqrt[y]x&=\frac{\log_ax}y&&\qquad&\sqrt[y]x&=x^\frac{1}{y}
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>另外，还有换底公式，非常常用</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-\log_ax&amp;=\frac{\log_bx}{\log_ba}\\
-\log_ax&amp;=\frac{1}{\log_xa}\\
+\log_ax&amp;=\frac{\log_bx}{\log_ba}\
+\log_ax&amp;=\frac{1}{\log_xa}\
 \log_{a^n}b&amp;=\frac{\log_ab}{n}
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-\log_ax&=\frac{\log_bx}{\log_ba}\\
-\log_ax&=\frac{1}{\log_xa}\\
-\log_{a^n}b&=\frac{\log_ab}{n}
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>另外，还有：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-x^{\log_ay}&amp;=y^{\log_ax}\\
-\log_ab\log_bx&amp;=\log_ax\\
+x<sup _log_ax="\log_ax">{\log_ay}&amp;=y</sup>\
+\log_ab\log_bx&amp;=\log_ax\
 \log_a\dfrac{1}{x}&amp;=-\log_ax
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-x^{\log_ay}&=y^{\log_ax}\\
-\log_ab\log_bx&=\log_ax\\
-\log_a\dfrac{1}{x}&=-\log_ax
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>也就是说：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-\log_am\log_bn&amp;=\log_bm\log_an\\
-\dfrac nm\log_ab&amp;=\log_{a^m}b^n=\log_ab^{\frac nm}
+\log_am\log_bn&amp;=\log_bm\log_an\
+\dfrac nm\log_ab&amp;=\log_{a<sup>m}b</sup>n=\log_ab^{\frac nm}
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-\log_am\log_bn&=\log_bm\log_an\\
-\dfrac nm\log_ab&=\log_{a^m}b^n=\log_ab^{\frac nm}
-\end{aligned}
-</script>
-</div>
+$$</p>
 <!-- 数学 -->
 <!-- 物理 -->
 <!-- 化学 -->

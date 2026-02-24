@@ -34,46 +34,19 @@
 
 简单来说，我们讨论的振动合成即为合成两个位移表达式：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{cases} x_1&=A_1\cos(\omega_1t+\varphi_1)\\ x_2&=A_2\cos(\omega_2t+\varphi_2) \end{cases}
-:::
+\$\$ \begin{cases} x_1&=A_1\cos(\omega_1t+\varphi_1)\\ x_2&=A_2\cos(\omega_2t+\varphi_2) \end{cases} \$\$
 
-$$\begin{cases}
-x_1&=A_1\cos(\omega_1t+\varphi_1)\\
-x_2&=A_2\cos(\omega_2t+\varphi_2)
-\end{cases}$$
-::::
+我们只需要求 \$x=x_1+x_2\$ 的表达式即可，但是这通常是个相当复杂的问题，其中最简单的是在同一直线上两个相同频率的简谐振动的合成（\$\omega_1=\omega_2\$）。
 
-我们只需要求 []{.arithmatex}$x=x_1+x_2$ 的表达式即可，但是这通常是个相当复杂的问题，其中最简单的是在同一直线上两个相同频率的简谐振动的合成（[]{.arithmatex}$\omega_1=\omega_2$）。
+此时我们发现两个式子都是关于 \$\omega t\$ 的，我们不妨先将 \$\cos\$ 的括号展开，然后直接对 \$\cos\omega t\$ 和 \$\sin\omega t\$ 合并同类项，然后应用辅助角公式即可得到 \$x=A\cos(\omega t+\varphi)\$，其中
 
-此时我们发现两个式子都是关于 []{.arithmatex}$\omega t$ 的，我们不妨先将 []{.arithmatex}$\cos$ 的括号展开，然后直接对 []{.arithmatex}$\cos\omega t$ 和 []{.arithmatex}$\sin\omega t$ 合并同类项，然后应用辅助角公式即可得到 []{.arithmatex}$x=A\cos(\omega t+\varphi)$，其中
+\$\$ A=\sqrt{A_1^2+A_2^2+2A_1A_2\cos(\varphi_2-\varphi_1)} \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-A=\sqrt{A_1\^2+A_2\^2+2A_1A_2\cos(\varphi_2-\varphi_1)}
-:::
-
-$$A=\sqrt{A_1^2+A_2^2+2A_1A_2\cos(\varphi_2-\varphi_1)}$$
-::::
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\tan\varphi=\dfrac{A_1\sin\varphi_1+A_2\sin\varphi_2}{A_1\cos\varphi_1+A_2\cos\varphi_2}
-:::
-
-$$\tan\varphi=\dfrac{A_1\sin\varphi_1+A_2\sin\varphi_2}{A_1\cos\varphi_1+A_2\cos\varphi_2}$$
-::::
+\$\$ \tan\varphi=\dfrac{A_1\sin\varphi_1+A_2\sin\varphi_2}{A_1\cos\varphi_1+A_2\cos\varphi_2} \$\$
 
 容易发现，在一般情况下，有
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\|A_1-A_2\|\le A\le A_1+A_2
-:::
-
-$$|A_1-A_2|\le A\le A_1+A_2$$
-::::
+\$\$ \|A_1-A_2\|\le A\le A_1+A_2 \$\$
 
 对于更一般的情况，合振动不再是简谐振动，但容易知道其仍然是周期性的，只需要取原周期点最小公倍数即可。
 
@@ -119,77 +92,37 @@ $$|A_1-A_2|\le A\le A_1+A_2$$
 
 ### 运动定义 {#_7}
 
-简谐运动是最基本的振动，我们先对简谐运动下一个定义：如果物体的位移与时间的关系遵从正弦函数的规律，即它的振动图像（[]{.arithmatex}$x-t$ 图像）是一条正弦曲线，这样的振动是一种简谐运动（**运动学定义**）。
+简谐运动是最基本的振动，我们先对简谐运动下一个定义：如果物体的位移与时间的关系遵从正弦函数的规律，即它的振动图像（\$x-t\$ 图像）是一条正弦曲线，这样的振动是一种简谐运动（**运动学定义**）。
 
-在定义中已经描述了简谐运动的一个重要性质 []{.arithmatex}$x-t$ 图像，我们知道对正弦曲线求导还是正弦曲线，因此 []{.arithmatex}$v-t$ 图像、[]{.arithmatex}$a-t$ 图像的性质很容易得出。
+在定义中已经描述了简谐运动的一个重要性质 \$x-t\$ 图像，我们知道对正弦曲线求导还是正弦曲线，因此 \$v-t\$ 图像、\$a-t\$ 图像的性质很容易得出。
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{aligned} x&=A\sin(\omega t+\varphi)\\ v=\dot x&=A\omega\cos(\omega t+\varphi)\\ a=\ddot x&=-A\omega\^2\sin(\omega t+\varphi) \end{aligned}
-:::
+\$\$ \begin{aligned} x&=A\sin(\omega t+\varphi)\\ v=\dot x&=A\omega\cos(\omega t+\varphi)\\ a=\ddot x&=-A\omega\^2\sin(\omega t+\varphi) \end{aligned} \$\$
 
-$$\begin{aligned}
-x&=A\sin(\omega t+\varphi)\\
-v=\dot x&=A\omega\cos(\omega t+\varphi)\\
-a=\ddot x&=-A\omega^2\sin(\omega t+\varphi)
-\end{aligned}$$
-::::
+也就是说有 \$a-x,v-x\$ 关系：
 
-也就是说有 []{.arithmatex}$a-x,v-x$ 关系：
+\$\$ a=-\omega\^2x \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-a=-\omega\^2x
-:::
-
-$$a=-\omega^2x$$
-::::
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-v\^2=\omega\^2(A\^2-x\^2)
-:::
-
-$$v^2=\omega^2(A^2-x^2)$$
-::::
+\$\$ v^2=\omega^2(A^2-x^2) \$\$
 
 我们对课本上一些经典的物理意义进行总结：
 
-- []{.arithmatex}$A$ 是振幅，即最大位移。
+- \$A\$ 是振幅，即最大位移。
 
-- []{.arithmatex}$\omega$ 是角速度，代表振动的快慢，而完成一次全振动所需要的时间称为周期。
+- \$\omega\$ 是角速度，代表振动的快慢，而完成一次全振动所需要的时间称为周期。
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  T=\dfrac{2\pi}{\omega}
-  :::
-
-  $$T=\dfrac{2\pi}{\omega}$$
-  ::::
+  \$\$ T=\dfrac{2\pi}{\omega} \$\$
 
   我们称物体完成全振动的次数与所用时间之比叫做振动的频率
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  f=\dfrac{1}{T}=\dfrac{\omega}{2\pi}
-  :::
+  \$\$ f=\dfrac{1}{T}=\dfrac{\omega}{2\pi} \$\$
 
-  $$f=\dfrac{1}{T}=\dfrac{\omega}{2\pi}$$
-  ::::
+  对于仅受到劲度系数为 \$k\$ 的理想弹簧的弹力的简谐运动，容易推导
 
-  对于仅受到劲度系数为 []{.arithmatex}$k$ 的理想弹簧的弹力的简谐运动，容易推导
+  \$\$ \omega=\sqrt{\dfrac{k}{m}} \$\$
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \omega=\sqrt{\dfrac{k}{m}}
-  :::
+- \$\omega t+\varphi\$ 是相位，反应了 \$t\$ 时刻的空间状态，若 \$t=0\$ 则为初始状态，称为初相位。
 
-  $$\omega=\sqrt{\dfrac{k}{m}}$$
-  ::::
-
-- []{.arithmatex}$\omega t+\varphi$ 是相位，反应了 []{.arithmatex}$t$ 时刻的空间状态，若 []{.arithmatex}$t=0$ 则为初始状态，称为初相位。
-
-  我们称一对频率相同的简谐运动的相位差为其相位之差的绝对值 []{.arithmatex}$\Delta\varphi=|\varphi_1-\varphi_2|$。
+  我们称一对频率相同的简谐运动的相位差为其相位之差的绝对值 \$\Delta\varphi=\|\varphi_1-\varphi_2\|\$。
 
 由于我们似乎在数学的三角函数中进行了充分的研究，我们只是提供一种定义方式。
 
@@ -199,53 +132,29 @@ $$v^2=\omega^2(A^2-x^2)$$
 
 根据胡克定理，弹簧的弹力在简谐运动中就提供了这个回复力：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-F=kx
-:::
-
-$$F=kx$$
-::::
+\$\$ F=kx \$\$
 
 我们发现，物体所受的弹簧弹力始终指向平衡位置，也就是说有向量式
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\bm F=-k\bm x
-:::
-
-$$\bm F=-k\bm x$$
-::::
+\$\$ \bm F=-k\bm x \$\$
 
 也就是说：如果物体在运动方向上所受的力与它偏离平衡位置位移的大小成正比，并且总是指向平衡位置，物体的运动就是简谐运动（**力学定义**）。
 
-通常来说，如果要求我们证明一个运动是简谐运动，通常来说只需要证明 []{.arithmatex}$F$ 与到某一点位移成正比即可，这个点即为平衡点，例如在天体中我们常常探讨的一个问题。
+通常来说，如果要求我们证明一个运动是简谐运动，通常来说只需要证明 \$F\$ 与到某一点位移成正比即可，这个点即为平衡点，例如在天体中我们常常探讨的一个问题。
 
 在地球一条直径处建立一条穿过地心的长直隧道，忽略一切阻力，从一端静止放入一个小球，容易知道万有引力提供回复力
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-F=G\dfrac{Mm}{r\^3}\cdot x
-:::
-
-$$F=G\dfrac{Mm}{r^3}\cdot x$$
-::::
+\$\$ F=G\dfrac{Mm}{r\^3}\cdot x \$\$
 
 因此这个运动即为一个简谐运动。对于一个一般的证明，例如有多个力的合力提供回复力，可以先列出平衡点方程，然后通过带入这个式子，尝试证明在任意一点的合外力与其位移成正比，然后说明力的方向与位移相反。
 
 ### 等效圆周 {#_9}
 
-我们可以认为，简谐运动可以表示为匀速圆周运动在一个方向上的投影，而 []{.arithmatex}$\omega$ 正好对应圆周运动的角速度，我们似乎在数学中讨论了这个问题。
+我们可以认为，简谐运动可以表示为匀速圆周运动在一个方向上的投影，而 \$\omega\$ 正好对应圆周运动的角速度，我们似乎在数学中讨论了这个问题。
 
-容易证明，简谐运动中的 []{.arithmatex}$F=kx$ 与圆周运动的关系式
+容易证明，简谐运动中的 \$F=kx\$ 与圆周运动的关系式
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-k=m\dfrac{v\^2}{r\^2}
-:::
-
-$$k=m\dfrac{v^2}{r^2}$$
-::::
+\$\$ k=m\dfrac{v^2}{r^2} \$\$
 
 ### 简单问题 {#_10}
 
@@ -255,97 +164,49 @@ $$k=m\dfrac{v^2}{r^2}$$
 
 对称性：若两点关于平衡位置对称，则合外力（加速度）关于平衡位置对称。
 
-多物体临界问题：通常来说，最大振幅 []{.arithmatex}$x_{\max}$ 正比于最大拉力
+多物体临界问题：通常来说，最大振幅 \$x\_{\max}\$ 正比于最大拉力
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-x\_{\max}=\dfrac{F\_{\max}}{k}
-:::
+\$\$ x\_{\max}=\dfrac{F\_{\max}}{k} \$\$
 
-$$x_{\max}=\dfrac{F_{\max}}{k}$$
-::::
-
-也就是 []{.arithmatex}$F(x_{\max})=F_{\max}$。
+也就是 \$F(x\_{\max})=F\_{\max}\$。
 
 能量守恒：容易发现，简谐运动一定是能量守恒的，具体的
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-F=kx=ma
-:::
+\$\$ F=kx=ma \$\$
 
-$$F=kx=ma$$
-::::
+根据圆的思想，有 \$a=\omega\^2r\$，其中 \$r=x\$，因此
 
-根据圆的思想，有 []{.arithmatex}$a=\omega^2r$，其中 []{.arithmatex}$r=x$，因此
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\omega=\sqrt{\dfrac{k}{m}}
-:::
-
-$$\omega=\sqrt{\dfrac{k}{m}}$$
-::::
+\$\$ \omega=\sqrt{\dfrac{k}{m}} \$\$
 
 因此
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-E=\dfrac{1}{2}mv\^2+\dfrac{1}{2}kx\^2=\operatorname{Const.}
-:::
+\$\$ E=\dfrac{1}{2}mv^2+\dfrac{1}{2}kx^2=\operatorname{Const.} \$\$
 
-$$E=\dfrac{1}{2}mv^2+\dfrac{1}{2}kx^2=\operatorname{Const.}$$
-::::
+具体的，我们带入 \$v=0,x=A\$，因此
 
-具体的，我们带入 []{.arithmatex}$v=0,x=A$，因此
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-E=\dfrac{1}{2}kA\^2=\dfrac{1}{2}m\omega\^2A\^2
-:::
-
-$$E=\dfrac{1}{2}kA^2=\dfrac{1}{2}m\omega^2A^2$$
-::::
+\$\$ E=\dfrac{1}{2}kA^2=\dfrac{1}{2}m\omega^2A\^2 \$\$
 
 最值位移：在不超过一个的周期内，最值位移一定发生在关于上升零点对称的两侧。
 
 ### 单摆运动 {#_11}
 
-不考虑一切**阻力**，一个**刚性轻绳**拴着一个**小球**做**角度很小**（一般来说小于 []{.arithmatex}$5^\circ$ 左右，在这个角度内，我们可以取 []{.arithmatex}$\sin x=x$ 的近似）的摆动，这样的装置就叫作单摆。单摆是实际摆的理想化模型。
+不考虑一切**阻力**，一个**刚性轻绳**拴着一个**小球**做**角度很小**（一般来说小于 \$5\^\circ\$ 左右，在这个角度内，我们可以取 \$\sin x=x\$ 的近似）的摆动，这样的装置就叫作单摆。单摆是实际摆的理想化模型。
 
 我们尝试写出单摆的回复力，我们知道在单摆中，回复力就是切线方向上的分力，即
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-F=mg\sin\theta\approx mg\theta
-:::
+\$\$ F=mg\sin\theta\approx mg\theta \$\$
 
-$$F=mg\sin\theta\approx mg\theta$$
-::::
+根据弧度制的定义，\$\theta\$ 就是弧长除以绳长 \$\ell\$，而弧长可以近似看作位移，
 
-根据弧度制的定义，[]{.arithmatex}$\theta$ 就是弧长除以绳长 []{.arithmatex}$\ell$，而弧长可以近似看作位移，
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-F\approx\dfrac{mg}{\ell}x
-:::
-
-$$F\approx\dfrac{mg}{\ell}x$$
-::::
+\$\$ F\approx\dfrac{mg}{\ell}x \$\$
 
 而在方向上，容易知道是相反的，因此这种运动即为一种近似的简谐运动。
 
 根据周期公式
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-T=2\pi\sqrt{\dfrac{m}{k}}\approx2\pi\sqrt{\dfrac{\ell}{g}}
-:::
+\$\$ T=2\pi\sqrt{\dfrac{m}{k}}\approx2\pi\sqrt{\dfrac{\ell}{g}} \$\$
 
-$$T=2\pi\sqrt{\dfrac{m}{k}}\approx2\pi\sqrt{\dfrac{\ell}{g}}$$
-::::
-
-注意：我们这里称绳长 []{.arithmatex}$\ell$ 是小球直径远小于绳长，因此在近似的情况下，[]{.arithmatex}$\ell$ 应当取绳子悬挂点到下面物体的重心的距离，下面漏斗模型是非常经典的问题。
+注意：我们这里称绳长 \$\ell\$ 是小球直径远小于绳长，因此在近似的情况下，\$\ell\$ 应当取绳子悬挂点到下面物体的重心的距离，下面漏斗模型是非常经典的问题。
 
 漏斗漏沙子模型：一条细绳拴着一个装满沙子的漏斗，做单摆运动，沙子缓慢均匀漏下，下方垫一块匀速运动的毯子，则沙子在毯子上留下的轨迹近似为一个正弦图像。
 
@@ -353,9 +214,9 @@ $$T=2\pi\sqrt{\dfrac{m}{k}}\approx2\pi\sqrt{\dfrac{\ell}{g}}$$
 
 一些性质：
 
-- 沙子不断漏下，因此整体的重心先下降再上升，因此 []{.arithmatex}$\ell$ 先增大后减小，周期也同样先增大后减小。
+- 沙子不断漏下，因此整体的重心先下降再上升，因此 \$\ell\$ 先增大后减小，周期也同样先增大后减小。
 
-- 漏斗摆动的速度 []{.arithmatex}$Q$ 点大于 []{.arithmatex}$P$ 点，而单位时间内流下的沙子近似相等，因此 []{.arithmatex}$P$ 点积累的沙子的量比 []{.arithmatex}$Q$ 点多。
+- 漏斗摆动的速度 \$Q\$ 点大于 \$P\$ 点，而单位时间内流下的沙子近似相等，因此 \$P\$ 点积累的沙子的量比 \$Q\$ 点多。
 
 ### 测重力场 {#_12}
 
@@ -365,27 +226,15 @@ $$T=2\pi\sqrt{\dfrac{m}{k}}\approx2\pi\sqrt{\dfrac{\ell}{g}}$$
 
 - 测量周期用停表，测量多次摆动总用时，摆动到正中间开始计时。
 
-我们测的了 []{.arithmatex}$T$ 和 []{.arithmatex}$\ell$，则利用公式
+我们测的了 \$T\$ 和 \$\ell\$，则利用公式
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-g=\dfrac{4\pi\^2}{T\^2}\cdot\ell
-:::
+\$\$ g=\dfrac{4\pi^2}{T^2}\cdot\ell \$\$
 
-$$g=\dfrac{4\pi^2}{T^2}\cdot\ell$$
-::::
-
-或者多次测量作出 []{.arithmatex}$T^2-\ell$ 图求斜率，因为图像斜率与 []{.arithmatex}$\ell$ 误差关系较小。
+或者多次测量作出 \$T\^2-\ell\$ 图求斜率，因为图像斜率与 \$\ell\$ 误差关系较小。
 
 而如果电场力类比为重力，则有
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-g=\dfrac{Eq}{m}
-:::
-
-$$g=\dfrac{Eq}{m}$$
-::::
+\$\$ g=\dfrac{Eq}{m} \$\$
 
 ## 机械波 {#_13}
 
@@ -427,7 +276,7 @@ $$g=\dfrac{Eq}{m}$$
 
 ### 波的要素 {#_15}
 
-在波的传播方向上，振动相位总是相同的两个相邻质点间的距离，叫作波长，通常用 []{.arithmatex}$\lambda$ 表示。
+在波的传播方向上，振动相位总是相同的两个相邻质点间的距离，叫作波长，通常用 \$\lambda\$ 表示。
 
 ![alt text](../m-image-1.avif){width="40%"}
 
@@ -439,33 +288,21 @@ $$g=\dfrac{Eq}{m}$$
 
 - 群速度（群速）：波振幅外形上的变化（波的波包）在空间中所传递的速度，大多数情况下群速度远小于相速度，甚至群速度也可能与相速度相反。
 
-有自然定义频率 []{.arithmatex}$f=\dfrac{1}{T}$，则波速的定义式：
+有自然定义频率 \$f=\dfrac{1}{T}\$，则波速的定义式：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-v=\dfrac{\lambda}{T}=f\lambda
-:::
-
-$$v=\dfrac{\lambda}{T}=f\lambda$$
-::::
+\$\$ v=\dfrac{\lambda}{T}=f\lambda \$\$
 
 机械波在介质中的传播速度由介质本身的性质决定，同一种机械波在不同的介质中传播时，频率通常是相同的，但波速通常是不同的。例如绳子上的波，其波速近似公式为：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-v=\sqrt{\dfrac T\rho}
-:::
+\$\$ v=\sqrt{\dfrac T\rho} \$\$
 
-$$v=\sqrt{\dfrac T\rho}$$
-::::
-
-其中 []{.arithmatex}$\rho$ 为单位长度绳的质量，[]{.arithmatex}$T$ 为绳中的张力。因此对于一定长度的绳，我们可以通过调节绳的张力，改变声波的速度。
+其中 \$\rho\$ 为单位长度绳的质量，\$T\$ 为绳中的张力。因此对于一定长度的绳，我们可以通过调节绳的张力，改变声波的速度。
 
 - 声音的远传现象：夜间声音传得更远。夜间地面温度低、空中温度高，声速下层慢、上层快，声波向下折射，不易扩散到高空。
 
 - 海洋中的声道效应：海水中存在温度和压力梯度，形成声速最小的层面。声波被约束在该层传播，可用于远距离水下通信。
 
-另外，声速还与温度有关，在 []{.arithmatex}$\pu{0^oC}$ 的空气中约为 []{.arithmatex}$\pu{330m/s}$，常温下的空气中约为 []{.arithmatex}$\pu{340m/s}$，在水中约为 []{.arithmatex}$\pu{1500m/s}$，在钢铁铝铜玻璃等固体中通常能达到 []{.arithmatex}$\pu{5000m/s}$ 甚至更高。
+另外，声速还与温度有关，在 \$\pu{0\^oC}\$ 的空气中约为 \$\pu{330m/s}\$，常温下的空气中约为 \$\pu{340m/s}\$，在水中约为 \$\pu{1500m/s}\$，在钢铁铝铜玻璃等固体中通常能达到 \$\pu{5000m/s}\$ 甚至更高。
 
 ### 波的函数 {#_16}
 
@@ -475,49 +312,25 @@ $$v=\sqrt{\dfrac T\rho}$$
 
 简谐波的波形图与质点的振动图像都是正弦曲线，但它们的意义是不同的。
 
-- 如左，**振动图像**表示介质中"某一质点"在"各个时刻"的位移（[]{.arithmatex}$u-t$）。
+- 如左，**振动图像**表示介质中"某一质点"在"各个时刻"的位移（\$u-t\$）。
 
-- 如右，**波形图**表示介质中的"各个质点"在某"一时刻"的位移（[]{.arithmatex}$u-x$）。
+- 如右，**波形图**表示介质中的"各个质点"在某"一时刻"的位移（\$u-x\$）。
 
-我们做一些公式的推导，考虑以 []{.arithmatex}$O$ 为波源，设该处质点做简谐振动，其位移 []{.arithmatex}$u$ 与世界 []{.arithmatex}$t$ 的关系为：
+我们做一些公式的推导，考虑以 \$O\$ 为波源，设该处质点做简谐振动，其位移 \$u\$ 与世界 \$t\$ 的关系为：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-u=A\cos\omega t
-:::
+\$\$ u=A\cos\omega t \$\$
 
-$$u=A\cos\omega t$$
-::::
+考虑波速 \$v\$ 传播到与 \$O\$ 点距离为 \$x\$ 的 \$P\$ 点处，此处的相位与 \$O\$ 相比落后了 \$x/v\$ 的时间，又假设振幅相同，也就是说在 \$P\$ 点的质点在 \$t\$ 时刻位移为：
 
-考虑波速 []{.arithmatex}$v$ 传播到与 []{.arithmatex}$O$ 点距离为 []{.arithmatex}$x$ 的 []{.arithmatex}$P$ 点处，此处的相位与 []{.arithmatex}$O$ 相比落后了 []{.arithmatex}$x/v$ 的时间，又假设振幅相同，也就是说在 []{.arithmatex}$P$ 点的质点在 []{.arithmatex}$t$ 时刻位移为：
+\$\$ u\'=A\cos\omega\paren{t-\dfrac{x}{v}} \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-u\'=A\cos\omega\paren{t-\dfrac{x}{v}}
-:::
+不妨令 \$k=\dfrac{2\pi}{\lambda}\$，称为角波数（单位为 \$\pu{rad/m}\$），得到：
 
-$$u'=A\cos\omega\paren{t-\dfrac{x}{v}}$$
-::::
-
-不妨令 []{.arithmatex}$k=\dfrac{2\pi}{\lambda}$，称为角波数（单位为 []{.arithmatex}$\pu{rad/m}$），得到：
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-u\'=A\cos(\omega t-kx)
-:::
-
-$$u'=A\cos(\omega t-kx)$$
-::::
+\$\$ u\'=A\cos(\omega t-kx) \$\$
 
 经过推导，我们还可以得出一个常用的公式：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-u\'=A\cos2\pi\paren{\dfrac{t}{T}-\dfrac{x}{\lambda}}=A\cos2\pi\paren{ft-\dfrac{x}{\lambda}}
-:::
-
-$$u'=A\cos2\pi\paren{\dfrac{t}{T}-\dfrac{x}{\lambda}}=A\cos2\pi\paren{ft-\dfrac{x}{\lambda}}$$
-::::
+\$\$ u\'=A\cos2\pi\paren{\dfrac{t}{T}-\dfrac{x}{\lambda}}=A\cos2\pi\paren{ft-\dfrac{x}{\lambda}} \$\$
 
 为了更好的比较图像，以及使用平移的思想，我们通常将两个图像叠放在一起，
 
@@ -545,53 +358,41 @@ $$u'=A\cos2\pi\paren{\dfrac{t}{T}-\dfrac{x}{\lambda}}=A\cos2\pi\paren{ft-\dfrac{
 
 **思路：** 衍射的明显程度，通常用能量扩散的**角宽度（Angular Width）**来衡量。也就是说，中央亮纹（主能量区）张开的角度越大，衍射越明显。
 
-1.  **模型建立：** 假设波通过一个宽度为 []{.arithmatex}$a$ 的狭缝。
+1.  **模型建立：** 假设波通过一个宽度为 \$a\$ 的狭缝。
 
 2.  **极小值条件：** 根据菲涅耳衍射理论，单缝衍射的第一级暗纹（能量极小值）出现的位置满足公式：
 
-    :::: {.arithmatex}
-    ::: {.MathJax_Preview}
-    a \sin \theta = \lambda
-    :::
-
-    $$a \sin \theta = \lambda$$
-    ::::
+    \$\$ a \sin \theta = \lambda \$\$
 
     其中：
 
-    - []{.arithmatex}$a$ 是缝宽。
-    - []{.arithmatex}$\lambda$ 是波长。
-    - []{.arithmatex}$\theta$ 是第一级暗纹相对于中心轴线的衍射角。
+    - \$a\$ 是缝宽。
+    - \$\lambda\$ 是波长。
+    - \$\theta\$ 是第一级暗纹相对于中心轴线的衍射角。
 
-3.  **推导：**我们关注衍射角 []{.arithmatex}$\theta$：
+3.  **推导：**我们关注衍射角 \$\theta\$：
 
-    :::: {.arithmatex}
-    ::: {.MathJax_Preview}
-    \sin \theta = \frac{\lambda}{a}
-    :::
+    \$\$ \sin \theta = \frac{\lambda}{a} \$\$
 
-    $$\sin \theta = \frac{\lambda}{a}$$
-    ::::
+    - 当缝宽 \$a\$ 保持不变时（"经过同样的缝隙"），\$\lambda\$ **增大**。
+    - 因为 \$\sin \theta\$ 与 \$\lambda\$ 成正比，所以 \$\sin \theta\$ 变大。
+    - 在 \$0\$ 到 \$90\^\circ\$ 范围内，正弦函数是单调递增的，所以 \$\theta\$ **变大**。
 
-    - 当缝宽 []{.arithmatex}$a$ 保持不变时（"经过同样的缝隙"），[]{.arithmatex}$\lambda$ **增大**。
-    - 因为 []{.arithmatex}$\sin \theta$ 与 []{.arithmatex}$\lambda$ 成正比，所以 []{.arithmatex}$\sin \theta$ 变大。
-    - 在 []{.arithmatex}$0$ 到 []{.arithmatex}$90^\circ$ 范围内，正弦函数是单调递增的，所以 []{.arithmatex}$\theta$ **变大**。
-
-4.  **结论：** []{.arithmatex}$\theta$ 变大意味着波穿过缝隙后，向两侧扩散的角度更广，能量不再集中在直线方向，这就是"衍射现象更明显"。
+4.  **结论：** \$\theta\$ 变大意味着波穿过缝隙后，向两侧扩散的角度更广，能量不再集中在直线方向，这就是"衍射现象更明显"。
 
 #### 视角二：基于"惠更斯-菲涅耳原理"的相位干涉分析（微观机制视角） {#-}
 
-**构想：** 把缝隙 []{.arithmatex}$a$ 想象成由无数个并排的"点波源"组成的队伍。
+**构想：** 把缝隙 \$a\$ 想象成由无数个并排的"点波源"组成的队伍。
 
 1.  **破坏性干涉（由亮变暗）：**波之所以会形成定向的束（不明显衍射），或者在某个角度消失（暗纹），是因为缝隙不同位置发出的子波在远处相互抵消了（反相干涉）。
 
-    最简单的抵消条件是：缝隙**最上端**发出的波与**中心**发出的波，到达某点的路程差刚好是半个波长（[]{.arithmatex}$\lambda/2$）。此时一正一负，刚好抵消。
+    最简单的抵消条件是：缝隙**最上端**发出的波与**中心**发出的波，到达某点的路程差刚好是半个波长（\$\lambda/2\$）。此时一正一负，刚好抵消。
 
-2.  **波长 []{.arithmatex}**$\lambda$ 的尺子效应：
+2.  **波长 \$\lambda\$ 的尺子效应：**
 
-    - **如果波长很短（[]{.arithmatex}**$\lambda \ll a$）： 只需要稍微偏离一点点角度，缝隙边缘和中心的路径差就能达到 []{.arithmatex}$\lambda/2$。这意味着波刚想往旁边跑，就立刻被自己抵消掉了。所以波只能乖乖走直线。
+    - **如果波长很短（\$\lambda \ll a\$）：** 只需要稍微偏离一点点角度，缝隙边缘和中心的路径差就能达到 \$\lambda/2\$。这意味着波刚想往旁边跑，就立刻被自己抵消掉了。所以波只能乖乖走直线。
 
-    - **如果波长很长（[]{.arithmatex}**$\lambda \approx a$ 或 []{.arithmatex}$\lambda > a$）： 波长太长了，即便你偏转了很大的角度（甚至偏转到 []{.arithmatex}$90^\circ$），缝隙边缘和中心的路径差可能还凑不够半个波长（[]{.arithmatex}$\Delta L < \lambda/2$）。
+    - **如果波长很长（\$\lambda \approx a\$ 或 \$\lambda \> a\$）：** 波长太长了，即便你偏转了很大的角度（甚至偏转到 \$90\^\circ\$），缝隙边缘和中心的路径差可能还凑不够半个波长（\$\Delta L \< \lambda/2\$）。
 
     - **关键点：** 如果凑不够半个波长，就无法形成有效的"相消干涉"。
 
@@ -603,9 +404,9 @@ $$u'=A\cos2\pi\paren{\dfrac{t}{T}-\dfrac{x}{\lambda}}=A\cos2\pi\paren{ft-\dfrac{
 
 惠更斯原理：介质中任一波面上的各点，都可以看作是发射子波的波源；其后任一时刻，这些子波的包络面就是新的波面。
 
-1.  **解释反射定律**：想象一束平面波（波面为直线）以入射角 []{.arithmatex}$\theta_1$ 射向界面。在波面 []{.arithmatex}$AA'$ 上的各点，当 []{.arithmatex}$A$ 点到达界面时，[]{.arithmatex}$A'$ 点还未到达。经过一段时间 []{.arithmatex}$\Delta t$，[]{.arithmatex}$A$ 点发出的子波已经以半径 []{.arithmatex}$v_1 \Delta t$ 在介质 1 中传播，而 []{.arithmatex}$A'$ 点刚好到达界面 []{.arithmatex}$B$ 点。连接所有子波的包络面（即过 []{.arithmatex}$B$ 点作 []{.arithmatex}$A$ 点子波的切线），就得到了新的反射波面。通过简单的几何关系，可以严格证明反射角 []{.arithmatex}$\theta' = \text{入射角 } \theta_1$。
+1.  **解释反射定律**：想象一束平面波（波面为直线）以入射角 \$\theta_1\$ 射向界面。在波面 \$AA\'\$ 上的各点，当 \$A\$ 点到达界面时，\$A\'\$ 点还未到达。经过一段时间 \$\Delta t\$，\$A\$ 点发出的子波已经以半径 \$v_1 \Delta t\$ 在介质 1 中传播，而 \$A\'\$ 点刚好到达界面 \$B\$ 点。连接所有子波的包络面（即过 \$B\$ 点作 \$A\$ 点子波的切线），就得到了新的反射波面。通过简单的几何关系，可以严格证明反射角 \$\theta\' = \text{入射角 } \theta_1\$。
 
-2.  **解释折射定律**：同样的情景，但波进入了介质 2。当 []{.arithmatex}$A$ 点到达界面后，它发出的子波在介质 2 中以速度 []{.arithmatex}$v_2$ 传播。经过 []{.arithmatex}$\Delta t$，[]{.arithmatex}$A'$ 点到达界面 []{.arithmatex}$B$ 点，此时 []{.arithmatex}$A$ 点在介质 2 中的子波半径为 []{.arithmatex}$v_2 \Delta t$。连接包络面，通过几何关系可以证明折射定律。
+2.  **解释折射定律**：同样的情景，但波进入了介质 2。当 \$A\$ 点到达界面后，它发出的子波在介质 2 中以速度 \$v_2\$ 传播。经过 \$\Delta t\$，\$A\'\$ 点到达界面 \$B\$ 点，此时 \$A\$ 点在介质 2 中的子波半径为 \$v_2 \Delta t\$。连接包络面，通过几何关系可以证明折射定律。
 
 ::: {.grid}
 ![alt text](../997a0e28b6108d82_6fa4db1-56c4028.avif)
@@ -623,43 +424,25 @@ $$u'=A\cos2\pi\paren{\dfrac{t}{T}-\dfrac{x}{\lambda}}=A\cos2\pi\paren{ft-\dfrac{
 
 虽然题目问的是机械波，但波动性在物理学中是统一的。利用量子力学的动量-位置不确定性关系，可以给出一个非常精妙的解释。
 
-公式： []{.arithmatex}$\Delta x \cdot \Delta p_y \approx h$ （这里 []{.arithmatex}$h$ 代表某种波动常数，类比普朗克常数）。
+公式： \$\Delta x \cdot \Delta p_y \approx h\$ （这里 \$h\$ 代表某种波动常数，类比普朗克常数）。
 
-1.  **位置限制（[]{.arithmatex}**$\Delta x$）：波通过缝隙，说明波在垂直方向上的位置被限制在缝宽 []{.arithmatex}$a$ 的范围内。所以，位置不确定度 []{.arithmatex}$\Delta x \approx a$。
+1.  **位置限制（\$\Delta x\$）：**波通过缝隙，说明波在垂直方向上的位置被限制在缝宽 \$a\$ 的范围内。所以，位置不确定度 \$\Delta x \approx a\$。
 
-2.  **动量分散（[]{.arithmatex}**$\Delta p_y$）：根据不确定性原理，位置限制得越死，动量的不确定度就越大。
+2.  **动量分散（\$\Delta p_y\$）：**根据不确定性原理，位置限制得越死，动量的不确定度就越大。
 
-    :::: {.arithmatex}
-    ::: {.MathJax_Preview}
-    \Delta p_y \approx \frac{h}{a}
-    :::
-
-    $$\Delta p_y \approx \frac{h}{a}$$
-    ::::
+    \$\$ \Delta p_y \approx \frac{h}{a} \$\$
 
     这意味着波（或粒子）在垂直方向上获得了一个随机的动量分量，导致它不再单纯沿水平方向飞，而是有了横向速度，这就是衍射（扩散）。
 
-3.  **引入波长：**在波动学中，动量 []{.arithmatex}$p$ 与波长 []{.arithmatex}$\lambda$ 成反比（德布罗意关系 []{.arithmatex}$p = h/\lambda$）。衍射角 []{.arithmatex}$\theta$ 大约等于横向动量与总动量的比值：
+3.  **引入波长：**在波动学中，动量 \$p\$ 与波长 \$\lambda\$ 成反比（德布罗意关系 \$p = h/\lambda\$）。衍射角 \$\theta\$ 大约等于横向动量与总动量的比值：
 
-    :::: {.arithmatex}
-    ::: {.MathJax_Preview}
-    \theta \approx \frac{\Delta p_y}{p}
-    :::
-
-    $$\theta \approx \frac{\Delta p_y}{p}$$
-    ::::
+    \$\$ \theta \approx \frac{\Delta p_y}{p} \$\$
 
     代入上面的关系：
 
-    :::: {.arithmatex}
-    ::: {.MathJax_Preview}
-    \theta \approx \frac{h/a}{h/\lambda} = \frac{\lambda}{a}
-    :::
+    \$\$ \theta \approx \frac{h/a}{h/\lambda} = \frac{\lambda}{a} \$\$
 
-    $$\theta \approx \frac{h/a}{h/\lambda} = \frac{\lambda}{a}$$
-    ::::
-
-4.  **结论：**看最终公式 []{.arithmatex}$\theta \approx \lambda/a$。很明显，**[]{.arithmatex}**$\lambda$ 越大，[]{.arithmatex}$\theta$ 越大。
+4.  **结论：**看最终公式 \$\theta \approx \lambda/a\$。很明显，**\$\lambda\$ 越大，\$\theta\$ 越大**。
 
 这个视角非常"高级"，它揭示了衍射不是一种简单的机械运动，而是波动受限后的必然物理结果。
 
@@ -687,56 +470,32 @@ $$u'=A\cos2\pi\paren{\dfrac{t}{T}-\dfrac{x}{\lambda}}=A\cos2\pi\paren{ft-\dfrac{
 
 干涉过程能量守恒，只是重新分配。干涉使能量从减弱区转移到加强区，总能量守恒。
 
-如果起振方向相同，对于平面内一点 []{.arithmatex}$P$，则比较 []{.arithmatex}$||PS_1|-|PS_2||$（到两波源的距离之差）是 []{.arithmatex}$\lambda/2$ 的倍数的奇偶性即可，根据振动合成的公式可以推导得出两个特殊的位置：
+如果起振方向相同，对于平面内一点 \$P\$，则比较 \$\|\|PS_1\|-\|PS_2\|\|\$（到两波源的距离之差）是 \$\lambda/2\$ 的倍数的奇偶性即可，根据振动合成的公式可以推导得出两个特殊的位置：
 
 ::: {.grid .cards}
 - **振动加强点（线）**
 
   ------------------------------------------------------------------------
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \|\|PS_1\|-\|PS_2\|\|=2k\cdot\dfrac{\lambda}{2}
-  :::
+  \$\$ \|\|PS_1\|-\|PS_2\|\|=2k\cdot\dfrac{\lambda}{2} \$\$
 
-  $$||PS_1|-|PS_2||=2k\cdot\dfrac{\lambda}{2}$$
-  ::::
+  其中 \$k\in\Z\$，即
 
-  其中 []{.arithmatex}$k\in\Z$，即
+  \$\$ \|\|PS_1\|-\|PS_2\|\|=k\lambda \$\$
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \|\|PS_1\|-\|PS_2\|\|=k\lambda
-  :::
-
-  $$||PS_1|-|PS_2||=k\lambda$$
-  ::::
-
-  则 []{.arithmatex}$P$ 点为振动加强点。
+  则 \$P\$ 点为振动加强点。
 
 - **振动减弱点（线）**
 
   ------------------------------------------------------------------------
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \|\|PS_1\|-\|PS_2\|\|=(2k+1)\cdot\dfrac{\lambda}{2}
-  :::
+  \$\$ \|\|PS_1\|-\|PS_2\|\|=(2k+1)\cdot\dfrac{\lambda}{2} \$\$
 
-  $$||PS_1|-|PS_2||=(2k+1)\cdot\dfrac{\lambda}{2}$$
-  ::::
+  其中 \$k\in\Z\$，即
 
-  其中 []{.arithmatex}$k\in\Z$，即
+  \$\$ \|\|PS_1\|-\|PS_2\|\|=\paren{k+\dfrac{1}{2}}\lambda \$\$
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \|\|PS_1\|-\|PS_2\|\|=\paren{k+\dfrac{1}{2}}\lambda
-  :::
-
-  $$||PS_1|-|PS_2||=\paren{k+\dfrac{1}{2}}\lambda$$
-  ::::
-
-  则 []{.arithmatex}$P$ 点为振动减弱点。
+  则 \$P\$ 点为振动减弱点。
 :::
 
 也就是说，上图中实、虚线均为双曲线（或退化为直线），因此可以使用一些圆锥曲线的知识或思想解题。
@@ -755,45 +514,27 @@ $$u'=A\cos2\pi\paren{\dfrac{t}{T}-\dfrac{x}{\lambda}}=A\cos2\pi\paren{ft-\dfrac{
 
 这种波的特征是：有些点振幅恒为零，即始终不动；有些点的振幅最大，我们把始终不振动的点叫**波节**，把振幅最大处叫做**波腹**；两波节间的各个质元均做同时向上或同时向下，但振幅不同的同步调振动，因而波形虽然也随时间而变化，却并不在弦线上移动，这也就是把它称为驻波的原因。
 
-我们发现，入射波的反射点 []{.arithmatex}$b$ 是固定不动的，所以必为波节。这表明入射波与反射波在 []{.arithmatex}$b$ 点的相位一定始终相反，即入射波在固定端发生反射时，相位发生了 []{.arithmatex}$\pi$ 的突变。由于在波的传播中，相距半个波长的两质元的相位差为 []{.arithmatex}$\pi$，所以相位为 []{.arithmatex}$\pi$ 的突变，就相当于"损失"（或"附加"）了半个波长，因此通常又把这种现象称为**半波损失**。当然，这只是一种形象的说法，并非是波在实际上少传播或多传播了半个波长的距离。
+我们发现，入射波的反射点 \$b\$ 是固定不动的，所以必为波节。这表明入射波与反射波在 \$b\$ 点的相位一定始终相反，即入射波在固定端发生反射时，相位发生了 \$\pi\$ 的突变。由于在波的传播中，相距半个波长的两质元的相位差为 \$\pi\$，所以相位为 \$\pi\$ 的突变，就相当于"损失"（或"附加"）了半个波长，因此通常又把这种现象称为**半波损失**。当然，这只是一种形象的说法，并非是波在实际上少传播或多传播了半个波长的距离。
 
-通过一些推导，我们可以知道相邻波腹或波节之间的距离为 []{.arithmatex}$\dfrac{\lambda}{2}$，振动的最大振幅是 []{.arithmatex}$2A$。
+通过一些推导，我们可以知道相邻波腹或波节之间的距离为 \$\dfrac{\lambda}{2}\$，振动的最大振幅是 \$2A\$。
 
 ![alt text](../m-image-17.avif){width="60%"}
 
 大部分弦乐器的工作原理都与此相似，波动琴弦产生的波向相反的两个方向传播，在相应的固定点反射后，两列波又相向传播，叠加后形成驻波。琴弦的波动把一部分能量传给共鸣箱，从共鸣箱向外传送声波。
 
-在弦乐器中，弦的两端被固定，所以弦的两端必然是波节，因此长度为 []{.arithmatex}$L$ 上的弦形成的驻波的波长与 []{.arithmatex}$L$ 应有一定的关系，而并非所有的波长都能形成驻波。我们发现，弦长恰好为半波长的整数倍，即
+在弦乐器中，弦的两端被固定，所以弦的两端必然是波节，因此长度为 \$L\$ 上的弦形成的驻波的波长与 \$L\$ 应有一定的关系，而并非所有的波长都能形成驻波。我们发现，弦长恰好为半波长的整数倍，即
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-L=n\dfrac\lambda2
-:::
-
-$$L=n\dfrac\lambda2$$
-::::
+\$\$ L=n\dfrac\lambda2 \$\$
 
 因此声音可能的频率为
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-f=\dfrac{v}{\lambda}=n\dfrac{v}{2L}
-:::
-
-$$f=\dfrac{v}{\lambda}=n\dfrac{v}{2L}$$
-::::
+\$\$ f=\dfrac{v}{\lambda}=n\dfrac{v}{2L} \$\$
 
 根据我们在振动部分的了解，波速与弦的种类、张力有关。可见，改变弦长、改变张力、改变弦的种类，都能使琴弦发出声音都频率发生改变。各种弦乐器上都有多条不同的琴弦及调节装置就是这个道理。
 
 其中，弦发出声波的最低频率，叫做基音频率
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-f_1=\dfrac{v}{2L}
-:::
-
-$$f_1=\dfrac{v}{2L}$$
-::::
+\$\$ f_1=\dfrac{v}{2L} \$\$
 
 其他较高频率（基音的整数倍）叫做基音的谐音，泛音还包括一些频率不是基音整数倍的声音。而管乐器发声时也是靠着驻波激发声波，这些管内的驻波是由管内的空气柱振动形成的。
 
@@ -805,23 +546,17 @@ $$f_1=\dfrac{v}{2L}$$
 
 有公式：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-f\'=\dfrac{v\pm v\_{\text{o}}}{v\mp v\_{\text{s}}}\cdot f
-:::
+\$\$ f\'=\dfrac{v\pm v\_{\text{o}}}{v\mp v\_{\text{s}}}\cdot f \$\$
 
-$$f'=\dfrac{v\pm v_{\text{o}}}{v\mp v_{\text{s}}}\cdot f$$
-::::
+- \$f\'\$ 为观察者观察到的频率。
 
-- []{.arithmatex}$f'$ 为观察者观察到的频率。
+- \$f\$ 为波源于该介质中的原始发射频率。
 
-- []{.arithmatex}$f$ 为波源于该介质中的原始发射频率。
+- \$v\$ 为波在该介质中的传播速度。
 
-- []{.arithmatex}$v$ 为波在该介质中的传播速度。
+- \$v\_{\text{o}}\$（Observer）为观察者相对于介质的移动速度，若接近发射源则前方运算符号为 \$+\$ 号，反之则为 \$−\$ 号；
 
-- []{.arithmatex}$v_{\text{o}}$（Observer）为观察者相对于介质的移动速度，若接近发射源则前方运算符号为 []{.arithmatex}$+$ 号，反之则为 []{.arithmatex}$−$ 号；
-
-- []{.arithmatex}$v_{\text{s}}$（Source）为发射源相对于介质的移动速度，若接近观察者则前方运算符号为 []{.arithmatex}$−$ 号，反之则为 []{.arithmatex}$+$ 号。
+- \$v\_{\text{s}}\$（Source）为发射源相对于介质的移动速度，若接近观察者则前方运算符号为 \$−\$ 号，反之则为 \$+\$ 号。
 
 我们可以这样理解声波的多普勒效应：当波源与观察者相对静止时，单位时间内通过观察者的波峰（或密部）的数目是一定的，观测到的频率等于波源振动的频率；当波源与观察者相互接近时，单位时间内通过观察者的波峰（或密部）的数目增加，观测到的频率增加；反之，当波源与观察者相互远离时，观测到的频率变小。
 
@@ -829,18 +564,12 @@ $$f'=\dfrac{v\pm v_{\text{o}}}{v\mp v_{\text{s}}}\cdot f$$
 
 - 彩超：向人体内发射频率已知的超声波，超声波被血管中的血流反射后又被仪器接收。测出反射波的频率变化，就能知道血流的速度。
 
-当波源以超波速运动时，即 []{.arithmatex}$v_{\text{s}}>v$，因为在这种情况下，在任意时刻波源本身都将超过它此前发出的波前，所以在波源前方不可能有任何波动产生。
+当波源以超波速运动时，即 \$v\_{\text{s}}\>v\$，因为在这种情况下，在任意时刻波源本身都将超过它此前发出的波前，所以在波源前方不可能有任何波动产生。
 
 ![alt text](../m-image-15.avif){width="40%"}
 
-如图，波源在经过 []{.arithmatex}$S$ 点时发出的波，在其后 []{.arithmatex}$t$ 时刻的波阵面为半径为 []{.arithmatex}$vt$ 都球面，波源次此时已经前进了 []{.arithmatex}$v_{\text{s}}t$ 的距离到达 []{.arithmatex}$S'$ 点，在整个 []{.arithmatex}$t$ 时间内，波源发出的波所到达的前沿形成了一个圆锥面。这个锥形称为马赫锥，马赫锥是波的前缘，其外没有波动产生，这种形式的波动叫做**艏波**。这个锥形的顶角 []{.arithmatex}$\alpha$ 有公式
+如图，波源在经过 \$S\$ 点时发出的波，在其后 \$t\$ 时刻的波阵面为半径为 \$vt\$ 都球面，波源次此时已经前进了 \$v\_{\text{s}}t\$ 的距离到达 \$S\'\$ 点，在整个 \$t\$ 时间内，波源发出的波所到达的前沿形成了一个圆锥面。这个锥形称为马赫锥，马赫锥是波的前缘，其外没有波动产生，这种形式的波动叫做**艏波**。这个锥形的顶角 \$\alpha\$ 有公式
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\sin\alpha=\dfrac{v}{v_s}
-:::
-
-$$\sin\alpha=\dfrac{v}{v_s}$$
-::::
+\$\$ \sin\alpha=\dfrac{v}{v_s} \$\$
 
 按照相对论，任何物体的速度不能超过真空中的光速，但可以超过介质中的光速。当在透明介质里穿行的带电粒子的速度超过那里的光速时，会发出一种特殊的辐射，叫做**切伦科夫辐射**。它是电磁波的艏波。

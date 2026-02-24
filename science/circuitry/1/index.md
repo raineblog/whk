@@ -22,57 +22,51 @@
 
 - 定义：单位时间内通过导体横截面的电荷量。
 
-- 定义式：[]{.arithmatex}$I=\dfrac{Q}{t}$。
+- 定义式：\$I=\dfrac{Q}{t}\$。
 
-额外的，有微观表达式：[]{.arithmatex}$I=neSv$。
+额外的，有微观表达式：\$I=neSv\$。
 
-- 其中 []{.arithmatex}$n$ 表示通过导体横截面的电子数。
+- 其中 \$n\$ 表示通过导体横截面的电子数。
 
-- 其中 []{.arithmatex}$e$ 表示电子的电荷量。
+- 其中 \$e\$ 表示电子的电荷量。
 
-- 其中 []{.arithmatex}$S$ 表示导体的横截面积大小。
+- 其中 \$S\$ 表示导体的横截面积大小。
 
-- 其中 []{.arithmatex}$v$ 表示导体中自由电子的运动速率。
+- 其中 \$v\$ 表示导体中自由电子的运动速率。
 
 三种速度数量级：
 
-- 电子定向移动速率：[]{.arithmatex}$\pu{10^-5m/s}$。
+- 电子定向移动速率：\$\pu{10\^-5m/s}\$。
 
-- 电子热运动速率：[]{.arithmatex}$\pu{10^5m/s}$。
+- 电子热运动速率：\$\pu{10\^5m/s}\$。
 
-- 电子的传导速率：[]{.arithmatex}$\pu{10^8m/s}$，即电场的形成速率。
+- 电子的传导速率：\$\pu{10\^8m/s}\$，即电场的形成速率。
 
 电子运动速度这么低，为什么平常开灯的时候，按下开关的一瞬间灯就亮了呢？按下开关的一瞬间，导线内部的电场线光速建立好，使导线内部所有电子瞬间开始移动。注意这个过程是导线内所有电子同步开始移动的，虽然导线内开关处的电子移动到导线内灯泡处需要很长时间，但导线内灯泡处已经有电子了，这里的电子瞬间移动，就可以做功使灯泡发光。
 
 电流既不依赖电路，也不依赖电源，任何电荷定向移动的情形都可以称作电流。如氢原子电子绕核运动可以等效为环形电流；原电池电解质溶液内离子的定向移动可以等效为电流；令一个摩擦后带上负电的橡胶棒向右运动，也可以等效为一个向左的电流。
 
-一个 []{.arithmatex}$\ce{H}$ 原子的电子绕核运动可等效为一环形电流。已知电子电量大小 []{.arithmatex}$e$，周期 []{.arithmatex}$T$，绕质子顺时针运动。求电流的方向和电流强度 []{.arithmatex}$I$ 的大小。
+一个 \$\ce{H}\$ 原子的电子绕核运动可等效为一环形电流。已知电子电量大小 \$e\$，周期 \$T\$，绕质子顺时针运动。求电流的方向和电流强度 \$I\$ 的大小。
 
-我们知道，「电流的电流强度的大小是多少」这种问题，应该在电流是恒定电流的时候才有意义。然而这类环形电流模型有点不符合常规的恒定电流：它并不是相当于导线内部处处有电子，而只是一个孤立电子在运动。这会导致一个问题：考虑钦定 []{.arithmatex}$\dfrac T 2$ 这个时间，那么一半的横截面被电子经过，另一半却没有，这真的是恒定电流吗？
+我们知道，「电流的电流强度的大小是多少」这种问题，应该在电流是恒定电流的时候才有意义。然而这类环形电流模型有点不符合常规的恒定电流：它并不是相当于导线内部处处有电子，而只是一个孤立电子在运动。这会导致一个问题：考虑钦定 \$\dfrac T 2\$ 这个时间，那么一半的横截面被电子经过，另一半却没有，这真的是恒定电流吗？
 
 与力学不同，载流子（这里是电子）是一粒一粒的，因此电流通常是在 统计意义下 讨论的，并不适用对于极度微小的时间上的讨论。事实上，对于恒定电流，我们不能保证在两段相等的微小时间内，经过电路中某一点的电荷总量绝对相同。足够严谨的说法是：在宏观尺度上选取任意两段相等的时间，经过电路中某一点的电荷总量几乎不变，也即「恒定」是一个宏观意义上统计出的结果。
 
-电子绕核运动速率很快，[]{.arithmatex}$T$ 很小。在统计意义上，对宏观尺度的时间计时，那么每个横截面经过电荷总量都近似相等，且与时间成正比，这就说明它是一个恒定电流。
+电子绕核运动速率很快，\$T\$ 很小。在统计意义上，对宏观尺度的时间计时，那么每个横截面经过电荷总量都近似相等，且与时间成正比，这就说明它是一个恒定电流。
 
-那怎么计算这个恒定电流的大小呢？在统计意义上每个横截面经过的总电荷总量大小都近似相等，且与时间成正比，那这个比值就是电流大小了！分析一下这个比值，考虑经过宏观时间 []{.arithmatex}$t$ 后，电子应近似做了 []{.arithmatex}$\dfrac t T$ 次圆周运动，那么经过每个横截面的总电荷总量大小为 []{.arithmatex}$\dfrac{t e}T$。除以总时间 []{.arithmatex}$t$ 即可得到电流大小 []{.arithmatex}$\dfrac{e}T$。
+那怎么计算这个恒定电流的大小呢？在统计意义上每个横截面经过的总电荷总量大小都近似相等，且与时间成正比，那这个比值就是电流大小了！分析一下这个比值，考虑经过宏观时间 \$t\$ 后，电子应近似做了 \$\dfrac t T\$ 次圆周运动，那么经过每个横截面的总电荷总量大小为 \$\dfrac{t e}T\$。除以总时间 \$t\$ 即可得到电流大小 \$\dfrac{e}T\$。
 
-或者，可以直接钦定经过时间为 []{.arithmatex}$T$ 的倍数，比如直接钦定为 []{.arithmatex}$T$。那么经过每个横截面的电荷总量就是 []{.arithmatex}$e$，可以直接计算得 []{.arithmatex}$\dfrac{e}T$。这里虽然选用了微小时间，但是它可以保证计算出的结果在统计意义上也正确，因为在统计意义上，一段宏观时间的电子运动就是很多次圆周运动拼起来（一次运动了部分圆周的运动可以忽略），而无论多少次圆周运动拼起来，统计意义上计算出的电流都等于 []{.arithmatex}$\dfrac{e}T$。
+或者，可以直接钦定经过时间为 \$T\$ 的倍数，比如直接钦定为 \$T\$。那么经过每个横截面的电荷总量就是 \$e\$，可以直接计算得 \$\dfrac{e}T\$。这里虽然选用了微小时间，但是它可以保证计算出的结果在统计意义上也正确，因为在统计意义上，一段宏观时间的电子运动就是很多次圆周运动拼起来（一次运动了部分圆周的运动可以忽略），而无论多少次圆周运动拼起来，统计意义上计算出的电流都等于 \$\dfrac{e}T\$。
 
-因此，对于单电子环形电流问题，取周期 []{.arithmatex}$T$ 计算经过每个横截面的总电荷总量大小即可。
+因此，对于单电子环形电流问题，取周期 \$T\$ 计算经过每个横截面的总电荷总量大小即可。
 
-电流的方向为电子定向移动方向的反方向，即逆时针方向。经过时间 []{.arithmatex}$T$ 后，经过任一横截面的电荷总量大小为 []{.arithmatex}$e$。因此，电流大小为 []{.arithmatex}$\dfrac{\mathrm{e}}T$。
+电流的方向为电子定向移动方向的反方向，即逆时针方向。经过时间 \$T\$ 后，经过任一横截面的电荷总量大小为 \$e\$。因此，电流大小为 \$\dfrac{\mathrm{e}}T\$。
 
 ### 欧姆定律 {#_4}
 
 欧姆定律表明：处于某状态的导电体（**定温下**），其两端的电压与通过电导体的电流成正比，即：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-U\propto I
-:::
-
-$$U\propto I$$
-::::
+\$\$ U\propto I \$\$
 
 - 人教版高中物理教材指出：欧姆定律适用于金属、电解液导电，不适用气态导体和半导体导电。
 
@@ -84,13 +78,7 @@ $$U\propto I$$
 
 需要注意的是，欧姆定律并没有提到电阻，而电阻的定义式与欧姆定律非常类似：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-R=\dfrac{U}{I}
-:::
-
-$$R=\dfrac{U}{I}$$
-::::
+\$\$ R=\dfrac{U}{I} \$\$
 
 实际上有一定区别：
 
@@ -100,7 +88,7 @@ $$R=\dfrac{U}{I}$$
 
 这也是欧姆定律的一个常见错误认知^[1](#fn:note100){.footnote-ref}^。
 
-温度降低时，金属导体电阻率将会减小，一些金属在温度特别低时电阻可以减小到 []{.arithmatex}$0$，称之为超导现象。目前发现的超导体只能在很低温度下保持超导性质。
+温度降低时，金属导体电阻率将会减小，一些金属在温度特别低时电阻可以减小到 \$0\$，称之为超导现象。目前发现的超导体只能在很低温度下保持超导性质。
 
 在恒定电场的作用下，导体中的自由电荷做定向运动，在运动过程中与导体内不动的粒子不断碰撞，碰撞阻碍了自由电荷的定向运动（这个阻碍作用对应的就是导体的电阻）。
 
@@ -110,51 +98,27 @@ $$R=\dfrac{U}{I}$$
 
 我们知道电阻的决定式如下：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-R=\rho\dfrac{l}{S}
-:::
+\$\$ R=\rho\dfrac{l}{S} \$\$
 
-$$R=\rho\dfrac{l}{S}$$
-::::
-
-其中 []{.arithmatex}$\rho$ 为电阻率。
+其中 \$\rho\$ 为电阻率。
 
 而对于一个均匀的柱体电阻，可以得到：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-R=\rho\dfrac{l}{S}=\rho\dfrac{l\^2}{V}
-:::
-
-$$R=\rho\dfrac{l}{S}=\rho\dfrac{l^2}{V}$$
-::::
+\$\$ R=\rho\dfrac{l}{S}=\rho\dfrac{l\^2}{V} \$\$
 
 ### 焦耳定律 {#_6}
 
 发热量：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-Q=I\^2Rt
-:::
-
-$$Q=I^2Rt$$
-::::
+\$\$ Q=I\^2Rt \$\$
 
 电功推导：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-W=Uq=UIt
-:::
-
-$$W=Uq=UIt$$
-::::
+\$\$ W=Uq=UIt \$\$
 
 而热功率和电功率分别除以时间就可以了。
 
-以上三个公式，适用于**任何电路**，而对于纯电阻电路才可以根据欧姆定律得到 []{.arithmatex}$I^2R=UI$，我们将在电动机部分详细解释。
+以上三个公式，适用于**任何电路**，而对于纯电阻电路才可以根据欧姆定律得到 \$I\^2R=UI\$，我们将在电动机部分详细解释。
 
 ## 电路应用 {#_7}
 
@@ -162,15 +126,9 @@ $$W=Uq=UIt$$
 
 电动势表征一些电路元件供应电能的特性（非静电力做功的本质），这些电路元件称为电动势源，而电动势源所供应的能量每单位电荷是其电动势，有公式表达：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\mathcal{E}=\dfrac{W}{Q}
-:::
+\$\$ \mathcal{E}=\dfrac{W}{Q} \$\$
 
-$$\mathcal{E}=\dfrac{W}{Q}$$
-::::
-
-即把 []{.arithmatex}$\pu{1C}$ 正电荷从负极运回正极所做的功。通常，这能量是分离正负电荷所做的功，由于这正负电荷被分离至元件的两端，会出现对应电场与电势差。
+即把 \$\pu{1C}\$ 正电荷从负极运回正极所做的功。通常，这能量是分离正负电荷所做的功，由于这正负电荷被分离至元件的两端，会出现对应电场与电势差。
 
 ![alt text](../image.avif)
 
@@ -186,141 +144,81 @@ $$\mathcal{E}=\dfrac{W}{Q}$$
 
 串联规律：
 
-- 电流 []{.arithmatex}$I$ 相同、分压 []{.arithmatex}$U=U_1+U_2$。
+- 电流 \$I\$ 相同、分压 \$U=U_1+U_2\$。
 
-- 等效电阻为一个 []{.arithmatex}$R=R_1+R_2$ 的电阻。
+- 等效电阻为一个 \$R=R_1+R_2\$ 的电阻。
 
 并联规律：
 
-- 电压 []{.arithmatex}$U$ 相同，分流 []{.arithmatex}$I=I_1+I_2$。
+- 电压 \$U\$ 相同，分流 \$I=I_1+I_2\$。
 
-- 等效电阻为一个 []{.arithmatex}$R=\dfrac{R_1R_2}{R_1+R_2}$ 的电阻，记为鸡在和上飞。
+- 等效电阻为一个 \$R=\dfrac{R_1R_2}{R_1+R_2}\$ 的电阻，记为鸡在和上飞。
 
 串联电路：根据以上两个基本特点，运用欧姆定律，很容易得到以下三个推论。
 
 1.  串联电路的总电阻 (等效电阻) 等于各电阻之和，即
 
-    :::: {.arithmatex}
-    ::: {.MathJax_Preview}
-    R=R_1+R_2+R_3
-    :::
-
-    $$R=R_1+R_2+R_3$$
-    ::::
+    \$\$ R=R_1+R_2+R_3 \$\$
 
 2.  串联电路中各电阻的电压与它们的阻值成正比，或者说，电压按阻值成正比分配，即
 
-    :::: {.arithmatex}
-    ::: {.MathJax_Preview}
-    U_1:U_2:U_3=R_1:R_2:R_3
-    :::
-
-    $$U_1:U_2:U_3=R_1:R_2:R_3$$
-    ::::
+    \$\$ U_1:U_2:U_3=R_1:R_2:R_3 \$\$
 
 3.  串联电路中各电阻消耗的电功率与它们的阻值成正比，即
 
-    :::: {.arithmatex}
-    ::: {.MathJax_Preview}
-    P_1:P_2:P_3=R_1:R_2:R_3
-    :::
-
-    $$P_1:P_2:P_3=R_1:R_2:R_3$$
-    ::::
+    \$\$ P_1:P_2:P_3=R_1:R_2:R_3 \$\$
 
 并联电路：根据以上两个基本特点，运用欧姆定律，也可以得到三条推论。
 
 1.  并联电路的总电阻 (等效电阻) 的倒数等于各电阻的倒数之和，即
 
-    :::: {.arithmatex}
-    ::: {.MathJax_Preview}
-    \frac{1}{R} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}
-    :::
-
-    $$\frac{1}{R} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}$$
-    ::::
+    \$\$ \frac{1}{R} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} \$\$
 
 2.  并联电路中各支路的电流与它们的电阻的倒数成正比，即
 
-    :::: {.arithmatex}
-    ::: {.MathJax_Preview}
-    I_1:I_2:I_3 = \frac{1}{R_1}:\frac{1}{R_2}:\frac{1}{R_3}
-    :::
-
-    $$I_1:I_2:I_3 = \frac{1}{R_1}:\frac{1}{R_2}:\frac{1}{R_3}$$
-    ::::
+    \$\$ I_1:I_2:I_3 = \frac{1}{R_1}:\frac{1}{R_2}:\frac{1}{R_3} \$\$
 
 3.  并联电路中各电阻消耗的电功率与它们的电阻的倒数成正比，即
 
-    :::: {.arithmatex}
-    ::: {.MathJax_Preview}
-    P_1:P_2:P_3 = \frac{1}{R_1}:\frac{1}{R_2}:\frac{1}{R_3}
-    :::
-
-    $$P_1:P_2:P_3 = \frac{1}{R_1}:\frac{1}{R_2}:\frac{1}{R_3}$$
-    ::::
+    \$\$ P_1:P_2:P_3 = \frac{1}{R_1}:\frac{1}{R_2}:\frac{1}{R_3} \$\$
 
 ### 电源的串并联 {#_10}
 
-我们只考虑 []{.arithmatex}$n$ 个一样的电源（[]{.arithmatex}$E,r$）串并联：
+我们只考虑 \$n\$ 个一样的电源（\$E,r\$）串并联：
 
 - 串联：电动势增加，内阻增加。
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \begin{cases} E\'&=nE\\ r\'&=nr \end{cases}
-  :::
-
-  $$\begin{cases}
-  E'&=nE\\
-  r'&=nr
-  \end{cases}$$
-  ::::
+  \$\$ \begin{cases} E\'&=nE\\ r\'&=nr \end{cases} \$\$
 
 - 并联：电动势不变，内阻减小。
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \begin{cases} E\'&=E\\ r\'&=r/n \end{cases}
-  :::
+  \$\$ \begin{cases} E\'&=E\\ r\'&=r/n \end{cases} \$\$
 
-  $$\begin{cases}
-  E'&=E\\
-  r'&=r/n
-  \end{cases}$$
-  ::::
-
-聪明的你想到用 []{.arithmatex}$n^2$ 个电池连成方格，于是电动势增加，内阻不变。
+聪明的你想到用 \$n\^2\$ 个电池连成方格，于是电动势增加，内阻不变。
 
 ### 伏安特征曲线 {#_11}
 
-- 只有图像是一条过原点的直线，才是线性元件，斜率是 []{.arithmatex}$1/R$。
+- 只有图像是一条过原点的直线，才是线性元件，斜率是 \$1/R\$。
 
 - 电灯泡随着电流、电压、电功率增大，电阻增大。
 
-- 曲线向 []{.arithmatex}$U$ 轴偏移为电压增加电阻变大，向 []{.arithmatex}$I$ 轴偏移为电压增大电阻变小。
+- 曲线向 \$U\$ 轴偏移为电压增加电阻变大，向 \$I\$ 轴偏移为电压增大电阻变小。
 
 ### 电流的能量 {#_12}
 
-电源的功率：[]{.arithmatex}$P_{源} = I\epsilon = \frac{\epsilon^2}{(R+r)}$。
+电源的功率：\$P\_{源} = I\epsilon = \frac{\epsilon\^2}{(R+r)}\$。
 
 电源输出功率：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-P\_{出} = IU = \frac{\epsilon\^2}{(R+r)} \cdot R = \frac{\epsilon\^2}{\frac{(R+r)\^2}{R}+4r}
-:::
-
-$$P_{出} = IU = \frac{\epsilon^2}{(R+r)} \cdot R = \frac{\epsilon^2}{\frac{(R+r)^2}{R}+4r}$$
-::::
+\$\$ P\_{出} = IU = \frac{\epsilon\^2}{(R+r)} \cdot R = \frac{\epsilon^2}{\frac{(R+r)^2}{R}+4r} \$\$
 
 功率最值问题：
 
-- 若研究对象为定值：[]{.arithmatex}$R_变=0$ 时功率最大。
+- 若研究对象为定值：\$R_变=0\$ 时功率最大。
 
-- 若研究对象在改变：[]{.arithmatex}$R_研=R_{其他}$ 时功率最大。
+- 若研究对象在改变：\$R_研=R\_{其他}\$ 时功率最大。
 
-当 []{.arithmatex}$R=r$ 时电源输出功率为最大：[]{.arithmatex}$P_{\max} = \frac{\epsilon^2}{4r}$，此时电源效率：[]{.arithmatex}$\eta = 50\%$。
+当 \$R=r\$ 时电源输出功率为最大：\$P\_{\max} = \frac{\epsilon\^2}{4r}\$，此时电源效率：\$\eta = 50\\\$。
 
 ![alt text](../image-6.avif){width="60%"}
 
@@ -338,7 +236,7 @@ $$P_{出} = IU = \frac{\epsilon^2}{(R+r)} \cdot R = \frac{\epsilon^2}{\frac{(R+r
 
 - 理论基础：串并联规律、欧姆定律。
 
-- 滑动变阻器电阻增大 []{.arithmatex}$\implies$ 总电阻增大 []{.arithmatex}$\implies$ 总电流减小 []{.arithmatex}$\implies$ 内电路电压减小、外电路电压增大。
+- 滑动变阻器电阻增大 \$\implies\$ 总电阻增大 \$\implies\$ 总电流减小 \$\implies\$ 内电路电压减小、外电路电压增大。
 
 - 总电流减小，一条支路电流增大，另一条支路（滑动变阻器所在支路）电流减小。路端电压增大，滑动变阻器串联的电阻电压减小，滑动变阻器电压增大。
 
@@ -348,43 +246,25 @@ $$P_{出} = IU = \frac{\epsilon^2}{(R+r)} \cdot R = \frac{\epsilon^2}{\frac{(R+r
 
 - 未知电源电动势、内阻：联立两个方程，
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  E=U_外+Ir_内
-  :::
-
-  $$E=U_外+Ir_内$$
-  ::::
+  \$\$ E=U_外+Ir_内 \$\$
 
   对两个状态列方程即可。
 
-[]{.arithmatex}$\Delta U/\Delta I$ 问题：
+\$\Delta U/\Delta I\$ 问题：
 
 - 若研究对象电阻为定值：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \dfrac{\Delta U}{\Delta I}=R
-  :::
-
-  $$\dfrac{\Delta U}{\Delta I}=R$$
-  ::::
+  \$\$ \dfrac{\Delta U}{\Delta I}=R \$\$
 
 - 若研究对象电阻在改变：
 
-  :::: {.arithmatex}
-  ::: {.MathJax_Preview}
-  \dfrac{\Delta U}{\Delta I}=\dfrac{\Delta(E-U)}{\Delta I}=R\_{其他}
-  :::
-
-  $$\dfrac{\Delta U}{\Delta I}=\dfrac{\Delta(E-U)}{\Delta I}=R_{其他}$$
-  ::::
+  \$\$ \dfrac{\Delta U}{\Delta I}=\dfrac{\Delta(E-U)}{\Delta I}=R\_{其他} \$\$
 
 含容电路：
 
 1.  恒定电路中电容器所在支路没有电流流过，把电容器看做一个理想电压表。
 
-2.  通过电势法求出电容器两端的电势差，通过 []{.arithmatex}$Q=CU$ 算出电荷量。
+2.  通过电势法求出电容器两端的电势差，通过 \$Q=CU\$ 算出电荷量。
 
 3.  如果电容器被直接串联在电池上，电路中没有电流，电容器电势差即为电源电动势。
 
@@ -394,7 +274,7 @@ $$P_{出} = IU = \frac{\epsilon^2}{(R+r)} \cdot R = \frac{\epsilon^2}{\frac{(R+r
 
 电压源（理想电压源）具有两个基本的性质：
 
-1.  它的端电压为定值 []{.arithmatex}$U$，或为一时间函数 []{.arithmatex}$U(t)$，与流过的电流无关。
+1.  它的端电压为定值 \$U\$，或为一时间函数 \$U(t)\$，与流过的电流无关。
 
 2.  电压源自身电压是确定的，而流过它的电流是任意的。
 
@@ -404,7 +284,7 @@ $$P_{出} = IU = \frac{\epsilon^2}{(R+r)} \cdot R = \frac{\epsilon^2}{\frac{(R+r
 
 电流源（理想电流源）具有两个基本的性质：
 
-1.  它提供的电流是定值 []{.arithmatex}$I$，或是一定的时间函数 []{.arithmatex}$I(t)$ 与两端的电压无关。
+1.  它提供的电流是定值 \$I\$，或是一定的时间函数 \$I(t)\$ 与两端的电压无关。
 
 2.  电流源自身电流是确定的，而它两端的电压是任意的。
 
@@ -412,67 +292,43 @@ $$P_{出} = IU = \frac{\epsilon^2}{(R+r)} \cdot R = \frac{\epsilon^2}{\frac{(R+r
 
 像光电池一类的器件，工作时的特性比较接近电流源。
 
-::::::::::::: {.grid}
-::::::: {.admonition .note}
+::::: {.grid}
+::: {.admonition .note}
 电压源的工作原理
 
 如图：
 
 ![image](../8.avif)
 
-设 []{.arithmatex}$E_S$ 为电源电动势，[]{.arithmatex}$R_S$ 为内阻，[]{.arithmatex}$R$ 为负载，[]{.arithmatex}$V_0$ 为施加电压，[]{.arithmatex}$I$ 为电流：
+设 \$E_S\$ 为电源电动势，\$R_S\$ 为内阻，\$R\$ 为负载，\$V_0\$ 为施加电压，\$I\$ 为电流：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-I=\dfrac{E_S}{R_S+R}
-:::
-
-$$I=\dfrac{E_S}{R_S+R}$$
-::::
+\$\$ I=\dfrac{E_S}{R_S+R} \$\$
 
 因此：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-V_0=IR=\dfrac{R}{R_S+R}E_S
+\$\$ V_0=[IR]{.abbr title="Infrared Spectroscopy (红外光谱法)"}=\dfrac{R}{R_S+R}E_S \$\$
+
+如果 \$R\ll R_S\$，则 \$V_0\doteq E_S\$。因此，输出电压的波动不明显。
 :::
 
-$$V_0=IR=\dfrac{R}{R_S+R}E_S$$
-::::
-
-如果 []{.arithmatex}$R\ll R_S$，则 []{.arithmatex}$V_0\doteq E_S$。因此，输出电压的波动不明显。
-:::::::
-
-::::::: {.admonition .note}
+::: {.admonition .note}
 电流源的工作原理
 
 如图：
 
 ![image](../7.avif)
 
-设 []{.arithmatex}$I_S$ 为电源电流，[]{.arithmatex}$G_S$ 为内部电导，[]{.arithmatex}$G$ 为负载电导，[]{.arithmatex}$V_0$ 为施加电压，[]{.arithmatex}$I$ 为电流：
+设 \$I_S\$ 为电源电流，\$G_S\$ 为内部电导，\$G\$ 为负载电导，\$V_0\$ 为施加电压，\$I\$ 为电流：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-I_S=V_0(G_S+G)=V_0G_S+I
-:::
-
-$$I_S=V_0(G_S+G)=V_0G_S+I$$
-::::
+\$\$ I_S=V_0(G_S+G)=V_0G_S+I \$\$
 
 因此：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-V_0=\dfrac{I_S}{G_S+G}
+\$\$ V_0=\dfrac{I_S}{G_S+G} \$\$
+
+如果 \$G\ll G_S\$，则 \$I_S\doteq I\$。因此，输出电压会因负载波动而发生较大变化。
 :::
-
-$$V_0=\dfrac{I_S}{G_S+G}$$
-::::
-
-如果 []{.arithmatex}$G\ll G_S$，则 []{.arithmatex}$I_S\doteq I$。因此，输出电压会因负载波动而发生较大变化。
-:::::::
-:::::::::::::
+:::::
 
 戴维南定理和诺尔顿定理：
 
@@ -514,7 +370,7 @@ $$V_0=\dfrac{I_S}{G_S+G}$$
 
 对于含有电感器的电路，必需将基尔霍夫电压定律加以修正。
 
-由于含时电流的作用，电路的每一个电感器都会产生对应的电动势 []{.arithmatex}$E_k$。
+由于含时电流的作用，电路的每一个电感器都会产生对应的电动势 \$E_k\$。
 
 必需将这电动势纳入基尔霍夫电压定律，才能求得正确答案。
 
@@ -524,19 +380,9 @@ $$V_0=\dfrac{I_S}{G_S+G}$$
 
 可以列出三个式子：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\left\\\begin{array}{c} E_1&=&i_1r_1+iR\\ E_2&=&i_2r_2+iR\\ i&=&i_1+i_2 \end{array}\right.
-:::
+\$\$ \left{\begin{array}{c} E_1&=&i_1r_1+iR\\ E_2&=&i_2r_2+iR\\ i&=&i_1+i_2 \end{array}\right. \$\$
 
-$$\left\{\begin{array}{c}
-E_1&=&i_1r_1+iR\\
-E_2&=&i_2r_2+iR\\
-i&=&i_1+i_2
-\end{array}\right.$$
-::::
-
-已- 知 []{.arithmatex}$E_1,E_2,r_1,r_2,R$，可以求出 []{.arithmatex}$i_1,i_2,i$。
+已- 知 \$E_1,E_2,r_1,r_2,R\$，可以求出 \$i_1,i_2,i\$。
 
 **例题二**：
 
@@ -544,51 +390,23 @@ i&=&i_1+i_2
 
 根据基尔霍夫第一定律：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-i_1=i_2+i_3
-:::
+\$\$ i_1=i_2+i_3 \$\$
 
-$$i_1=i_2+i_3$$
-::::
+将基尔霍夫第二定律应用于回路 \$s_1\$：
 
-将基尔霍夫第二定律应用于回路 []{.arithmatex}$s_1$：
+\$\$ \mathcal{E}\_1=R_1i_1+R_2i_2 \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\mathcal{E}\_1=R_1i_1+R_2i_2
-:::
+将基尔霍夫第二定律应用于回路 \$s_2\$：
 
-$$\mathcal{E}_1=R_1i_1+R_2i_2$$
-::::
+\$\$ \mathcal{E}\_1+\mathcal{E}\_2+R_3i_3=R_2i_2 \$\$
 
-将基尔霍夫第二定律应用于回路 []{.arithmatex}$s_2$：
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\mathcal{E}\_1+\mathcal{E}\_2+R_3i_3=R_2i_2
-:::
-
-$$\mathcal{E}_1+\mathcal{E}_2+R_3i_3=R_2i_2$$
-::::
-
-已知：[]{.arithmatex}$R_1=100\Omega$，[]{.arithmatex}$R_2=200\Omega$，[]{.arithmatex}$R_3=300\Omega$，[]{.arithmatex}$\mathcal{E}_1=3V$，[]{.arithmatex}$\mathcal{E}_2=4V$。
+已知：\$R_1=100\Omega\$，\$R_2=200\Omega\$，\$R_3=300\Omega\$，\$\mathcal{E}\_1=3V\$，\$\mathcal{E}\_2=4V\$。
 
 解得：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\left\\\begin{array}{c} i_1&=&1/1100&A\\ i_2&=&4/275&A\\ i_3&=&-3/220&A \end{array}\right.
-:::
+\$\$ \left{\begin{array}{c} i_1&=&1/1100&A\\ i_2&=&4/275&A\\ i_3&=&-3/220&A \end{array}\right. \$\$
 
-$$\left\{\begin{array}{c}
-i_1&=&1/1100&A\\
-i_2&=&4/275&A\\
-i_3&=&-3/220&A
-\end{array}\right.$$
-::::
-
-注意到电流 []{.arithmatex}$i_3$ 带了负号，这意味着我们 []{.arithmatex}$i_3$ 的假定方向不正确。
+注意到电流 \$i_3\$ 带了负号，这意味着我们 \$i_3\$ 的假定方向不正确。
 
 这也意味着基尔霍夫电路定律解题不完全需要电流方向已知。
 
@@ -602,9 +420,9 @@ i_3&=&-3/220&A
 
 基尔霍夫电流定律是节点分析的基础定律。
 
-对于方程表达：[]{.arithmatex}$\sum i_k=0$；其中，[]{.arithmatex}$i_k$ 是与这节点相连接的第 []{.arithmatex}$k$ 个支路的电流。
+对于方程表达：\$\sum i_k=0\$；其中，\$i_k\$ 是与这节点相连接的第 \$k\$ 个支路的电流。
 
-如图，有 []{.arithmatex}$i_2+i_3=i_1+i_4$，或者可以写成 []{.arithmatex}$i_2+i_3-i_1-i_4=0$ 的形式。
+如图，有 \$i_2+i_3=i_1+i_4\$，或者可以写成 \$i_2+i_3-i_1-i_4=0\$ 的形式。
 
 ![image](../kcl.avif)
 
@@ -618,15 +436,15 @@ i_3&=&-3/220&A
 
 基尔霍夫电压定律是网目分析的基础定律。
 
-对于方程表示：[]{.arithmatex}$\sum v_k=0$；其中，[]{.arithmatex}$v_k$ 是器件两端的电压。
+对于方程表示：\$\sum v_k=0\$；其中，\$v_k\$ 是器件两端的电压。
 
 基尔霍夫电压定律不仅应用于闭合回路，也可以把它推广应用于回路的部分电路。
 
-- 顺着电流的方向走，如果设定的电流是 []{.arithmatex}$I$，走过的电阻是 []{.arithmatex}$R$，则电压降低 []{.arithmatex}$IR$，逆着电流走，则升高 []{.arithmatex}$IR$。
-- 走过一个电动势为 []{.arithmatex}$E$ 的电源，如果是负到正，则电压升高 []{.arithmatex}$E$；如果是正到负，则电压降低 []{.arithmatex}$E$。
+- 顺着电流的方向走，如果设定的电流是 \$I\$，走过的电阻是 \$R\$，则电压降低 \$[IR]{.abbr title="Infrared Spectroscopy (红外光谱法)"}\$，逆着电流走，则升高 \$[IR]{.abbr title="Infrared Spectroscopy (红外光谱法)"}\$。
+- 走过一个电动势为 \$E\$ 的电源，如果是负到正，则电压升高 \$E\$；如果是正到负，则电压降低 \$E\$。
 - 当然，更常用的方法是，设的时候不考虑正负，结果带入符号。
 
-如图，有 []{.arithmatex}$v_1+v_2+v_3=v_4$，或者可以写成 []{.arithmatex}$v_1+v_2+v_3-v_4=0$ 的形式。
+如图，有 \$v_1+v_2+v_3=v_4\$，或者可以写成 \$v_1+v_2+v_3-v_4=0\$ 的形式。
 
 ![image](../kvl.avif)
 
@@ -676,8 +494,8 @@ i_3&=&-3/220&A
 
 1.  做出每个独立电源单独作用的电路分图，不作用的独立源置零：
 
-    - 电压源短路：从而消除电压，即令 []{.arithmatex}$V = 0$；
-    - 电流源开路：从而消除电流，即令 []{.arithmatex}$I = 0$。
+    - 电压源短路：从而消除电压，即令 \$V = 0\$；
+    - 电流源开路：从而消除电流，即令 \$I = 0\$。
 
 2.  求各电路分图中的相应，求代数和。
 
@@ -690,41 +508,29 @@ i_3&=&-3/220&A
 
 线性电路的**齐次定理**，即叠加定理的齐次性：
 
-在线性电路中当所有独立源同时缩放 []{.arithmatex}$K$ 倍（[]{.arithmatex}$K$ 为实常数）时，响应也将同样增大或缩小 []{.arithmatex}$K$ 倍。
+在线性电路中当所有独立源同时缩放 \$K\$ 倍（\$K\$ 为实常数）时，响应也将同样增大或缩小 \$K\$ 倍。
 
 ### 无穷电路 {#_22}
 
-1.  一类比较简单的无穷电路所含的器件是相同的，如图所示的电路就属于这一类，组成电路的所有电阻的阻值都是 []{.arithmatex}$R$。
+1.  一类比较简单的无穷电路所含的器件是相同的，如图所示的电路就属于这一类，组成电路的所有电阻的阻值都是 \$R\$。
 
     ![alt text](../image-1.avif)
 
-    不难看出，这个电路是由很多单元组成的，每一个单元包含三个电阻，既然电路的右端是无穷的，那么左端多一个单元、少一个单元是不影响整个电路的电阻的，也就是说从 []{.arithmatex}$A,B$ 两点向右看和从 []{.arithmatex}$C,D$ 两点向右看的电阻是一样的，设从 []{.arithmatex}$C,D$ 两点向右看的电阻是 []{.arithmatex}$R_x$，那么有：
+    不难看出，这个电路是由很多单元组成的，每一个单元包含三个电阻，既然电路的右端是无穷的，那么左端多一个单元、少一个单元是不影响整个电路的电阻的，也就是说从 \$A,B\$ 两点向右看和从 \$C,D\$ 两点向右看的电阻是一样的，设从 \$C,D\$ 两点向右看的电阻是 \$R_x\$，那么有：
 
-    :::: {.arithmatex}
-    ::: {.MathJax_Preview}
-    \dfrac{R_xR}{R_x+R}+2R=R_x
-    :::
+    \$\$ \dfrac{R_xR}{R_x+R}+2R=R_x \$\$
 
-    $$\dfrac{R_xR}{R_x+R}+2R=R_x$$
-    ::::
-
-    解得 []{.arithmatex}$R_x=(\sqrt3+1)R$。
+    解得 \$R_x=(\sqrt3+1)R\$。
 
 2.  另一类比较复杂的无穷电路所含的器件是不同的，但有一定的规律，如图所示的电路就属于这一类，电路也同样由九数多个单元组成，相邻的后面一个单元电阻的阻值要比前一个单元的阻值大一倍。
 
     ![alt text](../image-5.avif)
 
-    这一类无穷电路需要寻找规律，把从 []{.arithmatex}$A,B$ 向右看的总电阻和从 []{.arithmatex}$A',B'$ 向右看的总电阻进行比较，后者对应的单元都要比前者大一倍，所以后者的总电阻也要比前者大一倍，设从 []{.arithmatex}$A,B$ 向右看的总电阻为 []{.arithmatex}$R_x$，那么有：
+    这一类无穷电路需要寻找规律，把从 \$A,B\$ 向右看的总电阻和从 \$A\',B\'\$ 向右看的总电阻进行比较，后者对应的单元都要比前者大一倍，所以后者的总电阻也要比前者大一倍，设从 \$A,B\$ 向右看的总电阻为 \$R_x\$，那么有：
 
-    :::: {.arithmatex}
-    ::: {.MathJax_Preview}
-    \dfrac{2R_x\cdot R}{2R_x+R}+2R=R_x
-    :::
+    \$\$ \dfrac{2R_x\cdot R}{2R_x+R}+2R=R_x \$\$
 
-    $$\dfrac{2R_x\cdot R}{2R_x+R}+2R=R_x$$
-    ::::
-
-    解得 []{.arithmatex}$R_x=(\sqrt{41}+5)R/4$。
+    解得 \$R_x=(\sqrt{41}+5)R/4\$。
 
 ### 对称性简化 {#_23}
 
@@ -736,7 +542,7 @@ i_3&=&-3/220&A
 
 - 对一个电路，用垂直平分端口的平面横切，可将该电路切成上下完全相同的两部分，而且这两部分之间没有交叉连接和支路，这种电路称为**平衡对称电路**。
 
-- 所用的横切面，即该电路对端口的**平衡对称面**，如右图中的 []{.arithmatex}$OO'$ 平面。一般情况下，平衡对称面只有一个。如在端口处加上电压，则在平衡对称面上的点都是等势点，该平面是一个**等势面**。
+- 所用的横切面，即该电路对端口的**平衡对称面**，如右图中的 \$OO\'\$ 平面。一般情况下，平衡对称面只有一个。如在端口处加上电压，则在平衡对称面上的点都是等势点，该平面是一个**等势面**。
 
 ![alt text](../image-15.avif){align="right" width="30%"}
 
@@ -744,7 +550,7 @@ i_3&=&-3/220&A
 
 - 对一个电路，用过端口的平面直切，可将该电路切成左、右完全相同的两部分，这种电路称为**传递对称电路**。
 
-- 所用的直切面，即该电路的**传递对称面**，如右图中的 []{.arithmatex}$SS'$ 平面。传递对称面可能不止一个。与传递对称面对称的点称为**传递对称点**。如在端口处加上电压，每一对传递对称点的电势都是相等的。
+- 所用的直切面，即该电路的**传递对称面**，如右图中的 \$SS\'\$ 平面。传递对称面可能不止一个。与传递对称面对称的点称为**传递对称点**。如在端口处加上电压，每一对传递对称点的电势都是相等的。
 
 应当指出的是，对称性简化往往并不给出等效电阻的某种直接计算公式，而只是使电阻的计算得到简化，最终的结果仍有赖于电阻串、并联的公式，电流分布法，极限法等计算完成。
 
@@ -756,253 +562,128 @@ i_3&=&-3/220&A
 
 ![alt text](../image-16.avif)
 
-电路参数为：[]{.arithmatex}$R_1=1\Omega$，[]{.arithmatex}$R_2=3\Omega$，[]{.arithmatex}$R_3=2\Omega$，[]{.arithmatex}$R_4=3\Omega$，[]{.arithmatex}$E_1=3V$，[]{.arithmatex}$r_1=2\Omega$，[]{.arithmatex}$E_2=6V$，[]{.arithmatex}$r_2=3\Omega$，[]{.arithmatex}$E_3=9V$，[]{.arithmatex}$r_3=1\Omega$。
+电路参数为：\$R_1=1\Omega\$，\$R_2=3\Omega\$，\$R_3=2\Omega\$，\$R_4=3\Omega\$，\$E_1=3V\$，\$r_1=2\Omega\$，\$E_2=6V\$，\$r_2=3\Omega\$，\$E_3=9V\$，\$r_3=1\Omega\$。
 
 电路正常工作时，电流表的示数是多少？
 
 ### 基尔霍夫电路定律 {#_26}
 
-如图，存在两条回路 []{.arithmatex}$s_1$、[]{.arithmatex}$s_2$，假设电流流向为从 []{.arithmatex}$E_2$、[]{.arithmatex}$E_3$ 正极出发，干路、支路电流分别为 []{.arithmatex}$i_1$，[]{.arithmatex}$i_2$、[]{.arithmatex}$i_3$：
+如图，存在两条回路 \$s_1\$、\$s_2\$，假设电流流向为从 \$E_2\$、\$E_3\$ 正极出发，干路、支路电流分别为 \$i_1\$，\$i_2\$、\$i_3\$：
 
 ![alt text](../image-17.avif)
 
-对节点 []{.arithmatex}$K$ 应用基尔霍夫第一定律，得 []{.arithmatex}$i_1-i_2-i_3=0$。
+对节点 \$K\$ 应用基尔霍夫第一定律，得 \$i_1-i_2-i_3=0\$。
 
-对回路 []{.arithmatex}$s_1$、[]{.arithmatex}$s_2$ 分别应用基尔霍夫第二定律，最终可列出方程组：
+对回路 \$s_1\$、\$s_2\$ 分别应用基尔霍夫第二定律，最终可列出方程组：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{cases} i_1&=i_2+i_3\\ E_2&=i_2r_2+i_2R_2+i_1R_1+i_1R_4+i_1r_1+E_1\\ E_3&=i_3r_3+i_3R_3+i_1R_1+i_1R_4+i_1r_1+E_1 \end{cases}
-:::
-
-$$\begin{cases}
-i_1&=i_2+i_3\\
-E_2&=i_2r_2+i_2R_2+i_1R_1+i_1R_4+i_1r_1+E_1\\
-E_3&=i_3r_3+i_3R_3+i_1R_1+i_1R_4+i_1r_1+E_1
-\end{cases}$$
-::::
+\$\$ \begin{cases} i_1&=i_2+i_3\\ E_2&=i_2r_2+i_2R_2+i_1R_1+i_1R_4+i_1r_1+E_1\\ E_3&=i_3r_3+i_3R_3+i_1R_1+i_1R_4+i_1r_1+E_1 \end{cases} \$\$
 
 代数，得：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{cases} i_1&=i_2+i_3\\ 6V&=3\Omega\cdot i_2+3\Omega\cdot i_2+1\Omega\cdot i_1+3\Omega\cdot i_1+2\Omega\cdot i_1+3V\\ 9V&=1\Omega\cdot i_3+2\Omega\cdot i_3+1\Omega\cdot i_1+3\Omega\cdot i_1+2\Omega\cdot i_1+3V \end{cases}
-:::
-
-$$\begin{cases}
-i_1&=i_2+i_3\\
-6V&=3\Omega\cdot i_2+3\Omega\cdot i_2+1\Omega\cdot i_1+3\Omega\cdot i_1+2\Omega\cdot i_1+3V\\
-9V&=1\Omega\cdot i_3+2\Omega\cdot i_3+1\Omega\cdot i_1+3\Omega\cdot i_1+2\Omega\cdot i_1+3V
-\end{cases}$$
-::::
+\$\$ \begin{cases} i_1&=i_2+i_3\\ 6V&=3\Omega\cdot i_2+3\Omega\cdot i_2+1\Omega\cdot i_1+3\Omega\cdot i_1+2\Omega\cdot i_1+3V\\ 9V&=1\Omega\cdot i_3+2\Omega\cdot i_3+1\Omega\cdot i_1+3\Omega\cdot i_1+2\Omega\cdot i_1+3V \end{cases} \$\$
 
 化简得：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{cases} i_1&=i_2+i_3\\ 3V&=6\Omega\cdot i_2+6\Omega\cdot i_1\\ 6V&=3\Omega\cdot i_3+6\Omega\cdot i_1 \end{cases}
-:::
-
-$$\begin{cases}
-i_1&=i_2+i_3\\
-3V&=6\Omega\cdot i_2+6\Omega\cdot i_1\\
-6V&=3\Omega\cdot i_3+6\Omega\cdot i_1
-\end{cases}$$
-::::
+\$\$ \begin{cases} i_1&=i_2+i_3\\ 3V&=6\Omega\cdot i_2+6\Omega\cdot i_1\\ 6V&=3\Omega\cdot i_3+6\Omega\cdot i_1 \end{cases} \$\$
 
 解得：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{cases} i_1&=5/8&A\\ i_2&=-1/8&A\\ i_3&=3/4&A \end{cases}
-:::
+\$\$ \begin{cases} i_1&=⅝&A\\ i_2&=-⅛&A\\ i_3&=¾&A \end{cases} \$\$
 
-$$\begin{cases}
-i_1&=5/8&A\\
-i_2&=-1/8&A\\
-i_3&=3/4&A
-\end{cases}$$
-::::
-
-分析可知，我们假设的 []{.arithmatex}$i_2$ 电流流向是错误的，而电流表示数为 []{.arithmatex}$\dfrac{5}{8}A$。
+分析可知，我们假设的 \$i_2\$ 电流流向是错误的，而电流表示数为 \$\dfrac{5}{8}A\$。
 
 ### 电路的叠加定理 {#_27}
 
 忽略电流表，可以发现图中仅存在电阻和电压源，因此该电路是线性电路，存在电路的叠加原理。
 
-分别考虑 []{.arithmatex}$E_1$，[]{.arithmatex}$E_2$，[]{.arithmatex}$E_3$ 的影响，设 []{.arithmatex}$I_1$、[]{.arithmatex}$I_2$、[]{.arithmatex}$I_3$ 其电流表的示数，以电流从上到下为正值，从下到上为负值：
+分别考虑 \$E_1\$，\$E_2\$，\$E_3\$ 的影响，设 \$I_1\$、\$I_2\$、\$I_3\$ 其电流表的示数，以电流从上到下为正值，从下到上为负值：
 
 ![alt text](../image-18.avif)
 
 极易得：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{array}{l} I_1&=-\dfrac{E_1}{r_1+R_1+R_4+\dfrac{(r_2+R_2)(r_3+R_3)}{r_2+R_2+r_3+R_3}}\\\[2em\] &=-\dfrac{3V}{2\Omega+1\Omega+3\Omega+\dfrac{(3\Omega+3\Omega)(1\Omega+2\Omega)}{3\Omega+3\Omega+1\Omega+2\Omega}}\\\[2em\] &=-\dfrac{3}{8}A \end{array}
-:::
+\$\$ \begin{array}{l} I_1&=-\dfrac{E_1}{r_1+R_1+R_4+\dfrac{(r_2+R_2)(r_3+R_3)}{r_2+R_2+r_3+R_3}}\\2em\] &=-\dfrac{3V}{2\Omega+1\Omega+3\Omega+\dfrac{(3\Omega+3\Omega)(1\Omega+2\Omega)}{3\Omega+3\Omega+1\Omega+2\Omega}}\\2em\] &=-\dfrac{3}{8}A \end{array} \$\$
 
-$$\begin{array}{l}
-I_1&=-\dfrac{E_1}{r_1+R_1+R_4+\dfrac{(r_2+R_2)(r_3+R_3)}{r_2+R_2+r_3+R_3}}\\[2em]
-&=-\dfrac{3V}{2\Omega+1\Omega+3\Omega+\dfrac{(3\Omega+3\Omega)(1\Omega+2\Omega)}{3\Omega+3\Omega+1\Omega+2\Omega}}\\[2em]
-&=-\dfrac{3}{8}A
-\end{array}$$
-::::
+\$\$ \begin{array}{l} I_2&=\dfrac{E_2}{r_2+R_2+\dfrac{(r_3+R_3)(r_1+R_1+R_4)}{r_3+R_3+r_1+R_1+R_4}}\times\dfrac{r_3+R_3}{r_3+R_3+r_1+R_1+R_4}\\2em\] &=\dfrac{6V}{3\Omega+3\Omega+\dfrac{(1\Omega+2\Omega)(2\Omega+1\Omega+3\Omega)}{1\Omega+2\Omega+2\Omega+1\Omega+3\Omega}}\times\dfrac{1\Omega+2\Omega}{1\Omega+2\Omega+2\Omega+1\Omega+3\Omega}\\2em\] &=\dfrac{1}{4}A \end{array} \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{array}{l} I_2&=\dfrac{E_2}{r_2+R_2+\dfrac{(r_3+R_3)(r_1+R_1+R_4)}{r_3+R_3+r_1+R_1+R_4}}\times\dfrac{r_3+R_3}{r_3+R_3+r_1+R_1+R_4}\\\[2em\] &=\dfrac{6V}{3\Omega+3\Omega+\dfrac{(1\Omega+2\Omega)(2\Omega+1\Omega+3\Omega)}{1\Omega+2\Omega+2\Omega+1\Omega+3\Omega}}\times\dfrac{1\Omega+2\Omega}{1\Omega+2\Omega+2\Omega+1\Omega+3\Omega}\\\[2em\] &=\dfrac{1}{4}A \end{array}
-:::
+\$\$ \begin{array}{l} I_3&=\dfrac{E_3}{r_3+R_3+\dfrac{(r_2+R_2)(r_1+R_1+R_4)}{r_2+R_2+r_1+R_1+R_4}}\times\dfrac{r_2+R_2}{r_2+R_2+r_1+R_1+R_4}\\2em\] &=\dfrac{9V}{1\Omega+2\Omega+\dfrac{(3\Omega+3\Omega)(2\Omega+1\Omega+3\Omega)}{3\Omega+3\Omega+2\Omega+1\Omega+3\Omega}}\times\dfrac{3\Omega+3\Omega}{3\Omega+3\Omega+2\Omega+1\Omega+3\Omega}\\2em\] &=\dfrac{3}{4}A \end{array} \$\$
 
-$$\begin{array}{l}
-I_2&=\dfrac{E_2}{r_2+R_2+\dfrac{(r_3+R_3)(r_1+R_1+R_4)}{r_3+R_3+r_1+R_1+R_4}}\times\dfrac{r_3+R_3}{r_3+R_3+r_1+R_1+R_4}\\[2em]
-&=\dfrac{6V}{3\Omega+3\Omega+\dfrac{(1\Omega+2\Omega)(2\Omega+1\Omega+3\Omega)}{1\Omega+2\Omega+2\Omega+1\Omega+3\Omega}}\times\dfrac{1\Omega+2\Omega}{1\Omega+2\Omega+2\Omega+1\Omega+3\Omega}\\[2em]
-&=\dfrac{1}{4}A
-\end{array}$$
-::::
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{array}{l} I_3&=\dfrac{E_3}{r_3+R_3+\dfrac{(r_2+R_2)(r_1+R_1+R_4)}{r_2+R_2+r_1+R_1+R_4}}\times\dfrac{r_2+R_2}{r_2+R_2+r_1+R_1+R_4}\\\[2em\] &=\dfrac{9V}{1\Omega+2\Omega+\dfrac{(3\Omega+3\Omega)(2\Omega+1\Omega+3\Omega)}{3\Omega+3\Omega+2\Omega+1\Omega+3\Omega}}\times\dfrac{3\Omega+3\Omega}{3\Omega+3\Omega+2\Omega+1\Omega+3\Omega}\\\[2em\] &=\dfrac{3}{4}A \end{array}
-:::
-
-$$\begin{array}{l}
-I_3&=\dfrac{E_3}{r_3+R_3+\dfrac{(r_2+R_2)(r_1+R_1+R_4)}{r_2+R_2+r_1+R_1+R_4}}\times\dfrac{r_2+R_2}{r_2+R_2+r_1+R_1+R_4}\\[2em]
-&=\dfrac{9V}{1\Omega+2\Omega+\dfrac{(3\Omega+3\Omega)(2\Omega+1\Omega+3\Omega)}{3\Omega+3\Omega+2\Omega+1\Omega+3\Omega}}\times\dfrac{3\Omega+3\Omega}{3\Omega+3\Omega+2\Omega+1\Omega+3\Omega}\\[2em]
-&=\dfrac{3}{4}A
-\end{array}$$
-::::
-
-根据叠加定理，得出电流表示数 []{.arithmatex}$I=I_1+I_2+I_3=-\dfrac{3}{8}+\dfrac{1}{4}+\dfrac{3}{4}=\dfrac{5}{8}A$。
+根据叠加定理，得出电流表示数 \$I=I_1+I_2+I_3=-\dfrac{3}{8}+\dfrac{1}{4}+\dfrac{3}{4}=\dfrac{5}{8}A\$。
 
 ### 电流源与电压源 {#_28}
 
 这也是原题想让我们应用的方法，这里先对题目的铺垫加以简单总结。
 
-我们发现，一个内阻为 []{.arithmatex}$r$ 的电压源 []{.arithmatex}$E$，等效如图丙。
+我们发现，一个内阻为 \$r\$ 的电压源 \$E\$，等效如图丙。
 
-其串联一个总电阻为 []{.arithmatex}$R$ 的用电器（或等效用电器）后，干路电流为：
+其串联一个总电阻为 \$R\$ 的用电器（或等效用电器）后，干路电流为：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-I=\dfrac{E}{r+R}
-:::
+\$\$ I=\dfrac{E}{r+R} \$\$
 
-$$I=\dfrac{E}{r+R}$$
-::::
+我们发现 \$E/r\$ 为电源的特性，于是想办法凑出来这个形式：
 
-我们发现 []{.arithmatex}$E/r$ 为电源的特性，于是想办法凑出来这个形式：
-
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-I=\dfrac{E}{r}\times\dfrac{r}{r+R}
-:::
-
-$$I=\dfrac{E}{r}\times\dfrac{r}{r+R}$$
-::::
+\$\$ I=\dfrac{E}{r}\times\dfrac{r}{r+R} \$\$
 
 注意到后面的式子就是并联分流公式，我们转化电路形如图丁。
 
 ![alt text](../image-21.avif)
 
-于是，我们就把一个内阻为 []{.arithmatex}$r$ 的电压源 []{.arithmatex}$E$ 串联一个总电阻为 []{.arithmatex}$R$ 的用电器，等效转化为了一个电流源 []{.arithmatex}$E/r$ 并联上原电压源内阻，以及用电器 []{.arithmatex}$R$。
+于是，我们就把一个内阻为 \$r\$ 的电压源 \$E\$ 串联一个总电阻为 \$R\$ 的用电器，等效转化为了一个电流源 \$E/r\$ 并联上原电压源内阻，以及用电器 \$R\$。
 
-回到问题，（如图）我们可以把原电压源 []{.arithmatex}$E_2$、[]{.arithmatex}$E_3$ 及其内阻、支路电阻等效转化为一个电压源：
+回到问题，（如图）我们可以把原电压源 \$E_2\$、\$E_3\$ 及其内阻、支路电阻等效转化为一个电压源：
 
 ![alt text](../image-19.avif)
 
-- 把电压源 []{.arithmatex}$E_2$ 同其内阻 []{.arithmatex}$r_2$ 及并联的电阻 []{.arithmatex}$R_2$ 抽象为一个电压源 []{.arithmatex}$E'_2$，内阻为 []{.arithmatex}$(r_2+R_2)$，也就等效为一个电流源 []{.arithmatex}$E_2/(r_2+R_2)$，并联电阻 []{.arithmatex}$(r_2+R_2)$；具体的，电阻 []{.arithmatex}$r_2'=r_2+R_2=6\Omega$，电流 []{.arithmatex}$I_2'=E_2/r_2'=6V/6\Omega=1A$。
-- 把电压源 []{.arithmatex}$E_3$ 同其内阻 []{.arithmatex}$r_3$ 及并联的电阻 []{.arithmatex}$R_3$ 抽象为一个电压源 []{.arithmatex}$E'_3$，内阻为 []{.arithmatex}$(r_3+R_3)$，也就等效为一个电流源 []{.arithmatex}$E_3/(r_3+R_3)$，并联电阻 []{.arithmatex}$(r_3+R_3)$；具体的，电阻 []{.arithmatex}$r_3'=r_3+R_3=3\Omega$，电流 []{.arithmatex}$I_3'=E_3/r_3'=9V/3\Omega=3A$。
+- 把电压源 \$E_2\$ 同其内阻 \$r_2\$ 及并联的电阻 \$R_2\$ 抽象为一个电压源 \$E\'\_2\$，内阻为 \$(r_2+R_2)\$，也就等效为一个电流源 \$E_2/(r_2+R_2)\$，并联电阻 \$(r_2+R_2)\$；具体的，电阻 \$r_2\'=r_2+R_2=6\Omega\$，电流 \$I_2\'=E_2/r_2\'=6V/6\Omega=1A\$。
+- 把电压源 \$E_3\$ 同其内阻 \$r_3\$ 及并联的电阻 \$R_3\$ 抽象为一个电压源 \$E\'\_3\$，内阻为 \$(r_3+R_3)\$，也就等效为一个电流源 \$E_3/(r_3+R_3)\$，并联电阻 \$(r_3+R_3)\$；具体的，电阻 \$r_3\'=r_3+R_3=3\Omega\$，电流 \$I_3\'=E_3/r_3\'=9V/3\Omega=3A\$。
 
 观察到，这两个电流源（电流流向一致，电流大小相加）就可以合并为一个电流源。
 
-具体的，电阻 []{.arithmatex}$r'=(3\times6)/9=2\Omega$，电流 []{.arithmatex}$I'=1A+3A=4A$；
+具体的，电阻 \$r\'=(3\times6)/9=2\Omega\$，电流 \$I\'=1A+3A=4A\$；
 
-这个电流源也就等效于一个电压源，电压为 []{.arithmatex}$E'=2\Omega\times4A=8V$，[]{.arithmatex}$R'=2\Omega$。
+这个电流源也就等效于一个电压源，电压为 \$E\'=2\Omega\times4A=8V\$，\$R\'=2\Omega\$。
 
-其电流方向与 []{.arithmatex}$E_1$ 相反，电压相减 []{.arithmatex}$V=E'-E_1=8V-3V=5V$，
+其电流方向与 \$E_1\$ 相反，电压相减 \$V=E\'-E_1=8V-3V=5V\$，
 
-其总电阻 []{.arithmatex}$R=R_1+R_4+r_1+r'=1\Omega+3\Omega+2\Omega+2\Omega=8\Omega$。
+其总电阻 \$R=R_1+R_4+r_1+r\'=1\Omega+3\Omega+2\Omega+2\Omega=8\Omega\$。
 
-于是，电流表示数即为 []{.arithmatex}$I=V/R=5V/8\Omega=\dfrac{5}{8}A$。
+于是，电流表示数即为 \$I=V/R=5V/8\Omega=\dfrac{5}{8}A\$。
 
 ### 简单欧姆定律 {#_29}
 
-我们把原图抽象为三个支路，其电流分别记为 []{.arithmatex}$i_1$、[]{.arithmatex}$i_2$、[]{.arithmatex}$i_3$，如图：
+我们把原图抽象为三个支路，其电流分别记为 \$i_1\$、\$i_2\$、\$i_3\$，如图：
 
 ![alt text](../image-20.avif)
 
-我们假设有一个奇妙的总电源，给红色的和蓝色的部分，提供了大小为 []{.arithmatex}$V$ 的电势差。
+我们假设有一个奇妙的总电源，给红色的和蓝色的部分，提供了大小为 \$V\$ 的电势差。
 
-我们规定红色部分的电势高于蓝色部分，即 []{.arithmatex}$\varphi_1>\varphi_2$，则有 []{.arithmatex}$V=\varphi_1-\varphi_2$。
+我们规定红色部分的电势高于蓝色部分，即 \$\varphi_1\>\varphi_2\$，则有 \$V=\varphi_1-\varphi_2\$。
 
 据此，我们可以列出三个方程：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{cases} V&=i_1(r_1+R_1+R_4)-E_1\\ V&=i_2(r_2+R_2)-E_2\\ V&=i_3(r_3+R_3)-E_3 \end{cases}
-:::
-
-$$\begin{cases}
-V&=i_1(r_1+R_1+R_4)-E_1\\
-V&=i_2(r_2+R_2)-E_2\\
-V&=i_3(r_3+R_3)-E_3
-\end{cases}$$
-::::
+\$\$ \begin{cases} V&=i_1(r_1+R_1+R_4)-E_1\\ V&=i_2(r_2+R_2)-E_2\\ V&=i_3(r_3+R_3)-E_3 \end{cases} \$\$
 
 代数即（其实这个就是基尔霍夫第二定律的意思）：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{cases} V&=i_1(2\Omega+1\Omega+3\Omega)-3V&=6\Omega\times i_1-3V\\ V&=i_2(3\Omega+3\Omega)-6V&=6\Omega\times i_2-6V\\ V&=i_3(1\Omega+2\Omega)-9V&=3\Omega\times i_3-9V \end{cases}
-:::
+\$\$ \begin{cases} V&=i_1(2\Omega+1\Omega+3\Omega)-3V&=6\Omega\times i_1-3V\\ V&=i_2(3\Omega+3\Omega)-6V&=6\Omega\times i_2-6V\\ V&=i_3(1\Omega+2\Omega)-9V&=3\Omega\times i_3-9V \end{cases} \$\$
 
-$$\begin{cases}
-V&=i_1(2\Omega+1\Omega+3\Omega)-3V&=6\Omega\times i_1-3V\\
-V&=i_2(3\Omega+3\Omega)-6V&=6\Omega\times i_2-6V\\
-V&=i_3(1\Omega+2\Omega)-9V&=3\Omega\times i_3-9V
-\end{cases}$$
-::::
+发现原式与 \$i_1\$、\$i_2\$、\$i_3\$ 关系密切，尝试找到他们之间的关系。
 
-发现原式与 []{.arithmatex}$i_1$、[]{.arithmatex}$i_2$、[]{.arithmatex}$i_3$ 关系密切，尝试找到他们之间的关系。
+设电路的等效电阻为 \$R_0\$，注意到 \$V\$ 只提供了 \$i_1+i_2+i_3\$ 的电流，则有：
 
-设电路的等效电阻为 []{.arithmatex}$R_0$，注意到 []{.arithmatex}$V$ 只提供了 []{.arithmatex}$i_1+i_2+i_3$ 的电流，则有：
+\$\$ i_1+i_2+i_3=V/R_0 \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-i_1+i_2+i_3=V/R_0
-:::
-
-$$i_1+i_2+i_3=V/R_0$$
-::::
-
-回到原电路，我们发现并没有这个奇妙的电源，也就是 []{.arithmatex}$V=0$，
+回到原电路，我们发现并没有这个奇妙的电源，也就是 \$V=0\$，
 
 因此有（其实这个也是基尔霍夫第一定律的内容）：
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-i_1+i_2+i_3=0V/R_0=0V
-:::
+\$\$ i_1+i_2+i_3=0V/R_0=0V \$\$
 
-$$i_1+i_2+i_3=0V/R_0=0V$$
-::::
+这意味着 \$i_1\$、\$i_2\$、\$i_3\$ 中一定存在负数。综合上述四式，解得：
 
-这意味着 []{.arithmatex}$i_1$、[]{.arithmatex}$i_2$、[]{.arithmatex}$i_3$ 中一定存在负数。综合上述四式，解得：
+\$\$ \begin{cases} V&=-27/4&V\\ i_1&=-⅝&A\\ i_2&=-⅛&A\\ i_3&=¾&A \end{cases} \$\$
 
-:::: {.arithmatex}
-::: {.MathJax_Preview}
-\begin{cases} V&=-27/4&V\\ i_1&=-5/8&A\\ i_2&=-1/8&A\\ i_3&=3/4&A \end{cases}
-:::
-
-$$\begin{cases}
-V&=-27/4&V\\
-i_1&=-5/8&A\\
-i_2&=-1/8&A\\
-i_3&=3/4&A
-\end{cases}$$
-::::
-
-则电流表示数为 []{.arithmatex}$i_1$ 的绝对值，即电流表示数为 []{.arithmatex}$\dfrac{5}{8}A$。
+则电流表示数为 \$i_1\$ 的绝对值，即电流表示数为 \$\dfrac{5}{8}A\$。
 
 ::: {.footnote}
 

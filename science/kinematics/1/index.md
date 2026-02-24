@@ -37,12 +37,12 @@
 
 在下表中，量纲由以下国际单位制（SI）基本物理量的符号表示：
 
-- []{.arithmatex}$M$：质量（Mass）。
-- []{.arithmatex}$L$：长度（Length）。
-- []{.arithmatex}$T$：时间（Time）。
-- []{.arithmatex}$I$：电流（Electric Current）。
-- []{.arithmatex}$\Theta$：热力学温度（Thermodynamic Temperature）。
-- []{.arithmatex}$N$：物质的量（Amount of Substance）。
+- \$M\$：质量（Mass）。
+- \$L\$：长度（Length）。
+- \$T\$：时间（Time）。
+- \$I\$：电流（Electric Current）。
+- \$\Theta\$：热力学温度（Thermodynamic Temperature）。
+- \$N\$：物质的量（Amount of Substance）。
 
 <table>
 <colgroup>
@@ -71,132 +71,132 @@
 </tr>
 <tr>
 <td style="text-align: left;">时间</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>t</em></span></td>
-<td style="text-align: left;">秒（<span class="arithmatex"></span><span class="math inline">s</span>）</td>
-<td style="text-align: left;">分钟（<span class="arithmatex"></span><span class="math inline">min</span>），小时（<span class="arithmatex"></span><span class="math inline">h</span>）</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>T</em></span></td>
+<td style="text-align: center;">$t$</td>
+<td style="text-align: left;">秒（$\text{s}$）</td>
+<td style="text-align: left;">分钟（$\text{min}$），小时（$\text{h}$）</td>
+<td style="text-align: center;">$T$</td>
 </tr>
 <tr>
 <td style="text-align: left;">长度</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>x</em></span></td>
-<td style="text-align: left;">米（<span class="arithmatex"></span><span class="math inline">m</span>）</td>
+<td style="text-align: center;">$x$</td>
+<td style="text-align: left;">米（$\text{m}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>L</em></span></td>
+<td style="text-align: center;">$L$</td>
 </tr>
 <tr>
 <td style="text-align: left;">质量</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>m</em></span></td>
-<td style="text-align: left;">千克（<span class="arithmatex"></span><span class="math inline">kg</span>）</td>
-<td style="text-align: left;">吨（<span class="arithmatex"></span><span class="math inline">t</span>）</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em></span></td>
+<td style="text-align: center;">$m$</td>
+<td style="text-align: left;">千克（$\text{kg}$）</td>
+<td style="text-align: left;">吨（$\text{t}$）</td>
+<td style="text-align: center;">$M$</td>
 </tr>
 <tr>
 <td style="text-align: left;">速度</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>v</em></span></td>
-<td style="text-align: left;">米/秒（<span class="arithmatex"></span><span class="math inline">m/s</span>）</td>
-<td style="text-align: left;">千米/小时（<span class="arithmatex"></span><span class="math inline">km/h</span>）</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>L</em><em>T</em><sup>−1</sup></span></td>
+<td style="text-align: center;">$v$</td>
+<td style="text-align: left;">米/秒（$\text{m/s}$）</td>
+<td style="text-align: left;">千米/小时（$\text{km/h}$）</td>
+<td style="text-align: center;">$L T^{-1}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">加速度</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>a</em></span></td>
-<td style="text-align: left;">米/秒²（<span class="arithmatex"></span><span class="math inline">m/s<sup>2</sup></span>）</td>
+<td style="text-align: center;">$a$</td>
+<td style="text-align: left;">米/秒²（$\text{m/s}^2$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>L</em><em>T</em><sup>−2</sup></span></td>
+<td style="text-align: center;">$L T^{-2}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">力</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>F</em></span></td>
-<td style="text-align: left;">牛顿（<span class="arithmatex"></span><span class="math inline">N</span>）</td>
+<td style="text-align: center;">$F$</td>
+<td style="text-align: left;">牛顿（$\text{N}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><em>T</em><sup>−2</sup></span></td>
+<td style="text-align: center;">$M L T^{-2}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">密度</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>ρ</em></span></td>
-<td style="text-align: left;">千克/立方米（<span class="arithmatex"></span><span class="math inline">kg/m<sup>3</sup></span>）</td>
-<td style="text-align: left;">克/立方厘米（<span class="arithmatex"></span><span class="math inline">g/cm<sup>3</sup></span>）</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><sup>−3</sup></span></td>
+<td style="text-align: center;">$\rho$</td>
+<td style="text-align: left;">千克/立方米（$\text{kg/m}^3$）</td>
+<td style="text-align: left;">克/立方厘米（$\text{g/cm}^3$）</td>
+<td style="text-align: center;">$M L^{-3}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">压强</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>P</em></span></td>
-<td style="text-align: left;">帕斯卡（<span class="arithmatex"></span><span class="math inline">Pa</span>）</td>
-<td style="text-align: left;">标准大气压（<span class="arithmatex"></span><span class="math inline">atm</span>）<br />
-毫米汞柱（<span class="arithmatex"></span><span class="math inline">mmHg</span>）</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><sup>−1</sup><em>T</em><sup>−2</sup></span></td>
+<td style="text-align: center;">$P$</td>
+<td style="text-align: left;">帕斯卡（$\text{Pa}$）</td>
+<td style="text-align: left;">标准大气压（$\text{atm}$）<br />
+毫米汞柱（$\text{mmHg}$）</td>
+<td style="text-align: center;">$M L^{-1} T^{-2}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">功</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>W</em></span></td>
-<td style="text-align: left;">焦耳（<span class="arithmatex"></span><span class="math inline">J</span>）</td>
-<td style="text-align: left;">千瓦时（<span class="arithmatex"></span><span class="math inline">kW ⋅ h</span>）<br />
-电子伏特（<span class="arithmatex"></span><span class="math inline">eV</span>）</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><sup>2</sup><em>T</em><sup>−2</sup></span></td>
+<td style="text-align: center;">$W$</td>
+<td style="text-align: left;">焦耳（$\text{J}$）</td>
+<td style="text-align: left;">千瓦时（$\text{kW}\cdot\text{h}$）<br />
+电子伏特（$\text{eV}$）</td>
+<td style="text-align: center;">$M L^2 T^{-2}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">能量</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>E</em></span></td>
-<td style="text-align: left;">焦耳（<span class="arithmatex"></span><span class="math inline">J</span>）</td>
-<td style="text-align: left;">千瓦时（<span class="arithmatex"></span><span class="math inline">kW ⋅ h</span>）<br />
-电子伏特（<span class="arithmatex"></span><span class="math inline">eV</span>）</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><sup>2</sup><em>T</em><sup>−2</sup></span></td>
+<td style="text-align: center;">$E$</td>
+<td style="text-align: left;">焦耳（$\text{J}$）</td>
+<td style="text-align: left;">千瓦时（$\text{kW}\cdot\text{h}$）<br />
+电子伏特（$\text{eV}$）</td>
+<td style="text-align: center;">$M L^2 T^{-2}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">功率</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>P</em></span></td>
-<td style="text-align: left;">瓦特（<span class="arithmatex"></span><span class="math inline">W</span>）</td>
-<td style="text-align: left;">马力（<span class="arithmatex"></span><span class="math inline">hp</span>）</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><sup>2</sup><em>T</em><sup>−3</sup></span></td>
+<td style="text-align: center;">$P$</td>
+<td style="text-align: left;">瓦特（$\text{W}$）</td>
+<td style="text-align: left;">马力（$\text{hp}$）</td>
+<td style="text-align: center;">$M L^2 T^{-3}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">动量</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>p</em></span></td>
-<td style="text-align: left;">千克·米/秒（<span class="arithmatex"></span><span class="math inline">kg ⋅ m/s</span>）</td>
+<td style="text-align: center;">$p$</td>
+<td style="text-align: left;">千克·米/秒（$\text{kg}\cdot\text{m/s}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><em>T</em><sup>−1</sup></span></td>
+<td style="text-align: center;">$M L T^{-1}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">冲量</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>I</em></span></td>
-<td style="text-align: left;">牛顿·秒（<span class="arithmatex"></span><span class="math inline">N ⋅ s</span>）</td>
+<td style="text-align: center;">$I$</td>
+<td style="text-align: left;">牛顿·秒（$\text{N}\cdot\text{s}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><em>T</em><sup>−1</sup></span></td>
+<td style="text-align: center;">$M L T^{-1}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">角速度</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>ω</em></span></td>
-<td style="text-align: left;">弧度/秒（<span class="arithmatex"></span><span class="math inline">rad/s</span>）</td>
+<td style="text-align: center;">$\omega$</td>
+<td style="text-align: left;">弧度/秒（$\text{rad/s}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>T</em><sup>−1</sup></span></td>
+<td style="text-align: center;">$T^{-1}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">周期</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>T</em></span></td>
-<td style="text-align: left;">秒（<span class="arithmatex"></span><span class="math inline">s</span>）</td>
+<td style="text-align: center;">$T$</td>
+<td style="text-align: left;">秒（$\text{s}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>T</em></span></td>
+<td style="text-align: center;">$T$</td>
 </tr>
 <tr>
 <td style="text-align: left;">频率</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>f</em></span></td>
-<td style="text-align: left;">赫兹（<span class="arithmatex"></span><span class="math inline">Hz</span>）</td>
+<td style="text-align: center;">$f$</td>
+<td style="text-align: left;">赫兹（$\text{Hz}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>T</em><sup>−1</sup></span></td>
+<td style="text-align: center;">$T^{-1}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">万有引力常量</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>G</em></span></td>
-<td style="text-align: left;"><span class="arithmatex"></span><span class="math inline">N ⋅ m<sup>2</sup>/kg<sup>2</sup></span></td>
+<td style="text-align: center;">$G$</td>
+<td style="text-align: left;">$\text{N}\cdot\text{m}<sup>2/\text{kg}</sup>2$</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><sup>−1</sup><em>L</em><sup>3</sup><em>T</em><sup>−2</sup></span></td>
+<td style="text-align: center;">$M^{-1} L^3 T^{-2}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">波长</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>λ</em></span></td>
-<td style="text-align: left;">米（<span class="arithmatex"></span><span class="math inline">m</span>）</td>
-<td style="text-align: left;">埃（<span class="arithmatex"></span><span class="math inline">Å</span>）</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>L</em></span></td>
+<td style="text-align: center;">$\lambda$</td>
+<td style="text-align: left;">米（$\text{m}$）</td>
+<td style="text-align: left;">埃（$\text{Å}$）</td>
+<td style="text-align: center;">$L$</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>二、电磁学</strong></td>
@@ -207,94 +207,94 @@
 </tr>
 <tr>
 <td style="text-align: left;">电荷量</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>q</em></span></td>
-<td style="text-align: left;">库仑（<span class="arithmatex"></span><span class="math inline">C</span>）</td>
+<td style="text-align: center;">$q$</td>
+<td style="text-align: left;">库仑（$\text{C}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>I</em><em>T</em></span></td>
+<td style="text-align: center;">$I T$</td>
 </tr>
 <tr>
 <td style="text-align: left;">电流</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>I</em></span></td>
-<td style="text-align: left;">安培（<span class="arithmatex"></span><span class="math inline">A</span>）</td>
+<td style="text-align: center;">$I$</td>
+<td style="text-align: left;">安培（$\text{A}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>I</em></span></td>
+<td style="text-align: center;">$I$</td>
 </tr>
 <tr>
 <td style="text-align: left;">电压</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>U</em></span></td>
-<td style="text-align: left;">伏特（<span class="arithmatex"></span><span class="math inline">V</span>）</td>
+<td style="text-align: center;">$U$</td>
+<td style="text-align: left;">伏特（$\text{V}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><sup>2</sup><em>T</em><sup>−3</sup><em>I</em><sup>−1</sup></span></td>
+<td style="text-align: center;">$M L^2 T^{-3} I^{-1}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">电动势</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>E</em></span></td>
-<td style="text-align: left;">伏特（<span class="arithmatex"></span><span class="math inline">V</span>）</td>
+<td style="text-align: center;">$E$</td>
+<td style="text-align: left;">伏特（$\text{V}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><sup>2</sup><em>T</em><sup>−3</sup><em>I</em><sup>−1</sup></span></td>
+<td style="text-align: center;">$M L^2 T^{-3} I^{-1}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">电场强度</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>E</em></span></td>
-<td style="text-align: left;"><span class="arithmatex"></span><span class="math inline">N/C</span> 或 <span class="arithmatex"></span><span class="math inline">V/m</span></td>
+<td style="text-align: center;">$E$</td>
+<td style="text-align: left;">$\text{N/C}$ 或 $\text{V/m}$</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><em>T</em><sup>−3</sup><em>I</em><sup>−1</sup></span></td>
+<td style="text-align: center;">$M L T^{-3} I^{-1}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">电阻</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>R</em></span></td>
-<td style="text-align: left;">欧姆（<span class="arithmatex"></span><span class="math inline"><em>Ω</em></span>）</td>
+<td style="text-align: center;">$R$</td>
+<td style="text-align: left;">欧姆（$\Omega$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><sup>2</sup><em>T</em><sup>−3</sup><em>I</em><sup>−2</sup></span></td>
+<td style="text-align: center;">$M L^2 T^{-3} I^{-2}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">电阻率</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>ρ</em></span></td>
-<td style="text-align: left;">欧姆·米（<span class="arithmatex"></span><span class="math inline"><em>Ω</em> ⋅ m</span>）</td>
+<td style="text-align: center;">$\rho$</td>
+<td style="text-align: left;">欧姆·米（$\Omega\cdot\text{m}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><sup>3</sup><em>T</em><sup>−3</sup><em>I</em><sup>−2</sup></span></td>
+<td style="text-align: center;">$M L^3 T^{-3} I^{-2}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">电功</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>W</em></span></td>
-<td style="text-align: left;">焦耳（<span class="arithmatex"></span><span class="math inline">J</span>）</td>
-<td style="text-align: left;">千瓦时（<span class="arithmatex"></span><span class="math inline">kW ⋅ h</span>）</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><sup>2</sup><em>T</em><sup>−2</sup></span></td>
+<td style="text-align: center;">$W$</td>
+<td style="text-align: left;">焦耳（$\text{J}$）</td>
+<td style="text-align: left;">千瓦时（$\text{kW}\cdot\text{h}$）</td>
+<td style="text-align: center;">$M L^2 T^{-2}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">电功率</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>P</em></span></td>
-<td style="text-align: left;">瓦特（<span class="arithmatex"></span><span class="math inline">W</span>）</td>
+<td style="text-align: center;">$P$</td>
+<td style="text-align: left;">瓦特（$\text{W}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><sup>2</sup><em>T</em><sup>−3</sup></span></td>
+<td style="text-align: center;">$M L^2 T^{-3}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">电容</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>C</em></span></td>
-<td style="text-align: left;">法拉（<span class="arithmatex"></span><span class="math inline">F</span>）</td>
+<td style="text-align: center;">$C$</td>
+<td style="text-align: left;">法拉（$\text{F}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><sup>−1</sup><em>L</em><sup>−2</sup><em>T</em><sup>4</sup><em>I</em><sup>2</sup></span></td>
+<td style="text-align: center;">$M^{-1} L^{-2} T^4 I^2$</td>
 </tr>
 <tr>
 <td style="text-align: left;">磁感应强度</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>B</em></span></td>
-<td style="text-align: left;">特斯拉（<span class="arithmatex"></span><span class="math inline">T</span>）</td>
-<td style="text-align: left;">高斯（<span class="arithmatex"></span><span class="math inline">G</span>）</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>T</em><sup>−2</sup><em>I</em><sup>−1</sup></span></td>
+<td style="text-align: center;">$B$</td>
+<td style="text-align: left;">特斯拉（$\text{T}$）</td>
+<td style="text-align: left;">高斯（$\text{G}$）</td>
+<td style="text-align: center;">$M T^{-2} I^{-1}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">磁通量</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>Φ</em></span></td>
-<td style="text-align: left;">韦伯（<span class="arithmatex"></span><span class="math inline">Wb</span>）</td>
+<td style="text-align: center;">$\Phi$</td>
+<td style="text-align: left;">韦伯（$\text{Wb}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><sup>2</sup><em>T</em><sup>−2</sup><em>I</em><sup>−1</sup></span></td>
+<td style="text-align: center;">$M L^2 T^{-2} I^{-1}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">静电力常量</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>k</em></span></td>
-<td style="text-align: left;"><span class="arithmatex"></span><span class="math inline">N ⋅ m<sup>2</sup>/C<sup>2</sup></span></td>
+<td style="text-align: center;">$k$</td>
+<td style="text-align: left;">$\text{N}\cdot\text{m}<sup>2/\text{C}</sup>2$</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><sup>3</sup><em>T</em><sup>−4</sup><em>I</em><sup>−2</sup></span></td>
+<td style="text-align: center;">$M L^3 T^{-4} I^{-2}$</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>三、其他</strong></td>
@@ -305,73 +305,73 @@
 </tr>
 <tr>
 <td style="text-align: left;">热力学温度</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>T</em></span></td>
-<td style="text-align: left;">开尔文（<span class="arithmatex"></span><span class="math inline">K</span>）</td>
-<td style="text-align: left;">摄氏度（<span class="arithmatex"></span><span class="math inline"><sup>∘</sup>C</span>）</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>Θ</em></span></td>
+<td style="text-align: center;">$T$</td>
+<td style="text-align: left;">开尔文（$\text{K}$）</td>
+<td style="text-align: left;">摄氏度（$^{\circ}\text{C}$）</td>
+<td style="text-align: center;">$\Theta$</td>
 </tr>
 <tr>
 <td style="text-align: left;">热量</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>Q</em></span></td>
-<td style="text-align: left;">焦耳（<span class="arithmatex"></span><span class="math inline">J</span>）</td>
-<td style="text-align: left;">卡路里（<span class="arithmatex"></span><span class="math inline">cal</span>）</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><sup>2</sup><em>T</em><sup>−2</sup></span></td>
+<td style="text-align: center;">$Q$</td>
+<td style="text-align: left;">焦耳（$\text{J}$）</td>
+<td style="text-align: left;">卡路里（$\text{cal}$）</td>
+<td style="text-align: center;">$M L^2 T^{-2}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">内能</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>U</em></span></td>
-<td style="text-align: left;">焦耳（<span class="arithmatex"></span><span class="math inline">J</span>）</td>
+<td style="text-align: center;">$U$</td>
+<td style="text-align: left;">焦耳（$\text{J}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><sup>2</sup><em>T</em><sup>−2</sup></span></td>
+<td style="text-align: center;">$M L^2 T^{-2}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">比热容</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>c</em></span></td>
-<td style="text-align: left;"><span class="arithmatex"></span><span class="math inline">J/(kg ⋅ K)</span></td>
+<td style="text-align: center;">$c$</td>
+<td style="text-align: left;">$\text{J/(kg}\cdot\text{K)}$</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>L</em><sup>2</sup><em>T</em><sup>−2</sup><em>Θ</em><sup>−1</sup></span></td>
+<td style="text-align: center;">$L^2 T^{-2} \Theta^{-1}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">物质的量</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>n</em></span></td>
-<td style="text-align: left;">摩尔（<span class="arithmatex"></span><span class="math inline">mol</span>）</td>
+<td style="text-align: center;">$n$</td>
+<td style="text-align: left;">摩尔（$\text{mol}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>N</em></span></td>
+<td style="text-align: center;">$N$</td>
 </tr>
 <tr>
 <td style="text-align: left;">摩尔质量</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em></span></td>
-<td style="text-align: left;">千克/摩尔（<span class="arithmatex"></span><span class="math inline">kg/mol</span>）</td>
-<td style="text-align: left;">克/摩尔（<span class="arithmatex"></span><span class="math inline">g/mol</span>）</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>N</em><sup>−1</sup></span></td>
+<td style="text-align: center;">$M$</td>
+<td style="text-align: left;">千克/摩尔（$\text{kg/mol}$）</td>
+<td style="text-align: left;">克/摩尔（$\text{g/mol}$）</td>
+<td style="text-align: center;">$M N^{-1}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">阿伏伽德罗常量</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>N</em><sub><em>A</em></sub></span></td>
-<td style="text-align: left;">每摩尔（<span class="arithmatex"></span><span class="math inline">mol<sup>−1</sup></span>）</td>
+<td style="text-align: center;">$N_A$</td>
+<td style="text-align: left;">每摩尔（$\text{mol}^{-1}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>N</em><sup>−1</sup></span></td>
+<td style="text-align: center;">$N^{-1}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">普朗克常量</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>h</em></span></td>
-<td style="text-align: left;">焦耳·秒（<span class="arithmatex"></span><span class="math inline">J ⋅ s</span>）</td>
+<td style="text-align: center;">$h$</td>
+<td style="text-align: left;">焦耳·秒（$\text{J}\cdot\text{s}$）</td>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><sup>2</sup><em>T</em><sup>−1</sup></span></td>
+<td style="text-align: center;">$M L^2 T^{-1}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">光子能量</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>E</em></span></td>
-<td style="text-align: left;">焦耳（<span class="arithmatex"></span><span class="math inline">J</span>）</td>
-<td style="text-align: left;">电子伏特（<span class="arithmatex"></span><span class="math inline">eV</span>）</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><sup>2</sup><em>T</em><sup>−2</sup></span></td>
+<td style="text-align: center;">$E$</td>
+<td style="text-align: left;">焦耳（$\text{J}$）</td>
+<td style="text-align: left;">电子伏特（$\text{eV}$）</td>
+<td style="text-align: center;">$M L^2 T^{-2}$</td>
 </tr>
 <tr>
 <td style="text-align: left;">逸出功</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>W</em><sub>0</sub></span></td>
-<td style="text-align: left;">焦耳（<span class="arithmatex"></span><span class="math inline">J</span>）</td>
-<td style="text-align: left;">电子伏特（<span class="arithmatex"></span><span class="math inline">eV</span>）</td>
-<td style="text-align: center;"><span class="arithmatex"></span><span class="math inline"><em>M</em><em>L</em><sup>2</sup><em>T</em><sup>−2</sup></span></td>
+<td style="text-align: center;">$W_0$</td>
+<td style="text-align: left;">焦耳（$\text{J}$）</td>
+<td style="text-align: left;">电子伏特（$\text{eV}$）</td>
+<td style="text-align: center;">$M L^2 T^{-2}$</td>
 </tr>
 </tbody>
 </table>

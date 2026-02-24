@@ -9,80 +9,50 @@
 <p>注意：无穷数列只有首项，没有末项。</p>
 <p>对于数列，更严谨的定义，考虑最一般的复数，下文再说。</p>
 <h3 id="_3">无穷数列</h3>
-<p>一个 <span class="arithmatex"><span class="MathJax_Preview">(a:\mathbb N\to\mathbb C)</span><script type="math/tex">(a:\mathbb N\to\mathbb C)</script></span> 的函数被称为<strong>无穷数列</strong>。</p>
-<p>可记为 <span class="arithmatex"><span class="MathJax_Preview">\{a_i\}_{i\in\mathbb N}</span><script type="math/tex">\{a_i\}_{i\in\mathbb N}</script></span> 或 <span class="arithmatex"><span class="MathJax_Preview">(a_i)_{i\in\mathbb N}</span><script type="math/tex">(a_i)_{i\in\mathbb N}</script></span> 或 <span class="arithmatex"><span class="MathJax_Preview">\langle a_i\rangle_{i\in\mathbb N}</span><script type="math/tex">\langle a_i\rangle_{i\in\mathbb N}</script></span>。</p>
-<p>一个数列 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 的第 <span class="arithmatex"><span class="MathJax_Preview">i</span><script type="math/tex">i</script></span> 项，通常记为 <span class="arithmatex"><span class="MathJax_Preview">a(i)</span><script type="math/tex">a(i)</script></span>，简记为 <span class="arithmatex"><span class="MathJax_Preview">a_i</span><script type="math/tex">a_i</script></span>。</p>
+<p>一个 $(a:\mathbb N\to\mathbb C)$ 的函数被称为<strong>无穷数列</strong>。</p>
+<p>可记为 ${a_i}<em N="N" i_in_mathbb="i\in\mathbb">{i\in\mathbb N}$ 或 $(a_i)</em>$。}$ 或 $\langle a_i\rangle_{i\in\mathbb N</p>
+<p>一个数列 $a$ 的第 $i$ 项，通常记为 $a(i)$，简记为 $a_i$。</p>
 <h3 id="_4">有限数列</h3>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">I_n=\{1,2,\dots,n\}</span><script type="math/tex">I_n=\{1,2,\dots,n\}</script></span>，则一个 <span class="arithmatex"><span class="MathJax_Preview">(a:I_n\to\mathbb C)</span><script type="math/tex">(a:I_n\to\mathbb C)</script></span> 的函数被称为<strong>有限数列</strong>。</p>
-<p>可记为 <span class="arithmatex"><span class="MathJax_Preview">\{a_i\}_{i=1}^n</span><script type="math/tex">\{a_i\}_{i=1}^n</script></span> 或 <span class="arithmatex"><span class="MathJax_Preview">(a_i)_{i=1}^n</span><script type="math/tex">(a_i)_{i=1}^n</script></span> 或 <span class="arithmatex"><span class="MathJax_Preview">\langle a_i\rangle_{i=1}^n</span><script type="math/tex">\langle a_i\rangle_{i=1}^n</script></span>。</p>
-<p>同时，也可以将 <span class="arithmatex"><span class="MathJax_Preview">0</span><script type="math/tex">0</script></span> 作为数列的首项，类似的。</p>
+<p>若 $I_n={1,2,\dots,n}$，则一个 $(a:I_n\to\mathbb C)$ 的函数被称为<strong>有限数列</strong>。</p>
+<p>可记为 ${a_i}<em i="1">{i=1}^n$ 或 $(a_i)</em>^n$。}^n$ 或 $\langle a_i\rangle_{i=1</p>
+<p>同时，也可以将 $0$ 作为数列的首项，类似的。</p>
 <h3 id="_5">数列的级数</h3>
 <p>数列中各个项的和称为<strong>级数</strong>，具体的，</p>
-<p>一个数列 <span class="arithmatex"><span class="MathJax_Preview">a_i\,(i\in\mathbb N)</span><script type="math/tex">a_i\,(i\in\mathbb N)</script></span> 的级数是另外一个数列 <span class="arithmatex"><span class="MathJax_Preview">s_i\,(i\in\mathbb N)</span><script type="math/tex">s_i\,(i\in\mathbb N)</script></span>，具有以下特性：</p>
+<p>一个数列 $a_i\,(i\in\mathbb N)$ 的级数是另外一个数列 $s_i\,(i\in\mathbb N)$，具有以下特性：</p>
 <ul>
-<li><span class="arithmatex"><span class="MathJax_Preview">s_0=a_0</span><script type="math/tex">s_0=a_0</script></span>，</li>
-<li><span class="arithmatex"><span class="MathJax_Preview">s_n=s_{n-1}+a_n\,(\forall n\in\mathbb Z^*)</span><script type="math/tex">s_n=s_{n-1}+a_n\,(\forall n\in\mathbb Z^*)</script></span></li>
+<li>$s_0=a_0$，</li>
+<li>$s_n=s_{n-1}+a_n\,(\forall n\in\mathbb Z^*)$</li>
 </ul>
-<p>一般会将 <span class="arithmatex"><span class="MathJax_Preview">\{s_i\}_{i\in\mathbb N}</span><script type="math/tex">\{s_i\}_{i\in\mathbb N}</script></span> 写为，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>一般会将 ${s_i}_{i\in\mathbb N}$ 写为，</p>
+<p>$$
 \sum _{i=0}^na_i
-</div>
-<script type="math/tex; mode=display">
-\sum _{i=0}^na_i
-</script>
-</div>
-<p>甚至更直观的 <span class="arithmatex"><span class="MathJax_Preview">a_0+a_1+\dots +a_n</span><script type="math/tex">a_0+a_1+\dots +a_n</script></span> 来凸显级数源于求和的直观概念。</p>
-<p>对于从 <span class="arithmatex"><span class="MathJax_Preview">1</span><script type="math/tex">1</script></span> 开始的数列，同理，一般直接使用求和符号简记为，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>甚至更直观的 $a_0+a_1+\dots +a_n$ 来凸显级数源于求和的直观概念。</p>
+<p>对于从 $1$ 开始的数列，同理，一般直接使用求和符号简记为，</p>
+<p>$$
 s_i=\sum_{i=1}^na_i
-</div>
-<script type="math/tex; mode=display">
-s_i=\sum_{i=1}^na_i
-</script>
-</div>
+$$</p>
 <h3 id="_6">数列与函数</h3>
 <p>我们知道函数和数列都是一种映射，只不过，函数一般是连续的，而数列一般是离散的。</p>
 <p>容易发现，数列，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_n=f(n)
-</div>
-<script type="math/tex; mode=display">
-a_n=f(n)
-</script>
-</div>
-<p>其级数，即为 <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> 函数的积分，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>其级数，即为 $f$ 函数的积分，</p>
+<p>$$
 s_n=g(n)
-</div>
-<script type="math/tex; mode=display">
-s_n=g(n)
-</script>
-</div>
-<p>其差分，即为 <span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span> 函数的微分，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>其差分，即为 $f$ 函数的微分，</p>
+<p>$$
 d_n=k(n)
-</div>
-<script type="math/tex; mode=display">
-d_n=k(n)
-</script>
-</div>
+$$</p>
 <p>我们在数列进阶部分讨论。</p>
 <h2 id="_7">表示方法</h2>
 <h3 id="_8">列举法</h3>
 <p>例如：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a=\langle1,2,4,8,16\rangle
-</div>
-<script type="math/tex; mode=display">
-a=\langle1,2,4,8,16\rangle
-</script>
-</div>
+$$</p>
 <p>对于无穷数列很不好用。</p>
 <h3 id="_9">图像法</h3>
 <ul>
@@ -95,1426 +65,737 @@ a=\langle1,2,4,8,16\rangle
 </ul>
 <p>下面我们介绍几个常用的表示方法：通项公式和递推公式。</p>
 <h3 id="_10">通项公式</h3>
-<p>定义，表示 <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 和 <span class="arithmatex"><span class="MathJax_Preview">a_n</span><script type="math/tex">a_n</script></span> 的关系的公式，叫做 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 的<strong>通项公式</strong>。</p>
+<p>定义，表示 $n$ 和 $a_n$ 的关系的公式，叫做 $a$ 的<strong>通项公式</strong>。</p>
 <p>把数列看成函数的形式，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_n=f(n)
-</div>
-<script type="math/tex; mode=display">
-a_n=f(n)
-</script>
-</div>
+$$</p>
 <p>数列对应函数的解析式，被称为数列的通项公式。</p>
 <p>例如，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_n=2^n
-</div>
-<script type="math/tex; mode=display">
-a_n=2^n
-</script>
-</div>
+$$</p>
 <h3 id="_11">递推公式</h3>
-<p>定义，表示 <span class="arithmatex"><span class="MathJax_Preview">a_n</span><script type="math/tex">a_n</script></span> 和 <span class="arithmatex"><span class="MathJax_Preview">a_n</span><script type="math/tex">a_n</script></span> 的前一或前几项的关系的公式，叫做 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 的<strong>递推公式</strong>。</p>
+<p>定义，表示 $a_n$ 和 $a_n$ 的前一或前几项的关系的公式，叫做 $a$ 的<strong>递推公式</strong>。</p>
 <p>例如，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_{n+1}=a_n+2
-</div>
-<script type="math/tex; mode=display">
-a_{n+1}=a_n+2
-</script>
-</div>
+$$</p>
 <p>特殊的，如果要根据递推公式确定一个数列，还需要知道数列的任意一项。</p>
 <p>一般会表示数列的首项，例如，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_1=1
-</div>
-<script type="math/tex; mode=display">
-a_1=1
-</script>
-</div>
-<p>如果一个数列只跟其前面的 <span class="arithmatex"><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span> 项有关，其中 <span class="arithmatex"><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span> 是满足这个条件的最小正整数，</p>
-<p>那么称这个数列的阶数为 <span class="arithmatex"><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span>，即这个数列是一个 <span class="arithmatex"><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span> 阶数列。</p>
+$$</p>
+<p>如果一个数列只跟其前面的 $k$ 项有关，其中 $k$ 是满足这个条件的最小正整数，</p>
+<p>那么称这个数列的阶数为 $k$，即这个数列是一个 $k$ 阶数列。</p>
 <h2 id="_12">等差数列</h2>
-<p>在等差数列中，任何相邻两项的差相等，该差值称为<strong>公差</strong> <span class="arithmatex"><span class="MathJax_Preview">d</span><script type="math/tex">d</script></span>。</p>
+<p>在等差数列中，任何相邻两项的差相等，该差值称为<strong>公差</strong> $d$。</p>
 <p>具体的，可以表示为，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_n=d+qn
-</div>
-<script type="math/tex; mode=display">
-a_n=d+qn
-</script>
-</div>
+$$</p>
 <p>的，都是等差数列。</p>
-<p>上式中，公差为 <span class="arithmatex"><span class="MathJax_Preview">d</span><script type="math/tex">d</script></span>，首项 <span class="arithmatex"><span class="MathJax_Preview">a_1=d+q</span><script type="math/tex">a_1=d+q</script></span>。</p>
+<p>上式中，公差为 $d$，首项 $a_1=d+q$。</p>
 <ul>
-<li>若 <span class="arithmatex"><span class="MathJax_Preview">d&gt;0</span><script type="math/tex">d>0</script></span>，等差数列为一个严格单调递增数列。</li>
-<li>若 <span class="arithmatex"><span class="MathJax_Preview">d&lt;0</span><script type="math/tex">d<0</script></span>，等差数列为一个严格单调递减数列。</li>
-<li>特殊的，若 <span class="arithmatex"><span class="MathJax_Preview">d=0</span><script type="math/tex">d=0</script></span>，等差数列退化为一个常数列。</li>
+<li>若 $d&gt;0$，等差数列为一个严格单调递增数列。</li>
+<li>若 $d&lt;0$，等差数列为一个严格单调递减数列。</li>
+<li>特殊的，若 $d=0$，等差数列退化为一个常数列。</li>
 </ul>
 <h3 id="_13">递推公式</h3>
 <p>形如，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{a_{n+1}=a_n+d,(n\in\mathbb Z^*)}
-</div>
-<script type="math/tex; mode=display">
-\boxed{a_{n+1}=a_n+d,(n\in\mathbb Z^*)}
-</script>
-</div>
+$$</p>
 <p>或者记为，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_{n+1}-a_n=d
-</div>
-<script type="math/tex; mode=display">
-a_{n+1}-a_n=d
-</script>
-</div>
+$$</p>
 <p>即公差的定义式。</p>
 <h3 id="_14">通项公式</h3>
 <p>形如，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{a_n=a_1+(n-1)d}
-</div>
-<script type="math/tex; mode=display">
-\boxed{a_n=a_1+(n-1)d}
-</script>
-</div>
+$$</p>
 <p>即，角标减一，等于公差个数。</p>
-<p>或者对于从 <span class="arithmatex"><span class="MathJax_Preview">0</span><script type="math/tex">0</script></span> 开始的数列，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>或者对于从 $0$ 开始的数列，</p>
+<p>$$
 a_n=a_0+nd
-</div>
-<script type="math/tex; mode=display">
-a_n=a_0+nd
-</script>
-</div>
+$$</p>
 <p>前面的一项即为首项，其与公差需为给定的确定的数。</p>
 <h3 id="_15">等差性质</h3>
 <p>除了上述几条，</p>
-<p>给定任意两项 <span class="arithmatex"><span class="MathJax_Preview">a_n,a_m</span><script type="math/tex">a_n,a_m</script></span>，则公差，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>给定任意两项 $a_n,a_m$，则公差，</p>
+<p>$$
 \boxed{d={a_n-a_m\over n-m}}
-</div>
-<script type="math/tex; mode=display">
-\boxed{d={a_n-a_m\over n-m}}
-</script>
-</div>
+$$</p>
 <p>在等差数列中，前项与后项和为该项两倍，具体的，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-a_{n-1}+a_{n+1}&amp;=a_n-d+a_n+d\\
+a_{n-1}+a_{n+1}&amp;=a_n-d+a_n+d\
 &amp;=2a_n
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-a_{n-1}+a_{n+1}&=a_n-d+a_n+d\\
-&=2a_n
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>从另一个角度看，等差数列中的任意一项，是其前项和后项的算术平均：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_n={a_{n-1}+a_{n+1}\over2}
-</div>
-<script type="math/tex; mode=display">
-a_n={a_{n-1}+a_{n+1}\over2}
-</script>
-</div>
-<p>对于正整数 <span class="arithmatex"><span class="MathJax_Preview">m,n,p,q</span><script type="math/tex">m,n,p,q</script></span>，若 <span class="arithmatex"><span class="MathJax_Preview">m+n=p+q</span><script type="math/tex">m+n=p+q</script></span>，则，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>对于正整数 $m,n,p,q$，若 $m+n=p+q$，则，</p>
+<p>$$
 \boxed{a_m+a_n=a_p+a_q}
-</div>
-<script type="math/tex; mode=display">
-\boxed{a_m+a_n=a_p+a_q}
-</script>
-</div>
+$$</p>
 <p>或者简化一下，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{a_m+a_n=a_{m-k}+a_{n+k}}
-</div>
-<script type="math/tex; mode=display">
-\boxed{a_m+a_n=a_{m-k}+a_{n+k}}
-</script>
-</div>
+$$</p>
 <p>据此，有，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{a_{n-k}+a_{n+k}=2a_n}
-</div>
-<script type="math/tex; mode=display">
-\boxed{a_{n-k}+a_{n+k}=2a_n}
-</script>
-</div>
-<p>对于 <span class="arithmatex"><span class="MathJax_Preview">a_{n-k},a_n,a_{n+k}</span><script type="math/tex">a_{n-k},a_n,a_{n+k}</script></span> 有意义。据此，同理，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>对于 $a_{n-k},a_n,a_{n+k}$ 有意义。据此，同理，</p>
+<p>$$
 a_n={a_{n-k}+a_{n+k}\over2}
-</div>
-<script type="math/tex; mode=display">
-a_n={a_{n-k}+a_{n+k}\over2}
-</script>
-</div>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">\langle a_n\rangle</span><script type="math/tex">\langle a_n\rangle</script></span> 为一个等差数列，则，</p>
+$$</p>
+<p>若 $\langle a_n\rangle$ 为一个等差数列，则，</p>
 <ul>
-<li><span class="arithmatex"><span class="MathJax_Preview">\langle b+a_n\rangle</span><script type="math/tex">\langle b+a_n\rangle</script></span>：为一个等差数列；</li>
-<li><span class="arithmatex"><span class="MathJax_Preview">\langle b\times a_n\rangle</span><script type="math/tex">\langle b\times a_n\rangle</script></span>：为一个等差数列；</li>
-<li><span class="arithmatex"><span class="MathJax_Preview">\langle b^{a_n}\rangle</span><script type="math/tex">\langle b^{a_n}\rangle</script></span>：为一个等比数列（见下）；</li>
+<li>$\langle b+a_n\rangle$：为一个等差数列；</li>
+<li>$\langle b\times a_n\rangle$：为一个等差数列；</li>
+<li>$\langle b^{a_n}\rangle$：为一个等比数列（见下）；</li>
 </ul>
 <h3 id="_16">项数公式</h3>
-<p>给定等差数列首项 <span class="arithmatex"><span class="MathJax_Preview">a_1</span><script type="math/tex">a_1</script></span> 及公差 <span class="arithmatex"><span class="MathJax_Preview">d</span><script type="math/tex">d</script></span>，有项 <span class="arithmatex"><span class="MathJax_Preview">a_k</span><script type="math/tex">a_k</script></span>，则，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>给定等差数列首项 $a_1$ 及公差 $d$，有项 $a_k$，则，</p>
+<p>$$
 \begin{aligned}
-a_k=a_1+(k-1)d\\
-k-1={a_k-a_1\over d}\\
+a_k=a_1+(k-1)d\
+k-1={a_k-a_1\over d}\
 \boxed{k={a_k-a_1\over d}+1}
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
+$$</p>
+<p>或对于 $a_0$，</p>
+<p>$$
 \begin{aligned}
-a_k=a_1+(k-1)d\\
-k-1={a_k-a_1\over d}\\
-\boxed{k={a_k-a_1\over d}+1}
+a_k=a_0+kd\
+k={a_k-a_0\over d}\
 \end{aligned}
-</script>
-</div>
-<p>或对于 <span class="arithmatex"><span class="MathJax_Preview">a_0</span><script type="math/tex">a_0</script></span>，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\begin{aligned}
-a_k=a_0+kd\\
-k={a_k-a_0\over d}\\
-\end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-a_k=a_0+kd\\
-k={a_k-a_0\over d}\\
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>另外的，函数思想，有，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-a_n=f(n)\\
+a_n=f(n)\
 n=g(a_n)
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-a_n=f(n)\\
-n=g(a_n)
-\end{aligned}
-</script>
-</div>
-<p>即 <span class="arithmatex"><span class="MathJax_Preview">f,g</span><script type="math/tex">f,g</script></span> 互为反函数，这个可以用于求多种数列。</p>
+$$</p>
+<p>即 $f,g$ 互为反函数，这个可以用于求多种数列。</p>
 <h3 id="_17">求和公式</h3>
 <p>一般考虑，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 S_i=\sum_{i=1}^na_i
-</div>
-<script type="math/tex; mode=display">
-S_i=\sum_{i=1}^na_i
-</script>
-</div>
+$$</p>
 <p>有常用公式，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 S_n-S_{n-1}=a_n
-</div>
-<script type="math/tex; mode=display">
-S_n-S_{n-1}=a_n
-</script>
-</div>
+$$</p>
 <p>考虑求解出，求和公式的封闭形式，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-S_n&amp;=a_1+(a_1+d)+(a_1+2d)+\dots+[a_1+(n-1)d]\\
-&amp;=na_1+d[1+2+3+\dots(n-1)]\\
+S_n&amp;=a_1+(a_1+d)+(a_1+2d)+\dots+[a_1+(n-1)d]\
+&amp;=na_1+d[1+2+3+\dots(n-1)]\
 &amp;=na_1+dT_{n-1}
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-S_n&=a_1+(a_1+d)+(a_1+2d)+\dots+[a_1+(n-1)d]\\
-&=na_1+d[1+2+3+\dots(n-1)]\\
-&=na_1+dT_{n-1}
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>而对于，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 T_n=1+2+3+\dots+n
-</div>
-<script type="math/tex; mode=display">
-T_n=1+2+3+\dots+n
-</script>
-</div>
+$$</p>
 <p>我们首尾配对，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 T_n=n+(n-1)+\dots+1
-</div>
-<script type="math/tex; mode=display">
-T_n=n+(n-1)+\dots+1
-</script>
-</div>
+$$</p>
 <p>两者相加，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-2T_n=n(n+1)\\
+2T_n=n(n+1)\
 T_n=n(n+1)/2
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-2T_n=n(n+1)\\
-T_n=n(n+1)/2
-\end{aligned}
-</script>
-</div>
-<p>另，一般题中出现 <span class="arithmatex"><span class="MathJax_Preview">x_1 + x_2 = k</span><script type="math/tex">x_1 + x_2 = k</script></span>（<span class="arithmatex"><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span> 为常数），且 <span class="arithmatex"><span class="MathJax_Preview">f(x_1) + f(x_2) = \ell</span><script type="math/tex">f(x_1) + f(x_2) = \ell</script></span>（<span class="arithmatex"><span class="MathJax_Preview">\ell</span><script type="math/tex">\ell</script></span> 为常数）时，可以采用倒序相加的方法进行求和。</p>
+$$</p>
+<p>另，一般题中出现 $x_1 + x_2 = k$（$k$ 为常数），且 $f(x_1) + f(x_2) = \ell$（$\ell$ 为常数）时，可以采用倒序相加的方法进行求和。</p>
 <p>于是，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-S_n&amp;=na_1+dT_{n-1}\\
-&amp;=\boxed{na_1+{n(n-1)\over2}d}\\
-&amp;={n\over2}[2a_1+(n-1)d]\\
+S_n&amp;=na_1+dT_{n-1}\
+&amp;=\boxed{na_1+{n(n-1)\over2}d}\
+&amp;={n\over2}[2a_1+(n-1)d]\
 &amp;=\boxed{{n(a_1+a_n)\over2}}
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-S_n&=na_1+dT_{n-1}\\
-&=\boxed{na_1+{n(n-1)\over2}d}\\
-&={n\over2}[2a_1+(n-1)d]\\
-&=\boxed{{n(a_1+a_n)\over2}}
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>或者，对于原始公式直接首尾配对，用上面的结论，也可以得出。</p>
 <p>总结一下，一般写为，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{S_n={[2a_1+(n-1)]d\over2}\cdot n={n(a_1+a_n)\over2}}
-</div>
-<script type="math/tex; mode=display">
-\boxed{S_n={[2a_1+(n-1)]d\over2}\cdot n={n(a_1+a_n)\over2}}
-</script>
-</div>
+$$</p>
 <p>常用二次函数的思想：</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{S_n={d\over2}n^2+\left(a_1-{d\over2}\right)n}
-</div>
-<script type="math/tex; mode=display">
-\boxed{S_n={d\over2}n^2+\left(a_1-{d\over2}\right)n}
-</script>
-</div>
+$$</p>
 <p>据此，可以等差数列和的极点存在于，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{n={d/2-a_1\over d}={1\over2}-{a_1\over d}}
-</div>
-<script type="math/tex; mode=display">
-\boxed{n={d/2-a_1\over d}={1\over2}-{a_1\over d}}
-</script>
-</div>
+$$</p>
 <p>我们发现，该函数图像过原点，因此我们定义，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 S_0=0
-</div>
-<script type="math/tex; mode=display">
-S_0=0
-</script>
-</div>
-<p>同时，对于上面的式子，如果我们假设存在 <span class="arithmatex"><span class="MathJax_Preview">a_0</span><script type="math/tex">a_0</script></span>，那么求和，</p>
+$$</p>
+<p>同时，对于上面的式子，如果我们假设存在 $a_0$，那么求和，</p>
 <p>得出很重要的一个结论，任何一个二次函数，都可以表示为一个等差数列的级数。</p>
-<p>也就是说：数列 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 是等差数列，等价于 <span class="arithmatex"><span class="MathJax_Preview">S_n=An^2+Bn</span><script type="math/tex">S_n=An^2+Bn</script></span>，等价于 <span class="arithmatex"><span class="MathJax_Preview">\left\{\dfrac{S_n}{n}\right\}</span><script type="math/tex">\left\{\dfrac{S_n}{n}\right\}</script></span> 为等差数列。</p>
+<p>也就是说：数列 ${a_n}$ 是等差数列，等价于 $S_n=An^2+Bn$，等价于 $\left{\dfrac{S_n}{n}\right}$ 为等差数列。</p>
 <p>等差数列和在中文教科书中常表达为：</p>
 <p>一个等差数列的和，等于其首项与末项的和，乘以项数除以二。</p>
-<p>对于等差数列的前 <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 项和，也可以将其构造为等差数列。等差数列 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span>，设公差为 <span class="arithmatex"><span class="MathJax_Preview">d</span><script type="math/tex">d</script></span>，若前 <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 项和为 <span class="arithmatex"><span class="MathJax_Preview">S_n</span><script type="math/tex">S_n</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">\{S_m,S_{2m}-S_m,S_{3m}-S_{2m}\}</span><script type="math/tex">\{S_m,S_{2m}-S_m,S_{3m}-S_{2m}\}</script></span> 仍构成等差数列，公差为 <span class="arithmatex"><span class="MathJax_Preview">m^2d</span><script type="math/tex">m^2d</script></span>。</p>
-<p>如果数列 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 为等差数列，<span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 的前 <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 项和 <span class="arithmatex"><span class="MathJax_Preview">S_n</span><script type="math/tex">S_n</script></span> 有如下结论：</p>
+<p>对于等差数列的前 $n$ 项和，也可以将其构造为等差数列。等差数列 ${a_n}$，设公差为 $d$，若前 $n$ 项和为 $S_n$，则 ${S_m,S_{2m}-S_m,S_{3m}-S_{2m}}$ 仍构成等差数列，公差为 $m^2d$。</p>
+<p>如果数列 ${a_n}$ 为等差数列，${a_n}$ 的前 $n$ 项和 $S_n$ 有如下结论：</p>
 <ul>
 <li>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">a_1 &lt; 0, d &gt; 0</span><script type="math/tex">a_1 < 0, d > 0</script></span>，且此时 <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 满足 <span class="arithmatex"><span class="MathJax_Preview">\begin{cases} a_n \le 0 \\ a_{n+1} \ge 0 \end{cases}</span><script type="math/tex">\begin{cases} a_n \le 0 \\ a_{n+1} \ge 0 \end{cases}</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">S_n</span><script type="math/tex">S_n</script></span> 有最小值；</p>
+<p>若 $a_1 &lt; 0, d &gt; 0$，且此时 $n$ 满足 $\begin{cases} a_n \le 0 \ a_{n+1} \ge 0 \end{cases}$，则 $S_n$ 有最小值；</p>
 </li>
 <li>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">a_1 &gt; 0, d &lt; 0</span><script type="math/tex">a_1 > 0, d < 0</script></span>，且此时 <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 满足 <span class="arithmatex"><span class="MathJax_Preview">\begin{cases} a_n \ge 0 \\ a_{n+1} \le 0 \end{cases}</span><script type="math/tex">\begin{cases} a_n \ge 0 \\ a_{n+1} \le 0 \end{cases}</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">S_n</span><script type="math/tex">S_n</script></span> 有最大值。</p>
+<p>若 $a_1 &gt; 0, d &lt; 0$，且此时 $n$ 满足 $\begin{cases} a_n \ge 0 \ a_{n+1} \le 0 \end{cases}$，则 $S_n$ 有最大值。</p>
 </li>
 </ul>
 <h3 id="_18">等差中项</h3>
-<p>对于 <span class="arithmatex"><span class="MathJax_Preview">a,b</span><script type="math/tex">a,b</script></span>，有 <span class="arithmatex"><span class="MathJax_Preview">c</span><script type="math/tex">c</script></span> 满足，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>对于 $a,b$，有 $c$ 满足，</p>
+<p>$$
 c-a=b-c
-</div>
-<script type="math/tex; mode=display">
-c-a=b-c
-</script>
-</div>
+$$</p>
 <p>即，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 c={a+b\over2}
-</div>
-<script type="math/tex; mode=display">
-c={a+b\over2}
-</script>
-</div>
+$$</p>
 <p>即算术平均数。</p>
-<p>或者，若 <span class="arithmatex"><span class="MathJax_Preview">\{a,b,c\}</span><script type="math/tex">\{a,b,c\}</script></span> 为一个等差数列，那么</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>或者，若 ${a,b,c}$ 为一个等差数列，那么</p>
+<p>$$
 b-a=c-b
-</div>
-<script type="math/tex; mode=display">
-b-a=c-b
-</script>
-</div>
+$$</p>
 <p>一般写为，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a+c=2b
-</div>
-<script type="math/tex; mode=display">
-a+c=2b
-</script>
-</div>
+$$</p>
 <p>可以用这个来判断一个三项数列是否为等差数列。</p>
-<p>例题，对于等差数列 <span class="arithmatex"><span class="MathJax_Preview">\{a,b,c\}</span><script type="math/tex">\{a,b,c\}</script></span>，证明，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\left\{{1\over\sqrt b+\sqrt c},{1\over\sqrt c+\sqrt a},{1\over\sqrt a+\sqrt b}\right\}
-</div>
-<script type="math/tex; mode=display">
-\left\{{1\over\sqrt b+\sqrt c},{1\over\sqrt c+\sqrt a},{1\over\sqrt a+\sqrt b}\right\}
-</script>
-</div>
+<p>例题，对于等差数列 ${a,b,c}$，证明，</p>
+<p>$$
+\left{{1\over\sqrt b+\sqrt c},{1\over\sqrt c+\sqrt a},{1\over\sqrt a+\sqrt b}\right}
+$$</p>
 <p>也是一个等差数列。</p>
 <p>暴力展开，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-{2\over\sqrt c+\sqrt a}={1\over\sqrt b+\sqrt c}+{1\over\sqrt a+\sqrt b}\\
-{2\over\sqrt c+\sqrt a}={2\sqrt b+\sqrt a+\sqrt c\over b+\sqrt b(\sqrt a+\sqrt c)+\sqrt{ac}}\\
-2b+2\sqrt{ac}+2\sqrt b(\sqrt a+\sqrt c)=2\sqrt b(\sqrt a+\sqrt c)+a+c+\sqrt ac\\
+<p>$$
+{2\over\sqrt c+\sqrt a}={1\over\sqrt b+\sqrt c}+{1\over\sqrt a+\sqrt b}\
+{2\over\sqrt c+\sqrt a}={2\sqrt b+\sqrt a+\sqrt c\over b+\sqrt b(\sqrt a+\sqrt c)+\sqrt{ac}}\
+2b+2\sqrt{ac}+2\sqrt b(\sqrt a+\sqrt c)=2\sqrt b(\sqrt a+\sqrt c)+a+c+\sqrt ac\
 a+c=2b
-</div>
-<script type="math/tex; mode=display">
-{2\over\sqrt c+\sqrt a}={1\over\sqrt b+\sqrt c}+{1\over\sqrt a+\sqrt b}\\
-{2\over\sqrt c+\sqrt a}={2\sqrt b+\sqrt a+\sqrt c\over b+\sqrt b(\sqrt a+\sqrt c)+\sqrt{ac}}\\
-2b+2\sqrt{ac}+2\sqrt b(\sqrt a+\sqrt c)=2\sqrt b(\sqrt a+\sqrt c)+a+c+\sqrt ac\\
-a+c=2b
-</script>
-</div>
-<p>对于等差数列 <span class="arithmatex"><span class="MathJax_Preview">\{a,b,c\}</span><script type="math/tex">\{a,b,c\}</script></span> 成立。Q.E.D.</p>
+$$</p>
+<p>对于等差数列 ${a,b,c}$ 成立。Q.E.D.</p>
 <p>或者，观察到原式中，分母都是根号的形式，考虑分母有理化，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-{2\over\sqrt c+\sqrt a}={1\over\sqrt b+\sqrt c}+{1\over\sqrt a+\sqrt b}\\
+<p>$$
+{2\over\sqrt c+\sqrt a}={1\over\sqrt b+\sqrt c}+{1\over\sqrt a+\sqrt b}\
 {2(\sqrt c-\sqrt a)\over2d}={\sqrt c-\sqrt b\over d}+{\sqrt b-\sqrt a\over d}
-</div>
-<script type="math/tex; mode=display">
-{2\over\sqrt c+\sqrt a}={1\over\sqrt b+\sqrt c}+{1\over\sqrt a+\sqrt b}\\
-{2(\sqrt c-\sqrt a)\over2d}={\sqrt c-\sqrt b\over d}+{\sqrt b-\sqrt a\over d}
-</script>
-</div>
+$$</p>
 <p>显然成立。</p>
 <h3 id="_19">累加法</h3>
 <p>最简单的，形如，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_n=a_{n-1}+f(n)
-</div>
-<script type="math/tex; mode=display">
-a_n=a_{n-1}+f(n)
-</script>
-</div>
+$$</p>
 <p>都可以使用累加法，具体的，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-a_n&amp;=a_{n-1}+f(n)\\
-a_{n-1}&amp;=a_{n-2}+f(n-1)\\
-&amp;\dots\\
-a_3&amp;=a_2+f(3)\\
+a_n&amp;=a_{n-1}+f(n)\
+a_{n-1}&amp;=a_{n-2}+f(n-1)\
+&amp;\dots\
+a_3&amp;=a_2+f(3)\
 a_2&amp;=a_1+f(2)
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-a_n&=a_{n-1}+f(n)\\
-a_{n-1}&=a_{n-2}+f(n-1)\\
-&\dots\\
-a_3&=a_2+f(3)\\
-a_2&=a_1+f(2)
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>上述所有式子相加，得</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_n=a_1+f(2)+f(2)+\dots+f(n)
-</div>
-<script type="math/tex; mode=display">
-a_n=a_1+f(2)+f(2)+\dots+f(n)
-</script>
-</div>
+$$</p>
 <h3 id="_20">多阶等差</h3>
 <p>容易发现，我们对于公差求前缀和，可以得到一个普通等差数列。</p>
 <p>那么，我们对于普通等差数列再求和，就可以得到二阶等差数列。</p>
 <p>具体的，定义常数为零阶等差数列，普通等差数列为一阶等差数列。</p>
-<p>容易发现，若 <span class="arithmatex"><span class="MathJax_Preview">\{a_i\}</span><script type="math/tex">\{a_i\}</script></span> 为一阶等差数列，<span class="arithmatex"><span class="MathJax_Preview">\{b_i\}</span><script type="math/tex">\{b_i\}</script></span> 同样，那么 <span class="arithmatex"><span class="MathJax_Preview">\{a_ib_i\}</span><script type="math/tex">\{a_ib_i\}</script></span> 为一个二阶等差数列。</p>
+<p>容易发现，若 ${a_i}$ 为一阶等差数列，${b_i}$ 同样，那么 ${a_ib_i}$ 为一个二阶等差数列。</p>
 <p>根据定义，对于一个二阶等差数列，其相邻两项的差为一个一阶等差数列，相邻两项差的相邻两项差为一个常数。</p>
 <h2 id="_21">等比数列</h2>
-<p>在等比数列中，任何相邻两项的比例相等，该比值称为公比 <span class="arithmatex"><span class="MathJax_Preview">q</span><script type="math/tex">q</script></span>。</p>
+<p>在等比数列中，任何相邻两项的比例相等，该比值称为公比 $q$。</p>
 <p>具体的，可以表示为，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a=pq^n
-</div>
-<script type="math/tex; mode=display">
-a=pq^n
-</script>
-</div>
+$$</p>
 <p>的，都是等比数列。</p>
-<p>上式中，公比为 <span class="arithmatex"><span class="MathJax_Preview">q</span><script type="math/tex">q</script></span>，首项 <span class="arithmatex"><span class="MathJax_Preview">a_1=pq</span><script type="math/tex">a_1=pq</script></span>。</p>
+<p>上式中，公比为 $q$，首项 $a_1=pq$。</p>
 <h3 id="_22">递推公式</h3>
 <p>形如，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{a_{n+1}=qa_n,\,(n\in\mathbb Z^*,q\neq0)}
-</div>
-<script type="math/tex; mode=display">
-\boxed{a_{n+1}=qa_n,\,(n\in\mathbb Z^*,q\neq0)}
-</script>
-</div>
+$$</p>
 <p>或者记为，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{q={a_{n+1}\over a_n}}
-</div>
-<script type="math/tex; mode=display">
-\boxed{q={a_{n+1}\over a_n}}
-</script>
-</div>
+$$</p>
 <p>即公比的定义式。</p>
-<p>易知此式中，<span class="arithmatex"><span class="MathJax_Preview">a_n\neq0</span><script type="math/tex">a_n\neq0</script></span>，为了方便，我们一般规定 <span class="arithmatex"><span class="MathJax_Preview">q\neq0</span><script type="math/tex">q\neq0</script></span>。</p>
+<p>易知此式中，$a_n\neq0$，为了方便，我们一般规定 $q\neq0$。</p>
 <h3 id="_23">通项公式</h3>
 <p>形如，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{a_n=a_1q^{n-1}}
-</div>
-<script type="math/tex; mode=display">
-\boxed{a_n=a_1q^{n-1}}
-</script>
-</div>
-<p>换句话说，任意一个等比数列 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 都可以写为，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\{a,aq,aq^2,\dots aq^{n-1}\}
-</div>
-<script type="math/tex; mode=display">
-\{a,aq,aq^2,\dots aq^{n-1}\}
-</script>
-</div>
+$$</p>
+<p>换句话说，任意一个等比数列 ${a_n}$ 都可以写为，</p>
+<p>$$
+{a,aq,aq^2,\dots aq^{n-1}}
+$$</p>
 <p>即，角标减一，等于公比幂次。</p>
 <h3 id="_24">等比性质</h3>
 <p>除了上述几条，</p>
 <p>在等比数列中，前项与后项积为该项平方，具体的，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-a_{n-1}\times a_{n+1}&amp;=aq^{n-2}aq^{n}\\
-&amp;=a^2q^{2n-2}\\
-&amp;=(aq^{n-1})^2\\
+a_{n-1}\times a_{n+1}&amp;=aq<sup n="n">{n-2}aq</sup>\
+&amp;=a<sup 2n-2="2n-2">2q</sup>\
+&amp;=(aq<sup>{n-1})</sup>2\
 &amp;=a_n^2
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-a_{n-1}\times a_{n+1}&=aq^{n-2}aq^{n}\\
-&=a^2q^{2n-2}\\
-&=(aq^{n-1})^2\\
-&=a_n^2
-\end{aligned}
-</script>
-</div>
-<p>对于正整数 <span class="arithmatex"><span class="MathJax_Preview">m,n,p,q</span><script type="math/tex">m,n,p,q</script></span>，若 <span class="arithmatex"><span class="MathJax_Preview">m+n=p+q</span><script type="math/tex">m+n=p+q</script></span>，则，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>对于正整数 $m,n,p,q$，若 $m+n=p+q$，则，</p>
+<p>$$
 \boxed{a_m\cdot a_n=a_p\cdot a_q}
-</div>
-<script type="math/tex; mode=display">
-\boxed{a_m\cdot a_n=a_p\cdot a_q}
-</script>
-</div>
+$$</p>
 <p>或者简化一下，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{a_m\cdot a_n=a_{m-k}\cdot a_{n+k}}
-</div>
-<script type="math/tex; mode=display">
-\boxed{a_m\cdot a_n=a_{m-k}\cdot a_{n+k}}
-</script>
-</div>
+$$</p>
 <p>据此，有，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{a_{n-k}\cdot a_{n+k}=a_n^2}
-</div>
-<script type="math/tex; mode=display">
-\boxed{a_{n-k}\cdot a_{n+k}=a_n^2}
-</script>
-</div>
+$$</p>
 <p>还有一些和上面等比数列类似的操作的结论，</p>
 <p>但是因为正负号的问题，不具体写出，可以根据上述平方的公式推导。</p>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">\langle a_n\rangle</span><script type="math/tex">\langle a_n\rangle</script></span> 为一个等比数列，则，</p>
+<p>若 $\langle a_n\rangle$ 为一个等比数列，则，</p>
 <ul>
-<li><span class="arithmatex"><span class="MathJax_Preview">\langle b+a_n\rangle</span><script type="math/tex">\langle b+a_n\rangle</script></span>：为一个等比数列；</li>
-<li><span class="arithmatex"><span class="MathJax_Preview">\langle b\times a_n\rangle</span><script type="math/tex">\langle b\times a_n\rangle</script></span>：为一个等比数列；</li>
-<li><span class="arithmatex"><span class="MathJax_Preview">\langle \log_ba_n\rangle</span><script type="math/tex">\langle \log_ba_n\rangle</script></span>：为一个等差数列（见上）；</li>
+<li>$\langle b+a_n\rangle$：为一个等比数列；</li>
+<li>$\langle b\times a_n\rangle$：为一个等比数列；</li>
+<li>$\langle \log_ba_n\rangle$：为一个等差数列（见上）；</li>
 </ul>
 <h3 id="_25">求和公式</h3>
 <p>等差数列中给出的公式依然成立，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 S_n-S_{n-1}=a_n
-</div>
-<script type="math/tex; mode=display">
-S_n-S_{n-1}=a_n
-</script>
-</div>
+$$</p>
 <p>实际上，这个对于任意数列都成立。</p>
 <p>考虑求解出，等比数列求和公式的封闭形式，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-S_n&amp;=a_1+a_1q+a_1q^2+\dots+a_1q^{n-1}\\
-&amp;=a_1(1+q+q^2+\dots+q^{n-1})
+S_n&amp;=a_1+a_1q+a_1q<sup n-1="n-1">2+\dots+a_1q</sup>\
+&amp;=a_1(1+q+q<sup n-1="n-1">2+\dots+q</sup>)
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-S_n&=a_1+a_1q+a_1q^2+\dots+a_1q^{n-1}\\
-&=a_1(1+q+q^2+\dots+q^{n-1})
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>注意到后面的是经典的分解因式，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{S_n=a_1\cdot{q^n-1\over q-1},\,(q\neq 1)}
-</div>
-<script type="math/tex; mode=display">
-\boxed{S_n=a_1\cdot{q^n-1\over q-1},\,(q\neq 1)}
-</script>
-</div>
+$$</p>
 <p>或者，错位相减，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-qS_n-S_n=a_1q^n-a_1\\
+qS_n-S_n=a_1q^n-a_1\
 S_n=a_1\cdot{q^n-1\over q-1},\,(q\neq 1)
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-qS_n-S_n=a_1q^n-a_1\\
-S_n=a_1\cdot{q^n-1\over q-1},\,(q\neq 1)
-\end{aligned}
-</script>
-</div>
-<p>同时，若 <span class="arithmatex"><span class="MathJax_Preview">q=1</span><script type="math/tex">q=1</script></span>，数列退化为常数列，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>同时，若 $q=1$，数列退化为常数列，</p>
+<p>$$
 \boxed{S_n=na_1,\,(q=1)}
-</div>
-<script type="math/tex; mode=display">
-\boxed{S_n=na_1,\,(q=1)}
-</script>
-</div>
+$$</p>
 <h3 id="_26">等比中项</h3>
-<p>对于 <span class="arithmatex"><span class="MathJax_Preview">a,b</span><script type="math/tex">a,b</script></span>，有 <span class="arithmatex"><span class="MathJax_Preview">c</span><script type="math/tex">c</script></span> 满足，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>对于 $a,b$，有 $c$ 满足，</p>
+<p>$$
 {b\over c}={c\over a}
-</div>
-<script type="math/tex; mode=display">
-{b\over c}={c\over a}
-</script>
-</div>
+$$</p>
 <p>即，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 c=\pm\sqrt{ab}
-</div>
-<script type="math/tex; mode=display">
-c=\pm\sqrt{ab}
-</script>
-</div>
+$$</p>
 <p>取其中的正数，即几何平均数。</p>
 <h3 id="_27">累乘法</h3>
 <p>和累加法类似的，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_n=a_{n-1}f(n)
-</div>
-<script type="math/tex; mode=display">
-a_n=a_{n-1}f(n)
-</script>
-</div>
+$$</p>
 <p>累乘法，即</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-a_n&amp;=a_{n-1}f(n)\\
-a_{n-1}&amp;=a_{n-2}f(n-1)\\
-&amp;\dots\\
-a_3&amp;=a_2f(3)\\
+a_n&amp;=a_{n-1}f(n)\
+a_{n-1}&amp;=a_{n-2}f(n-1)\
+&amp;\dots\
+a_3&amp;=a_2f(3)\
 a_2&amp;=a_1f(2)
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-a_n&=a_{n-1}f(n)\\
-a_{n-1}&=a_{n-2}f(n-1)\\
-&\dots\\
-a_3&=a_2f(3)\\
-a_2&=a_1f(2)
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>上述所有式子相乘，得</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_n=a_1f(2)f(3)\dots f(n)
-</div>
-<script type="math/tex; mode=display">
-a_n=a_1f(2)f(3)\dots f(n)
-</script>
-</div>
+$$</p>
 <h2 id="_28">裂项放缩</h2>
 <h3 id="_29">经典裂项</h3>
 <p>有性质，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{{1\over n(n+1)}={1\over n}-{1\over n+1}}
-</div>
-<script type="math/tex; mode=display">
-\boxed{{1\over n(n+1)}={1\over n}-{1\over n+1}}
-</script>
-</div>
+$$</p>
 <p>可以求解，形如</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 S={1\over1\times2}+{1\over2\times3}+\dots+{1\over n(n+1)}
-</div>
-<script type="math/tex; mode=display">
-S={1\over1\times2}+{1\over2\times3}+\dots+{1\over n(n+1)}
-</script>
-</div>
+$$</p>
 <p>的问题。</p>
 <p>同时，易证，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{{1\over n(n+k)}={1\over k}\left({1\over k}-{1\over n+k}\right)}
-</div>
-<script type="math/tex; mode=display">
-\boxed{{1\over n(n+k)}={1\over k}\left({1\over k}-{1\over n+k}\right)}
-</script>
-</div>
+$$</p>
 <p>注意，此时裂项一定要找准剩下的。</p>
 <p>我们可以分别写出括号内的正数、负数。</p>
-<p>以 <span class="arithmatex"><span class="MathJax_Preview">k=2</span><script type="math/tex">k=2</script></span> 为例，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>以 $k=2$ 为例，</p>
+<p>$$
 S={1\over1\times3}+{1\over2\times4}+\dots+{1\over n(n+2)}
-</div>
-<script type="math/tex; mode=display">
-S={1\over1\times3}+{1\over2\times4}+\dots+{1\over n(n+2)}
-</script>
-</div>
+$$</p>
 <p>化简，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 2S={1\over1}-{1\over3}+{1\over2}-{1\over4}+\dots+{1\over n}-{1\over n+2}
-</div>
-<script type="math/tex; mode=display">
-2S={1\over1}-{1\over3}+{1\over2}-{1\over4}+\dots+{1\over n}-{1\over n+2}
-</script>
-</div>
+$$</p>
 <p>列出正负，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-+&amp;:{1\over1},{1\over2},{1\over3},\dots,{1\over n-1},{1\over n}\\
++&amp;:{1\over1},{1\over2},{1\over3},\dots,{1\over n-1},{1\over n}\
 -&amp;:{1\over3},{1\over4},{1\over5},\dots,{1\over n+1},{1\over n+2}
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-+&:{1\over1},{1\over2},{1\over3},\dots,{1\over n-1},{1\over n}\\
--&:{1\over3},{1\over4},{1\over5},\dots,{1\over n+1},{1\over n+2}
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>容易发现，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 2S=1+{1\over2}-{1\over n+1}-{1\over n-2}
-</div>
-<script type="math/tex; mode=display">
-2S=1+{1\over2}-{1\over n+1}-{1\over n-2}
-</script>
-</div>
+$$</p>
 <p>或者用求和符号简单的表示，下文再说。</p>
 <h3 id="_30">整式裂项</h3>
 <p>有公式，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{n(n+1)={1\over3}\Big[n(n+1)(n+2)-(n-1)n(n+1)\Big]}
-</div>
-<script type="math/tex; mode=display">
-\boxed{n(n+1)={1\over3}\Big[n(n+1)(n+2)-(n-1)n(n+1)\Big]}
-</script>
-</div>
+$$</p>
 <p>于是，例题，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 S=1\times2+2\times3+3\times4+\dots+n(n+1)
-</div>
-<script type="math/tex; mode=display">
-S=1\times2+2\times3+3\times4+\dots+n(n+1)
-</script>
-</div>
+$$</p>
 <p>化简，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 3S=1\times2\times3-0\times1\times2+\dots+n(n+1)(n+2)-(n-1)n(n+1)
-</div>
-<script type="math/tex; mode=display">
-3S=1\times2\times3-0\times1\times2+\dots+n(n+1)(n+2)-(n-1)n(n+1)
-</script>
-</div>
+$$</p>
 <p>得，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 S={n(n+1)(n+2)\over3}
-</div>
-<script type="math/tex; mode=display">
-S={n(n+1)(n+2)\over3}
-</script>
-</div>
+$$</p>
 <p>利用上述等式，注意到，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 n^2=n(n+1)-n
-</div>
-<script type="math/tex; mode=display">
-n^2=n(n+1)-n
-</script>
-</div>
+$$</p>
 <p>于是，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\boxed{1^2+2^2+\dots+n^2=S-{n(n+1)\over2}={n(n+1)(2n+1)\over6}}
-</div>
-<script type="math/tex; mode=display">
-\boxed{1^2+2^2+\dots+n^2=S-{n(n+1)\over2}={n(n+1)(2n+1)\over6}}
-</script>
-</div>
+<p>$$
+\boxed{1<sup>2+2</sup>2+\dots+n^2=S-{n(n+1)\over2}={n(n+1)(2n+1)\over6}}
+$$</p>
 <p>或者用求和符号简单的表示，下文再说。</p>
 <h3 id="_31">更多裂项</h3>
 <p>以下是一些基本的小学奥数难度的裂项。</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-a^2-a+1=\frac{a^4+a^2+1}{a^4+a+1}
-</div>
-<script type="math/tex; mode=display">
-a^2-a+1=\frac{a^4+a^2+1}{a^4+a+1}
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
+a<sup>2-a+1=\frac{a</sup>4+a<sup>2+1}{a</sup>4+a+1}
+$$</p>
+<p>$$
 \frac{1}{n(n+1)}=\frac{1}{n}-\frac{1}{n+1}
-</div>
-<script type="math/tex; mode=display">
-\frac{1}{n(n+1)}=\frac{1}{n}-\frac{1}{n+1}
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \frac{1}{n(n+1)(n+2)}=\frac{1}{2}\left[\frac{1}{n(n+1)}-\frac{1}{(n+1)(n+2)}\right]
-</div>
-<script type="math/tex; mode=display">
-\frac{1}{n(n+1)(n+2)}=\frac{1}{2}\left[\frac{1}{n(n+1)}-\frac{1}{(n+1)(n+2)}\right]
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \frac{1}{(2n-1)(2n+1)}=\frac{1}{2}\left(\frac{1}{2n-1}-\frac{1}{2n+1}\right)
-</div>
-<script type="math/tex; mode=display">
-\frac{1}{(2n-1)(2n+1)}=\frac{1}{2}\left(\frac{1}{2n-1}-\frac{1}{2n+1}\right)
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \frac{1}{\sqrt{a}+\sqrt{b} }=\frac{1}{a-b}\left(\sqrt{a}-\sqrt{b}\right)
-</div>
-<script type="math/tex; mode=display">
-\frac{1}{\sqrt{a}+\sqrt{b} }=\frac{1}{a-b}\left(\sqrt{a}-\sqrt{b}\right)
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \frac{1}{a_na_{n+k} }=\frac{1}{dk}\left(\frac{1}{a_n}-\frac{1}{a_{n+k} }\right)
-</div>
-<script type="math/tex; mode=display">
-\frac{1}{a_na_{n+k} }=\frac{1}{dk}\left(\frac{1}{a_n}-\frac{1}{a_{n+k} }\right)
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\frac{2^n}{(2^n+1)(2^{n+1}+1)}=\frac{1}{2^n+1}-\frac{1}{2^{n+1}+1}
-</div>
-<script type="math/tex; mode=display">
-\frac{2^n}{(2^n+1)(2^{n+1}+1)}=\frac{1}{2^n+1}-\frac{1}{2^{n+1}+1}
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\frac{q^n}{(q^{n+1}+1)(q^n+1)}=\frac{1}{q-1}\left(\frac{1}{q^n+1}-\frac{1}{q^{n+1}+1}\right)
-</div>
-<script type="math/tex; mode=display">
-\frac{q^n}{(q^{n+1}+1)(q^n+1)}=\frac{1}{q-1}\left(\frac{1}{q^n+1}-\frac{1}{q^{n+1}+1}\right)
-</script>
-</div>
+$$</p>
+<p>$$
+\frac{2<sup>n}{(2</sup>n+1)(2<sup>{n+1}+1)}=\frac{1}{2</sup>n+1}-\frac{1}{2^{n+1}+1}
+$$</p>
+<p>$$
+\frac{q<sup n_1="n+1">n}{(q</sup>+1)(q<sup>n+1)}=\frac{1}{q-1}\left(\frac{1}{q</sup>n+1}-\frac{1}{q^{n+1}+1}\right)
+$$</p>
 <p>一个特点：前面保留几项，后面就保留几项。例如</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-\sum_{k=1}^n \frac{1}{k(k+2)}&amp;=\frac{1}{2}(1-\frac{1}{3}+\frac{1}{2}-\frac{1}{4}+\dots+\frac{n}{1}-\frac{1}{n+2})\\&amp;=\frac{1}{2}(1+\frac{1}{2}-\frac{1}{n+1}-\frac{1}{n+2})
+\sum_{k=1}^n \frac{1}{k(k+2)}&amp;=\frac{1}{2}(1-\frac{1}{3}+\frac{1}{2}-\frac{1}{4}+\dots+\frac{n}{1}-\frac{1}{n+2})\&amp;=\frac{1}{2}(1+\frac{1}{2}-\frac{1}{n+1}-\frac{1}{n+2})
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-\sum_{k=1}^n \frac{1}{k(k+2)}&=\frac{1}{2}(1-\frac{1}{3}+\frac{1}{2}-\frac{1}{4}+\dots+\frac{n}{1}-\frac{1}{n+2})\\&=\frac{1}{2}(1+\frac{1}{2}-\frac{1}{n+1}-\frac{1}{n+2})
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>现在我们要学习一些高难度的裂项。坐稳了，前方高能！</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\sqrt{1+\frac{1}{k^2}+\frac{1}{(k+1)^2} }=1+\frac{1}{k}-\frac{1}{k+1}
-</div>
-<script type="math/tex; mode=display">
-\sqrt{1+\frac{1}{k^2}+\frac{1}{(k+1)^2} }=1+\frac{1}{k}-\frac{1}{k+1}
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\frac{k}{(2k+1)^2(2k-1)^2}=\frac{1}{8}\left(\frac{1}{(2k-1)^2}-\frac{1}{(2k+1)^2}\right)
-</div>
-<script type="math/tex; mode=display">
-\frac{k}{(2k+1)^2(2k-1)^2}=\frac{1}{8}\left(\frac{1}{(2k-1)^2}-\frac{1}{(2k+1)^2}\right)
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
+\sqrt{1+\frac{1}{k<sup>2}+\frac{1}{(k+1)</sup>2} }=1+\frac{1}{k}-\frac{1}{k+1}
+$$</p>
+<p>$$
+\frac{k}{(2k+1)<sup>2(2k-1)</sup>2}=\frac{1}{8}\left(\frac{1}{(2k-1)<sup>2}-\frac{1}{(2k+1)</sup>2}\right)
+$$</p>
+<p>$$
 \frac{1}{k\sqrt{k+1}+(k+1)\sqrt{k} }=\frac{1}{\sqrt{k} }-\frac{1}{\sqrt{k+1} }
-</div>
-<script type="math/tex; mode=display">
-\frac{1}{k\sqrt{k+1}+(k+1)\sqrt{k} }=\frac{1}{\sqrt{k} }-\frac{1}{\sqrt{k+1} }
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\sum_{k=1}^n k!(k^2+k+1)=\sum_{k=1}^n [(k+1)!(k+1)-k!k]=(n+1)!(n+1)-1
-</div>
-<script type="math/tex; mode=display">
-\sum_{k=1}^n k!(k^2+k+1)=\sum_{k=1}^n [(k+1)!(k+1)-k!k]=(n+1)!(n+1)-1
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\sum_{k=1}^n \frac{k^2+k-1}{(k+2)!}=\sum_{k=1}^n \left(\frac{k}{(k+1)!}-\frac{k+1}{(k+2)!}\right)=\frac{1}{2}-\frac{n+1}{(n+2)!}
-</div>
-<script type="math/tex; mode=display">
-\sum_{k=1}^n \frac{k^2+k-1}{(k+2)!}=\sum_{k=1}^n \left(\frac{k}{(k+1)!}-\frac{k+1}{(k+2)!}\right)=\frac{1}{2}-\frac{n+1}{(n+2)!}
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\frac{3k^2-1}{(k^3-k)^2}=\frac{k-\frac{1}{2} }{k^2(k-1)^2}-\frac{k+\frac{1}{2} }{k^2(k+1)^2}
-</div>
-<script type="math/tex; mode=display">
-\frac{3k^2-1}{(k^3-k)^2}=\frac{k-\frac{1}{2} }{k^2(k-1)^2}-\frac{k+\frac{1}{2} }{k^2(k+1)^2}
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-\frac{4k}{4k^4+1}=\frac{1}{2k^2-2k+1}-\frac{1}{2k^2+2k+1}
-</div>
-<script type="math/tex; mode=display">
-\frac{4k}{4k^4+1}=\frac{1}{2k^2-2k+1}-\frac{1}{2k^2+2k+1}
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
+\sum_{k=1}^n k!(k<sup>2+k+1)=\sum_{k=1}</sup>n [(k+1)!(k+1)-k!k]=(n+1)!(n+1)-1
+$$</p>
+<p>$$
+\sum_{k=1}^n \frac{k<sup>2+k-1}{(k+2)!}=\sum_{k=1}</sup>n \left(\frac{k}{(k+1)!}-\frac{k+1}{(k+2)!}\right)=\frac{1}{2}-\frac{n+1}{(n+2)!}
+$$</p>
+<p>$$
+\frac{3k<sup>2-1}{(k</sup>3-k)^2}=\frac{k-\frac{1}{2} }{k<sup>2(k-1)</sup>2}-\frac{k+\frac{1}{2} }{k<sup>2(k+1)</sup>2}
+$$</p>
+<p>$$
+\frac{4k}{4k<sup>4+1}=\frac{1}{2k</sup>2-2k+1}-\frac{1}{2k^2+2k+1}
+$$</p>
+<p>$$
 \frac{1}{\sqrt{k+\sqrt{k^2-1}}}=\frac{\sqrt{k+1}-\sqrt{k-1}}{\sqrt{2}}
-</div>
-<script type="math/tex; mode=display">
-\frac{1}{\sqrt{k+\sqrt{k^2-1}}}=\frac{\sqrt{k+1}-\sqrt{k-1}}{\sqrt{2}}
-</script>
-</div>
+$$</p>
 <h3 id="_32">共轭根式</h3>
 <p>形如，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \sqrt a+\sqrt b,\sqrt a-\sqrt b
-</div>
-<script type="math/tex; mode=display">
-\sqrt a+\sqrt b,\sqrt a-\sqrt b
-</script>
-</div>
+$$</p>
 <p>的，称为共轭根式。</p>
 <p>容易证明，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 (\sqrt a-\sqrt b)\cdot(\sqrt a+\sqrt b)=a-b\;(a,b\ge0)
-</div>
-<script type="math/tex; mode=display">
-(\sqrt a-\sqrt b)\cdot(\sqrt a+\sqrt b)=a-b\;(a,b\ge0)
-</script>
-</div>
+$$</p>
 <p>于是，有裂项，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 {1\over\sqrt a+\sqrt b}={\sqrt a-\sqrt b\over a-b}
-</div>
-<script type="math/tex; mode=display">
-{1\over\sqrt a+\sqrt b}={\sqrt a-\sqrt b\over a-b}
-</script>
-</div>
+$$</p>
 <p>以及，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 {1\over\sqrt a-\sqrt b}={\sqrt a+\sqrt b\over a-b}
-</div>
-<script type="math/tex; mode=display">
-{1\over\sqrt a-\sqrt b}={\sqrt a+\sqrt b\over a-b}
-</script>
-</div>
+$$</p>
 <h3 id="_33">阶乘问题</h3>
 <p>定义，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{n!=1\times2\times3\times\dots\times(n-1)\times n}
-</div>
-<script type="math/tex; mode=display">
-\boxed{n!=1\times2\times3\times\dots\times(n-1)\times n}
-</script>
-</div>
+$$</p>
 <p>称为阶乘，有，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{n\cdot n!=(n+1)!-n!}
-</div>
-<script type="math/tex; mode=display">
-\boxed{n\cdot n!=(n+1)!-n!}
-</script>
-</div>
+$$</p>
 <p>还有组合数的，但是这里还没涉及到。</p>
 <h3 id="_34">放缩基础</h3>
 <p>数列求和是一种精确的方法，当我们无法精确的计算的时候，就可以放缩来估计。</p>
 <p>例如，估计</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-S={1\over1^2}+{1\over2^2}+\dots+{1\over n^2}
-</div>
-<script type="math/tex; mode=display">
-S={1\over1^2}+{1\over2^2}+\dots+{1\over n^2}
-</script>
-</div>
+<p>$$
+S={1\over1<sup>2}+{1\over2</sup>2}+\dots+{1\over n^2}
+$$</p>
 <p>的级别。</p>
 <p>容易发现，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 {1\over n}-{1\over n-1}={1\over n(n+1)}&lt;{1\over n^2}&lt;{1\over n(n-1)}={1\over n-1}-{1\over n}
-</div>
-<script type="math/tex; mode=display">
-{1\over n}-{1\over n-1}={1\over n(n+1)}<{1\over n^2}<{1\over n(n-1)}={1\over n-1}-{1\over n}
-</script>
-</div>
+$$</p>
 <p>于是，我们可以以此估计。</p>
-<p>我们把 <span class="arithmatex"><span class="MathJax_Preview">1/1^2</span><script type="math/tex">1/1^2</script></span> 保持不动，估计</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>我们把 $1/1^2$ 保持不动，估计</p>
+<p>$$
 1.5&lt;S&lt;2
-</div>
-<script type="math/tex; mode=display">
-1.5<S<2
-</script>
-</div>
+$$</p>
 <p>而为了提高精度，我们减少放缩的项数。</p>
-<p>或者说，把 <span class="arithmatex"><span class="MathJax_Preview">1/2^2,1/3^2</span><script type="math/tex">1/2^2,1/3^2</script></span> 等直接计算，而不是放缩。</p>
+<p>或者说，把 $&frac12;<sup>2,&#8531;</sup>2$ 等直接计算，而不是放缩。</p>
 <p>这就是放缩提高精度的方法：保留更多的项。</p>
 <h3 id="_35">放缩进阶</h3>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 {\sqrt k\over k^2}={1\over k^{3/2}}&lt;2\left({1\over\sqrt{k-1}}-{1\over\sqrt k}\right)
-</div>
-<script type="math/tex; mode=display">
-{\sqrt k\over k^2}={1\over k^{3/2}}<2\left({1\over\sqrt{k-1}}-{1\over\sqrt k}\right)
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 {2(\sqrt{n+1}-\sqrt{n})}=\frac{2}{\sqrt{n}+\sqrt{n+1}}&lt;\frac{2}{\sqrt{n}+\sqrt{n}}=\frac{1}{\sqrt{n}}
-</div>
-<script type="math/tex; mode=display">
-{2(\sqrt{n+1}-\sqrt{n})}=\frac{2}{\sqrt{n}+\sqrt{n+1}}<\frac{2}{\sqrt{n}+\sqrt{n}}=\frac{1}{\sqrt{n}}
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 {\frac{1}{\sqrt{n}}=\frac{2}{\sqrt{n}+\sqrt{n}}}&lt;\frac{2}{\sqrt{n}+\sqrt{n-1}}={2(\sqrt{n}-\sqrt{n-1})}
-</div>
-<script type="math/tex; mode=display">
-{\frac{1}{\sqrt{n}}=\frac{2}{\sqrt{n}+\sqrt{n}}}<\frac{2}{\sqrt{n}+\sqrt{n-1}}={2(\sqrt{n}-\sqrt{n-1})}
-</script>
-</div>
+$$</p>
 <h2 id="_36">通用方法</h2>
 <h3 id="_37">速算方法</h3>
-<p>方法一：令 <span class="arithmatex"><span class="MathJax_Preview">S_0=0</span><script type="math/tex">S_0=0</script></span>。</p>
-<p>例题：等比数列 <span class="arithmatex"><span class="MathJax_Preview">\set{a_n}</span><script type="math/tex">\set{a_n}</script></span> 的 <span class="arithmatex"><span class="MathJax_Preview">S_n=a\cdot 2^{n-1}+a-2</span><script type="math/tex">S_n=a\cdot 2^{n-1}+a-2</script></span>，求 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span>。</p>
-<p>直接代入 <span class="arithmatex"><span class="MathJax_Preview">S_0=\frac{3}{2}a-2=0</span><script type="math/tex">S_0=\frac{3}{2}a-2=0</script></span> 得 <span class="arithmatex"><span class="MathJax_Preview">\displaystyle a=\frac{4}{3}</span><script type="math/tex">\displaystyle a=\frac{4}{3}</script></span>。</p>
+<p>方法一：令 $S_0=0$。</p>
+<p>例题：等比数列 $\set{a_n}$ 的 $S_n=a\cdot 2^{n-1}+a-2$，求 $a$。</p>
+<p>直接代入 $S_0=\frac{3}{2}a-2=0$ 得 $\displaystyle a=\frac{4}{3}$。</p>
 <p>方法二：令数列为常数数列。</p>
-<p>例：等差数列 <span class="arithmatex"><span class="MathJax_Preview">S_9=72</span><script type="math/tex">S_9=72</script></span>，求 <span class="arithmatex"><span class="MathJax_Preview">a_2+a_4+a_9</span><script type="math/tex">a_2+a_4+a_9</script></span> 的值。</p>
-<p>令 <span class="arithmatex"><span class="MathJax_Preview">a_i=8</span><script type="math/tex">a_i=8</script></span>，则答案为 <span class="arithmatex"><span class="MathJax_Preview">24</span><script type="math/tex">24</script></span>。</p>
+<p>例：等差数列 $S_9=72$，求 $a_2+a_4+a_9$ 的值。</p>
+<p>令 $a_i=8$，则答案为 $24$。</p>
 <h3 id="_38">等差等比</h3>
 <p>等差乘等比。</p>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">a_n=(An+B)q^{\red{n-1}}</span><script type="math/tex">a_n=(An+B)q^{\red{n-1}}</script></span>，令 <span class="arithmatex"><span class="MathJax_Preview">\red{\boxed{D=\frac{A}{q-1},E=\frac{B-D}{q-1}}}</span><script type="math/tex">\red{\boxed{D=\frac{A}{q-1},E=\frac{B-D}{q-1}}}</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">\red{\boxed{S_n=(Dn+E)q^n-E}}</span><script type="math/tex">\red{\boxed{S_n=(Dn+E)q^n-E}}</script></span>.</p>
-<p>例题：<span class="arithmatex"><span class="MathJax_Preview">\displaystyle a_n=\frac{n}{3^n}</span><script type="math/tex">\displaystyle a_n=\frac{n}{3^n}</script></span>，求 <span class="arithmatex"><span class="MathJax_Preview">S_n</span><script type="math/tex">S_n</script></span>.</p>
+<p>若 $a_n=(An+B)q^{\red{n-1}}$，令 $\red{\boxed{D=\frac{A}{q-1},E=\frac{B-D}{q-1}}}$，则 $\red{\boxed{S_n=(Dn+E)q^n-E}}$.</p>
+<p>例题：$\displaystyle a_n=\frac{n}{3^n}$，求 $S_n$.</p>
 <h3 id="_39">数学归纳</h3>
 <p>尝试证明，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_n=2^n-1
-</div>
-<script type="math/tex; mode=display">
-a_n=2^n-1
-</script>
-</div>
+$$</p>
 <p>容易发现，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_1=2^1-1=1
-</div>
-<script type="math/tex; mode=display">
-a_1=2^1-1=1
-</script>
-</div>
-<p>假设对于 <span class="arithmatex"><span class="MathJax_Preview">n=k,k\in\mathbb N^*</span><script type="math/tex">n=k,k\in\mathbb N^*</script></span> 成立，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>假设对于 $n=k,k\in\mathbb N^*$ 成立，</p>
+<p>$$
 a_k=2^k-1
-</div>
-<script type="math/tex; mode=display">
-a_k=2^k-1
-</script>
-</div>
-<p>尝试证明对于 <span class="arithmatex"><span class="MathJax_Preview">n=k+1</span><script type="math/tex">n=k+1</script></span> 也成立，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-a_{k+1}=2a_k+1=2^{k+1}-2+1=2^{k+1}-1
-</div>
-<script type="math/tex; mode=display">
-a_{k+1}=2a_k+1=2^{k+1}-2+1=2^{k+1}-1
-</script>
-</div>
-<p>于是，该通项公式对于任意 <span class="arithmatex"><span class="MathJax_Preview">n\in\mathbb N^*</span><script type="math/tex">n\in\mathbb N^*</script></span> 成立。</p>
+$$</p>
+<p>尝试证明对于 $n=k+1$ 也成立，</p>
+<p>$$
+a_{k+1}=2a_k+1=2<sup k_1="k+1">{k+1}-2+1=2</sup>-1
+$$</p>
+<p>于是，该通项公式对于任意 $n\in\mathbb N^*$ 成立。</p>
 <h3 id="_40">直接变形</h3>
 <p>容易发现，递推公式两边同时加一，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_n+1=2a_{n-1}+2
-</div>
-<script type="math/tex; mode=display">
-a_n+1=2a_{n-1}+2
-</script>
-</div>
+$$</p>
 <p>另，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 b_n=a_n+1
-</div>
-<script type="math/tex; mode=display">
-b_n=a_n+1
-</script>
-</div>
+$$</p>
 <p>上式即为，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 b_n=2b_{n-1},b_1=2
-</div>
-<script type="math/tex; mode=display">
-b_n=2b_{n-1},b_1=2
-</script>
-</div>
+$$</p>
 <p>那么这是一个等比数列，易得，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 b_n=2^n
-</div>
-<script type="math/tex; mode=display">
-b_n=2^n
-</script>
-</div>
+$$</p>
 <p>那么，根据关系，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_n=b_n-1=2^n-1
-</div>
-<script type="math/tex; mode=display">
-a_n=b_n-1=2^n-1
-</script>
-</div>
+$$</p>
 <p>Q.E.D.</p>
 <p><strong>考虑推广这一类问题</strong>，形如，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_n=pa_{n-1}+q
-</div>
-<script type="math/tex; mode=display">
-a_n=pa_{n-1}+q
-</script>
-</div>
-<p>我们两边同时加一个数，设为 <span class="arithmatex"><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span>，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>我们两边同时加一个数，设为 $x$，</p>
+<p>$$
 a_n+x=pa_{n-1}+q+x
-</div>
-<script type="math/tex; mode=display">
-a_n+x=pa_{n-1}+q+x
-</script>
-</div>
+$$</p>
 <p>记新数列，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 b_n=a_n+x,a_n=b_n-x
-</div>
-<script type="math/tex; mode=display">
-b_n=a_n+x,a_n=b_n-x
-</script>
-</div>
+$$</p>
 <p>原数列，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 b_n=p(b_{n-1}-x)+q+x=pb_{n-1}+q-(p-1)x
-</div>
-<script type="math/tex; mode=display">
-b_n=p(b_{n-1}-x)+q+x=pb_{n-1}+q-(p-1)x
-</script>
-</div>
+$$</p>
 <p>另右侧常数项为零，于是，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{x={q\over p-1}}
-</div>
-<script type="math/tex; mode=display">
-\boxed{x={q\over p-1}}
-</script>
-</div>
+$$</p>
 <p>即，对于原数列，加上这个数，即可转化为普通的等比数列。</p>
 <ul>
 <li>
-<p>数列 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 的前 <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 项和为 <span class="arithmatex"><span class="MathJax_Preview">S_n</span><script type="math/tex">S_n</script></span>，若有如下项：<span class="arithmatex"><span class="MathJax_Preview">f(n)S_n</span><script type="math/tex">f(n)S_n</script></span>，<span class="arithmatex"><span class="MathJax_Preview">f(a_n)S_n</span><script type="math/tex">f(a_n)S_n</script></span>(即 <span class="arithmatex"><span class="MathJax_Preview">S_n</span><script type="math/tex">S_n</script></span> 的系数跟 <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 有关)，则我们将递推式中的 <span class="arithmatex"><span class="MathJax_Preview">a_n</span><script type="math/tex">a_n</script></span> 改写为 <span class="arithmatex"><span class="MathJax_Preview">S_n - S_{n-1}</span><script type="math/tex">S_n - S_{n-1}</script></span>。</p>
+<p>数列 ${a_n}$ 的前 $n$ 项和为 $S_n$，若有如下项：$f(n)S_n$，$f(a_n)S_n$(即 $S_n$ 的系数跟 $n$ 有关)，则我们将递推式中的 $a_n$ 改写为 $S_n - S_{n-1}$。</p>
 </li>
 <li>
-<p>若数列 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 的递推式形如 <span class="arithmatex"><span class="MathJax_Preview">a_{n+1} = a_n + f(n)</span><script type="math/tex">a_{n+1} = a_n + f(n)</script></span>，则可采用累加法求通项公式。</p>
+<p>若数列 ${a_n}$ 的递推式形如 $a_{n+1} = a_n + f(n)$，则可采用累加法求通项公式。</p>
 </li>
 <li>
-<p>若数列 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 的递推式形如 <span class="arithmatex"><span class="MathJax_Preview">a_{n+1} = a_n \cdot f(n)</span><script type="math/tex">a_{n+1} = a_n \cdot f(n)</script></span>，则可采用累乘法求通项公式。</p>
+<p>若数列 ${a_n}$ 的递推式形如 $a_{n+1} = a_n \cdot f(n)$，则可采用累乘法求通项公式。</p>
 </li>
 <li>
-<p>形如 <span class="arithmatex"><span class="MathJax_Preview">a_{n+1} = pa_n + q(p \ne 1, q \ne 0)</span><script type="math/tex">a_{n+1} = pa_n + q(p \ne 1, q \ne 0)</script></span> 的递推式，两边同时加上 <span class="arithmatex"><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span> 可构造成等比数列 <span class="arithmatex"><span class="MathJax_Preview">\{a_n + x\}(n \in \mathbb{N}^*)</span><script type="math/tex">\{a_n + x\}(n \in \mathbb{N}^*)</script></span>，通过比较可求得 <span class="arithmatex"><span class="MathJax_Preview">x = \dfrac{q}{p-1}</span><script type="math/tex">x = \dfrac{q}{p-1}</script></span>。</p>
+<p>形如 $a_{n+1} = pa_n + q(p \ne 1, q \ne 0)$ 的递推式，两边同时加上 $x$ 可构造成等比数列 ${a_n + x}(n \in \mathbb{N}^*)$，通过比较可求得 $x = \dfrac{q}{p-1}$。</p>
 </li>
 <li>
-<p>形如 <span class="arithmatex"><span class="MathJax_Preview">a_{n+1} = pa_n + kn + q(p \ne 1, k \ne 0, n \in \mathbb{N}^*)</span><script type="math/tex">a_{n+1} = pa_n + kn + q(p \ne 1, k \ne 0, n \in \mathbb{N}^*)</script></span> 的递推式，在两边同时加上 <span class="arithmatex"><span class="MathJax_Preview">xn+y</span><script type="math/tex">xn+y</script></span> 构造等比数列 <span class="arithmatex"><span class="MathJax_Preview">\{a_n + xn + y\}(n \in \mathbb{N}^*)</span><script type="math/tex">\{a_n + xn + y\}(n \in \mathbb{N}^*)</script></span>，方法见例 2.9 解析。</p>
+<p>形如 $a_{n+1} = pa_n + kn + q(p \ne 1, k \ne 0, n \in \mathbb{N}^<em>)$ 的递推式，在两边同时加上 $xn+y$ 构造等比数列 ${a_n + xn + y}(n \in \mathbb{N}^</em>)$，方法见例 2.9 解析。</p>
 </li>
 <li>
-<p>对于 <span class="arithmatex"><span class="MathJax_Preview">a_{n+1} = p a_n^r (p &gt; 0, p \ne 1, r \ne 1)</span><script type="math/tex">a_{n+1} = p a_n^r (p > 0, p \ne 1, r \ne 1)</script></span> 型，两边同时取以 <span class="arithmatex"><span class="MathJax_Preview">p</span><script type="math/tex">p</script></span> 为底的对数，于是可得 <span class="arithmatex"><span class="MathJax_Preview">\log_p a_{n+1} = r \log_p a_n + 1</span><script type="math/tex">\log_p a_{n+1} = r \log_p a_n + 1</script></span>，构造等比数列 <span class="arithmatex"><span class="MathJax_Preview">\{\log_p a_n + x\}</span><script type="math/tex">\{\log_p a_n + x\}</script></span>，其中 <span class="arithmatex"><span class="MathJax_Preview">x = \dfrac{1}{r-1}</span><script type="math/tex">x = \dfrac{1}{r-1}</script></span>。</p>
-</li>
-</ul>
-<p>对于形如 <span class="arithmatex"><span class="MathJax_Preview">a_{n+1} = pa_n + q^n(p \ne 0, 1 \text{ 且 } q \ne 0, 1)</span><script type="math/tex">a_{n+1} = pa_n + q^n(p \ne 0, 1 \text{ 且 } q \ne 0, 1)</script></span> 的数列求通项公式，有以下两种方法：</p>
-<ul>
-<li>
-<p>两边同除以 <span class="arithmatex"><span class="MathJax_Preview">p^{n+1}</span><script type="math/tex">p^{n+1}</script></span>，再累加求通项；</p>
-</li>
-<li>
-<p>两边同加上 <span class="arithmatex"><span class="MathJax_Preview">xq^{n+1}</span><script type="math/tex">xq^{n+1}</script></span>，再构造成等比数列 <span class="arithmatex"><span class="MathJax_Preview">\{a_n + xq^n\}</span><script type="math/tex">\{a_n + xq^n\}</script></span>。</p>
-</li>
-<li>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">p=q</span><script type="math/tex">p=q</script></span>，则只能采用（1），而用（2）无法求解。</p>
+<p>对于 $a_{n+1} = p a_n^r (p &gt; 0, p \ne 1, r \ne 1)$ 型，两边同时取以 $p$ 为底的对数，于是可得 $\log_p a_{n+1} = r \log_p a_n + 1$，构造等比数列 ${\log_p a_n + x}$，其中 $x = \dfrac{1}{r-1}$。</p>
 </li>
 </ul>
-<p>对于 <span class="arithmatex"><span class="MathJax_Preview">a_{n+1} = \dfrac{a a_n}{b a_n + c}</span><script type="math/tex">a_{n+1} = \dfrac{a a_n}{b a_n + c}</script></span>，<span class="arithmatex"><span class="MathJax_Preview">abc \ne 0</span><script type="math/tex">abc \ne 0</script></span>，取倒数得 <span class="arithmatex"><span class="MathJax_Preview">\dfrac{1}{a_{n+1}} = \dfrac{b a_n + c}{a a_n} = \dfrac{c}{a} \cdot \dfrac{1}{a_n} + \dfrac{b}{a}</span><script type="math/tex">\dfrac{1}{a_{n+1}} = \dfrac{b a_n + c}{a a_n} = \dfrac{c}{a} \cdot \dfrac{1}{a_n} + \dfrac{b}{a}</script></span>。</p>
+<p>对于形如 $a_{n+1} = pa_n + q^n(p \ne 0, 1 \text{ 且 } q \ne 0, 1)$ 的数列求通项公式，有以下两种方法：</p>
 <ul>
 <li>
-<p>当 <span class="arithmatex"><span class="MathJax_Preview">a=c</span><script type="math/tex">a=c</script></span> 时，<span class="arithmatex"><span class="MathJax_Preview">\dfrac{1}{a_{n+1}} = \dfrac{1}{a_n} + \dfrac{c}{a}</span><script type="math/tex">\dfrac{1}{a_{n+1}} = \dfrac{1}{a_n} + \dfrac{c}{a}</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">\{\dfrac{1}{a_n}\}</span><script type="math/tex">\{\dfrac{1}{a_n}\}</script></span> 为等差数列；</p>
+<p>两边同除以 $p^{n+1}$，再累加求通项；</p>
 </li>
 <li>
-<p>当 <span class="arithmatex"><span class="MathJax_Preview">a \ne c</span><script type="math/tex">a \ne c</script></span> 时，<span class="arithmatex"><span class="MathJax_Preview">\dfrac{1}{a_{n+1}} = \dfrac{c}{a} \cdot \dfrac{1}{a_n} + \dfrac{b}{a}</span><script type="math/tex">\dfrac{1}{a_{n+1}} = \dfrac{c}{a} \cdot \dfrac{1}{a_n} + \dfrac{b}{a}</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">\{\dfrac{1}{a_n} + x\}</span><script type="math/tex">\{\dfrac{1}{a_n} + x\}</script></span> 为等比数列，<span class="arithmatex"><span class="MathJax_Preview">x = \dfrac{b}{c-a}</span><script type="math/tex">x = \dfrac{b}{c-a}</script></span>。</p>
+<p>两边同加上 $xq^{n+1}$，再构造成等比数列 ${a_n + xq^n}$。</p>
+</li>
+<li>
+<p>若 $p=q$，则只能采用（1），而用（2）无法求解。</p>
+</li>
+</ul>
+<p>对于 $a_{n+1} = \dfrac{a a_n}{b a_n + c}$，$abc \ne 0$，取倒数得 $\dfrac{1}{a_{n+1}} = \dfrac{b a_n + c}{a a_n} = \dfrac{c}{a} \cdot \dfrac{1}{a_n} + \dfrac{b}{a}$。</p>
+<ul>
+<li>
+<p>当 $a=c$ 时，$\dfrac{1}{a_{n+1}} = \dfrac{1}{a_n} + \dfrac{c}{a}$，则 ${\dfrac{1}{a_n}}$ 为等差数列；</p>
+</li>
+<li>
+<p>当 $a \ne c$ 时，$\dfrac{1}{a_{n+1}} = \dfrac{c}{a} \cdot \dfrac{1}{a_n} + \dfrac{b}{a}$，则 ${\dfrac{1}{a_n} + x}$ 为等比数列，$x = \dfrac{b}{c-a}$。</p>
 </li>
 </ul>
 <h3 id="_41">变形累加</h3>
 <p>容易得出，下面的式子不断乘二，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-a_n=2a_{n-1}+1\\
-2a_{n-1}=4a_{n-1}+2\\
-4a_{n=2}=8a_{n-2}+4\\
-\dots\\
-2^{n-3}a_3=2^{n-2}a_2+2^{n-3}\\
-2^{n-2}a_2=2^{n-1}a_1+2^{n-2}
+a_n=2a_{n-1}+1\
+2a_{n-1}=4a_{n-1}+2\
+4a_{n=2}=8a_{n-2}+4\
+\dots\
+2<sup n-2="n-2">{n-3}a_3=2</sup>\
+2}a_2+2^{n-3<sup n-1="n-1">{n-2}a_2=2</sup>
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-a_n=2a_{n-1}+1\\
-2a_{n-1}=4a_{n-1}+2\\
-4a_{n=2}=8a_{n-2}+4\\
-\dots\\
-2^{n-3}a_3=2^{n-2}a_2+2^{n-3}\\
-2^{n-2}a_2=2^{n-1}a_1+2^{n-2}
-\end{aligned}
-</script>
-</div>
+$$}a_1+2^{n-2</p>
 <p>上述式子相加，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-a_n=2^{n-1}a_1+2^{n-2}+2^{n-3}+\dots+4+2+1
-</div>
-<script type="math/tex; mode=display">
-a_n=2^{n-1}a_1+2^{n-2}+2^{n-3}+\dots+4+2+1
-</script>
-</div>
-<p>因为 <span class="arithmatex"><span class="MathJax_Preview">a_1=1</span><script type="math/tex">a_1=1</script></span>，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
+a_n=2<sup n-2="n-2">{n-1}a_1+2</sup>+\dots+4+2+1
+$$}+2^{n-3</p>
+<p>因为 $a_1=1$，</p>
+<p>$$
 a_n=2^n-1
-</div>
-<script type="math/tex; mode=display">
-a_n=2^n-1
-</script>
-</div>
+$$</p>
 <p>Q.E.D.</p>
 <p><strong>考虑推广这一类问题</strong>，形如，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_n=pa_{n-1}+q
-</div>
-<script type="math/tex; mode=display">
-a_n=pa_{n-1}+q
-</script>
-</div>
-<p>我们还可以等式两边同除 <span class="arithmatex"><span class="MathJax_Preview">p^n</span><script type="math/tex">p^n</script></span>，得</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>我们还可以等式两边同除 $p^n$，得</p>
+<p>$$
 \boxed{{a_n\over p^n}={a_{n-1}\over p^{n-1}}+{q\over p^n}}
-</div>
-<script type="math/tex; mode=display">
-\boxed{{a_n\over p^n}={a_{n-1}\over p^{n-1}}+{q\over p^n}}
-</script>
-</div>
+$$</p>
 <p>设新的数列，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 b_n={a_n\over p^n}
-</div>
-<script type="math/tex; mode=display">
-b_n={a_n\over p^n}
-</script>
-</div>
+$$</p>
 <p>原数列形如，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 b_n=b_{n-1}+{q\over p^n}
-</div>
-<script type="math/tex; mode=display">
-b_n=b_{n-1}+{q\over p^n}
-</script>
-</div>
-<p>对 <span class="arithmatex"><span class="MathJax_Preview">b</span><script type="math/tex">b</script></span> 数列进行累加法，可以得出，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>对 $b$ 数列进行累加法，可以得出，</p>
+<p>$$
 b_n={a_1\over p}+{q\over p^2}+{q\over p^3}+\dots+{q\over p^n}
-</div>
-<script type="math/tex; mode=display">
-b_n={a_1\over p}+{q\over p^2}+{q\over p^3}+\dots+{q\over p^n}
-</script>
-</div>
+$$</p>
 <p>右边为等比数列，即，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-b_n={a_1\over p}+{q\over p^n}\cdot{p^n-1\over p-1}-{q\over p}
-</div>
-<script type="math/tex; mode=display">
-b_n={a_1\over p}+{q\over p^n}\cdot{p^n-1\over p-1}-{q\over p}
-</script>
-</div>
-<p>两边同时乘 <span class="arithmatex"><span class="MathJax_Preview">p^n</span><script type="math/tex">p^n</script></span>，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
+b_n={a_1\over p}+{q\over p<sup>n}\cdot{p</sup>n-1\over p-1}-{q\over p}
+$$</p>
+<p>两边同时乘 $p^n$，</p>
+<p>$$
 \boxed{a_n=(a_1-q)p^{n-1}+{q\over p-1}(p^n-1)}
-</div>
-<script type="math/tex; mode=display">
-\boxed{a_n=(a_1-q)p^{n-1}+{q\over p-1}(p^n-1)}
-</script>
-</div>
+$$</p>
 <p>即通用公式。</p>
-<p>同时，若 <span class="arithmatex"><span class="MathJax_Preview">q=f(n)</span><script type="math/tex">q=f(n)</script></span>，依然可以用这个方法来做。</p>
+<p>同时，若 $q=f(n)$，依然可以用这个方法来做。</p>
 <h3 id="_42">数列判定</h3>
 <p>判断和证明数列是等差、等比数列的常见方法有如下几种：</p>
 <ul>
 <li>
-<p>定义法（用于证明）：对于 <span class="arithmatex"><span class="MathJax_Preview">n \ge 2</span><script type="math/tex">n \ge 2</script></span> 的任意正整数，验证 <span class="arithmatex"><span class="MathJax_Preview">a_n - a_{n-1}</span><script type="math/tex">a_n - a_{n-1}</script></span> 或 <span class="arithmatex"><span class="MathJax_Preview">\dfrac{a_n}{a_{n-1}}</span><script type="math/tex">\dfrac{a_n}{a_{n-1}}</script></span> 为同一常数。</p>
+<p>定义法（用于证明）：对于 $n \ge 2$ 的任意正整数，验证 $a_n - a_{n-1}$ 或 $\dfrac{a_n}{a_{n-1}}$ 为同一常数。</p>
 </li>
 <li>
 <p>通项公式法（用于判断）：</p>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">a_n = a_1 + (n-1)d = a_k + (n-k)d</span><script type="math/tex">a_n = a_1 + (n-1)d = a_k + (n-k)d</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 为等差数列；</p>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">a_n = a_1q^{n-1} = a_kq^{n-k}</span><script type="math/tex">a_n = a_1q^{n-1} = a_kq^{n-k}</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 为等比数列。</p>
+<p>若 $a_n = a_1 + (n-1)d = a_k + (n-k)d$，则 ${a_n}$ 为等差数列；</p>
+<p>若 $a_n = a_1q^{n-1} = a_kq^{n-k}$，则 ${a_n}$ 为等比数列。</p>
 </li>
 <li>
 <p>中项公式法（用于证明）：</p>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">2a_n = a_{n-1} + a_{n+1}(n \ge 2, n \in \mathbb{N}^*)</span><script type="math/tex">2a_n = a_{n-1} + a_{n+1}(n \ge 2, n \in \mathbb{N}^*)</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 为等差数列；</p>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">a_n^2 = a_{n-1}a_{n+1}(n \ge 2, n \in \mathbb{N}^*)</span><script type="math/tex">a_n^2 = a_{n-1}a_{n+1}(n \ge 2, n \in \mathbb{N}^*)</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 为等比数列。</p>
+<p>若 $2a_n = a_{n-1} + a_{n+1}(n \ge 2, n \in \mathbb{N}^*)$，则 ${a_n}$ 为等差数列；</p>
+<p>若 $a_n^2 = a_{n-1}a_{n+1}(n \ge 2, n \in \mathbb{N}^*)$，则 ${a_n}$ 为等比数列。</p>
 </li>
 </ul>
 <h3 id="_43">奇偶数列</h3>
@@ -1522,556 +803,281 @@ b_n={a_1\over p}+{q\over p^n}\cdot{p^n-1\over p-1}-{q\over p}
 <p>绝对值数列：</p>
 <ul>
 <li>
-<p>对于首项小于 0 而公差大于 0 的等差数列 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 加绝对值后得到的数列 <span class="arithmatex"><span class="MathJax_Preview">\{|a_n|\}</span><script type="math/tex">\{|a_n|\}</script></span> 求和，设 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 的前 <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 项和为 <span class="arithmatex"><span class="MathJax_Preview">S_n</span><script type="math/tex">S_n</script></span>，<span class="arithmatex"><span class="MathJax_Preview">\{|a_n|\}</span><script type="math/tex">\{|a_n|\}</script></span> 的前 <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 项和为 <span class="arithmatex"><span class="MathJax_Preview">T_n</span><script type="math/tex">T_n</script></span>，数列 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 的第 <span class="arithmatex"><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span> 项小于 0 而从第 <span class="arithmatex"><span class="MathJax_Preview">k+1</span><script type="math/tex">k+1</script></span> 项开始大于或等于 0，于是有</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-T_n = \begin{cases} -S_n &amp; n \le k \\ S_n - 2S_k &amp; n &gt; k \end{cases}
-</div>
-<script type="math/tex; mode=display">
-T_n = \begin{cases} -S_n & n \le k \\ S_n - 2S_k & n > k \end{cases}
-</script>
-</div>
+<p>对于首项小于 0 而公差大于 0 的等差数列 ${a_n}$ 加绝对值后得到的数列 ${|a_n|}$ 求和，设 ${a_n}$ 的前 $n$ 项和为 $S_n$，${|a_n|}$ 的前 $n$ 项和为 $T_n$，数列 ${a_n}$ 的第 $k$ 项小于 0 而从第 $k+1$ 项开始大于或等于 0，于是有</p>
+<p>$$
+T_n = \begin{cases} -S_n &amp; n \le k \ S_n - 2S_k &amp; n &gt; k \end{cases}
+$$</p>
 </li>
 <li>
-<p>对于首项大于 0 而公差小于 0 的等差数列 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 加绝对值后得到的数列 <span class="arithmatex"><span class="MathJax_Preview">\{|a_n|\}</span><script type="math/tex">\{|a_n|\}</script></span> 求和，设 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 的前 <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 项和为 <span class="arithmatex"><span class="MathJax_Preview">S_n</span><script type="math/tex">S_n</script></span>，<span class="arithmatex"><span class="MathJax_Preview">\{|a_n|\}</span><script type="math/tex">\{|a_n|\}</script></span> 的前 <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> 项和为 <span class="arithmatex"><span class="MathJax_Preview">T_n</span><script type="math/tex">T_n</script></span>，数列 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 的第 <span class="arithmatex"><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span> 项大于 0 而从第 <span class="arithmatex"><span class="MathJax_Preview">k+1</span><script type="math/tex">k+1</script></span> 项开始小于或等于 0，于是有</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-T_n = \begin{cases} S_n &amp; n \le k \\ 2S_k - S_n &amp; n &gt; k \end{cases}
-</div>
-<script type="math/tex; mode=display">
-T_n = \begin{cases} S_n & n \le k \\ 2S_k - S_n & n > k \end{cases}
-</script>
-</div>
+<p>对于首项大于 0 而公差小于 0 的等差数列 ${a_n}$ 加绝对值后得到的数列 ${|a_n|}$ 求和，设 ${a_n}$ 的前 $n$ 项和为 $S_n$，${|a_n|}$ 的前 $n$ 项和为 $T_n$，数列 ${a_n}$ 的第 $k$ 项大于 0 而从第 $k+1$ 项开始小于或等于 0，于是有</p>
+<p>$$
+T_n = \begin{cases} S_n &amp; n \le k \ 2S_k - S_n &amp; n &gt; k \end{cases}
+$$</p>
 </li>
 </ul>
 <h3 id="_44">单调性</h3>
-<p>对于 <span class="arithmatex"><span class="MathJax_Preview">\forall n\in\mathbb  Z^*</span><script type="math/tex">\forall n\in\mathbb  Z^*</script></span>，</p>
+<p>对于 $\forall n\in\mathbb  Z^*$，</p>
 <ul>
-<li>若 <span class="arithmatex"><span class="MathJax_Preview">a_{n+1}\ge a_n</span><script type="math/tex">a_{n+1}\ge a_n</script></span>，那么称 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 为<strong>单调递增</strong>数列。</li>
+<li>若 $a_{n+1}\ge a_n$，那么称 $a$ 为<strong>单调递增</strong>数列。</li>
 <li>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">a_{n+1}&gt;a_n</span><script type="math/tex">a_{n+1}>a_n</script></span>，那么称 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 为<strong>严格单调递增</strong>数列。</p>
+<p>若 $a_{n+1}&gt;a_n$，那么称 $a$ 为<strong>严格单调递增</strong>数列。</p>
 </li>
 <li>
-<p>若 <span class="arithmatex"><span class="MathJax_Preview">a_{n+1}\le a_n</span><script type="math/tex">a_{n+1}\le a_n</script></span>，那么称 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 为<strong>单调递减</strong>数列。</p>
+<p>若 $a_{n+1}\le a_n$，那么称 $a$ 为<strong>单调递减</strong>数列。</p>
 </li>
-<li>若 <span class="arithmatex"><span class="MathJax_Preview">a_{n+1}&lt;a_n</span><script type="math/tex">a_{n+1}<a_n</script></span>，那么称 <span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span> 为<strong>严格单调递减</strong>数列。</li>
+<li>若 $a_{n+1}&lt;a_n$，那么称 $a$ 为<strong>严格单调递减</strong>数列。</li>
 </ul>
 <p>高中阶段一般认为单调即严格单调。</p>
 <ul>
 <li>
-<p>对于迭代数列 <span class="arithmatex"><span class="MathJax_Preview">a_{n+1} = f(a_n)</span><script type="math/tex">a_{n+1} = f(a_n)</script></span>，其中 <span class="arithmatex"><span class="MathJax_Preview">f'(x) &gt; 0</span><script type="math/tex">f'(x) > 0</script></span>。若 <span class="arithmatex"><span class="MathJax_Preview">a_1 &lt; a_2</span><script type="math/tex">a_1 < a_2</script></span>，则数列 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 单调递增；若 <span class="arithmatex"><span class="MathJax_Preview">a_1 &gt; a_2</span><script type="math/tex">a_1 > a_2</script></span>，则数列 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 单调递减；若 <span class="arithmatex"><span class="MathJax_Preview">a_1 = a_2</span><script type="math/tex">a_1 = a_2</script></span>，则数列 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 是常数列。</p>
+<p>对于迭代数列 $a_{n+1} = f(a_n)$，其中 $f'(x) &gt; 0$。若 $a_1 &lt; a_2$，则数列 ${a_n}$ 单调递增；若 $a_1 &gt; a_2$，则数列 ${a_n}$ 单调递减；若 $a_1 = a_2$，则数列 ${a_n}$ 是常数列。</p>
 </li>
 <li>
-<p>对于迭代数列 <span class="arithmatex"><span class="MathJax_Preview">a_{n+1} = f(a_n)</span><script type="math/tex">a_{n+1} = f(a_n)</script></span>，若 <span class="arithmatex"><span class="MathJax_Preview">f(x)</span><script type="math/tex">f(x)</script></span> 是二次函数，则数列单调递增的充分必要条件为 <span class="arithmatex"><span class="MathJax_Preview">a_1 &lt; a_2 &lt; a_3</span><script type="math/tex">a_1 < a_2 < a_3</script></span>，且对于任意 <span class="arithmatex"><span class="MathJax_Preview">n \ge 2, n \in \mathbb{N}^*</span><script type="math/tex">n \ge 2, n \in \mathbb{N}^*</script></span>，在 <span class="arithmatex"><span class="MathJax_Preview">[a_2, a_n]</span><script type="math/tex">[a_2, a_n]</script></span> 上，<span class="arithmatex"><span class="MathJax_Preview">f'(x) \ge 0</span><script type="math/tex">f'(x) \ge 0</script></span>。</p>
+<p>对于迭代数列 $a_{n+1} = f(a_n)$，若 $f(x)$ 是二次函数，则数列单调递增的充分必要条件为 $a_1 &lt; a_2 &lt; a_3$，且对于任意 $n \ge 2, n \in \mathbb{N}^*$，在 $[a_2, a_n]$ 上，$f'(x) \ge 0$。</p>
 </li>
 <li>
-<p>迭代数列 <span class="arithmatex"><span class="MathJax_Preview">a_{n+1} = f(a_n)</span><script type="math/tex">a_{n+1} = f(a_n)</script></span>，其中 <span class="arithmatex"><span class="MathJax_Preview">f'(x) &lt; 0</span><script type="math/tex">f'(x) < 0</script></span>，则 <span class="arithmatex"><span class="MathJax_Preview">\{a_{2n}\}</span><script type="math/tex">\{a_{2n}\}</script></span> 与 <span class="arithmatex"><span class="MathJax_Preview">\{a_{2n-1}\}</span><script type="math/tex">\{a_{2n-1}\}</script></span> 的单调性相反。</p>
+<p>迭代数列 $a_{n+1} = f(a_n)$，其中 $f'(x) &lt; 0$，则 ${a_{2n}}$ 与 ${a_{2n-1}}$ 的单调性相反。</p>
 </li>
 </ul>
 <h2 id="_45">换元初步</h2>
 <h3 id="_46">三角换元</h3>
 <p>我们复习一下再换元里面常用的恒等变换，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \boxed{\cos2\theta=2\cos^2\theta-1}\tag1
-</div>
-<script type="math/tex; mode=display">
-\boxed{\cos2\theta=2\cos^2\theta-1}\tag1
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \boxed{\tan2\theta={2\tan\theta\over1-\tan^2\theta}}\tag2
-</div>
-<script type="math/tex; mode=display">
-\boxed{\tan2\theta={2\tan\theta\over1-\tan^2\theta}}\tag2
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \boxed{\sin3\theta=3\sin\theta-4\sin^2\theta}\tag3
-</div>
-<script type="math/tex; mode=display">
-\boxed{\sin3\theta=3\sin\theta-4\sin^2\theta}\tag3
-</script>
-</div>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>$$
 \boxed{\cos3\theta=4\cos^2\theta-3\cos\theta}\tag4
-</div>
-<script type="math/tex; mode=display">
-\boxed{\cos3\theta=4\cos^2\theta-3\cos\theta}\tag4
-</script>
-</div>
-<p>注意到，除了正切函数，其他的函数值域都是 <span class="arithmatex"><span class="MathJax_Preview">[-1,1]</span><script type="math/tex">[-1,1]</script></span>（不指定定义域）。</p>
+$$</p>
+<p>注意到，除了正切函数，其他的函数值域都是 $[-1,1]$（不指定定义域）。</p>
 <p>因此，我们先需要证明函数值在一个区间内，然后利用上面的去换元。</p>
 <h3 id="_47">一道例题</h3>
-<p>已知数列 <span class="arithmatex"><span class="MathJax_Preview">\{a_n\}</span><script type="math/tex">\{a_n\}</script></span> 满足，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>已知数列 ${a_n}$ 满足，</p>
+<p>$$
 a_1={1\over2},a_{n+1}=a_n^2-2
-</div>
-<script type="math/tex; mode=display">
-a_1={1\over2},a_{n+1}=a_n^2-2
-</script>
-</div>
+$$</p>
 <ul>
 <li>求通项公式。</li>
 </ul>
-<p>观察到右面类似余弦二倍角公式，考虑猜测 <span class="arithmatex"><span class="MathJax_Preview">a_n\in[-2,2]</span><script type="math/tex">a_n\in[-2,2]</script></span>。</p>
+<p>观察到右面类似余弦二倍角公式，考虑猜测 $a_n\in[-2,2]$。</p>
 <p>证明：考虑数学归纳，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 -2\le a_1={1\over2}\le2
-</div>
-<script type="math/tex; mode=display">
--2\le a_1={1\over2}\le2
-</script>
-</div>
-<p>尝试，<span class="arithmatex"><span class="MathJax_Preview">a_n\in[-2,2]\Rightarrow a_{n+1}\in[-2,2]</span><script type="math/tex">a_n\in[-2,2]\Rightarrow a_{n+1}\in[-2,2]</script></span>。</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>尝试，$a_n\in[-2,2]\Rightarrow a_{n+1}\in[-2,2]$。</p>
+<p>$$
 a_{n-1}=a_n^2-2
-</div>
-<script type="math/tex; mode=display">
-a_{n-1}=a_n^2-2
-</script>
-</div>
+$$</p>
 <p>由于，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_n\in[-2,2]\Rightarrow a_n^2\in[0,4]\Rightarrow a_n^2-2\in[-2,2]
-</div>
-<script type="math/tex; mode=display">
-a_n\in[-2,2]\Rightarrow a_n^2\in[0,4]\Rightarrow a_n^2-2\in[-2,2]
-</script>
-</div>
-<p>因此，注意到递推式右面的 <span class="arithmatex"><span class="MathJax_Preview">2</span><script type="math/tex">2</script></span>，我们设，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>因此，注意到递推式右面的 $2$，我们设，</p>
+<p>$$
 a_n=2\cos\theta_n
-</div>
-<script type="math/tex; mode=display">
-a_n=2\cos\theta_n
-</script>
-</div>
+$$</p>
 <p>容易发现，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-a_{n+1}=a_n^2-2\\
-2\cos\theta_{n+1}=4\cos^2\theta_n-2\\
-\cos\theta_{n+1}=2\cos^2\theta_n-1\\
+<p>$$
+a_{n+1}=a_n^2-2\
+2\cos\theta_{n+1}=4\cos^2\theta_n-2\
+\cos\theta_{n+1}=2\cos^2\theta_n-1\
 \cos\theta_{n+1}=\cos2\theta_n
-</div>
-<script type="math/tex; mode=display">
-a_{n+1}=a_n^2-2\\
-2\cos\theta_{n+1}=4\cos^2\theta_n-2\\
-\cos\theta_{n+1}=2\cos^2\theta_n-1\\
-\cos\theta_{n+1}=\cos2\theta_n
-</script>
-</div>
+$$</p>
 <p>不妨令，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \theta_{n+1}=2\theta_n
-</div>
-<script type="math/tex; mode=display">
-\theta_{n+1}=2\theta_n
-</script>
-</div>
+$$</p>
 <p>于是，通项公式，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_n=2\cos(2^{n-1}\theta)
-</div>
-<script type="math/tex; mode=display">
-a_n=2\cos(2^{n-1}\theta)
-</script>
-</div>
-<p>考虑 <span class="arithmatex"><span class="MathJax_Preview">\theta</span><script type="math/tex">\theta</script></span> 是多少，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-a_1=2\cos\theta={1\over2}\\
-\cos\theta={1\over4}\\
-\theta=\arccos1/4
-</div>
-<script type="math/tex; mode=display">
-a_1=2\cos\theta={1\over2}\\
-\cos\theta={1\over4}\\
-\theta=\arccos1/4
-</script>
-</div>
+$$</p>
+<p>考虑 $\theta$ 是多少，</p>
+<p>$$
+a_1=2\cos\theta={1\over2}\
+\cos\theta={1\over4}\
+\theta=\arccos&frac14;
+$$</p>
 <p>即，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_n=2\cos\left(2^{n-1}\arccos{1\over4}\right)
-</div>
-<script type="math/tex; mode=display">
-a_n=2\cos\left(2^{n-1}\arccos{1\over4}\right)
-</script>
-</div>
+$$</p>
 <h3 id="_48">双曲换元</h3>
 <p>若，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_1=3,
 a_{n+1}=2a_n^2-1
-</div>
-<script type="math/tex; mode=display">
-a_1=3,
-a_{n+1}=2a_n^2-1
-</script>
-</div>
+$$</p>
 <ul>
-<li>求 <span class="arithmatex"><span class="MathJax_Preview">a_n</span><script type="math/tex">a_n</script></span> 通项。</li>
+<li>求 $a_n$ 通项。</li>
 </ul>
 <p>我们考虑另外一个满足此式的式子，另，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-a_n={k^x+k^{-x}\over2}=f(x)
-</div>
-<script type="math/tex; mode=display">
-a_n={k^x+k^{-x}\over2}=f(x)
-</script>
-</div>
-<p>其中 <span class="arithmatex"><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span> 是任意变量，则，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-a_{n+1}=2a_n^2-1={k^{2x}+k^{-2x}\over2}=f(2x)
-</div>
-<script type="math/tex; mode=display">
-a_{n+1}=2a_n^2-1={k^{2x}+k^{-2x}\over2}=f(2x)
-</script>
-</div>
+<p>$$
+a_n={k<sup -x="-x">x+k</sup>=f(x)
+$$}\over2</p>
+<p>其中 $k$ 是任意变量，则，</p>
+<p>$$
+a_{n+1}=2a_n<sup 2x="2x">2-1={k</sup>=f(2x)
+$$}+k^{-2x}\over2</p>
 <p>令，初项，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-a_1=f(t)={k^t+k^{-t}\over2}=3
-</div>
-<script type="math/tex; mode=display">
-a_1=f(t)={k^t+k^{-t}\over2}=3
-</script>
-</div>
+<p>$$
+a_1=f(t)={k<sup -t="-t">t+k</sup>=3
+$$}\over2</p>
 <p>令，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-k^t=3+2\sqrt2,k^{-t}=3-2\sqrt2
-</div>
-<script type="math/tex; mode=display">
-k^t=3+2\sqrt2,k^{-t}=3-2\sqrt2
-</script>
-</div>
+<p>$$
+k<sup -t="-t">t=3+2\sqrt2,k</sup>=3-2\sqrt2
+$$</p>
 <p>于是，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-a_2=f(2t)={k^{2t}+k^{-2t}\over2}\\
-a_3=f(4t)={k^{4t}+k^{-4t}\over2}\\
-\dots\\
-a_n=f(2^{n-1}t)={k^{2^{n-1}t}+k^{-2^{n-1}t}\over2}={(k^t)^{2^{n-1}}+(k^{-t})^{2^{n-1}}\over2}
-</div>
-<script type="math/tex; mode=display">
-a_2=f(2t)={k^{2t}+k^{-2t}\over2}\\
-a_3=f(4t)={k^{4t}+k^{-4t}\over2}\\
-\dots\\
-a_n=f(2^{n-1}t)={k^{2^{n-1}t}+k^{-2^{n-1}t}\over2}={(k^t)^{2^{n-1}}+(k^{-t})^{2^{n-1}}\over2}
-</script>
-</div>
+<p>$$
+a_2=f(2t)={k<sup -2t="-2t">{2t}+k</sup>\
+a_3=f(4t)={k}\over2<sup -4t="-4t">{4t}+k</sup>\
+\dots\
+a_n=f(2}\over2<sup>{n-1}t)={k</sup>{2<sup>{n-1}t}+k</sup>{-2<sup>{n-1}t}\over2}={(k</sup>t)<sup n-1="n-1">{2</sup>+(k}<sup 2_n-1="2^{n-1">{-t})</sup>
+$$}}\over2</p>
 <p>带入，得，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-a_n={(3+2\sqrt2)^{2^{n-1}}+(3-2\sqrt2)^{2^{n-1}}\over2}
-</div>
-<script type="math/tex; mode=display">
-a_n={(3+2\sqrt2)^{2^{n-1}}+(3-2\sqrt2)^{2^{n-1}}\over2}
-</script>
-</div>
+<p>$$
+a_n={(3+2\sqrt2)<sup n-1="n-1">{2</sup>+(3-2\sqrt2)}<sup n-1="n-1">{2</sup>
+$$}}\over2</p>
 <p>这个东西就是（类似）双曲换元。</p>
 <h2 id="_49">基础例题</h2>
 <p>求下列数列的通项公式。</p>
 <h3 id="_50">例题一</h3>
-<p>求：<span class="arithmatex"><span class="MathJax_Preview">a_n=2a_{n-1}+3\,(n\ge2),a_1=1</span><script type="math/tex">a_n=2a_{n-1}+3\,(n\ge2),a_1=1</script></span>。</p>
-<p>因为 <span class="arithmatex"><span class="MathJax_Preview">q/(p-1)=3</span><script type="math/tex">q/(p-1)=3</script></span>，等式两边同时加三，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-a_n+3=2a_{n-1}+6=2^{n+1}\\
+<p>求：$a_n=2a_{n-1}+3\,(n\ge2),a_1=1$。</p>
+<p>因为 $q/(p-1)=3$，等式两边同时加三，</p>
+<p>$$
+a_n+3=2a_{n-1}+6=2^{n+1}\
 a_n=2^{n+1}-3
-</div>
-<script type="math/tex; mode=display">
-a_n+3=2a_{n-1}+6=2^{n+1}\\
+$$</p>
+<p>注意到当 $n=1,a_1=1$ 满足该式，因此，</p>
+<p>$$
 a_n=2^{n+1}-3
-</script>
-</div>
-<p>注意到当 <span class="arithmatex"><span class="MathJax_Preview">n=1,a_1=1</span><script type="math/tex">n=1,a_1=1</script></span> 满足该式，因此，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-a_n=2^{n+1}-3
-</div>
-<script type="math/tex; mode=display">
-a_n=2^{n+1}-3
-</script>
-</div>
+$$</p>
 <h3 id="_51">例题二</h3>
-<p>求：<span class="arithmatex"><span class="MathJax_Preview">a_n=a_{n-1}+n\,(n\ge2),a_1=1</span><script type="math/tex">a_n=a_{n-1}+n\,(n\ge2),a_1=1</script></span>。</p>
+<p>求：$a_n=a_{n-1}+n\,(n\ge2),a_1=1$。</p>
 <p>注意到，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-a_n=a_{n-1}+n\\
-a_{n-1}=a{n-2}+n-1\\
-\dots\\
+<p>$$
+a_n=a_{n-1}+n\
+a_{n-1}=a{n-2}+n-1\
+\dots\
 a_2=a_1+2=1+2
-</div>
-<script type="math/tex; mode=display">
-a_n=a_{n-1}+n\\
-a_{n-1}=a{n-2}+n-1\\
-\dots\\
-a_2=a_1+2=1+2
-</script>
-</div>
+$$</p>
 <p>上式相加，得，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 a_n=1+2+3+\dots+n-1+n={n(n+1)\over2}
-</div>
-<script type="math/tex; mode=display">
-a_n=1+2+3+\dots+n-1+n={n(n+1)\over2}
-</script>
-</div>
-<p>注意到当 <span class="arithmatex"><span class="MathJax_Preview">n=1,a_1=1</span><script type="math/tex">n=1,a_1=1</script></span> 满足该式，因此，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+$$</p>
+<p>注意到当 $n=1,a_1=1$ 满足该式，因此，</p>
+<p>$$
 a_n={n(n+1)\over2}
-</div>
-<script type="math/tex; mode=display">
-a_n={n(n+1)\over2}
-</script>
-</div>
+$$</p>
 <h3 id="_52">例题三</h3>
-<p>求：<span class="arithmatex"><span class="MathJax_Preview">a_n=2a_{n-1}+n\,(n\ge2),a_1=1</span><script type="math/tex">a_n=2a_{n-1}+n\,(n\ge2),a_1=1</script></span>。</p>
-<p>等式两边同时除以 <span class="arithmatex"><span class="MathJax_Preview">2^n</span><script type="math/tex">2^n</script></span>，得，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-{a_n\over2^n}={a_{n-1}\over2^{n-1}}+{n\over2^n}
-</div>
-<script type="math/tex; mode=display">
-{a_n\over2^n}={a_{n-1}\over2^{n-1}}+{n\over2^n}
-</script>
-</div>
-<p>记 <span class="arithmatex"><span class="MathJax_Preview">b_n=a_n/2^n</span><script type="math/tex">b_n=a_n/2^n</script></span>，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-b_n=b_{n-1}+n/2^n\\
-b_{n-1}=b_{n-2}+(n-1)/2^{n-1}\\
-\dots\\
-b_2=b_1+1/2\\
-b_1=1/2
-</div>
-<script type="math/tex; mode=display">
-b_n=b_{n-1}+n/2^n\\
-b_{n-1}=b_{n-2}+(n-1)/2^{n-1}\\
-\dots\\
-b_2=b_1+1/2\\
-b_1=1/2
-</script>
-</div>
+<p>求：$a_n=2a_{n-1}+n\,(n\ge2),a_1=1$。</p>
+<p>等式两边同时除以 $2^n$，得，</p>
+<p>$$
+{a_n\over2<sup n-1="n-1">n}={a_{n-1}\over2</sup>
+$$}}+{n\over2^n</p>
+<p>记 $b_n=a_n/2^n$，</p>
+<p>$$
+b_n=b_{n-1}+n/2^n\
+b_{n-1}=b_{n-2}+(n-1)/2^{n-1}\
+\dots\
+b_2=b_1+&frac12;\
+b_1=&frac12;
+$$</p>
 <p>上式相加，得，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-b_n={n\over2^n}+{n-1\over2^{n-1}}+\dots+{1\over2}+{1\over2}
-</div>
-<script type="math/tex; mode=display">
-b_n={n\over2^n}+{n-1\over2^{n-1}}+\dots+{1\over2}+{1\over2}
-</script>
-</div>
+<p>$$
+b_n={n\over2<sup n-1="n-1">n}+{n-1\over2</sup>
+$$}}+\dots+{1\over2}+{1\over2</p>
 <p>注意到分母为二的幂次的形式，等式乘二，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-2b_n={n\over2^{n-1}}+{n-1\over2^{n-2}}+\dots+1+1
-</div>
-<script type="math/tex; mode=display">
-2b_n={n\over2^{n-1}}+{n-1\over2^{n-2}}+\dots+1+1
-</script>
-</div>
+<p>$$
+2b_n={n\over2<sup n-2="n-2">{n-1}}+{n-1\over2</sup>+\dots+1+1
+$$}</p>
 <p>下式减上式，得，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-b_n&amp;=-{n\over2^n}+{1\over2^{n-1}}+{1\over2^{n-2}}+\dots+{1\over2^1}+1\\
-&amp;={1\over2^{n-1}}\left(1+2+\dots+2^{n-1}\right)-{n\over2^n}\\
-&amp;={2^n-1\over2^{n-1}}-{n\over2^n}=2-{2+n\over2^n}
+b_n&amp;=-{n\over2<sup n-1="n-1">n}+{1\over2</sup>+{1\over2}<sup>{n-2}}+\dots+{1\over2</sup>1}+1\
+&amp;={1\over2<sup n-1="n-1">{n-1}}\left(1+2+\dots+2</sup>\
+&amp;={2}\right)-{n\over2^n<sup n-1="n-1">n-1\over2</sup>-{n\over2}<sup>n}=2-{2+n\over2</sup>n}
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-b_n&=-{n\over2^n}+{1\over2^{n-1}}+{1\over2^{n-2}}+\dots+{1\over2^1}+1\\
-&={1\over2^{n-1}}\left(1+2+\dots+2^{n-1}\right)-{n\over2^n}\\
-&={2^n-1\over2^{n-1}}-{n\over2^n}=2-{2+n\over2^n}
-\end{aligned}
-</script>
-</div>
+$$</p>
 <p>带入原式，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-a_n=2^nb_n=2^{n+1}-2-n
-</div>
-<script type="math/tex; mode=display">
-a_n=2^nb_n=2^{n+1}-2-n
-</script>
-</div>
-<p>注意到当 <span class="arithmatex"><span class="MathJax_Preview">n=1,a_1=1</span><script type="math/tex">n=1,a_1=1</script></span> 满足该式，因此，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
+a_n=2<sup n_1="n+1">nb_n=2</sup>-2-n
+$$</p>
+<p>注意到当 $n=1,a_1=1$ 满足该式，因此，</p>
+<p>$$
 a_n=2^{n+1}-2-n
-</div>
-<script type="math/tex; mode=display">
-a_n=2^{n+1}-2-n
-</script>
-</div>
+$$</p>
 <h3 id="_53">例题四</h3>
-<p>求：<span class="arithmatex"><span class="MathJax_Preview">a_n=2a_{n-1}+n^2\,(n\ge2),a_1=1</span><script type="math/tex">a_n=2a_{n-1}+n^2\,(n\ge2),a_1=1</script></span>。</p>
-<p>等式两边同时除以 <span class="arithmatex"><span class="MathJax_Preview">2^n</span><script type="math/tex">2^n</script></span>，得，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-{a_n\over2^n}={a_{n-1}\over2^{n-1}}+{n^2\over2^n}
-</div>
-<script type="math/tex; mode=display">
-{a_n\over2^n}={a_{n-1}\over2^{n-1}}+{n^2\over2^n}
-</script>
-</div>
+<p>求：$a_n=2a_{n-1}+n^2\,(n\ge2),a_1=1$。</p>
+<p>等式两边同时除以 $2^n$，得，</p>
+<p>$$
+{a_n\over2<sup n-1="n-1">n}={a_{n-1}\over2</sup>+{n}<sup>2\over2</sup>n}
+$$</p>
 <p>记，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-b_n=a_n/2^n,a_n=2^nb_n
-</div>
-<script type="math/tex; mode=display">
-b_n=a_n/2^n,a_n=2^nb_n
-</script>
-</div>
+<p>$$
+b_n=a_n/2<sup>n,a_n=2</sup>nb_n
+$$</p>
 <p>则，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-b_n=b_{n-1}+{n^2\over2^n},b_1={a_1\over2^1}={1\over2}={1^2\over2^1}
-</div>
-<script type="math/tex; mode=display">
-b_n=b_{n-1}+{n^2\over2^n},b_1={a_1\over2^1}={1\over2}={1^2\over2^1}
-</script>
-</div>
+<p>$$
+b_n=b_{n-1}+{n<sup>2\over2</sup>n},b_1={a_1\over2<sup>1}={1\over2}={1</sup>2\over2^1}
+$$</p>
 <p>得，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-b_n={1^2\over2^1}+{2^2\over2^2}+{3^2\over2^3}+{4^2\over2^4}+\dots+{(n-1)^2\over2^{n-1}}+{n^2\over2^n}
-</div>
-<script type="math/tex; mode=display">
-b_n={1^2\over2^1}+{2^2\over2^2}+{3^2\over2^3}+{4^2\over2^4}+\dots+{(n-1)^2\over2^{n-1}}+{n^2\over2^n}
-</script>
-</div>
+<p>$$
+b_n={1<sup>2\over2</sup>1}+{2<sup>2\over2</sup>2}+{3<sup>2\over2</sup>3}+{4<sup>2\over2</sup>4}+\dots+{(n-1)<sup n-1="n-1">2\over2</sup>+{n}<sup>2\over2</sup>n}
+$$</p>
 <p>两边同时乘二，得，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-2b_n=1+{2^2\over2^1}+{3^2\over2^2}+{4^2\over2^3}+\dots+{(n-1)^2\over2^{n-2}}+{n^2\over2^{n-1}}
-</div>
-<script type="math/tex; mode=display">
-2b_n=1+{2^2\over2^1}+{3^2\over2^2}+{4^2\over2^3}+\dots+{(n-1)^2\over2^{n-2}}+{n^2\over2^{n-1}}
-</script>
-</div>
+<p>$$
+2b_n=1+{2<sup>2\over2</sup>1}+{3<sup>2\over2</sup>2}+{4<sup>2\over2</sup>3}+\dots+{(n-1)<sup n-2="n-2">2\over2</sup>+{n}<sup n-1="n-1">2\over2</sup>
+$$}</p>
 <p>下式减上式，得，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-b_n=1-{n^2\over2^n}+{2^2-1^2\over2^1}+{3^2-2^2\over2^2}+{4^2-3^2\over2^3}+\dots+{(n-1)^2-(n-2)^2\over2^{n-2}}+{n^2-(n-1)^2\over2^{n-1}}
-</div>
-<script type="math/tex; mode=display">
-b_n=1-{n^2\over2^n}+{2^2-1^2\over2^1}+{3^2-2^2\over2^2}+{4^2-3^2\over2^3}+\dots+{(n-1)^2-(n-2)^2\over2^{n-2}}+{n^2-(n-1)^2\over2^{n-1}}
-</script>
-</div>
+<p>$$
+b_n=1-{n<sup>2\over2</sup>n}+{2<sup>2-1</sup>2\over2<sup>1}+{3</sup>2-2<sup>2\over2</sup>2}+{4<sup>2-3</sup>2\over2<sup>3}+\dots+{(n-1)</sup>2-(n-2)<sup n-2="n-2">2\over2</sup>+{n}<sup>2-(n-1)</sup>2\over2^{n-1}}
+$$</p>
 <p>注意到，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-n^2-(n-1)^2=n^2-n^2-1+2n=2n-1
-</div>
-<script type="math/tex; mode=display">
-n^2-(n-1)^2=n^2-n^2-1+2n=2n-1
-</script>
-</div>
+<p>$$
+n<sup>2-(n-1)</sup>2=n<sup>2-n</sup>2-1+2n=2n-1
+$$</p>
 <p>于是，记，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-c_n&amp;={2^2-1^2\over2^1}+{3^2-2^2\over2^2}+{4^2-3^2\over2^3}+\dots+{(n-1)^2-(n-2)^2\over2^{n-2}}+{n^2-(n-1)^2\over2^{n-1}}\\
-&amp;={2\times2-1\over2^1}+{2\times3-1\over2^2}+{2\times4-1\over2^3}+\dots+{2(n-1)-1\over2^{n-2}}+{2n-1\over2^{n-1}}
+c_n&amp;={2<sup>2-1</sup>2\over2<sup>1}+{3</sup>2-2<sup>2\over2</sup>2}+{4<sup>2-3</sup>2\over2<sup>3}+\dots+{(n-1)</sup>2-(n-2)<sup n-2="n-2">2\over2</sup>+{n}<sup>2-(n-1)</sup>2\over2^{n-1}}\
+&amp;={2\times2-1\over2<sup>1}+{2\times3-1\over2</sup>2}+{2\times4-1\over2<sup n-2="n-2">3}+\dots+{2(n-1)-1\over2</sup>
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-c_n&={2^2-1^2\over2^1}+{3^2-2^2\over2^2}+{4^2-3^2\over2^3}+\dots+{(n-1)^2-(n-2)^2\over2^{n-2}}+{n^2-(n-1)^2\over2^{n-1}}\\
-&={2\times2-1\over2^1}+{2\times3-1\over2^2}+{2\times4-1\over2^3}+\dots+{2(n-1)-1\over2^{n-2}}+{2n-1\over2^{n-1}}
-\end{aligned}
-</script>
-</div>
+$$}}+{2n-1\over2^{n-1}</p>
 <p>即，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-b_n=1-{n^2\over2^n}+c_n
-</div>
-<script type="math/tex; mode=display">
-b_n=1-{n^2\over2^n}+c_n
-</script>
-</div>
+<p>$$
+b_n=1-{n<sup>2\over2</sup>n}+c_n
+$$</p>
 <p>下式两边同时乘二，得，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-2c_n=3+{2\times3-1\over2^1}+{2\times4-1\over2^2}+\dots+{2(n-1)-1\over2^{n-3}}+{2n-1\over2^{n-2}}\\
-</div>
-<script type="math/tex; mode=display">
-2c_n=3+{2\times3-1\over2^1}+{2\times4-1\over2^2}+\dots+{2(n-1)-1\over2^{n-3}}+{2n-1\over2^{n-2}}\\
-</script>
-</div>
+<p>$$
+2c_n=3+{2\times3-1\over2<sup>1}+{2\times4-1\over2</sup>2}+\dots+{2(n-1)-1\over2<sup n-2="n-2">{n-3}}+{2n-1\over2</sup>\
+$$}</p>
 <p>与原式相减，得，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
+<p>$$
 \begin{aligned}
-c_n&amp;=3-{2n-1\over2^{n-1}}+{2\over2^1}+{2\over2^2}+\dots+{2\over2^{n-3}}+{2\over2^{n-2}}\\
-&amp;=3-{2n-1\over2^{n-1}}+{1\over2^0}+{1\over2^1}+\dots+{1\over2^{n-4}}+{1\over2^{n-3}}\\
-&amp;=3-{2n-1\over2^{n-1}}+{1\over2^{n-3}}(1+2+2^2+\dots+2^{n-3})\\
-&amp;=3-{2n-1\over2^{n-1}}+{2^{n-2}-1\over2^{n-3}}\\
-&amp;=5-{2n-1\over2^{n-1}}-{1\over2^{n-3}}
+c_n&amp;=3-{2n-1\over2<sup>{n-1}}+{2\over2</sup>1}+{2\over2<sup n-3="n-3">2}+\dots+{2\over2</sup>\
+&amp;=3-{2n-1\over2}}+{2\over2^{n-2}<sup>{n-1}}+{1\over2</sup>0}+{1\over2<sup n-4="n-4">1}+\dots+{1\over2</sup>\
+&amp;=3-{2n-1\over2}}+{1\over2^{n-3}<sup n-3="n-3">{n-1}}+{1\over2</sup>(1+2+2}<sup n-3="n-3">2+\dots+2</sup>)\
+&amp;=3-{2n-1\over2<sup n-2="n-2">{n-1}}+{2</sup>\
+&amp;=5-{2n-1\over2}-1\over2^{n-3}<sup n-3="n-3">{n-1}}-{1\over2</sup>
 \end{aligned}
-</div>
-<script type="math/tex; mode=display">
-\begin{aligned}
-c_n&=3-{2n-1\over2^{n-1}}+{2\over2^1}+{2\over2^2}+\dots+{2\over2^{n-3}}+{2\over2^{n-2}}\\
-&=3-{2n-1\over2^{n-1}}+{1\over2^0}+{1\over2^1}+\dots+{1\over2^{n-4}}+{1\over2^{n-3}}\\
-&=3-{2n-1\over2^{n-1}}+{1\over2^{n-3}}(1+2+2^2+\dots+2^{n-3})\\
-&=3-{2n-1\over2^{n-1}}+{2^{n-2}-1\over2^{n-3}}\\
-&=5-{2n-1\over2^{n-1}}-{1\over2^{n-3}}
-\end{aligned}
-</script>
-</div>
+$$}</p>
 <p>于是，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-b_n=1-{n^2\over2^n}+c_n=6-{n^2\over2^n}-{2n-1\over2^{n-1}}-{1\over2^{n-3}}
-</div>
-<script type="math/tex; mode=display">
-b_n=1-{n^2\over2^n}+c_n=6-{n^2\over2^n}-{2n-1\over2^{n-1}}-{1\over2^{n-3}}
-</script>
-</div>
+<p>$$
+b_n=1-{n<sup>2\over2</sup>n}+c_n=6-{n<sup>2\over2</sup>n}-{2n-1\over2<sup n-3="n-3">{n-1}}-{1\over2</sup>
+$$}</p>
 <p>于是，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-a_n=2^nb_n=3\times2^{n+1}-n^2-4n-6
-</div>
-<script type="math/tex; mode=display">
-a_n=2^nb_n=3\times2^{n+1}-n^2-4n-6
-</script>
-</div>
-<p>注意到当 <span class="arithmatex"><span class="MathJax_Preview">n=1,a_1=1</span><script type="math/tex">n=1,a_1=1</script></span> 满足该式，因此，</p>
-<div class="arithmatex">
-<div class="MathJax_Preview">
-a_n=3\times2^{n+1}-n^2-4n-6
-</div>
-<script type="math/tex; mode=display">
-a_n=3\times2^{n+1}-n^2-4n-6
-</script>
-</div>
+<p>$$
+a_n=2<sup n_1="n+1">nb_n=3\times2</sup>-n^2-4n-6
+$$</p>
+<p>注意到当 $n=1,a_1=1$ 满足该式，因此，</p>
+<p>$$
+a_n=3\times2<sup>{n+1}-n</sup>2-4n-6
+$$</p>
 <!-- 数学 -->
 <!-- 物理 -->
 <!-- 化学 -->
