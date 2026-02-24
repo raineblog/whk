@@ -1,0 +1,54 @@
+{
+    "default": true,
+    "MD001": false,
+    "MD003": {
+        "style": "atx"
+    },
+    "MD004": {
+        "style": "dash"
+    },
+    "MD005": true,
+    "MD007": {
+        "indent": 4
+    },
+    "MD009": true,
+    "MD010": true,
+    "MD011": true,
+    "MD012": {
+        "maximum": 2
+    },
+    "MD013": false,
+    "MD014": false,
+    "MD022": true,
+    "MD024": false,
+    "MD025": false,
+    "MD026": false,
+    "MD027": true,
+    "MD028": true,
+    "MD031": true,
+    "MD032": true,
+    "MD033": false,
+    "MD034": true,
+    "MD036": false,
+    "MD037": true,
+    "MD038": true,
+    "MD039": true,
+    "MD040": false,
+    "MD041": false,
+    "MD042": true,
+    "MD045": false,
+    "MD046": {
+        "style": "fenced"
+    },
+    "MD047": true,
+    "MD048": {
+        "style": "backtick"
+    },
+    "MD049": {
+        "style": "asterisk"
+    },
+    "MD050": {
+        "style": "asterisk"
+    },
+    "MD060": false
+}
