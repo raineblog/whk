@@ -65,7 +65,6 @@ jobs:
         run: ${{ matrix.pwd }}
         env:
           site_url: ${{ matrix.url }}
-          build_type: ${{ matrix.type }}
           disable_giscus: ${{ matrix.disable_giscus }}
 
       - name: Push to Branch
@@ -117,10 +116,22 @@ jobs:
   build-merged:
     name: Merged Build Verification
     needs: build-fragment
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: Rspress to Cloudflare Pages
+            image: ghcr.io/raineblog/mkdocs-rspress-docker:latest
+            pwd: rspress-build
+            url: https://raineblog-whk-rspress.pages.dev/
+            branch: cloudflare-pages-rspress
+            dir: ./doc_build
     runs-on: ubuntu-latest
+    container:
+      image: ${{ matrix.image }}
     steps:
       - name: Download Fragment Artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v7
         with:
           name: fragment-site
           path: docs
@@ -134,7 +145,17 @@ jobs:
           sparse-checkout-cone-mode: false
           path: .
 
-      - name: List Files
-        run: |
-          echo "Listing current directory structure:"
-          ls -R
+      - name: Build Static Site
+        run: ${{ matrix.pwd }}
+        env:
+          site_url: ${{ matrix.url }}
+
+      - name: Push to Branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: ${{ matrix.branch }}
+          publish_dir: ${{ matrix.dir }}
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+          full_commit_message: "Deploying to ${{ matrix.branch }} from ${{ github.sha }}"
