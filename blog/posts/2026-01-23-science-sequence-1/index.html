@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="zh">
+  <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>数列基础全攻略：从概念到高级技巧 - RainPPR&#x27;s WHK Blog</title>
+<script>{;const saved = localStorage.getItem('rspress-theme-appearance');const preferDark = window.matchMedia('(prefers-color-scheme: dark)').matches;const isDark = !saved || saved === 'auto' ? preferDark : saved === 'dark';document.documentElement.classList.toggle('dark', isDark);document.documentElement.classList.toggle('rp-dark', isDark);document.documentElement.style.colorScheme = isDark ? 'dark' : 'light';}</script>
+<link href="/static/css/styles.e677259f24.css" rel="stylesheet">
+<script defer src="/static/js/styles.9144b0cc93.js"></script>
+<script defer src="/static/js/lib-react.f52f1375e2.js"></script>
+<script defer src="/static/js/lib-router.5a60554bda.js"></script>
+<script defer src="/static/js/9005.ba4b7aa243.js"></script>
+<script defer src="/static/js/index.3587243b40.js"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Rspress v2.0.3">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="数列基础全攻略：从概念到高级技巧 - RainPPR's WHK Blog">
+<meta name="description" content="本篇博文梳理了数列的核心概念与常用方法，涵盖无限与有限数列、等差、等比、裂项放缩以及变量换元等专题。通过直观示例和简练公式，帮助高中生、竞赛爱好者以及自学者在短时间内建立完整的数列框架，进一步提升解题效率。">
+<meta property="og:description" content="本篇博文梳理了数列的核心概念与常用方法，涵盖无限与有限数列、等差、等比、裂项放缩以及变量换元等专题。通过直观示例和简练公式，帮助高中生、竞赛爱好者以及自学者在短时间内建立完整的数列框架，进一步提升解题效率。">
+<link rel="alternate" type="application/atom+xml" href="https://raineblog-whk-rspress.pages.dev/rss/blog.xml" hreflang="zh"></head>
+
+  <body>
+    <div id="__rspress_root"><link rel="preload" as="image" href="./docs/logo.svg"/><header class="rp-nav"><div class="rp-nav__left"><div class="rp-nav__title"><a href="/" class="rp-nav__title__link rp-link"><div class="rp-nav__title__logo"><img src="./docs/logo.svg" alt="logo" id="logo" class="rspress-logo rp-nav__title__logo-image"/></div><span>RainPPR&#x27;s WHK Blog</span></a></div></div><div class="rp-nav__right"><button class="rp-search-button"><div class="rp-search-button__content"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 20 21" class="rp-search-button__icon"><path fill="currentColor" d="M8.333 1.913A6.667 6.667 0 0 1 15 8.58c0 1.54-.525 2.957-1.402 4.085l4.49 4.492a.834.834 0 0 1-1.177 1.178l-4.491-4.49a6.64 6.64 0 0 1-4.087 1.402 6.667 6.667 0 0 1 0-13.334m0 1.667a5 5 0 1 0 0 10 5 5 0 0 0 0-10"></path></svg><span class="rp-search-button__word">搜索</span></div><div class="rp-search-button__hotkey" style="opacity:0"><span></span><span>K</span></div></button><div class="rp-search-button--mobile"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 20 21"><path fill="currentColor" d="M8.333 1.913A6.667 6.667 0 0 1 15 8.58c0 1.54-.525 2.957-1.402 4.085l4.49 4.492a.834.834 0 0 1-1.177 1.178l-4.491-4.49a6.64 6.64 0 0 1-4.087 1.402 6.667 6.667 0 0 1 0-13.334m0 1.667a5 5 0 1 0 0 10 5 5 0 0 0 0-10"></path></svg></div><ul class="rp-nav-menu rp-nav-menu--right"><li class="rp-nav-menu__item rp-nav-menu__item--active"><a href="/index.html" class="rp-nav-menu__item__container rp-link">简介</a></li><li class="rp-nav-menu__item"><a href="/cultural/grammar/1.html" class="rp-nav-menu__item__container rp-link">中学文科</a></li><li class="rp-nav-menu__item"><a href="/science/mathematics/1.html" class="rp-nav-menu__item__container rp-link">高中理科</a></li><li class="rp-nav-menu__item rp-nav-menu__item--active"><a href="/blog.html" class="rp-nav-menu__item__container rp-link">Blog</a></li></ul><div class="rp-nav__others"><div class="rp-nav-menu__divider"></div><div class="rp-switch-appearance"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" class="rp-switch-appearance__icon rp-switch-appearance__icon--sun"><path fill="currentColor" d="m7.001 15.848-1.226 1.226a.58.58 0 0 0 0 .818.58.58 0 0 0 .818 0l1.226-1.226a.58.58 0 0 0 0-.818.58.58 0 0 0-.818 0m-.352-8.735a.584.584 0 0 0 .825-.825L6.237 5.051a.584.584 0 0 0-.825.825zM5.011 11.07h-1.75a.584.584 0 0 0 0 1.167h1.75c.324 0 .584-.26.584-.583a.585.585 0 0 0-.584-.584m7.003-5.835c.324 0 .584-.26.584-.584V2.9a.58.58 0 0 0-.584-.584.58.58 0 0 0-.583.583V4.65c0 .323.262.584.583.584m5.616 1.621 1.226-1.225a.58.58 0 0 0 0-.818.58.58 0 0 0-.818 0l-1.226 1.225a.58.58 0 0 0 0 .818.576.576 0 0 0 .818 0m3.138 4.214h-1.75a.58.58 0 0 0-.584.584c0 .324.26.584.583.584h1.751a.584.584 0 1 0 0-1.167m-3.389 5.124a.584.584 0 0 0-.825.825l1.238 1.238a.584.584 0 0 0 .825-.826zm-5.365-9.795a5.256 5.256 0 0 0-5.257 5.258 5.256 5.256 0 0 0 5.257 5.257 5.256 5.256 0 0 0 5.257-5.257 5.256 5.256 0 0 0-5.257-5.258m0 11.675a.58.58 0 0 0-.583.583v1.751a.582.582 0 1 0 1.167 0v-1.75a.584.584 0 0 0-.584-.584"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" viewBox="0 0 19 19" class="rp-switch-appearance__icon rp-switch-appearance__icon--moon"><path fill="currentColor" d="M9.166 0a9.2 9.2 0 0 1 1.857.188.834.834 0 0 1 .042 1.623 4.47 4.47 0 1 0 5.457 5.457l.048-.135a.834.834 0 0 1 1.575.177q.186.902.188 1.856A9.168 9.168 0 1 1 9.166 0"></path></svg></div><div class="rp-social-links"><a href="https://github.com/RainPPR" target="_blank" rel="noopener noreferrer" class="rp-social-links__item"><div class="rp-social-links__icon"><div class="rp-social-links__icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12c0 5.303 3.438 9.8 8.205 11.385c.6.113.82-.258.82-.577c0-.285-.01-1.04-.015-2.04c-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729c1.205.084 1.838 1.236 1.838 1.236c1.07 1.835 2.809 1.305 3.495.998c.108-.776.417-1.305.76-1.605c-2.665-.3-5.466-1.332-5.466-5.93c0-1.31.465-2.38 1.235-3.22c-.135-.303-.54-1.523.105-3.176c0 0 1.005-.322 3.3 1.23c.96-.267 1.98-.399 3-.405c1.02.006 2.04.138 3 .405c2.28-1.552 3.285-1.23 3.285-1.23c.645 1.653.24 2.873.12 3.176c.765.84 1.23 1.91 1.23 3.22c0 4.61-2.805 5.625-5.475 5.92c.42.36.81 1.096.81 2.22c0 1.606-.015 2.896-.015 3.286c0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></div></div></a><a href="https://x.com/rainppr2008" target="_blank" rel="noopener noreferrer" class="rp-social-links__item"><div class="rp-social-links__icon"><div class="rp-social-links__icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584l-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></div></div></a><ul class="rp-hover-group rp-hover-group--hidden rp-hover-group--right"></ul></div></div><button aria-label="mobile hamburger" class="rp-nav-hamburger rp-nav-hamburger__sm"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="none" viewBox="0 0 21 21"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667" d="M3.645 5.225h13.333M3.645 10.225h13.333M3.645 15.225h13.333"></path></svg></button><button aria-label="mobile hamburger" class="rp-nav-hamburger rp-nav-hamburger__md"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="none" viewBox="0 0 21 21"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667" d="M3.645 5.225h13.333M3.645 10.225h13.333M3.645 15.225h13.333"></path></svg><ul class="rp-hover-group rp-hover-group--hidden rp-hover-group--right"><div class="rp-nav-menu__others-mobile__container"><div class="rp-nav-hamburger__md__hover-group"><div class="rp-nav-screen-appearance"><div class="rp-nav-screen-appearance__left">主题</div><div class="rp-nav-screen-appearance__right"></div></div><div class="rp-nav-screen-divider"></div><div class="rp-social-links"><a href="https://github.com/RainPPR" target="_blank" rel="noopener noreferrer" class="rp-social-links__item"><div class="rp-social-links__icon"><div class="rp-social-links__icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12c0 5.303 3.438 9.8 8.205 11.385c.6.113.82-.258.82-.577c0-.285-.01-1.04-.015-2.04c-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729c1.205.084 1.838 1.236 1.838 1.236c1.07 1.835 2.809 1.305 3.495.998c.108-.776.417-1.305.76-1.605c-2.665-.3-5.466-1.332-5.466-5.93c0-1.31.465-2.38 1.235-3.22c-.135-.303-.54-1.523.105-3.176c0 0 1.005-.322 3.3 1.23c.96-.267 1.98-.399 3-.405c1.02.006 2.04.138 3 .405c2.28-1.552 3.285-1.23 3.285-1.23c.645 1.653.24 2.873.12 3.176c.765.84 1.23 1.91 1.23 3.22c0 4.61-2.805 5.625-5.475 5.92c.42.36.81 1.096.81 2.22c0 1.606-.015 2.896-.015 3.286c0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></div></div></a><a href="https://x.com/rainppr2008" target="_blank" rel="noopener noreferrer" class="rp-social-links__item"><div class="rp-social-links__icon"><div class="rp-social-links__icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584l-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></div></div></a><ul class="rp-hover-group rp-hover-group--hidden rp-hover-group--right"></ul></div></div></div></ul></button></div></header><div class="rp-doc-layout__menu"><div class="rp-sidebar-menu"><button type="button" class="rp-sidebar-menu__left"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M4 6h24v2H4zm0 18h24v2H4zm0-12h24v2H4zm0 6h24v2H4z"></path></svg><span>菜单</span></button><button type="button" class="rp-sidebar-menu__right"><span class="rp-sidebar-menu__right__text">目录</span><svg width="14" height="14" class="rp-progress-circle"><circle cx="7" cy="7" r="6" stroke-linecap="round" fill="none" stroke="var(--rp-c-divider-light)" stroke-width="2"></circle><circle cx="7" cy="7" r="6" stroke-linecap="round" fill="none" stroke="var(--rp-c-brand)" stroke-width="2" stroke-dasharray="37.69911184307752" stroke-dashoffset="37.69911184307752" transform="rotate(-90 7 7)" style="transition:stroke-dashoffset 0.3s"></circle></svg><svg width="1em" height="1em" viewBox="0 0 32 32" class="rp-sidebar-menu__right__icon" style="transform:rotate(0deg);transition:transform 0.2s ease-out"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></button></div></div><div class="rp-doc-layout__container"><aside class="rp-doc-layout__sidebar rp-scrollbar"><a href="/blog.html" class="rp-sidebar-item rp-link" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>index</span></div><div class="rp-sidebar-item__right"></div></a></aside><div class="rp-doc-layout__doc"><main class="rp-doc-layout__doc-container"><div class="rp-doc rspress-doc"><!--$--><h1 class="rp-toc-include" id="_1"><a href="#_1" class="rp-header-anchor rp-link" aria-hidden="true">#</a>数列基础全攻略：从概念到高级技巧<!-- --> </h1>
+<span data-dark="false" class="rp-reading-time">预计阅读时间: 8 分钟</span>
+<p>本篇博文梳理了数列的核心概念与常用方法，涵盖无限与有限数列、等差、等比、裂项放缩以及变量换元等专题。通过直观示例和简练公式，帮助高中生、竞赛爱好者以及自学者在短时间内建立完整的数列框架，进一步提升解题效率。</p>
+<h2 class="rp-toc-include" id="_2"><a href="#_2" class="rp-header-anchor rp-link" aria-hidden="true">#</a>基础概念</h2>
+<p>数列是一组按顺序排列的数值，每一个位置称为 <strong>项</strong>。根据项数的不同，可分为 <strong>无限数列</strong> 与 <strong>有限数列</strong>。</p>
+<h3 class="rp-toc-include" id="_3"><a href="#_3" class="rp-header-anchor rp-link" aria-hidden="true">#</a>无穷数列</h3>
+<p>若 $a:\mathbb N\to\mathbb C$ 为函数，则记为</p>
+<p>$$
+{a_n}<em>{n\in\mathbb N}\quad\text{或}\quad(a_n)</em>{n\in\mathbb N}
+$$</p>
+<p>其中 $a_n$ 为第 $n$ 项。</p>
+<h3 class="rp-toc-include" id="_4"><a href="#_4" class="rp-header-anchor rp-link" aria-hidden="true">#</a>有限数列</h3>
+<p>设 $I_n={1,2,\dots ,n}$，则函数 $a:I_n\to\mathbb C$ 称为 <strong>有限数列</strong>，记作 ${a_i}_{i=1}^{n}$。</p>
+<h3 class="rp-toc-include" id="_5"><a href="#_5" class="rp-header-anchor rp-link" aria-hidden="true">#</a>数列的级数</h3>
+<p>数列的逐项累加得到的序列称为 <strong>级数</strong>，记为</p>
+<p>$$
+S_n=\sum_{i=1}^{n}a_i
+$$</p>
+<p>$S_n$ 的递推关系为 $S_n=S_{n-1}+a_n$（$S_0=0$）。</p>
+<h3 class="rp-toc-include" id="_6"><a href="#_6" class="rp-header-anchor rp-link" aria-hidden="true">#</a>数列与函数</h3>
+<p>数列本质是离散函数，常用 $a_n=f(n$ 表示其通项。由此可以把求和、差分等运算类比为积分、微分的离散版。</p>
+<h2 class="rp-toc-include" id="_7"><a href="#_7" class="rp-header-anchor rp-link" aria-hidden="true">#</a>表示方法</h2>
+<h3 class="rp-toc-include" id="_8"><a href="#_8" class="rp-header-anchor rp-link" aria-hidden="true">#</a>列举法</h3>
+<p>直接写出前几项，如 $langle 1,2,4,8,\dots\rangle$。适用于短序列，无法完整描述无限数列。</p>
+<h3 class="rp-toc-include" id="_9"><a href="#_9" class="rp-header-anchor rp-link" aria-hidden="true">#</a>图像法</h3>
+<p>把每一项对应的点绘于平面，仅能呈现离散散点，实际教学中不常使用。</p>
+<h3 class="rp-toc-include" id="_10"><a href="#_10" class="rp-header-anchor rp-link" aria-hidden="true">#</a>通项公式</h3>
+<p>用代数式揭示 $n$ 与 $a_n$ 的关系。例如等比数列 $a_n=a_1q^{,n-1}$。</p>
+<h3 class="rp-toc-include" id="_11"><a href="#_11" class="rp-header-anchor rp-link" aria-hidden="true">#</a>递推公式</h3>
+<p>用前一项或前几项描述后继项，如</p>
+<p>$$
+a_{n+1}=a_n+d \quad\text{（等差）}
+$$</p>
+<p>或</p>
+<p>$$
+a_{n+1}=qa_n \quad\text{（等比）}
+$$</p>
+<h2 class="rp-toc-include" id="_12"><a href="#_12" class="rp-header-anchor rp-link" aria-hidden="true">#</a>等差数列</h2>
+<p>相邻两项的差恒为常数 $d$，称为 <strong>公差</strong>。</p>
+<h3 class="rp-toc-include" id="_13"><a href="#_13" class="rp-header-anchor rp-link" aria-hidden="true">#</a>递推公式</h3>
+<p>$$
+a_{n+1}=a_n+d\qquad (n\ge 1)
+$$</p>
+<h3 class="rp-toc-include" id="_14"><a href="#_14" class="rp-header-anchor rp-link" aria-hidden="true">#</a>通项公式</h3>
+<p>$$
+a_n=a_1+(n-1)d
+$$</p>
+<h3 class="rp-toc-include" id="_15"><a href="#_15" class="rp-header-anchor rp-link" aria-hidden="true">#</a>等差性质</h3>
+<ul>
+<li>前后项差：$d=\dfrac{a_n-a_m}{,n-m,}$</li>
+<li>中项等式：$a_n=\dfrac{a_{n-1}+a_{n+1}}{2}$</li>
+<li>任意两项之和相等：若 $m+n=p+q$，则 $a_m+a_n=a_p+a_q$。</li>
+</ul>
+<h3 class="rp-toc-include" id="_16"><a href="#_16" class="rp-header-anchor rp-link" aria-hidden="true">#</a>项数公式</h3>
+<p>已知首项 $a_1$ 与第 $k$ 项 $a_k$，可求项数</p>
+<p>$$
+k=\frac{a_k-a_1}{d}+1
+$$</p>
+<h3 class="rp-toc-include" id="_17"><a href="#_17" class="rp-header-anchor rp-link" aria-hidden="true">#</a>求和公式</h3>
+<p>等差前 $n$ 项和为</p>
+<p>$$
+S_n=\frac{n\bigl(a_1+a_n\bigr)}{2} =na_1+\frac{n(n-1)}{2}d
+$$</p>
+<p>把 $S_n$ 看作二次函数 $S_n=\frac{d}{2}n^{2}+\bigl(a_1-\frac{d}{2}\bigr)n$，可直接求极值位置。</p>
+<h3 class="rp-toc-include" id="_18"><a href="#_18" class="rp-header-anchor rp-link" aria-hidden="true">#</a>等差中项</h3>
+<p>给定两端 $a,b$，中项 $c$ 为算术平均数：</p>
+<p>$$
+c=\frac{a+b}{2}
+$$</p>
+<h3 class="rp-toc-include" id="_19"><a href="#_19" class="rp-header-anchor rp-link" aria-hidden="true">#</a>累加法</h3>
+<p>若递推式 $a_n=a_{n-1}+f(n$，则</p>
+<p>$$
+a_n=a_1+\sum_{k=2}^{n}f(k)
+$$</p>
+<h3 class="rp-toc-include" id="_20"><a href="#_20" class="rp-header-anchor rp-link" aria-hidden="true">#</a>多阶等差</h3>
+<p>对公差再求前缀和可得到二阶等差数列；若两阶数列相乘仍保持二阶结构。</p>
+<h2 class="rp-toc-include" id="_21"><a href="#_21" class="rp-header-anchor rp-link" aria-hidden="true">#</a>等比数列</h2>
+<p>相邻两项的比值恒为常数 $q$，称为 <strong>公比</strong>。</p>
+<h3 class="rp-toc-include" id="_22"><a href="#_22" class="rp-header-anchor rp-link" aria-hidden="true">#</a>递推公式</h3>
+<p>$$
+a_{n+1}=qa_n\qquad (q\neq0)
+$$</p>
+<h3 class="rp-toc-include" id="_23"><a href="#_23" class="rp-header-anchor rp-link" aria-hidden="true">#</a>通项公式</h3>
+<p>$$
+a_n=a_1q^{,n-1}
+$$</p>
+<h3 class="rp-toc-include" id="_24"><a href="#_24" class="rp-header-anchor rp-link" aria-hidden="true">#</a>等比性质</h3>
+<ul>
+<li>前后项积：$a_{n-1}a_{n+1}=a_n^{2}$</li>
+<li>任意两项乘积相等：若 $m+n=p+q$，则 $a_m a_n=a_p a_q$。</li>
+</ul>
+<h3 class="rp-toc-include" id="_25"><a href="#_25" class="rp-header-anchor rp-link" aria-hidden="true">#</a>求和公式</h3>
+<p>若 $q\neq1$，前 $n$ 项和为</p>
+<p>$$
+S_n=a_1\frac{q^{,n}-1}{q-1}
+$$</p>
+<p>若 $q=1$，则 $S_n=na_1$。</p>
+<h3 class="rp-toc-include" id="_26"><a href="#_26" class="rp-header-anchor rp-link" aria-hidden="true">#</a>等比中项</h3>
+<p>两端 $a,b$ 的几何平均数为中项：</p>
+<p>$$
+c=\sqrt{ab}
+$$</p>
+<h3 class="rp-toc-include" id="_27"><a href="#_27" class="rp-header-anchor rp-link" aria-hidden="true">#</a>累乘法</h3>
+<p>若递推式 $a_n=a_{n-1}f(n$，则</p>
+<p>$$
+a_n=a_1\prod_{k=2}^{n}f(k)
+$$</p>
+<h2 class="rp-toc-include" id="_28"><a href="#_28" class="rp-header-anchor rp-link" aria-hidden="true">#</a>裂项放缩</h2>
+<p>通过把复杂分式拆成差的形式，可以让求和过程出现大量相消项。</p>
+<h3 class="rp-toc-include" id="_29"><a href="#_29" class="rp-header-anchor rp-link" aria-hidden="true">#</a>经典裂项</h3>
+<p>$$
+\frac{1}{n(n+1)}=\frac{1}{n}-\frac{1}{n+1}
+$$</p>
+<h3 class="rp-toc-include" id="_30"><a href="#_30" class="rp-header-anchor rp-link" aria-hidden="true">#</a>整式裂项</h3>
+<p>利用立方或高次多项式的差分进行拆分，如</p>
+<p>$$
+n(n+1)=\frac{1}{3}\Bigl[n(n+1)(n+2)-(n-1)n(n+1)\Bigr]
+$$</p>
+<p>从而得到</p>
+<p>$$
+\sum_{k=1}^{n}k(k+1)=\frac{n(n+1)(n+2)}{3}
+$$</p>
+<h3 class="rp-toc-include" id="_31"><a href="#_31" class="rp-header-anchor rp-link" aria-hidden="true">#</a>更多裂项</h3>
+<p>包括根式、阶乘以及高次幂的裂项，例如</p>
+<p>$$
+\frac{1}{\sqrt{a}+\sqrt{b}} =\frac{\sqrt{a}-\sqrt{b}}{a-b}
+$$</p>
+<p>以及</p>
+<p>$$
+\frac{2^{k}}{2k^{4}+1} =\frac{1}{2k^{2}-2k+1}-\frac{1}{2k^{2}+2k+1}
+$$</p>
+<h3 class="rp-toc-include" id="_32"><a href="#_32" class="rp-header-anchor rp-link" aria-hidden="true">#</a>共轭根式</h3>
+<p>利用 $sqrt a-\sqrt b)(\sqrt a+\sqrt b)=a-b$，可快速化简含根号的分式。</p>
+<h3 class="rp-toc-include" id="_33"><a href="#_33" class="rp-header-anchor rp-link" aria-hidden="true">#</a>阶乘问题</h3>
+<p>典型恒等式</p>
+<p>$$
+n\cdot n!=(n+1)!-n!
+$$</p>
+<p>帮助把阶乘序列转化为差分形式。</p>
+<h3 class="rp-toc-include" id="_34"><a href="#_34" class="rp-header-anchor rp-link" aria-hidden="true">#</a>放缩基础与进阶</h3>
+<p>对于收敛性或渐进估计，常用不等式</p>
+<p>$$
+\frac{1}{n}-\frac{1}{n+1}&lt;\frac{1}{n^{2}}&lt;\frac{1}{n-1}-\frac{1}{n}
+$$</p>
+<p>进一步可以使用根号不等式</p>
+<p>$$
+\frac{1}{\sqrt{n}}&lt;2\bigl(\sqrt{n+1}-\sqrt{n}\bigr)
+$$</p>
+<p>提升估计精度。</p>
+<h2 class="rp-toc-include" id="_35"><a href="#_35" class="rp-header-anchor rp-link" aria-hidden="true">#</a>通用方法</h2>
+<h3 class="rp-toc-include" id="_36"><a href="#_36" class="rp-header-anchor rp-link" aria-hidden="true">#</a>速算技巧</h3>
+<ul>
+<li>把 $S_0$ 设为 $0$，有时可直接求出常数项。</li>
+<li>当级数满足 $S_n=a\cdot2^{,n-1}+a-2$ 时，令 $n=0$ 求 $a$。</li>
+</ul>
+<h3 class="rp-toc-include" id="_37"><a href="#_37" class="rp-header-anchor rp-link" aria-hidden="true">#</a>等差等比混合</h3>
+<p>若数列形如 $a_n=(An+B)q^{,n-1}$，可化为</p>
+<p>$$
+S_n=(Dn+E)q^{,n}-E
+$$</p>
+<p>其中 $D=\dfrac{A}{q-1}$、$E=\dfrac{B-D}{q-1}$。</p>
+<h3 class="rp-toc-include" id="_38"><a href="#_38" class="rp-header-anchor rp-link" aria-hidden="true">#</a>数学归纳</h3>
+<p>通过基例与归纳假设，验证递推式的通项公式。</p>
+<h3 class="rp-toc-include" id="_39"><a href="#_39" class="rp-header-anchor rp-link" aria-hidden="true">#</a>直接变形</h3>
+<p>把递推式两边加（或减）常数，使其转化为等比形式。例如 $a_n=pa_{n-1}+q$，取 $x=\dfrac{q}{p-1}$，则 $b_n=a_n+x$ 为等比数列。</p>
+<h3 class="rp-toc-include" id="_40"><a href="#_40" class="rp-header-anchor rp-link" aria-hidden="true">#</a>变形累加</h3>
+<p>对 $a_n=pa_{n-1}+q$ 两边除以 $p^{,n}$，再累加得到</p>
+<p>$$
+a_n=(a_1-q)p^{,n-1}+ \frac{q}{p-1}\bigl(p^{,n}-1\bigr)
+$$</p>
+<h3 class="rp-toc-include" id="_41"><a href="#_41" class="rp-header-anchor rp-link" aria-hidden="true">#</a>数列判定</h3>
+<ul>
+<li><strong>定义法</strong>：检验 $a_n-a_{n-1}$（等差）或 $dfrac{a_n}{a_{n-1}}$（等比）是否为常数。</li>
+<li><strong>中项法</strong>：等差满足 $2a_n=a_{n-1}+a_{n+1}$，等比满足 $a_n^{2}=a_{n-1}a_{n+1}$。</li>
+</ul>
+<h3 class="rp-toc-include" id="_42"><a href="#_42" class="rp-header-anchor rp-link" aria-hidden="true">#</a>奇偶数列</h3>
+<p>对交错符号或绝对值数列，可分别讨论正负段的和，从而得到整体求和公式。</p>
+<h3 class="rp-toc-include" id="_43"><a href="#_43" class="rp-header-anchor rp-link" aria-hidden="true">#</a>单调性</h3>
+<p>若 $a_{n+1}\ge a_n$（或 $&gt;$）则称为单调递增；若 $a_{n+1}\le a_n$（或 $&lt;$）则为单调递减。迭代式 $a_{n+1}=f(a_n$ 的单调性可通过 $f&#x27;(x$ 的符号判断。</p>
+<h2 class="rp-toc-include" id="_44"><a href="#_44" class="rp-header-anchor rp-link" aria-hidden="true">#</a>换元初步</h2>
+<h3 class="rp-toc-include" id="_45"><a href="#_45" class="rp-header-anchor rp-link" aria-hidden="true">#</a>三角换元</h3>
+<p>常用恒等式：</p>
+<p>$$
+\cos2\theta=2\cos^{2}\theta-1,\qquad \tan2\theta=\frac{2\tan\theta}{1-\tan^{2}\theta}
+$$</p>
+<p>帮助把二次递推转化为角度倍增。</p>
+<h3 class="rp-toc-include" id="_46"><a href="#_46" class="rp-header-anchor rp-link" aria-hidden="true">#</a>例题（三角换元）</h3>
+<p>递推 $a_{n+1}=a_n^{2}-2$，取 $a_n=2\cos\theta_n$，得到 $theta_{n+1}=2\theta_n$，于是</p>
+<p>$$
+a_n=2\cos!\Bigl(2^{,n-1}\arccos\frac14\Bigr)
+$$</p>
+<h3 class="rp-toc-include" id="_47"><a href="#_47" class="rp-header-anchor rp-link" aria-hidden="true">#</a>双曲换元</h3>
+<p>递推 $a_{n+1}=2a_n^{2}-1$，令 $a_n=\dfrac{k^{x}+k^{-x}}{2}$，得到</p>
+<p>$$
+a_n=\frac{(3+2\sqrt2)^{,2^{,n-1}}+(3-2\sqrt2)^{,2^{,n-1}}}{2}
+$$</p>
+<h2 class="rp-toc-include" id="_48"><a href="#_48" class="rp-header-anchor rp-link" aria-hidden="true">#</a>基础例题精选</h2>
+<p>下面列出四道常见递推题的快速求解过程，帮助读者熟悉技巧。</p>
+<h3 class="rp-toc-include" id="_49"><a href="#_49" class="rp-header-anchor rp-link" aria-hidden="true">#</a>例题一</h3>
+<p>递推 $a_n=2a_{n-1}+3;(n\ge2),\ a_1=1$。<br/>
+加上常数 $3$ 后得到等比数列 $b_n=a_n+3=2^{,n+1}$，故</p>
+<p>$$
+a_n=2^{,n+1}-3
+$$</p>
+<h3 class="rp-toc-include" id="_50"><a href="#_50" class="rp-header-anchor rp-link" aria-hidden="true">#</a>例题二</h3>
+<p>递推 $a_n=a_{n-1}+n;(n\ge2),\ a_1=1$。<br/>
+累加得到</p>
+<p>$$
+a_n=1+2+\dots +n=\frac{n(n+1)}{2}
+$$</p>
+<h3 class="rp-toc-include" id="_51"><a href="#_51" class="rp-header-anchor rp-link" aria-hidden="true">#</a>例题三</h3>
+<p>递推 $a_n=2a_{n-1}+n;(n\ge2),\ a_1=1$。<br/>
+除以 $2^{,n}$，累加后化简得</p>
+<p>$$
+a_n=2^{,n+1}-2-n
+$$</p>
+<h3 class="rp-toc-include" id="_52"><a href="#_52" class="rp-header-anchor rp-link" aria-hidden="true">#</a>例题四</h3>
+<p>递推 $a_n=2a_{n-1}+n^{2};(n\ge2),\ a_1=1$。<br/>
+同样除以 $2^{,n}$，经过差分与累加，最终得到</p>
+<p>$$
+a_n=3\cdot2^{,n+1}-n^{2}-4n-6
+$$</p>
+<hr/>
+<p>想要深入了解每个章节的完整推导、更多练习以及完整的原始手稿，请访问原文链接：</p>
+<p><a href="https://raineblog.dpdns.org/whk/science/sequence/1/" target="_blank" rel="noopener noreferrer" class="rp-link">数列基础原文（完整版）</a></p>
+<p>祝你在数列的世界里玩得开心，收获满满！</p><!--/$--></div><footer class="rp-doc-footer"><div class="rp-doc-footer__edit"><a href="https://github.com/raineblog/whk/blob/main/docs/blog/posts/2026-01-23-science-sequence-1/index.md" target="_blank" class="rp-edit-link">📝 编辑此页面</a></div><div class="rp-doc-footer__divider"></div><div class="rp-prev-next-page"><div class="rp-prev-next-page__placeholder"></div><a href="/blog.html" class="rp-prev-next-page__item rp-prev-next-page__next rp-link"><span class="rp-prev-next-page__item__desc">下一页</span><span class="rp-prev-next-page__item__title"><span>index</span><svg width="1em" height="1em" viewBox="0 0 32 32" class="rp-prev-next-page__icon"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></span></a></div></footer></main></div><aside class="rp-doc-layout__outline rp-scrollbar"><div class="rp-outline"><div class="rp-outline__title">目录<svg width="14" height="14" class="rp-progress-circle"><circle cx="7" cy="7" r="6" stroke-linecap="round" fill="none" stroke="var(--rp-c-divider-light)" stroke-width="2"></circle><circle cx="7" cy="7" r="6" stroke-linecap="round" fill="none" stroke="var(--rp-c-brand)" stroke-width="2" stroke-dasharray="37.69911184307752" stroke-dashoffset="37.69911184307752" transform="rotate(-90 7 7)" style="transition:stroke-dashoffset 0.3s"></circle></svg></div><nav class="rp-outline__toc rp-scrollbar"><a href="#_2" class="rp-toc-item rp-link" title="基础概念" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">基础概念</span></a><a href="#_3" class="rp-toc-item rp-link" title="无穷数列" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">无穷数列</span></a><a href="#_4" class="rp-toc-item rp-link" title="有限数列" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">有限数列</span></a><a href="#_5" class="rp-toc-item rp-link" title="数列的级数" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">数列的级数</span></a><a href="#_6" class="rp-toc-item rp-link" title="数列与函数" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">数列与函数</span></a><a href="#_7" class="rp-toc-item rp-link" title="表示方法" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">表示方法</span></a><a href="#_8" class="rp-toc-item rp-link" title="列举法" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">列举法</span></a><a href="#_9" class="rp-toc-item rp-link" title="图像法" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">图像法</span></a><a href="#_10" class="rp-toc-item rp-link" title="通项公式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">通项公式</span></a><a href="#_11" class="rp-toc-item rp-link" title="递推公式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">递推公式</span></a><a href="#_12" class="rp-toc-item rp-link" title="等差数列" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">等差数列</span></a><a href="#_13" class="rp-toc-item rp-link" title="递推公式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">递推公式</span></a><a href="#_14" class="rp-toc-item rp-link" title="通项公式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">通项公式</span></a><a href="#_15" class="rp-toc-item rp-link" title="等差性质" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">等差性质</span></a><a href="#_16" class="rp-toc-item rp-link" title="项数公式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">项数公式</span></a><a href="#_17" class="rp-toc-item rp-link" title="求和公式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">求和公式</span></a><a href="#_18" class="rp-toc-item rp-link" title="等差中项" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">等差中项</span></a><a href="#_19" class="rp-toc-item rp-link" title="累加法" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">累加法</span></a><a href="#_20" class="rp-toc-item rp-link" title="多阶等差" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">多阶等差</span></a><a href="#_21" class="rp-toc-item rp-link" title="等比数列" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">等比数列</span></a><a href="#_22" class="rp-toc-item rp-link" title="递推公式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">递推公式</span></a><a href="#_23" class="rp-toc-item rp-link" title="通项公式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">通项公式</span></a><a href="#_24" class="rp-toc-item rp-link" title="等比性质" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">等比性质</span></a><a href="#_25" class="rp-toc-item rp-link" title="求和公式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">求和公式</span></a><a href="#_26" class="rp-toc-item rp-link" title="等比中项" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">等比中项</span></a><a href="#_27" class="rp-toc-item rp-link" title="累乘法" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">累乘法</span></a><a href="#_28" class="rp-toc-item rp-link" title="裂项放缩" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">裂项放缩</span></a><a href="#_29" class="rp-toc-item rp-link" title="经典裂项" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">经典裂项</span></a><a href="#_30" class="rp-toc-item rp-link" title="整式裂项" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">整式裂项</span></a><a href="#_31" class="rp-toc-item rp-link" title="更多裂项" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">更多裂项</span></a><a href="#_32" class="rp-toc-item rp-link" title="共轭根式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">共轭根式</span></a><a href="#_33" class="rp-toc-item rp-link" title="阶乘问题" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">阶乘问题</span></a><a href="#_34" class="rp-toc-item rp-link" title="放缩基础与进阶" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">放缩基础与进阶</span></a><a href="#_35" class="rp-toc-item rp-link" title="通用方法" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">通用方法</span></a><a href="#_36" class="rp-toc-item rp-link" title="速算技巧" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">速算技巧</span></a><a href="#_37" class="rp-toc-item rp-link" title="等差等比混合" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">等差等比混合</span></a><a href="#_38" class="rp-toc-item rp-link" title="数学归纳" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">数学归纳</span></a><a href="#_39" class="rp-toc-item rp-link" title="直接变形" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">直接变形</span></a><a href="#_40" class="rp-toc-item rp-link" title="变形累加" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">变形累加</span></a><a href="#_41" class="rp-toc-item rp-link" title="数列判定" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">数列判定</span></a><a href="#_42" class="rp-toc-item rp-link" title="奇偶数列" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">奇偶数列</span></a><a href="#_43" class="rp-toc-item rp-link" title="单调性" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">单调性</span></a><a href="#_44" class="rp-toc-item rp-link" title="换元初步" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">换元初步</span></a><a href="#_45" class="rp-toc-item rp-link" title="三角换元" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">三角换元</span></a><a href="#_46" class="rp-toc-item rp-link" title="例题（三角换元）" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">例题（三角换元）</span></a><a href="#_47" class="rp-toc-item rp-link" title="双曲换元" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">双曲换元</span></a><a href="#_48" class="rp-toc-item rp-link" title="基础例题精选" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">基础例题精选</span></a><a href="#_49" class="rp-toc-item rp-link" title="例题一" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">例题一</span></a><a href="#_50" class="rp-toc-item rp-link" title="例题二" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">例题二</span></a><a href="#_51" class="rp-toc-item rp-link" title="例题三" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">例题三</span></a><a href="#_52" class="rp-toc-item rp-link" title="例题四" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">例题四</span></a></nav><div class="rp-outline__divider"></div><div class="rp-outline__bottom"><button class="rp-outline__scroll-to-top"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.99967 14.6667C11.6816 14.6667 14.6663 11.6819 14.6663 8.00001C14.6663 4.31811 11.6816 1.33334 7.99967 1.33334C4.31777 1.33334 1.33301 4.31811 1.33301 8.00001C1.33301 11.6819 4.31777 14.6667 7.99967 14.6667Z" stroke="currentColor" stroke-opacity="0.8" stroke-width="1.33333"></path><path d="M7.99967 14.6667C11.6816 14.6667 14.6663 11.6819 14.6663 8.00001C14.6663 4.31811 11.6816 1.33334 7.99967 1.33334C4.31777 1.33334 1.33301 4.31811 1.33301 8.00001C1.33301 11.6819 4.31777 14.6667 7.99967 14.6667Z" stroke="currentColor" stroke-opacity="0.8" stroke-width="1.33333" stroke-linejoin="round"></path><path d="M11 9L8 6L5 9" stroke="currentColor" stroke-opacity="0.8" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>回到顶部</span></button></div></div></aside></div></div>
+    <div id="__rspress_modal_container"></div>
+  </body>
+</html>

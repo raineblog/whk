@@ -1,0 +1,957 @@
+<!doctype html>
+<html lang="zh">
+  <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>导数不等式 - RainPPR&#x27;s WHK Blog</title>
+<script>{;const saved = localStorage.getItem('rspress-theme-appearance');const preferDark = window.matchMedia('(prefers-color-scheme: dark)').matches;const isDark = !saved || saved === 'auto' ? preferDark : saved === 'dark';document.documentElement.classList.toggle('dark', isDark);document.documentElement.classList.toggle('rp-dark', isDark);document.documentElement.style.colorScheme = isDark ? 'dark' : 'light';}</script>
+<link href="/static/css/styles.e677259f24.css" rel="stylesheet">
+<script defer src="/static/js/styles.9144b0cc93.js"></script>
+<script defer src="/static/js/lib-react.f52f1375e2.js"></script>
+<script defer src="/static/js/lib-router.5a60554bda.js"></script>
+<script defer src="/static/js/9005.ba4b7aa243.js"></script>
+<script defer src="/static/js/index.3587243b40.js"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Rspress v2.0.3">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="导数不等式 - RainPPR's WHK Blog">
+<meta name="description" content="RainPPR 的文化课博客，主要是理科，尤其是数学、物理、化学、生物等高中学科的知识及题型等笔记。">
+<meta property="og:description" content="RainPPR 的文化课博客，主要是理科，尤其是数学、物理、化学、生物等高中学科的知识及题型等笔记。"></head>
+
+  <body>
+    <div id="__rspress_root"><link rel="preload" as="image" href="./docs/logo.svg"/><link rel="preload" as="image" href="/static/image/image.a41bea10f9.avif"/><link rel="preload" as="image" href="/static/image/image-1.d954c97de7.avif"/><link rel="preload" as="image" href="/static/svg/desmos-graph.e0dc6eea3d.svg"/><link rel="preload" as="image" href="/static/image/image-6.177ac98c83.avif"/><header class="rp-nav"><div class="rp-nav__left"><div class="rp-nav__title"><a href="/" class="rp-nav__title__link rp-link"><div class="rp-nav__title__logo"><img src="./docs/logo.svg" alt="logo" id="logo" class="rspress-logo rp-nav__title__logo-image"/></div><span>RainPPR&#x27;s WHK Blog</span></a></div></div><div class="rp-nav__right"><button class="rp-search-button"><div class="rp-search-button__content"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 20 21" class="rp-search-button__icon"><path fill="currentColor" d="M8.333 1.913A6.667 6.667 0 0 1 15 8.58c0 1.54-.525 2.957-1.402 4.085l4.49 4.492a.834.834 0 0 1-1.177 1.178l-4.491-4.49a6.64 6.64 0 0 1-4.087 1.402 6.667 6.667 0 0 1 0-13.334m0 1.667a5 5 0 1 0 0 10 5 5 0 0 0 0-10"></path></svg><span class="rp-search-button__word">搜索</span></div><div class="rp-search-button__hotkey" style="opacity:0"><span></span><span>K</span></div></button><div class="rp-search-button--mobile"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 20 21"><path fill="currentColor" d="M8.333 1.913A6.667 6.667 0 0 1 15 8.58c0 1.54-.525 2.957-1.402 4.085l4.49 4.492a.834.834 0 0 1-1.177 1.178l-4.491-4.49a6.64 6.64 0 0 1-4.087 1.402 6.667 6.667 0 0 1 0-13.334m0 1.667a5 5 0 1 0 0 10 5 5 0 0 0 0-10"></path></svg></div><ul class="rp-nav-menu rp-nav-menu--right"><li class="rp-nav-menu__item rp-nav-menu__item--active"><a href="/index.html" class="rp-nav-menu__item__container rp-link">简介</a></li><li class="rp-nav-menu__item"><a href="/cultural/grammar/1.html" class="rp-nav-menu__item__container rp-link">中学文科</a></li><li class="rp-nav-menu__item"><a href="/science/mathematics/1.html" class="rp-nav-menu__item__container rp-link">高中理科</a></li><li class="rp-nav-menu__item"><a href="/blog.html" class="rp-nav-menu__item__container rp-link">Blog</a></li></ul><div class="rp-nav__others"><div class="rp-nav-menu__divider"></div><div class="rp-switch-appearance"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" class="rp-switch-appearance__icon rp-switch-appearance__icon--sun"><path fill="currentColor" d="m7.001 15.848-1.226 1.226a.58.58 0 0 0 0 .818.58.58 0 0 0 .818 0l1.226-1.226a.58.58 0 0 0 0-.818.58.58 0 0 0-.818 0m-.352-8.735a.584.584 0 0 0 .825-.825L6.237 5.051a.584.584 0 0 0-.825.825zM5.011 11.07h-1.75a.584.584 0 0 0 0 1.167h1.75c.324 0 .584-.26.584-.583a.585.585 0 0 0-.584-.584m7.003-5.835c.324 0 .584-.26.584-.584V2.9a.58.58 0 0 0-.584-.584.58.58 0 0 0-.583.583V4.65c0 .323.262.584.583.584m5.616 1.621 1.226-1.225a.58.58 0 0 0 0-.818.58.58 0 0 0-.818 0l-1.226 1.225a.58.58 0 0 0 0 .818.576.576 0 0 0 .818 0m3.138 4.214h-1.75a.58.58 0 0 0-.584.584c0 .324.26.584.583.584h1.751a.584.584 0 1 0 0-1.167m-3.389 5.124a.584.584 0 0 0-.825.825l1.238 1.238a.584.584 0 0 0 .825-.826zm-5.365-9.795a5.256 5.256 0 0 0-5.257 5.258 5.256 5.256 0 0 0 5.257 5.257 5.256 5.256 0 0 0 5.257-5.257 5.256 5.256 0 0 0-5.257-5.258m0 11.675a.58.58 0 0 0-.583.583v1.751a.582.582 0 1 0 1.167 0v-1.75a.584.584 0 0 0-.584-.584"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" viewBox="0 0 19 19" class="rp-switch-appearance__icon rp-switch-appearance__icon--moon"><path fill="currentColor" d="M9.166 0a9.2 9.2 0 0 1 1.857.188.834.834 0 0 1 .042 1.623 4.47 4.47 0 1 0 5.457 5.457l.048-.135a.834.834 0 0 1 1.575.177q.186.902.188 1.856A9.168 9.168 0 1 1 9.166 0"></path></svg></div><div class="rp-social-links"><a href="https://github.com/RainPPR" target="_blank" rel="noopener noreferrer" class="rp-social-links__item"><div class="rp-social-links__icon"><div class="rp-social-links__icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12c0 5.303 3.438 9.8 8.205 11.385c.6.113.82-.258.82-.577c0-.285-.01-1.04-.015-2.04c-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729c1.205.084 1.838 1.236 1.838 1.236c1.07 1.835 2.809 1.305 3.495.998c.108-.776.417-1.305.76-1.605c-2.665-.3-5.466-1.332-5.466-5.93c0-1.31.465-2.38 1.235-3.22c-.135-.303-.54-1.523.105-3.176c0 0 1.005-.322 3.3 1.23c.96-.267 1.98-.399 3-.405c1.02.006 2.04.138 3 .405c2.28-1.552 3.285-1.23 3.285-1.23c.645 1.653.24 2.873.12 3.176c.765.84 1.23 1.91 1.23 3.22c0 4.61-2.805 5.625-5.475 5.92c.42.36.81 1.096.81 2.22c0 1.606-.015 2.896-.015 3.286c0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></div></div></a><a href="https://x.com/rainppr2008" target="_blank" rel="noopener noreferrer" class="rp-social-links__item"><div class="rp-social-links__icon"><div class="rp-social-links__icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584l-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></div></div></a><ul class="rp-hover-group rp-hover-group--hidden rp-hover-group--right"></ul></div></div><button aria-label="mobile hamburger" class="rp-nav-hamburger rp-nav-hamburger__sm"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="none" viewBox="0 0 21 21"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667" d="M3.645 5.225h13.333M3.645 10.225h13.333M3.645 15.225h13.333"></path></svg></button><button aria-label="mobile hamburger" class="rp-nav-hamburger rp-nav-hamburger__md"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="none" viewBox="0 0 21 21"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667" d="M3.645 5.225h13.333M3.645 10.225h13.333M3.645 15.225h13.333"></path></svg><ul class="rp-hover-group rp-hover-group--hidden rp-hover-group--right"><div class="rp-nav-menu__others-mobile__container"><div class="rp-nav-hamburger__md__hover-group"><div class="rp-nav-screen-appearance"><div class="rp-nav-screen-appearance__left">主题</div><div class="rp-nav-screen-appearance__right"></div></div><div class="rp-nav-screen-divider"></div><div class="rp-social-links"><a href="https://github.com/RainPPR" target="_blank" rel="noopener noreferrer" class="rp-social-links__item"><div class="rp-social-links__icon"><div class="rp-social-links__icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12c0 5.303 3.438 9.8 8.205 11.385c.6.113.82-.258.82-.577c0-.285-.01-1.04-.015-2.04c-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729c1.205.084 1.838 1.236 1.838 1.236c1.07 1.835 2.809 1.305 3.495.998c.108-.776.417-1.305.76-1.605c-2.665-.3-5.466-1.332-5.466-5.93c0-1.31.465-2.38 1.235-3.22c-.135-.303-.54-1.523.105-3.176c0 0 1.005-.322 3.3 1.23c.96-.267 1.98-.399 3-.405c1.02.006 2.04.138 3 .405c2.28-1.552 3.285-1.23 3.285-1.23c.645 1.653.24 2.873.12 3.176c.765.84 1.23 1.91 1.23 3.22c0 4.61-2.805 5.625-5.475 5.92c.42.36.81 1.096.81 2.22c0 1.606-.015 2.896-.015 3.286c0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></div></div></a><a href="https://x.com/rainppr2008" target="_blank" rel="noopener noreferrer" class="rp-social-links__item"><div class="rp-social-links__icon"><div class="rp-social-links__icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584l-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></div></div></a><ul class="rp-hover-group rp-hover-group--hidden rp-hover-group--right"></ul></div></div></div></ul></button></div></header><div class="rp-doc-layout__menu"><div class="rp-sidebar-menu"><button type="button" class="rp-sidebar-menu__left"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M4 6h24v2H4zm0 18h24v2H4zm0-12h24v2H4zm0 6h24v2H4z"></path></svg><span>菜单</span></button><button type="button" class="rp-sidebar-menu__right"><span class="rp-sidebar-menu__right__text">目录</span><svg width="14" height="14" class="rp-progress-circle"><circle cx="7" cy="7" r="6" stroke-linecap="round" fill="none" stroke="var(--rp-c-divider-light)" stroke-width="2"></circle><circle cx="7" cy="7" r="6" stroke-linecap="round" fill="none" stroke="var(--rp-c-brand)" stroke-width="2" stroke-dasharray="37.69911184307752" stroke-dashoffset="37.69911184307752" transform="rotate(-90 7 7)" style="transition:stroke-dashoffset 0.3s"></circle></svg><svg width="1em" height="1em" viewBox="0 0 32 32" class="rp-sidebar-menu__right__icon" style="transform:rotate(0deg);transition:transform 0.2s ease-out"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></button></div></div><div class="rp-doc-layout__container"><aside class="rp-doc-layout__sidebar rp-scrollbar"><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>数系与公理系统</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/mathematics/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/mathematics/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/mathematics/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>函数极限微积分</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/function/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/function/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/function/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/function/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/function/5.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>5</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>多项式与不等式</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/polynomial/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/polynomial/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/polynomial/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/polynomial/4.html" class="rp-sidebar-item rp-sidebar-item--active rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/polynomial/5.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>5</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>数列与离散数学</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/sequence/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/sequence/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/sequence/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/sequence/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>组合与概率统计</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/probability/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/probability/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/probability/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/probability/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>数论与算法初步</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/number/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/number/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/number/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>三角与平面几何</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/plane/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/plane/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/plane/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/plane/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/plane/5.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>5</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>解析几何与圆曲</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/geometry/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/geometry/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/geometry/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/geometry/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/geometry/5.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>5</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>空间与立体几何</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/solid/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/solid/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/solid/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>运动与物理方法</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/kinematics/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/kinematics/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/kinematics/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/kinematics/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/kinematics/5.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>5</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>力学与天体力学</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/mechanics/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/mechanics/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/mechanics/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/mechanics/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/mechanics/5.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>5</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/mechanics/6.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>6</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/mechanics/7.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>7</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>电路学与电化学</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/circuitry/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/circuitry/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/circuitry/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/circuitry/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>电磁场与电磁波</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/electromagnetism/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/electromagnetism/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/electromagnetism/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/electromagnetism/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/electromagnetism/5.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>5</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/electromagnetism/6.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>6</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>热学与近代物理</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/modern/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/modern/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/modern/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/modern/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>计量与结构化学</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/structure/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/structure/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/structure/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/structure/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>元素与物质性质</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/element.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>element</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/element/na.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>na</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/element/mg.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>mg</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/element/al.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>al</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/element/si.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>si</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/element/n.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>n</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/element/s.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>s</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/element/cl.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>cl</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/element/fe.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>fe</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>反应速率与平衡</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/reaction/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/reaction/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/reaction/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>有机化学与合成</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/organic/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/organic/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/organic/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/organic/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/organic/5.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>5</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>细胞与细胞工程</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/cell/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/cell/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/cell/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/cell/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>遗传与基因工程</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/genetics/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/genetics/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/genetics/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/genetics/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>生化实验与应用</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/experiment/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/experiment/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/experiment/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>人体结构与功能</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/human/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/human/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/human/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/human/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/human/5.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>5</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/human/6.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>6</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/human/7.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>7</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/human/8.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>8</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/human/9.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>9</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>物种与生物概述</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/species/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/species/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/species/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/species/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>生态学与地理学</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/nature/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/nature/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/nature/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/nature/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div></aside><div class="rp-doc-layout__doc"><main class="rp-doc-layout__doc-container"><div class="rp-doc rspress-doc"><!--$--><h1 class="rp-toc-include" id="_1"><a href="#_1" class="rp-header-anchor rp-link" aria-hidden="true">#</a>导数不等式<!-- --> </h1>
+<span data-dark="false" class="rp-reading-time">预计阅读时间: 34 分钟</span>
+<p><img alt="alt text" src="/static/image/image.a41bea10f9.avif"/></p>
+<p><img alt="alt text" src="/static/image/image-1.d954c97de7.avif"/></p>
+<h2 class="rp-toc-include" id="_2"><a href="#_2" class="rp-header-anchor rp-link" aria-hidden="true">#</a>导数方法</h2>
+<h3 class="rp-toc-include" id="_3"><a href="#_3" class="rp-header-anchor rp-link" aria-hidden="true">#</a>不等式方法</h3>
+<p>求证不等式的方法有几种，最简单的是：</p>
+<ul>
+<li>
+<p>设函数，证明函数恒大于或小于零。</p>
+</li>
+<li>
+<p>直接对函数求导，尝试证明函数最小值大于零，或最大值小于零。</p>
+</li>
+<li>
+<p>注意到多项式只要求够多次数多导数，一定会变为零，因此如果不好解决，继续求导，对高阶导数尝试分析其是否恒正或恒负。</p>
+</li>
+</ul>
+<p>注意：</p>
+<ul>
+<li>
+<p>解一元一次不等式 $ax&gt;b$，需要按照 $a&gt;0,a=0,a&lt;0$ 分类讨论。</p>
+</li>
+<li>
+<p>解一元一次不等式 $ax&gt;b$，其中 $x\in[m,n$，先按照 $a&gt;0,a=0,a&lt;0$ 分类讨论，然后按照 $dfrac{b}{a}$ 是否落在区间 $m,n$ 内。</p>
+</li>
+</ul>
+<p>边界条件：</p>
+<ol>
+<li>
+<p>二次项系数不含参数且自变量没有限制时，临界条件是 $Delta = 0$。</p>
+</li>
+<li>
+<p>二次项系数含有参数且自变量没有限制时，临界条件是二次项系数为零与 $Delta = 0$ 联立。</p>
+</li>
+<li>
+<p>二次项系数含参数且自变量有限制时，临界条件是二次项系数为零，$Delta = 0$ 与区间端点处的函数值为零同时联立。</p>
+</li>
+</ol>
+<p>对于更复杂的情况，一般步骤如下：</p>
+<ul>
+<li>
+<p>能否直接求导解决。</p>
+</li>
+<li>
+<p>能否通过常见变形（本文简单变形部分）后求导。</p>
+</li>
+<li>
+<p>能否通过隐零点判断。</p>
+</li>
+<li>
+<p>能否使用放缩技巧。</p>
+</li>
+</ul>
+<p>变形法：</p>
+<ul>
+<li>
+<p>除以单项式变形（$x^n$）。</p>
+</li>
+<li>
+<p>整体代换、同构化变形、拆分函数、局部求值。</p>
+</li>
+<li>
+<p>对数化：对数化是利用对数性质，将函数式中的对数与常数合并，再使用相关不等式进行放缩。例如：</p>
+<p>$$
+\ln x+a=\ln(xe^a)。
+$$</p>
+</li>
+<li>
+<p>指数化：指数化是利用指数性质，将式子或者参数转移到指数位置上，以方便放缩。例如：</p>
+<p>$$
+xe^x=e^{x+\ln x},(x&gt;0)，a^x=e^{\ln a^x}=e^{x\ln a}。
+$$</p>
+</li>
+</ul>
+<h3 class="rp-toc-include" id="_4"><a href="#_4" class="rp-header-anchor rp-link" aria-hidden="true">#</a>简单不等式</h3>
+<p>$$
+\boxed{e^x\ge x+1,\quad x\in\R}\tag a
+$$</p>
+<p>证明：设 $f(x)=e^x-x-1$，那么：</p>
+<p>$$
+f&#x27;(x)=e^x-1
+$$</p>
+<p>因此，当 $x&gt;0$ 时，$f&#x27;(x)&gt;0$；当 $x&lt;0$ 时 $f&#x27;(x)&lt;0$，因此：</p>
+<p>$$
+f(x)\ge f(0)=0
+$$</p>
+<p>即 $e^x\ge x+1$，带入 $x\gets\ln x$ 有：</p>
+<p>$$
+\boxed{x\ge\ln x+1,\quad x&gt;0}\tag b
+$$</p>
+<p>三角函数也有一些不等式：</p>
+<p>$$
+\boxed{\sin x&lt;x,\quad x&gt;0}\tag c
+$$</p>
+<p>证明：设 $f(x)=x-\sin x$，那么 $f&#x27;(x)=1-\cos x\ge0$。</p>
+<p>所以 $f(x$ 在 $0,\infty$ 上单调递增，$f(x)&gt;f(0)=0$ 即 $x&gt;\sin x$。</p>
+<p>$$
+\boxed{x&lt;\tan x,\quad x\in(0,\pi/2)}\tag d
+$$</p>
+<p>证明：令 $f(x)=\tan x-x$，则</p>
+<p>$$
+f&#x27;(x)=\dfrac{1}{\cos^2 x}-1&gt;0
+$$</p>
+<p>所以 $f(x$ 在 $0,\pi/2$ 上单调递增，$f(x)&gt;f(0)=0$ 即 $tan x&gt;x$。</p>
+<p>我们由 $ln x\le x-1$ 可以推导出来一下几个基本不等式：</p>
+<p>$$
+\ln(x+1)\le x; \quad \ln\dfrac{1}{x}\ge1-x; \quad \ln x\ge1-\dfrac{1}{x}; \quad x\ln x\ge x-1
+$$</p>
+<p>其中最常用的不等式链为：</p>
+<p>$$
+\dfrac{x}{x+1}\le\ln(x+1)\le x
+$$</p>
+<p>$$
+1-\dfrac{1}{x}\le\ln x\le x-1
+$$</p>
+<h3 class="rp-toc-include" id="_5"><a href="#_5" class="rp-header-anchor rp-link" aria-hidden="true">#</a>一元不等式</h3>
+<p>我们经常见到这种形式的式子：</p>
+<p>$$
+f&#x27;(x)+p(x)f(x)=q(x)
+$$</p>
+<p>其中 $p(x),q(x$ 是关于 $x$ 的式子，这称为一阶线性微分方程。</p>
+<p>我们更常见到的是不等式的形式：</p>
+<p>$$
+f&#x27;(x)+p(x)f(x)&gt;q(x)
+$$</p>
+<p>我们先简单说一下简单的微分方程怎么解，我们将式子最终化为：</p>
+<p>$$
+u(x)\d x=v(y)\d y
+$$</p>
+<p>然后两边求积分，化简即可。</p>
+<div class="rp-callout rp-callout--note"><div class="rp-callout__title">Note</div><div class="rp-callout__content"><p>$p(x)=0$</p><p>我们考虑一个比较简单的形式，$p(x)=0$，即</p><p>$$
+f&#x27;(x)=q(x)
+$$</p><p>记 $Q&#x27;(x)=q(x$，则：</p><ul>
+<li>
+<p>若符号为 $=$，则 $f(x)=Q(x)+C$。</p>
+</li>
+<li>
+<p>若符号为 $&gt;$，则 $f(x)-[Q(x)+C$ 单调递增。</p>
+</li>
+</ul></div></div>
+<div class="rp-callout rp-callout--note"><div class="rp-callout__title">Note</div><div class="rp-callout__content"><p>$q(x)=0$</p><p>我们考虑一个比较简单的形式，$q(x)=0$，即</p><p>$$
+f&#x27;(x)+p(x)f(x)=0
+$$</p><p>我们有一个固定的解题方法，但是我们先推导一番，设 $P&#x27;(x)=p(x$。</p><p>$$
+\dfrac{\d y}{\d x}+p(x)y=0
+$$</p><p>按照微分方程的思路，</p><p>$$
+\ln y=-P(x)+C
+$$</p><p>即：</p><p>$$
+f(x)=e^{-P(x)+C}
+$$</p><p>移项，构造函数 $g(x$：</p><p>$$
+g(x)=e^{P(x)}f(x)=e^C
+$$</p><p>具体的，对于 $q(x)=0$ 的等式或不等式，我们两边同时乘以 $e^{P(x)}$，即：</p><p>$$
+\begin{aligned} e^{P(x)}[f&#x27;(x)+p(x)f(x)]&amp;=0\ [e^{P(x)}f(x)]&#x27;&amp;=0 \end{aligned}
+$$</p><p>即 $f(x)=Ce^{-P(x)}$，而对于不等式即为 $e^{P(x)}f(x$ 单调递增。</p></div></div>
+<p>例题：已知函数 $f(x$ 是定义在 $mathbb{R}$ 上的函数，且满足 $f&#x27;(x) + f(x) &gt; 0$，设 $a = f(0$，$b = 2f(\ln 2$，$c = ef(1$，则 $a, b, c$ 的大小关系是？</p>
+<p>令 $g(x) = e^x f(x$，则 $g&#x27;(x) = e^x[f&#x27;(x) + f(x)] &gt; 0$，即 $g(x$ 递增，因为 $a = g(0$，$b = g(\ln 2$，$c = g(1$，由 $g(x$ 的单调性可知 $g(0) &lt; g(\ln 2) &lt; g(1$，即 $c &gt; b &gt; a$。</p>
+<h3 class="rp-toc-include" id="_6"><a href="#_6" class="rp-header-anchor rp-link" aria-hidden="true">#</a>二元不等式</h3>
+<p>二元不等式，首选方案是将两个未知数用一个未知数表示，最常见的是两个次数相等的齐次式相除，用比值还原，将二元不等式转化为一元后，就可以求导解决了。</p>
+<p>$$
+\boxed{\sqrt{x_1x_2}&lt;\dfrac{x_2-x_1}{\ln x_2-\ln x_1},\quad x_1,x_2&gt;0}\tag e
+$$</p>
+<p>证明，不放假设 $x_2&gt;x_1$，则化简式子为：</p>
+<p>$$
+\ln x_2-\ln x_1&lt;\dfrac{x_2-x_1}{\sqrt{x_1x_2}}
+$$</p>
+<p>设 $t=\sqrt{x_2/x_1}&gt;1$，则：</p>
+<p>$$
+\begin{aligned} \text{LHS}&amp;=\ln t^2=2\ln t\ \text{RHS}&amp;=\dfrac{t^2-1}{t}=t-\dfrac{1}{t} \end{aligned}
+$$</p>
+<p>令 $f(t)=t-\dfrac{1}{t}-2\ln t$，则：</p>
+<p>$$
+f&#x27;(t)=1+\dfrac{1}{t^2}-\dfrac{2}{t}=\left(1-\dfrac{1}{t}\right)^2&gt;0
+$$</p>
+<p>而这个也是一个不等式，</p>
+<p>$$
+\boxed{\ln x&lt;\sqrt{x}-\dfrac{1}{\sqrt{x}},\quad x&gt;1}\tag{f$_1$}
+$$</p>
+<p>$$
+\boxed{\ln x&lt;\dfrac{1}{2}\left(x-\dfrac1x\right),\quad x&gt;1}\tag{f$_2$}
+$$</p>
+<p>因此 $f(t)&gt;f(1)=0$，这个也成为对数均值不等式：</p>
+<p>$$
+\sqrt{x_1x_2}&lt;\boxed{\dfrac{x_2-x_1}{\ln x_2-\ln x_1}&lt;\dfrac{x_1+x_2}{2},\quad x_1,x_2&gt;0}\tag g
+$$</p>
+<p>带入指数形式，替换 $a\gets e^x,b\gets e^y$，得：</p>
+<p>$$
+\boxed{\dfrac{e^x-e^y}{x-y}&lt;\dfrac{e^x+e^y}{2}}\tag h
+$$</p>
+<p>另外，还可以用韦达定理中的 $x_2+x_2=-\dfrac{b}{a}$ 或 $x_1x_2=\dfrac{c}{a}$ 关系将双变量问题转化为单变量问题。</p>
+<p>另外，还有推导：</p>
+<p>$$
+\boxed{\ln^2(x+1)&lt;\dfrac{x^2}{x+1},\quad x&gt;0}
+$$</p>
+<p>二元不等式的证明中，更加常用到齐次化的策略，常见的有：</p>
+<p>$$
+e^{x_1+x_2}=e^{x_1}e^{x_2}
+$$</p>
+<p>$$
+e^{x_1-x_2}=\dfrac{e^{x_1}}{e^{x_2}}
+$$</p>
+<p>$$
+\ln(x_1x_2)=\ln x_1+\ln x_2
+$$</p>
+<p>$$
+\ln\dfrac{x_1}{x_2}=\ln x_1-\ln x_2
+$$</p>
+<p>$$
+\sin^2x+\cos^2x=0
+$$</p>
+<h3 class="rp-toc-include" id="_7"><a href="#_7" class="rp-header-anchor rp-link" aria-hidden="true">#</a>数字不等式</h3>
+<p>常用方法：</p>
+<ul>
+<li>
+<p>构造函数。</p>
+</li>
+<li>
+<p>对于有指数的，取对数。</p>
+</li>
+</ul>
+<p>将 $e^3,3^e,e^\pi,\pi^e,3^\pi,\pi^3$ 按照从小到大都顺序排列。</p>
+<p>构造函数：</p>
+<p>$$
+f(x)=\dfrac{\ln x}{x}
+$$</p>
+<p>求导得出</p>
+<p>$$
+f&#x27;(x)=\dfrac{1-\ln x}{x^2}
+$$</p>
+<p>容易知道在 $e,+\infty$ 上 $f(x$ 是单调递减的。</p>
+<p>我们知道：</p>
+<p>$$
+e&lt;3&lt;\pi
+$$</p>
+<p>因此</p>
+<p>$$
+\dfrac{\ln\pi}{\pi}&lt;\dfrac{\ln3}{3}&lt;\dfrac{\ln e}{e}
+$$</p>
+<p>可以得到三组不等式</p>
+<p>$$
+\begin{cases} \pi^3&amp;&lt;3^\pi\ \pi^e&amp;&lt;e^\pi\ 3^e&amp;&lt;e^3 \end{cases}
+$$</p>
+<p>现在我们可以得到下面的（用括号表示两个暂不知道大小关系）</p>
+<p>$$
+3^e&lt;(\pi^e,e^3)&lt;(\pi^3,e^\pi)&lt;3^\pi
+$$</p>
+<p>证法一：当 $x&gt;0$ 且 $x\neq1$ 时，有不等式</p>
+<p>$$
+\ln x&gt;1-\frac{1}{x}
+$$</p>
+<p>从而：</p>
+<p>$$
+\pi-3\ln\pi=\pi-3\ln\frac{\pi}{e}-3&lt;\pi-3\left(1-\frac{e}{\pi}\right)-3=\frac{\pi^2-6\pi+3e}{\pi}&lt;0
+$$</p>
+<p>$$
+3-e\ln\pi=3-e\ln\frac{\pi}{e}-e&lt;3-e\left(1-\frac{e}{\pi}\right)-e=\frac{3\pi-2e\pi+e^2}{\pi}&lt;0
+$$</p>
+<p>证法二：当 $0&lt;x&lt;e$ 时，有不等式</p>
+<p>$$
+\ln x&lt;\frac{x}{e}
+$$</p>
+<p>从而：</p>
+<p>$$
+\pi-3\ln\pi=\pi+3\ln\frac{e^2}{\pi}-6&lt;\pi+\frac{3e}{\pi}-6=\frac{\pi^2+3e-6\pi}{\pi}&lt;0
+$$</p>
+<p>$$
+3-e\ln\pi=3+e\ln\frac{e^2}{\pi}-2e&lt;3+\frac{e^2}{\pi}-2e=\frac{3\pi-2e\pi+e^2}{\pi}&lt;0
+$$</p>
+<p>证明：</p>
+<p>$$
+\left(\frac{6}{5}\right)^{\sqrt{3}}&gt;\left(\frac{5}{4}\right)^{\sqrt{2}}
+$$</p>
+<p>我们两边取对数，构造函数</p>
+<p>$$
+f(x)=\frac{\sqrt{x}\ln x}{x-1},x&gt;1
+$$</p>
+<p>去导数，计算可能有一点复杂：</p>
+<p>$$
+f&#x27;(x)=\frac{x+1}{2\sqrt{x}(x-1)^2}\cdot\left[\frac{2(x-1)}{x+1}-\ln x\right]&lt;0
+$$</p>
+<p>故 $f(x$ 单调递减，因此有</p>
+<p>$$
+f\left(\frac{6}{5}\right)&gt;f\left(\frac{5}{4}\right)
+$$</p>
+<p>得证。</p>
+<h2 class="rp-toc-include" id="_8"><a href="#_8" class="rp-header-anchor rp-link" aria-hidden="true">#</a>恒成立问题</h2>
+<h3 class="rp-toc-include" id="_9"><a href="#_9" class="rp-header-anchor rp-link" aria-hidden="true">#</a>函数模型</h3>
+<p>简单的恒成立问题：</p>
+<ul>
+<li>
+<p>$f(x)\ge0$ 在定义域内恒成立 $iff f(x)_{\min}\ge0$。</p>
+</li>
+<li>
+<p>$f(x)\le0$ 在定义域内恒成立 $iff f(x)_{\max}\le0$。</p>
+</li>
+</ul>
+<p>对于任何单调函数，最值必在端点处取到：</p>
+<ul>
+<li>
+<p>单调函数 $f(x)\ge0$ 在 $x_1,x_2$ 上恒成立等价于 $begin{cases}f(x_1)&amp;\ge0\ f(x_2)&amp;\ge0\end{cases}$。</p>
+</li>
+<li>
+<p>单调函数 $f(x)\le0$ 在 $x_1,x_2$ 上恒成立等价于 $begin{cases}f(x_1)&amp;\le0\ f(x_2)&amp;\le0\end{cases}$。</p>
+</li>
+</ul>
+<p>对任何一个函数 $f(x$，若它在区间上是先减后增，则其最大值必在端点处取得，同理可得若函数在区间上先增后减，其最小值必在区间端点处取得：</p>
+<ul>
+<li>
+<p>若 $a &gt; 0$，则 $f(x) = ax^2 + bx + c \le 0$ 在 $x_1, x_2$ 上恒成立等价于 $begin{cases}f(x_1)&amp;\le0\ f(x_2)&amp;\le0\end{cases}$。</p>
+</li>
+<li>
+<p>若 $a &lt; 0$，则 $f(x) = ax^2 + bx + c \ge 0$ 在 $x_1, x_2$ 上恒成立等价于 $begin{cases}f(x_1)&amp;\ge0\ f(x_2)&amp;\ge0\end{cases}$。</p>
+</li>
+</ul>
+<p>二次函数恒正、恒负的等价条件：</p>
+<ol>
+<li>
+<p>对一切实数 $x$，$ax^2 + bx + c \ge 0$ 恒成立的条件是：</p>
+<p>$$
+\begin{cases} a &amp;&gt; 0 \ \Delta &amp;\le 0 \end{cases}
+$$</p>
+</li>
+<li>
+<p>对一切实数 $x$，$ax^2 + bx + c \le 0$ 恒成立的条件是：</p>
+<p>$$
+\begin{cases} a &amp;&lt; 0 \ \Delta &amp;\le 0 \end{cases}
+$$</p>
+</li>
+</ol>
+<p>绝对值函数：</p>
+<ul>
+<li>
+<p>函数 $f(x)=|ax+b|$ 在 $x_1,x_2$ 上的最大值必在端点处取到。</p>
+</li>
+<li>
+<p>对于内部不是一次函数的，可以设处二次函数为 $u$，利用换元法解决，例如：</p>
+<p>已知 $t$ 为常数，函数 $y=|x^2-2x-t|$ 在区间 $0,3$ 上的最大值为 $2$，则 $t=$？</p>
+<p>令 $u=x^2-2x\in[-1,3$，则问题转化为求 $t$ 大取值范围使得 $|u-t|$ 在 $-1,3$ 上的最大值为 $2$。</p>
+<p>若最大值在 $u=-1$ 取到，解得 $t=1$；若最大值在 $u=3$ 取到，解得 $t=1$。故 $t=1$。</p>
+</li>
+</ul>
+<h3 class="rp-toc-include" id="_10"><a href="#_10" class="rp-header-anchor rp-link" aria-hidden="true">#</a>共零点法</h3>
+<p>对于含参恒成立问题</p>
+<p>$$
+f(x)g(x)\ge0
+$$</p>
+<p>容易知道，我们只需要让两个函数处处异号（或为零）即可。</p>
+<p>首先验证当 $x$ 趋近于正负无穷是否满足，然后就可以令 $f,g$ 零点重合即可。</p>
+<h3 class="rp-toc-include" id="_11"><a href="#_11" class="rp-header-anchor rp-link" aria-hidden="true">#</a>参变分离法</h3>
+<p>参变分离，即为将参数和变量分开，使不等式一边只有参数，另一边只含有变量，可以进行参变分离的一定是显式的。</p>
+<p><strong>例题</strong>：已知 $y = xe^x + x^2 + 2x + a$ 恰有两个不同的零点，则 $a$ 的取值范围为。</p>
+<p><strong>答案</strong>：由题意方程 $xe^x + x^2 + 2x + a = 0$ 有两个不同的实根，分离参数 $-a = xe^x + x^2 + 2x$。令 $f(x) = xe^x + x^2 + 2x$，则函数 $f(x$ 的定义域为 $mathbb{R}$，求导</p>
+<p>$$
+f&#x27;(x) = (x+1)(e^x + 2)
+$$</p>
+<p>当 $x &lt; -1$ 时，$f&#x27;(x) &lt; 0$，$f(x$ 单调递减；当 $x &gt; -1$ 时，$f&#x27;(x) &gt; 0$，$f(x$ 单调递增，所以函数 $f(x$ 在 $x = -1$ 处取得极小值：</p>
+<p>$$
+f(-1) = -\dfrac{1}{e} - 1
+$$</p>
+<p>从而作出函数 $f(x$ 的图像，则 $-a &gt; -\dfrac{1}{e} - 1$ 时，函数 $y = f(x$ 的图像与直线 $y = -a$ 有两个交点，所以</p>
+<p>$$
+a &lt; \dfrac{1}{e} + 1
+$$</p>
+<p><strong>例题</strong>：已知函数 $f(x) = x(\ln x - ax$ 有两个极值点，则实数 $a$ 的取值范围为。</p>
+<p><strong>答案</strong>：函数 $f(x$ 的定义域为 $x &gt; 0$，由题意 $f&#x27;(x) = \ln x - 2ax + 1$ 有两个零点，分离参数</p>
+<p>$$
+2a = \dfrac{\ln x + 1}{x}=g(x)
+$$</p>
+<p>$$
+g&#x27;(x) = \dfrac{1 - \ln x - 1}{x^2} = \dfrac{-\ln x}{x^2}
+$$</p>
+<p>当 $0 &lt; x &lt; 1$ 时，$g&#x27;(x) &gt; 0$，$g(x$ 单调递增；当 $x &gt; 1$ 时，$g&#x27;(x) &lt; 0$，$g(x$ 单调递减，所以函数 $g(x$ 在 $x = 1$ 处取得极大值 $g(1) = 1$。</p>
+<p>当 $x \to +\infty$ 时，$g(x) \to 0$；当 $x \to 0$ 时，$g(x) \to -\infty$。当 $0 &lt; 2a &lt; 1$，即 $0 &lt; a &lt; \dfrac{1}{2}$ 时，直线 $y = 2a$ 与 $y = g(x$ 的图像有两个交点。</p>
+<p>我们这一节的内容是恒成立问题，参变分离解决恒成立问题通常更加简单，直接把参数挪到一边，然后对另一边应用函数模型即可。</p>
+<p>解决这类问题的方法分为三种，带着参数讨论、参变分离和半分参，下面讲解一下半分参。半分参的技巧性比较强，下面只介绍几种最经典的。</p>
+<div class="rp-callout rp-callout--note"><div class="rp-callout__title">Note</div><div class="rp-callout__content"><p>例题</p><p>若 $f(x) = e^x - ax + 2a &gt; 0$ 恒成立，求 $a$ 的取值范围。</p><p>我们进行化简：</p><p>$$
+e^x &gt; a(x-2)
+$$</p><p>我们发现此时如果进行参变分离，就要讨论 $x-2$
+的符号，我们知道我们应当避免讨论自变量的符号，而应当讨论参数的符号（因为这也能帮我们确定参数的取值范围）。</p><p>![alt text](../desmos-graph (3).svg){width=&quot;50%&quot;}</p><p>因此我们令 $g(x)=e^x$，$h(x)=a(x-2$。</p><ul>
+<li>
+<p>当 $a&lt;0$ 时，$g(x)&gt;h(x$ 不恒成立。</p>
+</li>
+<li>
+<p>当 $a=0$ 时 $e^x&gt;0$ 恒成立。</p>
+</li>
+<li>
+<p>当 $a&gt;0$ 时：设 $g(x$ 与 $h(x$ 相切于点 $x_0,e^{x_0}$，此时直线 $h(x$
+的斜率 $a_0$ 就应当等于曲线在该点的切线斜率</p>
+<p>$$
+a_0=e^{x_0}
+$$</p>
+<p>根据斜率，写出：</p>
+<p>$$
+\dfrac{e^{x_0}}{x_0-2}=e^{x_0}
+$$</p>
+<p>解得 $x_0=3$，则 $a_0=e^{x_0}=e^3$。</p>
+</li>
+</ul><p>综上，$a\in [0, e^3$。</p></div></div>
+<p>在半分参中，通常是一条直线和一条曲线，除非两条曲线是非常经典且简单的形式，这也可以用于预判是否可以使用半分参。</p>
+<h3 class="rp-toc-include" id="_12"><a href="#_12" class="rp-header-anchor rp-link" aria-hidden="true">#</a>简单变形法</h3>
+<p>复杂的恒成立问题，优先考虑求导数的零点，如果很难求解，则通过下面两个方法：</p>
+<ul>
+<li>
+<p>与指数相关的恒成立问题，如果很难求导数的零点，则优先考虑将函数变形为 $e^xf(x$ 或 $e^{-x}f(x$ 的形式。</p>
+</li>
+<li>
+<p>与对数相关的恒成立问题，如果很难求导数的零点，则优先考虑将函数变形为 $f(x) + \ln g(x$ 的形式。其思想精髓是将对数与其他函数分离，达到求导后可以摆脱对数的干扰。除了 $f(x) + \ln g(x$ 这种形式外，还有一种形式，求导后可以&quot;甩掉&quot;对数。</p>
+<p>$$
+f(x)(\ln f(x) + C)
+$$</p>
+<p>求导后的结果是：</p>
+<p>$$
+f&#x27;(x)(\ln f(x) + C + 1)，
+$$</p>
+<p>其中 $C$ 为常数。显然其导数的零点与对数函数也无关。</p>
+<p>因此，与对数函数相关的函数题中，首先考虑将函数变形为 $f(x) + \ln g(x$ 或 $f(x)(\ln f(x) + C$ 的形式。</p>
+</li>
+<li>
+<p>不要一看到指数函数就想变形，因为某些与指数函数相关的问题就不需要变形也能求其极值点。</p>
+</li>
+<li>
+<p>如果问题是让你求函数 $f(x$ 的最值、极值或者单调性之类的，则无论如何也<strong>不能变形</strong>，因为这会导致<strong>变形后的问题与原问题不等价</strong>。</p>
+</li>
+</ul>
+<p>例如如果要求</p>
+<p>$$
+e^x+ax^2-x\ge\dfrac{1}{2}x^3+1
+$$</p>
+<p>在 $x\ge0$ 恒成立，不妨移项得到</p>
+<p>$$
+e^x\ge\dfrac{1}{2}x^3-ax^2+x+1
+$$</p>
+<p>再把 $e^x$ 除过去，得到</p>
+<p>$$
+\left{\dfrac{\dfrac{1}{2}x^3-ax^2+x+1}{e^x}\right}_{\max}\le1
+$$</p>
+<p>恒成立，再用端点效应必要性探路即可解决。</p>
+<h3 class="rp-toc-include" id="_13"><a href="#_13" class="rp-header-anchor rp-link" aria-hidden="true">#</a>必要性探路</h3>
+<p>一种解题方法，可应用于一类带参数的恒成立问题。求参数范围时，从满足题意的自变量范围内选择一个数，代入求得一个参数范围，此时这个范围是题意的必要条件。之后再设法证明该必要条件也是题意的充分条件，或者讨论别的点。若充分性也成立，则该范围是题意的充要条件，即为所求的范围。这种方法需从逻辑条件上进行理解，因为先得到的是必要条件，故称为必要探路法。</p>
+<p>最常见的必要性探路为端点效应：我们把通过端点来缩小参数取值范围的方法称为端点效应，其思想是通过端点来缩小参数的取值范围。注意，端点效应只是缩小参数的取值范围，也就是说该范围只是恒成立的---个必要条件，而非充分条件。</p>
+<p>利用端点效应解题的基本步骤如下：</p>
+<ol>
+<li>首先由端点效应初步获得参数的取值范围，这个范围是必要的。</li>
+<li>然后利用这个范围来判断函数是否单调。</li>
+<li>如果函数单调，则由端点得到的范围就是最终答案；如果函数不单调，则再利用端点确定的范围进一步确定函数的最值。</li>
+</ol>
+<p>具体的：</p>
+<ol>
+<li>
+<p>若 $f(x) \ge 0$ 在 $a, b$ 上恒成立，则由端点效应可知 $begin{cases}f(a) \ge 0\ f(b) \ge 0\end{cases}$。</p>
+</li>
+<li>
+<p>若 $f(x) &gt; 0$ 在 $a, b$ 上恒成立，则由端点效应可知 $begin{cases}f(a) &gt; 0\ f(b) &gt; 0\end{cases}$。</p>
+</li>
+<li>
+<p>若 $f(x) \ge 0$ 在 $a, b$ 上恒成立，则由端点效应可知 $begin{cases}f(a) \ge 0\ f(b) \ge 0\end{cases}$。</p>
+</li>
+<li>
+<p>若 $f(x) &gt; 0$ 在 $a, b$ 上恒成立，则由端点效应可知 $begin{cases}f(a) \ge 0\ f(b) \ge 0\end{cases}$。</p>
+</li>
+</ol>
+<p>若函数 $f(x)g(x) \ge 0$ 在 $a, b$ 上恒成立，则：</p>
+<ul>
+<li>
+<p>若 $f(x$ 在 $a, b$ 恒正（恒负），则 $g(x$ 在 $a, b$ 也恒正（恒负）；</p>
+</li>
+<li>
+<p>若 $alpha$ 是 $f(x$ 的变号零点，则 $alpha$ 也是 $g(x$ 的变号零点。</p>
+</li>
+</ul>
+<p>已知 $f(x) \ge 0$ 在 $a, b$（或 $a, b$）上恒成立：</p>
+<ul>
+<li>
+<p>若 $f(a) = 0$，则 $f&#x27;(a) \ge 0$；</p>
+</li>
+<li>
+<p>若 $f(b) = 0$，则 $f&#x27;(b) \le 0$。</p>
+</li>
+</ul>
+<p>如果导数为零，我们求二阶导：</p>
+<ul>
+<li>
+<p>$f(x) \ge 0$ 在 $a, b$ 上恒成立，若 $f(a) = 0$，$f&#x27;(a) = 0$，则 $f&#x27;&#x27;(a) \ge 0$；若 $f(b) = 0$，$f&#x27;(b) = 0$，则 $f&#x27;&#x27;(b) \le 0$。</p>
+</li>
+<li>
+<p>$f(x) \ge 0$ 在 $a, b$ 上恒成立，若 $f(a) = 0$ 且 $f&#x27;(x) = g(x)h(x$，其中 $g(x) \ge 0$，则 $h(a) \ge 0$。</p>
+</li>
+</ul>
+<p>对于一小部分题目，可以直接观察使用端点效应等必要性探路，然后直接尝试证明充分性，可能直接证明。</p>
+<h3 class="rp-toc-include" id="_14"><a href="#_14" class="rp-header-anchor rp-link" aria-hidden="true">#</a>隐零点问题</h3>
+<p>考虑不等式组</p>
+<p>$$
+\begin{cases} f&#x27;(x_0) &amp;= 0 &amp;&amp;①\ f(x_0) &amp;\ge 0 &amp;&amp;②\end{cases}
+$$</p>
+<p>其中 $f&#x27;(x_0$ 和 $f(x_0$ 均含有参数 $a$。</p>
+<p>有两种方式处理上面不等式组：</p>
+<ol>
+<li>
+<p><strong>若①中的参数 $a$ 和 $x_0$ 容易分离</strong>：</p>
+<ul>
+<li>首先在①中用零点 $x_0$ 表示参数 $a$。</li>
+<li>然后代入②来确定零点 $x_0$ 的取值范围。</li>
+<li>最后利用获得的零点 $x_0$ 的范围和①确定参数 $a$ 的取值范围。</li>
+<li>既适合已知恒成立求参数范围的问题，也适用于不等式的证明。</li>
+</ul>
+</li>
+<li>
+<p><strong>若①不容易分离参数 $a$ 和 $x_0$，或分离后结构复杂</strong>：</p>
+<ul>
+<li>首先猜测方程组 $begin{cases} f&#x27;(x_0) = 0 \ f(x_0) = 0 \end{cases}$ 的解 $x_0$。</li>
+<li>然后由 $f(x_0) \ge 0$ 和端点效应解出 $a$ 的取值范围（该范围为最终的答案）。</li>
+<li>最后证明在该范围下 $f(x) \ge 0$ 恒成立。</li>
+<li>注意这个只适合已知恒成立求参数范围的问题，不适于不等式的证明。</li>
+</ul>
+</li>
+</ol>
+<p>通常来说，我们设 $x_0$ 为函数的零点，列出 $f(x_0)=0$ 和要求的条件，组成方程组解方程即可。</p>
+<p>如果函数的导数非常复杂，则考虑变换主元法：</p>
+<ol>
+<li>
+<p>首先由端点效应初步获得参数的取值范围，验证这个范围是否为最终范围；若不是，则判断函数的极值并获取参数的取值范围；</p>
+</li>
+<li>
+<p>根据主元函数的形式，判断主元函数的单调性，然后求主元函数的最值（此最值应当是一个函数），最后判断该最值函数是否满足题中的不等式。</p>
+</li>
+</ol>
+<h2 class="rp-toc-include" id="_15"><a href="#_15" class="rp-header-anchor rp-link" aria-hidden="true">#</a>不等式方法</h2>
+<h3 class="rp-toc-include" id="_16"><a href="#_16" class="rp-header-anchor rp-link" aria-hidden="true">#</a>一般放缩法</h3>
+<p>首先放缩的依据见简单不等式中的三个不等式，以及四个推导不等式。</p>
+<p>若问题没有任何第（I）问的提示且函数为指数、对数和其他幂函数的混合型，则把指数与对数分开，再平衡幂函数和指数与对数函数，使得不等式两边一边是指数，另外一边是对数，然后分别计算它们的最值。这种方法一般只适合不等式的证明！</p>
+<p>函数不等式中含有 $xe^x$ 与 $frac{e^x}{x}$ 这类固定搭配，则考虑放缩如下：</p>
+<p>$$
+\begin{aligned} xe^x &amp;= e^{x+\ln x} &amp;&amp;\ge x + \ln x + 1\ \frac{e^x}{x} &amp;= e^{x-\ln x} &amp;&amp;\ge x - \ln x + 1 \end{aligned}
+$$</p>
+<h3 class="rp-toc-include" id="_17"><a href="#_17" class="rp-header-anchor rp-link" aria-hidden="true">#</a>整体代换法</h3>
+<p>一部分导数题形式为第一问要求证明一个不等式，而在第二问就可以用这个不等式，通过整体代换的形式进行解决。</p>
+<p>例题：证明 $dfrac{e^x}{x^2}-x\ge1-2\ln x$。</p>
+<p>问题显然为：</p>
+<p>$$
+\dfrac{e^x}{x^2}\ge\ln\dfrac{e^x}{x^2}+1
+$$</p>
+<p>根据 $x\ge\ln x-1$，不等式显然。</p>
+<h3 class="rp-toc-include" id="_18"><a href="#_18" class="rp-header-anchor rp-link" aria-hidden="true">#</a>同构化构造</h3>
+<p>简单的同构化，例如 $sqrt{11}-\sqrt{10}$ 与 $sqrt{12}-\sqrt{11}$ 比大小，构造同构化函数 $f(x)=\sqrt{x}-\sqrt{x-1}$，求导解决。</p>
+<div class="rp-callout rp-callout--note"><div class="rp-callout__title">Note</div><div class="rp-callout__content"><p>例题</p><p>当 $m &gt; n &gt; 0$ 时，证明：$me^n + n &lt; ne^m + m$。</p><p>要证 $me^n + n &lt; ne^m + m$，即证</p><p>$$
+\dfrac{me^n}{mn} + \dfrac{n}{mn} &lt; \dfrac{ne^m}{mn} + \dfrac{m}{mn}
+$$</p><p>即</p><p>$$
+\dfrac{e^n}{n} - \dfrac{1}{n} &lt; \dfrac{e^m}{m} - \dfrac{1}{m}
+$$</p><p>此不等式两边的结构形式一致，构造
+$f(x) = \dfrac{e^x}{x} - \dfrac{1}{x}$，只需证明 $f(x$ 在 $0, +\infty$
+上单调递增即可。</p></div></div>
+<p>最常见的一种形式是：</p>
+<p>$$
+yf(x)=xf(y)
+$$</p>
+<p>整理得到：</p>
+<p>$$
+\dfrac{f(x)}{x}&gt;\dfrac{f(y)}{y}
+$$</p>
+<p>其中 $y$ 为关于 $x$ 的函数。</p>
+<p>以 $f(x) = xe^x - x - \ln x$ 的最小值为例，对其变形</p>
+<p>$$
+f(x)=e^{x+\ln x}-(x+\ln x)=e^t-t
+$$</p>
+<p>又或者，</p>
+<p>$$
+f(x)=xe^x-\ln(xe^x)
+$$</p>
+<p>分别设 $t=x+\ln x$ 和 $t=xe^x$，即可。</p>
+<h3 class="rp-toc-include" id="_19"><a href="#_19" class="rp-header-anchor rp-link" aria-hidden="true">#</a>积分构造法</h3>
+<p>我们知道一个经典的不等式</p>
+<p>$$
+\ln x\le x-1
+$$</p>
+<p>当且仅当 $x=1$ 时取等，我们对两边同时求积分，如图左。为了使两边依旧在 $x=1$ 时取等，我们将 $ln x$ 的积分 $ln x-1)x$ 修正为其加 $dfrac{1}{2}$，如图右</p>
+<p>![alt text](../desmos-graph (2).svg)</p>
+<p><img alt="alt text" src="/static/svg/desmos-graph.e0dc6eea3d.svg"/></p>
+<p>利用求导也可以证明下面的不等式：</p>
+<p>$$
+\begin{cases} 0&lt;x\le1&amp;\ln x\ge\dfrac{1}{2}\left(x-\dfrac{1}{x}\right)\ x&gt;1&amp;\ln x&lt;\dfrac{1}{2}\left(x-\dfrac{1}{x}\right) \end{cases}
+$$</p>
+<p>类似的，继续求积分，我们还可以得到下面的不等式：</p>
+<p>$$
+\ln x\le\dfrac{(x+5)(x-1)}{4x+2}
+$$</p>
+<p>类似的，我们对经典的不等式</p>
+<p>$$
+\ln x\ge1-\dfrac{1}{x}
+$$</p>
+<p>进行类似的积分构造。可以得到</p>
+<p>$$
+\begin{cases} 0&lt;x\le1&amp;\ln x\le\dfrac{2(x-1)}{x+1}\ x&gt;1&amp;\ln x\ge\dfrac{2(x-1)}{x+1} \end{cases}
+$$</p>
+<h3 class="rp-toc-include" id="_20"><a href="#_20" class="rp-header-anchor rp-link" aria-hidden="true">#</a>替换构造法</h3>
+<p>我们对</p>
+<p>$$
+\begin{cases} 0&lt;x\le1&amp;\ln x\ge\dfrac{1}{2}\left(x-\dfrac{1}{x}\right)\ x&gt;1&amp;\ln x&lt;\dfrac{1}{2}\left(x-\dfrac{1}{x}\right) \end{cases}
+$$</p>
+<p>令 $x\gets e^x$，则有</p>
+<p>$$
+\begin{cases} x\le0&amp; e^x-e^{-x}\le2x\ x&gt;0&amp; e^x-e^{-x}&gt;2x \end{cases}
+$$</p>
+<p>类似的，我们对</p>
+<p>$$
+\begin{cases} 0&lt;x\le1&amp;\ln x\le\dfrac{2(x-1)}{x+1}\ x&gt;1&amp;\ln x\ge\dfrac{2(x-1)}{x+1} \end{cases}
+$$</p>
+<p>令 $x\gets e^x$，则有</p>
+<p>$$
+\begin{cases} x\le0&amp;(2-x)e^x\ge2+x\ x&gt;0&amp;(2-x)e^x&lt;2+x \end{cases}
+$$</p>
+<h3 class="rp-toc-include" id="_21"><a href="#_21" class="rp-header-anchor rp-link" aria-hidden="true">#</a>局部求值法</h3>
+<p>证明函数最值大于或小于一个数，可以将函数拆为几个易于求值的部分，对每一个部分分别运算，在整体上，这个最值不一定取得到，但是也可以证出结果（要证明的不等式不一定很严格）。</p>
+<p>例题：证明</p>
+<p>$$
+\dfrac{e^x}{x}-\dfrac{8}{x^2}\ln\dfrac{2}{x}+x&gt;e+2
+$$</p>
+<p>设</p>
+<p>$$
+f(x)=\dfrac{e^x}{x}
+$$</p>
+<p>则</p>
+<p>$$
+f&#x27;(x)=e^x\dfrac{x-1}{x^2}
+$$</p>
+<p>因此</p>
+<p>$$
+f(x)\ge f(1)=e
+$$</p>
+<p>设</p>
+<p>$$
+g(x)=x-\dfrac{8}{x^2}\ln\dfrac{2}{x}
+$$</p>
+<p>则</p>
+<p>$$
+g&#x27;(x)=1-\dfrac{16\ln\dfrac{x}{2}-8}{x^3}
+$$</p>
+<p>易知 $g&#x27;(x$ 单调递增且 $g&#x27;(2)=0$，因此：</p>
+<p>$$
+g(x)\ge g(2)=2
+$$</p>
+<p>所以</p>
+<p>$$
+f(x)+g(x)&gt;e+2
+$$</p>
+<p>不取等号因为局部不等式不同时取等。</p>
+<h3 class="rp-toc-include" id="_22"><a href="#_22" class="rp-header-anchor rp-link" aria-hidden="true">#</a>隐零点方法</h3>
+<p>在前文隐零点我们说过，如果可以简单的分离、带入，那么容易解决，但是有的时候不能这么解决，此时问题就麻烦一点，我们以例题：已知 $f(x)=e^x-\ln(x+2$，求证 $f(x)&gt;\dfrac{1}{6}$ 恒成立。</p>
+<p>容易想到，我们对 $f(x$ 求导</p>
+<p>$$
+f&#x27;(x)=e^x-\dfrac{1}{x+2}
+$$</p>
+<p>容易知道函数先单调递减，再单调递增，$f&#x27;(x_0)=0$ 容易得到</p>
+<p>$$
+e^{x_0}=\dfrac{1}{x_0+2}
+$$</p>
+<p>那么就有</p>
+<p>$$
+f(x_0)=e^{x_0}-\ln(x_0+2)=\dfrac{1}{x_0+2}+x_0
+$$</p>
+<p>根据零点存在性定理，我们可以知道 $f&#x27;(x$ 的零点应该在 $-1,0$。</p>
+<p>不妨令</p>
+<p>$$
+g(x)=\dfrac{1}{x+2}+x
+$$</p>
+<p>取等当且仅当 $x=-1$，而 $g(x$ 在 $-1,0$ 单调递增，不妨令</p>
+<p>$$
+g(x_1)=\dfrac{1}{6}
+$$</p>
+<p>解得</p>
+<p>$$
+x_1=\dfrac{1}{2}
+$$</p>
+<p>此时有 $f&#x27;(x_1)&lt;0$，因此 $x_0&gt;x_1$</p>
+<p>$$
+f(x_0)&gt;f(x_1)=\dfrac{1}{6}
+$$</p>
+<h3 class="rp-toc-include" id="_23"><a href="#_23" class="rp-header-anchor rp-link" aria-hidden="true">#</a>加强不等式</h3>
+<p>加强不等式是一种构造方法，我们使待证不等式加强，使加强后的不等式能够更易于变形或求值，最常见的是增添项，或者改变恒正负者系数，以约去不等式的部分项。</p>
+<p>利用凹凸性割线放缩，是加强不等式的一种。</p>
+<h3 class="rp-toc-include" id="_24"><a href="#_24" class="rp-header-anchor rp-link" aria-hidden="true">#</a>拉格朗日乘数法</h3>
+<p>对于一个函数 $f(x,y$ 在附加条件 $varphi(x,y)=0$ 下的极值，可以构造三元函数</p>
+<p>$$
+L(x,y,\lambda)=f(x,y)+\lambda\varphi(x,y)
+$$</p>
+<p>求解下面这个方程组，代回原方程就是他的极值点</p>
+<p>$$
+\begin{cases} \dfrac{\partial L}{\partial x}&amp;=0\ \dfrac{\partial L}{\partial y}&amp;=0\ \varphi(x,y)&amp;=0 \end{cases}
+$$</p>
+<p>例题：已知 $a,b,c$ 均为正实数，$a^2+b^2+4c^2=1$，则 $ab+2ac+3\sqrt{2}bc$ 的最大值为？</p>
+<p>$$
+\varphi(a,b,c)=a^2+b^2+4c^2-1
+$$</p>
+<p>$$
+f(a,b,c)=ab+2ac+3\sqrt{2}bc
+$$</p>
+<p>$$
+L(a,b,c,\lambda)=ab+2ac+3\sqrt{2}bc+\lambda(a^2+b^2+4c^2-1)
+$$</p>
+<p>求偏导，得</p>
+<p>$$
+\frac{\partial L}{\partial a}=b+2c+2a\lambda=0
+$$</p>
+<p>$$
+\frac{\partial L}{\partial b}=a+3\sqrt{2}c+2b\lambda=0
+$$</p>
+<p>$$
+\frac{\partial L}{\partial c}=2a+3\sqrt{2}b+8c\lambda=0
+$$</p>
+<p>$$
+\varphi(a,b,c)=a^2+b^2+4c^2-1=0
+$$</p>
+<p>联立解得</p>
+<p>$$
+\begin{cases} a&amp;=\dfrac{\sqrt{2}}{\sqrt{10}}\ b&amp;=\dfrac{2}{\sqrt{10}}\ c&amp;=\dfrac{1}{\sqrt{10}}\ \lambda&amp;=-\sqrt{2} \end{cases}
+$$</p>
+<p>代回得到</p>
+<p>$$
+f_{\max}=\sqrt{2}
+$$</p>
+<h2 class="rp-toc-include" id="_25"><a href="#_25" class="rp-header-anchor rp-link" aria-hidden="true">#</a>极值点偏移</h2>
+<h3 class="rp-toc-include" id="_26"><a href="#_26" class="rp-header-anchor rp-link" aria-hidden="true">#</a>偏移概述</h3>
+<p>我们在证明形如 $x_1+x_2&gt;m$ 或 $x_1x_2&gt;m$ 的式子成立时，可以尝试将待证的不等式在形式上进行转化，转而证明转化后的不等式 $x_1&gt;m-x_2$ 或 $x_1&gt;\dfrac{m}{x_2}$ 成立，之后利用函数的单调性，转化为函数值之间的关系，即 $f(x_1$ 与 $f(m-x_2$ 或 $f\left(\dfrac{m}{x_2}\right$ 进行比较。</p>
+<p><img alt="alt text" src="/static/image/image-6.177ac98c83.avif"/></p>
+<p>使用构造类对称法解此题时，首先要注意变量的取值范围，我们需要保证构造后不等号两边的变量取值在同一区间内，然后才能使用单调性进行证明。</p>
+<p>对于极值点偏移问题，有的还可以直接用变双变量为单变量的方法，这其实就是二元不等式的思想。同时，也可以通过零点的相关性质，将不等式中的常数或者参数转化为与两个零点相关的式子。</p>
+<p>有的时候，换元会导致式子变得次数非常复杂，此时应当直接设出函数；有的时候，不等式中参数过于复杂，此时应当用参数转换法；下面提供两种写步骤的方案。</p>
+<p>在解决极值点偏移或者类极值点偏移的题目中，经常用到以下两个单变量的不等式链：</p>
+<ul>
+<li>
+<p>在 $x\in(1,+\infty$，</p>
+<p>$$
+\small\frac{x-1}{x}&lt;\frac{2(x-1)}{x+1}&lt;\frac{3(x^2-1)}{x^2+4x+1}&lt;\ln x&lt;\sqrt{x}-\frac{1}{\sqrt{x}}&lt;\frac{1}{2}\left(x-\frac{1}{x}\right)&lt;x-1
+$$</p>
+</li>
+<li>
+<p>在 $x\in(0,1$，</p>
+<p>$$
+\small\frac{x-1}{x}&lt;\frac{1}{2}\left(x-\frac{1}{x}\right)&lt;\sqrt{x}-\frac{1}{\sqrt{x}}&lt;\ln x&lt;\frac{3(x^2-1)}{x^2+4x+1}&lt;\frac{2(x-1)}{x+1}&lt;x-1
+$$</p>
+</li>
+</ul>
+<p>对于一部分参数意义不明的题，可以采取分离参数的方法，把参数化没。</p>
+<p>例题：函数 $f(x)=x^2-2x+1+a e^x$。函数有两个极值点 $x_1$、$x_2$，求证 $x_1+x_2&gt;4$。</p>
+<p>求出导函数 $f&#x27;(x)=2x-2+a e^x$，分离参数即 $a=\dfrac{2-2x}{e^x}$ 有 $2$ 解 $x_1$、$x_2$。</p>
+<p>也就是说 $y=a$ 与 $g=\dfrac{2-2x}{e^x}$ 有 $2$ 交点 $x_1$、$x_2$。</p>
+<p>令 $g(x)=\dfrac{2-2x}{e^x}$，则有 $g(x_1)=g(x_2)=a$，这就是一个经典的极值点偏移问题。</p>
+<p>其中等于 $a$ 是因为我们将 $a$ 减到 $g(x$ 里面是等价的，因此也可以分出来常数忽略。</p>
+<h3 class="rp-toc-include" id="_27"><a href="#_27" class="rp-header-anchor rp-link" aria-hidden="true">#</a>对称和模型</h3>
+<p>模型形如证明 $h(x_1,x_2)&gt;C$，其中 $x_1,x_2$ 可交换。</p>
+<ul>
+<li>
+<p>基础模型 $h(x_1,x_2)=x_1+x_2$。有 $f&#x27;(x$ 在 $-\infty,C/2$ 恒正（函数单调递增），在 $C/2,+\infty$ 恒负（函数单调递减），且 $f&#x27;(C/2)=0$（极大值点）。</p>
+<p>设 $x_1,x_2$ 为 $f$ 的两个零点且 $x_1&lt;x_2$，满足 $f(x_1)=f(x_2)=0$。</p>
+<p>要证明 $x_1+x_2&gt;C$，不妨令</p>
+<p>$$
+F(\Delta)=f\left(\dfrac{C}{2}+\Delta\right)-f\left(\dfrac{C}{2}-\Delta\right)
+$$</p>
+<p>其中 $Delta\ge0$，对 $F$ 求导得</p>
+<p>$$
+F&#x27;(\Delta)=f&#x27;\left(\dfrac{C}{2}+\Delta\right)+f&#x27;\left(\dfrac{C}{2}-\Delta\right)
+$$</p>
+<p>尝试证明其恒大于 $0$，即 $F$ 单调递增。</p>
+<p>得出 $F(\Delta)\ge F(0)=0$，因此对于 $Delta&gt;0$ 有</p>
+<p>$$
+f\left(\dfrac{C}{2}+\Delta\right)&gt;f\left(\dfrac{C}{2}-\Delta\right)
+$$</p>
+<p>令 $x_1=\dfrac{C}{2}-\Delta$，那么</p>
+<p>$$
+f(x_2)=f(x_1)=f\left(\dfrac{C}{2}-\Delta\right)&lt;f\left(\dfrac{C}{2}+\Delta\right)
+$$</p>
+<p>因为 $x_2&gt;\dfrac{C}{2}$，因此 $x_2&gt;\dfrac{C}{2}+\Delta$，那么</p>
+<p>$$
+x_1+x_2&gt;C
+$$</p>
+</li>
+<li>
+<p>基础模型 $h(x_1,x_2)=x_1x_2$。有 $f&#x27;(x$ 在 $-\infty,C$ 恒负（函数单调递减），在 $C,+\infty$ 恒正（函数单调递增），且 $f&#x27;(C)=0$（极小值点）。</p>
+<p>设 $x_1,x_2$ 为 $f$ 的两个零点且 $x_1&lt;x_2$，满足 $f(x_1)=f(x_2)=0$。</p>
+<p>要证明 $x_1x_2&lt;C^2$，不妨令</p>
+<p>$$
+F(t)=f(tC)-f\left(\dfrac{1}{t}C\right)
+$$</p>
+<p>其中 $t\ge1$，对 $F$ 求导得</p>
+<p>$$
+F&#x27;(t)=Cf&#x27;(tC)+C\dfrac{1}{t^2}f&#x27;\left(\dfrac{1}{t}C\right)=C\left(1-\dfrac{1}{t^2}\right)f&#x27;\left(\dfrac{1}{t}C\right)
+$$</p>
+<p>尝试证明其恒大于 $0$，即 $F$ 单调递增。</p>
+<p>得出 $F(\Delta)\ge F(1)=0$，因此对于 $t&gt;1$ 有</p>
+<p>$$
+f(tC)&gt;f\left(\dfrac{1}{t}C\right)
+$$</p>
+<p>令 $x_1=\dfrac{1}{t}C$，那么</p>
+<p>$$
+f(x_2)=f(x_1)=f\left(\dfrac{1}{t}C\right)&lt;f(tC)
+$$</p>
+<p>因为 $x_2&gt;C$，因此 $x_2&lt;tC$，那么</p>
+<p>$$
+x_1x_2&lt;C^2
+$$</p>
+</li>
+</ul>
+<p>注意，直接进行极值点偏移，需要保证函数的极值点就是 $C/2$ 或 $sqrt{C}$，如果不满足，就需要进行一定的变换。</p>
+<h3 class="rp-toc-include" id="_28"><a href="#_28" class="rp-header-anchor rp-link" aria-hidden="true">#</a>构造变量法</h3>
+<p>经典例题：已知函数 $f(x)=e^x-ax(a\neq0$ 有两个零点 $x_1,x_2$ 且 $x_1&lt;x_2$，证明 $x_1+x_2&gt;2$。</p>
+<p>我们知道</p>
+<p>$$
+\begin{cases} e^{x_1}&amp;=ax_1\ e^{x_2}&amp;=ax_2 \end{cases}
+$$</p>
+<p>那么：</p>
+<p>$$
+x_2-x_1=\ln\dfrac{x_2}{x_1}
+$$</p>
+<p>令 $t=\dfrac{x_2}{x_1}&gt;1$，则：</p>
+<p>$$
+\begin{cases} x_1&amp;=\dfrac{\ln t}{t-1}\ x_2&amp;=\dfrac{t\ln t}{t-1} \end{cases}
+$$</p>
+<p>要证 $x_1+x_2&gt;2$ 即证：</p>
+<p>$$
+\dfrac{t+1}{t-1}\ln t&gt;2
+$$</p>
+<p>即：</p>
+<p>$$
+\ln t&gt;\dfrac{2(t-1)}{t+1}
+$$</p>
+<p>不妨令 $g(t)=\ln t-\dfrac{2(t-1)}{t+1}$，则：</p>
+<p>$$
+g&#x27;(t)=\dfrac{1}{t}-\dfrac{2(t+1)-2(t-1)}{(t+1)^2}=\dfrac{1}{t}-\dfrac{4}{(t+1)^2}=\dfrac{(t-1)^2}{t(t+1)^2}
+$$</p>
+<p>我们注意到 $g&#x27;(1)=0$ 且在 $1,+\infty$ 上恒正，因此</p>
+<p>$$
+g(x)&gt;g(1)=0
+$$</p>
+<p>即不等式成立。</p>
+<p>还有一种方法，由</p>
+<p>$$
+x_2-x_1=\dfrac{x_2}{x_1}
+$$</p>
+<p>得</p>
+<p>$$
+\dfrac{x_2-x_1}{\ln\dfrac{x_2}{x_1}}=1
+$$</p>
+<p>要证 $x_1+x_2&gt;2$ 即证：</p>
+<p>$$
+x_1+x_2&gt;\dfrac{2(x_2-x_1)}{\ln\dfrac{x_2}{x_1}}
+$$</p>
+<p>令 $t=\dfrac{x_2}{x_1}&gt;1$，即证：</p>
+<p>$$
+\ln t&gt;\dfrac{2(t-1)}{t+1}
+$$</p>
+<p>前面已经证明，显然成立。</p>
+<p>对于形如证明 $x_1x_2&lt;C$ 的，我们将在下面构造函数法中写。</p>
+<h3 class="rp-toc-include" id="_29"><a href="#_29" class="rp-header-anchor rp-link" aria-hidden="true">#</a>构造函数法</h3>
+<p>例题：已知函数 $f(x)=\dfrac{1}{2}x+m+\dfrac{3}{2x}-\ln x(m\in\R$，若 $x_1,x_2$ 是函数 $g(x)=xf(x$ 的两个极值点，且 $x_1&lt;x_2$，证明 $x_1x_2&lt;1$。</p>
+<p>我们令 $g(x)=xf(x)=mx-x\ln x+\dfrac{1}{2}x^2+\dfrac{3}{2}$，对其求导</p>
+<p>$$
+g&#x27;(x)=x-\ln x+m-1
+$$</p>
+<p>$$
+g&#x27;&#x27;(x)=\dfrac{x-1}{x}
+$$</p>
+<p>当 $0&lt;x&lt;1$ 时，$g&#x27;&#x27;(x)&lt;0$，$g&#x27;(x$ 单调递减；当 $x&gt;1$ 时，$g&#x27;&#x27;(x)&gt;0$，$g&#x27;(x$ 单调递增。因此 $1$ 为 $g&#x27;(x$ 的极值点，因此 $0&lt;x_1&lt;1&lt;x_2$。</p>
+<p>要证 $x_1x_2&lt;1$ 即证</p>
+<p>$$
+x_2&lt;\dfrac{1}{x_1}
+$$</p>
+<p>因为 $0&lt;x_1&lt;1$ 所以 $dfrac{1}{x_1}&gt;1$，因此尝试证明</p>
+<p>$$
+g&#x27;(x_2)&lt;g&#x27;\left(\dfrac{1}{x_1}\right)
+$$</p>
+<p>又因为 $g&#x27;(x_1)=g&#x27;(x_2)=0$，因此证明</p>
+<p>$$
+g&#x27;(x_1)&lt;g&#x27;\left(\dfrac{1}{x_1}\right)
+$$</p>
+<p>令函数</p>
+<p>$$
+h(x)=g&#x27;(x)-g&#x27;\left(\dfrac{1}{x}\right)=x-\dfrac{1}{x}-2\ln x(0&lt;x&lt;1)
+$$</p>
+<p>求导得</p>
+<p>$$
+h&#x27;(x)=\dfrac{(x-1)^2}{x^2}&gt;0
+$$</p>
+<p>因此 $h(x$ 单调递增，从而 $h(x)&lt;h(1)=0$，得证。</p>
+<p>这道题也可以用构造变量法，同样令 $t=\dfrac{x_2}{x_1}&gt;1$，证明</p>
+<p>$$
+\ln t&lt;\sqrt{t}-\dfrac{1}{\sqrt{t}}
+$$</p>
+<p>即可。</p>
+<h3 class="rp-toc-include" id="_30"><a href="#_30" class="rp-header-anchor rp-link" aria-hidden="true">#</a>变形双变量</h3>
+<p>当双变量不再对称，构造函数与构造变量都可以适用。</p>
+<ul>
+<li>
+<p>对于构造函数，只需要确保极值点与常数项对应，然后找到极值点两边证明即可。</p>
+</li>
+<li>
+<p>对于构造变量，只需要按照原来的方法，带入不等式，只是解不等式可能有一些复杂。</p>
+</li>
+</ul>
+<p>联立两个零点，经常可以得到类似于</p>
+<p>$$
+\ln\dfrac{x_1}{x_2}=x_1-x_2
+$$</p>
+<p>的式子，设 $t=\dfrac{x_1}{x_2}\in(0,1$，一是可以将其化为</p>
+<p>$$
+\begin{cases} x_1&amp;=\dfrac{t\ln t}{t-1}\ x_2&amp;=\dfrac{\ln t}{t-1} \end{cases}
+$$</p>
+<p>然后带入，直接证明一元不等式，二是可以将</p>
+<p>$$
+1=\dfrac{x_1-x_2}{\ln\dfrac{x_1}{x_2}}
+$$</p>
+<p>或其倒数，利用 $1$ 的代还，解决问题。</p>
+<h3 class="rp-toc-include" id="_31"><a href="#_31" class="rp-header-anchor rp-link" aria-hidden="true">#</a>拐点偏移</h3>
+<p>我们知道拐点是二阶导数的变号点。若函数在拐点两侧的变化速度相同，那么函数图像关于拐点中心对称；若变化速度不同，则图像会出现&quot;偏移&quot;。我们把这种现象称为&quot;拐点偏移&quot;。</p>
+<p>我们知道常见的极值点偏移是给出 $f(x_1)=f(x_2)=0$，而拐点偏移比较常见的是给出 $f(x_1)+f(x_2)=C$ 这种，我们以例题。</p>
+<p>例题：已知函数 $f(x)=2\ln x+x^2-1$，若 $x_1,x_2$ 是两个不相等的正数，且 $f(x_1)+f(x_2)=0$，证明 $x_1+x_2&gt;2$。</p>
+<p>$$
+f&#x27;(x)=\dfrac{2}{x}+2x\ge4
+$$</p>
+<p>因此 $f(x$ 单调递增，且 $f(1)=0$，注意到 $2$ 就是两倍的零点，我们不妨设</p>
+<p>$$
+0&lt;x_1&lt;1&lt;x_2&lt;2
+$$</p>
+<p>因为 $x_2&gt;2$ 的时候，显然 $x_1+x_2&gt;2$。考虑这个部分，即证</p>
+<p>$$
+f(x_2)&gt;f(2-x_1)
+$$</p>
+<p>又因为 $f(x_2)=-f(x_1$，因此证</p>
+<p>$$
+-f(x_1)&gt;f(2-x_1)
+$$</p>
+<p>不妨设</p>
+<p>$$
+g(x)=f(x)+f(2-x)=2\ln(2x-x^2)-2(2x-x^2)+2
+$$</p>
+<p>其中 $x\in(0,1$，不妨令 $t=2x-x^2\in(0,1$，由 $ln t&lt;x-1$，不等式显然成立。</p><!--/$--></div><footer class="rp-doc-footer"><div class="rp-doc-footer__edit"><a href="https://github.com/raineblog/whk/blob/main/docs/science/polynomial/4/index.md" target="_blank" class="rp-edit-link">📝 编辑此页面</a></div><div class="rp-doc-footer__divider"></div><div class="rp-prev-next-page"><div class="rp-prev-next-page__placeholder"></div><a href="/science/mathematics/1.html" class="rp-prev-next-page__item rp-prev-next-page__next rp-link"><span class="rp-prev-next-page__item__desc">下一页</span><span class="rp-prev-next-page__item__title"><span>1</span><svg width="1em" height="1em" viewBox="0 0 32 32" class="rp-prev-next-page__icon"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></span></a></div></footer></main></div><aside class="rp-doc-layout__outline rp-scrollbar"><div class="rp-outline"><div class="rp-outline__title">目录<svg width="14" height="14" class="rp-progress-circle"><circle cx="7" cy="7" r="6" stroke-linecap="round" fill="none" stroke="var(--rp-c-divider-light)" stroke-width="2"></circle><circle cx="7" cy="7" r="6" stroke-linecap="round" fill="none" stroke="var(--rp-c-brand)" stroke-width="2" stroke-dasharray="37.69911184307752" stroke-dashoffset="37.69911184307752" transform="rotate(-90 7 7)" style="transition:stroke-dashoffset 0.3s"></circle></svg></div><nav class="rp-outline__toc rp-scrollbar"><a href="#_2" class="rp-toc-item rp-link" title="导数方法" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">导数方法</span></a><a href="#_3" class="rp-toc-item rp-link" title="不等式方法" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">不等式方法</span></a><a href="#_4" class="rp-toc-item rp-link" title="简单不等式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">简单不等式</span></a><a href="#_5" class="rp-toc-item rp-link" title="一元不等式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">一元不等式</span></a><a href="#_6" class="rp-toc-item rp-link" title="二元不等式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">二元不等式</span></a><a href="#_7" class="rp-toc-item rp-link" title="数字不等式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">数字不等式</span></a><a href="#_8" class="rp-toc-item rp-link" title="恒成立问题" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">恒成立问题</span></a><a href="#_9" class="rp-toc-item rp-link" title="函数模型" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">函数模型</span></a><a href="#_10" class="rp-toc-item rp-link" title="共零点法" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">共零点法</span></a><a href="#_11" class="rp-toc-item rp-link" title="参变分离法" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">参变分离法</span></a><a href="#_12" class="rp-toc-item rp-link" title="简单变形法" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">简单变形法</span></a><a href="#_13" class="rp-toc-item rp-link" title="必要性探路" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">必要性探路</span></a><a href="#_14" class="rp-toc-item rp-link" title="隐零点问题" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">隐零点问题</span></a><a href="#_15" class="rp-toc-item rp-link" title="不等式方法" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">不等式方法</span></a><a href="#_16" class="rp-toc-item rp-link" title="一般放缩法" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">一般放缩法</span></a><a href="#_17" class="rp-toc-item rp-link" title="整体代换法" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">整体代换法</span></a><a href="#_18" class="rp-toc-item rp-link" title="同构化构造" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">同构化构造</span></a><a href="#_19" class="rp-toc-item rp-link" title="积分构造法" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">积分构造法</span></a><a href="#_20" class="rp-toc-item rp-link" title="替换构造法" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">替换构造法</span></a><a href="#_21" class="rp-toc-item rp-link" title="局部求值法" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">局部求值法</span></a><a href="#_22" class="rp-toc-item rp-link" title="隐零点方法" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">隐零点方法</span></a><a href="#_23" class="rp-toc-item rp-link" title="加强不等式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">加强不等式</span></a><a href="#_24" class="rp-toc-item rp-link" title="拉格朗日乘数法" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">拉格朗日乘数法</span></a><a href="#_25" class="rp-toc-item rp-link" title="极值点偏移" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">极值点偏移</span></a><a href="#_26" class="rp-toc-item rp-link" title="偏移概述" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">偏移概述</span></a><a href="#_27" class="rp-toc-item rp-link" title="对称和模型" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">对称和模型</span></a><a href="#_28" class="rp-toc-item rp-link" title="构造变量法" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">构造变量法</span></a><a href="#_29" class="rp-toc-item rp-link" title="构造函数法" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">构造函数法</span></a><a href="#_30" class="rp-toc-item rp-link" title="变形双变量" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">变形双变量</span></a><a href="#_31" class="rp-toc-item rp-link" title="拐点偏移" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">拐点偏移</span></a></nav><div class="rp-outline__divider"></div><div class="rp-outline__bottom"><button class="rp-outline__scroll-to-top"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.99967 14.6667C11.6816 14.6667 14.6663 11.6819 14.6663 8.00001C14.6663 4.31811 11.6816 1.33334 7.99967 1.33334C4.31777 1.33334 1.33301 4.31811 1.33301 8.00001C1.33301 11.6819 4.31777 14.6667 7.99967 14.6667Z" stroke="currentColor" stroke-opacity="0.8" stroke-width="1.33333"></path><path d="M7.99967 14.6667C11.6816 14.6667 14.6663 11.6819 14.6663 8.00001C14.6663 4.31811 11.6816 1.33334 7.99967 1.33334C4.31777 1.33334 1.33301 4.31811 1.33301 8.00001C1.33301 11.6819 4.31777 14.6667 7.99967 14.6667Z" stroke="currentColor" stroke-opacity="0.8" stroke-width="1.33333" stroke-linejoin="round"></path><path d="M11 9L8 6L5 9" stroke="currentColor" stroke-opacity="0.8" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>回到顶部</span></button></div></div></aside></div></div>
+    <div id="__rspress_modal_container"></div>
+  </body>
+</html>

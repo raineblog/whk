@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="zh">
+  <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>组合数学 - 从零入门到进阶的全方位指南 - RainPPR&#x27;s WHK Blog</title>
+<script>{;const saved = localStorage.getItem('rspress-theme-appearance');const preferDark = window.matchMedia('(prefers-color-scheme: dark)').matches;const isDark = !saved || saved === 'auto' ? preferDark : saved === 'dark';document.documentElement.classList.toggle('dark', isDark);document.documentElement.classList.toggle('rp-dark', isDark);document.documentElement.style.colorScheme = isDark ? 'dark' : 'light';}</script>
+<link href="/static/css/styles.e677259f24.css" rel="stylesheet">
+<script defer src="/static/js/styles.9144b0cc93.js"></script>
+<script defer src="/static/js/lib-react.f52f1375e2.js"></script>
+<script defer src="/static/js/lib-router.5a60554bda.js"></script>
+<script defer src="/static/js/9005.ba4b7aa243.js"></script>
+<script defer src="/static/js/index.3587243b40.js"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Rspress v2.0.3">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="组合数学 - 从零入门到进阶的全方位指南 - RainPPR's WHK Blog">
+<meta name="description" content="组合数学是计数与结构的核心学科。本文以通俗易懂的方式梳理 4 大计数原理、排列组合基本公式以及二项式定理等基础，随后深入容斥、鸽巢、错位排列等进阶技巧，并提供实战模型与常见解题套路，帮助读者在比赛与科研中快速提取有效思路。想系统掌握组合数学，请继续阅读并点击原文获取完整细节。">
+<meta property="og:description" content="组合数学是计数与结构的核心学科。本文以通俗易懂的方式梳理 4 大计数原理、排列组合基本公式以及二项式定理等基础，随后深入容斥、鸽巢、错位排列等进阶技巧，并提供实战模型与常见解题套路，帮助读者在比赛与科研中快速提取有效思路。想系统掌握组合数学，请继续阅读并点击原文获取完整细节。">
+<link rel="alternate" type="application/atom+xml" href="https://raineblog-whk-rspress.pages.dev/rss/blog.xml" hreflang="zh"></head>
+
+  <body>
+    <div id="__rspress_root"><link rel="preload" as="image" href="./docs/logo.svg"/><header class="rp-nav"><div class="rp-nav__left"><div class="rp-nav__title"><a href="/" class="rp-nav__title__link rp-link"><div class="rp-nav__title__logo"><img src="./docs/logo.svg" alt="logo" id="logo" class="rspress-logo rp-nav__title__logo-image"/></div><span>RainPPR&#x27;s WHK Blog</span></a></div></div><div class="rp-nav__right"><button class="rp-search-button"><div class="rp-search-button__content"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 20 21" class="rp-search-button__icon"><path fill="currentColor" d="M8.333 1.913A6.667 6.667 0 0 1 15 8.58c0 1.54-.525 2.957-1.402 4.085l4.49 4.492a.834.834 0 0 1-1.177 1.178l-4.491-4.49a6.64 6.64 0 0 1-4.087 1.402 6.667 6.667 0 0 1 0-13.334m0 1.667a5 5 0 1 0 0 10 5 5 0 0 0 0-10"></path></svg><span class="rp-search-button__word">搜索</span></div><div class="rp-search-button__hotkey" style="opacity:0"><span></span><span>K</span></div></button><div class="rp-search-button--mobile"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 20 21"><path fill="currentColor" d="M8.333 1.913A6.667 6.667 0 0 1 15 8.58c0 1.54-.525 2.957-1.402 4.085l4.49 4.492a.834.834 0 0 1-1.177 1.178l-4.491-4.49a6.64 6.64 0 0 1-4.087 1.402 6.667 6.667 0 0 1 0-13.334m0 1.667a5 5 0 1 0 0 10 5 5 0 0 0 0-10"></path></svg></div><ul class="rp-nav-menu rp-nav-menu--right"><li class="rp-nav-menu__item rp-nav-menu__item--active"><a href="/index.html" class="rp-nav-menu__item__container rp-link">简介</a></li><li class="rp-nav-menu__item"><a href="/cultural/grammar/1.html" class="rp-nav-menu__item__container rp-link">中学文科</a></li><li class="rp-nav-menu__item"><a href="/science/mathematics/1.html" class="rp-nav-menu__item__container rp-link">高中理科</a></li><li class="rp-nav-menu__item rp-nav-menu__item--active"><a href="/blog.html" class="rp-nav-menu__item__container rp-link">Blog</a></li></ul><div class="rp-nav__others"><div class="rp-nav-menu__divider"></div><div class="rp-switch-appearance"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" class="rp-switch-appearance__icon rp-switch-appearance__icon--sun"><path fill="currentColor" d="m7.001 15.848-1.226 1.226a.58.58 0 0 0 0 .818.58.58 0 0 0 .818 0l1.226-1.226a.58.58 0 0 0 0-.818.58.58 0 0 0-.818 0m-.352-8.735a.584.584 0 0 0 .825-.825L6.237 5.051a.584.584 0 0 0-.825.825zM5.011 11.07h-1.75a.584.584 0 0 0 0 1.167h1.75c.324 0 .584-.26.584-.583a.585.585 0 0 0-.584-.584m7.003-5.835c.324 0 .584-.26.584-.584V2.9a.58.58 0 0 0-.584-.584.58.58 0 0 0-.583.583V4.65c0 .323.262.584.583.584m5.616 1.621 1.226-1.225a.58.58 0 0 0 0-.818.58.58 0 0 0-.818 0l-1.226 1.225a.58.58 0 0 0 0 .818.576.576 0 0 0 .818 0m3.138 4.214h-1.75a.58.58 0 0 0-.584.584c0 .324.26.584.583.584h1.751a.584.584 0 1 0 0-1.167m-3.389 5.124a.584.584 0 0 0-.825.825l1.238 1.238a.584.584 0 0 0 .825-.826zm-5.365-9.795a5.256 5.256 0 0 0-5.257 5.258 5.256 5.256 0 0 0 5.257 5.257 5.256 5.256 0 0 0 5.257-5.257 5.256 5.256 0 0 0-5.257-5.258m0 11.675a.58.58 0 0 0-.583.583v1.751a.582.582 0 1 0 1.167 0v-1.75a.584.584 0 0 0-.584-.584"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" viewBox="0 0 19 19" class="rp-switch-appearance__icon rp-switch-appearance__icon--moon"><path fill="currentColor" d="M9.166 0a9.2 9.2 0 0 1 1.857.188.834.834 0 0 1 .042 1.623 4.47 4.47 0 1 0 5.457 5.457l.048-.135a.834.834 0 0 1 1.575.177q.186.902.188 1.856A9.168 9.168 0 1 1 9.166 0"></path></svg></div><div class="rp-social-links"><a href="https://github.com/RainPPR" target="_blank" rel="noopener noreferrer" class="rp-social-links__item"><div class="rp-social-links__icon"><div class="rp-social-links__icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12c0 5.303 3.438 9.8 8.205 11.385c.6.113.82-.258.82-.577c0-.285-.01-1.04-.015-2.04c-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729c1.205.084 1.838 1.236 1.838 1.236c1.07 1.835 2.809 1.305 3.495.998c.108-.776.417-1.305.76-1.605c-2.665-.3-5.466-1.332-5.466-5.93c0-1.31.465-2.38 1.235-3.22c-.135-.303-.54-1.523.105-3.176c0 0 1.005-.322 3.3 1.23c.96-.267 1.98-.399 3-.405c1.02.006 2.04.138 3 .405c2.28-1.552 3.285-1.23 3.285-1.23c.645 1.653.24 2.873.12 3.176c.765.84 1.23 1.91 1.23 3.22c0 4.61-2.805 5.625-5.475 5.92c.42.36.81 1.096.81 2.22c0 1.606-.015 2.896-.015 3.286c0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></div></div></a><a href="https://x.com/rainppr2008" target="_blank" rel="noopener noreferrer" class="rp-social-links__item"><div class="rp-social-links__icon"><div class="rp-social-links__icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584l-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></div></div></a><ul class="rp-hover-group rp-hover-group--hidden rp-hover-group--right"></ul></div></div><button aria-label="mobile hamburger" class="rp-nav-hamburger rp-nav-hamburger__sm"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="none" viewBox="0 0 21 21"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667" d="M3.645 5.225h13.333M3.645 10.225h13.333M3.645 15.225h13.333"></path></svg></button><button aria-label="mobile hamburger" class="rp-nav-hamburger rp-nav-hamburger__md"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="none" viewBox="0 0 21 21"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667" d="M3.645 5.225h13.333M3.645 10.225h13.333M3.645 15.225h13.333"></path></svg><ul class="rp-hover-group rp-hover-group--hidden rp-hover-group--right"><div class="rp-nav-menu__others-mobile__container"><div class="rp-nav-hamburger__md__hover-group"><div class="rp-nav-screen-appearance"><div class="rp-nav-screen-appearance__left">主题</div><div class="rp-nav-screen-appearance__right"></div></div><div class="rp-nav-screen-divider"></div><div class="rp-social-links"><a href="https://github.com/RainPPR" target="_blank" rel="noopener noreferrer" class="rp-social-links__item"><div class="rp-social-links__icon"><div class="rp-social-links__icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12c0 5.303 3.438 9.8 8.205 11.385c.6.113.82-.258.82-.577c0-.285-.01-1.04-.015-2.04c-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729c1.205.084 1.838 1.236 1.838 1.236c1.07 1.835 2.809 1.305 3.495.998c.108-.776.417-1.305.76-1.605c-2.665-.3-5.466-1.332-5.466-5.93c0-1.31.465-2.38 1.235-3.22c-.135-.303-.54-1.523.105-3.176c0 0 1.005-.322 3.3 1.23c.96-.267 1.98-.399 3-.405c1.02.006 2.04.138 3 .405c2.28-1.552 3.285-1.23 3.285-1.23c.645 1.653.24 2.873.12 3.176c.765.84 1.23 1.91 1.23 3.22c0 4.61-2.805 5.625-5.475 5.92c.42.36.81 1.096.81 2.22c0 1.606-.015 2.896-.015 3.286c0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></div></div></a><a href="https://x.com/rainppr2008" target="_blank" rel="noopener noreferrer" class="rp-social-links__item"><div class="rp-social-links__icon"><div class="rp-social-links__icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584l-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></div></div></a><ul class="rp-hover-group rp-hover-group--hidden rp-hover-group--right"></ul></div></div></div></ul></button></div></header><div class="rp-doc-layout__menu"><div class="rp-sidebar-menu"><button type="button" class="rp-sidebar-menu__left"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M4 6h24v2H4zm0 18h24v2H4zm0-12h24v2H4zm0 6h24v2H4z"></path></svg><span>菜单</span></button><button type="button" class="rp-sidebar-menu__right"><span class="rp-sidebar-menu__right__text">目录</span><svg width="14" height="14" class="rp-progress-circle"><circle cx="7" cy="7" r="6" stroke-linecap="round" fill="none" stroke="var(--rp-c-divider-light)" stroke-width="2"></circle><circle cx="7" cy="7" r="6" stroke-linecap="round" fill="none" stroke="var(--rp-c-brand)" stroke-width="2" stroke-dasharray="37.69911184307752" stroke-dashoffset="37.69911184307752" transform="rotate(-90 7 7)" style="transition:stroke-dashoffset 0.3s"></circle></svg><svg width="1em" height="1em" viewBox="0 0 32 32" class="rp-sidebar-menu__right__icon" style="transform:rotate(0deg);transition:transform 0.2s ease-out"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></button></div></div><div class="rp-doc-layout__container"><aside class="rp-doc-layout__sidebar rp-scrollbar"><a href="/blog.html" class="rp-sidebar-item rp-link" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>index</span></div><div class="rp-sidebar-item__right"></div></a></aside><div class="rp-doc-layout__doc"><main class="rp-doc-layout__doc-container"><div class="rp-doc rspress-doc"><!--$--><h1 class="rp-toc-include" id="-"><a href="#-" class="rp-header-anchor rp-link" aria-hidden="true">#</a>组合数学 - 从零入门到进阶的全方位指南<!-- --> </h1>
+<span data-dark="false" class="rp-reading-time">预计阅读时间: 11 分钟</span>
+<p>组合数学是计数与结构的核心学科。本文以通俗易懂的方式梳理 4 大计数原理、排列组合基本公式以及二项式定理等基础，随后深入容斥、鸽巢、错位排列等进阶技巧，并提供实战模型与常见解题套路，帮助读者在比赛与科研中快速提取有效思路。想系统掌握组合数学，请继续阅读并点击原文获取完整细节。</p>
+<h2 class="rp-toc-include" id="_1"><a href="#_1" class="rp-header-anchor rp-link" aria-hidden="true">#</a>文章概览</h2>
+<p>本文将从四个层次展开：</p>
+<ul>
+<li>基础概念与常用例题</li>
+<li>排列与组合的核心公式</li>
+<li>二项式定理及其衍生结构</li>
+</ul>
+<p>随后进入进阶部分，系统讲解容斥、鸽巢、错位排列等技巧，最后提供一套完整的解题模型与实战案例，帮助你在实际题目中快速定位解法。</p>
+<blockquote>
+<p>想获取全文细节，请访问原文链接：<a href="https://raineblog.dpdns.org/whk/science/probability/4/" target="_blank" rel="noopener noreferrer" class="rp-link">https://raineblog.dpdns.org/whk/science/probability/4/</a></p>
+</blockquote>
+<h2 class="rp-toc-include" id="_2"><a href="#_2" class="rp-header-anchor rp-link" aria-hidden="true">#</a>基础内容</h2>
+<h3 class="rp-toc-include" id="4"><a href="#4" class="rp-header-anchor rp-link" aria-hidden="true">#</a>4 大原理</h3>
+<p>四大计数原理是组合数学的根基，分别是：</p>
+<ul>
+<li>
+<p>加法原理：分类相加<br/>
+$$<br/>
+N = \sum m_n<br/>
+$$</p>
+</li>
+<li>
+<p>乘法原理：分步相乘<br/>
+$$<br/>
+N = \prod m_n<br/>
+$$</p>
+</li>
+<li>
+<p>减法原理：正难则反<br/>
+$$<br/>
+|A| = |S| - |S \setminus A| ,\ A \subseteq S<br/>
+$$</p>
+</li>
+<li>
+<p>除法原理：划分等价类<br/>
+（常用于环形排列或对称情况下的计数）</p>
+</li>
+</ul>
+<p>这些原理在几乎所有计数题中都会出现，只要把问题拆解成互斥子集或独立步骤，即可直接套用。</p>
+<h3 class="rp-toc-include" id="_3"><a href="#_3" class="rp-header-anchor rp-link" aria-hidden="true">#</a>经典例题</h3>
+<blockquote>
+<p><strong>路径计数</strong><br/>
+从 $A \to B$ 有 2 条路，$B \to D$ 有 3 条路；<br/>
+从 $A \to C$ 有 4 条路，$C \to D$ 有 5 条路。<br/>
+求 $A \to D$ 的所有路径数。</p>
+</blockquote>
+<p>解法直接使用乘法与加法原理：</p>
+<p>$$
+2 \times 3 ;+; 4 \times 5 ;=; 26
+$$</p>
+<h3 class="rp-toc-include" id="_4"><a href="#_4" class="rp-header-anchor rp-link" aria-hidden="true">#</a>经典应用：因数个数</h3>
+<p>给定整数 $N$，若其唯一素因子分解为</p>
+<p>$$
+N = p_1^{c_1} p_2^{c_2} \dots p_k^{c_k}
+$$</p>
+<p>则 $N$ 的正因数个数为</p>
+<p>$$
+\operatorname{cnt} = (c_1+1)(c_2+1)\dots(c_k+1)
+$$</p>
+<p>举例：$2160 = 2^4 \times 3^3 \times 5$，因此</p>
+<p>$$
+\operatorname{cnt} = (4+1)(3+1)(1+1)=40
+$$</p>
+<h3 class="rp-toc-include" id="_5"><a href="#_5" class="rp-header-anchor rp-link" aria-hidden="true">#</a>经典应用：子集个数</h3>
+<p>对大小为 $N$ 的集合 $S$，其子集数为</p>
+<p>$$
+2^{N}
+$$</p>
+<p>其中</p>
+<ul>
+<li>真子集：$2^{N}-1$</li>
+<li>非空子集：$2^{N}-1$</li>
+<li>非空真子集：$2^{N}-2$</li>
+</ul>
+<h2 class="rp-toc-include" id="_6"><a href="#_6" class="rp-header-anchor rp-link" aria-hidden="true">#</a>排列数和组合数</h2>
+<h3 class="rp-toc-include" id="_7"><a href="#_7" class="rp-header-anchor rp-link" aria-hidden="true">#</a>排列数</h3>
+<p>排列数 $A(n,m$ 表示从 $n$ 件物品中取出 $m$ 件并排成一列的方案数，公式为</p>
+<p>$$
+A(n,m)=\frac{n!}{(n-m)!}
+$$</p>
+<p>当 $m=n$ 时，$A(n,n)=n!$；约定 $0!=1$。</p>
+<h3 class="rp-toc-include" id="_8"><a href="#_8" class="rp-header-anchor rp-link" aria-hidden="true">#</a>组合数</h3>
+<p>组合数 $C(n,m$（记作 $displaystyle{n\choose m}$）表示从 $n$ 件物品中任选 $m$ 件，不计顺序的方案数，公式为</p>
+<p>$$
+{n\choose m}= \frac{n!}{(n-m)!,m!}
+$$</p>
+<p>关键性质包括对称性</p>
+<p>$$
+{n\choose m} = {n\choose n-m}
+$$</p>
+<p>以及递推式</p>
+<p>$$
+{n\choose m} = {n-1\choose m} + {n-1\choose m-1}
+$$</p>
+<h3 class="rp-toc-include" id="_9"><a href="#_9" class="rp-header-anchor rp-link" aria-hidden="true">#</a>一些常用性质</h3>
+<ul>
+<li>
+<p>乘法公式<br/>
+$$<br/>
+{n\choose m}{m\choose k} = {n\choose k}{n-k\choose m-k}<br/>
+$$</p>
+</li>
+<li>
+<p>二项式系数求和<br/>
+$$<br/>
+\sum_{i=0}^{n}{n\choose i}=2^{n}<br/>
+$$</p>
+</li>
+<li>
+<p>&quot;正难则反&quot;<br/>
+$$<br/>
+{n\choose a} = {n\choose b}\\Longrightarrow\ a+b=n\(a\neq b)<br/>
+$$</p>
+</li>
+</ul>
+<h2 class="rp-toc-include" id="_10"><a href="#_10" class="rp-header-anchor rp-link" aria-hidden="true">#</a>二项式定理</h2>
+<h3 class="rp-toc-include" id="_11"><a href="#_11" class="rp-header-anchor rp-link" aria-hidden="true">#</a>基本形式</h3>
+<p>二项式定理给出</p>
+<p>$$
+(a+b)^{n} = \sum_{i=0}^{n}{n\choose i}a^{n-i}b^{i}
+$$</p>
+<p>令 $b=1$ 可得到</p>
+<p>$$
+(a+1)^{n}= \sum_{i=0}^{n}{n\choose i}a^{i}
+$$</p>
+<h3 class="rp-toc-include" id="_12"><a href="#_12" class="rp-header-anchor rp-link" aria-hidden="true">#</a>杨辉三角</h3>
+<p>杨辉三角是组合数的可视化结构。递推规则为</p>
+<p>$$
+a_{i,1}=a_{i,i}=1,\qquad a_{i,j}=a_{i-1,j-1}+a_{i-1,j}
+$$</p>
+<p>每行对应 $a+1)^{i-1}$ 的系数。</p>
+<h3 class="rp-toc-include" id="_13"><a href="#_13" class="rp-header-anchor rp-link" aria-hidden="true">#</a>一些性质</h3>
+<ul>
+<li>
+<p>奇偶系数相等（当 $n$ 为偶数）<br/>
+$$<br/>
+\sum_{k\text{ 偶}}{n\choose k}= \sum_{k\text{ 奇}}{n\choose k}=2^{n-1}<br/>
+$$</p>
+</li>
+<li>
+<p>乘积形式<br/>
+$$<br/>
+{2n\choose n} = \frac{(2n)!}{n!\n!}<br/>
+$$</p>
+</li>
+</ul>
+<h3 class="rp-toc-include" id="_14"><a href="#_14" class="rp-header-anchor rp-link" aria-hidden="true">#</a>有趣的练习题</h3>
+<p><strong>例题</strong>：在 $x+y)(x-y)^{5}$ 的展开式中，求 $x^{n}y^{6-n}$ 的系数。<br/>
+解法利用二项式系数的交替符号，可得</p>
+<p>$$
+(-1)^{n}\left[{5\choose 6-n}-{5\choose 5-n}\right]
+$$</p>
+<h3 class="rp-toc-include" id="_15"><a href="#_15" class="rp-header-anchor rp-link" aria-hidden="true">#</a>二项式定理的解题套路</h3>
+<ol>
+<li><strong>把目标指数转化为系数求和</strong>：如求某项之和，可先代入 $x=1$ 与 $x=-1$ 形成线性方程组。</li>
+<li><strong>利用对称性</strong>：${n\choose i} = {n\choose n-i}$ 常用于化简求和范围。</li>
+<li><strong>正难则反</strong>：在计数题中常把&quot;不满足条件&quot;的组合计数后整体相减。</li>
+</ol>
+<h3 class="rp-toc-include" id="_16"><a href="#_16" class="rp-header-anchor rp-link" aria-hidden="true">#</a>推导组合性质</h3>
+<p>从二项式定理可推出<br/>
+$$<br/>
+\sum_{k=0}^{n}\frac{1}{k+1}{n\choose k}= \frac{2^{\n+1}-1}{n+1}<br/>
+$$</p>
+<p>以及交替符号版本</p>
+<p>$$
+\sum_{k=0}^{n}\frac{(-1)^{k}}{k+1}{n\choose k}= \frac{1}{n+1}
+$$</p>
+<h2 class="rp-toc-include" id="_17"><a href="#_17" class="rp-header-anchor rp-link" aria-hidden="true">#</a>进阶内容</h2>
+<h3 class="rp-toc-include" id="_18"><a href="#_18" class="rp-header-anchor rp-link" aria-hidden="true">#</a>容斥原理</h3>
+<p>计数时先把所有情况相加，再减去重叠部分，交叉部分加回，以此类推。公式概括为</p>
+<p>$$
+\bigl|!\bigcup_{i=1}^{m}A_{i}\bigr| = \sum_{i}|A_{i}| - \sum_{i&lt;j}|A_{i}\cap A_{j}| + \sum_{i&lt;j&lt;k}|A_{i}\cap A_{j}\cap A_{k}| - \dots
+$$</p>
+<blockquote>
+<p>示例：四位老师分配到四个班级，甲不能在 A 班、丁不能在 B 班，总方案数为<br/>
+$$<br/>
+4! - 2\times3! + 2! = 14<br/>
+$$</p>
+</blockquote>
+<h3 class="rp-toc-include" id="_19"><a href="#_19" class="rp-header-anchor rp-link" aria-hidden="true">#</a>鸽巢原理</h3>
+<p>若把 $n+1$ 件物品放入 $n$ 组，则必有至少一组包含两个或更多物品。推广为</p>
+<blockquote>
+<p>把 $n$ 件物品划分到 $k$ 组，必有一组至少 $left\lceil\frac{n}{k}\right\rceil$ 件。</p>
+</blockquote>
+<h3 class="rp-toc-include" id="_20"><a href="#_20" class="rp-header-anchor rp-link" aria-hidden="true">#</a>多重集</h3>
+<p>多重集允许元素出现多次。其排列数（多重组合数）为</p>
+<p>$$
+{n\choose n_{1},n_{2},\dots ,n_{k}} = \frac{n!}{\prod_{i=1}^{k} n_{i}!}
+$$</p>
+<p>若只关心选取 $r$ 项且每种元素无限供应，则组合数为</p>
+<p>$$
+{r+k-1\choose k-1}
+$$</p>
+<h3 class="rp-toc-include" id="_21"><a href="#_21" class="rp-header-anchor rp-link" aria-hidden="true">#</a>圆排列</h3>
+<p>圆形排列的方案数除以对称旋转数：</p>
+<p>$$
+Q(n,n)=\frac{n!}{n}=(n-1)!
+$$</p>
+<p>一般 $Q(n,m)=\dfrac{n!}{m,(n-m)!}$。</p>
+<h3 class="rp-toc-include" id="_22"><a href="#_22" class="rp-header-anchor rp-link" aria-hidden="true">#</a>错位排列</h3>
+<p>错位排列（或称&quot;错位排列&quot;）指没有任何元素出现在原位的排列，记为 $D_{n}$。闭式为</p>
+<p>$$
+D_{n}=n!\sum_{k=0}^{n}\frac{(-1)^{k}}{k!}
+$$</p>
+<p>递推公式</p>
+<p>$$
+D_{n}=(n-1)(D_{n-1}+D_{n-2})
+$$</p>
+<p>极限概率 $P_{n}=D_{n}/n!$ 满足 $ \displaystyle\lim_{n\to\infty}P_{n}=\frac{1}{e}$。</p>
+<h3 class="rp-toc-include" id="_23"><a href="#_23" class="rp-header-anchor rp-link" aria-hidden="true">#</a>卡特兰数</h3>
+<p>用于计数不穿越对角线的路径、合法括号序列等。显式公式</p>
+<p>$$
+C_{n}= \frac{1}{n+1}{2n\choose n}
+$$</p>
+<p>前几项为 $1, 1, 2, 5, 14, 42, 132,\dots$</p>
+<h3 class="rp-toc-include" id="lucas"><a href="#lucas" class="rp-header-anchor rp-link" aria-hidden="true">#</a>Lucas 定理</h3>
+<p>若 $p$ 为素数，则</p>
+<p>$$
+{n\choose m}\equiv \prod_{i}{a_{i}\choose b_{i}}\pmod{p}
+$$</p>
+<p>其中 $n=\sum a_{i}p^{i}$、$m=\sum b_{i}p^{i}$ 为 $p$ 进制展开。</p>
+<h3 class="rp-toc-include" id="_24"><a href="#_24" class="rp-header-anchor rp-link" aria-hidden="true">#</a>广义二项式定理</h3>
+<p>对任意实数 $r$，</p>
+<p>$$
+(1+x)^{r}= \sum_{k=0}^{\infty}{r\choose k}x^{k},\qquad {r\choose k}= \frac{r(r-1)\dots(r-k+1)}{k!}
+$$</p>
+<p>适用于非整数指数的展开。</p>
+<h2 class="rp-toc-include" id="_25"><a href="#_25" class="rp-header-anchor rp-link" aria-hidden="true">#</a>常见解题技巧和模型</h2>
+<h3 class="rp-toc-include" id="_26"><a href="#_26" class="rp-header-anchor rp-link" aria-hidden="true">#</a>特殊优先策略</h3>
+<p>先处理最受约束的对象（例如固定位置、禁止出现的元素），再对剩余部分使用通用计数公式。</p>
+<h3 class="rp-toc-include" id="_27"><a href="#_27" class="rp-header-anchor rp-link" aria-hidden="true">#</a>等效替代策略</h3>
+<p>通过构造双射，把原始计数问题转化为更易求解的等价问题，如捆绑法、插空法。</p>
+<h3 class="rp-toc-include" id="_28"><a href="#_28" class="rp-header-anchor rp-link" aria-hidden="true">#</a>先整体后局部策略</h3>
+<p>先确定大结构的位置（如整体排列），再在子结构内部做细分计数。</p>
+<h3 class="rp-toc-include" id="_29"><a href="#_29" class="rp-header-anchor rp-link" aria-hidden="true">#</a>正难则反策略</h3>
+<p>先算全部方案数，再减去不满足条件的方案数，常用于&quot;至少&quot;类约束。</p>
+<h3 class="rp-toc-include" id="_30"><a href="#_30" class="rp-header-anchor rp-link" aria-hidden="true">#</a>成套思想</h3>
+<p>把多项式系数的求和视为代入特定 $x$、$y$ 的线性组合，例如</p>
+<p>$$
+\sum a_{i}= \bigl[(a+1)^{n}\bigr]<em>{x=1},\qquad \sum (-1)^{i}a</em>{i}= \bigl[(a+1)^{n}\bigr]_{x=-1}
+$$</p>
+<h3 class="rp-toc-include" id="_31"><a href="#_31" class="rp-header-anchor rp-link" aria-hidden="true">#</a>倍缩法和可重策略</h3>
+<p>将若干对象视为&quot;一组&quot;，先算整体排列，再除以组内部的内部排列数。</p>
+<h3 class="rp-toc-include" id="_32"><a href="#_32" class="rp-header-anchor rp-link" aria-hidden="true">#</a>多排问题直排策略</h3>
+<p>当分组且每组有区别时，可直接视为一次完整排列，省去额外的组合步骤。</p>
+<h3 class="rp-toc-include" id="_33"><a href="#_33" class="rp-header-anchor rp-link" aria-hidden="true">#</a>模型和穷举策略</h3>
+<p>将题目拆解为&quot;排数模型&quot;和&quot;球盒模型&quot;，配合枚举或搜索，实现快速求解。</p>
+<h4 class="rp-toc-include" id="_34"><a href="#_34" class="rp-header-anchor rp-link" aria-hidden="true">#</a>模型一：排数问题</h4>
+<p>例如统计不重复三位数、奇偶数等，直接使用乘法原理并结合限制条件。</p>
+<h4 class="rp-toc-include" id="_35"><a href="#_35" class="rp-header-anchor rp-link" aria-hidden="true">#</a>模型二：球盒模型</h4>
+<p>根据球与盒子的是否同质、是否有限制，分别使用：</p>
+<ul>
+<li>直接计数 $m^{n}$（球不同、盒子不同）</li>
+<li>插板公式 ${n+m-1\choose m-1}$（球相同、盒子不同）</li>
+<li>斯特林数（球不同、盒子相同）</li>
+<li>其他限制使用容斥或分组计数。</li>
+</ul>
+<h2 class="rp-toc-include" id="_36"><a href="#_36" class="rp-header-anchor rp-link" aria-hidden="true">#</a>组合数大型运算推导</h2>
+<p>下面展示两条常用求和恒等式的简洁证明，帮助你在竞赛中快速写出严谨的推导。</p>
+<h3 class="rp-toc-include" id="1"><a href="#1" class="rp-header-anchor rp-link" aria-hidden="true">#</a>例 1</h3>
+<p>证明</p>
+<p>$$
+\sum_{i=0}^{k}(-1)^{i}{n\choose i}=(-1)^{k}{n-1\choose k}
+$$</p>
+<p>利用二项式恒等式 ${n\choose i}+{n\choose i+1}={n+1\choose i+1}$，并对上下标做适当移位，可得到所需等式。</p>
+<h3 class="rp-toc-include" id="2"><a href="#2" class="rp-header-anchor rp-link" aria-hidden="true">#</a>例 2</h3>
+<p>证明</p>
+<p>$$
+\sum_{k=0}^{n}\frac{1}{k+1}{n\choose k}= \frac{2^{,n+1}-1}{n+1}
+$$</p>
+<p>先把 $dfrac{1}{k+1}{n\choose k}$ 写成 $dfrac{1}{n+1}{n+1\choose k+1}$，再利用二项式系数求和 $sum_{k=0}^{n}{n+1\choose k+1}=2^{,n+1}-1$。</p>
+<p>这些技巧在处理带分母的组合求和时尤为有用。</p>
+<hr/>
+<blockquote>
+<p>想了解完整的推导过程、更多练习题以及细节解释，请访问原文链接：<a href="https://raineblog.dpdns.org/whk/science/probability/4/" target="_blank" rel="noopener noreferrer" class="rp-link">https://raineblog.dpdns.org/whk/science/probability/4/</a></p>
+</blockquote>
+<p>祝你在组合数学的世界里玩得开心，解题更顺手！</p><!--/$--></div><footer class="rp-doc-footer"><div class="rp-doc-footer__edit"><a href="https://github.com/raineblog/whk/blob/main/docs/blog/posts/2026-01-23-science-probability-7/index.md" target="_blank" class="rp-edit-link">📝 编辑此页面</a></div><div class="rp-doc-footer__divider"></div><div class="rp-prev-next-page"><div class="rp-prev-next-page__placeholder"></div><a href="/blog.html" class="rp-prev-next-page__item rp-prev-next-page__next rp-link"><span class="rp-prev-next-page__item__desc">下一页</span><span class="rp-prev-next-page__item__title"><span>index</span><svg width="1em" height="1em" viewBox="0 0 32 32" class="rp-prev-next-page__icon"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></span></a></div></footer></main></div><aside class="rp-doc-layout__outline rp-scrollbar"><div class="rp-outline"><div class="rp-outline__title">目录<svg width="14" height="14" class="rp-progress-circle"><circle cx="7" cy="7" r="6" stroke-linecap="round" fill="none" stroke="var(--rp-c-divider-light)" stroke-width="2"></circle><circle cx="7" cy="7" r="6" stroke-linecap="round" fill="none" stroke="var(--rp-c-brand)" stroke-width="2" stroke-dasharray="37.69911184307752" stroke-dashoffset="37.69911184307752" transform="rotate(-90 7 7)" style="transition:stroke-dashoffset 0.3s"></circle></svg></div><nav class="rp-outline__toc rp-scrollbar"><a href="#_1" class="rp-toc-item rp-link" title="文章概览" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">文章概览</span></a><a href="#_2" class="rp-toc-item rp-link" title="基础内容" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">基础内容</span></a><a href="#4" class="rp-toc-item rp-link" title="4 大原理" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">4 大原理</span></a><a href="#_3" class="rp-toc-item rp-link" title="经典例题" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">经典例题</span></a><a href="#_4" class="rp-toc-item rp-link" title="经典应用：因数个数" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">经典应用：因数个数</span></a><a href="#_5" class="rp-toc-item rp-link" title="经典应用：子集个数" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">经典应用：子集个数</span></a><a href="#_6" class="rp-toc-item rp-link" title="排列数和组合数" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">排列数和组合数</span></a><a href="#_7" class="rp-toc-item rp-link" title="排列数" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">排列数</span></a><a href="#_8" class="rp-toc-item rp-link" title="组合数" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">组合数</span></a><a href="#_9" class="rp-toc-item rp-link" title="一些常用性质" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">一些常用性质</span></a><a href="#_10" class="rp-toc-item rp-link" title="二项式定理" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">二项式定理</span></a><a href="#_11" class="rp-toc-item rp-link" title="基本形式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">基本形式</span></a><a href="#_12" class="rp-toc-item rp-link" title="杨辉三角" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">杨辉三角</span></a><a href="#_13" class="rp-toc-item rp-link" title="一些性质" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">一些性质</span></a><a href="#_14" class="rp-toc-item rp-link" title="有趣的练习题" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">有趣的练习题</span></a><a href="#_15" class="rp-toc-item rp-link" title="二项式定理的解题套路" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">二项式定理的解题套路</span></a><a href="#_16" class="rp-toc-item rp-link" title="推导组合性质" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">推导组合性质</span></a><a href="#_17" class="rp-toc-item rp-link" title="进阶内容" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">进阶内容</span></a><a href="#_18" class="rp-toc-item rp-link" title="容斥原理" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">容斥原理</span></a><a href="#_19" class="rp-toc-item rp-link" title="鸽巢原理" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">鸽巢原理</span></a><a href="#_20" class="rp-toc-item rp-link" title="多重集" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">多重集</span></a><a href="#_21" class="rp-toc-item rp-link" title="圆排列" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">圆排列</span></a><a href="#_22" class="rp-toc-item rp-link" title="错位排列" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">错位排列</span></a><a href="#_23" class="rp-toc-item rp-link" title="卡特兰数" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">卡特兰数</span></a><a href="#lucas" class="rp-toc-item rp-link" title="Lucas 定理" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">Lucas 定理</span></a><a href="#_24" class="rp-toc-item rp-link" title="广义二项式定理" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">广义二项式定理</span></a><a href="#_25" class="rp-toc-item rp-link" title="常见解题技巧和模型" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">常见解题技巧和模型</span></a><a href="#_26" class="rp-toc-item rp-link" title="特殊优先策略" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">特殊优先策略</span></a><a href="#_27" class="rp-toc-item rp-link" title="等效替代策略" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">等效替代策略</span></a><a href="#_28" class="rp-toc-item rp-link" title="先整体后局部策略" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">先整体后局部策略</span></a><a href="#_29" class="rp-toc-item rp-link" title="正难则反策略" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">正难则反策略</span></a><a href="#_30" class="rp-toc-item rp-link" title="成套思想" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">成套思想</span></a><a href="#_31" class="rp-toc-item rp-link" title="倍缩法和可重策略" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">倍缩法和可重策略</span></a><a href="#_32" class="rp-toc-item rp-link" title="多排问题直排策略" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">多排问题直排策略</span></a><a href="#_33" class="rp-toc-item rp-link" title="模型和穷举策略" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">模型和穷举策略</span></a><a href="#_34" class="rp-toc-item rp-link" title="模型一：排数问题" style="padding-left:24px" data-depth="2"><span class="rp-toc-item__text rp-doc">模型一：排数问题</span></a><a href="#_35" class="rp-toc-item rp-link" title="模型二：球盒模型" style="padding-left:24px" data-depth="2"><span class="rp-toc-item__text rp-doc">模型二：球盒模型</span></a><a href="#_36" class="rp-toc-item rp-link" title="组合数大型运算推导" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">组合数大型运算推导</span></a><a href="#1" class="rp-toc-item rp-link" title="例 1" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">例 1</span></a><a href="#2" class="rp-toc-item rp-link" title="例 2" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">例 2</span></a></nav><div class="rp-outline__divider"></div><div class="rp-outline__bottom"><button class="rp-outline__scroll-to-top"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.99967 14.6667C11.6816 14.6667 14.6663 11.6819 14.6663 8.00001C14.6663 4.31811 11.6816 1.33334 7.99967 1.33334C4.31777 1.33334 1.33301 4.31811 1.33301 8.00001C1.33301 11.6819 4.31777 14.6667 7.99967 14.6667Z" stroke="currentColor" stroke-opacity="0.8" stroke-width="1.33333"></path><path d="M7.99967 14.6667C11.6816 14.6667 14.6663 11.6819 14.6663 8.00001C14.6663 4.31811 11.6816 1.33334 7.99967 1.33334C4.31777 1.33334 1.33301 4.31811 1.33301 8.00001C1.33301 11.6819 4.31777 14.6667 7.99967 14.6667Z" stroke="currentColor" stroke-opacity="0.8" stroke-width="1.33333" stroke-linejoin="round"></path><path d="M11 9L8 6L5 9" stroke="currentColor" stroke-opacity="0.8" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>回到顶部</span></button></div></div></aside></div></div>
+    <div id="__rspress_modal_container"></div>
+  </body>
+</html>

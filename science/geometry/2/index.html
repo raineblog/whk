@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="zh">
+  <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>直线和圆 - RainPPR&#x27;s WHK Blog</title>
+<script>{;const saved = localStorage.getItem('rspress-theme-appearance');const preferDark = window.matchMedia('(prefers-color-scheme: dark)').matches;const isDark = !saved || saved === 'auto' ? preferDark : saved === 'dark';document.documentElement.classList.toggle('dark', isDark);document.documentElement.classList.toggle('rp-dark', isDark);document.documentElement.style.colorScheme = isDark ? 'dark' : 'light';}</script>
+<link href="/static/css/styles.e677259f24.css" rel="stylesheet">
+<script defer src="/static/js/styles.9144b0cc93.js"></script>
+<script defer src="/static/js/lib-react.f52f1375e2.js"></script>
+<script defer src="/static/js/lib-router.5a60554bda.js"></script>
+<script defer src="/static/js/9005.ba4b7aa243.js"></script>
+<script defer src="/static/js/index.3587243b40.js"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Rspress v2.0.3">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="直线和圆 - RainPPR's WHK Blog">
+<meta name="description" content="RainPPR 的文化课博客，主要是理科，尤其是数学、物理、化学、生物等高中学科的知识及题型等笔记。">
+<meta property="og:description" content="RainPPR 的文化课博客，主要是理科，尤其是数学、物理、化学、生物等高中学科的知识及题型等笔记。"></head>
+
+  <body>
+    <div id="__rspress_root"><link rel="preload" as="image" href="./docs/logo.svg"/><link rel="preload" as="image" href="/static/image/image-6.1910dad12c.avif"/><link rel="preload" as="image" href="/static/image/image-4.0d2d7ed0fe.avif"/><link rel="preload" as="image" href="/static/image/image-5.728f368cbc.avif"/><link rel="preload" as="image" href="/static/image/image-2.89d163d572.avif"/><link rel="preload" as="image" href="/static/image/image.24ae1f8fc4.avif"/><header class="rp-nav"><div class="rp-nav__left"><div class="rp-nav__title"><a href="/" class="rp-nav__title__link rp-link"><div class="rp-nav__title__logo"><img src="./docs/logo.svg" alt="logo" id="logo" class="rspress-logo rp-nav__title__logo-image"/></div><span>RainPPR&#x27;s WHK Blog</span></a></div></div><div class="rp-nav__right"><button class="rp-search-button"><div class="rp-search-button__content"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 20 21" class="rp-search-button__icon"><path fill="currentColor" d="M8.333 1.913A6.667 6.667 0 0 1 15 8.58c0 1.54-.525 2.957-1.402 4.085l4.49 4.492a.834.834 0 0 1-1.177 1.178l-4.491-4.49a6.64 6.64 0 0 1-4.087 1.402 6.667 6.667 0 0 1 0-13.334m0 1.667a5 5 0 1 0 0 10 5 5 0 0 0 0-10"></path></svg><span class="rp-search-button__word">搜索</span></div><div class="rp-search-button__hotkey" style="opacity:0"><span></span><span>K</span></div></button><div class="rp-search-button--mobile"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 20 21"><path fill="currentColor" d="M8.333 1.913A6.667 6.667 0 0 1 15 8.58c0 1.54-.525 2.957-1.402 4.085l4.49 4.492a.834.834 0 0 1-1.177 1.178l-4.491-4.49a6.64 6.64 0 0 1-4.087 1.402 6.667 6.667 0 0 1 0-13.334m0 1.667a5 5 0 1 0 0 10 5 5 0 0 0 0-10"></path></svg></div><ul class="rp-nav-menu rp-nav-menu--right"><li class="rp-nav-menu__item rp-nav-menu__item--active"><a href="/index.html" class="rp-nav-menu__item__container rp-link">简介</a></li><li class="rp-nav-menu__item"><a href="/cultural/grammar/1.html" class="rp-nav-menu__item__container rp-link">中学文科</a></li><li class="rp-nav-menu__item"><a href="/science/mathematics/1.html" class="rp-nav-menu__item__container rp-link">高中理科</a></li><li class="rp-nav-menu__item"><a href="/blog.html" class="rp-nav-menu__item__container rp-link">Blog</a></li></ul><div class="rp-nav__others"><div class="rp-nav-menu__divider"></div><div class="rp-switch-appearance"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" class="rp-switch-appearance__icon rp-switch-appearance__icon--sun"><path fill="currentColor" d="m7.001 15.848-1.226 1.226a.58.58 0 0 0 0 .818.58.58 0 0 0 .818 0l1.226-1.226a.58.58 0 0 0 0-.818.58.58 0 0 0-.818 0m-.352-8.735a.584.584 0 0 0 .825-.825L6.237 5.051a.584.584 0 0 0-.825.825zM5.011 11.07h-1.75a.584.584 0 0 0 0 1.167h1.75c.324 0 .584-.26.584-.583a.585.585 0 0 0-.584-.584m7.003-5.835c.324 0 .584-.26.584-.584V2.9a.58.58 0 0 0-.584-.584.58.58 0 0 0-.583.583V4.65c0 .323.262.584.583.584m5.616 1.621 1.226-1.225a.58.58 0 0 0 0-.818.58.58 0 0 0-.818 0l-1.226 1.225a.58.58 0 0 0 0 .818.576.576 0 0 0 .818 0m3.138 4.214h-1.75a.58.58 0 0 0-.584.584c0 .324.26.584.583.584h1.751a.584.584 0 1 0 0-1.167m-3.389 5.124a.584.584 0 0 0-.825.825l1.238 1.238a.584.584 0 0 0 .825-.826zm-5.365-9.795a5.256 5.256 0 0 0-5.257 5.258 5.256 5.256 0 0 0 5.257 5.257 5.256 5.256 0 0 0 5.257-5.257 5.256 5.256 0 0 0-5.257-5.258m0 11.675a.58.58 0 0 0-.583.583v1.751a.582.582 0 1 0 1.167 0v-1.75a.584.584 0 0 0-.584-.584"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" viewBox="0 0 19 19" class="rp-switch-appearance__icon rp-switch-appearance__icon--moon"><path fill="currentColor" d="M9.166 0a9.2 9.2 0 0 1 1.857.188.834.834 0 0 1 .042 1.623 4.47 4.47 0 1 0 5.457 5.457l.048-.135a.834.834 0 0 1 1.575.177q.186.902.188 1.856A9.168 9.168 0 1 1 9.166 0"></path></svg></div><div class="rp-social-links"><a href="https://github.com/RainPPR" target="_blank" rel="noopener noreferrer" class="rp-social-links__item"><div class="rp-social-links__icon"><div class="rp-social-links__icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12c0 5.303 3.438 9.8 8.205 11.385c.6.113.82-.258.82-.577c0-.285-.01-1.04-.015-2.04c-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729c1.205.084 1.838 1.236 1.838 1.236c1.07 1.835 2.809 1.305 3.495.998c.108-.776.417-1.305.76-1.605c-2.665-.3-5.466-1.332-5.466-5.93c0-1.31.465-2.38 1.235-3.22c-.135-.303-.54-1.523.105-3.176c0 0 1.005-.322 3.3 1.23c.96-.267 1.98-.399 3-.405c1.02.006 2.04.138 3 .405c2.28-1.552 3.285-1.23 3.285-1.23c.645 1.653.24 2.873.12 3.176c.765.84 1.23 1.91 1.23 3.22c0 4.61-2.805 5.625-5.475 5.92c.42.36.81 1.096.81 2.22c0 1.606-.015 2.896-.015 3.286c0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></div></div></a><a href="https://x.com/rainppr2008" target="_blank" rel="noopener noreferrer" class="rp-social-links__item"><div class="rp-social-links__icon"><div class="rp-social-links__icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584l-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></div></div></a><ul class="rp-hover-group rp-hover-group--hidden rp-hover-group--right"></ul></div></div><button aria-label="mobile hamburger" class="rp-nav-hamburger rp-nav-hamburger__sm"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="none" viewBox="0 0 21 21"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667" d="M3.645 5.225h13.333M3.645 10.225h13.333M3.645 15.225h13.333"></path></svg></button><button aria-label="mobile hamburger" class="rp-nav-hamburger rp-nav-hamburger__md"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="none" viewBox="0 0 21 21"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667" d="M3.645 5.225h13.333M3.645 10.225h13.333M3.645 15.225h13.333"></path></svg><ul class="rp-hover-group rp-hover-group--hidden rp-hover-group--right"><div class="rp-nav-menu__others-mobile__container"><div class="rp-nav-hamburger__md__hover-group"><div class="rp-nav-screen-appearance"><div class="rp-nav-screen-appearance__left">主题</div><div class="rp-nav-screen-appearance__right"></div></div><div class="rp-nav-screen-divider"></div><div class="rp-social-links"><a href="https://github.com/RainPPR" target="_blank" rel="noopener noreferrer" class="rp-social-links__item"><div class="rp-social-links__icon"><div class="rp-social-links__icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12c0 5.303 3.438 9.8 8.205 11.385c.6.113.82-.258.82-.577c0-.285-.01-1.04-.015-2.04c-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729c1.205.084 1.838 1.236 1.838 1.236c1.07 1.835 2.809 1.305 3.495.998c.108-.776.417-1.305.76-1.605c-2.665-.3-5.466-1.332-5.466-5.93c0-1.31.465-2.38 1.235-3.22c-.135-.303-.54-1.523.105-3.176c0 0 1.005-.322 3.3 1.23c.96-.267 1.98-.399 3-.405c1.02.006 2.04.138 3 .405c2.28-1.552 3.285-1.23 3.285-1.23c.645 1.653.24 2.873.12 3.176c.765.84 1.23 1.91 1.23 3.22c0 4.61-2.805 5.625-5.475 5.92c.42.36.81 1.096.81 2.22c0 1.606-.015 2.896-.015 3.286c0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></div></div></a><a href="https://x.com/rainppr2008" target="_blank" rel="noopener noreferrer" class="rp-social-links__item"><div class="rp-social-links__icon"><div class="rp-social-links__icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584l-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></div></div></a><ul class="rp-hover-group rp-hover-group--hidden rp-hover-group--right"></ul></div></div></div></ul></button></div></header><div class="rp-doc-layout__menu"><div class="rp-sidebar-menu"><button type="button" class="rp-sidebar-menu__left"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M4 6h24v2H4zm0 18h24v2H4zm0-12h24v2H4zm0 6h24v2H4z"></path></svg><span>菜单</span></button><button type="button" class="rp-sidebar-menu__right"><span class="rp-sidebar-menu__right__text">目录</span><svg width="14" height="14" class="rp-progress-circle"><circle cx="7" cy="7" r="6" stroke-linecap="round" fill="none" stroke="var(--rp-c-divider-light)" stroke-width="2"></circle><circle cx="7" cy="7" r="6" stroke-linecap="round" fill="none" stroke="var(--rp-c-brand)" stroke-width="2" stroke-dasharray="37.69911184307752" stroke-dashoffset="37.69911184307752" transform="rotate(-90 7 7)" style="transition:stroke-dashoffset 0.3s"></circle></svg><svg width="1em" height="1em" viewBox="0 0 32 32" class="rp-sidebar-menu__right__icon" style="transform:rotate(0deg);transition:transform 0.2s ease-out"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></button></div></div><div class="rp-doc-layout__container"><aside class="rp-doc-layout__sidebar rp-scrollbar"><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>数系与公理系统</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/mathematics/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/mathematics/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/mathematics/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>函数极限微积分</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/function/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/function/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/function/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/function/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/function/5.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>5</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>多项式与不等式</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/polynomial/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/polynomial/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/polynomial/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/polynomial/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/polynomial/5.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>5</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>数列与离散数学</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/sequence/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/sequence/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/sequence/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/sequence/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>组合与概率统计</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/probability/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/probability/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/probability/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/probability/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>数论与算法初步</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/number/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/number/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/number/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>三角与平面几何</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/plane/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/plane/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/plane/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/plane/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/plane/5.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>5</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>解析几何与圆曲</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/geometry/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/geometry/2.html" class="rp-sidebar-item rp-sidebar-item--active rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/geometry/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/geometry/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/geometry/5.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>5</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>空间与立体几何</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/solid/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/solid/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/solid/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>运动与物理方法</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/kinematics/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/kinematics/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/kinematics/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/kinematics/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/kinematics/5.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>5</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>力学与天体力学</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/mechanics/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/mechanics/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/mechanics/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/mechanics/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/mechanics/5.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>5</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/mechanics/6.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>6</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/mechanics/7.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>7</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>电路学与电化学</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/circuitry/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/circuitry/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/circuitry/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/circuitry/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>电磁场与电磁波</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/electromagnetism/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/electromagnetism/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/electromagnetism/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/electromagnetism/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/electromagnetism/5.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>5</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/electromagnetism/6.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>6</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>热学与近代物理</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/modern/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/modern/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/modern/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/modern/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>计量与结构化学</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/structure/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/structure/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/structure/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/structure/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>元素与物质性质</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/element.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>element</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/element/na.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>na</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/element/mg.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>mg</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/element/al.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>al</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/element/si.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>si</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/element/n.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>n</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/element/s.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>s</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/element/cl.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>cl</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/element/fe.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>fe</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>反应速率与平衡</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/reaction/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/reaction/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/reaction/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>有机化学与合成</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/organic/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/organic/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/organic/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/organic/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/organic/5.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>5</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>细胞与细胞工程</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/cell/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/cell/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/cell/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/cell/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>遗传与基因工程</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/genetics/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/genetics/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/genetics/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/genetics/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>生化实验与应用</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/experiment/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/experiment/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/experiment/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>人体结构与功能</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/human/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/human/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/human/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/human/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/human/5.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>5</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/human/6.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>6</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/human/7.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>7</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/human/8.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>8</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/human/9.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>9</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>物种与生物概述</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/species/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/species/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/species/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/species/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div><div class="rp-sidebar-item rp-sidebar-group" style="padding-left:12px" data-depth="0"><div class="rp-sidebar-item__left"><span>生态学与地理学</span></div><div class="rp-sidebar-item__right"><div style="cursor:pointer;transition:transform 0.2s ease-out;transform:rotate(90deg)"><svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></div></div></div><div style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 0.2s ease-out"><div style="overflow:hidden"><a href="/science/nature/1.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>1</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/nature/2.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>2</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/nature/3.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>3</span></div><div class="rp-sidebar-item__right"></div></a><a href="/science/nature/4.html" class="rp-sidebar-item rp-sidebar-item--group-item rp-link" style="padding-left:calc(12px * 1 + 12px)" data-depth="1"><div class="rp-sidebar-item__left"><span>4</span></div><div class="rp-sidebar-item__right"></div></a></div></div></aside><div class="rp-doc-layout__doc"><main class="rp-doc-layout__doc-container"><div class="rp-doc rspress-doc"><!--$--><h1 class="rp-toc-include" id="_1"><a href="#_1" class="rp-header-anchor rp-link" aria-hidden="true">#</a>直线和圆<!-- --> </h1>
+<span data-dark="false" class="rp-reading-time">预计阅读时间: 29 分钟</span>
+<h2 class="rp-toc-include" id="_2"><a href="#_2" class="rp-header-anchor rp-link" aria-hidden="true">#</a>直线方程</h2>
+<h3 class="rp-toc-include" id="_3"><a href="#_3" class="rp-header-anchor rp-link" aria-hidden="true">#</a>点斜式</h3>
+<p>确定一条直线需要两条信息，假设我们知道了一条直线过一个点 $x_0,y_0$，那么我们只需要知道这条直线的倾斜角或者斜率，就可以确定这条直线了。</p>
+<p>我们定义直线的方向为直线向上的方向，这个方向与 $x$ 轴正半轴的夹角 $theta$，记为这条直线的<strong>倾斜角</strong>，倾斜角的范围是 $theta\in[0,\pi$。特殊的，规定 $x$ 轴的倾斜角为 $0$。</p>
+<p>我们定义直线的<strong>斜率</strong>为：</p>
+<p>$$
+k=\dfrac{y_2-y_1}{x_2-x_1},x_1\neq x_2
+$$</p>
+<p>也就是，$x$ 每增加 $1$，$y$ 的变化量就是直线的斜率，特殊的，我们不定义平行于 $y$ 轴的直线的斜率。容易得到：</p>
+<ul>
+<li>
+<p>倾斜角 $alpha\in(0,\pi/2$，斜率 $k&gt;0$，$y$ 随 $x$ 增大而增大。</p>
+</li>
+<li>
+<p>倾斜角 $alpha\in(\pi/2,\pi$，斜率 $k&lt;0$，$y$ 随 $x$ 增大而减小。</p>
+</li>
+</ul>
+<p>$$
+k=\tan\theta,\quad\theta=\arctan k
+$$</p>
+<p>因此，我们就可以得到直线方程的点斜式：</p>
+<p>$$
+\boxed{y-y_0=k(x-x_0)}\tag{\scriptsize\text{点斜式}}
+$$</p>
+<h3 class="rp-toc-include" id="_4"><a href="#_4" class="rp-header-anchor rp-link" aria-hidden="true">#</a>两点式</h3>
+<p>容易知道，两点确定一条直线，如果两点横坐标不相等，我们可以这么写出直线方程：</p>
+<p>$$
+\boxed{y-y_1=\dfrac{y_2-y_1}{x_2-x_1}(x-x_1)}\tag{\scriptsize\text{两点式}}
+$$</p>
+<p>可以认为是把点斜式和斜率的公式带入而已，也可以认为是：</p>
+<p>$$
+\boxed{\dfrac{y-y_1}{x-x_1}=\dfrac{y_2-y_1}{x_2-x_1}}\tag{\scriptsize\text{两点式}}
+$$</p>
+<p>等一系列斜率的等式。</p>
+<h3 class="rp-toc-include" id="_5"><a href="#_5" class="rp-header-anchor rp-link" aria-hidden="true">#</a>点向式</h3>
+<p>我们知道过一个点的直线可以用法向量或方向向量来表示，我们将在一般式中用到法向量，因此这里用方向向量的方法。假设 $M_0(x_0,y_0$ 在直线 $ell$ 上，直线方向向量 $bm e=(A,B$，因此直线上任意一点满足：</p>
+<p>$$
+\overrightarrow{OM}=\overrightarrow{OM_0}+\lambda\bm e,\lambda\in\R
+$$</p>
+<p>容易知道，直线斜率就是 $B/A$。</p>
+<h3 class="rp-toc-include" id="_6"><a href="#_6" class="rp-header-anchor rp-link" aria-hidden="true">#</a>参数式</h3>
+<p>从向量式出发，可以将参数 $lambda$ 引入方程组：</p>
+<p>$$
+\begin{cases} x&amp;=x_0+A\lambda\ y&amp;=y_0+B\lambda \end{cases}
+$$</p>
+<p>或者从点斜式出发：</p>
+<p>$$
+\begin{cases} x&amp;=x_0+\lambda\cos\alpha\ y&amp;=y_0+\lambda\sin\alpha \end{cases}
+$$</p>
+<p>称为参数式，这个表示不常用。</p>
+<h3 class="rp-toc-include" id="_7"><a href="#_7" class="rp-header-anchor rp-link" aria-hidden="true">#</a>斜截式</h3>
+<p>当一个点横坐标为 $0$，点斜式就退化为斜截式，斜截式的通式为：</p>
+<p>$$
+\boxed{y=kx+b}\tag{\scriptsize\text{斜截式}}
+$$</p>
+<p>其中 $b$ 称为纵截距，这也是初中数学的常用形式。</p>
+<h3 class="rp-toc-include" id="_8"><a href="#_8" class="rp-header-anchor rp-link" aria-hidden="true">#</a>截距式</h3>
+<p>当两点分别在 $x,y$ 轴上，两点式退化为截距式：</p>
+<p>$$
+\boxed{\dfrac{x}{a}+\dfrac{y}{b}=1}\tag{\scriptsize\text{截距式}}
+$$</p>
+<p>注意：正比例函数 $y=x$ 无法写成截距式，这个通常要特殊讨论。</p>
+<p>表示两点分别是 $a,0),(0,b$，分别称为横截距和纵截距。</p>
+<h3 class="rp-toc-include" id="_9"><a href="#_9" class="rp-header-anchor rp-link" aria-hidden="true">#</a>一般式</h3>
+<p>我在这里用法向量的方法做截距式，如下：</p>
+<p>一条直线过 $M_0(x_0,y_0$，且法向量为 $bm n=(A,B$，则对于直线上一点 $M(x,y$ 有：</p>
+<p>$$
+MM_0\cdot\bm n=0
+$$</p>
+<p>展开得到：</p>
+<p>$$
+A(x-x_0)+B(y-y_0)=0
+$$</p>
+<p>设 $C=-(Ax_0+By_0$，那么可以得到一般式：</p>
+<p>$$
+\boxed{Ax+By+C=0}\tag{\scriptsize\text{一般式}}
+$$</p>
+<p>在这形式下，直线的斜率是 $-\dfrac{A}{B}$ ，横截距是 $-\dfrac{C}{A}$ ，纵截距是 $-\dfrac{C}{B}$。</p>
+<p>特殊的，如果直线过原点，则 $C=0$；对于斜率不存在的，直线方程就为 $x=x_0$。</p>
+<p>写一般式技巧：</p>
+<ul>
+<li>用两种方式表示斜率，比如用 $x,y$ 点和任意给定的一点，给定的两点，然后化简。</li>
+</ul>
+<h2 class="rp-toc-include" id="_10"><a href="#_10" class="rp-header-anchor rp-link" aria-hidden="true">#</a>圆的方程</h2>
+<p>在有关圆的问题中几何法往往是第一选择，但解析几何的意思就是用代数的万法研究几何问题。在这里代数方法指的就是坐标法求出坐标成了最关键的一步，而求坐标的大前提就是需要联立直线与圆的方程，我们会在圆锥曲线中详细讨论这个问题。</p>
+<h3 class="rp-toc-include" id="_11"><a href="#_11" class="rp-header-anchor rp-link" aria-hidden="true">#</a>极坐标</h3>
+<p>理解：在笛卡尔坐标系中，我们关心的是点到坐标轴的距离，同样，我们也可以关心点到原点的距离，那么，我们还需要一个「方向」信息，于是我们引入点与原点的连线与 $x$ 轴的夹角，即为极坐标。</p>
+<ul>
+<li>在平面上选一定点 $O$，称为极点。</li>
+<li>自极点引出一条射线 $Ox$，称为极轴。</li>
+<li>选择一个单位长度（在数学问题中通常为 $1$），一个角度单位（通常为弧度）及其正方向（通常为逆时针方向）。</li>
+</ul>
+<p>就建立了平面极坐标系。设 $A$ 为平面上一点。</p>
+<ul>
+<li>极点 $O$ 与 $A$ 之间的距离 $|OA|$ 称为极径，记为 $rho$。</li>
+<li>以极轴为始边，$OA$ 为终边的角 $angle xOA$ 称为极角，记为 $varphi$。</li>
+<li>那么有序数对 $rho,\varphi$ 即为 $A$ 的极坐标。</li>
+</ul>
+<p>由终边相同的角的定义可知，$rho,\varphi$ 与 $rho,\varphi + 2k\pi)\ (k\in \mathbf{Z}$ 其实表示的是一样的点。特别地，极点的极坐标为 $0,\varphi)\ (\varphi \in \mathbf{R}$，于是平面内的点的极坐标表示有无数多种。如果规定 $rho \ge 0,0 \le \varphi &lt; 2\pi$，那么除极点外，其他平面内的点可以用唯一有序数对 $rho,\varphi$ 表示，而极坐标 $rho,\varphi$ 表示的点是唯一确定的。</p>
+<p>当然，有时候研究极坐标系下的图形有些不方便。要想转到直角坐标系下研究，有互化公式。点 $A(\rho,\varphi$ 的直角坐标 $x,y$ 可以如下表示：</p>
+<p>$$
+\begin{cases} x &amp;= \rho \cos \varphi \ y &amp;= \rho \sin \varphi \end{cases}
+$$</p>
+<p>进而可知：</p>
+<p>$$
+\begin{aligned} \rho^2 &amp;= x^2 + y^2\ \tan \varphi &amp;= \frac{y}{x}\quad(x\not =0) \end{aligned}
+$$</p>
+<p>于是有 $rho = \sqrt{x^2+y^2}$。但具有相同 $dfrac{y}{x}$ 的 $tan\varphi$ 有两个可能的 $varphi$ 的值，此时还需要根据 $x, y$ 的值来确定方向。具体地，定义函数：</p>
+<p>$$
+\operatorname{atan2}(y, x) = \begin{cases} \arctan(\frac{y}{x}) &amp; \text{if } x &gt; 0 \ \arctan(\frac{y}{x}) + \pi &amp; \text{if } y \ge 0, x &lt; 0 \ \arctan(\frac{y}{x}) - \pi &amp; \text{if } y &lt; 0, x &lt; 0 \ \pi/2 &amp; \text{if } y &gt; 0, x = 0 \ -\pi/2 &amp; \text{if } y &lt; 0, x = 0 \ \text{any} &amp; \text{if } y = 0, x = 0 \end{cases}
+$$</p>
+<p>则 $varphi = \operatorname{atan2}(y, x$。注意上述函数的值域为 $-\pi, \pi$。</p>
+<p>注意，在极坐标中表示直线或曲线，我们常用 $rho=f(\varphi$ 的函数。</p>
+<h3 class="rp-toc-include" id="_12"><a href="#_12" class="rp-header-anchor rp-link" aria-hidden="true">#</a>标准方程</h3>
+<p>我们知道圆可以通过圆心和半径确定，我们写出距离公式：</p>
+<p>$$
+\boxed{(x-a)^2+(y-b)^2=r^2}
+$$</p>
+<p>即为圆的标准方程，而圆内和圆外分别为小于号和大于号。</p>
+<p>单位圆的标准方程：</p>
+<p>$$
+x^2+y^2=1
+$$</p>
+<h3 class="rp-toc-include" id="_13"><a href="#_13" class="rp-header-anchor rp-link" aria-hidden="true">#</a>一般方程</h3>
+<p>我们将标准方程展开：</p>
+<p>$$
+x^2+y^2-2ax-2by+a^2+b^2-r^2=0
+$$</p>
+<p>分别设：</p>
+<p>$$
+\begin{cases} D&amp;=-2a\ E&amp;=-2b\ F&amp;=a^2+b^2-r^2 \end{cases}
+$$</p>
+<p>而根据次数，$A,B,C$ 分别为 $x^2,y^2,xy$ 的系数，分别为 $1,1,0$，我们不在一般方程中体现，但是字母保留，不用写出，因此字母应当从 $D$ 开始写，即一般方程：</p>
+<p>$$
+\boxed{x^2+y^2+Dx+Ey+F=0}
+$$</p>
+<p>一个圆一定可以表示成这个形式，但是满足这个形式的不一定是一个圆，根据配方法：</p>
+<p>$$
+\boxed{\left(x+\dfrac{D}{2}\right)+\left(y+\dfrac{E}{2}\right)=\dfrac{D^2+E^2-4F}{4}}
+$$</p>
+<p>因此只要 $D^2+E^2&gt;4F$，该方程就可以表示一个圆了；特殊的，如果 $D=E=F$ 则该方程表示一个点 $0,0$。具体的，圆心：$left(-\dfrac{D}{2},-\dfrac{E}{2}\right$，半径：$dfrac{\sqrt{D^2+E^2-4F}}{2}$。</p>
+<p>做题方法：</p>
+<ul>
+<li>
+<p>一般来说，给定三个点，会求一般方程，因为一般方程是一次方程。</p>
+</li>
+<li>
+<p>如果有两个点某坐标相等，那么做出垂直平分线，然后设出标准方程。</p>
+</li>
+<li>
+<p>一般方程判断点是否在圆内、外，只需要用左式与 $0$ 比较即可，大于 $0$ 在圆外，小于 $0$ 在园内。</p>
+</li>
+</ul>
+<p>直径方程：已知一个圆的一条直径 $AB$，则圆的方程可以表示为：</p>
+<p>$$
+\boxed{(x-x_1)(x-x_2)+(y-y_1)(y-y_2)=0}
+$$</p>
+<p>容易知道根据直径所对圆周角是直角，向量点积为零得到，即为圆的方程。</p>
+<p>已知点 $A(x_1, y_1$，$B(x_2, y_2$，若</p>
+<p>$$
+\overrightarrow{AP} \cdot \overrightarrow{BP} = \lambda
+$$</p>
+<p>则点 $P$ 的轨迹是圆，其方程为：</p>
+<p>$$
+(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = \lambda
+$$</p>
+<p>其中 $x_1 - x_2)^2 + (y_1 - y_2)^2 + 4\lambda &gt; 0$。</p>
+<h3 class="rp-toc-include" id="_14"><a href="#_14" class="rp-header-anchor rp-link" aria-hidden="true">#</a>向量方程</h3>
+<p>在平面中，把所有等长的向量平移到同一起点，则构成的图形必然是圆，而这些以圆心为起点的向量，方向却是任意的，但是长度始终是恒定的。根据圆的定义可以得到标准圆的向量形式：</p>
+<ul>
+<li>向量式标准圆 $|\boldsymbol{a} - \boldsymbol{a}_0| = r$，其中 $boldsymbol{a}_0$ 是确定的，$r$ 为大于零的常数。</li>
+</ul>
+<p>在圆的性质之中，率先容易想到的莫过于直径所对的圆周角为直角，而向量的数量积恰恰是角度最好的体现，则有如下知识点：</p>
+<ul>
+<li>向量式直径圆：$boldsymbol{c} - \boldsymbol{a}) \cdot (\boldsymbol{c} - \boldsymbol{b}) = 0$。这是以 $|\boldsymbol{a} - \boldsymbol{b}|$ 为直径的圆。</li>
+</ul>
+<p>在遇到以线段长为直径的圆的时候，我们要做就是转化圆上的点与线段的两端点所构成的数量积为零。但我们都知道直径是特殊的弦，由特殊性必然可以推广到一般性，即直径圆的向量形式：$boldsymbol{c} - \boldsymbol{a}) \cdot (\boldsymbol{c} - \boldsymbol{b}) = 0$。这是以 $|\boldsymbol{a} - \boldsymbol{b}|$ 为直径的圆。正是由于角度的特殊性，可以通过数量积体现出直角，若不是直角时，我们发现数量积就没有一般性了，因此我们把直径圆的向量式一般化就可以得到 $langle \boldsymbol{c} - \boldsymbol{a}, \boldsymbol{c} - \boldsymbol{b} \rangle = 90^{\circ}$，其中 $|\boldsymbol{a} - \boldsymbol{b}|$ 为定值。由此我们可以得到外接圆的向量形式：</p>
+<ul>
+<li>向量式外接圆：$langle \boldsymbol{c} - \boldsymbol{a}, \boldsymbol{c} - \boldsymbol{b} \rangle = \theta$ 且 $|\boldsymbol{a} - \boldsymbol{b}|$ 为定值。</li>
+</ul>
+<h3 class="rp-toc-include" id="_15"><a href="#_15" class="rp-header-anchor rp-link" aria-hidden="true">#</a>圆心系</h3>
+<p>我们考虑这个方程：</p>
+<p>$$
+(x-3\cos\theta)^2+(y-3\sin\theta)^2=1
+$$</p>
+<p>容易知道，这是一个以 $3\cos\theta,3\sin\theta$ 为圆心、半径为 $1$ 的圆，</p>
+<p><img alt="alt text" src="/static/image/image-6.1910dad12c.avif"/>{width=&quot;40%&quot;}</p>
+<p>这样的圆有无数个，围成了一个圆环。</p>
+<h2 class="rp-toc-include" id="_16"><a href="#_16" class="rp-header-anchor rp-link" aria-hidden="true">#</a>直线和圆</h2>
+<h3 class="rp-toc-include" id="_17"><a href="#_17" class="rp-header-anchor rp-link" aria-hidden="true">#</a>平行与垂直</h3>
+<p>基本思想：</p>
+<ul>
+<li>
+<p>两条直线平行，当且仅当 $k_1=k_2$ 或 $theta_1=\theta_2$。</p>
+</li>
+<li>
+<p>两条直线垂直，当且记得 $k_1k_2=-1$ 或 $theta_1+\theta_2=90^\circ$。</p>
+</li>
+</ul>
+<p>做题方法：</p>
+<ul>
+<li>
+<p>验证三点共线：将直线分为两半，证明夹角为 $180^\circ$ 或两段斜率相等。</p>
+</li>
+<li>
+<p>验证两直线是否平行：在两直线上任取三个点（不在同一直线上），随便验证两个斜率是否相等即可。</p>
+</li>
+<li>
+<p>除非特殊优势，一般情况下可以常用点斜式和一般式来进行书写直线方程。</p>
+</li>
+<li>
+<p>用方向向量和法向量可以规避对斜率不存在的讨论，经常可以快速解题。</p>
+</li>
+<li>
+<p>关于坐标轴对称，优先用斜截式，因为斜率和纵截距一定是有关系的。</p>
+</li>
+<li>
+<p>圆上的点与点的距离的最值往往可以转化为圆心与这个点的距离加上半径或者减去半径求出。</p>
+</li>
+<li>
+<p>已知点 $N$ 是圆 $C$ 内一点，则过点 $N$ 的直线与圆所交得的弦的长度的最大值为圆的直径，最小值为垂直于过点 $N$ 的直径的弦的长度，垂足为点 $N$。</p>
+</li>
+</ul>
+<h3 class="rp-toc-include" id="_18"><a href="#_18" class="rp-header-anchor rp-link" aria-hidden="true">#</a>交点与距离</h3>
+<p>给出两条直线：</p>
+<p>$$
+\begin{cases} \ell_1:&amp;A_1x+B_1y+C_1=0\ \ell_2:&amp;A_2x+B_2y+C_2=0 \end{cases}
+$$</p>
+<p>求交点，即为 $Q(x,y$ 满足上述两式，解方程组即可，我们写出矩阵：</p>
+<p>$$
+\begin{bmatrix}A_1 &amp; B_1 \A_2 &amp; B_2\end{bmatrix}\begin{bmatrix} x \ y\end{bmatrix}=\begin{bmatrix}-C_1-C_2\end{bmatrix}
+$$</p>
+<p>根据克拉默法则，若 $A_1B_2-A_2B_1\neq0$ 则方程有解，且：</p>
+<p>$$
+\begin{cases} x&amp;=\dfrac{B_1C_2-B_2C_1}{A_1B_2-A_2B_1}\ y&amp;=\dfrac{A_2C_1-A_1C_2}{A_1B_2-A_2B_1} \end{cases}
+$$</p>
+<p>两点 $A(x_1,y_1),B(x_2,y_2$ 间的距离：</p>
+<p>$$
+\boxed{\begin{aligned} \text{dis}&amp;=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\ &amp;=\sqrt{k^2+1}|x_2-x_1| \end{aligned}}
+$$</p>
+<p>在圆锥曲线中，后者称为弦长公式。</p>
+<p>点 $x_0,y_0$ 到直线 $Ax+By+C=0$ 的距离：</p>
+<p>$$
+\boxed{\text{dis}=\dfrac{Ax_0+By_0+C}{\sqrt{A^2+B^2}}}
+$$</p>
+<p>两直线的距离，假设两条平行直线可以表示为：</p>
+<p>$$
+\begin{cases} \ell_1:&amp;Ax+By+C_1=0\ \ell_2:&amp;Ax+By+C_2=0 \end{cases}
+$$</p>
+<p>写出点到直线距离公式，将另一直线带入分子：</p>
+<p>$$
+\boxed{\text{dis}=\dfrac{|C_2-C_1|}{\sqrt{A^2+B^2}}}
+$$</p>
+<h3 class="rp-toc-include" id="_19"><a href="#_19" class="rp-header-anchor rp-link" aria-hidden="true">#</a>位置的关系</h3>
+<ul>
+<li>
+<p>直线和圆的位置关系：相离、相切、相交。</p>
+<ol>
+<li>
+<p>圆心到直线的距离，与圆的半径比较。</p>
+<p>$$
+d=\dfrac{Ax_O+By_O+C}{\sqrt{A^2+B^2}}
+$$</p>
+<p>弦长根据垂径定律，为 $2\sqrt{r^2-d^2}$。</p>
+</li>
+<li>
+<p>联立，求交点个数，即方程的解的个数，通常用带入消元。得到交点后，可以用距离公式得到弦长。</p>
+</li>
+</ol>
+</li>
+<li>
+<p>圆与圆的位置关系：</p>
+<p><img alt="alt text" src="/static/image/image-4.0d2d7ed0fe.avif"/>{width=&quot;70%&quot;}</p>
+<p>对应距离图示如下：</p>
+<p><img alt="alt text" src="/static/image/image-5.728f368cbc.avif"/>{width=&quot;90%&quot;}</p>
+<p>除了用圆心距离，同样可以联立，解方程可以用加减消元。两个二次项系数相等的圆的直线方程的差，就是交点所确定的直线的直线方程。</p>
+</li>
+</ul>
+<h3 class="rp-toc-include" id="_20"><a href="#_20" class="rp-header-anchor rp-link" aria-hidden="true">#</a>切线的问题</h3>
+<p>两圆位置关系与公切线条数的关系：</p>
+<ul>
+<li>两圆外离 ⇔ 公切线有 $4$ 条；</li>
+<li>两圆外切 ⇔ 公切线有 $3$ 条；</li>
+<li>两圆相交 ⇔ 公切线有 $2$ 条；</li>
+<li>两圆内切 ⇔ 公切线有 $1$ 条；</li>
+<li>两圆内含 ⇔ 公切线有 $0$ 条。</li>
+</ul>
+<p>过圆（下面的内容详见 <a href="https://www.geogebra.org/calculator/z27tcbb5" target="_blank" rel="noopener noreferrer" class="rp-link">GeoGebra</a>）：</p>
+<p>$$
+(x−a)^2+(y−b)^2=r^2
+$$</p>
+<ul>
+<li>
+<p><strong>圆上</strong>一点 $P(x_0,y_0$ 作圆的切线，则以 $P(x_0,y_0$ 为切点的切线方程为：</p>
+</li>
+<li>
+<p><strong>圆外</strong>一点 $P(x_0,y_0$ 作圆的两条切线，则两切点所在的直线方程为：</p>
+</li>
+</ul>
+<p>$$
+\boxed{(x_0−a)(x−a)+(y_0−b)(y−b)=r^2}
+$$</p>
+<p>注意：当设出直线，一定要考虑斜率不存在的情况，这个时候是无法通过直线方程解出来的。</p>
+<ul>
+<li>
+<p>已知切线：连接圆心和切点，有垂直关系。</p>
+</li>
+<li>
+<p>过一点求切线：设直线方程，解方程圆心到直线的距离为半径，应该有两条切线。</p>
+</li>
+<li>
+<p>若直线与圆相交，那么圆心到直线的距离 $d$、弦长 $L$ 的一半以及圆的半径 $r$ 刚好构成了一个小的直角三角形，则 $r^2=d^2+(L/2)^2$。</p>
+</li>
+<li>
+<p>当涉及恒过定点的直线与曲线（完整的圆除外）有交点的时候，首先确定相应的临界情形（初始位置），然后绕着定点旋转直线，直到完全符合题意才终止旋转。</p>
+</li>
+</ul>
+<p>我们知道过圆 $x-a)^2+(y-b)^2=r^2$ 上一点 $P(x_0,y_0$ 的切线方程为：</p>
+<p>$$
+(x_0-a)(x-a)+(y_0-b)(x-b)=r^2
+$$</p>
+<p>带入圆的参数方程（$x_0=r\cos\theta,y_0=r\sin\theta$）：</p>
+<p>$$
+\boxed{(x-a)\cos\theta+(y-b)\sin\theta=r}
+$$</p>
+<p>我们发现该直线所围成的图形就是圆，只要过圆上任意一点作圆的切线构成的集合就可以把整个圆包络在里面。因此我们把该直线称为是圆的包络线。</p>
+<h3 class="rp-toc-include" id="_21"><a href="#_21" class="rp-header-anchor rp-link" aria-hidden="true">#</a>阿波罗尼斯圆</h3>
+<ol>
+<li>到两定点的距离之商为定值（不等于 $1$）的点的轨迹是阿波罗尼斯圆；</li>
+<li>到两定点的距离之和为定值（大于两定点的距离）的点的轨迹是椭圆；</li>
+<li>到两定点的距离之差的绝对值为定值（大于 $0$ 且小于两定点的距离）的点的轨迹是双曲线；</li>
+<li>到两定点的距离之积为定值（该定值为正数）的点的轨迹是卡西尼卵形线。</li>
+</ol>
+<p>阿波罗尼斯圆（简称阿氏圆）已知平面上两点 $A,B$，则所有满足 $PA/PB=k$（$k\neq1$）的点 $P$ 的轨迹是一个圆。</p>
+<p>$$
+\boxed{\dfrac{(x-x_a)^2+(y-y_a)^2}{(x-x_b)^2+(y-y_b)^2}=k^2}
+$$</p>
+<p>整理可以得到圆的方程，但是阿波罗尼斯圆的常见找法是，在 $AB$ 所在直线上找到满足条件的两个点，以两点中点为圆心作圆即可。</p>
+<p>阿式圆的逆用：在线段上、其中一侧找两个符合比例关系的点，作出以其为直径的圆即可。</p>
+<p>重点：到两个点 $A(x_1,y_1),B(x_2,y_2$ 距离的平方和为定值的点的轨迹是一个圆，不妨设轨迹上一点 $P(x,y$、这个定值为 $C$。</p>
+<p>$$
+|PA|^2+|PB|^2=(x-x_1)^2+(y-y_1)^2+(x-x_2)^2+(y-y_2)^2=C
+$$</p>
+<p>化简得：</p>
+<p>$$
+2x^2-2(x_1+x_2)x+(x_1^2+x_2^2)+2y^2-2(y_1+y_2)y+(y_1^2+y_2^2)-C=0
+$$</p>
+<details>
+<summary>
+<p>例题：已知 $M,N$ 为圆 $x^2+y^2=9$ 上两点，点 $A(1,2$，且 $AM\perp AN$，则线段 $MN$ 的长的取值范围是？</p>
+</summary>
+<p>我们发现只需要求出 $|OP|$ 的取值范围即可：</p>
+<p>$$
+\paren{\dfrac{|MN|}{2}}^2+|OP|^2=|OM|^2
+$$</p>
+<p>我们不妨取坐标原点 $O$，$MN$ 中点 $P$，容易发现方程：</p>
+<p>$$
+|OP|^2+|AP|^2=9
+$$</p>
+<p>不妨设 $P(x,y$，解得：</p>
+<p>$$
+\paren{x-\dfrac12}^2+\paren{y-1}^2=\dfrac{13}4
+$$</p>
+<p>即可得到 $|OP|$ 的取值范围。</p>
+</details>
+<p>阿氏圆的性质：$triangle POA\backsim\triangle POB$，根据相似。</p>
+<h2 class="rp-toc-include" id="_22"><a href="#_22" class="rp-header-anchor rp-link" aria-hidden="true">#</a>代数关系</h2>
+<h3 class="rp-toc-include" id="_23"><a href="#_23" class="rp-header-anchor rp-link" aria-hidden="true">#</a>参数方程</h3>
+<p>参数方程和函数相似，都是由一些在指定的集合的数，称为参数或自变数，以决定因变数的结果。</p>
+<p>我们知道，几何中常见的方程是 $y$ 关于 $x$ 的方程，但是我们也可以将 $x,y$ 均视为因变量，钦定其为关于 $t$ 或 $theta$ 的方程，称为参数方程。</p>
+<ul>
+<li>
+<p>普通方程转为参数方程：利用参数方程，可以很方便的表示不能用函数表达，或者常规的方程难以表达的曲线。</p>
+</li>
+<li>
+<p>参数方程转为普通方程：消去参数，或者将参数用 $x,y$ 表示，然后解没有参数的方程。</p>
+</li>
+</ul>
+<p>参数方程可以用于消元，当两个未知量具有明显的几何意义，可以设出参数方程。</p>
+<p>容易知道：</p>
+<p>$$
+\boxed{\begin{cases} x&amp;=a+r\cos\theta\ y&amp;=b+r\sin\theta \end{cases}}
+$$</p>
+<p>可以表示一个圆。</p>
+<p>容易知道</p>
+<p>$$
+\boxed{\begin{cases} x&amp;=a\cos\theta\ y&amp;=b\sin\theta \end{cases}}
+$$</p>
+<p>可以表示一个中心在原点的椭圆。</p>
+<p>容易知道</p>
+<p>$$
+\boxed{\begin{cases} x&amp;=\dfrac{a}{\cos\theta}\ y&amp;=b\tan\theta \end{cases}}
+$$</p>
+<p>可以表示一个中心在原点的双曲线。</p>
+<h3 class="rp-toc-include" id="_24"><a href="#_24" class="rp-header-anchor rp-link" aria-hidden="true">#</a>仿射变换</h3>
+<p>我们在坐标系部分讲解了线性变换，我们知道线性变换后</p>
+<ul>
+<li>
+<p>直线变换后依然是直线。</p>
+</li>
+<li>
+<p>直线比例保持不变。</p>
+</li>
+<li>
+<p>原点变换后依然是原点。</p>
+</li>
+</ul>
+<p>而我们称仿射变换是指在对一个向量空间进行一次线性变换并接上一个<strong>平移</strong>，变换为另一个向量空间。伸缩、平移、对称等都是仿射变换，</p>
+<p><img alt="alt text" src="/static/image/image-2.89d163d572.avif"/>{width=&quot;80%&quot;}</p>
+<p>事实上：</p>
+<ul>
+<li>
+<p>平行直线依然平行。</p>
+</li>
+<li>
+<p>共线的点依然共线。</p>
+</li>
+<li>
+<p>直线变换后依然是直线。</p>
+</li>
+<li>
+<p>直线上的线段比例保持不变。</p>
+</li>
+</ul>
+<p>使用一增广矩阵与一增广向量，需要所有向量在其末端扩长 $1$ 且所有矩阵都于底部添加一排零，右边扩长一列转换向量，及右下角添加一个 $1$。</p>
+<p>$$
+\begin{bmatrix}{\vec {y}}\1\end{bmatrix}=\left[{\begin{array}{ccc|c},&amp;A&amp;&amp;{\vec {b}}\ \0&amp;\ldots &amp;0&amp;1\end{array}}\right]{\begin{bmatrix}{\vec {x}}\1\end{bmatrix}}
+$$</p>
+<p>等价于</p>
+<p>$$
+\vec {y}=A{\vec {x}}+{\vec {b}}
+$$</p>
+<p>对于一个椭圆</p>
+<p>$$
+\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1
+$$</p>
+<p>我们不妨令 $x&#x27;=\dfrac{b}{a}x$，则</p>
+<p>$$
+x&#x27;^2+y^2=b^2
+$$</p>
+<p>我们不妨令 $y&#x27;=\dfrac{a}{b}y$，则</p>
+<p>$$
+x^2+y&#x27;^2=a^2
+$$</p>
+<p>这样就通过伸缩变换将椭圆变成了圆；一般的，我们讨论变换</p>
+<p>$$
+f:\begin{cases} x&#x27;&amp;=mx\ y&#x27;&amp;=ny \end{cases}
+$$</p>
+<ul>
+<li>
+<p>任意面积 $S$ 变为 $nm$ 倍：$S&#x27;=nm\cdot S$。</p>
+</li>
+<li>
+<p>有椭圆第三定义。</p>
+</li>
+</ul>
+<p>双曲线也可以用仿射变换，此时令</p>
+<p>$$
+f:\begin{cases} x&amp;=ax&#x27;\ y&amp;=biy&#x27; \end{cases}
+$$</p>
+<p>带入双曲线方程</p>
+<p>$$
+\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=x^2+y^2=1
+$$</p>
+<p>也就是一个单位圆，但是此时引入复数是不完全明智的，可能会存在一些伪证，我们通常需要进行验证才能得到结论，因此双曲线的仿射变换不常用。</p>
+<h3 class="rp-toc-include" id="_25"><a href="#_25" class="rp-header-anchor rp-link" aria-hidden="true">#</a>向量关系</h3>
+<p>共线长度关系通常以 $vecc{PA}=\lambda\vecc{PB}$ 的形式给出。</p>
+<p>此时最常用的方法是先设坐标，然后通过向量的坐标关系解出位置点的坐标，可以一定程度上避免直线与椭圆的联立过程。</p>
+<p>此时，如果 $A,B$ 都在曲线上，则可以通过韦达定理转化的方法，例如若有 $x_2=\lambda x_1$ 则</p>
+<p>$$
+\begin{aligned} \lambda+\dfrac{1}{\lambda}&amp;=\dfrac{x_1}{x_2}+\dfrac{x_2}{x_1}\ &amp;=\dfrac{(x_1+x_2)^2}{x_1x_2}-2 \end{aligned}
+$$</p>
+<p>若只有一点在曲线上，不妨设 $A$ 在曲线上，$B$ 不再曲线上，利用 $B,P$ 的坐标表示 $A$ 的坐标，利用其在曲线上，带入坐标计算化简即可。</p>
+<p>类似的，若 $A, B$ 两点在曲线上，且点 $M$ 满足 $overrightarrow{OM} = \lambda\overrightarrow{OA} + \mu\overrightarrow{OB}$，则我们先用 $A, B$ 两点的坐标来表示点 $M$，然后代入曲线的方程。</p>
+<h3 class="rp-toc-include" id="_26"><a href="#_26" class="rp-header-anchor rp-link" aria-hidden="true">#</a>角度问题</h3>
+<p>倒角公式：我们知道 $theta=\theta_2-\theta_1$，如图</p>
+<p><img alt="alt text" src="/static/image/image.24ae1f8fc4.avif"/>{width=&quot;40%&quot;}</p>
+<p>因此，不妨</p>
+<p>$$
+\begin{aligned} \tan\theta&amp;=\dfrac{\tan\theta_2-\tan\theta_1}{1+\tan\theta_1+\tan\theta_2}\ &amp;=\dfrac{k_2-k_1}{1+k_1k_2} \end{aligned}
+$$</p>
+<p>若 $angle APB$ 为锐角，则等价转译为 $overrightarrow{PA} \cdot \overrightarrow{PB} &gt; 0$（特别注意不能出现三点共线）；若 $angle APB$ 为直角，则等价转译为 $overrightarrow{PA} \cdot \overrightarrow{PB} = 0$；若 $angle APB$ 为钝角，则等价转译为 $overrightarrow{PA} \cdot \overrightarrow{PB} &lt; 0$（特别注意不能出现三点共线）。</p>
+<p>在很多时候有关&quot;角度&quot;这个字眼并不会那么直接地出现，而是以一种极其隐晦的方式体现夹角问题，例如，点 $P$ 总是在以 $AB$ 为直径的圆内，那么本质上还是在说明 $overrightarrow{PA} \cdot \overrightarrow{PB} &lt; 0$；点 $P$ 总是在以 $AB$ 为直径的圆外，直接的转译就是 $overrightarrow{PA} \cdot \overrightarrow{PB} &gt; 0$；点 $P$ 总是在以 $AB$ 为直径的圆上，直接的转译就是 $overrightarrow{PA} \cdot \overrightarrow{PB} = 0$。</p>
+<ul>
+<li>
+<p>若不垂直于 $x$ 轴的两直线 $ell_1$ 与 $ell_2$ 的倾斜角分别为 $alpha, \beta$，则 $alpha + \beta = \pi$ 等价于 $k_{\ell_1} + k_{\ell_2} = 0$。</p>
+</li>
+<li>
+<p>斜率之和为零的惯用书面表达，例如：两条直线的倾斜角相等（倾斜角为 $90^\circ$ 除外）；两条直线关于 $x$ 轴对称，或者关于 $y$ 轴对称，或者关于直线 $y = m$ 或 $x = n$ 对称；其中涉及两个角相等（有可能是角平分线问题，本质上是斜率之和为零），及线段比例相等（角平分线定理的应用）</p>
+</li>
+<li>
+<p>倾斜角为 $alpha$ 的直线 $ell_1$ 与倾斜角为 $beta$ 的直线 $ell_2$ 的两相交直线的夹角被倾斜角为 $theta$ 的直线 $ell$ 平分，则 $|\tan(\alpha - \theta)| - |\tan(\beta - \theta)| = 0$。</p>
+</li>
+</ul>
+<h3 class="rp-toc-include" id="_27"><a href="#_27" class="rp-header-anchor rp-link" aria-hidden="true">#</a>轨迹问题</h3>
+<p>要求轨迹方程，即得到方程式；要求轨迹，则用对应的定义来描述一个曲线。</p>
+<p>直接求法：若动点的轨迹与某一类圆锥曲线的定义吻合，可直接根据定义来求。</p>
+<ul>
+<li>定圆上一动点和圆内一定点的垂直平分线与其半径的交点的轨迹是椭圆。</li>
+<li>定圆上一动点与圆外一定点的垂直平分线与其半径的交点的轨迹是双曲线。</li>
+</ul>
+<p>间接求法：主要有三种方法，虽然各有不同，但是核心思想就是设出点的坐标。</p>
+<p>直译法：</p>
+<ul>
+<li>
+<p>通常是给出直线或点的关系。</p>
+</li>
+<li>
+<p>我们设轨迹上一点 $P(x,y$，列出 $x,y$ 满足的调节，化简即可。</p>
+</li>
+</ul>
+<p>参数法：</p>
+<ul>
+<li>
+<p>如果动点本身所满足的条件式中含有一个参数，或在运动过程中受到某个变量的制约，那么以此变量为参数，建立轨迹的参数方程，再设法消去参数，即可得到轨迹的方程。</p>
+</li>
+<li>
+<p>如果动点是两条曲线的交点，则其坐标同时满足两个曲线万程，那么消去辅助量，即可求得动点的轨迹。</p>
+</li>
+</ul>
+<p>相关点法：</p>
+<ul>
+<li>
+<p>动点满足的限制条件不容易直接列出等式，但是动点随着另---相关点的运动而运动。</p>
+</li>
+<li>
+<p>这时可用动点（所求点）坐标表示相关点（已知点）的坐标，根据相关点所满足的方程求得动点的轨迹方程。</p>
+</li>
+</ul>
+<p>空间轨迹：空间点的轨迹的求解绝大多数都需要把平面知识类比到空间来处理，例如中垂线类比到中垂面，角平分线类比到角平分面。当几何体中是---个规则的图形且几何关系比较明确的时候，则通过建立空间直角坐标系把几何问题转化为代数运算来处理。</p>
+<h3 class="rp-toc-include" id="_28"><a href="#_28" class="rp-header-anchor rp-link" aria-hidden="true">#</a>定点问题</h3>
+<ul>
+<li>
+<p>根据特殊直线、对称性猜定点。</p>
+<p>对称性：关于轴对称，则对称过去交于一点。</p>
+</li>
+<li>
+<p>证明定点，或用恒成立求顶点。</p>
+<p>证明，不妨表示直线上两点 $A,B$，用猜出的 $M$ 坐标验证 $k_{AM}=k_{MB}$。</p>
+</li>
+</ul>
+<p>参变分离法：求定点</p>
+<p>$$
+(3k+1)x+2ky+4k-3=0
+$$</p>
+<p>不妨令 $k$ 为主元，</p>
+<p>$$
+(3x+2y+4)k+x-3=0
+$$</p>
+<p>因此令</p>
+<p>$$
+\begin{cases} 3x+2y+4&amp;=0\ x-3&amp;=0 \end{cases}
+$$</p>
+<p>因此定点 $paren{3,-\dfrac{13}{2}}$。</p>
+<p>对于含参且参数的次数都是 $1$ 的，不妨以参数为主元，令常数和系数都为零。</p><!--/$--></div><footer class="rp-doc-footer"><div class="rp-doc-footer__edit"><a href="https://github.com/raineblog/whk/blob/main/docs/science/geometry/2/index.md" target="_blank" class="rp-edit-link">📝 编辑此页面</a></div><div class="rp-doc-footer__divider"></div><div class="rp-prev-next-page"><div class="rp-prev-next-page__placeholder"></div><a href="/science/mathematics/1.html" class="rp-prev-next-page__item rp-prev-next-page__next rp-link"><span class="rp-prev-next-page__item__desc">下一页</span><span class="rp-prev-next-page__item__title"><span>1</span><svg width="1em" height="1em" viewBox="0 0 32 32" class="rp-prev-next-page__icon"><path fill="currentColor" d="M22 16 12 26l-1.4-1.4 8.6-8.6-8.6-8.6L12 6z"></path></svg></span></a></div></footer></main></div><aside class="rp-doc-layout__outline rp-scrollbar"><div class="rp-outline"><div class="rp-outline__title">目录<svg width="14" height="14" class="rp-progress-circle"><circle cx="7" cy="7" r="6" stroke-linecap="round" fill="none" stroke="var(--rp-c-divider-light)" stroke-width="2"></circle><circle cx="7" cy="7" r="6" stroke-linecap="round" fill="none" stroke="var(--rp-c-brand)" stroke-width="2" stroke-dasharray="37.69911184307752" stroke-dashoffset="37.69911184307752" transform="rotate(-90 7 7)" style="transition:stroke-dashoffset 0.3s"></circle></svg></div><nav class="rp-outline__toc rp-scrollbar"><a href="#_2" class="rp-toc-item rp-link" title="直线方程" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">直线方程</span></a><a href="#_3" class="rp-toc-item rp-link" title="点斜式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">点斜式</span></a><a href="#_4" class="rp-toc-item rp-link" title="两点式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">两点式</span></a><a href="#_5" class="rp-toc-item rp-link" title="点向式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">点向式</span></a><a href="#_6" class="rp-toc-item rp-link" title="参数式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">参数式</span></a><a href="#_7" class="rp-toc-item rp-link" title="斜截式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">斜截式</span></a><a href="#_8" class="rp-toc-item rp-link" title="截距式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">截距式</span></a><a href="#_9" class="rp-toc-item rp-link" title="一般式" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">一般式</span></a><a href="#_10" class="rp-toc-item rp-link" title="圆的方程" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">圆的方程</span></a><a href="#_11" class="rp-toc-item rp-link" title="极坐标" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">极坐标</span></a><a href="#_12" class="rp-toc-item rp-link" title="标准方程" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">标准方程</span></a><a href="#_13" class="rp-toc-item rp-link" title="一般方程" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">一般方程</span></a><a href="#_14" class="rp-toc-item rp-link" title="向量方程" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">向量方程</span></a><a href="#_15" class="rp-toc-item rp-link" title="圆心系" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">圆心系</span></a><a href="#_16" class="rp-toc-item rp-link" title="直线和圆" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">直线和圆</span></a><a href="#_17" class="rp-toc-item rp-link" title="平行与垂直" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">平行与垂直</span></a><a href="#_18" class="rp-toc-item rp-link" title="交点与距离" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">交点与距离</span></a><a href="#_19" class="rp-toc-item rp-link" title="位置的关系" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">位置的关系</span></a><a href="#_20" class="rp-toc-item rp-link" title="切线的问题" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">切线的问题</span></a><a href="#_21" class="rp-toc-item rp-link" title="阿波罗尼斯圆" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">阿波罗尼斯圆</span></a><a href="#_22" class="rp-toc-item rp-link" title="代数关系" style="padding-left:0" data-depth="0"><span class="rp-toc-item__text rp-doc">代数关系</span></a><a href="#_23" class="rp-toc-item rp-link" title="参数方程" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">参数方程</span></a><a href="#_24" class="rp-toc-item rp-link" title="仿射变换" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">仿射变换</span></a><a href="#_25" class="rp-toc-item rp-link" title="向量关系" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">向量关系</span></a><a href="#_26" class="rp-toc-item rp-link" title="角度问题" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">角度问题</span></a><a href="#_27" class="rp-toc-item rp-link" title="轨迹问题" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">轨迹问题</span></a><a href="#_28" class="rp-toc-item rp-link" title="定点问题" style="padding-left:12px" data-depth="1"><span class="rp-toc-item__text rp-doc">定点问题</span></a></nav><div class="rp-outline__divider"></div><div class="rp-outline__bottom"><button class="rp-outline__scroll-to-top"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.99967 14.6667C11.6816 14.6667 14.6663 11.6819 14.6663 8.00001C14.6663 4.31811 11.6816 1.33334 7.99967 1.33334C4.31777 1.33334 1.33301 4.31811 1.33301 8.00001C1.33301 11.6819 4.31777 14.6667 7.99967 14.6667Z" stroke="currentColor" stroke-opacity="0.8" stroke-width="1.33333"></path><path d="M7.99967 14.6667C11.6816 14.6667 14.6663 11.6819 14.6663 8.00001C14.6663 4.31811 11.6816 1.33334 7.99967 1.33334C4.31777 1.33334 1.33301 4.31811 1.33301 8.00001C1.33301 11.6819 4.31777 14.6667 7.99967 14.6667Z" stroke="currentColor" stroke-opacity="0.8" stroke-width="1.33333" stroke-linejoin="round"></path><path d="M11 9L8 6L5 9" stroke="currentColor" stroke-opacity="0.8" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>回到顶部</span></button></div></div></aside></div></div>
+    <div id="__rspress_modal_container"></div>
+  </body>
+</html>
