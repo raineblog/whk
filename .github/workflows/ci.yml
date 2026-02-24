@@ -108,7 +108,7 @@ jobs:
           full_commit_message: "Deploying to fragment-pages from ${{ github.sha }}"
 
       - name: Upload Fragment Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: fragment-site
           path: ./site
@@ -130,20 +130,21 @@ jobs:
     container:
       image: ${{ matrix.image }}
     steps:
-      - name: Download Fragment Artifact
-        uses: actions/download-artifact@v7
-        with:
-          name: fragment-site
-          path: docs
-
       - name: Checkout Config and Public from main
         uses: actions/checkout@v6
         with:
           sparse-checkout: |
             config
             public
-          sparse-checkout-cone-mode: false
-          path: .
+
+      - name: Download Fragment Artifact
+        uses: actions/download-artifact@v7
+        with:
+          name: fragment-site
+          path: docs
+
+      - name: List Directory Tree
+        run: tree -L 3
 
       - name: Build Static Site
         run: ${{ matrix.pwd }}
