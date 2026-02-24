@@ -1,6 +1,6 @@
 # 格式手册 {#_1}
 
-在学术方面，排版大体上参考 [OI Wiki 格式手册](https://oi-wiki.org/intro/format/)，中文排版参考 RainPPR 的（就是我自己的）[中文文案排版指北（个人重制版）](https://rainppr.dpdns.org/chinese-copywriting-guidelines/)，本网站采用了一些 pymdownx 扩展，相应的语法参考[语法扩展](./pymdownx/)一节。由于本网站的核心目标是，打造一个适合高中生"阅读"而非作为参考书、教科书的文化课文档，因此本网站的排版可以稍微松懈一些，核心目的是易懂和美观。
+在学术方面，排版大体上参考 [OI Wiki 格式手册](https://oi-wiki.org/intro/format/)，中文排版参考 RainPPR 的（就是我自己的）[中文文案排版指北（个人重制版）](https://rainppr.dpdns.org/chinese-copywriting-guidelines/)，本网站采用了一些 pymdownx 扩展，相应的语法参考[语法扩展](../pymdownx/)一节。由于本网站的核心目标是，打造一个适合高中生"阅读"而非作为参考书、教科书的文化课文档，因此本网站的排版可以稍微松懈一些，核心目的是易懂和美观。
 
 在文件托管上面，这个 Github 仓库默认只存放图片和 Markdown 源码一类的，对于需要存放的 PDF 文件，请迁移到对应的 [HuggingFace 仓库](https://huggingface.co/datasets/RainPPR/whk/tree/main)中，它对大文件支持更好，而且专门为大文件优化。
 

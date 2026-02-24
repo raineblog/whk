@@ -1,6 +1,6 @@
 # 线性规划 {#_1}
 
-![alt text](./image-24.avif)
+![alt text](../image-24.avif)
 
 ## 例题 1 {#1}
 

@@ -160,7 +160,7 @@ $$
 
 2.  受力分析、动力学分析法。
 
-![alt text](./image.avif){width="80%"}
+![alt text](../image.avif){width="80%"}
 
 ### 摩擦力 {#_8}
 
@@ -202,7 +202,7 @@ $$
 
 了处理问题方便，引进摩擦角的概念：
 
-![全反力](./全反力.avif){align="right" width="35%"}
+![全反力](../全反力.avif){align="right" width="35%"}
 
 - 在滑动摩擦下，称 $varphi=\arctan(f_k/N$ 为滑动摩擦角，因此 $mu=\tan\varphi$。
 
@@ -584,4 +584,4 @@ $$
 
 ### 经典例题 {#_32}
 
-![经典例题](./cb3qxhf5.avif)
+![经典例题](../cb3qxhf5.avif)

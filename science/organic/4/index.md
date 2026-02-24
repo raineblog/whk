@@ -6,7 +6,7 @@
 
 高分子化合物，简称高分子，相对分子质量通常在几万到几十万，甚至达到几千万。高分子虽然相对分子质量很大，但结构往往并不复杂。
 
-![alt text](./image-31.avif)
+![alt text](../image-31.avif)
 
 高分子的性质：
 
@@ -44,7 +44,7 @@
 
 - 超高相对分子质量（大于 $100$ 万）的聚乙烯可用作防弹头盔和防弹衣的材料。
 
-![alt text](./image-32.avif)
+![alt text](../image-32.avif)
 
 橡胶：
 
@@ -54,7 +54,7 @@
 
 - 合成橡胶主要有：顺丁橡胶、丁苯橡胶、丁腈橡胶、乙丙橡胶、硅橡胶等。
 
-![alt text](./image-33.avif)
+![alt text](../image-33.avif)
 
 合成纤维：
 
@@ -127,21 +127,21 @@
 
 - 酚醛树脂的合成：
 
-  ![alt text](./image-17.avif){width="100%"}
+  ![alt text](../image-17.avif){width="100%"}
 
-  ![alt text](./image-18.avif){width="100%"}
+  ![alt text](../image-18.avif){width="100%"}
 
 - 羟基酸缩聚：
 
-  ![](./InDraw250714-1959.svg){width="60%"}
+  ![](../InDraw250714-1959.svg){width="60%"}
 
-  ![](./InDraw250714-2002.svg){width="80%"}
+  ![](../InDraw250714-2002.svg){width="80%"}
 
 - 醇酸缩聚：
 
-  ![](./InDraw250714-2007.svg){width="70%"}
+  ![](../InDraw250714-2007.svg){width="70%"}
 
-  ![](./InDraw250714-2012.svg){width="100%"}
+  ![](../InDraw250714-2012.svg){width="100%"}
 
 - 氨基酸缩聚：
 
@@ -153,23 +153,23 @@
 
 1.  加聚产物单体判断：要先判断高分子化合物是加聚产物还是缩聚产物。
 
-    ![alt text](./image-19.avif)
+    ![alt text](../image-19.avif)
 
-    ![alt text](./image-20.avif)
+    ![alt text](../image-20.avif)
 
-    ![alt text](./image-21.avif)
+    ![alt text](../image-21.avif)
 
-    ![alt text](./image-22.avif)
+    ![alt text](../image-22.avif)
 
 2.  缩聚产物单体判断：中学里缩聚产物形成的方式有三种：聚酯式、聚酰胺式、酚醛树脂式，从形式上看都是脱水缩合。
 
-    ![alt text](./image-23.avif)
+    ![alt text](../image-23.avif)
 
-    ![alt text](./image-24.avif)
+    ![alt text](../image-24.avif)
 
-    ![alt text](./image-25.avif)
+    ![alt text](../image-25.avif)
 
-    ![alt text](./image-26.avif)
+    ![alt text](../image-26.avif)
 
 ::: {}
 - 正合成分析法：采用正向思维方法，从已知原料入手，找出合成所需要的直接或间接的中间体，逐步推向待合成的有机物。其思维程序是：原料→中间体→产品。
@@ -178,7 +178,7 @@
 
 - 类比合成分析法：比较题目所给有机合成路线及已知信息反应，找出原料与合成物质的内在联系，确定中间产物，最后得到目标产物------产品。
 
-![alt text](./image-27.avif)
+![alt text](../image-27.avif)
 
 ## 碳骨架构建 {#_9}
 
@@ -214,7 +214,7 @@ $$
 
 - 羰基化合物分子中在羰基邻位碳原子上的氢原子（$alpha-\ce{H}$）受羰基吸引电子作用的影响，具有一定的活泼性，分子内含有 $alpha-\ce{H}$ 的醛在一定条件下可以发生加成反应，生成 $beta$-羟基醛，该产物易失水，得到 $alpha,\beta$-不饱和醛。
 
-  ![alt text](./5.19.avif)
+  ![alt text](../5.19.avif)
 
   乙醛拥有三个，因此可以发生三次羟醛缩合反应。
 
@@ -286,7 +286,7 @@ $$
 
 - 共轭二烯烃与含碳碳双键（或三键）的化合物在一定条件下反应，得到环加成产物，构建了环状碳骨架，该反应用于构建六元碳环骨架。
 
-  ![](./9.5.svg){width="50%"}
+  ![](../9.5.svg){width="50%"}
 
 - 理解：共轭二烯烃（如 $1,3$-丁二烯）的两根双键各自打开一半，与含亲双烯体（在这里是丙烯酸）的碳碳双键发生加成反应，两个"半截键"与原来的单键共同形成了新的双键，得到了环加成产物，构建了环状碳骨架。
 
@@ -294,15 +294,15 @@ $$
 
 二元醇成环：
 
-![alt text](./image-38.avif){width="60%"}
+![alt text](../image-38.avif){width="60%"}
 
 二元羧酸成环：
 
-![alt text](./image-39.avif){width="80%"}
+![alt text](../image-39.avif){width="80%"}
 
 氨基酸成环：
 
-![alt text](./image-40.avif){width="60%"}
+![alt text](../image-40.avif){width="60%"}
 
 ## 官能团的转化 {#_13}
 
@@ -389,7 +389,7 @@ $$
 
 改变官能团的种类：
 
-![alt text](./image-28.avif)
+![alt text](../image-28.avif)
 
 改变官能团的数目：
 

@@ -5,7 +5,7 @@
 ### 分类 {#_3}
 
 <figure>
-<p><img src="./空间几何体.avif" alt="空间几何体" /></p>
+<p><img src="../空间几何体.avif" alt="空间几何体" /></p>
 <figcaption><p>多面体和旋转体</p></figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ $$
 
 ### 棱柱 {#_9}
 
-![棱柱](./image-1.avif){align="right"}
+![棱柱](../image-1.avif){align="right"}
 
 - 棱柱：上下底面平行（且全等），各侧面都是四边形，侧面的公共边互相平行。
 
@@ -239,11 +239,11 @@ $$
 
 ### 截面问题 {#_19}
 
-![alt text](./image.avif){width="100%"}
+![alt text](../image.avif){width="100%"}
 
 找截面有交线法和平行线法两个常用的方法，本人喜欢先用平行线，然后找交线。
 
-![](./截面问题.avif){width="80%"}
+![](../截面问题.avif){width="80%"}
 
 1.  连接被截的若干点。
 
