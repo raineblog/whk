@@ -1,0 +1,982 @@
+# 直线和圆 {#_1}
+
+## 直线方程 {#_2}
+
+### 点斜式 {#_3}
+
+确定一条直线需要两条信息，假设我们知道了一条直线过一个点 []{.arithmatex}$(x_0,y_0)$，那么我们只需要知道这条直线的倾斜角或者斜率，就可以确定这条直线了。
+
+我们定义直线的方向为直线向上的方向，这个方向与 []{.arithmatex}$x$ 轴正半轴的夹角 []{.arithmatex}$\theta$，记为这条直线的**倾斜角**，倾斜角的范围是 []{.arithmatex}$\theta\in[0,\pi)$。特殊的，规定 []{.arithmatex}$x$ 轴的倾斜角为 []{.arithmatex}$0$。
+
+我们定义直线的**斜率**为：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+k=\dfrac{y_2-y_1}{x_2-x_1},x_1\neq x_2
+:::
+
+$$k=\dfrac{y_2-y_1}{x_2-x_1},x_1\neq x_2$$
+::::
+
+也就是，[]{.arithmatex}$x$ 每增加 []{.arithmatex}$1$，[]{.arithmatex}$y$ 的变化量就是直线的斜率，特殊的，我们不定义平行于 []{.arithmatex}$y$ 轴的直线的斜率。容易得到：
+
+- 倾斜角 []{.arithmatex}$\alpha\in(0,\pi/2)$，斜率 []{.arithmatex}$k>0$，[]{.arithmatex}$y$ 随 []{.arithmatex}$x$ 增大而增大。
+
+- 倾斜角 []{.arithmatex}$\alpha\in(\pi/2,\pi)$，斜率 []{.arithmatex}$k<0$，[]{.arithmatex}$y$ 随 []{.arithmatex}$x$ 增大而减小。
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+k=\tan\theta,\quad\theta=\arctan k
+:::
+
+$$k=\tan\theta,\quad\theta=\arctan k$$
+::::
+
+因此，我们就可以得到直线方程的点斜式：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{y-y_0=k(x-x_0)}\tag{\scriptsize\text{点斜式}}
+:::
+
+$$\boxed{y-y_0=k(x-x_0)}\tag{\scriptsize\text{点斜式}}$$
+::::
+
+### 两点式 {#_4}
+
+容易知道，两点确定一条直线，如果两点横坐标不相等，我们可以这么写出直线方程：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{y-y_1=\dfrac{y_2-y_1}{x_2-x_1}(x-x_1)}\tag{\scriptsize\text{两点式}}
+:::
+
+$$\boxed{y-y_1=\dfrac{y_2-y_1}{x_2-x_1}(x-x_1)}\tag{\scriptsize\text{两点式}}$$
+::::
+
+可以认为是把点斜式和斜率的公式带入而已，也可以认为是：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{\dfrac{y-y_1}{x-x_1}=\dfrac{y_2-y_1}{x_2-x_1}}\tag{\scriptsize\text{两点式}}
+:::
+
+$$\boxed{\dfrac{y-y_1}{x-x_1}=\dfrac{y_2-y_1}{x_2-x_1}}\tag{\scriptsize\text{两点式}}$$
+::::
+
+等一系列斜率的等式。
+
+### 点向式 {#_5}
+
+我们知道过一个点的直线可以用法向量或方向向量来表示，我们将在一般式中用到法向量，因此这里用方向向量的方法。假设 []{.arithmatex}$M_0(x_0,y_0)$ 在直线 []{.arithmatex}$\ell$ 上，直线方向向量 []{.arithmatex}$\bm e=(A,B)$，因此直线上任意一点满足：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\overrightarrow{OM}=\overrightarrow{OM_0}+\lambda\bm e,\lambda\in\R
+:::
+
+$$\overrightarrow{OM}=\overrightarrow{OM_0}+\lambda\bm e,\lambda\in\R$$
+::::
+
+容易知道，直线斜率就是 []{.arithmatex}$B/A$。
+
+### 参数式 {#_6}
+
+从向量式出发，可以将参数 []{.arithmatex}$\lambda$ 引入方程组：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{cases} x&=x_0+A\lambda\\ y&=y_0+B\lambda \end{cases}
+:::
+
+$$\begin{cases}
+x&=x_0+A\lambda\\
+y&=y_0+B\lambda
+\end{cases}$$
+::::
+
+或者从点斜式出发：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{cases} x&=x_0+\lambda\cos\alpha\\ y&=y_0+\lambda\sin\alpha \end{cases}
+:::
+
+$$\begin{cases}
+x&=x_0+\lambda\cos\alpha\\
+y&=y_0+\lambda\sin\alpha
+\end{cases}$$
+::::
+
+称为参数式，这个表示不常用。
+
+### 斜截式 {#_7}
+
+当一个点横坐标为 []{.arithmatex}$0$，点斜式就退化为斜截式，斜截式的通式为：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{y=kx+b}\tag{\scriptsize\text{斜截式}}
+:::
+
+$$\boxed{y=kx+b}\tag{\scriptsize\text{斜截式}}$$
+::::
+
+其中 []{.arithmatex}$b$ 称为纵截距，这也是初中数学的常用形式。
+
+### 截距式 {#_8}
+
+当两点分别在 []{.arithmatex}$x,y$ 轴上，两点式退化为截距式：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{\dfrac{x}{a}+\dfrac{y}{b}=1}\tag{\scriptsize\text{截距式}}
+:::
+
+$$\boxed{\dfrac{x}{a}+\dfrac{y}{b}=1}\tag{\scriptsize\text{截距式}}$$
+::::
+
+注意：正比例函数 []{.arithmatex}$y=x$ 无法写成截距式，这个通常要特殊讨论。
+
+表示两点分别是 []{.arithmatex}$(a,0),(0,b)$，分别称为横截距和纵截距。
+
+### 一般式 {#_9}
+
+我在这里用法向量的方法做截距式，如下：
+
+一条直线过 []{.arithmatex}$M_0(x_0,y_0)$，且法向量为 []{.arithmatex}$\bm n=(A,B)$，则对于直线上一点 []{.arithmatex}$M(x,y)$ 有：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+MM_0\cdot\bm n=0
+:::
+
+$$MM_0\cdot\bm n=0$$
+::::
+
+展开得到：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+A(x-x_0)+B(y-y_0)=0
+:::
+
+$$A(x-x_0)+B(y-y_0)=0$$
+::::
+
+设 []{.arithmatex}$C=-(Ax_0+By_0)$，那么可以得到一般式：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{Ax+By+C=0}\tag{\scriptsize\text{一般式}}
+:::
+
+$$\boxed{Ax+By+C=0}\tag{\scriptsize\text{一般式}}$$
+::::
+
+在这形式下，直线的斜率是 []{.arithmatex}$-\dfrac{A}{B}$ ，横截距是 []{.arithmatex}$-\dfrac{C}{A}$ ，纵截距是 []{.arithmatex}$-\dfrac{C}{B}$。
+
+特殊的，如果直线过原点，则 []{.arithmatex}$C=0$；对于斜率不存在的，直线方程就为 []{.arithmatex}$x=x_0$。
+
+写一般式技巧：
+
+- 用两种方式表示斜率，比如用 []{.arithmatex}$(x,y)$ 点和任意给定的一点，给定的两点，然后化简。
+
+## 圆的方程 {#_10}
+
+在有关圆的问题中几何法往往是第一选择，但解析几何的意思就是用代数的万法研究几何问题。在这里代数方法指的就是坐标法求出坐标成了最关键的一步，而求坐标的大前提就是需要联立直线与圆的方程，我们会在圆锥曲线中详细讨论这个问题。
+
+### 极坐标 {#_11}
+
+理解：在笛卡尔坐标系中，我们关心的是点到坐标轴的距离，同样，我们也可以关心点到原点的距离，那么，我们还需要一个「方向」信息，于是我们引入点与原点的连线与 []{.arithmatex}$x$ 轴的夹角，即为极坐标。
+
+- 在平面上选一定点 []{.arithmatex}$O$，称为极点。
+- 自极点引出一条射线 []{.arithmatex}$Ox$，称为极轴。
+- 选择一个单位长度（在数学问题中通常为 []{.arithmatex}$1$），一个角度单位（通常为弧度）及其正方向（通常为逆时针方向）。
+
+就建立了平面极坐标系。设 []{.arithmatex}$A$ 为平面上一点。
+
+- 极点 []{.arithmatex}$O$ 与 []{.arithmatex}$A$ 之间的距离 []{.arithmatex}$|OA|$ 称为极径，记为 []{.arithmatex}$\rho$。
+- 以极轴为始边，[]{.arithmatex}$OA$ 为终边的角 []{.arithmatex}$\angle xOA$ 称为极角，记为 []{.arithmatex}$\varphi$。
+- 那么有序数对 []{.arithmatex}$(\rho,\varphi)$ 即为 []{.arithmatex}$A$ 的极坐标。
+
+由终边相同的角的定义可知，[]{.arithmatex}$(\rho,\varphi)$ 与 []{.arithmatex}$(\rho,\varphi + 2k\pi)\ (k\in \mathbf{Z})$ 其实表示的是一样的点。特别地，极点的极坐标为 []{.arithmatex}$(0,\varphi)\ (\varphi \in \mathbf{R})$，于是平面内的点的极坐标表示有无数多种。如果规定 []{.arithmatex}$\rho \ge 0,0 \le \varphi < 2\pi$，那么除极点外，其他平面内的点可以用唯一有序数对 []{.arithmatex}$(\rho,\varphi)$ 表示，而极坐标 []{.arithmatex}$(\rho,\varphi)$ 表示的点是唯一确定的。
+
+当然，有时候研究极坐标系下的图形有些不方便。要想转到直角坐标系下研究，有互化公式。点 []{.arithmatex}$A(\rho,\varphi)$ 的直角坐标 []{.arithmatex}$(x,y)$ 可以如下表示：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{cases} x &= \rho \cos \varphi \\ y &= \rho \sin \varphi \end{cases}
+:::
+
+$$\begin{cases}
+x &= \rho \cos \varphi \\
+y &= \rho \sin \varphi
+\end{cases}$$
+::::
+
+进而可知：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{aligned} \rho\^2 &= x\^2 + y\^2\\ \tan \varphi &= \frac{y}{x}\quad(x\not =0) \end{aligned}
+:::
+
+$$\begin{aligned}
+\rho^2 &= x^2 + y^2\\
+\tan \varphi &= \frac{y}{x}\quad(x\not =0)
+\end{aligned}$$
+::::
+
+于是有 []{.arithmatex}$\rho = \sqrt{x^2+y^2}$。但具有相同 []{.arithmatex}$\dfrac{y}{x}$ 的 []{.arithmatex}$\tan\varphi$ 有两个可能的 []{.arithmatex}$\varphi$ 的值，此时还需要根据 []{.arithmatex}$x, y$ 的值来确定方向。具体地，定义函数：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\operatorname{atan2}(y, x) = \begin{cases} \arctan(\frac{y}{x}) & \text{if } x \> 0 \\ \arctan(\frac{y}{x}) + \pi & \text{if } y \ge 0, x \< 0 \\ \arctan(\frac{y}{x}) - \pi & \text{if } y \< 0, x \< 0 \\ \pi/2 & \text{if } y \> 0, x = 0 \\ -\pi/2 & \text{if } y \< 0, x = 0 \\ \text{any} & \text{if } y = 0, x = 0 \end{cases}
+:::
+
+$$\operatorname{atan2}(y, x) = \begin{cases}
+\arctan(\frac{y}{x}) & \text{if } x > 0 \\
+\arctan(\frac{y}{x}) + \pi & \text{if } y \ge 0, x < 0 \\
+\arctan(\frac{y}{x}) - \pi & \text{if } y < 0, x < 0 \\
+\pi/2 & \text{if } y > 0, x = 0 \\
+-\pi/2 & \text{if } y < 0, x = 0 \\
+\text{any} & \text{if } y = 0, x = 0
+\end{cases}$$
+::::
+
+则 []{.arithmatex}$\varphi = \operatorname{atan2}(y, x)$。注意上述函数的值域为 []{.arithmatex}$(-\pi, \pi]$。
+
+注意，在极坐标中表示直线或曲线，我们常用 []{.arithmatex}$\rho=f(\varphi)$ 的函数。
+
+### 标准方程 {#_12}
+
+我们知道圆可以通过圆心和半径确定，我们写出距离公式：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{(x-a)\^2+(y-b)\^2=r\^2}
+:::
+
+$$\boxed{(x-a)^2+(y-b)^2=r^2}$$
+::::
+
+即为圆的标准方程，而圆内和圆外分别为小于号和大于号。
+
+单位圆的标准方程：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+x\^2+y\^2=1
+:::
+
+$$x^2+y^2=1$$
+::::
+
+### 一般方程 {#_13}
+
+我们将标准方程展开：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+x\^2+y\^2-2ax-2by+a\^2+b\^2-r\^2=0
+:::
+
+$$x^2+y^2-2ax-2by+a^2+b^2-r^2=0$$
+::::
+
+分别设：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{cases} D&=-2a\\ E&=-2b\\ F&=a\^2+b\^2-r\^2 \end{cases}
+:::
+
+$$\begin{cases}
+D&=-2a\\
+E&=-2b\\
+F&=a^2+b^2-r^2
+\end{cases}$$
+::::
+
+而根据次数，[]{.arithmatex}$A,B,C$ 分别为 []{.arithmatex}$x^2,y^2,xy$ 的系数，分别为 []{.arithmatex}$1,1,0$，我们不在一般方程中体现，但是字母保留，不用写出，因此字母应当从 []{.arithmatex}$D$ 开始写，即一般方程：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{x\^2+y\^2+Dx+Ey+F=0}
+:::
+
+$$\boxed{x^2+y^2+Dx+Ey+F=0}$$
+::::
+
+一个圆一定可以表示成这个形式，但是满足这个形式的不一定是一个圆，根据配方法：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{\left(x+\dfrac{D}{2}\right)+\left(y+\dfrac{E}{2}\right)=\dfrac{D\^2+E\^2-4F}{4}}
+:::
+
+$$\boxed{\left(x+\dfrac{D}{2}\right)+\left(y+\dfrac{E}{2}\right)=\dfrac{D^2+E^2-4F}{4}}$$
+::::
+
+因此只要 []{.arithmatex}$D^2+E^2>4F$，该方程就可以表示一个圆了；特殊的，如果 []{.arithmatex}$D=E=F$ 则该方程表示一个点 []{.arithmatex}$(0,0)$。具体的，圆心：[]{.arithmatex}$\left(-\dfrac{D}{2},-\dfrac{E}{2}\right)$，半径：[]{.arithmatex}$\dfrac{\sqrt{D^2+E^2-4F}}{2}$。
+
+做题方法：
+
+- 一般来说，给定三个点，会求一般方程，因为一般方程是一次方程。
+
+- 如果有两个点某坐标相等，那么做出垂直平分线，然后设出标准方程。
+
+- 一般方程判断点是否在圆内、外，只需要用左式与 []{.arithmatex}$0$ 比较即可，大于 []{.arithmatex}$0$ 在圆外，小于 []{.arithmatex}$0$ 在园内。
+
+直径方程：已知一个圆的一条直径 []{.arithmatex}$AB$，则圆的方程可以表示为：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{(x-x_1)(x-x_2)+(y-y_1)(y-y_2)=0}
+:::
+
+$$\boxed{(x-x_1)(x-x_2)+(y-y_1)(y-y_2)=0}$$
+::::
+
+容易知道根据直径所对圆周角是直角，向量点积为零得到，即为圆的方程。
+
+已知点 []{.arithmatex}$A(x_1, y_1)$，[]{.arithmatex}$B(x_2, y_2)$，若
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\overrightarrow{AP} \cdot \overrightarrow{BP} = \lambda
+:::
+
+$$\overrightarrow{AP} \cdot \overrightarrow{BP} = \lambda$$
+::::
+
+则点 []{.arithmatex}$P$ 的轨迹是圆，其方程为：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = \lambda
+:::
+
+$$(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = \lambda$$
+::::
+
+其中 []{.arithmatex}$(x_1 - x_2)^2 + (y_1 - y_2)^2 + 4\lambda > 0$。
+
+### 向量方程 {#_14}
+
+在平面中，把所有等长的向量平移到同一起点，则构成的图形必然是圆，而这些以圆心为起点的向量，方向却是任意的，但是长度始终是恒定的。根据圆的定义可以得到标准圆的向量形式：
+
+- 向量式标准圆 []{.arithmatex}$|\boldsymbol{a} - \boldsymbol{a}_0| = r$，其中 []{.arithmatex}$\boldsymbol{a}_0$ 是确定的，[]{.arithmatex}$r$ 为大于零的常数。
+
+在圆的性质之中，率先容易想到的莫过于直径所对的圆周角为直角，而向量的数量积恰恰是角度最好的体现，则有如下知识点：
+
+- 向量式直径圆：[]{.arithmatex}$(\boldsymbol{c} - \boldsymbol{a}) \cdot (\boldsymbol{c} - \boldsymbol{b}) = 0$。这是以 []{.arithmatex}$|\boldsymbol{a} - \boldsymbol{b}|$ 为直径的圆。
+
+在遇到以线段长为直径的圆的时候，我们要做就是转化圆上的点与线段的两端点所构成的数量积为零。但我们都知道直径是特殊的弦，由特殊性必然可以推广到一般性，即直径圆的向量形式：[]{.arithmatex}$(\boldsymbol{c} - \boldsymbol{a}) \cdot (\boldsymbol{c} - \boldsymbol{b}) = 0$。这是以 []{.arithmatex}$|\boldsymbol{a} - \boldsymbol{b}|$ 为直径的圆。正是由于角度的特殊性，可以通过数量积体现出直角，若不是直角时，我们发现数量积就没有一般性了，因此我们把直径圆的向量式一般化就可以得到 []{.arithmatex}$\langle \boldsymbol{c} - \boldsymbol{a}, \boldsymbol{c} - \boldsymbol{b} \rangle = 90^{\circ}$，其中 []{.arithmatex}$|\boldsymbol{a} - \boldsymbol{b}|$ 为定值。由此我们可以得到外接圆的向量形式：
+
+- 向量式外接圆：[]{.arithmatex}$\langle \boldsymbol{c} - \boldsymbol{a}, \boldsymbol{c} - \boldsymbol{b} \rangle = \theta$ 且 []{.arithmatex}$|\boldsymbol{a} - \boldsymbol{b}|$ 为定值。
+
+### 圆心系 {#_15}
+
+我们考虑这个方程：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+(x-3\cos\theta)\^2+(y-3\sin\theta)\^2=1
+:::
+
+$$(x-3\cos\theta)^2+(y-3\sin\theta)^2=1$$
+::::
+
+容易知道，这是一个以 []{.arithmatex}$(3\cos\theta,3\sin\theta)$ 为圆心、半径为 []{.arithmatex}$1$ 的圆，
+
+![alt text](../image-6.avif){width="40%"}
+
+这样的圆有无数个，围成了一个圆环。
+
+## 直线和圆 {#_16}
+
+### 平行与垂直 {#_17}
+
+基本思想：
+
+- 两条直线平行，当且仅当 []{.arithmatex}$k_1=k_2$ 或 []{.arithmatex}$\theta_1=\theta_2$。
+
+- 两条直线垂直，当且记得 []{.arithmatex}$k_1k_2=-1$ 或 []{.arithmatex}$\theta_1+\theta_2=90^\circ$。
+
+做题方法：
+
+- 验证三点共线：将直线分为两半，证明夹角为 []{.arithmatex}$180^\circ$ 或两段斜率相等。
+
+- 验证两直线是否平行：在两直线上任取三个点（不在同一直线上），随便验证两个斜率是否相等即可。
+
+- 除非特殊优势，一般情况下可以常用点斜式和一般式来进行书写直线方程。
+
+- 用方向向量和法向量可以规避对斜率不存在的讨论，经常可以快速解题。
+
+- 关于坐标轴对称，优先用斜截式，因为斜率和纵截距一定是有关系的。
+
+- 圆上的点与点的距离的最值往往可以转化为圆心与这个点的距离加上半径或者减去半径求出。
+
+- 已知点 []{.arithmatex}$N$ 是圆 []{.arithmatex}$C$ 内一点，则过点 []{.arithmatex}$N$ 的直线与圆所交得的弦的长度的最大值为圆的直径，最小值为垂直于过点 []{.arithmatex}$N$ 的直径的弦的长度，垂足为点 []{.arithmatex}$N$。
+
+### 交点与距离 {#_18}
+
+给出两条直线：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{cases} \ell_1:&A_1x+B_1y+C_1=0\\ \ell_2:&A_2x+B_2y+C_2=0 \end{cases}
+:::
+
+$$\begin{cases}
+\ell_1:&A_1x+B_1y+C_1=0\\
+\ell_2:&A_2x+B_2y+C_2=0
+\end{cases}$$
+::::
+
+求交点，即为 []{.arithmatex}$Q(x,y)$ 满足上述两式，解方程组即可，我们写出矩阵：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{bmatrix}A_1 & B_1 \\A_2 & B_2\end{bmatrix}\begin{bmatrix} x \\ y\end{bmatrix}=\begin{bmatrix}-C_1\\-C_2\end{bmatrix}
+:::
+
+$$\begin{bmatrix}A_1 & B_1 \\A_2 & B_2\end{bmatrix}\begin{bmatrix} x \\ y\end{bmatrix}=\begin{bmatrix}-C_1\\-C_2\end{bmatrix}$$
+::::
+
+根据克拉默法则，若 []{.arithmatex}$A_1B_2-A_2B_1\neq0$ 则方程有解，且：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{cases} x&=\dfrac{B_1C_2-B_2C_1}{A_1B_2-A_2B_1}\\ y&=\dfrac{A_2C_1-A_1C_2}{A_1B_2-A_2B_1} \end{cases}
+:::
+
+$$\begin{cases}
+x&=\dfrac{B_1C_2-B_2C_1}{A_1B_2-A_2B_1}\\
+y&=\dfrac{A_2C_1-A_1C_2}{A_1B_2-A_2B_1}
+\end{cases}$$
+::::
+
+两点 []{.arithmatex}$A(x_1,y_1),B(x_2,y_2)$ 间的距离：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{\begin{aligned} \text{dis}&=\sqrt{(x_2-x_1)\^2+(y_2-y_1)\^2}\\ &=\sqrt{k\^2+1}\|x_2-x_1\| \end{aligned}}
+:::
+
+$$\boxed{\begin{aligned}
+\text{dis}&=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\\
+&=\sqrt{k^2+1}|x_2-x_1|
+\end{aligned}}$$
+::::
+
+在圆锥曲线中，后者称为弦长公式。
+
+点 []{.arithmatex}$(x_0,y_0)$ 到直线 []{.arithmatex}$Ax+By+C=0$ 的距离：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{\text{dis}=\dfrac{Ax_0+By_0+C}{\sqrt{A\^2+B\^2}}}
+:::
+
+$$\boxed{\text{dis}=\dfrac{Ax_0+By_0+C}{\sqrt{A^2+B^2}}}$$
+::::
+
+两直线的距离，假设两条平行直线可以表示为：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{cases} \ell_1:&Ax+By+C_1=0\\ \ell_2:&Ax+By+C_2=0 \end{cases}
+:::
+
+$$\begin{cases}
+\ell_1:&Ax+By+C_1=0\\
+\ell_2:&Ax+By+C_2=0
+\end{cases}$$
+::::
+
+写出点到直线距离公式，将另一直线带入分子：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{\text{dis}=\dfrac{\|C_2-C_1\|}{\sqrt{A\^2+B\^2}}}
+:::
+
+$$\boxed{\text{dis}=\dfrac{|C_2-C_1|}{\sqrt{A^2+B^2}}}$$
+::::
+
+### 位置的关系 {#_19}
+
+- 直线和圆的位置关系：相离、相切、相交。
+
+  1.  圆心到直线的距离，与圆的半径比较。
+
+      :::: {.arithmatex}
+      ::: {.MathJax_Preview}
+      d=\dfrac{Ax_O+By_O+C}{\sqrt{A\^2+B\^2}}
+      :::
+
+      $$d=\dfrac{Ax_O+By_O+C}{\sqrt{A^2+B^2}}$$
+      ::::
+
+      弦长根据垂径定律，为 []{.arithmatex}$2\sqrt{r^2-d^2}$。
+
+  2.  联立，求交点个数，即方程的解的个数，通常用带入消元。得到交点后，可以用距离公式得到弦长。
+
+- 圆与圆的位置关系：
+
+  ![alt text](../image-4.avif){width="70%"}
+
+  对应距离图示如下：
+
+  ![alt text](../image-5.avif){width="90%"}
+
+  除了用圆心距离，同样可以联立，解方程可以用加减消元。两个二次项系数相等的圆的直线方程的差，就是交点所确定的直线的直线方程。
+
+### 切线的问题 {#_20}
+
+两圆位置关系与公切线条数的关系：
+
+- 两圆外离 ⇔ 公切线有 []{.arithmatex}$4$ 条；
+- 两圆外切 ⇔ 公切线有 []{.arithmatex}$3$ 条；
+- 两圆相交 ⇔ 公切线有 []{.arithmatex}$2$ 条；
+- 两圆内切 ⇔ 公切线有 []{.arithmatex}$1$ 条；
+- 两圆内含 ⇔ 公切线有 []{.arithmatex}$0$ 条。
+
+过圆（下面的内容详见 [GeoGebra](https://www.geogebra.org/calculator/z27tcbb5)）：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+(x−a)\^2+(y−b)\^2=r\^2
+:::
+
+$$(x−a)^2+(y−b)^2=r^2$$
+::::
+
+- **圆上**一点 []{.arithmatex}$P(x_0,y_0)$ 作圆的切线，则以 []{.arithmatex}$P(x_0,y_0)$ 为切点的切线方程为：
+
+- **圆外**一点 []{.arithmatex}$P(x_0,y_0)$ 作圆的两条切线，则两切点所在的直线方程为：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{(x_0−a)(x−a)+(y_0−b)(y−b)=r\^2}
+:::
+
+$$\boxed{(x_0−a)(x−a)+(y_0−b)(y−b)=r^2}$$
+::::
+
+注意：当设出直线，一定要考虑斜率不存在的情况，这个时候是无法通过直线方程解出来的。
+
+- 已知切线：连接圆心和切点，有垂直关系。
+
+- 过一点求切线：设直线方程，解方程圆心到直线的距离为半径，应该有两条切线。
+
+- 若直线与圆相交，那么圆心到直线的距离 []{.arithmatex}$d$、弦长 []{.arithmatex}$L$ 的一半以及圆的半径 []{.arithmatex}$r$ 刚好构成了一个小的直角三角形，则 []{.arithmatex}$r^2=d^2+(L/2)^2$。
+
+- 当涉及恒过定点的直线与曲线（完整的圆除外）有交点的时候，首先确定相应的临界情形（初始位置），然后绕着定点旋转直线，直到完全符合题意才终止旋转。
+
+我们知道过圆 []{.arithmatex}$(x-a)^2+(y-b)^2=r^2$ 上一点 []{.arithmatex}$P(x_0,y_0)$ 的切线方程为：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+(x_0-a)(x-a)+(y_0-b)(x-b)=r\^2
+:::
+
+$$(x_0-a)(x-a)+(y_0-b)(x-b)=r^2$$
+::::
+
+带入圆的参数方程（[]{.arithmatex}$x_0=r\cos\theta,y_0=r\sin\theta$）：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{(x-a)\cos\theta+(y-b)\sin\theta=r}
+:::
+
+$$\boxed{(x-a)\cos\theta+(y-b)\sin\theta=r}$$
+::::
+
+我们发现该直线所围成的图形就是圆，只要过圆上任意一点作圆的切线构成的集合就可以把整个圆包络在里面。因此我们把该直线称为是圆的包络线。
+
+### 阿波罗尼斯圆 {#_21}
+
+1.  到两定点的距离之商为定值（不等于 []{.arithmatex}$1$）的点的轨迹是阿波罗尼斯圆；
+2.  到两定点的距离之和为定值（大于两定点的距离）的点的轨迹是椭圆；
+3.  到两定点的距离之差的绝对值为定值（大于 []{.arithmatex}$0$ 且小于两定点的距离）的点的轨迹是双曲线；
+4.  到两定点的距离之积为定值（该定值为正数）的点的轨迹是卡西尼卵形线。
+
+阿波罗尼斯圆（简称阿氏圆）已知平面上两点 []{.arithmatex}$A,B$，则所有满足 []{.arithmatex}$PA/PB=k$（[]{.arithmatex}$k\neq1$）的点 []{.arithmatex}$P$ 的轨迹是一个圆。
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{\dfrac{(x-x_a)\^2+(y-y_a)\^2}{(x-x_b)\^2+(y-y_b)\^2}=k\^2}
+:::
+
+$$\boxed{\dfrac{(x-x_a)^2+(y-y_a)^2}{(x-x_b)^2+(y-y_b)^2}=k^2}$$
+::::
+
+整理可以得到圆的方程，但是阿波罗尼斯圆的常见找法是，在 []{.arithmatex}$AB$ 所在直线上找到满足条件的两个点，以两点中点为圆心作圆即可。
+
+阿式圆的逆用：在线段上、其中一侧找两个符合比例关系的点，作出以其为直径的圆即可。
+
+重点：到两个点 []{.arithmatex}$A(x_1,y_1),B(x_2,y_2)$ 距离的平方和为定值的点的轨迹是一个圆，不妨设轨迹上一点 []{.arithmatex}$P(x,y)$、这个定值为 []{.arithmatex}$C$。
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\|PA\|\^2+\|PB\|\^2=(x-x_1)\^2+(y-y_1)\^2+(x-x_2)\^2+(y-y_2)\^2=C
+:::
+
+$$|PA|^2+|PB|^2=(x-x_1)^2+(y-y_1)^2+(x-x_2)^2+(y-y_2)^2=C$$
+::::
+
+化简得：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+2x\^2-2(x_1+x_2)x+(x_1\^2+x_2\^2)+2y\^2-2(y_1+y_2)y+(y_1\^2+y_2\^2)-C=0
+:::
+
+$$2x^2-2(x_1+x_2)x+(x_1^2+x_2^2)+2y^2-2(y_1+y_2)y+(y_1^2+y_2^2)-C=0$$
+::::
+
+例题：已知 []{.arithmatex}$M,N$ 为圆 []{.arithmatex}$x^2+y^2=9$ 上两点，点 []{.arithmatex}$A(1,2)$，且 []{.arithmatex}$AM\perp AN$，则线段 []{.arithmatex}$MN$ 的长的取值范围是？
+
+我们发现只需要求出 []{.arithmatex}$|OP|$ 的取值范围即可：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\paren{\dfrac{\|MN\|}{2}}\^2+\|OP\|\^2=\|OM\|\^2
+:::
+
+$$\paren{\dfrac{|MN|}{2}}^2+|OP|^2=|OM|^2$$
+::::
+
+我们不妨取坐标原点 []{.arithmatex}$O$，[]{.arithmatex}$MN$ 中点 []{.arithmatex}$P$，容易发现方程：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\|OP\|\^2+\|AP\|\^2=9
+:::
+
+$$|OP|^2+|AP|^2=9$$
+::::
+
+不妨设 []{.arithmatex}$P(x,y)$，解得：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\paren{x-\dfrac12}\^2+\paren{y-1}\^2=\dfrac{13}4
+:::
+
+$$\paren{x-\dfrac12}^2+\paren{y-1}^2=\dfrac{13}4$$
+::::
+
+即可得到 []{.arithmatex}$|OP|$ 的取值范围。
+
+阿氏圆的性质：[]{.arithmatex}$\triangle POA\backsim\triangle POB$，根据相似。
+
+## 代数关系 {#_22}
+
+### 参数方程 {#_23}
+
+参数方程和函数相似，都是由一些在指定的集合的数，称为参数或自变数，以决定因变数的结果。
+
+我们知道，几何中常见的方程是 []{.arithmatex}$y$ 关于 []{.arithmatex}$x$ 的方程，但是我们也可以将 []{.arithmatex}$x,y$ 均视为因变量，钦定其为关于 []{.arithmatex}$t$ 或 []{.arithmatex}$\theta$ 的方程，称为参数方程。
+
+- 普通方程转为参数方程：利用参数方程，可以很方便的表示不能用函数表达，或者常规的方程难以表达的曲线。
+
+- 参数方程转为普通方程：消去参数，或者将参数用 []{.arithmatex}$x,y$ 表示，然后解没有参数的方程。
+
+参数方程可以用于消元，当两个未知量具有明显的几何意义，可以设出参数方程。
+
+容易知道：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{\begin{cases} x&=a+r\cos\theta\\ y&=b+r\sin\theta \end{cases}}
+:::
+
+$$\boxed{\begin{cases}
+x&=a+r\cos\theta\\
+y&=b+r\sin\theta
+\end{cases}}$$
+::::
+
+可以表示一个圆。
+
+容易知道
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{\begin{cases} x&=a\cos\theta\\ y&=b\sin\theta \end{cases}}
+:::
+
+$$\boxed{\begin{cases}
+x&=a\cos\theta\\
+y&=b\sin\theta
+\end{cases}}$$
+::::
+
+可以表示一个中心在原点的椭圆。
+
+容易知道
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{\begin{cases} x&=\dfrac{a}{\cos\theta}\\ y&=b\tan\theta \end{cases}}
+:::
+
+$$\boxed{\begin{cases}
+x&=\dfrac{a}{\cos\theta}\\
+y&=b\tan\theta
+\end{cases}}$$
+::::
+
+可以表示一个中心在原点的双曲线。
+
+### 仿射变换 {#_24}
+
+我们在坐标系部分讲解了线性变换，我们知道线性变换后
+
+- 直线变换后依然是直线。
+
+- 直线比例保持不变。
+
+- 原点变换后依然是原点。
+
+而我们称仿射变换是指在对一个向量空间进行一次线性变换并接上一个**平移**，变换为另一个向量空间。伸缩、平移、对称等都是仿射变换，
+
+![alt text](../image-2.avif){width="80%"}
+
+事实上：
+
+- 平行直线依然平行。
+
+- 共线的点依然共线。
+
+- 直线变换后依然是直线。
+
+- 直线上的线段比例保持不变。
+
+使用一增广矩阵与一增广向量，需要所有向量在其末端扩长 []{.arithmatex}$1$ 且所有矩阵都于底部添加一排零，右边扩长一列转换向量，及右下角添加一个 []{.arithmatex}$1$。
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{bmatrix}{\vec {y}}\\1\end{bmatrix}=\left\[{\begin{array}{ccc\|c}\\&A&&{\vec {b}}\\ \\0&\ldots &0&1\end{array}}\right\]{\begin{bmatrix}{\vec {x}}\\1\end{bmatrix}}
+:::
+
+$$\begin{bmatrix}{\vec {y}}\\1\end{bmatrix}=\left[{\begin{array}{ccc|c}\,&A&&{\vec {b}}\ \\0&\ldots &0&1\end{array}}\right]{\begin{bmatrix}{\vec {x}}\\1\end{bmatrix}}$$
+::::
+
+等价于
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\vec {y}=A{\vec {x}}+{\vec {b}}
+:::
+
+$$\vec {y}=A{\vec {x}}+{\vec {b}}$$
+::::
+
+对于一个椭圆
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\dfrac{x\^2}{a\^2}+\dfrac{y\^2}{b\^2}=1
+:::
+
+$$\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$$
+::::
+
+我们不妨令 []{.arithmatex}$x'=\dfrac{b}{a}x$，则
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+x\'\^2+y\^2=b\^2
+:::
+
+$$x'^2+y^2=b^2$$
+::::
+
+我们不妨令 []{.arithmatex}$y'=\dfrac{a}{b}y$，则
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+x\^2+y\'\^2=a\^2
+:::
+
+$$x^2+y'^2=a^2$$
+::::
+
+这样就通过伸缩变换将椭圆变成了圆；一般的，我们讨论变换
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+f:\begin{cases} x\'&=mx\\ y\'&=ny \end{cases}
+:::
+
+$$f:\begin{cases}
+x'&=mx\\
+y'&=ny
+\end{cases}$$
+::::
+
+- 任意面积 []{.arithmatex}$S$ 变为 []{.arithmatex}$nm$ 倍：[]{.arithmatex}$S'=nm\cdot S$。
+
+- 有椭圆第三定义。
+
+双曲线也可以用仿射变换，此时令
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+f:\begin{cases} x&=ax\'\\ y&=biy\' \end{cases}
+:::
+
+$$f:\begin{cases}
+x&=ax'\\
+y&=biy'
+\end{cases}$$
+::::
+
+带入双曲线方程
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\dfrac{x\^2}{a\^2}-\dfrac{y\^2}{b\^2}=x\^2+y\^2=1
+:::
+
+$$\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=x^2+y^2=1$$
+::::
+
+也就是一个单位圆，但是此时引入复数是不完全明智的，可能会存在一些伪证，我们通常需要进行验证才能得到结论，因此双曲线的仿射变换不常用。
+
+### 向量关系 {#_25}
+
+共线长度关系通常以 []{.arithmatex}$\vecc{PA}=\lambda\vecc{PB}$ 的形式给出。
+
+此时最常用的方法是先设坐标，然后通过向量的坐标关系解出位置点的坐标，可以一定程度上避免直线与椭圆的联立过程。
+
+此时，如果 []{.arithmatex}$A,B$ 都在曲线上，则可以通过韦达定理转化的方法，例如若有 []{.arithmatex}$x_2=\lambda x_1$ 则
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{aligned} \lambda+\dfrac{1}{\lambda}&=\dfrac{x_1}{x_2}+\dfrac{x_2}{x_1}\\ &=\dfrac{(x_1+x_2)\^2}{x_1x_2}-2 \end{aligned}
+:::
+
+$$\begin{aligned}
+\lambda+\dfrac{1}{\lambda}&=\dfrac{x_1}{x_2}+\dfrac{x_2}{x_1}\\
+&=\dfrac{(x_1+x_2)^2}{x_1x_2}-2
+\end{aligned}$$
+::::
+
+若只有一点在曲线上，不妨设 []{.arithmatex}$A$ 在曲线上，[]{.arithmatex}$B$ 不再曲线上，利用 []{.arithmatex}$B,P$ 的坐标表示 []{.arithmatex}$A$ 的坐标，利用其在曲线上，带入坐标计算化简即可。
+
+类似的，若 []{.arithmatex}$A, B$ 两点在曲线上，且点 []{.arithmatex}$M$ 满足 []{.arithmatex}$\overrightarrow{OM} = \lambda\overrightarrow{OA} + \mu\overrightarrow{OB}$，则我们先用 []{.arithmatex}$A, B$ 两点的坐标来表示点 []{.arithmatex}$M$，然后代入曲线的方程。
+
+### 角度问题 {#_26}
+
+倒角公式：我们知道 []{.arithmatex}$\theta=\theta_2-\theta_1$，如图
+
+![alt text](../image.avif){width="40%"}
+
+因此，不妨
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{aligned} \tan\theta&=\dfrac{\tan\theta_2-\tan\theta_1}{1+\tan\theta_1+\tan\theta_2}\\ &=\dfrac{k_2-k_1}{1+k_1k_2} \end{aligned}
+:::
+
+$$\begin{aligned}
+\tan\theta&=\dfrac{\tan\theta_2-\tan\theta_1}{1+\tan\theta_1+\tan\theta_2}\\
+&=\dfrac{k_2-k_1}{1+k_1k_2}
+\end{aligned}$$
+::::
+
+若 []{.arithmatex}$\angle APB$ 为锐角，则等价转译为 []{.arithmatex}$\overrightarrow{PA} \cdot \overrightarrow{PB} > 0$（特别注意不能出现三点共线）；若 []{.arithmatex}$\angle APB$ 为直角，则等价转译为 []{.arithmatex}$\overrightarrow{PA} \cdot \overrightarrow{PB} = 0$；若 []{.arithmatex}$\angle APB$ 为钝角，则等价转译为 []{.arithmatex}$\overrightarrow{PA} \cdot \overrightarrow{PB} < 0$（特别注意不能出现三点共线）。
+
+在很多时候有关"角度"这个字眼并不会那么直接地出现，而是以一种极其隐晦的方式体现夹角问题，例如，点 []{.arithmatex}$P$ 总是在以 []{.arithmatex}$AB$ 为直径的圆内，那么本质上还是在说明 []{.arithmatex}$\overrightarrow{PA} \cdot \overrightarrow{PB} < 0$；点 []{.arithmatex}$P$ 总是在以 []{.arithmatex}$AB$ 为直径的圆外，直接的转译就是 []{.arithmatex}$\overrightarrow{PA} \cdot \overrightarrow{PB} > 0$；点 []{.arithmatex}$P$ 总是在以 []{.arithmatex}$AB$ 为直径的圆上，直接的转译就是 []{.arithmatex}$\overrightarrow{PA} \cdot \overrightarrow{PB} = 0$。
+
+- 若不垂直于 []{.arithmatex}$x$ 轴的两直线 []{.arithmatex}$\ell_1$ 与 []{.arithmatex}$\ell_2$ 的倾斜角分别为 []{.arithmatex}$\alpha, \beta$，则 []{.arithmatex}$\alpha + \beta = \pi$ 等价于 []{.arithmatex}$k_{\ell_1} + k_{\ell_2} = 0$。
+
+- 斜率之和为零的惯用书面表达，例如：两条直线的倾斜角相等（倾斜角为 []{.arithmatex}$90^\circ$ 除外）；两条直线关于 []{.arithmatex}$x$ 轴对称，或者关于 []{.arithmatex}$y$ 轴对称，或者关于直线 []{.arithmatex}$y = m$ 或 []{.arithmatex}$x = n$ 对称；其中涉及两个角相等（有可能是角平分线问题，本质上是斜率之和为零），及线段比例相等（角平分线定理的应用）
+
+- 倾斜角为 []{.arithmatex}$\alpha$ 的直线 []{.arithmatex}$\ell_1$ 与倾斜角为 []{.arithmatex}$\beta$ 的直线 []{.arithmatex}$\ell_2$ 的两相交直线的夹角被倾斜角为 []{.arithmatex}$\theta$ 的直线 []{.arithmatex}$\ell$ 平分，则 []{.arithmatex}$|\tan(\alpha - \theta)| - |\tan(\beta - \theta)| = 0$。
+
+### 轨迹问题 {#_27}
+
+要求轨迹方程，即得到方程式；要求轨迹，则用对应的定义来描述一个曲线。
+
+直接求法：若动点的轨迹与某一类圆锥曲线的定义吻合，可直接根据定义来求。
+
+- 定圆上一动点和圆内一定点的垂直平分线与其半径的交点的轨迹是椭圆。
+- 定圆上一动点与圆外一定点的垂直平分线与其半径的交点的轨迹是双曲线。
+
+间接求法：主要有三种方法，虽然各有不同，但是核心思想就是设出点的坐标。
+
+直译法：
+
+- 通常是给出直线或点的关系。
+
+- 我们设轨迹上一点 []{.arithmatex}$P(x,y)$，列出 []{.arithmatex}$x,y$ 满足的调节，化简即可。
+
+参数法：
+
+- 如果动点本身所满足的条件式中含有一个参数，或在运动过程中受到某个变量的制约，那么以此变量为参数，建立轨迹的参数方程，再设法消去参数，即可得到轨迹的方程。
+
+- 如果动点是两条曲线的交点，则其坐标同时满足两个曲线万程，那么消去辅助量，即可求得动点的轨迹。
+
+相关点法：
+
+- 动点满足的限制条件不容易直接列出等式，但是动点随着另---相关点的运动而运动。
+
+- 这时可用动点（所求点）坐标表示相关点（已知点）的坐标，根据相关点所满足的方程求得动点的轨迹方程。
+
+空间轨迹：空间点的轨迹的求解绝大多数都需要把平面知识类比到空间来处理，例如中垂线类比到中垂面，角平分线类比到角平分面。当几何体中是---个规则的图形且几何关系比较明确的时候，则通过建立空间直角坐标系把几何问题转化为代数运算来处理。
+
+### 定点问题 {#_28}
+
+- 根据特殊直线、对称性猜定点。
+
+  对称性：关于轴对称，则对称过去交于一点。
+
+- 证明定点，或用恒成立求顶点。
+
+  证明，不妨表示直线上两点 []{.arithmatex}$A,B$，用猜出的 []{.arithmatex}$M$ 坐标验证 []{.arithmatex}$k_{AM}=k_{MB}$。
+
+参变分离法：求定点
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+(3k+1)x+2ky+4k-3=0
+:::
+
+$$(3k+1)x+2ky+4k-3=0$$
+::::
+
+不妨令 []{.arithmatex}$k$ 为主元，
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+(3x+2y+4)k+x-3=0
+:::
+
+$$(3x+2y+4)k+x-3=0$$
+::::
+
+因此令
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{cases} 3x+2y+4&=0\\ x-3&=0 \end{cases}
+:::
+
+$$\begin{cases}
+3x+2y+4&=0\\
+x-3&=0
+\end{cases}$$
+::::
+
+因此定点 []{.arithmatex}$\paren{3,-\dfrac{13}{2}}$。
+
+对于含参且参数的次数都是 []{.arithmatex}$1$ 的，不妨以参数为主元，令常数和系数都为零。

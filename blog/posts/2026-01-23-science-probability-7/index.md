@@ -1,0 +1,512 @@
+# 组合数学 - 从零入门到进阶的全方位指南 {#-}
+
+组合数学是计数与结构的核心学科。本文以通俗易懂的方式梳理 4 大计数原理、排列组合基本公式以及二项式定理等基础，随后深入容斥、鸽巢、错位排列等进阶技巧，并提供实战模型与常见解题套路，帮助读者在比赛与科研中快速提取有效思路。想系统掌握组合数学，请继续阅读并点击原文获取完整细节。
+
+## 文章概览 {#_1}
+
+本文将从四个层次展开：
+
+- 基础概念与常用例题
+- 排列与组合的核心公式
+- 二项式定理及其衍生结构
+
+随后进入进阶部分，系统讲解容斥、鸽巢、错位排列等技巧，最后提供一套完整的解题模型与实战案例，帮助你在实际题目中快速定位解法。
+
+> 想获取全文细节，请访问原文链接：<https://raineblog.dpdns.org/whk/science/probability/4/>
+
+## 基础内容 {#_2}
+
+### 4 大原理 {#4}
+
+四大计数原理是组合数学的根基，分别是：
+
+- 加法原理：分类相加  
+  \$\$  
+  N = \sum m_n  
+  \$\$
+
+- 乘法原理：分步相乘  
+  \$\$  
+  N = \prod m_n  
+  \$\$
+
+- 减法原理：正难则反  
+  \$\$  
+  \|A\| = \|S\| - \|S \setminus A\| ,\\ A \subseteq S  
+  \$\$
+
+- 除法原理：划分等价类  
+  （常用于环形排列或对称情况下的计数）
+
+这些原理在几乎所有计数题中都会出现，只要把问题拆解成互斥子集或独立步骤，即可直接套用。
+
+### 经典例题 {#_3}
+
+> **路径计数**  
+> 从 []{.arithmatex}$A \to B$ 有 2 条路，[]{.arithmatex}$B \to D$ 有 3 条路；  
+> 从 []{.arithmatex}$A \to C$ 有 4 条路，[]{.arithmatex}$C \to D$ 有 5 条路。  
+> 求 []{.arithmatex}$A \to D$ 的所有路径数。
+
+解法直接使用乘法与加法原理：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+2 \times 3 \\+\\ 4 \times 5 \\=\\ 26
+:::
+
+$$  
+2 \times 3 \;+\; 4 \times 5 \;=\; 26  $$
+::::
+
+### 经典应用：因数个数 {#_4}
+
+给定整数 []{.arithmatex}$N$，若其唯一素因子分解为
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+N = p_1\^{c_1} p_2\^{c_2} \dots p_k\^{c_k}
+:::
+
+$$  
+N = p_1^{c_1} p_2^{c_2} \dots p_k^{c_k}  $$
+::::
+
+则 []{.arithmatex}$N$ 的正因数个数为
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\operatorname{cnt} = (c_1+1)(c_2+1)\dots(c_k+1)
+:::
+
+$$  
+\operatorname{cnt} = (c_1+1)(c_2+1)\dots(c_k+1)  $$
+::::
+
+举例：[]{.arithmatex}$2160 = 2^4 \times 3^3 \times 5$，因此
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\operatorname{cnt} = (4+1)(3+1)(1+1)=40
+:::
+
+$$  
+\operatorname{cnt} = (4+1)(3+1)(1+1)=40  $$
+::::
+
+### 经典应用：子集个数 {#_5}
+
+对大小为 []{.arithmatex}$N$ 的集合 []{.arithmatex}$S$，其子集数为
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+2\^{N}
+:::
+
+$$  
+2^{N}  $$
+::::
+
+其中
+
+- 真子集：[]{.arithmatex}$2^{N}-1$
+- 非空子集：[]{.arithmatex}$2^{N}-1$
+- 非空真子集：[]{.arithmatex}$2^{N}-2$
+
+## 排列数和组合数 {#_6}
+
+### 排列数 {#_7}
+
+排列数 []{.arithmatex}$A(n,m)$ 表示从 []{.arithmatex}$n$ 件物品中取出 []{.arithmatex}$m$ 件并排成一列的方案数，公式为
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+A(n,m)=\frac{n!}{(n-m)!}
+:::
+
+$$  
+A(n,m)=\frac{n!}{(n-m)!}  $$
+::::
+
+当 []{.arithmatex}$m=n$ 时，[]{.arithmatex}$A(n,n)=n!$；约定 []{.arithmatex}$0!=1$。
+
+### 组合数 {#_8}
+
+组合数 []{.arithmatex}$C(n,m)$（记作 []{.arithmatex}$\displaystyle{n\choose m}$）表示从 []{.arithmatex}$n$ 件物品中任选 []{.arithmatex}$m$ 件，不计顺序的方案数，公式为
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+{n\choose m}= \frac{n!}{(n-m)!\\m!}
+:::
+
+$$  
+{n\choose m}= \frac{n!}{(n-m)!\,m!}  $$
+::::
+
+关键性质包括对称性
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+{n\choose m} = {n\choose n-m}
+:::
+
+$$  
+{n\choose m} = {n\choose n-m}  $$
+::::
+
+以及递推式
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+{n\choose m} = {n-1\choose m} + {n-1\choose m-1}
+:::
+
+$$  
+{n\choose m} = {n-1\choose m} + {n-1\choose m-1}  $$
+::::
+
+### 一些常用性质 {#_9}
+
+- 乘法公式  
+  \$\$  
+  {n\choose m}{m\choose k} = {n\choose k}{n-k\choose m-k}  
+  \$\$
+
+- 二项式系数求和  
+  \$\$  
+  \sum\_{i=0}\^{n}{n\choose i}=2\^{n}  
+  \$\$
+
+- "正难则反"  
+  \$\$  
+  {n\choose a} = {n\choose b}\\\Longrightarrow\\ a+b=n\\(a\neq b)  
+  \$\$
+
+## 二项式定理 {#_10}
+
+### 基本形式 {#_11}
+
+二项式定理给出
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+(a+b)\^{n} = \sum\_{i=0}\^{n}{n\choose i}a\^{n-i}b\^{i}
+:::
+
+$$  
+(a+b)^{n} = \sum_{i=0}^{n}{n\choose i}a^{n-i}b^{i}  $$
+::::
+
+令 []{.arithmatex}$b=1$ 可得到
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+(a+1)\^{n}= \sum\_{i=0}\^{n}{n\choose i}a\^{i}
+:::
+
+$$  
+(a+1)^{n}= \sum_{i=0}^{n}{n\choose i}a^{i}  $$
+::::
+
+### 杨辉三角 {#_12}
+
+杨辉三角是组合数的可视化结构。递推规则为
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+a\_{i,1}=a\_{i,i}=1,\qquad a\_{i,j}=a\_{i-1,j-1}+a\_{i-1,j}
+:::
+
+$$  
+a_{i,1}=a_{i,i}=1,\qquad a_{i,j}=a_{i-1,j-1}+a_{i-1,j}  $$
+::::
+
+每行对应 []{.arithmatex}$(a+1)^{i-1}$ 的系数。
+
+### 一些性质 {#_13}
+
+- 奇偶系数相等（当 []{.arithmatex}$n$ 为偶数）  
+  \$\$  
+  \sum\_{k\text{ 偶}}{n\choose k}= \sum\_{k\text{ 奇}}{n\choose k}=2\^{n-1}  
+  \$\$
+
+- 乘积形式  
+  \$\$  
+  {2n\choose n} = \frac{(2n)!}{n!\\n!}  
+  \$\$
+
+### 有趣的练习题 {#_14}
+
+**例题**：在 []{.arithmatex}$(x+y)(x-y)^{5}$ 的展开式中，求 []{.arithmatex}$x^{n}y^{6-n}$ 的系数。  
+解法利用二项式系数的交替符号，可得
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+(-1)\^{n}\left\[{5\choose 6-n}-{5\choose 5-n}\right\]
+:::
+
+$$  
+(-1)^{n}\left[{5\choose 6-n}-{5\choose 5-n}\right]  $$
+::::
+
+### 二项式定理的解题套路 {#_15}
+
+1.  **把目标指数转化为系数求和**：如求某项之和，可先代入 []{.arithmatex}$x=1$ 与 []{.arithmatex}$x=-1$ 形成线性方程组。
+2.  **利用对称性**：[]{.arithmatex}${n\choose i} = {n\choose n-i}$ 常用于化简求和范围。
+3.  **正难则反**：在计数题中常把"不满足条件"的组合计数后整体相减。
+
+### 推导组合性质 {#_16}
+
+从二项式定理可推出  
+\$\$  
+\sum\_{k=0}\^{n}\frac{1}{k+1}{n\choose k}= \frac{2\^{\\n+1}-1}{n+1}  
+\$\$
+
+以及交替符号版本
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\sum\_{k=0}\^{n}\frac{(-1)\^{k}}{k+1}{n\choose k}= \frac{1}{n+1}
+:::
+
+$$  
+\sum_{k=0}^{n}\frac{(-1)^{k}}{k+1}{n\choose k}= \frac{1}{n+1}  $$
+::::
+
+## 进阶内容 {#_17}
+
+### 容斥原理 {#_18}
+
+计数时先把所有情况相加，再减去重叠部分，交叉部分加回，以此类推。公式概括为
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\bigl\|\\\bigcup\_{i=1}\^{m}A\_{i}\bigr\| = \sum\_{i}\|A\_{i}\| - \sum\_{i\<j}\|A\_{i}\cap A\_{j}\| + \sum\_{i\<j\<k}\|A\_{i}\cap A\_{j}\cap A\_{k}\| - \dots
+:::
+
+$$  
+\bigl|\!\bigcup_{i=1}^{m}A_{i}\bigr|
+= \sum_{i}|A_{i}|
+- \sum_{i<j}|A_{i}\cap A_{j}|
++ \sum_{i<j<k}|A_{i}\cap A_{j}\cap A_{k}|
+- \dots  $$
+::::
+
+> 示例：四位老师分配到四个班级，甲不能在 A 班、丁不能在 B 班，总方案数为  
+> \$\$  
+> 4! - 2\times3! + 2! = 14  
+> \$\$
+
+### 鸽巢原理 {#_19}
+
+若把 []{.arithmatex}$n+1$ 件物品放入 []{.arithmatex}$n$ 组，则必有至少一组包含两个或更多物品。推广为
+
+> 把 []{.arithmatex}$n$ 件物品划分到 []{.arithmatex}$k$ 组，必有一组至少 []{.arithmatex}$\left\lceil\frac{n}{k}\right\rceil$ 件。
+
+### 多重集 {#_20}
+
+多重集允许元素出现多次。其排列数（多重组合数）为
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+{n\choose n\_{1},n\_{2},\dots ,n\_{k}} = \frac{n!}{\prod\_{i=1}\^{k} n\_{i}!}
+:::
+
+$$  
+{n\choose n_{1},n_{2},\dots ,n_{k}} = \frac{n!}{\prod_{i=1}^{k} n_{i}!}  $$
+::::
+
+若只关心选取 []{.arithmatex}$r$ 项且每种元素无限供应，则组合数为
+
+:::: {.arithmatex}
+::: {.MathJax_Preview k-1="k-1" r_k-1_choose="r+k-1\\choose"}
+:::
+
+$$  $$
+::::
+
+### 圆排列 {#_21}
+
+圆形排列的方案数除以对称旋转数：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+Q(n,n)=\frac{n!}{n}=(n-1)!
+:::
+
+$$  
+Q(n,n)=\frac{n!}{n}=(n-1)!  $$
+::::
+
+一般 []{.arithmatex}$Q(n,m)=\dfrac{n!}{m\,(n-m)!}$。
+
+### 错位排列 {#_22}
+
+错位排列（或称"错位排列"）指没有任何元素出现在原位的排列，记为 []{.arithmatex}$D_{n}$。闭式为
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+D\_{n}=n!\sum\_{k=0}\^{n}\frac{(-1)\^{k}}{k!}
+:::
+
+$$  
+D_{n}=n!\sum_{k=0}^{n}\frac{(-1)^{k}}{k!}  $$
+::::
+
+递推公式
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+D\_{n}=(n-1)(D\_{n-1}+D\_{n-2})
+:::
+
+$$  
+D_{n}=(n-1)(D_{n-1}+D_{n-2})  $$
+::::
+
+极限概率 []{.arithmatex}$P_{n}=D_{n}/n!$ 满足 \$ \displaystyle\lim\_{n\to\infty}P\_{n}=\frac{1}{e}\$。
+
+### 卡特兰数 {#_23}
+
+用于计数不穿越对角线的路径、合法括号序列等。显式公式
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+C\_{n}= \frac{1}{n+1}{2n\choose n}
+:::
+
+$$  
+C_{n}= \frac{1}{n+1}{2n\choose n}  $$
+::::
+
+前几项为 []{.arithmatex}$1, 1, 2, 5, 14, 42, 132,\dots$
+
+### Lucas 定理 {#lucas}
+
+若 []{.arithmatex}$p$ 为素数，则
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+{n\choose m}\equiv \prod\_{i}{a\_{i}\choose b\_{i}}\pmod{p}
+:::
+
+$$  
+{n\choose m}\equiv
+\prod_{i}{a_{i}\choose b_{i}}\pmod{p}  $$
+::::
+
+其中 []{.arithmatex}$n=\sum a_{i}p^{i}$、[]{.arithmatex}$m=\sum b_{i}p^{i}$ 为 []{.arithmatex}$p$ 进制展开。
+
+### 广义二项式定理 {#_24}
+
+对任意实数 []{.arithmatex}$r$，
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+(1+x)\^{r}= \sum\_{k=0}\^{\infty}{r\choose k}x\^{k},\qquad {r\choose k}= \frac{r(r-1)\dots(r-k+1)}{k!}
+:::
+
+$$  
+(1+x)^{r}= \sum_{k=0}^{\infty}{r\choose k}x^{k},\qquad  
+{r\choose k}= \frac{r(r-1)\dots(r-k+1)}{k!}  $$
+::::
+
+适用于非整数指数的展开。
+
+## 常见解题技巧和模型 {#_25}
+
+### 特殊优先策略 {#_26}
+
+先处理最受约束的对象（例如固定位置、禁止出现的元素），再对剩余部分使用通用计数公式。
+
+### 等效替代策略 {#_27}
+
+通过构造双射，把原始计数问题转化为更易求解的等价问题，如捆绑法、插空法。
+
+### 先整体后局部策略 {#_28}
+
+先确定大结构的位置（如整体排列），再在子结构内部做细分计数。
+
+### 正难则反策略 {#_29}
+
+先算全部方案数，再减去不满足条件的方案数，常用于"至少"类约束。
+
+### 成套思想 {#_30}
+
+把多项式系数的求和视为代入特定 []{.arithmatex}$x$、[]{.arithmatex}$y$ 的线性组合，例如
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\sum a\_{i}= \bigl\[(a+1)\^{n}\bigr\]\_{x=1},\qquad \sum (-1)\^{i}a\_{i}= \bigl\[(a+1)\^{n}\bigr\]\_{x=-1}
+:::
+
+$$  
+\sum a_{i}= \bigl[(a+1)^{n}\bigr]_{x=1},\qquad  
+\sum (-1)^{i}a_{i}= \bigl[(a+1)^{n}\bigr]_{x=-1}  $$
+::::
+
+### 倍缩法和可重策略 {#_31}
+
+将若干对象视为"一组"，先算整体排列，再除以组内部的内部排列数。
+
+### 多排问题直排策略 {#_32}
+
+当分组且每组有区别时，可直接视为一次完整排列，省去额外的组合步骤。
+
+### 模型和穷举策略 {#_33}
+
+将题目拆解为"排数模型"和"球盒模型"，配合枚举或搜索，实现快速求解。
+
+#### 模型一：排数问题 {#_34}
+
+例如统计不重复三位数、奇偶数等，直接使用乘法原理并结合限制条件。
+
+#### 模型二：球盒模型 {#_35}
+
+根据球与盒子的是否同质、是否有限制，分别使用：
+
+- 直接计数 []{.arithmatex}$m^{n}$（球不同、盒子不同）
+- 插板公式 []{.arithmatex}${n+m-1\choose m-1}$（球相同、盒子不同）
+- 斯特林数（球不同、盒子相同）
+- 其他限制使用容斥或分组计数。
+
+## 组合数大型运算推导 {#_36}
+
+下面展示两条常用求和恒等式的简洁证明，帮助你在竞赛中快速写出严谨的推导。
+
+### 例 1 {#1}
+
+证明
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\sum\_{i=0}\^{k}(-1)\^{i}{n\choose i}=(-1)\^{k}{n-1\choose k}
+:::
+
+$$  
+\sum_{i=0}^{k}(-1)^{i}{n\choose i}=(-1)^{k}{n-1\choose k}  $$
+::::
+
+利用二项式恒等式 []{.arithmatex}${n\choose i}+{n\choose i+1}={n+1\choose i+1}$，并对上下标做适当移位，可得到所需等式。
+
+### 例 2 {#2}
+
+证明
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\sum\_{k=0}\^{n}\frac{1}{k+1}{n\choose k}= \frac{2\^{\\n+1}-1}{n+1}
+:::
+
+$$  
+\sum_{k=0}^{n}\frac{1}{k+1}{n\choose k}= \frac{2^{\,n+1}-1}{n+1}  $$
+::::
+
+先把 []{.arithmatex}$\dfrac{1}{k+1}{n\choose k}$ 写成 []{.arithmatex}$\dfrac{1}{n+1}{n+1\choose k+1}$，再利用二项式系数求和 []{.arithmatex}$\sum_{k=0}^{n}{n+1\choose k+1}=2^{\,n+1}-1$。
+
+这些技巧在处理带分母的组合求和时尤为有用。
+
+------------------------------------------------------------------------
+
+> 想了解完整的推导过程、更多练习题以及细节解释，请访问原文链接：<https://raineblog.dpdns.org/whk/science/probability/4/>
+
+祝你在组合数学的世界里玩得开心，解题更顺手！

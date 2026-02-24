@@ -1,0 +1,695 @@
+# 多项式入门 {#_1}
+
+## 基础方法 {#_2}
+
+### 乘法公式 {#_3}
+
+分配率：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{aligned} (a+b)(c+d)&=ac+ad+bc+bd\\ (a+b)(a-b)&=a\^2-b\^2 \end{aligned}
+:::
+
+$$\begin{aligned}
+(a+b)(c+d)&=ac+ad+bc+bd\\
+(a+b)(a-b)&=a^2-b^2
+\end{aligned}$$
+::::
+
+和差方：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{aligned} (a+b)\^2&=a\^2+2ab+b\^2\\ (a-b)\^2&=a\^2-2ab+b\^2\\ (a+b)\^3&=a\^3+3a\^2b+3ab\^2+b\^3\\ (a-b)\^3&=a\^3-3a\^2b+3ab\^2-b\^3\\ (a+b+c)\^2&=a\^2+b\^2+c\^2+2ab+2bc+2ac\\ \end{aligned}
+:::
+
+$$\begin{aligned}
+(a+b)^2&=a^2+2ab+b^2\\
+(a-b)^2&=a^2-2ab+b^2\\
+(a+b)^3&=a^3+3a^2b+3ab^2+b^3\\
+(a-b)^3&=a^3-3a^2b+3ab^2-b^3\\
+(a+b+c)^2&=a^2+b^2+c^2+2ab+2bc+2ac\\
+\end{aligned}$$
+::::
+
+二项式定理：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{aligned} (x+y)\^n&=\sum\_{k=0}\^n{n\choose k}x\^ky\^{n-k}\\ (x+1)\^n&=\sum\_{k=0}\^n{n\choose k}x\^k \end{aligned}
+:::
+
+$$\begin{aligned}
+(x+y)^n&=\sum_{k=0}^n{n\choose k}x^ky^{n-k}\\
+(x+1)^n&=\sum_{k=0}^n{n\choose k}x^k
+\end{aligned}$$
+::::
+
+方和差：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{aligned} a\^3+b\^3&=(a+b)(a\^2-ab+b\^2)\\ a\^3-b\^3&=(a-b)(a\^2+ab+b\^2)\\ a\^2+b\^2&=(a+b)\^2-2ab\\ a\^2+b\^2&=(a-b)\^2+2ab\\ a\^3+b\^3+c\^3&=(a+b+c)(a\^2+b\^2+c\^2-ab-bc-ac)\\ \end{aligned}
+:::
+
+$$\begin{aligned}
+a^3+b^3&=(a+b)(a^2-ab+b^2)\\
+a^3-b^3&=(a-b)(a^2+ab+b^2)\\
+a^2+b^2&=(a+b)^2-2ab\\
+a^2+b^2&=(a-b)^2+2ab\\
+a^3+b^3+c^3&=(a+b+c)(a^2+b^2+c^2-ab-bc-ac)\\
+\end{aligned}$$
+::::
+
+一般形式：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{aligned} a\^n-b\^n&=(a-b)(a\^{n-1}+a\^{n-2}b+\dots+b\^{n-1})\\ a\^n+b\^n&=(a+b)(a\^{n-1}-a\^{n-2}b+\dots+b\^{n-1})&n=2k+1,k\in\mathbb Z \end{aligned}
+:::
+
+$$\begin{aligned}
+a^n-b^n&=(a-b)(a^{n-1}+a^{n-2}b+\dots+b^{n-1})\\
+a^n+b^n&=(a+b)(a^{n-1}-a^{n-2}b+\dots+b^{n-1})&n=2k+1,k\in\mathbb Z
+\end{aligned}$$
+::::
+
+次方和公式：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\sum\_{i=1}\^ni={n(n+1)\over2}
+:::
+
+$$\sum_{i=1}^ni={n(n+1)\over2}$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\sum\_{i=1}\^ni\^2={n(n+1)(2n+1)\over6}
+:::
+
+$$\sum_{i=1}^ni^2={n(n+1)(2n+1)\over6}$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\sum\_{i=1}\^ni\^3=\left\[{n(n+1)\over2}\right\]\^2={n\^2(n+1)\^2\over4}
+:::
+
+$$\sum_{i=1}^ni^3=\left[{n(n+1)\over2}\right]^2={n^2(n+1)^2\over4}$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\sum\_{i=1}\^ni\^4=\frac{n(n+1)(2n+1)(3n\^3+3n-1)}{30}
+:::
+
+$$\sum_{i=1}^ni^4=\frac{n(n+1)(2n+1)(3n^3+3n-1)}{30}$$
+::::
+
+对于五次方及以上，公式较为复杂，一般不考察。
+
+婆罗摩笈多-斐波那契恒等式：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{aligned} (a\^2+b\^2)(c\^2+d\^2)&=(ac-bd)\^2+(ad+bc)\^2\\ &=(ac+bd)\^2+(ad-bc)\^2 \end{aligned}
+:::
+
+$$\begin{aligned}
+(a^2+b^2)(c^2+d^2)&=(ac-bd)^2+(ad+bc)^2\\
+&=(ac+bd)^2+(ad-bc)^2
+\end{aligned}$$
+::::
+
+这个恒等式指出，如果有两个数都能表示为两个平方数的和，则这两个数的积也可以表示为两个平方数的和。
+
+### 计算技巧 {#_4}
+
+共轭根式：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+(\sqrt2\pm1)\^2=3\pm2\sqrt2\\ (\sqrt3\pm1)\^2=4\pm2\sqrt3
+:::
+
+$$(\sqrt2\pm1)^2=3\pm2\sqrt2\\
+(\sqrt3\pm1)^2=4\pm2\sqrt3$$
+::::
+
+平方：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{array}{lllll} &11\^2=121&12\^2=144&13\^2=169&14\^2=196\\ 15\^2=225&16\^2=256&17\^2=289&18\^2=324&19\^2=361\\ &21\^2=441&22\^2=484&23\^2=529&24\^2=576\\ 25\^2=625&26\^2=676&27\^2=729&28\^2=784&29\^2=841\\ &31\^2=961&32\^2=1024&33\^2=1089&34\^2=1156\\ 35\^2=1225&36\^2=1296&37\^2=1369&38\^2=1444&39\^2=1521\\ &41\^2=1681&42\^2=1764&43\^2=1849&44\^2=1936\\ {\color{red}45\^2=2025}&46\^2=2116&47\^2=2209&48\^2=2304&49\^2=2401\\ \end{array}
+:::
+
+$$\begin{array}{lllll}
+&11^2=121&12^2=144&13^2=169&14^2=196\\
+15^2=225&16^2=256&17^2=289&18^2=324&19^2=361\\
+&21^2=441&22^2=484&23^2=529&24^2=576\\
+25^2=625&26^2=676&27^2=729&28^2=784&29^2=841\\
+&31^2=961&32^2=1024&33^2=1089&34^2=1156\\
+35^2=1225&36^2=1296&37^2=1369&38^2=1444&39^2=1521\\
+&41^2=1681&42^2=1764&43^2=1849&44^2=1936\\
+{\color{red}45^2=2025}&46^2=2116&47^2=2209&48^2=2304&49^2=2401\\
+\end{array}$$
+::::
+
+立方：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{array}{lllll} &&\\\\\\2\^3=8&\\\\\\3\^3=27&\\\\\\4\^3=64\\ \\\\\\5\^3=125&\\\\\\6\^3=216&\\\\\\7\^3=343&\\\\\\8\^3=512&\\\\\\9\^3=729\\ 10\^3=1000&11\^3=1331&12\^3=1728&13\^3=2197&14\^3=2744\\ 15\^3=3375&16\^3=4096&17\^3=4913&18\^3=5832&19\^3=6859\\ 20\^3=8000&21\^3=9261&22\^3=10648&23\^3=12167&24\^3=13824\\ 25\^3=15625&26\^3=17576&27\^3=19683&28\^3=21952&29\^3=24389\\ 30\^3=27000&31\^3=29791&32\^3=32768&33\^3=35937&34\^3=39304\\ 35\^3=42875&36\^3=46656&37\^3=50653&38\^3=54872&39\^3=59319\\ 40\^3=64000 \end{array}
+:::
+
+$$\begin{array}{lllll}
+&&\,\,\,2^3=8&\,\,\,3^3=27&\,\,\,4^3=64\\
+\,\,\,5^3=125&\,\,\,6^3=216&\,\,\,7^3=343&\,\,\,8^3=512&\,\,\,9^3=729\\
+10^3=1000&11^3=1331&12^3=1728&13^3=2197&14^3=2744\\
+15^3=3375&16^3=4096&17^3=4913&18^3=5832&19^3=6859\\
+20^3=8000&21^3=9261&22^3=10648&23^3=12167&24^3=13824\\
+25^3=15625&26^3=17576&27^3=19683&28^3=21952&29^3=24389\\
+30^3=27000&31^3=29791&32^3=32768&33^3=35937&34^3=39304\\
+35^3=42875&36^3=46656&37^3=50653&38^3=54872&39^3=59319\\
+40^3=64000
+\end{array}$$
+::::
+
+幂：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{array}{lllll} &2\^{1}\\\\=2&2\^{2}\\\\=4&2\^{3}\\\\=8&2\^{4}\\\\=16\\ 2\^{5}\\\\=32&2\^{6}\\\\=64&2\^{7}\\\\=128&2\^{8}\\\\=256&2\^{9}\\\\=512\\ 2\^{10}=1024&2\^{11}=2048&2\^{12}=4096&2\^{13}=8192&2\^{14}=16384\\ 2\^{15}=32768&2\^{16}=65536 \end{array}
+:::
+
+$$\begin{array}{lllll}
+&2^{1}\,\,=2&2^{2}\,\,=4&2^{3}\,\,=8&2^{4}\,\,=16\\
+2^{5}\,\,=32&2^{6}\,\,=64&2^{7}\,\,=128&2^{8}\,\,=256&2^{9}\,\,=512\\
+2^{10}=1024&2^{11}=2048&2^{12}=4096&2^{13}=8192&2^{14}=16384\\
+2^{15}=32768&2^{16}=65536
+\end{array}$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{array}{llllll} 3\^{2}=9&3\^{3}=27&3\^{4}=81&3\^{5}=243&3\^{6}=729&3\^{7}=2187\\ 5\^{2}=25&5\^{3}=125&5\^{4}=625&5\^{5}=3125&5\^{6}=15625&5\^{7}=78125 \end{array}
+:::
+
+$$\begin{array}{llllll}
+3^{2}=9&3^{3}=27&3^{4}=81&3^{5}=243&3^{6}=729&3^{7}=2187\\
+5^{2}=25&5^{3}=125&5^{4}=625&5^{5}=3125&5^{6}=15625&5^{7}=78125
+\end{array}$$
+::::
+
+阶乘：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\begin{array}{llllll} 0!=1&1!=1&2!=2\\ 3!=6&4!=24&5!=120\\ 6!=720&7!=5040&8!=40320 \end{array}
+:::
+
+$$\begin{array}{llllll}
+0!=1&1!=1&2!=2\\
+3!=6&4!=24&5!=120\\
+6!=720&7!=5040&8!=40320
+\end{array}$$
+::::
+
+### 因式分解 {#_5}
+
+经典分离技巧：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+(a+b+c)\^2=a\^2+b\^2+c\^2+2(ab+bc+ca)
+:::
+
+$$(a+b+c)^2=a^2+b^2+c^2+2(ab+bc+ca)$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+(a+b)(a\^2-ab+b\^2)=a\^3+b\^3
+:::
+
+$$(a+b)(a^2-ab+b^2)=a^3+b^3$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+(a-b)(a\^2+ab+b\^2)=a\^3-b\^3
+:::
+
+$$(a-b)(a^2+ab+b^2)=a^3-b^3$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+x\^3+\dfrac{1}{x\^3}=\paren{x+\dfrac{1}{x}}\paren{x\^2+\dfrac{1}{x\^2}-1}
+:::
+
+$$x^3+\dfrac{1}{x^3}=\paren{x+\dfrac{1}{x}}\paren{x^2+\dfrac{1}{x^2}-1}$$
+::::
+
+一般的，
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+a\^n-b\^n=(a-b)(a\^{n-1}+a\^{n-2}b+\dots+b\^{n-1})
+:::
+
+$$a^n-b^n=(a-b)(a^{n-1}+a^{n-2}b+\dots+b^{n-1})$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+a\^n+b\^n=(a+b)(a\^{n-1}-a\^{n-2}b+\dots\pm b\^{n-1}),n\equiv1\pmod2
+:::
+
+$$a^n+b^n=(a+b)(a^{n-1}-a^{n-2}b+\dots\pm b^{n-1}),n\equiv1\pmod2$$
+::::
+
+双十字相乘：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+x\^2+4y\^2+4xy+6x+12y+9=(x+2y+3)\^2
+:::
+
+$$x^2+4y^2+4xy+6x+12y+9=(x+2y+3)^2$$
+::::
+
+1.  分解 []{.arithmatex}$x^2,y^2,xy$。
+
+2.  将 []{.arithmatex}$x$ 或 []{.arithmatex}$y$ 分为两部分。
+
+3.  检验。
+
+因式定理：形如
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+f(x)=a_0+a_1x+\dots+a_nx\^n
+:::
+
+$$f(x)=a_0+a_1x+\dots+a_nx^n$$
+::::
+
+的称为多项式，若 []{.arithmatex}$f(a)=0$，则 []{.arithmatex}$f(x)$ 一定可以分解成：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+f(x)=(x-a)g(x)
+:::
+
+$$f(x)=(x-a)g(x)$$
+::::
+
+其中 []{.arithmatex}$g(x)$ 是比 []{.arithmatex}$f(x)$ 低一次的多项式。
+
+长除法​：根据因式定理，可以通过长除法来分解多项式。
+
+如果已知多项式的一个或多个零点，因式定理可以帮助提取对应零点的因式，将多项式化简为更低次数的形式，从而简化求根过程。具体步骤如下：
+
+- 先设法找到多项式 []{.arithmatex}$f$ 的一个零点 []{.arithmatex}$a$。
+- 用因式定理确认 []{.arithmatex}$(x-a)$ 是多项式 []{.arithmatex}$f(x)$ 的因式。
+- 用长除法计算多项式 []{.arithmatex}$g(x)=\frac{f(x)}{x-a}$。
+- 在方程 []{.arithmatex}$f(x)=0$ 中，所有满足 []{.arithmatex}$x\neq a$ 的根，都是方程 []{.arithmatex}$g(x)=0$ 的根。
+- 由于 []{.arithmatex}$g(x)$ 的多项式次数比 []{.arithmatex}$f(x)$ 低，因此求 []{.arithmatex}$g$ 的零点可能更简单。
+
+## 等式与方程 {#_6}
+
+### 韦达定理 {#_7}
+
+对于二次方程
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+ax\^2+bx+c=0
+:::
+
+$$ax^2+bx+c=0$$
+::::
+
+有根的判别式
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\Delta=b\^2-4ac
+:::
+
+$$\Delta=b^2-4ac$$
+::::
+
+两根公式
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+x\_{1,2}=\dfrac{-b\pm\sqrt{\Delta}}{2a}
+:::
+
+$$x_{1,2}=\dfrac{-b\pm\sqrt{\Delta}}{2a}$$
+::::
+
+有韦达定理
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+x_1+x_2=-\dfrac{b}{a}
+:::
+
+$$x_1+x_2=-\dfrac{b}{a}$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+x_1x_2=\dfrac{c}{a}
+:::
+
+$$x_1x_2=\dfrac{c}{a}$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\|x_1-x_2\|=\dfrac{\sqrt\Delta}{\|a\|}
+:::
+
+$$|x_1-x_2|=\dfrac{\sqrt\Delta}{|a|}$$
+::::
+
+因此
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+x_1\^2+x_2\^2=(x_1+x_2)\^2-2x_1x_2=\dfrac{b\^2-2ac}{a\^2}
+:::
+
+$$x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=\dfrac{b^2-2ac}{a^2}$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\|x_1\^2-x_2\^2\|=\|(x_1+x_2)(x_1-x_2)\|=\dfrac{\|b\|\sqrt{b\^2-4ac}}{a\^2}
+:::
+
+$$|x_1^2-x_2^2|=|(x_1+x_2)(x_1-x_2)|=\dfrac{|b|\sqrt{b^2-4ac}}{a^2}$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\dfrac{1}{x_1}+\dfrac{1}{x_2}=\dfrac{x_1+x_2}{x_1x_2}=-\dfrac{b}{c}
+:::
+
+$$\dfrac{1}{x_1}+\dfrac{1}{x_2}=\dfrac{x_1+x_2}{x_1x_2}=-\dfrac{b}{c}$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\vert{\dfrac{1}{x_1}-\dfrac{1}{x_2}}=\dfrac{\|x_1-x_2\|}{\|x_1x_2\|}=\dfrac{\sqrt{b\^2-4ac}}{\|c\|}
+:::
+
+$$\vert{\dfrac{1}{x_1}-\dfrac{1}{x_2}}=\dfrac{|x_1-x_2|}{|x_1x_2|}=\dfrac{\sqrt{b^2-4ac}}{|c|}$$
+::::
+
+有二次函数根的分布：
+
+- 方程有两个正根：
+
+  :::: {.arithmatex}
+  ::: {.MathJax_Preview}
+  \Delta \> 0, x_1 + x_2 \> 0, x_1x_2 \> 0
+  :::
+
+  $$\Delta > 0, x_1 + x_2 > 0, x_1x_2 > 0$$
+  ::::
+
+- 方程有两个负根：
+
+  :::: {.arithmatex}
+  ::: {.MathJax_Preview}
+  \Delta \> 0, x_1 + x_2 \< 0, x_1x_2 \> 0
+  :::
+
+  $$\Delta > 0, x_1 + x_2 < 0, x_1x_2 > 0$$
+  ::::
+
+- 方程有两个异号根：
+
+  :::: {.arithmatex}
+  ::: {.MathJax_Preview}
+  x_1x_2 \< 0
+  :::
+
+  $$x_1x_2 < 0$$
+  ::::
+
+- 方程有两个根均大于 []{.arithmatex}$m$：
+
+  :::: {.arithmatex}
+  ::: {.MathJax_Preview}
+  \Delta \> 0, x_1 + x_2 \> 2m, (x_1 - m)(x_2 - m) \> 0
+  :::
+
+  $$\Delta > 0, x_1 + x_2 > 2m, (x_1 - m)(x_2 - m) > 0$$
+  ::::
+
+- 方程有两个根均小于 []{.arithmatex}$m$：
+
+  :::: {.arithmatex}
+  ::: {.MathJax_Preview}
+  \Delta \> 0, x_1 + x_2 \< 2m, (x_1 - m)(x_2 - m) \> 0
+  :::
+
+  $$\Delta > 0, x_1 + x_2 < 2m, (x_1 - m)(x_2 - m) > 0$$
+  ::::
+
+- 方程有两个根在 []{.arithmatex}$m$ 两侧：
+
+  :::: {.arithmatex}
+  ::: {.MathJax_Preview}
+  (x_1 - m)(x_2 - m) \< 0
+  :::
+
+  $$(x_1 - m)(x_2 - m) < 0$$
+  ::::
+
+- 方程有两个根在 []{.arithmatex}$(l, r)$ 之间：
+
+  :::: {.arithmatex}
+  ::: {.MathJax_Preview}
+  \Delta \> 0, l \< -\frac{b}{2a} \< r, f(l)f(r) \> 0
+  :::
+
+  $$\Delta > 0, l < -\frac{b}{2a} < r, f(l)f(r) > 0$$
+  ::::
+
+- 方程有两个根在 []{.arithmatex}$[l, r]$ 之间：
+
+  :::: {.arithmatex}
+  ::: {.MathJax_Preview}
+  \Delta \> 0, l \< -\frac{b}{2a} \< r, a \cdot f(l) \ge 0, a \cdot f(r) \ge 0
+  :::
+
+  $$\Delta > 0, l < -\frac{b}{2a} < r, a \cdot f(l) \ge 0, a \cdot f(r) \ge 0$$
+  ::::
+
+- 方程有两个根，一个在 []{.arithmatex}$(l, r)$ 之间：
+
+  :::: {.arithmatex}
+  ::: {.MathJax_Preview}
+  \Delta \> 0, f(l)f(r) \< 0
+  :::
+
+  $$\Delta > 0, f(l)f(r) < 0$$
+  ::::
+
+- 方程有两个根，一个在 []{.arithmatex}$[l, r]$ 之间：
+
+  :::: {.arithmatex}
+  ::: {.MathJax_Preview}
+  \Delta \> 0, f(l)f(r) \< 0
+  :::
+
+  $$\Delta > 0, f(l)f(r) < 0$$
+  ::::
+
+  或
+
+  :::: {.arithmatex}
+  ::: {.MathJax_Preview}
+  \Delta \> 0, f(l) = 0, \frac{l+r}{2} \< -\frac{b}{2a}
+  :::
+
+  $$\Delta > 0, f(l) = 0, \frac{l+r}{2} < -\frac{b}{2a}$$
+  ::::
+
+  或
+
+  :::: {.arithmatex}
+  ::: {.MathJax_Preview}
+  \Delta \> 0, f(r) = 0, -\frac{b}{2a} \< \frac{l+r}{2}
+  :::
+
+  $$\Delta > 0, f(r) = 0, -\frac{b}{2a} < \frac{l+r}{2}$$
+  ::::
+
+非对称韦达定理：求出 []{.arithmatex}$x_1x_2$ 与 []{.arithmatex}$x_1+x_2$ 的比值，带入其中一个求解。
+
+### 泰勒展开 {#_8}
+
+14 世纪，马德哈瓦最早使用了泰勒级数以及相关的方法。尽管他的数学著作没有流传下来，但后来印度数学家的著作表明他发现了一些特殊的泰勒级数，这些级数包括正弦、余弦、正切、和反正切三角函数等等。之后，喀拉拉学派在他的基础上进行了一系列的延伸与合理逼近，这些工作一直持续到 16 世纪。到了 17 世纪，詹姆斯·格雷果里同样继续着这方面的研究并且发表了若干麦克劳林级数。但是直到 1715 年，布鲁克·泰勒提出了一个通用的方法来构建适用于所有函数的此类列级数。这就是后来被人们所熟知的泰勒级数。麦克劳林级数是泰勒级数的特例，是爱丁堡大学的科林·麦克劳林教授在 18 世纪发表的，并以其名字命名。
+
+::::::: {.admonition .note}
+以直代曲
+
+以直代曲可以用于计算一部分函数近似值，例如计算 []{.arithmatex}$\sqrt{9.05}$。
+
+我们知道，对于 []{.arithmatex}$f(x)=\sqrt{x}$，有 []{.arithmatex}$f'(x)=\dfrac{1}{2\sqrt{x}}$。
+
+也就是说：[]{.arithmatex}$f(9)=3,f'(9)=\dfrac{1}{6}$，我们取 []{.arithmatex}$\Delta x=0.05$，得到：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\dfrac{1}{6}=\dfrac{f(9.05)-3}{0.05}
+:::
+
+$$\dfrac{1}{6}=\dfrac{f(9.05)-3}{0.05}$$
+::::
+
+解得，
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+f(9.05)\approx3.008
+:::
+
+$$f(9.05)\approx3.008$$
+::::
+
+泰勒展开与这种思想非常类似。
+:::::::
+
+设 []{.arithmatex}$n$ 是一个正整数，如果定义在一个包含 []{.arithmatex}$a$ 的区间上的函数在 []{.arithmatex}$a$ 点 []{.arithmatex}$n+1$ 次可导，那么对于这个区间上的任意 []{.arithmatex}$x$ 都有：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+f(x)=f(a)+\dfrac{f\'(a)}{1!}(x-a)+\dfrac{f\'\'(a)}{2!}(x-a)\^2+\dots+\dfrac{f\^{(n)}(a)}{n!}(x-a)\^n+R_n(x)
+:::
+
+$$f(x)=f(a)+\dfrac{f'(a)}{1!}(x-a)+\dfrac{f''(a)}{2!}(x-a)^2+\dots+\dfrac{f^{(n)}(a)}{n!}(x-a)^n+R_n(x)$$
+::::
+
+其中的多项式称为函数在 []{.arithmatex}$a$ 处的泰勒展开式，剩余的 []{.arithmatex}$R_n(x)$ 是泰勒展开式，是 []{.arithmatex}$(x-a)^n$ 的高阶无穷小 []{.arithmatex}$\mathrm{o}[(x-a)^n]$。
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+e\^x=1+x+\dfrac{x\^2}{2!}+\dfrac{x\^3}{3!}+\dfrac{x\^4}{4!}+\dots+\dfrac{x\^n}{n!}
+:::
+
+$$e^x=1+x+\dfrac{x^2}{2!}+\dfrac{x^3}{3!}+\dfrac{x^4}{4!}+\dots+\dfrac{x^n}{n!}$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\ln(x+1)=x-\dfrac{x\^2}{2}+\dfrac{x\^3}{3}-\dfrac{x\^4}{4}+\dfrac{x\^5}{5}+\dots+(-1)\^{n+1}\dfrac{x\^n}{n}
+:::
+
+$$\ln(x+1)=x-\dfrac{x^2}{2}+\dfrac{x^3}{3}-\dfrac{x^4}{4}+\dfrac{x^5}{5}+\dots+(-1)^{n+1}\dfrac{x^n}{n}$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\sin x=x-\dfrac{x\^3}{3!}+\dfrac{x\^5}{5!}-\dfrac{x\^7}{7!}+\dots+(-1)\^n\dfrac{x\^{2n+1}}{(2n+1)!}
+:::
+
+$$\sin x=x-\dfrac{x^3}{3!}+\dfrac{x^5}{5!}-\dfrac{x^7}{7!}+\dots+(-1)^n\dfrac{x^{2n+1}}{(2n+1)!}$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\cos x=1-\dfrac{x\^2}{2!}+\dfrac{x\^4}{4!}-\dfrac{x\^6}{6!}+\dots+(-1)\^n\dfrac{x\^{2n}}{(2n)!}
+:::
+
+$$\cos x=1-\dfrac{x^2}{2!}+\dfrac{x^4}{4!}-\dfrac{x^6}{6!}+\dots+(-1)^n\dfrac{x^{2n}}{(2n)!}$$
+::::
+
+根据这些可以得到一些经典的不等式：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{e\^x\ge\dfrac{1}{2}x\^2+x+1},x\ge0
+:::
+
+$$\boxed{e^x\ge\dfrac{1}{2}x^2+x+1},x\ge0$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{e\^x\ge x\^2+1\>x\^2},x\ge0
+:::
+
+$$\boxed{e^x\ge x^2+1>x^2},x\ge0$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{\ln x\le\dfrac{x}{e}},x\>0
+:::
+
+$$\boxed{\ln x\le\dfrac{x}{e}},x>0$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\boxed{\ln x\le x\^2-x},x\>0
+:::
+
+$$\boxed{\ln x\le x^2-x},x>0$$
+::::
+
+### 多项式插值 {#_9}
+
+插值是一种通过已知的、离散的数据点推算一定范围内的新数据点的方法，分为线性插值和多项式插值。多项式插值的一般形式如下：对已知的 []{.arithmatex}$n+1$ 的点 []{.arithmatex}$(x_0,y_0),(x_1,y_1),\dots,(x_n,y_n)$，求 []{.arithmatex}$n$ 阶多项式 []{.arithmatex}$f(x)$ 满足：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+f(x_i)=y_i,\forall i=0,1,\dots,n
+:::
+
+$$f(x_i)=y_i,\forall i=0,1,\dots,n$$
+::::
+
+形式化来说，就是给定 []{.arithmatex}$n$ 个纵坐标不同的点，求一个不超过 []{.arithmatex}$n$ 次的多项式 []{.arithmatex}$f(x)$，使其过这 []{.arithmatex}$n$ 个点。
+
+最简单的插值法就是拉格朗日插值法：尝试构造多项式 []{.arithmatex}$f_i(x)$ 使得 []{.arithmatex}$f_i(x)=[i=x_i]$，易得：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+f_i(x)=\prod\_{j\neq i}{x-x_j\over x_i-x_j}
+:::
+
+$$f_i(x)=\prod_{j\neq i}{x-x_j\over x_i-x_j}$$
+::::
+
+可得拉格朗日插值的形式为：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+f(x)=\sum\_{i=1}\^ny_i\cdot f_i(x)
+:::
+
+$$f(x)=\sum_{i=1}^ny_i\cdot f_i(x)$$
+::::
+
+化简为：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+f(x)=\sum\_{i=1}\^ny_i\prod\_{j\neq i}{x-x_j\over x_i-x_j}
+:::
+
+$$f(x)=\sum_{i=1}^ny_i\prod_{j\neq i}{x-x_j\over x_i-x_j}$$
+::::

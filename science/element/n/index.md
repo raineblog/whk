@@ -1,0 +1,332 @@
+# 氮族元素概述 {#_1}
+
+## 氮气及固氮 {#_2}
+
+### 固氮概述 {#_3}
+
+固氮的定义：从氮气 []{.arithmatex}$\ce{N2}$ 到各种含氮化合物。
+
+<figure>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\ce{N2 -&gt;[O2，闪电] NO -&gt;[O2] NO2 -&gt;[H2O] HNO3 -&gt; 降雨}
+</div>
+<span class="math display">$$
+\ce{N2 -&gt;[O2，闪电] NO -&gt;[O2] NO2 -&gt;[H2O] HNO3 -&gt; 降雨}
+$$</span>
+</div>
+<figcaption><p>酸雨的形成过程</p></figcaption>
+</figure>
+
+- 自然固氮：
+
+  - 高能固氮：闪电。
+
+  - 生物固氮：豆科植物的根瘤菌。
+
+- 人工固氮：[]{.arithmatex}$\ce{N2 + 3H2 <=>[高温高压][催化剂] 2NH3}$（工业合成氨）。
+
+### 工业合成氨 {#_4}
+
+反应原理：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\ce{N2(g) + 3H2(g) \<=\> 2NH3(g)}\quad\Delta H = \pu{-91.5kJ/mol}
+:::
+
+$$\ce{N2(g) + 3H2(g) <=> 2NH3(g)}\quad\Delta H = \pu{-91.5kJ/mol}$$
+::::
+
+- 压强效应：增大压强，反应向右移动。
+
+- 温度效应：降低温度，反应向右移动。
+
+哈伯法制氨的过程，即使高温会降低产率，温度仍被设定为较高值以保证反应的速率快速。对于这类放热并且反应速率随温度升高而升高的反应，一般都会取一个折中的反应温度。
+
+- 催化剂：铁触媒。
+
+- 温度：一般取催化剂的适宜温度，即约 []{.arithmatex}$\pu{700K}$ 或约 []{.arithmatex}$\pu{500^oC}$。
+
+- 压强：[]{.arithmatex}$\pu{40\sim60 MPa}$ 左右，实际生产中又分为高压、中压、低压等，但整体压强都较高。
+
+- 因为催化机理的问题，为了保证氮气占有一定份额的催化剂活性中心，并提高吸附速率，应当适当提高氮气浓度，一般取 []{.arithmatex}$n(\ce{N2}):n(\ce{H2})=1:2.8$。
+
+- 实际生产中，一定要注意气体净化，避免杂质使得催化剂中度，活性降低；过程中应当液化分离氨气，增加整体的产率。
+
+注意：加入催化剂平衡不移动，催化剂只改变反应速率，但不影响平衡。
+
+## 氮氧化物 {#_5}
+
+### 氮氧化物的物理性质 {#_6}
+
+|  | []{.arithmatex}$\ce{NO}$ | []{.arithmatex}$\ce{NO2}$ |
+|:--:|:--:|:--:|
+| 气味 | 刺激性气味、有毒（与 []{.arithmatex}$\ce{CO}$ 类似中毒） | 刺激性气味、有毒 |
+| 颜色 | 无色 | 红棕色 |
+| 密度 | 与空气接近（不能使用排空气法） | 大于空气（向上排空气法） |
+| 溶解性 | 难溶于水 | 易溶于水 |
+
+### 一氧化氮相关 {#_7}
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\left\\ \begin{aligned} \ce{2NO + O2 &-\> 2NO2}\\ \ce{3NO2 + H2O &-\> 2HNO3 + NO} \end{aligned} \right.
+:::
+
+$$\left\{
+\begin{aligned}
+\ce{2NO + O2 &-> 2NO2}\\
+\ce{3NO2 + H2O &-> 2HNO3 + NO}
+\end{aligned}
+\right.$$
+::::
+
+计算得到：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\ce{4NO + 3O2 + 2H2O -\> 4HNO3}
+:::
+
+$$\ce{4NO + 3O2 + 2H2O -> 4HNO3}$$
+::::
+
+| []{.arithmatex}$V_{\ce{NO}}:V_{\ce{O2}}$ | 现象 |
+|:--:|:--:|
+| []{.arithmatex}$<4:3$ | []{.arithmatex}$\ce{O2}$ 过量，[]{.arithmatex}$\ce{O2}$ 剩余 |
+| []{.arithmatex}$=4:3$ | 恰好完全反应 |
+| []{.arithmatex}$>4:3$ | []{.arithmatex}$\ce{NO}$ 过量，[]{.arithmatex}$\ce{NO}$ 剩余 |
+
+### 二氧化氮相关 {#_8}
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\left\\ \begin{aligned} \ce{3NO2 + H2O &-\> 2HNO3 + NO}\\ \ce{2NO + O2 &-\> 2NO2} \end{aligned} \right.
+:::
+
+$$\left\{
+\begin{aligned}
+\ce{3NO2 + H2O &-> 2HNO3 + NO}\\
+\ce{2NO + O2 &-> 2NO2}
+\end{aligned}
+\right.$$
+::::
+
+计算得到：
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\ce{4NO2 + O2 + 2H2O -\> 4HNO3}
+:::
+
+$$\ce{4NO2 + O2 + 2H2O -> 4HNO3}$$
+::::
+
+| []{.arithmatex}$V_{\ce{NO2}}:V_{\ce{O2}}$ | 现象 |
+|:--:|:--:|
+| []{.arithmatex}$<4:1$ | []{.arithmatex}$\ce{O2}$ 过量，[]{.arithmatex}$\ce{O2}$ 剩余 |
+| []{.arithmatex}$=4:1$ | 恰好完全反应 |
+| []{.arithmatex}$>4:1$ | []{.arithmatex}$\ce{NO2}$ 过量，[]{.arithmatex}$\ce{NO2}$ 剩余 |
+
+### 氮氧化物综合 {#_9}
+
+- []{.arithmatex}$\ce{NO2}$ 可以支持燃烧，证明如下：
+
+  - []{.arithmatex}$\ce{4N2,O2}$ 木条不复燃。
+
+  - []{.arithmatex}$\ce{4NO2,O2}$ 木条复燃。
+
+- []{.arithmatex}$\ce{NO}$ 可以作为传递神经信息的信使分子。
+
+- 二氧化氮若直接溶于碱溶液，发生反应：
+
+  :::: {.arithmatex}
+  ::: {.MathJax_Preview}
+  \ce{NO2 + 6OH- -\> NO3- + NO2- + 3H2O}
+  :::
+
+  $$\ce{NO2 + 6OH- -> NO3- + NO2- + 3H2O}$$
+  ::::
+
+  生成硝酸根和亚硝酸根。而若二氧化氮和一氧化氮 []{.arithmatex}$1:1$ 通入碱溶液，则只生成亚硝酸根（亚硝酸钠的制备）。
+
+- 一氧化氮的制备：密封环境中，铜丝和稀硝酸反应。
+
+## 氨气及其性质 {#_10}
+
+### 氨气的物理性质 {#_11}
+
+有刺激性气味气体，密度小于空气，极易溶于水（[]{.arithmatex}$1:700$）。
+
+氨气极易溶于水的原因：与水形成氢键，增加了溶解度。
+
+喷泉实验：
+
+- 气体极易溶于水，或与液体反应。
+
+- 短时间内形成压强差。
+
+沸点 []{.arithmatex}$\pu{-33.5^oC}$ 较高，易液化放热、汽化吸热，可作为制冷剂。
+
+### 氨气的制取与检验 {#_12}
+
+工业制取：人工固氮。
+
+实验室制取，常用五种方法：
+
+1.  []{.arithmatex}$\ce{NH4HCO3(s)}$ 受热分解：
+
+    - []{.arithmatex}$\ce{NH4HCO3 ->[\triangle] NH3 ^ + CO2 ^ + H2O}$。
+
+    - 用碱石灰除杂即可。
+
+2.  []{.arithmatex}$\ce{NH4Cl(s),Ca(OH)2(s)}$ 共热：
+
+    - []{.arithmatex}$\ce{2NH4Cl + Ca(OH)2 ->[\triangle] CaCl2 + 2H2O + 2NH3 ^}$。
+
+    - 用碱石灰干燥即可。
+
+3.  []{.arithmatex}$\ce{NH4+(aq),OH-(aq)}$ 共热：
+
+    - []{.arithmatex}$\ce{NH4+ + OH- -> NH3 ^ + H2O}$。
+
+    - 用碱石灰干燥即可。
+
+4.  []{.arithmatex}$\ce{NH3(aq)}$ 加热：
+
+    - []{.arithmatex}$\ce{NH3*H2O ->[\triangle] NH3 ^ + H2O}$。
+
+    - 用碱石灰干燥即可。
+
+5.  浓氨水滴到碱石灰上。
+
+    - 生石灰与水反应放热。
+
+    - 氢氧化钠与氨水反应。
+
+注意：
+
+- 稀溶液必须加热，浓溶液无需加热。
+
+- 不可使用 []{.arithmatex}$\ce{NH4Cl}$ 加热，因为产物 []{.arithmatex}$\ce{NH3,HCl}$ 会迅速反应生成固体。
+
+氨气的检验：
+
+- 酸碱指示剂，湿润的红色石蕊试纸。
+
+- 用玻璃棒蘸取浓硝酸或浓盐酸等挥发性酸，产生白烟。
+
+### 氨气的化学性质 {#_13}
+
+- 弱碱性：
+
+  - []{.arithmatex}$\ce{NH3 + HCl -> NH4Cl}$，有白烟生成。
+
+  - []{.arithmatex}$\ce{NH3 + H2O <=> NH3*H2O <=> NH4+ + OH-}$。
+
+  - 三分三离：[]{.arithmatex}$\ce{NH3*H2O,H2O,NH3}$；[]{.arithmatex}$\ce{NH4+,H+,OH-}$。
+
+- 还原性：
+
+  - 氨气与氯气的反应较为复杂，可能会生成各种氮的价态产物。
+
+  - []{.arithmatex}$\ce{4NH3 + 5O2 ->[催化剂][\triangle] 4NO + 6H2O}$。
+
+  - 氨的催化氧化，常用铂、铑作为催化剂。
+
+- 不稳定性：受热分解。
+
+## 硝酸 {#_14}
+
+### 硝酸的物理性质 {#_15}
+
+硝酸，无色透明，有刺激性气味，易挥发。
+
+浓硝酸的质量分数为 []{.arithmatex}$70\%$ 以上，发烟硝酸质量分数 []{.arithmatex}$\ge95\%$。
+
+因为浓硝酸中的硝酸分子分解产生 []{.arithmatex}$\ce{NO2}$ 而呈浅黄色，通入氧气后可以消除。
+
+注意：硝酸铵不稳定，受热和剧烈撞击会发生爆炸。
+
+### 稀硝酸的化学性质 {#_16}
+
+氧化性和酸性：
+
+- 非氧化性酸由氢离子 []{.arithmatex}$\ce{H+}$ 体现氧化性。
+
+- 通常情况下，稀硝酸为 []{.arithmatex}$\ce N$ 体现氧化性，故其为氧化性酸。
+
+- 在与金属的反应中，还原产物通常为 []{.arithmatex}$\ce{NO}$，浓度不同也可能被还原为氮气、氨气或亚硝酸。
+
+与铜的反应：
+
+- []{.arithmatex}$\ce{3Cu + 8HNO3(稀) -> 3Cu(NO3)2 + 2NO + 4H2O}$。
+
+- 现象：铜丝溶解，溶液变蓝，有无色气体产生，接触空气后变为红棕色。
+
+与铁的反应：
+
+- 少量稀硝酸：[]{.arithmatex}$\ce{3Fe + 8HNO3 -> 3Fe(NO3)2 + 2NO + 4H2O}$。
+
+- 稀硝酸也可以氧化二价铁离子。
+
+- 过量稀硝酸：[]{.arithmatex}$\ce{Fe + 4HNO3 -> Fe(NO3)3 + NO + 2H2O}$。
+
+### 浓硝酸的化学性质 {#_17}
+
+氧化性和酸性：
+
+- 强氧化性漂白，使酸碱指示剂褪色。
+
+- 在与金属、非金属的反应中，通常被还原为 []{.arithmatex}$\ce{NO2}$。
+
+与铜的反应：
+
+- []{.arithmatex}$\ce{Cu + 4HNO3(浓) -> Cu(NO3)2 + 2NO2 + 2H2O}$。
+
+- 产生红棕色气体，溶液变绿。
+
+与红热的碳的反应：
+
+- []{.arithmatex}$\ce{C + 4HNO3(浓) ->[\triangle] CO2 ^ + 4NO2 ^ + 2H2O}$。
+
+- 同时发生浓硝酸的受热分解，硝酸只体现氧化性。
+
+与铁和铝钝化，加热进行。
+
+### 王水 {#_18}
+
+浓硝酸和浓盐酸按照体积比 []{.arithmatex}$1:3$ 混合，得到的强氧化性物质。
+
+王水通常会缓慢分解出氯气和二氧化氮，这是浓硝酸氧化氯离子的结果。
+
+王水甚至可以溶解金这种非常稳定的金属。
+
+### 硝酸的工业制取 {#_19}
+
+1.  氨的催化氧化：[]{.arithmatex}$\ce{4NH3 + 5O2 ->[催化剂][\triangle] 4NO + 6H2O}$。
+
+2.  降温冷却后溶于水：[]{.arithmatex}$\ce{4NO + O2 +2H2O -> 4HNO3}$。
+
+## 氮的其他化合物 {#_20}
+
+### 联氨 []{.arithmatex}$\ce{N2H4}$ {#cen2h4cen2h4}
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\ce{N2H4 + H2O \<=\> N2H5+ + OH-}
+:::
+
+$$\ce{N2H4 + H2O <=> N2H5+ + OH-}$$
+::::
+
+:::: {.arithmatex}
+::: {.MathJax_Preview}
+\ce{N2H5+ + H2O \<=\> N2H6\^2+ + OH-}
+:::
+
+$$\ce{N2H5+ + H2O <=> N2H6^2+ + OH-}$$
+::::
+
+### 叠氮酸 []{.arithmatex}$\ce{HN3}$ {#cehn3cehn3}
