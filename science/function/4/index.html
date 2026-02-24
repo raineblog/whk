@@ -6,122 +6,122 @@
 <h3 id="_3">初等函数</h3>
 <p>我们研究过常数函数、幂函数、指数函数、对数函数、三角函数、反三角函数，它们经过有限次加、减、乘、除、乘方、开方和复合运算，得到的函数称为初等函数。初等函数是数学中最基本的一类函数，具有相当重要的性质。</p>
 <h3 id="_4">极限定义​</h3>
-<p>对于函数 $f(x)$ 与实数 $a$，如果存在实数 $b$，使得 $\forall \varepsilon &gt; 0$，$\exist \delta &gt; 0$，对任意 $x \in (a - \delta, a) \cup (a, a + \delta)$，有 $|f(x) - b| &lt; \varepsilon$，则 $b$ 称作 $f(x)$ 在点 $a$ 的极限，记作</p>
-<p>$$
+<p>对于函数 <span class="arithmatex">$f(x)$</span> 与实数 <span class="arithmatex">$a$</span>，如果存在实数 <span class="arithmatex">$b$</span>，使得 <span class="arithmatex">$\forall \varepsilon &gt; 0$</span>，<span class="arithmatex">$\exist \delta &gt; 0$</span>，对任意 <span class="arithmatex">$x \in (a - \delta, a) \cup (a, a + \delta)$</span>，有 <span class="arithmatex">$|f(x) - b| &lt; \varepsilon$</span>，则 <span class="arithmatex">$b$</span> 称作 <span class="arithmatex">$f(x)$</span> 在点 <span class="arithmatex">$a$</span> 的极限，记作</p>
+<div class="arithmatex">$$
 \lim_{x \to a} f(x) = b
-$$</p>
-<p>这就是严格定义函数极限的 $\varepsilon \text - \delta$ 语言。也就是说，对于任意 $\varepsilon &gt; 0$，我们都能找到一段 包含 $a$ 但是扣去 $a$ 的区间，使得这个区间上对应的函数值与 $b$ 的距离都小于 $\varepsilon$，就称函数在点 $a$ 处的极限为 $b$。</p>
+$$</div>
+<p>这就是严格定义函数极限的 <span class="arithmatex">$\varepsilon \text - \delta$</span> 语言。也就是说，对于任意 <span class="arithmatex">$\varepsilon &gt; 0$</span>，我们都能找到一段 包含 <span class="arithmatex">$a$</span> 但是扣去 <span class="arithmatex">$a$</span> 的区间，使得这个区间上对应的函数值与 <span class="arithmatex">$b$</span> 的距离都小于 <span class="arithmatex">$\varepsilon$</span>，就称函数在点 <span class="arithmatex">$a$</span> 处的极限为 <span class="arithmatex">$b$</span>。</p>
 <p>可以证明，函数在某点存在极限，则这个极限唯一。</p>
 <h3 id="_5">极限性质</h3>
-<p>唯一性：若函数 $f(x)$ 在 $x_0$ 有极限，则极限唯一。</p>
-<p>有界性：设函数 $f(x)$ 在 $x_0$ 有极限，则 $f(x)$ 在 $x_0$ 附近有界，即存在正数 $M$ 和 $\delta$，使得只要 $0&lt;|x-x_0|&lt;\delta$，就有 $|f(x)|\le M$。若 $a&lt;l&lt;b$，则在 $x_0$ 附近有 $a&lt;f(x)&lt;b$。</p>
-<p>保序性：设 $\lim_{x\to x_0} f(x)=l_1$，$\lim_{x\to x_0} g(x)=l_2$，若在 $x_0$ 附近有 $f(x)\ge g(x)$，则 $l_1\ge l_2$；若 $l_1&gt;l_2$，则在 $x_0$ 附近有 $f(x)&gt;g(x)$。</p>
+<p>唯一性：若函数 <span class="arithmatex">$f(x)$</span> 在 <span class="arithmatex">$x_0$</span> 有极限，则极限唯一。</p>
+<p>有界性：设函数 <span class="arithmatex">$f(x)$</span> 在 <span class="arithmatex">$x_0$</span> 有极限，则 <span class="arithmatex">$f(x)$</span> 在 <span class="arithmatex">$x_0$</span> 附近有界，即存在正数 <span class="arithmatex">$M$</span> 和 <span class="arithmatex">$\delta$</span>，使得只要 <span class="arithmatex">$0&lt;|x-x_0|&lt;\delta$</span>，就有 <span class="arithmatex">$|f(x)|\le M$</span>。若 <span class="arithmatex">$a&lt;l&lt;b$</span>，则在 <span class="arithmatex">$x_0$</span> 附近有 <span class="arithmatex">$a&lt;f(x)&lt;b$</span>。</p>
+<p>保序性：设 <span class="arithmatex">$\lim_{x\to x_0} f(x)=l_1$</span>，<span class="arithmatex">$\lim_{x\to x_0} g(x)=l_2$</span>，若在 <span class="arithmatex">$x_0$</span> 附近有 <span class="arithmatex">$f(x)\ge g(x)$</span>，则 <span class="arithmatex">$l_1\ge l_2$</span>；若 <span class="arithmatex">$l_1&gt;l_2$</span>，则在 <span class="arithmatex">$x_0$</span> 附近有 <span class="arithmatex">$f(x)&gt;g(x)$</span>。</p>
 <p>四则运算：</p>
-<p>$$
+<div class="arithmatex">$$
 \lim\limits_{x \to a} [f(x) \pm g(x)] = \lim\limits_{x \to a} f(x) \pm \lim\limits_{x \to a} g(x)
-$$</p>
-<p>$$
+$$</div>
+<div class="arithmatex">$$
 \lim\limits_{x \to a} [f(x)g(x)] = \lim\limits_{x \to a} f(x) \cdot \lim\limits_{x \to a} g(x)
-$$</p>
-<p>$$
+$$</div>
+<div class="arithmatex">$$
 \lim\limits_{x \to a} \dfrac{f(x)}{g(x)} = \dfrac{\lim\limits_{x \to a} f(x)}{\lim\limits_{x \to a} g(x)}
-$$</p>
-<p>除法应当 $\lim\limits_{x \to a} g(x) \ne 0$ 时。</p>
-<p>夹逼定理：设在 $x_0$ 附近有 $g(x)\le f(x)\le h(x)$，且 $\lim_{x\to x_0} g(x)=\lim_{x\to x_0} h(x)=l$，则 $\lim_{x\to x_0} f(x)=l$。</p>
+$$</div>
+<p>除法应当 <span class="arithmatex">$\lim\limits_{x \to a} g(x) \ne 0$</span> 时。</p>
+<p>夹逼定理：设在 <span class="arithmatex">$x_0$</span> 附近有 <span class="arithmatex">$g(x)\le f(x)\le h(x)$</span>，且 <span class="arithmatex">$\lim_{x\to x_0} g(x)=\lim_{x\to x_0} h(x)=l$</span>，则 <span class="arithmatex">$\lim_{x\to x_0} f(x)=l$</span>。</p>
 <h2 id="_6">极限应用</h2>
 <h3 id="_7">无穷小​</h3>
-<p>若 $\lim\limits_{x \to a} f(x) = 0$，称 $f(x)$ 为 $x \to a$ 时的无穷小。</p>
+<p>若 <span class="arithmatex">$\lim\limits_{x \to a} f(x) = 0$</span>，称 <span class="arithmatex">$f(x)$</span> 为 <span class="arithmatex">$x \to a$</span> 时的无穷小。</p>
 <p>根据上面的四则运算规则，可以得知：</p>
 <ul>
 <li>
-<p>若 $f(x)$，$g(x)$ 都是 $x \to a$ 时的无穷小，则 $f(x) \pm g(x)$ 是 $x \to a$ 时的无穷小。</p>
+<p>若 <span class="arithmatex">$f(x)$</span>，<span class="arithmatex">$g(x)$</span> 都是 <span class="arithmatex">$x \to a$</span> 时的无穷小，则 <span class="arithmatex">$f(x) \pm g(x)$</span> 是 <span class="arithmatex">$x \to a$</span> 时的无穷小。</p>
 </li>
 <li>
-<p>若 $f(x)$ 是 $x \to a$ 时的无穷小，且 $\lim\limits_{x \to a} g(x)$ 存在，则 $f(x) \cdot g(x)$ 是 $x \to a$ 时的无穷小。</p>
+<p>若 <span class="arithmatex">$f(x)$</span> 是 <span class="arithmatex">$x \to a$</span> 时的无穷小，且 <span class="arithmatex">$\lim\limits_{x \to a} g(x)$</span> 存在，则 <span class="arithmatex">$f(x) \cdot g(x)$</span> 是 <span class="arithmatex">$x \to a$</span> 时的无穷小。</p>
 </li>
 </ul>
 <p>但两个无穷小的商不能确定：运算法则规定了分母不能为无穷小。</p>
-<p>设 $f(x)$，$g(x)$ 为 $x \to a$ 时的两个无穷小，且 $g(x) \ne 0$，当 $\lim\limits_{x \to a} \dfrac{f(x)}{g(x)}$ 存在时，</p>
+<p>设 <span class="arithmatex">$f(x)$</span>，<span class="arithmatex">$g(x)$</span> 为 <span class="arithmatex">$x \to a$</span> 时的两个无穷小，且 <span class="arithmatex">$g(x) \ne 0$</span>，当 <span class="arithmatex">$\lim\limits_{x \to a} \dfrac{f(x)}{g(x)}$</span> 存在时，</p>
 <ul>
 <li>
-<p>若 $\lim\limits_{x \to a} \dfrac{f(x)}{g(x)} = 0$，则称当 $x \to a$ 时，$f(x)$ 是 $g(x)$ 的高阶无穷小。</p>
+<p>若 <span class="arithmatex">$\lim\limits_{x \to a} \dfrac{f(x)}{g(x)} = 0$</span>，则称当 <span class="arithmatex">$x \to a$</span> 时，<span class="arithmatex">$f(x)$</span> 是 <span class="arithmatex">$g(x)$</span> 的高阶无穷小。</p>
 </li>
 <li>
-<p>若 $\lim\limits_{x \to a} \dfrac{f(x)}{g(x)} = b \ne 0$，则称当 $x \to a$ 时，$f(x)$ 与 $g(x)$ 是同阶无穷小。</p>
+<p>若 <span class="arithmatex">$\lim\limits_{x \to a} \dfrac{f(x)}{g(x)} = b \ne 0$</span>，则称当 <span class="arithmatex">$x \to a$</span> 时，<span class="arithmatex">$f(x)$</span> 与 <span class="arithmatex">$g(x)$</span> 是同阶无穷小。</p>
 </li>
 </ul>
-<p>特别地，当 $b = 1$ 时，称当 $x \to a$ 时，$f(x)$ 与 $g(x)$ 是等价无穷小，记作 $f(x) \sim g(x)\quad(x \to a)$。</p>
-<p>等价无穷小替换公式：设 $f(x) \sim F(x) \quad (x \to a)$，$g(x) \sim G(x) \quad (x \to a)$，则</p>
-<p>$$
+<p>特别地，当 <span class="arithmatex">$b = 1$</span> 时，称当 <span class="arithmatex">$x \to a$</span> 时，<span class="arithmatex">$f(x)$</span> 与 <span class="arithmatex">$g(x)$</span> 是等价无穷小，记作 <span class="arithmatex">$f(x) \sim g(x)\quad(x \to a)$</span>。</p>
+<p>等价无穷小替换公式：设 <span class="arithmatex">$f(x) \sim F(x) \quad (x \to a)$</span>，<span class="arithmatex">$g(x) \sim G(x) \quad (x \to a)$</span>，则</p>
+<div class="arithmatex">$$
 \begin{aligned}
-&amp; \phantom = \lim\limits_{x \to a} \dfrac{f(x)}{g(x)} \
-&amp; = \lim\limits_{x \to a} [\dfrac{F(x)}{G(x)} \cdot \dfrac{f(x)}{F(x)} \cdot \dfrac{G(x)}{g(x)}]\
-&amp; = \lim\limits_{x \to a} \dfrac{F(x)}{G(x)} \cdot \lim\limits_{x \to a} \dfrac{f(x)}{F(x)} \cdot \lim\limits_{x \to a} \dfrac{G(x)}{g(x)} \
+&amp; \phantom = \lim\limits_{x \to a} \dfrac{f(x)}{g(x)} \\
+&amp; = \lim\limits_{x \to a} [\dfrac{F(x)}{G(x)} \cdot \dfrac{f(x)}{F(x)} \cdot \dfrac{G(x)}{g(x)}]\\
+&amp; = \lim\limits_{x \to a} \dfrac{F(x)}{G(x)} \cdot \lim\limits_{x \to a} \dfrac{f(x)}{F(x)} \cdot \lim\limits_{x \to a} \dfrac{G(x)}{g(x)} \\
 &amp; = \lim\limits_{x \to a} \dfrac{F(x)}{G(x)}
 \end{aligned}
-$$</p>
+$$</div>
 <p>也即对一个分式求极限时，分子与分母可以替换为它的等价无穷小，而极限值不改变，这个规则称作等价无穷小替换规则。</p>
-<p>一个最经典的等价无穷小是 $x \sim \sin x \quad (x \to 0)$ 和它的推论 $x \sim \sin x \sim \cos x \sim \tan x \quad (x \to 0)$（证明从略）。</p>
-<p>高中物理中一些公式的推导用到的，所谓「$x$ 很小，将 $\sin x$ 近似为 $x$」的原理，其实就是在做上面的等价无穷小替换。</p>
+<p>一个最经典的等价无穷小是 <span class="arithmatex">$x \sim \sin x \quad (x \to 0)$</span> 和它的推论 <span class="arithmatex">$x \sim \sin x \sim \cos x \sim \tan x \quad (x \to 0)$</span>（证明从略）。</p>
+<p>高中物理中一些公式的推导用到的，所谓「<span class="arithmatex">$x$</span> 很小，将 <span class="arithmatex">$\sin x$</span> 近似为 <span class="arithmatex">$x$</span>」的原理，其实就是在做上面的等价无穷小替换。</p>
 <h3 id="_8">连续性</h3>
-<p>我们曾用 $\varepsilon$－$\delta$ 语言定义过连续性：设函数 $f$ 在 $x_0$ 附近有定义，如果对于任意的 $\varepsilon&gt;0$，都存在 $\delta&gt;0$，使得只要 $|x-x_0|&lt;\delta$，就有 $|f(x)-f(x_0)|&lt;\varepsilon$，那么称 $f$ 在点 $x_0$ 连续。</p>
-<p>现在可以用极限写出更简洁的定义：设函数 $f$ 在 $x_0$ 附近有定义，如果 $\lim_{x\to x_0} f(x)=f(x_0)$，那么称 $f$ 在点 $x_0$ 连续。</p>
-<p>如果函数在某一点不连续，那么称在这一点间断。如果函数 $f$ 在开区间 $I$ 的每一点连续，那么称函数 $f$ 是开区间 $I$ 上的连续函数。</p>
-<p>函数 $f$ 在点 $x_0$ 连续当且仅当</p>
-<p>$$
+<p>我们曾用 <span class="arithmatex">$\varepsilon$</span>－<span class="arithmatex">$\delta$</span> 语言定义过连续性：设函数 <span class="arithmatex">$f$</span> 在 <span class="arithmatex">$x_0$</span> 附近有定义，如果对于任意的 <span class="arithmatex">$\varepsilon&gt;0$</span>，都存在 <span class="arithmatex">$\delta&gt;0$</span>，使得只要 <span class="arithmatex">$|x-x_0|&lt;\delta$</span>，就有 <span class="arithmatex">$|f(x)-f(x_0)|&lt;\varepsilon$</span>，那么称 <span class="arithmatex">$f$</span> 在点 <span class="arithmatex">$x_0$</span> 连续。</p>
+<p>现在可以用极限写出更简洁的定义：设函数 <span class="arithmatex">$f$</span> 在 <span class="arithmatex">$x_0$</span> 附近有定义，如果 <span class="arithmatex">$\lim_{x\to x_0} f(x)=f(x_0)$</span>，那么称 <span class="arithmatex">$f$</span> 在点 <span class="arithmatex">$x_0$</span> 连续。</p>
+<p>如果函数在某一点不连续，那么称在这一点间断。如果函数 <span class="arithmatex">$f$</span> 在开区间 <span class="arithmatex">$I$</span> 的每一点连续，那么称函数 <span class="arithmatex">$f$</span> 是开区间 <span class="arithmatex">$I$</span> 上的连续函数。</p>
+<p>函数 <span class="arithmatex">$f$</span> 在点 <span class="arithmatex">$x_0$</span> 连续当且仅当</p>
+<div class="arithmatex">$$
 \lim_{x\to x_0^-}f(x)=\lim_{x\to x_0^+}f(x)=\lim_{x\to x_0}f(x)=f(x_0)
-$$</p>
-<p>与左右极限对应的左右连续概念为：如果 $\lim_{x\to x_0^-}f(x)=f(x_0)$，称 $f$ 在 $x_0$ 左连续；如果 $\lim_{x\to x_0^+}f(x)=f(x_0)$，称 $f$ 在 $x_0$ 右连续。</p>
-<p>对于闭区间 $I$ 上的函数 $f$，如果 $f$ 在区间内每一点都连续，且在左端点右连续、右端点左连续，那么称函数 $f$ 是闭区间 $I$ 上的连续函数。</p>
+$$</div>
+<p>与左右极限对应的左右连续概念为：如果 <span class="arithmatex">$\lim_{x\to x_0^-}f(x)=f(x_0)$</span>，称 <span class="arithmatex">$f$</span> 在 <span class="arithmatex">$x_0$</span> 左连续；如果 <span class="arithmatex">$\lim_{x\to x_0^+}f(x)=f(x_0)$</span>，称 <span class="arithmatex">$f$</span> 在 <span class="arithmatex">$x_0$</span> 右连续。</p>
+<p>对于闭区间 <span class="arithmatex">$I$</span> 上的函数 <span class="arithmatex">$f$</span>，如果 <span class="arithmatex">$f$</span> 在区间内每一点都连续，且在左端点右连续、右端点左连续，那么称函数 <span class="arithmatex">$f$</span> 是闭区间 <span class="arithmatex">$I$</span> 上的连续函数。</p>
 <h3 id="_9">间断点</h3>
 <p>我们再来考虑间断点。间断点有三种情况：</p>
 <ol>
 <li>
 <p>函数在某一点存在极限，即左右极限相等，但与函数值不相等，或者函数在这一点没有定义，即</p>
-<p>$$
+<div class="arithmatex">$$
 \lim_{x\to x_0^-} f(x)=\lim_{x\to x_0^+} f(x)\ne f(x_0)
-$$</p>
+$$</div>
 <p>这类间断点称为可去间断点。因为只要修改这一点，就能变为连续函数，例如</p>
-<p>$$
+<div class="arithmatex">$$
 g(x)=
 \begin{cases}
-f(x) &amp; x\ne x_0 \
+f(x) &amp; x\ne x_0 \\
 \lim_{x\to x_0} f(x) &amp; x=x_0
 \end{cases}
-$$</p>
+$$</div>
 </li>
 <li>
 <p>函数在某一点的左右极限存在但不相等，即</p>
-<p>$$
+<div class="arithmatex">$$
 \lim_{x\to x_0^-} f(x)\ne \lim_{x\to x_0^+} f(x)
-$$</p>
-<p>这类间断点称为跳跃间断点。因为函数在 $x_0$ 处发生了</p>
-<p>$$
+$$</div>
+<p>这类间断点称为跳跃间断点。因为函数在 <span class="arithmatex">$x_0$</span> 处发生了</p>
+<div class="arithmatex">$$
 \left|\lim_{x\to x_0^-} f(x)-\lim_{x\to x_0^+} f(x)\right|
-$$</p>
+$$</div>
 <p>的跳跃。可去间断点和跳跃间断点统称为第一类间断点。</p>
 </li>
 <li>
 <p>函数在某一点的左右极限至少有一个不存在。这类间断点称为第二类间断点。例如，对于狄利克雷函数</p>
-<p>$$
+<div class="arithmatex">$$
 D(x)=
 \begin{cases}
-1 &amp; x\in \mathbb{Q} \
+1 &amp; x\in \mathbb{Q} \\
 0 &amp; x\in \mathbb{R}-\mathbb{Q}
 \end{cases}
-$$</p>
-<p>任意的 $x_0\in \mathbb{R}$ 都是其第二类间断点。</p>
+$$</div>
+<p>任意的 <span class="arithmatex">$x_0\in \mathbb{R}$</span> 都是其第二类间断点。</p>
 </li>
 </ol>
-<p>连续函数的四则运算和复合函数具有连续性。设函数 $f(x)$、$g(x)$ 在 $x_0$ 连续，则 $f(x)\pm g(x)$、$f(x)g(x)$、$\dfrac{f(x)}{g(x)}$（$g(x)\ne 0$）也在 $x_0$ 连续。</p>
-<p>设函数 $u=g(x)$ 在区间 $I$ 有定义，$y=f(u)$ 在区间 $J$ 有定义，且 $g(I)\subset J$。若 $g$ 在 $x_0\in I$ 处连续，$f$ 在 $u_0=g(x_0)$ 处连续，则复合函数 $f\circ g$ 在 $x_0$ 处连续，即</p>
-<p>$$
+<p>连续函数的四则运算和复合函数具有连续性。设函数 <span class="arithmatex">$f(x)$</span>、<span class="arithmatex">$g(x)$</span> 在 <span class="arithmatex">$x_0$</span> 连续，则 <span class="arithmatex">$f(x)\pm g(x)$</span>、<span class="arithmatex">$f(x)g(x)$</span>、<span class="arithmatex">$\dfrac{f(x)}{g(x)}$</span>（<span class="arithmatex">$g(x)\ne 0$</span>）也在 <span class="arithmatex">$x_0$</span> 连续。</p>
+<p>设函数 <span class="arithmatex">$u=g(x)$</span> 在区间 <span class="arithmatex">$I$</span> 有定义，<span class="arithmatex">$y=f(u)$</span> 在区间 <span class="arithmatex">$J$</span> 有定义，且 <span class="arithmatex">$g(I)\subset J$</span>。若 <span class="arithmatex">$g$</span> 在 <span class="arithmatex">$x_0\in I$</span> 处连续，<span class="arithmatex">$f$</span> 在 <span class="arithmatex">$u_0=g(x_0)$</span> 处连续，则复合函数 <span class="arithmatex">$f\circ g$</span> 在 <span class="arithmatex">$x_0$</span> 处连续，即</p>
+<div class="arithmatex">$$
 \lim_{x\to x_0} f\big(g(x)\big)
 = f\left(\lim_{x\to x_0} g(x)\right)
 = f\big(g(x_0)\big)
-$$</p>
+$$</div>
 <p>此外，连续函数的反函数同样是连续函数。</p>
-<p>连续函数还具有局部保号性：设函数 $f$ 在 $x_0$ 处连续，且 $f(x_0)\ne 0$，则存在 $\delta&gt;0$，使得只要 $0&lt;|x-x_0|&lt;\delta$，就有 $f(x)f(x_0)&gt;0$。</p>
+<p>连续函数还具有局部保号性：设函数 <span class="arithmatex">$f$</span> 在 <span class="arithmatex">$x_0$</span> 处连续，且 <span class="arithmatex">$f(x_0)\ne 0$</span>，则存在 <span class="arithmatex">$\delta&gt;0$</span>，使得只要 <span class="arithmatex">$0&lt;|x-x_0|&lt;\delta$</span>，就有 <span class="arithmatex">$f(x)f(x_0)&gt;0$</span>。</p>
 <p>可以证明，所有初等函数在定义域上都处处连续。</p>
 <!-- 数学 -->
 <!-- 物理 -->

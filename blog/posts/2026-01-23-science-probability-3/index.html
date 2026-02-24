@@ -7,90 +7,90 @@
 
 <h2 id="_2">随机变量的概念</h2>
 <h3 id="_3">随机变量</h3>
-<p>随机变量是描述随机试验结果的函数，常用大写字母 $X、Y、Z$ 或希腊字母 $\xi、\eta、\zeta$ 表示。它把样本空间 $\Omega$ 中的每个基本事件映射为实数值，从而将不确定的实验转化为可量化的数值。</p>
+<p>随机变量是描述随机试验结果的函数，常用大写字母 <span class="arithmatex">$X、Y、Z$</span> 或希腊字母 <span class="arithmatex">$\xi、\eta、\zeta$</span> 表示。它把样本空间 <span class="arithmatex">$\Omega$</span> 中的每个基本事件映射为实数值，从而将不确定的实验转化为可量化的数值。</p>
 <h3 id="_4">分布函数</h3>
-<p>分布函数 $F(x)$ 给出随机变量 $X$ 小于等于某实数 $x$ 的概率：</p>
-<p>$$
+<p>分布函数 <span class="arithmatex">$F(x)$</span> 给出随机变量 <span class="arithmatex">$X$</span> 小于等于某实数 <span class="arithmatex">$x$</span> 的概率：</p>
+<div class="arithmatex">$$
 F(x) = P( X \le x )
-$$</p>
-<p>它满足右连续、单调递增并在 $-\infty$ 与 $+\infty$ 处分别取 $0$ 与 $1$。</p>
+$$</div>
+<p>它满足右连续、单调递增并在 <span class="arithmatex">$-\infty$</span> 与 <span class="arithmatex">$+\infty$</span> 处分别取 <span class="arithmatex">$0$</span> 与 <span class="arithmatex">$1$</span>。</p>
 <h3 id="_5">示性函数</h3>
-<p>示性函数 $I_A$ 用于指示事件 $A$ 是否发生：</p>
-<p>$$
+<p>示性函数 <span class="arithmatex">$I_A$</span> 用于指示事件 <span class="arithmatex">$A$</span> 是否发生：</p>
+<div class="arithmatex">$$
 I_A(\omega) = \begin{cases}
-    1, &amp; \omega \in A \
+    1, &amp; \omega \in A \\
     0, &amp; \omega \notin A
 \end{cases}
-$$</p>
-<p>其期望恰好等于事件 $A$ 的概率，即 $E[I_A] = P(A)$。</p>
+$$</div>
+<p>其期望恰好等于事件 <span class="arithmatex">$A$</span> 的概率，即 <span class="arithmatex">$E[I_A] = P(A)$</span>。</p>
 <h3 id="_6">离散型随机变量</h3>
-<p>离散型随机变量的取值集合是有限或可数无限的。例如掷骰子的点数 ${1,2,3,4,5,6}$。其概率分布可用概率分布列描述：</p>
+<p>离散型随机变量的取值集合是有限或可数无限的。例如掷骰子的点数 <span class="arithmatex">$\{1,2,3,4,5,6\}$</span>。其概率分布可用概率分布列描述：</p>
 <ul>
-<li>$P{ X = x_i } = p_i$，且 $\sum_i p_i = 1$。</li>
+<li><span class="arithmatex">$P\{ X = x_i \} = p_i$</span>，且 <span class="arithmatex">$\sum_i p_i = 1$</span>。</li>
 </ul>
 <h3 id="_7">连续型随机变量</h3>
-<p>连续型随机变量的取值覆盖整个区间（或更广）。单点概率通常为 $0$，而应使用密度函数 $f(x)$ 来刻画分布：</p>
-<p>$$
+<p>连续型随机变量的取值覆盖整个区间（或更广）。单点概率通常为 <span class="arithmatex">$0$</span>，而应使用密度函数 <span class="arithmatex">$f(x)$</span> 来刻画分布：</p>
+<div class="arithmatex">$$
 F(x) = \int_{-\infty}^{x} f(t) \, dt , \qquad f(x) \ge 0 , \qquad \int_{-\infty}^{\infty} f(x) \, dx = 1
-$$</p>
+$$</div>
 <h3 id="_8">随机变量的独立性</h3>
-<p>若对任意实数 $x$ 与 $y$ 都满足</p>
-<p>$$
+<p>若对任意实数 <span class="arithmatex">$x$</span> 与 <span class="arithmatex">$y$</span> 都满足</p>
+<div class="arithmatex">$$
 P( X \le x , Y \le y ) = P( X \le x ) \, P( Y \le y )
-$$</p>
-<p>则称 $X$ 与 $Y$ 相互独立。独立性意味着它们的边缘分布互不影响。</p>
+$$</div>
+<p>则称 <span class="arithmatex">$X$</span> 与 <span class="arithmatex">$Y$</span> 相互独立。独立性意味着它们的边缘分布互不影响。</p>
 <h2 id="_9">随机变量的数字特征</h2>
 <h3 id="_10">期望</h3>
 <p>期望是随机变量的平均值。离散情形：</p>
-<p>$$
+<div class="arithmatex">$$
 E[X] = \sum_i x_i \, p_i
-$$</p>
+$$</div>
 <p>连续情形：</p>
-<p>$$
+<div class="arithmatex">$$
 E[X] = \int_{-\infty}^{\infty} x \, f(x) \, dx
-$$</p>
-<p>它具备线性特性 $E[aX + bY + c] = aE[X] + bE[Y] + c$。</p>
+$$</div>
+<p>它具备线性特性 <span class="arithmatex">$E[aX + bY + c] = aE[X] + bE[Y] + c$</span>。</p>
 <h3 id="_11">方差</h3>
 <p>方差衡量离散程度：</p>
-<p>$$
-\operatorname{Var}(X) = E!\left[(X - E[X])^{2}\right] = E[X^{2}] - (E[X])^{2}
-$$</p>
-<p>若对变量作线性变换 $aX + b$，则 $\operatorname{Var}(aX + b) = a^{2}\operatorname{Var}(X)$。</p>
+<div class="arithmatex">$$
+\operatorname{Var}(X) = E\!\left[(X - E[X])^{2}\right] = E[X^{2}] - (E[X])^{2}
+$$</div>
+<p>若对变量作线性变换 <span class="arithmatex">$aX + b$</span>，则 <span class="arithmatex">$\operatorname{Var}(aX + b) = a^{2}\operatorname{Var}(X)$</span>。</p>
 <h3 id="_12">协方差</h3>
 <p>协方差描述两个变量的线性相关程度：</p>
-<p>$$
-\operatorname{Cov}(X, Y) = E!\big[(X - E[X]) (Y - E[Y])\big]
-$$</p>
-<p>它满足 $\operatorname{Cov}(X, X) = \operatorname{Var}(X)$，以及 $\operatorname{Cov}(aX + bY, Z) = a\,\operatorname{Cov}(X, Z) + b\,\operatorname{Cov}(Y, Z)$。</p>
+<div class="arithmatex">$$
+\operatorname{Cov}(X, Y) = E\!\big[(X - E[X]) (Y - E[Y])\big]
+$$</div>
+<p>它满足 <span class="arithmatex">$\operatorname{Cov}(X, X) = \operatorname{Var}(X)$</span>，以及 <span class="arithmatex">$\operatorname{Cov}(aX + bY, Z) = a\,\operatorname{Cov}(X, Z) + b\,\operatorname{Cov}(Y, Z)$</span>。</p>
 <h3 id="_13">相关系数</h3>
-<p>相关系数 $\rho_{X,Y}$ 将协方差标准化：</p>
-<p>$$
+<p>相关系数 <span class="arithmatex">$\rho_{X,Y}$</span> 将协方差标准化：</p>
+<div class="arithmatex">$$
 \rho_{X,Y} = \frac{\operatorname{Cov}(X, Y)}{\sigma_X \, \sigma_Y}
-$$</p>
-<p>其中 $\sigma_X = \sqrt{\operatorname{Var}(X)}$。其取值范围为 $-1 \le \rho_{X,Y} \le 1$；若 $| \rho_{X,Y} | = 1$，则 $X$ 与 $Y$ 线性相关。</p>
+$$</div>
+<p>其中 <span class="arithmatex">$\sigma_X = \sqrt{\operatorname{Var}(X)}$</span>。其取值范围为 <span class="arithmatex">$-1 \le \rho_{X,Y} \le 1$</span>；若 <span class="arithmatex">$| \rho_{X,Y} | = 1$</span>，则 <span class="arithmatex">$X$</span> 与 <span class="arithmatex">$Y$</span> 线性相关。</p>
 <h3 id="markov">Markov 不等式</h3>
-<p>对非负随机变量 $X$，任意正数 $a$ 满足</p>
-<p>$$
+<p>对非负随机变量 <span class="arithmatex">$X$</span>，任意正数 <span class="arithmatex">$a$</span> 满足</p>
+<div class="arithmatex">$$
 P( X \ge a ) \le \frac{E[X]}{a}
-$$</p>
+$$</div>
 <p>该不等式仅依赖期望即可给出上界。</p>
 <h2 id="_14">随机变量的应用</h2>
 <h3 id="_15">信息熵</h3>
 <p>信息熵衡量随机变量的不确定性：</p>
-<p>$$
+<div class="arithmatex">$$
 H(X) = -\sum_{x} P(X = x) \, \log_{2} P(X = x)
-$$</p>
-<p>若 $X$ 均匀分布于 ${1,2,\dots ,n}$，则 $H(X) = \log_{2} n$，说明存储 $n$ 个等概率符号至少需要 $\log_{2} n$ 比特。</p>
+$$</div>
+<p>若 <span class="arithmatex">$X$</span> 均匀分布于 <span class="arithmatex">$\{1,2,\dots ,n\}$</span>，则 <span class="arithmatex">$H(X) = \log_{2} n$</span>，说明存储 <span class="arithmatex">$n$</span> 个等概率符号至少需要 <span class="arithmatex">$\log_{2} n$</span> 比特。</p>
 <h3 id="_16">频率分布直方图</h3>
 <p>直方图以矩形面积表示频率，横轴为取值区间，纵轴为相对频率（频数除以总数）。等距分组常用于展示连续型数据的分布形态。</p>
 <h3 id="_17">百分位数和四分位数</h3>
-<p>将有序数据 $x_{1}\le x_{2}\le \dots \le x_{n}$ 按累计比例划分，可得到第 $k$ 百分位数 $P_{k}$。常见四分位数包括：</p>
+<p>将有序数据 <span class="arithmatex">$x_{1}\le x_{2}\le \dots \le x_{n}$</span> 按累计比例划分，可得到第 <span class="arithmatex">$k$</span> 百分位数 <span class="arithmatex">$P_{k}$</span>。常见四分位数包括：</p>
 <ul>
-<li>$Q_{1}=P_{25}$（上四分位数）</li>
-<li>$Q_{2}=P_{50}$（中位数）</li>
-<li>$Q_{3}=P_{75}$（下四分位数）</li>
+<li><span class="arithmatex">$Q_{1}=P_{25}$</span>（上四分位数）</li>
+<li><span class="arithmatex">$Q_{2}=P_{50}$</span>（中位数）</li>
+<li><span class="arithmatex">$Q_{3}=P_{75}$</span>（下四分位数）</li>
 </ul>
-<p>四分位距 $Q_{3} - Q_{1}$ 描述数据的离散程度。</p>
+<p>四分位距 <span class="arithmatex">$Q_{3} - Q_{1}$</span> 描述数据的离散程度。</p>
 <hr />
 <p>想进一步掌握随机变量的理论细节与实际例题，请访问原文 <strong>随机变量专题</strong>（<a href="https://raineblog.dpdns.org/whk/science/probability/3/">https://raineblog.dpdns.org/whk/science/probability/3/</a>），深入阅读完整章节内容。</p>
 <!-- 数学 -->

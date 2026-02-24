@@ -3,30 +3,30 @@
          data-url="science/polynomial/2/">
   <h1 id="_1">多项式科技</h1>
 <h2 id="_2">生成函数</h2>
-<p>序列 $a$ （有穷无穷均可）的普通生成函数定义为形式幂级数：$\displaystyle F(x)=\sum_na_nx^n$。例如：</p>
+<p>序列 <span class="arithmatex">$a$</span> （有穷无穷均可）的普通生成函数定义为形式幂级数：<span class="arithmatex">$\displaystyle F(x)=\sum_na_nx^n$</span>。例如：</p>
 <ol>
-<li>$a=\lang1,2,3\rang$ 的普通生成函数是 $1+2x+3x^2$</li>
-<li>$a=\lang1,1,1,\dots\rang$ 的普通生成函数是 $\displaystyle\sum_{n\geq 0}x^n$</li>
-<li>$a=\lang1,2,4,8,16,\dots\rang$ 的生成函数是 $\displaystyle\sum_{n\geq 0}2<sup>nx</sup>n$</li>
-<li>$a=\lang1,3,5,7,9\rang$ 的生成函数是 $\displaystyle\sum_{n\geq 0}(2n+1)x^n$</li>
+<li><span class="arithmatex">$a=\lang1,2,3\rang$</span> 的普通生成函数是 <span class="arithmatex">$1+2x+3x^2$</span></li>
+<li><span class="arithmatex">$a=\lang1,1,1,\dots\rang$</span> 的普通生成函数是 <span class="arithmatex">$\displaystyle\sum_{n\geq 0}x^n$</span></li>
+<li><span class="arithmatex">$a=\lang1,2,4,8,16,\dots\rang$</span> 的生成函数是 <span class="arithmatex">$\displaystyle\sum_{n\geq 0}2^nx^n$</span></li>
+<li><span class="arithmatex">$a=\lang1,3,5,7,9\rang$</span> 的生成函数是 <span class="arithmatex">$\displaystyle\sum_{n\geq 0}(2n+1)x^n$</span></li>
 </ol>
-<p>换句话说，如果序列 $a$ 有通项公式，那么它的普通生成函数的系数就是通项公式。</p>
+<p>换句话说，如果序列 <span class="arithmatex">$a$</span> 有通项公式，那么它的普通生成函数的系数就是通项公式。</p>
 <h3 id="_3">基本运算</h3>
-<p>两个序列 $a,b$ 的生成函数 $F(x),G(x)$，则 $F(x)\pm G(x)$ 是序列 $\lang a_n\pm b_n\rang$ 的生成函数。</p>
-<p>$$F(x)\pm G(x)=\sum_{n}(a_n\pm b_n)x^n$$</p>
-<p>乘法运算即卷积，推出 $F(x)G(x)$ 是序列 $\left\lang\displaystyle\sum_{i=0}^na_ib_{n-i}\right\rang$ 的生成函数。</p>
-<p>$$F(x)G(x)=\sum_nx<sup>n\sum_{i=0}</sup>na_ib_{n-i}$$</p>
-<h4 id="to">形式幂级数形式 $\to$ 封闭形式</h4>
-<p>例如 $a=\lang1,1,1,\dots\rang$ 的普通生成函数是 $\displaystyle F(x)=\sum_{n\geq 0}x^n$，可以发现 $F(x)x+1=F(x)$，于是解方程得到 $\displaystyle F(x)=\frac{1}{1-x}$，这就是 $\displaystyle\sum_{n\geq 0}x^n$ 的封闭形式。</p>
-<p>又例如等比数列 $\lang1,p,p^2,\dots\rang$ 的生成函数 $F(x)=\displaystyle\sum_{n\geq 0}p<sup>nx</sup>n$，有 $F(x)px+1=F(x)$ 得 $F(x)=\displaystyle\frac{1}{1-px}$.</p>
-<p>$a=\lang 1,0,1,0,1,\dots\rang$ 的 $F(x)=\displaystyle\sum_{n\geq 0}x<sup>{2n}=\frac{1}{1-x</sup>2}$</p>
-<p>$a=\lang 1,2,3,4,\dots\rang$ 的 $F(x)=\displaystyle\sum_{n\geq 0}(n+1)x^n=\sum_{n\geq 0}(x<sup>n)'=\left(\frac{1}{1-x}\right)'=\frac{1}{(1-x)</sup>2}$</p>
-<p>$a_n=\begin{pmatrix}m\n\end{pmatrix}$ 的 $F(x)=\displaystyle\sum_{n\geq 0}\begin{pmatrix}m\n\end{pmatrix}x<sup>n=(1+x)</sup>m$</p>
-<p>$Fib$ 数列定义为 $a_0=0,a_1=1,a_n=a_{n-1}+a_{n-2}$，于是有</p>
-<p>$$F(x)=xF(x)+x^2F(x)-a_0x+a_1x+a_0\implies F(x)=\frac{x}{1-x-x^2}$$</p>
+<p>两个序列 <span class="arithmatex">$a,b$</span> 的生成函数 <span class="arithmatex">$F(x),G(x)$</span>，则 <span class="arithmatex">$F(x)\pm G(x)$</span> 是序列 <span class="arithmatex">$\lang a_n\pm b_n\rang$</span> 的生成函数。</p>
+<div class="arithmatex">$$F(x)\pm G(x)=\sum_{n}(a_n\pm b_n)x^n$$</div>
+<p>乘法运算即卷积，推出 <span class="arithmatex">$F(x)G(x)$</span> 是序列 <span class="arithmatex">$\left\lang\displaystyle\sum_{i=0}^na_ib_{n-i}\right\rang$</span> 的生成函数。</p>
+<div class="arithmatex">$$F(x)G(x)=\sum_nx^n\sum_{i=0}^na_ib_{n-i}$$</div>
+<h4 id="to">形式幂级数形式 <span class="arithmatex">$\to$</span> 封闭形式</h4>
+<p>例如 <span class="arithmatex">$a=\lang1,1,1,\dots\rang$</span> 的普通生成函数是 <span class="arithmatex">$\displaystyle F(x)=\sum_{n\geq 0}x^n$</span>，可以发现 <span class="arithmatex">$F(x)x+1=F(x)$</span>，于是解方程得到 <span class="arithmatex">$\displaystyle F(x)=\frac{1}{1-x}$</span>，这就是 <span class="arithmatex">$\displaystyle\sum_{n\geq 0}x^n$</span> 的封闭形式。</p>
+<p>又例如等比数列 <span class="arithmatex">$\lang1,p,p^2,\dots\rang$</span> 的生成函数 <span class="arithmatex">$F(x)=\displaystyle\sum_{n\geq 0}p^nx^n$</span>，有 <span class="arithmatex">$F(x)px+1=F(x)$</span> 得 <span class="arithmatex">$F(x)=\displaystyle\frac{1}{1-px}$</span>.</p>
+<p><span class="arithmatex">$a=\lang 1,0,1,0,1,\dots\rang$</span> 的 <span class="arithmatex">$F(x)=\displaystyle\sum_{n\geq 0}x^{2n}=\frac{1}{1-x^2}$</span></p>
+<p><span class="arithmatex">$a=\lang 1,2,3,4,\dots\rang$</span> 的 <span class="arithmatex">$F(x)=\displaystyle\sum_{n\geq 0}(n+1)x^n=\sum_{n\geq 0}(x^n)'=\left(\frac{1}{1-x}\right)'=\frac{1}{(1-x)^2}$</span></p>
+<p><span class="arithmatex">$a_n=\begin{pmatrix}m\\n\end{pmatrix}$</span> 的 <span class="arithmatex">$F(x)=\displaystyle\sum_{n\geq 0}\begin{pmatrix}m\\n\end{pmatrix}x^n=(1+x)^m$</span></p>
+<p><span class="arithmatex">$Fib$</span> 数列定义为 <span class="arithmatex">$a_0=0,a_1=1,a_n=a_{n-1}+a_{n-2}$</span>，于是有</p>
+<div class="arithmatex">$$F(x)=xF(x)+x^2F(x)-a_0x+a_1x+a_0\implies F(x)=\frac{x}{1-x-x^2}$$</div>
 <h4 id="_4">应用</h4>
 <ol>
-<li>在许多不同种类的食物中选出 $n$ 个，计算方案数。每种食物的限制如下：</li>
+<li>在许多不同种类的食物中选出 <span class="arithmatex">$n$</span> 个，计算方案数。每种食物的限制如下：</li>
 </ol>
 <table>
 <thead>
@@ -39,10 +39,10 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;">鸡块：$4$ 的倍数个</td>
+<td style="text-align: center;">鸡块：<span class="arithmatex">$4$</span> 的倍数个</td>
 <td style="text-align: center;">包子：不超过三个</td>
 <td style="text-align: center;">土豆片炒肉：不超过一个</td>
-<td style="text-align: center;">面包：$3$ 的倍数个</td>
+<td style="text-align: center;">面包：<span class="arithmatex">$3$</span> 的倍数个</td>
 </tr>
 </tbody>
 </table>
@@ -50,37 +50,37 @@
 <table>
 <thead>
 <tr>
-<th style="text-align: center;">$\displaystyle\sum_{n\geq 0}x<sup>{2n}=\frac{1}{1-x</sup>2}$</th>
-<th style="text-align: center;">$1+x$</th>
-<th style="text-align: center;">$\displaystyle 1+x+x<sup>2=\frac{1-x</sup>3}{1-x}$</th>
-<th style="text-align: center;">$\displaystyle\frac{x}{1-x^2}$</th>
+<th style="text-align: center;"><span class="arithmatex">$\displaystyle\sum_{n\geq 0}x^{2n}=\frac{1}{1-x^2}$</span></th>
+<th style="text-align: center;"><span class="arithmatex">$1+x$</span></th>
+<th style="text-align: center;"><span class="arithmatex">$\displaystyle 1+x+x^2=\frac{1-x^3}{1-x}$</span></th>
+<th style="text-align: center;"><span class="arithmatex">$\displaystyle\frac{x}{1-x^2}$</span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;">$\displaystyle\sum_{n\geq 0}x<sup>{4n}=\frac{1}{1-x</sup>4}$</td>
-<td style="text-align: center;">$\displaystyle 1+x+x<sup>2+x</sup>3=\frac{1-x^4}{1-x}$</td>
-<td style="text-align: center;">$1+x$</td>
-<td style="text-align: center;">$\displaystyle\frac{1}{1-x^3}$</td>
+<td style="text-align: center;"><span class="arithmatex">$\displaystyle\sum_{n\geq 0}x^{4n}=\frac{1}{1-x^4}$</span></td>
+<td style="text-align: center;"><span class="arithmatex">$\displaystyle 1+x+x^2+x^3=\frac{1-x^4}{1-x}$</span></td>
+<td style="text-align: center;"><span class="arithmatex">$1+x$</span></td>
+<td style="text-align: center;"><span class="arithmatex">$\displaystyle\frac{1}{1-x^3}$</span></td>
 </tr>
 </tbody>
 </table>
 <p>全部乘起来得到答案的生成函数：</p>
-<p>$$F(x)=\frac{(1+x)(1-x<sup>3)x(1-x</sup>4)(1+x)}{(1-x<sup>2)(1-x)(1-x</sup>2)(1-x<sup>4)(1-x)(1-x</sup>3)}=\frac{x}{(1-x)^4}=\sum_{n\geq 1}\begin{pmatrix}n+2\n-1\end{pmatrix}x^n$$</p>
-<p>于是答案 $=\begin{pmatrix}n+2\n-1\end{pmatrix}=\begin{pmatrix}n+2\3\end{pmatrix}$</p>
+<div class="arithmatex">$$F(x)=\frac{(1+x)(1-x^3)x(1-x^4)(1+x)}{(1-x^2)(1-x)(1-x^2)(1-x^4)(1-x)(1-x^3)}=\frac{x}{(1-x)^4}=\sum_{n\geq 1}\begin{pmatrix}n+2\\n-1\end{pmatrix}x^n$$</div>
+<p>于是答案 <span class="arithmatex">$=\begin{pmatrix}n+2\\n-1\end{pmatrix}=\begin{pmatrix}n+2\\3\end{pmatrix}$</span></p>
 <ol>
-<li>$a_{n+1}+a_n=2^n,a_0=0$，求通项。</li>
+<li><span class="arithmatex">$a_{n+1}+a_n=2^n,a_0=0$</span>，求通项。</li>
 </ol>
-<p>$f(x)=\displaystyle\sum_{n=0}<sup>{+\infty}a_nx</sup>n$，原式变为 $x<sup n_1="n+1">{-1}(a_{n+1}x</sup>)+a_nx<sup>n=(2x)</sup>n$，再求和有</p>
-<p>$$\displaystyle\sum_{n=0}<sup -1="-1">{+\infty}x</sup>x}(a_{n+1<sup _infty="+\infty">{n+1})+\sum_{n=0}</sup>(a_nx<sup _infty="+\infty">n)=\sum_{n=0}</sup>$$}(2x)^n=\frac{1}{1-2x}\implies (\frac{1}{x}+1)f(x)=\frac{1}{1-2x</p>
-<p>$$f(x)=\frac{x}{(1-2x)(1+x)}=\frac{1}{3}(\frac{1}{1-2x}-\frac{1}{1+x})=\frac{1}{3}\sum_{n=0}<sup>{+\infty}[2</sup>n-(-1)<sup>n]x</sup>n$$</p>
-<p>于是 $\displaystyle a_n=\frac{1}{3}[2<sup>n-(-1)</sup>n]$.</p>
+<p><span class="arithmatex">$f(x)=\displaystyle\sum_{n=0}^{+\infty}a_nx^n$</span>，原式变为 <span class="arithmatex">$x^{-1}(a_{n+1}x^{n+1})+a_nx^n=(2x)^n$</span>，再求和有</p>
+<div class="arithmatex">$$\displaystyle\sum_{n=0}^{+\infty}x^{-1}(a_{n+1}x^{n+1})+\sum_{n=0}^{+\infty}(a_nx^n)=\sum_{n=0}^{+\infty}(2x)^n=\frac{1}{1-2x}\implies (\frac{1}{x}+1)f(x)=\frac{1}{1-2x}$$</div>
+<div class="arithmatex">$$f(x)=\frac{x}{(1-2x)(1+x)}=\frac{1}{3}(\frac{1}{1-2x}-\frac{1}{1+x})=\frac{1}{3}\sum_{n=0}^{+\infty}[2^n-(-1)^n]x^n$$</div>
+<p>于是 <span class="arithmatex">$\displaystyle a_n=\frac{1}{3}[2^n-(-1)^n]$</span>.</p>
 <ol>
-<li>卡特兰数：一个 $n\times n$ 的方阵从 $(0,0)$ 走到 $(n,n)$，不经过对角线的方案数，记作 $C_n$。</li>
+<li>卡特兰数：一个 <span class="arithmatex">$n\times n$</span> 的方阵从 <span class="arithmatex">$(0,0)$</span> 走到 <span class="arithmatex">$(n,n)$</span>，不经过对角线的方案数，记作 <span class="arithmatex">$C_n$</span>。</li>
 </ol>
-<p>有如下关系：$C_n=\displaystyle\sum_{k=0}^nC_{n-k}C_k$，构造 $f(x)=\displaystyle\sum_{n=0}<sup>{+\infty}C_nx</sup>n$，有</p>
-<p>$$f<sup>2(x)=C_0</sup>2+(C_0C_1+C_1C_0)x+\dots\implies xf^2(x)+C_0=f(x)\implies f(x)=\frac{1-\sqrt{1-4x} }{2x}$$</p>
-<p>$$\implies f(x)=\frac{1-\left{1+\displaystyle\sum_{k=1}^{+\infty}\left[-2\begin{pmatrix}2k-2\ k-1\end{pmatrix}\right]x<sup _infty="+\infty">k\right}}{2x}=\sum_{k=0}</sup>$$}\frac{\begin{pmatrix}2k\k\end{pmatrix}x^k}{k+1}\implies\red{\boxed{C_n=\frac{\begin{pmatrix}2n\n\end{pmatrix}}{n+1}}</p>
+<p>有如下关系：<span class="arithmatex">$C_n=\displaystyle\sum_{k=0}^nC_{n-k}C_k$</span>，构造 <span class="arithmatex">$f(x)=\displaystyle\sum_{n=0}^{+\infty}C_nx^n$</span>，有</p>
+<div class="arithmatex">$$f^2(x)=C_0^2+(C_0C_1+C_1C_0)x+\dots\implies xf^2(x)+C_0=f(x)\implies f(x)=\frac{1-\sqrt{1-4x} }{2x}$$</div>
+<div class="arithmatex">$$\implies f(x)=\frac{1-\left\{1+\displaystyle\sum_{k=1}^{+\infty}\left[-2\begin{pmatrix}2k-2\\ k-1\end{pmatrix}\right]x^k\right\}}{2x}=\sum_{k=0}^{+\infty}\frac{\begin{pmatrix}2k\\k\end{pmatrix}x^k}{k+1}\implies\red{\boxed{C_n=\frac{\begin{pmatrix}2n\\n\end{pmatrix}}{n+1}}}$$</div>
 <!-- 数学 -->
 <!-- 物理 -->
 <!-- 化学 -->

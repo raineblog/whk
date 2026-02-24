@@ -16,21 +16,21 @@
 
 ### 等距抽样概述 {#_4}
 
-假设从容量为 \$N\$（很大）的总体中抽取容量为 \$n\$ 的样本，我们可以按下列步骤进行系统抽样：
+假设从容量为 [\$N\$]{.arithmatex}（很大）的总体中抽取容量为 [\$n\$]{.arithmatex} 的样本，我们可以按下列步骤进行系统抽样：
 
-1.  先将总体的 \$N\$ 个个体编号。
+1.  先将总体的 [\$N\$]{.arithmatex} 个个体编号。
 
-2.  确定分段间隔 \$k\$，对编号进行分段。
+2.  确定分段间隔 [\$k\$]{.arithmatex}，对编号进行分段。
 
-    - 当 \$\dfrac{N}{n}\$ 是整数时，取 \$k=\dfrac{N}{n}\$。
+    - 当 [\$\dfrac{N}{n}\$]{.arithmatex} 是整数时，取 [\$k=\dfrac{N}{n}\$]{.arithmatex}。
 
-    - 当 \$\dfrac{N}{n}\$ 不是整数时，假设余数为 \$r\$（\$0\<r\<n\$），可随机地从 \$N\$ 个个体中剔除余数 \$r\$ 个个体，此时取 \$k=\dfrac{N-r}{n}\$。
+    - 当 [\$\dfrac{N}{n}\$]{.arithmatex} 不是整数时，假设余数为 [\$r\$]{.arithmatex}（[\$0\<r\<n\$]{.arithmatex}），可随机地从 [\$N\$]{.arithmatex} 个个体中剔除余数 [\$r\$]{.arithmatex} 个个体，此时取 [\$k=\dfrac{N-r}{n}\$]{.arithmatex}。
 
-3.  在第一段用简单随机抽样确定第 \$1\$ 个个体的编号 \$\ell\$（\$\ell\le k\$）。
+3.  在第一段用简单随机抽样确定第 [\$1\$]{.arithmatex} 个个体的编号 [\$\ell\$]{.arithmatex}（[\$\ell\le k\$]{.arithmatex}）。
 
-4.  将编号为 \$\ell, \ell+k, \ell+2k, \dots, \ell+(n-1)k\$ 的个体抽出。
+4.  将编号为 [\$\ell, \ell+k, \ell+2k, \dots, \ell+(n-1)k\$]{.arithmatex} 的个体抽出。
 
-我们知道 \$\ell, \ell + k, \ell + 2k, \dots, \ell + (n - 1)k\$ 是以 \$\ell\$ 为首项、以 \$k\$ 为公差的等差数列，设第 \$n\$ 段抽到的编号为 \$a_n\$，则 \$a_n = \ell + (n - 1)k\$。故系统抽样也叫等距抽样。
+我们知道 [\$\ell, \ell + k, \ell + 2k, \dots, \ell + (n - 1)k\$]{.arithmatex} 是以 [\$\ell\$]{.arithmatex} 为首项、以 [\$k\$]{.arithmatex} 为公差的等差数列，设第 [\$n\$]{.arithmatex} 段抽到的编号为 [\$a_n\$]{.arithmatex}，则 [\$a_n = \ell + (n - 1)k\$]{.arithmatex}。故系统抽样也叫等距抽样。
 
 ### 分层抽样概述 {#_5}
 
@@ -39,19 +39,23 @@
 分层抽样的步骤：
 
 1.  **分层**：将总体分成互不交叉的层。
-2.  **确定抽样比**：总体 \$N\$，样本容量 \$n\$，则抽样比例为 \$\dfrac{n}{N}\$。
-3.  **分层抽样**：在各层中按抽样比例 \$\dfrac{n}{N}\$ 独立地进行简单随机抽样。
+2.  **确定抽样比**：总体 [\$N\$]{.arithmatex}，样本容量 [\$n\$]{.arithmatex}，则抽样比例为 [\$\dfrac{n}{N}\$]{.arithmatex}。
+3.  **分层抽样**：在各层中按抽样比例 [\$\dfrac{n}{N}\$]{.arithmatex} 独立地进行简单随机抽样。
 4.  **汇合样本**：将各层抽取的样本合并为最终样本。
 
-例如：第一层 \$X\$ 有 \$n\$ 个元素，第二层 \$Y\$ 有 \$m\$ 个元素。
+例如：第一层 [\$X\$]{.arithmatex} 有 [\$n\$]{.arithmatex} 个元素，第二层 [\$Y\$]{.arithmatex} 有 [\$m\$]{.arithmatex} 个元素。
 
 容易得出：
 
+::: {.arithmatex}
 \$\$ \bar a=\dfrac{n\bar X+m\bar Y}{n+m} \$\$
+:::
 
 对于方差会麻烦一点：
 
-\$\$ \begin{aligned} D(a)&=E(a^2)-(Ea)^2\\ &=\dfrac{nE(X^2)+mE(Y^2)}{n+m}-\left(\dfrac{nEX+mEY}{n+m}\right)\^2\\ &=\dfrac{nD(x)+mD(Y)}{n+m}+\dfrac{nm(EX-EY)^2}{(n+m)^2} \end{aligned} \$\$
+::: {.arithmatex}
+\$\$ \begin{aligned} D(a)&=E(a\^2)-(Ea)\^2\\ &=\dfrac{nE(X\^2)+mE(Y\^2)}{n+m}-\left(\dfrac{nEX+mEY}{n+m}\right)\^2\\ &=\dfrac{nD(x)+mD(Y)}{n+m}+\dfrac{nm(EX-EY)\^2}{(n+m)\^2} \end{aligned} \$\$
+:::
 
 ### \[TODO\]
 

@@ -56,17 +56,17 @@ STSE 教育理念是科学（Science）、技术（Technology）、社会（Soci
 
 人类活动对环境的影响 酸雨​
 
-概念：\$\rm{pH\le5.6}\$ 的雨水
+概念：[\$\rm{pH\le5.6}\$]{.arithmatex} 的雨水
 
-成因：主要是 \$\rm{SO_2}\$ 和 \$\rm{NO_x}\$ 及它们在大气中发生反应后的生成物溶于水形成的
+成因：主要是 [\$\rm{SO_2}\$]{.arithmatex} 和 [\$\rm{NO_x}\$]{.arithmatex} 及它们在大气中发生反应后的生成物溶于水形成的
 
-硫酸型酸雨：\$\rm{SO_2+H_2O\rightleftharpoons H_2SO_3\\,\>2H_2SO_3+O_2=2H_2SO_4}\$ 硝酸型酸雨：\$\rm{2NO+O_2=2NO_2\\,\>4NO_2+O_2+2H_2O=4HNO_3}\$
+硫酸型酸雨：[\$\rm{SO_2+H_2O\rightleftharpoons H_2SO_3\\,\\2H_2SO_3+O_2=2H_2SO_4}\$]{.arithmatex} 硝酸型酸雨：[\$\rm{2NO+O_2=2NO_2\\,\\4NO_2+O_2+2H_2O=4HNO_3}\$]{.arithmatex}
 
 危害：损伤农作物、破坏森林和草原、酸化土壤和湖泊、腐蚀建筑物
 
 防治：
 
-\$\rm{2CaO+2SO_2+O_2\xlongequal{高温}2CaSO_4}\$ \$\rm{2NO+2CO\xlongequal{催化剂}N_2+CO_2}\$（尾气净化）
+[\$\rm{2CaO+2SO_2+O_2\xlongequal{高温}2CaSO_4}\$]{.arithmatex} [\$\rm{2NO+2CO\xlongequal{催化剂}N_2+CO_2}\$]{.arithmatex}（尾气净化）
 
 光化学烟雾​
 
@@ -150,20 +150,20 @@ NH4HCO3、Na2H2P2O7 焦磷酸二氢二钠。
 
 ### 化肥 {#_9}
 
-波尔多液：\$m(\ce{CuSO4}):m(\ce{Ca(OH)2}):m(H2O)=1:1:100\$。
+波尔多液：[\$m(\ce{CuSO4}):m(\ce{Ca(OH)2}):m(H2O)=1:1:100\$]{.arithmatex}。
 
-|        |       化学式        |    名称    |
-|:------:|:-------------------:|:----------:|
-|  氮肥  |  \$\ce{NH4HCO3}\$   |  碳酸氢铵  |
-|        | \$\ce{(NH4)2SO4}\$  |   硫酸铵   |
-|        |  \$\ce{CO(NH2)2}\$  |    尿素    |
-|  磷肥  | \$\ce{Ca(H2PO4)2}\$ | 磷酸二氢钙 |
-|        |   \$\ce{CaSO4}\$    |   硫酸钙   |
-|  钾肥  |    \$\ce{KCl}\$     |   氯化钾   |
-|        |   \$\ce{K2CO3}\$    |   碳酸钾   |
-| 复合肥 | \$\ce{(NH4)2HPO4}\$ | 磷酸氢二铵 |
-|        |   \$\ce{K3PO4}\$    |   磷酸钾   |
-|        |     \$\ce{KNO3}     |   硝酸钾   |
+|        |               化学式               |    名称    |
+|:------:|:----------------------------------:|:----------:|
+|  氮肥  |  [\$\ce{NH4HCO3}\$]{.arithmatex}   |  碳酸氢铵  |
+|        | [\$\ce{(NH4)2SO4}\$]{.arithmatex}  |   硫酸铵   |
+|        |  [\$\ce{CO(NH2)2}\$]{.arithmatex}  |    尿素    |
+|  磷肥  | [\$\ce{Ca(H2PO4)2}\$]{.arithmatex} | 磷酸二氢钙 |
+|        |   [\$\ce{CaSO4}\$]{.arithmatex}    |   硫酸钙   |
+|  钾肥  |    [\$\ce{KCl}\$]{.arithmatex}     |   氯化钾   |
+|        |   [\$\ce{K2CO3}\$]{.arithmatex}    |   碳酸钾   |
+| 复合肥 | [\$\ce{(NH4)2HPO4}\$]{.arithmatex} | 磷酸氢二铵 |
+|        |   [\$\ce{K3PO4}\$]{.arithmatex}    |   磷酸钾   |
+|        |            \$\ce{KNO3}             |   硝酸钾   |
 
 口诀：氮磷钾，叶果茎。
 
@@ -171,7 +171,9 @@ NH4HCO3、Na2H2P2O7 焦磷酸二氢二钠。
 
 铵态氮肥不可与碱一起施肥：
 
+::: {.arithmatex}
 \$\$ \ce{NH4+ + OH- -\> NH3 \^ + H2O} \$\$
+:::
 
 此法可以检验铵态氮肥，同时其对热不稳定性也可以检验。
 
@@ -297,7 +299,7 @@ NH4HCO3、Na2H2P2O7 焦磷酸二氢二钠。
 
   - 避免反应物或生成物过热分解和水解。
 
-  - 例如：\$\ce{H2O2,NH4+,KMnO4,AgNO3,HNO3}\$。
+  - 例如：[\$\ce{H2O2,NH4+,KMnO4,AgNO3,HNO3}\$]{.arithmatex}。
 
 - 通入惰性气体：
 

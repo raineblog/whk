@@ -3,205 +3,205 @@
          data-url="science/number/4/">
   <h1 id="_1">数论测试</h1>
 <h2 id="_2">一、请给出整除的概念及性质</h2>
-<p>对于整数 $a,b$ $(b\neq0)$，如果存在整数 $c$，使得 $a=bc$，</p>
-<p>则称 $b$ 整除 $a$，记作 $b \mid a$；否则称 $b$ 不整除 $a$，记作 $b \nmid a$。</p>
+<p>对于整数 <span class="arithmatex">$a,b$</span> <span class="arithmatex">$(b\neq0)$</span>，如果存在整数 <span class="arithmatex">$c$</span>，使得 <span class="arithmatex">$a=bc$</span>，</p>
+<p>则称 <span class="arithmatex">$b$</span> 整除 <span class="arithmatex">$a$</span>，记作 <span class="arithmatex">$b \mid a$</span>；否则称 <span class="arithmatex">$b$</span> 不整除 <span class="arithmatex">$a$</span>，记作 <span class="arithmatex">$b \nmid a$</span>。</p>
 <p><strong>性质</strong>：</p>
-<p>$$
+<div class="arithmatex">$$
 \def\arraystretch{1.1}
 \begin{array}{rlrl}
-1.&amp;a\mid b&amp;\Longrightarrow&amp;\pm a \mid \pm b\
-2.&amp;a \mid b, b\mid c&amp;\Longrightarrow&amp;a \mid c\
-3.&amp;\forall i:b\mid a_i&amp;\Longrightarrow&amp;b\mid\Sigma a_ik_i\
-4.&amp;b\mid a&amp;\Longrightarrow&amp;bc\mid ac (c\in\mathbb Z,c\neq0)\
-5.&amp;b\mid a (a\neq0)&amp;\Longrightarrow&amp;|b|\le|a|\
-5.&amp;b\mid a, |a|&lt;|b|&amp;\Longrightarrow&amp;a=0\
+1.&amp;a\mid b&amp;\Longrightarrow&amp;\pm a \mid \pm b\\
+2.&amp;a \mid b,\ b\mid c&amp;\Longrightarrow&amp;a \mid c\\
+3.&amp;\forall i:b\mid a_i&amp;\Longrightarrow&amp;b\mid\Sigma\ a_ik_i\\
+4.&amp;b\mid a&amp;\Longrightarrow&amp;bc\mid ac\ (c\in\mathbb Z,c\neq0)\\
+5.&amp;b\mid a\ (a\neq0)&amp;\Longrightarrow&amp;|b|\le|a|\\
+5.&amp;b\mid a,\ |a|&lt;|b|&amp;\Longrightarrow&amp;a=0\\
 \end{array}
-$$</p>
+$$</div>
 <h3 id="_3">二、请给出同余的概念及性质</h3>
-<p>给定正整数 $m$ 称为模，$a,b$ 为任意两个整数，满足：</p>
-<p>$$
+<p>给定正整数 <span class="arithmatex">$m$</span> 称为模，<span class="arithmatex">$a,b$</span> 为任意两个整数，满足：</p>
+<div class="arithmatex">$$
 \def\arraystretch{1.1}
 \begin{array}{ll}
-a=q_1m+r_1,&amp;0\le r_1&lt;m\
-b=q_2m+r_2,&amp;0\le r_2&lt;m\
+a=q_1m+r_1,&amp;0\le r_1&lt;m\\
+b=q_2m+r_2,&amp;0\le r_2&lt;m\\
 \end{array}
-$$</p>
-<p>则称 $a,b$ 对 $m$ 同余，记作 $a \equiv b \pmod m$，简记为 $a \equiv b (m)$。</p>
+$$</div>
+<p>则称 <span class="arithmatex">$a,b$</span> 对 <span class="arithmatex">$m$</span> 同余，记作 <span class="arithmatex">$a \equiv b \pmod m$</span>，简记为 <span class="arithmatex">$a \equiv b\ (m)$</span>。</p>
 <p><strong>性质</strong>：</p>
-<p>$$
+<div class="arithmatex">$$
 \def\arraystretch{1.1}
 \begin{array}{rlrl}
-1.&amp;a \equiv a \pmod m\
-2.&amp;a \equiv b \pmod m &amp;\Longleftrightarrow&amp; b\equiv a \pmod m\
-3.&amp;a\equiv b\pmod m, b\equiv c\pmod m&amp;\Longrightarrow&amp;a\equiv c\pmod m\
-4.&amp;aK\equiv bK\pmod m&amp;\Longrightarrow&amp;a\equiv b\pmod{\frac{m}{(m,k)}}\
-5.&amp;a\equiv b\pmod m, c\equiv d\pmod m&amp;\Longrightarrow&amp;a\pm c\equiv b\pm d\pmod m\
-6.&amp;a\equiv b\pmod m, c\equiv d\pmod m&amp;\Longrightarrow&amp;ac\equiv bd\pmod m\
+1.&amp;a \equiv a \pmod m\\
+2.&amp;a \equiv b \pmod m &amp;\Longleftrightarrow&amp; b\equiv a \pmod m\\
+3.&amp;a\equiv b\pmod m,\ b\equiv c\pmod m&amp;\Longrightarrow&amp;a\equiv c\pmod m\\
+4.&amp;aK\equiv bK\pmod m&amp;\Longrightarrow&amp;a\equiv b\pmod{\frac{m}{(m,k)}}\\
+5.&amp;a\equiv b\pmod m,\ c\equiv d\pmod m&amp;\Longrightarrow&amp;a\pm c\equiv b\pm d\pmod m\\
+6.&amp;a\equiv b\pmod m,\ c\equiv d\pmod m&amp;\Longrightarrow&amp;ac\equiv bd\pmod m\\
 \end{array}
-$$</p>
-<h3 id="m">三、请给出模 $m$ 的完全剩余系的概念</h3>
-<p>若 $a_1,a_2,\dots,a_m$ 对模 $m$ 两两不同余，则这 $m$ 个数构成模 $m$ 的一个完全剩余系。</p>
-<p>特殊的，任意连续的 $m$ 个整数都构成模 $m$ 的一个完全剩余系。</p>
+$$</div>
+<h3 id="m">三、请给出模 <span class="arithmatex">$m$</span> 的完全剩余系的概念</h3>
+<p>若 <span class="arithmatex">$a_1,a_2,\dots,a_m$</span> 对模 <span class="arithmatex">$m$</span> 两两不同余，则这 <span class="arithmatex">$m$</span> 个数构成模 <span class="arithmatex">$m$</span> 的一个完全剩余系。</p>
+<p>特殊的，任意连续的 <span class="arithmatex">$m$</span> 个整数都构成模 <span class="arithmatex">$m$</span> 的一个完全剩余系。</p>
 <h3 id="_4">四、陈述裴蜀定理</h3>
-<p>对于任意整数 $a,b$，一定存在一组整数解 $x,y$ 使得 $ax+by=(a,b)$。</p>
+<p>对于任意整数 <span class="arithmatex">$a,b$</span>，一定存在一组整数解 <span class="arithmatex">$x,y$</span> 使得 <span class="arithmatex">$ax+by=(a,b)$</span>。</p>
 <h3 id="_5">五、陈述费马小定理</h3>
-<p>若 $p$ 是素数，则 $a^p\equiv a\pmod p$。</p>
-<p>特别的，若 $a\perp p$，则 $a^{p-1}\equiv1\pmod p$。</p>
-<h3 id="m-x_1dotsx_m-a-perp-m-ax_1dotsax_m-m">六、给定模 $m$ 的一组完全剩余系 $x_1,\dots,x_m$，若 $a \perp m$，请证明 $ax_1,\dots,ax_m$ 也是模 $m$ 的一组完全剩余系</h3>
-<p><strong>反证</strong>：假设 $ax_1,\dots,ax_m$ 不是模 $m$ 的完全剩余系。</p>
-<p>则一定存在 $i\neq j$ 使得 $ax_i\equiv ax_j\pmod m$。</p>
-<p>因为 $a \perp m$，因此有 $x_i\equiv x_j\pmod m$。</p>
-<p>与 $x_1,\dots,x_m$ 为模 $m$ 的完全剩余系不符。</p>
-<p>假设不成立，故 $ax_1,\dots,ax_m$ 是模 $m$ 的完全剩余系。</p>
-<h3 id="n-120-mid-nn2-1n2-5n26">七、设 $n$ 是整数，请证明：$120 \mid n(n<sup>2-1)(n</sup>2-5n+26)$</h3>
-<p><strong>定理</strong>：连续 $n$ 个整数的乘积一定被 $n!$ 整除。</p>
-<p>对于这 $n$ 个数都是正整数的：</p>
-<p>$$
+<p>若 <span class="arithmatex">$p$</span> 是素数，则 <span class="arithmatex">$a^p\equiv a\pmod p$</span>。</p>
+<p>特别的，若 <span class="arithmatex">$a\perp p$</span>，则 <span class="arithmatex">$a^{p-1}\equiv1\pmod p$</span>。</p>
+<h3 id="m-x_1dotsx_m-a-perp-m-ax_1dotsax_m-m">六、给定模 <span class="arithmatex">$m$</span> 的一组完全剩余系 <span class="arithmatex">$x_1,\dots,x_m$</span>，若 <span class="arithmatex">$a \perp m$</span>，请证明 <span class="arithmatex">$ax_1,\dots,ax_m$</span> 也是模 <span class="arithmatex">$m$</span> 的一组完全剩余系</h3>
+<p><strong>反证</strong>：假设 <span class="arithmatex">$ax_1,\dots,ax_m$</span> 不是模 <span class="arithmatex">$m$</span> 的完全剩余系。</p>
+<p>则一定存在 <span class="arithmatex">$i\neq j$</span> 使得 <span class="arithmatex">$ax_i\equiv ax_j\pmod m$</span>。</p>
+<p>因为 <span class="arithmatex">$a \perp m$</span>，因此有 <span class="arithmatex">$x_i\equiv x_j\pmod m$</span>。</p>
+<p>与 <span class="arithmatex">$x_1,\dots,x_m$</span> 为模 <span class="arithmatex">$m$</span> 的完全剩余系不符。</p>
+<p>假设不成立，故 <span class="arithmatex">$ax_1,\dots,ax_m$</span> 是模 <span class="arithmatex">$m$</span> 的完全剩余系。</p>
+<h3 id="n-120-mid-nn2-1n2-5n26">七、设 <span class="arithmatex">$n$</span> 是整数，请证明：<span class="arithmatex">$120 \mid n(n^2-1)(n^2-5n+26)$</span></h3>
+<p><strong>定理</strong>：连续 <span class="arithmatex">$n$</span> 个整数的乘积一定被 <span class="arithmatex">$n!$</span> 整除。</p>
+<p>对于这 <span class="arithmatex">$n$</span> 个数都是正整数的：</p>
+<div class="arithmatex">$$
 \begin{array}{l}
 (a+1)(a+2)\dots(a+n)=\frac{(a+n)!}{a!}=n!\frac{(a+n)!}{n!a!}=n!\binom{a+n}{a}
 \end{array}
-$$</p>
-<p>而如果这 $n$ 个数存在不是正整数的，那么一定跨过了 $0$，乘积为 $0$，整除是显然的。</p>
+$$</div>
+<p>而如果这 <span class="arithmatex">$n$</span> 个数存在不是正整数的，那么一定跨过了 <span class="arithmatex">$0$</span>，乘积为 <span class="arithmatex">$0$</span>，整除是显然的。</p>
 <p><strong>证明</strong>：</p>
-<p>$$
+<div class="arithmatex">$$
 \def\arraystretch{1.1}
 \begin{array}{ll}
-&amp;n(n<sup>2-1)(n</sup>2-5n+26)\
-=&amp;n(n+1)(n-1)[(n-2)(n-3)+20]\
+&amp;n(n^2-1)(n^2-5n+26)\\
+=&amp;n(n+1)(n-1)[(n-2)(n-3)+20]\\
 =&amp;(n-3)(n-2)(n-1)n(n+1)+20(n-1)n(n+1)
 \end{array}
-$$</p>
+$$</div>
 <p>因为：</p>
-<p>$$
+<div class="arithmatex">$$
 \def\arraystretch{1.1}
 \begin{array}{rcl}
-120&amp;\mid&amp; (n-3)(n-2)(n-1)n(n+1)\
-6&amp;\mid&amp; (n-1)n(n+1)\
+120&amp;\mid&amp; (n-3)(n-2)(n-1)n(n+1)\\
+6&amp;\mid&amp; (n-1)n(n+1)\\
 120&amp;\mid&amp; 20(n-1)n(n+1)
 \end{array}
-$$</p>
-<p>因此 $120\mid(n-3)(n-2)(n-1)n(n+1)+20(n-1)n(n+1)$。</p>
-<p>即 $120 \mid n(n<sup>2-1)(n</sup>2-5n+26)$。</p>
-<h3 id="n-2n1-3n1-40-mid-n">八、设 $n$ 是正整数，且 $2n+1$ 与 $3n+1$ 都是完全平方数。请证明：$40 \mid n$</h3>
-<p><strong>性质1</strong>：奇数的完全平方数模 $8$ 同余于 $1$。</p>
-<p>$$(2k+1)^2\equiv4k(k+1)+1\equiv1\pmod8$$</p>
-<p><strong>性质2</strong>：任何一个数的平方模 $5$ 同余于 $0,\pm1$。</p>
-<p>$$
+$$</div>
+<p>因此 <span class="arithmatex">$120\mid(n-3)(n-2)(n-1)n(n+1)+20(n-1)n(n+1)$</span>。</p>
+<p>即 <span class="arithmatex">$120 \mid n(n^2-1)(n^2-5n+26)$</span>。</p>
+<h3 id="n-2n1-3n1-40-mid-n">八、设 <span class="arithmatex">$n$</span> 是正整数，且 <span class="arithmatex">$2n+1$</span> 与 <span class="arithmatex">$3n+1$</span> 都是完全平方数。请证明：<span class="arithmatex">$40 \mid n$</span></h3>
+<p><strong>性质1</strong>：奇数的完全平方数模 <span class="arithmatex">$8$</span> 同余于 <span class="arithmatex">$1$</span>。</p>
+<div class="arithmatex">$$(2k+1)^2\equiv4k(k+1)+1\equiv1\pmod8$$</div>
+<p><strong>性质2</strong>：任何一个数的平方模 <span class="arithmatex">$5$</span> 同余于 <span class="arithmatex">$0,\pm1$</span>。</p>
+<div class="arithmatex">$$
 \def\arraystretch{1.1}
 \begin{array}{lcll}
-t&amp;\equiv&amp;0,\pm1,\pm2&amp;\pmod5\
+t&amp;\equiv&amp;0,\pm1,\pm2&amp;\pmod5\\
 t^2&amp;\equiv&amp;0,\pm1&amp;\pmod5
 \end{array}
-$$</p>
+$$</div>
 <p><strong>证明</strong>：</p>
-<p>因为 $2n+1$ 是奇数且是完全平方数，则</p>
-<p>$$
+<p>因为 <span class="arithmatex">$2n+1$</span> 是奇数且是完全平方数，则</p>
+<div class="arithmatex">$$
 \def\arraystretch{1.1}
 \begin{array}{rcll}
-2n+1&amp;\equiv&amp;1&amp;\pmod8\
+2n+1&amp;\equiv&amp;1&amp;\pmod8\\
 n&amp;\equiv&amp;0&amp;\pmod4
 \end{array}
-$$</p>
-<p>所以，$n$ 是偶数，$3n+1$ 是奇数且是完全平方数，则</p>
-<p>$$
+$$</div>
+<p>所以，<span class="arithmatex">$n$</span> 是偶数，<span class="arithmatex">$3n+1$</span> 是奇数且是完全平方数，则</p>
+<div class="arithmatex">$$
 \def\arraystretch{1.1}
 \begin{array}{rcll}
-3n+1&amp;\equiv&amp;1&amp;\pmod8\
+3n+1&amp;\equiv&amp;1&amp;\pmod8\\
 n&amp;\equiv&amp;0&amp;\pmod8
 \end{array}
-$$</p>
+$$</div>
 <p>且</p>
-<p>$$
+<div class="arithmatex">$$
 \def\arraystretch{1.1}
 \begin{array}{rcll}
-2n+1&amp;\equiv&amp;0,\pm1&amp;\pmod5\
+2n+1&amp;\equiv&amp;0,\pm1&amp;\pmod5\\
 3n+1&amp;\equiv&amp;0,\pm1&amp;\pmod5
 \end{array}
-$$</p>
+$$</div>
 <p>则有</p>
-<p>$$
+<div class="arithmatex">$$
 \def\arraystretch{1.1}
 \begin{array}{rcll}
-(2n+1)+(3n+1)&amp;\equiv&amp;2&amp;\pmod5\
-2n+1&amp;\equiv&amp;1&amp;\pmod5\
-3n+1&amp;\equiv&amp;1&amp;\pmod5\
+(2n+1)+(3n+1)&amp;\equiv&amp;2&amp;\pmod5\\
+2n+1&amp;\equiv&amp;1&amp;\pmod5\\
+3n+1&amp;\equiv&amp;1&amp;\pmod5\\
 n&amp;\equiv&amp;0&amp;\pmod5
 \end{array}
-$$</p>
-<p>因此 $n\equiv0\pmod{40}$，即 $40 \mid n$。</p>
-<h3 id="1010-bmod-7">九、求 $10^{10} \bmod 7$</h3>
-<p>$$
+$$</div>
+<p>因此 <span class="arithmatex">$n\equiv0\pmod{40}$</span>，即 <span class="arithmatex">$40 \mid n$</span>。</p>
+<h3 id="1010-bmod-7">九、求 <span class="arithmatex">$10^{10} \bmod 7$</span></h3>
+<div class="arithmatex">$$
 \def\arraystretch{1.1}
 \begin{array}{ll}
-&amp;10^{10} \bmod 7\
-=&amp;(10 \bmod 7)^{10\bmod 6}\bmod 7\
-=&amp;3^4\bmod7\
-=&amp;81\bmod7\
+&amp;10^{10} \bmod 7\\
+=&amp;(10 \bmod 7)^{10\bmod 6}\bmod 7\\
+=&amp;3^4\bmod7\\
+=&amp;81\bmod7\\
 =&amp;4
 \end{array}
-$$</p>
-<p>即 $10^{10}\bmod7=4$。</p>
-<h3 id="abababab">十、求满足以下条件的正整数解：$(a,b)+[a,b]+a+b=ab$</h3>
-<p>设 $d=(a,b)$，则记 $a=a_0d$，$b=b_0d$（$a_0\perp b_0$）。</p>
-<p>$$
+$$</div>
+<p>即 <span class="arithmatex">$10^{10}\bmod7=4$</span>。</p>
+<h3 id="abababab">十、求满足以下条件的正整数解：<span class="arithmatex">$(a,b)+[a,b]+a+b=ab$</span></h3>
+<p>设 <span class="arithmatex">$d=(a,b)$</span>，则记 <span class="arithmatex">$a=a_0d$</span>，<span class="arithmatex">$b=b_0d$</span>（<span class="arithmatex">$a_0\perp b_0$</span>）。</p>
+<div class="arithmatex">$$
 \def\arraystretch{1.1}
 \begin{array}{rcl}
-(a,b)+[a,b]+a+b&amp;=&amp;ab\
-d+a_0b_0d+a_0d+b_0d&amp;=&amp;a_0b_0d^2\
+(a,b)+[a,b]+a+b&amp;=&amp;ab\\
+d+a_0b_0d+a_0d+b_0d&amp;=&amp;a_0b_0d^2\\
 a_0b_0+a_0+b_0+1&amp;=&amp;a_0b_0d
 \end{array}
-$$</p>
-<p>因为 $a_0b_0\ge a_0b_0,a_0,b_0\ge1$，所以 $0&lt;d\le4$。</p>
-<p>当 $d=1$ 时，$a_0+b_0+1=0$，无解。</p>
-<p>当 $d=2$ 时，</p>
-<p>$$
+$$</div>
+<p>因为 <span class="arithmatex">$a_0b_0\ge a_0b_0,a_0,b_0\ge1$</span>，所以 <span class="arithmatex">$0&lt;d\le4$</span>。</p>
+<p>当 <span class="arithmatex">$d=1$</span> 时，<span class="arithmatex">$a_0+b_0+1=0$</span>，无解。</p>
+<p>当 <span class="arithmatex">$d=2$</span> 时，</p>
+<div class="arithmatex">$$
 \def\arraystretch{1.1}
 \begin{array}{rcl}
-a_0b_0+a_0+b_0+1&amp;=&amp;2a_0b_0\
-a_0b_0-a_0-b_0&amp;=&amp;1\
-a_0(b_0-1)-(b_0-1)&amp;=&amp;2\
-(a_0-1)(b_0-1)&amp;=&amp;2\
+a_0b_0+a_0+b_0+1&amp;=&amp;2a_0b_0\\
+a_0b_0-a_0-b_0&amp;=&amp;1\\
+a_0(b_0-1)-(b_0-1)&amp;=&amp;2\\
+(a_0-1)(b_0-1)&amp;=&amp;2\\
 \end{array}
-$$</p>
+$$</div>
 <ul>
-<li>$a_0-1=1$，$b_0-1=2$；$a_0=2$，$b_2=3$；$a=4$，$b=6$。</li>
-<li>$a_0-1=2$，$b_0-1=1$；$a_0=3$，$b_2=2$；$a=6$，$b=4$。</li>
+<li><span class="arithmatex">$a_0-1=1$</span>，<span class="arithmatex">$b_0-1=2$</span>；<span class="arithmatex">$a_0=2$</span>，<span class="arithmatex">$b_2=3$</span>；<span class="arithmatex">$a=4$</span>，<span class="arithmatex">$b=6$</span>。</li>
+<li><span class="arithmatex">$a_0-1=2$</span>，<span class="arithmatex">$b_0-1=1$</span>；<span class="arithmatex">$a_0=3$</span>，<span class="arithmatex">$b_2=2$</span>；<span class="arithmatex">$a=6$</span>，<span class="arithmatex">$b=4$</span>。</li>
 </ul>
-<p>当 $d=3$ 时，</p>
-<p>$$
+<p>当 <span class="arithmatex">$d=3$</span> 时，</p>
+<div class="arithmatex">$$
 \def\arraystretch{1.1}
 \begin{array}{rcl}
-a_0b_0+a_0+b_0+1&amp;=&amp;3a_0b_0\
-2a_0b_0-a_0-b_0&amp;=&amp;1\
-4a_0b_0-2a_0-2b_0&amp;=&amp;2\
-2a_0(2b_0-1)-(2b_0-1)&amp;=&amp;3\
-(2a_0-1)(2b_0-1)&amp;=&amp;3\
+a_0b_0+a_0+b_0+1&amp;=&amp;3a_0b_0\\
+2a_0b_0-a_0-b_0&amp;=&amp;1\\
+4a_0b_0-2a_0-2b_0&amp;=&amp;2\\
+2a_0(2b_0-1)-(2b_0-1)&amp;=&amp;3\\
+(2a_0-1)(2b_0-1)&amp;=&amp;3\\
 \end{array}
-$$</p>
+$$</div>
 <ul>
-<li>$2a_0-1=1$，$2b_0-1=3$；$a_0=1$，$b_2=2$；$a=3$，$b=6$。</li>
-<li>$2a_0-1=3$，$2b_0-1=1$；$a_0=2$，$b_2=1$；$a=6$，$b=3$。</li>
+<li><span class="arithmatex">$2a_0-1=1$</span>，<span class="arithmatex">$2b_0-1=3$</span>；<span class="arithmatex">$a_0=1$</span>，<span class="arithmatex">$b_2=2$</span>；<span class="arithmatex">$a=3$</span>，<span class="arithmatex">$b=6$</span>。</li>
+<li><span class="arithmatex">$2a_0-1=3$</span>，<span class="arithmatex">$2b_0-1=1$</span>；<span class="arithmatex">$a_0=2$</span>，<span class="arithmatex">$b_2=1$</span>；<span class="arithmatex">$a=6$</span>，<span class="arithmatex">$b=3$</span>。</li>
 </ul>
-<p>当 $d=4$ 时，</p>
-<p>$$
+<p>当 <span class="arithmatex">$d=4$</span> 时，</p>
+<div class="arithmatex">$$
 \def\arraystretch{1.1}
 \begin{array}{rcl}
-a_0b_0+a_0+b_0+1&amp;=&amp;4a_0b_0\
-3a_0b_0-a_0-b_0&amp;=&amp;1\
-9a_0b_0-3a_0-3b_0&amp;=&amp;3\
-3a_0(3b_0-1)-(3b_0-1)&amp;=&amp;4\
-(3a_0-1)(3b_0-1)&amp;=&amp;4\
+a_0b_0+a_0+b_0+1&amp;=&amp;4a_0b_0\\
+3a_0b_0-a_0-b_0&amp;=&amp;1\\
+9a_0b_0-3a_0-3b_0&amp;=&amp;3\\
+3a_0(3b_0-1)-(3b_0-1)&amp;=&amp;4\\
+(3a_0-1)(3b_0-1)&amp;=&amp;4\\
 \end{array}
-$$</p>
+$$</div>
 <ul>
-<li>$3a_0-1=2$，$3b_0-1=2$；$a_0=b_0=1$；$a=b=4$。</li>
-<li>$2a_0-1=1$，$2b_0-1=4$；不存在整数解。</li>
-<li>$2a_0-1=4$，$2b_0-1=1$；不存在整数解。</li>
+<li><span class="arithmatex">$3a_0-1=2$</span>，<span class="arithmatex">$3b_0-1=2$</span>；<span class="arithmatex">$a_0=b_0=1$</span>；<span class="arithmatex">$a=b=4$</span>。</li>
+<li><span class="arithmatex">$2a_0-1=1$</span>，<span class="arithmatex">$2b_0-1=4$</span>；不存在整数解。</li>
+<li><span class="arithmatex">$2a_0-1=4$</span>，<span class="arithmatex">$2b_0-1=1$</span>；不存在整数解。</li>
 </ul>
 <p>因此，可行解有：</p>
-<p>$$
+<div class="arithmatex">$$
 (a,b)=(4,6),(6,4),(3,6),(6,3),(4,4)
-$$</p>
+$$</div>
 <!-- 数学 -->
 <!-- 物理 -->
 <!-- 化学 -->

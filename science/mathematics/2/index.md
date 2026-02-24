@@ -20,98 +20,120 @@
 
 子集与空集：
 
-- 子集：\$A \subseteq B\$ 或 \$B \supseteq A\$，表示 \$A\$ 中的任意元素都属于 \$B\$
+- 子集：[\$A \subseteq B\$]{.arithmatex} 或 [\$B \supseteq A\$]{.arithmatex}，表示 [\$A\$]{.arithmatex} 中的任意元素都属于 [\$B\$]{.arithmatex}
 
-  \$A \subseteq A, \varnothing \subseteq A\$
+  [\$A \subseteq A, \varnothing \subseteq A\$]{.arithmatex}
 
-  \$A \subseteq B\$ 且 \$B \subseteq C \implies A \subseteq C\$
+  [\$A \subseteq B\$]{.arithmatex} 且 [\$B \subseteq C \implies A \subseteq C\$]{.arithmatex}
 
-  \$A \subseteq B\$ 且 \$B \subseteq A \implies A=B\$
+  [\$A \subseteq B\$]{.arithmatex} 且 [\$B \subseteq A \implies A=B\$]{.arithmatex}
 
-- 真子集：\$A \subsetneqq B\$ 或 \$B \supsetneqq A\$，表示 \$A \subseteq B\$ 且 \$B\$ 中至少有一元素不属于 \$A\$
+- 真子集：[\$A \subsetneqq B\$]{.arithmatex} 或 [\$B \supsetneqq A\$]{.arithmatex}，表示 [\$A \subseteq B\$]{.arithmatex} 且 [\$B\$]{.arithmatex} 中至少有一元素不属于 [\$A\$]{.arithmatex}
 
-  \$A \subsetneqq B\$ 且 \$B \subsetneqq C \implies A \subsetneqq C\$
+  [\$A \subsetneqq B\$]{.arithmatex} 且 [\$B \subsetneqq C \implies A \subsetneqq C\$]{.arithmatex}
 
-- 空集（\$\varnothing\$）是任何集合的子集，是任何非空集合的真子集。
+- 空集（[\$\varnothing\$]{.arithmatex}）是任何集合的子集，是任何非空集合的真子集。
 
-- 有 \$n\$ 个元素的集合，有 \$2\^n\$ 个子集，\$2\^n-1\$ 个真子集，\$2\^n-1\$ 个非空子集，\$2\^n-2\$ 个非空真子集。
+- 有 [\$n\$]{.arithmatex} 个元素的集合，有 [\$2\^n\$]{.arithmatex} 个子集，[\$2\^n-1\$]{.arithmatex} 个真子集，[\$2\^n-1\$]{.arithmatex} 个非空子集，[\$2\^n-2\$]{.arithmatex} 个非空真子集。
 
 - 空集只有一个子集，没有真子集、非空子集、非空真子集。
 
 集合的表示：
 
-- 列举法：\${a,b}\$（\$a\neq b\$）。
+- 列举法：[\$\\a,b\\\$]{.arithmatex}（[\$a\neq b\$]{.arithmatex}）。
 
-- 描述法：\${x\mid x=f(t), p(t)}\$。
+- 描述法：[\$\\x\mid x=f(t), p(t)\\\$]{.arithmatex}。
 
-- 符号法：\$\R\$ 实数集，\$\C\$ 复数集，\$\Q\$ 有理数集，\$\N\$ 自然数集，\$\Z\$ 整数集，\$\P\$ 质数集。右上角加星号（\$\*\$）表示去零，右下角加正、负号表示取正、负。
+- 符号法：[\$\R\$]{.arithmatex} 实数集，[\$\C\$]{.arithmatex} 复数集，[\$\Q\$]{.arithmatex} 有理数集，[\$\N\$]{.arithmatex} 自然数集，[\$\Z\$]{.arithmatex} 整数集，[\$\P\$]{.arithmatex} 质数集。右上角加星号（[\$\*\$]{.arithmatex}）表示去零，右下角加正、负号表示取正、负。
 
 - 图示法：Venn（维恩）图。
 
 ### 集合的运算 {#_4}
 
-表示某一元素属于某个集合时，用 \$\in\$，例如 \$1 \in {1, 2, 3}\$。若不属于则用 \$\notin\$。
+表示某一元素属于某个集合时，用 [\$\in\$]{.arithmatex}，例如 [\$1 \in \\1, 2, 3\\\$]{.arithmatex}。若不属于则用 [\$\notin\$]{.arithmatex}。
 
-1.  并集：\$A = {2, 3, 4}, B = {1, 2, 3}, A \cup B = {1, 2, 3, 4}\$。
+1.  并集：[\$A = \\2, 3, 4\\, B = \\1, 2, 3\\, A \cup B = \\1, 2, 3, 4\\\$]{.arithmatex}。
 
-2.  交集：\$A = {2, 3, 4}, B = {1, 2, 3}, A \cap B = {2, 3}\$。
+2.  交集：[\$A = \\2, 3, 4\\, B = \\1, 2, 3\\, A \cap B = \\2, 3\\\$]{.arithmatex}。
 
-3.  补集：\$U = {1, 2, 3}, A \subseteq U\$, 若 \$A = {1}\$, 则 \$\complement_U A = {2, 3}\$。
+3.  补集：[\$U = \\1, 2, 3\\, A \subseteq U\$]{.arithmatex}, 若 [\$A = \\1\\\$]{.arithmatex}, 则 [\$\complement_U A = \\2, 3\\\$]{.arithmatex}。
 
 交换律：
 
+::: {.arithmatex}
 \$\$ A \cap B = B \cap A, A \cup B = B \cup A \$\$
+:::
 
 结合律：
 
+::: {.arithmatex}
 \$\$ A \cup (B \cup C) = (A \cup B) \cup C, A \cap (B \cap C) = (A \cap B) \cap C \$\$
+:::
 
 分配对偶律：
 
+::: {.arithmatex}
 \$\$ A \cap (B \cup C) = (A \cap B) \cup (A \cap C), A \cup (B \cap C) = (A \cup B) \cap (A \cup C) \$\$
+:::
 
 德摩根定律：
 
+::: {.arithmatex}
 \$\$ \complement_U(A\cap B)=(\complement_UA)\cup(\complement_UB) \$\$
+:::
 
+::: {.arithmatex}
 \$\$ \complement_U(A\cup B)=(\complement_UA)\cap(\complement_UB) \$\$
+:::
 
 推广到多个集合中：
 
+::: {.arithmatex}
 \$\$ \complement_U(A_1 \cap A_2 \cap \cdots \cap A_n) = (\complement_U A_1) \cup (\complement_U A_2) \cup \cdots \cup (\complement_U A_n) \$\$
+:::
 
+::: {.arithmatex}
 \$\$ \complement_U(A_1 \cup A_2 \cup \cdots \cup A_n) = (\complement_U A_1) \cap (\complement_U A_2) \cap \cdots \cap (\complement_U A_n) \$\$
+:::
 
 容斥原理：
 
+::: {.arithmatex}
 \$\$ \|A\cup B\|=\|A\|+\|B\|-\|A\cap B\| \$\$
+:::
 
 等价转化：
 
+::: {.arithmatex}
 \$\$ A\cup B=B \iff A\subseteq B \$\$
+:::
 
+::: {.arithmatex}
 \$\$ A\cap B=A \iff A\subseteq B \$\$
+:::
 
+::: {.arithmatex}
 \$\$ A\cup B=A\cap B \iff A=B \$\$
+:::
 
 ### 命题与量词 {#_5}
 
 命题：
 
-- 原命题：若 \$p\$ 则 \$q\$。
+- 原命题：若 [\$p\$]{.arithmatex} 则 [\$q\$]{.arithmatex}。
 
-- 逆命题：若 \$q\$ 则 \$p\$。
+- 逆命题：若 [\$q\$]{.arithmatex} 则 [\$p\$]{.arithmatex}。
 
-- 否命题：若非 \$p\$ 则非 \$q\$。
+- 否命题：若非 [\$p\$]{.arithmatex} 则非 [\$q\$]{.arithmatex}。
 
-- 逆否命题：若非 \$q\$ 则非 \$p\$。
+- 逆否命题：若非 [\$q\$]{.arithmatex} 则非 [\$p\$]{.arithmatex}。
 
 容易知道，原命题与逆否命题同真同假，互为充要条件。
 
-|   量词   |          命题           |            否命题            |
-|:--------:|:-----------------------:|:----------------------------:|
-| 全称量词 | \$\forall x\in M,p(x)\$ | \$\exist x\in M,\neg p(x)\$  |
-| 存在量词 | \$\exist x\in M,p(x)\$  | \$\forall x\in M,\neg p(x)\$ |
+| 量词 | 命题 | 否命题 |
+|:--:|:--:|:--:|
+| 全称量词 | [\$\forall x\in M,p(x)\$]{.arithmatex} | [\$\exist x\in M,\neg p(x)\$]{.arithmatex} |
+| 存在量词 | [\$\exist x\in M,p(x)\$]{.arithmatex} | [\$\forall x\in M,\neg p(x)\$]{.arithmatex} |
 
 ## 博弈论 {#_6}
 

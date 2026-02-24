@@ -8,226 +8,226 @@
 <h2 id="_2">基础概念</h2>
 <p>数列是一组按顺序排列的数值，每一个位置称为 <strong>项</strong>。根据项数的不同，可分为 <strong>无限数列</strong> 与 <strong>有限数列</strong>。</p>
 <h3 id="_3">无穷数列</h3>
-<p>若 $a:\mathbb N\to\mathbb C$ 为函数，则记为</p>
-<p>$$
-{a_n}<em N="N" n_in_mathbb="n\in\mathbb">{n\in\mathbb N}\quad\text{或}\quad(a_n)</em>
-$$</p>
-<p>其中 $a_n$ 为第 $n$ 项。</p>
+<p>若 <span class="arithmatex">$a:\mathbb N\to\mathbb C$</span> 为函数，则记为</p>
+<div class="arithmatex">$$
+\{a_n\}_{n\in\mathbb N}\quad\text{或}\quad(a_n)_{n\in\mathbb N}
+$$</div>
+<p>其中 <span class="arithmatex">$a_n$</span> 为第 <span class="arithmatex">$n$</span> 项。</p>
 <h3 id="_4">有限数列</h3>
-<p>设 $I_n={1,2,\dots ,n}$，则函数 $a:I_n\to\mathbb C$ 称为 <strong>有限数列</strong>，记作 ${a_i}_{i=1}^{n}$。</p>
+<p>设 <span class="arithmatex">$I_n=\{1,2,\dots ,n\}$</span>，则函数 <span class="arithmatex">$a:I_n\to\mathbb C$</span> 称为 <strong>有限数列</strong>，记作 <span class="arithmatex">$\{a_i\}_{i=1}^{n}$</span>。</p>
 <h3 id="_5">数列的级数</h3>
 <p>数列的逐项累加得到的序列称为 <strong>级数</strong>，记为</p>
-<p>$$
+<div class="arithmatex">$$
 S_n=\sum_{i=1}^{n}a_i
-$$</p>
-<p>$S_n$ 的递推关系为 $S_n=S_{n-1}+a_n$（$S_0=0$）。</p>
+$$</div>
+<p><span class="arithmatex">$S_n$</span> 的递推关系为 <span class="arithmatex">$S_n=S_{n-1}+a_n$</span>（<span class="arithmatex">$S_0=0$</span>）。</p>
 <h3 id="_6">数列与函数</h3>
-<p>数列本质是离散函数，常用 $a_n=f(n)$ 表示其通项。由此可以把求和、差分等运算类比为积分、微分的离散版。</p>
+<p>数列本质是离散函数，常用 <span class="arithmatex">$a_n=f(n)$</span> 表示其通项。由此可以把求和、差分等运算类比为积分、微分的离散版。</p>
 <h2 id="_7">表示方法</h2>
 <h3 id="_8">列举法</h3>
-<p>直接写出前几项，如 $\langle 1,2,4,8,\dots\rangle$。适用于短序列，无法完整描述无限数列。</p>
+<p>直接写出前几项，如 <span class="arithmatex">$\langle 1,2,4,8,\dots\rangle$</span>。适用于短序列，无法完整描述无限数列。</p>
 <h3 id="_9">图像法</h3>
 <p>把每一项对应的点绘于平面，仅能呈现离散散点，实际教学中不常使用。</p>
 <h3 id="_10">通项公式</h3>
-<p>用代数式揭示 $n$ 与 $a_n$ 的关系。例如等比数列 $a_n=a_1q^{\,n-1}$。</p>
+<p>用代数式揭示 <span class="arithmatex">$n$</span> 与 <span class="arithmatex">$a_n$</span> 的关系。例如等比数列 <span class="arithmatex">$a_n=a_1q^{\,n-1}$</span>。</p>
 <h3 id="_11">递推公式</h3>
 <p>用前一项或前几项描述后继项，如</p>
-<p>$$
+<div class="arithmatex">$$
 a_{n+1}=a_n+d \quad\text{（等差）}
-$$</p>
+$$</div>
 <p>或</p>
-<p>$$
+<div class="arithmatex">$$
 a_{n+1}=qa_n \quad\text{（等比）}
-$$</p>
+$$</div>
 <h2 id="_12">等差数列</h2>
-<p>相邻两项的差恒为常数 $d$，称为 <strong>公差</strong>。</p>
+<p>相邻两项的差恒为常数 <span class="arithmatex">$d$</span>，称为 <strong>公差</strong>。</p>
 <h3 id="_13">递推公式</h3>
-<p>$$
+<div class="arithmatex">$$
 a_{n+1}=a_n+d\qquad (n\ge 1)
-$$</p>
+$$</div>
 <h3 id="_14">通项公式</h3>
-<p>$$
+<div class="arithmatex">$$
 a_n=a_1+(n-1)d
-$$</p>
+$$</div>
 <h3 id="_15">等差性质</h3>
 <ul>
-<li>前后项差：$d=\dfrac{a_n-a_m}{\,n-m\,}$  </li>
-<li>中项等式：$a_n=\dfrac{a_{n-1}+a_{n+1}}{2}$  </li>
-<li>任意两项之和相等：若 $m+n=p+q$，则 $a_m+a_n=a_p+a_q$。</li>
+<li>前后项差：<span class="arithmatex">$d=\dfrac{a_n-a_m}{\,n-m\,}$</span>  </li>
+<li>中项等式：<span class="arithmatex">$a_n=\dfrac{a_{n-1}+a_{n+1}}{2}$</span>  </li>
+<li>任意两项之和相等：若 <span class="arithmatex">$m+n=p+q$</span>，则 <span class="arithmatex">$a_m+a_n=a_p+a_q$</span>。</li>
 </ul>
 <h3 id="_16">项数公式</h3>
-<p>已知首项 $a_1$ 与第 $k$ 项 $a_k$，可求项数</p>
-<p>$$
+<p>已知首项 <span class="arithmatex">$a_1$</span> 与第 <span class="arithmatex">$k$</span> 项 <span class="arithmatex">$a_k$</span>，可求项数</p>
+<div class="arithmatex">$$
 k=\frac{a_k-a_1}{d}+1
-$$</p>
+$$</div>
 <h3 id="_17">求和公式</h3>
-<p>等差前 $n$ 项和为</p>
-<p>$$
+<p>等差前 <span class="arithmatex">$n$</span> 项和为</p>
+<div class="arithmatex">$$
 S_n=\frac{n\bigl(a_1+a_n\bigr)}{2}
       =na_1+\frac{n(n-1)}{2}d
-$$</p>
-<p>把 $S_n$ 看作二次函数 $S_n=\frac{d}{2}n^{2}+\bigl(a_1-\frac{d}{2}\bigr)n$，可直接求极值位置。</p>
+$$</div>
+<p>把 <span class="arithmatex">$S_n$</span> 看作二次函数 <span class="arithmatex">$S_n=\frac{d}{2}n^{2}+\bigl(a_1-\frac{d}{2}\bigr)n$</span>，可直接求极值位置。</p>
 <h3 id="_18">等差中项</h3>
-<p>给定两端 $a,b$，中项 $c$ 为算术平均数：</p>
-<p>$$
+<p>给定两端 <span class="arithmatex">$a,b$</span>，中项 <span class="arithmatex">$c$</span> 为算术平均数：</p>
+<div class="arithmatex">$$
 c=\frac{a+b}{2}
-$$</p>
+$$</div>
 <h3 id="_19">累加法</h3>
-<p>若递推式 $a_n=a_{n-1}+f(n)$，则</p>
-<p>$$
+<p>若递推式 <span class="arithmatex">$a_n=a_{n-1}+f(n)$</span>，则</p>
+<div class="arithmatex">$$
 a_n=a_1+\sum_{k=2}^{n}f(k)
-$$</p>
+$$</div>
 <h3 id="_20">多阶等差</h3>
 <p>对公差再求前缀和可得到二阶等差数列；若两阶数列相乘仍保持二阶结构。</p>
 <h2 id="_21">等比数列</h2>
-<p>相邻两项的比值恒为常数 $q$，称为 <strong>公比</strong>。</p>
+<p>相邻两项的比值恒为常数 <span class="arithmatex">$q$</span>，称为 <strong>公比</strong>。</p>
 <h3 id="_22">递推公式</h3>
-<p>$$
+<div class="arithmatex">$$
 a_{n+1}=qa_n\qquad (q\neq0)
-$$</p>
+$$</div>
 <h3 id="_23">通项公式</h3>
-<p>$$
+<div class="arithmatex">$$
 a_n=a_1q^{\,n-1}
-$$</p>
+$$</div>
 <h3 id="_24">等比性质</h3>
 <ul>
-<li>前后项积：$a_{n-1}a_{n+1}=a_n^{2}$  </li>
-<li>任意两项乘积相等：若 $m+n=p+q$，则 $a_m a_n=a_p a_q$。</li>
+<li>前后项积：<span class="arithmatex">$a_{n-1}a_{n+1}=a_n^{2}$</span>  </li>
+<li>任意两项乘积相等：若 <span class="arithmatex">$m+n=p+q$</span>，则 <span class="arithmatex">$a_m a_n=a_p a_q$</span>。</li>
 </ul>
 <h3 id="_25">求和公式</h3>
-<p>若 $q\neq1$，前 $n$ 项和为</p>
-<p>$$
+<p>若 <span class="arithmatex">$q\neq1$</span>，前 <span class="arithmatex">$n$</span> 项和为</p>
+<div class="arithmatex">$$
 S_n=a_1\frac{q^{\,n}-1}{q-1}
-$$</p>
-<p>若 $q=1$，则 $S_n=na_1$。</p>
+$$</div>
+<p>若 <span class="arithmatex">$q=1$</span>，则 <span class="arithmatex">$S_n=na_1$</span>。</p>
 <h3 id="_26">等比中项</h3>
-<p>两端 $a,b$ 的几何平均数为中项：</p>
-<p>$$
+<p>两端 <span class="arithmatex">$a,b$</span> 的几何平均数为中项：</p>
+<div class="arithmatex">$$
 c=\sqrt{ab}
-$$</p>
+$$</div>
 <h3 id="_27">累乘法</h3>
-<p>若递推式 $a_n=a_{n-1}f(n)$，则</p>
-<p>$$
+<p>若递推式 <span class="arithmatex">$a_n=a_{n-1}f(n)$</span>，则</p>
+<div class="arithmatex">$$
 a_n=a_1\prod_{k=2}^{n}f(k)
-$$</p>
+$$</div>
 <h2 id="_28">裂项放缩</h2>
 <p>通过把复杂分式拆成差的形式，可以让求和过程出现大量相消项。</p>
 <h3 id="_29">经典裂项</h3>
-<p>$$
+<div class="arithmatex">$$
 \frac{1}{n(n+1)}=\frac{1}{n}-\frac{1}{n+1}
-$$</p>
+$$</div>
 <h3 id="_30">整式裂项</h3>
 <p>利用立方或高次多项式的差分进行拆分，如</p>
-<p>$$
+<div class="arithmatex">$$
 n(n+1)=\frac{1}{3}\Bigl[n(n+1)(n+2)-(n-1)n(n+1)\Bigr]
-$$</p>
+$$</div>
 <p>从而得到</p>
-<p>$$
+<div class="arithmatex">$$
 \sum_{k=1}^{n}k(k+1)=\frac{n(n+1)(n+2)}{3}
-$$</p>
+$$</div>
 <h3 id="_31">更多裂项</h3>
 <p>包括根式、阶乘以及高次幂的裂项，例如</p>
-<p>$$
+<div class="arithmatex">$$
 \frac{1}{\sqrt{a}+\sqrt{b}}
    =\frac{\sqrt{a}-\sqrt{b}}{a-b}
-$$</p>
+$$</div>
 <p>以及</p>
-<p>$$
-\frac{2<sup 4="4">{k}}{2k</sup>
-   =\frac{1}{2k}+1<sup 2="2">{2}-2k+1}-\frac{1}{2k</sup>
-$$}+2k+1</p>
+<div class="arithmatex">$$
+\frac{2^{k}}{2k^{4}+1}
+   =\frac{1}{2k^{2}-2k+1}-\frac{1}{2k^{2}+2k+1}
+$$</div>
 <h3 id="_32">共轭根式</h3>
-<p>利用 $(\sqrt a-\sqrt b)(\sqrt a+\sqrt b)=a-b$，可快速化简含根号的分式。</p>
+<p>利用 <span class="arithmatex">$(\sqrt a-\sqrt b)(\sqrt a+\sqrt b)=a-b$</span>，可快速化简含根号的分式。</p>
 <h3 id="_33">阶乘问题</h3>
 <p>典型恒等式</p>
-<p>$$
+<div class="arithmatex">$$
 n\cdot n!=(n+1)!-n!
-$$</p>
+$$</div>
 <p>帮助把阶乘序列转化为差分形式。</p>
 <h3 id="_34">放缩基础与进阶</h3>
 <p>对于收敛性或渐进估计，常用不等式</p>
-<p>$$
+<div class="arithmatex">$$
 \frac{1}{n}-\frac{1}{n+1}&lt;\frac{1}{n^{2}}&lt;\frac{1}{n-1}-\frac{1}{n}
-$$</p>
+$$</div>
 <p>进一步可以使用根号不等式</p>
-<p>$$
+<div class="arithmatex">$$
 \frac{1}{\sqrt{n}}&lt;2\bigl(\sqrt{n+1}-\sqrt{n}\bigr)
-$$</p>
+$$</div>
 <p>提升估计精度。</p>
 <h2 id="_35">通用方法</h2>
 <h3 id="_36">速算技巧</h3>
 <ul>
-<li>把 $S_0$ 设为 $0$，有时可直接求出常数项。  </li>
-<li>当级数满足 $S_n=a\cdot2^{\,n-1}+a-2$ 时，令 $n=0$ 求 $a$。</li>
+<li>把 <span class="arithmatex">$S_0$</span> 设为 <span class="arithmatex">$0$</span>，有时可直接求出常数项。  </li>
+<li>当级数满足 <span class="arithmatex">$S_n=a\cdot2^{\,n-1}+a-2$</span> 时，令 <span class="arithmatex">$n=0$</span> 求 <span class="arithmatex">$a$</span>。</li>
 </ul>
 <h3 id="_37">等差等比混合</h3>
-<p>若数列形如 $a_n=(An+B)q^{\,n-1}$，可化为</p>
-<p>$$
+<p>若数列形如 <span class="arithmatex">$a_n=(An+B)q^{\,n-1}$</span>，可化为</p>
+<div class="arithmatex">$$
 S_n=(Dn+E)q^{\,n}-E
-$$</p>
-<p>其中 $D=\dfrac{A}{q-1}$、$E=\dfrac{B-D}{q-1}$。</p>
+$$</div>
+<p>其中 <span class="arithmatex">$D=\dfrac{A}{q-1}$</span>、<span class="arithmatex">$E=\dfrac{B-D}{q-1}$</span>。</p>
 <h3 id="_38">数学归纳</h3>
 <p>通过基例与归纳假设，验证递推式的通项公式。</p>
 <h3 id="_39">直接变形</h3>
-<p>把递推式两边加（或减）常数，使其转化为等比形式。例如 $a_n=pa_{n-1}+q$，取 $x=\dfrac{q}{p-1}$，则 $b_n=a_n+x$ 为等比数列。</p>
+<p>把递推式两边加（或减）常数，使其转化为等比形式。例如 <span class="arithmatex">$a_n=pa_{n-1}+q$</span>，取 <span class="arithmatex">$x=\dfrac{q}{p-1}$</span>，则 <span class="arithmatex">$b_n=a_n+x$</span> 为等比数列。</p>
 <h3 id="_40">变形累加</h3>
-<p>对 $a_n=pa_{n-1}+q$ 两边除以 $p^{\,n}$，再累加得到</p>
-<p>$$
+<p>对 <span class="arithmatex">$a_n=pa_{n-1}+q$</span> 两边除以 <span class="arithmatex">$p^{\,n}$</span>，再累加得到</p>
+<div class="arithmatex">$$
 a_n=(a_1-q)p^{\,n-1}+ \frac{q}{p-1}\bigl(p^{\,n}-1\bigr)
-$$</p>
+$$</div>
 <h3 id="_41">数列判定</h3>
 <ul>
-<li><strong>定义法</strong>：检验 $a_n-a_{n-1}$（等差）或 $\dfrac{a_n}{a_{n-1}}$（等比）是否为常数。  </li>
-<li><strong>中项法</strong>：等差满足 $2a_n=a_{n-1}+a_{n+1}$，等比满足 $a_n^{2}=a_{n-1}a_{n+1}$。</li>
+<li><strong>定义法</strong>：检验 <span class="arithmatex">$a_n-a_{n-1}$</span>（等差）或 <span class="arithmatex">$\dfrac{a_n}{a_{n-1}}$</span>（等比）是否为常数。  </li>
+<li><strong>中项法</strong>：等差满足 <span class="arithmatex">$2a_n=a_{n-1}+a_{n+1}$</span>，等比满足 <span class="arithmatex">$a_n^{2}=a_{n-1}a_{n+1}$</span>。</li>
 </ul>
 <h3 id="_42">奇偶数列</h3>
 <p>对交错符号或绝对值数列，可分别讨论正负段的和，从而得到整体求和公式。</p>
 <h3 id="_43">单调性</h3>
-<p>若 $a_{n+1}\ge a_n$（或 $&gt;$）则称为单调递增；若 $a_{n+1}\le a_n$（或 $&lt;$）则为单调递减。迭代式 $a_{n+1}=f(a_n)$ 的单调性可通过 $f'(x)$ 的符号判断。</p>
+<p>若 <span class="arithmatex">$a_{n+1}\ge a_n$</span>（或 <span class="arithmatex">$&gt;$</span>）则称为单调递增；若 <span class="arithmatex">$a_{n+1}\le a_n$</span>（或 <span class="arithmatex">$&lt;$</span>）则为单调递减。迭代式 <span class="arithmatex">$a_{n+1}=f(a_n)$</span> 的单调性可通过 <span class="arithmatex">$f'(x)$</span> 的符号判断。</p>
 <h2 id="_44">换元初步</h2>
 <h3 id="_45">三角换元</h3>
 <p>常用恒等式：</p>
-<p>$$
+<div class="arithmatex">$$
 \cos2\theta=2\cos^{2}\theta-1,\qquad
 \tan2\theta=\frac{2\tan\theta}{1-\tan^{2}\theta}
-$$</p>
+$$</div>
 <p>帮助把二次递推转化为角度倍增。</p>
 <h3 id="_46">例题（三角换元）</h3>
-<p>递推 $a_{n+1}=a_n^{2}-2$，取 $a_n=2\cos\theta_n$，得到 $\theta_{n+1}=2\theta_n$，于是</p>
-<p>$$
-a_n=2\cos!\Bigl(2^{\,n-1}\arccos\frac14\Bigr)
-$$</p>
+<p>递推 <span class="arithmatex">$a_{n+1}=a_n^{2}-2$</span>，取 <span class="arithmatex">$a_n=2\cos\theta_n$</span>，得到 <span class="arithmatex">$\theta_{n+1}=2\theta_n$</span>，于是</p>
+<div class="arithmatex">$$
+a_n=2\cos\!\Bigl(2^{\,n-1}\arccos\frac14\Bigr)
+$$</div>
 <h3 id="_47">双曲换元</h3>
-<p>递推 $a_{n+1}=2a_n^{2}-1$，令 $a_n=\dfrac{k<sup -x="-x">{x}+k</sup>$，得到}}{2</p>
-<p>$$
-a_n=\frac{(3+2\sqrt2)<sup _n-1="\,n-1">{\,2</sup>+(3-2\sqrt2)}<sup _n-1="\,n-1">{\,2</sup>
-$$}}}{2</p>
+<p>递推 <span class="arithmatex">$a_{n+1}=2a_n^{2}-1$</span>，令 <span class="arithmatex">$a_n=\dfrac{k^{x}+k^{-x}}{2}$</span>，得到</p>
+<div class="arithmatex">$$
+a_n=\frac{(3+2\sqrt2)^{\,2^{\,n-1}}+(3-2\sqrt2)^{\,2^{\,n-1}}}{2}
+$$</div>
 <h2 id="_48">基础例题精选</h2>
 <p>下面列出四道常见递推题的快速求解过程，帮助读者熟悉技巧。</p>
 <h3 id="_49">例题一</h3>
-<p>递推 $a_n=2a_{n-1}+3\;(n\ge2), a_1=1$。<br />
-加上常数 $3$ 后得到等比数列 $b_n=a_n+3=2^{\,n+1}$，故</p>
-<p>$$
+<p>递推 <span class="arithmatex">$a_n=2a_{n-1}+3\;(n\ge2),\ a_1=1$</span>。<br />
+加上常数 <span class="arithmatex">$3$</span> 后得到等比数列 <span class="arithmatex">$b_n=a_n+3=2^{\,n+1}$</span>，故</p>
+<div class="arithmatex">$$
 a_n=2^{\,n+1}-3
-$$</p>
+$$</div>
 <h3 id="_50">例题二</h3>
-<p>递推 $a_n=a_{n-1}+n\;(n\ge2), a_1=1$。<br />
+<p>递推 <span class="arithmatex">$a_n=a_{n-1}+n\;(n\ge2),\ a_1=1$</span>。<br />
 累加得到</p>
-<p>$$
+<div class="arithmatex">$$
 a_n=1+2+\dots +n=\frac{n(n+1)}{2}
-$$</p>
+$$</div>
 <h3 id="_51">例题三</h3>
-<p>递推 $a_n=2a_{n-1}+n\;(n\ge2), a_1=1$。<br />
-除以 $2^{\,n}$，累加后化简得</p>
-<p>$$
+<p>递推 <span class="arithmatex">$a_n=2a_{n-1}+n\;(n\ge2),\ a_1=1$</span>。<br />
+除以 <span class="arithmatex">$2^{\,n}$</span>，累加后化简得</p>
+<div class="arithmatex">$$
 a_n=2^{\,n+1}-2-n
-$$</p>
+$$</div>
 <h3 id="_52">例题四</h3>
-<p>递推 $a_n=2a_{n-1}+n^{2}\;(n\ge2), a_1=1$。<br />
-同样除以 $2^{\,n}$，经过差分与累加，最终得到</p>
-<p>$$
-a_n=3\cdot2<sup 2="2">{\,n+1}-n</sup>-4n-6
-$$</p>
+<p>递推 <span class="arithmatex">$a_n=2a_{n-1}+n^{2}\;(n\ge2),\ a_1=1$</span>。<br />
+同样除以 <span class="arithmatex">$2^{\,n}$</span>，经过差分与累加，最终得到</p>
+<div class="arithmatex">$$
+a_n=3\cdot2^{\,n+1}-n^{2}-4n-6
+$$</div>
 <hr />
 <p>想要深入了解每个章节的完整推导、更多练习以及完整的原始手稿，请访问原文链接：</p>
 <p><a href="https://raineblog.dpdns.org/whk/science/sequence/1/">数列基础原文（完整版）</a></p>

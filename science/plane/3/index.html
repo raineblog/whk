@@ -13,20 +13,20 @@
 <p>我们知道单独考查三角函数式的化简是极少见的，绝大多数的化简其背后就是求值，常见的求值问题有：给值求值、给角求值、给值求角。</p>
 <p><img align="right" alt="变角" src="../%E5%9B%BE%E7%89%871.avif" width="30%" /></p>
 <p>三角函数：角为先，公式特征为要。</p>
-<p>公式特征注意：用 $\cos2\alpha$ 联系 $\sin\alpha,\cos\alpha$。</p>
-<p>$$
-4\sin\alpha\cos\alpha=(\sin\alpha+\cos\alpha)<sup>2-(\sin\alpha-\cos\alpha)</sup>2
-$$</p>
+<p>公式特征注意：用 <span class="arithmatex">$\cos2\alpha$</span> 联系 <span class="arithmatex">$\sin\alpha,\cos\alpha$</span>。</p>
+<div class="arithmatex">$$
+4\sin\alpha\cos\alpha=(\sin\alpha+\cos\alpha)^2-(\sin\alpha-\cos\alpha)^2
+$$</div>
 <p>右图为这三者的转换关系。</p>
-<p>$$
-\left{
+<div class="arithmatex">$$
+\left\{
     \begin{aligned}
-    x&amp;=\sin\alpha-\sin\beta\
+    x&amp;=\sin\alpha-\sin\beta\\
     y&amp;=\cos\alpha-\cos\beta
     \end{aligned}
 \right.
-$$</p>
-<p>根据上面的可以推出 $\alpha,\beta$ 和差角的正余弦。</p>
+$$</div>
+<p>根据上面的可以推出 <span class="arithmatex">$\alpha,\beta$</span> 和差角的正余弦。</p>
 <ul>
 <li>
 <p>两式平方后作和、平方后作差。</p>
@@ -35,32 +35,32 @@ $$</p>
 <p>两式相乘。</p>
 </li>
 </ul>
-<p>也可以换元，设 $t$ 为 $\sin,\cos$ 等，将原式化为关于 $t$ 的二次函数或分式。</p>
+<p>也可以换元，设 <span class="arithmatex">$t$</span> 为 <span class="arithmatex">$\sin,\cos$</span> 等，将原式化为关于 <span class="arithmatex">$t$</span> 的二次函数或分式。</p>
 <p>注意求区间上的值域，也可以结合不等式相关内容。</p>
 <h3 id="_4">一角一函数</h3>
-<p>一角一函数，可以简单的理解为 $y=A\sin(\omega x+\varphi)$ 的形式。</p>
+<p>一角一函数，可以简单的理解为 <span class="arithmatex">$y=A\sin(\omega x+\varphi)$</span> 的形式。</p>
 <p>即一个角在一个三角函数里，可以更好的求解。</p>
 <h3 id="_5">齐次思想</h3>
 <p>齐次思想，也可以归为次数的重要性。</p>
 <p>三角函数中，弦为一次，切为零次，割为负一次。</p>
 <p>例如对于求值类问题，升幂降角、降幂升角，是很关键的。</p>
-<p>当一个式子中的函数次数仅为奇数后者偶数的时候，可以补充 $\sin<sup>2+\cos</sup>2=1$ 齐次。</p>
-<p>也可以结合弦化切，除以一个 $\sin<sup>2+cos</sup>2$ 的若干次方。</p>
+<p>当一个式子中的函数次数仅为奇数后者偶数的时候，可以补充 <span class="arithmatex">$\sin^2+\cos^2=1$</span> 齐次。</p>
+<p>也可以结合弦化切，除以一个 <span class="arithmatex">$\sin^2+cos^2$</span> 的若干次方。</p>
 <p>当然也存在次数的奇偶性转化，例如：</p>
-<p>$$
-\sin-\cos=\pm\sqrt{(\sin<sup>2-\cos</sup>2)}=\pm\sqrt{1-2\sin\cos}
-$$</p>
+<div class="arithmatex">$$
+\sin-\cos=\pm\sqrt{(\sin^2-\cos^2)}=\pm\sqrt{1-2\sin\cos}
+$$</div>
 <p>这种不常用，注意正负号。</p>
 <h3 id="_6">整体角思想</h3>
-<p>整体角，即将 $y=A\sin(\omega x+\varphi)$ 中的 $\omega x+\varphi$ 设为单独的变量如 $t$ 后进行解决的思想。</p>
+<p>整体角，即将 <span class="arithmatex">$y=A\sin(\omega x+\varphi)$</span> 中的 <span class="arithmatex">$\omega x+\varphi$</span> 设为单独的变量如 <span class="arithmatex">$t$</span> 后进行解决的思想。</p>
 <p>化为一角一函数后，用整体角结合三角函数性质进行快速解决。</p>
-<p>根据整体角的范围，画出函数图像或者列出关于 $k,k\in\mathbb Z$ 的方程。</p>
+<p>根据整体角的范围，画出函数图像或者列出关于 <span class="arithmatex">$k,k\in\mathbb Z$</span> 的方程。</p>
 <p>注意区间的开闭问题。</p>
 <h3 id="_7">弦化切思想</h3>
 <p>切化弦通常是很容易想到的，我们直接令：</p>
-<p>$$
+<div class="arithmatex">$$
 \tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}
-$$</p>
+$$</div>
 <p>但是弦化切也有很大的用处，具体体现在：</p>
 <ul>
 <li>
@@ -77,252 +77,252 @@ $$</p>
 <p>也可以使用等式相当于左右两侧函数交点问题。</p>
 <h3 id="_10">不同参数的常见求法</h3>
 <p>对于：</p>
-<p>$$
+<div class="arithmatex">$$
 y=A\sin(\omega x+\varphi)+B
-$$</p>
+$$</div>
 <ul>
 <li>
-<p>$A$：振幅。</p>
+<p><span class="arithmatex">$A$</span>：振幅。</p>
 </li>
 <li>
-<p>$B$：极值。</p>
+<p><span class="arithmatex">$B$</span>：极值。</p>
 </li>
 <li>
-<p>$\omega$：周期。</p>
+<p><span class="arithmatex">$\omega$</span>：周期。</p>
 </li>
 <li>
-<p>$\varphi$：通常带入求解。</p>
+<p><span class="arithmatex">$\varphi$</span>：通常带入求解。</p>
 </li>
 </ul>
 <h3 id="_11">根据周期长度解题</h3>
 <p>对于有多少零点的问题，可以在还原之前根据区间长度和周期长度得到一个大体的范围。</p>
 <p>给定单调区间，首先可以写出，单调区间长度小于等于半周期，即：</p>
-<p>$$
+<div class="arithmatex">$$
 r_0-l_0\le\frac{T}{2}=\frac{\pi}{\omega}
-$$</p>
+$$</div>
 <p>然后就可以在这个大体的范围内求解，如果不好求解也会方便枚举。</p>
-<p>然后如果可以求出 $\omega$ 的一些其他条件（比如奇偶性），直接求出来。</p>
+<p>然后如果可以求出 <span class="arithmatex">$\omega$</span> 的一些其他条件（比如奇偶性），直接求出来。</p>
 <h3 id="_12">已知起点终点</h3>
 <p>思想：复合函数、还原。</p>
-<p>对于 $f(x)=A\sin(\omega x+\varphi)$，我们令 $t=\omega x+\varphi$。</p>
-<p>注意 $\omega$ 的正负性，得出 $t$ 的取值范围，进行进一步求解。</p>
+<p>对于 <span class="arithmatex">$f(x)=A\sin(\omega x+\varphi)$</span>，我们令 <span class="arithmatex">$t=\omega x+\varphi$</span>。</p>
+<p>注意 <span class="arithmatex">$\omega$</span> 的正负性，得出 <span class="arithmatex">$t$</span> 的取值范围，进行进一步求解。</p>
 <p>比如，给定零点横坐标、对称轴，转化为：</p>
-<p>$$
+<div class="arithmatex">$$
 \omega x_0+\varphi=\lambda k\pi(+\pi/2)
-$$</p>
-<p>未知 $\varphi$：根据已知点或特殊信息（对称轴、对称中心）带入，列出方程组求出 $\varphi$。</p>
+$$</div>
+<p>未知 <span class="arithmatex">$\varphi$</span>：根据已知点或特殊信息（对称轴、对称中心）带入，列出方程组求出 <span class="arithmatex">$\varphi$</span>。</p>
 <h3 id="_13">未知起点终点</h3>
 <p>可以将问题再分为：正正、正负。</p>
 <ul>
 <li>
-<p>对于正负的，通常区间内存在一个已知点（$\omega=0$），画图解题。</p>
+<p>对于正负的，通常区间内存在一个已知点（<span class="arithmatex">$\omega=0$</span>），画图解题。</p>
 </li>
 <li>
-<p>对于正正的，通常先用周期长度限制，然后列关于 $k$ 的式子。</p>
+<p>对于正正的，通常先用周期长度限制，然后列关于 <span class="arithmatex">$k$</span> 的式子。</p>
 </li>
 </ul>
-<p>特殊的，如果 $\omega$ 的正负不确定，应当讨论 $\operatorname{sgn}(\omega)$。</p>
-<h3 id="varphi-omega">$\varphi$ 未知求 $\omega$</h3>
+<p>特殊的，如果 <span class="arithmatex">$\omega$</span> 的正负不确定，应当讨论 <span class="arithmatex">$\operatorname{sgn}(\omega)$</span>。</p>
+<h3 id="varphi-omega"><span class="arithmatex">$\varphi$</span> 未知求 <span class="arithmatex">$\omega$</span></h3>
 <p>这一类问题通常比较难：</p>
 <ul>
 <li>
-<p>各种条件，先转化为区间长度，初步限制 $\omega$ 的范围。</p>
+<p>各种条件，先转化为区间长度，初步限制 <span class="arithmatex">$\omega$</span> 的范围。</p>
 </li>
 <li>
-<p>根据特殊信息，限制 $\omega$ 的奇偶性等性质。</p>
+<p>根据特殊信息，限制 <span class="arithmatex">$\omega$</span> 的奇偶性等性质。</p>
 </li>
 <li>
-<p>在独立的 $\omega$ 取值中，一次判断是否满足条件。</p>
+<p>在独立的 <span class="arithmatex">$\omega$</span> 取值中，一次判断是否满足条件。</p>
 </li>
 </ul>
 <p>比较难算。</p>
 <h2 id="_14">三角形中的三角函数</h2>
-<p>条件，在三角形中，有 $x+y+z=\pi$（三角形内角和），那么：</p>
+<p>条件，在三角形中，有 <span class="arithmatex">$x+y+z=\pi$</span>（三角形内角和），那么：</p>
 <h3 id="_15">正切恒等式</h3>
 <h4 id="_16">形式一</h4>
-<p>$$
+<div class="arithmatex">$$
 \tan x+\tan y+\tan z=\tan x\tan y\tan z
-$$</p>
+$$</div>
 <p>证明：</p>
-<p>$$
+<div class="arithmatex">$$
 \begin{aligned}
-\tan z&amp;=\tan(\pi-x-y)=-\tan(x+y)\
+\tan z&amp;=\tan(\pi-x-y)=-\tan(x+y)\\
 \tan z&amp;=-{\tan x+\tan y\over1-\tan x\tan y}
 \end{aligned}
-$$</p>
+$$</div>
 <p>下面的式子整理即可。</p>
 <h4 id="_17">形式二</h4>
-<p>$$
+<div class="arithmatex">$$
 \tan{x\over2}\tan{y\over2}+\tan{y\over2}\tan{z\over2}+\tan{z\over2}\tan{x\over2}=1
-$$</p>
+$$</div>
 <p>证明：</p>
-<p>$$
+<div class="arithmatex">$$
 \begin{aligned}
-\tan{z\over2}&amp;=\tan\left({\pi\over2}-{x\over2}-{y\over2}\right)={1\over\tan({x\over2}+{y\over2})}\
+\tan{z\over2}&amp;=\tan\left({\pi\over2}-{x\over2}-{y\over2}\right)={1\over\tan({x\over2}+{y\over2})}\\
 \tan{z\over2}&amp;={1-\tan{x\over2}\tan{y\over2}\over\tan{x\over2}+\tan{y\over2}}
 \end{aligned}
-$$</p>
+$$</div>
 <p>下面的式子整理即可。</p>
 <h3 id="_18">余切恒等式</h3>
 <h4 id="_19">形式一</h4>
-<p>$$
+<div class="arithmatex">$$
 \cot x\cot y+\cot y\cot z+\cot z\cot x=1
-$$</p>
+$$</div>
 <p>证明：</p>
-<p>根据 $\displaystyle\tan\alpha={1\over\cot\alpha}$ 展开正切的形式一即可。</p>
+<p>根据 <span class="arithmatex">$\displaystyle\tan\alpha={1\over\cot\alpha}$</span> 展开正切的形式一即可。</p>
 <h4 id="_20">形式二</h4>
-<p>$$
+<div class="arithmatex">$$
 \cot{x\over2}+\cot{y\over2}+\cot{y\over2}=\cot{x\over2}\cot{y\over2}\cot{y\over2}
-$$</p>
+$$</div>
 <p>证明：</p>
-<p>根据 $\displaystyle\tan\alpha={1\over\cot\alpha}$ 展开正切的形式二即可。</p>
+<p>根据 <span class="arithmatex">$\displaystyle\tan\alpha={1\over\cot\alpha}$</span> 展开正切的形式二即可。</p>
 <h3 id="_21">一倍角弦</h3>
 <h4 id="_22">形式一</h4>
-<p>$$
+<div class="arithmatex">$$
 \sin x+\sin y+\sin z=4\cos{x\over2}\cos{y\over2}\cos{z\over2}
-$$</p>
+$$</div>
 <p>证明：</p>
-<p>$$
+<div class="arithmatex">$$
 \begin{aligned}
-\sin x+\sin y&amp;=2\sin{x+y\over2}\cos{x-y\over2}\
-&amp;=2\cos{z\over2}\cos{x-y\over2}\
-\sin z&amp;=2\sin{z\over2}\cos{z\over2}\
+\sin x+\sin y&amp;=2\sin{x+y\over2}\cos{x-y\over2}\\
+&amp;=2\cos{z\over2}\cos{x-y\over2}\\
+\sin z&amp;=2\sin{z\over2}\cos{z\over2}\\
 &amp;=2\cos{z\over2}\cos{x+y\over2}
 \end{aligned}
-$$</p>
+$$</div>
 <p>然后加起来用和差化积公式即可。</p>
 <h4 id="_23">形式二</h4>
-<p>$$
+<div class="arithmatex">$$
 \cos x+\cos y+\cos z=1+4\sin{x\over2}\sin{y\over2}\sin{z\over2}
-$$</p>
+$$</div>
 <p>证明：</p>
-<p>$$
+<div class="arithmatex">$$
 \begin{aligned}
-\cos z&amp;=1-\sin^2{z\over2}\
-&amp;=1-\sin{z\over2}\cos{x+y\over2}\
-\cos x+\cos y&amp;=2\cos{x+y\over2}\cos{x-y\over2}\
+\cos z&amp;=1-\sin^2{z\over2}\\
+&amp;=1-\sin{z\over2}\cos{x+y\over2}\\
+\cos x+\cos y&amp;=2\cos{x+y\over2}\cos{x-y\over2}\\
 &amp;=2\sin{z\over2}\cos{x-y\over2}
 \end{aligned}
-$$</p>
+$$</div>
 <p>然后加起来用和差化积公式即可。</p>
 <h3 id="_24">二倍角弦</h3>
 <h4 id="_25">形式一</h4>
-<p>$$
+<div class="arithmatex">$$
 \sin2x+\sin2y+\sin2z=4\sin x\sin y\sin z
-$$</p>
+$$</div>
 <p>证明：</p>
-<p>$$
+<div class="arithmatex">$$
 \begin{aligned}
-\sin2z&amp;=2\sin z\cos z\
-&amp;=-2\sin z\cos(x+y)\
-\sin2x+\sin2y&amp;=2\sin(x+y)\cos(x-y)\
+\sin2z&amp;=2\sin z\cos z\\
+&amp;=-2\sin z\cos(x+y)\\
+\sin2x+\sin2y&amp;=2\sin(x+y)\cos(x-y)\\
 &amp;=2\sin z\cos(x-y)
 \end{aligned}
-$$</p>
+$$</div>
 <p>然后加起来用和差化积公式即可。</p>
 <h4 id="_26">形式二</h4>
-<p>$$
+<div class="arithmatex">$$
 \cos2x+\cos2y+\cos2z=-1-\cos x\cos y\cos z
-$$</p>
+$$</div>
 <p>证明：</p>
-<p>$$
+<div class="arithmatex">$$
 \begin{aligned}
-\cos2z&amp;=2\cos^2z-1\
-&amp;=-2\cos z\cos(x+y)-1\
-\cos2x+\cos2y&amp;=2\cos(x+y)\cos(x-y)\
+\cos2z&amp;=2\cos^2z-1\\
+&amp;=-2\cos z\cos(x+y)-1\\
+\cos2x+\cos2y&amp;=2\cos(x+y)\cos(x-y)\\
 &amp;=-2\cos z\cos(x-y)
 \end{aligned}
-$$</p>
+$$</div>
 <p>然后加起来用和差化积公式即可。</p>
 <h2 id="_27">例题</h2>
 <h3 id="_28">例题一</h3>
-<p>已知 $\tan\beta$ 有意义，且 $\sin(\alpha+\beta)={1\over2}$，$\sin(\alpha-\beta)={1\over3}$，求 $\dfrac{\tan\alpha}{\tan\beta}$。</p>
+<p>已知 <span class="arithmatex">$\tan\beta$</span> 有意义，且 <span class="arithmatex">$\sin(\alpha+\beta)={1\over2}$</span>，<span class="arithmatex">$\sin(\alpha-\beta)={1\over3}$</span>，求 <span class="arithmatex">$\dfrac{\tan\alpha}{\tan\beta}$</span>。</p>
 <p>S1：和差恒等式</p>
 <p>易得：</p>
-<p>$$
+<div class="arithmatex">$$
 \begin{cases}
-\sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta={1\over2}\
-\sin(\alpha-\beta)=\sin\alpha\cos\beta-\cos\alpha\sin\beta={1\over3}\
+\sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta={1\over2}\\
+\sin(\alpha-\beta)=\sin\alpha\cos\beta-\cos\alpha\sin\beta={1\over3}\\
 \end{cases}
-$$</p>
+$$</div>
 <p>解得：</p>
-<p>$$
+<div class="arithmatex">$$
 \begin{cases}
-\sin\alpha\cos\beta={5\over12}\
-\cos\alpha\sin\beta={1\over12}\
+\sin\alpha\cos\beta={5\over12}\\
+\cos\alpha\sin\beta={1\over12}\\
 \end{cases}
-$$</p>
+$$</div>
 <p>易知：</p>
-<p>$$
+<div class="arithmatex">$$
 {\tan\alpha\over\tan\beta}={\sin\alpha\cos\beta\over\cos\alpha\sin\beta}={{5\over12}\over{1\over12}}=5
-$$</p>
+$$</div>
 <p>S2：和差化积恒等式</p>
 <p>易得：</p>
-<p>$$
+<div class="arithmatex">$$
 \begin{cases}
-\sin(\alpha+\beta)+\sin(\alpha-\beta)=2\sin\alpha\cos\beta={1\over2}+{1\over3}={5\over6}\
+\sin(\alpha+\beta)+\sin(\alpha-\beta)=2\sin\alpha\cos\beta={1\over2}+{1\over3}={5\over6}\\
 \sin(\alpha+\beta)-\sin(\alpha-\beta)=2\cos\alpha\sin\beta={1\over2}-{1\over3}={1\over6}
 \end{cases}
-$$</p>
+$$</div>
 <p>易知：</p>
-<p>$$
+<div class="arithmatex">$$
 {\tan\alpha\over\tan\beta}={2\sin\alpha\cos\beta\over2\cos\alpha\sin\beta}={{5\over6}\over{1\over6}}=5
-$$</p>
+$$</div>
 <h3 id="_29">例题二</h3>
-<p>已知 $\theta\in[0,2\pi)$ 且 $\sin(x+\theta)$ 是偶函数，求 $\theta$。</p>
+<p>已知 <span class="arithmatex">$\theta\in[0,2\pi)$</span> 且 <span class="arithmatex">$\sin(x+\theta)$</span> 是偶函数，求 <span class="arithmatex">$\theta$</span>。</p>
 <p>根据偶函数定义：</p>
-<p>$$
+<div class="arithmatex">$$
 \begin{aligned}
-\sin(x+\theta)=\sin(-x+\theta)\
-\sin\theta\cos x+\cos\theta\sin x=\sin\theta\cos x-\cos\theta\sin x\
+\sin(x+\theta)=\sin(-x+\theta)\\
+\sin\theta\cos x+\cos\theta\sin x=\sin\theta\cos x-\cos\theta\sin x\\
 \cos\theta\sin x=0
 \end{aligned}
-$$</p>
-<p>因为 $x\in\mathbb R$，所以 $\cos\theta=0$，即： $\displaystyle\theta={\pi\over2}/{3\pi\over2}$。</p>
+$$</div>
+<p>因为 <span class="arithmatex">$x\in\mathbb R$</span>，所以 <span class="arithmatex">$\cos\theta=0$</span>，即： <span class="arithmatex">$\displaystyle\theta={\pi\over2}/{3\pi\over2}$</span>。</p>
 <p>知识点：偶函数、和差恒等式。</p>
 <h3 id="_30">例题三</h3>
-<p>求函数 $\displaystyle g(x)=\sin<sup>2\left(x+{\pi\over12}\right)+\sin</sup>2\left(x+{\pi\over4}\right)$ 的值域。</p>
+<p>求函数 <span class="arithmatex">$\displaystyle g(x)=\sin^2\left(x+{\pi\over12}\right)+\sin^2\left(x+{\pi\over4}\right)$</span> 的值域。</p>
 <p>化简：</p>
-<p>$$
+<div class="arithmatex">$$
 \begin{aligned}
-&amp;\sin<sup>2\left(x+{\pi\over12}\right)+\sin</sup>2\left(x+{\pi\over4}\right)\
-=\;&amp;{1\over2}\left[1-\cos\left(2x+{\pi\over6}\right)+1-\cos\left(2x+{\pi\over2}\right)\right]\
-=\;&amp;1-{1\over2}\left[\cos\left(2x+{\pi\over6}\right)+\cos\left(2x+{\pi\over2}\right)\right]\
-=\;&amp;1-{1\over2}\left({\sqrt3\over2}\cos2x-{1\over2}\sin2x-\sin2x\right)\
-=\;&amp;1+{1\over4}\left(3\sin2x-\sqrt3\cos2x\right)\
+&amp;\sin^2\left(x+{\pi\over12}\right)+\sin^2\left(x+{\pi\over4}\right)\\
+=\;&amp;{1\over2}\left[1-\cos\left(2x+{\pi\over6}\right)+1-\cos\left(2x+{\pi\over2}\right)\right]\\
+=\;&amp;1-{1\over2}\left[\cos\left(2x+{\pi\over6}\right)+\cos\left(2x+{\pi\over2}\right)\right]\\
+=\;&amp;1-{1\over2}\left({\sqrt3\over2}\cos2x-{1\over2}\sin2x-\sin2x\right)\\
+=\;&amp;1+{1\over4}\left(3\sin2x-\sqrt3\cos2x\right)\\
 =\;&amp;1+{\sqrt3\over2}\sin\left(2x-{\pi\over6}\right)\end{aligned}
-$$</p>
-<p>然后就忒简单了，答案是，函数 $g$ 的值域为 $\displaystyle\left[1-{\sqrt3\over2},1+{\sqrt3\over2}\right]$。</p>
+$$</div>
+<p>然后就忒简单了，答案是，函数 <span class="arithmatex">$g$</span> 的值域为 <span class="arithmatex">$\displaystyle\left[1-{\sqrt3\over2},1+{\sqrt3\over2}\right]$</span>。</p>
 <p>知识点：函数、和差恒等式、降次公式、辅助角公式。</p>
-<p>另外：最后辅助角公式的应用中，$\arctan b/a$ 可以不用算出来，因为 $x$ 属于实数域，$\sin$ 函数里面一定是任何一个实数都取得到，直接取 $r=\sqrt{a<sup>2+b</sup>2}=2\sqrt3$ 即可得出答案。</p>
+<p>另外：最后辅助角公式的应用中，<span class="arithmatex">$\arctan b/a$</span> 可以不用算出来，因为 <span class="arithmatex">$x$</span> 属于实数域，<span class="arithmatex">$\sin$</span> 函数里面一定是任何一个实数都取得到，直接取 <span class="arithmatex">$r=\sqrt{a^2+b^2}=2\sqrt3$</span> 即可得出答案。</p>
 <h3 id="_31">例题四</h3>
 <p>求值：</p>
-<p>$$
+<div class="arithmatex">$$
 \cos20\degree\cos40\degree\cos80\degree
-$$</p>
+$$</div>
 <p>答案：</p>
-<p>$$
+<div class="arithmatex">$$
 \begin{aligned}
-S&amp;=\dfrac{1}{\sin20\degree}\sin20\degree\cos20\degree\cdot\cos40\degree\cos80\degree\
-&amp;=\dfrac{1}{2\sin20\degree}\sin40\degree\cos40\degree\cdot\cos80\degree\
-&amp;=\dfrac{1}{4\sin20\degree}\sin80\degree\cos80\degree\
+S&amp;=\dfrac{1}{\sin20\degree}\sin20\degree\cos20\degree\cdot\cos40\degree\cos80\degree\\
+&amp;=\dfrac{1}{2\sin20\degree}\sin40\degree\cos40\degree\cdot\cos80\degree\\
+&amp;=\dfrac{1}{4\sin20\degree}\sin80\degree\cos80\degree\\
 &amp;=\dfrac{1}{8\sin20\degree}\sin160\degree=\dfrac{1}{8}
 \end{aligned}
-$$</p>
+$$</div>
 <p>本质是角的变换。</p>
 <h3 id="_32">例题五</h3>
 <p>求值：</p>
-<p>$$
+<div class="arithmatex">$$
 \sin10\degree+\dfrac{\sqrt3}4\tan10\degree
-$$</p>
+$$</div>
 <p>答案：</p>
-<p>$$
+<div class="arithmatex">$$
 \begin{aligned}
-S&amp;=\dfrac{4\sin10\degree\cos10\degree+\sqrt3\sin10\degree}{4\cos10\degree}\
-&amp;=\dfrac{2\sin(30\degree-10\degree)+\sqrt3\sin10\degree}{4\cos10\degree}\
+S&amp;=\dfrac{4\sin10\degree\cos10\degree+\sqrt3\sin10\degree}{4\cos10\degree}\\
+&amp;=\dfrac{2\sin(30\degree-10\degree)+\sqrt3\sin10\degree}{4\cos10\degree}\\
 &amp;=\dfrac{\cos10\degree}{4\cos10\degree}=\dfrac14
 \end{aligned}
-$$</p>
+$$</div>
 <p>本质也是角的变换。</p>
 <!-- 数学 -->
 <!-- 物理 -->

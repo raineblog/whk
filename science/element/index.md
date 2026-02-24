@@ -71,27 +71,27 @@
 
 经典特例：
 
-|                |           金属氧化物            | 非金属氧化物 |
-|:--------------:|:-------------------------------:|:------------:|
-| **酸性氧化物** | 特例：\$\ce{Mn2O7}\$ 七氧化二锰 |     通常     |
-| **碱性氧化物** |              通常               |    不存在    |
+|                |                   金属氧化物                   | 非金属氧化物 |
+|:--------------:|:----------------------------------------------:|:------------:|
+| **酸性氧化物** | 特例：[\$\ce{Mn2O7}\$]{.arithmatex} 七氧化二锰 |     通常     |
+| **碱性氧化物** |                      通常                      |    不存在    |
 
 此外，还有：
 
-- 特殊氧化物：与酸和碱反应不只生成一种盐的，例如 \$\ce{Na2O2,Fe3O4}\$。
+- 特殊氧化物：与酸和碱反应不只生成一种盐的，例如 [\$\ce{Na2O2,Fe3O4}\$]{.arithmatex}。
 
-- 不成盐氧化物：不与酸和碱（通性）反应的，例如 \$\ce{NO,CO}\$。
+- 不成盐氧化物：不与酸和碱（通性）反应的，例如 [\$\ce{NO,CO}\$]{.arithmatex}。
 
 - 两性氧化物：两性金属对应的氧化物。
 
 氧化物形式表达：
 
-|   物质   |         化学式         |        氧化物形式         |
-|:--------:|:----------------------:|:-------------------------:|
-| 镁橄榄石 |    \$\ce{Mg2SiO4}\$    |    \$\ce{2MgO.SiO2}\$     |
-|   玻璃   |  \$\ce{Na2CaSi6O14}\$  |  \$\ce{Na2O.CaO.6SiO2}\$  |
-|  高岭石  | \$\ce{Al2Si2O5(OH)4}\$ | \$\ce{Al2O3.2SiO2.2H2O}\$ |
-| 镁铝榴石 | \$\ce{Mg3Al2(SiO4)3}\$ | \$\ce{3MgO.Al2O3.3SiO2}\$ |
+| 物质 | 化学式 | 氧化物形式 |
+|:--:|:--:|:--:|
+| 镁橄榄石 | [\$\ce{Mg2SiO4}\$]{.arithmatex} | [\$\ce{2MgO.SiO2}\$]{.arithmatex} |
+| 玻璃 | [\$\ce{Na2CaSi6O14}\$]{.arithmatex} | [\$\ce{Na2O.CaO.6SiO2}\$]{.arithmatex} |
+| 高岭石 | [\$\ce{Al2Si2O5(OH)4}\$]{.arithmatex} | [\$\ce{Al2O3.2SiO2.2H2O}\$]{.arithmatex} |
+| 镁铝榴石 | [\$\ce{Mg3Al2(SiO4)3}\$]{.arithmatex} | [\$\ce{3MgO.Al2O3.3SiO2}\$]{.arithmatex} |
 
 ### 酸概述 {#_6}
 
@@ -117,9 +117,9 @@
 
   - 常见易挥发性酸：卤化氢、硝酸。
 
-  - \$\ce{NaCl + H2SO4 -\> HCl}\$。
+  - [\$\ce{NaCl + H2SO4 -\> HCl}\$]{.arithmatex}。
 
-  - \$\ce{NaBr + H3PO4 -\> HBr}\$。
+  - [\$\ce{NaBr + H3PO4 -\> HBr}\$]{.arithmatex}。
 
 - 氧化性：浓硫酸、浓硝酸等具有强氧化性。
 
@@ -153,7 +153,9 @@
 
 3.  与某些盐发生复分解反应。
 
-\$\$ \ce{正盐 ↔\[对应酸\]\[对应碱\] 酸式盐} \$\$
+::: {.arithmatex}
+\$\$ \ce{正盐 \<\--\>\[对应酸\]\[对应碱\] 酸式盐} \$\$
+:::
 
 离子和沉淀颜色：
 
@@ -165,11 +167,11 @@ Cr2O7\^2- 橙红色
 
 若干种物质，分散在另外若干种物质中所得到的体系（混合物），称为分散系。
 
-|          |       溶液        |         胶体         |        浊液         |
-|:--------:|:-----------------:|:--------------------:|:-------------------:|
-| 粒子直径 | \$\pu{0\sim1nm}\$ | \$\pu{1\sim100nm}\$  | \$\pu{100\sim nm}\$ |
-| 外观表现 |    均一、稳定     |    较均一、较稳定    |   不均一、不稳定    |
-| 粒子种类 |    分子、粒子     | 大分子、小分子集合体 |   固体粒、小液滴    |
+|  | 溶液 | 胶体 | 浊液 |
+|:--:|:--:|:--:|:--:|
+| 粒子直径 | [\$\pu{0\sim1nm}\$]{.arithmatex} | [\$\pu{1\sim100nm}\$]{.arithmatex} | [\$\pu{100\sim nm}\$]{.arithmatex} |
+| 外观表现 | 均一、稳定 | 较均一、较稳定 | 不均一、不稳定 |
+| 粒子种类 | 分子、粒子 | 大分子、小分子集合体 | 固体粒、小液滴 |
 
 胶体根据其分散剂的状态，分为：
 
@@ -201,7 +203,7 @@ Cr2O7\^2- 橙红色
 
   - 现象：在电场中，胶粒会发生定向移动。
 
-  - 距离：\$\ce{Fe(OH)3}\$ **胶粒**带正电（胶体不带电，电中性）。
+  - 距离：[\$\ce{Fe(OH)3}\$]{.arithmatex} **胶粒**带正电（胶体不带电，电中性）。
 
   - 应用：静电除尘。
 
@@ -219,11 +221,11 @@ Cr2O7\^2- 橙红色
 
 - 离子颜色：
 
-  |      离子符号      |   名称   |  颜色  |
-  |:------------------:|:--------:|:------:|
-  |  \$\ce{KMnO4-}\$   | 高锰酸根 | 紫红色 |
-  | \$\ce{CrO4\^2-}\$  |  铬酸根  |  黄色  |
-  | \$\ce{Cr2O7\^2-}\$ | 重铬酸根 | 橙红色 |
+  |             离子符号              |   名称   |  颜色  |
+  |:---------------------------------:|:--------:|:------:|
+  |  [\$\ce{KMnO4-}\$]{.arithmatex}   | 高锰酸根 | 紫红色 |
+  | [\$\ce{CrO4\^2-}\$]{.arithmatex}  |  铬酸根  |  黄色  |
+  | [\$\ce{Cr2O7\^2-}\$]{.arithmatex} | 重铬酸根 | 橙红色 |
 
 - 注意：清澈透明可以有色。
 
@@ -231,13 +233,13 @@ Cr2O7\^2- 橙红色
 
 常见检验方法：
 
-|             离子 | 检验方法                                       |
-|-----------------:|:-----------------------------------------------|
-|      \$\ce{H+}\$ | 酸碱指示剂、氢前金属、**碳酸氢盐**、金属氧化物 |
-|     \$\ce{OH-}\$ | 酸碱指示剂、弱碱对应金属盐、**铵盐**           |
-| \$\ce{CO3\^2-}\$ | \$\ce{H+,Ca^2+,Ba^2+}\$                        |
-| \$\ce{SO4\^2-}\$ | 先加稀盐酸，后加 \$\ce{BaCl2} \$ 不溶解        |
-|    \$\ce{NH4+}\$ | 加浓氢氧化钠产生碱性、有刺激性气味气体         |
+| 离子 | 检验方法 |
+|---:|:---|
+| [\$\ce{H+}\$]{.arithmatex} | 酸碱指示剂、氢前金属、**碳酸氢盐**、金属氧化物 |
+| [\$\ce{OH-}\$]{.arithmatex} | 酸碱指示剂、弱碱对应金属盐、**铵盐** |
+| [\$\ce{CO3\^2-}\$]{.arithmatex} | [\$\ce{H+,Ca\^2+,Ba\^2+}\$]{.arithmatex} |
+| [\$\ce{SO4\^2-}\$]{.arithmatex} | 先加稀盐酸，后加 \$\ce{BaCl2} \$ 不溶解 |
+| [\$\ce{NH4+}\$]{.arithmatex} | 加浓氢氧化钠产生碱性、有刺激性气味气体 |
 
 ### 离子的共存 {#_13}
 
@@ -247,11 +249,11 @@ Cr2O7\^2- 橙红色
 
 | 离子 | 不共存离子和物质 |
 |:--:|:--:|
-| \$\ce{H+}\$ | \$\ce{CO3^2-,HCO3-,OH-,SO3^2-,HSO3-,SiO3\^2-}\$、氢前金属 |
-| \$\ce{OH-}\$ | \$\ce{H+,HCO3-,NH4+,Cu^2+,Al^3+}\$ |
-| \$\ce{CO3\^2-}\$ | \$\ce{H+,Ca^2+,Ba^2+,Ag+}\$ |
-| \$\ce{SO4\^2-}\$ | \$\ce{Ca^2+,Ba^2+,Ag+}\$ |
-| \$\ce{Ag+}\$ | \$\ce{Cl-,CO3^2-,SO4^2-,OH-}\$ |
+| [\$\ce{H+}\$]{.arithmatex} | [\$\ce{CO3\^2-,HCO3-,OH-,SO3\^2-,HSO3-,SiO3\^2-}\$]{.arithmatex}、氢前金属 |
+| [\$\ce{OH-}\$]{.arithmatex} | [\$\ce{H+,HCO3-,NH4+,Cu\^2+,Al\^3+}\$]{.arithmatex} |
+| [\$\ce{CO3\^2-}\$]{.arithmatex} | [\$\ce{H+,Ca\^2+,Ba\^2+,Ag+}\$]{.arithmatex} |
+| [\$\ce{SO4\^2-}\$]{.arithmatex} | [\$\ce{Ca\^2+,Ba\^2+,Ag+}\$]{.arithmatex} |
+| [\$\ce{Ag+}\$]{.arithmatex} | [\$\ce{Cl-,CO3\^2-,SO4\^2-,OH-}\$]{.arithmatex} |
 
 氧化还原型不共存：
 
@@ -283,27 +285,27 @@ Cr2O7\^2- 橙红色
 
 不同元素的焰色：
 
-|    元素     |               颜色               |
-|:-----------:|:--------------------------------:|
-| \$\ce{Li}\$ |              紫红色              |
-| \$\ce{Na}\$ |               黄色               |
-| \$\ce{K}\$  | 紫色（透过蓝色钴玻璃，滤掉黄光） |
-| \$\ce{Ca}\$ |              砖红色              |
-| \$\ce{Sr}\$ |              洋红色              |
-| \$\ce{Ba}\$ |              黄绿色              |
-| \$\ce{Cu}\$ |               绿色               |
+|            元素            |               颜色               |
+|:--------------------------:|:--------------------------------:|
+| [\$\ce{Li}\$]{.arithmatex} |              紫红色              |
+| [\$\ce{Na}\$]{.arithmatex} |               黄色               |
+| [\$\ce{K}\$]{.arithmatex}  | 紫色（透过蓝色钴玻璃，滤掉黄光） |
+| [\$\ce{Ca}\$]{.arithmatex} |              砖红色              |
+| [\$\ce{Sr}\$]{.arithmatex} |              洋红色              |
+| [\$\ce{Ba}\$]{.arithmatex} |              黄绿色              |
+| [\$\ce{Cu}\$]{.arithmatex} |               绿色               |
 
 不同颜色的常见波长：
 
-| 颜色 |           波长           |
-|:----:|:------------------------:|
-|  红  | \$\pu{620nm \sim760nm}\$ |
-|  橙  | \$\pu{592nm \sim620nm}\$ |
-|  黄  | \$\pu{578nm \sim592nm}\$ |
-|  绿  | \$\pu{500nm \sim578nm}\$ |
-|  青  | \$\pu{464nm \sim500nm}\$ |
-|  蓝  | \$\pu{446nm \sim464nm}\$ |
-|  紫  | \$\pu{400nm \sim446nm}\$ |
+| 颜色 |                  波长                   |
+|:----:|:---------------------------------------:|
+|  红  | [\$\pu{620nm \sim760nm}\$]{.arithmatex} |
+|  橙  | [\$\pu{592nm \sim620nm}\$]{.arithmatex} |
+|  黄  | [\$\pu{578nm \sim592nm}\$]{.arithmatex} |
+|  绿  | [\$\pu{500nm \sim578nm}\$]{.arithmatex} |
+|  青  | [\$\pu{464nm \sim500nm}\$]{.arithmatex} |
+|  蓝  | [\$\pu{446nm \sim464nm}\$]{.arithmatex} |
+|  紫  | [\$\pu{400nm \sim446nm}\$]{.arithmatex} |
 
 ### 非水溶液置换 {#_16}
 
@@ -335,11 +337,11 @@ C + H2O -\> CO + H2
 
 - 延展性：延性最强 Pt 铂（铂丝），展性最强 Au 金（金箔）。
 
-- 导电能力排序：\$\ce{Ag,Cu,Ag,Al}\$，其中银一般仅用于要求极高的场景。
+- 导电能力排序：[\$\ce{Ag,Cu,Ag,Al}\$]{.arithmatex}，其中银一般仅用于要求极高的场景。
 
 - 室内导线常用铜，室外常用铝（致密氧化膜，防止进一步氧化）。
 
-- 密度在 \$\pu{4.5g/cm\^3}\$ 以上称为重金属，以下称为轻金属。
+- 密度在 [\$\pu{4.5g/cm\^3}\$]{.arithmatex} 以上称为重金属，以下称为轻金属。
 
 合金的性质如下：
 
@@ -355,19 +357,21 @@ C + H2O -\> CO + H2
 
 金属冶炼按照活动性顺序：
 
-- \$\ce{K,Ca,Na,Mg}\$：通常电解其熔融氯化物。
+- [\$\ce{K,Ca,Na,Mg}\$]{.arithmatex}：通常电解其熔融氯化物。
 
-- \$\ce{Al}\$：其氯化物不导电，通常电解氧化物（加入冰晶石）。
+- [\$\ce{Al}\$]{.arithmatex}：其氯化物不导电，通常电解氧化物（加入冰晶石）。
 
-- \$\ce{Zn,Fe,Cu}\$：通常用 \$\ce{C,CO,H2}\$ 还原。
+- [\$\ce{Zn,Fe,Cu}\$]{.arithmatex}：通常用 [\$\ce{C,CO,H2}\$]{.arithmatex} 还原。
 
-- \$\ce{Hg}\$：氧化物高温分解，单质与氧气加热化合。
+- [\$\ce{Hg}\$]{.arithmatex}：氧化物高温分解，单质与氧气加热化合。
 
-- \$\ce{Au}\$：自然界多游离态，富集。
+- [\$\ce{Au}\$]{.arithmatex}：自然界多游离态，富集。
 
 - 贵重金属、高熔点金属常用铝热反应或与钠单质熔融还原制得。## 氧化还原反应
 
+::: {.arithmatex}
 \$\$ \gdef\val#1#2{\overset{#2}{\ce{#1}}} \textrm{This page intentionally left blank.} \$\$
+:::
 
 ## 氧化还原 {#_18}
 
@@ -391,18 +395,18 @@ C + H2O -\> CO + H2
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;">$\ce{H}$</td>
-<td style="text-align: center;">一般显 $+1$ 价<br />
-在金属氢化物中显 $-1$ 价</td>
+<td style="text-align: center;"><span class="arithmatex">$\ce{H}$</span></td>
+<td style="text-align: center;">一般显 <span class="arithmatex">$+1$</span> 价<br />
+在金属氢化物中显 <span class="arithmatex">$-1$</span> 价</td>
 </tr>
 <tr>
-<td style="text-align: center;">$\ce{O}$</td>
-<td style="text-align: center;">一般显 $-2$ 价<br />
-在过氧化物中显 $-1$ 价</td>
+<td style="text-align: center;"><span class="arithmatex">$\ce{O}$</span></td>
+<td style="text-align: center;">一般显 <span class="arithmatex">$-2$</span> 价<br />
+在过氧化物中显 <span class="arithmatex">$-1$</span> 价</td>
 </tr>
 <tr>
-<td style="text-align: center;">$\ce{F}$</td>
-<td style="text-align: center;">只显 $-1$ 价（没有正价）</td>
+<td style="text-align: center;"><span class="arithmatex">$\ce{F}$</span></td>
+<td style="text-align: center;">只显 <span class="arithmatex">$-1$</span> 价（没有正价）</td>
 </tr>
 </tbody>
 </table>
@@ -411,8 +415,8 @@ C + H2O -\> CO + H2
 
 | 物质 | 物质 | 物质 | 物质 |
 |:--:|:--:|:--:|:--:|
-| \$\ce{K2\val{Fe}{+4}O4}\$ 高铁酸钾 | \$\ce{K2\val{Cr}{+6}\_2O7}\$ 重铬酸钾 | \$\ce{K\val{Mn}{+7}O4}\$ 高锰酸钾 | \$\ce{\val{O}{+2}\val{F}{-1}\_2}\$ 二氟化氧 |
-| \$\ce{\val{B}{+3}\_2H6}\$ | \$\ce{\val{Si}{+4}H4}\$ | \$\ce{\val{C}{+4}H4}\$ | \$\ce{\val{S}{+6}\_2O8\^2-}\$ |
+| [\$\ce{K2\val{Fe}{+4}O4}\$]{.arithmatex} 高铁酸钾 | [\$\ce{K2\val{Cr}{+6}\_2O7}\$]{.arithmatex} 重铬酸钾 | [\$\ce{K\val{Mn}{+7}O4}\$]{.arithmatex} 高锰酸钾 | [\$\ce{\val{O}{+2}\val{F}{-1}\_2}\$]{.arithmatex} 二氟化氧 |
+| [\$\ce{\val{B}{+3}\_2H6}\$]{.arithmatex} | [\$\ce{\val{Si}{+4}H4}\$]{.arithmatex} | [\$\ce{\val{C}{+4}H4}\$]{.arithmatex} | [\$\ce{\val{S}{+6}\_2O8\^2-}\$]{.arithmatex} |
 
 氧化还原反应的特征：
 
@@ -441,23 +445,23 @@ C + H2O -\> CO + H2
     - 相近转化，能不相交就不相交。
     - 同时一个元素化合价不变的原子不参与氧化还原反应。
     - 相邻价态不反应。
-3.  **强者先行**：假设法，例如 \$\ce{Cl2}\$ 先氧化 \$\ce{FeI2}\$ 中的碘离子。
+3.  **强者先行**：假设法，例如 [\$\ce{Cl2}\$]{.arithmatex} 先氧化 [\$\ce{FeI2}\$]{.arithmatex} 中的碘离子。
 
 ### 氧化剂和还原剂 {#_20}
 
 | 氧化剂 | 还原产物 |  | 氧化剂 | 还原产物 |
 |:--:|:--:|:--:|:--:|:--:|
-| \$\ce{HClO,Cl2,KClO3}\$ | \$\ce{Cl-}\$ |  | \$\ce{KMnO4,MnO2(H+)}\$ | \$\ce{Mn\^2+}\$ |
-| \$\ce{O2,H2O2}\$ | \$\ce{H2O}\$ |  | \$\ce{H2SO4(浓)}\$ | \$\ce{SO2}\$ |
-| \$\ce{HNO3(浓)}\$ | \$\ce{NO2}\$ |  | \$\ce{HNO3(稀)}\$ | \$\ce{NO}\$ |
-| \$\ce{Br2}\$ | \$\ce{Br-}\$ |  | \$\ce{I2}\$ | \$\ce{I-}\$ |
-| \$\ce{Fe\^3+}\$ | \$\ce{Fe\^2+}\$ |  | \$\ce{Ag+}\$ | \$\ce{Ag}\$ |
+| [\$\ce{HClO,Cl2,KClO3}\$]{.arithmatex} | [\$\ce{Cl-}\$]{.arithmatex} |  | [\$\ce{KMnO4,MnO2(H+)}\$]{.arithmatex} | [\$\ce{Mn\^2+}\$]{.arithmatex} |
+| [\$\ce{O2,H2O2}\$]{.arithmatex} | [\$\ce{H2O}\$]{.arithmatex} |  | [\$\ce{H2SO4(浓)}\$]{.arithmatex} | [\$\ce{SO2}\$]{.arithmatex} |
+| [\$\ce{HNO3(浓)}\$]{.arithmatex} | [\$\ce{NO2}\$]{.arithmatex} |  | [\$\ce{HNO3(稀)}\$]{.arithmatex} | [\$\ce{NO}\$]{.arithmatex} |
+| [\$\ce{Br2}\$]{.arithmatex} | [\$\ce{Br-}\$]{.arithmatex} |  | [\$\ce{I2}\$]{.arithmatex} | [\$\ce{I-}\$]{.arithmatex} |
+| [\$\ce{Fe\^3+}\$]{.arithmatex} | [\$\ce{Fe\^2+}\$]{.arithmatex} |  | [\$\ce{Ag+}\$]{.arithmatex} | [\$\ce{Ag}\$]{.arithmatex} |
 
-|      还原剂      |    氧化产物    |     |        还原剂        |     氧化产物     |
-|:----------------:|:--------------:|:---:|:--------------------:|:----------------:|
-| \$\ce{S2-,H2S}\$ |   \$\ce{S}\$   |     | \$\ce{SO2,SO3\^2-}\$ | \$\ce{SO4\^2-}\$ |
-|   \$\ce{NH3}\$   | \$\ce{N2,NO}\$ |     |    \$\ce{H2O2}\$     |   \$\ce{O2}\$    |
-|  \$\ce{CO,C}\$   |  \$\ce{CO2}\$  |     |     \$\ce{I-}\$      |   \$\ce{I2}\$    |
+| 还原剂 | 氧化产物 |  | 还原剂 | 氧化产物 |
+|:--:|:--:|:--:|:--:|:--:|
+| [\$\ce{S2-,H2S}\$]{.arithmatex} | [\$\ce{S}\$]{.arithmatex} |  | [\$\ce{SO2,SO3\^2-}\$]{.arithmatex} | [\$\ce{SO4\^2-}\$]{.arithmatex} |
+| [\$\ce{NH3}\$]{.arithmatex} | [\$\ce{N2,NO}\$]{.arithmatex} |  | [\$\ce{H2O2}\$]{.arithmatex} | [\$\ce{O2}\$]{.arithmatex} |
+| [\$\ce{CO,C}\$]{.arithmatex} | [\$\ce{CO2}\$]{.arithmatex} |  | [\$\ce{I-}\$]{.arithmatex} | [\$\ce{I2}\$]{.arithmatex} |
 
 氧化性和还原性：
 
@@ -471,15 +475,15 @@ C + H2O -\> CO + H2
 
     - （金属）活动性顺序：
 
-      氧化性：\$\ce{Ag+ \> Fe\^3+ \> Cu\^2+ \> H+ \> \dots \> Fe\^2+ \> \dots}\$
+      氧化性：[\$\ce{Ag+ \> Fe\^3+ \> Cu\^2+ \> H+ \> \dots \> Fe\^2+ \> \dots}\$]{.arithmatex}
 
-      还原性：\$\ce{Au \< Ag \< Cu \< (H) \< \dots \< Fe \< \dots}\$
+      还原性：[\$\ce{Au \< Ag \< Cu \< (H) \< \dots \< Fe \< \dots}\$]{.arithmatex}
 
     - （非金属）活动性顺序：
 
-      氧化性：\$\ce{F2 \> Cl2 \> Br2 \> I2 \> S}\$。
+      氧化性：[\$\ce{F2 \> Cl2 \> Br2 \> I2 \> S}\$]{.arithmatex}。
 
-      还原性：\$\ce{F- \< Cl- \< Br- \< I- \< S\^2-}\$。
+      还原性：[\$\ce{F- \< Cl- \< Br- \< I- \< S\^2-}\$]{.arithmatex}。
 
 3.  根据反应条件与反应现象：
 
@@ -491,7 +495,7 @@ C + H2O -\> CO + H2
 
     - 通常价位变化越大越强（反例：硝酸）。
 
-    - 通常浓度越大越强，酸性越强氧化性越强（对于 \$\ce{ClO-,MnO4-,NO3-}\$ 等含氧酸）。
+    - 通常浓度越大越强，酸性越强氧化性越强（对于 [\$\ce{ClO-,MnO4-,NO3-}\$]{.arithmatex} 等含氧酸）。
 
 5.  根据反应方程式判断：
 
@@ -503,9 +507,9 @@ C + H2O -\> CO + H2
 
 常见物质氧化性、还原性顺序表：
 
-- 氧化性：\$\ce{MnO4- \> Cl2 \> Br2 \> Fe\^3+ \> I2 \> SO2 \> S}\$。
+- 氧化性：[\$\ce{MnO4- \> Cl2 \> Br2 \> Fe\^3+ \> I2 \> SO2 \> S}\$]{.arithmatex}。
 
-- 还原性：\$\ce{Mn\^2+ \< Cl- \< Br- \< Fe\^2+ \< I- \< SO3\^2- \< S2-}\$。
+- 还原性：[\$\ce{Mn\^2+ \< Cl- \< Br- \< Fe\^2+ \< I- \< SO3\^2- \< S2-}\$]{.arithmatex}。
 
 - 上表使用方法，找到左上、右下两组为反应物，找到对应左下、右上为产物。
 
