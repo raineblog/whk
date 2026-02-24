@@ -19,12 +19,8 @@ permissions:
   id-token: write
 
 jobs:
-  build:
-    name: Build and Deploy via ${{ matrix.name }}
-    if: |
-      (github.event_name == 'workflow_dispatch' || github.event_name == 'schedule') ||
-      (github.event_name == 'push' && contains(github.event.head_commit.message, '[ci]'))
-    
+  build-standard:
+    name: Build and Deploy Standard
     strategy:
       fail-fast: false
       matrix:
@@ -48,14 +44,6 @@ jobs:
             branch: cloudflare-pages
             dir: ./site
             disable_giscus: 'true'
-          - name: Mkdocs Fragment
-            image: ghcr.io/raineblog/mkdocs-docker-fragment:latest
-            cache: mkdocs
-            pwd: mkdocs-fragment
-            url: https://raineblog-whk.pages.dev/
-            branch: fragment-pages
-            dir: ./site
-
     runs-on: ubuntu-latest
     container:
       image: ${{ matrix.image }}
@@ -63,9 +51,7 @@ jobs:
       - name: Checkout Source Code
         uses: actions/checkout@v6
         with:
-          submodules: "true"
           fetch-depth: 0
-          fetch-tags: false
 
       - name: Cache
         uses: actions/cache@v5
@@ -82,7 +68,7 @@ jobs:
           build_type: ${{ matrix.type }}
           disable_giscus: ${{ matrix.disable_giscus }}
 
-      - name: Push to gh-pages Branch
+      - name: Push to Branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -90,4 +76,60 @@ jobs:
           publish_dir: ${{ matrix.dir }}
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
-          full_commit_message: "Deploying to gh-pages from ${{ github.sha }}"
+          full_commit_message: "Deploying to ${{ matrix.branch }} from ${{ github.sha }}"
+
+  build-fragment:
+    name: Build Mkdocs Fragment
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/raineblog/mkdocs-docker-fragment:latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v6
+
+      - name: Cache
+        uses: actions/cache@v5
+        with:
+          path: .cache
+          key: ${{ runner.os }}-mkdocs-fragment-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            ${{ runner.os }}-mkdocs-fragment-
+
+      - name: Build Fragment Site
+        run: mkdocs-fragment
+
+      - name: Push to fragment-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: fragment-pages
+          publish_dir: ./site
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+          full_commit_message: "Deploying to fragment-pages from ${{ github.sha }}"
+
+  build-merged:
+    name: Merged Build Verification
+    needs: build-fragment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Fragment Pages to site
+        uses: actions/checkout@v6
+        with:
+          ref: fragment-pages
+          path: site
+          fetch-depth: 1
+
+      - name: Checkout Config and Public from main
+        uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            config
+            public
+          sparse-checkout-cone-mode: false
+          path: .
+
+      - name: List Files
+        run: |
+          echo "Listing current directory structure:"
+          ls -R
