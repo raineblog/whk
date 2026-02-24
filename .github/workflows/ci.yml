@@ -57,7 +57,7 @@ jobs:
             url: https://raineblog-whk.pages.dev/
             branch: fragment-pages
             type: normal
-            dir: ./
+            dir: ./site
 
     runs-on: ubuntu-latest
     container:
