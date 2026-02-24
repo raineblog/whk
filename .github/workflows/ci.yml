@@ -37,7 +37,6 @@ jobs:
               mkdocs-gulp
             url: https://raineblog.dpdns.org/whk/
             branch: gh-pages
-            type: normal
             dir: ./site
           - name: Mkdocs to Cloudflare Pages
             image: ghcr.io/raineblog/mkdocs-docker:latest
@@ -47,16 +46,14 @@ jobs:
               mkdocs-gulp
             url: https://raineblog-whk.pages.dev/
             branch: cloudflare-pages
-            type: normal
             dir: ./site
             disable_giscus: 'true'
           - name: Mkdocs Fragment
-            image: ghcr.io/raineblog/mkdocs-docker:latest
+            image: ghcr.io/raineblog/mkdocs-docker-fragment:latest
             cache: mkdocs
             pwd: mkdocs-fragment
             url: https://raineblog-whk.pages.dev/
             branch: fragment-pages
-            type: normal
             dir: ./site
 
     runs-on: ubuntu-latest
