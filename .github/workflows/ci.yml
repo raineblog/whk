@@ -143,9 +143,6 @@ jobs:
           name: fragment-site
           path: docs
 
-      - name: List Directory Tree
-        run: tree -L 3
-
       - name: Build Static Site
         run: ${{ matrix.pwd }}
         env:
