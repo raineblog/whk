@@ -1,7 +1,3 @@
-`<!-- <article class="mkdocs-fragment"
-        data-title="语法扩展"
-        data-url="home/pymdownx/"> -->`{=html}
-
 # 语法扩展 {#_1}
 
 \`\`\`python exec=\"1\" session=\"filetree\" from fnmatch import fnmatch from pathlib import Path
@@ -38,5 +34,3 @@ def exptree(path: str, session: str) -\> None: \# List files and directories sep
 ```python exec="1" session="filetree"
 exptree(".", "filetree")
 ```
-
-`<!-- 数学 -->`{=html} `<!-- 物理 -->`{=html} `<!-- 化学 -->`{=html} `<!-- 生物 -->`{=html} `<!-- 教育 -->`{=html} `<!-- 联合国与国际机构 -->`{=html} `<!-- 欧洲联盟与地区组织 -->`{=html} `<!-- </article> -->`{=html}

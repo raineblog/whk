@@ -1,7 +1,3 @@
-`<!-- <article class="mkdocs-fragment"
-        data-title="开发进程"
-        data-url="home/roadmap/"> -->`{=html}
-
 # 开发进程 {#_1}
 
 ## 生物 {#_2}
@@ -61,5 +57,3 @@ git submodule add https://github.com/raineblog/mkdocs-script script
 git submodule add https://github.com/raineblog/intro docs/intro/
 git submodule update --remote
 ```
-
-`<!-- 数学 -->`{=html} `<!-- 物理 -->`{=html} `<!-- 化学 -->`{=html} `<!-- 生物 -->`{=html} `<!-- 教育 -->`{=html} `<!-- 联合国与国际机构 -->`{=html} `<!-- 欧洲联盟与地区组织 -->`{=html} `<!-- </article> -->`{=html}

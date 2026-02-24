@@ -1,7 +1,3 @@
-`<!-- <article class="mkdocs-fragment"
-        data-title="格式手册"
-        data-url="home/format/"> -->`{=html}
-
 # 格式手册 {#_1}
 
 在学术方面，排版大体上参考 [OI Wiki 格式手册](https://oi-wiki.org/intro/format/)，中文排版参考 RainPPR 的（就是我自己的）[中文文案排版指北（个人重制版）](https://rainppr.dpdns.org/chinese-copywriting-guidelines/)，本网站采用了一些 pymdownx 扩展，相应的语法参考[语法扩展](./pymdownx/)一节。由于本网站的核心目标是，打造一个适合高中生"阅读"而非作为参考书、教科书的文化课文档，因此本网站的排版可以稍微松懈一些，核心目的是易懂和美观。
@@ -19,5 +15,3 @@
 > This is not because I don't like order, but because I think **a dash of chaos and entropy is good for new ideas**. They help connect two separate ideas that you normally would not have associated with each other, and to imagine the 'what if' more frequently.
 
 我们的终极目标是，尽管这几乎不可能实现，打造一本让学生像读物一样阅读，能在获取新奇的知识的同时，掌握一定的应试技巧，毕竟在现在的中国大陆，教育压力，尤其是应试教育的选拔压力，仍然支配着几代人。
-
-`<!-- 数学 -->`{=html} `<!-- 物理 -->`{=html} `<!-- 化学 -->`{=html} `<!-- 生物 -->`{=html} `<!-- 教育 -->`{=html} `<!-- 联合国与国际机构 -->`{=html} `<!-- 欧洲联盟与地区组织 -->`{=html} `<!-- </article> -->`{=html}

@@ -1,7 +1,3 @@
-`<!-- <article class="mkdocs-fragment"
-        data-title="简介"
-        data-url=""> -->`{=html}
-
 # 简介 {#_1}
 
 ## 这里是 **RainPPR\'s WHK Blog**！ {#rainpprs-whk-blog}
@@ -14,7 +10,7 @@
 ### Core References & Bibliography {#core-references-bibliography .bib-header-title}
 
 ::::::::::::::::::::::::::: {.bib-grid}
-`<!-- Entry 01 -->`{=html} [](https://zh.wikibooks.org/wiki/%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6){.bib-card .accent-blue target="_blank"}
+[](https://zh.wikibooks.org/wiki/%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6){.bib-card .accent-blue target="_blank"}
 
 ::: {.bib-card-index}
 01
@@ -30,15 +26,15 @@
 
 ::::: {.bib-card-meta}
 ::: {.bib-meta-item}
-[Source]{.bib-meta-label} [wikibooks.org]{.bib-meta-value}
+[Source]{.bib-meta-label}[wikibooks.org]{.bib-meta-value}
 :::
 
 ::: {.bib-meta-item}
-[Type]{.bib-meta-label} [Textbook]{.bib-meta-value}
+[Type]{.bib-meta-label}[Textbook]{.bib-meta-value}
 :::
 :::::
 
-`</a>`{=html} `<!-- Entry 02 -->`{=html} [](https://whk-wiki.github.io/whk-wiki/){.bib-card .accent-green target="_blank"}
+`</a>`{=html} [](https://whk-wiki.github.io/whk-wiki/){.bib-card .accent-green target="_blank"}
 
 ::: {.bib-card-index}
 02
@@ -54,15 +50,15 @@ whk wiki
 
 ::::: {.bib-card-meta}
 ::: {.bib-meta-item}
-[Source]{.bib-meta-label} [github.io]{.bib-meta-value}
+[Source]{.bib-meta-label}[github.io]{.bib-meta-value}
 :::
 
 ::: {.bib-meta-item}
-[Type]{.bib-meta-label} [Community]{.bib-meta-value}
+[Type]{.bib-meta-label}[Community]{.bib-meta-value}
 :::
 :::::
 
-`</a>`{=html} `<!-- Entry 03 -->`{=html} [](https://github.com/liuhaopeng543/MathBook){.bib-card .accent-red target="_blank"}
+`</a>`{=html} [](https://github.com/liuhaopeng543/MathBook){.bib-card .accent-red target="_blank"}
 
 ::: {.bib-card-index}
 03
@@ -78,15 +74,15 @@ MathBook
 
 ::::: {.bib-card-meta}
 ::: {.bib-meta-item}
-[Source]{.bib-meta-label} [github.com]{.bib-meta-value}
+[Source]{.bib-meta-label}[github.com]{.bib-meta-value}
 :::
 
 ::: {.bib-meta-item}
-[Type]{.bib-meta-label} [Personal]{.bib-meta-value}
+[Type]{.bib-meta-label}[Personal]{.bib-meta-value}
 :::
 :::::
 
-`</a>`{=html} `<!-- Entry 04 -->`{=html} [](https://lailai.one/zh-Hans/docs/note){.bib-card .accent-purple target="_blank"}
+`</a>`{=html} [](https://lailai.one/zh-Hans/docs/note){.bib-card .accent-purple target="_blank"}
 
 ::: {.bib-card-index}
 04
@@ -102,16 +98,14 @@ Note
 
 ::::: {.bib-card-meta}
 ::: {.bib-meta-item}
-[Source]{.bib-meta-label} [lailai.one]{.bib-meta-value}
+[Source]{.bib-meta-label}[lailai.one]{.bib-meta-value}
 :::
 
 ::: {.bib-meta-item}
-[Type]{.bib-meta-label} [Personal]{.bib-meta-value}
+[Type]{.bib-meta-label}[Personal]{.bib-meta-value}
 :::
 :::::
 
 `</a>`{=html}
 :::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::
-
-`<!-- 数学 -->`{=html} `<!-- 物理 -->`{=html} `<!-- 化学 -->`{=html} `<!-- 生物 -->`{=html} `<!-- 教育 -->`{=html} `<!-- 联合国与国际机构 -->`{=html} `<!-- 欧洲联盟与地区组织 -->`{=html} `<!-- </article> -->`{=html}

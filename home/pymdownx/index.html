@@ -1,24 +1,4 @@
-<!-- <article class="mkdocs-fragment"
-        data-title="语法扩展"
-        data-url="home/pymdownx/"> -->
-<h1 id="_1">语法扩展</h1>
-<p>```python exec="1" session="filetree"
-from fnmatch import fnmatch
-from pathlib import Path</p>
-<p>exclude = {"dist", "site", "dest", "node_modules", ".cache", "cache", ".agent", ".git"}
-no_recurse = {".venv*", ".github"}</p>
-<p>def exptree(path: str, session: str) -&gt; None:
-    # List files and directories separately.
-    files = []
-    dirs = []
-    for node in Path(path).iterdir():
-        if any(fnmatch(node.name, pattern) for pattern in exclude):
-            continue
-        if node.is_dir():
-            dirs.append(node)
-        else:
-            files.append(node)</p>
-<pre><code># Print directories first, then files (both sorted).
+<h1 id=_1>语法扩展</h1><p>```python exec="1" session="filetree" from fnmatch import fnmatch from pathlib import Path</p><p>exclude = {"dist", "site", "dest", "node_modules", ".cache", "cache", ".agent", ".git"} no_recurse = {".venv*", ".github"}</p><p>def exptree(path: str, session: str) -> None: # List files and directories separately. files = [] dirs = [] for node in Path(path).iterdir(): if any(fnmatch(node.name, pattern) for pattern in exclude): continue if node.is_dir(): dirs.append(node) else: files.append(node)</p><pre><code># Print directories first, then files (both sorted).
 recurse = []
 print("```tree")
 for directory in sorted(dirs):
@@ -40,15 +20,6 @@ for index, directory in enumerate(recurse, 1):
     print(f'    ```python exec="1" session="{session}"')
     print(f'    exptree("{new_path}", "{session}")')
     print("    ```\n")
-</code></pre>
-<pre class="highlight"><code>
+</code></pre><pre class=highlight><code>
 ```python exec="1" session="filetree"
 exptree(".", "filetree")</code></pre>
-<!-- 数学 -->
-<!-- 物理 -->
-<!-- 化学 -->
-<!-- 生物 -->
-<!-- 教育 -->
-<!-- 联合国与国际机构 -->
-<!-- 欧洲联盟与地区组织 -->
-<!-- </article> -->

@@ -1,7 +1,3 @@
-`<!-- <article class="mkdocs-fragment"
-        data-title="如何使用"
-        data-url="home/usage/"> -->`{=html}
-
 # 如何使用 {#_1}
 
 ## 简介 {#_2}
@@ -15,7 +11,6 @@
 </summary>
 
 ::: {#recently-updated-box .recently-updated-box}
-`<!-- RECENTLY_UPDATED_DOCS -->`{=html}
 :::
 
 </details>
@@ -35,5 +30,3 @@
 欢迎帮我宣传这个博客！
 
 本人不是很懂（没有太多经历）搞宣传和 SEO、GEO 什么的 TvT
-
-`<!-- 数学 -->`{=html} `<!-- 物理 -->`{=html} `<!-- 化学 -->`{=html} `<!-- 生物 -->`{=html} `<!-- 教育 -->`{=html} `<!-- 联合国与国际机构 -->`{=html} `<!-- 欧洲联盟与地区组织 -->`{=html} `<!-- </article> -->`{=html}
