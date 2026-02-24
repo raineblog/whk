@@ -1,0 +1,42 @@
+`<!-- <article class="mkdocs-fragment"
+        data-title="语法扩展"
+        data-url="home/pymdownx/"> -->`{=html}
+
+# 语法扩展 {#_1}
+
+\`\`\`python exec=\"1\" session=\"filetree\" from fnmatch import fnmatch from pathlib import Path
+
+exclude = {\"dist\", \"site\", \"dest\", \"node_modules\", \".cache\", \"cache\", \".agent\", \".git\"} no_recurse = {\".venv\*\", \".github\"}
+
+def exptree(path: str, session: str) -\> None: \# List files and directories separately. files = \[\] dirs = \[\] for node in Path(path).iterdir(): if any(fnmatch(node.name, pattern) for pattern in exclude): continue if node.is_dir(): dirs.append(node) else: files.append(node)
+
+    # Print directories first, then files (both sorted).
+    recurse = []
+    print("```tree")
+    for directory in sorted(dirs):
+        if any(fnmatch(directory.name, pattern) for pattern in no_recurse):
+            print(f"{directory.name}/")
+        else:
+            recurse.append(directory.name)
+            # Add code annotation at the end.
+            print(f"{directory.name}/ # ({len(recurse)})!")
+    for file in sorted(files):
+        print(file.name)
+    print("```\n")
+
+    # Print contents of each annotated directory.
+    for index, directory in enumerate(recurse, 1):
+        new_path = f"{path}/{directory}"
+        print(f"{index}. \n")
+        # The recursive part!
+        print(f'    ```python exec="1" session="{session}"')
+        print(f'    exptree("{new_path}", "{session}")')
+        print("    ```\n")
+
+``` highlight
+
+```python exec="1" session="filetree"
+exptree(".", "filetree")
+```
+
+`<!-- 数学 -->`{=html} `<!-- 物理 -->`{=html} `<!-- 化学 -->`{=html} `<!-- 生物 -->`{=html} `<!-- 教育 -->`{=html} `<!-- 联合国与国际机构 -->`{=html} `<!-- 欧洲联盟与地区组织 -->`{=html} `<!-- </article> -->`{=html}
