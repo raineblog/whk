@@ -30,7 +30,7 @@
 
 ### 分类标准 {#_4}
 
-![物质](%E7%89%A9%E8%B4%A8-dcbbc0d.avif){width="100%"}
+![物质](物质-dcbbc0d.avif){width="100%"}
 
 纯净物注意：
 
@@ -522,12 +522,12 @@ $$
 3.  根据原子守恒、电荷守恒配平其他元素和物质。
 
 <figure>
-<p><img src="%E5%8F%8C%E7%BA%BF%E6%A1%A5.avif" style="width:70.0%" alt="双线桥" /></p>
+<p><img src="双线桥.avif" style="width:70.0%" alt="双线桥" /></p>
 <figcaption><p>双线桥</p></figcaption>
 </figure>
 
 <figure>
-<p><img src="%E5%8D%95%E7%BA%BF%E6%A1%A5.avif" style="width:70.0%" alt="单线桥" /></p>
+<p><img src="单线桥.avif" style="width:70.0%" alt="单线桥" /></p>
 <figcaption><p>单线桥</p></figcaption>
 </figure>
 

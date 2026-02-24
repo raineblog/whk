@@ -10,7 +10,7 @@
 ### Core References & Bibliography {#core-references-bibliography .bib-header-title}
 
 ::::::::::::::::::::::::::: {.bib-grid}
-[](https://zh.wikibooks.org/wiki/%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6){.bib-card .accent-blue target="_blank"}
+[](https://zh.wikibooks.org/wiki/高中数学){.bib-card .accent-blue target="_blank"}
 
 ::: {.bib-card-index}
 01
