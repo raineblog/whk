@@ -51,7 +51,7 @@
 
 - 解析几何（第三版） (丘维声) (Z-Library).pdf P141 矩阵
 
-``` highlight
+``` sh
 git submodule add https://github.com/raineblog/mkdocs-material material
 git submodule add https://github.com/raineblog/mkdocs-script script
 git submodule add https://github.com/raineblog/intro docs/intro/

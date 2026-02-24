@@ -29,7 +29,7 @@ def exptree(path: str, session: str) -\> None: \# List files and directories sep
         print(f'    exptree("{new_path}", "{session}")')
         print("    ```\n")
 
-``` highlight
+``` python
 
 ```python exec="1" session="filetree"
 exptree(".", "filetree")
