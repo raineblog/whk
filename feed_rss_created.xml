@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 23 Feb 2026 13:30:30 -0000</pubDate>
-    <lastBuildDate>Mon, 23 Feb 2026 13:30:30 -0000</lastBuildDate>
+    <pubDate>Tue, 24 Feb 2026 08:29:30 -0000</pubDate>
+    <lastBuildDate>Tue, 24 Feb 2026 08:29:30 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-23T13:30:30.286825+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-23T13:30:30....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-24&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-24T08:29:30.355806+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-24&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-24T08:29:30....</description>
       <link>https://raineblog-whk.pages.dev/blog/archive/2025/</link>
-      <pubDate>Mon, 23 Feb 2026 13:30:00 +0000</pubDate>
+      <pubDate>Tue, 24 Feb 2026 08:29:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/blog/archive/2025/</guid>
@@ -57,7 +57,7 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog-whk.pages.dev/blog/page/2/</link>
-      <pubDate>Mon, 23 Feb 2026 13:30:00 +0000</pubDate>
+      <pubDate>Tue, 24 Feb 2026 08:29:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/blog/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/blog/page/2/</guid>
@@ -3452,8 +3452,9 @@ $$&lt;/p&gt;
       
       
       <description>&lt;h1&gt;有机物的分类&lt;/h1&gt;
-&lt;h2&gt;按照物质&lt;/h2&gt;
-&lt;h3&gt;烷烃概述&lt;/h3&gt;
+&lt;h2&gt;烷烃概述&lt;/h2&gt;
+&lt;p&gt;烷烃是极佳的有机化学引入之一，在高中有机化学的框架下，我们通常是从烷烃开始，去讨论有机物的化学性质，从引入双键、三键形成不饱和烃，再到引入取代基和各种有机反应。烷烃对于刚刚学习有机化学的人来说，显得格外重要。&lt;/p&gt;
+&lt;h3&gt;甲烷和烷烃&lt;/h3&gt;
 &lt;p&gt;我们熟悉的甲烷（$\ce{CH4}$）是最简单的有机化合物。其分子中的碳原子以最外层的 $4$ 个电子分别与 $4$ 个氢原子的电子形成了 $4$ 个 $\ce{C - H}$ 共价键。&lt;/p&gt;
 &lt;p&gt;实验数据表明，甲烷分子并非平面结构，而是呈正四面体空间构型。&lt;/p&gt;
 &lt;ul&gt;
@@ -3462,8 +3463,7 @@ $$&lt;/p&gt;
 &lt;li&gt;$4$ 个 $\ce{C - H}$ 键的长度和强度完全相同，任意两个 $\ce{C - H}$ 键之间的夹角均为 $\pu{109.5^\circ C}$。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;与甲烷结构相似的有机化合物还有很多，随着分子中碳原子数的增加，还有乙烷、丙烷、丁烷等一系列有机化合物。这些化合物的碳链呈锯齿状或折线形。&lt;/p&gt;
-&lt;p&gt;烷烃分子中的碳原子都采取 $\text{sp3}$ 杂化，形成四面体结构；碳原子以 $\sigma$ 键与其他碳原子或氢原子结合；每个碳原子形成 $4$ 个共价单键；除甲烷外，烷烃分子中既有极性键，又有非极性键。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;烷烃&lt;/strong&gt;是只含有碳和氢两种元素，且分子中的碳原子之间都以单键结合，碳原子的剩...&lt;/p&gt;</description>
+&lt;p&gt;烷烃分子中的碳原子都采取 $\text{sp3}$ 杂化，形成四面体结构；碳原子以...&lt;/p&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/organic/2/</link>
       <pubDate>Sun, 29 Jun 2025 07:34:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -3475,12 +3475,12 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>有机经典问题</title>
+      <title>有机核心考点</title>
       
       
       
       
-      <description>&lt;h1&gt;有机经典问题&lt;/h1&gt;
+      <description>&lt;h1&gt;有机核心考点&lt;/h1&gt;
 &lt;h2&gt;有机物概述&lt;/h2&gt;
 &lt;h3&gt;同分异构现象&lt;/h3&gt;
 &lt;p&gt;化合物具有相同的分子式，但具有不同结构的现象，称为同分异构现象。具有这种现象的化合物互称为同分异构体。&lt;/p&gt;
@@ -3514,17 +3514,17 @@ $$&lt;/p&gt;
       <comments>https://raineblog-whk.pages.dev/science/organic/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/organic/3/</guid>
       
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/organic/3.png" type="image/png" length="46454" />
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/organic/3.png" type="image/png" length="46850" />
       
     </item>
     
     <item>
-      <title>有机合成概述</title>
+      <title>有机物与工业</title>
       
       
       
       
-      <description>&lt;h1&gt;有机合成概述&lt;/h1&gt;
+      <description>&lt;h1&gt;有机物与工业&lt;/h1&gt;
 &lt;h2&gt;高分子概述&lt;/h2&gt;
 &lt;h3&gt;有机高分子&lt;/h3&gt;
 &lt;p&gt;高分子化合物，简称高分子，相对分子质量通常在几万到几十万，甚至达到几千万。高分子虽然相对分子质量很大，但结构往往并不复杂。&lt;/p&gt;
@@ -3553,7 +3553,7 @@ $$&lt;/p&gt;
       <comments>https://raineblog-whk.pages.dev/science/organic/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/organic/4/</guid>
       
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/organic/4.png" type="image/png" length="48097" />
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/organic/4.png" type="image/png" length="44424" />
       
     </item>
     

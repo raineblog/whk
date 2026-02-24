@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 23 Feb 2026 13:30:30 -0000</pubDate>
-    <lastBuildDate>Mon, 23 Feb 2026 13:30:30 -0000</lastBuildDate>
+    <pubDate>Tue, 24 Feb 2026 08:29:30 -0000</pubDate>
+    <lastBuildDate>Tue, 24 Feb 2026 08:29:30 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-23T13:30:30.286825+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-23T13:30:30....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-24&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-24T08:29:30.355806+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-24&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-24T08:29:30....</description>
       <link>https://raineblog-whk.pages.dev/blog/archive/2025/</link>
-      <pubDate>Mon, 23 Feb 2026 13:30:00 +0000</pubDate>
+      <pubDate>Tue, 24 Feb 2026 08:29:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/blog/archive/2025/</guid>
@@ -57,12 +57,124 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog-whk.pages.dev/blog/page/2/</link>
-      <pubDate>Mon, 23 Feb 2026 13:30:00 +0000</pubDate>
+      <pubDate>Tue, 24 Feb 2026 08:29:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/blog/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/blog/page/2/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/blog/page/2.png" type="image/png" length="None" />
+      
+    </item>
+    
+    <item>
+      <title>有机物的分类</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;有机物的分类&lt;/h1&gt;
+&lt;h2&gt;烷烃概述&lt;/h2&gt;
+&lt;p&gt;烷烃是极佳的有机化学引入之一，在高中有机化学的框架下，我们通常是从烷烃开始，去讨论有机物的化学性质，从引入双键、三键形成不饱和烃，再到引入取代基和各种有机反应。烷烃对于刚刚学习有机化学的人来说，显得格外重要。&lt;/p&gt;
+&lt;h3&gt;甲烷和烷烃&lt;/h3&gt;
+&lt;p&gt;我们熟悉的甲烷（$\ce{CH4}$）是最简单的有机化合物。其分子中的碳原子以最外层的 $4$ 个电子分别与 $4$ 个氢原子的电子形成了 $4$ 个 $\ce{C - H}$ 共价键。&lt;/p&gt;
+&lt;p&gt;实验数据表明，甲烷分子并非平面结构，而是呈正四面体空间构型。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;碳原子位于正四面体的中心。&lt;/li&gt;
+&lt;li&gt;$4$ 个氢原子分别位于 $4$ 个顶点。&lt;/li&gt;
+&lt;li&gt;$4$ 个 $\ce{C - H}$ 键的长度和强度完全相同，任意两个 $\ce{C - H}$ 键之间的夹角均为 $\pu{109.5^\circ C}$。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;与甲烷结构相似的有机化合物还有很多，随着分子中碳原子数的增加，还有乙烷、丙烷、丁烷等一系列有机化合物。这些化合物的碳链呈锯齿状或折线形。&lt;/p&gt;
+&lt;p&gt;烷烃分子中的碳原子都采取 $\text{sp3}$ 杂化，形成四面体结构；碳原子以...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/organic/2/</link>
+      <pubDate>Tue, 24 Feb 2026 08:28:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/organic/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/organic/2/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/organic/2.png" type="image/png" length="48454" />
+      
+    </item>
+    
+    <item>
+      <title>有机核心考点</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;有机核心考点&lt;/h1&gt;
+&lt;h2&gt;有机物概述&lt;/h2&gt;
+&lt;h3&gt;同分异构现象&lt;/h3&gt;
+&lt;p&gt;化合物具有相同的分子式，但具有不同结构的现象，称为同分异构现象。具有这种现象的化合物互称为同分异构体。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;碳链异构&lt;/strong&gt;：碳链骨架不同。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$\ce{CH3CH2CH2CH3}$ 和 $\ce{CH3CH(CH3)2}$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;位置异构&lt;/strong&gt;：官能团或取代基在碳骨架（碳链或碳环）上位置不同。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$\ce{CH2=CHCH2CH3}$ 和 $\ce{CH3CH=CHCH3}$&lt;/p&gt;
+&lt;p&gt;$\ce{CH3CH2CH2OH}$ 和 $\ce{CH3CH(OH)CH3}$&lt;/p&gt;
+&lt;p&gt;$\ce{CH3OCH2CH2CH3}$ 和 $\ce{CH3CH2OCH2CH3}$&lt;/p&gt;
+&lt;p&gt;$\ce{R1COOR2}$ 和 $\ce{R2COOR1}$ ($R1 \neq R2$，且均为烃基)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;官能团异构&lt;/strong&gt;：官能团不同。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$\ce{CH3CH2OH}$ 和 $\ce{CH3OCH3}$&lt;/p&gt;
+&lt;p&gt;$\ce{CH3CH2CHO...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/organic/3/</link>
+      <pubDate>Tue, 24 Feb 2026 08:28:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/organic/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/organic/3/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/organic/3.png" type="image/png" length="46850" />
+      
+    </item>
+    
+    <item>
+      <title>有机物与工业</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;有机物与工业&lt;/h1&gt;
+&lt;h2&gt;高分子概述&lt;/h2&gt;
+&lt;h3&gt;有机高分子&lt;/h3&gt;
+&lt;p&gt;高分子化合物，简称高分子，相对分子质量通常在几万到几十万，甚至达到几千万。高分子虽然相对分子质量很大，但结构往往并不复杂。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-31.avif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;高分子的性质：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在溶剂中的溶解。&lt;/p&gt;
+&lt;p&gt;高分子溶解在有机溶剂中，溶剂分子先深入缠在一起的线性高分子之间，使高分子材料膨胀，然后把高分子包围起来，使其分离开来，能够自由移动，在有机溶剂中形成胶体粒子，成为溶胶。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;不同温度下的性能。&lt;/p&gt;
+&lt;p&gt;热塑性：高分子受热到一定温度范围，开始软化，直到熔化成流动的液体，不像固态小分子物质那样有确定的熔点。加热软化后，可以加工成各种形态。&lt;/p&gt;
+&lt;p&gt;热固性：网状结构中的高分子链已有化学键相互交联，限制了其移动。当温度更高，体系高分子的化学键出现断裂，高分子的结构就被破坏。一经加工成形，就不会受热融化，如酚醛塑料。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;强度和电绝缘性。&lt;/p&gt;
+&lt;p&gt;高分子材料的密度比金属小，但强度可能比较大。&lt;/p&gt;
+&lt;p&gt;大部分有机高分子材料是绝缘的，但也有导电的，如单双键交替的碳链。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;高分子材...&lt;/h3&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/organic/4/</link>
+      <pubDate>Tue, 24 Feb 2026 08:28:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/organic/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/organic/4/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/organic/4.png" type="image/png" length="44424" />
       
     </item>
     
@@ -171,35 +283,6 @@
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/modern/4/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/modern/4.png" type="image/png" length="48509" />
-      
-    </item>
-    
-    <item>
-      <title>有机物的分类</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;有机物的分类&lt;/h1&gt;
-&lt;h2&gt;按照物质&lt;/h2&gt;
-&lt;h3&gt;烷烃概述&lt;/h3&gt;
-&lt;p&gt;我们熟悉的甲烷（$\ce{CH4}$）是最简单的有机化合物。其分子中的碳原子以最外层的 $4$ 个电子分别与 $4$ 个氢原子的电子形成了 $4$ 个 $\ce{C - H}$ 共价键。&lt;/p&gt;
-&lt;p&gt;实验数据表明，甲烷分子并非平面结构，而是呈正四面体空间构型。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;碳原子位于正四面体的中心。&lt;/li&gt;
-&lt;li&gt;$4$ 个氢原子分别位于 $4$ 个顶点。&lt;/li&gt;
-&lt;li&gt;$4$ 个 $\ce{C - H}$ 键的长度和强度完全相同，任意两个 $\ce{C - H}$ 键之间的夹角均为 $\pu{109.5^\circ C}$。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;与甲烷结构相似的有机化合物还有很多，随着分子中碳原子数的增加，还有乙烷、丙烷、丁烷等一系列有机化合物。这些化合物的碳链呈锯齿状或折线形。&lt;/p&gt;
-&lt;p&gt;烷烃分子中的碳原子都采取 $\text{sp3}$ 杂化，形成四面体结构；碳原子以 $\sigma$ 键与其他碳原子或氢原子结合；每个碳原子形成 $4$ 个共价单键；除甲烷外，烷烃分子中既有极性键，又有非极性键。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;烷烃&lt;/strong&gt;是只含有碳和氢两种元素，且分子中的碳原子之间都以单键结合，碳原子的剩...&lt;/p&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/organic/2/</link>
-      <pubDate>Mon, 23 Feb 2026 02:46:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/organic/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/organic/2/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/organic/2.png" type="image/png" length="48454" />
       
     </item>
     
@@ -987,50 +1070,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/number/4/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/number/4.png" type="image/png" length="46425" />
-      
-    </item>
-    
-    <item>
-      <title>有机经典问题</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;有机经典问题&lt;/h1&gt;
-&lt;h2&gt;有机物概述&lt;/h2&gt;
-&lt;h3&gt;同分异构现象&lt;/h3&gt;
-&lt;p&gt;化合物具有相同的分子式，但具有不同结构的现象，称为同分异构现象。具有这种现象的化合物互称为同分异构体。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;碳链异构&lt;/strong&gt;：碳链骨架不同。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;$\ce{CH3CH2CH2CH3}$ 和 $\ce{CH3CH(CH3)2}$&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;位置异构&lt;/strong&gt;：官能团或取代基在碳骨架（碳链或碳环）上位置不同。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;$\ce{CH2=CHCH2CH3}$ 和 $\ce{CH3CH=CHCH3}$&lt;/p&gt;
-&lt;p&gt;$\ce{CH3CH2CH2OH}$ 和 $\ce{CH3CH(OH)CH3}$&lt;/p&gt;
-&lt;p&gt;$\ce{CH3OCH2CH2CH3}$ 和 $\ce{CH3CH2OCH2CH3}$&lt;/p&gt;
-&lt;p&gt;$\ce{R1COOR2}$ 和 $\ce{R2COOR1}$ ($R1 \neq R2$，且均为烃基)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;官能团异构&lt;/strong&gt;：官能团不同。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;$\ce{CH3CH2OH}$ 和 $\ce{CH3OCH3}$&lt;/p&gt;
-&lt;p&gt;$\ce{CH3CH2CHO...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/organic/3/</link>
-      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/organic/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/organic/3/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/organic/3.png" type="image/png" length="46454" />
       
     </item>
     
@@ -1954,45 +1993,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/number/3/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/number/3.png" type="image/png" length="44053" />
-      
-    </item>
-    
-    <item>
-      <title>有机合成概述</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;有机合成概述&lt;/h1&gt;
-&lt;h2&gt;高分子概述&lt;/h2&gt;
-&lt;h3&gt;有机高分子&lt;/h3&gt;
-&lt;p&gt;高分子化合物，简称高分子，相对分子质量通常在几万到几十万，甚至达到几千万。高分子虽然相对分子质量很大，但结构往往并不复杂。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-31.avif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;高分子的性质：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;在溶剂中的溶解。&lt;/p&gt;
-&lt;p&gt;高分子溶解在有机溶剂中，溶剂分子先深入缠在一起的线性高分子之间，使高分子材料膨胀，然后把高分子包围起来，使其分离开来，能够自由移动，在有机溶剂中形成胶体粒子，成为溶胶。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;不同温度下的性能。&lt;/p&gt;
-&lt;p&gt;热塑性：高分子受热到一定温度范围，开始软化，直到熔化成流动的液体，不像固态小分子物质那样有确定的熔点。加热软化后，可以加工成各种形态。&lt;/p&gt;
-&lt;p&gt;热固性：网状结构中的高分子链已有化学键相互交联，限制了其移动。当温度更高，体系高分子的化学键出现断裂，高分子的结构就被破坏。一经加工成形，就不会受热融化，如酚醛塑料。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;强度和电绝缘性。&lt;/p&gt;
-&lt;p&gt;高分子材料的密度比金属小，但强度可能比较大。&lt;/p&gt;
-&lt;p&gt;大部分有机高分子材料是绝缘的，但也有导电的，如单双键交替的碳链。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3&gt;高分子材...&lt;/h3&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/organic/4/</link>
-      <pubDate>Thu, 19 Feb 2026 14:33:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/organic/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/organic/4/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/organic/4.png" type="image/png" length="48097" />
       
     </item>
     
