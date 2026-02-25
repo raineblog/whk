@@ -148,7 +148,7 @@ $$
 
 ### 图像 {#_15}
 
-![![三角函数|w100%](../tri-sin-cos-tan.avif)
+![三角函数|w100%](../tri-sin-cos-tan.avif)
 
 ### 周期性 {#_16}
 
@@ -536,9 +536,9 @@ $$
 
 注意正负号的对应。
 
-![![alt text|w80%](../sin_cos.svg)
+![alt text|w80%](../sin_cos.svg)
 
-![![alt text|w80%](../tan.svg)
+![alt text|w80%](../tan.svg)
 
 ### 二倍角公式 {#_41}
 

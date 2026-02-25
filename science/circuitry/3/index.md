@@ -90,7 +90,7 @@
 
 电解池通常使用的电流都达数百安培，材料的电镀和金属的精炼也通过电解池进行。
 
-![![alt text|w90%](../Chloralkali_membrane.avif)
+![alt text|w90%](../Chloralkali_membrane.avif)
 
 - 与电源的正极相连的电极为阳极，阳极带正电荷，吸引带负电的离子在阳极上失去电子，形成气体逸出。
 
@@ -142,7 +142,7 @@
 
 标准氢电极（简称 SHE），是构成标准电极电势（$E^0$）基准的工作电极。
 
-![![alt text|right|w30%](../Standard_hydrogen_electrode_2009-02-06.svg)
+![alt text|right|w30%](../Standard_hydrogen_electrode_2009-02-06.svg)
 
 $$
 \ce{2H+(aq) + 2e- -> H2(g)}
