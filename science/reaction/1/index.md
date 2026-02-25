@@ -75,7 +75,7 @@ $$
 - 变化量关系：
 
   $$
-  \begin{cases} a_3&=a_1+(-a_2)\ b_3&=b_1+(-b_2)\ c_3&=c_1+(+c_2) \end{cases}
+  \begin{cases} a_3&=a_1+(-a_2)\\ b_3&=b_1+(-b_2)\\ c_3&=c_1+(+c_2) \end{cases}
   $$
 
 - 比值关系：
@@ -234,12 +234,12 @@ $$
 大多数化学反应并不是经过简单碰撞就能完成的，而往往经过多个反应步骤才能实现，
 
 $$
-\boxed{\ce{2HI -> H2 + I2}} =\begin{cases} \ce{2HI &-> H2 + 2I.}\ \ce{2I. &-> I2} \end{cases}
+\boxed{\ce{2HI -> H2 + I2}} =\begin{cases} \ce{2HI &-> H2 + 2I.}\\ \ce{2I. &-> I2} \end{cases}
 $$
 
 每一步反应都成为**基元反应**。这里的 $\ce{I.}$ 是带有单电子的原子，这种带有单电子的原子或原子团称作**自由基**。自由基的反应活性极强，稳定性极差，寿命极短。
 
-::img[alt text]{src="../image.avif" width="80%"}
+![alt text](../image.avif#class="custom-img";float=80%"
 
 基元反应发生的条件：
 

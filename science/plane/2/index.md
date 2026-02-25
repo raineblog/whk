@@ -33,7 +33,7 @@ $$
 与角 $\alpha$ 终边位置相同的角的集合很容易得出，为：
 
 $$
-{\varphi \mid \varphi = \alpha - 2k\pi, k \in \mathbb{Z}}
+\{\varphi \mid \varphi = \alpha - 2k\pi, k \in \mathbb{Z}\}
 $$
 
 ### 弧度与角度的转化 {#_5}
@@ -67,7 +67,7 @@ $$
 则：
 
 $$
-\begin{aligned} r=\sqrt{x^2+y^2}\ \sin\theta=\frac{y}{r}\ \cos\theta=\frac{x}{r}\ \tan\theta=\frac{y}{x}\ \end{aligned}
+\begin{aligned} r=\sqrt{x^2+y^2}\\ \sin\theta=\frac{y}{r}\\ \cos\theta=\frac{x}{r}\\ \tan\theta=\frac{y}{x}\\ \end{aligned}
 $$
 
 这样可以定义任何角度的三角函数（除非当定义式无意义时）。
@@ -83,13 +83,13 @@ $$
 指定一角 $\theta$，点 $(1,0)$ 旋转 $\theta$ 度得到的点 $A(x,y)$，那么：
 
 $$
-\begin{aligned} x^2+y^2=1\ \sin\theta=y\ \cos\theta=x\ \tan\theta=\frac{y}{x}\ \end{aligned}
+\begin{aligned} x^2+y^2=1\\ \sin\theta=y\\ \cos\theta=x\\ \tan\theta=\frac{y}{x}\\ \end{aligned}
 $$
 
 ### 常见的三角函数定义 {#_10}
 
 $$
-\begin{aligned} \tan\alpha=\frac{\sin\alpha}{\cos\alpha}\ \cot\alpha=\frac{1}{\tan\alpha}\ \sec\alpha=\frac{1}{\cos\alpha}\ \csc\alpha=\frac{1}{\sin\alpha} \end{aligned}
+\begin{aligned} \tan\alpha=\frac{\sin\alpha}{\cos\alpha}\\ \cot\alpha=\frac{1}{\tan\alpha}\\ \sec\alpha=\frac{1}{\cos\alpha}\\ \csc\alpha=\frac{1}{\sin\alpha} \end{aligned}
 $$
 
 ### 常见角度的三角函数 {#_11}
@@ -116,7 +116,7 @@ $$
 
 ### 正切函数及其性质 {#_12}
 
-定义域：${x\mid x\neq k\pi+\pi/2,k\in\mathbb Z}$；
+定义域：$\{x\mid x\neq k\pi+\pi/2,k\in\mathbb Z\}$；
 
 值域：$(-\infty,+\infty)$
 
@@ -131,7 +131,7 @@ $$
 尼云定理指出，在 $0\sim90^\circ$ 范围内，如果正弦函数 $\sin$ 的自变量和因变量都要求是有理数，那么答案只有：
 
 $$
-\begin{aligned} \sin0^\circ&=0\ \sin30^\circ&=1/2\ \sin90^\circ&=1 \end{aligned}
+\begin{aligned} \sin0^\circ&=0\\ \sin30^\circ&=1/2\\ \sin90^\circ&=1 \end{aligned}
 $$
 
 ## 正弦、余弦函数及其性质 {#_14}
@@ -148,12 +148,12 @@ $$
 
 ### 图像 {#_15}
 
-::img[三角函数]{src="../tri-sin-cos-tan.avif" width="100%"}
+![三角函数](../tri-sin-cos-tan.avif#class="custom-img";float=100%"
 
 ### 周期性 {#_16}
 
 $$
-\begin{aligned} \sin\alpha=\sin(\alpha+2\pi)\ \cos\alpha=\cos(\alpha+2\pi) \end{aligned}
+\begin{aligned} \sin\alpha=\sin(\alpha+2\pi)\\ \cos\alpha=\cos(\alpha+2\pi) \end{aligned}
 $$
 
 可知 $\sin$、$\cos$ 是最小正周期为 $2\pi$ 的周期函数。
@@ -432,7 +432,7 @@ $$
 是 $\sin$、$\cos$ 的周期。
 
 $$
-\begin{aligned} \sin(\alpha+2\pi)&=\sin\alpha\ \cos(\alpha+2\pi)&=\cos\alpha\ \tan(\alpha+2\pi)&=\tan\alpha \end{aligned}
+\begin{aligned} \sin(\alpha+2\pi)&=\sin\alpha\\ \cos(\alpha+2\pi)&=\cos\alpha\\ \tan(\alpha+2\pi)&=\tan\alpha \end{aligned}
 $$
 
 ### 函数关于 π 的周期性 {#_31}
@@ -440,7 +440,7 @@ $$
 是 $\tan$、$\cot$ 的周期。
 
 $$
-\begin{aligned} \sin(\alpha+\pi)&=-\sin\alpha\ \cos(\alpha+\pi)&=-\cos\alpha\ \tan(\alpha+\pi)&=\tan\alpha \end{aligned}
+\begin{aligned} \sin(\alpha+\pi)&=-\sin\alpha\\ \cos(\alpha+\pi)&=-\cos\alpha\\ \tan(\alpha+\pi)&=\tan\alpha \end{aligned}
 $$
 
 ### 函数的奇偶性 {#_32}
@@ -448,7 +448,7 @@ $$
 奇函数：$\sin$、$\tan$、$\cot$，偶函数：$\cos$。
 
 $$
-\begin{aligned} \sin(-\alpha )&=-\sin \alpha\ \cos(-\alpha )&=\cos \alpha\ \tan(-\alpha )&=-\tan \alpha\ \end{aligned}
+\begin{aligned} \sin(-\alpha )&=-\sin \alpha\\ \cos(-\alpha )&=\cos \alpha\\ \tan(-\alpha )&=-\tan \alpha\\ \end{aligned}
 $$
 
 ### 函数关于 y 轴的对称性 {#y}
@@ -456,7 +456,7 @@ $$
 用单位圆象限角理解。
 
 $$
-\begin{aligned} \sin(\pi-\alpha)&=\sin\alpha\ \cos(\pi-\alpha)&=-\cos\alpha\ \tan(\pi-\alpha)&=-\tan\alpha \end{aligned}
+\begin{aligned} \sin(\pi-\alpha)&=\sin\alpha\\ \cos(\pi-\alpha)&=-\cos\alpha\\ \tan(\pi-\alpha)&=-\tan\alpha \end{aligned}
 $$
 
 ### 余函数恒等式 {#_33}
@@ -464,7 +464,7 @@ $$
 用单位圆象限角理解。
 
 $$
-\begin{aligned} \sin(\pi/2-\alpha)&=\cos\alpha\ \cos(\pi/2-\alpha)&=\sin\alpha\ \tan(\pi/2-\alpha)&=\cot\alpha \end{aligned}
+\begin{aligned} \sin(\pi/2-\alpha)&=\cos\alpha\\ \cos(\pi/2-\alpha)&=\sin\alpha\\ \tan(\pi/2-\alpha)&=\cot\alpha \end{aligned}
 $$
 
 ### 在直角三角形中的转换 {#_34}
@@ -472,7 +472,7 @@ $$
 用单位圆象限角理解。
 
 $$
-\begin{aligned} \sin \left(\pi/2+\alpha\right)&=\cos\alpha\ \cos \left(\pi/2+\alpha\right)&=-\sin\alpha\ \tan \left(\pi/2+\alpha\right)&=-\cot\alpha\ \end{aligned}
+\begin{aligned} \sin \left(\pi/2+\alpha\right)&=\cos\alpha\\ \cos \left(\pi/2+\alpha\right)&=-\sin\alpha\\ \tan \left(\pi/2+\alpha\right)&=-\cot\alpha\\ \end{aligned}
 $$
 
 ### 综合：单位圆象限角 {#_35}
@@ -480,7 +480,7 @@ $$
 上述所有式子有一个联系：
 
 $$
-\begin{aligned} \sin(k\pi/2\pm\alpha)&,k\in\mathbb{Z}\ \cos(k\pi/2\pm\alpha)&,k\in\mathbb{Z}\ \tan(k\pi/2\pm\alpha)&,k\in\mathbb{Z} \end{aligned}
+\begin{aligned} \sin(k\pi/2\pm\alpha)&,k\in\mathbb{Z}\\ \cos(k\pi/2\pm\alpha)&,k\in\mathbb{Z}\\ \tan(k\pi/2\pm\alpha)&,k\in\mathbb{Z} \end{aligned}
 $$
 
 转换法则：
@@ -513,13 +513,13 @@ $$
 根据上面的，易得：
 
 $$
-\begin{aligned} \sin^2\alpha&=1-\cos^2\alpha\ \cos^2\alpha&=1-\sin^2\alpha \end{aligned}
+\begin{aligned} \sin^2\alpha&=1-\cos^2\alpha\\ \cos^2\alpha&=1-\sin^2\alpha \end{aligned}
 $$
 
 开方，得：
 
 $$
-\begin{aligned} \sin\alpha&=\pm\sqrt{1-\cos^2\alpha}\ \cos\alpha&=\pm\sqrt{1-\sin^2\alpha} \end{aligned}
+\begin{aligned} \sin\alpha&=\pm\sqrt{1-\cos^2\alpha}\\ \cos\alpha&=\pm\sqrt{1-\sin^2\alpha} \end{aligned}
 $$
 
 一定要注意正负号，正负号由该角所在象限决定。
@@ -531,19 +531,19 @@ $$
 ### 和差恒等式 {#_40}
 
 $$
-\begin{aligned} \sin(\alpha\pm\beta)&=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta\ \cos(\alpha\pm\beta)&=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta\ \tan(\alpha\pm\beta)&=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta} \end{aligned}
+\begin{aligned} \sin(\alpha\pm\beta)&=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta\\ \cos(\alpha\pm\beta)&=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta\\ \tan(\alpha\pm\beta)&=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta} \end{aligned}
 $$
 
 注意正负号的对应。
 
-::img{src="../sin_cos.svg" width="80%"}
+![alt text](../sin_cos.svg#class="custom-img";float=80%"
 
-::img{src="../tan.svg" width="80%"}
+![alt text](../tan.svg#class="custom-img";float=80%"
 
 ### 二倍角公式 {#_41}
 
 $$
-\begin{aligned} \sin2\alpha&=2\sin\alpha\cos\alpha\ \cos2\alpha&=\cos^2\alpha-\sin^2\alpha\ &=1-2\sin^2\alpha\ &=2\cos^2\alpha-1\ \tan2\alpha&=\frac{2\tan\alpha}{1-\tan^2\alpha} \end{aligned}
+\begin{aligned} \sin2\alpha&=2\sin\alpha\cos\alpha\\ \cos2\alpha&=\cos^2\alpha-\sin^2\alpha\\ &=1-2\sin^2\alpha\\ &=2\cos^2\alpha-1\\ \tan2\alpha&=\frac{2\tan\alpha}{1-\tan^2\alpha} \end{aligned}
 $$
 
 可以根据里面的结论推出降次公式。
@@ -551,7 +551,7 @@ $$
 ### 三倍角公式 {#_42}
 
 $$
-\begin{aligned} \sin3\alpha&=3\sin\alpha-4\sin^3\alpha&&=4\sin\left(\dfrac\pi3-\alpha\right)\sin\alpha\sin\left(\dfrac\pi3+\alpha\right)\ \cos3\alpha&=4\cos^3\alpha-3\cos\alpha&&=4\cos\left(\dfrac\pi3-\alpha\right)\cos\alpha\cos\left(\dfrac\pi3+\alpha\right)\ \end{aligned}
+\begin{aligned} \sin3\alpha&=3\sin\alpha-4\sin^3\alpha&&=4\sin\left(\dfrac\pi3-\alpha\right)\sin\alpha\sin\left(\dfrac\pi3+\alpha\right)\\ \cos3\alpha&=4\cos^3\alpha-3\cos\alpha&&=4\cos\left(\dfrac\pi3-\alpha\right)\cos\alpha\cos\left(\dfrac\pi3+\alpha\right)\\ \end{aligned}
 $$
 
 下面的式子即为：
@@ -563,19 +563,19 @@ $$
 正切同理，也可以用这个式子进行三次降幂。
 
 $$
-\cos 3\theta=\begin{vmatrix}\cos\theta & 1 & 0 \ 1 & 2\cos\theta & 1 \ 0 & 1 & 2\cos\theta\end{vmatrix}
+\cos 3\theta=\begin{vmatrix}\cos\theta & 1 & 0 \\ 1 & 2\cos\theta & 1 \\ 0 & 1 & 2\cos\theta\end{vmatrix}
 $$
 
 $$
-\sin 3\theta=\begin{vmatrix}\sin\theta & 0 & 0 \ 0 & 2\sin\theta & 1 \ 0 & 1 & 2\cos\theta\end{vmatrix}
+\sin 3\theta=\begin{vmatrix}\sin\theta & 0 & 0 \\ 0 & 2\sin\theta & 1 \\ 0 & 1 & 2\cos\theta\end{vmatrix}
 $$
 
 $$
-\cos n\theta=\begin{vmatrix} \cos\theta & 1 & 0 & \cdots & 0 & 0 \ 1 & 2\cos\theta & 1 & \cdots & 0 & 0 \ 0 & 1 & 2\cos\theta & \cdots & 0 & 0 \ \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \ 0 & 0 & 0 & \cdots & 2\cos\theta & 1 \ 0 & 0 & 0 & \cdots & 1 & 2\cos\theta \end{vmatrix}
+\cos n\theta=\begin{vmatrix} \cos\theta & 1 & 0 & \cdots & 0 & 0 \\ 1 & 2\cos\theta & 1 & \cdots & 0 & 0 \\ 0 & 1 & 2\cos\theta & \cdots & 0 & 0 \\ \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\ 0 & 0 & 0 & \cdots & 2\cos\theta & 1 \\ 0 & 0 & 0 & \cdots & 1 & 2\cos\theta \end{vmatrix}
 $$
 
 $$
-\sin n\theta=\begin{vmatrix} \sin\theta & 0 & 0 & \cdots & 0 & 0 \ 0 & 2\cos\theta & 1 & \cdots & 0 & 0 \ 0 & 1 & 2\cos\theta & \cdots & 0 & 0 \ \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \ 0 & 0 & 0 & \cdots & 2\cos\theta & 1 \ 0 & 0 & 0 & \cdots & 1 & 2\cos\theta \end{vmatrix}
+\sin n\theta=\begin{vmatrix} \sin\theta & 0 & 0 & \cdots & 0 & 0 \\ 0 & 2\cos\theta & 1 & \cdots & 0 & 0 \\ 0 & 1 & 2\cos\theta & \cdots & 0 & 0 \\ \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\ 0 & 0 & 0 & \cdots & 2\cos\theta & 1 \\ 0 & 0 & 0 & \cdots & 1 & 2\cos\theta \end{vmatrix}
 $$
 
 这就是高倍角公式的行列式表示。
@@ -585,7 +585,7 @@ $$
 也称为万能公式。
 
 $$
-\begin{aligned} \sin\alpha&={2\tan{\alpha\over2}\over1+\tan^2{\alpha\over2}}\ \cos\alpha&={1-\tan^2{\alpha\over2}\over1+\tan^2{\alpha\over2}}\ \tan\alpha&={2\tan{\alpha\over2}\over1-\tan^2{\alpha\over2}} \end{aligned}
+\begin{aligned} \sin\alpha&={2\tan{\alpha\over2}\over1+\tan^2{\alpha\over2}}\\ \cos\alpha&={1-\tan^2{\alpha\over2}\over1+\tan^2{\alpha\over2}}\\ \tan\alpha&={2\tan{\alpha\over2}\over1-\tan^2{\alpha\over2}} \end{aligned}
 $$
 
 其中下面的一个也等价于正切函数的二倍角公式。
@@ -595,7 +595,7 @@ $$
 降幂公式：
 
 $$
-\begin{aligned} \sin^2\alpha&=\frac{1-\cos2\alpha}{2}\ \cos^2\alpha&=\frac{1+\cos2\alpha}{2}\ \tan^2\alpha&=\frac{1-\cos2\alpha}{1+\cos2\alpha} \end{aligned}
+\begin{aligned} \sin^2\alpha&=\frac{1-\cos2\alpha}{2}\\ \cos^2\alpha&=\frac{1+\cos2\alpha}{2}\\ \tan^2\alpha&=\frac{1-\cos2\alpha}{1+\cos2\alpha} \end{aligned}
 $$
 
 补充一个属于幂简约公式的：
@@ -609,7 +609,7 @@ $$
 ### 半角公式 {#_45}
 
 $$
-\begin{aligned} \sin\frac{\alpha}{2}&=\pm\sqrt{\frac{1-\cos\alpha}{2}}\ \cos\frac{\alpha}{2}&=\pm\sqrt{\frac{1+\cos\alpha}{2}}\ \tan{\frac{\alpha}{2}}&=\pm{\sqrt{1-\cos\theta\over1+\cos\theta}}\ &=\frac{\sin\alpha}{1+\cos\alpha}=\frac{1-\cos\alpha}{\sin\alpha} \end{aligned}
+\begin{aligned} \sin\frac{\alpha}{2}&=\pm\sqrt{\frac{1-\cos\alpha}{2}}\\ \cos\frac{\alpha}{2}&=\pm\sqrt{\frac{1+\cos\alpha}{2}}\\ \tan{\frac{\alpha}{2}}&=\pm{\sqrt{1-\cos\theta\over1+\cos\theta}}\\ &=\frac{\sin\alpha}{1+\cos\alpha}=\frac{1-\cos\alpha}{\sin\alpha} \end{aligned}
 $$
 
 正负号由半角所在象限决定。
@@ -619,7 +619,7 @@ $$
 第一类 Chebyshev（切比雪夫）多项式由以下递推关系确定：
 
 $$
-\begin{aligned} T_0(x)&=1\ T_1(x)&=x\ T_{n+1}(x)&=2xT_n(x)-T_{n-1}(x) \end{aligned}
+\begin{aligned} T_0(x)&=1\\ T_1(x)&=x\\ T_{n+1}(x)&=2xT_n(x)-T_{n-1}(x) \end{aligned}
 $$
 
 有三角恒等式：
@@ -631,7 +631,7 @@ $$
 其中：
 
 $$
-\begin{aligned} T_{0}(x) & = 1\ T_{1}(x) & = x\ T_{2}(x) & = 2x^{2}-1\ T_{3}(x) & = 4x^{3}-3x\ T_{4}(x) & = 8x^{4}-8x^{2}+1\ T_{5}(x) & = 16x^{5}-20x^{3}+5x\ T_{6}(x) & = 32x^{6}-48x^{4}+18x^{2}-1\ T_{7}(x) & = 64x^{7}-112x^{5}+56x^{3}-7x\ T_{8}(x) & = 128x^{8}-256x^{6}+160x^{4}-32x^{2}+1\ T_{9}(x) & = 256x^{9}-576x^{7}+432x^{5}-120x^{3}+9x \end{aligned}
+\begin{aligned} T_{0}(x) & = 1\\ T_{1}(x) & = x\\ T_{2}(x) & = 2x^{2}-1\\ T_{3}(x) & = 4x^{3}-3x\\ T_{4}(x) & = 8x^{4}-8x^{2}+1\\ T_{5}(x) & = 16x^{5}-20x^{3}+5x\\ T_{6}(x) & = 32x^{6}-48x^{4}+18x^{2}-1\\ T_{7}(x) & = 64x^{7}-112x^{5}+56x^{3}-7x\\ T_{8}(x) & = 128x^{8}-256x^{6}+160x^{4}-32x^{2}+1\\ T_{9}(x) & = 256x^{9}-576x^{7}+432x^{5}-120x^{3}+9x \end{aligned}
 $$
 
 ## 和差化积与积化和差 {#_47}
@@ -639,13 +639,13 @@ $$
 ### 和差化积恒等式 {#_48}
 
 $$
-\begin{aligned} \sin\alpha+\sin\beta&=2\sin{\alpha+\beta\over2}\cos{\alpha-\beta\over2}\ \sin\alpha-\sin\beta&=2\cos{\alpha+\beta\over2}\sin {\alpha-\beta\over2}\ \cos\alpha+\cos\beta&=2\cos{\alpha+\beta\over2}\cos {\alpha-\beta\over2}\ \cos\alpha-\cos\beta&=-2\sin{\alpha+\beta\over2}\sin {\alpha-\beta\over2} \end{aligned}
+\begin{aligned} \sin\alpha+\sin\beta&=2\sin{\alpha+\beta\over2}\cos{\alpha-\beta\over2}\\ \sin\alpha-\sin\beta&=2\cos{\alpha+\beta\over2}\sin {\alpha-\beta\over2}\\ \cos\alpha+\cos\beta&=2\cos{\alpha+\beta\over2}\cos {\alpha-\beta\over2}\\ \cos\alpha-\cos\beta&=-2\sin{\alpha+\beta\over2}\sin {\alpha-\beta\over2} \end{aligned}
 $$
 
 ### 积化和差恒等式 {#_49}
 
 $$
-\begin{aligned} \sin\alpha\cos\beta&={\sin(\alpha+\beta)+\sin(\alpha-\beta)\over2}\ \cos\alpha\sin\beta&={\sin(\alpha+\beta)-\sin(\alpha-\beta)\over2}\ \cos\alpha\cos\beta&={\cos(\alpha+\beta)+\cos(\alpha-\beta)\over2}\ \sin\alpha\sin\beta&=-{\cos(\alpha+\beta)-\cos(\alpha-\beta)\over2} \end{aligned}
+\begin{aligned} \sin\alpha\cos\beta&={\sin(\alpha+\beta)+\sin(\alpha-\beta)\over2}\\ \cos\alpha\sin\beta&={\sin(\alpha+\beta)-\sin(\alpha-\beta)\over2}\\ \cos\alpha\cos\beta&={\cos(\alpha+\beta)+\cos(\alpha-\beta)\over2}\\ \sin\alpha\sin\beta&=-{\cos(\alpha+\beta)-\cos(\alpha-\beta)\over2} \end{aligned}
 $$
 
 ### 记忆方法 {#_50}
@@ -657,7 +657,7 @@ $$
 ### 平方差公式 {#_52}
 
 $$
-\begin{aligned} \sin(x+y)\sin(x-y)&&&=\sin^2x-\sin^2y&&=\cos^2y-\cos^2x\ \cos(x+y)\cos(x-y)&&&=\cos^2x-\sin^2y&&=\cos^2y-\sin^2x \end{aligned}
+\begin{aligned} \sin(x+y)\sin(x-y)&&&=\sin^2x-\sin^2y&&=\cos^2y-\cos^2x\\ \cos(x+y)\cos(x-y)&&&=\cos^2x-\sin^2y&&=\cos^2y-\sin^2x \end{aligned}
 $$
 
 注意到右边的式子还可以用平方差公式展开。
@@ -683,13 +683,13 @@ $$
 化简式子：
 
 $$
-\begin{aligned} a\sin x+b\cos x&=r\cos\varphi\sin x+r\sin\varphi\cos x\ &=r\sin(x+\varphi)=\sqrt{a^2+b^2}\sin(x+\varphi) \end{aligned}
+\begin{aligned} a\sin x+b\cos x&=r\cos\varphi\sin x+r\sin\varphi\cos x\\ &=r\sin(x+\varphi)=\sqrt{a^2+b^2}\sin(x+\varphi) \end{aligned}
 $$
 
 其中，$\varphi$ 满足：
 
 $$
-\begin{cases} \cos\varphi&=a/r\ \sin\varphi&=b/r \end{cases}
+\begin{cases} \cos\varphi&=a/r\\ \sin\varphi&=b/r \end{cases}
 $$
 
 若 $a>0$，可以写成 $\varphi=\arctan b/a$ 的形式。

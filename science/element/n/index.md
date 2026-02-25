@@ -59,7 +59,7 @@ $$
 ### 一氧化氮相关 {#_7}
 
 $$
-\left{ \begin{aligned} \ce{2NO + O2 &-> 2NO2}\ \ce{3NO2 + H2O &-> 2HNO3 + NO} \end{aligned} \right.
+\left\{ \begin{aligned} \ce{2NO + O2 &-> 2NO2}\\ \ce{3NO2 + H2O &-> 2HNO3 + NO} \end{aligned} \right.
 $$
 
 计算得到：
@@ -77,7 +77,7 @@ $$
 ### 二氧化氮相关 {#_8}
 
 $$
-\left{ \begin{aligned} \ce{3NO2 + H2O &-> 2HNO3 + NO}\ \ce{2NO + O2 &-> 2NO2} \end{aligned} \right.
+\left\{ \begin{aligned} \ce{3NO2 + H2O &-> 2HNO3 + NO}\\ \ce{2NO + O2 &-> 2NO2} \end{aligned} \right.
 $$
 
 计算得到：
@@ -202,7 +202,7 @@ $$
 
 硝酸，无色透明，有刺激性气味，易挥发。
 
-浓硝酸的质量分数为 $70%$ 以上，发烟硝酸质量分数 $\ge95%$。
+浓硝酸的质量分数为 $70\%$ 以上，发烟硝酸质量分数 $\ge95\%$。
 
 因为浓硝酸中的硝酸分子分解产生 $\ce{NO2}$ 而呈浅黄色，通入氧气后可以消除。
 

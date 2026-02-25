@@ -18,7 +18,7 @@
 
 直角坐标系也可以推广至三维空间与高维空间。
 
-::img[空间直角坐标系]{src="../480px-3D_Cartesian.svg.avif" width="40%"}
+![空间直角坐标系](../480px-3D_Cartesian.svg.avif#class="custom-img";float=40%"
 
 在原本的二维直角坐标系，再添加一个垂直于 $x$ 轴、$y$ 轴的坐标轴，称为 $z$ 轴。
 
@@ -30,7 +30,7 @@
 
 - 有时候我们会遇到空间几何中的动点问题，若动点在坐标轴上，则设出该动点坐标；若动点不在坐标轴上，而是在某线段上，则应该利用向量来表示该线段，从而得到动点坐标。
 
-::img{src="../建系示例1.avif" width="100%"}
+![alt text](../建系示例1.avif#class="custom-img";float=100%"
 
 建系方法：
 
@@ -143,7 +143,7 @@ $AP'\bot\bm n$，由此可以列出若干个关系式，解之即可。
 我们直接连接点 $P$ 和点 $A$，则 $\overrightarrow{AP}$ 在 $\bm n$ 上的投影即为点到平面的距离：
 
 $$
-\begin{aligned} |AP'|&=|\overrightarrow{AP}|\cos\theta\ &=|\overrightarrow{AP}|\times\dfrac{|\overrightarrow{AP}\cdot\bm n|}{|\overrightarrow{AP}|\cdot|\bm n|}\ &=\dfrac{|\overrightarrow{AP}\cdot\bm n|}{|\bm n|} \end{aligned}
+\begin{aligned} |AP'|&=|\overrightarrow{AP}|\cos\theta\\ &=|\overrightarrow{AP}|\times\dfrac{|\overrightarrow{AP}\cdot\bm n|}{|\overrightarrow{AP}|\cdot|\bm n|}\\ &=\dfrac{|\overrightarrow{AP}\cdot\bm n|}{|\bm n|} \end{aligned}
 $$
 
 即点到直线的距离为 $d=\dfrac{|\overrightarrow{AP}\cdot\bm n|}{|\bm n|}$。
@@ -205,7 +205,7 @@ $\overrightarrow{AM}=\lambda\cdot\overrightarrow{AB},\overrightarrow{CN}=\mu\cdo
 那么我们就可以用两个未知数表示出 $M,N$ 的坐标，那么就可以列出：
 
 $$
-\begin{aligned} \overrightarrow{MN}\cdot\overrightarrow{AB}&=0\ \overrightarrow{MN}\cdot\overrightarrow{CD}&=0 \end{aligned}
+\begin{aligned} \overrightarrow{MN}\cdot\overrightarrow{AB}&=0\\ \overrightarrow{MN}\cdot\overrightarrow{CD}&=0 \end{aligned}
 $$
 
 解之即可。
@@ -217,7 +217,7 @@ $$
 我们列出公共法向量 $\bm n$ 的表达式：
 
 $$
-\begin{aligned} \bm n\cdot\overrightarrow{AB}&=0\ \bm n\cdot\overrightarrow{CD}&=0 \end{aligned}
+\begin{aligned} \bm n\cdot\overrightarrow{AB}&=0\\ \bm n\cdot\overrightarrow{CD}&=0 \end{aligned}
 $$
 
 令 $\bm n$ 的某一维为 $1$ 即可解出 $\bm n$ 的表示。
@@ -302,7 +302,7 @@ $$
 
 三垂线定理：平面内有一条直线，如果平面外一条直线在这个平面上的射影，垂直于平面内的直线，那么平面外的这条直线与平面内的直线垂直。
 
-::img[alt text]{src="../image-3.avif"}
+![alt text](../image-3.avif#class="custom-img"
 
 ### 面与面的夹角 {#_17}
 
@@ -314,7 +314,7 @@ $$
 
 注意绝对值。
 
-::img[面面角与二面角]{src="../image-2.avif"}
+![面面角与二面角](../image-2.avif#class="custom-img"
 
 一般方法：
 
@@ -322,7 +322,7 @@ $$
 
 - 从一个面上一点做交线的垂线，然后从垂足做垂线到另一个面。
 
-::img[alt text]{src="../二面角1.avif" width="100%"}
+![alt text](../二面角1.avif#class="custom-img";float=100%"
 
 ## 空间向量进阶 {#_18}
 
@@ -352,7 +352,7 @@ $$
 
 空间中任意两个向量 $\bm A,\bm B$，规定其夹角为 $\alpha$，则其叉乘为一个向量，他的大小为 $|\bm A|\cdot|\bm b|\sin\alpha$，方向又右手定则决定：
 
-::img{src="../Right_hand_rule_cross_product.svg" width="70%"}
+![alt text](../Right_hand_rule_cross_product.svg#class="custom-img";float=70%"
 
 1.  反交换律：$a \times b = -b \times a$。
 2.  系数结合律：$(\lambda a) \times b = \lambda(a \times b) = a \times (\lambda b)$。
@@ -362,25 +362,25 @@ $$
 三维空间中两个向量：
 
 $$
-\bm{a} = \begin{pmatrix}x_1 \ y_1 \ z_1\end{pmatrix}, \quad \bm{b} = \begin{pmatrix}x_2 \ y_2 \ z_2\end{pmatrix}
+\bm{a} = \begin{pmatrix}x_1 \\ y_1 \\ z_1\end{pmatrix}, \quad \bm{b} = \begin{pmatrix}x_2 \\ y_2 \\ z_2\end{pmatrix}
 $$
 
 的叉积定义为：
 
 $$
-\bm{a} \times \bm{b} = \begin{pmatrix} y_1z_2 - z_1y_2 \ z_1x_2 - x_1z_2 \ x_1y_2 - y_1x_2 \end{pmatrix}
+\bm{a} \times \bm{b} = \begin{pmatrix} y_1z_2 - z_1y_2 \\ z_1x_2 - x_1z_2 \\ x_1y_2 - y_1x_2 \end{pmatrix}
 $$
 
 使用行列式：
 
 $$
-\begin{vmatrix} i & j & k \ x_1 & y_1 & z_1 \ x_2 & y_2 & z_2 \end{vmatrix}
+\begin{vmatrix} i & j & k \\ x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \end{vmatrix}
 $$
 
 具体展开为：
 
 $$
-\bm{n} = \begin{vmatrix}y_1 & z_1 \ y_2 & z_2\end{vmatrix} \bm{i} -\begin{vmatrix}x_1 & z_1 \ x_2 & z_2\end{vmatrix} \bm{j} +\begin{vmatrix}x_1 & y_1 \ x_2 & y_2\end{vmatrix} \bm{k}
+\bm{n} = \begin{vmatrix}y_1 & z_1 \\ y_2 & z_2\end{vmatrix} \bm{i} -\begin{vmatrix}x_1 & z_1 \\ x_2 & z_2\end{vmatrix} \bm{j} +\begin{vmatrix}x_1 & y_1 \\ x_2 & y_2\end{vmatrix} \bm{k}
 $$
 
 ### 张成空间法 {#_20}
@@ -416,7 +416,7 @@ $$
 - 我们用一个行列式表示：
 
   $$
-  \begin{vmatrix} x_1&y_1&z_1&1\ x_2&y_2&z_2&1\ x_3&y_3&z_3&1\ x_4&y_4&z_4&1 \end{vmatrix}=0
+  \begin{vmatrix} x_1&y_1&z_1&1\\ x_2&y_2&z_2&1\\ x_3&y_3&z_3&1\\ x_4&y_4&z_4&1 \end{vmatrix}=0
   $$
 
 - 更加直观的做法是：
@@ -440,7 +440,7 @@ $$
 我们将其带入平移矩阵：
 
 $$
-T=\begin{bmatrix} 1&0&0&t_x\ 0&1&0&t_y\ 0&0&1&t_z\ 0&0&0&1 \end{bmatrix}
+T=\begin{bmatrix} 1&0&0&t_x\\ 0&1&0&t_y\\ 0&0&1&t_z\\ 0&0&0&1 \end{bmatrix}
 $$
 
 我们用这个矩阵去乘以一个齐次坐标，容易发现向量（$w=0$）是无法平移的，而点是可以平移的。同样，以前的矩阵用 $0$ 和 $1$ 填充即可：
@@ -450,7 +450,7 @@ $$
   ------------------------------------------------------------------------
 
   $$
-  \begin{bmatrix} 1 & 0 & 0 & t_x \ 0 & 1 & 0 & t_y \ 0 & 0 & 1 & t_z \ 0 & 0 & 0 & 1 \end{bmatrix}
+  \begin{bmatrix} 1 & 0 & 0 & t_x \\ 0 & 1 & 0 & t_y \\ 0 & 0 & 1 & t_z \\ 0 & 0 & 0 & 1 \end{bmatrix}
   $$
 
 - **缩放** `S(sx, sy, sz)`
@@ -458,7 +458,7 @@ $$
   ------------------------------------------------------------------------
 
   $$
-  \begin{bmatrix} s_x & 0 & 0 & 0 \ 0 & s_y & 0 & 0 \ 0 & 0 & s_z & 0 \ 0 & 0 & 0 & 1 \end{bmatrix}
+  \begin{bmatrix} s_x & 0 & 0 & 0 \\ 0 & s_y & 0 & 0 \\ 0 & 0 & s_z & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}
   $$
 
 - **绕 $X$ 轴旋转** `Rx(θ)`
@@ -466,7 +466,7 @@ $$
   ------------------------------------------------------------------------
 
   $$
-  \begin{bmatrix} 1 & 0 & 0 & 0 \ 0 & \cos\theta & -\sin\theta & 0 \ 0 & \sin\theta & \cos\theta & 0 \ 0 & 0 & 0 & 1 \end{bmatrix}
+  \begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & \cos\theta & -\sin\theta & 0 \\ 0 & \sin\theta & \cos\theta & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}
   $$
 
 - **绕 $Y$ 轴旋转** `Ry(θ)`
@@ -474,7 +474,7 @@ $$
   ------------------------------------------------------------------------
 
   $$
-  \begin{bmatrix} \cos\theta & 0 & \sin\theta & 0 \ 0 & 1 & 0 & 0 \ -\sin\theta & 0 & \cos\theta & 0 \ 0 & 0 & 0 & 1 \end{bmatrix}
+  \begin{bmatrix} \cos\theta & 0 & \sin\theta & 0 \\ 0 & 1 & 0 & 0 \\ -\sin\theta & 0 & \cos\theta & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}
   $$
 
 - **绕 $Z$ 轴旋转** `Rz(θ)`
@@ -482,7 +482,7 @@ $$
   ------------------------------------------------------------------------
 
   $$
-  \begin{bmatrix} \cos\theta & -\sin\theta & 0 & 0 \ \sin\theta & \cos\theta & 0 & 0 \ 0 & 0 & 1 & 0 \ 0 & 0 & 0 & 1 \end{bmatrix}
+  \begin{bmatrix} \cos\theta & -\sin\theta & 0 & 0 \\ \sin\theta & \cos\theta & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}
   $$
 
 - 罗德里格（Rodrigues）旋转公式
@@ -495,7 +495,7 @@ $$
 
 ### 双垂直定理 {#_22}
 
-::img[alt text]{src="../image-4.avif"}
+![alt text](../image-4.avif#class="custom-img"
 
 ### 双余弦定理 {#_23}
 

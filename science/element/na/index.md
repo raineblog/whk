@@ -115,7 +115,7 @@ $$
 作为碱性氧化物，与酸、水、酸性氧化物的反应：
 
 $$
-\begin{aligned} \ce{Na2O + 2HCl &-> 2NaCl + H2O}\ \ce{Na2O + H2O &-> 2NaOH}\ \ce{Na2O + CO2 &-> Na2CO3} \end{aligned}
+\begin{aligned} \ce{Na2O + 2HCl &-> 2NaCl + H2O}\\ \ce{Na2O + H2O &-> 2NaOH}\\ \ce{Na2O + CO2 &-> Na2CO3} \end{aligned}
 $$
 
 同时存在 $\ce{2Na2O + O2 -> 2Na2O2}$ 在加热条件下生成。
@@ -125,13 +125,13 @@ $$
 类似氧化钠的：
 
 $$
-\begin{aligned} \ce{2Na2O2 + 4HCl &-> 4NaCl + 2H2O + O2}\ \ce{2Na2O2 + 2H2O &-> 4NaOH + O2}\ \ce{2Na2O2 + 2CO2 &-> 2Na2CO3 + O2} \end{aligned}
+\begin{aligned} \ce{2Na2O2 + 4HCl &-> 4NaCl + 2H2O + O2}\\ \ce{2Na2O2 + 2H2O &-> 4NaOH + O2}\\ \ce{2Na2O2 + 2CO2 &-> 2Na2CO3 + O2} \end{aligned}
 $$
 
 可以进行氧气供给。
 
 $$
-\begin{aligned} \ce{Na2O2 + SO2 &-> NaSO4}\ \ce{Na2O2 + SO3 &-> NaSO4 + O2} \end{aligned}
+\begin{aligned} \ce{Na2O2 + SO2 &-> NaSO4}\\ \ce{Na2O2 + SO3 &-> NaSO4 + O2} \end{aligned}
 $$
 
 这是因为其具有强氧化性，另外其还具有漂白性，可以用于杀菌消毒。
@@ -160,7 +160,7 @@ $$
 
 理论：$\ce{Na2CO3}$ 比 $\ce{NaHCO3}$ 更碱、更溶、更稳定。
 
-::img[套管实验]{src="../套管实验.avif" width="50%"}
+![套管实验](../套管实验.avif#class="custom-img";float=50%"
 
 - 外层：$\ce{Na2CO3}$，无明显现象。
 - 内层：$\ce{NaHCO3}$，塞蘸有无水硫酸铜的棉花，插入澄清石灰水中。

@@ -84,7 +84,7 @@ $$
 
 烃的自然界主要来源是石油和天然气、
 
-天然气的主要成分是甲烷，通常甲烷体积分数可达 $80%\sim98%$，通常还含有乙烷、丙烷、二氧化碳、氮气等。天然气是一种优良的气体燃料。
+天然气的主要成分是甲烷，通常甲烷体积分数可达 $80\%\sim98\%$，通常还含有乙烷、丙烷、二氧化碳、氮气等。天然气是一种优良的气体燃料。
 
 石油是当今主要的能源，也是主要的化工原料。通过石油炼制，可以得到汽油、煤油、柴油等各种烃。用石油产品和石油气作为原料来生产化工产品的工业简称石油化工。
 
@@ -104,7 +104,7 @@ $$
 
 ### 煤的利用 {#_4}
 
-煤在工业上曾经是获得芳香烃的重要来源，不同的煤含碳量不同，通常可以分为无烟煤（$95%$）、烟煤（$70\sim80%$）、褐煤（$50\sim70%$）、泥煤（$50\sim60%$）。煤除了碳以外，还含有少量的硫、磷、氢、氮、氧、硅、铝、钙、铁等元素。
+煤在工业上曾经是获得芳香烃的重要来源，不同的煤含碳量不同，通常可以分为无烟煤（$95\%$）、烟煤（$70\sim80\%$）、褐煤（$50\sim70\%$）、泥煤（$50\sim60\%$）。煤除了碳以外，还含有少量的硫、磷、氢、氮、氧、硅、铝、钙、铁等元素。
 
 #### 煤的气化 {#_5}
 
@@ -149,7 +149,7 @@ $$
 
 经过脱水、脱盐的石油主要是烃类的混合物，没有固定的沸点。在烃分子里，一般含碳数越少沸点越低，含碳数越多沸点越高，不断加热和冷凝就可以把石油分成不同沸点范围的蒸馏产物，称为石油的分馏，分馏出来的各个成分叫做馏分，每一种馏分仍然是多种烃的混合物。
 
-::img[alt text]{src="../image-15.avif"}
+![alt text](../image-15.avif#class="custom-img"
 
 经过常压加热炉、常压分馏炉后，从分馏塔底部流出的称为重油，可以再加以分馏，但是在高温下，烃受热会分解，同时还会产生碳化结晶损坏设备，因此通常采用减压蒸馏的方法。外界压强越小，物质的沸点越低，仍然在减压分馏塔底部流出的称为渣油。润滑油馏分还要进行加工，脱去凡士林、石蜡等，经精制才能得到各种润滑油。渣油经过处理，可以制造沥青，或者焦化制取石油焦。
 
@@ -174,7 +174,7 @@ $$
 \ce{C16H34 ->[加热加压][催化剂] C8H18 + C8H16}
 $$
 
-::img[alt text]{src="../image-29.avif"}
+![alt text](../image-29.avif#class="custom-img"
 
 可以将重油转化为类似汽油的饱和烃和不饱和烃的混合物。
 
@@ -183,7 +183,7 @@ $$
 有些裂化产物还会继续分解，生成饱和或不饱和气态烃，得到乙烯、丙烯、甲烷等重要的化工原料，称为裂解即深度裂化。
 
 $$
-\begin{align} \ce{C8H18 &->[加热加压][催化剂] C4H10 + C4H8}\ \ce{C4H10 &->[加热加压][催化剂] C2H4 + C2H6}\ \ce{C4H10 &->[加热加压][催化剂] CH4 + C3H6}\ \end{align}
+\begin{align} \ce{C8H18 &->[加热加压][催化剂] C4H10 + C4H8}\\ \ce{C4H10 &->[加热加压][催化剂] C2H4 + C2H6}\\ \ce{C4H10 &->[加热加压][催化剂] CH4 + C3H6}\\ \end{align}
 $$
 
 实际生产过程中，热裂化过程如果温度过高，会发生结焦现象，影响生成的进行，因此通常使用催化剂，成为催化裂化。
@@ -237,7 +237,7 @@ $$
 - **取代反应**：分子中的一个原子或原子团被其他原子或原子团取代。
 
   $$
-  \begin{align} \ce{CH3CH3 + Cl2 &->[光照] CH3CH2Cl + HCl}\ \ce{CH3CH3 + \underset{液态溴}{Br2} &->[光照] CH3CH2Br + HBr} \end{align}
+  \begin{align} \ce{CH3CH3 + Cl2 &->[光照] CH3CH2Cl + HCl}\\ \ce{CH3CH3 + \underset{液态溴}{Br2} &->[光照] CH3CH2Br + HBr} \end{align}
   $$
 
 - **加成反应**：有双键或三键的物质中，重键打开，原来重键两端的原子各连接上一个新的基团。
@@ -288,7 +288,7 @@ $$
   - 炔烃同样可以加成，但是通常需要条件。
 
     $$
-    \begin{align} \ce{CH#CH + HCl &->[催化剂][\triangle] CH2=CHCl}\ \ce{CH#CH + H2O &->[催化剂][\triangle] \underset{CH2=CH-OH}{CH3CHO}} \end{align}
+    \begin{align} \ce{CH#CH + HCl &->[催化剂][\triangle] CH2=CHCl}\\ \ce{CH#CH + H2O &->[催化剂][\triangle] \underset{CH2=CH-OH}{CH3CHO}} \end{align}
     $$
 
 - **互变异构**：其中 $(3)$ 符合**互变异构**（酮-烯醇互变异构），发生反应：
@@ -302,13 +302,13 @@ $$
 - 1,3-二烯烃的加成反应：
 
   $$
-  \begin{align} \ce{CH2=CH-CH=CH2 + Br2 &->[高温][1,4-加成] ClCH2-CH(Cl)-CH=CH2}\ \ce{CH2=CH-CH=CH2 + Br2 &->[低温][1,2-加成] ClCH2-CH=CH-CH2Cl} \end{align}
+  \begin{align} \ce{CH2=CH-CH=CH2 + Br2 &->[高温][1,4-加成] ClCH2-CH(Cl)-CH=CH2}\\ \ce{CH2=CH-CH=CH2 + Br2 &->[低温][1,2-加成] ClCH2-CH=CH-CH2Cl} \end{align}
   $$
 
 - **加聚反应**：经加成反应形成高聚物的过程称为加成聚合反应，是含有不饱和键单体 $\pi$ 键断裂后加成聚合起来的反应。
 
   $$
-  \begin{align} \ce{n CH2=CH2 &->[催化剂] \underset{聚乙烯}{\poly{CH2-CH2}}}\ \ce{n CH2\bond{3}CH2 &->[催化剂] \underset{聚乙炔}{\poly{CH2=CH2}}} \end{align}
+  \begin{align} \ce{n CH2=CH2 &->[催化剂] \underset{聚乙烯}{\poly{CH2-CH2}}}\\ \ce{n CH2\bond{3}CH2 &->[催化剂] \underset{聚乙炔}{\poly{CH2=CH2}}} \end{align}
   $$
 
 - 二烯烃加聚：
@@ -326,7 +326,7 @@ $$
 - **氧化反应**：几乎所有的烃都可以燃烧。
 
   $$
-  \begin{align} \ce{C2H4 + 3 O2 &->[点燃] 2 CO2 + 2 H2O}\ \ce{C_xH_y + $\left(x+\dfrac{y}{4}\right)$ O2 &->[点燃] x CO2 + \dfrac{y}{2} H2O} \end{align}
+  \begin{align} \ce{C2H4 + 3 O2 &->[点燃] 2 CO2 + 2 H2O}\\ \ce{C_xH_y + $\left(x+\dfrac{y}{4}\right)$ O2 &->[点燃] x CO2 + \dfrac{y}{2} H2O} \end{align}
   $$
 
   完全燃烧：生成二氧化碳（$\ce{CO2}$）和水（$\ce{H2O}$）：
@@ -338,7 +338,7 @@ $$
   与醇的催化氧化类似（：
 
   $$
-  \begin{align} \ce{CH2=CH2 &->[KMnO4][H+] CO2}\ \ce{R-CH=CH-R' &->[KMnO4][H+] R-COOH + R'COOH}\ \ce{(CH3)2C=C(CH3)2 &->[KMnO4][H+] CH3C(O)CH3} \end{align}
+  \begin{align} \ce{CH2=CH2 &->[KMnO4][H+] CO2}\\ \ce{R-CH=CH-R' &->[KMnO4][H+] R-COOH + R'COOH}\\ \ce{(CH3)2C=C(CH3)2 &->[KMnO4][H+] CH3C(O)CH3} \end{align}
   $$
 
   此反应常用于检验碳碳双键的存在。
@@ -346,7 +346,7 @@ $$
   而炔烃的高锰酸钾氧化也类似（内部炔烃、末端炔烃、乙炔）：
 
   $$
-  \begin{align} \ce{R-C#C-R' &->[KMnO4][H+] R-COOH + R'-COOH}\ \ce{R-C#C-H &->[KMnO4][H+] R-COOH + H2O + CO2}\ \ce{H-C#C-H &->[KMnO4][H+] H2O + 2CO2} \end{align}
+  \begin{align} \ce{R-C#C-R' &->[KMnO4][H+] R-COOH + R'-COOH}\\ \ce{R-C#C-H &->[KMnO4][H+] R-COOH + H2O + CO2}\\ \ce{H-C#C-H &->[KMnO4][H+] H2O + 2CO2} \end{align}
   $$
 
   值得注意的是，以上描述的是强氧化条件（酸性、加热），如果使用温和的氧化条件，例如冷、稀、中性或碱性的高锰酸钾溶液（拜耳试剂），反应则完全不同：
@@ -361,7 +361,7 @@ $$
 
 **芳香烃**简称芳烃，为苯及其只含碳与氢的衍生物的总称，指分子结构中含有一个或者多个苯环的烃类化合物，最简单和最重要的芳香烃是苯及其同系物。芳烃可分为：**单环芳烃**、**稠环芳烃**，而具有链状的芳香烃一般称之为**脂芳烃**。
 
-::img[alt text]{src="../image-2.avif" width="70%"}
+![alt text](../image-2.avif#class="custom-img";float=70%"
 
 **苯**，为最简单的一种芳香烃，芳香族化合物皆由其衍生而成。苯结构是一个平面正六边形分子，碳原子以 $\text{sp2}$ 轨道键结，所以任二键互成 $\pu{120^o}$。苯的含碳量很高，在空气中燃烧产生明亮并带有浓烟的火焰。
 
@@ -377,14 +377,14 @@ $$
 
 - **鲍林式**：苯环的另一种常见画法是内部带有圆圈的正六边形，圆圈强调了 $6$ 个 $\pi$ 电子的离域作用和电子云的均匀分布，这很好的解释了碳碳键长均等性和苯环的完全对称性。但是这种方式用来表示其他芳香体系，如两个稠合的苯环，萘，容易造成误解。
 
-::img[alt text]{src="../image-14.avif"}
+![alt text](../image-14.avif#class="custom-img"
 
 化学性质：
 
 - **取代反应**：苯可以发生的取代反应有**卤代反应**、**硝化反应**、**磺化反应**等。
 
   $$
-  \begin{align} \ce{C6H6 + \underset{液态溴}{Br2} &->[FeBr3] C6H5Br + HBr}\ \ce{C6H6 + \underset{HNO3}{HO-NO2} &->[浓硫酸][50\sim60\pu{^oC}] \underset{硝基苯}{C6H5NO2} + H2O}\ \ce{C6H6 + \underset{H2SO4}{HO-SO3H} &<=>[浓硫酸][70\sim80\pu{^oC}] \underset{苯磺酸}{C6H5SO3H} + H2O} \end{align}
+  \begin{align} \ce{C6H6 + \underset{液态溴}{Br2} &->[FeBr3] C6H5Br + HBr}\\ \ce{C6H6 + \underset{HNO3}{HO-NO2} &->[浓硫酸][50\sim60\pu{^oC}] \underset{硝基苯}{C6H5NO2} + H2O}\\ \ce{C6H6 + \underset{H2SO4}{HO-SO3H} &<=>[浓硫酸][70\sim80\pu{^oC}] \underset{苯磺酸}{C6H5SO3H} + H2O} \end{align}
   $$
 
 - **加成反应**：苯与氢气加成反应生成环己烷，与氯气加成生成 $\ce{C6H6Cl6}$（六六六，一种农药）。
@@ -435,7 +435,7 @@ $$
 
 **稠环芳香烃**：又称多环芳香烃，是由两个或两个以上的苯环通过共用相邻的碳原子而形成的芳香烃。
 
-::img[alt text]{src="../naien.svg" width="50%"}
+![alt text](../naien.svg#class="custom-img";float=50%"
 
 - 萘^\[nai4\]^是一种无色片状晶体，有特殊的气味，不溶于水、易升华，有毒性，可以用来杀菌、防蛀、驱虫。
 
@@ -601,7 +601,7 @@ $$
 
 **醇**是羟基 $\ce{-OH}$ 与烃基相连的化合物，通式为 $\ce{ROH}$，而根据羟基所连接碳原子的类型，分为伯醇 $\ce{R-CH2-OH}$、仲醇 $\ce{R-CH(R1)-OH}$、叔醇 $\ce{R-C(R1)(R2)-OH}$，前面的更容易被氧化，我们将在催化氧化处详细解释。
 
-::img{src="../CH3CH2OH.svg" width="40%"}
+![alt text](../CH3CH2OH.svg#class="custom-img";float=40%"
 
 一般来说，饱和一元烃随分子中碳原子数增加，沸点逐渐升高。分子中羟基越多，越容易形成更多的氢键，沸点越高，且远远高于相近分子量的烷烃。同样因为氢键，醇的水溶性好，甲醇、乙醇、丙醇均与水互溶。
 
@@ -619,7 +619,7 @@ $$
   \ce{2CH3CH2OH + 2Na -> 2CH3CH2ONa + H2 ^}
   $$
 
-  ::img[alt text]{src="../image-30.avif"}
+  ![alt text](../image-30.avif#class="custom-img"
 
   据此，我们可以得出，乙醇可以视作一种比水还弱的弱酸，因此该反应的产物乙醇钠在水中会强烈水解。此外，这个反应本质上属于置换反应，有些教材会说因为有有机物参与所以是取代反应，这其实是泛化的取代反应，实际上的取代反应需要一个过程（详见有机化学机理部分），而这个反应本质上还是钠与乙醇"电离"出的氢离子反应，没有取代的过程，因此严格来说不属于取代反应。
 
@@ -683,7 +683,7 @@ $$
   \ce{H2C=O + H2O <=> \underset{甲二醇}{H2C(OH)2}}
   $$
 
-  在水溶液中，超过 $99.9%$ 的甲醛是以甲二醇的形式存在的。这是因为甲醛的羰基碳位阻最小，且反应性很高，容易被水攻击。
+  在水溶液中，超过 $99.9\%$ 的甲醛是以甲二醇的形式存在的。这是因为甲醛的羰基碳位阻最小，且反应性很高，容易被水攻击。
 
 **酚**是羟基与苯环直接相连形成的化合物，最简单的酚为本分 $\ce{C6H6O}$。
 
@@ -737,7 +737,7 @@ $$
 
 ### 醛和酮【Z2】 {#z2}
 
-甲醛：俗名蚁醛，最简单的醛类物质，是一种无色、有强烈刺激性气味的气体，易溶于水，质量分数为 $35%\sim40%$ 的水溶液叫做福尔马林，具有防腐和杀菌能力，常作防腐杀菌剂（消毒、浸制标本）；制药（农药、消毒剂），香料，染料；制造酚醛树脂、脲醛树脂、维纶等。
+甲醛：俗名蚁醛，最简单的醛类物质，是一种无色、有强烈刺激性气味的气体，易溶于水，质量分数为 $35\%\sim40\%$ 的水溶液叫做福尔马林，具有防腐和杀菌能力，常作防腐杀菌剂（消毒、浸制标本）；制药（农药、消毒剂），香料，染料；制造酚醛树脂、脲醛树脂、维纶等。
 
 苯甲醛：苯甲醛是最简单的芳香醛，俗称苦杏仁油，是一种有苦杏仁味的无色液体。
 
@@ -765,7 +765,7 @@ $$
   - 利用醛基的还原性，将银离子还原为金属银，银在试管内壁形成光亮的银镜，称为银镜反应，可用于在玻璃表面镀银制镜。
 
     $$
-    \begin{align} \ce{2 Ag+ + 2 OH- &-> Ag2O + H2O}\ \ce{Ag2O + H2O + 4NH3 &-> 2[Ag(NH3)2]OH}\ \ce{CH3CHO + 2[Ag(NH3)2]OH &-> H2O + 2Ag v + 3NH3 \&\qquad + CH3COONH4}\ \end{align}
+    \begin{align} \ce{2 Ag+ + 2 OH- &-> Ag2O + H2O}\\ \ce{Ag2O + H2O + 4NH3 &-> 2[Ag(NH3)2]OH}\\ \ce{CH3CHO + 2[Ag(NH3)2]OH &-> H2O + 2Ag v + 3NH3 \\&\qquad + CH3COONH4}\\ \end{align}
     $$
 
     简记为：水银铵，123，再加一个羧酸铵。
@@ -801,7 +801,7 @@ $$
 - **加成反应**：由于碳氧双键（羰基）的存在，可以与氢气、氢氰酸等发生加成带，正电的结合在氧上。
 
   $$
-  \begin{align} \ce{CH3CHO + H2 &->[催化剂][\triangle] CH3CH2OH}\ \ce{CH3CHO + HCN &->[催化剂] CH3CH(CN)(OH)} \end{align}
+  \begin{align} \ce{CH3CHO + H2 &->[催化剂][\triangle] CH3CH2OH}\\ \ce{CH3CHO + HCN &->[催化剂] CH3CH(CN)(OH)} \end{align}
   $$
 
 - 乙醛的工业制取：
@@ -815,7 +815,7 @@ $$
 - **加成反应**：由于碳氧双键（羰基）的存在，可以与氢气、氢氰酸等发生加成带，正电的结合在氧上。
 
   $$
-  \begin{align} \ce{CH3C(O)CH3 + H2 &->[催化剂][\triangle] CH3CH(OH)CH3}\ \ce{CH3C(O)CH3 + HCN &->[催化剂] CH3C(OH)(CN)CH3}\ \ce{CH3C(O)CH3 + RNH2 &->[催化剂][\triangle] CH3C(OH)(NHR)CH3} \end{align}
+  \begin{align} \ce{CH3C(O)CH3 + H2 &->[催化剂][\triangle] CH3CH(OH)CH3}\\ \ce{CH3C(O)CH3 + HCN &->[催化剂] CH3C(OH)(CN)CH3}\\ \ce{CH3C(O)CH3 + RNH2 &->[催化剂][\triangle] CH3C(OH)(NHR)CH3} \end{align}
   $$
 
 \| \| 银镜反应 \| 斐林试剂 \| \| 反应溶液 \| 新制银氨溶液 \| 新制 $\ce{Cu(OH)2}$ 悬浊液 \| \| 反应现象 \| 产生光亮银镜 \| 产生砖红色沉淀 \| \| 定量关系 \| $\ce{R-CHO}\sim2\ce{Ag}$ \| $\ce{R-CHO}\sim2\ce{Cu(OH)2}\sim\ce{Cu2O}$ \| \| 加热方式 \| 水浴加热 \| 直接加热煮沸 \| \| 反应环境 \| 银氨溶液显强碱性 \| 必须 $\ce{NaOH}$ 过量 \| \| 仪器洗涤 \| 用稀硝酸浸泡 \| 用稀硝酸浸泡 \|
@@ -948,7 +948,7 @@ $$
 
 7.  常温常压下的状态不同
 
-    - **甲醛**：常温常压下是**气体**（标况下也是气体）。它是高中阶段唯一需要记住的**气态含氧衍生物**。我们常说的"福尔马林"是它的 $35%\sim 40%$ 的水溶液。
+    - **甲醛**：常温常压下是**气体**（标况下也是气体）。它是高中阶段唯一需要记住的**气态含氧衍生物**。我们常说的"福尔马林"是它的 $35\%\sim 40\%$ 的水溶液。
 
     - **乙醛**：常温下是**极易挥发的液体**（沸点 $\pu{20.8^oC}$）。所以在标况下（$\pu{0^oC}$），乙醛是液体。
 
@@ -966,7 +966,7 @@ $$
 
 有机酸是指一些具有酸性的有机化合物，最常见的有机酸是羧酸（$\ce{R-COOH}$），其酸性源于羧基（$\ce{-COOH}$）。磺酸（$\ce{R-SO3H}$）、亚磺酸（$\ce{R-SOOH}$）、硫羧酸（$\ce{R-SH}$）等也属于有机酸。
 
-::img[alt text]{src="../image-16.avif"}
+![alt text](../image-16.avif#class="custom-img"
 
 常见羧酸：
 
@@ -982,7 +982,7 @@ $$
 - **溶解性**：分子中碳原子数在 4 以下的羧酸能与水互溶。随着分子中碳原子数的增加，一元羧酸在水中的溶解度迅速减小，甚至不溶于水（高级脂肪酸是不溶于水的蜡状固体）。
 - **沸点**：羧酸分子间可以形成氢键，由于羧酸分子形成氢键的机会比相对分子质量相近的醇多，羧酸的沸点比相应的醇的沸点高，并且随着分子中碳原子数的增加，一元羧酸的沸点逐渐升高。
 
-::img{src="../CnH2nO2.avif"}
+![alt text](../CnH2nO2.avif#class="custom-img"
 
 - **酸性**：羧酸通常为弱酸，羧基可以电离出氢离子。
 
@@ -1073,7 +1073,7 @@ $$
 - **水解反应**：在酸性条件下，浓硫酸催化；碱性条件下加热即可反应。
 
   $$
-  \begin{align} \ce{RCOOR' &+ H2O <=>[浓硫酸][\triangle] RCOOH + HOR'}\ \ce{RCOOR' &+ NaOH ->[\triangle] RCOONa + HOR'} \end{align}
+  \begin{align} \ce{RCOOR' &+ H2O <=>[浓硫酸][\triangle] RCOOH + HOR'}\\ \ce{RCOOR' &+ NaOH ->[\triangle] RCOONa + HOR'} \end{align}
   $$
 
   用脂肪与氢氧化钾反应，即可得到高级脂肪酸的钠盐，得到肥皂，称为皂化反应。
@@ -1091,7 +1091,7 @@ $$
 - **水解反应**：一般条件下不反应，在强酸强碱存在时，加热可水解。
 
   $$
-  \begin{align} \ce{RCONH2 + H3O+ &->[\triangle] RCOOH + NH4+}\ \ce{RCONH2 + OH- &->[\triangle] RCOO- + NH3} \end{align}
+  \begin{align} \ce{RCONH2 + H3O+ &->[\triangle] RCOOH + NH4+}\\ \ce{RCONH2 + OH- &->[\triangle] RCOO- + NH3} \end{align}
   $$
 
 **腈**，含有氰基的有机化合物，通式为 $\ce{R-C#N}$ 或 $\ce{R-CN}$。
@@ -1151,7 +1151,7 @@ $$
 
 - 也称磷脂质，是含有磷酸的脂类，属于复合脂。磷脂为两性分子，一端为亲水的含氮或磷的头，另一端为疏水（亲油）的长烃基链。
 
-  ::img{src="../Phospholipid.svg" width="50%"}
+  ![alt text](../Phospholipid.svg#class="custom-img";float=50%"
 
 - 由于此原因，磷脂分子亲水端相互靠近，疏水端相互靠近，常与蛋白质、糖脂、胆固醇等其他分子共同构成脂双分子层，即细胞膜的结构，是细胞中所有膜状构造的主要成分。
 
@@ -1159,7 +1159,7 @@ $$
 
 - 糖脂是通过糖苷键连接的碳水化合物的脂质，它们的作用是保持膜的稳定性并促进细胞识别。在所有真核细胞膜的表面上发现这些碳水化合物。
 
-  ::img{src="../Glycolipid.svg" width="50%"}
+  ![alt text](../Glycolipid.svg#class="custom-img";float=50%"
 
 - 它们从磷脂双层延伸到细胞外的含水环境中; 磷脂双层作为特定化学物质的识别位点，有助于保持膜的稳定性并使细胞彼此附着以形成组织。
 
@@ -1173,7 +1173,7 @@ $$
 
 注意：油脂不是高分子化合物。油脂是甘油（丙三醇）与三个高级脂肪酸通过酯化反应形成的酯：
 
-::img{src="../油脂.svg" width="70%"}
+![alt text](../油脂.svg#class="custom-img";float=70%"
 
 三个脂肪酸 $\ce{RCOOH},\ce{R'COOH},\ce{R''COOH}$ 可能为相同（简单甘油酯）、相异或部份相异（混合甘油酯）的烷基。
 
@@ -1185,14 +1185,14 @@ $$
 
 **腺甾烷**另译甾烷，或称甾核，由三个环己烷和一个环戊烷共四个烃环融合而成。
 
-::img{src="../Steran_num_ABCD.svg" width="40%"}
+![alt text](../Steran_num_ABCD.svg#class="custom-img";float=40%"
 
 腺甾烷的衍生物：
 
 ::: {#table1}
-| ![](../Gonane.svg) 腺甾烷 | ![](../Androstane.svg) 雄烷 | ![](../Estrane.svg) 雌烷 | ![](../Pregnan.svg) 孕烷 | ![](../Cholane.svg) 胆烷 |
+| ![alt text](../Gonane.svg#class="custom-img" 腺甾烷 | ![alt text](../Androstane.svg#class="custom-img" 雄烷 | ![alt text](../Estrane.svg#class="custom-img" 雌烷 | ![alt text](../Pregnan.svg#class="custom-img" 孕烷 | ![alt text](../Cholane.svg#class="custom-img" 胆烷 |
 |:--:|:--:|:--:|:--:|:--:|
-| ![](../Cholesterol.svg) 胆固醇 | ![](../Testosteron.svg) 睾酮 | ![](../Estradiol.svg) 雌二醇 | ![](../Progesteron.svg) 孕酮 | ![](../Cholic_acid.svg) 胆酸 |
+| ![alt text](../Cholesterol.svg#class="custom-img" 胆固醇 | ![alt text](../Testosteron.svg#class="custom-img" 睾酮 | ![alt text](../Estradiol.svg#class="custom-img" 雌二醇 | ![alt text](../Progesteron.svg#class="custom-img" 孕酮 | ![alt text](../Cholic_acid.svg#class="custom-img" 胆酸 |
 :::
 
 类固醇又称甾体、类甾醇，其特征是有一个四环的母核（甾核）。必须注意的是，类固醇的意思是类似固醇，其不一定属于醇类；为避免名称中类与醇在上下文中造成误解或歧义，常改称甾体。
@@ -1203,7 +1203,7 @@ $$
 
 1.  肥皂的去污作用：
 
-    普通的肥皂约含质量分数 $70%$ 的高级脂肪酸的钠盐，$30%$ 的水和少量的盐。有些肥皂内还加有填充剂、香料及染料等。肥皂的去污作用主要是高级脂肪酸的钠盐的作用。从结构上看，高级脂肪酸钠的分子可以分为两部分，一部分是极性的 $\ce{-COONa}$ 或 $\ce{—COO-}$，这一部分可溶于水，叫做亲水基。另一部分是非极性的链状的烃基 $\ce{—R}$，这一部分在结构上跟水的差别很大，不能溶于水，叫做憎水基。憎水基具有亲油的性质。在洗涤的过程中，污垢中的油脂跟肥皂接触后，高级脂肪酸钠分子的烃基就插入油滴内。而易溶于水的羧基部分伸在油滴外面，插入水中。这样油滴就被肥皂分子包围起来。再经摩擦、振动，大的油滴便分散成小的油珠，最后脱离被洗的纤维织品，而分散到水中形成乳浊液，从而达到洗涤的目的。
+    普通的肥皂约含质量分数 $70\%$ 的高级脂肪酸的钠盐，$30\%$ 的水和少量的盐。有些肥皂内还加有填充剂、香料及染料等。肥皂的去污作用主要是高级脂肪酸的钠盐的作用。从结构上看，高级脂肪酸钠的分子可以分为两部分，一部分是极性的 $\ce{-COONa}$ 或 $\ce{—COO-}$，这一部分可溶于水，叫做亲水基。另一部分是非极性的链状的烃基 $\ce{—R}$，这一部分在结构上跟水的差别很大，不能溶于水，叫做憎水基。憎水基具有亲油的性质。在洗涤的过程中，污垢中的油脂跟肥皂接触后，高级脂肪酸钠分子的烃基就插入油滴内。而易溶于水的羧基部分伸在油滴外面，插入水中。这样油滴就被肥皂分子包围起来。再经摩擦、振动，大的油滴便分散成小的油珠，最后脱离被洗的纤维织品，而分散到水中形成乳浊液，从而达到洗涤的目的。
 
 2.  合成洗涤剂：
 
@@ -1253,24 +1253,24 @@ $$
 <tbody>
 <tr>
 <td style="text-align: center;">戊糖</td>
-<td style="text-align: center;"><img src="../DL-Ribose.svg" /><br />
+<td style="text-align: center;"><br />
 核糖</td>
-<td style="text-align: center;"><img src="../DL-Arabinose.svg" /><br />
+<td style="text-align: center;"><br />
 阿拉伯糖</td>
-<td style="text-align: center;"><img src="../DL-Xylose.svg" /><br />
+<td style="text-align: center;"><br />
 木糖</td>
-<td style="text-align: center;"><img src="../DL-Lyxose.svg" /><br />
+<td style="text-align: center;"><br />
 来苏糖</td>
 </tr>
 <tr>
 <td style="text-align: center;">己糖</td>
-<td style="text-align: center;"><img src="../DL-Glucose.svg" /><br />
+<td style="text-align: center;"><br />
 葡萄糖</td>
-<td style="text-align: center;"><img src="../DL-Galactose.svg" /><br />
+<td style="text-align: center;"><br />
 半乳糖</td>
-<td style="text-align: center;"><img src="../DL-Fructose.svg" /><br />
+<td style="text-align: center;"><br />
 果糖</td>
-<td style="text-align: center;"><img src="../DL-Sorbose.svg" /><br />
+<td style="text-align: center;"><br />
 山梨糖</td>
 </tr>
 </tbody>
@@ -1410,7 +1410,7 @@ $$
 
 1.  制造纤维素硝酸酯。
 
-    棉花和浓硝酸浓硫酸在一定条件下，生成以纤维素三硝酸酯为代表的火棉（含氮量 $12.5%\sim13.8%$），而含氮量低（$10.5%\sim12%$）的称为胶棉。
+    棉花和浓硝酸浓硫酸在一定条件下，生成以纤维素三硝酸酯为代表的火棉（含氮量 $12.5\%\sim13.8\%$），而含氮量低（$10.5\%\sim12\%$）的称为胶棉。
 
     火棉遇火迅速燃烧，在密闭容器中发生爆炸，可用作无烟火药；胶棉也易于燃烧，但并不爆炸。
 
@@ -1426,7 +1426,7 @@ $$
 
 氨基酸，是构成蛋白质的基本单位，赋予蛋白质特定的分子结构形态，使其分子具有生化活性。不同的氨基酸脱水缩合形成肽，其缩合产生的酰胺键称肽键。肽虽然和蛋白质在化学本质上除了聚合的长度外没什么不同，但是往往不像蛋白质有多级构造与特定功能。
 
-::img{src="../Amino_acid_generic_structure.avif" width="50%"}
+![alt text](../Amino_acid_generic_structure.avif#class="custom-img";float=50%"
 
 <center>
 
@@ -1436,7 +1436,7 @@ $\alpha$ 氨基酸的结构式
 
 根据氨基连结在羧酸中碳原子的位置，可将氨基酸分为 $\alpha,\beta,\gamma,\delta,\dots$ 等类型，在生物化学中，若无明示，氨基酸通常默认 $\alpha$ 氨基酸，即胺基和羧基直接连接在同一个 $\ce{-CH-}$ 结构上的氨基酸，其通式是 $\ce{H2N-CHR-COOH}$。
 
-::img{src="../Amino_Acids.avif" width="100%"}
+![alt text](../Amino_Acids.avif#class="custom-img";float=100%"
 
 天然的氨基酸都是无色结晶，熔点约在 $\pu{230^oC}$ 以上，都能溶于强酸或强碱溶液中，除胱胺酸、酪胺酸、二碘甲状腺素外，均易溶于水；除脯胺酸和羟脯胺酸外，均难溶于乙醇和乙醚。 具有两性，有碱性（二元胺基一元羧酸）、酸性（一元胺基二元羧酸）、中性（一元胺基一元羧酸）三种类型。大多数氨基酸都呈显不同程度的酸性或碱性，呈显中性的较少，所以既能与酸结合成盐，也能与碱结合成盐。
 
@@ -1448,7 +1448,7 @@ $\alpha$ 氨基酸的结构式
 
 氨基酸的侧链是构成蛋白质结构的重要元素，它们具有不同的化学性质，因此对于蛋白质的功能至关重要。多肽链中的氨基酸之间是通过脱水反应所形成的肽键来互相连接；一旦形成肽键成为蛋白质的一部分，氨基酸就被称为残基，而连接在链的碳、氮、氧原子被称为主链或蛋白质骨架。
 
-::img{src="../Peptidformationball-8dec250.avif" width="80%"}
+![alt text](../Peptidformationball-8dec250.avif#class="custom-img";float=80%"
 
 由于氨基酸的非对称性（两端分别具有氨基和羧基），蛋白质链具有方向性。蛋白质链的起始端有自由的氨基，被称为 $\ce{N}$ 端或氨基端；尾端则有自由的羧基，被称为 $\ce{C}$ 端或羧基端。
 
@@ -1462,7 +1462,7 @@ $\alpha$ 氨基酸的结构式
 
 - 蛋白质四级结构：由几个蛋白质分子（多肽链），通常称为蛋白质亚基所形成的结构，在功能上作为一个蛋白质复合体。
 
-::img{src="../225_Peptide_Bond-01.avif" width="100%"}
+![alt text](../225_Peptide_Bond-01.avif#class="custom-img";float=100%"
 
 蛋白质并不完全是刚性分子，许多蛋白质在执行生物学功能时可以在多个相关结构中相互转换。在进行功能型结构重排时，这些相关的三级或四级结构通常被定义为不同构象，而这些结构之间的转换就被称为构象变换。例如，酶的构象变换常常是由底物结合到活性位点所导致。在溶液中，所有的蛋白质都会发生结构上的动态变化，主要表现为热振动和与其他分子之间碰撞所导致的运动。
 
@@ -1478,13 +1478,13 @@ $\alpha$ 氨基酸的结构式
 
 核酸的单体结构为核苷酸，每个核苷酸由一个核苷（一个五碳糖、一个含氮碱基）和一个或多个磷酸基团组成。
 
-::img{src="../Nucleotides_zh.avif" width="90%"}
+![alt text](../Nucleotides_zh.avif#class="custom-img";float=90%"
 
 - 如果其五碳糖是脱氧核糖，则此单体的聚合物是脱氧核糖核酸 DNA。
 
 - 如果其五碳糖是核糖，则此单体的聚合物是核糖核酸 RNA。
 
-::img{src="../Difference_DNA_RNA-ZH.svg" width="90%"}
+![alt text](../Difference_DNA_RNA-ZH.svg#class="custom-img";float=90%"
 
 核酸的结构可分为一级结构、二级结构、三级结构和四级结构。
 
@@ -1513,4 +1513,4 @@ $\alpha$ 氨基酸的结构式
 
 最终形成脱氧核糖核酸的形式如下：
 
-::img{src="../DNA_Structure.avif" width="90%"}
+![alt text](../DNA_Structure.avif#class="custom-img";float=90%"

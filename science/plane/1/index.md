@@ -77,11 +77,11 @@
 定义平面直角坐标系中的点 $P(x,y)$，将 $P$ 转移到斜坐标系中变成 $P'(x',y')$ 满足：
 
 $$
-\begin{cases} x'=x+y\cos\theta\ y'=y\sin\theta \end{cases}
+\begin{cases} x'=x+y\cos\theta\\ y'=y\sin\theta \end{cases}
 $$
 
 $$
-\begin{cases} x=x'-\dfrac{y'}{\tan\theta}\ y=\dfrac{y'}{\sin\theta} \end{cases}
+\begin{cases} x=x'-\dfrac{y'}{\tan\theta}\\ y=\dfrac{y'}{\sin\theta} \end{cases}
 $$
 
 于是我们可以把平面向量在平面直角坐标系中的一些运算迁移到斜坐标系中：
@@ -108,7 +108,7 @@ $$
 根据数乘的定义，可以得出向量的数乘满足交换律、结合律、分配律等，即，
 
 $$
-\lambda(\mu\bm a)=(\lambda\mu)\bm a\ \lambda(\bm a+\bm b)=\lambda\bm a+\lambda\bm b\ (\lambda+\mu)\bm a=\lambda\bm a+\mu\bm a\ (-\lambda)\bm a=-(\lambda\bm a)=\lambda(-\bm a)
+\lambda(\mu\bm a)=(\lambda\mu)\bm a\\ \lambda(\bm a+\bm b)=\lambda\bm a+\lambda\bm b\\ (\lambda+\mu)\bm a=\lambda\bm a+\mu\bm a\\ (-\lambda)\bm a=-(\lambda\bm a)=\lambda(-\bm a)
 $$
 
 ### 向量加法 {#_9}
@@ -133,7 +133,7 @@ $$
 
   起点为两个向量共有的起点，方向沿平行四边形对角线方向。
 
-::img[alt text]{src="../image-2.avif"}
+![alt text](../image-2.avif#class="custom-img"
 
 这样，向量的加法就具有了几何意义。并且向量的加法满足交换律与结合律。
 
@@ -160,7 +160,7 @@ $$
 设 $C(x,y)$ 为线段 $AB$ 中点，则 $\overrightarrow{AC}=\overrightarrow{CB}$：
 
 $$
-x-x_1=x_2-x\ y-y_1=y_2-y
+x-x_1=x_2-x\\ y-y_1=y_2-y
 $$
 
 最终解得，
@@ -271,7 +271,7 @@ $$
 可以得到，若 $\bm b\neq\bm c$，$\bm a\cdot\bm b=\bm a\cdot\bm c$ 的充要条件是 $\bm a\perp(\bm b-\bm c)$，
 
 $$
-\bm a\cdot\bm b=\bm a\cdot\bm c\ \bm a\cdot(\bm b-\bm c)=\vec0
+\bm a\cdot\bm b=\bm a\cdot\bm c\\ \bm a\cdot(\bm b-\bm c)=\vec0
 $$
 
 即，
@@ -283,7 +283,7 @@ $$
 我们可以发现，
 
 $$
-|\bm a+\bm b|^2-|\bm a-\bm b|^2=4\bm a\cdot\bm b\ \bm a\cdot\bm b={1\over4}\left(|\bm a+\bm b|^2-|\bm a-\bm b|^2\right)
+|\bm a+\bm b|^2-|\bm a-\bm b|^2=4\bm a\cdot\bm b\\ \bm a\cdot\bm b={1\over4}\left(|\bm a+\bm b|^2-|\bm a-\bm b|^2\right)
 $$
 
 即极化恒等式，我们可以不通过求夹角的方式得出两向量点积。
@@ -291,25 +291,25 @@ $$
 同时，常用的，
 
 $$
-\begin{aligned} |\bm a+\bm b|&=\lambda\ (\bm a+\bm b)\cdot(\bm a+\bm b)&=\lambda^2\ |\bm a|^2+2\bm a\cdot\bm b+|\bm b|^2&=\lambda^2 \end{aligned}
+\begin{aligned} |\bm a+\bm b|&=\lambda\\ (\bm a+\bm b)\cdot(\bm a+\bm b)&=\lambda^2\\ |\bm a|^2+2\bm a\cdot\bm b+|\bm b|^2&=\lambda^2 \end{aligned}
 $$
 
 即，
 
 $$
-|\bm a|^2+2\bm a\cdot\bm b+|\bm b|^2=|\bm a+\bm b|^2\ \bm a\cdot\bm b={1\over2}\left(|\bm a+\bm b|^2-|\bm a|^2-|\bm b|^2\right)\
+|\bm a|^2+2\bm a\cdot\bm b+|\bm b|^2=|\bm a+\bm b|^2\\ \bm a\cdot\bm b={1\over2}\left(|\bm a+\bm b|^2-|\bm a|^2-|\bm b|^2\right)\\
 $$
 
 总结一下，上面两个式子，
 
 $$
-\bm a\cdot\bm b={1\over4}\left(|\bm a+\bm b|^2-|\bm a-\bm b|^2\right)\ \bm a\cdot\bm b={1\over2}\left(|\bm a+\bm b|^2-|\bm a|^2-|\bm b|^2\right)\
+\bm a\cdot\bm b={1\over4}\left(|\bm a+\bm b|^2-|\bm a-\bm b|^2\right)\\ \bm a\cdot\bm b={1\over2}\left(|\bm a+\bm b|^2-|\bm a|^2-|\bm b|^2\right)\\
 $$
 
 再结合点乘的定义，
 
 $$
-\bm a\cdot\bm b=|\bm a|\cdot|\bm b|\cdot\cos\theta\ \cos\theta={\bm a\cdot\bm b\over|\bm a|\cdot|\bm b|}
+\bm a\cdot\bm b=|\bm a|\cdot|\bm b|\cdot\cos\theta\\ \cos\theta={\bm a\cdot\bm b\over|\bm a|\cdot|\bm b|}
 $$
 
 就可以求出向量夹角。
@@ -317,7 +317,7 @@ $$
 特殊的，
 
 $$
-\theta=0\,(\cos\theta=1),\,\bm a\cdot\bm b=|\bm a|\cdot|\bm b|\ \theta=\pi\,(\cos\theta=-1),\,\bm a\cdot\bm b=-|\bm a|\cdot|\bm b|\ \theta=\pi/2\,(\cos\theta=0),\,\bm a\cdot\bm b=0\ \bm a\cdot\bm a=|\bm a|^2,\,|\bm a|=\sqrt{\bm a\cdot\bm a}\
+\theta=0\,(\cos\theta=1),\,\bm a\cdot\bm b=|\bm a|\cdot|\bm b|\\ \theta=\pi\,(\cos\theta=-1),\,\bm a\cdot\bm b=-|\bm a|\cdot|\bm b|\\ \theta=\pi/2\,(\cos\theta=0),\,\bm a\cdot\bm b=0\\ \bm a\cdot\bm a=|\bm a|^2,\,|\bm a|=\sqrt{\bm a\cdot\bm a}\\
 $$
 
 经典的套路是，见模长便平方。
@@ -371,7 +371,7 @@ $$
 唯一性的证明，反证：假设存在两组实数 $\langle x_1,y_1\rangle$、$\langle x_2,y_2\rangle$，
 
 $$
-\bm a=x_1\bm e_1+y_1\bm e_2=x_2\bm e_1+y_2\bm e_2\ \bm e_1(x_1-x_2)=\bm e_2(y_2-y_1)
+\bm a=x_1\bm e_1+y_1\bm e_2=x_2\bm e_1+y_2\bm e_2\\ \bm e_1(x_1-x_2)=\bm e_2(y_2-y_1)
 $$
 
 因为 $x_1\neq x_2,y_1\neq y_2$，则 $\bm e_1,\bm e_2$ 共线，与条件不符，因此存在唯一性。
@@ -381,7 +381,7 @@ $$
 若，
 
 $$
-\bm a\cdot\bm e_1=a_1,\,\bm a\cdot\bm e_2=a_2\ \langle\bm e_1,\bm e_2\rangle=\theta
+\bm a\cdot\bm e_1=a_1,\,\bm a\cdot\bm e_2=a_2\\ \langle\bm e_1,\bm e_2\rangle=\theta
 $$
 
 设，$\bm a=x\bm e_1+y\bm e_2$，用 $a_1,a_2,\theta$ 表示 $\bm a$。
@@ -389,19 +389,19 @@ $$
 考虑，
 
 $$
-\bm e_1\bm e_2=\cos\theta\ \bm a\cdot\bm e_1=x+y\bm e_1\bm e_2=a_1\ \bm a\cdot\bm e_2=y+x\bm e_1\bm e_2=a_2
+\bm e_1\bm e_2=\cos\theta\\ \bm a\cdot\bm e_1=x+y\bm e_1\bm e_2=a_1\\ \bm a\cdot\bm e_2=y+x\bm e_1\bm e_2=a_2
 $$
 
 列出方程组，
 
 $$
-\begin{cases} x+y\cos\theta=a_1\ y+x\cos\theta=a_2 \end{cases}
+\begin{cases} x+y\cos\theta=a_1\\ y+x\cos\theta=a_2 \end{cases}
 $$
 
 解得，
 
 $$
-\left{\begin{aligned} x={a_1-a_2\cos\theta\over\sin^2\theta}\ y={a_2-a_1\cos\theta\over\sin^2\theta} \end{aligned}\right.
+\left\{\begin{aligned} x={a_1-a_2\cos\theta\over\sin^2\theta}\\ y={a_2-a_1\cos\theta\over\sin^2\theta} \end{aligned}\right.
 $$
 
 这个思想很重要，常用一个很奇怪的式子，去点乘两个不共线向量。
@@ -419,7 +419,7 @@ $$
 证明如下：
 
 $$
-\begin{aligned} \vecc{AQ}&=\lambda\vecc{AB}\ \vecc{OQ}-\vecc{OA}&=\lambda(\vecc{OB}-\vecc{OA}) \end{aligned}
+\begin{aligned} \vecc{AQ}&=\lambda\vecc{AB}\\ \vecc{OQ}-\vecc{OA}&=\lambda(\vecc{OB}-\vecc{OA}) \end{aligned}
 $$
 
 类似的，若 $C$ 是线段 $AB$ 中点，则对于任意一点 $O$，有，
@@ -432,8 +432,8 @@ $$
 
 ### 等系数和线 {#_21}
 
-::img[等系数和线]{src="../等系数和线.avif" width="100%"}
+![等系数和线](../%E7%AD%89%E7%B3%BB%E6%95%B0%E5%92%8C%E7%BA%BF.avif#class="custom-img";float=100%"
 
 证明过程：
 
-::img[等和线]{src="../image-1.avif" width="100%"}
+![等和线](../image-1.avif#class="custom-img";float=100%"

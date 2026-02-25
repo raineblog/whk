@@ -9,7 +9,7 @@ $$
 - 求 $B$.
 
 $$
-\cos B=2\cos^2{B\over2}-1\ \cos B+\sqrt3\sin B=2\ {\sqrt3\over2}\sin B+{1\over2}\cos B=1\ \sin B\cos30^\circ+\cos B\sin30^\circ=1\ \sin(B+30^\circ)=1=\sin90^\circ\ B=60^\circ
+\cos B=2\cos^2{B\over2}-1\\ \cos B+\sqrt3\sin B=2\\ {\sqrt3\over2}\sin B+{1\over2}\cos B=1\\ \sin B\cos30^\circ+\cos B\sin30^\circ=1\\ \sin(B+30^\circ)=1=\sin90^\circ\\ B=60^\circ
 $$
 
 ## 例题二 {#_3}
@@ -24,31 +24,31 @@ $$
 观察到是角的二次齐次式，且都是正弦，考虑正弦定理，
 
 $$
-(\sin B-\sin C)^2=\sin^2 A-\sin B\sin C\ (b-c)^2=a^2-bc\ b^2+c^2-2bc=a^2-bc\ a^2=b^2+c^2-bc
+(\sin B-\sin C)^2=\sin^2 A-\sin B\sin C\\\\ (b-c)^2=a^2-bc\\\\ b^2+c^2-2bc=a^2-bc\\\\ a^2=b^2+c^2-bc
 $$
 
 于是，
 
 $$
-\cos A={b^2+c^2-a^2\over2bc}={1\over2}\ A=60^\circ
+\cos A={b^2+c^2-a^2\over2bc}={1\over2}\\\\ A=60^\circ
 $$
 
 观察到 $\sqrt2a + b= 2c$ 为边的一次齐次，考虑用正弦定理。
 
 $$
-\sqrt2a+b=2c\ \sqrt2\sin A+\sin B=2\sin C
+\sqrt2a+b=2c\\\\ \sqrt2\sin A+\sin B=2\sin C
 $$
 
 根据上一问，$\sin A=\sin60^\circ=\sqrt3/2$，
 
 $$
-\sqrt6/2+\sin B=2\sin C\ \sqrt6/2+\sin(120-C)=2\sin C\ \sqrt6/2+\sqrt3/2\cos C+\sin C/2=2\sin C
+\sqrt6/2+\sin B=2\sin C\\\\ \sqrt6/2+\sin(120-C)=2\sin C\\\\ \sqrt6/2+\sqrt3/2\cos C+\sin C/2=2\sin C
 $$
 
 继续整理，
 
 $$
-{\sqrt6\over2}+{\sqrt3\over2}\cos C+{1\over2}\sin C=2\sin C\ {3\over2}\sin C-{\sqrt3\over2}\cos C={\sqrt6\over2}\ {\sqrt3\over2}\sin C-{1\over2}\cos C={\sqrt2\over2}\ \sin C\cos30^\circ-\cos C\sin30^\circ={\sqrt2\over2}\ \sin(C-30^\circ)={\sqrt2\over2}=\sin45^\circ
+{\sqrt6\over2}+{\sqrt3\over2}\cos C+{1\over2}\sin C=2\sin C\\\\ {3\over2}\sin C-{\sqrt3\over2}\cos C={\sqrt6\over2}\\\\ {\sqrt3\over2}\sin C-{1\over2}\cos C={\sqrt2\over2}\\\\ \sin C\cos30^\circ-\cos C\sin30^\circ={\sqrt2\over2}\\\\ \sin(C-30^\circ)={\sqrt2\over2}=\sin45^\circ
 $$
 
 因为 $C \in (0^\circ,120 ^\circ)$，$C-30^\circ\in(-30^\circ,90^\circ)$，因此，
@@ -71,7 +71,7 @@ $$
 不考虑 $\sin A$ 是边的二次齐次式，于是应用正弦定理，
 
 $$
-2\sin B\sin A-\sqrt2\sin A=0\ 2\sin B=\sqrt3\ \sin B=\sqrt3/2
+2\sin B\sin A-\sqrt2\sin A=0\\\\ 2\sin B=\sqrt3\\ \sin B=\sqrt3/2
 $$
 
 因为 $\angle B$ 是锐角，
@@ -83,13 +83,13 @@ $$
 设，
 
 $$
-\def\degree{^\circ} \begin{aligned} S&=\cos A+\cos B+\cos C\ &=\cos A+\cos C+1/2\ &=\cos(120\degree-C)+\cos C+1/2\ &=-{1\over2}\cos C+{\sqrt3\over2}\sin C+\cos C+{1\over2}\ &={\sqrt3\over2}\sin C+{1\over2}\cos C+{1\over2}\ &=\sin C\cos30\degree+\cos C\sin30\degree +1/2\ &=\sin(C+30\degree)+1/2 \end{aligned}
+\def\degree{^\circ} \begin{aligned} S&=\cos A+\cos B+\cos C\\ &=\cos A+\cos C+1/2\\ &=\cos(120\degree-C)+\cos C+1/2\\ &=-{1\over2}\cos C+{\sqrt3\over2}\sin C+\cos C+{1\over2}\\ &={\sqrt3\over2}\sin C+{1\over2}\cos C+{1\over2}\\ &=\sin C\cos30\degree+\cos C\sin30\degree +1/2\\ &=\sin(C+30\degree)+1/2 \end{aligned}
 $$
 
 因为 $0^\circ<A,B,C<90^\circ$，
 
 $$
-\def\degree{^\circ} \begin{cases} 0\degree<&C&<90\degree\ 0\degree<&B&<90\degree \end{cases} \Longleftrightarrow \begin{cases} 0\degree<&C&<90\degree\ 0\degree<&120-C&<90\degree \end{cases}
+\def\degree{^\circ} \begin{cases} 0\degree<&C&<90\degree\\ 0\degree<&B&<90\degree \end{cases} \Longleftrightarrow \begin{cases} 0\degree<&C&<90\degree\\ 0\degree<&120-C&<90\degree \end{cases}
 $$
 
 即，$30^\circ<C<90^\circ$，$60^\circ<C+30^\circ<120^\circ$。
@@ -113,7 +113,7 @@ $$
 考虑余弦转正弦，因为是三角形的角，因此正弦值非负，
 
 $$
-\sin A=\sqrt{1-\cos^2 A}=\sqrt{63\over64}={3\sqrt7\over8}\ \sin B=\sqrt{1-\cos^2 B}=\sqrt{175\over256}={5\sqrt7\over16}
+\sin A=\sqrt{1-\cos^2 A}=\sqrt{63\over64}={3\sqrt7\over8}\\ \sin B=\sqrt{1-\cos^2 B}=\sqrt{175\over256}={5\sqrt7\over16}
 $$
 
 $$
@@ -135,7 +135,7 @@ $$
 考虑到这个原形式是一次齐次，因此考虑角化变。
 
 $$
-{a\over b-c}={b+c\over b-a}\ b^2-c^2=ab-a^2\ c^2=a^2+b^2-ab
+{a\over b-c}={b+c\over b-a}\\ b^2-c^2=ab-a^2\\ c^2=a^2+b^2-ab
 $$
 
 因此，
@@ -149,7 +149,7 @@ $$
 若，
 
 $$
-\begin{cases} \sin A=3\sin B\ c=\sqrt5\ \cos C=5/6 \end{cases}
+\begin{cases} \sin A=3\sin B\\ c=\sqrt5\\ \cos C=5/6 \end{cases}
 $$
 
 - 求 $a$。
@@ -179,7 +179,7 @@ $$
 若，
 
 $$
-\begin{cases} b\sin2A=a\sin B\ c=2b \end{cases}
+\begin{cases} b\sin2A=a\sin B\\ c=2b \end{cases}
 $$
 
 - 求 $a/b$。
@@ -189,7 +189,7 @@ $$
 第一个形式中，出现了二倍角，是不好处理的，因此考虑正弦定理。
 
 $$
-\sin B\sin2A=\sin A\sin B\ \sin A=\sin2A\ \sin A=2\sin A\cos A\ \cos A=1/2
+\sin B\sin2A=\sin A\sin B\\ \sin A=\sin2A\\ \sin A=2\sin A\cos A\\ \cos A=1/2
 $$
 
 考虑到 $a/b$ 是一个一次其次的比例式，因此余弦定理，
@@ -225,13 +225,13 @@ $$
 有，
 
 $$
-S=2bc(1-\cos A)={1\over2}bc\sin A\ \sin A=4-4\cos A
+S=2bc(1-\cos A)={1\over2}bc\sin A\\ \sin A=4-4\cos A
 $$
 
 联立得方程，
 
 $$
-(4-4\cos A)^2+\cos^2A=1\ 16(1-\cos A)^2=(1-\cos A)(1+\cos A)\ 16-16\cos A=1+\cos A\ \cos A={15\over17},\, \sin A={8\over17}
+(4-4\cos A)^2+\cos^2A=1\\ 16(1-\cos A)^2=(1-\cos A)(1+\cos A)\\ 16-16\cos A=1+\cos A\\ \cos A={15\over17},\, \sin A={8\over17}
 $$
 
 ## 例题九 {#_10}
@@ -239,7 +239,7 @@ $$
 在 $\triangle ABC$ 中，
 
 $$
-\sin A=2\sin B\cos C\ a^2=b^2+c^2-bc
+\sin A=2\sin B\cos C\\ a^2=b^2+c^2-bc
 $$
 
 - 求，$\triangle ABC$ 形状。
@@ -249,7 +249,7 @@ $$
 联立二式及余弦定理，
 
 $$
-a^2=b^2+c^2-bc\ a^2=b^2+c^2-2bc\cos A
+a^2=b^2+c^2-bc\\ a^2=b^2+c^2-2bc\cos A
 $$
 
 得，
@@ -261,13 +261,13 @@ $$
 第一个式子，可以不带入 $A$，尝试通过三角函数的变换，
 
 $$
-\begin{aligned} \sin A&=\sin(\pi-B-C)=\sin(B+C)\ &=\sin B\cos C+\cos B\sin C \end{aligned}
+\begin{aligned} \sin A&=\sin(\pi-B-C)=\sin(B+C)\\ &=\sin B\cos C+\cos B\sin C \end{aligned}
 $$
 
 联立下式及一式，
 
 $$
-\sin B\cos C+\cos B\sin C=2\sin B\cos C\ \sin B\cos C=\cos B\sin C\ \tan B=\tan C
+\sin B\cos C+\cos B\sin C=2\sin B\cos C\\ \sin B\cos C=\cos B\sin C\\ \tan B=\tan C
 $$
 
 因为 $B,C\in(0,\pi)$，正切函数在此范围内唯一，则
@@ -291,7 +291,7 @@ $$
 容易发现，$\cos$ 里面的角有很好的性质，考虑和差化积，
 
 $$
-\begin{aligned} &\cos(2B+C)+\cos C\ =\;&2\cos(B+C)\cos B\ =\;&-2\cos A\cos B>0 \end{aligned}
+\begin{aligned} &\cos(2B+C)+\cos C\\ =\;&2\cos(B+C)\cos B\\ =\;&-2\cos A\cos B>0 \end{aligned}
 $$
 
 因此，
@@ -381,7 +381,7 @@ $$
 考虑凑项，右边的两项很像正弦的和角公式，于是，
 
 $$
-\begin{aligned} &\sin(B+C)-\sin(A+C)\ =\;&\sin B\cos C+\sin C\cos B-\sin A\cos C-\sin C\cos A\ =\;&\sin C\cos B-\sin C\cos A \end{aligned}
+\begin{aligned} &\sin(B+C)-\sin(A+C)\\ =\;&\sin B\cos C+\sin C\cos B-\sin A\cos C-\sin C\cos A\\ =\;&\sin C\cos B-\sin C\cos A \end{aligned}
 $$
 
 化简，
@@ -419,7 +419,7 @@ $$
 考虑很经典的面积公式，
 
 $$
-S={1\over2}ac\sin B={\sqrt3\over2}ac\cos B\ \sin B=\sqrt3\cos B\ \tan B=\sqrt3,\,B=60^\circ
+S={1\over2}ac\sin B={\sqrt3\over2}ac\cos B\\ \sin B=\sqrt3\cos B\\ \tan B=\sqrt3,\,B=60^\circ
 $$
 
 ## 例题十五 {#_16}
@@ -444,7 +444,7 @@ $$
 考虑周长最大，即 $b+c$ 最大，
 
 $$
-a^2=9=b^2+c^2+bc\ge3bc\ bc\le3
+a^2=9=b^2+c^2+bc\ge3bc\\ bc\le3
 $$
 
 考虑周长如何建立联系
@@ -464,7 +464,7 @@ $$
 在 $\triangle ABC$ 中，
 
 $$
-\sin A+2\sin B\cos C=0\ c=\sqrt3b
+\sin A+2\sin B\cos C=0\\ c=\sqrt3b
 $$
 
 - 求 $\tan A$。
@@ -472,13 +472,13 @@ $$
 考虑到第二个很适合消元 $c$，于是第一个式子可以看成一次齐次，
 
 $$
-a+2b\cos C=0\ \cos C=-{a\over2b}={a^2+b^2-c^2\over2bc}={a^2-2b^2\over2bc}
+a+2b\cos C=0\\ \cos C=-{a\over2b}={a^2+b^2-c^2\over2bc}={a^2-2b^2\over2bc}
 $$
 
 因此，
 
 $$
-a^2=b^2\ a=b
+a^2=b^2\\ a=b
 $$
 
 因为 $c=\sqrt3b$，这是一个 $30^\circ,30^\circ,120^\circ$ 的等腰三角形，
@@ -504,13 +504,13 @@ $$
 考虑到没有什么好玩的结构，因此展开正切。
 
 $$
-\begin{aligned} S&={2\tan A\tan B\over\tan C(\tan A+\tan B)}\ &={2\sin A\sin B\over\sin C/\cos C\cdot(\sin A\cos B+\cos A+\sin B)}\ &={2\sin A\sin B\cos C\over\sin^2C} \end{aligned}
+\begin{aligned} S&={2\tan A\tan B\over\tan C(\tan A+\tan B)}\\ &={2\sin A\sin B\over\sin C/\cos C\cdot(\sin A\cos B+\cos A+\sin B)}\\ &={2\sin A\sin B\cos C\over\sin^2C} \end{aligned}
 $$
 
 考虑到上下正弦构成二次齐次，正弦定理，
 
 $$
-\begin{aligned} S&={2\sin A\sin B\cos C\over\sin^2C}\ &={2ab\cos C\over c^2} \end{aligned}
+\begin{aligned} S&={2\sin A\sin B\cos C\over\sin^2C}\\ &={2ab\cos C\over c^2} \end{aligned}
 $$
 
 注意到 $2ab$ 和 $\cos C$ 的余弦定理的分母类似，
@@ -520,7 +520,7 @@ $$
 $$
 
 $$
-\begin{aligned} S&={a^2+b^2-c^2\over c^2}={a^2+b^2\over c^2}-1\ &=2022-1=2021 \end{aligned}
+\begin{aligned} S&={a^2+b^2-c^2\over c^2}={a^2+b^2\over c^2}-1\\ &=2022-1=2021 \end{aligned}
 $$
 
 ## 例题十八 {#_19}
@@ -532,11 +532,11 @@ $$
 经典题，因为角不好表示，上式又是边的二次齐次式，考虑，
 
 $$
-\cos A={b^2+c^2-a^2\over2bc}={c^2-bc\over2bc}={c-b\over2b}\
+\cos A={b^2+c^2-a^2\over2bc}={c^2-bc\over2bc}={c-b\over2b}\\
 $$
 
 $$
-\begin{aligned} \cos 2B&=2\cos^2B-1=2\left({a^2+c^2-b^2\over2ac}\right)^2-1\ &=2\left({c+b\over2a}\right)^2-1={2c^2+2b^2+4bc-4a^2\over4a^2}\ &={2c^2-2b^2\over4b^2+4bc}={2(c+b)(c-b)\over4b(b+c)}={c-b\over2b} \end{aligned}
+\begin{aligned} \cos 2B&=2\cos^2B-1=2\left({a^2+c^2-b^2\over2ac}\right)^2-1\\ &=2\left({c+b\over2a}\right)^2-1={2c^2+2b^2+4bc-4a^2\over4a^2}\\ &={2c^2-2b^2\over4b^2+4bc}={2(c+b)(c-b)\over4b(b+c)}={c-b\over2b} \end{aligned}
 $$
 
 于是，

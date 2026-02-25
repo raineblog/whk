@@ -61,7 +61,7 @@ $$
 展开：
 
 $$
-\begin{aligned} F_g&=G+F_c\ MG&=R^2g_0\ M&=\dfrac{R^2g_0}{G} \end{aligned}
+\begin{aligned} F_g&=G+F_c\\ MG&=R^2g_0\\ M&=\dfrac{R^2g_0}{G} \end{aligned}
 $$
 
 :::
@@ -75,19 +75,19 @@ $$
 展开：
 
 $$
-\begin{aligned} F_g&=G+F_c\ G\dfrac{Mm}{R^2}&=mg+m\omega^2R\ \dfrac{MG}{R^2}&=g+\dfrac{4\pi^2}{T^2}R\ MG&=R^2g+\dfrac{4\pi^2}{T^2}R^3 \end{aligned}
+\begin{aligned} F_g&=G+F_c\\ G\dfrac{Mm}{R^2}&=mg+m\omega^2R\\ \dfrac{MG}{R^2}&=g+\dfrac{4\pi^2}{T^2}R\\ MG&=R^2g+\dfrac{4\pi^2}{T^2}R^3 \end{aligned}
 $$
 
 联立上述二式，可解得 $g_0$：
 
 $$
-\begin{aligned} \dfrac{R^2g_0}{R^2}&=g+\omega^2R\ g_0&=g+\dfrac{4\pi^2}{T^2}R \end{aligned}
+\begin{aligned} \dfrac{R^2g_0}{R^2}&=g+\omega^2R\\ g_0&=g+\dfrac{4\pi^2}{T^2}R \end{aligned}
 $$
 
 同时，也可解得 $R$：
 
 $$
-\begin{aligned} R^2g_0&=R^2g+\dfrac{4\pi^2}{T^2}R^3\ g_0&=g+\dfrac{4\pi^2}{T^2}R\ R&=\dfrac{(g_0-g)T^2}{4\pi^2} \end{aligned}
+\begin{aligned} R^2g_0&=R^2g+\dfrac{4\pi^2}{T^2}R^3\\ g_0&=g+\dfrac{4\pi^2}{T^2}R\\ R&=\dfrac{(g_0-g)T^2}{4\pi^2} \end{aligned}
 $$
 
 联立上述四式，可解得 $M$，不过这玩意没啥用。
@@ -99,7 +99,7 @@ $$
 解：
 
 $$
-\begin{aligned} \rho&=\dfrac{M}{V}=\dfrac{\frac{R^2g_0}{G}}{\frac{4}{3}\pi R^3}=\dfrac{3R^2g_0}{4\pi GR^3}\ &=\dfrac{3g_0}{4\pi GR}=\dfrac{3g_0}{4\pi G\frac{(g_0-g)T^2}{4\pi^2}}=\dfrac{3g_0\pi}{G(g_0-g)T^2}\ &=\dfrac{g_0}{g_0-g}\cdot\dfrac{3\pi}{GT^2} \end{aligned}
+\begin{aligned} \rho&=\dfrac{M}{V}=\dfrac{\frac{R^2g_0}{G}}{\frac{4}{3}\pi R^3}=\dfrac{3R^2g_0}{4\pi GR^3}\\ &=\dfrac{3g_0}{4\pi GR}=\dfrac{3g_0}{4\pi G\frac{(g_0-g)T^2}{4\pi^2}}=\dfrac{3g_0\pi}{G(g_0-g)T^2}\\ &=\dfrac{g_0}{g_0-g}\cdot\dfrac{3\pi}{GT^2} \end{aligned}
 $$
 
 这是根据极点、赤道重力加速度计算星球密度，下面有简化版的。
@@ -327,7 +327,7 @@ $$
 对于圆轨道的，现在可以由万有引力等于向心力推导：
 
 $$
-\begin{aligned} G\dfrac{Mm}{r^2}&=m\dfrac{4\pi^2}{T^2}r\ \dfrac{r^3}{T^2}&=\dfrac{GM}{4\pi^2} \end{aligned}
+\begin{aligned} G\dfrac{Mm}{r^2}&=m\dfrac{4\pi^2}{T^2}r\\ \dfrac{r^3}{T^2}&=\dfrac{GM}{4\pi^2} \end{aligned}
 $$
 
 若两天体绕同一中心天体，则，
@@ -381,7 +381,7 @@ $$
 物体从地面发射，即 $r=R$，那么从动能和重力势能的角度：
 
 $$
-\begin{aligned} \dfrac{1}{2}mv_2^2&=G\dfrac{Mm}{R}\ v_2&=\sqrt{\dfrac{2GM}{R}}\ &=\sqrt{2gR} \end{aligned}
+\begin{aligned} \dfrac{1}{2}mv_2^2&=G\dfrac{Mm}{R}\\ v_2&=\sqrt{\dfrac{2GM}{R}}\\ &=\sqrt{2gR} \end{aligned}
 $$
 
 也就是说：
@@ -399,7 +399,7 @@ $$
 故此若沿地球公转方向发射，还需要提供 $12.3\mathrm{km/s}$ 的动能，因此在脱离地球引力以外额外再加上适当的动能即可：
 
 $$
-\begin{aligned} \dfrac{1}{2}m{v_3}^2&=\dfrac{1}{2}m{v_2}^2+\dfrac{1}{2}m\Delta v^2\ {v_3}^2&={v_2}^2+\Delta v^2\ v_3&=\sqrt{{v_2}^2+\Delta v^2}\ v_3&\approx\sqrt{11.2^2+12.3^2}\approx 16.7\mathrm{km/s} \end{aligned}
+\begin{aligned} \dfrac{1}{2}m{v_3}^2&=\dfrac{1}{2}m{v_2}^2+\dfrac{1}{2}m\Delta v^2\\ {v_3}^2&={v_2}^2+\Delta v^2\\ v_3&=\sqrt{{v_2}^2+\Delta v^2}\\ v_3&\approx\sqrt{11.2^2+12.3^2}\approx 16.7\mathrm{km/s} \end{aligned}
 $$
 
 记忆方法：
@@ -509,7 +509,7 @@ $T=2\pi\sqrt{\dfrac{r^3}{GM}}$
 基本原理为 $F_g=F_c$，列式：
 
 $$
-\begin{aligned} G\dfrac{m_Am_B}{L^2}&=m_A\omega^2r_{OA}\ G\dfrac{m_Am_B}{L^2}&=m_B\omega^2r_{OB}\ \end{aligned}
+\begin{aligned} G\dfrac{m_Am_B}{L^2}&=m_A\omega^2r_{OA}\\ G\dfrac{m_Am_B}{L^2}&=m_B\omega^2r_{OB}\\ \end{aligned}
 $$
 
 两式做比：$m_Ar_{OA}=m_Br_{OB}$。
@@ -538,7 +538,7 @@ $$
 | 双星系统 | $\omega=\sqrt{\dfrac{GM}{r^3}}$  | $T=2\pi\sqrt{\dfrac{r^3}{GM}}$  |
 | 三星系统 | $\omega=\sqrt{\dfrac{3GM}{r^3}}$ | $T=2\pi\sqrt{\dfrac{r^3}{3GM}}$ |
 
-::img[多星问题]{src="../多星问题.avif" width="90%"}
+![多星问题](../多星问题.avif#class="custom-img";float=90%"
 
 此时，存在两个可用的条件，$\omega$ 相同，以及万有引力的合力提供向心力。
 
@@ -673,9 +673,9 @@ $$
 
 如图：
 
-::img[霍曼转移（提高）]{src="../KSPedia_102.avif" width="100%"}
+![霍曼转移（提高）](../KSPedia_102.avif#class="custom-img";float=100%"
 
-::img[霍曼转移（降低）]{src="../KSPedia_103.avif" width="100%"}
+![霍曼转移（降低）](../KSPedia_103.avif#class="custom-img";float=100%"
 
 - 航天器无需经过多次反复的加减速过程，仅需进行两次相同方向的推进即可升高或降低轨道。
 

@@ -23,7 +23,7 @@
 
 - $\forall a,b\in\N,\ \gcd(a,b)\cdot\mathrm{lcm}(a,b)=ab$
 
-证明：设 $\displaystyle d=\gcd(a,b),a_0=\frac{a}{d},b_0=\frac{b}{d}$. 根据最大公因数的定义，有 $\gcd(a_0,b_0)=1$。$\ \ \ \ \ \ \ \ \ \text{}$ 再根据最小公倍数的定义，有 $\mathrm{lcm}(a,b)=a_0\cdot b_0$. $\ \ \ \ \ \ \ \ \ \text{}$ 于是 $\displaystyle\mathrm{lcm}(a,b)=\mathrm{lcm}(a_0\cdot d,b_0\cdot d)=\mathrm{lcm}(a_0,b_0)\cdot d=a_0\cdot b_0\cdot d=\frac{a\cdot b}{d}$，原命题得证。
+证明：设 $\displaystyle d=\gcd(a,b),a_0=\frac{a}{d},b_0=\frac{b}{d}$. 根据最大公因数的定义，有 $\gcd(a_0,b_0)=1$。$\\\ \ \ \ \ \ \ \ \ \text{}$ 再根据最小公倍数的定义，有 $\mathrm{lcm}(a,b)=a_0\cdot b_0$. $\\\ \ \ \ \ \ \ \ \ \text{}$ 于是 $\displaystyle\mathrm{lcm}(a,b)=\mathrm{lcm}(a_0\cdot d,b_0\cdot d)=\mathrm{lcm}(a_0,b_0)\cdot d=a_0\cdot b_0\cdot d=\frac{a\cdot b}{d}$，原命题得证。
 
 - 九章算术 更相减损术： $\gcd(a,b)=\gcd(b,a-b)=\gcd(a,a-b),\gcd(2a,2b)=2\gcd(a,b)$.
 
@@ -34,7 +34,7 @@
 证明：分类讨论。
 
 1.  若 $a<b$，则有 $\gcd(b,a\ \mathrm{mod}\ b)=\gcd(b,a)=\gcd(a,b)$.
-2.  若 $a\geq b$，不妨设 $a=q\cdot b+r\ (0\leq r<b)$。显然 $r=a\ \mathrm{mod}\ b$. 对于 $a,b$ 的任意公因数 $d$，$\$ 因为 $d\mid a,d\mid q\cdot b$，故 $d\mid (a-q\cdot b)$，即 $d\mid r$. 因此 $d$ 也是 $b,r$ 的公因数，反之亦成立。$\$ 故 $a,b$ 的公因数集合与 $b,a\ \mathrm{mod}\ b$ 的公因数集合相同。于是它们的最大公因数也相等。
+2.  若 $a\geq b$，不妨设 $a=q\cdot b+r\ (0\leq r<b)$。显然 $r=a\ \mathrm{mod}\ b$. 对于 $a,b$ 的任意公因数 $d$，$\\$ 因为 $d\mid a,d\mid q\cdot b$，故 $d\mid (a-q\cdot b)$，即 $d\mid r$. 因此 $d$ 也是 $b,r$ 的公因数，反之亦成立。$\\$ 故 $a,b$ 的公因数集合与 $b,a\ \mathrm{mod}\ b$ 的公因数集合相同。于是它们的最大公因数也相等。
 
 ## 裴蜀定理 {#_5}
 
@@ -79,7 +79,7 @@
 等价于证明 $n|2\displaystyle\sum_{i=1}^ni^k$ 和 $(n+1)|2\displaystyle\sum_{i=1}^ni^k$，显然
 
 $$
-\begin{aligned}2\sum_{i=1}^ni^k&=[1^k+(n-1)^k]+[2^k+(n-2)^k]+\dots+[(n-1)^k+1^k]+2n^k\&=[1^k+n^k]+[2^k+(n-1)^k]+\dots+[n^k+1^k]\end{aligned}
+\begin{aligned}2\sum_{i=1}^ni^k&=[1^k+(n-1)^k]+[2^k+(n-2)^k]+\dots+[(n-1)^k+1^k]+2n^k\\&=[1^k+n^k]+[2^k+(n-1)^k]+\dots+[n^k+1^k]\end{aligned}
 $$
 
 是 $n$ 和 $n+1$ 的倍数。
@@ -123,7 +123,7 @@ $$
 $n$ 为偶数显然。$n$ 为奇数时，设 $n=2k+1$，
 
 $$
-\begin{aligned}n^4+4^n&=n^4+4\cdot 4^{2k}=n^4+4\cdot (2k)^4=n^4+4n^2\cdot(2^k)^2+4\cdot(2k)^4-4n^2\cdot(2^k)^2\&=(n^2+2\cdot 2^{2k})^2-(2n\cdot 2^k)^2=(n^2+2^{k+1}n+2^{2k+1})(n^2-2^{k+1}n+2^{2k+1})\end{aligned}
+\begin{aligned}n^4+4^n&=n^4+4\cdot 4^{2k}=n^4+4\cdot (2k)^4=n^4+4n^2\cdot(2^k)^2+4\cdot(2k)^4-4n^2\cdot(2^k)^2\\&=(n^2+2\cdot 2^{2k})^2-(2n\cdot 2^k)^2=(n^2+2^{k+1}n+2^{2k+1})(n^2-2^{k+1}n+2^{2k+1})\end{aligned}
 $$
 
 即把 $4^n$ 看成 $4y^4$，有 $\red{\boxed{x^4+4y^4=(x^2+2y^2+2xy)(x^2+2y^2-2xy)}}$
@@ -143,7 +143,7 @@ $$
 反证法，即设 $x(x+1)=y^2$ 有解，则 $(2x+1)^2=4y^2+1$，分解为
 
 $$
-(2x+1+2y)(2x+1-2y)=1\implies\begin{cases}2x+1+2y=1\2x+1-2y=1\end{cases}\implies x=y=0
+(2x+1+2y)(2x+1-2y)=1\implies\begin{cases}2x+1+2y=1\\2x+1-2y=1\end{cases}\implies x=y=0
 $$
 
 显然不可能。类似的，对于完全立方，由于 $x$ 和 $x+1$ 互质，可得它们都是立方数。设 $x=u^3,x+1=v^3,y=uv,v^3-u^3=1=(v-u)(v^2+uv+u^2)$，显然不可能。
@@ -200,15 +200,15 @@ $1$ \~ $N$ 中与 $N$ 互质的数的个数被称为欧拉函数，记为 $\varp
 
 证明：
 
-1.  因为 $\gcd(n,x)=\gcd(n,n-x)$，所以与 $n$ 不互质的数 $x,n-x$ 成对出现，平均值为 $\displaystyle\frac{n}{2}$. $\$ 因此与 $n$ 互质的数的平均值也是 $\displaystyle\frac{n}{2}$，进而得到性质 1。
+1.  因为 $\gcd(n,x)=\gcd(n,n-x)$，所以与 $n$ 不互质的数 $x,n-x$ 成对出现，平均值为 $\displaystyle\frac{n}{2}$. $\\$ 因此与 $n$ 互质的数的平均值也是 $\displaystyle\frac{n}{2}$，进而得到性质 1。
 2.  根据欧拉函数的计算式可直接获得性质 2。
 3.  根据欧拉函数的定义可直接获得性质 3。
 4.  从 $1$ \~ $p^{k}$ 中的所有数，除了 $p^{k-1}$ 个 $p$ 的倍数外都与 $p^k$ 互素。
-5.  若 $p\mid n$ 且 $p^2\mid n$，则 $\displaystyle n,\frac{n}{p}$ 包含相同的质因子，只是 $p$ 的指数不同。$\$ 按照欧拉函数的计算公式，$\displaystyle \frac{\varphi(n)}{\varphi(\frac{n}{p})}=\frac{n}{\frac{n}{p}}=p$，得到性质 5。
+5.  若 $p\mid n$ 且 $p^2\mid n$，则 $\displaystyle n,\frac{n}{p}$ 包含相同的质因子，只是 $p$ 的指数不同。$\\$ 按照欧拉函数的计算公式，$\displaystyle \frac{\varphi(n)}{\varphi(\frac{n}{p})}=\frac{n}{\frac{n}{p}}=p$，得到性质 5。
 6.  若 $p\mid n$ 且 $p^2\mid n$，则 $\displaystyle n,\frac{n}{p}$ 互质。因为 $\displaystyle\varphi(n)=\varphi\left(\frac{n}{p}\right)\varphi(p)$，而 $\varphi(p)=p-1$，得到性质 6。
-7.  $\forall m<2n,m\in\N^*$，若 $2\mid m$，则 $\gcd(m,2n)\neq 1$，也就是对欧拉函数的值没有贡献；$\$ 若 $2\nmid m$，则 $\gcd(m,2n)=1$，欧拉函数的值也就与 $2n$ 中的偶质因子无关。
+7.  $\forall m<2n,m\in\N^*$，若 $2\mid m$，则 $\gcd(m,2n)\neq 1$，也就是对欧拉函数的值没有贡献；$\\$ 若 $2\nmid m$，则 $\gcd(m,2n)=1$，欧拉函数的值也就与 $2n$ 中的偶质因子无关。
 8.  $n\geq 3$ 时，与 $n$ 互质的数不可能为 $\displaystyle\frac{n}{2}\implies\forall x<n,\gcd(x,n)=\gcd(n-x,n)$，也就是存在一一对应关系。
-9.  设 $f(n)=\displaystyle\sum_{d\mid n}\varphi(d)$，利用 $\varphi$ 是积性函数，得到：$\$ 若 $n,m$ 互质，则 $f(nm)=\displaystyle\sum_{d\mid nm}\varphi(d)=\displaystyle\sum_{d\mid n}\varphi(d)\cdot\displaystyle\sum_{d\mid m}\varphi(d)=f(n)f(m)$，即 $f(n)$ 是积性函数。$\$ 对于单个质因子有：$\begin{aligned}f(p^m)&=\displaystyle\sum_{d\mid p^m}\varphi(d)=\displaystyle\sum_{i=0}^{m}\varphi(p^i)=\varphi(1)+\varphi(p)+\varphi(p^2)+\varphi(p^3)+\dots+\varphi(p^m)\&= 1+(p-1)+(p-1)p+(p-1)p^2+\dots+(p-1)p^{m-1}\&=1+(p-1)+(p^2-p)+(p^3-p^2)+\dots+(p^m-p^{m-1})=p^m\end{aligned} \$ 所以 $f(n)=\displaystyle\prod_{i=1}^{m}f(p_i^{c_i})=\displaystyle\prod_{i=1}^{m}p_i^{c_i}=n$
+9.  设 $f(n)=\displaystyle\sum_{d\mid n}\varphi(d)$，利用 $\varphi$ 是积性函数，得到：$\\$ 若 $n,m$ 互质，则 $f(nm)=\displaystyle\sum_{d\mid nm}\varphi(d)=\displaystyle\sum_{d\mid n}\varphi(d)\cdot\displaystyle\sum_{d\mid m}\varphi(d)=f(n)f(m)$，即 $f(n)$ 是积性函数。$\\$ 对于单个质因子有：$\begin{aligned}f(p^m)&=\displaystyle\sum_{d\mid p^m}\varphi(d)=\displaystyle\sum_{i=0}^{m}\varphi(p^i)=\varphi(1)+\varphi(p)+\varphi(p^2)+\varphi(p^3)+\dots+\varphi(p^m)\\&= 1+(p-1)+(p-1)p+(p-1)p^2+\dots+(p-1)p^{m-1}\\&=1+(p-1)+(p^2-p)+(p^3-p^2)+\dots+(p^m-p^{m-1})=p^m\end{aligned} \\$ 所以 $f(n)=\displaystyle\prod_{i=1}^{m}f(p_i^{c_i})=\displaystyle\prod_{i=1}^{m}p_i^{c_i}=n$
 
 ### 积性函数与完全积性函数 {#_9}
 
@@ -218,7 +218,7 @@ $1$ \~ $N$ 中与 $N$ 互质的数的个数被称为欧拉函数，记为 $\varp
 
 性质：
 
-1.  若 $f(x)$ 和 $g(x)$ 均为积性函数，则以下函数也为积性函数： \$$\begin{aligned}h(x)&=f(x^p) \ h(x)&=f^p(x) \ h(x)&=f(x)g(x) \ h(x)&=\displaystyle\sum_{d\mid x}f(d)g\left(\frac{x}{d}\right)\end{aligned}$\$
+1.  若 $f(x)$ 和 $g(x)$ 均为积性函数，则以下函数也为积性函数： \$$\begin{aligned}h(x)&=f(x^p) \\ h(x)&=f^p(x) \\ h(x)&=f(x)g(x) \\ h(x)&=\displaystyle\sum_{d\mid x}f(d)g\left(\frac{x}{d}\right)\end{aligned}$\$
 2.  设 $x=\displaystyle\prod p_i^{c_i}$，
 
 若 $f(x)$ 为积性函数，则 $f(x)=\displaystyle\prod f(p_i^{c_i})$。
@@ -277,11 +277,11 @@ $$
 
 模 $m$ 的同余类一共有 $m$ 个，分别为 $\overline{0},\overline{1},\overline{2},\dots,\overline{m-1}$. 它们构成 $m$ 的完全剩余系。
 
-$1$ \~ $m$ 中与 $m$ 互质的数代表的同余类共有 $\varphi(m)$ 个，它们构成 $m$ 的简化剩余系。$\$ 例如，模 $10$ 的简化剩余系为 $\set{\overline{1},\overline{3},\overline{7},\overline{9}}$。
+$1$ \~ $m$ 中与 $m$ 互质的数代表的同余类共有 $\varphi(m)$ 个，它们构成 $m$ 的简化剩余系。$\\$ 例如，模 $10$ 的简化剩余系为 $\set{\overline{1},\overline{3},\overline{7},\overline{9}}$。
 
-若从某个非空数集中任选两个元素（同一元素可重复选出），选出的这两个元素通过某种（或几种）运算后的得数仍是该数集中的元素，那么，就说该集合对于这种（或几种）运算是封闭的。$\$ 例如若一个集合中的元素，如果能够做到做加法运算的结果还在这个集合中，就说这个集合对加法运算封闭。$\$ 例如 $\N$ 对加法、乘法运算是封闭的；$\Z$ 对加、减、乘法运算是封闭的；$\mathbb{Q}, \mathbb{C}$ 对四则运算是封闭的。
+若从某个非空数集中任选两个元素（同一元素可重复选出），选出的这两个元素通过某种（或几种）运算后的得数仍是该数集中的元素，那么，就说该集合对于这种（或几种）运算是封闭的。$\\$ 例如若一个集合中的元素，如果能够做到做加法运算的结果还在这个集合中，就说这个集合对加法运算封闭。$\\$ 例如 $\N$ 对加法、乘法运算是封闭的；$\Z$ 对加、减、乘法运算是封闭的；$\mathbb{Q}, \mathbb{C}$ 对四则运算是封闭的。
 
-简化剩余系关于模 $m$ 乘法封闭。这是因为若 $a,b\ (1\leq a,b\leq m)$ 与 $m$ 互质，则 $ab$ 也与 $m$ 互质。$\$ 由余数的定义得 $ab\ \mathrm{mod}\ m$ 也与 $m$ 互质，即 $ab\ \mathrm{mod}\ m$ 也属于 $m$ 的简化剩余系。
+简化剩余系关于模 $m$ 乘法封闭。这是因为若 $a,b\ (1\leq a,b\leq m)$ 与 $m$ 互质，则 $ab$ 也与 $m$ 互质。$\\$ 由余数的定义得 $ab\ \mathrm{mod}\ m$ 也与 $m$ 互质，即 $ab\ \mathrm{mod}\ m$ 也属于 $m$ 的简化剩余系。
 
 - 费马小定理：若 $p$ 是质数，则对于任意整数 $a$，有 $a^p\equiv a\ (\mathrm{mod}\ p)$.
 - 欧拉定理：若正整数 $a,n$ 互质，则 $a^{\varphi(n)}\equiv 1\ (\mathrm{mod}\ n)$.
@@ -316,7 +316,7 @@ $$
 
 - 扩展欧拉定理
 
-\$$a^b\equiv\begin{cases}a^{b\ \mathrm{mod}\ \varphi(m)}&\text{if }\gcd(a,m)=1\ a^b&\text{if }\gcd(a,m)\neq 1,b<\varphi(m)\ a^{b\ \mathrm{mod}\ \varphi(m)+\varphi(m)}&\text{if }\gcd(a,m)\neq 1,b\geq\varphi(m)\end{cases}\ (\mathrm{mod}\ m)$\$
+\$$a^b\equiv\begin{cases}a^{b\ \mathrm{mod}\ \varphi(m)}&\text{if }\gcd(a,m)=1\\ a^b&\text{if }\gcd(a,m)\neq 1,b<\varphi(m)\\ a^{b\ \mathrm{mod}\ \varphi(m)+\varphi(m)}&\text{if }\gcd(a,m)\neq 1,b\geq\varphi(m)\end{cases}\ (\mathrm{mod}\ m)$\$
 
 证明十分显然，略。
 
@@ -333,12 +333,12 @@ $$
 设 $m_1,m_2,\dots,m_n$ 是两两互质的整数，$m=\displaystyle\prod_{i=1}^n m_i,M_i=\frac{m}{m_i},t_i$ 是线性同余方程 $M_it_i\equiv 1\ (\mathrm{mod}\ m_i)$ 的一个解。对于任意的 $n$ 个整数，方程组
 
 $$
-\begin{cases}x\equiv a_1\ (\mathrm{mod}\ m_1) \ x\equiv a_2\ (\mathrm{mod}\ m_2)\ \ \ \ \ \ \ \ \ \ \ \ \ \vdots\ x\equiv a_n\ (\mathrm{mod}\ m_n)\end{cases}
+\begin{cases}x\equiv a_1\ (\mathrm{mod}\ m_1) \\ x\equiv a_2\ (\mathrm{mod}\ m_2)\\ \ \ \ \ \ \ \ \ \ \ \ \ \vdots\\ x\equiv a_n\ (\mathrm{mod}\ m_n)\end{cases}
 $$
 
 有整数解，解为 $x=\displaystyle\sum_{i=1}^{n}a_iM_it_i$，通解可以表示为 $x+km(k\in\Z)$，最小非负整数解为 $x\ \mathrm{mod}\ m$.
 
-证明：因为 $\displaystyle M_i=\frac{m}{m_i}$ 是除了 $m_i$ 之外所有模数的倍数，所以 $\forall k\neq i,a_iM_it_i\equiv 0\ (\mathrm{mod}\ m_i)$，$\ \ \ \ \ \ \ \ \ \ \ \text{}$ 所以代入 $x=\displaystyle\sum_{i=1}^{n}a_iM_it_i$，原方程组成立。
+证明：因为 $\displaystyle M_i=\frac{m}{m_i}$ 是除了 $m_i$ 之外所有模数的倍数，所以 $\forall k\neq i,a_iM_it_i\equiv 0\ (\mathrm{mod}\ m_i)$，$\\ \ \ \ \ \ \ \ \ \ \ \text{}$ 所以代入 $x=\displaystyle\sum_{i=1}^{n}a_iM_it_i$，原方程组成立。
 
 ### 威尔逊定理 {#_13}
 
@@ -348,7 +348,7 @@ $$
 
 1.  充分性
 
-对于 $p$ 不是素数的情况，有 $\begin{cases} p=1 & (1-1)!\equiv 0\ (\mathrm{mod}\ 1) \ p=4 & (4-1)!\equiv 2\ (\mathrm{mod}\ 4) \ p>4 & 分类讨论得出\ (p-1)!\equiv 0\ (\mathrm{mod}\ p) \end{cases}$
+对于 $p$ 不是素数的情况，有 $\begin{cases} p=1 & (1-1)!\equiv 0\ (\mathrm{mod}\ 1) \\ p=4 & (4-1)!\equiv 2\ (\mathrm{mod}\ 4) \\ p>4 & 分类讨论得出\ (p-1)!\equiv 0\ (\mathrm{mod}\ p) \end{cases}$
 
 \(a\) 当 $p$ 为完全平方数。
 
@@ -393,7 +393,7 @@ $$
 由威尔逊定理，当 $d$ 为素数时，$\displaystyle\frac{(d-1)!+1}{d}$ 必然是整数，而 $\displaystyle\left\lfloor\frac{(d-1)!}{d}\right\rfloor$ 必然比 $\displaystyle\frac{(d-1)!+1}{d}$ 小 $1$，于是有：
 
 $$
-\begin{cases}p\ 为素数 & \displaystyle\left\lfloor\frac{(d-1)!+1}{d}-\left\lfloor\frac{(d-1)!}{d}\right\rfloor\right\rfloor=1 \ p\ 为合数 & \displaystyle\left\lfloor\frac{(d-1)!+1}{d}-\left\lfloor\frac{(d-1)!}{d}\right\rfloor\right\rfloor=0\end{cases}
+\begin{cases}p\ 为素数 & \displaystyle\left\lfloor\frac{(d-1)!+1}{d}-\left\lfloor\frac{(d-1)!}{d}\right\rfloor\right\rfloor=1 \\ p\ 为合数 & \displaystyle\left\lfloor\frac{(d-1)!+1}{d}-\left\lfloor\frac{(d-1)!}{d}\right\rfloor\right\rfloor=0\end{cases}
 $$
 
 所以只需统计 $[1,3\times 10^6+7]$ 中的素数即可得出答案。

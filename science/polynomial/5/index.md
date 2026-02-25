@@ -13,7 +13,7 @@ $$
 证明：
 
 $$
-\begin{aligned} &a_1^2b_2^2+a_2^2b_1^2\ge 2a_1b_1a_2b_2\ \Leftrightarrow\;&a_1^2b_1^2+a_2^2b_2^2+a_1^2b_2^2+a_2^2b_1^2\ge a_1^2b_1^2+a_2^2b_2^2+2a_1b_1a_2b_2\ \Leftrightarrow\;&(a_1^2+a_2^2)(b_1^2+b_2^2)\ge(a_1b_1+a_2b_2)^2 \end{aligned}
+\begin{aligned} &a_1^2b_2^2+a_2^2b_1^2\ge 2a_1b_1a_2b_2\\ \Leftrightarrow\;&a_1^2b_1^2+a_2^2b_2^2+a_1^2b_2^2+a_2^2b_1^2\ge a_1^2b_1^2+a_2^2b_2^2+2a_1b_1a_2b_2\\ \Leftrightarrow\;&(a_1^2+a_2^2)(b_1^2+b_2^2)\ge(a_1b_1+a_2b_2)^2 \end{aligned}
 $$
 
 取等条件：
@@ -33,7 +33,7 @@ $$
 证明：
 
 $$
-\begin{aligned} &\sum_{i=1}^na_i^2\sum_{i=1}^nb_i^2-\left(\sum_{i=1}^na_ib_i\right)^2\ =\;&\sum_{1\le i<j\le n}(a_ib_j-a_jb_i)^2 \end{aligned}
+\begin{aligned} &\sum_{i=1}^na_i^2\sum_{i=1}^nb_i^2-\left(\sum_{i=1}^na_ib_i\right)^2\\ =\;&\sum_{1\le i<j\le n}(a_ib_j-a_jb_i)^2 \end{aligned}
 $$
 
 上式即拉格朗日恒等式，可知其 $\ge0$ 且取等条件为：
@@ -55,13 +55,13 @@ $$
 那么，根据动量守恒定律和功能关系：
 
 $$
-\begin{aligned} m_1v_1+m_2v_2+\dots+m_nv_n&=m_1v_f+m_2v_f+\dots+m_nv_f\ {1\over2}m_1v_1^2+{1\over2}m_2v_2^2+\dots+{1\over2}m_nv_n^2&\ge {1\over2}m_1v_f^2+{1\over2}m_2v_f^2+\dots+{1\over2}m_nv_f^2 \end{aligned}
+\begin{aligned} m_1v_1+m_2v_2+\dots+m_nv_n&=m_1v_f+m_2v_f+\dots+m_nv_f\\ {1\over2}m_1v_1^2+{1\over2}m_2v_2^2+\dots+{1\over2}m_nv_n^2&\ge {1\over2}m_1v_f^2+{1\over2}m_2v_f^2+\dots+{1\over2}m_nv_f^2 \end{aligned}
 $$
 
 化简、移项，得到：
 
 $$
-\begin{aligned} v_f={\sum m_iv_i\over\sum m_i}\ \sum(m_iv_i^2)\ge(\sum m_i)v_f^2 \end{aligned}
+\begin{aligned} v_f={\sum m_iv_i\over\sum m_i}\\ \sum(m_iv_i^2)\ge(\sum m_i)v_f^2 \end{aligned}
 $$
 
 上式带入下式，得：

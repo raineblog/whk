@@ -17,7 +17,7 @@
     可以用平均动量乘时间推出来（其中 $x$ 为某一方向上的位移）：
 
     $$
-    \begin{aligned} m_1x_1&=m_2x_2\ x_1+x_2&=x \end{aligned}
+    \begin{aligned} m_1x_1&=m_2x_2\\ x_1+x_2&=x \end{aligned}
     $$
 
 3.  现象：人动船动，人停船停。
@@ -25,7 +25,7 @@
 4.  推论
 
     $$
-    \begin{aligned} x_1&=\frac{m_2x}{m_1+m_2}\ x_2&=\frac{m_1x}{m_1+m_2} \end{aligned}
+    \begin{aligned} x_1&=\frac{m_2x}{m_1+m_2}\\ x_2&=\frac{m_1x}{m_1+m_2} \end{aligned}
     $$
 
 ### 爆炸模型 {#_4}
@@ -48,7 +48,7 @@ $$
 
 质量为 $m=2\mathrm{kg}$ 的小球，从 $A$ 点以初速度 $v_0=6\mathrm{m/s}$ 向右运动，小车质量 $M=4\mathrm{kg}$：
 
-::img[题图]{src="../uj7y6rn5.avif"}
+![题图](../uj7y6rn5.avif#class="custom-img"
 
 问：小球运动到点 $B$ 后，能达到的最大高度是多少（水平共速模型）。
 
@@ -83,7 +83,7 @@ $$
 根据质心速度结论：
 
 $$
-\left{\begin{aligned} v_1&=2v_f-v_0=-2(\mathrm{m/s})\ v_2&=2v_f=4(\mathrm{m/s}) \end{aligned}\right.
+\left\{\begin{aligned} v_1&=2v_f-v_0=-2(\mathrm{m/s})\\ v_2&=2v_f=4(\mathrm{m/s}) \end{aligned}\right.
 $$
 
 问：若水平轨道粗糙且长度为 $2\mathrm m$，小球回到远处后自由落体，问水平轨道的摩擦因数。
@@ -99,13 +99,13 @@ $$
 求出动能：
 
 $$
-\begin{aligned} E_0&=\frac{1}{2}mv_0^2=36(\mathrm{J})\ E_t&=\frac{1}{2}Mv_1^2=18(\mathrm{J}) \end{aligned}
+\begin{aligned} E_0&=\frac{1}{2}mv_0^2=36(\mathrm{J})\\ E_t&=\frac{1}{2}Mv_1^2=18(\mathrm{J}) \end{aligned}
 $$
 
 根据发热公式：
 
 $$
-\begin{aligned} Q&=E_0-E_t=18(\mathrm{J})\ Q&=f\Delta s=\mu mg(L+R) \end{aligned}
+\begin{aligned} Q&=E_0-E_t=18(\mathrm{J})\\ Q&=f\Delta s=\mu mg(L+R) \end{aligned}
 $$
 
 解得 $\mu=0.225$。
@@ -122,7 +122,7 @@ $$
 
 碰撞的研究可以追溯到惠更斯的《论物体的碰撞运动》（研究成果在其死后发表于），他研究了完全弹性碰撞，证明了碰撞前后能量和动量的守恒。
 
-::img{src="../惠更斯碰撞实验.avif" width="90%"}
+![alt text](../惠更斯碰撞实验.avif#class="custom-img";float=90%"
 
 二次碰撞：如果一个物体回复时速度比前面的物体大，则会二次碰撞。
 
@@ -157,19 +157,19 @@ $$
 由动量守恒、动能守恒：
 
 $$
-\left{\begin{aligned} m_1v_1+m_2v_2&=m_1v_1'+m_2v_2'\ \frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2&=\frac{1}{2}m_1v_1'^2+\frac{1}{2}m_2v_2'^2 \end{aligned}\right.
+\left\{\begin{aligned} m_1v_1+m_2v_2&=m_1v_1'+m_2v_2'\\ \frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2&=\frac{1}{2}m_1v_1'^2+\frac{1}{2}m_2v_2'^2 \end{aligned}\right.
 $$
 
 化简，得：
 
 $$
-\left{\begin{aligned} m_1v_1+m_2v_2&=m_1v_1'+m_2v_2'\ v_1+v_1'&=v_2+v_2' \end{aligned}\right.
+\left\{\begin{aligned} m_1v_1+m_2v_2&=m_1v_1'+m_2v_2'\\ v_1+v_1'&=v_2+v_2' \end{aligned}\right.
 $$
 
 解得：
 
 $$
-\left{\begin{aligned} v_1'&=\frac{v_1(m_1-m_2)+2m_2v_2}{m_1+m_2}\ v_2'&=\frac{v_2(m_2-m_1)+2m_1v_1}{m_1+m_2} \end{aligned}\right.
+\left\{\begin{aligned} v_1'&=\frac{v_1(m_1-m_2)+2m_2v_2}{m_1+m_2}\\ v_2'&=\frac{v_2(m_2-m_1)+2m_1v_1}{m_1+m_2} \end{aligned}\right.
 $$
 
 PS：下面的式子不用记，直接用上面的方程组解即可。
@@ -181,7 +181,7 @@ PS：下面的式子不用记，直接用上面的方程组解即可。
 - 使用二元组表示，即 $(v_1,m_1)$ 撞 $(0,m_2)$：
 
   $$
-  \left{\begin{aligned} v_1'&=\frac{v_1(m_1-m_2)}{m_1+m_2}\ v_2'&=\frac{2m_1v_1}{m_1+m_2} \end{aligned}\right.
+  \left\{\begin{aligned} v_1'&=\frac{v_1(m_1-m_2)}{m_1+m_2}\\ v_2'&=\frac{2m_1v_1}{m_1+m_2} \end{aligned}\right.
   $$
 
   注意到 $v_2'$ 永远是正的，但是 $v_1'$ 可能是负的。
@@ -212,19 +212,19 @@ PS：下面的式子不用记，直接用上面的方程组解即可。
 质心的速度不变，可以列出初、末速度和质心速度 $v_f$ 的关系：
 
 $$
-\left{\begin{aligned} v_1+v_1'&=2v_f\ v_2+v_2'&=2v_f \end{aligned}\right.
+\left\{\begin{aligned} v_1+v_1'&=2v_f\\ v_2+v_2'&=2v_f \end{aligned}\right.
 $$
 
 考虑求质心速度，等价于两物体撞到共速的速度 $v_f$：
 
 $$
-\begin{aligned} m_1v_1+m_2v_2=(m_1+m_2)v_f\ v_f=\frac{m_1v_1+m_2v_2}{m_1+m_2} \end{aligned}
+\begin{aligned} m_1v_1+m_2v_2=(m_1+m_2)v_f\\ v_f=\frac{m_1v_1+m_2v_2}{m_1+m_2} \end{aligned}
 $$
 
 那么就有：
 
 $$
-\left{\begin{aligned} v_1'&=2\cdot\frac{m_1v_1+m_2v_2}{m_1+m_2}-v_1\ v_2'&=2\cdot\frac{m_1v_1+m_2v_2}{m_1+m_2}-v_2 \end{aligned}\right.
+\left\{\begin{aligned} v_1'&=2\cdot\frac{m_1v_1+m_2v_2}{m_1+m_2}-v_1\\ v_2'&=2\cdot\frac{m_1v_1+m_2v_2}{m_1+m_2}-v_2 \end{aligned}\right.
 $$
 
 不要化简。
@@ -264,7 +264,7 @@ $$
 此时可以问在碰撞中损耗的能量是多少：
 
 $$
-\begin{aligned} E_{\text{损}}&=E_{k0}-E_{kt}\ &=\left(\frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2\right)\ &-\left(\frac{1}{2}m_1v_1'^2+\frac{1}{2}m_2v_2'^2\right) \end{aligned}
+\begin{aligned} E_{\text{损}}&=E_{k0}-E_{kt}\\ &=\left(\frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2\right)\\ &-\left(\frac{1}{2}m_1v_1'^2+\frac{1}{2}m_2v_2'^2\right) \end{aligned}
 $$
 
 因为，注意到在小球中，有用的能量只有动能。
@@ -440,7 +440,7 @@ $$
 或者，
 
 $$
-\bm j(\bm r,t)=\rho(\bm r,t)\bm v(\bm r,t)\ \rho(\bm r,t)=\lim_{\Delta V\to0}{\Delta m\over\Delta V}
+\bm j(\bm r,t)=\rho(\bm r,t)\bm v(\bm r,t)\\ \rho(\bm r,t)=\lim_{\Delta V\to0}{\Delta m\over\Delta V}
 $$
 
 注意到，

@@ -35,7 +35,7 @@ $a=\lang 1,0,1,0,1,\dots\rang$ 的 $F(x)=\displaystyle\sum_{n\geq 0}x^{2n}=\frac
 
 $a=\lang 1,2,3,4,\dots\rang$ 的 $F(x)=\displaystyle\sum_{n\geq 0}(n+1)x^n=\sum_{n\geq 0}(x^n)'=\left(\frac{1}{1-x}\right)'=\frac{1}{(1-x)^2}$
 
-$a_n=\begin{pmatrix}m\n\end{pmatrix}$ 的 $F(x)=\displaystyle\sum_{n\geq 0}\begin{pmatrix}m\n\end{pmatrix}x^n=(1+x)^m$
+$a_n=\begin{pmatrix}m\\n\end{pmatrix}$ 的 $F(x)=\displaystyle\sum_{n\geq 0}\begin{pmatrix}m\\n\end{pmatrix}x^n=(1+x)^m$
 
 $Fib$ 数列定义为 $a_0=0,a_1=1,a_n=a_{n-1}+a_{n-2}$，于是有
 
@@ -60,10 +60,10 @@ $$
 全部乘起来得到答案的生成函数：
 
 $$
-F(x)=\frac{(1+x)(1-x^3)x(1-x^4)(1+x)}{(1-x^2)(1-x)(1-x^2)(1-x^4)(1-x)(1-x^3)}=\frac{x}{(1-x)^4}=\sum_{n\geq 1}\begin{pmatrix}n+2\n-1\end{pmatrix}x^n
+F(x)=\frac{(1+x)(1-x^3)x(1-x^4)(1+x)}{(1-x^2)(1-x)(1-x^2)(1-x^4)(1-x)(1-x^3)}=\frac{x}{(1-x)^4}=\sum_{n\geq 1}\begin{pmatrix}n+2\\n-1\end{pmatrix}x^n
 $$
 
-于是答案 $=\begin{pmatrix}n+2\n-1\end{pmatrix}=\begin{pmatrix}n+2\3\end{pmatrix}$
+于是答案 $=\begin{pmatrix}n+2\\n-1\end{pmatrix}=\begin{pmatrix}n+2\\3\end{pmatrix}$
 
 1.  $a_{n+1}+a_n=2^n,a_0=0$，求通项。
 
@@ -88,5 +88,5 @@ f^2(x)=C_0^2+(C_0C_1+C_1C_0)x+\dots\implies xf^2(x)+C_0=f(x)\implies f(x)=\frac{
 $$
 
 $$
-\implies f(x)=\frac{1-\left{1+\displaystyle\sum_{k=1}^{+\infty}\left[-2\begin{pmatrix}2k-2\ k-1\end{pmatrix}\right]x^k\right}}{2x}=\sum_{k=0}^{+\infty}\frac{\begin{pmatrix}2k\k\end{pmatrix}x^k}{k+1}\implies\red{\boxed{C_n=\frac{\begin{pmatrix}2n\n\end{pmatrix}}{n+1}}}
+\implies f(x)=\frac{1-\left\{1+\displaystyle\sum_{k=1}^{+\infty}\left[-2\begin{pmatrix}2k-2\\ k-1\end{pmatrix}\right]x^k\right\}}{2x}=\sum_{k=0}^{+\infty}\frac{\begin{pmatrix}2k\\k\end{pmatrix}x^k}{k+1}\implies\red{\boxed{C_n=\frac{\begin{pmatrix}2n\\n\end{pmatrix}}{n+1}}}
 $$

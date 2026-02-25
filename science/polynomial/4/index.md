@@ -1,8 +1,8 @@
 # 导数不等式 {#_1}
 
-::img[alt text]{src="../image.avif"}
+![alt text](../image.avif#class="custom-img"
 
-::img[alt text]{src="../image-1.avif"}
+![alt text](../image-1.avif#class="custom-img"
 
 ## 导数方法 {#_2}
 
@@ -199,7 +199,7 @@ $$
 具体的，对于 $q(x)=0$ 的等式或不等式，我们两边同时乘以 $e^{P(x)}$，即：
 
 $$
-\begin{aligned} e^{P(x)}[f'(x)+p(x)f(x)]&=0\ [e^{P(x)}f(x)]'&=0 \end{aligned}
+\begin{aligned} e^{P(x)}[f'(x)+p(x)f(x)]&=0\\ [e^{P(x)}f(x)]'&=0 \end{aligned}
 $$
 
 即 $f(x)=Ce^{-P(x)}$，而对于不等式即为 $e^{P(x)}f(x)$ 单调递增。
@@ -227,7 +227,7 @@ $$
 设 $t=\sqrt{x_2/x_1}>1$，则：
 
 $$
-\begin{aligned} \text{LHS}&=\ln t^2=2\ln t\ \text{RHS}&=\dfrac{t^2-1}{t}=t-\dfrac{1}{t} \end{aligned}
+\begin{aligned} \text{LHS}&=\ln t^2=2\ln t\\ \text{RHS}&=\dfrac{t^2-1}{t}=t-\dfrac{1}{t} \end{aligned}
 $$
 
 令 $f(t)=t-\dfrac{1}{t}-2\ln t$，则：
@@ -327,7 +327,7 @@ $$
 可以得到三组不等式
 
 $$
-\begin{cases} \pi^3&<3^\pi\ \pi^e&<e^\pi\ 3^e&<e^3 \end{cases}
+\begin{cases} \pi^3&<3^\pi\\ \pi^e&<e^\pi\\ 3^e&<e^3 \end{cases}
 $$
 
 现在我们可以得到下面的（用括号表示两个暂不知道大小关系）
@@ -406,28 +406,28 @@ $$
 
 对于任何单调函数，最值必在端点处取到：
 
-- 单调函数 $f(x)\ge0$ 在 $[x_1,x_2]$ 上恒成立等价于 $\begin{cases}f(x_1)&\ge0\ f(x_2)&\ge0\end{cases}$。
+- 单调函数 $f(x)\ge0$ 在 $[x_1,x_2]$ 上恒成立等价于 $\begin{cases}f(x_1)&\ge0\\ f(x_2)&\ge0\end{cases}$。
 
-- 单调函数 $f(x)\le0$ 在 $[x_1,x_2]$ 上恒成立等价于 $\begin{cases}f(x_1)&\le0\ f(x_2)&\le0\end{cases}$。
+- 单调函数 $f(x)\le0$ 在 $[x_1,x_2]$ 上恒成立等价于 $\begin{cases}f(x_1)&\le0\\ f(x_2)&\le0\end{cases}$。
 
 对任何一个函数 $f(x)$，若它在区间上是先减后增，则其最大值必在端点处取得，同理可得若函数在区间上先增后减，其最小值必在区间端点处取得：
 
-- 若 $a > 0$，则 $f(x) = ax^2 + bx + c \le 0$ 在 $[x_1, x_2]$ 上恒成立等价于 $\begin{cases}f(x_1)&\le0\ f(x_2)&\le0\end{cases}$。
+- 若 $a > 0$，则 $f(x) = ax^2 + bx + c \le 0$ 在 $[x_1, x_2]$ 上恒成立等价于 $\begin{cases}f(x_1)&\le0\\ f(x_2)&\le0\end{cases}$。
 
-- 若 $a < 0$，则 $f(x) = ax^2 + bx + c \ge 0$ 在 $[x_1, x_2]$ 上恒成立等价于 $\begin{cases}f(x_1)&\ge0\ f(x_2)&\ge0\end{cases}$。
+- 若 $a < 0$，则 $f(x) = ax^2 + bx + c \ge 0$ 在 $[x_1, x_2]$ 上恒成立等价于 $\begin{cases}f(x_1)&\ge0\\ f(x_2)&\ge0\end{cases}$。
 
 二次函数恒正、恒负的等价条件：
 
 1.  对一切实数 $x$，$ax^2 + bx + c \ge 0$ 恒成立的条件是：
 
     $$
-    \begin{cases} a &> 0 \ \Delta &\le 0 \end{cases}
+    \begin{cases} a &> 0 \\ \Delta &\le 0 \end{cases}
     $$
 
 2.  对一切实数 $x$，$ax^2 + bx + c \le 0$ 恒成立的条件是：
 
     $$
-    \begin{cases} a &< 0 \ \Delta &\le 0 \end{cases}
+    \begin{cases} a &< 0 \\ \Delta &\le 0 \end{cases}
     $$
 
 绝对值函数：
@@ -583,7 +583,7 @@ $$
 再把 $e^x$ 除过去，得到
 
 $$
-\left{\dfrac{\dfrac{1}{2}x^3-ax^2+x+1}{e^x}\right}_{\max}\le1
+\left\{\dfrac{\dfrac{1}{2}x^3-ax^2+x+1}{e^x}\right\}_{\max}\le1
 $$
 
 恒成立，再用端点效应必要性探路即可解决。
@@ -602,13 +602,13 @@ $$
 
 具体的：
 
-1.  若 $f(x) \ge 0$ 在 $[a, b]$ 上恒成立，则由端点效应可知 $\begin{cases}f(a) \ge 0\ f(b) \ge 0\end{cases}$。
+1.  若 $f(x) \ge 0$ 在 $[a, b]$ 上恒成立，则由端点效应可知 $\begin{cases}f(a) \ge 0\\ f(b) \ge 0\end{cases}$。
 
-2.  若 $f(x) > 0$ 在 $[a, b]$ 上恒成立，则由端点效应可知 $\begin{cases}f(a) > 0\ f(b) > 0\end{cases}$。
+2.  若 $f(x) > 0$ 在 $[a, b]$ 上恒成立，则由端点效应可知 $\begin{cases}f(a) > 0\\ f(b) > 0\end{cases}$。
 
-3.  若 $f(x) \ge 0$ 在 $(a, b)$ 上恒成立，则由端点效应可知 $\begin{cases}f(a) \ge 0\ f(b) \ge 0\end{cases}$。
+3.  若 $f(x) \ge 0$ 在 $(a, b)$ 上恒成立，则由端点效应可知 $\begin{cases}f(a) \ge 0\\ f(b) \ge 0\end{cases}$。
 
-4.  若 $f(x) > 0$ 在 $(a, b)$ 上恒成立，则由端点效应可知 $\begin{cases}f(a) \ge 0\ f(b) \ge 0\end{cases}$。
+4.  若 $f(x) > 0$ 在 $(a, b)$ 上恒成立，则由端点效应可知 $\begin{cases}f(a) \ge 0\\ f(b) \ge 0\end{cases}$。
 
 若函数 $f(x)g(x) \ge 0$ 在 $(a, b)$ 上恒成立，则：
 
@@ -635,7 +635,7 @@ $$
 考虑不等式组
 
 $$
-\begin{cases} f'(x_0) &= 0 &&①\ f(x_0) &\ge 0 &&②\end{cases}
+\begin{cases} f'(x_0) &= 0 &&①\\ f(x_0) &\ge 0 &&②\end{cases}
 $$
 
 其中 $f'(x_0)$ 和 $f(x_0)$ 均含有参数 $a$。
@@ -651,7 +651,7 @@ $$
 
 2.  **若①不容易分离参数 $a$ 和 $x_0$，或分离后结构复杂**：
 
-    - 首先猜测方程组 $\begin{cases} f'(x_0) = 0 \ f(x_0) = 0 \end{cases}$ 的解 $x_0$。
+    - 首先猜测方程组 $\begin{cases} f'(x_0) = 0 \\ f(x_0) = 0 \end{cases}$ 的解 $x_0$。
     - 然后由 $f(x_0) \ge 0$ 和端点效应解出 $a$ 的取值范围（该范围为最终的答案）。
     - 最后证明在该范围下 $f(x) \ge 0$ 恒成立。
     - 注意这个只适合已知恒成立求参数范围的问题，不适于不等式的证明。
@@ -675,7 +675,7 @@ $$
 函数不等式中含有 $xe^x$ 与 $\frac{e^x}{x}$ 这类固定搭配，则考虑放缩如下：
 
 $$
-\begin{aligned} xe^x &= e^{x+\ln x} &&\ge x + \ln x + 1\ \frac{e^x}{x} &= e^{x-\ln x} &&\ge x - \ln x + 1 \end{aligned}
+\begin{aligned} xe^x &= e^{x+\ln x} &&\ge x + \ln x + 1\\ \frac{e^x}{x} &= e^{x-\ln x} &&\ge x - \ln x + 1 \end{aligned}
 $$
 
 ### 整体代换法 {#_17}
@@ -758,14 +758,14 @@ $$
 
 当且仅当 $x=1$ 时取等，我们对两边同时求积分，如图左。为了使两边依旧在 $x=1$ 时取等，我们将 $\ln x$ 的积分 $(\ln x-1)x$ 修正为其加 $\dfrac{1}{2}$，如图右
 
-::img[alt text]{src="../desmos-graph (2).svg"}
+![alt text](../desmos-graph (2).svg#class="custom-img"
 
-::img[alt text]{src="../desmos-graph.svg"}
+![alt text](../desmos-graph.svg#class="custom-img"
 
 利用求导也可以证明下面的不等式：
 
 $$
-\begin{cases} 0<x\le1&\ln x\ge\dfrac{1}{2}\left(x-\dfrac{1}{x}\right)\ x>1&\ln x<\dfrac{1}{2}\left(x-\dfrac{1}{x}\right) \end{cases}
+\begin{cases} 0<x\le1&\ln x\ge\dfrac{1}{2}\left(x-\dfrac{1}{x}\right)\\ x>1&\ln x<\dfrac{1}{2}\left(x-\dfrac{1}{x}\right) \end{cases}
 $$
 
 类似的，继续求积分，我们还可以得到下面的不等式：
@@ -783,7 +783,7 @@ $$
 进行类似的积分构造。可以得到
 
 $$
-\begin{cases} 0<x\le1&\ln x\le\dfrac{2(x-1)}{x+1}\ x>1&\ln x\ge\dfrac{2(x-1)}{x+1} \end{cases}
+\begin{cases} 0<x\le1&\ln x\le\dfrac{2(x-1)}{x+1}\\ x>1&\ln x\ge\dfrac{2(x-1)}{x+1} \end{cases}
 $$
 
 ### 替换构造法 {#_20}
@@ -791,25 +791,25 @@ $$
 我们对
 
 $$
-\begin{cases} 0<x\le1&\ln x\ge\dfrac{1}{2}\left(x-\dfrac{1}{x}\right)\ x>1&\ln x<\dfrac{1}{2}\left(x-\dfrac{1}{x}\right) \end{cases}
+\begin{cases} 0<x\le1&\ln x\ge\dfrac{1}{2}\left(x-\dfrac{1}{x}\right)\\ x>1&\ln x<\dfrac{1}{2}\left(x-\dfrac{1}{x}\right) \end{cases}
 $$
 
 令 $x\gets e^x$，则有
 
 $$
-\begin{cases} x\le0& e^x-e^{-x}\le2x\ x>0& e^x-e^{-x}>2x \end{cases}
+\begin{cases} x\le0& e^x-e^{-x}\le2x\\ x>0& e^x-e^{-x}>2x \end{cases}
 $$
 
 类似的，我们对
 
 $$
-\begin{cases} 0<x\le1&\ln x\le\dfrac{2(x-1)}{x+1}\ x>1&\ln x\ge\dfrac{2(x-1)}{x+1} \end{cases}
+\begin{cases} 0<x\le1&\ln x\le\dfrac{2(x-1)}{x+1}\\ x>1&\ln x\ge\dfrac{2(x-1)}{x+1} \end{cases}
 $$
 
 令 $x\gets e^x$，则有
 
 $$
-\begin{cases} x\le0&(2-x)e^x\ge2+x\ x>0&(2-x)e^x<2+x \end{cases}
+\begin{cases} x\le0&(2-x)e^x\ge2+x\\ x>0&(2-x)e^x<2+x \end{cases}
 $$
 
 ### 局部求值法 {#_21}
@@ -931,7 +931,7 @@ $$
 求解下面这个方程组，代回原方程就是他的极值点
 
 $$
-\begin{cases} \dfrac{\partial L}{\partial x}&=0\ \dfrac{\partial L}{\partial y}&=0\ \varphi(x,y)&=0 \end{cases}
+\begin{cases} \dfrac{\partial L}{\partial x}&=0\\ \dfrac{\partial L}{\partial y}&=0\\ \varphi(x,y)&=0 \end{cases}
 $$
 
 例题：已知 $a,b,c$ 均为正实数，$a^2+b^2+4c^2=1$，则 $ab+2ac+3\sqrt{2}bc$ 的最大值为？
@@ -969,7 +969,7 @@ $$
 联立解得
 
 $$
-\begin{cases} a&=\dfrac{\sqrt{2}}{\sqrt{10}}\ b&=\dfrac{2}{\sqrt{10}}\ c&=\dfrac{1}{\sqrt{10}}\ \lambda&=-\sqrt{2} \end{cases}
+\begin{cases} a&=\dfrac{\sqrt{2}}{\sqrt{10}}\\ b&=\dfrac{2}{\sqrt{10}}\\ c&=\dfrac{1}{\sqrt{10}}\\ \lambda&=-\sqrt{2} \end{cases}
 $$
 
 代回得到
@@ -984,7 +984,7 @@ $$
 
 我们在证明形如 $x_1+x_2>m$ 或 $x_1x_2>m$ 的式子成立时，可以尝试将待证的不等式在形式上进行转化，转而证明转化后的不等式 $x_1>m-x_2$ 或 $x_1>\dfrac{m}{x_2}$ 成立，之后利用函数的单调性，转化为函数值之间的关系，即 $f(x_1)$ 与 $f(m-x_2)$ 或 $f\left(\dfrac{m}{x_2}\right)$ 进行比较。
 
-::img[alt text]{src="../image-6.avif"}
+![alt text](../image-6.avif#class="custom-img"
 
 使用构造类对称法解此题时，首先要注意变量的取值范围，我们需要保证构造后不等号两边的变量取值在同一区间内，然后才能使用单调性进行证明。
 
@@ -1103,7 +1103,7 @@ $$
 我们知道
 
 $$
-\begin{cases} e^{x_1}&=ax_1\ e^{x_2}&=ax_2 \end{cases}
+\begin{cases} e^{x_1}&=ax_1\\ e^{x_2}&=ax_2 \end{cases}
 $$
 
 那么：
@@ -1115,7 +1115,7 @@ $$
 令 $t=\dfrac{x_2}{x_1}>1$，则：
 
 $$
-\begin{cases} x_1&=\dfrac{\ln t}{t-1}\ x_2&=\dfrac{t\ln t}{t-1} \end{cases}
+\begin{cases} x_1&=\dfrac{\ln t}{t-1}\\ x_2&=\dfrac{t\ln t}{t-1} \end{cases}
 $$
 
 要证 $x_1+x_2>2$ 即证：
@@ -1245,7 +1245,7 @@ $$
 的式子，设 $t=\dfrac{x_1}{x_2}\in(0,1)$，一是可以将其化为
 
 $$
-\begin{cases} x_1&=\dfrac{t\ln t}{t-1}\ x_2&=\dfrac{\ln t}{t-1} \end{cases}
+\begin{cases} x_1&=\dfrac{t\ln t}{t-1}\\ x_2&=\dfrac{\ln t}{t-1} \end{cases}
 $$
 
 然后带入，直接证明一元不等式，二是可以将

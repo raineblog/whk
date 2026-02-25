@@ -70,7 +70,7 @@ $$
 
 牛顿第二定律指出了力所引起的物体运动的定量变化：动量的变化率正比于力。
 
-::img[alt text]{src="../image-1.avif" width="60%"}
+![alt text](../image-1.avif#class="custom-img";float=60%"
 
 在这条定律中，把受到相同大小作用力的推动下，轻物体容易起动，重物体不易起动的事实，引进了质量的概念。
 
@@ -89,7 +89,7 @@ $$
 经 @lanjiarui 补充：
 
 $$
-v(t) =\lim_{\Delta{t}\to0}\dfrac{x(t+\Delta{t})-x(t)}{\Delta{t}} =\dfrac{\mathrm{d}x}{\mathrm{d}t} \[1.2em] a(t) =\lim_{\Delta{t}\to0}\dfrac{v(t+\Delta{t})-v(t)}{\Delta{t}} =\dfrac{\mathrm{d}v}{\mathrm{d}t} =\dfrac{\mathrm{d^2}x}{\mathrm{d}t^{2}}
+v(t) =\lim_{\Delta{t}\to0}\dfrac{x(t+\Delta{t})-x(t)}{\Delta{t}} =\dfrac{\mathrm{d}x}{\mathrm{d}t} \\[1.2em] a(t) =\lim_{\Delta{t}\to0}\dfrac{v(t+\Delta{t})-v(t)}{\Delta{t}} =\dfrac{\mathrm{d}v}{\mathrm{d}t} =\dfrac{\mathrm{d^2}x}{\mathrm{d}t^{2}}
 $$
 
 经 @pjykk 补充：
@@ -374,10 +374,10 @@ $$
 对（物体），从（初位置）到（末位置），做功有（哪些力），列功动能定理：
 
 $$
-\begin{aligned} W_{\text{合}}&=\Delta E_k\ W_G+W_f+\dots&=\frac{1}{2}m{v_t}^2-\frac{1}{2}m{v_0}^2 \end{aligned}
+\begin{aligned} W_{\text{合}}&=\Delta E_k\\ W_G+W_f+\dots&=\frac{1}{2}m{v_t}^2-\frac{1}{2}m{v_0}^2 \end{aligned}
 $$
 
-::img[模型]{src="../动能定理九个模型.avif" width="90%"}
+![模型](../动能定理九个模型.avif#class="custom-img";float=90%"
 
 1.  圆周运动上受力和速度的关系。
 
@@ -397,7 +397,7 @@ $$
 - 表示做功后能量减小。
 
   $$
-  \begin{aligned} W_G&=-\Delta E_{pG}\ W_{\text{弹}}&=-\Delta E_{p\text{弹}} \end{aligned}
+  \begin{aligned} W_G&=-\Delta E_{pG}\\ W_{\text{弹}}&=-\Delta E_{p\text{弹}} \end{aligned}
   $$
 
 - 即，负相关，重力势能变化量是克服重力做的功，弹性势能变化量是克服弹力做的功。
@@ -409,7 +409,7 @@ $$
 - 表示做功后能量增加。
 
   $$
-  \begin{aligned} W_{\text{合}}&=\Delta E_k\ W_{\text{除G}}&=\Delta E_{\text{机}} \end{aligned}
+  \begin{aligned} W_{\text{合}}&=\Delta E_k\\ W_{\text{除G}}&=\Delta E_{\text{机}} \end{aligned}
   $$
 
 - 即，正相关，动能变化量是合外力做功，机械能变化量是除重力外做的功。

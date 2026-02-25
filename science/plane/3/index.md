@@ -12,7 +12,7 @@
 
 我们知道单独考查三角函数式的化简是极少见的，绝大多数的化简其背后就是求值，常见的求值问题有：给值求值、给角求值、给值求角。
 
-::img[变角]{src="../图片1.avif" align="right" width="30%"}
+![变角](../图片1.avif#class="custom-img";align="right";float=30%"
 
 三角函数：角为先，公式特征为要。
 
@@ -25,7 +25,7 @@ $$
 右图为这三者的转换关系。
 
 $$
-\left{ \begin{aligned} x&=\sin\alpha-\sin\beta\ y&=\cos\alpha-\cos\beta \end{aligned} \right.
+\left\{ \begin{aligned} x&=\sin\alpha-\sin\beta\\ y&=\cos\alpha-\cos\beta \end{aligned} \right.
 $$
 
 根据上面的可以推出 $\alpha,\beta$ 和差角的正余弦。
@@ -181,7 +181,7 @@ $$
 证明：
 
 $$
-\begin{aligned} \tan z&=\tan(\pi-x-y)=-\tan(x+y)\ \tan z&=-{\tan x+\tan y\over1-\tan x\tan y} \end{aligned}
+\begin{aligned} \tan z&=\tan(\pi-x-y)=-\tan(x+y)\\ \tan z&=-{\tan x+\tan y\over1-\tan x\tan y} \end{aligned}
 $$
 
 下面的式子整理即可。
@@ -195,7 +195,7 @@ $$
 证明：
 
 $$
-\begin{aligned} \tan{z\over2}&=\tan\left({\pi\over2}-{x\over2}-{y\over2}\right)={1\over\tan({x\over2}+{y\over2})}\ \tan{z\over2}&={1-\tan{x\over2}\tan{y\over2}\over\tan{x\over2}+\tan{y\over2}} \end{aligned}
+\begin{aligned} \tan{z\over2}&=\tan\left({\pi\over2}-{x\over2}-{y\over2}\right)={1\over\tan({x\over2}+{y\over2})}\\ \tan{z\over2}&={1-\tan{x\over2}\tan{y\over2}\over\tan{x\over2}+\tan{y\over2}} \end{aligned}
 $$
 
 下面的式子整理即可。
@@ -233,7 +233,7 @@ $$
 证明：
 
 $$
-\begin{aligned} \sin x+\sin y&=2\sin{x+y\over2}\cos{x-y\over2}\ &=2\cos{z\over2}\cos{x-y\over2}\ \sin z&=2\sin{z\over2}\cos{z\over2}\ &=2\cos{z\over2}\cos{x+y\over2} \end{aligned}
+\begin{aligned} \sin x+\sin y&=2\sin{x+y\over2}\cos{x-y\over2}\\ &=2\cos{z\over2}\cos{x-y\over2}\\ \sin z&=2\sin{z\over2}\cos{z\over2}\\ &=2\cos{z\over2}\cos{x+y\over2} \end{aligned}
 $$
 
 然后加起来用和差化积公式即可。
@@ -247,7 +247,7 @@ $$
 证明：
 
 $$
-\begin{aligned} \cos z&=1-\sin^2{z\over2}\ &=1-\sin{z\over2}\cos{x+y\over2}\ \cos x+\cos y&=2\cos{x+y\over2}\cos{x-y\over2}\ &=2\sin{z\over2}\cos{x-y\over2} \end{aligned}
+\begin{aligned} \cos z&=1-\sin^2{z\over2}\\ &=1-\sin{z\over2}\cos{x+y\over2}\\ \cos x+\cos y&=2\cos{x+y\over2}\cos{x-y\over2}\\ &=2\sin{z\over2}\cos{x-y\over2} \end{aligned}
 $$
 
 然后加起来用和差化积公式即可。
@@ -263,7 +263,7 @@ $$
 证明：
 
 $$
-\begin{aligned} \sin2z&=2\sin z\cos z\ &=-2\sin z\cos(x+y)\ \sin2x+\sin2y&=2\sin(x+y)\cos(x-y)\ &=2\sin z\cos(x-y) \end{aligned}
+\begin{aligned} \sin2z&=2\sin z\cos z\\ &=-2\sin z\cos(x+y)\\ \sin2x+\sin2y&=2\sin(x+y)\cos(x-y)\\ &=2\sin z\cos(x-y) \end{aligned}
 $$
 
 然后加起来用和差化积公式即可。
@@ -277,7 +277,7 @@ $$
 证明：
 
 $$
-\begin{aligned} \cos2z&=2\cos^2z-1\ &=-2\cos z\cos(x+y)-1\ \cos2x+\cos2y&=2\cos(x+y)\cos(x-y)\ &=-2\cos z\cos(x-y) \end{aligned}
+\begin{aligned} \cos2z&=2\cos^2z-1\\ &=-2\cos z\cos(x+y)-1\\ \cos2x+\cos2y&=2\cos(x+y)\cos(x-y)\\ &=-2\cos z\cos(x-y) \end{aligned}
 $$
 
 然后加起来用和差化积公式即可。
@@ -293,13 +293,13 @@ S1：和差恒等式
 易得：
 
 $$
-\begin{cases} \sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta={1\over2}\ \sin(\alpha-\beta)=\sin\alpha\cos\beta-\cos\alpha\sin\beta={1\over3}\ \end{cases}
+\begin{cases} \sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta={1\over2}\\ \sin(\alpha-\beta)=\sin\alpha\cos\beta-\cos\alpha\sin\beta={1\over3}\\ \end{cases}
 $$
 
 解得：
 
 $$
-\begin{cases} \sin\alpha\cos\beta={5\over12}\ \cos\alpha\sin\beta={1\over12}\ \end{cases}
+\begin{cases} \sin\alpha\cos\beta={5\over12}\\ \cos\alpha\sin\beta={1\over12}\\ \end{cases}
 $$
 
 易知：
@@ -313,7 +313,7 @@ S2：和差化积恒等式
 易得：
 
 $$
-\begin{cases} \sin(\alpha+\beta)+\sin(\alpha-\beta)=2\sin\alpha\cos\beta={1\over2}+{1\over3}={5\over6}\ \sin(\alpha+\beta)-\sin(\alpha-\beta)=2\cos\alpha\sin\beta={1\over2}-{1\over3}={1\over6} \end{cases}
+\begin{cases} \sin(\alpha+\beta)+\sin(\alpha-\beta)=2\sin\alpha\cos\beta={1\over2}+{1\over3}={5\over6}\\ \sin(\alpha+\beta)-\sin(\alpha-\beta)=2\cos\alpha\sin\beta={1\over2}-{1\over3}={1\over6} \end{cases}
 $$
 
 易知：
@@ -329,7 +329,7 @@ $$
 根据偶函数定义：
 
 $$
-\begin{aligned} \sin(x+\theta)=\sin(-x+\theta)\ \sin\theta\cos x+\cos\theta\sin x=\sin\theta\cos x-\cos\theta\sin x\ \cos\theta\sin x=0 \end{aligned}
+\begin{aligned} \sin(x+\theta)=\sin(-x+\theta)\\ \sin\theta\cos x+\cos\theta\sin x=\sin\theta\cos x-\cos\theta\sin x\\ \cos\theta\sin x=0 \end{aligned}
 $$
 
 因为 $x\in\mathbb R$，所以 $\cos\theta=0$，即： $\displaystyle\theta={\pi\over2}/{3\pi\over2}$。
@@ -343,7 +343,7 @@ $$
 化简：
 
 $$
-\begin{aligned} &\sin^2\left(x+{\pi\over12}\right)+\sin^2\left(x+{\pi\over4}\right)\ =\;&{1\over2}\left[1-\cos\left(2x+{\pi\over6}\right)+1-\cos\left(2x+{\pi\over2}\right)\right]\ =\;&1-{1\over2}\left[\cos\left(2x+{\pi\over6}\right)+\cos\left(2x+{\pi\over2}\right)\right]\ =\;&1-{1\over2}\left({\sqrt3\over2}\cos2x-{1\over2}\sin2x-\sin2x\right)\ =\;&1+{1\over4}\left(3\sin2x-\sqrt3\cos2x\right)\ =\;&1+{\sqrt3\over2}\sin\left(2x-{\pi\over6}\right)\end{aligned}
+\begin{aligned} &\sin^2\left(x+{\pi\over12}\right)+\sin^2\left(x+{\pi\over4}\right)\\ =\;&{1\over2}\left[1-\cos\left(2x+{\pi\over6}\right)+1-\cos\left(2x+{\pi\over2}\right)\right]\\ =\;&1-{1\over2}\left[\cos\left(2x+{\pi\over6}\right)+\cos\left(2x+{\pi\over2}\right)\right]\\ =\;&1-{1\over2}\left({\sqrt3\over2}\cos2x-{1\over2}\sin2x-\sin2x\right)\\ =\;&1+{1\over4}\left(3\sin2x-\sqrt3\cos2x\right)\\ =\;&1+{\sqrt3\over2}\sin\left(2x-{\pi\over6}\right)\end{aligned}
 $$
 
 然后就忒简单了，答案是，函数 $g$ 的值域为 $\displaystyle\left[1-{\sqrt3\over2},1+{\sqrt3\over2}\right]$。
@@ -363,7 +363,7 @@ $$
 答案：
 
 $$
-\begin{aligned} S&=\dfrac{1}{\sin20\degree}\sin20\degree\cos20\degree\cdot\cos40\degree\cos80\degree\ &=\dfrac{1}{2\sin20\degree}\sin40\degree\cos40\degree\cdot\cos80\degree\ &=\dfrac{1}{4\sin20\degree}\sin80\degree\cos80\degree\ &=\dfrac{1}{8\sin20\degree}\sin160\degree=\dfrac{1}{8} \end{aligned}
+\begin{aligned} S&=\dfrac{1}{\sin20\degree}\sin20\degree\cos20\degree\cdot\cos40\degree\cos80\degree\\ &=\dfrac{1}{2\sin20\degree}\sin40\degree\cos40\degree\cdot\cos80\degree\\ &=\dfrac{1}{4\sin20\degree}\sin80\degree\cos80\degree\\ &=\dfrac{1}{8\sin20\degree}\sin160\degree=\dfrac{1}{8} \end{aligned}
 $$
 
 本质是角的变换。
@@ -379,7 +379,7 @@ $$
 答案：
 
 $$
-\begin{aligned} S&=\dfrac{4\sin10\degree\cos10\degree+\sqrt3\sin10\degree}{4\cos10\degree}\ &=\dfrac{2\sin(30\degree-10\degree)+\sqrt3\sin10\degree}{4\cos10\degree}\ &=\dfrac{\cos10\degree}{4\cos10\degree}=\dfrac14 \end{aligned}
+\begin{aligned} S&=\dfrac{4\sin10\degree\cos10\degree+\sqrt3\sin10\degree}{4\cos10\degree}\\ &=\dfrac{2\sin(30\degree-10\degree)+\sqrt3\sin10\degree}{4\cos10\degree}\\ &=\dfrac{\cos10\degree}{4\cos10\degree}=\dfrac14 \end{aligned}
 $$
 
 本质也是角的变换。

@@ -35,7 +35,7 @@ $$
 推导：
 
 $$
-\begin{aligned} W_{AB}&=Fx\cos\theta\ U_{AB}q&=Eq\cos\theta\ U_{AB}&=Ed \end{aligned}
+\begin{aligned} W_{AB}&=Fx\cos\theta\\ U_{AB}q&=Eq\cos\theta\\ U_{AB}&=Ed \end{aligned}
 $$
 
 这个公式也可以描述在两个平行金属板间通入电压所形成的匀强电场的场强。
@@ -111,7 +111,7 @@ $$
 
 根据 $\bm F=\bm Eq$，在匀强电场中，带电物体受力始终是不变的，是恒力。
 
-::img[非匀强电场]{src="../2025-01-19-18-09-56.avif" align="right" width="50%"}
+![非匀强电场](../2025-01-19-18-09-56.avif#class="custom-img";align="right";float=50%"
 
 - 因为本身性质和重力类似，因此可以得出很多运动学动力学的结论，尤其是曲线运动。
 
@@ -142,9 +142,9 @@ $$
 
 构成：两块金属板加一个绝缘介质。具体的，平行板电容器是一种简单的电容器，是由互相平行、以空间或介电质隔离的两片薄板导体构成。
 
-::img[电容器原理]{src="../Diel.avif"}
+![电容器原理](../Diel.avif#class="custom-img"
 
-::img[电容器]{src="../Dielectric.avif"}
+![电容器](../Dielectric.avif#class="custom-img"
 
 电容：表示电容器储存电荷的能力。用 $C$ 表示，单位为 $\text F$ 法拉。
 
@@ -158,7 +158,7 @@ $$
 
 - 在维修具有大电容的设备之前，需确认电容已经放电完毕。为了安全上的考量，所有大电容在组装前需要放电。高电压的电容器若在启动时加入缓启动的机制，限制其突入电流，可以延长其设备寿命，提升器件可靠度，也可以避免高电压下造成的危害。
 
-::img[alt text]{src="../fimage-7.avif" width="100%"}
+![alt text](../fimage-7.avif#class="custom-img";float=100%"
 
 假设这两片导板分别载有负电荷与正电荷，所载有的电荷量分别为 $−Q$、$+Q$，两片导板之间的电势差为 $U$，则这电容器的电容 $C$ 为：
 
@@ -211,7 +211,7 @@ $$
 
 ### 电容器的串并联 {#_12}
 
-::img[alt text]{src="../fimage-8.avif" width="80%"}
+![alt text](../fimage-8.avif#class="custom-img";float=80%"
 
 电容器并联：
 
@@ -238,7 +238,7 @@ $$
 公式：
 
 $$
-\left{ \begin{aligned} C&=\dfrac QU\ C&=\dfrac{\varepsilon_rS}{4\pi kd}\ E&=\dfrac Ud \end{aligned} \right.
+\left\{ \begin{aligned} C&=\dfrac QU\\ C&=\dfrac{\varepsilon_rS}{4\pi kd}\\ E&=\dfrac Ud \end{aligned} \right.
 $$
 
 解题思路：
@@ -307,14 +307,14 @@ $$
 
 **模型一**：连接电源。
 
-::img[穿出]{src="../屏幕截图 2025-01-26 182733.avif" align="right" width="35%"}
+![穿出](../屏幕截图 2025-01-26 182733.avif#class="custom-img";align="right";float=35%"
 
 如右图，两个平行板上有一对小孔（对电场的影响不计），初始状态为从 $P$ 点静止释放，带电质点恰好不穿出下板（记为 $Q$ 点）。
 
 此时 $U$ 是不变的，那么列出功动能定理：
 
 $$
-\begin{aligned} mg(d+d)+W_{电}&=0-0\ mg2d-Uq=0 \end{aligned}
+\begin{aligned} mg(d+d)+W_{电}&=0-0\\ mg2d-Uq=0 \end{aligned}
 $$
 
 - 若移动上板：因为重力做功和 $Uq$ 都是不变的，因此质点恰好不穿出。
@@ -341,7 +341,7 @@ $$
 列出功动能定理：
 
 $$
-\begin{aligned} mg(d+d)+W_{电}&=0-0\ mg2d-Fx=0 \end{aligned}
+\begin{aligned} mg(d+d)+W_{电}&=0-0\\ mg2d-Fx=0 \end{aligned}
 $$
 
 - 若向上移动上板：重力做功不变，$x$ 增大，在 $Q$ 点时_动能小于零\_，这是不合理的，即无法到达 $Q$ 点或不穿出。
@@ -359,7 +359,7 @@ $$
 
 如图：
 
-::img[交变电场]{src="../屏幕截图 2025-01-26 193313.avif"}
+![交变电场](../屏幕截图 2025-01-26 193313.avif#class="custom-img"
 
 本质是多个加速电场的合并。
 
@@ -383,7 +383,7 @@ $$
 
 **基础偏转电场**如图：
 
-::img[偏转电场]{src="../2025-01-27-17-51-14.avif"}
+![偏转电场](../2025-01-27-17-51-14.avif#class="custom-img"
 
 基本思想是：
 
@@ -417,7 +417,7 @@ $$
 
 如图：
 
-::img[加速电场偏转电池]{src="../2025-01-27-17-54-56.avif"}
+![加速电场偏转电池](../2025-01-27-17-54-56.avif#class="custom-img"
 
 根据加速电场相关知识，电子进入偏转电场时的速度为：
 

@@ -34,7 +34,7 @@ $$
 
 ### 切线问题 {#_4}
 
-::img[alt text]{src="../image.avif" width="60%"}
+![alt text](../image.avif#class="custom-img";float=60%"
 
 观察曲线 $y = f(x)$ 的图像。连接曲线上的两点 $(x_{0}, f(x_{0}))$ 和 $(x_{0} + \Delta x, f(x_{0} + \Delta x))$，可以得到曲线的一条**割线**，其斜率
 
@@ -73,7 +73,7 @@ $$
 因为这是一条直线，所以列出总方程：
 
 $$
-\begin{cases} \dfrac{1}{x_1}=\dfrac{1}{x_2+1}\ \ln x_1+1=\dfrac{1}{x_2+1}+\ln(x_2+1)-1 \end{cases}
+\begin{cases} \dfrac{1}{x_1}=\dfrac{1}{x_2+1}\\ \ln x_1+1=\dfrac{1}{x_2+1}+\ln(x_2+1)-1 \end{cases}
 $$
 
 解得 $x_1=\dfrac{1}{2}$，带入可知 $y=2x+1-\ln2$。
@@ -95,7 +95,7 @@ $$
 极限法求导数，是最简单的方法，高中数学中需要求导的函数基本上都是连续的，我们无需考虑不连续的情况，因此我们设出一个 $\Delta x$ 表示增量，用微分的思想，例如 $f(x)=ax^2$：
 
 $$
-\begin{aligned} \dfrac{\d f}{\d x}(x) &= \lim_{\Delta x\to 0} \dfrac{f(x+\Delta x)-f(x)}{\Delta x} \ &= \lim_{\Delta x\to 0} \dfrac{a(x+\Delta x)^2-ax^2}{\Delta x} \ &= \lim_{\Delta x\to 0} \dfrac{2ax\Delta x+a(\Delta x)^2}{\Delta x} \ &= \lim_{\Delta x\to 0} (2ax+a\Delta x) \end{aligned}
+\begin{aligned} \dfrac{\d f}{\d x}(x) &= \lim_{\Delta x\to 0} \dfrac{f(x+\Delta x)-f(x)}{\Delta x} \\ &= \lim_{\Delta x\to 0} \dfrac{a(x+\Delta x)^2-ax^2}{\Delta x} \\ &= \lim_{\Delta x\to 0} \dfrac{2ax\Delta x+a(\Delta x)^2}{\Delta x} \\ &= \lim_{\Delta x\to 0} (2ax+a\Delta x) \end{aligned}
 $$
 
 我们知道，$\Delta x$ 是趋近于 $0$，但是 $0/0$ 没有意义，所以我们继续化简，化简到最后，我们的 $a\Delta x$ 也是趋近于 $0$ 的，因此就可以忽略了，即导函数：
@@ -127,7 +127,7 @@ $$
 证明：
 
 $$
-\begin{aligned} [f(x)\pm g(x)]' &= \lim_{\Delta x\to 0} \dfrac{[f(x+\Delta x)\pm g(x+\Delta x)]-[f(x)\pm g(x)]}{\Delta x}\ &= \lim_{\Delta x\to 0} \dfrac{[f(x+\Delta x)-f(x)]\pm [g(x+\Delta x)-g(x)]}{\Delta x}\ &= \lim_{\Delta x\to 0} \dfrac{[f(x+\Delta x)-f(x)]}{\Delta x} \pm \dfrac{[g(x+\Delta x)-g(x)]}{\Delta x} \ &= \lim_{\Delta x\to 0} f'(x)\pm g'(x) \end{aligned}
+\begin{aligned} [f(x)\pm g(x)]' &= \lim_{\Delta x\to 0} \dfrac{[f(x+\Delta x)\pm g(x+\Delta x)]-[f(x)\pm g(x)]}{\Delta x}\\ &= \lim_{\Delta x\to 0} \dfrac{[f(x+\Delta x)-f(x)]\pm [g(x+\Delta x)-g(x)]}{\Delta x}\\ &= \lim_{\Delta x\to 0} \dfrac{[f(x+\Delta x)-f(x)]}{\Delta x} \pm \dfrac{[g(x+\Delta x)-g(x)]}{\Delta x} \\ &= \lim_{\Delta x\to 0} f'(x)\pm g'(x) \end{aligned}
 $$
 
 导数的乘法法则：
@@ -193,7 +193,7 @@ $$
 例如：
 
 $$
-\begin{aligned} [\arcsin x]'&=\dfrac{1}{(\sin y)'}=\dfrac{1}{\cos y}=\dfrac{1}{\sqrt{1-x^2}}\ [\arccos x]'&=\dfrac{1}{(\cos y)'}=-\dfrac{1}{\sin y}=-\dfrac{1}{\sqrt{1-x^2}}\ [\arctan x]'&=\dfrac{1}{(\tan y)'}=\cos^2y=\dfrac{1}{x^2+1}\ \end{aligned}
+\begin{aligned} [\arcsin x]'&=\dfrac{1}{(\sin y)'}=\dfrac{1}{\cos y}=\dfrac{1}{\sqrt{1-x^2}}\\ [\arccos x]'&=\dfrac{1}{(\cos y)'}=-\dfrac{1}{\sin y}=-\dfrac{1}{\sqrt{1-x^2}}\\ [\arctan x]'&=\dfrac{1}{(\tan y)'}=\cos^2y=\dfrac{1}{x^2+1}\\ \end{aligned}
 $$
 
 另外还有一种**对数求导法**：
@@ -263,13 +263,13 @@ $$
 对于多元函数 $z=F(x,y)$ 或更一般的 $F(x,y,\dots)$，我们研究其对某一个变量的变化率时，我们假装其他所有变量都是常数，然后像求普通导数一样，只对我们关心的那个变量求导，这就是偏导，为了与普通的导数 $\d$ 区分，我们用一个新的符号 $\partial$，例如记函数 $F$ 对 $x$ 的偏导为 $F_x$，其计算方法为：
 
 $$
-\boxed{\begin{aligned} F_x=\dfrac{\partial F}{\partial x}(x,y)&=\lim_{\Delta x\to 0}\dfrac{F(x+\Delta x,y)-F(x,y)}{\Delta x}\ F_y=\dfrac{\partial F}{\partial y}(x,y)&=\lim_{\Delta y\to 0}\dfrac{F(x,y+\Delta y)-F(x,y)}{\Delta y} \end{aligned}}
+\boxed{\begin{aligned} F_x=\dfrac{\partial F}{\partial x}(x,y)&=\lim_{\Delta x\to 0}\dfrac{F(x+\Delta x,y)-F(x,y)}{\Delta x}\\ F_y=\dfrac{\partial F}{\partial y}(x,y)&=\lim_{\Delta y\to 0}\dfrac{F(x,y+\Delta y)-F(x,y)}{\Delta y} \end{aligned}}
 $$
 
 在计算偏导的时候，求对某个变量的偏导数时，就把其他所有变量都看作是常数，然后按照普通求导的方法计算即可，例如以 $F(x,y)=x^2+3xy+y^3$ 为例：
 
 $$
-\begin{cases} F_x&=2x+3y\ F_y&=3y^2+3x\ \end{cases}
+\begin{cases} F_x&=2x+3y\\ F_y&=3y^2+3x\\ \end{cases}
 $$
 
 可以写成 $y=f(x)$ 的称为显函数，而有些是由方程 $F(x,y)=0$ 确定的，这种函数称为隐函数。隐函数求导的核心是，将 $y$ 看成 $f(x)$，然后对等式两边关于 $x$ 求导，此时应当使用链式法则。
@@ -293,7 +293,7 @@ $$
 另外，还可以通过求偏导的方式解决，我们容易求出：
 
 $$
-\begin{cases} F_x&=2x\ F_y&=8y \end{cases}
+\begin{cases} F_x&=2x\\ F_y&=8y \end{cases}
 $$
 
 那么，根据下面的式子：
@@ -364,7 +364,7 @@ $$
 
 证明：函数 $f(x)$ 在闭区间 $[a,b]$ 一定可以取到最值，如果在开区间 $(a,b)$ 上一点 $\xi$ 取到，那么 $\xi$ 就是极值点，根据费马引理，$f'(\xi)=0$。如果最值只能在区间端点取到，因为 $f(a)=f(b)$，所以 $f(x)$ 的最大值和最小值相等，$f(x)$ 为常函数，其导数永远为零。
 
-::img[alt text]{src="../image-1.avif" width="60%"}
+![alt text](../image-1.avif#class="custom-img";float=60%"
 
 罗尔中值定理的几何意义是：如果函数两个端点的函数值相等，那么函数图像上至少有一点的切线平行于 $x$ 轴。
 
@@ -425,7 +425,7 @@ $$
 
 那么，令 $F(x)=f(x)-g(x)$，对 $F(x)$ 使用罗尔中值定理，即可得到。
 
-::img[alt text]{src="../image-2.avif" width="60%"}
+![alt text](../image-2.avif#class="custom-img";float=60%"
 
 拉格朗日中值定理的几何意义是：函数图像上至少有一点的切线平行于函数两个端点的连线。
 
@@ -451,12 +451,12 @@ $$
 
 应用罗尔中值定理即可得到。
 
-::img[alt text]{src="../image-4.avif" width="60%"}
+![alt text](../image-4.avif#class="custom-img";float=60%"
 
 柯西中值定理的几何意义是：用参数方程
 
 $$
-\begin{cases} x&=g(t)\y&=f(t) \end{cases}
+\begin{cases} x&=g(t)\\y&=f(t) \end{cases}
 $$
 
 表示的曲线上至少有一点的切线平行于曲线两个端点的连线。

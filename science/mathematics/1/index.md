@@ -39,7 +39,7 @@ $$
 例题：考虑 $-5$ 的平方根。
 
 $$
-x^2+5=0\ x=\pm\sqrt5 i
+x^2+5=0\\ x=\pm\sqrt5 i
 $$
 
 另外，**虚数单位**同样可以表示为，
@@ -57,7 +57,7 @@ $$
 因此，这往往被认为是错的，因为，
 
 $$
--1=i^2=\sqrt{-1}\times\sqrt{-1}=\sqrt{(-1)> \times(-1)}=1\ -1=i^2=\pm\sqrt{-1}\times\pm\sqrt{-1}=\pm1
+-1=i^2=\sqrt{-1}\times\sqrt{-1}=\sqrt{(-1)> \times(-1)}=1\\ -1=i^2=\pm\sqrt{-1}\times\pm\sqrt{-1}=\pm1
 $$
 
 这是显然不对的，因为 $\sqrt a\cdot\sqrt b=\sqrt{ab}$ 需要满足 $a,b>0$。
@@ -143,13 +143,13 @@ $$
 对于 $i$ 的更高整数次幂，可以按照如下规则替换，
 
 $$
-i^2=-1\ i^3=i^2\times i=-i\ i^4=i^3\times i=-i^2=1\ i^5=i^4\times i=i
+i^2=-1\\ i^3=i^2\times i=-i\\ i^4=i^3\times i=-i^2=1\\ i^5=i^4\times i=i
 $$
 
 我们归纳为，
 
 $$
-\begin{aligned} i^0&=1\ i^1&=i\ i^2&=-1\ i^3&=-i\ i^n&=i^{n\bmod 4} \end{aligned}
+\begin{aligned} i^0&=1\\ i^1&=i\\ i^2&=-1\\ i^3&=-i\\ i^n&=i^{n\bmod 4} \end{aligned}
 $$
 
 由此，可以很好的定义虚数的负指数次方。
@@ -221,14 +221,14 @@ $$
 容易知道，$1$ 的 $n$ 次方根就是将单位圆均分为 $n$ 份，也就是
 
 $$
-\xi_k=\cos\dfrac{2k\pi}{n}+i\sin\dfrac{2k\pi}{n},k\in{0,1,\dots,n-1}
+\xi_k=\cos\dfrac{2k\pi}{n}+i\sin\dfrac{2k\pi}{n},k\in\{0,1,\dots,n-1\}
 $$
 
 我们称 $\xi_0,\xi_1,\dots,\xi_{n-1}$ 为 $n$ 次单位根，由定义都满足 $\xi_i^n=1$
 
 其中 $\xi_0=1$，也就是实数情况下的平凡解。
 
-::img[alt text]{src="../image.avif" width="60%"}
+![alt text](../image.avif#class="custom-img";float=60%"
 
 根据恒等式：
 
@@ -278,7 +278,7 @@ $$
 
 但是，虚数的运算不完全遵守其直观的位置向量的运算，尤其是乘法。
 
-::img{src="../z7qf3jtc.avif"}
+![alt text](../z7qf3jtc.avif#class="custom-img"
 
 ### 模长幅角 {#_9}
 

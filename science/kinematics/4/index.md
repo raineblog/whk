@@ -49,7 +49,7 @@ $$
 对于匀速圆周运动多个圈的题目，列表：
 
 $$
-\begin{array}{|c|l|l|l}\hline &P_c&Q_c&\dots\hline \bm r\hline \bm \omega\hline \bm v\hline \bm a\hline \end{array}
+\begin{array}{|c|l|l|l}\hline &P_c&Q_c&\dots\\\hline \bm r\\\hline \bm \omega\\\hline \bm v\\\hline \bm a\\\hline \end{array}
 $$
 
 上面对应的就是几个圆周，从上到下填表。
@@ -85,7 +85,7 @@ $$
 指向圆心和竖直方向建系，列出两个方向上的牛二方程：
 
 $$
-\begin{aligned} F_合=T\sin\theta\ T\cos\theta=mg \end{aligned}
+\begin{aligned} F_合=T\sin\theta\\ T\cos\theta=mg \end{aligned}
 $$
 
 其中 $\theta$ 为绳子和竖直方向的夹角。
@@ -104,14 +104,14 @@ $$
 
 ### 同角不同面模型 {#_12}
 
-::img[同角不同面]{src="../image.avif" align="right" width="30%"}
+![同角不同面](../image.avif#class="custom-img";align="right";float=30%"
 
 物体和法线的夹角相同，但是不同水平面，如右图所示。
 
 假设接触面光滑：
 
 $$
-\begin{aligned} F_合=F_N\cos\theta\ F_N\sin\theta=mg \end{aligned}
+\begin{aligned} F_合=F_N\cos\theta\\ F_N\sin\theta=mg \end{aligned}
 $$
 
 结论是向心加速度相同：
@@ -132,7 +132,7 @@ $$
 
 ### 同面不同角模型 {#_13}
 
-::img[同面不同角]{src="../image-1.avif" align="right" width="35%"}
+![同面不同角](../image-1.avif#class="custom-img";align="right";float=35%"
 
 物体在同一平面，与法线的夹角不同，如右图。
 
@@ -157,7 +157,7 @@ $$
 易得：
 
 $$
-\begin{aligned} T\cos\theta&=Mg\ T\sin\theta&=M\omega^2r=M\omega^2l\sin\theta \end{aligned}
+\begin{aligned} T\cos\theta&=Mg\\ T\sin\theta&=M\omega^2r=M\omega^2l\sin\theta \end{aligned}
 $$
 
 注意到一个可行解是 $\sin\theta=0$，即 $\theta=0$（因为 $\theta=\pi$ 是不稳定状态）。
@@ -181,7 +181,7 @@ $$
 结论：
 
 $$
-\theta=\left{\begin{aligned} &0&,\omega\le\sqrt{\dfrac{g}{l}}\ &\arccos\left(\dfrac{g}{\omega^2l}\right)&,\omega>\sqrt{\dfrac{g}{l}}\ \end{aligned}\right.
+\theta=\left\{\begin{aligned} &0&,\omega\le\sqrt{\dfrac{g}{l}}\\ &\arccos\left(\dfrac{g}{\omega^2l}\right)&,\omega>\sqrt{\dfrac{g}{l}}\\ \end{aligned}\right.
 $$
 
 ### 圆锥摆临界问题 {#_15}
@@ -217,13 +217,13 @@ $$
 物体 $m_1,m_2,\mu_1,\mu_2$，可以计算出每个物体的临界角速度。
 
 $$
-\begin{aligned} \mu_1m_1g&=m_1\omega_1^2r_1\ \mu_2m_2g&=m_2\omega_2^2r_2\ \end{aligned}
+\begin{aligned} \mu_1m_1g&=m_1\omega_1^2r_1\\ \mu_2m_2g&=m_2\omega_2^2r_2\\ \end{aligned}
 $$
 
 得出：
 
 $$
-\begin{aligned} \omega_1&=\sqrt{\mu_1g\over r_1}\ \omega_2&=\sqrt{\mu_2g\over r_2} \end{aligned}
+\begin{aligned} \omega_1&=\sqrt{\mu_1g\over r_1}\\ \omega_2&=\sqrt{\mu_2g\over r_2} \end{aligned}
 $$
 
 即 $\displaystyle{\mu\over r}$ 小的先发生滑动，大的后发生滑动。
@@ -291,7 +291,7 @@ $$
 可以进行质心的分析，简单来说两物体需要提供的向心力增量：
 
 $$
-\begin{aligned} \Delta F_1&=m_1\Delta(\omega^2)r_1\ \Delta F_2&=m_2\Delta(\omega^2)r_2 \end{aligned}
+\begin{aligned} \Delta F_1&=m_1\Delta(\omega^2)r_1\\ \Delta F_2&=m_2\Delta(\omega^2)r_2 \end{aligned}
 $$
 
 随着 $\omega$ 的增大，一定有一个先产生相对滑动趋势，假设是 $1$ 物体。
@@ -307,7 +307,7 @@ $$
 - 此时注意到，如果 $\Delta F_1>\Delta F_2$，也就是 $m_1r_1>m_2r_2$，此时绳子拉力的增大快于了 $2$ 物体向心力的需求增量。那么，$2$ 物体的摩擦力就会减小，然后反向，最终向 $1$ 物体一侧滑开。我们设 $\omega_2$ 表示恰好 $2$ 物体没有摩擦力，$\omega_3$ 表示恰好不滑动。
 
   $$
-  \begin{aligned} \omega_1&=\sqrt{\mu g\over r_1}\ \omega_2&=\sqrt{\mu g\over r_1-r_2}\ \omega_3&=\sqrt{2\mu g\over r_1-r_2} \end{aligned}
+  \begin{aligned} \omega_1&=\sqrt{\mu g\over r_1}\\ \omega_2&=\sqrt{\mu g\over r_1-r_2}\\ \omega_3&=\sqrt{2\mu g\over r_1-r_2} \end{aligned}
   $$
 
 - 此时注意到，如果 $\Delta F_1=\Delta F_2$，也就是 $m_1r_1=m_2r_2$，绳子拉力的增量等于了 $2$ 物体向心力的需求增量。那么，此时绳子拉力不断增大，$1$ 物体保持最大静摩擦状态，$2$ 物体保持原先的摩擦力大小，然而绳子拉力大小不断增大，有拉力 $T$ 和角速度的关系：
@@ -329,10 +329,10 @@ $$
 列式：
 
 $$
-\begin{aligned} G+T&=F_c\ mg+T&=m\frac{v^2}{r} \end{aligned}
+\begin{aligned} G+T&=F_c\\ mg+T&=m\frac{v^2}{r} \end{aligned}
 $$
 
-::img{src="../C1C8B823E95E88FD9F01E5EA5E9E2311.avif" width="100%"}
+![alt text](../C1C8B823E95E88FD9F01E5EA5E9E2311.avif#class="custom-img";float=100%"
 
 ### 绳模型 {#_23}
 
@@ -343,7 +343,7 @@ $$
 故：
 
 $$
-\begin{aligned} mg&=m\frac{v^2}{r}\ v&=\sqrt{gr} \end{aligned}
+\begin{aligned} mg&=m\frac{v^2}{r}\\ v&=\sqrt{gr} \end{aligned}
 $$
 
 性质：

@@ -9,7 +9,7 @@
 **性质**：
 
 $$
-\def\arraystretch{1.1} \begin{array}{rlrl} 1.&a\mid b&\Longrightarrow&\pm a \mid \pm b\ 2.&a \mid b,\ b\mid c&\Longrightarrow&a \mid c\ 3.&\forall i:b\mid a_i&\Longrightarrow&b\mid\Sigma\ a_ik_i\ 4.&b\mid a&\Longrightarrow&bc\mid ac\ (c\in\mathbb Z,c\neq0)\ 5.&b\mid a\ (a\neq0)&\Longrightarrow&|b|\le|a|\ 5.&b\mid a,\ |a|<|b|&\Longrightarrow&a=0\ \end{array}
+\def\arraystretch{1.1} \begin{array}{rlrl} 1.&a\mid b&\Longrightarrow&\pm a \mid \pm b\\ 2.&a \mid b,\ b\mid c&\Longrightarrow&a \mid c\\ 3.&\forall i:b\mid a_i&\Longrightarrow&b\mid\Sigma\ a_ik_i\\ 4.&b\mid a&\Longrightarrow&bc\mid ac\ (c\in\mathbb Z,c\neq0)\\ 5.&b\mid a\ (a\neq0)&\Longrightarrow&|b|\le|a|\\ 5.&b\mid a,\ |a|<|b|&\Longrightarrow&a=0\\ \end{array}
 $$
 
 ### 二、请给出同余的概念及性质 {#_3}
@@ -17,7 +17,7 @@ $$
 给定正整数 $m$ 称为模，$a,b$ 为任意两个整数，满足：
 
 $$
-\def\arraystretch{1.1} \begin{array}{ll} a=q_1m+r_1,&0\le r_1<m\ b=q_2m+r_2,&0\le r_2<m\ \end{array}
+\def\arraystretch{1.1} \begin{array}{ll} a=q_1m+r_1,&0\le r_1<m\\ b=q_2m+r_2,&0\le r_2<m\\ \end{array}
 $$
 
 则称 $a,b$ 对 $m$ 同余，记作 $a \equiv b \pmod m$，简记为 $a \equiv b\ (m)$。
@@ -25,7 +25,7 @@ $$
 **性质**：
 
 $$
-\def\arraystretch{1.1} \begin{array}{rlrl} 1.&a \equiv a \pmod m\ 2.&a \equiv b \pmod m &\Longleftrightarrow& b\equiv a \pmod m\ 3.&a\equiv b\pmod m,\ b\equiv c\pmod m&\Longrightarrow&a\equiv c\pmod m\ 4.&aK\equiv bK\pmod m&\Longrightarrow&a\equiv b\pmod{\frac{m}{(m,k)}}\ 5.&a\equiv b\pmod m,\ c\equiv d\pmod m&\Longrightarrow&a\pm c\equiv b\pm d\pmod m\ 6.&a\equiv b\pmod m,\ c\equiv d\pmod m&\Longrightarrow&ac\equiv bd\pmod m\ \end{array}
+\def\arraystretch{1.1} \begin{array}{rlrl} 1.&a \equiv a \pmod m\\ 2.&a \equiv b \pmod m &\Longleftrightarrow& b\equiv a \pmod m\\ 3.&a\equiv b\pmod m,\ b\equiv c\pmod m&\Longrightarrow&a\equiv c\pmod m\\ 4.&aK\equiv bK\pmod m&\Longrightarrow&a\equiv b\pmod{\frac{m}{(m,k)}}\\ 5.&a\equiv b\pmod m,\ c\equiv d\pmod m&\Longrightarrow&a\pm c\equiv b\pm d\pmod m\\ 6.&a\equiv b\pmod m,\ c\equiv d\pmod m&\Longrightarrow&ac\equiv bd\pmod m\\ \end{array}
 $$
 
 ### 三、请给出模 $m$ 的完全剩余系的概念 {#m}
@@ -71,13 +71,13 @@ $$
 **证明**：
 
 $$
-\def\arraystretch{1.1} \begin{array}{ll} &n(n^2-1)(n^2-5n+26)\ =&n(n+1)(n-1)[(n-2)(n-3)+20]\ =&(n-3)(n-2)(n-1)n(n+1)+20(n-1)n(n+1) \end{array}
+\def\arraystretch{1.1} \begin{array}{ll} &n(n^2-1)(n^2-5n+26)\\ =&n(n+1)(n-1)[(n-2)(n-3)+20]\\ =&(n-3)(n-2)(n-1)n(n+1)+20(n-1)n(n+1) \end{array}
 $$
 
 因为：
 
 $$
-\def\arraystretch{1.1} \begin{array}{rcl} 120&\mid& (n-3)(n-2)(n-1)n(n+1)\ 6&\mid& (n-1)n(n+1)\ 120&\mid& 20(n-1)n(n+1) \end{array}
+\def\arraystretch{1.1} \begin{array}{rcl} 120&\mid& (n-3)(n-2)(n-1)n(n+1)\\ 6&\mid& (n-1)n(n+1)\\ 120&\mid& 20(n-1)n(n+1) \end{array}
 $$
 
 因此 $120\mid(n-3)(n-2)(n-1)n(n+1)+20(n-1)n(n+1)$。
@@ -95,7 +95,7 @@ $$
 **性质2**：任何一个数的平方模 $5$ 同余于 $0,\pm1$。
 
 $$
-\def\arraystretch{1.1} \begin{array}{lcll} t&\equiv&0,\pm1,\pm2&\pmod5\ t^2&\equiv&0,\pm1&\pmod5 \end{array}
+\def\arraystretch{1.1} \begin{array}{lcll} t&\equiv&0,\pm1,\pm2&\pmod5\\ t^2&\equiv&0,\pm1&\pmod5 \end{array}
 $$
 
 **证明**：
@@ -103,25 +103,25 @@ $$
 因为 $2n+1$ 是奇数且是完全平方数，则
 
 $$
-\def\arraystretch{1.1} \begin{array}{rcll} 2n+1&\equiv&1&\pmod8\ n&\equiv&0&\pmod4 \end{array}
+\def\arraystretch{1.1} \begin{array}{rcll} 2n+1&\equiv&1&\pmod8\\ n&\equiv&0&\pmod4 \end{array}
 $$
 
 所以，$n$ 是偶数，$3n+1$ 是奇数且是完全平方数，则
 
 $$
-\def\arraystretch{1.1} \begin{array}{rcll} 3n+1&\equiv&1&\pmod8\ n&\equiv&0&\pmod8 \end{array}
+\def\arraystretch{1.1} \begin{array}{rcll} 3n+1&\equiv&1&\pmod8\\ n&\equiv&0&\pmod8 \end{array}
 $$
 
 且
 
 $$
-\def\arraystretch{1.1} \begin{array}{rcll} 2n+1&\equiv&0,\pm1&\pmod5\ 3n+1&\equiv&0,\pm1&\pmod5 \end{array}
+\def\arraystretch{1.1} \begin{array}{rcll} 2n+1&\equiv&0,\pm1&\pmod5\\ 3n+1&\equiv&0,\pm1&\pmod5 \end{array}
 $$
 
 则有
 
 $$
-\def\arraystretch{1.1} \begin{array}{rcll} (2n+1)+(3n+1)&\equiv&2&\pmod5\ 2n+1&\equiv&1&\pmod5\ 3n+1&\equiv&1&\pmod5\ n&\equiv&0&\pmod5 \end{array}
+\def\arraystretch{1.1} \begin{array}{rcll} (2n+1)+(3n+1)&\equiv&2&\pmod5\\ 2n+1&\equiv&1&\pmod5\\ 3n+1&\equiv&1&\pmod5\\ n&\equiv&0&\pmod5 \end{array}
 $$
 
 因此 $n\equiv0\pmod{40}$，即 $40 \mid n$。
@@ -129,7 +129,7 @@ $$
 ### 九、求 $10^{10} \bmod 7$ {#1010-bmod-7}
 
 $$
-\def\arraystretch{1.1} \begin{array}{ll} &10^{10} \bmod 7\ =&(10 \bmod 7)^{10\bmod 6}\bmod 7\ =&3^4\bmod7\ =&81\bmod7\ =&4 \end{array}
+\def\arraystretch{1.1} \begin{array}{ll} &10^{10} \bmod 7\\ =&(10 \bmod 7)^{10\bmod 6}\bmod 7\\ =&3^4\bmod7\\ =&81\bmod7\\ =&4 \end{array}
 $$
 
 即 $10^{10}\bmod7=4$。
@@ -139,7 +139,7 @@ $$
 设 $d=(a,b)$，则记 $a=a_0d$，$b=b_0d$（$a_0\perp b_0$）。
 
 $$
-\def\arraystretch{1.1} \begin{array}{rcl} (a,b)+[a,b]+a+b&=&ab\ d+a_0b_0d+a_0d+b_0d&=&a_0b_0d^2\ a_0b_0+a_0+b_0+1&=&a_0b_0d \end{array}
+\def\arraystretch{1.1} \begin{array}{rcl} (a,b)+[a,b]+a+b&=&ab\\ d+a_0b_0d+a_0d+b_0d&=&a_0b_0d^2\\ a_0b_0+a_0+b_0+1&=&a_0b_0d \end{array}
 $$
 
 因为 $a_0b_0\ge a_0b_0,a_0,b_0\ge1$，所以 $0<d\le4$。
@@ -149,7 +149,7 @@ $$
 当 $d=2$ 时，
 
 $$
-\def\arraystretch{1.1} \begin{array}{rcl} a_0b_0+a_0+b_0+1&=&2a_0b_0\ a_0b_0-a_0-b_0&=&1\ a_0(b_0-1)-(b_0-1)&=&2\ (a_0-1)(b_0-1)&=&2\ \end{array}
+\def\arraystretch{1.1} \begin{array}{rcl} a_0b_0+a_0+b_0+1&=&2a_0b_0\\ a_0b_0-a_0-b_0&=&1\\ a_0(b_0-1)-(b_0-1)&=&2\\ (a_0-1)(b_0-1)&=&2\\ \end{array}
 $$
 
 - $a_0-1=1$，$b_0-1=2$；$a_0=2$，$b_2=3$；$a=4$，$b=6$。
@@ -158,7 +158,7 @@ $$
 当 $d=3$ 时，
 
 $$
-\def\arraystretch{1.1} \begin{array}{rcl} a_0b_0+a_0+b_0+1&=&3a_0b_0\ 2a_0b_0-a_0-b_0&=&1\ 4a_0b_0-2a_0-2b_0&=&2\ 2a_0(2b_0-1)-(2b_0-1)&=&3\ (2a_0-1)(2b_0-1)&=&3\ \end{array}
+\def\arraystretch{1.1} \begin{array}{rcl} a_0b_0+a_0+b_0+1&=&3a_0b_0\\ 2a_0b_0-a_0-b_0&=&1\\ 4a_0b_0-2a_0-2b_0&=&2\\ 2a_0(2b_0-1)-(2b_0-1)&=&3\\ (2a_0-1)(2b_0-1)&=&3\\ \end{array}
 $$
 
 - $2a_0-1=1$，$2b_0-1=3$；$a_0=1$，$b_2=2$；$a=3$，$b=6$。
@@ -167,7 +167,7 @@ $$
 当 $d=4$ 时，
 
 $$
-\def\arraystretch{1.1} \begin{array}{rcl} a_0b_0+a_0+b_0+1&=&4a_0b_0\ 3a_0b_0-a_0-b_0&=&1\ 9a_0b_0-3a_0-3b_0&=&3\ 3a_0(3b_0-1)-(3b_0-1)&=&4\ (3a_0-1)(3b_0-1)&=&4\ \end{array}
+\def\arraystretch{1.1} \begin{array}{rcl} a_0b_0+a_0+b_0+1&=&4a_0b_0\\ 3a_0b_0-a_0-b_0&=&1\\ 9a_0b_0-3a_0-3b_0&=&3\\ 3a_0(3b_0-1)-(3b_0-1)&=&4\\ (3a_0-1)(3b_0-1)&=&4\\ \end{array}
 $$
 
 - $3a_0-1=2$，$3b_0-1=2$；$a_0=b_0=1$；$a=b=4$。

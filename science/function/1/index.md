@@ -31,7 +31,7 @@ $$
 如果给出多个 $f$ 的值，且自变量有对称性，那么对称联立，例如给出上式：
 
 $$
-\begin{cases} 3f(x)+2f(-x)&=x+3\ 3f(-x)+2f(x)&=-x+3 \end{cases}
+\begin{cases} 3f(x)+2f(-x)&=x+3\\ 3f(-x)+2f(x)&=-x+3 \end{cases}
 $$
 
 类似的还有 $x$ 与 $1/x$ 等。
@@ -39,7 +39,7 @@ $$
 由多个子函数分段定义的函数称为分段函数，如绝对值函数：
 
 $$
-|x|=\begin{cases} x&x\ge0\ -x&x<0 \end{cases}
+|x|=\begin{cases} x&x\ge0\\ -x&x<0 \end{cases}
 $$
 
 分段函数的定义域是各段函数定义域的并集，值域是各段函数值域的并集。
@@ -47,12 +47,12 @@ $$
 符号函数是一种常用的分段函数：
 
 $$
-\op{sgn}x=\begin{cases} 1&x>0\ 0&x=0\ -1&x<0 \end{cases}
+\op{sgn}x=\begin{cases} 1&x>0\\ 0&x=0\\ -1&x<0 \end{cases}
 $$
 
 ### 反函数 {#_5}
 
-对于二元关系 $(f:X\rightarrow Y)$ 和 $(g:Y\rightarrow X)$，若 $(\forall x\in X){g[f(x)]=x}$ 且 $(\forall y\in Y){f[g(y)]=y}$，则称 $g$ 为 $f$ 的反函数，记为 $f^{-1}$。
+对于二元关系 $(f:X\rightarrow Y)$ 和 $(g:Y\rightarrow X)$，若 $(\forall x\in X)\{g[f(x)]=x\}$ 且 $(\forall y\in Y)\{f[g(y)]=y\}$，则称 $g$ 为 $f$ 的反函数，记为 $f^{-1}$。
 
 设 $f$ 表示一个函数，其定义域为 $X$、陪域为 $Y$，若存在一函数 $g$，其定义域为 $Y$、陪域为 $X$，且对于 $x\in X$ 有 $g(f(x))=x$、对于任意 $y\in Y$ 有 $f(g(y))=y$，则称 $g$ 为 $f$ 的反函数。
 
@@ -67,7 +67,7 @@ $$
 - 设一带有图像的函数为 $f:X\rightarrow Y$，接着使用 $X\times Y$ 上的水平线：
 
   $$
-  y_0\in Y,\ {\langle x,y_0\rangle\in f\mid x\in X}
+  y_0\in Y,\ \{\langle x,y_0\rangle\in f\mid x\in X\}
   $$
 
   若函数为单射，则其图像绝不会和任何一条水平线相交超过一次。
@@ -87,7 +87,7 @@ $$
 也就是说，有关方程 $\displaystyle xe^x=a$ 可以给出通解
 
 $$
-\begin{cases} W_0(a)&a\ge-\frac{1}{e}\ W_{-1}(a)&a\in\left(-\dfrac{1}{e},0\right) \end{cases}
+\begin{cases} W_0(a)&a\ge-\frac{1}{e}\\ W_{-1}(a)&a\in\left(-\dfrac{1}{e},0\right) \end{cases}
 $$
 
 但是 $W(x)$ 没有初等意义的解析式，只有积分式。
@@ -96,12 +96,12 @@ $$
 
 - 将定义域限制在 $\displaystyle\left(-\frac{1}{e},0\right)$ 上，取其在 $(-\infty,-1)$ 上的函数值，那么就定义了一个单调递减的函数 $W_{-1}(x)$.
 
-::img{src="../Mplwp_lambert_W_branches.svg"}
+![alt text](../Mplwp_lambert_W_branches.svg#class="custom-img"
 
 性质：当 $a\geq 0$ 时，${W(x)\cdot e^{W(x)}=x}$，此外可以推出
 
 $$
-\begin{aligned} x\ln x=a&\implies x=e^{W(a)}\ x+\ln x=a&\implies x=W(e^a)\ \frac{\ln x}{x}=-a&\implies x=e^{-W(a)} \end{aligned}
+\begin{aligned} x\ln x=a&\implies x=e^{W(a)}\\ x+\ln x=a&\implies x=W(e^a)\\ \frac{\ln x}{x}=-a&\implies x=e^{-W(a)} \end{aligned}
 $$
 
 以及朗博不等式，可以同构证明：${xe^x\geq x+\ln x+1}$
@@ -151,31 +151,31 @@ $$
 证明：我们设 $\sqrt{a+\sqrt{b}}$ 化简完的结果是 $\sqrt x+\sqrt y$：
 
 $$
-\begin{aligned} \sqrt{a+\sqrt{b}}&=\sqrt x+\sqrt y\ a+\sqrt{b}&=x+y+2\sqrt{xy} \end{aligned}
+\begin{aligned} \sqrt{a+\sqrt{b}}&=\sqrt x+\sqrt y\\ a+\sqrt{b}&=x+y+2\sqrt{xy} \end{aligned}
 $$
 
 因为 $a$ 外面没有根号，与 $x+y$ 相对应：
 
 $$
-\left{\begin{aligned} a&=x+y\ \sqrt{b}&=2\sqrt{xy} \end{aligned}\right.
+\left\{\begin{aligned} a&=x+y\\ \sqrt{b}&=2\sqrt{xy} \end{aligned}\right.
 $$
 
 然后我们把下面的式子平方，可以写出方程组：
 
 $$
-\left{\begin{aligned} x+y&=a\ xy&={b\over4} \end{aligned}\right.
+\left\{\begin{aligned} x+y&=a\\ xy&={b\over4} \end{aligned}\right.
 $$
 
 然后用公式：
 
 $$
-\left{\begin{aligned} x+y&=a\ x-y&=\sqrt{(x+y)^2-4xy}\ &=\sqrt{a^2-b} \end{aligned}\right.
+\left\{\begin{aligned} x+y&=a\\ x-y&=\sqrt{(x+y)^2-4xy}\\ &=\sqrt{a^2-b} \end{aligned}\right.
 $$
 
 或者设 $t$ 满足：
 
 $$
-\begin{aligned} (t-x)(t-y)&=0\ t^2-(x+y)t+xy&=0 \end{aligned}
+\begin{aligned} (t-x)(t-y)&=0\\ t^2-(x+y)t+xy&=0 \end{aligned}
 $$
 
 解这个方程，得到的 $t$ 的两个根分别就是 $x$ 和 $y$。
@@ -183,19 +183,19 @@ $$
 具体的：
 
 $$
-\begin{aligned} t^2-at+{b\over4}=0\ t={a\pm\sqrt{a^2-b}\over2} \end{aligned}
+\begin{aligned} t^2-at+{b\over4}=0\\ t={a\pm\sqrt{a^2-b}\over2} \end{aligned}
 $$
 
 解得：
 
 $$
-\left{\begin{aligned} x&={a+\sqrt{a^2-b}\over2}\ y&={a-\sqrt{a^2-b}\over2} \end{aligned}\right.
+\left\{\begin{aligned} x&={a+\sqrt{a^2-b}\over2}\\ y&={a-\sqrt{a^2-b}\over2} \end{aligned}\right.
 $$
 
 因此：
 
 $$
-\begin{aligned} &\sqrt{a+\sqrt{b}}=\sqrt x+\sqrt y\ =\;&\sqrt{a+\sqrt{a^2-b}\over2}+\sqrt{a-\sqrt{a^2-b}\over2} \end{aligned}
+\begin{aligned} &\sqrt{a+\sqrt{b}}=\sqrt x+\sqrt y\\ =\;&\sqrt{a+\sqrt{a^2-b}\over2}+\sqrt{a-\sqrt{a^2-b}\over2} \end{aligned}
 $$
 
 减法同理。
@@ -227,41 +227,41 @@ $$
 若 $a^x=n$（$a>0$ 且 $a\neq1$），则记 $x=\log_an$，其中 $a$ 为底数，$n$ 为真数。
 
 $$
-\begin{aligned} a^{\log_ax}&=x\ \log_aa^x&=x \end{aligned}
+\begin{aligned} a^{\log_ax}&=x\\ \log_aa^x&=x \end{aligned}
 $$
 
 因此：
 
 $$
-\begin{aligned} \log_a1&=0\ \log_aa&=1\ \end{aligned}
+\begin{aligned} \log_a1&=0\\ \log_aa&=1\\ \end{aligned}
 $$
 
 对数也有一些特殊记号，例如：
 
 $$
-\begin{aligned} \log_ex&=\ln x\ \log_2x&=\operatorname{lb}x\ \log_{10}x&=\lg x \end{aligned}
+\begin{aligned} \log_ex&=\ln x\\ \log_2x&=\operatorname{lb}x\\ \log_{10}x&=\lg x \end{aligned}
 $$
 
 对数的运算法则与指数相对，如下：
 
 $$
-\begin{aligned} \log_axy&=\log_ax+\log_ay&&\qquad&a^xa^y&=a^{x+y}\ \log_a\frac{x}{y}&=\log_ax-\log_ay&&\qquad&\frac{a^x}{a^y}&=a^{x-y}\ \log_ax^y&=y\log_ax&&\qquad&(a^x)^y&=a^{xy}\ \log_a\sqrt[y]x&=\frac{\log_ax}y&&\qquad&\sqrt[y]x&=x^\frac{1}{y} \end{aligned}
+\begin{aligned} \log_axy&=\log_ax+\log_ay&&\qquad&a^xa^y&=a^{x+y}\\ \log_a\frac{x}{y}&=\log_ax-\log_ay&&\qquad&\frac{a^x}{a^y}&=a^{x-y}\\ \log_ax^y&=y\log_ax&&\qquad&(a^x)^y&=a^{xy}\\ \log_a\sqrt[y]x&=\frac{\log_ax}y&&\qquad&\sqrt[y]x&=x^\frac{1}{y} \end{aligned}
 $$
 
 另外，还有换底公式，非常常用
 
 $$
-\begin{aligned} \log_ax&=\frac{\log_bx}{\log_ba}\ \log_ax&=\frac{1}{\log_xa}\ \log_{a^n}b&=\frac{\log_ab}{n} \end{aligned}
+\begin{aligned} \log_ax&=\frac{\log_bx}{\log_ba}\\ \log_ax&=\frac{1}{\log_xa}\\ \log_{a^n}b&=\frac{\log_ab}{n} \end{aligned}
 $$
 
 另外，还有：
 
 $$
-\begin{aligned} x^{\log_ay}&=y^{\log_ax}\ \log_ab\log_bx&=\log_ax\ \log_a\dfrac{1}{x}&=-\log_ax \end{aligned}
+\begin{aligned} x^{\log_ay}&=y^{\log_ax}\\ \log_ab\log_bx&=\log_ax\\ \log_a\dfrac{1}{x}&=-\log_ax \end{aligned}
 $$
 
 也就是说：
 
 $$
-\begin{aligned} \log_am\log_bn&=\log_bm\log_an\ \dfrac nm\log_ab&=\log_{a^m}b^n=\log_ab^{\frac nm} \end{aligned}
+\begin{aligned} \log_am\log_bn&=\log_bm\log_an\\ \dfrac nm\log_ab&=\log_{a^m}b^n=\log_ab^{\frac nm} \end{aligned}
 $$

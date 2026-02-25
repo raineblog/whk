@@ -39,19 +39,19 @@ $$
 因此就有：
 
 $$
-\begin{aligned} \sin A&=\sin(B+C)\ \sin B&=\sin(A+C)\ \sin C&=\sin{A+B} \end{aligned}
+\begin{aligned} \sin A&=\sin(B+C)\\ \sin B&=\sin(A+C)\\ \sin C&=\sin{A+B} \end{aligned}
 $$
 
 $$
-\begin{aligned} \cos A&=-\cos(B+C)\ \cos B&=-\cos(A+C)\ \cos C&=-\cos(A+B) \end{aligned}
+\begin{aligned} \cos A&=-\cos(B+C)\\ \cos B&=-\cos(A+C)\\ \cos C&=-\cos(A+B) \end{aligned}
 $$
 
 $$
-\begin{aligned} \sin\dfrac{A}{2}&=\cos\left(\dfrac{B+C}{2}\right)\ \sin\dfrac{B}{2}&=\cos\left(\dfrac{A+C}{2}\right)\ \sin\dfrac{C}{2}&=\cos\left(\dfrac{A+B}{2}\right) \end{aligned}
+\begin{aligned} \sin\dfrac{A}{2}&=\cos\left(\dfrac{B+C}{2}\right)\\ \sin\dfrac{B}{2}&=\cos\left(\dfrac{A+C}{2}\right)\\ \sin\dfrac{C}{2}&=\cos\left(\dfrac{A+B}{2}\right) \end{aligned}
 $$
 
 $$
-\begin{aligned} \cos\dfrac{A}{2}&=\sin\left(\dfrac{B+C}{2}\right)\ \cos\dfrac{B}{2}&=\sin\left(\dfrac{A+C}{2}\right)\ \cos\dfrac{C}{2}&=\sin\left(\dfrac{A+B}{2}\right) \end{aligned}
+\begin{aligned} \cos\dfrac{A}{2}&=\sin\left(\dfrac{B+C}{2}\right)\\ \cos\dfrac{B}{2}&=\sin\left(\dfrac{A+C}{2}\right)\\ \cos\dfrac{C}{2}&=\sin\left(\dfrac{A+B}{2}\right) \end{aligned}
 $$
 
 在三角形中，$a=b\cos C+c\cos B$。
@@ -61,7 +61,7 @@ $$
 解三角形里面常用的奇怪三角函数：
 
 $$
-\sin15^\circ=\cos75^\circ={\sqrt6-\sqrt2\over4}\[0.5em] \sin75^\circ=\cos15^\circ={\sqrt6+\sqrt2\over4}
+\sin15^\circ=\cos75^\circ={\sqrt6-\sqrt2\over4}\\[0.5em] \sin75^\circ=\cos15^\circ={\sqrt6+\sqrt2\over4}
 $$
 
 特殊的，如果 $\sin 2A=\sin 2B$，则有 $2A=2B$ 或 $2A+2B=\pi$，即 $A=B$ 或 $A+B=90^\circ$，即等腰或直角三角形。
@@ -135,7 +135,7 @@ $$
 常常这么写：
 
 $$
-a=2R\sin A,\,b=2R\sin B,\,c=2R\sin C\ \sin A={a\over2R},\,\sin B={b\over2R},\,\sin C={c\over2R}
+a=2R\sin A,\,b=2R\sin B,\,c=2R\sin C\\ \sin A={a\over2R},\,\sin B={b\over2R},\,\sin C={c\over2R}
 $$
 
 正弦定理推论：大边对大角，小边对小角。
@@ -145,7 +145,7 @@ $$
 在 $\triangle ABC$ 中，
 
 $$
-\begin{array}{c} \overrightarrow{AB}=\overrightarrow{CB}-\overrightarrow{CA}\[0.5em] |\overrightarrow{AB}|^2=|\overrightarrow{CB}|^2+|\overrightarrow{CA}|^2-2|\overrightarrow{CB}|\cdot|\overrightarrow{CA}|\cdot\cos\theta\[0.5em] c^2=a^2+b^2-2ab\cos\theta \end{array}
+\begin{array}{c} \overrightarrow{AB}=\overrightarrow{CB}-\overrightarrow{CA}\\[0.5em] |\overrightarrow{AB}|^2=|\overrightarrow{CB}|^2+|\overrightarrow{CA}|^2-2|\overrightarrow{CB}|\cdot|\overrightarrow{CA}|\cdot\cos\theta\\[0.5em] c^2=a^2+b^2-2ab\cos\theta \end{array}
 $$
 
 其中 $\theta$ 为 $c$ 的对角，即 $\angle C$；第二步就是两边平方。
@@ -159,13 +159,13 @@ $$
 推论：
 
 $$
-\begin{aligned} a^2+b^2-c^2>0 &\Longrightarrow \cos C>0 \Longrightarrow C\in(0,\pi/2)\ a^2+b^2-c^2=0 &\Longrightarrow \cos C=0 \Longrightarrow C=\pi/2\ a^2+b^2-c^2<0 &\Longrightarrow \cos C<0 \Longrightarrow C\in(\pi/2,\pi) \end{aligned}
+\begin{aligned} a^2+b^2-c^2>0 &\Longrightarrow \cos C>0 \Longrightarrow C\in(0,\pi/2)\\ a^2+b^2-c^2=0 &\Longrightarrow \cos C=0 \Longrightarrow C=\pi/2\\ a^2+b^2-c^2<0 &\Longrightarrow \cos C<0 \Longrightarrow C\in(\pi/2,\pi) \end{aligned}
 $$
 
 ### 余切定理 {#_11}
 
 $$
-\begin{aligned} \zeta&=\sqrt{{1\over p}(p-a)(p-b)(p-c)}\ p&={a+b+c\over2} \end{aligned}
+\begin{aligned} \zeta&=\sqrt{{1\over p}(p-a)(p-b)(p-c)}\\ p&={a+b+c\over2} \end{aligned}
 $$
 
 其中 $\zeta$ 为 $\triangle ABC$ 内切圆半径，$p$ 为三角形的半周长。
@@ -287,7 +287,7 @@ $$
 \vecc{AD}=\dfrac12\vecc{AB}+\dfrac12\vecc{AC}
 $$
 
-::img[交叉定理]{src="../image.avif" width="100%"}
+![交叉定理](../image.avif#class="custom-img";float=100%"
 
 即对边比例相乘向量相加。
 
@@ -376,7 +376,7 @@ $$
 我们知道
 
 $$
-\begin{aligned} S_{\Delta ABC}&=\frac{1}{2}(a+b+c)r\ &=S_{\Delta OAB}+S_{\Delta OAC}+S_{\Delta OBC}\ &=\frac{1}{2}R(a\cos A+b\cos B+c\cos C) \end{aligned}
+\begin{aligned} S_{\Delta ABC}&=\frac{1}{2}(a+b+c)r\\ &=S_{\Delta OAB}+S_{\Delta OAC}+S_{\Delta OBC}\\ &=\frac{1}{2}R(a\cos A+b\cos B+c\cos C) \end{aligned}
 $$
 
 联立上两式（相乘），直接展开易知等式成立。
@@ -430,7 +430,7 @@ $$
 证明，基底分解：
 
 $$
-\overrightarrow{AM}={1\over2}\overrightarrow{AB}+{1\over2}\overrightarrow{AC}\[0.5em] \overrightarrow{BM}={1\over2}\overrightarrow{AC}-{1\over2}\overrightarrow{AB}
+\overrightarrow{AM}={1\over2}\overrightarrow{AB}+{1\over2}\overrightarrow{AC}\\[0.5em] \overrightarrow{BM}={1\over2}\overrightarrow{AC}-{1\over2}\overrightarrow{AB}
 $$
 
 则，
@@ -458,7 +458,7 @@ $$
 或正弦定理：
 
 $$
-{BM\over\sin\angle BAM}={AB\over\sin\angle AMB}\[0.5em] {CM\over\sin\angle CAM}={AC\over\sin\angle AMC}
+{BM\over\sin\angle BAM}={AB\over\sin\angle AMB}\\[0.5em] {CM\over\sin\angle CAM}={AC\over\sin\angle AMC}
 $$
 
 上下做比。
@@ -476,7 +476,7 @@ $$
 ### 角平分线长定理 {#_26}
 
 $$
-\begin{aligned} AD&=\sqrt{AB\cdot AC-BD\cdot CD}\ &=\sqrt{bc\left(1-{a^2\over(b+c)^2}\right)}\ &={2bc\over b+c}\cos{A\over2} \end{aligned}
+\begin{aligned} AD&=\sqrt{AB\cdot AC-BD\cdot CD}\\ &=\sqrt{bc\left(1-{a^2\over(b+c)^2}\right)}\\ &={2bc\over b+c}\cos{A\over2} \end{aligned}
 $$
 
 ## 边长公式 {#_27}
@@ -537,7 +537,7 @@ $$
 
 ### 边元塞瓦定理 {#_31}
 
-::img[赛瓦定理]{src="../边元塞瓦定理.avif" width="100%"}
+![赛瓦定理](../边元塞瓦定理.avif#class="custom-img";float=100%"
 
 其逆定理用于表示三角形内三点共线，角元塞瓦定理较为复杂。
 
@@ -549,7 +549,7 @@ $$
 \dfrac{AX}{XB}\cdot\dfrac{BY}{YC}\cdot\dfrac{CZ}{ZA}=0
 $$
 
-::img[梅涅劳斯定理]{src="../梅涅劳斯定理.avif" width="70%"}
+![梅涅劳斯定理](../梅涅劳斯定理.avif#class="custom-img";float=70%"
 
 梅涅劳斯定理的逆定理表示为，满足上述式子，则 $X,Y,Z$ 三点共线。
 
@@ -560,7 +560,7 @@ $$
 任意三角形面积可以表示为：
 
 $$
-\begin{aligned} S&=\sqrt{p(p-a)(p-b)(p-c)}\ p&={a+b+c\over2} \end{aligned}
+\begin{aligned} S&=\sqrt{p(p-a)(p-b)(p-c)}\\ p&={a+b+c\over2} \end{aligned}
 $$
 
 即：
@@ -576,7 +576,7 @@ $$
 任意四边形面积可以表示为：
 
 $$
-\begin{aligned} S&=\sqrt{(p-a)(p-b)(p-c)(p-d)-abcd\cos^2{\alpha+\beta\over2}}\ p&={a+b+c+d\over2} \end{aligned}
+\begin{aligned} S&=\sqrt{(p-a)(p-b)(p-c)(p-d)-abcd\cos^2{\alpha+\beta\over2}}\\ p&={a+b+c+d\over2} \end{aligned}
 $$
 
 其中 $p$ 为四边形的半周长，$\alpha,\beta$ 为其中二个对角。
@@ -588,7 +588,7 @@ $$
 注意到圆内接四边形对角互补，其半角余弦值为零，$\cos90^\circ=0$ 则圆内接四边形面积可以简化为：
 
 $$
-\begin{aligned} S&=\sqrt{(p-a)(p-b)(p-c)(p-d)}\ p&={a+b+c+d\over2} \end{aligned}
+\begin{aligned} S&=\sqrt{(p-a)(p-b)(p-c)(p-d)}\\ p&={a+b+c+d\over2} \end{aligned}
 $$
 
 其中 $p$ 为四边形的半周长。

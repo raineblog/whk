@@ -129,7 +129,7 @@ $$
     写成直角坐标中的分量形式：
 
     $$
-    \begin{aligned} X_c&=\dfrac{1}{M}\sum m_ix_i\ Y_c&=\dfrac{1}{M}\sum m_iy_i\ Z_c&=\dfrac{1}{M}\sum m_iz_i \end{aligned}
+    \begin{aligned} X_c&=\dfrac{1}{M}\sum m_ix_i\\ Y_c&=\dfrac{1}{M}\sum m_iy_i\\ Z_c&=\dfrac{1}{M}\sum m_iz_i \end{aligned}
     $$
 
 ### 弹力 {#_7}
@@ -160,7 +160,7 @@ $$
 
 2.  受力分析、动力学分析法。
 
-::img[alt text]{src="../image.avif" width="80%"}
+![alt text](../image.avif#class="custom-img";float=80%"
 
 ### 摩擦力 {#_8}
 
@@ -202,7 +202,7 @@ $$
 
 了处理问题方便，引进摩擦角的概念：
 
-::img[全反力]{src="../全反力.avif" align="right" width="35%"}
+![全反力](../全反力.avif#class="custom-img";align="right";float=35%"
 
 - 在滑动摩擦下，称 $\varphi=\arctan(f_k/N)$ 为滑动摩擦角，因此 $\mu=\tan\varphi$。
 
@@ -279,7 +279,7 @@ $$
 1.  直角坐标系下的分量表示：
 
     $$
-    \begin{aligned} \bm F_1+\bm F_2+\dots=\sum \bm F_i=0\ \sum F_{ix}=0,\,\sum F_{iy}=0,\,\sum F_{iz}=0 \end{aligned}
+    \begin{aligned} \bm F_1+\bm F_2+\dots=\sum \bm F_i=0\\ \sum F_{ix}=0,\,\sum F_{iy}=0,\,\sum F_{iz}=0 \end{aligned}
     $$
 
 2.  矢量表示法：逐个力矢量相加，各矢量首尾相接，最后必形成封闭折线。
@@ -377,7 +377,7 @@ $$
 ### 冲量和功 {#_19}
 
 $$
-\begin{aligned} \bm{I}=\bm{F}t\ W=\bm{F}\bm{x}=Fx\cos\theta \end{aligned}
+\begin{aligned} \bm{I}=\bm{F}t\\ W=\bm{F}\bm{x}=Fx\cos\theta \end{aligned}
 $$
 
 如果 $I=0$，那么 $F=0$，因为 $t$ 时间为 $0$ 没有意义。
@@ -387,7 +387,7 @@ $$
 注意区分合外力（在瞬间，相当于恒力）的冲量和功：
 
 $$
-\begin{aligned} \bm{I}_{\text{合}}=\Sigma\bm{I}=t\Sigma\bm{F}=\bm{F}_{\text{合}}t\ W_{\text{合}}=\Sigma(\bm{F}\bm{x})=\Sigma W \end{aligned}
+\begin{aligned} \bm{I}_{\text{合}}=\Sigma\bm{I}=t\Sigma\bm{F}=\bm{F}_{\text{合}}t\\ W_{\text{合}}=\Sigma(\bm{F}\bm{x})=\Sigma W \end{aligned}
 $$
 
 ### 动量 {#_20}
@@ -423,7 +423,7 @@ $$
 ### 动量和动能 {#_21}
 
 $$
-\begin{aligned} \bm{p}=m\bm{v}\ E_k=\frac{1}{2}mv^2 \end{aligned}
+\begin{aligned} \bm{p}=m\bm{v}\\ E_k=\frac{1}{2}mv^2 \end{aligned}
 $$
 
 其中 $\bm{v}$ 表示速度，$v$ 表示速率。
@@ -448,7 +448,7 @@ $$
 动量定理指出：物体所受合力的冲量等于物体的动量变化。
 
 $$
-\begin{aligned} \Sigma\bm{I}&=\Delta\bm{p}\ \bm{F}_{\text{合}}t&=m\Delta\bm{v} \end{aligned}
+\begin{aligned} \Sigma\bm{I}&=\Delta\bm{p}\\ \bm{F}_{\text{合}}t&=m\Delta\bm{v} \end{aligned}
 $$
 
 上述式子可以用一行，更清晰的表示：
@@ -484,7 +484,7 @@ $$
 部分推导如下：
 
 $$
-\begin{aligned} \bm{F}\Delta t=m\bm{a}\Delta t=m\Delta\bm{v}\ m\Delta\bm{v}=\Delta(m\bm{v})=\Delta\bm{p} \end{aligned}
+\begin{aligned} \bm{F}\Delta t=m\bm{a}\Delta t=m\Delta\bm{v}\\ m\Delta\bm{v}=\Delta(m\bm{v})=\Delta\bm{p} \end{aligned}
 $$
 
 ### 解题方法 {#_25}
@@ -515,7 +515,7 @@ $$
 列式：
 
 $$
-\begin{aligned} &m_1\bm{v}_1+m_2\bm{v}_2+\dots+m_n\bm{v}_n\ =\;&m_1\bm{v}_1'+m_2\bm{v}_2'+\dots+m_n\bm{v}_n' \end{aligned}
+\begin{aligned} &m_1\bm{v}_1+m_2\bm{v}_2+\dots+m_n\bm{v}_n\\ =\;&m_1\bm{v}_1'+m_2\bm{v}_2'+\dots+m_n\bm{v}_n' \end{aligned}
 $$
 
 求值，注意规定正方向。
@@ -543,7 +543,7 @@ $$
 即：
 
 $$
-\begin{aligned} &m_1\bm{v}_1+m_2\bm{v}_2+\dots+m_n\bm{v}_n\ =\;&m_1\bm{v}_1'+m_2\bm{v}_2'+\dots+m_n\bm{v}_n' \end{aligned}
+\begin{aligned} &m_1\bm{v}_1+m_2\bm{v}_2+\dots+m_n\bm{v}_n\\ =\;&m_1\bm{v}_1'+m_2\bm{v}_2'+\dots+m_n\bm{v}_n' \end{aligned}
 $$
 
 ### 应用条件 {#_30}
@@ -559,7 +559,7 @@ $$
 对于不守恒的，考虑变化量的：
 
 $$
-\begin{aligned} F_{\text{合}}x=\frac{1}{2}mv_t^2-\frac{1}{2}mv_0^2&&(1)\ F_{\text{合}}t=mv_t-mv_0&&(2) \end{aligned}
+\begin{aligned} F_{\text{合}}x=\frac{1}{2}mv_t^2-\frac{1}{2}mv_0^2&&(1)\\ F_{\text{合}}t=mv_t-mv_0&&(2) \end{aligned}
 $$
 
 我们考虑功动能定理 $(1)$ 和动量定理 $(2)$ 存在什么区别和联系。
@@ -573,7 +573,7 @@ $$
 对于守恒的，考虑不变化的：
 
 $$
-\begin{aligned} \frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2=\frac{1}{2}m_1v_1'^2+\frac{1}{2}m_2v_2'^2&&(1)\ m_1v_1+m_2v_2=m_1v_1'+m_2v_2'&&(2) \end{aligned}
+\begin{aligned} \frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2=\frac{1}{2}m_1v_1'^2+\frac{1}{2}m_2v_2'^2&&(1)\\ m_1v_1+m_2v_2=m_1v_1'+m_2v_2'&&(2) \end{aligned}
 $$
 
 使用情景很简答，如果守恒，一定要用。是否守恒判断：
@@ -584,4 +584,4 @@ $$
 
 ### 经典例题 {#_32}
 
-::img[经典例题]{src="../cb3qxhf5.avif"}
+![经典例题](../cb3qxhf5.avif#class="custom-img"

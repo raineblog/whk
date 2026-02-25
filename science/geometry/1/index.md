@@ -67,13 +67,13 @@ $$
 - 点关于点中心对称：若点 $M(x_0, y_0)$ 及点 $N(x, y)$ 关于点 $P(a, b)$ 对称，则由中点坐标公式得
 
   $$
-  \begin{cases} x = 2a - x_0 \ y = 2b - y_0 \end{cases}
+  \begin{cases} x = 2a - x_0 \\ y = 2b - y_0 \end{cases}
   $$
 
 - 点关于直线成轴对称：设点 $P(x_0, y_0)$ 关于直线 $y = kx + b$ 的对称点为 $P'(x', y')$，则
 
   $$
-  \begin{cases} \dfrac{y' - y_0}{x' - x_0} \cdot k = -1 \ \dfrac{y' + y_0}{2} = k \cdot \dfrac{x' + x_0}{2} + b \end{cases}
+  \begin{cases} \dfrac{y' - y_0}{x' - x_0} \cdot k = -1 \\ \dfrac{y' + y_0}{2} = k \cdot \dfrac{x' + x_0}{2} + b \end{cases}
   $$
 
 - 若将直线沿 $y=kx$ 对称，记倾斜角为 $\theta$，那么将所有 $x$ 替换成 ${x\cos 2\theta+y\sin 2\theta}$，将所有 $y$ 替换成 ${x\sin 2\theta-y\cos 2\theta}$。

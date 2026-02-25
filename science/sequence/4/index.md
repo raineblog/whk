@@ -74,19 +74,19 @@ $$
 解递归式，
 
 $$
-Q_0=\alpha,Q_1=\beta\ Q_n={1+Q_{n-1}\over Q_{n-2}},n>1
+Q_0=\alpha,Q_1=\beta\\ Q_n={1+Q_{n-1}\over Q_{n-2}},n>1
 $$
 
 容易发现，
 
 $$
-\begin{array}{c|c} \begin{aligned} Q_0&=\alpha\ Q_1&=\beta\ Q_2&={1+\beta\over\alpha}\ Q_3&={1+\alpha+\beta\over\alpha\beta}\ Q_4&={1+\alpha\over\beta} \end{aligned}& \begin{aligned} Q_5&=\alpha\ Q_6&=\beta\ \dots\\\ \end{aligned} \end{array}
+\begin{array}{c|c} \begin{aligned} Q_0&=\alpha\\ Q_1&=\beta\\ Q_2&={1+\beta\over\alpha}\\ Q_3&={1+\alpha+\beta\over\alpha\beta}\\ Q_4&={1+\alpha\over\beta} \end{aligned}& \begin{aligned} Q_5&=\alpha\\ Q_6&=\beta\\ \dots\\\\\\\\\\ \end{aligned} \end{array}
 $$
 
 是一个周期函数，结论：
 
 $$
-Q_n=\left{\begin{aligned} &\alpha&\kern{1em}\operatorname{if}n\equiv0\pmod5\ &\beta&\kern{1em}\operatorname{if}n\equiv1\pmod5\ &{1+\beta\over\alpha}&\kern{1em}\operatorname{if}n\equiv2\pmod5\ &{1+\alpha+\beta\over\alpha\beta}&\kern{1em}\operatorname{if}n\equiv3\pmod5\ &{1+\alpha\over\beta}&\kern{1em}\operatorname{if}n\equiv4\pmod5\ \end{aligned}\right.
+Q_n=\left\{\begin{aligned} &\alpha&\kern{1em}\operatorname{if}n\equiv0\pmod5\\ &\beta&\kern{1em}\operatorname{if}n\equiv1\pmod5\\ &{1+\beta\over\alpha}&\kern{1em}\operatorname{if}n\equiv2\pmod5\\ &{1+\alpha+\beta\over\alpha\beta}&\kern{1em}\operatorname{if}n\equiv3\pmod5\\ &{1+\alpha\over\beta}&\kern{1em}\operatorname{if}n\equiv4\pmod5\\ \end{aligned}\right.
 $$
 
 证明：
@@ -138,7 +138,7 @@ $$
 即，
 
 $$
-4x_1x_2\le x_1^2+2x_1x_2+x_2^2\ x_1^2-2x_1x_2+x_2^2\ge0
+4x_1x_2\le x_1^2+2x_1x_2+x_2^2\\ x_1^2-2x_1x_2+x_2^2\ge0
 $$
 
 显然成立。
@@ -188,13 +188,13 @@ $$
 我们知道 $P(2)$ 是成立的，记
 
 $$
-y_1=x_1\dots x_n\ y_2=x_{n+1}\dots x_{2n}
+y_1=x_1\dots x_n\\ y_2=x_{n+1}\dots x_{2n}
 $$
 
 对 $y_1,y_2$ 应用 $P(2)$，
 
 $$
-\begin{aligned} y_1y_2&\le\left({y_1+y_2\over2}\right)^2\ x_1\dots x_{2n}&\le\left(x_1\dots x_n+x_{n+1}\dots x_{2n}\over2\right)^2\ &={(x_1\dots x_n)^2+(x_{n+1}+x_{2n})^2+2x_1\dots x_{2n}\over4}\ &={(x_1\dots x_n)^2+(x_{n+1}+x_{2n})^2\over2}\ &\le{(x_1+\dots+x_n)^{2n}+(x_{n+1}+\dots+x_{2n})^{2n}\over(2n)^{2n}}\ &\le\left({x_1+\dots+x_{2n}\over2n}\right)^{2n} \end{aligned}
+\begin{aligned} y_1y_2&\le\left({y_1+y_2\over2}\right)^2\\ x_1\dots x_{2n}&\le\left(x_1\dots x_n+x_{n+1}\dots x_{2n}\over2\right)^2\\ &={(x_1\dots x_n)^2+(x_{n+1}+x_{2n})^2+2x_1\dots x_{2n}\over4}\\ &={(x_1\dots x_n)^2+(x_{n+1}+x_{2n})^2\over2}\\ &\le{(x_1+\dots+x_n)^{2n}+(x_{n+1}+\dots+x_{2n})^{2n}\over(2n)^{2n}}\\ &\le\left({x_1+\dots+x_{2n}\over2n}\right)^{2n} \end{aligned}
 $$
 
 即，$P(2n)$。
@@ -206,7 +206,7 @@ Q.E.D.
 根据，
 
 $$
-P(1),P(2)\ P(n)\Rightarrow P(2n)\ P(n)\Rightarrow P(n-1)
+P(1),P(2)\\ P(n)\Rightarrow P(2n)\\ P(n)\Rightarrow P(n-1)
 $$
 
 我们可以知道，对于 $\forall n\in\mathbb N^*$，$P(n)$ 成立。

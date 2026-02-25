@@ -61,13 +61,13 @@ $$
 从向量式出发，可以将参数 $\lambda$ 引入方程组：
 
 $$
-\begin{cases} x&=x_0+A\lambda\ y&=y_0+B\lambda \end{cases}
+\begin{cases} x&=x_0+A\lambda\\ y&=y_0+B\lambda \end{cases}
 $$
 
 或者从点斜式出发：
 
 $$
-\begin{cases} x&=x_0+\lambda\cos\alpha\ y&=y_0+\lambda\sin\alpha \end{cases}
+\begin{cases} x&=x_0+\lambda\cos\alpha\\ y&=y_0+\lambda\sin\alpha \end{cases}
 $$
 
 称为参数式，这个表示不常用。
@@ -147,19 +147,19 @@ $$
 当然，有时候研究极坐标系下的图形有些不方便。要想转到直角坐标系下研究，有互化公式。点 $A(\rho,\varphi)$ 的直角坐标 $(x,y)$ 可以如下表示：
 
 $$
-\begin{cases} x &= \rho \cos \varphi \ y &= \rho \sin \varphi \end{cases}
+\begin{cases} x &= \rho \cos \varphi \\ y &= \rho \sin \varphi \end{cases}
 $$
 
 进而可知：
 
 $$
-\begin{aligned} \rho^2 &= x^2 + y^2\ \tan \varphi &= \frac{y}{x}\quad(x\not =0) \end{aligned}
+\begin{aligned} \rho^2 &= x^2 + y^2\\ \tan \varphi &= \frac{y}{x}\quad(x\not =0) \end{aligned}
 $$
 
 于是有 $\rho = \sqrt{x^2+y^2}$。但具有相同 $\dfrac{y}{x}$ 的 $\tan\varphi$ 有两个可能的 $\varphi$ 的值，此时还需要根据 $x, y$ 的值来确定方向。具体地，定义函数：
 
 $$
-\operatorname{atan2}(y, x) = \begin{cases} \arctan(\frac{y}{x}) & \text{if } x > 0 \ \arctan(\frac{y}{x}) + \pi & \text{if } y \ge 0, x < 0 \ \arctan(\frac{y}{x}) - \pi & \text{if } y < 0, x < 0 \ \pi/2 & \text{if } y > 0, x = 0 \ -\pi/2 & \text{if } y < 0, x = 0 \ \text{any} & \text{if } y = 0, x = 0 \end{cases}
+\operatorname{atan2}(y, x) = \begin{cases} \arctan(\frac{y}{x}) & \text{if } x > 0 \\ \arctan(\frac{y}{x}) + \pi & \text{if } y \ge 0, x < 0 \\ \arctan(\frac{y}{x}) - \pi & \text{if } y < 0, x < 0 \\ \pi/2 & \text{if } y > 0, x = 0 \\ -\pi/2 & \text{if } y < 0, x = 0 \\ \text{any} & \text{if } y = 0, x = 0 \end{cases}
 $$
 
 则 $\varphi = \operatorname{atan2}(y, x)$。注意上述函数的值域为 $(-\pi, \pi]$。
@@ -193,7 +193,7 @@ $$
 分别设：
 
 $$
-\begin{cases} D&=-2a\ E&=-2b\ F&=a^2+b^2-r^2 \end{cases}
+\begin{cases} D&=-2a\\ E&=-2b\\ F&=a^2+b^2-r^2 \end{cases}
 $$
 
 而根据次数，$A,B,C$ 分别为 $x^2,y^2,xy$ 的系数，分别为 $1,1,0$，我们不在一般方程中体现，但是字母保留，不用写出，因此字母应当从 $D$ 开始写，即一般方程：
@@ -264,7 +264,7 @@ $$
 
 容易知道，这是一个以 $(3\cos\theta,3\sin\theta)$ 为圆心、半径为 $1$ 的圆，
 
-::img[alt text]{src="../image-6.avif" width="40%"}
+![alt text](../image-6.avif#class="custom-img";float=40%"
 
 这样的圆有无数个，围成了一个圆环。
 
@@ -299,25 +299,25 @@ $$
 给出两条直线：
 
 $$
-\begin{cases} \ell_1:&A_1x+B_1y+C_1=0\ \ell_2:&A_2x+B_2y+C_2=0 \end{cases}
+\begin{cases} \ell_1:&A_1x+B_1y+C_1=0\\ \ell_2:&A_2x+B_2y+C_2=0 \end{cases}
 $$
 
 求交点，即为 $Q(x,y)$ 满足上述两式，解方程组即可，我们写出矩阵：
 
 $$
-\begin{bmatrix}A_1 & B_1 \A_2 & B_2\end{bmatrix}\begin{bmatrix} x \ y\end{bmatrix}=\begin{bmatrix}-C_1\-C_2\end{bmatrix}
+\begin{bmatrix}A_1 & B_1 \\A_2 & B_2\end{bmatrix}\begin{bmatrix} x \\ y\end{bmatrix}=\begin{bmatrix}-C_1\\-C_2\end{bmatrix}
 $$
 
 根据克拉默法则，若 $A_1B_2-A_2B_1\neq0$ 则方程有解，且：
 
 $$
-\begin{cases} x&=\dfrac{B_1C_2-B_2C_1}{A_1B_2-A_2B_1}\ y&=\dfrac{A_2C_1-A_1C_2}{A_1B_2-A_2B_1} \end{cases}
+\begin{cases} x&=\dfrac{B_1C_2-B_2C_1}{A_1B_2-A_2B_1}\\ y&=\dfrac{A_2C_1-A_1C_2}{A_1B_2-A_2B_1} \end{cases}
 $$
 
 两点 $A(x_1,y_1),B(x_2,y_2)$ 间的距离：
 
 $$
-\boxed{\begin{aligned} \text{dis}&=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\ &=\sqrt{k^2+1}|x_2-x_1| \end{aligned}}
+\boxed{\begin{aligned} \text{dis}&=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\\ &=\sqrt{k^2+1}|x_2-x_1| \end{aligned}}
 $$
 
 在圆锥曲线中，后者称为弦长公式。
@@ -331,7 +331,7 @@ $$
 两直线的距离，假设两条平行直线可以表示为：
 
 $$
-\begin{cases} \ell_1:&Ax+By+C_1=0\ \ell_2:&Ax+By+C_2=0 \end{cases}
+\begin{cases} \ell_1:&Ax+By+C_1=0\\ \ell_2:&Ax+By+C_2=0 \end{cases}
 $$
 
 写出点到直线距离公式，将另一直线带入分子：
@@ -356,11 +356,11 @@ $$
 
 - 圆与圆的位置关系：
 
-  ::img[alt text]{src="../image-4.avif" width="70%"}
+  ![alt text](../image-4.avif#class="custom-img";float=70%"
 
   对应距离图示如下：
 
-  ::img[alt text]{src="../image-5.avif" width="90%"}
+  ![alt text](../image-5.avif#class="custom-img";float=90%"
 
   除了用圆心距离，同样可以联立，解方程可以用加减消元。两个二次项系数相等的圆的直线方程的差，就是交点所确定的直线的直线方程。
 
@@ -490,7 +490,7 @@ $$
 容易知道：
 
 $$
-\boxed{\begin{cases} x&=a+r\cos\theta\ y&=b+r\sin\theta \end{cases}}
+\boxed{\begin{cases} x&=a+r\cos\theta\\ y&=b+r\sin\theta \end{cases}}
 $$
 
 可以表示一个圆。
@@ -498,7 +498,7 @@ $$
 容易知道
 
 $$
-\boxed{\begin{cases} x&=a\cos\theta\ y&=b\sin\theta \end{cases}}
+\boxed{\begin{cases} x&=a\cos\theta\\ y&=b\sin\theta \end{cases}}
 $$
 
 可以表示一个中心在原点的椭圆。
@@ -506,7 +506,7 @@ $$
 容易知道
 
 $$
-\boxed{\begin{cases} x&=\dfrac{a}{\cos\theta}\ y&=b\tan\theta \end{cases}}
+\boxed{\begin{cases} x&=\dfrac{a}{\cos\theta}\\ y&=b\tan\theta \end{cases}}
 $$
 
 可以表示一个中心在原点的双曲线。
@@ -523,7 +523,7 @@ $$
 
 而我们称仿射变换是指在对一个向量空间进行一次线性变换并接上一个**平移**，变换为另一个向量空间。伸缩、平移、对称等都是仿射变换，
 
-::img[alt text]{src="../image-2.avif" width="80%"}
+![alt text](../image-2.avif#class="custom-img";float=80%"
 
 事实上：
 
@@ -538,7 +538,7 @@ $$
 使用一增广矩阵与一增广向量，需要所有向量在其末端扩长 $1$ 且所有矩阵都于底部添加一排零，右边扩长一列转换向量，及右下角添加一个 $1$。
 
 $$
-\begin{bmatrix}{\vec {y}}\1\end{bmatrix}=\left[{\begin{array}{ccc|c}\,&A&&{\vec {b}}\ \0&\ldots &0&1\end{array}}\right]{\begin{bmatrix}{\vec {x}}\1\end{bmatrix}}
+\begin{bmatrix}{\vec {y}}\\1\end{bmatrix}=\left[{\begin{array}{ccc|c}\,&A&&{\vec {b}}\ \\0&\ldots &0&1\end{array}}\right]{\begin{bmatrix}{\vec {x}}\\1\end{bmatrix}}
 $$
 
 等价于
@@ -568,7 +568,7 @@ $$
 这样就通过伸缩变换将椭圆变成了圆；一般的，我们讨论变换
 
 $$
-f:\begin{cases} x'&=mx\ y'&=ny \end{cases}
+f:\begin{cases} x'&=mx\\ y'&=ny \end{cases}
 $$
 
 - 任意面积 $S$ 变为 $nm$ 倍：$S'=nm\cdot S$。
@@ -578,7 +578,7 @@ $$
 双曲线也可以用仿射变换，此时令
 
 $$
-f:\begin{cases} x&=ax'\ y&=biy' \end{cases}
+f:\begin{cases} x&=ax'\\ y&=biy' \end{cases}
 $$
 
 带入双曲线方程
@@ -598,7 +598,7 @@ $$
 此时，如果 $A,B$ 都在曲线上，则可以通过韦达定理转化的方法，例如若有 $x_2=\lambda x_1$ 则
 
 $$
-\begin{aligned} \lambda+\dfrac{1}{\lambda}&=\dfrac{x_1}{x_2}+\dfrac{x_2}{x_1}\ &=\dfrac{(x_1+x_2)^2}{x_1x_2}-2 \end{aligned}
+\begin{aligned} \lambda+\dfrac{1}{\lambda}&=\dfrac{x_1}{x_2}+\dfrac{x_2}{x_1}\\ &=\dfrac{(x_1+x_2)^2}{x_1x_2}-2 \end{aligned}
 $$
 
 若只有一点在曲线上，不妨设 $A$ 在曲线上，$B$ 不再曲线上，利用 $B,P$ 的坐标表示 $A$ 的坐标，利用其在曲线上，带入坐标计算化简即可。
@@ -609,12 +609,12 @@ $$
 
 倒角公式：我们知道 $\theta=\theta_2-\theta_1$，如图
 
-::img[alt text]{src="../image.avif" width="40%"}
+![alt text](../image.avif#class="custom-img";float=40%"
 
 因此，不妨
 
 $$
-\begin{aligned} \tan\theta&=\dfrac{\tan\theta_2-\tan\theta_1}{1+\tan\theta_1+\tan\theta_2}\ &=\dfrac{k_2-k_1}{1+k_1k_2} \end{aligned}
+\begin{aligned} \tan\theta&=\dfrac{\tan\theta_2-\tan\theta_1}{1+\tan\theta_1+\tan\theta_2}\\ &=\dfrac{k_2-k_1}{1+k_1k_2} \end{aligned}
 $$
 
 若 $\angle APB$ 为锐角，则等价转译为 $\overrightarrow{PA} \cdot \overrightarrow{PB} > 0$（特别注意不能出现三点共线）；若 $\angle APB$ 为直角，则等价转译为 $\overrightarrow{PA} \cdot \overrightarrow{PB} = 0$；若 $\angle APB$ 为钝角，则等价转译为 $\overrightarrow{PA} \cdot \overrightarrow{PB} < 0$（特别注意不能出现三点共线）。
@@ -683,7 +683,7 @@ $$
 因此令
 
 $$
-\begin{cases} 3x+2y+4&=0\ x-3&=0 \end{cases}
+\begin{cases} 3x+2y+4&=0\\ x-3&=0 \end{cases}
 $$
 
 因此定点 $\paren{3,-\dfrac{13}{2}}$。

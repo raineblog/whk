@@ -113,13 +113,13 @@ $$
 见我的排列组合笔记。
 
 $$
-\def\qq{\quad} \begin{array}{c} 1\ 1\qq1\ 1\qq2\qq1\ 1\qq3\qq3\qq1\ 1\qq4\qq6\qq4\qq1\ 1\qq5\qq10\qq10\qq5\qq1\ 1\qq6\qq15\qq20\qq15\qq6\qq1\ 1\qq7\qq21\qq35\qq35\qq21\qq7\qq1\ 1\qq8\qq28\qq56\qq70\qq56\qq28\qq8\qq1\ 1\qq9\qq36\qq84\qq126\qq126\qq84\qq36\qq9\qq1\ 1\qq10\qq45\qq120\qq210\qq252\qq210\qq120\qq45\qq10\qq1\ \end{array}
+\def\qq{\quad} \begin{array}{c} 1\\ 1\qq1\\ 1\qq2\qq1\\ 1\qq3\qq3\qq1\\ 1\qq4\qq6\qq4\qq1\\ 1\qq5\qq10\qq10\qq5\qq1\\ 1\qq6\qq15\qq20\qq15\qq6\qq1\\ 1\qq7\qq21\qq35\qq35\qq21\qq7\qq1\\ 1\qq8\qq28\qq56\qq70\qq56\qq28\qq8\qq1\\ 1\qq9\qq36\qq84\qq126\qq126\qq84\qq36\qq9\qq1\\ 1\qq10\qq45\qq120\qq210\qq252\qq210\qq120\qq45\qq10\qq1\\ \end{array}
 $$
 
 ### 线代基础 {#_8}
 
 $$
-\left\lvert\begin{matrix}a&b\c&d\end{matrix}\right\rvert=ad+bc
+\left\lvert\begin{matrix}a&b\\c&d\end{matrix}\right\rvert=ad+bc
 $$
 
 $$

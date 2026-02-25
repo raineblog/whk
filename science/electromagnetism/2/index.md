@@ -20,7 +20,7 @@
 
 ### 场线 {#_4}
 
-::img[矢量叠加的电场线]{src="../Campo_cargas_diferentes.avif" align="right"}
+![矢量叠加的电场线](../Campo_cargas_diferentes.avif#class="custom-img";align="right"
 
 PS：右图为矢量叠加的电场线。
 
@@ -67,13 +67,13 @@ PS：右图为矢量叠加的电场线。
 
 2.  根据矢量的性质，电场线可以直接矢量叠加，叠加与磁感线的叠加类似。
 
-    ::img[alt text]{src="../fimage-2.avif"}
+    ![alt text](../fimage-2.avif#class="custom-img"
 
 3.  电场线在电场中不相交，因为在电场中任意一点，场强的方向只有一个，不可能存在两个方向。
 
 4.  场强较大的地方电场线较密，场强较小的地方电场线较疏，因此可以用电场线的疏密来表示场强的大小。
 
-::img[alt text]{src="../fimage-1.avif"}
+![alt text](../fimage-1.avif#class="custom-img"
 
 根据场线的性质，一个位置的电场方向总是沿着这个位置的电场线的切线方向。
 
@@ -243,9 +243,9 @@ $$
 - 沿着等势面移动的电荷电场力不做功（解释：运动方向等势面与受力方向电场线垂直）。
 - 等差等势面越密集，电场强度越大（解释：类比地理等高线）。
 
-::img[alt text]{src="../fimage-3.avif" width="100%"}
+![alt text](../fimage-3.avif#class="custom-img";float=100%"
 
-::img[等势面]{src="../3bc6f7508c8d571e1138c24f.avif" width="100%"}
+![等势面](../3bc6f7508c8d571e1138c24f.avif#class="custom-img";float=100%"
 
 ## 电场的规律 {#_13}
 
@@ -339,13 +339,13 @@ $$
 - 均匀带电球壳内、外的电场强度：
 
   $$
-  E=\begin{cases} 0&r<R\ \dfrac{kQ}{r^2}&r\ge R \end{cases}
+  E=\begin{cases} 0&r<R\\ \dfrac{kQ}{r^2}&r\ge R \end{cases}
   $$
 
 - 均匀带电球体内、外的电场强度：
 
   $$
-  E=\begin{cases} \dfrac{kQ}{R^3}r&r<R\ \dfrac{kQ}{r^2}&r\ge R \end{cases}
+  E=\begin{cases} \dfrac{kQ}{R^3}r&r<R\\ \dfrac{kQ}{r^2}&r\ge R \end{cases}
   $$
 
 ### 特殊电场叠加 {#_22}
@@ -375,7 +375,7 @@ $$
 
 这个可以理解为重力场和电场的合成，即为等效重力场。
 
-::img[等效重力场]{src="../等效重力场.avif" width="60%"}
+![等效重力场](../等效重力场.avif#class="custom-img";float=60%"
 
 如图，如果从 $A$ 点静止释放，在 $B$ 点恰好速度为零，则 $C$ 点一定是动能最高的点，$OC$ 方向即为等效重力场方向；根据对称性，$OC$ 一定是角平分线。
 

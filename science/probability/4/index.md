@@ -66,7 +66,7 @@ $$
 分解质因数，
 
 $$
-\begin{aligned} 2160&=2\times5\times 216\ &=2^4\times5\times 27\ &=2^4\times3^3\times5 \end{aligned}
+\begin{aligned} 2160&=2\times5\times 216\\ &=2^4\times5\times 27\\ &=2^4\times3^3\times5 \end{aligned}
 $$
 
 注意到每一个指数一次比他小的都是其因数，
@@ -112,7 +112,7 @@ $$
 对于集合，
 
 $$
-A={1,2,3,\dots,10}
+A=\{1,2,3,\dots,10\}
 $$
 
 其子集个数是多少？
@@ -142,7 +142,7 @@ $$
 
 - 从 $n$ 个物品中，选出 $m$ 个进行排列的方案数。
 
-也记为，$A\begin{smallmatrix}n\m\end{smallmatrix}$，但是这样太麻烦了，我不喜欢（
+也记为，$A\begin{smallmatrix}n\\m\end{smallmatrix}$，但是这样太麻烦了，我不喜欢（
 
 早年时期也记为 $P(n,m)$，P 表示 Permutation（排列）。
 
@@ -151,7 +151,7 @@ $$
 按照定义，我们一次分析第 $i$ 个选哪个，
 
 $$
-\def\arraystretch{1.2} \begin{array}{|c|c|}\hline \bm{i}&\small\texttt{方案数}\hline 1&n\hline 2&n-1\hline 3&n-2\hline \dots&\dots\hline m&n-m+1\hline \end{array}
+\def\arraystretch{1.2} \begin{array}{|c|c|}\hline \bm{i}&\small\texttt{方案数}\\\hline 1&n\\\hline 2&n-1\\\hline 3&n-2\\\hline \dots&\dots\\\hline m&n-m+1\\\hline \end{array}
 $$
 
 因此，总方案数，
@@ -200,7 +200,7 @@ $$
 
 - 从 $n$ 个物品中，选出 $m$ 个进行排列的方案数。
 
-也记为 $C\begin{smallmatrix}n\m\end{smallmatrix}$，C 表示 Combination（组合），学术上一般记为，
+也记为 $C\begin{smallmatrix}n\\m\end{smallmatrix}$，C 表示 Combination（组合），学术上一般记为，
 
 $$
 
@@ -394,13 +394,13 @@ $$
 递推式，
 
 $$
-a_{i,1}=a_{i,i}=1\ a_{i,j}=a_{i-1,j-1}+a_{i-1,j}
+a_{i,1}=a_{i,i}=1\\ a_{i,j}=a_{i-1,j-1}+a_{i-1,j}
 $$
 
 注意到形如组合数的形式，
 
 $$
-\def\qq{\quad} \begin{array}{r|c} 1&1\hline 2&1\qq1\hline 3&1\qq2\qq1\hline 4&1\qq3\qq3\qq1\hline 5&1\qq4\qq6\qq4\qq1\hline 6&1\qq5\qq10\qq10\qq5\qq1\hline 7&1\qq6\qq15\qq20\qq15\qq6\qq1\hline 8&1\qq7\qq21\qq35\qq35\qq21\qq7\qq1\hline 9&1\qq8\qq28\qq56\qq70\qq56\qq28\qq8\qq1\hline 10&1\qq9\qq36\qq84\qq126\qq126\qq84\qq36\qq9\qq1\hline 11&1\qq10\qq45\qq120\qq210\qq252\qq210\qq120\qq45\qq10\qq1\ \end{array}
+\def\qq{\quad} \begin{array}{r|c} 1&1\\\hline 2&1\qq1\\\hline 3&1\qq2\qq1\\\hline 4&1\qq3\qq3\qq1\\\hline 5&1\qq4\qq6\qq4\qq1\\\hline 6&1\qq5\qq10\qq10\qq5\qq1\\\hline 7&1\qq6\qq15\qq20\qq15\qq6\qq1\\\hline 8&1\qq7\qq21\qq35\qq35\qq21\qq7\qq1\\\hline 9&1\qq8\qq28\qq56\qq70\qq56\qq28\qq8\qq1\\\hline 10&1\qq9\qq36\qq84\qq126\qq126\qq84\qq36\qq9\qq1\\\hline 11&1\qq10\qq45\qq120\qq210\qq252\qq210\qq120\qq45\qq10\qq1\\ \end{array}
 $$
 
 其中第 $i$ 行第 $j$ 个数，表示的是 $(a+1)^{i-1}$ 的 $j-1$ 次项系数。
@@ -483,7 +483,7 @@ $$
 加上后一项 $x^n(-y)^{5-n}$ 的系数，就是
 
 $$
-\begin{aligned} (-1)^{6-n}{5\choose6-n}+(-1)^{5-n}{5\choose5-n}\ =-1^n\left[{5\choose6-n}-{5\choose5-n}\right] \end{aligned}
+\begin{aligned} (-1)^{6-n}{5\choose6-n}+(-1)^{5-n}{5\choose5-n}\\ =-1^n\left[{5\choose6-n}-{5\choose5-n}\right] \end{aligned}
 $$
 
 好玩吧（？
@@ -515,7 +515,7 @@ $$
 我们考虑先确定 $x_5$ 的系数，我们知道，可行的能配出来的有，
 
 $$
-\begin{aligned} &&(x&-&1&+&p&x^2)^6\hline (1)& &1& &3& &2&\ (2)& &3& &2& &1&\ (3)& &5& &1& &0& \end{aligned}
+\begin{aligned} &&(x&-&1&+&p&x^2)^6\\\hline (1)& &1& &3& &2&\\ (2)& &3& &2& &1&\\ (3)& &5& &1& &0& \end{aligned}
 $$
 
 下面的表示可以配出 $x^5$ 的系数。
@@ -525,7 +525,7 @@ $$
 那么这几个分别对答案的贡献为，
 
 $$
-\begin{aligned} (1)&:-60p^2\ (2)&:60p\ (3)&:-6 \end{aligned}
+\begin{aligned} (1)&:-60p^2\\ (2)&:60p\\ (3)&:-6 \end{aligned}
 $$
 
 合在一起系数为，
@@ -674,10 +674,10 @@ $$
 
 在 $1\sim1000$ 中，有多少个数，既不是 $3$ 的倍数，也不是 $5$ 的倍数。
 
-容易发现，设集合 $A=#[{\small\sf{是\ 3\ 的倍数}}]$，$B=#[{\small\sf{是\ 5\ 的倍数}}]$，则，
+容易发现，设集合 $A=\#[{\small\sf{是\ 3\ 的倍数}}]$，$B=\#[{\small\sf{是\ 5\ 的倍数}}]$，则，
 
 $$
-\def\floor#1{\left\lfloor{#1}\right\rfloor} |A|=\floor{1000\over3}=333\[0.5em] |B|=\floor{1000\over5}=200\[0.5em] |A\cup B|=\floor{1000\over15}=66\[0.5em] |A\cap B|=|A|+|B|-|A\cup B|=467
+\def\floor#1{\left\lfloor{#1}\right\rfloor} |A|=\floor{1000\over3}=333\\[0.5em] |B|=\floor{1000\over5}=200\\[0.5em] |A\cup B|=\floor{1000\over15}=66\\[0.5em] |A\cap B|=|A|+|B|-|A\cup B|=467
 $$
 
 那么我们再取一下补集，答案就是 $533$。
@@ -707,18 +707,18 @@ $$
 我们可以将其表示为，
 
 $$
-{a_1,a_1,\dots,a_1,a_2,\dots}
+\{a_1,a_1,\dots,a_1,a_2,\dots\}
 $$
 
 为了简便，下文中我们这么表示，
 
 $$
-{n_1\cdot a_1,n_2\cdot a_2,\dots}
+\{n_1\cdot a_1,n_2\cdot a_2,\dots\}
 $$
 
 #### 多重集的排列数 {#_29}
 
-多重集 $S={n_1\cdot a_1,n_2\cdot a_2,\cdots,n_k\cdot a_k}$ 的全排列个数为，
+多重集 $S=\{n_1\cdot a_1,n_2\cdot a_2,\cdots,n_k\cdot a_k\}$ 的全排列个数为，
 
 $$
 {n\choose n_1,n_2,\dots,n_k}={n!\over\prod_{1\le i\le k}n_i}
@@ -764,7 +764,7 @@ $$
 
 我们类推组合数，以及多重集的排列数，定义如下：
 
-有多重集 $S={n_1\cdot a_1,n_2\cdot a_2,\cdots,n_k\cdot a_k}$ ，那么对于整数 $r$，
+有多重集 $S=\{n_1\cdot a_1,n_2\cdot a_2,\cdots,n_k\cdot a_k\}$ ，那么对于整数 $r$，
 
 ------------------------------------------------------------------------
 
@@ -822,7 +822,7 @@ $$
 
 即，对于 $1\sim n$ 的排列 $P$，如果对于所有 $i$ 满足 $P_i\neq i$，则称 $P$ 是 $n$ 的错位排列。
 
-例如，三元错位排列有 ${2,3,1}$ 和 ${3,1,2}$。
+例如，三元错位排列有 $\{2,3,1\}$ 和 $\{3,1,2\}$。
 
 我们记 $n$ 元错位排列的方案数有 $D_n$ 种，
 
@@ -886,7 +886,7 @@ $$
 
 卡特兰数可以表示一类组合问题，
 
-::img{src="https://cdn.luogu.com.cn/upload/image_hosting/s1kfe1dc.png"}
+![alt text](https://cdn.luogu.com.cn/upload/image_hosting/s1kfe1dc.png#class="custom-img"
 
 其情景有，
 
@@ -921,7 +921,7 @@ $$
 一个经典公式，考虑继续推导，
 
 $$
-\begin{aligned} C_n&={2n\choose n}-{2n\choose n+1}\ &={(2n)!\over n!n!}-{(2n)!\over (n+1)!(n-1)!}\ &={(2n)!\over n!n!}-{(2n)!\over n!n!}\cdot{n\over n+1}\ &={1\over n+1}\cdot{(2n)!\over n!n!}\ &={1\over n+1}{2n\choose n} \end{aligned}
+\begin{aligned} C_n&={2n\choose n}-{2n\choose n+1}\\ &={(2n)!\over n!n!}-{(2n)!\over (n+1)!(n-1)!}\\ &={(2n)!\over n!n!}-{(2n)!\over n!n!}\cdot{n\over n+1}\\ &={1\over n+1}\cdot{(2n)!\over n!n!}\\ &={1\over n+1}{2n\choose n} \end{aligned}
 $$
 
 即经典公式，
@@ -955,7 +955,7 @@ $$
 对于 $n,m$ 在 $p$ 进制下有表示，
 
 $$
-\begin{cases} n&=a_0+a_1p+\dots+a_kp^k\ m&=b_0+b_0p+\dots+b_kp^k \end{cases}
+\begin{cases} n&=a_0+a_1p+\dots+a_kp^k\\ m&=b_0+b_0p+\dots+b_kp^k \end{cases}
 $$
 
 那么，
@@ -1230,16 +1230,16 @@ $$
 答案即为，
 
 $$
-\def\card#1{#[#1]} \card{}-\card{a=b}-\card{a=c}-\card{b=c}+2\times\card{a=b=c}\
+\def\card#1{\#[#1]} \card{}-\card{a=b}-\card{a=c}-\card{b=c}+2\times\card{a=b=c}\\
 $$
 
 注：为了简写，两两不等的省略。我们分别来看，
 
 $$
-#[]={23\choose 2}=253\
+\#[]={23\choose 2}=253\\
 $$
 
-考虑 $#[x_i=x_j]$ 是多少。
+考虑 $\#[x_i=x_j]$ 是多少。
 
 容易发现，即，
 
@@ -1256,13 +1256,13 @@ $$
 共有 $11$ 种，因此，
 
 $$
-\def\card#1{#[#1]} \card{a=b}=\card{b=c}=\card{a=c}=11\
+\def\card#1{\#[#1]} \card{a=b}=\card{b=c}=\card{a=c}=11\\
 $$
 
 而，
 
 $$
-#[a=b=c]=1
+\#[a=b=c]=1
 $$
 
 是显然的；因此，答案，
@@ -1336,7 +1336,7 @@ $$
 我们考虑求出，
 
 $$
-\begin{cases} A+B=\ A-B= \end{cases}
+\begin{cases} A+B=\\ A-B= \end{cases}
 $$
 
 就可以了。
@@ -1374,7 +1374,7 @@ $$
 那么，易得，
 
 $$
-\begin{cases} A&=32 896\ B&=−32 640 \end{cases}
+\begin{cases} A&=32 896\\ B&=−32 640 \end{cases}
 $$
 
 #### 证明整除问题 {#_49}
@@ -1384,7 +1384,7 @@ $$
 **例题一**
 
 $$
-\begin{aligned} (n+1)^n-1&={n\choose1}n+{n\choose2}n^2+\dots+{n\choose n}n^n\ &=n^2+{n\choose2}n^2+\dots+{n\choose n}n^n \end{aligned}
+\begin{aligned} (n+1)^n-1&={n\choose1}n+{n\choose2}n^2+\dots+{n\choose n}n^n\\ &=n^2+{n\choose2}n^2+\dots+{n\choose n}n^n \end{aligned}
 $$
 
 可以被 $n^2$ 整除。
@@ -1463,7 +1463,7 @@ $$
 Solution 1：先选三人，排列；剩下三人排列。
 
 $$
-\begin{aligned} C(6,3)A(3,3)A(3,3)\ ={6\times5\times4\over3\times2\times1}\times3\times2\times1\times3\times2\times1\ =6\times5\times4\times3\times2\times1=720 \end{aligned}
+\begin{aligned} C(6,3)A(3,3)A(3,3)\\ ={6\times5\times4\over3\times2\times1}\times3\times2\times1\times3\times2\times1\\ =6\times5\times4\times3\times2\times1=720 \end{aligned}
 $$
 
 Solution 2：注意到等价于六个人排列，后三个自动补到后一排。
@@ -1551,7 +1551,7 @@ $$
 因此，答案为，
 
 $$
-{9\choose3,3,3}\bigg/\begin{matrix}\A(3,3)\end{matrix}
+{9\choose3,3,3}\bigg/\begin{matrix}\\A(3,3)\end{matrix}
 $$
 
 - 若人和球都相同。
@@ -1593,7 +1593,7 @@ $$
 说了这么半天写一下公式把，
 
 $$
-{7\choose3,2,2}\bigg/\begin{matrix}\A(2,2)\end{matrix}
+{7\choose3,2,2}\bigg/\begin{matrix}\\A(2,2)\end{matrix}
 $$
 
 - 其他：显然为 $1$ 哦。
@@ -1749,7 +1749,7 @@ $$
 考虑证明，
 
 $$
-\begin{aligned} \sum_{i=0}^k(-1)^i{n\choose i}+(-1)^{k+1}{n\choose k+1}&=1+\sum_{i=0}^k(-1)^{i+1}{n\choose i+1}\ &=1-\sum_{i=0}^k(-1)^i{n\choose i+1} \end{aligned}
+\begin{aligned} \sum_{i=0}^k(-1)^i{n\choose i}+(-1)^{k+1}{n\choose k+1}&=1+\sum_{i=0}^k(-1)^{i+1}{n\choose i+1}\\ &=1-\sum_{i=0}^k(-1)^i{n\choose i+1} \end{aligned}
 $$
 
 我们似乎没有思路了，但是注意到，
@@ -1761,13 +1761,13 @@ $$
 于是，我们移项，
 
 $$
-\begin{aligned} \sum_{i=0}^k(-1)^i{n+1\choose i+1}&=1-(-1)^{k+1}{n\choose k+1}\ \sum_{i=1}^{k+1}(-1)^{i-1}{n+1\choose i}&=1-(-1)^{k+1}{n\choose k+1}\ \sum_{i=1}^{k+1}(-1)^i{n+1\choose i}&=-1+(-1)^{k+1}{n\choose k+1}\ \sum_{i=0}^{k+1}(-1)^i{n+1\choose i}&=(-1)^{k+1}{n\choose k+1}\ \end{aligned}
+\begin{aligned} \sum_{i=0}^k(-1)^i{n+1\choose i+1}&=1-(-1)^{k+1}{n\choose k+1}\\ \sum_{i=1}^{k+1}(-1)^{i-1}{n+1\choose i}&=1-(-1)^{k+1}{n\choose k+1}\\ \sum_{i=1}^{k+1}(-1)^i{n+1\choose i}&=-1+(-1)^{k+1}{n\choose k+1}\\ \sum_{i=0}^{k+1}(-1)^i{n+1\choose i}&=(-1)^{k+1}{n\choose k+1}\\ \end{aligned}
 $$
 
 我们令 $n\gets n-1,k\gets k-1$，得，
 
 $$
-\begin{aligned} \sum_{i=0}^k(-1)^i{n\choose i}&=(-1)^k{n-1\choose k}\ \end{aligned}
+\begin{aligned} \sum_{i=0}^k(-1)^i{n\choose i}&=(-1)^k{n-1\choose k}\\ \end{aligned}
 $$
 
 得证。

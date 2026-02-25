@@ -9,7 +9,7 @@
 或者称为一个从原点指出的箭头，于是很自然的写出坐标表示，
 
 $$
-\begin{bmatrix} a\b \end{bmatrix}
+\begin{bmatrix} a\\b \end{bmatrix}
 $$
 
 这种写法也叫做**二元数组**。
@@ -25,7 +25,7 @@ $$
 而写作
 
 $$
-\begin{bmatrix} a\b\c \end{bmatrix}
+\begin{bmatrix} a\\b\\c \end{bmatrix}
 $$
 
 的，也叫做**三元数组**。
@@ -45,7 +45,7 @@ $$
 当我们把向量看成上述两步（两个坐标轴方向），就容易得出公式，
 
 $$
-\begin{bmatrix} x_1\y_1 \end{bmatrix}+\begin{bmatrix} x_2\y_2 \end{bmatrix}=\begin{bmatrix} x_1+x_2\y_1+y_2 \end{bmatrix}
+\begin{bmatrix} x_1\\y_1 \end{bmatrix}+\begin{bmatrix} x_2\\y_2 \end{bmatrix}=\begin{bmatrix} x_1+x_2\\y_1+y_2 \end{bmatrix}
 $$
 
 ## 向量数乘 {#_4}
@@ -57,7 +57,7 @@ $$
 我们可以类比将实数加法拓展到乘法的过程，这也是非常直观的，
 
 $$
-\lambda\begin{bmatrix} x\y \end{bmatrix}=\begin{bmatrix} \lambda x\lambda y \end{bmatrix}
+\lambda\begin{bmatrix} x\\y \end{bmatrix}=\begin{bmatrix} \lambda x\\\lambda y \end{bmatrix}
 $$
 
 ## 线性组合 {#_5}
@@ -65,13 +65,13 @@ $$
 在若干向量中，有两个向量最特殊，
 
 $$
-\def\vecc#1#2{\begin{bmatrix}#1\#2\end{bmatrix}} \hat\imath=\vecc10\[0.5em] \hat\jmath=\vecc01
+\def\vecc#1#2{\begin{bmatrix}#1\\#2\end{bmatrix}} \hat\imath=\vecc10\\[0.5em] \hat\jmath=\vecc01
 $$
 
 于是，我们可以把向量 $(a,b)$ 看成上面两个向量的缩放，即
 
 $$
-\def\vecc#1#2{\begin{bmatrix}#1\#2\end{bmatrix}} \vecc a b=a\hat\imath+b\hat\jmath
+\def\vecc#1#2{\begin{bmatrix}#1\\#2\end{bmatrix}} \vecc a b=a\hat\imath+b\hat\jmath
 $$
 
 这种缩放向量并相加的思想很重要，我们称 $\hat\imath,\hat\jmath$ 为 $xy$ 坐标系的**基向量**。
@@ -171,13 +171,13 @@ $$
 代数表示，
 
 $$
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{x\y}\to x\vecc{a\b}+y\vecc{c\d}=x\vecc{ax+cy\bx+dy}
+\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{x\\y}\to x\vecc{a\\b}+y\vecc{c\\d}=x\vecc{ax+cy\\bx+dy}
 $$
 
 我们通常把 $a,b,c,d$ 这四个数封装在一个东西中，称为**矩阵**，对于上面的，
 
 $$
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&c\b&d}
+\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&c\\b&d}
 $$
 
 左边一列右边一列（称为矩阵的列）分别表示变换之后的 $\hat\imath,\hat\jmath$ 基，$(a,b),(c,d)$。
@@ -185,7 +185,7 @@ $$
 因此可以定义出矩阵乘向量的简化形式，
 
 $$
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&c\b&d}\vecc{x\y}=x\vecc{a\b}+y\vecc{c\d}=\vecc{ax+cy\bx+dy}
+\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&c\\b&d}\vecc{x\\y}=x\vecc{a\\b}+y\vecc{c\\d}=\vecc{ax+cy\\bx+dy}
 $$
 
 其中，左边的矩阵可以理解为一个函数，对于右边的向量操作。
@@ -193,7 +193,7 @@ $$
 根据这个，可以得出很多有意思的矩阵，
 
 $$
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{0&-1\1&0}:\small\text{逆时针旋转 $90^\circ$}\[0.5em] \vecc{1&1\0&1}:\small\text{剪切、错切}\
+\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{0&-1\\1&0}:\small\text{逆时针旋转 $90^\circ$}\\[0.5em] \vecc{1&1\\0&1}:\small\text{剪切、错切}\\
 $$
 
 在变换的时候，可以先对 $\hat\imath$ 变换，再对 $\hat\jmath$ 变换，可以方便一点。
@@ -203,7 +203,7 @@ $$
 注：线性的严格定义，若一个变换 $L$ 满足，
 
 $$
-L(\vec v+\vec w)=L(\vec v)+L(\vec w)\ L(c\vec v)=cL(\vec v)
+L(\vec v+\vec w)=L(\vec v)+L(\vec w)\\ L(c\vec v)=cL(\vec v)
 $$
 
 则称 $L$ 是线性的。
@@ -217,13 +217,13 @@ $$
 代数的，
 
 $$
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{1&1\0&1}\left(\vecc{0&-1\1&0}\vecc{x\y}\right)=\vecc{1&-1\1&0}\vecc{x\y}
+\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{1&1\\0&1}\left(\vecc{0&-1\\1&0}\vecc{x\\y}\right)=\vecc{1&-1\\1&0}\vecc{x\\y}
 $$
 
 右面的，即复合矩阵，于是我们定义**矩阵乘法**形如，
 
 $$
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{1&1\0&1}\vecc{0&-1\1&0}=\vecc{1&-1\1&0}
+\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{1&1\\0&1}\vecc{0&-1\\1&0}=\vecc{1&-1\\1&0}
 $$
 
 注意矩阵乘法是右结合性，即从右往左读，类似复合函数，
@@ -237,13 +237,13 @@ $$
 考虑右边的矩阵变换的基向量，再通过左边的矩阵变换，
 
 $$
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&b\c&d}\vecc{e&f\g&h}\to\vecc{a&b\c&d}\vecc{e\g},\vecc{a&b\c&d}\vecc{f\h}
+\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&b\\c&d}\vecc{e&f\\g&h}\to\vecc{a&b\\c&d}\vecc{e\\g},\vecc{a&b\\c&d}\vecc{f\\h}
 $$
 
 即，
 
 $$
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&b\c&d}\vecc{e&f\g&h}=\vecc{ae+bg&af+bh\ce+dg&cf+dh}
+\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&b\\c&d}\vecc{e&f\\g&h}=\vecc{ae+bg&af+bh\\ce+dg&cf+dh}
 $$
 
 可以看这个网站理解：<https://rainppr.dpdns.org/matrixmultiplication/>。
@@ -271,13 +271,13 @@ $$
 将三个基向量作为列的形式，依次记录在矩阵中，形如，
 
 $$
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&b&c\d&e&f\g&h&i}
+\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&b&c\\d&e&f\\g&h&i}
 $$
 
 和二维类似的，
 
 $$
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&b&c\d&e&f\g&h&i}\vecc{x\y\z}=x\vecc{a\d\g}+y\vecc{b\e\h}+z\vecc{c\f\i}=\vecc{ax+by+cz\ dx+ey+fz\ gx+hy+iz}
+\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{a&b&c\\d&e&f\\g&h&i}\vecc{x\\y\\z}=x\vecc{a\\d\\g}+y\vecc{b\\e\\h}+z\vecc{c\\f\\i}=\vecc{ax+by+cz\\ dx+ey+fz\\ gx+hy+iz}
 $$
 
 ## 行列式 {#_9}
@@ -289,13 +289,13 @@ $$
 例如，线性变换
 
 $$
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{2&0\0&3}
+\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{2&0\\0&3}
 $$
 
 将空间拉伸了 $6$ 倍。这个缩放比例，叫做线性变换的**行列式**，即
 
 $$
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \det\left(\vecc{2&0\0&3}\right)=6
+\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \det\left(\vecc{2&0\\0&3}\right)=6
 $$
 
 这个值意味着，任意形状的图形，其面积经过变换后都会拉伸这个倍数。
@@ -317,7 +317,7 @@ $$
 那么如何计算呢？给出一个简单的公式，
 
 $$
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \det\left(\vecc{a&b\c&d}\right)=ad-bc
+\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \det\left(\vecc{a&b\\c&d}\right)=ad-bc
 $$
 
 因此，如果 $b,c$ 有一个为零，那么行列式的值即 $ad$，平行四边形的面积。
@@ -325,7 +325,7 @@ $$
 更进阶的公式（具体如何计算自己百度），
 
 $$
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \def\dett#1{\det\left(\vecc{#1}\right)} \begin{aligned} &\;\dett{a&b&c\d&e&f\g&h&i}\ =&\;a\dett{e&f\h&i}\ -&\;b\dett{d&f\g&i}\ +&\;c\dett{d&e\g&h} \end{aligned}
+\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \def\dett#1{\det\left(\vecc{#1}\right)} \begin{aligned} &\;\dett{a&b&c\\d&e&f\\g&h&i}\\ =&\;a\dett{e&f\\h&i}\\ -&\;b\dett{d&f\\g&i}\\ +&\;c\dett{d&e\\g&h} \end{aligned}
 $$
 
 有性质，
@@ -343,13 +343,13 @@ $$
 比如，
 
 $$
-\begin{cases} 2x+5y+3z=-3\ 4x+0y+8z=0\ 1x+3y+0z=2 \end{cases}
+\begin{cases} 2x+5y+3z=-3\\ 4x+0y+8z=0\\ 1x+3y+0z=2 \end{cases}
 $$
 
 可以发现这个东西类似向量乘法，
 
 $$
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{2&5&3\4&0&8\1&3&0}\vecc{x\y\z}=\vecc{-3\0\2}
+\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{2&5&3\\4&0&8\\1&3&0}\vecc{x\\y\\z}=\vecc{-3\\0\\2}
 $$
 
 简记为，
@@ -367,13 +367,13 @@ $$
 那么，$AA^{-1}$ 就对应一个什么都不做的变换，形如
 
 $$
-AA^{-1}=\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{1&0\0&1}
+AA^{-1}=\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{1&0\\0&1}
 $$
 
 那么，我们可以这么解方程，
 
 $$
-A\vec x=\vec v\ AA^{-1}\vec x=A^{-1}\vec v\ \vec x=A^{-1}\vec v
+A\vec x=\vec v\\ AA^{-1}\vec x=A^{-1}\vec v\\ \vec x=A^{-1}\vec v
 $$
 
 由上，一个线性变换存在逆的充要条件，即其行列式不为零。
@@ -399,7 +399,7 @@ $$
 此时就存在内在的维度变化，例如，
 
 $$
-\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{3&1\4&1\5&9}
+\def\vecc#1{\begin{bmatrix}#1\end{bmatrix}} \vecc{3&1\\4&1\\5&9}
 $$
 
 意味着把 $\hat\imath$ 变换到 $(3,4,5)$，把 $\hat\jmath$ 变换到 $(1,1,9)$。

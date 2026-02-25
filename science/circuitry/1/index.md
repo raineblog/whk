@@ -144,13 +144,13 @@ $$
 
 即把 $\pu{1C}$ 正电荷从负极运回正极所做的功。通常，这能量是分离正负电荷所做的功，由于这正负电荷被分离至元件的两端，会出现对应电场与电势差。
 
-::img[alt text]{src="../image.avif"}
+![alt text](../image.avif#class="custom-img"
 
-|              符号              |              符号              |
-|:------------------------------:|:------------------------------:|
-| 理想电压源 ![image](../1.avif) | 理想电流源 ![image](../2.avif) |
-| 受控电压源 ![image](../3.avif) | 受控电流源 ![image](../4.avif) |
-|   单电池 ![image](../5.avif)   |   电池组 ![image](../6.avif)   |
+| 符号 | 符号 |
+|:--:|:--:|
+| 理想电压源 ![image](../1.avif#class="custom-img" | 理想电流源 ![image](../2.avif#class="custom-img" |
+| 受控电压源 ![image](../3.avif#class="custom-img" | 受控电流源 ![image](../4.avif#class="custom-img" |
+| 单电池 ![image](../5.avif#class="custom-img" | 电池组 ![image](../6.avif#class="custom-img" |
 
 电池内阻相当于一个电池串联一个电阻，如果没有特殊说明，**电池的内阻不可忽略**。
 
@@ -215,13 +215,13 @@ $$
 - 串联：电动势增加，内阻增加。
 
   $$
-  \begin{cases} E'&=nE\ r'&=nr \end{cases}
+  \begin{cases} E'&=nE\\ r'&=nr \end{cases}
   $$
 
 - 并联：电动势不变，内阻减小。
 
   $$
-  \begin{cases} E'&=E\ r'&=r/n \end{cases}
+  \begin{cases} E'&=E\\ r'&=r/n \end{cases}
   $$
 
 聪明的你想到用 $n^2$ 个电池连成方格，于是电动势增加，内阻不变。
@@ -250,9 +250,9 @@ $$
 
 - 若研究对象在改变：$R_研=R_{其他}$ 时功率最大。
 
-当 $R=r$ 时电源输出功率为最大：$P_{\max} = \frac{\epsilon^2}{4r}$，此时电源效率：$\eta = 50%$。
+当 $R=r$ 时电源输出功率为最大：$P_{\max} = \frac{\epsilon^2}{4r}$，此时电源效率：$\eta = 50\%$。
 
-::img[alt text]{src="../image-6.avif" width="60%"}
+![alt text](../image-6.avif#class="custom-img";float=60%"
 
 ### 闭合电路 {#_13}
 
@@ -383,9 +383,9 @@ $I_S\doteq I$。因此，输出电压会因负载波动而发生较大变化。
 
 戴维南定理和诺尔顿定理：
 
-::img[alt text]{src="../image-7.avif"}
+![alt text](../image-7.avif#class="custom-img"
 
-::img[alt text]{src="../image-8.avif"}
+![alt text](../image-8.avif#class="custom-img"
 
 ### 基尔霍夫电路定律 {#_16}
 
@@ -425,19 +425,19 @@ $I_S\doteq I$。因此，输出电压会因负载波动而发生较大变化。
 
 **例题一**：
 
-::img[image]{src="../kl1.avif"}
+![image](../kl1.avif#class="custom-img"
 
 可以列出三个式子：
 
 $$
-\left{\begin{array}{c} E_1&=&i_1r_1+iR\ E_2&=&i_2r_2+iR\ i&=&i_1+i_2 \end{array}\right.
+\left\{\begin{array}{c} E_1&=&i_1r_1+iR\\ E_2&=&i_2r_2+iR\\ i&=&i_1+i_2 \end{array}\right.
 $$
 
 已- 知 $E_1,E_2,r_1,r_2,R$，可以求出 $i_1,i_2,i$。
 
 **例题二**：
 
-::img[image]{src="../kl2.avif"}
+![image](../kl2.avif#class="custom-img"
 
 根据基尔霍夫第一定律：
 
@@ -462,7 +462,7 @@ $$
 解得：
 
 $$
-\left{\begin{array}{c} i_1&=&1/1100&A\ i_2&=&4/275&A\ i_3&=&-3/220&A \end{array}\right.
+\left\{\begin{array}{c} i_1&=&1/1100&A\\ i_2&=&4/275&A\\ i_3&=&-3/220&A \end{array}\right.
 $$
 
 注意到电流 $i_3$ 带了负号，这意味着我们 $i_3$ 的假定方向不正确。
@@ -483,7 +483,7 @@ $$
 
 如图，有 $i_2+i_3=i_1+i_4$，或者可以写成 $i_2+i_3-i_1-i_4=0$ 的形式。
 
-::img[image]{src="../kcl.avif"}
+![image](../kcl.avif#class="custom-img"
 
 ### 基尔霍夫电压定律 {#_18}
 
@@ -505,7 +505,7 @@ $$
 
 如图，有 $v_1+v_2+v_3=v_4$，或者可以写成 $v_1+v_2+v_3-v_4=0$ 的形式。
 
-::img[image]{src="../kvl.avif"}
+![image](../kvl.avif#class="custom-img"
 
 在具体使用回路电压方程时，应注意：
 
@@ -573,7 +573,7 @@ $$
 
 1.  一类比较简单的无穷电路所含的器件是相同的，如图所示的电路就属于这一类，组成电路的所有电阻的阻值都是 $R$。
 
-    ::img[alt text]{src="../image-1.avif"}
+    ![alt text](../image-1.avif#class="custom-img"
 
     不难看出，这个电路是由很多单元组成的，每一个单元包含三个电阻，既然电路的右端是无穷的，那么左端多一个单元、少一个单元是不影响整个电路的电阻的，也就是说从 $A,B$ 两点向右看和从 $C,D$ 两点向右看的电阻是一样的，设从 $C,D$ 两点向右看的电阻是 $R_x$，那么有：
 
@@ -585,7 +585,7 @@ $$
 
 2.  另一类比较复杂的无穷电路所含的器件是不同的，但有一定的规律，如图所示的电路就属于这一类，电路也同样由九数多个单元组成，相邻的后面一个单元电阻的阻值要比前一个单元的阻值大一倍。
 
-    ::img[alt text]{src="../image-5.avif"}
+    ![alt text](../image-5.avif#class="custom-img"
 
     这一类无穷电路需要寻找规律，把从 $A,B$ 向右看的总电阻和从 $A',B'$ 向右看的总电阻进行比较，后者对应的单元都要比前者大一倍，所以后者的总电阻也要比前者大一倍，设从 $A,B$ 向右看的总电阻为 $R_x$，那么有：
 
@@ -599,7 +599,7 @@ $$
 
 所谓对称性简化，就是利用电路网络中可能存在的各种对称性，作出某种判断或结论，以简化等效电阻计算。
 
-::img[alt text]{src="../image-14.avif" align="right" width="30%"}
+![alt text](../image-14.avif#class="custom-img";align="right";float=30%"
 
 平衡对称电路：
 
@@ -607,7 +607,7 @@ $$
 
 - 所用的横切面，即该电路对端口的**平衡对称面**，如右图中的 $OO'$ 平面。一般情况下，平衡对称面只有一个。如在端口处加上电压，则在平衡对称面上的点都是等势点，该平面是一个**等势面**。
 
-::img[alt text]{src="../image-15.avif" align="right" width="30%"}
+![alt text](../image-15.avif#class="custom-img";align="right";float=30%"
 
 传递对称电路：
 
@@ -623,7 +623,7 @@ $$
 
 有电路如图乙所示（图中电流表为理想电流表）：
 
-::img[alt text]{src="../image-16.avif"}
+![alt text](../image-16.avif#class="custom-img"
 
 电路参数为：$R_1=1\Omega$，$R_2=3\Omega$，$R_3=2\Omega$，$R_4=3\Omega$，$E_1=3V$，$r_1=2\Omega$，$E_2=6V$，$r_2=3\Omega$，$E_3=9V$，$r_3=1\Omega$。
 
@@ -633,32 +633,32 @@ $$
 
 如图，存在两条回路 $s_1$、$s_2$，假设电流流向为从 $E_2$、$E_3$ 正极出发，干路、支路电流分别为 $i_1$，$i_2$、$i_3$：
 
-::img[alt text]{src="../image-17.avif"}
+![alt text](../image-17.avif#class="custom-img"
 
 对节点 $K$ 应用基尔霍夫第一定律，得 $i_1-i_2-i_3=0$。
 
 对回路 $s_1$、$s_2$ 分别应用基尔霍夫第二定律，最终可列出方程组：
 
 $$
-\begin{cases} i_1&=i_2+i_3\ E_2&=i_2r_2+i_2R_2+i_1R_1+i_1R_4+i_1r_1+E_1\ E_3&=i_3r_3+i_3R_3+i_1R_1+i_1R_4+i_1r_1+E_1 \end{cases}
+\begin{cases} i_1&=i_2+i_3\\ E_2&=i_2r_2+i_2R_2+i_1R_1+i_1R_4+i_1r_1+E_1\\ E_3&=i_3r_3+i_3R_3+i_1R_1+i_1R_4+i_1r_1+E_1 \end{cases}
 $$
 
 代数，得：
 
 $$
-\begin{cases} i_1&=i_2+i_3\ 6V&=3\Omega\cdot i_2+3\Omega\cdot i_2+1\Omega\cdot i_1+3\Omega\cdot i_1+2\Omega\cdot i_1+3V\ 9V&=1\Omega\cdot i_3+2\Omega\cdot i_3+1\Omega\cdot i_1+3\Omega\cdot i_1+2\Omega\cdot i_1+3V \end{cases}
+\begin{cases} i_1&=i_2+i_3\\ 6V&=3\Omega\cdot i_2+3\Omega\cdot i_2+1\Omega\cdot i_1+3\Omega\cdot i_1+2\Omega\cdot i_1+3V\\ 9V&=1\Omega\cdot i_3+2\Omega\cdot i_3+1\Omega\cdot i_1+3\Omega\cdot i_1+2\Omega\cdot i_1+3V \end{cases}
 $$
 
 化简得：
 
 $$
-\begin{cases} i_1&=i_2+i_3\ 3V&=6\Omega\cdot i_2+6\Omega\cdot i_1\ 6V&=3\Omega\cdot i_3+6\Omega\cdot i_1 \end{cases}
+\begin{cases} i_1&=i_2+i_3\\ 3V&=6\Omega\cdot i_2+6\Omega\cdot i_1\\ 6V&=3\Omega\cdot i_3+6\Omega\cdot i_1 \end{cases}
 $$
 
 解得：
 
 $$
-\begin{cases} i_1&=5/8&A\ i_2&=-1/8&A\ i_3&=3/4&A \end{cases}
+\begin{cases} i_1&=5/8&A\\ i_2&=-1/8&A\\ i_3&=3/4&A \end{cases}
 $$
 
 分析可知，我们假设的 $i_2$ 电流流向是错误的，而电流表示数为 $\dfrac{5}{8}A$。
@@ -669,20 +669,20 @@ $$
 
 分别考虑 $E_1$，$E_2$，$E_3$ 的影响，设 $I_1$、$I_2$、$I_3$ 其电流表的示数，以电流从上到下为正值，从下到上为负值：
 
-::img[alt text]{src="../image-18.avif"}
+![alt text](../image-18.avif#class="custom-img"
 
 极易得：
 
 $$
-\begin{array}{l} I_1&=-\dfrac{E_1}{r_1+R_1+R_4+\dfrac{(r_2+R_2)(r_3+R_3)}{r_2+R_2+r_3+R_3}}\[2em] &=-\dfrac{3V}{2\Omega+1\Omega+3\Omega+\dfrac{(3\Omega+3\Omega)(1\Omega+2\Omega)}{3\Omega+3\Omega+1\Omega+2\Omega}}\[2em] &=-\dfrac{3}{8}A \end{array}
+\begin{array}{l} I_1&=-\dfrac{E_1}{r_1+R_1+R_4+\dfrac{(r_2+R_2)(r_3+R_3)}{r_2+R_2+r_3+R_3}}\\[2em] &=-\dfrac{3V}{2\Omega+1\Omega+3\Omega+\dfrac{(3\Omega+3\Omega)(1\Omega+2\Omega)}{3\Omega+3\Omega+1\Omega+2\Omega}}\\[2em] &=-\dfrac{3}{8}A \end{array}
 $$
 
 $$
-\begin{array}{l} I_2&=\dfrac{E_2}{r_2+R_2+\dfrac{(r_3+R_3)(r_1+R_1+R_4)}{r_3+R_3+r_1+R_1+R_4}}\times\dfrac{r_3+R_3}{r_3+R_3+r_1+R_1+R_4}\[2em] &=\dfrac{6V}{3\Omega+3\Omega+\dfrac{(1\Omega+2\Omega)(2\Omega+1\Omega+3\Omega)}{1\Omega+2\Omega+2\Omega+1\Omega+3\Omega}}\times\dfrac{1\Omega+2\Omega}{1\Omega+2\Omega+2\Omega+1\Omega+3\Omega}\[2em] &=\dfrac{1}{4}A \end{array}
+\begin{array}{l} I_2&=\dfrac{E_2}{r_2+R_2+\dfrac{(r_3+R_3)(r_1+R_1+R_4)}{r_3+R_3+r_1+R_1+R_4}}\times\dfrac{r_3+R_3}{r_3+R_3+r_1+R_1+R_4}\\[2em] &=\dfrac{6V}{3\Omega+3\Omega+\dfrac{(1\Omega+2\Omega)(2\Omega+1\Omega+3\Omega)}{1\Omega+2\Omega+2\Omega+1\Omega+3\Omega}}\times\dfrac{1\Omega+2\Omega}{1\Omega+2\Omega+2\Omega+1\Omega+3\Omega}\\[2em] &=\dfrac{1}{4}A \end{array}
 $$
 
 $$
-\begin{array}{l} I_3&=\dfrac{E_3}{r_3+R_3+\dfrac{(r_2+R_2)(r_1+R_1+R_4)}{r_2+R_2+r_1+R_1+R_4}}\times\dfrac{r_2+R_2}{r_2+R_2+r_1+R_1+R_4}\[2em] &=\dfrac{9V}{1\Omega+2\Omega+\dfrac{(3\Omega+3\Omega)(2\Omega+1\Omega+3\Omega)}{3\Omega+3\Omega+2\Omega+1\Omega+3\Omega}}\times\dfrac{3\Omega+3\Omega}{3\Omega+3\Omega+2\Omega+1\Omega+3\Omega}\[2em] &=\dfrac{3}{4}A \end{array}
+\begin{array}{l} I_3&=\dfrac{E_3}{r_3+R_3+\dfrac{(r_2+R_2)(r_1+R_1+R_4)}{r_2+R_2+r_1+R_1+R_4}}\times\dfrac{r_2+R_2}{r_2+R_2+r_1+R_1+R_4}\\[2em] &=\dfrac{9V}{1\Omega+2\Omega+\dfrac{(3\Omega+3\Omega)(2\Omega+1\Omega+3\Omega)}{3\Omega+3\Omega+2\Omega+1\Omega+3\Omega}}\times\dfrac{3\Omega+3\Omega}{3\Omega+3\Omega+2\Omega+1\Omega+3\Omega}\\[2em] &=\dfrac{3}{4}A \end{array}
 $$
 
 根据叠加定理，得出电流表示数 $I=I_1+I_2+I_3=-\dfrac{3}{8}+\dfrac{1}{4}+\dfrac{3}{4}=\dfrac{5}{8}A$。
@@ -707,13 +707,13 @@ $$
 
 注意到后面的式子就是并联分流公式，我们转化电路形如图丁。
 
-::img[alt text]{src="../image-21.avif"}
+![alt text](../image-21.avif#class="custom-img"
 
 于是，我们就把一个内阻为 $r$ 的电压源 $E$ 串联一个总电阻为 $R$ 的用电器，等效转化为了一个电流源 $E/r$ 并联上原电压源内阻，以及用电器 $R$。
 
 回到问题，（如图）我们可以把原电压源 $E_2$、$E_3$ 及其内阻、支路电阻等效转化为一个电压源：
 
-::img[alt text]{src="../image-19.avif"}
+![alt text](../image-19.avif#class="custom-img"
 
 - 把电压源 $E_2$ 同其内阻 $r_2$ 及并联的电阻 $R_2$ 抽象为一个电压源 $E'_2$，内阻为 $(r_2+R_2)$，也就等效为一个电流源 $E_2/(r_2+R_2)$，并联电阻 $(r_2+R_2)$；具体的，电阻 $r_2'=r_2+R_2=6\Omega$，电流 $I_2'=E_2/r_2'=6V/6\Omega=1A$。
 - 把电压源 $E_3$ 同其内阻 $r_3$ 及并联的电阻 $R_3$ 抽象为一个电压源 $E'_3$，内阻为 $(r_3+R_3)$，也就等效为一个电流源 $E_3/(r_3+R_3)$，并联电阻 $(r_3+R_3)$；具体的，电阻 $r_3'=r_3+R_3=3\Omega$，电流 $I_3'=E_3/r_3'=9V/3\Omega=3A$。
@@ -734,7 +734,7 @@ $$
 
 我们把原图抽象为三个支路，其电流分别记为 $i_1$、$i_2$、$i_3$，如图：
 
-::img[alt text]{src="../image-20.avif"}
+![alt text](../image-20.avif#class="custom-img"
 
 我们假设有一个奇妙的总电源，给红色的和蓝色的部分，提供了大小为 $V$ 的电势差。
 
@@ -743,13 +743,13 @@ $$
 据此，我们可以列出三个方程：
 
 $$
-\begin{cases} V&=i_1(r_1+R_1+R_4)-E_1\ V&=i_2(r_2+R_2)-E_2\ V&=i_3(r_3+R_3)-E_3 \end{cases}
+\begin{cases} V&=i_1(r_1+R_1+R_4)-E_1\\ V&=i_2(r_2+R_2)-E_2\\ V&=i_3(r_3+R_3)-E_3 \end{cases}
 $$
 
 代数即（其实这个就是基尔霍夫第二定律的意思）：
 
 $$
-\begin{cases} V&=i_1(2\Omega+1\Omega+3\Omega)-3V&=6\Omega\times i_1-3V\ V&=i_2(3\Omega+3\Omega)-6V&=6\Omega\times i_2-6V\ V&=i_3(1\Omega+2\Omega)-9V&=3\Omega\times i_3-9V \end{cases}
+\begin{cases} V&=i_1(2\Omega+1\Omega+3\Omega)-3V&=6\Omega\times i_1-3V\\ V&=i_2(3\Omega+3\Omega)-6V&=6\Omega\times i_2-6V\\ V&=i_3(1\Omega+2\Omega)-9V&=3\Omega\times i_3-9V \end{cases}
 $$
 
 发现原式与 $i_1$、$i_2$、$i_3$ 关系密切，尝试找到他们之间的关系。
@@ -771,7 +771,7 @@ $$
 这意味着 $i_1$、$i_2$、$i_3$ 中一定存在负数。综合上述四式，解得：
 
 $$
-\begin{cases} V&=-27/4&V\ i_1&=-5/8&A\ i_2&=-1/8&A\ i_3&=3/4&A \end{cases}
+\begin{cases} V&=-27/4&V\\ i_1&=-5/8&A\\ i_2&=-1/8&A\\ i_3&=3/4&A \end{cases}
 $$
 
 则电流表示数为 $i_1$ 的绝对值，即电流表示数为 $\dfrac{5}{8}A$。

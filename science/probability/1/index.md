@@ -54,11 +54,11 @@ $$
 对于方差会麻烦一点：
 
 $$
-\begin{aligned} D(a)&=E(a^2)-(Ea)^2\ &=\dfrac{nE(X^2)+mE(Y^2)}{n+m}-\left(\dfrac{nEX+mEY}{n+m}\right)^2\ &=\dfrac{nD(x)+mD(Y)}{n+m}+\dfrac{nm(EX-EY)^2}{(n+m)^2} \end{aligned}
+\begin{aligned} D(a)&=E(a^2)-(Ea)^2\\ &=\dfrac{nE(X^2)+mE(Y^2)}{n+m}-\left(\dfrac{nEX+mEY}{n+m}\right)^2\\ &=\dfrac{nD(x)+mD(Y)}{n+m}+\dfrac{nm(EX-EY)^2}{(n+m)^2} \end{aligned}
 $$
 
 ### \[TODO\]
 
-::img[alt text]{src="../image.avif"}
+![alt text](../image.avif#class="custom-img"
 
-::img[alt text]{src="../image-1.avif"}
+![alt text](../image-1.avif#class="custom-img"

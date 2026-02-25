@@ -11,14 +11,14 @@
 若 $a:\mathbb N\to\mathbb C$ 为函数，则记为
 
 $$
-{a_n}_{n\in\mathbb N}\quad\text{或}\quad(a_n)_{n\in\mathbb N}
+\{a_n\}_{n\in\mathbb N}\quad\text{或}\quad(a_n)_{n\in\mathbb N}
 $$
 
 其中 $a_n$ 为第 $n$ 项。
 
 ### 有限数列 {#_4}
 
-设 $I_n={1,2,\dots ,n}$，则函数 $a:I_n\to\mathbb C$ 称为 **有限数列**，记作 ${a_i}_{i=1}^{n}$。
+设 $I_n=\{1,2,\dots ,n\}$，则函数 $a:I_n\to\mathbb C$ 称为 **有限数列**，记作 $\{a_i\}_{i=1}^{n}$。
 
 ### 数列的级数 {#_5}
 

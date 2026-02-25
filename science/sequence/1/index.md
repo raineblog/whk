@@ -16,15 +16,15 @@
 
 一个 $(a:\mathbb N\to\mathbb C)$ 的函数被称为**无穷数列**。
 
-可记为 ${a_i}_{i\in\mathbb N}$ 或 $(a_i)_{i\in\mathbb N}$ 或 $\langle a_i\rangle_{i\in\mathbb N}$。
+可记为 $\{a_i\}_{i\in\mathbb N}$ 或 $(a_i)_{i\in\mathbb N}$ 或 $\langle a_i\rangle_{i\in\mathbb N}$。
 
 一个数列 $a$ 的第 $i$ 项，通常记为 $a(i)$，简记为 $a_i$。
 
 ### 有限数列 {#_4}
 
-若 $I_n={1,2,\dots,n}$，则一个 $(a:I_n\to\mathbb C)$ 的函数被称为**有限数列**。
+若 $I_n=\{1,2,\dots,n\}$，则一个 $(a:I_n\to\mathbb C)$ 的函数被称为**有限数列**。
 
-可记为 ${a_i}_{i=1}^n$ 或 $(a_i)_{i=1}^n$ 或 $\langle a_i\rangle_{i=1}^n$。
+可记为 $\{a_i\}_{i=1}^n$ 或 $(a_i)_{i=1}^n$ 或 $\langle a_i\rangle_{i=1}^n$。
 
 同时，也可以将 $0$ 作为数列的首项，类似的。
 
@@ -37,7 +37,7 @@
 - $s_0=a_0$，
 - $s_n=s_{n-1}+a_n\,(\forall n\in\mathbb Z^*)$
 
-一般会将 ${s_i}_{i\in\mathbb N}$ 写为，
+一般会将 $\{s_i\}_{i\in\mathbb N}$ 写为，
 
 $$
 \sum _{i=0}^na_i
@@ -200,7 +200,7 @@ $$
 在等差数列中，前项与后项和为该项两倍，具体的，
 
 $$
-\begin{aligned} a_{n-1}+a_{n+1}&=a_n-d+a_n+d\ &=2a_n \end{aligned}
+\begin{aligned} a_{n-1}+a_{n+1}&=a_n-d+a_n+d\\ &=2a_n \end{aligned}
 $$
 
 从另一个角度看，等差数列中的任意一项，是其前项和后项的算术平均：
@@ -244,19 +244,19 @@ $$
 给定等差数列首项 $a_1$ 及公差 $d$，有项 $a_k$，则，
 
 $$
-\begin{aligned} a_k=a_1+(k-1)d\ k-1={a_k-a_1\over d}\ \boxed{k={a_k-a_1\over d}+1} \end{aligned}
+\begin{aligned} a_k=a_1+(k-1)d\\ k-1={a_k-a_1\over d}\\ \boxed{k={a_k-a_1\over d}+1} \end{aligned}
 $$
 
 或对于 $a_0$，
 
 $$
-\begin{aligned} a_k=a_0+kd\ k={a_k-a_0\over d}\ \end{aligned}
+\begin{aligned} a_k=a_0+kd\\ k={a_k-a_0\over d}\\ \end{aligned}
 $$
 
 另外的，函数思想，有，
 
 $$
-\begin{aligned} a_n=f(n)\ n=g(a_n) \end{aligned}
+\begin{aligned} a_n=f(n)\\ n=g(a_n) \end{aligned}
 $$
 
 即 $f,g$ 互为反函数，这个可以用于求多种数列。
@@ -278,7 +278,7 @@ $$
 考虑求解出，求和公式的封闭形式，
 
 $$
-\begin{aligned} S_n&=a_1+(a_1+d)+(a_1+2d)+\dots+[a_1+(n-1)d]\ &=na_1+d[1+2+3+\dots(n-1)]\ &=na_1+dT_{n-1} \end{aligned}
+\begin{aligned} S_n&=a_1+(a_1+d)+(a_1+2d)+\dots+[a_1+(n-1)d]\\ &=na_1+d[1+2+3+\dots(n-1)]\\ &=na_1+dT_{n-1} \end{aligned}
 $$
 
 而对于，
@@ -296,7 +296,7 @@ $$
 两者相加，
 
 $$
-\begin{aligned} 2T_n=n(n+1)\ T_n=n(n+1)/2 \end{aligned}
+\begin{aligned} 2T_n=n(n+1)\\ T_n=n(n+1)/2 \end{aligned}
 $$
 
 另，一般题中出现 $x_1 + x_2 = k$（$k$ 为常数），且 $f(x_1) + f(x_2) = \ell$（$\ell$ 为常数）时，可以采用倒序相加的方法进行求和。
@@ -304,7 +304,7 @@ $$
 于是，
 
 $$
-\begin{aligned} S_n&=na_1+dT_{n-1}\ &=\boxed{na_1+{n(n-1)\over2}d}\ &={n\over2}[2a_1+(n-1)d]\ &=\boxed{{n(a_1+a_n)\over2}} \end{aligned}
+\begin{aligned} S_n&=na_1+dT_{n-1}\\ &=\boxed{na_1+{n(n-1)\over2}d}\\ &={n\over2}[2a_1+(n-1)d]\\ &=\boxed{{n(a_1+a_n)\over2}} \end{aligned}
 $$
 
 或者，对于原始公式直接首尾配对，用上面的结论，也可以得出。
@@ -337,19 +337,19 @@ $$
 
 得出很重要的一个结论，任何一个二次函数，都可以表示为一个等差数列的级数。
 
-也就是说：数列 ${a_n}$ 是等差数列，等价于 $S_n=An^2+Bn$，等价于 $\left{\dfrac{S_n}{n}\right}$ 为等差数列。
+也就是说：数列 $\{a_n\}$ 是等差数列，等价于 $S_n=An^2+Bn$，等价于 $\left\{\dfrac{S_n}{n}\right\}$ 为等差数列。
 
 等差数列和在中文教科书中常表达为：
 
 一个等差数列的和，等于其首项与末项的和，乘以项数除以二。
 
-对于等差数列的前 $n$ 项和，也可以将其构造为等差数列。等差数列 ${a_n}$，设公差为 $d$，若前 $n$ 项和为 $S_n$，则 ${S_m,S_{2m}-S_m,S_{3m}-S_{2m}}$ 仍构成等差数列，公差为 $m^2d$。
+对于等差数列的前 $n$ 项和，也可以将其构造为等差数列。等差数列 $\{a_n\}$，设公差为 $d$，若前 $n$ 项和为 $S_n$，则 $\{S_m,S_{2m}-S_m,S_{3m}-S_{2m}\}$ 仍构成等差数列，公差为 $m^2d$。
 
-如果数列 ${a_n}$ 为等差数列，${a_n}$ 的前 $n$ 项和 $S_n$ 有如下结论：
+如果数列 $\{a_n\}$ 为等差数列，$\{a_n\}$ 的前 $n$ 项和 $S_n$ 有如下结论：
 
-- 若 $a_1 < 0, d > 0$，且此时 $n$ 满足 $\begin{cases} a_n \le 0 \ a_{n+1} \ge 0 \end{cases}$，则 $S_n$ 有最小值；
+- 若 $a_1 < 0, d > 0$，且此时 $n$ 满足 $\begin{cases} a_n \le 0 \\ a_{n+1} \ge 0 \end{cases}$，则 $S_n$ 有最小值；
 
-- 若 $a_1 > 0, d < 0$，且此时 $n$ 满足 $\begin{cases} a_n \ge 0 \ a_{n+1} \le 0 \end{cases}$，则 $S_n$ 有最大值。
+- 若 $a_1 > 0, d < 0$，且此时 $n$ 满足 $\begin{cases} a_n \ge 0 \\ a_{n+1} \le 0 \end{cases}$，则 $S_n$ 有最大值。
 
 ### 等差中项 {#_18}
 
@@ -367,7 +367,7 @@ $$
 
 即算术平均数。
 
-或者，若 ${a,b,c}$ 为一个等差数列，那么
+或者，若 $\{a,b,c\}$ 为一个等差数列，那么
 
 $$
 b-a=c-b
@@ -381,10 +381,10 @@ $$
 
 可以用这个来判断一个三项数列是否为等差数列。
 
-例题，对于等差数列 ${a,b,c}$，证明，
+例题，对于等差数列 $\{a,b,c\}$，证明，
 
 $$
-\left{{1\over\sqrt b+\sqrt c},{1\over\sqrt c+\sqrt a},{1\over\sqrt a+\sqrt b}\right}
+\left\{{1\over\sqrt b+\sqrt c},{1\over\sqrt c+\sqrt a},{1\over\sqrt a+\sqrt b}\right\}
 $$
 
 也是一个等差数列。
@@ -392,15 +392,15 @@ $$
 暴力展开，
 
 $$
-{2\over\sqrt c+\sqrt a}={1\over\sqrt b+\sqrt c}+{1\over\sqrt a+\sqrt b}\ {2\over\sqrt c+\sqrt a}={2\sqrt b+\sqrt a+\sqrt c\over b+\sqrt b(\sqrt a+\sqrt c)+\sqrt{ac}}\ 2b+2\sqrt{ac}+2\sqrt b(\sqrt a+\sqrt c)=2\sqrt b(\sqrt a+\sqrt c)+a+c+\sqrt ac\ a+c=2b
+{2\over\sqrt c+\sqrt a}={1\over\sqrt b+\sqrt c}+{1\over\sqrt a+\sqrt b}\\ {2\over\sqrt c+\sqrt a}={2\sqrt b+\sqrt a+\sqrt c\over b+\sqrt b(\sqrt a+\sqrt c)+\sqrt{ac}}\\ 2b+2\sqrt{ac}+2\sqrt b(\sqrt a+\sqrt c)=2\sqrt b(\sqrt a+\sqrt c)+a+c+\sqrt ac\\ a+c=2b
 $$
 
-对于等差数列 ${a,b,c}$ 成立。Q.E.D.
+对于等差数列 $\{a,b,c\}$ 成立。Q.E.D.
 
 或者，观察到原式中，分母都是根号的形式，考虑分母有理化，
 
 $$
-{2\over\sqrt c+\sqrt a}={1\over\sqrt b+\sqrt c}+{1\over\sqrt a+\sqrt b}\ {2(\sqrt c-\sqrt a)\over2d}={\sqrt c-\sqrt b\over d}+{\sqrt b-\sqrt a\over d}
+{2\over\sqrt c+\sqrt a}={1\over\sqrt b+\sqrt c}+{1\over\sqrt a+\sqrt b}\\ {2(\sqrt c-\sqrt a)\over2d}={\sqrt c-\sqrt b\over d}+{\sqrt b-\sqrt a\over d}
 $$
 
 显然成立。
@@ -416,7 +416,7 @@ $$
 都可以使用累加法，具体的，
 
 $$
-\begin{aligned} a_n&=a_{n-1}+f(n)\ a_{n-1}&=a_{n-2}+f(n-1)\ &\dots\ a_3&=a_2+f(3)\ a_2&=a_1+f(2) \end{aligned}
+\begin{aligned} a_n&=a_{n-1}+f(n)\\ a_{n-1}&=a_{n-2}+f(n-1)\\ &\dots\\ a_3&=a_2+f(3)\\ a_2&=a_1+f(2) \end{aligned}
 $$
 
 上述所有式子相加，得
@@ -433,7 +433,7 @@ $$
 
 具体的，定义常数为零阶等差数列，普通等差数列为一阶等差数列。
 
-容易发现，若 ${a_i}$ 为一阶等差数列，${b_i}$ 同样，那么 ${a_ib_i}$ 为一个二阶等差数列。
+容易发现，若 $\{a_i\}$ 为一阶等差数列，$\{b_i\}$ 同样，那么 $\{a_ib_i\}$ 为一个二阶等差数列。
 
 根据定义，对于一个二阶等差数列，其相邻两项的差为一个一阶等差数列，相邻两项差的相邻两项差为一个常数。
 
@@ -477,10 +477,10 @@ $$
 \boxed{a_n=a_1q^{n-1}}
 $$
 
-换句话说，任意一个等比数列 ${a_n}$ 都可以写为，
+换句话说，任意一个等比数列 $\{a_n\}$ 都可以写为，
 
 $$
-{a,aq,aq^2,\dots aq^{n-1}}
+\{a,aq,aq^2,\dots aq^{n-1}\}
 $$
 
 即，角标减一，等于公比幂次。
@@ -492,7 +492,7 @@ $$
 在等比数列中，前项与后项积为该项平方，具体的，
 
 $$
-\begin{aligned} a_{n-1}\times a_{n+1}&=aq^{n-2}aq^{n}\ &=a^2q^{2n-2}\ &=(aq^{n-1})^2\ &=a_n^2 \end{aligned}
+\begin{aligned} a_{n-1}\times a_{n+1}&=aq^{n-2}aq^{n}\\ &=a^2q^{2n-2}\\ &=(aq^{n-1})^2\\ &=a_n^2 \end{aligned}
 $$
 
 对于正整数 $m,n,p,q$，若 $m+n=p+q$，则，
@@ -536,7 +536,7 @@ $$
 考虑求解出，等比数列求和公式的封闭形式，
 
 $$
-\begin{aligned} S_n&=a_1+a_1q+a_1q^2+\dots+a_1q^{n-1}\ &=a_1(1+q+q^2+\dots+q^{n-1}) \end{aligned}
+\begin{aligned} S_n&=a_1+a_1q+a_1q^2+\dots+a_1q^{n-1}\\ &=a_1(1+q+q^2+\dots+q^{n-1}) \end{aligned}
 $$
 
 注意到后面的是经典的分解因式，
@@ -548,7 +548,7 @@ $$
 或者，错位相减，
 
 $$
-\begin{aligned} qS_n-S_n=a_1q^n-a_1\ S_n=a_1\cdot{q^n-1\over q-1},\,(q\neq 1) \end{aligned}
+\begin{aligned} qS_n-S_n=a_1q^n-a_1\\ S_n=a_1\cdot{q^n-1\over q-1},\,(q\neq 1) \end{aligned}
 $$
 
 同时，若 $q=1$，数列退化为常数列，
@@ -584,7 +584,7 @@ $$
 累乘法，即
 
 $$
-\begin{aligned} a_n&=a_{n-1}f(n)\ a_{n-1}&=a_{n-2}f(n-1)\ &\dots\ a_3&=a_2f(3)\ a_2&=a_1f(2) \end{aligned}
+\begin{aligned} a_n&=a_{n-1}f(n)\\ a_{n-1}&=a_{n-2}f(n-1)\\ &\dots\\ a_3&=a_2f(3)\\ a_2&=a_1f(2) \end{aligned}
 $$
 
 上述所有式子相乘，得
@@ -636,7 +636,7 @@ $$
 列出正负，
 
 $$
-\begin{aligned} +&:{1\over1},{1\over2},{1\over3},\dots,{1\over n-1},{1\over n}\ -&:{1\over3},{1\over4},{1\over5},\dots,{1\over n+1},{1\over n+2} \end{aligned}
+\begin{aligned} +&:{1\over1},{1\over2},{1\over3},\dots,{1\over n-1},{1\over n}\\ -&:{1\over3},{1\over4},{1\over5},\dots,{1\over n+1},{1\over n+2} \end{aligned}
 $$
 
 容易发现，
@@ -726,7 +726,7 @@ $$
 一个特点：前面保留几项，后面就保留几项。例如
 
 $$
-\begin{aligned} \sum_{k=1}^n \frac{1}{k(k+2)}&=\frac{1}{2}(1-\frac{1}{3}+\frac{1}{2}-\frac{1}{4}+\dots+\frac{n}{1}-\frac{1}{n+2})\&=\frac{1}{2}(1+\frac{1}{2}-\frac{1}{n+1}-\frac{1}{n+2}) \end{aligned}
+\begin{aligned} \sum_{k=1}^n \frac{1}{k(k+2)}&=\frac{1}{2}(1-\frac{1}{3}+\frac{1}{2}-\frac{1}{4}+\dots+\frac{n}{1}-\frac{1}{n+2})\\&=\frac{1}{2}(1+\frac{1}{2}-\frac{1}{n+1}-\frac{1}{n+2}) \end{aligned}
 $$
 
 现在我们要学习一些高难度的裂项。坐稳了，前方高能！
@@ -971,38 +971,38 @@ $$
 
 即，对于原数列，加上这个数，即可转化为普通的等比数列。
 
-- 数列 ${a_n}$ 的前 $n$ 项和为 $S_n$，若有如下项：$f(n)S_n$，$f(a_n)S_n$(即 $S_n$ 的系数跟 $n$ 有关)，则我们将递推式中的 $a_n$ 改写为 $S_n - S_{n-1}$。
+- 数列 $\{a_n\}$ 的前 $n$ 项和为 $S_n$，若有如下项：$f(n)S_n$，$f(a_n)S_n$(即 $S_n$ 的系数跟 $n$ 有关)，则我们将递推式中的 $a_n$ 改写为 $S_n - S_{n-1}$。
 
-- 若数列 ${a_n}$ 的递推式形如 $a_{n+1} = a_n + f(n)$，则可采用累加法求通项公式。
+- 若数列 $\{a_n\}$ 的递推式形如 $a_{n+1} = a_n + f(n)$，则可采用累加法求通项公式。
 
-- 若数列 ${a_n}$ 的递推式形如 $a_{n+1} = a_n \cdot f(n)$，则可采用累乘法求通项公式。
+- 若数列 $\{a_n\}$ 的递推式形如 $a_{n+1} = a_n \cdot f(n)$，则可采用累乘法求通项公式。
 
-- 形如 $a_{n+1} = pa_n + q(p \ne 1, q \ne 0)$ 的递推式，两边同时加上 $x$ 可构造成等比数列 ${a_n + x}(n \in \mathbb{N}^*)$，通过比较可求得 $x = \dfrac{q}{p-1}$。
+- 形如 $a_{n+1} = pa_n + q(p \ne 1, q \ne 0)$ 的递推式，两边同时加上 $x$ 可构造成等比数列 $\{a_n + x\}(n \in \mathbb{N}^*)$，通过比较可求得 $x = \dfrac{q}{p-1}$。
 
-- 形如 $a_{n+1} = pa_n + kn + q(p \ne 1, k \ne 0, n \in \mathbb{N}^*)$ 的递推式，在两边同时加上 $xn+y$ 构造等比数列 ${a_n + xn + y}(n \in \mathbb{N}^*)$，方法见例 2.9 解析。
+- 形如 $a_{n+1} = pa_n + kn + q(p \ne 1, k \ne 0, n \in \mathbb{N}^*)$ 的递推式，在两边同时加上 $xn+y$ 构造等比数列 $\{a_n + xn + y\}(n \in \mathbb{N}^*)$，方法见例 2.9 解析。
 
-- 对于 $a_{n+1} = p a_n^r (p > 0, p \ne 1, r \ne 1)$ 型，两边同时取以 $p$ 为底的对数，于是可得 $\log_p a_{n+1} = r \log_p a_n + 1$，构造等比数列 ${\log_p a_n + x}$，其中 $x = \dfrac{1}{r-1}$。
+- 对于 $a_{n+1} = p a_n^r (p > 0, p \ne 1, r \ne 1)$ 型，两边同时取以 $p$ 为底的对数，于是可得 $\log_p a_{n+1} = r \log_p a_n + 1$，构造等比数列 $\{\log_p a_n + x\}$，其中 $x = \dfrac{1}{r-1}$。
 
 对于形如 $a_{n+1} = pa_n + q^n(p \ne 0, 1 \text{ 且 } q \ne 0, 1)$ 的数列求通项公式，有以下两种方法：
 
 - 两边同除以 $p^{n+1}$，再累加求通项；
 
-- 两边同加上 $xq^{n+1}$，再构造成等比数列 ${a_n + xq^n}$。
+- 两边同加上 $xq^{n+1}$，再构造成等比数列 $\{a_n + xq^n\}$。
 
 - 若 $p=q$，则只能采用（1），而用（2）无法求解。
 
 对于 $a_{n+1} = \dfrac{a a_n}{b a_n + c}$，$abc \ne 0$，取倒数得 $\dfrac{1}{a_{n+1}} = \dfrac{b a_n + c}{a a_n} = \dfrac{c}{a} \cdot \dfrac{1}{a_n} + \dfrac{b}{a}$。
 
-- 当 $a=c$ 时，$\dfrac{1}{a_{n+1}} = \dfrac{1}{a_n} + \dfrac{c}{a}$，则 ${\dfrac{1}{a_n}}$ 为等差数列；
+- 当 $a=c$ 时，$\dfrac{1}{a_{n+1}} = \dfrac{1}{a_n} + \dfrac{c}{a}$，则 $\{\dfrac{1}{a_n}\}$ 为等差数列；
 
-- 当 $a \ne c$ 时，$\dfrac{1}{a_{n+1}} = \dfrac{c}{a} \cdot \dfrac{1}{a_n} + \dfrac{b}{a}$，则 ${\dfrac{1}{a_n} + x}$ 为等比数列，$x = \dfrac{b}{c-a}$。
+- 当 $a \ne c$ 时，$\dfrac{1}{a_{n+1}} = \dfrac{c}{a} \cdot \dfrac{1}{a_n} + \dfrac{b}{a}$，则 $\{\dfrac{1}{a_n} + x\}$ 为等比数列，$x = \dfrac{b}{c-a}$。
 
 ### 变形累加 {#_41}
 
 容易得出，下面的式子不断乘二，
 
 $$
-\begin{aligned} a_n=2a_{n-1}+1\ 2a_{n-1}=4a_{n-1}+2\ 4a_{n=2}=8a_{n-2}+4\ \dots\ 2^{n-3}a_3=2^{n-2}a_2+2^{n-3}\ 2^{n-2}a_2=2^{n-1}a_1+2^{n-2} \end{aligned}
+\begin{aligned} a_n=2a_{n-1}+1\\ 2a_{n-1}=4a_{n-1}+2\\ 4a_{n=2}=8a_{n-2}+4\\ \dots\\ 2^{n-3}a_3=2^{n-2}a_2+2^{n-3}\\ 2^{n-2}a_2=2^{n-1}a_1+2^{n-2} \end{aligned}
 $$
 
 上述式子相加，
@@ -1073,15 +1073,15 @@ $$
 
 - 通项公式法（用于判断）：
 
-  若 $a_n = a_1 + (n-1)d = a_k + (n-k)d$，则 ${a_n}$ 为等差数列；
+  若 $a_n = a_1 + (n-1)d = a_k + (n-k)d$，则 $\{a_n\}$ 为等差数列；
 
-  若 $a_n = a_1q^{n-1} = a_kq^{n-k}$，则 ${a_n}$ 为等比数列。
+  若 $a_n = a_1q^{n-1} = a_kq^{n-k}$，则 $\{a_n\}$ 为等比数列。
 
 - 中项公式法（用于证明）：
 
-  若 $2a_n = a_{n-1} + a_{n+1}(n \ge 2, n \in \mathbb{N}^*)$，则 ${a_n}$ 为等差数列；
+  若 $2a_n = a_{n-1} + a_{n+1}(n \ge 2, n \in \mathbb{N}^*)$，则 $\{a_n\}$ 为等差数列；
 
-  若 $a_n^2 = a_{n-1}a_{n+1}(n \ge 2, n \in \mathbb{N}^*)$，则 ${a_n}$ 为等比数列。
+  若 $a_n^2 = a_{n-1}a_{n+1}(n \ge 2, n \in \mathbb{N}^*)$，则 $\{a_n\}$ 为等比数列。
 
 ### 奇偶数列 {#_43}
 
@@ -1089,16 +1089,16 @@ $$
 
 绝对值数列：
 
-- 对于首项小于 0 而公差大于 0 的等差数列 ${a_n}$ 加绝对值后得到的数列 ${|a_n|}$ 求和，设 ${a_n}$ 的前 $n$ 项和为 $S_n$，${|a_n|}$ 的前 $n$ 项和为 $T_n$，数列 ${a_n}$ 的第 $k$ 项小于 0 而从第 $k+1$ 项开始大于或等于 0，于是有
+- 对于首项小于 0 而公差大于 0 的等差数列 $\{a_n\}$ 加绝对值后得到的数列 $\{|a_n|\}$ 求和，设 $\{a_n\}$ 的前 $n$ 项和为 $S_n$，$\{|a_n|\}$ 的前 $n$ 项和为 $T_n$，数列 $\{a_n\}$ 的第 $k$ 项小于 0 而从第 $k+1$ 项开始大于或等于 0，于是有
 
   $$
-  T_n = \begin{cases} -S_n & n \le k \ S_n - 2S_k & n > k \end{cases}
+  T_n = \begin{cases} -S_n & n \le k \\ S_n - 2S_k & n > k \end{cases}
   $$
 
-- 对于首项大于 0 而公差小于 0 的等差数列 ${a_n}$ 加绝对值后得到的数列 ${|a_n|}$ 求和，设 ${a_n}$ 的前 $n$ 项和为 $S_n$，${|a_n|}$ 的前 $n$ 项和为 $T_n$，数列 ${a_n}$ 的第 $k$ 项大于 0 而从第 $k+1$ 项开始小于或等于 0，于是有
+- 对于首项大于 0 而公差小于 0 的等差数列 $\{a_n\}$ 加绝对值后得到的数列 $\{|a_n|\}$ 求和，设 $\{a_n\}$ 的前 $n$ 项和为 $S_n$，$\{|a_n|\}$ 的前 $n$ 项和为 $T_n$，数列 $\{a_n\}$ 的第 $k$ 项大于 0 而从第 $k+1$ 项开始小于或等于 0，于是有
 
   $$
-  T_n = \begin{cases} S_n & n \le k \ 2S_k - S_n & n > k \end{cases}
+  T_n = \begin{cases} S_n & n \le k \\ 2S_k - S_n & n > k \end{cases}
   $$
 
 ### 单调性 {#_44}
@@ -1115,11 +1115,11 @@ $$
 
 高中阶段一般认为单调即严格单调。
 
-- 对于迭代数列 $a_{n+1} = f(a_n)$，其中 $f'(x) > 0$。若 $a_1 < a_2$，则数列 ${a_n}$ 单调递增；若 $a_1 > a_2$，则数列 ${a_n}$ 单调递减；若 $a_1 = a_2$，则数列 ${a_n}$ 是常数列。
+- 对于迭代数列 $a_{n+1} = f(a_n)$，其中 $f'(x) > 0$。若 $a_1 < a_2$，则数列 $\{a_n\}$ 单调递增；若 $a_1 > a_2$，则数列 $\{a_n\}$ 单调递减；若 $a_1 = a_2$，则数列 $\{a_n\}$ 是常数列。
 
 - 对于迭代数列 $a_{n+1} = f(a_n)$，若 $f(x)$ 是二次函数，则数列单调递增的充分必要条件为 $a_1 < a_2 < a_3$，且对于任意 $n \ge 2, n \in \mathbb{N}^*$，在 $[a_2, a_n]$ 上，$f'(x) \ge 0$。
 
-- 迭代数列 $a_{n+1} = f(a_n)$，其中 $f'(x) < 0$，则 ${a_{2n}}$ 与 ${a_{2n-1}}$ 的单调性相反。
+- 迭代数列 $a_{n+1} = f(a_n)$，其中 $f'(x) < 0$，则 $\{a_{2n}\}$ 与 $\{a_{2n-1}\}$ 的单调性相反。
 
 ## 换元初步 {#_45}
 
@@ -1149,7 +1149,7 @@ $$
 
 ### 一道例题 {#_47}
 
-已知数列 ${a_n}$ 满足，
+已知数列 $\{a_n\}$ 满足，
 
 $$
 a_1={1\over2},a_{n+1}=a_n^2-2
@@ -1186,7 +1186,7 @@ $$
 容易发现，
 
 $$
-a_{n+1}=a_n^2-2\ 2\cos\theta_{n+1}=4\cos^2\theta_n-2\ \cos\theta_{n+1}=2\cos^2\theta_n-1\ \cos\theta_{n+1}=\cos2\theta_n
+a_{n+1}=a_n^2-2\\ 2\cos\theta_{n+1}=4\cos^2\theta_n-2\\ \cos\theta_{n+1}=2\cos^2\theta_n-1\\ \cos\theta_{n+1}=\cos2\theta_n
 $$
 
 不妨令，
@@ -1204,7 +1204,7 @@ $$
 考虑 $\theta$ 是多少，
 
 $$
-a_1=2\cos\theta={1\over2}\ \cos\theta={1\over4}\ \theta=\arccos1/4
+a_1=2\cos\theta={1\over2}\\ \cos\theta={1\over4}\\ \theta=\arccos1/4
 $$
 
 即，
@@ -1250,7 +1250,7 @@ $$
 于是，
 
 $$
-a_2=f(2t)={k^{2t}+k^{-2t}\over2}\ a_3=f(4t)={k^{4t}+k^{-4t}\over2}\ \dots\ a_n=f(2^{n-1}t)={k^{2^{n-1}t}+k^{-2^{n-1}t}\over2}={(k^t)^{2^{n-1}}+(k^{-t})^{2^{n-1}}\over2}
+a_2=f(2t)={k^{2t}+k^{-2t}\over2}\\ a_3=f(4t)={k^{4t}+k^{-4t}\over2}\\ \dots\\ a_n=f(2^{n-1}t)={k^{2^{n-1}t}+k^{-2^{n-1}t}\over2}={(k^t)^{2^{n-1}}+(k^{-t})^{2^{n-1}}\over2}
 $$
 
 带入，得，
@@ -1272,7 +1272,7 @@ $$
 因为 $q/(p-1)=3$，等式两边同时加三，
 
 $$
-a_n+3=2a_{n-1}+6=2^{n+1}\ a_n=2^{n+1}-3
+a_n+3=2a_{n-1}+6=2^{n+1}\\ a_n=2^{n+1}-3
 $$
 
 注意到当 $n=1,a_1=1$ 满足该式，因此，
@@ -1288,7 +1288,7 @@ $$
 注意到，
 
 $$
-a_n=a_{n-1}+n\ a_{n-1}=a{n-2}+n-1\ \dots\ a_2=a_1+2=1+2
+a_n=a_{n-1}+n\\ a_{n-1}=a{n-2}+n-1\\ \dots\\ a_2=a_1+2=1+2
 $$
 
 上式相加，得，
@@ -1316,7 +1316,7 @@ $$
 记 $b_n=a_n/2^n$，
 
 $$
-b_n=b_{n-1}+n/2^n\ b_{n-1}=b_{n-2}+(n-1)/2^{n-1}\ \dots\ b_2=b_1+1/2\ b_1=1/2
+b_n=b_{n-1}+n/2^n\\ b_{n-1}=b_{n-2}+(n-1)/2^{n-1}\\ \dots\\ b_2=b_1+1/2\\ b_1=1/2
 $$
 
 上式相加，得，
@@ -1334,7 +1334,7 @@ $$
 下式减上式，得，
 
 $$
-\begin{aligned} b_n&=-{n\over2^n}+{1\over2^{n-1}}+{1\over2^{n-2}}+\dots+{1\over2^1}+1\ &={1\over2^{n-1}}\left(1+2+\dots+2^{n-1}\right)-{n\over2^n}\ &={2^n-1\over2^{n-1}}-{n\over2^n}=2-{2+n\over2^n} \end{aligned}
+\begin{aligned} b_n&=-{n\over2^n}+{1\over2^{n-1}}+{1\over2^{n-2}}+\dots+{1\over2^1}+1\\ &={1\over2^{n-1}}\left(1+2+\dots+2^{n-1}\right)-{n\over2^n}\\ &={2^n-1\over2^{n-1}}-{n\over2^n}=2-{2+n\over2^n} \end{aligned}
 $$
 
 带入原式，
@@ -1398,7 +1398,7 @@ $$
 于是，记，
 
 $$
-\begin{aligned} c_n&={2^2-1^2\over2^1}+{3^2-2^2\over2^2}+{4^2-3^2\over2^3}+\dots+{(n-1)^2-(n-2)^2\over2^{n-2}}+{n^2-(n-1)^2\over2^{n-1}}\ &={2\times2-1\over2^1}+{2\times3-1\over2^2}+{2\times4-1\over2^3}+\dots+{2(n-1)-1\over2^{n-2}}+{2n-1\over2^{n-1}} \end{aligned}
+\begin{aligned} c_n&={2^2-1^2\over2^1}+{3^2-2^2\over2^2}+{4^2-3^2\over2^3}+\dots+{(n-1)^2-(n-2)^2\over2^{n-2}}+{n^2-(n-1)^2\over2^{n-1}}\\ &={2\times2-1\over2^1}+{2\times3-1\over2^2}+{2\times4-1\over2^3}+\dots+{2(n-1)-1\over2^{n-2}}+{2n-1\over2^{n-1}} \end{aligned}
 $$
 
 即，
@@ -1410,13 +1410,13 @@ $$
 下式两边同时乘二，得，
 
 $$
-2c_n=3+{2\times3-1\over2^1}+{2\times4-1\over2^2}+\dots+{2(n-1)-1\over2^{n-3}}+{2n-1\over2^{n-2}}\
+2c_n=3+{2\times3-1\over2^1}+{2\times4-1\over2^2}+\dots+{2(n-1)-1\over2^{n-3}}+{2n-1\over2^{n-2}}\\
 $$
 
 与原式相减，得，
 
 $$
-\begin{aligned} c_n&=3-{2n-1\over2^{n-1}}+{2\over2^1}+{2\over2^2}+\dots+{2\over2^{n-3}}+{2\over2^{n-2}}\ &=3-{2n-1\over2^{n-1}}+{1\over2^0}+{1\over2^1}+\dots+{1\over2^{n-4}}+{1\over2^{n-3}}\ &=3-{2n-1\over2^{n-1}}+{1\over2^{n-3}}(1+2+2^2+\dots+2^{n-3})\ &=3-{2n-1\over2^{n-1}}+{2^{n-2}-1\over2^{n-3}}\ &=5-{2n-1\over2^{n-1}}-{1\over2^{n-3}} \end{aligned}
+\begin{aligned} c_n&=3-{2n-1\over2^{n-1}}+{2\over2^1}+{2\over2^2}+\dots+{2\over2^{n-3}}+{2\over2^{n-2}}\\ &=3-{2n-1\over2^{n-1}}+{1\over2^0}+{1\over2^1}+\dots+{1\over2^{n-4}}+{1\over2^{n-3}}\\ &=3-{2n-1\over2^{n-1}}+{1\over2^{n-3}}(1+2+2^2+\dots+2^{n-3})\\ &=3-{2n-1\over2^{n-1}}+{2^{n-2}-1\over2^{n-3}}\\ &=5-{2n-1\over2^{n-1}}-{1\over2^{n-3}} \end{aligned}
 $$
 
 于是，

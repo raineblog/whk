@@ -30,7 +30,7 @@ $$
 
 更加具体的几何构造，由于代数手段可以简单的解决，纯几何手段通常很少使用。但是我们最基本的要掌握用丹德林双球构造，去证明圆锥截线是一个圆锥曲线。其核心原理是，球外一点到球的所有切线，从点到切点的距离相等。根据这个，我们首先猜想平面与双球的两个交点即为二次曲线的焦点，进而取曲线上任意一点，将其到两焦点的距离转化为到圆锥侧面的交点的距离，进而得出距离之和或之差恒定。
 
-::img[alt text]{src="../image-15.avif"}
+![alt text](../image-15.avif#class="custom-img"
 
 高考中有一类综合问题，把圆锥曲线（或者直线和圆）的部分知识，融合迁移到立体几何中出题。这类问题的核心构想是，将例题问题转化为平面问题，最简单的方法显然是直接推导边角关系，通常也能得出一部分关系，其次就是转化思想，取空间几何体的某个切面，然后通过空间的构造，进而在切面中求解。丹德林双球就是一类经典的问题，如果我们要进一步求解圆锥曲线的特征，通常就需要构造界面，然后通过相似、解三角形的知识求解了，这类问题有一个简化版：
 
@@ -59,25 +59,25 @@ $$
 一旦通过五个点解出了方程 $Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0$ 的系数 $A, B, C$，我们就可以通过代数方法来判断其类型。在此之前，我们先引入二次曲线的矩阵形式表达，我们不妨记二次项矩阵为 $Q$：
 
 $$
-Q=\bmatrix{A & B/2 \ B/2 & C}
+Q=\bmatrix{A & B/2 \\ B/2 & C}
 $$
 
 以及在齐次坐标下的增广矩阵 $M$：
 
 $$
-M=\bmatrix{A & B/2 & D/2 \ B/2 & C & E/2 \ D/2 & E/2 & F}
+M=\bmatrix{A & B/2 & D/2 \\ B/2 & C & E/2 \\ D/2 & E/2 & F}
 $$
 
 这样，二次曲线就可以被表示为：
 
 $$
-f(x,y)=\bmatrix{x & y} Q \bmatrix{x \ y} + \bmatrix{D & E}\bmatrix{x \ y} + F = 0
+f(x,y)=\bmatrix{x & y} Q \bmatrix{x \\ y} + \bmatrix{D & E}\bmatrix{x \\ y} + F = 0
 $$
 
 或者用齐次坐标下的增广矩阵形式：
 
 $$
-f(x,y)=\bmatrix{x & y & 1} M \bmatrix{x \ y \ 1} = 0
+f(x,y)=\bmatrix{x & y & 1} M \bmatrix{x \\ y \\ 1} = 0
 $$
 
 这里面有经典的三大不变量与一半不变量，我们为了方便书写取一部分（部分字母可能存在差异，这里仅供参考）例如：
@@ -169,7 +169,7 @@ $$
 解得：
 
 $$
-\left{\begin{aligned} x_0&=\dfrac{BE-2CD}{B^2-4AC}&=\dfrac{BE-2CD}{\delta}\ y_0&=\dfrac{BD-2AE}{B^2-4AC}&=\dfrac{BD-2AE}{\delta} \end{aligned}\right.
+\left\{\begin{aligned} x_0&=\dfrac{BE-2CD}{B^2-4AC}&=\dfrac{BE-2CD}{\delta}\\ y_0&=\dfrac{BD-2AE}{B^2-4AC}&=\dfrac{BD-2AE}{\delta} \end{aligned}\right.
 $$
 
 注意到 $\delta=0$ 是显然无解的，这再次说明抛物线没有中心。
@@ -191,7 +191,7 @@ $$
 如果二次曲线是椭圆，则根据上面的方程，其参数 $a,b$ 分别为：
 
 $$
-\left{\environment{aligned}{ a^2&=-\dfrac{\Delta_3}{\lambda_1\Delta_2}\ b^2&=-\dfrac{\Delta_3}{\lambda_2\Delta_2} }\right.
+\left\{\environment{aligned}{ a^2&=-\dfrac{\Delta_3}{\lambda_1\Delta_2}\\ b^2&=-\dfrac{\Delta_3}{\lambda_2\Delta_2} }\right.
 $$
 
 然后我们就可以按部就班的求出新坐标系下的焦点坐标（求出 $c$ 即可）：
@@ -203,7 +203,7 @@ $$
 将焦点坐标变换回原始坐标系即可：
 
 $$
-\pmatrix{x\y}=\pmatrix{\cos\theta&-\sin\theta\sin\theta&\cos\theta}\pmatrix{x''\ y''}+\pmatrix{x_0\ y_0}
+\pmatrix{x\\y}=\pmatrix{\cos\theta&-\sin\theta\\\sin\theta&\cos\theta}\pmatrix{x''\\ y''}+\pmatrix{x_0\\ y_0}
 $$
 
 将 $F_{1,2}''$ 的坐标（注意焦点在哪个坐标轴上）代入上式，即可得到原始坐标系下的焦点坐标。
@@ -241,7 +241,7 @@ $$
 我们知道 $Ax^2+Bxy+Cy^2=0$ 可以表示两条过原点的直线，那么，当我们处理一条直线 $\lambda x+\mu y=1$ 和圆锥曲线的两个交点时，不妨用一的代换将圆锥曲线齐次化。将圆锥曲线方程中的一次项乘以 $\lambda x+\mu y$，常数项乘以 $(\lambda x+\mu y)^2$，例如：
 
 $$
-\begin{aligned} \dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1\ b^2x^2+a^2y^2-a^2b^2=0\ b^2x^2+a^2y^2-a^2b^2(\lambda x+\mu y)^2=0\ b^2x^2+a^2y^2-a^2b^2(\lambda^2x^2+\lambda\mu xy+\mu^2y^2)=0\ b^2(1-a^2\lambda^2)x^2-2a^2b^2\lambda\mu xy+a^2(1-b^2\mu^2)y^2=0 \end{aligned}
+\begin{aligned} \dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1\\ b^2x^2+a^2y^2-a^2b^2=0\\ b^2x^2+a^2y^2-a^2b^2(\lambda x+\mu y)^2=0\\ b^2x^2+a^2y^2-a^2b^2(\lambda^2x^2+\lambda\mu xy+\mu^2y^2)=0\\ b^2(1-a^2\lambda^2)x^2-2a^2b^2\lambda\mu xy+a^2(1-b^2\mu^2)y^2=0 \end{aligned}
 $$
 
 这个式子就表示原点 $O$ 和两个交点 $A,B$ 构成的直线 $OA,OB$。例如，如果我们知道 $OA\perp OB$，那么只需要令
@@ -280,7 +280,7 @@ $$
 
 - 如果 $b/c$ 等于 $1$，则是伯努利双扭线。
 
-::img{src="../Cassini-3kurv.svg" width="50%"}
+![alt text](../Cassini-3kurv.svg#class="custom-img";float=50%"
 
 伯努利双纽线的形状类似无穷大的符号，是双曲线关于圆心在双曲线中心的圆的反演图形。
 
@@ -301,7 +301,7 @@ $$
 注意到左侧 $x^2+y^2$ 的形式很好看，不妨设：
 
 $$
-\begin{cases} x=\rho\cos\varphi\ y=\rho\sin\varphi \end{cases}
+\begin{cases} x=\rho\cos\varphi\\ y=\rho\sin\varphi \end{cases}
 $$
 
 因此：
@@ -327,13 +327,13 @@ $$
 因此：
 
 $$
-\begin{cases} x^2=2c^2\cos^2\varphi\cos2\varphi\ y^2=2c^2\sin^2\varphi\cos2\varphi \end{cases}
+\begin{cases} x^2=2c^2\cos^2\varphi\cos2\varphi\\ y^2=2c^2\sin^2\varphi\cos2\varphi \end{cases}
 $$
 
 如果我们要求最值的话，不妨：
 
 $$
-\begin{cases} x^2=2c^2\cos^2\varphi(2\cos^2\varphi-1)\ y^2=2c^2\sin^2\varphi(1-2\sin^2\varphi) \end{cases}
+\begin{cases} x^2=2c^2\cos^2\varphi(2\cos^2\varphi-1)\\ y^2=2c^2\sin^2\varphi(1-2\sin^2\varphi) \end{cases}
 $$
 
 然后就是简单的二次函数问题了。
@@ -355,29 +355,29 @@ $$
 - 当 $n > 2$ 时，超椭圆的图形类似圆角矩形，在 $(\pm a, 0)$ 及 $(0, \pm b)$ 四点处的曲率为 $0$。
 - 其中 $n = 4$ 的超椭圆也称为方圆形。$n < 2$ 的超椭圆称为次椭圆，$n > 2$ 的超椭圆称为过椭圆。
 
-::img[alt text]{src="../Superellipse-3.avif" width="100%"}
+![alt text](../Superellipse-3.avif#class="custom-img";float=100%"
 
 内摆线（圆内螺线）是所有形式为：
 
 $$
-\begin{cases} x = \cos\theta + \dfrac{1}{n}\cos n\theta \ y = \sin\theta - \dfrac{1}{n}\sin n\theta \end{cases}
+\begin{cases} x = \cos\theta + \dfrac{1}{n}\cos n\theta \\ y = \sin\theta - \dfrac{1}{n}\sin n\theta \end{cases}
 $$
 
 的曲线，其中 $n$ 为正实数。
 
-::img[alt text]{src="../image-1.avif" width="80%"}
+![alt text](../image-1.avif#class="custom-img";float=80%"
 
 ### 勒洛多边形 {#_12}
 
 勒洛三角形，又被称为弧三角形或曲边三角形，是除了圆形以外，最简单易懂的勒洛多边形，一个定宽曲线。
 
-::img[alt text]{src="../Construction_triangle_Reuleaux[1].svg"}
+![alt text](../Construction_triangle_Reuleaux[1].svg#class="custom-img"
 
-::img[alt text]{src="../image.avif"}
+![alt text](../image.avif#class="custom-img"
 
 勒洛多边形是勒洛三角形的拓展：
 
-::img[alt text]{src="../Reinhardt_15-gons[1].svg" width="80%"}
+![alt text](../Reinhardt_15-gons[1].svg#class="custom-img";float=80%"
 
 将一个曲线图放在两条平行线中间，使之与这两平行线相切，则可以做到：无论这个曲线图如何运动，只要它还是在这两条平行线内，就始终与这两条平行线相切。
 
@@ -410,7 +410,7 @@ $$
 设直线方程为 $y=kx+m$，带入
 
 $$
-\begin{aligned} b^2x^2+a^2(kx+m)^2&=a^2b^2\ b^2x^2+a^2(k^2x^2+m^2+2kmx)&=a^2b^2 \end{aligned}
+\begin{aligned} b^2x^2+a^2(kx+m)^2&=a^2b^2\\ b^2x^2+a^2(k^2x^2+m^2+2kmx)&=a^2b^2 \end{aligned}
 $$
 
 化简得到
@@ -422,7 +422,7 @@ $$
 我们知道
 
 $$
-\begin{aligned} \Delta&=4k^2m^2a^4-4a^2(m^2-b^2)(b^2+a^2k^2)\ &=4a^2[k^2m^2a^2-(m^2-b^2)(b^2+a^2k^2)]\ &=4a^2b^2(b^2+a^2k^2-m^2) \end{aligned}
+\begin{aligned} \Delta&=4k^2m^2a^4-4a^2(m^2-b^2)(b^2+a^2k^2)\\ &=4a^2[k^2m^2a^2-(m^2-b^2)(b^2+a^2k^2)]\\ &=4a^2b^2(b^2+a^2k^2-m^2) \end{aligned}
 $$
 
 - 相交：$b^2+a^2k^2-m^2\ge0$。
@@ -432,7 +432,7 @@ $$
 如果相交，此时两交点之间的距离有
 
 $$
-\begin{aligned} |AB|&=\sqrt{k^2+1}\cdot|x_a-x_b|\ &=\sqrt{k^2+1}\cdot\dfrac{2ab\sqrt{b^2+a^2k^2-m^2}}{b^2+a^2k^2} \end{aligned}
+\begin{aligned} |AB|&=\sqrt{k^2+1}\cdot|x_a-x_b|\\ &=\sqrt{k^2+1}\cdot\dfrac{2ab\sqrt{b^2+a^2k^2-m^2}}{b^2+a^2k^2} \end{aligned}
 $$
 
 前者为硬解定理，后者为弦长公式。
@@ -458,7 +458,7 @@ $$
 设直线方程为 $y=kx+m$，带入
 
 $$
-\begin{aligned} b^2x^2-a^2(kx+m)^2&=a^2b^2\ b^2x^2-a^2(k^2x^2+m^2+2kmx)&=a^2b^2 \end{aligned}
+\begin{aligned} b^2x^2-a^2(kx+m)^2&=a^2b^2\\ b^2x^2-a^2(k^2x^2+m^2+2kmx)&=a^2b^2 \end{aligned}
 $$
 
 化简得到
@@ -497,7 +497,7 @@ $$
 则讨论二次函数
 
 $$
-\begin{aligned} \Delta&=4k^2m^2a^4+4a^2(m^2+b^2)(b^2-a^2k^2)\ &=4a^2[k^2m^2a^2+(m^2+b^2)(b^2-a^2k^2)]\ &=4a^2b^2(b^2-a^2k^2+m^2) \end{aligned}
+\begin{aligned} \Delta&=4k^2m^2a^4+4a^2(m^2+b^2)(b^2-a^2k^2)\\ &=4a^2[k^2m^2a^2+(m^2+b^2)(b^2-a^2k^2)]\\ &=4a^2b^2(b^2-a^2k^2+m^2) \end{aligned}
 $$
 
 - 相交：$b^2-a^2k^2+m^2\ge0$。
@@ -507,7 +507,7 @@ $$
 如果相交，此时两交点之间的距离有
 
 $$
-\begin{aligned} |AB|&=\sqrt{k^2+1}\cdot|x_a-x_b|\ &=\sqrt{k^2+1}\cdot\dfrac{2ab\sqrt{b^2-a^2k^2+m^2}}{|b^2-a^2k^2|} \end{aligned}
+\begin{aligned} |AB|&=\sqrt{k^2+1}\cdot|x_a-x_b|\\ &=\sqrt{k^2+1}\cdot\dfrac{2ab\sqrt{b^2-a^2k^2+m^2}}{|b^2-a^2k^2|} \end{aligned}
 $$
 
 前者为硬解定理，后者为弦长公式。
@@ -549,7 +549,7 @@ $$
 同样有弦长公式
 
 $$
-\begin{aligned} |AB|&=\sqrt{k^2+1}\cdot|x_a-x_b|\ &=\sqrt{k^2+1}\cdot\dfrac{\sqrt{p(p-2km)}}{k^2} \end{aligned}
+\begin{aligned} |AB|&=\sqrt{k^2+1}\cdot|x_a-x_b|\\ &=\sqrt{k^2+1}\cdot\dfrac{\sqrt{p(p-2km)}}{k^2} \end{aligned}
 $$
 
 如果我们知道直线与 $x$ 轴的交点，例如过抛物线的焦点，不妨设直线方程 $x=ky+m$，联立的时候直接带入，得到
@@ -569,7 +569,7 @@ $$
 例如，两条平行直线交双曲线 $E:\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1(a,b>0)$ 左、右支于四个点 $A,B,C,D$，不妨设 $AB(L_1),CD(L_2)$ 交于点 $P(x_c,y_c)$，我们不妨设：
 
 $$
-\begin{cases} L_1:&Ax+By+C_1=0\ L_2:&Ax+By+C_2=0 \end{cases}
+\begin{cases} L_1:&Ax+By+C_1=0\\ L_2:&Ax+By+C_2=0 \end{cases}
 $$
 
 我们不妨设：
@@ -625,7 +625,7 @@ $$
   其中
 
   $$
-  \begin{aligned} F_x&=\dfrac{\partial F}{\partial x}(x,y)\ F_y&=\dfrac{\partial F}{\partial y}(x,y) \end{aligned}
+  \begin{aligned} F_x&=\dfrac{\partial F}{\partial x}(x,y)\\ F_y&=\dfrac{\partial F}{\partial y}(x,y) \end{aligned}
   $$
 
 - 对于求导后的结果，带入曲线上的点即可得到曲线在该处的切线。
@@ -657,7 +657,7 @@ $$
 也就是说我们替换
 
 $$
-\begin{cases} x^2&\gets x_0x\ y^2&\gets y_0y\ x&\gets\dfrac{x_0+x}{2}\ y&\gets\dfrac{y_0+y}{2}\ xy&\gets\dfrac{x_0y+xy_0}{2} \end{cases}
+\begin{cases} x^2&\gets x_0x\\ y^2&\gets y_0y\\ x&\gets\dfrac{x_0+x}{2}\\ y&\gets\dfrac{y_0+y}{2}\\ xy&\gets\dfrac{x_0y+xy_0}{2} \end{cases}
 $$
 
 得到的就是 $F$ 在 $(x_0,y_0)$ 处的切线方程。
@@ -671,13 +671,13 @@ $$
 证明：根据 $AB,AC$ 是切线，列出 $AB,AC$ 的直线方程
 
 $$
-\begin{cases} \dfrac{x_1x}{a^2}+\dfrac{y_1y}{b^2}=1\ \dfrac{x_2x}{a^2}+\dfrac{y_2y}{b^2}=1\ \end{cases}
+\begin{cases} \dfrac{x_1x}{a^2}+\dfrac{y_1y}{b^2}=1\\ \dfrac{x_2x}{a^2}+\dfrac{y_2y}{b^2}=1\\ \end{cases}
 $$
 
 我们知道 $A(x_0,y_0)$ 在这两条直线上，因此带入 $(x,y)=(x_0,y_0)$
 
 $$
-\begin{cases} \dfrac{x_1x_0}{a^2}+\dfrac{y_1y_0}{b^2}=1\ \dfrac{x_2x_0}{a^2}+\dfrac{y_2y_0}{b^2}=1\ \end{cases}
+\begin{cases} \dfrac{x_1x_0}{a^2}+\dfrac{y_1y_0}{b^2}=1\\ \dfrac{x_2x_0}{a^2}+\dfrac{y_2y_0}{b^2}=1\\ \end{cases}
 $$
 
 因此不妨令直线
@@ -703,7 +703,7 @@ $$
 注意到本题中，点 $P$ 与点 $A$ 关于原点对称，点 $C$ 是点 $P$ 在 $x$ 轴上的射影。而且我们知道求出来的点 $P$ 的横坐标比较复杂（需要开方），所以干脆不去求，直接设 $P(m, km)$。则立即能知道 $A(-m, -km), C(m, 0)$。因而可以求得直线 $AC$ 的斜率为 $k_{AC} = \dfrac{km}{2m} = \dfrac{k}{2}$。此时可设直线 $AC$ 的方程为 $y = \dfrac{k}{2}(x - m)$。联立直线 $AC$ 和椭圆方程，消去变量 $y$ 并整理可得
 
 $$
-\begin{cases} \dfrac{x^2}{4} + \dfrac{y^2}{2} = 1 \ y = \dfrac{k}{2}(x - m) \end{cases} \Rightarrow (k^2 + 2)x^2 - 2mk^2x + k^2m^2 - 8 = 0
+\begin{cases} \dfrac{x^2}{4} + \dfrac{y^2}{2} = 1 \\ y = \dfrac{k}{2}(x - m) \end{cases} \Rightarrow (k^2 + 2)x^2 - 2mk^2x + k^2m^2 - 8 = 0
 $$
 
 由韦达定理得 $x_B + x_A = \dfrac{2mk^2}{k^2 + 2}$，因为 $x_A = -m$。因此有 $x_B = \dfrac{2mk^2}{k^2 + 2} + m = \dfrac{3mk^2 + 2m}{k^2 + 2}$，代入直线 $AC$ 得
@@ -776,7 +776,7 @@ $$
 
 圆的两条弦 $AB,CD$ 相交于点 $P$，如图
 
-::img[alt text]{src="../reconstructed_image.svg" width="50%"}
+![alt text](../reconstructed_image.svg#class="custom-img";float=50%"
 
 则
 
@@ -794,9 +794,9 @@ $$
 
 点 $P$ 到 $\triangle ABC$ 各边的投影共线，当且仅当 $P$ 位于该三角形的外接圆上（如图左）。
 
-::img[alt text]{src="../image-21.avif" width="80%"}
+![alt text](../image-21.avif#class="custom-img";float=80%"
 
-::img[alt text]{src="../image-23.avif" width="85%"}
+![alt text](../image-23.avif#class="custom-img";float=85%"
 
 斯坦纳线定理：一个三角形外接圆上任意一点（该点不为三角形顶点）关于三角形三边的对称点，这三个对称点是共线的，并且这条直线（称为斯坦纳线）必经过该三角形的垂心。
 
@@ -847,13 +847,13 @@ $$
 已知点 $P(0,3-2t),Q(1,3-t)$，首先写出点向量：
 
 $$
-\begin{aligned} \bm p&=(0,3-2t,1)\ \bm q&=(1,3-t,1) \end{aligned}
+\begin{aligned} \bm p&=(0,3-2t,1)\\ \bm q&=(1,3-t,1) \end{aligned}
 $$
 
 写出直线向量：
 
 $$
-\bm L=\bm p\times\bm q=\vmatrix{\bm i&\bm j&\bm k\ 0&3-2t&1\1&3-t&1}=(-t,1,2t-3)
+\bm L=\bm p\times\bm q=\vmatrix{\bm i&\bm j&\bm k\\ 0&3-2t&1\\1&3-t&1}=(-t,1,2t-3)
 $$
 
 也就是说，此时直线方程为：
@@ -873,7 +873,7 @@ $$
 然后写出定点向量：
 
 $$
-\bm X=\bm L\times\bm L'=\vmatrix{\bm i&\bm j&\bm k\-t&1&2t-3\-1&0&2}=(2,3,1)
+\bm X=\bm L\times\bm L'=\vmatrix{\bm i&\bm j&\bm k\\-t&1&2t-3\\-1&0&2}=(2,3,1)
 $$
 
 此时归一化除以 $1$，得到在笛卡尔坐标系下的定点坐标：
@@ -894,7 +894,7 @@ $$
 $Q$ 的点向量不妨乘上 $t$：
 
 $$
-\begin{aligned} \bm p&=(t,0,1)\ \bm q&=(0,1,t) \end{aligned}
+\begin{aligned} \bm p&=(t,0,1)\\ \bm q&=(0,1,t) \end{aligned}
 $$
 
 求出直线向量：

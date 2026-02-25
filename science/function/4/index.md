@@ -69,7 +69,7 @@ $$
 等价无穷小替换公式：设 $f(x) \sim F(x) \quad (x \to a)$，$g(x) \sim G(x) \quad (x \to a)$，则
 
 $$
-\begin{aligned} & \phantom = \lim\limits_{x \to a} \dfrac{f(x)}{g(x)} \ & = \lim\limits_{x \to a} [\dfrac{F(x)}{G(x)} \cdot \dfrac{f(x)}{F(x)} \cdot \dfrac{G(x)}{g(x)}]\ & = \lim\limits_{x \to a} \dfrac{F(x)}{G(x)} \cdot \lim\limits_{x \to a} \dfrac{f(x)}{F(x)} \cdot \lim\limits_{x \to a} \dfrac{G(x)}{g(x)} \ & = \lim\limits_{x \to a} \dfrac{F(x)}{G(x)} \end{aligned}
+\begin{aligned} & \phantom = \lim\limits_{x \to a} \dfrac{f(x)}{g(x)} \\ & = \lim\limits_{x \to a} [\dfrac{F(x)}{G(x)} \cdot \dfrac{f(x)}{F(x)} \cdot \dfrac{G(x)}{g(x)}]\\ & = \lim\limits_{x \to a} \dfrac{F(x)}{G(x)} \cdot \lim\limits_{x \to a} \dfrac{f(x)}{F(x)} \cdot \lim\limits_{x \to a} \dfrac{G(x)}{g(x)} \\ & = \lim\limits_{x \to a} \dfrac{F(x)}{G(x)} \end{aligned}
 $$
 
 也即对一个分式求极限时，分子与分母可以替换为它的等价无穷小，而极限值不改变，这个规则称作等价无穷小替换规则。
@@ -109,7 +109,7 @@ $$
     这类间断点称为可去间断点。因为只要修改这一点，就能变为连续函数，例如
 
     $$
-    g(x)= \begin{cases} f(x) & x\ne x_0 \ \lim_{x\to x_0} f(x) & x=x_0 \end{cases}
+    g(x)= \begin{cases} f(x) & x\ne x_0 \\ \lim_{x\to x_0} f(x) & x=x_0 \end{cases}
     $$
 
 2.  函数在某一点的左右极限存在但不相等，即
@@ -129,7 +129,7 @@ $$
 3.  函数在某一点的左右极限至少有一个不存在。这类间断点称为第二类间断点。例如，对于狄利克雷函数
 
     $$
-    D(x)= \begin{cases} 1 & x\in \mathbb{Q} \ 0 & x\in \mathbb{R}-\mathbb{Q} \end{cases}
+    D(x)= \begin{cases} 1 & x\in \mathbb{Q} \\ 0 & x\in \mathbb{R}-\mathbb{Q} \end{cases}
     $$
 
     任意的 $x_0\in \mathbb{R}$ 都是其第二类间断点。

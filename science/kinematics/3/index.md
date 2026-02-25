@@ -48,7 +48,7 @@ $$
 
 ### 小船过河问题 {#_4}
 
-::img[过河问题]{src="../过河问题.avif" align="right" width="40%"}
+![过河问题](../过河问题.avif#class="custom-img";align="right";float=40%"
 
 如果船速大于水速：
 
@@ -123,7 +123,7 @@ $$
 2.  以抛射点为坐标原点，在抛射平面（竖直平面）内建立直角坐标系，再把方程中各矢量沿 $x,y$ 方向分解。如果在抛射平面内分别取水平方向和竖直向上方向为 $x,y$ 轴方向，那么抛体运动方程的分量形式为：
 
 $$
-\begin{aligned} &v_x=v_0\cos\theta&&\kern{1em}v_y=v_0\sin\theta-gt\[0.5em] &x=(v_0\cos\theta)t&&\kern{1em}y=(v_0\sin\theta)t-gt^2/2 \end{aligned}
+\begin{aligned} &v_x=v_0\cos\theta&&\kern{1em}v_y=v_0\sin\theta-gt\\[0.5em] &x=(v_0\cos\theta)t&&\kern{1em}y=(v_0\sin\theta)t-gt^2/2 \end{aligned}
 $$
 
 这表示，抛体运动可以看成：
@@ -171,7 +171,7 @@ $$
 此时 $x,y$ 方向的运动均为匀变速直线运动，它们在 $x,y$ 方向的分运动方程分别为：
 
 $$
-\begin{aligned} &v_x=v_0\cos\theta\pm(g\sin\varphi)t&&\kern{1em}v_y=v_0\sin\theta-(g\cos\varphi)t\[0.5em] &x=(v_0\cos\theta)t\pm(g\sin\varphi)t^2/2&&\kern{1em}y=(v_0\sin\theta)t-(g\cos\varphi)t^2/2 \end{aligned}
+\begin{aligned} &v_x=v_0\cos\theta\pm(g\sin\varphi)t&&\kern{1em}v_y=v_0\sin\theta-(g\cos\varphi)t\\[0.5em] &x=(v_0\cos\theta)t\pm(g\sin\varphi)t^2/2&&\kern{1em}y=(v_0\sin\theta)t-(g\cos\varphi)t^2/2 \end{aligned}
 $$
 
 正号为斜面向下，负号为斜面向上，如图：
@@ -183,7 +183,7 @@ $$
 
 ### 斜面平抛 {#_11}
 
-::img[抛体]{src="../抛体运动.svg" width="90%"}
+![抛体](../抛体运动.svg#class="custom-img";float=90%"
 
 从斜面上高点抛出，到最低点因为位偏角相等，因此速偏角相等，打到斜面上的速度夹角相同，三角形相似。
 
@@ -205,7 +205,7 @@ $$
 
 根本：将速度、位移按照效果分解。
 
-::img[矢量法]{src="../矢量法.avif" width="90%"}
+![矢量法](../矢量法.avif#class="custom-img";float=90%"
 
 通常结合功动能定理。
 
@@ -282,7 +282,7 @@ $$
 列出方程：
 
 $$
-\begin{aligned} &v_x=v_0\cos\theta&&\kern{1em}v_y=v_0\sin\theta-gt\ &x=(v_0\cos\theta)t&&\kern{1em}y=(v_0\sin\theta)t-gt^2/2 \end{aligned}
+\begin{aligned} &v_x=v_0\cos\theta&&\kern{1em}v_y=v_0\sin\theta-gt\\ &x=(v_0\cos\theta)t&&\kern{1em}y=(v_0\sin\theta)t-gt^2/2 \end{aligned}
 $$
 
 由题意，$v_x=24\mathrm{m/s}$；当 $y=0$ 时，$v_x^2+v_y^2=(30\mathrm{m/s})^2$，解得 $v_y=18\mathrm{m/s}$。
@@ -310,7 +310,7 @@ $$
 考虑将末速度正交分解：
 
 $$
-\left{\begin{aligned} v_x&=v\sin\theta\ v_y&=v\cos\theta \end{aligned}\right.
+\left\{\begin{aligned} v_x&=v\sin\theta\\ v_y&=v\cos\theta \end{aligned}\right.
 $$
 
 考虑计算运动时间。

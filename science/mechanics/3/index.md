@@ -45,12 +45,12 @@ $$
 
 典例是直角劈模型，有 $\theta$ 角度的直角劈，一木块放在上面，则：
 
-::img[直角劈模型]{src="../mnt847j0.avif"}
+![直角劈模型](../mnt847j0.avif#class="custom-img"
 
 其中 $V$ 和 $A$ 为劈的速度和加速度，$x$ 为木块相对参考系的水平位移，$X$ 为木块相对参考系的水平位移，$(h-y)$ 为木块滑下的竖直高度：
 
 $$
-\begin{aligned} (x-X)=(h-y)\cot\theta\ v_x-V=-v_y\cot\theta\ a_x-A=-a_y\cot\theta \end{aligned}
+\begin{aligned} (x-X)=(h-y)\cot\theta\\ v_x-V=-v_y\cot\theta\\ a_x-A=-a_y\cot\theta \end{aligned}
 $$
 
 上式从上到下，实为对方程两边做一次时间变化率，常数项忽略，常数系数不变。
@@ -83,7 +83,7 @@ $$
 
 ### 等时圆模型 {#_8}
 
-::img[alt text]{src="../image-2.avif" align="right" width="50%"}
+![alt text](../image-2.avif#class="custom-img";align="right";float=50%"
 
 质点自半径为 $R$ 的空心球（对于平面而言是圆环）的最高点由静止开始无摩擦地沿任一弦下滑至球面（或圆环），所需时间相等，且等于：
 
@@ -108,7 +108,7 @@ $$
 列运动学方程：
 
 $$
-\begin{aligned} l&=\dfrac{1}{2}at^2\ 2R\cos\beta&=\dfrac{1}{2}(g\cos\beta)t^2 \end{aligned}
+\begin{aligned} l&=\dfrac{1}{2}at^2\\ 2R\cos\beta&=\dfrac{1}{2}(g\cos\beta)t^2 \end{aligned}
 $$
 
 易得 $t$ 与 $\beta$ 无关，且：
@@ -149,26 +149,26 @@ $$
 
 在平面内，$B$ 点在 $A$ 右下，自 $A$ 静止释放一个小球，运动到 $B$ 点的最短时间。
 
-::img{src="../最速降线.avif" width="100%"}
+![alt text](../最速降线.avif#class="custom-img";float=100%"
 
 伯努利（哥哥和弟弟分别）证明了最速降线是一条摆线。
 
 ## 传送带和板块模型 {#_10}
 
-::img{src="../方法总结.avif" width="90%"}
+![alt text](../方法总结.avif#class="custom-img";float=90%"
 
 **例题1**：质量为 $2\text{kg}$ 的物体沿光滑斜面下滑，斜面与水平面的夹角为 $37^\circ$，求木块的加速度。
 
 列式：
 
 $$
-\begin{cases} F_r&=ma\ F_r&=G\sin37^\circ\ G&=mg\ m&=2\text{kg} \end{cases}
+\begin{cases} F_r&=ma\\ F_r&=G\sin37^\circ\\ G&=mg\\ m&=2\text{kg} \end{cases}
 $$
 
 解得：
 
 $$
-\begin{cases} m&=2&\text{kg}\ G&=20&\text{N}\ F_r&=12&\text{N}\ a&=6&\text{m/s}^2\ \end{cases}
+\begin{cases} m&=2&\text{kg}\\ G&=20&\text{N}\\ F_r&=12&\text{N}\\ a&=6&\text{m/s}^2\\ \end{cases}
 $$
 
 所以，加速度为 $6\text{m/s}^2$，方向沿斜面向下。
@@ -178,13 +178,13 @@ $$
 列式：
 
 $$
-\begin{cases} F_r&=ma\ F_r&=G\sin37^\circ-f\ f&=\mu N\ N&=G\cos37^\circ\ G&=mg\ m&=2\text{kg} \end{cases}
+\begin{cases} F_r&=ma\\ F_r&=G\sin37^\circ-f\\ f&=\mu N\\ N&=G\cos37^\circ\\ G&=mg\\ m&=2\text{kg} \end{cases}
 $$
 
 解得：
 
 $$
-\begin{cases} m&=2&\text{kg}\ G&=20&\text{N}\ N&=16&\text{N}\ f&=3.2&\text{N}\ F_r&=8.8&\text{N}\ a&=4.4&\text{m/s}^2\ \end{cases}
+\begin{cases} m&=2&\text{kg}\\ G&=20&\text{N}\\ N&=16&\text{N}\\ f&=3.2&\text{N}\\ F_r&=8.8&\text{N}\\ a&=4.4&\text{m/s}^2\\ \end{cases}
 $$
 
 所以，加速度为 $4.4\text{m/s}^2$，方向沿斜面向下。
@@ -192,7 +192,7 @@ $$
 **例题3**：质量为 $2\text{kg}$ 的物体静止于水平面的 $A$ 处，$AB$ 间距 $L=20\text{m}$，如图：
 
 $$
-\begin{matrix} \underline{\kern{1em}\Box\kern{7em}\Box\kern{1em}}\[-0.8em] \cdot\kern{7.5em}\cdot\[-0.4em] {\small{A}}\kern{7em}{\small{B}} \end{matrix}
+\begin{matrix} \underline{\kern{1em}\Box\kern{7em}\Box\kern{1em}}\\[-0.8em] \cdot\kern{7.5em}\cdot\\[-0.4em] {\small{A}}\kern{7em}{\small{B}} \end{matrix}
 $$
 
 现用大小为 $30\text{N}$ 的力，沿水平方向拉物体，$2\text{s}$ 后到达 $B$ 处。
@@ -204,31 +204,31 @@ $$
 对物体 $A$ 受力分析：
 
 $$
-\begin{cases} F_r&=F-f\ N&=G \end{cases}
+\begin{cases} F_r&=F-f\\ N&=G \end{cases}
 $$
 
 展开：
 
 $$
-\begin{cases} ma&=F-\mu N\ N&=mg \end{cases}
+\begin{cases} ma&=F-\mu N\\ N&=mg \end{cases}
 $$
 
 得到方程组：
 
 $$
-\begin{cases} x&=\dfrac{1}{2}at^2\ ma&=F-\mu mg \end{cases}
+\begin{cases} x&=\dfrac{1}{2}at^2\\ ma&=F-\mu mg \end{cases}
 $$
 
 代数，得：
 
 $$
-\begin{cases} 20\text{m}&=\dfrac{1}{2}a\cdot(2\text{s})^2\ 2\text{kg}\cdot a&=30\text{N}-\mu\cdot20\text{N} \end{cases}
+\begin{cases} 20\text{m}&=\dfrac{1}{2}a\cdot(2\text{s})^2\\ 2\text{kg}\cdot a&=30\text{N}-\mu\cdot20\text{N} \end{cases}
 $$
 
 解得：
 
 $$
-\begin{cases} a&=10\text{m/s}^2\ \mu&=0.5 \end{cases}
+\begin{cases} a&=10\text{m/s}^2\\ \mu&=0.5 \end{cases}
 $$
 
 即 $\mu=0.5$。
@@ -328,13 +328,13 @@ $$
 对（物体），做（运动段），如图（受力分析），列（平衡／牛二）。
 
 $$
-\begin{aligned} F_{\text{合}}=ma&=F-f\ F&=\frac{P}{v} \end{aligned}
+\begin{aligned} F_{\text{合}}=ma&=F-f\\ F&=\frac{P}{v} \end{aligned}
 $$
 
 得出（一定要受力分析）：
 
 $$
-\begin{aligned} F&=f+ma\ ma&=\frac{P}{v}-f \end{aligned}
+\begin{aligned} F&=f+ma\\ ma&=\frac{P}{v}-f \end{aligned}
 $$
 
 ### 恒定功率启动 {#_17}

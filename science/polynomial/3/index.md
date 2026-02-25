@@ -25,7 +25,7 @@ $$
 不等式联立：
 
 $$
-\begin{cases} a_1<x+y<a_2\ b_1<x-y<b_2 \end{cases}\implies\begin{cases} a_1+b_1<2x<a_2+b_2\ a_1-b_1<2y<a_2-b_2 \end{cases}
+\begin{cases} a_1<x+y<a_2\\ b_1<x-y<b_2 \end{cases}\implies\begin{cases} a_1+b_1<2x<a_2+b_2\\ a_1-b_1<2y<a_2-b_2 \end{cases}
 $$
 
 等式的性质​：
@@ -91,9 +91,9 @@ $$
 
 $a|x-m|+b|x-n|(m<n)$ 的图像是以 $A(m, f(m))$，$B(n, f(n))$ 为折点的折线。
 
-- 当 $a+b>0$ 时，两端向上无限延伸，故有最小值，最小值为 $\min{f(m), f(n)}$；
-- 当 $a+b<0$ 时，两端向下无限延伸，故有最大值，最大值为 $\max{f(m), f(n)}$；
-- 当 $a+b=0$ 时，两端无限延伸且平行于 $x$ 轴，故既有最大值又有最小值，最大值为 $\max{f(m), f(n)}$，最小值为 $\min{f(m), f(n)}$。
+- 当 $a+b>0$ 时，两端向上无限延伸，故有最小值，最小值为 $\min\{f(m), f(n)\}$；
+- 当 $a+b<0$ 时，两端向下无限延伸，故有最大值，最大值为 $\max\{f(m), f(n)\}$；
+- 当 $a+b=0$ 时，两端无限延伸且平行于 $x$ 轴，故既有最大值又有最小值，最大值为 $\max\{f(m), f(n)\}$，最小值为 $\min\{f(m), f(n)\}$。
 
 更复杂的，$f(x) = |x-a_1| + |x-a_2| + \cdots + |x-a_n|$（$a_i \in \mathbb{R}, i, n \in \mathbb{N}^*$, 设 $a_1 < a_2 < \cdots < a_n$）。
 
@@ -101,13 +101,13 @@ $a|x-m|+b|x-n|(m<n)$ 的图像是以 $A(m, f(m))$，$B(n, f(n))$ 为折点的折
 
   - 当且仅当 $x=a_k$ 时，$[f(x)]_{\min} = |(a_1 + a_2 + \cdots + a_{k-1}) - (a_{k+1} + a_{k+2} + \cdots + a_{2k-1})|$；
 
-  - 函数 $f(x)$ 在 $(-\infty, a_k]$ 上单调递减，在 $[a_k, +\infty)$ 上单调递增，若 ${a_i}$ 为等差数列，则图像关于 $x=a_k$ 对称。
+  - 函数 $f(x)$ 在 $(-\infty, a_k]$ 上单调递减，在 $[a_k, +\infty)$ 上单调递增，若 $\{a_i\}$ 为等差数列，则图像关于 $x=a_k$ 对称。
 
 - 若 $n=2k(k \in \mathbb{N}^*)$，则 $f(x)$ 的图像是以点 $A(a_k, f(a_k))$, $B(a_{k+1}, f(a_{k+1}))$ 为折点的倒梯形。
 
   - 当且仅当 $x \in [a_k, a_{k+1}]$ 时，$[f(x)]_{\min} = |(a_1+a_2+\cdots+a_k) - (a_{k+1}+a_{k+2}+\cdots+a_{2k})|$；
 
-  - 函数 $f(x)$ 在 $(-\infty, a_k]$ 上单调递减，在 $[a_{k+1}, +\infty)$ 上单调递增，在 $[a_k, a_{k+1}]$ 上无单调性。若 ${a_i}$ 为等差数列，则函数图像关于 $x=\dfrac{a_k+a_{k+1}}{2}$ 对称。
+  - 函数 $f(x)$ 在 $(-\infty, a_k]$ 上单调递减，在 $[a_{k+1}, +\infty)$ 上单调递增，在 $[a_k, a_{k+1}]$ 上无单调性。若 $\{a_i\}$ 为等差数列，则函数图像关于 $x=\dfrac{a_k+a_{k+1}}{2}$ 对称。
 
 ### 三角不等式 {#_7}
 
@@ -132,7 +132,7 @@ $$
 若 $a,b>0$，则：
 
 $$
-\begin{aligned} H_n&\le&G_n&\le&A_n&\le&Q_n\ \frac{n}{\sum_{i=1}^n{1\over x_i}}&\le&\sqrt[n]{\textstyle\prod_{i=1}^nx_i}&\le&\frac{\sum_{i=1}^nx_i}{n}&\le&\sqrt[2]{\frac{\sum_{i=1}^nx_i^2}{n}} \end{aligned}
+\begin{aligned} H_n&\le&G_n&\le&A_n&\le&Q_n\\ \frac{n}{\sum_{i=1}^n{1\over x_i}}&\le&\sqrt[n]{\textstyle\prod_{i=1}^nx_i}&\le&\frac{\sum_{i=1}^nx_i}{n}&\le&\sqrt[2]{\frac{\sum_{i=1}^nx_i^2}{n}} \end{aligned}
 $$
 
 当且仅当 $x_1=x_2=\dots=x_n$ 时，等号成立。
@@ -157,7 +157,7 @@ $$
 
 ### 对勾函数 {#_11}
 
-对于定义在 $\R-{0}$ 的函数
+对于定义在 $\R-\{0\}$ 的函数
 
 $$
 f(x)=ax+\dfrac{b}{x}
@@ -294,7 +294,7 @@ $$
 具体的，例如已知 $ax+by=C$，则
 
 $$
-\begin{aligned} \dfrac{c}{x}+\dfrac{d}{y}&=\dfrac{1}{C}(ax+by)\paren{\dfrac{c}{x}+\dfrac{d}{y}}\ &=\dfrac{1}{C}\left(ac+bd+ad\dfrac{x}{y}+bc\dfrac{y}{x}\right)\ &\ge\dfrac{1}{C}\left(ac+bd+2\sqrt{ad\cdot bc}\right)\ &=\dfrac{1}{C}\left(\sqrt{ac}+\sqrt{bd}\right)^2\ \end{aligned}
+\begin{aligned} \dfrac{c}{x}+\dfrac{d}{y}&=\dfrac{1}{C}(ax+by)\paren{\dfrac{c}{x}+\dfrac{d}{y}}\\ &=\dfrac{1}{C}\left(ac+bd+ad\dfrac{x}{y}+bc\dfrac{y}{x}\right)\\ &\ge\dfrac{1}{C}\left(ac+bd+2\sqrt{ad\cdot bc}\right)\\ &=\dfrac{1}{C}\left(\sqrt{ac}+\sqrt{bd}\right)^2\\ \end{aligned}
 $$
 
 当 $x,y>0$ 时，等号当且仅当 $ad\dfrac{x}{y}=bc\dfrac{y}{x}$ 即 $\dfrac{x}{y}=\sqrt{\dfrac{bc}{ad}}$。
@@ -392,7 +392,7 @@ $\sum_{i=1}^{n} x_i \ne 1$，则上述结论不成立，为了简化，我们只
 $\left(a+\dfrac{1}{a}\right)\left(b+\dfrac{1}{b}\right)$ 的最小值为
 
 $$
-\begin{cases} \left(\dfrac{k}{2} + \dfrac{2}{k}\right)^2, & 0 < k \le 2\sqrt{2+\sqrt{5}} \ 2\sqrt{1+k^2}-2, & k > 2\sqrt{2+\sqrt{5}} \end{cases}
+\begin{cases} \left(\dfrac{k}{2} + \dfrac{2}{k}\right)^2, & 0 < k \le 2\sqrt{2+\sqrt{5}} \\ 2\sqrt{1+k^2}-2, & k > 2\sqrt{2+\sqrt{5}} \end{cases}
 $$
 
 :::
@@ -430,7 +430,7 @@ $$
 方法三：我们知道 $\dfrac{1}{y}+\dfrac3x=5$，因此
 
 $$
-\begin{aligned} 3x+4y&=\dfrac15(3x+4y)\paren{\dfrac3x+\dfrac1y}\ &=\dfrac15\paren{13+12\dfrac yx+3\dfrac xy}\ge5 \end{aligned}
+\begin{aligned} 3x+4y&=\dfrac15(3x+4y)\paren{\dfrac3x+\dfrac1y}\\ &=\dfrac15\paren{13+12\dfrac yx+3\dfrac xy}\ge5 \end{aligned}
 $$
 
 :::
@@ -454,7 +454,7 @@ $$
 已知 $0<x<1$，则 $\dfrac9x+\dfrac{16}{1-x}$ 的最小值为？
 
 $$
-\begin{aligned} \dfrac9x+\dfrac{16}{1-x}&=\paren{\dfrac9x+\dfrac{16}{1-x}}[(x)+(1-x)]\ &=25+9\dfrac{1-x}x+16\dfrac x{1-x}\ge49 \end{aligned}
+\begin{aligned} \dfrac9x+\dfrac{16}{1-x}&=\paren{\dfrac9x+\dfrac{16}{1-x}}[(x)+(1-x)]\\ &=25+9\dfrac{1-x}x+16\dfrac x{1-x}\ge49 \end{aligned}
 $$
 
 :::
@@ -474,7 +474,7 @@ $$
 且使得
 
 $$
-\begin{cases} \lambda+2\mu&=8\ 3\lambda+\mu&=9 \end{cases}
+\begin{cases} \lambda+2\mu&=8\\ 3\lambda+\mu&=9 \end{cases}
 $$
 
 解得 $\lambda=2,\mu=3$，因此

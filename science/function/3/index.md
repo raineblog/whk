@@ -126,12 +126,12 @@ $$
 
 其他对称模型：
 
-- $\displaystyle f(x)=\frac{ax+b}{cx+d}$ 的对称中心 $\displaystyle\left(-\frac{d}{c},\frac{a}{c}\right)$。注意到该函数的定义域为 $\displaystyle\left{x\mid x\neq - \frac{d}{c}\right}$，值域是 $\displaystyle\left{x\mid x\neq\frac{a}{c}\right}$。
+- $\displaystyle f(x)=\frac{ax+b}{cx+d}$ 的对称中心 $\displaystyle\left(-\frac{d}{c},\frac{a}{c}\right)$。注意到该函数的定义域为 $\displaystyle\left\{x\mid x\neq - \frac{d}{c}\right\}$，值域是 $\displaystyle\left\{x\mid x\neq\frac{a}{c}\right\}$。
 
 - 任何一个函数 $f(x)$ 都可以拆分为一个奇函数 $F(x)$ 和一个偶函数 $G(x)$ 的和。
 
   $$
-  \begin{cases} F(x)&=\dfrac{f(x)-f(-x)}{2}\ G(x)&=\dfrac{f(x)+f(-x)}{2} \end{cases}
+  \begin{cases} F(x)&=\dfrac{f(x)-f(-x)}{2}\\ G(x)&=\dfrac{f(x)+f(-x)}{2} \end{cases}
   $$
 
 - $\displaystyle f(x+a)=\frac{1+f(x)}{1-f(x)} \implies T=4a$。
@@ -179,7 +179,7 @@ $$
 一元二次方程的根往往会有各种限制，比如两根都为正、两根都为负等。这类问题需要综合考虑开口方向、对称轴、根的判别式以及韦达定理才能准确求解，例如有两个不同的正根
 
 $$
-\iff\begin{cases}\Delta>0\x_1+x_2>0\x_1x_2>0\end{cases}
+\iff\begin{cases}\Delta>0\\x_1+x_2>0\\x_1x_2>0\end{cases}
 $$
 
 同时，一定情况下也可以用参变分离解决，例如 $ax^2+2x+1$ 至少有一个正根，则：
@@ -199,7 +199,7 @@ $$
 如果要求 $f(x)=ax^2+bx+c(a\neq0)$ 有两个大于 $r$ 的实根，容易想到，构造函数 $g(x)=f(x+r)$，对 $g(x)$ 应用两个实根大于 $0$，但是这样比较复杂，我们进行一次模拟：
 
 $$
-\begin{cases} \Delta>0\ (x_1-r)+(x_2-r)>0\ (x_1-r)(x_2-r)>0 \end{cases}
+\begin{cases} \Delta>0\\ (x_1-r)+(x_2-r)>0\\ (x_1-r)(x_2-r)>0 \end{cases}
 $$
 
 注意到第二个相当于：
@@ -211,7 +211,7 @@ $$
 而第三个则为：
 
 $$
-\begin{aligned} x_1x_2-r(x_1+x_2)+r^2&>0\ \dfrac{c}{a}+\dfrac{br}{a}+r^2&>0 \end{aligned}
+\begin{aligned} x_1x_2-r(x_1+x_2)+r^2&>0\\ \dfrac{c}{a}+\dfrac{br}{a}+r^2&>0 \end{aligned}
 $$
 
 也就是：
@@ -223,19 +223,19 @@ $$
 因此，我们把条件转化为：
 
 $$
-\begin{cases} \Delta>0\ x_1+x_2>2r\ af(r)>0 \end{cases}
+\begin{cases} \Delta>0\\ x_1+x_2>2r\\ af(r)>0 \end{cases}
 $$
 
 另外，如果有两个不同的实根，在区间 $(p,q)$ 内，那么：
 
 $$
-\iff\begin{cases} \Delta>0\ 2p<-\dfrac{b}{a}<2q\ af(p)>0\ af(q)>0 \end{cases}
+\iff\begin{cases} \Delta>0\\ 2p<-\dfrac{b}{a}<2q\\ af(p)>0\\ af(q)>0 \end{cases}
 $$
 
 二次方程 $f(x) = ax^2 + bx + c = 0(a \neq 0)$ 在区间 $(p,q)$，$(m,n)$ 内各有一个实数根，若 $a$ 的正负不确定，则其等价条件为
 
 $$
-\begin{cases} f(p)f(q) < 0 \ f(m)f(n) < 0 \end{cases}
+\begin{cases} f(p)f(q) < 0 \\ f(m)f(n) < 0 \end{cases}
 $$
 
 若已知 $a$ 的正负，则只需具体考虑端点处函数值的正负。
@@ -264,17 +264,17 @@ $$
 
 - 下取整函数 $f(x) = [x]$，其中 $[x]$ 表示不超过 $x$ 的最大整数，例如 $[1.2] = 1$，$[-1.2] = -2$，$[2] = 2$。
 
-- 上取整函数 $f(x) = {x}$，其中 ${x}$ 表示不小于 $x$ 的最小整数，例如 ${1.1} = 2$，${-1.1} = -1$，${2} = 2$。
+- 上取整函数 $f(x) = \{x\}$，其中 $\{x\}$ 表示不小于 $x$ 的最小整数，例如 $\{1.1\} = 2$，$\{-1.1\} = -1$，$\{2\} = 2$。
 
 - 非负小数部分函数 $f(x) = x - [x]$。非负小数部分函数是一个周期为 $1$，值域为 $[0, 1)$ 的周期函数。
 
-::img[alt text]{src="../image-3.avif" width="80%"}
+![alt text](../image-3.avif#class="custom-img";float=80%"
 
 基本性质：
 
 - 下取整函数满足 $x - 1 < [x] \le x$，$[x] \le x < [x] + 1$。
 
-- 上取整函数满足 $x \le {x} < x+1$，${x} - 1 < x \le {x}$。
+- 上取整函数满足 $x \le \{x\} < x+1$，$\{x\} - 1 < x \le \{x\}$。
 
 形如 $[f(x)] = g(x)$ 方程的一般解法：
 
@@ -284,9 +284,9 @@ $$
 
 常见函数：
 
-::img[alt text]{src="../geogebra-export.svg"}
+![alt text](../geogebra-export.svg#class="custom-img"
 
-::img[alt text]{src="../geogebra-export (2).svg"}
+![alt text](../geogebra-export (2).svg#class="custom-img"
 
 ### 函数构造 {#_10}
 
@@ -521,7 +521,7 @@ $$
 
 - 若函数 $f(x)$ 在区间 $D$ 上单调递增，且 $f'(x)\ge0$，不能说明使得 $f'(x)=0$ 的点是有限的，例如 $f(x)=x-\sin x$。
 
-- 在高中阶段，排除掉常函数，大部分函数都可以用 $f'(x)\ge0$ 或 $f'(x)\le0$ 判断单调性，例如 $f(x) = \begin{cases} e^{-1/x} & \text{if } x > 0 \ 0 & \text{if } x \le 0 \end{cases}$。
+- 在高中阶段，排除掉常函数，大部分函数都可以用 $f'(x)\ge0$ 或 $f'(x)\le0$ 判断单调性，例如 $f(x) = \begin{cases} e^{-1/x} & \text{if } x > 0 \\ 0 & \text{if } x \le 0 \end{cases}$。
 
 复合函数的单调性：满足同增异减，即单调性相同则为单增函数，单调性不同则为单减函数。
 
@@ -689,7 +689,7 @@ $$
 还有另外的表述，可以拆绝对值推导：
 
 $$
-\begin{aligned} \max{a,b}&=\dfrac{a+b}{2}+\dfrac{|a-b|}{2}\ \min{a,b}&=\dfrac{a+b}{2}-\dfrac{|a-b|}{2} \end{aligned}
+\begin{aligned} \max\{a,b\}&=\dfrac{a+b}{2}+\dfrac{|a-b|}{2}\\ \min\{a,b\}&=\dfrac{a+b}{2}-\dfrac{|a-b|}{2} \end{aligned}
 $$
 
 ### 交点问题 {#_27}
@@ -698,7 +698,7 @@ $$
 
 容易想到，我们做出图来，然后根据图像解决，注意，一定要小心有的时候直线可能会与曲线凸出来的部分相交或相切，而不一定是在拐点上，如图。
 
-::img[alt text]{src="../image-7.avif" width="60%"}
+![alt text](../image-7.avif#class="custom-img";float=60%"
 
 虽然交点个数往往可以转化为零点问题，但是这类问题往往在代数上很难算，只能数形结合，简化问题后再带入计算。
 
@@ -838,7 +838,7 @@ $$
 然后，我们先对端点进行判断，判断端点是不是零点，假设要求的区间是 $(a,b)$ 然后列出：
 
 $$
-\dots,\begin{cases} f'''(a)&=0\ f'''(b)&=0\ \end{cases},\begin{cases} f''(a)&=0\ f''(b)&=0\ \end{cases},\begin{cases} f'(a)&=0\ f'(b)&=0\ \end{cases}
+\dots,\begin{cases} f'''(a)&=0\\ f'''(b)&=0\\ \end{cases},\begin{cases} f''(a)&=0\\ f''(b)&=0\\ \end{cases},\begin{cases} f'(a)&=0\\ f'(b)&=0\\ \end{cases}
 $$
 
 解出对应的 $x$ 后，按照这些 $x$ 将区间 $(a,b)$ 分类讨论，就可以比较容易的判断出每一个区间的函数、导函数及其导函数的单调性、符号了。
@@ -848,7 +848,7 @@ $$
 首先，我们发现 $f(0)=1,f(1)=0$。
 
 $$
-\begin{aligned} f'(x)&=e^x-e-a(2x-1)\ f''(x)&=e^x-2a \end{aligned}
+\begin{aligned} f'(x)&=e^x-e-a(2x-1)\\ f''(x)&=e^x-2a \end{aligned}
 $$
 
 - 令 $f'(0)=0$，解得 $a=e-1$。
@@ -866,7 +866,7 @@ $$
 找一个点满足 $f(x)-g(x)>0$，我们将其转化为 $f(x)>g(x)$，然后在里面插入一个 $\alpha\in(g(x),f(x))$ 使得 $f(x)>\alpha>g(x)$，然后解方程组
 
 $$
-\begin{cases}f(x)&>\alpha\ g(x)&<\alpha\end{cases}
+\begin{cases}f(x)&>\alpha\\ g(x)&<\alpha\end{cases}
 $$
 
 其中 $\alpha$ 可以任意选，但一般挑选一个合适的数，我们就可以在解集内任意找一个使得 $f(x)-g(x)>0$ 的 $x$ 了。
@@ -881,7 +881,7 @@ $$
 
 假设我们目前的近似解是 $x_i$，我们画出与 $f(x)$ 切于点 $(x_i,f(x_i))$ 的直线 $l$，将 $l$ 与 $x$ 轴的交点横坐标记为 $x_{i+1}$，那么这就是一个更优的近似解。重复这个迭代的过程。
 
-::img[alt text]{src="../image-5.avif" width="60%"}
+![alt text](../image-5.avif#class="custom-img";float=60%"
 
 根据导数的几何意义，可以得到如下关系：
 
@@ -897,4 +897,4 @@ $$
 
 直观地说，如果 $f(x)$ 比较平滑，那么随着迭代次数的增加，$x_i$ 会越来越逼近方程的解。
 
-牛顿迭代法的收敛率是平方级别的，这意味着每次迭代后近似解的精确数位会翻倍。关于牛顿迭代法的收敛性证明可参考 [citizendium - Newton method Convergence analysis](http://en.citizendium.org/wiki/Newton's_method#Convergence_analysis)。当然牛顿迭代法也同样存在着缺陷，详情参考 [Xiaolin Wu - Roots of Equations 第 $18 \sim 20$ 页分析](https://www.ece.mcmaster.ca/~xwu/part2.pdf)。
+牛顿迭代法的收敛率是平方级别的，这意味着每次迭代后近似解的精确数位会翻倍。关于牛顿迭代法的收敛性证明可参考 [citizendium - Newton method Convergence analysis](http://en.citizendium.org/wiki/Newton's_method#Convergence_analysis)。当然牛顿迭代法也同样存在着缺陷，详情参考 [Xiaolin Wu - Roots of Equations 第 $18 \\sim 20$ 页分析](https://www.ece.mcmaster.ca/~xwu/part2.pdf)。

@@ -191,7 +191,7 @@ $$
 
 在常温下 $K_w=\pu{1E-14}$，也就是说 $\con{H+}=\con{OH-}=\pu{1E-7}$。而在接近沸腾的水中，一般取 $\pu{E-12}$ 左右。
 
-::img[alt text]{src="../image-3.avif" width="100%"}
+![alt text](../image-3.avif#class="custom-img";float=100%"
 
 在这一部分中，我们考虑六个经典问题（三个定性、两个定量和一个备注）：
 
@@ -328,12 +328,12 @@ $$
 亨德森---哈塞尔巴尔赫方程的推导：
 
 $$
-\begin{aligned} \pH&=-\lg\con{H+}\ &=-\lg\paren{\dfrac{\con{H+}\con{A-}}{\con{HA}}\cdot\dfrac{\con{HA}}{\con{A-}}}\ &=pK_a+\lg\dfrac{\con{A-}}{\con{HA}} \end{aligned}
+\begin{aligned} \pH&=-\lg\con{H+}\\ &=-\lg\paren{\dfrac{\con{H+}\con{A-}}{\con{HA}}\cdot\dfrac{\con{HA}}{\con{A-}}}\\ &=pK_a+\lg\dfrac{\con{A-}}{\con{HA}} \end{aligned}
 $$
 
 对于弱碱 $\ce{BOH}$ 也进行类似的操作即可。
 
-::img[alt text]{src="../image-4.avif" width="100%"}
+![alt text](../image-4.avif#class="custom-img";float=100%"
 
 - 这种两种含有相同离子的盐（或酸、碱）溶于水时，它们的溶解度都会降低，这种现象叫做**同离子效应**，其本质是平衡的移动。
 
@@ -343,7 +343,7 @@ $$
 
 我们知道 $K_a$ 越大酸性越强，但是 $pK_a$ 越小。
 
-::img[alt text]{src="../pka.svg" width="90%"}
+![alt text](../pka.svg#class="custom-img";float=90%"
 
 |    酸    |      化学式       |  $pK_a$  |     |   酸   |    化学式     | $pK_a$ |
 |:--------:|:-----------------:|:--------:|-----|:------:|:-------------:|:------:|
@@ -387,7 +387,7 @@ $$
 我们知道，对于 $\pH=a$ 的稀盐酸，其氢离子浓度为 $10^{-a}\space\pu{mol/L}$，因为氨水可以看作氨气溶于水，氨气与氯化氢的反应是 $1:1$ 的，因此氨水的浓度也为 $10^{-a}\space\pu{mol/L}$，而氨水的 $\pH=b$ 也就是说 $\pOH=b-14$，列出方程
 
 $$
-\begin{aligned} \con{OH-}&=\alpha(\ce{NH3*H2O})\con{NH3*H2O}\ 10^{b-14}&=\alpha(\ce{NH3*H2O})\cdot10^{-a} \end{aligned}
+\begin{aligned} \con{OH-}&=\alpha(\ce{NH3*H2O})\con{NH3*H2O}\\ 10^{b-14}&=\alpha(\ce{NH3*H2O})\cdot10^{-a} \end{aligned}
 $$
 
 因此
@@ -534,7 +534,7 @@ $$
 
 质子守恒：
 
-::img[alt text]{src="../image-7.avif" width="90%"}
+![alt text](../image-7.avif#class="custom-img";float=90%"
 
 三大守恒式及其书写：
 
@@ -645,13 +645,13 @@ $$
 我们有下面的顺序，等体积、等浓度 $\pH$ 由大到小排序（第三行是相等）：
 
 $$
-\begin{array}{rrrr} \ce{H2SO4} & \ce{HCl} & \ce{HAc} \[0.5em] \ce{(NH4)2SO4} & \ce{NH4Cl} \[0.5em] \ce{Na2SO4} & \ce{NaCl} \[0.5em] \ce{NaAc} & \ce{NaHCO3} & \ce{NaClO} & \ce{Na2CO3} \[0.5em] \ce{NH3`H2O} & \ce{NaOH} & \ce{Ba(OH)2} \end{array}
+\begin{array}{rrrr} \ce{H2SO4} & \ce{HCl} & \ce{HAc} \\[0.5em] \ce{(NH4)2SO4} & \ce{NH4Cl} \\[0.5em] \ce{Na2SO4} & \ce{NaCl} \\[0.5em] \ce{NaAc} & \ce{NaHCO3} & \ce{NaClO} & \ce{Na2CO3} \\[0.5em] \ce{NH3`H2O} & \ce{NaOH} & \ce{Ba(OH)2} \end{array}
 $$
 
 在此之后，我们如果想要定量判断，就需要用到三大守恒。例如，我们设想向醋酸钠溶液中不断加入氢氧化钠固体，问溶液离子浓度的变化趋势：
 
 $$
-\begin{array}{r|l} \con{Na+} > \con{AC-} > \con{OH-} > \con{H+} & \downarrow \[0.5em] \con{Na+} > \con{AC-} = \con{OH-} > \con{H+} & \downarrow \[0.5em] \con{Na+} > \con{OH-} > \con{AC-} > \con{H+} & \downarrow \[0.5em] \con{Na+} = \con{OH-} > \con{AC-} = \con{H+} & \downarrow \[0.5em] \con{OH-} > \con{Na+} > \con{H+} > \con{AC-} \end{array}
+\begin{array}{r|l} \con{Na+} > \con{AC-} > \con{OH-} > \con{H+} & \downarrow \\[0.5em] \con{Na+} > \con{AC-} = \con{OH-} > \con{H+} & \downarrow \\[0.5em] \con{Na+} > \con{OH-} > \con{AC-} > \con{H+} & \downarrow \\[0.5em] \con{Na+} = \con{OH-} > \con{AC-} = \con{H+} & \downarrow \\[0.5em] \con{OH-} > \con{Na+} > \con{H+} > \con{AC-} \end{array}
 $$
 
 最后溶液会无限趋近于 *纯* 的氢氧化钠溶液，因此最后一个一定是氢氧化钠溶液的离子浓度大小顺序（再加上无限小的醋酸根）。
@@ -973,15 +973,15 @@ $$
 
 - 等体积等浓度：
 
-  ::img[alt text]{src="../image-1.avif" width="100%"}
+  ![alt text](../image-1.avif#class="custom-img";float=100%"
 
-  ::img[alt text]{src="../image-5.avif" width="100%"}
+  ![alt text](../image-5.avif#class="custom-img";float=100%"
 
 - 等体积等 $\pH$：
 
-  ::img[alt text]{src="../image-2.avif" width="100%"}
+  ![alt text](../image-2.avif#class="custom-img";float=100%"
 
-  ::img[alt text]{src="../image-6.avif" width="100%"}
+  ![alt text](../image-6.avif#class="custom-img";float=100%"
 
 判断 $\dfrac{\con{A}}{\con{B}}$ 的变化：
 

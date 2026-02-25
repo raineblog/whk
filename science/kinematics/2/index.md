@@ -103,7 +103,7 @@ $$
 把已知量打对钩，要求的打问号，例如：
 
 $$
-\begin{cases} v_0&\checkmark\ v_t&\checkmark\ a&\,?\,\ t&\checkmark\ x& \end{cases}
+\begin{cases} v_0&\checkmark\\ v_t&\checkmark\\ a&\,?\,\\ t&\checkmark\\ x& \end{cases}
 $$
 
 于是考虑用少 $x$ 的公式，即 $v_t=v_0+at$。
@@ -176,19 +176,19 @@ $$
 
 - 常规图像：
 
-  ::img[alt text]{src="../image-4.avif"}
+  ![alt text](../image-4.avif#class="custom-img"
 
-  ::img[alt text]{src="../image-5.avif"}
+  ![alt text](../image-5.avif#class="custom-img"
 
 - 特殊图像 $\dfrac{x}{t}-t$ 图像：由 $x=v_0t+\dfrac{1}{2}at^2$ 可得 $\dfrac{x}{t}=v_0+\dfrac12at$，图线斜率为 $\dfrac12a$，图像纵截距为初速度，如图 a。
 
   特殊图像 $v^2-x$ 图像：由 $v^2-v_0^2=2ax$ 可得 $v^2=v_0^2+2ax$，图线斜率为 $2a$，图像纵截距为初速度的二次方，如图 b。
 
-  ::img[alt text]{src="../image-6.avif" width="70%"}
+  ![alt text](../image-6.avif#class="custom-img";float=70%"
 
 - 特殊图像 $a-x$ 图像：由 $v^2-v_0^2=2ax$ 可得 $ax=\dfrac{v^2-v_0^2}{2}$，图线与 $x$ 轴所围成面积表示速度平方的变化量的一半，如图 c。
 
-  ::img[alt text]{src="../image-8.avif" width="30%"}
+  ![alt text](../image-8.avif#class="custom-img";float=30%"
 
 注意声明正方向。
 
@@ -267,13 +267,13 @@ $$
 则运动方程：
 
 $$
-\begin{aligned} x_A&=v_At&&={I\over m}t\ x_B&=a+\dfrac{1}{2}at^2&&=a+\dfrac{1}{2}{F\over m}t^2 \end{aligned}
+\begin{aligned} x_A&=v_At&&={I\over m}t\\ x_B&=a+\dfrac{1}{2}at^2&&=a+\dfrac{1}{2}{F\over m}t^2 \end{aligned}
 $$
 
 球 $A$ 不超越 $B$，即 $x_B$ 恒大于 $x_A$：
 
 $$
-\begin{aligned} x_B>x_A\ a+\dfrac{1}{2}{F\over m}t^2>{I\over m}t\ 2am+Ft^2>2It \end{aligned}
+\begin{aligned} x_B>x_A\\ a+\dfrac{1}{2}{F\over m}t^2>{I\over m}t\\ 2am+Ft^2>2It \end{aligned}
 $$
 
 得到：
@@ -285,5 +285,5 @@ $$
 因为 $F>0$，此式恒成立的条件为 $\Delta<0$，即：
 
 $$
-\begin{aligned} 4I^2-8maF<0\ I^2<2maF \end{aligned}
+\begin{aligned} 4I^2-8maF<0\\ I^2<2maF \end{aligned}
 $$
