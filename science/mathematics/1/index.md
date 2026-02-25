@@ -228,7 +228,7 @@ $$
 
 其中 $\xi_0=1$，也就是实数情况下的平凡解。
 
-![alt text](../image.avif){width="60%"}
+::img[alt text]{src="../image.avif" width="60%"}
 
 根据恒等式：
 
@@ -278,7 +278,7 @@ $$
 
 但是，虚数的运算不完全遵守其直观的位置向量的运算，尤其是乘法。
 
-![](../z7qf3jtc.avif)
+::img{src="../z7qf3jtc.avif"}
 
 ### 模长幅角 {#_9}
 

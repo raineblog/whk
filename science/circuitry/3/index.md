@@ -21,12 +21,12 @@
 通常情况下的原电池特指**伽伐尼电池**（或称**伏打电池**），其进行氧化还原反应将化学能转为电能，而提供电能的电化电池，属于一种原电池。
 
 <figure>
-<p><img src="../CNX_Chem_17_02_Galvanicel.avif" style="width:80.0%" /></p>
+
 <figcaption><p>一个经典的由盐桥相连的原电池</p></figcaption>
 </figure>
 
 <figure>
-<p><img src="../Galvanic_cell_with_no_cation_flow.svg" style="width:80.0%" /></p>
+
 <figcaption><p>一个经典的由多孔物相连的原电池</p></figcaption>
 </figure>
 
@@ -90,7 +90,7 @@
 
 电解池通常使用的电流都达数百安培，材料的电镀和金属的精炼也通过电解池进行。
 
-![](../Chloralkali_membrane.avif){width="90%"}
+::img{src="../Chloralkali_membrane.avif" width="90%"}
 
 - 与电源的正极相连的电极为阳极，阳极带正电荷，吸引带负电的离子在阳极上失去电子，形成气体逸出。
 
@@ -142,7 +142,7 @@
 
 标准氢电极（简称 SHE），是构成标准电极电势（$E^0$）基准的工作电极。
 
-![](../Standard_hydrogen_electrode_2009-02-06.svg){align="right" width="30%"}
+::img{src="../Standard_hydrogen_electrode_2009-02-06.svg" align="right" width="30%"}
 
 $$
 \ce{2H+(aq) + 2e- -> H2(g)}

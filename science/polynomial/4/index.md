@@ -1,8 +1,8 @@
 # 导数不等式 {#_1}
 
-![alt text](../image.avif)
+::img[alt text]{src="../image.avif"}
 
-![alt text](../image-1.avif)
+::img[alt text]{src="../image-1.avif"}
 
 ## 导数方法 {#_2}
 
@@ -758,9 +758,9 @@ $$
 
 当且仅当 $x=1$ 时取等，我们对两边同时求积分，如图左。为了使两边依旧在 $x=1$ 时取等，我们将 $\ln x$ 的积分 $(\ln x-1)x$ 修正为其加 $\dfrac{1}{2}$，如图右
 
-![alt text](../desmos-graph (2).svg)
+::img[alt text]{src="../desmos-graph (2).svg"}
 
-![alt text](../desmos-graph.svg)
+::img[alt text]{src="../desmos-graph.svg"}
 
 利用求导也可以证明下面的不等式：
 
@@ -984,7 +984,7 @@ $$
 
 我们在证明形如 $x_1+x_2>m$ 或 $x_1x_2>m$ 的式子成立时，可以尝试将待证的不等式在形式上进行转化，转而证明转化后的不等式 $x_1>m-x_2$ 或 $x_1>\dfrac{m}{x_2}$ 成立，之后利用函数的单调性，转化为函数值之间的关系，即 $f(x_1)$ 与 $f(m-x_2)$ 或 $f\left(\dfrac{m}{x_2}\right)$ 进行比较。
 
-![alt text](../image-6.avif)
+::img[alt text]{src="../image-6.avif"}
 
 使用构造类对称法解此题时，首先要注意变量的取值范围，我们需要保证构造后不等号两边的变量取值在同一区间内，然后才能使用单调性进行证明。
 

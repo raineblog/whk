@@ -886,7 +886,7 @@ $$
 
 卡特兰数可以表示一类组合问题，
 
-![](https://cdn.luogu.com.cn/upload/image_hosting/s1kfe1dc.png)
+::img{src="https://cdn.luogu.com.cn/upload/image_hosting/s1kfe1dc.png"}
 
 其情景有，
 

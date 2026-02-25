@@ -1,6 +1,6 @@
 # 微积分 {#_1}
 
-![alt text](../image-6.avif)
+::img[alt text]{src="../image-6.avif"}
 
 ## 积分 {#_2}
 
