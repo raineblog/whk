@@ -24,31 +24,31 @@ $$
 观察到是角的二次齐次式，且都是正弦，考虑正弦定理，
 
 $$
-(\sin B-\sin C)^2=\sin^2 A-\sin B\sin C\ (b-c)^2=a^2-bc\ b^2+c^2-2bc=a^2-bc\ a^2=b^2+c^2-bc
+(\sin B-\sin C)^2=\sin^2 A-\sin B\sin C\\\ (b-c)^2=a^2-bc\\\ b^2+c^2-2bc=a^2-bc\\\ a^2=b^2+c^2-bc
 $$
 
 于是，
 
 $$
-\cos A=\{b^2+c^2-a^2\over2bc}=\{1\over2}\ A=60^\circ
+\cos A=\{b^2+c^2-a^2\over2bc}=\{1\over2}\\\ A=60^\circ
 $$
 
 观察到 $\sqrt2a + b= 2c$ 为边的一次齐次，考虑用正弦定理。
 
 $$
-\sqrt2a+b=2c\ \sqrt2\sin A+\sin B=2\sin C
+\sqrt2a+b=2c\\\ \sqrt2\sin A+\sin B=2\sin C
 $$
 
 根据上一问，$\sin A=\sin60^\circ=\sqrt3/2$，
 
 $$
-\sqrt6/2+\sin B=2\sin C\ \sqrt6/2+\sin(120-C)=2\sin C\ \sqrt6/2+\sqrt3/2\cos C+\sin C/2=2\sin C
+\sqrt6/2+\sin B=2\sin C\\\ \sqrt6/2+\sin(120-C)=2\sin C\\\ \sqrt6/2+\sqrt3/2\cos C+\sin C/2=2\sin C
 $$
 
 继续整理，
 
 $$
-\{\sqrt6\over2}+\{\sqrt3\over2}\cos C+\{1\over2}\sin C=2\sin C\ \{3\over2}\sin C-\{\sqrt3\over2}\cos C=\{\sqrt6\over2}\ \{\sqrt3\over2}\sin C-\{1\over2}\cos C=\{\sqrt2\over2}\ \sin C\cos30^\circ-\cos C\sin30^\circ=\{\sqrt2\over2}\ \sin(C-30^\circ)=\{\sqrt2\over2}=\sin45^\circ
+\{\sqrt6\over2}+\{\sqrt3\over2}\cos C+\{1\over2}\sin C=2\sin C\\\ \{3\over2}\sin C-\{\sqrt3\over2}\cos C=\{\sqrt6\over2}\\\ \{\sqrt3\over2}\sin C-\{1\over2}\cos C=\{\sqrt2\over2}\\\ \sin C\cos30^\circ-\cos C\sin30^\circ=\{\sqrt2\over2}\\\ \sin(C-30^\circ)=\{\sqrt2\over2}=\sin45^\circ
 $$
 
 因为 $C \in (0^\circ,120 ^\circ)$，$C-30^\circ\in(-30^\circ,90^\circ)$，因此，
@@ -71,7 +71,7 @@ $$
 不考虑 $\sin A$ 是边的二次齐次式，于是应用正弦定理，
 
 $$
-2\sin B\sin A-\sqrt2\sin A=0\ 2\sin B=\sqrt3\ \sin B=\sqrt3/2
+2\sin B\sin A-\sqrt2\sin A=0\\\ 2\sin B=\sqrt3\ \sin B=\sqrt3/2
 $$
 
 因为 $\angle B$ 是锐角，
@@ -532,7 +532,7 @@ $$
 经典题，因为角不好表示，上式又是边的二次齐次式，考虑，
 
 $$
-\cos A=\{b^2+c^2-a^2\over2bc}=\{c^2-bc\over2bc}=\{c-b\over2b}\
+\cos A=\{b^2+c^2-a^2\over2bc}=\{c^2-bc\over2bc}=\{c-b\over2b}\\
 $$
 
 $$

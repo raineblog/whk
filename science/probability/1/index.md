@@ -59,6 +59,5 @@ $$
 
 ### \[TODO]
 
-::img\[alt text]\{src="../image.avif"}
-
-::img\[alt text]\{src="../image-1.avif"}
+![alt text](/static/image/image.dd0c575e6c.avif)
+![alt text](/static/image/image-1.5f5c34aad2.avif)

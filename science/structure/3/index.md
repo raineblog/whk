@@ -50,8 +50,7 @@
 
 - 环与 $\pi$ 键均限制旋转，因此决定了顺式与逆式的差别。
 
-::img\[共价键模型]\{src="../共价键模型.avif" width="70%"}
-
+![共价键模型](/static/image/共价键模型.269b1f3946.avif)
 |  共价键类型  | $\sigma$ 键 |  $\pi$ 键  |
 | :-----: | :--------: | :-------: |
 | 电子云重叠方式 |  沿键轴方向相对重叠 | 沿键轴方向平行重叠 |
@@ -74,16 +73,14 @@
 
 在常温差压下（$\pu\{1\times10^5 Pa, 298 K}$），断开 $\pu\{1 mol} \ce\{AB(g)}$ 分子中的化学键，使其分别生成气态 $\ce A$ 原子和气态 $\ce B$ 原子所吸收的能量称为 $\ce\{A-B}$ 键的键能，常用 $E\_\{\ce\{A-B}}$ 表示。
 
-::img\[键能]\{src="../键能.avif" width="100%"}
-
+![键能](/static/image/键能.c87a5dc071.avif)
 表中的键能数据是对大量分子进行统计得到的平均值。
 
 ### 键参数------键长 \{#\_6}
 
 两个成键原子的原子核间的距离（简称核间距）叫作该化学键的键长。
 
-::img\[键长]\{src="../键长-43e243a.avif" width="100%"}
-
+![键长](/static/image/键长-43e243a.59567459cd.avif)
 键长是影响分子空间结构的因素之一。键长的数值可以通过晶体 X 射线衍射实验进行测定，也可以通过理论计算求得。
 
 ### 键参数------键角 \{#\_7}
@@ -351,7 +348,7 @@
 
   鲍林还根据精确计算得知每两个 $\mathrm\{sp^3}$ 杂化轨道的夹角为 $\pu\{109^o 28'}$。由于这四个杂化轨道的能量相同，根据洪特规则，碳原子的价电子以自旋状态相同的方式分占各个轨道。因此，当碳原子与氢原子成键时，碳原子中每个杂化轨道分别与一个氢原子的 $\rm 1s$ 道重叠形成一个共价键，这样所形成的四个共价键是等同的，从而使甲烷分子具有正四面体形结构。
 
-  ::img\{src="../sp3.avif" width="100%"}
+  <img alt="alt text" src={image3} />
 
 - 三杂化 $\mathrm\{sp^2}$：一个 $\rm s$ 轨道和两个 $\rm p$ 轨道杂化可形成三个 $\mathrm\{sp^2}$ 杂化轨道。形成乙烯分子时碳原子采用 $\mathrm\{sp^2}$ 杂化，三个 $\mathrm\{sp^2}$ 杂化轨道和一个未参与杂化的 $\rm p$ 轨道中各有一个未成对电子。两个碳原子各以一个 $\mathrm\{sp^2}$ 杂化轨道重叠形成一个 $\sigma$ 键，同时以 $\rm p$ 轨道重叠形成一个 $\pi$ 键；每个碳原子都以另外两个 $\mathrm\{sp^2}$ 杂化轨道分别与两个氢原子的 $\rm1s$ 轨道重叠形成两个 $\sigma$ 键。这样，在乙烯分子中的碳原子之间，存在着一个 $\sigma$ 键和一个 $\pi$ 键。
 
@@ -359,8 +356,7 @@
 
 下面是一些常见的杂化类型：
 
-::img\[杂化类型]\{src="../分子构型.svg" width="100%"}
-
+![杂化类型](/static/svg/分子构型.dc0298c401.svg)
 <table>
 <colgroup>
 <col style="width: 25%" />
@@ -448,8 +444,7 @@ AXE 法，又称 ABE 法：用 $\ce\{AX\_nE\_m}$ 其中 $\ce A$ 代表中心原�
 
 - 下图表示的分别是二氯化汞 $\ce\{HgCl2}$、三氟化硼 $\ce\{BF3}$、四氯化碳 $\ce\{CCl4}$、五氯化磷 $\ce\{PCl5}$ 和六氟化硫 $\ce\{SF6}$ 的分子空间结构。
 
-::img\[空间结构]\{src="../空间结构.avif" width="90%"}
-
+![空间结构](/static/image/空间结构.5a918f7aa8.avif)
 ### 分子极性和手性 \{#\_19}
 
 共价键分为极性键和非极性键：
@@ -470,8 +465,7 @@ AXE 法，又称 ABE 法：用 $\ce\{AX\_nE\_m}$ 其中 $\ce A$ 代表中心原�
 
 分子的手性：具有完全相同的组成和原子排列的一对分子，互为镜像且在三维空间里不能重合，称为手性异构体，有手性的异构体称为手性分子。
 
-::img\[alt text]\{src="../image.avif"}
-
+![alt text](/static/image/image.acfbc15c12.avif)
 手性分子在制药中有广泛的应用，药物中一对手性异构体可能只有一个有效，另一个可能无效甚至是有害的。2001 年诺贝尔化学奖授予三位用手性催化剂生成手性药物的化学家，可以得到或主要得到一种手性分子，称为手性合成。
 
 手性在数学中也是可以被严格定义的，在三维空间 $\R^3$ 中，任何刚体运动都可以用矩阵 $M$ 表示，其中保持手性不变的称为真旋转，其行列式满足 $\det M=+1$，例如绕轴转动；改变手性的称为非真旋转，$\det M=-1$，例如镜像反射。
@@ -484,10 +478,8 @@ AXE 法，又称 ABE 法：用 $\ce\{AX\_nE\_m}$ 其中 $\ce A$ 代表中心原�
 
 通常来说，我们只需要判断一个分子是否有对称中心（$S\_2$）或对称面（$S\_1$）即可，更严谨的我们还需要判断 $S\_4$，例如丙二烯（如图所示）：
 
-::img\[alt text]\{src="../image-1038de9.avif"}
-
-::img\[alt text]\{src="../image-1-99bf5e2.avif"}
-
+![alt text](/static/image/image-1038de9.9f1ff91f9e.avif)
+![alt text](data:image/avif;base64,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)
 理论上，我们仅仅通过 $S\_1,S\_2,S\_4$ 几乎可以确定一个分子是否是手性分子了。但是，还存在最后一种特殊的情况，$S\_8$，其存在于极少数的分子中，而且更少数的分子只能由 $S\_8$ 确定。例如皇冠硫（很有趣这个分子也写作 $\ce\{S8}$ 硫8），但是它也有对称中心，导致它不是"仅靠 $S\_8$ 维持非手性"的特例。
 
 严格属于 $S\_8$ 点群的分子，仅仅是理论上存在，只有在特定情况下，才能形成，极其少见，一般就不会考虑了。

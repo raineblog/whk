@@ -18,8 +18,7 @@
 
 直角坐标系也可以推广至三维空间与高维空间。
 
-::img\[空间直角坐标系]\{src="../480px-3D\_Cartesian.svg.avif" width="40%"}
-
+![空间直角坐标系](/static/image/480px-3D_Cartesian.svg.18c69b3589.avif)
 在原本的二维直角坐标系，再添加一个垂直于 $x$ 轴、$y$ 轴的坐标轴，称为 $z$ 轴。
 
 - 如果几何体存在互相垂直的三条棱，但是它们不交于一点，那么我们可以将它们平移到某一顶点，
@@ -30,8 +29,7 @@
 
 - 有时候我们会遇到空间几何中的动点问题，若动点在坐标轴上，则设出该动点坐标；若动点不在坐标轴上，而是在某线段上，则应该利用向量来表示该线段，从而得到动点坐标。
 
-::img\{src="../建系示例1.avif" width="100%"}
-
+![alt text](/static/image/建系示例1.197593b97d.avif)
 建系方法：
 
 - 高中一律建右手系，即 $\det(\bm i,\bm j,\bm k)=1$ 的坐标系，从形式上来看是一个逆时针的圈。判断规则（右手规则）：伸出右手，拇指指向 $x$ 轴正方向，食指指向 $y$ 轴正方向，中指指向 $z$ 轴正方向。如果这三个方向匹配，则为右手系。
@@ -302,8 +300,7 @@ $$
 
 三垂线定理：平面内有一条直线，如果平面外一条直线在这个平面上的射影，垂直于平面内的直线，那么平面外的这条直线与平面内的直线垂直。
 
-::img\[alt text]\{src="../image-3.avif"}
-
+![alt text](/static/image/image-3.41894a0ca4.avif)
 ### 面与面的夹角 \{#\_17}
 
 即半平面的夹角，注意到这个一定是与两法向量夹角互补的：
@@ -314,16 +311,14 @@ $$
 
 注意绝对值。
 
-::img\[面面角与二面角]\{src="../image-2.avif"}
-
+![面面角与二面角](/static/image/image-2.5542ab84cc.avif)
 一般方法：
 
 - 从交线上一点做垂线，过两个交点。
 
 - 从一个面上一点做交线的垂线，然后从垂足做垂线到另一个面。
 
-::img\[alt text]\{src="../二面角1.avif" width="100%"}
-
+![alt text](/static/image/二面角1.d41790575f.avif)
 ## 空间向量进阶 \{#\_18}
 
 ### 法向量叉乘 \{#\_19}
@@ -352,8 +347,7 @@ $$
 
 空间中任意两个向量 $\bm A,\bm B$，规定其夹角为 $\alpha$，则其叉乘为一个向量，他的大小为 $|\bm A|\cdot|\bm b|\sin\alpha$，方向又右手定则决定：
 
-::img\{src="../Right\_hand\_rule\_cross\_product.svg" width="70%"}
-
+![alt text](/static/svg/Right_hand_rule_cross_product.5724a2aff7.svg)
 1. 反交换律：$a \times b = -b \times a$。
 2. 系数结合律：$(\lambda a) \times b = \lambda(a \times b) = a \times (\lambda b)$。
 3. 左分配律：$a \times (b + c) = a \times b + a \times c$。
@@ -495,8 +489,7 @@ $$
 
 ### 双垂直定理 \{#\_22}
 
-::img\[alt text]\{src="../image-4.avif"}
-
+![alt text](/static/image/image-4.219824c30b.avif)
 ### 双余弦定理 \{#\_23}
 
 ### 双正弦定理 \{#\_24}

@@ -10,8 +10,7 @@
 
 随机函数是一个特殊的实函数，对于任意 $e\in S$，都有唯一一个对应 $X(e)$，如图。
 
-::img\{src="../Zufall.avif"}
-
+![alt text](data:image/avif;base64,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)
 随机变量实质上是样本空间上的函数，可作为因变量，满足其值不大于某数的状况都是事件。我们称随机变量这个函数的值域为随机变量的取值范围，或值域。
 
 随机变量在不同的条件下由于偶然因素影响，其可能取各种随机变量不同的值，具有不确定性和随机性，但这些取值落在某个范围的概率是一定的，此种变量称为随机变量。随机变量可以是离散型的，也可以是连续型的。如分析测试中的测定值就是一个以概率取值的随机变量，被测定量的取值可能在某一范围内随机变化，具体取什么值在测定之前是无法确定的，但测定的结果是确定的，多次重复测定所得到的测定值具有统计规律性。随机变量与模糊变量的不确定性的本质差别在于，后者的测定结果仍具有不确定性，即模糊性。
@@ -431,8 +430,7 @@ $$
 
 正态分布的概率密度函数中以平均值 $\mu$、标准差 $\sigma$ 为参数，正态分布的数学期望值或期望 $\mu$ ,可解释为位置参数，决定了分布的位置；其方差 $\sigma ^\{2}$ 的平方根或标准差 $\sigma$ 可解释尺度参数，决定了分布的幅度。
 
-::img\[alt text]\{src="../image-07dd56b.avif" width="60%"}
-
+![alt text](/static/image/image-07dd56b.f10262ae30.avif)
 中心极限定理指出，在特定条件下，一个具有有限均值和方差的随机变量的多个样本（观察值）的平均值本身就是一个随机变量，其分布随着样本数量的增加而收敛于正态分布。
 
 因此，许多与独立过程总和有关的物理量，例如测量误差，通常可被近似为正态分布。正态分布是一种理想分布，许多典型的分布，比如成年人的身高、汽车轮胎的运转状态、人类的智商值（IQ），都属于或者说至少接近正态分布。
@@ -443,8 +441,7 @@ $$
 
 正态分布出现在许多区域统计：例如，采样分布均值是近似正态分布的，即使被采样的样本的原始群体分布并不服从正态分布。另外，正态分布信息熵在所有的已知均值及方差的分布中最大，这使得它作为一种均值以及方差已知的分布的自然选择。正态分布是在统计以及许多统计测试中最广泛应用的一类分布。在概率论，正态分布是几种连续以及离散分布的极限分布。
 
-::img\[Normal distribution curve that illustrates standard deviations. Each band has 1 standard deviation, and the labels indicate the approximate proportion of area (note: these add up to 99.8%, and not 100% because of rounding for presentation.)]\{src="../Standard\_deviation\_diagram.svg"}
-
+![Normal distribution curve that illustrates standard deviations. Each band has 1 standard deviation, and the labels indicate the approximate proportion of area (note: these add up to 99.8%, and not 100% because of rounding for presentation.)](/static/svg/Standard_deviation_diagram.b22a0712c9.svg)
 正态分布中一些值得注意的量：
 
 - 密度函数关于平均值对称。

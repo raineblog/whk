@@ -61,7 +61,7 @@ $$
 解三角形里面常用的奇怪三角函数：
 
 $$
-\sin15^\circ=\cos75^\circ=\{\sqrt6-\sqrt2\over4}\[0.5em] \sin75^\circ=\cos15^\circ=\{\sqrt6+\sqrt2\over4}
+\sin15^\circ=\cos75^\circ=\{\sqrt6-\sqrt2\over4}\\\[0.5em] \sin75^\circ=\cos15^\circ=\{\sqrt6+\sqrt2\over4}
 $$
 
 特殊的，如果 $\sin 2A=\sin 2B$，则有 $2A=2B$ 或 $2A+2B=\pi$，即 $A=B$ 或 $A+B=90^\circ$，即等腰或直角三角形。
@@ -145,7 +145,7 @@ $$
 在 $\triangle ABC$ 中，
 
 $$
-\begin\{array}\{c} \overrightarrow\{AB}=\overrightarrow\{CB}-\overrightarrow\{CA}\[0.5em] |\overrightarrow\{AB}|^2=|\overrightarrow\{CB}|^2+|\overrightarrow\{CA}|^2-2|\overrightarrow\{CB}|\cdot|\overrightarrow\{CA}|\cdot\cos\theta\[0.5em] c^2=a^2+b^2-2ab\cos\theta \end\{array}
+\begin\{array}\{c} \overrightarrow\{AB}=\overrightarrow\{CB}-\overrightarrow\{CA}\\\[0.5em] |\overrightarrow\{AB}|^2=|\overrightarrow\{CB}|^2+|\overrightarrow\{CA}|^2-2|\overrightarrow\{CB}|\cdot|\overrightarrow\{CA}|\cdot\cos\theta\\\[0.5em] c^2=a^2+b^2-2ab\cos\theta \end\{array}
 $$
 
 其中 $\theta$ 为 $c$ 的对角，即 $\angle C$；第二步就是两边平方。
@@ -287,8 +287,7 @@ $$
 \vecc\{AD}=\dfrac12\vecc\{AB}+\dfrac12\vecc\{AC}
 $$
 
-::img\[交叉定理]\{src="../image.avif" width="100%"}
-
+![交叉定理](/static/image/image.12aaea5c6a.avif)
 即对边比例相乘向量相加。
 
 ### 重心及其性质 \{#\_18}
@@ -430,7 +429,7 @@ $$
 证明，基底分解：
 
 $$
-\overrightarrow\{AM}=\{1\over2}\overrightarrow\{AB}+\{1\over2}\overrightarrow\{AC}\[0.5em] \overrightarrow\{BM}=\{1\over2}\overrightarrow\{AC}-\{1\over2}\overrightarrow\{AB}
+\overrightarrow\{AM}=\{1\over2}\overrightarrow\{AB}+\{1\over2}\overrightarrow\{AC}\\\[0.5em] \overrightarrow\{BM}=\{1\over2}\overrightarrow\{AC}-\{1\over2}\overrightarrow\{AB}
 $$
 
 则，
@@ -458,7 +457,7 @@ $$
 或正弦定理：
 
 $$
-\{BM\over\sin\angle BAM}=\{AB\over\sin\angle AMB}\[0.5em] \{CM\over\sin\angle CAM}=\{AC\over\sin\angle AMC}
+\{BM\over\sin\angle BAM}=\{AB\over\sin\angle AMB}\\\[0.5em] \{CM\over\sin\angle CAM}=\{AC\over\sin\angle AMC}
 $$
 
 上下做比。
@@ -537,8 +536,7 @@ $$
 
 ### 边元塞瓦定理 \{#\_31}
 
-::img\[赛瓦定理]\{src="../边元塞瓦定理.avif" width="100%"}
-
+![赛瓦定理](/static/image/边元塞瓦定理.0c77706733.avif)
 其逆定理用于表示三角形内三点共线，角元塞瓦定理较为复杂。
 
 ### 梅涅劳斯定理 \{#\_32}
@@ -549,8 +547,7 @@ $$
 \dfrac\{AX}\{XB}\cdot\dfrac\{BY}\{YC}\cdot\dfrac\{CZ}\{ZA}=0
 $$
 
-::img\[梅涅劳斯定理]\{src="../梅涅劳斯定理.avif" width="70%"}
-
+![梅涅劳斯定理](data:image/avif;base64,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)
 梅涅劳斯定理的逆定理表示为，满足上述式子，则 $X,Y,Z$ 三点共线。
 
 ## 面积公式 \{#\_33}

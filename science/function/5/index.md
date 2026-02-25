@@ -1,7 +1,6 @@
 # 微积分 \{#\_1}
 
-::img\[alt text]\{src="../image-6.avif"}
-
+![alt text](/static/image/image-6.d71726c7e6.avif)
 ## 积分 \{#\_2}
 
 ### 几何意义 \{#\_3}
@@ -117,11 +116,11 @@ $$
    $$
 
 3. $$
-   \begin\{aligned}\int\frac\{2x}\{(x^2+1)^3}\ dx&=\int(x^2+1)^\{-3}\cdot 2x\ dx\xlongequal\{u=x^2+1}\int u^\{-3}\ du&=-\frac\{1}\{2}u^\{-2}+C=-\frac\{1}\{2(x^2+1)}+C\ \ \ \ (du=2xdx)\end\{aligned}
+   \begin\{aligned}\int\frac\{2x}\{(x^2+1)^3}\ dx&=\int(x^2+1)^\{-3}\cdot 2x\ dx\xlongequal\{u=x^2+1}\int u^\{-3}\ du\\&=-\frac\{1}\{2}u^\{-2}+C=-\frac\{1}\{2(x^2+1)}+C\ \ \ \ (du=2xdx)\end\{aligned}
    $$
 
 4. $$
-   \begin\{aligned}\int x\sqrt\{1-x^2}\ dx&=-\frac\{1}\{2}\int\sqrt\{1-x^2}(-2x\ dx)\xlongequal\{u=1-x^2}-\frac\{1}\{2}\int u^\{\frac\{1}\{2}}\ du&=-\frac\{1}\{3}u^\{\frac\{3}\{2}}+C=-\frac\{1}\{3}(1-x^2)^\{\frac\{3}\{2}}+C\ \ \ \ (du=-2dx)\end\{aligned}
+   \begin\{aligned}\int x\sqrt\{1-x^2}\ dx&=-\frac\{1}\{2}\int\sqrt\{1-x^2}(-2x\ dx)\xlongequal\{u=1-x^2}-\frac\{1}\{2}\int u^\{\frac\{1}\{2}}\ du\\&=-\frac\{1}\{3}u^\{\frac\{3}\{2}}+C=-\frac\{1}\{3}(1-x^2)^\{\frac\{3}\{2}}+C\ \ \ \ (du=-2dx)\end\{aligned}
    $$
 
 5. $$
@@ -139,11 +138,11 @@ $$
 $$
 
 1. $$
-   \begin\{aligned}\int\frac\{1}\{1+\sqrt x}\ dx&\xlongequal\{x=t^2}\int\frac\{1}\{1+t}\cdot 2t\ dt=2\int(1-\frac\{1}\{1+t})\ dt=2t-2\ln|1+t|+C&=2\sqrt\{x}-2\ln|1+\sqrt\{x}|+C\end\{aligned}
+   \begin\{aligned}\int\frac\{1}\{1+\sqrt x}\ dx&\xlongequal\{x=t^2}\int\frac\{1}\{1+t}\cdot 2t\ dt=2\int(1-\frac\{1}\{1+t})\ dt=2t-2\ln|1+t|+C\\&=2\sqrt\{x}-2\ln|1+\sqrt\{x}|+C\end\{aligned}
    $$
 
 2. $$
-   \begin\{aligned}\int\sqrt\{a^2-x^2}\ dx&\xlongequal\{x=a\sin t}\int a\cos t\cdot a\cos t\ dt=a^2\int \cos^2 t\ dt&=a^2\int\frac\{1+\cos 2t}\{2}dt=a^2(\frac\{1}\{2}t+\frac\{1}\{4}\sin 2t)+C&=a^2(\frac\{1}\{2}\arcsin\frac\{x}\{a}+\frac\{1}\{4}\frac\{2}\{a^2}x\sqrt\{a^2-x^2})+C&=\frac\{a^2}\{2}\arcsin\frac\{x}\{a}+\frac\{x}\{2}\sqrt\{a^2-x^2}+C\end\{aligned}
+   \begin\{aligned}\int\sqrt\{a^2-x^2}\ dx&\xlongequal\{x=a\sin t}\int a\cos t\cdot a\cos t\ dt=a^2\int \cos^2 t\ dt\\&=a^2\int\frac\{1+\cos 2t}\{2}dt=a^2(\frac\{1}\{2}t+\frac\{1}\{4}\sin 2t)+C\\&=a^2(\frac\{1}\{2}\arcsin\frac\{x}\{a}+\frac\{1}\{4}\frac\{2}\{a^2}x\sqrt\{a^2-x^2})+C\\&=\frac\{a^2}\{2}\arcsin\frac\{x}\{a}+\frac\{x}\{2}\sqrt\{a^2-x^2}+C\end\{aligned}
    $$
 
 #### 分部积分法 \{#\_7}
@@ -158,7 +157,7 @@ $$
 
 1. 计算 $\displaystyle\int x\cos x\ dx$，设 $u=x,dv=\cos x\ dx$，则 $du=dx,v=\sin x$ $$\int x\cos x\ dx=x\sin x-\int \sin x\ dx=x\sin x+\cos x+C$$
 
-2. 计算 $\displaystyle\int\arctan x\ dx$，设 $u=\arctan x,dv=dx$，则 $\displaystyle du=\frac\{1}\{1+x^2}\ dx,v=x$ $$\begin\{aligned}\int \arctan x&=x\arctan x-\int\frac\{1}\{1+x^2}\ dx=x\arctan x-\frac\{1}\{2}\int\frac\{1}\{1+x^2}d(1+x^2)&=x\arctan x-\frac\{1}\{2}\ln(1+x^2)+C\end\{aligned}$$
+2. 计算 $\displaystyle\int\arctan x\ dx$，设 $u=\arctan x,dv=dx$，则 $\displaystyle du=\frac\{1}\{1+x^2}\ dx,v=x$ $$\begin\{aligned}\int \arctan x&=x\arctan x-\int\frac\{1}\{1+x^2}\ dx=x\arctan x-\frac\{1}\{2}\int\frac\{1}\{1+x^2}d(1+x^2)\\&=x\arctan x-\frac\{1}\{2}\ln(1+x^2)+C\end\{aligned}$$
 
 3. 计算 $\displaystyle\int x\ln x\ dx$，设 $u=\ln x,dv=x\ dx$，则 $\displaystyle du=\frac\{1}\{x}\ dx,v=\frac\{1}\{2}x^2$ $$\int x\ln x\ dx=\frac\{1}\{2}x^2\ln x-\int\frac\{1}\{x}\cdot\frac\{1}\{2}x^2\ dx=\frac\{1}\{2}x^2\ln x-\frac\{1}\{4}x^2+C$$
 
@@ -245,7 +244,7 @@ $\displaystyle a\_1=1,a\_\{n+1}=a\_n+\frac\{1}\{a\_n}$，求 $a\_\{2024}$ 的整
 设 $a\_n$ 近似为一个连续函数 $f(x)$，考虑 $a\_\{n+1}-a\_n$ 和 $\frac\{1}\{a\_n}$ 的关系。对于 $n\to +\infty$，有
 
 $$
-f'(x)=\frac\{1}\{f(x)}\implies\frac\{\mathrm\{d}f(x)}\{\mathrm\{d}x}=\frac\{1}\{f(x)} \implies f(x)\mathrm\{d}f(x)=\mathrm\{d}x\implies\int f(x)\mathrm\{d}f(x)=\int\mathrm\{d}x\implies \frac\{f^2(x)}\{2}=x+C
+f'(x)=\frac\{1}\{f(x)}\implies\frac\{\mathrm\{d}f(x)}\{\mathrm\{d}x}=\frac\{1}\{f(x)} \implies f(x)\mathrm\{d}f(x)=\mathrm\{d}x\\\implies\int f(x)\mathrm\{d}f(x)=\int\mathrm\{d}x\implies \frac\{f^2(x)}\{2}=x+C
 $$
 
 由 $f(1)=1$ 得到 $\displaystyle C=-\frac\{1}\{2}$，微分方程解得 $f(x)=\sqrt\{2x-1}$，得到 $f(2024)=\sqrt\{4047}\approx 63$
@@ -282,7 +281,7 @@ $$
 
 这道题是我们班的补充题，当时无人证出 $\displaystyle >\frac\{5}\{2}$，我们老师上课思考了不到 $15$ 分钟讲了这种方法（他从不备课），注意力简直惊为天人。
 
-积分法：$\displaystyle f(x)=a\_n,f'(x)=\frac\{df(x)}\{dx}=-\frac\{1}\{3}f^2(x)\implies \int f^\{-2}(x)df(x)=\int-\frac\{1}\{3}dx-f^\{-1}(x)=-\frac\{1}\{3}x+C,f(x)=\frac\{3}\{x+C}\implies\frac\{3}\{x+2}$，显然 $\displaystyle 100a\_\{100}\in\left(\frac\{5}\{2},3\right)$. 可以代入 $a\_2,a\_3$ 获得更高的精度。
+积分法：$\displaystyle f(x)=a\_n,f'(x)=\frac\{df(x)}\{dx}=-\frac\{1}\{3}f^2(x)\implies \int f^\{-2}(x)df(x)=\int-\frac\{1}\{3}dx\\-f^\{-1}(x)=-\frac\{1}\{3}x+C,f(x)=\frac\{3}\{x+C}\implies\frac\{3}\{x+2}$，显然 $\displaystyle 100a\_\{100}\in\left(\frac\{5}\{2},3\right)$. 可以代入 $a\_2,a\_3$ 获得更高的精度。
 
 ***
 
@@ -341,14 +340,14 @@ $$
 例如：
 
 $$
-\begin\{aligned}\sum\_\{k=1}^n\frac\{1}\{\sqrt\{k} }&>\int\_1^\{n+1}\frac\{1}\{\sqrt\{x} }\ dx=2\sqrt\{x}|\_1^\{n+1}=2\left(\sqrt\{n+1}-1\right)&\<\int\_0^n\frac\{1}\{\sqrt\{x} }\ dx=2\sqrt\{x}|\_0^n=2\sqrt\{n}\end\{aligned}
+\begin\{aligned}\sum\_\{k=1}^n\frac\{1}\{\sqrt\{k} }&>\int\_1^\{n+1}\frac\{1}\{\sqrt\{x} }\ dx=2\sqrt\{x}|\_1^\{n+1}=2\left(\sqrt\{n+1}-1\right)\\&\<\int\_0^n\frac\{1}\{\sqrt\{x} }\ dx=2\sqrt\{x}|\_0^n=2\sqrt\{n}\end\{aligned}
 $$
 
 练习 1：证明 $\displaystyle\sum\_\{k=2}^n\frac\{1}\{k\sqrt\{k}}\<\sqrt\{2}\ \ \ \ \text\{}$ 和 $\ \ \ \ \displaystyle\frac\{2}\{3}n^\frac\{3}\{2}\leq\sum\_\{k=1}^n\sqrt\{k}\leq\frac\{2}\{3}\[(n+1)^\frac\{3}\{2}-n]$
 
 练习 2：证明 $\displaystyle\sum\_\{k=2}^\{n+1}\frac\{1}\{k}\<\ln(n+1)\<\sum\_\{k=1}^n\frac\{1}\{k}\ \ \ \ \text\{}$ 和 $\ \ \ \ \displaystyle\frac\{4}\{7}\<\sum\_\{k=n+1}^\{2n}\frac\{1}\{k}\<\ln 2\<\frac\{25}\{36}\<\frac\{\sqrt\{2}}\{2}$
 
-练习 3：证明 $\displaystyle\begin\{cases}\displaystyle\sum\_\{k=1}^n\frac\{1}\{k^p}\<\frac\{p}\{p-1}\&p>1\displaystyle\sum\_\{k=1}^n\frac\{1}\{k^p}\geq\displaystyle\sum\_\{k=1}^n\frac\{1}\{k}>\ln n\&p\leq 1\end\{cases}$
+练习 3：证明 $\displaystyle\begin\{cases}\displaystyle\sum\_\{k=1}^n\frac\{1}\{k^p}\<\frac\{p}\{p-1}\&p>1\\\displaystyle\sum\_\{k=1}^n\frac\{1}\{k^p}\geq\displaystyle\sum\_\{k=1}^n\frac\{1}\{k}>\ln n\&p\leq 1\end\{cases}$
 
 我们还可以根据 $f(x)$ 的凹凸性进一步放缩。
 

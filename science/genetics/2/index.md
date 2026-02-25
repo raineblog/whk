@@ -133,8 +133,7 @@
 
 ## 遗传规律解题方法 \{#\_13}
 
-::img\[alt text]\{src="../image.avif"}
-
+![alt text](/static/image/image.5b46af1337.avif)
 ### 分离定律 \{#\_14}
 
 #### 显隐性的判断 \{#\_15}
@@ -185,8 +184,7 @@ $$
 
 找出配子：$\rm\{A:a}=2\times1+1\times2:1\times2=2:1$，列出表格：
 
-::img\{src="../image.svg"}
-
+![alt text](/static/svg/image.57f64d0f4c.svg)
 得出答案：基因型 $\rm\{AA:Aa:aa}=4:4:1$，形状分离比为 $8:1$。
 
 杂合子 Aa 自由交配，逐代淘汰 aa 隐性个体：

@@ -22,8 +22,7 @@
 
 光在同种均匀介质中沿直线传播，在真空中光的传播速度为 $c=\pu\{299 792 458 m/s}$，约 $\pu\{3\times10^8m/s}$，不同颜色的光在真空中的传播速度相同，在其他介质中的传播速度不同。正在发光的物体叫做光源。
 
-::img\[alt text]\{src="../image-18.avif" width="100%"}
-
+![alt text](/static/image/image-18.20f0223629.avif)
 以上为光的最简单三个性质，我们在初中就已经涉及，后面我们会分别展开讲解。
 
 光学系统：
@@ -54,8 +53,7 @@
 
 反射是一种物理现象，指波阵面从一个介质进入另一个介质时，部分或全部的波在两介质界面处，传播方向发生改变且返回原介质的现象。常见的例子包括光、声波和水波的反射。
 
-::img\[alt text]\{src="../image-c6b859b.avif" width="80%"}
-
+![alt text](/static/image/image-c6b859b.b41f141704.avif)
 在光学方面，无论是漫反射还是镜面反射都遵从光的反射定律，即在反射现象中，反射光线，入射光线，法线在同一平面内，反射角等于入射角，反射光线与入射光线分居法线两侧。平面镜成像就是光的反射造成的。
 
 光的反射可以是镜面反射（如同镜子）或漫反射（保留了能量，但丢失了像，但仍遵从反射定律），取决于界面性质。镜面反射以相同的角度反射从给定方向到达的所有光，而漫反射则以广泛的方向反射光。这种区别可以用涂有光泽油漆和哑光油漆的表面来说明。哑光涂料基本上表现出完全的漫反射，而光泽涂料显示出更多的镜面反射。由非吸收性粉末（如石膏）制成的表面可以是近乎完美的漫射器，而抛光的金属物体可以非常有效地镜面反射光线。镜子的反射材料通常是铝或银。
@@ -64,8 +62,7 @@
 
 一面镜子就可以提供光的镜面反射的最常见模型，镜子往往由一块有着金属涂层的薄玻璃板组成，而这金属涂层才是反射实际发生的地方。反射在金属中会增强，因为金属对于超出它们集肤深度的波能起到抑制传播的作用。反射同样能在透明介质的界面上发生，例如水和玻璃。
 
-::img\[alt text]\{src="../image\_2ae7a8c.svg" width="40%"}
-
+![alt text](/static/svg/image_2ae7a8c.df6d68dcba.svg)
 在示意图中，一束光线 $PO$ 在点 $O$ 处射到了一面竖直镜子上，反射光线是 $OQ$ 。在点 $O$ 处作出一条假想的与镜面垂直的直线，叫做法线（normal）。有了法线，我们可以测量出入射角 $\theta \_\{i}$，和反射角 $\theta \_\{r}$。反射定律表述为 $\theta \_\{r}=\theta \_\{i}$，换句话说，反射角等于入射角，同时反射光线，入射光线，法线在同一平面内，反射光线与入射光线分局法线两侧。
 
 事实上，只要光从一个有着特定折射率的介质传播进入一个有着不同折射率的介质，光的反射就会发生。在绝大多数情况下，只有一部分光会从界面反射，余下的则会折射。通过解在一束光线射到一个界面上的情况下的麦克斯韦方程组，派生出了菲涅耳方程组，用它可以预测在特定情况下，多少光发生反射和多少光发生折射。这与阻抗失配在一个电回路中引起信号反射的方式类似。当光从光密介质入射时，如果入射角大于临界角，全内反射就会发生。
@@ -82,10 +79,8 @@
 
 大多数物体发送到我们眼中的光，都是由于它们表面发生了漫反射，所以这便是我们进行肉眼观察的主要机制。下图左侧为中学阶段的一个常见的简化模型，右侧为一个更详细的机理描述。
 
-::img\[alt text]\{src="../image\_a673292.svg" width="75%"}
-
-::img\[alt text]\{src="../Diffuse\_reflection1\_0d7ce0d.svg"}
-
+![alt text](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMTM2IDIxMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJzdmdfX2dpdGh1Yl93b3JrX19hIiB4MT0iODgiIHgyPSI4OCIgeTE9IjY2IiB5Mj0iNTQiIGdyYWRpZW50VHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTUxIC0yMykiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMGYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwMGYiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMzYiIGhlaWdodD0iMjEyIiBmaWxsPSIjZmZmIi8+PHBhdGggZmlsbD0iI2FhYSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjAuOCIgZD0iTTEzNCAyMTB2LTIybC00IDEtMiAyLTEtMi0yLTEtMyAyLTEtMi0yIDItMyAxLTEtMi0yIDEtMiAyLTEtNC01IDEtMS0yaC0zbC0xIDJoLTJsLTItMi0xIDJoLTVsLTEgMmgtM2wtMS0yLTEgMy0zIDEtMS0zLTMtMS0xIDItMi0xLTMgMS0xLTItNC0yaC0ybC0xIDJ2NGwtMy0yLTItMi01IDEtNC0zLTIgMWgtM2wtMSAzLTMtMy0yIDEtMi0xLTIgMi00LTMtMSAyLTMgMS00LTItMS0zLTIgNC0yIDEtMS00aC0ybC0xIDQtNi0yLTEgNC0yLTEtMi0ydjIxIi8+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDBmIiBzdHJva2Utd2lkdGg9IjAuOCIgZD0iTTEwNyA0NHYxNDVMNzIgNjJtMjUtMTh2MTQ0bDYtMTE5TTg3IDQ0djE0N0w1NCA3NG0yMy0zMHYxNDVMMjYgOThtNDEtNTR2MTQ0TDkxIDY2TTU3IDQ0djE0NUw3IDEyM200MC03OXYxNDRMNDMgNzNtLTYtMjl2MTQ0bDc5LTgxIi8+PGcgaWQ9InN2Z19fZ2l0aHViX3dvcmtfX2MiPjxnIGlkPSJzdmdfX2dpdGh1Yl93b3JrX19iIj48cGF0aCBmaWxsPSIjMDBmIiBkPSJtMzcgNDMgMi0yLTIgNi0yLTZ6Ii8+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI3N2Z19fZ2l0aHViX3dvcmtfX2EpIiBkPSJNMzcgMzF2MTIiLz48L2c+PHVzZSB4bGluazpocmVmPSIjc3ZnX19naXRodWJfd29ya19fYiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTApIi8+PHVzZSB4bGluazpocmVmPSIjc3ZnX19naXRodWJfd29ya19fYiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjApIi8+PHVzZSB4bGluazpocmVmPSIjc3ZnX19naXRodWJfd29ya19fYiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzApIi8+PC9nPjx1c2UgeGxpbms6aHJlZj0iI3N2Z19fZ2l0aHViX3dvcmtfX2MiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQwKSIvPjxwYXRoIGZpbGw9IiMwMGYiIGQ9Ik0xMTUuNyAxMDcuM2gtMi44bDUuNi0zLTIuOCA1Ljd6TTEwMyA2OS41bC0yIDIgMi4yLTYgMS44IDZ6bS0xMi0zLjQtMi40IDEuNiAzLTUuNS44IDYuM3ptLTE5LTMuOC0xIDIuNi0uMy02LjMgNCA1ek01NCA3NC4xbC0xLjIgMi42di02LjNsNCA1em0tMTEtMS0yIDIgMS42LTYgMi40IDUuOHpNMjYuMiA5OC41bC0uNSAyLjgtMS43LTYgNSAzLjh6bS0xOSAyNC42LS40IDIuOC0yLTYgNS4zIDMuNXoiLz48ZyBzdHJva2U9IiNmZmYiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgcGFpbnQtb3JkZXI9InN0cm9rZSBtYXJrZXJzIGZpbGwiPjxzd2l0Y2g+PHRleHQgeD0iMTU3IiB5PSItNTAiIHN5c3RlbUxhbmd1YWdlPSJ5dWUiIHRyYW5zZm9ybT0icm90YXRlKDcyKSI+PHRzcGFuPuaWueWQkTwvdHNwYW4+PC90ZXh0Pjx0ZXh0IHg9IjE1NyIgeT0iLTUwIiB0cmFuc2Zvcm09InJvdGF0ZSg3MikiPjx0c3Bhbj5kaXJlY3Rpb25zPC90c3Bhbj48L3RleHQ+PC9zd2l0Y2g+PHN3aXRjaD48dGV4dCB4PSIxMDIiIHk9IjYzIiBzeXN0ZW1MYW5ndWFnZT0ieXVlIiB0cmFuc2Zvcm09InJvdGF0ZSg1MykiPjx0c3Bhbj7lj43lsITlmIXlhYnnt5o8L3RzcGFuPjwvdGV4dD48dGV4dCB4PSIxMDIiIHk9IjYzIiB0cmFuc2Zvcm09InJvdGF0ZSg1MykiPjx0c3Bhbj5SZWZsZWN0ZWQgcmF5czwvdHNwYW4+PC90ZXh0Pjwvc3dpdGNoPjxzd2l0Y2g+PHRleHQgeD0iMTIyIiB5PSIyOSIgc3lzdGVtTGFuZ3VhZ2U9Inl1ZSIgdHJhbnNmb3JtPSJyb3RhdGUoNTcpIj48dHNwYW4+5pWj6ZaL5Y67PC90c3Bhbj48L3RleHQ+PHRleHQgeD0iMTIyIiB5PSIyOSIgdHJhbnNmb3JtPSJyb3RhdGUoNTcpIj48dHNwYW4+c2NhdHRlcjwvdHNwYW4+PC90ZXh0Pjwvc3dpdGNoPjxzd2l0Y2g+PHRleHQgeD0iLTIxIiB5PSIxNTQiIHN5c3RlbUxhbmd1YWdlPSJ5dWUiIHRyYW5zZm9ybT0icm90YXRlKC0zOSkiPjx0c3Bhbj7llJTlkIw8L3RzcGFuPjwvdGV4dD48dGV4dCB4PSItMjEiIHk9IjE1NCIgdHJhbnNmb3JtPSJyb3RhdGUoLTM5KSI+PHRzcGFuPmluIGFsbDwvdHNwYW4+PC90ZXh0Pjwvc3dpdGNoPjxzd2l0Y2g+PHRleHQgeD0iMjYiIHk9IjE0IiBzeXN0ZW1MYW5ndWFnZT0ieXVlIj48dHNwYW4+5YWJ5bCE54Wn6JC9PC90c3Bhbj48dHNwYW4geD0iMzgiIHk9IjI3Ij7ljrvkuIDloYrooajpnaI8L3RzcGFuPjwvdGV4dD48dGV4dCB4PSIyNiIgeT0iMTQiPjx0c3Bhbj5MaWdodCByYXlzIHNoaW5pbmc8L3RzcGFuPjx0c3BhbiB4PSIzOCIgeT0iMjciPm9uIGEgc3VyZmFjZTwvdHNwYW4+PC90ZXh0Pjwvc3dpdGNoPjwvZz48L3N2Zz4=)
+![alt text](/static/svg/Diffuse_reflection1_0d7ce0d.c402ca1697.svg)
 请注意，尽管漫反射看起来是"向四面八方"的，但是其本质是宏观物质在微观上的"不平整"，其本质上仍然是遵循反射定律的。
 
 漫反射是指当一束平行的入射光线射到粗糙的表面时，粗糙的表面会把光线向着各个方向反射的现象。虽然入射线互相平行，由于粗糙的表面上的各点的法线方向不一致，造成反射光线向不同的方向无规则地反射。这种反射的光称为漫射光。很多物体，如沙土、植物、墙壁、衣服等，其表面粗看起来似乎是平滑，但用放大镜仔细观察，就会看到其表面是凹凸不平的，所以本来是平行的太阳光被这些表面反射后，弥漫地射向不同方向。
@@ -108,8 +103,7 @@
 
 有些表面会展示出逆反射。这些表面的结构使之将光向射入的方向反射。
 
-::img\[alt text]\{src="../Cornerreflector\_b0ec3b2.svg" width="40%"}
-
+![alt text](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0yIC03IDIzIDIwIj48cGF0aCBmaWxsPSJub25lIiBmaWxsLW9wYWNpdHk9IjAiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSIwLjEiIGQ9Ik0xLjEtMWExLjM2NzQgMS4zNjc0IDAgMCAxIDAgMiIvPjxwb2x5bGluZSBmaWxsPSJub25lIiBmaWxsLW9wYWNpdHk9IjAiIHN0cm9rZT0iIzAwZiIgc3Ryb2tlLXdpZHRoPSIwLjIiIHBvaW50cz0iNiAtNiAwIDAgNiA2Ii8+PHBvbHlsaW5lIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMC4xIiBwb2ludHM9IjIxIDEyLjUgNCA0IDEuNCAtMS4yIDIwLjY5OTggOC40MDA0Ii8+PGxpbmUgeDE9IjIwLjU1MjgiIHgyPSIyMC44ODgyIiB5MT0iMTIuMjc2NCIgeTI9IjEyLjcyMzYiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMC4xIi8+PGxpbmUgeDE9IjIwLjU1MjgiIHgyPSIyMS4xMTE4IiB5MT0iMTIuMjc2NCIgeTI9IjEyLjI3NjQiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMC4xIi8+PHBvbHlsaW5lIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMC4xIiBwb2ludHM9IjIwLjI0MDkgOC40NTEzIDIwLjc5OTkgOC40NTAyIDIwLjQ2MzYgOC4wMDM3Ii8+PHBvbHlsaW5lIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMC4xIiBwb2ludHM9IjIwLjc3NjQgMyAzIDMgMyAtMyAyMSAtMyIvPjxwb2x5bGluZSBmaWxsPSJub25lIiBmaWxsLW9wYWNpdHk9IjAiIHN0cm9rZT0icmVkIiBzdHJva2Utd2lkdGg9IjAuMSIgcG9pbnRzPSIyMC4zODgyIDMuMjUgMjAuODg4MiAzIDIwLjM4ODIgMi43NSIvPjxsaW5lIHgxPSIyMC41IiB4Mj0iMjEiIHkxPSItMyIgeTI9Ii0yLjc1IiBmaWxsPSJub25lIiBmaWxsLW9wYWNpdHk9IjAiIHN0cm9rZT0icmVkIiBzdHJva2Utd2lkdGg9IjAuMSIvPjxsaW5lIHgxPSIyMC41IiB4Mj0iMjEiIHkxPSItMyIgeTI9Ii0zLjI1IiBmaWxsPSJub25lIiBmaWxsLW9wYWNpdHk9IjAiIHN0cm9rZT0icmVkIiBzdHJva2Utd2lkdGg9IjAuMSIvPjxsaW5lIHgxPSIyIiB4Mj0iNCIgeTE9IjQiIHkyPSIyIiBmaWxsPSJub25lIiBmaWxsLW9wYWNpdHk9IjAiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWRhc2hhcnJheT0iMC4yIiBzdHJva2Utd2lkdGg9IjAuMSIvPjxsaW5lIHgxPSIwLjIiIHgyPSIyLjIiIHkxPSItMi40IiB5Mj0iLTAuNCIgZmlsbD0ibm9uZSIgZmlsbC1vcGFjaXR5PSIwIiBzdHJva2U9IiMwMDAiIHN0cm9rZS1kYXNoYXJyYXk9IjAuMiIgc3Ryb2tlLXdpZHRoPSIwLjEiLz48bGluZSB4MT0iMyIgeDI9IjUiIHkxPSI1IiB5Mj0iMyIgZmlsbD0ibm9uZSIgZmlsbC1vcGFjaXR5PSIwIiBzdHJva2U9IiMwMDAiIHN0cm9rZS1kYXNoYXJyYXk9IjAuMiIgc3Ryb2tlLXdpZHRoPSIwLjEiLz48bGluZSB4MT0iMiIgeDI9IjQiIHkxPSItNCIgeTI9Ii0yIiBmaWxsPSJub25lIiBmaWxsLW9wYWNpdHk9IjAiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWRhc2hhcnJheT0iMC4yIiBzdHJva2Utd2lkdGg9IjAuMSIvPjxjaXJjbGUgY3g9IjAuOCIgcj0iMC4xIi8+PGNpcmNsZSBjeD0iMC44IiByPSIwLjEiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCIgc3Ryb2tlPSIjMWIxYjFiIiBzdHJva2Utd2lkdGg9IjAuMSIvPjwvc3ZnPg==)
 将三面平常的镜子两两垂直地放置，就制成了一个简单的逆反射器（角反射器）。形成的图像与单面镜子所成的相反。在一个表面上放一层微小的具有折射能力的球，或创造一些金字塔形的结构，就可以让一个表面具有一部分的逆反射特性。在这两种情况下，内部的反射造成光向它发源的地方反射回去。这被用来使交通标志和汽车牌照能基本上将光反射回它射来的地方。在这种应用中，完美的逆反射并不是想要的，因为这样的话，光就会径直地向驶来的车的车灯射去，而不是射入司机的眼睛。
 
 ### 多重反射 \{#\_7}
@@ -164,8 +158,7 @@ $$
 
 我们知道，光从空气射到水面时，一部分光射进水中，另一部分光返回到空气中。
 
-::img\[alt text]\{src="../image-19.avif" width="80%"}
-
+![alt text](/static/image/image-19.a3b7eff066.avif)
 入射光线与法线的夹角 $\theta\_1$ 称为入射角，折射光线与法线的夹角 $\theta\_2$ 称为折射角，折射定律（斯涅尔定律）指出：
 
 $$
@@ -190,14 +183,11 @@ $$
 
 - 太阳光在斜射入棱镜后，紫光偏转角度大、红光偏转角度小，弯曲角度的差异使白光分裂成其组成颜色，这种现象称为光的色散。
 
-::img\[alt text]\{src="../image-20.avif" width="80%"}
-
-::img\{src="../Prism-rainbow\.svg" width="80%"}
-
+![alt text](/static/image/image-20.029c939ff5.avif)
+![alt text](/static/svg/Prism-rainbow.c801850942.svg)
 如果一束光从一种介质射入另一种介质，我们称折射率较小的为光疏介质，折射率较大的为光密介质。存在一个临界角 $\theta\_c$ 使得入射角大于这个角，则不会发生折射现象，所有关系全部向内面反射，称为**全反射**或全内反射。
 
-::img\{src="../RefractionReflextion-zh.svg" width="100%"}
-
+![alt text](/static/svg/RefractionReflextion-zh.510e0a5fde.svg)
 在不考虑耗损的情况下：
 
 $$
@@ -214,9 +204,8 @@ $$
 
 玻璃棱镜的截面为等腰直角三角形，当光从图中所示的方向射入玻璃时，由于光的方向与玻璃面垂直，光线不发生偏折。但在玻璃内部，光射向玻璃与空气的界面时，入射角大于临界角，发生全反射。与平面镜相比，它的反射率高，几乎可达 100%。
 
-![alt text](/static/image/image-22.3e8bbb66cb.avif){width="90%"}
-::img\[alt text]\{src="../image-23.avif" width="90%"}
-
+![alt text](/static/image/image-22.3e8bbb66cb.avif)
+![alt text](/static/image/image-23.28f4e14d21.avif)
 注意：当发生全反射时，电磁场并非完全没有从光密介质进入光疏介质，虽然没有能量以**行进波**的形式透射进入光疏介质，但在界面处的光疏介质一侧，仍然会形成一个特殊的、非传播的电磁场，称为**倏逝波**。利用倏逝波的原理，可以制成分光器。
 
 ### 测定玻璃的折射率 \{#\_11}
@@ -235,7 +224,7 @@ $$
 
 3. 把长方形玻璃砖放在白纸上，并使其长边与 $aa'$ 重合，再用直尺画出玻璃的另一边 $bb'$。
 
-   ::img\[alt text]\{src="../image.avif" align="right" width="40%"}
+   <img alt="alt text" src={image12} />
 
 4. 在线段 $AO$ 上竖直地插上两枚大头针 $P\_1$、$P\_2$。
 
@@ -285,8 +274,7 @@ $$
 
 光纤是圆柱形的介质波导，应用全内反射原理来传导光线。光纤的结构大致分为里面的纤芯部分与外面的包覆部分。为了要局限光信号于纤芯，包层的折射率必须小于纤芯的折射率。渐变光纤的折射率是缓慢改变的，从轴心到包覆，逐渐地减小；而突变光纤在核心-包覆边界区域的折射率是急剧改变的。光导纤维是双重构造，纤芯部分是高折射率玻璃，表层部分是低折射率的玻璃或塑料，光在纤芯内传输，并在表层交界处不断进行全反射，沿"之"字形向前传输。
 
-::img\[alt text]\{src="../Optical\_fiber\_types\_8399934-5168fcc.avif" width="100%"}
-
+![alt text](/static/image/Optical_fiber_types_8399934-5168fcc.07c62faee3.avif)
 光纤主要分为两类，渐变光纤与突变光纤。前者的折射率是渐变的，而后者的折射率是突变的。另外还分为单模光纤及多模光纤。核心直径较大的光纤的物理性质，可以用几何光学的理论来分析，这种光纤称为多模光纤。在一个多模突变光纤内，光线靠著全反射传导于核心。当光线遇到核心包覆边界时，假若入射角大于临界角，则光线会被完全反射。临界角的角度是由核心折射率与包覆折射率共同决定。假若入射角小于临界角，则光线会折射入包覆，无法继续传导于核心。临界角又决定了光纤的受光角，通常以数值孔径来表示其大小。较高的数值孔径会允许光线，以较近轴心和较宽松的角度，传导于核心，造成光线和光纤更有效率的耦合。但是，由于不同角度的光线会有不同的光程，通过光纤所需的时间也会不同，所以，较高的数值孔径也会增加色散。有些时候，较低的数值孔径会是更适当的选择。
 
 渐变光纤的核心的折射率，从轴心到包覆，逐渐地减低。这会使朝著包覆传导的光线，平滑缓慢地改变方向，而不是急剧地从核心包覆边界反射过去。这样，大角度光线会花更多的时间，传导于低折射率区域，而不是高折射率区域。因此，所形成的曲线路径，会减低多重路径色散。工程师可以精心设计渐变光纤的折射率分布，使得各种光线在光纤内的轴传导速度差值，能够极小化。这理想折射率分布应该会非常接近于抛物线分布。
@@ -303,11 +291,11 @@ $$
 
 - 海市蜃楼与沙漠蜃景：折射与全反射。
 
-  ::img\{src="../Mirage\_principle.svg" width="60%"}
+  <img alt="alt text" src={image14} />
 
 - 水井中多青蛙看天：洞口更小、视野更大。
 
-  ::img\{src="../image-21.avif" width="50%"}
+  <img alt="alt text" src={image15} />
 
 - 日出时人开太阳：人看到地平线以下的太阳。
 
@@ -317,22 +305,20 @@ $$
 
   ***
 
-  ::img\{src="../Pencil\_in\_a\_bowl\_of\_water.svg"}
+  <img alt="alt text" src={image16} />
 
 - 水中的鱼看人：**鱼看到的人偏高**。
 
   ***
 
-  ::img\[alt text]\{src="../image-24.avif"}
+  <img alt="alt text" src={image17} />
 
 视深问题：垂直向一深度为 $h$ 的水池看去，水的视深是多少？已知水的折射率 $n$。
 
 虽然我们是垂直向下看的，但是因为我们用两个眼睛确定距离，且两个眼睛有一定距离，因此不妨取一极小角，用来计算视深。
 
-::img\[alt text]\{src="../image-25.avif"}
-
-::img\[alt text]\{src="../image-26.avif"}
-
+![alt text](/static/image/image-25.212d3b6dde.avif)
+![alt text](/static/image/image-26.c24dc8e078.avif)
 ## 波动光学 \{#\_14}
 
 > 固执于光的旧有理论的人们，最好是从它自身的原理出发，提出实验的说明。并且，如果他的这种努力失败的话，他应该承认这些事实。------托马斯·杨
@@ -399,8 +385,7 @@ $$
 
 现在人们知道，两束电磁波的干涉是彼此振动的电场强度矢量叠加的结果，而由于光的波粒二象性，光的干涉也是光子自身的几率幅叠加的结果。不仅是电磁波，粒子也可以发送干涉（例如一个一个发射的电子、光子等，我们在量子力学中提到过，其实波和粒子几乎没什么区别）。
 
-::img\[alt text]\{src="../image-1.avif" width="60%"}
-
+![alt text](/static/image/image-1.1044faaaac.avif)
 两列波在同一介质中传播发生重叠时，重叠范围内介质的质点同时受到两个波的作用。若波的振幅不大，此时重叠范围内介质质点的振动位移等于各别波动所造成位移的矢量和，这称为波的叠加原理。若两波的波峰（或波谷）同时抵达同一地点，称两波在该点同相，干涉波会产生最大的振幅，称为相长干涉（建设性干涉）；若两波之一的波峰与另一波的波谷同时抵达同一地点，称两波在该点反相，干涉波会产生最小的振幅，称为相消干涉（摧毁性干涉）。
 
 如要从单一的不相干波源产生相干的两列波，可以采用两种不同的方法：一种称为波前分割法，即对于几何尺寸足够小的波源，让它产生的波列通过并排放置的狭缝，根据惠更斯－菲涅耳原理，这些在波前上产生的子波是彼此相干的；另一种成为波幅分割法，用半透射、半反射的半镀银镜，可以将光波一分为二，制造出透射波与反射波。如此产生的反射波和透射波来自于同一波源，并具有很高的相干性，这种方法对于扩展波源同样适用。
@@ -409,8 +394,7 @@ $$
 
 **薄膜干涉**：来自两个面的反射光相互叠加，发生干涉，也称薄膜干涉。通常而言，不同位置的液膜，厚度不同，因此在膜上不同的位置，来自前后两个面的反射光（即图中的实线和虚线波形代表的两列光）的路程差不同。在某些位置，这两列波叠加后相互加强，出现了亮条纹；在另一些位置，叠加后相互削弱，出现了暗条纹。
 
-::img\[alt text]\{src="../Optical\_flat\_interference.svg" width="80%"}
-
+![alt text](/static/svg/Optical_flat_interference.4ea1dcc63e.svg)
 如果用另一种颜色的光做这个实验，由于光的波长不同，导致从肥皂膜的前后两面反射的光将在别的位置相互加强，所以，从肥皂膜上看到的亮条纹的位置也会不同。薄膜上不同颜色的光的条纹的明暗位置不同，相互交错，所以，看上去会有彩色条纹。
 
 薄膜干涉在技术上有很多应用。例如，可以在光学元件的表面镀一层特定厚度的薄膜，增加光的透射或者反射，还可以利用薄膜干涉的原理对镜面或其他精密的光学平面的平滑度进行检测。
@@ -430,8 +414,7 @@ $$
 
 - 如果表面有一个凹陷（下陷），该处的空气层会变厚。为了找到原本那个"该有的厚度"，条纹必须向劈尖较薄的一端（也就是左边）弯曲。
 
-::img\[alt text]\{src="../image-8.avif" width="60%"}
-
+![alt text](/static/image/image-8.88bdb97b9b.avif)
 - 等厚干涉：这种利用空气劈尖进行的干涉实验，产生的干涉条纹是"等厚线"。也就是说，同一条干涉条纹上的所有点，对应的空气隙厚度（d）是相同的。
 
 - 劈尖结构：看图甲，标准板 M 和待测板 N 之间形成一个空气劈尖。左端 O 是接触点，厚度接近 0；越往右边，空气层的厚度越厚。
@@ -452,8 +435,7 @@ $$
 
 其中，$d$ 为双缝间距，$\ell$ 为挡板与屏幕之间的举例，而 $\Delta x$ 表示的是相邻的两个两条纹，取其中间部位的间距。我们用**测量头**来测量这个 $\Delta x$ 因为它通常是较小的，难以像 $d,\ell$ 一样用刻度尺测量。测量头的读数类似于螺旋测微器，我们不再进行讲解。
 
-::img\[alt text]\{src="../image-2.avif" width="40%"}
-
+![alt text](/static/image/image-2.40586f0945.avif)
 在实际操作中，为了演示更加清晰，我们基本上都是使用红色光进行实验，因为 $\Delta x$ 与 $\lambda$ 是成正比的，红光波长比较长，因此间距较大，更容易读出。类似的，我们知道，光的波长一般是比较小的，为了让 $\Delta x$ 较大，我们通常会让 $\ell$ 稍大一些（或者说 $d$ 通常是很小的），这样读数会更加方便。
 
 1. 按如图所示安装仪器。
@@ -473,8 +455,7 @@ $$
 
 这两部分光也是相干光，它们同样是用分波阵面得到的。反射光可看成是由虚光源 $S\_2$ 发出的。$S\_1$ 和 $S\_2$ 构成一对相干光源，对干涉条纹的分析与杨氏实验也相同。中画有阴影的区域表示相干光在空间叠加的区域。这时在屏上可以观察到明暗相间的干涉条纹。
 
-::img\[alt text]\{src="../7f497ec15f6c0d1f\_e77bd7e.svg" width="60%"}
-
+![alt text](/static/svg/7f497ec15f6c0d1f_e77bd7e.a7343ac41b.svg)
 应该指出，在劳埃德镜实验中，如果把屏幕移近到和镜面边缘 $N$ 相接触，即图 1 中 $E'$ 的位置，这时从 $S\_1$ 和 $S\_2$ 发出的光到达接触处的路程相等，应该出现明纹，但实验结果却是暗纹，其他的条纹也有相应变化。这一实验事实说明了由镜面反射出来的光和直接射到屏上的光在 $N$ 处的相位相反，即相位差为 $\pi$。由于直射光的相位不会变化，所以只能认为光从空气射向玻璃平板发生反射时，反射光的相位跃变了 $\pi$。
 
 进一步的实验表明：光从光疏介质射到光密介质界面反射时，在掠射（入射角 $i=90^\circ$ 或正入射，即 $i=0$）的情况下，反射光的相位较之入射光的相位有 $\pi$ 的突变，这一变化导致了反射光的波程在反射过程中附加了半个波长，故常称为半波损失。今后在讨论光波叠加时，若有半波损失，在计算波程差时必须计及，否则会得出与实际情况不符的结果。
@@ -503,8 +484,7 @@ $$
 - **透射光栅**：在一块很平的玻璃上刻出一系列等距的平行刻痕，刻痕产生漫反射而不太透光，未刻的部分相当于透光的狭缝（图 4.5-5）。
 - **反射光栅**：如果在高反射率的金属上刻痕，就可以做成反射光栅。
 
-::img\[衍射光栅示意图]\{src="../image-3.avif" width="80%"}
-
+![衍射光栅示意图](/static/image/image-3.34fec8d330.avif)
 > **科学史话：泊松亮斑**
 >
 > 1818 年，法国的巴黎科学院为了鼓励对衍射问题的研究，悬赏征集这方面的论文。一位年轻的物理学家**菲涅耳**在论文中按照波动说深入研究了光的衍射。
@@ -561,8 +541,7 @@ $$
 
 让绳穿过一块带有狭缝的木板，先后将狭缝与振动方向平行放置及与振动方向垂直放置（图 4.6-1）。对于图 4.6-1 甲的情形，绳上的横波能穿过狭缝，而对于图 4.6-1 乙的情形则不能。如图 4.6-2，在一条弹簧上传播的纵波，无论狭缝的取向如何，波都能穿过。
 
-::img\[机械波的偏振]\{src="../image-5.avif" width="100%"}
-
+![机械波的偏振](/static/image/image-5.8aca8bb20a.avif)
 ### 光的偏振现象 \{#\_25}
 
 光的干涉和衍射现象说明光具有波动性。光是横波还是纵波呢？研究表明，**光是一种横波**。
@@ -574,8 +553,7 @@ $$
 
 事实上，只要光的振动方向不与透振方向垂直，它都可以不同程度地通过偏振片，不过强度要比振动方向与透振方向平行的光弱一些。
 
-::img\[偏振片原理]\{src="../image-6.avif" width="80%"}
-
+![偏振片原理](/static/image/image-6.b823c90ecd.avif)
 ### 自然光与偏振光 \{#\_26}
 
 实际上，太阳以及日光灯、发光二极管等普通光源发出的光，包含着在垂直于传播方向上沿一切方向振动的光，而且沿着各个方向振动的光波的强度都相同。这种光是\*\*"自然光"\*\*（图 4.6-4）。
@@ -591,8 +569,7 @@ $$
 
 光的偏振现象有很多应用。例如，摄影师在拍摄池中的游鱼、玻璃橱窗里的陈列物时，由于水面和玻璃表面的反射光的干扰，景象会不清楚。如果在照相机镜头前装一片**偏振滤光片**，转动滤光片，让它的透振方向与水面和玻璃表面的反射光的偏振方向垂直，就可以减弱反射光而使水下和玻璃后的景象清晰。
 
-::img\[偏振镜的效果]\{src="../image-7.avif" width="60%"}
-
+![偏振镜的效果](/static/image/image-7.2c65e8b655.avif)
 > **科学漫步：立体电影和偏振光**
 >
 > 观看立体电影（3D 电影）时，观众戴的眼镜就是一对透振方向互相垂直的偏振片。这个原理要从人眼看物的立体感说起。
@@ -618,10 +595,8 @@ $$
 
 根据光的偏振方向的不同，有强规律的偏振光（被称为完全偏振光）可以分为线偏振光、圆偏振光和椭圆偏振光。线偏振光，顾名思义为偏振方向呈直线；圆偏振光，依据偏振的旋转方向可分为左旋圆偏振与右旋圆偏振，或简称为左（右）旋圆偏；椭圆偏振光可分为左（右）旋椭偏。另外还有部分偏振光。其中左旋为逆时针方向，右旋为顺时针方向。
 
-::img\[alt text]\{src="../image-3-d4e31b1.avif"}
-
-::img\[alt text]\{src="../image-4-8076e3a.avif"}
-
+![alt text](/static/image/image-3-d4e31b1.03f9e83850.avif)
+![alt text](/static/image/image-4-8076e3a.9d216b885f.avif)
 部分偏振光、自然光以及三种完全偏振光合称为光的五种偏振态。
 
 1. 线偏振光：线偏振光是指光矢量的振动方向总在同一确定的平面内、而振动的方向在传播过程中为一条直线，故称之为线偏振光，又称平面偏振光。

@@ -96,8 +96,7 @@ $$
 
 - 将定义域限制在 $\displaystyle\left(-\frac\{1}\{e},0\right)$ 上，取其在 $(-\infty,-1)$ 上的函数值，那么就定义了一个单调递减的函数 $W\_\{-1}(x)$.
 
-::img\{src="../Mplwp\_lambert\_W\_branches.svg"}
-
+![alt text](/static/svg/Mplwp_lambert_W_branches.80012b75c8.svg)
 性质：当 $a\geq 0$ 时，$\{W(x)\cdot e^\{W(x)}=x}$，此外可以推出
 
 $$

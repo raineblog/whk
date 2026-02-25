@@ -6,8 +6,7 @@
 
 我们已经学过了恒定电流。在恒定电流的电路中，电源的电动势不随时间变化，电路中的电流、电压也不随时间变化。
 
-::img\[alt text]\{src="../e-image-43.avif" width="100%"}
-
+![alt text](/static/image/e-image-43.47476272cd.avif)
 很多用电器中的电流、电压（方向）也随时间做周期性变化，这样的电流叫作交变电流（Alternating Current，AC），简称交流。**方向**不随时间变化的电流称为直流（Direct Current，DC）。干电池供给的电流方向不随时间变化，所以属于直流。交变电流经过电子电路的处理，也能变成直流。
 
 注意：基尔霍夫定律定律适用于直流电路和较低频率的交流电路中，而对高频率的交流电路有较大误差。
@@ -26,16 +25,13 @@
 
 如图所示是一种非常简化的交流发电机模型，发电机产生的电流，大小和方向都在不断地变化，是一种交变电流。
 
-::img\[alt text]\{src="../e-image-33.avif" width="100%"}
-
+![alt text](/static/image/e-image-33.9c69d935c6.avif)
 可以根据右手定则来判断线圈运动时，因导体棒运动时，垂直于磁感线方向的速度不断变化，所以感应电动势也在变化，感应电流同时发生变化。下面是一个经典教材中的配图：
 
-::img\[alt text]\{src="../e-image-39.avif" width="100%"}
-
+![alt text](/static/image/e-image-39.0c48547b77.avif)
 设 $t=0$ 时线圈刚好转到中性面位置，此时导线 $AB$ 的速度方向刚好与磁感线平行，因此感应电动势为 $0$。不妨设线圈旋转的角速度为 $\omega$，$AB$ 和 $CD$ 的长度为 $\ell$，$AD$ 和 $BC$ 的长度为 $d$，则经过时间 $t$，线框转过的角度 $\theta=\omega t$，如图所示。
 
-::img\[alt text]\{src="../e-image-32.avif" width="85%"}
-
+![alt text](/static/image/e-image-32.45a3eb7461.avif)
 |        |    中性面   |   中性面垂面  |
 | :----: | :------: | :------: |
 |  线圈位置  | 线框与磁感线垂直 | 线框与磁感线平行 |
@@ -79,8 +75,7 @@ $$
 
 ### 交流电性质 \{#\_4}
 
-::img\[alt text]\{src="../e-image-35.avif" align="right" width="40%"}
-
+![alt text](/static/image/e-image-35.6c94401a6a.avif)
 交变电流与振动和波一样具有周期性。与任何周期性过程一样，交变电流也可以用周期或频率表示其变化的快慢。我们把交变电流完成一次周期性变化所需的时间，叫作它的周期，通常用 $T$ 表示，单位是秒。
 
 交变电流完成周期性变化的次数与所用时间之比叫作它的频率，数值等于交变电流在单位时间内完成周期性变化的次数。频率通常用 $f$ 表示，单位是 $\pu\{Hz}$ 赫兹。
@@ -220,16 +215,13 @@ $$
 
 互感器：常用于高压交流电的测量。
 
-::img\[alt text]\{src="../e-image-38.avif" width="90%"}
-
+![alt text](/static/image/e-image-38.34c23c1c28.avif)
 在电工中常用的电流钩表（因为形状是可以开合的钩表，因此也被称为钳形电流表）就是运用的电流互感器（现在更多的使用霍尔原理，更加灵敏），其不向上面右图那样接入电路，而是直接将铁环包在导线上：
 
-::img\[alt text]\{src="../e-image-40.avif" width="80%"}
-
+![alt text](/static/image/e-image-40.6977c6f017.avif)
 日字形变压器：对于这种形式的变压器，题目一般会给出磁通量在两条路径上的分摊百分比，根据比值计算即可。
 
-::img\[alt text]\{src="../e-image-34.avif" width="60%"}
-
+![alt text](/static/image/e-image-34.cfe409d4d0.avif)
 在此基础之上，我们引入等效匝数的概念，例如假设右侧磁通量等分，那么定义次级线圈的有效匝数为次级线圈匝数的一半，然后当做正常的变压器来做即可。
 
 $$
@@ -272,8 +264,7 @@ $$
 
 我们知道，电阻会对直流起阻碍作用，同样，电阻对交流也会起阻碍作用，此时我们引入阻抗的概念。
 
-::img\[alt text]\{src="../e-image-36.avif" width="100%"}
-
+![alt text](/static/image/e-image-36.8dcf7ab0c0.avif)
 **阻抗**：正弦交流电路中，二端网络端钮上电压的最大值（或有效值）与电流的最大值（或有效值）之比叫作该二端网络的阻抗，用字母 $Z$ 表示，单位是 $\Omega$。电容的电抗叫容抗，用 $X\_c$ 表示，电感的电抗叫感抗，用 $X\_L$ 表示。
 
 - **电感器对交变电流有阻碍作用**。
@@ -374,10 +365,8 @@ $$
 
 在此之后，交流电路有很多复杂的类型，很多也是大学物理才会接触到的，尤其是涉及到相位等等，会较为复杂，甚至需要使用微积分来解决。我们下面只进行一个简单的概念处理，更多内容可以自行学习。
 
-::img\[alt text]\{src="../e-image-53.avif" width="70%"}
-
-::img\[alt text]\{src="../e-image-54.avif" width="70%"}
-
+![alt text](/static/image/e-image-53.3e94d05429.avif)
+![alt text](data:image/avif;base64,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)
 在有些电子线路中，从某一部分电路输出的电流中既有交流成分，又有直流成分。如果和它连接的下一级电路只需要其中的交流成分，可以在两个电路之间串联一个电容器，使直流成分不能通过，作这种用途的电容器叫做隔直电容器。
 
 在有的电子线路中，交流电既有高频成分，又有低频成分。如果下一级电路只需要低频交流电，就可以在它的输入端并联一个电容器，由于电容器对高频电流容抗较小，大部分高频电流分流到电容器所在的支路，反之，电容器对低频电路的容抗较小，通过它的低频电流很小，这样大部分低频电流便输入下一级电路，作这种用途的电容器叫做高频旁路电容器。
@@ -414,8 +403,7 @@ $$
 
 中国大陆的电路，有效电压为 $\pu\{220V}$，峰值电压约为 $\pu\{311V}$，频率为 $\pu\{50Hz}$。欧洲大部分国家使用 $\pu\{50Hz}$，墨西哥、美国、加拿大使用 $\pu\{60Hz}$，由于历史原因，日本的电力系统包含了 $\pu\{50Hz}$ 和 $\pu\{60Hz}$，两者以高压直流联网。
 
-::img\[alt text]\{src="../Alternator\_1.svg" align="right" width="40%"}
-
+![alt text](/static/svg/Alternator_1.3efafc9f9f.svg)
 发电厂里的交流发电机的构造复杂得多，但是基本组成部分也是两部分，即产生感应电动势的线圈（通常叫作电枢）和产生磁场的磁体。电枢转动，磁极不动的发电机，叫作旋转电枢式发电机。如果磁极转动，电枢不动，线圈中同样会产生感应电动势，这种发电机叫作旋转磁极式发电机。不论哪种发电机，转动的部分都叫转子，不动的部分都叫定子。
 
 旋转电枢式发电机转子产生的电流，必须经过裸露的滑环和电刷引到外电路，如果电压很高，可能发生火花放电，滑环和电刷很快会烧坏。同时，转动的电枢无法做得很大，线圈匝数也不可能很多，所以产生的感应电动势也不能很高。这种发电机输出的电压一般不超过 $\pu\{500 V}$。旋转磁极式发电机克服了上述缺点，能够产生几千伏到几万伏的电压，输出功率可达几百兆瓦。所以，大多数发电机是旋转磁极式的。
@@ -426,8 +414,7 @@ $$
 
 电网供电：实际上发电厂供给的电能要经过多次转换才能到达用户，这里只讨论原理，所以把问题简化了。
 
-::img\[alt text]\{src="../e-image-41.avif" width="100%"}
-
+![alt text](/static/image/e-image-41.887762423d.avif)
 一般发电机组输出的电压在 $\pu\{10 kV}$ 左右，不符合远距离送电的要求。因此，要用升压变压器升压到几百千伏后再向远距离送电。到达数百千米甚至数千千米之外的用电区之后，先在"一次高压变电站"降到 $\pu\{100 kV}$ 左右，在更接近用户的地点再由"二次高压变电站"降到 $\pu\{10 kV}$ 左右。然后，一部分电能送往用电量大的工业用户，另一部分经过低压 变电站降到 $\pu\{220 V}$ 或 $\pu\{380 V}$，送给其他用户。
 
 现在世界各国都不采用一个电厂与一批用户的"一对一"的供电方式，而是通过网状的输电线、变电站，将许多电厂和广大用户连接起来，形成全国性或地区性的输电网络，这就是电网。采用电网送电，是输电技术的重要发展。这样可以在一次能源产地使用大容量的发电机组，降低一次能源的运输成本，获得最大的经济效益。电网可以减小断电的风险，调剂不同地区电力供需的平衡。使用电网，可以根据火电、水电、核电的特点，合理地调度电力，这就使得电气化社会的主要能源------电力的供应更加可靠，质量更高。
@@ -453,13 +440,11 @@ $$
 
 它们随时间变化的曲线如图 5-24 所示。这种幅值、频率相同而相位彼此差 $\frac\{2}\{3}\pi$ 的三个交流电，叫做**三相交流电**，每个线圈产生的交流电叫做三相交流电的一相。
 
-::img\[alt text]\{src="../e-image-55.avif" width="80%"}
-
-![alt text](/static/image/e-image-56.7d7163fdd6.avif){width="80%"}
+![alt text](/static/image/e-image-55.101c33c90f.avif)
+![alt text](/static/image/e-image-56.7d7163fdd6.avif)
 相电压和线电压：把三相发电机中的三个线圈各自独立地分别与外电路连接，便可得到三个交流电路，这样做需用六根输电线。实际上，总是把每个线圈的末端 $X$、$Y$、$Z$ 连接在一起，从它们的公共点 $O$ 引出一根导线，再从三个线圈的始端 $A$、$B$、$C$ 各引出一根导线，共用四根导线向外输电，如图 5-25 所示。线圈的这种连接方法叫做**星形接法**，采用这种接法向外送电叫做**三相四线制**，其中从 $A$、$B$、$C$ 三个始端引出的输电线叫做**相线**（俗称火线），从公共端引出的输电线叫做**中性线**或**零线**，因其常与大地相连接，俗称**地线**。
 
-::img\[alt text]\{src="../e-image-57.avif" width="40%"}
-
+![alt text](/static/image/e-image-57.de36a14af9.avif)
 三相四线制对外电路提供两种电压，一种是每相线圈两端的电压，即相线和中性线之间的电压，叫做**相电压**，可用有效值表示为
 
 $$
@@ -488,16 +473,13 @@ $$
 
 三相电路中负载的连接：在三相交流电路中，负载（用电器）的连接方式有星形连接（$Y$ 连接）和三角形连接（$\Delta$ 连接）两种。
 
-::img\[alt text]\{src="../e-image-58.avif" width="40%"}
-
+![alt text](/static/image/e-image-58.c7af3b339e.avif)
 星形连接如图 5-26 所示，在每根相线和中性线之间各接一个负载。这样，加在每个负载上的电压都等于相电压，通过每个负载的电流跟通过与它连接的相线的电流相等，例如通过负载 1 的电流 $i\_1$ 等于相线 $A$ 的电流 $i\_A$。中性线是三相负载的公用线，通过它的电流 $i\_0$ 是三个负载电流的总和。如果三相负载完全相同，例如它们是三个等值电阻或三个相同的线圈，则每相电流的最大值（或有效值）相等，角频率相等，只是相位彼此差 $\frac\{2}\{3}\pi$，虽然因此在任何时刻它们的瞬时值并不相等，但用三角公式可以证明，在这种情况下通过各相的电流的瞬时值之和恒等于零，即中性线的电流 $i\_0$ 等于零。
 
-::img\[alt text]\{src="../e-image-60.avif" width="65%"}
-
+![alt text](/static/image/e-image-60.2dc6518ce3.avif)
 于是，送电时就可以省去中性线。常用的三相感应电动机的三个线圈是完全相同的，按图 5-27 所示电路给它供电，就能正常工作。这样的只用三根导线的输电方式叫**三相三线制**。在家用电路中，各户用电设备分别连接在某一相电路中，各相负载不尽相同，而且经常变化，中性线中的电流很难正好等于零，因此不能取消中性线。
 
-::img\[alt text]\{src="../e-image-59.avif" width="40%"}
-
+![alt text](/static/image/e-image-59.f293ada36a.avif)
 三角形连接如图 5-28 所示，负载分别接在不同的两根相线之间，加在负载上的电压都是线电压，这时也用三相三线制输电。在这种情况下，通过相线的电流和通过每相负载的电流不相等。但是，在三相负载相同时，可以证明，前者等于后者的 $\sqrt\{3}$ 倍。
 
 ## 电磁振荡 \{#\_9}
@@ -513,8 +495,7 @@ $$
 
 先把开关置于电源一侧，为电容器充电；稍后再把开关置于线圈一侧，使电容器通过线圈放电。观察示波器显示的电压的波形，电路的电压发生周期性的变化，电路中的电流也发生周期性的变化。像这样大小和方向都做周期性迅速变化的电流，叫作振荡电流，产生振荡电流的电路叫作振荡电路。上图中，当开关置于线圈一侧时，由电感线圈 L 和电容 C 组成的电路，就是最简单的振荡电路，称为 LC振荡电路。
 
-::img\[alt text]\{src="../e-image-45.avif" width="100%"}
-
+![alt text](/static/image/e-image-45.e39206ee58.avif)
 1. 在开关掷向线圈一侧的瞬间，也就是电容器刚要放电的瞬间，电路里没有电流，电容器两极板上的电荷最多。
 
 2. 电容器开始放电后，由于线圈的自感作用，放电电流不能立刻达到最大值，而是由 $0$ 逐渐增大，同时电容器极板上的电荷逐渐减少。到放电完毕时，放电电流达到最大值，电容器极板上没有电荷。
@@ -523,16 +504,14 @@ $$
 
 4. 此后电容器再放电、再充电。这样不断地充电和放电，电路中就出现了大小、方向都在变化的电流，即出现了振荡电流。
 
-::img\[alt text]\{src="../e-image-46.avif" width="70%"}
-
+![alt text](/static/image/e-image-46.ea62e59db0.avif)
 在整个过程中，电路中的电流 $i$、电容器极板上的电荷量 $q$、电容器里的电场强度 $E$、线圈里的磁感应强度 $B$（在磁场中储存的能量），都在周期性地变化着。这种现象就是电磁振荡。
 
 电磁振荡与机械振动虽然有着本质的不同，但它们还是具有一些共同的特点。在机械振动中，例如在单摆的振动中，位移 $x$、速度 $v$、加速度 $a$ 这几个物理量周期性地变化。在电磁振荡中，电荷量 $q$、电流 $i$、电场强度 $E$、磁感应强度 $B$ 这几个物理量也在周期性地变化。
 
 从能量的观点来看，在机械振动中，动能与势能周期性地相互转化。而在电磁震荡中，电容器刚要放电时，电容器里的电场最强，电路里的能量全部储存在电容器的电场中；电容器开始放电后，电容器里的电场逐渐减弱，线圈的磁场逐渐增强，电场能逐渐转化为磁场能；在放电完毕的瞬间，电场能全部转化为磁场能；之后，线圈的磁场逐渐减弱，电容器里的电场逐渐增强，磁场能逐渐转化为电场能；到反方向充电完毕的瞬间，磁场能全部转化为电场能。所以，在电磁振荡的过程中，电场能和磁场能会发生周期性的转化。
 
-::img\[alt text]\{src="../e-image-62.avif" width="100%"}
-
+![alt text](/static/image/e-image-62.9dd909f1a5.avif)
 如果没有能量损耗，振荡可以永远持续下去，振荡电流的振幅保持不变。但是，任何电路都有电阻，电路中总会有一部分能量会转化为内能。另外，还会有一部分能量以电磁波的形式辐射出去。这样，振荡电路中的能量就会逐渐减少，振荡电流的振幅也就逐渐减小，直到最后停止振荡。如果能够适时地把能量补充到振荡电路中，以补偿能量损耗，就可以得到振幅不变的等幅振荡。实际电路中由电源通过电子器件为 LC 电路补充能量。
 
 电磁振荡完成一次周期性变化需要的时间叫作周期。电磁振荡完成周期性变化的次数与所用时间之比叫作它的频率，数值等于单位时间内完成的周期性变化的次数。理论分析表明，LC 电路的周期 $T$ 与电感 $L$、电容 $C$ 的关系是：
@@ -571,8 +550,7 @@ $$
 
 ### 电磁场理论 \{#\_11}
 
-::img\[alt text]\{src="../e-image-61.avif" width="100%"}
-
+![alt text](/static/image/e-image-61.cc7f129fcc.avif)
 麦克斯韦电磁场理论的核心有二：
 
 - 变化的磁场产生电场（法拉第电磁感应）：
@@ -589,8 +567,7 @@ $$
 
 麦克斯韦还进一步指出，不仅是电容器中的电场，任何变化的电场都能在其周围空间激发磁场，而且如果电场的变化是均匀的，即 $\frac\{\Delta E}\{\Delta t}$ 为某一恒量，则激发的磁场是稳定的，即其磁感应强度不随时间变化；如果电场的变化是不均匀的，即 $\frac\{\Delta E}\{\Delta t}$ 本身也随时间变化，则产生的磁场也随时间变化。由此可知，交变电场激发的磁场也是交变的。
 
-::img\[alt text]\{src="../e-image-47.avif" width="80%"}
-
+![alt text](/static/image/e-image-47.06262fd500.avif)
 根据麦克斯韦理论中的上述两点可以看出，电场和磁场是紧密地联系在一起的，不可能在建立交变磁场的同时，在空间不产生交变电场，反之，交变电场也不可能脱离交变磁场而单独存在。变化的电场和磁场总是相互联系的，形成一个不可分割的统一的电磁场，变化的电场和变化的磁场是不可分离的统一的场，人们称之为**电磁场**。如果在空间某区域有周期性变化的电场，就会在周围引起变化的磁场，变化的电场和磁场又会在较远的空间引起新的变化的电场和磁场。这样变化的电场和磁场由近及远地向周围传播，形成了电磁波。
 
 我们以前学过的静电场或恒磁场是不是单独存在的呢？一小车相对于地面运动，车上的金属球带有电荷，对于站在小车上的观察者，电荷是静止的，只有静电场；但对于站在地面上的观察者，电荷是运动的，一方面，运动的电荷激发磁场，另一方面，运动的电荷也是电荷，它也将激发电场，只是这电场的分布会与静电场有所不同罢了。由此可见，电荷的周围是只存在电场，还是同时存在电磁场，是和参考系的选择有关的。在第二章学习恒定电流时，我们仅仅指出电路中各处电荷的积累使导线内部产生了恒定电场，其实在电路的外部也存在着恒定电场，而且存在着由恒定电流激发的磁场。这也表明，电场和磁场是紧密联系着的。所以，一般而言，电场和磁场总是相伴而存在的。
@@ -599,16 +576,14 @@ $$
 
 在机械波中，振动的传播需要具有弹性的介质，而电磁波则不需要任何介质，在真空中也能传播，这是由电磁波的本性所决定的。因为电磁波的传播，靠的是电和磁的相互"感应"，而不是靠介质的机械传递。麦克斯韦从理论上预见，电磁波在真空中的传播速度等于光速 $c$，由此，麦克斯韦预言了光是电磁波！他说："我们有充分的理由断定，光本身是......按电磁波规律传播的一种电磁振动。"
 
-::img\[alt text]\{src="../e-image-48.avif" width="40%"}
-
+![alt text](/static/image/e-image-48.e93f4477e8.avif)
 根据麦克斯韦的电磁场理论，电磁波在真空中传播时，它的电场强度 $E$ 与磁感应强度 $B$ 互相垂直，而且二者均与波的传播方向垂直。图 4.2-3 表示做正弦变化的电场或磁场所引起的电磁波在某一时刻的图像。机械波中，位移这个物理量随时间和空间做周期性变化。而在电磁波中，电场强度 $E$ 和磁感应强度 $B$ 这两个物理量随时间和空间做周期性变化。
 
 坡印廷矢量：在直流电路或交流输电中，能量不是在导线电子中挤来挤去，而是通过导线周围的电磁场空间传输的！导线只是起到了"波导"的作用，引导场沿着线路走。这也解释了为什么远距离输电需要高压。高压意味着强电场，结合磁场，使得单位体积内的能量密度更高，传输更有效率。
 
 1886 年，赫兹在做放电实验时发现附近未闭合的线圈也出现了电火花。于是他制作了一套仪器，试图用来发射和接收电磁波。仪器中有一对抛光的金属小球，两球之间有很小的空气间隙。将两个球连接到产生高电压的感应圈的两端时，两球之间就出现了火花放电。
 
-::img\[alt text]\{src="../e-image-49.avif" width="90%"}
-
+![alt text](/static/image/e-image-49.fc3a15d634.avif)
 仪器的另一部分是弯成环状的导线，导线两端也安装两个金属小球，小球之间也有空隙。当把这个导线环放在距感应圈不太远的位置时，他观察到：当感应圈两个金属球间有火花跳过时，导线环两个小球间也跳过了火花。这是一个令人振奋的现象！电磁波从发射器到达了接收器。这个过程是怎样发生的呢？当与感应圈相连的两个金属球间产生电火花时，周围空间出现了迅速变化的电磁场。这种变化的电磁场以电磁波的形式在空间传播。当电磁波到达导线环时，它在导线环中激发出感应电动势，使得导线环的空隙中也产生了火花，说明这个导线环接收到了电磁波。在以后的一系列实验中，赫兹观察到了电磁波的反射、折射、干涉、偏振和衍射等现象。他还测得电磁波在真空中的速度等于光速 $c$，证明了电磁波与光的统一性。这样，赫兹证实了麦克斯韦的电磁场理论。赫兹的实验为无线电技术的发展开拓了道路，后人为了纪念他，把频率的单位定为赫兹。
 
 上述实验所表明的仅仅是，电磁振源确实通过电场和磁场的相互激发把电磁场传播出去了，但是这种传播是否一定是以波动的形式呢？为此，赫兹又做了一系列实验。首先，他把两米长的锌板弯成抛物柱面的形状，把发射器和接收器分别放在两柱面的焦线上。调节感应圈使振子产生火花，发射电磁波。他发现当接收器的柱面与发射器的柱面正对着时，接收器出现火花；当接收器及其柱面放在其他位置时，接收器不出现火花。这表明，电磁波具有直线传播和聚焦的性质，与光波相同。其次，在振子前方放一块锌板，用来反射电磁波，用接收器探测空间各处电磁波的分布。发现当接收器与振子所处位置的 $\theta' = \theta$ 时，有火花出现，当接收器在其他位置时，无火花出现。这表明，电磁波和光波一样，遵守反射定律。再则，他使从振子发出的电磁波入射在用硬沥青做成的很大的三棱体上，然后用接收器探测电磁波有无折射及折射后的分布，得出沥青对电磁波的折射率 $n = 1.69$，与由麦克斯韦理论计算的折射率数据相符。这表明，电磁波与光波一样遵守折射定律。赫兹还让振子发出的电磁波正入射到锌板上，结果入射电磁波与反射电磁波叠加形成驻波。用接收器检测，在某些位置有较强火花，另外一些位置则完全没有火花，它们分别对应驻波的波腹和波节，空间周期性十分明显。由相邻波节（或波腹）的距离测出电磁波的波长 $\lambda$，估算出电磁振源的频率 $\nu$，再由 $c = \lambda \nu$ 计算出在空气中的传播速度，与光速十分接近。除上述之外，赫兹还用一块有孔的屏阻挡电磁波。产生了衍射；将电磁波通过许多平行导线组成的栅栏，使电磁波偏振，证实电磁波是一种横波。总而言之，赫兹的一系列实验，令人信服地证明了电磁波与光波的统一性，证实了麦克斯韦电磁场理论各种有关预言的正确性。从此，麦克斯韦的电磁场理论得到了科学界的普遍赞赏，并预示着无线电科学与技术时代的到来。
@@ -621,12 +596,10 @@ $$
 
 研究表明，要有效地发射电磁波，振荡电路必须具有如下两个特点。第一，要有足够高的振荡频率。振荡电路向外界辐射能量的本领，与振荡频率密切相关。频率越高，发射电磁波的本领就越大。因此，要发射电磁波，就需要用振荡器产生很高频率的电磁振荡。第二，振荡电路的电场和磁场必须分散到尽可能大的空间，这样才能有效地把能量辐射出去。
 
-::img\[alt text]\{src="../e-image-50.avif" width="60%"}
-
+![alt text](/static/image/e-image-50.6188a5b8d0.avif)
 因此，要改造"问题"图中的 LC 振荡电路，像图甲、乙那样，将电容器两个极板拉开，增大电容器极板间的距离，减小极板间的正对面积，从而使电场和磁场扩展到电容器的外部。这样的振荡电路叫作开放电路。开放电路甚至可以演化成为一条导线（丙），这样就可以有效地把电磁波发射出去了。这里描述的天线用于长波、中波、短波的无线电广播和通信。电视广播和微波通信的天线，在结构和原理上都与这种天线不同。
 
-::img\[alt text]\{src="../e-image-51.avif" align="right" width="30%"}
-
+![alt text](/static/image/e-image-51.083e041983.avif)
 闭合回路的场大多局限在附近（近场），但一旦有加速电荷（时间变化电流）并且结构允许场线"延伸到远方"，就会产生辐射场（远场），能量真正离开天线传播出去。严格的辐射推导需要使用延迟势与多极展开，这属于大学电动力学内容。
 
 实际应用中的开放电路，线圈的一端用导线与大地相连，这条导线叫作地线；线圈的另一端与高高地架在空中的天线相连。无线电波就能由这样的开放电路有效地发射出去。为了利用电磁波传递信号，例如传递声音、电视图像，就要让高频的电磁波随着被传递的信号而改变。这种用来携带信号的高频电磁波叫作载波。在电磁波发射技术中，使载波随各种信号而改变的技术叫作调制。一种调制的方法是使高频电磁波的振幅随信号的强弱而变，这种调制叫作调幅（AM）；另一种调制的方法是使高频电磁波的频率随信号的强弱而变，这种调制叫作调频（FM）。
@@ -723,8 +696,7 @@ $$
 
 无线电波广泛应用于通信、广播及其他信号传输。广播电台和电视台都有发射无线电波的设备，雷达也是利用无线电波来测定物体位置的无线电设备。电磁波遇到障碍物要发生反射，雷达就是利用电磁波的这个特性工作的。波长短的电磁波，由于衍射现象不明显，传播的方向性好，有利于用电磁波定位，因此雷达用的是微波。移动电话也应用了无线电波。每一部移动电话都是一个无线电台，它将用户的信息转变为高频电信号发射到空中；同时它又捕捉空中的电磁波，使用户接收到对方送来的信息。许多自然过程也辐射无线电波。天文学家用射电望远镜接收天体辐射的无线电波，进行天体物理研究。
 
-::img\[alt text]\{src="../e-image-52.avif" width="100%"}
-
+![alt text](/static/image/e-image-52.ed3e2e3868.avif)
 红外线：波长比无线电波短，比可见光长。所有物体都发射红外线。热物体的红外辐射比冷物体的红外辐射强。红外探测器能在较冷的背景上探测出较热物体的红外辐射，这是红外夜视仪和热像仪工作的基础。用灵敏的红外探测器接收远处物体发出的红外线，然后用电子电路对信号进行处理，可以得知被测对象的形状及温度、湿度等参数。这就是红外遥感技术。利用红外遥感技术可以在飞机或人造地球卫星上勘测地热、寻找水源、监视森林火情、预报风暴和寒潮。红外遥感技术在军事上的应用也十分重要。人体也在发射红外线，体温越高，发射的红外线越强。根据这个原理制成的红外体温计不与身体接触也可以测量体温。
 
 可见光：能使人的眼睛产生视觉效应的电磁波，称为可见光。可见光的波长为 $\pu\{400\sim760 nm}$。科学研究发现，波长（频率）范围不同的光表现为不同的颜色，不同的人对光的感觉不完全一样，因此对不同人群测量所得的数据也不完全一样。不同波长的单色光组合也能产生不同的颜色，我们看到的阳光就是由各种色光组成的。人类的眼睛正是通过这一波段的电磁波，获得了外部世界的大量信息。

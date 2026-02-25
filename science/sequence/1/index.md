@@ -726,7 +726,7 @@ $$
 一个特点：前面保留几项，后面就保留几项。例如
 
 $$
-\begin\{aligned} \sum\_\{k=1}^n \frac\{1}\{k(k+2)}&=\frac\{1}\{2}(1-\frac\{1}\{3}+\frac\{1}\{2}-\frac\{1}\{4}+\dots+\frac\{n}\{1}-\frac\{1}\{n+2})&=\frac\{1}\{2}(1+\frac\{1}\{2}-\frac\{1}\{n+1}-\frac\{1}\{n+2}) \end\{aligned}
+\begin\{aligned} \sum\_\{k=1}^n \frac\{1}\{k(k+2)}&=\frac\{1}\{2}(1-\frac\{1}\{3}+\frac\{1}\{2}-\frac\{1}\{4}+\dots+\frac\{n}\{1}-\frac\{1}\{n+2})\\&=\frac\{1}\{2}(1+\frac\{1}\{2}-\frac\{1}\{n+1}-\frac\{1}\{n+2}) \end\{aligned}
 $$
 
 现在我们要学习一些高难度的裂项。坐稳了，前方高能！
@@ -1410,7 +1410,7 @@ $$
 下式两边同时乘二，得，
 
 $$
-2c\_n=3+\{2\times3-1\over2^1}+\{2\times4-1\over2^2}+\dots+\{2(n-1)-1\over2^\{n-3}}+\{2n-1\over2^\{n-2}}\
+2c\_n=3+\{2\times3-1\over2^1}+\{2\times4-1\over2^2}+\dots+\{2(n-1)-1\over2^\{n-3}}+\{2n-1\over2^\{n-2}}\\
 $$
 
 与原式相减，得，

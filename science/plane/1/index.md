@@ -133,8 +133,7 @@ $$
 
   起点为两个向量共有的起点，方向沿平行四边形对角线方向。
 
-::img\[alt text]\{src="../image-2.avif"}
-
+![alt text](/static/image/image-2.7c65e15230.avif)
 这样，向量的加法就具有了几何意义。并且向量的加法满足交换律与结合律。
 
 然后从几何的角度可以推出一些公式，其中三角形法则的公式比较简单，如下：
@@ -297,13 +296,13 @@ $$
 即，
 
 $$
-|\bm a|^2+2\bm a\cdot\bm b+|\bm b|^2=|\bm a+\bm b|^2\ \bm a\cdot\bm b=\{1\over2}\left(|\bm a+\bm b|^2-|\bm a|^2-|\bm b|^2\right)\
+|\bm a|^2+2\bm a\cdot\bm b+|\bm b|^2=|\bm a+\bm b|^2\ \bm a\cdot\bm b=\{1\over2}\left(|\bm a+\bm b|^2-|\bm a|^2-|\bm b|^2\right)\\
 $$
 
 总结一下，上面两个式子，
 
 $$
-\bm a\cdot\bm b=\{1\over4}\left(|\bm a+\bm b|^2-|\bm a-\bm b|^2\right)\ \bm a\cdot\bm b=\{1\over2}\left(|\bm a+\bm b|^2-|\bm a|^2-|\bm b|^2\right)\
+\bm a\cdot\bm b=\{1\over4}\left(|\bm a+\bm b|^2-|\bm a-\bm b|^2\right)\ \bm a\cdot\bm b=\{1\over2}\left(|\bm a+\bm b|^2-|\bm a|^2-|\bm b|^2\right)\\
 $$
 
 再结合点乘的定义，
@@ -317,7 +316,7 @@ $$
 特殊的，
 
 $$
-\theta=0,(\cos\theta=1),,\bm a\cdot\bm b=|\bm a|\cdot|\bm b|\ \theta=\pi,(\cos\theta=-1),,\bm a\cdot\bm b=-|\bm a|\cdot|\bm b|\ \theta=\pi/2,(\cos\theta=0),,\bm a\cdot\bm b=0\ \bm a\cdot\bm a=|\bm a|^2,,|\bm a|=\sqrt\{\bm a\cdot\bm a}\
+\theta=0,(\cos\theta=1),,\bm a\cdot\bm b=|\bm a|\cdot|\bm b|\ \theta=\pi,(\cos\theta=-1),,\bm a\cdot\bm b=-|\bm a|\cdot|\bm b|\ \theta=\pi/2,(\cos\theta=0),,\bm a\cdot\bm b=0\ \bm a\cdot\bm a=|\bm a|^2,,|\bm a|=\sqrt\{\bm a\cdot\bm a}\\
 $$
 
 经典的套路是，见模长便平方。
@@ -432,8 +431,7 @@ $$
 
 ### 等系数和线 \{#\_21}
 
-::img\[等系数和线]\{src="../等系数和线.avif" width="100%"}
-
+![等系数和线](/static/image/等系数和线.c3b4f4dc3a.avif)
 证明过程：
 
-::img\[等和线]\{src="../image-1.avif" width="100%"}
+![等和线](/static/image/image-1.8fbca10c55.avif)

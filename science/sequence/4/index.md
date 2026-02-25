@@ -80,7 +80,7 @@ $$
 容易发现，
 
 $$
-\begin\{array}\{c|c} \begin\{aligned} Q\_0&=\alpha\ Q\_1&=\beta\ Q\_2&=\{1+\beta\over\alpha}\ Q\_3&=\{1+\alpha+\beta\over\alpha\beta}\ Q\_4&=\{1+\alpha\over\beta} \end\{aligned}& \begin\{aligned} Q\_5&=\alpha\ Q\_6&=\beta\ \dots\\\ \end\{aligned} \end\{array}
+\begin\{array}\{c|c} \begin\{aligned} Q\_0&=\alpha\ Q\_1&=\beta\ Q\_2&=\{1+\beta\over\alpha}\ Q\_3&=\{1+\alpha+\beta\over\alpha\beta}\ Q\_4&=\{1+\alpha\over\beta} \end\{aligned}& \begin\{aligned} Q\_5&=\alpha\ Q\_6&=\beta\ \dots\\\\\\\\\ \end\{aligned} \end\{array}
 $$
 
 是一个周期函数，结论：

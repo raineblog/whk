@@ -48,8 +48,7 @@ $$
 
 ### 小船过河问题 \{#\_4}
 
-::img\[过河问题]\{src="../过河问题.avif" align="right" width="40%"}
-
+![过河问题](/static/image/过河问题.b2ef2eb3ba.avif)
 如果船速大于水速：
 
 - 垂直河对岸：时间最短。
@@ -123,7 +122,7 @@ $$
 2. 以抛射点为坐标原点，在抛射平面（竖直平面）内建立直角坐标系，再把方程中各矢量沿 $x,y$ 方向分解。如果在抛射平面内分别取水平方向和竖直向上方向为 $x,y$ 轴方向，那么抛体运动方程的分量形式为：
 
 $$
-\begin\{aligned} \&v\_x=v\_0\cos\theta&&\kern\{1em}v\_y=v\_0\sin\theta-gt\[0.5em] \&x=(v\_0\cos\theta)t&&\kern\{1em}y=(v\_0\sin\theta)t-gt^2/2 \end\{aligned}
+\begin\{aligned} \&v\_x=v\_0\cos\theta&&\kern\{1em}v\_y=v\_0\sin\theta-gt\\\[0.5em] \&x=(v\_0\cos\theta)t&&\kern\{1em}y=(v\_0\sin\theta)t-gt^2/2 \end\{aligned}
 $$
 
 这表示，抛体运动可以看成：
@@ -171,7 +170,7 @@ $$
 此时 $x,y$ 方向的运动均为匀变速直线运动，它们在 $x,y$ 方向的分运动方程分别为：
 
 $$
-\begin\{aligned} \&v\_x=v\_0\cos\theta\pm(g\sin\varphi)t&&\kern\{1em}v\_y=v\_0\sin\theta-(g\cos\varphi)t\[0.5em] \&x=(v\_0\cos\theta)t\pm(g\sin\varphi)t^2/2&&\kern\{1em}y=(v\_0\sin\theta)t-(g\cos\varphi)t^2/2 \end\{aligned}
+\begin\{aligned} \&v\_x=v\_0\cos\theta\pm(g\sin\varphi)t&&\kern\{1em}v\_y=v\_0\sin\theta-(g\cos\varphi)t\\\[0.5em] \&x=(v\_0\cos\theta)t\pm(g\sin\varphi)t^2/2&&\kern\{1em}y=(v\_0\sin\theta)t-(g\cos\varphi)t^2/2 \end\{aligned}
 $$
 
 正号为斜面向下，负号为斜面向上，如图：
@@ -183,8 +182,7 @@ $$
 
 ### 斜面平抛 \{#\_11}
 
-::img\[抛体]\{src="../抛体运动.svg" width="90%"}
-
+![抛体](/static/svg/抛体运动.f0282e6192.svg)
 从斜面上高点抛出，到最低点因为位偏角相等，因此速偏角相等，打到斜面上的速度夹角相同，三角形相似。
 
 从斜面上方反向抛出，做出等高的线，这条线上存在初速度与水平位移的正比例。
@@ -205,8 +203,7 @@ $$
 
 根本：将速度、位移按照效果分解。
 
-::img\[矢量法]\{src="../矢量法.avif" width="90%"}
-
+![矢量法](/static/image/矢量法.3821e14528.avif)
 通常结合功动能定理。
 
 ### 类平抛运动 \{#\_14}

@@ -10,8 +10,7 @@
 
 我们将一个小球连在一个理想弹簧上，放在光滑平面上，我们称小球在运动方向上合力为零的位置称为**平衡位置**（通常是弹簧原长），把小球和弹簧所组成的系统称为**弹簧振子**，也可以简称为振子。
 
-::img\[alt text]\{src="../m-image-9.avif" width="40%"}
-
+![alt text](/static/image/m-image-9.57f4e3a4dc.avif)
 一般来说，默认称位移即为从平衡位置的距离，位移的正负通常需要规定正方向。
 
 - 在平衡位置，速度最大，弹性势能最小。
@@ -60,12 +59,10 @@ $$
 
 我们把同一直线上频率相近的两个简谐振动合成时，所产生的合振幅时而加强时而减弱的周期性现象，叫做**拍**。单位时间内合振幅加强或减弱的次数叫做**拍频**。
 
-::img\[alt text]\{src="../m-image-5.avif" width="60%"}
-
+![alt text](/static/image/m-image-5.a3d5b22e93.avif)
 拍现象的规律常被用来校正乐器，如当钢琴的钢丝发出来的声音的频率与标准音叉的频率略有差异时，便出现"拍"现象。这时调整钢丝的松紧，直到拍音消失，钢琴就告调好。在吹奏双簧管时，因管内的双簧片的频率略有差异，从而可听到悦耳的有节奏的拍音。
 
-::img\[alt text]\{src="../m-image-6.avif" width="80%"}
-
+![alt text](/static/image/m-image-6.75ab16c86a.avif)
 实验表明，任何复杂的周期性运动，都可以看作频率成整数倍的简谐振动的合振动。频率最低的叫做基音，其余的叫做泛音。音高是由基音决定的，而音色是由泛音的多少、频率和振幅决定的。
 
 傅里叶分析：任何周期性波动都可分解为简谐波的叠加，将合波动拆解为分波动的一种常用算法为傅里叶变换。
@@ -76,8 +73,7 @@ $$
 
 由于实际的振动系统都会受到摩擦力、黏滞力等阻碍作用，振幅必然逐渐减小。这种振幅随时间逐渐减小的振动称为阻尼振动。
 
-::img\[alt text]\{src="../m-image-14.avif" width="40%"}
-
+![alt text](/static/image/m-image-14.3cee308a51.avif)
 振动系统能量衰减的方式通常有两种。
 
 - 一种是由于振动系统受到摩擦阻力的作用，使振动系统的机械能逐渐转化为内能。例如单摆运动时受到空气的阻力。
@@ -254,8 +250,7 @@ $$
 
 漏斗漏沙子模型：一条细绳拴着一个装满沙子的漏斗，做单摆运动，沙子缓慢均匀漏下，下方垫一块匀速运动的毯子，则沙子在毯子上留下的轨迹近似为一个正弦图像。
 
-::img\[alt text]\{src="../m-image-13.avif" width="60%"}
-
+![alt text](/static/image/m-image-13.704bf3501d.avif)
 一些性质：
 
 - 沙子不断漏下，因此整体的重心先下降再上升，因此 $\ell$ 先增大后减小，周期也同样先增大后减小。
@@ -310,10 +305,8 @@ $$
 
 - 面波（例如水波）：沿两种不同密度的介质的界面传播，面波可分为瑞利波和勒夫波，其内容较为复杂，高中课内不涉及。
 
-::img\[alt text]\{src="../m-image-7.avif"}
-
-::img\[alt text]\{src="../m-image-8.avif"}
-
+![alt text](/static/image/m-image-7.62e6158bf5.avif)
+![alt text](/static/image/m-image-8.28ad3707e3.avif)
 波在绳、杆、弹簧中只能沿绳、杆和弹簧的方向传播，但在气体、液体和固体充满某一部分空间的情况下，波是从波源向所有方向传播的。为了形象地描述波的传播方向，可自波源沿各传播方向画一些带箭头的线，这种表示波的传播方向的线叫做波线。同样，我们也可把在某时刻相位相同（真正的相同，即相位差为零）的点连起来，形成一个曲面或平面，并称之为波面或波阵面。波传播中最前面的波面叫波前，它描述波在该时刻传播到的最远位置。在任何时刻，波前只有一个，但波面却有许许多多。
 
 一个点波源的振动在某种介质中向各个方向传播时，如果沿各方向传播速率相等，在任何时刻波面和波前都是以点波源为中心的球面，这种波称为球面波。具有"波的传播速度与方向无关"这种性质的介质称为各向同性介质。在各向同性介质中波面与波线正交。
@@ -324,8 +317,7 @@ $$
 
 在波的传播方向上，振动相位总是相同的两个相邻质点间的距离，叫作波长，通常用 $\lambda$ 表示。
 
-::img\[alt text]\{src="../m-image-1.avif" width="40%"}
-
+![alt text](/static/image/m-image-1.91469f49ea.avif)
 在横波中，两个相邻波峰或两个相邻波谷之间的距离等于波长。在纵波中，两个相邻密部或两个相邻疏部之间的距离等于波长，或者说波在一个周期内所传播的距离即为波长。
 
 波速：波速指的是波在空间中传递的速度，波速有不同的特征定义，在高中常见的简谐波中其几乎没有区别。
@@ -358,8 +350,7 @@ $$
 
 简谐波：如果波的图像是正弦曲线，这样的波叫作正弦波，也叫简谐波。介质中有正弦波传播时，介质的质点在做简谐运动。
 
-::img\[alt text]\{src="../m-image-10.avif" width="80%"}
-
+![alt text](/static/image/m-image-10.221d3ef189.avif)
 简谐波的波形图与质点的振动图像都是正弦曲线，但它们的意义是不同的。
 
 - 如左，**振动图像**表示介质中"某一质点"在"各个时刻"的位移（$u-t$）。
@@ -392,20 +383,17 @@ $$
 
 为了更好的比较图像，以及使用平移的思想，我们通常将两个图像叠放在一起，
 
-::img\[alt text]\{src="../image.avif" width="80%"}
-
+![alt text](/static/image/image.b298040286.avif)
 同侧原理：在振动图像上某一点波的**传播方向**一定与此处**振动方向**在同一侧，即同在曲线上或下区域内。可以将曲线理解为一个卡槽，约束着一个小球在内部滚动。
 
 ### 波的衍射 \{#\_17}
 
 波可以绕过障碍物继续传播，这种现象叫作波的衍射。
 
-::img\[alt text]\{src="../m-image-2.avif" width="100%"}
-
+![alt text](/static/image/m-image-2.65373ece43.avif)
 实验表明，只有缝、孔的宽度或障碍物的尺寸跟波长相差不多，或者**比波长更小**时，才能观察到明显的衍射现象。注意，障碍物越小，衍射现象越明显，但是缝、孔的宽度过小，也会阻挡波，因此不能说缝、孔的宽度越小，衍射现象越明显。
 
-::img\[alt text]\{src="../m-image-12.avif" width="80%"}
-
+![alt text](/static/image/m-image-12.85340622ec.avif)
 一切波都能发生衍射，衍射是波特有的现象，只不过是是否明显的问题。在衍射现象中，波不是沿着直线传播的。
 
 波除了能绕过障碍物的传播之外，在达到两种介质的界面时，还能发生反射和折射现象。这在光波的传播中具有重要意义，我们将在光学部分中再来讨论。
@@ -460,8 +448,7 @@ $$
 
 3. **结论：** 因为波长太长，缝隙内的子波们无法通过相互抵消来限制波的扩散。既然"没人拦得住"（无法相消），波就会肆无忌惮地向各个方向传播，导致衍射极其明显。
 
-::img\[alt text]\{src="../e9057a15a2bbb76c\_c2b0c7e.svg" width="50%"}
-
+![alt text](/static/svg/e9057a15a2bbb76c_c2b0c7e.fd53db4a85.svg)
 惠更斯原理指出，介质中任意波阵面上的点，都可以看作是一个新的波源，这些新波源发出次波。经过一定时间后，这些次波的包络面就构成下一个时刻的波阵面。光波对于狭缝或孔径的衍射也可以用这方式处理，但直观上并不明显，因为可见光的波长很短，因此很难观测到这种效应。
 
 惠更斯原理：介质中任一波面上的各点，都可以看作是发射子波的波源；其后任一时刻，这些子波的包络面就是新的波面。
@@ -470,10 +457,8 @@ $$
 
 2. **解释折射定律**：同样的情景，但波进入了介质 2。当 $A$ 点到达界面后，它发出的子波在介质 2 中以速度 $v\_2$ 传播。经过 $\Delta t$，$A'$ 点到达界面 $B$ 点，此时 $A$ 点在介质 2 中的子波半径为 $v\_2 \Delta t$。连接包络面，通过几何关系可以证明折射定律。
 
-::img\[alt text]\{src="../997a0e28b6108d82\_6fa4db1-56c4028.avif"}
-
-::img\[alt text]\{src="../786ede037f970bf8\_e2317df.svg"}
-
+![alt text](/static/image/997a0e28b6108d82_6fa4db1-56c4028.7ab706f641.avif)
+![alt text](/static/svg/786ede037f970bf8_e2317df.64ad00a5ea.svg)
 单缝衍射：当一束平面波通过一个狭缝时，可以把狭缝看作由无数个次级波源组成的线源。这些波源发出的子波在空间中干涉，最终形成了明暗相间的衍射条纹。中央亮纹最宽最亮，两侧条纹变窄变暗。
 
 泊松亮斑：根据波动理论，在一个圆形障碍物的阴影中心，应该会出现一个亮点（因为从障碍物边缘所有点发出的光在此处发生相长干涉）。这个看似违背常理的现象后来被实验证实，成为波动理论的有力证据。
@@ -516,8 +501,7 @@ $$
 
 几列波相遇时能够保持各自的运动特征，继续传播，在它们重叠的区域里，介质的质点同时参与这几列波引起的振动，质点的位移等于这几列波单独传播时引起的位移的矢量和。
 
-::img\[alt text]\{src="../m-image-3.avif" width="60%"}
-
+![alt text](/static/image/m-image-3.9ab6295a0f.avif)
 - 两列波在彼此相遇并穿过后，波的形状和相遇前一样，传播的情形也和相遇前一样。
 
 - 保持各自的运动特征：指的是各自的波长、频率等保持不变，不因其他波的存在而受影响。
@@ -530,8 +514,7 @@ $$
 
 频率相同、相位差恒定、振动方向相同的两列波叠加时，某些区域的振动总是加强，某些区域的振动总是减弱，这种现象叫作波的干涉。形成的这种稳定图样叫作干涉图样。
 
-::img\[alt text]\{src="../m-image-4.avif" width="100%"}
-
+![alt text](/static/image/m-image-4.21e217eeb6.avif)
 用两组同心圆表示从波源发出的两列波，蓝线圆表示波峰，黑线圆表示波谷。在一组同心圆中，相邻的蓝线圆与黑线圆间的距离等于半个波长，蓝线圆与蓝线圆、黑线圆与黑线圆之间的距离等于一个波长。蓝线圆与蓝线圆的交点或者黑线圆与黑线圆的交点，是振动的加强区，它们连成的区域用红实线画出；蓝线圆与黑线圆的交点为振动的减弱区，它们连成的区域用红虚线画出。
 
 干涉过程能量守恒，只是重新分配。干涉使能量从减弱区转移到加强区，总能量守恒。
@@ -582,16 +565,14 @@ $$
 
 驻波是一种特殊的干涉现象，如果我们让绳子两端以同一频率、同一振幅沿同一方向振动，他们它们两端所发出的两列波叠加后，使绳子上的某些点完全不动，在这些不动点之间的绳子上下振动，这就是驻波。
 
-::img\[alt text]\{src="../m-image-16.avif" width="60%"}
-
+![alt text](/static/image/m-image-16.9913067dc8.avif)
 这种波的特征是：有些点振幅恒为零，即始终不动；有些点的振幅最大，我们把始终不振动的点叫**波节**，把振幅最大处叫做**波腹**；两波节间的各个质元均做同时向上或同时向下，但振幅不同的同步调振动，因而波形虽然也随时间而变化，却并不在弦线上移动，这也就是把它称为驻波的原因。
 
 我们发现，入射波的反射点 $b$ 是固定不动的，所以必为波节。这表明入射波与反射波在 $b$ 点的相位一定始终相反，即入射波在固定端发生反射时，相位发生了 $\pi$ 的突变。由于在波的传播中，相距半个波长的两质元的相位差为 $\pi$，所以相位为 $\pi$ 的突变，就相当于"损失"（或"附加"）了半个波长，因此通常又把这种现象称为**半波损失**。当然，这只是一种形象的说法，并非是波在实际上少传播或多传播了半个波长的距离。
 
 通过一些推导，我们可以知道相邻波腹或波节之间的距离为 $\dfrac\{\lambda}\{2}$，振动的最大振幅是 $2A$。
 
-::img\[alt text]\{src="../m-image-17.avif" width="60%"}
-
+![alt text](/static/image/m-image-17.3e4409f15b.avif)
 大部分弦乐器的工作原理都与此相似，波动琴弦产生的波向相反的两个方向传播，在相应的固定点反射后，两列波又相向传播，叠加后形成驻波。琴弦的波动把一部分能量传给共鸣箱，从共鸣箱向外传送声波。
 
 在弦乐器中，弦的两端被固定，所以弦的两端必然是波节，因此长度为 $L$ 上的弦形成的驻波的波长与 $L$ 应有一定的关系，而并非所有的波长都能形成驻波。我们发现，弦长恰好为半波长的整数倍，即
@@ -620,8 +601,7 @@ $$
 
 多普勒效应是波源和观察者有相对运动时，观察者接受到波的频率与波源发出的频率并不相同的现象，其特点为若两者相互靠近，则频率变高；若相互远离，则频率变低。
 
-::img\{src="../Doppler\_effect\_diagrammatic.svg" width="40%"}
-
+![alt text](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3OTMuNyIgaGVpZ2h0PSIxOTBwdCI+PHBhdGggZmlsbD0icmVkIiBmaWxsLW9wYWNpdHk9IjAuNDIiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iNy43MyIgZD0iTTIzMS40MiA3NzMuMDYzYTE5Ljk1IDE5Ljk1IDAgMSAxLTM5LjkgMCAxOS45NSAxOS45NSAwIDEgMSAzOS45IDAiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgc3R5bGU9Im1hcmtlcjpub25lIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNzUuODIyIC0xMzIuMzU1KXNjYWxlKC4zMjM1NikiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iMy43NSIgZD0iTTM0NC41MDIgMTYxLjgyMWMxMi4wMTIgMCAyNC4wMjUtODguMDkxIDQ4LjA1LTg4LjA5MXMyNC4wMjQgODguMDkxIDQ4LjA0OCA4OC4wOTEgMjQuMDI1LTg4LjA5MSA0OC4wNS04OC4wOTEgMjQuMDI0IDg4LjA5MSA0OC4wNDkgODguMDkxIDI0LjAyNC04OC4wOTEgNDguMDQ5LTg4LjA5MSAyNC4wMjQgODguMDkxIDQ4LjA0OSA4OC4wOTFTNjU2LjgyIDczLjczIDY4MC44NDYgNzMuNzNzMzYuMDM3IDg4LjA5MSA0OC4wNDkgODguMDkxbS01MzguMTE5IDBjNC43OTcgMCA5LjU5NC04OC4wOTEgMTkuMTg4LTg4LjA5MXM5LjU5MyA4OC4wOTEgMTkuMTg3IDg4LjA5MSA5LjU5NC04OC4wOTEgMTkuMTg3LTg4LjA5MSA5LjU5NCA4OC4wOTEgMTkuMTg4IDg4LjA5MSA5LjU5NC04OC4wOTEgMTkuMTg3LTg4LjA5MSA5LjU5NCA4OC4wOTEgMTkuMTg4IDg4LjA5MSA5LjU5NC04OC4wOTEgMTkuMTg3LTg4LjA5MSAxNC4zOSA4OC4wOTEgMTkuMTg4IDg4LjA5MSIvPjxwYXRoIGZpbGw9IiNmZjVmMDAiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSIjMDAwIiBkPSJtMTQ3LjEyMSAxMTguNjIgMjguNDIxIDUxLjgyNkwxMy4zNzUgMTE4LjYybDE2Mi4xNjctNTEuODI2eiIvPjxwYXRoIGZpbGwtb3BhY2l0eT0iMC4yIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIuNSIgZD0iTTIxNi4zMTUgMjcuNDk0Yy0xMC43MDMgMjguMDU1LTE2LjU2MiA1OC40ODItMTYuNTYyIDkwLjI4MSAwIDMxLjc4NiA1LjgzNyA2Mi4yMzcgMTYuNTMxIDkwLjI4MmgyMS45NjljLTEyLjQ1OC0yNy41MzEtMTkuMzc1LTU4LjExNC0xOS4zNzUtOTAuMjgyIDAtMzIuMTgxIDYuOTM3LTYyLjc0IDE5LjQwNi05MC4yOHptNDQuMzEzIDBjLTE0Ljg4MyAyNi43NDUtMjMuMzc1IDU3LjUyMy0yMy4zNzUgOTAuMjgxIDAgMzIuNzQ3IDguNDcgNjMuNTQ0IDIzLjM0NCA5MC4yODJoMjUuODQzYy0xOC42ODEtMjUuMjUtMjkuNzUtNTYuNDgzLTI5Ljc1LTkwLjI4MnMxMS4wNjgtNjUuMDMgMjkuNzUtOTAuMjh6bTU3LjkwNiAwYy0yNS44ODggMjEuNTM5LTQyLjM3NSA1My45OTgtNDIuMzc1IDkwLjI4MSAwIDM2LjI4MSAxNi40OSA2OC43NDMgNDIuMzc1IDkwLjI4MmgxNTAuMDMxYzI1Ljg4OS0yMS41MzkgNDIuMzc1LTUzLjk5OCA0Mi4zNzUtOTAuMjgyIDAtMzYuMjg2LTE2LjQ4My02OC43NDItNDIuMzc1LTkwLjI4em0yMTIuNDM4IDBjMTguNjgyIDI1LjI1MSAyOS43NSA1Ni40ODIgMjkuNzUgOTAuMjgxcy0xMS4wNjkgNjUuMDMxLTI5Ljc1IDkwLjI4Mmg1NS4wNjJjMTQuODczLTI2LjczOCAyMy4zNDQtNTcuNTM1IDIzLjM0NC05MC4yODIgMC0zMi43NTgtOC40OTMtNjMuNTM2LTIzLjM3NS05MC4yOHptMTA3LjEyNSAwYzEyLjQ2OCAyNy41NDEgMTkuNDA2IDU4LjEgMTkuNDA2IDkwLjI4MSAwIDMyLjE2OC02LjkxNyA2Mi43NS0xOS4zNzUgOTAuMjgyaDUyLjI1YzEwLjY5My0yOC4wNDUgMTYuNTYyLTU4LjQ5NiAxNi41NjItOTAuMjgyIDAtMzEuNzk5LTUuODktNjIuMjI2LTE2LjU5My05MC4yOHptLTI1OS42ODggNi40MzhjLjU0LS4wMSAxLjA4MyAwIDEuNjI1IDAgNDYuMjkgMCA4My44NzUgMzcuNTUzIDgzLjg3NSA4My44NDNzLTM3LjU4NCA4My44NzUtODMuODc1IDgzLjg3NS04My44NDQtMzcuNTg0LTgzLjg0NC04My44NzVjMC00NS43NDggMzYuNjc3LTgyLjk3NyA4Mi4yMTktODMuODQzbS0xNC41MzEgMzMuODQzYy0yNy4wMTIuNjg2LTQ4LjcxOSAyMi44MjQtNDguNzE5IDUwIDAgMjcuNjA4IDIyLjM5MyA1MC4wMzIgNTAgNTAuMDMyIDI3LjYwOCAwIDUwLTIyLjQyNCA1MC01MC4wMzJzLTIyLjM5Mi01MC01MC01MGMtLjQzMSAwLS44NTItLjAxLTEuMjgxIDBNMzQ5Ljc4NCAxMDIuOWMuMjU0LS4wMTIuNTI0IDAgLjc4MSAwIDguMjIgMCAxNC44NzUgNi42NTYgMTQuODc1IDE0Ljg3NXMtNi42NTYgMTQuOTA3LTE0Ljg3NSAxNC45MDctMTQuOTA2LTYuNjg4LTE0LjkwNi0xNC45MDdjMC03Ljk2MiA2LjI2Mi0xNC40NzYgMTQuMTI1LTE0Ljg3NSIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBzdHlsZT0ibWFya2VyOm5vbmUiLz48L3N2Zz4=)
 有公式：
 
 $$
@@ -646,8 +626,7 @@ $$
 
 当波源以超波速运动时，即 $v\_\{\text\{s}}>v$，因为在这种情况下，在任意时刻波源本身都将超过它此前发出的波前，所以在波源前方不可能有任何波动产生。
 
-::img\[alt text]\{src="../m-image-15.avif" width="40%"}
-
+![alt text](/static/image/m-image-15.ea716c3bcb.avif)
 如图，波源在经过 $S$ 点时发出的波，在其后 $t$ 时刻的波阵面为半径为 $vt$ 都球面，波源次此时已经前进了 $v\_\{\text\{s}}t$ 的距离到达 $S'$ 点，在整个 $t$ 时间内，波源发出的波所到达的前沿形成了一个圆锥面。这个锥形称为马赫锥，马赫锥是波的前缘，其外没有波动产生，这种形式的波动叫做**艏波**。这个锥形的顶角 $\alpha$ 有公式
 
 $$

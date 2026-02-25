@@ -1,9 +1,7 @@
 # 导数不等式 \{#\_1}
 
-::img\[alt text]\{src="../image.avif"}
-
-::img\[alt text]\{src="../image-1.avif"}
-
+![alt text](/static/image/image.a41bea10f9.avif)
+![alt text](/static/image/image-1.d954c97de7.avif)
 ## 导数方法 \{#\_2}
 
 ### 不等式方法 \{#\_3}
@@ -758,10 +756,9 @@ $$
 
 当且仅当 $x=1$ 时取等，我们对两边同时求积分，如图左。为了使两边依旧在 $x=1$ 时取等，我们将 $\ln x$ 的积分 $(\ln x-1)x$ 修正为其加 $\dfrac\{1}\{2}$，如图右
 
-::img\[alt text]\{src="../desmos-graph (2).svg"}
+!\[alt text]\(../desmos-graph (2).svg#class="custom-img")
 
-::img\[alt text]\{src="../desmos-graph.svg"}
-
+![alt text](/static/svg/desmos-graph.e0dc6eea3d.svg)
 利用求导也可以证明下面的不等式：
 
 $$
@@ -984,8 +981,7 @@ $$
 
 我们在证明形如 $x\_1+x\_2>m$ 或 $x\_1x\_2>m$ 的式子成立时，可以尝试将待证的不等式在形式上进行转化，转而证明转化后的不等式 $x\_1>m-x\_2$ 或 $x\_1>\dfrac\{m}\{x\_2}$ 成立，之后利用函数的单调性，转化为函数值之间的关系，即 $f(x\_1)$ 与 $f(m-x\_2)$ 或 $f\left(\dfrac\{m}\{x\_2}\right)$ 进行比较。
 
-::img\[alt text]\{src="../image-6.avif"}
-
+![alt text](/static/image/image-6.177ac98c83.avif)
 使用构造类对称法解此题时，首先要注意变量的取值范围，我们需要保证构造后不等号两边的变量取值在同一区间内，然后才能使用单调性进行证明。
 
 对于极值点偏移问题，有的还可以直接用变双变量为单变量的方法，这其实就是二元不等式的思想。同时，也可以通过零点的相关性质，将不等式中的常数或者参数转化为与两个零点相关的式子。

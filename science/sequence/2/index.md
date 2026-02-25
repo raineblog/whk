@@ -1292,8 +1292,7 @@ $$
 
 于是，如果我们这么做下去，能推到不动点附近，那么函数收敛。
 
-::img\[alt text]\{src="../image.avif" width="100%"}
-
+![alt text](/static/image/image.b83d60b7c3.avif)
 与上文类似，指数函数、幂函数的线性组合，一般都是光滑的，那么有，
 
 若 $|f'(x\_0)|\<1$，不动点 $x\_0$​ 称为吸引不动点，数列迭代过程中会靠近吸引不动点。
@@ -1950,7 +1949,7 @@ $$
 考虑恒等变形，
 
 $$
-\{1\over n(n+1)}\cdot\{1\over\sqrt\{2b\_n}}\<\{n-\sqrt\{n^2-1}\over\sqrt\{n(n+1)}}\ \{1\over\sqrt\{n(n+1)}}\cdot\{1\over\sqrt\{2b\_n}}\<n-\sqrt\{n^2-1}\
+\{1\over n(n+1)}\cdot\{1\over\sqrt\{2b\_n}}\<\{n-\sqrt\{n^2-1}\over\sqrt\{n(n+1)}}\ \{1\over\sqrt\{n(n+1)}}\cdot\{1\over\sqrt\{2b\_n}}\<n-\sqrt\{n^2-1}\\
 $$
 
 注意到两边都是正数，因此，
@@ -1962,7 +1961,7 @@ $$
 暂时不展开，带入，
 
 $$
-2n^2+\{\color\{darkred}2n\sqrt\{n^2-1}}>(n+\sqrt\{n^2-1})^2=2n^2-1+\{\color\{darkred}2n\sqrt\{n^2-1}}\
+2n^2+\{\color\{darkred}2n\sqrt\{n^2-1}}>(n+\sqrt\{n^2-1})^2=2n^2-1+\{\color\{darkred}2n\sqrt\{n^2-1}}\\
 $$
 
 显然成立。
@@ -1980,7 +1979,7 @@ $$
 我们知道，
 
 $$
-\boxed\{n^3-1=(n-1)(n^2+n+1)}\[0.5em] \boxed\{n^3+1=(n+1)(n^2-n+1)}
+\boxed\{n^3-1=(n-1)(n^2+n+1)}\\\[0.5em] \boxed\{n^3+1=(n+1)(n^2-n+1)}
 $$
 
 于是，首先，

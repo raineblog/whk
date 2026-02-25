@@ -149,8 +149,7 @@ $$
 
 经过脱水、脱盐的石油主要是烃类的混合物，没有固定的沸点。在烃分子里，一般含碳数越少沸点越低，含碳数越多沸点越高，不断加热和冷凝就可以把石油分成不同沸点范围的蒸馏产物，称为石油的分馏，分馏出来的各个成分叫做馏分，每一种馏分仍然是多种烃的混合物。
 
-::img\[alt text]\{src="../image-15.avif"}
-
+![alt text](/static/image/image-15.a1d4c19037.avif)
 经过常压加热炉、常压分馏炉后，从分馏塔底部流出的称为重油，可以再加以分馏，但是在高温下，烃受热会分解，同时还会产生碳化结晶损坏设备，因此通常采用减压蒸馏的方法。外界压强越小，物质的沸点越低，仍然在减压分馏塔底部流出的称为渣油。润滑油馏分还要进行加工，脱去凡士林、石蜡等，经精制才能得到各种润滑油。渣油经过处理，可以制造沥青，或者焦化制取石油焦。
 
 | 分馏产品 |     碳原子数    | 沸点范围（$\pu\{^oC}$） | 用途                |
@@ -174,8 +173,7 @@ $$
 \ce\{C16H34 ->\[加热加压]\[催化剂] C8H18 + C8H16}
 $$
 
-::img\[alt text]\{src="../image-29.avif"}
-
+![alt text](/static/image/image-29.cd5eb51920.avif)
 可以将重油转化为类似汽油的饱和烃和不饱和烃的混合物。
 
 #### 石油的裂解 \{#\_11}
@@ -361,8 +359,7 @@ $$
 
 **芳香烃**简称芳烃，为苯及其只含碳与氢的衍生物的总称，指分子结构中含有一个或者多个苯环的烃类化合物，最简单和最重要的芳香烃是苯及其同系物。芳烃可分为：**单环芳烃**、**稠环芳烃**，而具有链状的芳香烃一般称之为**脂芳烃**。
 
-::img\[alt text]\{src="../image-2.avif" width="70%"}
-
+![alt text](/static/image/image-2.908b85a55b.avif)
 **苯**，为最简单的一种芳香烃，芳香族化合物皆由其衍生而成。苯结构是一个平面正六边形分子，碳原子以 $\text\{sp2}$ 轨道键结，所以任二键互成 $\pu\{120^o}$。苯的含碳量很高，在空气中燃烧产生明亮并带有浓烟的火焰。
 
 - 无色透明液体，有特殊气味；
@@ -377,8 +374,7 @@ $$
 
 - **鲍林式**：苯环的另一种常见画法是内部带有圆圈的正六边形，圆圈强调了 $6$ 个 $\pi$ 电子的离域作用和电子云的均匀分布，这很好的解释了碳碳键长均等性和苯环的完全对称性。但是这种方式用来表示其他芳香体系，如两个稠合的苯环，萘，容易造成误解。
 
-::img\[alt text]\{src="../image-14.avif"}
-
+![alt text](/static/image/image-14.22d2ee6657.avif)
 化学性质：
 
 - **取代反应**：苯可以发生的取代反应有**卤代反应**、**硝化反应**、**磺化反应**等。
@@ -435,8 +431,7 @@ $$
 
 **稠环芳香烃**：又称多环芳香烃，是由两个或两个以上的苯环通过共用相邻的碳原子而形成的芳香烃。
 
-::img\[alt text]\{src="../naien.svg" width="50%"}
-
+![alt text](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjM0OSAyODggNDU2IDE0MSI+PGRlZnM+PHBhdGggaWQ9InN2Z19fZ2l0aHViX3dvcmtfX2EiIGZpbGw9Im5vbmUiIGQ9Ik0zNDkgMjg4aDQ1NnYxNDFIMzQ5eiIvPjwvZGVmcz48dXNlIGhyZWY9IiNzdmdfX2dpdGh1Yl93b3JrX19hIi8+PHVzZSBocmVmPSIjc3ZnX19naXRodWJfd29ya19fYSIvPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMS40NiIgZD0iTTQyOS43ODQgMzIwLjI4NHY0MG0wIDAgMzQuNjQgMjAuMDM2bS0yOS44NC0yMi44MDUgMjkuODQzIDE3LjI2MW0tLjAwMyA1LjU0NCAzNC43MTYtMjAuMDM2bTAgMHYtNDBtLTQuOCAzNy4yMjh2LTM0LjQ1Nm00LjgtMi43NzItMzQuNzE2LTIwLjAzNm0tMjkuODQgMjIuODA1IDI5Ljg0My0xNy4yNjFtLTM0LjY0MyAxNC40OTIgMzQuNjQtMjAuMDM2bS0zNC42NCAyMC4wMzYtMzQuNjQtMTkuOTY4bTAgMC0zNC41NzIgMTkuOTY4bTM0LjU3NC0xNC40MjYtMjkuNzc0IDE3LjE5N20tNC44LTIuNzcxdjQwbTAgMCAzNC41NzIgMTkuODkybS0yOS43NzItMjIuNjY4IDI5Ljc3NCAxNy4xMzJtMzQuNjM4LTE0LjM1Ni0zNC42NCAxOS44OTJtMTg5LjI4LTU5Ljg5MnY0MG00LjgtMzcuMjMydjM0LjQ2NG0tNC44IDIuNzY4IDM0LjYyIDIwLjA0bTAgMCAzNC42OTItMjAuMDRtLTM0LjY5IDE0LjQ5NSAyOS44OS0xNy4yNjZtNC44IDIuNzcxdi00MG0wIDAtMzQuNjkyLTIwLjAzNm0yOS44OTIgMjIuODA3LTI5Ljg5LTE3LjI2M20tMzQuNjIyIDE0LjQ5MiAzNC42Mi0yMC4wMzZtMzQuNjkyIDYwLjAzNiAzNC42MjQgMjAuMDRtMCAwIDM0Ljc2NC0yMC4wNG0tMzQuNzYgMTQuNDk3IDI5Ljk2LTE3LjI3bTQuOCAyLjc3M3YtNDBtMCAwLTM0Ljc2NC0yMC4wMzZtMjkuOTY0IDIyLjgxLTI5Ljk2LTE3LjI2N20tMzQuNjI4IDE0LjQ5MyAzNC42MjQtMjAuMDM2bTM0Ljc2NCA2MC4wMzYgMzQuNjE2IDIwLjA0bTAgMCAzNC42OTYtMjAuMDRtLTM0LjY5MyAxNC40OTUgMjkuODkzLTE3LjI2Nm00LjggMi43NzF2LTQwbTAgMC0zNC42OTYtMjAuMDM2bTI5Ljg5NiAyMi44MDctMjkuODkzLTE3LjI2M20tMzQuNjE5IDE0LjQ5MiAzNC42MTYtMjAuMDM2IiBwYWludC1vcmRlcj0iZmlsbCBzdHJva2UgbWFya2VycyIvPjx0ZXh0IHg9IjQwOSIgeT0iNDA4Ljg2IiBkb21pbmFudC1iYXNlbGluZT0iYWxwaGFiZXRpYyIgZm9udC1mYW1pbHk9IidUaW1lcyBOZXcgUm9tYW4nIiBmb250LXNpemU9IjIyLjg2IiBmb250LXdlaWdodD0iNDAwIiB0ZXh0LWRlY29yYXRpb249Im5vcm1hbCI+6JCYPC90ZXh0Pjx0ZXh0IHg9IjQzMS44NiIgeT0iNDA4Ljg2IiBkb21pbmFudC1iYXNlbGluZT0iYWxwaGFiZXRpYyIgZm9udC1mYW1pbHk9IidUaW1lcyBOZXcgUm9tYW4nIiBmb250LXNpemU9IjIyLjg2IiBmb250LXdlaWdodD0iNDAwIiB0ZXh0LWRlY29yYXRpb249Im5vcm1hbCI+WzwvdGV4dD48dGV4dCB4PSI0MzkuNDciIHk9IjQwOC44NiIgZG9taW5hbnQtYmFzZWxpbmU9ImFscGhhYmV0aWMiIGZvbnQtZmFtaWx5PSInVGltZXMgTmV3IFJvbWFuJyIgZm9udC1zaXplPSIyMi44NiIgZm9udC13ZWlnaHQ9IjQwMCIgdGV4dC1kZWNvcmF0aW9uPSJub3JtYWwiPm5haTQ8L3RleHQ+PHRleHQgeD0iNDc4LjgyIiB5PSI0MDguODYiIGRvbWluYW50LWJhc2VsaW5lPSJhbHBoYWJldGljIiBmb250LWZhbWlseT0iJ1RpbWVzIE5ldyBSb21hbiciIGZvbnQtc2l6ZT0iMjIuODYiIGZvbnQtd2VpZ2h0PSI0MDAiIHRleHQtZGVjb3JhdGlvbj0ibm9ybWFsIj5dPC90ZXh0Pjx0ZXh0IHg9IjY2Ny41NyIgeT0iNDA4Ljg2IiBkb21pbmFudC1iYXNlbGluZT0iYWxwaGFiZXRpYyIgZm9udC1mYW1pbHk9IidUaW1lcyBOZXcgUm9tYW4nIiBmb250LXNpemU9IjIyLjg2IiBmb250LXdlaWdodD0iNDAwIiB0ZXh0LWRlY29yYXRpb249Im5vcm1hbCI+6JK9PC90ZXh0Pjx0ZXh0IHg9IjY5MC40MyIgeT0iNDA4Ljg2IiBkb21pbmFudC1iYXNlbGluZT0iYWxwaGFiZXRpYyIgZm9udC1mYW1pbHk9IidUaW1lcyBOZXcgUm9tYW4nIiBmb250LXNpemU9IjIyLjg2IiBmb250LXdlaWdodD0iNDAwIiB0ZXh0LWRlY29yYXRpb249Im5vcm1hbCI+WzwvdGV4dD48dGV4dCB4PSI2OTguMDQiIHk9IjQwOC44NiIgZG9taW5hbnQtYmFzZWxpbmU9ImFscGhhYmV0aWMiIGZvbnQtZmFtaWx5PSInVGltZXMgTmV3IFJvbWFuJyIgZm9udC1zaXplPSIyMi44NiIgZm9udC13ZWlnaHQ9IjQwMCIgdGV4dC1kZWNvcmF0aW9uPSJub3JtYWwiPmVuMTwvdGV4dD48dGV4dCB4PSI3MzEuMDMiIHk9IjQwOC44NiIgZG9taW5hbnQtYmFzZWxpbmU9ImFscGhhYmV0aWMiIGZvbnQtZmFtaWx5PSInVGltZXMgTmV3IFJvbWFuJyIgZm9udC1zaXplPSIyMi44NiIgZm9udC13ZWlnaHQ9IjQwMCIgdGV4dC1kZWNvcmF0aW9uPSJub3JtYWwiPl08L3RleHQ+PC9zdmc+)
 - 萘^\[nai4]^是一种无色片状晶体，有特殊的气味，不溶于水、易升华，有毒性，可以用来杀菌、防蛀、驱虫。
 
 - 蒽^\[en1]^是一种无色晶体，易升华，是生成染料的重要原料。
@@ -601,8 +596,7 @@ $$
 
 **醇**是羟基 $\ce\{-OH}$ 与烃基相连的化合物，通式为 $\ce\{ROH}$，而根据羟基所连接碳原子的类型，分为伯醇 $\ce\{R-CH2-OH}$、仲醇 $\ce\{R-CH(R1)-OH}$、叔醇 $\ce\{R-C(R1)(R2)-OH}$，前面的更容易被氧化，我们将在催化氧化处详细解释。
 
-::img\{src="../CH3CH2OH.svg" width="40%"}
-
+![alt text](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjIzNiA3NDAgNzg0IDQ0NSI+PGRlZnM+PHBhdGggaWQ9InN2Z19fZ2l0aHViX3dvcmtfX2EiIGZpbGw9Im5vbmUiIGQ9Ik0yMzYgNzQwaDc4NHY0NDVIMjM2eiIvPjwvZGVmcz48dXNlIGhyZWY9IiNzdmdfX2dpdGh1Yl93b3JrX19hIi8+PHVzZSBocmVmPSIjc3ZnX19naXRodWJfd29ya19fYSIvPjx0ZXh0IHg9Ijg2My40MyIgeT0iOTQ4LjU3IiBmaWxsPSJyZWQiIGRvbWluYW50LWJhc2VsaW5lPSJhbHBoYWJldGljIiBmb250LWZhbWlseT0iJ1RpbWVzIE5ldyBSb21hbiciIGZvbnQtc2l6ZT0iOTguMjgiIGZvbnQtd2VpZ2h0PSI0MDAiIHRleHQtZGVjb3JhdGlvbj0ibm9ybWFsIj5hPC90ZXh0Pjx0ZXh0IHg9IjY4OS4xNCIgeT0iOTQ3LjE0IiBmaWxsPSJyZWQiIGRvbWluYW50LWJhc2VsaW5lPSJhbHBoYWJldGljIiBmb250LWZhbWlseT0iJ1RpbWVzIE5ldyBSb21hbiciIGZvbnQtc2l6ZT0iOTguMjgiIGZvbnQtd2VpZ2h0PSI0MDAiIHRleHQtZGVjb3JhdGlvbj0ibm9ybWFsIj5iPC90ZXh0Pjx0ZXh0IHg9IjU3My40MyIgeT0iMTA3OC41NyIgZmlsbD0icmVkIiBkb21pbmFudC1iYXNlbGluZT0iYWxwaGFiZXRpYyIgZm9udC1mYW1pbHk9IidUaW1lcyBOZXcgUm9tYW4nIiBmb250LXNpemU9Ijk4LjI4IiBmb250LXdlaWdodD0iNDAwIiB0ZXh0LWRlY29yYXRpb249Im5vcm1hbCI+YzwvdGV4dD48dGV4dCB4PSIzOTQuODYiIHk9IjEwODEuNDMiIGZpbGw9InJlZCIgZG9taW5hbnQtYmFzZWxpbmU9ImFscGhhYmV0aWMiIGZvbnQtZmFtaWx5PSInVGltZXMgTmV3IFJvbWFuJyIgZm9udC1zaXplPSI5OC4yOCIgZm9udC13ZWlnaHQ9IjQwMCIgdGV4dC1kZWNvcmF0aW9uPSJub3JtYWwiPmQ8L3RleHQ+PHRleHQgeD0iNDU1LjcxIiB5PSI5OTkuMzUiIGRvbWluYW50LWJhc2VsaW5lPSJhbHBoYWJldGljIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iNzNwdCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgdGV4dC1kZWNvcmF0aW9uPSJub3JtYWwiPkM8L3RleHQ+PHRleHQgeD0iNjI3LjciIHk9Ijk5OS4zNSIgZG9taW5hbnQtYmFzZWxpbmU9ImFscGhhYmV0aWMiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSI3M3B0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiB0ZXh0LWRlY29yYXRpb249Im5vcm1hbCI+QzwvdGV4dD48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMxMTEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjYuMjciIGQ9Ik00OTQuMjEyIDk2Mi44NWg5NS45OTIiIHBhaW50LW9yZGVyPSJmaWxsIHN0cm9rZSBtYXJrZXJzIi8+PHRleHQgeD0iNzk5LjciIHk9Ijk5OS4zNSIgZG9taW5hbnQtYmFzZWxpbmU9ImFscGhhYmV0aWMiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSI3M3B0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiB0ZXh0LWRlY29yYXRpb249Im5vcm1hbCI+TzwvdGV4dD48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMxMTEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjYuMjciIGQ9Ik02NjYuMjA0IDk2Mi44NWg5Mi45OTMiIHBhaW50LW9yZGVyPSJmaWxsIHN0cm9rZSBtYXJrZXJzIi8+PHRleHQgeD0iNjI3LjciIHk9IjgyNS44NiIgZG9taW5hbnQtYmFzZWxpbmU9ImFscGhhYmV0aWMiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSI3M3B0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiB0ZXh0LWRlY29yYXRpb249Im5vcm1hbCI+SDwvdGV4dD48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMxMTEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjYuMjciIGQ9Ik02MjcuNzA0IDkyMC43di04OS4zNDMiIHBhaW50LW9yZGVyPSJmaWxsIHN0cm9rZSBtYXJrZXJzIi8+PHRleHQgeD0iNjI3LjciIHk9IjExNjkuODQiIGRvbWluYW50LWJhc2VsaW5lPSJhbHBoYWJldGljIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iNzNwdCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgdGV4dC1kZWNvcmF0aW9uPSJub3JtYWwiPkg8L3RleHQ+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTExIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSI2LjI3IiBkPSJNNjI3LjcwNCAxMDA1djg5LjM0MiIgcGFpbnQtb3JkZXI9ImZpbGwgc3Ryb2tlIG1hcmtlcnMiLz48dGV4dCB4PSI0NTUuNzEiIHk9IjgyNS44NiIgZG9taW5hbnQtYmFzZWxpbmU9ImFscGhhYmV0aWMiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSI3M3B0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiB0ZXh0LWRlY29yYXRpb249Im5vcm1hbCI+SDwvdGV4dD48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMxMTEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjYuMjciIGQ9Ik00NTUuNzEyIDkyMC43di04OS4zNDMiIHBhaW50LW9yZGVyPSJmaWxsIHN0cm9rZSBtYXJrZXJzIi8+PHRleHQgeD0iNDU1LjcxIiB5PSIxMTY5Ljg0IiBkb21pbmFudC1iYXNlbGluZT0iYWxwaGFiZXRpYyIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjczcHQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIHRleHQtZGVjb3JhdGlvbj0ibm9ybWFsIj5IPC90ZXh0PjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iNi4yNyIgZD0iTTQ1NS43MTIgMTAwNXY4OS4zNDIiIHBhaW50LW9yZGVyPSJmaWxsIHN0cm9rZSBtYXJrZXJzIi8+PHRleHQgeD0iOTcxLjY5IiB5PSI5OTcuODUiIGRvbWluYW50LWJhc2VsaW5lPSJhbHBoYWJldGljIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iNzNwdCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgdGV4dC1kZWNvcmF0aW9uPSJub3JtYWwiPkg8L3RleHQ+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTExIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSI2LjI3IiBkPSJNODQxLjE5NyA5NjIuODVoOTIuOTkzIiBwYWludC1vcmRlcj0iZmlsbCBzdHJva2UgbWFya2VycyIvPjx0ZXh0IHg9IjI4My43MiIgeT0iOTk3Ljg1IiBkb21pbmFudC1iYXNlbGluZT0iYWxwaGFiZXRpYyIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjczcHQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIHRleHQtZGVjb3JhdGlvbj0ibm9ybWFsIj5IPC90ZXh0PjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iNi4yNyIgZD0iTTQxOC4yMTIgOTYyLjg1aC05NS45OTMiIHBhaW50LW9yZGVyPSJmaWxsIHN0cm9rZSBtYXJrZXJzIi8+PC9zdmc+)
 一般来说，饱和一元烃随分子中碳原子数增加，沸点逐渐升高。分子中羟基越多，越容易形成更多的氢键，沸点越高，且远远高于相近分子量的烷烃。同样因为氢键，醇的水溶性好，甲醇、乙醇、丙醇均与水互溶。
 
 |             | 物理性质                     | 用途               |
@@ -619,7 +613,7 @@ $$
   \ce\{2CH3CH2OH + 2Na -> 2CH3CH2ONa + H2 ^}
   $$
 
-  ::img\[alt text]\{src="../image-30.avif"}
+  <img alt="alt text" src={image6} />
 
   据此，我们可以得出，乙醇可以视作一种比水还弱的弱酸，因此该反应的产物乙醇钠在水中会强烈水解。此外，这个反应本质上属于置换反应，有些教材会说因为有有机物参与所以是取代反应，这其实是泛化的取代反应，实际上的取代反应需要一个过程（详见有机化学机理部分），而这个反应本质上还是钠与乙醇"电离"出的氢离子反应，没有取代的过程，因此严格来说不属于取代反应。
 
@@ -765,7 +759,7 @@ $$
   - 利用醛基的还原性，将银离子还原为金属银，银在试管内壁形成光亮的银镜，称为银镜反应，可用于在玻璃表面镀银制镜。
 
     $$
-    \begin\{align} \ce\{2 Ag+ + 2 OH- &-> Ag2O + H2O}\ \ce\{Ag2O + H2O + 4NH3 &-> 2\[Ag(NH3)2]OH}\ \ce\{CH3CHO + 2\[Ag(NH3)2]OH &-> H2O + 2Ag v + 3NH3 &\qquad + CH3COONH4}\ \end\{align}
+    \begin\{align} \ce\{2 Ag+ + 2 OH- &-> Ag2O + H2O}\ \ce\{Ag2O + H2O + 4NH3 &-> 2\[Ag(NH3)2]OH}\ \ce\{CH3CHO + 2\[Ag(NH3)2]OH &-> H2O + 2Ag v + 3NH3 \\&\qquad + CH3COONH4}\ \end\{align}
     $$
 
     简记为：水银铵，123，再加一个羧酸铵。
@@ -966,8 +960,7 @@ $$
 
 有机酸是指一些具有酸性的有机化合物，最常见的有机酸是羧酸（$\ce\{R-COOH}$），其酸性源于羧基（$\ce\{-COOH}$）。磺酸（$\ce\{R-SO3H}$）、亚磺酸（$\ce\{R-SOOH}$）、硫羧酸（$\ce\{R-SH}$）等也属于有机酸。
 
-::img\[alt text]\{src="../image-16.avif"}
-
+![alt text](/static/image/image-16.4025aa7d1d.avif)
 常见羧酸：
 
 - **甲酸**（最简单的羧酸）：俗称蚁酸，是一种无色、有刺激性气味的液体，有腐蚀性，能与水、乙醇等互溶。甲酸在工业上可用作还原剂，在医疗上可用作消毒剂。甲酸中既有醛基，又有羧基，所以甲酸既具有醛的性质（银镜反应、与氢氧化铜反应、与高锰酸钾反应），又具有羧酸的性质（酸的通性、酯化反应）。
@@ -982,8 +975,7 @@ $$
 - **溶解性**：分子中碳原子数在 4 以下的羧酸能与水互溶。随着分子中碳原子数的增加，一元羧酸在水中的溶解度迅速减小，甚至不溶于水（高级脂肪酸是不溶于水的蜡状固体）。
 - **沸点**：羧酸分子间可以形成氢键，由于羧酸分子形成氢键的机会比相对分子质量相近的醇多，羧酸的沸点比相应的醇的沸点高，并且随着分子中碳原子数的增加，一元羧酸的沸点逐渐升高。
 
-::img\{src="../CnH2nO2.avif"}
-
+![alt text](/static/image/CnH2nO2.fbd46e9bd1.avif)
 - **酸性**：羧酸通常为弱酸，羧基可以电离出氢离子。
 
   $$
@@ -1151,7 +1143,7 @@ $$
 
 - 也称磷脂质，是含有磷酸的脂类，属于复合脂。磷脂为两性分子，一端为亲水的含氮或磷的头，另一端为疏水（亲油）的长烃基链。
 
-  ::img\{src="../Phospholipid.svg" width="50%"}
+  <img alt="alt text" src={image9} />
 
 - 由于此原因，磷脂分子亲水端相互靠近，疏水端相互靠近，常与蛋白质、糖脂、胆固醇等其他分子共同构成脂双分子层，即细胞膜的结构，是细胞中所有膜状构造的主要成分。
 
@@ -1159,7 +1151,7 @@ $$
 
 - 糖脂是通过糖苷键连接的碳水化合物的脂质，它们的作用是保持膜的稳定性并促进细胞识别。在所有真核细胞膜的表面上发现这些碳水化合物。
 
-  ::img\{src="../Glycolipid.svg" width="50%"}
+  <img alt="alt text" src={image10} />
 
 - 它们从磷脂双层延伸到细胞外的含水环境中; 磷脂双层作为特定化学物质的识别位点，有助于保持膜的稳定性并使细胞彼此附着以形成组织。
 
@@ -1173,8 +1165,7 @@ $$
 
 注意：油脂不是高分子化合物。油脂是甘油（丙三醇）与三个高级脂肪酸通过酯化反应形成的酯：
 
-::img\{src="../油脂.svg" width="70%"}
-
+![alt text](/static/svg/油脂.1cebd3c3e6.svg)
 三个脂肪酸 $\ce\{RCOOH},\ce\{R'COOH},\ce\{R''COOH}$ 可能为相同（简单甘油酯）、相异或部份相异（混合甘油酯）的烷基。
 
 油脂作为一种酯，可以发生经典的酸性和碱性水解，油脂在碱性溶液中水解反应又称**皂化反应**，产物甘油与硬脂酸钠称为皂化液，皂化液经饱和食盐水盐析即可析出高级脂肪酸的钠盐，再经过一系列处理可以得到肥皂。
@@ -1185,16 +1176,15 @@ $$
 
 **腺甾烷**另译甾烷，或称甾核，由三个环己烷和一个环戊烷共四个烃环融合而成。
 
-::img\{src="../Steran\_num\_ABCD.svg" width="40%"}
-
+![alt text](/static/svg/Steran_num_ABCD.1861d55ccc.svg)
 腺甾烷的衍生物：
 
 ::: \{#table1}
 
-| <img src={image0} /> 腺甾烷 | <img src={image1} /> 雄烷 |  <img src={image2} /> 雌烷 | <img src={image3} /> 孕烷 | <img src={image4} /> 胆烷 |
-| :----------------------: | :---------------------: | :----------------------: | :---------------------: | :---------------------: |
-| <img src={image5} /> 胆固醇 | <img src={image6} /> 睾酮 | <img src={image7} /> 雌二醇 | <img src={image8} /> 孕酮 | <img src={image9} /> 胆酸 |
-|            :::           |                         |                          |                         |                         |
+| <img alt="alt text" src={image13} /> 腺甾烷 | <img alt="alt text" src={image14} /> 雄烷 |  <img alt="alt text" src={image15} /> 雌烷 | <img alt="alt text" src={image16} /> 孕烷 | <img alt="alt text" src={image17} /> 胆烷 |
+| :--------------------------------------: | :-------------------------------------: | :--------------------------------------: | :-------------------------------------: | :-------------------------------------: |
+| <img alt="alt text" src={image18} /> 胆固醇 | <img alt="alt text" src={image19} /> 睾酮 | <img alt="alt text" src={image20} /> 雌二醇 | <img alt="alt text" src={image21} /> 孕酮 | <img alt="alt text" src={image22} /> 胆酸 |
+|                    :::                   |                                         |                                          |                                         |                                         |
 
 类固醇又称甾体、类甾醇，其特征是有一个四环的母核（甾核）。必须注意的是，类固醇的意思是类似固醇，其不一定属于醇类；为避免名称中类与醇在上下文中造成误解或歧义，常改称甾体。
 
@@ -1254,24 +1244,24 @@ $$
 <tbody>
 <tr>
 <td style="text-align: center;">戊糖</td>
-<td style="text-align: center;"><img src="../DL-Ribose.svg" /><br />
+<td style="text-align: center;"><br />
 核糖</td>
-<td style="text-align: center;"><img src="../DL-Arabinose.svg" /><br />
+<td style="text-align: center;"><br />
 阿拉伯糖</td>
-<td style="text-align: center;"><img src="../DL-Xylose.svg" /><br />
+<td style="text-align: center;"><br />
 木糖</td>
-<td style="text-align: center;"><img src="../DL-Lyxose.svg" /><br />
+<td style="text-align: center;"><br />
 来苏糖</td>
 </tr>
 <tr>
 <td style="text-align: center;">己糖</td>
-<td style="text-align: center;"><img src="../DL-Glucose.svg" /><br />
+<td style="text-align: center;"><br />
 葡萄糖</td>
-<td style="text-align: center;"><img src="../DL-Galactose.svg" /><br />
+<td style="text-align: center;"><br />
 半乳糖</td>
-<td style="text-align: center;"><img src="../DL-Fructose.svg" /><br />
+<td style="text-align: center;"><br />
 果糖</td>
-<td style="text-align: center;"><img src="../DL-Sorbose.svg" /><br />
+<td style="text-align: center;"><br />
 山梨糖</td>
 </tr>
 </tbody>
@@ -1427,8 +1417,7 @@ $$
 
 氨基酸，是构成蛋白质的基本单位，赋予蛋白质特定的分子结构形态，使其分子具有生化活性。不同的氨基酸脱水缩合形成肽，其缩合产生的酰胺键称肽键。肽虽然和蛋白质在化学本质上除了聚合的长度外没什么不同，但是往往不像蛋白质有多级构造与特定功能。
 
-::img\{src="../Amino\_acid\_generic\_structure.avif" width="50%"}
-
+![alt text](data:image/avif;base64,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)
 <center>
 
 $\alpha$ 氨基酸的结构式
@@ -1437,8 +1426,7 @@ $\alpha$ 氨基酸的结构式
 
 根据氨基连结在羧酸中碳原子的位置，可将氨基酸分为 $\alpha,\beta,\gamma,\delta,\dots$ 等类型，在生物化学中，若无明示，氨基酸通常默认 $\alpha$ 氨基酸，即胺基和羧基直接连接在同一个 $\ce\{-CH-}$ 结构上的氨基酸，其通式是 $\ce\{H2N-CHR-COOH}$。
 
-::img\{src="../Amino\_Acids.avif" width="100%"}
-
+![alt text](/static/image/Amino_Acids.e03db80b30.avif)
 天然的氨基酸都是无色结晶，熔点约在 $\pu\{230^oC}$ 以上，都能溶于强酸或强碱溶液中，除胱胺酸、酪胺酸、二碘甲状腺素外，均易溶于水；除脯胺酸和羟脯胺酸外，均难溶于乙醇和乙醚。 具有两性，有碱性（二元胺基一元羧酸）、酸性（一元胺基二元羧酸）、中性（一元胺基一元羧酸）三种类型。大多数氨基酸都呈显不同程度的酸性或碱性，呈显中性的较少，所以既能与酸结合成盐，也能与碱结合成盐。
 
 ### 蛋白质 \{#\_35}
@@ -1449,8 +1437,7 @@ $\alpha$ 氨基酸的结构式
 
 氨基酸的侧链是构成蛋白质结构的重要元素，它们具有不同的化学性质，因此对于蛋白质的功能至关重要。多肽链中的氨基酸之间是通过脱水反应所形成的肽键来互相连接；一旦形成肽键成为蛋白质的一部分，氨基酸就被称为残基，而连接在链的碳、氮、氧原子被称为主链或蛋白质骨架。
 
-::img\{src="../Peptidformationball-8dec250.avif" width="80%"}
-
+![alt text](/static/image/Peptidformationball-8dec250.ce349641b7.avif)
 由于氨基酸的非对称性（两端分别具有氨基和羧基），蛋白质链具有方向性。蛋白质链的起始端有自由的氨基，被称为 $\ce\{N}$ 端或氨基端；尾端则有自由的羧基，被称为 $\ce\{C}$ 端或羧基端。
 
 大多数的蛋白质都自然折叠为一个特定的三维结构，这一特定结构被称为天然状态。虽然多数蛋白可以通过本身氨基酸序列的性质进行自我折叠，但还是有许多蛋白质需要分子伴侣的帮助来进行正确的折叠。生物化学家常常用以下四个方面来表示蛋白质的结构：
@@ -1463,8 +1450,7 @@ $\alpha$ 氨基酸的结构式
 
 - 蛋白质四级结构：由几个蛋白质分子（多肽链），通常称为蛋白质亚基所形成的结构，在功能上作为一个蛋白质复合体。
 
-::img\{src="../225\_Peptide\_Bond-01.avif" width="100%"}
-
+![alt text](/static/image/225_Peptide_Bond-01.8c50245e8a.avif)
 蛋白质并不完全是刚性分子，许多蛋白质在执行生物学功能时可以在多个相关结构中相互转换。在进行功能型结构重排时，这些相关的三级或四级结构通常被定义为不同构象，而这些结构之间的转换就被称为构象变换。例如，酶的构象变换常常是由底物结合到活性位点所导致。在溶液中，所有的蛋白质都会发生结构上的动态变化，主要表现为热振动和与其他分子之间碰撞所导致的运动。
 
 变性作用：
@@ -1479,14 +1465,12 @@ $\alpha$ 氨基酸的结构式
 
 核酸的单体结构为核苷酸，每个核苷酸由一个核苷（一个五碳糖、一个含氮碱基）和一个或多个磷酸基团组成。
 
-::img\{src="../Nucleotides\_zh.avif" width="90%"}
-
+![alt text](/static/image/Nucleotides_zh.75acf58579.avif)
 - 如果其五碳糖是脱氧核糖，则此单体的聚合物是脱氧核糖核酸 DNA。
 
 - 如果其五碳糖是核糖，则此单体的聚合物是核糖核酸 RNA。
 
-::img\{src="../Difference\_DNA\_RNA-ZH.svg" width="90%"}
-
+![alt text](/static/svg/Difference_DNA_RNA-ZH.0729bcb645.svg)
 核酸的结构可分为一级结构、二级结构、三级结构和四级结构。
 
 碱基互补配对：
@@ -1514,4 +1498,4 @@ $\alpha$ 氨基酸的结构式
 
 最终形成脱氧核糖核酸的形式如下：
 
-::img\{src="../DNA\_Structure.avif" width="90%"}
+![alt text](/static/image/DNA_Structure.5262f907c1.avif)

@@ -151,7 +151,7 @@ $$
 按照定义，我们一次分析第 $i$ 个选哪个，
 
 $$
-\def\arraystretch\{1.2} \begin\{array}\{|c|c|}\hline \bm\{i}&\small\texttt\{方案数}\hline 1\&n\hline 2\&n-1\hline 3\&n-2\hline \dots&\dots\hline m\&n-m+1\hline \end\{array}
+\def\arraystretch\{1.2} \begin\{array}\{|c|c|}\hline \bm\{i}&\small\texttt\{方案数}\\\hline 1\&n\\\hline 2\&n-1\\\hline 3\&n-2\\\hline \dots&\dots\\\hline m\&n-m+1\\\hline \end\{array}
 $$
 
 因此，总方案数，
@@ -400,7 +400,7 @@ $$
 注意到形如组合数的形式，
 
 $$
-\def\qq\{\quad} \begin\{array}\{r|c} 1&1\hline 2&1\qq1\hline 3&1\qq2\qq1\hline 4&1\qq3\qq3\qq1\hline 5&1\qq4\qq6\qq4\qq1\hline 6&1\qq5\qq10\qq10\qq5\qq1\hline 7&1\qq6\qq15\qq20\qq15\qq6\qq1\hline 8&1\qq7\qq21\qq35\qq35\qq21\qq7\qq1\hline 9&1\qq8\qq28\qq56\qq70\qq56\qq28\qq8\qq1\hline 10&1\qq9\qq36\qq84\qq126\qq126\qq84\qq36\qq9\qq1\hline 11&1\qq10\qq45\qq120\qq210\qq252\qq210\qq120\qq45\qq10\qq1\ \end\{array}
+\def\qq\{\quad} \begin\{array}\{r|c} 1&1\\\hline 2&1\qq1\\\hline 3&1\qq2\qq1\\\hline 4&1\qq3\qq3\qq1\\\hline 5&1\qq4\qq6\qq4\qq1\\\hline 6&1\qq5\qq10\qq10\qq5\qq1\\\hline 7&1\qq6\qq15\qq20\qq15\qq6\qq1\\\hline 8&1\qq7\qq21\qq35\qq35\qq21\qq7\qq1\\\hline 9&1\qq8\qq28\qq56\qq70\qq56\qq28\qq8\qq1\\\hline 10&1\qq9\qq36\qq84\qq126\qq126\qq84\qq36\qq9\qq1\\\hline 11&1\qq10\qq45\qq120\qq210\qq252\qq210\qq120\qq45\qq10\qq1\ \end\{array}
 $$
 
 其中第 $i$ 行第 $j$ 个数，表示的是 $(a+1)^\{i-1}$ 的 $j-1$ 次项系数。
@@ -515,7 +515,7 @@ $$
 我们考虑先确定 $x\_5$ 的系数，我们知道，可行的能配出来的有，
 
 $$
-\begin\{aligned} &&(x&-&1&+\&p\&x^2)^6\hline (1)& &1& &3& &2&\ (2)& &3& &2& &1&\ (3)& &5& &1& &0& \end\{aligned}
+\begin\{aligned} &&(x&-&1&+\&p\&x^2)^6\\\hline (1)& &1& &3& &2&\ (2)& &3& &2& &1&\ (3)& &5& &1& &0& \end\{aligned}
 $$
 
 下面的表示可以配出 $x^5$ 的系数。
@@ -677,7 +677,7 @@ $$
 容易发现，设集合 $A=#\[\{\small\sf\{是\ 3\ 的倍数}}]$，$B=#\[\{\small\sf\{是\ 5\ 的倍数}}]$，则，
 
 $$
-\def\floor#1\{\left\lfloor\{#1}\right\rfloor} |A|=\floor\{1000\over3}=333\[0.5em] |B|=\floor\{1000\over5}=200\[0.5em] |A\cup B|=\floor\{1000\over15}=66\[0.5em] |A\cap B|=|A|+|B|-|A\cup B|=467
+\def\floor#1\{\left\lfloor\{#1}\right\rfloor} |A|=\floor\{1000\over3}=333\\\[0.5em] |B|=\floor\{1000\over5}=200\\\[0.5em] |A\cup B|=\floor\{1000\over15}=66\\\[0.5em] |A\cap B|=|A|+|B|-|A\cup B|=467
 $$
 
 那么我们再取一下补集，答案就是 $533$。
@@ -886,7 +886,7 @@ $$
 
 卡特兰数可以表示一类组合问题，
 
-::img\{src="[https://cdn.luogu.com.cn/upload/image\_hosting/s1kfe1dc.png"}](https://cdn.luogu.com.cn/upload/image_hosting/s1kfe1dc.png"})
+![alt text](https://cdn.luogu.com.cn/upload/image_hosting/s1kfe1dc.png#class="custom-img")
 
 其情景有，
 
@@ -1230,13 +1230,13 @@ $$
 答案即为，
 
 $$
-\def\card#1\{#\[#1]} \card\{}-\card\{a=b}-\card\{a=c}-\card\{b=c}+2\times\card\{a=b=c}\
+\def\card#1\{#\[#1]} \card\{}-\card\{a=b}-\card\{a=c}-\card\{b=c}+2\times\card\{a=b=c}\\
 $$
 
 注：为了简写，两两不等的省略。我们分别来看，
 
 $$
-\#\[]=\{23\choose 2}=253\
+\#\[]=\{23\choose 2}=253\\
 $$
 
 考虑 $#\[x\_i=x\_j]$ 是多少。
@@ -1256,7 +1256,7 @@ $$
 共有 $11$ 种，因此，
 
 $$
-\def\card#1\{#\[#1]} \card\{a=b}=\card\{b=c}=\card\{a=c}=11\
+\def\card#1\{#\[#1]} \card\{a=b}=\card\{b=c}=\card\{a=c}=11\\
 $$
 
 而，

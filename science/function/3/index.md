@@ -268,8 +268,7 @@ $$
 
 - 非负小数部分函数 $f(x) = x - \[x]$。非负小数部分函数是一个周期为 $1$，值域为 $\[0, 1)$ 的周期函数。
 
-::img\[alt text]\{src="../image-3.avif" width="80%"}
-
+![alt text](/static/image/image-3.098fdfe578.avif)
 基本性质：
 
 - 下取整函数满足 $x - 1 \< \[x] \le x$，$\[x] \le x \< \[x] + 1$。
@@ -284,9 +283,8 @@ $$
 
 常见函数：
 
-::img\[alt text]\{src="../geogebra-export.svg"}
-
-::img\[alt text]\{src="../geogebra-export (2).svg"}
+![alt text](/static/svg/geogebra-export.a1b09476f8.svg)
+!\[alt text]\(../geogebra-export (2).svg#class="custom-img")
 
 ### 函数构造 \{#\_10}
 
@@ -698,8 +696,7 @@ $$
 
 容易想到，我们做出图来，然后根据图像解决，注意，一定要小心有的时候直线可能会与曲线凸出来的部分相交或相切，而不一定是在拐点上，如图。
 
-::img\[alt text]\{src="../image-7.avif" width="60%"}
-
+![alt text](/static/image/image-7.d1a5033dbd.avif)
 虽然交点个数往往可以转化为零点问题，但是这类问题往往在代数上很难算，只能数形结合，简化问题后再带入计算。
 
 有的时候，我们遇到的问题是曲线与曲线的交点，此时有一种简单方法是，等式两边同时乘除 $x$，也许可以将问题转化为直线与曲线的交点。
@@ -881,8 +878,7 @@ $$
 
 假设我们目前的近似解是 $x\_i$，我们画出与 $f(x)$ 切于点 $(x\_i,f(x\_i))$ 的直线 $l$，将 $l$ 与 $x$ 轴的交点横坐标记为 $x\_\{i+1}$，那么这就是一个更优的近似解。重复这个迭代的过程。
 
-::img\[alt text]\{src="../image-5.avif" width="60%"}
-
+![alt text](/static/image/image-5.42da241e31.avif)
 根据导数的几何意义，可以得到如下关系：
 
 $$

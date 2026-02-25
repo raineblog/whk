@@ -228,8 +228,7 @@ $$
 
 其中 $\xi\_0=1$，也就是实数情况下的平凡解。
 
-::img\[alt text]\{src="../image.avif" width="60%"}
-
+![alt text](/static/image/image.244df1ff73.avif)
 根据恒等式：
 
 $$
@@ -278,8 +277,7 @@ $$
 
 但是，虚数的运算不完全遵守其直观的位置向量的运算，尤其是乘法。
 
-::img\{src="../z7qf3jtc.avif"}
-
+![alt text](/static/image/z7qf3jtc.5e8b19db7c.avif)
 ### 模长幅角 \{#\_9}
 
 有了上面的基础（以及图），我们容易定义，

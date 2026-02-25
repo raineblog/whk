@@ -264,8 +264,7 @@ $$
 
 容易知道，这是一个以 $(3\cos\theta,3\sin\theta)$ 为圆心、半径为 $1$ 的圆，
 
-::img\[alt text]\{src="../image-6.avif" width="40%"}
-
+![alt text](/static/image/image-6.1910dad12c.avif)
 这样的圆有无数个，围成了一个圆环。
 
 ## 直线和圆 \{#\_16}
@@ -305,7 +304,7 @@ $$
 求交点，即为 $Q(x,y)$ 满足上述两式，解方程组即可，我们写出矩阵：
 
 $$
-\begin\{bmatrix}A\_1 & B\_1 \A\_2 & B\_2\end\{bmatrix}\begin\{bmatrix} x \ y\end\{bmatrix}=\begin\{bmatrix}-C\_1-C\_2\end\{bmatrix}
+\begin\{bmatrix}A\_1 & B\_1 \A\_2 & B\_2\end\{bmatrix}\begin\{bmatrix} x \ y\end\{bmatrix}=\begin\{bmatrix}-C\_1\\-C\_2\end\{bmatrix}
 $$
 
 根据克拉默法则，若 $A\_1B\_2-A\_2B\_1\neq0$ 则方程有解，且：
@@ -356,11 +355,11 @@ $$
 
 - 圆与圆的位置关系：
 
-  ::img\[alt text]\{src="../image-4.avif" width="70%"}
+  <img alt="alt text" src={image1} />
 
   对应距离图示如下：
 
-  ::img\[alt text]\{src="../image-5.avif" width="90%"}
+  <img alt="alt text" src={image2} />
 
   除了用圆心距离，同样可以联立，解方程可以用加减消元。两个二次项系数相等的圆的直线方程的差，就是交点所确定的直线的直线方程。
 
@@ -523,8 +522,7 @@ $$
 
 而我们称仿射变换是指在对一个向量空间进行一次线性变换并接上一个**平移**，变换为另一个向量空间。伸缩、平移、对称等都是仿射变换，
 
-::img\[alt text]\{src="../image-2.avif" width="80%"}
-
+![alt text](/static/image/image-2.89d163d572.avif)
 事实上：
 
 - 平行直线依然平行。
@@ -609,8 +607,7 @@ $$
 
 倒角公式：我们知道 $\theta=\theta\_2-\theta\_1$，如图
 
-::img\[alt text]\{src="../image.avif" width="40%"}
-
+![alt text](/static/image/image.24ae1f8fc4.avif)
 因此，不妨
 
 $$

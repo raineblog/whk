@@ -70,8 +70,7 @@ $$
 
 牛顿第二定律指出了力所引起的物体运动的定量变化：动量的变化率正比于力。
 
-::img\[alt text]\{src="../image-1.avif" width="60%"}
-
+![alt text](/static/image/image-1.703131021a.avif)
 在这条定律中，把受到相同大小作用力的推动下，轻物体容易起动，重物体不易起动的事实，引进了质量的概念。
 
 质量被定义为惯性的定量量度。
@@ -89,7 +88,7 @@ $$
 经 @lanjiarui 补充：
 
 $$
-v(t) =\lim\_\{\Delta\{t}\to0}\dfrac\{x(t+\Delta\{t})-x(t)}\{\Delta\{t}} =\dfrac\{\mathrm\{d}x}\{\mathrm\{d}t} \[1.2em] a(t) =\lim\_\{\Delta\{t}\to0}\dfrac\{v(t+\Delta\{t})-v(t)}\{\Delta\{t}} =\dfrac\{\mathrm\{d}v}\{\mathrm\{d}t} =\dfrac\{\mathrm\{d^2}x}\{\mathrm\{d}t^\{2}}
+v(t) =\lim\_\{\Delta\{t}\to0}\dfrac\{x(t+\Delta\{t})-x(t)}\{\Delta\{t}} =\dfrac\{\mathrm\{d}x}\{\mathrm\{d}t} \\\[1.2em] a(t) =\lim\_\{\Delta\{t}\to0}\dfrac\{v(t+\Delta\{t})-v(t)}\{\Delta\{t}} =\dfrac\{\mathrm\{d}v}\{\mathrm\{d}t} =\dfrac\{\mathrm\{d^2}x}\{\mathrm\{d}t^\{2}}
 $$
 
 经 @pjykk 补充：
@@ -377,8 +376,7 @@ $$
 \begin\{aligned} W\_\{\text\{合}}&=\Delta E\_k\ W\_G+W\_f+\dots&=\frac\{1}\{2}m\{v\_t}^2-\frac\{1}\{2}m\{v\_0}^2 \end\{aligned}
 $$
 
-::img\[模型]\{src="../动能定理九个模型.avif" width="90%"}
-
+![模型](/static/image/动能定理九个模型.50919a2c95.avif)
 1. 圆周运动上受力和速度的关系。
 
 2. 绳杆最高点最低点的受力关系。

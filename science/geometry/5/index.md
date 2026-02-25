@@ -57,7 +57,7 @@ $$
 我们可以类比将实数加法拓展到乘法的过程，这也是非常直观的，
 
 $$
-\lambda\begin\{bmatrix} x\y \end\{bmatrix}=\begin\{bmatrix} \lambda x\lambda y \end\{bmatrix}
+\lambda\begin\{bmatrix} x\y \end\{bmatrix}=\begin\{bmatrix} \lambda x\\\lambda y \end\{bmatrix}
 $$
 
 ## 线性组合 \{#\_5}
@@ -65,13 +65,13 @@ $$
 在若干向量中，有两个向量最特殊，
 
 $$
-\def\vecc#1#2\{\begin\{bmatrix}#1#2\end\{bmatrix}} \hat\imath=\vecc10\[0.5em] \hat\jmath=\vecc01
+\def\vecc#1#2\{\begin\{bmatrix}#1\\#2\end\{bmatrix}} \hat\imath=\vecc10\\\[0.5em] \hat\jmath=\vecc01
 $$
 
 于是，我们可以把向量 $(a,b)$ 看成上面两个向量的缩放，即
 
 $$
-\def\vecc#1#2\{\begin\{bmatrix}#1#2\end\{bmatrix}} \vecc a b=a\hat\imath+b\hat\jmath
+\def\vecc#1#2\{\begin\{bmatrix}#1\\#2\end\{bmatrix}} \vecc a b=a\hat\imath+b\hat\jmath
 $$
 
 这种缩放向量并相加的思想很重要，我们称 $\hat\imath,\hat\jmath$ 为 $xy$ 坐标系的**基向量**。
@@ -193,7 +193,7 @@ $$
 根据这个，可以得出很多有意思的矩阵，
 
 $$
-\def\vecc#1\{\begin\{bmatrix}#1\end\{bmatrix}} \vecc\{0&-1\1&0}:\small\text\{逆时针旋转 $90^\circ$}\[0.5em] \vecc\{1&1\0&1}:\small\text\{剪切、错切}\
+\def\vecc#1\{\begin\{bmatrix}#1\end\{bmatrix}} \vecc\{0&-1\1&0}:\small\text\{逆时针旋转 $90^\circ$}\\\[0.5em] \vecc\{1&1\0&1}:\small\text\{剪切、错切}\\
 $$
 
 在变换的时候，可以先对 $\hat\imath$ 变换，再对 $\hat\jmath$ 变换，可以方便一点。

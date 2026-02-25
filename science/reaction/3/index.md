@@ -191,8 +191,7 @@ $$
 
 在常温下 $K\_w=\pu\{1E-14}$，也就是说 $\con\{H+}=\con\{OH-}=\pu\{1E-7}$。而在接近沸腾的水中，一般取 $\pu\{E-12}$ 左右。
 
-::img\[alt text]\{src="../image-3.avif" width="100%"}
-
+![alt text](/static/image/image-3.da9cfb9969.avif)
 在这一部分中，我们考虑六个经典问题（三个定性、两个定量和一个备注）：
 
 1. **越热越电离**：温度越高，平衡正向移动，平衡常数增大，纯水中 $\con\{H+},\con\{OH-}$ 均增大，平衡常数仅仅是温度的函数。
@@ -333,8 +332,7 @@ $$
 
 对于弱碱 $\ce\{BOH}$ 也进行类似的操作即可。
 
-::img\[alt text]\{src="../image-4.avif" width="100%"}
-
+![alt text](/static/image/image-4.5ac7edd510.avif)
 - 这种两种含有相同离子的盐（或酸、碱）溶于水时，它们的溶解度都会降低，这种现象叫做**同离子效应**，其本质是平衡的移动。
 
 - 电离平衡右移，电解质分子的浓度不一定减小（加入醋酸），离子的浓度也不一定增大（加入与离子反应的物质）。
@@ -343,8 +341,7 @@ $$
 
 我们知道 $K\_a$ 越大酸性越强，但是 $pK\_a$ 越小。
 
-::img\[alt text]\{src="../pka.svg" width="90%"}
-
+![alt text](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MTAgMTAwIj48ZGVmcz48bWFya2VyIGlkPSJzdmdfX2dpdGh1Yl93b3JrX19hIiBtYXJrZXJIZWlnaHQ9IjEwIiBtYXJrZXJXaWR0aD0iMTAiIG9yaWVudD0iYXV0byIgcmVmWD0iOSIgcmVmWT0iMyI+PHBhdGggZmlsbD0iIzMzMyIgZD0ibTAgMCAxMCAzTDAgNnoiLz48L21hcmtlcj48L2RlZnM+PHBhdGggc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjIiIG1hcmtlci1lbmQ9InVybCgjc3ZnX19naXRodWJfd29ya19fYSkiIGQ9Ik0xMCA1MGg1OTAiLz48cGF0aCBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMyIgZD0iTTE1MCA0MHYyMCIvPjx0ZXh0IHg9IjE1MCIgeT0iODUiIGZpbGw9IiMzMzMiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtd2VpZ2h0PSJib2xkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4wPC90ZXh0PjxwYXRoIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIzIiBkPSJNNDAwIDQwdjIwIi8+PHRleHQgeD0iNDAwIiB5PSI4NSIgZmlsbD0iIzMzMyIgZm9udC1zaXplPSIyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIHRleHQtYW5jaG9yPSJtaWRkbGUiPjQ8L3RleHQ+PHRleHQgeD0iNTUwIiB5PSI3NSIgZmlsbD0iIzMzMyIgZm9udC1zaXplPSIxOCIgZm9udC1zdHlsZT0iaXRhbGljIj5wSzwvdGV4dD48dGV4dCB4PSI1NzIiIHk9IjgwIiBmaWxsPSIjMzMzIiBmb250LXNpemU9IjE0IiBmb250LXN0eWxlPSJpdGFsaWMiPmE8L3RleHQ+PHRleHQgeD0iNzUiIHk9IjMwIiBmaWxsPSIjZDYzMDMxIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iYm9sZCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+5by66YW4PC90ZXh0Pjx0ZXh0IHg9IjI3NSIgeT0iMzAiIGZpbGw9IiNmZGNiNmUiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7kuK3lvLrphbg8L3RleHQ+PHRleHQgeD0iNTAwIiB5PSIzMCIgZmlsbD0iIzc0YjlmZiIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9ImJvbGQiIHRleHQtYW5jaG9yPSJtaWRkbGUiPuW8semFuDwvdGV4dD48L3N2Zz4=)
 |   酸   |         化学式        |  $pK\_a$ |   |  酸  |       化学式      | $pK\_a$ |
 | :---: | :----------------: | :------: | - | :-: | :------------: | :-----: |
 | _氟锑酸_ |    $\ce\{HSbF6}$   | $-25.00$ |   |  磷酸 |  $\ce\{H3PO4}$ |  $2.12$ |
@@ -534,8 +531,7 @@ $$
 
 质子守恒：
 
-::img\[alt text]\{src="../image-7.avif" width="90%"}
-
+![alt text](/static/image/image-7.cb4034699c.avif)
 三大守恒式及其书写：
 
 - 电荷守恒：溶液呈电中性，溶液中所有阳离子所带的正电荷总数等于所有阴离子所带的负电荷总数。
@@ -645,13 +641,13 @@ $$
 我们有下面的顺序，等体积、等浓度 $\pH$ 由大到小排序（第三行是相等）：
 
 $$
-\begin\{array}\{rrrr} \ce\{H2SO4} & \ce\{HCl} & \ce\{HAc} \[0.5em] \ce\{(NH4)2SO4} & \ce\{NH4Cl} \[0.5em] \ce\{Na2SO4} & \ce\{NaCl} \[0.5em] \ce\{NaAc} & \ce\{NaHCO3} & \ce\{NaClO} & \ce\{Na2CO3} \[0.5em] \ce\{NH3\`H2O} & \ce\{NaOH} & \ce\{Ba(OH)2} \end\{array}
+\begin\{array}\{rrrr} \ce\{H2SO4} & \ce\{HCl} & \ce\{HAc} \\\[0.5em] \ce\{(NH4)2SO4} & \ce\{NH4Cl} \\\[0.5em] \ce\{Na2SO4} & \ce\{NaCl} \\\[0.5em] \ce\{NaAc} & \ce\{NaHCO3} & \ce\{NaClO} & \ce\{Na2CO3} \\\[0.5em] \ce\{NH3\`H2O} & \ce\{NaOH} & \ce\{Ba(OH)2} \end\{array}
 $$
 
 在此之后，我们如果想要定量判断，就需要用到三大守恒。例如，我们设想向醋酸钠溶液中不断加入氢氧化钠固体，问溶液离子浓度的变化趋势：
 
 $$
-\begin\{array}\{r|l} \con\{Na+} > \con\{AC-} > \con\{OH-} > \con\{H+} & \downarrow \[0.5em] \con\{Na+} > \con\{AC-} = \con\{OH-} > \con\{H+} & \downarrow \[0.5em] \con\{Na+} > \con\{OH-} > \con\{AC-} > \con\{H+} & \downarrow \[0.5em] \con\{Na+} = \con\{OH-} > \con\{AC-} = \con\{H+} & \downarrow \[0.5em] \con\{OH-} > \con\{Na+} > \con\{H+} > \con\{AC-} \end\{array}
+\begin\{array}\{r|l} \con\{Na+} > \con\{AC-} > \con\{OH-} > \con\{H+} & \downarrow \\\[0.5em] \con\{Na+} > \con\{AC-} = \con\{OH-} > \con\{H+} & \downarrow \\\[0.5em] \con\{Na+} > \con\{OH-} > \con\{AC-} > \con\{H+} & \downarrow \\\[0.5em] \con\{Na+} = \con\{OH-} > \con\{AC-} = \con\{H+} & \downarrow \\\[0.5em] \con\{OH-} > \con\{Na+} > \con\{H+} > \con\{AC-} \end\{array}
 $$
 
 最后溶液会无限趋近于 _纯_ 的氢氧化钠溶液，因此最后一个一定是氢氧化钠溶液的离子浓度大小顺序（再加上无限小的醋酸根）。
@@ -973,15 +969,15 @@ $$
 
 - 等体积等浓度：
 
-  ::img\[alt text]\{src="../image-1.avif" width="100%"}
+  <img alt="alt text" src={image4} />
 
-  ::img\[alt text]\{src="../image-5.avif" width="100%"}
+  <img alt="alt text" src={image5} />
 
 - 等体积等 $\pH$：
 
-  ::img\[alt text]\{src="../image-2.avif" width="100%"}
+  <img alt="alt text" src={image6} />
 
-  ::img\[alt text]\{src="../image-6.avif" width="100%"}
+  <img alt="alt text" src={image7} />
 
 判断 $\dfrac\{\con\{A}}\{\con\{B}}$ 的变化：
 

@@ -111,8 +111,7 @@ $$
 
 根据 $\bm F=\bm Eq$，在匀强电场中，带电物体受力始终是不变的，是恒力。
 
-::img\[非匀强电场]\{src="../2025-01-19-18-09-56.avif" align="right" width="50%"}
-
+![非匀强电场](/static/image/2025-01-19-18-09-56.dc9d8b4e4f.avif)
 - 因为本身性质和重力类似，因此可以得出很多运动学动力学的结论，尤其是曲线运动。
 
 - 有时不可忽略带电物体自身的重力，此时通常将重力和电场力做矢量和，即等效重力。
@@ -142,10 +141,8 @@ $$
 
 构成：两块金属板加一个绝缘介质。具体的，平行板电容器是一种简单的电容器，是由互相平行、以空间或介电质隔离的两片薄板导体构成。
 
-::img\[电容器原理]\{src="../Diel.avif"}
-
-::img\[电容器]\{src="../Dielectric.avif"}
-
+![电容器原理](/static/image/Diel.05900ba2f9.avif)
+![电容器](/static/image/Dielectric.fd1e983aec.avif)
 电容：表示电容器储存电荷的能力。用 $C$ 表示，单位为 $\text F$ 法拉。
 
 电容器的应用：
@@ -158,8 +155,7 @@ $$
 
 - 在维修具有大电容的设备之前，需确认电容已经放电完毕。为了安全上的考量，所有大电容在组装前需要放电。高电压的电容器若在启动时加入缓启动的机制，限制其突入电流，可以延长其设备寿命，提升器件可靠度，也可以避免高电压下造成的危害。
 
-::img\[alt text]\{src="../fimage-7.avif" width="100%"}
-
+![alt text](/static/image/fimage-7.3000d7e53c.avif)
 假设这两片导板分别载有负电荷与正电荷，所载有的电荷量分别为 $−Q$、$+Q$，两片导板之间的电势差为 $U$，则这电容器的电容 $C$ 为：
 
 $$
@@ -211,8 +207,7 @@ $$
 
 ### 电容器的串并联 \{#\_12}
 
-::img\[alt text]\{src="../fimage-8.avif" width="80%"}
-
+![alt text](/static/image/fimage-8.e56de60670.avif)
 电容器并联：
 
 $$
@@ -307,7 +302,7 @@ $$
 
 **模型一**：连接电源。
 
-::img\[穿出]\{src="../屏幕截图 2025-01-26 182733.avif" align="right" width="35%"}
+!\[穿出]\(../屏幕截图 2025-01-26 182733.avif#class="custom-img";align="right";float="35%")
 
 如右图，两个平行板上有一对小孔（对电场的影响不计），初始状态为从 $P$ 点静止释放，带电质点恰好不穿出下板（记为 $Q$ 点）。
 
@@ -359,7 +354,7 @@ $$
 
 如图：
 
-::img\[交变电场]\{src="../屏幕截图 2025-01-26 193313.avif"}
+!\[交变电场]\(../屏幕截图 2025-01-26 193313.avif#class="custom-img")
 
 本质是多个加速电场的合并。
 
@@ -383,8 +378,7 @@ $$
 
 **基础偏转电场**如图：
 
-::img\[偏转电场]\{src="../2025-01-27-17-51-14.avif"}
-
+![偏转电场](data:image/avif;base64,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)
 基本思想是：
 
 - 根据电场知识，求出 $a=\dfrac\{qU}\{md}$^[1](#fn:notequmd)\{.footnote-ref}^。
@@ -417,8 +411,7 @@ $$
 
 如图：
 
-::img\[加速电场偏转电池]\{src="../2025-01-27-17-54-56.avif"}
-
+![加速电场偏转电池](/static/image/2025-01-27-17-54-56.d1e9e685d5.avif)
 根据加速电场相关知识，电子进入偏转电场时的速度为：
 
 $$

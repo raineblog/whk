@@ -1,3 +1,3 @@
 # 相对运动 \{#\_1}
 
-::img\[alt text]\{src="../image-3.avif"}
+![alt text](/static/image/image-3.7dd8b89040.avif)
