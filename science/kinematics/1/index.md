@@ -41,7 +41,7 @@
 - $L$：长度（Length）。
 - $T$：时间（Time）。
 - $I$：电流（Electric Current）。
-- $Theta$：热力学温度（Thermodynamic Temperature）。
+- $\Theta$：热力学温度（Thermodynamic Temperature）。
 - $N$：物质的量（Amount of Substance）。
 
 <table>

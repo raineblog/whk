@@ -6,14 +6,15 @@
 
 电荷是构成物质的基本粒子的一种物理性质，原子中的质子和电子分别带有正电荷和负电荷，而中子不带电荷。
 
-![](/static/image/验电器与静电计.5271c6d3c7.avif){align="right" width="30%"}
+<img src="../验电器与静电计.avif" align="right" width="30%">
+
 质子与电子这种携带电荷的粒子称作**载流子**，电荷作为一种假想物质，无法脱离载流子单独存在。
 
 - 丝绸摩擦的玻璃棒带正电荷，毛皮摩擦的橡胶棒带负电荷。
 
 - 带有电荷的物质称为**带电物质**，带有电荷的粒子称为**带电粒子**。
 
-电荷量的国际单位是库仑（$text C$），通常用符号 $Q$ 表示。
+电荷量的国际单位是库仑（$\text C$），通常用符号 $Q$ 表示。
 
 **元电荷**（也成基本电荷）：基本电荷 $e$ 是一个质子所带的**电荷量**，或一个电子所带的负**电荷量**。其中 $e\approx 1.602\times 10^\{-19}\text C$，一个电子携带的电荷量为 $-e$。
 
@@ -96,7 +97,8 @@
 
 库仑定律表明，在真空中两个静止点电荷之间的相互作用力，与两电荷间距离的平方成反比，且与两电荷电量的乘积成正比，作用力方向在它们的连线上，同号电荷相斥，异号电荷相吸。
 
-![alt text](/static/image/fimage-5.f3e787c97f.avif){width="40%"}
+<img src="../fimage-5.avif" width="40%" alt="alt text">
+
 库仑证明两带电体间有相互作用力，且其定量关系可以方程表示。库仑定律的标量形式可以表示为：
 
 $$
@@ -127,7 +129,7 @@ $$
 k\_e=\dfrac\{1}\{4\pi\varepsilon\_0}=\dfrac\{c\_0^2\mu\_0}\{4\pi}=c\_0^2\times10^\{-7}\mathrm\{H/m}
 $$
 
-其中 $c\_0$ 表示光速，$varepsilon\_0$ 为介电常数，因此：
+其中 $c\_0$ 表示光速，$\varepsilon\_0$ 为介电常数，因此：
 
 $$
 k\_e\approx9\times10^9\ \mathrm\{Nm^2C^\{-2}}
@@ -135,13 +137,13 @@ $$
 
 这个数是很大的。
 
-介质极化后，束缚电荷也要产生电场，该电场与外电场的方向相反，两电场叠加的结果是介质内部的电场减弱。在真空中场强为 $E\_0$ 的区域内充满电介质后，场强会减小到 $E$，其比值就叫这种电介质的介电常数（亦称相对介电常数），用 $varepsilon$ 表示：
+介质极化后，束缚电荷也要产生电场，该电场与外电场的方向相反，两电场叠加的结果是介质内部的电场减弱。在真空中场强为 $E\_0$ 的区域内充满电介质后，场强会减小到 $E$，其比值就叫这种电介质的介电常数（亦称相对介电常数），用 $\varepsilon$ 表示：
 
 $$
 \varepsilon=\dfrac\{E\_0}\{E}
 $$
 
-显然，真空的介电常数 $varepsilon\_0=1$，而空气的非常接近 $1$（可以看做真空），而水中可以达到约 $80$。
+显然，真空的介电常数 $\varepsilon\_0=1$，而空气的非常接近 $1$（可以看做真空），而水中可以达到约 $80$。
 
 因此，电介质中的库仑定律及点电荷的场强公式和电势的公式分别为：
 
@@ -177,7 +179,7 @@ $$
 
 - 带电正负为两同夹异，带电量为两大夹小、近小远大。
 
-公式表达：一条直线上一次有电荷量为 $q\_1,q\_2,q\_3$ 的点电荷，其间距分别为 $ell\_1,\ell\_2$，若三点电荷平衡：
+公式表达：一条直线上一次有电荷量为 $q\_1,q\_2,q\_3$ 的点电荷，其间距分别为 $\ell\_1,\ell\_2$，若三点电荷平衡：
 
 $$
 \dfrac\{1}\{\sqrt\{q\_2}}=\dfrac\{1}\{\sqrt\{q\_1}}+\dfrac\{1}\{\sqrt\{q\_3}}
@@ -199,7 +201,8 @@ $$
 
 如图：
 
-![alt text](/static/image/image.1f768c9480.avif){width="80%"}
+<img src="../image.avif" width="80%" alt="alt text">
+
 形成等边三角形后，按照 $1:1:2$ 的关系，库仑力等大同向，此时给一个匀强电场即可平衡。
 
 证明：暴力展开。
@@ -230,7 +233,8 @@ $$
 
 电子转移的原因是不同原子核对电子的吸引力会有差别，同时摩擦起电只会发生在绝缘体中，导体中的电荷转移形式为接触起电。
 
-![摩擦生电](/static/image/摩擦生电.4ad63d51a8.avif)
+<img src="../摩擦生电.avif" alt="摩擦生电">
+
 典型摩擦起电序列表：
 
 - 正电：兔毛、玻璃、云母、人发、尼龙、羊毛、毛皮、铅、丝绸、铝、纸、棉花、钢铁、木。
@@ -250,7 +254,8 @@ $$
 
 ### 感应起电 \{#\_20}
 
-![感应起电](/static/image/Electroscope_showing_induction.7afd41d4eb.avif){align="right" width="50%"}
+<img src="../Electroscope_showing_induction.avif" align="right" width="50%" alt="感应起电">
+
 感应起电：发生于导体中，不接触，形式为导体中的自由电荷重新分布。
 
 **静电平衡**是指导体中的自由电荷（通常为带负电荷电的电子）所受到的力达到平衡而不再做定向运动的状态。
@@ -273,12 +278,12 @@ $$
 
 ### 接地加感应起电 \{#\_21}
 
-感应起电接地模型：基础模型题目描述形如，带电物体 $text C$ 靠近枕形导体 $text\{AB}$ 的 $text A$ 端，将导体 $mathrm\{A/B}$ 端接地（或者用手触碰一下），然后拿开或不拿开 $text\{C}$，问导体 $mathrm\{A},\text\{B}$ 两端分别带什么电荷。
+感应起电接地模型：基础模型题目描述形如，带电物体 $\text C$ 靠近枕形导体 $\text\{AB}$ 的 $\text A$ 端，将导体 $\mathrm\{A/B}$ 端接地（或者用手触碰一下），然后拿开或不拿开 $\text\{C}$，问导体 $\mathrm\{A},\text\{B}$ 两端分别带什么电荷。
 
 性质：导体任意一端接地，效果相同。\
 解释：因为是导体，所以电荷自由移动，完全不需要考虑导体的两端的差异。
 
-性质：如果拿开 $text\{C}$，则导体两端电荷相同。\
+性质：如果拿开 $\text\{C}$，则导体两端电荷相同。\
 解释：显然。
 
 <figure>
@@ -316,7 +321,8 @@ $$
 
 如图：
 
-![空球壳模型](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9InRsLWNvbnRhaW5lciB0bC10aGVtZV9fZm9yY2Utc1JHQiB0bC10aGVtZV9fbGlnaHQiIGRhdGEtY29sb3ItbW9kZT0ibGlnaHQiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiNmOWZhZmIiIHZpZXdCb3g9IjE1NjYuODIgMjU4IDE0NTUuMTggMzY0Ij48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMxZDFkMWQiIHN0cm9rZS13aWR0aD0iMTAiIGQ9Ik0xNTk4LjgyIDQ0MC4xNDZhMTIwLjU5IDEyMC43MzQgMCAxIDEgMjQxLjE4IDAgMTIwLjU5IDEyMC43MzQgMCAxIDEtMjQxLjE4IDBtMzYxLjE5My4xMzNhMTIwLjEyOCAxMjAuNjk0IDAgMSAxIDI0MC4yNTUgMCAxMjAuMTI4IDEyMC42OTQgMCAxIDEtMjQwLjI1NSAwIi8+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMWQxZDFkIiBzdHJva2Utd2lkdGg9IjMuNSIgZD0iTTI1NjAuMjY4IDQzOS44OGgzOS44NW0tLjAwMyAwdjgwLjE0bS0yOS44ODIuMDA1aDU5Ljc3bS00OS44MSAxMC4wMThoMzkuODVtLTI5Ljg5IDEwLjAxOGgxOS45MiIvPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzFkMWQxZCIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJNMjA3MCA0NDBoMjBtLTEwLTEwdjIwbS0xMC0xMGExMCAxMCAwIDEgMSAyMCAwIDEwIDEwIDAgMSAxLTIwIDAiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxODcwIDQ0MCkiPjxkZWZzPjxjbGlwUGF0aCBpZD0ic3ZnX19naXRodWJfd29ya19fYSI+PHVzZSBocmVmPSIjc3ZnX19naXRodWJfd29ya19fYSIvPjwvY2xpcFBhdGg+PC9kZWZzPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzFkMWQxZCIgc3Ryb2tlLXdpZHRoPSIzLjUiIHBvaW50ZXItZXZlbnRzPSJub25lIj48ZyBjbGlwLXBhdGg9InVybCgjc3ZnX19naXRodWJfd29ya19fYSkiPjx1c2Ugc3Ryb2tlLWRhc2hvZmZzZXQ9Im5vbmUiIGhyZWY9IiNzdmdfX2dpdGh1Yl93b3JrX19iIi8+PC9nPjx1c2UgaHJlZj0iI3N2Z19fZ2l0aHViX3dvcmtfX2QiLz48L2c+PC9nPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzFkMWQxZCIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJNMjA3MCA1NTBoMjBtLTIwLTIyMGgyMG0yMCAxMGgyMG0wIDIwaDIwbS00MCAxODBoMjBtMC0yMGgyMG0wLTIwaDIwbS0xMC0yMGgyMG0tMTAtMjBoMjBtLTIwLTIwaDIwbS0yMC0yMGgyMG0tMzAtMjBoMjBtLTMwLTIwaDIwbS0xMzAgMTYwaDIwbS01MC0yMGgyMG0tNDAtMjBoMjBtLTMwLTIwaDIwbS0zMC0yMGgyMG0tMjAtMjBoMjBtLTIwLTIwaDIwbS0xMC0yMGgyMG0tMTAtMjBoMjBtMC0yMGgyMG0xMC0yMGgyMG0xMC00MGgyMG0tMTAtMTB2MjBtLTEwIDI3MGgyMG0tMTAtMTB2MjBtLTE1MC0xNTBoMjBtLTEwLTEwdjIwbTI3MC0xMGgyMG0tMTAtMTB2MjBtLTEwMC0xNDBoMjBtLTEwLTEwdjIwbS0xMTAtMTBoMjBtLTEwLTEwdjIwbS01MCAxMGgyMG0tMTAtMTB2MjBtMTcwLTEwaDIwbS0xMC0xMHYyMG0tMjIwIDIwaDIwbS0xMC0xMHYyMG0yMzAtMTBoMjBtLTEwLTEwdjIwbS0yNzAgMzBoMjBtLTEwLTEwdjIwbTI3MC0xMGgyMG0tMTAtMTB2MjBtLTI5MCA3MGgyMG0tMTAtMTB2MjBtMjcwLTEwaDIwbS0xMC0xMHYyMG0tMjcwIDIwaDIwbS0xMC0xMHYyMG0yMzAtMTBoMjBtLTEwLTEwdjIwbS0yMjAgMzBoMjBtLTEwLTEwdjIwbTE3MC0xMGgyMG0tMTAtMTB2MjBtLTE1MCAxMGgyMG0tMTAtMTB2MjBtOTAtMTBoMjBtLTEwLTEwdjIwIi8+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMWQxZDFkIiBzdHJva2Utd2lkdGg9IjEwIiBkPSJNMjMyMC4wMTMgNDQwLjI3OWExMjAuMTI4IDEyMC42OTQgMCAxIDEgMjQwLjI1NSAwIDEyMC4xMjggMTIwLjY5NCAwIDEgMS0yNDAuMjU1IDAiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMxZDFkMWQiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTI0MzAgNDQwaDIwbS0xMC0xMHYyMG0tMTAtMTBhMTAgMTAgMCAxIDEgMjAgMCAxMCAxMCAwIDEgMS0yMCAwbTAgMTEwaDIwbS0yMC0yMjBoMjBtMjAgMTBoMjBtMCAyMGgyMG0tNDAgMTgwaDIwbTAtMjBoMjBtMC0yMGgyMG0tMTAtMjBoMjBtLTEwLTIwaDIwbS0yMC0yMGgyMG0tMjAtMjBoMjBtLTMwLTIwaDIwbS0zMC0yMGgyMG0tMTMwIDE2MGgyMG0tNTAtMjBoMjBtLTQwLTIwaDIwbS0zMC0yMGgyMG0tMzAtMjBoMjBtLTIwLTIwaDIwbS0yMC0yMGgyMG0tMTAtMjBoMjBtLTEwLTIwaDIwbTAtMjBoMjBtMTAtMjBoMjAiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMxZDFkMWQiIHN0cm9rZS13aWR0aD0iMTAiIGQ9Ik0yNzIwLjAxMyA0NDAuMjc5YTEyMC4xMjggMTIwLjY5NCAwIDEgMSAyNDAuMjU1IDAgMTIwLjEyOCAxMjAuNjk0IDAgMSAxLTI0MC4yNTUgMCIvPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzFkMWQxZCIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJNMjgzMCAzMDBoMjBtLTIwIDI4MGgyMG0tMTYwLTE0MGgyMG0yNjAgMGgyMG0tMTEwLTEzMGgyMG0tMTIwIDBoMjBtLTYwIDIwaDIwbTE2MCAwaDIwbS0yMzAgMzBoMjBtMjIwIDBoMjBtLTI4MCA0MGgyMG0yNjAgMGgyMG0tMzAwIDgwaDIwbTI2MCAwaDIwbS0yODAgMzBoMjBtMjIwIDBoMjBtLTIzMCA0MGgyMG0xNjAgMGgyMG0tMTYwIDIwaDIwbTgwIDBoMjAiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMjUwIDQ0MCkiPjxkZWZzPjxjbGlwUGF0aCBpZD0ic3ZnX19naXRodWJfd29ya19fYyI+PHVzZSBocmVmPSIjc3ZnX19naXRodWJfd29ya19fYSIvPjwvY2xpcFBhdGg+PC9kZWZzPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzFkMWQxZCIgc3Ryb2tlLXdpZHRoPSIzLjUiIHBvaW50ZXItZXZlbnRzPSJub25lIj48ZyBjbGlwLXBhdGg9InVybCgjc3ZnX19naXRodWJfd29ya19fYykiPjx1c2Ugc3Ryb2tlLWRhc2hvZmZzZXQ9Im5vbmUiIGhyZWY9IiNzdmdfX2dpdGh1Yl93b3JrX19iIi8+PC9nPjx1c2UgaHJlZj0iI3N2Z19fZ2l0aHViX3dvcmtfX2QiLz48L2c+PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI2MzAgNDQwKSI+PGRlZnM+PGNsaXBQYXRoIGlkPSJzdmdfX2dpdGh1Yl93b3JrX19iIj48dXNlIGhyZWY9IiNzdmdfX2dpdGh1Yl93b3JrX19hIi8+PC9jbGlwUGF0aD48L2RlZnM+PGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMWQxZDFkIiBzdHJva2Utd2lkdGg9IjMuNSIgcG9pbnRlci1ldmVudHM9Im5vbmUiPjxnIGNsaXAtcGF0aD0idXJsKCNzdmdfX2dpdGh1Yl93b3JrX19iKSI+PHVzZSBzdHJva2UtZGFzaG9mZnNldD0ibm9uZSIgaHJlZj0iI3N2Z19fZ2l0aHViX3dvcmtfX2IiLz48L2c+PHVzZSBocmVmPSIjc3ZnX19naXRodWJfd29ya19fZCIvPjwvZz48L2c+PC9zdmc+){width="100%"}
+<img src="../空球壳模型.svg" width="100%" alt="空球壳模型">
+
 - 如果球壳内没有电荷，则球壳电荷一定集中在球壳外表面（图左下）。
 - 如果球壳内有电荷，则球壳内一定感应起电（图右上）。
 - 如果球壳接地，则球壳外一定没有电荷（图右下）。
@@ -331,7 +337,8 @@ $$
 
 在静电平衡状态下，空腔内部没有电场。不管导体本身带电还是处于外界电场中这一结论始终成立。这样，导体壳的表面就保护了它的内部区域，使之不受导体壳外表面上的电荷或外界电场的影响，这种现象称为静电屏蔽。
 
-![静电屏蔽](/static/svg/静电屏蔽.7ff9b6e162.svg){width="100%"}
+<img src="../静电屏蔽.svg" width="100%" alt="静电屏蔽">
+
 - 一个空腔导体，外接电场既不会影响腔内的物体。
 - 一个**接地的**空腔导体，腔内带电体的电场不会影响腔外的物体。
 
@@ -349,7 +356,8 @@ $$
 
 工作原理：利用高压电场使气体中的尘埃带电，并通过电场力吸附尘埃。
 
-![alt text](/static/image/fimage-6.f98133e576.avif){width="80%"}
+<img src="../fimage-6.avif" width="80%" alt="alt text">
+
 具体过程：
 
 1. 电离气体：在高压电极附近，电场强度极高，使空气分子电离，产生大量自由电子和正离子。
@@ -406,11 +414,11 @@ $$
 
 |   静电发生情境  | 相对湿度 10-25%^[1](#fn:noteesda)\{.footnote-ref}^ | 相对湿度 65-90%^[1](#fn:noteesda)\{.footnote-ref}^ |
 | :-------: | :--------------------------------------------: | :--------------------------------------------: |
-|   行走在地毯上  |                 $pu\{35,000V}$                 |                  $pu\{1,500V}$                 |
-|  行走在塑料地板  |                 $pu\{12,000V}$                 |                   $pu\{250V}$                  |
-|  在工作台边工作  |                  $pu\{6,000V}$                 |                   $pu\{100V}$                  |
-| 从工作台拿起塑料袋 |                 $pu\{20,000V}$                 |                  $pu\{1,200V}$                 |
-|    发泡胶椅   |                 $pu\{18,000V}$                 |                  $pu\{1,500V}$                 |
+|   行走在地毯上  |                 $\pu\{35,000V}$                |                 $\pu\{1,500V}$                 |
+|  行走在塑料地板  |                 $\pu\{12,000V}$                |                  $\pu\{250V}$                  |
+|  在工作台边工作  |                 $\pu\{6,000V}$                 |                  $\pu\{100V}$                  |
+| 从工作台拿起塑料袋 |                 $\pu\{20,000V}$                |                 $\pu\{1,200V}$                 |
+|    发泡胶椅   |                 $\pu\{18,000V}$                |                 $\pu\{1,500V}$                 |
 
 电击穿：当加在某一绝缘介质上的电压高于过一定程度（击穿电压）后，这时绝缘介质会发生突崩溃而使其电阻迅速下降，继而使得一部分绝缘介质变为导体。不同介质的击穿电压一般是不同的。
 
@@ -430,7 +438,8 @@ $$
 
 电风：在一个导体尖端附近放一根点燃的蜡烛，当我们不断地给导体充电时，火焰就好像被风吹动一样朝背离尖端的方向偏斜。这就是尖端放电引起的后果。
 
-![alt text](/static/image/fimage-4.21487a2575.avif){width="40%"}
+<img src="../fimage-4.avif" width="40%" alt="alt text">
+
 因为在尖端附近强电场的作用下，空气中残留的离子会发生激烈的运动。在激烈的运动过程中它们和空气分子相碰时，会使空气分子电离，从而产生大量新的离子，这就使空气变得易于导电。
 
 电晕放电是一种电流从带电物体（电极）流到不带电之流体，进而造成电极附近产生离子态分子的一种过程，而尖端放电特指电晕放电中因尖端物体所造成的电晕放电现象。

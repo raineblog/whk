@@ -4,7 +4,7 @@
 
 ### 分子轨道理论 \{#\_3}
 
-根据已学的知识，氧分子的结构是 $ce\{O \bond\{2} O}$，因此，氧分子中的电子已经完全配对，氧分子应该是逆磁性分子。但事实上，将液态氧倒入配有磁铁的仪器中时，氧分子被磁场吸引而悬浮在磁场中，这说明氧分子是顺磁性分子，即分子中存在未成对电子。
+根据已学的知识，氧分子的结构是 $\ce\{O \bond\{2} O}$，因此，氧分子中的电子已经完全配对，氧分子应该是逆磁性分子。但事实上，将液态氧倒入配有磁铁的仪器中时，氧分子被磁场吸引而悬浮在磁场中，这说明氧分子是顺磁性分子，即分子中存在未成对电子。
 
 利用分子轨道理论能够很好地解释氧分子是顺磁性分子这一事实。
 
@@ -36,51 +36,54 @@
 
 共价键类型：
 
-- $sigma$ 键：原子轨道以「头碰头」方式相互重叠导致电子在核间出现的概率增大而形成的共价键。
+- $\sigma$ 键：原子轨道以「头碰头」方式相互重叠导致电子在核间出现的概率增大而形成的共价键。
 
-- $pi$ 键：原子轨道以「肩并肩」方式相互重叠导致电子在核间出现的概率增大而形成的共价键。
+- $\pi$ 键：原子轨道以「肩并肩」方式相互重叠导致电子在核间出现的概率增大而形成的共价键。
 
 注意：
 
-- 通常来说，只有第二周期元素之间才能生成经典的 $pi$ 键，例如硫酸中氧硫键为反馈 $pi$ 键。
+- 通常来说，只有第二周期元素之间才能生成经典的 $\pi$ 键，例如硫酸中氧硫键为反馈 $\pi$ 键。
 
-- 在没有数据的情况下，$sigma$ 键比 $pi$ 键更稳定，例如 $ce\{N # N}$ 中 $sigma$ 键就不如 $pi$ 键稳定。
+- 在没有数据的情况下，$\sigma$ 键比 $\pi$ 键更稳定，例如 $\ce\{N # N}$ 中 $\sigma$ 键就不如 $\pi$ 键稳定。
 
-- 受到电场或电磁场的影响，$sigma$ 键受到的影响比 $pi$ 键小，继父原则，
+- 受到电场或电磁场的影响，$\sigma$ 键受到的影响比 $\pi$ 键小，继父原则，
 
-- 环与 $pi$ 键均限制旋转，因此决定了顺式与逆式的差别。
+- 环与 $\pi$ 键均限制旋转，因此决定了顺式与逆式的差别。
 
-![共价键模型](/static/image/共价键模型.269b1f3946.avif){width="70%"}
-|  共价键类型  | $sigma$ 键 |   $pi$ 键  |
-| :-----: | :-------: | :-------: |
-| 电子云重叠方式 | 沿键轴方向相对重叠 | 沿键轴方向平行重叠 |
-| 电子云重叠程度 | 大，因此键的强度大 | 小，因此键的强度小 |
-|  化学活泼性  |    不活泼    |     活泼    |
+<img src="../共价键模型.avif" width="70%" alt="共价键模型">
+
+|  共价键类型  | $\sigma$ 键 |  $\pi$ 键  |
+| :-----: | :--------: | :-------: |
+| 电子云重叠方式 |  沿键轴方向相对重叠 | 沿键轴方向平行重叠 |
+| 电子云重叠程度 |  大，因此键的强度大 | 小，因此键的强度小 |
+|  化学活泼性  |     不活泼    |     活泼    |
 
 成键规律：
 
-- 共价单键是 $sigma$ 键。
+- 共价单键是 $\sigma$ 键。
 
-- 共价双键中一个是 $sigma$ 键，一个是 $pi$ 键。
+- 共价双键中一个是 $\sigma$ 键，一个是 $\pi$ 键。
 
-- 共价三键中一个是 $sigma$ 键，两个是 $pi$ 键。
+- 共价三键中一个是 $\sigma$ 键，两个是 $\pi$ 键。
 
-- 两个原子形成共价键时先形成 $sigma$ 键，后形成 $pi$ 键。
+- 两个原子形成共价键时先形成 $\sigma$ 键，后形成 $\pi$ 键。
 
 ### 键参数------键能 \{#\_5}
 
 化学键的断裂需要吸收能量，常用键能来表示化学键的强弱程度。
 
-在常温差压下（$pu\{1\times10^5 Pa, 298 K}$），断开 $pu\{1 mol} \ce\{AB(g)}$ 分子中的化学键，使其分别生成气态 $ce A$ 原子和气态 $ce B$ 原子所吸收的能量称为 $ce\{A-B}$ 键的键能，常用 $E\_\{\ce\{A-B}}$ 表示。
+在常温差压下（$\pu\{1\times10^5 Pa, 298 K}$），断开 $\pu\{1 mol} \ce\{AB(g)}$ 分子中的化学键，使其分别生成气态 $\ce A$ 原子和气态 $\ce B$ 原子所吸收的能量称为 $\ce\{A-B}$ 键的键能，常用 $E\_\{\ce\{A-B}}$ 表示。
 
-![键能](/static/image/键能.c87a5dc071.avif){width="100%"}
+<img src="../键能.avif" width="100%" alt="键能">
+
 表中的键能数据是对大量分子进行统计得到的平均值。
 
 ### 键参数------键长 \{#\_6}
 
 两个成键原子的原子核间的距离（简称核间距）叫作该化学键的键长。
 
-![键长](/static/image/键长-43e243a.59567459cd.avif){width="100%"}
+<img src="../键长-43e243a.avif" width="100%" alt="键长">
+
 键长是影响分子空间结构的因素之一。键长的数值可以通过晶体 X 射线衍射实验进行测定，也可以通过理论计算求得。
 
 ### 键参数------键角 \{#\_7}
@@ -127,20 +130,20 @@
   \ce\{\[Cu(NH3)4]SO4}
   $$
 
-  内界：$ce\{Cu}$ 为中心原子，$ce\{NH3}$ 中的氮为配位原子，$ce\{NH3}$ 为配位体（配体），其角标 $4$ 为配体数。
+  内界：$\ce\{Cu}$ 为中心原子，$\ce\{NH3}$ 中的氮为配位原子，$\ce\{NH3}$ 为配位体（配体），其角标 $4$ 为配体数。
 
-  外界：$ce\{SO4^2-}$ 离子。
+  外界：$\ce\{SO4^2-}$ 离子。
 
 - 配位数：围着中心原子，与其直接成键（不一定为配位键）的**原子数目**；配位数不一定等于配体数（当且仅当为单齿配体时相等）。
 
-  例如 $ce\{BF4-, \[Al(OH)4]-}$ 的配位数都为 $4$，但是其配位键数与起始点相关。
+  例如 $\ce\{BF4-, \[Al(OH)4]-}$ 的配位数都为 $4$，但是其配位键数与起始点相关。
 
   注意双齿配体不能跨轴。
 
 - 螯合物：螯合物是具有环状结构的配合物，是通过两个或多个配位体与同一金属离子形成螯合环的螯合作用而得到。
 
   <figure>
-  <p><img src="../EDTA.svg" style="width:60.0%" alt="EDTA" /></p>
+
   <figcaption><p>乙二胺四乙酸 EDTA，六齿配体，可以螯著多种金属离子</p></figcaption>
   </figure>
 
@@ -174,7 +177,7 @@
 
 - 第一电子层的二隅体：氦气的最外层只有 $2$ 个电子，十分稳定；氢可获得额外电子、锂可失去电子而变成这种稳定排列。
 
-- 一些少于 $8$ 个电子的原子组成缺电子化合物，因为不足孤偶电子形成键，这在硼的化合物中常见，其价层通常只有 $6$ 个电子，如在 $ce\{BF3}$ 中。
+- 一些少于 $8$ 个电子的原子组成缺电子化合物，因为不足孤偶电子形成键，这在硼的化合物中常见，其价层通常只有 $6$ 个电子，如在 $\ce\{BF3}$ 中。
 
 - 多于 $3$ 个电子层的原子能容纳多于 $8$ 个电子在其最外层，因为超过原子序 $11$ 时，第三层电子层出现 d 亚层，可以超越八隅体。例如五氯化磷中的磷、六氟化硫中的硫。
 
@@ -194,7 +197,7 @@
 
   例如三氯化铝、三氟化硼等。
 
-  缺电子分子通常会形成多聚体或二聚体（$ce\{Al2Cl6}$），或将电子反馈给配体形成离域 $pi$ 键（三氟化硼）。
+  缺电子分子通常会形成多聚体或二聚体（$\ce\{Al2Cl6}$），或将电子反馈给配体形成离域 $\pi$ 键（三氟化硼）。
 
 - 奇原子分子：
 
@@ -234,27 +237,27 @@
 
 - 化学通式相同且**价电子总数**相等的分子或离子具有相同的空间结构和相同的化学键类型等结构特征，这是等电子原理的基本观点。
 
-  |       类型       | 实例                                                                                 | 空间结构  |
-  | :------------: | ---------------------------------------------------------------------------------- | ----- |
-  | 双原子（$10$ 电子）微粒 | $ce\{N2}$、$ce\{CO}$、$ce\{NO+}$、$ce\{C2^2-}$、$ce\{CN^-}$                            | 直线形   |
-  | 三原子（$16$ 电子）微粒 | $ce\{CO2}$、$ce\{CS2}$、$ce\{N2O}$、$ce\{NO2+}$、$ce\{N3^-}$、$ce\{NCS^-}$、$ce\{BeCl2}$ | 直线形   |
-  | 三原子（$18$ 电子）微粒 | $ce\{NO2^-}$、$ce\{O3}$、$ce\{SO2}$                                                  | 角形    |
-  | 四原子（$24$ 电子）微粒 | $ce\{NO3^-}$、$ce\{CO3^2-}$、$ce\{BF3}$、$ce\{SO3}$                                   | 平面三角形 |
-  | 五原子（$32$ 电子）微粒 | $ce\{SiF4}$、$ce\{CCl4}$、$ce\{SO4^2-}$、$ce\{PO4^3-}$                                | 正四面体形 |
-  | 七原子（$48$ 电子）微粒 | $ce\{SF6}$、$ce\{PF6^-}$、$ce\{SiF6^2-}$、$ce\{AlF6^3-}$                              | 正八面体形 |
+  |       类型       | 实例                                                                                        | 空间结构  |
+  | :------------: | ----------------------------------------------------------------------------------------- | ----- |
+  | 双原子（$10$ 电子）微粒 | $\ce\{N2}$、$\ce\{CO}$、$\ce\{NO+}$、$\ce\{C2^2-}$、$\ce\{CN^-}$                              | 直线形   |
+  | 三原子（$16$ 电子）微粒 | $\ce\{CO2}$、$\ce\{CS2}$、$\ce\{N2O}$、$\ce\{NO2+}$、$\ce\{N3^-}$、$\ce\{NCS^-}$、$\ce\{BeCl2}$ | 直线形   |
+  | 三原子（$18$ 电子）微粒 | $\ce\{NO2^-}$、$\ce\{O3}$、$\ce\{SO2}$                                                      | 角形    |
+  | 四原子（$24$ 电子）微粒 | $\ce\{NO3^-}$、$\ce\{CO3^2-}$、$\ce\{BF3}$、$\ce\{SO3}$                                      | 平面三角形 |
+  | 五原子（$32$ 电子）微粒 | $\ce\{SiF4}$、$\ce\{CCl4}$、$\ce\{SO4^2-}$、$\ce\{PO4^3-}$                                   | 正四面体形 |
+  | 七原子（$48$ 电子）微粒 | $\ce\{SF6}$、$\ce\{PF6^-}$、$\ce\{SiF6^2-}$、$\ce\{AlF6^3-}$                                 | 正八面体形 |
 
 - 利用该原理可以判断一些简单分子或原子团的空间结构。
 
-|   方法   | 内容                                            | 举例                                                        |
-| :----: | --------------------------------------------- | --------------------------------------------------------- |
-|  左右移位法 | 将微粒中的两个原子换成原子序数分别增加 $n$ 和减少 $n$（$n=1,2$ 等）的原子 | $ce\{N2}$ 与 $ce\{CO}$、$ce\{N2O}$ 与 $ce\{CO2}$ 分别互为等电子体    |
-|  左右移位法 | 将微粒中的一个或几个原子换成原子序数增加（或减少） $n$ 各单位电荷的阳离子（或阴离子） | $ce\{CO}$ 与 $ce\{CN^-}$、$ce\{N2O}$ 与 $ce\{N3^-}$ 分别互为等电子体 |
-|   叠加法  | 互为等电子体的微粒分别再增加一个相同的原子或同主族元素的原子                | $ce\{N2O}$ 与 $ce\{CO2}$ 互为等电子体                            |
-| 同主族替换法 | 将一个微粒中的一个或几个原子替换成同主族的其它原子                     | $ce\{CO2}$ 与 $ce\{CS2}$、$ce\{SO2}$ 与 $ce\{O3}$ 互为等电子体     |
+|   方法   | 内容                                            | 举例                                                            |
+| :----: | --------------------------------------------- | ------------------------------------------------------------- |
+|  左右移位法 | 将微粒中的两个原子换成原子序数分别增加 $n$ 和减少 $n$（$n=1,2$ 等）的原子 | $\ce\{N2}$ 与 $\ce\{CO}$、$\ce\{N2O}$ 与 $\ce\{CO2}$ 分别互为等电子体    |
+|  左右移位法 | 将微粒中的一个或几个原子换成原子序数增加（或减少） $n$ 各单位电荷的阳离子（或阴离子） | $\ce\{CO}$ 与 $\ce\{CN^-}$、$\ce\{N2O}$ 与 $\ce\{N3^-}$ 分别互为等电子体 |
+|   叠加法  | 互为等电子体的微粒分别再增加一个相同的原子或同主族元素的原子                | $\ce\{N2O}$ 与 $\ce\{CO2}$ 互为等电子体                              |
+| 同主族替换法 | 将一个微粒中的一个或几个原子替换成同主族的其它原子                     | $\ce\{CO2}$ 与 $\ce\{CS2}$、$\ce\{SO2}$ 与 $\ce\{O3}$ 互为等电子体     |
 
 ### 价层电子对互斥 \{#\_17}
 
-价层电子对互斥（\[VSEPR]\{.abbr title="Valence Shell Electron Pair Repulsion theory (价层电子对互斥理论)"}）理论能比较简便地定性预测分子的空间结构，其基本观点是：
+价层电子对互斥（VSEPR）理论能比较简便地定性预测分子的空间结构，其基本观点是：
 
 - 排斥力最小原则：分子中的中心原子的价电子对------成键电子对（bp）和孤电子对（lp）由于相互排斥作用，处于不同的空间取向且尽可能趋向于彼此远离。
 
@@ -266,7 +269,7 @@
 
 <center>
 
-中心原子价电子对数 $=\dfrac12($ 自己的 $+$ 其他原子给的 $$
+中心原子价电子对数 $=\dfrac12($ 自己的 $+$ 其他原子给的 $)$
 
 </center>
 
@@ -302,7 +305,7 @@
 
 1. 孤对电子不占质点、占位置。
 
-2. 孤对电子有较大斥力，含孤对电子的分子实测键角几乎都小于 \[VSEPR]\{.abbr title="Valence Shell Electron Pair Repulsion theory (价层电子对互斥理论)"} 模型的预测值。
+2. 孤对电子有较大斥力，含孤对电子的分子实测键角几乎都小于 VSEPR 模型的预测值。
 
    通常，多重键、成键电子对与孤对电子的斥力大小顺序可定性地表示为：
 
@@ -326,37 +329,38 @@
 
 4. 孤对电子排斥，拉大键长。
 
-   例如：$ce\{H3C \bond\{1} CH3}$，$ce\{H2N \bond\{1} NH2}$，$ce\{HO \bond\{1} OH}$ 键长依次增大。
+   例如：$\ce\{H3C \bond\{1} CH3}$，$\ce\{H2N \bond\{1} NH2}$，$\ce\{HO \bond\{1} OH}$ 键长依次增大。
 
 价层电子对互斥理论一定程度上存在局限性：
 
 - 价层电子对互斥理论能较便捷地预测分子的空间结构，但是价层电子对互斥理论一般不适用于推测过渡金属化合物分子的空间结构。
 
-- 不能预测：较重碱土金属的三原子卤化物、AX\_2\_E\_0\_、AX\_2\_E\_2\_（$ce\{LiO2,Cl2O}$），和一些 AX\_6\_E\_1\_ 型的分子。
+- 不能预测：较重碱土金属的三原子卤化物、AX\_2\_E\_0\_、AX\_2\_E\_2\_（$\ce\{LiO2,Cl2O}$），和一些 AX\_6\_E\_1\_ 型的分子。
 
 ### 杂化轨道理论 \{#\_18}
 
-在外界条件影响下，原子内部能量相近的原子轨道重新组合形成新的原子轨道的过程叫作原子轨道的杂化，组合后形成的一组新的原子轨道叫作杂化原子轨道，简称**杂化轨道**。数值上，有几个原子轨道参与杂化，杂化后就生成几个杂化轨道，优先杂化 $rm s$ 轨道。
+在外界条件影响下，原子内部能量相近的原子轨道重新组合形成新的原子轨道的过程叫作原子轨道的杂化，组合后形成的一组新的原子轨道叫作杂化原子轨道，简称**杂化轨道**。数值上，有几个原子轨道参与杂化，杂化后就生成几个杂化轨道，优先杂化 $\rm s$ 轨道。
 
 高中阶段，杂化轨道通常仅对于主族元素。杂化的根本目的是，用大头成键，提升成键能力（本质是小头向内，大头向外相对，增大电子云的重叠）。
 
-原子参与反应时，通常价电子会激发，倾向于占据更多的轨道、形成更多的单电子；如果激发后价电子均匀排布在轨道中，称为等性杂化；否则如果有空轨道剩余或有电子对，称为不等性杂化（在中学阶段常见分析中，常为 $rm 2p$ 轨道电子分散，如果其有空轨道，则从 $rm 2s$ 轨道去取一个放入），激发态有几个单电子，就倾向于生成几条键。
+原子参与反应时，通常价电子会激发，倾向于占据更多的轨道、形成更多的单电子；如果激发后价电子均匀排布在轨道中，称为等性杂化；否则如果有空轨道剩余或有电子对，称为不等性杂化（在中学阶段常见分析中，常为 $\rm 2p$ 轨道电子分散，如果其有空轨道，则从 $\rm 2s$ 轨道去取一个放入），激发态有几个单电子，就倾向于生成几条键。
 
-从分子结构来看，杂化的轨道只能参与生成 $sigma$ 键，不能生成 $pi$ 键，而只有未参与杂化的轨道才能生成 $pi$ 键。在高中阶段只学习三种杂化：$mathrm\{sp^3,sp^2,sp}$，分别对应四杂化、三杂化和二杂化，其他的杂化形式一般不考虑（我们将在空间构型的预测中详细解释）。
+从分子结构来看，杂化的轨道只能参与生成 $\sigma$ 键，不能生成 $\pi$ 键，而只有未参与杂化的轨道才能生成 $\pi$ 键。在高中阶段只学习三种杂化：$\mathrm\{sp^3,sp^2,sp}$，分别对应四杂化、三杂化和二杂化，其他的杂化形式一般不考虑（我们将在空间构型的预测中详细解释）。
 
-- 四杂化 $mathrm\{sp^3}$：以甲烷 $ce\{CH4}$ 为例，碳原子的价电子排布为 $el2s2\el2p2$，在反应中，碳原子的一个 $rm2s$ 电子受外界条件影响跃迁到 $rm2p$ 空轨道，使碳原子具有四个未成对电子，在甲烷分子的形成过程中，碳原子中原来能量相近的 $rm2s$ 轨道与三个 $rm2p$ 轨道将重新组合形成新的、能量相同的原子轨道。甲烷分子中碳原子的杂化轨道是由一个 $rm2s$ 轨道和三个 $rm2p$ 轨道重新组合而成的。一个 $rm s$ 轨道与三个 $rm p$ 轨道的杂化称为 $mathrm\{sp^3}$ 杂化，所形成的四个杂化轨道称为 $mathrm\{sp^3}$ 杂化轨道。$rm s$ 轨道和 $rm p$ 轨道杂化后，杂化轨道不仅改变了原有 $rm s$ 和 $rm p$ 轨道的空间取向，而且使它在与其他原子的原子轨道成键时重叠的程度更大，形成的共价键更牢固。
+- 四杂化 $\mathrm\{sp^3}$：以甲烷 $\ce\{CH4}$ 为例，碳原子的价电子排布为 $\el2s2\el2p2$，在反应中，碳原子的一个 $\rm2s$ 电子受外界条件影响跃迁到 $\rm2p$ 空轨道，使碳原子具有四个未成对电子，在甲烷分子的形成过程中，碳原子中原来能量相近的 $\rm2s$ 轨道与三个 $\rm2p$ 轨道将重新组合形成新的、能量相同的原子轨道。甲烷分子中碳原子的杂化轨道是由一个 $\rm2s$ 轨道和三个 $\rm2p$ 轨道重新组合而成的。一个 $\rm s$ 轨道与三个 $\rm p$ 轨道的杂化称为 $\mathrm\{sp^3}$ 杂化，所形成的四个杂化轨道称为 $\mathrm\{sp^3}$ 杂化轨道。$\rm s$ 轨道和 $\rm p$ 轨道杂化后，杂化轨道不仅改变了原有 $\rm s$ 和 $\rm p$ 轨道的空间取向，而且使它在与其他原子的原子轨道成键时重叠的程度更大，形成的共价键更牢固。
 
-  鲍林还根据精确计算得知每两个 $mathrm\{sp^3}$ 杂化轨道的夹角为 $pu\{109^o 28'}$。由于这四个杂化轨道的能量相同，根据洪特规则，碳原子的价电子以自旋状态相同的方式分占各个轨道。因此，当碳原子与氢原子成键时，碳原子中每个杂化轨道分别与一个氢原子的 $rm 1s$ 道重叠形成一个共价键，这样所形成的四个共价键是等同的，从而使甲烷分子具有正四面体形结构。
+  鲍林还根据精确计算得知每两个 $\mathrm\{sp^3}$ 杂化轨道的夹角为 $\pu\{109^o 28'}$。由于这四个杂化轨道的能量相同，根据洪特规则，碳原子的价电子以自旋状态相同的方式分占各个轨道。因此，当碳原子与氢原子成键时，碳原子中每个杂化轨道分别与一个氢原子的 $\rm 1s$ 道重叠形成一个共价键，这样所形成的四个共价键是等同的，从而使甲烷分子具有正四面体形结构。
 
-  <img src={image3} />\{width="100%"}
+  <img src="../sp3.avif" width="100%">
 
-- 三杂化 $mathrm\{sp^2}$：一个 $rm s$ 轨道和两个 $rm p$ 轨道杂化可形成三个 $mathrm\{sp^2}$ 杂化轨道。形成乙烯分子时碳原子采用 $mathrm\{sp^2}$ 杂化，三个 $mathrm\{sp^2}$ 杂化轨道和一个未参与杂化的 $rm p$ 轨道中各有一个未成对电子。两个碳原子各以一个 $mathrm\{sp^2}$ 杂化轨道重叠形成一个 $sigma$ 键，同时以 $rm p$ 轨道重叠形成一个 $pi$ 键；每个碳原子都以另外两个 $mathrm\{sp^2}$ 杂化轨道分别与两个氢原子的 $rm1s$ 轨道重叠形成两个 $sigma$ 键。这样，在乙烯分子中的碳原子之间，存在着一个 $sigma$ 键和一个 $pi$ 键。
+- 三杂化 $\mathrm\{sp^2}$：一个 $\rm s$ 轨道和两个 $\rm p$ 轨道杂化可形成三个 $\mathrm\{sp^2}$ 杂化轨道。形成乙烯分子时碳原子采用 $\mathrm\{sp^2}$ 杂化，三个 $\mathrm\{sp^2}$ 杂化轨道和一个未参与杂化的 $\rm p$ 轨道中各有一个未成对电子。两个碳原子各以一个 $\mathrm\{sp^2}$ 杂化轨道重叠形成一个 $\sigma$ 键，同时以 $\rm p$ 轨道重叠形成一个 $\pi$ 键；每个碳原子都以另外两个 $\mathrm\{sp^2}$ 杂化轨道分别与两个氢原子的 $\rm1s$ 轨道重叠形成两个 $\sigma$ 键。这样，在乙烯分子中的碳原子之间，存在着一个 $\sigma$ 键和一个 $\pi$ 键。
 
-- 二杂化 $rm sp$：一个 $rm s$ 轨道和一个 $rm p$ 轨道杂化可形成两个 $rm sp$ 杂化轨道。乙炔分子中的碳原子采用 $rm sp$ 杂化，两个碳原子之间存在着一个 $sigma$ 键和两个 $pi$ 键。
+- 二杂化 $\rm sp$：一个 $\rm s$ 轨道和一个 $\rm p$ 轨道杂化可形成两个 $\rm sp$ 杂化轨道。乙炔分子中的碳原子采用 $\rm sp$ 杂化，两个碳原子之间存在着一个 $\sigma$ 键和两个 $\pi$ 键。
 
 下面是一些常见的杂化类型：
 
-![杂化类型](/static/svg/分子构型.dc0298c401.svg){width="100%"}
+<img src="../分子构型.svg" width="100%" alt="杂化类型">
+
 <table>
 <colgroup>
 <col style="width: 25%" />
@@ -424,53 +428,55 @@
 </tbody>
 </table>
 
-- **苯的结构**：形成苯分子时，每个碳原子均采用 $mathrm\{sp^2}$ 杂化。三个 $mathrm\{sp^2}$ 杂化轨道在同一平面内，其中两个用于与相邻碳原子形成 $sigma$ 键，构成正六边形碳环，另一个与氢原子的 $rm 1s$ 轨道形成 $sigma$ 键。此外，每个碳原子还有一个垂直于平面的未参与杂化的 $rm 2p$ 轨道，六个 $rm 2p$ 轨道以"肩并肩"的方式形成离域大 $pi$ 键。因此，苯分子为平面正六边形结构，键角均为 $pu\{120^o}$，且具有特殊的稳定性。
+- **苯的结构**：形成苯分子时，每个碳原子均采用 $\mathrm\{sp^2}$ 杂化。三个 $\mathrm\{sp^2}$ 杂化轨道在同一平面内，其中两个用于与相邻碳原子形成 $\sigma$ 键，构成正六边形碳环，另一个与氢原子的 $\rm 1s$ 轨道形成 $\sigma$ 键。此外，每个碳原子还有一个垂直于平面的未参与杂化的 $\rm 2p$ 轨道，六个 $\rm 2p$ 轨道以"肩并肩"的方式形成离域大 $\pi$ 键。因此，苯分子为平面正六边形结构，键角均为 $\pu\{120^o}$，且具有特殊的稳定性。
 
-- **氨的结构**：形成 $ce\{NH3}$ 分子时，氮原子采用 $mathrm\{sp^3}$ 杂化。在四个 $mathrm\{sp^3}$ 杂化轨道中，有三个各含一个未成对电子，分别与氢原子的 $rm 1s$ 轨道形成 $sigma$ 键；第四个杂化轨道则由一对孤电子对占据。受孤电子对的影响，$ce\{NH3}$ 分子的空间结构呈**三角锥形**。
+- **氨的结构**：形成 $\ce\{NH3}$ 分子时，氮原子采用 $\mathrm\{sp^3}$ 杂化。在四个 $\mathrm\{sp^3}$ 杂化轨道中，有三个各含一个未成对电子，分别与氢原子的 $\rm 1s$ 轨道形成 $\sigma$ 键；第四个杂化轨道则由一对孤电子对占据。受孤电子对的影响，$\ce\{NH3}$ 分子的空间结构呈**三角锥形**。
 
 ### AXE 法预测构型 \{#axe}
 
-| 物质名称 |     化学式     |   结构模型  |        键角        |
-| :--: | :---------: | :-----: | :--------------: |
-| 二氧化碳 |  $ce\{CO2}$ |   直线型   |   $pu\{180^o}$   |
-|   水  |  $ce\{H2O}$ | 角形或 V 形 |  $pu\{104.5^o}$  |
-|  甲醛  | $ce\{CH2O}$ |   三角形   |  约 $pu\{120^o}$  |
-|  氨气  |  $ce\{NH3}$ |   三角锥形  |  $pu\{107.3^o}$  |
-|  白磷  |  $ce\{P4}$  |  正四面体形  |    $pu\{60^o}$   |
-|  甲烷  |  $ce\{CH4}$ |   四面体形  | $pu\{109^o 28'}$ |
-| 六氟化硫 |  $ce\{SF6}$ |   正八面体  |                  |
+| 物质名称 |      化学式     |   结构模型  |         键角        |
+| :--: | :----------: | :-----: | :---------------: |
+| 二氧化碳 |  $\ce\{CO2}$ |   直线型   |   $\pu\{180^o}$   |
+|   水  |  $\ce\{H2O}$ | 角形或 V 形 |  $\pu\{104.5^o}$  |
+|  甲醛  | $\ce\{CH2O}$ |   三角形   |  约 $\pu\{120^o}$  |
+|  氨气  |  $\ce\{NH3}$ |   三角锥形  |  $\pu\{107.3^o}$  |
+|  白磷  |  $\ce\{P4}$  |  正四面体形  |    $\pu\{60^o}$   |
+|  甲烷  |  $\ce\{CH4}$ |   四面体形  | $\pu\{109^o 28'}$ |
+| 六氟化硫 |  $\ce\{SF6}$ |   正八面体  |                   |
 
-AXE 法，又称 ABE 法：用 $ce\{AX\_nE\_m}$ 其中 $ce A$ 代表中心原子，$ce X$ 或 $ce B$ 代表配位原子，$ce E$ 代表孤电子对。
+AXE 法，又称 ABE 法：用 $\ce\{AX\_nE\_m}$ 其中 $\ce A$ 代表中心原子，$\ce X$ 或 $\ce B$ 代表配位原子，$\ce E$ 代表孤电子对。
 
-- 下图表示的分别是二氯化汞 $ce\{HgCl2}$、三氟化硼 $ce\{BF3}$、四氯化碳 $ce\{CCl4}$、五氯化磷 $ce\{PCl5}$ 和六氟化硫 $ce\{SF6}$ 的分子空间结构。
+- 下图表示的分别是二氯化汞 $\ce\{HgCl2}$、三氟化硼 $\ce\{BF3}$、四氯化碳 $\ce\{CCl4}$、五氯化磷 $\ce\{PCl5}$ 和六氟化硫 $\ce\{SF6}$ 的分子空间结构。
 
-![空间结构](/static/image/空间结构.5a918f7aa8.avif){width="90%"}
+<img src="../空间结构.avif" width="90%" alt="空间结构">
+
 ### 分子极性和手性 \{#\_19}
 
 共价键分为极性键和非极性键：
 
 - 极性键：不同元素两个原子，共用电子偏向电负性强的原子，显示负电性，另一原子显示正电性。
 
-- 非极性键：相同元素两个原子，对称，两原子均不显电性，例如在形成氯化氢分子时，氯原子吸引电子的能力比氢原子强，使氯原子带部分负电荷（$delta^-$）、氢原子带部分正电荷（$delta^+$），所形成的共价键是极性键。
+- 非极性键：相同元素两个原子，对称，两原子均不显电性，例如在形成氯化氢分子时，氯原子吸引电子的能力比氢原子强，使氯原子带部分负电荷（$\delta^-$）、氢原子带部分正电荷（$\delta^+$），所形成的共价键是极性键。
 
 类似的，分子也有极性和非极性之分。
 
-- 在极性分子中，正电中心和负电中心不重合，分子一端呈负电性（$delta^-$）另一端呈负电性（$delta^+$）；非极性分子反之。
+- 在极性分子中，正电中心和负电中心不重合，分子一端呈负电性（$\delta^-$）另一端呈负电性（$\delta^+$）；非极性分子反之。
 
 - 只含非极性键的分子一定是非极性分子，而含有极性键的分子的极性可以根据分子中化学键的极性的矢量和，只有矢量和为零才为非极性分子。
 
-- 通常的，$ce\{AA}$ 通常为非极性分子，$ce\{AB}$ 通常为极性分子，$ce\{ABn}$ 型通常需要根据 $ce A$ 的孤电子对有无比较，无则为非极性。
+- 通常的，$\ce\{AA}$ 通常为非极性分子，$\ce\{AB}$ 通常为极性分子，$\ce\{ABn}$ 型通常需要根据 $\ce A$ 的孤电子对有无比较，无则为非极性。
 
-注意：臭氧 $ce\{O3}$ 是含有极性键的极性分子，因为中心氧原子与端基氧原子的电负性不同。
+注意：臭氧 $\ce\{O3}$ 是含有极性键的极性分子，因为中心氧原子与端基氧原子的电负性不同。
 
 分子的手性：具有完全相同的组成和原子排列的一对分子，互为镜像且在三维空间里不能重合，称为手性异构体，有手性的异构体称为手性分子。
 
-![alt text](/static/image/image.acfbc15c12.avif)
+<img src="../image.avif" alt="alt text">
+
 手性分子在制药中有广泛的应用，药物中一对手性异构体可能只有一个有效，另一个可能无效甚至是有害的。2001 年诺贝尔化学奖授予三位用手性催化剂生成手性药物的化学家，可以得到或主要得到一种手性分子，称为手性合成。
 
-手性在数学中也是可以被严格定义的，在三维空间 $R^3$ 中，任何刚体运动都可以用矩阵 $M$ 表示，其中保持手性不变的称为真旋转，其行列式满足 $det M=+1$，例如绕轴转动；改变手性的称为非真旋转，$det M=-1$，例如镜像反射。
+手性在数学中也是可以被严格定义的，在三维空间 $\R^3$ 中，任何刚体运动都可以用矩阵 $M$ 表示，其中保持手性不变的称为真旋转，其行列式满足 $\det M=+1$，例如绕轴转动；改变手性的称为非真旋转，$\det M=-1$，例如镜像反射。
 
-镜像操作记为 $sigma$，如果不存在任何真旋转矩阵 $R$ 即 $det R=+1$，使得分子结构 $K$ 满足 $K=R\cdot\sigma\cdot K$，则 $K$ 是手性的。
+镜像操作记为 $\sigma$，如果不存在任何真旋转矩阵 $R$ 即 $\det R=+1$，使得分子结构 $K$ 满足 $K=R\cdot\sigma\cdot K$，则 $K$ 是手性的。
 
 根据线性代数相关知识，我们只需要判断，如果一个分子能通过一个行列式为 $-1$ 的操作 $O$ 变回自己，即 $K=O\cdot K$，那么它就能和镜像重合，它就是非手性的。
 
@@ -478,9 +484,11 @@ AXE 法，又称 ABE 法：用 $ce\{AX\_nE\_m}$ 其中 $ce A$ 代表中心原子
 
 通常来说，我们只需要判断一个分子是否有对称中心（$S\_2$）或对称面（$S\_1$）即可，更严谨的我们还需要判断 $S\_4$，例如丙二烯（如图所示）：
 
-![alt text](/static/image/image-1038de9.9f1ff91f9e.avif)
-![alt text](data:image/avif;base64,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)
-理论上，我们仅仅通过 $S\_1,S\_2,S\_4$ 几乎可以确定一个分子是否是手性分子了。但是，还存在最后一种特殊的情况，$S\_8$，其存在于极少数的分子中，而且更少数的分子只能由 $S\_8$ 确定。例如皇冠硫（很有趣这个分子也写作 $ce\{S8}$ 硫8），但是它也有对称中心，导致它不是"仅靠 $S\_8$ 维持非手性"的特例。
+<img src="../image-1038de9.avif" alt="alt text">
+
+<img src="../image-1-99bf5e2.avif" alt="alt text">
+
+理论上，我们仅仅通过 $S\_1,S\_2,S\_4$ 几乎可以确定一个分子是否是手性分子了。但是，还存在最后一种特殊的情况，$S\_8$，其存在于极少数的分子中，而且更少数的分子只能由 $S\_8$ 确定。例如皇冠硫（很有趣这个分子也写作 $\ce\{S8}$ 硫8），但是它也有对称中心，导致它不是"仅靠 $S\_8$ 维持非手性"的特例。
 
 严格属于 $S\_8$ 点群的分子，仅仅是理论上存在，只有在特定情况下，才能形成，极其少见，一般就不会考虑了。
 
@@ -500,23 +508,23 @@ AXE 法，又称 ABE 法：用 $ce\{AX\_nE\_m}$ 其中 $ce A$ 代表中心原子
 
 氢键：
 
-- 定义：与电负性大（一般来说为 $ce\{N,O,F}$）的原子连接的氢，与较强的孤电子对（一般来说为 $ce\{N,O,F}$）形成的电性作用。
+- 定义：与电负性大（一般来说为 $\ce\{N,O,F}$）的原子连接的氢，与较强的孤电子对（一般来说为 $\ce\{N,O,F}$）形成的电性作用。
 
-  也就是说，一般来说可以表示为 $ce\{N/O/F \bond\{1} H \cdots N/O/F}$ 的分子间作用力。
+  也就是说，一般来说可以表示为 $\ce\{N/O/F \bond\{1} H \cdots N/O/F}$ 的分子间作用力。
 
 - 意义：氢键对物质的熔沸点等影响较大，例如在接近沸点的水蒸气，水分子间因氢键相互缔合，形成缔合分子。
 
-- 特性：有方向性（当 $ce\{X \bond\{1} H \cdots Y}$ 为一条直线时键能最大）、有饱和性（一般来说一个 $ce H$ 只能形成一个氢键）。
+- 特性：有方向性（当 $\ce\{X \bond\{1} H \cdots Y}$ 为一条直线时键能最大）、有饱和性（一般来说一个 $\ce H$ 只能形成一个氢键）。
 
 - 注意：氢键不是化学键，但是也讨论键长、键能等。
 
-- 强度：与 $ce\{H}$ 相连的原子电负性越大，氢键越强，例如氨气中 $ce\{H3N \cdots H - OH}$ 氢键多于 $ce\{H2O \cdots H - NH2}$。
+- 强度：与 $\ce\{H}$ 相连的原子电负性越大，氢键越强，例如氨气中 $\ce\{H3N \cdots H - OH}$ 氢键多于 $\ce\{H2O \cdots H - NH2}$。
 
-  |       | $ce\{NH3}$ | $ce\{N2H4}$ | $ce\{H2O}$ | $ce\{HF}$ |
-  | :---: | :--------: | :---------: | :--------: | :-------: |
-  | 孤电子对数 |     $1$    |     $2$     |     $2$    |    $3$    |
-  |  氢原子数 |     $3$    |     $4$     |     $2$    |    $1$    |
-  |  氢键数  |     $1$    |     $2$     |     $2$    |    $1$    |
+  |       | $\ce\{NH3}$ | $\ce\{N2H4}$ | $\ce\{H2O}$ | $\ce\{HF}$ |
+  | :---: | :---------: | :----------: | :---------: | :--------: |
+  | 孤电子对数 |     $1$     |      $2$     |     $2$     |     $3$    |
+  |  氢原子数 |     $3$     |      $4$     |     $2$     |     $1$    |
+  |  氢键数  |     $1$     |      $2$     |     $2$     |     $1$    |
 
   一般来说，氢键强度的主要影响因素就是氢键数量，此外还与半径（负相关）、电负性（正相关）有关。
 
@@ -524,8 +532,8 @@ AXE 法，又称 ABE 法：用 $ce\{AX\_nE\_m}$ 其中 $ce A$ 代表中心原子
 
 超分子是由两种或两种以上的分子，通过分子间相互作用形成的分子聚合体。
 
-例如 $ce\{C60}$ 和 $ce\{(HF)n}$（通过氢键）就是经典的超分子。
+例如 $\ce\{C60}$ 和 $\ce\{(HF)n}$（通过氢键）就是经典的超分子。
 
 笼形水合物：笼形水合物又称气体水合物，是一类水性固态晶体，其物理性质类似于冰，其中体积较小的气体疏水分子被水分子组成的笼形结构包围，通过氢键连接。
 
-笼形水合物属于笼形化合物，其中主体分子为水分子，客体分子一般为气体。若没有客体分子的支撑作用，这类化合物的晶体结构便会坍塌为冰或水的结构。绝大多数相对分子质量较低的气体都能形成笼形水合物，比如 $ce\{O2, H2, N2, CO2, CH4, H2S}$ 等，其中甲烷水合物成为可燃冰。
+笼形水合物属于笼形化合物，其中主体分子为水分子，客体分子一般为气体。若没有客体分子的支撑作用，这类化合物的晶体结构便会坍塌为冰或水的结构。绝大多数相对分子质量较低的气体都能形成笼形水合物，比如 $\ce\{O2, H2, N2, CO2, CH4, H2S}$ 等，其中甲烷水合物成为可燃冰。

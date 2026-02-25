@@ -12,7 +12,8 @@
 
 滑动变阻器常见的接法有限流式和分压式两种。
 
-![alt text](data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAG1pZjFhdmlmbWlhZgAAAXBtZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAANGlsb2MAAAAAREAAAgABAAAAAAGUAAEAAAAAAAAAMwACAAAAAAHHAAEAAAAAAAAAjwAAADhpaW5mAAAAAAACAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAFWluZmUCAAAAAAIAAGF2MDEAAAAAr2lwcnAAAACKaXBjbwAAAAxhdjFDgSQCAAAAABRpc3BlAAAAAAAABDgAAAFYAAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQQcAAAAAA5waXhpAAAAAAEIAAAAOGF1eEMAAAAAdXJuOm1wZWc6bXBlZ0I6Y2ljcDpzeXN0ZW1zOmF1eGlsaWFyeTphbHBoYQAAAAAdaXBtYQAAAAAAAAACAAEDgQIDAAIEhAIFhgAAABppcmVmAAAAAAAAAA5hdXhsAAIAAQABAAAAym1kYXQSAAoKOSohvV2UBDQaQDIjEWAAABAQAK03hlt+39Esh+HZigNWMhE/jVA6YWu2svP+ebASAAoHGSohvV2VQDKBARFgBBBVAOp42nFE62E/JY2xR7K91Z7QUEzweMqj6tl8eZg3YfEoyxq1cgZ40LYkuGv1Q8kw3ptWqRjD8yrfVg1oiGfM9GF2CR1JHGrgvnsDYShbm0aLUM/6DYiuEDrpiGhIZFxIMUSoBgJIuxV2W710++Whze+hFRjQQ+/0PqXOJg==){width="90%"}
+<img src="../滑动变阻器.drawio.avif" width="90%" alt="alt text">
+
 - 限流式：电路连接简单，调节范围相对较小，通常选用较大的串联限流电阻以限制电流。
 
 - 分压式：用于分压，电路相对复杂，调节范围较大，常选用较小的滑动部分电阻以获得较细的电位调节。
@@ -21,13 +22,16 @@
 
 晶体三极管是半导体基本元件之一，具有电流放大作用，在控制电路中常用作电子开关。本实验采用三极管配合光敏电阻完成光控开关的任务。三极管由三个电极组成，分别是发射极 $e$、基极 $b$ 和集电极 $c$，有 NPN 型和 PNP 型两种。三极管的一个重要特性是，从基极输入一个较小的电流，就会在集电极获得较大的电流。此外，三极管还具有完成断路和接通的开关作用。
 
-![alt text](/static/image/image-37.6ce37d58fb.avif){width="30%"}
+<img src="../image-37.avif" width="30%" alt="alt text">
+
 ### 欧姆表 \{#\_5}
 
 一个常见的欧姆表电路图如左图所示：
 
-![alt text](/static/image/image-12.0465b22a5f.avif)
-![alt text](/static/image/image-22.aa165242aa.avif)
+<img src="../image-12.avif" alt="alt text">
+
+<img src="../image-22.avif" alt="alt text">
+
 我们发现，如果将两个表笔短接（即被测电阻 $R\_x=0$），在欧姆表内部电路由电源、电源内阻 $r$、表头内阻 $R\_g$ 和限流电阻 $R$ 串联组成，则满偏电流为
 
 $$
@@ -40,13 +44,14 @@ $$
 \dfrac\{I}\{I\_m}=\dfrac\{R\_x+r\_i}\{r\_i}
 $$
 
-我们根据这一表达式，在表盘上直接表上对应的欧姆刻度，如上右图所示。我们知道这个表盘刻度是不均匀的，测量范围在 $0,+\infty$ 欧姆。
+我们根据这一表达式，在表盘上直接表上对应的欧姆刻度，如上右图所示。我们知道这个表盘刻度是不均匀的，测量范围在 $(0,+\infty)$ 欧姆。
 
 ### 多用电表 \{#\_6}
 
 多用电表，又称万用电表、多用表、多用计、万用表、万用计，俗称三用电表，一般包含电流表（安培计）、电压表（伏特计）、电阻表（欧姆计）等功能。一个老式的多用电表（上海第四仪表厂）如图所示：
 
-![alt text](/static/image/image-23.7cc40590f2.avif){width="90%"}
+<img src="../image-23.avif" width="90%" alt="alt text">
+
 多用电表的使用方法：
 
 - 第一次调零（机械调零）：表笔断开时旋转机械调零螺丝或旋钮，使指针指向零位（不同仪表设计可能在左端或中间）。
@@ -67,15 +72,19 @@ $$
 
 几个常见的多用电表电路如图所示：
 
-![alt text](/static/image/image-24.4ec93b8db5.avif)
-![alt text](/static/image/image-25.2e0e7a3016.avif)
+<img src="../image-24.avif" alt="alt text">
+
+<img src="../image-25.avif" alt="alt text">
+
 ### 电表改装 \{#\_7}
 
 **检流计** $-\kern\{-0.4em}\bigcirc\kern\{-1em}\{\scriptsize\text\{G}}\kern\{0.05em}-$：也称为**表头**，被用于测量**微弱电流**。指针式的表头是一只高灵敏度的磁电式灵敏检流计，其工作原理为利用电流的磁效应，当电流通过其导线时，会产生磁场，与永久磁铁互斥而带动指针旋转，与磁电式电流表基本相同。电表的主要性能指标基本上取决于表头的性能。表头的灵敏度是指表头指针满刻度偏转时流过表头的直流电流值，这个值越小，表头的灵敏度愈高，其性能就越好。
 
-![alt text](/static/image/image-9.0e4df74a09.avif)
-![alt text](/static/image/image-10.89185d2ad2.avif)
-检流计有内阻 $Omega$、最大电压 $U$ 和最大电流 $I$，满足欧姆定律，检流计与大电阻串联构成电压表 $-\kern\{-0.4em}\bigcirc\kern\{-1em}\{\scriptsize\text\{V}}\kern\{0.1em}-$，与小电阻并联构成电流表 $-\kern\{-0.4em}\bigcirc\kern\{-1em}\{\scriptsize\text\{ I}}\kern\{0.2em}-$，由欧姆定律分压分流规律，可以计算出应该串联、并联多大的电阻。
+<img src="../image-9.avif" alt="alt text">
+
+<img src="../image-10.avif" alt="alt text">
+
+检流计有内阻 $\Omega$、最大电压 $U$ 和最大电流 $I$，满足欧姆定律，检流计与大电阻串联构成电压表 $-\kern\{-0.4em}\bigcirc\kern\{-1em}\{\scriptsize\text\{V}}\kern\{0.1em}-$，与小电阻并联构成电流表 $-\kern\{-0.4em}\bigcirc\kern\{-1em}\{\scriptsize\text\{ I}}\kern\{0.2em}-$，由欧姆定律分压分流规律，可以计算出应该串联、并联多大的电阻。
 
 电表串并联偏角、示数问题（默认表头一样）：
 
@@ -127,26 +136,27 @@ $$
 
 电阻的 $P-I$ 图像：
 
-![](/static/image/IP.72e19bc21e.avif){width="50%"}
+<img src="../IP.avif" width="50%">
+
 电灯泡 $U-I$ 与电源 $U-I$ 联立：
 
 - 根据短路电流 $I=E/r$ 得出横截距，以 $E$ 为纵截距在 $U-I$ 图上做出下降直线（电源）。
 
-  <img src={image10} />\{width="50%"}
+  <img src="../UI.avif" width="50%">
 
 - 电灯泡的 $U-I$ 曲线与电源的直线交点即为连接后的电路状态。
 
 ### 物理量总结 \{#\_11}
 
-|  中文  |     字母（单位）    | 公式                                        |
-| :--: | :-----------: | ----------------------------------------- |
-|  电流  | $I$（$pu\{A}$） | $I = \frac\{Q}\{t} = \frac\{U}\{R}$       |
-|  电动势 | $E$（$pu\{V}$） | $E = \frac\{W}\{q}$                       |
-|  电压  | $U$（$pu\{V}$） | $U = I \cdot R$                           |
-|  电阻  |  $R$（$Omega$） | $R = \frac\{U}\{I} = \rho \frac\{l}\{S}$  |
-|  电功率 | $P$（$pu\{W}$） | $P = U \cdot I = I^2 R = \frac\{U^2}\{R}$ |
-|  发热量 | $Q$（$pu\{J}$） | $Q = I^2 R t$                             |
-| 供电效率 |     $eta$     | $eta = \frac\{U \cdot I}\{E \cdot I}$     |
+|  中文  |     字母（单位）     | 公式                                        |
+| :--: | :------------: | ----------------------------------------- |
+|  电流  | $I$（$\pu\{A}$） | $I = \frac\{Q}\{t} = \frac\{U}\{R}$       |
+|  电动势 | $E$（$\pu\{V}$） | $E = \frac\{W}\{q}$                       |
+|  电压  | $U$（$\pu\{V}$） | $U = I \cdot R$                           |
+|  电阻  |  $R$（$\Omega$） | $R = \frac\{U}\{I} = \rho \frac\{l}\{S}$  |
+|  电功率 | $P$（$\pu\{W}$） | $P = U \cdot I = I^2 R = \frac\{U^2}\{R}$ |
+|  发热量 | $Q$（$\pu\{J}$） | $Q = I^2 R t$                             |
+| 供电效率 |     $\eta$     | $\eta = \frac\{U \cdot I}\{E \cdot I}$    |
 
 百科版本：
 
@@ -154,17 +164,17 @@ $$
 | :----: | :--------------: | :-------------: | ----------------- |
 |   安培   |        $A$       |      **电流**     | 基本单位              |
 |   伏特   |        $V$       |  **电势**，电势差，电动势 | $=W\cdot A^\{-1}$ |
-|   欧姆   |      $Omega$     |   **电阻**，电抗，阻抗  | $=V\cdot A^\{-1}$ |
+|   欧姆   |     $\Omega$     |   **电阻**，电抗，阻抗  | $=V\cdot A^\{-1}$ |
 |   法拉   |        $F$       |      **电容**     |                   |
 |   亨利   |        $H$       |        电感       |                   |
 |   西门子  |        $S$       |  **电导**，导纳，磁化率  | $=\Omega^\{−1}$   |
 |   库仑   |        $C$       |     **电荷量**     | $=A\cdot s$       |
-|  欧姆⋅米  |  $Omega\cdot m$  |       电阻率       | $rho$             |
+|  欧姆⋅米  |  $\Omega\cdot m$ |       电阻率       | $\rho$            |
 | 西门子/每米 | $S\cdot m^\{-1}$ |       电导率       |                   |
-|  法拉/每米 | $F\cdot m^\{-1}$ |     电容率；介电常数    | $varepsilon$      |
+|  法拉/每米 | $F\cdot m^\{-1}$ |     电容率；介电常数    | $\varepsilon$     |
 |   反法拉  |     $F^\{−1}$    |       电弹性       | $=F^\{−1}$        |
 |   伏安   |       $VA$       |    交流电功率，视在功率   |                   |
-|  无功伏安  |  $mathit\{var}$  |     无功功率，虚功     |                   |
+|  无功伏安  |  $\mathit\{var}$ |     无功功率，虚功     |                   |
 |   瓦特   |        $W$       | **电功率**，有功功率，实功 | $=J\cdot s^\{-1}$ |
 |  千瓦⋅时  |      $kW⋅h$      |      **电能**     | $=3.6,MJ$         |
 
@@ -178,7 +188,8 @@ $$
 
 最容易想到的测量方法是直接测量电流和电阻两端的电压，但是我们非理想电流表、电压表会分压、分流，导致产生系统误差，于是就产生了内接法和外接法。
 
-![alt text](/static/image/image-4.f195b503ba.avif){width="80%"}
+<img src="../image-4.avif" width="80%" alt="alt text">
+
 电流表内接法（电流表在电压表里面）：
 
 - 电压表测电流表和电阻的电压，电压偏大、电流准确，电阻偏大。
@@ -197,17 +208,18 @@ $$
 
 简记为：大内偏大，小外偏小；此外，如果为理想电表，则可以任选；如果电流表内阻已知，则用内接法；如果电压表内阻已知，则用外接法。
 
-- 计算法：将预估 $R\_x$ 与 $sqrt\{R\_AR\_B}$ 比较，作为大小电阻的依据。
+- 计算法：将预估 $R\_x$ 与 $\sqrt\{R\_AR\_B}$ 比较，作为大小电阻的依据。
 
 - 试触法：将电笔轻轻接触，然后迅速拿开。将电压表的一端分别在电流表的内外试触，如果电压表示数变化较大，则说明电流表分压较大，使用外接法；如果电流表示数变化较大，说明电压表分流较大，使用内接法。
 
-  具体来说，我们可以定量判断 $vert\{\dfrac\{U\_外-U\_内}\{U\_内}}$ 和 $vert\{\dfrac\{I\_外-I\_内}\{I\_内}}$ 的关系，确定哪一个更接近真实值。
+  具体来说，我们可以定量判断 $\vert\{\dfrac\{U\_外-U\_内}\{U\_内}}$ 和 $\vert\{\dfrac\{I\_外-I\_内}\{I\_内}}$ 的关系，确定哪一个更接近真实值。
 
 ### 伏阻法 \{#\_14}
 
 伏阻法，又称伏伏法，如图所示：
 
-![alt text](/static/image/image-26.40aeb51092.avif){width="80%"}
+<img src="../image-26.avif" width="80%" alt="alt text">
+
 :::note
 
 如左图
@@ -241,7 +253,8 @@ $$
 
 安阻法，又称安安法，如图所示：
 
-![alt text](/static/image/image-27.f31a4b681f.avif){width="80%"}
+<img src="../image-27.avif" width="80%" alt="alt text">
+
 :::note
 
 如左图
@@ -276,7 +289,8 @@ $$
 
 限流式半偏法：
 
-![alt text](/static/image/image-28.526fc1621c.avif){width="40%"}
+<img src="../image-28.avif" width="40%" alt="alt text">
+
 1. 闭合开关 $S$ 和 $S\_1$，调节滑动变阻器，使电流表满偏。
 
 2. 再闭合开关 $S\_2$，保持滑动变阻器位置不动，调节电阻箱示数为 $R$，使得电流表半偏。
@@ -297,7 +311,8 @@ $$
 
 分压式半偏法：
 
-![alt text](/static/image/image-29.371c75a462.avif){width="40%"}
+<img src="../image-29.avif" width="40%" alt="alt text">
+
 1. 电阻箱归零，闭合开关，调节滑动变阻器，使得电压表满偏。
 
 2. 保持滑动变阻器不变，调节电阻箱示数为 $R$，使得电压表半偏。
@@ -320,7 +335,8 @@ $$
 
 替代法是一种类似于限流式半偏法的方法，如图所示：
 
-![alt text](data:image/avif;base64,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){width="40%"}
+<img src="../image-30.avif" width="40%" alt="alt text">
+
 1. 闭合开关 $S$ 和 $S\_1$，适当调整滑动变阻器，记录此时电流表示数。
 
 2. 断开开关 $S\_1$，闭合开关 $S\_2$，调整电阻箱，使得电流表示数和上一步相同。
@@ -333,8 +349,10 @@ $$
 
 将待测电阻 $R\_x$ 和 $R\_3$ 串联，可变电阻 $R\_2$ 和 $R\_1$ 串联。再将这两个串联电路并联，在各路中点间接入检流计 $V\_G$。其中 $V\_G$ 可以认为是测量电势差的，或是测量电流的，因为这是等价的。
 
-![alt text](/static/image/image-2.0c3bacb9bf.avif){width="90%"}
-![alt text](/static/image/image-3.0dd538e95f.avif){width="90%"}
+<img src="../image-2.avif" width="90%" alt="alt text">
+
+<img src="../image-3.avif" width="90%" alt="alt text">
+
 我们得出结论：当桥臂满足
 
 $$
@@ -351,7 +369,8 @@ $$
 
 测量电源的电动势和内阻：
 
-![alt text](/static/image/image-31.ebfef99f94.avif){width="60%"}
+<img src="../image-31.avif" width="60%" alt="alt text">
+
 理想情况下，电流表测外电流、电压表测外电压，因为要测两个量，我们最常见的减小偶然误差的方式就是图像法，容易想到我们会指出伏安（$U-I$）图形，两种方法
 
 :::note
@@ -406,14 +425,16 @@ $$
 
 如图形所示：
 
-![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDAgMzU1Ij48ZGVmcz48c3R5bGU+QGZvbnQtZmFjZXtmb250LWZhbWlseTpOdW5pdG87c3JjOnVybChkYXRhOmZvbnQvd29mZjI7YmFzZTY0LGQwOUdNZ0FCQUFBQUFBU1FBQThBQUFBQUNSQUFBQVEzQUFFQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFHaFliZ1hJY1VBWmdQMU5VUVZSRUFGd1JDQXFGT0lRU0N4UUFBVFlDSkFNa0JDQUZoQ1FISUJ0VEI4Z3VDbXhqK0pnaC90aHl5Q0hGK1dnNFkwWjlyUTA5aklmbjE4RjM3aHQ4RU56ZFJpYzRDWTJSVGhEbStQM1ZMSmgvWEx5MFpnSngrdUFzV0k4MUtXNjhBdmovLy9kWDk0LzEzcWhOSXRkV2dsemlucjZoeTIxN2hVZnYwOFRsOUgrSEM3QnRhWmdsbnNqWTY3eE5telpZWUs5UDRacFkvcGFPQmRvOXBZRjFBWGE1RFZIL3paSEVFUm9OL21tQnVvQWtoRklJMU5aYmltYnE5TmhVb0xaME5kY0N0YmVvdFI0b1dxZ3FnZGl6cmJrZWpBaUVYRkpUcUNrNVRJdGJYYXFHR3BLOXE1K3Ava1puQU5VLzcyamY2K2FsdjBQMXExNmtOUUFqaStyYjhKQ2VvSHBia29RU05kVzhncVhtWEowU003a2laSkV6QzFwMjJlYS9Ka2h6Z2tnb1lYVy9PMC9ENDFjRjZmSzBFcGhUazRuMUxORlpJaC9VbjFvK0F2d1pZSno5OHYva3c2SnZSMURkQXZGcGVnNGRhUzRRb1drSmRLMDRzYU95bGNCcm53d1I0c2hxckd5S1R1Q28zNHdvNGxlUWtLRXBqVUJUV2pPQittcEtTZ1BrbE5UMGphdU1nUkhOMWZ2L2ZuLzJveDhXMStGR1ZXbnd5VnFnTVZBYmIrQmZRSDdyZ0dTUlV0K203RlMvVzYwT3JYajFsMTErdEtiY3MzN092dUpCK2E3VmxRUFc1UThwbG5zNFk1YXVuTlNzMUhKN3JtWmYvaEJSWEFJWjY1a2s0ZUlEckxvYTJ6SlZxVHNoVi9VanBabjd0b3R2dlZXN1JWUDBjcjlsaXlzblRGTlg5N1ZyNCtmbTFMbmkzYmprblQ2NDZmS0h4QnNaWlRoZGZIdk5NRkpxcGszNG1kMXI2OGM3czdBT21MeDNGZThNVnFYZmVIQzB0SWIyTEI4ZkxxNUs1bzBZMDBmQUJzYk00WXJadE1ZTGZCb0ZWYU4zd2taN045WWpHL1grSWtuclNQaTl4eGZIenZxeDVBYnI3Mmc4V2wyNjBlaXI1VzB0MXhrakQ0cURSZUlRY2VSanRJbXRNVm8xNTgvTW1Va2M3SVRYc3ZsSjFJQTdaS2dETjZESzRJU3EwRVR6N3c5WFhSem95cTR5eFd6S2VoN3ZXWE95b0I0c2xqUU8xcncweTlUNTM0S1R0ZDRtTGdnT0Nrb0lTcnlGZlRXbjc5WkVSR3BxSXdkd3V3eTE0OTZhb3NxQ0F0OVYwNnNDTXNvSENnS0graWZCb214Mi9XVzgzWWVyNndYU29DWmllUmNZSDBxU0NCS2lpL2k3and6RHJEZzd3LzQyNHV6QVNuMlBvZStPcy9BL0g2eHRDM2orYUo3SXB6VUFBQUxaN2UzU3JLdi9OalFZKzF0TlRmWWxmTmppM3JmaGs4SDNEcXRxSEt2dG16Y0VTZ2tFVDhHMEVBQnFES0NTL0lKYThhdkI2V01kMDJ5aktDMUxkMXFXUHJRd1BhbWVoNnZEMGJuNlJhQ1d0WFIyMDlMcnhqdnJ1RndtOGxxNHk1OTZmaGpvemsvcWU1YWZtZXJjbWNQOFFtdExYcW0vUUZsUVYrY2VETFE1V0tDMW42a1RNeFpEc2tlS0Z0b0wzb21zNXVpUmhQZHNnc1pqY1k3YVRoUzhJMVJ5ZGJUM3FBbDErem1JajlIMkRxOGlCUkVWa0JBU2FTV3oyanJhU3Eza0RQWk5yRXFVUE5yVDlTZTJMQmxlZ0xadTloQjlFU0ZoTWNRUWgwWTRUdXZhUXdMYU0yNWx6c2tSQnk4WUlWdzgxaDV0SFdRRUJiRjRvRElROHlUZzJTS3Z2QnNobG9UR1FJcWpneUJGVXNaTkkxRlVQYXd0QUE9PSl9PC9zdHlsZT48L2RlZnM+PHBhdGggZmlsbD0iI2Y4ZjlmYSIgZD0iTTAgMGg0NDB2MzU1SDB6Ii8+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMWUxZTFlIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iNCIgZD0iTTEwIDMxMGg0MjBtLTQyMCAwaDQyMG0tMjMuNDkgOC41NWM4LjM5LTMuMDUgMTYuNzgtNi4xMSAyMy40OS04LjU1bS0yMy40OSA4LjU1YzYuOTMtMi41MiAxMy44Ni01LjA0IDIzLjQ5LTguNTVtLTIzLjQ5LTguNTVjOC4zOSAzLjA1IDE2Ljc4IDYuMTEgMjMuNDkgOC41NW0tMjMuNDktOC41NWM2LjkzIDIuNTIgMTMuODYgNS4wNCAyMy40OSA4LjU1TTMwIDMzMFYxMG0wIDMyMFYxMG04LjU1IDIzLjQ5QzM1LjQ0IDI0LjkzIDMyLjMyIDE2LjM4IDMwIDEwbTguNTUgMjMuNDlMMzAgMTBtLTguNTUgMjMuNDlDMjQuNTYgMjQuOTMgMjcuNjggMTYuMzggMzAgMTBtLTguNTUgMjMuNDlMMzAgMTBtMCA2MGMxMDQuNTMgNzMuNzggMjA5LjA1IDE0Ny41NyAzNDAgMjQwTTMwIDcwYzEyMC41NiA4NS4xIDI0MS4xMSAxNzAuMiAzNDAgMjQwTTMwIDcwYzg2LjIgOTQuMDMgMTcyLjM5IDE4OC4wNyAyMjAgMjQwTTMwIDcwYzczLjczIDgwLjQzIDE0Ny40NSAxNjAuODYgMjIwIDI0MCIvPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzFlMWUxZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjQiIGQ9Ik0zNzAgMzEwYy04NC4xNS0zOS42LTE2OC4yOS03OS4yLTM0MC0xNjBtMzQwIDE2MEMyNDIuNjEgMjUwLjA1IDExNS4yMyAxOTAuMTEgMzAgMTUwIi8+PHRleHQgeT0iMjYuNzEiIGZpbGw9IiMxZTFlMWUiIGRvbWluYW50LWJhc2VsaW5lPSJhbHBoYWJldGljIiBmb250LWZhbWlseT0iTnVuaXRvLCBzYW5zLXNlcmlmLCBTZWdvZSBVSSBFbW9qaSIgZm9udC1zaXplPSIyOCIgc3R5bGU9IndoaXRlLXNwYWNlOnByZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgMTApIj5VL1Y8L3RleHQ+PHRleHQgeT0iMjYuNzEiIGZpbGw9IiMxZTFlMWUiIGRvbWluYW50LWJhc2VsaW5lPSJhbHBoYWJldGljIiBmb250LWZhbWlseT0iTnVuaXRvLCBzYW5zLXNlcmlmLCBTZWdvZSBVSSBFbW9qaSIgZm9udC1zaXplPSIyOCIgc3R5bGU9IndoaXRlLXNwYWNlOnByZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzkwIDI3MCkiPkkvQTwvdGV4dD48dGV4dCB5PSIyNi43MSIgZmlsbD0iIzFlMWUxZSIgZG9taW5hbnQtYmFzZWxpbmU9ImFscGhhYmV0aWMiIGZvbnQtZmFtaWx5PSJOdW5pdG8sIHNhbnMtc2VyaWYsIFNlZ29lIFVJIEVtb2ppIiBmb250LXNpemU9IjI4IiBzdHlsZT0id2hpdGUtc3BhY2U6cHJlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMCA1MCkiPkU8L3RleHQ+PHRleHQgeT0iMjYuNzEiIGZpbGw9IiMxZTFlMWUiIGRvbWluYW50LWJhc2VsaW5lPSJhbHBoYWJldGljIiBmb250LWZhbWlseT0iTnVuaXRvLCBzYW5zLXNlcmlmLCBTZWdvZSBVSSBFbW9qaSIgZm9udC1zaXplPSIyOCIgc3R5bGU9IndoaXRlLXNwYWNlOnByZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzMwIDMxMCkiPkUvUjwvdGV4dD48dGV4dCB5PSIxOS4wOCIgZmlsbD0iIzFlMWUxZSIgZG9taW5hbnQtYmFzZWxpbmU9ImFscGhhYmV0aWMiIGZvbnQtZmFtaWx5PSJOdW5pdG8sIHNhbnMtc2VyaWYsIFNlZ29lIFVJIEVtb2ppIiBmb250LXNpemU9IjIwIiBzdHlsZT0id2hpdGUtc3BhY2U6cHJlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNTAgMjcwKSI+5YaF5o6l5rOVPC90ZXh0Pjx0ZXh0IHk9IjE5LjA4IiBmaWxsPSIjMWUxZTFlIiBkb21pbmFudC1iYXNlbGluZT0iYWxwaGFiZXRpYyIgZm9udC1mYW1pbHk9Ik51bml0bywgc2Fucy1zZXJpZiwgU2Vnb2UgVUkgRW1vamkiIGZvbnQtc2l6ZT0iMjAiIHN0eWxlPSJ3aGl0ZS1zcGFjZTpwcmUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUwIDE5MCkiPuWkluaOpeazlTwvdGV4dD48L3N2Zz4=){width="50%"}
+<img src="../电源测量.svg" width="50%">
+
 一般来说，内接法适用于内阻较大的电池，例如水果电池；外接法适用于内阻较小的电池，例如干电池；如果电池电阻过小，则可以将电池与适当的定值电阻串联接入，测的内阻减去定值电阻阻值即可。
 
 ### 定阻法 \{#\_21}
 
 定阻法通常也称为安阻法和伏阻法，我们用电阻箱（为了读出接入电路的电阻大小）和一个电流表或电压表即可测出电源的电动势和内阻。
 
-![alt text](/static/image/image-32.be060cf9c5.avif){width="60%"}
+<img src="../image-32.avif" width="60%" alt="alt text">
+
 其思想分别是将电阻箱两端的电压、电流当做外电压、总电流，因此也容易进行误差分析。
 
 :::note
@@ -438,7 +459,7 @@ $$
 \dfrac\{1}\{I}=\dfrac\{1}\{E}\cdot R+\dfrac\{r}\{E}
 $$
 
-因此绘制出 $dfrac\{1}\{I}-R$ 图，根据斜率和截距计算即可。
+因此绘制出 $\dfrac\{1}\{I}-R$ 图，根据斜率和截距计算即可。
 
 因为我们忽略了电流表的内阻分压，因此所测的的电源内阻大于真实值，真实值比测量值大了
 $R\_A$。
@@ -461,7 +482,7 @@ $$
 \dfrac\{1}\{U}=\dfrac\{r}\{E}\cdot\dfrac\{1}\{R}+\dfrac\{1}\{E}
 $$
 
-因此绘制出 $dfrac\{1}\{I}-\dfrac\{1}\{R}$ 图，根据斜率和截距计算即可。
+因此绘制出 $\dfrac\{1}\{I}-\dfrac\{1}\{R}$ 图，根据斜率和截距计算即可。
 
 因为我们忽略了电压表的分流，根据电表改造的思想，此处与伏安法外接类似，测量值电动势与内阻均小于真实值。
 
@@ -475,19 +496,21 @@ $$
 
 补偿电路是一种比较精确地测量电源电动势的电路，其测量装置亦称电势差计。
 
-![alt text](/static/image/image-11.02e8500127.avif){width="30%"}
-若两电源的电动势不相等，即 $varepsilon\_0 \neq \varepsilon\_x$，则回路中必有电流，检流计的指针发生偏转。如果 $varepsilon\_0 = \varepsilon\_x$，则回路中没有电流，检流计指示为零，这时称电路达到补偿状态。这样可以根据已知电动势 $varepsilon\_0$ 的值，求出待测电动势 $varepsilon\_x$ 的值，这种测电源电动势的方法称为补偿法。
+<img src="../image-11.avif" width="30%" alt="alt text">
 
-![alt text](/static/image/image-13.e161671605.avif){width="50%"}
+若两电源的电动势不相等，即 $\varepsilon\_0 \neq \varepsilon\_x$，则回路中必有电流，检流计的指针发生偏转。如果 $\varepsilon\_0 = \varepsilon\_x$，则回路中没有电流，检流计指示为零，这时称电路达到补偿状态。这样可以根据已知电动势 $\varepsilon\_0$ 的值，求出待测电动势 $\varepsilon\_x$ 的值，这种测电源电动势的方法称为补偿法。
+
+<img src="../image-13.avif" width="50%" alt="alt text">
+
 工作电源 $E$、限流电阻 $R$、开关 $K\_1$、粗细均匀的电阻丝 AB 串联成一闭合电路，称为辅助电路。
 
-- 闭合 $K\_1$，调节 $R$，使 AB 中有一恒定的工作电流 $I\_0$。$varepsilon\_0$ 为标准电源，$varepsilon\_x$ 为待测电源。
+- 闭合 $K\_1$，调节 $R$，使 AB 中有一恒定的工作电流 $I\_0$。$\varepsilon\_0$ 为标准电源，$\varepsilon\_x$ 为待测电源。
 
-- 开关 $K\_2$ 倒向标准电源的一边与 $varepsilon\_0$ 连通检流计发生偏转，移动触点 C，使检流计中的电流 $I\_g=0$，这时有 $varepsilon\_0=U\_\{AC}$。
+- 开关 $K\_2$ 倒向标准电源的一边与 $\varepsilon\_0$ 连通检流计发生偏转，移动触点 C，使检流计中的电流 $I\_g=0$，这时有 $\varepsilon\_0=U\_\{AC}$。
 
-- 同理，$K\_2$ 倒向待测电源一侧时，做相应的调节，使检流计回到零位，则有 $varepsilon\_x = U\_\{AC'}$。
+- 同理，$K\_2$ 倒向待测电源一侧时，做相应的调节，使检流计回到零位，则有 $\varepsilon\_x = U\_\{AC'}$。
 
-比较 $varepsilon\_0$ 与 $varepsilon\_x$，有
+比较 $\varepsilon\_0$ 与 $\varepsilon\_x$，有
 
 $$
 \varepsilon\_x = \frac\{L\_x}\{L\_0}\varepsilon\_0
@@ -513,7 +536,8 @@ $$
 
 被测非电学量信号经敏感元件和转换元件作用后，所输出的电信号一般都很微弱，难以带动执行机构去实现控制动作，因此要通过信号调整与转换电路把这个电信号放大。如果需要远距离传送，还要把它转换成其他电信号以抵御外界干扰。如何应用从传感器获得的信号呢？可以用指针式电表或数字屏等显示测量的数据；也可以用来驱动继电器或其他元件，来执行诸如打开管道的阀门、开通或关闭电动机等动作；还可以由计算机对获得的数据进行处理，发出更复杂的指令。概括起来，传感器应用的一般模式可如图：
 
-![alt text](/static/image/image-33.972a559255.avif){width="90%"}
+<img src="../image-33.avif" width="90%" alt="alt text">
+
 话筒是一种能够将声音信号转换为电信号的传感器，电容式话筒的振动膜片涂有薄薄的金属层，膜片后相距几十微米有一个金属片（固定电极），它们构成电容器的两个极板。电容式话筒利用电容器的电容与极板间距离的关系来工作。声波使振动膜片发生振动，振动膜片作为敏感元件，感受声音信号的变化，与固定电极组成的电容器相当于转换元件，将声音信号的强弱转换成电容器的电容变化。把电容器接入含有电阻、电源的转换电路中，由于电容器的电容不断发生变化，电容器产生充、放电电流，加载在电阻两端的电压也随之变化。这样，信号最后经过转换电路就被输出为便于测量和处理的电压信号，用于显示、记录等。
 
 - 1920 年，捷克斯洛伐克作家卡佩克在一部科幻小说中构思了一个机器人，名字叫 Robot。它可以不吃饭，却能不知疲倦地工作，展现了人类持续多年的一种愿望。
@@ -538,7 +562,8 @@ $$
 
 除了光照以外，温度也能明显地影响金属导体和半导体材料的导电性能。金属热电阻和热敏电阻就是传感器中常见的感知温度的敏感元件。
 
-![alt text](/static/image/image-34.7a92cb0582.avif){align="right" width="40%"}
+<img src="../image-34.avif" align="right" width="40%" alt="alt text">
+
 金属的电阻率随温度的升高而增大（图线 1）。用金属丝可以制作温度传感器，称为热电阻。常用的一种热电阻是用铂制作的，可用来做电阻温度计。与金属不同，有些半导体在温度上升时导电能力增强（图线 2），因此可以用半导体材料制作热敏电阻。金属热电阻和热敏电阻都能够把温度这个热学量转换为电阻这个电学量。
 
 - 双金属温度计是把线膨胀程度不同的两种金属片压合在一起，温度变化时，双金属片的弯曲程度会发生变化，带动指针偏转来指示温度。
@@ -571,13 +596,16 @@ $$
 
 1879 年，美国物理学家霍尔观察到，在匀强磁场中放置一块矩形截面的载流导体，当磁场方向与电流方向垂直时，导体中能够自由移动的带电粒子在洛伦兹力的作用下，向着与电流、磁场都垂直的方向漂移，继而在该方向上出现了电势差。后来大家把这个现象称为霍尔效应，所产生的电势差称为霍尔电势差或霍尔电压。
 
-![alt text](/static/image/image-35.8cd79f1301.avif)
-![alt text](/static/image/image-36.dc877450af.avif){width="85%"}
+<img src="../image-35.avif" alt="alt text">
+
+<img src="../image-36.avif" width="85%" alt="alt text">
+
 除导体外，半导体也能产生霍尔效应，而且半导体的霍尔效应要强于导体。在一个很小的矩形半导体（如砷化铟）薄片上制作四个电极，它就成了一个霍尔元件。在电极 E、F 间通入恒定的电流，同时外加与薄片垂直的磁场，则在电极 M、N 间可出现霍尔电压。
 
 通过分析可知，霍尔电压与磁感应强度有线性关系，因此利用霍尔元件可以测量磁感应强度的大小和方向。霍尔元件能够把磁感应强度这个磁学量转换为电压这个电学量。霍尔元件除了可以检测磁场及其变化，还可以在各种与磁场有关的场合中使用。利用霍尔元件进行微小位移，在两块磁感应强度相同、同极相对放置的磁体缝隙中放入霍尔元件，当霍尔元件处于中间位置时，磁感应强度为零，霍尔电压为零，可将该点作为位移的零点。当霍尔元件沿着 $z$ 轴方向移动时，则有霍尔电压输出，且电压大小与位移大小成正比，从而能够实现微小位移的测量。
 
 ### 电磁继电器 \{#\_30}
 
-![alt text](/static/image/image-38.b062efc512.avif){width="70%"}
-![alt text](/static/image/image-39.d72096d92c.avif){width="90%"}
+<img src="../image-38.avif" width="70%" alt="alt text">
+
+<img src="../image-39.avif" width="90%" alt="alt text">

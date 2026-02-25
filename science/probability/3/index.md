@@ -6,11 +6,12 @@
 
 ### 随机变量 \{#\_3}
 
-随机变量是用来表示随机试验结果的变量，通常用大写字母 $X,Y,Z$ 或小写希腊字母 $xi,\eta,\zeta$ 表示。
+随机变量是用来表示随机试验结果的变量，通常用大写字母 $X,Y,Z$ 或小写希腊字母 $\xi,\eta,\zeta$ 表示。
 
-随机函数是一个特殊的实函数，对于任意 $e\in S$，都有唯一一个对应 $X(e$，如图。
+随机函数是一个特殊的实函数，对于任意 $e\in S$，都有唯一一个对应 $X(e)$，如图。
 
-![](data:image/avif;base64,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)
+<img src="../Zufall.avif">
+
 随机变量实质上是样本空间上的函数，可作为因变量，满足其值不大于某数的状况都是事件。我们称随机变量这个函数的值域为随机变量的取值范围，或值域。
 
 随机变量在不同的条件下由于偶然因素影响，其可能取各种随机变量不同的值，具有不确定性和随机性，但这些取值落在某个范围的概率是一定的，此种变量称为随机变量。随机变量可以是离散型的，也可以是连续型的。如分析测试中的测定值就是一个以概率取值的随机变量，被测定量的取值可能在某一范围内随机变化，具体取什么值在测定之前是无法确定的，但测定的结果是确定的，多次重复测定所得到的测定值具有统计规律性。随机变量与模糊变量的不确定性的本质差别在于，后者的测定结果仍具有不确定性，即模糊性。
@@ -19,13 +20,13 @@
 
 ### 示性函数 \{#\_4}
 
-对于样本空间 $Omega$ 上的事件 $A$，定义随机变量
+对于样本空间 $\Omega$ 上的事件 $A$，定义随机变量
 
 $$
 I\_A(\omega) = \begin\{cases} 1, & \omega \in A \ 0, & \omega \notin A \end\{cases}
 $$
 
-称 $I\_A$ 是事件 $A$ 的**示性函数**，根据定义可以求得其期望 $EI\_A = P(A$。
+称 $I\_A$ 是事件 $A$ 的**示性函数**，根据定义可以求得其期望 $EI\_A = P(A)$。
 
 ### 离散型随机变量 \{#\_5}
 
@@ -33,19 +34,19 @@ $$
 
 设 $X$ 为离散型随机变量，其所有可能的取值为 $x\_1, x\_2, \cdots$，则我们可以用一系列形如 $P\{ X = x\_i } = p\_i$ 的等式来描述 $X$，这就是概率**分布列**。
 
-| $X$ | $x\_1$ | $x\_2$ | $cdots$ | $x\_n$ |
-| :-: | :----: | :----: | :-----: | :----: |
-| $P$ | $p\_1$ | $p\_2$ | $cdots$ | $p\_n$ |
+| $X$ | $x\_1$ | $x\_2$ | $\cdots$ | $x\_n$ |
+| :-: | :----: | :----: | :------: | :----: |
+| $P$ | $p\_1$ | $p\_2$ | $\cdots$ | $p\_n$ |
 
 ### 连续型随机变量 \{#\_6}
 
-- 如果 $X$ 的取值遍布一区间甚至是整个数线 $X(S)=\[a,b$ 则称 $X$ 为连续随机变量。
+- 如果 $X$ 的取值遍布一区间甚至是整个数线 $X(S)=\[a,b]$ 则称 $X$ 为连续随机变量。
 
 - 设 $X$ 为连续型随机变量，考察 $P\{ X = x }$ 往往是无意义的（因为这一概率很可能是 $0$）。
 
-为什么说概率「很可能」是 $0$？考虑这样的随机变量 $X$：它以 $1/2$ 的概率取 $0$，以 $1/2$ 的概率服从开区间 $0, 1$ 上的均匀分布。显然 X 满足连续型随机变量的定义。对任何实数 $r \in (0, 1$，不难得到 $P\{ X = r } = 0$，但同时有 $P\{ X = 0 } = 1/2$。
+为什么说概率「很可能」是 $0$？考虑这样的随机变量 $X$：它以 $1/2$ 的概率取 $0$，以 $1/2$ 的概率服从开区间 $(0, 1)$ 上的均匀分布。显然 X 满足连续型随机变量的定义。对任何实数 $r \in (0, 1)$，不难得到 $P\{ X = r } = 0$，但同时有 $P\{ X = 0 } = 1/2$。
 
-另一方面，设 $X \sim F(x$，则
+另一方面，设 $X \sim F(x)$，则
 
 $$
 P( l \< x \leq l + \Delta x ) = F(l + \Delta x) - F(l)
@@ -57,13 +58,13 @@ $$
 \lim\limits\_\{\Delta x \to 0^+} \frac\{F(l + \Delta x) - F(l)}\{\Delta x}
 $$
 
-来描述 $X$ 取值为 $l$ 的可能性，这个式子就是我们熟知的导数，于是问题转化为寻找一个非负函数 $f(x$ 使得：
+来描述 $X$ 取值为 $l$ 的可能性，这个式子就是我们熟知的导数，于是问题转化为寻找一个非负函数 $f(x)$ 使得：
 
 $$
 F(x) = \int\_\{-\infty}^\{x} f(x) \text\{d} x
 $$
 
-若这样的 $f(x$ 存在，则称之为 $X$ 的**密度函数**。
+若这样的 $f(x)$ 存在，则称之为 $X$ 的**密度函数**。
 
 ### 随机变量的独立性 \{#\_7}
 
@@ -79,15 +80,15 @@ $$
 
   则称随机变量 $X, Y$ 独立。
 
-- 中学课本中对随机变量独立性的定义是用形如 $P(X = \alpha$ 的概率定义的，但由于连续性随机变量取特定值的概率通常是 $0$，故在更一般的情形下借助分布函数定义才是更加明智的选择。
+- 中学课本中对随机变量独立性的定义是用形如 $P(X = \alpha)$ 的概率定义的，但由于连续性随机变量取特定值的概率通常是 $0$，故在更一般的情形下借助分布函数定义才是更加明智的选择。
 
 性质
 
-- 若随机变量 $X,Y$ 相互独立，则对于任意函数 $f, g$，随机变量 $f(X$ 与 $g(Y$ 相互独立。
+- 若随机变量 $X,Y$ 相互独立，则对于任意函数 $f, g$，随机变量 $f(X)$ 与 $g(Y)$ 相互独立。
 
-- 有时候我们会研究相互独立的随机变量 $X,Y$ 的某一函数 $f(X, Y$（如 $XY^2$）的分布。
+- 有时候我们会研究相互独立的随机变量 $X,Y$ 的某一函数 $f(X, Y)$（如 $XY^2$）的分布。
 
-- 尽管 $X$ 与 $Y$ 是独立的，但不能想当然地认为对 $Y$ 的某一取值 $y$，$f(X, y$ 与 $f(X, Y$ 服从同样的分布。
+- 尽管 $X$ 与 $Y$ 是独立的，但不能想当然地认为对 $Y$ 的某一取值 $y$，$f(X, y)$ 与 $f(X, Y)$ 服从同样的分布。
 
 - 根据 Qwen2.5-Max，这混淆了条件分布与无条件分布，错误认为独立性允许直接替换随机变量为常数而不改变分布。实际上，独立性仅保证边缘分布的分离，而非函数分布的等价性。
 
@@ -113,7 +114,7 @@ $$
 
 **连续型随机变量**：
 
-设连续型随机变量 $X$ 的密度函数为 $f(x$，若积分
+设连续型随机变量 $X$ 的密度函数为 $f(x)$，若积分
 
 $$
 \int\_\{\mathbb\{R}} xf(x) \text\{d} x
@@ -169,7 +170,7 @@ $$
 
 这暗示了方程描述离散程度的性质。
 
-方差的算术平方根称为标准差，记作 $sigma(X) = \sqrt\{DX}$。
+方差的算术平方根称为标准差，记作 $\sigma(X) = \sqrt\{DX}$。
 
 ### 协方差 \{#\_11}
 
@@ -179,7 +180,7 @@ $$
 E((X - EX)(Y - EY))
 $$
 
-为 $X$ 与 $Y$ 的**协方差**，记作 $operatorname\{Cov}(X, Y$。
+为 $X$ 与 $Y$ 的**协方差**，记作 $\operatorname\{Cov}(X, Y)$。
 
 对于随机变量 $X, Y, Z$ 有：
 
@@ -203,7 +204,7 @@ $$
 D(X + Y) = DX + 2 \operatorname\{Cov}(X, Y) + DY
 $$
 
-不难看出 $D(X + Y) = DX + DY$ 当且仅当 $operatorname\{Cov}(X, Y) = 0$，它的一个**充分而不必要**条件是 $X,Y$ 独立：
+不难看出 $D(X + Y) = DX + DY$ 当且仅当 $\operatorname\{Cov}(X, Y) = 0$，它的一个**充分而不必要**条件是 $X,Y$ 独立：
 
 $$
 \operatorname\{Cov}(X, Y) = E((X - EX)(Y - EY)) = E(X - EX) E(Y - EY) = 0
@@ -221,7 +222,7 @@ $$
 \frac\{ \operatorname\{Cov}(X, Y)}\{ \sigma(X)\sigma(Y) }
 $$
 
-为 $X$ 与 $Y$ 的 Pearson 相关系数，记作 $rho\_\{X,Y}$。
+为 $X$ 与 $Y$ 的 Pearson 相关系数，记作 $\rho\_\{X,Y}$。
 
 Pearson 相关系数描述了两个随机变量之间线性关联的紧密程度。
 
@@ -229,17 +230,17 @@ Pearson 相关系数描述了两个随机变量之间线性关联的紧密程度
 
 - $|\rho\_\{X,Y}|$ 越大，则 $X$ 与 $Y$ 之间的线性关联程度越强。
 
-- 当 $rho\_\{X,Y} = 0$ 时我们称随机变量 $X$ 与 $Y$ **不相关**，此时 $X$ 和 $Y$ 之间不存在线性关系。
+- 当 $\rho\_\{X,Y} = 0$ 时我们称随机变量 $X$ 与 $Y$ **不相关**，此时 $X$ 和 $Y$ 之间不存在线性关系。
 
 且 $|\rho\_\{X,Y}| = 1$ 仅可能出现在以下两种情况：
 
-- 当存在实数 $a$ 和正实数 $b$ 使得 $P(X = a + bY) = 1$ 时，有 $rho\_\{X,Y} = 1$。
+- 当存在实数 $a$ 和正实数 $b$ 使得 $P(X = a + bY) = 1$ 时，有 $\rho\_\{X,Y} = 1$。
 
-- 当存在实数 $a$ 和负实数 $b$ 使得 $P(X = a + bY) = 1$ 时，有 $rho\_\{X,Y} = -1$。
+- 当存在实数 $a$ 和负实数 $b$ 使得 $P(X = a + bY) = 1$ 时，有 $\rho\_\{X,Y} = -1$。
 
 两随机变量不相关只是表明他们之间没有线性关联，并不代表没有其他形式的联系。
 
-因此两随机变量 $X, Y$ 不相关是他们相互独立的**必要而不充分**条件，而 $operatorname\{Cov}(X, Y) = 0$ 的充要条件是 $X, Y$ 不相关。
+因此两随机变量 $X, Y$ 不相关是他们相互独立的**必要而不充分**条件，而 $\operatorname\{Cov}(X, Y) = 0$ 的充要条件是 $X, Y$ 不相关。
 
 ### Markov 不等式 \{#markov}
 
@@ -285,7 +286,7 @@ $$
 H(X)=-\sum\_\{i=1}^n\frac\{1}\{n}\log\_2\frac\{1}\{n}=\log\_2 n
 $$
 
-所以我们至少需要 $log\_2 n$ 位来存储 $1$ 到 $n$ 的整数。
+所以我们至少需要 $\log\_2 n$ 位来存储 $1$ 到 $n$ 的整数。
 
 ### 频率分布直方图 \{#\_15}
 
@@ -301,7 +302,7 @@ $$
 
 若将一组数据从小到大排序，并计算相应的累计百分点，则某百分点所对应数据的值，就称为这百分点的百分位数，以 $P\_\{k}$ 表示第 $k$ 百分位数。
 
-准确定义：$P\_\{k}$ 表示至少有 $k%$ 的资料小于或等于这个数，而同时也至少有 $100-k)%$ 的资料大于或等于这个数。
+准确定义：$P\_\{k}$ 表示至少有 $k%$ 的资料小于或等于这个数，而同时也至少有 $(100-k)%$ 的资料大于或等于这个数。
 
 特殊的：
 
@@ -318,7 +319,7 @@ $$
 1. 将数据从小到大排序为 $x\_1,x\_2,\dots,x\_n$。
 2. 计算 $i=n\cdot p%$：
    - 如果 $i$ 不是整数，则取 $x\_\{\lceil i\rceil}$ 为 $p%$ 分位数。
-   - 否则，取 $x\_i+x\_\{i+1})/2$ 为 $p%$ 分位数。
+   - 否则，取 $(x\_i+x\_\{i+1})/2$ 为 $p%$ 分位数。
 3. 特别的，规定 $0$ 分位数为最小值，$100%$ 分位数为最大值。
 
 另外的，$P\_\{75}$ 与 $P\_\{25}$ 的差称为四分位距。
@@ -329,9 +330,9 @@ $$
 
 概率分布简称分布，广义地，它指：随机变量的概率性质------当我们说概率空间中的两个随机变量 $X$ 和 $Y$ 具有同样的分布时，我们是无法用概率 $P$ 来区别他们的。
 
-但是，不能认为同分布的随机变量是相同的随机变量。事实上即使 $X$ 与 $Y$ 同分布，也可以没有任何点 $omega$ 使得 $X(\omega)=Y(\omega$。在这个意义下，可以把随机变量分类，每一类称作一个分布，其中的所有随机变量都同分布。
+但是，不能认为同分布的随机变量是相同的随机变量。事实上即使 $X$ 与 $Y$ 同分布，也可以没有任何点 $\omega$ 使得 $X(\omega)=Y(\omega)$。在这个意义下，可以把随机变量分类，每一类称作一个分布，其中的所有随机变量都同分布。
 
-狭义地，它是指随机变量的概率分布函数：对于随机变量 $X$，称函数 $F(x$ 为随机变量 X 的 分布函数。记作 $X \sim F(x$。
+狭义地，它是指随机变量的概率分布函数：对于随机变量 $X$，称函数 $F(x)$ 为随机变量 X 的 分布函数。记作 $X \sim F(x)$。
 
 $$
 F(x) = P( X \leq x )
@@ -339,9 +340,9 @@ $$
 
 分布函数具有以下性质：
 
-- 右连续性：$F(x) = F(x + 0$。
+- 右连续性：$F(x) = F(x + 0)$。
 
-- 单调性：在 $mathbb\{R}$ 上单调递增（非严格）。
+- 单调性：在 $\mathbb\{R}$ 上单调递增（非严格）。
 
 - $F(-\infty) = 0,F(+\infty) = 1$。
 
@@ -363,7 +364,7 @@ $$
 
 ### 泊松分布 \{#\_20}
 
-泊松分布，又称 Poisson 分布、帕松分布、布瓦松分布、布阿松分布、普阿松分布、波以松分布、卜氏分布、帕松小数法则等，泊松分布适合于描述单位时间内随机事件发生的次数的概率分布。如某一服务设施在一定时间内受到的服务请求的次数，电话交换机接到呼叫的次数、汽车站台的候客人数、机器出现的故障数、自然灾害发生的次数、\[DNA]\{.abbr title="Deoxyribonucleic Acid (脱氧核糖核酸)"} 序列的变异数、放射性原子核的衰变数、激光的光子数分布等等。（单位时间内发生的次数，可以看作事件发生的频率，类似物理的频率。
+泊松分布，又称 Poisson 分布、帕松分布、布瓦松分布、布阿松分布、普阿松分布、波以松分布、卜氏分布、帕松小数法则等，泊松分布适合于描述单位时间内随机事件发生的次数的概率分布。如某一服务设施在一定时间内受到的服务请求的次数，电话交换机接到呼叫的次数、汽车站台的候客人数、机器出现的故障数、自然灾害发生的次数、DNA 序列的变异数、放射性原子核的衰变数、激光的光子数分布等等。（单位时间内发生的次数，可以看作事件发生的频率，类似物理的频率。
 
 Poisson 近似是二项分布的一种极限形式。其强调如下的试验前提：一次抽样的概率值 $p$ 相对很小，而抽取次数 $n$ 值又相对很大。因此泊松分布又被称之为罕有事件分布。泊松分布指出，如果随机一次试验出现的概率为 $p$ ，那么在 $n$ 次试验中出现 $k$ 次的概率按照泊松分布应该为：
 
@@ -381,7 +382,7 @@ $$
 f\_n(k)=\{n \choose k}p^\{k}(1-p)^\{n-k}\quad (k=0,1,\ldots ,n)
 $$
 
-其中 $n$ 为正整数、$0\le p\le 1$，则称 $x$ 服从参数为 $n,p$ 的二项分布，记为 $x\sim B(n,k$。根据二项式定理，对其所有项求和，就会得到一。
+其中 $n$ 为正整数、$0\le p\le 1$，则称 $x$ 服从参数为 $n,p$ 的二项分布，记为 $x\sim B(n,k)$。根据二项式定理，对其所有项求和，就会得到一。
 
 ### 负二项分布 \{#\_22}
 
@@ -395,13 +396,13 @@ $$
 
 ### 超几何分布 \{#\_23}
 
-超几何分布是统计学上一种离散概率分布。它描述了由有限个对象中抽出 $n$ 个对象，成功抽出 $k$ 次指定种类的对象的概率（抽出不放回），记为 $X\sim H(n,K,N$。例如在有 $N$ 个样本，其中 $K$ 个是不及格的。超几何分布描述了在该 $N$ 个样本中抽出 $n$ 个，其中 $k$ 个是不及格的个数：
+超几何分布是统计学上一种离散概率分布。它描述了由有限个对象中抽出 $n$ 个对象，成功抽出 $k$ 次指定种类的对象的概率（抽出不放回），记为 $X\sim H(n,K,N)$。例如在有 $N$ 个样本，其中 $K$ 个是不及格的。超几何分布描述了在该 $N$ 个样本中抽出 $n$ 个，其中 $k$ 个是不及格的个数：
 
 $$
 f(k;n,K,N)=\dfrac\{\dbinom\{K}\{k}\dbinom\{N-K}\{n-k}}\{\dbinom\{N}\{n}}
 $$
 
-上式可如此理解：$dbinom\{N}\{n}$ 表示所有在 $N$ 个样本中抽出 $n$ 个的方法数目。$dbinom\{K}\{k}$ 表示在 $K$ 个样本中，抽出 $k$ 个的方法数目。剩下来的样本都是及格的，而及格的样本有 $N-K$ 个，剩下的抽法便有 $dbinom\{N-K}\{n-k}$。若 $n=1$，超几何分布退化为伯努利分布。
+上式可如此理解：$\dbinom\{N}\{n}$ 表示所有在 $N$ 个样本中抽出 $n$ 个的方法数目。$\dbinom\{K}\{k}$ 表示在 $K$ 个样本中，抽出 $k$ 个的方法数目。剩下来的样本都是及格的，而及格的样本有 $N-K$ 个，剩下的抽法便有 $\dbinom\{N-K}\{n-k}$。若 $n=1$，超几何分布退化为伯努利分布。
 
 ### 几何分布 \{#\_24}
 
@@ -428,9 +429,10 @@ $$
 
 正态分布，物理学中通称高斯分布，其密度函数的曲线呈对称钟形，因此又被称之为钟形曲线。
 
-正态分布的概率密度函数中以平均值 $mu$、标准差 $sigma$ 为参数，正态分布的数学期望值或期望 $mu$ ,可解释为位置参数，决定了分布的位置；其方差 $sigma ^\{2}$ 的平方根或标准差 $sigma$ 可解释尺度参数，决定了分布的幅度。
+正态分布的概率密度函数中以平均值 $\mu$、标准差 $\sigma$ 为参数，正态分布的数学期望值或期望 $\mu$ ,可解释为位置参数，决定了分布的位置；其方差 $\sigma ^\{2}$ 的平方根或标准差 $\sigma$ 可解释尺度参数，决定了分布的幅度。
 
-![alt text](/static/image/image-07dd56b.f10262ae30.avif){width="60%"}
+<img src="../image-07dd56b.avif" width="60%" alt="alt text">
+
 中心极限定理指出，在特定条件下，一个具有有限均值和方差的随机变量的多个样本（观察值）的平均值本身就是一个随机变量，其分布随着样本数量的增加而收敛于正态分布。
 
 因此，许多与独立过程总和有关的物理量，例如测量误差，通常可被近似为正态分布。正态分布是一种理想分布，许多典型的分布，比如成年人的身高、汽车轮胎的运转状态、人类的智商值（IQ），都属于或者说至少接近正态分布。
@@ -441,7 +443,8 @@ $$
 
 正态分布出现在许多区域统计：例如，采样分布均值是近似正态分布的，即使被采样的样本的原始群体分布并不服从正态分布。另外，正态分布信息熵在所有的已知均值及方差的分布中最大，这使得它作为一种均值以及方差已知的分布的自然选择。正态分布是在统计以及许多统计测试中最广泛应用的一类分布。在概率论，正态分布是几种连续以及离散分布的极限分布。
 
-![Normal distribution curve that illustrates standard deviations. Each band has 1 standard deviation, and the labels indicate the approximate proportion of area (note: these add up to 99.8%, and not 100% because of rounding for presentation.)](/static/svg/Standard_deviation_diagram.b22a0712c9.svg)
+<img src="../Standard_deviation_diagram.svg" alt="Normal distribution curve that illustrates standard deviations. Each band has 1 standard deviation, and the labels indicate the approximate proportion of area (note: these add up to 99.8%, and not 100% because of rounding for presentation.)">
+
 正态分布中一些值得注意的量：
 
 - 密度函数关于平均值对称。
@@ -460,9 +463,9 @@ $$
 
 正态分布的一些性质：
 
-- **线性变换不变性**：若 $X \sim N(\mu, \sigma^2$ 且 $a$ 与 $b$ 是实数，那么 $aX + b \sim N(a \mu + b, a^2 \sigma^2$。
+- **线性变换不变性**：若 $X \sim N(\mu, \sigma^2)$ 且 $a$ 与 $b$ 是实数，那么 $aX + b \sim N(a \mu + b, a^2 \sigma^2)$。
 
-- **独立可加性**：如果 $X \sim N(\mu\_1, \sigma\_1^2$ 与 $Y \sim N(\mu\_2, \sigma\_2^2$ 是统计独立的正态随机变量，那么：
+- **独立可加性**：如果 $X \sim N(\mu\_1, \sigma\_1^2)$ 与 $Y \sim N(\mu\_2, \sigma\_2^2)$ 是统计独立的正态随机变量，那么：
 
   $$
   X + Y \sim N(\mu\_1 + \mu\_2, \sigma\_1^2 + \sigma\_2^2)
@@ -470,7 +473,7 @@ $$
 
   特别地，若 $X$ 与 $Y$ 的方差相等，则 $U = X + Y$ 与 $V = X - Y$ 相互独立。
 
-- 如果 $X \sim N(0, \sigma\_1^2$ 和 $Y \sim N(0, \sigma\_2^2$ 是独立正态随机变量，那么：
+- 如果 $X \sim N(0, \sigma\_1^2)$ 和 $Y \sim N(0, \sigma\_2^2)$ 是独立正态随机变量，那么：
 
   - 它们的积 $XY$ 服从概率密度函数为 $p$ 的分布：
 
@@ -480,6 +483,6 @@ $$
 
     其中 $K\_0$ 是修正贝塞尔函数（modified Bessel function）。
 
-  - 它们的比符合柯西分布，满足 $X/Y \sim \text\{Cauchy}(0, \sigma\_1 / \sigma\_2$。
+  - 它们的比符合柯西分布，满足 $X/Y \sim \text\{Cauchy}(0, \sigma\_1 / \sigma\_2)$。
 
-- 如果 $X\_1, \dots, X\_n$ 为独立标准正态随机变量，那么 $X\_1^2 + \dots + X\_n^2$ 服从自由度为 $n$ 的卡方分布，记作 $X\_1^2 + \dots + X\_n^2 \sim \chi^2(n$。
+- 如果 $X\_1, \dots, X\_n$ 为独立标准正态随机变量，那么 $X\_1^2 + \dots + X\_n^2$ 服从自由度为 $n$ 的卡方分布，记作 $X\_1^2 + \dots + X\_n^2 \sim \chi^2(n)$。

@@ -4,11 +4,11 @@
 
 ### 物理量 \{#\_3}
 
-1. 线速度：单位时间通过的弧长，$v(\mathrm\{m/s}$；
-2. 角速度：单位时间通过的角度，$omega(\mathrm\{rad/s}$；
-3. 周期：完成一次的时间，$T(\mathrm\{s}$；
-4. 频率：单位时间完成的次数：$f(\mathrm\{s^\{-1},Hz}$；
-5. 转速：单位时间完成的圈数：$n(\mathrm\{r/s}$。
+1. 线速度：单位时间通过的弧长，$v(\mathrm\{m/s})$；
+2. 角速度：单位时间通过的角度，$\omega(\mathrm\{rad/s})$；
+3. 周期：完成一次的时间，$T(\mathrm\{s})$；
+4. 频率：单位时间完成的次数：$f(\mathrm\{s^\{-1},Hz})$；
+5. 转速：单位时间完成的圈数：$n(\mathrm\{r/s})$。
 
 ### 匀速圆周运动 \{#\_4}
 
@@ -22,7 +22,7 @@ $$
 v=\omega r
 $$
 
-即速度（$v$）在（$=$）绕（$r$）弯（$omega$）。
+即速度（$v$）在（$=$）绕（$r$）弯（$\omega$）。
 
 $$
 f=n=\dfrac\{1}\{T}
@@ -56,7 +56,7 @@ $$
 
 填表的时候常用公式 $a=v\omega$。
 
-如果是求比例，那么设 $omega$ 相同的点为单位 $1$。
+如果是求比例，那么设 $\omega$ 相同的点为单位 $1$。
 
 ### 关联速度 \{#\_8}
 
@@ -88,7 +88,7 @@ $$
 \begin\{aligned} F\_合=T\sin\theta\ T\cos\theta=mg \end\{aligned}
 $$
 
-其中 $theta$ 为绳子和竖直方向的夹角。
+其中 $\theta$ 为绳子和竖直方向的夹角。
 
 列出合外力等于向心力：
 
@@ -104,7 +104,8 @@ $$
 
 ### 同角不同面模型 \{#\_12}
 
-![同角不同面](data:image/avif;base64,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){align="right" width="30%"}
+<img src="../image.avif" align="right" width="30%" alt="同角不同面">
+
 物体和法线的夹角相同，但是不同水平面，如右图所示。
 
 假设接触面光滑：
@@ -123,18 +124,19 @@ $$
 
 - 根据 $F\_向=ma$，因此质量越大，向心力越大。
 
-- 根据 $displaystyle F\_N=\dfrac\{mg}\{\sin\theta}$，因此质量越大，对斜面压力越大。
+- 根据 $\displaystyle F\_N=\dfrac\{mg}\{\sin\theta}$，因此质量越大，对斜面压力越大。
 
 - 根据 $a=\omega^2r$，因此半径越大，角速度越小。
 
-- 根据 $displaystyle a=\dfrac\{v^2}\{r}$，因此半径越大，线速度越大。
+- 根据 $\displaystyle a=\dfrac\{v^2}\{r}$，因此半径越大，线速度越大。
 
 ### 同面不同角模型 \{#\_13}
 
-![同面不同角](/static/image/image-1.79446c9952.avif){align="right" width="35%"}
+<img src="../image-1.avif" align="right" width="35%" alt="同面不同角">
+
 物体在同一平面，与法线的夹角不同，如右图。
 
-根据圆锥摆的公式，角速度 $omega$ 对各物体相同：
+根据圆锥摆的公式，角速度 $\omega$ 对各物体相同：
 
 $$
 \omega=\sqrt\{\dfrac\{g}\{L\cos\theta}}=\sqrt\{\dfrac\{g}\{H}}
@@ -148,9 +150,9 @@ $$
 
 ### 圆锥摆求夹角 \{#\_14}
 
-在一根长度为 $l$ 的绳子下端悬挂一个质量为 $M$ 的小球，以匀角速度 $omega$ 旋转。
+在一根长度为 $l$ 的绳子下端悬挂一个质量为 $M$ 的小球，以匀角速度 $\omega$ 旋转。
 
-求：绳子与铅锤方向所成的角 $theta$。
+求：绳子与铅锤方向所成的角 $\theta$。
 
 易得：
 
@@ -158,7 +160,7 @@ $$
 \begin\{aligned} T\cos\theta&=Mg\ T\sin\theta&=M\omega^2r=M\omega^2l\sin\theta \end\{aligned}
 $$
 
-注意到一个可行解是 $sin\theta=0$，即 $theta=0$（因为 $theta=\pi$ 是不稳定状态）。
+注意到一个可行解是 $\sin\theta=0$，即 $\theta=0$（因为 $\theta=\pi$ 是不稳定状态）。
 
 否则，
 
@@ -194,7 +196,7 @@ $$
 
 一个水平转动的圆盘上有一个物体。
 
-此时，摩擦力提供向心力，物体与圆盘之间的摩擦因数为 $mu$。
+此时，摩擦力提供向心力，物体与圆盘之间的摩擦因数为 $\mu$。
 
 当最大静摩擦力（大小视为滑动摩擦力）等于向心力时恰好不滑动。
 
@@ -224,7 +226,7 @@ $$
 \begin\{aligned} \omega\_1&=\sqrt\{\mu\_1g\over r\_1}\ \omega\_2&=\sqrt\{\mu\_2g\over r\_2} \end\{aligned}
 $$
 
-即 $displaystyle\{\mu\over r}$ 小的先发生滑动，大的后发生滑动。
+即 $\displaystyle\{\mu\over r}$ 小的先发生滑动，大的后发生滑动。
 
 如果摩擦系数相同，则离圆心越远，越先开始滑动。
 
@@ -232,7 +234,7 @@ $$
 
 两物体质量分别为 $m\_1,m\_2$，用轻绳连接。
 
-两物体与圆盘摩擦系数为 $mu\_1,\mu\_2$，且距圆心分别为 $r\_1,r\_2(r\_1\<r\_2$ 同侧。
+两物体与圆盘摩擦系数为 $\mu\_1,\mu\_2$，且距圆心分别为 $r\_1,r\_2(r\_1\<r\_2)$ 同侧。
 
 问题一：转速多大绳子出现拉力。
 
@@ -246,9 +248,9 @@ $$
 \omega\_2=\sqrt\{\dfrac\{\mu\_2g}\{r\_2}}
 $$
 
-如果 $omega\_1\<\omega\_2$，则绳子会松弛，我们不考虑这个情况。
+如果 $\omega\_1\<\omega\_2$，则绳子会松弛，我们不考虑这个情况。
 
-因此，当转速大于等于 $omega\_2$ 的时候，绳子会出现拉力。
+因此，当转速大于等于 $\omega\_2$ 的时候，绳子会出现拉力。
 
 问题二：转速多大物体一起运动。
 
@@ -270,13 +272,13 @@ $$
 \omega=\sqrt\{(\mu\_1+\mu\_2)g\over r\_1+r\_2}
 $$
 
-假设物体摩擦因数相等，即 $mu\_1=\mu\_2$，则有：
+假设物体摩擦因数相等，即 $\mu\_1=\mu\_2$，则有：
 
 $$
 \omega=\sqrt\{\dfrac\{\mu g(m\_1+m\_2)}\{m\_1r\_1+m\_2r\_2}}
 $$
 
-假设 $m\_1=m\_2$ 且 $mu\_1=\mu\_2$，则有：
+假设 $m\_1=m\_2$ 且 $\mu\_1=\mu\_2$，则有：
 
 $$
 \omega=\sqrt\{\dfrac\{2\mu g}\{r\_1+r\_2}}
@@ -292,7 +294,7 @@ $$
 \begin\{aligned} \Delta F\_1&=m\_1\Delta(\omega^2)r\_1\ \Delta F\_2&=m\_2\Delta(\omega^2)r\_2 \end\{aligned}
 $$
 
-随着 $omega$ 的增大，一定有一个先产生相对滑动趋势，假设是 $1$ 物体。
+随着 $\omega$ 的增大，一定有一个先产生相对滑动趋势，假设是 $1$ 物体。
 
 $$
 \omega\_1=\sqrt\{\dfrac\{\mu\_1g}\{r\_1}}
@@ -300,21 +302,21 @@ $$
 
 表示达到这个角速度时 $1$ 物体恰好没有产生相对滑动趋势。
 
-此时，我们知道角速度增大一个小的增量 $Delta\omega$，绳子就会提供 $Delta F\_1$ 的拉力。
+此时，我们知道角速度增大一个小的增量 $\Delta\omega$，绳子就会提供 $\Delta F\_1$ 的拉力。
 
-- 此时注意到，如果 $Delta F\_1>\Delta F\_2$，也就是 $m\_1r\_1>m\_2r\_2$，此时绳子拉力的增大快于了 $2$ 物体向心力的需求增量。那么，$2$ 物体的摩擦力就会减小，然后反向，最终向 $1$ 物体一侧滑开。我们设 $omega\_2$ 表示恰好 $2$ 物体没有摩擦力，$omega\_3$ 表示恰好不滑动。
+- 此时注意到，如果 $\Delta F\_1>\Delta F\_2$，也就是 $m\_1r\_1>m\_2r\_2$，此时绳子拉力的增大快于了 $2$ 物体向心力的需求增量。那么，$2$ 物体的摩擦力就会减小，然后反向，最终向 $1$ 物体一侧滑开。我们设 $\omega\_2$ 表示恰好 $2$ 物体没有摩擦力，$\omega\_3$ 表示恰好不滑动。
 
   $$
   \begin\{aligned} \omega\_1&=\sqrt\{\mu g\over r\_1}\ \omega\_2&=\sqrt\{\mu g\over r\_1-r\_2}\ \omega\_3&=\sqrt\{2\mu g\over r\_1-r\_2} \end\{aligned}
   $$
 
-- 此时注意到，如果 $Delta F\_1=\Delta F\_2$，也就是 $m\_1r\_1=m\_2r\_2$，绳子拉力的增量等于了 $2$ 物体向心力的需求增量。那么，此时绳子拉力不断增大，$1$ 物体保持最大静摩擦状态，$2$ 物体保持原先的摩擦力大小，然而绳子拉力大小不断增大，有拉力 $T$ 和角速度的关系：
+- 此时注意到，如果 $\Delta F\_1=\Delta F\_2$，也就是 $m\_1r\_1=m\_2r\_2$，绳子拉力的增量等于了 $2$ 物体向心力的需求增量。那么，此时绳子拉力不断增大，$1$ 物体保持最大静摩擦状态，$2$ 物体保持原先的摩擦力大小，然而绳子拉力大小不断增大，有拉力 $T$ 和角速度的关系：
 
   $$
   T=m\_2(\omega^2-\omega\_1)^2r\_2
   $$
 
-- 此时注意到，如果 $Delta F\_1\<\Delta F\_2$，也就是 $m\_1r\_1\<m\_2r\_2$，此时绳子拉力的增量不足 $2$ 物体向心力的需求增量，因此 $2$ 物体摩擦力继续增大，因为绳子拉力保持了 $1$ 的静止，因此最终发生 $2$ 的最大静摩擦及滑动，向 $2$ 物体一侧滑开。
+- 此时注意到，如果 $\Delta F\_1\<\Delta F\_2$，也就是 $m\_1r\_1\<m\_2r\_2$，此时绳子拉力的增量不足 $2$ 物体向心力的需求增量，因此 $2$ 物体摩擦力继续增大，因为绳子拉力保持了 $1$ 的静止，因此最终发生 $2$ 的最大静摩擦及滑动，向 $2$ 物体一侧滑开。
 
 注意到这个可以通过质点的形式解决，我们将会在质点系中再次讨论。
 
@@ -330,7 +332,8 @@ $$
 \begin\{aligned} G+T&=F\_c\ mg+T&=m\frac\{v^2}\{r} \end\{aligned}
 $$
 
-![](/static/image/C1C8B823E95E88FD9F01E5EA5E9E2311.97a0c1c78e.avif){width="100%"}
+<img src="../C1C8B823E95E88FD9F01E5EA5E9E2311.avif" width="100%">
+
 ### 绳模型 \{#\_23}
 
 考虑最高点最小速度、恰好经过顶点、绳子无拉力：
@@ -349,7 +352,7 @@ $$
 
 - 脱离的临界态：在圆上、无拉力弹力、向心方向恰好提供了 $F\_r$。
 
-- 脱离的瞬间重力与所在半径连线夹角 $cos\theta=\dfrac\{v^2}\{gr}$。
+- 脱离的瞬间重力与所在半径连线夹角 $\cos\theta=\dfrac\{v^2}\{gr}$。
 
 ### 杆模型 \{#\_24}
 
@@ -363,7 +366,7 @@ $$
 
 然后写牛二式子 $mg\pm T=m\dfrac\{v^2}\{r}$。
 
-拉力的作用力范围为 $-\infty,mg$，以支持力为正。
+拉力的作用力范围为 $(-\infty,mg]$，以支持力为正。
 
 ### 圆环模型 \{#\_25}
 
@@ -383,10 +386,10 @@ $$
 
 瞬间小球速度不变，忽略能量损耗，小球线速度 $v$ 始终不变。
 
-- 根据 $displaystyle F=\dfrac\{mv^2}\{r}$，绳子拉力增大；
+- 根据 $\displaystyle F=\dfrac\{mv^2}\{r}$，绳子拉力增大；
 
-- 根据 $displaystyle\omega=\dfrac\{v}\{r}$，角速度增大；
+- 根据 $\displaystyle\omega=\dfrac\{v}\{r}$，角速度增大；
 
 - 根据 $a=v\omega$，加速度增大。
 
-- 根据 $displaystyle T=\dfrac\{2\pi}\{\omega}$，周期减小。
+- 根据 $\displaystyle T=\dfrac\{2\pi}\{\omega}$，周期减小。

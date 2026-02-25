@@ -24,10 +24,11 @@
 
 血浆、组织液和淋巴液之间的关系：
 
-![alt text](data:image/avif;base64,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){width="50%"}
+<img src="../细胞外液.avif" width="50%" alt="alt text">
+
 血浆、组织液和淋巴液通过动态的有机联系，共同构成机体内细胞生活的直接环境。为了区别于个体生活的外界环境，人们把这个由细胞外液构成的液体环境叫作**内环境**。
 
-- 细胞内的物质不属于内环境，例如血红蛋白、\[DNA]\{.abbr title="Deoxyribonucleic Acid (脱氧核糖核酸)"} 聚合酶等。
+- 细胞内的物质不属于内环境，例如血红蛋白、DNA 聚合酶等。
 
 - 细胞膜上的物质和结构不属于内环境，例如载体蛋白、糖蛋白等。
 
@@ -57,21 +58,21 @@
 
   渗透压的大小取决于单位体积溶液中溶质微粒的数目，溶质微粒越多，即溶液浓度越高，溶液渗透压越高。血浆渗透压的大小主要与无机盐、蛋白质的含量有关。
 
-  在组成细胞外液的各种无机盐离子中，含量上占有明显优势的是 $ce\{Na+}$ 和 $ce\{Cl-}$。细胞外液渗透压的 $90%$ 以上来源于 $ce\{Na+}$ 和 $ce\{Cl-}$。在 $pu\{37^oC}$ 时。人的血浆渗透压约为 $pu\{770 kPa}$，相当于细胞内液的渗透压。
+  在组成细胞外液的各种无机盐离子中，含量上占有明显优势的是 $\ce\{Na+}$ 和 $\ce\{Cl-}$。细胞外液渗透压的 $90%$ 以上来源于 $\ce\{Na+}$ 和 $\ce\{Cl-}$。在 $\pu\{37^oC}$ 时。人的血浆渗透压约为 $\pu\{770 kPa}$，相当于细胞内液的渗透压。
 
   我们将会在水盐平衡部分详细讨论渗透压的稳态。
 
-- 正常人的血浆近中性，pH 为 $7.35 \sim 7.45$。血浆的 pH 之所以能够保持稳定，与其中含有的 $ce\{HCO3-,H2CO3}$ 等物质有关。
+- 正常人的血浆近中性，pH 为 $7.35 \sim 7.45$。血浆的 pH 之所以能够保持稳定，与其中含有的 $\ce\{HCO3-,H2CO3}$ 等物质有关。
 
-  模拟生物体维持 pH 的稳定：在溶液中加入酸或碱，缓冲对（如 $ce\{HPO4^2- / H2PO4-}$）能使溶液 pH 的变化减弱；与自来水相比，生物组织匀浆更类似于缓冲液。
+  模拟生物体维持 pH 的稳定：在溶液中加入酸或碱，缓冲对（如 $\ce\{HPO4^2- / H2PO4-}$）能使溶液 pH 的变化减弱；与自来水相比，生物组织匀浆更类似于缓冲液。
 
-  <img alt="alt text" src={image1} />\{width="60%"}
+  <img src="../image-4.avif" width="60%" alt="alt text">
 
-  人体内环境中也有很多缓冲对，其中最重要的是 $ce\{HCO3- / H2CO3}$，其次还有 $ce\{HPO4^2- / H2PO4-}$ 等。当一定量的酸性或碱性物质进入后，内环境的 pH 仍能维持在一定范围内。
+  人体内环境中也有很多缓冲对，其中最重要的是 $\ce\{HCO3- / H2CO3}$，其次还有 $\ce\{HPO4^2- / H2PO4-}$ 等。当一定量的酸性或碱性物质进入后，内环境的 pH 仍能维持在一定范围内。
 
-- 人体细胞外液的温度一般维持在 $pu\{37^oC}$ 左右（此处的体温是一个总的概念，并不是通过测量皮肤的温度就可以得出的体温）。
+- 人体细胞外液的温度一般维持在 $\pu\{37^oC}$ 左右（此处的体温是一个总的概念，并不是通过测量皮肤的温度就可以得出的体温）。
 
-  正常情况下，不同人的体温，会因年龄、性别等的不同而存在微小差异；同一个人的体温在一日内也有变化，但变化幅度一般不超过 $pu\{1^oC}$。尽管气温波动范围较大，但健康人的体温始终接近 $pu\{37^oC}$。
+  正常情况下，不同人的体温，会因年龄、性别等的不同而存在微小差异；同一个人的体温在一日内也有变化，但变化幅度一般不超过 $\pu\{1^oC}$。尽管气温波动范围较大，但健康人的体温始终接近 $\pu\{37^oC}$。
 
 稳态概念的发展：
 
@@ -178,7 +179,7 @@
 
   受体与信使假说：
 
-  <img alt="alt text" src={image2} />\{width="60%"}
+  <img src="../image-14.avif" width="60%" alt="alt text">
 
 - 作为信使传递信息：激素种类多、量极微，既不组成细胞结构，又不提供能量，也不起催化作用，而是随体液到达靶细胞，使靶细胞原有的生理活动发生变化。激素是调节生命活动的信息分子，一经靶细胞接受并起作用后就失活了。因此，体内需要源源不断地产生激素，以维持激素含量的动态平衡。
 
@@ -188,7 +189,7 @@
 
   例如：含氮激素的作用机制。
 
-  <img alt="alt text" src={image3} />
+  <img alt="alt text" src={image0} />
 
   cAMP
   使无活性的蛋白激酶转为有活性，从而激活磷酸化酶，引起靶细胞各种生理生化反应，如肌肉细胞的收缩与舒张、神经元的电位变化。
@@ -201,11 +202,10 @@
 
   例如：类固醇激素的作用机制
 
-  <img alt="alt text" src={image4} />
+  <img alt="alt text" src={image1} />
 
   激素一受体复合物进入细胞核后结合于染色质的非组蛋白的特异位点上，启动或抑制该部位的
-  \[DNA]\{.abbr title="Deoxyribonucleic Acid (脱氧核糖核酸)"}
-  转录过程，进而促进或抑制 \[mRNA]\{.abbr title="messenger RNA (信使 RNA)"}
+  DNA 转录过程，进而促进或抑制 mRNA
   的形成，结果是诱导或减少某种蛋白质（主要是酶）的合成，引起相应的生物效应。
 
   :::
@@ -220,7 +220,7 @@
 
 激素等化学物质，通过体液传送的方式对生命活动进行调节，称为体液调节。激素调节是体液调节的主要内容。
 
-除激素外，其他一些化学物质，如组胺、某些气体分子（$ce\{NO}$、$ce\{CO}$ 等）以及一些代谢产物（如 $ce\{CO2}$），也能作为体液因子对细胞、组织和器官的功能起调节作用。$ce\{CO2}$ 是调节呼吸运动的重要体液因子。体液中 $ce\{CO2}$ 浓度变化会刺激相关感受器，从而通过神经系统对呼吸运动进行调节。临床上给患者输入 $ce\{O2}$ 时，往往采用含有 $5%$ 左右的 $ce\{CO2}$ 的混合气体，以达到刺激呼吸中枢的目的。
+除激素外，其他一些化学物质，如组胺、某些气体分子（$\ce\{NO}$、$\ce\{CO}$ 等）以及一些代谢产物（如 $\ce\{CO2}$），也能作为体液因子对细胞、组织和器官的功能起调节作用。$\ce\{CO2}$ 是调节呼吸运动的重要体液因子。体液中 $\ce\{CO2}$ 浓度变化会刺激相关感受器，从而通过神经系统对呼吸运动进行调节。临床上给患者输入 $\ce\{O2}$ 时，往往采用含有 $5%$ 左右的 $\ce\{CO2}$ 的混合气体，以达到刺激呼吸中枢的目的。
 
 在人和高等动物体内，体液调节和神经调节都是机体调节生命活动的重要方式，它们相辅相成，各具优势。
 
@@ -259,7 +259,8 @@
 
 内分泌系统是机体整体功能的重要调节系统。各种内分泌腺间具有复杂的功能联系，共同调节机体活动，包括维持内环境稳定、调节物质和能量代谢、调控生长发育和生殖等。
 
-![alt text](/static/image/image-19.0265d00514.avif){width="90%"}
+<img src="../image-19.avif" width="90%" alt="alt text">
+
 具体的内分泌腺及其分泌的激素，我们在下一节详细分解。
 
 ## 激素概述 \{#\_11}
@@ -280,12 +281,14 @@
 
 - 下丘脑、垂体和一些内分泌腺（称为靶腺体）功能的分级调节系统，称为下丘脑---垂体---靶腺体轴，人们将这种分层调控称为分级调节。分级调节可以放大激素的调节效应，形成多级反馈调节，有利于精细调控，从而维持机体的稳态。
 
-![alt text](/static/image/raineblog.dpdns.org_whk_science_human_3_.1098c0f1ad.avif)
+<img src="../raineblog.dpdns.org_whk_science_human_3_.avif" alt="alt text">
+
 ### 脑垂体 \{#\_12}
 
 垂体（又称脑垂体、脑下垂体、垂腺、脑垂腺）是人体的一个内分泌腺，位于脑底部的中央位置。
 
-![alt text](/static/image/image-13.52d9074398.avif){width="100%"}
+<img src="../image-13.avif" width="100%" alt="alt text">
+
 下丘脑：分泌促甲状腺激素释放激素、促性腺激素释放激素、促肾上腺皮质激素释放激素等多种激素。这些激素作用于垂体，调控垂体分泌释放相应的激素。
 
 脑下垂体前叶（又称腺垂体），受下丘脑分泌的释放激素、抑制激素作用，分泌多种激素。
@@ -324,15 +327,17 @@
 
 其中胰岛内有多种分泌细胞，高中阶段只要求掌握 A、B 两种。
 
-![alt text](/static/image/image-12.90f21a6b17.avif){width="40%"}
-- 图中黄色部分：胰岛 B 细胞（$beta$ 细胞），分泌胰岛素。
+<img src="../image-12.avif" width="40%" alt="alt text">
 
-- 图中绿色部分：胰岛 A 细胞（$alpha$ 细胞），分泌胰高血糖素。
+- 图中黄色部分：胰岛 B 细胞（$\beta$ 细胞），分泌胰岛素。
 
-- 图中紫色部分：胰岛 D 细胞（$delta$ 细胞），分泌生长抑素。
+- 图中绿色部分：胰岛 A 细胞（$\alpha$ 细胞），分泌胰高血糖素。
 
-![alt text](/static/image/image-21.336427e035.avif){width="60%"}
-血糖浓度升高，葡萄糖通过胰岛 B 细胞膜上的葡萄糖载体进入胰岛 B 细胞。葡萄糖经氧化反应使细胞内的 \[ATP]\{.abbr title="Adenosine Triphosphate (三磷酸腺苷)"}/\[ADP]\{.abbr title="Adenosine Diphosphate (二磷酸腺苷)"} 比率，导致细胞膜中的 \[ATP]\{.abbr title="Adenosine Triphosphate (三磷酸腺苷)"} 敏感型钾离子通道关闭，使细胞膜内的电位升高，激活电压门控的钙离子通道，钙离子通道开放，导致钙离子内流增加，触发胰岛素分子释放到细胞外。
+- 图中紫色部分：胰岛 D 细胞（$\delta$ 细胞），分泌生长抑素。
+
+<img src="../image-21.avif" width="60%" alt="alt text">
+
+血糖浓度升高，葡萄糖通过胰岛 B 细胞膜上的葡萄糖载体进入胰岛 B 细胞。葡萄糖经氧化反应使细胞内的 ATP/ADP 比率，导致细胞膜中的 ATP 敏感型钾离子通道关闭，使细胞膜内的电位升高，激活电压门控的钙离子通道，钙离子通道开放，导致钙离子内流增加，触发胰岛素分子释放到细胞外。
 
 ### 性激素 \{#\_15}
 
@@ -400,7 +405,7 @@
    - \*\*作用：\*\*强大的抗炎、抗过敏、抗免疫排斥。
    - **通路与机制：**
      1. **抑制炎症介质合成（最核心）：**诱导**脂皮素-1（Lipocortin-1 / Annexin A1）**的合成，该蛋白能抑制**磷脂酶 A2（PLA2）**。PLA2被抑制后，花生四烯酸无法释放，从而阻断了前列腺素（引起红肿痛）和白三烯（引起支气管痉挛）的生成。
-     2. **抑制转录因子NF-κB**：直接结合并抑制 NF-κB，从而阻断多种促炎细胞因子（如TNF-$alpha$, IL-1, IL-6, IL-8）的基因转录。
+     2. **抑制转录因子NF-κB**：直接结合并抑制 NF-κB，从而阻断多种促炎细胞因子（如TNF-$\alpha$, IL-1, IL-6, IL-8）的基因转录。
      3. \*\*诱导淋巴细胞凋亡：\*\*直接诱导 T 细胞和 B 细胞的凋亡，降低抗体生成。
      4. \*\*稳定溶酶体膜：\*\*防止溶酶体破裂释放水解酶损伤组织。
    - \*\*效果：\*\*红、肿、热、痛迅速消退，过敏反应停止，自身免疫病缓解。
@@ -413,7 +418,7 @@
 
    - \*\*作用：\*\*维持血压，允许作用（Permissive Action）。
    - **通路与机制：**
-     1. \*\*允许作用：\*\*糖皮质激素本身不直接收缩血管，但它能增加血管平滑肌对儿茶酚胺（肾上腺素、去甲肾上腺素）的敏感性（上调 $alpha1$ 受体表达）。如果缺乏GC，血管对升压药会失去反应。
+     1. \*\*允许作用：\*\*糖皮质激素本身不直接收缩血管，但它能增加血管平滑肌对儿茶酚胺（肾上腺素、去甲肾上腺素）的敏感性（上调 $\alpha1$ 受体表达）。如果缺乏GC，血管对升压药会失去反应。
      2. \*\*盐皮质激素样作用：\*\*皮质醇可结合盐皮质激素受体（MR），促进肾脏保钠排钾。
    - \*\*效果：\*\*维持血管张力和血容量。
    - **失调副作用（过量）：**
@@ -471,10 +476,12 @@
 
 血液中的糖称为血糖，主要是葡萄糖。
 
-![alt text](/static/svg/无标题-2025-09-14-2104.bc3d5af131.svg){width="80%"}
+<img src="../无标题-2025-09-14-2104.svg" width="80%" alt="alt text">
+
 血糖平衡的调节，也就是调节血糖的来源和去向，使其处于平衡状态。
 
-![alt text](/static/image/raineblog.dpdns.org_whk_science_human_3_(1).a6922c28bf.avif)
+<img src="../raineblog.dpdns.org_whk_science_human_3_(1).avif" alt="alt text">
+
 研究发现，机体是通过一些特定的激素来调节血糖的代谢速率的，其中最主要的是胰岛分泌的胰高血糖素和胰岛素。
 
 - 当血糖浓度升高到一定程度时，胰岛 B 细胞的活动增强，胰岛素的分泌量明显增加。
@@ -519,7 +526,8 @@
 
 - 而皮肤是人体最主要的散热器官，皮肤散热主要通过辐射（如以红外线等形式将热量传到外界）、传导（机体热量直接传给同它接触的物体）、对流（通过气体来交换热量）以及蒸发（如汗液的蒸发）的方式进行。体温调节是通过调节上述器官的产热和散热实现的。
 
-![alt text](/static/image/image-20.13aa1bf112.avif){align="right" width="40%"}
+<img src="../image-20.avif" align="right" width="40%" alt="alt text">
+
 人和高等动物皮肤中分布有感受温度变化的温度感受器，包括冷觉感受器和热觉感受器。
 
 - 在寒冷的环境中，冷觉感受器受到刺激并产生兴奋，兴奋传递到下丘脑的体温调节中枢，引起：
@@ -542,9 +550,9 @@
 
 人体每天都要从饮食中获得水和各种无机盐，同时又要通过多种途径排出一定的水和无机盐。人体内水的来源是饮水、食物中所含有的水和代谢中产生的水；水的排出有四条途径，其中肾排尿是人体排出水的最主要途径。
 
-- 钠离子 $ce\{Na+}$ 的主要来源是食盐，几乎全部由小肠吸收，主要经肾随尿排出，排出量几乎等于摄入量。
+- 钠离子 $\ce\{Na+}$ 的主要来源是食盐，几乎全部由小肠吸收，主要经肾随尿排出，排出量几乎等于摄入量。
 
-- 钾离子 $ce\{K+}$ 不仅在维持细胞内液的渗透压上起决定性作用，而且还具有维持心肌舒张、保持心肌正常兴奋等重要作用。
+- 钾离子 $\ce\{K+}$ 不仅在维持细胞内液的渗透压上起决定性作用，而且还具有维持心肌舒张、保持心肌正常兴奋等重要作用。
 
 水和无机盐的平衡，是在神经调节和激素调节的共同作用下，通过调节尿量和尿的成分实现的，主要是通过肾完成的。
 
@@ -560,7 +568,7 @@
 
 - 肾是形成尿液的器官，当发生肾功能衰竭时，病人的水和无机盐等的代谢会紊乱，可出现全身水肿、尿素氮升高、呕吐等一系列症状，即尿毒症，严重时会导致死亡。
 
-- 炎炎夏季，在高温环境中从事体力劳动的人，最容易发生中暑。中暑是指高温引起机体体温调节功能紊乱所表现出的一系列症状，如高热、皮肤干燥、恶心、呕吐、食欲不振、心悸、头痛等。严重中暑会使体温超过 $pu\{40^oC}$，病死率比较高。
+- 炎炎夏季，在高温环境中从事体力劳动的人，最容易发生中暑。中暑是指高温引起机体体温调节功能紊乱所表现出的一系列症状，如高热、皮肤干燥、恶心、呕吐、食欲不振、心悸、头痛等。严重中暑会使体温超过 $\pu\{40^oC}$，病死率比较高。
 
 - 人在进行一定强度的体力劳动后，手掌或脚掌上可能会磨出水疱。水疱中的液体主要是组织液，一段时间后水疱可自行消失。水疱主要是由血浆中的水大量渗出到组织液形成的，水疱自行消失是因为其中的液体可以渗入毛细血管和毛细淋巴管。
 
@@ -568,5 +576,6 @@
 
 - 不考虑其他因素，呼吸过于频繁，导致二氧化碳呼出增多，引起呼吸性碱中毒；呼吸阻碍，导致二氧化碳无法正常呼出，导致呼吸性酸中毒。
 
-![alt text](/static/image/image-7.91b259246e.avif){width="60%"}
+<img src="../image-7.avif" width="60%" alt="alt text">
+
 低蛋白血症：血液中蛋白质含量降低，使血浆胶体渗透压降低、水进入组织液中，引起组织水肿。同时，因为血容量降低了，醛固酮会分泌增加，引起钠和水的重吸收。但是这并不会改变胶体渗透压偏低的问题，还会升高毛细血管的静水压，导致更多的水进入组织液，加重组织水肿。此时可以通过服用醛固酮受体拮抗类药物（例如螺内酯），这种竞争性抑制剂与醛固酮受体结合，阻断了醛固酮与受体的结合。产生更多的尿液，降低血容量，从而降低毛细血管的静水压，从而减少液体的净滤出。这仅仅是缓解组织水肿，根本治疗仍需纠正低蛋白血症本身。

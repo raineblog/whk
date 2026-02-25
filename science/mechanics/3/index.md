@@ -10,7 +10,7 @@ $$
 F=\dfrac\{G}\{2\cos\theta}
 $$
 
-特征；$F$ 仅与 $theta$ 有关，上下移动绳子端点力不变，端点水平靠近拉力下降、远离拉力上升。
+特征；$F$ 仅与 $\theta$ 有关，上下移动绳子端点力不变，端点水平靠近拉力下降、远离拉力上升。
 
 物体的平衡可以分为稳定平衡、不稳定平衡和随遇平衡三种。
 
@@ -26,16 +26,16 @@ $$
 
 ### 斜面模型 \{#\_5}
 
-斜面模型「物体是否会下滑」，设斜面与水平面夹角为 $theta$：
+斜面模型「物体是否会下滑」，设斜面与水平面夹角为 $\theta$：
 
 受力分析，得 $G\_x=mg\sin\theta$，$f=\mu mg\cos\theta$。
 
 - 若物体下滑：$G\_x>f \Rightarrow G\_x/f>1 \Rightarrow \tan\theta/\mu>1 \Rightarrow \tan\theta>\mu$。
 - 同理，若物体静止不动，$G\_x\le f \Rightarrow \tan\theta\le\mu$。
 
-即，若 $tan\theta>\mu$，物体会下滑。
+即，若 $\tan\theta>\mu$，物体会下滑。
 
-同时也可以根据此探究动摩擦因数 $mu=\arctan\theta$。
+同时也可以根据此探究动摩擦因数 $\mu=\arctan\theta$。
 
 ### 直角劈模型 \{#\_6}
 
@@ -43,10 +43,11 @@ $$
 
 根据已知常量列出方程，例如绳长不变，绳子切面速度相同，以及对应的加速度关系。
 
-典例是直角劈模型，有 $theta$ 角度的直角劈，一木块放在上面，则：
+典例是直角劈模型，有 $\theta$ 角度的直角劈，一木块放在上面，则：
 
-![直角劈模型](data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAG1pZjFhdmlmbWlhZgAAANZtZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAD6AAEAAAAAAAAItwAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAVmlwcnAAAAA4aXBjbwAAAAxhdjFDgSACAAAAABRpc3BlAAAAAAAAATMAAAFBAAAAEHBpeGkAAAAAAwgICAAAABZpcG1hAAAAAAAAAAEAAQOBAgMAAAi/bWRhdBIACgk4IiZUBhAQ0GkypxERkAIIAAFAAKmmJtHWu6Zw6SlR5yk/+kCl9boc65Rh9RBn1ku85iaCVcoceDtwVw/H1vhht7i7TxS8Maae4qQMS0KMJrsKkwDONWiDhF0iTuRGsjjpS8wK6O9ZWx9ztcRo+2gthDtw0mbakhXqrN4oSWEfkCr7YS0VDEuyyIw0ujBr+SgqfO7240zmbGcQIcbp9pTd6GetmJSr2o+ZpvZwhr7Y0Z90y3nkII8uyA6z97QFFC/iBrK1U4M9tshbA9lGE8O40w2xHxIBY3bTmzG1dGpTIad9XKjpKhdP08wpP6u8Gei74B3kJJbLsJ93F60nqIm0sngnZ87LakqtPyyWBsofwErgWwaSBM7cVbmgEXNMIzK7iPUsl7sTQ/Zemv5qDg4a5X+AYUDzasR8zaCHrk3VR/+6BpzCdE0sXMi4cevP9OTN79OQeIO/13bT8ignbydfbn9rJkiSz2USE9kMwY2gkMes1TReQx5nSXUAra07dMJPeL6+GhzqSfpYqm5gcXAitckpgLeZVDrzJn0XTuf4YgyerxAEmazLz3bD5LLxxFg7K333MgwWMkqYmoRib0sKvMfvC6reRp/KHZqMapGzLYI3xWeaYliuqFa+VE3FR8ntPQPvK2jlTFAEsS0EPzd5N+0Jq8kbWx3iEQCHeZdiXBr7+LhXSKY8SK5BIqrlVWNZUrFlzXWym8+xRMiUqo97YUMOjBuEHhDJaGfBMZjHDkBefeMgHaCe2EWnjn4INKdfumRz1x5mtPcEQ7g9loYLfVAADjMMDphLl/ToBGgB6gRWu91q/CwVF7OFfxe0jCoDyYjWKemvWKuPoCfEeLP+GFJ6XpU+1V9+/JJ6LpXHV3Z0agKBkecVkpw/loerT+nbiFtJtgn1dEGvIjPxq+T/JvCgcTJH4aY1frpVKM2np4bbD7w12IYnYD5wJFad1K47b+of4vzU2X1YfOJgkIUKHttT32OSM3bIkwEpLwHty2LdeXAPLCwQlrdziYT8G5IYOXaId1IKPkcP+7g+DIe6XXX1C9gD6byrmVAuOz4UobkvRXgiJf25t753d/cFuLqZwPEEB5TRZWunQeCuUNniA3q9y+W6Ej+u/n7q4rUYrf3P4AOf4pwdvzf+Hs6fLeDqZ0GMiIGMcxvturl4AxE/irbngALmnBypEEFDPKFAzPBVabgPfTBDYkLeEWEAXiaxOA3UZXOSwNY5oKQFkp2qghkpyAdgs5eHaAzNFQe1Le81N3tLRoFeOH0Hfm+d9vz5mf7Y1jN5gHxservr2ay9NN3q42Pg8zTOKkuZUCRJTla32BOLbA4XYxrtqT+Y8r2ocOHRTlD0j+4E0d73hlRn39h8AqkqVYToXwe7RqE+x8iTpen5bRb8TUiXeFArbDEvzQnCCJ+YFL+Zl5taSQv7leW4fPTH5oU8IrKoQKPoH49qQA+t0NeLfEPaIsArfoCSOkwemxdOa38uK+XzCrmMEjSptrl2nuB4DXj2TzTmx/f9wWVqMofbPkrC/ZQWKPPSJYnc88hgJAJG/7aDEaHI2CAkFRsiSXC8VBdT/lgyiZUHb5wflugNaULOAIrFWLdkaZwfbNgTPJCkjtMuHgYjgqKFMH6YzKp1OkCiu9SHIs1lpEktmJnM7GOAgUkz9AAhJycQEnbxjP8VBiJRO3zdvE0KrQbc7e9jQ3LE8ugb3UiMKcuEdOnDs+ZT4z8eP4+sAOT5LxijWg704SuErs487e7POYIzN03fgLm68THxjesu18EUrTnRDJ2KLLoxlgPSZYO830/wG/CiyTg8YOKB6kl4DrU9NOda5oaqebdwF7dFG7jXGArcAFUtAUBulQinxTFW5LYfC7aS0i8Lv69Ht+QPNLTGbzrbzidDSEJzIP/BknpdmXx1CuZTBuIFAtR61upefpENw0v2/SmEvY0wzCg3n40T+QbZvgkS1w3AZw8/Uc0dh2esM+Bf6dYSaUaPO0EpnhPBJ+eSrhJb8pb+IGVUQgaDK3fHaO5ZtxqyLYP+RUGjAY4/INtyP7xfc5BXEHMNTIfUJmWoESPvliIP5Of0rtLad004rX84MgUR0beGhsGvzn4MYj7qupIQ/lNNzWRvKpevJnzw2SYZDgfpikGaZOxZHFtbUNYCzUVbEjRYaabuSs/hT3MMZvLxqmLdnH33OJw1mKvFysvcvw3fNRx/cO+1vVkQfhnX8U0J6MfFMYOwA4+kTC9uzFhhn9cYSrxf/JhazLNd+gARxLt0XC2l0vCcvNWNR+sN03v5UHdGdLvAAoVhl+Rg81v879YLmea1WR80Sicm13xo/rQP4Jhomq9T4ImoISb7YAVsDkBUmUTcpnyY99eAQINhgAZoy0fbAgX5SmuHFtz0ZGhANnqx/tnnN7gtuNN6FS8Rvutpi7Ur0Som8ydLLWu3WVIBfYZmKtMQOPqhHYnp4FbuNtvrO47f2ZN+HOdTZ1roeHkiZwR/H34eQGd8a6KQlzPUuXmewjtkLlgyJP5KM89PckSax0FU1t+38XM1amvhvi7U0aKgeUvkEZ/TJ93H+bmcI2ND6eyO+2vxHknvg1+Gm5bFYZs2lHfc7j3b8cjg5necW2gkSYQH9O8V+94OFKXA8xgJuakEkVVmR7qTInlOcdKkBTzAS0Vj2DuPSgCycCC6uCq4SSMkOzhzoOTSYrxmkUx1dnzQ2jDUTHc/Lnyl4/Z42v2LcKxU5lrdyoQGXM4/xmVKLlry4Zf0uDAKcGuGJJd1KVi8IwzMROgGWaZsdi7CnTpnmcPqo+WDQ1ILIoeja+UsThogXDfNBL+rmEFSCt/GAxaI7ntChqzy2gnFnW8DoeLm9iCp9HcZ72h+FVpxVpX+GliFQVIRsyvaGiBDP6eceCLKkePT3lRNsvmdGLqN0BvvK7dqLgf7sI5E9Injv2jCU6PNOq1+nkS8WaQXhGSJgFrhT/vqDFwzlF7FqasY)
-其中 $V$ 和 $A$ 为劈的速度和加速度，$x$ 为木块相对参考系的水平位移，$X$ 为木块相对参考系的水平位移，$h-y$ 为木块滑下的竖直高度：
+<img src="../mnt847j0.avif" alt="直角劈模型">
+
+其中 $V$ 和 $A$ 为劈的速度和加速度，$x$ 为木块相对参考系的水平位移，$X$ 为木块相对参考系的水平位移，$(h-y)$ 为木块滑下的竖直高度：
 
 $$
 \begin\{aligned} (x-X)=(h-y)\cot\theta\ v\_x-V=-v\_y\cot\theta\ a\_x-A=-a\_y\cot\theta \end\{aligned}
@@ -82,7 +83,8 @@ $$
 
 ### 等时圆模型 \{#\_8}
 
-![alt text](/static/image/image-2.c04a5084e8.avif){align="right" width="50%"}
+<img src="../image-2.avif" align="right" width="50%" alt="alt text">
+
 质点自半径为 $R$ 的空心球（对于平面而言是圆环）的最高点由静止开始无摩擦地沿任一弦下滑至球面（或圆环），所需时间相等，且等于：
 
 $$
@@ -91,7 +93,7 @@ $$
 
 证明：
 
-设下滑的弦与法线的夹角为 $beta$，则弦长：
+设下滑的弦与法线的夹角为 $\beta$，则弦长：
 
 $$
 l=2R\cos\beta
@@ -109,7 +111,7 @@ $$
 \begin\{aligned} l&=\dfrac\{1}\{2}at^2\ 2R\cos\beta&=\dfrac\{1}\{2}(g\cos\beta)t^2 \end\{aligned}
 $$
 
-易得 $t$ 与 $beta$ 无关，且：
+易得 $t$ 与 $\beta$ 无关，且：
 
 $$
 t=\sqrt\{\dfrac\{4R}\{g}}
@@ -117,9 +119,9 @@ $$
 
 经典例题：
 
-一小球从角度为 $alpha$ 的斜面上某一点的上方 $l$ 处沿某一直线无摩擦的滑下，问落到斜面上的最短时间。
+一小球从角度为 $\alpha$ 的斜面上某一点的上方 $l$ 处沿某一直线无摩擦的滑下，问落到斜面上的最短时间。
 
-由上面的结论，最佳下落线与法线的夹角 $theta=\alpha/2$。
+由上面的结论，最佳下落线与法线的夹角 $\theta=\alpha/2$。
 
 易知，该圆的直径（$Q$ 为圆与斜面的切点，$H$ 为最高点到斜面的垂足）：
 
@@ -147,12 +149,14 @@ $$
 
 在平面内，$B$ 点在 $A$ 右下，自 $A$ 静止释放一个小球，运动到 $B$ 点的最短时间。
 
-![](/static/image/最速降线.4e9fb87f34.avif){width="100%"}
+<img src="../最速降线.avif" width="100%">
+
 伯努利（哥哥和弟弟分别）证明了最速降线是一条摆线。
 
 ## 传送带和板块模型 \{#\_10}
 
-![](/static/image/方法总结.bf53825acb.avif){width="90%"}
+<img src="../方法总结.avif" width="90%">
+
 **例题1**：质量为 $2\text\{kg}$ 的物体沿光滑斜面下滑，斜面与水平面的夹角为 $37^\circ$，求木块的加速度。
 
 列式：
@@ -193,7 +197,7 @@ $$
 
 现用大小为 $30\text\{N}$ 的力，沿水平方向拉物体，$2\text\{s}$ 后到达 $B$ 处。
 
-求物体与地面的摩擦因数 $mu$。
+求物体与地面的摩擦因数 $\mu$。
 
 解：
 
@@ -227,7 +231,7 @@ $$
 \begin\{cases} a&=10\text\{m/s}^2\ \mu&=0.5 \end\{cases}
 $$
 
-即 $mu=0.5$。
+即 $\mu=0.5$。
 
 ### 传送带模型 \{#\_11}
 
@@ -239,7 +243,7 @@ $$
 
 表示重力下滑分量和滑动摩擦力的作用。
 
-假设可以共速静止，比较 $tan\theta$ 和 $mu$。
+假设可以共速静止，比较 $\tan\theta$ 和 $\mu$。
 
 判断共速时的位与和传送带长度之间的关系。
 
@@ -277,7 +281,7 @@ $$
 f=\dfrac\{m\_1}\{m\_1+m\_2}F-\mu mg\cos\theta
 $$
 
-若斜面是水平面（$theta=0$），那么 $cos\theta=1$：
+若斜面是水平面（$\theta=0$），那么 $\cos\theta=1$：
 
 $$
 f=\dfrac\{m\_1}\{m\_1+m\_2}F-\mu mg
@@ -291,25 +295,25 @@ $$
 2. 隔离法，求出这个物体的最大加速度，
 3. 整体法，求出最大的外力大小。
 
-形式一：拉着下面的 $M$ 走，其上表面 $mu\_1$、下表面 $mu\_2$：
+形式一：拉着下面的 $M$ 走，其上表面 $\mu\_1$、下表面 $\mu\_2$：
 
 $$
 F=(m+M)(\mu\_1+\mu\_2+\tan\theta)g\cdot\cos\theta
 $$
 
-若斜面是水平面（$theta=0$），那么 $cos\theta=1,\tan\theta=0$：
+若斜面是水平面（$\theta=0$），那么 $\cos\theta=1,\tan\theta=0$：
 
 $$
 F=(m+M)(\mu\_1+\mu\_2)g
 $$
 
-形式二：拉着上面的 $m$ 走，其下 $M$ 上表面 $mu\_1$、下表面 $mu\_2$：
+形式二：拉着上面的 $m$ 走，其下 $M$ 上表面 $\mu\_1$、下表面 $\mu\_2$：
 
 $$
 F=\dfrac\{m}\{M}(m+M)(\mu\_1-\mu\_2)g\cdot\cos\theta
 $$
 
-若斜面是水平面（$theta=0$），那么 $cos\theta=1$：
+若斜面是水平面（$\theta=0$），那么 $\cos\theta=1$：
 
 $$
 F=\dfrac\{m}\{M}(m+M)(\mu\_1-\mu\_2)g

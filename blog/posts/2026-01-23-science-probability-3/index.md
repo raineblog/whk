@@ -6,11 +6,11 @@
 
 ### 随机变量 \{#\_3}
 
-随机变量是描述随机试验结果的函数，常用大写字母 $X、Y、Z$ 或希腊字母 $xi、\eta、\zeta$ 表示。它把样本空间 $Omega$ 中的每个基本事件映射为实数值，从而将不确定的实验转化为可量化的数值。
+随机变量是描述随机试验结果的函数，常用大写字母 $X、Y、Z$ 或希腊字母 $\xi、\eta、\zeta$ 表示。它把样本空间 $\Omega$ 中的每个基本事件映射为实数值，从而将不确定的实验转化为可量化的数值。
 
 ### 分布函数 \{#\_4}
 
-分布函数 $F(x$ 给出随机变量 $X$ 小于等于某实数 $x$ 的概率：
+分布函数 $F(x)$ 给出随机变量 $X$ 小于等于某实数 $x$ 的概率：
 
 $$
 F(x) = P( X \le x )
@@ -26,17 +26,17 @@ $$
 I\_A(\omega) = \begin\{cases} 1, & \omega \in A \ 0, & \omega \notin A \end\{cases}
 $$
 
-其期望恰好等于事件 $A$ 的概率，即 $E\[I\_A] = P(A$。
+其期望恰好等于事件 $A$ 的概率，即 $E\[I\_A] = P(A)$。
 
 ### 离散型随机变量 \{#\_6}
 
 离散型随机变量的取值集合是有限或可数无限的。例如掷骰子的点数 $\{1,2,3,4,5,6}$。其概率分布可用概率分布列描述：
 
-- $P\{ X = x\_i } = p\_i$，且 $sum\_i p\_i = 1$。
+- $P\{ X = x\_i } = p\_i$，且 $\sum\_i p\_i = 1$。
 
 ### 连续型随机变量 \{#\_7}
 
-连续型随机变量的取值覆盖整个区间（或更广）。单点概率通常为 $0$，而应使用密度函数 $f(x$ 来刻画分布：
+连续型随机变量的取值覆盖整个区间（或更广）。单点概率通常为 $0$，而应使用密度函数 $f(x)$ 来刻画分布：
 
 $$
 F(x) = \int\_\{-\infty}^\{x} f(t) , dt , \qquad f(x) \ge 0 , \qquad \int\_\{-\infty}^\{\infty} f(x) , dx = 1
@@ -78,7 +78,7 @@ $$
 \operatorname\{Var}(X) = E!\left\[(X - E\[X])^\{2}\right] = E\[X^\{2}] - (E\[X])^\{2}
 $$
 
-若对变量作线性变换 $aX + b$，则 $operatorname\{Var}(aX + b) = a^\{2}\operatorname\{Var}(X$。
+若对变量作线性变换 $aX + b$，则 $\operatorname\{Var}(aX + b) = a^\{2}\operatorname\{Var}(X)$。
 
 ### 协方差 \{#\_12}
 
@@ -88,17 +88,17 @@ $$
 \operatorname\{Cov}(X, Y) = E!\big\[(X - E\[X]) (Y - E\[Y])\big]
 $$
 
-它满足 $operatorname\{Cov}(X, X) = \operatorname\{Var}(X$，以及 $operatorname\{Cov}(aX + bY, Z) = a,\operatorname\{Cov}(X, Z) + b,\operatorname\{Cov}(Y, Z$。
+它满足 $\operatorname\{Cov}(X, X) = \operatorname\{Var}(X)$，以及 $\operatorname\{Cov}(aX + bY, Z) = a,\operatorname\{Cov}(X, Z) + b,\operatorname\{Cov}(Y, Z)$。
 
 ### 相关系数 \{#\_13}
 
-相关系数 $rho\_\{X,Y}$ 将协方差标准化：
+相关系数 $\rho\_\{X,Y}$ 将协方差标准化：
 
 $$
 \rho\_\{X,Y} = \frac\{\operatorname\{Cov}(X, Y)}\{\sigma\_X , \sigma\_Y}
 $$
 
-其中 $sigma\_X = \sqrt\{\operatorname\{Var}(X)}$。其取值范围为 $-1 \le \rho\_\{X,Y} \le 1$；若 $| \rho\_\{X,Y} | = 1$，则 $X$ 与 $Y$ 线性相关。
+其中 $\sigma\_X = \sqrt\{\operatorname\{Var}(X)}$。其取值范围为 $-1 \le \rho\_\{X,Y} \le 1$；若 $| \rho\_\{X,Y} | = 1$，则 $X$ 与 $Y$ 线性相关。
 
 ### Markov 不等式 \{#markov}
 
@@ -120,7 +120,7 @@ $$
 H(X) = -\sum\_\{x} P(X = x) , \log\_\{2} P(X = x)
 $$
 
-若 $X$ 均匀分布于 $\{1,2,\dots ,n}$，则 $H(X) = \log\_\{2} n$，说明存储 $n$ 个等概率符号至少需要 $log\_\{2} n$ 比特。
+若 $X$ 均匀分布于 $\{1,2,\dots ,n}$，则 $H(X) = \log\_\{2} n$，说明存储 $n$ 个等概率符号至少需要 $\log\_\{2} n$ 比特。
 
 ### 频率分布直方图 \{#\_16}
 

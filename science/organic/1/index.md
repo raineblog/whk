@@ -32,7 +32,7 @@
 
 :::
 
-碳原子间的共价键可以是：单键（$ce\{C - C}$）、双键（$ce\{C = C}$）、三键（$ce\{C # C}$）。
+碳原子间的共价键可以是：单键（$\ce\{C - C}$）、双键（$\ce\{C = C}$）、三键（$\ce\{C # C}$）。
 
 **碳骨架**：多个碳原子之间可以结合成碳链（包括直链和支链）或碳环，构成有机物分子链的碳骨架。多个碳原子之间可以结合形成碳链，碳链既可以是一条直链，也可以带有支链；碳原子间也可以结合成碳环，环上的碳原子还可以连接支链。
 
@@ -48,21 +48,21 @@
 
 <center>
 
-$Omega=$ 重键数 $+$ 最简环数
+$\Omega=$ 重键数 $+$ 最简环数
 
 </center>
 
-也就是说，一个不饱和度，也就是少了一对氢原子，例如，$ce\{C=C}$ 不饱和度为 $1$，$ce\{C#C}$ 为 $2$。
+也就是说，一个不饱和度，也就是少了一对氢原子，例如，$\ce\{C=C}$ 不饱和度为 $1$，$\ce\{C#C}$ 为 $2$。
 
-同时，不饱和度 $Omega$ 也可以通过分子式求出：
+同时，不饱和度 $\Omega$ 也可以通过分子式求出：
 
 $$
 \begin\{aligned} \Omega(\ce\{C\_xH\_y})&=\dfrac\{(2x+2)-y}\{2}\ \Omega(\ce\{C\_xH\_ySi\_aX\_m})&=\dfrac\{2(x+a)+2-(y+m)}\{2}\ \Omega(\ce\{C\_xH\_yO\_qS\_p})&=\dfrac\{(2x+2)-y}\{2}\ \Omega(\ce\{C\_xH\_yN\_b})&=\dfrac\{2(x+b)+2-(y+b)}\{2}&=\dfrac\{2x+2-y+b}\{2} \end\{aligned}
 $$
 
-- 卤素原子 $ce\{X}$ 视为氢原子、硅视为碳原子。
+- 卤素原子 $\ce\{X}$ 视为氢原子、硅视为碳原子。
 
-- $ce\{C-O}$ 和 $ce\{C=O}$ 不影响不饱和度，硫也是。
+- $\ce\{C-O}$ 和 $\ce\{C=O}$ 不影响不饱和度，硫也是。
 
 - 一个苯环 $=$ 三个双键一个环，不饱和度为 $4$。
 
@@ -74,16 +74,57 @@ $$
 
 ### 有机物的表示 \{#\_7}
 
-|                                             | 表示方式                                            |                 示例                 |
-| :-----------------------------------------: | ----------------------------------------------- | :--------------------------------: |
-|                     分子式                     | 用元素符号表示物质的分子组成                                  |             $ce\{CH4}$             |
-|                   最简式（实验式）                  | 用元素符号表示化合物中各元素原子个数的最简整数比                        |             $ce\{CH2O}$            |
-|                     电子式                     | 在元素符号周围用「$cdot$」或「$times$」表示原子的最外层电子的成键情况       | <img src={image0} />\{width="200"} |
-|                     结构式                     | 用短线「$ce\{-}$」来表示 1 个共价键，将所有原子连接起来               | <img src={image1} />\{width="200"} |
-|                     结构简式                    | 省略结构式中的单键「$ce\{-}$」，将与碳原子相连的其他原子写在其旁边，在右下角注明其个数 |         $ce\{CH3CH = CH2}$         |
-|                     键线式                     | 省略结构简式中与碳原子直接相连的氢原子，每个拐点或端点均表示一个碳原子，不足的用氢原子补足   | <img src={image2} />\{width="200"} |
-|                     球棍模型                    | 小球表示原子，短棍表示化学键                                  | <img src={image3} />\{width="200"} |
-| `<nowrap>`\{=html}空间填充模型`</nowrap>`\{=html} | 用不同体积的小球表示不同大小的原子，相对大小关系应与原子实际相对大小关系一致          | <img src={image4} />\{width="200"} |
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"></th>
+<th>表示方式</th>
+<th style="text-align: center;">示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">分子式</td>
+<td>用元素符号表示物质的分子组成</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">最简式（实验式）</td>
+<td>用元素符号表示化合物中各元素原子个数的最简整数比</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">电子式</td>
+<td>在元素符号周围用「」或「」表示原子的最外层电子的成键情况</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">结构式</td>
+<td>用短线「」来表示 1 个共价键，将所有原子连接起来</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">结构简式</td>
+<td>省略结构式中的单键「」，将与碳原子相连的其他原子写在其旁边，在右下角注明其个数</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">键线式</td>
+<td>省略结构简式中与碳原子直接相连的氢原子，每个拐点或端点均表示一个碳原子，不足的用氢原子补足</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">球棍模型</td>
+<td>小球表示原子，短棍表示化学键</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><nowrap>空间填充模型</nowrap></td>
+<td>用不同体积的小球表示不同大小的原子，相对大小关系应与原子实际相对大小关系一致</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
 
 - 书写结构简式时，同一个碳原子上的相同原子或原子团可以合并，相邻且相同的原子团亦可以合并。
 
@@ -91,29 +132,29 @@ $$
 
 ### 有机物的分类 \{#\_8}
 
-同系物：结构相似，在分子组成上相差一个或若干个 $ce\{CH2}$ 原子团的化合物互称为同系物。烷烃就是一个同系物系列。
+同系物：结构相似，在分子组成上相差一个或若干个 $\ce\{CH2}$ 原子团的化合物互称为同系物。烷烃就是一个同系物系列。
 
-|   类别   | 通式                               |
-| :----: | -------------------------------- |
-|   链烷烃  | $ce\{C\_n H\_\{2n+2} (n \ge 1)}$ |
-|   单烯烃  | $ce\{C\_n H\_\{2n} (n \ge 2)}$   |
-|   环烷烃  | $ce\{C\_n H\_\{2n} (n \ge 3)}$   |
-|   炔烃   | $ce\{C\_n H\_\{2n-2} (n \ge 2)}$ |
-|   二烯烃  | $ce\{C\_n H\_\{2n-2} (n \ge 4)}$ |
-| 苯及其同系物 | $ce\{C\_n H\_\{2n-6} (n \ge 6)}$ |
+|   类别   | 通式                                |
+| :----: | --------------------------------- |
+|   链烷烃  | $\ce\{C\_n H\_\{2n+2} (n \ge 1)}$ |
+|   单烯烃  | $\ce\{C\_n H\_\{2n} (n \ge 2)}$   |
+|   环烷烃  | $\ce\{C\_n H\_\{2n} (n \ge 3)}$   |
+|   炔烃   | $\ce\{C\_n H\_\{2n-2} (n \ge 2)}$ |
+|   二烯烃  | $\ce\{C\_n H\_\{2n-2} (n \ge 4)}$ |
+| 苯及其同系物 | $\ce\{C\_n H\_\{2n-6} (n \ge 6)}$ |
 
 - 同系物因组成和结构相似，化学性质相似，而物理性质如熔沸点、密度，一般呈规律性变化。
 
 - 同系物定义中的「结构相似」是指碳链和成键方式相同、官能团相同、官能团数目相同、官能团与其他原子的连接 方式相同等。
 
-|   类别  |  官能团名称 |        官能团结构       |  类别 |  官能团名称  |     官能团结构    |
-| :---: | :----: | :----------------: | :-: | :-----: | :----------: |
-|   烯烃  |  碳碳双键  |     $ce\{C=C}$     |  炔烃 |   碳碳三键  |  $ce\{C#C}$  |
-|  卤代烃  |   碳卤键  |      $ce\{-X}$     | 醇/酚 | 醇羟基/酚羟基 |  $ce\{-OH}$  |
-|   醚   |   醚键   |     $ce\{-O-}$     |  胺  |    氨基   |  $ce\{-NH2}$ |
-|   醛   |   醛基   |     $ce\{-CHO}$    |  酮  |   酮羰基   |  $ce\{-CO-}$ |
-|   羧酸  |   羧基   |    $ce\{-COOH}$    |  酯  |    酯基   | $ce\{-COOR}$ |
-| 酰胺/酰卤 | 酰胺/酰卤基 | $ce\{-CONH2/-COX}$ |  腈  |    氰基   |  $ce\{-CN}$  |
+|   类别  |  官能团名称 |        官能团结构        |  类别 |  官能团名称  |     官能团结构     |
+| :---: | :----: | :-----------------: | :-: | :-----: | :-----------: |
+|   烯烃  |  碳碳双键  |     $\ce\{C=C}$     |  炔烃 |   碳碳三键  |  $\ce\{C#C}$  |
+|  卤代烃  |   碳卤键  |      $\ce\{-X}$     | 醇/酚 | 醇羟基/酚羟基 |  $\ce\{-OH}$  |
+|   醚   |   醚键   |     $\ce\{-O-}$     |  胺  |    氨基   |  $\ce\{-NH2}$ |
+|   醛   |   醛基   |     $\ce\{-CHO}$    |  酮  |   酮羰基   |  $\ce\{-CO-}$ |
+|   羧酸  |   羧基   |    $\ce\{-COOH}$    |  酯  |    酯基   | $\ce\{-COOR}$ |
+| 酰胺/酰卤 | 酰胺/酰卤基 | $\ce\{-CONH2/-COX}$ |  腈  |    氰基   |  $\ce\{-CN}$  |
 
 ### 有机物的命名 \{#\_9}
 
@@ -133,7 +174,7 @@ $$
 
 - 碳原子数相同时：正（直链无支链的烷烃）、异（带有一个支链的烷烃）、新（带有两个支链的烷烃），正戊烷的主链是丁烷。
 
-国际纯粹与应用化学联合会（\[IUPAC]\{.abbr title="International Union of Pure and Applied Chemistry (国际纯粹与应用化学联合会)"}）发展了一套**系统命名法**，这是一套可以给予任意一个化合物一个唯一的名称的规则，这种名称可以直接地从其化学结构上推导出来。反过来，从系统名称也可以推出一个分子的结构。系统命名的问题在于，除了最简单的分子外，其他分子的名称都荒诞地不能读出来。在日常的演讲或写作中，化学家往往会漠视它们，使用系统和俗称命名法的混合。
+国际纯粹与应用化学联合会（IUPAC）发展了一套**系统命名法**，这是一套可以给予任意一个化合物一个唯一的名称的规则，这种名称可以直接地从其化学结构上推导出来。反过来，从系统名称也可以推出一个分子的结构。系统命名的问题在于，除了最简单的分子外，其他分子的名称都荒诞地不能读出来。在日常的演讲或写作中，化学家往往会漠视它们，使用系统和俗称命名法的混合。
 
 系统名称可以分为三个部分：其一描述了碳氢骨架，其二描述了官能团，还有一个阐释了官能团在碳氢骨架上的位置。
 
@@ -145,13 +186,13 @@ $$
 
    当有几个相同长度的不同碳链时，选择含支链最多的一个作为主链。
 
-   <img alt="alt text" src={image5} />
+   <img src="../image-6.avif" alt="alt text">
 
 2. 定编号：
 
    以阿拉伯数字表示取代基或官能团的位置编号，以中文数字表示取代基个数，阿拉伯数字与汉字间以短横线「$-$」分开。
 
-   <img alt="alt text" src={image6} />
+   <img src="../image-7.avif" alt="alt text">
 
    多个取代基，编号位要遵循「近」「简」「小」原则：
 
@@ -161,16 +202,17 @@ $$
 
    - 同「近」同「简」考虑「小」：若有两个相同的支链，且分别处于距主链两端同近的位置，而中间还有其他支链，从主链的两个方向编号，可得到两种不同的编号序列，两序列中各支链位次和最小者即为正确的编号。
 
-   <img alt="alt text" src={image7} />
+   <img src="../image-8.avif" alt="alt text">
 
-![alt text](/static/svg/结构.d5683dd1e5.svg){width="100%"}
+<img src="../结构.svg" width="100%" alt="alt text">
+
 - 对于烯烃和炔烃：
 
   单烯烃、单炔烃：主链必须是含有碳碳双键或碳碳三键的最长碳链、从距离碳碳双键或碳碳三键最近的一端开始编号，先写取代基的位置和名称，再写碳碳双键或碳碳三键的位置。
 
   若分子中同时含有碳碳双键与碳碳三键，可用某烯炔作结尾，并给予双键、三键尽可能低的位号，如果位号有选择时，使双键位号比三键小，书写时先烯后炔。
 
-  <img alt="alt text" src={image9} />
+  <img src="../image-11.avif" alt="alt text">
 
   多烯烃、多炔烃：将含有碳碳双键或碳碳三键最多的最长碳链作为主链，称为「某几烯」或「某几炔」，从距离碳碳双键或碳碳三键最近的一端开始，将支链作为取代基，写在「某几烯」或「某几炔」的前面，并用阿拉伯数字标明碳碳双键或碳碳三键的位置，写出有机物的名称。
 
@@ -178,11 +220,11 @@ $$
 
   并没有链端，但我们可以用编号显示两个基团间的距离------从带有其中一个官能团的碳原子开始，沿环计数。这个规则在碳氢骨架是链状或环状时可使用，但很多骨架还带有分支。我们可以将支链视作官能团处理。
 
-  <img alt="alt text" src={image10} />
+  <img src="../image-9.avif" alt="alt text">
 
   以苯环作为命名的母体，苯环上的侧链烷基为取代基进行命名，如苯环上的一个氢原子被甲基取代称为甲苯，苯环上的一个氢原子被乙基取代称为乙苯。当苯环上有两个取代基时，根据取代基在苯环上的相对位置，可分别用「邻」（1,2-二取代）「间」（1,3-二取代）「对」（1,4-二取代）来表示，当苯环上有三个相同取代基时，根据取代基在苯环上的相对位置，可分别用「连」（1,2,3-三取代）「偏」（1,2,4-三取代）「均」（1,3,5-三取代）来表示。
 
-  <img alt="alt text" src={image11} />
+  <img src="../image-10.avif" alt="alt text">
 
   当苯环上连接不饱和基团或虽为饱和基团，但体积较大或结构比较复杂时，可将苯作为取代基。
 
@@ -194,7 +236,7 @@ $$
 
   含多种官能团的烃衍生物的系统命名：当分子中含有多种官能团时，首先要确定一个主官能团，确定主官能团的顺序是羧酸、酯、酰胺/卤、醛、酮、醇、酚、胺、醚、烯、炔。然后，选择含有主官能团及尽可能含较多官能团的最长碳链为主链。
 
-**半系统命名法（Semi-systematic Nomenclature）** 是有机化学命名中一种介于"习惯命名（俗名）"和"严格系统命名（\[IUPAC]\{.abbr title="International Union of Pure and Applied Chemistry (国际纯粹与应用化学联合会)"} 命名）"之间的命名方式。它在化学文献、工业生产以及日常交流中非常常见，甚至在某些情况下被 \[IUPAC]\{.abbr title="International Union of Pure and Applied Chemistry (国际纯粹与应用化学联合会)"} 列为"保留名"（Retained Names），允许与系统命名混用。
+**半系统命名法（Semi-systematic Nomenclature）** 是有机化学命名中一种介于"习惯命名（俗名）"和"严格系统命名（IUPAC 命名）"之间的命名方式。它在化学文献、工业生产以及日常交流中非常常见，甚至在某些情况下被 IUPAC 列为"保留名"（Retained Names），允许与系统命名混用。
 
 半系统命名法的特点是：**保留一个历史上形成的、被广泛接受的"母体名称"（Parent Name），然后对其余部分采用系统命名的规则（如编号、取代基顺序）进行描述。**
 
@@ -233,7 +275,7 @@ $$
 
 1. **简洁性：** "对硝基甲苯"比"1-甲基 -4-硝基苯"读起来更顺口，且在化工行业（如 TNT 炸药的生产）中是标准术语。
 2. **历史传承：** 许多化合物在被系统命名法统一之前就已经广泛使用（如甲苯、苯酚），强行更改会造成混乱。
-3. **\[IUPAC]\{.abbr title="International Union of Pure and Applied Chemistry (国际纯粹与应用化学联合会)"} 的认可：** \[IUPAC]\{.abbr title="International Union of Pure and Applied Chemistry (国际纯粹与应用化学联合会)"} 蓝皮书中列出了许多"Preferred \[IUPAC]\{.abbr title="International Union of Pure and Applied Chemistry (国际纯粹与应用化学联合会)"} Names (PINs)"，其中包含大量半系统命名。例如，**Toluene（甲苯）** 和 **Phenol（苯酚）** 在 \[IUPAC]\{.abbr title="International Union of Pure and Applied Chemistry (国际纯粹与应用化学联合会)"} 中本身就是优选名，比 Methylbenzene 和 Benzenol 更推荐。
+3. **IUPAC 的认可：** IUPAC 蓝皮书中列出了许多"Preferred IUPAC Names (PINs)"，其中包含大量半系统命名。例如，**Toluene（甲苯）** 和 **Phenol（苯酚）** 在 IUPAC 中本身就是优选名，比 Methylbenzene 和 Benzenol 更推荐。
 
 **半系统命名法是化学界的"通用语"**。它保留了核心习惯（如甲苯、苯乙烯），但在修饰语上遵循逻辑（如 2,4,6-三硝基...）。
 
@@ -244,11 +286,11 @@ $$
 
 ### 元素分析法 \{#\_11}
 
-现代化的元素分析仪可以测出有机物含有元素，例如 $ce\{C,H,O}$ 的质量比，可以根据这个推算出为止有机物的实验式（最简式）。
+现代化的元素分析仪可以测出有机物含有元素，例如 $\ce\{C,H,O}$ 的质量比，可以根据这个推算出为止有机物的实验式（最简式）。
 
 有机物完全燃烧的规律：
 
-- 燃烧热：则每个碳原子对燃烧热的贡献大约是 $pu\{400kJ/mol}$，每个氢原子对燃烧热的贡献大约是 $pu\{150kJ/mol}$。也就是说近似的：
+- 燃烧热：则每个碳原子对燃烧热的贡献大约是 $\pu\{400kJ/mol}$，每个氢原子对燃烧热的贡献大约是 $\pu\{150kJ/mol}$。也就是说近似的：
 
   $$
   Q(\ce\{C\_xH\_y})\approx 400x+150y
@@ -262,7 +304,7 @@ $$
   \ce\{C\_xH\_y + $\paren\{x+\dfrac\{y}\{4}}$O2 ->\[点燃] xCO2 + \dfrac\{y}\{2}H2O(g)}
   $$
 
-  对于等物质的量的有机物，$paren\{x+\dfrac\{y}\{4}}$ 的值越大，耗氧量越多、燃烧热越大；对于等质量的有机物，$y/x$ 的值越大，耗氧量越多，燃烧热越大。
+  对于等物质的量的有机物，$\paren\{x+\dfrac\{y}\{4}}$ 的值越大，耗氧量越多、燃烧热越大；对于等质量的有机物，$y/x$ 的值越大，耗氧量越多，燃烧热越大。
 
 如果已知有机物的元素组成，也可以通过燃烧，检测水和二氧化碳的方法来测定。
 
@@ -290,9 +332,9 @@ $$
 
 1. **分子的转动**：吸收或发射的光处在远红外区或微波区，称为远红外光谱或微波谱。
 
-2. **分子中原子间的振动**：通常振动光谱在近红外区和中红外区，一般称为红外光谱（\[IR]\{.abbr title="Infrared Spectroscopy (红外光谱法)"}）。
+2. **分子中原子间的振动**：通常振动光谱在近红外区和中红外区，一般称为红外光谱（IR）。
 
-3. **分子中电子在不同能级的分子轨道间跃迁**：得到紫外-可见光谱（\[UV]\{.abbr title="Ultraviolet (紫外线)"}-Vis）。
+3. **分子中电子在不同能级的分子轨道间跃迁**：得到紫外-可见光谱（UV-Vis）。
 
 因此：
 
@@ -306,9 +348,10 @@ $$
 
 ### 金刚烷 \{#\_17}
 
-金刚烷，分子式 $ce\{C10H16}$，它的碳架结构相当于金刚石晶格网络中的一个晶胞，故得名金刚烷。它是一种脂环烃，具有类似樟脑的气味，是无色晶体，容易结晶，其衍生物可以用作药物。
+金刚烷，分子式 $\ce\{C10H16}$，它的碳架结构相当于金刚石晶格网络中的一个晶胞，故得名金刚烷。它是一种脂环烃，具有类似樟脑的气味，是无色晶体，容易结晶，其衍生物可以用作药物。
 
-![alt text](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCA0NjIuNSA0MTguOTkiPjxwYXRoIGQ9Ik0xNyAzMDYgMCAzMTguOTlsNzYuNS0xMzIuNSA0IDEuMDEgMiA1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgNTApIi8+PHBhdGggZD0ibTE0MyAyNzAgNCAzdjRMMCAzMTguOTkgMTcgMzA2em0xNDEuNSAzNy41IDQgOS41TDE0NyAyNzd2LTRsNC0zeiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgNTApIi8+PHBhdGggZD0ibTM1MCAxOTQuNSA4LjUtNyA0IDEuNDktNzQgMTI4LjAxLTQtOS41eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgNTApIi8+PHBhdGggZD0iTTIyMCAyMzEuNDlWMjIzbDEzNC41LTM4LjUgNCAzLTguNSA3ek04Mi41IDE5Mi41bC0yLTUgNC0zTDEzMSAxOTh2OHpNMjIwIDIyM3Y4LjQ5bC01Ny0xNS45OVYyMDd6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MCA1MCkiLz48cGF0aCBkPSJtNzYuNSA0MC41IDggNnYxMzhsLTQgMy00LTEuMDF6TTE0MyAxMjhsOCAydjE0MGwtNCAzLTQtM3ptMjExLjUtODEuNSA4LTZ2MTQ4LjQ5bC00LTEuNDktNC0zeiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgNTApIi8+PHBhdGggZD0iTTIxOSAwdjRsLTguNSA2LjUtMTI2IDM2LTgtNnptMTQzLjUgNDAuNS04IDZMMjIxIDlsLTItNVYweiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgNTApIi8+PHBhdGggZD0iTTIxMC41IDEwLjUgMjE5IDRsMiA1LTcwIDEyMS04LTJ6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MCA1MCkiLz48L3N2Zz4=){width="20%"}
+<img src="../Adamantane_acsv.svg" width="20%" alt="alt text">
+
 金刚烷的化学性质较为复杂，课内不涉及，其性质详见 [金刚烷 - 维基百科](https://zh.wikipedia.org/zh-hans/金刚烷#化学性质)。
 
 ### 环氧乙烷 \{#\_18}
@@ -327,8 +370,10 @@ $$
 
 环氧乙烷通常用于制备乙二醇：
 
-![](data:image/avif;base64,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){width="20%"}$ce{+ H2O ->}\quad$
-![](/static/image/image-35.2e961db061.avif){width="30%"}
+<img src="../image-34.avif" width="20%">$\ce\{+ H2O ->}\quad$
+
+<img src="../image-35.avif" width="30%">
+
 乙烯在 Ag 催化剂的作用下与氧气发生氧化反应，生成环氧化合物：
 
 $$
@@ -347,7 +392,8 @@ $$
 
 季戊四醇也称为【数据删除】醇。
 
-![alt text](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOTIuMDQgNjguMDUiPjxwYXRoIGQ9Ik05Ny4zOCAzNC4wNWgtMS4ydi0xLjJMMTIzLjk4IDVsLjUgMS45em0tMjkgMjktLjUtMS45IDI3LjEtMjcuMWgxLjJ2MS4yem0tLjUtNTYuMS41LTEuOSAyNy44IDI3Ljh2MS4yaC0xLjJ6bTU2LjYgNTQuMTUtLjUgMS45LTI3LjgtMjcuNzV2LTEuMmgxLjJ6bS0xMTkuNDgxLjIwNHYtMTcuMThoMi4yNzN2Ny4wNTVoOC45M3YtNy4wNTVoMi4yNzN2MTcuMThoLTIuMjczdi04LjA5OGgtOC45M3Y4LjA5OHptMTYuNTctOC4zNjdxMC00LjI3OCAyLjI5Ny02LjY5N2MyLjI5Ny0yLjQxOSAzLjUwOC0yLjQyIDUuOTMtMi40MnEyLjM4IDAgNC4yODkgMS4xMzdjMS45MDkgMS4xMzcgMi4yNDQgMS44MTQgMi45MTIgMy4xN3MxLjAwMiAyLjg5MyAxLjAwMiA0LjYxMXEwIDIuNjEzLTEuMDU1IDQuNjc2Yy0xLjA1NSAyLjA2My0xLjY5OSAyLjQxNi0yLjk4OCAzLjEyM3MtMi42OCAxLjA2MS00LjE3MiAxLjA2MXEtMi40MjYgMC00LjMzNi0xLjE3MmMtMS45MS0xLjE3Mi0yLjIzOC0xLjg0OC0yLjg5NS0zLjE5OXMtLjk4NC0yLjc4Mi0uOTg0LTQuMjltMi4zNDQuMDM1cTAgMy4xMDUgMS42NyA0Ljg5M2MxLjY3IDEuNzg4IDIuNTEgMS43ODcgNC4xODkgMS43ODdxMi41NjYgMCA0LjIyNS0xLjgwNWMxLjY1OS0xLjgwNSAxLjY1OC0yLjkxIDEuNjU4LTUuMTIxcTAtMi4wOTctLjcwOS0zLjY2MmMtLjcwOS0xLjU2NS0xLjE2NC0xLjg1Mi0yLjA3NC0yLjQyNnMtMS45MzItLjg2MS0zLjA2NC0uODYxcS0yLjQxNCAwLTQuMTU0IDEuNjU4Yy0xLjc0IDEuNjU4LTEuNzQxIDIuOTUxLTEuNzQxIDUuNTM3Ii8+PHBhdGggZD0ibTM5Ljk4IDU1LjQ1LjQ1LTEuNjUgMjcuNDUgNy4zNS41IDEuOXptMTE0LjE1NS0zOC4xMTdxMC00LjI3OCAyLjI5Ny02LjY5N2MyLjI5Ny0yLjQxOSAzLjUwOC0yLjQyIDUuOTMtMi40MnEyLjM4IDAgNC4yODkgMS4xMzdjMS45MDkgMS4xMzcgMi4yNDQgMS44MTQgMi45MTIgMy4xN3MxLjAwMiAyLjg5MyAxLjAwMiA0LjYxMXEwIDIuNjEzLTEuMDU1IDQuNjc2Yy0xLjA1NSAyLjA2My0xLjY5OSAyLjQxNi0yLjk4OCAzLjEyM3MtMi42OCAxLjA2MS00LjE3MiAxLjA2MXEtMi40MjYgMC00LjMzNi0xLjE3MmMtMS45MS0xLjE3Mi0yLjIzOC0xLjg0OC0yLjg5NS0zLjE5OXMtLjk4NC0yLjc4My0uOTg0LTQuMjltMi4zNDQuMDM1cTAgMy4xMDUgMS42NyA0Ljg5M2MxLjY3IDEuNzg4IDIuNTEgMS43ODcgNC4xODkgMS43ODdxMi41NjYgMCA0LjIyNS0xLjgwNWMxLjY1OS0xLjgwNSAxLjY1OC0yLjkxIDEuNjU4LTUuMTIxcTAtMi4wOTctLjcwOS0zLjY2MmMtLjcwOS0xLjU2NS0xLjE2NC0xLjg1Mi0yLjA3NC0yLjQyNnMtMS45MzItLjg2MS0zLjA2NC0uODYxcS0yLjQxNCAwLTQuMTU0IDEuNjU4Yy0xLjc0IDEuNjU4LTEuNzQxIDIuOTUxLTEuNzQxIDUuNTM3bTE3LjA4NiA4LjMzMlY4LjUyaDIuMjczdjcuMDU1aDguOTNWOC41MmgyLjI3M1YyNS43aC0yLjI3M3YtOC4wOThoLTguOTNWMjUuN3ptLTIwLjk4NS0xMy0uNDUgMS42LTI3LjY1LTcuNC0uNS0xLjl6bTEuNTU1IDQwLjE3OXEwLTQuMjc4IDIuMjk3LTYuNjk3YzIuMjk3LTIuNDE5IDMuNTA4LTIuNDIgNS45My0yLjQycTIuMzggMCA0LjI4OSAxLjEzN2MxLjkwOSAxLjEzNyAyLjI0NCAxLjgxNCAyLjkxMiAzLjE3czEuMDAyIDIuODkzIDEuMDAyIDQuNjExcTAgMi42MTMtMS4wNTUgNC42NzZjLTEuMDU1IDIuMDYzLTEuNjk5IDIuNDE2LTIuOTg4IDMuMTIzcy0yLjY4IDEuMDYxLTQuMTcyIDEuMDYxcS0yLjQyNiAwLTQuMzM2LTEuMTcyYy0xLjkxLTEuMTcyLTIuMjM4LTEuODQ4LTIuODk1LTMuMTk5cy0uOTg0LTIuNzgyLS45ODQtNC4yOW0yLjM0NC4wMzZxMCAzLjEwNSAxLjY3IDQuODkzYzEuNjcgMS43ODggMi41MSAxLjc4NyA0LjE4OSAxLjc4N3EyLjU2NiAwIDQuMjI1LTEuODA1YzEuNjU5LTEuODA1IDEuNjU4LTIuOTEgMS42NTgtNS4xMjFxMC0yLjA5Ny0uNzA5LTMuNjYyYy0uNzA5LTEuNTY1LTEuMTY0LTEuODUyLTIuMDc0LTIuNDI2cy0xLjkzMi0uODYxLTMuMDY0LS44NjFxLTIuNDE0IDAtNC4xNTQgMS42NThjLTEuNzQgMS42NTgtMS43NDEgMi45NTEtMS43NDEgNS41MzdtMTcuMDg2IDguMzMydi0xNy4xOGgyLjI3M3Y3LjA1NWg4Ljkzdi03LjA1NWgyLjI3M3YxNy4xOGgtMi4yNzN2LTguMDk4aC04LjkzdjguMDk4ek0xNTEuNjggNTMuODVsLjQ1IDEuNkwxMjMuOTggNjNsLjUtMS45ek00Ljk5OSAyNS43VjguNTJoMi4yNzN2Ny4wNTVoOC45M1Y4LjUyaDIuMjczVjI1LjdoLTIuMjczdi04LjA5OGgtOC45M1YyNS43em0xNi41Ny04LjM2N3EwLTQuMjc4IDIuMjk3LTYuNjk3YzIuMjk3LTIuNDE5IDMuNTA4LTIuNDIgNS45My0yLjQycTIuMzggMCA0LjI4OSAxLjEzN2MxLjkwOSAxLjEzNyAyLjI0NCAxLjgxNCAyLjkxMiAzLjE3czEuMDAyIDIuODkzIDEuMDAyIDQuNjExcTAgMi42MTMtMS4wNTUgNC42NzZjLTEuMDU1IDIuMDYzLTEuNjk5IDIuNDE2LTIuOTg4IDMuMTIzcy0yLjY4IDEuMDYxLTQuMTcyIDEuMDYxcS0yLjQyNiAwLTQuMzM2LTEuMTcyYy0xLjkxLTEuMTcyLTIuMjM4LTEuODQ4LTIuODk1LTMuMTk5cy0uOTg0LTIuNzgzLS45ODQtNC4yOW0yLjM0NC4wMzVxMCAzLjEwNSAxLjY3IDQuODkzYzEuNjcgMS43ODggMi41MSAxLjc4NyA0LjE4OSAxLjc4N3EyLjU2NiAwIDQuMjI1LTEuODA1YzEuNjU5LTEuODA1IDEuNjU4LTIuOTEgMS42NTgtNS4xMjFxMC0yLjA5Ny0uNzA5LTMuNjYyYy0uNzA5LTEuNTY1LTEuMTY0LTEuODUyLTIuMDc0LTIuNDI2cy0xLjkzMi0uODYxLTMuMDY0LS44NjFxLTIuNDE0IDAtNC4xNTQgMS42NThjLTEuNzQgMS42NTgtMS43NDEgMi45NTEtMS43NDEgNS41MzdNNDAuMDMgMTQuNGwtLjQ1LTEuNjUgMjguOC03LjctLjUgMS45eiIvPjwvc3ZnPg==){width="30%"}
+<img src="../Pentaerythritol.svg" width="30%" alt="alt text">
+
 季戊四醇是白色或淡黄色的结晶粉末，稍溶于乙醇，溶于水、甲醇、甘油、乙二醇、甲酰胺，不溶于丙酮、苯、石蜡、醚和四氯化碳。易被一般有机酸酯化，与稀氢氧化钠溶液同煮无反应。
 
 季戊四醇分子中含有四个等同的羟甲基，具有高度的对称性，因此常被用作多官能团化合物的制取原料。由它硝化可以制得季戊四醇四硝酸酯（太安，PETN），是一种烈性炸药；酯化可得季戊四醇三丙烯酸酯（PETA），用作涂料。
@@ -358,13 +404,16 @@ $$
 
 其中一分子羟基酸的羟基与另一分子羟基酸的羧基缩合脱去一分子水生成酯，同时这一分子羟基酸的羧基又与另一分子羟基酸的羟基缩合生成另一个酯基。
 
-![alt text](/static/image/image-36.37bb58d46b.avif){width="80%"}
+<img src="../image-36.avif" width="80%" alt="alt text">
+
 内酯即环状羧酸酯，为羟基羧酸的环酯，是由同一有机化合物中的羧基与羟基相互作用脱水（发生分子内缩合环化）而形成的环状酯。内酯键或环酯键即为存在于一个环状分子内部的特殊酯键。
 
-![](/static/svg/Lactone_Types.38260db8af.svg){width="40%"}
+<img src="../Lactone_Types.svg" width="40%">
+
 内酯可通过多种方法合成，最常见的是羟基酸（例如葡萄糖酸）发生分子内酯化：
 
-![alt text](/static/image/image-37.49a5fdfc5f.avif){width="60%"}
+<img src="../image-37.avif" width="60%" alt="alt text">
+
 内酯的化学性质与酯相似。除五元环内酯外，所有的内酯在催化剂作用下都会发生开环聚合反应。
 
 内酯与碱（如氢氧化钠）共热会发生水解，生成母体羟基酸，是内酯合成的逆反应。不同内酯发生水解的程度不同，有些是可逆反应，一般反应的平衡常数要大于对应的直链酯类，水解更加容易，原因是两者反应的焓变相差不大，但内酯的水解在熵变上有利。内酯加酸亦会水解生成相应的羟基酸。

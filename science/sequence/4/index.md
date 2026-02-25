@@ -27,15 +27,15 @@ PS：在集合论和计算机科学领域中，认为 $0$ 属于自然数。
 
 ### 戴德金-皮亚诺结构 \{#-}
 
-戴德金-皮亚诺结构可以描述为满足所有以下条件的三元组 $S,f,e$：
+戴德金-皮亚诺结构可以描述为满足所有以下条件的三元组 $(S,f,e)$：
 
-1. $e\in S$
-2. $forall a\in S)(f(a)\in S$
-3. $forall b\in S)(\forall c\in S)((f(b)=f(c))\Rightarrow(b=c$
-4. $forall a\in S)(f(a)\neq e$
-5. $forall A\subseteq S)(((e\in A)\wedge(\forall a\in A)(f(a)\in A))\Rightarrow(A=S$
+1. $(e\in S)$
+2. $(\forall a\in S)(f(a)\in S)$
+3. $(\forall b\in S)(\forall c\in S)((f(b)=f(c))\Rightarrow(b=c))$
+4. $(\forall a\in S)(f(a)\neq e)$
+5. $(\forall A\subseteq S)(((e\in A)\wedge(\forall a\in A)(f(a)\in A))\Rightarrow(A=S))$
 
-一个形象化的例子就是最上面的，即三元组 $mathbb N,(f:\mathbb N\to\mathbb N\_+;;x\mapsto(x+1)),0$。
+一个形象化的例子就是最上面的，即三元组 $(\mathbb N,(f:\mathbb N\to\mathbb N\_+;;x\mapsto(x+1)),0)$。
 
 ## 正向数学归纳法 \{#\_3}
 
@@ -91,11 +91,11 @@ $$
 
 证明：
 
-对于 $n\in\[0,5$，易证。
+对于 $n\in\[0,5)$，易证。
 
-假设对于 $n=5k+q,k\le t,k\in\mathbb Z,q\in\[0,5$ 成立。
+假设对于 $n=5k+q,k\le t,k\in\mathbb Z,q\in\[0,5)$ 成立。
 
-证明对于 $n=5(k+1)+q$ 也成立，以 $n=5(k+1$ 为例，
+证明对于 $n=5(k+1)+q$ 也成立，以 $n=5(k+1)$ 为例，
 
 $$
 Q\_\{5(k+1)}=\{1+Q\_\{5(k+1)-1}\over Q\_\{5(k+1)-2}}=\{1+Q\_\{5k+4}\over Q\_\{5k+3}}=\alpha
@@ -143,11 +143,11 @@ $$
 
 显然成立。
 
-即，$P(1),P(2$ 成立。
+即，$P(1),P(2)$ 成立。
 
 ### 性质一 \{#\_7}
 
-若 $P(n$ 成立，则 $P(n-1$ 也成立。
+若 $P(n)$ 成立，则 $P(n-1)$ 也成立。
 
 记，
 
@@ -155,13 +155,13 @@ $$
 x\_n=\{x\_1+\dots+x\_\{n-1}\over n-1}
 $$
 
-则 $P(n$ 为，
+则 $P(n)$ 为，
 
 $$
 x\_1\dots x\_\{n-1}\cdot\{x\_1+\dots+x\_\{n-1}\over n-1}\le\left(\{x\_1+\dots+x\_\{n-1}\over n-1}\right)^n
 $$
 
-即 $P(n-1$，
+即 $P(n-1)$，
 
 $$
 x\_1\dots x\_\{n-1}\le\left(\{x\_1+\dots+x\_\{n-1}\over n-1}\right)^\{n-1}
@@ -171,33 +171,33 @@ Q.E.D.
 
 ### 性质二 \{#\_8}
 
-若 $P(n$ 成立，则 $P(2n$ 成立。
+若 $P(n)$ 成立，则 $P(2n)$ 成立。
 
-我们记第一个 $P(n$ 为，
+我们记第一个 $P(n)$ 为，
 
 $$
 x\_1\dots x\_n\le\left(\{x\_1+\dots+x\_n\over n}\right)^n
 $$
 
-同样的，记第二个 $P(n$ 为，
+同样的，记第二个 $P(n)$ 为，
 
 $$
 x\_\{n+1}\dots x\_\{2n}\le\left(\{x\_\{n+1}+\dots+x\_\{2n}\over n}\right)^n
 $$
 
-我们知道 $P(2$ 是成立的，记
+我们知道 $P(2)$ 是成立的，记
 
 $$
 y\_1=x\_1\dots x\_n\ y\_2=x\_\{n+1}\dots x\_\{2n}
 $$
 
-对 $y\_1,y\_2$ 应用 $P(2$，
+对 $y\_1,y\_2$ 应用 $P(2)$，
 
 $$
 \begin\{aligned} y\_1y\_2&\le\left(\{y\_1+y\_2\over2}\right)^2\ x\_1\dots x\_\{2n}&\le\left(x\_1\dots x\_n+x\_\{n+1}\dots x\_\{2n}\over2\right)^2\ &=\{(x\_1\dots x\_n)^2+(x\_\{n+1}+x\_\{2n})^2+2x\_1\dots x\_\{2n}\over4}\ &=\{(x\_1\dots x\_n)^2+(x\_\{n+1}+x\_\{2n})^2\over2}\ &\le\{(x\_1+\dots+x\_n)^\{2n}+(x\_\{n+1}+\dots+x\_\{2n})^\{2n}\over(2n)^\{2n}}\ &\le\left(\{x\_1+\dots+x\_\{2n}\over2n}\right)^\{2n} \end\{aligned}
 $$
 
-即，$P(2n$。
+即，$P(2n)$。
 
 Q.E.D.
 
@@ -209,6 +209,6 @@ $$
 P(1),P(2)\ P(n)\Rightarrow P(2n)\ P(n)\Rightarrow P(n-1)
 $$
 
-我们可以知道，对于 $forall n\in\mathbb N^\*$，$P(n$ 成立。
+我们可以知道，对于 $\forall n\in\mathbb N^\*$，$P(n)$ 成立。
 
 END.

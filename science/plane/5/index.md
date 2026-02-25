@@ -56,7 +56,7 @@ $$
 
 在三角形中，$a=b\cos C+c\cos B$。
 
-若 $sin^2A+\sin^2B=\sin^2C$，则该三角形是以 $angle C$ 为直角的 $mathrm\{Rt\triangle}$。
+若 $\sin^2A+\sin^2B=\sin^2C$，则该三角形是以 $\angle C$ 为直角的 $\mathrm\{Rt\triangle}$。
 
 解三角形里面常用的奇怪三角函数：
 
@@ -64,7 +64,7 @@ $$
 \sin15^\circ=\cos75^\circ=\{\sqrt6-\sqrt2\over4}\[0.5em] \sin75^\circ=\cos15^\circ=\{\sqrt6+\sqrt2\over4}
 $$
 
-特殊的，如果 $sin 2A=\sin 2B$，则有 $2A=2B$ 或 $2A+2B=\pi$，即 $A=B$ 或 $A+B=90^\circ$，即等腰或直角三角形。
+特殊的，如果 $\sin 2A=\sin 2B$，则有 $2A=2B$ 或 $2A+2B=\pi$，即 $A=B$ 或 $A+B=90^\circ$，即等腰或直角三角形。
 
 ### 平面几何法 \{#\_5}
 
@@ -112,7 +112,7 @@ $$
 
 下面的证明过程只考虑锐角三角形，对于钝角三角形，结论不变。
 
-做过 $angle A$ 的垂线，则该垂线长度 $h$：
+做过 $\angle A$ 的垂线，则该垂线长度 $h$：
 
 $$
 h=b\sin C=c\sin B
@@ -142,13 +142,13 @@ $$
 
 ### 余弦定理 \{#\_10}
 
-在 $triangle ABC$ 中，
+在 $\triangle ABC$ 中，
 
 $$
 \begin\{array}\{c} \overrightarrow\{AB}=\overrightarrow\{CB}-\overrightarrow\{CA}\[0.5em] |\overrightarrow\{AB}|^2=|\overrightarrow\{CB}|^2+|\overrightarrow\{CA}|^2-2|\overrightarrow\{CB}|\cdot|\overrightarrow\{CA}|\cdot\cos\theta\[0.5em] c^2=a^2+b^2-2ab\cos\theta \end\{array}
 $$
 
-其中 $theta$ 为 $c$ 的对角，即 $angle C$；第二步就是两边平方。
+其中 $\theta$ 为 $c$ 的对角，即 $\angle C$；第二步就是两边平方。
 
 常写作：
 
@@ -168,7 +168,7 @@ $$
 \begin\{aligned} \zeta&=\sqrt\{\{1\over p}(p-a)(p-b)(p-c)}\ p&=\{a+b+c\over2} \end\{aligned}
 $$
 
-其中 $zeta$ 为 $triangle ABC$ 内切圆半径，$p$ 为三角形的半周长。
+其中 $\zeta$ 为 $\triangle ABC$ 内切圆半径，$p$ 为三角形的半周长。
 
 推论，一各三角形内切圆半径为，
 
@@ -188,16 +188,16 @@ $$
 
 ## 三角形四心 \{#\_13}
 
-|    编号    | 心的名称 |       定义      |
-| :------: | :--: | :-----------: |
-| $X\_1(I$ |  内心  | 三条**角平分线**的交点 |
-| $X\_2(G$ |  重心  |  三条**中线**的交点  |
-| $X\_3(O$ |  外心  |  三条**中垂线**的交点 |
-| $X\_4(H$ |  垂心  |  三条**高线**的交点  |
+|     编号    | 心的名称 |       定义      |
+| :-------: | :--: | :-----------: |
+| $X\_1(I)$ |  内心  | 三条**角平分线**的交点 |
+| $X\_2(G)$ |  重心  |  三条**中线**的交点  |
+| $X\_3(O)$ |  外心  |  三条**中垂线**的交点 |
+| $X\_4(H)$ |  垂心  |  三条**高线**的交点  |
 
 ### 奔驰定理 \{#\_14}
 
-在锐角 $triangle ABC$ 中，
+在锐角 $\triangle ABC$ 中，
 
 $$
 S\_\{\triangle BOC}\cdot\overrightarrow\{OA}+S\_\{\triangle AOC}\cdot\overrightarrow\{OB}+S\_\{\triangle AOB}\cdot\overrightarrow\{OC}=\vec0
@@ -207,9 +207,9 @@ $$
 
 - 设 $I$ 为内心，则 $a\cdot\overrightarrow\{IA}+b\cdot\overrightarrow\{IB}+c\cdot\overrightarrow\{IC}=\vec0$.
 
-- 设 $H$ 为垂心，则 $tan A\cdot\overrightarrow\{HA}+\tan B\cdot\overrightarrow\{HB}+\tan C\cdot\overrightarrow\{HC}=\vec0$.
+- 设 $H$ 为垂心，则 $\tan A\cdot\overrightarrow\{HA}+\tan B\cdot\overrightarrow\{HB}+\tan C\cdot\overrightarrow\{HC}=\vec0$.
 
-- 设 $O$ 为外心，则 $sin2A\cdot\overrightarrow\{OA}+\sin2B\cdot\overrightarrow\{OB}+\sin2C\cdot\overrightarrow\{OC}=\vec0$.
+- 设 $O$ 为外心，则 $\sin2A\cdot\overrightarrow\{OA}+\sin2B\cdot\overrightarrow\{OB}+\sin2C\cdot\overrightarrow\{OC}=\vec0$.
 
 ### 欧拉线定理 \{#\_15}
 
@@ -223,11 +223,11 @@ $$ \overrightarrow\{OG}=\frac\{1}\{3}\overrightarrow\{OH}=\frac\{1}\{3}(\overrig
 
 一般形式：
 
-- 已知平面上非零向量 $boldsymbol\{a}$ 与 $boldsymbol\{b}$，则 $boldsymbol\{a} \cdot \boldsymbol\{b} = \dfrac\{1}\{4}(|\boldsymbol\{a} + \boldsymbol\{b}|^2 - |\boldsymbol\{a} - \boldsymbol\{b}|^2$。
+- 已知平面上非零向量 $\boldsymbol\{a}$ 与 $\boldsymbol\{b}$，则 $\boldsymbol\{a} \cdot \boldsymbol\{b} = \dfrac\{1}\{4}(|\boldsymbol\{a} + \boldsymbol\{b}|^2 - |\boldsymbol\{a} - \boldsymbol\{b}|^2)$。
 
-- 在 $triangle ABC$ 中，若 $M$ 是 $BC$ 的中点，则 $overrightarrow\{AB} \cdot \overrightarrow\{AC} = |\overrightarrow\{AM}|^2 - \dfrac\{1}\{4}|\overrightarrow\{BC}|^2$。
+- 在 $\triangle ABC$ 中，若 $M$ 是 $BC$ 的中点，则 $\overrightarrow\{AB} \cdot \overrightarrow\{AC} = |\overrightarrow\{AM}|^2 - \dfrac\{1}\{4}|\overrightarrow\{BC}|^2$。
 
-在 $triangle ABC$ 中，对于共起点的数量积 $overrightarrow\{AB} \cdot \overrightarrow\{AC}$ 的求解问题，我们首先想到的是找出 $BC$ 的中点 $M$，则
+在 $\triangle ABC$ 中，对于共起点的数量积 $\overrightarrow\{AB} \cdot \overrightarrow\{AC}$ 的求解问题，我们首先想到的是找出 $BC$ 的中点 $M$，则
 
 $$
 \overrightarrow\{AM} = \dfrac\{1}\{2}(\overrightarrow\{AB} + \overrightarrow\{AC})
@@ -239,19 +239,19 @@ $$
 \overrightarrow\{AB} \cdot \overrightarrow\{AC} = \left\[\dfrac\{1}\{2}(\overrightarrow\{AB} + \overrightarrow\{AC})\right]^2 - \dfrac\{1}\{4}|\overrightarrow\{BC}|^2
 $$
 
-化简整理便可得到如下结论：在 $triangle ABC$ 中，
+化简整理便可得到如下结论：在 $\triangle ABC$ 中，
 
 $$
 2\overrightarrow\{AB} \cdot \overrightarrow\{AC} = |\overrightarrow\{AB}|^2 + |\overrightarrow\{AC}|^2 - |\overrightarrow\{BC}|^2
 $$
 
-任何事物都是由特殊再到一般，我们研究平面几何问题更多的是在研究三角形，因为三角形是我们接触最多也是最熟悉的，然后由三角形再延伸到四边形问题。那么对于向量余弦式是否也可以延伸到四边形呢？我们知道四边形通过对角线是可以分割成三角形的，下面一起来探讨这个问题。在平面四边形 $ABCD$ 中，它可以由 $triangle ABC$ 与 $triangle ACD$ 组成，则在 $triangle ABC$ 中，由向量余弦式可得
+任何事物都是由特殊再到一般，我们研究平面几何问题更多的是在研究三角形，因为三角形是我们接触最多也是最熟悉的，然后由三角形再延伸到四边形问题。那么对于向量余弦式是否也可以延伸到四边形呢？我们知道四边形通过对角线是可以分割成三角形的，下面一起来探讨这个问题。在平面四边形 $ABCD$ 中，它可以由 $\triangle ABC$ 与 $\triangle ACD$ 组成，则在 $\triangle ABC$ 中，由向量余弦式可得
 
 $$
 \overrightarrow\{AB} \cdot \overrightarrow\{AC} = \dfrac\{|\overrightarrow\{AB}|^2 + |\overrightarrow\{AC}|^2 - |\overrightarrow\{BC}|^2}\{2}
 $$
 
-那么在 $triangle ACD$ 中，则向量余弦式可得
+那么在 $\triangle ACD$ 中，则向量余弦式可得
 
 $$
 \overrightarrow\{AD} \cdot \overrightarrow\{AC} = \dfrac\{|\overrightarrow\{AD}|^2 + |\overrightarrow\{AC}|^2 - |\overrightarrow\{DC}|^2}\{2}
@@ -287,7 +287,8 @@ $$
 \vecc\{AD}=\dfrac12\vecc\{AB}+\dfrac12\vecc\{AC}
 $$
 
-![交叉定理](/static/image/image.12aaea5c6a.avif){width="100%"}
+<img src="../image.avif" width="100%" alt="交叉定理">
+
 即对边比例相乘向量相加。
 
 ### 重心及其性质 \{#\_18}
@@ -408,7 +409,7 @@ $$
 
 ### 中线长定理 \{#\_23}
 
-在 $triangle ABC$ 中，$BC$ 的中点为 $M$，对于中线 $AM$，有：
+在 $\triangle ABC$ 中，$BC$ 的中点为 $M$，对于中线 $AM$，有：
 
 $$
 AM^2=\{1\over2}b^2+\{1\over2}c^2-\{1\over4}a^2
@@ -442,7 +443,7 @@ $$
 
 ### 分角定理 \{#\_24}
 
-在 $triangle ABC$ 中，$BC$ 上有一点 $M$，则：
+在 $\triangle ABC$ 中，$BC$ 上有一点 $M$，则：
 
 $$
 \{BM\over CM}=\{AB\sin\angle BAM\over AC\sin\angle CAM}
@@ -464,7 +465,7 @@ $$
 
 ### 角平分线定理 \{#\_25}
 
-在 $triangle ABC$ 中，$angle A$ 的平分线 $AM$，有：
+在 $\triangle ABC$ 中，$\angle A$ 的平分线 $AM$，有：
 
 $$
 \{BM\over CM}=\{AB\over AC}
@@ -490,7 +491,7 @@ $$
 
 在初中我们学习过影高乘积等于树高平方的射影定理。
 
-在 $triangle ABC$ 中 $BC$ 上的高为 $AD$，则：
+在 $\triangle ABC$ 中 $BC$ 上的高为 $AD$，则：
 
 $$
 AB^2=BD\cdot BC
@@ -506,7 +507,7 @@ $$
 
 ### 斯图尔特定理 \{#\_29}
 
-又译斯台沃特定理，在 $triangle ABC$ 边 $BC$ 上任意一点 $D$，
+又译斯台沃特定理，在 $\triangle ABC$ 边 $BC$ 上任意一点 $D$，
 
 $$
 AB^2\cdot CD+AC^2\cdot BD-AD^2\cdot BC=BD\cdot CD\cdot BC
@@ -536,18 +537,20 @@ $$
 
 ### 边元塞瓦定理 \{#\_31}
 
-![赛瓦定理](/static/image/边元塞瓦定理.0c77706733.avif){width="100%"}
+<img src="../边元塞瓦定理.avif" width="100%" alt="赛瓦定理">
+
 其逆定理用于表示三角形内三点共线，角元塞瓦定理较为复杂。
 
 ### 梅涅劳斯定理 \{#\_32}
 
-一直线与 $triangle ABC$ 的三边 $AB,BC,AC$ 或他们的延长线分别交于 $X,Y,Z$ 三点，则：
+一直线与 $\triangle ABC$ 的三边 $AB,BC,AC$ 或他们的延长线分别交于 $X,Y,Z$ 三点，则：
 
 $$
 \dfrac\{AX}\{XB}\cdot\dfrac\{BY}\{YC}\cdot\dfrac\{CZ}\{ZA}=0
 $$
 
-![梅涅劳斯定理](data:image/avif;base64,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){width="70%"}
+<img src="../梅涅劳斯定理.avif" width="70%" alt="梅涅劳斯定理">
+
 梅涅劳斯定理的逆定理表示为，满足上述式子，则 $X,Y,Z$ 三点共线。
 
 ## 面积公式 \{#\_33}
@@ -576,13 +579,13 @@ $$
 \begin\{aligned} S&=\sqrt\{(p-a)(p-b)(p-c)(p-d)-abcd\cos^2\{\alpha+\beta\over2}}\ p&=\{a+b+c+d\over2} \end\{aligned}
 $$
 
-其中 $p$ 为四边形的半周长，$alpha,\beta$ 为其中二个对角。
+其中 $p$ 为四边形的半周长，$\alpha,\beta$ 为其中二个对角。
 
 布雷特施奈德公式可视为婆罗摩笈多公式之推广。
 
 ### 婆罗摩笈多公式 \{#\_36}
 
-注意到圆内接四边形对角互补，其半角余弦值为零，$cos90^\circ=0$ 则圆内接四边形面积可以简化为：
+注意到圆内接四边形对角互补，其半角余弦值为零，$\cos90^\circ=0$ 则圆内接四边形面积可以简化为：
 
 $$
 \begin\{aligned} S&=\sqrt\{(p-a)(p-b)(p-c)(p-d)}\ p&=\{a+b+c+d\over2} \end\{aligned}

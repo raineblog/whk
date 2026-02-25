@@ -1,27 +1,28 @@
 # 微积分 \{#\_1}
 
-![alt text](/static/image/image-6.d71726c7e6.avif)
+<img src="../image-6.avif" alt="alt text">
+
 ## 积分 \{#\_2}
 
 ### 几何意义 \{#\_3}
 
-如果在 $a,b]\(a\neq b$ 上函数 $f(x$ 连续且恒有 $f(x)\geq 0$，那么定积分 $displaystyle\int\_\{a}^\{b}f(x)dx$ 表示由曲线 $y=f(x$ 以及直线 $x=a,x=b,y=0$ 围成的曲边梯形的面积。
+如果在 $\[a,b]\(./a\neq b)$ 上函数 $f(x)$ 连续且恒有 $f(x)\geq 0$，那么定积分 $\displaystyle\int\_\{a}^\{b}f(x)dx$ 表示由曲线 $y=f(x)$ 以及直线 $x=a,x=b,y=0$ 围成的曲边梯形的面积。
 
-若 $f(x)\leq 0$，那么定积分 $displaystyle\int\_\{a}^\{b}f(x)dx$ 表示由曲线 $y=f(x$ 以及直线 $x=a,x=b,y=0$ 围成的曲边梯形的面积的**负值**。
+若 $f(x)\leq 0$，那么定积分 $\displaystyle\int\_\{a}^\{b}f(x)dx$ 表示由曲线 $y=f(x)$ 以及直线 $x=a,x=b,y=0$ 围成的曲边梯形的面积的**负值**。
 
-如果我们把 $x$ 轴上方的面积赋予正号，下方的面积赋予负号，那么在一般情形下，定积分 $displaystyle\int\_\{a}^\{b}f(x)dx$ 表示由曲线 $y=f(x$ 以及直线 $x=a,x=b,y=0$ 围成的各部分图形面积的代数和。
+如果我们把 $x$ 轴上方的面积赋予正号，下方的面积赋予负号，那么在一般情形下，定积分 $\displaystyle\int\_\{a}^\{b}f(x)dx$ 表示由曲线 $y=f(x)$ 以及直线 $x=a,x=b,y=0$ 围成的各部分图形面积的代数和。
 
-### 微积分基本定理 / $mathrm\{Newton-Leibniz}$ 牛顿 - 莱布尼兹公式 \{#mathrmnewton-leibniz-}
+### 微积分基本定理 / $\mathrm\{Newton-Leibniz}$ 牛顿 - 莱布尼兹公式 \{#mathrmnewton-leibniz-}
 
 以下设 $C$ 是一个常数。
 
-如果 $f(x$ 是 $a,b$ 上的连续函数且 $F'(x)=f(x$，那么
+如果 $f(x)$ 是 $\[a,b]$ 上的连续函数且 $F'(x)=f(x)$，那么
 
 $$
 \boxed\{\int\_\{a}^\{b}f(x)\ dx=F(x)|\_\{a}^\{b}=F(b)-F(a) }
 $$
 
-我们称 $F(x$ 是 $f(x$ 的原函数。因为 $F(x)+C]'=f(x$，所以 $F(x)+C$ 也是 $f(x$ 的原函数。
+我们称 $F(x)$ 是 $f(x)$ 的原函数。因为 $\[F(x)+C]'=f(x)$，所以 $F(x)+C$ 也是 $f(x)$ 的原函数。
 
 常用定积分公式：
 
@@ -71,27 +72,27 @@ $$
    \int\_a^b f(x)\ dx=\int\_a^c f(x)\ dx+\int\_c^b f(x)\ dx
    $$
 
-4. 在区间 $a,b$ 上满足 $f(x)\geq 0$，则 $$int\_a^b f(x)\ dx\geq 0$$
+4. 在区间 $\[a,b]$ 上满足 $f(x)\geq 0$，则 $$\int\_a^b f(x)\ dx\geq 0$$
 
-5. 在区间 $a,b$ 上满足 $f(x)\leq g(x$，则 $$int\_a^b f(x)\ dx\leq\int\_a^b g(x)\ dx$$
+5. 在区间 $\[a,b]$ 上满足 $f(x)\leq g(x)$，则 $$\int\_a^b f(x)\ dx\leq\int\_a^b g(x)\ dx$$
 
 6. $$
    \left|\int\_a^bf(x)\ dx\right |\leq\int\_a^b|f(x)|\ dx
    $$
 
-7. 若 $f(x$ 是偶函数，且在 $-a,a$ 上连续，则 $$int\_\{-a}^af(x)\ dx=2\int\_0^af(x)\ dx$$
+7. 若 $f(x)$ 是偶函数，且在 $\[-a,a]$ 上连续，则 $$\int\_\{-a}^af(x)\ dx=2\int\_0^af(x)\ dx$$
 
-8. 若 $f(x$ 是奇函数，且在 $-a,a$ 上连续，则 $$int\_\{-a}^af(x)\ dx=0$$
+8. 若 $f(x)$ 是奇函数，且在 $\[-a,a]$ 上连续，则 $$\int\_\{-a}^af(x)\ dx=0$$
 
 #### 不定积分 \{#\_5}
 
-我们现在需要一种简单的表示反导数的方式。根据微积分基本定理，我们可以用 $displaystyle\int f(x)\ dx$ 表示"函数 $f$ 的反导数的集合"，注意任何可积函数都有无数个反导数，唯一不同的是常数部分。例如，
+我们现在需要一种简单的表示反导数的方式。根据微积分基本定理，我们可以用 $\displaystyle\int f(x)\ dx$ 表示"函数 $f$ 的反导数的集合"，注意任何可积函数都有无数个反导数，唯一不同的是常数部分。例如，
 
 $$
 \int x^2\ dx=\frac\{x^3}\{3}+C
 $$
 
-对于任意常数 $C$ 都成立。也就是说，若 $F'(x)=f(x$，则
+对于任意常数 $C$ 都成立。也就是说，若 $F'(x)=f(x)$，则
 
 $$
 \int f(x)\ dx=F(x)+C
@@ -101,7 +102,7 @@ $$
 
 #### 换元法 \{#\_6}
 
-- 第一换元积分法：令 $y=g(x$ 有：
+- 第一换元积分法：令 $y=g(x)$ 有：
 
 $$
 \red\{\boxed\{\int\_a^bf(g(x))g'(x)\ dx=\int\_\{g(a)}^\{g(b)}f(y)\ dy}}
@@ -155,45 +156,45 @@ $$
 \red\{\boxed\{\int u\ dv=uv-\int v\ du}}
 $$
 
-1. 计算 $displaystyle\int x\cos x\ dx$，设 $u=x,dv=\cos x\ dx$，则 $du=dx,v=\sin x$ $$int x\cos x\ dx=x\sin x-\int \sin x\ dx=x\sin x+\cos x+C$$
+1. 计算 $\displaystyle\int x\cos x\ dx$，设 $u=x,dv=\cos x\ dx$，则 $du=dx,v=\sin x$ $$\int x\cos x\ dx=x\sin x-\int \sin x\ dx=x\sin x+\cos x+C$$
 
-2. 计算 $displaystyle\int\arctan x\ dx$，设 $u=\arctan x,dv=dx$，则 $displaystyle du=\frac\{1}\{1+x^2}\ dx,v=x$ $$begin\{aligned}\int \arctan x&=x\arctan x-\int\frac\{1}\{1+x^2}\ dx=x\arctan x-\frac\{1}\{2}\int\frac\{1}\{1+x^2}d(1+x^2)&=x\arctan x-\frac\{1}\{2}\ln(1+x^2)+C\end\{aligned}$$
+2. 计算 $\displaystyle\int\arctan x\ dx$，设 $u=\arctan x,dv=dx$，则 $\displaystyle du=\frac\{1}\{1+x^2}\ dx,v=x$ $$\begin\{aligned}\int \arctan x&=x\arctan x-\int\frac\{1}\{1+x^2}\ dx=x\arctan x-\frac\{1}\{2}\int\frac\{1}\{1+x^2}d(1+x^2)&=x\arctan x-\frac\{1}\{2}\ln(1+x^2)+C\end\{aligned}$$
 
-3. 计算 $displaystyle\int x\ln x\ dx$，设 $u=\ln x,dv=x\ dx$，则 $displaystyle du=\frac\{1}\{x}\ dx,v=\frac\{1}\{2}x^2$ $$int x\ln x\ dx=\frac\{1}\{2}x^2\ln x-\int\frac\{1}\{x}\cdot\frac\{1}\{2}x^2\ dx=\frac\{1}\{2}x^2\ln x-\frac\{1}\{4}x^2+C$$
+3. 计算 $\displaystyle\int x\ln x\ dx$，设 $u=\ln x,dv=x\ dx$，则 $\displaystyle du=\frac\{1}\{x}\ dx,v=\frac\{1}\{2}x^2$ $$\int x\ln x\ dx=\frac\{1}\{2}x^2\ln x-\int\frac\{1}\{x}\cdot\frac\{1}\{2}x^2\ dx=\frac\{1}\{2}x^2\ln x-\frac\{1}\{4}x^2+C$$
 
 #### Gamma 函数（第二类欧拉积分） \{#gamma}
 
-欧拉发现当 $n$ 为整数时，$displaystyle\int\_0^\{+\infty}t^ne^\{-t}\ dt=n!$，于是我们把 $n$ 替换成实数，就可变为
+欧拉发现当 $n$ 为整数时，$\displaystyle\int\_0^\{+\infty}t^ne^\{-t}\ dt=n!$，于是我们把 $n$ 替换成实数，就可变为
 
 $$
 \Gamma(s)=\int\_0^\{+\infty}t^\{s-1}e^\{-t}\ dt
 $$
 
-1. $s$ 为非正整数的复数 $s$ 时，$Gamma(s+1)=s\Gamma(s$
-2. $n$ 为整数时，$Gamma(n+1)=n!$
-3. 余元公式（欧拉反射原理）：$s\in(0,1$ 时，$displaystyle\Gamma(s)\Gamma(1-s)=\frac\{\pi}\{\sin\pi s}$，得 $displaystyle\Gamma\left(\frac\{1}\{2}\right)=\sqrt\pi$
+1. $s$ 为非正整数的复数 $s$ 时，$\Gamma(s+1)=s\Gamma(s)$
+2. $n$ 为整数时，$\Gamma(n+1)=n!$
+3. 余元公式（欧拉反射原理）：$s\in(0,1)$ 时，$\displaystyle\Gamma(s)\Gamma(1-s)=\frac\{\pi}\{\sin\pi s}$，得 $\displaystyle\Gamma\left(\frac\{1}\{2}\right)=\sqrt\pi$
 
 #### 应用 \{#\_8}
 
 1. 计算 $y=e^x$ 在 $x=0$ 与 $x=1$ 之间与 $x$ 轴围成的曲边梯形的面积。
 
-只需计算 $displaystyle\int\_0^1e^x\ dx=e^1-e^0=e-1$
+只需计算 $\displaystyle\int\_0^1e^x\ dx=e^1-e^0=e-1$
 
 1. 计算 $x=y^2$ 与 $x=1$ 之间围成的图形的面积。
 
-只需计算 $displaystyle\int\_0^1(\sqrt\{x}-(-\sqrt\{x}))\ dx=\int\_0^1(2\sqrt\{x})\ dx=\frac\{4}\{3}\sqrt\{x^3}|\_0^1=\frac\{4}\{3}-0=\frac\{4}\{3}$
+只需计算 $\displaystyle\int\_0^1(\sqrt\{x}-(-\sqrt\{x}))\ dx=\int\_0^1(2\sqrt\{x})\ dx=\frac\{4}\{3}\sqrt\{x^3}|\_0^1=\frac\{4}\{3}-0=\frac\{4}\{3}$
 
-1. 【2025 GD 一模 T19】如果函数 $F(x$ 的导数为 $F'(x)=f(x$，可记为 $displaystyle\int f(x)\ dx=F(x$，若 $f(x)\geq 0$，则 $displaystyle\int\_a^bf(x)\ dx=F(b)-F(a$ 表示曲线 $y=f(x$，直线 $x=a,x=b$ 以及 $x$ 轴围成的"曲边梯形"的面积。如：$displaystyle\int 2x\ dx=x^2+C$，其中 $C$ 为常数；$displaystyle\int\_0^2 2x\ dx=(2^2+C)-(0+C)=4$，则表示 $x=0,x=1,y=2x+C$ 以及 $x$ 轴围成的面积为 $4$. $1$ 若 $f(x)=\displaystyle\int(e^x+1)\ dx,f(0)=2$，求 $f(x$ 的表达式。 $2$ 求曲线 $y=x^2$ 与直线 $y=-x+6$ 所围成图形的面积。 $3$ 若 $f(x)=e^x-1-2mx,x\in\[0,+\infty$，其中 $m\in\R,\forall a,b\in\[0,+\infty$，若 $a>b$，都满足 $displaystyle\int\_0^a f(x)\ dx>\int\_0^b f(x)\ dx$，求 $m$ 取值范围。
+1. 【2025 GD 一模 T19】如果函数 $F(x)$ 的导数为 $F'(x)=f(x)$，可记为 $\displaystyle\int f(x)\ dx=F(x)$，若 $f(x)\geq 0$，则 $\displaystyle\int\_a^bf(x)\ dx=F(b)-F(a)$ 表示曲线 $y=f(x)$，直线 $x=a,x=b$ 以及 $x$ 轴围成的"曲边梯形"的面积。如：$\displaystyle\int 2x\ dx=x^2+C$，其中 $C$ 为常数；$\displaystyle\int\_0^2 2x\ dx=(2^2+C)-(0+C)=4$，则表示 $x=0,x=1,y=2x+C$ 以及 $x$ 轴围成的面积为 $4$. $(1)$ 若 $f(x)=\displaystyle\int(e^x+1)\ dx,f(0)=2$，求 $f(x)$ 的表达式。 $(2)$ 求曲线 $y=x^2$ 与直线 $y=-x+6$ 所围成图形的面积。 $(3)$ 若 $f(x)=e^x-1-2mx,x\in\[0,+\infty)$，其中 $m\in\R,\forall a,b\in\[0,+\infty)$，若 $a>b$，都满足 $\displaystyle\int\_0^a f(x)\ dx>\int\_0^b f(x)\ dx$，求 $m$ 取值范围。
 
-解：$1)\ f(x)=e^x+x+1$.
+解：$(1)\ f(x)=e^x+x+1$.
 
-$2$ 先解方程 $x^2=-x+6$ 得到 $x=-3$ 或 $2$.
+$(2)$ 先解方程 $x^2=-x+6$ 得到 $x=-3$ 或 $2$.
 
-答案即为 $displaystyle\int\_\{-3}^2 (-x+6-x^2)\ dx=(-\frac\{1}\{2}x^2+6x-\frac\{1}\{3}x^3)|\_\{-3}^2=\frac\{22}\{3}-(-\frac\{27}\{2})=\frac\{125}\{6}$.
+答案即为 $\displaystyle\int\_\{-3}^2 (-x+6-x^2)\ dx=(-\frac\{1}\{2}x^2+6x-\frac\{1}\{3}x^3)|\_\{-3}^2=\frac\{22}\{3}-(-\frac\{27}\{2})=\frac\{125}\{6}$.
 
-$3$ 由题意可知，$forall a,b\in\[0,+\infty),a>b$ 满足 $F(a)-F(0)>F(b)-F(0$，即 $F(a)\uparrow$，进而 $f(x)\geq 0$ 在 $0,+\infty$ 恒成立。
+$(3)$ 由题意可知，$\forall a,b\in\[0,+\infty),a>b$ 满足 $F(a)-F(0)>F(b)-F(0)$，即 $F(a)\uparrow$，进而 $f(x)\geq 0$ 在 $\[0,+\infty)$ 恒成立。
 
-接下来就是常规导数了。分离参数 $m\leq\frac\{e^x-1}\{2x}=g(x),g'(x)=\frac\{(x-1)e^x+1}\{2x^2}$，令 $h(x)=(x-1)e^x,h'(x)=xe^x\geq 0$，即 $h(x)\uparrow,g'(x)\uparrow,g(x)\uparrow$，由洛必达法则，$displaystyle m\leq\lim\_\{x\to 0}\frac\{e^x-1}\{2x}=\lim\_\{x\to 0}\frac\{e^x}\{2}=\frac\{1}\{2}$.
+接下来就是常规导数了。分离参数 $m\leq\frac\{e^x-1}\{2x}=g(x),g'(x)=\frac\{(x-1)e^x+1}\{2x^2}$，令 $h(x)=(x-1)e^x,h'(x)=xe^x\geq 0$，即 $h(x)\uparrow,g'(x)\uparrow,g(x)\uparrow$，由洛必达法则，$\displaystyle m\leq\lim\_\{x\to 0}\frac\{e^x-1}\{2x}=\lim\_\{x\to 0}\frac\{e^x}\{2}=\frac\{1}\{2}$.
 
 ## 微积分在数列中的应用 \{#\_9}
 
@@ -217,7 +218,7 @@ $$
 y'+P(x)y=Q(x)
 $$
 
-先解 $y'+P(x)y=0$ 得到 $y=Ce^\{-\int P(x)dx}$，再令 $C=u(x$ 得
+先解 $y'+P(x)y=0$ 得到 $y=Ce^\{-\int P(x)dx}$，再令 $C=u(x)$ 得
 
 $$
 y=u(x)e^\{-\int P(x) dx}
@@ -229,7 +230,7 @@ $$
 u'(x)=\frac\{Q(x)}\{e^\{-\int P(x)dx}}
 $$
 
-对 $u'(x$ 积分带入得到通解：
+对 $u'(x)$ 积分带入得到通解：
 
 $$
 y=Ce^\{-\int P(x)dx}+e^\{-\int P(x)dx}\int Q(x)e^\{\int P(x)dx}dx
@@ -239,19 +240,19 @@ $$
 
 ***
 
-$displaystyle a\_1=1,a\_\{n+1}=a\_n+\frac\{1}\{a\_n}$，求 $a\_\{2024}$ 的整数部分？
+$\displaystyle a\_1=1,a\_\{n+1}=a\_n+\frac\{1}\{a\_n}$，求 $a\_\{2024}$ 的整数部分？
 
-设 $a\_n$ 近似为一个连续函数 $f(x$，考虑 $a\_\{n+1}-a\_n$ 和 $frac\{1}\{a\_n}$ 的关系。对于 $n\to +\infty$，有
+设 $a\_n$ 近似为一个连续函数 $f(x)$，考虑 $a\_\{n+1}-a\_n$ 和 $\frac\{1}\{a\_n}$ 的关系。对于 $n\to +\infty$，有
 
 $$
 f'(x)=\frac\{1}\{f(x)}\implies\frac\{\mathrm\{d}f(x)}\{\mathrm\{d}x}=\frac\{1}\{f(x)} \implies f(x)\mathrm\{d}f(x)=\mathrm\{d}x\implies\int f(x)\mathrm\{d}f(x)=\int\mathrm\{d}x\implies \frac\{f^2(x)}\{2}=x+C
 $$
 
-由 $f(1)=1$ 得到 $displaystyle C=-\frac\{1}\{2}$，微分方程解得 $f(x)=\sqrt\{2x-1}$，得到 $f(2024)=\sqrt\{4047}\approx 63$
+由 $f(1)=1$ 得到 $\displaystyle C=-\frac\{1}\{2}$，微分方程解得 $f(x)=\sqrt\{2x-1}$，得到 $f(2024)=\sqrt\{4047}\approx 63$
 
 ***
 
-已知 $displaystyle a\_1=1,a\_\{n+1}=a\_n-\frac\{1}\{3}a\_n^2$，则 $100a\_\{100}$ 的范围是哪个：$displaystyle\left(2,\frac\{5}\{2}\right),\left(\frac\{5}\{2},3\right), \left(3,\frac\{7}\{2}\right$ ？
+已知 $\displaystyle a\_1=1,a\_\{n+1}=a\_n-\frac\{1}\{3}a\_n^2$，则 $100a\_\{100}$ 的范围是哪个：$\displaystyle\left(2,\frac\{5}\{2}\right),\left(\frac\{5}\{2},3\right), \left(3,\frac\{7}\{2}\right)$ ？
 
 $$
 \frac\{1}\{a\_\{n+1}}=\frac\{3}\{a\_n(3-a\_n)}=\frac\{1}\{a\_n}+\frac\{1}\{3-a\_n}>\frac\{1}\{a\_n}+\frac\{1}\{3}
@@ -279,13 +280,13 @@ $$
 \frac\{1}\{a\_\{100}}\<\frac\{1}\{40}\implies 100a\_\{100}>\frac\{5}\{2}
 $$
 
-这道题是我们班的补充题，当时无人证出 $displaystyle >\frac\{5}\{2}$，我们老师上课思考了不到 $15$ 分钟讲了这种方法（他从不备课），注意力简直惊为天人。
+这道题是我们班的补充题，当时无人证出 $\displaystyle >\frac\{5}\{2}$，我们老师上课思考了不到 $15$ 分钟讲了这种方法（他从不备课），注意力简直惊为天人。
 
-积分法：$displaystyle f(x)=a\_n,f'(x)=\frac\{df(x)}\{dx}=-\frac\{1}\{3}f^2(x)\implies \int f^\{-2}(x)df(x)=\int-\frac\{1}\{3}dx-f^\{-1}(x)=-\frac\{1}\{3}x+C,f(x)=\frac\{3}\{x+C}\implies\frac\{3}\{x+2}$，显然 $displaystyle 100a\_\{100}\in\left(\frac\{5}\{2},3\right$. 可以代入 $a\_2,a\_3$ 获得更高的精度。
+积分法：$\displaystyle f(x)=a\_n,f'(x)=\frac\{df(x)}\{dx}=-\frac\{1}\{3}f^2(x)\implies \int f^\{-2}(x)df(x)=\int-\frac\{1}\{3}dx-f^\{-1}(x)=-\frac\{1}\{3}x+C,f(x)=\frac\{3}\{x+C}\implies\frac\{3}\{x+2}$，显然 $\displaystyle 100a\_\{100}\in\left(\frac\{5}\{2},3\right)$. 可以代入 $a\_2,a\_3$ 获得更高的精度。
 
 ***
 
-已知 $displaystyle a\_1=1,a\_\{n+1}=\frac\{a\_n}\{1+\sqrt\[3]\{a\_n}}$，求 $S\_\{100}$ 的整数部分。
+已知 $\displaystyle a\_1=1,a\_\{n+1}=\frac\{a\_n}\{1+\sqrt\[3]\{a\_n}}$，求 $S\_\{100}$ 的整数部分。
 
 答案：准确值是 $2.38$.
 
@@ -301,29 +302,29 @@ $$
 a\_n=\frac\{27}\{(x+2)^3},\zeta(3)=\sum\_\{n=1}^\{\infty}\frac\{1}\{n^3}\approx 1.202,S\_\{\infty}=27\cdot 0.077=2.079
 $$
 
-另外，欧拉常数 $displaystyle\gamma=\lim\_\{n\to\infty}\left\[\left(\sum\_\{k=1}^n\frac\{1}\{k}\right)-\ln n\right]=\int\_1^\{\infty}\left(\frac\{1}\{\lfloor x\rfloor}-\frac\{1}\{x}\right)\approx 0.57721 56649 01532 86060$，于是可以估计 $displaystyle\sum\_\{k=1}^n\frac\{1}\{k}\approx\ln n+\gamma$.
+另外，欧拉常数 $\displaystyle\gamma=\lim\_\{n\to\infty}\left\[\left(\sum\_\{k=1}^n\frac\{1}\{k}\right)-\ln n\right]=\int\_1^\{\infty}\left(\frac\{1}\{\lfloor x\rfloor}-\frac\{1}\{x}\right)\approx 0.57721 56649 01532 86060$，于是可以估计 $\displaystyle\sum\_\{k=1}^n\frac\{1}\{k}\approx\ln n+\gamma$.
 
 ***
 
-也可以用一个结论（Basel 问题，[知乎专栏](https://zhuanlan.zhihu.com/p/144278965) ）：$red\{\boxed\{\sum\_\{n=1}^\{+\infty}\frac\{1}\{n^2}=\frac\{\pi^2}\{6}\approx 1.645}}$
+也可以用一个结论（Basel 问题，[知乎专栏](https://zhuanlan.zhihu.com/p/144278965) ）：$\red\{\boxed\{\sum\_\{n=1}^\{+\infty}\frac\{1}\{n^2}=\frac\{\pi^2}\{6}\approx 1.645}}$
 
-相关证明：设黎曼 Zeta 函数 $zeta(s)=\displaystyle\sum\_\{n=1}^\{+\infty}\frac\{1}\{n^s}\ (s>1$，显然 $displaystyle\lim\_\{s\to 1^+}\zeta(s)=+\infty,\lim\_\{s\to+\infty}\zeta(s)=1$.
+相关证明：设黎曼 Zeta 函数 $\zeta(s)=\displaystyle\sum\_\{n=1}^\{+\infty}\frac\{1}\{n^s}\ (s>1)$，显然 $\displaystyle\lim\_\{s\to 1^+}\zeta(s)=+\infty,\lim\_\{s\to+\infty}\zeta(s)=1$.
 
-由泰勒展开得 $displaystyle\sin x=x-\frac\{x^3}\{6}+\frac\{x^5}\{120}+\dots=\sum\_\{k=0}^\{+\infty}\frac\{(-1)^k}\{(2k+1)!}x^\{2k+1}$
+由泰勒展开得 $\displaystyle\sin x=x-\frac\{x^3}\{6}+\frac\{x^5}\{120}+\dots=\sum\_\{k=0}^\{+\infty}\frac\{(-1)^k}\{(2k+1)!}x^\{2k+1}$
 
-因此 $displaystyle\frac\{\sin x}\{x}=1-\frac\{x^2}\{3!}+\frac\{x^4}\{5!}+\dots=\sum\_\{n=0}^\{+\infty}\frac\{(-1)^nx^\{2n}}\{(2n+1)!}①$（ $displaystyle\frac\{\sin x}\{x}$ 的无穷级数展开）
+因此 $\displaystyle\frac\{\sin x}\{x}=1-\frac\{x^2}\{3!}+\frac\{x^4}\{5!}+\dots=\sum\_\{n=0}^\{+\infty}\frac\{(-1)^nx^\{2n}}\{(2n+1)!}①$（ $\displaystyle\frac\{\sin x}\{x}$ 的无穷级数展开）
 
-熟知 $displaystyle\frac\{\sin x}\{x}$ 的无穷乘积展开 $displaystyle\frac\{\sin x}\{x}=\prod\_\{n=1}^\{+\infty}\left(1-\frac\{x^2}\{n^2\pi^2}\right)=\left(1-\frac\{x^2}\{\pi^2}\right)\left(1-\frac\{x^2}\{4\pi^2}\right)\cdots②$
+熟知 $\displaystyle\frac\{\sin x}\{x}$ 的无穷乘积展开 $\displaystyle\frac\{\sin x}\{x}=\prod\_\{n=1}^\{+\infty}\left(1-\frac\{x^2}\{n^2\pi^2}\right)=\left(1-\frac\{x^2}\{\pi^2}\right)\left(1-\frac\{x^2}\{4\pi^2}\right)\cdots②$
 
-Basel 问题即 $displaystyle\zeta(2)=\sum\_\{n=1}^\{+\infty}\frac\{1}\{n^2}$，比较 $①②$ 式中二次项系数得 $displaystyle -\frac\{1}\{3!}=-\frac\{1}\{\pi^2}-\frac\{1}\{2^2\pi^2}-\dots$
+Basel 问题即 $\displaystyle\zeta(2)=\sum\_\{n=1}^\{+\infty}\frac\{1}\{n^2}$，比较 $①②$ 式中二次项系数得 $\displaystyle -\frac\{1}\{3!}=-\frac\{1}\{\pi^2}-\frac\{1}\{2^2\pi^2}-\dots$
 
-由此可得 $displaystyle\zeta(2)=\frac\{\pi^2}\{6}$，进一步地我们有 $displaystyle\zeta(4)=\frac\{\pi^4}\{90},\zeta(6)=\frac\{\pi^6}\{945}$.
+由此可得 $\displaystyle\zeta(2)=\frac\{\pi^2}\{6}$，进一步地我们有 $\displaystyle\zeta(4)=\frac\{\pi^4}\{90},\zeta(6)=\frac\{\pi^6}\{945}$.
 
 $$
 \zeta(2n)=\left\[\sum\_\{k=1}^\{n-1}\frac\{(-1)^\{k+1}\pi^\{2k}\zeta(2n-2k)}\{(2k+1)!}\right]+\frac\{(-1)^\{n+1}n\pi^\{2n}}\{(2n+1)!}\ \ \ \ \ \ n\in\N^\*
 $$
 
-上述思路可总结出一个结论：若 $displaystyle\sum\_\{k=0}^\{+\infty}a\_kx^k=\prod\_\{k=1}^\{+\infty}(1+b\_kx$，设 $S\_n=\displaystyle\sum\_\{k=1}^\{+\infty}b\_k^n$，则 $$S\_1=a\_1,\ \ \ S\_n=\displaystyle\sum\_\{k=1}^\{n-1}(-1)^\{k+1}a\_kS\_\{n-k}+(-1)^\{n+1}na\_n$$
+上述思路可总结出一个结论：若 $\displaystyle\sum\_\{k=0}^\{+\infty}a\_kx^k=\prod\_\{k=1}^\{+\infty}(1+b\_kx)$，设 $S\_n=\displaystyle\sum\_\{k=1}^\{+\infty}b\_k^n$，则 $$S\_1=a\_1,\ \ \ S\_n=\displaystyle\sum\_\{k=1}^\{n-1}(-1)^\{k+1}a\_kS\_\{n-k}+(-1)^\{n+1}na\_n$$
 
 ### 积分放缩在数列中的应用 \{#\_10}
 
@@ -343,13 +344,13 @@ $$
 \begin\{aligned}\sum\_\{k=1}^n\frac\{1}\{\sqrt\{k} }&>\int\_1^\{n+1}\frac\{1}\{\sqrt\{x} }\ dx=2\sqrt\{x}|\_1^\{n+1}=2\left(\sqrt\{n+1}-1\right)&\<\int\_0^n\frac\{1}\{\sqrt\{x} }\ dx=2\sqrt\{x}|\_0^n=2\sqrt\{n}\end\{aligned}
 $$
 
-练习 1：证明 $displaystyle\sum\_\{k=2}^n\frac\{1}\{k\sqrt\{k}}\<\sqrt\{2}\ \ \ \ \text\{}$ 和 $\ \ \ \displaystyle\frac\{2}\{3}n^\frac\{3}\{2}\leq\sum\_\{k=1}^n\sqrt\{k}\leq\frac\{2}\{3}\[(n+1)^\frac\{3}\{2}-n$
+练习 1：证明 $\displaystyle\sum\_\{k=2}^n\frac\{1}\{k\sqrt\{k}}\<\sqrt\{2}\ \ \ \ \text\{}$ 和 $\ \ \ \ \displaystyle\frac\{2}\{3}n^\frac\{3}\{2}\leq\sum\_\{k=1}^n\sqrt\{k}\leq\frac\{2}\{3}\[(n+1)^\frac\{3}\{2}-n]$
 
-练习 2：证明 $displaystyle\sum\_\{k=2}^\{n+1}\frac\{1}\{k}\<\ln(n+1)\<\sum\_\{k=1}^n\frac\{1}\{k}\ \ \ \ \text\{}$ 和 $\ \ \ \displaystyle\frac\{4}\{7}\<\sum\_\{k=n+1}^\{2n}\frac\{1}\{k}\<\ln 2\<\frac\{25}\{36}\<\frac\{\sqrt\{2}}\{2}$
+练习 2：证明 $\displaystyle\sum\_\{k=2}^\{n+1}\frac\{1}\{k}\<\ln(n+1)\<\sum\_\{k=1}^n\frac\{1}\{k}\ \ \ \ \text\{}$ 和 $\ \ \ \ \displaystyle\frac\{4}\{7}\<\sum\_\{k=n+1}^\{2n}\frac\{1}\{k}\<\ln 2\<\frac\{25}\{36}\<\frac\{\sqrt\{2}}\{2}$
 
-练习 3：证明 $displaystyle\begin\{cases}\displaystyle\sum\_\{k=1}^n\frac\{1}\{k^p}\<\frac\{p}\{p-1}\&p>1\displaystyle\sum\_\{k=1}^n\frac\{1}\{k^p}\geq\displaystyle\sum\_\{k=1}^n\frac\{1}\{k}>\ln n\&p\leq 1\end\{cases}$
+练习 3：证明 $\displaystyle\begin\{cases}\displaystyle\sum\_\{k=1}^n\frac\{1}\{k^p}\<\frac\{p}\{p-1}\&p>1\displaystyle\sum\_\{k=1}^n\frac\{1}\{k^p}\geq\displaystyle\sum\_\{k=1}^n\frac\{1}\{k}>\ln n\&p\leq 1\end\{cases}$
 
-我们还可以根据 $f(x$ 的凹凸性进一步放缩。
+我们还可以根据 $f(x)$ 的凹凸性进一步放缩。
 
 当 $f(x)\downarrow$ 且下凸时，
 

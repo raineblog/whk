@@ -20,9 +20,10 @@
 
 5. 马吕斯定理：马吕斯定理指出，垂直于入射波面的入射光线束，经过任意次反射和折射，出射光线束仍然垂直于出射波面，并且在入射波面和出射波面间的所有光路光程都相等。通过电磁学理论分析，马吕斯定理是显而易见的：同一个光源发出的入射波面，经过反射和折射得到的出射波面，两者相位差是恒定的。波的行进带来相位差，于是光程也恒定。
 
-光在同种均匀介质中沿直线传播，在真空中光的传播速度为 $c=\pu\{299 792 458 m/s}$，约 $pu\{3\times10^8m/s}$，不同颜色的光在真空中的传播速度相同，在其他介质中的传播速度不同。正在发光的物体叫做光源。
+光在同种均匀介质中沿直线传播，在真空中光的传播速度为 $c=\pu\{299 792 458 m/s}$，约 $\pu\{3\times10^8m/s}$，不同颜色的光在真空中的传播速度相同，在其他介质中的传播速度不同。正在发光的物体叫做光源。
 
-![alt text](/static/image/image-18.20f0223629.avif){width="100%"}
+<img src="../image-18.avif" width="100%" alt="alt text">
+
 以上为光的最简单三个性质，我们在初中就已经涉及，后面我们会分别展开讲解。
 
 光学系统：
@@ -53,7 +54,8 @@
 
 反射是一种物理现象，指波阵面从一个介质进入另一个介质时，部分或全部的波在两介质界面处，传播方向发生改变且返回原介质的现象。常见的例子包括光、声波和水波的反射。
 
-![alt text](/static/image/image-c6b859b.b41f141704.avif){width="80%"}
+<img src="../image-c6b859b.avif" width="80%" alt="alt text">
+
 在光学方面，无论是漫反射还是镜面反射都遵从光的反射定律，即在反射现象中，反射光线，入射光线，法线在同一平面内，反射角等于入射角，反射光线与入射光线分居法线两侧。平面镜成像就是光的反射造成的。
 
 光的反射可以是镜面反射（如同镜子）或漫反射（保留了能量，但丢失了像，但仍遵从反射定律），取决于界面性质。镜面反射以相同的角度反射从给定方向到达的所有光，而漫反射则以广泛的方向反射光。这种区别可以用涂有光泽油漆和哑光油漆的表面来说明。哑光涂料基本上表现出完全的漫反射，而光泽涂料显示出更多的镜面反射。由非吸收性粉末（如石膏）制成的表面可以是近乎完美的漫射器，而抛光的金属物体可以非常有效地镜面反射光线。镜子的反射材料通常是铝或银。
@@ -62,8 +64,9 @@
 
 一面镜子就可以提供光的镜面反射的最常见模型，镜子往往由一块有着金属涂层的薄玻璃板组成，而这金属涂层才是反射实际发生的地方。反射在金属中会增强，因为金属对于超出它们集肤深度的波能起到抑制传播的作用。反射同样能在透明介质的界面上发生，例如水和玻璃。
 
-![alt text](/static/svg/image_2ae7a8c.df6d68dcba.svg){width="40%"}
-在示意图中，一束光线 $PO$ 在点 $O$ 处射到了一面竖直镜子上，反射光线是 $OQ$ 。在点 $O$ 处作出一条假想的与镜面垂直的直线，叫做法线（normal）。有了法线，我们可以测量出入射角 $theta \_\{i}$，和反射角 $theta \_\{r}$。反射定律表述为 $theta \_\{r}=\theta \_\{i}$，换句话说，反射角等于入射角，同时反射光线，入射光线，法线在同一平面内，反射光线与入射光线分局法线两侧。
+<img src="../image_2ae7a8c.svg" width="40%" alt="alt text">
+
+在示意图中，一束光线 $PO$ 在点 $O$ 处射到了一面竖直镜子上，反射光线是 $OQ$ 。在点 $O$ 处作出一条假想的与镜面垂直的直线，叫做法线（normal）。有了法线，我们可以测量出入射角 $\theta \_\{i}$，和反射角 $\theta \_\{r}$。反射定律表述为 $\theta \_\{r}=\theta \_\{i}$，换句话说，反射角等于入射角，同时反射光线，入射光线，法线在同一平面内，反射光线与入射光线分局法线两侧。
 
 事实上，只要光从一个有着特定折射率的介质传播进入一个有着不同折射率的介质，光的反射就会发生。在绝大多数情况下，只有一部分光会从界面反射，余下的则会折射。通过解在一束光线射到一个界面上的情况下的麦克斯韦方程组，派生出了菲涅耳方程组，用它可以预测在特定情况下，多少光发生反射和多少光发生折射。这与阻抗失配在一个电回路中引起信号反射的方式类似。当光从光密介质入射时，如果入射角大于临界角，全内反射就会发生。
 
@@ -79,8 +82,10 @@
 
 大多数物体发送到我们眼中的光，都是由于它们表面发生了漫反射，所以这便是我们进行肉眼观察的主要机制。下图左侧为中学阶段的一个常见的简化模型，右侧为一个更详细的机理描述。
 
-![alt text](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMTM2IDIxMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJzdmdfX2dpdGh1Yl93b3JrX19hIiB4MT0iODgiIHgyPSI4OCIgeTE9IjY2IiB5Mj0iNTQiIGdyYWRpZW50VHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTUxIC0yMykiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMGYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwMGYiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMzYiIGhlaWdodD0iMjEyIiBmaWxsPSIjZmZmIi8+PHBhdGggZmlsbD0iI2FhYSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjAuOCIgZD0iTTEzNCAyMTB2LTIybC00IDEtMiAyLTEtMi0yLTEtMyAyLTEtMi0yIDItMyAxLTEtMi0yIDEtMiAyLTEtNC01IDEtMS0yaC0zbC0xIDJoLTJsLTItMi0xIDJoLTVsLTEgMmgtM2wtMS0yLTEgMy0zIDEtMS0zLTMtMS0xIDItMi0xLTMgMS0xLTItNC0yaC0ybC0xIDJ2NGwtMy0yLTItMi01IDEtNC0zLTIgMWgtM2wtMSAzLTMtMy0yIDEtMi0xLTIgMi00LTMtMSAyLTMgMS00LTItMS0zLTIgNC0yIDEtMS00aC0ybC0xIDQtNi0yLTEgNC0yLTEtMi0ydjIxIi8+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDBmIiBzdHJva2Utd2lkdGg9IjAuOCIgZD0iTTEwNyA0NHYxNDVMNzIgNjJtMjUtMTh2MTQ0bDYtMTE5TTg3IDQ0djE0N0w1NCA3NG0yMy0zMHYxNDVMMjYgOThtNDEtNTR2MTQ0TDkxIDY2TTU3IDQ0djE0NUw3IDEyM200MC03OXYxNDRMNDMgNzNtLTYtMjl2MTQ0bDc5LTgxIi8+PGcgaWQ9InN2Z19fZ2l0aHViX3dvcmtfX2MiPjxnIGlkPSJzdmdfX2dpdGh1Yl93b3JrX19iIj48cGF0aCBmaWxsPSIjMDBmIiBkPSJtMzcgNDMgMi0yLTIgNi0yLTZ6Ii8+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI3N2Z19fZ2l0aHViX3dvcmtfX2EpIiBkPSJNMzcgMzF2MTIiLz48L2c+PHVzZSB4bGluazpocmVmPSIjc3ZnX19naXRodWJfd29ya19fYiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTApIi8+PHVzZSB4bGluazpocmVmPSIjc3ZnX19naXRodWJfd29ya19fYiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjApIi8+PHVzZSB4bGluazpocmVmPSIjc3ZnX19naXRodWJfd29ya19fYiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzApIi8+PC9nPjx1c2UgeGxpbms6aHJlZj0iI3N2Z19fZ2l0aHViX3dvcmtfX2MiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQwKSIvPjxwYXRoIGZpbGw9IiMwMGYiIGQ9Ik0xMTUuNyAxMDcuM2gtMi44bDUuNi0zLTIuOCA1Ljd6TTEwMyA2OS41bC0yIDIgMi4yLTYgMS44IDZ6bS0xMi0zLjQtMi40IDEuNiAzLTUuNS44IDYuM3ptLTE5LTMuOC0xIDIuNi0uMy02LjMgNCA1ek01NCA3NC4xbC0xLjIgMi42di02LjNsNCA1em0tMTEtMS0yIDIgMS42LTYgMi40IDUuOHpNMjYuMiA5OC41bC0uNSAyLjgtMS43LTYgNSAzLjh6bS0xOSAyNC42LS40IDIuOC0yLTYgNS4zIDMuNXoiLz48ZyBzdHJva2U9IiNmZmYiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgcGFpbnQtb3JkZXI9InN0cm9rZSBtYXJrZXJzIGZpbGwiPjxzd2l0Y2g+PHRleHQgeD0iMTU3IiB5PSItNTAiIHN5c3RlbUxhbmd1YWdlPSJ5dWUiIHRyYW5zZm9ybT0icm90YXRlKDcyKSI+PHRzcGFuPuaWueWQkTwvdHNwYW4+PC90ZXh0Pjx0ZXh0IHg9IjE1NyIgeT0iLTUwIiB0cmFuc2Zvcm09InJvdGF0ZSg3MikiPjx0c3Bhbj5kaXJlY3Rpb25zPC90c3Bhbj48L3RleHQ+PC9zd2l0Y2g+PHN3aXRjaD48dGV4dCB4PSIxMDIiIHk9IjYzIiBzeXN0ZW1MYW5ndWFnZT0ieXVlIiB0cmFuc2Zvcm09InJvdGF0ZSg1MykiPjx0c3Bhbj7lj43lsITlmIXlhYnnt5o8L3RzcGFuPjwvdGV4dD48dGV4dCB4PSIxMDIiIHk9IjYzIiB0cmFuc2Zvcm09InJvdGF0ZSg1MykiPjx0c3Bhbj5SZWZsZWN0ZWQgcmF5czwvdHNwYW4+PC90ZXh0Pjwvc3dpdGNoPjxzd2l0Y2g+PHRleHQgeD0iMTIyIiB5PSIyOSIgc3lzdGVtTGFuZ3VhZ2U9Inl1ZSIgdHJhbnNmb3JtPSJyb3RhdGUoNTcpIj48dHNwYW4+5pWj6ZaL5Y67PC90c3Bhbj48L3RleHQ+PHRleHQgeD0iMTIyIiB5PSIyOSIgdHJhbnNmb3JtPSJyb3RhdGUoNTcpIj48dHNwYW4+c2NhdHRlcjwvdHNwYW4+PC90ZXh0Pjwvc3dpdGNoPjxzd2l0Y2g+PHRleHQgeD0iLTIxIiB5PSIxNTQiIHN5c3RlbUxhbmd1YWdlPSJ5dWUiIHRyYW5zZm9ybT0icm90YXRlKC0zOSkiPjx0c3Bhbj7llJTlkIw8L3RzcGFuPjwvdGV4dD48dGV4dCB4PSItMjEiIHk9IjE1NCIgdHJhbnNmb3JtPSJyb3RhdGUoLTM5KSI+PHRzcGFuPmluIGFsbDwvdHNwYW4+PC90ZXh0Pjwvc3dpdGNoPjxzd2l0Y2g+PHRleHQgeD0iMjYiIHk9IjE0IiBzeXN0ZW1MYW5ndWFnZT0ieXVlIj48dHNwYW4+5YWJ5bCE54Wn6JC9PC90c3Bhbj48dHNwYW4geD0iMzgiIHk9IjI3Ij7ljrvkuIDloYrooajpnaI8L3RzcGFuPjwvdGV4dD48dGV4dCB4PSIyNiIgeT0iMTQiPjx0c3Bhbj5MaWdodCByYXlzIHNoaW5pbmc8L3RzcGFuPjx0c3BhbiB4PSIzOCIgeT0iMjciPm9uIGEgc3VyZmFjZTwvdHNwYW4+PC90ZXh0Pjwvc3dpdGNoPjwvZz48L3N2Zz4=){width="75%"}
-![alt text](/static/svg/Diffuse_reflection1_0d7ce0d.c402ca1697.svg)
+<img src="../image_a673292.svg" width="75%" alt="alt text">
+
+<img src="../Diffuse_reflection1_0d7ce0d.svg" alt="alt text">
+
 请注意，尽管漫反射看起来是"向四面八方"的，但是其本质是宏观物质在微观上的"不平整"，其本质上仍然是遵循反射定律的。
 
 漫反射是指当一束平行的入射光线射到粗糙的表面时，粗糙的表面会把光线向着各个方向反射的现象。虽然入射线互相平行，由于粗糙的表面上的各点的法线方向不一致，造成反射光线向不同的方向无规则地反射。这种反射的光称为漫射光。很多物体，如沙土、植物、墙壁、衣服等，其表面粗看起来似乎是平滑，但用放大镜仔细观察，就会看到其表面是凹凸不平的，所以本来是平行的太阳光被这些表面反射后，弥漫地射向不同方向。
@@ -103,7 +108,8 @@
 
 有些表面会展示出逆反射。这些表面的结构使之将光向射入的方向反射。
 
-![alt text](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0yIC03IDIzIDIwIj48cGF0aCBmaWxsPSJub25lIiBmaWxsLW9wYWNpdHk9IjAiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSIwLjEiIGQ9Ik0xLjEtMWExLjM2NzQgMS4zNjc0IDAgMCAxIDAgMiIvPjxwb2x5bGluZSBmaWxsPSJub25lIiBmaWxsLW9wYWNpdHk9IjAiIHN0cm9rZT0iIzAwZiIgc3Ryb2tlLXdpZHRoPSIwLjIiIHBvaW50cz0iNiAtNiAwIDAgNiA2Ii8+PHBvbHlsaW5lIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMC4xIiBwb2ludHM9IjIxIDEyLjUgNCA0IDEuNCAtMS4yIDIwLjY5OTggOC40MDA0Ii8+PGxpbmUgeDE9IjIwLjU1MjgiIHgyPSIyMC44ODgyIiB5MT0iMTIuMjc2NCIgeTI9IjEyLjcyMzYiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMC4xIi8+PGxpbmUgeDE9IjIwLjU1MjgiIHgyPSIyMS4xMTE4IiB5MT0iMTIuMjc2NCIgeTI9IjEyLjI3NjQiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMC4xIi8+PHBvbHlsaW5lIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMC4xIiBwb2ludHM9IjIwLjI0MDkgOC40NTEzIDIwLjc5OTkgOC40NTAyIDIwLjQ2MzYgOC4wMDM3Ii8+PHBvbHlsaW5lIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMC4xIiBwb2ludHM9IjIwLjc3NjQgMyAzIDMgMyAtMyAyMSAtMyIvPjxwb2x5bGluZSBmaWxsPSJub25lIiBmaWxsLW9wYWNpdHk9IjAiIHN0cm9rZT0icmVkIiBzdHJva2Utd2lkdGg9IjAuMSIgcG9pbnRzPSIyMC4zODgyIDMuMjUgMjAuODg4MiAzIDIwLjM4ODIgMi43NSIvPjxsaW5lIHgxPSIyMC41IiB4Mj0iMjEiIHkxPSItMyIgeTI9Ii0yLjc1IiBmaWxsPSJub25lIiBmaWxsLW9wYWNpdHk9IjAiIHN0cm9rZT0icmVkIiBzdHJva2Utd2lkdGg9IjAuMSIvPjxsaW5lIHgxPSIyMC41IiB4Mj0iMjEiIHkxPSItMyIgeTI9Ii0zLjI1IiBmaWxsPSJub25lIiBmaWxsLW9wYWNpdHk9IjAiIHN0cm9rZT0icmVkIiBzdHJva2Utd2lkdGg9IjAuMSIvPjxsaW5lIHgxPSIyIiB4Mj0iNCIgeTE9IjQiIHkyPSIyIiBmaWxsPSJub25lIiBmaWxsLW9wYWNpdHk9IjAiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWRhc2hhcnJheT0iMC4yIiBzdHJva2Utd2lkdGg9IjAuMSIvPjxsaW5lIHgxPSIwLjIiIHgyPSIyLjIiIHkxPSItMi40IiB5Mj0iLTAuNCIgZmlsbD0ibm9uZSIgZmlsbC1vcGFjaXR5PSIwIiBzdHJva2U9IiMwMDAiIHN0cm9rZS1kYXNoYXJyYXk9IjAuMiIgc3Ryb2tlLXdpZHRoPSIwLjEiLz48bGluZSB4MT0iMyIgeDI9IjUiIHkxPSI1IiB5Mj0iMyIgZmlsbD0ibm9uZSIgZmlsbC1vcGFjaXR5PSIwIiBzdHJva2U9IiMwMDAiIHN0cm9rZS1kYXNoYXJyYXk9IjAuMiIgc3Ryb2tlLXdpZHRoPSIwLjEiLz48bGluZSB4MT0iMiIgeDI9IjQiIHkxPSItNCIgeTI9Ii0yIiBmaWxsPSJub25lIiBmaWxsLW9wYWNpdHk9IjAiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWRhc2hhcnJheT0iMC4yIiBzdHJva2Utd2lkdGg9IjAuMSIvPjxjaXJjbGUgY3g9IjAuOCIgcj0iMC4xIi8+PGNpcmNsZSBjeD0iMC44IiByPSIwLjEiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCIgc3Ryb2tlPSIjMWIxYjFiIiBzdHJva2Utd2lkdGg9IjAuMSIvPjwvc3ZnPg==){width="40%"}
+<img src="../Cornerreflector_b0ec3b2.svg" width="40%" alt="alt text">
+
 将三面平常的镜子两两垂直地放置，就制成了一个简单的逆反射器（角反射器）。形成的图像与单面镜子所成的相反。在一个表面上放一层微小的具有折射能力的球，或创造一些金字塔形的结构，就可以让一个表面具有一部分的逆反射特性。在这两种情况下，内部的反射造成光向它发源的地方反射回去。这被用来使交通标志和汽车牌照能基本上将光反射回它射来的地方。在这种应用中，完美的逆反射并不是想要的，因为这样的话，光就会径直地向驶来的车的车灯射去，而不是射入司机的眼睛。
 
 ### 多重反射 \{#\_7}
@@ -124,7 +130,7 @@
 
 对于像玻璃这样的介电质，光的电场影响了材料里的电子，这些移动的电子形成了场并变成新的辐射体。玻璃中的折射光是向前的辐射与入射光的联合。反射光是所有电子产生的向后的辐射的联合。
 
-在金属中，没有结合能的电子被称作自由电子。当这些电子随着入射光振动时，它们的辐射的场和入射光的场之间的相位差是 $pi$，所以向前的辐射终止了入射光，而向后的辐射就是反射光。
+在金属中，没有结合能的电子被称作自由电子。当这些电子随着入射光振动时，它们的辐射的场和入射光的场之间的相位差是 $\pi$，所以向前的辐射终止了入射光，而向后的辐射就是反射光。
 
 当光射到一个（非金属的）材料表面上时，它会向各个方向弹离，这是因为材料内部极小的不规则（例如，多晶材料的晶粒边界，有机材料的细胞或纤维边界），或是因为材料的表面粗糙，因而发生了繁多的反射造成的。因此，不会形成"图像"。这被称作漫反射。反射的确切的样子取决于材料的结构。漫反射的一个普通的模型是朗伯反射率，此时光在各个方向以相同的亮度（光度学上）或辐射率（辐射度学上）进行反射，这在朗伯余弦定律中有描述。
 
@@ -150,7 +156,7 @@ $$
 n=\dfrac\{c}\{v}=\dfrac\{\lambda\_0}\{\lambda}
 $$
 
-其中 $lambda$ 是真空中光的波长，$lambda$ 是这束光进入这种介质后的波长，也就是说
+其中 $\lambda$ 是真空中光的波长，$\lambda$ 是这束光进入这种介质后的波长，也就是说
 
 $$
 \lambda=\dfrac\{\lambda\_0}\{n}
@@ -158,8 +164,9 @@ $$
 
 我们知道，光从空气射到水面时，一部分光射进水中，另一部分光返回到空气中。
 
-![alt text](/static/image/image-19.a3b7eff066.avif){width="80%"}
-入射光线与法线的夹角 $theta\_1$ 称为入射角，折射光线与法线的夹角 $theta\_2$ 称为折射角，折射定律（斯涅尔定律）指出：
+<img src="../image-19.avif" width="80%" alt="alt text">
+
+入射光线与法线的夹角 $\theta\_1$ 称为入射角，折射光线与法线的夹角 $\theta\_2$ 称为折射角，折射定律（斯涅尔定律）指出：
 
 $$
 \dfrac\{\sin\theta\_1}\{\sin\theta\_2}=\dfrac\{v\_1}\{v\_2}=\dfrac\{\lambda\_1}\{\lambda\_1}=n\_\{12}
@@ -183,11 +190,14 @@ $$
 
 - 太阳光在斜射入棱镜后，紫光偏转角度大、红光偏转角度小，弯曲角度的差异使白光分裂成其组成颜色，这种现象称为光的色散。
 
-![alt text](/static/image/image-20.029c939ff5.avif){width="80%"}
-![](/static/svg/Prism-rainbow.c801850942.svg){width="80%"}
-如果一束光从一种介质射入另一种介质，我们称折射率较小的为光疏介质，折射率较大的为光密介质。存在一个临界角 $theta\_c$ 使得入射角大于这个角，则不会发生折射现象，所有关系全部向内面反射，称为**全反射**或全内反射。
+<img src="../image-20.avif" width="80%" alt="alt text">
 
-![](/static/svg/RefractionReflextion-zh.510e0a5fde.svg){width="100%"}
+<img src="../Prism-rainbow.svg" width="80%">
+
+如果一束光从一种介质射入另一种介质，我们称折射率较小的为光疏介质，折射率较大的为光密介质。存在一个临界角 $\theta\_c$ 使得入射角大于这个角，则不会发生折射现象，所有关系全部向内面反射，称为**全反射**或全内反射。
+
+<img src="../RefractionReflextion-zh.svg" width="100%">
+
 在不考虑耗损的情况下：
 
 $$
@@ -204,8 +214,10 @@ $$
 
 玻璃棱镜的截面为等腰直角三角形，当光从图中所示的方向射入玻璃时，由于光的方向与玻璃面垂直，光线不发生偏折。但在玻璃内部，光射向玻璃与空气的界面时，入射角大于临界角，发生全反射。与平面镜相比，它的反射率高，几乎可达 100%。
 
-![alt text](/static/image/image-22.3e8bbb66cb.avif){width="90%"}
-![alt text](/static/image/image-23.28f4e14d21.avif){width="90%"}
+<img src="../image-22.avif" width="90%" alt="alt text">
+
+<img src="../image-23.avif" width="90%" alt="alt text">
+
 注意：当发生全反射时，电磁场并非完全没有从光密介质进入光疏介质，虽然没有能量以**行进波**的形式透射进入光疏介质，但在界面处的光疏介质一侧，仍然会形成一个特殊的、非传播的电磁场，称为**倏逝波**。利用倏逝波的原理，可以制成分光器。
 
 ### 测定玻璃的折射率 \{#\_11}
@@ -224,19 +236,19 @@ $$
 
 3. 把长方形玻璃砖放在白纸上，并使其长边与 $aa'$ 重合，再用直尺画出玻璃的另一边 $bb'$。
 
-   <img alt="alt text" src={image12} />\{align="right" width="40%"}
+   <img src="../image.avif" align="right" width="40%" alt="alt text">
 
 4. 在线段 $AO$ 上竖直地插上两枚大头针 $P\_1$、$P\_2$。
 
 5. 从玻璃砖 $bb'$ 一侧透过玻璃砖观察大头针 $P\_1$、$P\_2$ 的像，调整视线方向直到 $P\_1$ 的像被 $P\_2$ 的像挡住。再在 $bb'$ 一侧插上大头针 $P\_3$、$P\_4$，使 $P\_3$ 能挡住 $P\_1$、$P\_2$ 的像，$P\_4$ 能挡住 $P\_1$、$P\_2$ 的像及 $P\_3$ 本身。
 
-6. 移去玻璃砖，在拔掉 $P\_1$、$P\_2$、$P\_3$、$P\_4$ 的同时分别记下它们的位置，过 $P\_3$、$P\_4$ 作直线 $O'B$ 交 $bb'$ 于 $O'$。连接 $O$、$O'$，$OO'$ 就是玻璃砖内折射光线的方向。$angle AON$ 为入射角，$angle O'ON'$ 为折射角。
+6. 移去玻璃砖，在拔掉 $P\_1$、$P\_2$、$P\_3$、$P\_4$ 的同时分别记下它们的位置，过 $P\_3$、$P\_4$ 作直线 $O'B$ 交 $bb'$ 于 $O'$。连接 $O$、$O'$，$OO'$ 就是玻璃砖内折射光线的方向。$\angle AON$ 为入射角，$\angle O'ON'$ 为折射角。
 
 7. 用量角器量出入射角和折射角的度数。查出它们的正弦值，并把这些数据填入记录表格里。
 
 8. 用上述方法分别求出入射角是 $15^\circ$、$30^\circ$、$45^\circ$、$60^\circ$ 和 $75^\circ$ 时的折射角，查出入射角和折射角的正弦值，记录在表格里。
 
-9. 算出不同入射角时 $dfrac\{\sin i}\{\sin r}$ 的值，比较一下，看它们是否接近一个常数。求出几次实验测得的 $dfrac\{\sin i}\{\sin r}$ 的平均值，这就是这块玻璃的折射率。
+9. 算出不同入射角时 $\dfrac\{\sin i}\{\sin r}$ 的值，比较一下，看它们是否接近一个常数。求出几次实验测得的 $\dfrac\{\sin i}\{\sin r}$ 的平均值，这就是这块玻璃的折射率。
 
 **光的折射定律**：折射光线、入射光线、法线在同一平面内，折射光线、入射光线在法线两侧。入射角的正弦跟折射角的正弦成正比，如果用 $n$ 来表示这个比例常数，就有：
 
@@ -261,20 +273,21 @@ $$
 有人可能会说，光导纤维不就是反射吗，为什么放到折射后面，事实上，光导纤维不光有这一种原理，下面也只是简单的概述，详细请参考 [光导纤维-维基百科](https://zh.wikipedia.org/zh-hans/光導纖維)。高锟在 1966 年发表研究论文《光频率介质纤维表面波导》，提出石英基玻璃纤维用于长距离及高讯息量通讯的基本原理，阐述光导纤维的构造，以降低光讯号在传送时的衰减，还提出当每公里的讯号衰减小于 20 分贝时，便能成功通过光导纤维实现长距离的光通讯。
 
 <figure>
-<p><img src="../image-1-dfbe10f.avif" style="width:80.0%" alt="alt text" /></p>
+
 <figcaption><p>雷射的反弹于一根压克力棍内部，显示出光线的全反射。</p></figcaption>
 </figure>
 
 光导纤维又称光学纤维，简称光纤，是一种由玻璃或塑料制成的纤维，光能够在纤维中以全内反射方式达成光传导。数码化的电子讯息由发光二极体或激光二极管转变为高频率的光脉冲并投射入光纤的发送端，光线通过光纤后，由接收端的光敏元件接收光讯号，再由电子线路还原为电子讯息。由于光讯号通过光纤传送时对电磁波具有极强的抗干扰能力，不像电讯号通过铜线传送时容易因为电磁波干扰而混入杂讯，而且光纤可传送的频率范围比铜线大，所以适合用于远距离及资讯量大的通讯。
 
 <figure>
-<p><img src="../image-2-2b384b7.avif" style="width:80.0%" alt="alt text" /></p>
+
 <figcaption><p>相信大家在初中时就看过这个实验</p></figcaption>
 </figure>
 
 光纤是圆柱形的介质波导，应用全内反射原理来传导光线。光纤的结构大致分为里面的纤芯部分与外面的包覆部分。为了要局限光信号于纤芯，包层的折射率必须小于纤芯的折射率。渐变光纤的折射率是缓慢改变的，从轴心到包覆，逐渐地减小；而突变光纤在核心-包覆边界区域的折射率是急剧改变的。光导纤维是双重构造，纤芯部分是高折射率玻璃，表层部分是低折射率的玻璃或塑料，光在纤芯内传输，并在表层交界处不断进行全反射，沿"之"字形向前传输。
 
-![alt text](/static/image/Optical_fiber_types_8399934-5168fcc.07c62faee3.avif){width="100%"}
+<img src="../Optical_fiber_types_8399934-5168fcc.avif" width="100%" alt="alt text">
+
 光纤主要分为两类，渐变光纤与突变光纤。前者的折射率是渐变的，而后者的折射率是突变的。另外还分为单模光纤及多模光纤。核心直径较大的光纤的物理性质，可以用几何光学的理论来分析，这种光纤称为多模光纤。在一个多模突变光纤内，光线靠著全反射传导于核心。当光线遇到核心包覆边界时，假若入射角大于临界角，则光线会被完全反射。临界角的角度是由核心折射率与包覆折射率共同决定。假若入射角小于临界角，则光线会折射入包覆，无法继续传导于核心。临界角又决定了光纤的受光角，通常以数值孔径来表示其大小。较高的数值孔径会允许光线，以较近轴心和较宽松的角度，传导于核心，造成光线和光纤更有效率的耦合。但是，由于不同角度的光线会有不同的光程，通过光纤所需的时间也会不同，所以，较高的数值孔径也会增加色散。有些时候，较低的数值孔径会是更适当的选择。
 
 渐变光纤的核心的折射率，从轴心到包覆，逐渐地减低。这会使朝著包覆传导的光线，平滑缓慢地改变方向，而不是急剧地从核心包覆边界反射过去。这样，大角度光线会花更多的时间，传导于低折射率区域，而不是高折射率区域。因此，所形成的曲线路径，会减低多重路径色散。工程师可以精心设计渐变光纤的折射率分布，使得各种光线在光纤内的轴传导速度差值，能够极小化。这理想折射率分布应该会非常接近于抛物线分布。
@@ -291,11 +304,11 @@ $$
 
 - 海市蜃楼与沙漠蜃景：折射与全反射。
 
-  <img src={image14} />\{width="60%"}
+  <img src="../Mirage_principle.svg" width="60%">
 
 - 水井中多青蛙看天：洞口更小、视野更大。
 
-  <img src={image15} />\{width="50%"}
+  <img src="../image-21.avif" width="50%">
 
 - 日出时人开太阳：人看到地平线以下的太阳。
 
@@ -305,20 +318,22 @@ $$
 
   ***
 
-  <img src={image16} />
+  <img src="../Pencil_in_a_bowl_of_water.svg">
 
 - 水中的鱼看人：**鱼看到的人偏高**。
 
   ***
 
-  <img alt="alt text" src={image17} />
+  <img src="../image-24.avif" alt="alt text">
 
 视深问题：垂直向一深度为 $h$ 的水池看去，水的视深是多少？已知水的折射率 $n$。
 
 虽然我们是垂直向下看的，但是因为我们用两个眼睛确定距离，且两个眼睛有一定距离，因此不妨取一极小角，用来计算视深。
 
-![alt text](/static/image/image-25.212d3b6dde.avif)
-![alt text](/static/image/image-26.c24dc8e078.avif)
+<img src="../image-25.avif" alt="alt text">
+
+<img src="../image-26.avif" alt="alt text">
+
 ## 波动光学 \{#\_14}
 
 > 固执于光的旧有理论的人们，最好是从它自身的原理出发，提出实验的说明。并且，如果他的这种努力失败的话，他应该承认这些事实。------托马斯·杨
@@ -327,23 +342,23 @@ $$
 
 在高中物理的机械波章节，我们通常只关注波的传播特征；但在**波动光学**（尤其是干涉）的压轴题或竞赛题中，反射时的**相位突变**是一个极易踩坑的"隐形杀手"。
 
-所谓**半波损失**，是指波从**波疏介质**（波速大、折射率小）射向**波密介质**（波速小、折射率大）时，反射波的相位会发生 $pi$ 的突变。这相当于波在反射点"平白无故"多跑（或少跑）了 **半个波长 ($lambda/2$)**，因此被称为半波损失。
+所谓**半波损失**，是指波从**波疏介质**（波速大、折射率小）射向**波密介质**（波速小、折射率大）时，反射波的相位会发生 $\pi$ 的突变。这相当于波在反射点"平白无故"多跑（或少跑）了 **半个波长 ($\lambda/2$)**，因此被称为半波损失。
 
 为了直观理解这个抽象的光学概念，我们可以借用机械波的\*\*"固定端反射"\*\*模型：
 
-- **固定端反射（波疏 $to$ 波密）**： 想象一根轻绳的一端被固定在墙上（墙壁质量极大，可视为"无限波密"）。当你抖动绳子产生一个向上的脉冲传向墙壁时，你会发现**反射回来的脉冲是向下的**。
+- **固定端反射（波疏 $\to$ 波密）**： 想象一根轻绳的一端被固定在墙上（墙壁质量极大，可视为"无限波密"）。当你抖动绳子产生一个向上的脉冲传向墙壁时，你会发现**反射回来的脉冲是向下的**。
 
-  - **物理本质**：界面处的位移必须为 0（波节），入射波和反射波必须在此处相互抵消，因此相位必须相反（差 $pi$）。
+  - **物理本质**：界面处的位移必须为 0（波节），入射波和反射波必须在此处相互抵消，因此相位必须相反（差 $\pi$）。
   - **结论**：发生半波损失。
 
-- **自由端反射（波密 $to$ 波疏）**： 如果绳子的一端套在一个光滑的竖直杆上（可以自由上下移动）。当你传来一个向上的脉冲，**反射回来的脉冲依然是向下的**？不，是**向上的**！
+- **自由端反射（波密 $\to$ 波疏）**： 如果绳子的一端套在一个光滑的竖直杆上（可以自由上下移动）。当你传来一个向上的脉冲，**反射回来的脉冲依然是向下的**？不，是**向上的**！
 
   - **物理本质**：界面处没有束缚，反射波不倒相。
   - **结论**：不发生半波损失。
 
 > **应试口诀：疏撞密，反半波；密撞疏，相不变。**
 >
-> - $n\_\{\text\{入}} \< n\_\{\text\{折}}$ （光撞墙）：有 $lambda/2$ 损失。
+> - $n\_\{\text\{入}} \< n\_\{\text\{折}}$ （光撞墙）：有 $\lambda/2$ 损失。
 > - $n\_\{\text\{入}} > n\_\{\text\{折}}$ （光撞气）：无损失。
 
 菲涅耳公式的数学证明------为什么会出现"相位突变"？本质上是边界条件的数学必然。在大学物理中，我们通过**菲涅耳公式**（Fresnel Equations）来定量描述这一过程。
@@ -356,9 +371,9 @@ $$
 
 其中 $n\_1$ 为入射介质折射率，$n\_2$ 为折射介质折射率。
 
-- **当 $n\_1 \< n\_2$（波疏 $to$ 波密）**： 分母恒正，分子 $n\_1 - n\_2 \< 0$，导致 $r$ 为**负值**。 在数学上，振幅变负等价于相位增加了 $pi$（因为 $sin(\omega t + \pi) = -\sin(\omega t$）。**这就是半波损失的数学本质。**
+- **当 $n\_1 \< n\_2$（波疏 $\to$ 波密）**： 分母恒正，分子 $n\_1 - n\_2 \< 0$，导致 $r$ 为**负值**。 在数学上，振幅变负等价于相位增加了 $\pi$（因为 $\sin(\omega t + \pi) = -\sin(\omega t)$）。**这就是半波损失的数学本质。**
 
-- **当 $n\_1 > n\_2$（波密 $to$ 波疏）**： 分子 $n\_1 - n\_2 > 0$，$r$ 为**正值**，波形不倒相，无半波损失。
+- **当 $n\_1 > n\_2$（波密 $\to$ 波疏）**： 分子 $n\_1 - n\_2 > 0$，$r$ 为**正值**，波形不倒相，无半波损失。
 
 核心考点：薄膜干涉中的光程差。在处理**薄膜干涉**（如肥皂泡、增透膜、劈尖干涉）问题时，必须先判断反射面是否发生了半波损失，再列**光程差**公式。
 
@@ -366,14 +381,14 @@ $$
 \delta = 2nd + \Delta \lambda
 $$
 
-- 若上下表面**都**发生（或都**不**发生）半波损失：$Delta \lambda = 0$。
-- 若**只有一个**表面发生半波损失：$Delta \lambda = \pm \dfrac\{\lambda}\{2}$。
+- 若上下表面**都**发生（或都**不**发生）半波损失：$\Delta \lambda = 0$。
+- 若**只有一个**表面发生半波损失：$\Delta \lambda = \pm \dfrac\{\lambda}\{2}$。
 
 **典型案例**：空气中的肥皂膜（折射率 $n \approx 1.33$）。
 
-- **前表面**（空气 $to$ 膜，光疏 $to$ 光密）：有半波损失。
-- **后表面**（膜 $to$ 空气，光密 $to$ 光疏）：无半波损失。
-- **结论**：此时的光程差公式必须加 $lambda/2$。这就是为什么极薄的肥皂膜（$d \to 0$）在反射光下看起来是**暗**的（光程差 $lambda/2$，干涉相消）。
+- **前表面**（空气 $\to$ 膜，光疏 $\to$ 光密）：有半波损失。
+- **后表面**（膜 $\to$ 空气，光密 $\to$ 光疏）：无半波损失。
+- **结论**：此时的光程差公式必须加 $\lambda/2$。这就是为什么极薄的肥皂膜（$d \to 0$）在反射光下看起来是**暗**的（光程差 $\lambda/2$，干涉相消）。
 
 ### 光的干涉 \{#\_16}
 
@@ -385,7 +400,8 @@ $$
 
 现在人们知道，两束电磁波的干涉是彼此振动的电场强度矢量叠加的结果，而由于光的波粒二象性，光的干涉也是光子自身的几率幅叠加的结果。不仅是电磁波，粒子也可以发送干涉（例如一个一个发射的电子、光子等，我们在量子力学中提到过，其实波和粒子几乎没什么区别）。
 
-![alt text](/static/image/image-1.1044faaaac.avif){width="60%"}
+<img src="../image-1.avif" width="60%" alt="alt text">
+
 两列波在同一介质中传播发生重叠时，重叠范围内介质的质点同时受到两个波的作用。若波的振幅不大，此时重叠范围内介质质点的振动位移等于各别波动所造成位移的矢量和，这称为波的叠加原理。若两波的波峰（或波谷）同时抵达同一地点，称两波在该点同相，干涉波会产生最大的振幅，称为相长干涉（建设性干涉）；若两波之一的波峰与另一波的波谷同时抵达同一地点，称两波在该点反相，干涉波会产生最小的振幅，称为相消干涉（摧毁性干涉）。
 
 如要从单一的不相干波源产生相干的两列波，可以采用两种不同的方法：一种称为波前分割法，即对于几何尺寸足够小的波源，让它产生的波列通过并排放置的狭缝，根据惠更斯－菲涅耳原理，这些在波前上产生的子波是彼此相干的；另一种成为波幅分割法，用半透射、半反射的半镀银镜，可以将光波一分为二，制造出透射波与反射波。如此产生的反射波和透射波来自于同一波源，并具有很高的相干性，这种方法对于扩展波源同样适用。
@@ -394,7 +410,8 @@ $$
 
 **薄膜干涉**：来自两个面的反射光相互叠加，发生干涉，也称薄膜干涉。通常而言，不同位置的液膜，厚度不同，因此在膜上不同的位置，来自前后两个面的反射光（即图中的实线和虚线波形代表的两列光）的路程差不同。在某些位置，这两列波叠加后相互加强，出现了亮条纹；在另一些位置，叠加后相互削弱，出现了暗条纹。
 
-![alt text](/static/svg/Optical_flat_interference.4ea1dcc63e.svg){width="80%"}
+<img src="../Optical_flat_interference.svg" width="80%" alt="alt text">
+
 如果用另一种颜色的光做这个实验，由于光的波长不同，导致从肥皂膜的前后两面反射的光将在别的位置相互加强，所以，从肥皂膜上看到的亮条纹的位置也会不同。薄膜上不同颜色的光的条纹的明暗位置不同，相互交错，所以，看上去会有彩色条纹。
 
 薄膜干涉在技术上有很多应用。例如，可以在光学元件的表面镀一层特定厚度的薄膜，增加光的透射或者反射，还可以利用薄膜干涉的原理对镜面或其他精密的光学平面的平滑度进行检测。
@@ -414,7 +431,8 @@ $$
 
 - 如果表面有一个凹陷（下陷），该处的空气层会变厚。为了找到原本那个"该有的厚度"，条纹必须向劈尖较薄的一端（也就是左边）弯曲。
 
-![alt text](/static/image/image-8.88bdb97b9b.avif){width="60%"}
+<img src="../image-8.avif" width="60%" alt="alt text">
+
 - 等厚干涉：这种利用空气劈尖进行的干涉实验，产生的干涉条纹是"等厚线"。也就是说，同一条干涉条纹上的所有点，对应的空气隙厚度（d）是相同的。
 
 - 劈尖结构：看图甲，标准板 M 和待测板 N 之间形成一个空气劈尖。左端 O 是接触点，厚度接近 0；越往右边，空气层的厚度越厚。
@@ -433,10 +451,11 @@ $$
 \dfrac\{d}\{\ell}=\dfrac\{\lambda}\{\Delta x}
 $$
 
-其中，$d$ 为双缝间距，$ell$ 为挡板与屏幕之间的举例，而 $Delta x$ 表示的是相邻的两个两条纹，取其中间部位的间距。我们用**测量头**来测量这个 $Delta x$ 因为它通常是较小的，难以像 $d,\ell$ 一样用刻度尺测量。测量头的读数类似于螺旋测微器，我们不再进行讲解。
+其中，$d$ 为双缝间距，$\ell$ 为挡板与屏幕之间的举例，而 $\Delta x$ 表示的是相邻的两个两条纹，取其中间部位的间距。我们用**测量头**来测量这个 $\Delta x$ 因为它通常是较小的，难以像 $d,\ell$ 一样用刻度尺测量。测量头的读数类似于螺旋测微器，我们不再进行讲解。
 
-![alt text](/static/image/image-2.40586f0945.avif){width="40%"}
-在实际操作中，为了演示更加清晰，我们基本上都是使用红色光进行实验，因为 $Delta x$ 与 $lambda$ 是成正比的，红光波长比较长，因此间距较大，更容易读出。类似的，我们知道，光的波长一般是比较小的，为了让 $Delta x$ 较大，我们通常会让 $ell$ 稍大一些（或者说 $d$ 通常是很小的），这样读数会更加方便。
+<img src="../image-2.avif" width="40%" alt="alt text">
+
+在实际操作中，为了演示更加清晰，我们基本上都是使用红色光进行实验，因为 $\Delta x$ 与 $\lambda$ 是成正比的，红光波长比较长，因此间距较大，更容易读出。类似的，我们知道，光的波长一般是比较小的，为了让 $\Delta x$ 较大，我们通常会让 $\ell$ 稍大一些（或者说 $d$ 通常是很小的），这样读数会更加方便。
 
 1. 按如图所示安装仪器。
 2. 实验前先取下双缝和单缝，打开光源，调节光源的高度和角度，使光源中心、单缝中心、双缝中心在遮光筒的中心轴线上。
@@ -455,10 +474,11 @@ $$
 
 这两部分光也是相干光，它们同样是用分波阵面得到的。反射光可看成是由虚光源 $S\_2$ 发出的。$S\_1$ 和 $S\_2$ 构成一对相干光源，对干涉条纹的分析与杨氏实验也相同。中画有阴影的区域表示相干光在空间叠加的区域。这时在屏上可以观察到明暗相间的干涉条纹。
 
-![alt text](/static/svg/7f497ec15f6c0d1f_e77bd7e.a7343ac41b.svg){width="60%"}
-应该指出，在劳埃德镜实验中，如果把屏幕移近到和镜面边缘 $N$ 相接触，即图 1 中 $E'$ 的位置，这时从 $S\_1$ 和 $S\_2$ 发出的光到达接触处的路程相等，应该出现明纹，但实验结果却是暗纹，其他的条纹也有相应变化。这一实验事实说明了由镜面反射出来的光和直接射到屏上的光在 $N$ 处的相位相反，即相位差为 $pi$。由于直射光的相位不会变化，所以只能认为光从空气射向玻璃平板发生反射时，反射光的相位跃变了 $pi$。
+<img src="../7f497ec15f6c0d1f_e77bd7e.svg" width="60%" alt="alt text">
 
-进一步的实验表明：光从光疏介质射到光密介质界面反射时，在掠射（入射角 $i=90^\circ$ 或正入射，即 $i=0$）的情况下，反射光的相位较之入射光的相位有 $pi$ 的突变，这一变化导致了反射光的波程在反射过程中附加了半个波长，故常称为半波损失。今后在讨论光波叠加时，若有半波损失，在计算波程差时必须计及，否则会得出与实际情况不符的结果。
+应该指出，在劳埃德镜实验中，如果把屏幕移近到和镜面边缘 $N$ 相接触，即图 1 中 $E'$ 的位置，这时从 $S\_1$ 和 $S\_2$ 发出的光到达接触处的路程相等，应该出现明纹，但实验结果却是暗纹，其他的条纹也有相应变化。这一实验事实说明了由镜面反射出来的光和直接射到屏上的光在 $N$ 处的相位相反，即相位差为 $\pi$。由于直射光的相位不会变化，所以只能认为光从空气射向玻璃平板发生反射时，反射光的相位跃变了 $\pi$。
+
+进一步的实验表明：光从光疏介质射到光密介质界面反射时，在掠射（入射角 $i=90^\circ$ 或正入射，即 $i=0$）的情况下，反射光的相位较之入射光的相位有 $\pi$ 的突变，这一变化导致了反射光的波程在反射过程中附加了半个波长，故常称为半波损失。今后在讨论光波叠加时，若有半波损失，在计算波程差时必须计及，否则会得出与实际情况不符的结果。
 
 ### 光的衍射 \{#\_20}
 
@@ -484,7 +504,8 @@ $$
 - **透射光栅**：在一块很平的玻璃上刻出一系列等距的平行刻痕，刻痕产生漫反射而不太透光，未刻的部分相当于透光的狭缝（图 4.5-5）。
 - **反射光栅**：如果在高反射率的金属上刻痕，就可以做成反射光栅。
 
-![衍射光栅示意图](/static/image/image-3.34fec8d330.avif){width="80%"}
+<img src="../image-3.avif" width="80%" alt="衍射光栅示意图">
+
 > **科学史话：泊松亮斑**
 >
 > 1818 年，法国的巴黎科学院为了鼓励对衍射问题的研究，悬赏征集这方面的论文。一位年轻的物理学家**菲涅耳**在论文中按照波动说深入研究了光的衍射。
@@ -493,18 +514,18 @@ $$
 >
 > 但是，就在竞赛的关键时刻，评委**阿拉果**在实验中观察到了这个亮斑（图 4.5-6），这样，泊松的计算反而支持了光的波动说。后人为了纪念这个有意义的事件，把这个亮斑称为**泊松亮斑**，也称为阿拉果亮斑。
 
-### X 射线衍射与 \[DNA]\{.abbr title="Deoxyribonucleic Acid (脱氧核糖核酸)"} 双螺旋 \{#x-dna}
+### X 射线衍射与 DNA 双螺旋 \{#x-dna}
 
 **X 射线衍射**：晶体中原子的排列是规则的，原子间距与 X 射线波长接近。这使得 X 射线照射在晶体上会发生明显的衍射现象。衍射图样中斑点的强度和位置包含着有关晶体的大量信息。因此，人们可以利用 X 射线衍射探测晶体的结构（图 4.5-7）。
 
 - 1912 年，德国科学家**劳厄**观测到了这种衍射现象。在当时人们并不确信 X 射线是一种电磁波，也不确信晶体是由周期性排列的原子组成的。劳厄的观测，同时证实了 X 射线的波动性和晶体内部的原子点阵结构，被爱因斯坦誉为物理学中最美的实验。劳厄因此获得了 1914 年诺贝尔物理学奖。
 - 之后，英国物理学家**布拉格父子**深入研究了利用 X 射线测量和分析晶体结构的方法。他们的工作奠定了这一技术的实验和理论基础，为此，布拉格父子共同获得了 1915 年诺贝尔物理学奖。
 
-今天，X 射线衍射已经成为人们探测晶体和大分子结构的标准技术手段之一，被广泛应用于物理学和生物学等许多领域。这一技术所带来的最重要成果之一，就是 **\[DNA]\{.abbr title="Deoxyribonucleic Acid (脱氧核糖核酸)"} 双螺旋结构**的发现。
+今天，X 射线衍射已经成为人们探测晶体和大分子结构的标准技术手段之一，被广泛应用于物理学和生物学等许多领域。这一技术所带来的最重要成果之一，就是 **DNA 双螺旋结构**的发现。
 
-- 在 20 世纪 50 年代，生物学家已经知道 \[DNA]\{.abbr title="Deoxyribonucleic Acid (脱氧核糖核酸)"} 是细胞中携带遗传信息的物质，下一步就是要搞清楚 \[DNA]\{.abbr title="Deoxyribonucleic Acid (脱氧核糖核酸)"} 的结构，从而确定它的化学作用。
-- 从 1951 年开始，英国物理学家**威尔金斯**和**富兰克林**研究了 \[DNA]\{.abbr title="Deoxyribonucleic Acid (脱氧核糖核酸)"} 对 X 射线的衍射，获得了一系列 \[DNA]\{.abbr title="Deoxyribonucleic Acid (脱氧核糖核酸)"} 纤维的 X 射线衍射图样（图 4.5-8）。
-- 英国卡文迪什实验室（主任为小布拉格）的美国生物学家**沃森**和英国生物学家**克里克**则根据这些数据提出了 \[DNA]\{.abbr title="Deoxyribonucleic Acid (脱氧核糖核酸)"} 的双螺旋结构模型。这是生物学史上划时代的事件。它宣告了分子生物学的诞生，标志着生物学已经进入了分子水平。沃森、克里克和威尔金斯因此获得了 1962 年的诺贝尔生理学或医学奖。
+- 在 20 世纪 50 年代，生物学家已经知道 DNA 是细胞中携带遗传信息的物质，下一步就是要搞清楚 DNA 的结构，从而确定它的化学作用。
+- 从 1951 年开始，英国物理学家**威尔金斯**和**富兰克林**研究了 DNA 对 X 射线的衍射，获得了一系列 DNA 纤维的 X 射线衍射图样（图 4.5-8）。
+- 英国卡文迪什实验室（主任为小布拉格）的美国生物学家**沃森**和英国生物学家**克里克**则根据这些数据提出了 DNA 的双螺旋结构模型。这是生物学史上划时代的事件。它宣告了分子生物学的诞生，标志着生物学已经进入了分子水平。沃森、克里克和威尔金斯因此获得了 1962 年的诺贝尔生理学或医学奖。
 
 > **思维拓展：巴比涅原理（互补原理）**
 >
@@ -541,7 +562,8 @@ $$
 
 让绳穿过一块带有狭缝的木板，先后将狭缝与振动方向平行放置及与振动方向垂直放置（图 4.6-1）。对于图 4.6-1 甲的情形，绳上的横波能穿过狭缝，而对于图 4.6-1 乙的情形则不能。如图 4.6-2，在一条弹簧上传播的纵波，无论狭缝的取向如何，波都能穿过。
 
-![机械波的偏振](/static/image/image-5.8aca8bb20a.avif){width="100%"}
+<img src="../image-5.avif" width="100%" alt="机械波的偏振">
+
 ### 光的偏振现象 \{#\_25}
 
 光的干涉和衍射现象说明光具有波动性。光是横波还是纵波呢？研究表明，**光是一种横波**。
@@ -553,7 +575,8 @@ $$
 
 事实上，只要光的振动方向不与透振方向垂直，它都可以不同程度地通过偏振片，不过强度要比振动方向与透振方向平行的光弱一些。
 
-![偏振片原理](/static/image/image-6.b823c90ecd.avif){width="80%"}
+<img src="../image-6.avif" width="80%" alt="偏振片原理">
+
 ### 自然光与偏振光 \{#\_26}
 
 实际上，太阳以及日光灯、发光二极管等普通光源发出的光，包含着在垂直于传播方向上沿一切方向振动的光，而且沿着各个方向振动的光波的强度都相同。这种光是\*\*"自然光"\*\*（图 4.6-4）。
@@ -569,7 +592,8 @@ $$
 
 光的偏振现象有很多应用。例如，摄影师在拍摄池中的游鱼、玻璃橱窗里的陈列物时，由于水面和玻璃表面的反射光的干扰，景象会不清楚。如果在照相机镜头前装一片**偏振滤光片**，转动滤光片，让它的透振方向与水面和玻璃表面的反射光的偏振方向垂直，就可以减弱反射光而使水下和玻璃后的景象清晰。
 
-![偏振镜的效果](/static/image/image-7.2c65e8b655.avif){width="60%"}
+<img src="../image-7.avif" width="60%" alt="偏振镜的效果">
+
 > **科学漫步：立体电影和偏振光**
 >
 > 观看立体电影（3D 电影）时，观众戴的眼镜就是一对透振方向互相垂直的偏振片。这个原理要从人眼看物的立体感说起。
@@ -584,7 +608,7 @@ $$
 >
 > **进阶知识：布儒斯特角与双折射**
 >
-> - **布儒斯特角（Brewster's Angle）**：当光以特定角度从一种介质射向另一种介质时，反射光会变成**完全偏振光**，且偏振方向垂直于入射面。此时反射光线与折射光线互相垂直 ($tan \theta\_B = n\_2/n\_1$)。摄影师旋转偏振镜消除水面反光，找的就是这个角度。
+> - **布儒斯特角（Brewster's Angle）**：当光以特定角度从一种介质射向另一种介质时，反射光会变成**完全偏振光**，且偏振方向垂直于入射面。此时反射光线与折射光线互相垂直 ($\tan \theta\_B = n\_2/n\_1$)。摄影师旋转偏振镜消除水面反光，找的就是这个角度。
 > - **双折射（Birefringence）**：光不仅仅是简单的折射。在方解石等晶体中，一束光进去，会变成两束光出来（寻常光 o 光和非寻常光 e 光）。这就像光进入了一个"各向异性"的迷宫，不同方向的"路况"（折射率）是不同的，展示了晶体结构的复杂美。
 
 ### 偏振光拓展 \{#\_28}
@@ -595,8 +619,10 @@ $$
 
 根据光的偏振方向的不同，有强规律的偏振光（被称为完全偏振光）可以分为线偏振光、圆偏振光和椭圆偏振光。线偏振光，顾名思义为偏振方向呈直线；圆偏振光，依据偏振的旋转方向可分为左旋圆偏振与右旋圆偏振，或简称为左（右）旋圆偏；椭圆偏振光可分为左（右）旋椭偏。另外还有部分偏振光。其中左旋为逆时针方向，右旋为顺时针方向。
 
-![alt text](/static/image/image-3-d4e31b1.03f9e83850.avif)
-![alt text](/static/image/image-4-8076e3a.9d216b885f.avif)
+<img src="../image-3-d4e31b1.avif" alt="alt text">
+
+<img src="../image-4-8076e3a.avif" alt="alt text">
+
 部分偏振光、自然光以及三种完全偏振光合称为光的五种偏振态。
 
 1. 线偏振光：线偏振光是指光矢量的振动方向总在同一确定的平面内、而振动的方向在传播过程中为一条直线，故称之为线偏振光，又称平面偏振光。
@@ -626,7 +652,7 @@ $$
 2. **平行度好**
 
    - **特点**：传播很远的距离后仍能保持一定的强度，方向性极佳。
-   - **应用**：**精确测距**。对准目标发出一个极短的激光脉冲，测量发射脉冲与收到反射回波的时间间隔，就可以求出目标的距离。利用激光测量地球到月亮的距离（大约为 $pu\{38 万 km}$），准确度可以达到厘米级别。此外，还用于房屋装修测距、武器目标指引等。
+   - **应用**：**精确测距**。对准目标发出一个极短的激光脉冲，测量发射脉冲与收到反射回波的时间间隔，就可以求出目标的距离。利用激光测量地球到月亮的距离（大约为 $\pu\{38 万 km}$），准确度可以达到厘米级别。此外，还用于房屋装修测距、武器目标指引等。
 
 3. **亮度高**
 

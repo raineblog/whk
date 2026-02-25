@@ -19,7 +19,7 @@ $$
 $$
 
 - 求 $A$.
-- 若 $sqrt2a + b= 2c$，求 $C$.
+- 若 $\sqrt2a + b= 2c$，求 $C$.
 
 观察到是角的二次齐次式，且都是正弦，考虑正弦定理，
 
@@ -33,13 +33,13 @@ $$
 \cos A=\{b^2+c^2-a^2\over2bc}=\{1\over2}\ A=60^\circ
 $$
 
-观察到 $sqrt2a + b= 2c$ 为边的一次齐次，考虑用正弦定理。
+观察到 $\sqrt2a + b= 2c$ 为边的一次齐次，考虑用正弦定理。
 
 $$
 \sqrt2a+b=2c\ \sqrt2\sin A+\sin B=2\sin C
 $$
 
-根据上一问，$sin A=\sin60^\circ=\sqrt3/2$，
+根据上一问，$\sin A=\sin60^\circ=\sqrt3/2$，
 
 $$
 \sqrt6/2+\sin B=2\sin C\ \sqrt6/2+\sin(120-C)=2\sin C\ \sqrt6/2+\sqrt3/2\cos C+\sin C/2=2\sin C
@@ -51,7 +51,7 @@ $$
 \{\sqrt6\over2}+\{\sqrt3\over2}\cos C+\{1\over2}\sin C=2\sin C\ \{3\over2}\sin C-\{\sqrt3\over2}\cos C=\{\sqrt6\over2}\ \{\sqrt3\over2}\sin C-\{1\over2}\cos C=\{\sqrt2\over2}\ \sin C\cos30^\circ-\cos C\sin30^\circ=\{\sqrt2\over2}\ \sin(C-30^\circ)=\{\sqrt2\over2}=\sin45^\circ
 $$
 
-因为 $C \in (0^\circ,120 ^\circ$，$C-30^\circ\in(-30^\circ,90^\circ$，因此，
+因为 $C \in (0^\circ,120 ^\circ)$，$C-30^\circ\in(-30^\circ,90^\circ)$，因此，
 
 $$
 C-30^\circ=45^\circ,\ C=75^\circ
@@ -59,22 +59,22 @@ $$
 
 ## 例题三 \{#\_4}
 
-在锐角 $triangle ABC$ 中，
+在锐角 $\triangle ABC$ 中，
 
 $$
 2b\sin A-\sqrt3a=0
 $$
 
 - 求 $B$.
-- 求 $cos A+\cos B+\cos C$ 的取值范围。
+- 求 $\cos A+\cos B+\cos C$ 的取值范围。
 
-不考虑 $sin A$ 是边的二次齐次式，于是应用正弦定理，
+不考虑 $\sin A$ 是边的二次齐次式，于是应用正弦定理，
 
 $$
 2\sin B\sin A-\sqrt2\sin A=0\ 2\sin B=\sqrt3\ \sin B=\sqrt3/2
 $$
 
-因为 $angle B$ 是锐角，
+因为 $\angle B$ 是锐角，
 
 $$
 B=60^\circ
@@ -94,7 +94,7 @@ $$
 
 即，$30^\circ\<C\<90^\circ$，$60^\circ\<C+30^\circ\<120^\circ$。
 
-画出单位圆，易得 $sin(C+30\degree)\in(\sqrt3/2,1$，即，
+画出单位圆，易得 $\sin(C+30\degree)\in(\sqrt3/2,1]$，即，
 
 $$
 \cos A+\cos B+\cos C\in\left(\{\sqrt3+1\over2},\{3\over2}\right]
@@ -102,7 +102,7 @@ $$
 
 ## 例题四 \{#\_5}
 
-在 $triangle ABC$ 中，$a+b=11$，
+在 $\triangle ABC$ 中，$a+b=11$，
 
 $$
 \cos A=\{1\over8},,\cos B=\{9\over16}
@@ -128,9 +128,9 @@ $$
 \{\sin A\over\sin B-\sin C}=\{b+c\over b-a}
 $$
 
-- 求 $cos C$。
+- 求 $\cos C$。
 
-考虑 $cos C$ 可以怎么表示，可以通过 $sin C$ 用毕达哥拉斯定理，也可以余弦定理。
+考虑 $\cos C$ 可以怎么表示，可以通过 $\sin C$ 用毕达哥拉斯定理，也可以余弦定理。
 
 考虑到这个原形式是一次齐次，因此考虑角化变。
 
@@ -158,7 +158,7 @@ $$
 
 最容易发现第二个式子最简单，可以最后带入用。
 
-因为 $cos$ 关于余弦定理，关于边数多，因此考虑后用。
+因为 $\cos$ 关于余弦定理，关于边数多，因此考虑后用。
 
 第一个式子结构很好，是一次齐次，因此带入第一个正弦定理。
 
@@ -202,13 +202,13 @@ $$
 
 ## 例题八 \{#\_9}
 
-在 $triangle ABC$ 中，
+在 $\triangle ABC$ 中，
 
 $$
 S=a^2-(b-c)^2
 $$
 
-求 $sin A$。
+求 $\sin A$。
 
 这个式子没有很好的性质，考虑展开，
 
@@ -236,13 +236,13 @@ $$
 
 ## 例题九 \{#\_10}
 
-在 $triangle ABC$ 中，
+在 $\triangle ABC$ 中，
 
 $$
 \sin A=2\sin B\cos C\ a^2=b^2+c^2-bc
 $$
 
-- 求，$triangle ABC$ 形状。
+- 求，$\triangle ABC$ 形状。
 
 两个式子都很典型，第二个好说，先处理，
 
@@ -270,17 +270,17 @@ $$
 \sin B\cos C+\cos B\sin C=2\sin B\cos C\ \sin B\cos C=\cos B\sin C\ \tan B=\tan C
 $$
 
-因为 $B,C\in(0,\pi$，正切函数在此范围内唯一，则
+因为 $B,C\in(0,\pi)$，正切函数在此范围内唯一，则
 
 $$
 B=C=A=60^\circ
 $$
 
-即 $triangle ABC$ 是正三角形。
+即 $\triangle ABC$ 是正三角形。
 
 ## 例题十 \{#\_11}
 
-在 $triangle ABC$ 中，
+在 $\triangle ABC$ 中，
 
 $$
 \cos(2B+C)+\cos C>0
@@ -288,7 +288,7 @@ $$
 
 - 判断三角形是锐角、直角、钝角三角形。
 
-容易发现，$cos$ 里面的角有很好的性质，考虑和差化积，
+容易发现，$\cos$ 里面的角有很好的性质，考虑和差化积，
 
 $$
 \begin\{aligned} &\cos(2B+C)+\cos C\ =;&2\cos(B+C)\cos B\ =;&-2\cos A\cos B>0 \end\{aligned}
@@ -300,11 +300,11 @@ $$
 \cos A\cos B\<0
 $$
 
-即 $A,B$ 中有一个钝角，即 $triangle ABC$ 为钝角三角形。
+即 $A,B$ 中有一个钝角，即 $\triangle ABC$ 为钝角三角形。
 
 ## 例题十一 \{#\_12}
 
-在 $triangle ABC$ 中，三边长分别为 $a,a+2,a+4$，最小角余弦值为 $13/14$。
+在 $\triangle ABC$ 中，三边长分别为 $a,a+2,a+4$，最小角余弦值为 $13/14$。
 
 - 求该三角形的面积
 
@@ -326,7 +326,7 @@ $$
 
 ## 例题十二 \{#\_13}
 
-在 $triangle ABC$ 中，$angle A=120^\circ$，$BC=6$。
+在 $\triangle ABC$ 中，$\angle A=120^\circ$，$BC=6$。
 
 - 求：其面积最大值。
 
@@ -364,7 +364,7 @@ $$
 
 ## 例题十三 \{#\_14}
 
-在 $triangle ABC$ 中，若
+在 $\triangle ABC$ 中，若
 
 $$
 a-b=c(\cos B-\cos A)
@@ -390,19 +390,19 @@ $$
 (\sin B-\sin A)\cos C=0
 $$
 
-即 $sin A=\sin B$ 或 $cos C=0$，
+即 $\sin A=\sin B$ 或 $\cos C=0$，
 
-即 $triangle ABC$ 为等腰三角形或直角三角形。
+即 $\triangle ABC$ 为等腰三角形或直角三角形。
 
 ## 例题十四 \{#\_15}
 
-若 $triangle ABC$ 中，$angle C$ 为钝角，且其面积，
+若 $\triangle ABC$ 中，$\angle C$ 为钝角，且其面积，
 
 $$
 S=\{\sqrt3\over4}(a^2+c^2-b^2)
 $$
 
-- 求 $angle B$。
+- 求 $\angle B$。
 
 考虑到 $a^2+c^2-b^2$ 是经典掉牙的形式，
 
@@ -424,7 +424,7 @@ $$
 
 ## 例题十五 \{#\_16}
 
-在 $triangle ABC$ 中，
+在 $\triangle ABC$ 中，
 
 $$
 \sin^2A-\sin^2B-\sin^2C=\sin B\sin C
@@ -439,7 +439,7 @@ $$
 a^2=b^2+c^2+bc
 $$
 
-于是 $angle A=120^\circ$。
+于是 $\angle A=120^\circ$。
 
 考虑周长最大，即 $b+c$ 最大，
 
@@ -461,13 +461,13 @@ $$
 
 ## 例题十六 \{#\_17}
 
-在 $triangle ABC$ 中，
+在 $\triangle ABC$ 中，
 
 $$
 \sin A+2\sin B\cos C=0\ c=\sqrt3b
 $$
 
-- 求 $tan A$。
+- 求 $\tan A$。
 
 考虑到第二个很适合消元 $c$，于是第一个式子可以看成一次齐次，
 
@@ -489,7 +489,7 @@ $$
 
 ## 例题十七 \{#\_18}
 
-在 $triangle ABC$ 中，
+在 $\triangle ABC$ 中，
 
 $$
 a^2+b^2=2022c^2
@@ -498,7 +498,7 @@ $$
 求，
 
 $$
-\{2\tan A\tan B\over\tan C(\tan A+\tan B)}
+
 $$
 
 考虑到没有什么好玩的结构，因此展开正切。
@@ -513,7 +513,7 @@ $$
 \begin\{aligned} S&=\{2\sin A\sin B\cos C\over\sin^2C}\ &=\{2ab\cos C\over c^2} \end\{aligned}
 $$
 
-注意到 $2ab$ 和 $cos C$ 的余弦定理的分母类似，
+注意到 $2ab$ 和 $\cos C$ 的余弦定理的分母类似，
 
 $$
 \cos C=\{a^2+b^2-c^2\over2ab}

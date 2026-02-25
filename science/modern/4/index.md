@@ -37,7 +37,8 @@
 
 当时物理学家已有能力对热辐射的强度随波长的分布进行比较准确的测量。研究表明，对于一般材料的物体，辐射电磁波的情况除了与**温度**有关，还与材料的**种类及表面状况**有关，而黑体辐射电磁波的强度按波长的分布**只与黑体的温度有关**。它可能反映了某种具有普遍意义的客观规律，人们因此对黑体辐射进行了深入的实验及理论研究。
 
-![](/static/svg/EM_spectrum_zh-hans.a80c6cdec3.svg){width="100%"}
+<img src="../EM_spectrum_zh-hans.svg" width="100%">
+
 - 如果某种物体能够完全吸收入射的各种波长的电磁波而不发生反射，这种物体就是绝对黑体，简称**黑体**。如果一个物体本身辐射出的电磁波远远强于其反射的，例如太阳、黑夜中的灯泡等，也可以近似看为黑体。
 
 - 空腔壁上开一个很小的孔，射入小孔的电磁波在空腔内表面会发生多次反射和吸收，最终不能从空腔射出。这个带小孔的空腔就可以近似为一个绝对黑体。黑体虽然不反射电磁波，却可以向外辐射电磁波，这样的辐射叫作**黑体辐射**。
@@ -46,23 +47,25 @@
 
 我们知道，物体中存在着不停运动的带电微粒，按照当时物理学的认识，每个带电微粒的振动都产生变化的电磁场，从而产生电磁辐射。
 
-![](/static/svg/Wiens.1624540eb4.svg){width="90%"}
+<img src="../Wiens.svg" width="90%">
+
 英国物理学家瑞利根据经典统计力学，提出了辐射强度按波长分布的理论公式。后来，金斯修正了瑞利辐射公式中的一个数值错误，此公式被称为瑞利-金斯定律。瑞利公式在长波区与实验基本一致，但在短波区与实验严重不符。
 
 以古典物理学理论所计算的黑体辐射强度会随辐射频率的增加，而趋向于放出无穷大之能量。奥地利物理学家埃伦费斯特用"紫外灾变"来形容经典理论的困境，这也被称为瑞利-金斯灾变。
 
 与此同时，德国物理学家维恩基于对实验数据的经验总结，同样提出了近似公式，但是维恩公式在短波区与实验非常接近，而在长波区则与实验偏离较大。后来，德国物理学家普朗克提出新公式以改进维恩定律，提出了普朗克公式（普朗克黑体辐射公式），实际上解决了这一问题。
 
-![](/static/svg/RWP.039a211f9a.svg){width="90%"}
-普朗克尝试从电磁学、力学、统计物理学等物理学的基本理论出发，把这个公式推导出来。普朗克发现，如果想推导出这个公式，就必须假定：组成黑体的振动着的带电微粒的能量只能是某一最小能量值 $varepsilon$ 的整数倍，这被视为是量子力学的诞辰。
+<img src="../RWP.svg" width="90%">
 
-他把这个不可再分的最小能量值 $varepsilon$ 叫作**能量子**，它的表达式为：
+普朗克尝试从电磁学、力学、统计物理学等物理学的基本理论出发，把这个公式推导出来。普朗克发现，如果想推导出这个公式，就必须假定：组成黑体的振动着的带电微粒的能量只能是某一最小能量值 $\varepsilon$ 的整数倍，这被视为是量子力学的诞辰。
+
+他把这个不可再分的最小能量值 $\varepsilon$ 叫作**能量子**，它的表达式为：
 
 $$
 \varepsilon=h\nu
 $$
 
-在力学（特别是振动与波动）、声学、电学等，频率通常用符号 $f$ 表示。而在研究微观世界的量子力学、原子物理和光学等学科中，则惯用希腊字母 $mu$ 来表示频率。这一惯例的建立主要是为了确保符号的清晰性，避免它与通常用来表示速度的拉丁字母 $v$ 产生混淆，因为在诸如波速公式 $v=λ\nu$ 等重要关系式中，频率与速度常需同时出现。
+在力学（特别是振动与波动）、声学、电学等，频率通常用符号 $f$ 表示。而在研究微观世界的量子力学、原子物理和光学等学科中，则惯用希腊字母 $\mu$ 来表示频率。这一惯例的建立主要是为了确保符号的清晰性，避免它与通常用来表示速度的拉丁字母 $v$ 产生混淆，因为在诸如波速公式 $v=λ\nu$ 等重要关系式中，频率与速度常需同时出现。
 
 普朗克常量 $h$ 是一个常数，后人称之为**普朗克常量**，其值为：
 
@@ -90,13 +93,13 @@ $$
 
 增加光束的辐照度（光束的强度）会增加光束里光子的密度，在同一段时间内激发更多的电子，但不会使得每一个受激发的电子因吸收更多的光子而获得更多的能量。换言之，光电子的能量与辐照度（光强度）无关，只与光子的能量、频率有关（频率本质就是光子所带的能量大小）。
 
-我们知道截止频率 $nu\_c$ 的光子所带的能量为：
+我们知道截止频率 $\nu\_c$ 的光子所带的能量为：
 
 $$
 W\_0=h\nu\_c
 $$
 
-这就是该金属的逸出功，而一个频率为 $nu$ 的光子克服逸出功后，光电子的最大动能：
+这就是该金属的逸出功，而一个频率为 $\nu$ 的光子克服逸出功后，光电子的最大动能：
 
 $$
 E\_\{\max}=h\nu-W\_0=h(\nu-\nu\_c)
@@ -104,37 +107,42 @@ $$
 
 实际物理要求动能必须是正值，因此光频率必须大于或等于截止频率，光电效应才能发生。
 
-![alt text](/static/image/image-28.68f71a44cf.avif){width="100%"}
+<img src="../image-28.avif" width="100%" alt="alt text">
+
 光电效应具有瞬时性：
 
 - 如果光很弱，按经典电磁理论估算，电子需要几分钟到十几分钟的时间才能获得逸出表面所需的能量，这个时间远远大于实验中产生光电流的时间。
 
-- 应用量子物理学，不论辐照度的大小，只要入射光子的能量大于或等于逸出功（频率超过截止频率 $nu\_0$ 时），一旦这能量被金属表面的电子吸收，就可以逃逸出金属表面，成为光电子，所以开启入射光束后，在非常微小的时间间隔内，就有可能观察到光电效应。
+- 应用量子物理学，不论辐照度的大小，只要入射光子的能量大于或等于逸出功（频率超过截止频率 $\nu\_0$ 时），一旦这能量被金属表面的电子吸收，就可以逃逸出金属表面，成为光电子，所以开启入射光束后，在非常微小的时间间隔内，就有可能观察到光电效应。
 
-- 精确测量表明产生电流的时间很快，即光电效应几乎是瞬时发生的，所需的时间间隔小于 $pu\{3E-9}$ 秒，这是非常微小的时间间隔，几乎可以用瞬时发射来形容。
+- 精确测量表明产生电流的时间很快，即光电效应几乎是瞬时发生的，所需的时间间隔小于 $\pu\{3E-9}$ 秒，这是非常微小的时间间隔，几乎可以用瞬时发射来形容。
 
-对于光电效应的解释，爱因斯坦是在普朗克量子假说的基础上作出的。他表示，为了解释光电效应，必须假定电磁波本身的能量也是不连续的，即认为光本身就是由一个个不可分割的能量子组成的，频率为 $nu$ 的光的能量子为 $h\nu$，这些能量子后来称为光子。上面表示光子最大初动能的式子，也被称为爱因斯坦光电效应方程。
+对于光电效应的解释，爱因斯坦是在普朗克量子假说的基础上作出的。他表示，为了解释光电效应，必须假定电磁波本身的能量也是不连续的，即认为光本身就是由一个个不可分割的能量子组成的，频率为 $\nu$ 的光的能量子为 $h\nu$，这些能量子后来称为光子。上面表示光子最大初动能的式子，也被称为爱因斯坦光电效应方程。
 
-爱因斯坦光电效应方程给出了光电子的最大初动能 $E\_k$ 与入射光的频率 $nu$ 的关系。但是，很难直接测量光电子的动能，容易测量的是遏止电压 $U\_c$，因此我们就可以用光电子的初动能 $E\_k=eU\_c$ 得到遏止电压 $U\_c$ 与光的频率 $nu$ 和逸出功 $W\_0$ 的关系：
+爱因斯坦光电效应方程给出了光电子的最大初动能 $E\_k$ 与入射光的频率 $\nu$ 的关系。但是，很难直接测量光电子的动能，容易测量的是遏止电压 $U\_c$，因此我们就可以用光电子的初动能 $E\_k=eU\_c$ 得到遏止电压 $U\_c$ 与光的频率 $\nu$ 和逸出功 $W\_0$ 的关系：
 
 $$
 U\_c=\dfrac\{h}\{e}\nu-\dfrac\{W\_0}\{e}
 $$
 
-对于确定的金属，其逸出功 $W\_0$ 是确定的，电子电荷 $e$ 和普朗克常量 $h$ 都是常量。上式中的遏止电压 $U\_c$ 与光的频率 $nu$ 是线性关系，$U\_c-\nu$ 图像是一条斜率为 $dfrac\{h}\{e}$ 的直线。
+对于确定的金属，其逸出功 $W\_0$ 是确定的，电子电荷 $e$ 和普朗克常量 $h$ 都是常量。上式中的遏止电压 $U\_c$ 与光的频率 $\nu$ 是线性关系，$U\_c-\nu$ 图像是一条斜率为 $\dfrac\{h}\{e}$ 的直线。
 
-![alt text](/static/image/image-30.73f3ddd135.avif){width="100%"}
+<img src="../image-30.avif" width="100%" alt="alt text">
+
 美国物理学家密立根以精湛的技术测量光电效应中几个重要的物理量，以检验爱因斯坦光电效应方程的正确性。实验的结果为爱因斯坦的光电效应理论提供了直接的实验证据。
 
 ### 光电效应实验 \{#\_9}
 
 阴极 K 和阳极 A 是密封在真空玻璃管中的两个电极，阴极 K 在受到光照时能够发射光电子，在两极板电压 $U$ 产生的电场的作用下，向左移动。
 
-![alt text](/static/image/image-27.c53d814b72.avif){width="50%"}
+<img src="../image-27.avif" width="50%" alt="alt text">
+
 阴极 K 与阳极 A 之间电压 $U$ 的大小可以调整，电源的正负极也可以对调。电源按图示极性连接时，闭合开关后，阳极 A 吸收阴极 K 发出的光电子，在电路中形成光电流。我们记录电流表与电压表的示数，绘制成图像如左（图上可见**饱和电流**、**遏止电压**），通过爱因斯坦光电效应方程计算得右图（图上可见**截止频率**）。
 
-![](/static/image/image-29.fe395ac5d6.avif)
-![](/static/image/Photoelectric_effect_diagram_zh-hans.28f01a9d3e.avif)
+<img src="../image-29.avif">
+
+<img src="../Photoelectric_effect_diagram_zh-hans.avif">
+
 科学家通过实验发现了以下规律：
 
 - 饱和电流：在光照条件不变的情况下，随着所加电压的增大，光电流趋于一个饱和值。也就是说，在电流较小时电流随着电压的增大而增大；但当电流增大到一定值之后，即使电压再增大，电流也不会再进一步增大了。
@@ -151,11 +159,11 @@ $$
   \dfrac12m\_ev\_c^2=eU\_c
   $$
 
-  进一步的实验表明，同一种金属对于一定频率的光，无论光的强弱如何，遏止电压都是一样的。光的频率 $nu$ 改变时，遏止电压 $U\_c$ 也会改变。这意味着，对于同一种金属，光电子的能量只与入射光的频率有关，而与入射光的强弱无关。
+  进一步的实验表明，同一种金属对于一定频率的光，无论光的强弱如何，遏止电压都是一样的。光的频率 $\nu$ 改变时，遏止电压 $U\_c$ 也会改变。这意味着，对于同一种金属，光电子的能量只与入射光的频率有关，而与入射光的强弱无关。
 
 ### 中高能级现象 \{#\_10}
 
-光的强度：光的强度可以用光辐射的强度定量衡量，发光强度 $I$ 单位为坎德拉 $pu\{cd}$，定义为单位面积上的光功率，即：
+光的强度：光的强度可以用光辐射的强度定量衡量，发光强度 $I$ 单位为坎德拉 $\pu\{cd}$，定义为单位面积上的光功率，即：
 
 $$
 I=\dfrac\{P}\{S}
@@ -175,8 +183,9 @@ $$
 
 按照经典物理学的理论，入射的电磁波引起物质内部带电微粒的受迫振动，振动着的带电微粒进而再次产生电磁波，并向四周辐射，这就是散射波。散射的 X 射线频率应该等于带电粒子受迫振动的频率，也就是入射 X 射线的频率。相应地，X 射线的波长也不会在散射中发生变化。因此，康普顿效应无法用经典物理学解释。
 
-![alt text](/static/image/image-31.ab85d73e02.avif){width="80%"}
-康普顿用光子的模型成功地解释了这种效应。他的基本思想是：光子不仅具有能量，而且具有动量，光子的动量 $p$ 与光的波长 $lambda$ 和普朗克常量 $h$ 有关。这三个量之间的关系式为
+<img src="../image-31.avif" width="80%" alt="alt text">
+
+康普顿用光子的模型成功地解释了这种效应。他的基本思想是：光子不仅具有能量，而且具有动量，光子的动量 $p$ 与光的波长 $\lambda$ 和普朗克常量 $h$ 有关。这三个量之间的关系式为
 
 $$
 p=\dfrac\{h}\{\lambda}=h\nu
@@ -184,9 +193,10 @@ $$
 
 电子与光子发生弹性碰撞（弹性碰撞产生的非弹性散射），电子获得光子的一部分能量而反弹，失去部分能量的光子则从另一方向飞出，整个过程中总动量守恒，如果光子的剩余能量足够多的话，还会发生第二次甚至第三次弹性碰撞。
 
-在康普顿效应中，光子动量 $p$ 减小，意味着波长 $lambda$ 变大，因此这些光子散射后波长变大，康普顿效应让人们对光子有了更深入的认识。
+在康普顿效应中，光子动量 $p$ 减小，意味着波长 $\lambda$ 变大，因此这些光子散射后波长变大，康普顿效应让人们对光子有了更深入的认识。
 
-![](data:image/avif;base64,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){width="60%"}
+<img src="../Light-matter_interaction_-_schematic-4f9605a.avif" width="60%">
+
 - 低能级现象：光电效应。
 
 - 中能级现象：汤姆孙散射、康普顿散射。
@@ -289,14 +299,15 @@ $$
 
 在夸克模型的基础上，科学家们发展出了描述强相互作用的系统理论------量子色动力学。以量子色动力学和电弱统一理论为核心，人们已经完成了一整套关于粒子的理论，称为粒子物理标准模型。标准模型和大量实验吻合得很好，取得了很大的成功。在标准模型中，夸克、轻子、规范玻色子和希格斯玻色子是组成物质的几类最基本的粒子。
 
-![](/static/svg/Standard_Model_of_Elementary_Particles_zh-hans.448e40d9e5.svg){width="100%"}
+<img src="../Standard_Model_of_Elementary_Particles_zh-hans.svg" width="100%">
+
 标准模型告诉我们，世界由以下这些"场"构成：
 
 - 物质场，其激发产生费米子，构成了我们世界的所有物质。
 
   - 夸克：组成质子和中子的东西。
 
-  - 轻子：包括电子和 $mu$ 子、$tau$ 子，以及中微子。
+  - 轻子：包括电子和 $\mu$ 子、$\tau$ 子，以及中微子。
 
 - 力场，其激发产生玻色子（一种虚粒子），负责传递相互作用力。
 
@@ -326,7 +337,7 @@ $$
 
 ### 牛顿时空观 \{#\_15}
 
-牛顿时空观，又称绝对时空观，认为空间与时间与物质及其运动状态无关，他们彼此也不相关，而一切物理过程都用相对于他们的空间坐标和时间坐标 $x,y,z,t$ 来描述。
+牛顿时空观，又称绝对时空观，认为空间与时间与物质及其运动状态无关，他们彼此也不相关，而一切物理过程都用相对于他们的空间坐标和时间坐标 $(x,y,z,t)$ 来描述。
 
 在牛顿时空观下，伽利略变换指出，如果质点在 $K$ 系中沿 $x$ 轴正方向以速度 $v$ 运动，则在相对于 $K$ 以速度 $V$ 运动的另一参考系 $K'$ 中，其速度 $v'=v-V$，这个就是伽利略速度合成关系，又称速度合成律。
 
@@ -334,15 +345,15 @@ $$
 
 爱因斯坦时间延缓：
 
-- 假定 $K'$ 系相对 $K$ 系以 $V$ 匀速运动，两个系中各有一个时钟，在 $K$ 系中钟走过 $Delta t$，在 $K'$ 系中时钟走过 $Delta t'$，则，
+- 假定 $K'$ 系相对 $K$ 系以 $V$ 匀速运动，两个系中各有一个时钟，在 $K$ 系中钟走过 $\Delta t$，在 $K'$ 系中时钟走过 $\Delta t'$，则，
 
   $$
   \Delta t=\dfrac\{\Delta t'}\{\sqrt\{1-(V/c)^2}}
   $$
 
-- 因为 $V\<c$ 是总是的，那么 $Delta t>\Delta t'$ 也是显然的，也就是说，在一个参考系中，运动的钟比静止的钟走得慢，称为时间膨胀，也叫钟慢效应。
+- 因为 $V\<c$ 是总是的，那么 $\Delta t>\Delta t'$ 也是显然的，也就是说，在一个参考系中，运动的钟比静止的钟走得慢，称为时间膨胀，也叫钟慢效应。
 
-- 我们称相对于观察者静止的钟所显示的时间间隔称为固有时或原时，用 $Delta\tau$ 表示，被观察者的时间为 $Delta t$，则，
+- 我们称相对于观察者静止的钟所显示的时间间隔称为固有时或原时，用 $\Delta\tau$ 表示，被观察者的时间为 $\Delta t$，则，
 
   $$
   \Delta t=\gamma\Delta\tau
@@ -354,11 +365,11 @@ $$
   \Delta\tau=\Delta t\sqrt\{1-(V/c)^2}
   $$
 
-  即观察者眼中运动参考系的时间（$Delta\tau$）为观察者参考系中 $Delta t$ 的减小。
+  即观察者眼中运动参考系的时间（$\Delta\tau$）为观察者参考系中 $\Delta t$ 的减小。
 
 - 因为运动是相对的，假设宇宙飞船以高速运行，那么地面上的人看飞船里的人时钟慢了，而飞船中的人看地面上的时钟也慢了。注意此处的减慢是普遍的，也就是说物理过程、化学过程、生物过程等等都变慢了，而参考系中的人都认为自己是正常的。
 
-- 当 $V\ll c$ 时，$Delta t\approx\Delta\tau$，同样的两个时间之间的时间间隔在各参考系中测得的结果是相同的，这就是牛顿的绝对时间观念，是相对论时间观念的一种近似。
+- 当 $V\ll c$ 时，$\Delta t\approx\Delta\tau$，同样的两个时间之间的时间间隔在各参考系中测得的结果是相同的，这就是牛顿的绝对时间观念，是相对论时间观念的一种近似。
 
 洛伦兹收缩：
 
@@ -394,7 +405,7 @@ $$
   c'=\dfrac\{c-V}\{1-cV/c^2}=c
   $$
 
-- 因为有 $sqrt\{1-(V/c)^2}$，这表明物体的速度不可超越光速。
+- 因为有 $\sqrt\{1-(V/c)^2}$，这表明物体的速度不可超越光速。
 
 - 例：宇宙飞船以 $0.9c$ 离开地球，以相对自己 $0.9c$ 的速率向前发射一枚导弹，导弹相对于地球的速率 $v=\dfrac\{v'+V}\{1+v'V/c^2}=\dfrac\{0.9c+0.9c}\{1+0.9\times0.9}=0.994c$ 并没有超过光速。
 
@@ -402,7 +413,7 @@ $$
 
 在经典力学中，物体的质量是恒定的，那么，只有外力持久的作用，物体的速度就会超过光速，这是与相对论相悖的。
 
-因为空间是各向同性的，我们定义物质的质量是关于速度的函数 $m=m(v$，而且当 $v/c\to0$ 时 $m$ 趋近于经典力学中的质量 $m\_0$（**静质量**）。
+因为空间是各向同性的，我们定义物质的质量是关于速度的函数 $m=m(v)$，而且当 $v/c\to0$ 时 $m$ 趋近于经典力学中的质量 $m\_0$（**静质量**）。
 
 $$
 m(v)=\dfrac\{m\_0}\{\sqrt\{1-(v/c)^2}}

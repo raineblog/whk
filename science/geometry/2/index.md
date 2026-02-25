@@ -4,9 +4,9 @@
 
 ### 点斜式 \{#\_3}
 
-确定一条直线需要两条信息，假设我们知道了一条直线过一个点 $x\_0,y\_0$，那么我们只需要知道这条直线的倾斜角或者斜率，就可以确定这条直线了。
+确定一条直线需要两条信息，假设我们知道了一条直线过一个点 $(x\_0,y\_0)$，那么我们只需要知道这条直线的倾斜角或者斜率，就可以确定这条直线了。
 
-我们定义直线的方向为直线向上的方向，这个方向与 $x$ 轴正半轴的夹角 $theta$，记为这条直线的**倾斜角**，倾斜角的范围是 $theta\in\[0,\pi$。特殊的，规定 $x$ 轴的倾斜角为 $0$。
+我们定义直线的方向为直线向上的方向，这个方向与 $x$ 轴正半轴的夹角 $\theta$，记为这条直线的**倾斜角**，倾斜角的范围是 $\theta\in\[0,\pi)$。特殊的，规定 $x$ 轴的倾斜角为 $0$。
 
 我们定义直线的**斜率**为：
 
@@ -16,9 +16,9 @@ $$
 
 也就是，$x$ 每增加 $1$，$y$ 的变化量就是直线的斜率，特殊的，我们不定义平行于 $y$ 轴的直线的斜率。容易得到：
 
-- 倾斜角 $alpha\in(0,\pi/2$，斜率 $k>0$，$y$ 随 $x$ 增大而增大。
+- 倾斜角 $\alpha\in(0,\pi/2)$，斜率 $k>0$，$y$ 随 $x$ 增大而增大。
 
-- 倾斜角 $alpha\in(\pi/2,\pi$，斜率 $k\<0$，$y$ 随 $x$ 增大而减小。
+- 倾斜角 $\alpha\in(\pi/2,\pi)$，斜率 $k\<0$，$y$ 随 $x$ 增大而减小。
 
 $$
 k=\tan\theta,\quad\theta=\arctan k
@@ -48,7 +48,7 @@ $$
 
 ### 点向式 \{#\_5}
 
-我们知道过一个点的直线可以用法向量或方向向量来表示，我们将在一般式中用到法向量，因此这里用方向向量的方法。假设 $M\_0(x\_0,y\_0$ 在直线 $ell$ 上，直线方向向量 $bm e=(A,B$，因此直线上任意一点满足：
+我们知道过一个点的直线可以用法向量或方向向量来表示，我们将在一般式中用到法向量，因此这里用方向向量的方法。假设 $M\_0(x\_0,y\_0)$ 在直线 $\ell$ 上，直线方向向量 $\bm e=(A,B)$，因此直线上任意一点满足：
 
 $$
 \overrightarrow\{OM}=\overrightarrow\{OM\_0}+\lambda\bm e,\lambda\in\R
@@ -58,7 +58,7 @@ $$
 
 ### 参数式 \{#\_6}
 
-从向量式出发，可以将参数 $lambda$ 引入方程组：
+从向量式出发，可以将参数 $\lambda$ 引入方程组：
 
 $$
 \begin\{cases} x&=x\_0+A\lambda\ y&=y\_0+B\lambda \end\{cases}
@@ -92,13 +92,13 @@ $$
 
 注意：正比例函数 $y=x$ 无法写成截距式，这个通常要特殊讨论。
 
-表示两点分别是 $a,0),(0,b$，分别称为横截距和纵截距。
+表示两点分别是 $(a,0),(0,b)$，分别称为横截距和纵截距。
 
 ### 一般式 \{#\_9}
 
 我在这里用法向量的方法做截距式，如下：
 
-一条直线过 $M\_0(x\_0,y\_0$，且法向量为 $bm n=(A,B$，则对于直线上一点 $M(x,y$ 有：
+一条直线过 $M\_0(x\_0,y\_0)$，且法向量为 $\bm n=(A,B)$，则对于直线上一点 $M(x,y)$ 有：
 
 $$
 MM\_0\cdot\bm n=0
@@ -110,7 +110,7 @@ $$
 A(x-x\_0)+B(y-y\_0)=0
 $$
 
-设 $C=-(Ax\_0+By\_0$，那么可以得到一般式：
+设 $C=-(Ax\_0+By\_0)$，那么可以得到一般式：
 
 $$
 \boxed\{Ax+By+C=0}\tag\{\scriptsize\text\{一般式}}
@@ -122,7 +122,7 @@ $$
 
 写一般式技巧：
 
-- 用两种方式表示斜率，比如用 $x,y$ 点和任意给定的一点，给定的两点，然后化简。
+- 用两种方式表示斜率，比如用 $(x,y)$ 点和任意给定的一点，给定的两点，然后化简。
 
 ## 圆的方程 \{#\_10}
 
@@ -138,13 +138,13 @@ $$
 
 就建立了平面极坐标系。设 $A$ 为平面上一点。
 
-- 极点 $O$ 与 $A$ 之间的距离 $|OA|$ 称为极径，记为 $rho$。
-- 以极轴为始边，$OA$ 为终边的角 $angle xOA$ 称为极角，记为 $varphi$。
-- 那么有序数对 $rho,\varphi$ 即为 $A$ 的极坐标。
+- 极点 $O$ 与 $A$ 之间的距离 $|OA|$ 称为极径，记为 $\rho$。
+- 以极轴为始边，$OA$ 为终边的角 $\angle xOA$ 称为极角，记为 $\varphi$。
+- 那么有序数对 $(\rho,\varphi)$ 即为 $A$ 的极坐标。
 
-由终边相同的角的定义可知，$rho,\varphi$ 与 $rho,\varphi + 2k\pi)\ (k\in \mathbf\{Z}$ 其实表示的是一样的点。特别地，极点的极坐标为 $0,\varphi)\ (\varphi \in \mathbf\{R}$，于是平面内的点的极坐标表示有无数多种。如果规定 $rho \ge 0,0 \le \varphi \< 2\pi$，那么除极点外，其他平面内的点可以用唯一有序数对 $rho,\varphi$ 表示，而极坐标 $rho,\varphi$ 表示的点是唯一确定的。
+由终边相同的角的定义可知，$(\rho,\varphi)$ 与 $(\rho,\varphi + 2k\pi)\ (k\in \mathbf\{Z})$ 其实表示的是一样的点。特别地，极点的极坐标为 $(0,\varphi)\ (\varphi \in \mathbf\{R})$，于是平面内的点的极坐标表示有无数多种。如果规定 $\rho \ge 0,0 \le \varphi \< 2\pi$，那么除极点外，其他平面内的点可以用唯一有序数对 $(\rho,\varphi)$ 表示，而极坐标 $(\rho,\varphi)$ 表示的点是唯一确定的。
 
-当然，有时候研究极坐标系下的图形有些不方便。要想转到直角坐标系下研究，有互化公式。点 $A(\rho,\varphi$ 的直角坐标 $x,y$ 可以如下表示：
+当然，有时候研究极坐标系下的图形有些不方便。要想转到直角坐标系下研究，有互化公式。点 $A(\rho,\varphi)$ 的直角坐标 $(x,y)$ 可以如下表示：
 
 $$
 \begin\{cases} x &= \rho \cos \varphi \ y &= \rho \sin \varphi \end\{cases}
@@ -156,15 +156,15 @@ $$
 \begin\{aligned} \rho^2 &= x^2 + y^2\ \tan \varphi &= \frac\{y}\{x}\quad(x\not =0) \end\{aligned}
 $$
 
-于是有 $rho = \sqrt\{x^2+y^2}$。但具有相同 $dfrac\{y}\{x}$ 的 $tan\varphi$ 有两个可能的 $varphi$ 的值，此时还需要根据 $x, y$ 的值来确定方向。具体地，定义函数：
+于是有 $\rho = \sqrt\{x^2+y^2}$。但具有相同 $\dfrac\{y}\{x}$ 的 $\tan\varphi$ 有两个可能的 $\varphi$ 的值，此时还需要根据 $x, y$ 的值来确定方向。具体地，定义函数：
 
 $$
 \operatorname\{atan2}(y, x) = \begin\{cases} \arctan(\frac\{y}\{x}) & \text\{if } x > 0 \ \arctan(\frac\{y}\{x}) + \pi & \text\{if } y \ge 0, x \< 0 \ \arctan(\frac\{y}\{x}) - \pi & \text\{if } y \< 0, x \< 0 \ \pi/2 & \text\{if } y > 0, x = 0 \ -\pi/2 & \text\{if } y \< 0, x = 0 \ \text\{any} & \text\{if } y = 0, x = 0 \end\{cases}
 $$
 
-则 $varphi = \operatorname\{atan2}(y, x$。注意上述函数的值域为 $-\pi, \pi$。
+则 $\varphi = \operatorname\{atan2}(y, x)$。注意上述函数的值域为 $(-\pi, \pi]$。
 
-注意，在极坐标中表示直线或曲线，我们常用 $rho=f(\varphi$ 的函数。
+注意，在极坐标中表示直线或曲线，我们常用 $\rho=f(\varphi)$ 的函数。
 
 ### 标准方程 \{#\_12}
 
@@ -208,7 +208,7 @@ $$
 \boxed\{\left(x+\dfrac\{D}\{2}\right)+\left(y+\dfrac\{E}\{2}\right)=\dfrac\{D^2+E^2-4F}\{4}}
 $$
 
-因此只要 $D^2+E^2>4F$，该方程就可以表示一个圆了；特殊的，如果 $D=E=F$ 则该方程表示一个点 $0,0$。具体的，圆心：$left(-\dfrac\{D}\{2},-\dfrac\{E}\{2}\right$，半径：$dfrac\{\sqrt\{D^2+E^2-4F}}\{2}$。
+因此只要 $D^2+E^2>4F$，该方程就可以表示一个圆了；特殊的，如果 $D=E=F$ 则该方程表示一个点 $(0,0)$。具体的，圆心：$\left(-\dfrac\{D}\{2},-\dfrac\{E}\{2}\right)$，半径：$\dfrac\{\sqrt\{D^2+E^2-4F}}\{2}$。
 
 做题方法：
 
@@ -226,7 +226,7 @@ $$
 
 容易知道根据直径所对圆周角是直角，向量点积为零得到，即为圆的方程。
 
-已知点 $A(x\_1, y\_1$，$B(x\_2, y\_2$，若
+已知点 $A(x\_1, y\_1)$，$B(x\_2, y\_2)$，若
 
 $$
 \overrightarrow\{AP} \cdot \overrightarrow\{BP} = \lambda
@@ -238,21 +238,21 @@ $$
 (x - x\_1)(x - x\_2) + (y - y\_1)(y - y\_2) = \lambda
 $$
 
-其中 $x\_1 - x\_2)^2 + (y\_1 - y\_2)^2 + 4\lambda > 0$。
+其中 $(x\_1 - x\_2)^2 + (y\_1 - y\_2)^2 + 4\lambda > 0$。
 
 ### 向量方程 \{#\_14}
 
 在平面中，把所有等长的向量平移到同一起点，则构成的图形必然是圆，而这些以圆心为起点的向量，方向却是任意的，但是长度始终是恒定的。根据圆的定义可以得到标准圆的向量形式：
 
-- 向量式标准圆 $|\boldsymbol\{a} - \boldsymbol\{a}\_0| = r$，其中 $boldsymbol\{a}\_0$ 是确定的，$r$ 为大于零的常数。
+- 向量式标准圆 $|\boldsymbol\{a} - \boldsymbol\{a}\_0| = r$，其中 $\boldsymbol\{a}\_0$ 是确定的，$r$ 为大于零的常数。
 
 在圆的性质之中，率先容易想到的莫过于直径所对的圆周角为直角，而向量的数量积恰恰是角度最好的体现，则有如下知识点：
 
-- 向量式直径圆：$boldsymbol\{c} - \boldsymbol\{a}) \cdot (\boldsymbol\{c} - \boldsymbol\{b}) = 0$。这是以 $|\boldsymbol\{a} - \boldsymbol\{b}|$ 为直径的圆。
+- 向量式直径圆：$(\boldsymbol\{c} - \boldsymbol\{a}) \cdot (\boldsymbol\{c} - \boldsymbol\{b}) = 0$。这是以 $|\boldsymbol\{a} - \boldsymbol\{b}|$ 为直径的圆。
 
-在遇到以线段长为直径的圆的时候，我们要做就是转化圆上的点与线段的两端点所构成的数量积为零。但我们都知道直径是特殊的弦，由特殊性必然可以推广到一般性，即直径圆的向量形式：$boldsymbol\{c} - \boldsymbol\{a}) \cdot (\boldsymbol\{c} - \boldsymbol\{b}) = 0$。这是以 $|\boldsymbol\{a} - \boldsymbol\{b}|$ 为直径的圆。正是由于角度的特殊性，可以通过数量积体现出直角，若不是直角时，我们发现数量积就没有一般性了，因此我们把直径圆的向量式一般化就可以得到 $langle \boldsymbol\{c} - \boldsymbol\{a}, \boldsymbol\{c} - \boldsymbol\{b} \rangle = 90^\{\circ}$，其中 $|\boldsymbol\{a} - \boldsymbol\{b}|$ 为定值。由此我们可以得到外接圆的向量形式：
+在遇到以线段长为直径的圆的时候，我们要做就是转化圆上的点与线段的两端点所构成的数量积为零。但我们都知道直径是特殊的弦，由特殊性必然可以推广到一般性，即直径圆的向量形式：$(\boldsymbol\{c} - \boldsymbol\{a}) \cdot (\boldsymbol\{c} - \boldsymbol\{b}) = 0$。这是以 $|\boldsymbol\{a} - \boldsymbol\{b}|$ 为直径的圆。正是由于角度的特殊性，可以通过数量积体现出直角，若不是直角时，我们发现数量积就没有一般性了，因此我们把直径圆的向量式一般化就可以得到 $\langle \boldsymbol\{c} - \boldsymbol\{a}, \boldsymbol\{c} - \boldsymbol\{b} \rangle = 90^\{\circ}$，其中 $|\boldsymbol\{a} - \boldsymbol\{b}|$ 为定值。由此我们可以得到外接圆的向量形式：
 
-- 向量式外接圆：$langle \boldsymbol\{c} - \boldsymbol\{a}, \boldsymbol\{c} - \boldsymbol\{b} \rangle = \theta$ 且 $|\boldsymbol\{a} - \boldsymbol\{b}|$ 为定值。
+- 向量式外接圆：$\langle \boldsymbol\{c} - \boldsymbol\{a}, \boldsymbol\{c} - \boldsymbol\{b} \rangle = \theta$ 且 $|\boldsymbol\{a} - \boldsymbol\{b}|$ 为定值。
 
 ### 圆心系 \{#\_15}
 
@@ -262,9 +262,10 @@ $$
 (x-3\cos\theta)^2+(y-3\sin\theta)^2=1
 $$
 
-容易知道，这是一个以 $3\cos\theta,3\sin\theta$ 为圆心、半径为 $1$ 的圆，
+容易知道，这是一个以 $(3\cos\theta,3\sin\theta)$ 为圆心、半径为 $1$ 的圆，
 
-![alt text](/static/image/image-6.1910dad12c.avif){width="40%"}
+<img src="../image-6.avif" width="40%" alt="alt text">
+
 这样的圆有无数个，围成了一个圆环。
 
 ## 直线和圆 \{#\_16}
@@ -273,9 +274,9 @@ $$
 
 基本思想：
 
-- 两条直线平行，当且仅当 $k\_1=k\_2$ 或 $theta\_1=\theta\_2$。
+- 两条直线平行，当且仅当 $k\_1=k\_2$ 或 $\theta\_1=\theta\_2$。
 
-- 两条直线垂直，当且记得 $k\_1k\_2=-1$ 或 $theta\_1+\theta\_2=90^\circ$。
+- 两条直线垂直，当且记得 $k\_1k\_2=-1$ 或 $\theta\_1+\theta\_2=90^\circ$。
 
 做题方法：
 
@@ -301,7 +302,7 @@ $$
 \begin\{cases} \ell\_1:\&A\_1x+B\_1y+C\_1=0\ \ell\_2:\&A\_2x+B\_2y+C\_2=0 \end\{cases}
 $$
 
-求交点，即为 $Q(x,y$ 满足上述两式，解方程组即可，我们写出矩阵：
+求交点，即为 $Q(x,y)$ 满足上述两式，解方程组即可，我们写出矩阵：
 
 $$
 \begin\{bmatrix}A\_1 & B\_1 \A\_2 & B\_2\end\{bmatrix}\begin\{bmatrix} x \ y\end\{bmatrix}=\begin\{bmatrix}-C\_1-C\_2\end\{bmatrix}
@@ -313,7 +314,7 @@ $$
 \begin\{cases} x&=\dfrac\{B\_1C\_2-B\_2C\_1}\{A\_1B\_2-A\_2B\_1}\ y&=\dfrac\{A\_2C\_1-A\_1C\_2}\{A\_1B\_2-A\_2B\_1} \end\{cases}
 $$
 
-两点 $A(x\_1,y\_1),B(x\_2,y\_2$ 间的距离：
+两点 $A(x\_1,y\_1),B(x\_2,y\_2)$ 间的距离：
 
 $$
 \boxed\{\begin\{aligned} \text\{dis}&=\sqrt\{(x\_2-x\_1)^2+(y\_2-y\_1)^2}\ &=\sqrt\{k^2+1}|x\_2-x\_1| \end\{aligned}}
@@ -321,7 +322,7 @@ $$
 
 在圆锥曲线中，后者称为弦长公式。
 
-点 $x\_0,y\_0$ 到直线 $Ax+By+C=0$ 的距离：
+点 $(x\_0,y\_0)$ 到直线 $Ax+By+C=0$ 的距离：
 
 $$
 \boxed\{\text\{dis}=\dfrac\{Ax\_0+By\_0+C}\{\sqrt\{A^2+B^2}}}
@@ -355,11 +356,11 @@ $$
 
 - 圆与圆的位置关系：
 
-  <img alt="alt text" src={image1} />\{width="70%"}
+  <img src="../image-4.avif" width="70%" alt="alt text">
 
   对应距离图示如下：
 
-  <img alt="alt text" src={image2} />\{width="90%"}
+  <img src="../image-5.avif" width="90%" alt="alt text">
 
   除了用圆心距离，同样可以联立，解方程可以用加减消元。两个二次项系数相等的圆的直线方程的差，就是交点所确定的直线的直线方程。
 
@@ -379,9 +380,9 @@ $$
 (x−a)^2+(y−b)^2=r^2
 $$
 
-- **圆上**一点 $P(x\_0,y\_0$ 作圆的切线，则以 $P(x\_0,y\_0$ 为切点的切线方程为：
+- **圆上**一点 $P(x\_0,y\_0)$ 作圆的切线，则以 $P(x\_0,y\_0)$ 为切点的切线方程为：
 
-- **圆外**一点 $P(x\_0,y\_0$ 作圆的两条切线，则两切点所在的直线方程为：
+- **圆外**一点 $P(x\_0,y\_0)$ 作圆的两条切线，则两切点所在的直线方程为：
 
 $$
 \boxed\{(x\_0−a)(x−a)+(y\_0−b)(y−b)=r^2}
@@ -397,7 +398,7 @@ $$
 
 - 当涉及恒过定点的直线与曲线（完整的圆除外）有交点的时候，首先确定相应的临界情形（初始位置），然后绕着定点旋转直线，直到完全符合题意才终止旋转。
 
-我们知道过圆 $x-a)^2+(y-b)^2=r^2$ 上一点 $P(x\_0,y\_0$ 的切线方程为：
+我们知道过圆 $(x-a)^2+(y-b)^2=r^2$ 上一点 $P(x\_0,y\_0)$ 的切线方程为：
 
 $$
 (x\_0-a)(x-a)+(y\_0-b)(x-b)=r^2
@@ -428,7 +429,7 @@ $$
 
 阿式圆的逆用：在线段上、其中一侧找两个符合比例关系的点，作出以其为直径的圆即可。
 
-重点：到两个点 $A(x\_1,y\_1),B(x\_2,y\_2$ 距离的平方和为定值的点的轨迹是一个圆，不妨设轨迹上一点 $P(x,y$、这个定值为 $C$。
+重点：到两个点 $A(x\_1,y\_1),B(x\_2,y\_2)$ 距离的平方和为定值的点的轨迹是一个圆，不妨设轨迹上一点 $P(x,y)$、这个定值为 $C$。
 
 $$
 |PA|^2+|PB|^2=(x-x\_1)^2+(y-y\_1)^2+(x-x\_2)^2+(y-y\_2)^2=C
@@ -444,7 +445,7 @@ $$
 
 <summary>
 
-例题：已知 $M,N$ 为圆 $x^2+y^2=9$ 上两点，点 $A(1,2$，且 $AM\perp AN$，则线段 $MN$ 的长的取值范围是？
+例题：已知 $M,N$ 为圆 $x^2+y^2=9$ 上两点，点 $A(1,2)$，且 $AM\perp AN$，则线段 $MN$ 的长的取值范围是？
 
 </summary>
 
@@ -460,7 +461,7 @@ $$
 |OP|^2+|AP|^2=9
 $$
 
-不妨设 $P(x,y$，解得：
+不妨设 $P(x,y)$，解得：
 
 $$
 \paren\{x-\dfrac12}^2+\paren\{y-1}^2=\dfrac\{13}4
@@ -470,7 +471,7 @@ $$
 
 </details>
 
-阿氏圆的性质：$triangle POA\backsim\triangle POB$，根据相似。
+阿氏圆的性质：$\triangle POA\backsim\triangle POB$，根据相似。
 
 ## 代数关系 \{#\_22}
 
@@ -478,7 +479,7 @@ $$
 
 参数方程和函数相似，都是由一些在指定的集合的数，称为参数或自变数，以决定因变数的结果。
 
-我们知道，几何中常见的方程是 $y$ 关于 $x$ 的方程，但是我们也可以将 $x,y$ 均视为因变量，钦定其为关于 $t$ 或 $theta$ 的方程，称为参数方程。
+我们知道，几何中常见的方程是 $y$ 关于 $x$ 的方程，但是我们也可以将 $x,y$ 均视为因变量，钦定其为关于 $t$ 或 $\theta$ 的方程，称为参数方程。
 
 - 普通方程转为参数方程：利用参数方程，可以很方便的表示不能用函数表达，或者常规的方程难以表达的曲线。
 
@@ -522,7 +523,8 @@ $$
 
 而我们称仿射变换是指在对一个向量空间进行一次线性变换并接上一个**平移**，变换为另一个向量空间。伸缩、平移、对称等都是仿射变换，
 
-![alt text](/static/image/image-2.89d163d572.avif){width="80%"}
+<img src="../image-2.avif" width="80%" alt="alt text">
+
 事实上：
 
 - 平行直线依然平行。
@@ -589,7 +591,7 @@ $$
 
 ### 向量关系 \{#\_25}
 
-共线长度关系通常以 $vecc\{PA}=\lambda\vecc\{PB}$ 的形式给出。
+共线长度关系通常以 $\vecc\{PA}=\lambda\vecc\{PB}$ 的形式给出。
 
 此时最常用的方法是先设坐标，然后通过向量的坐标关系解出位置点的坐标，可以一定程度上避免直线与椭圆的联立过程。
 
@@ -601,28 +603,29 @@ $$
 
 若只有一点在曲线上，不妨设 $A$ 在曲线上，$B$ 不再曲线上，利用 $B,P$ 的坐标表示 $A$ 的坐标，利用其在曲线上，带入坐标计算化简即可。
 
-类似的，若 $A, B$ 两点在曲线上，且点 $M$ 满足 $overrightarrow\{OM} = \lambda\overrightarrow\{OA} + \mu\overrightarrow\{OB}$，则我们先用 $A, B$ 两点的坐标来表示点 $M$，然后代入曲线的方程。
+类似的，若 $A, B$ 两点在曲线上，且点 $M$ 满足 $\overrightarrow\{OM} = \lambda\overrightarrow\{OA} + \mu\overrightarrow\{OB}$，则我们先用 $A, B$ 两点的坐标来表示点 $M$，然后代入曲线的方程。
 
 ### 角度问题 \{#\_26}
 
-倒角公式：我们知道 $theta=\theta\_2-\theta\_1$，如图
+倒角公式：我们知道 $\theta=\theta\_2-\theta\_1$，如图
 
-![alt text](/static/image/image.24ae1f8fc4.avif){width="40%"}
+<img src="../image.avif" width="40%" alt="alt text">
+
 因此，不妨
 
 $$
 \begin\{aligned} \tan\theta&=\dfrac\{\tan\theta\_2-\tan\theta\_1}\{1+\tan\theta\_1+\tan\theta\_2}\ &=\dfrac\{k\_2-k\_1}\{1+k\_1k\_2} \end\{aligned}
 $$
 
-若 $angle APB$ 为锐角，则等价转译为 $overrightarrow\{PA} \cdot \overrightarrow\{PB} > 0$（特别注意不能出现三点共线）；若 $angle APB$ 为直角，则等价转译为 $overrightarrow\{PA} \cdot \overrightarrow\{PB} = 0$；若 $angle APB$ 为钝角，则等价转译为 $overrightarrow\{PA} \cdot \overrightarrow\{PB} \< 0$（特别注意不能出现三点共线）。
+若 $\angle APB$ 为锐角，则等价转译为 $\overrightarrow\{PA} \cdot \overrightarrow\{PB} > 0$（特别注意不能出现三点共线）；若 $\angle APB$ 为直角，则等价转译为 $\overrightarrow\{PA} \cdot \overrightarrow\{PB} = 0$；若 $\angle APB$ 为钝角，则等价转译为 $\overrightarrow\{PA} \cdot \overrightarrow\{PB} \< 0$（特别注意不能出现三点共线）。
 
-在很多时候有关"角度"这个字眼并不会那么直接地出现，而是以一种极其隐晦的方式体现夹角问题，例如，点 $P$ 总是在以 $AB$ 为直径的圆内，那么本质上还是在说明 $overrightarrow\{PA} \cdot \overrightarrow\{PB} \< 0$；点 $P$ 总是在以 $AB$ 为直径的圆外，直接的转译就是 $overrightarrow\{PA} \cdot \overrightarrow\{PB} > 0$；点 $P$ 总是在以 $AB$ 为直径的圆上，直接的转译就是 $overrightarrow\{PA} \cdot \overrightarrow\{PB} = 0$。
+在很多时候有关"角度"这个字眼并不会那么直接地出现，而是以一种极其隐晦的方式体现夹角问题，例如，点 $P$ 总是在以 $AB$ 为直径的圆内，那么本质上还是在说明 $\overrightarrow\{PA} \cdot \overrightarrow\{PB} \< 0$；点 $P$ 总是在以 $AB$ 为直径的圆外，直接的转译就是 $\overrightarrow\{PA} \cdot \overrightarrow\{PB} > 0$；点 $P$ 总是在以 $AB$ 为直径的圆上，直接的转译就是 $\overrightarrow\{PA} \cdot \overrightarrow\{PB} = 0$。
 
-- 若不垂直于 $x$ 轴的两直线 $ell\_1$ 与 $ell\_2$ 的倾斜角分别为 $alpha, \beta$，则 $alpha + \beta = \pi$ 等价于 $k\_\{\ell\_1} + k\_\{\ell\_2} = 0$。
+- 若不垂直于 $x$ 轴的两直线 $\ell\_1$ 与 $\ell\_2$ 的倾斜角分别为 $\alpha, \beta$，则 $\alpha + \beta = \pi$ 等价于 $k\_\{\ell\_1} + k\_\{\ell\_2} = 0$。
 
 - 斜率之和为零的惯用书面表达，例如：两条直线的倾斜角相等（倾斜角为 $90^\circ$ 除外）；两条直线关于 $x$ 轴对称，或者关于 $y$ 轴对称，或者关于直线 $y = m$ 或 $x = n$ 对称；其中涉及两个角相等（有可能是角平分线问题，本质上是斜率之和为零），及线段比例相等（角平分线定理的应用）
 
-- 倾斜角为 $alpha$ 的直线 $ell\_1$ 与倾斜角为 $beta$ 的直线 $ell\_2$ 的两相交直线的夹角被倾斜角为 $theta$ 的直线 $ell$ 平分，则 $|\tan(\alpha - \theta)| - |\tan(\beta - \theta)| = 0$。
+- 倾斜角为 $\alpha$ 的直线 $\ell\_1$ 与倾斜角为 $\beta$ 的直线 $\ell\_2$ 的两相交直线的夹角被倾斜角为 $\theta$ 的直线 $\ell$ 平分，则 $|\tan(\alpha - \theta)| - |\tan(\beta - \theta)| = 0$。
 
 ### 轨迹问题 \{#\_27}
 
@@ -639,7 +642,7 @@ $$
 
 - 通常是给出直线或点的关系。
 
-- 我们设轨迹上一点 $P(x,y$，列出 $x,y$ 满足的调节，化简即可。
+- 我们设轨迹上一点 $P(x,y)$，列出 $x,y$ 满足的调节，化简即可。
 
 参数法：
 
@@ -683,6 +686,6 @@ $$
 \begin\{cases} 3x+2y+4&=0\ x-3&=0 \end\{cases}
 $$
 
-因此定点 $paren\{3,-\dfrac\{13}\{2}}$。
+因此定点 $\paren\{3,-\dfrac\{13}\{2}}$。
 
 对于含参且参数的次数都是 $1$ 的，不妨以参数为主元，令常数和系数都为零。
