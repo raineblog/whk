@@ -264,7 +264,7 @@ $$
 
 容易知道，这是一个以 $(3\cos\theta,3\sin\theta)$ 为圆心、半径为 $1$ 的圆，
 
-![alt text](/static/image/image-6.1910dad12c.avif)
+![alt text|w40%](/static/image/image-6.1910dad12c.avif)
 这样的圆有无数个，围成了一个圆环。
 
 ## 直线和圆 \{#\_16}
@@ -355,11 +355,11 @@ $$
 
 - 圆与圆的位置关系：
 
-  <img alt="alt text" src={image1} />
+  <img alt="alt text|w70%" src={image1} />
 
   对应距离图示如下：
 
-  <img alt="alt text" src={image2} />
+  <img alt="alt text|w90%" src={image2} />
 
   除了用圆心距离，同样可以联立，解方程可以用加减消元。两个二次项系数相等的圆的直线方程的差，就是交点所确定的直线的直线方程。
 
@@ -522,7 +522,7 @@ $$
 
 而我们称仿射变换是指在对一个向量空间进行一次线性变换并接上一个**平移**，变换为另一个向量空间。伸缩、平移、对称等都是仿射变换，
 
-![alt text](/static/image/image-2.89d163d572.avif)
+![alt text|w80%](/static/image/image-2.89d163d572.avif)
 事实上：
 
 - 平行直线依然平行。
@@ -607,7 +607,7 @@ $$
 
 倒角公式：我们知道 $\theta=\theta\_2-\theta\_1$，如图
 
-![alt text](/static/image/image.24ae1f8fc4.avif)
+![alt text|w40%](/static/image/image.24ae1f8fc4.avif)
 因此，不妨
 
 $$

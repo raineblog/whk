@@ -82,7 +82,7 @@ $$
 
 ### 等时圆模型 \{#\_8}
 
-![alt text](/static/image/image-2.c04a5084e8.avif)
+![alt text|right|w50%](/static/image/image-2.c04a5084e8.avif)
 质点自半径为 $R$ 的空心球（对于平面而言是圆环）的最高点由静止开始无摩擦地沿任一弦下滑至球面（或圆环），所需时间相等，且等于：
 
 $$
@@ -147,12 +147,12 @@ $$
 
 在平面内，$B$ 点在 $A$ 右下，自 $A$ 静止释放一个小球，运动到 $B$ 点的最短时间。
 
-![alt text](/static/image/最速降线.4e9fb87f34.avif)
+![alt text|w100%](/static/image/最速降线.4e9fb87f34.avif)
 伯努利（哥哥和弟弟分别）证明了最速降线是一条摆线。
 
 ## 传送带和板块模型 \{#\_10}
 
-![alt text](/static/image/方法总结.bf53825acb.avif)
+![alt text|w90%](/static/image/方法总结.bf53825acb.avif)
 **例题1**：质量为 $2\text\{kg}$ 的物体沿光滑斜面下滑，斜面与水平面的夹角为 $37^\circ$，求木块的加速度。
 
 列式：

@@ -756,7 +756,7 @@ $$
 
 当且仅当 $x=1$ 时取等，我们对两边同时求积分，如图左。为了使两边依旧在 $x=1$ 时取等，我们将 $\ln x$ 的积分 $(\ln x-1)x$ 修正为其加 $\dfrac\{1}\{2}$，如图右
 
-!\[alt text]\(../desmos-graph (2).svg#class="custom-img")
+!\[alt text]\(../desmos-graph (2).svg)
 
 ![alt text](/static/svg/desmos-graph.e0dc6eea3d.svg)
 利用求导也可以证明下面的不等式：

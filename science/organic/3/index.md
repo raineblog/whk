@@ -32,7 +32,7 @@
 
   > 从复杂基团到简单的为正方向，当两侧均为同一方向，为顺，反之为反
   >
-  > <img alt="alt text" src={image0} />
+  > <img alt="alt text|w70%" src={image0} />
   >
   > 双键上的碳原子及与其直接相连的原子位于同一平面，碳碳双里中任意一个双键碳原子上连接 2 个相同的原子或原子团时，不存在顺反异构
 
@@ -40,7 +40,7 @@
 
   > 手性碳原子：饱和碳的周围接了 $4$ 个两两不同的原子或原子团
   >
-  > <img alt="alt text" src={image1} />
+  > <img alt="alt text|w60%" src={image1} />
 
 注意：题目中如问给定结构的物质的同分异构体数目，需要扣除该物质本身。
 
@@ -119,7 +119,7 @@
 
 确定链状烷烃**二取代物**的同分异构体数目时，可首先固定一个取代基，再按照顺序移动另一个取代基以确定同分异构体数目，下面以确定 $\ce\{CH3CH2CH3}$ 的二氯代物的数目为例
 
-![alt text](/static/image/image-5.0fcb493bc6.avif)
+![alt text|w50%](/static/image/image-5.0fcb493bc6.avif)
 1. 先固定 $1$ 个氯原子，有 $2$ 种（如上图 ① 和 ②）。
 
 2. 然后移动第 $2$ 个氯原子：
@@ -174,7 +174,7 @@ $$
 \ce\{CH3CH2OH ->\[浓硫酸]\[\pu\{170^oC}] CH2=CH2 ^ + H2O}
 $$
 
-![alt text](/static/image/image.966205b506.avif)
+![alt text|w30%](/static/image/image.966205b506.avif)
 1. 乙醇和浓硫酸的体积比为 $1:3$，加入沸石或碎瓷片防止暴沸。
 
 2. 浓硫酸起催化剂和脱水剂的作用，制得的乙烯中可能混有 $\ce\{CO2},\ce\{SO2}$ 等。
@@ -189,7 +189,7 @@ $$
 \ce\{CaC2 + 2H2O -> CH#CH + Ca(OH)2}
 $$
 
-![alt text](/static/image/image-1.9f272887de.avif)
+![alt text|w30%](/static/image/image-1.9f272887de.avif)
 1. 碳化钙是电石的主要成分，反应后可能有 $\ce\{H2S},\ce\{PH3}$ 等杂志，可用 $\ce\{CuSO4}$ 溶液除去。
 
    <img alt="alt text" src={image8} />
@@ -242,7 +242,7 @@ $$
 \ce\{CH3COOH + HOCH2CH3 \<=>\[浓硫酸]\[\triangle] CH3COOCH2CH3 + H2O}
 $$
 
-![alt text](/static/image/image-3.97feeabb63.avif)
+![alt text|w30%](/static/image/image-3.97feeabb63.avif)
 1. 试剂的加入顺序为乙醇、浓硫酸和冰醋酸（乙酸），不能先加浓硫酸，浓硫酸作催化剂、吸水剂。
 2. 导气管不能插入饱和碳酸钠溶液中，防止倒吸，饱和碳酸钠溶液的作用：吸收乙醇、中和乙酸、降低乙酸乙酯的溶解度。
 

@@ -184,11 +184,11 @@ $$
 
   特殊图像 $v^2-x$ 图像：由 $v^2-v\_0^2=2ax$ 可得 $v^2=v\_0^2+2ax$，图线斜率为 $2a$，图像纵截距为初速度的二次方，如图 b。
 
-  <img alt="alt text" src={image2} />
+  <img alt="alt text|w70%" src={image2} />
 
 - 特殊图像 $a-x$ 图像：由 $v^2-v\_0^2=2ax$ 可得 $ax=\dfrac\{v^2-v\_0^2}\{2}$，图线与 $x$ 轴所围成面积表示速度平方的变化量的一半，如图 c。
 
-  <img alt="alt text" src={image3} />
+  <img alt="alt text|w30%" src={image3} />
 
 注意声明正方向。
 

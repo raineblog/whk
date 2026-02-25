@@ -431,7 +431,7 @@ $$
 
 ### 等系数和线 \{#\_21}
 
-![等系数和线](/static/image/等系数和线.c3b4f4dc3a.avif)
+![等系数和线|w100%](/static/image/等系数和线.c3b4f4dc3a.avif)
 证明过程：
 
-![等和线](/static/image/image-1.8fbca10c55.avif)
+![等和线|w100%](/static/image/image-1.8fbca10c55.avif)

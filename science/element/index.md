@@ -30,7 +30,7 @@
 
 ### 分类标准 \{#\_4}
 
-![物质](/static/image/物质-dcbbc0d.1241c2220c.avif)
+![物质|w100%](/static/image/物质-dcbbc0d.1241c2220c.avif)
 纯净物注意：
 
 1. 化学式相同，并不一定就是纯净物。

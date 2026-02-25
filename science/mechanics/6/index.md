@@ -538,7 +538,7 @@ $$
 | 双星系统 | $\omega=\sqrt\{\dfrac\{GM}\{r^3}}$  | $T=2\pi\sqrt\{\dfrac\{r^3}\{GM}}$  |
 | 三星系统 | $\omega=\sqrt\{\dfrac\{3GM}\{r^3}}$ | $T=2\pi\sqrt\{\dfrac\{r^3}\{3GM}}$ |
 
-![多星问题](/static/image/多星问题.4dc6540e24.avif)
+![多星问题|w90%](/static/image/多星问题.4dc6540e24.avif)
 此时，存在两个可用的条件，$\omega$ 相同，以及万有引力的合力提供向心力。
 
 列式即可，也可以使用质心解决。
@@ -672,8 +672,8 @@ $$
 
 如图：
 
-![霍曼转移（提高）](/static/image/KSPedia_102.1c198a76d1.avif)
-![霍曼转移（降低）](/static/image/KSPedia_103.5443049360.avif)
+![霍曼转移（提高）|w100%](/static/image/KSPedia_102.1c198a76d1.avif)
+![霍曼转移（降低）|w100%](/static/image/KSPedia_103.5443049360.avif)
 - 航天器无需经过多次反复的加减速过程，仅需进行两次相同方向的推进即可升高或降低轨道。
 
 - 霍曼转移是一些情况下消耗能量最小的转移方式，其节省了在变换方向加减速时的能量浪费。

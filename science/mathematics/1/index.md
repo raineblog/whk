@@ -228,7 +228,7 @@ $$
 
 其中 $\xi\_0=1$，也就是实数情况下的平凡解。
 
-![alt text](/static/image/image.244df1ff73.avif)
+![alt text|w60%](/static/image/image.244df1ff73.avif)
 根据恒等式：
 
 $$

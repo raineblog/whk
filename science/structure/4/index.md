@@ -224,7 +224,7 @@ $$
 
 石墨晶体是层状结构，在每一层内，每个碳原子与临近的三个碳原子以共价键结合，形成无限的六边形网状结构。每个碳原子还有一个与碳环平面垂直的未参与杂化的 2p 轨道，并含有一个未成对电子，形成遍及整个平面的超大离域 $\pi$ 键，电子可以在其中自由运动，因此石墨具有各向异性的导电性。同时，石墨的层与层之间以范德华力结合，因为范德华力远小于共价键，受力很容易散开，因此作为铅笔芯的材料。
 
-![alt text](/static/image/image.acfbc15c12.avif)
+![alt text|w100%](/static/image/image.acfbc15c12.avif)
 物质组成的复杂性导致晶体中存在多种不同微粒以及不同的微粒相互作用。金属键、离子键、共价键、配位键等都是化学键的典型模型，但是，原子之间形成的化学键往往是介于经典模型之间的过度状态。
 
 熔沸点比较：
@@ -275,8 +275,8 @@ $$
   \rho=\dfrac\{n}\{V}=\dfrac\{nM}\{V}=\dfrac\{M\_总}\{N\_AV}=\dfrac\{\sum MN}\{N\_AV}
   $$
 
-![alt text](/static/image/image-1.d907cfd5b6.avif)
-![alt text](/static/image/image-2.d0b869dab0.avif)
+![alt text|w100%](/static/image/image-1.d907cfd5b6.avif)
+![alt text|w100%](/static/image/image-2.d0b869dab0.avif)
 ## 结构推断问题 \{#\_10}
 
 ### 微粒的电子总数 \{#\_11}

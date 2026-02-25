@@ -124,21 +124,21 @@
 
 - 酚醛树脂的合成：
 
-  <img alt="alt text" src={image3} />
+  <img alt="alt text|w100%" src={image3} />
 
-  <img alt="alt text" src={image4} />
+  <img alt="alt text|w100%" src={image4} />
 
 - 羟基酸缩聚：
 
-  <img alt="alt text" src={image5} />
+  <img alt="alt text|w60%" src={image5} />
 
-  <img alt="alt text" src={image6} />
+  <img alt="alt text|w80%" src={image6} />
 
 - 醇酸缩聚：
 
-  <img alt="alt text" src={image7} />
+  <img alt="alt text|w70%" src={image7} />
 
-  <img alt="alt text" src={image8} />
+  <img alt="alt text|w100%" src={image8} />
 
 - 氨基酸缩聚：
 
@@ -283,7 +283,7 @@ $$
 
 - 共轭二烯烃与含碳碳双键（或三键）的化合物在一定条件下反应，得到环加成产物，构建了环状碳骨架，该反应用于构建六元碳环骨架。
 
-  <img alt="alt text" src={image19} />
+  <img alt="alt text|w50%" src={image19} />
 
 - 理解：共轭二烯烃（如 $1,3$-丁二烯）的两根双键各自打开一半，与含亲双烯体（在这里是丙烯酸）的碳碳双键发生加成反应，两个"半截键"与原来的单键共同形成了新的双键，得到了环加成产物，构建了环状碳骨架。
 
@@ -291,13 +291,13 @@ $$
 
 二元醇成环：
 
-![alt text](/static/image/image-38.3d650c7eac.avif)
+![alt text|w60%](/static/image/image-38.3d650c7eac.avif)
 二元羧酸成环：
 
-![alt text](/static/image/image-39.4556d842c1.avif)
+![alt text|w80%](/static/image/image-39.4556d842c1.avif)
 氨基酸成环：
 
-![alt text](/static/image/image-40.f159ea0ece.avif)
+![alt text|w60%](/static/image/image-40.f159ea0ece.avif)
 ## 官能团的转化 \{#\_13}
 
 ### 引入官能团 \{#\_14}

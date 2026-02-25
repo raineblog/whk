@@ -37,7 +37,7 @@
 
 当时物理学家已有能力对热辐射的强度随波长的分布进行比较准确的测量。研究表明，对于一般材料的物体，辐射电磁波的情况除了与**温度**有关，还与材料的**种类及表面状况**有关，而黑体辐射电磁波的强度按波长的分布**只与黑体的温度有关**。它可能反映了某种具有普遍意义的客观规律，人们因此对黑体辐射进行了深入的实验及理论研究。
 
-![alt text](/static/svg/EM_spectrum_zh-hans.a80c6cdec3.svg)
+![alt text|w100%](/static/svg/EM_spectrum_zh-hans.a80c6cdec3.svg)
 - 如果某种物体能够完全吸收入射的各种波长的电磁波而不发生反射，这种物体就是绝对黑体，简称**黑体**。如果一个物体本身辐射出的电磁波远远强于其反射的，例如太阳、黑夜中的灯泡等，也可以近似看为黑体。
 
 - 空腔壁上开一个很小的孔，射入小孔的电磁波在空腔内表面会发生多次反射和吸收，最终不能从空腔射出。这个带小孔的空腔就可以近似为一个绝对黑体。黑体虽然不反射电磁波，却可以向外辐射电磁波，这样的辐射叫作**黑体辐射**。
@@ -46,14 +46,14 @@
 
 我们知道，物体中存在着不停运动的带电微粒，按照当时物理学的认识，每个带电微粒的振动都产生变化的电磁场，从而产生电磁辐射。
 
-![alt text](/static/svg/Wiens.1624540eb4.svg)
+![alt text|w90%](/static/svg/Wiens.1624540eb4.svg)
 英国物理学家瑞利根据经典统计力学，提出了辐射强度按波长分布的理论公式。后来，金斯修正了瑞利辐射公式中的一个数值错误，此公式被称为瑞利-金斯定律。瑞利公式在长波区与实验基本一致，但在短波区与实验严重不符。
 
 以古典物理学理论所计算的黑体辐射强度会随辐射频率的增加，而趋向于放出无穷大之能量。奥地利物理学家埃伦费斯特用"紫外灾变"来形容经典理论的困境，这也被称为瑞利-金斯灾变。
 
 与此同时，德国物理学家维恩基于对实验数据的经验总结，同样提出了近似公式，但是维恩公式在短波区与实验非常接近，而在长波区则与实验偏离较大。后来，德国物理学家普朗克提出新公式以改进维恩定律，提出了普朗克公式（普朗克黑体辐射公式），实际上解决了这一问题。
 
-![alt text](/static/svg/RWP.039a211f9a.svg)
+![alt text|w90%](/static/svg/RWP.039a211f9a.svg)
 普朗克尝试从电磁学、力学、统计物理学等物理学的基本理论出发，把这个公式推导出来。普朗克发现，如果想推导出这个公式，就必须假定：组成黑体的振动着的带电微粒的能量只能是某一最小能量值 $\varepsilon$ 的整数倍，这被视为是量子力学的诞辰。
 
 他把这个不可再分的最小能量值 $\varepsilon$ 叫作**能量子**，它的表达式为：
@@ -104,7 +104,7 @@ $$
 
 实际物理要求动能必须是正值，因此光频率必须大于或等于截止频率，光电效应才能发生。
 
-![alt text](/static/image/image-28.68f71a44cf.avif)
+![alt text|w100%](/static/image/image-28.68f71a44cf.avif)
 光电效应具有瞬时性：
 
 - 如果光很弱，按经典电磁理论估算，电子需要几分钟到十几分钟的时间才能获得逸出表面所需的能量，这个时间远远大于实验中产生光电流的时间。
@@ -123,14 +123,14 @@ $$
 
 对于确定的金属，其逸出功 $W\_0$ 是确定的，电子电荷 $e$ 和普朗克常量 $h$ 都是常量。上式中的遏止电压 $U\_c$ 与光的频率 $\nu$ 是线性关系，$U\_c-\nu$ 图像是一条斜率为 $\dfrac\{h}\{e}$ 的直线。
 
-![alt text](/static/image/image-30.73f3ddd135.avif)
+![alt text|w100%](/static/image/image-30.73f3ddd135.avif)
 美国物理学家密立根以精湛的技术测量光电效应中几个重要的物理量，以检验爱因斯坦光电效应方程的正确性。实验的结果为爱因斯坦的光电效应理论提供了直接的实验证据。
 
 ### 光电效应实验 \{#\_9}
 
 阴极 K 和阳极 A 是密封在真空玻璃管中的两个电极，阴极 K 在受到光照时能够发射光电子，在两极板电压 $U$ 产生的电场的作用下，向左移动。
 
-![alt text](/static/image/image-27.c53d814b72.avif)
+![alt text|w50%](/static/image/image-27.c53d814b72.avif)
 阴极 K 与阳极 A 之间电压 $U$ 的大小可以调整，电源的正负极也可以对调。电源按图示极性连接时，闭合开关后，阳极 A 吸收阴极 K 发出的光电子，在电路中形成光电流。我们记录电流表与电压表的示数，绘制成图像如左（图上可见**饱和电流**、**遏止电压**），通过爱因斯坦光电效应方程计算得右图（图上可见**截止频率**）。
 
 ![alt text](/static/image/image-29.fe395ac5d6.avif)
@@ -175,7 +175,7 @@ $$
 
 按照经典物理学的理论，入射的电磁波引起物质内部带电微粒的受迫振动，振动着的带电微粒进而再次产生电磁波，并向四周辐射，这就是散射波。散射的 X 射线频率应该等于带电粒子受迫振动的频率，也就是入射 X 射线的频率。相应地，X 射线的波长也不会在散射中发生变化。因此，康普顿效应无法用经典物理学解释。
 
-![alt text](/static/image/image-31.ab85d73e02.avif)
+![alt text|w80%](/static/image/image-31.ab85d73e02.avif)
 康普顿用光子的模型成功地解释了这种效应。他的基本思想是：光子不仅具有能量，而且具有动量，光子的动量 $p$ 与光的波长 $\lambda$ 和普朗克常量 $h$ 有关。这三个量之间的关系式为
 
 $$
@@ -186,7 +186,7 @@ $$
 
 在康普顿效应中，光子动量 $p$ 减小，意味着波长 $\lambda$ 变大，因此这些光子散射后波长变大，康普顿效应让人们对光子有了更深入的认识。
 
-![alt text](data:image/avif;base64,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)
+![alt text|w60%](data:image/avif;base64,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)
 - 低能级现象：光电效应。
 
 - 中能级现象：汤姆孙散射、康普顿散射。
@@ -289,7 +289,7 @@ $$
 
 在夸克模型的基础上，科学家们发展出了描述强相互作用的系统理论------量子色动力学。以量子色动力学和电弱统一理论为核心，人们已经完成了一整套关于粒子的理论，称为粒子物理标准模型。标准模型和大量实验吻合得很好，取得了很大的成功。在标准模型中，夸克、轻子、规范玻色子和希格斯玻色子是组成物质的几类最基本的粒子。
 
-![alt text](/static/svg/Standard_Model_of_Elementary_Particles_zh-hans.448e40d9e5.svg)
+![alt text|w100%](/static/svg/Standard_Model_of_Elementary_Particles_zh-hans.448e40d9e5.svg)
 标准模型告诉我们，世界由以下这些"场"构成：
 
 - 物质场，其激发产生费米子，构成了我们世界的所有物质。

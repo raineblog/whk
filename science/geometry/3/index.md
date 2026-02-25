@@ -344,7 +344,7 @@ $$
 
 而我们不妨做两条 $\angle CPD$ 内的线，分别与椭圆交于 $A\_1,A\_2$ 与 $B\_1,B\_2$ 点，如图。
 
-![alt text](/static/image/image-26.d9879b85c2.avif)
+![alt text|w50%](/static/image/image-26.d9879b85c2.avif)
 我们发现 $A\_2B\_1,A\_1B\_2$ 相交于 $T$，且 $T$ 在 $CD$ 上。
 
 特殊的，如果 $P$ 在椭圆的右准线上（左准线类似），容易知道极线方程：
@@ -373,7 +373,7 @@ $$
 \frac\{x\_i x\_j}\{a^2} + \frac\{y\_i y\_j}\{b^2} = 1
 $$
 
-![alt text](/static/image/image-27.3031eaf650.avif)
+![alt text|w60%](/static/image/image-27.3031eaf650.avif)
 如图 9-12 所示，已知 $P(x\_P, y\_P)$ 和圆 $x^2 + y^2 = 1$，过点 $P$ 任作一割线交圆于 $A,B$ 两点，交 $\ell : x\_Px + y\_Py = 1$ 于点 $Q$，则
 
 $$
@@ -384,21 +384,21 @@ $$
 
 如图 9-13 所示，特别地，若 $PQ$ 经过圆心并交圆于 $R$，则有 $|OR|^2 = |OP|\cdot|OQ|$。反之，若 $|OR|^2 = |OP|\cdot|OQ|$，则 $Q$ 落在点 $P$ 的极线 $x\_Px + y\_Py = 1$ 上。
 
-![alt text](/static/image/image-39.29e797ba95.avif)
+![alt text|w80%](/static/image/image-39.29e797ba95.avif)
 对于一般的圆锥曲线，将切线方程直接搬过来，就是极线方程，也有上面的两条性质。
 
 ### 等角共轭 \{#\_9}
 
 椭圆的等角共轭：过椭圆外一点 $P$ 做切线 $PX,PY$，切点为 $X,Y$。连接 $PF\_1,PF\_2$，则 $\angle XPF\_1=\angle YPF\_2$。
 
-![alt text](/static/image/image-12.e33e2fdfb5.avif)
+![alt text|w50%](/static/image/image-12.e33e2fdfb5.avif)
 我们将 $F\_1,F\_2$ 分别关于 $PX,PY$ 对称，得到 $F\_1',F\_2'$，根据初中几何容易知道，$\triangle PF\_1'F\_2\cong\triangle PF\_1F\_2'$，两顶角减去公共部分 $\angle F\_1PF\_2$，即可得到。
 
 根据已经证明的全等，因此 $\angle PF\_1X = \angle PF\_1'F\_2 = \angle PF\_1F\_2' = \angle PF\_1Y$，也就是说对于曲线外一点 $P$ 与焦点的连线一定平分两个切点与这个焦点所构成的角。
 
 双曲线有着类似的性质，但是需要注意切点是否位于同一分支上。
 
-![alt text](/static/image/image-13.67823bfa7e.avif)
+![alt text|w40%](/static/image/image-13.67823bfa7e.avif)
 此时有 $\angle F\_1PX = \pi - \angle F\_2PY$。
 
 ### 蒙日圆 \{#\_10}
@@ -411,7 +411,7 @@ $$
 
 证明：不妨做 $F\_1$ 关于 $PX$ 的对称点 $F\_1'$，不难得到 $\angle F\_1'PF\_2=\angle XPY=90^\circ$，
 
-![alt text](/static/image/image-14.b3eba72300.avif)
+![alt text|w40%](/static/image/image-14.b3eba72300.avif)
 又因为 $PF\_1'=PF\_1$，也就是说只需要令
 
 $$
@@ -536,7 +536,7 @@ $$
 
 做焦点到渐近线的垂线，焦点、垂足、圆心所构成的三角形即为双曲线的特征三角形。
 
-![alt text](/static/image/imagett.a201d35c46.avif)
+![alt text|w60%](/static/image/imagett.a201d35c46.avif)
 设焦点 $F(c,0)$，在渐近线 $bx=ay$ 上的垂足为 $P$，坐标原点为 $O$，则
 
 $$
@@ -547,7 +547,7 @@ $$
 
 与之类似的，我们还可以从双曲线上任意一点向两条渐近线引垂线，如图
 
-![alt text](/static/image/image-24.702f92cb47.avif)
+![alt text|w40%](/static/image/image-24.702f92cb47.avif)
 则有
 
 $$
@@ -642,7 +642,7 @@ $$
 
 其图像如图
 
-![alt text](/static/svg/Sinh_cosh_tanh.2d95d198a4.svg)
+![alt text|w60%](/static/svg/Sinh_cosh_tanh.2d95d198a4.svg)
 我们在复数部分推导了欧拉公式，因此不难知道
 
 $$
@@ -803,7 +803,7 @@ $$
 
 在圆锥曲线的选择与填空题中，若有中点这样的信息出现，就要联想到原点并连接原点与该点，构造中位线。因为原点是椭圆和双曲线的中心，是两焦点的天然中点。
 
-![alt text](/static/image/image-32.5a195e94c2.avif)
+![alt text|w40%](/static/image/image-32.5a195e94c2.avif)
 通经公式可以作如下推广：过焦点 $F$ 作 $n$ 条夹角相等的射线交椭圆于 $P\_1, P\_2, \cdots, P\_n$，则
 
 $$
@@ -926,7 +926,7 @@ $$
 
 已知 $F\_1, F\_2$ 是椭圆 $C\_1$ 与双曲线 $C\_2$ 的公共焦点，$e\_1, e\_2$ 分别是 $C\_1, C\_2$ 的离心率。若点 $P$ 为 $C\_1, C\_2$ 的公共点，$\angle F\_1PF\_2 = 2\theta$，则 $\dfrac\{\sin^2\theta}\{e\_1^2} + \dfrac\{\cos^2\theta}\{e\_2^2} = 1$。
 
-![alt text](/static/image/image-37.dfdcd7ef92.avif)
+![alt text|w40%](/static/image/image-37.dfdcd7ef92.avif)
 在这个图中，据余弦定理还可以推导：
 
 $$
@@ -939,7 +939,7 @@ $$
 
 - 将直线 $\ell$ 平移到与曲线相切的位置，得到曲线的一条与直线 $\ell$ 平行的切线 $\ell'$，此时直线 $\ell$ 与 $\ell'$ 之间的距离即为曲线与 $\ell$ 距离的最值。
 
-  <img alt="alt text" src={image17} />
+  <img alt="alt text|w30%" src={image17} />
 
 - 椭圆内或外一点到椭圆上一定点的最短距离，我们称所有可能是最近点的点为可能点的点集，而最短距离就是这些点集中的点到定点的距离的最小值。
 
@@ -979,7 +979,7 @@ $$
 
 设光线从 $F\_1$ 经过直线 $\ell$ 的反射到达 $F\_2$ 点，我们将 $F\_1$ 关于 $\ell$ 对称的点设为 $F\_1'$
 
-![alt text](/static/image/image-10.73c3917ca3.avif)
+![alt text|w40%](/static/image/image-10.73c3917ca3.avif)
 则 $P$ 点位于 $F\_1'F\_2$ 与 $\ell$ 的交点上，这就是将军饮马模型，也容易证明，入射角和出射角是相等的。
 
 </details>
@@ -996,7 +996,7 @@ $$
 
 如图，容易知道，我们只需要证明 $\angle DAF\_1=\angle DAF\_2$ 即可，
 
-![alt text](/static/image/image-3.1f6acbf965.avif)
+![alt text|w60%](/static/image/image-3.1f6acbf965.avif)
 根据角平分线逆定理，只需要证
 
 $$
@@ -1005,7 +1005,7 @@ $$
 
 但是这比较复杂，我们发现费马定理可以非常容易的解决这个问题。
 
-![alt text](/static/image/image-11.a0362118ef.avif)
+![alt text|w40%](/static/image/image-11.a0362118ef.avif)
 不妨设 $X$ 是 $\ell$ 上任意一点，则根据 $P$ 在椭圆上、$X$ 在椭圆外，
 
 $$
@@ -1028,14 +1028,14 @@ $$
 
 假设 $P$ 为抛物线上一点，做到准线的垂线，垂足为 $P'$，如图
 
-![alt text](/static/image/image-9.5af278c875.avif)
+![alt text|w40%](/static/image/image-9.5af278c875.avif)
 我们不妨证明锅 $P$ 点的切线 $\ell$ 恰好平分 $\angle FPP'$。
 
 不妨假设角平分线 $\ell'$ 与抛物线相交与 $P,Q$ 两点，做 $QQ'$ 垂直于准线。根据抛物线的定义，有 $FP=PP'$，因此也有 $QF=QP'$，又因为 $FQ=QQ'$，因此 $P=Q$，即 $\ell=\ell'$，证毕。
 
 我们也可以证明角相等，
 
-![alt text](/static/image/image-8.dd3664c1d2.avif)
+![alt text|w60%](/static/image/image-8.dd3664c1d2.avif)
 不难得到，只需要证 $\angle FPQ=\angle FQP$ 即可。
 
 不妨证明 $FP=FQ$，容易想到，列出直线方程直接求解，得到点的坐标即可。
@@ -1068,7 +1068,7 @@ $$
 
 平面内与一个定点 $F$ 和一条定直线 $\ell$（不过 $F$）的距离相等的点的轨迹叫做抛物线。点 $F$ 叫做抛物线的焦点，直线 $\ell$ 叫做抛物线的准线。
 
-!\[alt text]\(../desmos-graph (6).svg#class="custom-img";float="40%")
+!\[alt text|w40%]\(../desmos-graph (6).svg)
 
 不妨设 $F$ 到准线的距离（焦准距）为 $p$ 且垂足为 $K$，容易知道，抛物线的顶点就是 $FK$ 的中点，即 $F=\paren\{\dfrac\{p}\{2},0},K=\paren\{-\dfrac\{p}\{2},0}$，不难得到抛物线的标准方程为
 
@@ -1108,7 +1108,7 @@ $$
 
 如图，过抛物线 $x^2=2py(p>0)$ 外的点 $P$ 作抛物线的两条切线 $PA, PB$，设线段 $AB$ 的中点为 $M$，则 $PM$ 一定平行（或重合）与抛物线的轴，设线段 $PM$ 的中点为 $R$，则 $R$ 一定在抛物线上，且抛物线在 $R$ 处的切线与 $AB$ 平行。
 
-![alt text](/static/image/image-1.abfb861a87.avif)
+![alt text|w80%](/static/image/image-1.abfb861a87.avif)
 不妨设 $P(x\_0,y\_0)$，直线 $AB$ 与 $y$ 轴交于点 $Q$，则有：
 
 - $k\_\{AB} \cdot k\_\{PQ} = \dfrac\{2y\_0}\{p}$；
@@ -1117,7 +1117,7 @@ $$
 
 假设 $\triangle ABC$ 外切于一条抛物线，即直线 $AB$，$BC$，$CA$ 均与抛物线相切，那么 $\triangle ABC$ 的垂心始终过抛物线的准线。
 
-![alt text](/static/image/image-22.bd4f10749b.avif)
+![alt text|w40%](/static/image/image-22.bd4f10749b.avif)
 - 兰伯特定理：由抛物线的三条切线所围成的三角形，其外接圆必经过抛物线的焦点。
 
 - 西姆松定理：点 $P$ 到 $\triangle ABC$ 各边的投影共线，当且仅当 $P$ 位于该三角形的外接圆上。
@@ -1130,7 +1130,7 @@ $$
 
    证明：做 $PP'\perp\ell$，根据抛物线的性质，$FP=PP'$。
 
-   <img alt="alt text" src={image27} />
+   <img alt="alt text|w40%" src={image27} />
 
    因为 $FP'\perp\ell'$，因此 $\ell'$ 是 $\angle FPP'$ 角平分线，所以，$F$ 关于 $\ell'$ 的反射点即为 $P'$ 在准线上。
 
@@ -1140,7 +1140,7 @@ $$
 
    证明：根据上一条，这两条切线分别是线段 $FX'$ 和 $FY'$ 的中垂线。因此，它们的交点即为三角形 $FX'Y'$ 的外接圆圆心。
 
-   <img alt="alt text" src={image28} />
+   <img alt="alt text|w90%" src={image28} />
 
    推论：如果 $PX$ 和 $PY$ 是抛物线的切线，那么点 $P$ 在准线上的投影，是 $X$ 和 $Y$ 在准线上的投影点所构成线段的中点。
 
@@ -1148,13 +1148,13 @@ $$
 
    证明：设 $X',Y'$ 为 $X,Y$ 到准线上的投影，因为 $P$ 在准线上，
 
-   <img alt="alt text" src={image29} />
+   <img alt="alt text|w40%" src={image29} />
 
    那么 $XF=XX',YF=YY'$，因此可以得到两个三角形全等，那么 $\angle XPY=90^\circ$。
 
 4. 我们做推广，两条切线为 $\varphi$ 或 $180^\circ-\varphi$ 的点的集合是一个以 $F$ 焦点，抛物线准线 $\ell$ 为准线的双曲线，其离心率等于 $|\cos\varphi|$。
 
-   <img alt="alt text" src={image30} />
+   <img alt="alt text|w40%" src={image30} />
 
    注意到 $P$ 为 $\triangle FX'Y'$ 外心，因此 $\angle X'PY'=360^\circ-2\varphi$，那么 $P$ 到准线的距离为 $PF|\cos(180^\circ-\varphi)|=PF|\cos\varphi|$，证毕。
 
@@ -1162,7 +1162,7 @@ $$
 
    设 $X'$ 和 $Y'$ 是 $X$ 和 $Y$ 在准线上的投影。那么，点 $F$、$X'$ 和 $Y'$ 位于一个以 $P$ 为圆心的圆上，
 
-   <img alt="alt text" src={image31} />
+   <img alt="alt text|w40%" src={image31} />
 
    因此 $\angle X'Y'F = \dfrac\{1}\{2}\angle X'PF = \angle XPF$。因为 $\ell$ 垂直于 $X'Y'$，因此 $PY$ 与 $\ell$ 的夹角等于 $Y'F$ 与 $X'Y'$ 的夹角，而 $Y'F$ 垂直于 $PY$。
 
@@ -1209,7 +1209,7 @@ $$
 
 其实，也可以用其他的形式来作为参数方程，但是这个形式显然是最简洁的，因此我们下面说，或者直接用，都是以这个为标准形式。
 
-![alt text](/static/image/image-2-9525fa1.4c94839510.avif)
+![alt text|w80%](/static/image/image-2-9525fa1.4c94839510.avif)
 参数方程最好用的地方在于，它将一个点变成了一个纯简洁的参数 $t$，尽管如果直接设点以 $x$ 或 $y$ 为参数，看似更容易得到结果，但是运算过程会非常复杂，这体现了圆锥曲线部分一个经典的思想------化繁为简，先列后算，最后得到结果，当我们把"列"的过程"变复杂"那么算就会简单，当我们把最后一步变成两步，可能前面就会少一步复杂的运算。
 
 #### 割线问题 \{#\_34}

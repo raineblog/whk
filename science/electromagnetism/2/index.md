@@ -20,7 +20,7 @@
 
 ### 场线 \{#\_4}
 
-![矢量叠加的电场线](/static/image/Campo_cargas_diferentes.064aeb74c4.avif)
+![矢量叠加的电场线|right](/static/image/Campo_cargas_diferentes.064aeb74c4.avif)
 PS：右图为矢量叠加的电场线。
 
 在空间里，矢量场在每一个位置，都设定了一个方向，因此场线不能相交，并且场线在每一个位置的切线平行于矢量场在那一个位置的方向。
@@ -241,8 +241,8 @@ $$
 - 沿着等势面移动的电荷电场力不做功（解释：运动方向等势面与受力方向电场线垂直）。
 - 等差等势面越密集，电场强度越大（解释：类比地理等高线）。
 
-![alt text](/static/image/fimage-3.a057c5ee6a.avif)
-![等势面](/static/image/3bc6f7508c8d571e1138c24f.3ddfdb8b3c.avif)
+![alt text|w100%](/static/image/fimage-3.a057c5ee6a.avif)
+![等势面|w100%](/static/image/3bc6f7508c8d571e1138c24f.3ddfdb8b3c.avif)
 ## 电场的规律 \{#\_13}
 
 ### 点电荷电势 \{#\_14}
@@ -371,7 +371,7 @@ $$
 
 这个可以理解为重力场和电场的合成，即为等效重力场。
 
-![等效重力场](/static/image/等效重力场.bf13215fae.avif)
+![等效重力场|w60%](/static/image/等效重力场.bf13215fae.avif)
 如图，如果从 $A$ 点静止释放，在 $B$ 点恰好速度为零，则 $C$ 点一定是动能最高的点，$OC$ 方向即为等效重力场方向；根据对称性，$OC$ 一定是角平分线。
 
 ::: \{.footnote}
