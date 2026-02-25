@@ -18,7 +18,7 @@ $$
 a_n=P(n)+\sum_{i=1}^kf_i\times a_{n-i}
 $$
 
-其中 $P(x$ 是一个 $m$ 次多项式。
+其中 $P(x)$ 是一个 $m$ 次多项式。
 
 ### 特征方程 {#_4}
 
@@ -634,9 +634,9 @@ $$
 
 极限的概念比较复杂，我们多方面的考虑。
 
-若函数 $f(x$ 在 $x_0$ 附近有定义，且存在有极限 $L$，那么，
+若函数 $f(x)$ 在 $x_0$ 附近有定义，且存在有极限 $L$，那么，
 
-对于任意 $varepsilon>0$，一定存在 $delta>0$，使得当，
+对于任意 $\varepsilon>0$，一定存在 $\delta>0$，使得当，
 
 $$
 0<|x-x_0|<\delta
@@ -678,7 +678,7 @@ $$
 
 数列极限的定义和函数的不大一样，
 
-对于任意 $varepsilon>0$，都存在 $N\in\mathbb N^*$，使得对于任意 $n>N$，
+对于任意 $\varepsilon>0$，都存在 $N\in\mathbb N^*$，使得对于任意 $n>N$，
 
 $$
 |a_n-L|<\varepsilon
@@ -702,7 +702,7 @@ $$
 (\forall\varepsilon>0)(\exist N\in\mathbb N^+)(\forall n\in\mathbb N) [(n>N)\Rightarrow(|a_n-L|<\varepsilon)]
 $$
 
-直观的讲，即无论误差范围 $varepsilon$ 多小，从某项 $a_n$ 开始，每一项与 $L$ 的差距都小于 $varepsilon$​。
+直观的讲，即无论误差范围 $\varepsilon$ 多小，从某项 $a_n$ 开始，每一项与 $L$ 的差距都小于 $\varepsilon$​。
 
 或者，更直观的，当数列的下标越来越大的时候，数列的值也就越接近那个特殊值。
 
@@ -746,7 +746,7 @@ $$
 
 若两数列存在极限，那么其夹的数列存在极限，数学表示，
 
-若 $lim\limits_{n\to\infty}a_n=\lim\limits_{n\to\infty}b_n=L$，且 $a_n\le c_n\le b_n$，则 $lim\limits_{n\to\infty}c_n=L$​。
+若 $\lim\limits_{n\to\infty}a_n=\lim\limits_{n\to\infty}b_n=L$，且 $a_n\le c_n\le b_n$，则 $\lim\limits_{n\to\infty}c_n=L$​。
 
 例如，
 
@@ -782,7 +782,7 @@ $$
 \boxed{\lim_{n\to\infty}xa_n=x\lim_{n\to\infty}a_n}\tag2
 $$
 
-由 $1)(2$ 可得极限的**线性性**，
+由 $(1)(2)$ 可得极限的**线性性**，
 
 $$
 \boxed{\lim_{n\to\infty}(xa_n+yb_n)=x\lim_{n\to\infty}a_n+y\lim_{n\to\infty}b_n}\tag3
@@ -1162,7 +1162,7 @@ $$
 
 因为对于任意的实数， $x$ 永远不会等于 $x+1$。
 
-用画图的话来说，不动点意味着点 $x,f(x$ 在直线 $y=x$ 上，即图像存在交点。
+用画图的话来说，不动点意味着点 $(x,f(x))$ 在直线 $y=x$ 上，即图像存在交点。
 
 上例 $f(x)=x+1$ 的情况是，这个函数的图像与那根直线是一对平行线。
 
@@ -1246,7 +1246,7 @@ $$
 f(a_n)=a_{n+1}
 $$
 
-容易想到，我们在平面内做出 $f(x$ 的图像，那么这上面的点，
+容易想到，我们在平面内做出 $f(x)$ 的图像，那么这上面的点，
 
 $$
 Q(a_n,f(a_n))=(a_n,a_{n+1})
@@ -1273,7 +1273,7 @@ $$
 A_2(a_2,a_2)
 $$
 
-过 $A_2$ 做 $y$ 轴平行线，交 $y=f(x$​ 于，
+过 $A_2$ 做 $y$ 轴平行线，交 $y=f(x)$​ 于，
 
 $$
 A_3(a_2,f(a_2))=(a_2,a_3)
@@ -1282,17 +1282,17 @@ $$
 以此类推，形如，
 
 <figure>
-<p><img src="../3purusz5.avif" alt="蛛网" /></p>
+<p><img src="../3purusz5.avif" alt="蛛网"></p>
 <figcaption><p>蛛网工作法</p></figcaption>
 </figure>
 
-我们知道，按照顺序在 $y=f(x$​ 图像上的点，对应原数列。
+我们知道，按照顺序在 $y=f(x)$​ 图像上的点，对应原数列。
 
-根据这个图像，我们还能知道不动点 $x=f(x$ 其实是这两个图像的交点。
+根据这个图像，我们还能知道不动点 $x=f(x)$ 其实是这两个图像的交点。
 
 于是，如果我们这么做下去，能推到不动点附近，那么函数收敛。
 
-![alt text](../image.avif){width="100%"}
+`<img src="../image.avif" width="100%" alt="alt text">`{=html}
 
 与上文类似，指数函数、幂函数的线性组合，一般都是光滑的，那么有，
 
@@ -1446,9 +1446,9 @@ $$
 
 #### 不动点解题技巧 {#_38}
 
-适用于形如 $a_{n+1}=f(a_n$​，
+适用于形如 $a_{n+1}=f(a_n)$​，
 
-求解通项公式部分，求解不动点 $x=f(x$ 后，
+求解通项公式部分，求解不动点 $x=f(x)$ 后，
 
 【若为一次函数】：两边减去，构造等比；
 
@@ -1480,7 +1480,7 @@ $$
 x=(\sqrt2-1)(x+2)\ x=(\sqrt2-1)x+2(\sqrt2-1)\ (2-\sqrt2)x=2(\sqrt2-1)\ x=(\sqrt2-1)(2+\sqrt2)\ x=\sqrt2
 $$
 
-两边减去 $sqrt2$，
+两边减去 $\sqrt2$，
 
 $$
 a_{n+1}-\sqrt2=(\sqrt2-1)a_n+\sqrt2-2=(\sqrt2-1)(a_n-\sqrt2)
@@ -1655,7 +1655,7 @@ $$
 已知等差数列 ${a_n}$ 满足，$a_3=7,a_5+a_7=26$，
 
 - 求 $a_n$ 及其前 $n$ 项和 $S_n$；
-- 令 $b_n=1/(a_n^2-1$，求其前 $n$ 项和 $T_n$。
+- 令 $b_n=1/(a_n^2-1)$，求其前 $n$ 项和 $T_n$。
 
 易知，
 
@@ -1847,7 +1847,7 @@ $$
 
 - 求其前 $n$ 项和 $T_n$。
 
-观察到 $n(n+1$ 的形式，裂项，
+观察到 $n(n+1)$ 的形式，裂项，
 
 $$
 \begin{aligned} b_n&={n+1\over2^{n-1}}\left({1\over n-1}-{1\over n}\right)\ &={1\over2^{n-1}}\left({n+1\over n-1}-{n+1\over n}\right)\ &={1\over2^{n-1}}\left({2\over n-1}-{1\over n}\right)\ &={1\over2^{n-2}(n-1)}-{1\over 2^{n-1}n} \end{aligned}
@@ -1975,7 +1975,7 @@ $$
 a_n=\prod_{2\le i\le n}{i^3-1\over i^3+1}
 $$
 
-- 求 $lim_{n\to\infty}a_n$。
+- 求 $\lim_{n\to\infty}a_n$。
 
 我们知道，
 
@@ -2067,7 +2067,7 @@ $$
 \begin{aligned} \sum_{k=1}^n\arctan{2\over k^2}&=\sum_{k=1}^n\arctan(k+1)-\sum_{k=1}^n\arctan(k-1)\ &=\sum_{1\le k-1\le n}\arctan k-\sum_{1\le k+1\le n}\arctan k\ &=\sum_{2\le k\le n+1}\arctan k-\sum_{0\le k\le n-1}\arctan k\ &=\arctan(n+1)+\arctan n-\arctan0-\arctan1 \end{aligned}
 $$
 
-我们知道 $arctan$ 的值域是 $-\pi/2,\pi/2$，因此，
+我们知道 $\arctan$ 的值域是 $(-\pi/2,\pi/2)$，因此，
 
 $$
 \lim_{k\to\infty}\arctan k=\pi/2
@@ -2093,7 +2093,7 @@ $$
 
 考虑数学归纳法，对于 $n=1,2,3$，有 $a_n>0$，
 
-假设对于 $n<k(k>3$，$a_n>0$，考虑证明 $a_k>0$。
+假设对于 $n<k(k>3)$，$a_n>0$，考虑证明 $a_k>0$。
 
 $$
 a_k={2019+a_{k-1}a_{k-2}\over a_{k-3}}>0
@@ -2324,7 +2324,7 @@ $$
 A. ${a_n}$ 严格单调递增。  
 B. ${a_n}$ 无界。  
 C. $a_{100}=101$.  
-D. $displaystyle\lim_{n\to\infty}\left({1\over a_1-1}+{1\over a_2-1}+\dots+{1\over a_n-1}\right)=1$.
+D. $\displaystyle\lim_{n\to\infty}\left({1\over a_1-1}+{1\over a_2-1}+\dots+{1\over a_n-1}\right)=1$.
 
 容易发现，右侧系数 $134$ 类似 $144$ 的完全平方式，
 
@@ -2344,7 +2344,7 @@ $$
 a_{100}\ge102
 $$
 
-后面不会了，注意到迭代形如 $a_{n+1}=f(a_n$，我们知道不动点是一个好工具，
+后面不会了，注意到迭代形如 $a_{n+1}=f(a_n)$，我们知道不动点是一个好工具，
 
 $$
 x=f(x)\ x=x^2-3x+4\ x^2-4x+4=0\ (x-2)^2=0\ x=2
@@ -2356,7 +2356,7 @@ $$
 a_{n+1}-2=a_n^2-3a_n+2=(a_n-1)(a_n-2)\ {1\over a_{n+1}-2}={1\over(a_n-1)(a_n-2)}={1\over a_n-2}-{1\over a_n-1}\ {1\over a_n-1}={1\over a_n-2}-{1\over a_{n+1}-2}
 $$
 
-注意到形如 $f(n)=g(n)-g(n'$ 的形式，裂项成功，
+注意到形如 $f(n)=g(n)-g(n')$ 的形式，裂项成功，
 
 $$
 {1\over a_1-1}+{1\over a_2-1}+\dots+{1\over a_n-1}\ ={1\over a_1-2}-{1\over a_2-2}+{1\over a_2-2}-{1\over a_3-2}+\dots+{1\over a_n-2}-{1\over a_{n+1}-2}\ ={1\over a_1-2}-{1\over a_{n+1}-2}=1-{1\over a_{n+1}-2}

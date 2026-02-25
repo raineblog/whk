@@ -8,7 +8,7 @@
 
 从另一个角度思考，也可以认为是知道起点、终点，就可以唯一的确定一个有向线段。
 
-一个有向线段由其两个端点表示，记为 $overrightarrow{AB}$ 或 $bm{a}$，同时我们记其长度，称为**向量的模**。
+一个有向线段由其两个端点表示，记为 $\overrightarrow{AB}$ 或 $\bm{a}$，同时我们记其长度，称为**向量的模**。
 
 ### 向量 {#_3}
 
@@ -44,27 +44,27 @@
 
 我们通常把向量表示在平面直角坐标系内，没有说明的情况下，起点通常标在坐标轴原点。
 
-我们取这个向量在横、纵坐标上延伸的长度作为两个元素，将向量记为 $a,b$。
+我们取这个向量在横、纵坐标上延伸的长度作为两个元素，将向量记为 $(a,b)$。
 
-那么我们就得出了向量的几何意义，即向量 $a,b$ 表示向右走 $a$、向上走 $b$ 的位移。
+那么我们就得出了向量的几何意义，即向量 $(a,b)$ 表示向右走 $a$、向上走 $b$ 的位移。
 
-已知两点 $A(a,b),B(c,d$，易证 $overrightarrow{AB}=(c-a,d-b$。
+已知两点 $A(a,b),B(c,d)$，易证 $\overrightarrow{AB}=(c-a,d-b)$。
 
 ### 向量的模 {#_4}
 
-对于一个向量 $vec a$，有向线段 $vec a$ 的长度称为向量的模，即为这个向量的大小。
+对于一个向量 $\vec a$，有向线段 $\vec a$ 的长度称为向量的模，即为这个向量的大小。
 
 符号表示为 $|\bm a|$ 或 $|\overrightarrow{AB}|$ ，根据勾股定理，我们知道 $|\vec a|=|(x,y)|=\sqrt{x^2+y^2}$。
 
 ### 特殊的向量 {#_5}
 
-**零向量**：模为 $0$ 的向量，零向量的方向任意（不过其实是无意义）。一般记为：$vec 0$。
+**零向量**：模为 $0$ 的向量，零向量的方向任意（不过其实是无意义）。一般记为：$\vec 0$。
 
-**单位向量**：模为 $1$ 的向量称为单位向量。一般记为 $bm e$，最常见的单位向量就是基向量。
+**单位向量**：模为 $1$ 的向量称为单位向量。一般记为 $\bm e$，最常见的单位向量就是基向量。
 
-**基向量**：$bm i=(1,0$ 表示 $x$ 方向的单位向量，$bm j=(0,1$ 表示 $y$ 方向的单位向量。
+**基向量**：$\bm i=(1,0)$ 表示 $x$ 方向的单位向量，$\bm j=(0,1)$ 表示 $y$ 方向的单位向量。
 
-**平行向量**：方向相同或相反的两个非零向量，规定零向量与任何向量平行。记作： $bm x\parallel\bm y$。
+**平行向量**：方向相同或相反的两个非零向量，规定零向量与任何向量平行。记作： $\bm x\parallel\bm y$。
 
 **共线向量**：任一组平行向量都可以平移到同一直线上，所以平行向量又叫共线向量。
 
@@ -72,9 +72,9 @@
 
 ### 斜坐标系 {#_6}
 
-我们称 $x$ 轴与 $y$ 轴的角度为 $theta(\theta\neq\pi/2$ 的坐标系。
+我们称 $x$ 轴与 $y$ 轴的角度为 $\theta(\theta\neq\pi/2)$ 的坐标系。
 
-定义平面直角坐标系中的点 $P(x,y$，将 $P$ 转移到斜坐标系中变成 $P'(x',y'$ 满足：
+定义平面直角坐标系中的点 $P(x,y)$，将 $P$ 转移到斜坐标系中变成 $P'(x',y')$ 满足：
 
 $$
 \begin{cases} x'=x+y\cos\theta\ y'=y\sin\theta \end{cases}
@@ -86,24 +86,24 @@ $$
 
 于是我们可以把平面向量在平面直角坐标系中的一些运算迁移到斜坐标系中：
 
-- 数量积：$x_1',y_1')\cdot(x_2',y_2')=x_1x_2+y_1y_2+(x_1y_2+x_2y_1)\cos\theta$。
+- 数量积：$(x_1',y_1')\cdot(x_2',y_2')=x_1x_2+y_1y_2+(x_1y_2+x_2y_1)\cos\theta$。
 
-- 模长：$overrightarrow{a}=(x',y'),|\overrightarrow{a}|=\sqrt{x^2+y^2+2xy\cos\theta}$。
+- 模长：$\overrightarrow{a}=(x',y'),|\overrightarrow{a}|=\sqrt{x^2+y^2+2xy\cos\theta}$。
 
-- 夹角：$displaystyle\overrightarrow{a}=(x_1',y_1'),\overrightarrow{b}=(x_2',y_2'),\cos\gamma=\frac{\overrightarrow{a}\cdot\overrightarrow{b}}{|\overrightarrow{a}||\overrightarrow{b}|}$。
+- 夹角：$\displaystyle\overrightarrow{a}=(x_1',y_1'),\overrightarrow{b}=(x_2',y_2'),\cos\gamma=\frac{\overrightarrow{a}\cdot\overrightarrow{b}}{|\overrightarrow{a}||\overrightarrow{b}|}$。
 
 ## 向量的线性运算 {#_7}
 
 ### 向量数乘 {#_8}
 
-我们规定实数 $lambda$ 与向量 $bm a$ 的积为一个向量，称为向量的数乘运算，记作 $lambda\vec a$。
+我们规定实数 $\lambda$ 与向量 $\bm a$ 的积为一个向量，称为向量的数乘运算，记作 $\lambda\vec a$。
 
-我们定义 $lambda\bm a=\lambda(x,y)=(\lambda x,\lambda y$。据此，我们可以得出以下向量数乘常用的结论：
+我们定义 $\lambda\bm a=\lambda(x,y)=(\lambda x,\lambda y)$。据此，我们可以得出以下向量数乘常用的结论：
 
 - $|\lambda\bm a|=|\lambda||\bm a|$；
-- 当 $lambda >0$ 时，$lambda\bm a$ 与 $bm a$ 同向；
-- 当 $lambda =0$ 时，$lambda \bm a=\vec 0$；
-- 当 $lambda<0$ 时，$lambda \bm a$ 与 $bm a$ 方向相反。
+- 当 $\lambda >0$ 时，$\lambda\bm a$ 与 $\bm a$ 同向；
+- 当 $\lambda =0$ 时，$\lambda \bm a=\vec 0$；
+- 当 $\lambda<0$ 时，$\lambda \bm a$ 与 $\bm a$ 方向相反。
 
 根据数乘的定义，可以得出向量的数乘满足交换律、结合律、分配律等，即，
 
@@ -119,9 +119,9 @@ $$
 
 类比物理中的位移，从 $A$ 经 $B$ 到 $C$，那么经过的位移等价于直接从 $A$ 到 $C$。
 
-符号表示即：$overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{AC}$，其实这个也就是三角形法则所表述的。
+符号表示即：$\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{AC}$，其实这个也就是三角形法则所表述的。
 
-向量减法类似：$overrightarrow{OA}-\overrightarrow{OB}=\overrightarrow{OA}+\overrightarrow{BO}=\overrightarrow{BA}$，后面用到了交换律。
+向量减法类似：$\overrightarrow{OA}-\overrightarrow{OB}=\overrightarrow{OA}+\overrightarrow{BO}=\overrightarrow{BA}$，后面用到了交换律。
 
 同时，注意到力的合成法则（平行四边形法则），同样也可以看做向量的相加。
 
@@ -133,7 +133,7 @@ $$
 
   起点为两个向量共有的起点，方向沿平行四边形对角线方向。
 
-![alt text](../image-2.avif)
+`<img src="../image-2.avif" alt="alt text">`{=html}
 
 这样，向量的加法就具有了几何意义。并且向量的加法满足交换律与结合律。
 
@@ -155,9 +155,9 @@ $$
 
 ### 线段中点 {#_10}
 
-设 $A(x_1,y_1$、$B(x_2,y_2$ 为一平面内两点。
+设 $A(x_1,y_1)$、$B(x_2,y_2)$ 为一平面内两点。
 
-设 $C(x,y$ 为线段 $AB$ 中点，则 $overrightarrow{AC}=\overrightarrow{CB}$：
+设 $C(x,y)$ 为线段 $AB$ 中点，则 $\overrightarrow{AC}=\overrightarrow{CB}$：
 
 $$
 x-x_1=x_2-x\ y-y_1=y_2-y
@@ -173,7 +173,7 @@ $$
 
 ### 线段长度 {#_11}
 
-设 $A(x_1,y_1$、$B(x_2,y_2$ 为一平面内两点，则，
+设 $A(x_1,y_1)$、$B(x_2,y_2)$ 为一平面内两点，则，
 
 $$
 |\overrightarrow{AB}|=\sqrt{\overrightarrow{AB}\cdot\overrightarrow{AB}}=\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}
@@ -208,27 +208,27 @@ $$
 
 提示：点积的概念对于任意维数的向量都适用。
 
-已知两个向量 $bm a,\bm b$ ，它们的夹角为 $theta$，那么这两个向量的点积为：
+已知两个向量 $\bm a,\bm b$ ，它们的夹角为 $\theta$，那么这两个向量的点积为：
 
 $$
 \bm a \cdot \bm b=|\bm a||\bm b|\cos \theta
 $$
 
-- 其中，我们称 $|\bm a|\cos \theta$ 为 $bm a$ 在 $bm b$ 方向上的投影。
+- 其中，我们称 $|\bm a|\cos \theta$ 为 $\bm a$ 在 $\bm b$ 方向上的投影。
 
   $$
   |\bm a|\cos\theta=\dfrac{\bm a\cdot\bm b}{|\bm b|}
   $$
 
-  而投影向量需要再乘上 $bm b$ 方向的单位向量：
+  而投影向量需要再乘上 $\bm b$ 方向的单位向量：
 
   $$
   \dfrac{\bm a\cdot\bm b}{|\bm b|^2}\bm b
   $$
 
-- 其中，$theta\in[0,\pi$，但是直线的夹角 $theta\in[0,\pi$，因为相反向量是完全不同的。
+- 其中，$\theta\in[0,\pi]$，但是直线的夹角 $\theta\in[0,\pi)$，因为相反向量是完全不同的。
 
-点积的几何意义即为：点积 $bm a \cdot \bm b$ 等于 $bm a$ 的模与 $bm b$ 在 $bm a$ 方向上的投影的乘积。
+点积的几何意义即为：点积 $\bm a \cdot \bm b$ 等于 $\bm a$ 的模与 $\bm b$ 在 $\bm a$ 方向上的投影的乘积。
 
 另外，我们定义向量点积数值上表示为（简记为先相乘再相加）：
 
@@ -238,7 +238,7 @@ $$
 
 可以发现，这种运算得到的结果是一个标量，并不属于向量的线性运算。
 
-向量与零向量点积，结果为 $vec0$。在不引起混淆的情况下，点积的点号可以省略不写。
+向量与零向量点积，结果为 $\vec0$。在不引起混淆的情况下，点积的点号可以省略不写。
 
 ### 点积的性质 {#_15}
 
@@ -268,7 +268,7 @@ $$
 
 注意到向量运算具有大部分的数字运算的性质（除了除法），因此可以当做字母计算。
 
-可以得到，若 $bm b\neq\bm c$，$bm a\cdot\bm b=\bm a\cdot\bm c$ 的充要条件是 $bm a\perp(\bm b-\bm c$，
+可以得到，若 $\bm b\neq\bm c$，$\bm a\cdot\bm b=\bm a\cdot\bm c$ 的充要条件是 $\bm a\perp(\bm b-\bm c)$，
 
 $$
 \bm a\cdot\bm b=\bm a\cdot\bm c\ \bm a\cdot(\bm b-\bm c)=\vec0
@@ -324,7 +324,7 @@ $$
 
 其中，第三条即，垂直向量向量点积等于零。
 
-根据 $cos 90^\circ=0$，$bm a \perp \bm b \iff \bm a\cdot \bm b=0$。
+根据 $\cos 90^\circ=0$，$\bm a \perp \bm b \iff \bm a\cdot \bm b=0$。
 
 ### 柯西不等式 {#_16}
 
@@ -336,15 +336,15 @@ $$
 
 据此，可以判断两向量共线：
 
-两个非零向量 $bm a$ 与 $bm b$ 共线，等价于，有唯一实数 $lambda$，使得 $bm b=\lambda \bm a$。
+两个非零向量 $\bm a$ 与 $\bm b$ 共线，等价于，有唯一实数 $\lambda$，使得 $\bm b=\lambda \bm a$。
 
-由数乘的定义知，对于非零向量 $bm a$，如果存在实数 $lambda$，使得 $bm b=\lambda \bm a$，那么 $bm a \parallel \bm b$。
+由数乘的定义知，对于非零向量 $\bm a$，如果存在实数 $\lambda$，使得 $\bm b=\lambda \bm a$，那么 $\bm a \parallel \bm b$。
 
-数值上，有判别式 $bm a = \lambda \bm b \iff |\bm a\cdot \bm b|=|\bm a||\bm b|$。
+数值上，有判别式 $\bm a = \lambda \bm b \iff |\bm a\cdot \bm b|=|\bm a||\bm b|$。
 
 ### 极化恒等式 {#_17}
 
-对于任意平面向量 $vec a,\vec b$ 有：
+对于任意平面向量 $\vec a,\vec b$ 有：
 
 $$
 4\vec a\cdot\vec b=(\vec a+\vec b)^2-(\vec a-\vec b)^2
@@ -362,19 +362,19 @@ $$
 
 ### 平面向量基本定理 {#_19}
 
-若基底 $bm e_1,\bm e_2$ 不共线，则对于平面内任一向量 $bm a$，存在唯一实数 $x,y$ 使得 $bm a=x\bm e_1+y\bm e_2$。
+若基底 $\bm e_1,\bm e_2$ 不共线，则对于平面内任一向量 $\bm a$，存在唯一实数 $x,y$ 使得 $\bm a=x\bm e_1+y\bm e_2$。
 
 形式化的，平面内的任一向量都可以唯一的表示为两个不共线向量的线性组合。
 
 存在性的证明：感性理解（雾
 
-唯一性的证明，反证：假设存在两组实数 $langle x_1,y_1\rangle$、$langle x_2,y_2\rangle$，
+唯一性的证明，反证：假设存在两组实数 $\langle x_1,y_1\rangle$、$\langle x_2,y_2\rangle$，
 
 $$
 \bm a=x_1\bm e_1+y_1\bm e_2=x_2\bm e_1+y_2\bm e_2\ \bm e_1(x_1-x_2)=\bm e_2(y_2-y_1)
 $$
 
-因为 $x_1\neq x_2,y_1\neq y_2$，则 $bm e_1,\bm e_2$ 共线，与条件不符，因此存在唯一性。
+因为 $x_1\neq x_2,y_1\neq y_2$，则 $\bm e_1,\bm e_2$ 共线，与条件不符，因此存在唯一性。
 
 考虑构造性的证明，
 
@@ -384,7 +384,7 @@ $$
 \bm a\cdot\bm e_1=a_1,\,\bm a\cdot\bm e_2=a_2\ \langle\bm e_1,\bm e_2\rangle=\theta
 $$
 
-设，$bm a=x\bm e_1+y\bm e_2$，用 $a_1,a_2,\theta$ 表示 $bm a$。
+设，$\bm a=x\bm e_1+y\bm e_2$，用 $a_1,a_2,\theta$ 表示 $\bm a$。
 
 考虑，
 
@@ -428,12 +428,12 @@ $$
 \overrightarrow{OC}={1\over2}\overrightarrow{OA}+{1\over2}\overrightarrow{OB}
 $$
 
-而坐标表示，$a,b$ 与 $c,d$ 平行，等价于 $ad=bc$。
+而坐标表示，$(a,b)$ 与 $(c,d)$ 平行，等价于 $ad=bc$。
 
 ### 等系数和线 {#_21}
 
-![等系数和线](../等系数和线.avif){width="100%"}
+`<img src="../等系数和线.avif" width="100%" alt="等系数和线">`{=html}
 
 证明过程：
 
-![等和线](../image-1.avif){width="100%"}
+`<img src="../image-1.avif" width="100%" alt="等和线">`{=html}

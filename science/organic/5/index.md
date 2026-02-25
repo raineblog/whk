@@ -4,7 +4,7 @@
 
 ### 烷烃（甲烷） {#_3}
 
-烷烃通式：$ce{C_nH_{2n+2}}$
+烷烃通式：$\ce{C_nH_{2n+2}}$
 
 1.  氧化反应：
 
@@ -24,7 +24,7 @@
 
 ### 烯烃（乙烯） {#_4}
 
-烯烃通式：$ce{C_nH_{2n}}$
+烯烃通式：$\ce{C_nH_{2n}}$
 
 1.  乙烯的制取：
 
@@ -84,7 +84,7 @@
 
 ### 炔烃（乙炔） {#_5}
 
-炔烃的通式：$ce{C_nH_{2n-2}}$
+炔烃的通式：$\ce{C_nH_{2n-2}}$
 
 1.  乙炔的制取：
 
@@ -138,7 +138,7 @@
 
 ### 苯 {#_6}
 
-苯的同系物通式：$ce{C_nH_{2n-6}}$
+苯的同系物通式：$\ce{C_nH_{2n-6}}$
 
 1.  氧化反应：
 
@@ -204,7 +204,7 @@
 
 ### 溴乙烷 {#_9}
 
-纯净的溴乙烷是无色液体，沸点 $pu{38.4 ^\circ C}$，密度比水大。
+纯净的溴乙烷是无色液体，沸点 $\pu{38.4 ^\circ C}$，密度比水大。
 
 1.  取代反应：溴乙烷的水解反应
 
@@ -240,7 +240,7 @@
 
 4.  取代反应：
 
-    与浓 $ce{HBr}$ 反应：
+    与浓 $\ce{HBr}$ 反应：
 
     $$
     \ce{CH3CH2OH + HBr ->[\triangle] CH3CH2Br + H2O}
@@ -258,13 +258,13 @@
     \ce{2C2H5OH ->[\text{浓}H2SO4][\pu{140^oC}] C2H5-O-C2H5 + H2O}
     $$
 
-总结乙醇的氧化反应有哪些？燃烧；催化氧化；被酸性 $ce{KMnO4}$ 氧化；被 $ce{K2Cr2O7}$ 氧化。
+总结乙醇的氧化反应有哪些？燃烧；催化氧化；被酸性 $\ce{KMnO4}$ 氧化；被 $\ce{K2Cr2O7}$ 氧化。
 
 ### 苯酚 {#_11}
 
-苯酚是无色晶体，露置在空气中会因氧化显粉红色。苯酚具有特殊的气味，熔点 $pu{43 ^\circ C}$，水中溶解度不大，易溶于有机溶剂。苯酚有毒，是一种重要的化工原料。
+苯酚是无色晶体，露置在空气中会因氧化显粉红色。苯酚具有特殊的气味，熔点 $\pu{43 ^\circ C}$，水中溶解度不大，易溶于有机溶剂。苯酚有毒，是一种重要的化工原料。
 
-1.  苯酚的酸性：$ce{H2CO3}$ \> $ce{C6H5OH}$ \> $ce{HCO3^-}$
+1.  苯酚的酸性：$\ce{H2CO3}$ \> $\ce{C6H5OH}$ \> $\ce{HCO3^-}$
 
     苯酚（俗称石炭酸）的电离：
 
@@ -272,13 +272,13 @@
     \ce{C6H5OH <=> C6H5O^- + H^+}
     $$
 
-    苯酚与 $ce{NaOH}$ 的反应：
+    苯酚与 $\ce{NaOH}$ 的反应：
 
     $$
     \ce{C6H5OH + NaOH -> C6H5ONa + H2O}
     $$
 
-    苯酚钠与 $ce{CO2}$ 反应：
+    苯酚钠与 $\ce{CO2}$ 反应：
 
     $$
     \ce{C6H5ONa + CO2 + H2O -> C6H5OH + NaHCO3}
@@ -298,11 +298,11 @@
 
     生成三溴苯酚白色沉淀。
 
-3.  显色反应：苯酚能和 $ce{FeCl3}$ 溶液反应，使溶液**显紫色**。
+3.  显色反应：苯酚能和 $\ce{FeCl3}$ 溶液反应，使溶液**显紫色**。
 
 ### 乙醛 {#_12}
 
-乙醛是无色无味，具有刺激性气味的液体，沸点 $pu{20.8 ^\circ C}$，密度比水小，易挥发。
+乙醛是无色无味，具有刺激性气味的液体，沸点 $\pu{20.8 ^\circ C}$，密度比水小，易挥发。
 
 1.  加成反应（乙醛与氢气反应）：
 
@@ -356,15 +356,15 @@
 
 2.  乙酸的酸性：
 
-    $ce{2CH3COOH + 2Na -> 2CH3COONa + H2 ^}$
+    $\ce{2CH3COOH + 2Na -> 2CH3COONa + H2 ^}$
 
-    $ce{2CH3COOH + Na2CO3 -> 2CH3COONa + CO2 ^ + H2O}$
+    $\ce{2CH3COOH + Na2CO3 -> 2CH3COONa + CO2 ^ + H2O}$
 
-    $ce{CH3COOH + NaHCO3 -> CH3COONa + CO2 ^ + H2O}$
+    $\ce{CH3COOH + NaHCO3 -> CH3COONa + CO2 ^ + H2O}$
 
-    $ce{CH3COOH + NaOH -> CH3COONa + H2O}$
+    $\ce{CH3COOH + NaOH -> CH3COONa + H2O}$
 
-    $ce{2CH3COOH + Cu(OH)2 -> (CH3COO)2Cu + 2H2O}$
+    $\ce{2CH3COOH + Cu(OH)2 -> (CH3COO)2Cu + 2H2O}$
 
 3.  酯化反应：
 
@@ -404,47 +404,47 @@
 
 ### 烃的衍生物的相互转化 {#_15}
 
-以 $ce{CH3CH2Br}$ 为例：
+以 $\ce{CH3CH2Br}$ 为例：
 
 <center>
 
-卤代烃 $ce{R-X}$ $xrightarrow{①\ \text{水解}}$ 醇 $ce{R-OH}$ $xrightarrow{②\ \text{氧化}}$ 醛 $ce{R-CHO}$ $xrightarrow{③\ \text{氧化}}$ 羧酸 $ce{RCOOH}$ $xrightarrow{④\ \text{酯化}}$ 酯 $ce{RCOOR'}$
+卤代烃 $\ce{R-X}$ $\xrightarrow{①\ \text{水解}}$ 醇 $\ce{R-OH}$ $\xrightarrow{②\ \text{氧化}}$ 醛 $\ce{R-CHO}$ $\xrightarrow{③\ \text{氧化}}$ 羧酸 $\ce{RCOOH}$ $\xrightarrow{④\ \text{酯化}}$ 酯 $\ce{RCOOR'}$
 
 </center>
 
-1.  $ce{CH3CH2Br + NaOH ->[H2O][\triangle] CH3CH2OH + NaBr}$
+1.  $\ce{CH3CH2Br + NaOH ->[H2O][\triangle] CH3CH2OH + NaBr}$
 
-2.  $ce{2C2H5OH + O2 ->[Cu][\triangle] 2CH3CHO + 2H2O}$
+2.  $\ce{2C2H5OH + O2 ->[Cu][\triangle] 2CH3CHO + 2H2O}$
 
-3.  $ce{2CH3CHO + O2 ->[\text{催化剂}] 2CH3COOH}$
+3.  $\ce{2CH3CHO + O2 ->[\text{催化剂}] 2CH3COOH}$
 
-4.  $ce{CH3COOH + C2H5OH <=>[\text{浓}H2SO4][\triangle] CH3COOC2H5 + H2O}$
+4.  $\ce{CH3COOH + C2H5OH <=>[\text{浓}H2SO4][\triangle] CH3COOC2H5 + H2O}$
 
-5.  $ce{CH3CH2Br + NaOH ->[\text{醇}][\triangle] CH2=CH2 ^ + NaBr + H2O}$
+5.  $\ce{CH3CH2Br + NaOH ->[\text{醇}][\triangle] CH2=CH2 ^ + NaBr + H2O}$
 
-6.  $ce{CH3CH2OH ->[\text{浓}H2SO4][\pu{170^oC}] CH2=CH2 ^ + H2O}$
+6.  $\ce{CH3CH2OH ->[\text{浓}H2SO4][\pu{170^oC}] CH2=CH2 ^ + H2O}$
 
-7.  $ce{CH2=CH2 + HBr -> CH3CH2Br}$
+7.  $\ce{CH2=CH2 + HBr -> CH3CH2Br}$
 
-8.  $ce{CH2=CH2 + H2O ->[\text{催化剂}] CH3CH2OH}$
+8.  $\ce{CH2=CH2 + H2O ->[\text{催化剂}] CH3CH2OH}$
 
-9.  $ce{CH3COOC2H5 + H2O <=>[H^+][\triangle] CH3COOH + C2H5OH}$
+9.  $\ce{CH3COOC2H5 + H2O <=>[H^+][\triangle] CH3COOH + C2H5OH}$
 
-10. $ce{CH3CHO + H2 ->[\text{催化剂}] CH3CH2OH}$
+10. $\ce{CH3CHO + H2 ->[\text{催化剂}] CH3CH2OH}$
 
 ## 按要求完成下列各题 {#_16}
 
 ### 写出下列物质的键线式 {#_17}
 
-1.  1,4-二溴-2-丁烯：$ce{Br-CH2-CH=CH-CH2-Br}$
+1.  1,4-二溴-2-丁烯：$\ce{Br-CH2-CH=CH-CH2-Br}$
 
-2.  $ce{BrCH2CH=CHCHBrCH2OH}$
+2.  $\ce{BrCH2CH=CHCHBrCH2OH}$
 
-3.  $ce{C(CH3)3CHBrC(CH3)2CH2CH3}$
+3.  $\ce{C(CH3)3CHBrC(CH3)2CH2CH3}$
 
 ### 乳酸的自聚 {#_18}
 
-乳酸：$ce{CH3CH(OH)COOH}$
+乳酸：$\ce{CH3CH(OH)COOH}$
 
 1.  一分子内成环酯：生成丙交酯（Lactide）。
 
@@ -462,7 +462,7 @@
 
 ### 葡萄糖 {#_19}
 
-葡萄糖的结构简式：$ce{CH2OH(CHOH)4CHO}$
+葡萄糖的结构简式：$\ce{CH2OH(CHOH)4CHO}$
 
 1.  与银氨溶液的反应：
 
@@ -470,7 +470,7 @@
     \ce{CH2OH(CHOH)4CHO + 2Ag(NH3)2OH ->[\triangle] CH2OH(CHOH)4COONH4 + 2Ag v + 3NH3 + H2O}
     $$
 
-2.  与新制 $ce{Cu(OH)2}$ 溶液的反应：
+2.  与新制 $\ce{Cu(OH)2}$ 溶液的反应：
 
     $$
     \ce{CH2OH(CHOH)4CHO + 2Cu(OH)2 + NaOH ->[\triangle] CH2OH(CHOH)4COONa + Cu2O v + 3H2O}
@@ -494,30 +494,30 @@
 
 请填写下列由已知有机物生成产物的反应条件。
 
-1.  反应物 $ce{BrCH2CH2CH2OH}$：
+1.  反应物 $\ce{BrCH2CH2CH2OH}$：
 
-    生成 $ce{CH2=CHCH2OH}$：条件为 **$ce{NaOH}$ 醇溶液，加热**。
+    生成 $\ce{CH2=CHCH2OH}$：条件为 **$\ce{NaOH}$ 醇溶液，加热**。
 
-    生成 $ce{HOCH2CH2CH2OH}$：条件为 **$ce{NaOH}$ 水溶液，加热**。
+    生成 $\ce{HOCH2CH2CH2OH}$：条件为 **$\ce{NaOH}$ 水溶液，加热**。
 
-    生成 $ce{BrCH2CH=CH2}$：条件为**浓硫酸，$pu{170 ^\circ C}$**。
+    生成 $\ce{BrCH2CH=CH2}$：条件为**浓硫酸，$\pu{170 ^\circ C}$**。
 
 2.  苯环侧链与光照 / 催化剂的区别：
 
-    $ce{C6H5CH3 + Cl2 ->[\text{光照}] C6H5CH2Cl}$（侧链取代）
+    $\ce{C6H5CH3 + Cl2 ->[\text{光照}] C6H5CH2Cl}$（侧链取代）
 
-    $ce{C6H5CH3 + Cl2 ->[Fe] Cl-C6H4-CH3}$（苯环取代，邻 / 对位）
+    $\ce{C6H5CH3 + Cl2 ->[Fe] Cl-C6H4-CH3}$（苯环取代，邻 / 对位）
 
-3.  反应物 $ce{CH2=CHCH2OH}$：
+3.  反应物 $\ce{CH2=CHCH2OH}$：
 
-    生成 $ce{BrCH2CHBrCH2OH}$：条件为**溴水或溴的 $ce{CCl4}$ 溶液**。
+    生成 $\ce{BrCH2CHBrCH2OH}$：条件为**溴水或溴的 $\ce{CCl4}$ 溶液**。
 
-    生成 $ce{CH2=CHCHO}$：条件为 **$ce{Cu/O2}$，加热**。
+    生成 $\ce{CH2=CHCHO}$：条件为 **$\ce{Cu/O2}$，加热**。
 
-    生成 $ce{CH2=CHCH2OOCCH3}$：条件为**浓硫酸，加热（与乙酸酯化）**。
+    生成 $\ce{CH2=CHCH2OOCCH3}$：条件为**浓硫酸，加热（与乙酸酯化）**。
 
-4.  反应物 $ce{CH3CHBrCOOCH3}$：
+4.  反应物 $\ce{CH3CHBrCOOCH3}$：
 
-    生成 $ce{CH3CH(OH)COOH}$：条件为 **$ce{NaOH}$ 水溶液，加热；稀硫酸**。
+    生成 $\ce{CH3CH(OH)COOH}$：条件为 **$\ce{NaOH}$ 水溶液，加热；稀硫酸**。
 
-    生成 $ce{CH3CHBrCOOH}$：条件为**稀硫酸，加热**。
+    生成 $\ce{CH3CHBrCOOH}$：条件为**稀硫酸，加热**。

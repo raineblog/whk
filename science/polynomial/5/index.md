@@ -36,7 +36,7 @@ $$
 \begin{aligned} &\sum_{i=1}^na_i^2\sum_{i=1}^nb_i^2-\left(\sum_{i=1}^na_ib_i\right)^2\ =\;&\sum_{1\le i<j\le n}(a_ib_j-a_jb_i)^2 \end{aligned}
 $$
 
-上式即拉格朗日恒等式，可知其 $ge0$ 且取等条件为：
+上式即拉格朗日恒等式，可知其 $\ge0$ 且取等条件为：
 
 $$
 {a_1\over b_1}={a_2\over b_2}=\dots={a_n\over b_n}
@@ -46,7 +46,7 @@ $$
 
 转自：<https://www.zhihu.com/question/359244589/answer/3440897794>。
 
-光滑桌子（$mu=0$）上面放着若干个质量不一的薄板，其中间的摩擦因数不为零（$mu\neq0$）。
+光滑桌子（$\mu=0$）上面放着若干个质量不一的薄板，其中间的摩擦因数不为零（$\mu\neq0$）。
 
 设其质量分别为 $m_1,m_2,\dots,m_n$，给他们一个互异的初速度 $v_1,v_2,\dots,v_n$。
 
@@ -112,7 +112,7 @@ $$
 (5x+2y)^2\le 87\Rightarrow 5x+2y\le\sqrt{87}
 $$
 
-所以 $5x+2y$ 的最大值为 $sqrt{87}$。
+所以 $5x+2y$ 的最大值为 $\sqrt{87}$。
 
 权方和不等式​：
 
@@ -120,7 +120,7 @@ $$
 \frac{a^2}{x}+\frac{b^2}{y}\ge\frac{(a+b)^2}{x+y}
 $$
 
-示例：已知实数 $x,y>0$ 满足 $frac{1}{x}+\frac{4}{y}=1$，求 $x+y$ 的最小值。根据权方和不等式：
+示例：已知实数 $x,y>0$ 满足 $\frac{1}{x}+\frac{4}{y}=1$，求 $x+y$ 的最小值。根据权方和不等式：
 
 $$
 1=\frac{1^2}{x}+\frac{2^2}{y}=\frac{a^2}{x}+\frac{b^2}{y}\ge\frac{(a+b)^2}{x+y}=\frac{(1+2)^2}{x+y}=\frac{9}{x+y}
@@ -138,7 +138,7 @@ $$
 
 ### 基本形式 {#_6}
 
-对于非严格单调递增（或递减）的实数序列 $x,y$，另 $sigma(i$ 表示 $1\sim n$ 的任意一个排列，有，
+对于非严格单调递增（或递减）的实数序列 $x,y$，另 $\sigma(i)$ 表示 $1\sim n$ 的任意一个排列，有，
 
 $$
 x_1y_1+\dots+x_ny_n\ge x_{\sigma(1)}y_1+\dots+x_{\sigma(n)}y_n\ge x_ny_1+\dots+x_1y_n

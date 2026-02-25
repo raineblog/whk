@@ -2,34 +2,34 @@
 
 ## 生成函数 {#_2}
 
-序列 $a$ （有穷无穷均可）的普通生成函数定义为形式幂级数：$displaystyle F(x)=\sum_na_nx^n$。例如：
+序列 $a$ （有穷无穷均可）的普通生成函数定义为形式幂级数：$\displaystyle F(x)=\sum_na_nx^n$。例如：
 
 1.  $a=\lang1,2,3\rang$ 的普通生成函数是 $1+2x+3x^2$
-2.  $a=\lang1,1,1,\dots\rang$ 的普通生成函数是 $displaystyle\sum_{n\geq 0}x^n$
-3.  $a=\lang1,2,4,8,16,\dots\rang$ 的生成函数是 $displaystyle\sum_{n\geq 0}2^nx^n$
-4.  $a=\lang1,3,5,7,9\rang$ 的生成函数是 $displaystyle\sum_{n\geq 0}(2n+1)x^n$
+2.  $a=\lang1,1,1,\dots\rang$ 的普通生成函数是 $\displaystyle\sum_{n\geq 0}x^n$
+3.  $a=\lang1,2,4,8,16,\dots\rang$ 的生成函数是 $\displaystyle\sum_{n\geq 0}2^nx^n$
+4.  $a=\lang1,3,5,7,9\rang$ 的生成函数是 $\displaystyle\sum_{n\geq 0}(2n+1)x^n$
 
 换句话说，如果序列 $a$ 有通项公式，那么它的普通生成函数的系数就是通项公式。
 
 ### 基本运算 {#_3}
 
-两个序列 $a,b$ 的生成函数 $F(x),G(x$，则 $F(x)\pm G(x$ 是序列 $lang a_n\pm b_n\rang$ 的生成函数。
+两个序列 $a,b$ 的生成函数 $F(x),G(x)$，则 $F(x)\pm G(x)$ 是序列 $\lang a_n\pm b_n\rang$ 的生成函数。
 
 $$
 F(x)\pm G(x)=\sum_{n}(a_n\pm b_n)x^n
 $$
 
-乘法运算即卷积，推出 $F(x)G(x$ 是序列 $left\lang\displaystyle\sum_{i=0}^na_ib_{n-i}\right\rang$ 的生成函数。
+乘法运算即卷积，推出 $F(x)G(x)$ 是序列 $\left\lang\displaystyle\sum_{i=0}^na_ib_{n-i}\right\rang$ 的生成函数。
 
 $$
 F(x)G(x)=\sum_nx^n\sum_{i=0}^na_ib_{n-i}
 $$
 
-#### 形式幂级数形式 $to$ 封闭形式 {#to}
+#### 形式幂级数形式 $\to$ 封闭形式 {#to}
 
-例如 $a=\lang1,1,1,\dots\rang$ 的普通生成函数是 $displaystyle F(x)=\sum_{n\geq 0}x^n$，可以发现 $F(x)x+1=F(x$，于是解方程得到 $displaystyle F(x)=\frac{1}{1-x}$，这就是 $displaystyle\sum_{n\geq 0}x^n$ 的封闭形式。
+例如 $a=\lang1,1,1,\dots\rang$ 的普通生成函数是 $\displaystyle F(x)=\sum_{n\geq 0}x^n$，可以发现 $F(x)x+1=F(x)$，于是解方程得到 $\displaystyle F(x)=\frac{1}{1-x}$，这就是 $\displaystyle\sum_{n\geq 0}x^n$ 的封闭形式。
 
-又例如等比数列 $lang1,p,p^2,\dots\rang$ 的生成函数 $F(x)=\displaystyle\sum_{n\geq 0}p^nx^n$，有 $F(x)px+1=F(x$ 得 $F(x)=\displaystyle\frac{1}{1-px}$.
+又例如等比数列 $\lang1,p,p^2,\dots\rang$ 的生成函数 $F(x)=\displaystyle\sum_{n\geq 0}p^nx^n$，有 $F(x)px+1=F(x)$ 得 $F(x)=\displaystyle\frac{1}{1-px}$.
 
 $a=\lang 1,0,1,0,1,\dots\rang$ 的 $F(x)=\displaystyle\sum_{n\geq 0}x^{2n}=\frac{1}{1-x^2}$
 
@@ -53,9 +53,9 @@ $$
 
 构造生成函数：
 
-| $displaystyle\sum_{n\geq 0}x^{2n}=\frac{1}{1-x^2}$ | $1+x$ | $displaystyle 1+x+x^2=\frac{1-x^3}{1-x}$ | $displaystyle\frac{x}{1-x^2}$ |
+| $\displaystyle\sum_{n\geq 0}x^{2n}=\frac{1}{1-x^2}$ | $1+x$ | $\displaystyle 1+x+x^2=\frac{1-x^3}{1-x}$ | $\displaystyle\frac{x}{1-x^2}$ |
 |:--:|:--:|:--:|:--:|
-| $displaystyle\sum_{n\geq 0}x^{4n}=\frac{1}{1-x^4}$ | $displaystyle 1+x+x^2+x^3=\frac{1-x^4}{1-x}$ | $1+x$ | $displaystyle\frac{1}{1-x^3}$ |
+| $\displaystyle\sum_{n\geq 0}x^{4n}=\frac{1}{1-x^4}$ | $\displaystyle 1+x+x^2+x^3=\frac{1-x^4}{1-x}$ | $1+x$ | $\displaystyle\frac{1}{1-x^3}$ |
 
 全部乘起来得到答案的生成函数：
 
@@ -77,9 +77,9 @@ $$
 f(x)=\frac{x}{(1-2x)(1+x)}=\frac{1}{3}(\frac{1}{1-2x}-\frac{1}{1+x})=\frac{1}{3}\sum_{n=0}^{+\infty}[2^n-(-1)^n]x^n
 $$
 
-于是 $displaystyle a_n=\frac{1}{3}[2^n-(-1)^n$.
+于是 $\displaystyle a_n=\frac{1}{3}[2^n-(-1)^n]$.
 
-1.  卡特兰数：一个 $n\times n$ 的方阵从 $0,0$ 走到 $n,n$，不经过对角线的方案数，记作 $C_n$。
+1.  卡特兰数：一个 $n\times n$ 的方阵从 $(0,0)$ 走到 $(n,n)$，不经过对角线的方案数，记作 $C_n$。
 
 有如下关系：$C_n=\displaystyle\sum_{k=0}^nC_{n-k}C_k$，构造 $f(x)=\displaystyle\sum_{n=0}^{+\infty}C_nx^n$，有
 
