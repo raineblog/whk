@@ -191,7 +191,7 @@ $$
 
 在常温下 $K_w=\pu{1E-14}$，也就是说 $\con{H+}=\con{OH-}=\pu{1E-7}$。而在接近沸腾的水中，一般取 $\pu{E-12}$ 左右。
 
-![alt text](../image-3.avif#class="custom-img";float="100%")
+![![alt text|w100%](../image-3.avif)
 
 在这一部分中，我们考虑六个经典问题（三个定性、两个定量和一个备注）：
 
@@ -333,7 +333,7 @@ $$
 
 对于弱碱 $\ce{BOH}$ 也进行类似的操作即可。
 
-![alt text](../image-4.avif#class="custom-img";float="100%")
+![![alt text|w100%](../image-4.avif)
 
 - 这种两种含有相同离子的盐（或酸、碱）溶于水时，它们的溶解度都会降低，这种现象叫做**同离子效应**，其本质是平衡的移动。
 
@@ -343,7 +343,7 @@ $$
 
 我们知道 $K_a$ 越大酸性越强，但是 $pK_a$ 越小。
 
-![alt text](../pka.svg#class="custom-img";float="90%")
+![![alt text|w90%](../pka.svg)
 
 |    酸    |      化学式       |  $pK_a$  |     |   酸   |    化学式     | $pK_a$ |
 |:--------:|:-----------------:|:--------:|-----|:------:|:-------------:|:------:|
@@ -534,7 +534,7 @@ $$
 
 质子守恒：
 
-![alt text](../image-7.avif#class="custom-img";float="90%")
+![![alt text|w90%](../image-7.avif)
 
 三大守恒式及其书写：
 
@@ -973,15 +973,15 @@ $$
 
 - 等体积等浓度：
 
-  ![alt text](../image-1.avif#class="custom-img";float="100%")
+  ![![alt text|w100%](../image-1.avif)
 
-  ![alt text](../image-5.avif#class="custom-img";float="100%")
+  ![![alt text|w100%](../image-5.avif)
 
 - 等体积等 $\pH$：
 
-  ![alt text](../image-2.avif#class="custom-img";float="100%")
+  ![![alt text|w100%](../image-2.avif)
 
-  ![alt text](../image-6.avif#class="custom-img";float="100%")
+  ![![alt text|w100%](../image-6.avif)
 
 判断 $\dfrac{\con{A}}{\con{B}}$ 的变化：
 

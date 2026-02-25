@@ -30,7 +30,7 @@
 
 ### 分类标准 {#_4}
 
-![物质](./物质-dcbbc0d.avif#class="custom-img";float="100%")
+![![物质|w100%](./物质-dcbbc0d.avif)
 
 纯净物注意：
 

@@ -59,6 +59,6 @@ $$
 
 ### \[TODO\]
 
-![alt text](../image.avif#class="custom-img")
+![![alt text](../image.avif)
 
-![alt text](../image-1.avif#class="custom-img")
+![![alt text](../image-1.avif)
