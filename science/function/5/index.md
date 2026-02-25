@@ -1,12 +1,12 @@
 # 微积分 {#_1}
 
-![alt text](../image-6.avif#class="custom-img"
+![alt text](../image-6.avif#class="custom-img")
 
 ## 积分 {#_2}
 
 ### 几何意义 {#_3}
 
-如果在 $[a,b](a\neq b)$ 上函数 $f(x)$ 连续且恒有 $f(x)\geq 0$，那么定积分 $\displaystyle\int_{a}^{b}f(x)dx$ 表示由曲线 $y=f(x)$ 以及直线 $x=a,x=b,y=0$ 围成的曲边梯形的面积。
+如果在 $[a,b](./a\neq b)$ 上函数 $f(x)$ 连续且恒有 $f(x)\geq 0$，那么定积分 $\displaystyle\int_{a}^{b}f(x)dx$ 表示由曲线 $y=f(x)$ 以及直线 $x=a,x=b,y=0$ 围成的曲边梯形的面积。
 
 若 $f(x)\leq 0$，那么定积分 $\displaystyle\int_{a}^{b}f(x)dx$ 表示由曲线 $y=f(x)$ 以及直线 $x=a,x=b,y=0$ 围成的曲边梯形的面积的**负值**。
 

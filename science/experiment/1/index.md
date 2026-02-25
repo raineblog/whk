@@ -298,7 +298,7 @@ $$
 
 - 常见 $\pH$ 试剂的变色范围。
 
-  ![alt text](../image.avif#class="custom-img";float=80%"
+  ![alt text](../image.avif#class="custom-img";float="80%")
 
 - 广泛 $\pH$ 试纸：
 
@@ -310,7 +310,7 @@ $$
 
 - 用强酸滴定，可以用甲基橙；用强碱滴定，可以用酚酞；强酸和强碱反应，甲基橙和酚酞都可以；无论如何，不要选择甲基红；如果有更先进的设备，电位滴定法几乎永远是由于视觉观察的。
 
-![alt text](../image-1.avif#class="custom-img";float=80%"
+![alt text](../image-1.avif#class="custom-img";float="80%")
 
 背诵化学指示剂颜色变化确实容易混淆，但只要掌握**规律**和**口诀**，其实非常简单。
 
@@ -481,7 +481,7 @@ $$
 
 ### 量气装置 {#_29}
 
-![量气](../tech/量气装置.svg#class="custom-img";float=100%"
+![量气](../tech/量气装置.svg#class="custom-img";float="100%")
 
 - 上图为业余测量装置，测量结果会被压强、温度影响。
 
@@ -497,7 +497,7 @@ $$
 
 ### 防倒吸装置 {#_31}
 
-![防倒吸装置](../tech/安全瓶.avif#class="custom-img";float=100%"
+![防倒吸装置](../tech/安全瓶.avif#class="custom-img";float="100%")
 
 ### 尾气处理 {#_32}
 

@@ -45,7 +45,7 @@ $$
 
 典例是直角劈模型，有 $\theta$ 角度的直角劈，一木块放在上面，则：
 
-![直角劈模型](../mnt847j0.avif#class="custom-img"
+![直角劈模型](../mnt847j0.avif#class="custom-img")
 
 其中 $V$ 和 $A$ 为劈的速度和加速度，$x$ 为木块相对参考系的水平位移，$X$ 为木块相对参考系的水平位移，$(h-y)$ 为木块滑下的竖直高度：
 
@@ -83,7 +83,7 @@ $$
 
 ### 等时圆模型 {#_8}
 
-![alt text](../image-2.avif#class="custom-img";align="right";float=50%"
+![alt text](../image-2.avif#class="custom-img";align="right";float="50%")
 
 质点自半径为 $R$ 的空心球（对于平面而言是圆环）的最高点由静止开始无摩擦地沿任一弦下滑至球面（或圆环），所需时间相等，且等于：
 
@@ -149,13 +149,13 @@ $$
 
 在平面内，$B$ 点在 $A$ 右下，自 $A$ 静止释放一个小球，运动到 $B$ 点的最短时间。
 
-![alt text](../最速降线.avif#class="custom-img";float=100%"
+![alt text](../最速降线.avif#class="custom-img";float="100%")
 
 伯努利（哥哥和弟弟分别）证明了最速降线是一条摆线。
 
 ## 传送带和板块模型 {#_10}
 
-![alt text](../方法总结.avif#class="custom-img";float=90%"
+![alt text](../方法总结.avif#class="custom-img";float="90%")
 
 **例题1**：质量为 $2\text{kg}$ 的物体沿光滑斜面下滑，斜面与水平面的夹角为 $37^\circ$，求木块的加速度。
 

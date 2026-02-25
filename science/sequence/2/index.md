@@ -1292,7 +1292,7 @@ $$
 
 于是，如果我们这么做下去，能推到不动点附近，那么函数收敛。
 
-![alt text](../image.avif#class="custom-img";float=100%"
+![alt text](../image.avif#class="custom-img";float="100%")
 
 与上文类似，指数函数、幂函数的线性组合，一般都是光滑的，那么有，
 

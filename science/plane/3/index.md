@@ -12,7 +12,7 @@
 
 我们知道单独考查三角函数式的化简是极少见的，绝大多数的化简其背后就是求值，常见的求值问题有：给值求值、给角求值、给值求角。
 
-![变角](../图片1.avif#class="custom-img";align="right";float=30%"
+![变角](../图片1.avif#class="custom-img";align="right";float="30%")
 
 三角函数：角为先，公式特征为要。
 

@@ -48,7 +48,7 @@ $$
 
 ### 小船过河问题 {#_4}
 
-![过河问题](../过河问题.avif#class="custom-img";align="right";float=40%"
+![过河问题](../过河问题.avif#class="custom-img";align="right";float="40%")
 
 如果船速大于水速：
 
@@ -183,7 +183,7 @@ $$
 
 ### 斜面平抛 {#_11}
 
-![抛体](../抛体运动.svg#class="custom-img";float=90%"
+![抛体](../抛体运动.svg#class="custom-img";float="90%")
 
 从斜面上高点抛出，到最低点因为位偏角相等，因此速偏角相等，打到斜面上的速度夹角相同，三角形相似。
 
@@ -205,7 +205,7 @@ $$
 
 根本：将速度、位移按照效果分解。
 
-![矢量法](../矢量法.avif#class="custom-img";float=90%"
+![矢量法](../矢量法.avif#class="custom-img";float="90%")
 
 通常结合功动能定理。
 

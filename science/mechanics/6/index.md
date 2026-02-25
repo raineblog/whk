@@ -538,7 +538,7 @@ $$
 | 双星系统 | $\omega=\sqrt{\dfrac{GM}{r^3}}$  | $T=2\pi\sqrt{\dfrac{r^3}{GM}}$  |
 | 三星系统 | $\omega=\sqrt{\dfrac{3GM}{r^3}}$ | $T=2\pi\sqrt{\dfrac{r^3}{3GM}}$ |
 
-![多星问题](../多星问题.avif#class="custom-img";float=90%"
+![多星问题](../多星问题.avif#class="custom-img";float="90%")
 
 此时，存在两个可用的条件，$\omega$ 相同，以及万有引力的合力提供向心力。
 
@@ -673,9 +673,9 @@ $$
 
 如图：
 
-![霍曼转移（提高）](../KSPedia_102.avif#class="custom-img";float=100%"
+![霍曼转移（提高）](../KSPedia_102.avif#class="custom-img";float="100%")
 
-![霍曼转移（降低）](../KSPedia_103.avif#class="custom-img";float=100%"
+![霍曼转移（降低）](../KSPedia_103.avif#class="custom-img";float="100%")
 
 - 航天器无需经过多次反复的加减速过程，仅需进行两次相同方向的推进即可升高或降低轨道。
 

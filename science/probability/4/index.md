@@ -886,7 +886,7 @@ $$
 
 卡特兰数可以表示一类组合问题，
 
-![alt text](https://cdn.luogu.com.cn/upload/image_hosting/s1kfe1dc.png#class="custom-img"
+![alt text](https://cdn.luogu.com.cn/upload/image_hosting/s1kfe1dc.png#class="custom-img")
 
 其情景有，
 
