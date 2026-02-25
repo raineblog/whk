@@ -1,6 +1,6 @@
 # 线性规划 \{#\_1}
 
-<img src="../image-24.avif" alt="alt text">
+::img\[alt text]\{src="../image-24.avif"}
 
 ## 例题 1 \{#1}
 
@@ -29,7 +29,7 @@ $$\begin\{cases}5x-11y \geq -22 & \displaystyle \implies y \leq \frac\{5}\{11}x 
 
 在平面直角坐标系上画出对应的平面区域（可行域），再把目标函数 $z=ax+by$ 变形为 $\displaystyle y=-\frac\{a}\{b}x + \frac\{z}\{b}$，$$ 所以求 $z$ 的最值可看成是求直线 $\displaystyle y=-\frac\{a}\{b}x + \frac\{z}\{b}$ 在 $y$ 轴上截距的最值。以这题为例，$\displaystyle z=10x+10y \implies y= -x + \frac\{z}\{10}$ 容易证明，当 $z=85$ 时 $y$ 轴上截距取最值，所以 $\max\{z}=85.$
 
-<img src="https://cdn.luogu.com.cn/upload/image_hosting/4tjm317j.png">
+::img\{src="[https://cdn.luogu.com.cn/upload/image\_hosting/4tjm317j.png"}](https://cdn.luogu.com.cn/upload/image_hosting/4tjm317j.png"})
 
 1. 仔细观察，可以发现最优解非常容易出现在可行域构成的**多面体的顶点**处。
 
@@ -71,13 +71,13 @@ $$
 
 $\ \ \ \ \ \ \text\{}$ 图中 $y\geq 2x\ \ \ x+y\leq 1$ 两条解析式用红色标出。
 
-<img src="https://cdn.luogu.com.cn/upload/image_hosting/0uvhhx28.png">
+::img\{src="[https://cdn.luogu.com.cn/upload/image\_hosting/0uvhhx28.png"}](https://cdn.luogu.com.cn/upload/image_hosting/0uvhhx28.png"})
 
 - 回到题目，要求 $\displaystyle M=\max\{\set\{y-x,\frac\{1-y}\{2}}}$，我们需要知道何时 $M=y-x$，何时 $\displaystyle M=\frac\{1-y}\{2}$.
 
 $\ \ \ \ \ \ \text\{}$ 直接列方程 $\displaystyle y-x=\frac\{1-y}\{2}$ 可以得到 $\displaystyle y=\frac\{2}\{3}x+\frac\{1}\{3}$，在图中作出这条直线，得到：
 
-<img src="https://cdn.luogu.com.cn/upload/image_hosting/0hyhebem.png">
+::img\{src="[https://cdn.luogu.com.cn/upload/image\_hosting/0hyhebem.png"}](https://cdn.luogu.com.cn/upload/image_hosting/0hyhebem.png"})
 
 - 因为最终要求的是 $M$ 的最小值，所以对蓝色区域而言，$y$ 尽量小，$x$ 尽量大，根据例题 1 的经验，这样的极值点通常出现在多边形的顶点处，经过比较后 $P$ 点是极值点，此时 $M=0.2$. 对绿色区域而言，只需满足 $y$ 尽量大，显然，$P$ 点也是极值点。
 - 综上所述，$\max\{\set\{b-a,c-b,1-c}}$ 的最小值 $\displaystyle=\frac\{1}\{5}$.

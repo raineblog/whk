@@ -59,6 +59,6 @@ $$
 
 ### \[TODO]
 
-<img src="../image.avif" alt="alt text">
+::img\[alt text]\{src="../image.avif"}
 
-<img src="../image-1.avif" alt="alt text">
+::img\[alt text]\{src="../image-1.avif"}

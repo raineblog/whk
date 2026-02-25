@@ -70,7 +70,7 @@ $$
 
 牛顿第二定律指出了力所引起的物体运动的定量变化：动量的变化率正比于力。
 
-<img src="../image-1.avif" width="60%" alt="alt text">
+::img\[alt text]\{src="../image-1.avif" width="60%"}
 
 在这条定律中，把受到相同大小作用力的推动下，轻物体容易起动，重物体不易起动的事实，引进了质量的概念。
 
@@ -377,7 +377,7 @@ $$
 \begin\{aligned} W\_\{\text\{合}}&=\Delta E\_k\ W\_G+W\_f+\dots&=\frac\{1}\{2}m\{v\_t}^2-\frac\{1}\{2}m\{v\_0}^2 \end\{aligned}
 $$
 
-<img src="../动能定理九个模型.avif" width="90%" alt="模型">
+::img\[模型]\{src="../动能定理九个模型.avif" width="90%"}
 
 1. 圆周运动上受力和速度的关系。
 

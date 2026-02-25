@@ -186,13 +186,13 @@ $$
 
    当有几个相同长度的不同碳链时，选择含支链最多的一个作为主链。
 
-   <img src="../image-6.avif" alt="alt text">
+   ::img\[alt text]\{src="../image-6.avif"}
 
 2. 定编号：
 
    以阿拉伯数字表示取代基或官能团的位置编号，以中文数字表示取代基个数，阿拉伯数字与汉字间以短横线「$-$」分开。
 
-   <img src="../image-7.avif" alt="alt text">
+   ::img\[alt text]\{src="../image-7.avif"}
 
    多个取代基，编号位要遵循「近」「简」「小」原则：
 
@@ -202,9 +202,9 @@ $$
 
    - 同「近」同「简」考虑「小」：若有两个相同的支链，且分别处于距主链两端同近的位置，而中间还有其他支链，从主链的两个方向编号，可得到两种不同的编号序列，两序列中各支链位次和最小者即为正确的编号。
 
-   <img src="../image-8.avif" alt="alt text">
+   ::img\[alt text]\{src="../image-8.avif"}
 
-<img src="../结构.svg" width="100%" alt="alt text">
+::img\[alt text]\{src="../结构.svg" width="100%"}
 
 - 对于烯烃和炔烃：
 
@@ -212,7 +212,7 @@ $$
 
   若分子中同时含有碳碳双键与碳碳三键，可用某烯炔作结尾，并给予双键、三键尽可能低的位号，如果位号有选择时，使双键位号比三键小，书写时先烯后炔。
 
-  <img src="../image-11.avif" alt="alt text">
+  ::img\[alt text]\{src="../image-11.avif"}
 
   多烯烃、多炔烃：将含有碳碳双键或碳碳三键最多的最长碳链作为主链，称为「某几烯」或「某几炔」，从距离碳碳双键或碳碳三键最近的一端开始，将支链作为取代基，写在「某几烯」或「某几炔」的前面，并用阿拉伯数字标明碳碳双键或碳碳三键的位置，写出有机物的名称。
 
@@ -220,11 +220,11 @@ $$
 
   并没有链端，但我们可以用编号显示两个基团间的距离------从带有其中一个官能团的碳原子开始，沿环计数。这个规则在碳氢骨架是链状或环状时可使用，但很多骨架还带有分支。我们可以将支链视作官能团处理。
 
-  <img src="../image-9.avif" alt="alt text">
+  ::img\[alt text]\{src="../image-9.avif"}
 
   以苯环作为命名的母体，苯环上的侧链烷基为取代基进行命名，如苯环上的一个氢原子被甲基取代称为甲苯，苯环上的一个氢原子被乙基取代称为乙苯。当苯环上有两个取代基时，根据取代基在苯环上的相对位置，可分别用「邻」（1,2-二取代）「间」（1,3-二取代）「对」（1,4-二取代）来表示，当苯环上有三个相同取代基时，根据取代基在苯环上的相对位置，可分别用「连」（1,2,3-三取代）「偏」（1,2,4-三取代）「均」（1,3,5-三取代）来表示。
 
-  <img src="../image-10.avif" alt="alt text">
+  ::img\[alt text]\{src="../image-10.avif"}
 
   当苯环上连接不饱和基团或虽为饱和基团，但体积较大或结构比较复杂时，可将苯作为取代基。
 
@@ -350,7 +350,7 @@ $$
 
 金刚烷，分子式 $\ce\{C10H16}$，它的碳架结构相当于金刚石晶格网络中的一个晶胞，故得名金刚烷。它是一种脂环烃，具有类似樟脑的气味，是无色晶体，容易结晶，其衍生物可以用作药物。
 
-<img src="../Adamantane_acsv.svg" width="20%" alt="alt text">
+::img\[alt text]\{src="../Adamantane\_acsv.svg" width="20%"}
 
 金刚烷的化学性质较为复杂，课内不涉及，其性质详见 [金刚烷 - 维基百科](https://zh.wikipedia.org/zh-hans/金刚烷#化学性质)。
 
@@ -370,9 +370,8 @@ $$
 
 环氧乙烷通常用于制备乙二醇：
 
-<img src="../image-34.avif" width="20%">$\ce\{+ H2O ->}\quad$
-
-<img src="../image-35.avif" width="30%">
+![](data:image/avif;base64,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){width="20%"}$\ce{+ H2O ->}\quad$
+::img\{src="../image-35.avif" width="30%"}
 
 乙烯在 Ag 催化剂的作用下与氧气发生氧化反应，生成环氧化合物：
 
@@ -392,7 +391,7 @@ $$
 
 季戊四醇也称为【数据删除】醇。
 
-<img src="../Pentaerythritol.svg" width="30%" alt="alt text">
+::img\[alt text]\{src="../Pentaerythritol.svg" width="30%"}
 
 季戊四醇是白色或淡黄色的结晶粉末，稍溶于乙醇，溶于水、甲醇、甘油、乙二醇、甲酰胺，不溶于丙酮、苯、石蜡、醚和四氯化碳。易被一般有机酸酯化，与稀氢氧化钠溶液同煮无反应。
 
@@ -404,15 +403,15 @@ $$
 
 其中一分子羟基酸的羟基与另一分子羟基酸的羧基缩合脱去一分子水生成酯，同时这一分子羟基酸的羧基又与另一分子羟基酸的羟基缩合生成另一个酯基。
 
-<img src="../image-36.avif" width="80%" alt="alt text">
+::img\[alt text]\{src="../image-36.avif" width="80%"}
 
 内酯即环状羧酸酯，为羟基羧酸的环酯，是由同一有机化合物中的羧基与羟基相互作用脱水（发生分子内缩合环化）而形成的环状酯。内酯键或环酯键即为存在于一个环状分子内部的特殊酯键。
 
-<img src="../Lactone_Types.svg" width="40%">
+::img\{src="../Lactone\_Types.svg" width="40%"}
 
 内酯可通过多种方法合成，最常见的是羟基酸（例如葡萄糖酸）发生分子内酯化：
 
-<img src="../image-37.avif" width="60%" alt="alt text">
+::img\[alt text]\{src="../image-37.avif" width="60%"}
 
 内酯的化学性质与酯相似。除五元环内酯外，所有的内酯在催化剂作用下都会发生开环聚合反应。
 

@@ -103,7 +103,7 @@
 - [导数入门](/science/function/2/index.md)
 - [函数性质](/science/function/3/index.md)
 - [极限论](/science/function/4/index.md)
-- [微积分](/science/function/5/index.md)
+- [微积分](/science/function/5/index.md): ::img[alt text]{src="../image-6.avif"}
 - [变异与进化](/science/genetics/1/index.md)
 - [孟德尔遗传规律](/science/genetics/2/index.md)
 - [人类遗传病](/science/genetics/3/index.md)
@@ -126,7 +126,7 @@
 - [直线运动](/science/kinematics/2/index.md)
 - [抛体运动](/science/kinematics/3/index.md)
 - [圆周运动](/science/kinematics/4/index.md)
-- [相对运动](/science/kinematics/5/index.md)
+- [相对运动](/science/kinematics/5/index.md): ::img[alt text]{src="../image-3.avif"}
 - [集合与逻辑](/science/mathematics/2/index.md)
 - [公理化系统](/science/mathematics/3/index.md)
 - [静力与动量](/science/mechanics/1/index.md)
@@ -144,7 +144,7 @@
 - [人文地理](/science/nature/2/index.md)
 - [种群群落](/science/nature/3/index.md)
 - [生态系统](/science/nature/4/index.md)
-- [线性规划](/science/number/1/index.md)
+- [线性规划](/science/number/1/index.md): ::img[alt text]{src="../image-24.avif"}
 - [数论入门](/science/number/3/index.md)
 - [数论测试](/science/number/4/index.md)
 - [有机化学概述](/science/organic/1/index.md)
@@ -160,7 +160,7 @@
 - [多项式入门](/science/polynomial/1/index.md)
 - [多项式科技](/science/polynomial/2/index.md)
 - [均值不等式](/science/polynomial/3/index.md)
-- [导数不等式](/science/polynomial/4/index.md)
+- [导数不等式](/science/polynomial/4/index.md): ::img[alt text]{src="../image.avif"} ::img[alt text]{src="../image-1.avif"}
 - [不等式进阶](/science/polynomial/5/index.md)
 - [统计模型](/science/probability/1/index.md)
 - [概率入门](/science/probability/2/index.md): 以下部分内容来自 OI Wiki。
