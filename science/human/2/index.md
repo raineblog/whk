@@ -341,7 +341,7 @@
 
 靜息電位是一種**穩定**的狀態，主要由以下因素維持：
 
-- **離子分佈不均：** 鈉鉀泵 ($Na^+-K^+$ ATPase) 消耗 [ATP]{.abbr title="Adenosine Triphosphate (三磷酸腺苷)"}，將 $3$ 個 $Na^+$ 泵出細胞，將 $2$ 個 $K^+$ 泵入細胞。這導致細胞內 $K^+$ 濃度高，細胞外 $Na^+$ 濃度高。
+- **離子分佈不均：** 鈉鉀泵 ($Na^+-K^+$ ATPase) 消耗 ATP，將 $3$ 個 $Na^+$ 泵出細胞，將 $2$ 個 $K^+$ 泵入細胞。這導致細胞內 $K^+$ 濃度高，細胞外 $Na^+$ 濃度高。
 - **膜的選擇性通透性（最關鍵因素）：**
   - 在靜息狀態下，細胞膜上的**鉀漏通道 (K+ leak channels)** 是開放的，允許 $K^+$ 順濃度梯度向外擴散。
   - 此時膜對 $Na^+$ 的通透性非常低（鈉通道關閉）。
@@ -400,8 +400,8 @@
 </tr>
 <tr>
 <td style="text-align: left;"><strong>能量消耗</strong></td>
-<td style="text-align: left;">依賴鈉鉀泵建立濃度梯度 (間接消耗 <abbr title="Adenosine Triphosphate (三磷酸腺苷)">ATP</abbr>)</td>
-<td style="text-align: left;">離子順梯度擴散 (被動運輸)，但在恢復期需泵消耗 <abbr title="Adenosine Triphosphate (三磷酸腺苷)">ATP</abbr> 復原</td>
+<td style="text-align: left;">依賴鈉鉀泵建立濃度梯度 (間接消耗 ATP)</td>
+<td style="text-align: left;">離子順梯度擴散 (被動運輸)，但在恢復期需泵消耗 ATP 復原</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>特點</strong></td>

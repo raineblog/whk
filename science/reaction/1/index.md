@@ -221,7 +221,7 @@ $$
 
 注意：
 
-- 与催化剂相反，能减慢反应速率的物质称为抑制剂。过去曾用的负催化剂一词已不被国际纯粹与应用化学联合会（[IUPAC]{.abbr title="International Union of Pure and Applied Chemistry (国际纯粹与应用化学联合会)"}）所接受^[1](#fn:noteiupac1){.footnote-ref}^，而必须改用抑制剂一词，催化剂一词仅指能加快反应速率的物质。
+- 与催化剂相反，能减慢反应速率的物质称为抑制剂。过去曾用的负催化剂一词已不被国际纯粹与应用化学联合会（IUPAC）所接受^[1](#fn:noteiupac1){.footnote-ref}^，而必须改用抑制剂一词，催化剂一词仅指能加快反应速率的物质。
 
 - 催化剂指一种提高反应速率而不改变总体标准反应中吉布斯能量变化的物质，而使用催化剂参与反应的过程称为催化。催化剂既是反应物又是反应产物。当添加的物质降低反应速率时，不应使用催化剂和催化一词。
 
@@ -304,6 +304,6 @@ $$
 ------------------------------------------------------------------------
 
 1.  ::: {#fn:noteiupac1}
-    详见 [[IUPAC]{.abbr title="International Union of Pure and Applied Chemistry (国际纯粹与应用化学联合会)"} Gold Book C00876](https://goldbook.iupac.org/terms/view/C00876) 相关内容。 [↩](#fnref:noteiupac1 "Jump back to footnote 1 in the text"){.footnote-backref}
+    详见 [IUPAC Gold Book C00876](https://goldbook.iupac.org/terms/view/C00876) 相关内容。 [↩](#fnref:noteiupac1 "Jump back to footnote 1 in the text"){.footnote-backref}
     :::
 :::

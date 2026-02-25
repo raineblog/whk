@@ -503,7 +503,7 @@ $$
 
 - **第一阶段：链引发**。
 
-  在紫外光（[UV]{.abbr title="Ultraviolet (紫外线)"}）或高温作用下，卤素分子发生**均裂（Homolytic Cleavage）**，生成两个高活性的卤素自由基。$Cl\cdot$ 表示带有单电子的氯自由基，极不稳定，反应活性极高。
+  在紫外光（UV）或高温作用下，卤素分子发生**均裂（Homolytic Cleavage）**，生成两个高活性的卤素自由基。$Cl\cdot$ 表示带有单电子的氯自由基，极不稳定，反应活性极高。
 
   $$
   \ce{Cl-Cl ->[h\nu] 2 Cl*}
@@ -1480,9 +1480,9 @@ $\alpha$ 氨基酸的结构式
 
 <img src="../Nucleotides_zh.avif" width="90%">
 
-- 如果其五碳糖是脱氧核糖，则此单体的聚合物是脱氧核糖核酸 [DNA]{.abbr title="Deoxyribonucleic Acid (脱氧核糖核酸)"}。
+- 如果其五碳糖是脱氧核糖，则此单体的聚合物是脱氧核糖核酸 DNA。
 
-- 如果其五碳糖是核糖，则此单体的聚合物是核糖核酸 [RNA]{.abbr title="Ribonucleic Acid (核糖核酸)"}。
+- 如果其五碳糖是核糖，则此单体的聚合物是核糖核酸 RNA。
 
 <img src="../Difference_DNA_RNA-ZH.svg" width="90%">
 

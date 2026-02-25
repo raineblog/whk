@@ -228,7 +228,7 @@ $$
 3.  若 \$ P \$ 到 \$ \triangle ABC \$ 各边的距离相等，则 \$ O \$ 是 \$ \triangle ABC \$ 的**内心**。
 4.  若三侧面与底面所成的二面角相等，则 \$ O \$ 是 \$ \triangle ABC \$ 的**内心**。
 5.  若 \$ PA \perp PB \$, \$ PA \perp PC \$, \$ PB \perp PC \$，则 \$ O \$ 是 \$ \triangle ABC \$ 的**垂心**。
-6.  若 \$ PA \perp BC \$, \$ PB \perp [AC]{.abbr title="Alternating Current (交流电)"} \$, \$ PC \perp AB \$，则 \$ O \$ 是 \$ \triangle ABC \$ 的**垂心**。
+6.  若 \$ PA \perp BC \$, \$ PB \perp AC \$, \$ PC \perp AB \$，则 \$ O \$ 是 \$ \triangle ABC \$ 的**垂心**。
 
 ### 补形补体 {#_18}
 
