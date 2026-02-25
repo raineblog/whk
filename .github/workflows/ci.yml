@@ -122,7 +122,9 @@ jobs:
         include:
           - name: Rspress to Cloudflare Pages
             image: ghcr.io/raineblog/mkdocs-rspress-docker:latest
-            pwd: rspress-build
+            pwd: |
+              mv public docs/public
+              rspress-build
             url: https://raineblog-whk-rspress.pages.dev/
             branch: cloudflare-pages-rspress
             dir: ./doc_build
