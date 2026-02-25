@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Wed, 25 Feb 2026 09:36:31 -0000</pubDate>
-    <lastBuildDate>Wed, 25 Feb 2026 09:36:31 -0000</lastBuildDate>
+    <pubDate>Wed, 25 Feb 2026 10:18:13 -0000</pubDate>
+    <lastBuildDate>Wed, 25 Feb 2026 10:18:13 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-25T09:36:31.257961+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-25T09:36:31....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-25T10:18:13.372483+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-25T10:18:13....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Wed, 25 Feb 2026 09:36:00 +0000</pubDate>
+      <pubDate>Wed, 25 Feb 2026 10:18:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
@@ -57,12 +57,52 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/page/2/</link>
-      <pubDate>Wed, 25 Feb 2026 09:36:00 +0000</pubDate>
+      <pubDate>Wed, 25 Feb 2026 10:18:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/page/2/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/page/2.png" type="image/png" length="None" />
+      
+    </item>
+    
+    <item>
+      <title>热学与热力学</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;热学与热力学&lt;/h1&gt;
+&lt;h2&gt;热力学基础&lt;/h2&gt;
+&lt;p&gt;热力学是研究&lt;strong&gt;热现象&lt;/strong&gt;中物态转变和能量转换规律的学科，它着重研究物质的平衡状态以及与准平衡态的物理、化学过程。热力学定义了许多宏观物理量，描述各物理量之间的关系：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;研究对象：包含大量（无限多）微观粒子的宏观物体的性质。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;研究内容：热运动的规律，与热运动有关的物性和宏观物质系统的演化。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;热运动：组成宏观物体的大量微观粒子的无规则运动的规律。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;研究某一容器中气体的热学性质，其研究对象是容器中的大量分子组成的系统，这在热学中叫作一个热力学系统，简称系统。系统之外与系统发生相互作用的其他物体统称外界。例如，用酒精灯加热容器中的气体，把气体作为研究对象，它就是一个热力学系统，而容器和酒精灯就是外界。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;孤立系统：不能交换热量，不能交换机械功，不能交换物质。&lt;/li&gt;
+&lt;li&gt;绝热系统：不能交换热量，可以交换机械功，不能交换物质。&lt;/li&gt;
+&lt;li&gt;封闭系统：可以交换热量，可以交换机械功，不能交换物质。&lt;/li&gt;
+&lt;li&gt;开放系统：可以交换热量，可以交换机械功，可以交换物质。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;热运动影响着物质的各种宏观性质。&lt;/p&gt;
+&lt;h3&gt;分子的能量&lt;/h3&gt;
+&lt;p&gt;分子动能：人们利用分子动理论通...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/modern/1/</link>
+      <pubDate>Wed, 25 Feb 2026 10:16:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/modern/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/1.png" type="image/png" length="43763" />
       
     </item>
     
@@ -175,46 +215,6 @@
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/4/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/4.png" type="image/png" length="44424" />
-      
-    </item>
-    
-    <item>
-      <title>热学与热力学</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;热学与热力学&lt;/h1&gt;
-&lt;h2&gt;热力学基础&lt;/h2&gt;
-&lt;p&gt;热力学是研究&lt;strong&gt;热现象&lt;/strong&gt;中物态转变和能量转换规律的学科，它着重研究物质的平衡状态以及与准平衡态的物理、化学过程。热力学定义了许多宏观物理量，描述各物理量之间的关系：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;研究对象：包含大量（无限多）微观粒子的宏观物体的性质。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;研究内容：热运动的规律，与热运动有关的物性和宏观物质系统的演化。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;热运动：组成宏观物体的大量微观粒子的无规则运动的规律。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;研究某一容器中气体的热学性质，其研究对象是容器中的大量分子组成的系统，这在热学中叫作一个热力学系统，简称系统。系统之外与系统发生相互作用的其他物体统称外界。例如，用酒精灯加热容器中的气体，把气体作为研究对象，它就是一个热力学系统，而容器和酒精灯就是外界。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;孤立系统：不能交换热量，不能交换机械功，不能交换物质。&lt;/li&gt;
-&lt;li&gt;绝热系统：不能交换热量，可以交换机械功，不能交换物质。&lt;/li&gt;
-&lt;li&gt;封闭系统：可以交换热量，可以交换机械功，不能交换物质。&lt;/li&gt;
-&lt;li&gt;开放系统：可以交换热量，可以交换机械功，可以交换物质。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;热运动影响着物质的各种宏观性质。&lt;/p&gt;
-&lt;h3&gt;分子的能量&lt;/h3&gt;
-&lt;p&gt;分子动能：人们利用分子动理论通...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/modern/1/</link>
-      <pubDate>Mon, 23 Feb 2026 12:50:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/modern/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/1.png" type="image/png" length="43763" />
       
     </item>
     
