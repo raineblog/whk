@@ -59,6 +59,6 @@ $$
 
 ### \[TODO\]
 
-<img src="../image.avif" alt="alt text">
+![alt text](../image.avif)
 
-<img src="../image-1.avif" alt="alt text">
+![alt text](../image-1.avif)

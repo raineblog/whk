@@ -1,6 +1,6 @@
 # 微积分 {#_1}
 
-<img src="../image-6.avif" alt="alt text">
+![alt text](../image-6.avif)
 
 ## 积分 {#_2}
 

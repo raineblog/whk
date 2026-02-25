@@ -20,7 +20,7 @@
 
 ### 场线 {#_4}
 
-<img src="../Campo_cargas_diferentes.avif" align="right" alt="矢量叠加的电场线">
+![矢量叠加的电场线](../Campo_cargas_diferentes.avif){align="right"}
 
 PS：右图为矢量叠加的电场线。
 
@@ -50,30 +50,19 @@ PS：右图为矢量叠加的电场线。
 
 1.  电场线从正电荷或无限远出发，终止于负电荷或无限远。
 
-    <table>
-    <thead>
-    <tr>
-    <th style="text-align: center;">从正电荷往外扩散</th>
-    <th style="text-align: center;">朝着负电荷聚集</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-    <td style="text-align: center;"></td>
-    <td style="text-align: center;"></td>
-    </tr>
-    </tbody>
-    </table>
+    | 从正电荷往外扩散 | 朝着负电荷聚集 |
+    |:--:|:--:|
+    | ![正电荷](../480px-VFPt_plus_thumb.svg.avif) | ![负电荷](../480px-VFPt_minus_thumb.svg.avif) |
 
 2.  根据矢量的性质，电场线可以直接矢量叠加，叠加与磁感线的叠加类似。
 
-    <img src="../fimage-2.avif" alt="alt text">
+    ![alt text](../fimage-2.avif)
 
 3.  电场线在电场中不相交，因为在电场中任意一点，场强的方向只有一个，不可能存在两个方向。
 
 4.  场强较大的地方电场线较密，场强较小的地方电场线较疏，因此可以用电场线的疏密来表示场强的大小。
 
-<img src="../fimage-1.avif" alt="alt text">
+![alt text](../fimage-1.avif)
 
 根据场线的性质，一个位置的电场方向总是沿着这个位置的电场线的切线方向。
 
@@ -243,9 +232,9 @@ $$
 - 沿着等势面移动的电荷电场力不做功（解释：运动方向等势面与受力方向电场线垂直）。
 - 等差等势面越密集，电场强度越大（解释：类比地理等高线）。
 
-<img src="../fimage-3.avif" width="100%" alt="alt text">
+![alt text](../fimage-3.avif){width="100%"}
 
-<img src="../3bc6f7508c8d571e1138c24f.avif" width="100%" alt="等势面">
+![等势面](../3bc6f7508c8d571e1138c24f.avif){width="100%"}
 
 ## 电场的规律 {#_13}
 
@@ -353,7 +342,7 @@ $$
 点电荷和接地金属板：
 
 <figure>
-
+<p><img src="../2025-01-18-21-35-16.avif" alt="金属板" /></p>
 <figcaption><p>图甲等价于金属板左侧对称点有一电量大小相等的相反电荷如图乙</p></figcaption>
 </figure>
 
@@ -375,7 +364,7 @@ $$
 
 这个可以理解为重力场和电场的合成，即为等效重力场。
 
-<img src="../等效重力场.avif" width="60%" alt="等效重力场">
+![等效重力场](../等效重力场.avif){width="60%"}
 
 如图，如果从 $A$ 点静止释放，在 $B$ 点恰好速度为零，则 $C$ 点一定是动能最高的点，$OC$ 方向即为等效重力场方向；根据对称性，$OC$ 一定是角平分线。
 

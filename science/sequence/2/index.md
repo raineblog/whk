@@ -1282,7 +1282,7 @@ $$
 以此类推，形如，
 
 <figure>
-
+<p><img src="../3purusz5.avif" alt="蛛网" /></p>
 <figcaption><p>蛛网工作法</p></figcaption>
 </figure>
 
@@ -1292,7 +1292,7 @@ $$
 
 于是，如果我们这么做下去，能推到不动点附近，那么函数收敛。
 
-<img src="../image.avif" width="100%" alt="alt text">
+![alt text](../image.avif){width="100%"}
 
 与上文类似，指数函数、幂函数的线性组合，一般都是光滑的，那么有，
 
