@@ -12,7 +12,7 @@
 
 滑动变阻器常见的接法有限流式和分压式两种。
 
-`<img src="../滑动变阻器.drawio.avif" width="90%" alt="alt text">`{=html}
+<img src="../滑动变阻器.drawio.avif" width="90%" alt="alt text">
 
 - 限流式：电路连接简单，调节范围相对较小，通常选用较大的串联限流电阻以限制电流。
 
@@ -22,15 +22,15 @@
 
 晶体三极管是半导体基本元件之一，具有电流放大作用，在控制电路中常用作电子开关。本实验采用三极管配合光敏电阻完成光控开关的任务。三极管由三个电极组成，分别是发射极 $e$、基极 $b$ 和集电极 $c$，有 NPN 型和 PNP 型两种。三极管的一个重要特性是，从基极输入一个较小的电流，就会在集电极获得较大的电流。此外，三极管还具有完成断路和接通的开关作用。
 
-`<img src="../image-37.avif" width="30%" alt="alt text">`{=html}
+<img src="../image-37.avif" width="30%" alt="alt text">
 
 ### 欧姆表 {#_5}
 
 一个常见的欧姆表电路图如左图所示：
 
-`<img src="../image-12.avif" alt="alt text">`{=html}
+<img src="../image-12.avif" alt="alt text">
 
-`<img src="../image-22.avif" alt="alt text">`{=html}
+<img src="../image-22.avif" alt="alt text">
 
 我们发现，如果将两个表笔短接（即被测电阻 $R_x=0$），在欧姆表内部电路由电源、电源内阻 $r$、表头内阻 $R_g$ 和限流电阻 $R$ 串联组成，则满偏电流为
 
@@ -50,7 +50,7 @@ $$
 
 多用电表，又称万用电表、多用表、多用计、万用表、万用计，俗称三用电表，一般包含电流表（安培计）、电压表（伏特计）、电阻表（欧姆计）等功能。一个老式的多用电表（上海第四仪表厂）如图所示：
 
-`<img src="../image-23.avif" width="90%" alt="alt text">`{=html}
+<img src="../image-23.avif" width="90%" alt="alt text">
 
 多用电表的使用方法：
 
@@ -72,18 +72,18 @@ $$
 
 几个常见的多用电表电路如图所示：
 
-`<img src="../image-24.avif" alt="alt text">`{=html}
+<img src="../image-24.avif" alt="alt text">
 
-`<img src="../image-25.avif" alt="alt text">`{=html}
+<img src="../image-25.avif" alt="alt text">
 
 ### 电表改装 {#_7}
 
 **检流计** $-\kern{-0.4em}\bigcirc\kern{-1em}{\scriptsize\text{G}}\kern{0.05em}-$：也称为**表头**，被用于测量**微弱电流**。指针式的表头是一只高灵敏度的磁电式灵敏检流计，其工作原理为利用电流的磁效应，当电流通过其导线时，会产生磁场，与永久磁铁互斥而带动指针旋转，与磁电式电流表基本相同。电表的主要性能指标基本上取决于表头的性能。表头的灵敏度是指表头指针满刻度偏转时流过表头的直流电流值，这个值越小，表头的灵敏度愈高，其性能就越好。
 
-`<img src="../image-9.avif" alt="alt text">`{=html}
+<img src="../image-9.avif" alt="alt text">
 
   
-`<img src="../image-10.avif" alt="alt text">`{=html}
+<img src="../image-10.avif" alt="alt text">
 
 检流计有内阻 $\Omega$、最大电压 $U$ 和最大电流 $I$，满足欧姆定律，检流计与大电阻串联构成电压表 $-\kern{-0.4em}\bigcirc\kern{-1em}{\scriptsize\text{V}}\kern{0.1em}-$，与小电阻并联构成电流表 $-\kern{-0.4em}\bigcirc\kern{-1em}{\scriptsize\text{ I}}\kern{0.2em}-$，由欧姆定律分压分流规律，可以计算出应该串联、并联多大的电阻。
 
@@ -137,13 +137,13 @@ $$
 
 电阻的 $P-I$ 图像：
 
-`<img src="../IP.avif" width="50%">`{=html}
+<img src="../IP.avif" width="50%">
 
 电灯泡 $U-I$ 与电源 $U-I$ 联立：
 
 - 根据短路电流 $I=E/r$ 得出横截距，以 $E$ 为纵截距在 $U-I$ 图上做出下降直线（电源）。
 
-  `<img src="../UI.avif" width="50%">`{=html}
+  <img src="../UI.avif" width="50%">
 
 - 电灯泡的 $U-I$ 曲线与电源的直线交点即为连接后的电路状态。
 
@@ -189,7 +189,7 @@ $$
 
 最容易想到的测量方法是直接测量电流和电阻两端的电压，但是我们非理想电流表、电压表会分压、分流，导致产生系统误差，于是就产生了内接法和外接法。
 
-`<img src="../image-4.avif" width="80%" alt="alt text">`{=html}
+<img src="../image-4.avif" width="80%" alt="alt text">
 
 电流表内接法（电流表在电压表里面）：
 
@@ -219,7 +219,7 @@ $$
 
 伏阻法，又称伏伏法，如图所示：
 
-`<img src="../image-26.avif" width="80%" alt="alt text">`{=html}
+<img src="../image-26.avif" width="80%" alt="alt text">
 
 :::note
 
@@ -254,7 +254,7 @@ $$
 
 安阻法，又称安安法，如图所示：
 
-`<img src="../image-27.avif" width="80%" alt="alt text">`{=html}
+<img src="../image-27.avif" width="80%" alt="alt text">
 
 :::note
 
@@ -290,7 +290,7 @@ $$
 
 限流式半偏法：
 
-`<img src="../image-28.avif" width="40%" alt="alt text">`{=html}
+<img src="../image-28.avif" width="40%" alt="alt text">
 
 1.  闭合开关 $S$ 和 $S_1$，调节滑动变阻器，使电流表满偏。
 
@@ -312,7 +312,7 @@ $$
 
 分压式半偏法：
 
-`<img src="../image-29.avif" width="40%" alt="alt text">`{=html}
+<img src="../image-29.avif" width="40%" alt="alt text">
 
 1.  电阻箱归零，闭合开关，调节滑动变阻器，使得电压表满偏。
 
@@ -336,7 +336,7 @@ $$
 
 替代法是一种类似于限流式半偏法的方法，如图所示：
 
-`<img src="../image-30.avif" width="40%" alt="alt text">`{=html}
+<img src="../image-30.avif" width="40%" alt="alt text">
 
 1.  闭合开关 $S$ 和 $S_1$，适当调整滑动变阻器，记录此时电流表示数。
 
@@ -350,9 +350,9 @@ $$
 
 将待测电阻 $R_x$ 和 $R_3$ 串联，可变电阻 $R_2$ 和 $R_1$ 串联。再将这两个串联电路并联，在各路中点间接入检流计 $V_G$。其中 $V_G$ 可以认为是测量电势差的，或是测量电流的，因为这是等价的。
 
-`<img src="../image-2.avif" width="90%" alt="alt text">`{=html}
+<img src="../image-2.avif" width="90%" alt="alt text">
 
-`<img src="../image-3.avif" width="90%" alt="alt text">`{=html}
+<img src="../image-3.avif" width="90%" alt="alt text">
 
 我们得出结论：当桥臂满足
 
@@ -370,7 +370,7 @@ $$
 
 测量电源的电动势和内阻：
 
-`<img src="../image-31.avif" width="60%" alt="alt text">`{=html}
+<img src="../image-31.avif" width="60%" alt="alt text">
 
 理想情况下，电流表测外电流、电压表测外电压，因为要测两个量，我们最常见的减小偶然误差的方式就是图像法，容易想到我们会指出伏安（$U-I$）图形，两种方法
 
@@ -426,7 +426,7 @@ $$
 
 如图形所示：
 
-`<img src="../电源测量.svg" width="50%">`{=html}
+<img src="../电源测量.svg" width="50%">
 
 一般来说，内接法适用于内阻较大的电池，例如水果电池；外接法适用于内阻较小的电池，例如干电池；如果电池电阻过小，则可以将电池与适当的定值电阻串联接入，测的内阻减去定值电阻阻值即可。
 
@@ -434,7 +434,7 @@ $$
 
 定阻法通常也称为安阻法和伏阻法，我们用电阻箱（为了读出接入电路的电阻大小）和一个电流表或电压表即可测出电源的电动势和内阻。
 
-`<img src="../image-32.avif" width="60%" alt="alt text">`{=html}
+<img src="../image-32.avif" width="60%" alt="alt text">
 
 其思想分别是将电阻箱两端的电压、电流当做外电压、总电流，因此也容易进行误差分析。
 
@@ -497,11 +497,11 @@ $$
 
 补偿电路是一种比较精确地测量电源电动势的电路，其测量装置亦称电势差计。
 
-`<img src="../image-11.avif" width="30%" alt="alt text">`{=html}
+<img src="../image-11.avif" width="30%" alt="alt text">
 
 若两电源的电动势不相等，即 $\varepsilon_0 \neq \varepsilon_x$，则回路中必有电流，检流计的指针发生偏转。如果 $\varepsilon_0 = \varepsilon_x$，则回路中没有电流，检流计指示为零，这时称电路达到补偿状态。这样可以根据已知电动势 $\varepsilon_0$ 的值，求出待测电动势 $\varepsilon_x$ 的值，这种测电源电动势的方法称为补偿法。
 
-`<img src="../image-13.avif" width="50%" alt="alt text">`{=html}
+<img src="../image-13.avif" width="50%" alt="alt text">
 
 工作电源 $E$、限流电阻 $R$、开关 $K_1$、粗细均匀的电阻丝 AB 串联成一闭合电路，称为辅助电路。
 
@@ -537,7 +537,7 @@ $$
 
 被测非电学量信号经敏感元件和转换元件作用后，所输出的电信号一般都很微弱，难以带动执行机构去实现控制动作，因此要通过信号调整与转换电路把这个电信号放大。如果需要远距离传送，还要把它转换成其他电信号以抵御外界干扰。如何应用从传感器获得的信号呢？可以用指针式电表或数字屏等显示测量的数据；也可以用来驱动继电器或其他元件，来执行诸如打开管道的阀门、开通或关闭电动机等动作；还可以由计算机对获得的数据进行处理，发出更复杂的指令。概括起来，传感器应用的一般模式可如图：
 
-`<img src="../image-33.avif" width="90%" alt="alt text">`{=html}
+<img src="../image-33.avif" width="90%" alt="alt text">
 
 话筒是一种能够将声音信号转换为电信号的传感器，电容式话筒的振动膜片涂有薄薄的金属层，膜片后相距几十微米有一个金属片（固定电极），它们构成电容器的两个极板。电容式话筒利用电容器的电容与极板间距离的关系来工作。声波使振动膜片发生振动，振动膜片作为敏感元件，感受声音信号的变化，与固定电极组成的电容器相当于转换元件，将声音信号的强弱转换成电容器的电容变化。把电容器接入含有电阻、电源的转换电路中，由于电容器的电容不断发生变化，电容器产生充、放电电流，加载在电阻两端的电压也随之变化。这样，信号最后经过转换电路就被输出为便于测量和处理的电压信号，用于显示、记录等。
 
@@ -563,7 +563,7 @@ $$
 
 除了光照以外，温度也能明显地影响金属导体和半导体材料的导电性能。金属热电阻和热敏电阻就是传感器中常见的感知温度的敏感元件。
 
-`<img src="../image-34.avif" align="right" width="40%" alt="alt text">`{=html}
+<img src="../image-34.avif" align="right" width="40%" alt="alt text">
 
 金属的电阻率随温度的升高而增大（图线 1）。用金属丝可以制作温度传感器，称为热电阻。常用的一种热电阻是用铂制作的，可用来做电阻温度计。与金属不同，有些半导体在温度上升时导电能力增强（图线 2），因此可以用半导体材料制作热敏电阻。金属热电阻和热敏电阻都能够把温度这个热学量转换为电阻这个电学量。
 
@@ -597,9 +597,9 @@ $$
 
 1879 年，美国物理学家霍尔观察到，在匀强磁场中放置一块矩形截面的载流导体，当磁场方向与电流方向垂直时，导体中能够自由移动的带电粒子在洛伦兹力的作用下，向着与电流、磁场都垂直的方向漂移，继而在该方向上出现了电势差。后来大家把这个现象称为霍尔效应，所产生的电势差称为霍尔电势差或霍尔电压。
 
-`<img src="../image-35.avif" alt="alt text">`{=html}
+<img src="../image-35.avif" alt="alt text">
 
-`<img src="../image-36.avif" width="85%" alt="alt text">`{=html}
+<img src="../image-36.avif" width="85%" alt="alt text">
 
 除导体外，半导体也能产生霍尔效应，而且半导体的霍尔效应要强于导体。在一个很小的矩形半导体（如砷化铟）薄片上制作四个电极，它就成了一个霍尔元件。在电极 E、F 间通入恒定的电流，同时外加与薄片垂直的磁场，则在电极 M、N 间可出现霍尔电压。
 
@@ -607,6 +607,6 @@ $$
 
 ### 电磁继电器 {#_30}
 
-`<img src="../image-38.avif" width="70%" alt="alt text">`{=html}
+<img src="../image-38.avif" width="70%" alt="alt text">
 
-`<img src="../image-39.avif" width="90%" alt="alt text">`{=html}
+<img src="../image-39.avif" width="90%" alt="alt text">

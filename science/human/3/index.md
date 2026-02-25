@@ -24,7 +24,7 @@
 
 血浆、组织液和淋巴液之间的关系：
 
-`<img src="../细胞外液.avif" width="50%" alt="alt text">`{=html}
+<img src="../细胞外液.avif" width="50%" alt="alt text">
 
 血浆、组织液和淋巴液通过动态的有机联系，共同构成机体内细胞生活的直接环境。为了区别于个体生活的外界环境，人们把这个由细胞外液构成的液体环境叫作**内环境**。
 
@@ -66,7 +66,7 @@
 
   模拟生物体维持 pH 的稳定：在溶液中加入酸或碱，缓冲对（如 $\ce{HPO4^2- / H2PO4-}$）能使溶液 pH 的变化减弱；与自来水相比，生物组织匀浆更类似于缓冲液。
 
-  `<img src="../image-4.avif" width="60%" alt="alt text">`{=html}
+  <img src="../image-4.avif" width="60%" alt="alt text">
 
   人体内环境中也有很多缓冲对，其中最重要的是 $\ce{HCO3- / H2CO3}$，其次还有 $\ce{HPO4^2- / H2PO4-}$ 等。当一定量的酸性或碱性物质进入后，内环境的 pH 仍能维持在一定范围内。
 
@@ -179,7 +179,7 @@
 
   受体与信使假说：
 
-  `<img src="../image-14.avif" width="60%" alt="alt text">`{=html}
+  <img src="../image-14.avif" width="60%" alt="alt text">
 
 - 作为信使传递信息：激素种类多、量极微，既不组成细胞结构，又不提供能量，也不起催化作用，而是随体液到达靶细胞，使靶细胞原有的生理活动发生变化。激素是调节生命活动的信息分子，一经靶细胞接受并起作用后就失活了。因此，体内需要源源不断地产生激素，以维持激素含量的动态平衡。
 
@@ -260,7 +260,7 @@
 
 内分泌系统是机体整体功能的重要调节系统。各种内分泌腺间具有复杂的功能联系，共同调节机体活动，包括维持内环境稳定、调节物质和能量代谢、调控生长发育和生殖等。
 
-`<img src="../image-19.avif" width="90%" alt="alt text">`{=html}
+<img src="../image-19.avif" width="90%" alt="alt text">
 
 具体的内分泌腺及其分泌的激素，我们在下一节详细分解。
 
@@ -282,13 +282,13 @@
 
 - 下丘脑、垂体和一些内分泌腺（称为靶腺体）功能的分级调节系统，称为下丘脑---垂体---靶腺体轴，人们将这种分层调控称为分级调节。分级调节可以放大激素的调节效应，形成多级反馈调节，有利于精细调控，从而维持机体的稳态。
 
-`<img src="../raineblog.dpdns.org_whk_science_human_3_.avif" alt="alt text">`{=html}
+<img src="../raineblog.dpdns.org_whk_science_human_3_.avif" alt="alt text">
 
 ### 脑垂体 {#_12}
 
 垂体（又称脑垂体、脑下垂体、垂腺、脑垂腺）是人体的一个内分泌腺，位于脑底部的中央位置。
 
-`<img src="../image-13.avif" width="100%" alt="alt text">`{=html}
+<img src="../image-13.avif" width="100%" alt="alt text">
 
 下丘脑：分泌促甲状腺激素释放激素、促性腺激素释放激素、促肾上腺皮质激素释放激素等多种激素。这些激素作用于垂体，调控垂体分泌释放相应的激素。
 
@@ -328,7 +328,7 @@
 
 其中胰岛内有多种分泌细胞，高中阶段只要求掌握 A、B 两种。
 
-`<img src="../image-12.avif" width="40%" alt="alt text">`{=html}
+<img src="../image-12.avif" width="40%" alt="alt text">
 
 - 图中黄色部分：胰岛 B 细胞（$\beta$ 细胞），分泌胰岛素。
 
@@ -336,7 +336,7 @@
 
 - 图中紫色部分：胰岛 D 细胞（$\delta$ 细胞），分泌生长抑素。
 
-`<img src="../image-21.avif" width="60%" alt="alt text">`{=html}
+<img src="../image-21.avif" width="60%" alt="alt text">
 
 血糖浓度升高，葡萄糖通过胰岛 B 细胞膜上的葡萄糖载体进入胰岛 B 细胞。葡萄糖经氧化反应使细胞内的 [ATP]{.abbr title="Adenosine Triphosphate (三磷酸腺苷)"}/[ADP]{.abbr title="Adenosine Diphosphate (二磷酸腺苷)"} 比率，导致细胞膜中的 [ATP]{.abbr title="Adenosine Triphosphate (三磷酸腺苷)"} 敏感型钾离子通道关闭，使细胞膜内的电位升高，激活电压门控的钙离子通道，钙离子通道开放，导致钙离子内流增加，触发胰岛素分子释放到细胞外。
 
@@ -477,11 +477,11 @@
 
 血液中的糖称为血糖，主要是葡萄糖。
 
-`<img src="../无标题-2025-09-14-2104.svg" width="80%" alt="alt text">`{=html}
+<img src="../无标题-2025-09-14-2104.svg" width="80%" alt="alt text">
 
 血糖平衡的调节，也就是调节血糖的来源和去向，使其处于平衡状态。
 
-`<img src="../raineblog.dpdns.org_whk_science_human_3_(1).avif" alt="alt text">`{=html}
+<img src="../raineblog.dpdns.org_whk_science_human_3_(1).avif" alt="alt text">
 
 研究发现，机体是通过一些特定的激素来调节血糖的代谢速率的，其中最主要的是胰岛分泌的胰高血糖素和胰岛素。
 
@@ -527,7 +527,7 @@
 
 - 而皮肤是人体最主要的散热器官，皮肤散热主要通过辐射（如以红外线等形式将热量传到外界）、传导（机体热量直接传给同它接触的物体）、对流（通过气体来交换热量）以及蒸发（如汗液的蒸发）的方式进行。体温调节是通过调节上述器官的产热和散热实现的。
 
-`<img src="../image-20.avif" align="right" width="40%" alt="alt text">`{=html}
+<img src="../image-20.avif" align="right" width="40%" alt="alt text">
 
 人和高等动物皮肤中分布有感受温度变化的温度感受器，包括冷觉感受器和热觉感受器。
 
@@ -577,6 +577,6 @@
 
 - 不考虑其他因素，呼吸过于频繁，导致二氧化碳呼出增多，引起呼吸性碱中毒；呼吸阻碍，导致二氧化碳无法正常呼出，导致呼吸性酸中毒。
 
-`<img src="../image-7.avif" width="60%" alt="alt text">`{=html}
+<img src="../image-7.avif" width="60%" alt="alt text">
 
 低蛋白血症：血液中蛋白质含量降低，使血浆胶体渗透压降低、水进入组织液中，引起组织水肿。同时，因为血容量降低了，醛固酮会分泌增加，引起钠和水的重吸收。但是这并不会改变胶体渗透压偏低的问题，还会升高毛细血管的静水压，导致更多的水进入组织液，加重组织水肿。此时可以通过服用醛固酮受体拮抗类药物（例如螺内酯），这种竞争性抑制剂与醛固酮受体结合，阻断了醛固酮与受体的结合。产生更多的尿液，降低血容量，从而降低毛细血管的静水压，从而减少液体的净滤出。这仅仅是缓解组织水肿，根本治疗仍需纠正低蛋白血症本身。

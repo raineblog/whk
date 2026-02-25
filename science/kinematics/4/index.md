@@ -104,7 +104,7 @@ $$
 
 ### 同角不同面模型 {#_12}
 
-`<img src="../image.avif" align="right" width="30%" alt="同角不同面">`{=html}
+<img src="../image.avif" align="right" width="30%" alt="同角不同面">
 
 物体和法线的夹角相同，但是不同水平面，如右图所示。
 
@@ -132,7 +132,7 @@ $$
 
 ### 同面不同角模型 {#_13}
 
-`<img src="../image-1.avif" align="right" width="35%" alt="同面不同角">`{=html}
+<img src="../image-1.avif" align="right" width="35%" alt="同面不同角">
 
 物体在同一平面，与法线的夹角不同，如右图。
 
@@ -332,7 +332,7 @@ $$
 \begin{aligned} G+T&=F_c\ mg+T&=m\frac{v^2}{r} \end{aligned}
 $$
 
-`<img src="../C1C8B823E95E88FD9F01E5EA5E9E2311.avif" width="100%">`{=html}
+<img src="../C1C8B823E95E88FD9F01E5EA5E9E2311.avif" width="100%">
 
 ### 绳模型 {#_23}
 

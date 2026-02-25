@@ -36,7 +36,7 @@
 
 目前，中国领先的 AI 实验室与全球领导者之间的差距正以前所未有的速度缩小，领先优势已从一年多缩短至不到三个月。中国开放权重（Open Weights）模型在 2024 年末表现优异，DeepSeek R1 等模型的发布进一步巩固了这一地位。
 
-`<img src="../llm-image-1.avif" alt="The Decline of DeepSeek's Dominance">`{=html}
+<img src="../llm-image-1.avif" alt="The Decline of DeepSeek's Dominance">
 
 中国活跃的 AI 参与者大致可分为两类：
 
@@ -62,7 +62,7 @@
 
     - **MiniMax（稀宇科技）**：专注于大模型底座研发，最新的 M2.1 版本在对话连贯性与长程记忆方面提升明显。
 
-`<img src="../llm-image.avif" alt="Token Usage By Source Type">`{=html}
+<img src="../llm-image.avif" alt="Token Usage By Source Type">
 
 2024 年是大型语言模型（LLM）从"预测"向"推理"进化的转折点。随着推理模型（Inference Models）的普及，领域重心正从简单的单次文本生成转向多步深思熟虑的推理过程。这种转变加速了新场景的诞生，也要求我们更深入地理解这些模型在实际部署中的实证表现。
 

@@ -538,7 +538,7 @@ $$
 | 双星系统 | $\omega=\sqrt{\dfrac{GM}{r^3}}$  | $T=2\pi\sqrt{\dfrac{r^3}{GM}}$  |
 | 三星系统 | $\omega=\sqrt{\dfrac{3GM}{r^3}}$ | $T=2\pi\sqrt{\dfrac{r^3}{3GM}}$ |
 
-`<img src="../多星问题.avif" width="90%" alt="多星问题">`{=html}
+<img src="../多星问题.avif" width="90%" alt="多星问题">
 
 此时，存在两个可用的条件，$\omega$ 相同，以及万有引力的合力提供向心力。
 
@@ -561,7 +561,7 @@ $$
 - 逆行轨道：与行星自转方向相反的轨道。
 
 <figure>
-<p><img src="../KSPedia_89.avif" width="100%" alt="空间中的方向"></p>
+
 <figcaption><p>图片来自 <a href="https://ksp.huijiwiki.com/wiki/KSPedia">KSPedia</a></p></figcaption>
 </figure>
 
@@ -673,9 +673,9 @@ $$
 
 如图：
 
-`<img src="../KSPedia_102.avif" width="100%" alt="霍曼转移（提高）">`{=html}
+<img src="../KSPedia_102.avif" width="100%" alt="霍曼转移（提高）">
 
-`<img src="../KSPedia_103.avif" width="100%" alt="霍曼转移（降低）">`{=html}
+<img src="../KSPedia_103.avif" width="100%" alt="霍曼转移（降低）">
 
 - 航天器无需经过多次反复的加减速过程，仅需进行两次相同方向的推进即可升高或降低轨道。
 
@@ -724,7 +724,7 @@ $$
 当两个圆轨道半径之比大于 $12$ 时，消耗燃料比霍曼转移更少，消耗时间更多。
 
 <figure>
-<p><img src="../Bi-elliptic_transfer.svg" width="70%" alt="双椭圆转移"></p>
+
 <figcaption><p>1 加速，2 加速，3 减速</p></figcaption>
 </figure>
 

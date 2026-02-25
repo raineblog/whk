@@ -144,13 +144,13 @@ $$
 
 即把 $\pu{1C}$ 正电荷从负极运回正极所做的功。通常，这能量是分离正负电荷所做的功，由于这正负电荷被分离至元件的两端，会出现对应电场与电势差。
 
-`<img src="../image.avif" alt="alt text">`{=html}
+<img src="../image.avif" alt="alt text">
 
 | 符号 | 符号 |
 |:--:|:--:|
-| 理想电压源 `<img src="../1.avif" alt="image">`{=html} | 理想电流源 `<img src="../2.avif" alt="image">`{=html} |
-| 受控电压源 `<img src="../3.avif" alt="image">`{=html} | 受控电流源 `<img src="../4.avif" alt="image">`{=html} |
-| 单电池 `<img src="../5.avif" alt="image">`{=html} | 电池组 `<img src="../6.avif" alt="image">`{=html} |
+| 理想电压源 <img src="../1.avif" alt="image"> | 理想电流源 <img src="../2.avif" alt="image"> |
+| 受控电压源 <img src="../3.avif" alt="image"> | 受控电流源 <img src="../4.avif" alt="image"> |
+| 单电池 <img src="../5.avif" alt="image"> | 电池组 <img src="../6.avif" alt="image"> |
 
 电池内阻相当于一个电池串联一个电阻，如果没有特殊说明，**电池的内阻不可忽略**。
 
@@ -252,7 +252,7 @@ $$
 
 当 $R=r$ 时电源输出功率为最大：$P_{\max} = \frac{\epsilon^2}{4r}$，此时电源效率：$\eta = 50%$。
 
-`<img src="../image-6.avif" width="60%" alt="alt text">`{=html}
+<img src="../image-6.avif" width="60%" alt="alt text">
 
 ### 闭合电路 {#_13}
 
@@ -383,9 +383,9 @@ $I_S\doteq I$。因此，输出电压会因负载波动而发生较大变化。
 
 戴维南定理和诺尔顿定理：
 
-`<img src="../image-7.avif" alt="alt text">`{=html}
+<img src="../image-7.avif" alt="alt text">
 
-`<img src="../image-8.avif" alt="alt text">`{=html}
+<img src="../image-8.avif" alt="alt text">
 
 ### 基尔霍夫电路定律 {#_16}
 
@@ -425,7 +425,7 @@ $I_S\doteq I$。因此，输出电压会因负载波动而发生较大变化。
 
 **例题一**：
 
-`<img src="../kl1.avif" alt="image">`{=html}
+<img src="../kl1.avif" alt="image">
 
 可以列出三个式子：
 
@@ -437,7 +437,7 @@ $$
 
 **例题二**：
 
-`<img src="../kl2.avif" alt="image">`{=html}
+<img src="../kl2.avif" alt="image">
 
 根据基尔霍夫第一定律：
 
@@ -483,7 +483,7 @@ $$
 
 如图，有 $i_2+i_3=i_1+i_4$，或者可以写成 $i_2+i_3-i_1-i_4=0$ 的形式。
 
-`<img src="../kcl.avif" alt="image">`{=html}
+<img src="../kcl.avif" alt="image">
 
 ### 基尔霍夫电压定律 {#_18}
 
@@ -505,7 +505,7 @@ $$
 
 如图，有 $v_1+v_2+v_3=v_4$，或者可以写成 $v_1+v_2+v_3-v_4=0$ 的形式。
 
-`<img src="../kvl.avif" alt="image">`{=html}
+<img src="../kvl.avif" alt="image">
 
 在具体使用回路电压方程时，应注意：
 
@@ -573,7 +573,7 @@ $$
 
 1.  一类比较简单的无穷电路所含的器件是相同的，如图所示的电路就属于这一类，组成电路的所有电阻的阻值都是 $R$。
 
-    `<img src="../image-1.avif" alt="alt text">`{=html}
+    <img src="../image-1.avif" alt="alt text">
 
     不难看出，这个电路是由很多单元组成的，每一个单元包含三个电阻，既然电路的右端是无穷的，那么左端多一个单元、少一个单元是不影响整个电路的电阻的，也就是说从 $A,B$ 两点向右看和从 $C,D$ 两点向右看的电阻是一样的，设从 $C,D$ 两点向右看的电阻是 $R_x$，那么有：
 
@@ -585,7 +585,7 @@ $$
 
 2.  另一类比较复杂的无穷电路所含的器件是不同的，但有一定的规律，如图所示的电路就属于这一类，电路也同样由九数多个单元组成，相邻的后面一个单元电阻的阻值要比前一个单元的阻值大一倍。
 
-    `<img src="../image-5.avif" alt="alt text">`{=html}
+    <img src="../image-5.avif" alt="alt text">
 
     这一类无穷电路需要寻找规律，把从 $A,B$ 向右看的总电阻和从 $A',B'$ 向右看的总电阻进行比较，后者对应的单元都要比前者大一倍，所以后者的总电阻也要比前者大一倍，设从 $A,B$ 向右看的总电阻为 $R_x$，那么有：
 
@@ -599,7 +599,7 @@ $$
 
 所谓对称性简化，就是利用电路网络中可能存在的各种对称性，作出某种判断或结论，以简化等效电阻计算。
 
-`<img src="../image-14.avif" align="right" width="30%" alt="alt text">`{=html}
+<img src="../image-14.avif" align="right" width="30%" alt="alt text">
 
 平衡对称电路：
 
@@ -607,7 +607,7 @@ $$
 
 - 所用的横切面，即该电路对端口的**平衡对称面**，如右图中的 $OO'$ 平面。一般情况下，平衡对称面只有一个。如在端口处加上电压，则在平衡对称面上的点都是等势点，该平面是一个**等势面**。
 
-`<img src="../image-15.avif" align="right" width="30%" alt="alt text">`{=html}
+<img src="../image-15.avif" align="right" width="30%" alt="alt text">
 
 传递对称电路：
 
@@ -623,7 +623,7 @@ $$
 
 有电路如图乙所示（图中电流表为理想电流表）：
 
-`<img src="../image-16.avif" alt="alt text">`{=html}
+<img src="../image-16.avif" alt="alt text">
 
 电路参数为：$R_1=1\Omega$，$R_2=3\Omega$，$R_3=2\Omega$，$R_4=3\Omega$，$E_1=3V$，$r_1=2\Omega$，$E_2=6V$，$r_2=3\Omega$，$E_3=9V$，$r_3=1\Omega$。
 
@@ -633,7 +633,7 @@ $$
 
 如图，存在两条回路 $s_1$、$s_2$，假设电流流向为从 $E_2$、$E_3$ 正极出发，干路、支路电流分别为 $i_1$，$i_2$、$i_3$：
 
-`<img src="../image-17.avif" alt="alt text">`{=html}
+<img src="../image-17.avif" alt="alt text">
 
 对节点 $K$ 应用基尔霍夫第一定律，得 $i_1-i_2-i_3=0$。
 
@@ -669,7 +669,7 @@ $$
 
 分别考虑 $E_1$，$E_2$，$E_3$ 的影响，设 $I_1$、$I_2$、$I_3$ 其电流表的示数，以电流从上到下为正值，从下到上为负值：
 
-`<img src="../image-18.avif" alt="alt text">`{=html}
+<img src="../image-18.avif" alt="alt text">
 
 极易得：
 
@@ -707,13 +707,13 @@ $$
 
 注意到后面的式子就是并联分流公式，我们转化电路形如图丁。
 
-`<img src="../image-21.avif" alt="alt text">`{=html}
+<img src="../image-21.avif" alt="alt text">
 
 于是，我们就把一个内阻为 $r$ 的电压源 $E$ 串联一个总电阻为 $R$ 的用电器，等效转化为了一个电流源 $E/r$ 并联上原电压源内阻，以及用电器 $R$。
 
 回到问题，（如图）我们可以把原电压源 $E_2$、$E_3$ 及其内阻、支路电阻等效转化为一个电压源：
 
-`<img src="../image-19.avif" alt="alt text">`{=html}
+<img src="../image-19.avif" alt="alt text">
 
 - 把电压源 $E_2$ 同其内阻 $r_2$ 及并联的电阻 $R_2$ 抽象为一个电压源 $E'_2$，内阻为 $(r_2+R_2)$，也就等效为一个电流源 $E_2/(r_2+R_2)$，并联电阻 $(r_2+R_2)$；具体的，电阻 $r_2'=r_2+R_2=6\Omega$，电流 $I_2'=E_2/r_2'=6V/6\Omega=1A$。
 - 把电压源 $E_3$ 同其内阻 $r_3$ 及并联的电阻 $R_3$ 抽象为一个电压源 $E'_3$，内阻为 $(r_3+R_3)$，也就等效为一个电流源 $E_3/(r_3+R_3)$，并联电阻 $(r_3+R_3)$；具体的，电阻 $r_3'=r_3+R_3=3\Omega$，电流 $I_3'=E_3/r_3'=9V/3\Omega=3A$。
@@ -734,7 +734,7 @@ $$
 
 我们把原图抽象为三个支路，其电流分别记为 $i_1$、$i_2$、$i_3$，如图：
 
-`<img src="../image-20.avif" alt="alt text">`{=html}
+<img src="../image-20.avif" alt="alt text">
 
 我们假设有一个奇妙的总电源，给红色的和蓝色的部分，提供了大小为 $V$ 的电势差。
 

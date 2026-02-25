@@ -10,7 +10,7 @@
 
 随机函数是一个特殊的实函数，对于任意 $e\in S$，都有唯一一个对应 $X(e)$，如图。
 
-`<img src="../Zufall.avif">`{=html}
+<img src="../Zufall.avif">
 
 随机变量实质上是样本空间上的函数，可作为因变量，满足其值不大于某数的状况都是事件。我们称随机变量这个函数的值域为随机变量的取值范围，或值域。
 
@@ -431,7 +431,7 @@ $$
 
 正态分布的概率密度函数中以平均值 $\mu$、标准差 $\sigma$ 为参数，正态分布的数学期望值或期望 $\mu$ ,可解释为位置参数，决定了分布的位置；其方差 $\sigma ^{2}$ 的平方根或标准差 $\sigma$ 可解释尺度参数，决定了分布的幅度。
 
-`<img src="../image-07dd56b.avif" width="60%" alt="alt text">`{=html}
+<img src="../image-07dd56b.avif" width="60%" alt="alt text">
 
 中心极限定理指出，在特定条件下，一个具有有限均值和方差的随机变量的多个样本（观察值）的平均值本身就是一个随机变量，其分布随着样本数量的增加而收敛于正态分布。
 
@@ -443,7 +443,7 @@ $$
 
 正态分布出现在许多区域统计：例如，采样分布均值是近似正态分布的，即使被采样的样本的原始群体分布并不服从正态分布。另外，正态分布信息熵在所有的已知均值及方差的分布中最大，这使得它作为一种均值以及方差已知的分布的自然选择。正态分布是在统计以及许多统计测试中最广泛应用的一类分布。在概率论，正态分布是几种连续以及离散分布的极限分布。
 
-`<img src="../Standard_deviation_diagram.svg" alt="Normal distribution curve that illustrates standard deviations. Each band has 1 standard deviation, and the labels indicate the approximate proportion of area (note: these add up to 99.8%, and not 100% because of rounding for presentation.)">`{=html}
+<img src="../Standard_deviation_diagram.svg" alt="Normal distribution curve that illustrates standard deviations. Each band has 1 standard deviation, and the labels indicate the approximate proportion of area (note: these add up to 99.8%, and not 100% because of rounding for presentation.)">
 
 正态分布中一些值得注意的量：
 

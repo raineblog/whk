@@ -287,7 +287,7 @@ $$
 \vecc{AD}=\dfrac12\vecc{AB}+\dfrac12\vecc{AC}
 $$
 
-`<img src="../image.avif" width="100%" alt="交叉定理">`{=html}
+<img src="../image.avif" width="100%" alt="交叉定理">
 
 即对边比例相乘向量相加。
 
@@ -537,7 +537,7 @@ $$
 
 ### 边元塞瓦定理 {#_31}
 
-`<img src="../边元塞瓦定理.avif" width="100%" alt="赛瓦定理">`{=html}
+<img src="../边元塞瓦定理.avif" width="100%" alt="赛瓦定理">
 
 其逆定理用于表示三角形内三点共线，角元塞瓦定理较为复杂。
 
@@ -549,7 +549,7 @@ $$
 \dfrac{AX}{XB}\cdot\dfrac{BY}{YC}\cdot\dfrac{CZ}{ZA}=0
 $$
 
-`<img src="../梅涅劳斯定理.avif" width="70%" alt="梅涅劳斯定理">`{=html}
+<img src="../梅涅劳斯定理.avif" width="70%" alt="梅涅劳斯定理">
 
 梅涅劳斯定理的逆定理表示为，满足上述式子，则 $X,Y,Z$ 三点共线。
 

@@ -59,6 +59,6 @@ $$
 
 ### \[TODO\]
 
-`<img src="../image.avif" alt="alt text">`{=html}
+<img src="../image.avif" alt="alt text">
 
-`<img src="../image-1.avif" alt="alt text">`{=html}
+<img src="../image-1.avif" alt="alt text">

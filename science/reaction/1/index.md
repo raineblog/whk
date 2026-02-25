@@ -239,7 +239,7 @@ $$
 
 每一步反应都成为**基元反应**。这里的 $\ce{I.}$ 是带有单电子的原子，这种带有单电子的原子或原子团称作**自由基**。自由基的反应活性极强，稳定性极差，寿命极短。
 
-`<img src="../image.avif" width="80%" alt="alt text">`{=html}
+<img src="../image.avif" width="80%" alt="alt text">
 
 基元反应发生的条件：
 
