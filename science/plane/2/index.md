@@ -536,9 +536,11 @@ $$
 
 注意正负号的对应。
 
+::: {.grid markdown=""}
 ![alt text|w80%](../sin_cos.svg)
 
 ![alt text|w80%](../tan.svg)
+:::
 
 ### 二倍角公式
 

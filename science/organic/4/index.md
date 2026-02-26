@@ -153,6 +153,7 @@
 
 1.  加聚产物单体判断：要先判断高分子化合物是加聚产物还是缩聚产物。
 
+    ::: {.grid markdown=""}
     ![alt text](../image-19.avif)
 
     ![alt text](../image-20.avif)
@@ -160,9 +161,11 @@
     ![alt text](../image-21.avif)
 
     ![alt text](../image-22.avif)
+    :::
 
 2.  缩聚产物单体判断：中学里缩聚产物形成的方式有三种：聚酯式、聚酰胺式、酚醛树脂式，从形式上看都是脱水缩合。
 
+    ::: {.grid markdown=""}
     ![alt text](../image-23.avif)
 
     ![alt text](../image-24.avif)
@@ -170,6 +173,7 @@
     ![alt text](../image-25.avif)
 
     ![alt text](../image-26.avif)
+    :::
 
 ::: {}
 - 正合成分析法：采用正向思维方法，从已知原料入手，找出合成所需要的直接或间接的中间体，逐步推向待合成的有机物。其思维程序是：原料→中间体→产品。
