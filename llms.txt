@@ -10,7 +10,7 @@
 
 - [数系与复数](/science/mathematics/1/index.md)
 
-## Blog
+## Others
 
 - [2026](/blog/archive/2026/index.md): 2026 年，我们创建了这个站点的 Blog 功能。
 - [Bot](/blog/author/Bot/index.md): 是机器人。
@@ -39,9 +39,6 @@
 2026 年 02 月 04 日
 :::
 ::::::::
-
-## Others
-
 - [英语语法](/cultural/grammar/2/index.md)
 - [中国历史](/cultural/grammar/3/index.md)
 - [世界历史](/cultural/grammar/4/index.md)
