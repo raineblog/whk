@@ -1,8 +1,8 @@
-# 解三角形 \{#\_1}
+# 解三角形
 
-## 基本方法 \{#\_2}
+## 基本方法
 
-### 基本原理 \{#\_3}
+### 基本原理
 
 回忆初中平几，根据全等三角形的判断：
 
@@ -28,7 +28,7 @@
 
 原则：边角统一。
 
-### 三角函数 \{#\_4}
+### 三角函数
 
 在三角形中，
 
@@ -66,7 +66,7 @@ $$
 
 特殊的，如果 $\sin 2A=\sin 2B$，则有 $2A=2B$ 或 $2A+2B=\pi$，即 $A=B$ 或 $A+B=90^\circ$，即等腰或直角三角形。
 
-### 平面几何法 \{#\_5}
+### 平面几何法
 
 利用平面几何定理，直接解决。
 
@@ -80,7 +80,7 @@ $$
 
 如果直角三角形三边成等差数列，则变长一定为 $3,4,5$。
 
-### 向量基底法 \{#\_6}
+### 向量基底法
 
 用向量基底分解，利用点乘的性质解决。
 
@@ -88,7 +88,7 @@ $$
 
 算两次原理：用同一组基底，用不同方式表示一个向量，则系数一定相等。
 
-### 三角形应用 \{#\_7}
+### 三角形应用
 
 基线：在测量过程中，根据测量的需要而确定的线段叫做基线。
 
@@ -100,9 +100,9 @@ $$
 
 方位角：从某点的指北方向线起依顺时针方向到目标方向线之间的水平夹角。
 
-## 三角法定理 \{#\_8}
+## 三角法定理
 
-### 正弦定理 \{#\_9}
+### 正弦定理
 
 回顾初中几何，三角形面积，
 
@@ -140,7 +140,7 @@ $$
 
 正弦定理推论：大边对大角，小边对小角。
 
-### 余弦定理 \{#\_10}
+### 余弦定理
 
 在 $\triangle ABC$ 中，
 
@@ -162,7 +162,7 @@ $$
 \begin\{aligned} a^2+b^2-c^2>0 &\Longrightarrow \cos C>0 \Longrightarrow C\in(0,\pi/2)\ a^2+b^2-c^2=0 &\Longrightarrow \cos C=0 \Longrightarrow C=\pi/2\ a^2+b^2-c^2\<0 &\Longrightarrow \cos C\<0 \Longrightarrow C\in(\pi/2,\pi) \end\{aligned}
 $$
 
-### 余切定理 \{#\_11}
+### 余切定理
 
 $$
 \begin\{aligned} \zeta&=\sqrt\{\{1\over p}(p-a)(p-b)(p-c)}\ p&=\{a+b+c\over2} \end\{aligned}
@@ -178,7 +178,7 @@ $$
 
 其中 $S$ 表示三角形面积，$a,b,c$ 分别表示三边长。
 
-### 正切定理 \{#\_12}
+### 正切定理
 
 正切定理指出，三角形中，两条边的和与差的比值，等于这两条边的对角的和与差的一半的正切的比值：
 
@@ -186,7 +186,7 @@ $$
 \{a-b\over a+b}=\{\tan\{\angle A-\angle B\over2}\over\tan\{\angle A+\angle B\over2}}
 $$
 
-## 三角形四心 \{#\_13}
+## 三角形四心
 
 |     编号    | 心的名称 |       定义      |
 | :-------: | :--: | :-----------: |
@@ -195,7 +195,7 @@ $$
 | $X\_3(O)$ |  外心  |  三条**中垂线**的交点 |
 | $X\_4(H)$ |  垂心  |  三条**高线**的交点  |
 
-### 奔驰定理 \{#\_14}
+### 奔驰定理
 
 在锐角 $\triangle ABC$ 中，
 
@@ -211,7 +211,7 @@ $$
 
 - 设 $O$ 为外心，则 $\sin2A\cdot\overrightarrow\{OA}+\sin2B\cdot\overrightarrow\{OB}+\sin2C\cdot\overrightarrow\{OC}=\vec0$.
 
-### 欧拉线定理 \{#\_15}
+### 欧拉线定理
 
 - 欧拉定理：$O,I$ 分别为外接圆、内切圆圆心，则有 $OI^2=R^2-2Rr$.
 
@@ -219,7 +219,7 @@ $$
 
 $$ \overrightarrow\{OG}=\frac\{1}\{3}\overrightarrow\{OH}=\frac\{1}\{3}(\overrightarrow\{OA}+\overrightarrow\{OB}+\overrightarrow\{OC}) $$
 
-### 极化恒等式 \{#\_16}
+### 极化恒等式
 
 一般形式：
 
@@ -279,7 +279,7 @@ $$
 
 这个结论也称之为对角线定理，它不仅仅可以在平面四边形中得到应用，还可以推广到空间四边形的情形。
 
-### 分点的向量方程 \{#\_17}
+### 分点的向量方程
 
 特殊的，中点的向量方程：
 
@@ -290,7 +290,7 @@ $$
 ![交叉定理|w100%](/static/image/image.12aaea5c6a.avif)
 即对边比例相乘向量相加。
 
-### 重心及其性质 \{#\_18}
+### 重心及其性质
 
 重心：三角形三边中线交点，在平面直角坐标系中，重心的坐标是顶点坐标的算术平均，也就是说对于平面内任意一点 $P$：
 
@@ -316,7 +316,7 @@ $$
 
 特殊的，重心到三边距离之积最大、到三角形三个顶点距离的平方和最小。
 
-### 内心及其性质 \{#\_19}
+### 内心及其性质
 
 内心为三角形内切圆圆心，因此为三个角的角平分线交点：
 
@@ -338,7 +338,7 @@ $$
 
 可以连接内心与三顶点，等面积法求解。
 
-### 外心及其性质 \{#\_20}
+### 外心及其性质
 
 外心为三角形外接圆圆心，因此为三边中垂线交点，不一定在三角形内部，到三角形三点距离相等。
 
@@ -380,7 +380,7 @@ $$
 
 联立上两式（相乘），直接展开易知等式成立。
 
-### 垂心及其性质 \{#\_21}
+### 垂心及其性质
 
 垂心是三角形三边垂线的交点，因此有点积为零。
 
@@ -404,9 +404,9 @@ $$
 
 三角形外心 $O$、重心 $G$、垂心 $H$ 三点共线且 $OG:GH=1:2$ 此直线称为三角形的欧拉线。
 
-## 三角形三线 \{#\_22}
+## 三角形三线
 
-### 中线长定理 \{#\_23}
+### 中线长定理
 
 在 $\triangle ABC$ 中，$BC$ 的中点为 $M$，对于中线 $AM$，有：
 
@@ -440,7 +440,7 @@ $$
 
 或者中点两个底角分别列余弦定理，相加化简。
 
-### 分角定理 \{#\_24}
+### 分角定理
 
 在 $\triangle ABC$ 中，$BC$ 上有一点 $M$，则：
 
@@ -462,7 +462,7 @@ $$
 
 上下做比。
 
-### 角平分线定理 \{#\_25}
+### 角平分线定理
 
 在 $\triangle ABC$ 中，$\angle A$ 的平分线 $AM$，有：
 
@@ -472,15 +472,15 @@ $$
 
 是分角定理的直接推论。
 
-### 角平分线长定理 \{#\_26}
+### 角平分线长定理
 
 $$
 \begin\{aligned} AD&=\sqrt\{AB\cdot AC-BD\cdot CD}\ &=\sqrt\{bc\left(1-\{a^2\over(b+c)^2}\right)}\ &=\{2bc\over b+c}\cos\{A\over2} \end\{aligned}
 $$
 
-## 边长公式 \{#\_27}
+## 边长公式
 
-### 射影定理 \{#\_28}
+### 射影定理
 
 射影定理表示为：
 
@@ -504,7 +504,7 @@ $$
 AC^2=BC\cdot CD
 $$
 
-### 斯图尔特定理 \{#\_29}
+### 斯图尔特定理
 
 又译斯台沃特定理，在 $\triangle ABC$ 边 $BC$ 上任意一点 $D$，
 
@@ -514,7 +514,7 @@ $$
 
 可以由两次余弦定理推导得出。
 
-### 平行四边形恒等式 \{#\_30}
+### 平行四边形恒等式
 
 $$
 AB^2+BC^2+CD^2+AD^2=AC^2+BD^2
@@ -534,12 +534,12 @@ $$
 
 注意到平行四边形对角线互相平分，即 $x=0$，可得上面的第一个恒等式。
 
-### 边元塞瓦定理 \{#\_31}
+### 边元塞瓦定理
 
 ![赛瓦定理|w100%](/static/image/边元塞瓦定理.0c77706733.avif)
 其逆定理用于表示三角形内三点共线，角元塞瓦定理较为复杂。
 
-### 梅涅劳斯定理 \{#\_32}
+### 梅涅劳斯定理
 
 一直线与 $\triangle ABC$ 的三边 $AB,BC,AC$ 或他们的延长线分别交于 $X,Y,Z$ 三点，则：
 
@@ -550,9 +550,9 @@ $$
 ![梅涅劳斯定理|w70%](data:image/avif;base64,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)
 梅涅劳斯定理的逆定理表示为，满足上述式子，则 $X,Y,Z$ 三点共线。
 
-## 面积公式 \{#\_33}
+## 面积公式
 
-### 海伦公式 \{#\_34}
+### 海伦公式
 
 任意三角形面积可以表示为：
 
@@ -568,7 +568,7 @@ $$
 
 其中 $p$ 为三角形的半周长。
 
-### 布雷特施奈德公式 \{#\_35}
+### 布雷特施奈德公式
 
 任意四边形面积可以表示为：
 
@@ -580,7 +580,7 @@ $$
 
 布雷特施奈德公式可视为婆罗摩笈多公式之推广。
 
-### 婆罗摩笈多公式 \{#\_36}
+### 婆罗摩笈多公式
 
 注意到圆内接四边形对角互补，其半角余弦值为零，$\cos90^\circ=0$ 则圆内接四边形面积可以简化为：
 

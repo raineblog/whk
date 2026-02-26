@@ -1,28 +1,28 @@
-# 应用文写作 \{#\_1}
+# 应用文写作
 
-## 模式 \{#\_2}
+## 模式
 
-### 努力 \{#\_3}
+### 努力
 
 I spared no effort in preparing for this competition. Not only did I consult various reference materials, but I also polished my article repeatedly to ensure its quality.
 
 During my preparation, I spent several weeks researching the topic, drafting multiple versions, and carefully polishing the final essay. Given my diligent preparations, I sincerely hope to understand the reasons behind the outcome.
 
-### 成长 \{#\_4}
+### 成长
 
 Growth, like a flower, takes time. As vividly illustrated in the comic, a boy is initially discouraged by his plant's slow progress. Yet, with time and sunshine, he is eventually overjoyed to see it in full blossom.
 
 The contrast reveals a profound truth: true growth requires patience and trust in the process. Just as flowers cannot be forced to blossom overnight, our personal development needs time, consistent effort, and the right conditions. We should nurture ourselves steadily rather than rushing for immediate results, believing that with dedication, our moment to shine will surely come.
 
-### 运动 \{#\_5}
+### 运动
 
 滑冰：Feeling relaxed, Laurie skated quickly to the center of the rink after the announcer finally called her name. The crushing weight of expectation, the desperate need to prove herself after the injury---it had all vanished the moment she chose integrity over victory. Her earlier nervousness had melted away, replaced by a pure, uncomplicated love for the ice. As the music began, she didn't just skate; she soared, her blades carving flawless arcs into the ice. The only sound she could hear was the crisp hiss of her blades and the soaring melody that now felt like a part of her soul. Every jump felt effortless, every spin a perfect expression of the music now playing in her heart. In her final pose, chest heaving and muscles aching with satisfying exhaustion, the arena erupted in thunderous applause. A genuine, bright smile beamed across her face.
 
-### 文化自信 \{#\_6}
+### 文化自信
 
 Chinese Culture Week: This event, scheduled from March 15^th^ to 19^th^, aims to promote traditional Chinese culture among students and enhance cross-cultural understanding. Specifically, we will have a series of activities including Chinese calligraphy workshops on Monday afternoon in the Art Room, where you can learn to write with a brush pen under professional guidance. Besides, there will be a tea ceremony demonstration on Wednesday, followed by a Peking Opera costume exhibition on Friday in the school hall. I believe this is a perfect opportunity for you to immerse yourself in Chinese traditions and make new friends. I sincerely invite you to join us. Please let me know if you're available.
 
-### 打破隔阂 \{#\_7}
+### 打破隔阂
 
 What I learned from this is that bridges are not built with bricks, but with compassion and action. As young people, we can all take small steps to break boundaries around us---by reaching out, listening, and acting with kindness. Let us be the builders of a more connected world.
 
@@ -34,7 +34,7 @@ I feel a bit confused and wonder if there might be any misunderstanding, or if y
 
 Could you please point out the weaknesses in my essay so that I can make improvements in the future?
 
-### 书信 \{#\_8}
+### 书信
 
 Thank you for your time and consideration.
 
@@ -48,7 +48,7 @@ I would appreciate the opportunity to contribute to this meaningful event and pr
 
 Yours sincerely, Li Hua
 
-### 演讲稿 \{#\_9}
+### 演讲稿
 
 Distinguished guests, dear teachers and friends,
 
@@ -62,7 +62,7 @@ We sincerely wish our school a brighter future.
 
 Wish the celebration a complete success!
 
-### 学校发展 \{#\_10}
+### 学校发展
 
 Our school has witnessed tremendous changes.
 

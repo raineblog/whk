@@ -1,8 +1,8 @@
-# 解析几何 \{#\_1}
+# 解析几何
 
-## 二次曲线 \{#\_2}
+## 二次曲线
 
-### 圆锥截线 \{#\_3}
+### 圆锥截线
 
 用一平面去截双顶圆锥，得到的截线就是圆锥曲线。圆锥曲线是平面上满足距某定点（焦点）的距离与距某定直线（准线）的距离之比为常数 $e$ 的点的轨迹。
 
@@ -35,7 +35,7 @@ $$
 
 用一个平面截一个无限高的圆柱，设平面与圆柱底面的夹角为 $\theta(0\<\theta\<90^\circ)$，则截面是一个椭圆，离心率为 $\sin^2\theta$。
 
-### 一般方程 \{#\_4}
+### 一般方程
 
 二次曲线（二次平面曲线）是圆锥曲线的别称，本身圆锥曲线就包括我们熟知的椭圆、双曲线、抛物线之外的一些"退化"的图像，但是我们在高中课本中最常讨论的是他们的标准形式，也就是说我们已经将这些退化的图形踢出了，我们为了保持与课本的一定对应关系，我们此处讨论这些退化的，或者更一般的圆锥曲线，统一按照"二次曲线"来称呼。
 
@@ -131,7 +131,7 @@ $$
 
 有一些分类可以用矩阵的秩（$\rank M$）快速解决，但是这过于超纲且难以理解，请自行查阅。
 
-### 对角化 \{#\_5}
+### 对角化
 
 我们知道 $xy$ 项代表坐标轴相对曲线主轴的旋转，旋转角 $\theta$ 记为使新坐标系 $(x',y')$ 下的 $x'y'$ 项系数为零的角度，满足双角公式 $\cot\theta=\dfrac\{A-C}\{B}$ $\tan 2\theta=\dfrac\{B}\{A-C}$。我们需要求出新坐标系下的二项次系数，不妨记 $\lambda\_1,\lambda\_2$ 是矩阵 $Q$ 的特征值，即
 
@@ -153,7 +153,7 @@ $$
 
 其中 $D',E'$ 是原 $D,E$ 在新坐标系下的分量。
 
-### 消除平移 \{#\_6}
+### 消除平移
 
 对于有中心对称的曲线（椭圆、双曲线），其中心 $(x\_0,y\_0)$ 是函数 $f(x,y)$ 的梯度为零的点，我们列出：
 
@@ -173,7 +173,7 @@ $$
 
 注意到 $\delta=0$ 是显然无解的，这再次说明抛物线没有中心。
 
-### 标准方程 \{#\_7}
+### 标准方程
 
 我们先将任一坐标 $(x,y)$ 旋转 $\theta$，然后将坐标原点平移到 $(x\_0,y\_0)$，即可得到二次曲线的标准方程：
 
@@ -223,7 +223,7 @@ $$
 
 这个形式极为简洁，其中 $L$ 为半通径，在椭圆中有 $L=a(1-e^2)$，常在焦点三角形中用到，我们会在那里详细解释。
 
-### 模糊设法 \{#\_8}
+### 模糊设法
 
 我们知道一个方程（对于非退化的椭圆和双曲线来说）：
 
@@ -261,9 +261,9 @@ $$
 
 根据这些要求可以求出参数满足的条件，进而下一步解题即可。
 
-## 其他曲线 \{#\_9}
+## 其他曲线
 
-### 卡西尼卵形线 \{#\_10}
+### 卡西尼卵形线
 
 卡西尼卵形线，是平面内到两个定点的距离之积为常数的点的轨迹，我们不妨设两顶点 $F\_1=(-c,0),F\_2=(c,0)$，曲线上的点 $P(x,y)$ 满足
 
@@ -336,7 +336,7 @@ $$
 
 然后就是简单的二次函数问题了。
 
-### 拉梅曲线 \{#\_11}
+### 拉梅曲线
 
 超椭圆也称为拉梅曲线，是在笛卡儿坐标系下满足以下方程式的点的集合：
 
@@ -363,7 +363,7 @@ $$
 的曲线，其中 $n$ 为正实数。
 
 ![alt text|w80%](/static/image/image-1.abfb861a87.avif)
-### 勒洛多边形 \{#\_12}
+### 勒洛多边形
 
 勒洛三角形，又被称为弧三角形或曲边三角形，是除了圆形以外，最简单易懂的勒洛多边形，一个定宽曲线。
 
@@ -374,7 +374,7 @@ $$
 ![alt text|w80%](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNDIgMzQyIj48cGF0aCBmaWxsPSIjMjMxZjIwIiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iMS41IiBkPSJNMzIzLjc3NSAyOTguMjc3YTE0MyAxNDMgMCAwIDAgOS4yMjQtMjguNDIybC4wMDEtLjEwM2MwLTEwLjIyNS0xLjA3My0yMC4xOTYtMy4wOTktMjkuODE4YTE0NCAxNDQgMCAwIDAtMTUuMjU2LTI2LjMyMSAxNDQuNCAxNDQuNCAwIDAgMC0yNC4xNzEtMTcuNTQ3IDE0My4zIDE0My4zIDAgMCAwLTI5LjM2My02LjI1OSAxNDMuMyAxNDMuMyAwIDAgMC0zMC4xMzcgNi40MzggMTQ0LjQgMTQ0LjQgMCAwIDAtMjMuMzMxIDE2Ljk3MiAxNDMuOCAxNDMuOCAwIDAgMC0xNS41NDUgMjYuNzE4IDE0NC43IDE0NC43IDAgMCAwLTMuMDk5IDI5Ljc4NiAxNDMgMTQzIDAgMCAwIDkuMjk3IDI4LjY1NSAxNDUgMTQ1IDAgMCAwIDIwLjI0NiAyMi40NTkgMTQzLjIgMTQzLjIgMCAwIDAgMjcuMjk5IDEyLjE1OWM0Ljk4MS41MjEgMTAuMDM4Ljc5MyAxNS4xNTguNzkzczEwLjE3Ny0uMjcyIDE1LjE1OC0uNzkzYTE0My4yIDE0My4yIDAgMCAwIDI3LjI5NS0xMi4xNTcgMTQ0LjcgMTQ0LjcgMCAwIDAgMjAuMzIzLTIyLjU2ek04MC45OTkgMTg5Ljc5OGMtMjkuMjE2IDkuNTEzLTU0LjMyNiAyOC4xMDktNzEuOTk4IDUyLjQ2Mi4wMzUgMzEuNTkgMTAuMjQ4IDYwLjc5MiAyNy41MjcgODQuNTE5IDE0LjAwNyA0LjU0NCAyOC45NTEgNy4wMSA0NC40NzIgNy4wMXMzMC40NjMtMi40NjYgNDQuNDY5LTcuMDA5YzE3LjI4LTIzLjcyNyAyNy40OTQtNTIuOTMgMjcuNTI4LTg0LjUyMS0xNy42NzItMjQuMzUyLTQyLjc4Mi00Mi45NDgtNzEuOTk4LTUyLjQ2MXpNMjYxIDguOTc3Yy00My4wNCAyNC44OTgtNzEuOTk5IDcxLjQyOS03MiAxMjQuNzI4IDIxLjE5MSAxMi4yNyA0NS43OTcgMTkuMjk2IDcyLjA0NiAxOS4yOTYgMjYuMjEgMCA1MC43ODMtNy4wMDYgNzEuOTUzLTE5LjI0MWwuMDAxLS4wNTJjMC01My4zLTI4Ljk1OS05OS44MzItNzItMTI0LjczMXpNMTQ5Ljg0MSAxMjkuMDQ5YTE0NC41IDE0NC41IDAgMCAwIDMuMTU3LTMwLjA1M2MtNi40MzMtMzAuMzAxLTIyLjM5Mi01Ny4wNzctNDQuNi03Ny4wNDhBMTQzLjIgMTQzLjIgMCAwIDAgODEuMTA2IDkuNzkzTDgxIDkuNzgxbC0uMTAyLjAxMWExNDMuMiAxNDMuMiAwIDAgMC0yNy4zMDYgMTIuMTYzQzMxLjM4NyA0MS45MyAxNS40MjkgNjguNzEgOSA5OS4wMTVhMTQ0LjYgMTQ0LjYgMCAwIDAgMy4xNSAzMCAxNDQuNCAxNDQuNCAwIDAgMCAyNC4zMjggMTcuNzA3YzE0LjA1OCA0LjU4MSAyOS4wNjEgNy4wNjcgNDQuNjQ3IDcuMDY3IDE1LjQzMiAwIDMwLjI5My0yLjQzOCA0NC4yMy02LjkzMmExNDQuNCAxNDQuNCAwIDAgMCAyNC40MjktMTcuNzN6Ii8+PHBhdGggZmlsbD0iI2ZmZWJhYSIgZD0ibTE4OSAxMzMuNzA4IDMuMTQ2LTI5LjkzOSA5LjMwMy0yOC42MyAxNS4wNTItMjYuMDczIDIwLjE0NS0yMi4zNzFMMjYxIDlsMjQuMzU1IDE3LjY5NCAyMC4xNDMgMjIuMzcyIDE1LjA1MyAyNi4wNzIgOS4zMDIgMjguNjMxTDMzMyAxMzMuNzA4bC0yNy41MDIgMTIuMjQ1LTI5LjQ0NiA2LjI1OWgtMzAuMTA1bC0yOS40NDYtNi4yNnpNNjUuOTQ5IDE1M2gzMC4xMDVsMjkuNDQ2LTYuMjU5IDI0LjM1NC0xNy42OTYgMy4xNDctMjkuOTM4LTkuMzAyLTI4LjYzLTE1LjA1My0yNi4wNzMtMjAuMTQzLTIyLjM3MUw4MS4wMDIgOS43ODkgNTMuNDk5IDIyLjAzMyAzMy4zNTUgNDQuNDA2bC0xNS4wNTIgMjYuMDdMOSA5OS4xMDdsMy4xNDggMjkuOTQgMjQuMzU1IDE3LjY5M3ptMTI2LjE5NyA4Ni44MTMgMTUuMDUzLTI2LjA3MSAyNC4zNTUtMTcuNjk0IDI5LjQ0Ni02LjI2IDI5LjQ0NiA2LjI2IDI0LjM1NSAxNy42OTUgMTUuMDUzIDI2LjA3IDMuMTQ2IDI5Ljk0LTkuMzAzIDI4LjYzMS0yMC4xNDIgMjIuMzcxLTI3LjUwMiAxMi4yNDQtMzAuMTA1LjAwMS0yNy41MDItMTIuMjQ0LTIwLjE0My0yMi4zNzJMMTg5IDI2OS43NTN6TTguOTk5IDI0Mi4xbDIwLjE0NS0yMi4zNzIgMjQuMzU0LTE3LjY5NEw4MSAxODkuNzg4bDI3LjUwMyAxMi4yNDUgMjQuMzUzIDE3LjY5NiAyMC4xNDMgMjIuMzctMy4xNDcgMjkuOTQxLTkuMzAzIDI4LjYyOS0xNS4wNSAyNi4wNzItMjkuNDQ2IDYuMjU4LTMwLjEwNS4wMDEtMjkuNDQ1LTYuMjU5LTE1LjA1Ni0yNi4wNzItOS4zMDEtMjguNjMxeiIvPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwODFjZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTgxLjAwMiA5Ljc4OSA2NS45NDkgMTUzTTgxLjAwMiA5Ljc4OSAzNi41MDMgMTQ2Ljc0bTcyLTEyNC43MDctNzIgMTI0LjcwN004MS4wMDIgOS43ODkgOTYuMDU0IDE1M004MS4wMDIgOS43ODkgMTI1LjUgMTQ2Ljc0MU0yNjEgOS4wMDFsLTE1LjA1MyAxNDMuMjExTTI2MSA5LjAwMWwtNDQuNDk5IDEzNi45NTFNMjYxIDkuMDAxbC03MiAxMjQuNzA3TTI2MSA5LjAwMWwxNS4wNTIgMTQzLjIxMU0yNjEgOS4wMDFsNDQuNDk4IDEzNi45NTJNMTg5IDEzMy43MDhsMTMxLjU1MS01OC41N00xODkgMTMzLjcwOGwxNDAuODUzLTI5LjkzOU0xODkgMTMzLjcwOGgxNDRtLTE0NCAwIDExNi40OTgtODQuNjQyTTE4OSAxMzMuNzA4bDk2LjM1NS0xMDcuMDE0TTMzMyAxMzMuNzA4IDIxNi41MDEgNDkuMDY2TTMzMyAxMzMuNzA4IDIzNi42NDYgMjYuNjk1TTMzMyAxMzMuNzA4IDI2MSA5bTcyIDEyNC43MDhMMjAxLjQ0OSA3NS4xMzlNMzMzIDEzMy43MDhsLTE0MC44NTQtMjkuOTM5TTUzLjUgMjIuMDMzbDcyIDEyNC43MDhNMTIuMTQ4IDEyOS4wNDdsMTMxLjU1MS01OC41N20tMTMxLjU1MSA1OC41NyAxNDAuODUzLTI5Ljk0bS0xNDQgMGgxNDRtLTE0MC44NTMgMjkuOTQgMTE2LjQ5OC04NC42NDNNMTIuMTQ4IDEyOS4wNDdsOTYuMzU1LTEwNy4wMTRtNDEuMzUxIDEwNy4wMTJMMzMuMzU1IDQ0LjQwNm0xMTYuNDk5IDg0LjYzOUw1My40OTkgMjIuMDMzbTk2LjM1NSAxMDcuMDEyTDE4LjMwMyA3MC40NzZtMTMxLjU1MSA1OC41NjlMOSA5OS4xMDdtMTQ0LjAwMSAwSDltNzIgOTAuNjgxIDQ0LjQ5OSAxMzYuOTUzTTgxIDE4OS43ODhsMTUuMDUzIDE0My4yMTFNODEgMTg5Ljc4OCA2NS45NDggMzMzTTguOTk5IDI0Mi4xbDE0NC0uMDAxbS0xNDQgLjAwMSAxNDAuODUzIDI5Ljk0TTguOTk5IDI0Mi4xbDEzMS41NSA1OC41NjlNMzYuNTAzIDMyNi43NDEgODEgMTg5Ljc4OE0zNi41MDMgMzI2Ljc0MWw3Mi0xMjQuNzA4bS03MiAxMjQuNzA4IDk2LjM1My0xMDcuMDEybS03LjM1NyAxMDcuMDEyTDguOTk5IDI0Mi4xbTExNi41IDg0LjY0MUwyOS4xNDQgMjE5LjcyOG05Ni4zNTUgMTA3LjAxM0w1My40OTggMjAyLjAzNG05OS41MDEgNDAuMDY1TDM2LjUgMzI2Ljc0MW0xMTYuNDk5LTg0LjY0Mi0xMzEuNTUyIDU4LjU3bTEzMS41NTItNTguNTdMMTIuMTQ2IDI3Mi4wMzhNMTg5IDI2OS43NTNoMTQ0bS0xNDQgMCAxNDAuODU0LTI5Ljk0bS0xMzcuNzA4IDAgMTMxLjU1MSA1OC41NzFtLTEzMS41NTEtNTguNTcxTDMzMyAyNjkuNzUzbS0xMTQuNTU0IDUxLjAwMyA5Ni4zNTUtMTA3LjAxM20tOTYuMzU1IDEwNy4wMTMgNzItMTI0LjcwOG0tOTIuMTQzIDEwMi4zMzYgMTMxLjU1MS01OC41NzFtLTEzMS41NTEgNTguNTcxIDExNi40OTgtODQuNjQxTTI0NS45NDggMzMzbDQ0LjQ5OC0xMzYuOTUyTTI0NS45NDggMzMzIDI2MSAxODkuNzg4bTQyLjU1NSAxMzAuOTY3LTcyLjAwMS0xMjQuNzA3bTcyLjAwMSAxMjQuNzA3LTk2LjM1Ni0xMDcuMDEzbTExNi40OTggODQuNjQyLTExNi40OTgtODQuNjQybTY4Ljg1NCAxMTkuMjU3TDI2MSAxODkuNzg4bTE1LjA1MyAxNDMuMjExLTQ0LjQ5OS0xMzYuOTUxIi8+PC9zdmc+)
 将一个曲线图放在两条平行线中间，使之与这两平行线相切，则可以做到：无论这个曲线图如何运动，只要它还是在这两条平行线内，就始终与这两条平行线相切。
 
-## 方程联立 \{#\_13}
+## 方程联立
 
 双曲线联立直线，一定要先把一般方程化为整式。
 
@@ -384,7 +384,7 @@ $$
 
 若直线过曲线的顶点，一般来说我们都将另---个交点的坐标求出。
 
-### 椭圆联立 \{#\_14}
+### 椭圆联立
 
 椭圆与直线有三种情况，相切、相交、相离
 
@@ -432,7 +432,7 @@ $$
 
 直线 $\ell:y = kx + m$ 与曲线相交于 $A, B$，若弦长或三角形的面积已知，则斜率 $k$ 与 $m$ 必定满足某一个方程。
 
-### 双曲线联立 \{#\_15}
+### 双曲线联立
 
 根据双曲线的两条渐近线，因此双曲线与直线有也有三种情况，相切、相交、相离
 
@@ -509,7 +509,7 @@ $$
 
 注意，如果直线与双曲线有一个交点，则可能有两种情况。
 
-### 抛物线联立 \{#\_16}
+### 抛物线联立
 
 不妨设抛物线
 
@@ -553,9 +553,9 @@ $$
 
 此时就可以避免平方了。
 
-### 硬解定理 \{#\_17}
+### 硬解定理
 
-### 二次曲线系 \{#\_18}
+### 二次曲线系
 
 我们知道两条直线 $L\_1=0,L\_2=0$ 可以共用一个退化的"二次曲线"来表示，即为 $L\_1\cdot L\_2=0$，这给我们一个启示，两条直线与圆锥曲线联立，不妨用这个二次曲线去联立。
 
@@ -593,7 +593,7 @@ $$
 
 上面。
 
-### 切线方程 \{#\_19}
+### 切线方程
 
 方法一（判别式）：
 
@@ -681,7 +681,7 @@ $$
 
 则一定有 $B(x\_1,y\_1),C(x\_2,y\_2)$ 一定在这条直线上。
 
-### 设而不求 \{#\_20}
+### 设而不求
 
 通过合适的设，可以大大简化计算量。
 
@@ -723,7 +723,7 @@ $$
 
 - 若 $A(x\_0, y\_0)$ 为抛物线 $y^2 = 2px(p>0)$ 上的点，$E, F$ 是抛物线上的两个动点，直线 $AE$ 的倾斜角与直线 $AF$ 的倾斜角互补，则直线 $EF$ 的斜率为定值 $-\dfrac\{p}\{y\_0}$，且和抛物线在点 $A$ 处的切线的斜率互为相反数。
 
-### 曲线上点 \{#\_21}
+### 曲线上点
 
 在圆锥曲线问题中，常用的简化计算的方法，除了设而不求，还有设线解点、齐次化联立，和一些通过坐标等符号运算的不联立、不韦达做法。
 
@@ -731,7 +731,7 @@ $$
 
 齐次化联立：齐次化后，在二次曲线中一般是得到齐二次式，通过除去二次，可以得到关于某一比值的一元二次方程，再根据韦达定理可以得出这个比值的两个取值的关系。这个比值通常就是斜率。当给出过一点两条直线斜率的关系时，就可以这么做。设线时根据线不过这一点 $P(x\_0,y\_0)$ 设为 $\ell:m(x-x\_0)+n(y-y\_0)=1$，然后一次二次联立，用上式进行其次化，将一次，或者零次带入若干次，最终得到化简的二次式，即可得到关于 $P$ 点的斜率之积和之和了。
 
-### 定点定线 \{#\_22}
+### 定点定线
 
 通常来说，求一个点在定直线上，求一条直线过定点，这类问题经常能够转化为极点极线问题，或者是极点极线的思想------射影几何------对偶性，即点和线是可以相互转化的，定点和定直线之间存在互极的关系。
 
@@ -747,9 +747,9 @@ $$
 
 这个性质非常好用，建议背过。这一类模型俗称"手电筒模型"，参考 [定点之Fregier定理 - 知乎](https://zhuanlan.zhihu.com/p/673855234) 和 [圆锥曲线Fregier定理：定点与定斜率和积 - 知乎](https://zhuanlan.zhihu.com/p/1971264129353384768)。
 
-## 拓展定理 \{#\_23}
+## 拓展定理
 
-### 托勒密定理 \{#\_24}
+### 托勒密定理
 
 托勒密定理指出：圆内接凸四边形中，两组对边的乘积之和等于两条对角线的乘积。
 
@@ -765,7 +765,7 @@ $$
 
 若线段 $AB$ 与 $CD$ 相交于 $M$，则 $A, B, C, D$ 四点共圆等价于 $|MA| \cdot |MB| = |MC| \cdot |MD|$。
 
-### 相交弦定理 \{#\_25}
+### 相交弦定理
 
 圆的两条弦 $AB,CD$ 相交于点 $P$，如图
 
@@ -778,11 +778,11 @@ $$
 
 如果 $P$ 在圆内也成立。
 
-### 圆幂定理 \{#\_26}
+### 圆幂定理
 
 \[TODO]
 
-### 西姆松定理 \{#\_27}
+### 西姆松定理
 
 点 $P$ 到 $\triangle ABC$ 各边的投影共线，当且仅当 $P$ 位于该三角形的外接圆上（如图左）。
 
@@ -794,7 +794,7 @@ $$
 
 推论：当点 $P$ 沿圆周移动时，西姆松线以弧 $PA$ 变化率的一半的速率向相反方向旋转。
 
-### 定点速求 \{#\_28}
+### 定点速求
 
 对于动直线 $MN$，如果可以将其上任意两点的坐标用一个参数 $t$ 表示，例如 $M(f,g),N(u,v)$，其中省略了 $(t)$，则可以用下面的方法判断并求出直线过的定点。
 

@@ -1,8 +1,8 @@
-# 有机化学概述 \{#\_1}
+# 有机化学概述
 
-## 有机化学 \{#\_2}
+## 有机化学
 
-### 有机化合物 \{#\_3}
+### 有机化合物
 
 有机物指的是含碳元素的化合物，研究有机物的化学则称为有机化学。有机物中除了碳通常还含有氢、氧、氮、硫、卤素、磷等元素。碳氧化物、碳酸盐、碳酸氢盐、碳化物等虽然含有碳但是不算为有机物。
 
@@ -12,7 +12,7 @@
 - 热稳定性：大多数有机物易燃，受热会分解。
 - 化学反应：有机物的化学反应较为复杂，常伴有副反应，许多反应需在加热、光照或催化剂作用下进行。
 
-### 碳的成键特点 \{#\_4}
+### 碳的成键特点
 
 碳原子有四个价电子，使其不易失去或得到电子形成离子，故与各非金属元素之间形成共价键，但是有机物不一定就只能是共价化合物，离子化合物如有机酸盐等。
 
@@ -42,7 +42,7 @@
 
 含有不饱和键的有机化合物分子由于双键或三键中有**部分键**容易断裂；双键或三键两端的碳原子还可以结合其他原子或原子团，一般易于发生加成反应（苯环结构具有特殊性）。
 
-### 不饱和度 \{#\_5}
+### 不饱和度
 
 不饱和度的定义：
 
@@ -70,9 +70,9 @@ $$
 
 - 根据图算出不饱和度，又知道了除了氢原子个数以外的，直接通过不饱和度求氢原子数。
 
-## 有机化合物 \{#\_6}
+## 有机化合物
 
-### 有机物的表示 \{#\_7}
+### 有机物的表示
 
 <table>
 <thead>
@@ -130,7 +130,7 @@ $$
 
 - 结构简式不能表示有机化合物的真实空间结构。
 
-### 有机物的分类 \{#\_8}
+### 有机物的分类
 
 同系物：结构相似，在分子组成上相差一个或若干个 $\ce\{CH2}$ 原子团的化合物互称为同系物。烷烃就是一个同系物系列。
 
@@ -156,7 +156,7 @@ $$
 |   羧酸  |   羧基   |    $\ce\{-COOH}$    |  酯  |    酯基   | $\ce\{-COOR}$ |
 | 酰胺/酰卤 | 酰胺/酰卤基 | $\ce\{-CONH2/-COX}$ |  腈  |    氰基   |  $\ce\{-CN}$  |
 
-### 有机物的命名 \{#\_9}
+### 有机物的命名
 
 俗称命名法：
 
@@ -281,9 +281,9 @@ $$
 - 对于**简单常见物**（甲苯、苯酚、苯乙烯）：半系统命名是首选。
 - 对于**复杂取代物**（如 1,4-二甲基 -3-乙基苯这类）：应回归严格系统命名（1-乙基 -2,5-二甲基苯），以避免歧义。
 
-## 研究的方法 \{#\_10}
+## 研究的方法
 
-### 元素分析法 \{#\_11}
+### 元素分析法
 
 现代化的元素分析仪可以测出有机物含有元素，例如 $\ce\{C,H,O}$ 的质量比，可以根据这个推算出为止有机物的实验式（最简式）。
 
@@ -307,25 +307,25 @@ $$
 
 如果已知有机物的元素组成，也可以通过燃烧，检测水和二氧化碳的方法来测定。
 
-### 质谱仪质谱法 \{#\_12}
+### 质谱仪质谱法
 
 质谱法使用质谱仪，用高能电子流轰击样品分子，对于高中而言，唯一的用处就是，图像上相对分子量最大的一条杠就是有机物的相对分子量。
 
 根据相对分子质量，以及实验式，可以求出物质的分子式。
 
-### 核磁共振氢谱 \{#\_13}
+### 核磁共振氢谱
 
 氢原子具有磁性，通过核磁共振仪得到的氢谱上各个吸收峰的面积，得到结构中的不同化学环境氢原子的信息。
 
 吸收峰的个数为等效氢的个数，而吸收峰的面积比即为各个化学环境的氢的个数之比。
 
-### 红外光谱法 \{#\_14}
+### 红外光谱法
 
 有机物分子中，组成化学键或官能团的原子处于不断震动的状态，其振动频率与红外光的振动频率相当。
 
 用红外光照射有机物分子时，化学键或官能团可以发生振动吸收，可以直接确定有机物中存在的化学键或官能团。
 
-### 分子光谱 \{#\_15}
+### 分子光谱
 
 分子光谱与分子内部的运动密切相关，涉及的分子运动方式主要为：
 
@@ -343,16 +343,16 @@ $$
 
 - 物质的浓度越高，其特征吸收峰的强度则越大，因此分子光谱还被广泛用于测定物质浓度。
 
-## 神奇的有机物 \{#\_16}
+## 神奇的有机物
 
-### 金刚烷 \{#\_17}
+### 金刚烷
 
 金刚烷，分子式 $\ce\{C10H16}$，它的碳架结构相当于金刚石晶格网络中的一个晶胞，故得名金刚烷。它是一种脂环烃，具有类似樟脑的气味，是无色晶体，容易结晶，其衍生物可以用作药物。
 
 ![alt text|w20%](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCA0NjIuNSA0MTguOTkiPjxwYXRoIGQ9Ik0xNyAzMDYgMCAzMTguOTlsNzYuNS0xMzIuNSA0IDEuMDEgMiA1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgNTApIi8+PHBhdGggZD0ibTE0MyAyNzAgNCAzdjRMMCAzMTguOTkgMTcgMzA2em0xNDEuNSAzNy41IDQgOS41TDE0NyAyNzd2LTRsNC0zeiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgNTApIi8+PHBhdGggZD0ibTM1MCAxOTQuNSA4LjUtNyA0IDEuNDktNzQgMTI4LjAxLTQtOS41eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgNTApIi8+PHBhdGggZD0iTTIyMCAyMzEuNDlWMjIzbDEzNC41LTM4LjUgNCAzLTguNSA3ek04Mi41IDE5Mi41bC0yLTUgNC0zTDEzMSAxOTh2OHpNMjIwIDIyM3Y4LjQ5bC01Ny0xNS45OVYyMDd6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MCA1MCkiLz48cGF0aCBkPSJtNzYuNSA0MC41IDggNnYxMzhsLTQgMy00LTEuMDF6TTE0MyAxMjhsOCAydjE0MGwtNCAzLTQtM3ptMjExLjUtODEuNSA4LTZ2MTQ4LjQ5bC00LTEuNDktNC0zeiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgNTApIi8+PHBhdGggZD0iTTIxOSAwdjRsLTguNSA2LjUtMTI2IDM2LTgtNnptMTQzLjUgNDAuNS04IDZMMjIxIDlsLTItNVYweiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgNTApIi8+PHBhdGggZD0iTTIxMC41IDEwLjUgMjE5IDRsMiA1LTcwIDEyMS04LTJ6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MCA1MCkiLz48L3N2Zz4=)
 金刚烷的化学性质较为复杂，课内不涉及，其性质详见 [金刚烷 - 维基百科](https://zh.wikipedia.org/zh-hans/金刚烷#化学性质)。
 
-### 环氧乙烷 \{#\_18}
+### 环氧乙烷
 
 从 2-氯乙醇中脱去氯化氢，是实验室中制取环氧乙烷最普遍的方法：
 
@@ -384,7 +384,7 @@ $$
 
 环氧化合物的开环水解反应。环氧乙烷在酸性或中性条件下与水反应，碳氧键断裂，两端各连上一个羟基（-OH）。
 
-### 季戊四醇 \{#\_19}
+### 季戊四醇
 
 季戊四醇也称为【数据删除】醇。
 
@@ -393,7 +393,7 @@ $$
 
 季戊四醇分子中含有四个等同的羟甲基，具有高度的对称性，因此常被用作多官能团化合物的制取原料。由它硝化可以制得季戊四醇四硝酸酯（太安，PETN），是一种烈性炸药；酯化可得季戊四醇三丙烯酸酯（PETA），用作涂料。
 
-### 交酯内酯 \{#\_20}
+### 交酯内酯
 
 交酯指的是两分子以上羟基酸相互发生分子间酯化形成的环状内酯。
 

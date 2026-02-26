@@ -1,8 +1,8 @@
-# 恒定电流 \{#\_1}
+# 恒定电流
 
-## 电路概述 \{#\_2}
+## 电路概述
 
-### 电流定义 \{#\_3}
+### 电流定义
 
 电流：
 
@@ -62,7 +62,7 @@
 
 电流的方向为电子定向移动方向的反方向，即逆时针方向。经过时间 $T$ 后，经过任一横截面的电荷总量大小为 $e$。因此，电流大小为 $\dfrac\{\mathrm\{e}}T$。
 
-### 欧姆定律 \{#\_4}
+### 欧姆定律
 
 欧姆定律表明：处于某状态的导电体（**定温下**），其两端的电压与通过电导体的电流成正比，即：
 
@@ -98,7 +98,7 @@ $$
 
 超导体上欧姆定律不成立，可以这样认为：欧姆定律适用于「电荷仅受电场力和与导体内不动粒子碰撞产生的阻力两个力作用」的情形，然而这里「电荷仅受电场力作用」。
 
-### 电阻定律 \{#\_5}
+### 电阻定律
 
 我们知道电阻的决定式如下：
 
@@ -114,7 +114,7 @@ $$
 R=\rho\dfrac\{l}\{S}=\rho\dfrac\{l^2}\{V}
 $$
 
-### 焦耳定律 \{#\_6}
+### 焦耳定律
 
 发热量：
 
@@ -132,9 +132,9 @@ $$
 
 以上三个公式，适用于**任何电路**，而对于纯电阻电路才可以根据欧姆定律得到 $I^2R=UI$，我们将在电动机部分详细解释。
 
-## 电路应用 \{#\_7}
+## 电路应用
 
-### 电动势 \{#\_8}
+### 电动势
 
 电动势表征一些电路元件供应电能的特性（非静电力做功的本质），这些电路元件称为电动势源，而电动势源所供应的能量每单位电荷是其电动势，有公式表达：
 
@@ -153,7 +153,7 @@ $$
 
 电池内阻相当于一个电池串联一个电阻，如果没有特殊说明，**电池的内阻不可忽略**。
 
-### 串并联规律 \{#\_9}
+### 串并联规律
 
 串联规律：
 
@@ -207,7 +207,7 @@ $$
    P\_1:P\_2:P\_3 = \frac\{1}\{R\_1}:\frac\{1}\{R\_2}:\frac\{1}\{R\_3}
    $$
 
-### 电源的串并联 \{#\_10}
+### 电源的串并联
 
 我们只考虑 $n$ 个一样的电源（$E,r$）串并联：
 
@@ -225,7 +225,7 @@ $$
 
 聪明的你想到用 $n^2$ 个电池连成方格，于是电动势增加，内阻不变。
 
-### 伏安特征曲线 \{#\_11}
+### 伏安特征曲线
 
 - 只有图像是一条过原点的直线，才是线性元件，斜率是 $1/R$。
 
@@ -233,7 +233,7 @@ $$
 
 - 曲线向 $U$ 轴偏移为电压增加电阻变大，向 $I$ 轴偏移为电压增大电阻变小。
 
-### 电流的能量 \{#\_12}
+### 电流的能量
 
 电源的功率：$P\_\{源} = I\epsilon = \frac\{\epsilon^2}\{(R+r)}$。
 
@@ -252,7 +252,7 @@ $$
 当 $R=r$ 时电源输出功率为最大：$P\_\{\max} = \frac\{\epsilon^2}\{4r}$，此时电源效率：$\eta = 50%$。
 
 ![alt text|w60%](/static/image/image-6.2f30b23987.avif)
-### 闭合电路 \{#\_13}
+### 闭合电路
 
 基本概念：
 
@@ -304,9 +304,9 @@ $\Delta U/\Delta I$ 问题：
 
 3. 如果电容器被直接串联在电池上，电路中没有电流，电容器电势差即为电源电动势。
 
-## 回路基础 \{#\_14}
+## 回路基础
 
-### 电压源和电流源 \{#\_15}
+### 电压源和电流源
 
 电压源（理想电压源）具有两个基本的性质：
 
@@ -381,7 +381,7 @@ $I\_S\doteq I$。因此，输出电压会因负载波动而发生较大变化。
 
 ![alt text](/static/image/image-7.c703f80b8b.avif)
 ![alt text](/static/image/image-8.ca24790430.avif)
-### 基尔霍夫电路定律 \{#\_16}
+### 基尔霍夫电路定律
 
 基尔霍夫电路定律（基尔霍夫定律）涉及了电荷的守恒及电势的保守性。
 
@@ -461,7 +461,7 @@ $$
 
 这也意味着基尔霍夫电路定律解题不完全需要电流方向已知。
 
-### 基尔霍夫电流定律 \{#\_17}
+### 基尔霍夫电流定律
 
 又称：基尔霍夫第一定律，KCL。
 
@@ -476,7 +476,7 @@ $$
 如图，有 $i\_2+i\_3=i\_1+i\_4$，或者可以写成 $i\_2+i\_3-i\_1-i\_4=0$ 的形式。
 
 ![image](data:image/avif;base64,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)
-### 基尔霍夫电压定律 \{#\_18}
+### 基尔霍夫电压定律
 
 又称：基尔霍夫第二定律，KVL。
 
@@ -503,9 +503,9 @@ $$
 
 2. 设定各条支路中电流的方向，在电流方向不明确的情况下，可以任意设。如果最后解出来的电流值为正，则真实电流方向与设定的方向相同；如果最后解出来的电流值为负，则真实电流方向与设定的方向相反。
 
-## 分析拓展 \{#\_19}
+## 分析拓展
 
-### 线性电路 \{#\_20}
+### 线性电路
 
 线性元件：
 
@@ -527,7 +527,7 @@ $$
 
 - 其特点是输入信号的变化会导致输出信号的相应变化，输出信号与输入信号之间存在线性相关性。
 
-### 叠加定理 \{#\_21}
+### 叠加定理
 
 叠加定理的描述：
 
@@ -559,7 +559,7 @@ $$
 
 在线性电路中当所有独立源同时缩放 $K$ 倍（$K$ 为实常数）时，响应也将同样增大或缩小 $K$ 倍。
 
-### 无穷电路 \{#\_22}
+### 无穷电路
 
 1. 一类比较简单的无穷电路所含的器件是相同的，如图所示的电路就属于这一类，组成电路的所有电阻的阻值都是 $R$。
 
@@ -585,7 +585,7 @@ $$
 
    解得 $R\_x=(\sqrt\{41}+5)R/4$。
 
-### 对称性简化 \{#\_23}
+### 对称性简化
 
 所谓对称性简化，就是利用电路网络中可能存在的各种对称性，作出某种判断或结论，以简化等效电阻计算。
 
@@ -605,9 +605,9 @@ $$
 
 应当指出的是，对称性简化往往并不给出等效电阻的某种直接计算公式，而只是使电阻的计算得到简化，最终的结果仍有赖于电阻串、并联的公式，电流分布法，极限法等计算完成。
 
-## 一道例题 \{#\_24}
+## 一道例题
 
-### 题目描述 \{#\_25}
+### 题目描述
 
 有电路如图乙所示（图中电流表为理想电流表）：
 
@@ -616,7 +616,7 @@ $$
 
 电路正常工作时，电流表的示数是多少？
 
-### 基尔霍夫电路定律 \{#\_26}
+### 基尔霍夫电路定律
 
 如图，存在两条回路 $s\_1$、$s\_2$，假设电流流向为从 $E\_2$、$E\_3$ 正极出发，干路、支路电流分别为 $i\_1$，$i\_2$、$i\_3$：
 
@@ -649,7 +649,7 @@ $$
 
 分析可知，我们假设的 $i\_2$ 电流流向是错误的，而电流表示数为 $\dfrac\{5}\{8}A$。
 
-### 电路的叠加定理 \{#\_27}
+### 电路的叠加定理
 
 忽略电流表，可以发现图中仅存在电阻和电压源，因此该电路是线性电路，存在电路的叠加原理。
 
@@ -672,7 +672,7 @@ $$
 
 根据叠加定理，得出电流表示数 $I=I\_1+I\_2+I\_3=-\dfrac\{3}\{8}+\dfrac\{1}\{4}+\dfrac\{3}\{4}=\dfrac\{5}\{8}A$。
 
-### 电流源与电压源 \{#\_28}
+### 电流源与电压源
 
 这也是原题想让我们应用的方法，这里先对题目的铺垫加以简单总结。
 
@@ -713,7 +713,7 @@ $$
 
 于是，电流表示数即为 $I=V/R=5V/8\Omega=\dfrac\{5}\{8}A$。
 
-### 简单欧姆定律 \{#\_29}
+### 简单欧姆定律
 
 我们把原图抽象为三个支路，其电流分别记为 $i\_1$、$i\_2$、$i\_3$，如图：
 

@@ -1,6 +1,6 @@
-# 简介 \{#\_1}
+# 简介
 
-## 这里是 **RainPPR's WHK Blog**！ \{#rainpprs-whk-blog}
+## 这里是 **RainPPR's WHK Blog**！
 
 这个是 WHK 博客，是目前作者比较活跃的百科性质博客。本项目受 [CTF Wiki](https://ctf-wiki.org/)、[OI Wiki](https://oi-wiki.org/) 的启发。在本项目的编写过程中，作者进行了很多创造性（造轮子性）的改造，尤其是对于高中知识体系框架的构建。
 
@@ -8,7 +8,7 @@
 
 :::::::::::::::::::::::::::: \{.bib-wrapper}
 
-### Core References & Bibliography \{#core-references-bibliography .bib-header-title}
+### Core References & Bibliography \{.bib-header-title}
 
 ::::::::::::::::::::::::::: \{.bib-grid}
 [](https://zh.wikibooks.org/wiki/高中数学)\{.bib-card .accent-blue target="\_blank"}

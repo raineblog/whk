@@ -1,8 +1,8 @@
-# 原子与元素 \{#\_1}
+# 原子与元素
 
-## 核物理初步 \{#\_2}
+## 核物理初步
 
-### 射线与放射性 \{#\_3}
+### 射线与放射性
 
 1895 年年末，德国物理学家**伦琴**发现了一种新的射线------**X 射线**（即伦琴射线）。它具有一定的辐射性。现在我们知道，X 射线是原子内层电子跃迁时发射的波长很短的电磁波。
 
@@ -47,7 +47,7 @@
 
 人类一直生活在放射性的环境中。地球上的每个角落都有来自宇宙的射线，我们周围的岩石，其中也有放射性物质。我们的食物和日常用品中，有的也具有放射性，例如，食盐和有些水晶眼镜片中含有钾 $40$，香烟中含有钋 $210$，不过它们辐射的强度都在安全剂量之内。然而过量的射线对人体组织有破坏作用。因此，在使用放射性同位素时，必须严格遵守操作规程，注意人身安全，同时，要防止放射性物质对空气、水源、用具等的污染。
 
-### 原子与原子核 \{#\_4}
+### 原子与原子核
 
 科学家在研究稀薄气体放电时发现，当玻璃管内的气体足够稀薄时，阴极就发出一种射线，称为**阴极射线**。对这种射线本质的认识有两种观点：一种观点认为，它是一种电磁辐射；另一种观点认为，它是带电微粒。
 
@@ -162,7 +162,7 @@ $$
 
 氢有三种同位素，分别叫作 $\ce\{H}$ 氕（也就是通常说的氢）、氘 $\ce\{D}$（也叫重氢）、氚 $\ce\{T}$（也叫超重氢）。
 
-### 放射性衰变 \{#\_5}
+### 放射性衰变
 
 某些原子核处于不稳定状态，会自发地通过释放粒子或电磁辐射转变为另一种核，这一过程称为**放射性衰变**。
 
@@ -198,7 +198,7 @@ $$
 
 - **核壳层模型**：类似于电子壳层，原子核也存在幻数（$2, 8, 20, 28, 50, 82, 126$），具有这些质子或中子数的核特别稳定。
 
-### 基本相互作用 \{#\_6}
+### 基本相互作用
 
 现代物理学认为，自然界存在着四种基本相互作用，即引力相互作用、电磁相互作用、强相互作用和弱相互作用。自然界中的各种力，都可以归结为这四种相互作用。
 
@@ -224,7 +224,7 @@ $$
 
 - **量子隧穿效应**：解释 $\alpha$ 衰变中 $\alpha$ 粒子如何克服能量高于其动能的库仑势垒从原子核中逃逸。
 
-### 核裂变核电站 \{#\_7}
+### 核裂变核电站
 
 20 世纪 30 年代，物理学家的一个重大发现改变了人类历史。原子核在"分裂或聚合"时，会释放出惊人的能量。
 
@@ -258,7 +258,7 @@ $$
 
 建造核电站时需要特别注意防止放射线和放射性物质的泄漏，以避免射线对人体的伤害和放射性物质对水源、空气和工作场所造成放射性污染。为此，在反应堆的外面需要修建很厚的水泥层，用来屏蔽核裂变产物放出的各种射线。核反应堆中的核废料具有很强的放射性，需要装入特制的容器，深埋地下。
 
-### 核聚变与约束 \{#\_8}
+### 核聚变与约束
 
 两个轻核结合成质量较大的核，这样的核反应叫作核聚变。一个氘核与一个氚核聚合成一个氦核的同时放出一个中子，释放 $\pu\{17.6 MeV}$ 的能量，平均每个核子放出的能量在 $\pu\{3 MeV}$ 以上，比核裂变反应中平均每个核子放出的能量大 $3\sim4$ 倍。这时的核反应方程是
 
@@ -280,9 +280,9 @@ $$
 
 总的来说，实现受控核聚变还有一段很长的路要走。
 
-## 原子结构模型 \{#\_9}
+## 原子结构模型
 
-### 玻尔原子模型 \{#\_10}
+### 玻尔原子模型
 
 卢瑟福的核式结构模型正确地指出了原子核的存在，很好地解释了 $\alpha$ 粒子散射实验，但跟经典电磁理论发生了矛盾。核外电子受到原子核的库仑引力的作用，却没有被吸引到原子核上，而是在以一定的速度绕核运动。按照经典电磁理论，这样运动的电荷应该辐射出电磁波，电子绕核转动的能量将不断地被电磁波带走。随着能量的减少，电子 绕核运动的轨道半径也应减小，最后电子会坠落到原子核上。由此判断，电子绕核转动这个系统应是不稳定的。但事实并非如此，原子是个很稳定的系统。
 
@@ -323,7 +323,7 @@ $$
 
 - 将电子运动描述为确定的经典轨道，违反了海森堡不确定性原理：玻尔理论保留了经典粒子的观念，仍然把电子的运动看作经典力学描述下的轨道运动。实际上，根据量子力学，原子中电子的坐标没有确定的值。因此，我们只能说某时刻电子在某点附近单位体积内出现的概率是多少，而不能把电子的运动看成一个具有确定坐标的质点的轨道运动。当原子处于不同的状态时，电子在各处出现的概率是不一样的。如果用疏密不同的点子表示电子在各个位置出现的概率，画出图来就像云雾一样，人们形象地把它叫作电子云。
 
-### 氢原子光谱 \{#\_11}
+### 氢原子光谱
 
 处于最低能量状态的原子叫做**基态**。基态原子吸收能量后，电子会跃迁到较高能级，原子变为**激发态**。
 
@@ -386,7 +386,7 @@ $$
 
 另外，当天文学家将光谱分析方法应用于恒星时，马上就证明了宇宙中物质构成的统一性。除化学成分外，恒星的光谱还能够揭示其表面温度、质量和运动状态等信息。光谱分析还为深入原子世界打开了道路。近代原子物理学正是从原子光谱的研究中开始的。
 
-### 能层和能级 \{#\_12}
+### 能层和能级
 
 核外电子按能量不同分成**能层**（$K, L, M, N, \dots$），电子能层从核由内向外排序。
 
@@ -497,7 +497,7 @@ $$
 
 - **其他异常**：如钯 $\ce\{Pd}$（$\[\text\{Kr}] 4\text\{d}^\{10}$）完全没有 $5\text\{s}$ 电子；铂 $\ce\{Pt}$（$\[\text\{Xe}] 4\text\{f}^\{14} 5\text\{d}^9 6\text\{s}^1$）等。
 
-### 电子排布表示 \{#\_13}
+### 电子排布表示
 
 三（四）式的书写：
 
@@ -519,7 +519,7 @@ $$
 - 过渡元素：价电子除最外层 $\text\{s}$ 电子外，通常还包括次外层 $\text\{d}$ 电子（甚至倒数第三层 $\text\{f}$ 电子）。
 
 ![轨道表示式|w100%](/static/image/轨道表示式.1b4a667385.avif)
-### 电子云模型 \{#\_14}
+### 电子云模型
 
 电子在原子核外很小的空间内作高速运动，其运动规律跟一般物体不同，它没有明确的轨道。根据量子力学中的不确定性原理，我们不可能同时准确地测定出电子在某一时刻所处的位置和运动速度，也不能描画出它的运动轨迹。因此，人们常用一种能够表示电子在一定时间内在核外空间各处出现机会的模型来描述电子在核外的运动。
 
@@ -549,9 +549,9 @@ $$
 
 - **关系总结**：屏蔽效应使外层电子能量升高，钻穿效应使外层电子能量降低。二者的竞争结果决定了能级的高低及交错。
 
-## 元素周期表 \{#\_15}
+## 元素周期表
 
-### 周期表的概述 \{#\_16}
+### 周期表的概述
 
 元素周期表的历史：
 
@@ -580,7 +580,7 @@ $$
 | $22$ |  钛  | $\ce\{Ti}$ |  $0.50%$ |
 |  $1$ |  氢  |  $\ce\{H}$ |  $0.10%$ |
 
-### 周期表的周期和族 \{#\_17}
+### 周期表的周期和族
 
 - 元素周期表一共有七个周期，其中 $3$ 个短周期，$4$ 个长周期。
 
@@ -613,7 +613,7 @@ $$
 
 - 第八族的化学性质和物理性质都很接近（镧系收缩）。
 
-### 周期表的分区 \{#\_18}
+### 周期表的分区
 
 最后一个电子排到 $\mathrm\{s,p}$ 能级为主族、排到 $\rm d$ 的为过渡元素、排到 $\rm f$ 的为镧系锕系。
 
@@ -668,7 +668,7 @@ $$
 
   - 因为最外层的电子数基本相同，$(n-1)\rm d$ 的电子数也基本相同，所以镧系元素的化学性质非常相近，锕系元素的化学性质也非常相近。
 
-### 三素与四个质量 \{#\_19}
+### 三素与四个质量
 
 同位素的概念就形象的对于了元素周期表中同一位置。
 
@@ -733,16 +733,16 @@ $$
 
   <img alt="十字交叉|w50%" src={image15} />
 
-## 元素周期律 \{#\_20}
+## 元素周期律
 
-### 元素周期律概述 \{#\_21}
+### 元素周期律概述
 
 元素周期律，位置、结构、性质，三位一体。
 
 ![元素周期律|w90%](data:image/avif;base64,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)
 过渡元素因为屏蔽钻穿等，通常不符合这些周期性变化。
 
-### 化合价变化规律 \{#\_22}
+### 化合价变化规律
 
 - 最高正价，等于主族序数，等于最外层电子数。
 
@@ -762,7 +762,7 @@ $$
 
 - 注意 $\ce\{H-,Li+}$ 电子结构相同的特例。
 
-### 原子与离子半径 \{#\_23}
+### 原子与离子半径
 
 原子半径的大小取决于两个相反的因素：能层数、核电荷数。通常能层数越多，半径越大；核电荷数越大，原子半径越小。
 
@@ -801,7 +801,7 @@ $$
 
 例如 $\ce\{Be,Al}$，有 $\ce\{Na\[Al(OH)4]},\ce\{Na2\[Be(OH)]4}$。
 
-### 金属活动性顺序 \{#\_24}
+### 金属活动性顺序
 
 金属活动性是指金属在溶液或化学反应中的实际活泼程度，最初由化学家根据真实化学反应中的金属间的置换反应，还有金属跟水和各种酸、碱反应总结而成。
 
@@ -869,7 +869,7 @@ $$
 
 - 例如高氯酸可以表示为 $\ce\{Cl(OH)7}$，脱水后表示为 $\ce\{HClO4}$。
 
-### 电离能与电负性 \{#\_25}
+### 电离能与电负性
 
 ![电离能|right|w20%](/static/image/铍电离能.ae63ba6eb8.avif)
 电离能：

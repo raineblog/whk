@@ -1,6 +1,6 @@
-# 数论测试 \{#\_1}
+# 数论测试
 
-## 一、请给出整除的概念及性质 \{#\_2}
+## 一、请给出整除的概念及性质
 
 对于整数 $a,b$ $(b\neq0)$，如果存在整数 $c$，使得 $a=bc$，
 
@@ -12,7 +12,7 @@ $$
 \def\arraystretch\{1.1} \begin\{array}\{rlrl} 1.\&a\mid b&\Longrightarrow&\pm a \mid \pm b\ 2.\&a \mid b,\ b\mid c&\Longrightarrow\&a \mid c\ 3.&\forall i:b\mid a\_i&\Longrightarrow\&b\mid\Sigma\ a\_ik\_i\ 4.\&b\mid a&\Longrightarrow\&bc\mid ac\ (c\in\mathbb Z,c\neq0)\ 5.\&b\mid a\ (a\neq0)&\Longrightarrow&|b|\le|a|\ 5.\&b\mid a,\ |a|\<|b|&\Longrightarrow\&a=0\ \end\{array}
 $$
 
-### 二、请给出同余的概念及性质 \{#\_3}
+### 二、请给出同余的概念及性质
 
 给定正整数 $m$ 称为模，$a,b$ 为任意两个整数，满足：
 
@@ -28,23 +28,23 @@ $$
 \def\arraystretch\{1.1} \begin\{array}\{rlrl} 1.\&a \equiv a \pmod m\ 2.\&a \equiv b \pmod m &\Longleftrightarrow& b\equiv a \pmod m\ 3.\&a\equiv b\pmod m,\ b\equiv c\pmod m&\Longrightarrow\&a\equiv c\pmod m\ 4.\&aK\equiv bK\pmod m&\Longrightarrow\&a\equiv b\pmod\{\frac\{m}\{(m,k)}}\ 5.\&a\equiv b\pmod m,\ c\equiv d\pmod m&\Longrightarrow\&a\pm c\equiv b\pm d\pmod m\ 6.\&a\equiv b\pmod m,\ c\equiv d\pmod m&\Longrightarrow\&ac\equiv bd\pmod m\ \end\{array}
 $$
 
-### 三、请给出模 $m$ 的完全剩余系的概念 \{#m}
+### 三、请给出模 $m$ 的完全剩余系的概念
 
 若 $a\_1,a\_2,\dots,a\_m$ 对模 $m$ 两两不同余，则这 $m$ 个数构成模 $m$ 的一个完全剩余系。
 
 特殊的，任意连续的 $m$ 个整数都构成模 $m$ 的一个完全剩余系。
 
-### 四、陈述裴蜀定理 \{#\_4}
+### 四、陈述裴蜀定理
 
 对于任意整数 $a,b$，一定存在一组整数解 $x,y$ 使得 $ax+by=(a,b)$。
 
-### 五、陈述费马小定理 \{#\_5}
+### 五、陈述费马小定理
 
 若 $p$ 是素数，则 $a^p\equiv a\pmod p$。
 
 特别的，若 $a\perp p$，则 $a^\{p-1}\equiv1\pmod p$。
 
-### 六、给定模 $m$ 的一组完全剩余系 $x\_1,\dots,x\_m$，若 $a \perp m$，请证明 $ax\_1,\dots,ax\_m$ 也是模 $m$ 的一组完全剩余系 \{#m-x\_1dotsx\_m-a-perp-m-ax\_1dotsax\_m-m}
+### 六、给定模 $m$ 的一组完全剩余系 $x\_1,\dots,x\_m$，若 $a \perp m$，请证明 $ax\_1,\dots,ax\_m$ 也是模 $m$ 的一组完全剩余系
 
 **反证**：假设 $ax\_1,\dots,ax\_m$ 不是模 $m$ 的完全剩余系。
 
@@ -56,7 +56,7 @@ $$
 
 假设不成立，故 $ax\_1,\dots,ax\_m$ 是模 $m$ 的完全剩余系。
 
-### 七、设 $n$ 是整数，请证明：$120 \mid n(n^2-1)(n^2-5n+26)$ \{#n-120-mid-nn2-1n2-5n26}
+### 七、设 $n$ 是整数，请证明：$120 \mid n(n^2-1)(n^2-5n+26)$
 
 **定理**：连续 $n$ 个整数的乘积一定被 $n!$ 整除。
 
@@ -84,7 +84,7 @@ $$
 
 即 $120 \mid n(n^2-1)(n^2-5n+26)$。
 
-### 八、设 $n$ 是正整数，且 $2n+1$ 与 $3n+1$ 都是完全平方数。请证明：$40 \mid n$ \{#n-2n1-3n1-40-mid-n}
+### 八、设 $n$ 是正整数，且 $2n+1$ 与 $3n+1$ 都是完全平方数。请证明：$40 \mid n$
 
 **性质1**：奇数的完全平方数模 $8$ 同余于 $1$。
 
@@ -126,7 +126,7 @@ $$
 
 因此 $n\equiv0\pmod\{40}$，即 $40 \mid n$。
 
-### 九、求 $10^\{10} \bmod 7$ \{#1010-bmod-7}
+### 九、求 $10^\{10} \bmod 7$
 
 $$
 \def\arraystretch\{1.1} \begin\{array}\{ll} &10^\{10} \bmod 7\ =&(10 \bmod 7)^\{10\bmod 6}\bmod 7\ =&3^4\bmod7\ =&81\bmod7\ =&4 \end\{array}
@@ -134,7 +134,7 @@ $$
 
 即 $10^\{10}\bmod7=4$。
 
-### 十、求满足以下条件的正整数解：$(a,b)+\[a,b]+a+b=ab$ \{#abababab}
+### 十、求满足以下条件的正整数解：$(a,b)+\[a,b]+a+b=ab$
 
 设 $d=(a,b)$，则记 $a=a\_0d$，$b=b\_0d$（$a\_0\perp b\_0$）。
 

@@ -1,4 +1,4 @@
-# 语法扩展 \{#\_1}
+# 语法扩展
 
 \`\`\`python exec="1" session="filetree" from fnmatch import fnmatch from pathlib import Path
 

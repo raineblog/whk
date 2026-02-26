@@ -1,6 +1,6 @@
-# 三角函数例题 \{#\_1}
+# 三角函数例题
 
-## 例题一 \{#\_2}
+## 例题一
 
 $$
 2\cos^2\{B\over2}+\sqrt3\sin B=3
@@ -12,7 +12,7 @@ $$
 \cos B=2\cos^2\{B\over2}-1\ \cos B+\sqrt3\sin B=2\ \{\sqrt3\over2}\sin B+\{1\over2}\cos B=1\ \sin B\cos30^\circ+\cos B\sin30^\circ=1\ \sin(B+30^\circ)=1=\sin90^\circ\ B=60^\circ
 $$
 
-## 例题二 \{#\_3}
+## 例题二
 
 $$
 (\sin B-\sin C)^2=\sin^2 A-\sin B\sin C
@@ -57,7 +57,7 @@ $$
 C-30^\circ=45^\circ,\ C=75^\circ
 $$
 
-## 例题三 \{#\_4}
+## 例题三
 
 在锐角 $\triangle ABC$ 中，
 
@@ -100,7 +100,7 @@ $$
 \cos A+\cos B+\cos C\in\left(\{\sqrt3+1\over2},\{3\over2}\right]
 $$
 
-## 例题四 \{#\_5}
+## 例题四
 
 在 $\triangle ABC$ 中，$a+b=11$，
 
@@ -122,7 +122,7 @@ $$
 
 因此 $a=6,,b=5$。
 
-## 例题五 \{#\_6}
+## 例题五
 
 $$
 \{\sin A\over\sin B-\sin C}=\{b+c\over b-a}
@@ -144,7 +144,7 @@ $$
 \cos C=\{a^2+b^2-c^2\over2bc}=\{1\over2}
 $$
 
-## 例题六 \{#\_7}
+## 例题六
 
 若，
 
@@ -174,7 +174,7 @@ $$
 
 带入即可，解得 $a=3$。
 
-## 例题七 \{#\_8}
+## 例题七
 
 若，
 
@@ -200,7 +200,7 @@ $$
 
 带入，解得 $a^2=3b^2$，即 $a/b=\sqrt3$。
 
-## 例题八 \{#\_9}
+## 例题八
 
 在 $\triangle ABC$ 中，
 
@@ -234,7 +234,7 @@ $$
 (4-4\cos A)^2+\cos^2A=1\ 16(1-\cos A)^2=(1-\cos A)(1+\cos A)\ 16-16\cos A=1+\cos A\ \cos A=\{15\over17},, \sin A=\{8\over17}
 $$
 
-## 例题九 \{#\_10}
+## 例题九
 
 在 $\triangle ABC$ 中，
 
@@ -278,7 +278,7 @@ $$
 
 即 $\triangle ABC$ 是正三角形。
 
-## 例题十 \{#\_11}
+## 例题十
 
 在 $\triangle ABC$ 中，
 
@@ -302,7 +302,7 @@ $$
 
 即 $A,B$ 中有一个钝角，即 $\triangle ABC$ 为钝角三角形。
 
-## 例题十一 \{#\_12}
+## 例题十一
 
 在 $\triangle ABC$ 中，三边长分别为 $a,a+2,a+4$，最小角余弦值为 $13/14$。
 
@@ -324,7 +324,7 @@ $$
 S=\sqrt\{\{15\over2}\cdot\{9\over2}\cdot\{5\over2}\cdot\{1\over2}}=\{15\sqrt3\over4}
 $$
 
-## 例题十二 \{#\_13}
+## 例题十二
 
 在 $\triangle ABC$ 中，$\angle A=120^\circ$，$BC=6$。
 
@@ -362,7 +362,7 @@ $$
 S=\{1\over2}ah=3\sqrt3
 $$
 
-## 例题十三 \{#\_14}
+## 例题十三
 
 在 $\triangle ABC$ 中，若
 
@@ -394,7 +394,7 @@ $$
 
 即 $\triangle ABC$ 为等腰三角形或直角三角形。
 
-## 例题十四 \{#\_15}
+## 例题十四
 
 若 $\triangle ABC$ 中，$\angle C$ 为钝角，且其面积，
 
@@ -422,7 +422,7 @@ $$
 S=\{1\over2}ac\sin B=\{\sqrt3\over2}ac\cos B\ \sin B=\sqrt3\cos B\ \tan B=\sqrt3,,B=60^\circ
 $$
 
-## 例题十五 \{#\_16}
+## 例题十五
 
 在 $\triangle ABC$ 中，
 
@@ -459,7 +459,7 @@ $$
 a+b+c\le2\sqrt3+3
 $$
 
-## 例题十六 \{#\_17}
+## 例题十六
 
 在 $\triangle ABC$ 中，
 
@@ -487,7 +487,7 @@ $$
 \tan A=\tan30^\circ=\{\sqrt3\over3}
 $$
 
-## 例题十七 \{#\_18}
+## 例题十七
 
 在 $\triangle ABC$ 中，
 
@@ -523,7 +523,7 @@ $$
 \begin\{aligned} S&=\{a^2+b^2-c^2\over c^2}=\{a^2+b^2\over c^2}-1\ &=2022-1=2021 \end\{aligned}
 $$
 
-## 例题十八 \{#\_19}
+## 例题十八
 
 在锐角三角形 $ABC$ 中，$a^2-b^2=bc$。
 
