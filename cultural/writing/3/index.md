@@ -1,8 +1,8 @@
-# 读后续写 {#_1}
+# 读后续写
 
-## 语料 {#_2}
+## 语料
 
-### 情感描写 {#_3}
+### 情感描写
 
 恐惧 (horror)、痛苦 (sorrow)、愤怒 (anger)、感激 (gratitude)
 
@@ -46,7 +46,7 @@
 
 - 秘密/亲密 (Whisper / Murmur)：He whispered softly, as if a profound silence had descended upon the room. (他轻声耳语，仿佛房间陷入了深沉的寂静)。
 
-### 环境渲染 {#_4}
+### 环境渲染
 
 环境不仅是背景，它还能通过时间设定暗示故事的节奏。
 
@@ -88,7 +88,7 @@
 
 - 环境渲染：An eerie silence hung in the air, thick and suffocating, before the storm finally broke. (暴风雨前，空气中弥漫着令人窒息的怪异沉寂)。
 
-### 动作叙述 {#_5}
+### 动作叙述
 
 将一系列简单的动作组合在一起，能瞬间提升叙事的逻辑性和生动性。公式为："动作A, 动作B and 动作C"。
 
@@ -120,7 +120,7 @@
 
 - 关键投射：Sb. took a moment to focus, leaped into the air and shot the ball with precision. (某人专注片刻，跃入空中，精准投球)。
 
-### 衔接修饰 {#_6}
+### 衔接修饰
 
 用高级短语替换 \"Suddenly\"，能瞬间提升叙事张力：
 
@@ -146,15 +146,15 @@
 - 突然顿悟（闪光时刻）： ◦ It was at that very moment that the true essence of the situation dawned on me. (正是在那一刻，事情的真谛在我脑海中浮现)。 ◦ It finally hit me / It clicked for me. (我终于恍然大悟/一下子想通了)。 ◦ He had an epiphany that failure was just part of the journey. (他突然顿悟，失败只是旅程的一部分)。
 - 思维定格/转动： ◦ My mind went blank. (我的大脑瞬间一片空白------常用于恐惧或震惊)。 ◦ Without a second thought, I\... (我毫不犹豫地/不假思索地......)。 ◦ The thought that I might fail never occurred to me. (我从未想过我可能会失败)。
 
-## 范文 {#_7}
+## 范文
 
-### 久别重逢 {#_8}
+### 久别重逢
 
 Eliza introduced herself and waited to hear the name of the other woman. \"Monika,\" the woman breathed, her voice a mere whisper. The name hung in the air for a heartbeat, and Monika seemed rooted to the spot, as if her own identity was a shock. With her heart pounding wildly, Eliza saw Monika's hands begin to tremble as a lifetime of unspoken questions flashed in her eyes. A lump formed in Eliza's own throat as the truth settled upon her---it was Monika, found after all these years. Realizing this fragile miracle could not wait, Eliza gently took the woman\'s arm, her voice urgent, \"You must come with me. My grandmother is just around the corner.\"
 
 They walked the short distance to Lena's home and rang the doorbell. A profound silence hung in the air, thick with anticipation. Eliza pressed the bell, stepped back, and watched, her own breath catching in her throat as the door creaked open. Time seemed to stand still as Lena's eyes met Monika's. In them, she saw not the stranger before her, but the ghost of a girl she once knew---a flicker of disbelief, a slow dawning of memory, and then a wave of pure recognition that washed away the decades. A single tear traced a path down Lena's cheek. The silk scarf, a simple length of fabric, had proven to be an unbreakable thread of friendship, finally pulling two lives back together across the vastness of time.
 
-### 打猎迷路 {#_9}
+### 打猎迷路
 
 The deafening blasts shattered the profound silence, **their echoes rolling through the mountains before the woods seemed to hold their breath, leaving a quietness more menacing than before.**
 

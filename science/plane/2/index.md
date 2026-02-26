@@ -1,8 +1,8 @@
-# 三角函数公式 {#_1}
+# 三角函数公式
 
-## 任意角和角的计量 {#_2}
+## 任意角和角的计量
 
-### 任意角的定义 {#_3}
+### 任意角的定义
 
 平面内一条射线绕其端点从一个位置旋转到另一个位置形成的图形叫做角。
 
@@ -18,7 +18,7 @@
 
 这样就把角的概念推向了任意角。
 
-### 弧度制的定义 {#_4}
+### 弧度制的定义
 
 弧度用符号 $\text{rad}$ 表示，读作「弧度」。
 
@@ -36,7 +36,7 @@ $$
 \{\varphi \mid \varphi = \alpha - 2k\pi, k \in \mathbb{Z}\}
 $$
 
-### 弧度与角度的转化 {#_5}
+### 弧度与角度的转化
 
 关键是，$180^\circ=\pi$，具体的：
 
@@ -44,9 +44,9 @@ $$
 
 以弧度表示的角，乘以 $\dfrac{180^\circ}{\pi}$ 便转换成度数。
 
-## 三角函数的定义 {#_6}
+## 三角函数的定义
 
-### 用直角三角形定义 {#_7}
+### 用直角三角形定义
 
 直角三角形只有锐角三角函数的定义。
 
@@ -58,7 +58,7 @@ $$
 
 定义：正切 $\tan\alpha$ 表示 $\alpha$ 的对边与邻边的比值。
 
-### 用直角坐标系定义 {#_8}
+### 用直角坐标系定义
 
 设点 $P(x,y)$ 是平面直角坐标系 $xOy$ 中的一点。
 
@@ -72,7 +72,7 @@ $$
 
 这样可以定义任何角度的三角函数（除非当定义式无意义时）。
 
-### 用单位圆定义 {#_9}
+### 用单位圆定义
 
 单位圆指半径为单位长度的圆。
 
@@ -86,13 +86,13 @@ $$
 \begin{aligned} x^2+y^2=1\\ \sin\theta=y\\ \cos\theta=x\\ \tan\theta=\frac{y}{x}\\ \end{aligned}
 $$
 
-### 常见的三角函数定义 {#_10}
+### 常见的三角函数定义
 
 $$
 \begin{aligned} \tan\alpha=\frac{\sin\alpha}{\cos\alpha}\\ \cot\alpha=\frac{1}{\tan\alpha}\\ \sec\alpha=\frac{1}{\cos\alpha}\\ \csc\alpha=\frac{1}{\sin\alpha} \end{aligned}
 $$
 
-### 常见角度的三角函数 {#_11}
+### 常见角度的三角函数
 
 |    角度     |   弧度    | 正弦（$\sin$） | 余弦（$\cos$） | 正切（$\tan$） |
 |:-----------:|:---------:|:--------------:|:--------------:|:--------------:|
@@ -114,7 +114,7 @@ $$
 | $330^\circ$ | $11\pi/6$ |     $-1/2$     |   $\sqrt3/2$   |  $-\sqrt3/3$   |
 | $360^\circ$ |  $2\pi$   |      $0$       |      $1$       |      $0$       |
 
-### 正切函数及其性质 {#_12}
+### 正切函数及其性质
 
 定义域：$\{x\mid x\neq k\pi+\pi/2,k\in\mathbb Z\}$；
 
@@ -126,7 +126,7 @@ $$
 
 对称性：奇函数，关于 $(k\pi,0),k\in\mathbb Z$ 对称。
 
-### 尼云定理 {#_13}
+### 尼云定理
 
 尼云定理指出，在 $0\sim90^\circ$ 范围内，如果正弦函数 $\sin$ 的自变量和因变量都要求是有理数，那么答案只有：
 
@@ -134,7 +134,7 @@ $$
 \begin{aligned} \sin0^\circ&=0\\ \sin30^\circ&=1/2\\ \sin90^\circ&=1 \end{aligned}
 $$
 
-## 正弦、余弦函数及其性质 {#_14}
+## 正弦、余弦函数及其性质
 
 分析函数的套路：
 
@@ -146,11 +146,11 @@ $$
 
 - 最大值、最小值、零点。
 
-### 图像 {#_15}
+### 图像
 
 ![三角函数|w100%](../tri-sin-cos-tan.avif)
 
-### 周期性 {#_16}
+### 周期性
 
 $$
 \begin{aligned} \sin\alpha=\sin(\alpha+2\pi)\\ \cos\alpha=\cos(\alpha+2\pi) \end{aligned}
@@ -158,11 +158,11 @@ $$
 
 可知 $\sin$、$\cos$ 是最小正周期为 $2\pi$ 的周期函数。
 
-### 奇偶性 {#_17}
+### 奇偶性
 
 正弦函数是奇函数，余弦函数是偶函数。
 
-### 对称性 {#_18}
+### 对称性
 
 1.  正弦函数：
 
@@ -178,7 +178,7 @@ $$
 
 7.  对称中心：零点；对称轴：极值点。
 
-### 单调性 {#_19}
+### 单调性
 
 1.  正弦函数：
 
@@ -192,13 +192,13 @@ $$
 
 6.  单调递减：$[2k\pi,2k\pi+\pi],k\in\mathbb Z$；
 
-## 正弦曲线及其性质 {#_20}
+## 正弦曲线及其性质
 
 定义：正弦曲线，形如 $y=A\sin(\omega x+\varphi)$。
 
 注意到 $\sin$、$\cos$ 其实都属于正弦曲线。
 
-### 函数 $y=A\sin x$ 的性质 {#yasin-x}
+### 函数 $y=A\sin x$ 的性质
 
 我们发现这个操作其实就是对 $y$ 轴的伸缩：
 
@@ -208,7 +208,7 @@ $$
 
 其中 $A$ 决定了函数上的点的纵坐标的变化幅度，我们称为振幅。
 
-### 函数 $y=\sin(x+\varphi)$ 的性质 {#ysinxvarphi}
+### 函数 $y=\sin(x+\varphi)$ 的性质
 
 我们发现这个操作其实就是对 $y=\sin x$ 图像的平移：
 
@@ -218,7 +218,7 @@ $$
 
 其中 $\varphi$ 决定了初始时刻的位置，我们称为初相。
 
-### 函数 $y=\sin(\omega x)$ 的性质 {#ysinomega-x}
+### 函数 $y=\sin(\omega x)$ 的性质
 
 我们发现这个操作其实就是对 $x$ 轴的伸缩：
 
@@ -234,7 +234,7 @@ $$
 T=\frac{2\pi}{\omega}
 $$
 
-### 函数 $y=\sin(\omega x+\varphi)$ 的性质 {#ysinomega-xvarphi}
+### 函数 $y=\sin(\omega x+\varphi)$ 的性质
 
 一下为作者以前写的文字，简单来说思想有两个：
 
@@ -272,7 +272,7 @@ $$
 
 因此可以得出，$P(x,\sin x)$ 平移到了 $P'\left(\dfrac{x-\varphi}{\omega},\sin x\right)$。
 
-### 正弦函数到 $y=A\sin(\omega x+\varphi)$ 的变换 {#yasinomega-xvarphi}
+### 正弦函数到 $y=A\sin(\omega x+\varphi)$ 的变换
 
 其实就相当于对函数 $y=\sin(\omega x+\varphi)$ 的 $y$ 轴伸缩 $A$ 倍。
 
@@ -296,13 +296,13 @@ $$
 
 注意倒推法的应用。
 
-## 函数 $y=A\sin(\omega x+\varphi)$ 的性质 {#yasinomega-xvarphi_1}
+## 函数 $y=A\sin(\omega x+\varphi)$ 的性质
 
-### 图像 {#_21}
+### 图像
 
 自行百度。
 
-### 基础性质 {#_22}
+### 基础性质
 
 上文写的很详细了，再梳理一遍：
 
@@ -328,7 +328,7 @@ PS：（其实也包括上文）
 
 其中，点 $P(x,\sin x)$ 平移到了 $P\left(\dfrac{x-\varphi}{\omega},A\sin x\right)$。
 
-### 定义域和值域 {#_23}
+### 定义域和值域
 
 我们在这里统一说明正弦曲线的定义域和值域：
 
@@ -336,7 +336,7 @@ PS：（其实也包括上文）
 
 因此，$\sin$、$\cos$ 函数的值域就是 $[-1,1]$。
 
-### 最小正周期 {#_24}
+### 最小正周期
 
 由于其进行的变换对最小正周期没有影响，因此：
 
@@ -344,7 +344,7 @@ $$
 T=\frac{2\pi}{\omega}
 $$
 
-### 绘制简图 {#_25}
+### 绘制简图
 
 五点作图法：正弦曲线在一个周期内，一定是上去下来上去（或是歪了的）。
 
@@ -360,7 +360,7 @@ $$
 
 然后先把这些点画出来，再找三个或更多上述性质的点求解、画图。
 
-### 单调区间 {#_26}
+### 单调区间
 
 可以用下面的方式：
 
@@ -382,7 +382,7 @@ $$
 
 原理就是单增区间往右到下一个单增区间是单减的且长度是半周期。
 
-### 极大、极小值 {#_27}
+### 极大、极小值
 
 对于整个图像的最值，就是函数的值域 $[-A,A]$。
 
@@ -391,7 +391,7 @@ $$
 1.  画出函数简图，找到区间在图像上的位置，找到极大极小点求解。
 2.  画出单位圆的示意图，在单位圆上找到函数的极大极小点，求解。
 
-### 对称轴、对称中心 {#_28}
+### 对称轴、对称中心
 
 对称轴：最值点。
 
@@ -401,7 +401,7 @@ $$
 
 余弦函数的零点都可以表示为 $k\pi+\pi/2,k\in\mathbb Z$，正弦函数不加 $\pi/2$。
 
-### 求正弦曲线解析式 {#_29}
+### 求正弦曲线解析式
 
 也就是求三个值：$A$、$\omega$、$\varphi$。
 
@@ -425,9 +425,9 @@ $$
 
 解方程时要注意 $\varphi$ 的取值一般是 $0\le\varphi<T$，$A$、$\omega$ 的取值一般是正数。
 
-## 诱导公式 {#_30}
+## 诱导公式
 
-### 函数关于 2π 的周期性 {#2}
+### 函数关于 2π 的周期性
 
 是 $\sin$、$\cos$ 的周期。
 
@@ -435,7 +435,7 @@ $$
 \begin{aligned} \sin(\alpha+2\pi)&=\sin\alpha\\ \cos(\alpha+2\pi)&=\cos\alpha\\ \tan(\alpha+2\pi)&=\tan\alpha \end{aligned}
 $$
 
-### 函数关于 π 的周期性 {#_31}
+### 函数关于 π 的周期性
 
 是 $\tan$、$\cot$ 的周期。
 
@@ -443,7 +443,7 @@ $$
 \begin{aligned} \sin(\alpha+\pi)&=-\sin\alpha\\ \cos(\alpha+\pi)&=-\cos\alpha\\ \tan(\alpha+\pi)&=\tan\alpha \end{aligned}
 $$
 
-### 函数的奇偶性 {#_32}
+### 函数的奇偶性
 
 奇函数：$\sin$、$\tan$、$\cot$，偶函数：$\cos$。
 
@@ -451,7 +451,7 @@ $$
 \begin{aligned} \sin(-\alpha )&=-\sin \alpha\\ \cos(-\alpha )&=\cos \alpha\\ \tan(-\alpha )&=-\tan \alpha\\ \end{aligned}
 $$
 
-### 函数关于 y 轴的对称性 {#y}
+### 函数关于 y 轴的对称性
 
 用单位圆象限角理解。
 
@@ -459,7 +459,7 @@ $$
 \begin{aligned} \sin(\pi-\alpha)&=\sin\alpha\\ \cos(\pi-\alpha)&=-\cos\alpha\\ \tan(\pi-\alpha)&=-\tan\alpha \end{aligned}
 $$
 
-### 余函数恒等式 {#_33}
+### 余函数恒等式
 
 用单位圆象限角理解。
 
@@ -467,7 +467,7 @@ $$
 \begin{aligned} \sin(\pi/2-\alpha)&=\cos\alpha\\ \cos(\pi/2-\alpha)&=\sin\alpha\\ \tan(\pi/2-\alpha)&=\cot\alpha \end{aligned}
 $$
 
-### 在直角三角形中的转换 {#_34}
+### 在直角三角形中的转换
 
 用单位圆象限角理解。
 
@@ -475,7 +475,7 @@ $$
 \begin{aligned} \sin \left(\pi/2+\alpha\right)&=\cos\alpha\\ \cos \left(\pi/2+\alpha\right)&=-\sin\alpha\\ \tan \left(\pi/2+\alpha\right)&=-\cot\alpha\\ \end{aligned}
 $$
 
-### 综合：单位圆象限角 {#_35}
+### 综合：单位圆象限角
 
 上述所有式子有一个联系：
 
@@ -498,9 +498,9 @@ $$
 
 常见化简方法：周期性（$\sin$、$\cos$ 是 $2\pi$，$\tan$、$\cot$ 是 $\pi$），奇偶性（$\sin$、$\tan$、$\cot$ 是奇函数，$\cos$ 是偶函数），出现 $\pi/2$ 系列的要变符号，画出单位圆求解。
 
-## 毕达哥拉斯三角恒等式 {#_36}
+## 毕达哥拉斯三角恒等式
 
-### 基础形式 {#_37}
+### 基础形式
 
 $$
 \begin{aligned} \sin^2\alpha+\cos^2\alpha=1 \end{aligned}
@@ -508,7 +508,7 @@ $$
 
 也称为三角函数的勾股定理。
 
-### 正弦和余弦的转换 {#_38}
+### 正弦和余弦的转换
 
 根据上面的，易得：
 
@@ -524,11 +524,11 @@ $$
 
 一定要注意正负号，正负号由该角所在象限决定。
 
-## 和差恒等式及其推导 {#_39}
+## 和差恒等式及其推导
 
 也称为「和差定理」、「和差公式」或「和角公式」。
 
-### 和差恒等式 {#_40}
+### 和差恒等式
 
 $$
 \begin{aligned} \sin(\alpha\pm\beta)&=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta\\ \cos(\alpha\pm\beta)&=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta\\ \tan(\alpha\pm\beta)&=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta} \end{aligned}
@@ -540,7 +540,7 @@ $$
 
 ![alt text|w80%](../tan.svg)
 
-### 二倍角公式 {#_41}
+### 二倍角公式
 
 $$
 \begin{aligned} \sin2\alpha&=2\sin\alpha\cos\alpha\\ \cos2\alpha&=\cos^2\alpha-\sin^2\alpha\\ &=1-2\sin^2\alpha\\ &=2\cos^2\alpha-1\\ \tan2\alpha&=\frac{2\tan\alpha}{1-\tan^2\alpha} \end{aligned}
@@ -548,7 +548,7 @@ $$
 
 可以根据里面的结论推出降次公式。
 
-### 三倍角公式 {#_42}
+### 三倍角公式
 
 $$
 \begin{aligned} \sin3\alpha&=3\sin\alpha-4\sin^3\alpha&&=4\sin\left(\dfrac\pi3-\alpha\right)\sin\alpha\sin\left(\dfrac\pi3+\alpha\right)\\ \cos3\alpha&=4\cos^3\alpha-3\cos\alpha&&=4\cos\left(\dfrac\pi3-\alpha\right)\cos\alpha\cos\left(\dfrac\pi3+\alpha\right)\\ \end{aligned}
@@ -580,7 +580,7 @@ $$
 
 这就是高倍角公式的行列式表示。
 
-### 正切半角公式 {#_43}
+### 正切半角公式
 
 也称为万能公式。
 
@@ -590,7 +590,7 @@ $$
 
 其中下面的一个也等价于正切函数的二倍角公式。
 
-### 降幂公式 {#_44}
+### 降幂公式
 
 降幂公式：
 
@@ -606,7 +606,7 @@ $$
 
 可以根据里面的结论推出半角公式。
 
-### 半角公式 {#_45}
+### 半角公式
 
 $$
 \begin{aligned} \sin\frac{\alpha}{2}&=\pm\sqrt{\frac{1-\cos\alpha}{2}}\\ \cos\frac{\alpha}{2}&=\pm\sqrt{\frac{1+\cos\alpha}{2}}\\ \tan{\frac{\alpha}{2}}&=\pm{\sqrt{1-\cos\theta\over1+\cos\theta}}\\ &=\frac{\sin\alpha}{1+\cos\alpha}=\frac{1-\cos\alpha}{\sin\alpha} \end{aligned}
@@ -614,7 +614,7 @@ $$
 
 正负号由半角所在象限决定。
 
-### 第一类切比雪夫多项式 {#_46}
+### 第一类切比雪夫多项式
 
 第一类 Chebyshev（切比雪夫）多项式由以下递推关系确定：
 
@@ -634,27 +634,27 @@ $$
 \begin{aligned} T_{0}(x) & = 1\\ T_{1}(x) & = x\\ T_{2}(x) & = 2x^{2}-1\\ T_{3}(x) & = 4x^{3}-3x\\ T_{4}(x) & = 8x^{4}-8x^{2}+1\\ T_{5}(x) & = 16x^{5}-20x^{3}+5x\\ T_{6}(x) & = 32x^{6}-48x^{4}+18x^{2}-1\\ T_{7}(x) & = 64x^{7}-112x^{5}+56x^{3}-7x\\ T_{8}(x) & = 128x^{8}-256x^{6}+160x^{4}-32x^{2}+1\\ T_{9}(x) & = 256x^{9}-576x^{7}+432x^{5}-120x^{3}+9x \end{aligned}
 $$
 
-## 和差化积与积化和差 {#_47}
+## 和差化积与积化和差
 
-### 和差化积恒等式 {#_48}
+### 和差化积恒等式
 
 $$
 \begin{aligned} \sin\alpha+\sin\beta&=2\sin{\alpha+\beta\over2}\cos{\alpha-\beta\over2}\\ \sin\alpha-\sin\beta&=2\cos{\alpha+\beta\over2}\sin {\alpha-\beta\over2}\\ \cos\alpha+\cos\beta&=2\cos{\alpha+\beta\over2}\cos {\alpha-\beta\over2}\\ \cos\alpha-\cos\beta&=-2\sin{\alpha+\beta\over2}\sin {\alpha-\beta\over2} \end{aligned}
 $$
 
-### 积化和差恒等式 {#_49}
+### 积化和差恒等式
 
 $$
 \begin{aligned} \sin\alpha\cos\beta&={\sin(\alpha+\beta)+\sin(\alpha-\beta)\over2}\\ \cos\alpha\sin\beta&={\sin(\alpha+\beta)-\sin(\alpha-\beta)\over2}\\ \cos\alpha\cos\beta&={\cos(\alpha+\beta)+\cos(\alpha-\beta)\over2}\\ \sin\alpha\sin\beta&=-{\cos(\alpha+\beta)-\cos(\alpha-\beta)\over2} \end{aligned}
 $$
 
-### 记忆方法 {#_50}
+### 记忆方法
 
 轮换 $\alpha,\beta$，令其为相反数，根据 $\sin,\cos$ 奇偶性判断。
 
-## 公式变形和推导 {#_51}
+## 公式变形和推导
 
-### 平方差公式 {#_52}
+### 平方差公式
 
 $$
 \begin{aligned} \sin(x+y)\sin(x-y)&&&=\sin^2x-\sin^2y&&=\cos^2y-\cos^2x\\ \cos(x+y)\cos(x-y)&&&=\cos^2x-\sin^2y&&=\cos^2y-\sin^2x \end{aligned}
@@ -662,7 +662,7 @@ $$
 
 注意到右边的式子还可以用平方差公式展开。
 
-### 辅助角公式 {#_53}
+### 辅助角公式
 
 对于式子：
 
@@ -696,7 +696,7 @@ $$
 
 也就是 $a\sin x+b\cos x=\sqrt{a^2+b^2}\sin(x+\arctan b/a)$。
 
-### 其他公式 {#_54}
+### 其他公式
 
 $$
 (\sin\alpha\pm\cos\alpha)^2=1\pm\sin2\alpha

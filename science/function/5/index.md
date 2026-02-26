@@ -1,10 +1,10 @@
-# 微积分 {#_1}
+# 微积分
 
 ![alt text](../image-6.avif)
 
-## 积分 {#_2}
+## 积分
 
-### 几何意义 {#_3}
+### 几何意义
 
 如果在 $[a,b](./a\neq b)$ 上函数 $f(x)$ 连续且恒有 $f(x)\geq 0$，那么定积分 $\displaystyle\int_{a}^{b}f(x)dx$ 表示由曲线 $y=f(x)$ 以及直线 $x=a,x=b,y=0$ 围成的曲边梯形的面积。
 
@@ -12,7 +12,7 @@
 
 如果我们把 $x$ 轴上方的面积赋予正号，下方的面积赋予负号，那么在一般情形下，定积分 $\displaystyle\int_{a}^{b}f(x)dx$ 表示由曲线 $y=f(x)$ 以及直线 $x=a,x=b,y=0$ 围成的各部分图形面积的代数和。
 
-### 微积分基本定理 / $\mathrm{Newton-Leibniz}$ 牛顿 - 莱布尼兹公式 {#mathrmnewton-leibniz-}
+### 微积分基本定理 / $\mathrm{Newton-Leibniz}$ 牛顿 - 莱布尼兹公式
 
 以下设 $C$ 是一个常数。
 
@@ -58,7 +58,7 @@ $$
 \int_L^R \frac{cx+d}{ax+b}\ dx=\frac{cx}{a}+(\frac{d}{a}-\frac{bc}{a^2})\times\ln|ax+b|\ |_L^R
 $$
 
-#### 定积分的基本性质 {#_4}
+#### 定积分的基本性质
 
 1.  $$
     \int_a^b Cf(x)\ dx=C\int_a^b f(x)\ dx
@@ -84,7 +84,7 @@ $$
 
 8.  若 $f(x)$ 是奇函数，且在 $[-a,a]$ 上连续，则 \$$\int_{-a}^af(x)\ dx=0$\$
 
-#### 不定积分 {#_5}
+#### 不定积分
 
 我们现在需要一种简单的表示反导数的方式。根据微积分基本定理，我们可以用 $\displaystyle\int f(x)\ dx$ 表示"函数 $f$ 的反导数的集合"，注意任何可积函数都有无数个反导数，唯一不同的是常数部分。例如，
 
@@ -100,7 +100,7 @@ $$
 
 不定积分的性质同定积分的性质。
 
-#### 换元法 {#_6}
+#### 换元法
 
 - 第一换元积分法：令 $y=g(x)$ 有：
 
@@ -146,7 +146,7 @@ $$
     \begin{aligned}\int\sqrt{a^2-x^2}\ dx&\xlongequal{x=a\sin t}\int a\cos t\cdot a\cos t\ dt=a^2\int \cos^2 t\ dt\\&=a^2\int\frac{1+\cos 2t}{2}dt=a^2(\frac{1}{2}t+\frac{1}{4}\sin 2t)+C\\&=a^2(\frac{1}{2}\arcsin\frac{x}{a}+\frac{1}{4}\frac{2}{a^2}x\sqrt{a^2-x^2})+C\\&=\frac{a^2}{2}\arcsin\frac{x}{a}+\frac{x}{2}\sqrt{a^2-x^2}+C\end{aligned}
     $$
 
-#### 分部积分法 {#_7}
+#### 分部积分法
 
 $$
 (uv)'=u'v+uv'\implies uv'=(uv)'-vu'\implies \int uv'\ dx=uv-\int vu'\ dx
@@ -162,7 +162,7 @@ $$
 
 3.  计算 $\displaystyle\int x\ln x\ dx$，设 $u=\ln x,dv=x\ dx$，则 $\displaystyle du=\frac{1}{x}\ dx,v=\frac{1}{2}x^2$ \$$\int x\ln x\ dx=\frac{1}{2}x^2\ln x-\int\frac{1}{x}\cdot\frac{1}{2}x^2\ dx=\frac{1}{2}x^2\ln x-\frac{1}{4}x^2+C$\$
 
-#### Gamma 函数（第二类欧拉积分） {#gamma}
+#### Gamma 函数（第二类欧拉积分）
 
 欧拉发现当 $n$ 为整数时，$\displaystyle\int_0^{+\infty}t^ne^{-t}\ dt=n!$，于是我们把 $n$ 替换成实数，就可变为
 
@@ -174,7 +174,7 @@ $$
 2.  $n$ 为整数时，$\Gamma(n+1)=n!$
 3.  余元公式（欧拉反射原理）：$s\in(0,1)$ 时，$\displaystyle\Gamma(s)\Gamma(1-s)=\frac{\pi}{\sin\pi s}$，得 $\displaystyle\Gamma\left(\frac{1}{2}\right)=\sqrt\pi$
 
-#### 应用 {#_8}
+#### 应用
 
 1.  计算 $y=e^x$ 在 $x=0$ 与 $x=1$ 之间与 $x$ 轴围成的曲边梯形的面积。
 
@@ -196,7 +196,7 @@ $(3)$ 由题意可知，$\forall a,b\in[0,+\infty),a>b$ 满足 $F(a)-F(0)>F(b)-F
 
 接下来就是常规导数了。分离参数 $m\leq\frac{e^x-1}{2x}=g(x),g'(x)=\frac{(x-1)e^x+1}{2x^2}$，令 $h(x)=(x-1)e^x,h'(x)=xe^x\geq 0$，即 $h(x)\uparrow,g'(x)\uparrow,g(x)\uparrow$，由洛必达法则，$\displaystyle m\leq\lim_{x\to 0}\frac{e^x-1}{2x}=\lim_{x\to 0}\frac{e^x}{2}=\frac{1}{2}$.
 
-## 微积分在数列中的应用 {#_9}
+## 微积分在数列中的应用
 
 秒杀神秘放缩的终极方法。但是需要一些高等知识，比如说解简单的常微分方程。但是一般的方程一眼看出来就可以了，这里给出通法：
 
@@ -326,7 +326,7 @@ $$
 
 上述思路可总结出一个结论：若 $\displaystyle\sum_{k=0}^{+\infty}a_kx^k=\prod_{k=1}^{+\infty}(1+b_kx)$，设 $S_n=\displaystyle\sum_{k=1}^{+\infty}b_k^n$，则 \$$S_1=a_1,\ \ \ S_n=\displaystyle\sum_{k=1}^{n-1}(-1)^{k+1}a_kS_{n-k}+(-1)^{n+1}na_n$\$
 
-### 积分放缩在数列中的应用 {#_10}
+### 积分放缩在数列中的应用
 
 我们熟知的积分放缩一般是这样的（证明：几何意义）
 

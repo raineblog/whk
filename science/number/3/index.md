@@ -1,8 +1,8 @@
-# 数论入门 {#_1}
+# 数论入门
 
-## 因数 {#_2}
+## 因数
 
-### 整除 {#_3}
+### 整除
 
 若 $b$ 能整除 $a$，则记为 $a\mid b$，如 $2\mid 12$. 若 $b$ 不能整除 $a$，则记为 $a\nmid b$，如 $5\nmid 12$.
 
@@ -15,7 +15,7 @@
 3.  若 $a\mid b$ 且 $b\mid a$，则 $a=\pm b$.
 4.  设 $m\neq 0$，则 $a\mid b$，当且仅当 $ma\mid mb$.
 
-### 最大公因数与最小公倍数 {#_4}
+### 最大公因数与最小公倍数
 
 设 $a,b$ 是两个不为 $0$ 的整数，能使 $d\mid a$ 和 $d\mid b$ 成立的最大整数 $d$，称为 $a,b$ 的最大公因数，记作 $\gcd(a,b)$.
 
@@ -36,7 +36,7 @@
 1.  若 $a<b$，则有 $\gcd(b,a\ \mathrm{mod}\ b)=\gcd(b,a)=\gcd(a,b)$.
 2.  若 $a\geq b$，不妨设 $a=q\cdot b+r\ (0\leq r<b)$。显然 $r=a\ \mathrm{mod}\ b$. 对于 $a,b$ 的任意公因数 $d$，$\\$ 因为 $d\mid a,d\mid q\cdot b$，故 $d\mid (a-q\cdot b)$，即 $d\mid r$. 因此 $d$ 也是 $b,r$ 的公因数，反之亦成立。$\\$ 故 $a,b$ 的公因数集合与 $b,a\ \mathrm{mod}\ b$ 的公因数集合相同。于是它们的最大公因数也相等。
 
-## 裴蜀定理 {#_5}
+## 裴蜀定理
 
 设 $a,b\in\Z,ab\neq 0$，则 $\exist x,y\in\Z$ 使 $ax+by=\gcd(a,b)=a(x+bu)+b(y-au)$
 
@@ -86,7 +86,7 @@ $$
 
 由上可知，为了证明 $b|a$，只需将 $b$ 分解成若干个两两互素的整数 $b_1,b_2,\dots,b_n$ 之积，证明 $b_i|a$ 即可。
 
-## 质数 {#_6}
+## 质数
 
 - 定义：一个正整数无法被除了 $1$ 和它自身之外的任何自然数整除，则成为质数，否则为合数。
 
@@ -136,7 +136,7 @@ $$
 
 只要证 $a-b$ 和 $2a+2b+1$ 不能同时 $<0$ 即可。设 $a-b<0$，则 $b-a=r^2$. 显然 $r|b,r|a$，令 $b=b_1r,a=a_1r$，代入题目 $a_1^2+6a_1r+3r^2+1=0$，得 $a_1=-3r\pm\sqrt{6r^2-1}$，显然 $6r^2-1$ 应为完全平方数，而 $6r^2-1\equiv 2\ (\mathrm{mod}\ 3)$，矛盾，原命题得证。
 
-## 不定方程 {#_7}
+## 不定方程
 
 例 1：证明两个连续正整数之积不能是完全平方或完全立方。
 
@@ -174,7 +174,7 @@ $$
 
 反之，设 $y\geq x+1$，则 $y^y+z^z>(x+1)^{x+1}>2x^x$，矛盾。而 $y^y+z^z\leq x^x+x^x=2x^x$，所以 $x=y=z$.
 
-## 欧拉函数 {#_8}
+## 欧拉函数
 
 $1$ \~ $N$ 中与 $N$ 互质的数的个数被称为欧拉函数，记为 $\varphi(N)$. 用数学符号表示即为 $\varphi(N)=\displaystyle\sum_{i=1}^{N}[\gcd(i,N)=1]$.
 
@@ -210,7 +210,7 @@ $1$ \~ $N$ 中与 $N$ 互质的数的个数被称为欧拉函数，记为 $\varp
 8.  $n\geq 3$ 时，与 $n$ 互质的数不可能为 $\displaystyle\frac{n}{2}\implies\forall x<n,\gcd(x,n)=\gcd(n-x,n)$，也就是存在一一对应关系。
 9.  设 $f(n)=\displaystyle\sum_{d\mid n}\varphi(d)$，利用 $\varphi$ 是积性函数，得到：$\\$ 若 $n,m$ 互质，则 $f(nm)=\displaystyle\sum_{d\mid nm}\varphi(d)=\displaystyle\sum_{d\mid n}\varphi(d)\cdot\displaystyle\sum_{d\mid m}\varphi(d)=f(n)f(m)$，即 $f(n)$ 是积性函数。$\\$ 对于单个质因子有：$\begin{aligned}f(p^m)&=\displaystyle\sum_{d\mid p^m}\varphi(d)=\displaystyle\sum_{i=0}^{m}\varphi(p^i)=\varphi(1)+\varphi(p)+\varphi(p^2)+\varphi(p^3)+\dots+\varphi(p^m)\\&= 1+(p-1)+(p-1)p+(p-1)p^2+\dots+(p-1)p^{m-1}\\&=1+(p-1)+(p^2-p)+(p^3-p^2)+\dots+(p^m-p^{m-1})=p^m\end{aligned} \\$ 所以 $f(n)=\displaystyle\prod_{i=1}^{m}f(p_i^{c_i})=\displaystyle\prod_{i=1}^{m}p_i^{c_i}=n$
 
-### 积性函数与完全积性函数 {#_9}
+### 积性函数与完全积性函数
 
 若函数 $f(x)$ 满足 $f(1)=1$ 且 $\forall x,y\in\N^{*},\gcd(x,y)=1$ 都有 $f(xy)=f(x)f(y)$，则 $f(x)$ 是积性函数。
 
@@ -231,7 +231,7 @@ $1$ \~ $N$ 中与 $N$ 互质的数的个数被称为欧拉函数，记为 $\varp
 
 完全积性函数：$\varepsilon(n)=[n=1],\text{id}_k(n)=n^k,\text{id}_1(n)$ 通常简记为 $\text{id}(n),f(n)=1$.
 
-## 同余 {#_10}
+## 同余
 
 - 平方数 $\mathrm{mod}\ 4\equiv 0$ 或 $1,\mathrm{mod}\ 8\equiv0$ 或 $1$ 或 $4,\mathrm{mod}\ 3\equiv 0$ 或 $1,\mathrm{mod}\ 5\equiv0$ 或 $\pm 1$.
 - 立方数 $\mathrm{mod}\ 9\equiv 0$ 或 $\pm 1$.
@@ -267,7 +267,7 @@ $$
 
 显然 $\set{x_n}$ 是模 $8$ 后的周期数列，同理 $\set{y_n}$ 也是（ $7,1,7,1,\dots$ ），于是命题得证。
 
-### 费马小定理与欧拉定理 {#_11}
+### 费马小定理与欧拉定理
 
 若整数 $a$ 和整数 $b$ 除以正整数 $m$ 的余数相等，则称 $a,b$ 模 $m$ 同余，记为 $a\equiv b\ (\mathrm{mod}\ m)$.
 
@@ -328,7 +328,7 @@ $$
 
 设 $\varphi(n)=qx_0+r\ (0<r<x_0)$，因为 $a^{x_0}\equiv 1\ (\mathrm{mod}\ n)$，所以 $a^{qx_0}\equiv 1\ (\mathrm{mod}\ n)$. 根据欧拉定理 $a^{\varphi(n)}\equiv 1\ (\mathrm{mod}\ n)$，所以 $a^r\equiv 1\ (\mathrm{mod}\ n)$. 这与 $x_0$ 最小矛盾。故假设不成立，原命题成立。
 
-### 中国剩余定理 {#_12}
+### 中国剩余定理
 
 设 $m_1,m_2,\dots,m_n$ 是两两互质的整数，$m=\displaystyle\prod_{i=1}^n m_i,M_i=\frac{m}{m_i},t_i$ 是线性同余方程 $M_it_i\equiv 1\ (\mathrm{mod}\ m_i)$ 的一个解。对于任意的 $n$ 个整数，方程组
 
@@ -340,7 +340,7 @@ $$
 
 证明：因为 $\displaystyle M_i=\frac{m}{m_i}$ 是除了 $m_i$ 之外所有模数的倍数，所以 $\forall k\neq i,a_iM_it_i\equiv 0\ (\mathrm{mod}\ m_i)$，$\\ \ \ \ \ \ \ \ \ \ \ \text{}$ 所以代入 $x=\displaystyle\sum_{i=1}^{n}a_iM_it_i$，原方程组成立。
 
-### 威尔逊定理 {#_13}
+### 威尔逊定理
 
 - $p$ 为素数 $\xLeftrightarrow{}(p-1)!\equiv -1\ (\mathrm{mod}\ p)$
 
@@ -398,6 +398,6 @@ $$
 
 所以只需统计 $[1,3\times 10^6+7]$ 中的素数即可得出答案。
 
-## 拉格朗日定理 {#_14}
+## 拉格朗日定理
 
 若 $p$ 是质数，则对于模 $p$ 意义下的 $n$ 次整系数多项式 $f(x)=a_nx^n+a_{n-1}x^{n-1}+\dots+a_0(p\nmid a_n)$ 同余方程 $f(x)\equiv 0(\mathrm{mod}\ p)$ 至多有 $n$ 个不同的解。

@@ -1,8 +1,8 @@
-# 数列进阶 {#_1}
+# 数列进阶
 
-## 回顾及补充 {#_2}
+## 回顾及补充
 
-### 经典常量 {#_3}
+### 经典常量
 
 $$
 \pi\approx3.14159
@@ -24,7 +24,7 @@ $$
 \hat\varphi={1-\sqrt5\over2}\approx-.61803
 $$
 
-### 基础公式 {#_4}
+### 基础公式
 
 一些公式，
 
@@ -66,7 +66,7 @@ $$
 
 上面的可以扰动法得出，下面的极限得出。
 
-### 调和级数 {#_5}
+### 调和级数
 
 $$
 H_n=\sum_{i=1}^n{1\over i}
@@ -98,7 +98,7 @@ $$
 
 证明下面再说。
 
-### 欧拉公式 {#_6}
+### 欧拉公式
 
 $$
 \def\ff#1{{1\over#1^2}} {\pi^2\over6}=\ff1+\ff2+\ff3+\ff4+\ff5+\dots
@@ -108,7 +108,7 @@ $$
 \def\ff#1{{1\over#1^2}} {\pi^2\over8}=\ff1+\ff3+\ff5+\ff7+\ff9+\dots
 $$
 
-### 组合数学 {#_7}
+### 组合数学
 
 见我的排列组合笔记。
 
@@ -116,7 +116,7 @@ $$
 \def\qq{\quad} \begin{array}{c} 1\\ 1\qq1\\ 1\qq2\qq1\\ 1\qq3\qq3\qq1\\ 1\qq4\qq6\qq4\qq1\\ 1\qq5\qq10\qq10\qq5\qq1\\ 1\qq6\qq15\qq20\qq15\qq6\qq1\\ 1\qq7\qq21\qq35\qq35\qq21\qq7\qq1\\ 1\qq8\qq28\qq56\qq70\qq56\qq28\qq8\qq1\\ 1\qq9\qq36\qq84\qq126\qq126\qq84\qq36\qq9\qq1\\ 1\qq10\qq45\qq120\qq210\qq252\qq210\qq120\qq45\qq10\qq1\\ \end{array}
 $$
 
-### 线代基础 {#_8}
+### 线代基础
 
 $$
 \left\lvert\begin{matrix}a&b\\c&d\end{matrix}\right\rvert=ad+bc
