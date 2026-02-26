@@ -215,8 +215,10 @@
 ![alt text|w100%](/static/image/image-3.817327f264.avif)
 更详细的极化过程描述：
 
+::: {.grid}
 ![alt text](/static/image/image-17.11331b76de.avif)
 ![alt text](/static/image/image-18.44eb2831d3.avif)
+:::
 在这一部分中，最重要的是实验，我们先明确几个事实：
 
 - 在同一根神经中，等距传导所需时间相同。
@@ -245,8 +247,10 @@
 
 - 枪乌贼具有极粗的神经纤维，可以很好地进行电位和电流的测量活动。
 
+::: {.grid}
 ![alt text](/static/image/image-5.141631e908.avif)
 ![alt text](/static/image/image-6.e56171de64.avif)
+:::
 在蛙的坐骨神经上放置两个微电极，并将它们连接到一个电表上。静息时，电表没有测出电位变化（1），说明神经表面各处电位相等。当在图示神经的左侧一端给予刺激时，靠近刺激端的电极处（a 处）先变为负电位，接着恢复正电位（2、3）；然后，另一电极处（b 处）变为负电位，接着又恢复为正电位（3、4）。
 
 ![alt text|w100%](/static/image/image-8.1d4d9733a0.avif)

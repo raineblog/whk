@@ -1,5 +1,7 @@
 # 魔法少女小圆
 
+::: \{.grid .cards}
+
 - <p>
 
   <figure data-markdown="span">
@@ -99,5 +101,7 @@
   </center>
 
   </p>
+
+:::
 
 喜欢大家！

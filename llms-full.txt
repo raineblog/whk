@@ -3278,6 +3278,8 @@ url: /home/madoka/index.md
 
 # 魔法少女小圆
 
+::: \{.grid .cards}
+
 - <p>
 
   <figure data-markdown="span">
@@ -3377,6 +3379,8 @@ url: /home/madoka/index.md
   </center>
 
   </p>
+
+:::
 
 喜欢大家！
 
@@ -5235,6 +5239,7 @@ $\Delta U/\Delta I$ 问题：
 
 像光电池一类的器件，工作时的特性比较接近电流源。
 
+::: \{.grid}
 :::note
 
 电压源的工作原理
@@ -5283,11 +5288,14 @@ $$
 $I\_S\doteq I$。因此，输出电压会因负载波动而发生较大变化。
 
 :::
+:::
 
 戴维南定理和诺尔顿定理：
 
+::: {.grid}
 ![alt text](/static/image/image-7.c703f80b8b.avif)
 ![alt text](/static/image/image-8.ca24790430.avif)
+:::
 ### 基尔霍夫电路定律
 
 基尔霍夫电路定律（基尔霍夫定律）涉及了电荷的守恒及电势的保守性。
@@ -5708,8 +5716,10 @@ url: /science/circuitry/2/index.md
 
 一个常见的欧姆表电路图如左图所示：
 
+::: {.grid}
 ![alt text](/static/image/image-12.0465b22a5f.avif)
 ![alt text](/static/image/image-22.aa165242aa.avif)
+:::
 我们发现，如果将两个表笔短接（即被测电阻 $R\_x=0$），在欧姆表内部电路由电源、电源内阻 $r$、表头内阻 $R\_g$ 和限流电阻 $R$ 串联组成，则满偏电流为
 
 $$
@@ -5749,14 +5759,18 @@ $$
 
 几个常见的多用电表电路如图所示：
 
+::: {.grid}
 ![alt text](/static/image/image-24.4ec93b8db5.avif)
 ![alt text](/static/image/image-25.2e0e7a3016.avif)
+:::
 ### 电表改装
 
 **检流计** $-\kern\{-0.4em}\bigcirc\kern\{-1em}\{\scriptsize\text\{G}}\kern\{0.05em}-$：也称为**表头**，被用于测量**微弱电流**。指针式的表头是一只高灵敏度的磁电式灵敏检流计，其工作原理为利用电流的磁效应，当电流通过其导线时，会产生磁场，与永久磁铁互斥而带动指针旋转，与磁电式电流表基本相同。电表的主要性能指标基本上取决于表头的性能。表头的灵敏度是指表头指针满刻度偏转时流过表头的直流电流值，这个值越小，表头的灵敏度愈高，其性能就越好。
 
+::: {.grid}
 ![alt text](/static/image/image-9.0e4df74a09.avif)
 ![alt text](/static/image/image-10.89185d2ad2.avif)
+:::
 检流计有内阻 $\Omega$、最大电压 $U$ 和最大电流 $I$，满足欧姆定律，检流计与大电阻串联构成电压表 $-\kern\{-0.4em}\bigcirc\kern\{-1em}\{\scriptsize\text\{V}}\kern\{0.1em}-$，与小电阻并联构成电流表 $-\kern\{-0.4em}\bigcirc\kern\{-1em}\{\scriptsize\text\{ I}}\kern\{0.2em}-$，由欧姆定律分压分流规律，可以计算出应该串联、并联多大的电阻。
 
 电表串并联偏角、示数问题（默认表头一样）：
@@ -5890,6 +5904,7 @@ $$
 伏阻法，又称伏伏法，如图所示：
 
 ![alt text|w80%](/static/image/image-26.40aeb51092.avif)
+::: \{.grid}
 :::note
 
 如左图
@@ -5918,12 +5933,14 @@ $$
 这里的误差，既有可能偏大，也有可能偏小，取决于两个电流表分流程度。当且仅当知道两个电流表的内阻，可以消除系统误差。
 
 :::
+:::
 
 ### 安阻法
 
 安阻法，又称安安法，如图所示：
 
 ![alt text|w80%](/static/image/image-27.f31a4b681f.avif)
+::: \{.grid}
 :::note
 
 如左图
@@ -5950,6 +5967,7 @@ $$
 
 此处可以认为 $R\_0$ 充当了电流表，相当于外接，测量值比真实值偏小。
 
+:::
 :::
 
 ### 半偏法
@@ -6015,8 +6033,10 @@ $$
 
 将待测电阻 $R\_x$ 和 $R\_3$ 串联，可变电阻 $R\_2$ 和 $R\_1$ 串联。再将这两个串联电路并联，在各路中点间接入检流计 $V\_G$。其中 $V\_G$ 可以认为是测量电势差的，或是测量电流的，因为这是等价的。
 
+::: {.grid}
 ![alt text|w90%](/static/image/image-2.0c3bacb9bf.avif)
 ![alt text|w90%](/static/image/image-3.0dd538e95f.avif)
+:::
 我们得出结论：当桥臂满足
 
 $$
@@ -6036,6 +6056,7 @@ $$
 ![alt text|w60%](/static/image/image-31.ebfef99f94.avif)
 理想情况下，电流表测外电流、电压表测外电压，因为要测两个量，我们最常见的减小偶然误差的方式就是图像法，容易想到我们会指出伏安（$U-I$）图形，两种方法
 
+::: \{.grid}
 :::note
 
 内接法（如左图）
@@ -6085,6 +6106,7 @@ $$
 等效上，测量值等效于**电压表和原电源并联**得到的新电源的电动势和内阻，因为电压表支路始终有电流通过，因此新电源电动势偏小、内阻偏小。
 
 :::
+:::
 
 如图形所示：
 
@@ -6098,6 +6120,7 @@ $$
 ![alt text|w60%](/static/image/image-32.be060cf9c5.avif)
 其思想分别是将电阻箱两端的电压、电流当做外电压、总电流，因此也容易进行误差分析。
 
+::: \{.grid}
 :::note
 
 安阻法（如左图）
@@ -6149,6 +6172,7 @@ $$
 
 其实在左边的也可以等效为伏安法内接的误差分析。
 
+:::
 :::
 
 一般来说，安阻法适合内阻较大的电源，伏阻法适合内阻较小的电源，与其他方法类似的是，如果某个电表内阻已知，则一定可以使用这个以精确测量。
@@ -6253,16 +6277,20 @@ $$
 
 1879 年，美国物理学家霍尔观察到，在匀强磁场中放置一块矩形截面的载流导体，当磁场方向与电流方向垂直时，导体中能够自由移动的带电粒子在洛伦兹力的作用下，向着与电流、磁场都垂直的方向漂移，继而在该方向上出现了电势差。后来大家把这个现象称为霍尔效应，所产生的电势差称为霍尔电势差或霍尔电压。
 
+::: {.grid}
 ![alt text](/static/image/image-35.8cd79f1301.avif)
 ![alt text|w85%](/static/image/image-36.dc877450af.avif)
+:::
 除导体外，半导体也能产生霍尔效应，而且半导体的霍尔效应要强于导体。在一个很小的矩形半导体（如砷化铟）薄片上制作四个电极，它就成了一个霍尔元件。在电极 E、F 间通入恒定的电流，同时外加与薄片垂直的磁场，则在电极 M、N 间可出现霍尔电压。
 
 通过分析可知，霍尔电压与磁感应强度有线性关系，因此利用霍尔元件可以测量磁感应强度的大小和方向。霍尔元件能够把磁感应强度这个磁学量转换为电压这个电学量。霍尔元件除了可以检测磁场及其变化，还可以在各种与磁场有关的场合中使用。利用霍尔元件进行微小位移，在两块磁感应强度相同、同极相对放置的磁体缝隙中放入霍尔元件，当霍尔元件处于中间位置时，磁感应强度为零，霍尔电压为零，可将该点作为位移的零点。当霍尔元件沿着 $z$ 轴方向移动时，则有霍尔电压输出，且电压大小与位移大小成正比，从而能够实现微小位移的测量。
 
 ### 电磁继电器
 
+::: {.grid}
 ![alt text|w70%](/static/image/image-38.b062efc512.avif)
 ![alt text|w90%](/static/image/image-39.d72096d92c.avif)
+:::
 
 
 ---
@@ -7795,8 +7823,10 @@ $$
 
 构成：两块金属板加一个绝缘介质。具体的，平行板电容器是一种简单的电容器，是由互相平行、以空间或介电质隔离的两片薄板导体构成。
 
+::: {.grid}
 ![电容器原理](/static/image/Diel.05900ba2f9.avif)
 ![电容器](/static/image/Dielectric.fd1e983aec.avif)
+:::
 电容：表示电容器储存电荷的能力。用 $C$ 表示，单位为 $\text F$ 法拉。
 
 电容器的应用：
@@ -8234,6 +8264,8 @@ $$
 
 安培定则：
 
+::: \{.grid .cards}
+
 - **安培定则**（一）
 
   ***
@@ -8253,8 +8285,11 @@ $$
   将右手握住螺线管，四根手指朝着电流方向指去，然后将大拇指沿着螺线管的中心轴伸直，则磁场的方向即为大拇指所指的方向。
 
   <img alt="alt text|w100%" src={image6} />
+  :::
 
 电动机定则：又称左手定则，是判断磁场中通电导体的安培力、带电微粒的洛伦兹力的方向的。
+
+::: \{.grid .cards}
 
 - **安培力的方向**
 
@@ -8285,8 +8320,11 @@ $$
   将左手的食指，中指和拇指伸直，使其在空间内相互垂直。食指方向代表磁场的方向，中指代表电流的方向，那拇指所指的方向就是受力的方向。使用时可以记住「中指，食指，拇指」指代「电，磁，力」。
 
   <img alt="alt text" src={image9} />
+  :::
 
 发电机定则：当只有部分导线切割磁感线运动时，无法通过楞次定律判断电流，可根据右手定则判断感应电流的方向。若没有构成闭合回路，无感应电流，但可以判断电势高低，手指指向哪里，哪里电势高。
+
+::: \{.grid .cards}
 
 - **右手定则**
 
@@ -8303,6 +8341,7 @@ $$
   右手三根手指互相垂直，拇指的方向是导线移动方向，食指指的是磁场方向，中指的则为电流方向。使用时可以记住「中指，食指，拇指」指代「电，磁，力」。
 
   <img alt="alt text|w100%" src={image11} />
+  :::
 
 ## 磁场力
 
@@ -8530,8 +8569,10 @@ $$
 
 将电场与磁场或多个电场、磁场拼接在一起，例如
 
+::: {.grid}
 ![alt text|w90%](/static/image/image-33.be2d84d0cd.avif)
 ![alt text|w90%](/static/image/image-35.3b5b952b29.avif)
+:::
 在拼接场中，最重要的是找分段运动（在各个场之间）的等量关系：速度、方向等。
 
 在叠加场中，速度选择器就是一个最基本的模型，我们知道
@@ -8553,8 +8594,10 @@ $$
 ![alt text|w70%](/static/image/20251017202756.0c0b303c0f.avif)
 我们将这个时刻的状态分为四个方向上的四个矢量相加，水平方向上的速度分出来一个向右的速度 $v\_1=\dfrac\{e}\{B}$，剩下的速度留在向左的方向上 $\bm v=\bm v\_1+\bm v\_2$。将洛伦兹力也拆分为这两个速度对于的洛伦兹力的合力，分为两部分。再加上电场力，将状态视为下面两图的矢量叠加。
 
+::: {.grid}
 ![alt text|w90%](/static/image/20251017203246.d7273ce347.avif)
 ![alt text|w90%](/static/image/20251017203332.717df527f9.avif)
+:::
 容易发现，在左图中，进行的是一个匀速圆周运动，在右图中，进行的是一个匀速直线运动。我们将其合并起来，就会有两（三）种情况，需要讨论圆周运动的速度与直线运动的速度的大小关系，另外一种情况如图所示：
 
 ![alt text|w60%](/static/image/image-36.a7ff8a097b.avif)
@@ -8620,11 +8663,15 @@ $$
 
 我们将盒子放在真空中，将一个带电粒子放在缝隙中央，则其会被电场加速，进入一个 D 形盒，而盒子内部没有电场只有磁场，带电粒子会进行一个半圆周的运动，再次经过缝隙，假设此时交变电场依然可以将粒子加速，粒子加速后进入另一半 D 形盒。
 
+::: {.grid}
 ![alt text|w50%](/static/image/image-15.3535a5ed89.avif)
 ![alt text|w80%](/static/image/image-38.8733e5dca2.avif)
+:::
 同样的，粒子这次只是入射速度加大了，根据磁场的性质，粒子再次经过磁场，时间间隔是不变的，因此只需要加速固定频率的交变电流，就可以将带电粒子不断加速。随着粒子速度点加大，其也愈来愈接近 D 形盒的边缘，当加速到预期速率后，利用致偏电极将粒子引入即可。
 
 注意：有一些复杂的题目可能需要考虑粒子经过缝隙的时间。我们画出 $v-t$ 图，那么速度不变的每一段时间应当是相等的，加速段的时间越来越短。如果我们将若干个加速段拼接在一起，就会得到单独的加速电场所产生的匀加速运动的图像。
+
+::: \{.grid .cards}
 
 - 根据
 
@@ -8661,6 +8708,7 @@ $$
   $$
 
   后面即为磁场中的半周期公式，可以得到在磁场中的总时间，注意此处的 $n$ 应当考虑出磁场时的相位，二不仅仅是前面 $n$ 所表示的加速次数。
+  :::
 
 然而在实际中，根据相对论效应，这样并不能保证粒子经过缝隙时始终得到加速，因此我们可以让磁场不在均匀，称为同步加速器；也可以让交变电流的频率改变，称为同步回旋加速器。
 
@@ -8927,8 +8975,10 @@ $$
 
 图 15.36 是日光灯的电路图，它主要由灯管、镇流器和启动器组成。日光灯不是靠它的灯丝发光的，在灯管内充有稀薄的汞汽，当汞汽导电时，汞原子受激发而产生紫外线，涂在管壁上的荧光粉吸收紫外线，发出可见光。各种荧光粉发出不同颜色的光，混合起来使人有白光的感觉。激发汞汽导电所需要的电压比 $220\text\{ V}$ 的电源电压高得多，而在汞汽一旦被激发发光后，灯管内的电阻立刻变小，此时只需较低的电压就能维持汞汽导电发光的状态，这个电压比电源电压小得多。这两方面的要求都是利用跟灯管串联的镇流器来完成的，镇流器是一个自感系数很大的有铁心的线圈。启动器是一个充有氖气的装置，通电后能很快地自动断电。开关闭合后，灯管内气体的电阻极大，相当于断路，所以电流通过串联的镇流器、灯丝和启动器，但启动器很快就突然断电，使镇流器产生很大的自感电动势，和电源的电压一起加在灯管两端的灯丝上，使汞汽被激发导电，灯管发光。灯管正常发光后，灯管和镇流器成串联状态，镇流器对交流电产生很大的阻碍作用（下一章我们将研究这个问题），分掉一部分电压，使灯管两端的电压降低到维持正常发光所需的电压，这样就保证了日光灯的正常工作。
 
+::: {.grid markdown=""}
 ![alt text|w80%](/static/image/image-43.982c36c423.avif)
 ![alt text|w60%](/static/image/image-44.814e5ef113.avif)
+:::
 自感现象也有不利的一面。例如，在自感系数很大而电流有很强的电路（如大型电动机中产生磁场的电磁铁电路）中，在切断电路的瞬间，会产生很高的自感电动势，使开关的闸刀和固定夹片之间的空气被激发产生电离而导电，形成电弧。这样会把开关烧毁，甚至造成其他灾害。为了防止这类现象，最好是把开关放在绝缘性能良好的油中。又如，电阻箱中的电阻通常都是用电阻线绕制而成的，为了避免绕线的自感影响电路，制作时采用双线绕法，如图 15.37 所示。
 
 ## 感应方法
@@ -9161,6 +9211,7 @@ url: /science/electromagnetism/6/index.md
 ![alt text|w100%](/static/image/e-image-39.0c48547b77.avif)
 设 $t=0$ 时线圈刚好转到中性面位置，此时导线 $AB$ 的速度方向刚好与磁感线平行，因此感应电动势为 $0$。不妨设线圈旋转的角速度为 $\omega$，$AB$ 和 $CD$ 的长度为 $\ell$，$AD$ 和 $BC$ 的长度为 $d$，则经过时间 $t$，线框转过的角度 $\theta=\omega t$，如图所示。
 
+::: {.grid}
 ![alt text|w85%](/static/image/e-image-32.45a3eb7461.avif)
 |        |    中性面   |   中性面垂面  |
 | :----: | :------: | :------: |
@@ -9170,6 +9221,7 @@ url: /science/electromagnetism/6/index.md
 |   电流   |    $0$   |    最大    |
 |   电动势  |    $0$   |    最大    |
 |  电流特征  |   方向改变   |   达到极值   |
+|   :::  |          |          |
 
 线框旋转过程中，在与磁感线垂直的方向上速度为：
 
@@ -9495,8 +9547,10 @@ $$
 
 在此之后，交流电路有很多复杂的类型，很多也是大学物理才会接触到的，尤其是涉及到相位等等，会较为复杂，甚至需要使用微积分来解决。我们下面只进行一个简单的概念处理，更多内容可以自行学习。
 
+::: {.grid}
 ![alt text|w70%](/static/image/e-image-53.3e94d05429.avif)
 ![alt text|w70%](data:image/avif;base64,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)
+:::
 在有些电子线路中，从某一部分电路输出的电流中既有交流成分，又有直流成分。如果和它连接的下一级电路只需要其中的交流成分，可以在两个电路之间串联一个电容器，使直流成分不能通过，作这种用途的电容器叫做隔直电容器。
 
 在有的电子线路中，交流电既有高频成分，又有低频成分。如果下一级电路只需要低频交流电，就可以在它的输入端并联一个电容器，由于电容器对高频电流容抗较小，大部分高频电流分流到电容器所在的支路，反之，电容器对低频电路的容抗较小，通过它的低频电流很小，这样大部分低频电流便输入下一级电路，作这种用途的电容器叫做高频旁路电容器。
@@ -9570,8 +9624,10 @@ $$
 
 它们随时间变化的曲线如图 5-24 所示。这种幅值、频率相同而相位彼此差 $\frac\{2}\{3}\pi$ 的三个交流电，叫做**三相交流电**，每个线圈产生的交流电叫做三相交流电的一相。
 
+::: {.grid}
 ![alt text|w80%](/static/image/e-image-55.101c33c90f.avif)
 ![alt text|w80%](/static/image/e-image-56.7d7163fdd6.avif)
+:::
 相电压和线电压：把三相发电机中的三个线圈各自独立地分别与外电路连接，便可得到三个交流电路，这样做需用六根输电线。实际上，总是把每个线圈的末端 $X$、$Y$、$Z$ 连接在一起，从它们的公共点 $O$ 引出一根导线，再从三个线圈的始端 $A$、$B$、$C$ 各引出一根导线，共用四根导线向外输电，如图 5-25 所示。线圈的这种连接方法叫做**星形接法**，采用这种接法向外送电叫做**三相四线制**，其中从 $A$、$B$、$C$ 三个始端引出的输电线叫做**相线**（俗称火线），从公共端引出的输电线叫做**中性线**或**零线**，因其常与大地相连接，俗称**地线**。
 
 ![alt text|w40%](/static/image/e-image-57.de36a14af9.avif)
@@ -18214,8 +18270,10 @@ $$
 
 勒洛三角形，又被称为弧三角形或曲边三角形，是除了圆形以外，最简单易懂的勒洛多边形，一个定宽曲线。
 
+::: {.grid}
 ![alt text](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxMDY2LjU0IDEwMTkuMDYiPjxwYXRoIGZpbGw9IiNmY2EiIHN0cm9rZT0iIzAwZiIgc3Ryb2tlLXdpZHRoPSIzLjU0IiBkPSJNMjQ4LjAyMiAzOTEuMTU2QzE0Mi4xNDQgNDUyLjQ1MiA3MC44NjYgNTY2Ljk3IDcwLjg2NiA2OTguMDMxYzUyLjEyOSAzMC4xNzggMTEyLjYzIDQ3LjQ3IDE3Ny4xNTYgNDcuNDcgNjQuNTE0IDAgMTI1LjAzNS0xNy4yNzIgMTc3LjE1Ny00Ny40Mzh2LS4wMzJjMC0xMzEuMDYxLTcxLjI3OC0yNDUuNTc5LTE3Ny4xNTctMzA2Ljg3NXoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI4NS4yMzYgLTM1LjA3MikiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMwMGYiIHN0cm9rZS13aWR0aD0iMy41NCIgZD0iTTc3OS41MyA2OTguMDMzYTM1NC4zMzIgMzU0LjMzMiAwIDEgMS03MDguNjY0IDAgMzU0LjMzMiAzNTQuMzMyIDAgMSAxIDcwOC42NjMgMHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI4NS4yMzYgLTM1LjA3MikiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9InJlZCIgc3Ryb2tlLXdpZHRoPSIzLjU0IiBkPSJNNjAyLjM2NCAzOTEuMTc2YTM1NC4zMzIgMzU0LjMzMiAwIDEgMS03MDguNjYzIDAgMzU0LjMzMiAzNTQuMzMyIDAgMSAxIDcwOC42NjMgMHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI4NS4yMzYgLTM1LjA3MikiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9ImdyZWVuIiBzdHJva2Utd2lkdGg9IjMuNTQiIGQ9Ik00MjUuMTk4IDY5OC4wMzNhMzU0LjMzMiAzNTQuMzMyIDAgMSAxLTcwOC42NjMgMCAzNTQuMzMyIDM1NC4zMzIgMCAxIDEgNzA4LjY2MyAweiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjg1LjIzNiAtMzUuMDcyKSIvPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2Y2MCIgc3Ryb2tlLXdpZHRoPSIzLjU0IiBkPSJtNzAuNDE1IDY5Ny43OTIgMzU0Ljc4Mi42NjctMTc3LjM3LTMwNy40MjV6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyODUuMjM2IC0zNS4wNzIpIi8+PGcgZmlsbD0iI2JiYiIgc3Ryb2tlPSIjMDAwIj48cGF0aCBzdHJva2Utd2lkdGg9IjIiIGQ9Ik0yIDE3MmExOTYgMTk2IDAgMCAwIDE5NiAwQTE5NiAxOTYgMCAwIDAgMTAwIDIgMTk2IDE5NiAwIDAgMCAyIDE3MloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDM1Mi45MTQgMzUzLjk5OClzY2FsZSgxLjgwMjEyKSIvPjxwYXRoIGQ9Ik0yIDE3MmgxOTZMMTAwIDJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzNTIuOTE0IDM1My45OTgpc2NhbGUoMS44MDIxMikiLz48L2c+PC9zdmc+)
 ![alt text](/static/image/image.24ae1f8fc4.avif)
+:::
 勒洛多边形是勒洛三角形的拓展：
 
 ![alt text|w80%](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNDIgMzQyIj48cGF0aCBmaWxsPSIjMjMxZjIwIiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iMS41IiBkPSJNMzIzLjc3NSAyOTguMjc3YTE0MyAxNDMgMCAwIDAgOS4yMjQtMjguNDIybC4wMDEtLjEwM2MwLTEwLjIyNS0xLjA3My0yMC4xOTYtMy4wOTktMjkuODE4YTE0NCAxNDQgMCAwIDAtMTUuMjU2LTI2LjMyMSAxNDQuNCAxNDQuNCAwIDAgMC0yNC4xNzEtMTcuNTQ3IDE0My4zIDE0My4zIDAgMCAwLTI5LjM2My02LjI1OSAxNDMuMyAxNDMuMyAwIDAgMC0zMC4xMzcgNi40MzggMTQ0LjQgMTQ0LjQgMCAwIDAtMjMuMzMxIDE2Ljk3MiAxNDMuOCAxNDMuOCAwIDAgMC0xNS41NDUgMjYuNzE4IDE0NC43IDE0NC43IDAgMCAwLTMuMDk5IDI5Ljc4NiAxNDMgMTQzIDAgMCAwIDkuMjk3IDI4LjY1NSAxNDUgMTQ1IDAgMCAwIDIwLjI0NiAyMi40NTkgMTQzLjIgMTQzLjIgMCAwIDAgMjcuMjk5IDEyLjE1OWM0Ljk4MS41MjEgMTAuMDM4Ljc5MyAxNS4xNTguNzkzczEwLjE3Ny0uMjcyIDE1LjE1OC0uNzkzYTE0My4yIDE0My4yIDAgMCAwIDI3LjI5NS0xMi4xNTcgMTQ0LjcgMTQ0LjcgMCAwIDAgMjAuMzIzLTIyLjU2ek04MC45OTkgMTg5Ljc5OGMtMjkuMjE2IDkuNTEzLTU0LjMyNiAyOC4xMDktNzEuOTk4IDUyLjQ2Mi4wMzUgMzEuNTkgMTAuMjQ4IDYwLjc5MiAyNy41MjcgODQuNTE5IDE0LjAwNyA0LjU0NCAyOC45NTEgNy4wMSA0NC40NzIgNy4wMXMzMC40NjMtMi40NjYgNDQuNDY5LTcuMDA5YzE3LjI4LTIzLjcyNyAyNy40OTQtNTIuOTMgMjcuNTI4LTg0LjUyMS0xNy42NzItMjQuMzUyLTQyLjc4Mi00Mi45NDgtNzEuOTk4LTUyLjQ2MXpNMjYxIDguOTc3Yy00My4wNCAyNC44OTgtNzEuOTk5IDcxLjQyOS03MiAxMjQuNzI4IDIxLjE5MSAxMi4yNyA0NS43OTcgMTkuMjk2IDcyLjA0NiAxOS4yOTYgMjYuMjEgMCA1MC43ODMtNy4wMDYgNzEuOTUzLTE5LjI0MWwuMDAxLS4wNTJjMC01My4zLTI4Ljk1OS05OS44MzItNzItMTI0LjczMXpNMTQ5Ljg0MSAxMjkuMDQ5YTE0NC41IDE0NC41IDAgMCAwIDMuMTU3LTMwLjA1M2MtNi40MzMtMzAuMzAxLTIyLjM5Mi01Ny4wNzctNDQuNi03Ny4wNDhBMTQzLjIgMTQzLjIgMCAwIDAgODEuMTA2IDkuNzkzTDgxIDkuNzgxbC0uMTAyLjAxMWExNDMuMiAxNDMuMiAwIDAgMC0yNy4zMDYgMTIuMTYzQzMxLjM4NyA0MS45MyAxNS40MjkgNjguNzEgOSA5OS4wMTVhMTQ0LjYgMTQ0LjYgMCAwIDAgMy4xNSAzMCAxNDQuNCAxNDQuNCAwIDAgMCAyNC4zMjggMTcuNzA3YzE0LjA1OCA0LjU4MSAyOS4wNjEgNy4wNjcgNDQuNjQ3IDcuMDY3IDE1LjQzMiAwIDMwLjI5My0yLjQzOCA0NC4yMy02LjkzMmExNDQuNCAxNDQuNCAwIDAgMCAyNC40MjktMTcuNzN6Ii8+PHBhdGggZmlsbD0iI2ZmZWJhYSIgZD0ibTE4OSAxMzMuNzA4IDMuMTQ2LTI5LjkzOSA5LjMwMy0yOC42MyAxNS4wNTItMjYuMDczIDIwLjE0NS0yMi4zNzFMMjYxIDlsMjQuMzU1IDE3LjY5NCAyMC4xNDMgMjIuMzcyIDE1LjA1MyAyNi4wNzIgOS4zMDIgMjguNjMxTDMzMyAxMzMuNzA4bC0yNy41MDIgMTIuMjQ1LTI5LjQ0NiA2LjI1OWgtMzAuMTA1bC0yOS40NDYtNi4yNnpNNjUuOTQ5IDE1M2gzMC4xMDVsMjkuNDQ2LTYuMjU5IDI0LjM1NC0xNy42OTYgMy4xNDctMjkuOTM4LTkuMzAyLTI4LjYzLTE1LjA1My0yNi4wNzMtMjAuMTQzLTIyLjM3MUw4MS4wMDIgOS43ODkgNTMuNDk5IDIyLjAzMyAzMy4zNTUgNDQuNDA2bC0xNS4wNTIgMjYuMDdMOSA5OS4xMDdsMy4xNDggMjkuOTQgMjQuMzU1IDE3LjY5M3ptMTI2LjE5NyA4Ni44MTMgMTUuMDUzLTI2LjA3MSAyNC4zNTUtMTcuNjk0IDI5LjQ0Ni02LjI2IDI5LjQ0NiA2LjI2IDI0LjM1NSAxNy42OTUgMTUuMDUzIDI2LjA3IDMuMTQ2IDI5Ljk0LTkuMzAzIDI4LjYzMS0yMC4xNDIgMjIuMzcxLTI3LjUwMiAxMi4yNDQtMzAuMTA1LjAwMS0yNy41MDItMTIuMjQ0LTIwLjE0My0yMi4zNzJMMTg5IDI2OS43NTN6TTguOTk5IDI0Mi4xbDIwLjE0NS0yMi4zNzIgMjQuMzU0LTE3LjY5NEw4MSAxODkuNzg4bDI3LjUwMyAxMi4yNDUgMjQuMzUzIDE3LjY5NiAyMC4xNDMgMjIuMzctMy4xNDcgMjkuOTQxLTkuMzAzIDI4LjYyOS0xNS4wNSAyNi4wNzItMjkuNDQ2IDYuMjU4LTMwLjEwNS4wMDEtMjkuNDQ1LTYuMjU5LTE1LjA1Ni0yNi4wNzItOS4zMDEtMjguNjMxeiIvPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwODFjZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTgxLjAwMiA5Ljc4OSA2NS45NDkgMTUzTTgxLjAwMiA5Ljc4OSAzNi41MDMgMTQ2Ljc0bTcyLTEyNC43MDctNzIgMTI0LjcwN004MS4wMDIgOS43ODkgOTYuMDU0IDE1M004MS4wMDIgOS43ODkgMTI1LjUgMTQ2Ljc0MU0yNjEgOS4wMDFsLTE1LjA1MyAxNDMuMjExTTI2MSA5LjAwMWwtNDQuNDk5IDEzNi45NTFNMjYxIDkuMDAxbC03MiAxMjQuNzA3TTI2MSA5LjAwMWwxNS4wNTIgMTQzLjIxMU0yNjEgOS4wMDFsNDQuNDk4IDEzNi45NTJNMTg5IDEzMy43MDhsMTMxLjU1MS01OC41N00xODkgMTMzLjcwOGwxNDAuODUzLTI5LjkzOU0xODkgMTMzLjcwOGgxNDRtLTE0NCAwIDExNi40OTgtODQuNjQyTTE4OSAxMzMuNzA4bDk2LjM1NS0xMDcuMDE0TTMzMyAxMzMuNzA4IDIxNi41MDEgNDkuMDY2TTMzMyAxMzMuNzA4IDIzNi42NDYgMjYuNjk1TTMzMyAxMzMuNzA4IDI2MSA5bTcyIDEyNC43MDhMMjAxLjQ0OSA3NS4xMzlNMzMzIDEzMy43MDhsLTE0MC44NTQtMjkuOTM5TTUzLjUgMjIuMDMzbDcyIDEyNC43MDhNMTIuMTQ4IDEyOS4wNDdsMTMxLjU1MS01OC41N20tMTMxLjU1MSA1OC41NyAxNDAuODUzLTI5Ljk0bS0xNDQgMGgxNDRtLTE0MC44NTMgMjkuOTQgMTE2LjQ5OC04NC42NDNNMTIuMTQ4IDEyOS4wNDdsOTYuMzU1LTEwNy4wMTRtNDEuMzUxIDEwNy4wMTJMMzMuMzU1IDQ0LjQwNm0xMTYuNDk5IDg0LjYzOUw1My40OTkgMjIuMDMzbTk2LjM1NSAxMDcuMDEyTDE4LjMwMyA3MC40NzZtMTMxLjU1MSA1OC41NjlMOSA5OS4xMDdtMTQ0LjAwMSAwSDltNzIgOTAuNjgxIDQ0LjQ5OSAxMzYuOTUzTTgxIDE4OS43ODhsMTUuMDUzIDE0My4yMTFNODEgMTg5Ljc4OCA2NS45NDggMzMzTTguOTk5IDI0Mi4xbDE0NC0uMDAxbS0xNDQgLjAwMSAxNDAuODUzIDI5Ljk0TTguOTk5IDI0Mi4xbDEzMS41NSA1OC41NjlNMzYuNTAzIDMyNi43NDEgODEgMTg5Ljc4OE0zNi41MDMgMzI2Ljc0MWw3Mi0xMjQuNzA4bS03MiAxMjQuNzA4IDk2LjM1My0xMDcuMDEybS03LjM1NyAxMDcuMDEyTDguOTk5IDI0Mi4xbTExNi41IDg0LjY0MUwyOS4xNDQgMjE5LjcyOG05Ni4zNTUgMTA3LjAxM0w1My40OTggMjAyLjAzNG05OS41MDEgNDAuMDY1TDM2LjUgMzI2Ljc0MW0xMTYuNDk5LTg0LjY0Mi0xMzEuNTUyIDU4LjU3bTEzMS41NTItNTguNTdMMTIuMTQ2IDI3Mi4wMzhNMTg5IDI2OS43NTNoMTQ0bS0xNDQgMCAxNDAuODU0LTI5Ljk0bS0xMzcuNzA4IDAgMTMxLjU1MSA1OC41NzFtLTEzMS41NTEtNTguNTcxTDMzMyAyNjkuNzUzbS0xMTQuNTU0IDUxLjAwMyA5Ni4zNTUtMTA3LjAxM20tOTYuMzU1IDEwNy4wMTMgNzItMTI0LjcwOG0tOTIuMTQzIDEwMi4zMzYgMTMxLjU1MS01OC41NzFtLTEzMS41NTEgNTguNTcxIDExNi40OTgtODQuNjQxTTI0NS45NDggMzMzbDQ0LjQ5OC0xMzYuOTUyTTI0NS45NDggMzMzIDI2MSAxODkuNzg4bTQyLjU1NSAxMzAuOTY3LTcyLjAwMS0xMjQuNzA3bTcyLjAwMSAxMjQuNzA3LTk2LjM1Ni0xMDcuMDEzbTExNi40OTggODQuNjQyLTExNi40OTgtODQuNjQybTY4Ljg1NCAxMTkuMjU3TDI2MSAxODkuNzg4bTE1LjA1MyAxNDMuMjExLTQ0LjQ5OS0xMzYuOTUxIi8+PC9zdmc+)
@@ -18633,8 +18691,10 @@ $$
 
 点 $P$ 到 $\triangle ABC$ 各边的投影共线，当且仅当 $P$ 位于该三角形的外接圆上（如图左）。
 
+::: {.grid}
 ![alt text|w80%](/static/image/image-21.553614a9ec.avif)
 ![alt text|w85%](/static/image/image-23.752a3e8458.avif)
+:::
 斯坦纳线定理：一个三角形外接圆上任意一点（该点不为三角形顶点）关于三角形三边的对称点，这三个对称点是共线的，并且这条直线（称为斯坦纳线）必经过该三角形的垂心。
 
 如右图，假设点 $P$ 位于三角形 $ABC$ 的外接圆上。在外接圆上选择一点 $B'$，使得直线 $PB'$ 垂直于 $AC$。那么 $BB'$ 平行于 $P$ 的西姆松线。
@@ -19417,8 +19477,10 @@ url: /science/human/2/index.md
 ![alt text|w100%](/static/image/image-3.817327f264.avif)
 更详细的极化过程描述：
 
+::: {.grid}
 ![alt text](/static/image/image-17.11331b76de.avif)
 ![alt text](/static/image/image-18.44eb2831d3.avif)
+:::
 在这一部分中，最重要的是实验，我们先明确几个事实：
 
 - 在同一根神经中，等距传导所需时间相同。
@@ -19447,8 +19509,10 @@ url: /science/human/2/index.md
 
 - 枪乌贼具有极粗的神经纤维，可以很好地进行电位和电流的测量活动。
 
+::: {.grid}
 ![alt text](/static/image/image-5.141631e908.avif)
 ![alt text](/static/image/image-6.e56171de64.avif)
+:::
 在蛙的坐骨神经上放置两个微电极，并将它们连接到一个电表上。静息时，电表没有测出电位变化（1），说明神经表面各处电位相等。当在图示神经的左侧一端给予刺激时，靠近刺激端的电极处（a 处）先变为负电位，接着恢复正电位（2、3）；然后，另一电极处（b 处）变为负电位，接着又恢复为正电位（3、4）。
 
 ![alt text|w100%](/static/image/image-8.1d4d9733a0.avif)
@@ -19853,6 +19917,7 @@ url: /science/human/3/index.md
 
 - 作为信使传递信息：激素种类多、量极微，既不组成细胞结构，又不提供能量，也不起催化作用，而是随体液到达靶细胞，使靶细胞原有的生理活动发生变化。激素是调节生命活动的信息分子，一经靶细胞接受并起作用后就失活了。因此，体内需要源源不断地产生激素，以维持激素含量的动态平衡。
 
+  ::: \{.grid markdown=""}
   :::note
 
   第二信使学说
@@ -19878,6 +19943,7 @@ url: /science/human/3/index.md
   DNA 转录过程，进而促进或抑制 mRNA
   的形成，结果是诱导或减少某种蛋白质（主要是酶）的合成，引起相应的生物效应。
 
+  :::
   :::
 
 - 微量和高效：在正常生理状态下，血液中的激素浓度都很低。虽然激素含量甚微，但其作用效果极其显著。激素是人和动物体内微量、高效的生物活性物质。因此，一旦体内激素含量偏离了生理范围，就会严重影响机体机能。
@@ -24855,8 +24921,10 @@ $$
 
 - 面波（例如水波）：沿两种不同密度的介质的界面传播，面波可分为瑞利波和勒夫波，其内容较为复杂，高中课内不涉及。
 
+::: {.grid}
 ![alt text](/static/image/m-image-7.62e6158bf5.avif)
 ![alt text](/static/image/m-image-8.28ad3707e3.avif)
+:::
 波在绳、杆、弹簧中只能沿绳、杆和弹簧的方向传播，但在气体、液体和固体充满某一部分空间的情况下，波是从波源向所有方向传播的。为了形象地描述波的传播方向，可自波源沿各传播方向画一些带箭头的线，这种表示波的传播方向的线叫做波线。同样，我们也可把在某时刻相位相同（真正的相同，即相位差为零）的点连起来，形成一个曲面或平面，并称之为波面或波阵面。波传播中最前面的波面叫波前，它描述波在该时刻传播到的最远位置。在任何时刻，波前只有一个，但波面却有许许多多。
 
 一个点波源的振动在某种介质中向各个方向传播时，如果沿各方向传播速率相等，在任何时刻波面和波前都是以点波源为中心的球面，这种波称为球面波。具有"波的传播速度与方向无关"这种性质的介质称为各向同性介质。在各向同性介质中波面与波线正交。
@@ -25007,8 +25075,10 @@ $$
 
 2. **解释折射定律**：同样的情景，但波进入了介质 2。当 $A$ 点到达界面后，它发出的子波在介质 2 中以速度 $v\_2$ 传播。经过 $\Delta t$，$A'$ 点到达界面 $B$ 点，此时 $A$ 点在介质 2 中的子波半径为 $v\_2 \Delta t$。连接包络面，通过几何关系可以证明折射定律。
 
+::: {.grid}
 ![alt text](/static/image/997a0e28b6108d82_6fa4db1-56c4028.7ab706f641.avif)
 ![alt text](/static/svg/786ede037f970bf8_e2317df.64ad00a5ea.svg)
+:::
 单缝衍射：当一束平面波通过一个狭缝时，可以把狭缝看作由无数个次级波源组成的线源。这些波源发出的子波在空间中干涉，最终形成了明暗相间的衍射条纹。中央亮纹最宽最亮，两侧条纹变窄变暗。
 
 泊松亮斑：根据波动理论，在一个圆形障碍物的阴影中心，应该会出现一个亮点（因为从障碍物边缘所有点发出的光在此处发生相长干涉）。这个看似违背常理的现象后来被实验证实，成为波动理论的有力证据。
@@ -25071,6 +25141,8 @@ $$
 
 如果起振方向相同，对于平面内一点 $P$，则比较 $||PS\_1|-|PS\_2||$（到两波源的距离之差）是 $\lambda/2$ 的倍数的奇偶性即可，根据振动合成的公式可以推导得出两个特殊的位置：
 
+::: \{.grid .cards}
+
 - **振动加强点（线）**
 
   ***
@@ -25102,6 +25174,7 @@ $$
   $$
 
   则 $P$ 点为振动减弱点。
+  :::
 
 也就是说，上图中实、虚线均为双曲线（或退化为直线），因此可以使用一些圆锥曲线的知识或思想解题。
 
@@ -25924,6 +25997,8 @@ $$
 
 假设中心天体相同。
 
+::: \{.grid .cards markdown=""}
+
 - **已知 $r$ 之比求 $T$ 之比**
 
   ***
@@ -26005,6 +26080,7 @@ $$
   1. 将题目给出的物理量转化为半径之比。
 
   2. 根据半径之比，结合公式得出所求比。
+     :::
 
 如果中心天体（质量）不同，保留 $M$ 即可。
 
@@ -26207,6 +26283,8 @@ url: /science/modern/1/index.md
 
 物体的内能：物体中所有分子的热运动动能与分子势能的总和，叫作物体的内能。任何物体都具有内能。分子热运动的平均动能与温度有关，分子势能与物体的体积有关。一般说来，物体的温度和体积变化时它的内能都会随之改变。应当指出，组成物体的分子在做无规则的热运动，具有热运动的动能，它是内能的一部分；同时物体还可能做整体的运动，因此，还会具有动能，这是机械能的一部分。后者是由物体的机械运动决定的，它对物体的内能没有贡献。
 
+::: \{.grid .cards}
+
 - 热量：热量不是传递着的热质，而是传递着的能量。
 
   传热是基于各部分温度的不一致而发生的能量的传递，有，
@@ -26232,6 +26310,7 @@ url: /science/modern/1/index.md
   $$
 
   物体的热容不仅与物体的性质、质量有关，一般还与温度有关。
+  :::
 
 内能是物体所有分子的热运动动能和分子势能的总和，内能的决定因素有：
 
@@ -26347,11 +26426,14 @@ $$
 
 热力学第一定律本质上是**能量守恒定律**在热力学系统中的体现。19 世纪中叶，焦耳通过一系列著名的实验（如叶片搅拌水、电流产热等）证明了功与热的等使性。
 
+::: \{.grid .cards}
+
 - **内能（$U$）**：系统内部所有微观粒子热运动动能与势能的总和。它是一个状态函数，只由状态决定，与过程无关。
 
 - **功（$W$）**：外界对系统所做的机械量贡献。在准静态过程中，体积功为 $W = - \int p \mathrm\{d}V$。
 
 - **热量（$Q$）**：因温度差而引起的能量转移。
+  :::
 
 **数学表达式**：
 
@@ -27752,8 +27834,10 @@ url: /science/modern/3/index.md
 
 大多数物体发送到我们眼中的光，都是由于它们表面发生了漫反射，所以这便是我们进行肉眼观察的主要机制。下图左侧为中学阶段的一个常见的简化模型，右侧为一个更详细的机理描述。
 
+::: {.grid}
 ![alt text|w75%](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMTM2IDIxMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJzdmdfX2dpdGh1Yl93b3JrX19hIiB4MT0iODgiIHgyPSI4OCIgeTE9IjY2IiB5Mj0iNTQiIGdyYWRpZW50VHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTUxIC0yMykiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMGYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwMGYiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMzYiIGhlaWdodD0iMjEyIiBmaWxsPSIjZmZmIi8+PHBhdGggZmlsbD0iI2FhYSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjAuOCIgZD0iTTEzNCAyMTB2LTIybC00IDEtMiAyLTEtMi0yLTEtMyAyLTEtMi0yIDItMyAxLTEtMi0yIDEtMiAyLTEtNC01IDEtMS0yaC0zbC0xIDJoLTJsLTItMi0xIDJoLTVsLTEgMmgtM2wtMS0yLTEgMy0zIDEtMS0zLTMtMS0xIDItMi0xLTMgMS0xLTItNC0yaC0ybC0xIDJ2NGwtMy0yLTItMi01IDEtNC0zLTIgMWgtM2wtMSAzLTMtMy0yIDEtMi0xLTIgMi00LTMtMSAyLTMgMS00LTItMS0zLTIgNC0yIDEtMS00aC0ybC0xIDQtNi0yLTEgNC0yLTEtMi0ydjIxIi8+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDBmIiBzdHJva2Utd2lkdGg9IjAuOCIgZD0iTTEwNyA0NHYxNDVMNzIgNjJtMjUtMTh2MTQ0bDYtMTE5TTg3IDQ0djE0N0w1NCA3NG0yMy0zMHYxNDVMMjYgOThtNDEtNTR2MTQ0TDkxIDY2TTU3IDQ0djE0NUw3IDEyM200MC03OXYxNDRMNDMgNzNtLTYtMjl2MTQ0bDc5LTgxIi8+PGcgaWQ9InN2Z19fZ2l0aHViX3dvcmtfX2MiPjxnIGlkPSJzdmdfX2dpdGh1Yl93b3JrX19iIj48cGF0aCBmaWxsPSIjMDBmIiBkPSJtMzcgNDMgMi0yLTIgNi0yLTZ6Ii8+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI3N2Z19fZ2l0aHViX3dvcmtfX2EpIiBkPSJNMzcgMzF2MTIiLz48L2c+PHVzZSB4bGluazpocmVmPSIjc3ZnX19naXRodWJfd29ya19fYiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTApIi8+PHVzZSB4bGluazpocmVmPSIjc3ZnX19naXRodWJfd29ya19fYiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjApIi8+PHVzZSB4bGluazpocmVmPSIjc3ZnX19naXRodWJfd29ya19fYiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzApIi8+PC9nPjx1c2UgeGxpbms6aHJlZj0iI3N2Z19fZ2l0aHViX3dvcmtfX2MiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQwKSIvPjxwYXRoIGZpbGw9IiMwMGYiIGQ9Ik0xMTUuNyAxMDcuM2gtMi44bDUuNi0zLTIuOCA1Ljd6TTEwMyA2OS41bC0yIDIgMi4yLTYgMS44IDZ6bS0xMi0zLjQtMi40IDEuNiAzLTUuNS44IDYuM3ptLTE5LTMuOC0xIDIuNi0uMy02LjMgNCA1ek01NCA3NC4xbC0xLjIgMi42di02LjNsNCA1em0tMTEtMS0yIDIgMS42LTYgMi40IDUuOHpNMjYuMiA5OC41bC0uNSAyLjgtMS43LTYgNSAzLjh6bS0xOSAyNC42LS40IDIuOC0yLTYgNS4zIDMuNXoiLz48ZyBzdHJva2U9IiNmZmYiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgcGFpbnQtb3JkZXI9InN0cm9rZSBtYXJrZXJzIGZpbGwiPjxzd2l0Y2g+PHRleHQgeD0iMTU3IiB5PSItNTAiIHN5c3RlbUxhbmd1YWdlPSJ5dWUiIHRyYW5zZm9ybT0icm90YXRlKDcyKSI+PHRzcGFuPuaWueWQkTwvdHNwYW4+PC90ZXh0Pjx0ZXh0IHg9IjE1NyIgeT0iLTUwIiB0cmFuc2Zvcm09InJvdGF0ZSg3MikiPjx0c3Bhbj5kaXJlY3Rpb25zPC90c3Bhbj48L3RleHQ+PC9zd2l0Y2g+PHN3aXRjaD48dGV4dCB4PSIxMDIiIHk9IjYzIiBzeXN0ZW1MYW5ndWFnZT0ieXVlIiB0cmFuc2Zvcm09InJvdGF0ZSg1MykiPjx0c3Bhbj7lj43lsITlmIXlhYnnt5o8L3RzcGFuPjwvdGV4dD48dGV4dCB4PSIxMDIiIHk9IjYzIiB0cmFuc2Zvcm09InJvdGF0ZSg1MykiPjx0c3Bhbj5SZWZsZWN0ZWQgcmF5czwvdHNwYW4+PC90ZXh0Pjwvc3dpdGNoPjxzd2l0Y2g+PHRleHQgeD0iMTIyIiB5PSIyOSIgc3lzdGVtTGFuZ3VhZ2U9Inl1ZSIgdHJhbnNmb3JtPSJyb3RhdGUoNTcpIj48dHNwYW4+5pWj6ZaL5Y67PC90c3Bhbj48L3RleHQ+PHRleHQgeD0iMTIyIiB5PSIyOSIgdHJhbnNmb3JtPSJyb3RhdGUoNTcpIj48dHNwYW4+c2NhdHRlcjwvdHNwYW4+PC90ZXh0Pjwvc3dpdGNoPjxzd2l0Y2g+PHRleHQgeD0iLTIxIiB5PSIxNTQiIHN5c3RlbUxhbmd1YWdlPSJ5dWUiIHRyYW5zZm9ybT0icm90YXRlKC0zOSkiPjx0c3Bhbj7llJTlkIw8L3RzcGFuPjwvdGV4dD48dGV4dCB4PSItMjEiIHk9IjE1NCIgdHJhbnNmb3JtPSJyb3RhdGUoLTM5KSI+PHRzcGFuPmluIGFsbDwvdHNwYW4+PC90ZXh0Pjwvc3dpdGNoPjxzd2l0Y2g+PHRleHQgeD0iMjYiIHk9IjE0IiBzeXN0ZW1MYW5ndWFnZT0ieXVlIj48dHNwYW4+5YWJ5bCE54Wn6JC9PC90c3Bhbj48dHNwYW4geD0iMzgiIHk9IjI3Ij7ljrvkuIDloYrooajpnaI8L3RzcGFuPjwvdGV4dD48dGV4dCB4PSIyNiIgeT0iMTQiPjx0c3Bhbj5MaWdodCByYXlzIHNoaW5pbmc8L3RzcGFuPjx0c3BhbiB4PSIzOCIgeT0iMjciPm9uIGEgc3VyZmFjZTwvdHNwYW4+PC90ZXh0Pjwvc3dpdGNoPjwvZz48L3N2Zz4=)
 ![alt text](/static/svg/Diffuse_reflection1_0d7ce0d.c402ca1697.svg)
+:::
 请注意，尽管漫反射看起来是"向四面八方"的，但是其本质是宏观物质在微观上的"不平整"，其本质上仍然是遵循反射定律的。
 
 漫反射是指当一束平行的入射光线射到粗糙的表面时，粗糙的表面会把光线向着各个方向反射的现象。虽然入射线互相平行，由于粗糙的表面上的各点的法线方向不一致，造成反射光线向不同的方向无规则地反射。这种反射的光称为漫射光。很多物体，如沙土、植物、墙壁、衣服等，其表面粗看起来似乎是平滑，但用放大镜仔细观察，就会看到其表面是凹凸不平的，所以本来是平行的太阳光被这些表面反射后，弥漫地射向不同方向。
@@ -27856,8 +27940,10 @@ $$
 
 - 太阳光在斜射入棱镜后，紫光偏转角度大、红光偏转角度小，弯曲角度的差异使白光分裂成其组成颜色，这种现象称为光的色散。
 
+::: {.grid}
 ![alt text|w80%](/static/image/image-20.029c939ff5.avif)
 ![alt text|w80%](/static/svg/Prism-rainbow.c801850942.svg)
+:::
 如果一束光从一种介质射入另一种介质，我们称折射率较小的为光疏介质，折射率较大的为光密介质。存在一个临界角 $\theta\_c$ 使得入射角大于这个角，则不会发生折射现象，所有关系全部向内面反射，称为**全反射**或全内反射。
 
 ![alt text|w100%](/static/svg/RefractionReflextion-zh.510e0a5fde.svg)
@@ -27877,8 +27963,11 @@ $$
 
 玻璃棱镜的截面为等腰直角三角形，当光从图中所示的方向射入玻璃时，由于光的方向与玻璃面垂直，光线不发生偏折。但在玻璃内部，光射向玻璃与空气的界面时，入射角大于临界角，发生全反射。与平面镜相比，它的反射率高，几乎可达 100%。
 
+::: \{.grid}
+
 ![alt text|w90%](/static/image/image-22.3e8bbb66cb.avif)
 ![alt text|w90%](/static/image/image-23.28f4e14d21.avif)
+:::
 注意：当发生全反射时，电磁场并非完全没有从光密介质进入光疏介质，虽然没有能量以**行进波**的形式透射进入光疏介质，但在界面处的光疏介质一侧，仍然会形成一个特殊的、非传播的电磁场，称为**倏逝波**。利用倏逝波的原理，可以制成分光器。
 
 ### 测定玻璃的折射率
@@ -27972,7 +28061,7 @@ $$
 
 - 日出时人开太阳：人看到地平线以下的太阳。
 
-<!-- -->
+::: \{.grid .cards}
 
 - 岸上的人看鱼：**人看到的鱼偏浅**。
 
@@ -27985,6 +28074,7 @@ $$
   ***
 
   <img alt="alt text" src={image17} />
+  :::
 
 视深问题：垂直向一深度为 $h$ 的水池看去，水的视深是多少？已知水的折射率 $n$。
 
@@ -28268,8 +28358,10 @@ $$
 
 根据光的偏振方向的不同，有强规律的偏振光（被称为完全偏振光）可以分为线偏振光、圆偏振光和椭圆偏振光。线偏振光，顾名思义为偏振方向呈直线；圆偏振光，依据偏振的旋转方向可分为左旋圆偏振与右旋圆偏振，或简称为左（右）旋圆偏；椭圆偏振光可分为左（右）旋椭偏。另外还有部分偏振光。其中左旋为逆时针方向，右旋为顺时针方向。
 
+::: {.grid}
 ![alt text](/static/image/image-3-d4e31b1.03f9e83850.avif)
 ![alt text](/static/image/image-4-8076e3a.9d216b885f.avif)
+:::
 部分偏振光、自然光以及三种完全偏振光合称为光的五种偏振态。
 
 1. 线偏振光：线偏振光是指光矢量的振动方向总在同一确定的平面内、而振动的方向在传播过程中为一条直线，故称之为线偏振光，又称平面偏振光。
@@ -28462,8 +28554,10 @@ $$
 ![alt text|w50%](/static/image/image-27.c53d814b72.avif)
 阴极 K 与阳极 A 之间电压 $U$ 的大小可以调整，电源的正负极也可以对调。电源按图示极性连接时，闭合开关后，阳极 A 吸收阴极 K 发出的光电子，在电路中形成光电流。我们记录电流表与电压表的示数，绘制成图像如左（图上可见**饱和电流**、**遏止电压**），通过爱因斯坦光电效应方程计算得右图（图上可见**截止频率**）。
 
+::: {.grid}
 ![alt text](/static/image/image-29.fe395ac5d6.avif)
 ![alt text](/static/image/Photoelectric_effect_diagram_zh-hans.28f01a9d3e.avif)
+:::
 科学家通过实验发现了以下规律：
 
 - 饱和电流：在光照条件不变的情况下，随着所加电压的增大，光电流趋于一个饱和值。也就是说，在电流较小时电流随着电压的增大而增大；但当电流增大到一定值之后，即使电压再增大，电流也不会再进一步增大了。
@@ -28987,8 +29081,10 @@ url: /science/nature/3/index.md
 </tbody>
 </table>
 
+::: {.grid}
 ![alt text|w100%](/static/image/image-13.26738690df.avif)
 ![alt text|w90%](/static/image/image-11.38674df2f8.avif)
+:::
 趋势分析：
 
 1. 增长：在开始时培养液的营养充足，空间充裕，条件适宜，因此酵母菌大量繁殖，出生率高于死亡率，种群数量剧增。
@@ -29211,8 +29307,10 @@ url: /science/nature/3/index.md
 
   其中 $r$ 指的是在理想情况下，种群的瞬时增长率。这个式子指出，当 $N=\dfrac\{1}\{K}$ 时，瞬时增长速率最大。
 
+::: {.grid}
 ![alt text|w80%](/static/image/image-4.b20da82276.avif)
 ![alt text|w95%](/static/image/image-9.b7b53cb03b.avif)
+:::
 研究种群的增长方式具有十分重要的实际意义，能更好地利用和保护生物资源，防治有害生物。例如，根据逻辑斯谛增长曲线在转折期增长最快的特点，可预知草原上放牧量为多少时既能保护草原，又能获得最好的经济效益。对于濒危野生动物的保护，则可通过改善生存环境来增大环境容纳量以促进其增长。相反，对于有害生物的防治，则应通过限制环境因素来降低环境容纳量以抑制其增长。
 
 在自然界，当一种生物迁入一个条件适宜的新分布地时，初始阶段一般会出现较快增长，但是，资源和空间总是有限的。当种群密度增大时，种内竞争就会加剧，这就会使种群的出生率降低，死亡率升高。当死亡率升高至与出生率相等时，种群的增长就会停止，有时会稳定在一定的水平。可见，种内竞争对种群数量起调节作用。
@@ -30135,8 +30233,10 @@ url: /science/nature/4/index.md
 
 组成生物体的碳、氢、氧、氮、磷、硫等元素，都在不断进行着从非生物环境到生物群落，又从生物群落到非生物环境的循环过程，这就是生态系统的物质循环。这里所说的生态系统指的是地球上最大的生态系统------生物圈，物质循环具有全球性，因此又叫生物地球化学循环。生物圈的物质循环还包括水循环、氮循环、磷循环和硫循环等。这些物质循环也是生物圈物质循环的重要组成部分，它们为各种生物的生存和发展提供了条件。
 
+::: {.grid}
 ![alt text](/static/image/image-35.24f1dcbb99.avif)
 ![alt text](/static/image/image-36.93a2e09a1f.avif)
+:::
 在生物圈中，物质循环与能量流动是同时进行的，两者相互依存，不可分割。能量的固定、储存、转移和释放，都离不开物质的合成和分解等过程。物质作为载体，使能量沿着食物链（网）流动；能量作为动力，使物质在生物群落和无机环境之间得以不断地循环往复。生态系统的物质循环和能量流动既有联系又有区别。能量流动是单向的，不能循环，而且逐级递减。在物质循环中，组成生物体的元素可以在生物群落与无机环境之间循环往复。
 
 ![alt text|w50%](/static/image/image-37.0a5690e348.avif)
@@ -31822,8 +31922,10 @@ $$
 
 环氧乙烷通常用于制备乙二醇：
 
+::: {.grid}
 ![alt text|w20%](data:image/avif;base64,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)$\ce{+ H2O ->}\quad$
 ![alt text|w30%](/static/image/image-35.2e961db061.avif)
+:::
 乙烯在 Ag 催化剂的作用下与氧气发生氧化反应，生成环氧化合物：
 
 $$
@@ -33531,8 +33633,10 @@ url: /science/organic/3/index.md
 
 碎片拼接法：
 
+::: {.grid}
 ![alt text](/static/image/碎片法1.6b36bb2fa0.avif)
 ![alt text](/static/image/碎片法2.96637ed565.avif)
+:::
 ### 马氏规则概述
 
 **马尔科夫尼科夫规则**指出：当不对称烯烃与含氢的化合物（$\ce\{H2},\ce\{HCl}$ 等）加成时，氢原子主要加到连有较多氢原子的碳原子上。
@@ -34011,6 +34115,7 @@ url: /science/organic/4/index.md
 
 1. 加聚产物单体判断：要先判断高分子化合物是加聚产物还是缩聚产物。
 
+   ::: \{.grid markdown=""}
    <img alt="alt text" src={image9} />
 
    <img alt="alt text" src={image10} />
@@ -34018,9 +34123,11 @@ url: /science/organic/4/index.md
    <img alt="alt text" src={image11} />
 
    <img alt="alt text" src={image12} />
+   :::
 
 2. 缩聚产物单体判断：中学里缩聚产物形成的方式有三种：聚酯式、聚酰胺式、酚醛树脂式，从形式上看都是脱水缩合。
 
+   ::: \{.grid markdown=""}
    <img alt="alt text" src={image13} />
 
    <img alt="alt text" src={image14} />
@@ -34028,6 +34135,7 @@ url: /science/organic/4/index.md
    <img alt="alt text" src={image15} />
 
    <img alt="alt text" src={image16} />
+   :::
 
 ::: \{}
 
@@ -35794,8 +35902,10 @@ $$
 
 注意正负号的对应。
 
+::: {.grid markdown=""}
 ![alt text|w80%](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAzMzQuNjcgNDAzLjMzIj48cGF0aCBmaWxsPSIjY2FkOGU1IiBkPSJNMjk5LjUgMjIxLjI4VjM3MC41aC0yNjB6Ii8+PHBhdGggZmlsbD0iI2U4Y2RjZCIgZD0iTTE5NC43MiAzOC41IDI5OS41IDIyMS4yOCAzOS41IDM3MC41eiIvPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNMjk5LjUgMjIxLjI4VjM3MC41aC0yNjB2LTMzMmgyNjB6TTM5LjUgMzcwLjVsMjYwLTE0OS4yMm0wIDBMMTk0LjcyIDM4LjUiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSI0IiBkPSJNMTk0LjcyIDM4LjUgMzkuNSAzNzAuNSIvPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNMzkuNSAzOC41aDI0djI0aC0yNHptMjM2IDBoMjR2MjRoLTI0em0wIDMwOGgyNHYyNGgtMjR6TTU4LjkgMzI5LjAwMmMxNS40MDEgNy4yNTEgMjYuMDYxIDIyLjkxMiAyNi4wNjEgNDEuMDYzbTE4MS44NTQtMTU3LjcwOSAyMC45MTgtMTEuNzY1IDExLjc2NSAyMC45MTktMjAuOTE4IDExLjc2NXpNMTc1LjQ3MyA3OS42NzdDMTYwLjE3NCA3Mi4zODcgMTQ5LjYgNTYuNzggMTQ5LjYgMzguNzAyIi8+PHRleHQgZm9udC1mYW1pbHk9IidBcmlhbC1Cb2xkTVQnIiBmb250LXNpemU9Ijg4Ljc5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5MS43MTYgMjI5Ljc5NykiPjE8L3RleHQ+PHRleHQgZm9udC1mYW1pbHk9IidBcmlhbE1UJyIgZm9udC1zaXplPSIxOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjUuODM5IDMwLjMzMSkiPmNvcyjOsSArIM6yKTwvdGV4dD48dGV4dCBmb250LWZhbWlseT0iJ0FyaWFsTVQnIiBmb250LXNpemU9IjE4IiB0cmFuc2Zvcm09InJvdGF0ZSgtOTAgMTM0LjMxOCAxMDUuNDg1KSI+c2luKM6xICsgzrIpPC90ZXh0Pjx0ZXh0IGZvbnQtZmFtaWx5PSInQXJpYWxNVCciIGZvbnQtc2l6ZT0iMTgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIwNy41NSAzMC4zMzEpIj5zaW4gzrEgc2luIM6yPC90ZXh0Pjx0ZXh0IGZvbnQtZmFtaWx5PSInQXJpYWxNVCciIGZvbnQtc2l6ZT0iMTgiIHRyYW5zZm9ybT0icm90YXRlKDkwIDExNS4yMjYgMTk0LjEwOCkiPmNvcyDOsSBzaW4gzrI8L3RleHQ+PHRleHQgZm9udC1mYW1pbHk9IidBcmlhbE1UJyIgZm9udC1zaXplPSIxOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTIxLjQ0MiAzOTAuNjY1KSI+Y29zIM6xIGNvcyDOsjwvdGV4dD48dGV4dCBmb250LWZhbWlseT0iJ0FyaWFsTVQnIiBmb250LXNpemU9IjE4IiB0cmFuc2Zvcm09InJvdGF0ZSg5MCAyOC4wNiAyODEuMjc1KSI+c2luIM6xIGNvcyDOsjwvdGV4dD48dGV4dCBmb250LWZhbWlseT0iJ0FyaWFsTVQnIiBmb250LXNpemU9IjE4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDQuNzI3IDc5LjY3NykiPs6xICsgzrI8L3RleHQ+PHRleHQgZm9udC1mYW1pbHk9IidBcmlhbE1UJyIgZm9udC1zaXplPSIxOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoOTcuOTI3IDM1Ny4zMzEpIj7OsTwvdGV4dD48dGV4dCBmb250LWZhbWlseT0iJ0FyaWFsTVQnIiBmb250LXNpemU9IjE4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MC42NDcgMzI1LjcwMikiPs6yPC90ZXh0Pjx0ZXh0IGZvbnQtZmFtaWx5PSInQXJpYWxNVCciIGZvbnQtc2l6ZT0iMTgiIHRyYW5zZm9ybT0icm90YXRlKC0yOS41NTIgNjMyLjcyNiAtMTY2LjAyKSI+Y29zIM6yPC90ZXh0Pjx0ZXh0IGZvbnQtZmFtaWx5PSInQXJpYWxNVCciIGZvbnQtc2l6ZT0iMTgiIHRyYW5zZm9ybT0icm90YXRlKDYwLjg5OCA2LjQxOSAyNDcuMTAzKSI+c2luIM6yPC90ZXh0PjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNMjc1LjQ2OSAxNzkuMzZhNDUuMTUgNDUuMTUgMCAwIDEgMjMuOTkzLTYuODU3Ii8+PHRleHQgZm9udC1mYW1pbHk9IidBcmlhbE1UJyIgZm9udC1zaXplPSIxOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjgwLjU4NiAxNjUuMzYzKSI+zrE8L3RleHQ+PC9zdmc+)
 ![alt text|w80%](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAzMzQuNjcgNDAzLjMzIj48cGF0aCBmaWxsPSIjY2FkOGU1IiBkPSJNMjk5LjUgMjIxLjI4VjM3MC41aC0yNjB6Ii8+PHBhdGggZmlsbD0iI2U4Y2RjZCIgZD0iTTE5NC43MiAzOC41IDI5OS41IDIyMS4yOCAzOS41IDM3MC41eiIvPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNMjk5LjUgMjIxLjI4VjM3MC41aC0yNjB2LTMzMmgyNjB6TTM5LjUgMzcwLjVsMjYwLTE0OS4yMm0wIDBMMTk0LjcyIDM4LjVtMCAwTDM5LjUgMzcwLjUiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZD0iTTM5LjUgMzguNWgyNHYyNGgtMjR6bTIzNiAwaDI0djI0aC0yNHptMCAzMDhoMjR2MjRoLTI0ek01OC45IDMyOS4wMDJjMTUuNDAxIDcuMjUxIDI2LjA2MSAyMi45MTIgMjYuMDYxIDQxLjA2M00yNjYuODE3IDIxMi4zNmwyMC45MTktMTEuNzY0IDExLjc2NSAyMC45MTgtMjAuOTE5IDExLjc2NXpNMTc1LjQ3MyA3OS42NzdDMTYwLjE3NCA3Mi4zODcgMTQ5LjYgNTYuNzggMTQ5LjYgMzguNzAyIi8+PHRleHQgeD0iMTY0LjUxIiB5PSI0MDAuNjQiIGZvbnQtZmFtaWx5PSJBcmlhbC1Cb2xkTVQiIGZvbnQtc2l6ZT0iODguNzkiPjE8L3RleHQ+PHRleHQgeD0iNDUuODQiIHk9IjMwLjMzIiBmb250LWZhbWlseT0iQXJpYWxNVCIgZm9udC1zaXplPSIxOCI+MSAtIHRhbiDOsSB0YW4gzrI8L3RleHQ+PHRleHQgeD0iLTI0OS44IiB5PSIyOC44MyIgZm9udC1mYW1pbHk9IkFyaWFsTVQiIGZvbnQtc2l6ZT0iMTgiIHRyYW5zZm9ybT0icm90YXRlKC05MCkiPnRhbiDOsSArIHRhbiDOsjwvdGV4dD48dGV4dCB4PSIyMDcuNTUiIHk9IjMwLjMzIiBmb250LWZhbWlseT0iQXJpYWxNVCIgZm9udC1zaXplPSIxOCI+dGFuIM6xIHRhbiDOsjwvdGV4dD48dGV4dCB4PSI4Mi44OCIgeT0iLTMwOS4zMyIgZm9udC1mYW1pbHk9IkFyaWFsTVQiIGZvbnQtc2l6ZT0iMTgiIHRyYW5zZm9ybT0icm90YXRlKDkwKSI+dGFuIM6yPC90ZXh0Pjx0ZXh0IHg9IjI3MS4yMiIgeT0iLTMwOS4zMyIgZm9udC1mYW1pbHk9IkFyaWFsTVQiIGZvbnQtc2l6ZT0iMTgiIHRyYW5zZm9ybT0icm90YXRlKDkwKSI+dGFuIM6xPC90ZXh0Pjx0ZXh0IHg9IjEwNC43MyIgeT0iNzkuNjgiIGZvbnQtZmFtaWx5PSJBcmlhbE1UIiBmb250LXNpemU9IjE4Ij7OsSArIM6yPC90ZXh0Pjx0ZXh0IHg9Ijk3LjkzIiB5PSIzNTcuMzMiIGZvbnQtZmFtaWx5PSJBcmlhbE1UIiBmb250LXNpemU9IjE4Ij7OsTwvdGV4dD48dGV4dCB4PSI4MC42NSIgeT0iMzI1LjciIGZvbnQtZmFtaWx5PSJBcmlhbE1UIiBmb250LXNpemU9IjE4Ij7OsjwvdGV4dD48dGV4dCB4PSItMC40MyIgeT0iMzMzLjY2IiBmb250LWZhbWlseT0iQXJpYWxNVCIgZm9udC1zaXplPSIxOCIgdHJhbnNmb3JtPSJyb3RhdGUoLTI5LjU1MikiPjEvY29zIM6xPC90ZXh0Pjx0ZXh0IHg9IjE4MC4wNyIgeT0iLTEzMy42NCIgZm9udC1mYW1pbHk9IkFyaWFsTVQiIGZvbnQtc2l6ZT0iMTgiIHRyYW5zZm9ybT0icm90YXRlKDYwLjg5OCkiPnRhbiDOsiAvIGNvcyDOsTwvdGV4dD48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZD0iTTI3NS40NjkgMTc5LjM2YTQ1LjE1IDQ1LjE1IDAgMCAxIDIzLjk5My02Ljg1NyIvPjx0ZXh0IHg9IjI4MC41OSIgeT0iMTY1LjM2IiBmb250LWZhbWlseT0iQXJpYWxNVCIgZm9udC1zaXplPSIxOCI+zrE8L3RleHQ+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjQiIGQ9Ik0zOS41IDM3MC40OTloMjYwbS0yNjAtMzMyaDI2MCIvPjwvc3ZnPg==)
+:::
 ### 二倍角公式
 
 $$
@@ -39264,9 +39374,11 @@ $$
 
 当且仅当 $x=1$ 时取等，我们对两边同时求积分，如图左。为了使两边依旧在 $x=1$ 时取等，我们将 $\ln x$ 的积分 $(\ln x-1)x$ 修正为其加 $\dfrac\{1}\{2}$，如图右
 
+::: \{.grid}
 !\[alt text]\(../desmos-graph (2).svg)
 
 ![alt text](/static/svg/desmos-graph.e0dc6eea3d.svg)
+:::
 利用求导也可以证明下面的不等式：
 
 $$
@@ -43798,6 +43910,8 @@ $$
 
 我们知道 $K\_a,K\_b$ 仅和温度有关，即仅仅是温度的函数，因为电离吸热，因此温度越高电离常数越小，电离度越小，我们会在图像和趋势部分详细说明。
 
+::: \{.grid .cards}
+
 - 对于一元弱酸的电离：
 
   $$
@@ -43837,6 +43951,7 @@ $$
   $$
 
   其中 $pK\_b$ 反应了这种弱碱内在碱性的强弱，与该溶液的 $\pH$ 无关。
+  :::
 
 亨德森---哈塞尔巴尔赫方程的推导：
 
@@ -49377,6 +49492,8 @@ $$
 
 我们用这个矩阵去乘以一个齐次坐标，容易发现向量（$w=0$）是无法平移的，而点是可以平移的。同样，以前的矩阵用 $0$ 和 $1$ 填充即可：
 
+::: \{.grid .cards}
+
 - **平移** `T(tx, ty, tz)`
 
   ***
@@ -49422,6 +49539,7 @@ $$
   ***
 
   不会。
+  :::
 
 ## \[todo]
 
@@ -49967,6 +50085,8 @@ url: /science/species/3/index.md
 
 这些实验初步证明尖端产生的影响可能是一种化学物质，这种化学物质在胚芽鞘尖端以下部位的分布不均匀造成了胚芽鞘的弯曲生长。注意此时不能将这种"影响"换为生长素，更不能用吲哚乙酸，因为此时还没有确定是这种物质。
 
+::: \{.grid}
+
 <figure>
 
 <figcaption><p>达尔文的实验示意图</p></figcaption>
@@ -49986,6 +50106,7 @@ url: /science/species/3/index.md
 
 <figcaption><p>实验前  实验后</p></figcaption>
 </figure>
+:::
 
 - 1926 年，荷兰科学家温特做了以下实验：把切下的燕麦胚芽鞘尖端放在琼脂块上，几小时后，移去尖端，将琼脂切成小块；再将经处理过的琼脂块放在切去尖端的燕麦胚芽鞘一侧，结果胚芽鞘会朝对侧弯曲生长。如果放上的是没有接触过胚芽鞘尖端的琼脂块，胚芽鞘则既不生长也不弯曲。
 
@@ -50360,8 +50481,10 @@ $$
 
 **布朗运动**：19 世纪初，一些人观察到，悬浮在液体中的小颗粒总在不停地运动。1827 年，英国植物学家布朗首先在显微镜下研究了这种运动。如果在显微镜下追踪一颗小炭粒的运动，每隔 $\pu\{30 s}$ 把炭粒的位置记录下来，然后用线段把这些位置按时间顺序依次连接起来，便可以得到某一颗微粒运动的位置连线。这表明微粒的运动是无规则的。实际上，就是在 $\pu\{30 s}$ 内，微粒的运动也是极不规则的。
 
+::: {.grid}
 ![alt text|w90%](/static/image/fimage.d3332d8140.avif)
 ![alt text|w80%](/static/image/fimage-1.7c5674f80d.avif)
+:::
 1827年，英国植物学家罗伯特·布朗观察的是悬浮在水中的花粉微粒。他起初认为，微粒的运动不是外界因素引起的，而是其自发的运动。是不是因为植物有生命才产生了这样的运动？为了验证，布朗用当时保存了上百年的植物标本，取其微粒进行实验，他还用了一些毫无生命的无机物粉末（如煤灰、玻璃屑）进行实验。结果是，不管哪一种微粒，只要足够小，就会发生这种无规则运动；微粒越小，运动就越明显。这彻底排除了生命现象的可能。后人便把悬浮微粒的这种永不停息的无规则运动叫作布朗运动。
 
 作为一种物理现象，布朗运动具有以下显著特征：
@@ -51896,8 +52019,10 @@ AXE 法，又称 ABE 法：用 $\ce\{AX\_nE\_m}$ 其中 $\ce A$ 代表中心原�
 
 通常来说，我们只需要判断一个分子是否有对称中心（$S\_2$）或对称面（$S\_1$）即可，更严谨的我们还需要判断 $S\_4$，例如丙二烯（如图所示）：
 
+::: {.grid}
 ![alt text](/static/image/image-1038de9.9f1ff91f9e.avif)
 ![alt text](data:image/avif;base64,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)
+:::
 理论上，我们仅仅通过 $S\_1,S\_2,S\_4$ 几乎可以确定一个分子是否是手性分子了。但是，还存在最后一种特殊的情况，$S\_8$，其存在于极少数的分子中，而且更少数的分子只能由 $S\_8$ 确定。例如皇冠硫（很有趣这个分子也写作 $\ce\{S8}$ 硫8），但是它也有对称中心，导致它不是"仅靠 $S\_8$ 维持非手性"的特例。
 
 严格属于 $S\_8$ 点群的分子，仅仅是理论上存在，只有在特定情况下，才能形成，极其少见，一般就不会考虑了。

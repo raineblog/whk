@@ -150,6 +150,7 @@
 
 1. 加聚产物单体判断：要先判断高分子化合物是加聚产物还是缩聚产物。
 
+   ::: \{.grid markdown=""}
    <img alt="alt text" src={image9} />
 
    <img alt="alt text" src={image10} />
@@ -157,9 +158,11 @@
    <img alt="alt text" src={image11} />
 
    <img alt="alt text" src={image12} />
+   :::
 
 2. 缩聚产物单体判断：中学里缩聚产物形成的方式有三种：聚酯式、聚酰胺式、酚醛树脂式，从形式上看都是脱水缩合。
 
+   ::: \{.grid markdown=""}
    <img alt="alt text" src={image13} />
 
    <img alt="alt text" src={image14} />
@@ -167,6 +170,7 @@
    <img alt="alt text" src={image15} />
 
    <img alt="alt text" src={image16} />
+   :::
 
 ::: \{}
 

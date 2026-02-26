@@ -31,6 +31,7 @@
 ![alt text|w100%](/static/image/e-image-39.0c48547b77.avif)
 设 $t=0$ 时线圈刚好转到中性面位置，此时导线 $AB$ 的速度方向刚好与磁感线平行，因此感应电动势为 $0$。不妨设线圈旋转的角速度为 $\omega$，$AB$ 和 $CD$ 的长度为 $\ell$，$AD$ 和 $BC$ 的长度为 $d$，则经过时间 $t$，线框转过的角度 $\theta=\omega t$，如图所示。
 
+::: {.grid}
 ![alt text|w85%](/static/image/e-image-32.45a3eb7461.avif)
 |        |    中性面   |   中性面垂面  |
 | :----: | :------: | :------: |
@@ -40,6 +41,7 @@
 |   电流   |    $0$   |    最大    |
 |   电动势  |    $0$   |    最大    |
 |  电流特征  |   方向改变   |   达到极值   |
+|   :::  |          |          |
 
 线框旋转过程中，在与磁感线垂直的方向上速度为：
 
@@ -365,8 +367,10 @@ $$
 
 在此之后，交流电路有很多复杂的类型，很多也是大学物理才会接触到的，尤其是涉及到相位等等，会较为复杂，甚至需要使用微积分来解决。我们下面只进行一个简单的概念处理，更多内容可以自行学习。
 
+::: {.grid}
 ![alt text|w70%](/static/image/e-image-53.3e94d05429.avif)
 ![alt text|w70%](data:image/avif;base64,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)
+:::
 在有些电子线路中，从某一部分电路输出的电流中既有交流成分，又有直流成分。如果和它连接的下一级电路只需要其中的交流成分，可以在两个电路之间串联一个电容器，使直流成分不能通过，作这种用途的电容器叫做隔直电容器。
 
 在有的电子线路中，交流电既有高频成分，又有低频成分。如果下一级电路只需要低频交流电，就可以在它的输入端并联一个电容器，由于电容器对高频电流容抗较小，大部分高频电流分流到电容器所在的支路，反之，电容器对低频电路的容抗较小，通过它的低频电流很小，这样大部分低频电流便输入下一级电路，作这种用途的电容器叫做高频旁路电容器。
@@ -440,8 +444,10 @@ $$
 
 它们随时间变化的曲线如图 5-24 所示。这种幅值、频率相同而相位彼此差 $\frac\{2}\{3}\pi$ 的三个交流电，叫做**三相交流电**，每个线圈产生的交流电叫做三相交流电的一相。
 
+::: {.grid}
 ![alt text|w80%](/static/image/e-image-55.101c33c90f.avif)
 ![alt text|w80%](/static/image/e-image-56.7d7163fdd6.avif)
+:::
 相电压和线电压：把三相发电机中的三个线圈各自独立地分别与外电路连接，便可得到三个交流电路，这样做需用六根输电线。实际上，总是把每个线圈的末端 $X$、$Y$、$Z$ 连接在一起，从它们的公共点 $O$ 引出一根导线，再从三个线圈的始端 $A$、$B$、$C$ 各引出一根导线，共用四根导线向外输电，如图 5-25 所示。线圈的这种连接方法叫做**星形接法**，采用这种接法向外送电叫做**三相四线制**，其中从 $A$、$B$、$C$ 三个始端引出的输电线叫做**相线**（俗称火线），从公共端引出的输电线叫做**中性线**或**零线**，因其常与大地相连接，俗称**地线**。
 
 ![alt text|w40%](/static/image/e-image-57.de36a14af9.avif)

@@ -79,8 +79,10 @@
 
 大多数物体发送到我们眼中的光，都是由于它们表面发生了漫反射，所以这便是我们进行肉眼观察的主要机制。下图左侧为中学阶段的一个常见的简化模型，右侧为一个更详细的机理描述。
 
+::: {.grid}
 ![alt text|w75%](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMTM2IDIxMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJzdmdfX2dpdGh1Yl93b3JrX19hIiB4MT0iODgiIHgyPSI4OCIgeTE9IjY2IiB5Mj0iNTQiIGdyYWRpZW50VHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTUxIC0yMykiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMGYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwMGYiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMzYiIGhlaWdodD0iMjEyIiBmaWxsPSIjZmZmIi8+PHBhdGggZmlsbD0iI2FhYSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjAuOCIgZD0iTTEzNCAyMTB2LTIybC00IDEtMiAyLTEtMi0yLTEtMyAyLTEtMi0yIDItMyAxLTEtMi0yIDEtMiAyLTEtNC01IDEtMS0yaC0zbC0xIDJoLTJsLTItMi0xIDJoLTVsLTEgMmgtM2wtMS0yLTEgMy0zIDEtMS0zLTMtMS0xIDItMi0xLTMgMS0xLTItNC0yaC0ybC0xIDJ2NGwtMy0yLTItMi01IDEtNC0zLTIgMWgtM2wtMSAzLTMtMy0yIDEtMi0xLTIgMi00LTMtMSAyLTMgMS00LTItMS0zLTIgNC0yIDEtMS00aC0ybC0xIDQtNi0yLTEgNC0yLTEtMi0ydjIxIi8+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDBmIiBzdHJva2Utd2lkdGg9IjAuOCIgZD0iTTEwNyA0NHYxNDVMNzIgNjJtMjUtMTh2MTQ0bDYtMTE5TTg3IDQ0djE0N0w1NCA3NG0yMy0zMHYxNDVMMjYgOThtNDEtNTR2MTQ0TDkxIDY2TTU3IDQ0djE0NUw3IDEyM200MC03OXYxNDRMNDMgNzNtLTYtMjl2MTQ0bDc5LTgxIi8+PGcgaWQ9InN2Z19fZ2l0aHViX3dvcmtfX2MiPjxnIGlkPSJzdmdfX2dpdGh1Yl93b3JrX19iIj48cGF0aCBmaWxsPSIjMDBmIiBkPSJtMzcgNDMgMi0yLTIgNi0yLTZ6Ii8+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI3N2Z19fZ2l0aHViX3dvcmtfX2EpIiBkPSJNMzcgMzF2MTIiLz48L2c+PHVzZSB4bGluazpocmVmPSIjc3ZnX19naXRodWJfd29ya19fYiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTApIi8+PHVzZSB4bGluazpocmVmPSIjc3ZnX19naXRodWJfd29ya19fYiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjApIi8+PHVzZSB4bGluazpocmVmPSIjc3ZnX19naXRodWJfd29ya19fYiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzApIi8+PC9nPjx1c2UgeGxpbms6aHJlZj0iI3N2Z19fZ2l0aHViX3dvcmtfX2MiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQwKSIvPjxwYXRoIGZpbGw9IiMwMGYiIGQ9Ik0xMTUuNyAxMDcuM2gtMi44bDUuNi0zLTIuOCA1Ljd6TTEwMyA2OS41bC0yIDIgMi4yLTYgMS44IDZ6bS0xMi0zLjQtMi40IDEuNiAzLTUuNS44IDYuM3ptLTE5LTMuOC0xIDIuNi0uMy02LjMgNCA1ek01NCA3NC4xbC0xLjIgMi42di02LjNsNCA1em0tMTEtMS0yIDIgMS42LTYgMi40IDUuOHpNMjYuMiA5OC41bC0uNSAyLjgtMS43LTYgNSAzLjh6bS0xOSAyNC42LS40IDIuOC0yLTYgNS4zIDMuNXoiLz48ZyBzdHJva2U9IiNmZmYiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgcGFpbnQtb3JkZXI9InN0cm9rZSBtYXJrZXJzIGZpbGwiPjxzd2l0Y2g+PHRleHQgeD0iMTU3IiB5PSItNTAiIHN5c3RlbUxhbmd1YWdlPSJ5dWUiIHRyYW5zZm9ybT0icm90YXRlKDcyKSI+PHRzcGFuPuaWueWQkTwvdHNwYW4+PC90ZXh0Pjx0ZXh0IHg9IjE1NyIgeT0iLTUwIiB0cmFuc2Zvcm09InJvdGF0ZSg3MikiPjx0c3Bhbj5kaXJlY3Rpb25zPC90c3Bhbj48L3RleHQ+PC9zd2l0Y2g+PHN3aXRjaD48dGV4dCB4PSIxMDIiIHk9IjYzIiBzeXN0ZW1MYW5ndWFnZT0ieXVlIiB0cmFuc2Zvcm09InJvdGF0ZSg1MykiPjx0c3Bhbj7lj43lsITlmIXlhYnnt5o8L3RzcGFuPjwvdGV4dD48dGV4dCB4PSIxMDIiIHk9IjYzIiB0cmFuc2Zvcm09InJvdGF0ZSg1MykiPjx0c3Bhbj5SZWZsZWN0ZWQgcmF5czwvdHNwYW4+PC90ZXh0Pjwvc3dpdGNoPjxzd2l0Y2g+PHRleHQgeD0iMTIyIiB5PSIyOSIgc3lzdGVtTGFuZ3VhZ2U9Inl1ZSIgdHJhbnNmb3JtPSJyb3RhdGUoNTcpIj48dHNwYW4+5pWj6ZaL5Y67PC90c3Bhbj48L3RleHQ+PHRleHQgeD0iMTIyIiB5PSIyOSIgdHJhbnNmb3JtPSJyb3RhdGUoNTcpIj48dHNwYW4+c2NhdHRlcjwvdHNwYW4+PC90ZXh0Pjwvc3dpdGNoPjxzd2l0Y2g+PHRleHQgeD0iLTIxIiB5PSIxNTQiIHN5c3RlbUxhbmd1YWdlPSJ5dWUiIHRyYW5zZm9ybT0icm90YXRlKC0zOSkiPjx0c3Bhbj7llJTlkIw8L3RzcGFuPjwvdGV4dD48dGV4dCB4PSItMjEiIHk9IjE1NCIgdHJhbnNmb3JtPSJyb3RhdGUoLTM5KSI+PHRzcGFuPmluIGFsbDwvdHNwYW4+PC90ZXh0Pjwvc3dpdGNoPjxzd2l0Y2g+PHRleHQgeD0iMjYiIHk9IjE0IiBzeXN0ZW1MYW5ndWFnZT0ieXVlIj48dHNwYW4+5YWJ5bCE54Wn6JC9PC90c3Bhbj48dHNwYW4geD0iMzgiIHk9IjI3Ij7ljrvkuIDloYrooajpnaI8L3RzcGFuPjwvdGV4dD48dGV4dCB4PSIyNiIgeT0iMTQiPjx0c3Bhbj5MaWdodCByYXlzIHNoaW5pbmc8L3RzcGFuPjx0c3BhbiB4PSIzOCIgeT0iMjciPm9uIGEgc3VyZmFjZTwvdHNwYW4+PC90ZXh0Pjwvc3dpdGNoPjwvZz48L3N2Zz4=)
 ![alt text](/static/svg/Diffuse_reflection1_0d7ce0d.c402ca1697.svg)
+:::
 请注意，尽管漫反射看起来是"向四面八方"的，但是其本质是宏观物质在微观上的"不平整"，其本质上仍然是遵循反射定律的。
 
 漫反射是指当一束平行的入射光线射到粗糙的表面时，粗糙的表面会把光线向着各个方向反射的现象。虽然入射线互相平行，由于粗糙的表面上的各点的法线方向不一致，造成反射光线向不同的方向无规则地反射。这种反射的光称为漫射光。很多物体，如沙土、植物、墙壁、衣服等，其表面粗看起来似乎是平滑，但用放大镜仔细观察，就会看到其表面是凹凸不平的，所以本来是平行的太阳光被这些表面反射后，弥漫地射向不同方向。
@@ -183,8 +185,10 @@ $$
 
 - 太阳光在斜射入棱镜后，紫光偏转角度大、红光偏转角度小，弯曲角度的差异使白光分裂成其组成颜色，这种现象称为光的色散。
 
+::: {.grid}
 ![alt text|w80%](/static/image/image-20.029c939ff5.avif)
 ![alt text|w80%](/static/svg/Prism-rainbow.c801850942.svg)
+:::
 如果一束光从一种介质射入另一种介质，我们称折射率较小的为光疏介质，折射率较大的为光密介质。存在一个临界角 $\theta\_c$ 使得入射角大于这个角，则不会发生折射现象，所有关系全部向内面反射，称为**全反射**或全内反射。
 
 ![alt text|w100%](/static/svg/RefractionReflextion-zh.510e0a5fde.svg)
@@ -204,8 +208,11 @@ $$
 
 玻璃棱镜的截面为等腰直角三角形，当光从图中所示的方向射入玻璃时，由于光的方向与玻璃面垂直，光线不发生偏折。但在玻璃内部，光射向玻璃与空气的界面时，入射角大于临界角，发生全反射。与平面镜相比，它的反射率高，几乎可达 100%。
 
+::: \{.grid}
+
 ![alt text|w90%](/static/image/image-22.3e8bbb66cb.avif)
 ![alt text|w90%](/static/image/image-23.28f4e14d21.avif)
+:::
 注意：当发生全反射时，电磁场并非完全没有从光密介质进入光疏介质，虽然没有能量以**行进波**的形式透射进入光疏介质，但在界面处的光疏介质一侧，仍然会形成一个特殊的、非传播的电磁场，称为**倏逝波**。利用倏逝波的原理，可以制成分光器。
 
 ### 测定玻璃的折射率
@@ -299,7 +306,7 @@ $$
 
 - 日出时人开太阳：人看到地平线以下的太阳。
 
-<!-- -->
+::: \{.grid .cards}
 
 - 岸上的人看鱼：**人看到的鱼偏浅**。
 
@@ -312,6 +319,7 @@ $$
   ***
 
   <img alt="alt text" src={image17} />
+  :::
 
 视深问题：垂直向一深度为 $h$ 的水池看去，水的视深是多少？已知水的折射率 $n$。
 
@@ -595,8 +603,10 @@ $$
 
 根据光的偏振方向的不同，有强规律的偏振光（被称为完全偏振光）可以分为线偏振光、圆偏振光和椭圆偏振光。线偏振光，顾名思义为偏振方向呈直线；圆偏振光，依据偏振的旋转方向可分为左旋圆偏振与右旋圆偏振，或简称为左（右）旋圆偏；椭圆偏振光可分为左（右）旋椭偏。另外还有部分偏振光。其中左旋为逆时针方向，右旋为顺时针方向。
 
+::: {.grid}
 ![alt text](/static/image/image-3-d4e31b1.03f9e83850.avif)
 ![alt text](/static/image/image-4-8076e3a.9d216b885f.avif)
+:::
 部分偏振光、自然光以及三种完全偏振光合称为光的五种偏振态。
 
 1. 线偏振光：线偏振光是指光矢量的振动方向总在同一确定的平面内、而振动的方向在传播过程中为一条直线，故称之为线偏振光，又称平面偏振光。
