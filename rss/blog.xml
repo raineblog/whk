@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>blog</id>
     <title>RainPPR's WHK Blog</title>
-    <updated>2026-02-26T08:33:45.949Z</updated>
+    <updated>2026-02-26T09:46:37.666Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://raineblog-whk-rspress.pages.dev/"/>
     <subtitle>RainPPR 的文化课博客，主要是理科，尤其是数学、物理、化学、生物等高中学科的知识及题型等笔记。</subtitle>
@@ -12,26 +12,26 @@
         <title type="html"><![CDATA[生成式人工智能在学习中的应用与实例探究报告]]></title>
         <id>/blog/posts/llms/</id>
         <link href="https://raineblog-whk-rspress.pages.dev/blog/posts/llms/"/>
-        <updated>2026-02-26T08:33:45.949Z</updated>
+        <updated>2026-02-26T09:46:37.665Z</updated>
         <content type="html"><![CDATA[<!--$--><h1 class="rp-toc-include" id="生成式人工智能在学习中的应用与实例探究报告"><a href="#生成式人工智能在学习中的应用与实例探究报告" class="rp-header-anchor rp-link" aria-hidden="true">#</a>生成式人工智能在学习中的应用与实例探究报告<!-- --> </h1>
 <span data-dark="false" class="rp-reading-time">预计阅读时间: 31 分钟</span>
 <p>生成式人工智能在学习中的应用与实例探究报告</p>
-<p>:::::::: {style=&quot;text-align:center;margin:3rem 0&quot;}</p>
-<h1 class="rp-toc-include" id="生成式人工智能在学习中的应用与实例探究报告-stylefont-familyvar--fontkit-cjk-kaicolor000border-bottomnonemargin-bottom2remfont-size22remline-height14"><a href="#生成式人工智能在学习中的应用与实例探究报告-stylefont-familyvar--fontkit-cjk-kaicolor000border-bottomnonemargin-bottom2remfont-size22remline-height14" class="rp-header-anchor rp-link" aria-hidden="true">#</a>生成式人工智能在学习中的应用与实例探究报告 {style=&quot;font-family:var(--fontkit-cjk-kai);color:#000;border-bottom:none;margin-bottom:2rem;font-size:2.2rem;line-height:1.4&quot;}<!-- --> </h1>
-<p>:::::: {style=&quot;justify-content:center;gap:3rem;margin-bottom:1rem;display:flex&quot;}
+<p>:::::::: {style=&quot;text-align</p><div></div>;margin<div></div> 0&quot;}<p></p>
+<h1 class="rp-toc-include" id="生成式人工智能在学习中的应用与实例探究报告-stylefont-family--fontkit-cjk-kaicolor000border-bottommargin-bottomfont-size2remline-height4"><a href="#生成式人工智能在学习中的应用与实例探究报告-stylefont-family--fontkit-cjk-kaicolor000border-bottommargin-bottomfont-size2remline-height4" class="rp-header-anchor rp-link" aria-hidden="true">#</a>生成式人工智能在学习中的应用与实例探究报告 {style=&quot;font-family<div></div>(--fontkit-cjk-kai);color:#000;border-bottom<div></div>;margin-bottom<div></div>;font-size<div></div>.2rem;line-height<div></div>.4&quot;}<!-- --> </h1>
+<p>:::::: {style=&quot;justify-content</p><div></div>;gap<div></div>;margin-bottom<div></div>;display<div></div>&quot;}
 ::::: {}
-::: {style=&quot;font-size:1rem;font-weight:600&quot;}
+::: {style=&quot;font-size<div></div>;font-weight<div></div>&quot;}
 逄沛然
-:::</p>
-<p>::: {style=&quot;color:#444;margin-top:.2rem;font-size:1rem&quot;}
+:::<p></p>
+<p>::: {style=&quot;color:#444;margin-top:.2rem;font-size</p><div></div>&quot;}
 山东省青岛第二中学
 :::
 :::::
-::::::</p>
-<p>::: {style=&quot;color:#666;margin-top:1.5rem;font-size:1rem;font-style:italic&quot;}
+::::::<p></p>
+<p>::: {style=&quot;color:#666;margin-top</p><div></div>.5rem;font-size<div></div>;font-style<div></div>&quot;}
 2026 年 02 月 04 日
 :::
-::::::::</p>
+::::::::<p></p>
 <h2 class="rp-toc-include" id="关于生成式人工智能的简介"><a href="#关于生成式人工智能的简介" class="rp-header-anchor rp-link" aria-hidden="true">#</a>关于生成式人工智能的简介</h2>
 <h3 class="rp-toc-include" id="什么是生成式人工智能"><a href="#什么是生成式人工智能" class="rp-header-anchor rp-link" aria-hidden="true">#</a>什么是生成式人工智能？</h3>
 <p>2025 年 5 月，教育部基础教育教学指导委员会正式发布《中小学生成式人工智能使用指南（2025年版）》（以下简称《使用指南》）。《使用指南》指出：生成式人工智能（Generative AI, AIGC）是指具有文本、图片、音频、视频等内容生成能力的模型及相关技术。将生成式人工智能合理融入中小学教育，是抢抓新一轮科技革命机遇、响应国家科技自立自强战略的重要实践，是激发学生创造潜能、提升教育品质的关键路径。为推动其安全规范使用，加速构建以人工智能为引领的创新教育生态，现制定本指南。</p>
@@ -257,46 +257,46 @@
 <p>综上所述，生成式人工智能并非传统教育的替代者，而是人类智力边界的延伸与重构。我们正身处一个教育轨迹从&quot;以书为纲&quot;跨向&quot;人机互惠&quot;，最终回归&quot;以人为本&quot;的宏大叙事中。教育的最深层使命，始终是在算法无法触及的幽微处，守护并激发那份属于人类的直觉、同理心与终极创造力。身处 AI 时代的洪流，我们不仅要学会执笔挥舞数字化的光剑，更要学会在浩瀚的字符宇宙里，守望那颗永恒不灭、探索自我的纯真初心。</p><!--/$-->]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RaineMtF]]></title>
-        <id>/blog/author/RaineMtF/</id>
-        <link href="https://raineblog-whk-rspress.pages.dev/blog/author/RaineMtF/"/>
-        <updated>2026-02-26T08:33:45.935Z</updated>
-        <content type="html"><![CDATA[<!--$--><h1 class="rp-toc-include" id="rainemtf"><a href="#rainemtf" class="rp-header-anchor rp-link" aria-hidden="true">#</a>RaineMtF<!-- --> </h1>
-<span data-dark="false" class="rp-reading-time">预计阅读时间: 小于 1 分钟</span>
-<p>参见她的 Github 账号 <a href="https://github.com/RaineMtF" target="_blank" rel="noopener noreferrer" class="rp-link">RaineMtF</a>，以及友链 <a href="/blog/author/RainPPR" class="rp-link">RainPPR</a>。</p><!--/$-->]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[博客]]></title>
         <id>/blog/</id>
         <link href="https://raineblog-whk-rspress.pages.dev/blog/"/>
-        <updated>2026-02-26T08:33:45.935Z</updated>
+        <updated>2026-02-26T09:46:37.653Z</updated>
         <content type="html"><![CDATA[<!--$--><h1 class="rp-toc-include" id="博客"><a href="#博客" class="rp-header-anchor rp-link" aria-hidden="true">#</a>博客<!-- --> </h1>
 <span data-dark="false" class="rp-reading-time">预计阅读时间: 小于 1 分钟</span>
 <p>这里是博客，主要是用 AI (GPT-OSS) 自动生成的。</p><!--/$-->]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RainPPR]]></title>
-        <id>/blog/author/RainPPR/</id>
-        <link href="https://raineblog-whk-rspress.pages.dev/blog/author/RainPPR/"/>
-        <updated>2026-02-26T08:33:45.934Z</updated>
-        <content type="html"><![CDATA[<!--$--><h1 class="rp-toc-include" id="rainppr"><a href="#rainppr" class="rp-header-anchor rp-link" aria-hidden="true">#</a>RainPPR<!-- --> </h1>
+        <title type="html"><![CDATA[RaineMtF]]></title>
+        <id>/blog/author/RaineMtF/</id>
+        <link href="https://raineblog-whk-rspress.pages.dev/blog/author/RaineMtF/"/>
+        <updated>2026-02-26T09:46:37.652Z</updated>
+        <content type="html"><![CDATA[<!--$--><h1 class="rp-toc-include" id="rainemtf"><a href="#rainemtf" class="rp-header-anchor rp-link" aria-hidden="true">#</a>RaineMtF<!-- --> </h1>
 <span data-dark="false" class="rp-reading-time">预计阅读时间: 小于 1 分钟</span>
-<p>参见她的 Github 账号 <a href="https://github.com/RainPPR" target="_blank" rel="noopener noreferrer" class="rp-link">RainPPR</a>，以及友链 <a href="/blog/author/RaineMtF" class="rp-link">RaineMtF</a>。</p><!--/$-->]]></content>
+<p>参见她的 Github 账号 <a href="https://github.com/RaineMtF" target="_blank" rel="noopener noreferrer" class="rp-link">RaineMtF</a>，以及友链 <a href="/blog/author/RainPPR" class="rp-link">RainPPR</a>。</p><!--/$-->]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Bot]]></title>
         <id>/blog/author/Bot/</id>
         <link href="https://raineblog-whk-rspress.pages.dev/blog/author/Bot/"/>
-        <updated>2026-02-26T08:33:45.933Z</updated>
+        <updated>2026-02-26T09:46:37.651Z</updated>
         <content type="html"><![CDATA[<!--$--><h1 class="rp-toc-include" id="bot"><a href="#bot" class="rp-header-anchor rp-link" aria-hidden="true">#</a>Bot<!-- --> </h1>
 <span data-dark="false" class="rp-reading-time">预计阅读时间: 小于 1 分钟</span>
 <p>是机器人。</p><!--/$-->]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[RainPPR]]></title>
+        <id>/blog/author/RainPPR/</id>
+        <link href="https://raineblog-whk-rspress.pages.dev/blog/author/RainPPR/"/>
+        <updated>2026-02-26T09:46:37.651Z</updated>
+        <content type="html"><![CDATA[<!--$--><h1 class="rp-toc-include" id="rainppr"><a href="#rainppr" class="rp-header-anchor rp-link" aria-hidden="true">#</a>RainPPR<!-- --> </h1>
+<span data-dark="false" class="rp-reading-time">预计阅读时间: 小于 1 分钟</span>
+<p>参见她的 Github 账号 <a href="https://github.com/RainPPR" target="_blank" rel="noopener noreferrer" class="rp-link">RainPPR</a>，以及友链 <a href="/blog/author/RaineMtF" class="rp-link">RaineMtF</a>。</p><!--/$-->]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[2026]]></title>
         <id>/blog/archive/2026/</id>
         <link href="https://raineblog-whk-rspress.pages.dev/blog/archive/2026/"/>
-        <updated>2026-02-26T08:33:45.932Z</updated>
+        <updated>2026-02-26T09:46:37.650Z</updated>
         <content type="html"><![CDATA[<!--$--><h1 class="rp-toc-include" id="2026"><a href="#2026" class="rp-header-anchor rp-link" aria-hidden="true">#</a>2026<!-- --> </h1>
 <span data-dark="false" class="rp-reading-time">预计阅读时间: 小于 1 分钟</span>
 <p>2026 年，我们创建了这个站点的 Blog 功能。</p><!--/$-->]]></content>
