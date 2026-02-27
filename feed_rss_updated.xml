@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Wed, 25 Feb 2026 10:18:13 -0000</pubDate>
-    <lastBuildDate>Wed, 25 Feb 2026 10:18:13 -0000</lastBuildDate>
+    <pubDate>Fri, 27 Feb 2026 13:13:52 -0000</pubDate>
+    <lastBuildDate>Fri, 27 Feb 2026 13:13:52 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-25T10:18:13.372483+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-25T10:18:13....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-27&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-27T13:13:52.654100+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-27&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-27T13:13:52....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Wed, 25 Feb 2026 10:18:00 +0000</pubDate>
+      <pubDate>Fri, 27 Feb 2026 13:13:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
@@ -57,12 +57,118 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/page/2/</link>
-      <pubDate>Wed, 25 Feb 2026 10:18:00 +0000</pubDate>
+      <pubDate>Fri, 27 Feb 2026 13:13:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/page/2/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/page/2.png" type="image/png" length="None" />
+      
+    </item>
+    
+    <item>
+      <title>简介</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;简介&lt;/h1&gt;
+&lt;h2&gt;这里是 &lt;strong&gt;RainPPR&#39;s WHK Blog&lt;/strong&gt;！&lt;/h2&gt;
+&lt;p&gt;这个是 WHK 博客，是目前作者比较活跃的百科性质博客。本项目受 &lt;a href=&#34;https://ctf-wiki.org/&#34;&gt;CTF Wiki&lt;/a&gt;、&lt;a href=&#34;https://oi-wiki.org/&#34;&gt;OI Wiki&lt;/a&gt; 的启发。在本项目的编写过程中，作者进行了很多创造性（造轮子性）的改造，尤其是对于高中知识体系框架的构建。&lt;/p&gt;
+&lt;p&gt;在编写过程中参考了诸多资料，主要内容来自于教材、书籍、网课、培训机构（山东青岛地区）等，部分资料来源于一些网站，在此一并致谢！&lt;/p&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2024-08-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;...</description>
+      <link>https://raineblog.dpdns.org/whk/</link>
+      <pubDate>Fri, 27 Feb 2026 13:11:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/index.png" type="image/png" length="39072" />
+      
+    </item>
+    
+    <item>
+      <title>细胞的生命历程</title>
+      
+      
+      
+      
+      <description>本文档详细阐述了植物组织培养、体细胞杂交技术，以及动物细胞培养、核移植和诱导多能干细胞（iPS 细胞）的原理与应用。同时涵盖了胚胎工程的理论基础（受精与早期胚胎发育）及相关技术应用，并简要概述了基因工程与蛋白质工程的诞生与基本操作。</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/3/</link>
+      <pubDate>Fri, 27 Feb 2026 13:11:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="31283" />
+      
+    </item>
+    
+    <item>
+      <title>发酵技术与工程</title>
+      
+      
+      
+      
+      <description>深入探讨微生物培养基的种类与营养需求，详细解析高压蒸汽灭菌、干热灭菌及空气过滤除菌的原理与操作。通过酵母菌纯培养实例，演示平板划线法与稀释布平板法。此外，还介绍了发酵工程在酱油、酒类、抗生素、疫苗及生物肥料生产中的应用，以及合成生物学在未来发酵技术中的潜力。</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/4/</link>
+      <pubDate>Fri, 27 Feb 2026 13:11:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/4.png" type="image/png" length="52712" />
+      
+    </item>
+    
+    <item>
+      <title>技术与社会</title>
+      
+      
+      
+      
+      <description>本文详细探讨了科学、技术、社会与环境（STSE）教育的内涵，重点分析了转基因生物的安全评价与伦理争论、禁止生殖性克隆人的立场以及生物武器的威胁。此外，还涵盖了海水淡化利用、环境污染防治、食品添加剂及工业流程的基础知识。</description>
+      <link>https://raineblog.dpdns.org/whk/science/experiment/3/</link>
+      <pubDate>Fri, 27 Feb 2026 13:11:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/experiment/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/3.png" type="image/png" length="47439" />
+      
+    </item>
+    
+    <item>
+      <title>免疫系统</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;免疫系统&lt;/h1&gt;
+&lt;h2&gt;免疫理论&lt;/h2&gt;
+&lt;p&gt;骨髓、胸腺、脾、淋巴结等&lt;strong&gt;免疫器官&lt;/strong&gt;，淋巴细胞和树突状细胞、巨噬细胞等&lt;strong&gt;免疫细胞&lt;/strong&gt;，以及体液中的各种抗体和细胞因子等&lt;strong&gt;免疫活性物质&lt;/strong&gt;，共同组成了人体的&lt;strong&gt;免疫系统&lt;/strong&gt;，这是免疫调节的结构和物质基础。&lt;/p&gt;
+&lt;h3&gt;免疫器官&lt;/h3&gt;
+&lt;p&gt;免疫器官是免疫细胞生成、成熟或集中分布的场所，主要由淋巴组织构成，并借助于血液循环和淋巴循环相互联系。免疫器官包括骨髓、胸腺、脾、淋巴结和扁桃体等。&lt;/p&gt;
+&lt;p&gt;中枢免疫器官（原发性淋巴器官）：骨髓和胸腺是免疫细胞分化、发育、成熟的场所。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;骨髓：是几乎所有免疫细胞的发生地，同时也是是 B 细胞分化、发育、成熟的场所。&lt;/p&gt;
+&lt;p&gt;骨髓的造血干细胞在此分裂、分化为免疫细胞，骨髓既是造血器官，也是免疫器官。&lt;/p&gt;
+&lt;p&gt;骨髓移植本质是造血干细胞移植，可以用来治疗一些遗传病，例如白血病和一些免疫病。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;胸腺：位于胸骨的后面，胸腺随年龄而增长，在青春期时达到高峰，以后逐渐退化、萎缩，被脂肪组织取代（但终生保持一定功能）。&lt;/p&gt;
+&lt;p&gt;胸腺是 T 细胞分化、发育、成熟的场所，来自骨髓的 T 细胞前体在此进行严格的筛选。&lt;/p&gt;
+&lt;p&gt;-...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/human/9/</link>
+      <pubDate>Fri, 27 Feb 2026 13:11:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/human/9/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/9/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/9.png" type="image/png" length="46571" />
       
     </item>
     
@@ -97,7 +203,7 @@
 &lt;h3&gt;分子的能量&lt;/h3&gt;
 &lt;p&gt;分子动能：人们利用分子动理论通...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/modern/1/</link>
-      <pubDate>Wed, 25 Feb 2026 10:16:00 +0000</pubDate>
+      <pubDate>Fri, 27 Feb 2026 13:11:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/modern/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/1/</guid>
@@ -215,40 +321,6 @@
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/4/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/4.png" type="image/png" length="44424" />
-      
-    </item>
-    
-    <item>
-      <title>免疫系统</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;免疫系统&lt;/h1&gt;
-&lt;h2&gt;免疫理论&lt;/h2&gt;
-&lt;p&gt;骨髓、胸腺、脾、淋巴结等&lt;strong&gt;免疫器官&lt;/strong&gt;，淋巴细胞和树突状细胞、巨噬细胞等&lt;strong&gt;免疫细胞&lt;/strong&gt;，以及体液中的各种抗体和细胞因子等&lt;strong&gt;免疫活性物质&lt;/strong&gt;，共同组成了人体的&lt;strong&gt;免疫系统&lt;/strong&gt;，这是免疫调节的结构和物质基础。&lt;/p&gt;
-&lt;h3&gt;免疫器官&lt;/h3&gt;
-&lt;p&gt;免疫器官是免疫细胞生成、成熟或集中分布的场所，主要由淋巴组织构成，并借助于血液循环和淋巴循环相互联系。免疫器官包括骨髓、胸腺、脾、淋巴结和扁桃体等。&lt;/p&gt;
-&lt;p&gt;中枢免疫器官（原发性淋巴器官）：骨髓和胸腺是免疫细胞分化、发育、成熟的场所。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;骨髓：是几乎所有免疫细胞的发生地，同时也是是 B 细胞分化、发育、成熟的场所。&lt;/p&gt;
-&lt;p&gt;骨髓的造血干细胞在此分裂、分化为免疫细胞，骨髓既是造血器官，也是免疫器官。&lt;/p&gt;
-&lt;p&gt;骨髓移植本质是造血干细胞移植，可以用来治疗一些遗传病，例如白血病和一些免疫病。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;胸腺：位于胸骨的后面，胸腺随年龄而增长，在青春期时达到高峰，以后逐渐退化、萎缩，被脂肪组织取代（但终生保持一定功能）。&lt;/p&gt;
-&lt;p&gt;胸腺是 T 细胞分化、发育、成熟的场所，来自骨髓的 T 细胞前体在此进行严格的筛选。&lt;/p&gt;
-&lt;p&gt;-...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/human/9/</link>
-      <pubDate>Mon, 23 Feb 2026 02:46:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/human/9/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/9/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/9.png" type="image/png" length="46571" />
       
     </item>
     
@@ -381,23 +453,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/1/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/1.png" type="image/png" length="45316" />
-      
-    </item>
-    
-    <item>
-      <title>细胞的生命历程</title>
-      
-      
-      
-      
-      <description>本文系统梳理了细胞的生命历程相关知识，涵盖细胞分裂（减数分裂）、植物细胞工程（组织培养、体细胞杂交）、动物细胞工程（细胞培养、融合、核移植、干细胞与 iPS 细胞）、胚胎工程（受精、早期胚胎发育、体外受精、胚胎移植与分割）以及基因工程（重组 DNA 技术的工具与操作程序、PCR 扩增、基因表达载体构建、转基因应用）和蛋白质工程的原理与应用，是高中生物选择性必修三的核心内容整理。</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/3/</link>
-      <pubDate>Sat, 21 Feb 2026 14:24:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="31283" />
       
     </item>
     
@@ -601,36 +656,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/3/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/3.png" type="image/png" length="43418" />
-      
-    </item>
-    
-    <item>
-      <title>简介</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;简介&lt;/h1&gt;
-&lt;h2&gt;这里是 &lt;strong&gt;RainPPR&#39;s WHK Blog&lt;/strong&gt;！&lt;/h2&gt;
-&lt;p&gt;这个是 WHK 博客，是目前作者比较活跃的百科性质博客。本项目受 &lt;a href=&#34;https://ctf-wiki.org/&#34;&gt;CTF Wiki&lt;/a&gt;、&lt;a href=&#34;https://oi-wiki.org/&#34;&gt;OI Wiki&lt;/a&gt; 的启发。在本项目的编写过程中，作者进行了很多创造性（造轮子性）的改造，尤其是对于高中知识体系框架的构建。&lt;/p&gt;
-&lt;p&gt;在编写过程中参考了诸多资料，主要内容来自于教材、书籍、网课、培训机构（山东青岛地区）等，部分资料来源于一些网站，已经放在下面的 Reference 部分，在此一并致谢！&lt;/p&gt;
-&lt;div class=&#34;bib-wrapper&#34;&gt;
-  &lt;h3 class=&#34;bib-header-title&#34;&gt;Core References &amp; Bibliography&lt;/h3&gt;
-
-  &lt;style&gt;
-  .bib-wrapper {
-    margin: 2rem 0 0 0;
-    font-family: var(--md-text-font-family, sans-serif);
-  }
-
-  /* Sectio...</description>
-      <link>https://raineblog.dpdns.org/whk/</link>
-      <pubDate>Sat, 21 Feb 2026 10:04:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/index.png" type="image/png" length="39072" />
       
     </item>
     
@@ -1656,31 +1681,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>技术与社会</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;技术与社会&lt;/h1&gt;
-&lt;h2&gt;STSE&lt;/h2&gt;
-&lt;p&gt;STSE 教育理念是科学（Science）、技术（Technology）、社会（Society）和环境（Environment）的英文缩写。科学、技术、社会与环境（STSE）教育起源于科学教育领域的科学技术与社会（STS）运动。这种科学教育理念强调在文化、经济、社会和政治背景下教授科学技术发展。在这种科学教育观下，学生被鼓励参与到与科学对日常生活的影响相关的问题中，并就如何解决这些问题做出负责任的决定。&lt;/p&gt;
-&lt;p&gt;借助解决实际问题、开展活动、进行调查以及分析等方式，引导学生在 STSE 情境里运用学科知识。激励学生针对那些关乎社会与环境的重要议题积极发表评价，进而做出合理决策，以此帮助学生塑造正确的价值观，并促使其养成良好的行为准则。STSE 教育理念注重培养学生的综合素养，使其能够理解科学技术在社会发展中的应用以及对环境的影响。&lt;/p&gt;
-&lt;h2&gt;生物技术的安全性与伦理问题&lt;/h2&gt;
-&lt;p&gt;在人类社会中，伦，是指人与人之间的关系；理，是道德和规则。伦理特指人与人之间的道德准则。&lt;/p&gt;
-&lt;h3&gt;转基因产品的安全性&lt;/h3&gt;
-&lt;p&gt;人们对转基因生物安全性的关注，随着转基因成果的
-不断涌现而与日俱...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/experiment/3/</link>
-      <pubDate>Thu, 19 Feb 2026 14:33:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/experiment/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/3.png" type="image/png" length="44793" />
-      
-    </item>
-    
-    <item>
       <title>神经系统</title>
       
       
@@ -2559,28 +2559,6 @@ Shull（1914）提出，杂合等位基因（如Aa）的互作效应超过纯合
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/01/26/%E9%85%B6%E4%B8%8E%E5%8F%91%E9%85%B5%E6%8A%80%E6%9C%AF%E4%BB%8E%E5%BE%AE%E8%A7%82%E8%B0%83%E6%8E%A7%E5%88%B0%E5%AE%8F%E8%A7%82%E9%85%BF%E9%80%A0%E7%9A%84%E7%94%9F%E7%89%A9%E5%AD%A6%E7%9B%9B%E5%AE%B4/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/01/26/酶与发酵技术从微观调控到宏观酿造的生物学盛宴.png" type="image/png" length="68446" />
-      
-    </item>
-    
-    <item>
-      <title>发酵技术与工程</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;发酵技术与工程&lt;/h1&gt;
-&lt;h2&gt;发酵技术与工程&lt;/h2&gt;
-&lt;h3&gt;发酵与发酵技术&lt;/h3&gt;
-&lt;p&gt;1857 年，法国微生物学家巴斯德通过实验证明，酒精发酵是由活的酵母菌引起的。此后，人们才开始了解发酵的本质。这里所说的发酵（fermentation），是指人们利用微生物，在适宜的条件下，将原料通过微生物的代谢转化为人类所需要的产物的过程。不同的微生物具有产生不同代谢物的能力，因此利用它们就可以生产出人们所需要的多种产物。&lt;/p&gt;
-&lt;p&gt;腐乳是我国古代劳动人民通过微生物发酵制作而成的一种大豆食品。早在公元 5 世纪的北魏古籍中，就有关于腐乳生产工艺的记载。千百年来，腐乳一直受到人们的喜爱。这是因为经过微生物的发酵，豆腐中的蛋白质被分解成小分子的肽和氨基酸，味道鲜美，易于消化吸收，而腐乳本身又便于保存。多种微生物参与了豆腐的发酵，如酵母、曲霉和毛霉等，其中起主要作用的是&lt;strong&gt;毛霉&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;像这种直接利用原材料中天然存在的微生物，或利用前一次发酵保存下来的面团、卤汁等发酵物中的微生物进行发酵、制作食品的技术一般称为传统发酵技术。传统发酵以混合菌种的固体发酵及半固体发酵为主，通常是家庭式或作坊式的。利用传统发酵技术制作的食品还...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/4/</link>
-      <pubDate>Tue, 17 Feb 2026 09:05:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/4.png" type="image/png" length="48598" />
       
     </item>
     
