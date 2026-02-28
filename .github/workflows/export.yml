@@ -40,7 +40,7 @@ jobs:
 
       - name: Execute PDF generation process
         env:
-          MAX_THREADS: 2
+          MAX_THREADS: 4
         run: mkdocs-export
 
       - name: Upload Binaries (Tag Trigger)

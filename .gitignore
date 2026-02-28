@@ -365,8 +365,10 @@ web_cache
 docs/assets
 
 package.json
+
 package-lock.json
 pnpm-lock.yaml
+bun.lock
 
 *.log
 *.txt

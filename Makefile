@@ -33,3 +33,11 @@ DOCKER_LOCAL_AUTOBLOG = docker run --rm -it \
 
 autoblog:
 	$(DOCKER_LOCAL_AUTOBLOG)
+
+export:
+# 	docker pull ghcr.io/raineblog/mkdocs-exporter:latest
+	docker run --rm \
+		-v $(CURDIR):/app/workspace -w /app/workspace \
+		--env-file .env \
+		-e MAX_THREADS=16 \
+		ghcr.io/raineblog/mkdocs-exporter:latest
