@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sat, 28 Feb 2026 11:51:15 -0000</pubDate>
-    <lastBuildDate>Sat, 28 Feb 2026 11:51:15 -0000</lastBuildDate>
+    <pubDate>Sat, 28 Feb 2026 14:51:09 -0000</pubDate>
+    <lastBuildDate>Sat, 28 Feb 2026 14:51:09 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-28&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-28T11:51:16.103707+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-28&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-28T11:51:16....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-28&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-28T14:51:09.132601+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-28&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-28T14:51:09....</description>
       <link>https://raineblog-whk.pages.dev/blog/archive/2025/</link>
-      <pubDate>Sat, 28 Feb 2026 11:51:00 +0000</pubDate>
+      <pubDate>Sat, 28 Feb 2026 14:51:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/blog/archive/2025/</guid>
@@ -57,7 +57,7 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog-whk.pages.dev/blog/page/2/</link>
-      <pubDate>Sat, 28 Feb 2026 11:51:00 +0000</pubDate>
+      <pubDate>Sat, 28 Feb 2026 14:51:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/blog/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/blog/page/2/</guid>
@@ -67,19 +67,35 @@
     </item>
     
     <item>
-      <title>发酵技术与工程</title>
+      <title>静电力学</title>
       
       
       
       
-      <description>深入探讨微生物培养基的种类与营养需求，详细解析高压蒸汽灭菌、干热灭菌及空气过滤除菌的原理与操作。通过酵母菌纯培养实例，演示平板划线法与稀释布平板法。此外，还介绍了发酵工程在酱油、酒类、抗生素、疫苗及生物肥料生产中的应用，以及合成生物学在未来发酵技术中的潜力。</description>
-      <link>https://raineblog-whk.pages.dev/science/cell/4/</link>
-      <pubDate>Sat, 28 Feb 2026 11:49:00 +0000</pubDate>
+      <description>&lt;h1&gt;静电力学&lt;/h1&gt;
+&lt;h2&gt;电荷&lt;/h2&gt;
+&lt;h3&gt;电荷&lt;/h3&gt;
+&lt;p&gt;电荷是构成物质的基本粒子的一种物理性质，原子中的质子和电子分别带有正电荷和负电荷，而中子不带电荷。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;./验电器与静电计.avif&#34;&gt;{ align=right width=&#34;30%&#34; }&lt;/p&gt;
+&lt;p&gt;质子与电子这种携带电荷的粒子称作&lt;strong&gt;载流子&lt;/strong&gt;，电荷作为一种假想物质，无法脱离载流子单独存在。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;丝绸摩擦的玻璃棒带正电荷，毛皮摩擦的橡胶棒带负电荷。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;带有电荷的物质称为&lt;strong&gt;带电物质&lt;/strong&gt;，带有电荷的粒子称为&lt;strong&gt;带电粒子&lt;/strong&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;电荷量的国际单位是库仑（$\text C$），通常用符号 $Q$ 表示。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;元电荷&lt;/strong&gt;（也成基本电荷）：基本电荷 $e$ 是一个质子所带的&lt;strong&gt;电荷量&lt;/strong&gt;，或一个电子所带的负&lt;strong&gt;电荷量&lt;/strong&gt;。其中 $e\approx 1.602\times 10^{-19}\text C$，一个电子携带的电荷量为 $-e$。&lt;/p&gt;
+&lt;p&gt;为什么是小数？历史上，安培（电流强度）是先于库仑定义的，最初的库伦定义就是&lt;strong&gt;安培秒&lt;/strong&gt;，即 $1$ 库仑是 $1$ 安培电流在 $1$ 秒钟内传递的电荷，表示为 $1\text C=1\mathr...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/electromagnetism/1/</link>
+      <pubDate>Sat, 28 Feb 2026 14:49:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/cell/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/4/</guid>
+      <comments>https://raineblog-whk.pages.dev/science/electromagnetism/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/electromagnetism/1/</guid>
       
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/4.png" type="image/png" length="52712" />
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/electromagnetism/1.png" type="image/png" length="42018" />
       
     </item>
     
@@ -103,12 +119,76 @@
 &lt;p&gt;与甲烷结构相似的有机化合物还有很多，随着分子中碳原子数的增加，还有乙烷、丙烷、丁烷等一系列有机化合物。这些化合物的碳链呈锯齿状或折线形。&lt;/p&gt;
 &lt;p&gt;烷烃分子中的碳原子都采取 $\text{sp3}$ 杂化，形成四面体结构；碳原子以...&lt;/p&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/organic/2/</link>
-      <pubDate>Sat, 28 Feb 2026 11:20:00 +0000</pubDate>
+      <pubDate>Sat, 28 Feb 2026 14:49:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/science/organic/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/organic/2/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/organic/2.png" type="image/png" length="48454" />
+      
+    </item>
+    
+    <item>
+      <title>物质与分子</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;物质与分子&lt;/h1&gt;
+&lt;p&gt;$$
+\textrm{This page intentionally left blank.}
+$$&lt;/p&gt;
+&lt;h2&gt;物质的量相关定义&lt;/h2&gt;
+&lt;h3&gt;物质的量&lt;/h3&gt;
+&lt;p&gt;反映粒子数目：符号 $n$，单位 $\pu{mol}$。&lt;/p&gt;
+&lt;p&gt;重点：指明具体的&lt;strong&gt;微观&lt;/strong&gt;物质粒子（原子、离子、分子、质子、电子、种子）。&lt;/p&gt;
+&lt;h3&gt;阿伏伽德罗常数&lt;/h3&gt;
+&lt;p&gt;数值上：&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+N_A&amp;amp;=6.022\ 140\ 76\times10^{23}\pu{mol^-1}
+\end{aligned}
+$$&lt;/p&gt;
+&lt;p&gt;一般取约数为 $6.02$，注意：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;早期的阿伏伽德罗常数定义为 $\pu{12g}$ 的 $\ce{^12C}$ 中所含的原子个数。&lt;/li&gt;
+&lt;li&gt;现代的定义是一个固定的值（上），由阿伏伽德罗常数和质量定义物质的量。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+n=\dfrac N{N_A}
+$$&lt;/p&gt;
+&lt;p&gt;其中 $N$ 表示微粒个数。&lt;/p&gt;
+&lt;h3&gt;摩尔质量&lt;/h3&gt;
+&lt;p&gt;单位物质的量的物质所具有的质量：&lt;/p&gt;
+&lt;p&gt;$$
+M=\dfrac{m}{n}
+$$&lt;/p&gt;
+&lt;p&gt;标准单位为 $\pu{g/mol}$，此时摩尔质量数值上等于粒子的相对质量。&lt;/p&gt;
+&lt;h3&gt;摩尔...&lt;/h3&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/structure/1/</link>
+      <pubDate>Sat, 28 Feb 2026 14:49:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/structure/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/structure/1/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/structure/1.png" type="image/png" length="45316" />
+      
+    </item>
+    
+    <item>
+      <title>发酵技术与工程</title>
+      
+      
+      
+      
+      <description>深入探讨微生物培养基的种类与营养需求，详细解析高压蒸汽灭菌、干热灭菌及空气过滤除菌的原理与操作。通过酵母菌纯培养实例，演示平板划线法与稀释布平板法。此外，还介绍了发酵工程在酱油、酒类、抗生素、疫苗及生物肥料生产中的应用，以及合成生物学在未来发酵技术中的潜力。</description>
+      <link>https://raineblog-whk.pages.dev/science/cell/4/</link>
+      <pubDate>Sat, 28 Feb 2026 11:49:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/cell/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/4/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/4.png" type="image/png" length="52712" />
       
     </item>
     
@@ -406,53 +486,6 @@
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/structure/3/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/structure/3.png" type="image/png" length="45511" />
-      
-    </item>
-    
-    <item>
-      <title>物质与分子</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;物质与分子&lt;/h1&gt;
-&lt;p&gt;$$
-\textrm{This page intentionally left blank.}
-$$&lt;/p&gt;
-&lt;h2&gt;物质的量相关定义&lt;/h2&gt;
-&lt;h3&gt;物质的量&lt;/h3&gt;
-&lt;p&gt;反映粒子数目：符号 $n$，单位 $\pu{mol}$。&lt;/p&gt;
-&lt;p&gt;重点：指明具体的&lt;strong&gt;微观&lt;/strong&gt;物质粒子（原子、离子、分子、质子、电子、种子）。&lt;/p&gt;
-&lt;h3&gt;阿伏伽德罗常数&lt;/h3&gt;
-&lt;p&gt;数值上：&lt;/p&gt;
-&lt;p&gt;$$
-\begin{aligned}
-N_A&amp;amp;=6.022\ 140\ 76\times10^{23}\pu{mol^-1}
-\end{aligned}
-$$&lt;/p&gt;
-&lt;p&gt;一般取约数为 $6.02$，注意：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;早期的阿伏伽德罗常数定义为 $\pu{12g}$ 的 $\ce{^12C}$ 中所含的原子个数。&lt;/li&gt;
-&lt;li&gt;现代的定义是一个固定的值（上），由阿伏伽德罗常数和质量定义物质的量。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;$$
-n=\dfrac N{N_A}
-$$&lt;/p&gt;
-&lt;p&gt;其中 $N$ 表示微粒个数。&lt;/p&gt;
-&lt;h3&gt;摩尔质量&lt;/h3&gt;
-&lt;p&gt;单位物质的量的物质所具有的质量：&lt;/p&gt;
-&lt;p&gt;$$
-M=\dfrac{m}{n}
-$$&lt;/p&gt;
-&lt;p&gt;标准单位为 $\pu{g/mol}$，此时摩尔质量数值上等于粒子的相对质量。&lt;/p&gt;
-&lt;h3&gt;摩尔...&lt;/h3&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/structure/1/</link>
-      <pubDate>Sun, 22 Feb 2026 14:10:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/structure/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/structure/1/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/structure/1.png" type="image/png" length="45316" />
       
     </item>
     
@@ -3249,39 +3282,6 @@ $$...&lt;/p&gt;</description>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/plane/3/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/plane/3.png" type="image/png" length="47566" />
-      
-    </item>
-    
-    <item>
-      <title>静电力学</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;静电力学&lt;/h1&gt;
-&lt;h2&gt;电荷&lt;/h2&gt;
-&lt;h3&gt;电荷&lt;/h3&gt;
-&lt;p&gt;电荷是构成物质的基本粒子的一种物理性质，原子中的质子和电子分别带有正电荷和负电荷，而中子不带电荷。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;./验电器与静电计.avif&#34;&gt;{ align=right width=&#34;30%&#34; }&lt;/p&gt;
-&lt;p&gt;质子与电子这种携带电荷的粒子称作&lt;strong&gt;载流子&lt;/strong&gt;，电荷作为一种假想物质，无法脱离载流子单独存在。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;丝绸摩擦的玻璃棒带正电荷，毛皮摩擦的橡胶棒带负电荷。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;带有电荷的物质称为&lt;strong&gt;带电物质&lt;/strong&gt;，带有电荷的粒子称为&lt;strong&gt;带电粒子&lt;/strong&gt;。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;电荷量的国际单位是库仑（$\text C$），通常用符号 $Q$ 表示。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;元电荷&lt;/strong&gt;（也成基本电荷）：基本电荷 $e$ 是一个质子所带的&lt;strong&gt;电荷量&lt;/strong&gt;，或一个电子所带的负&lt;strong&gt;电荷量&lt;/strong&gt;。其中 $e\approx 1.602\times 10^{-19}\text C$，一个电子携带的电荷量为 $-e$。&lt;/p&gt;
-&lt;p&gt;为什么是小数？历史上，安培（电流强度）是先于库仑定义的，最初的库伦定义就是&lt;strong&gt;安培秒&lt;/strong&gt;，即 $1$ 库仑是 $1$ 安培电流在 $1$ 秒钟内传递的电荷，表示为 $1\text C=1\mathr...&lt;/p&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/electromagnetism/1/</link>
-      <pubDate>Tue, 10 Feb 2026 01:17:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/electromagnetism/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/electromagnetism/1/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/electromagnetism/1.png" type="image/png" length="42018" />
       
     </item>
     
