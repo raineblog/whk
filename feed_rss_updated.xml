@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Fri, 27 Feb 2026 13:13:52 -0000</pubDate>
-    <lastBuildDate>Fri, 27 Feb 2026 13:13:52 -0000</lastBuildDate>
+    <pubDate>Sat, 28 Feb 2026 11:21:42 -0000</pubDate>
+    <lastBuildDate>Sat, 28 Feb 2026 11:21:42 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-27&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-27T13:13:52.654100+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-27&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-27T13:13:52....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-28&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-28T11:21:42.274855+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-28&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-28T11:21:42....</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2025/</link>
-      <pubDate>Fri, 27 Feb 2026 13:13:00 +0000</pubDate>
+      <pubDate>Sat, 28 Feb 2026 11:21:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2025/</guid>
@@ -57,12 +57,41 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/page/2/</link>
-      <pubDate>Fri, 27 Feb 2026 13:13:00 +0000</pubDate>
+      <pubDate>Sat, 28 Feb 2026 11:21:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/page/2/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/page/2.png" type="image/png" length="None" />
+      
+    </item>
+    
+    <item>
+      <title>有机物的分类</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;有机物的分类&lt;/h1&gt;
+&lt;h2&gt;烷烃概述&lt;/h2&gt;
+&lt;p&gt;烷烃是极佳的有机化学引入之一，在高中有机化学的框架下，我们通常是从烷烃开始，去讨论有机物的化学性质，从引入双键、三键形成不饱和烃，再到引入取代基和各种有机反应。烷烃对于刚刚学习有机化学的人来说，显得格外重要。&lt;/p&gt;
+&lt;h3&gt;甲烷和烷烃&lt;/h3&gt;
+&lt;p&gt;我们熟悉的甲烷（$\ce{CH4}$）是最简单的有机化合物。其分子中的碳原子以最外层的 $4$ 个电子分别与 $4$ 个氢原子的电子形成了 $4$ 个 $\ce{C - H}$ 共价键。&lt;/p&gt;
+&lt;p&gt;实验数据表明，甲烷分子并非平面结构，而是呈正四面体空间构型。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;碳原子位于正四面体的中心。&lt;/li&gt;
+&lt;li&gt;$4$ 个氢原子分别位于 $4$ 个顶点。&lt;/li&gt;
+&lt;li&gt;$4$ 个 $\ce{C - H}$ 键的长度和强度完全相同，任意两个 $\ce{C - H}$ 键之间的夹角均为 $\pu{109.5^\circ C}$。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;与甲烷结构相似的有机化合物还有很多，随着分子中碳原子数的增加，还有乙烷、丙烷、丁烷等一系列有机化合物。这些化合物的碳链呈锯齿状或折线形。&lt;/p&gt;
+&lt;p&gt;烷烃分子中的碳原子都采取 $\text{sp3}$ 杂化，形成四面体结构；碳原子以...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/organic/2/</link>
+      <pubDate>Sat, 28 Feb 2026 11:20:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/organic/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/2.png" type="image/png" length="48454" />
       
     </item>
     
@@ -209,35 +238,6 @@
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/1/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/1.png" type="image/png" length="43763" />
-      
-    </item>
-    
-    <item>
-      <title>有机物的分类</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;有机物的分类&lt;/h1&gt;
-&lt;h2&gt;烷烃概述&lt;/h2&gt;
-&lt;p&gt;烷烃是极佳的有机化学引入之一，在高中有机化学的框架下，我们通常是从烷烃开始，去讨论有机物的化学性质，从引入双键、三键形成不饱和烃，再到引入取代基和各种有机反应。烷烃对于刚刚学习有机化学的人来说，显得格外重要。&lt;/p&gt;
-&lt;h3&gt;甲烷和烷烃&lt;/h3&gt;
-&lt;p&gt;我们熟悉的甲烷（$\ce{CH4}$）是最简单的有机化合物。其分子中的碳原子以最外层的 $4$ 个电子分别与 $4$ 个氢原子的电子形成了 $4$ 个 $\ce{C - H}$ 共价键。&lt;/p&gt;
-&lt;p&gt;实验数据表明，甲烷分子并非平面结构，而是呈正四面体空间构型。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;碳原子位于正四面体的中心。&lt;/li&gt;
-&lt;li&gt;$4$ 个氢原子分别位于 $4$ 个顶点。&lt;/li&gt;
-&lt;li&gt;$4$ 个 $\ce{C - H}$ 键的长度和强度完全相同，任意两个 $\ce{C - H}$ 键之间的夹角均为 $\pu{109.5^\circ C}$。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;与甲烷结构相似的有机化合物还有很多，随着分子中碳原子数的增加，还有乙烷、丙烷、丁烷等一系列有机化合物。这些化合物的碳链呈锯齿状或折线形。&lt;/p&gt;
-&lt;p&gt;烷烃分子中的碳原子都采取 $\text{sp3}$ 杂化，形成四面体结构；碳原子以...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/organic/2/</link>
-      <pubDate>Tue, 24 Feb 2026 10:09:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/organic/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/2.png" type="image/png" length="48454" />
       
     </item>
     
