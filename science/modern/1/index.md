@@ -805,6 +805,14 @@ $$
 p\_n = p\_0 - n \cdot \frac\{V\_\{\text\{std}}}\{V} \cdot p\_\{\text\{std}}
 $$
 
+气体密度问题，我们知道气体密度：
+
+$$
+\rho'=\dfrac\{m'}\{V'}=\dfrac\{mn'}\{nV'}=\dfrac\{mp'T}\{VpT'}=\rho\cdot\dfrac\{p'}\{p}\cdot\dfrac\{T}\{T'}
+$$
+
+带入即可。
+
 ### 水银溢出问题
 
 来源：[175.题6 水银溢出稳定问题（PV=nRT物理学难题集萃）](https://www.bilibili.com/video/BV1MV4y1p7kG/?share_source=copy_web\&vd_source=a2a4227b4b9a68841a8404acff2b8dc9)。
