@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sat, 28 Feb 2026 11:21:41 -0000</pubDate>
-    <lastBuildDate>Sat, 28 Feb 2026 11:21:41 -0000</lastBuildDate>
+    <pubDate>Sat, 28 Feb 2026 11:51:15 -0000</pubDate>
+    <lastBuildDate>Sat, 28 Feb 2026 11:51:15 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,9 +38,9 @@
       
       
       <description>&lt;h1&gt;2025&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-28&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-28T11:21:41.717227+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-28&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-28T11:21:41....</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-28&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-28T11:51:16.103707+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-02-28&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-02-28T11:51:16....</description>
       <link>https://raineblog-whk.pages.dev/blog/archive/2025/</link>
-      <pubDate>Sat, 28 Feb 2026 11:21:00 +0000</pubDate>
+      <pubDate>Sat, 28 Feb 2026 11:51:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/blog/archive/2025/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/blog/archive/2025/</guid>
@@ -57,12 +57,29 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog-whk.pages.dev/blog/page/2/</link>
-      <pubDate>Sat, 28 Feb 2026 11:21:00 +0000</pubDate>
+      <pubDate>Sat, 28 Feb 2026 11:51:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/blog/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/blog/page/2/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/blog/page/2.png" type="image/png" length="None" />
+      
+    </item>
+    
+    <item>
+      <title>发酵技术与工程</title>
+      
+      
+      
+      
+      <description>深入探讨微生物培养基的种类与营养需求，详细解析高压蒸汽灭菌、干热灭菌及空气过滤除菌的原理与操作。通过酵母菌纯培养实例，演示平板划线法与稀释布平板法。此外，还介绍了发酵工程在酱油、酒类、抗生素、疫苗及生物肥料生产中的应用，以及合成生物学在未来发酵技术中的潜力。</description>
+      <link>https://raineblog-whk.pages.dev/science/cell/4/</link>
+      <pubDate>Sat, 28 Feb 2026 11:49:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/cell/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/4/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/4.png" type="image/png" length="52712" />
       
     </item>
     
@@ -130,23 +147,6 @@
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/3/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/3.png" type="image/png" length="31283" />
-      
-    </item>
-    
-    <item>
-      <title>发酵技术与工程</title>
-      
-      
-      
-      
-      <description>深入探讨微生物培养基的种类与营养需求，详细解析高压蒸汽灭菌、干热灭菌及空气过滤除菌的原理与操作。通过酵母菌纯培养实例，演示平板划线法与稀释布平板法。此外，还介绍了发酵工程在酱油、酒类、抗生素、疫苗及生物肥料生产中的应用，以及合成生物学在未来发酵技术中的潜力。</description>
-      <link>https://raineblog-whk.pages.dev/science/cell/4/</link>
-      <pubDate>Fri, 27 Feb 2026 13:11:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/cell/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/4/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/4.png" type="image/png" length="52712" />
       
     </item>
     
