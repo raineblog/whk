@@ -30,6 +30,7 @@ jobs:
             cache: mkdocs
             pwd: |
               mkdocs-build
+              mkdocs-gulp
             url: https://raineblog.dpdns.org/whk/
             branch: gh-pages
             dir: ./site
@@ -38,6 +39,7 @@ jobs:
             cache: mkdocs
             pwd: |
               mkdocs-build
+              mkdocs-gulp
             url: https://raineblog-whk.pages.dev/
             branch: cloudflare-pages
             dir: ./site
