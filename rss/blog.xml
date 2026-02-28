@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>blog</id>
     <title>RainPPR's WHK Blog</title>
-    <updated>2026-02-28T12:00:43.585Z</updated>
+    <updated>2026-02-28T15:01:04.384Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://raineblog-whk-rspress.pages.dev/"/>
     <subtitle>RainPPR 的文化课博客，主要是理科，尤其是数学、物理、化学、生物等高中学科的知识及题型等笔记。</subtitle>
@@ -12,7 +12,7 @@
         <title type="html"><![CDATA[生成式人工智能在学习中的应用与实例探究报告]]></title>
         <id>/blog/posts/llms/</id>
         <link href="https://raineblog-whk-rspress.pages.dev/blog/posts/llms/"/>
-        <updated>2026-02-28T12:00:43.585Z</updated>
+        <updated>2026-02-28T15:01:04.384Z</updated>
         <content type="html"><![CDATA[<!--$--><h1 class="rp-toc-include" id="生成式人工智能在学习中的应用与实例探究报告"><a href="#生成式人工智能在学习中的应用与实例探究报告" class="rp-header-anchor rp-link" aria-hidden="true">#</a>生成式人工智能在学习中的应用与实例探究报告<!-- --> </h1>
 <span data-dark="false" class="rp-reading-time">预计阅读时间: 31 分钟</span>
 <p>生成式人工智能在学习中的应用与实例探究报告</p>
@@ -257,28 +257,28 @@
 <p>综上所述，生成式人工智能并非传统教育的替代者，而是人类智力边界的延伸与重构。我们正身处一个教育轨迹从&quot;以书为纲&quot;跨向&quot;人机互惠&quot;，最终回归&quot;以人为本&quot;的宏大叙事中。教育的最深层使命，始终是在算法无法触及的幽微处，守护并激发那份属于人类的直觉、同理心与终极创造力。身处 AI 时代的洪流，我们不仅要学会执笔挥舞数字化的光剑，更要学会在浩瀚的字符宇宙里，守望那颗永恒不灭、探索自我的纯真初心。</p><!--/$-->]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RaineMtF]]></title>
-        <id>/blog/author/RaineMtF/</id>
-        <link href="https://raineblog-whk-rspress.pages.dev/blog/author/RaineMtF/"/>
-        <updated>2026-02-28T12:00:43.570Z</updated>
-        <content type="html"><![CDATA[<!--$--><h1 class="rp-toc-include" id="rainemtf"><a href="#rainemtf" class="rp-header-anchor rp-link" aria-hidden="true">#</a>RaineMtF<!-- --> </h1>
-<span data-dark="false" class="rp-reading-time">预计阅读时间: 小于 1 分钟</span>
-<p>参见她的 Github 账号 <a href="https://github.com/RaineMtF" target="_blank" rel="noopener noreferrer" class="rp-link">RaineMtF</a>，以及友链 <a href="/blog/author/RainPPR" class="rp-link">RainPPR</a>。</p><!--/$-->]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[博客]]></title>
         <id>/blog/</id>
         <link href="https://raineblog-whk-rspress.pages.dev/blog/"/>
-        <updated>2026-02-28T12:00:43.570Z</updated>
+        <updated>2026-02-28T15:01:03.823Z</updated>
         <content type="html"><![CDATA[<!--$--><h1 class="rp-toc-include" id="博客"><a href="#博客" class="rp-header-anchor rp-link" aria-hidden="true">#</a>博客<!-- --> </h1>
 <span data-dark="false" class="rp-reading-time">预计阅读时间: 小于 1 分钟</span>
 <p>这里是博客，主要是用 AI (GPT-OSS) 自动生成的。</p><!--/$-->]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[RaineMtF]]></title>
+        <id>/blog/author/RaineMtF/</id>
+        <link href="https://raineblog-whk-rspress.pages.dev/blog/author/RaineMtF/"/>
+        <updated>2026-02-28T15:01:03.822Z</updated>
+        <content type="html"><![CDATA[<!--$--><h1 class="rp-toc-include" id="rainemtf"><a href="#rainemtf" class="rp-header-anchor rp-link" aria-hidden="true">#</a>RaineMtF<!-- --> </h1>
+<span data-dark="false" class="rp-reading-time">预计阅读时间: 小于 1 分钟</span>
+<p>参见她的 Github 账号 <a href="https://github.com/RaineMtF" target="_blank" rel="noopener noreferrer" class="rp-link">RaineMtF</a>，以及友链 <a href="/blog/author/RainPPR" class="rp-link">RainPPR</a>。</p><!--/$-->]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[RainPPR]]></title>
         <id>/blog/author/RainPPR/</id>
         <link href="https://raineblog-whk-rspress.pages.dev/blog/author/RainPPR/"/>
-        <updated>2026-02-28T12:00:43.569Z</updated>
+        <updated>2026-02-28T15:01:03.775Z</updated>
         <content type="html"><![CDATA[<!--$--><h1 class="rp-toc-include" id="rainppr"><a href="#rainppr" class="rp-header-anchor rp-link" aria-hidden="true">#</a>RainPPR<!-- --> </h1>
 <span data-dark="false" class="rp-reading-time">预计阅读时间: 小于 1 分钟</span>
 <p>参见她的 Github 账号 <a href="https://github.com/RainPPR" target="_blank" rel="noopener noreferrer" class="rp-link">RainPPR</a>，以及友链 <a href="/blog/author/RaineMtF" class="rp-link">RaineMtF</a>。</p><!--/$-->]]></content>
@@ -287,7 +287,7 @@
         <title type="html"><![CDATA[Bot]]></title>
         <id>/blog/author/Bot/</id>
         <link href="https://raineblog-whk-rspress.pages.dev/blog/author/Bot/"/>
-        <updated>2026-02-28T12:00:43.568Z</updated>
+        <updated>2026-02-28T15:01:03.681Z</updated>
         <content type="html"><![CDATA[<!--$--><h1 class="rp-toc-include" id="bot"><a href="#bot" class="rp-header-anchor rp-link" aria-hidden="true">#</a>Bot<!-- --> </h1>
 <span data-dark="false" class="rp-reading-time">预计阅读时间: 小于 1 分钟</span>
 <p>是机器人。</p><!--/$-->]]></content>
@@ -296,7 +296,7 @@
         <title type="html"><![CDATA[2026]]></title>
         <id>/blog/archive/2026/</id>
         <link href="https://raineblog-whk-rspress.pages.dev/blog/archive/2026/"/>
-        <updated>2026-02-28T12:00:43.567Z</updated>
+        <updated>2026-02-28T15:01:03.680Z</updated>
         <content type="html"><![CDATA[<!--$--><h1 class="rp-toc-include" id="2026"><a href="#2026" class="rp-header-anchor rp-link" aria-hidden="true">#</a>2026<!-- --> </h1>
 <span data-dark="false" class="rp-reading-time">预计阅读时间: 小于 1 分钟</span>
 <p>2026 年，我们创建了这个站点的 Blog 功能。</p><!--/$-->]]></content>
