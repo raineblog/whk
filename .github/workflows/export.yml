@@ -44,7 +44,7 @@ jobs:
           retention-days: 1
 
   export_prepare:
-    name: "Print: Extract and Package Cache"
+    name: "Export: Extract and Package Cache"
     needs: export_build
     runs-on: ubuntu-latest
     container:
