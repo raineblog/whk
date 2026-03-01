@@ -51,7 +51,7 @@ jobs:
       - name: Download Site Artifact
         uses: actions/download-artifact@v6
         with:
-          name: site-artifact
+          name: raw-site
           path: site/
 
       - name: Execute Compile Step 2
