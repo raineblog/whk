@@ -19,8 +19,26 @@ permissions:
   id-token: write
 
 jobs:
+  export_build:
+    name: "Prepare: Build MkDocs Site"
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/raineblog/mkdocs-exporter:latest
+    steps:
+      - name: Initialize repository checkout
+        uses: actions/checkout@v6
+      - name: Execute Compile Step 1
+        run: mkdocs-export-step-1
+      - name: Upload Fragment Artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: raw-site
+          path: site/
+          retention-days: 1
+
   export_prepare:
-    name: "Prepare: Extract and Package Cache"
+    name: "Print: Extract and Package Cache"
+    needs: export_build
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/raineblog/mkdocs-exporter:latest
@@ -30,12 +48,14 @@ jobs:
       - name: Initialize repository checkout
         uses: actions/checkout@v6
 
-      - name: Execute Compile Step (Package cache to tar.zst)
-        run: |
-          # run step 1 and step 2 logic here normally
-          # bin script will internally invoke "uv run scripts/export.py"
-          # which now produces .tar.zst packages in build/
-          mkdocs-export
+      - name: Download Site Artifact
+        uses: actions/download-artifact@v6
+        with:
+          name: site-artifact
+          path: site/
+
+      - name: Execute Compile Step 2
+        run: mkdocs-export-step-2
           
       - name: Generate Action Matrix
         id: set-matrix
@@ -46,7 +66,7 @@ jobs:
       - name: Upload Workspace Cache
         uses: actions/upload-artifact@v4
         with:
-          name: tex-cache
+          name: tex-prepared
           path: build/*.tar.zst
           retention-days: 1
 
