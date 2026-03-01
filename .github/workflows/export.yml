@@ -1,4 +1,4 @@
-name: PDF Export
+name: Export to PDF
 
 on:
   push:
@@ -19,42 +19,82 @@ permissions:
   id-token: write
 
 jobs:
-  export_step1:
-    name: "Step 1: Compile and Artifact"
+  export_prepare:
+    name: "Prepare: Extract and Package Cache"
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/raineblog/mkdocs-exporter:latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
       - name: Initialize repository checkout
         uses: actions/checkout@v6
 
-      - name: Execute Compile Step
-        run: mkdocs-export-step1
-
-      - name: Upload Site Artifact
-        uses: actions/upload-artifact@v6
+      - name: Execute Compile Step (Package cache to tar.zst)
+        run: |
+          # run step 1 and step 2 logic here normally
+          # bin script will internally invoke "uv run scripts/export.py"
+          # which now produces .tar.zst packages in build/
+          mkdocs-export
+          
+      - name: Generate Action Matrix
+        id: set-matrix
+        run: |
+          MATRIX_JSON=$(uv run /app/scripts/out_matrix.py)
+          echo "matrix=$MATRIX_JSON" >> $GITHUB_OUTPUT
+          
+      - name: Upload Workspace Cache
+        uses: actions/upload-artifact@v4
         with:
-          name: site-artifact
-          path: site/
+          name: tex-cache
+          path: build/*.tar.zst
+          retention-days: 1
 
-  export_step2:
-    name: "Step 2: Export and Publish"
-    needs: export_step1
+  export_compile:
+    name: "Compile: Generate PDF from Cache"
+    needs: export_prepare
     runs-on: ubuntu-latest
+    if: ${{ needs.export_prepare.outputs.matrix != '[]' }}
+    continue-on-error: true
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJSON(needs.export_prepare.outputs.matrix) }}
     container:
-      image: ghcr.io/raineblog/mkdocs-exporter:latest
+      image: ghcr.io/raineblog/mkdocs-exporter-texlive:latest
     steps:
-      - name: Initialize repository checkout
-        uses: actions/checkout@v6
-
-      - name: Download Site Artifact
-        uses: actions/download-artifact@v6
+      - name: Download Workspace Cache
+        uses: actions/download-artifact@v4
         with:
-          name: site-artifact
-          path: site/
-
+          name: tex-cache
+          path: .
+          
       - name: Execute PDF generation process
-        run: mkdocs-export-step2
+        run: build-pdf "${{ matrix.tarfile }}"
+
+      - name: Upload PDF Piece
+        uses: actions/upload-artifact@v4
+        with:
+          name: tex-pdf-${{ strategy.job-index }}
+          path: build/*.pdf
+          retention-days: 1
+
+  export_publish:
+    name: "Publish: Collect and Release"
+    needs: export_compile
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download all compiled PDFs
+        uses: actions/download-artifact@v4
+        with:
+          path: download_pdfs
+          pattern: tex-pdf-*
+          merge-multiple: true
+          
+      - name: Move to build directory
+        run: |
+          mkdir -p build
+          mv download_pdfs/*.pdf build/ || echo "No PDFs to move"
 
       - name: Upload Binaries (Tag Trigger)
         uses: softprops/action-gh-release@v2
@@ -75,7 +115,7 @@ jobs:
 
       - name: Upload Artifact (Manual Trigger without Tag)
         if: github.event_name == 'workflow_dispatch' && (inputs.tag_name == '' || !inputs.tag_name)
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v4
         with:
           name: pdf-documentation
           path: build/*.pdf
