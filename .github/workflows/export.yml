@@ -1,4 +1,4 @@
-name: PDF Documentation Export
+name: PDF Export
 
 on:
   push:
@@ -19,29 +19,42 @@ permissions:
   id-token: write
 
 jobs:
-  export_pdf:
-    name: Generate and Publish PDF Documentation
+  export_step1:
+    name: "Step 1: Compile and Artifact"
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/raineblog/mkdocs-exporter:latest
     steps:
       - name: Initialize repository checkout
         uses: actions/checkout@v6
-        with:
-          submodules: 'true'
 
-      - name: Cache
-        uses: actions/cache@v5
+      - name: Execute Compile Step
+        run: mkdocs-export-step1
+
+      - name: Upload Site Artifact
+        uses: actions/upload-artifact@v6
         with:
-          path: .cache
-          key: ${{ runner.os }}-export-${{ github.run_id }}-${{ github.run_attempt }}
-          restore-keys: |
-            ${{ runner.os }}-export-
+          name: site-artifact
+          path: site/
+
+  export_step2:
+    name: "Step 2: Export and Publish"
+    needs: export_step1
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/raineblog/mkdocs-exporter:latest
+    steps:
+      - name: Initialize repository checkout
+        uses: actions/checkout@v6
+
+      - name: Download Site Artifact
+        uses: actions/download-artifact@v6
+        with:
+          name: site-artifact
+          path: site/
 
       - name: Execute PDF generation process
-        env:
-          MAX_THREADS: 4
-        run: mkdocs-export
+        run: mkdocs-export-step2
 
       - name: Upload Binaries (Tag Trigger)
         uses: softprops/action-gh-release@v2
