@@ -817,7 +817,7 @@ $$
 
 来源：[175.题6 水银溢出稳定问题（PV=nRT物理学难题集萃）](https://www.bilibili.com/video/BV1MV4y1p7kG/?share_source=copy_web\&vd_source=a2a4227b4b9a68841a8404acff2b8dc9)。
 
-![alt text|w100%](/static/image/image.8fc3e76f93.png)
+![alt text|w100%](/static/image/image-b87c721.fbe6614c7b.avif)
 很简单的分析，只要液体还有，那么一定满足：
 
 $$
