@@ -37,12 +37,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-mkdocs-export-
       - name: Execute Compile & Generate Details
-        run: mkdocs-export
-      - name: Generate Action Matrix
         id: set-matrix
         run: |
-          # matrix.out is populated during mkdocs-export script exectuion
-          cat matrix.out >> $GITHUB_OUTPUT
+          mkdocs-export
+          cat matrix.out >> $GITHUB_OUTPUT || true
       - name: Upload Raw Site Artifact
         uses: actions/upload-artifact@v4
         with:
