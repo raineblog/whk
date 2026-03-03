@@ -44,7 +44,7 @@ jobs:
       - name: Upload Raw Site Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: raw-site
+          name: tex-raw
           path: site/
           retention-days: 1
 
@@ -64,7 +64,7 @@ jobs:
       - name: Download Site Artifact
         uses: actions/download-artifact@v4
         with:
-          name: raw-site
+          name: tex-raw
           path: site/
       - name: Fetch and Generate PDFs
         run: |
@@ -81,7 +81,7 @@ jobs:
 
   export_compile:
     name: "Compile: Generate Book from PDF Cache"
-    needs: export_puppeteer
+    needs: [export_build, export_puppeteer]
     runs-on: ubuntu-latest
     if: ${{ needs.export_build.outputs.matrix != '[]' }}
     continue-on-error: true

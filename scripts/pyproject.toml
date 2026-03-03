@@ -35,8 +35,6 @@ mkdocs-document-dates = { git = "https://github.com/raineblog/mkdocs-document-da
 
 [tool.poe.tasks]
 autosvg = "uv run scripts/自动下载svg预加载版.py"
-build = "make build"
-serve = "make serve"
 
 [dependency-groups]
 dev = [
