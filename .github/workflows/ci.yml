@@ -77,85 +77,85 @@ jobs:
           user_email: "github-actions[bot]@users.noreply.github.com"
           full_commit_message: "Deploying to ${{ matrix.branch }} from ${{ github.sha }}"
 
-  build-fragment:
-    name: Build Mkdocs Fragment
-    runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/raineblog/mkdocs-docker-fragment:latest
-    steps:
-      - name: Checkout Source Code
-        uses: actions/checkout@v6
+  # build-fragment:
+  #   name: Build Mkdocs Fragment
+  #   runs-on: ubuntu-latest
+  #   container:
+  #     image: ghcr.io/raineblog/mkdocs-docker-fragment:latest
+  #   steps:
+  #     - name: Checkout Source Code
+  #       uses: actions/checkout@v6
 
-      - name: Cache
-        uses: actions/cache@v5
-        with:
-          path: .cache
-          key: ${{ runner.os }}-mkdocs-fragment-${{ github.run_id }}-${{ github.run_attempt }}
-          restore-keys: |
-            ${{ runner.os }}-mkdocs-fragment-
+  #     - name: Cache
+  #       uses: actions/cache@v5
+  #       with:
+  #         path: .cache
+  #         key: ${{ runner.os }}-mkdocs-fragment-${{ github.run_id }}-${{ github.run_attempt }}
+  #         restore-keys: |
+  #           ${{ runner.os }}-mkdocs-fragment-
 
-      - name: Build Fragment Site
-        run: mkdocs-fragment
+  #     - name: Build Fragment Site
+  #       run: mkdocs-fragment
 
-      - name: Push to fragment-pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: fragment-pages
-          publish_dir: ./site
-          user_name: "github-actions[bot]"
-          user_email: "github-actions[bot]@users.noreply.github.com"
-          full_commit_message: "Deploying to fragment-pages from ${{ github.sha }}"
+  #     - name: Push to fragment-pages
+  #       uses: peaceiris/actions-gh-pages@v4
+  #       with:
+  #         github_token: ${{ secrets.GITHUB_TOKEN }}
+  #         publish_branch: fragment-pages
+  #         publish_dir: ./site
+  #         user_name: "github-actions[bot]"
+  #         user_email: "github-actions[bot]@users.noreply.github.com"
+  #         full_commit_message: "Deploying to fragment-pages from ${{ github.sha }}"
 
-      - name: Upload Fragment Artifact
-        uses: actions/upload-artifact@v6
-        with:
-          name: fragment-site
-          path: ./site
+  #     - name: Upload Fragment Artifact
+  #       uses: actions/upload-artifact@v6
+  #       with:
+  #         name: fragment-site
+  #         path: ./site
 
-  build-merged:
-    name: Merged Build Verification
-    needs: build-fragment
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          - name: Rspress to Cloudflare Pages
-            image: ghcr.io/raineblog/mkdocs-rspress-docker:latest
-            pwd: |
-              mv public docs/public
-              rspress-build
-            url: https://raineblog-whk-rspress.pages.dev/
-            branch: cloudflare-pages-rspress
-            dir: ./doc_build
-    runs-on: ubuntu-latest
-    container:
-      image: ${{ matrix.image }}
-    steps:
-      - name: Checkout Config and Public from main
-        uses: actions/checkout@v6
-        with:
-          sparse-checkout: |
-            config
-            public
+  # build-merged:
+  #   name: Merged Build Verification
+  #   needs: build-fragment
+  #   strategy:
+  #     fail-fast: false
+  #     matrix:
+  #       include:
+  #         - name: Rspress to Cloudflare Pages
+  #           image: ghcr.io/raineblog/mkdocs-rspress-docker:latest
+  #           pwd: |
+  #             mv public docs/public
+  #             rspress-build
+  #           url: https://raineblog-whk-rspress.pages.dev/
+  #           branch: cloudflare-pages-rspress
+  #           dir: ./doc_build
+  #   runs-on: ubuntu-latest
+  #   container:
+  #     image: ${{ matrix.image }}
+  #   steps:
+  #     - name: Checkout Config and Public from main
+  #       uses: actions/checkout@v6
+  #       with:
+  #         sparse-checkout: |
+  #           config
+  #           public
 
-      - name: Download Fragment Artifact
-        uses: actions/download-artifact@v7
-        with:
-          name: fragment-site
-          path: docs
+  #     - name: Download Fragment Artifact
+  #       uses: actions/download-artifact@v7
+  #       with:
+  #         name: fragment-site
+  #         path: docs
 
-      - name: Build Static Site
-        run: ${{ matrix.pwd }}
-        env:
-          site_url: ${{ matrix.url }}
+  #     - name: Build Static Site
+  #       run: ${{ matrix.pwd }}
+  #       env:
+  #         site_url: ${{ matrix.url }}
 
-      - name: Push to Branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: ${{ matrix.branch }}
-          publish_dir: ${{ matrix.dir }}
-          user_name: "github-actions[bot]"
-          user_email: "github-actions[bot]@users.noreply.github.com"
-          full_commit_message: "Deploying to ${{ matrix.branch }} from ${{ github.sha }}"
+  #     - name: Push to Branch
+  #       uses: peaceiris/actions-gh-pages@v4
+  #       with:
+  #         github_token: ${{ secrets.GITHUB_TOKEN }}
+  #         publish_branch: ${{ matrix.branch }}
+  #         publish_dir: ${{ matrix.dir }}
+  #         user_name: "github-actions[bot]"
+  #         user_email: "github-actions[bot]@users.noreply.github.com"
+  #         full_commit_message: "Deploying to ${{ matrix.branch }} from ${{ github.sha }}"

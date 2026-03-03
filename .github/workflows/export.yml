@@ -24,6 +24,8 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/raineblog/mkdocs-exporter:latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
       - name: Initialize repository checkout
         uses: actions/checkout@v6
@@ -34,72 +36,72 @@ jobs:
           key: ${{ runner.os }}-mkdocs-export-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
             ${{ runner.os }}-mkdocs-export-
-      - name: Execute Compile Step 1
-        run: mkdocs-export-step-1
-      - name: Upload Raw Site Artifact
-        uses: actions/upload-artifact@v6
-        with:
-          name: raw-site
-          path: site/
-          retention-days: 1
-
-  export_prepare:
-    name: "Export: Extract and Package Cache"
-    needs: export_build
-    runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/raineblog/mkdocs-exporter:latest
-    outputs:
-      matrix: ${{ steps.set-matrix.outputs.matrix }}
-    steps:
-      - name: Initialize repository checkout
-        uses: actions/checkout@v6
-
-      - name: Download Site Artifact
-        uses: actions/download-artifact@v6
-        with:
-          name: raw-site
-          path: site/
-
-      - name: Execute Compile Step 2
-        run: mkdocs-export-step-2
-          
+      - name: Execute Compile & Generate Details
+        run: mkdocs-export
       - name: Generate Action Matrix
         id: set-matrix
         run: |
-          MATRIX_JSON=$(uv run /app/scripts/out_matrix.py)
-          echo "matrix=$MATRIX_JSON" >> $GITHUB_OUTPUT
-          
-      - name: Upload Workspace Cache
+          # matrix.out is populated during mkdocs-export script exectuion
+          cat matrix.out >> $GITHUB_OUTPUT
+      - name: Upload Raw Site Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: tex-prepared
-          path: build/*.tar.zst
+          name: raw-site
+          path: site/
           retention-days: 1
 
-  export_compile:
-    name: "Compile: Generate PDF from Cache"
-    needs: export_prepare
+  export_puppeteer:
+    name: "Puppeteer: Download PDF Assets"
+    needs: export_build
     runs-on: ubuntu-latest
-    if: ${{ needs.export_prepare.outputs.matrix != '[]' }}
+    if: ${{ needs.export_build.outputs.matrix != '[]' }}
     continue-on-error: true
     strategy:
       fail-fast: false
       matrix:
-        include: ${{ fromJSON(needs.export_prepare.outputs.matrix) }}
+        include: ${{ fromJSON(needs.export_build.outputs.matrix) }}
+    container:
+      image: ghcr.io/raineblog/mkdocs-exporter-puppeteer:latest
+    steps:
+      - name: Download Site Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: raw-site
+          path: site/
+      - name: Fetch and Generate PDFs
+        env:
+          CONCURRENCY: 2
+        run: node /app/src/index.js "${{ matrix.book }}"
+      - name: Upload Workspace Cache
+        uses: actions/upload-artifact@v4
+        with:
+          name: tex-prepared-${{ matrix.book }}
+          path: site/build/
+          retention-days: 1
+
+  export_compile:
+    name: "Compile: Generate Book from PDF Cache"
+    needs: export_puppeteer
+    runs-on: ubuntu-latest
+    if: ${{ needs.export_build.outputs.matrix != '[]' }}
+    continue-on-error: true
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJSON(needs.export_build.outputs.matrix) }}
     container:
       image: ghcr.io/raineblog/mkdocs-exporter-texlive:latest
     steps:
       - name: Download Workspace Cache
         uses: actions/download-artifact@v4
         with:
-          name: tex-prepared
+          name: tex-prepared-${{ matrix.book }}
           path: .
           
-      - name: Execute PDF generation process
-        run: build-pdf "${{ matrix.tarfile }}"
+      - name: Execute PDF synthesis process
+        run: build-pdf "${{ matrix.book }}.json"
 
-      - name: Upload PDF Piece
+      - name: Upload Book Product
         uses: actions/upload-artifact@v4
         with:
           name: tex-pdf-${{ strategy.job-index }}
