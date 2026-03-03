@@ -67,9 +67,11 @@ jobs:
           name: raw-site
           path: site/
       - name: Fetch and Generate PDFs
+        run: |
+          npx puppeteer browsers install chrome
+          node /app/src/index.js "${{ matrix.book }}"
         env:
           CONCURRENCY: 2
-        run: node /app/src/index.js "${{ matrix.book }}"
       - name: Upload Workspace Cache
         uses: actions/upload-artifact@v4
         with:

@@ -375,3 +375,5 @@ bun.lock
 *.tmp
 
 gulpfile.js
+
+svg_downloads/

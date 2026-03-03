@@ -1,0 +1,44 @@
+[project]
+name = "whk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cairosvg>=2.8.2",
+    "httpx[http2]>=0.28.1",
+    "matplotlib>=3.10.8",
+    "mkdocs==1.6.1",
+    "mkdocs-advanced-seo>=1.0.3",
+    "mkdocs-document-dates",
+    "mkdocs-glightbox>=0.5.2",
+    "mkdocs-katex-ssr>=1.0.11",
+    "mkdocs-llmstxt>=0.5.0",
+    "mkdocs-material",
+    "mkdocs-minify-html-plugin>=0.3.9",
+    "mkdocs-rss-plugin>=1.17.9",
+    "mkdocs-table-reader-plugin>=3.1.0",
+    "numpy>=2.4.2",
+    "pillow>=12.1.1",
+    "pymdown-extensions>=10.21",
+    "pypandoc>=1.16.2",
+    "pyside6>=6.10.2",
+    "pyyaml>=6.0.3",
+    "requests>=2.32.5",
+    "rich>=14.3.3",
+    "toml>=0.10.2",
+]
+
+[tool.uv.sources]
+mkdocs-material = { git = "https://github.com/raineblog/mkdocs-material.git" }
+mkdocs-document-dates = { git = "https://github.com/raineblog/mkdocs-document-dates.git" }
+
+[tool.poe.tasks]
+autosvg = "uv run scripts/自动下载svg预加载版.py"
+build = "make build"
+serve = "make serve"
+
+[dependency-groups]
+dev = [
+    "poethepoet>=0.42.1",
+]
