@@ -40,7 +40,9 @@ jobs:
         id: set-matrix
         run: |
           mkdocs-export
-          cat matrix.out >> $GITHUB_OUTPUT || true
+          if [ -s matrix.out ]; then
+            cat matrix.out >> $GITHUB_OUTPUT
+          fi
       - name: Upload Raw Site Artifact
         uses: actions/upload-artifact@v4
         with:
@@ -52,7 +54,7 @@ jobs:
     name: "Puppeteer: Download PDF Assets"
     needs: export_build
     runs-on: ubuntu-latest
-    if: ${{ needs.export_build.outputs.matrix != '[]' }}
+    if: ${{ needs.export_build.outputs.matrix != '' && needs.export_build.outputs.matrix != '[]' }}
     continue-on-error: true
     strategy:
       fail-fast: false
@@ -71,7 +73,7 @@ jobs:
           npx puppeteer browsers install chrome
           node /app/src/index.js "${{ matrix.book }}"
         env:
-          CONCURRENCY: 2
+          CONCURRENCY: 4
       - name: Upload Workspace Cache
         uses: actions/upload-artifact@v4
         with:
@@ -104,7 +106,7 @@ jobs:
       - name: Upload Book Product
         uses: actions/upload-artifact@v4
         with:
-          name: tex-pdf-${{ strategy.job-index }}
+          name: tex-pdf-${{ matrix.book }}
           path: build/*.pdf
           retention-days: 1
 
@@ -127,7 +129,7 @@ jobs:
 
       - name: Upload Binaries (Tag Trigger)
         uses: softprops/action-gh-release@v2
-        if: (!github.event_name == 'workflow_dispatch') && startsWith(github.ref, 'refs/tags/')
+        if: github.event_name != 'workflow_dispatch' && startsWith(github.ref, 'refs/tags/')
         with:
           files: build/*.pdf
         env:
