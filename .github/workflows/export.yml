@@ -69,14 +69,12 @@ jobs:
           path: site/
       
       - name: Puppeteer - Print Web to PDF
-        run: |
-          node /app/src/index.js "${{ matrix.book }}"
+        run: export-pdf-1-print "${{ matrix.book }}"
         env:
           CONCURRENCY: 4
       
       - name: Python - Prepare TeX & Planning
-        run: |
-          uv run /app/scripts/processor.py "${{ matrix.book }}.json" --plan-only
+        run: export-pdf-2-plan "${{ matrix.book }}"
           
       - name: LaTeX - Compile Decorations
         uses: docker://ghcr.io/rainppr/texlive-full:latest
@@ -84,8 +82,7 @@ jobs:
           args: latexmk -xelatex build/*.tex
           
       - name: Python - Final Synthesis & Bookmarks
-        run: |
-          uv run /app/scripts/processor.py "${{ matrix.book }}.json" --merge
+        run: export-pdf-3-merge "${{ matrix.book }}"
           
       - name: Upload Book Product
         uses: actions/upload-artifact@v4
@@ -96,7 +93,7 @@ jobs:
 
   export_publish:
     name: "Publish: Collect and Release"
-    needs: export_compile
+    needs: export_process
     runs-on: ubuntu-latest
     steps:
       - name: Download all compiled PDFs
