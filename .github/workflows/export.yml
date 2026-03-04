@@ -50,59 +50,43 @@ jobs:
           path: site/
           retention-days: 1
 
-  export_puppeteer:
-    name: "Puppeteer: Download PDF Assets"
+  export_process:
+    name: "Process: PDF Synthesis & Book Generation"
     needs: export_build
     runs-on: ubuntu-latest
     if: ${{ needs.export_build.outputs.matrix != '' && needs.export_build.outputs.matrix != '[]' }}
-    continue-on-error: true
     strategy:
       fail-fast: false
       matrix:
         include: ${{ fromJSON(needs.export_build.outputs.matrix) }}
     container:
-      image: ghcr.io/raineblog/mkdocs-exporter-puppeteer:latest
+      image: ghcr.io/raineblog/mkdocs-exporter-build:latest
     steps:
       - name: Download Site Artifact
         uses: actions/download-artifact@v4
         with:
           name: tex-raw
           path: site/
-      - name: Fetch and Generate PDFs
+      
+      - name: Puppeteer - Print Web to PDF
         run: |
-          npx puppeteer browsers install chrome
           node /app/src/index.js "${{ matrix.book }}"
         env:
           CONCURRENCY: 4
-      - name: Upload Workspace Cache
-        uses: actions/upload-artifact@v4
-        with:
-          name: tex-prepared-${{ matrix.book }}
-          path: site/build/
-          retention-days: 1
-
-  export_compile:
-    name: "Compile: Generate Book from PDF Cache"
-    needs: [export_build, export_puppeteer]
-    runs-on: ubuntu-latest
-    if: ${{ needs.export_build.outputs.matrix != '[]' }}
-    continue-on-error: true
-    strategy:
-      fail-fast: false
-      matrix:
-        include: ${{ fromJSON(needs.export_build.outputs.matrix) }}
-    container:
-      image: ghcr.io/raineblog/mkdocs-exporter-texlive:latest
-    steps:
-      - name: Download Workspace Cache
-        uses: actions/download-artifact@v4
-        with:
-          name: tex-prepared-${{ matrix.book }}
-          path: .
+      
+      - name: Python - Prepare TeX & Planning
+        run: |
+          uv run /app/scripts/processor.py "${{ matrix.book }}.json" --plan-only
           
-      - name: Execute PDF synthesis process
-        run: build-pdf "${{ matrix.book }}.json"
-
+      - name: LaTeX - Compile Decorations
+        uses: docker://ghcr.io/rainppr/texlive-full:latest
+        with:
+          args: latexmk -xelatex build/*.tex
+          
+      - name: Python - Final Synthesis & Bookmarks
+        run: |
+          uv run /app/scripts/processor.py "${{ matrix.book }}.json" --merge
+          
       - name: Upload Book Product
         uses: actions/upload-artifact@v4
         with:
