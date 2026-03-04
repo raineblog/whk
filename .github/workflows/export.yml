@@ -69,7 +69,9 @@ jobs:
           path: site/
       
       - name: Puppeteer - Print Web to PDF
-        run: export-pdf-1-print "${{ matrix.book }}"
+        run: |
+          npx puppeteer browsers install chrome
+          export-pdf-1-print "${{ matrix.book }}"
         env:
           CONCURRENCY: 4
       
