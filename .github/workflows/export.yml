@@ -81,7 +81,8 @@ jobs:
       - name: LaTeX - Compile Decorations
         uses: docker://ghcr.io/rainppr/texlive-full:latest
         with:
-          args: latexmk -xelatex build/*.tex
+          entrypoint: /bin/sh
+          args: -c "if [ -f build/tex_tasks.txt ]; then while read f; do latexmk -xelatex -output-directory=build \"$f\"; done < build/tex_tasks.txt; else echo 'No TeX tasks found'; fi"
           
       - name: Python - Final Synthesis & Bookmarks
         run: export-pdf-3-merge "${{ matrix.book }}"
