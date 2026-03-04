@@ -63,7 +63,7 @@ jobs:
       image: ghcr.io/raineblog/mkdocs-exporter-build:latest
     steps:
       - name: Download Site Artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: tex-raw
           path: site/
@@ -100,7 +100,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download all compiled PDFs
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           path: download_pdfs
           pattern: tex-pdf-*
