@@ -62,6 +62,8 @@ jobs:
     container:
       image: ghcr.io/raineblog/mkdocs-exporter-build:latest
     steps:
+      - name: Initialize repository checkout
+        uses: actions/checkout@v6
       - name: Download Site Artifact
         uses: actions/download-artifact@v8
         with:
