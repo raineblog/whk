@@ -1585,6 +1585,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "cairosvg" },
     { name = "httpx", extra = ["http2"] },
+    { name = "jinja2" },
     { name = "matplotlib" },
     { name = "mkdocs" },
     { name = "mkdocs-advanced-seo" },
@@ -1616,6 +1617,7 @@ dev = [
 requires-dist = [
     { name = "cairosvg", specifier = ">=2.8.2" },
     { name = "httpx", extras = ["http2"], specifier = ">=0.28.1" },
+    { name = "jinja2", specifier = ">=3.1.6" },
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "mkdocs", specifier = "==1.6.1" },
     { name = "mkdocs-advanced-seo", specifier = ">=1.0.3" },
