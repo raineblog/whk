@@ -1,7 +1,3 @@
----
-description: 检查 lint 和自动生成 meta 中的 description 字段要求。
----
-
 对于用户指定的文件，你需要按照下面的步骤进行：
 
 1. 执行 `python .agent/scripts/lint.py --file docs/xxx/xxx.md`，结果会写入 `docs/xxx/xxx.md.log`（源文件名 + .log）中，你需要阅读这个文件获取 lint 详情。
