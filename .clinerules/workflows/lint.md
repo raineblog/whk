@@ -10,8 +10,6 @@
 
 5. 然后，你需要重新执行 `python .agent/scripts/lint.py --file docs/xxx/xxx.md` 并修复，确保你的修改没有引入新的格式错误或不规范。
 
-6. 最后，你需要在文件的最开头加上 meta-data，你只需要写入 summary 和 description 字段，如果已经存在那么覆写这两个，其他的保留。summary 是一个不多于两句的简短总结，而 description 是一个不超过 200 字的说明性、概括性文段。不需要写入文件正文。
-
 附：已知的 lint 误判或者错判、漏判。
 
 - 图片引用 `![](filepath)` 中 filepath 中有中英文连续，autocorrect 会识别并为其添加空格，这是错误的，为了避免引用失效，为了避免不必要的麻烦，这种问题不需要修改，更不需要修改文件名。
