@@ -28,18 +28,14 @@ jobs:
           - name: Mkdocs to Github Pages
             image: ghcr.io/raineblog/mkdocs-docker:latest
             cache: mkdocs
-            pwd: |
-              mkdocs-build
-              mkdocs-gulp
+            pwd: mkdocs-build
             url: https://raineblog.dpdns.org/whk/
             branch: gh-pages
             dir: ./site
           - name: Mkdocs to Cloudflare Pages
             image: ghcr.io/raineblog/mkdocs-docker:latest
             cache: mkdocs
-            pwd: |
-              mkdocs-build
-              mkdocs-gulp
+            pwd: mkdocs-build
             url: https://raineblog-whk.pages.dev/
             branch: cloudflare-pages
             dir: ./site
