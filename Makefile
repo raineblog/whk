@@ -6,9 +6,7 @@ serve:
 		$(IMAGE) mkdocs-serve
 
 build:
-	docker run --rm \
-		-v $(CURDIR):/app/workspace -w /app/workspace \
-		$(IMAGE) mkdocs-build
+	uv run scripts/generate.py --build --site_url=https://raineblog.github.com/whk/
 
 lint:
 	docker run --rm \

@@ -358,22 +358,12 @@ sketch
 
 mkdocs.yml
 cache/
-docs/test/
+.cache/
 
 web_cache
 /.shared
-docs/assets
-
-package.json
-
-package-lock.json
-pnpm-lock.yaml
-bun.lock
 
 *.log
 *.tmp
 
-gulpfile.js
-
 svg_downloads/
-temp/

@@ -19,35 +19,43 @@ permissions:
   id-token: write
 
 jobs:
-  build-standard:
-    name: Build and Deploy Standard
+  build:
+    name: Build and Deploy to ${{ matrix.name }}
     strategy:
       fail-fast: false
       matrix:
         include:
-          - name: Mkdocs to Github Pages
-            image: ghcr.io/raineblog/mkdocs-docker:latest
+          - name: Github Pages
             cache: mkdocs
-            pwd: mkdocs-build
             url: https://raineblog.dpdns.org/whk/
             branch: gh-pages
-            dir: ./site
-          - name: Mkdocs to Cloudflare Pages
-            image: ghcr.io/raineblog/mkdocs-docker:latest
+            disable_giscus: 'false'
+          - name: Cloudflare Pages
             cache: mkdocs
-            pwd: mkdocs-build
             url: https://raineblog-whk.pages.dev/
             branch: cloudflare-pages
-            dir: ./site
             disable_giscus: 'true'
     runs-on: ubuntu-latest
-    container:
-      image: ${{ matrix.image }}
     steps:
       - name: Checkout Source Code
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: |
+          bun install
+          uv sync
 
       - name: Cache
         uses: actions/cache@v5
@@ -58,100 +66,14 @@ jobs:
             ${{ runner.os }}-${{ matrix.cache }}-
 
       - name: Build Static Site
-        run: ${{ matrix.pwd }}
-        env:
-          site_url: ${{ matrix.url }}
-          disable_giscus: ${{ matrix.disable_giscus }}
-
+        run: uv run scripts/generate.py --build --site_url=${{ matrix.url }} --disable_giscus=${{ matrix.disable_giscus }}
+  
       - name: Push to Branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: ${{ matrix.branch }}
-          publish_dir: ${{ matrix.dir }}
+          publish_dir: site
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
           full_commit_message: "Deploying to ${{ matrix.branch }} from ${{ github.sha }}"
-
-  # build-fragment:
-  #   name: Build Mkdocs Fragment
-  #   runs-on: ubuntu-latest
-  #   container:
-  #     image: ghcr.io/raineblog/mkdocs-docker-fragment:latest
-  #   steps:
-  #     - name: Checkout Source Code
-  #       uses: actions/checkout@v6
-
-  #     - name: Cache
-  #       uses: actions/cache@v5
-  #       with:
-  #         path: .cache
-  #         key: ${{ runner.os }}-mkdocs-fragment-${{ github.run_id }}-${{ github.run_attempt }}
-  #         restore-keys: |
-  #           ${{ runner.os }}-mkdocs-fragment-
-
-  #     - name: Build Fragment Site
-  #       run: mkdocs-fragment
-
-  #     - name: Push to fragment-pages
-  #       uses: peaceiris/actions-gh-pages@v4
-  #       with:
-  #         github_token: ${{ secrets.GITHUB_TOKEN }}
-  #         publish_branch: fragment-pages
-  #         publish_dir: ./site
-  #         user_name: "github-actions[bot]"
-  #         user_email: "github-actions[bot]@users.noreply.github.com"
-  #         full_commit_message: "Deploying to fragment-pages from ${{ github.sha }}"
-
-  #     - name: Upload Fragment Artifact
-  #       uses: actions/upload-artifact@v6
-  #       with:
-  #         name: fragment-site
-  #         path: ./site
-
-  # build-merged:
-  #   name: Merged Build Verification
-  #   needs: build-fragment
-  #   strategy:
-  #     fail-fast: false
-  #     matrix:
-  #       include:
-  #         - name: Rspress to Cloudflare Pages
-  #           image: ghcr.io/raineblog/mkdocs-rspress-docker:latest
-  #           pwd: |
-  #             mv public docs/public
-  #             rspress-build
-  #           url: https://raineblog-whk-rspress.pages.dev/
-  #           branch: cloudflare-pages-rspress
-  #           dir: ./doc_build
-  #   runs-on: ubuntu-latest
-  #   container:
-  #     image: ${{ matrix.image }}
-  #   steps:
-  #     - name: Checkout Config and Public from main
-  #       uses: actions/checkout@v6
-  #       with:
-  #         sparse-checkout: |
-  #           config
-  #           public
-
-  #     - name: Download Fragment Artifact
-  #       uses: actions/download-artifact@v7
-  #       with:
-  #         name: fragment-site
-  #         path: docs
-
-  #     - name: Build Static Site
-  #       run: ${{ matrix.pwd }}
-  #       env:
-  #         site_url: ${{ matrix.url }}
-
-  #     - name: Push to Branch
-  #       uses: peaceiris/actions-gh-pages@v4
-  #       with:
-  #         github_token: ${{ secrets.GITHUB_TOKEN }}
-  #         publish_branch: ${{ matrix.branch }}
-  #         publish_dir: ${{ matrix.dir }}
-  #         user_name: "github-actions[bot]"
-  #         user_email: "github-actions[bot]@users.noreply.github.com"
-  #         full_commit_message: "Deploying to ${{ matrix.branch }} from ${{ github.sha }}"

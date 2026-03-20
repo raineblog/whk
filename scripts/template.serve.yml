@@ -1,0 +1,118 @@
+theme:
+    name: material
+    language: zh
+    palette:
+        scheme: default
+    features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.prune
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - content.code.select
+    - content.tooltips
+    icon:
+        repo: fontawesome/brands/git-alt
+        edit: material/pencil
+        view: material/eye
+plugins:
+- table-reader
+-   katex-ssr: # 自己做的插件
+        disable: true # 禁用 ssr，仅植入 js 代码
+        katex_dist: "https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/"
+        add_katex_css: true
+        katex_css_filename: "katex-swap.min.css"
+        ssr_contribs:
+            - mhchem
+        katex_options:
+            macros:
+                # 下面是一些符号的兼容性定义
+                "\\RR": "\\mathbb{R}"
+                "\\i": "\\mathrm{i}"
+                "\\d": "\\mathrm{d}"
+                "\\C": "\\mathbb{C}"
+                "\\R": "\\mathbb{R}"
+                "\\Q": "\\mathbb{Q}"
+                "\\Z": "\\mathbb{Z}"
+                "\\N": "\\mathbb{N}"
+                "\\P": "\\mathbb{P}"
+                "\\degree": "^\\circ"
+                "\\rank": "\\operatorname{rank}" # 矩阵的秩
+                # 下面是一些简写的定义
+                "\\op": "\\operatorname"
+                "\\paren": "\\left({#1}\\right)"
+                "\\bracket": "\\left[{#1}\\right]"
+                "\\brace": "\\left\\{{#1}\\right\\}"
+                "\\ceil": "\\left\\lceil{#1}\\right\\rceil"
+                "\\floor": "\\left\\lfloor{#1}\\right\\rfloor"
+                "\\vert": "\\left\\lvert{#1}\\right\\rvert"
+                "\\vec": "\\bm" # 默认使用粗体表示向量
+                "\\vecc": "\\overrightarrow" # 默认使用上标箭头表示有向线段
+                # 下面是一些文化课用的定义
+                "\\poly": "\\ce{-\\!\\!\\![ #1 ]_n\\!\\!\\!\\!\\!-}" # 有机化学 聚合物
+                "\\el": "#1\\mathrm{#2}^{#3}" # 结构化学 能级
+                "\\pH": "p\\ce{H}"
+                "\\pOH": "p\\ce{OH}"
+                "\\con": "\\left[\\ce{#1}\\right]" # 化学计量 一般表示摩尔浓度
+                # 下面都是一些不标准的 Unicode 转移
+                "’": "'"
+                "，": ","
+                "。": "."
+                "；": ";"
+                "：": ":"
+                "！": "!"
+                "？": "?"
+                "【": "["
+                "】": "]"
+                "（": "("
+                "）": ")"
+                "、": ","
+                "—": "-"
+                "…": "\\dots"
+                "·": "\\cdot"
+                "->": "\\to"
+                "<-": "\\gets"
+markdown_extensions:
+- abbr
+- admonition
+- attr_list
+- def_list
+- footnotes
+- md_in_html
+- tables
+-   toc:
+        permalink: true
+        toc_depth: 3
+-   pymdownx.arithmatex:
+        generic: true
+- pymdownx.caret
+- pymdownx.keys
+- pymdownx.mark
+- pymdownx.tilde
+- pymdownx.betterem
+- pymdownx.blocks.admonition
+- pymdownx.blocks.details
+- pymdownx.blocks.caption
+- pymdownx.blocks.tab
+-   pymdownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
+        linenums: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.superfences
+- pymdownx.magiclink
+- pymdownx.smartsymbols
+- pymdownx.tasklist
+- pymdownx.tabbed
+extra_javascript:
+- https://cdn.jsdelivr.net/gh/raineblog/mkdocs-docker@latest/assets/katex.render.js
