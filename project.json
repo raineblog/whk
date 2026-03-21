@@ -1,0 +1,33 @@
+{
+  "info": {
+    "site_name": "RainPPR's WHK Blog",
+    "site_description": "RainPPR 的文化课博客，主要是理科，尤其是数学、物理、化学、生物等高中学科的知识及题型等笔记。",
+    "site_author": "RainPPR",
+    "repo_name": "raineblog/whk",
+    "repo_url": "https://github.com/raineblog/whk",
+    "edit_uri": "edit/main/docs/",
+    "copyright": "<a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">Creative Commons Attribution 4.0 International</a> | <a href=\"https://github.com/raineblog/whk/blob/main/LICENSE\" target=\"_blank\" rel=\"noopener\">MIT</a>"
+  },
+  "extra": {
+    "giscus": {
+      "data_repo": "raineblog/giscus",
+      "data_repo_id": "R_kgDOMhpKmw",
+      "data_category_id": "DIC_kwDOMhpKm84ChhZ7"
+    },
+    "mastodon": "rainppr",
+    "social": [
+      {
+        "icon": "fontawesome/brands/github",
+        "link": "https://github.com/RainPPR"
+      },
+      {
+        "icon": "fontawesome/brands/x-twitter",
+        "link": "https://x.com/rainppr2008"
+      },
+      {
+        "icon": "fontawesome/brands/mastodon",
+        "link": "https://mastodon.social/@rainppr"
+      }
+    ]
+  }
+}
