@@ -6,5 +6,9 @@
   },
   "dependencies": {
     "katex": "^0.16.40"
+  },
+  "devDependencies": {
+    "autocorrect-node": "^2.14.0",
+    "markdownlint-cli2": "^0.21.0"
   }
 }
