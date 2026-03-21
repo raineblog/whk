@@ -13,7 +13,7 @@ dependencies = [
     "mkdocs-advanced-seo>=1.0.3",
     "mkdocs-document-dates",
     "mkdocs-glightbox>=0.5.2",
-    "mkdocs-katex-ssr>=1.1.1",
+    "mkdocs-katex-ssr",
     "mkdocs-llmstxt>=0.5.0",
     "mkdocs-material[imaging]",
     "mkdocs-minify-html-plugin>=0.3.10",
@@ -29,6 +29,7 @@ dependencies = [
 [tool.uv.sources]
 mkdocs-material = { git = "https://github.com/raineblog/mkdocs-material.git" }
 mkdocs-document-dates = { git = "https://github.com/raineblog/mkdocs-document-dates.git" }
+mkdocs-katex-ssr = { git = "https://github.com/raineblog/mkdocs-katex-ssr" }
 
 [dependency-groups]
 dev = [

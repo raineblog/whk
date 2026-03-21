@@ -699,17 +699,13 @@ wheels = [
 
 [[package]]
 name = "mkdocs-katex-ssr"
-version = "1.1.1"
-source = { registry = "https://pypi.org/simple" }
+version = "1.1.2"
+source = { git = "https://github.com/raineblog/mkdocs-katex-ssr#812a073349356d2c4f840aa6a2ee89c4c8c266f1" }
 dependencies = [
     { name = "beautifulsoup4" },
     { name = "cffi" },
     { name = "lmdb" },
     { name = "mkdocs" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/41/b5/f87661c3e5e65e87b62b37e77ce3c67518eed04b465b7c3521e59a38181e/mkdocs_katex_ssr-1.1.1.tar.gz", hash = "sha256:89859532a708aca07ab65055a7d0b5848ae88fc10a3678b41f53272554d3e4b3", size = 13729, upload-time = "2026-03-03T10:25:55.307Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/bf/72/a08918fbdd70d58bd7f0c62c20b86701c1ff29dca1c0f81b5c4d3a8b278f/mkdocs_katex_ssr-1.1.1-py3-none-any.whl", hash = "sha256:9043e63b05ac58d1caf2807293c93acf529008423bd81caa49404a42d4c8e818", size = 12526, upload-time = "2026-03-03T10:25:53.976Z" },
 ]
 
 [[package]]
@@ -1381,7 +1377,7 @@ requires-dist = [
     { name = "mkdocs-advanced-seo", specifier = ">=1.0.3" },
     { name = "mkdocs-document-dates", git = "https://github.com/raineblog/mkdocs-document-dates.git" },
     { name = "mkdocs-glightbox", specifier = ">=0.5.2" },
-    { name = "mkdocs-katex-ssr", specifier = ">=1.1.1" },
+    { name = "mkdocs-katex-ssr", git = "https://github.com/raineblog/mkdocs-katex-ssr" },
     { name = "mkdocs-llmstxt", specifier = ">=0.5.0" },
     { name = "mkdocs-material", extras = ["imaging"], git = "https://github.com/raineblog/mkdocs-material.git" },
     { name = "mkdocs-minify-html-plugin", specifier = ">=0.3.10" },
