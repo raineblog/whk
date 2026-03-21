@@ -16,28 +16,28 @@ from mkdocs.commands.serve import serve
 script_dir = Path(__file__).resolve().parent
 
 
-def copy_public_to_site():
-    # 使用 pathlib 定义路径更加优雅和安全
-    src = Path("public")
-    dst = Path("site")
+# def copy_public_to_site():
+#     # 使用 pathlib 定义路径更加优雅和安全
+#     src = Path("public")
+#     dst = Path("site")
 
-    # 确保源目录存在，避免报错
-    if not src.exists() or not src.is_dir():
-        print(f"⚠️ 源目录 {src} 不存在或不是文件夹！")
-        return
+#     # 确保源目录存在，避免报错
+#     if not src.exists() or not src.is_dir():
+#         print(f"⚠️ 源目录 {src} 不存在或不是文件夹！")
+#         return
 
-    print(f"📂 正在将 {src} 的内容复制到 {dst} ...")
+#     print(f"📂 正在将 {src} 的内容复制到 {dst} ...")
 
-    # 完美等价于 cp -af public/. site/
-    shutil.copytree(
-        src, 
-        dst, 
-        symlinks=True,           # 对应 -a: 保留软链接而不只是复制内容
-        dirs_exist_ok=True,      # 对应 -f 和 /.: 如果 site 目录已存在，不报错，直接合并/覆盖文件
-        copy_function=shutil.copy2 # 对应 -a: 保留文件的元数据（如修改时间、权限等）
-    )
+#     # 完美等价于 cp -af public/. site/
+#     shutil.copytree(
+#         src, 
+#         dst, 
+#         symlinks=True,           # 对应 -a: 保留软链接而不只是复制内容
+#         dirs_exist_ok=True,      # 对应 -f 和 /.: 如果 site 目录已存在，不报错，直接合并/覆盖文件
+#         copy_function=shutil.copy2 # 对应 -a: 保留文件的元数据（如修改时间、权限等）
+#     )
     
-    print("✅ 复制完成！")
+#     print("✅ 复制完成！")
 
 def parse_yaml(yaml_path):
     with open(yaml_path, 'r', encoding='utf-8') as file:
@@ -118,7 +118,7 @@ def main():
         config["plugins"].run_event("startup", command="build", dirty=False)
         try:
             build(config)
-            copy_public_to_site()
+            # copy_public_to_site()
             print("✅ 构建成功！")
             
         except Exception as e:

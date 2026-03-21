@@ -39,3 +39,6 @@ export:
 		--env-file .env \
 		-e MAX_THREADS=16 \
 		ghcr.io/raineblog/mkdocs-exporter:latest
+
+onstart:
+	@ls skills/onstart/*.js | xargs -I {} node {}

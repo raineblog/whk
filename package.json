@@ -1,13 +1,8 @@
 {
   "name": "whk",
-  "module": "index.ts",
-  "type": "module",
   "private": true,
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
+  "scripts": {
+    "review": "node skills/review/review.js"
   },
   "dependencies": {
     "katex": "^0.16.40"
