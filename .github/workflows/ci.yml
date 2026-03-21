@@ -6,9 +6,10 @@ on:
   push:
     branches:
       - main
-  # pull_request:
-  #   branches:
-  #     - main
+      - dev
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 concurrency:
@@ -72,6 +73,7 @@ jobs:
         run: uv run scripts/generate.py --build --site_url=${{ matrix.url }} --disable_giscus=${{ matrix.disable_giscus }}
   
       - name: Push to Branch
+        if: (github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
