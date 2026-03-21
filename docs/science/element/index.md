@@ -150,7 +150,9 @@
 
 **酸性强度**：
 
-$$\ce{HCN} \ (\mathrm{p}K_\mathrm{a} \approx 9.2) \ < \ \ce{HOCN} \ (\mathrm{p}K_\mathrm{a} \approx 3.7) \approx \ce{HNCO} \ (\mathrm{p}K_\mathrm{a} \approx 3.7)$$
+$$
+\ce{HCN} \ (\mathrm{p}K_\mathrm{a} \approx 9.2) \ < \ \ce{HOCN} \ (\mathrm{p}K_\mathrm{a} \approx 3.7) \approx \ce{HNCO} \ (\mathrm{p}K_\mathrm{a} \approx 3.7)
+$$
 
 **氢氰酸 ($\ce{HCN}$)**：
 
