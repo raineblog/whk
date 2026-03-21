@@ -6,7 +6,7 @@
 
 {% include "workflow.md" %}
 
-{% include "SKILLS.md" %}
+{% include "skills.md" %}
 
 {% include "output_format.md" %}
 
