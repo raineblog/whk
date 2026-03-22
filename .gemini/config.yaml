@@ -1,3 +1,4 @@
-have_fun: true
+have_fun: false
+ignore_patterns: ['dev/supplement/*']
 code_review:
   comment_severity_threshold: LOW
