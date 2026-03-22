@@ -1,10 +1,13 @@
 import os
 import shutil
 import sys
+import functools
 import subprocess
 import argparse
 import importlib.util
 from pathlib import Path
+
+print = functools.partial(print, flush=True)
 
 import yaml
 import json
@@ -53,9 +56,6 @@ def check_social_dependencies():
     try:
         import cairosvg
         from PIL import Image
-        # 尝试调用一个简单的函数来验证动态链接库是否正常
-        # 如果 libcairo-2.dll 缺失，这里会抛出 OSError
-        cairosvg.svg2png(bytestring=b"<svg></svg>")
         return True
     except (ImportError, OSError, Exception):
         return False
@@ -135,7 +135,7 @@ def main():
         if args.build:
             print(f"[BUILD] 执行 {' '.join(cmd_prefix)} mkdocs build...")
             try:
-                subprocess.run(cmd_prefix + ["mkdocs", "build"], check=True)
+                subprocess.run(cmd_prefix + ["mkdocs", "build", '--verbose'], check=True)
                 print("[FINAL] 构建成功！")
             except subprocess.CalledProcessError as e:
                 print(f"[ERROR] 构建失败: {e}")

@@ -71,6 +71,8 @@ jobs:
 
       - name: Build Static Site
         run: uv run scripts/generate.py --build --site_url=${{ matrix.url }} --disable_giscus=${{ matrix.disable_giscus }}
+        env:
+          PYTHONUNBUFFERED: 1
   
       - name: Push to Branch
         if: (github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
