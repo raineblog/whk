@@ -2,7 +2,7 @@
   "name": "whk",
   "private": true,
   "scripts": {
-    "review": "node skills/review/review.js"
+    "review": "node scripts/skills/review/review.js"
   },
   "dependencies": {
     "katex": "^0.16.40"

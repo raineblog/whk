@@ -1,4 +1,4 @@
-## 函数探索技能库 (Function Exploration Skills)
+# 函数探索技能库 (Function Exploration Skills)
 
 ## 1. 核心解题技能与路径规约
 
