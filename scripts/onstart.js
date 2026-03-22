@@ -30,10 +30,11 @@ const skillsTargets = [
  * 递归同步目录
  */
 function copyRecursiveSync(src, dest) {
-    const exists = fs.existsSync(src);
-    const stats = exists && fs.statSync(src);
-    const isDirectory = exists && stats.isDirectory();
-    if (isDirectory) {
+    if (!fs.existsSync(src)) {
+        throw new Error(`Source path does not exist: ${src}`);
+    }
+    const stats = fs.statSync(src);
+    if (stats.isDirectory()) {
         if (!fs.existsSync(dest)) {
             fs.mkdirSync(dest, { recursive: true });
         }
@@ -68,7 +69,7 @@ if (fs.existsSync(skillsDir)) {
     // 过滤掉 onstart 自身（如果还在子目录中）或者其他不需要同步的目录
     const subdirs = fs.readdirSync(skillsDir).filter(file => {
         const fullPath = path.join(skillsDir, file);
-        return fs.statSync(fullPath).isDirectory() && file !== 'onstart';
+        return fs.statSync(fullPath).isDirectory();
     });
 
     skillsTargets.forEach(targetBase => {
