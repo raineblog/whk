@@ -57,7 +57,7 @@ def check_social_dependencies():
         # 如果 libcairo-2.dll 缺失，这里会抛出 OSError
         cairosvg.svg2png(bytestring=b"<svg></svg>")
         return True
-    except (ImportError, OSError):
+    except (ImportError, OSError, Exception):
         return False
 
 
