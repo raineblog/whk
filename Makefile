@@ -41,4 +41,4 @@ export:
 		ghcr.io/raineblog/mkdocs-exporter:latest
 
 onstart:
-	@ls skills/onstart/*.js | xargs -I {} node {}
+	@node scripts/onstart.js

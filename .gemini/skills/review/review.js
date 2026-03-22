@@ -31,7 +31,7 @@ function main() {
         encoding: 'utf8',
         shell: process.platform === 'win32'
     });
-    const rootDir = rootProcess.stdout.trim() || path.resolve(__dirname, '../../');
+    const rootDir = rootProcess.stdout.trim() || path.resolve(__dirname, '../../../');
 
     const result = spawnSync('node', [scriptPath, ...remainingArgs], {
         stdio: 'inherit',

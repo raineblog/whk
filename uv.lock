@@ -699,8 +699,8 @@ wheels = [
 
 [[package]]
 name = "mkdocs-katex-ssr"
-version = "1.1.2"
-source = { git = "https://github.com/raineblog/mkdocs-katex-ssr#812a073349356d2c4f840aa6a2ee89c4c8c266f1" }
+version = "1.2.0"
+source = { git = "https://github.com/raineblog/mkdocs-katex-ssr#5b7a2033ccffbdd25bc9650f5b980233f2252823" }
 dependencies = [
     { name = "beautifulsoup4" },
     { name = "cffi" },
