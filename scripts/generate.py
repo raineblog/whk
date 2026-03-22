@@ -55,6 +55,7 @@ def check_social_dependencies():
         from PIL import Image
         # 尝试调用一个简单的函数来验证动态链接库是否正常
         # 如果 libcairo-2.dll 缺失，这里会抛出 OSError
+        cairosvg.svg2png(bytestring=b"<svg></svg>")
         return True
     except (ImportError, OSError):
         return False
