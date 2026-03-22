@@ -30,10 +30,11 @@ const skillsTargets = [
  * 递归同步目录
  */
 function copyRecursiveSync(src, dest) {
-    const exists = fs.existsSync(src);
-    const stats = exists && fs.statSync(src);
-    const isDirectory = exists && stats.isDirectory();
-    if (isDirectory) {
+    if (!fs.existsSync(src)) {
+        throw new Error(`Source path does not exist: ${src}`);
+    }
+    const stats = fs.statSync(src);
+    if (stats.isDirectory()) {
         if (!fs.existsSync(dest)) {
             fs.mkdirSync(dest, { recursive: true });
         }
