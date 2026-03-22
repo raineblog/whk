@@ -665,8 +665,8 @@ wheels = [
 
 [[package]]
 name = "mkdocs-document-dates"
-version = "3.7.0"
-source = { git = "https://github.com/raineblog/mkdocs-document-dates.git#565c32cd54a903489f51fce876e1a8aa33faf3bc" }
+version = "3.7.1"
+source = { git = "https://github.com/raineblog/mkdocs-document-dates.git#3468585f12066cddaa1838cc7d49269647158dfe" }
 dependencies = [
     { name = "mkdocs" },
 ]
@@ -699,8 +699,8 @@ wheels = [
 
 [[package]]
 name = "mkdocs-katex-ssr"
-version = "1.2.0"
-source = { git = "https://github.com/raineblog/mkdocs-katex-ssr#5b7a2033ccffbdd25bc9650f5b980233f2252823" }
+version = "1.2.1"
+source = { git = "https://github.com/raineblog/mkdocs-katex-ssr.git#6e46f436ecefdcb7a71483d2a9899e45bfd3b929" }
 dependencies = [
     { name = "beautifulsoup4" },
     { name = "cffi" },
@@ -1377,7 +1377,7 @@ requires-dist = [
     { name = "mkdocs-advanced-seo", specifier = ">=1.0.3" },
     { name = "mkdocs-document-dates", git = "https://github.com/raineblog/mkdocs-document-dates.git" },
     { name = "mkdocs-glightbox", specifier = ">=0.5.2" },
-    { name = "mkdocs-katex-ssr", git = "https://github.com/raineblog/mkdocs-katex-ssr" },
+    { name = "mkdocs-katex-ssr", git = "https://github.com/raineblog/mkdocs-katex-ssr.git" },
     { name = "mkdocs-llmstxt", specifier = ">=0.5.0" },
     { name = "mkdocs-material", extras = ["imaging"], git = "https://github.com/raineblog/mkdocs-material.git" },
     { name = "mkdocs-minify-html-plugin", specifier = ">=0.3.10" },

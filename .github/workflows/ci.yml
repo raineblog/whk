@@ -73,9 +73,21 @@ jobs:
         run: uv run scripts/generate.py --build --site_url=${{ matrix.url }} --disable_giscus=${{ matrix.disable_giscus }}
         env:
           PYTHONUNBUFFERED: 1
+
+      - name: Determine Deployment
+        id: deploy_check
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "push" && "${{ github.ref }}" == "refs/heads/main" ]] \
+             || [[ "${{ github.event_name }}" == "schedule" ]] \
+             || [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "should_deploy=true" >> $GITHUB_OUTPUT
+          else
+            echo "should_deploy=false" >> $GITHUB_OUTPUT
+          fi
   
       - name: Push to Branch
-        if: (github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        if: steps.deploy_check.outputs.should_deploy == 'true'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -84,3 +96,10 @@ jobs:
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
           full_commit_message: "Deploying to ${{ matrix.branch }} from ${{ github.sha }}"
+
+      - name: Upload Artifact
+        if: steps.deploy_check.outputs.should_deploy == 'false'
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-${{ matrix.branch }}
+          path: site
