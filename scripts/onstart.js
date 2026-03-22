@@ -68,7 +68,7 @@ if (fs.existsSync(skillsDir)) {
     // 过滤掉 onstart 自身（如果还在子目录中）或者其他不需要同步的目录
     const subdirs = fs.readdirSync(skillsDir).filter(file => {
         const fullPath = path.join(skillsDir, file);
-        return fs.statSync(fullPath).isDirectory() && file !== 'onstart';
+        return fs.statSync(fullPath).isDirectory();
     });
 
     skillsTargets.forEach(targetBase => {
