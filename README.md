@@ -13,6 +13,10 @@
   <a href="https://github.com/raineblog/whk/graphs/contributors">
     <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="Contributions Welcome">
   </a>
+  <a href="https://github.com/raineblog/whk/graphs/contributors">
+    <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="Contributions Welcome">
+  </a>
+  <a href="https://deepwiki.com/raineblog/whk"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
 </p>
 
 ---
