@@ -73,6 +73,7 @@ jobs:
         run: uv run scripts/generate.py --build --site_url=${{ matrix.url }} --disable_giscus=${{ matrix.disable_giscus }}
         env:
           PYTHONUNBUFFERED: 1
+          NO_MKDOCS_2_WARNING: 1
 
       - name: Determine Deployment
         id: deploy_check

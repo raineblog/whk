@@ -135,7 +135,7 @@ def main():
         if args.build:
             print(f"[BUILD] 执行 {' '.join(cmd_prefix)} mkdocs build...")
             try:
-                subprocess.run(cmd_prefix + ["mkdocs", "build", '--verbose'], check=True)
+                subprocess.run(cmd_prefix + ["mkdocs", "build"], check=True)
                 print("[FINAL] 构建成功！")
             except subprocess.CalledProcessError as e:
                 print(f"[ERROR] 构建失败: {e}")
