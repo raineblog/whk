@@ -1,18 +1,13 @@
 import os
-import io
 import shutil
 import sys
-
+import subprocess
 import argparse
+import importlib.util
 from pathlib import Path
 
 import yaml
 import json
-import toml
-
-from mkdocs.config import load_config
-from mkdocs.commands.build import build
-from mkdocs.commands.serve import serve
 
 script_dir = Path(__file__).resolve().parent
 current_dir = Path.cwd()
@@ -31,8 +26,7 @@ def load_json(file_path):
 
 
 def get_sidebar(raw_path):
-    path = current_dir / "docs" / raw_path
-    return load_json(path)
+    return load_json(Path("docs") / raw_path.lstrip("/"))
 
 
 def get_nav():
@@ -44,6 +38,26 @@ def get_nav():
             children = get_sidebar(children)
         nav.append({item["title"]: children})
     return nav
+
+
+def check_social_dependencies():
+    """
+    检查 social 插件的依赖 (cairosvg 和 pillow) 是否可用。
+    不仅要检查是否能 import，还要检查是否能正常加载（处理 libcairo-2.dll 缺失等问题）。
+    """
+    if importlib.util.find_spec("cairosvg") is None:
+        return False
+    if importlib.util.find_spec("PIL") is None:
+        return False
+
+    try:
+        import cairosvg
+        from PIL import Image
+        # 尝试调用一个简单的函数来验证动态链接库是否正常
+        # 如果 libcairo-2.dll 缺失，这里会抛出 OSError
+        return True
+    except (ImportError, OSError, Exception):
+        return False
 
 
 def parse_args():
@@ -75,7 +89,7 @@ def main():
     project = load_json("project.json")
     config_map = project["info"]
 
-    if args.build:
+    if args.build or args.serve:
         if (site_url := args.site_url).lower() != "null":
             config_map["site_url"] = site_url
 
@@ -87,32 +101,54 @@ def main():
         template_defaults = load_yaml(script_dir / "template.yml")
         config_map["nav"] = get_nav()
 
-        dummy_file = io.StringIO(
-            yaml.dump(
-                config_map | template_defaults,
-                allow_unicode=True,
-                indent=4,
-                sort_keys=False,
-            )
-        )
+        # 合并配置
+        final_config = template_defaults | config_map
 
-        dummy_file.name = os.path.join(os.getcwd(), "mkdocs.yml")
+        # 确保 site_url 存在 (llmstxt 等插件需要)
+        if not final_config.get("site_url"):
+            final_config["site_url"] = "https://example.com" # 临时默认值，通常会被覆盖
 
-        config = load_config(config_file=dummy_file)
-        config["plugins"].run_event("startup", command="build", dirty=False)
+        # 检查 social 插件依赖
+        if not check_social_dependencies():
+            print("[PREBUILD] 未检测到 cairosvg 或 pillow (或相关库缺失)，自动禁用 social 插件。")
+            if "plugins" in final_config:
+                new_plugins = []
+                for p in final_config["plugins"]:
+                    if isinstance(p, str) and p == "social":
+                        continue
+                    if isinstance(p, dict) and "social" in p:
+                        continue
+                    new_plugins.append(p)
+                final_config["plugins"] = new_plugins
 
-        try:
-            build(config)
-            print("✅ 构建成功！")
-        except Exception as e:
-            print(f"❌ 构建失败: {e}")
-            raise
-        finally:
-            config["plugins"].run_event("shutdown")
+        # 写入 mkdocs.yml
+        with open("mkdocs.yml", "w", encoding="utf-8") as f:
+            yaml.dump(final_config, f, allow_unicode=True, indent=4, sort_keys=False)
+        
+        print("[PREBUILD] mkdocs.yml 已更新。")
 
-    elif args.serve:
-        print("serve")
-        # write_site_template('mkdocs.yml', False, 'template.serve.yml')
+        # 判断是否使用 uv
+        use_uv = os.path.exists("uv.lock")
+        cmd_prefix = ["uv", "run"] if use_uv else []
+
+        if args.build:
+            print(f"[BUILD] 执行 {' '.join(cmd_prefix)} mkdocs build...")
+            try:
+                subprocess.run(cmd_prefix + ["mkdocs", "build"], check=True)
+                print("[FINAL] 构建成功！")
+            except subprocess.CalledProcessError as e:
+                print(f"[ERROR] 构建失败: {e}")
+                sys.exit(1)
+        elif args.serve:
+            print(f"🚀 启动 {' '.join(cmd_prefix)} mkdocs serve (端口: {args.port})...")
+            try:
+                subprocess.run(cmd_prefix + ["mkdocs", "serve", "--dev-addr", f"0.0.0.0:{args.port}"], check=True)
+            except KeyboardInterrupt:
+                print("\n[FINAL] 服务已停止。")
+            except subprocess.CalledProcessError as e:
+                print(f"[ERROR] 服务启动失败: {e}")
+                sys.exit(1)
+
     else:
         print("⚠️ 错误: 请指定要执行的操作，例如 --build 或 --serve")
         sys.exit(1)
