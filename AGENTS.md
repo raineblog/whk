@@ -109,4 +109,4 @@ node scripts/skills/review/review.js diff
 1. 使用 `review` skill 进行格式检查
 2. 严格遵循 `styleguide.md` 规范
 3. 深度理解内容，纠正实质性错误
-4. 反复查</parameter>
+4. 反复检查，确保修改没有引入新的问题、确认所有修改都符合规范

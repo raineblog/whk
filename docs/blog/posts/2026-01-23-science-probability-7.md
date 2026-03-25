@@ -223,7 +223,7 @@ $$
 计数时先把所有情况相加，再减去重叠部分，交叉部分加回，以此类推。公式概括为  
 
 $$  
-\bigl|\!\bigcup_{i=1}^{m}A_{i}\bigr|
+\bigl|\bigcup_{i=1}^{m}A_{i}\bigr|
 = \sum_{i}|A_{i}|
 - \sum_{i<j}|A_{i}\cap A_{j}|
 + \sum_{i<j<k}|A_{i}\cap A_{j}\cap A_{k}|
