@@ -318,7 +318,7 @@ $$
 递推 $a_{n+1}=a_n^{2}-2$，取 $a_n=2\cos\theta_n$，得到 $\theta_{n+1}=2\theta_n$，于是
 
 $$
-a_n=2\cos\!\Bigl(2^{\,n-1}\arccos\frac14\Bigr)
+a_n=2\cos\Bigl(2^{\,n-1}\arccos\frac14\Bigr)
 $$
 
 ### 双曲换元
