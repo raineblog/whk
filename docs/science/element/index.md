@@ -24,6 +24,10 @@
 
 - 酸碱性是溶液的一种特性。据此，溶液可分为酸性溶液、中性溶液和碱性溶液。
 
+- 化学反应的四种基本类型：化合反应（多种物质生成一种物质）、分解反应（一种物质生成多种物质）、置换反应（单质与化合物反应生成另一种单质和另一种化合物）、复分解反应（两种化合物互相交换成分生成两种新的化合物）。
+
+- 置换反应可以用通式 $A + BC \rightarrow AC + B$ 表示。所有置换反应都属于氧化还原反应，因为必有单质参与，化合价一定发生变化。
+
 以上内容来自 [ChemWiki](https://chemwiki.mrwillcom.com/)，由于该项目没有 LICENSE 且截止到本文编写，已经停止维护近两年，如果认定为侵权请联系删除。
 
 ## 物质的分类
@@ -307,15 +311,183 @@ Cr2O7^2- 橙红色
 | 蓝 | $\pu{446nm \sim464nm}$ |
 | 紫 | $\pu{400nm \sim446nm}$ |
 
-### 非水溶液置换
+### 置换反应
 
-Mg + CO2
+置换反应的本质是**单质与化合物反应，生成另一种单质和另一种化合物**，符合 $A + BC \rightarrow AC + B$ 的通式。所有置换反应都属于氧化还原反应。以下按照被置换元素的类型分类。
 
-Cl2 + HI(g)
+#### 涉及稀有气体的置换
 
-Fe + H2O(g)
+稀有气体极难发生反应，但较重的稀有气体（如 $\ce{Kr}$、$\ce{Xe}$）能形成氟化物和氧化物。在这些反应中，稀有气体通常作为"被置换"的元素出现，因为它们的化合物具有极强的氧化性和氟化能力。
 
-C + H2O -> CO + H2
+非金属置换稀有气体：
+
+- 氢气置换氙或氪：
+
+<center markdown>
+$\ce{H2 + XeF2 ->[\Delta] 2HF + Xe}$
+</center>
+
+<center markdown>
+$\ce{H2 + KrF2 -> 2HF + Kr}$
+</center>
+
+- 硫等非金属与二氟化氙反应：
+
+<center markdown>
+$\ce{S + 3XeF2 -> SF6 + 3Xe}$
+</center>
+
+金属置换稀有气体：二氟化氙是非常干净的氟化剂，很多 d 区或 p 区金属能将其中的氙置换出来。
+
+<center markdown>
+$\ce{Ti + 2XeF2 -> TiF4 + 2Xe}$
+</center>
+
+<center markdown>
+$\ce{2W + 6XeF2 -> 2WF6 + 6Xe}$
+</center>
+
+由于稀有气体单质极难夺取其他元素的电子或阴离子，因此不存在纯稀有气体去置换其他元素的反应。
+
+#### 金属置换金属
+
+本质是**活泼性强的金属将活泼性弱的金属从其盐溶液或熔融物中还原出来**，依据金属活动性顺序表。
+
+溶液中的置换：活动性排在前面的金属（排除极活泼的 $\ce{K}$、$\ce{Ca}$、$\ce{Na}$，它们会直接和水反应）置换后面的金属。
+
+<center markdown>
+$\ce{Fe + CuSO4 -> FeSO4 + Cu}$（水法炼铜）
+</center>
+
+<center markdown>
+$\ce{Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag}$
+</center>
+
+高温熔融状态下的置换，也称为火法冶金或铝热反应。
+
+<center markdown>
+$\ce{2Al + Fe2O3 ->[高温] Al2O3 + 2Fe}$（铝热反应）
+</center>
+
+<center markdown>
+$\ce{8Al + 3Mn3O4 ->[高温] 4Al2O3 + 9Mn}$
+</center>
+
+<center markdown>
+$\ce{2Mg + TiCl4 ->[高温] 2MgCl2 + Ti}$（克罗尔法）
+</center>
+
+#### 金属置换非金属
+
+活泼金属将氢或碳置换出来。
+
+金属置换氢气（从水中）：极活泼金属（碱金属、碱土金属）遇冷水反应。
+
+<center markdown>
+$\ce{2Na + 2H2O -> 2NaOH + H2 ^}$
+</center>
+
+<center markdown>
+$\ce{Ca + 2H2O -> Ca(OH)2 + H2 ^}$
+</center>
+
+较活泼金属（d 区前段或 p 区）遇高温水蒸气：
+
+<center markdown>
+$\ce{3Fe + 4H2O(g) ->[高温] Fe3O4 + 4H2}$
+</center>
+
+<center markdown>
+$\ce{Mg + H2O(g) ->[高温] MgO + H2}$
+</center>
+
+金属置换氢气（从酸中）：排在氢之前的金属置换非氧化性酸（如 $\ce{HCl}$、稀 $\ce{H2SO4}$）中的氢。
+
+<center markdown>
+$\ce{Zn + 2HCl -> ZnCl2 + H2 ^}$
+</center>
+
+<center markdown>
+$\ce{2Al + 3H2SO4 -> Al2(SO4)3 + 3H2 ^}$
+</center>
+
+镁条在二氧化碳中燃烧，经典的"灭火器失效"反应：
+
+<center markdown>
+$\ce{2Mg + CO2 ->[点燃] 2MgO + C}$
+</center>
+
+#### 非金属置换非金属
+
+非金属单质依据其电负性或氧化性、还原性的强弱互相置换。
+
+卤素单质间的置换，氧化性 $\ce{F2 > Cl2 > Br2 > I2}$。
+
+<center markdown>
+$\ce{Cl2 + 2NaBr -> 2NaCl + Br2}$
+</center>
+
+<center markdown>
+$\ce{Cl2 + 2KI -> 2KCl + I2}$
+</center>
+
+<center markdown>
+$\ce{Br2 + 2KI -> 2KBr + I2}$
+</center>
+
+卤素置换氧气或硫：
+
+<center markdown>
+$\ce{2F2 + 2H2O -> 4HF + O2}$（氟气置换水中的氧气）
+</center>
+
+<center markdown>
+$\ce{Cl2 + H2S -> 2HCl + S v}$
+</center>
+
+<center markdown>
+$\ce{O2 + 2H2S -> 2H2O + 2S v}$
+</center>
+
+<center markdown>
+$\ce{O2 + 4HI -> 2H2O + 2I2}$
+</center>
+
+碳置换其他非金属或类金属：
+
+<center markdown>
+$\ce{C + H2O(g) ->[高温] CO + H2}$（水煤气反应）
+</center>
+
+<center markdown>
+$\ce{2C + SiO2 ->[高温] 2CO + Si}$（工业制粗硅）
+</center>
+
+#### 非金属置换金属
+
+利用廉价的非金属还原剂（碳、氢气）在高温下夺取金属氧化物中的氧，广泛应用于工业冶金。
+
+碳还原法，适用于 d 区及 p 区金属：
+
+<center markdown>
+$\ce{C + 2CuO ->[高温] 2Cu + CO2 ^}$
+</center>
+
+<center markdown>
+$\ce{C + ZnO ->[高温] Zn + CO ^}$
+</center>
+
+氢还原法，常用于还原纯度要求较高的金属：
+
+<center markdown>
+$\ce{H2 + CuO ->[\Delta] Cu + H2O}$
+</center>
+
+<center markdown>
+$\ce{3H2 + WO3 ->[高温] W + 3H2O}$
+</center>
+
+以上五大类十二小类基本覆盖了常见的置换反应。只要满足"单质 $+$ 化合物 $\rightarrow$ 单质 $+$ 化合物"的形式，就可以从周期表中选取相应元素，写出大量的置换反应方程式。
 
 ### 金属元素
 
