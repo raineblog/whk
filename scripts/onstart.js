@@ -10,6 +10,7 @@ const path = require('path');
 
 const sourceFile = path.resolve(__dirname, '../AGENTS.md');
 const skillsDir = path.resolve(__dirname, 'skills');
+const rulesDir = path.resolve(__dirname, 'rules');
 
 // 目标目录常量（保留并扩展自用户要求）
 const styleguideTargets = [
@@ -24,6 +25,13 @@ const skillsTargets = [
     path.resolve(__dirname, '../.clinerules/skills'),
     path.resolve(__dirname, '../.gemini/skills'),
     path.resolve(__dirname, '../.kilocode/skills')
+];
+
+const rulesTargets = [
+    path.resolve(__dirname, '../.agent/rules'),
+    path.resolve(__dirname, '../.clinerules'),
+    path.resolve(__dirname, '../.gemini'),
+    path.resolve(__dirname, '../.kilocode/rules')
 ];
 
 /**
@@ -91,6 +99,34 @@ if (fs.existsSync(skillsDir)) {
     });
 } else {
     console.warn(`[onstart] Skills directory not found: ${skillsDir}`);
+}
+
+// 3. 同步 rules 文件夹到各个 agent 目录
+if (fs.existsSync(rulesDir)) {
+    const ruleFiles = fs.readdirSync(rulesDir).filter(file => {
+        const fullPath = path.join(rulesDir, file);
+        return fs.statSync(fullPath).isFile();
+    });
+
+    rulesTargets.forEach(targetBase => {
+        // 确保目标基础目录存在
+        if (!fs.existsSync(targetBase)) {
+            fs.mkdirSync(targetBase, { recursive: true });
+        }
+        
+        ruleFiles.forEach(ruleFile => {
+            const srcPath = path.join(rulesDir, ruleFile);
+            const destPath = path.join(targetBase, ruleFile);
+            try {
+                fs.copyFileSync(srcPath, destPath);
+                console.log(`[onstart] Successfully sync rules/${ruleFile} to ${destPath}`);
+            } catch (err) {
+                console.error(`[onstart] Failed to sync rules/${ruleFile} to ${destPath}: ${err.message}`);
+            }
+        });
+    });
+} else {
+    console.warn(`[onstart] Rules directory not found: ${rulesDir}`);
 }
 
 console.log('[onstart] Sync completed.');

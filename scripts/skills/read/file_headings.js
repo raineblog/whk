@@ -1,29 +1,54 @@
-// 传入一个文件名（相对路径），输出到终端，它的所有 Headings，或者说，把所有 `#` 开头的行，且若干个 `#` 后面接着 ` ` 空格的行，全部逐行输出，在前面加上 `[行号] `。
+const fs = require('fs');
+const path = require('path');
 
-// 例如：如果文件是
+// 传入一个文件名（相对路径），输出它的所有标题（带行号）
+function extractHeadings(filePath) {
+    try {
+        const content = fs.readFileSync(filePath, 'utf-8');
+        const lines = content.split('\n');
+        const headings = [];
+        
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i];
+            // 匹配以 # 开头，后面跟着空格的行
+            if (line.match(/^#+\s/)) {
+                const lineNumber = i + 1;
+                headings.push(`[${lineNumber}] ${line}`);
+            }
+        }
+        
+        return headings;
+    } catch (err) {
+        console.error(`错误：无法读取文件 ${filePath}`);
+        console.error(err.message);
+        process.exit(1);
+    }
+}
 
-// ```
+// 主函数
+function main() {
+    const args = process.argv.slice(2);
+    
+    if (args.length === 0) {
+        console.error('错误：请提供文件路径');
+        console.error('用法：node file_headings.js <file_path>');
+        process.exit(1);
+    }
+    
+    const filePath = args[0];
+    
+    // 检查文件是否存在
+    if (!fs.existsSync(filePath)) {
+        console.error(`错误：文件不存在 ${filePath}`);
+        process.exit(1);
+    }
+    
+    const headings = extractHeadings(filePath);
+    
+    // 输出结果
+    for (const heading of headings) {
+        console.log(heading);
+    }
+}
 
-// # H1
-
-// ## H2
-// ……
-
-// ### H3
-
-// ……
-
-// ## H2 2
-
-
-// ……
-// ```
-
-// 则输出到终端：
-
-// ```
-// [2] # H1
-// [4] ## H2
-// [7] ### H3
-// [10] ## H2 2
-// ```
+main();
