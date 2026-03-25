@@ -110,6 +110,46 @@ node scripts/skills/read/file_prelimit.js <file_path>
 1000 字符限制是指去除空行和空格后的实际内容字符数，但输出时会保留原始格式（包括空行和空格）。
 ///
 
+### file_split - 文件分割器
+
+将文件按照 20000 个字符分割成多个临时文件，便于处理大型文档。
+
+**命令格式**：
+
+```bash
+node scripts/skills/read/file_split.js <file_path>
+```
+
+**参数**：
+
+- `file_path`：文件相对路径（例如 `docs/science/probability/2.md`）
+
+**输出格式**：
+
+```
+Split docs/science/probability/2.md into 3 parts:
+docs/science/probability/2.md.001.tmp 19,856 bytes
+docs/science/probability/2.md.002.tmp 19,923 bytes
+docs/science/probability/2.md.003.tmp 5,124 bytes
+```
+
+**分割规则**：
+
+- 按照 20000 个字符进行分割
+- 分割后的文件命名为：原文件名.001.tmp, 原文件名.002.tmp 等
+- 文件编号使用三位数字，不足三位前面补零
+- 文件大小按照英文习惯每3位用逗号分隔
+
+**使用场景**：
+
+- 处理大型文档时进行分割
+- 便于分段处理或传输
+- 当文件超过上下文长度限制时进行预处理
+
+/// note | 分割说明
+如果文件小于 20000 个字符，则不会进行分割。分割后的临时文件会保存在原文件所在目录。
+///
+
 ## 工作流程
 
 ### /overview
