@@ -42,10 +42,13 @@ function findFirstH1(dir) {
 
 // 主函数
 function main() {
-    const docsDir = path.join(process.cwd(), 'docs');
+    const args = process.argv.slice(2);
+    const docsDir = args.length > 0
+        ? path.resolve(process.cwd(), args[0])
+        : path.join(process.cwd(), 'docs');
     
     if (!fs.existsSync(docsDir)) {
-        console.error('错误：docs 文件夹不存在');
+        console.error(`错误：文件夹不存在 ${docsDir}`);
         process.exit(1);
     }
     
