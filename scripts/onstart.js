@@ -11,6 +11,7 @@ const path = require('path');
 const sourceFile = path.resolve(__dirname, '../AGENTS.md');
 const skillsDir = path.resolve(__dirname, 'skills');
 const rulesDir = path.resolve(__dirname, 'rules');
+const workflowsDir = path.resolve(__dirname, 'workflows');
 
 // 目标目录常量（保留并扩展自用户要求）
 const styleguideTargets = [
@@ -32,6 +33,13 @@ const rulesTargets = [
     path.resolve(__dirname, '../.clinerules'),
     path.resolve(__dirname, '../.gemini'),
     path.resolve(__dirname, '../.kilocode/rules')
+];
+
+const workflowsTargets = [
+    path.resolve(__dirname, '../.agent/workflows'),
+    path.resolve(__dirname, '../.clinerules/workflows'),
+    path.resolve(__dirname, '../.gemini/workflows'),
+    path.resolve(__dirname, '../.kilocode/workflows')
 ];
 
 /**
@@ -127,6 +135,34 @@ if (fs.existsSync(rulesDir)) {
     });
 } else {
     console.warn(`[onstart] Rules directory not found: ${rulesDir}`);
+}
+
+// 4. 同步 workflows 文件夹到各个 agent 目录
+if (fs.existsSync(workflowsDir)) {
+    const workflowFiles = fs.readdirSync(workflowsDir).filter(file => {
+        const fullPath = path.join(workflowsDir, file);
+        return fs.statSync(fullPath).isFile();
+    });
+
+    workflowsTargets.forEach(targetBase => {
+        // 确保目标基础目录存在
+        if (!fs.existsSync(targetBase)) {
+            fs.mkdirSync(targetBase, { recursive: true });
+        }
+        
+        workflowFiles.forEach(workflowFile => {
+            const srcPath = path.join(workflowsDir, workflowFile);
+            const destPath = path.join(targetBase, workflowFile);
+            try {
+                fs.copyFileSync(srcPath, destPath);
+                console.log(`[onstart] Successfully sync workflows/${workflowFile} to ${destPath}`);
+            } catch (err) {
+                console.error(`[onstart] Failed to sync workflows/${workflowFile} to ${destPath}: ${err.message}`);
+            }
+        });
+    });
+} else {
+    console.warn(`[onstart] Workflows directory not found: ${workflowsDir}`);
 }
 
 console.log('[onstart] Sync completed.');
