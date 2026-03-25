@@ -1,4 +1,6 @@
 ---
+name: write
+description: Markdown 排版规范。
 trigger: always_on
 ---
 
