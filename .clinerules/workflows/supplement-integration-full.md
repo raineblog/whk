@@ -22,7 +22,7 @@
 git checkout dev
 
 # 确保在项目根目录
-cd d:/Github/blog/whk
+cd /path/to/whk  # 替换为你的项目根目录
 ```
 
 ## 详细工作流程

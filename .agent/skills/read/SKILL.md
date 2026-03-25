@@ -22,9 +22,9 @@ node scripts/skills/read/dir_h1.js
 **输出格式**：
 
 ```
-docs\science\probability\2.md 统计学概述
-docs\science\reaction\1.md 化学反应原理
-docs\science\solid\1.md 空间几何基础
+docs/science/probability/2.md 统计学概述
+docs/science/reaction/1.md 化学反应原理
+docs/science/solid/1.md 空间几何基础
 ```
 
 **使用场景**：
