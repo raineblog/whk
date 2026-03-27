@@ -1,4 +1,6 @@
 have_fun: false
-ignore_patterns: ['dev/supplement/*']
+ignore_patterns: |
+  dev/supplement/*
+  dev/finished/*
 code_review:
   comment_severity_threshold: LOW
