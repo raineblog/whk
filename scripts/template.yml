@@ -211,7 +211,6 @@ markdown_extensions:
 - pymdownx.mark
 - pymdownx.tilde
 - pymdownx.betterem
-- pymdownx.keys
 - pymdownx.blocks.admonition
 - pymdownx.blocks.details
 - pymdownx.blocks.caption

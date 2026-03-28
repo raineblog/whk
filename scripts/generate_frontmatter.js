@@ -2,7 +2,6 @@ require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
-const readline = require('readline');
 const OpenAI = require('openai');
 const minimist = require('minimist');
 const Bottleneck = require('bottleneck');

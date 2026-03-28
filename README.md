@@ -146,7 +146,7 @@ uv run scripts/generate.py --build --site_url=https://your-site-url/
 本项目使用增强的 Markdown 语法，支持以下特性：
 
 - **数学公式**: 行内 `$...$`，行间 `$$...$$`
-- **化学方程式**: `$\ce{H2 + O2 -> H2O}$`
+- **化学方程式**: `$\ce{2H2 + O2 -> 2H2O}$`
 - **物理单位**: `$\pu{1kg}$`, `$\pu{9.6E11}$`
 - **提示框**: 使用 `/// note` 和 `/// details` 语法
 - **网格布局**: 使用 `<div class="grid">` 实现多栏排版
