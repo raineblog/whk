@@ -82,7 +82,7 @@ docs/
 
 ### 开发工具
 
-- **包管理**: [uv](https://github.com/astral-sh/uv) (Python), [Bun](https://bun.sh/) (Node.js)
+- **包管理**: [uv](https://github.com/astral-sh/uv) (Python), npm (Node.js)
 - **代码检查**: markdownlint, autocorrect
 - **容器化**: Docker (使用自定义镜像 `ghcr.io/raineblog/mkdocs-docker`)
 
@@ -117,8 +117,10 @@ cd whk
 # 安装 Python 依赖
 uv sync --locked
 
-# 安装 Node.js 依赖
-bun install --frozen-lockfile
+# 安装 Node.js 依赖（按需安装）
+npm ci                           # 安装 build 依赖（katex）
+cd scripts/frontmatter && npm ci # 安装 frontmatter 依赖（如需生成元数据）
+cd scripts/review && npm ci      # 安装 review 依赖（如需运行审查工具）
 
 # 启动预览
 uv run scripts/generate.py --serve
