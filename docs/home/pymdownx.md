@@ -4,7 +4,7 @@
 from fnmatch import fnmatch
 from pathlib import Path
 
-exclude = {"dist", "site", "dest", "node_modules", ".cache", "cache", ".agent", ".git"}
+exclude = {"dist", "site", "dest", "node_modules", ".cache", "cache", ".agents", ".git"}
 no_recurse = {".venv*", ".github"}
 
 
