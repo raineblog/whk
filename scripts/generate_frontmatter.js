@@ -214,12 +214,12 @@ async function main() {
                 const inTok = usage.prompt_tokens;
                 const thinkTok = usage.completion_tokens_details?.reasoning_tokens || 0;
                 const outTok = usage.completion_tokens - thinkTok; 
-                const totalTok = usage.completion_tokens;
+                const totalTok = usage.total_tokens;
                 const completionTok = usage.completion_tokens;
-                const tps = (totalTok / dur).toFixed(1);
+                const tps = (completionTok / dur).toFixed(1);
 
                 console.log(`${chalk.green('✔')} ${logPrefix()} ${chalk.white(relPath)}`);
-                console.log(chalk.dim(`    Usage: ${completionTok} Tok (In:${inTok} Out:${outTok} Think:${thinkTok}) | Time: ${dur.toFixed(1)}s | ${tps} Tok/s`));
+                console.log(chalk.dim(`    Usage: ${totalTok} Tok (In:${inTok} Out:${outTok} Think:${thinkTok}) | Time: ${dur.toFixed(1)}s | ${tps} Tok/s`));
                 break;
             } catch (e) {
                 if (attempt === MAX_RETRIES) {
