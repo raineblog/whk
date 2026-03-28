@@ -119,4 +119,4 @@ node scripts/skills/review/review.js diff
 3. 深度理解内容，纠正实质性错误
 4. 反复检查，确保修改没有引入新的问题、确认所有修改都符合规范
 
-进行审阅时要忽略 dev/supplement/* 和 dev/finished/* 两个 pattern。
+进行审阅时要忽略 `dev/supplement/*` `dev/finished/*` `.agents` `.clinerules` `.gemini` `.kilo` `.kilocode` `.qwen` 和 .gitignore 里面的等，这些 patterns。
