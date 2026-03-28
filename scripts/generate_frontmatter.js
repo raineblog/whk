@@ -49,7 +49,7 @@ const EXCLUDE_FILES = [path.join(DOCS_DIR, 'index.md')];
 
 const limiter = new Bottleneck({
     minTime: 1000,
-    maxConcurrent: 32
+    maxConcurrent: 64
 });
 
 function extractTitle(content) {
@@ -226,7 +226,7 @@ async function main() {
                     console.log(`${chalk.red('✘')} ${logPrefix()} ${chalk.red(relPath)} - 彻底失败: ${e.message}`);
                 } else {
                     console.log(`${chalk.red('？')} ${logPrefix()} ${chalk.red(relPath)} - 重试第 ${attempt} 次`);
-                    await new Promise(r => setTimeout(r, 10000));
+                    await new Promise(r => setTimeout(r, 5000));
                 }
             }
         }
