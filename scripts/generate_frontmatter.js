@@ -133,7 +133,7 @@ async function main() {
 
     const total = targetFiles.length;
     let completed = 0;
-    const MAX_RETRIES = 3;
+    const MAX_RETRIES = 10;
     const globalStart = performance.now();
 
     const tasks = targetFiles.map((filePath) => limiter.schedule(async () => {
@@ -225,7 +225,8 @@ async function main() {
                 if (attempt === MAX_RETRIES) {
                     console.log(`${chalk.red('✘')} ${logPrefix()} ${chalk.red(relPath)} - 彻底失败: ${e.message}`);
                 } else {
-                    await new Promise(r => setTimeout(r, 2000 * (attempt + 1)));
+                    console.log(`${chalk.red('？')} ${logPrefix()} ${chalk.red(relPath)} - 重试第 ${attempt} 次`);
+                    await new Promise(r => setTimeout(r, 10000));
                 }
             }
         }
