@@ -56,8 +56,9 @@ def check_social_dependencies():
     try:
         import cairosvg
         from PIL import Image
+
         return True
-    except (ImportError, OSError, Exception):
+    except ImportError, OSError, Exception:
         return False
 
 
@@ -107,11 +108,13 @@ def main():
 
         # 确保 site_url 存在 (llmstxt 等插件需要)
         if not final_config.get("site_url"):
-            final_config["site_url"] = "https://example.com" # 临时默认值，通常会被覆盖
+            final_config["site_url"] = "https://example.com"  # 临时默认值，通常会被覆盖
 
         # 检查 social 插件依赖
         if not check_social_dependencies():
-            print("[PREBUILD] 未检测到 cairosvg 或 pillow (或相关库缺失)，自动禁用 social 插件。")
+            print(
+                "[PREBUILD] 未检测到 cairosvg 或 pillow (或相关库缺失)，自动禁用 social 插件。"
+            )
             if "plugins" in final_config:
                 new_plugins = []
                 for p in final_config["plugins"]:
@@ -125,7 +128,7 @@ def main():
         # 写入 mkdocs.yml
         with open("mkdocs.yml", "w", encoding="utf-8") as f:
             yaml.dump(final_config, f, allow_unicode=True, indent=4, sort_keys=False)
-        
+
         print("[PREBUILD] mkdocs.yml 已更新。")
 
         # 判断是否使用 uv
@@ -140,10 +143,33 @@ def main():
             except subprocess.CalledProcessError as e:
                 print(f"[ERROR] 构建失败: {e}")
                 sys.exit(1)
+
+            print("[GULP] 执行 gulp --input-dir site --output-dir dist...")
+            try:
+                subprocess.run(
+                    ["gulp", "--input-dir", "site", "--output-dir", "dist"], check=True
+                )
+                print("[GULP] gulp 处理完成！")
+            except subprocess.CalledProcessError as e:
+                print(f"[ERROR] gulp 执行失败: {e}")
+                sys.exit(1)
+
+            print("[POST] 替换 site 目录为 dist...")
+            try:
+                shutil.rmtree("site")
+                shutil.move("dist", "site")
+                print("[POST] 目录替换完成！")
+            except Exception as e:
+                print(f"[ERROR] 目录替换失败: {e}")
+                sys.exit(1)
         elif args.serve:
             print(f"🚀 启动 {' '.join(cmd_prefix)} mkdocs serve (端口: {args.port})...")
             try:
-                subprocess.run(cmd_prefix + ["mkdocs", "serve", "--dev-addr", f"0.0.0.0:{args.port}"], check=True)
+                subprocess.run(
+                    cmd_prefix
+                    + ["mkdocs", "serve", "--dev-addr", f"0.0.0.0:{args.port}"],
+                    check=True,
+                )
             except KeyboardInterrupt:
                 print("\n[FINAL] 服务已停止。")
             except subprocess.CalledProcessError as e:
