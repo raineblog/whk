@@ -49,7 +49,7 @@ const EXCLUDE_FILES = [path.join(DOCS_DIR, 'index.md')];
 
 const limiter = new Bottleneck({
     minTime: 1000,
-    maxConcurrent: 64
+    maxConcurrent: 16
 });
 
 function extractTitle(content) {
@@ -128,7 +128,7 @@ async function main() {
         console.log(chalk.dim('任务列表概览:'));
         const displayList = targetFiles.length > 10 ? [...targetFiles.slice(0, 5), '...', ...targetFiles.slice(-5)] : targetFiles;
         displayList.forEach((f, i) => f === '...' ? console.log('   ...') : console.log(chalk.gray(` [${i + 1}] ${getRelPath(f)}`)));
-        console.log(chalk.cyan(`\n⚡ 以 32 并发启动处理...\n`));
+        console.log(chalk.cyan(`\n⚡ 以 16 并发启动处理...\n`));
     }
 
     const total = targetFiles.length;
@@ -147,6 +147,9 @@ async function main() {
                 const content = fs.readFileSync(filePath, 'utf-8');
                 const title = extractTitle(content) || path.basename(filePath, '.md');
                 const headings = extractHeadings(content);
+
+                
+                console.log(`${chalk.green('✔')} ${logPrefix()} ${chalk.white(relPath)} 任务开始 ${filePath}`);
                 
                 const fmMatch = content.match(/^---\s*[\s\S]*?---\s*/);
                 const pureContent = fmMatch ? content.slice(fmMatch[0].length).trimStart() : content;
