@@ -13,6 +13,7 @@ trigger: always_on
 **功能**：提供目录扫描、标题提取、内容预览等功能，帮助快速了解文档结构和内容概要。
 
 **使用场景**：
+
 - 快速浏览整个文档库的标题分布
 - 检查文档命名规范
 - 生成文档目录索引
@@ -24,12 +25,14 @@ trigger: always_on
 - 判断文档是否符合写作规范
 
 **工具说明**：
+
 - `dir_h1.js`：遍历 `docs` 文件夹下的所有 `.md` 文件，输出每个文件的第一个 H1 标题
 - `file_headings.js`：提取指定文件的所有标题（所有 `#` 开头的行），并在前面加上行号
 - `file_prelimit.js`：输出文件内容的前 1000 个字符（计算字数时不含空行和空格，但输出包含），用于快速预览文档内容
 - `file_split.js`：将文件按照 20000 个字符分割成多个临时文件，便于处理大型文档
 
 **命令格式**：
+
 ```bash
 node scripts/skills/read/dir_h1.js
 node scripts/skills/read/file_headings.js <file_path>
@@ -42,15 +45,18 @@ node scripts/skills/read/file_split.js <file_path>
 **功能**：能够执行 lint 检查、修复错别字和格式问题，确保文章符合项目规范。
 
 **使用场景**：
+
 - 检查 Markdown 文件的排版格式
 - 修复错别字、严重的病句
 - 纠正低级错误（手误、公式错误、运算错误等）
 - 确保文章符合项目规范
 
 **工具说明**：
+
 - `review.js`：主要的审查工具，支持 lint 和 diff 命令
 
 **命令格式**：
+
 ```bash
 # 对指定文件进行排版检查
 node scripts/skills/review/review.js lint -- --file <file_path>
@@ -60,6 +66,7 @@ node scripts/skills/review/review.js diff
 ```
 
 **审查流程**：
+
 1. 执行 lint 命令检查文件
 2. 查看生成的 `<file_path>.log` 文件获取详细报告
 3. 手动复查并修复错误和警告
@@ -68,6 +75,7 @@ node scripts/skills/review/review.js diff
 6. 重新执行 lint 确保修改没有引入新的格式错误
 
 **特殊说明**：
+
 - 图片引用中的中英文连续问题不需要修改
 - 代码块中的文字问题可酌情忽略
 - 需要修复中文之间多余空格的问题
@@ -110,3 +118,5 @@ node scripts/skills/review/review.js diff
 2. 严格遵循 `styleguide.md` 规范
 3. 深度理解内容，纠正实质性错误
 4. 反复检查，确保修改没有引入新的问题、确认所有修改都符合规范
+
+进行审阅时要忽略 `dev/supplement/*` `dev/finished/*` `.agents` `.clinerules` `.gemini` `.kilo` `.kilocode` `.qwen` 和 .gitignore 里面的等，这些 patterns。

@@ -15,31 +15,39 @@ const workflowsDir = path.resolve(__dirname, 'workflows');
 
 // 目标目录常量（保留并扩展自用户要求）
 const styleguideTargets = [
-    path.resolve(__dirname, '../.agent/rules/styleguide.md'),
+    path.resolve(__dirname, '../.agents/rules/styleguide.md'),
     path.resolve(__dirname, '../.clinerules/styleguide.md'),
     path.resolve(__dirname, '../.gemini/styleguide.md'),
-    path.resolve(__dirname, '../.kilocode/rules/styleguide.md')
+    path.resolve(__dirname, '../.kilocode/rules/styleguide.md'),
+    path.resolve(__dirname, '../.kilo/rules/styleguide.md'),
+    path.resolve(__dirname, '../.qwen/rules/styleguide.md')
 ];
 
 const skillsTargets = [
-    path.resolve(__dirname, '../.agent/skills'),
+    path.resolve(__dirname, '../.agents/skills'),
     path.resolve(__dirname, '../.clinerules/skills'),
     path.resolve(__dirname, '../.gemini/skills'),
-    path.resolve(__dirname, '../.kilocode/skills')
+    path.resolve(__dirname, '../.kilocode/skills'),
+    path.resolve(__dirname, '../.kilo/skills'),
+    path.resolve(__dirname, '../.qwen/skills')
 ];
 
 const rulesTargets = [
-    path.resolve(__dirname, '../.agent/rules'),
+    path.resolve(__dirname, '../.agents/rules'),
     path.resolve(__dirname, '../.clinerules'),
     path.resolve(__dirname, '../.gemini'),
-    path.resolve(__dirname, '../.kilocode/rules')
+    path.resolve(__dirname, '../.kilocode/rules'),
+    path.resolve(__dirname, '../.kilo/rules'),
+    path.resolve(__dirname, '../.qwen/rules')
 ];
 
 const workflowsTargets = [
-    path.resolve(__dirname, '../.agent/workflows'),
+    path.resolve(__dirname, '../.agents/workflows'),
     path.resolve(__dirname, '../.clinerules/workflows'),
     path.resolve(__dirname, '../.gemini/workflows'),
-    path.resolve(__dirname, '../.kilocode/workflows')
+    path.resolve(__dirname, '../.kilocode/workflows'),
+    path.resolve(__dirname, '../.kilo/workflows'),
+    path.resolve(__dirname, '../.qwen/workflows')
 ];
 
 /**
