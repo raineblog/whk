@@ -42,7 +42,7 @@ const client = new OpenAI({
     baseURL: 'https://integrate.api.nvidia.com/v1',
 });
 
-const DOCS_DIR = path.resolve(__dirname, '../docs');
+const DOCS_DIR = path.resolve(__dirname, '../../docs');
 const TARGET_SUBDIRS = ['science'];
 const EXCLUDE_DIRS = ['blog', 'home', 'cultural'];
 const EXCLUDE_FILES = [path.join(DOCS_DIR, 'index.md')];
