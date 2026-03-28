@@ -232,15 +232,15 @@ async function main() {
                 const totalTok = usage.total_tokens;
                 const tps = (outTok / dur).toFixed(1);
 
-                console.log(`${chalk.green('✔')} ${logPrefix()} ${chalk.white(relPath)}`);
+                console.log(`${chalk.green('✔')} ${completed} ${chalk.white(relPath)}`);
                 console.log(chalk.dim(`    Usage: ${totalTok} Tok (In:${inTok} Out:${outTok} Think:${thinkTok}) | Time: ${dur.toFixed(1)}s | ${tps} Tok/s`));
                 break;
             } catch (e) {
                 if (attempt === MAX_RETRIES) {
-                    console.log(`${chalk.red('✘')} ${logPrefix()} ${chalk.red(relPath)} - 彻底失败: ${e.message}`);
+                    console.log(`${chalk.red('✘')} ${completed} ${chalk.red(relPath)} - 彻底失败: ${e.message}`);
                 } else {
-                    console.log(`${chalk.red('？')} ${logPrefix()} ${chalk.red(relPath)} - 重试第 ${attempt} 次`);
-                    await new Promise(r => setTimeout(r, 5000));
+                    console.log(`${chalk.red('？')} ${completed} ${chalk.red(relPath)} - 重试第 ${attempt} 次`);
+                    await new Promise(r => setTimeout(r, 10000));
                 }
             }
         }
