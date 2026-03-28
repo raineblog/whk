@@ -49,7 +49,7 @@ const EXCLUDE_FILES = [path.join(DOCS_DIR, 'index.md')];
 
 const limiter = new Bottleneck({
     minTime: 1000,
-    maxConcurrent: 20
+    maxConcurrent: 32
 });
 
 function extractTitle(content) {
@@ -128,7 +128,7 @@ async function main() {
         console.log(chalk.dim('任务列表概览:'));
         const displayList = targetFiles.length > 10 ? [...targetFiles.slice(0, 5), '...', ...targetFiles.slice(-5)] : targetFiles;
         displayList.forEach((f, i) => f === '...' ? console.log('   ...') : console.log(chalk.gray(` [${i + 1}] ${getRelPath(f)}`)));
-        console.log(chalk.cyan(`\n⚡ 以 20 并发启动处理...\n`));
+        console.log(chalk.cyan(`\n⚡ 以 32 并发启动处理...\n`));
     }
 
     const total = targetFiles.length;
@@ -153,7 +153,10 @@ async function main() {
 
                 const completion = await client.chat.completions.create({
                     model: 'Qwen/Qwen3.5-4B',
-                    temperature: 0.7,
+                    temperature: 0.3,
+                    max_tokens: 262144,
+                    enable_thinking: true,
+                    thinking_budget: 32768,
                     messages: [
                         { 
                             role: 'system', 
@@ -212,7 +215,7 @@ async function main() {
                 const thinkTok = usage.completion_tokens_details?.reasoning_tokens || 0;
                 const outTok = usage.completion_tokens - thinkTok; 
                 const totalTok = usage.total_tokens;
-                const tps = (totalTok / dur).toFixed(1);
+                const tps = (usage.completion_tokens / dur).toFixed(1);
 
                 console.log(`${chalk.green('✔')} ${logPrefix()} ${chalk.white(relPath)}`);
                 console.log(chalk.dim(`    Usage: ${totalTok} Tok (In:${inTok} Out:${outTok} Think:${thinkTok}) | Time: ${dur.toFixed(1)}s | ${tps} Tok/s`));
