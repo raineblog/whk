@@ -143,25 +143,6 @@ def main():
             except subprocess.CalledProcessError as e:
                 print(f"[ERROR] 构建失败: {e}")
                 sys.exit(1)
-
-            print("[GULP] 执行 gulp --input-dir site --output-dir dist...")
-            try:
-                subprocess.run(
-                    ["gulp", "--input-dir", "site", "--output-dir", "dist"], check=True
-                )
-                print("[GULP] gulp 处理完成！")
-            except subprocess.CalledProcessError as e:
-                print(f"[ERROR] gulp 执行失败: {e}")
-                sys.exit(1)
-
-            print("[POST] 替换 site 目录为 dist...")
-            try:
-                shutil.rmtree("site")
-                shutil.move("dist", "site")
-                print("[POST] 目录替换完成！")
-            except Exception as e:
-                print(f"[ERROR] 目录替换失败: {e}")
-                sys.exit(1)
         elif args.serve:
             print(f"🚀 启动 {' '.join(cmd_prefix)} mkdocs serve (端口: {args.port})...")
             try:

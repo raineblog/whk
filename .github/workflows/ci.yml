@@ -87,6 +87,13 @@ jobs:
             echo "should_deploy=false" >> $GITHUB_OUTPUT
           fi
   
+      - name: Gulp Post-processing
+        if: steps.deploy_check.outputs.should_deploy == 'true'
+        run: |
+          npx gulp --input-dir site --output-dir dist
+          rm -rf site
+          mv dist site
+
       - name: Push to Branch
         if: steps.deploy_check.outputs.should_deploy == 'true'
         uses: peaceiris/actions-gh-pages@v4
