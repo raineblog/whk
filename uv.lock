@@ -666,7 +666,7 @@ wheels = [
 [[package]]
 name = "mkdocs-document-dates"
 version = "3.7.1"
-source = { git = "https://github.com/raineblog/mkdocs-document-dates.git#ad5a274d281a093fee2a1ef3aa38f9b3b9497dd9" }
+source = { git = "https://github.com/raineblog/mkdocs-document-dates.git#d196387ee42c4bd43a60ec7bdd09a222b7a934a6" }
 dependencies = [
     { name = "mkdocs" },
 ]
