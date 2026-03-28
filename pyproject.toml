@@ -5,7 +5,6 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "cairosvg>=2.9.0",
     "httpx[http2]>=0.28.1",
     "jinja2>=3.1.6",
     "mkdocs-advanced-seo>=1.0.3",
@@ -13,11 +12,11 @@ dependencies = [
     "mkdocs-glightbox>=0.5.2",
     "mkdocs-katex-ssr",
     "mkdocs-llmstxt>=0.5.0",
-    "mkdocs-material[imaging]",
+    "mkdocs-material[imaging]>=9.7.6",
+    "mkdocs-materialx[imaging]>=10.1.0",
     "mkdocs-minify-html-plugin>=0.3.10",
     "mkdocs-rss-plugin>=1.17.9",
     "mkdocs-table-reader-plugin>=3.1.0",
-    "pillow>=12.1.1",
     "properdocs>=1.6.7",
     "pyyaml>=6.0.3",
     "requests>=2.33.0",
@@ -25,7 +24,6 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-mkdocs-material = { git = "https://github.com/raineblog/mkdocs-material.git" }
 mkdocs-document-dates = { git = "https://github.com/raineblog/mkdocs-document-dates.git" }
 mkdocs-katex-ssr = { git = "https://github.com/raineblog/mkdocs-katex-ssr.git" }
 

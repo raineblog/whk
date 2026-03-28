@@ -1,0 +1,10 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% if "giscus" in config.extra %}
+  {% set giscus = config.extra.giscus %}
+  <div id="__comments" class="giscus" data-no-instant></div>
+  <script>function load_giscus(){document$.subscribe((({body:t})=>{var e=document.createElement("script");e.src="https://giscus.app/client.js",e.setAttribute("data-repo","{{ giscus.data_repo }}"),e.setAttribute("data-repo-id","{{ giscus.data_repo_id }}"),e.setAttribute("data-category","Announcements"),e.setAttribute("data-category-id","{{ giscus.data_category_id }}"),e.setAttribute("data-mapping","pathname"),e.setAttribute("data-strict","1"),e.setAttribute("data-reactions-enabled","1"),e.setAttribute("data-emit-metadata","0"),e.setAttribute("data-input-position","top"),e.setAttribute("data-theme","preferred_color_scheme"),e.setAttribute("data-lang","zh-CN"),e.setAttribute("data-loading","lazy"),e.crossOrigin="anonymous",e.async=!0;var a=__md_get("__palette");if(a&&"object"==typeof a.color){var s="slate"===a.color.scheme?"transparent_dark":"light";e.setAttribute("data-theme",s)}document.head.appendChild(e)})),document.querySelector("[data-md-component=palette]").addEventListener("change",(function(){var t=__md_get("__palette");if(t&&"object"==typeof t.color){var e="slate"===t.color.scheme?"transparent_dark":"light",a=document.querySelector(".giscus-frame");a&&a.contentWindow&&a.contentWindow.postMessage({giscus:{setConfig:{theme:e}}},"https://giscus.app")}}))}</script>
+{% else %}
+  <script>function load_giscus(){console.log("no giscus setup")}</script>
+{% endif %}

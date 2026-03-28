@@ -367,3 +367,4 @@ web_cache
 *.tmp
 
 svg_downloads/
+properdocs.yml
