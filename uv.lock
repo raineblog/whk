@@ -666,7 +666,7 @@ wheels = [
 [[package]]
 name = "mkdocs-document-dates"
 version = "3.7.1"
-source = { git = "https://github.com/raineblog/mkdocs-document-dates.git#3468585f12066cddaa1838cc7d49269647158dfe" }
+source = { git = "https://github.com/raineblog/mkdocs-document-dates.git#ad5a274d281a093fee2a1ef3aa38f9b3b9497dd9" }
 dependencies = [
     { name = "mkdocs" },
 ]
@@ -726,7 +726,7 @@ wheels = [
 [[package]]
 name = "mkdocs-material"
 version = "9.7.6"
-source = { git = "https://github.com/raineblog/mkdocs-material.git#b07ff302a97ca3c576b1dd547bed6baa42332b5a" }
+source = { git = "https://github.com/raineblog/mkdocs-material.git#71a35df522bd5e8b0d4a9c16a3b21edebdb5b8e3" }
 dependencies = [
     { name = "babel" },
     { name = "backrefs" },
