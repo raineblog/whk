@@ -209,8 +209,8 @@ async function main() {
                 const taskEnd = performance.now();
                 const dur = (taskEnd - taskStart) / 1000;
                 const inTok = usage.prompt_tokens;
-                const outTok = usage.completion_tokens;
-                const thinkTok = usage.completion_details?.reasoning_tokens || 0;
+                const thinkTok = usage.completion_tokens_details?.reasoning_tokens || 0;
+                const outTok = usage.completion_tokens - thinkTok; 
                 const totalTok = usage.total_tokens;
                 const tps = (totalTok / dur).toFixed(1);
 
