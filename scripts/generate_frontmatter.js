@@ -38,8 +38,8 @@ if (argv.help) {
 }
 
 const client = new OpenAI({
-    apiKey: process.env.SILICONFLOW_API,
-    baseURL: 'https://api.siliconflow.cn/v1',
+    apiKey: process.env.Routeway_API_KEY,
+    baseURL: 'https://api.routeway.ai/v1',
 });
 
 const DOCS_DIR = path.resolve(__dirname, '../docs');
@@ -48,7 +48,7 @@ const EXCLUDE_DIRS = ['blog', 'home', 'cultural'];
 const EXCLUDE_FILES = [path.join(DOCS_DIR, 'index.md')];
 
 const limiter = new Bottleneck({
-    minTime: 1000,
+    minTime: 100,
     maxConcurrent: 16
 });
 
@@ -155,11 +155,11 @@ async function main() {
                 const pureContent = fmMatch ? content.slice(fmMatch[0].length).trimStart() : content;
 
                 const completion = await client.chat.completions.create({
-                    model: 'Qwen/Qwen3.5-4B',
-                    temperature: 0.3,
-                    max_tokens: 262144,
+                    model: 'nemotron-3-nano-30b-a3b:free',
+                    temperature: 0.6,
+                    max_tokens: 256000,
                     enable_thinking: true,
-                    thinking_budget: 32768,
+                    reasoning_effort: 'xhigh',
                     messages: [
                         { 
                             role: 'system', 
@@ -190,7 +190,20 @@ async function main() {
   "tags": ["高中物理", "电磁学", "法拉第定律", "电磁感应", "楞次定律", "磁通量", "电动势", "能量守恒", "涡流"]
 }` 
                         },
-                        { role: 'user', content: `[ARTICLE CONTENT]\n${pureContent.substring(0, 15000)}\n\n[HEADINGS]\n${headings}` }
+                        { role: 'user', content: `[ARTICLE CONTENT]\n${pureContent}\n\n[HEADINGS]\n${headings}\n[REPEAT]基于文章正文及目录，完成内容提炼、语义索引与 SEO 元数据产出。
+
+## Logic Chain (CoT):
+1. **内容分解**: 识别核心学科、关键术语及技术深度。
+2. **场景匹配**: 分析文章对读者的实际价值点（学习指导、竞赛提分、应用工程）。
+3. **分维度创作**: 根据锁定字数约束，由简入深进行标题、摘要及描述的级联生成。
+4. **语义标记**: 提取“学科-内容-细节”层级的原子标签。
+
+## Output Specifications (STRICT):
+1. **title**: SEO 创意标题。20-25 汉字。必须包含 2-3 个核心关键词，增强搜索引擎点击率。
+2. **description**: 专业知识图谱。100-200 汉字。描述文章涉及的物理/数学原理、教学意义及跨学科关联。
+3. **summary**: 核心摘要短语。50-100 汉字。用于文章索引页或检索结果页。
+4. **tags**: 原子化标签阵列。严禁空格或多个术语合并为一个标签。例如：[高中物理, 电磁感应, 楞次定律]。
+5. **Format**: 仅输出标准 JSON 格式。` }
                     ],
                     stream: false,
                 });
@@ -215,11 +228,9 @@ async function main() {
                 const taskEnd = performance.now();
                 const dur = (taskEnd - taskStart) / 1000;
                 const inTok = usage.prompt_tokens;
-                const thinkTok = usage.completion_tokens_details?.reasoning_tokens || 0;
-                const outTok = usage.completion_tokens - thinkTok; 
+                const outTok = usage.completion_tokens; 
                 const totalTok = usage.total_tokens;
-                const completionTok = usage.completion_tokens;
-                const tps = (completionTok / dur).toFixed(1);
+                const tps = (outTok / dur).toFixed(1);
 
                 console.log(`${chalk.green('✔')} ${logPrefix()} ${chalk.white(relPath)}`);
                 console.log(chalk.dim(`    Usage: ${totalTok} Tok (In:${inTok} Out:${outTok} Think:${thinkTok}) | Time: ${dur.toFixed(1)}s | ${tps} Tok/s`));

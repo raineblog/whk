@@ -67,7 +67,7 @@ jobs:
       - name: Execute Frontmatter Generator
         run: node scripts/generate_frontmatter.js ${{ steps.flags.outputs.EXEC_FLAG }}
         env:
-          SILICONFLOW_API: ${{ secrets.SILICONFLOW_API }}
+          Routeway_API_KEY: ${{ secrets.Routeway_API_KEY }}
           CI: true
 
       - name: Commit and Push Changes
