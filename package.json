@@ -2,9 +2,13 @@
   "name": "whk",
   "private": true,
   "dependencies": {
-    "katex": "^0.16.40"
-  },
-  "devDependencies": {
+    "bottleneck": "^2.19.5",
+    "chalk": "4.1.2",
+    "dotenv": "^17.3.1",
+    "katex": "^0.16.44",
+    "minimist": "^1.2.8",
+    "openai": "^6.33.0",
+    "ora": "^5.4.1",
     "autocorrect-node": "^2.14.0",
     "markdownlint-cli2": "^0.21.0"
   }
