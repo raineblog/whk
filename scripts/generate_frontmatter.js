@@ -48,7 +48,7 @@ const EXCLUDE_DIRS = ['blog', 'home', 'cultural'];
 const EXCLUDE_FILES = [path.join(DOCS_DIR, 'index.md')];
 
 const limiter = new Bottleneck({
-    minTime: 3000,
+    minTime: 5000,
     maxConcurrent: 16
 });
 
