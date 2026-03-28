@@ -179,7 +179,7 @@ async function main() {
     - [维度 5: 目标群体] 如：理综学习、竞赛备考
 
 ## Instruction for Thinking Model:
-- 在输出 JSON 之前，请通过 <thought> 进行深入思考与字符计数。
+- 在输出 JSON 之前，请深入思考与字符计数。
 - 严禁出现空标签或空格连接的标签。
 - 严禁输出任何 JSON 以外的解释性文字。
 
