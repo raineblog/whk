@@ -5,13 +5,11 @@ const path = require('path');
  * onstart.js
  * 
  * 项目启动和 Git 提交时的自动化同步脚本。
- * 负责同步 AGENTS.md、skills、review、rules、workflows 到各个 agent 配置目录。
+ * 负责同步 AGENTS.md、skills、rules、workflows 到各个 agent 配置目录。
  */
 
 const sourceFile = path.resolve(__dirname, '../AGENTS.md');
-const reviewSourceFile = path.resolve(__dirname, '../REVIEW.md');
 const skillsDir = path.resolve(__dirname, 'skills');
-const reviewDir = path.resolve(__dirname, 'review');
 const rulesDir = path.resolve(__dirname, 'rules');
 const workflowsDir = path.resolve(__dirname, 'workflows');
 
@@ -30,14 +28,6 @@ const skillsTargets = [
     path.resolve(__dirname, '../.gemini/skills'),
     path.resolve(__dirname, '../.kilocode/skills'),
     path.resolve(__dirname, '../.kilo/skills'),
-];
-
-const reviewTargets = [
-    path.resolve(__dirname, '../.agents/review'),
-    path.resolve(__dirname, '../.clinerules/review'),
-    path.resolve(__dirname, '../.gemini/review'),
-    path.resolve(__dirname, '../.kilocode/review'),
-    path.resolve(__dirname, '../.kilo/review'),
 ];
 
 const rulesTargets = [
@@ -138,25 +128,7 @@ if (fs.existsSync(skillsDir)) {
     console.warn(`[onstart] Skills directory not found: ${skillsDir}`);
 }
 
-// 3. 同步 review 文件夹到各个 agent 目录
-if (fs.existsSync(reviewDir)) {
-    reviewTargets.forEach(targetBase => {
-        if (!fs.existsSync(targetBase)) {
-            fs.mkdirSync(targetBase, { recursive: true });
-        }
-        
-        try {
-            copyRecursiveSync(reviewDir, targetBase);
-            console.log(`[onstart] Successfully sync review to ${targetBase}`);
-        } catch (err) {
-            console.error(`[onstart] Failed to sync review to ${targetBase}: ${err.message}`);
-        }
-    });
-} else {
-    console.warn(`[onstart] Review directory not found: ${reviewDir}`);
-}
-
-// 4. 同步 rules 文件夹到各个 agent 目录
+// 3. 同步 rules 文件夹到各个 agent 目录
 if (fs.existsSync(rulesDir)) {
     const ruleFiles = fs.readdirSync(rulesDir).filter(file => {
         const fullPath = path.join(rulesDir, file);
@@ -183,7 +155,7 @@ if (fs.existsSync(rulesDir)) {
     console.warn(`[onstart] Rules directory not found: ${rulesDir}`);
 }
 
-// 5. 同步 workflows 文件夹到各个 agent 目录
+// 4. 同步 workflows 文件夹到各个 agent 目录
 if (fs.existsSync(workflowsDir)) {
     const workflowFiles = fs.readdirSync(workflowsDir).filter(file => {
         const fullPath = path.join(workflowsDir, file);
