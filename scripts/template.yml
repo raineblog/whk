@@ -1,5 +1,6 @@
 theme:
-    name: material
+    name: materialx
+    custom_dir: overrides/
     language: zh
     palette:
     -   media: '(prefers-color-scheme: light)'

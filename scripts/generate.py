@@ -56,8 +56,9 @@ def check_social_dependencies():
     try:
         import cairosvg
         from PIL import Image
+
         return True
-    except (ImportError, OSError, Exception):
+    except ImportError, OSError, Exception:
         return False
 
 
@@ -107,11 +108,13 @@ def main():
 
         # 确保 site_url 存在 (llmstxt 等插件需要)
         if not final_config.get("site_url"):
-            final_config["site_url"] = "https://example.com" # 临时默认值，通常会被覆盖
+            final_config["site_url"] = "https://example.com"  # 临时默认值，通常会被覆盖
 
         # 检查 social 插件依赖
         if not check_social_dependencies():
-            print("[PREBUILD] 未检测到 cairosvg 或 pillow (或相关库缺失)，自动禁用 social 插件。")
+            print(
+                "[PREBUILD] 未检测到 cairosvg 或 pillow (或相关库缺失)，自动禁用 social 插件。"
+            )
             if "plugins" in final_config:
                 new_plugins = []
                 for p in final_config["plugins"]:
@@ -122,33 +125,37 @@ def main():
                     new_plugins.append(p)
                 final_config["plugins"] = new_plugins
 
-        # 写入 mkdocs.yml
-        with open("mkdocs.yml", "w", encoding="utf-8") as f:
+        # 写入 properdocs.yml
+        with open("properdocs.yml", "w", encoding="utf-8") as f:
             yaml.dump(final_config, f, allow_unicode=True, indent=4, sort_keys=False)
-        
-        print("[PREBUILD] mkdocs.yml 已更新。")
+
+        print("[PREBUILD] properdocs.yml 已更新。")
 
         # 判断是否使用 uv
         use_uv = os.path.exists("uv.lock")
         cmd_prefix = ["uv", "run"] if use_uv else []
 
         if args.build:
-            print(f"[BUILD] 执行 {' '.join(cmd_prefix)} mkdocs build...")
+            print(f"[BUILD] 执行 {' '.join(cmd_prefix)} properdocs build...")
             try:
-                subprocess.run(cmd_prefix + ["mkdocs", "build"], check=True)
+                subprocess.run(cmd_prefix + ["properdocs", "build"], check=True)
                 print("[FINAL] 构建成功！")
             except subprocess.CalledProcessError as e:
                 print(f"[ERROR] 构建失败: {e}")
                 sys.exit(1)
         elif args.serve:
-            print(f"🚀 启动 {' '.join(cmd_prefix)} mkdocs serve (端口: {args.port})...")
-            try:
-                subprocess.run(cmd_prefix + ["mkdocs", "serve", "--dev-addr", f"0.0.0.0:{args.port}"], check=True)
-            except KeyboardInterrupt:
-                print("\n[FINAL] 服务已停止。")
-            except subprocess.CalledProcessError as e:
-                print(f"[ERROR] 服务启动失败: {e}")
-                sys.exit(1)
+            print(f"🚀 启动 {' '.join(cmd_prefix)} properdocs serve (端口: {args.port})...")
+            # try:
+            #     subprocess.run(
+            #         cmd_prefix
+            #         + ["mkdocs", "serve", "--dev-addr", f"0.0.0.0:{args.port}"],
+            #         check=True,
+            #     )
+            # except KeyboardInterrupt:
+            #     print("\n[FINAL] 服务已停止。")
+            # except subprocess.CalledProcessError as e:
+            #     print(f"[ERROR] 服务启动失败: {e}")
+            #     sys.exit(1)
 
     else:
         print("⚠️ 错误: 请指定要执行的操作，例如 --build 或 --serve")
