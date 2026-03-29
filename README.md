@@ -26,6 +26,8 @@
 
 > 人们习惯于赞美大地的厚重，却往往对破土而出的新芽感到不安，只因它打破了泥土固守的沉寂。生命最深沉的悲剧，莫过于被困在一种"不属于自己的真实"中，在嘈杂的反对声里日渐枯萎。然而，主观意志的意义，恰在于即便身处深渊，亦敢于否定造物者的疏忽。
 
+# 声明：我们正在探索 mkdocs 的替代方案，因为 mkdocs 2.0 暂时还有很大的争议。我们暂时切换到了 properdocs，后续处理仍在考虑中。
+
 ## 🌐 在线访问
 
 | 类型 | 链接 | 说明 |
@@ -82,7 +84,7 @@ docs/
 
 ### 开发工具
 
-- **包管理**: [uv](https://github.com/astral-sh/uv) (Python), [Bun](https://bun.sh/) (Node.js)
+- **包管理**: [uv](https://github.com/astral-sh/uv) (Python), npm (Node.js)
 - **代码检查**: markdownlint, autocorrect
 - **容器化**: Docker (使用自定义镜像 `ghcr.io/raineblog/mkdocs-docker`)
 
@@ -117,8 +119,10 @@ cd whk
 # 安装 Python 依赖
 uv sync --locked
 
-# 安装 Node.js 依赖
-bun install --frozen-lockfile
+# 安装 Node.js 依赖（按需安装）
+npm ci                           # 安装 build 依赖（katex）
+cd scripts/frontmatter && npm ci # 安装 frontmatter 依赖（如需生成元数据）
+cd scripts/review && npm ci      # 安装 review 依赖（如需运行审查工具）
 
 # 启动预览
 uv run scripts/generate.py --serve
