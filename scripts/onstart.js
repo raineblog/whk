@@ -5,7 +5,7 @@ const path = require('path');
  * onstart.js
  * 
  * 项目启动和 Git 提交时的自动化同步脚本。
- * 负责同步 AGENTS.md 和 skills 到各个 agent 配置目录。
+ * 负责同步 AGENTS.md、skills、rules、workflows 到各个 agent 配置目录。
  */
 
 const sourceFile = path.resolve(__dirname, '../AGENTS.md');
@@ -13,14 +13,13 @@ const skillsDir = path.resolve(__dirname, 'skills');
 const rulesDir = path.resolve(__dirname, 'rules');
 const workflowsDir = path.resolve(__dirname, 'workflows');
 
-// 目标目录常量（保留并扩展自用户要求）
+// 目标目录常量
 const styleguideTargets = [
     path.resolve(__dirname, '../.agents/rules/styleguide.md'),
     path.resolve(__dirname, '../.clinerules/styleguide.md'),
     path.resolve(__dirname, '../.gemini/styleguide.md'),
     path.resolve(__dirname, '../.kilocode/rules/styleguide.md'),
     path.resolve(__dirname, '../.kilo/rules/styleguide.md'),
-    path.resolve(__dirname, '../.qwen/rules/styleguide.md')
 ];
 
 const skillsTargets = [
@@ -29,7 +28,6 @@ const skillsTargets = [
     path.resolve(__dirname, '../.gemini/skills'),
     path.resolve(__dirname, '../.kilocode/skills'),
     path.resolve(__dirname, '../.kilo/skills'),
-    path.resolve(__dirname, '../.qwen/skills')
 ];
 
 const rulesTargets = [
@@ -38,7 +36,6 @@ const rulesTargets = [
     path.resolve(__dirname, '../.gemini'),
     path.resolve(__dirname, '../.kilocode/rules'),
     path.resolve(__dirname, '../.kilo/rules'),
-    path.resolve(__dirname, '../.qwen/rules')
 ];
 
 const workflowsTargets = [
@@ -47,7 +44,6 @@ const workflowsTargets = [
     path.resolve(__dirname, '../.gemini/workflows'),
     path.resolve(__dirname, '../.kilocode/workflows'),
     path.resolve(__dirname, '../.kilo/workflows'),
-    path.resolve(__dirname, '../.qwen/workflows')
 ];
 
 /**
@@ -67,6 +63,23 @@ function copyRecursiveSync(src, dest) {
         });
     } else {
         fs.copyFileSync(src, dest);
+    }
+}
+
+/**
+ * 递归删除目录
+ */
+function removeRecursiveSync(dir) {
+    if (fs.existsSync(dir)) {
+        fs.readdirSync(dir).forEach(file => {
+            const curPath = path.join(dir, file);
+            if (fs.lstatSync(curPath).isDirectory()) {
+                removeRecursiveSync(curPath);
+            } else {
+                fs.unlinkSync(curPath);
+            }
+        });
+        fs.rmdirSync(dir);
     }
 }
 
@@ -90,14 +103,12 @@ if (fs.existsSync(sourceFile)) {
 
 // 2. 同步 skills 文件夹到各个 agent 目录
 if (fs.existsSync(skillsDir)) {
-    // 过滤掉 onstart 自身（如果还在子目录中）或者其他不需要同步的目录
     const subdirs = fs.readdirSync(skillsDir).filter(file => {
         const fullPath = path.join(skillsDir, file);
         return fs.statSync(fullPath).isDirectory();
     });
 
     skillsTargets.forEach(targetBase => {
-        // 确保目标基础目录存在
         if (!fs.existsSync(targetBase)) {
             fs.mkdirSync(targetBase, { recursive: true });
         }
@@ -125,7 +136,6 @@ if (fs.existsSync(rulesDir)) {
     });
 
     rulesTargets.forEach(targetBase => {
-        // 确保目标基础目录存在
         if (!fs.existsSync(targetBase)) {
             fs.mkdirSync(targetBase, { recursive: true });
         }
@@ -153,7 +163,6 @@ if (fs.existsSync(workflowsDir)) {
     });
 
     workflowsTargets.forEach(targetBase => {
-        // 确保目标基础目录存在
         if (!fs.existsSync(targetBase)) {
             fs.mkdirSync(targetBase, { recursive: true });
         }
