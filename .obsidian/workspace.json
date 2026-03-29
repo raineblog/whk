@@ -1,0 +1,290 @@
+{
+  "main": {
+    "id": "cfe4a11b3611d8ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "a81d297925b8cc0d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36b858f7befc002e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/supplement/有机补充.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "有机补充"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "37c1d1e1516621ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d72f20090907b93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da8280f9cead28b2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "583ca8fe23505d3b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "例题",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "cac26ce12ca4ba74",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "38cb36edb55d5700",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "recent-files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "419157be38259a7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb92fcd8ee26e45b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19199a12e6623db9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "dev/supplement/聚合物单体补充例题.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "聚合物单体补充例题 的反向链接列表"
+            }
+          },
+          {
+            "id": "2bf58370a876af27",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "dev/supplement/聚合物单体补充例题.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "聚合物单体补充例题 的出链列表"
+            }
+          },
+          {
+            "id": "0583d5d4d7ce839a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "ebdd10956c57d7ff",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "a73f3b8e0735f6ec",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "dev/supplement/聚合物单体补充例题.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "聚合物单体补充例题 的大纲"
+            }
+          },
+          {
+            "id": "aae2e2fdee877cfa",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "dev/supplement/二甲基烯酮.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "脚注"
+            }
+          },
+          {
+            "id": "b899de5b61fad57d",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
+          },
+          {
+            "id": "e7d3b3d9986651e0",
+            "type": "leaf",
+            "state": {
+              "type": "smart-lookup-view",
+              "state": {},
+              "icon": "smart-lookup",
+              "title": "Lookup"
+            }
+          },
+          {
+            "id": "12ee9b661749ac22",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-visualizer",
+              "state": {},
+              "icon": "git-fork",
+              "title": "Smart connections visualizer"
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "horizontal",
+    "width": 807.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "workspaces:管理工作区布局": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Lookup: Open lookup view": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "smart-connections-visualizer:Open smart connections visualizer": false
+    }
+  },
+  "active": "12ee9b661749ac22",
+  "lastOpenFiles": [
+    "dev/finished/arena-chat-菜籽油的生产真的要用轻汽油浸泡吗？干净吗？-2026-03-17T13-46-22-647Z.txt",
+    "dev/finished/arena-chat-从地理上，温度升高，气压一般是升高还是降低。如果是物理里面热力学-理想气体部分，说气温升高，默认是气压升高还是降-2026-03-17T13-48-16-702Z.txt",
+    "dev/finished/arena-chat-从有机化学、生物化学、临床等角度，以有机化学为主，详细讲解医用胶（医用黏合剂）。-2026-03-17T13-46-00-302Z.txt",
+    "dev/finished/医用胶.md.txt",
+    "dev/finished/arena-chat-关于矮壮素（一种植物生长调节剂），下列说法正确的有？__1. 施用一定浓度的矮壮素溶液后，棉花植株的高度会低于施-2026-03-17T13-48-34-762Z.txt",
+    "dev/finished/矮壮素.md",
+    "dev/finished/医用胶.md",
+    "dev/finished/气压在热力学中的变化.md",
+    "dev/finished/菜籽油.md",
+    "dev/finished/重构胚.md",
+    "dev/finished/有机拓展.md",
+    "dev/finished/细胞工程.md",
+    "dev/finished/脱毒和锻炼.md",
+    "dev/finished/官能团.md",
+    "dev/finished/共沸物.md",
+    "dev/finished/高分子.md",
+    "dev/finished/干涉.md",
+    "dev/finished/分子量.md",
+    "dev/finished/多倍体.md",
+    "dev/finished/电子效应.md",
+    "dev/finished/氮甲基甲酰胺.md",
+    "dev/finished/半缩醛.md",
+    "dev/finished/arena-chat-酯交换的机理是什么？说是取代反应对吗？-2026-03-17T13-45-58-620Z.txt",
+    "dev/finished/arena-chat-植物生长调节剂中，与植物激素结构不同，但是能起到特定效果的，是走了植物的后门 bug 吗？-2026-03-17T13-47-50-996Z.txt",
+    "dev/finished/arena-chat-这道生物题目中给出了 1-N_K 时间图像，时间为横轴，1-N_K 在图像第一象限是一个斜率为负数的直线，然后选-2026-03-17T13-50-17-809Z.txt",
+    "dev/finished/arena-chat-在小孔成像试验中，因为小孔的深度过大，导致像不完整，遂在空内塞满折射率为 $n$ 的透明材料，设物高为 $L$，-2026-03-17T13-46-00-923Z.txt",
+    "dev/finished/arena-chat-有机化学中有明确反应温度或温度范围、催化剂物质的反应有哪些？详细列举。-2026-03-17T13-49-39-763Z.txt",
+    "dev/finished/arena-chat-用稀释涂布法筛选高耐受、高性能的降解金霉素的菌株，用来处理含有大量金霉素的生物工程废水，下列实验室研究操作有哪些-2026-03-17T13-45-49-259Z.txt",
+    "dev/finished/补铁剂详细内容.md",
+    "dev/finished/硝基的检验.md",
+    "dev/finished/杂原子芳香环.md",
+    "dev/finished/有机化学经典反例.md",
+    "dev/finished/工业流程配位.md",
+    "dev/finished/价键拓展.md",
+    "dev/supplement/迭代放缩.md",
+    "docs/science/function/6.md"
+  ]
+}
