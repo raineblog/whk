@@ -1,0 +1,60 @@
+{
+  "recentFiles": [
+    {
+      "basename": "有机补充",
+      "path": "dev/supplement/有机补充.md"
+    },
+    {
+      "basename": "迭代放缩",
+      "path": "dev/supplement/迭代放缩.md"
+    },
+    {
+      "basename": "6",
+      "path": "docs/science/function/6.md"
+    },
+    {
+      "basename": "5",
+      "path": "docs/science/function/5.md"
+    },
+    {
+      "basename": "5",
+      "path": "docs/science/cell/5.md"
+    },
+    {
+      "basename": "1",
+      "path": "docs/science/cell/1.md"
+    },
+    {
+      "basename": "聚乙烯醇",
+      "path": "dev/supplement/聚乙烯醇.md"
+    },
+    {
+      "basename": "test",
+      "path": "node_modules/test.md"
+    },
+    {
+      "basename": "README",
+      "path": "node_modules/postcss-minify-font-values/README.md"
+    },
+    {
+      "basename": "二甲基烯酮",
+      "path": "dev/supplement/二甲基烯酮.md"
+    },
+    {
+      "basename": "4",
+      "path": "docs/science/polynomial/4.md"
+    },
+    {
+      "basename": "README",
+      "path": "node_modules/caniuse-api/README.md"
+    },
+    {
+      "basename": "聚合物单体补充例题",
+      "path": "dev/supplement/聚合物单体补充例题.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

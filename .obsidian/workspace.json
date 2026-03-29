@@ -1,0 +1,269 @@
+{
+  "main": {
+    "id": "cfe4a11b3611d8ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "a81d297925b8cc0d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36b858f7befc002e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/supplement/有机补充.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "有机补充"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "37c1d1e1516621ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d72f20090907b93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da8280f9cead28b2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "583ca8fe23505d3b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "例题",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "cac26ce12ca4ba74",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "38cb36edb55d5700",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "recent-files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "419157be38259a7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb92fcd8ee26e45b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19199a12e6623db9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "dev/supplement/聚合物单体补充例题.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "聚合物单体补充例题 的反向链接列表"
+            }
+          },
+          {
+            "id": "2bf58370a876af27",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "dev/supplement/聚合物单体补充例题.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "聚合物单体补充例题 的出链列表"
+            }
+          },
+          {
+            "id": "0583d5d4d7ce839a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "ebdd10956c57d7ff",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "a73f3b8e0735f6ec",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "dev/supplement/聚合物单体补充例题.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "聚合物单体补充例题 的大纲"
+            }
+          },
+          {
+            "id": "aae2e2fdee877cfa",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "dev/supplement/二甲基烯酮.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "脚注"
+            }
+          },
+          {
+            "id": "b899de5b61fad57d",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
+          },
+          {
+            "id": "e7d3b3d9986651e0",
+            "type": "leaf",
+            "state": {
+              "type": "smart-lookup-view",
+              "state": {},
+              "icon": "smart-lookup",
+              "title": "Lookup"
+            }
+          },
+          {
+            "id": "12ee9b661749ac22",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-visualizer",
+              "state": {},
+              "icon": "git-fork",
+              "title": "Smart connections visualizer"
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "horizontal",
+    "width": 807.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "workspaces:管理工作区布局": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Lookup: Open lookup view": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "smart-connections-visualizer:Open smart connections visualizer": false
+    }
+  },
+  "active": "36b858f7befc002e",
+  "lastOpenFiles": [
+    "dev/supplement/迭代放缩.md",
+    "docs/science/function/6.md",
+    "docs/science/function/5.md",
+    "docs/science/cell/5.md",
+    "docs/science/cell/1.md",
+    "dev/supplement/聚乙烯醇.md",
+    "node_modules/test.md",
+    "node_modules/postcss-minify-font-values/README.md",
+    "dev/supplement/二甲基烯酮.md",
+    "node_modules/新建 文本文档.txt",
+    "docs/science/polynomial/4.md",
+    "node_modules/caniuse-api/README.md",
+    "dev/supplement/聚合物单体补充例题.md",
+    "README.md",
+    "AGENTS.md"
+  ]
+}

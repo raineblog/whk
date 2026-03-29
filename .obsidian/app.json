@@ -1,0 +1,21 @@
+{
+  "strictLineBreaks": true,
+  "showLineNumber": true,
+  "autoPairBrackets": false,
+  "autoPairMarkdown": false,
+  "useTab": false,
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": false,
+  "readableLineLength": false,
+  "propertiesInDocument": "source",
+  "livePreview": true,
+  "defaultViewMode": "source",
+  "userIgnoreFilters": [
+    "overrides/",
+    "node_modules/",
+    "site/",
+    "scripts/",
+    "skills/",
+    "docs/assets/"
+  ]
+}
