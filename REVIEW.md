@@ -42,7 +42,7 @@ node scripts/review/review.js diff
 
 ## 排版规范引用
 
-审查时必须严格遵循 `scripts/rules/style-v2.md` 中定义的排版规范。主要包括：
+审查时必须严格遵循 `scripts/rules/style.md` 中定义的排版规范。主要包括：
 
 - 中英文、中文与数字之间需要增加空格
 - 使用全角中文标点

@@ -63,7 +63,7 @@ node scripts/review/review.js diff
 
 ## 排版规范
 
-所有文档必须遵循 `scripts/rules/style-v2.md` 中定义的排版规范。
+所有文档必须遵循 `scripts/rules/style.md` 中定义的排版规范。
 
 ## 工作流程
 
@@ -76,6 +76,6 @@ node scripts/review/review.js diff
 
 1. 阅读 `REVIEW.md` 了解详细审查规则
 2. 使用 `review` skill 进行格式检查
-3. 严格遵循 `style-v2.md` 规范
+3. 严格遵循 `style.md` 规范
 4. 深度理解内容，纠正实质性错误
 5. 反复检查，确保修改没有引入新的问题
