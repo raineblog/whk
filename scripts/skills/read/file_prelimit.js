@@ -88,9 +88,6 @@ function previewFile(filePath) {
             }
 
             charCount += nonSpaceChars;
-            }
-
-            charCount += nonSpaceChars;
             result.push(`[${lineNumber}] ${line}`);
         }
 

@@ -1,12 +1,72 @@
 {
   "recentFiles": [
     {
+      "basename": "补铁剂详细内容",
+      "path": "dev/finished/补铁剂详细内容.md"
+    },
+    {
       "basename": "迭代放缩",
-      "path": "dev/supplement/迭代放缩.md"
+      "path": "dev/finished/迭代放缩.md"
+    },
+    {
+      "basename": "二甲基烯酮",
+      "path": "dev/finished/二甲基烯酮.md"
+    },
+    {
+      "basename": "辅助函数构造范式",
+      "path": "dev/finished/辅助函数构造范式.md"
+    },
+    {
+      "basename": "官能团",
+      "path": "dev/finished/官能团.md"
+    },
+    {
+      "basename": "泰勒展开",
+      "path": "dev/finished/泰勒展开.md"
+    },
+    {
+      "basename": "锰拓展",
+      "path": "dev/finished/锰拓展.md"
+    },
+    {
+      "basename": "热力学补充",
+      "path": "dev/finished/热力学补充.md"
+    },
+    {
+      "basename": "多倍体",
+      "path": "dev/finished/多倍体.md"
+    },
+    {
+      "basename": "共沸物",
+      "path": "dev/finished/共沸物.md"
+    },
+    {
+      "basename": "硝基的检验",
+      "path": "dev/finished/硝基的检验.md"
+    },
+    {
+      "basename": "细胞融合思维实验",
+      "path": "dev/finished/细胞融合思维实验.md"
+    },
+    {
+      "basename": "有机化学经典反例",
+      "path": "dev/finished/有机化学经典反例.md"
+    },
+    {
+      "basename": "重构胚",
+      "path": "dev/finished/重构胚.md"
+    },
+    {
+      "basename": "愈伤组织",
+      "path": "dev/finished/愈伤组织.md"
+    },
+    {
+      "basename": "20251210",
+      "path": "dev/other/数列/20251210.md"
     },
     {
       "basename": "有机补充",
-      "path": "dev/supplement/有机补充.md"
+      "path": "dev/finished/有机补充.md"
     },
     {
       "basename": "6",
@@ -26,7 +86,7 @@
     },
     {
       "basename": "聚乙烯醇",
-      "path": "dev/supplement/聚乙烯醇.md"
+      "path": "聚乙烯醇.md"
     },
     {
       "basename": "test",
@@ -35,10 +95,6 @@
     {
       "basename": "README",
       "path": "node_modules/postcss-minify-font-values/README.md"
-    },
-    {
-      "basename": "二甲基烯酮",
-      "path": "dev/supplement/二甲基烯酮.md"
     },
     {
       "basename": "4",
@@ -50,7 +106,7 @@
     },
     {
       "basename": "聚合物单体补充例题",
-      "path": "dev/supplement/聚合物单体补充例题.md"
+      "path": "聚合物单体补充例题.md"
     }
   ],
   "omittedPaths": [],
