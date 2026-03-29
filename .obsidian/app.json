@@ -7,7 +7,7 @@
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": false,
   "readableLineLength": false,
-  "propertiesInDocument": "source",
+  "propertiesInDocument": "visible",
   "livePreview": true,
   "defaultViewMode": "source",
   "userIgnoreFilters": [

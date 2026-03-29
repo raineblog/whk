@@ -1,5 +1,5 @@
 {
-  "relevanceScoreThreshold": 0.35,
+  "relevanceScoreThreshold": 0.2,
   "nodeSize": 4,
   "linkThickness": 0.3,
   "repelForce": 400,

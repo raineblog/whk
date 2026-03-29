@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7796e9a59a270d14",
+        "id": "a4f7042fa704a4e0",
         "type": "tabs",
         "children": [
           {
-            "id": "ba5c2d1f530b6845",
+            "id": "fa717daa5e3a02dd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/finished/补铁剂详细内容.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "补铁剂详细内容"
+              "title": "新标签页"
             }
           }
         ]
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "例题",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +76,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -190,9 +176,7 @@
             "type": "leaf",
             "state": {
               "type": "footnotes",
-              "state": {
-                "file": "dev/supplement/二甲基烯酮.md"
-              },
+              "state": {},
               "icon": "lucide-file-signature",
               "title": "脚注"
             }
@@ -228,7 +212,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -248,8 +232,13 @@
       "smart-connections-visualizer:Open smart connections visualizer": false
     }
   },
-  "active": "b899de5b61fad57d",
+  "active": "aae2e2fdee877cfa",
   "lastOpenFiles": [
+    "docs/science/reaction/1.md",
+    "docs/science/reaction/2.md",
+    "docs/science/reaction/3.md",
+    "dev/finished/酸酐.md",
+    "dev/finished/补铁剂详细内容.md",
     "dev/finished/迭代放缩.md",
     "dev/finished/二甲基烯酮.md",
     "dev/finished/辅助函数构造范式.md",
@@ -276,11 +265,6 @@
     "dev/finished/气压在热力学中的变化.md",
     "dev/finished/菜籽油.md",
     "dev/finished/有机拓展.md",
-    "dev/finished/细胞工程.md",
-    "dev/finished/脱毒和锻炼.md",
-    "dev/finished/高分子.md",
-    "dev/finished/干涉.md",
-    "dev/finished/分子量.md",
     "dev/finished/arena-chat-酯交换的机理是什么？说是取代反应对吗？-2026-03-17T13-45-58-620Z.txt",
     "dev/finished/arena-chat-植物生长调节剂中，与植物激素结构不同，但是能起到特定效果的，是走了植物的后门 bug 吗？-2026-03-17T13-47-50-996Z.txt",
     "dev/finished/arena-chat-这道生物题目中给出了 1-N_K 时间图像，时间为横轴，1-N_K 在图像第一象限是一个斜率为负数的直线，然后选-2026-03-17T13-50-17-809Z.txt",
