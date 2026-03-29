@@ -20,7 +20,7 @@ const styleguideTargets = [
     path.resolve(__dirname, '../.gemini/styleguide.md'),
     path.resolve(__dirname, '../.kilocode/rules/styleguide.md'),
     path.resolve(__dirname, '../.kilo/rules/styleguide.md'),
-    path.resolve(__dirname, '../.qwen/rules/styleguide.md')
+    // path.resolve(__dirname, '../.qwen/rules/styleguide.md')
 ];
 
 const skillsTargets = [
@@ -29,7 +29,7 @@ const skillsTargets = [
     path.resolve(__dirname, '../.gemini/skills'),
     path.resolve(__dirname, '../.kilocode/skills'),
     path.resolve(__dirname, '../.kilo/skills'),
-    path.resolve(__dirname, '../.qwen/skills')
+    // path.resolve(__dirname, '../.qwen/skills')
 ];
 
 const rulesTargets = [
@@ -38,7 +38,7 @@ const rulesTargets = [
     path.resolve(__dirname, '../.gemini'),
     path.resolve(__dirname, '../.kilocode/rules'),
     path.resolve(__dirname, '../.kilo/rules'),
-    path.resolve(__dirname, '../.qwen/rules')
+    // path.resolve(__dirname, '../.qwen/rules')
 ];
 
 const workflowsTargets = [
@@ -47,7 +47,7 @@ const workflowsTargets = [
     path.resolve(__dirname, '../.gemini/workflows'),
     path.resolve(__dirname, '../.kilocode/workflows'),
     path.resolve(__dirname, '../.kilo/workflows'),
-    path.resolve(__dirname, '../.qwen/workflows')
+    // path.resolve(__dirname, '../.qwen/workflows')
 ];
 
 /**
