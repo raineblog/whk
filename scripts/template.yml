@@ -1,3 +1,4 @@
+strict: true
 theme:
     name: materialx
     custom_dir: overrides/
@@ -139,6 +140,8 @@ plugins:
             - unpkg.com/*
             - cdn.jsdelivr.net/*
             - esm.sh/*
+            - q1.qlogo.cn/*
+            - deepwiki.com/badge.svg
         links_attr_map:
             target: _blank
 -   social:
