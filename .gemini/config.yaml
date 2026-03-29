@@ -1,6 +1,7 @@
 have_fun: false
-ignore_patterns: |
-  dev/supplement/*
-  dev/finished/*
+ignore_patterns:
+  - dev/supplement/*
+  - dev/finished/*
+  - .smart-env/*
 code_review:
   comment_severity_threshold: LOW
