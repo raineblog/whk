@@ -569,7 +569,6 @@ $\ce{3H2 + WO3 ->[高温] W + 3H2O}$
 - 贵重金属、高熔点金属常用铝热反应或与钠单质熔融还原制得。## 氧化还原反应
 
 $$
-\gdef\val#1#2{\overset{#2}{\ce{#1}}}
 \textrm{This page intentionally left blank.}
 $$
 

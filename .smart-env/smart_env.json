@@ -9,7 +9,7 @@
     "embed_model": {
       "adapter": "transformers",
       "transformers": {
-        "model_key": "onnx-community/embeddinggemma-300m-ONNX"
+        "model_key": "Xenova/multilingual-e5-small"
       }
     },
     "excluded_headings": "",

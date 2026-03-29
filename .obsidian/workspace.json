@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a81d297925b8cc0d",
+        "id": "919436f2a2d80661",
         "type": "tabs",
         "children": [
           {
-            "id": "36b858f7befc002e",
+            "id": "f3544f6c6a839b2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/supplement/有机补充.md",
+                "file": "dev/other/数列/20251210.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "有机补充"
+              "title": "20251210"
             }
           }
         ]
@@ -228,7 +228,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -248,8 +248,9 @@
       "smart-connections-visualizer:Open smart connections visualizer": false
     }
   },
-  "active": "12ee9b661749ac22",
+  "active": "e7d3b3d9986651e0",
   "lastOpenFiles": [
+    "dev/supplement/有机补充.md",
     "dev/finished/arena-chat-菜籽油的生产真的要用轻汽油浸泡吗？干净吗？-2026-03-17T13-46-22-647Z.txt",
     "dev/finished/arena-chat-从地理上，温度升高，气压一般是升高还是降低。如果是物理里面热力学-理想气体部分，说气温升高，默认是气压升高还是降-2026-03-17T13-48-16-702Z.txt",
     "dev/finished/arena-chat-从有机化学、生物化学、临床等角度，以有机化学为主，详细讲解医用胶（医用黏合剂）。-2026-03-17T13-46-00-302Z.txt",
@@ -277,7 +278,6 @@
     "dev/finished/arena-chat-这道生物题目中给出了 1-N_K 时间图像，时间为横轴，1-N_K 在图像第一象限是一个斜率为负数的直线，然后选-2026-03-17T13-50-17-809Z.txt",
     "dev/finished/arena-chat-在小孔成像试验中，因为小孔的深度过大，导致像不完整，遂在空内塞满折射率为 $n$ 的透明材料，设物高为 $L$，-2026-03-17T13-46-00-923Z.txt",
     "dev/finished/arena-chat-有机化学中有明确反应温度或温度范围、催化剂物质的反应有哪些？详细列举。-2026-03-17T13-49-39-763Z.txt",
-    "dev/finished/arena-chat-用稀释涂布法筛选高耐受、高性能的降解金霉素的菌株，用来处理含有大量金霉素的生物工程废水，下列实验室研究操作有哪些-2026-03-17T13-45-49-259Z.txt",
     "dev/finished/补铁剂详细内容.md",
     "dev/finished/硝基的检验.md",
     "dev/finished/杂原子芳香环.md",

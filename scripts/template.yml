@@ -94,6 +94,7 @@ plugins:
                 "\\pH": "p\\ce{H}"
                 "\\pOH": "p\\ce{OH}"
                 "\\con": "\\left[\\ce{#1}\\right]" # 化学计量 一般表示摩尔浓度
+                "\\val": "\\overset{#2}{\\ce{#1}}"
                 # 下面都是一些不标准的 Unicode 转移
                 "’": "'"
                 "，": ","
