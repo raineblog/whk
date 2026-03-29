@@ -1,12 +1,10 @@
----
-trigger: always_on
----
-
 # 人工智能代理指南
 
-## 可用技能
+## 概述
 
-本项目提供了以下技能（skills）供人工智能使用：
+本项目提供了多种技能（skills）供人工智能使用。AI Review 的详细规则请参考 `REVIEW.md`。
+
+## 可用技能
 
 ### 1. read - Markdown 文件读取与分析工具集
 
@@ -51,59 +49,21 @@ node scripts/skills/read/file_split.js <file_path>
 - 纠正低级错误（手误、公式错误、运算错误等）
 - 确保文章符合项目规范
 
-**工具说明**：
-
-- `review.js`：主要的审查工具，支持 lint 和 diff 命令
-
 **命令格式**：
 
 ```bash
 # 对指定文件进行排版检查
-node scripts/skills/review/review.js lint -- --file <file_path>
+node scripts/review/review.js lint -- --file <file_path>
 
 # 查看待提交 Markdown 文件的变更及其潜在排版问题
-node scripts/skills/review/review.js diff
+node scripts/review/review.js diff
 ```
 
-**审查流程**：
+**详细规则**：请参考 `REVIEW.md`。
 
-1. 执行 lint 命令检查文件
-2. 查看生成的 `<file_path>.log` 文件获取详细报告
-3. 手动复查并修复错误和警告
-4. 重复执行 lint 直到没有能够修复的错误
-5. 阅读整个文章，修复错别字、严重的病句等
-6. 重新执行 lint 确保修改没有引入新的格式错误
+## 排版规范
 
-**特殊说明**：
-
-- 图片引用中的中英文连续问题不需要修改
-- 代码块中的文字问题可酌情忽略
-- 需要修复中文之间多余空格的问题
-- 请严格按照 4 空格缩进有无序列表等
-
-## AI Review 规则
-
-当人工智能执行 review 任务时，必须：
-
-1. **使用 review skill**：通过 `node scripts/skills/review/review.js lint -- --file <file_path>` 进行检查
-2. **严格遵循 styleguide.md 规范**：所有修改必须符合 `scripts/rules/styleguide.md` 中定义的排版规范
-3. **深度理解文章内容**：不仅修复格式问题，还要理解文章内容，纠正实质性的错误
-4. **确保修改质量**：修复后需要重新运行 lint 检查，确保没有引入新的问题
-
-## 排版规范摘要
-
-根据 `scripts/rules/styleguide.md` 的要求，主要包括：
-
-- 中英文、中文与数字之间需要增加空格
-- 使用全角中文标点
-- 数字使用半角字符
-- 不使用过多重复的标点符号
-- 公式与正文之间必须有空行
-- 列表项之间必须有空行
-- 所有缩进必须用四个空格，不能用 TAB
-- 一级标题只能有一个
-- 最多使用三级标题作为文档的目录
-- 数学公式内尽量避免使用中文
+所有文档必须遵循 `scripts/rules/style-v2.md` 中定义的排版规范。
 
 ## 工作流程
 
@@ -114,9 +74,8 @@ node scripts/skills/review/review.js diff
 
 ### 文档审查
 
-1. 使用 `review` skill 进行格式检查
-2. 严格遵循 `styleguide.md` 规范
-3. 深度理解内容，纠正实质性错误
-4. 反复检查，确保修改没有引入新的问题、确认所有修改都符合规范
-
-进行审阅时要忽略 `dev/supplement/*` `dev/finished/*` `.agents` `.clinerules` `.gemini` `.kilo` `.kilocode` `.qwen` 和 .gitignore 里面的等，这些 patterns。
+1. 阅读 `REVIEW.md` 了解详细审查规则
+2. 使用 `review` skill 进行格式检查
+3. 严格遵循 `style-v2.md` 规范
+4. 深度理解内容，纠正实质性错误
+5. 反复检查，确保修改没有引入新的问题
