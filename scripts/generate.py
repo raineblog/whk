@@ -125,26 +125,26 @@ def main():
                     new_plugins.append(p)
                 final_config["plugins"] = new_plugins
 
-        # 写入 properdocs.yml
-        with open("properdocs.yml", "w", encoding="utf-8") as f:
+        # 写入 mkpandocs.yml
+        with open("mkpandocs.yml", "w", encoding="utf-8") as f:
             yaml.dump(final_config, f, allow_unicode=True, indent=4, sort_keys=False)
 
-        print("[PREBUILD] properdocs.yml 已更新。")
+        print("[PREBUILD] mkpandocs.yml 已更新。")
 
         # 判断是否使用 uv
         use_uv = os.path.exists("uv.lock")
         cmd_prefix = ["uv", "run"] if use_uv else []
 
         if args.build:
-            print(f"[BUILD] 执行 {' '.join(cmd_prefix)} properdocs build...")
+            print(f"[BUILD] 执行 {' '.join(cmd_prefix)} mkpandocs build...")
             try:
-                subprocess.run(cmd_prefix + ["properdocs", "build"], check=True)
+                subprocess.run(cmd_prefix + ["mkpandocs", "build", "--dirty"], check=True)
                 print("[FINAL] 构建成功！")
             except subprocess.CalledProcessError as e:
                 print(f"[ERROR] 构建失败: {e}")
                 sys.exit(1)
         elif args.serve:
-            print(f"🚀 启动 {' '.join(cmd_prefix)} properdocs serve (端口: {args.port})...")
+            print(f"🚀 启动 {' '.join(cmd_prefix)} mkpandocs serve (端口: {args.port})...")
             # try:
             #     subprocess.run(
             #         cmd_prefix

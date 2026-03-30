@@ -1,23 +1,21 @@
-strict: true
+# strict: true
 theme:
     name: materialx
     custom_dir: overrides/
     language: zh
     palette:
-    -   media: '(prefers-color-scheme: light)'
-        scheme: default
-        primary: white
-        accent: red
-        toggle:
-            icon: material/weather-sunny
-            name: 切换到暗色模式
-    -   media: '(prefers-color-scheme: dark)'
-        scheme: slate
-        primary: blue
-        accent: blue
-        toggle:
-            icon: material/weather-night
-            name: 切换到亮色模式
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
     features:
     - navigation.tracking
     - navigation.indexes
@@ -41,6 +39,11 @@ theme:
         repo: fontawesome/brands/git-alt
         edit: material/pencil
         view: material/eye
+pandoc_args:
+  - --citeproc
+  - --wrap=none
+  - --katex
+  # - '--filter "uv run filters\pandoc_static_katex.py"'
 plugins:
 - meta
 - tags
@@ -55,65 +58,65 @@ plugins:
 - table-reader
         # https://github.com/timvink/mkdocs-table-reader-plugin
         # 在 Markdown 里面用这个引入 csv（是否是一个好习惯？
--   katex-ssr: # 自己做的插件
-        verbose: true
-        katex_dist: "https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/"
-        add_katex_css: true
-        katex_css_filename: "katex-swap.min.css"
-        ssr_contribs:
-            - mhchem
-            - render-a11y-string
-        client_scripts:
-            - copy-tex
-        katex_options:
-            macros:
-                # 下面是一些符号的兼容性定义
-                "\\RR": "\\mathbb{R}"
-                "\\i": "\\mathrm{i}"
-                "\\d": "\\mathrm{d}"
-                "\\C": "\\mathbb{C}"
-                "\\R": "\\mathbb{R}"
-                "\\Q": "\\mathbb{Q}"
-                "\\Z": "\\mathbb{Z}"
-                "\\N": "\\mathbb{N}"
-                "\\P": "\\mathbb{P}"
-                "\\degree": "^\\circ"
-                "\\rank": "\\operatorname{rank}" # 矩阵的秩
-                # 下面是一些简写的定义
-                "\\op": "\\operatorname"
-                "\\paren": "\\left({#1}\\right)"
-                "\\bracket": "\\left[{#1}\\right]"
-                "\\brace": "\\left\\{{#1}\\right\\}"
-                "\\ceil": "\\left\\lceil{#1}\\right\\rceil"
-                "\\floor": "\\left\\lfloor{#1}\\right\\rfloor"
-                "\\vert": "\\left\\lvert{#1}\\right\\rvert"
-                "\\vec": "\\bm" # 默认使用粗体表示向量
-                "\\vecc": "\\overrightarrow" # 默认使用上标箭头表示有向线段
-                # 下面是一些文化课用的定义
-                "\\poly": "\\ce{-\\!\\!\\![ #1 ]_n\\!\\!\\!\\!\\!-}" # 有机化学 聚合物
-                "\\el": "#1\\mathrm{#2}^{#3}" # 结构化学 能级
-                "\\pH": "p\\ce{H}"
-                "\\pOH": "p\\ce{OH}"
-                "\\con": "\\left[\\ce{#1}\\right]" # 化学计量 一般表示摩尔浓度
-                "\\val": "\\overset{#2}{\\ce{#1}}"
-                # 下面都是一些不标准的 Unicode 转移
-                "’": "'"
-                "，": ","
-                "。": "."
-                "；": ";"
-                "：": ":"
-                "！": "!"
-                "？": "?"
-                "【": "["
-                "】": "]"
-                "（": "("
-                "）": ")"
-                "、": ","
-                "—": "-"
-                "…": "\\dots"
-                "·": "\\cdot"
-                "->": "\\to"
-                "<-": "\\gets"
+# -   katex-ssr: # 自己做的插件
+#         verbose: true
+#         katex_dist: "https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/"
+#         add_katex_css: true
+#         katex_css_filename: "katex-swap.min.css"
+#         ssr_contribs:
+#             - mhchem
+#             - render-a11y-string
+#         client_scripts:
+#             - copy-tex
+#         katex_options:
+#             macros:
+#                 # 下面是一些符号的兼容性定义
+#                 "\\RR": "\\mathbb{R}"
+#                 "\\i": "\\mathrm{i}"
+#                 "\\d": "\\mathrm{d}"
+#                 "\\C": "\\mathbb{C}"
+#                 "\\R": "\\mathbb{R}"
+#                 "\\Q": "\\mathbb{Q}"
+#                 "\\Z": "\\mathbb{Z}"
+#                 "\\N": "\\mathbb{N}"
+#                 "\\P": "\\mathbb{P}"
+#                 "\\degree": "^\\circ"
+#                 "\\rank": "\\operatorname{rank}" # 矩阵的秩
+#                 # 下面是一些简写的定义
+#                 "\\op": "\\operatorname"
+#                 "\\paren": "\\left({#1}\\right)"
+#                 "\\bracket": "\\left[{#1}\\right]"
+#                 "\\brace": "\\left\\{{#1}\\right\\}"
+#                 "\\ceil": "\\left\\lceil{#1}\\right\\rceil"
+#                 "\\floor": "\\left\\lfloor{#1}\\right\\rfloor"
+#                 "\\vert": "\\left\\lvert{#1}\\right\\rvert"
+#                 "\\vec": "\\bm" # 默认使用粗体表示向量
+#                 "\\vecc": "\\overrightarrow" # 默认使用上标箭头表示有向线段
+#                 # 下面是一些文化课用的定义
+#                 "\\poly": "\\ce{-\\!\\!\\![ #1 ]_n\\!\\!\\!\\!\\!-}" # 有机化学 聚合物
+#                 "\\el": "#1\\mathrm{#2}^{#3}" # 结构化学 能级
+#                 "\\pH": "p\\ce{H}"
+#                 "\\pOH": "p\\ce{OH}"
+#                 "\\con": "\\left[\\ce{#1}\\right]" # 化学计量 一般表示摩尔浓度
+#                 "\\val": "\\overset{#2}{\\ce{#1}}"
+#                 # 下面都是一些不标准的 Unicode 转移
+#                 "’": "'"
+#                 "，": ","
+#                 "。": "."
+#                 "；": ";"
+#                 "：": ":"
+#                 "！": "!"
+#                 "？": "?"
+#                 "【": "["
+#                 "】": "]"
+#                 "（": "("
+#                 "）": ")"
+#                 "、": ","
+#                 "—": "-"
+#                 "…": "\\dots"
+#                 "·": "\\cdot"
+#                 "->": "\\to"
+#                 "<-": "\\gets"
 -   document-dates:
         # https://jaywhj.netlify.app/document-dates-zh
         position: bottom
@@ -169,14 +172,14 @@ plugins:
         preserve_chevron_percent_template_syntax: true
         remove_bangs: true
         remove_processing_instructions: true
--   blog:
-        blog_toc: true
-        post_date_format: long
-        post_excerpt: required
-        post_readtime: false
-        archive_name: Archive
-        authors_profiles: true
-        categories: false
+# -   blog:
+#         blog_toc: true
+#         post_date_format: long
+#         post_excerpt: required
+#         post_readtime: false
+#         archive_name: Archive
+#         authors_profiles: true
+#         categories: false
 -   rss:
     # https://guts.github.io/mkdocs-rss-plugin/
         abstract_chars_count: 500
@@ -198,43 +201,43 @@ plugins:
             所有（包含上面两类）:
             - index.md
             - "*/**/*.md"
-markdown_extensions:
-- abbr
-- admonition
-- attr_list
-- def_list
-- footnotes
-- md_in_html
-- tables
--   toc:
-        permalink: false
-        toc_depth: 4
--   pymdownx.arithmatex:
-        generic: true
-- pymdownx.caret
-- pymdownx.keys
-- pymdownx.mark
-- pymdownx.tilde
-- pymdownx.betterem
-- pymdownx.blocks.admonition
-- pymdownx.blocks.details
-- pymdownx.blocks.caption
-- pymdownx.blocks.tab
--   pymdownx.highlight:
-        anchor_linenums: true
-        line_spans: __span
-        pygments_lang_class: true
-        linenums: true
-- pymdownx.inlinehilite
--   pymdownx.snippets:
-        auto_append:
-            - docs/includes/abbreviations.md
-- pymdownx.superfences
-- pymdownx.magiclink
-- pymdownx.smartsymbols
-- pymdownx.tasklist
--   pymdownx.tabbed:
-        alternate_style: true
+# markdown_extensions:
+# - abbr
+# - admonition
+# - attr_list
+# - def_list
+# - footnotes
+# - md_in_html
+# - tables
+# -   toc:
+#         permalink: false
+#         toc_depth: 4
+# -   pymdownx.arithmatex:
+#         generic: true
+# - pymdownx.caret
+# - pymdownx.keys
+# - pymdownx.mark
+# - pymdownx.tilde
+# - pymdownx.betterem
+# - pymdownx.blocks.admonition
+# - pymdownx.blocks.details
+# - pymdownx.blocks.caption
+# - pymdownx.blocks.tab
+# -   pymdownx.highlight:
+#         anchor_linenums: true
+#         line_spans: __span
+#         pygments_lang_class: true
+#         linenums: true
+# - pymdownx.inlinehilite
+# -   pymdownx.snippets:
+#         auto_append:
+#             - docs/includes/abbreviations.md
+# - pymdownx.superfences
+# - pymdownx.magiclink
+# - pymdownx.smartsymbols
+# - pymdownx.tasklist
+# -   pymdownx.tabbed:
+#         alternate_style: true
 watch:
   - docs/includes
 exclude_docs: |
