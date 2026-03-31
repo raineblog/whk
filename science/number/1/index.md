@@ -2,7 +2,7 @@
 
 ## 例题 1
 
-$$\\begin{cases}5x-11y \\geq -22 \\ 2x+3y \\geq 9 \\ 2x \\leq 11\\end{cases}$$
+⎩⎨⎧​5x−11y≥−222x+3y≥92x≤11​
 
 $z = 10x + 10y, \\max{z} = $ ？
 
@@ -21,9 +21,9 @@ $z = 10x + 10y, \\max{z} = $ ？
 
 1. 画图，数形结合。
 
-   $$\\begin{cases}5x-11y \\geq -22 & \\displaystyle \\implies y \\leq \\frac{5}{11}x + \\frac{1}{2} & \\implies & \\displaystyle y = \\frac{5}{11}x + \\frac{1}{2}\\ 图像的下边 \\ 2x+3y \\geq 9 & \\displaystyle \\implies y \\geq -\\frac{2}{3}x + 3 & \\implies & \\displaystyle y = -\\frac{2}{3}x + 3\\ 图像的上边 \\ 2x \\leq 11 & \\displaystyle \\implies x \\leq \\frac{11}{2} & \\implies & \\displaystyle x=\\frac{11}{2}\\ 图像的左边 \\end{cases}$$
+   ⎩⎨⎧​5x−11y≥−222x+3y≥92x≤11​⟹y≤115​x+21​⟹y≥−32​x+3⟹x≤211​​⟹⟹⟹​y=115​x+21​ 图像的下边y=−32​x+3 图像的上边x=211​ 图像的左边​
 
-   在平面直角坐标系上画出对应的平面区域（可行域），再把目标函数 *z* = *a\*\*x* + *b\*\*y* 变形为 $\\displaystyle y=-\\frac{a}{b}x + \\frac{z}{b}$，$\\$ 所以求 *z* 的最值可看成是求直线 $\\displaystyle y=-\\frac{a}{b}x + \\frac{z}{b}$ 在 *y* 轴上截距的最值。以这题为例，$\\displaystyle z=10x+10y \\implies y= -x + \\frac{z}{10}$ 容易证明，当 *z* = 85 时 *y* 轴上截距取最值，所以 max *z* = 85.
+   在平面直角坐标系上画出对应的平面区域（可行域），再把目标函数 z=ax+by 变形为 y=−ba​x+bz​， 所以求 z 的最值可看成是求直线 y=−ba​x+bz​ 在 y 轴上截距的最值。以这题为例，z=10x+10y⟹y=−x+10z​ 容易证明，当 z=85 时 y 轴上截距取最值，所以 maxz=85.
 
    !
 
@@ -31,37 +31,39 @@ $z = 10x + 10y, \\max{z} = $ ？
 
 ### 例题 2
 
-$$\\begin{cases}y \\geq x \\ x + y \\leq 2 \\ x \\geq a\\end{cases}$$
+⎩⎨⎧​y≥xx+y≤2x≥a​
 
 $(2x+y)*{\\mathrm{max}}=4(2x+y)*{\\mathrm{min}},\\ a= $ ?
 
-- 求 (2*x* + *y*)min：*x*min = *a* ⟹ *y*min = *a* ⟹ (2*x* + *y*)min = 3*a*
-- 求 (2*x* + *y*)max：$\\begin{cases}x-y\\leq 0 \\ x+y\\leq 2\\end{cases}\\xRightarrow{\\mathrm{Add\\ }} x\\leq 1\\implies y\\leq 1\\implies (2x+y)\_{\\mathrm{max}}=3$
-- $\\displaystyle 3=4\\times 3a\\implies a=\\frac{1}{4}$
+- 求 (2x+y)min​：xmin​=a⟹ymin​=a⟹(2x+y)min​=3a
+- 求 (2x+y)max​：{x−y≤0x+y≤2​Add ​x≤1⟹y≤1⟹(2x+y)max​=3
+- 3=4×3a⟹a=41​
 
 ### 例题 3（2024 九省联考 T14）
 
-$$\\begin{cases} 0\<a\<b\<c\<1 \\ b\\geq 2a \\ \\ \\ \\mathrm{or}\\ \\ \\ a+b\\leq 1 \\end{cases}$$
+{0\<a\<b\<c\<1b≥2a   or   a+b≤1​
 
-$\\max{\\set{b-a,c-b,1-c}}$ 的最小值 = ？
+# max{b−a,c−b,1−c} 的最小值
+
+？
 
 - 注意到 *c* 的约束条件是最少的，首先考虑消去它，得到
 
-$$\\max{\\set{b-a,c-b,1-c}}\\geq\\max{\\set{b-a,\\frac{1-b}{2}}}$$
+max{b−a,c−b,1−c}≥max{b−a,21−b​}
 
-当且仅当 $\\displaystyle c=\\frac{1+b}{2}$ 取等，消去 *c* 后把 *a* 看作 *x*，把 *b* 看作 *y* 得：
+当且仅当 c=21+b​ 取等，消去 c 后把 a 看作 x，把 b 看作 y 得：
 
-$$\\begin{cases}0\<x \\ x\<y \\ y\<1 \\ y\\geq 2x\\ \\ \\ \\mathrm{or}\\ \\ \\ x+y\\leq 1\\end{cases}$$
+⎩⎨⎧​0\<xx\<yy\<1y≥2x   or   x+y≤1​
 
 - 作出可行域：and 连接的区域之间取交，or 连接的区域之间取并。阴影部分即为可行域。
 
-图中 *y* ≥ 2*x*   *x* + *y* ≤ 1 两条解析式用红色标出。
+图中 y≥2x   x+y≤1 两条解析式用红色标出。
 
 !
 
 - 回到题目，要求 $\\displaystyle M=\\max{\\set{y-x,\\frac{1-y}{2}}}$，我们需要知道何时 *M* = *y* − *x*，何时 $\\displaystyle M=\\frac{1-y}{2}$.
 
-直接列方程 $\\displaystyle y-x=\\frac{1-y}{2}$ 可以得到 $\\displaystyle y=\\frac{2}{3}x+\\frac{1}{3}$，在图中作出这条直线，得到：
+直接列方程 y−x=21−y​ 可以得到 y=32​x+31​，在图中作出这条直线，得到：
 
 !
 

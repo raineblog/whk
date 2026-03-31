@@ -12,9 +12,9 @@
 - 按顺时针方向旋转形成的角叫做负角，其角度为负；
 - 终边相对于始边没有做任何旋转的角叫做零角，其角度为 0。
 
-为什么逆时针是正角？考虑点 (1, 0) 绕着 (0, 0) 转一个锐角：
+为什么逆时针是正角？考虑点 (1,0) 绕着 (0,0) 转一个锐角：
 
-得到的点 *A*(*x*, *y*) 一定满足 *x*, *y* > 0，因此定义逆时针为正角。
+得到的点 A(x,y) 一定满足 x,y>0，因此定义逆时针为正角。
 
 这样就把角的概念推向了任意角。
 
@@ -24,21 +24,21 @@
 
 定义正角的弧度为正、负角的弧度为负，零角的弧度为 0；
 
-如果半径为 *r* 的圆的圆心角 *α* 所对弧长为 *l* ，则：
+如果半径为 r 的圆的圆心角 α 所对弧长为 l ，则：
 
-$$ |\\alpha|=\\dfrac{l}{r} $$
+∣α∣=rl​
 
-与角 *α* 终边位置相同的角的集合很容易得出，为：
+与角 α 终边位置相同的角的集合很容易得出，为：
 
-{*φ* ∣ *φ* = *α* − 2*k\*\*π*, *k* ∈ ℤ}
+{φ∣φ=α−2kπ,k∈Z}
 
 ### 弧度与角度的转化
 
-关键是，180∘ = *π*，具体的：
+关键是，180∘=π，具体的：
 
-以度数表示的角，把数字乘以 $\\dfrac{\\pi}{180^\\circ}$ 便转换成弧度；
+以度数表示的角，把数字乘以 180∘π​ 便转换成弧度；
 
-以弧度表示的角，乘以 $\\dfrac{180^\\circ}{\\pi}$ 便转换成度数。
+以弧度表示的角，乘以 π180∘​ 便转换成度数。
 
 ## 三角函数的定义
 
@@ -46,23 +46,23 @@ $$ |\\alpha|=\\dfrac{l}{r} $$
 
 直角三角形只有锐角三角函数的定义。
 
-指定锐角 *θ*，可做出直角三角形，使一个内角为 *θ*：
+指定锐角 θ，可做出直角三角形，使一个内角为 θ：
 
-定义：正弦 sin *α* 表示 *α* 的对边与斜边的比值。
+定义：正弦 sinα 表示 α 的对边与斜边的比值。
 
-定义：余弦 cos *α* 表示 *α* 的邻边与斜边的比值。
+定义：余弦 cosα 表示 α 的邻边与斜边的比值。
 
-定义：正切 tan *α* 表示 *α* 的对边与邻边的比值。
+定义：正切 tanα 表示 α 的对边与邻边的比值。
 
 ### 用直角坐标系定义
 
-设点 *P*(*x*, *y*) 是平面直角坐标系 *x**O**y* 中的一点。
+设点 P(x,y) 是平面直角坐标系 xOy 中的一点。
 
-我们记 *θ* 是从 *x* 旋转到 *O\*\*P* 的角度，*r* 是 *O\*\*P* 长度。
+我们记 θ 是从 x 旋转到 OP 的角度，r 是 OP 长度。
 
 则：
 
-$$ \\begin{aligned} r=\\sqrt{x^2+y^2}\\ \\sin\\theta=\\frac{y}{r}\\ \\cos\\theta=\\frac{x}{r}\\ \\tan\\theta=\\frac{y}{x}\\ \\end{aligned} $$
+r=x2+y2​sinθ=ry​cosθ=rx​tanθ=xy​​
 
 这样可以定义任何角度的三角函数（除非当定义式无意义时）。
 
@@ -70,17 +70,17 @@ $$ \\begin{aligned} r=\\sqrt{x^2+y^2}\\ \\sin\\theta=\\frac{y}{r}\\ \\cos\\theta
 
 单位圆指半径为单位长度的圆。
 
-通常是平面直角坐标系中以 (0, 0) 为圆心、半径为 1 的圆。
+通常是平面直角坐标系中以 (0,0) 为圆心、半径为 1 的圆。
 
-单位圆上的点满足：*x*2 + *y*2 = 1，即毕达哥拉斯定理。
+单位圆上的点满足：x2+y2=1，即毕达哥拉斯定理。
 
-指定一角 *θ*，点 (1, 0) 旋转 *θ* 度得到的点 *A*(*x*, *y*)，那么：
+指定一角 θ，点 (1,0) 旋转 θ 度得到的点 A(x,y)，那么：
 
-$$ \\begin{aligned} x^2+y^2=1\\ \\sin\\theta=y\\ \\cos\\theta=x\\ \\tan\\theta=\\frac{y}{x}\\ \\end{aligned} $$
+x2+y2=1sinθ=ycosθ=xtanθ=xy​​
 
 ### 常见的三角函数定义
 
-$$ \\begin{aligned} \\tan\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}\\ \\cot\\alpha=\\frac{1}{\\tan\\alpha}\\ \\sec\\alpha=\\frac{1}{\\cos\\alpha}\\ \\csc\\alpha=\\frac{1}{\\sin\\alpha} \\end{aligned} $$
+tanα=cosαsinα​cotα=tanα1​secα=cosα1​cscα=sinα1​​
 
 ### 常见角度的三角函数
 
@@ -106,21 +106,21 @@ $$ \\begin{aligned} \\tan\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}\\ \\cot\\alp
 
 ### 正切函数及其性质
 
-定义域：{*x* ∣ *x* ≠ *k\*\*π* + *π*/2, *k* ∈ ℤ}；
+定义域：{x∣x=kπ+π/2,k∈Z}；
 
-值域：(−∞, +∞)
+值域：(−∞,+∞)
 
-周期性：*T* = *π*；
+周期性：T=π；
 
-单调性：在 (*k\*\*π* − *π*/2, *k\*\*π* + *π*/2) 单调递增。
+单调性：在 (kπ−π/2,kπ+π/2) 单调递增。
 
-对称性：奇函数，关于 (*k\*\*π*, 0), *k* ∈ ℤ 对称。
+对称性：奇函数，关于 (kπ,0),k∈Z 对称。
 
 ### 尼云定理
 
-尼云定理指出，在 0 ∼ 90∘ 范围内，如果正弦函数 sin  的自变量和因变量都要求是有理数，那么答案只有：
+尼云定理指出，在 0∼90∘ 范围内，如果正弦函数 sin 的自变量和因变量都要求是有理数，那么答案只有：
 
-$$ \\begin{aligned} \\sin0^\\circ&=0\\ \\sin30^\\circ&=1/2\\ \\sin90^\\circ&=1 \\end{aligned} $$
+sin0∘sin30∘sin90∘​=0=1/2=1​
 
 ## 正弦、余弦函数及其性质
 
@@ -135,9 +135,9 @@ $$ \\begin{aligned} \\sin0^\\circ&=0\\ \\sin30^\\circ&=1/2\\ \\sin90^\\circ&=1 \
 
 ### 周期性
 
-$$ \\begin{aligned} \\sin\\alpha=\\sin(\\alpha+2\\pi)\\ \\cos\\alpha=\\cos(\\alpha+2\\pi) \\end{aligned} $$
+sinα=sin(α+2π)cosα=cos(α+2π)​
 
-可知 sin 、cos  是最小正周期为 2*π* 的周期函数。
+可知 sin、cos 是最小正周期为 2π 的周期函数。
 
 ### 奇偶性
 
@@ -171,54 +171,54 @@ $$ \\begin{aligned} \\sin\\alpha=\\sin(\\alpha+2\\pi)\\ \\cos\\alpha=\\cos(\\alp
 
 ## 正弦曲线及其性质
 
-定义：正弦曲线，形如 *y* = *A*sin (*ω\*\*x* + *φ*)。
+定义：正弦曲线，形如 y=Asin(ωx+φ)。
 
-注意到 sin 、cos  其实都属于正弦曲线。
+注意到 sin、cos 其实都属于正弦曲线。
 
 ### 函数 *y* = *A*sin *x* 的性质
 
-我们发现这个操作其实就是对 *y* 轴的伸缩：
+我们发现这个操作其实就是对 y 轴的伸缩：
 
-若 *A* > 1，图像伸长；若 *A* \< 1，图像压缩；伸缩倍率为 *A*。
+若 A>1，图像伸长；若 A\<1，图像压缩；伸缩倍率为 A。
 
-也就是图像上任何一个点的纵坐标变成了原来的 *A* 倍。
+也就是图像上任何一个点的纵坐标变成了原来的 A 倍。
 
-其中 *A* 决定了函数上的点的纵坐标的变化幅度，我们称为振幅。
+其中 A 决定了函数上的点的纵坐标的变化幅度，我们称为振幅。
 
 ### 函数 *y* = sin (*x* + *φ*) 的性质
 
-我们发现这个操作其实就是对 *y* = sin *x* 图像的平移：
+我们发现这个操作其实就是对 y=sinx 图像的平移：
 
-若 *φ* > 0，图像向左平移；若 *φ* \< 0 图像向右平移；平移单位为 |*φ*|。
+若 φ>0，图像向左平移；若 φ\<0 图像向右平移；平移单位为 ∣φ∣。
 
-也就是点 *P*(*x*, sin *x*) 平移到了 *P*′(*x* − *φ*, sin *x*)。
+也就是点 P(x,sinx) 平移到了 P′(x−φ,sinx)。
 
-其中 *φ* 决定了初始时刻的位置，我们称为初相。
+其中 φ 决定了初始时刻的位置，我们称为初相。
 
 ### 函数 *y* = sin (*ω\*\*x*) 的性质
 
-我们发现这个操作其实就是对 *x* 轴的伸缩：
+我们发现这个操作其实就是对 x 轴的伸缩：
 
-若 *ω* > 1，图像压缩；若 *ω* \< 1，图像伸长；伸缩倍率为 1/*ω*。
+若 ω>1，图像压缩；若 ω\<1，图像伸长；伸缩倍率为 1/ω。
 
-也就是点 *P*(*x*, sin *x*) 平移到了 $P'\\left(\\dfrac{x}{\\omega},\\sin x\\right)$。
+也就是点 P(x,sinx) 平移到了 P′(ωx​,sinx)。
 
-其中 *ω* 决定了函数值的变化快慢，我们称为角速度。
+其中 ω 决定了函数值的变化快慢，我们称为角速度。
 
-由于 sin *x* 的最小正周期为 2*π*，因此 sin (*ω\*\*x*) 的最小正周期为：
+由于 sinx 的最小正周期为 2π，因此 sin(ωx) 的最小正周期为：
 
-$$ T=\\frac{2\\pi}{\\omega} $$
+T=ω2π​
 
 ### 函数 *y* = sin (*ω\*\*x* + *φ*) 的性质
 
 一下为作者以前写的文字，简单来说思想有两个：
 
-- 一切变换是对于 *x*, *y* 的且满足左加右减，上加下减。
-- *ω*, *φ* 可以统称为相位（初相和角速度）。
+- 一切变换是对于 x,y 的且满足左加右减，上加下减。
+- ω,φ 可以统称为相位（初相和角速度）。
 
 我们把上面两个操作合在一起，但是，顺序？我们来分析一下。
 
-考虑 *y* = sin *x* 平移 *φ* 和 *x* 轴伸缩 *ω* 这两个操作以不同的顺序会得到什么：
+考虑 y=sinx 平移 φ 和 x 轴伸缩 ω 这两个操作以不同的顺序会得到什么：
 
 - 先平移 *φ*，后 *x* 轴伸缩 *ω*：
   1. *y* = sin *x*
@@ -236,23 +236,23 @@ $$ T=\\frac{2\\pi}{\\omega} $$
   - 伸缩 *ω*′ 是 *y* = sin (*ω*′*ω\*\*x* + *φ*)，而不是 *y* = sin (*ω*′(*ω\*\*x* + *φ*))
   - 即，平移是对于 *x* 的操作，伸缩是对于传入函数的值的操作。
 
-注意到 *y* = sin (*ω\*\*x* + *φ*) 相当于 *y* = sin (*ω\*\*x*) 平移 $\\dfrac{\\varphi}{\\omega}$ 得到的，
+注意到 y=sin(ωx+φ) 相当于 y=sin(ωx) 平移 ωφ​ 得到的，
 
-这个函数过点 $P\\left(-\\dfrac{\\varphi}{\\omega},0\\right)$，而不是 *y* = sin (*ω\*\*x* + *ω\*\*φ*) 过 *P*′(−*φ*, 0)。
+这个函数过点 P(−ωφ​,0)，而不是 y=sin(ωx+ωφ) 过 P′(−φ,0)。
 
-据此，我们得出，从 *y* = sin *x* 变换到 *y* = sin (*ω\*\*x* + *φ*)，需要：
+据此，我们得出，从 y=sinx 变换到 y=sin(ωx+φ)，需要：
 
 - 先平移 *φ*，再对 *x* 轴伸缩 *ω*。
 
-因此可以得出，*P*(*x*, sin *x*) 平移到了 $P'\\left(\\dfrac{x-\\varphi}{\\omega},\\sin x\\right)$。
+因此可以得出，P(x,sinx) 平移到了 P′(ωx−φ​,sinx)。
 
 ### 正弦函数到 *y* = *A*sin (*ω\*\*x* + *φ*) 的变换
 
-其实就相当于对函数 *y* = sin (*ω\*\*x* + *φ*) 的 *y* 轴伸缩 *A* 倍。
+其实就相当于对函数 y=sin(ωx+φ) 的 y 轴伸缩 A 倍。
 
-注意到 *A* 只是对 *y* 轴的伸缩，因此可以在任意时间变换。
+注意到 A 只是对 y 轴的伸缩，因此可以在任意时间变换。
 
-注意到 *ω* 是对 *x* 轴的伸缩，因此需要在 *φ* 的变换之后（前文已述）。
+注意到 ω 是对 x 轴的伸缩，因此需要在 φ 的变换之后（前文已述）。
 
 当然上面说的是分别进行三个变换各一次的顺序，据此我们进行组合：
 
@@ -260,9 +260,9 @@ $$ T=\\frac{2\\pi}{\\omega} $$
 1. *x* 轴伸缩 *ω*；
 1. *y* 轴伸缩 *A*。
 
-可以从 *y* = sin *x* 得到 *y* = *A*sin (*ω\*\*x* + *φ*) 的组合有：
+可以从 y=sinx 得到 y=Asin(ωx+φ) 的组合有：
 
-(1, 2, 3), (1, 3, 2), (3, 1, 2)
+(1,2,3),(1,3,2),(3,1,2)
 
 三种方式。
 
@@ -296,23 +296,23 @@ PS：（其实也包括上文）
   - 伸缩倍率为 1/*ω*。
 - *φ* 表示初相，但是并不单独决定函数的位置。
 
-这个函数相当于函数 *y* = sin *x* 进行一定的操作（下面再说）。
+这个函数相当于函数 y=sinx 进行一定的操作（下面再说）。
 
-其中，点 *P*(*x*, sin *x*) 平移到了 $P\\left(\\dfrac{x-\\varphi}{\\omega},A\\sin x\\right)$。
+其中，点 P(x,sinx) 平移到了 P(ωx−φ​,Asinx)。
 
 ### 定义域和值域
 
 我们在这里统一说明正弦曲线的定义域和值域：
 
-定义域，ℝ；值域，\[−*A*, *A*\]。
+定义域，R；值域，[−A,A]。
 
-因此，sin 、cos  函数的值域就是 [−1, 1]。
+因此，sin、cos 函数的值域就是 [−1,1]。
 
 ### 最小正周期
 
 由于其进行的变换对最小正周期没有影响，因此：
 
-$$ T=\\frac{2\\pi}{\\omega} $$
+T=ω2π​
 
 ### 绘制简图
 
@@ -320,13 +320,13 @@ $$ T=\\frac{2\\pi}{\\omega} $$
 
 因此我们可以对于周期内的五个点（分为四个区间）画图：
 
-比如，最小正周期为 *π* 的，我们可以做出 \[0, *π*/4, *π*/2, 3*π*/4, *π*\] 五个点的图像。
+比如，最小正周期为 π 的，我们可以做出 [0,π/4,π/2,3π/4,π] 五个点的图像。
 
 然后用光滑的曲线连接，再根据周期性画出其他部位的图像即可。
 
 也可以先看出来在所求范围内，函数的极大、极小点在哪里。
 
-也就是正弦函数的最值点，求出传入函数的值中 *x* 对应多少。
+也就是正弦函数的最值点，求出传入函数的值中 x 对应多少。
 
 然后先把这些点画出来，再找三个或更多上述性质的点求解、画图。
 
@@ -334,25 +334,25 @@ $$ T=\\frac{2\\pi}{\\omega} $$
 
 可以用下面的方式：
 
-我们知道正弦函数的单增区间是 \[2*k\*\*π* − *π*/2, 2*k\*\*π* + *π*/2\]。
+我们知道正弦函数的单增区间是 [2kπ−π/2,2kπ+π/2]。
 
 意思是当传入正弦函数的值在这个区间内，函数值单增。
 
-因此可以把传入函数的值当做一个整体，对于 *y* = *A*sin (*ω\*\*x* + *φ*)：
+因此可以把传入函数的值当做一个整体，对于 y=Asin(ωx+φ)：
 
-2*k\*\*π* − *π*/2 ≤ *ω\*\*x* + *φ* ≤ 2*k\*\*π* + *π*/2
+2kπ−π/2≤ωx+φ≤2kπ+π/2
 
 就是单调区间，化简即可。
 
-单减区间是 \[2*k\*\*π* + *π*/2, 2*k\*\*π* + *π*\]，计算同理。
+单减区间是 [2kπ+π/2,2kπ+π]，计算同理。
 
-不过单减区间还有一个求法，就是单增区间的两个端点都加上 *T*/2。
+不过单减区间还有一个求法，就是单增区间的两个端点都加上 T/2。
 
 原理就是单增区间往右到下一个单增区间是单减的且长度是半周期。
 
 ### 极大、极小值
 
-对于整个图像的最值，就是函数的值域 \[−*A*, *A*\]。
+对于整个图像的最值，就是函数的值域 [−A,A]。
 
 对于一个区间的最值，可以有两个方法：
 
@@ -363,75 +363,75 @@ $$ T=\\frac{2\\pi}{\\omega} $$
 
 对称轴：最值点。
 
-正弦函数的最值点都可以表示为 *k\*\*π* + *π*/2, *k* ∈ ℤ，余弦函数不加 *π*/2。
+正弦函数的最值点都可以表示为 kπ+π/2,k∈Z，余弦函数不加 π/2。
 
 对称中心：零点。
 
-余弦函数的零点都可以表示为 *k\*\*π* + *π*/2, *k* ∈ ℤ，正弦函数不加 *π*/2。
+余弦函数的零点都可以表示为 kπ+π/2,k∈Z，正弦函数不加 π/2。
 
 ### 求正弦曲线解析式
 
-也就是求三个值：*A*、*ω*、*φ*。
+也就是求三个值：A、ω、φ。
 
-其中 *A* 只与函数的最值有关，因此我们可以求出来它，则 *A* 就是函数的最值。
+其中 A 只与函数的最值有关，因此我们可以求出来它，则 A 就是函数的最值。
 
-其次 *ω* 表示的是角速度，根据公式 *T* = 2*π*/*ω* 可以写出 *ω* = 2*π*/*T*。
+其次 ω 表示的是角速度，根据公式 T=2π/ω 可以写出 ω=2π/T。
 
-而 *T* 就是两个相邻极值点的距离的两倍、极值和零点的距离的四倍。
+而 T 就是两个相邻极值点的距离的两倍、极值和零点的距离的四倍。
 
-考虑 *φ*，易发现最好求的方法就是函数与 *y* 轴的交点 *y*|*x* = 0，那么就有
+考虑 φ，易发现最好求的方法就是函数与 y 轴的交点 y∣x=0​，那么就有
 
-*A*sin *φ* = *y*|*x* = 0
+Asinφ=y∣x=0​
 
 求解即可。其次我们可以用函数的最值点、零点等，列：
 
-*A*sin (*ω\*\*x*0 + *φ*) = *y*|*x* = *x*0
+Asin(ωx0​+φ)=y∣x=x0​​
 
-解方程时要注意 *φ* 的取值一般是 0 ≤ *φ* \< *T*，*A*、*ω* 的取值一般是正数。
+解方程时要注意 φ 的取值一般是 0≤φ\<T，A、ω 的取值一般是正数。
 
 ## 诱导公式
 
 ### 函数关于 2π 的周期性
 
-是 sin 、cos  的周期。
+是 sin、cos 的周期。
 
-$$ \\begin{aligned} \\sin(\\alpha+2\\pi)&=\\sin\\alpha\\ \\cos(\\alpha+2\\pi)&=\\cos\\alpha\\ \\tan(\\alpha+2\\pi)&=\\tan\\alpha \\end{aligned} $$
+sin(α+2π)cos(α+2π)tan(α+2π)​=sinα=cosα=tanα​
 
 ### 函数关于 π 的周期性
 
-是 tan 、cot  的周期。
+是 tan、cot 的周期。
 
-$$ \\begin{aligned} \\sin(\\alpha+\\pi)&=-\\sin\\alpha\\ \\cos(\\alpha+\\pi)&=-\\cos\\alpha\\ \\tan(\\alpha+\\pi)&=\\tan\\alpha \\end{aligned} $$
+sin(α+π)cos(α+π)tan(α+π)​=−sinα=−cosα=tanα​
 
 ### 函数的奇偶性
 
-奇函数：sin 、tan 、cot ，偶函数：cos 。
+奇函数：sin、tan、cot，偶函数：cos。
 
-$$ \\begin{aligned} \\sin(-\\alpha )&=-\\sin \\alpha\\ \\cos(-\\alpha )&=\\cos \\alpha\\ \\tan(-\\alpha )&=-\\tan \\alpha\\ \\end{aligned} $$
+sin(−α)cos(−α)tan(−α)​=−sinα=cosα=−tanα​
 
 ### 函数关于 y 轴的对称性
 
 用单位圆象限角理解。
 
-$$ \\begin{aligned} \\sin(\\pi-\\alpha)&=\\sin\\alpha\\ \\cos(\\pi-\\alpha)&=-\\cos\\alpha\\ \\tan(\\pi-\\alpha)&=-\\tan\\alpha \\end{aligned} $$
+sin(π−α)cos(π−α)tan(π−α)​=sinα=−cosα=−tanα​
 
 ### 余函数恒等式
 
 用单位圆象限角理解。
 
-$$ \\begin{aligned} \\sin(\\pi/2-\\alpha)&=\\cos\\alpha\\ \\cos(\\pi/2-\\alpha)&=\\sin\\alpha\\ \\tan(\\pi/2-\\alpha)&=\\cot\\alpha \\end{aligned} $$
+sin(π/2−α)cos(π/2−α)tan(π/2−α)​=cosα=sinα=cotα​
 
 ### 在直角三角形中的转换
 
 用单位圆象限角理解。
 
-$$ \\begin{aligned} \\sin \\left(\\pi/2+\\alpha\\right)&=\\cos\\alpha\\ \\cos \\left(\\pi/2+\\alpha\\right)&=-\\sin\\alpha\\ \\tan \\left(\\pi/2+\\alpha\\right)&=-\\cot\\alpha\\ \\end{aligned} $$
+sin(π/2+α)cos(π/2+α)tan(π/2+α)​=cosα=−sinα=−cotα​
 
 ### 综合：单位圆象限角
 
 上述所有式子有一个联系：
 
-$$ \\begin{aligned} \\sin(k\\pi/2\\pm\\alpha)&,k\\in\\mathbb{Z}\\ \\cos(k\\pi/2\\pm\\alpha)&,k\\in\\mathbb{Z}\\ \\tan(k\\pi/2\\pm\\alpha)&,k\\in\\mathbb{Z} \\end{aligned} $$
+sin(kπ/2±α)cos(kπ/2±α)tan(kπ/2±α)​,k∈Z,k∈Z,k∈Z​
 
 转换法则：
 
@@ -446,13 +446,13 @@ $$ \\begin{aligned} \\sin(k\\pi/2\\pm\\alpha)&,k\\in\\mathbb{Z}\\ \\cos(k\\pi/2\
 - 第三象限的 T 即是 Tangent（正切以及余切为正）。
 - 第四象限的 C 即是 Cosine（余弦以及正割为正）。
 
-常见化简方法：周期性（sin 、cos  是 2*π*，tan 、cot  是 *π*），奇偶性（sin 、tan 、cot  是奇函数，cos  是偶函数），出现 *π*/2 系列的要变符号，画出单位圆求解。
+常见化简方法：周期性（sin、cos 是 2π，tan、cot 是 π），奇偶性（sin、tan、cot 是奇函数，cos 是偶函数），出现 π/2 系列的要变符号，画出单位圆求解。
 
 ## 毕达哥拉斯三角恒等式
 
 ### 基础形式
 
-$$ \\begin{aligned} \\sin^2\\alpha+\\cos^2\\alpha=1 \\end{aligned} $$
+sin2α+cos2α=1​
 
 也称为三角函数的勾股定理。
 
@@ -460,11 +460,11 @@ $$ \\begin{aligned} \\sin^2\\alpha+\\cos^2\\alpha=1 \\end{aligned} $$
 
 根据上面的，易得：
 
-$$ \\begin{aligned} \\sin^2\\alpha&=1-\\cos^2\\alpha\\ \\cos^2\\alpha&=1-\\sin^2\\alpha \\end{aligned} $$
+sin2αcos2α​=1−cos2α=1−sin2α​
 
 开方，得：
 
-$$ \\begin{aligned} \\sin\\alpha&=\\pm\\sqrt{1-\\cos^2\\alpha}\\ \\cos\\alpha&=\\pm\\sqrt{1-\\sin^2\\alpha} \\end{aligned} $$
+sinαcosα​=±1−cos2α​=±1−sin2α​​
 
 一定要注意正负号，正负号由该角所在象限决定。
 
@@ -474,33 +474,33 @@ $$ \\begin{aligned} \\sin\\alpha&=\\pm\\sqrt{1-\\cos^2\\alpha}\\ \\cos\\alpha&=\
 
 ### 和差恒等式
 
-$$ \\begin{aligned} \\sin(\\alpha\\pm\\beta)&=\\sin\\alpha\\cos\\beta\\pm\\cos\\alpha\\sin\\beta\\ \\cos(\\alpha\\pm\\beta)&=\\cos\\alpha\\cos\\beta\\mp\\sin\\alpha\\sin\\beta\\ \\tan(\\alpha\\pm\\beta)&=\\frac{\\tan\\alpha\\pm\\tan\\beta}{1\\mp\\tan\\alpha\\tan\\beta} \\end{aligned} $$
+sin(α±β)cos(α±β)tan(α±β)​=sinαcosβ±cosαsinβ=cosαcosβ∓sinαsinβ=1∓tanαtanβtanα±tanβ​​
 
 注意正负号的对应。
 
 ### 二倍角公式
 
-$$ \\begin{aligned} \\sin2\\alpha&=2\\sin\\alpha\\cos\\alpha\\ \\cos2\\alpha&=\\cos^2\\alpha-\\sin^2\\alpha\\ &=1-2\\sin^2\\alpha\\ &=2\\cos^2\\alpha-1\\ \\tan2\\alpha&=\\frac{2\\tan\\alpha}{1-\\tan^2\\alpha} \\end{aligned} $$
+sin2αcos2αtan2α​=2sinαcosα=cos2α−sin2α=1−2sin2α=2cos2α−1=1−tan2α2tanα​​
 
 可以根据里面的结论推出降次公式。
 
 ### 三倍角公式
 
-$$ \\begin{aligned} \\sin3\\alpha&=3\\sin\\alpha-4\\sin^3\\alpha&&=4\\sin\\left(\\dfrac\\pi3-\\alpha\\right)\\sin\\alpha\\sin\\left(\\dfrac\\pi3+\\alpha\\right)\\ \\cos3\\alpha&=4\\cos^3\\alpha-3\\cos\\alpha&&=4\\cos\\left(\\dfrac\\pi3-\\alpha\\right)\\cos\\alpha\\cos\\left(\\dfrac\\pi3+\\alpha\\right)\\ \\end{aligned} $$
+sin3αcos3α​=3sinα−4sin3α=4cos3α−3cosα​​=4sin(3π​−α)sinαsin(3π​+α)=4cos(3π​−α)cosαcos(3π​+α)​
 
 下面的式子即为：
 
-cos 3*α* = 4cos (*α* − 60∘)cos *α*cos (*α* + 60∘)
+cos3α=4cos(α−60∘)cosαcos(α+60∘)
 
 正切同理，也可以用这个式子进行三次降幂。
 
-$$ \\cos 3\\theta=\\begin{vmatrix}\\cos\\theta & 1 & 0 \\ 1 & 2\\cos\\theta & 1 \\ 0 & 1 & 2\\cos\\theta\\end{vmatrix} $$
+cos3θ=​cosθ10​12cosθ1​012cosθ​​
 
-$$ \\sin 3\\theta=\\begin{vmatrix}\\sin\\theta & 0 & 0 \\ 0 & 2\\sin\\theta & 1 \\ 0 & 1 & 2\\cos\\theta\\end{vmatrix} $$
+sin3θ=​sinθ00​02sinθ1​012cosθ​​
 
-$$ \\cos n\\theta=\\begin{vmatrix} \\cos\\theta & 1 & 0 & \\cdots & 0 & 0 \\ 1 & 2\\cos\\theta & 1 & \\cdots & 0 & 0 \\ 0 & 1 & 2\\cos\\theta & \\cdots & 0 & 0 \\ \\vdots & \\vdots & \\vdots & \\ddots & \\vdots & \\vdots \\ 0 & 0 & 0 & \\cdots & 2\\cos\\theta & 1 \\ 0 & 0 & 0 & \\cdots & 1 & 2\\cos\\theta \\end{vmatrix} $$
+cosnθ=​cosθ10⋮00​12cosθ1⋮00​012cosθ⋮00​⋯⋯⋯⋱⋯⋯​000⋮2cosθ1​000⋮12cosθ​​
 
-$$ \\sin n\\theta=\\begin{vmatrix} \\sin\\theta & 0 & 0 & \\cdots & 0 & 0 \\ 0 & 2\\cos\\theta & 1 & \\cdots & 0 & 0 \\ 0 & 1 & 2\\cos\\theta & \\cdots & 0 & 0 \\ \\vdots & \\vdots & \\vdots & \\ddots & \\vdots & \\vdots \\ 0 & 0 & 0 & \\cdots & 2\\cos\\theta & 1 \\ 0 & 0 & 0 & \\cdots & 1 & 2\\cos\\theta \\end{vmatrix} $$
+sinnθ=​sinθ00⋮00​02cosθ1⋮00​012cosθ⋮00​⋯⋯⋯⋱⋯⋯​000⋮2cosθ1​000⋮12cosθ​​
 
 这就是高倍角公式的行列式表示。
 
@@ -508,7 +508,7 @@ $$ \\sin n\\theta=\\begin{vmatrix} \\sin\\theta & 0 & 0 & \\cdots & 0 & 0 \\ 0 &
 
 也称为万能公式。
 
-$$ \\begin{aligned} \\sin\\alpha&={2\\tan{\\alpha\\over2}\\over1+\\tan^2{\\alpha\\over2}}\\ \\cos\\alpha&={1-\\tan^2{\\alpha\\over2}\\over1+\\tan^2{\\alpha\\over2}}\\ \\tan\\alpha&={2\\tan{\\alpha\\over2}\\over1-\\tan^2{\\alpha\\over2}} \\end{aligned} $$
+sinαcosαtanα​=1+tan22α​2tan2α​​=1+tan22α​1−tan22α​​=1−tan22α​2tan2α​​​
 
 其中下面的一个也等价于正切函数的二倍角公式。
 
@@ -516,17 +516,17 @@ $$ \\begin{aligned} \\sin\\alpha&={2\\tan{\\alpha\\over2}\\over1+\\tan^2{\\alpha
 
 降幂公式：
 
-$$ \\begin{aligned} \\sin^2\\alpha&=\\frac{1-\\cos2\\alpha}{2}\\ \\cos^2\\alpha&=\\frac{1+\\cos2\\alpha}{2}\\ \\tan^2\\alpha&=\\frac{1-\\cos2\\alpha}{1+\\cos2\\alpha} \\end{aligned} $$
+sin2αcos2αtan2α​=21−cos2α​=21+cos2α​=1+cos2α1−cos2α​​
 
 补充一个属于幂简约公式的：
 
-$$ \\sin^2\\alpha\\cos^2\\alpha={1-\\cos4\\alpha\\over8} $$
+sin2αcos2α=81−cos4α​
 
 可以根据里面的结论推出半角公式。
 
 ### 半角公式
 
-$$ \\begin{aligned} \\sin\\frac{\\alpha}{2}&=\\pm\\sqrt{\\frac{1-\\cos\\alpha}{2}}\\ \\cos\\frac{\\alpha}{2}&=\\pm\\sqrt{\\frac{1+\\cos\\alpha}{2}}\\ \\tan{\\frac{\\alpha}{2}}&=\\pm{\\sqrt{1-\\cos\\theta\\over1+\\cos\\theta}}\\ &=\\frac{\\sin\\alpha}{1+\\cos\\alpha}=\\frac{1-\\cos\\alpha}{\\sin\\alpha} \\end{aligned} $$
+sin2α​cos2α​tan2α​​=±21−cosα​​=±21+cosα​​=±1+cosθ1−cosθ​​=1+cosαsinα​=sinα1−cosα​​
 
 正负号由半角所在象限决定。
 
@@ -534,35 +534,35 @@ $$ \\begin{aligned} \\sin\\frac{\\alpha}{2}&=\\pm\\sqrt{\\frac{1-\\cos\\alpha}{2
 
 第一类 Chebyshev（切比雪夫）多项式由以下递推关系确定：
 
-$$ \\begin{aligned} T_0(x)&=1\\ T_1(x)&=x\\ T\_{n+1}(x)&=2xT_n(x)-T\_{n-1}(x) \\end{aligned} $$
+T0​(x)T1​(x)Tn+1​(x)​=1=x=2xTn​(x)−Tn−1​(x)​
 
 有三角恒等式：
 
-*c**o**s*(*n\*\*θ*) = *T\*\*n*(cos *θ*)
+cos(nθ)=Tn​(cosθ)
 
 其中：
 
-$$ \\begin{aligned} T\_{0}(x) & = 1\\ T\_{1}(x) & = x\\ T\_{2}(x) & = 2x^{2}-1\\ T\_{3}(x) & = 4x^{3}-3x\\ T\_{4}(x) & = 8x^{4}-8x^{2}+1\\ T\_{5}(x) & = 16x^{5}-20x^{3}+5x\\ T\_{6}(x) & = 32x^{6}-48x^{4}+18x^{2}-1\\ T\_{7}(x) & = 64x^{7}-112x^{5}+56x^{3}-7x\\ T\_{8}(x) & = 128x^{8}-256x^{6}+160x^{4}-32x^{2}+1\\ T\_{9}(x) & = 256x^{9}-576x^{7}+432x^{5}-120x^{3}+9x \\end{aligned} $$
+T0​(x)T1​(x)T2​(x)T3​(x)T4​(x)T5​(x)T6​(x)T7​(x)T8​(x)T9​(x)​=1=x=2x2−1=4x3−3x=8x4−8x2+1=16x5−20x3+5x=32x6−48x4+18x2−1=64x7−112x5+56x3−7x=128x8−256x6+160x4−32x2+1=256x9−576x7+432x5−120x3+9x​
 
 ## 和差化积与积化和差
 
 ### 和差化积恒等式
 
-$$ \\begin{aligned} \\sin\\alpha+\\sin\\beta&=2\\sin{\\alpha+\\beta\\over2}\\cos{\\alpha-\\beta\\over2}\\ \\sin\\alpha-\\sin\\beta&=2\\cos{\\alpha+\\beta\\over2}\\sin {\\alpha-\\beta\\over2}\\ \\cos\\alpha+\\cos\\beta&=2\\cos{\\alpha+\\beta\\over2}\\cos {\\alpha-\\beta\\over2}\\ \\cos\\alpha-\\cos\\beta&=-2\\sin{\\alpha+\\beta\\over2}\\sin {\\alpha-\\beta\\over2} \\end{aligned} $$
+sinα+sinβsinα−sinβcosα+cosβcosα−cosβ​=2sin2α+β​cos2α−β​=2cos2α+β​sin2α−β​=2cos2α+β​cos2α−β​=−2sin2α+β​sin2α−β​​
 
 ### 积化和差恒等式
 
-$$ \\begin{aligned} \\sin\\alpha\\cos\\beta&={\\sin(\\alpha+\\beta)+\\sin(\\alpha-\\beta)\\over2}\\ \\cos\\alpha\\sin\\beta&={\\sin(\\alpha+\\beta)-\\sin(\\alpha-\\beta)\\over2}\\ \\cos\\alpha\\cos\\beta&={\\cos(\\alpha+\\beta)+\\cos(\\alpha-\\beta)\\over2}\\ \\sin\\alpha\\sin\\beta&=-{\\cos(\\alpha+\\beta)-\\cos(\\alpha-\\beta)\\over2} \\end{aligned} $$
+sinαcosβcosαsinβcosαcosβsinαsinβ​=2sin(α+β)+sin(α−β)​=2sin(α+β)−sin(α−β)​=2cos(α+β)+cos(α−β)​=−2cos(α+β)−cos(α−β)​​
 
 ### 记忆方法
 
-轮换 *α*, *β*，令其为相反数，根据 sin , cos  奇偶性判断。
+轮换 α,β，令其为相反数，根据 sin,cos 奇偶性判断。
 
 ## 公式变形和推导
 
 ### 平方差公式
 
-$$ \\begin{aligned} \\sin(x+y)\\sin(x-y)&&&=\\sin^2x-\\sin^2y&&=\\cos^2y-\\cos^2x\\ \\cos(x+y)\\cos(x-y)&&&=\\cos^2x-\\sin^2y&&=\\cos^2y-\\sin^2x \\end{aligned} $$
+sin(x+y)sin(x−y)cos(x+y)cos(x−y)​​​=sin2x−sin2y=cos2x−sin2y​​=cos2y−cos2x=cos2y−sin2x​
 
 注意到右边的式子还可以用平方差公式展开。
 
@@ -570,34 +570,34 @@ $$ \\begin{aligned} \\sin(x+y)\\sin(x-y)&&&=\\sin^2x-\\sin^2y&&=\\cos^2y-\\cos^2
 
 对于式子：
 
-*a*sin *x* + *b*cos *x*
+asinx+bcosx
 
-如果 *a* = *r*cos *φ*，*b* = *r*sin *φ*，
+如果 a=rcosφ，b=rsinφ，
 
 可知
 
-*a*2 + *b*2 = *r*2(sin2*φ* + cos2*φ*) = *r*2
+a2+b2=r2(sin2φ+cos2φ)=r2
 
-即 $r=\\sqrt{a^2+b^2}$，则有 cos *φ* = *a*/*r*，sin *φ* = *b*/*r*。
+即 r=a2+b2​，则有 cosφ=a/r，sinφ=b/r。
 
 化简式子：
 
-$$ \\begin{aligned} a\\sin x+b\\cos x&=r\\cos\\varphi\\sin x+r\\sin\\varphi\\cos x\\ &=r\\sin(x+\\varphi)=\\sqrt{a^2+b^2}\\sin(x+\\varphi) \\end{aligned} $$
+asinx+bcosx​=rcosφsinx+rsinφcosx=rsin(x+φ)=a2+b2​sin(x+φ)​
 
-其中，*φ* 满足：
+其中，φ 满足：
 
-$$ \\begin{cases} \\cos\\varphi&=a/r\\ \\sin\\varphi&=b/r \\end{cases} $$
+{cosφsinφ​=a/r=b/r​
 
-若 *a* > 0，可以写成 *φ* = arctan *b*/*a* 的形式。
+若 a>0，可以写成 φ=arctanb/a 的形式。
 
-也就是 $a\\sin x+b\\cos x=\\sqrt{a^2+b^2}\\sin(x+\\arctan b/a)$。
+也就是 asinx+bcosx=a2+b2​sin(x+arctanb/a)。
 
 ### 其他公式
 
-(sin *α* ± cos *α*)2 = 1 ± sin 2*α*
+(sinα±cosα)2=1±sin2α
 
-$$ \\dfrac{1+\\tan\\alpha}{1-\\tan\\alpha}=\\dfrac{\\tan\\pi/4+\\tan\\alpha}{1-\\tan\\pi/4\\tan\\alpha}=tan\\left(\\alpha+\\dfrac{\\pi}{4}\\right) $$
+1−tanα1+tanα​=1−tanπ/4tanαtanπ/4+tanα​=tan(α+4π​)
 
-$$ \\tan\\alpha-\\dfrac{1}{\\tan\\alpha}=\\dfrac{\\sin^2\\alpha-\\cos^2\\alpha}{\\sin\\alpha\\cos\\alpha}=-2\\dfrac{1}{\\tan2\\alpha} $$
+tanα−tanα1​=sinαcosαsin2α−cos2α​=−2tan2α1​
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
