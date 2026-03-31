@@ -49,20 +49,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '24'
-          cache: 'npm'
 
       - name: Setup uv
         uses: astral-sh/setup-uv@v7
-        with:
-          enable-cache: true
 
       - name: Install dependencies
-        run: |
-          npm ci
-          uv sync --locked
+        run: npm ci
 
       - name: Install Pandoc
-        run: uv run mkpandocs install-deps
+        run: |
+            uv sync
+            uv run mkpandocs install-deps
 
       - name: Cache
         uses: actions/cache@v5
