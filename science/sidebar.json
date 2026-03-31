@@ -1,28 +1,30 @@
 [
   {
-    "数系与公理系统": [
+    "数系与数学初步": [
       "science/mathematics/1.md",
       "science/mathematics/2.md",
-      "science/mathematics/3.md"
+      "science/mathematics/3.md",
+      "science/mathematics/4.md"
     ]
   },
   {
-    "函数极限微积分": [
+    "多项式与微积分": [
+      "science/polynomial/1.md",
+      "science/polynomial/2.md",
+      "science/polynomial/3.md",
+      "science/polynomial/4.md",
+      "science/polynomial/5.md",
+      "science/polynomial/6.md"
+    ]
+  },
+  {
+    "函数导数不等式": [
       "science/function/1.md",
       "science/function/2.md",
       "science/function/3.md",
       "science/function/4.md",
       "science/function/5.md",
       "science/function/6.md"
-    ]
-  },
-  {
-    "多项式与不等式": [
-      "science/polynomial/1.md",
-      "science/polynomial/2.md",
-      "science/polynomial/3.md",
-      "science/polynomial/4.md",
-      "science/polynomial/5.md"
     ]
   },
   {
@@ -34,7 +36,7 @@
     ]
   },
   {
-    "组合与概率统计": [
+    "统计学与概率论": [
       "science/probability/1.md",
       "science/probability/2.md",
       "science/probability/3.md",
