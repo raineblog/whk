@@ -2,11 +2,10 @@
 
 ## 简介
 
-/// details | 最新更新
-<div class="recently-updated-box" id="recently-updated-box">
+<details class="recently-updated-box" id="recently-updated-box">
+<summary>最新更新</summary>
 <!-- RECENTLY_UPDATED_DOCS -->
-</div>
-///
+</details>
 
 ## 如何找到文章相关资源
 
