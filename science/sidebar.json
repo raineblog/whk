@@ -1,0 +1,214 @@
+[
+  {
+    "数系与公理系统": [
+      "science/mathematics/1.md",
+      "science/mathematics/2.md",
+      "science/mathematics/3.md"
+    ]
+  },
+  {
+    "函数极限微积分": [
+      "science/function/1.md",
+      "science/function/2.md",
+      "science/function/3.md",
+      "science/function/4.md",
+      "science/function/5.md",
+      "science/function/6.md"
+    ]
+  },
+  {
+    "多项式与不等式": [
+      "science/polynomial/1.md",
+      "science/polynomial/2.md",
+      "science/polynomial/3.md",
+      "science/polynomial/4.md",
+      "science/polynomial/5.md"
+    ]
+  },
+  {
+    "数列与离散数学": [
+      "science/sequence/1.md",
+      "science/sequence/2.md",
+      "science/sequence/3.md",
+      "science/sequence/4.md"
+    ]
+  },
+  {
+    "组合与概率统计": [
+      "science/probability/1.md",
+      "science/probability/2.md",
+      "science/probability/3.md",
+      "science/probability/4.md"
+    ]
+  },
+  {
+    "数论与算法初步": [
+      "science/number/1.md",
+      "science/number/3.md",
+      "science/number/4.md"
+    ]
+  },
+  {
+    "三角与平面几何": [
+      "science/plane/1.md",
+      "science/plane/2.md",
+      "science/plane/3.md",
+      "science/plane/4.md",
+      "science/plane/5.md"
+    ]
+  },
+  {
+    "解析几何与圆曲": [
+      "science/geometry/1.md",
+      "science/geometry/2.md",
+      "science/geometry/3.md",
+      "science/geometry/4.md",
+      "science/geometry/5.md"
+    ]
+  },
+  {
+    "空间与立体几何": [
+      "science/solid/1.md",
+      "science/solid/2.md",
+      "science/solid/3.md"
+    ]
+  },
+  {
+    "运动与物理方法": [
+      "science/kinematics/1.md",
+      "science/kinematics/2.md",
+      "science/kinematics/3.md",
+      "science/kinematics/4.md",
+      "science/kinematics/5.md"
+    ]
+  },
+  {
+    "力学与天体力学": [
+      "science/mechanics/1.md",
+      "science/mechanics/2.md",
+      "science/mechanics/3.md",
+      "science/mechanics/4.md",
+      "science/mechanics/5.md",
+      "science/mechanics/6.md",
+      "science/mechanics/7.md"
+    ]
+  },
+  {
+    "电路学与电化学": [
+      "science/circuitry/1.md",
+      "science/circuitry/2.md",
+      "science/circuitry/3.md",
+      "science/circuitry/4.md"
+    ]
+  },
+  {
+    "电磁场与电磁波": [
+      "science/electromagnetism/1.md",
+      "science/electromagnetism/2.md",
+      "science/electromagnetism/3.md",
+      "science/electromagnetism/4.md",
+      "science/electromagnetism/5.md",
+      "science/electromagnetism/6.md"
+    ]
+  },
+  {
+    "热学与近代物理": [
+      "science/modern/1.md",
+      "science/modern/2.md",
+      "science/modern/3.md",
+      "science/modern/4.md"
+    ]
+  },
+  {
+    "计量与结构化学": [
+      "science/structure/1.md",
+      "science/structure/2.md",
+      "science/structure/3.md",
+      "science/structure/4.md"
+    ]
+  },
+  {
+    "元素与物质性质": [
+      "science/element/index.md",
+      "science/element/na.md",
+      "science/element/mg.md",
+      "science/element/al.md",
+      "science/element/si.md",
+      "science/element/n.md",
+      "science/element/s.md",
+      "science/element/cl.md",
+      "science/element/fe.md"
+    ]
+  },
+  {
+    "反应速率与平衡": [
+      "science/reaction/1.md",
+      "science/reaction/2.md",
+      "science/reaction/3.md"
+    ]
+  },
+  {
+    "有机化学与合成": [
+      "science/organic/1.md",
+      "science/organic/2.md",
+      "science/organic/3.md",
+      "science/organic/4.md",
+      "science/organic/5.md"
+    ]
+  },
+  {
+    "细胞与细胞工程": [
+      "science/cell/1.md",
+      "science/cell/2.md",
+      "science/cell/3.md",
+      "science/cell/4.md",
+      "science/cell/5.md",
+      "science/cell/6.md",
+      "science/cell/7.md"
+    ]
+  },
+  {
+    "遗传与基因工程": [
+      "science/genetics/1.md",
+      "science/genetics/2.md",
+      "science/genetics/3.md",
+      "science/genetics/4.md"
+    ]
+  },
+  {
+    "生化实验与应用": [
+      "science/experiment/1.md",
+      "science/experiment/2.md",
+      "science/experiment/3.md"
+    ]
+  },
+  {
+    "人体结构与功能": [
+      "science/human/1.md",
+      "science/human/2.md",
+      "science/human/3.md",
+      "science/human/4.md",
+      "science/human/5.md",
+      "science/human/6.md",
+      "science/human/7.md",
+      "science/human/8.md",
+      "science/human/9.md"
+    ]
+  },
+  {
+    "物种与生物概述": [
+      "science/species/1.md",
+      "science/species/2.md",
+      "science/species/3.md",
+      "science/species/4.md"
+    ]
+  },
+  {
+    "生态学与地理学": [
+      "science/nature/1.md",
+      "science/nature/2.md",
+      "science/nature/3.md",
+      "science/nature/4.md"
+    ]
+  }
+]
