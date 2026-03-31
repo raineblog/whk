@@ -810,7 +810,7 @@ wheels = [
 [[package]]
 name = "mkpandocs"
 version = "1.0.1"
-source = { git = "https://github.com/RainPPR/mkpandocs.git#35cfb4ed7dd833e497cae5dacf93abf9e6c4d5e9" }
+source = { git = "https://github.com/RainPPR/mkpandocs.git#faf7b0ca203c1a56f9db571aa5a8e0c02efc4491" }
 dependencies = [
     { name = "beautifulsoup4" },
     { name = "click" },
