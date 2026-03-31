@@ -1,0 +1,267 @@
+# 数列进阶
+
+## 极限
+
+### 函数极限
+
+极限的概念比较复杂，我们多方面的考虑。
+
+若函数 *f*(*x*) 在 *x*0 附近有定义，且存在有极限 *L*，那么，
+
+对于任意 *ε* > 0，一定存在 *δ* > 0，使得当，
+
+0 \< |*x* − *x*0| \< *δ*
+
+时，总有，
+
+|*f*(*x*) − *L*| \< *ε*
+
+则称 *L* 是函数在 *x*0 的**极限**，记为，
+
+lim*x* → *x*0*f*(*x*) = *L*
+
+特殊的，若对于 *x* > *x*0（*x* − *x*0 \< *δ*）满足上式，
+
+则称函数在 *x*0​ 处存在**右极限**，表示为：
+
+lim*x* → *x*0+*f*(*x*) = *L*
+
+同样的，若对于 *x* \< *x*0（*x*0 − *x* \< *δ*）满足上式，
+
+则称函数在 *x*0​ 处存在**左极限**，表示为：
+
+lim*x* → *x*0−*f*(*x*) = *L*
+
+比较这三个定义我们会发现：
+
+要想存在极限，那么必须同时存在相等的左极限和右极限。
+
+### 数列极限
+
+数列极限的定义和函数的不大一样，
+
+对于任意 *ε* > 0，都存在 *N* ∈ ℕ\*，使得对于任意 *n* > *N*，
+
+|*a\*\*n* − *L*| \< *ε*
+
+则称数列 *a* **收敛于** *L*，记为，
+
+lim*n* → ∞*a\*\*n* = *L*
+
+或，
+
+*a\*\*n* → *a*
+
+用逻辑符号表示，
+
+$$ (\\forall\\varepsilon>0)(\\exist N\\in\\mathbb N^+)(\\forall n\\in\\mathbb N) [(n>N)\\Rightarrow(|a_n-L|\<\\varepsilon)] $$
+
+直观的讲，即无论误差范围 *ε* 多小，从某项 *a\*\*n* 开始，每一项与 *L* 的差距都小于 *ε*​。
+
+或者，更直观的，当数列的下标越来越大的时候，数列的值也就越接近那个特殊值。
+
+若不存在这样的数，则称该数列是**发散**的。
+
+### 常见的极限
+
+从这里开始，一般只讨论数列极限。
+
+$$ \\boxed{\\lim\_{x\\to\\infty}{1\\over x^n}=0,n>0}\\tag a $$
+
+$$ \\boxed{\\lim\_{x\\to\\infty}{1\\over a^n}=0,|a|>1}\\tag b $$
+
+$$ \\boxed{\\lim\_{x\\to\\infty}r^n=0,|r|\<1}\\tag c $$
+
+$$ \\boxed{\\lim\_{x\\to0^+}{1\\over x}=+\\infty}\\tag d $$
+
+$$ \\boxed{\\lim\_{x\\to0^-}{1\\over x}=-\\infty}\\tag e $$
+
+特殊的，对于数列 *a\*\*n* = *n*，
+
+当 *n* → +∞ 时，*a\*\*n* → +∞，这种**无界数列**，一般说其不存在极限。
+
+同样，除了常数数列，其他的波动数列、周期数列，一般都不存在极限。
+
+其中一个判断数列是否收敛的定理，称为**单调收敛定理**，和实数完备性相关：
+
+单调有界数列必收敛（有上界的单调递增数列，或是有下界的单调递减数列）。
+
+同时，判断数列是否收敛，还存在**两边夹定理**，
+
+若两数列存在极限，那么其夹的数列存在极限，数学表示，
+
+若 $\\lim\\limits\_{n\\to\\infty}a_n=\\lim\\limits\_{n\\to\\infty}b_n=L$，且 *a\*\*n* ≤ *c\*\*n* ≤ *b\*\*n*，则 $\\lim\\limits\_{n\\to\\infty}c_n=L$​。
+
+例如，
+
+$$ 0\<{1\\over\\sqrt{n^2+1}}\<{1\\over n} $$
+
+且左右极限都是 0，因此中间也收敛于 0。
+
+### 极限的性质
+
+**唯一性**：若数列 {*a\*\*n*}*n* ∈ ℕ 存在极限，则极限是唯一的。
+
+**有界性**：如果一个实数数列无界，则这个实数数列一定发散。
+
+若数列 {*a\*\*n*}*n* ∈ ℕ 存在极限，那么一定存在 *M* > 0，使得所有 |*a\*\*n*| ≤ *M*。
+
+注意到，并不是数列有界就一定存在极限，例如 *a\*\*n* = (−1)*n*。
+
+**保序性**：若两数列 {*a\*\*n*}*n* ∈ ℕ, {*b\*\*n*}*n* ∈ ℕ 分别收敛于 *A*, *B*，则，
+
+$$ (\\exist N\\in\\mathbb N) [(A>B)\\wedge(n>N)\\Rightarrow(a_n>b_n)] $$
+
+极限也存在四则运算：
+
+$$ \\boxed{\\lim\_{n\\to\\infty}(a_n\\pm b_n)=\\lim\_{n\\to\\infty}a_n\\pm \\lim\_{n\\to\\infty}b_n}\\tag1 $$
+
+$$ \\boxed{\\lim\_{n\\to\\infty}xa_n=x\\lim\_{n\\to\\infty}a_n}\\tag2 $$
+
+由 (1)(2) 可得极限的**线性性**，
+
+$$ \\boxed{\\lim\_{n\\to\\infty}(xa_n+yb_n)=x\\lim\_{n\\to\\infty}a_n+y\\lim\_{n\\to\\infty}b_n}\\tag3 $$
+
+另外，极限也存在乘法和除法，
+
+$$ \\boxed{\\lim\_{n\\to\\infty}(a_nb_n)=\\lim\_{n\\to\\infty}a_n\\times\\lim\_{n\\to\\infty}b_n}\\tag4 $$
+
+$$ \\tag5\\boxed{\\lim\_{n\\to\\infty}\\left({a_n\\over b_n}\\right)={\\lim\_{n\\to\\infty}a_n\\over\\lim\_{n\\to\\infty}b_n}} $$
+
+注意到，被除数不能为零。
+
+同时，如果要进行以上所有操作，都需要保证每一步的数列极限存在。
+
+这样子，有一个性质，
+
+$$ \\lim\_{n\\to\\infty}{a_1x^{c_1}+a_2x^{c_2}+\\dots\\over b_1x^{c_1}+b_2x^{c_2}+\\dots}={a_1\\over b_1},c_1>c_2>\\dots $$
+
+即，最高次项系数之比。
+
+### 存在极限的组
+
+$$ \\lim\_{n\\to\\infty}{1\\over4^n}=0 $$
+
+$$ \\lim\_{n\\to\\infty}{2\\over n}+{1\\over n^2}=\\lim\_{n\\to\\infty}{2\\over n}+\\lim\_{n\\to\\infty}{1\\over n^2}=0 $$
+
+$$ \\lim\_{n\\to\\infty}{1\\over n}-{2\\over n^2}+3=\\lim\_{n\\to\\infty}{1\\over n}-\\lim\_{n\\to\\infty}{2\\over n^2}+3=3 $$
+
+$$ \\lim\_{n\\to\\infty}{2+(1/3)^n\\over(1/3)^n-5}={\\lim\_{n\\to\\infty}2+(1/3)^n\\over\\lim\_{n\\to\\infty}(1/3)^n-5}={2+\\lim\_{n\\to\\infty}(1/3)^n\\over\\lim\_{n\\to\\infty}(1/3)^n-5}=-{2\\over5} $$
+
+注意在做每一步变形的时候，只有存在极限才能操作。
+
+$$ \\lim\_{n\\to\\infty}{3n+1\\over2n+2}={3\\over2} $$
+
+这里有很多种做法，例如，
+
+$$ \\lim\_{n\\to\\infty}{3n+1\\over2n+2}=\\lim\_{n\\to\\infty}{3+1/n\\over2+2/n}={\\lim\_{n\\to\\infty}3+1/n\\over\\lim\_{n\\to\\infty}2+2/n}={3\\over2} $$
+
+$$ \\lim\_{n\\to\\infty}{3n+1\\over2n+2}=\\lim\_{n\\to\\infty}{3(2n+2)/2-2\\over2n+2}={3\\over2}-\\lim\_{n\\to\\infty}{2\\over2n+2}={3\\over2} $$
+
+或者，当 *n* → ∞ 时，
+
+3*n* + 1 ∼ 3*n*, 2*n* + 2 ∼ 2*n*
+
+$$ {3n+1\\over2n+2}\\to{3n\\over2n}={3\\over2} $$
+
+### 不存在极限的组
+
+$$ a_n=\\sqrt n $$
+
+注意到，
+
+$$ n\\to\\infty,\\sqrt n\\to\\infty $$
+
+当趋近于正无穷时，一般认为不存在极限。
+
+$$ a_n=n-{1\\over n} $$
+
+注意到，
+
+*n* → ∞, 1/*n* → 0
+
+故，
+
+*a\*\*n* → ∞
+
+同样不存在极限。
+
+## 回顾及补充
+
+### 经典常量
+
+*π* ≈ 3.14159
+
+*e* ≈ 2.71828
+
+*γ* ≈ 0.57721
+
+$$ \\varphi={1+\\sqrt5\\over2}\\approx1.61803 $$
+
+$$ \\hat\\varphi={1-\\sqrt5\\over2}\\approx-.61803 $$
+
+### 基础公式
+
+一些公式，
+
+$$ \\sum\_{i=1}^ni={n(n+1)\\over2} $$
+
+$$ \\sum\_{i=1}^ni^2={n(n+1)(2n+1)\\over6}={n(n+1/2)(n+1)\\over3} $$
+
+$$ \\sum\_{i=1}^ni^3=\\left[{n(n+1)\\over2}\\right]^2={n^2(n+1)^2\\over4} $$
+
+可以通过扰动法（见下）或者待定系数并归纳得出。
+
+$$ \\sum\_{i=0}^nc^i={c^{n+1}-1\\over c-1},c\\neq1 $$
+
+$$ \\sum\_{i\\ge0}c^i={1\\over 1-c},|c|\<1 $$
+
+$$ \\sum\_{i\\ge1}c^i={c\\over 1-c},|c|\<1 $$
+
+上面的是等比数列，下面的用极限得出。
+
+$$ \\sum\_{i=0}^nic^i={nc^{n+2}-(n-1)c^{n+1}+c\\over(c-1)^2},c\\neq1 $$
+
+$$ \\sum\_{i\\ge0}ic^i={c\\over(1-c)^2},|c|\<1 $$
+
+上面的可以扰动法得出，下面的极限得出。
+
+### 调和级数
+
+$$ H_n=\\sum\_{i=1}^n{1\\over i} $$
+
+有，
+
+ln *n* \< *H\*\*n* \< ln *n* + 1
+
+$$ H_n=\\ln n+\\gamma+\\mathcal O\\left({1\\over n}\\right) $$
+
+同时，
+
+$$ \\sum\_{i=1}^nH_i=(n+1)H_n-n $$
+
+$$ \\sum\_{i=1}^niH_i={n(n+1)\\over2}H_n-{n(n-1)\\over4} $$
+
+$$ \\sum\_{i=1}^n{i\\choose m}H_i={n+1\\choose m+1}\\left(H\_{n+1}-{1\\over m+1}\\right) $$
+
+证明下面再说。
+
+### 欧拉公式
+
+$$ \\def\\ff#1{{1\\over#1^2}} {\\pi^2\\over6}=\\ff1+\\ff2+\\ff3+\\ff4+\\ff5+\\dots $$
+
+$$ \\def\\ff#1{{1\\over#1^2}} {\\pi^2\\over8}=\\ff1+\\ff3+\\ff5+\\ff7+\\ff9+\\dots $$
+
+### 组合数学
+
+见我的排列组合笔记。
+
+$$ \\def\\qq{\\quad} \\begin{array}{c} 1\\ 1\\qq1\\ 1\\qq2\\qq1\\ 1\\qq3\\qq3\\qq1\\ 1\\qq4\\qq6\\qq4\\qq1\\ 1\\qq5\\qq10\\qq10\\qq5\\qq1\\ 1\\qq6\\qq15\\qq20\\qq15\\qq6\\qq1\\ 1\\qq7\\qq21\\qq35\\qq35\\qq21\\qq7\\qq1\\ 1\\qq8\\qq28\\qq56\\qq70\\qq56\\qq28\\qq8\\qq1\\ 1\\qq9\\qq36\\qq84\\qq126\\qq126\\qq84\\qq36\\qq9\\qq1\\ 1\\qq10\\qq45\\qq120\\qq210\\qq252\\qq210\\qq120\\qq45\\qq10\\qq1\\ \\end{array} $$
+
+### 线代基础
+
+$$ \\left\\lvert\\begin{matrix}a&b\\c&d\\end{matrix}\\right\\rvert=ad+bc $$
+
+$$ \\det A=\\sum\_{\\pi\\in S_n}\\operatorname{sgn}(\\pi)\\prod\_{i=1}^na\_{i,\\pi(i)} $$
+
+[RainPPR](mailto:PPR2125773894@163.com)
