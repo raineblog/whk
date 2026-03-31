@@ -199,7 +199,7 @@ def transform_inlines(inlines, content_to_html):
 def transform_ast(obj, content_to_html):
     """Transform Pandoc AST: replace Math elements with RawInline HTML."""
     if isinstance(obj, dict):
-        if obj.get("t") in ("Para", "Plain"):
+        if obj.get("t") == "Para":
             if "c" in obj and isinstance(obj["c"], list):
                 obj["c"] = transform_inlines(obj["c"], content_to_html)
             return obj
