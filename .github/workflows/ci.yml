@@ -96,9 +96,7 @@ jobs:
       - name: Bun Post-processing
         if: steps.deploy_check.outputs.should_deploy == 'true'
         run: |
-          ./build-bin --input-dir site --output-dir dist
-          rm -rf site
-          mv dist site
+          ./build-bin --dir site
 
       - name: Push to Branch
         if: steps.deploy_check.outputs.should_deploy == 'true'
