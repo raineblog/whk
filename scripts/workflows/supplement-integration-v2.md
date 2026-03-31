@@ -177,7 +177,7 @@ node scripts/skills/read/file_prelimit.js docs/[路径]/[文件名].md
 - 确定内容应该插入到目标文档的哪个位置
 - 规划如何将新内容有机地融入原文
 - 尽量不新增标题（最多添加几个三级标题）
-- 不要使用 `/// note` 这种语法
+- 不要使用 `/// note` 或 `/// details` 等旧语法，应使用 Markdown admonition 语法
 
 ##### 子步骤 4.5：执行编辑
 
@@ -212,7 +212,7 @@ git push origin dev
 #### 重要限制
 
 - 尽量不新增 Headings，最多添加几个三级标题
-- 不要使用 `/// note` 这种语法
+- 不要使用 `/// note` 或 `/// details` 等旧语法，应使用 Markdown admonition 语法
 - 需要将内容有机插入原文中的合适位置
 - 保持原文的写作风格和叙述特点
 
