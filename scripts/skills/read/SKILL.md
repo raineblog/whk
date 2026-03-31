@@ -33,9 +33,9 @@ docs/science/solid/1.md 空间几何基础
 - 检查文档命名规范
 - 生成文档目录索引
 
-/// note | 注意事项
+```md {admonition=note title="注意事项"}
 第一个 H1 不一定在文件第一行，但一定是第一个 `# ` 开头的行。如果文件中有多个 H1，只输出第一个。
-///
+```
 
 ### file_headings - 文件标题提取器
 
@@ -66,9 +66,9 @@ node scripts/skills/read/file_headings.js <file_path>
 - 快速定位特定章节
 - 检查标题层级是否合理
 
-/// note | 标题识别规则
+```md {admonition=note title="标题识别规则"}
 只识别 `#` 后面紧跟空格的行作为标题，例如 `# Title` 会被识别，但 `#Title` 不会被识别。
-///
+```
 
 ### file_prelimit - 文件内容预览器
 
@@ -106,9 +106,9 @@ node scripts/skills/read/file_prelimit.js <file_path>
 - 检查文档开头是否包含必要的元数据
 - 判断文档是否符合写作规范
 
-/// note | 字符计算规则
+```md {admonition=note title="字符计算规则"}
 1000 字符限制是指去除空行和空格后的实际内容字符数，但输出时会保留原始格式（包括空行和空格）。
-///
+```
 
 ### file_split - 文件分割器
 
@@ -146,9 +146,9 @@ docs/science/probability/2.md.003.tmp 5,124 bytes
 - 便于分段处理或传输
 - 当文件超过上下文长度限制时进行预处理
 
-/// note | 分割说明
+```md {admonition=note title="分割说明"}
 如果文件小于 20000 个字符，则不会进行分割。分割后的临时文件会保存在原文件所在目录。
-///
+```
 
 ## 工作流程
 
