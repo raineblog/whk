@@ -1,63 +1,18 @@
-# strict: true
-theme:
-    name: materialx
-    custom_dir: overrides/
-    language: zh
-    palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-    features:
-    - navigation.tracking
-    - navigation.indexes
-    - navigation.tabs
-    - navigation.path
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - navigation.prune
-    - navigation.top
-    - navigation.footer
-    - toc.follow
-    - announce.dismiss
-    - content.action.edit
-    - content.action.view
-    - content.code.copy
-    - content.code.select
-    - content.code.annotate
-    - content.tooltips
-    icon:
-        repo: fontawesome/brands/git-alt
-        edit: material/pencil
-        view: material/eye
-pandoc_args:
-  - --citeproc
-  - --wrap=none
-  - --katex
-  # - '--filter "uv run filters\pandoc_static_katex.py"'
 plugins:
 - meta
 - tags
 # -   markdown-exec:
         # https://github.com/pawamoy/markdown-exec
         # ansi: required
-        # https://pawamoy.github.io/markdown-exec/gallery/
-        # https://pawamoy.github.io/markdown-exec/usage/shell/
+        # https://pawamoy.github.io/mkdocs-exec/gallery/
+        # https://pawamoy.github.io/mkdocs-exec/usage/shell/
 -   glightbox:
         # https://github.com/blueswen/mkdocs-glightbox
         auto_themed: true
 - table-reader
         # https://github.com/timvink/mkdocs-table-reader-plugin
         # 在 Markdown 里面用这个引入 csv（是否是一个好习惯？
+{% raw %}
 # -   katex-ssr: # 自己做的插件
 #         verbose: true
 #         katex_dist: "https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/"
@@ -117,6 +72,7 @@ plugins:
 #                 "·": "\\cdot"
 #                 "->": "\\to"
 #                 "<-": "\\gets"
+{% endraw %}
 -   document-dates:
         # https://jaywhj.netlify.app/document-dates-zh
         position: bottom
@@ -147,11 +103,13 @@ plugins:
             - deepwiki.com/badge.svg
         links_attr_map:
             target: _blank
+{% if has_social_dependencies %}
 -   social:
         cards_layout: default/variant
         cards_layout_options:
             font_family: Noto Serif SC
             background_color: "#E4E2DD"
+{% endif %}
 -   advanced-seo:
         support_document_dates: true
 -   minify_html:
@@ -195,12 +153,10 @@ plugins:
             关于:
             - index.md
             - home/*.md
-            博客:
-            - blog/*.md
-            - blog/**/*.md
-            所有（包含上面两类）:
-            - index.md
-            - "*/**/*.md"
+            中学文科:
+            - cultural/**/*.md
+            高中理科:
+            - science/**/*.md
 # markdown_extensions:
 # - abbr
 # - admonition
@@ -238,8 +194,3 @@ plugins:
 # - pymdownx.tasklist
 # -   pymdownx.tabbed:
 #         alternate_style: true
-watch:
-  - docs/includes
-exclude_docs: |
-    /test/
-    /includes/

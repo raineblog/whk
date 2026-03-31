@@ -11,15 +11,10 @@ print = functools.partial(print, flush=True)
 
 import yaml
 import json
+from jinja2 import Environment, FileSystemLoader
 
 script_dir = Path(__file__).resolve().parent
 current_dir = Path.cwd()
-
-
-def load_yaml(yaml_path):
-    with open(yaml_path, "r", encoding="utf-8") as file:
-        text = file.read()
-    return yaml.load(text, Loader=yaml.FullLoader)
 
 
 def load_json(file_path):
@@ -62,6 +57,18 @@ def check_social_dependencies():
         return False
 
 
+def to_yaml(value, indent=0):
+    """将 Python 对象转换为 YAML 格式字符串"""
+    text = yaml.dump(
+        value, allow_unicode=True, sort_keys=False, default_flow_style=False
+    )
+    if indent > 0:
+        prefix = " " * indent
+        lines = text.rstrip().split("\n")
+        text = "\n".join(prefix + line if line else line for line in lines)
+    return text.rstrip()
+
+
 def parse_args():
     parser = argparse.ArgumentParser(
         description="我的自定义脚本 CLI", formatter_class=argparse.RawTextHelpFormatter
@@ -78,7 +85,10 @@ def parse_args():
     )
 
     parser.add_argument(
-        "--site_url", type=str, default="null", help="网站的 URL，包括 https"
+        "--site_url",
+        type=str,
+        default="https://example.com",
+        help="网站的 URL，包括 https",
     )
 
     parser.add_argument("--port", type=int, default=8000, help="服务端口，默认为 8000")
@@ -89,45 +99,41 @@ def parse_args():
 def main():
     args = parse_args()
     project = load_json("project.json")
-    config_map = project["info"]
 
     if args.build or args.serve:
-        if (site_url := args.site_url).lower() != "null":
-            config_map["site_url"] = site_url
-
-        if "extra" in project:
-            config_map["extra"] = project["extra"]
-            if args.disable_giscus.lower() in ("true", "1", "yes"):
-                config_map["extra"].pop("giscus", None)
-
-        template_defaults = load_yaml(script_dir / "template.yml")
-        config_map["nav"] = get_nav()
-
-        # 合并配置
-        final_config = template_defaults | config_map
-
-        # 确保 site_url 存在 (llmstxt 等插件需要)
-        if not final_config.get("site_url"):
-            final_config["site_url"] = "https://example.com"  # 临时默认值，通常会被覆盖
-
-        # 检查 social 插件依赖
-        if not check_social_dependencies():
+        has_social_dependencies = check_social_dependencies()
+        if not has_social_dependencies:
             print(
                 "[PREBUILD] 未检测到 cairosvg 或 pillow (或相关库缺失)，自动禁用 social 插件。"
             )
-            if "plugins" in final_config:
-                new_plugins = []
-                for p in final_config["plugins"]:
-                    if isinstance(p, str) and p == "social":
-                        continue
-                    if isinstance(p, dict) and "social" in p:
-                        continue
-                    new_plugins.append(p)
-                final_config["plugins"] = new_plugins
+
+        # 准备 Jinja2 上下文
+        extra = project.get("extra", {}).copy()
+        disable_giscus = args.disable_giscus.lower() in ("true", "1", "yes")
+        if disable_giscus:
+            extra.pop("giscus", None)
+
+        context = {
+            "info": project["info"],
+            "extra": extra,
+            "site_url": args.site_url,
+            "nav": get_nav(),
+            "has_social_dependencies": has_social_dependencies,
+        }
+
+        # 创建 Jinja2 环境并注册自定义过滤器
+        env = Environment(
+            loader=FileSystemLoader(script_dir / "templates"),
+            keep_trailing_newline=True,
+        )
+        env.filters["to_yaml"] = to_yaml
+
+        template = env.get_template("build.yml.jinja2")
+        output = template.render(context)
 
         # 写入 mkpandocs.yml
         with open("mkpandocs.yml", "w", encoding="utf-8") as f:
-            yaml.dump(final_config, f, allow_unicode=True, indent=4, sort_keys=False)
+            f.write(output)
 
         print("[PREBUILD] mkpandocs.yml 已更新。")
 
@@ -138,13 +144,17 @@ def main():
         if args.build:
             print(f"[BUILD] 执行 {' '.join(cmd_prefix)} mkpandocs build...")
             try:
-                subprocess.run(cmd_prefix + ["mkpandocs", "build", "--dirty"], check=True)
+                subprocess.run(
+                    cmd_prefix + ["mkpandocs", "build"], check=True
+                )
                 print("[FINAL] 构建成功！")
             except subprocess.CalledProcessError as e:
                 print(f"[ERROR] 构建失败: {e}")
                 sys.exit(1)
         elif args.serve:
-            print(f"🚀 启动 {' '.join(cmd_prefix)} mkpandocs serve (端口: {args.port})...")
+            print(
+                f"🚀 启动 {' '.join(cmd_prefix)} mkpandocs serve (端口: {args.port})..."
+            )
             # try:
             #     subprocess.run(
             #         cmd_prefix
