@@ -38,7 +38,7 @@ jobs:
             url: https://raineblog-whk.pages.dev/
             branch: cloudflare-pages
             disable_giscus: 'true'
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Checkout Source Code
         uses: actions/checkout@v6
@@ -58,7 +58,7 @@ jobs:
 
       - name: Install Pandoc
         run: |
-            uv sync
+            uv sync --no-dev
             uv run mkpandocs install-deps
 
       - name: Cache
