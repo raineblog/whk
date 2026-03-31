@@ -7,6 +7,7 @@ requires-python = ">=3.14"
 dependencies = [
     "httpx[http2]>=0.28.1",
     "jinja2>=3.1.6",
+    "mergedeep>=1.3.4",
     "mkdocs-advanced-seo>=1.0.3",
     "mkdocs-document-dates",
     "mkdocs-glightbox>=0.5.2",
@@ -17,15 +18,24 @@ dependencies = [
     "mkdocs-minify-html-plugin>=0.3.10",
     "mkdocs-rss-plugin>=1.17.9",
     "mkdocs-table-reader-plugin>=3.1.0",
-    "properdocs>=1.6.7",
+    "mkpandocs",
     "pyyaml>=6.0.3",
-    "requests>=2.33.0",
-    "toml>=0.10.2",
+    # "requests>=2.33.0",
+    # "toml>=0.10.2",
+    "pandocfilters>=1.5.1",
+    "properdocs-theme-readthedocs>=1.6.5",
+]
+
+[tool.uv]
+override-dependencies = [
+    "mkdocs; sys_platform == 'never'",
+    "properdocs; sys_platform == 'never'",
 ]
 
 [tool.uv.sources]
 mkdocs-document-dates = { git = "https://github.com/raineblog/mkdocs-document-dates.git" }
 mkdocs-katex-ssr = { git = "https://github.com/raineblog/mkdocs-katex-ssr.git" }
+mkpandocs = { git = "https://github.com/RainPPR/mkpandocs.git" }
 
 [dependency-groups]
 dev = [

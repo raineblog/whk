@@ -18,6 +18,8 @@
   </a>
 </p>
 
+<!-- uv tree --no-dev > tree.log -->
+
 ---
 
 **RainPPR 的高中文化课（WHK）学习笔记** —— 以理科为核心，涵盖数学、物理、化学、生物等学科的系统性知识总结。
@@ -26,7 +28,7 @@
 
 > 人们习惯于赞美大地的厚重，却往往对破土而出的新芽感到不安，只因它打破了泥土固守的沉寂。生命最深沉的悲剧，莫过于被困在一种"不属于自己的真实"中，在嘈杂的反对声里日渐枯萎。然而，主观意志的意义，恰在于即便身处深渊，亦敢于否定造物者的疏忽。
 
-# 声明：我们正在探索 mkdocs 的替代方案，因为 mkdocs 2.0 暂时还有很大的争议。我们暂时切换到了 properdocs，后续处理仍在考虑中。
+# 声明：我们已经从 MkDocs/Properdocs 迁移到 [RainPPR/mkpandocs](https://github.com/RainPPR/mkpandocs) (Pandoc)。文档构建现在使用服务器端 KaTeX 渲染和代码块形式的提示框。
 
 ## 🌐 在线访问
 
@@ -152,7 +154,7 @@ uv run scripts/generate.py --build --site_url=https://your-site-url/
 - **数学公式**: 行内 `$...$`，行间 `$$...$$`
 - **化学方程式**: `$\ce{2H2 + O2 -> 2H2O}$`
 - **物理单位**: `$\pu{1kg}$`, `$\pu{9.6E11}$`
-- **提示框**: 使用 `/// note` 和 `/// details` 语法
+- **提示框**: 使用 Markdown admonition 语法（`admonition=note` 和 `admonition=details`）
 - **网格布局**: 使用 `<div class="grid">` 实现多栏排版
 
 ### 排版规范

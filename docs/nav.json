@@ -44,9 +44,5 @@
       }
     },
     "children": "science/sidebar.json"
-  },
-  {
-    "title": "Blog",
-    "children": ["blog/index.md"]
   }
 ]

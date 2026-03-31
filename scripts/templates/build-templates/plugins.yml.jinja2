@@ -1,0 +1,196 @@
+plugins:
+- meta
+- tags
+# -   markdown-exec:
+        # https://github.com/pawamoy/markdown-exec
+        # ansi: required
+        # https://pawamoy.github.io/mkdocs-exec/gallery/
+        # https://pawamoy.github.io/mkdocs-exec/usage/shell/
+-   glightbox:
+        # https://github.com/blueswen/mkdocs-glightbox
+        auto_themed: true
+- table-reader
+        # https://github.com/timvink/mkdocs-table-reader-plugin
+        # 在 Markdown 里面用这个引入 csv（是否是一个好习惯？
+{% raw %}
+# -   katex-ssr: # 自己做的插件
+#         verbose: true
+#         katex_dist: "https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/"
+#         add_katex_css: true
+#         katex_css_filename: "katex-swap.min.css"
+#         ssr_contribs:
+#             - mhchem
+#             - render-a11y-string
+#         client_scripts:
+#             - copy-tex
+#         katex_options:
+#             macros:
+#                 # 下面是一些符号的兼容性定义
+#                 "\\RR": "\\mathbb{R}"
+#                 "\\i": "\\mathrm{i}"
+#                 "\\d": "\\mathrm{d}"
+#                 "\\C": "\\mathbb{C}"
+#                 "\\R": "\\mathbb{R}"
+#                 "\\Q": "\\mathbb{Q}"
+#                 "\\Z": "\\mathbb{Z}"
+#                 "\\N": "\\mathbb{N}"
+#                 "\\P": "\\mathbb{P}"
+#                 "\\degree": "^\\circ"
+#                 "\\rank": "\\operatorname{rank}" # 矩阵的秩
+#                 # 下面是一些简写的定义
+#                 "\\op": "\\operatorname"
+#                 "\\paren": "\\left({#1}\\right)"
+#                 "\\bracket": "\\left[{#1}\\right]"
+#                 "\\brace": "\\left\\{{#1}\\right\\}"
+#                 "\\ceil": "\\left\\lceil{#1}\\right\\rceil"
+#                 "\\floor": "\\left\\lfloor{#1}\\right\\rfloor"
+#                 "\\vert": "\\left\\lvert{#1}\\right\\rvert"
+#                 "\\vec": "\\bm" # 默认使用粗体表示向量
+#                 "\\vecc": "\\overrightarrow" # 默认使用上标箭头表示有向线段
+#                 # 下面是一些文化课用的定义
+#                 "\\poly": "\\ce{-\\!\\!\\![ #1 ]_n\\!\\!\\!\\!\\!-}" # 有机化学 聚合物
+#                 "\\el": "#1\\mathrm{#2}^{#3}" # 结构化学 能级
+#                 "\\pH": "p\\ce{H}"
+#                 "\\pOH": "p\\ce{OH}"
+#                 "\\con": "\\left[\\ce{#1}\\right]" # 化学计量 一般表示摩尔浓度
+#                 "\\val": "\\overset{#2}{\\ce{#1}}"
+#                 # 下面都是一些不标准的 Unicode 转移
+#                 "’": "'"
+#                 "，": ","
+#                 "。": "."
+#                 "；": ";"
+#                 "：": ":"
+#                 "！": "!"
+#                 "？": "?"
+#                 "【": "["
+#                 "】": "]"
+#                 "（": "("
+#                 "）": ")"
+#                 "、": ","
+#                 "—": "-"
+#                 "…": "\\dots"
+#                 "·": "\\cdot"
+#                 "->": "\\to"
+#                 "<-": "\\gets"
+{% endraw %}
+-   document-dates:
+        # https://jaywhj.netlify.app/document-dates-zh
+        position: bottom
+        type: timeago
+        date_format: '%Y-%m-%d'
+        time_format: '%H:%M:%S'
+        show_author: text
+        recently-updated:
+            limit: 50
+            exclude:
+            # 排除不想显示的文档？原因是构建出错了不知道是不是这个版本的问题
+            - index.md
+            - intro/*
+            - blog/*
+        # 这个插件更新好频繁跟不上了真的好诡异（
+-   privacy:
+        assets_fetch: false
+        assets_exclude:
+            - giscus.app/*
+            - github.com/*
+            - api.github.com/*
+            - gist.github.com/*
+            - avatars.githubusercontent.com/*
+            - unpkg.com/*
+            - cdn.jsdelivr.net/*
+            - esm.sh/*
+            - q1.qlogo.cn/*
+            - deepwiki.com/badge.svg
+        links_attr_map:
+            target: _blank
+{% if has_social_dependencies %}
+-   social:
+        cards_layout: default/variant
+        cards_layout_options:
+            font_family: Noto Serif SC
+            background_color: "#E4E2DD"
+{% endif %}
+-   advanced-seo:
+        support_document_dates: true
+-   minify_html:
+        # https://docs.rs/minify-html/0.16.4/minify_html/struct.Cfg.html#fields
+        # https://github.com/monosans/mkdocs-minify-html-plugin
+        allow_noncompliant_unquoted_attribute_values: false
+        allow_optimal_entities: false
+        allow_removing_spaces_between_attributes: false
+        keep_closing_tags: true
+        keep_comments: false
+        keep_html_and_head_opening_tags: true
+        keep_input_type_text_attr: true
+        keep_ssi_comments: true
+        minify_css: true
+        minify_doctype: true
+        minify_js: true
+        preserve_brace_template_syntax: true
+        preserve_chevron_percent_template_syntax: true
+        remove_bangs: true
+        remove_processing_instructions: true
+# -   blog:
+#         blog_toc: true
+#         post_date_format: long
+#         post_excerpt: required
+#         post_readtime: false
+#         archive_name: Archive
+#         authors_profiles: true
+#         categories: false
+-   rss:
+    # https://guts.github.io/mkdocs-rss-plugin/
+        abstract_chars_count: 500
+        date_from_meta:
+            as_creation: document_dates_created
+            as_update: document_dates_updated
+        comments_path: "#__comments"
+        length: 500 # 放这么多，会有性能问题吗？
+        pretty_print: true
+-   llmstxt:
+    # https://pawamoy.github.io/mkdocs-llmstxt/
+        sections:
+            关于:
+            - index.md
+            - home/*.md
+            中学文科:
+            - cultural/**/*.md
+            高中理科:
+            - science/**/*.md
+# markdown_extensions:
+# - abbr
+# - admonition
+# - attr_list
+# - def_list
+# - footnotes
+# - md_in_html
+# - tables
+# -   toc:
+#         permalink: false
+#         toc_depth: 4
+# -   pymdownx.arithmatex:
+#         generic: true
+# - pymdownx.caret
+# - pymdownx.keys
+# - pymdownx.mark
+# - pymdownx.tilde
+# - pymdownx.betterem
+# - pymdownx.blocks.admonition
+# - pymdownx.blocks.details
+# - pymdownx.blocks.caption
+# - pymdownx.blocks.tab
+# -   pymdownx.highlight:
+#         anchor_linenums: true
+#         line_spans: __span
+#         pygments_lang_class: true
+#         linenums: true
+# - pymdownx.inlinehilite
+# -   pymdownx.snippets:
+#         auto_append:
+#             - docs/includes/abbreviations.md
+# - pymdownx.superfences
+# - pymdownx.magiclink
+# - pymdownx.smartsymbols
+# - pymdownx.tasklist
+# -   pymdownx.tabbed:
+#         alternate_style: true
