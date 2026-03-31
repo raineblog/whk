@@ -7,7 +7,7 @@
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": false,
   "readableLineLength": false,
-  "propertiesInDocument": "source",
+  "propertiesInDocument": "visible",
   "livePreview": true,
   "defaultViewMode": "source",
   "userIgnoreFilters": [
@@ -17,5 +17,12 @@
     "scripts/",
     "skills/",
     "docs/assets/"
-  ]
+  ],
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
