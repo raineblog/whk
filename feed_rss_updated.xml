@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Tue, 31 Mar 2026 13:45:21 -0000</pubDate>
-    <lastBuildDate>Tue, 31 Mar 2026 13:45:21 -0000</lastBuildDate>
+    <pubDate>Tue, 31 Mar 2026 14:25:21 -0000</pubDate>
+    <lastBuildDate>Tue, 31 Mar 2026 14:25:21 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,225 @@
     
 
     
+    
+    <item>
+      <title>数系与复数</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;数系与复数&lt;/h1&gt;
+&lt;h2&gt;虚数与复数&lt;/h2&gt;
+&lt;h3&gt;虚数定义&lt;/h3&gt;
+&lt;p&gt;虚数 $i$ 为一个定义为&lt;/p&gt;
+&lt;p&gt;$$
+i^2+1=0
+$$&lt;/p&gt;
+&lt;p&gt;的一个解，其满足上式的性质，又可表示为，&lt;/p&gt;
+&lt;p&gt;$$
+i^2=-1
+$$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;虽然没有这样的实数可以满足这个二次方程，但可以通过虚数单位将实数系统 $\mathbb R$ 延伸至复数系统 $\mathbb C$。延伸的主要动机为有很多实系数多项式方程式无实数解，可是倘若我们允许解答为虚数，那么这方程式以及所有的多项式方程式都有解。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我们回到原问题，&lt;/p&gt;
+&lt;p&gt;$$
+x^2+1=0
+$$&lt;/p&gt;
+&lt;p&gt;存在两个根，分别为，$i$ 和 $-i$，它们都是有效的，且互为共轭虚数及倒数。&lt;/p&gt;
+&lt;p&gt;这是因为，虽然 $i$ 和 $-i$ 在数量上不是相等的（它们是一对&lt;strong&gt;共轭虚数&lt;/strong&gt;），&lt;/p&gt;
+&lt;p&gt;但是 $i$ 和 $-i$ 之间没有质量上的区别（$-1$ 和 $+1$ 就不是这样的）。&lt;/p&gt;
+&lt;p&gt;在任何的等式中同时将所有 $i$ 替换为 $-i$，该等式仍成立。&lt;/p&gt;
+&lt;p&gt;$$
+-i^2=1,-i={1\over i}
+$$&lt;/p&gt;
+&lt;p&gt;例题：考虑 $-5$ 的平方根。&lt;/p&gt;
+&lt;p&gt;$$
+x^2+5=0\
+x=\pm\sqrt5 i
+$$
+...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/mathematics/1/</link>
+      <pubDate>Tue, 31 Mar 2026 14:18:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mathematics/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/1/</guid>
+      
+    </item>
+    
+    <item>
+      <title>集合与逻辑</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;集合与逻辑&lt;/h1&gt;
+&lt;h2&gt;基础知识&lt;/h2&gt;
+&lt;h3&gt;集合的定义&lt;/h3&gt;
+&lt;p&gt;集合：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;某些指定的对象集在⼀起就形成⼀个集合（简称集）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;元素：集合中每个对象叫做这个集合的元素。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;集合的三要素：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;确定性：集合内的元素是可以被确定的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;互异性：集合内的各元素都是唯⼀不重复的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;⽆序性：集合内的各元素的顺序是没有限制的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;子集与空集：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;子集：$A \subseteq B$ 或 $B \supseteq A$，表示 $A$ 中的任意元素都属于 $B$&lt;/p&gt;
+&lt;p&gt;$A \subseteq A, \varnothing \subseteq A$&lt;/p&gt;
+&lt;p&gt;$A \subseteq B$ 且 $B \subseteq C \implies A \subseteq C$&lt;/p&gt;
+&lt;p&gt;$A \subseteq B$ 且 $B \subseteq A \implies A=B$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;真子集：$A \subsetneqq B$ 或 $B \supsetneqq A$，表示 $A \subseteq B$ 且 $B$ 中至少有一元素不属于 $A$&lt;/p&gt;
+&lt;p&gt;$A \subsetneq...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/mathematics/2/</link>
+      <pubDate>Tue, 31 Mar 2026 14:18:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mathematics/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/2/</guid>
+      
+    </item>
+    
+    <item>
+      <title>公理化系统</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;公理化系统&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-08-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-08-19T11:57:22+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-03-31&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-03-31T14:18:07+00:00...</description>
+      <link>https://raineblog.dpdns.org/whk/science/mathematics/3/</link>
+      <pubDate>Tue, 31 Mar 2026 14:18:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mathematics/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/3/</guid>
+      
+    </item>
+    
+    <item>
+      <title>数学史概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;数学史概述&lt;/h1&gt;
+&lt;h2&gt;《梦溪笔谈》&lt;/h2&gt;
+&lt;p&gt;《梦溪笔谈》，或称《笔谈》，是中国北宋沈括所作的笔记体著作，原有 $26$ 卷，分 $17$ 门，题材广泛，记录作者所见所闻及研究心得，当中有三分一以上的内容，叙述有关科学技术的各方面先进成就，涉及天文、数学、物理、地理、医药和乐律等各范畴，使本书成为中国科技史研究的重要著作和珍贵资料。&lt;/p&gt;
+&lt;h3&gt;梦溪笔谈卷十八技艺&lt;/h3&gt;
+&lt;p&gt;《梦溪笔谈》中卷十八技艺中研究了“隙积术”和“会圆术”。隙积术是一种计算有空隙物体的体积的技术，计算在一种特定堆栈法下，酒瓮的总数目：以长方形为底，平铺一层酒瓮，再层层上堆，依次缩小每层的堆栈数，使成为类以跺的平头截体 。隙积术属于高阶等差级数求和问题，是求解垛积问题，具体提到累棋、层坛及酒家积罂等的垛积问题。会圆术是已知弓形的圆径和矢高求弧长的问题，书中推导得求弓形弧长的近似公式。&lt;/p&gt;
+&lt;p&gt;算术求积尺之法，如刍萌、刍童、方池、冥谷、堑堵、鳖臑、圆锥、阳马之类，物形备矣，独未有隙积一术，古法：凡算方积之物，有立方，谓六幂皆方者。其法再自乘则得之。有堑堵，谓如土墙者，两边杀，两头齐。其法并上下广，折半以为之广以直高乘之，以直高以股，...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/mathematics/4/</link>
+      <pubDate>Tue, 31 Mar 2026 14:18:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mathematics/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/4/</guid>
+      
+    </item>
+    
+    <item>
+      <title>线性规划</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;线性规划&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-24.avif&#34;&gt;&lt;/p&gt;
+&lt;h2&gt;例题 1&lt;/h2&gt;
+&lt;p&gt;$$\begin{cases}5x-11y \geq -22 \ 2x+3y \geq 9 \ 2x \leq 11\end{cases}$$&lt;/p&gt;
+&lt;p&gt;$z = 10x + 10y, \max{z} = $ ？&lt;/p&gt;
+&lt;h3&gt;基本概念&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;约束条件：变量 $x,y,\dots$ 满足的一组条件，上述二元一次不等式组就是对 $x,y$ 的约束条件。&lt;/li&gt;
+&lt;li&gt;线性约束条件：由变量 $x,y,\dots$ 的一次不等式 / 方程组成的不等式组就称为线性约束条件，如上述二元一次不等式。&lt;/li&gt;
+&lt;li&gt;目标函数：欲求最大值或最小值所涉及的变量 $x,y,\dots$ 的解析式，如上述 $z$.&lt;/li&gt;
+&lt;li&gt;线性目标函数：目标函数关于变量 $x,y,\dots$ 的一次解析式，如上述 $z$.&lt;/li&gt;
+&lt;li&gt;线性规划问题：在线性约束条件下求线性目标函数的问题。&lt;/li&gt;
+&lt;li&gt;可行解：满足线性约束条件的解 $(x,y)$.&lt;/li&gt;
+&lt;li&gt;可行域：由所有可行解组成的集合。&lt;/li&gt;
+&lt;li&gt;最优解：使目标函数取得 $\max$ 或 $\min$ 的可行解。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/number/1/</link>
+      <pubDate>Tue, 31 Mar 2026 14:18:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/number/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/1/</guid>
+      
+    </item>
+    
+    <item>
+      <title>数论入门</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;数论入门&lt;/h1&gt;
+&lt;h2&gt;因数&lt;/h2&gt;
+&lt;h3&gt;整除&lt;/h3&gt;
+&lt;p&gt;若 $b$ 能整除 $a$，则记为 $a\mid b$，如 $2\mid 12$. 若 $b$ 不能整除 $a$，则记为 $a\nmid b$，如 $5\nmid 12$.&lt;/p&gt;
+&lt;p&gt;若 $a\nmid b$，则 $b\div a$ 存在余数 $r$ 且 $0&amp;lt;r&amp;lt;a$，记 $r=a\ \mathrm{mod}\ b$. 例如，$3\ \mathrm{mod}\ 2=1$.&lt;/p&gt;
+&lt;p&gt;整除具有以下性质：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;若 $a\mid b$ 且 $a\mid c$，则 $\forall x,y$，有 $a\mid xb+yc$.&lt;/li&gt;
+&lt;li&gt;若 $a\mid b$ 且 $b\mid c$，则 $a\mid c$.&lt;/li&gt;
+&lt;li&gt;若 $a\mid b$ 且 $b\mid a$，则 $a=\pm b$.&lt;/li&gt;
+&lt;li&gt;设 $m\neq 0$，则 $a\mid b$，当且仅当 $ma\mid mb$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;最大公因数与最小公倍数&lt;/h3&gt;
+&lt;p&gt;设 $a,b$ 是两个不为 $0$ 的整数，能使 $d\mid a$ 和 $d\mid b$ 成立的最大整数 $d$，称为 $a,b$ 的最大公因数...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/number/3/</link>
+      <pubDate>Tue, 31 Mar 2026 14:18:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/number/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/3/</guid>
+      
+    </item>
+    
+    <item>
+      <title>数论测试</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;数论测试&lt;/h1&gt;
+&lt;h2&gt;一、请给出整除的概念及性质&lt;/h2&gt;
+&lt;p&gt;对于整数 $a,b$ $(b\neq0)$，如果存在整数 $c$，使得 $a=bc$，&lt;/p&gt;
+&lt;p&gt;则称 $b$ 整除 $a$，记作 $b \mid a$；否则称 $b$ 不整除 $a$，记作 $b \nmid a$。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;性质&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;$$
+\def\arraystretch{1.1}
+\begin{array}{rlrl}
+1.&amp;amp;a\mid b&amp;amp;\Longrightarrow&amp;amp;\pm a \mid \pm b\
+2.&amp;amp;a \mid b,\ b\mid c&amp;amp;\Longrightarrow&amp;amp;a \mid c\
+3.&amp;amp;\forall i:b\mid a_i&amp;amp;\Longrightarrow&amp;amp;b\mid\Sigma\ a_ik_i\
+4.&amp;amp;b\mid a&amp;amp;\Longrightarrow&amp;amp;bc\mid ac\ (c\in\mathbb Z,c\neq0)\
+5.&amp;amp;b\mid a\ (a\neq0)&amp;amp;\Longrightarrow&amp;amp;|b|\le|a|\
+5.&amp;amp;b\mid a,\ |a|&amp;lt;|b|&amp;amp;\Longrightarrow&amp;amp;a=0\...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/number/4/</link>
+      <pubDate>Tue, 31 Mar 2026 14:18:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/number/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/4/</guid>
+      
+    </item>
     
     <item>
       <title>恒定电流详解：电流定义与欧姆定律及应用场景</title>
@@ -358,26 +577,6 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/4/</guid>
-      
-    </item>
-    
-    <item>
-      <title>中国古代数学</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;中国古代数学&lt;/h1&gt;
-&lt;h2&gt;《梦溪笔谈》&lt;/h2&gt;
-&lt;p&gt;《梦溪笔谈》，或称《笔谈》，是中国北宋沈括所作的笔记体著作，原有 $26$ 卷，分 $17$ 门，题材广泛，记录作者所见所闻及研究心得，当中有三分一以上的内容，叙述有关科学技术的各方面先进成就，涉及天文、数学、物理、地理、医药和乐律等各范畴，使本书成为中国科技史研究的重要著作和珍贵资料。&lt;/p&gt;
-&lt;h3&gt;梦溪笔谈卷十八技艺&lt;/h3&gt;
-&lt;p&gt;《梦溪笔谈》中卷十八技艺中研究了“隙积术”和“会圆术”。隙积术是一种计算有空隙物体的体积的技术，计算在一种特定堆栈法下，酒瓮的总数目：以长方形为底，平铺一层酒瓮，再层层上堆，依次缩小每层的堆栈数，使成为类以跺的平头截体 。隙积术属于高阶等差级数求和问题，是求解垛积问题，具体提到累棋、层坛及酒家积罂等的垛积问题。会圆术是已知弓形的圆径和矢高求弧长的问题，书中推导得求弓形弧长的近似公式。&lt;/p&gt;
-&lt;p&gt;算术求积尺之法，如刍萌、刍童、方池、冥谷、堑堵、鳖臑、圆锥、阳马之类，物形备矣，独未有隙积一术，古法：凡算方积之物，有立方，谓六幂皆方者。其法再自乘则得之。有堑堵，谓如土墙者，两边杀，两头齐。其法并上下广，折半以为之广以直高乘之，以直高以股...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/mathematics/4/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/mathematics/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/4/</guid>
       
     </item>
     
@@ -1231,21 +1430,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>线性规划详解：几何结构、实际案例与工程应用分析</title>
-      
-      
-      
-      
-      <description>本文系统阐述线性规划的概念框架包括约束条件目标函数可行域及最优解的定义通过例题1的几何求解过程展示如何利用等高线法求解最大值并分析例题2例题3的变量关系与极值条件进一步揭示线性规划在工程优化与竞赛中的应用路径</description>
-      <link>https://raineblog.dpdns.org/whk/science/number/1/</link>
-      <pubDate>Sun, 29 Mar 2026 10:18:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/number/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/1/</guid>
-      
-    </item>
-    
-    <item>
       <title>笛卡尔坐标系详解：平面坐标变换原理与几何应用</title>
       
       
@@ -1831,51 +2015,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>数系与复数详解：虚数单位与几何解释的应用实例</title>
-      
-      
-      
-      
-      <description>本文系统阐述复数体系的构建过程，从虚数单位i的定义出发，推导其基本代数运算规则，并详细分析i的幂次循环规律。随后引入复数的几何解释，说明在复平面上的模、幅角及共轭关系，进一步阐释二次方程及高次多项式方程的根的分布，包括实根、共轭虚根以及多重根的概念，提供完整的代数基本定理与因式分解说明，适用于高等数学与工程计算。</description>
-      <link>https://raineblog.dpdns.org/whk/science/mathematics/1/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/mathematics/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/1/</guid>
-      
-    </item>
-    
-    <item>
-      <title>集合与逻辑详解：博弈论先手后手及策略解析与应用</title>
-      
-      
-      
-      
-      <description>本文系统阐述集合的定义、要素、子集及运算规律，涵盖并集、交集、补集及德摩根律等；进一步引入命题逻辑与量词的形式化表达；随后深入解析组合博弈论中的公平与非公平游戏、反常规则及P/N位置判定方法，提供从基础到高级的完整技术路线，适用于学术研究与竞赛复习。</description>
-      <link>https://raineblog.dpdns.org/whk/science/mathematics/2/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/mathematics/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/2/</guid>
-      
-    </item>
-    
-    <item>
-      <title>公理化系统详解：形式化方法与逻辑推导的应用</title>
-      
-      
-      
-      
-      <description>本文系统阐释公理化系统的构建框架，涵盖公理集合、推导规则与模型验证三大环节。详细分析了形式语言的语法结构、证明系统的递归定义以及在自动定理证明中的应用，并提供了具体案例与实现步骤，帮助读者掌握从公理到结论的完整推导路径。</description>
-      <link>https://raineblog.dpdns.org/whk/science/mathematics/3/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/mathematics/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/3/</guid>
-      
-    </item>
-    
-    <item>
       <title>静力与动量详解：力的合成、分解与拉密定理的实应用</title>
       
       
@@ -2037,36 +2176,6 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/nature/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/nature/4/</guid>
-      
-    </item>
-    
-    <item>
-      <title>数论入门详解：因数、最大公因数与在数学中的应用</title>
-      
-      
-      
-      
-      <description>本文系统阐述数论基础概念，包括整除性质、最大公因数与最小公倍数的计算方法、欧几里得算法及其证明，进而介绍裴蜀定理、费马数互素性、指数同余与费马小定理、欧拉函数的定义与性质以及中国剩余定理的构造与应用，配合实例展示在合数判定、合数分解与同余方程求解中的实际运用。</description>
-      <link>https://raineblog.dpdns.org/whk/science/number/3/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/number/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/3/</guid>
-      
-    </item>
-    
-    <item>
-      <title>数论整除与同余详解：性质机制与典型应用指南精</title>
-      
-      
-      
-      
-      <description>本文系统阐述整除与同余的基本概念，列出关键性质并给出证明过程；引入完全剩余系、裴蜀定理与费马小定理，进一步分析模运算的代数结构；通过连续整数乘积整除n!、120整除多项式及合同平方的模5、模8分析，展示数论在合同求余、合取性判定及模幂运算中的应用。同时展示模幂简化、指数周期及合同求逆的实例，帮助读者掌握模运算的实用技巧与竞赛常考点。</description>
-      <link>https://raineblog.dpdns.org/whk/science/number/4/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/number/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/4/</guid>
       
     </item>
     
