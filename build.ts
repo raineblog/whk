@@ -366,11 +366,11 @@ const removeEmptyAttrs = () => (tree) => {
 
 // 将新插件加入 posthtml_plugins
 // 注意：以下插件经过保守处理，避免破坏页面渲染
-posthtml_plugins.push(reorderHead());
 posthtml_plugins.push(cleanDuplicateSeo());
-// mergeStyleTags - 已移除，CSS 层叠顺序很重要，合并可能改变样式优先级
-// moveBlockingScripts - 已移除，内联脚本可能依赖特定执行时机
-posthtml_plugins.push(removeEmptyAttrs());
+// reorderHead - 已移除，可能导致 script 丢失
+// mergeStyleTags - 已移除，CSS 层叠顺序很重要
+// moveBlockingScripts - 已移除，脚本执行时机很重要
+// removeEmptyAttrs - 已移除，某些空属性可能有特殊含义
 
 // ============================================
 // 处理函数
