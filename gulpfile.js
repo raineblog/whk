@@ -52,7 +52,7 @@ const postcss_plugins = [
 ];
 
 const posthtml_plugins = [
-  posthtmlPostcss(postcss_plugins),
+  posthtmlPostcss(postcss_plugins, { from: undefined }),
   posthtmlImgAlt(),
   posthtmlAltAlways(),
   mergeInlineLonghand(),

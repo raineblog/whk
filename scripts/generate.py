@@ -139,14 +139,12 @@ def main():
 
         # 判断是否使用 uv
         use_uv = os.path.exists("uv.lock")
-        cmd_prefix = ["uv", "run"] if use_uv else []
+        cmd_prefix = ["uv", "run", "--no-sync"] if use_uv else []
 
         if args.build:
             print(f"[BUILD] 执行 {' '.join(cmd_prefix)} mkpandocs build...")
             try:
-                subprocess.run(
-                    cmd_prefix + ["mkpandocs", "build"], check=True
-                )
+                subprocess.run(cmd_prefix + ["mkpandocs", "build"], check=True)
                 print("[FINAL] 构建成功！")
             except subprocess.CalledProcessError as e:
                 print(f"[ERROR] 构建失败: {e}")

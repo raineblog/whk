@@ -88,10 +88,15 @@ jobs:
             echo "should_deploy=false" >> $GITHUB_OUTPUT
           fi
   
-      - name: Gulp Post-processing
+      - name: Build Bun Executable
         if: steps.deploy_check.outputs.should_deploy == 'true'
         run: |
-          bunx gulp --input-dir site --output-dir dist
+          bun build --compile --minify --bytecode build.ts --outfile build-bin
+      
+      - name: Bun Post-processing
+        if: steps.deploy_check.outputs.should_deploy == 'true'
+        run: |
+          ./build-bin --input-dir site --output-dir dist
           rm -rf site
           mv dist site
 

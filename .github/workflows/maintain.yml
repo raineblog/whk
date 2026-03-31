@@ -35,53 +35,53 @@ jobs:
           SITE_PROJECT: "whk"
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
 
-  frontmatter-sync:
-    name: Frontmatter AI Sync
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    steps:
-      - name: Checkout Source Code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+#   frontmatter-sync:
+#     name: Frontmatter AI Sync
+#     runs-on: ubuntu-latest
+#     timeout-minutes: 5
+#     steps:
+#       - name: Checkout Source Code
+#         uses: actions/checkout@v4
+#         with:
+#           fetch-depth: 0
+#           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '24'
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: '24'
 
-      - name: Install Dependencies
-        run: npm ci
-        working-directory: scripts/frontmatter
+#       - name: Install Dependencies
+#         run: npm ci
+#         working-directory: scripts/frontmatter
 
-      - name: Determine Process Flag
-        id: flags
-        run: |
-          if [[ "${{ github.event.schedule }}" == "0 0 1 * *" ]]; then
-            echo "EXEC_FLAG=--new" >> $GITHUB_OUTPUT
-          else
-            echo "EXEC_FLAG=--days 7" >> $GITHUB_OUTPUT
-          fi
+#       - name: Determine Process Flag
+#         id: flags
+#         run: |
+#           if [[ "${{ github.event.schedule }}" == "0 0 1 * *" ]]; then
+#             echo "EXEC_FLAG=--new" >> $GITHUB_OUTPUT
+#           else
+#             echo "EXEC_FLAG=--days 7" >> $GITHUB_OUTPUT
+#           fi
 
-      - name: Execute Frontmatter Generator
-        run: node scripts/generate_frontmatter.js ${{ steps.flags.outputs.EXEC_FLAG }}
-        env:
-          NVIDIA_NIM_API_KEY: ${{ secrets.NVIDIA_NIM_API_KEY }}
-          NODE_PATH: ${{ github.workspace }}/scripts/frontmatter/node_modules
-          CI: true
+#       - name: Execute Frontmatter Generator
+#         run: node scripts/generate_frontmatter.js ${{ steps.flags.outputs.EXEC_FLAG }}
+#         env:
+#           NVIDIA_NIM_API_KEY: ${{ secrets.NVIDIA_NIM_API_KEY }}
+#           NODE_PATH: ${{ github.workspace }}/scripts/frontmatter/node_modules
+#           CI: true
 
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/
-          if git diff --staged --quiet; then
-            echo "没有发现 Frontmatter 变更，跳过提交。"
-          else
-            git commit -m "chore: 自动化同步 AI 元数据"
-            git push origin main
-          fi
+#       - name: Commit and Push Changes
+#         run: |
+#           git config --global user.name "github-actions[bot]"
+#           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+#           git add docs/
+#           if git diff --staged --quiet; then
+#             echo "没有发现 Frontmatter 变更，跳过提交。"
+#           else
+#             git commit -m "chore: 自动化同步 AI 元数据"
+#             git push origin main
+#           fi
 
 #   autoblog:
 #     name: Autoblog Update

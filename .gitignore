@@ -388,3 +388,4 @@ properdocs.yml
 .kilocode/rules/
 .kilocode/workflows/
 mkpandocs.yml
+/temp-test
