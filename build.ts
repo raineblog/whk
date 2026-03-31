@@ -143,22 +143,19 @@ async function processCss(inputDir, outputDir) {
   return count;
 }
 
-// 处理 JS 文件
+// 处理 JS 文件（直接复制，不打包 - 站点 JS 通常已由生成器压缩）
 async function processJs(inputDir, outputDir) {
-  const jsFiles = new Glob(`${inputDir}/**/*.js`);
   let count = 0;
+  const jsFiles = new Glob(`${inputDir}/**/*.js`);
 
   for await (const jsFile of jsFiles.scan(".")) {
     const relativePath = path.relative(inputDir, jsFile);
-    const outDir = path.join(outputDir, path.dirname(relativePath));
-    await $`mkdir -p ${outDir}`.quiet();
-    
-    await Bun.build({
-      entrypoints: [jsFile],
-      minify: true,
-      sourcemap: "external",
-      outdir: outDir,
-    });
+    const outputPath = path.join(outputDir, relativePath);
+    const dir = path.dirname(outputPath);
+    await $`mkdir -p ${dir}`.quiet();
+
+    const content = await file(jsFile).bytes();
+    await Bun.write(outputPath, content);
     count++;
   }
 
