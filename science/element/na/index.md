@@ -6,13 +6,13 @@
 
 - 碱金属大多为银白色固体（铯 Cs 略带金色）、密度小柔软、熔沸点低。
 
-- 按照从上到下，$\\ce{Li,Na,K,Rb,Cs}$，熔沸点降低、密度增大（钾反常小），与氧气反应更加复杂。
+- 按照从上到下，\\ceLi,Na,K,Rb,Cs，熔沸点降低、密度增大（钾反常小），与氧气反应更加复杂。
 
-  $$ \\ce{Li + O2 -> LiO2} $$
+  \\ceLi+O2−>LiO2
 
-  $$ \\ce{Na + O2 -> Na2O, Na2O2} $$
+  \\ceNa+O2−>Na2O,Na2O2
 
-  $$ \\ce{K + O2 -> K2O, K2O2, KO2, KO3} $$
+  \\ceK+O2−>K2O,K2O2,KO2,KO3
 
 - 对应的碱，除了氢氧化锂外均为强碱，且碱性依次增强。
 
@@ -28,19 +28,19 @@
 
 ### 钠与氧气的反应
 
-- 常温：迅速被氧化为 $\\ce{Na2O}$，失去金属光泽。
+- 常温：迅速被氧化为 \\ceNa2O，失去金属光泽。
 
-  $$ \\ce{4Na + O2 -> 2Na2O} $$
+  \\ce4Na+O2−>2Na2O
 
 - 加热：先熔化后燃烧，发出黄色火焰，生成淡黄色固体。
 
-  $$ \\ce{2Na + O2 -> Na2O2} $$
+  \\ce2Na+O2−>Na2O2
 
 - 钠着火后用沙土盖灭。
 
 ### 钠与水的反应
 
-$$ \\ce{Na + 2H2O -> 2NaOH + H2 ^} $$
+\\ce{Na + 2H2O -> 2NaOH + H2 ^}
 
 | 现象                 | 解释               |
 | -------------------- | ------------------ |
@@ -67,13 +67,13 @@ $$ \\ce{Na + 2H2O -> 2NaOH + H2 ^} $$
 
 1. 后发生碱和盐的反应。
 
-   $$ \\ce{2Na + 2H2O + CuSO4 -> H2 ^ + Na2SO4 + Cu(OH)2 v} $$
+   \\ce2Na+2H2O+CuSO4−>H2+Na2SO4+Cu(OH)2v
 
 - 现象：同时有气体和沉淀产生。
 
 与熔融盐盐发生置换反应：
 
-$$ \\ce{2Na + CuSO4 -> Cu + Na2SO4} $$
+\\ce2Na+CuSO4−>Cu+Na2SO4
 
 ### 钠的应用
 
@@ -98,30 +98,30 @@ $$ \\ce{2Na + CuSO4 -> Cu + Na2SO4} $$
 
 作为碱性氧化物，与酸、水、酸性氧化物的反应：
 
-$$ \\begin{aligned} \\ce{Na2O + 2HCl &-> 2NaCl + H2O}\\ \\ce{Na2O + H2O &-> 2NaOH}\\ \\ce{Na2O + CO2 &-> Na2CO3} \\end{aligned} $$
+\\begin{aligned} \\ce{Na2O + 2HCl &-> 2NaCl + H2O}\\ \\ce{Na2O + H2O &-> 2NaOH}\\ \\ce{Na2O + CO2 &-> Na2CO3} \\end{aligned}
 
-同时存在 $\\ce{2Na2O + O2 -> 2Na2O2}$ 在加热条件下生成。
+同时存在 \\ce2Na2O+O2−>2Na2O2 在加热条件下生成。
 
 ### 过氧化钠的性质
 
 类似氧化钠的：
 
-$$ \\begin{aligned} \\ce{2Na2O2 + 4HCl &-> 4NaCl + 2H2O + O2}\\ \\ce{2Na2O2 + 2H2O &-> 4NaOH + O2}\\ \\ce{2Na2O2 + 2CO2 &-> 2Na2CO3 + O2} \\end{aligned} $$
+\\begin{aligned} \\ce{2Na2O2 + 4HCl &-> 4NaCl + 2H2O + O2}\\ \\ce{2Na2O2 + 2H2O &-> 4NaOH + O2}\\ \\ce{2Na2O2 + 2CO2 &-> 2Na2CO3 + O2} \\end{aligned}
 
 可以进行氧气供给。
 
-$$ \\begin{aligned} \\ce{Na2O2 + SO2 &-> NaSO4}\\ \\ce{Na2O2 + SO3 &-> NaSO4 + O2} \\end{aligned} $$
+\\begin{aligned} \\ce{Na2O2 + SO2 &-> NaSO4}\\ \\ce{Na2O2 + SO3 &-> NaSO4 + O2} \\end{aligned}
 
 这是因为其具有强氧化性，另外其还具有漂白性，可以用于杀菌消毒。
 
 ### 钠的氧化物题型
 
-关于 $\\ce{Na2O2}$ 的增重：
+关于 \\ceNa2O2 的增重：
 
 - $\\ce{Na2O2}$ 与 $\\ce{H2O}$ 反应，相当于增加了 $\\ce{H2}$ 的重量。
 - $\\ce{Na2O2}$ 与 $\\ce{CO2}$ 反应，相当于增加了 $\\ce{CO}$ 的重量。
 
-因此：$a\\pu g$ 的 $\\ce{H2,CO}$ 混合气体与足量氧气点燃，生成的气体通过足量过氧化钠，增重 $a\\pu g$。
+因此：a\\pug 的 \\ceH2,CO 混合气体与足量氧气点燃，生成的气体通过足量过氧化钠，增重 a\\pug。
 
 |                | $\\ce{Na2O}$ | $\\ce{Na2O2}$      |
 | -------------- | ------------ | ------------------ |
@@ -130,18 +130,18 @@ $$ \\begin{aligned} \\ce{Na2O2 + SO2 &-> NaSO4}\\ \\ce{Na2O2 + SO3 &-> NaSO4 + O
 | 阴阳离子个数比 | 1 : 2        | $1:2(\\ce{O2^2-})$ |
 | 稳定性         | 不稳定       | 较稳定             |
 
-钠单质长期暴露在空气中，会变为 $\\ce{Na2CO3}$ 固体。
+钠单质长期暴露在空气中，会变为 \\ceNa2CO3 固体。
 
 ## 钠的碳酸（氢）盐
 
 ### 套管实验
 
-理论：$\\ce{Na2CO3}$ 比 $\\ce{NaHCO3}$ 更碱、更溶、更稳定。
+理论：\\ceNa2CO3 比 \\ceNaHCO3 更碱、更溶、更稳定。
 
 - 外层：$\\ce{Na2CO3}$，无明显现象。
 - 内层：$\\ce{NaHCO3}$，塞蘸有无水硫酸铜的棉花，插入澄清石灰水中。
 
-类似的结论有 $\\ce{OH- + HCO3+ -> H2O + CO3^2-}$。
+类似的结论有 \\ceOH−+HCO3+−>H2O+CO32−。
 
 ### 半径法
 
@@ -154,33 +154,33 @@ $$ \\begin{aligned} \\ce{Na2O2 + SO2 &-> NaSO4}\\ \\ce{Na2O2 + SO3 &-> NaSO4 + O
 
 氨碱法（索尔维制碱法）：
 
-- 原料：食盐 $\\ce{NaCl}$、石灰石 $\\ce{CaCO3}$。
+- 原料：食盐 \\ceNaCl、石灰石 \\ceCaCO3。
 
-- 媒介：$\\ce{NH3}$。
+- 媒介：\\ceNH3。
 
 - 流程：
 
-  $$ \\ce{饱和食盐水 ->[NH3] 饱和氨盐水 ->[CO2] 碳酸氢钠 ->[过滤] ->[加热] 碳酸钠} $$
+  \\ce饱和食盐水−>[NH3]饱和氨盐水−>[CO2]碳酸氢钠−>[过滤]−>[加热]碳酸钠
 
 - 化学方程式：
 
-  $$ \\ce{NaCl + NH3 + CO2 + H2O -> NH4Cl + NaHCO3} $$
+  \\ceNaCl+NH3+CO2+H2O−>NH4Cl+NaHCO3
 
 经典问题：
 
 - 氨气使溶液具有碱性，可以吸收更多的二氧化碳。
-- 相同温度下，$\\ce{NaHCO3}$ 溶解度小于 $\\ce{NH4Cl}$，先析出。
-- $\\ce{NaHCO3}$ 的相对分子质量大于 $\\ce{NH4Cl}$，先达到饱和。
+- 相同温度下，\\ceNaHCO3 溶解度小于 \\ceNH4Cl，先析出。
+- \\ceNaHCO3 的相对分子质量大于 \\ceNH4Cl，先达到饱和。
 
 工业流程：
 
-- 循环使用 $\\ce{NaHCO3}$ 分解产生的氨气。
-- 使用碳酸钙制取 $\\ce{Ca(OH)2}$ 与 $\\ce{NH4Cl}$ 反应，循环利用氨气。
-- 缺点：产生 $\\ce{CaCl2}$ 无用物质，$\\ce{NaCl}$ 利用率低。
+- 循环使用 \\ceNaHCO3 分解产生的氨气。
+- 使用碳酸钙制取 \\ceCa(OH)2 与 \\ceNH4Cl 反应，循环利用氨气。
+- 缺点：产生 \\ceCaCl2 无用物质，\\ceNaCl 利用率低。
 
 联合制减法（侯氏制碱法）：
 
 - 氨厂与碱厂联合：碱厂直接利用氨厂产出的氨气和二氧化碳。
-- 中国农业化肥需求量大，$\\ce{NH4Cl}$ 直接作为化肥生产，无 $\\ce{CaCl2}$ 污染。
+- 中国农业化肥需求量大，\\ceNH4Cl 直接作为化肥生产，无 \\ceCaCl2 污染。
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

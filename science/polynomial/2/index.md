@@ -2,40 +2,40 @@
 
 ## 生成函数
 
-序列 *a* （有穷无穷均可）的普通生成函数定义为形式幂级数：*F*(*x*) = ∑*n**a**n**x**n*。例如：
+序列 a （有穷无穷均可）的普通生成函数定义为形式幂级数：F(x)=n∑​an​xn。例如：
 
 1. *a* = ⟪1, 2, 3⟫ 的普通生成函数是 1 + 2*x* + 3*x*2
 1. *a* = ⟪1, 1, 1, …⟫ 的普通生成函数是 ∑*n* ≥ 0*x\*\*n*
 1. *a* = ⟪1, 2, 4, 8, 16, …⟫ 的生成函数是 ∑*n* ≥ 02*n**x**n*
 1. *a* = ⟪1, 3, 5, 7, 9⟫ 的生成函数是 ∑*n* ≥ 0(2*n* + 1)*x\*\*n*
 
-换句话说，如果序列 *a* 有通项公式，那么它的普通生成函数的系数就是通项公式。
+换句话说，如果序列 a 有通项公式，那么它的普通生成函数的系数就是通项公式。
 
 ### 基本运算
 
-两个序列 *a*, *b* 的生成函数 *F*(*x*), *G*(*x*)，则 *F*(*x*) ± *G*(*x*) 是序列 ⟪*a\*\*n* ± *b\*\*n*⟫ 的生成函数。
+两个序列 a,b 的生成函数 F(x),G(x)，则 F(x)±G(x) 是序列 ⟨an​±bn​⟩ 的生成函数。
 
-*F*(*x*) ± *G*(*x*) = ∑*n*(*a\*\*n* ± *b\*\*n*)*x\*\*n*
+F(x)±G(x)=n∑​(an​±bn​)xn
 
-乘法运算即卷积，推出 *F*(*x*)*G*(*x*) 是序列 $\\left\\lang\\displaystyle\\sum\_{i=0}^na_ib\_{n-i}\\right\\rang$ 的生成函数。
+乘法运算即卷积，推出 F(x)G(x) 是序列 ⟨i=0∑n​ai​bn−i​⟩ 的生成函数。
 
-$$F(x)G(x)=\\sum_nx^n\\sum\_{i=0}^na_ib\_{n-i}$$
+F(x)G(x)=n∑​xni=0∑n​ai​bn−i​
 
 #### 形式幂级数形式 → 封闭形式
 
-例如 *a* = ⟪1, 1, 1, …⟫ 的普通生成函数是 *F*(*x*) = ∑*n* ≥ 0*x\*\*n*，可以发现 *F*(*x*)*x* + 1 = *F*(*x*)，于是解方程得到 $\\displaystyle F(x)=\\frac{1}{1-x}$，这就是 ∑*n* ≥ 0*x\*\*n* 的封闭形式。
+例如 a=⟨1,1,1,…⟩ 的普通生成函数是 F(x)=n≥0∑​xn，可以发现 F(x)x+1=F(x)，于是解方程得到 F(x)=1−x1​，这就是 n≥0∑​xn 的封闭形式。
 
-又例如等比数列 ⟪1, *p*, *p*2, …⟫ 的生成函数 *F*(*x*) = ∑*n* ≥ 0*p**n**x\*\*n*，有 *F*(*x*)*p\*\*x* + 1 = *F*(*x*) 得 $F(x)=\\displaystyle\\frac{1}{1-px}$.
+又例如等比数列 ⟨1,p,p2,…⟩ 的生成函数 F(x)=n≥0∑​pnxn，有 F(x)px+1=F(x) 得 F(x)=1−px1​.
 
-*a* = ⟪1, 0, 1, 0, 1, …⟫ 的 $F(x)=\\displaystyle\\sum\_{n\\geq 0}x^{2n}=\\frac{1}{1-x^2}$
+a=⟨1,0,1,0,1,…⟩ 的 F(x)=n≥0∑​x2n=1−x21​
 
-*a* = ⟪1, 2, 3, 4, …⟫ 的 $F(x)=\\displaystyle\\sum\_{n\\geq 0}(n+1)x^n=\\sum\_{n\\geq 0}(x^n)'=\\left(\\frac{1}{1-x}\\right)'=\\frac{1}{(1-x)^2}$
+a=⟨1,2,3,4,…⟩ 的 F(x)=n≥0∑​(n+1)xn=n≥0∑​(xn)′=(1−x1​)′=(1−x)21​
 
-$a_n=\\begin{pmatrix}m\\n\\end{pmatrix}$ 的 $F(x)=\\displaystyle\\sum\_{n\\geq 0}\\begin{pmatrix}m\\n\\end{pmatrix}x^n=(1+x)^m$
+an​=(mn​) 的 F(x)=n≥0∑​(mn​)xn=(1+x)m
 
-*F**i**b* 数列定义为 *a*0 = 0, *a*1 = 1, *a\*\*n* = *a\*\*n* − 1 + *a\*\*n* − 2，于是有
+Fib 数列定义为 a0​=0,a1​=1,an​=an−1​+an−2​，于是有
 
-$$F(x)=xF(x)+x^2F(x)-a_0x+a_1x+a_0\\implies F(x)=\\frac{x}{1-x-x^2}$$
+F(x)=xF(x)+x2F(x)−a0​x+a1​x+a0​⟹F(x)=1−x−x2x​
 
 #### 应用
 
@@ -53,26 +53,26 @@ $$F(x)=xF(x)+x^2F(x)-a_0x+a_1x+a_0\\implies F(x)=\\frac{x}{1-x-x^2}$$
 
 全部乘起来得到答案的生成函数：
 
-$$F(x)=\\frac{(1+x)(1-x^3)x(1-x^4)(1+x)}{(1-x^2)(1-x)(1-x^2)(1-x^4)(1-x)(1-x^3)}=\\frac{x}{(1-x)^4}=\\sum\_{n\\geq 1}\\begin{pmatrix}n+2\\n-1\\end{pmatrix}x^n$$
+F(x)=(1−x2)(1−x)(1−x2)(1−x4)(1−x)(1−x3)(1+x)(1−x3)x(1−x4)(1+x)​=(1−x)4x​=n≥1∑​(n+2n−1​)xn
 
-于是答案 $=\\begin{pmatrix}n+2\\n-1\\end{pmatrix}=\\begin{pmatrix}n+2\\3\\end{pmatrix}$
+于是答案 =(n+2n−1​)=(n+23​)
 
 1. *a\*\*n* + 1 + *a\*\*n* = 2*n*, *a*0 = 0，求通项。
 
-$f(x)=\\displaystyle\\sum\_{n=0}^{+\\infty}a_nx^n$，原式变为 *x*−1(*a\*\*n* + 1*x\*\*n* + 1) + *a**n**x\*\*n* = (2*x*)*n*，再求和有
+f(x)=n=0∑+∞​an​xn，原式变为 x−1(an+1​xn+1)+an​xn=(2x)n，再求和有
 
-$$\\displaystyle\\sum\_{n=0}^{+\\infty}x^{-1}(a\_{n+1}x^{n+1})+\\sum\_{n=0}^{+\\infty}(a_nx^n)=\\sum\_{n=0}^{+\\infty}(2x)^n=\\frac{1}{1-2x}\\implies (\\frac{1}{x}+1)f(x)=\\frac{1}{1-2x}$$
+n=0∑+∞​x−1(an+1​xn+1)+n=0∑+∞​(an​xn)=n=0∑+∞​(2x)n=1−2x1​⟹(x1​+1)f(x)=1−2x1​
 
-$$f(x)=\\frac{x}{(1-2x)(1+x)}=\\frac{1}{3}(\\frac{1}{1-2x}-\\frac{1}{1+x})=\\frac{1}{3}\\sum\_{n=0}^{+\\infty}[2^n-(-1)^n]x^n$$
+f(x)=(1−2x)(1+x)x​=31​(1−2x1​−1+x1​)=31​n=0∑+∞​[2n−(−1)n]xn
 
-于是 $\\displaystyle a_n=\\frac{1}{3}[2^n-(-1)^n]$.
+于是 an​=31​[2n−(−1)n].
 
 1. 卡特兰数：一个 *n* × *n* 的方阵从 (0, 0) 走到 (*n*, *n*)，不经过对角线的方案数，记作 *C\*\*n*。
 
-有如下关系：$C_n=\\displaystyle\\sum\_{k=0}^nC\_{n-k}C_k$，构造 $f(x)=\\displaystyle\\sum\_{n=0}^{+\\infty}C_nx^n$，有
+有如下关系：Cn​=k=0∑n​Cn−k​Ck​，构造 f(x)=n=0∑+∞​Cn​xn，有
 
-$$f^2(x)=C_0^2+(C_0C_1+C_1C_0)x+\\dots\\implies xf^2(x)+C_0=f(x)\\implies f(x)=\\frac{1-\\sqrt{1-4x} }{2x}$$
+f2(x)=C02​+(C0​C1​+C1​C0​)x+⋯⟹xf2(x)+C0​=f(x)⟹f(x)=2x1−1−4x​​
 
-$$\\implies f(x)=\\frac{1-\\left{1+\\displaystyle\\sum\_{k=1}^{+\\infty}\\left[-2\\begin{pmatrix}2k-2\\ k-1\\end{pmatrix}\\right]x^k\\right}}{2x}=\\sum\_{k=0}^{+\\infty}\\frac{\\begin{pmatrix}2k\\k\\end{pmatrix}x^k}{k+1}\\implies\\red{\\boxed{C_n=\\frac{\\begin{pmatrix}2n\\n\\end{pmatrix}}{n+1}}}$$
+⟹f(x)=2x1−{1+k=1∑+∞​[−2(2k−2k−1​)]xk}​=k=0∑+∞​k+1(2kk​)xk​⟹Cn​=n+1(2nn​)​​
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

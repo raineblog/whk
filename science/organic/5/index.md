@@ -4,7 +4,7 @@
 
 ### 烷烃（甲烷）
 
-烷烃通式：$\\ce{C_nH\_{2n+2}}$
+烷烃通式：\\ceCn​H2n+2​
 
 1. 氧化反应：
 
@@ -12,19 +12,19 @@
 
    甲烷的燃烧：
 
-   $$ \\ce{CH4 + 2O2 ->[\\text{点燃}] CO2 + 2H2O} $$
+   \\ceCH4+2O2−>[点燃]CO2+2H2O
 
 1. 取代反应：
 
-   $$ \\ce{CH4 + Cl2 ->[\\text{光照}] CH3Cl + HCl} $$
+   \\ceCH4+Cl2−>[光照]CH3Cl+HCl
 
 ### 烯烃（乙烯）
 
-烯烃通式：$\\ce{C_nH\_{2n}}$
+烯烃通式：\\ceCn​H2n​
 
 1. 乙烯的制取：
 
-   $$ \\ce{CH3CH2OH ->[\\text{浓}H2SO4][\\pu{170^oC}] CH2=CH2 ^ + H2O} $$
+   \\ceCH3CH2OH−>[浓H2SO4][\\pu170oC]CH2=CH2+H2O
 
 1. 氧化反应：
 
@@ -32,43 +32,43 @@
 
    乙烯的燃烧：
 
-   $$ \\ce{C2H4 + 3O2 ->[\\text{点燃}] 2CO2 + 2H2O} $$
+   \\ceC2H4+3O2−>[点燃]2CO2+2H2O
 
 1. 加成反应：
 
    乙烯与溴水加成：
 
-   $$ \\ce{CH2=CH2 + Br2 -> CH2Br-CH2Br} $$
+   \\ceCH2=CH2+Br2−>CH2Br−CH2Br
 
    乙烯与氢气加成：
 
-   $$ \\ce{CH2=CH2 + H2 ->[\\text{催化剂}] CH3-CH3} $$
+   \\ceCH2=CH2+H2−>[催化剂]CH3−CH3
 
    乙烯与水加成：
 
-   $$ \\ce{CH2=CH2 + H2O ->[\\text{催化剂}][\\text{高温高压}] CH3CH2OH} $$
+   \\ceCH2=CH2+H2O−>[催化剂][高温高压]CH3CH2OH
 
 1. 加聚反应：
 
    乙烯加聚反应：
 
-   $$ \\ce{nCH2=CH2 ->[\\text{引发剂}] -[CH2-CH2]\_n-} $$
+   \\cenCH2=CH2−>[引发剂]−[CH2−CH2]n​−
 
    1,3-丁二烯的加成（1,4 加成）：
 
-   $$ \\ce{CH2=CH-CH=CH2 + H2 ->[\\text{1,4加成}] CH3-CH=CH-CH3} $$
+   \\ceCH2=CH−CH=CH2+H2−>[1,4加成]CH3−CH=CH−CH3
 
    1,3-丁二烯的加聚：
 
-   $$ \\ce{nCH2=CH-CH=CH2 ->[\\text{催化剂}] -[CH2-CH=CH-CH2]\_n-} $$
+   \\cenCH2=CH−CH=CH2−>[催化剂]−[CH2−CH=CH−CH2]n​−
 
 ### 炔烃（乙炔）
 
-炔烃的通式：$\\ce{C_nH\_{2n-2}}$
+炔烃的通式：\\ceCn​H2n−2​
 
 1. 乙炔的制取：
 
-   $$ \\ce{CaC2 + 2H2O -> Ca(OH)2 + CH#CH ^} $$
+   \\ce{CaC2 + 2H2O -> Ca(OH)2 + CH#CH ^}
 
 1. 氧化反应：
 
@@ -76,35 +76,35 @@
 
    乙炔的燃烧：
 
-   $$ \\ce{2C2H2 + 5O2 ->[\\text{点燃}] 4CO2 + 2H2O} $$
+   \\ce2C2H2+5O2−>[点燃]4CO2+2H2O
 
 1. 加成反应：
 
    与溴水加成：
 
-   $$ \\ce{CH#CH + 2Br2 -> CHBr2-CHBr2} $$
+   \\ce{CH#CH + 2Br2 -> CHBr2-CHBr2}
 
    与氢气加成：
 
-   $$ \\ce{CH#CH + 2H2 ->[\\text{催化剂}] CH3-CH3} $$
+   \\ce{CH#CH + 2H2 ->[\\text{催化剂}] CH3-CH3}
 
    与氯化氢加成（制聚氯乙烯单体）：
 
-   $$ \\ce{CH#CH + HCl ->[\\text{催化剂}][\\triangle] CH2=CHCl} $$
+   \\ce{CH#CH + HCl ->[\\text{催化剂}][\\triangle] CH2=CHCl}
 
 1. 聚合反应：
 
    氯乙烯加聚，得到聚氯乙烯：
 
-   $$ \\ce{nCH2=CHCl ->[\\text{催化剂}] -[CH2-CHCl]\_n-} $$
+   \\cenCH2=CHCl−>[催化剂]−[CH2−CHCl]n​−
 
    乙炔加聚，得到聚乙炔：
 
-   $$ \\ce{nCH#CH ->[\\text{催化剂}] -[CH=CH]\_n-} $$
+   \\ce{nCH#CH ->[\\text{催化剂}] -[CH=CH]\_n-}
 
 ### 苯
 
-苯的同系物通式：$\\ce{C_nH\_{2n-6}}$
+苯的同系物通式：\\ceCn​H2n−6​
 
 1. 氧化反应：
 
@@ -112,21 +112,21 @@
 
    苯的燃烧：
 
-   $$ \\ce{2C6H6 + 15O2 ->[\\text{点燃}] 12CO2 + 6H2O} $$
+   \\ce2C6H6+15O2−>[点燃]12CO2+6H2O
 
 1. 取代反应：
 
    苯与溴反应：
 
-   $$ \\ce{C6H6 + Br2(\\text{液}) ->[FeBr3] C6H5Br + HBr} $$
+   \\ceC6H6+Br2(液)−>[FeBr3]C6H5Br+HBr
 
    硝化反应：
 
-   $$ \\ce{C6H6 + HNO3(\\text{浓}) ->[\\text{浓}H2SO4][50\\sim60\\pu{^oC}] C6H5NO2 + H2O} $$
+   \\ceC6H6+HNO3(浓)−>[浓H2SO4][50∼60\\puoC]C6H5NO2+H2O
 
 1. 苯与氢气加成反应：
 
-   $$ \\ce{C6H6 + 3H2 ->[\\text{催化剂}] C6H12} $$
+   \\ceC6H6+3H2−>[催化剂]C6H12
 
    产物为环己烷。
 
@@ -136,35 +136,35 @@
 
 1. 氧化反应：**能使**酸性高锰酸钾溶液褪色。
 
-   $$ \\ce{5C6H5CH3 + 6KMnO4 + 9H2SO4 -> 5C6H5COOH + 3K2SO4 + 6MnSO4 + 14H2O} $$
+   \\ce5C6H5CH3+6KMnO4+9H2SO4−>5C6H5COOH+3K2SO4+6MnSO4+14H2O
 
    注：氧化成苯甲酸。
 
 1. 取代反应（制 TNT）：
 
-   $$ \\ce{C6H5CH3 + 3HNO3(\\text{浓}) ->[\\text{浓}H2SO4][\\triangle] C6H2(NO2)3CH3 + 3H2O} $$
+   \\ceC6H5CH3+3HNO3(浓)−>[浓H2SO4][△]C6H2(NO2)3CH3+3H2O
 
    注意：甲苯在光照条件下发生侧链的取代，而在催化剂条件下发生苯环上的取代。
 
 1. 与氢气加成反应：
 
-   $$ \\ce{C6H5CH3 + 3H2 ->[\\text{催化剂}] C6H11CH3} $$
+   \\ceC6H5CH3+3H2−>[催化剂]C6H11CH3
 
    产物为甲基环己烷。
 
 ### 气态烃燃烧气体分子数不变的条件
 
-两种气态烃与足量氧气混合，燃烧后气体分子数不变，需要满足特定的条件。前提是燃烧后温度 $\\ge \\pu{100 ^\\circ C}$，生成的水为气态。
+两种气态烃与足量氧气混合，燃烧后气体分子数不变，需要满足特定的条件。前提是燃烧后温度 ≥\\pu100∘C，生成的水为气态。
 
-设两种气态烃分别为 $\\ce{C_xH_y}$ 和 $\\ce{C_uH_v}$，取其物质的量分别为 *a*, *b*，与足量 $\\ce{O2}$ 混合并完全燃烧。完全燃烧方程式为：
+设两种气态烃分别为 \\ceCx​Hy​ 和 \\ceCu​Hv​，取其物质的量分别为 a,b，与足量 \\ceO2 混合并完全燃烧。完全燃烧方程式为：
 
-$$ \\ce{C_xH_y + (x + y/4)O2 -> xCO2 + y/2H2O} $$
+\\ceCx​Hy​+(x+y/4)O2−>xCO2+y/2H2O
 
-燃烧前气体分子总物质的量为 $1 + x + \\frac{y}{4}$，燃烧后气体分子总物质的量为 $x + \\frac{y}{2}$。令燃烧前后气体分子数相等，可得：
+燃烧前气体分子总物质的量为 1+x+4y​，燃烧后气体分子总物质的量为 x+2y​。令燃烧前后气体分子数相等，可得：
 
-$$ 1 + x + \\frac{y}{4} = x + \\frac{y}{2} $$
+1+x+4y​=x+2y​
 
-解得 $\\frac{y}{4} = 1$，即 *y* = 4。
+解得 4y​=1，即 y=4。
 
 **核心结论**：混合气态烃的平均氢原子数必须等于 4。
 
@@ -172,7 +172,7 @@ $$ 1 + x + \\frac{y}{4} = x + \\frac{y}{2} $$
 
 #### 情况一：任意比例混合均成立
 
-若混合比例任意，则两种烃的氢原子数必须都等于 4（*y* = *v* = 4）。符合条件的气态烃包括：
+若混合比例任意，则两种烃的氢原子数必须都等于 4（y=v=4）。符合条件的气态烃包括：
 
 - $\\ce{CH4}$（甲烷）
 - $\\ce{C2H4}$（乙烯）
@@ -183,17 +183,21 @@ $$ 1 + x + \\frac{y}{4} = x + \\frac{y}{2} $$
 
 #### 情况二：特定比例混合
 
-若按特定比例混合，则需满足平均氢原子数为 4，即一种烃的氢原子数  \< 4，另一种烃的氢原子数  > 4。
+若按特定比例混合，则需满足平均氢原子数为 4，即一种烃的氢原子数 \<4，另一种烃的氢原子数
 
-氢原子数  \< 4 的气态烃只有 $\\ce{C2H2}$（乙炔）。氢原子数  > 4 的气态烃有乙烷、丙烷、丁烷、丙烯、丁烯等。
+> 4。
 
-设乙炔的物质的量为 *n*1，另一种气态烃（$\\ce{C_xH_y}$，*y* > 4）的物质的量为 *n*2，根据平均氢原子数为 4：
+氢原子数 \<4 的气态烃只有 \\ceC2H2（乙炔）。氢原子数
 
-$$ \\frac{n_1 \\times 2 + n_2 \\times y}{n_1 + n_2} = 4 $$
+> 4 的气态烃有乙烷、丙烷、丁烷、丙烯、丁烯等。
+
+设乙炔的物质的量为 n1​，另一种气态烃（\\ceCx​Hy​，y>4）的物质的量为 n2​，根据平均氢原子数为 4：
+
+n1​+n2​n1​×2+n2​×y​=4
 
 化简得到物质的量比通式：
 
-$$ \\frac{n_1}{n_2} = \\frac{y - 4}{2} $$
+n2​n1​​=2y−4​
 
 具体例子：
 
@@ -205,137 +209,145 @@ $$ \\frac{n_1}{n_2} = \\frac{y - 4}{2} $$
 
 ### 溴乙烷
 
-纯净的溴乙烷是无色液体，沸点 $\\pu{38.4 ^\\circ C}$，密度比水大。
+纯净的溴乙烷是无色液体，沸点 \\pu38.4∘C，密度比水大。
 
 1. 取代反应：溴乙烷的水解反应
 
-   $$ \\ce{CH3CH2Br + NaOH ->[H2O][\\triangle] CH3CH2OH + NaBr} $$
+   \\ceCH3CH2Br+NaOH−>[H2O][△]CH3CH2OH+NaBr
 
 1. 消去反应：溴乙烷的消去反应
 
-   $$ \\ce{CH3CH2Br + NaOH ->[\\text{醇}][\\triangle] CH2=CH2 ^ + NaBr + H2O} $$
+   \\ceCH3CH2Br+NaOH−>[醇][△]CH2=CH2+NaBr+H2O
 
 ### 乙醇
 
 1. 与钠反应：
 
-   $$ \\ce{2CH3CH2OH + 2Na -> 2CH3CH2ONa + H2 ^} $$
+   \\ce{2CH3CH2OH + 2Na -> 2CH3CH2ONa + H2 ^}
 
 1. 催化氧化：
 
-   $$ \\ce{2CH3CH2OH + O2 ->[Cu][\\triangle] 2CH3CHO + 2H2O} $$
+   \\ce2CH3CH2OH+O2−>[Cu][△]2CH3CHO+2H2O
 
 1. 消去反应：
 
-   $$ \\ce{CH3CH2OH ->[\\text{浓}H2SO4][\\pu{170^oC}] CH2=CH2 ^ + H2O} $$
+   \\ceCH3CH2OH−>[浓H2SO4][\\pu170oC]CH2=CH2+H2O
 
 1. 取代反应：
 
-   与浓 $\\ce{HBr}$ 反应：
+   与浓 \\ceHBr 反应：
 
-   $$ \\ce{CH3CH2OH + HBr ->[\\triangle] CH3CH2Br + H2O} $$
+   \\ceCH3CH2OH+HBr−>[△]CH3CH2Br+H2O
 
    酯化反应：
 
-   $$ \\ce{CH3COOH + C2H5OH \<=>[\\text{浓}H2SO4][\\triangle] CH3COOC2H5 + H2O} $$
+   \\ceCH3COOH+C2H5OH\<=>[浓H2SO4][△]CH3COOC2H5+H2O
 
    分子间脱水生成乙醚：
 
-   $$ \\ce{2C2H5OH ->[\\text{浓}H2SO4][\\pu{140^oC}] C2H5-O-C2H5 + H2O} $$
+   \\ce2C2H5OH−>[浓H2SO4][\\pu140oC]C2H5−O−C2H5+H2O
 
-总结乙醇的氧化反应有哪些？燃烧；催化氧化；被酸性 $\\ce{KMnO4}$ 氧化；被 $\\ce{K2Cr2O7}$ 氧化。
+总结乙醇的氧化反应有哪些？燃烧；催化氧化；被酸性 \\ceKMnO4 氧化；被 \\ceK2Cr2O7 氧化。
 
 ### 苯酚
 
-苯酚是无色晶体，露置在空气中会因氧化显粉红色。苯酚具有特殊的气味，熔点 $\\pu{43 ^\\circ C}$，水中溶解度不大，易溶于有机溶剂。苯酚有毒，是一种重要的化工原料。
+苯酚是无色晶体，露置在空气中会因氧化显粉红色。苯酚具有特殊的气味，熔点 \\pu43∘C，水中溶解度不大，易溶于有机溶剂。苯酚有毒，是一种重要的化工原料。
 
-1. 苯酚的酸性：$\\ce{H2CO3}$ > $\\ce{C6H5OH}$ > $\\ce{HCO3^-}$
+1. 苯酚的酸性：\\ceH2CO3
+
+   >
+
+   \\ceC6H5OH
+
+   >
+
+   \\ceHCO3−
 
    苯酚（俗称石炭酸）的电离：
 
-   $$ \\ce{C6H5OH \<=> C6H5O^- + H^+} $$
+   \\ceC6H5OH\<=>C6H5O−+H+
 
-   苯酚与 $\\ce{NaOH}$ 的反应：
+   苯酚与 \\ceNaOH 的反应：
 
-   $$ \\ce{C6H5OH + NaOH -> C6H5ONa + H2O} $$
+   \\ceC6H5OH+NaOH−>C6H5ONa+H2O
 
-   苯酚钠与 $\\ce{CO2}$ 反应：
+   苯酚钠与 \\ceCO2 反应：
 
-   $$ \\ce{C6H5ONa + CO2 + H2O -> C6H5OH + NaHCO3} $$
+   \\ceC6H5ONa+CO2+H2O−>C6H5OH+NaHCO3
 
    苯酚钠与盐酸反应：
 
-   $$ \\ce{C6H5ONa + HCl -> C6H5OH + NaCl} $$
+   \\ceC6H5ONa+HCl−>C6H5OH+NaCl
 
 1. 取代反应（与浓溴水反应）：
 
-   $$ \\ce{C6H5OH + 3Br2 -> C6H2Br3OH v + 3HBr} $$
+   \\ceC6H5OH+3Br2−>C6H2Br3OHv+3HBr
 
    生成三溴苯酚白色沉淀。
 
-1. 显色反应：苯酚能和 $\\ce{FeCl3}$ 溶液反应，使溶液**显紫色**。
+1. 显色反应：苯酚能和 \\ceFeCl3 溶液反应，使溶液**显紫色**。
 
 ### 乙醛
 
-乙醛是无色无味，具有刺激性气味的液体，沸点 $\\pu{20.8 ^\\circ C}$，密度比水小，易挥发。
+乙醛是无色无味，具有刺激性气味的液体，沸点 \\pu20.8∘C，密度比水小，易挥发。
 
 1. 加成反应（乙醛与氢气反应）：
 
-   $$ \\ce{CH3CHO + H2 ->[\\text{催化剂}] CH3CH2OH} $$
+   \\ceCH3CHO+H2−>[催化剂]CH3CH2OH
 
 1. 氧化反应：
 
    乙醛的催化氧化：
 
-   $$ \\ce{2CH3CHO + O2 ->[\\text{催化剂}][\\triangle] 2CH3COOH} $$
+   \\ce2CH3CHO+O2−>[催化剂][△]2CH3COOH
 
    乙醛的银镜反应：
 
-   $$ \\ce{CH3CHO + 2Ag(NH3)2OH ->[\\triangle] CH3COONH4 + 2Ag v + 3NH3 + H2O} $$
+   \\ceCH3CHO+2Ag(NH3)2OH−>[△]CH3COONH4+2Agv+3NH3+H2O
 
    有关制备银氨溶液的方程式：
 
-   $$ \\ce{AgNO3 + NH3.H2O -> AgOH v + NH4NO3} $$
+   \\ceAgNO3+NH3.H2O−>AgOHv+NH4NO3
 
-   $$ \\ce{AgOH + 2NH3.H2O -> [Ag(NH3)2]OH + 2H2O} $$
+   \\ceAgOH+2NH3.H2O−>[Ag(NH3)2]OH+2H2O
 
    乙醛与新制的氢氧化铜反应：
 
-   $$ \\ce{CH3CHO + 2Cu(OH)2 + NaOH ->[\\triangle] CH3COONa + Cu2O v + 3H2O} $$
+   \\ceCH3CHO+2Cu(OH)2+NaOH−>[△]CH3COONa+Cu2Ov+3H2O
 
    乙二醛氧化为乙二酸：
 
-   $$ \\ce{OHC-CHO + O2 ->[\\text{催化剂}] HOOC-COOH} $$
+   \\ceOHC−CHO+O2−>[催化剂]HOOC−COOH
 
 ### 乙酸
 
 1. 乙酸的电离：
 
-   $$ \\ce{CH3COOH \<=> CH3COO^- + H^+} $$
+   \\ceCH3COOH\<=>CH3COO−+H+
 
 1. 乙酸的酸性：
 
-   $\\ce{2CH3COOH + 2Na -> 2CH3COONa + H2 ^}$
+   \\ce{2CH3COOH + 2Na -> 2CH3COONa + H2 ^}
 
-   $\\ce{2CH3COOH + Na2CO3 -> 2CH3COONa + CO2 ^ + H2O}$
+   \\ce2CH3COOH+Na2CO3−>2CH3COONa+CO2+H2O
 
-   $\\ce{CH3COOH + NaHCO3 -> CH3COONa + CO2 ^ + H2O}$
+   \\ceCH3COOH+NaHCO3−>CH3COONa+CO2+H2O
 
-   $\\ce{CH3COOH + NaOH -> CH3COONa + H2O}$
+   \\ceCH3COOH+NaOH−>CH3COONa+H2O
 
-   $\\ce{2CH3COOH + Cu(OH)2 -> (CH3COO)2Cu + 2H2O}$
+   \\ce2CH3COOH+Cu(OH)2−>(CH3COO)2Cu+2H2O
 
 1. 酯化反应：
 
-   $$ \\ce{CH3COOH + C2H5OH \<=>[\\text{浓}H2SO4][\\triangle] CH3COOC2H5 + H2O} $$
+   \\ceCH3COOH+C2H5OH\<=>[浓H2SO4][△]CH3COOC2H5+H2O
 
 1. 乙二醇和乙二酸生成链酯：
 
-   $$ \\ce{n HOCH2CH2OH + n HOOC-COOH -> HO-[CH2CH2OOC-COO]\_n-H + $(2n-1)$ H2O} $$
+   \\ce{n HOCH2CH2OH + n HOOC-COOH -> HO-[CH2CH2OOC-COO]\_n-H + $(2n-1)$ H2O}
 
 1. 乙二醇和乙二酸生成环酯：
 
-   $$ \\ce{HOCH2CH2OH + HOOC-COOH ->[\\text{浓}H2SO4][\\triangle] \\text{Cyclic Ester} + 2H2O} $$
+   \\ceHOCH2CH2OH+HOOC−COOH−>[浓H2SO4][△]Cyclic Ester+2H2O
 
 1. 乙二醇和乙二酸生成聚酯：同（4）。
 
@@ -345,106 +357,104 @@ $$ \\frac{n_1}{n_2} = \\frac{y - 4}{2} $$
 
 1. 酸性水解反应：
 
-   $$ \\ce{CH3COOC2H5 + H2O \<=>[H2SO4][\\triangle] CH3COOH + C2H5OH} $$
+   \\ceCH3COOC2H5+H2O\<=>[H2SO4][△]CH3COOH+C2H5OH
 
 1. 碱性水解反应：
 
-   $$ \\ce{CH3COOC2H5 + NaOH ->[\\triangle] CH3COONa + C2H5OH} $$
+   \\ceCH3COOC2H5+NaOH−>[△]CH3COONa+C2H5OH
 
 ### 烃的衍生物的相互转化
 
-以 $\\ce{CH3CH2Br}$ 为例：
+以 \\ceCH3CH2Br 为例：
 
-卤代烃 $\\ce{R-X}$ $\\xrightarrow{①\\ \\text{水解}}$ 醇 $\\ce{R-OH}$ $\\xrightarrow{②\\ \\text{氧化}}$ 醛 $\\ce{R-CHO}$ $\\xrightarrow{③\\ \\text{氧化}}$ 羧酸 $\\ce{RCOOH}$ $\\xrightarrow{④\\ \\text{酯化}}$ 酯 $\\ce{RCOOR'}$
+卤代烃 \\ceR−X ① 水解​ 醇 \\ceR−OH ② 氧化​ 醛 \\ceR−CHO ③ 氧化​ 羧酸 \\ceRCOOH ④ 酯化​ 酯 \\ceRCOOR′
 
-1. $\\ce{CH3CH2Br + NaOH ->[H2O][\\triangle] CH3CH2OH + NaBr}$
-1. $\\ce{2C2H5OH + O2 ->[Cu][\\triangle] 2CH3CHO + 2H2O}$
-1. $\\ce{2CH3CHO + O2 ->[\\text{催化剂}] 2CH3COOH}$
-1. $\\ce{CH3COOH + C2H5OH \<=>[\\text{浓}H2SO4][\\triangle] CH3COOC2H5 + H2O}$
-1. $\\ce{CH3CH2Br + NaOH ->[\\text{醇}][\\triangle] CH2=CH2 ^ + NaBr + H2O}$
-1. $\\ce{CH3CH2OH ->[\\text{浓}H2SO4][\\pu{170^oC}] CH2=CH2 ^ + H2O}$
-1. $\\ce{CH2=CH2 + HBr -> CH3CH2Br}$
-1. $\\ce{CH2=CH2 + H2O ->[\\text{催化剂}] CH3CH2OH}$
-1. $\\ce{CH3COOC2H5 + H2O \<=>[H^+][\\triangle] CH3COOH + C2H5OH}$
-1. $\\ce{CH3CHO + H2 ->[\\text{催化剂}] CH3CH2OH}$
+1. \\ceCH3CH2Br+NaOH−>[H2O][△]CH3CH2OH+NaBr
+1. \\ce2C2H5OH+O2−>[Cu][△]2CH3CHO+2H2O
+1. \\ce2CH3CHO+O2−>[催化剂]2CH3COOH
+1. \\ceCH3COOH+C2H5OH\<=>[浓H2SO4][△]CH3COOC2H5+H2O
+1. \\ceCH3CH2Br+NaOH−>[醇][△]CH2=CH2+NaBr+H2O
+1. \\ceCH3CH2OH−>[浓H2SO4][\\pu170oC]CH2=CH2+H2O
+1. \\ceCH2=CH2+HBr−>CH3CH2Br
+1. \\ceCH2=CH2+H2O−>[催化剂]CH3CH2OH
+1. \\ceCH3COOC2H5+H2O\<=>[H+][△]CH3COOH+C2H5OH
+1. \\ceCH3CHO+H2−>[催化剂]CH3CH2OH
 
 ## 按要求完成下列各题
 
 ### 写出下列物质的键线式
 
-1. 1,4-二溴-2-丁烯：$\\ce{Br-CH2-CH=CH-CH2-Br}$
-1. $\\ce{BrCH2CH=CHCHBrCH2OH}$
-1. $\\ce{C(CH3)3CHBrC(CH3)2CH2CH3}$
+1. 1,4-二溴-2-丁烯：\\ceBr−CH2−CH=CH−CH2−Br
+1. \\ceBrCH2CH=CHCHBrCH2OH
+1. \\ceC(CH3)3CHBrC(CH3)2CH2CH3
 
 ### 乳酸的自聚
 
-乳酸：$\\ce{CH3CH(OH)COOH}$
+乳酸：\\ceCH3CH(OH)COOH
 
 1. 一分子内成环酯：生成丙交酯（Lactide）。
 
 1. 两分子间成环酯：
 
-   $$ \\ce{2CH3CH(OH)COOH ->[\\text{浓}H2SO4][\\triangle] \\text{Cyclic Diester} + 2H2O} $$
+   \\ce2CH3CH(OH)COOH−>[浓H2SO4][△]Cyclic Diester+2H2O
 
 1. 聚酯：
 
-   $$ \\ce{nCH3CH(OH)COOH ->[\\text{催化剂}] -[O-CH(CH3)-CO]\_n- + nH2O} $$
+   \\cenCH3CH(OH)COOH−>[催化剂]−[O−CH(CH3)−CO]n​−+nH2O
 
 ### 葡萄糖
 
-葡萄糖的结构简式：$\\ce{CH2OH(CHOH)4CHO}$
+葡萄糖的结构简式：\\ceCH2OH(CHOH)4CHO
 
 1. 与银氨溶液的反应：
 
-   $$ \\ce{CH2OH(CHOH)4CHO + 2Ag(NH3)2OH ->[\\triangle] CH2OH(CHOH)4COONH4 + 2Ag v + 3NH3 + H2O} $$
+   \\ceCH2OH(CHOH)4CHO+2Ag(NH3)2OH−>[△]CH2OH(CHOH)4COONH4+2Agv+3NH3+H2O
 
-1. 与新制 $\\ce{Cu(OH)2}$ 溶液的反应：
+1. 与新制 \\ceCu(OH)2 溶液的反应：
 
-   $$ \\ce{CH2OH(CHOH)4CHO + 2Cu(OH)2 + NaOH ->[\\triangle] CH2OH(CHOH)4COONa
-
-   - Cu2O v + 3H2O} $$
+   \\ceCH2OH(CHOH)4CHO+2Cu(OH)2+NaOH−>[△]CH2OH(CHOH)4COONa+Cu2Ov+3H2O
 
 ### 甘氨酸和丙氨酸的分子间成肽反应
 
 1. 二肽：
 
-   $$ \\ce{H2NCH2COOH + H2NCH(CH3)COOH ->[\\text{酶}] H2NCH2CONHCH(CH3)COOH + H2O} $$
+   \\ceH2NCH2COOH+H2NCH(CH3)COOH−>[酶]H2NCH2CONHCH(CH3)COOH+H2O
 
 1. 多肽：
 
-   $$ \\ce{n H2NCH2COOH -> -[NH-CH2-CO]\_n- + nH2O} $$
+   \\cenH2NCH2COOH−>−[NH−CH2−CO]n​−+nH2O
 
 ### 有机反应条件要记清
 
 请填写下列由已知有机物生成产物的反应条件。
 
-1. 反应物 $\\ce{BrCH2CH2CH2OH}$：
+1. 反应物 \\ceBrCH2CH2CH2OH：
 
-   生成 $\\ce{CH2=CHCH2OH}$：条件为 **$\\ce{NaOH}$ 醇溶液，加热**。
+   生成 \\ceCH2=CHCH2OH：条件为 **$\\ce{NaOH}$ 醇溶液，加热**。
 
-   生成 $\\ce{HOCH2CH2CH2OH}$：条件为 **$\\ce{NaOH}$ 水溶液，加热**。
+   生成 \\ceHOCH2CH2CH2OH：条件为 **$\\ce{NaOH}$ 水溶液，加热**。
 
-   生成 $\\ce{BrCH2CH=CH2}$：条件为**浓硫酸，$\\pu{170 ^\\circ C}$**。
+   生成 \\ceBrCH2CH=CH2：条件为**浓硫酸，$\\pu{170 ^\\circ C}$**。
 
 1. 苯环侧链与光照 / 催化剂的区别：
 
-   $\\ce{C6H5CH3 + Cl2 ->[\\text{光照}] C6H5CH2Cl}$（侧链取代）
+   \\ceC6H5CH3+Cl2−>[光照]C6H5CH2Cl（侧链取代）
 
-   $\\ce{C6H5CH3 + Cl2 ->[Fe] Cl-C6H4-CH3}$（苯环取代，邻 / 对位）
+   \\ceC6H5CH3+Cl2−>[Fe]Cl−C6H4−CH3（苯环取代，邻 / 对位）
 
-1. 反应物 $\\ce{CH2=CHCH2OH}$：
+1. 反应物 \\ceCH2=CHCH2OH：
 
-   生成 $\\ce{BrCH2CHBrCH2OH}$：条件为**溴水或溴的 $\\ce{CCl4}$ 溶液**。
+   生成 \\ceBrCH2CHBrCH2OH：条件为**溴水或溴的 $\\ce{CCl4}$ 溶液**。
 
-   生成 $\\ce{CH2=CHCHO}$：条件为 **$\\ce{Cu/O2}$，加热**。
+   生成 \\ceCH2=CHCHO：条件为 **$\\ce{Cu/O2}$，加热**。
 
-   生成 $\\ce{CH2=CHCH2OOCCH3}$：条件为**浓硫酸，加热（与乙酸酯化）**。
+   生成 \\ceCH2=CHCH2OOCCH3：条件为**浓硫酸，加热（与乙酸酯化）**。
 
-1. 反应物 $\\ce{CH3CHBrCOOCH3}$：
+1. 反应物 \\ceCH3CHBrCOOCH3：
 
-   生成 $\\ce{CH3CH(OH)COOH}$：条件为 **$\\ce{NaOH}$ 水溶液，加热；稀硫酸**。
+   生成 \\ceCH3CH(OH)COOH：条件为 **$\\ce{NaOH}$ 水溶液，加热；稀硫酸**。
 
-   生成 $\\ce{CH3CHBrCOOH}$：条件为**稀硫酸，加热**。
+   生成 \\ceCH3CHBrCOOH：条件为**稀硫酸，加热**。
 
 ### 常见有机反应的反应条件
 
@@ -454,49 +464,49 @@ $$ \\frac{n_1}{n_2} = \\frac{y - 4}{2} $$
 
 **制乙烯**（分子内脱水）：
 
-$$ \\ce{CH3CH2OH ->[\\text{浓}H2SO4][\\pu{170^oC}] CH2=CH2 ^ + H2O} $$
+\\ceCH3CH2OH−>[浓H2SO4][\\pu170oC]CH2=CH2+H2O
 
 **制乙醚**（分子间脱水）：
 
-$$ \\ce{2CH3CH2OH ->[\\text{浓}H2SO4][\\pu{140^oC}] CH3CH2OCH2CH3 + H2O} $$
+\\ce2CH3CH2OH−>[浓H2SO4][\\pu140oC]CH3CH2OCH2CH3+H2O
 
 #### 2. 苯的取代反应
 
 **硝化反应**（制硝基苯）：
 
-$$ \\ce{C6H6 + HNO3(\\text{浓}) ->[\\text{浓}H2SO4][50\\sim60\\pu{^oC}] C6H5NO2 + H2O} $$
+\\ceC6H6+HNO3(浓)−>[浓H2SO4][50∼60\\puoC]C6H5NO2+H2O
 
 需要水浴加热控制温度，若温度过高会生成副产物间二硝基苯。
 
 **磺化反应**（制苯磺酸）：
 
-$$ \\ce{C6H6 + H2SO4(\\text{浓}) ->[70\\sim80\\pu{^oC}] C6H5SO3H + H2O} $$
+\\ceC6H6+H2SO4(浓)−>[70∼80\\puoC]C6H5SO3H+H2O
 
 #### 3. 醛的氧化反应
 
 **银镜反应**：
 
-$$ \\ce{CH3CHO + 2Ag(NH3)2OH ->[\\triangle] CH3COONH4 + 2Ag v + 3NH3 + H2O} $$
+\\ceCH3CHO+2Ag(NH3)2OH−>[△]CH3COONH4+2Agv+3NH3+H2O
 
-需要温水浴加热（$60\\sim70\\pu{^oC}$），不可直接煮沸。
+需要温水浴加热（60∼70\\puoC），不可直接煮沸。
 
 **与新制氢氧化铜反应**：
 
-$$ \\ce{CH3CHO + 2Cu(OH)2 + NaOH ->[\\triangle] CH3COONa + Cu2O v + 3H2O} $$
+\\ceCH3CHO+2Cu(OH)2+NaOH−>[△]CH3COONa+Cu2Ov+3H2O
 
-需要煮沸，产生砖红色沉淀 $\\ce{Cu2O}$。
+需要煮沸，产生砖红色沉淀 \\ceCu2O。
 
 #### 4. 酯化反应与水解反应
 
 **乙酸乙酯的制备**：
 
-$$ \\ce{CH3COOH + C2H5OH \<=>[\\text{浓}H2SO4][\\triangle] CH3COOC2H5 + H2O} $$
+\\ceCH3COOH+C2H5OH\<=>[浓H2SO4][△]CH3COOC2H5+H2O
 
 小火加热，保持微沸，蒸出产物以推动平衡向右移动。
 
 **蔗糖的水解**：
 
-$$ \\ce{C12H22O11 + H2O ->[\\text{稀}H2SO4][\\triangle] C6H12O6 + C6H12O6} $$
+\\ceC12H22O11+H2O−>[稀H2SO4][△]C6H12O6+C6H12O6
 
 需要稀硫酸催化，热水浴加热。
 
@@ -504,11 +514,11 @@ $$ \\ce{C12H22O11 + H2O ->[\\text{稀}H2SO4][\\triangle] C6H12O6 + C6H12O6} $$
 
 **酸催化**（生成线型结构树脂）：
 
-$$ \\ce{C6H5OH + HCHO ->[\\text{浓}HCl][\\pu{100^oC}] \\text{酚醛树脂}} $$
+\\ceC6H5OH+HCHO−>[浓HCl][\\pu100oC]酚醛树脂
 
 **碱催化**（生成体型/网状结构树脂）：
 
-$$ \\ce{C6H5OH + HCHO ->[\\text{浓}NH3·H2O][\\pu{100^oC}] \\text{酚醛树脂}} $$
+\\ceC6H5OH+HCHO−>[浓NH3⋅H2O][\\pu100oC]酚醛树脂
 
 需要沸水浴加热。
 
@@ -516,17 +526,17 @@ $$ \\ce{C6H5OH + HCHO ->[\\text{浓}NH3·H2O][\\pu{100^oC}] \\text{酚醛树脂}
 
 **醇的催化氧化**（醇 → 醛）：
 
-$$ \\ce{2CH3CH2OH + O2 ->[Cu][\\triangle] 2CH3CHO + 2H2O} $$
+\\ce2CH3CH2OH+O2−>[Cu][△]2CH3CHO+2H2O
 
 **酯的皂化反应**：
 
-$$ \\ce{RCOOR' + NaOH ->[\\triangle] RCOONa + R'OH} $$
+\\ceRCOOR′+NaOH−>[△]RCOONa+R′OH
 
 需要煮沸，碱既是反应物也促进水解。
 
 **油脂的水解**：
 
-$$ \\ce{(C17H33COO)3C3H5 + 3NaOH ->[\\triangle] 3C17H33COONa + C3H5(OH)3} $$
+\\ce(C17H33COO)3C3H5+3NaOH−>[△]3C17H33COONa+C3H5(OH)3
 
 #### 反应条件总结表
 
@@ -544,12 +554,12 @@ $$ \\ce{(C17H33COO)3C3H5 + 3NaOH ->[\\triangle] 3C17H33COONa + C3H5(OH)3} $$
 
 ### 烯酮的稳定性
 
-烯酮（ketene）是一类含有 $\\ce{C=C=O}$ 累积双键的化合物。以**二甲基烯酮**（$(\\ce{CH3})2\\ce{C=C=O}$）为例：
+烯酮（ketene）是一类含有 \\ceC=C=O 累积双键的化合物。以**二甲基烯酮**（(\\ceCH3)2\\ceC=C=O）为例：
 
 - **价键上合法**：中间碳为 sp 杂化，形成两个双键，每个碳基本满足八隅体。
 - **但反应性很强**：累积双键的电子结构特殊，容易发生水解、与醇 / 胺反应、二聚或聚合。
-- **比最简单的烯酮稍稳定**：两个甲基带来超共轭效应和位阻，使其比 $\\ce{CH2=C=O}$（乙烯酮）更容易分离。但仍需要无水、低温、惰性气氛条件保存。
-- **自发二聚**：室温下两个分子发生 [2 + 2] 环加成，生成 2,2,4,4-四甲基-1,3-环丁二酮。只有在很低温度下才会减缓。
+- **比最简单的烯酮稍稳定**：两个甲基带来超共轭效应和位阻，使其比 \\ceCH2=C=O（乙烯酮）更容易分离。但仍需要无水、低温、惰性气氛条件保存。
+- **自发二聚**：室温下两个分子发生 [2+2] 环加成，生成 2,2,4,4-四甲基-1,3-环丁二酮。只有在很低温度下才会减缓。
 
 > 位阻更大的烯酮（如二叔丁基烯酮）可以在室温下稳定存在，说明空间位阻是控制烯酮稳定性的关键因素。
 
@@ -579,7 +589,7 @@ $$ \\ce{(C17H33COO)3C3H5 + 3NaOH ->[\\triangle] 3C17H33COONa + C3H5(OH)3} $$
 
 #### 有机酸酐
 
-有机酸酐主要是羧酸酐，指两个羧酸分子失去一分子水形成的化合物，通式为 $(\\ce{RCO})\_2\\ce{O}$。
+有机酸酐主要是羧酸酐，指两个羧酸分子失去一分子水形成的化合物，通式为 (\\ceRCO)2​\\ceO。
 
 **分类**：
 
@@ -589,7 +599,19 @@ $$ \\ce{(C17H33COO)3C3H5 + 3NaOH ->[\\triangle] 3C17H33COONa + C3H5(OH)3} $$
 
 **核心反应原理**：亲核酰基取代。酸酐的酰基碳受到亲核试剂攻击，发生加成
 
-- 消除反应。反应活性排序：酰卤 > **酸酐** > 酯 > 酰胺。
+- 消除反应。反应活性排序：酰卤
+
+>
+
+**酸酐**
+
+>
+
+酯
+
+>
+
+酰胺。
 
 **经典反应**：
 

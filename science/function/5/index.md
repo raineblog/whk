@@ -4,65 +4,60 @@
 
 ### 几何意义
 
-如果在 [*a*, *b*](*a*%E2%80%84%E2%89%A0%E2%80%84*b*) 上函数 *f*(*x*) 连续且恒有 *f*(*x*) ≥ 0，那么定积分 ∫*a**b**f*(*x*)*d\*\*x* 表示由曲线 *y* = *f*(*x*) 以及直线 *x* = *a*, *x* = *b*, *y* = 0 围成的曲边梯形的面积。
+如果在 [a,b](a%EE%80%A0=b) 上函数 f(x) 连续且恒有 f(x)≥0，那么定积分 ∫ab​f(x)dx 表示由曲线 y=f(x) 以及直线 x=a,x=b,y=0 围成的曲边梯形的面积。
 
-若 *f*(*x*) ≤ 0，那么定积分 ∫*a**b**f*(*x*)*d\*\*x* 表示由曲线 *y* = *f*(*x*) 以及直线 *x* = *a*, *x* = *b*, *y* = 0 围成的曲边梯形的面积的**负值**。
+若 f(x)≤0，那么定积分 ∫ab​f(x)dx 表示由曲线 y=f(x) 以及直线 x=a,x=b,y=0 围成的曲边梯形的面积的**负值**。
 
-如果我们把 *x* 轴上方的面积赋予正号，下方的面积赋予负号，那么在一般情形下，定积分 ∫*a**b**f*(*x*)*d\*\*x* 表示由曲线 *y* = *f*(*x*) 以及直线 *x* = *a*, *x* = *b*, *y* = 0 围成的各部分图形面积的代数和。
+如果我们把 x 轴上方的面积赋予正号，下方的面积赋予负号，那么在一般情形下，定积分 ∫ab​f(x)dx 表示由曲线 y=f(x) 以及直线 x=a,x=b,y=0 围成的各部分图形面积的代数和。
 
 ### 微积分基本定理 / Newton − Leibniz 牛顿 - 莱布尼兹公式
 
-以下设 *C* 是一个常数。
+以下设 C 是一个常数。
 
-如果 *f*(*x*) 是 \[*a*, *b*\] 上的连续函数且 *F*′(*x*) = *f*(*x*)，那么
+如果 f(x) 是 [a,b] 上的连续函数且 F′(x)=f(x)，那么
 
-$$\\boxed{\\int\_{a}^{b}f(x)\
-dx=F(x)|\_{a}^{b}=F(b)-F(a) }$$
+∫ab​f(x) dx=F(x)∣ab​=F(b)−F(a)​
 
-我们称 *F*(*x*) 是 *f*(*x*) 的原函数。因为 \[*F*(*x*) + *C*\]′ = *f*(*x*)，所以 *F*(*x*) + *C* 也是 *f*(*x*) 的原函数。
+我们称 F(x) 是 f(x) 的原函数。因为 [F(x)+C]′=f(x)，所以 F(x)+C 也是 f(x) 的原函数。
 
 常用定积分公式：
 
-∫*a**b**C* *d\*\*x* = *C\*\*x*|*a\*\*b* = *C\*\*b* − *C\*\*a* = *C*(*b* − *a*)
+∫ab​C dx=Cx∣ab​=Cb−Ca=C(b−a)
 
-$$\\int\_{a}^{b}x^n\
-dx=\\frac{1}{n+1}x^{n+1}|\_{a}^{b}=\\frac{1}{n+1}b^{n+1}-\\frac{1}{n+1}a^{n+1}=\\frac{b^{n+1}-a^{n+1} }{n+1}$$
+∫ab​xn dx=n+11​xn+1∣ab​=n+11​bn+1−n+11​an+1=n+1bn+1−an+1​
 
-∫*a\*\*b*sin *x* *d\*\*x* = (−cos *x*)|*a\*\*b* = −cos *b* + cos *a*
+∫ab​sinx dx=(−cosx)∣ab​=−cosb+cosa
 
-∫*a\*\*b*cos *x* *d\*\*x* = sin *x*|*a\*\*b* = sin *b* − sin *a*
+∫ab​cosx dx=sinx∣ab​=sinb−sina
 
-$$\\int_a^b\\frac{1}{x}\\ dx=\\ln x|\_a^b=\\ln b-\\ln a=\\ln\\frac{b}{a}$$
+∫ab​x1​ dx=lnx∣ab​=lnb−lna=lnab​
 
-∫*a**b**e\*\*x* *d\*\*x* = *e\*\*x*|*a\*\*b* = *e\*\*b* − *e\*\*a*
+∫ab​ex dx=ex∣ab​=eb−ea
 
-$$\\int_a^b n^x\\ dx=\\frac{n^x}{\\ln n}|\_a^b=\\frac{n^b}{\\ln b}-\\frac{n^a}{\\ln a}$$
+∫ab​nx dx=lnnnx​∣ab​=lnbnb​−lnana​
 
-$$\\int_L^R \\frac{cx+d}{ax+b}\
-dx=\\frac{cx}{a}+(\\frac{d}{a}-\\frac{bc}{a^2})\\times\\ln|ax+b|\
-|\_L^R$$
+∫LR​ax+bcx+d​ dx=acx​+(ad​−a2bc​)×ln∣ax+b∣ ∣LR​
 
 #### 定积分的基本性质
 
-1. ∫*a**b**C\*\*f*(*x*) *d\*\*x* = *C*∫*a**b**f*(*x*) *d\*\*x*
-1. ∫*a\*\*b*\[*f*(*x*) ± *g*(*x*)\] *d\*\*x* = ∫*a**b**f*(*x*) *d\*\*x* ± ∫*a**b**g*(*x*) *d\*\*x*
-1. ∫*a**b**f*(*x*) *d\*\*x* = ∫*a**c**f*(*x*) *d\*\*x* + ∫*c**b**f*(*x*) *d\*\*x*
-1. 在区间 \[*a*, *b*\] 上满足 *f*(*x*) ≥ 0，则 ∫*a**b**f*(*x*) *d\*\*x* ≥ 0
-1. 在区间 \[*a*, *b*\] 上满足 *f*(*x*) ≤ *g*(*x*)，则 ∫*a**b**f*(*x*) *d\*\*x* ≤ ∫*a**b**g*(*x*) *d\*\*x*
-1. |∫*a**b**f*(*x*) *d\*\*x*| ≤ ∫*a\*\*b*|*f*(*x*)| *d\*\*x*
-1. 若 *f*(*x*) 是偶函数，且在 \[−*a*, *a*\] 上连续，则 ∫−*a**a**f*(*x*) *d\*\*x* = 2∫0*a\*\*f*(*x*) *d\*\*x*
-1. 若 *f*(*x*) 是奇函数，且在 \[−*a*, *a*\] 上连续，则 ∫−*a**a**f*(*x*) *d\*\*x* = 0
+1. ∫ab​Cf(x) dx=C∫ab​f(x) dx
+1. ∫ab​[f(x)±g(x)] dx=∫ab​f(x) dx±∫ab​g(x) dx
+1. ∫ab​f(x) dx=∫ac​f(x) dx+∫cb​f(x) dx
+1. 在区间 [a,b] 上满足 f(x)≥0，则 ∫ab​f(x) dx≥0
+1. 在区间 [a,b] 上满足 f(x)≤g(x)，则 ∫ab​f(x) dx≤∫ab​g(x) dx
+1. ​∫ab​f(x) dx​≤∫ab​∣f(x)∣ dx
+1. 若 f(x) 是偶函数，且在 [−a,a] 上连续，则 ∫−aa​f(x) dx=2∫0a​f(x) dx
+1. 若 f(x) 是奇函数，且在 [−a,a] 上连续，则 ∫−aa​f(x) dx=0
 
 #### 不定积分
 
-我们现在需要一种简单的表示反导数的方式。根据微积分基本定理，我们可以用 ∫*f*(*x*) *d\*\*x* 表示“函数 *f* 的反导数的集合”，注意任何可积函数都有无数个反导数，唯一不同的是常数部分。例如，
+我们现在需要一种简单的表示反导数的方式。根据微积分基本定理，我们可以用 ∫f(x) dx 表示“函数 f 的反导数的集合”，注意任何可积函数都有无数个反导数，唯一不同的是常数部分。例如，
 
-$$\\int x^2\
-dx=\\frac{x^3}{3}+C$$
+∫x2 dx=3x3​+C
 
-对于任意常数 *C* 都成立。也就是说，若 *F*′(*x*) = *f*(*x*)，则
+对于任意常数 C 都成立。也就是说，若 F′(x)=f(x)，则
 
-∫*f*(*x*) *d\*\*x* = *F*(*x*) + *C*
+∫f(x) dx=F(x)+C
 
 不定积分的性质同定积分的性质。
 
@@ -70,63 +65,37 @@ dx=\\frac{x^3}{3}+C$$
 
 - 第一换元积分法：令 *y* = *g*(*x*) 有：
 
-$$\\red{\\boxed{\\int_a^bf(g(x))g'(x)\
-dx=\\int\_{g(a)}^{g(b)}f(y)\\ dy}}$$
+∫ab​f(g(x))g′(x) dx=∫g(a)g(b)​f(y) dy​
 
-1. $$\\int 2\\sin 2x\
-   dx\\xlongequal{u=2x}\\int\\sin u\\ du=-\\cos u+C=-\\cos 2x+C\\ \\ \\ \
-   (du=2dx)$$
-1. $$\\int (2x+1)^5\
-   dx\\xlongequal{u=2x+1}\\int u^5\
-   du=\\frac{1}{12}u^6+C=\\frac{1}{12}(2x+1)^6+C\\ \\ \\ \
-   (du=2dx)$$
-1. $$\\begin{aligned}\\int\\frac{2x}{(x^2+1)^3}\
-   dx&=\\int(x^2+1)^{-3}\\cdot 2x\\ dx\\xlongequal{u=x^2+1}\\int u^{-3}\
-   du\\&=-\\frac{1}{2}u^{-2}+C=-\\frac{1}{2(x^2+1)}+C\\ \\ \\ \
-   (du=2xdx)\\end{aligned}$$
-1. $$\\begin{aligned}\\int x\\sqrt{1-x^2}\
-   dx&=-\\frac{1}{2}\\int\\sqrt{1-x^2}(-2x\
-   dx)\\xlongequal{u=1-x^2}-\\frac{1}{2}\\int u^{\\frac{1}{2}}\
-   du\\&=-\\frac{1}{3}u^{\\frac{3}{2}}+C=-\\frac{1}{3}(1-x^2)^{\\frac{3}{2}}+C\
-   \\ \\ \\ (du=-2dx)\\end{aligned}$$
-1. $$\\int\\frac{1}{x^2+a^2}\
-   dx=\\frac{1}{a^2}\\int\\frac{1}{\\frac{x^2}{a^2}+1}\
-   dx=\\frac{1}{a}\\int\\frac{1}{1+(\\frac{x}{a})^2}\
-   d(\\frac{x}{a})=\\frac{1}{a}\\arctan\\frac{x}{a}+C$$
-1. $$\\int_0^1e^{2x}\
-   dx=\\int_0^2\\frac{1}{2}e^y\
-   dy=\\frac{1}{2}(e^2-e^0)=\\frac{1}{2}(e^2-1)$$
+1. ∫2sin2x dxu=2x∫sinu du=−cosu+C=−cos2x+C    (du=2dx)
+1. ∫(2x+1)5 dxu=2x+1∫u5 du=121​u6+C=121​(2x+1)6+C    (du=2dx)
+1. ∫(x2+1)32x​ dx​=∫(x2+1)−3⋅2x dxu=x2+1∫u−3 du=−21​u−2+C=−2(x2+1)1​+C    (du=2xdx)​
+1. ∫x1−x2​ dx​=−21​∫1−x2​(−2x dx)u=1−x2−21​∫u21​ du=−31​u23​+C=−31​(1−x2)23​+C    (du=−2dx)​
+1. ∫x2+a21​ dx=a21​∫a2x2​+11​ dx=a1​∫1+(ax​)21​ d(ax​)=a1​arctanax​+C
+1. ∫01​e2x dx=∫02​21​ey dy=21​(e2−e0)=21​(e2−1)
 
 - 第二换元积分法：令 *x* = *g*(*t*), *d\*\*x* = *g*′(*t*)*d\*\*t* 有：
 
-$$\\red{\\boxed{\\int f(x)\\ dx=\\int f[g(t)]g'(t)\\ dt}}$$
+∫f(x) dx=∫f[g(t)]g′(t) dt​
 
-1. $$\\begin{aligned}\\int\\frac{1}{1+\\sqrt x}\\ dx&\\xlongequal{x=t^2}\\int\\frac{1}{1+t}\\cdot 2t\
-   dt=2\\int(1-\\frac{1}{1+t})\
-   dt=2t-2\\ln|1+t|+C\\&=2\\sqrt{x}-2\\ln|1+\\sqrt{x}|+C\\end{aligned}$$
-1. $$\\begin{aligned}\\int\\sqrt{a^2-x^2}\
-   dx&\\xlongequal{x=a\\sin t}\\int a\\cos t\\cdot a\\cos t\\ dt=a^2\\int \\cos^2 t\\ dt\\&=a^2\\int\\frac{1+\\cos 2t}{2}dt=a^2(\\frac{1}{2}t+\\frac{1}{4}\\sin 2t)+C\\&=a^2(\\frac{1}{2}\\arcsin\\frac{x}{a}+\\frac{1}{4}\\frac{2}{a^2}x\\sqrt{a^2-x^2})+C\\&=\\frac{a^2}{2}\\arcsin\\frac{x}{a}+\\frac{x}{2}\\sqrt{a^2-x^2}+C\\end{aligned}$$
+1. ∫1+x​1​ dx​x=t2∫1+t1​⋅2t dt=2∫(1−1+t1​) dt=2t−2ln∣1+t∣+C=2x​−2ln∣1+x​∣+C​
+1. ∫a2−x2​ dx​x=asint∫acost⋅acost dt=a2∫cos2t dt=a2∫21+cos2t​dt=a2(21​t+41​sin2t)+C=a2(21​arcsinax​+41​a22​xa2−x2​)+C=2a2​arcsinax​+2x​a2−x2​+C​
 
 #### 分部积分法
 
-(*u\*\*v*)′ = *u*′*v* + *u\*\*v*′ ⟹ *u\*\*v*′ = (*u\*\*v*)′ − *v\*\*u*′ ⟹ ∫*u\*\*v*′ *d\*\*x* = *u\*\*v* − ∫*v\*\*u*′ *d\*\*x*
+(uv)′=u′v+uv′⟹uv′=(uv)′−vu′⟹∫uv′ dx=uv−∫vu′ dx
 
-$$\\red{\\boxed{\\int u\\ dv=uv-\\int v\
-du}}$$
+∫u dv=uv−∫v du​
 
-1. 计算 ∫*x*cos *x* *d\*\*x*，设 *u* = *x*, *d\*\*v* = cos *x* *d\*\*x*，则 *d\*\*u* = *d\*\*x*, *v* = sin *x* ∫*x*cos *x* *d\*\*x* = *x*sin *x* − ∫sin *x* *d\*\*x* = *x*sin *x* + cos *x* + *C*
-1. 计算 ∫arctan *x* *d\*\*x*，设 *u* = arctan *x*, *d\*\*v* = *d\*\*x*，则 $\\displaystyle du=\\frac{1}{1+x^2}\
-   dx,v=x$ $$\\begin{aligned}\\int \\arctan x&=x\\arctan x-\\int\\frac{1}{1+x^2}\\ dx=x\\arctan x-\\frac{1}{2}\\int\\frac{1}{1+x^2}d(1+x^2)\\&=x\\arctan x-\\frac{1}{2}\\ln(1+x^2)+C\\end{aligned}$$
-1. 计算 ∫*x*ln *x* *d\*\*x*，设 *u* = ln *x*, *d\*\*v* = *x* *d\*\*x*，则 $\\displaystyle du=\\frac{1}{x}\
-   dx,v=\\frac{1}{2}x^2$ $$\\int x\\ln x\
-   dx=\\frac{1}{2}x^2\\ln x-\\int\\frac{1}{x}\\cdot\\frac{1}{2}x^2\
-   dx=\\frac{1}{2}x^2\\ln x-\\frac{1}{4}x^2+C$$
+1. 计算 ∫xcosx dx，设 u=x,dv=cosx dx，则 du=dx,v=sinx ∫xcosx dx=xsinx−∫sinx dx=xsinx+cosx+C
+1. 计算 ∫arctanx dx，设 u=arctanx,dv=dx，则 du=1+x21​ dx,v=x ∫arctanx​=xarctanx−∫1+x21​ dx=xarctanx−21​∫1+x21​d(1+x2)=xarctanx−21​ln(1+x2)+C​
+1. 计算 ∫xlnx dx，设 u=lnx,dv=x dx，则 du=x1​ dx,v=21​x2 ∫xlnx dx=21​x2lnx−∫x1​⋅21​x2 dx=21​x2lnx−41​x2+C
 
 #### Gamma 函数（第二类欧拉积分）
 
-欧拉发现当 *n* 为整数时，∫0+∞*t**n**e*−*t* *d\*\*t* = *n*!，于是我们把 *n* 替换成实数，就可变为
+欧拉发现当 n 为整数时，∫0+∞​tne−t dt=n!，于是我们把 n 替换成实数，就可变为
 
-*Γ*(*s*) = ∫0+∞*t\*\*s* − 1*e*−*t* *d\*\*t*
+Γ(s)=∫0+∞​ts−1e−t dt
 
 1. *s* 为非正整数的复数 *s* 时，*Γ*(*s* + 1) = *s\*\*Γ*(*s*)
 1. *n* 为整数时，*Γ*(*n* + 1) = *n*!
@@ -136,26 +105,23 @@ du}}$$
 
 1. 计算 *y* = *e\*\*x* 在 *x* = 0 与 *x* = 1 之间与 *x* 轴围成的曲边梯形的面积。
 
-只需计算 ∫01*e\*\*x* *d\*\*x* = *e*1 − *e*0 = *e* − 1
+只需计算 ∫01​ex dx=e1−e0=e−1
 
 1. 计算 *x* = *y*2 与 *x* = 1 之间围成的图形的面积。
 
-只需计算 $\\displaystyle\\int_0^1(\\sqrt{x}-(-\\sqrt{x}))\
-dx=\\int_0^1(2\\sqrt{x})\
-dx=\\frac{4}{3}\\sqrt{x^3}|\_0^1=\\frac{4}{3}-0=\\frac{4}{3}$
+只需计算 ∫01​(x​−(−x​)) dx=∫01​(2x​) dx=34​x3​∣01​=34​−0=34​
 
 1. 【2025 GD 一模 T19】如果函数 *F*(*x*) 的导数为 *F*′(*x*) = *f*(*x*)，可记为 ∫*f*(*x*) *d\*\*x* = *F*(*x*)，若 *f*(*x*) ≥ 0，则 ∫*a**b**f*(*x*) *d\*\*x* = *F*(*b*) − *F*(*a*) 表示曲线 *y* = *f*(*x*)，直线 *x* = *a*, *x* = *b* 以及 *x* 轴围成的“曲边梯形”的面积。如：∫2*x* *d\*\*x* = *x*2 + *C*，其中 *C* 为常数；∫022*x* *d\*\*x* = (22 + *C*) − (0 + *C*) = 4，则表示 *x* = 0, *x* = 1, *y* = 2*x* + *C* 以及 *x* 轴围成的面积为 4. (1) 若 *f*(*x*) = ∫(*e\*\*x* + 1) *d\*\*x*, *f*(0) = 2，求 *f*(*x*) 的表达式。 (2) 求曲线 *y* = *x*2 与直线 *y* = −*x* + 6 所围成图形的面积。 (3) 若 *f*(*x*) = *e\*\*x* − 1 − 2*m\*\*x*, *x* ∈ \[0, +∞)，其中 $m\\in\\R,\\forall a,b\\in\[0,+\\infty)$，若 *a* > *b*，都满足 ∫0*a\*\*f*(*x*) *d\*\*x* > ∫0*b\*\*f*(*x*) *d\*\*x*，求 *m* 取值范围。
 
-解：(1) *f*(*x*) = *e\*\*x* + *x* + 1.
+解：(1) f(x)=ex+x+1.
 
-(2) 先解方程 *x*2 = −*x* + 6 得到 *x* = −3 或 2.
+(2) 先解方程 x2=−x+6 得到 x=−3 或 2.
 
-答案即为 $\\displaystyle\\int\_{-3}^2 (-x+6-x^2)\
-dx=(-\\frac{1}{2}x^2+6x-\\frac{1}{3}x^3)|\_{-3}^2=\\frac{22}{3}-(-\\frac{27}{2})=\\frac{125}{6}$.
+答案即为 ∫−32​(−x+6−x2) dx=(−21​x2+6x−31​x3)∣−32​=322​−(−227​)=6125​.
 
-(3) 由题意可知，∀*a*, *b* ∈ \[0, +∞), *a* > *b* 满足 *F*(*a*) − *F*(0) > *F*(*b*) − *F*(0)，即 *F*(*a*)↑，进而 *f*(*x*) ≥ 0 在 \[0, +∞) 恒成立。
+(3) 由题意可知，∀a,b∈\[0,+∞),a>b 满足 F(a)−F(0)>F(b)−F(0)，即 F(a)↑，进而 f(x)≥0 在 \[0,+∞) 恒成立。
 
-接下来就是常规导数了。分离参数 $m\\leq\\frac{e^x-1}{2x}=g(x),g'(x)=\\frac{(x-1)e^x+1}{2x^2}$，令 *h*(*x*) = (*x* − 1)*e\*\*x*, *h*′(*x*) = *x**e**x* ≥ 0，即 *h*(*x*)↑,*g*′(*x*)↑,*g*(*x*)↑，由洛必达法则，$\\displaystyle m\\leq\\lim\_{x\\to 0}\\frac{e^x-1}{2x}=\\lim\_{x\\to 0}\\frac{e^x}{2}=\\frac{1}{2}$.
+接下来就是常规导数了。分离参数 m≤2xex−1​=g(x),g′(x)=2x2(x−1)ex+1​，令 h(x)=(x−1)ex,h′(x)=xex≥0，即 h(x)↑,g′(x)↑,g(x)↑，由洛必达法则，m≤x→0lim​2xex−1​=x→0lim​2ex​=21​.
 
 ## 微积分在数列中的应用
 
@@ -163,151 +129,132 @@ dx=(-\\frac{1}{2}x^2+6x-\\frac{1}{3}x^3)|\_{-3}^2=\\frac{22}{3}-(-\\frac{27}{2})
 
 对于一阶齐次线性微分方程：
 
-*y*′ + *P*(*x*)*y* = 0
+y′+P(x)y=0
 
 解为
 
-*y* = *C\*\*e*−∫*P*(*x*)*d\*\*x*
+y=Ce−∫P(x)dx
 
 对于一阶非齐次线性微分方程：
 
-*y*′ + *P*(*x*)*y* = *Q*(*x*)
+y′+P(x)y=Q(x)
 
-先解 *y*′ + *P*(*x*)*y* = 0 得到 *y* = *C\*\*e*−∫*P*(*x*)*d\*\*x*，再令 *C* = *u*(*x*) 得
+先解 y′+P(x)y=0 得到 y=Ce−∫P(x)dx，再令 C=u(x) 得
 
-*y* = *u*(*x*)*e*−∫*P*(*x*)*d\*\*x*
+y=u(x)e−∫P(x)dx
 
 代入原方程得
 
-$$u'(x)=\\frac{Q(x)}{e^{-\\int P(x)dx}}$$
+u′(x)=e−∫P(x)dxQ(x)​
 
-对 *u*′(*x*) 积分带入得到通解：
+对 u′(x) 积分带入得到通解：
 
-*y* = *C\*\*e*−∫*P*(*x*)*d\*\*x* + *e*−∫*P*(*x*)*d\*\*x*∫*Q*(*x*)*e*∫*P*(*x*)*d**x**d\*\*x*
+y=Ce−∫P(x)dx+e−∫P(x)dx∫Q(x)e∫P(x)dxdx
 
-以上的 *C* 都为常数，由初始条件决定。
-
-______________________________________________________________________
-
-$\\displaystyle a_1=1,a\_{n+1}=a_n+\\frac{1}{a_n}$，求 *a*2024 的整数部分？
-
-设 *a\*\*n* 近似为一个连续函数 *f*(*x*)，考虑 *a\*\*n* + 1 − *a\*\*n* 和 $\\frac{1}{a_n}$ 的关系。对于 *n* → +∞，有
-
-$$f'(x)=\\frac{1}{f(x)}\\implies\\frac{\\mathrm{d}f(x)}{\\mathrm{d}x}=\\frac{1}{f(x)} \\implies f(x)\\mathrm{d}f(x)=\\mathrm{d}x\\\\implies\\int f(x)\\mathrm{d}f(x)=\\int\\mathrm{d}x\\implies \\frac{f^2(x)}{2}=x+C$$
-
-由 *f*(1) = 1 得到 $\\displaystyle C=-\\frac{1}{2}$，微分方程解得 $f(x)=\\sqrt{2x-1}$，得到 $f(2024)=\\sqrt{4047}\\approx 63$
+以上的 C 都为常数，由初始条件决定。
 
 ______________________________________________________________________
 
-已知 $\\displaystyle a_1=1,a\_{n+1}=a_n-\\frac{1}{3}a_n^2$，则 100*a*100 的范围是哪个：$\\displaystyle\\left(2,\\frac{5}{2}\\right),\\left(\\frac{5}{2},3\\right), \\left(3,\\frac{7}{2}\\right)$ ？
+a1​=1,an+1​=an​+an​1​，求 a2024​ 的整数部分？
 
-$$\\frac{1}{a\_{n+1}}=\\frac{3}{a_n(3-a_n)}=\\frac{1}{a_n}+\\frac{1}{3-a_n}>\\frac{1}{a_n}+\\frac{1}{3}$$
+设 an​ 近似为一个连续函数 f(x)，考虑 an+1​−an​ 和 an​1​ 的关系。对于 n→+∞，有
 
-$$\\frac{1}{a_n}>a_1+\\frac{n-1}{3}=\\frac{n+2}{3}\\implies a_n\<\\frac{3}{n+2}\\implies 100a\_{100}\<3$$
+f′(x)=f(x)1​⟹dxdf(x)​=f(x)1​⟹f(x)df(x)=dx⟹∫f(x)df(x)=∫dx⟹2f2(x)​=x+C
 
-$$\\frac{1}{a\_{n+1}}\<\\frac{1}{a_n}+\\frac{1}{3-\\frac{3}{n+2}}=\\frac{1}{a_n}+\\frac{n+2}{3(n+1)}=\\frac{1}{a_n}+\\frac{1}{3}+\\frac{1}{3(n+1)}$$
+由 f(1)=1 得到 C=−21​，微分方程解得 f(x)=2x−1​，得到 f(2024)=4047​≈63
 
-$$\\frac{1}{a\_{100}}\<\\frac{1}{a_1}+\\frac{99}{3}+\\frac{1}{3}\\left(\\frac{1}{2}+\\frac{1}{3}+\\dots+\\frac{1}{100}\\right)=34+\\frac{1}{3}\\left(\\frac{1}{2}+\\frac{1}{3}+\\dots+\\frac{1}{100}\\right)$$
+______________________________________________________________________
+
+已知 a1​=1,an+1​=an​−31​an2​，则 100a100​ 的范围是哪个：(2,25​),(25​,3),(3,27​) ？
+
+an+1​1​=an​(3−an​)3​=an​1​+3−an​1​>an​1​+31​
+
+an​1​>a1​+3n−1​=3n+2​⟹an​\<n+23​⟹100a100​\<3
+
+an+1​1​\<an​1​+3−n+23​1​=an​1​+3(n+1)n+2​=an​1​+31​+3(n+1)1​
+
+a100​1​\<a1​1​+399​+31​(21​+31​+⋯+1001​)=34+31​(21​+31​+⋯+1001​)
 
 **注意到**
 
-$$\\frac{1}{2}+\\frac{1}{3}+\\dots+\\frac{1}{100}\<\\frac{1}{2}\\times 4+\\frac{1}{6}\\times 96=18$$
+21​+31​+⋯+1001​\<21​×4+61​×96=18
 
-$$\\frac{1}{a\_{100}}\<\\frac{1}{40}\\implies 100a\_{100}>\\frac{5}{2}$$
+a100​1​\<401​⟹100a100​>25​
 
-这道题是我们班的补充题，当时无人证出 $\\displaystyle
+这道题是我们班的补充题，当时无人证出
 
-> \\frac{5}{2}$，我们老师上课思考了不到 15 分钟讲了这种方法（他从不备课），注意力简直惊为天人。
+> 25​，我们老师上课思考了不到 15 分钟讲了这种方法（他从不备课），注意力简直惊为天人。
 
-积分法：$\\displaystyle f(x)=a_n,f'(x)=\\frac{df(x)}{dx}=-\\frac{1}{3}f^2(x)\\implies \\int f^{-2}(x)df(x)=\\int-\\frac{1}{3}dx\\-f^{-1}(x)=-\\frac{1}{3}x+C,f(x)=\\frac{3}{x+C}\\implies\\frac{3}{x+2}$，显然 $\\displaystyle 100a\_{100}\\in\\left(\\frac{5}{2},3\\right)$. 可以代入 *a*2, *a*3 获得更高的精度。
+积分法：f(x)=an​,f′(x)=dxdf(x)​=−31​f2(x)⟹∫f−2(x)df(x)=∫−31​dx−f−1(x)=−31​x+C,f(x)=x+C3​⟹x+23​，显然 100a100​∈(25​,3). 可以代入 a2​,a3​ 获得更高的精度。
 
 ______________________________________________________________________
 
-已知 $\\displaystyle a_1=1,a\_{n+1}=\\frac{a_n}{1+\\sqrt[3]{a_n}}$，求 *S*100 的整数部分。
+已知 a1​=1,an+1​=1+3an​​an​​，求 S100​ 的整数部分。
 
 答案：准确值是 2.38.
 
-$$\\frac{1}{a\_{n+1}}=\\frac{1}{a_n}+\\frac{1}{a_n^{\\frac{2}{3}}}\\xlongequal{b_n=\\frac{1}{a_n}}b\_{n+1}=b_n+b_n^{\\frac{2}{3}}\\xlongequal{f(x)=b_n}f'(x)=f^{\\frac{2}{3}}(x)$$
+an+1​1​=an​1​+an32​​1​bn​=an​1​bn+1​=bn​+bn32​​f(x)=bn​f′(x)=f32​(x)
 
-$$\\int f^{-\\frac{2}{3}}(x) df(x)=\\int dx\\implies 3f^{\\frac{1}{3}}(x)=x+C\\implies f(x)=\\left(\\frac{x+2}{3}\\right)^3=\\left(\\frac{x-2+3\\sqrt[3]{2}}{3}\\right)^3$$
+∫f−32​(x)df(x)=∫dx⟹3f31​(x)=x+C⟹f(x)=(3x+2​)3=(3x−2+332​​)3
 
-$$a_n=\\frac{27}{(x+2)^3},\\zeta(3)=\\sum\_{n=1}^{\\infty}\\frac{1}{n^3}\\approx 1.202,S\_{\\infty}=27\\cdot 0.077=2.079$$
+an​=(x+2)327​,ζ(3)=n=1∑∞​n31​≈1.202,S∞​=27⋅0.077=2.079
 
-另外，欧拉常数 $\\displaystyle\\gamma=\\lim\_{n\\to\\infty}\\left[\\left(\\sum\_{k=1}^n\\frac{1}{k}\\right)-\\ln n\\right]=\\int_1^{\\infty}\\left(\\frac{1}{\\lfloor x\\rfloor}-\\frac{1}{x}\\right)\\approx 0.57721 56649 01532 86060$，于是可以估计 $\\displaystyle\\sum\_{k=1}^n\\frac{1}{k}\\approx\\ln n+\\gamma$.
+另外，欧拉常数 γ=n→∞lim​[(k=1∑n​k1​)−lnn]=∫1∞​(⌊x⌋1​−x1​)≈0.57721566490153286060，于是可以估计 k=1∑n​k1​≈lnn+γ.
 
 ______________________________________________________________________
 
-也可以用一个结论（Basel 问题，[知乎专栏](https://zhuanlan.zhihu.com/p/144278965) ）：$\\red{\\boxed{\\sum\_{n=1}^{+\\infty}\\frac{1}{n^2}=\\frac{\\pi^2}{6}\\approx 1.645}}$
+也可以用一个结论（Basel 问题，[知乎专栏](https://zhuanlan.zhihu.com/p/144278965) ）：n=1∑+∞​n21​=6π2​≈1.645​
 
-相关证明：设黎曼 Zeta 函数 $\\zeta(s)=\\displaystyle\\sum\_{n=1}^{+\\infty}\\frac{1}{n^s}\
-(s>1)$，显然 lim*s* → 1+*ζ*(*s*) = +∞, lim*s* → +∞*ζ*(*s*) = 1.
+相关证明：设黎曼 Zeta 函数 ζ(s)=n=1∑+∞​ns1​ (s>1)，显然 s→1+lim​ζ(s)=+∞,s→+∞lim​ζ(s)=1.
 
-由泰勒展开得 $\\displaystyle\\sin x=x-\\frac{x^3}{6}+\\frac{x^5}{120}+\\dots=\\sum\_{k=0}^{+\\infty}\\frac{(-1)^k}{(2k+1)!}x^{2k+1}$
+由泰勒展开得 sinx=x−6x3​+120x5​+⋯=k=0∑+∞​(2k+1)!(−1)k​x2k+1
 
-因此 $\\displaystyle\\frac{\\sin x}{x}=1-\\frac{x^2}{3!}+\\frac{x^4}{5!}+\\dots=\\sum\_{n=0}^{+\\infty}\\frac{(-1)^nx^{2n}}{(2n+1)!}①$（ $\\displaystyle\\frac{\\sin x}{x}$ 的无穷级数展开）
+因此 xsinx​=1−3!x2​+5!x4​+⋯=n=0∑+∞​(2n+1)!(−1)nx2n​①（ xsinx​ 的无穷级数展开）
 
-熟知 $\\displaystyle\\frac{\\sin x}{x}$ 的无穷乘积展开 $\\displaystyle\\frac{\\sin x}{x}=\\prod\_{n=1}^{+\\infty}\\left(1-\\frac{x^2}{n^2\\pi^2}\\right)=\\left(1-\\frac{x^2}{\\pi^2}\\right)\\left(1-\\frac{x^2}{4\\pi^2}\\right)\\cdots②$
+熟知 xsinx​ 的无穷乘积展开 xsinx​=n=1∏+∞​(1−n2π2x2​)=(1−π2x2​)(1−4π2x2​)⋯②
 
-Basel 问题即 $\\displaystyle\\zeta(2)=\\sum\_{n=1}^{+\\infty}\\frac{1}{n^2}$，比较 ①② 式中二次项系数得 $\\displaystyle -\\frac{1}{3!}=-\\frac{1}{\\pi^2}-\\frac{1}{2^2\\pi^2}-\\dots$
+Basel 问题即 ζ(2)=n=1∑+∞​n21​，比较 ①② 式中二次项系数得 −3!1​=−π21​−22π21​−…
 
-由此可得 $\\displaystyle\\zeta(2)=\\frac{\\pi^2}{6}$，进一步地我们有 $\\displaystyle\\zeta(4)=\\frac{\\pi^4}{90},\\zeta(6)=\\frac{\\pi^6}{945}$.
+由此可得 ζ(2)=6π2​，进一步地我们有 ζ(4)=90π4​,ζ(6)=945π6​.
 
-$$\\zeta(2n)=\\left[\\sum\_{k=1}^{n-1}\\frac{(-1)^{k+1}\\pi^{2k}\\zeta(2n-2k)}{(2k+1)!}\\right]+\\frac{(-1)^{n+1}n\\pi^{2n}}{(2n+1)!}\
-\\ \\ \\ \\ \\ n\\in\\N^\*$$
+ζ(2n)=[k=1∑n−1​(2k+1)!(−1)k+1π2kζ(2n−2k)​]+(2n+1)!(−1)n+1nπ2n​      n∈N∗
 
-上述思路可总结出一个结论：若 $\\displaystyle\\sum\_{k=0}^{+\\infty}a_kx^k=\\prod\_{k=1}^{+\\infty}(1+b_kx)$，设 $S_n=\\displaystyle\\sum\_{k=1}^{+\\infty}b_k^n$，则 $$S_1=a_1,\\ \\ \
-S_n=\\displaystyle\\sum\_{k=1}^{n-1}(-1)^{k+1}a_kS\_{n-k}+(-1)^{n+1}na_n$$
+上述思路可总结出一个结论：若 k=0∑+∞​ak​xk=k=1∏+∞​(1+bk​x)，设 Sn​=k=1∑+∞​bkn​，则 S1​=a1​,   Sn​=k=1∑n−1​(−1)k+1ak​Sn−k​+(−1)n+1nan​
 
 ### 积分放缩在数列中的应用
 
 我们熟知的积分放缩一般是这样的（证明：几何意义）
 
-$$\\int_1^{n+1}f(x)\\ dx \<\\sum\_{k=1}^nf(k)\<\\int_0^nf(x)\\ dx\\ \\ \\ \\ \\ \\ \\ \
-f(x)\\downarrow$$
+∫1n+1​f(x) dx\<k=1∑n​f(k)\<∫0n​f(x) dx        f(x)↓
 
-$$\\int_0 ^{n}f(x)\
-dx\<\\sum\_{k=1}^nf(k)\<\\int_1^{n+1}f(x)\\ dx\\ \\ \\ \\ \\ \\ \\ \
-f(x)\\uparrow$$
+∫0n​f(x) dx\<k=1∑n​f(k)\<∫1n+1​f(x) dx        f(x)↑
 
 例如：
 
-$$\\begin{aligned}\\sum\_{k=1}^n\\frac{1}{\\sqrt{k} }&>\\int_1^{n+1}\\frac{1}{\\sqrt{x} }\
-dx=2\\sqrt{x}|\_1^{n+1}=2\\left(\\sqrt{n+1}-1\\right)\\&\<\\int_0^n\\frac{1}{\\sqrt{x} }\\ dx=2\\sqrt{x}|\_0^n=2\\sqrt{n}\\end{aligned}$$
+k=1∑n​k​1​​>∫1n+1​x​1​ dx=2x​∣1n+1​=2(n+1​−1)\<∫0n​x​1​ dx=2x​∣0n​=2n​​
 
-练习 1：证明 $\\displaystyle\\sum\_{k=2}^n\\frac{1}{k\\sqrt{k}}\<\\sqrt{2}\
-\\ \\ \\ \\text{}$ 和 $\\ \\ \\ \
-\\displaystyle\\frac{2}{3}n^\\frac{3}{2}\\leq\\sum\_{k=1}^n\\sqrt{k}\\leq\\frac{2}{3}[(n+1)^\\frac{3}{2}-n]$
+练习 1：证明 k=2∑n​kk​1​\<2​     和     32​n23​≤k=1∑n​k​≤32​[(n+1)23​−n]
 
-练习 2：证明 $\\displaystyle\\sum\_{k=2}^{n+1}\\frac{1}{k}\<\\ln(n+1)\<\\sum\_{k=1}^n\\frac{1}{k}\
-\\ \\ \\ \\text{}$ 和 $\\ \\ \\ \
-\\displaystyle\\frac{4}{7}\<\\sum\_{k=n+1}^{2n}\\frac{1}{k}\<\\ln 2\<\\frac{25}{36}\<\\frac{\\sqrt{2}}{2}$
+练习 2：证明 k=2∑n+1​k1​\<ln(n+1)\<k=1∑n​k1​     和     74​\<k=n+1∑2n​k1​\<ln2\<3625​\<22​​
 
-练习 3：证明 $\\displaystyle\\begin{cases}\\displaystyle\\sum\_{k=1}^n\\frac{1}{k^p}\<\\frac{p}{p-1}&p>1\\\\displaystyle\\sum\_{k=1}^n\\frac{1}{k^p}\\geq\\displaystyle\\sum\_{k=1}^n\\frac{1}{k}>\\ln n&p\\leq 1\\end{cases}$
+练习 3：证明 ⎩⎨⎧​k=1∑n​kp1​\<p−1p​k=1∑n​kp1​≥k=1∑n​k1​>lnn​p>1p≤1​
 
-我们还可以根据 *f*(*x*) 的凹凸性进一步放缩。
+我们还可以根据 f(x) 的凹凸性进一步放缩。
 
-当 *f*(*x*)↓ 且下凸时，
+当 f(x)↓ 且下凸时，
 
-$$\\int_1^{n+1}f(x)\
-dx+\\frac{f(1)-f(n+1)}{2}\<\\sum\_{k=1}^nf(k)\<\\int_0^nf(x)\
-dx$$
+∫1n+1​f(x) dx+2f(1)−f(n+1)​\<k=1∑n​f(k)\<∫0n​f(x) dx
 
-当 *f*(*x*)↓ 且上凸时，
+当 f(x)↓ 且上凸时，
 
-$$\\int_1^{n+1}f(x)\
-dx\<\\sum\_{k=1}^nf(k)\<\\int_0^nf(x)\
-dx-\\frac{f(0)-f(n)}{2}$$
+∫1n+1​f(x) dx\<k=1∑n​f(k)\<∫0n​f(x) dx−2f(0)−f(n)​
 
-当 *f*(*x*)↑ 且下凸时，
+当 f(x)↑ 且下凸时，
 
-$$\\int_0^nf(x)\
-dx+\\frac{f(n)-f(0)}{2}\<\\sum\_{k=1}^nf(k)\<\\int_1^{n+1}f(x)\
-dx$$
+∫0n​f(x) dx+2f(n)−f(0)​\<k=1∑n​f(k)\<∫1n+1​f(x) dx
 
-当 *f*(*x*)↑ 且上凸时，
+当 f(x)↑ 且上凸时，
 
-$$\\int_0^nf(x)\
-dx\<\\sum\_{k=1}^nf(k)\<\\int_1^{n+1}f(x)\
-dx-\\frac{f(n+1)-f(1)}{2}$$
+∫0n​f(x) dx\<k=1∑n​f(k)\<∫1n+1​f(x) dx−2f(n+1)−f(1)​
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

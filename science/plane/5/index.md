@@ -10,7 +10,7 @@
 
 总结一下就是两个角全都可以，三个边可以，一个角两个边就需要是夹角。
 
-即知道 *a**C**b*、*c**B**a*、*b**A**c*，才可以唯一确定一个两边一角的三角形。
+即知道 aCb、cBa、bAc，才可以唯一确定一个两边一角的三角形。
 
 至于 SSA，只有一个角是直角才可以唯一确定，不过这个就是 HL 了。
 
@@ -32,27 +32,27 @@
 
 在三角形中，
 
-*A* + *B* + *C* = *π*
+A+B+C=π
 
 因此就有：
 
-$$ \\begin{aligned} \\sin A&=\\sin(B+C)\\ \\sin B&=\\sin(A+C)\\ \\sin C&=\\sin{A+B} \\end{aligned} $$
+sinAsinBsinC​=sin(B+C)=sin(A+C)=sinA+B​
 
-$$ \\begin{aligned} \\cos A&=-\\cos(B+C)\\ \\cos B&=-\\cos(A+C)\\ \\cos C&=-\\cos(A+B) \\end{aligned} $$
+cosAcosBcosC​=−cos(B+C)=−cos(A+C)=−cos(A+B)​
 
-$$ \\begin{aligned} \\sin\\dfrac{A}{2}&=\\cos\\left(\\dfrac{B+C}{2}\\right)\\ \\sin\\dfrac{B}{2}&=\\cos\\left(\\dfrac{A+C}{2}\\right)\\ \\sin\\dfrac{C}{2}&=\\cos\\left(\\dfrac{A+B}{2}\\right) \\end{aligned} $$
+sin2A​sin2B​sin2C​​=cos(2B+C​)=cos(2A+C​)=cos(2A+B​)​
 
-$$ \\begin{aligned} \\cos\\dfrac{A}{2}&=\\sin\\left(\\dfrac{B+C}{2}\\right)\\ \\cos\\dfrac{B}{2}&=\\sin\\left(\\dfrac{A+C}{2}\\right)\\ \\cos\\dfrac{C}{2}&=\\sin\\left(\\dfrac{A+B}{2}\\right) \\end{aligned} $$
+cos2A​cos2B​cos2C​​=sin(2B+C​)=sin(2A+C​)=sin(2A+B​)​
 
-在三角形中，*a* = *b*cos *C* + *c*cos *B*。
+在三角形中，a=bcosC+ccosB。
 
-若 sin2*A* + sin2*B* = sin2*C*，则该三角形是以 ∠*C* 为直角的 Rt△。
+若 sin2A+sin2B=sin2C，则该三角形是以 ∠C 为直角的 Rt△。
 
 解三角形里面常用的奇怪三角函数：
 
-$$ \\sin15^\\circ=\\cos75^\\circ={\\sqrt6-\\sqrt2\\over4}\\[0.5em] \\sin75^\\circ=\\cos15^\\circ={\\sqrt6+\\sqrt2\\over4} $$
+sin15∘=cos75∘=46​−2​​sin75∘=cos15∘=46​+2​​
 
-特殊的，如果 sin 2*A* = sin 2*B*，则有 2*A* = 2*B* 或 2*A* + 2*B* = *π*，即 *A* = *B* 或 *A* + *B* = 90∘，即等腰或直角三角形。
+特殊的，如果 sin2A=sin2B，则有 2A=2B 或 2A+2B=π，即 A=B 或 A+B=90∘，即等腰或直角三角形。
 
 ### 平面几何法
 
@@ -66,7 +66,7 @@ $$ \\sin15^\\circ=\\cos75^\\circ={\\sqrt6-\\sqrt2\\over4}\\[0.5em] \\sin75^\\cir
 
 建系法：将数据用坐标表示，详见解析几何。
 
-如果直角三角形三边成等差数列，则变长一定为 3, 4, 5。
+如果直角三角形三边成等差数列，则变长一定为 3,4,5。
 
 ### 向量基底法
 
@@ -94,63 +94,63 @@ $$ \\sin15^\\circ=\\cos75^\\circ={\\sqrt6-\\sqrt2\\over4}\\[0.5em] \\sin75^\\cir
 
 回顾初中几何，三角形面积，
 
-$$ S={1\\over2}ab\\sin C={1\\over2}bc\\sin A={1\\over2}ac\\sin B $$
+S=21​absinC=21​bcsinA=21​acsinB
 
 下面的证明过程只考虑锐角三角形，对于钝角三角形，结论不变。
 
-做过 ∠*A* 的垂线，则该垂线长度 *h*：
+做过 ∠A 的垂线，则该垂线长度 h：
 
-*h* = *b*sin *C* = *c*sin *B*
+h=bsinC=csinB
 
 对每个角应用，最后可得，
 
-$$ {a\\over\\sin A}={b\\over\\sin B}={c\\over\\sin C}=k $$
+sinAa​=sinBb​=sinCc​=k
 
-做出该三角形的外接圆，过圆心做 *B\*\*C* 的高，则，
+做出该三角形的外接圆，过圆心做 BC 的高，则，
 
-$$ a=2R\\sin A,{a\\over\\sin A}=2R $$
+a=2RsinA,sinAa​=2R
 
-即值 *k* 为三角形外接圆直径 2*R*。
+即值 k 为三角形外接圆直径 2R。
 
 常常这么写：
 
-$$ a=2R\\sin A,b=2R\\sin B,c=2R\\sin C\\ \\sin A={a\\over2R},\\sin B={b\\over2R},\\sin C={c\\over2R} $$
+a=2RsinA,b=2RsinB,c=2RsinCsinA=2Ra​,sinB=2Rb​,sinC=2Rc​
 
 正弦定理推论：大边对大角，小边对小角。
 
 ### 余弦定理
 
-在 △*A**B**C* 中，
+在 △ABC 中，
 
-$$ \\begin{array}{c} \\overrightarrow{AB}=\\overrightarrow{CB}-\\overrightarrow{CA}\\[0.5em] |\\overrightarrow{AB}|^2=|\\overrightarrow{CB}|^2+|\\overrightarrow{CA}|^2-2|\\overrightarrow{CB}|\\cdot|\\overrightarrow{CA}|\\cdot\\cos\\theta\\[0.5em] c^2=a^2+b^2-2ab\\cos\\theta \\end{array} $$
+AB=CB−CA∣AB∣2=∣CB∣2+∣CA∣2−2∣CB∣⋅∣CA∣⋅cosθc2=a2+b2−2abcosθ​
 
-其中 *θ* 为 *c* 的对角，即 ∠*C*；第二步就是两边平方。
+其中 θ 为 c 的对角，即 ∠C；第二步就是两边平方。
 
 常写作：
 
-$$ \\cos A={b^2+c^2-a^2\\over2bc},\\cos B={a^2+c^2-b^2\\over2ac},\\cos C={a^2+b^2-c^2\\over2ab} $$
+cosA=2bcb2+c2−a2​,cosB=2aca2+c2−b2​,cosC=2aba2+b2−c2​
 
 推论：
 
-$$ \\begin{aligned} a^2+b^2-c^2>0 &\\Longrightarrow \\cos C>0 \\Longrightarrow C\\in(0,\\pi/2)\\ a^2+b^2-c^2=0 &\\Longrightarrow \\cos C=0 \\Longrightarrow C=\\pi/2\\ a^2+b^2-c^2\<0 &\\Longrightarrow \\cos C\<0 \\Longrightarrow C\\in(\\pi/2,\\pi) \\end{aligned} $$
+a2+b2−c2>0a2+b2−c2=0a2+b2−c2\<0​⟹cosC>0⟹C∈(0,π/2)⟹cosC=0⟹C=π/2⟹cosC\<0⟹C∈(π/2,π)​
 
 ### 余切定理
 
-$$ \\begin{aligned} \\zeta&=\\sqrt{{1\\over p}(p-a)(p-b)(p-c)}\\ p&={a+b+c\\over2} \\end{aligned} $$
+ζp​=p1​(p−a)(p−b)(p−c)​=2a+b+c​​
 
-其中 *ζ* 为 △*A**B**C* 内切圆半径，*p* 为三角形的半周长。
+其中 ζ 为 △ABC 内切圆半径，p 为三角形的半周长。
 
 推论，一各三角形内切圆半径为，
 
-$$ R_内={2S\\over a+b+c} $$
+R内​=a+b+c2S​
 
-其中 *S* 表示三角形面积，*a*, *b*, *c* 分别表示三边长。
+其中 S 表示三角形面积，a,b,c 分别表示三边长。
 
 ### 正切定理
 
 正切定理指出，三角形中，两条边的和与差的比值，等于这两条边的对角的和与差的一半的正切的比值：
 
-$$ {a-b\\over a+b}={\\tan{\\angle A-\\angle B\\over2}\\over\\tan{\\angle A+\\angle B\\over2}} $$
+a+ba−b​=tan2∠A+∠B​tan2∠A−∠B​​
 
 ## 三角形四心
 
@@ -163,66 +163,64 @@ $$ {a-b\\over a+b}={\\tan{\\angle A-\\angle B\\over2}\\over\\tan{\\angle A+\\ang
 
 ### 奔驰定理
 
-在锐角 △*A**B**C* 中，
+在锐角 △ABC 中，
 
-$$ S\_{\\triangle BOC}\\cdot\\overrightarrow{OA}+S\_{\\triangle AOC}\\cdot\\overrightarrow{OB}+S\_{\\triangle AOB}\\cdot\\overrightarrow{OC}=\\vec0 $$
+S△BOC​⋅OA+S△AOC​⋅OB+S△AOB​⋅OC=0
 
 推论：
 
-- 设 *I* 为内心，则 $a\\cdot\\overrightarrow{IA}+b\\cdot\\overrightarrow{IB}+c\\cdot\\overrightarrow{IC}=\\vec0$.
-- 设 *H* 为垂心，则 $\\tan A\\cdot\\overrightarrow{HA}+\\tan B\\cdot\\overrightarrow{HB}+\\tan C\\cdot\\overrightarrow{HC}=\\vec0$.
-- 设 *O* 为外心，则 $\\sin2A\\cdot\\overrightarrow{OA}+\\sin2B\\cdot\\overrightarrow{OB}+\\sin2C\\cdot\\overrightarrow{OC}=\\vec0$.
+- 设 I 为内心，则 a⋅IA+b⋅IB+c⋅IC=0.
+- 设 H 为垂心，则 tanA⋅HA+tanB⋅HB+tanC⋅HC=0.
+- 设 O 为外心，则 sin2A⋅OA+sin2B⋅OB+sin2C⋅OC=0.
 
 ### 欧拉线定理
 
-- 欧拉定理：*O*, *I* 分别为外接圆、内切圆圆心，则有 *O\*\*I*2 = *R*2 − 2*R\*\*r*.
+- 欧拉定理：O,I 分别为外接圆、内切圆圆心，则有 OI2=R2−2Rr.
 
-- 欧拉线定理：三角形的外心 *O*，垂心 *H*，重心 *G* 依次位于同一直线上，且重心到外心的距离是重心到垂心的距离的一半，即
+- 欧拉线定理：三角形的外心 O，垂心 H，重心 G 依次位于同一直线上，且重心到外心的距离是重心到垂心的距离的一半，即
 
-  $$ \\overrightarrow{OG}=\\frac{1}{3}\\overrightarrow{OH}=\\frac{1}{3}(\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}) $$
+  OG=31​OH=31​(OA+OB+OC)
 
 ### 极化恒等式
 
 一般形式：
 
-- 已知平面上非零向量 **a** 与 **b**，则 $\\boldsymbol{a} \\cdot \\boldsymbol{b} = \\dfrac{1}{4}(|\\boldsymbol{a} + \\boldsymbol{b}|^2 - |\\boldsymbol{a} - \\boldsymbol{b}|^2)$。
-- 在 △*A**B**C* 中，若 *M* 是 *B\*\*C* 的中点，则 $\\overrightarrow{AB} \\cdot \\overrightarrow{AC} = |\\overrightarrow{AM}|^2 - \\dfrac{1}{4}|\\overrightarrow{BC}|^2$。
+- 已知平面上非零向量 a 与 b，则 a⋅b=41​(∣a+b∣2−∣a−b∣2)。
+- 在 △ABC 中，若 M 是 BC 的中点，则 AB⋅AC=∣AM∣2−41​∣BC∣2。
 
-在 △*A**B**C* 中，对于共起点的数量积 $\\overrightarrow{AB} \\cdot \\overrightarrow{AC}$ 的求解问题，我们首先想到的是找出 *B\*\*C* 的中点 *M*，则
+在 △ABC 中，对于共起点的数量积 AB⋅AC 的求解问题，我们首先想到的是找出 BC 的中点 M，则
 
-$$ \\overrightarrow{AM} = \\dfrac{1}{2}(\\overrightarrow{AB} + \\overrightarrow{AC}) $$
+AM=21​(AB+AC)
 
 所以
 
-$$ \\overrightarrow{AB} \\cdot \\overrightarrow{AC} = \\left[\\dfrac{1}{2}(\\overrightarrow{AB} + \\overrightarrow{AC})\\right]^2 - \\dfrac{1}{4}|\\overrightarrow{BC}|^2 $$
+AB⋅AC=[21​(AB+AC)]2−41​∣BC∣2
 
-化简整理便可得到如下结论：在 △*A**B**C* 中，
+化简整理便可得到如下结论：在 △ABC 中，
 
-$$ 2\\overrightarrow{AB} \\cdot \\overrightarrow{AC} = |\\overrightarrow{AB}|^2
+2AB⋅AC=∣AB∣2+∣AC∣2−∣BC∣2
 
-- |\\overrightarrow{AC}|^2 - |\\overrightarrow{BC}|^2 $$
+任何事物都是由特殊再到一般，我们研究平面几何问题更多的是在研究三角形，因为三角形是我们接触最多也是最熟悉的，然后由三角形再延伸到四边形问题。那么对于向量余弦式是否也可以延伸到四边形呢？我们知道四边形通过对角线是可以分割成三角形的，下面一起来探讨这个问题。在平面四边形 ABCD 中，它可以由 △ABC 与 △ACD 组成，则在 △ABC 中，由向量余弦式可得
 
-任何事物都是由特殊再到一般，我们研究平面几何问题更多的是在研究三角形，因为三角形是我们接触最多也是最熟悉的，然后由三角形再延伸到四边形问题。那么对于向量余弦式是否也可以延伸到四边形呢？我们知道四边形通过对角线是可以分割成三角形的，下面一起来探讨这个问题。在平面四边形 *A**B**C\*\*D* 中，它可以由 △*A**B**C* 与 △*A**C**D* 组成，则在 △*A**B**C* 中，由向量余弦式可得
+AB⋅AC=2∣AB∣2+∣AC∣2−∣BC∣2​
 
-$$ \\overrightarrow{AB} \\cdot \\overrightarrow{AC} = \\dfrac{|\\overrightarrow{AB}|^2 + |\\overrightarrow{AC}|^2 - |\\overrightarrow{BC}|^2}{2} $$
+那么在 △ACD 中，则向量余弦式可得
 
-那么在 △*A**C**D* 中，则向量余弦式可得
-
-$$ \\overrightarrow{AD} \\cdot \\overrightarrow{AC} = \\dfrac{|\\overrightarrow{AD}|^2 + |\\overrightarrow{AC}|^2 - |\\overrightarrow{DC}|^2}{2} $$
+AD⋅AC=2∣AD∣2+∣AC∣2−∣DC∣2​
 
 两式相减可得
 
-$$ \\overrightarrow{AD} \\cdot \\overrightarrow{AC} - \\overrightarrow{AB} \\cdot \\overrightarrow{AC} = \\dfrac{|\\overrightarrow{AD}|^2 + |\\overrightarrow{AC}|^2 - |\\overrightarrow{DC}|^2}{2} - \\dfrac{|\\overrightarrow{AB}|^2 + |\\overrightarrow{AC}|^2 - |\\overrightarrow{BC}|^2}{2} $$
+AD⋅AC−AB⋅AC=2∣AD∣2+∣AC∣2−∣DC∣2​−2∣AB∣2+∣AC∣2−∣BC∣2​
 
 整理后可得
 
-$$ \\overrightarrow{AC} \\cdot \\overrightarrow{BD} = \\dfrac{|\\overrightarrow{AD}|^2 + |\\overrightarrow{BC}|^2 - |\\overrightarrow{AB}|^2 - |\\overrightarrow{CD}|^2}{2} $$
+AC⋅BD=2∣AD∣2+∣BC∣2−∣AB∣2−∣CD∣2​
 
 这就得到了平面四边形的向量余弦式的形式。
 
-在四边形 *A**B**C\*\*D* 中，
+在四边形 ABCD 中，
 
-$$ \\overrightarrow{AC} \\cdot \\overrightarrow{BD} = \\dfrac{|\\overrightarrow{AD}|^2 + |\\overrightarrow{BC}|^2 - |\\overrightarrow{AB}|^2 - |\\overrightarrow{CD}|^2}{2} $$
+AC⋅BD=2∣AD∣2+∣BC∣2−∣AB∣2−∣CD∣2​
 
 这个结论也称之为对角线定理，它不仅仅可以在平面四边形中得到应用，还可以推广到空间四边形的情形。
 
@@ -230,27 +228,27 @@ $$ \\overrightarrow{AC} \\cdot \\overrightarrow{BD} = \\dfrac{|\\overrightarrow{
 
 特殊的，中点的向量方程：
 
-$$ \\vecc{AD}=\\dfrac12\\vecc{AB}+\\dfrac12\\vecc{AC} $$
+AD=21​AB+21​AC
 
 即对边比例相乘向量相加。
 
 ### 重心及其性质
 
-重心：三角形三边中线交点，在平面直角坐标系中，重心的坐标是顶点坐标的算术平均，也就是说对于平面内任意一点 *P*：
+重心：三角形三边中线交点，在平面直角坐标系中，重心的坐标是顶点坐标的算术平均，也就是说对于平面内任意一点 P：
 
-$$ \\vecc{PG}=\\dfrac13\\left(\\vecc{PA}+\\vecc{PB}+\\vecc{PC}\\right) $$
+PG=31​(PA+PB+PC)
 
 重心和三角形任意两个顶点组成的三个三角形面积相等，而重心到三条边的距离与三条边的长成反比。
 
 根据奔驰定理，有三角形重心到其各个顶点向量之和为零。
 
-$$ \\vecc{GA}+\\vecc{GB}+\\vecc{GC}=\\vec 0 $$
+GA+GB+GC=0
 
 特性：一个三角形的重心同时也是其中点三角形的重心，中位线证明。
 
-根据是中线的性质，做 *A\*\*G* 并延长交 *B\*\*C* 于点 *H*，则：
+根据是中线的性质，做 AG 并延长交 BC 于点 H，则：
 
-$$ \\dfrac{AG}{GH}=\\dfrac21 $$
+GHAG​=12​
 
 特殊的，重心到三边距离之积最大、到三角形三个顶点距离的平方和最小。
 
@@ -258,15 +256,15 @@ $$ \\dfrac{AG}{GH}=\\dfrac21 $$
 
 内心为三角形内切圆圆心，因此为三个角的角平分线交点：
 
-$$ \\vecc{AI}=\\lambda\\left(\\dfrac{\\vecc{AB}}{|\\vecc{AB}}+\\dfrac{\\vecc{AC}}{|\\vecc{AC}|}\\right) $$
+AI=λ(∣ABAB​+∣AC∣AC​)
 
 有奔驰定理的形式：
 
-$$ \\sin A\\cdot\\vecc{IA}+\\sin B\\cdot\\vecc{IB}+\\sin C\\cdot\\vecc{IC}=\\vec 0 $$
+sinA⋅IA+sinB⋅IB+sinC⋅IC=0
 
 三角形的内心到边的距离（即内切圆的半径）与三边长及面积之间有关系：
 
-$$ r_内=\\dfrac{2S}{a+b+c}=\\dfrac{2S}{C} $$
+r内​=a+b+c2S​=C2S​
 
 可以连接内心与三顶点，等面积法求解。
 
@@ -274,29 +272,29 @@ $$ r_内=\\dfrac{2S}{a+b+c}=\\dfrac{2S}{C} $$
 
 外心为三角形外接圆圆心，因此为三边中垂线交点，不一定在三角形内部，到三角形三点距离相等。
 
-$$ \\vecc{OA}^2=\\vecc{OB}^2=\\vecc{OC}^2 $$
+OA2=OB2=OC2
 
 有奔驰定理的形式：
 
-$$ \\sin2A\\cdot\\vecc{OA}+\\sin2B\\cdot\\vecc{OB}+\\sin2C\\cdot\\vecc{OC}=\\vec 0 $$
+sin2A⋅OA+sin2B⋅OB+sin2C⋅OC=0
 
 而，
 
-$$ R_外={abc\\over4S} $$
+R外​=4Sabc​
 
 - 当三角形为锐角三角形时，外心在三角形内部。
 - 当三角形为钝角三角形时，外心在三角形外部。
 - 当三角形为直角三角形时，外心在斜边的中点上。
 
-锐角三角形外心到三边距离之和等于 *R* + *r*。
+锐角三角形外心到三边距离之和等于 R+r。
 
 证明：等价于证
 
-*R*(cos *A* + cos *B* + cos *C*) = *R* + *r*
+R(cosA+cosB+cosC)=R+r
 
 我们知道
 
-$$ \\begin{aligned} S\_{\\Delta ABC}&=\\frac{1}{2}(a+b+c)r\\ &=S\_{\\Delta OAB}+S\_{\\Delta OAC}+S\_{\\Delta OBC}\\ &=\\frac{1}{2}R(a\\cos A+b\\cos B+c\\cos C) \\end{aligned} $$
+SΔABC​​=21​(a+b+c)r=SΔOAB​+SΔOAC​+SΔOBC​=21​R(acosA+bcosB+ccosC)​
 
 联立上两式（相乘），直接展开易知等式成立。
 
@@ -304,73 +302,73 @@ $$ \\begin{aligned} S\_{\\Delta ABC}&=\\frac{1}{2}(a+b+c)r\\ &=S\_{\\Delta OAB}+
 
 垂心是三角形三边垂线的交点，因此有点积为零。
 
-$$ \\vecc{HA}\\cdot{BC}=\\vecc{HB}\\cdot\\vecc{AC}=\\vecc{HC}\\cdot\\vecc{AB}=0 $$
+HA⋅BC=HB⋅AC=HC⋅AB=0
 
 两两整理，得到：
 
-$$ \\vecc{HA}\\cdot\\vecc{HB}=\\vecc{HB}\\cdot\\vecc{HC}=\\vecc{HC}\\cdot\\vecc{HA} $$
+HA⋅HB=HB⋅HC=HC⋅HA
 
 有奔驰定理的形式：
 
-$$ \\tan A\\cdot\\vecc{HA}+\\tan B\\cdot\\vecc{HB}+\\tan C\\cdot\\vecc{HC}=\\vec 0 $$
+tanA⋅HA+tanB⋅HB+tanC⋅HC=0
 
 而垂心到三角形一顶点距离等于此三角形外心到此顶点对边距离的 2 倍。
 
-三角形外心 *O*、重心 *G*、垂心 *H* 三点共线且 *O\*\*G* : *G\*\*H* = 1 : 2 此直线称为三角形的欧拉线。
+三角形外心 O、重心 G、垂心 H 三点共线且 OG:GH=1:2 此直线称为三角形的欧拉线。
 
 ## 三角形三线
 
 ### 中线长定理
 
-在 △*A**B**C* 中，*B\*\*C* 的中点为 *M*，对于中线 *A\*\*M*，有：
+在 △ABC 中，BC 的中点为 M，对于中线 AM，有：
 
-$$ AM^2={1\\over2}b^2+{1\\over2}c^2-{1\\over4}a^2 $$
-
-或，
-
-$$ AM^2+BM^2={1\\over2}(AC^2+AB^2) $$
+AM2=21​b2+21​c2−41​a2
 
 或，
 
-$$ AM={1\\over2}\\sqrt{2b^2+2c^2-a^2} $$
+AM2+BM2=21​(AC2+AB2)
+
+或，
+
+AM=21​2b2+2c2−a2​
 
 证明，基底分解：
 
-$$ \\overrightarrow{AM}={1\\over2}\\overrightarrow{AB}+{1\\over2}\\overrightarrow{AC}\\[0.5em] \\overrightarrow{BM}={1\\over2}\\overrightarrow{AC}-{1\\over2}\\overrightarrow{AB} $$
+AM=21​AB+21​ACBM=21​AC−21​AB
 
 则，
 
-$$ |\\overrightarrow{AM}|^2+|\\overrightarrow{BM}|^2={1\\over2}|\\overrightarrow{AB}|^2+{1\\over2}|\\overrightarrow{AC}|^2 $$
+∣AM∣2+∣BM∣2=21​∣AB∣2+21​∣AC∣2
 
 或者中点两个底角分别列余弦定理，相加化简。
 
 ### 分角定理
 
-在 △*A**B**C* 中，*B\*\*C* 上有一点 *M*，则：
+在 △ABC 中，BC 上有一点 M，则：
 
-$$ {BM\\over CM}={AB\\sin\\angle BAM\\over AC\\sin\\angle CAM} $$
+CMBM​=ACsin∠CAMABsin∠BAM​
 
 证明，左右两边等面积法：
 
-$$ {BM\\over CM}={S\_{\\triangle ABM}\\over S\_{\\triangle ACM}}={AB\\cdot AM\\sin\\angle BAM\\over AC\\cdot AM\\sin\\angle CAM}={AB\\sin\\angle BAM\\over AC\\sin\\angle CAM} $$
+CMBM​=S△ACM​S△ABM​​=AC⋅AMsin∠CAMAB⋅AMsin∠BAM​=ACsin∠CAMABsin∠BAM​
 
 或正弦定理：
 
-$$ {BM\\over\\sin\\angle BAM}={AB\\over\\sin\\angle AMB}\\[0.5em] {CM\\over\\sin\\angle CAM}={AC\\over\\sin\\angle AMC} $$
+sin∠BAMBM​=sin∠AMBAB​sin∠CAMCM​=sin∠AMCAC​
 
 上下做比。
 
 ### 角平分线定理
 
-在 △*A**B**C* 中，∠*A* 的平分线 *A\*\*M*，有：
+在 △ABC 中，∠A 的平分线 AM，有：
 
-$$ {BM\\over CM}={AB\\over AC} $$
+CMBM​=ACAB​
 
 是分角定理的直接推论。
 
 ### 角平分线长定理
 
-$$ \\begin{aligned} AD&=\\sqrt{AB\\cdot AC-BD\\cdot CD}\\ &=\\sqrt{bc\\left(1-{a^2\\over(b+c)^2}\\right)}\\ &={2bc\\over b+c}\\cos{A\\over2} \\end{aligned} $$
+AD​=AB⋅AC−BD⋅CD​=bc(1−(b+c)2a2​)​=b+c2bc​cos2A​​
 
 ## 边长公式
 
@@ -378,39 +376,39 @@ $$ \\begin{aligned} AD&=\\sqrt{AB\\cdot AC-BD\\cdot CD}\\ &=\\sqrt{bc\\left(1-{a
 
 射影定理表示为：
 
-*a* = *b*cos *C* + *c*cos *B*
+a=bcosC+ccosB
 
 在初中我们学习过影高乘积等于树高平方的射影定理。
 
-在 △*A**B**C* 中 *B\*\*C* 上的高为 *A\*\*D*，则：
+在 △ABC 中 BC 上的高为 AD，则：
 
-*A\*\*B*2 = *B\*\*D* ⋅ *B\*\*C*
+AB2=BD⋅BC
 
-*A\*\*D*2 = *B\*\*D* ⋅ *C\*\*D*
+AD2=BD⋅CD
 
-*A\*\*C*2 = *B\*\*C* ⋅ *C\*\*D*
+AC2=BC⋅CD
 
 ### 斯图尔特定理
 
-又译斯台沃特定理，在 △*A**B**C* 边 *B\*\*C* 上任意一点 *D*，
+又译斯台沃特定理，在 △ABC 边 BC 上任意一点 D，
 
-*A\*\*B*2 ⋅ *C\*\*D* + *A\*\*C*2 ⋅ *B\*\*D* − *A\*\*D*2 ⋅ *B\*\*C* = *B\*\*D* ⋅ *C\*\*D* ⋅ *B\*\*C*
+AB2⋅CD+AC2⋅BD−AD2⋅BC=BD⋅CD⋅BC
 
 可以由两次余弦定理推导得出。
 
 ### 平行四边形恒等式
 
-*A\*\*B*2 + *B\*\*C*2 + *C\*\*D*2 + *A\*\*D*2 = *A\*\*C*2 + *B\*\*D*2
+AB2+BC2+CD2+AD2=AC2+BD2
 
 对于一般的四边形，等式不成立，但是有不等式：
 
-*A\*\*B*2 + *B\*\*C*2 + *C\*\*D*2 + *A\*\*D*2 ≥ *A\*\*C*2 + *B\*\*D*2
+AB2+BC2+CD2+AD2≥AC2+BD2
 
-或者设 *x* 表示两条对角线中点所连线段的长度：
+或者设 x 表示两条对角线中点所连线段的长度：
 
-*A\*\*B*2 + *B\*\*C*2 + *C\*\*D*2 + *A\*\*D*2 = *A\*\*C*2 + *B\*\*D*2 + 4*x*2
+AB2+BC2+CD2+AD2=AC2+BD2+4x2
 
-注意到平行四边形对角线互相平分，即 *x* = 0，可得上面的第一个恒等式。
+注意到平行四边形对角线互相平分，即 x=0，可得上面的第一个恒等式。
 
 ### 边元塞瓦定理
 
@@ -418,11 +416,11 @@ $$ \\begin{aligned} AD&=\\sqrt{AB\\cdot AC-BD\\cdot CD}\\ &=\\sqrt{bc\\left(1-{a
 
 ### 梅涅劳斯定理
 
-一直线与 △*A**B**C* 的三边 *A\*\*B*, *B\*\*C*, *A\*\*C* 或他们的延长线分别交于 *X*, *Y*, *Z* 三点，则：
+一直线与 △ABC 的三边 AB,BC,AC 或他们的延长线分别交于 X,Y,Z 三点，则：
 
-$$ \\dfrac{AX}{XB}\\cdot\\dfrac{BY}{YC}\\cdot\\dfrac{CZ}{ZA}=0 $$
+XBAX​⋅YCBY​⋅ZACZ​=0
 
-梅涅劳斯定理的逆定理表示为，满足上述式子，则 *X*, *Y*, *Z* 三点共线。
+梅涅劳斯定理的逆定理表示为，满足上述式子，则 X,Y,Z 三点共线。
 
 ## 面积公式
 
@@ -430,30 +428,30 @@ $$ \\dfrac{AX}{XB}\\cdot\\dfrac{BY}{YC}\\cdot\\dfrac{CZ}{ZA}=0 $$
 
 任意三角形面积可以表示为：
 
-$$ \\begin{aligned} S&=\\sqrt{p(p-a)(p-b)(p-c)}\\ p&={a+b+c\\over2} \\end{aligned} $$
+Sp​=p(p−a)(p−b)(p−c)​=2a+b+c​​
 
 即：
 
-$$ S=\\dfrac14\\sqrt{(a+b+c)(a+b-c)(a-b+c)(-a+b+c)} $$
+S=41​(a+b+c)(a+b−c)(a−b+c)(−a+b+c)​
 
-其中 *p* 为三角形的半周长。
+其中 p 为三角形的半周长。
 
 ### 布雷特施奈德公式
 
 任意四边形面积可以表示为：
 
-$$ \\begin{aligned} S&=\\sqrt{(p-a)(p-b)(p-c)(p-d)-abcd\\cos^2{\\alpha+\\beta\\over2}}\\ p&={a+b+c+d\\over2} \\end{aligned} $$
+Sp​=(p−a)(p−b)(p−c)(p−d)−abcdcos22α+β​​=2a+b+c+d​​
 
-其中 *p* 为四边形的半周长，*α*, *β* 为其中二个对角。
+其中 p 为四边形的半周长，α,β 为其中二个对角。
 
 布雷特施奈德公式可视为婆罗摩笈多公式之推广。
 
 ### 婆罗摩笈多公式
 
-注意到圆内接四边形对角互补，其半角余弦值为零，cos 90∘ = 0 则圆内接四边形面积可以简化为：
+注意到圆内接四边形对角互补，其半角余弦值为零，cos90∘=0 则圆内接四边形面积可以简化为：
 
-$$ \\begin{aligned} S&=\\sqrt{(p-a)(p-b)(p-c)(p-d)}\\ p&={a+b+c+d\\over2} \\end{aligned} $$
+Sp​=(p−a)(p−b)(p−c)(p−d)​=2a+b+c+d​​
 
-其中 *p* 为四边形的半周长。
+其中 p 为四边形的半周长。
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
