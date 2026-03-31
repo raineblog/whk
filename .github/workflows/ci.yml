@@ -29,12 +29,12 @@ jobs:
       matrix:
         include:
           - name: Github Pages
-            cache: mkdocs
+            cache: mkdocs-gh
             url: https://raineblog.dpdns.org/whk/
             branch: gh-pages
             disable_giscus: 'false'
           - name: Cloudflare Pages
-            cache: mkdocs
+            cache: mkdocs-cf
             url: https://raineblog-whk.pages.dev/
             branch: cloudflare-pages
             disable_giscus: 'true'
@@ -68,9 +68,9 @@ jobs:
         uses: actions/cache@v5
         with:
           path: .cache
-          key: ${{ runner.os }}-${{ matrix.cache }}-2-${{ github.run_id }}-${{ github.run_attempt }}
+          key: ${{ runner.os }}-${{ matrix.cache }}-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
-            ${{ runner.os }}-${{ matrix.cache }}-2-
+            ${{ runner.os }}-${{ matrix.cache }}-
 
       - name: Build Static Site
         run: uv run scripts/generate.py --build --site_url=${{ matrix.url }} --disable_giscus=${{ matrix.disable_giscus }}
