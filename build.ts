@@ -120,7 +120,6 @@ const deduplicateMeta = () => (tree: any) => {
         if (key === "description" || key === "author" || key === "keywords") {
           if (seenKeys.has(key)) {
             children.splice(seenKeys.get(key)!, 1);
-            if (seenKeys.get(key)! > i) i--;
           }
           seenKeys.set(key, i);
         }
@@ -130,7 +129,6 @@ const deduplicateMeta = () => (tree: any) => {
         const key = "canonical";
         if (seenKeys.has(key)) {
           children.splice(seenKeys.get(key)!, 1);
-          if (seenKeys.get(key)! > i) i--;
         }
         seenKeys.set(key, i);
       }
@@ -327,6 +325,13 @@ const mergeStyleTags = () => (tree: any) => {
 const moveBlockingScripts = () => (tree: any) => {
   let blockingScripts: any[] = [];
 
+  function isJavaScriptScript(script: any): boolean {
+    const type = script.attrs?.type;
+    if (type === undefined) return true;
+    if (type === "text/javascript" || type === "application/javascript" || type === "module") return true;
+    return false;
+  }
+
   tree.walk((node: any) => {
     if (node.tag === "head") {
       const children = node.content || [];
@@ -336,7 +341,7 @@ const moveBlockingScripts = () => (tree: any) => {
         if (
           typeof child === "object" &&
           child.tag === "script" &&
-          child.attrs?.type !== "module" &&
+          isJavaScriptScript(child) &&
           child.attrs?.defer === undefined &&
           child.attrs?.async === undefined &&
           child.attrs?.["data-no-move"] === undefined
