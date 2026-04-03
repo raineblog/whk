@@ -377,15 +377,7 @@ const removeRedundantAttrs = () => (tree: any) => {
       delete node.attrs.type;
     }
 
-    if (node.tag === "script") {
-      const type = node.attrs.type;
-      if (type === "text/javascript" || type === "application/javascript") {
-        delete node.attrs.type;
-      }
-      if (node.attrs.language) {
-        delete node.attrs.language;
-      }
-    }
+    // Keep script type attribute - removing it breaks some JS that depends on it
 
     for (const key of ["class", "id"]) {
       if (node.attrs[key] === "") {
