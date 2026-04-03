@@ -1,3 +1,2 @@
-(()=>{})();
 
-//# debugId=45AEE34B3904510C64756E2164756E21
+//# sourceMappingURL=user.config.js.map
