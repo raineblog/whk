@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Fri, 03 Apr 2026 13:54:11 -0000</pubDate>
-    <lastBuildDate>Fri, 03 Apr 2026 13:54:11 -0000</lastBuildDate>
+    <pubDate>Fri, 03 Apr 2026 15:11:07 -0000</pubDate>
+    <lastBuildDate>Fri, 03 Apr 2026 15:11:07 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -2682,12 +2682,40 @@ P(AB) = P...&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>化学性质详解：化学变化机制与实验室应用与价值意义</title>
+      <title>物质及元素</title>
       
       
       
       
-      <description>本文系统阐述化学性质的定义与分类，涵盖物理性质与化学性质的区别，详细解析氧化物、酸碱盐的特性及其反应机理，重点讨论置换反应的氧化还原本质、金属活性顺序及离子检验方法，并介绍分散系的胶体特性与胶体鉴别技术，提供实验室常用的观察与分离技巧，适用于高中与大学化学学习与复习。</description>
+      <description>&lt;h1&gt;物质及元素&lt;/h1&gt;
+&lt;h2&gt;物质的组成和分类&lt;/h2&gt;
+&lt;h3&gt;物质的组成&lt;/h3&gt;
+&lt;p&gt;物质都是由元素组成的。元素是具有相同质子数（核电荷数）的一类原子的总称。自然界中的元素以两种形态存在：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;游离态&lt;/strong&gt;：元素以单质形式存在。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化合态&lt;/strong&gt;：元素以化合物形式存在。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;元素-游离态-单质，自然界中常见存在的单质，例如空气中的某些成分、矿石中的不活泼的金属单质、火山口的硫单质、陨铁中的铁单质。&lt;/p&gt;
+&lt;p&gt;经典问题，$\ce{H2}$ 和 $\ce{HD}$ 的&#34;混合物&#34;是纯净物，因为纯净物的定义中，不考虑原子核同位素等的不同。&lt;/p&gt;
+&lt;p&gt;元素-化合态-化合物。&lt;/p&gt;
+&lt;p&gt;物质按照组成可以分为纯净物和混合物：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;纯净物&lt;/strong&gt;：由一种物质组成，具有固定的组成和性质。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;混合物&lt;/strong&gt;：由两种或多种物质混合而成，没有固定的组成，各成分保持各自的性质。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;物质&#34; src=&#34;物质-dcbbc0d.avif&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
+&lt;p&gt;纯净物注意：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;化学式相同，并不一定就是纯净物。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;高聚物，又称高分子化合物，由于其分子中的链节数目不同，相对分子质量也不同，因此高聚物一定是混合物。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;水合盐又称结...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/element/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
