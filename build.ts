@@ -397,7 +397,13 @@ const removeEmptyElements = () => (tree: any) => {
     node.content = children.filter((child: any) => {
       if (typeof child !== "object" || !child.tag) return true;
 
-      if (child.tag === "style" || child.tag === "script") {
+      if (child.tag === "style") {
+        const content = (child.content || []).join("").trim();
+        if (content === "") return false;
+      }
+
+      // Only remove inline scripts with no content - never remove external scripts with src
+      if (child.tag === "script" && !child.attrs?.src) {
         const content = (child.content || []).join("").trim();
         if (content === "") return false;
       }
