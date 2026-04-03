@@ -423,7 +423,7 @@ const posthtml_plugins: any[] = [
   posthtmlImgAlt(),
   posthtmlAltAlways(),
   mergeInlineLonghand(),
-  posthtmlLinkPreload(),
+  // posthtmlLinkPreload(), // Disabled - causes unused preload warnings and breaks rocket-loader
   posthtmlExternalLink(),
   deduplicateMeta(),
   deduplicateStructuredData(),
@@ -431,7 +431,7 @@ const posthtml_plugins: any[] = [
   posthtmlRemoveDuplicates("meta"),
   removeRedundantAttrs(),
   mergeStyleTags(),
-  moveBlockingScripts(),
+  // moveBlockingScripts(), // Disabled - conflicts with Cloudflare rocket-loader
   reorderHead(),
   removeEmptyElements(),
 ];
@@ -446,7 +446,7 @@ const htmlMinOptions = {
   removeComments: true,
   removeEmptyAttributes: true,
   removeRedundantAttributes: true,
-  removeScriptTypeAttributes: true,
+  removeScriptTypeAttributes: false, // Keep type attribute for rocket-loader compatibility
   removeStyleLinkTypeAttributes: true,
   useShortDoctype: true,
   minifyCSS: { level: 2 },
