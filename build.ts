@@ -185,7 +185,7 @@ const deduplicateStructuredData = () => (tree: any) => {
       try {
         const json = JSON.parse(content);
         const type = json["@type"] || "";
-        const id = json["@id"] || json.url || "";
+        const id = json["@id"] || "";
 
         if (!type) continue;
 
@@ -193,7 +193,6 @@ const deduplicateStructuredData = () => (tree: any) => {
 
         if (seenTypes.has(key)) {
           children.splice(seenTypes.get(key)!, 1);
-          if (seenTypes.get(key)! > i) i--;
         }
         seenTypes.set(key, i);
       } catch {
@@ -328,10 +327,11 @@ const moveBlockingScripts = () => (tree: any) => {
   function isJavaScriptScript(script: any): boolean {
     const type = script.attrs?.type;
     if (type === undefined) return true;
-    if (type === "text/javascript" || type === "application/javascript" || type === "module") return true;
+    if (type === "text/javascript" || type === "application/javascript") return true;
     return false;
   }
 
+  // First pass: collect blocking scripts from head
   tree.walk((node: any) => {
     if (node.tag === "head") {
       const children = node.content || [];
@@ -354,15 +354,19 @@ const moveBlockingScripts = () => (tree: any) => {
 
       node.content = keep;
     }
-
-    if (node.tag === "body") {
-      const children = node.content || [];
-      node.content = [...children, ...blockingScripts];
-      blockingScripts = [];
-    }
-
     return node;
   });
+
+  // Second pass: append to body (if exists)
+  tree.walk((node: any) => {
+    if (node.tag === "body" && blockingScripts.length > 0) {
+      const children = node.content || [];
+      node.content = [...children, ...blockingScripts];
+    }
+    return node;
+  });
+
+  return tree;
 };
 
 const removeRedundantAttrs = () => (tree: any) => {
@@ -548,7 +552,9 @@ async function processJs(dir: string): Promise<{ count: number; errors: string[]
   const files: string[] = [];
 
   for await (const f of jsFiles.scan(".")) {
-    files.push(f);
+    if (!f.endsWith(".min.js")) {
+      files.push(f);
+    }
   }
 
   let count = 0;
