@@ -1,11 +1,23 @@
 #!/usr/bin/env bun
-// bun 原生构建脚本 - 原地优化模式
-// 直接在输入目录内修改文件，不创建输出目录
-// 功能：JS/CSS 压缩 + SourceMap、HTML 深度优化（重排 head、合并内联样式/脚本、清理重复 SEO 标签、最大化网页性能）
+/**
+ * bun 原生构建脚本 - 原地优化模式
+ * 直接在输入目录内修改文件，不创建输出目录
+ *
+ * 功能:
+ *   CSS: PostCSS + cssnano(advanced) + autoprefixer + sourcemap
+ *   JS:  terser 深度压缩 + sourcemap
+ *   HTML: PostHTML 深度优化 (去重、重排、合并、压缩) + html-minifier-terser
+ *
+ * 用法:
+ *   bun run build.ts --dir site
+ *   bun build --compile build.ts --outfile build-bin && ./build-bin --dir site
+ */
 
-import { $, Glob, file } from "bun";
+import { Glob, file } from "bun";
 import postcss from "postcss";
 import posthtml from "posthtml";
+import { minify as terserMinify } from "terser";
+import { minify as htmlMinify } from "html-minifier-terser";
 import path from "path";
 
 // PostHTML Plugins
@@ -21,8 +33,29 @@ import autoprefixer from "autoprefixer";
 import postcssNested from "postcss-nested";
 import cssnano from "cssnano";
 
-// 解析命令行参数
-function parseArgs() {
+// ============================================================
+// Configuration
+// ============================================================
+
+/** 并发处理数 */
+const CONCURRENCY = 16;
+
+/** 进度日志间隔 */
+const LOG_INTERVAL = 50;
+
+/** 浏览器兼容目标 */
+const BROWSERSLIST = [
+  "last 2 Chrome versions",
+  "last 2 Firefox versions",
+  "last 2 Safari versions",
+  "last 2 Edge versions",
+];
+
+// ============================================================
+// Argument Parsing
+// ============================================================
+
+function parseArgs(): { dir: string } {
   const args = process.argv.slice(2);
   let dir = "site";
 
@@ -35,27 +68,34 @@ function parseArgs() {
   return { dir };
 }
 
-// PostCSS 插件配置
+// ============================================================
+// PostCSS Configuration
+// ============================================================
+
 const postcss_plugins = [
   postcssNested(),
-  autoprefixer(),
-  cssnano(),
+  autoprefixer({ overrideBrowserslist: BROWSERSLIST }),
+  cssnano({
+    preset: [
+      "default",
+      {
+        cssDeclarationSorter: true,
+        mergeRules: true,
+        mergeIdents: true,
+        zindex: false,
+      },
+    ],
+  }),
 ];
 
-// PostHTML 插件配置
-const posthtml_plugins = [
-  posthtmlPostcss(postcss_plugins, { from: undefined }),
-  posthtmlAltAlways(),
-  mergeInlineLonghand(),
-  posthtmlLinkPreload(),
-  posthtmlExternalLink(),
-  posthtmlRemoveDuplicates("meta"),
-];
+// ============================================================
+// PostHTML Custom Plugins
+// ============================================================
 
-// 自定义 img alt 插件
-const posthtmlImgAlt = () => (tree) => {
-  tree.walk((node) => {
-    if (node.tag === "img" && node.attrs && node.attrs.src) {
+/** img alt fallback: use filename if alt is empty */
+const posthtmlImgAlt = () => (tree: any) => {
+  tree.walk((node: any) => {
+    if (node.tag === "img" && node.attrs?.src) {
       if (!node.attrs.alt || node.attrs.alt.trim() === "") {
         const src = node.attrs.src;
         const fileName = path.posix.basename(src, path.posix.extname(src));
@@ -66,197 +106,224 @@ const posthtmlImgAlt = () => (tree) => {
   });
 };
 
-posthtml_plugins.unshift(posthtmlImgAlt());
-
-// HTML 压缩函数
-function minifyHtml(html) {
-  let result = html;
-  result = result.replace(/\n\s+/g, " ").replace(/\s{2,}/g, " ").replace(/>\s+</g, "><");
-  result = result.replace(/<!--(?!\[)(?![\s\S]*?\[endif-->)[\s\S]*?-->/g, "");
-  return result;
-}
-
-// ============================================
-// HTML 深度优化 PostHTML 插件
-// ============================================
-
 /**
- * 重排 <head> 内元素顺序，优化渲染性能
- * 最佳顺序：meta → title → preload/prefetch → link(stylesheet) → style → script(defer) → script(async) → script
+ * Deduplicate meta tags (enhanced)
+ * Removes duplicate meta[name=description], meta[name=author], meta[name=keywords]
+ * and duplicate link[rel=canonical]
+ * Keeps the LAST occurrence (usually from the SEO plugin which is more complete)
  */
-const reorderHead = () => (tree) => {
-  tree.walk((node) => {
+const deduplicateMeta = () => (tree: any) => {
+  tree.walk((node: any) => {
     if (node.tag !== "head") return node;
 
-    const order = {
-      meta: 0,
-      title: 1,
-      link: 2,
-      style: 3,
-      script: 4,
-    };
-
-    const priority = {
-      "preload": 0,
-      "prefetch": 1,
-      "preconnect": 2,
-      "dns-prefetch": 3,
-      "stylesheet": 4,
-      "icon": 5,
-      "canonical": 6,
-      "other": 7,
-    };
-
-    const scriptPriority = {
-      "module": 0,
-      "defer": 1,
-      "async": 2,
-      "other": 3,
-    };
-
     const children = node.content || [];
-    const metas = [];
-    const title = [];
-    const links = [];
-    const styles = [];
-    const scripts = [];
-    const others = [];
+    const seenKeys = new Map<string, number>();
 
-    for (const child of children) {
-      if (typeof child !== "object" || !child.tag) {
-        if (typeof child === "string" && child.trim()) {
-          others.push(child);
-        }
-        continue;
-      }
-
-      switch (child.tag) {
-        case "meta":
-          metas.push(child);
-          break;
-        case "title":
-          title.push(child);
-          break;
-        case "link": {
-          const rel = child.attrs?.rel || "other";
-          const relArr = rel.split(" ");
-          const p = relArr.reduce((max, r) => Math.max(max, priority[r] ?? priority.other), priority.other);
-          links.push({ node: child, priority: p });
-          break;
-        }
-        case "style":
-          styles.push(child);
-          break;
-        case "script": {
-          const attrs = child.attrs || {};
-          let sp = scriptPriority.other;
-          if (attrs.type === "module") sp = scriptPriority.module;
-          else if (attrs.defer) sp = scriptPriority.defer;
-          else if (attrs.async) sp = scriptPriority.async;
-          scripts.push({ node: child, priority: sp });
-          break;
-        }
-        default:
-          others.push(child);
-      }
-    }
-
-    // 排序 links
-    links.sort((a, b) => a.priority - b.priority);
-    // 排序 scripts
-    scripts.sort((a, b) => a.priority - b.priority);
-
-    node.content = [
-      ...metas,
-      ...title,
-      ...links.map((l) => l.node),
-      ...styles,
-      ...scripts.map((s) => s.node),
-      ...others,
-    ];
-
-    return node;
-  });
-};
-
-/**
- * 清理重复的 SEO 标签
- * 保留第一个 og:title, og:description, og:image, twitter:card 等
- * 清理重复的 charset, viewport
- */
-const cleanDuplicateSeo = () => (tree) => {
-  tree.walk((node) => {
-    if (node.tag !== "head") return node;
-
-    const seen = new Set();
-    const duplicates = new Set();
-    const children = node.content || [];
-
-    const seoKeys = [
-      "charset",
-      "viewport",
-      "og:title",
-      "og:description",
-      "og:image",
-      "og:url",
-      "og:type",
-      "og:site_name",
-      "og:locale",
-      "twitter:card",
-      "twitter:title",
-      "twitter:description",
-      "twitter:image",
-      "description",
-      "keywords",
-      "author",
-      "canonical",
-    ];
-
-    for (let i = 0; i < children.length; i++) {
+    for (let i = children.length - 1; i >= 0; i--) {
       const child = children[i];
       if (typeof child !== "object" || !child.tag) continue;
 
       if (child.tag === "meta") {
         const name = child.attrs?.name || child.attrs?.property || child.attrs?.["http-equiv"] || "";
+        if (!name) continue;
+
         const key = name.toLowerCase();
 
-        if (seoKeys.some((s) => key === s || key.includes(s))) {
-          if (seen.has(key)) {
-            duplicates.add(i);
-          } else {
-            seen.add(key);
+        if (key === "description" || key === "author" || key === "keywords") {
+          if (seenKeys.has(key)) {
+            children.splice(seenKeys.get(key)!, 1);
+            if (seenKeys.get(key)! > i) i--;
           }
+          seenKeys.set(key, i);
         }
       }
 
       if (child.tag === "link" && child.attrs?.rel === "canonical") {
-        if (seen.has("canonical")) {
-          duplicates.add(i);
+        const key = "canonical";
+        if (seenKeys.has(key)) {
+          children.splice(seenKeys.get(key)!, 1);
+          if (seenKeys.get(key)! > i) i--;
+        }
+        seenKeys.set(key, i);
+      }
+    }
+
+    node.content = children;
+    return node;
+  });
+};
+
+/** Deduplicate link[rel=alternate] with same type + href */
+const deduplicateLinks = () => (tree: any) => {
+  tree.walk((node: any) => {
+    if (node.tag !== "head") return node;
+
+    const children = node.content || [];
+    const seenLinks = new Set<string>();
+
+    for (let i = children.length - 1; i >= 0; i--) {
+      const child = children[i];
+      if (typeof child !== "object" || !child.tag || child.tag !== "link") continue;
+
+      const rel = child.attrs?.rel || "";
+      const href = child.attrs?.href || "";
+
+      if (rel === "alternate" && href) {
+        const type = child.attrs?.type || "";
+        const key = `alternate:${type}:${href}`;
+        if (seenLinks.has(key)) {
+          children.splice(i, 1);
         } else {
-          seen.add("canonical");
+          seenLinks.add(key);
         }
       }
     }
 
-    // 移除重复项（从后往前删）
-    for (const idx of [...duplicates].sort((a, b) => b - a)) {
-      children.splice(idx, 1);
+    node.content = children;
+    return node;
+  });
+};
+
+/** Deduplicate JSON-LD structured data by @type + @id */
+const deduplicateStructuredData = () => (tree: any) => {
+  tree.walk((node: any) => {
+    if (node.tag !== "head") return node;
+
+    const children = node.content || [];
+    const seenTypes = new Map<string, number>();
+
+    for (let i = children.length - 1; i >= 0; i--) {
+      const child = children[i];
+      if (typeof child !== "object" || !child.tag) continue;
+      if (child.tag !== "script" || child.attrs?.type !== "application/ld+json") continue;
+
+      const content = child.content?.[0] || "";
+      try {
+        const json = JSON.parse(content);
+        const type = json["@type"] || "";
+        const id = json["@id"] || json.url || "";
+
+        if (!type) continue;
+
+        const key = id ? `${type}:${id}` : type;
+
+        if (seenTypes.has(key)) {
+          children.splice(seenTypes.get(key)!, 1);
+          if (seenTypes.get(key)! > i) i--;
+        }
+        seenTypes.set(key, i);
+      } catch {
+        // Invalid JSON, skip
+      }
     }
 
+    node.content = children;
     return node;
   });
 };
 
 /**
- * 合并相邻的 <style> 标签
+ * Reorder head elements for optimal rendering
+ * Priority order:
+ *   1. charset meta (must be first)
+ *   2. viewport meta
+ *   3. title
+ *   4. remaining meta tags
+ *   5. preconnect / dns-prefetch
+ *   6. preload / prefetch
+ *   7. stylesheets (external)
+ *   8. inline styles
+ *   9. scripts (module > defer > async > blocking)
+ *  10. everything else
+ * Uses stable sort to preserve relative order within each category.
+ * Skips elements with data-no-move attribute.
  */
-const mergeStyleTags = () => (tree) => {
-  tree.walk((node) => {
+const reorderHead = () => (tree: any) => {
+  tree.walk((node: any) => {
     if (node.tag !== "head") return node;
 
     const children = node.content || [];
-    const merged = [];
-    let currentStyle = null;
+
+    const CATEGORIES = {
+      charset: 0,
+      viewport: 1,
+      title: 2,
+      meta: 3,
+      preconnect: 4,
+      preload: 5,
+      stylesheet: 6,
+      style: 7,
+      script_module: 8,
+      script_defer: 9,
+      script_async: 10,
+      script_blocking: 11,
+      other: 12,
+    } as const;
+
+    function categorize(child: any): number {
+      if (typeof child !== "object" || !child.tag) return CATEGORIES.other;
+      if (child.attrs?.["data-no-move"] !== undefined) return CATEGORIES.other;
+
+      switch (child.tag) {
+        case "meta": {
+          // Only explicit charset attribute is charset meta (not http-equiv)
+          if (child.attrs?.charset !== undefined) return CATEGORIES.charset;
+          const httpEquiv = (child.attrs?.["http-equiv"] || "").toLowerCase();
+          // http-equiv="content-type" is also charset (legacy but valid)
+          if (httpEquiv === "content-type") return CATEGORIES.charset;
+          const name = (child.attrs?.name || "").toLowerCase();
+          if (name === "viewport") return CATEGORIES.viewport;
+          return CATEGORIES.meta;
+        }
+        case "title":
+          return CATEGORIES.title;
+        case "link": {
+          const rel = child.attrs?.rel || "";
+          const rels = rel.split(" ");
+          if (rels.includes("preconnect") || rels.includes("dns-prefetch")) return CATEGORIES.preconnect;
+          if (rels.includes("preload") || rels.includes("prefetch")) return CATEGORIES.preload;
+          if (rels.includes("stylesheet")) return CATEGORIES.stylesheet;
+          return CATEGORIES.other;
+        }
+        case "style":
+          return CATEGORIES.style;
+        case "script": {
+          const type = child.attrs?.type;
+          if (type === "module") return CATEGORIES.script_module;
+          if (child.attrs?.defer !== undefined) return CATEGORIES.script_defer;
+          if (child.attrs?.async !== undefined) return CATEGORIES.script_async;
+          return CATEGORIES.script_blocking;
+        }
+        default:
+          return CATEGORIES.other;
+      }
+    }
+
+    // Stable sort: preserve original order within same category
+    const indexed = children.map((child: any, idx: number) => ({ child, idx }));
+    indexed.sort((a: any, b: any) => {
+      const catA = categorize(a.child);
+      const catB = categorize(b.child);
+      if (catA !== catB) return catA - catB;
+      return a.idx - b.idx;
+    });
+
+    node.content = indexed.map((s: any) => s.child);
+    return node;
+  });
+};
+
+/**
+ * Merge adjacent <style> tags (without media attributes)
+ * Preserves CSS cascade order by concatenating in original order
+ */
+const mergeStyleTags = () => (tree: any) => {
+  tree.walk((node: any) => {
+    if (node.tag !== "head") return node;
+
+    const children = node.content || [];
+    const merged: any[] = [];
+    let currentStyle: any = null;
 
     for (const child of children) {
       if (typeof child !== "object" || !child.tag) {
@@ -268,9 +335,8 @@ const mergeStyleTags = () => (tree) => {
         continue;
       }
 
-      if (child.tag === "style") {
+      if (child.tag === "style" && !child.attrs?.media) {
         if (currentStyle) {
-          // 合并内容
           const existingContent = currentStyle.content?.[0] || "";
           const newContent = child.content?.[0] || "";
           currentStyle.content = [existingContent + "\n" + newContent];
@@ -296,23 +362,26 @@ const mergeStyleTags = () => (tree) => {
 };
 
 /**
- * 将 <script> 标签移至 </body> 前（非 defer/async/module 的阻塞脚本）
- * 保留 defer/async/module 脚本在 <head> 中
+ * Move blocking scripts from <head> to before </body>
+ * Only moves non-defer/async/module scripts that are not marked with data-no-move
+ * Preserves execution order
  */
-const moveBlockingScripts = () => (tree) => {
-  tree.walk((node) => {
+const moveBlockingScripts = () => (tree: any) => {
+  let blockingScripts: any[] = [];
+
+  tree.walk((node: any) => {
     if (node.tag === "head") {
       const children = node.content || [];
-      const blockingScripts = [];
-      const keep = [];
+      const keep: any[] = [];
 
       for (const child of children) {
         if (
           typeof child === "object" &&
           child.tag === "script" &&
-          !child.attrs?.defer &&
-          !child.attrs?.async &&
-          child.attrs?.type !== "module"
+          child.attrs?.type !== "module" &&
+          child.attrs?.defer === undefined &&
+          child.attrs?.async === undefined &&
+          child.attrs?.["data-no-move"] === undefined
         ) {
           blockingScripts.push(child);
         } else {
@@ -321,166 +390,311 @@ const moveBlockingScripts = () => (tree) => {
       }
 
       node.content = keep;
-      node._blockingScripts = blockingScripts;
     }
 
     if (node.tag === "body") {
-      const headNode = findHead(tree);
-      const blockingScripts = headNode?._blockingScripts || [];
-
       const children = node.content || [];
-      // 在 </body> 前插入阻塞脚本
       node.content = [...children, ...blockingScripts];
+      blockingScripts = [];
     }
 
     return node;
   });
 };
 
-function findHead(tree) {
-  let result = null;
-  tree.walk((node) => {
-    if (node.tag === "head") {
-      result = node;
-    }
-    return node;
-  });
-  return result;
-}
+/** Remove redundant HTML attributes (type="text/css", type="text/javascript", etc.) */
+const removeRedundantAttrs = () => (tree: any) => {
+  tree.walk((node: any) => {
+    if (!node.attrs) return node;
 
-/**
- * 移除空的 HTML 属性
- */
-const removeEmptyAttrs = () => (tree) => {
-  tree.walk((node) => {
-    if (node.attrs) {
-      for (const [key, value] of Object.entries(node.attrs)) {
-        if (value === "" || value === null || value === undefined) {
-          delete node.attrs[key];
-        }
+    if (node.tag === "style" && node.attrs.type === "text/css") {
+      delete node.attrs.type;
+    }
+
+    if (node.tag === "script") {
+      const type = node.attrs.type;
+      if (type === "text/javascript" || type === "application/javascript") {
+        delete node.attrs.type;
+      }
+      if (node.attrs.language) {
+        delete node.attrs.language;
       }
     }
+
+    for (const key of ["class", "id"]) {
+      if (node.attrs[key] === "") {
+        delete node.attrs[key];
+      }
+    }
+
     return node;
   });
 };
 
-// 将新插件加入 posthtml_plugins
-// 注意：以下插件经过保守处理，避免破坏页面渲染
-posthtml_plugins.push(cleanDuplicateSeo());
-// reorderHead - 已移除，可能导致 script 丢失
-// mergeStyleTags - 已移除，CSS 层叠顺序很重要
-// moveBlockingScripts - 已移除，脚本执行时机很重要
-// removeEmptyAttrs - 已移除，某些空属性可能有特殊含义
+/** Remove empty elements (<style>, <script>, <meta>) after minification */
+const removeEmptyElements = () => (tree: any) => {
+  tree.walk((node: any) => {
+    if (node.tag !== "head") return node;
 
-// ============================================
-// 处理函数
-// ============================================
+    const children = node.content || [];
+    node.content = children.filter((child: any) => {
+      if (typeof child !== "object" || !child.tag) return true;
 
-// 处理 HTML 文件（原地修改）
-async function processHtml(dir) {
-  const htmlFiles = new Glob(`${dir}/**/*.html`);
-  let count = 0;
+      if (child.tag === "style" || child.tag === "script") {
+        const content = (child.content || []).join("").trim();
+        if (content === "") return false;
+      }
 
-  for await (const htmlFile of htmlFiles.scan(".")) {
-    const content = await file(htmlFile).text();
-    const result = await posthtml(posthtml_plugins).process(content, { sync: false });
-    const minified = minifyHtml(result.html);
-    await Bun.write(htmlFile, minified);
-    count++;
-  }
+      if (child.tag === "meta") {
+        const hasContent = child.attrs?.content?.trim();
+        if (!hasContent && !child.attrs?.charset) return false;
+      }
 
-  return count;
-}
-
-// 处理 CSS 文件（原地压缩 + SourceMap）
-async function processCss(dir) {
-  const cssFiles = new Glob(`${dir}/**/*.css`);
-  let count = 0;
-
-  for await (const cssFile of cssFiles.scan(".")) {
-    const content = await file(cssFile).text();
-    const result = await postcss(postcss_plugins).process(content, {
-      from: cssFile,
-      to: cssFile,
-      map: { inline: false },
+      return true;
     });
 
-    await Bun.write(cssFile, result.css);
-    if (result.map) {
-      await Bun.write(cssFile + ".map", result.map.toString());
-    }
-    count++;
+    return node;
+  });
+};
+
+// ============================================================
+// PostHTML Plugin Pipeline
+// ============================================================
+
+const posthtml_plugins: any[] = [
+  // 1. Inline CSS processing
+  posthtmlPostcss(postcss_plugins, { from: undefined }),
+  // 2. Image alt fixes
+  posthtmlImgAlt(),
+  posthtmlAltAlways(),
+  // 3. Inline style merging
+  mergeInlineLonghand(),
+  // 4. Link preload optimization
+  posthtmlLinkPreload(),
+  // 5. External link handling
+  posthtmlExternalLink(),
+  // 6. Deduplication passes
+  deduplicateMeta(),
+  deduplicateStructuredData(),
+  deduplicateLinks(),
+  posthtmlRemoveDuplicates("meta"),
+  // 7. Structural optimization
+  removeRedundantAttrs(),
+  mergeStyleTags(),
+  moveBlockingScripts(),
+  reorderHead(),
+  removeEmptyElements(),
+];
+
+// ============================================================
+// HTML minification (html-minifier-terser)
+// ============================================================
+
+const htmlMinOptions = {
+  collapseWhitespace: true,
+  conservativeCollapse: true,
+  removeComments: true,
+  removeEmptyAttributes: true,
+  removeRedundantAttributes: true,
+  removeScriptTypeAttributes: true,
+  removeStyleLinkTypeAttributes: true,
+  useShortDoctype: true,
+  minifyCSS: { level: 2 },
+  minifyJS: true,
+  continueOnParseError: true,
+  keepClosingSlash: true,
+  processConditionalComments: true,
+  html5: true,
+  includeAutoGeneratedTags: false,
+};
+
+// ============================================================
+// Processing Functions
+// ============================================================
+
+/** Process all HTML files in-place */
+async function processHtml(dir: string): Promise<{ count: number; errors: string[] }> {
+  const htmlFiles = new Glob(`${dir}/**/*.html`);
+  const files: string[] = [];
+
+  for await (const f of htmlFiles.scan(".")) {
+    files.push(f);
   }
 
-  return count;
+  let count = 0;
+  const errors: string[] = [];
+
+  for (let i = 0; i < files.length; i += CONCURRENCY) {
+    const batch = files.slice(i, i + CONCURRENCY);
+    const results = await Promise.allSettled(
+      batch.map(async (htmlFile) => {
+        const content = await file(htmlFile).text();
+        const posthtmlResult = await posthtml(posthtml_plugins).process(content, { sync: false });
+        const minified = await htmlMinify(posthtmlResult.html, htmlMinOptions);
+        await Bun.write(htmlFile, minified);
+      })
+    );
+
+    for (let j = 0; j < results.length; j++) {
+      if (results[j].status === "rejected") {
+        errors.push(`${batch[j]}: ${(results[j] as PromiseRejectedResult).reason}`);
+      } else {
+        count++;
+      }
+    }
+
+    const processed = Math.min(i + CONCURRENCY, files.length);
+    if (processed % LOG_INTERVAL === 0 || processed === files.length) {
+      console.log(`  HTML: ${processed}/${files.length}`);
+    }
+  }
+
+  return { count, errors };
 }
 
-// 处理 JS 文件（原地压缩 + SourceMap）
-async function processJs(dir) {
-  let count = 0;
-  const jsFiles = new Glob(`${dir}/**/*.js`);
+/** Process all CSS files in-place with sourcemaps */
+async function processCss(dir: string): Promise<{ count: number; errors: string[] }> {
+  const cssFiles = new Glob(`${dir}/**/*.css`);
+  const files: string[] = [];
 
-  for await (const jsFile of jsFiles.scan(".")) {
-    try {
-      const result = await Bun.build({
-        entrypoints: [jsFile],
-        minify: true,
-        packages: "external",
-        format: "iife",
-        target: "browser",
-        sourcemap: "external",
-        outdir: path.dirname(jsFile),
+  for await (const f of cssFiles.scan(".")) {
+    files.push(f);
+  }
+
+  let count = 0;
+  const errors: string[] = [];
+
+  const results = await Promise.allSettled(
+    files.map(async (cssFile) => {
+      const content = await file(cssFile).text();
+      const result = await postcss(postcss_plugins).process(content, {
+        from: cssFile,
+        to: cssFile,
+        map: { inline: false },
       });
 
-      if (result.success && result.outputs.length > 0) {
-        // 找到生成的 .js 和 .js.map
-        for (const output of result.outputs) {
-          const outPath = output.path;
-          const outText = await output.text();
-          await Bun.write(outPath, outText);
-        }
-        // 清理原文件（如果输出文件名不同）
-        const baseName = path.basename(jsFile, ".js");
-        const outJs = path.join(path.dirname(jsFile), `${baseName}.js`);
-        if (outJs !== jsFile) {
-          await $`mv ${outJs} ${jsFile}`.quiet();
-          const outMap = outJs + ".map";
-          if (await file(outMap).exists()) {
-            await $`mv ${outMap} ${jsFile}.map`.quiet();
-          }
-        }
-      } else {
-        // 如果压缩失败，保留原文件
+      await Bun.write(cssFile, result.css);
+      if (result.map) {
+        await Bun.write(cssFile + ".map", result.map.toString());
       }
-    } catch {
-      // 压缩失败，保留原文件
+    })
+  );
+
+  for (let j = 0; j < results.length; j++) {
+    if (results[j].status === "rejected") {
+      errors.push(`${files[j]}: ${(results[j] as PromiseRejectedResult).reason}`);
+    } else {
+      count++;
     }
-    count++;
   }
 
-  return count;
+  return { count, errors };
 }
 
-// 主函数
+/** Process all JS files in-place with terser and sourcemaps */
+async function processJs(dir: string): Promise<{ count: number; errors: string[] }> {
+  const jsFiles = new Glob(`${dir}/**/*.js`);
+  const files: string[] = [];
+
+  for await (const f of jsFiles.scan(".")) {
+    files.push(f);
+  }
+
+  let count = 0;
+  const errors: string[] = [];
+
+  const results = await Promise.allSettled(
+    files.map(async (jsFile) => {
+      const content = await file(jsFile).text();
+      const mapFile = jsFile + ".map";
+
+      const result = await terserMinify(content, {
+        compress: {
+          passes: 2,
+          ecma: 2020,
+          pure_getters: true,
+        },
+        mangle: {
+          keep_classnames: true,
+          keep_fnames: true,
+        },
+        format: {
+          ecma: 2020,
+          comments: false,
+        },
+        sourceMap: {
+          filename: path.basename(jsFile),
+          url: path.basename(mapFile),
+        },
+      });
+
+      if (result.code) {
+        await Bun.write(jsFile, result.code);
+      }
+      if (result.map) {
+        await Bun.write(
+          mapFile,
+          typeof result.map === "string" ? result.map : JSON.stringify(result.map)
+        );
+      }
+    })
+  );
+
+  for (let j = 0; j < results.length; j++) {
+    if (results[j].status === "rejected") {
+      errors.push(`${files[j]}: ${(results[j] as PromiseRejectedResult).reason}`);
+    } else {
+      count++;
+    }
+  }
+
+  return { count, errors };
+}
+
+// ============================================================
+// Main
+// ============================================================
+
 async function main() {
   const { dir } = parseArgs();
-  
-  const startTime = Date.now();
 
-  const [htmlCount, jsCount, cssCount] = await Promise.all([
+  console.log(`Build post-processing: ${dir}/`);
+  const startTime = performance.now();
+
+  const [htmlResult, cssResult, jsResult] = await Promise.all([
     processHtml(dir),
-    processJs(dir),
     processCss(dir),
+    processJs(dir),
   ]);
 
-  const endTime = Date.now();
-  console.log(`HTML: ${htmlCount} 个文件`);
-  console.log(`JS: ${jsCount} 个文件`);
-  console.log(`CSS: ${cssCount} 个文件`);
-  console.log(`构建完成！耗时: ${endTime - startTime}ms`);
+  const endTime = performance.now();
+  const elapsed = ((endTime - startTime) / 1000).toFixed(2);
+
+  console.log("");
+  console.log("--- Build Summary ---");
+  console.log(`HTML: ${htmlResult.count} processed, ${htmlResult.errors.length} errors`);
+  console.log(`CSS:  ${cssResult.count} processed, ${cssResult.errors.length} errors`);
+  console.log(`JS:   ${jsResult.count} processed, ${jsResult.errors.length} errors`);
+  console.log(`Time: ${elapsed}s`);
+
+  const allErrors = [
+    ...htmlResult.errors.map((e) => `  HTML: ${e}`),
+    ...cssResult.errors.map((e) => `  CSS:  ${e}`),
+    ...jsResult.errors.map((e) => `  JS:   ${e}`),
+  ];
+
+  if (allErrors.length > 0) {
+    console.error(`\n${allErrors.length} files failed:`);
+    for (const err of allErrors) {
+      console.error(err);
+    }
+    process.exit(1);
+  }
+
+  console.log("Build complete!");
 }
 
 main().catch((err) => {
-  console.error("构建失败:", err);
+  console.error("Build failed:", err);
   process.exit(1);
 });
