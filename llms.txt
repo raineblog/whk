@@ -55,7 +55,7 @@
 - [磁场详解磁感应原理洛伦兹力机制与实际应用场景](https://raineblog.dpdns.org/whk/science/electromagnetism/4/index.md)
 - [电磁感应详解：磁通量与楞次定律在实验中的应用与实践](https://raineblog.dpdns.org/whk/science/electromagnetism/5/index.md)
 - [交变电流详解：正弦波机理与电能输送应用实例案例](https://raineblog.dpdns.org/whk/science/electromagnetism/6/index.md)
-- [化学性质详解：化学变化机制与实验室应用与价值意义](https://raineblog.dpdns.org/whk/science/element/index.md)
+- [物质及元素](https://raineblog.dpdns.org/whk/science/element/index.md)
 - [铝单质详解：化学性质与工业制取与应用场景全解析](https://raineblog.dpdns.org/whk/science/element/al/index.md)
 - [卤族元素概述详解：氯气性质、反应机理与全应用场景](https://raineblog.dpdns.org/whk/science/element/cl/index.md)
 - [过渡元素概述详解：铁的氧化机理与工业应用与检验](https://raineblog.dpdns.org/whk/science/element/fe/index.md)
