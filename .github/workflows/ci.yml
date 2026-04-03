@@ -29,12 +29,12 @@ jobs:
       matrix:
         include:
           - name: Github Pages
-            cache: mkdocs-gh
+            cache: mkdocs-gh-nkr
             url: https://raineblog.dpdns.org/whk/
             branch: gh-pages
             disable_giscus: 'false'
           - name: Cloudflare Pages
-            cache: mkdocs-cf
+            cache: mkdocs-cf-nkr
             url: https://raineblog-whk.pages.dev/
             branch: cloudflare-pages
             disable_giscus: 'true'
