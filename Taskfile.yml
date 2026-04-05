@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+
+version: '3'
+
+vars:
+  SITE_URL: https://raineblog.github.com/whk/
+
+tasks:
+  default:
+    desc: 默认任务 - 显示可用任务列表
+    cmds:
+      - task --list
+
+  build:
+    desc: 构建站点
+    cmds:
+      - uv run scripts/generate.py --build --site_url={{.SITE_URL}}
+
+  sub-update:
+    desc: 更新 git 子模块
+    cmds:
+      - git submodule update --remote --init --recursive
+
+  sub-sync:
+    desc: 同步并初始化 git 子模块
+    cmds:
+      - git submodule sync --recursive
+      - git submodule update --init --recursive
+
+  onstart:
+    desc: 执行启动前脚本
+    cmds:
+      - node scripts/onstart.js
+    # silent: true
