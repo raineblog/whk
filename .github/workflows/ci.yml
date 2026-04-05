@@ -29,12 +29,12 @@ jobs:
       matrix:
         include:
           - name: Github Pages
-            cache: mkdocs
+            cache: mkdocs-gh-nkr
             url: https://raineblog.dpdns.org/whk/
             branch: gh-pages
             disable_giscus: 'false'
           - name: Cloudflare Pages
-            cache: mkdocs
+            cache: mkdocs-cf-nkr
             url: https://raineblog-whk.pages.dev/
             branch: cloudflare-pages
             disable_giscus: 'true'
@@ -45,11 +45,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '24'
-          cache: 'npm'
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
       - name: Setup uv
         uses: astral-sh/setup-uv@v7
@@ -57,25 +54,26 @@ jobs:
           enable-cache: true
 
       - name: Install dependencies
-        run: |
-          npm ci
-          uv sync --locked
+        run: bun install
 
       - name: Install Pandoc
-        run: uv run mkpandocs install-deps
+        run: |
+            uv sync --locked --no-dev
+            uv run --no-sync mkpandocs install-deps
 
       - name: Cache
         uses: actions/cache@v5
         with:
           path: .cache
-          key: ${{ runner.os }}-${{ matrix.cache }}-2-${{ github.run_id }}-${{ github.run_attempt }}
+          key: ${{ runner.os }}-${{ matrix.cache }}-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
-            ${{ runner.os }}-${{ matrix.cache }}-2-
+            ${{ runner.os }}-${{ matrix.cache }}-
 
       - name: Build Static Site
-        run: uv run scripts/generate.py --build --site_url=${{ matrix.url }} --disable_giscus=${{ matrix.disable_giscus }}
+        run: uv run --no-sync scripts/generate.py --build --site_url=${{ matrix.url }} --disable_giscus=${{ matrix.disable_giscus }}
         env:
           PYTHONUNBUFFERED: 1
+          PYTHONUTF8: 1
           NO_MKDOCS_2_WARNING: 1
 
       - name: Determine Deployment
@@ -90,12 +88,15 @@ jobs:
             echo "should_deploy=false" >> $GITHUB_OUTPUT
           fi
   
-      - name: Gulp Post-processing
+      - name: Build Bun Executable
         if: steps.deploy_check.outputs.should_deploy == 'true'
         run: |
-          npx gulp --input-dir site --output-dir dist
-          rm -rf site
-          mv dist site
+          bun build --compile --minify --bytecode build.ts --outfile build-bin
+      
+      - name: Bun Post-processing
+        if: steps.deploy_check.outputs.should_deploy == 'true'
+        run: |
+          ./build-bin --dir site
 
       - name: Push to Branch
         if: steps.deploy_check.outputs.should_deploy == 'true'

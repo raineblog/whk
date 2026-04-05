@@ -1,9 +1,10 @@
 [
   {
-    "数系与公理系统": [
+    "数系与数学初步": [
       "science/mathematics/1.md",
       "science/mathematics/2.md",
-      "science/mathematics/3.md"
+      "science/mathematics/3.md",
+      "science/mathematics/4.md"
     ]
   },
   {
@@ -28,7 +29,7 @@
     ]
   },
   {
-    "组合与概率统计": [
+    "统计学与概率论": [
       "science/probability/1.md",
       "science/probability/2.md",
       "science/probability/3.md",
