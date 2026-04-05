@@ -60,4 +60,4 @@ git submodule update --remote
 
 https://oi-wiki.org/math/combinatorics/fibonacci/ 数列
 
-https://oi-wiki.org/graph/graph-matching/graph-match/#hall-%E5%AE%9A%E7%90%86 群论
+https://oi-wiki.org/graph/graph-matching/graph-match/#hall-%E5%AE%9A%E7%90%86 图论（匹配）
