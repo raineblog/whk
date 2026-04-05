@@ -23,7 +23,7 @@ permissions:
 
 jobs:
   build:
-    name: Build and Deploy to ${{ matrix.name }}
+    name: Build for ${{ matrix.name }}
     strategy:
       fail-fast: false
       matrix:
@@ -94,29 +94,18 @@ jobs:
 
       - name: Upload Artifact
         if: matrix.branch == 'gh-pages'
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: site-${{ matrix.branch }}
           path: site
 
   deploy-artifact:
-    name: Deploy from Artifact to Github Pages
+    name: Deploy to Github Pages
     needs: build
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Download Artifact
-        uses: actions/download-artifact@v7
-        with:
-          name: site-gh-pages
-          path: site
-
       - name: Upload to GitHub Pages
         uses: actions/deploy-pages@v4
         id: deployment
