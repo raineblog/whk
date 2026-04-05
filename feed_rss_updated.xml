@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Fri, 03 Apr 2026 15:11:12 -0000</pubDate>
-    <lastBuildDate>Fri, 03 Apr 2026 15:11:12 -0000</lastBuildDate>
+    <pubDate>Sun, 05 Apr 2026 08:45:11 -0000</pubDate>
+    <lastBuildDate>Sun, 05 Apr 2026 08:45:11 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,595 @@
     
 
     
+    
+    <item>
+      <title>极限与微积分</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;极限与微积分&lt;/h1&gt;
+&lt;h2&gt;函数极限&lt;/h2&gt;
+&lt;h3&gt;初等函数&lt;/h3&gt;
+&lt;p&gt;我们研究过常数函数、幂函数、指数函数、对数函数、三角函数、反三角函数，它们经过有限次加、减、乘、除、乘方、开方和复合运算，得到的函数称为初等函数。初等函数是数学中最基本的一类函数，具有相当重要的性质。&lt;/p&gt;
+&lt;h3&gt;极限定义​&lt;/h3&gt;
+&lt;p&gt;对于函数 $f(x)$ 与实数 $a$，如果存在实数 $b$，使得 $\forall \varepsilon &amp;gt; 0$，$\exist \delta &amp;gt; 0$，对任意 $x \in (a - \delta, a) \cup (a, a + \delta)$，有 $|f(x) - b| &amp;lt; \varepsilon$，则 $b$ 称作 $f(x)$ 在点 $a$ 的极限，记作&lt;/p&gt;
+&lt;p&gt;$$
+\lim_{x \to a} f(x) = b
+$$&lt;/p&gt;
+&lt;p&gt;这就是严格定义函数极限的 $\varepsilon \text - \delta$ 语言。也就是说，对于任意 $\varepsilon &amp;gt; 0$，我们都能找到一段 包含 $a$ 但是扣去 $a$ 的区间，使得这个区间上对应的函数值与 $b$ 的距离都小于 $\varep...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/function/7/</link>
+      <pubDate>Sun, 05 Apr 2026 08:44:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/function/7/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/7/</guid>
+      
+    </item>
+    
+    <item>
+      <title>开发进程</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;开发进程&lt;/h1&gt;
+&lt;h2&gt;生物&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;（待完善）孟德尔遗传规律：五三 310 页考法 1, 2, 3。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;细胞活动。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;遗传除了孟德尔以外的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;物理&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;空间测量，参考新概念、初中课本。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;热力学。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;角动量、轨道力学。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;天体概述，补充地理内容。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;数学&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;目录&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;science/function/5.md # [TODO] 微积分&lt;/li&gt;
+&lt;li&gt;science/polynomial/1.md # [TODO] 多项式入门&lt;/li&gt;
+&lt;li&gt;science/polynomial/2.md # [TODO] 多项式科技&lt;/li&gt;
+&lt;li&gt;science/polynomial/5.md # [TODO] 不等式进阶&lt;/li&gt;
+&lt;li&gt;science/sequence/3.md # [TODO] 数列进阶&lt;/li&gt;
+&lt;li&gt;science/probability/1.md # [TODO] 统计模型&lt;/li&gt;
+&lt;li&gt;science/probability/4.md # [TODO] 概率分布&lt;/li&gt;
+&lt;li&gt;science/number/1.md # [TODO] 线性...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/home/roadmap/</link>
+      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/home/roadmap/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/roadmap/</guid>
+      
+    </item>
+    
+    <item>
+      <title>静电力学详解：库仑定律机制及实际应用于电子器件</title>
+      
+      
+      
+      
+      <description>本文系统阐述静电力学中的电荷特性、守恒定律及量子化，重点解析库仑定律的基本形式、介电常数的影响以及带电金属球的感应力学。进一步讨论三点一线平衡、等边三角平衡及原子核尺度的库仑与万有引力比较，最后涵盖摩擦、接触与感应起电的实验原理及静电屏蔽、除尘等实际应用。</description>
+      <link>https://raineblog.dpdns.org/whk/science/electromagnetism/1/</link>
+      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/1/</guid>
+      
+    </item>
+    
+    <item>
+      <title>电场电势详解：场论机制与实验设计全方位应用</title>
+      
+      
+      
+      
+      <description>本文从场的本质出发阐释电场的定义与保守性质引入场线几何特性推导电场强度公式详解高斯定理在对称场中的应用进一步解释电势与电势能的关系等势面特性及点电荷电势公式最后讨论电偶极子微元叠加与几何叠加展示在实验设计与竞赛复习中的典型案例</description>
+      <link>https://raineblog.dpdns.org/whk/science/electromagnetism/2/</link>
+      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/2/</guid>
+      
+    </item>
+    
+    <item>
+      <title>椭圆详解：几何定义与参数化全解析与竞赛复习</title>
+      
+      
+      
+      
+      <description>本文系统阐释椭圆的三大定义：第一定义通过焦点距离之和求标准方程，第二定义利用离心率与准线建立几何比例，第三定义采用点差法分析弦の中点关系。随后推导参数化方程、切线斜率及极点极线理论，并讨论面积、周长近似及光学性质，为高考与竞赛提供完整技术路线，以及应用实例。</description>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/3/</link>
+      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/3/</guid>
+      
+    </item>
+    
+    <item>
+      <title>内环境稳态详解：激素调节机制与临床实践</title>
+      
+      
+      
+      
+      <description>本文系统阐释内环境概念，解析血浆、组织液、淋巴液的组成与动态平衡，重点探讨渗透压、酸碱度、温度等理化性质的稳态调控机制，深入说明激素在血糖、体温、水盐调节中的关键作用及反馈回路，涵盖胰岛素、胰高血糖素、甲状腺激素、糖皮质激素等，适用于生物化学与医学学习。</description>
+      <link>https://raineblog.dpdns.org/whk/science/human/3/</link>
+      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/human/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/3/</guid>
+      
+    </item>
+    
+    <item>
+      <title>抛体运动详解：匀变速曲线与极限射程案例全解</title>
+      
+      
+      
+      
+      <description>本文系统阐述抛体运动的曲线特性、匀变速分解与极限射程计算，涵盖平面平抛、斜抛、斜面斜抛及包络线方程，详细推导轨迹方程、最高点、射程与最大高度，并结合关联速度与接触关联原理，提供从基础概念到典型例题的完整技术路线。</description>
+      <link>https://raineblog.dpdns.org/whk/science/kinematics/3/</link>
+      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/kinematics/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/3/</guid>
+      
+    </item>
+    
+    <item>
+      <title>数字和计数系统</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;数字和计数系统&lt;/h1&gt;
+&lt;h2&gt;数字系统&lt;/h2&gt;
+&lt;p&gt;区分数字系统和记数系统：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;数字系统：Numbers can be classified into sets, called &lt;strong&gt;number sets&lt;/strong&gt; or &lt;strong&gt;number systems&lt;/strong&gt;, such as the natural numbers and the real numbers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;记数系统：A &lt;strong&gt;numeral system&lt;/strong&gt; is a writing system for expressing numbers without words; that is, a mathematical notation for representing numbers of a given set, using digits (in positional notation) or other symbols (in sign-value notation) in a consistent manner.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;Venn_Diagram_of_Numbers_Expanded.svg&#34;&gt;{ width=...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/mathematics/1/</link>
+      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mathematics/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/1/</guid>
+      
+    </item>
+    
+    <item>
+      <title>数列基础</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;数列基础&lt;/h1&gt;
+&lt;h2&gt;数列的定义&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;数列&lt;/strong&gt;是由数字组成的有序序列，数列中的每一个数都叫做这个数列的&lt;strong&gt;项&lt;/strong&gt;。&lt;strong&gt;项数&lt;/strong&gt;有限的数列成为&lt;strong&gt;有限数列&lt;/strong&gt;，项数无穷多的成为&lt;strong&gt;无穷数列&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;排在第一位的数称为这个数列的&lt;strong&gt;首项&lt;/strong&gt;，有限数列的最后一个数成为这个数列的&lt;strong&gt;末项&lt;/strong&gt;。注意：无穷数列只有首项，没有末项。&lt;/p&gt;
+&lt;p&gt;对于数列，更严谨的定义，考虑最一般的复数，下文再说。&lt;/p&gt;
+&lt;p&gt;无穷数列：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;一个 $(a:\mathbb N\to\mathbb C)$ 的函数被称为&lt;strong&gt;无穷数列&lt;/strong&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;可记为 ${a_i}&lt;em&gt;{i\in\mathbb N}$ 或 $(a_i)&lt;/em&gt;{i\in\mathbb N}$ 或 $\langle a_i\rangle_{i\in\mathbb N}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;一个数列 $a$ 的第 $i$ 项，通常记为 $a(i)$，简记为 $a_i$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;有限数列：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;若 $I_n={1,2,\dots,n}$，则一个 $(a:I_n\to\mathbb C)$ 的函数被称为&lt;strong&gt;有限数列&lt;/strong&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;可记为 ${a_i}&lt;em&gt;{i=1}^n$ 或 $(a&lt;/em&gt;...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/polynomial/1/</link>
+      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/polynomial/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/1/</guid>
+      
+    </item>
+    
+    <item>
+      <title>数列提高</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;数列提高&lt;/h1&gt;
+&lt;h2&gt;回顾及补充&lt;/h2&gt;
+&lt;h3&gt;经典常量&lt;/h3&gt;
+&lt;p&gt;$$
+\pi\approx3.14159
+$$&lt;/p&gt;
+&lt;p&gt;$$
+e\approx2.71828
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\gamma\approx0.57721
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\varphi={1+\sqrt5\over2}\approx1.61803
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\hat\varphi={1-\sqrt5\over2}\approx-.61803
+$$&lt;/p&gt;
+&lt;h3&gt;基础公式&lt;/h3&gt;
+&lt;p&gt;一些公式，&lt;/p&gt;
+&lt;p&gt;$$
+\sum_{i=1}^ni={n(n+1)\over2}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\sum_{i=1}^ni^2={n(n+1)(2n+1)\over6}={n(n+1/2)(n+1)\over3}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\sum_{i=1}^ni^3=\left[{n(n+1)\over2}\right]^2={n^2(n+1)^2\over4}
+$$&lt;/p&gt;
+&lt;p&gt;可以通过扰动法（见下）或者待定系数并归纳得出。&lt;/p&gt;
+&lt;p&gt;$$
+\sum_{i=0}^nc^i={c^{n+1}-1\over c-1},c\neq1
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\sum_{i\ge0}c^i={1\over 1-c...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/polynomial/2/</link>
+      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/polynomial/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/2/</guid>
+      
+    </item>
+    
+    <item>
+      <title>数列训练</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;数列训练&lt;/h1&gt;
+&lt;h2&gt;基础题目&lt;/h2&gt;
+&lt;p&gt;求下列数列的通项公式。&lt;/p&gt;
+&lt;h3&gt;题目一&lt;/h3&gt;
+&lt;p&gt;求：$a_n=2a_{n-1}+3(n\ge2),a_1=1$。&lt;/p&gt;
+&lt;p&gt;因为 $q/(p-1)=3$，等式两边同时加三，&lt;/p&gt;
+&lt;p&gt;$$
+a_n+3=2a_{n-1}+6=2^{n+1}\
+a_n=2^{n+1}-3
+$$&lt;/p&gt;
+&lt;p&gt;注意到当 $n=1,a_1=1$ 满足该式，因此，&lt;/p&gt;
+&lt;p&gt;$$
+a_n=2^{n+1}-3
+$$&lt;/p&gt;
+&lt;h3&gt;题目二&lt;/h3&gt;
+&lt;p&gt;求：$a_n=a_{n-1}+n(n\ge2),a_1=1$。&lt;/p&gt;
+&lt;p&gt;注意到，&lt;/p&gt;
+&lt;p&gt;$$
+a_n=a_{n-1}+n\
+a_{n-1}=a{n-2}+n-1\
+\dots\
+a_2=a_1+2=1+2
+$$&lt;/p&gt;
+&lt;p&gt;上式相加，得，&lt;/p&gt;
+&lt;p&gt;$$
+a_n=1+2+3+\dots+n-1+n={n(n+1)\over2}
+$$&lt;/p&gt;
+&lt;p&gt;注意到当 $n=1,a_1=1$ 满足该式，因此，&lt;/p&gt;
+&lt;p&gt;$$
+a_n={n(n+1)\over2}
+$$&lt;/p&gt;
+&lt;h3&gt;题目三&lt;/h3&gt;
+&lt;p&gt;求：$a_n=2a_{n-1}+n(n\ge2),a_1=1$。&lt;/p&gt;
+&lt;p&gt;等式两边同时除以 $2^n$，得，&lt;/p&gt;
+&lt;p&gt;$$
+{a_n\over2^n}={a_...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/polynomial/3/</link>
+      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/polynomial/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/3/</guid>
+      
+    </item>
+    
+    <item>
+      <title>多项式入门</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;多项式入门&lt;/h1&gt;
+&lt;h2&gt;基础方法&lt;/h2&gt;
+&lt;h3&gt;乘法公式&lt;/h3&gt;
+&lt;p&gt;分配率：&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+(a+b)(c+d)&amp;amp;=ac+ad+bc+bd\
+(a+b)(a-b)&amp;amp;=a^2-b^2
+\end{aligned}
+$$&lt;/p&gt;
+&lt;p&gt;和差方：&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+(a+b)^2&amp;amp;=a^2+2ab+b^2\
+(a-b)^2&amp;amp;=a^2-2ab+b^2\
+(a+b)^3&amp;amp;=a^3+3a^2b+3ab^2+b^3\
+(a-b)^3&amp;amp;=a^3-3a^2b+3ab^2-b^3\
+(a+b+c)^2&amp;amp;=a^2+b^2+c^2+2ab+2bc+2ac\
+\end{aligned}
+$$&lt;/p&gt;
+&lt;p&gt;二项式定理：&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+(x+y)^n&amp;amp;=\sum_{k=0}^n{n\choose k}x^ky^{n-k}\
+(x+1)^n&amp;amp;=\sum_{k=0}^n{n\choose k}x^k
+\end{aligned}
+$$&lt;/p&gt;
+&lt;p&gt;方和差：&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+a^3+b^3&amp;amp;=(a+b)(a^2-ab+b^2)\
+a^3-b^3&amp;amp;=(...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/polynomial/4/</link>
+      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/polynomial/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/4/</guid>
+      
+    </item>
+    
+    <item>
+      <title>组合数学</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;组合数学&lt;/h1&gt;
+&lt;p&gt;传说早在 $\texttt{114514}$ 年前，&lt;br&gt;一位名为忆哀的神灵来到地球，&lt;br&gt;发现了人类——另一种有智慧的物种。&lt;/p&gt;
+&lt;p&gt;她觉得这很有趣，为了加速人类文明的发展，&lt;br&gt;她向人间传下了一类计数问题——十二重计数，&lt;br&gt;这也正是组合数学的开端。&lt;/p&gt;
+&lt;p&gt;而只有搞明白这类问题，才能在组合数学上继续深入。&lt;/p&gt;
+&lt;/center&gt;
+&lt;h2&gt;基本原理&lt;/h2&gt;
+&lt;p&gt;求证不等式的方法有几种，最简单的是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;设函数，证明函数恒大于或小于零。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;直接对函数求导，尝试证明函数最小值大于零，或最大值小于零。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;注意到多项式只要求够多次数多导数，一定会变为零，因此如果不好解决，继续求导，对高阶导数尝试分析其是否恒正或恒负。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注意：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;解一元一次不等式 $ax&amp;gt;b$，需要按照 $a&amp;gt;0,a=0,a&amp;lt;0$ 分类讨论。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解一元一次不等式 $ax&amp;gt;b$，其中 $x\in[m,n]$，先按照 $a&amp;gt;0,a=0,a&amp;lt;0$ 分类讨论，然后按照 $\dfrac{b}{a}$ 是否落在区间 $[m,n]$ 内。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;边界条件：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;二次项系数不含参数且自变量没有限制时，临界条件是 $...&lt;/li&gt;
+&lt;/ol&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/polynomial/5/</link>
+      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/polynomial/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/5/</guid>
+      
+    </item>
+    
+    <item>
+      <title>多项式组合</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;多项式组合&lt;/h1&gt;
+&lt;h2&gt;其他组合数&lt;/h2&gt;
+&lt;p&gt;在掌握了二项式定理和基本组合恒等式之后，我们来学习几种进阶的计数方法和原理。它们在竞赛数学和离散数学中有广泛应用。&lt;/p&gt;
+&lt;h3&gt;多重集&lt;/h3&gt;
+&lt;p&gt;多重集（或称可重集）是集合概念的推广。在普通集合中，相同的元素只能出现一次，因此只能表现出「有或无」的属性；而在多重集中，同一个元素可以出现多次，因此可以表现出元素的个数。&lt;/p&gt;
+&lt;p&gt;我们将其表示为：&lt;/p&gt;
+&lt;p&gt;$$
+{a_1,a_1,\dots,a_1,a_2,\dots}
+$$&lt;/p&gt;
+&lt;p&gt;为简便起见，下文采用如下简记法：&lt;/p&gt;
+&lt;p&gt;$$
+{n_1\cdot a_1,n_2\cdot a_2,\dots}
+$$&lt;/p&gt;
+&lt;p&gt;多重集 $S={n_1\cdot a_1,n_2\cdot a_2,\cdots,n_k\cdot a_k}$ 的全排列个数为：&lt;/p&gt;
+&lt;p&gt;$$
+{n\choose n_1,n_2,\dots,n_k}={n!\over\prod_{1\le i\le k}n_i!}
+$$&lt;/p&gt;
+&lt;p&gt;这个全排列数被称为&lt;strong&gt;多重集的排列数&lt;/strong&gt;，也常被称为&lt;strong&gt;多重组合数&lt;/strong&gt;。容易注意到：&lt;/p&gt;
+&lt;p&gt;$$
+{m\choose n_1,n_2}={m\choose...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/polynomial/6/</link>
+      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/polynomial/6/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/6/</guid>
+      
+    </item>
+    
+    <item>
+      <title>空间几何详解：体积公式与几何体应用场景</title>
+      
+      
+      
+      
+      <description>本文系统阐述空间几何体的分类、斜二测画法及其面积比例，深入推导祖暅原理、辛普森法则与欧拉公式，并详细推导棱柱、棱锥、棱台及旋转体（圆柱、圆锥、圆台）的体积与表面积公式。最后介绍外接球、内切球的求半径方法，适用于高中几何教学与竞赛。</description>
+      <link>https://raineblog.dpdns.org/whk/science/solid/3/</link>
+      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/solid/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/solid/3/</guid>
+      
+    </item>
+    
+    <item>
+      <title>原子与元素详解：射线与放射性机制与应用场景</title>
+      
+      
+      
+      
+      <description>本文系统阐述原子核结构、射线种类及放射性衰变原理，详细解析α、β、γ射线的物理特性、检测技术及其在测厚、能源、医学和同位素标记等实际应用，展示从实验观察到核模型演进的完整技术路线，文中还涉及半衰期概念、核裂变与核聚变的能量释放机制，以及放射性同位素在科研和工业中的标记技术。</description>
+      <link>https://raineblog.dpdns.org/whk/science/structure/2/</link>
+      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/structure/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/2/</guid>
+      
+    </item>
+    
+    <item>
+      <title>共价键详解：分子轨道机制与现代实验室化学的应用</title>
+      
+      
+      
+      
+      <description>本文系统阐述共价键的形成机制，包括分子轨道理论解释氧分子顺磁性、头并头重叠形成的成键以及肩并肩重叠形成的π键特性。进一步分析键能、键长与键角的测定方法，并结合配位键在实验室配合物的形成、溶解与颜色变化中的应用，提供完整的实验路线与理论框架。</description>
+      <link>https://raineblog.dpdns.org/whk/science/structure/3/</link>
+      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/structure/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/3/</guid>
+      
+    </item>
+    
+    <item>
+      <title>集合与逻辑</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;集合与逻辑&lt;/h1&gt;
+&lt;h2&gt;基础知识&lt;/h2&gt;
+&lt;h3&gt;集合的定义&lt;/h3&gt;
+&lt;p&gt;集合：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;某些指定的对象集在⼀起就形成⼀个集合（简称集）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;元素：集合中每个对象叫做这个集合的元素。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;集合的三要素：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;确定性：集合内的元素是可以被确定的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;互异性：集合内的各元素都是唯⼀不重复的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;⽆序性：集合内的各元素的顺序是没有限制的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;子集与空集：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;子集：$A \subseteq B$ 或 $B \supseteq A$，表示 $A$ 中的任意元素都属于 $B$&lt;/p&gt;
+&lt;p&gt;$A \subseteq A, \varnothing \subseteq A$&lt;/p&gt;
+&lt;p&gt;$A \subseteq B$ 且 $B \subseteq C \implies A \subseteq C$&lt;/p&gt;
+&lt;p&gt;$A \subseteq B$ 且 $B \subseteq A \implies A=B$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;真子集：$A \subsetneqq B$ 或 $B \supsetneqq A$，表示 $A \subseteq B$ 且 $B$ 中至少有一元素不属于 $A$&lt;/p&gt;
+&lt;p&gt;$A \subsetneq...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/mathematics/2/</link>
+      <pubDate>Sun, 05 Apr 2026 08:13:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mathematics/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/2/</guid>
+      
+    </item>
+    
+    <item>
+      <title>机械振动详解：简谐运动机制与波的传播与应用</title>
+      
+      
+      
+      
+      <description>本文系统阐释机械振动的基本概念与简谐运动的数学模型详细推导弹簧振子的回复力与角频率进一步探讨受迫振动与共振现象的发生条件进一步探讨驱动力对振幅的调制规律并扩展至机械波的定义波的要素衍射与干涉原理提供从理论推导到单摆测量重力的完整技术路线与实验示例并可用于竞赛复习科学知识库的构建与应用示范提升学习效率</description>
+      <link>https://raineblog.dpdns.org/whk/science/mechanics/5/</link>
+      <pubDate>Sun, 05 Apr 2026 08:13:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mechanics/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/5/</guid>
+      
+    </item>
+    
+    <item>
+      <title>光学原理详解：光的传播机制与光学系统全解析</title>
+      
+      
+      
+      
+      <description>本文系统阐述光的传播特性，包括点光源、波前、能流矢量及光线抽象；详细推导小孔成像中的全反射条件；阐明镜面反射、漫反射及逆反射原理；解释折射率、斯涅尔定律及全内反射；并分析光导纤维结构、衍射光栅与X射线衍射在生物结构中的应用，同时涉及实验测折射率的步骤与误差分析，提供从几何光学到波动光学的完整框架。</description>
+      <link>https://raineblog.dpdns.org/whk/science/modern/3/</link>
+      <pubDate>Sun, 05 Apr 2026 08:13:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/modern/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/3/</guid>
+      
+    </item>
+    
+    <item>
+      <title>数论</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;数论&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-08-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-08-19T11:57:22+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-04-05&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-04-05T08:13:36+00:00&#39;&gt;&lt;...</description>
+      <link>https://raineblog.dpdns.org/whk/science/number/1/</link>
+      <pubDate>Sun, 05 Apr 2026 08:13:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/number/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/1/</guid>
+      
+    </item>
     
     <item>
       <title>物质及元素</title>
@@ -105,117 +694,6 @@
     </item>
     
     <item>
-      <title>原子与元素详解：射线与放射性机制与应用场景</title>
-      
-      
-      
-      
-      <description>本文系统阐述原子核结构、射线种类及放射性衰变原理，详细解析α、β、γ射线的物理特性、检测技术及其在测厚、能源、医学和同位素标记等实际应用，展示从实验观察到核模型演进的完整技术路线，文中还涉及半衰期概念、核裂变与核聚变的能量释放机制，以及放射性同位素在科研和工业中的标记技术。</description>
-      <link>https://raineblog.dpdns.org/whk/science/structure/2/</link>
-      <pubDate>Fri, 03 Apr 2026 14:55:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/structure/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/2/</guid>
-      
-    </item>
-    
-    <item>
-      <title>数系与复数</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;数系与复数&lt;/h1&gt;
-&lt;h2&gt;虚数与复数&lt;/h2&gt;
-&lt;h3&gt;虚数定义&lt;/h3&gt;
-&lt;p&gt;虚数 $i$ 为一个定义为&lt;/p&gt;
-&lt;p&gt;$$
-i^2+1=0
-$$&lt;/p&gt;
-&lt;p&gt;的一个解，其满足上式的性质，又可表示为，&lt;/p&gt;
-&lt;p&gt;$$
-i^2=-1
-$$&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;虽然没有这样的实数可以满足这个二次方程，但可以通过虚数单位将实数系统 $\mathbb R$ 延伸至复数系统 $\mathbb C$。延伸的主要动机为有很多实系数多项式方程式无实数解，可是倘若我们允许解答为虚数，那么这方程式以及所有的多项式方程式都有解。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我们回到原问题，&lt;/p&gt;
-&lt;p&gt;$$
-x^2+1=0
-$$&lt;/p&gt;
-&lt;p&gt;存在两个根，分别为，$i$ 和 $-i$，它们都是有效的，且互为共轭虚数及倒数。&lt;/p&gt;
-&lt;p&gt;这是因为，虽然 $i$ 和 $-i$ 在数量上不是相等的（它们是一对&lt;strong&gt;共轭虚数&lt;/strong&gt;），&lt;/p&gt;
-&lt;p&gt;但是 $i$ 和 $-i$ 之间没有质量上的区别（$-1$ 和 $+1$ 就不是这样的）。&lt;/p&gt;
-&lt;p&gt;在任何的等式中同时将所有 $i$ 替换为 $-i$，该等式仍成立。&lt;/p&gt;
-&lt;p&gt;$$
--i^2=1,-i={1\over i}
-$$&lt;/p&gt;
-&lt;p&gt;例题：考虑 $-5$ 的平方根。&lt;/p&gt;
-&lt;p&gt;$$
-x^2+5=0\
-x=\pm\sqrt5 i
-$$
-...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/mathematics/1/</link>
-      <pubDate>Tue, 31 Mar 2026 14:18:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/mathematics/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/1/</guid>
-      
-    </item>
-    
-    <item>
-      <title>集合与逻辑</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;集合与逻辑&lt;/h1&gt;
-&lt;h2&gt;基础知识&lt;/h2&gt;
-&lt;h3&gt;集合的定义&lt;/h3&gt;
-&lt;p&gt;集合：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;某些指定的对象集在⼀起就形成⼀个集合（简称集）。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;元素：集合中每个对象叫做这个集合的元素。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;集合的三要素：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;确定性：集合内的元素是可以被确定的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;互异性：集合内的各元素都是唯⼀不重复的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;⽆序性：集合内的各元素的顺序是没有限制的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;子集与空集：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;子集：$A \subseteq B$ 或 $B \supseteq A$，表示 $A$ 中的任意元素都属于 $B$&lt;/p&gt;
-&lt;p&gt;$A \subseteq A, \varnothing \subseteq A$&lt;/p&gt;
-&lt;p&gt;$A \subseteq B$ 且 $B \subseteq C \implies A \subseteq C$&lt;/p&gt;
-&lt;p&gt;$A \subseteq B$ 且 $B \subseteq A \implies A=B$&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;真子集：$A \subsetneqq B$ 或 $B \supsetneqq A$，表示 $A \subseteq B$ 且 $B$ 中至少有一元素不属于 $A$&lt;/p&gt;
-&lt;p&gt;$A \subsetneq...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/mathematics/2/</link>
-      <pubDate>Tue, 31 Mar 2026 14:18:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/mathematics/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/2/</guid>
-      
-    </item>
-    
-    <item>
       <title>公理化系统</title>
       
       
@@ -248,37 +726,6 @@ $$
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/mathematics/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/4/</guid>
-      
-    </item>
-    
-    <item>
-      <title>线性规划</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;线性规划&lt;/h1&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-24.avif&#34;&gt;&lt;/p&gt;
-&lt;h2&gt;例题 1&lt;/h2&gt;
-&lt;p&gt;$$\begin{cases}5x-11y \geq -22 \ 2x+3y \geq 9 \ 2x \leq 11\end{cases}$$&lt;/p&gt;
-&lt;p&gt;$z = 10x + 10y, \max{z} = $ ？&lt;/p&gt;
-&lt;h3&gt;基本概念&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;约束条件：变量 $x,y,\dots$ 满足的一组条件，上述二元一次不等式组就是对 $x,y$ 的约束条件。&lt;/li&gt;
-&lt;li&gt;线性约束条件：由变量 $x,y,\dots$ 的一次不等式 / 方程组成的不等式组就称为线性约束条件，如上述二元一次不等式。&lt;/li&gt;
-&lt;li&gt;目标函数：欲求最大值或最小值所涉及的变量 $x,y,\dots$ 的解析式，如上述 $z$.&lt;/li&gt;
-&lt;li&gt;线性目标函数：目标函数关于变量 $x,y,\dots$ 的一次解析式，如上述 $z$.&lt;/li&gt;
-&lt;li&gt;线性规划问题：在线性约束条件下求线性目标函数的问题。&lt;/li&gt;
-&lt;li&gt;可行解：满足线性约束条件的解 $(x,y)$.&lt;/li&gt;
-&lt;li&gt;可行域：由所有可行解组成的集合。&lt;/li&gt;
-&lt;li&gt;最优解：使目标函数取得 $\max$ 或 $\min$ 的可行解。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/number/1/</link>
-      <pubDate>Tue, 31 Mar 2026 14:18:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/number/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/1/</guid>
       
     </item>
     
@@ -624,21 +1071,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>椭圆详解：几何定义与参数化全解析与竞赛复习</title>
-      
-      
-      
-      
-      <description>本文系统阐释椭圆的三大定义：第一定义通过焦点距离之和求标准方程，第二定义利用离心率与准线建立几何比例，第三定义采用点差法分析弦の中点关系。随后推导参数化方程、切线斜率及极点极线理论，并讨论面积、周长近似及光学性质，为高考与竞赛提供完整技术路线，以及应用实例。</description>
-      <link>https://raineblog.dpdns.org/whk/science/geometry/3/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/geometry/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/3/</guid>
-      
-    </item>
-    
-    <item>
       <title>圆锥截线详解：离心率机制与天体轨道应用场景</title>
       
       
@@ -665,197 +1097,6 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/mechanics/6/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/6/</guid>
-      
-    </item>
-    
-    <item>
-      <title>多项式入门</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;多项式入门&lt;/h1&gt;
-&lt;h2&gt;基础方法&lt;/h2&gt;
-&lt;h3&gt;乘法公式&lt;/h3&gt;
-&lt;p&gt;分配率：&lt;/p&gt;
-&lt;p&gt;$$
-\begin{aligned}
-(a+b)(c+d)&amp;amp;=ac+ad+bc+bd\
-(a+b)(a-b)&amp;amp;=a^2-b^2
-\end{aligned}
-$$&lt;/p&gt;
-&lt;p&gt;和差方：&lt;/p&gt;
-&lt;p&gt;$$
-\begin{aligned}
-(a+b)^2&amp;amp;=a^2+2ab+b^2\
-(a-b)^2&amp;amp;=a^2-2ab+b^2\
-(a+b)^3&amp;amp;=a^3+3a^2b+3ab^2+b^3\
-(a-b)^3&amp;amp;=a^3-3a^2b+3ab^2-b^3\
-(a+b+c)^2&amp;amp;=a^2+b^2+c^2+2ab+2bc+2ac\
-\end{aligned}
-$$&lt;/p&gt;
-&lt;p&gt;二项式定理：&lt;/p&gt;
-&lt;p&gt;$$
-\begin{aligned}
-(x+y)^n&amp;amp;=\sum_{k=0}^n{n\choose k}x^ky^{n-k}\
-(x+1)^n&amp;amp;=\sum_{k=0}^n{n\choose k}x^k
-\end{aligned}
-$$&lt;/p&gt;
-&lt;p&gt;方和差：&lt;/p&gt;
-&lt;p&gt;$$
-\begin{aligned}
-a^3+b^3&amp;amp;=(a+b)(a^2-ab+b^2)\
-a^3-b^3&amp;amp;=(...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/polynomial/1/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/polynomial/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/1/</guid>
-      
-    </item>
-    
-    <item>
-      <title>多项式科技</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;多项式科技&lt;/h1&gt;
-&lt;h2&gt;生成函数&lt;/h2&gt;
-&lt;p&gt;序列 $a$ （有穷无穷均可）的普通生成函数定义为形式幂级数：$\displaystyle F(x)=\sum_na_nx^n$。例如：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;$a=\lang1,2,3\rang$ 的普通生成函数是 $1+2x+3x^2$&lt;/li&gt;
-&lt;li&gt;$a=\lang1,1,1,\dots\rang$ 的普通生成函数是 $\displaystyle\sum_{n\geq 0}x^n$&lt;/li&gt;
-&lt;li&gt;$a=\lang1,2,4,8,16,\dots\rang$ 的生成函数是 $\displaystyle\sum_{n\geq 0}2^nx^n$&lt;/li&gt;
-&lt;li&gt;$a=\lang1,3,5,7,9\rang$ 的生成函数是 $\displaystyle\sum_{n\geq 0}(2n+1)x^n$&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;换句话说，如果序列 $a$ 有通项公式，那么它的普通生成函数的系数就是通项公式。&lt;/p&gt;
-&lt;h3&gt;基本运算&lt;/h3&gt;
-&lt;p&gt;两个序列 $a,b$ 的生成函数 $F(x),G(x)$，则 $F(x)\pm G(x)$ 是序列 $\lang a_n\pm b_n\rang$ 的生成函数。&lt;/p&gt;
-&lt;p&gt;$$F(x)\pm...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/polynomial/2/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/polynomial/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/2/</guid>
-      
-    </item>
-    
-    <item>
-      <title>我也不知道是什么</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;我也不知道是什么&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-08-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-08-19T11:57:22+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-03-31&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-03-31T13:44:14+00...</description>
-      <link>https://raineblog.dpdns.org/whk/science/polynomial/3/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/polynomial/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/3/</guid>
-      
-    </item>
-    
-    <item>
-      <title>组合数学</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;组合数学&lt;/h1&gt;
-&lt;center markdown&gt;
-组合数学是一门古老而迷人的学科。
-
-传说早在 $\texttt{114514}$ 年前，&lt;br&gt;
-一位名为忆哀的神灵来到地球，&lt;br&gt;
-发现了人类——另一种有智慧的物种。
-
-她觉得这很有趣，为了加速人类文明的发展，&lt;br&gt;
-她向人间传下了一类计数问题——十二重计数，&lt;br&gt;
-这也正是组合数学的开端。
-
-而只有搞明白这类问题，才能在组合数学上继续深入。
-&lt;/center&gt;
-
-&lt;h2&gt;基础内容&lt;/h2&gt;
-&lt;h3&gt;四大原理&lt;/h3&gt;
-&lt;p&gt;在组合数学中，我们首先需要掌握四个基本的计数原理。这些原理是后续所有计数方法的基础。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;加法原理&lt;/strong&gt;：当完成某件事有若干类方法时，各类方法之间相互独立，则总方案数等于各类方法的方案数之和。&lt;/p&gt;
-&lt;p&gt;$$
-N=\sum m_n
-$$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;乘法原理&lt;/strong&gt;：当完成某件事需要分为若干步时，各步之间相互依存，则总方案数等于各步方案数的乘积。&lt;/p&gt;
-&lt;p&gt;$$
-N=\prod m_n
-$$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;减法原理&lt;/strong&gt;：在某些情况下，直接计算目标集合的大小较为困难，我们可以利用补集的思想，从全集中减去不满足条件的部分。这就是「正难则反」的策略。&lt;/p&gt;
-&lt;p&gt;$$
-|...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/polynomial/4/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/polynomial/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/4/</guid>
-      
-    </item>
-    
-    <item>
-      <title>二项式定理</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;二项式定理&lt;/h1&gt;
-&lt;h2&gt;二项式定理&lt;/h2&gt;
-&lt;h3&gt;基本形式&lt;/h3&gt;
-&lt;p&gt;二项式定理（Binomial Theorem）是组合数学中最核心的定理之一，它建立了多项式展开与组合数之间的桥梁。其基本形式为：&lt;/p&gt;
-&lt;p&gt;$$
-\boxed{(a+b)^n=\sum_{i=0}^n{n\choose i}a^{n-i}b^i}
-$$&lt;/p&gt;
-&lt;p&gt;令 $b=1$，我们可以得出最能体现性质的形式：&lt;/p&gt;
-&lt;p&gt;$$
-\boxed{(a+1)^n=\sum_{i=0}^n{n\choose i}a^i}
-$$&lt;/p&gt;
-&lt;p&gt;二项式定理也可以很容易地扩展为多项式的形式：&lt;/p&gt;
-&lt;p&gt;$$
-\boxed{(x_1+\dots+x_k)^n=\sum_{n_1+\dots+n_k=n}{n\choose n_1,\dots,n_k}x_1^{n_1}\dots x_k^{n_k}}
-$$&lt;/p&gt;
-&lt;p&gt;由此可得一个重要的恒等式：&lt;/p&gt;
-&lt;p&gt;$$
-\boxed{\sum_{n_1+\dots+n_k=n}{n\choose n_1,\dots,n_k}=k^n}
-$$&lt;/p&gt;
-&lt;p&gt;```md {admonition=note title=&#34;这个恒等式有什么用？&#34;}
-我们可以用它来检验展开是否正确...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/polynomial/5/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/polynomial/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/5/</guid>
-      
-    </item>
-    
-    <item>
-      <title>极限与微积分</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;极限与微积分&lt;/h1&gt;
-&lt;h2&gt;函数极限&lt;/h2&gt;
-&lt;h3&gt;初等函数&lt;/h3&gt;
-&lt;p&gt;我们研究过常数函数、幂函数、指数函数、对数函数、三角函数、反三角函数，它们经过有限次加、减、乘、除、乘方、开方和复合运算，得到的函数称为初等函数。初等函数是数学中最基本的一类函数，具有相当重要的性质。&lt;/p&gt;
-&lt;h3&gt;极限定义​&lt;/h3&gt;
-&lt;p&gt;对于函数 $f(x)$ 与实数 $a$，如果存在实数 $b$，使得 $\forall \varepsilon &amp;gt; 0$，$\exist \delta &amp;gt; 0$，对任意 $x \in (a - \delta, a) \cup (a, a + \delta)$，有 $|f(x) - b| &amp;lt; \varepsilon$，则 $b$ 称作 $f(x)$ 在点 $a$ 的极限，记作&lt;/p&gt;
-&lt;p&gt;$$
-\lim_{x \to a} f(x) = b
-$$&lt;/p&gt;
-&lt;p&gt;这就是严格定义函数极限的 $\varepsilon \text - \delta$ 语言。也就是说，对于任意 $\varepsilon &amp;gt; 0$，我们都能找到一段 包含 $a$ 但是扣去 $a$ 的区间，使得这个区间上对应的函数值与 $b$ 的距离都小于 $\varep...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/polynomial/6/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/polynomial/6/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/6/</guid>
       
     </item>
     
@@ -995,177 +1236,6 @@ P(AB) = P...&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>数列基础</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;数列基础&lt;/h1&gt;
-&lt;h2&gt;数列的定义&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;数列&lt;/strong&gt;是由数字组成的有序序列，数列中的每一个数都叫做这个数列的&lt;strong&gt;项&lt;/strong&gt;。&lt;strong&gt;项数&lt;/strong&gt;有限的数列成为&lt;strong&gt;有限数列&lt;/strong&gt;，项数无穷多的成为&lt;strong&gt;无穷数列&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;排在第一位的数称为这个数列的&lt;strong&gt;首项&lt;/strong&gt;，有限数列的最后一个数成为这个数列的&lt;strong&gt;末项&lt;/strong&gt;。注意：无穷数列只有首项，没有末项。&lt;/p&gt;
-&lt;p&gt;对于数列，更严谨的定义，考虑最一般的复数，下文再说。&lt;/p&gt;
-&lt;p&gt;无穷数列：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;一个 $(a:\mathbb N\to\mathbb C)$ 的函数被称为&lt;strong&gt;无穷数列&lt;/strong&gt;。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;可记为 ${a_i}&lt;em&gt;{i\in\mathbb N}$ 或 $(a_i)&lt;/em&gt;{i\in\mathbb N}$ 或 $\langle a_i\rangle_{i\in\mathbb N}$。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;一个数列 $a$ 的第 $i$ 项，通常记为 $a(i)$，简记为 $a_i$。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;有限数列：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;若 $I_n={1,2,\dots,n}$，则一个 $(a:I_n\to\mathbb C)$ 的函数被称为&lt;strong&gt;有限数列&lt;/strong&gt;。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;可记为 ${a_i}&lt;em&gt;{i=1}^n$ 或 $(a&lt;/em&gt;...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/sequence/1/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/sequence/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/sequence/1/</guid>
-      
-    </item>
-    
-    <item>
-      <title>数列提高</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;数列提高&lt;/h1&gt;
-&lt;h2&gt;数学归纳法&lt;/h2&gt;
-&lt;h3&gt;数学归纳法&lt;/h3&gt;
-&lt;p&gt;数学归纳法是证明某个命题对于所有满足 $n\ge n_0$ 的整数 $n$ 都成立的一般方法。首先我们在 $n$ 取 最小值 $n_0$ 时证明该命题，这一步骤成为&lt;strong&gt;基础&lt;/strong&gt;。然后对 $n&amp;gt;n_0$，假设该命题对 $n_0\sim n-1$ 之间的所有值已经被证明，再证明该命题对 $n$ 成立，这一步骤成为&lt;strong&gt;归纳&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;这样一种证明方法仅用有限步就得到无限多个结果。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;皮亚诺公理：&lt;/p&gt;
-&lt;p&gt;一个最简单的例子，皮亚诺公理的自然数定义：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;$0$ 是自然数；&lt;/li&gt;
-&lt;li&gt;每一个确定的自然数 $a$，都有一个确定的后继 $a&#39;$，$a&#39;$ 也是自然数；&lt;/li&gt;
-&lt;li&gt;对于每个自然数 $b,c$，$b=c$ 当且仅当 $b&#39;=c&#39;$；&lt;/li&gt;
-&lt;li&gt;$0$ 不是任何自然数的后继；&lt;/li&gt;
-&lt;li&gt;任意关于自然数的命题，如果证明：&lt;ul&gt;
-&lt;li&gt;它对 $0$ 成立，且假定它对自然数 $a&#39;$ 为真时，&lt;/li&gt;
-&lt;li&gt;可以证明它对 $a&#39;$ 也成立。&lt;/li&gt;
-&lt;li&gt;那么该命题对所有自然数都成...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/sequence/2/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/sequence/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/sequence/2/</guid>
-      
-    </item>
-    
-    <item>
-      <title>数列进阶</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;数列进阶&lt;/h1&gt;
-&lt;h2&gt;极限&lt;/h2&gt;
-&lt;h3&gt;函数极限&lt;/h3&gt;
-&lt;p&gt;极限的概念比较复杂，我们多方面的考虑。&lt;/p&gt;
-&lt;p&gt;若函数 $f(x)$  在 $x_0$ 附近有定义，且存在有极限 $L$，那么，&lt;/p&gt;
-&lt;p&gt;对于任意 $\varepsilon&amp;gt;0$，一定存在 $\delta&amp;gt;0$，使得当，&lt;/p&gt;
-&lt;p&gt;$$
-0&amp;lt;|x-x_0|&amp;lt;\delta
-$$&lt;/p&gt;
-&lt;p&gt;时，总有，&lt;/p&gt;
-&lt;p&gt;$$
-|f(x)-L|&amp;lt;\varepsilon
-$$&lt;/p&gt;
-&lt;p&gt;则称 $L$ 是函数在 $x_0$ 的&lt;strong&gt;极限&lt;/strong&gt;，记为，&lt;/p&gt;
-&lt;p&gt;$$
-\lim_{x\to x_0}f(x)=L
-$$&lt;/p&gt;
-&lt;p&gt;特殊的，若对于 $x&amp;gt;x_0$（$x-x_0&amp;lt;\delta$）满足上式，&lt;/p&gt;
-&lt;p&gt;则称函数在 $x_0$​ 处存在&lt;strong&gt;右极限&lt;/strong&gt;，表示为：&lt;/p&gt;
-&lt;p&gt;$$
-\lim_{x\to x_0^+}f(x)=L
-$$&lt;/p&gt;
-&lt;p&gt;同样的，若对于 $x&amp;lt;x_0$（$x_0-x&amp;lt;\delta$）满足上式，&lt;/p&gt;
-&lt;p&gt;则称函数在 $x_0$​ 处存在&lt;strong&gt;左极限&lt;/strong&gt;，表示为：&lt;/p&gt;
-&lt;p&gt;$$
-\lim_{x\to x_0^-}f(x)=L
-$$&lt;/p&gt;
-&lt;p&gt;比较这三个定义我们会发现：&lt;/p&gt;
-&lt;p&gt;要想存在极限，那么必须同时存在相等的左极限和右极限。&lt;/p&gt;
-&lt;h3&gt;数列...&lt;/h3&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/sequence/3/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/sequence/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/sequence/3/</guid>
-      
-    </item>
-    
-    <item>
-      <title>数列训练</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;数列训练&lt;/h1&gt;
-&lt;h2&gt;基础题目&lt;/h2&gt;
-&lt;p&gt;求下列数列的通项公式。&lt;/p&gt;
-&lt;h3&gt;题目一&lt;/h3&gt;
-&lt;p&gt;求：$a_n=2a_{n-1}+3(n\ge2),a_1=1$。&lt;/p&gt;
-&lt;p&gt;因为 $q/(p-1)=3$，等式两边同时加三，&lt;/p&gt;
-&lt;p&gt;$$
-a_n+3=2a_{n-1}+6=2^{n+1}\
-a_n=2^{n+1}-3
-$$&lt;/p&gt;
-&lt;p&gt;注意到当 $n=1,a_1=1$ 满足该式，因此，&lt;/p&gt;
-&lt;p&gt;$$
-a_n=2^{n+1}-3
-$$&lt;/p&gt;
-&lt;h3&gt;题目二&lt;/h3&gt;
-&lt;p&gt;求：$a_n=a_{n-1}+n(n\ge2),a_1=1$。&lt;/p&gt;
-&lt;p&gt;注意到，&lt;/p&gt;
-&lt;p&gt;$$
-a_n=a_{n-1}+n\
-a_{n-1}=a{n-2}+n-1\
-\dots\
-a_2=a_1+2=1+2
-$$&lt;/p&gt;
-&lt;p&gt;上式相加，得，&lt;/p&gt;
-&lt;p&gt;$$
-a_n=1+2+3+\dots+n-1+n={n(n+1)\over2}
-$$&lt;/p&gt;
-&lt;p&gt;注意到当 $n=1,a_1=1$ 满足该式，因此，&lt;/p&gt;
-&lt;p&gt;$$
-a_n={n(n+1)\over2}
-$$&lt;/p&gt;
-&lt;h3&gt;题目三&lt;/h3&gt;
-&lt;p&gt;求：$a_n=2a_{n-1}+n(n\ge2),a_1=1$。&lt;/p&gt;
-&lt;p&gt;等式两边同时除以 $2^n$，得，&lt;/p&gt;
-&lt;p&gt;$$
-{a_n\over2^n}={a_...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/sequence/4/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/sequence/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/sequence/4/</guid>
-      
-    </item>
-    
-    <item>
       <title>议论文写作</title>
       
       
@@ -1225,36 +1295,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>静电力学详解：库仑定律机制及实际应用于电子器件</title>
-      
-      
-      
-      
-      <description>本文系统阐述静电力学中的电荷特性、守恒定律及量子化，重点解析库仑定律的基本形式、介电常数的影响以及带电金属球的感应力学。进一步讨论三点一线平衡、等边三角平衡及原子核尺度的库仑与万有引力比较，最后涵盖摩擦、接触与感应起电的实验原理及静电屏蔽、除尘等实际应用。</description>
-      <link>https://raineblog.dpdns.org/whk/science/electromagnetism/1/</link>
-      <pubDate>Tue, 31 Mar 2026 10:07:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/1/</guid>
-      
-    </item>
-    
-    <item>
-      <title>电场电势详解：场论机制与实验设计全方位应用</title>
-      
-      
-      
-      
-      <description>本文从场的本质出发阐释电场的定义与保守性质引入场线几何特性推导电场强度公式详解高斯定理在对称场中的应用进一步解释电势与电势能的关系等势面特性及点电荷电势公式最后讨论电偶极子微元叠加与几何叠加展示在实验设计与竞赛复习中的典型案例</description>
-      <link>https://raineblog.dpdns.org/whk/science/electromagnetism/2/</link>
-      <pubDate>Tue, 31 Mar 2026 10:07:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/2/</guid>
-      
-    </item>
-    
-    <item>
       <title>交变电流详解：正弦波机理与电能输送应用实例案例</title>
       
       
@@ -1296,36 +1336,6 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/human/9/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/9/</guid>
-      
-    </item>
-    
-    <item>
-      <title>机械振动详解：简谐运动机制与波的传播与应用</title>
-      
-      
-      
-      
-      <description>本文系统阐释机械振动的基本概念与简谐运动的数学模型详细推导弹簧振子的回复力与角频率进一步探讨受迫振动与共振现象的发生条件进一步探讨驱动力对振幅的调制规律并扩展至机械波的定义波的要素衍射与干涉原理提供从理论推导到单摆测量重力的完整技术路线与实验示例并可用于竞赛复习科学知识库的构建与应用示范提升学习效率</description>
-      <link>https://raineblog.dpdns.org/whk/science/mechanics/5/</link>
-      <pubDate>Tue, 31 Mar 2026 10:07:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/mechanics/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/5/</guid>
-      
-    </item>
-    
-    <item>
-      <title>光学原理详解：光的传播机制与光学系统全解析</title>
-      
-      
-      
-      
-      <description>本文系统阐述光的传播特性，包括点光源、波前、能流矢量及光线抽象；详细推导小孔成像中的全反射条件；阐明镜面反射、漫反射及逆反射原理；解释折射率、斯涅尔定律及全内反射；并分析光导纤维结构、衍射光栅与X射线衍射在生物结构中的应用，同时涉及实验测折射率的步骤与误差分析，提供从几何光学到波动光学的完整框架。</description>
-      <link>https://raineblog.dpdns.org/whk/science/modern/3/</link>
-      <pubDate>Tue, 31 Mar 2026 10:07:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/modern/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/3/</guid>
       
     </item>
     
@@ -1499,21 +1509,6 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/plane/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/5/</guid>
-      
-    </item>
-    
-    <item>
-      <title>共价键详解：分子轨道机制与现代实验室化学的应用</title>
-      
-      
-      
-      
-      <description>本文系统阐述共价键的形成机制，包括分子轨道理论解释氧分子顺磁性、头并头重叠形成的成键以及肩并肩重叠形成的π键特性。进一步分析键能、键长与键角的测定方法，并结合配位键在实验室配合物的形成、溶解与颜色变化中的应用，提供完整的实验路线与理论框架。</description>
-      <link>https://raineblog.dpdns.org/whk/science/structure/3/</link>
-      <pubDate>Sun, 29 Mar 2026 10:02:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/structure/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/3/</guid>
       
     </item>
     
@@ -1893,21 +1888,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>内环境稳态详解：激素调节机制与临床实践</title>
-      
-      
-      
-      
-      <description>本文系统阐释内环境概念，解析血浆、组织液、淋巴液的组成与动态平衡，重点探讨渗透压、酸碱度、温度等理化性质的稳态调控机制，深入说明激素在血糖、体温、水盐调节中的关键作用及反馈回路，涵盖胰岛素、胰高血糖素、甲状腺激素、糖皮质激素等，适用于生物化学与医学学习。</description>
-      <link>https://raineblog.dpdns.org/whk/science/human/3/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/human/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/3/</guid>
-      
-    </item>
-    
-    <item>
       <title>循环系统详解：血液流动机制与心血管应用场景</title>
       
       
@@ -2009,21 +1989,6 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/kinematics/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/2/</guid>
-      
-    </item>
-    
-    <item>
-      <title>抛体运动详解：匀变速曲线与极限射程案例全解</title>
-      
-      
-      
-      
-      <description>本文系统阐述抛体运动的曲线特性、匀变速分解与极限射程计算，涵盖平面平抛、斜抛、斜面斜抛及包络线方程，详细推导轨迹方程、最高点、射程与最大高度，并结合关联速度与接触关联原理，提供从基础概念到典型例题的完整技术路线。</description>
-      <link>https://raineblog.dpdns.org/whk/science/kinematics/3/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/kinematics/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/3/</guid>
       
     </item>
     
@@ -2358,21 +2323,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>空间几何详解：体积公式与几何体应用场景</title>
-      
-      
-      
-      
-      <description>本文系统阐述空间几何体的分类、斜二测画法及其面积比例，深入推导祖暅原理、辛普森法则与欧拉公式，并详细推导棱柱、棱锥、棱台及旋转体（圆柱、圆锥、圆台）的体积与表面积公式。最后介绍外接球、内切球的求半径方法，适用于高中几何教学与竞赛。</description>
-      <link>https://raineblog.dpdns.org/whk/science/solid/3/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/solid/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/solid/3/</guid>
-      
-    </item>
-    
-    <item>
       <title>自然选择学说详解：适应机制、物种形成与应用案例</title>
       
       
@@ -2554,64 +2504,6 @@ no_recurse = {&#34;.venv*&#34;, &#34;.github&#34;}&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/home/format/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/format/</guid>
-      
-    </item>
-    
-    <item>
-      <title>开发进程</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;开发进程&lt;/h1&gt;
-&lt;h2&gt;生物&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;（待完善）孟德尔遗传规律：五三 310 页考法 1, 2, 3。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;细胞活动。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;遗传除了孟德尔以外的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;物理&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;空间测量，参考新概念、初中课本。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;热力学。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;角动量、轨道力学。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;天体概述，补充地理内容。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;数学&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;目录&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;science/function/5.md # [TODO] 微积分&lt;/li&gt;
-&lt;li&gt;science/polynomial/1.md # [TODO] 多项式入门&lt;/li&gt;
-&lt;li&gt;science/polynomial/2.md # [TODO] 多项式科技&lt;/li&gt;
-&lt;li&gt;science/polynomial/5.md # [TODO] 不等式进阶&lt;/li&gt;
-&lt;li&gt;science/sequence/3.md # [TODO] 数列进阶&lt;/li&gt;
-&lt;li&gt;science/probability/1.md # [TODO] 统计模型&lt;/li&gt;
-&lt;li&gt;science/probability/4.md # [TODO] 概率分布&lt;/li&gt;
-&lt;li&gt;science/number/1.md # [TODO] 线性...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/home/roadmap/</link>
-      <pubDate>Thu, 12 Feb 2026 07:09:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/home/roadmap/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/roadmap/</guid>
       
     </item>
     
