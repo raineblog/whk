@@ -53,13 +53,14 @@ jobs:
         with:
           enable-cache: true
 
-      - name: Install dependencies
+      - name: Install bun dependencies
         run: bun install
 
-      - name: Install Pandoc
-        run: |
-            uv sync --locked --no-dev
-            uv run --no-sync mkpandocs install-deps
+      - name: Install uv dependencies
+        run: uv sync --locked --no-dev
+
+      - name: Install pandoc
+        uses: pandoc/actions/setup@v1
 
       - name: Cache
         uses: actions/cache@v5
