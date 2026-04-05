@@ -3,7 +3,7 @@
 version: '3'
 
 vars:
-  SITE_URL: https://raineblog.github.com/whk/
+  SITE_URL: https://raineblog.github.io/whk/
 
 tasks:
   default:
