@@ -8,7 +8,7 @@
     ]
   },
   {
-    "多项式与微积分": [
+    "数列与组合数学": [
       "science/polynomial/1.md",
       "science/polynomial/2.md",
       "science/polynomial/3.md",
@@ -18,21 +18,14 @@
     ]
   },
   {
-    "函数导数不等式": [
+    "函数导数微积分": [
       "science/function/1.md",
       "science/function/2.md",
       "science/function/3.md",
       "science/function/4.md",
       "science/function/5.md",
-      "science/function/6.md"
-    ]
-  },
-  {
-    "数列与离散数学": [
-      "science/sequence/1.md",
-      "science/sequence/2.md",
-      "science/sequence/3.md",
-      "science/sequence/4.md"
+      "science/function/6.md",
+      "science/function/7.md"
     ]
   },
   {
