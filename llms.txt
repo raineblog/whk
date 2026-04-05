@@ -69,7 +69,7 @@
 - [转基因技术详解：原理机制、社会影响与实际应用场景](https://raineblog.dpdns.org/whk/science/experiment/3/index.md)
 - [函数的基础知识](https://raineblog.dpdns.org/whk/science/function/1/index.md)
 - [函数的基本性质](https://raineblog.dpdns.org/whk/science/function/2/index.md)
-- [不等式基础知识](https://raineblog.dpdns.org/whk/science/function/3/index.md)
+- [均值不等式](https://raineblog.dpdns.org/whk/science/function/3/index.md)
 - [导数与不等式](https://raineblog.dpdns.org/whk/science/function/4/index.md)
 - [进阶导数题型](https://raineblog.dpdns.org/whk/science/function/5/index.md)
 - [不等式进阶拓展](https://raineblog.dpdns.org/whk/science/function/6/index.md)

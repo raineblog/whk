@@ -255,7 +255,7 @@ Mirsky 定理：S 的最长链长度等于最小的反链覆盖数。
 
 因此不难得出 {f−1({i}):1≤i≤d} 是一个反链覆盖，从而最小反链覆盖数至多为 d.
 
-Dilworth 定理与 [Hall 婚配定理](https://raineblog.dpdns.org/whk/science/mathematics/graph/graph-matching/graph-match.md#hall-%E5%AE%9A%E7%90%86) 等价。我们可以用 Dilworth 定理证明如下定理：
+Dilworth 定理与 Hall 婚配定理等价。我们可以用 Dilworth 定理证明如下定理：
 
 Erdős–Szekeres 定理：含至少 rs+1 个元素的实数序列 {ai​} 要么有一个长为 r+1 的不下降子序列，要么有一个长为 s+1 的不上升子序列。
 
