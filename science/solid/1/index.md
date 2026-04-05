@@ -7,7 +7,7 @@
 公理：
 
 1. 经过不共线三个点，有且仅有一个平面。
-1. 若点 *A*, *B* 在一平面内，则直线 *A\*\*B* 也在该平面内。
+1. 若点 A,B 在一平面内，则直线 AB 也在该平面内。
 1. 若两个不重合的平面有公共点，则有且仅有一条过公共点的直线，称为平面和平面的交线。
 
 推论：
@@ -47,7 +47,7 @@
 相交关系：
 
 - 我们认为直线是点的集合，平面亦如此。因此我们可以使用元素属于集合来表示点与直线、平面的关系，使用集合包含来表示直线与平面的关系。
-- 具体的，我们用大写字母表示点，如点 A；使用小写字母表示直线，如直线 a；使用小写希腊字母表示平面，如平面 α。则可以写出 A∈a,a∈/A,a⊂α,a⊂α。
+- 具体的，我们用大写字母表示点，如点 A；使用小写字母表示直线，如直线 a；使用小写希腊字母表示平面，如平面 \\alpha。则可以写出 A\\in a,a\\notin A,a\\subset\\alpha,a\\not\\subset\\alpha。
 
 平行关系：
 
@@ -67,13 +67,13 @@
 
 公式表达：
 
-(a⊂α)(b⊂α)(a∥b⟹a∥α)
+(a\\not\\subset\\alpha)(b\\subset\\alpha)(a\\parallel b\\implies a\\parallel\\alpha)
 
 **线面平行性质定理**：一条直线与一个平面平行，如果过该直线的一个平面与该平面相交，则该直线与两平面交线平行。
 
 公式表达：
 
-(a∥α)(a⊂β)(α∩β=b⟹a∥b)
+(a\\parallel\\alpha)(a\\subset\\beta)(\\alpha\\cap\\beta=b\\implies a\\parallel b)
 
 ### 面面平行
 
@@ -81,13 +81,13 @@
 
 公式表达：
 
-(a∥α)(a⊂β)(b∥α)(b⊂β)(a∩b=P⟹α∥β)
+(a\\parallel\\alpha)(a\\subset\\beta)(b\\parallel\\alpha)(b\\subset\\beta)(a\\cap b=P\\implies\\alpha\\parallel\\beta)
 
 **面面平行性质定理**：两个平面平行，如果另一个平面与这两个平面相交，那么两条交线平行。
 
 公式表达：
 
-(α∥β)(γ∩α=a,γ∩β=b⟹a∥b)
+(\\alpha\\parallel\\beta)(\\gamma\\cap\\alpha=a,\\gamma\\cap\\beta=b\\implies a\\parallel b)
 
 ### 线面垂直
 
@@ -97,7 +97,7 @@
 
 公式表达：
 
-(a⊂α)(b⊂α)(a∩b=∅)(ℓ⊥a,ℓ⊥b⟹ℓ⊥α)
+(a\\subset\\alpha)(b\\subset\\alpha)(a\\cap b\\neq\\varnothing)(\\ell\\bot a,\\ell\\bot b\\implies\\ell\\bot\\alpha)
 
 证明：根据平面向量基本定理，后面忘了。
 
@@ -107,7 +107,7 @@
 
 公式表达：
 
-a⊥α,b⊥α⟹a∥b
+a\\bot\\alpha,b\\bot\\alpha\\implies a\\parallel b
 
 **线与面的距离**：过平行于平面的直线上任意一点做这个平面的垂线，垂线段长度即为这条直线到这个平面的距离。
 
@@ -115,19 +115,19 @@ a⊥α,b⊥α⟹a∥b
 
 ### 面面垂直
 
-设平面 α,β 交于直线 AB，设 P,Q 分别为 α,β 上的点，容易知道此时 α,β 都可以用这四个点来表示，因此我们记 P−AB−Q 表示（半）平面 α,β 的二面角。注意到我们只取了其中一个角，因此这是半平面的二面角。
+设平面 \\alpha,\\beta 交于直线 AB，设 P,Q 分别为 \\alpha,\\beta 上的点，容易知道此时 \\alpha,\\beta 都可以用这四个点来表示，因此我们记 P-AB-Q 表示（半）平面 \\alpha,\\beta 的二面角。注意到我们只取了其中一个角，因此这是半平面的二面角。
 
 **面面垂直判定定理**：如果一个平面过另一个平面的垂线，那么这两个平面垂直。
 
 公式表达：
 
-ℓ⊥α,ℓ⊂β⟹α⊥β
+\\ell\\bot\\alpha,\\ell\\subset\\beta\\implies\\alpha\\bot\\beta
 
 **面面垂直性质定理**：若两个平面垂直且一个平面内有一直线垂直于这两个平面的交线，那么这条直线与另一个平面垂直。
 
 公式表达：
 
-α⊥β,a=α∩β,ℓ⊂β,ℓ⊥a⟹ℓ⊥α
+\\alpha\\bot\\beta,a=\\alpha\\cap\\beta,\\ell\\subset\\beta,\\ell\\bot a\\implies\\ell\\bot\\alpha
 
 ## 解题方法
 
