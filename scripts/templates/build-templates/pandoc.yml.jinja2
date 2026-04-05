@@ -2,8 +2,8 @@ pandoc:
   format: commonmark_x+raw_html+yaml_metadata_block+raw_attribute
   to: html5
   html_parser: lxml
-  json_filters:
-    - filters/katex_ssr.py
+  {# json_filters:
+    - filters/katex_ssr.py #}
   lua_filters:
     - filters/admonition.lua
   args:
