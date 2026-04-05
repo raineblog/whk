@@ -23,7 +23,6 @@ import path from "path";
 // PostHTML Plugins
 import posthtmlPostcss from "posthtml-postcss";
 import posthtmlAltAlways from "posthtml-alt-always";
-import posthtmlLinkPreload from "posthtml-plugin-link-preload";
 import { posthtmlExternalLink } from "posthtml-external-link";
 import posthtmlRemoveDuplicates from "posthtml-remove-duplicates";
 import mergeInlineLonghand from "posthtml-postcss-merge-longhand";
@@ -45,6 +44,43 @@ const BROWSERSLIST = [
   "last 2 Safari versions",
   "last 2 Edge versions",
 ];
+
+// ============================================================
+// Shared Batch Processor
+// ============================================================
+
+/**
+ * 带有并发控制的批处理函数
+ */
+async function processBatch<T>(
+  items: T[],
+  limit: number,
+  processor: (item: T) => Promise<void>,
+  onProgress?: (processed: number, total: number) => void
+): Promise<{ count: number; errors: string[] }> {
+  let count = 0;
+  const errors: string[] = [];
+
+  for (let i = 0; i < items.length; i += limit) {
+    const batch = items.slice(i, i + limit);
+    const results = await Promise.allSettled(batch.map(processor));
+
+    for (let j = 0; j < results.length; j++) {
+      if (results[j].status === "rejected") {
+        errors.push(`${batch[j]}: ${(results[j] as PromiseRejectedResult).reason}`);
+      } else {
+        count++;
+      }
+    }
+
+    if (onProgress) {
+      const processed = Math.min(i + limit, items.length);
+      onProgress(processed, items.length);
+    }
+  }
+
+  return { count, errors };
+}
 
 // ============================================================
 // Argument Parsing
@@ -87,8 +123,19 @@ const postcss_plugins = [
 // PostHTML Custom Plugins
 // ============================================================
 
-const posthtmlImgAlt = () => (tree: any) => {
-  tree.walk((node: any) => {
+type PostHTMLNode = {
+  tag?: string;
+  attrs?: Record<string, string>;
+  content?: any[];
+};
+
+type PostHTMLTree = {
+  walk: (cb: (node: PostHTMLNode) => PostHTMLNode) => void;
+  match: (matcher: any, cb: (node: PostHTMLNode) => PostHTMLNode) => void;
+};
+
+const posthtmlImgAlt = () => (tree: PostHTMLTree) => {
+  tree.walk((node) => {
     if (node.tag === "img" && node.attrs?.src) {
       if (!node.attrs.alt || node.attrs.alt.trim() === "") {
         const src = node.attrs.src;
@@ -100,8 +147,8 @@ const posthtmlImgAlt = () => (tree: any) => {
   });
 };
 
-const deduplicateMeta = () => (tree: any) => {
-  tree.walk((node: any) => {
+const deduplicateMeta = () => (tree: PostHTMLTree) => {
+  tree.walk((node) => {
     if (node.tag !== "head") return node;
 
     const children = node.content || [];
@@ -139,8 +186,8 @@ const deduplicateMeta = () => (tree: any) => {
   });
 };
 
-const deduplicateLinks = () => (tree: any) => {
-  tree.walk((node: any) => {
+const deduplicateLinks = () => (tree: PostHTMLTree) => {
+  tree.walk((node) => {
     if (node.tag !== "head") return node;
 
     const children = node.content || [];
@@ -169,8 +216,8 @@ const deduplicateLinks = () => (tree: any) => {
   });
 };
 
-const deduplicateStructuredData = () => (tree: any) => {
-  tree.walk((node: any) => {
+const deduplicateStructuredData = () => (tree: PostHTMLTree) => {
+  tree.walk((node) => {
     if (node.tag !== "head") return node;
 
     const children = node.content || [];
@@ -184,8 +231,14 @@ const deduplicateStructuredData = () => (tree: any) => {
       const content = child.content?.[0] || "";
       try {
         const json = JSON.parse(content);
-        const type = json["@type"] || "";
-        const id = json["@id"] || "";
+        // 支持 json 为数组的情况
+        const items = Array.isArray(json) ? json : [json];
+        let type = "";
+        let id = "";
+        if (items.length > 0) {
+          type = items[0]["@type"] || "";
+          id = items[0]["@id"] || "";
+        }
 
         if (!type) continue;
 
@@ -205,8 +258,8 @@ const deduplicateStructuredData = () => (tree: any) => {
   });
 };
 
-const reorderHead = () => (tree: any) => {
-  tree.walk((node: any) => {
+const reorderHead = () => (tree: PostHTMLTree) => {
+  tree.walk((node) => {
     if (node.tag !== "head") return node;
 
     const children = node.content || [];
@@ -264,21 +317,21 @@ const reorderHead = () => (tree: any) => {
       }
     }
 
-    const indexed = children.map((child: any, idx: number) => ({ child, idx }));
-    indexed.sort((a: any, b: any) => {
+    const indexed = children.map((child, idx) => ({ child, idx }));
+    indexed.sort((a, b) => {
       const catA = categorize(a.child);
       const catB = categorize(b.child);
       if (catA !== catB) return catA - catB;
       return a.idx - b.idx;
     });
 
-    node.content = indexed.map((s: any) => s.child);
+    node.content = indexed.map((s) => s.child);
     return node;
   });
 };
 
-const mergeStyleTags = () => (tree: any) => {
-  tree.walk((node: any) => {
+const mergeStyleTags = () => (tree: PostHTMLTree) => {
+  tree.walk((node) => {
     if (node.tag !== "head") return node;
 
     const children = node.content || [];
@@ -321,56 +374,8 @@ const mergeStyleTags = () => (tree: any) => {
   });
 };
 
-const moveBlockingScripts = () => (tree: any) => {
-  let blockingScripts: any[] = [];
-
-  function isJavaScriptScript(script: any): boolean {
-    const type = script.attrs?.type;
-    if (type === undefined) return true;
-    if (type === "text/javascript" || type === "application/javascript") return true;
-    return false;
-  }
-
-  // First pass: collect blocking scripts from head
-  tree.walk((node: any) => {
-    if (node.tag === "head") {
-      const children = node.content || [];
-      const keep: any[] = [];
-
-      for (const child of children) {
-        if (
-          typeof child === "object" &&
-          child.tag === "script" &&
-          isJavaScriptScript(child) &&
-          child.attrs?.defer === undefined &&
-          child.attrs?.async === undefined &&
-          child.attrs?.["data-no-move"] === undefined
-        ) {
-          blockingScripts.push(child);
-        } else {
-          keep.push(child);
-        }
-      }
-
-      node.content = keep;
-    }
-    return node;
-  });
-
-  // Second pass: append to body (if exists)
-  tree.walk((node: any) => {
-    if (node.tag === "body" && blockingScripts.length > 0) {
-      const children = node.content || [];
-      node.content = [...children, ...blockingScripts];
-    }
-    return node;
-  });
-
-  return tree;
-};
-
-const removeRedundantAttrs = () => (tree: any) => {
-  tree.walk((node: any) => {
+const removeRedundantAttrs = () => (tree: PostHTMLTree) => {
+  tree.walk((node) => {
     if (!node.attrs) return node;
 
     if (node.tag === "style" && node.attrs.type === "text/css") {
@@ -378,7 +383,6 @@ const removeRedundantAttrs = () => (tree: any) => {
     }
 
     // Keep script type attribute - removing it breaks some JS that depends on it
-
     for (const key of ["class", "id"]) {
       if (node.attrs[key] === "") {
         delete node.attrs[key];
@@ -389,12 +393,12 @@ const removeRedundantAttrs = () => (tree: any) => {
   });
 };
 
-const removeEmptyElements = () => (tree: any) => {
-  tree.walk((node: any) => {
+const removeEmptyElements = () => (tree: PostHTMLTree) => {
+  tree.walk((node) => {
     if (node.tag !== "head") return node;
 
     const children = node.content || [];
-    node.content = children.filter((child: any) => {
+    node.content = children.filter((child) => {
       if (typeof child !== "object" || !child.tag) return true;
 
       if (child.tag === "style") {
@@ -429,7 +433,6 @@ const posthtml_plugins: any[] = [
   posthtmlImgAlt(),
   posthtmlAltAlways(),
   mergeInlineLonghand(),
-  // posthtmlLinkPreload(), // Disabled - causes unused preload warnings and breaks rocket-loader
   posthtmlExternalLink(),
   deduplicateMeta(),
   deduplicateStructuredData(),
@@ -437,7 +440,6 @@ const posthtml_plugins: any[] = [
   posthtmlRemoveDuplicates("meta"),
   removeRedundantAttrs(),
   mergeStyleTags(),
-  // moveBlockingScripts(), // Disabled - conflicts with Cloudflare rocket-loader
   reorderHead(),
   removeEmptyElements(),
 ];
@@ -472,59 +474,63 @@ const htmlMinOptions = {
 async function processHtml(dir: string): Promise<{ count: number; errors: string[] }> {
   const htmlFiles = new Glob(`${dir}/**/*.html`);
   const files: string[] = [];
-
   for await (const f of htmlFiles.scan(".")) {
     files.push(f);
   }
 
-  let count = 0;
-  const errors: string[] = [];
+  // 并发处理 HTML 文件
+  return processBatch(
+    files,
+    CONCURRENCY,
+    async (htmlFile) => {
+      const content = await file(htmlFile).text();
 
-  for (let i = 0; i < files.length; i += CONCURRENCY) {
-    const batch = files.slice(i, i + CONCURRENCY);
-    const results = await Promise.allSettled(
-      batch.map(async (htmlFile) => {
-        const content = await file(htmlFile).text();
-        const posthtmlResult = await posthtml(posthtml_plugins).process(content, { sync: false });
-        let minified = await htmlMinify(posthtmlResult.html, htmlMinOptions);
-        // 强制确保 HTML5 doctype 存在
-        if (!minified.toLowerCase().startsWith("<!doctype html>")) {
-          minified = "<!DOCTYPE html>" + minified;
-        }
-        await Bun.write(htmlFile, minified);
-      })
-    );
+      // PostHTML 处理
+      // 开启 directives 解析来更好地处理原始的 <!DOCTYPE ...> 而不掉失
+      const posthtmlResult = await posthtml(posthtml_plugins).process(content, {
+        sync: false,
+        directives: [
+          { name: "?php", start: "<", end: ">" },
+          { name: "!DOCTYPE", start: "<", end: ">" },
+        ],
+      });
 
-    for (let j = 0; j < results.length; j++) {
-      if (results[j].status === "rejected") {
-        errors.push(`${batch[j]}: ${(results[j] as PromiseRejectedResult).reason}`);
+      // html-minifier-terser 会进一步优化
+      let minified = await htmlMinify(posthtmlResult.html, htmlMinOptions);
+
+      // 处理 doctype 缺失的问题（安全补偿）
+      // 由于历史代码或 SSG 引擎可能偶尔漏掉 doctype，或者 html-minifier 压缩时不规范丢失
+      // 在此使用安全且稳健的方法确保 doctype 位于最顶端
+      const trimmed = minified.trimStart();
+      if (!trimmed.toLowerCase().startsWith("<!doctype")) {
+        minified = "<!DOCTYPE html>\n" + trimmed;
       } else {
-        count++;
+        // 如果已经有 doctype，确保上方没有多余空白
+        minified = trimmed;
+      }
+
+      await Bun.write(htmlFile, minified);
+    },
+    (processed, total) => {
+      if (processed % LOG_INTERVAL === 0 || processed === total) {
+        console.log(`  HTML: ${processed}/${total}`);
       }
     }
-
-    const processed = Math.min(i + CONCURRENCY, files.length);
-    if (processed % LOG_INTERVAL === 0 || processed === files.length) {
-      console.log(`  HTML: ${processed}/${files.length}`);
-    }
-  }
-
-  return { count, errors };
+  );
 }
 
 async function processCss(dir: string): Promise<{ count: number; errors: string[] }> {
   const cssFiles = new Glob(`${dir}/**/*.css`);
   const files: string[] = [];
-
   for await (const f of cssFiles.scan(".")) {
     files.push(f);
   }
 
-  let count = 0;
-  const errors: string[] = [];
-
-  const results = await Promise.allSettled(
-    files.map(async (cssFile) => {
+  // 并发处理 CSS 文件
+  return processBatch(
+    files,
+    CONCURRENCY,
+    async (cssFile) => {
       const content = await file(cssFile).text();
       const result = await postcss(postcss_plugins).process(content, {
         from: cssFile,
@@ -536,35 +542,29 @@ async function processCss(dir: string): Promise<{ count: number; errors: string[
       if (result.map) {
         await Bun.write(cssFile + ".map", result.map.toString());
       }
-    })
-  );
-
-  for (let j = 0; j < results.length; j++) {
-    if (results[j].status === "rejected") {
-      errors.push(`${files[j]}: ${(results[j] as PromiseRejectedResult).reason}`);
-    } else {
-      count++;
+    },
+    (processed, total) => {
+      if (processed % LOG_INTERVAL === 0 || processed === total) {
+        console.log(`  CSS:  ${processed}/${total}`);
+      }
     }
-  }
-
-  return { count, errors };
+  );
 }
 
 async function processJs(dir: string): Promise<{ count: number; errors: string[] }> {
   const jsFiles = new Glob(`${dir}/**/*.js`);
   const files: string[] = [];
-
   for await (const f of jsFiles.scan(".")) {
     if (!f.endsWith(".min.js")) {
       files.push(f);
     }
   }
 
-  let count = 0;
-  const errors: string[] = [];
-
-  const results = await Promise.allSettled(
-    files.map(async (jsFile) => {
+  // 并发处理 JS 文件
+  return processBatch(
+    files,
+    CONCURRENCY,
+    async (jsFile) => {
       const content = await file(jsFile).text();
       const mapFile = jsFile + ".map";
 
@@ -597,18 +597,13 @@ async function processJs(dir: string): Promise<{ count: number; errors: string[]
           typeof result.map === "string" ? result.map : JSON.stringify(result.map)
         );
       }
-    })
-  );
-
-  for (let j = 0; j < results.length; j++) {
-    if (results[j].status === "rejected") {
-      errors.push(`${files[j]}: ${(results[j] as PromiseRejectedResult).reason}`);
-    } else {
-      count++;
+    },
+    (processed, total) => {
+      if (processed % LOG_INTERVAL === 0 || processed === total) {
+        console.log(`  JS:   ${processed}/${total}`);
+      }
     }
-  }
-
-  return { count, errors };
+  );
 }
 
 // ============================================================
