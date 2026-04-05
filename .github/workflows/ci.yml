@@ -77,30 +77,13 @@ jobs:
           PYTHONUTF8: 1
           NO_MKDOCS_2_WARNING: 1
 
-      - name: Determine Deployment
-        id: deploy_check
-        shell: bash
-        run: |
-          if [[ "${{ github.event_name }}" == "push" && "${{ github.ref }}" == "refs/heads/main" ]] \
-             || [[ "${{ github.event_name }}" == "schedule" ]] \
-             || [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            echo "should_deploy=true" >> $GITHUB_OUTPUT
-          else
-            echo "should_deploy=false" >> $GITHUB_OUTPUT
-          fi
-  
       - name: Build Bun Executable
-        if: steps.deploy_check.outputs.should_deploy == 'true'
-        run: |
-          bun build --compile --minify --bytecode build.ts --outfile build-bin
+        run: bun build --compile --minify --bytecode build.ts --outfile build-bin
       
       - name: Bun Post-processing
-        if: steps.deploy_check.outputs.should_deploy == 'true'
-        run: |
-          ./build-bin --dir site
+        run: ./build-bin --dir site
 
       - name: Push to Branch
-        if: steps.deploy_check.outputs.should_deploy == 'true'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -108,11 +91,32 @@ jobs:
           publish_dir: site
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
-          full_commit_message: "Deploying to ${{ matrix.branch }} from ${{ github.sha }}"
 
       - name: Upload Artifact
-        if: steps.deploy_check.outputs.should_deploy == 'false'
+        if: matrix.branch == 'gh-pages'
         uses: actions/upload-artifact@v7
         with:
           name: site-${{ matrix.branch }}
           path: site
+
+  deploy-artifact:
+    name: Deploy from Artifact to Github Pages
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v7
+        with:
+          name: site-gh-pages
+          path: site
+
+      - name: Upload to GitHub Pages
+        uses: actions/deploy-pages@v4
+        id: deployment

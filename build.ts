@@ -489,7 +489,7 @@ async function processHtml(dir: string): Promise<{ count: number; errors: string
         let minified = await htmlMinify(posthtmlResult.html, htmlMinOptions);
         // 强制确保 HTML5 doctype 存在
         if (!minified.toLowerCase().startsWith("<!doctype html>")) {
-          minified = "<!DOCTYPE html>" + minified.replace(/^<html[\s>]/i, "<html>");
+          minified = "<!DOCTYPE html>" + minified;
         }
         await Bun.write(htmlFile, minified);
       })
