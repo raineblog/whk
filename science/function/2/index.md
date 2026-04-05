@@ -605,9 +605,7 @@ D(x)=[f(x)]2+(x−1)2
 盲点 5：符号混乱（国内教材的特殊性）
 
 - **误区**：对“单调递增”这个词的理解产生歧义。
-
-- **说明**：在高等数学（如严格的数学分析）中，“单调递增”通常指 f(x1​)≤f(x2​)（允许平直，英文叫 non-decreasing 或 monotonically increasing）。但在**中国的中学教材和部分考研数学**中，题目里常说的“单调递增”往往默认就是\*\*“严格单调递增”\*\*（不允许平直）。
-
+- **说明**：在高等数学（如严格的数学分析）中，“单调递增”通常指 *f*(*x*1) ≤ *f*(*x*2)（允许平直，英文叫 non-decreasing 或 monotonically increasing）。但在**中国的中学教材和部分考研数学**中，题目里常说的“单调递增”往往默认就是\*\*“严格单调递增”\*\*（不允许平直）。
   - **做题策略**：如果在国内高中或考研中遇到“已知 *f*(*x*) 在区间 *I* 上单调递增，求参数 *a* 的取值范围”，**正确的做法是令 *f*′(*x*) ≥ 0 恒成立**，然后再去检验等号是否会在一个区间内成立（通常不会）。很多学生直接令 *f*′(*x*) > 0，往往会**漏掉参数的边界值**。
 
 总结口诀：
@@ -725,15 +723,27 @@ max{a,b}min{a,b}​=2a+b​+2∣a−b∣​=2a+b​−2∣a−b∣​​
 
 - 直线 x=x0​ 是曲线 y=f(x) 的垂直渐近线，当且仅当
 
-  $\\lim\\limits\_{x \\to x\_{0}^{-}} f(x) = \\infty$ 或 $\\lim\\limits\_{x \\to x\_{0}^{+}} f(x) = \\infty$
+  ```
+  <center markdown>
+  $\lim\limits_{x \to x_{0}^{-}} f(x) = \infty$ 或 $\lim\limits_{x \to x_{0}^{+}} f(x) = \infty$
+  </center>
+  ```
 
 - 直线 y=b 是曲线 y=f(x) 的水平渐近线，当且仅当
 
-  $\\lim\\limits\_{x \\to +\\infty} f(x) = b$ 或 $\\lim\\limits\_{x \\to -\\infty} f(x) = b$
+  ```
+  <center markdown>
+  $\lim\limits_{x \to +\infty} f(x) = b$ 或 $\lim\limits_{x \to -\infty} f(x) = b$
+  </center>
+  ```
 
 - 直线 y=ax+b(a=0) 是曲线 y=f(x) 的斜渐近线，当且仅当
 
-  $\\lim\\limits\_{x \\to +\\infty} [f(x) - (ax + b)] = 0$ 或 $\\lim\\limits\_{x \\to -\\infty} [f(x) - (ax + b)] = 0$
+  ```
+  <center markdown>
+  $\lim\limits_{x \to +\infty} [f(x) - (ax + b)] = 0$ 或 $\lim\limits_{x \to -\infty} [f(x) - (ax + b)] = 0$
+  </center>
+  ```
 
 一般来说，函数图像的绘制有以下步骤：
 

@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Sun, 05 Apr 2026 08:45:18 -0000</pubDate>
-    <lastBuildDate>Sun, 05 Apr 2026 08:45:18 -0000</lastBuildDate>
+    <pubDate>Sun, 05 Apr 2026 09:00:26 -0000</pubDate>
+    <lastBuildDate>Sun, 05 Apr 2026 09:00:26 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -228,19 +228,31 @@ $$&lt;/p&gt;
 &lt;h2&gt;数学&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;目录&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;science/function/5.md # [TODO] 微积分&lt;/li&gt;
-&lt;li&gt;science/polynomial/1.md # [TODO] 多项式入门&lt;/li&gt;
-&lt;li&gt;science/polynomial/2.md # [TODO] 多项式科技&lt;/li&gt;
-&lt;li&gt;science/polynomial/5.md # [TODO] 不等式进阶&lt;/li&gt;
-&lt;li&gt;science/sequence/3.md # [TODO] 数列进阶&lt;/li&gt;
-&lt;li&gt;science/probability/1.md # [TODO] 统计模型&lt;/li&gt;
-&lt;li&gt;science/probability/4.md # [TODO] 概率分布&lt;/li&gt;
-&lt;li&gt;science/number/1.md # [TODO] 线性...&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;线性代数：3B1B。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;li&gt;
+&lt;p&gt;OI wiki：数论、群论、博弈论、计算理论、线性规划&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;具体数学：微积分、数列进阶与提高。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;统计模型、概率分布。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新高考数学你真的掌握了吗 平面几何与三角函数.pdf P223 圆幂定理&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新高考数学你真的掌握了吗 函数.pdf 4.3 找点（三）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解析几何（第三版） (丘维声) (Z-Library).pdf P141 矩阵&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;```sh
+git submodule add https://github.com/raineblog/mkdocs-material material
+git submodule add https://github.com/raineblog/mkdocs-script script
+git submo...&lt;/p&gt;</description>
       <link>https://raineblog-whk.pages.dev/home/roadmap/</link>
       <pubDate>Thu, 12 Feb 2026 07:09:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -1843,8 +1855,8 @@ $$&lt;/p&gt;
       
       
       <description>&lt;h1&gt;导数与不等式&lt;/h1&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image.avif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-1.avif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;fimage.avif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;fimage-1.avif&#34;&gt;&lt;/p&gt;
 &lt;h2&gt;导数方法&lt;/h2&gt;
 &lt;h3&gt;不等式方法&lt;/h3&gt;
 &lt;p&gt;求证不等式的方法有几种，最简单的是：&lt;/p&gt;
@@ -1877,7 +1889,7 @@ $$&lt;/p&gt;
 &lt;p&gt;二次项系数含有参数且自变量没有限制时，临界条件是二次项系数为零与 $\Delta = 0$ 联立。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;二次项系数含参数且自变量有限制时，临界条件是二次项系数为零，$...&lt;/p&gt;
+&lt;p&gt;二次项系数含参数且自变量有限制时，临界条件是二次项系数为零...&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/function/4/</link>
@@ -1904,12 +1916,12 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>不等式基础知识</title>
+      <title>均值不等式</title>
       
       
       
       
-      <description>&lt;h1&gt;不等式基础知识&lt;/h1&gt;
+      <description>&lt;h1&gt;均值不等式&lt;/h1&gt;
 &lt;h2&gt;简单不等式&lt;/h2&gt;
 &lt;h3&gt;一般不等式&lt;/h3&gt;
 &lt;p&gt;糖水不等式：&lt;/p&gt;
@@ -1940,7 +1952,7 @@ $$&lt;/p&gt;
 &lt;li&gt;‌$a=b\Rightarrow b=a$（对称性）&lt;/li&gt;
 &lt;li&gt;$a=b,b=c\Rightarrow a=c$（传递性）&lt;/li&gt;
 &lt;li&gt;$a=b\Rightarrow a\pm c=b\pm c,ac=bc,\frac{a}{c}=\frac{b}{c}$（$c\neq 0$）（替代性）&lt;/li&gt;
-&lt;li&gt;替代性：如果两个对象相等，那么在任何出现它...&lt;/li&gt;
+&lt;li&gt;替代性：如果两个对象相等，那么在任何出现它们的...&lt;/li&gt;
 &lt;/ul&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/function/3/</link>
       <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
