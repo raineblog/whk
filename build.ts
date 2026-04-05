@@ -486,7 +486,11 @@ async function processHtml(dir: string): Promise<{ count: number; errors: string
       batch.map(async (htmlFile) => {
         const content = await file(htmlFile).text();
         const posthtmlResult = await posthtml(posthtml_plugins).process(content, { sync: false });
-        const minified = await htmlMinify(posthtmlResult.html, htmlMinOptions);
+        let minified = await htmlMinify(posthtmlResult.html, htmlMinOptions);
+        // 强制确保 HTML5 doctype 存在
+        if (!minified.toLowerCase().startsWith("<!doctype html>")) {
+          minified = "<!DOCTYPE html>" + minified.replace(/^<html[\s>]/i, "<html>");
+        }
         await Bun.write(htmlFile, minified);
       })
     );
