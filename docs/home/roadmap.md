@@ -20,26 +20,9 @@
 
 ## 数学
 
-- 目录
-
-    - science/function/5.md # [TODO] 微积分
-    - science/polynomial/1.md # [TODO] 多项式入门
-    - science/polynomial/2.md # [TODO] 多项式科技
-    - science/polynomial/5.md # [TODO] 不等式进阶
-    - science/sequence/3.md # [TODO] 数列进阶
-    - science/probability/1.md # [TODO] 统计模型
-    - science/probability/4.md # [TODO] 概率分布
-    - science/number/1.md # [TODO] 线性规划
-    - science/number/2.md # [TODO] 计算理论
-    - science/number/3.md # [TODO] 数论入门
-    - science/number/4.md # [TODO] 数论测试
-    - science/geometry/2.md # [TODO] [圆幂定理] 直线和圆
-    - science/geometry/5.md # [TODO] 线性代数
-    - science/solid/2.md # [todo] 空间向量
-
 - 线性代数：3B1B。
 
-- OI wiki：数论、群论、博弈论、计算理论、线性规划、序理论、置换与排列。
+- OI wiki：数论、群论、博弈论、计算理论、线性规划
 
 - 具体数学：微积分、数列进阶与提高。
 
