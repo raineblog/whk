@@ -236,7 +236,7 @@ node scripts/skills/read/file_headings.js docs/your-file.md
 
 本项目采用双重许可：
 
-- **内容许可**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+- **内容许可**: [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
 - **代码许可**: [MIT License](LICENSE)
 
 ## 🙏 致谢
