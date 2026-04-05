@@ -8,7 +8,7 @@
 
 从另一个角度思考，也可以认为是知道起点、终点，就可以唯一的确定一个有向线段。
 
-一个有向线段由其两个端点表示，记为 AB 或 a，同时我们记其长度，称为**向量的模**。
+一个有向线段由其两个端点表示，记为 \\overrightarrow{AB} 或 \\bm{a}，同时我们记其长度，称为**向量的模**。
 
 ### 向量
 
@@ -48,23 +48,23 @@
 
 那么我们就得出了向量的几何意义，即向量 (a,b) 表示向右走 a、向上走 b 的位移。
 
-已知两点 A(a,b),B(c,d)，易证 AB=(c−a,d−b)。
+已知两点 A(a,b),B(c,d)，易证 \\overrightarrow{AB}=(c-a,d-b)。
 
 ### 向量的模
 
-对于一个向量 a，有向线段 a 的长度称为向量的模，即为这个向量的大小。
+对于一个向量 \\vec a，有向线段 \\vec a 的长度称为向量的模，即为这个向量的大小。
 
-符号表示为 ∣a∣ 或 ∣AB∣ ，根据勾股定理，我们知道 ∣a∣=∣(x,y)∣=x2+y2​。
+符号表示为 |\\bm a| 或 |\\overrightarrow{AB}| ，根据勾股定理，我们知道 |\\vec a|=|(x,y)|=\\sqrt{x^2+y^2}。
 
 ### 特殊的向量
 
-**零向量**：模为 0 的向量，零向量的方向任意（不过其实是无意义）。一般记为：0。
+**零向量**：模为 0 的向量，零向量的方向任意（不过其实是无意义）。一般记为：\\vec 0。
 
-**单位向量**：模为 1 的向量称为单位向量。一般记为 e，最常见的单位向量就是基向量。
+**单位向量**：模为 1 的向量称为单位向量。一般记为 \\bm e，最常见的单位向量就是基向量。
 
-**基向量**：i=(1,0) 表示 x 方向的单位向量，j=(0,1) 表示 y 方向的单位向量。
+**基向量**：\\bm i=(1,0) 表示 x 方向的单位向量，\\bm j=(0,1) 表示 y 方向的单位向量。
 
-**平行向量**：方向相同或相反的两个非零向量，规定零向量与任何向量平行。记作： x∥y。
+**平行向量**：方向相同或相反的两个非零向量，规定零向量与任何向量平行。记作： \\bm x\\parallel\\bm y。
 
 **共线向量**：任一组平行向量都可以平移到同一直线上，所以平行向量又叫共线向量。
 
@@ -72,36 +72,36 @@
 
 ### 斜坐标系
 
-我们称 x 轴与 y 轴的角度为 θ(θ=π/2) 的坐标系。
+我们称 x 轴与 y 轴的角度为 \\theta(\\theta\\neq\\pi/2) 的坐标系。
 
-定义平面直角坐标系中的点 P(x,y)，将 P 转移到斜坐标系中变成 P′(x′,y′) 满足：
+定义平面直角坐标系中的点 P(x,y)，将 P 转移到斜坐标系中变成 P'(x',y') 满足：
 
-{x′=x+ycosθy′=ysinθ​
+\\begin{cases} x'=x+y\\cos\\theta\\ y'=y\\sin\\theta \\end{cases}
 
-⎩⎨⎧​x=x′−tanθy′​y=sinθy′​​
+\\begin{cases} x=x'-\\dfrac{y'}{\\tan\\theta}\\ y=\\dfrac{y'}{\\sin\\theta} \\end{cases}
 
 于是我们可以把平面向量在平面直角坐标系中的一些运算迁移到斜坐标系中：
 
-- 数量积：(x1′​,y1′​)⋅(x2′​,y2′​)=x1​x2​+y1​y2​+(x1​y2​+x2​y1​)cosθ。
-- 模长：a=(x′,y′),∣a∣=x2+y2+2xycosθ​。
-- 夹角：a=(x1′​,y1′​),b=(x2′​,y2′​),cosγ=∣a∣∣b∣a⋅b​。
+- 数量积：(x_1',y_1')\\cdot(x_2',y_2')=x_1x_2+y_1y_2+(x_1y_2+x_2y_1)\\cos\\theta。
+- 模长：\\overrightarrow{a}=(x',y'),|\\overrightarrow{a}|=\\sqrt{x^2+y^2+2xy\\cos\\theta}。
+- 夹角：\\displaystyle\\overrightarrow{a}=(x_1',y_1'),\\overrightarrow{b}=(x_2',y_2'),\\cos\\gamma=\\frac{\\overrightarrow{a}\\cdot\\overrightarrow{b}}{|\\overrightarrow{a}||\\overrightarrow{b}|}。
 
 ## 向量的线性运算
 
 ### 向量数乘
 
-我们规定实数 λ 与向量 a 的积为一个向量，称为向量的数乘运算，记作 λa。
+我们规定实数 \\lambda 与向量 \\bm a 的积为一个向量，称为向量的数乘运算，记作 \\lambda\\vec a。
 
-我们定义 λa=λ(x,y)=(λx,λy)。据此，我们可以得出以下向量数乘常用的结论：
+我们定义 \\lambda\\bm a=\\lambda(x,y)=(\\lambda x,\\lambda y)。据此，我们可以得出以下向量数乘常用的结论：
 
-- |*λ***a**| = |*λ*||**a**|；
-- 当 *λ* > 0 时，*λ***a** 与 **a** 同向；
-- 当 *λ* = 0 时，$\\lambda \\bm a=\\vec 0$；
-- 当 *λ* \< 0 时，*λ***a** 与 **a** 方向相反。
+- |\\lambda\\bm a|=|\\lambda||\\bm a|；
+- 当 \\lambda >0 时，\\lambda\\bm a 与 \\bm a 同向；
+- 当 \\lambda =0 时，\\lambda \\bm a=\\vec 0；
+- 当 \\lambda\<0 时，\\lambda \\bm a 与 \\bm a 方向相反。
 
 根据数乘的定义，可以得出向量的数乘满足交换律、结合律、分配律等，即，
 
-λ(μa)=(λμ)aλ(a+b)=λa+λb(λ+μ)a=λa+μa(−λ)a=−(λa)=λ(−a)
+\\lambda(\\mu\\bm a)=(\\lambda\\mu)\\bm a\\ \\lambda(\\bm a+\\bm b)=\\lambda\\bm a+\\lambda\\bm b\\ (\\lambda+\\mu)\\bm a=\\lambda\\bm a+\\mu\\bm a\\ (-\\lambda)\\bm a=-(\\lambda\\bm a)=\\lambda(-\\bm a)
 
 ### 向量加法
 
@@ -111,9 +111,9 @@
 
 类比物理中的位移，从 A 经 B 到 C，那么经过的位移等价于直接从 A 到 C。
 
-符号表示即：AB+BC=AC，其实这个也就是三角形法则所表述的。
+符号表示即：\\overrightarrow{AB}+\\overrightarrow{BC}=\\overrightarrow{AC}，其实这个也就是三角形法则所表述的。
 
-向量减法类似：OA−OB=OA+BO=BA，后面用到了交换律。
+向量减法类似：\\overrightarrow{OA}-\\overrightarrow{OB}=\\overrightarrow{OA}+\\overrightarrow{BO}=\\overrightarrow{BA}，后面用到了交换律。
 
 同时，注意到力的合成法则（平行四边形法则），同样也可以看做向量的相加。
 
@@ -129,39 +129,39 @@
 
 然后从几何的角度可以推出一些公式，其中三角形法则的公式比较简单，如下：
 
-(x1​,y1​)+(x2​,y2​)=(x1​+x2​,y1​+y2​)
+(x_1,y_1)+(x_2,y_2)=(x_1+x_2,y_1+y_2)
 
 向量加法满足结合律和交换律，画图理解即可。
 
 向量加法可以导出三角形不等式，
 
-∣∣a∣−∣b∣∣≤∣a+b∣≤∣a∣+∣b∣
+||\\bm a|-|\\bm b||\\le|\\bm a+\\bm b|\\le|\\bm a|+|\\bm b|
 
 当且仅当两向量方向相同（注意不是平行），取等。
 
 ### 线段中点
 
-设 A(x1​,y1​)、B(x2​,y2​) 为一平面内两点。
+设 A(x_1,y_1)、B(x_2,y_2) 为一平面内两点。
 
-设 C(x,y) 为线段 AB 中点，则 AC=CB：
+设 C(x,y) 为线段 AB 中点，则 \\overrightarrow{AC}=\\overrightarrow{CB}：
 
-x−x1​=x2​−xy−y1​=y2​−y
+x-x_1=x_2-x\\ y-y_1=y_2-y
 
 最终解得，
 
-C(2x1​+x2​​,2y1​+y2​​)
+C\\left({x_1+x_2\\over2},{y_1+y_2\\over2}\\right)
 
 即中点坐标。
 
 ### 线段长度
 
-设 A(x1​,y1​)、B(x2​,y2​) 为一平面内两点，则，
+设 A(x_1,y_1)、B(x_2,y_2) 为一平面内两点，则，
 
-∣AB∣=AB⋅AB​=(x1​−x2​)2+(y1​−y2​)2​
+|\\overrightarrow{AB}|=\\sqrt{\\overrightarrow{AB}\\cdot\\overrightarrow{AB}}=\\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}
 
 则线段 AB，
 
-∣AB∣=∣AB∣=(x1​−x2​)2+(y1​−y2​)2​
+|AB|=|\\overrightarrow{AB}|=\\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}
 
 即线段长度。
 
@@ -186,115 +186,115 @@ C(2x1​+x2​​,2y1​+y2​​)
 
 提示：点积的概念对于任意维数的向量都适用。
 
-已知两个向量 a,b ，它们的夹角为 θ，那么这两个向量的点积为：
+已知两个向量 \\bm a,\\bm b ，它们的夹角为 \\theta，那么这两个向量的点积为：
 
-a⋅b=∣a∣∣b∣cosθ
+\\bm a \\cdot \\bm b=|\\bm a||\\bm b|\\cos \\theta
 
-- 其中，我们称 ∣a∣cosθ 为 a 在 b 方向上的投影。
+- 其中，我们称 |\\bm a|\\cos \\theta 为 \\bm a 在 \\bm b 方向上的投影。
 
-  ∣a∣cosθ=∣b∣a⋅b​
+  |\\bm a|\\cos\\theta=\\dfrac{\\bm a\\cdot\\bm b}{|\\bm b|}
 
-  而投影向量需要再乘上 b 方向的单位向量：
+  而投影向量需要再乘上 \\bm b 方向的单位向量：
 
-  ∣b∣2a⋅b​b
+  \\dfrac{\\bm a\\cdot\\bm b}{|\\bm b|^2}\\bm b
 
-- 其中，θ∈[0,π]，但是直线的夹角 θ∈\[0,π)，因为相反向量是完全不同的。
+- 其中，\\theta\\in[0,\\pi]，但是直线的夹角 \\theta\\in\[0,\\pi)，因为相反向量是完全不同的。
 
-点积的几何意义即为：点积 a⋅b 等于 a 的模与 b 在 a 方向上的投影的乘积。
+点积的几何意义即为：点积 \\bm a \\cdot \\bm b 等于 \\bm a 的模与 \\bm b 在 \\bm a 方向上的投影的乘积。
 
 另外，我们定义向量点积数值上表示为（简记为先相乘再相加）：
 
-(x1​,y1​)⋅(x2​,y2​)=x1​x2​+y1​y2​
+(x_1,y_1)\\cdot(x_2,y_2)=x_1x_2+y_1y_2
 
 可以发现，这种运算得到的结果是一个标量，并不属于向量的线性运算。
 
-向量与零向量点积，结果为 0。在不引起混淆的情况下，点积的点号可以省略不写。
+向量与零向量点积，结果为 \\vec0。在不引起混淆的情况下，点积的点号可以省略不写。
 
 ### 点积的性质
 
 向量点乘满足交换律：
 
-a⋅b=b⋅a=∣a∣⋅∣b∣⋅cosθ
+\\bm a\\cdot\\bm b=\\bm b\\cdot\\bm a=|\\bm a|\\cdot|\\bm b|\\cdot\\cos\\theta
 
 向量点乘对数乘有结合律：
 
-(λa)⋅b=λ(a⋅b)=a⋅(λb)
+(\\lambda\\bm a)\\cdot\\bm b=\\lambda(\\bm a\\cdot\\bm b)=\\bm a\\cdot(\\lambda\\bm b)
 
 向量点乘对向量加法有分配率：
 
-(a+b)⋅c=a⋅c+b⋅c
+(\\bm a+\\bm b)\\cdot\\bm c=\\bm a\\cdot\\bm c+\\bm b\\cdot\\bm c
 
 但是向量点乘不满足结合律，
 
-(a⋅b)⋅c=a⋅(b⋅c)
+(\\bm a\\cdot\\bm b)\\cdot\\bm c\\neq\\bm a\\cdot(\\bm b\\cdot\\bm c)
 
 注意到向量运算具有大部分的数字运算的性质（除了除法），因此可以当做字母计算。
 
-可以得到，若 b=c，a⋅b=a⋅c 的充要条件是 a⊥(b−c)，
+可以得到，若 \\bm b\\neq\\bm c，\\bm a\\cdot\\bm b=\\bm a\\cdot\\bm c 的充要条件是 \\bm a\\perp(\\bm b-\\bm c)，
 
-a⋅b=a⋅ca⋅(b−c)=0
+\\bm a\\cdot\\bm b=\\bm a\\cdot\\bm c\\ \\bm a\\cdot(\\bm b-\\bm c)=\\vec0
 
 即，
 
-a⊥(b−c)
+\\bm a\\perp(\\bm b-\\bm c)
 
 我们可以发现，
 
-∣a+b∣2−∣a−b∣2=4a⋅ba⋅b=41​(∣a+b∣2−∣a−b∣2)
+|\\bm a+\\bm b|^2-|\\bm a-\\bm b|^2=4\\bm a\\cdot\\bm b\\ \\bm a\\cdot\\bm b={1\\over4}\\left(|\\bm a+\\bm b|^2-|\\bm a-\\bm b|^2\\right)
 
 即极化恒等式，我们可以不通过求夹角的方式得出两向量点积。
 
 同时，常用的，
 
-∣a+b∣(a+b)⋅(a+b)∣a∣2+2a⋅b+∣b∣2​=λ=λ2=λ2​
+\\begin{aligned} |\\bm a+\\bm b|&=\\lambda\\ (\\bm a+\\bm b)\\cdot(\\bm a+\\bm b)&=\\lambda^2\\ |\\bm a|^2+2\\bm a\\cdot\\bm b+|\\bm b|^2&=\\lambda^2 \\end{aligned}
 
 即，
 
-∣a∣2+2a⋅b+∣b∣2=∣a+b∣2a⋅b=21​(∣a+b∣2−∣a∣2−∣b∣2)
+|\\bm a|^2+2\\bm a\\cdot\\bm b+|\\bm b|^2=|\\bm a+\\bm b|^2\\ \\bm a\\cdot\\bm b={1\\over2}\\left(|\\bm a+\\bm b|^2-|\\bm a|^2-|\\bm b|^2\\right)\\
 
 总结一下，上面两个式子，
 
-a⋅b=41​(∣a+b∣2−∣a−b∣2)a⋅b=21​(∣a+b∣2−∣a∣2−∣b∣2)
+\\bm a\\cdot\\bm b={1\\over4}\\left(|\\bm a+\\bm b|^2-|\\bm a-\\bm b|^2\\right)\\ \\bm a\\cdot\\bm b={1\\over2}\\left(|\\bm a+\\bm b|^2-|\\bm a|^2-|\\bm b|^2\\right)\\
 
 再结合点乘的定义，
 
-a⋅b=∣a∣⋅∣b∣⋅cosθcosθ=∣a∣⋅∣b∣a⋅b​
+\\bm a\\cdot\\bm b=|\\bm a|\\cdot|\\bm b|\\cdot\\cos\\theta\\ \\cos\\theta={\\bm a\\cdot\\bm b\\over|\\bm a|\\cdot|\\bm b|}
 
 就可以求出向量夹角。
 
 特殊的，
 
-θ=0(cosθ=1),a⋅b=∣a∣⋅∣b∣θ=π(cosθ=−1),a⋅b=−∣a∣⋅∣b∣θ=π/2(cosθ=0),a⋅b=0a⋅a=∣a∣2,∣a∣=a⋅a​
+\\theta=0(\\cos\\theta=1),\\bm a\\cdot\\bm b=|\\bm a|\\cdot|\\bm b|\\ \\theta=\\pi(\\cos\\theta=-1),\\bm a\\cdot\\bm b=-|\\bm a|\\cdot|\\bm b|\\ \\theta=\\pi/2(\\cos\\theta=0),\\bm a\\cdot\\bm b=0\\ \\bm a\\cdot\\bm a=|\\bm a|^2,|\\bm a|=\\sqrt{\\bm a\\cdot\\bm a}\\
 
 经典的套路是，见模长便平方。
 
 其中，第三条即，垂直向量向量点积等于零。
 
-根据 cos90∘=0，a⊥b⟺a⋅b=0。
+根据 \\cos 90^\\circ=0，\\bm a \\perp \\bm b \\iff \\bm a\\cdot \\bm b=0。
 
 ### 柯西不等式
 
-∣a⋅b∣≤∣a∣⋅∣b∣
+|\\bm a\\cdot\\bm b|\\le|\\bm a|\\cdot|\\bm b|
 
 当且仅当两向量共线，取等。
 
 据此，可以判断两向量共线：
 
-两个非零向量 a 与 b 共线，等价于，有唯一实数 λ，使得 b=λa。
+两个非零向量 \\bm a 与 \\bm b 共线，等价于，有唯一实数 \\lambda，使得 \\bm b=\\lambda \\bm a。
 
-由数乘的定义知，对于非零向量 a，如果存在实数 λ，使得 b=λa，那么 a∥b。
+由数乘的定义知，对于非零向量 \\bm a，如果存在实数 \\lambda，使得 \\bm b=\\lambda \\bm a，那么 \\bm a \\parallel \\bm b。
 
-数值上，有判别式 a=λb⟺∣a⋅b∣=∣a∣∣b∣。
+数值上，有判别式 \\bm a = \\lambda \\bm b \\iff |\\bm a\\cdot \\bm b|=|\\bm a||\\bm b|。
 
 ### 极化恒等式
 
-对于任意平面向量 a,b 有：
+对于任意平面向量 \\vec a,\\vec b 有：
 
-4a⋅b=(a+b)2−(a−b)2
+4\\vec a\\cdot\\vec b=(\\vec a+\\vec b)^2-(\\vec a-\\vec b)^2
 
 常见形式为：
 
-PA⋅PB=∣PM∣2−41​∣AB∣2
+\\vecc{PA}\\cdot\\vecc{PB}=|PM|^2-\\dfrac{1}{4}|AB|^2
 
 其中 M 为 AB 中点。
 
@@ -302,37 +302,37 @@ PA⋅PB=∣PM∣2−41​∣AB∣2
 
 ### 平面向量基本定理
 
-若基底 e1​,e2​ 不共线，则对于平面内任一向量 a，存在唯一实数 x,y 使得 a=xe1​+ye2​。
+若基底 \\bm e_1,\\bm e_2 不共线，则对于平面内任一向量 \\bm a，存在唯一实数 x,y 使得 \\bm a=x\\bm e_1+y\\bm e_2。
 
 形式化的，平面内的任一向量都可以唯一的表示为两个不共线向量的线性组合。
 
 存在性的证明：感性理解（雾
 
-唯一性的证明，反证：假设存在两组实数 ⟨x1​,y1​⟩、⟨x2​,y2​⟩，
+唯一性的证明，反证：假设存在两组实数 \\langle x_1,y_1\\rangle、\\langle x_2,y_2\\rangle，
 
-a=x1​e1​+y1​e2​=x2​e1​+y2​e2​e1​(x1​−x2​)=e2​(y2​−y1​)
+\\bm a=x_1\\bm e_1+y_1\\bm e_2=x_2\\bm e_1+y_2\\bm e_2\\ \\bm e_1(x_1-x_2)=\\bm e_2(y_2-y_1)
 
-因为 x1​=x2​,y1​=y2​，则 e1​,e2​ 共线，与条件不符，因此存在唯一性。
+因为 x_1\\neq x_2,y_1\\neq y_2，则 \\bm e_1,\\bm e_2 共线，与条件不符，因此存在唯一性。
 
 考虑构造性的证明，
 
 若，
 
-a⋅e1​=a1​,a⋅e2​=a2​⟨e1​,e2​⟩=θ
+\\bm a\\cdot\\bm e_1=a_1,\\bm a\\cdot\\bm e_2=a_2\\ \\langle\\bm e_1,\\bm e_2\\rangle=\\theta
 
-设，a=xe1​+ye2​，用 a1​,a2​,θ 表示 a。
+设，\\bm a=x\\bm e_1+y\\bm e_2，用 a_1,a_2,\\theta 表示 \\bm a。
 
 考虑，
 
-e1​e2​=cosθa⋅e1​=x+ye1​e2​=a1​a⋅e2​=y+xe1​e2​=a2​
+\\bm e_1\\bm e_2=\\cos\\theta\\ \\bm a\\cdot\\bm e_1=x+y\\bm e_1\\bm e_2=a_1\\ \\bm a\\cdot\\bm e_2=y+x\\bm e_1\\bm e_2=a_2
 
 列出方程组，
 
-{x+ycosθ=a1​y+xcosθ=a2​​
+\\begin{cases} x+y\\cos\\theta=a_1\\ y+x\\cos\\theta=a_2 \\end{cases}
 
 解得，
 
-⎩⎨⎧​x=sin2θa1​−a2​cosθ​y=sin2θa2​−a1​cosθ​​
+\\left{\\begin{aligned} x={a_1-a_2\\cos\\theta\\over\\sin^2\\theta}\\ y={a_2-a_1\\cos\\theta\\over\\sin^2\\theta} \\end{aligned}\\right.
 
 这个思想很重要，常用一个很奇怪的式子，去点乘两个不共线向量。
 
@@ -340,17 +340,17 @@ e1​e2​=cosθa⋅e1​=x+ye1​e2​=a1​a⋅e2​=y+xe1​e2​=a2​
 
 对于线段 AB 及一点 Q，若存在一点 O 满足，
 
-OQ​=λOA+(1−λ)OB
+\\overrightarrow{OQ}=\\lambda\\overrightarrow{OA}+(1-\\lambda)\\overrightarrow{OB}
 
 则 Q 在直线 AB 上，即 A,B,Q 三点共线。
 
 证明如下：
 
-AQ​OQ​−OA​=λAB=λ(OB−OA)​
+\\begin{aligned} \\vecc{AQ}&=\\lambda\\vecc{AB}\\ \\vecc{OQ}-\\vecc{OA}&=\\lambda(\\vecc{OB}-\\vecc{OA}) \\end{aligned}
 
 类似的，若 C 是线段 AB 中点，则对于任意一点 O，有，
 
-OC=21​OA+21​OB
+\\overrightarrow{OC}={1\\over2}\\overrightarrow{OA}+{1\\over2}\\overrightarrow{OB}
 
 而坐标表示，(a,b) 与 (c,d) 平行，等价于 ad=bc。
 

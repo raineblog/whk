@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Sun, 05 Apr 2026 09:00:17 -0000</pubDate>
-    <lastBuildDate>Sun, 05 Apr 2026 09:00:17 -0000</lastBuildDate>
+    <pubDate>Sun, 05 Apr 2026 09:33:07 -0000</pubDate>
+    <lastBuildDate>Sun, 05 Apr 2026 09:33:07 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,85 @@
     
 
     
+    
+    <item>
+      <title>组合数学</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;组合数学&lt;/h1&gt;
+&lt;p&gt;传说早在 $\texttt{114514}$ 年前，&lt;br&gt;一位名为忆哀的神灵来到地球，&lt;br&gt;发现了人类——另一种有智慧的物种。&lt;/p&gt;
+&lt;p&gt;她觉得这很有趣，为了加速人类文明的发展，&lt;br&gt;她向人间传下了一类计数问题——十二重计数，&lt;br&gt;这也正是组合数学的开端。&lt;/p&gt;
+&lt;p&gt;而只有搞明白这类问题，才能在组合数学上继续深入。&lt;/p&gt;
+&lt;/center&gt;
+&lt;h2&gt;基本原理&lt;/h2&gt;
+&lt;p&gt;求证不等式的方法有几种，最简单的是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;设函数，证明函数恒大于或小于零。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;直接对函数求导，尝试证明函数最小值大于零，或最大值小于零。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;注意到多项式只要求够多次数多导数，一定会变为零，因此如果不好解决，继续求导，对高阶导数尝试分析其是否恒正或恒负。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注意：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;解一元一次不等式 $ax&amp;gt;b$，需要按照 $a&amp;gt;0,a=0,a&amp;lt;0$ 分类讨论。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解一元一次不等式 $ax&amp;gt;b$，其中 $x\in[m,n]$，先按照 $a&amp;gt;0,a=0,a&amp;lt;0$ 分类讨论，然后按照 $\dfrac{b}{a}$ 是否落在区间 $[m,n]$ 内。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;边界条件：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;二次项系数不含参数且自变量没有限制时，临界条件是 $...&lt;/li&gt;
+&lt;/ol&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/polynomial/5/</link>
+      <pubDate>Sun, 05 Apr 2026 09:32:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/polynomial/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/5/</guid>
+      
+    </item>
+    
+    <item>
+      <title>多项式组合</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;多项式组合&lt;/h1&gt;
+&lt;h2&gt;其他组合数&lt;/h2&gt;
+&lt;p&gt;在掌握了二项式定理和基本组合恒等式之后，我们来学习几种进阶的计数方法和原理。它们在竞赛数学和离散数学中有广泛应用。&lt;/p&gt;
+&lt;h3&gt;多重集&lt;/h3&gt;
+&lt;p&gt;多重集（或称可重集）是集合概念的推广。在普通集合中，相同的元素只能出现一次，因此只能表现出「有或无」的属性；而在多重集中，同一个元素可以出现多次，因此可以表现出元素的个数。&lt;/p&gt;
+&lt;p&gt;我们将其表示为：&lt;/p&gt;
+&lt;p&gt;$$
+{a_1,a_1,\dots,a_1,a_2,\dots}
+$$&lt;/p&gt;
+&lt;p&gt;为简便起见，下文采用如下简记法：&lt;/p&gt;
+&lt;p&gt;$$
+{n_1\cdot a_1,n_2\cdot a_2,\dots}
+$$&lt;/p&gt;
+&lt;p&gt;多重集 $S={n_1\cdot a_1,n_2\cdot a_2,\cdots,n_k\cdot a_k}$ 的全排列个数为：&lt;/p&gt;
+&lt;p&gt;$$
+{n\choose n_1,n_2,\dots,n_k}={n!\over\prod_{1\le i\le k}n_i!}
+$$&lt;/p&gt;
+&lt;p&gt;这个全排列数被称为&lt;strong&gt;多重集的排列数&lt;/strong&gt;，也常被称为&lt;strong&gt;多重组合数&lt;/strong&gt;。容易注意到：&lt;/p&gt;
+&lt;p&gt;$$
+{m\choose n_1,n_2}={m\choose...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/polynomial/6/</link>
+      <pubDate>Sun, 05 Apr 2026 09:32:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/polynomial/6/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/6/</guid>
+      
+    </item>
     
     <item>
       <title>均值不等式</title>
@@ -367,85 +446,6 @@ a^3-b^3&amp;amp;=(...&lt;/p&gt;</description>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/polynomial/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/4/</guid>
-      
-    </item>
-    
-    <item>
-      <title>组合数学</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;组合数学&lt;/h1&gt;
-&lt;p&gt;传说早在 $\texttt{114514}$ 年前，&lt;br&gt;一位名为忆哀的神灵来到地球，&lt;br&gt;发现了人类——另一种有智慧的物种。&lt;/p&gt;
-&lt;p&gt;她觉得这很有趣，为了加速人类文明的发展，&lt;br&gt;她向人间传下了一类计数问题——十二重计数，&lt;br&gt;这也正是组合数学的开端。&lt;/p&gt;
-&lt;p&gt;而只有搞明白这类问题，才能在组合数学上继续深入。&lt;/p&gt;
-&lt;/center&gt;
-&lt;h2&gt;基本原理&lt;/h2&gt;
-&lt;p&gt;求证不等式的方法有几种，最简单的是：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;设函数，证明函数恒大于或小于零。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;直接对函数求导，尝试证明函数最小值大于零，或最大值小于零。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;注意到多项式只要求够多次数多导数，一定会变为零，因此如果不好解决，继续求导，对高阶导数尝试分析其是否恒正或恒负。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;注意：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;解一元一次不等式 $ax&amp;gt;b$，需要按照 $a&amp;gt;0,a=0,a&amp;lt;0$ 分类讨论。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;解一元一次不等式 $ax&amp;gt;b$，其中 $x\in[m,n]$，先按照 $a&amp;gt;0,a=0,a&amp;lt;0$ 分类讨论，然后按照 $\dfrac{b}{a}$ 是否落在区间 $[m,n]$ 内。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;边界条件：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;二次项系数不含参数且自变量没有限制时，临界条件是 $...&lt;/li&gt;
-&lt;/ol&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/polynomial/5/</link>
-      <pubDate>Sun, 05 Apr 2026 08:55:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/polynomial/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/5/</guid>
-      
-    </item>
-    
-    <item>
-      <title>多项式组合</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;多项式组合&lt;/h1&gt;
-&lt;h2&gt;其他组合数&lt;/h2&gt;
-&lt;p&gt;在掌握了二项式定理和基本组合恒等式之后，我们来学习几种进阶的计数方法和原理。它们在竞赛数学和离散数学中有广泛应用。&lt;/p&gt;
-&lt;h3&gt;多重集&lt;/h3&gt;
-&lt;p&gt;多重集（或称可重集）是集合概念的推广。在普通集合中，相同的元素只能出现一次，因此只能表现出「有或无」的属性；而在多重集中，同一个元素可以出现多次，因此可以表现出元素的个数。&lt;/p&gt;
-&lt;p&gt;我们将其表示为：&lt;/p&gt;
-&lt;p&gt;$$
-{a_1,a_1,\dots,a_1,a_2,\dots}
-$$&lt;/p&gt;
-&lt;p&gt;为简便起见，下文采用如下简记法：&lt;/p&gt;
-&lt;p&gt;$$
-{n_1\cdot a_1,n_2\cdot a_2,\dots}
-$$&lt;/p&gt;
-&lt;p&gt;多重集 $S={n_1\cdot a_1,n_2\cdot a_2,\cdots,n_k\cdot a_k}$ 的全排列个数为：&lt;/p&gt;
-&lt;p&gt;$$
-{n\choose n_1,n_2,\dots,n_k}={n!\over\prod_{1\le i\le k}n_i!}
-$$&lt;/p&gt;
-&lt;p&gt;这个全排列数被称为&lt;strong&gt;多重集的排列数&lt;/strong&gt;，也常被称为&lt;strong&gt;多重组合数&lt;/strong&gt;。容易注意到：&lt;/p&gt;
-&lt;p&gt;$$
-{m\choose n_1,n_2}={m\choose...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/polynomial/6/</link>
-      <pubDate>Sun, 05 Apr 2026 08:55:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/polynomial/6/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/6/</guid>
       
     </item>
     

@@ -8,7 +8,7 @@
 
 特点：瞬时速度方向等于轨迹切线方向，证明：
 
-vx​vy​​=dtdy​⋅dxdt​=dxdy​
+\\dfrac{v_y}{v_x}=\\dfrac{\\d y}{\\d t}\\cdot\\dfrac{\\d t}{\\d x}=\\dfrac{\\d y}{\\d x}
 
 合速度加在 a,v 之间，向 a 靠拢，但不会和 a 共线。
 
@@ -66,13 +66,13 @@ vx​vy​​=dtdy​⋅dxdt​=dxdy​
 
 在讨论轨道方程时，通常先写出轨道方程，再消去 t 得到，正如我们上面的两个推导过程。
 
-1. 显而易见，在 v0​,θ 确定的情况下，抛射体运动的轨道方程确定。
-1. 设抛射点为坐标原点，抛射初速度大小 v0​ 为已知值，而 (x,y) 为竖直抛射面内被击中的一定点，此时一般能解出两个 θ 值；其中 θ1​+θ2​=π/2+β，其中 β 为在抛射点所看到的点 (x,y) 的视角（∣β∣≤π/2）。
-1. 斜抛运动中，速度（切线）的反向延长线过水平位移中点。即速偏角 θ 正切等于位偏角 α 正切两倍。
+1. 显而易见，在 v_0,\\theta 确定的情况下，抛射体运动的轨道方程确定。
+1. 设抛射点为坐标原点，抛射初速度大小 v_0 为已知值，而 (x,y) 为竖直抛射面内被击中的一定点，此时一般能解出两个 \\theta 值；其中 \\theta_1+\\theta_2=\\pi/2+\\beta，其中 \\beta 为在抛射点所看到的点 (x,y) 的视角（|\\beta|\\le\\pi/2）。
+1. 斜抛运动中，速度（切线）的反向延长线过水平位移中点。即速偏角 \\theta 正切等于位偏角 \\alpha 正切两倍。
 
 轨迹方程：
 
-y=−2v02​g​x2
+y=-\\dfrac{g}{2v_0^2}x^2
 
 ### 水平斜抛
 
@@ -80,36 +80,36 @@ y=−2v02​g​x2
 
 即把一个曲线运动分解成两个直线运动的叠加来讨论。有两种分解方法：
 
-1. 速度为 v0​ 的匀速直线运动和沿竖直方向的自由落体运动。
+1. 速度为 v_0 的匀速直线运动和沿竖直方向的自由落体运动。
 1. 以抛射点为坐标原点，在抛射平面（竖直平面）内建立直角坐标系，再把方程中各矢量沿 x,y 方向分解。如果在抛射平面内分别取水平方向和竖直向上方向为 x,y 轴方向，那么抛体运动方程的分量形式为：
 
-​vx​=v0​cosθx=(v0​cosθ)t​​vy​=v0​sinθ−gty=(v0​sinθ)t−gt2/2​
+\\begin{aligned} &v_x=v_0\\cos\\theta&&\\kern{1em}v_y=v_0\\sin\\theta-gt\\[0.5em] &x=(v_0\\cos\\theta)t&&\\kern{1em}y=(v_0\\sin\\theta)t-gt^2/2 \\end{aligned}
 
 这表示，抛体运动可以看成：
 
-沿 x 方向的速度为 v0​cosθ 的匀速直线运动和沿 y 方向的初速为 v0​sinθ、加速度为 g 的匀变速直线运动。
+沿 x 方向的速度为 v_0\\cos\\theta 的匀速直线运动和沿 y 方向的初速为 v_0\\sin\\theta、加速度为 g 的匀变速直线运动。
 
 轨迹方程：
 
-y=−2v0x2​g​x2+v0x​v0y​​x
+y=-\\dfrac{g}{2v\_{0x}^2}x^2+\\dfrac{v\_{0y}}{v\_{0x}}x
 
-因为 v0x​=v0​cosθ,v0y​=v0​sinθ，因此：
+因为 v\_{0x}=v_0\\cos\\theta,v\_{0y}=v_0\\sin\\theta，因此：
 
-y=−2(v0​cosθ)2g​x2+tanθx
+y=-\\dfrac{g}{2(v_0\\cos\\theta)^2}x^2+\\tan\\theta x
 
 可得结论：
 
-H=2gv02​sin2θ​
+H=\\dfrac{v_0^2\\sin^2\\theta}{2g}
 
-L=gv02​sin2θ​
+L=\\dfrac{v_0^2\\sin2\\theta}{g}
 
 对这个式子，我们知道，若在原点以同一角度、不同初速度斜抛，则最高点一定在方程：
 
-y=1/2LH​x=21​tanθx
+y=\\dfrac{H}{1/2L}x=\\dfrac{1}{2}\\tan\\theta x
 
 上面，同时，我们取一个固定时间 t，横纵坐标关于初速度的直线方程：
 
-y=tanθx−21​gt2
+y=\\tan\\theta x-\\dfrac{1}{2}gt^2
 
 ### 斜面斜抛
 
@@ -117,7 +117,7 @@ y=tanθx−21​gt2
 
 此时 x,y 方向的运动均为匀变速直线运动，它们在 x,y 方向的分运动方程分别为：
 
-​vx​=v0​cosθ±(gsinφ)tx=(v0​cosθ)t±(gsinφ)t2/2​​vy​=v0​sinθ−(gcosφ)ty=(v0​sinθ)t−(gcosφ)t2/2​
+\\begin{aligned} &v_x=v_0\\cos\\theta\\pm(g\\sin\\varphi)t&&\\kern{1em}v_y=v_0\\sin\\theta-(g\\cos\\varphi)t\\[0.5em] &x=(v_0\\cos\\theta)t\\pm(g\\sin\\varphi)t^2/2&&\\kern{1em}y=(v_0\\sin\\theta)t-(g\\cos\\varphi)t^2/2 \\end{aligned}
 
 正号为斜面向下，负号为斜面向上，如图：
 
@@ -131,11 +131,11 @@ y=tanθx−21​gt2
 
 抛体运动的包络线方程，也称为安全抛物线，是描述在给定初速度下，所有可能抛物线轨迹的外边界。
 
-y=−2v02​g​x2+2gv02​​
+y=-\\dfrac{g}{2v_0^2}x^2+\\dfrac{v_0^2}{2g}
 
-其顶点为 2gv02​​。
+其顶点为 \\dfrac{v_0^2}{2g}。
 
-联立包络线方程和 y=−h 等可以直接得到很多好玩的东西。
+联立包络线方程和 y=-h 等可以直接得到很多好玩的东西。
 
 ### 斜抛运动矢量法
 
@@ -157,61 +157,61 @@ y=−2v02​g​x2+2gv02​​
 
 射程，可由 y=0 时的 x 求得，表示 t：
 
-t=gv0​sinθ±v0​sinθ​=g2v0​sinθ​
+t=\\dfrac{v_0\\sin\\theta\\pm v_0\\sin\\theta}{g}=\\dfrac{2v_0\\sin\\theta}{g}
 
 表示 L(x)，同时根据正弦函数二倍角公式，化简得：
 
-L=(v0​cosθ)t=gv02​×2sinθcosθ​=gv02​sin2θ​
+L=(v_0\\cos\\theta)t=\\dfrac{v_0^2\\times2\\sin\\theta\\cos\\theta}{g}=\\dfrac{v_0^2\\sin2\\theta}{g}
 
-易知，当 θ=π/4(45∘) 时 Lmax​=v02​/g。
+易知，当 \\theta=\\pi/4(45^\\circ) 时 L\_{\\mathit{max}}=v_0^2/g。
 
-最大高度，可由 vy​=0 时的 y 求得：
+最大高度，可由 v_y=0 时的 y 求得：
 
-t=gv0​sinθ​,H=2gv02​sin2θ​
+t=\\dfrac{v_0\\sin\\theta}{g},H=\\dfrac{v_0^2\\sin^2\\theta}{2g}
 
-易知，当 θ=π/2(90∘) 时 Hmax​=v02​/2g。
+易知，当 \\theta=\\pi/2(90^\\circ) 时 H\_{\\mathit{max}}=v_0^2/2g。
 
 #### 例题二
 
 如图 (b)，同理，小球在斜面上的射程：
 
-S=gcos2φ2v02​cos(θ+φ)sinθ​
+S=\\dfrac{2v_0^2\\cos(\\theta+\\varphi)\\sin\\theta}{g\\cos^2\\varphi}
 
 #### 例题三
 
-在距离墙面 x 处以 v0​ 的初速度抛出一小球，小球撞击墙面的最大高度：
+在距离墙面 x 处以 v_0 的初速度抛出一小球，小球撞击墙面的最大高度：
 
-Hmax​=2gv02​​−2v02​gx2​
+H\_{\\mathit{max}}=\\dfrac{v_0^2}{2g}-\\dfrac{gx^2}{2v_0^2}
 
 #### 例题四
 
-在距离水平面 h 处以 v0​ 的初速度抛出一小球，小球落到水平面的最大射程：
+在距离水平面 h 处以 v_0 的初速度抛出一小球，小球落到水平面的最大射程：
 
-Lmax​=gv0​​v02​+2gh​
+L\_{\\mathit{max}}=\\dfrac{v_0}{g}\\sqrt{v_0^2+2gh}
 
 抛射角：
 
-θ=cot(v02​−2gh​v0​​)
+\\theta=\\cot\\left(\\dfrac{v_0}{\\sqrt{v_0^2-2gh}}\\right)
 
 #### 例题五
 
-斜上抛物体到达最高点时速度为 v=24m/s，落地时速度为 vt​=30m/s，求：
+斜上抛物体到达最高点时速度为 v=24\\mathrm{m/s}，落地时速度为 v_t=30\\mathrm{m/s}，求：
 
 - 物体抛出时的速度的大小和方向；物体在空中的飞行时间；射高和水平射程。
 
 列出方程：
 
-​vx​=v0​cosθx=(v0​cosθ)t​​vy​=v0​sinθ−gty=(v0​sinθ)t−gt2/2​
+\\begin{aligned} &v_x=v_0\\cos\\theta&&\\kern{1em}v_y=v_0\\sin\\theta-gt\\ &x=(v_0\\cos\\theta)t&&\\kern{1em}y=(v_0\\sin\\theta)t-gt^2/2 \\end{aligned}
 
-由题意，vx​=24m/s；当 y=0 时，vx2​+vy2​=(30m/s)2，解得 vy​=18m/s。
+由题意，v_x=24\\mathrm{m/s}；当 y=0 时，v_x^2+v_y^2=(30\\mathrm{m/s})^2，解得 v_y=18\\mathrm{m/s}。
 
-根据对称性，抛出时速度 v0​=30m/s，夹角 θ=cot(vy​/vx​)=cot(3/4)=37∘。
+根据对称性，抛出时速度 v_0=30\\mathrm{m/s}，夹角 \\theta=\\cot(v_y/v_x)=\\cot(3/4)=37^\\circ。
 
-落地飞行时间，即 y=0 时的 t，则 t1​=0s,t2​=3.6s，其中 0 为抛出时（舍）。
+落地飞行时间，即 y=0 时的 t，则 t_1=0\\mathrm{s},t_2=3.6\\mathrm{s}，其中 0 为抛出时（舍）。
 
-射高，即 vy​=0 时的 y，即 y∣t=1.8s​=16.2m；射程，即 x∣t=3.6s​=86.4m。
+射高，即 v_y=0 时的 y，即 y|_{t=1.8\\mathrm{s}}=16.2\\mathrm{m}；射程，即 x|_{t=3.6\\mathrm{s}}=86.4\\mathrm{m}。
 
-即：初速度 30m/s(37∘)，飞行时间 3.6s，射高为 16.2m，射程为 86.4m。
+即：初速度 30\\mathrm{m/s}(37^\\circ)，飞行时间 3.6\\mathrm{s}，射高为 16.2\\mathrm{m}，射程为 86.4\\mathrm{m}。
 
 #### 例题六
 
@@ -219,38 +219,38 @@ Lmax​=gv0​​v02​+2gh​
 
 形式化题面：
 
-一个可以视为质点的小球在 (x0​,y0​) 沿 x 轴负方向以一初速度抛出，忽略阻力。
+一个可以视为质点的小球在 (x_0,y_0) 沿 x 轴负方向以一初速度抛出，忽略阻力。
 
-给定该小球落到原点 (0,0) 时的瞬时速度 v 及该速度与法线的夹角 θ，求 (x0​,y0​)。
+给定该小球落到原点 (0,0) 时的瞬时速度 v 及该速度与法线的夹角 \\theta，求 (x_0,y_0)。
 
-给定速度单位为 m/s，角度单位为 rad，重力加速度取 g=10m/s2。
+给定速度单位为 \\mathrm{m/s}，角度单位为 \\mathrm{rad}，重力加速度取 g=10\\mathrm{m/s^2}。
 
 考虑将末速度正交分解：
 
-{vx​vy​​=vsinθ=vcosθ​
+\\left{\\begin{aligned} v_x&=v\\sin\\theta\\ v_y&=v\\cos\\theta \\end{aligned}\\right.
 
 考虑计算运动时间。
 
-vt​=v0​+at
+v_t=v_0+at
 
 故：
 
-t=avt​−v0​​=2gvy​​=10m/s2vcosθ​
+t=\\dfrac{v_t-v_0}{a}=\\dfrac{v_y}{2g}=\\dfrac{v\\cos\\theta}{10\\mathrm{m/s^2}}
 
 考虑水平运动距离：
 
-xx​=vx​t=10m/s2v2sinθcosθ​
+x_x=v_xt=\\dfrac{v^2\\sin\\theta\\cos\\theta}{10\\mathrm{m/s^2}}
 
 考虑垂直运动距离：
 
-2ax=vt2​−v02​
+2ax=v_t^2-v_0^2
 
 故：
 
-xy​=2avt2​−v02​​=2gvy2​​=20m/s2v2cos2θ​
+x_y=\\dfrac{v_t^2-v_0^2}{2a}=\\dfrac{v_y^2}{2g}=\\dfrac{v^2\\cos^2\\theta}{20\\mathrm{m/s^2}}
 
 故起点坐标：
 
-(x0​,y0​)=(10m/s2v2sinθcosθ​,20m/s2v2cos2θ​)
+(x_0,y_0)=\\left(\\dfrac{v^2\\sin\\theta\\cos\\theta}{10\\mathrm{m/s^2}},\\dfrac{v^2\\cos^2\\theta}{20\\mathrm{m/s^2}}\\right)
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
