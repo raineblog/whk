@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "da88c74a749f9de5",
+        "id": "f92a70fc6a3b68f5",
         "type": "tabs",
         "children": [
           {
-            "id": "61e3b91020f20df8",
+            "id": "a66c5a4e63da4e16",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/finished/基因工程.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "基因工程"
+              "title": "新标签页"
             }
           }
         ]
@@ -190,9 +176,7 @@
             "type": "leaf",
             "state": {
               "type": "footnotes",
-              "state": {
-                "file": "dev/finished/基因工程.md"
-              },
+              "state": {},
               "icon": "lucide-file-signature",
               "title": "脚注"
             }
@@ -248,8 +232,10 @@
       "smart-connections-visualizer:Open smart connections visualizer": false
     }
   },
-  "active": "61e3b91020f20df8",
+  "active": "a66c5a4e63da4e16",
   "lastOpenFiles": [
+    "dev/supplement/元素化学汇总.md",
+    "dev/finished/基因工程.md",
     "dev/finished/细胞工程.md",
     "dev/finished/限制酶.md",
     "docs/science/reaction/1.md",
@@ -279,8 +265,6 @@
     "dev/finished/医用胶.md.txt",
     "dev/finished/arena-chat-关于矮壮素（一种植物生长调节剂），下列说法正确的有？__1. 施用一定浓度的矮壮素溶液后，棉花植株的高度会低于施-2026-03-17T13-48-34-762Z.txt",
     "dev/finished/矮壮素.md",
-    "dev/finished/医用胶.md",
-    "dev/finished/气压在热力学中的变化.md",
     "dev/finished/arena-chat-酯交换的机理是什么？说是取代反应对吗？-2026-03-17T13-45-58-620Z.txt",
     "dev/finished/arena-chat-植物生长调节剂中，与植物激素结构不同，但是能起到特定效果的，是走了植物的后门 bug 吗？-2026-03-17T13-47-50-996Z.txt",
     "dev/finished/arena-chat-这道生物题目中给出了 1-N_K 时间图像，时间为横轴，1-N_K 在图像第一象限是一个斜率为负数的直线，然后选-2026-03-17T13-50-17-809Z.txt",
