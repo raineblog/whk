@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Wed, 08 Apr 2026 09:24:07 -0000</pubDate>
-    <lastBuildDate>Wed, 08 Apr 2026 09:24:07 -0000</lastBuildDate>
+    <pubDate>Wed, 08 Apr 2026 13:11:02 -0000</pubDate>
+    <lastBuildDate>Wed, 08 Apr 2026 13:11:02 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,49 @@
     
 
     
+    
+    <item>
+      <title>物质及元素</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;物质及元素&lt;/h1&gt;
+&lt;h2&gt;物质的组成和分类&lt;/h2&gt;
+&lt;h3&gt;物质的组成&lt;/h3&gt;
+&lt;p&gt;物质都是由元素组成的。元素是具有相同质子数（核电荷数）的一类原子的总称。自然界中的元素以两种形态存在：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;游离态&lt;/strong&gt;：元素以单质形式存在。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化合态&lt;/strong&gt;：元素以化合物形式存在。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;元素-游离态-单质，自然界中常见存在的单质，例如空气中的某些成分、矿石中的不活泼的金属单质、火山口的硫单质、陨铁中的铁单质。&lt;/p&gt;
+&lt;p&gt;经典问题，$\ce{H2}$ 和 $\ce{HD}$ 的&#34;混合物&#34;是纯净物，因为纯净物的定义中，不考虑原子核同位素等的不同。&lt;/p&gt;
+&lt;p&gt;元素-化合态-化合物。&lt;/p&gt;
+&lt;p&gt;物质按照组成可以分为纯净物和混合物：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;纯净物&lt;/strong&gt;：由一种物质组成，具有固定的组成和性质。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;混合物&lt;/strong&gt;：由两种或多种物质混合而成，没有固定的组成，各成分保持各自的性质。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;物质&#34; src=&#34;物质-dcbbc0d.avif&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
+&lt;p&gt;纯净物注意：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;化学式相同，并不一定就是纯净物。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;高聚物，又称高分子化合物，由于其分子中的链节数目不同，相对分子质量也不同，因此高聚物一定是混合物。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;水合盐又称结...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/</link>
+      <pubDate>Wed, 08 Apr 2026 13:10:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/</guid>
+      
+    </item>
     
     <item>
       <title>组合数学</title>
@@ -69,7 +112,7 @@
 &lt;li&gt;二次项系数不含参数且自变量没有限制时，临界条件是 $...&lt;/li&gt;
 &lt;/ol&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/polynomial/5/</link>
-      <pubDate>Sun, 05 Apr 2026 09:32:00 +0000</pubDate>
+      <pubDate>Wed, 08 Apr 2026 13:10:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/polynomial/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/5/</guid>
@@ -103,7 +146,7 @@ $$&lt;/p&gt;
 &lt;p&gt;$$
 {m\choose n_1,n_2}={m\choose...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/polynomial/6/</link>
-      <pubDate>Sun, 05 Apr 2026 09:32:00 +0000</pubDate>
+      <pubDate>Wed, 08 Apr 2026 13:10:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/polynomial/6/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/6/</guid>
@@ -775,49 +818,6 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/number/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/1/</guid>
-      
-    </item>
-    
-    <item>
-      <title>物质及元素</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;物质及元素&lt;/h1&gt;
-&lt;h2&gt;物质的组成和分类&lt;/h2&gt;
-&lt;h3&gt;物质的组成&lt;/h3&gt;
-&lt;p&gt;物质都是由元素组成的。元素是具有相同质子数（核电荷数）的一类原子的总称。自然界中的元素以两种形态存在：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;游离态&lt;/strong&gt;：元素以单质形式存在。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;化合态&lt;/strong&gt;：元素以化合物形式存在。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;元素-游离态-单质，自然界中常见存在的单质，例如空气中的某些成分、矿石中的不活泼的金属单质、火山口的硫单质、陨铁中的铁单质。&lt;/p&gt;
-&lt;p&gt;经典问题，$\ce{H2}$ 和 $\ce{HD}$ 的&#34;混合物&#34;是纯净物，因为纯净物的定义中，不考虑原子核同位素等的不同。&lt;/p&gt;
-&lt;p&gt;元素-化合态-化合物。&lt;/p&gt;
-&lt;p&gt;物质按照组成可以分为纯净物和混合物：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;纯净物&lt;/strong&gt;：由一种物质组成，具有固定的组成和性质。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;混合物&lt;/strong&gt;：由两种或多种物质混合而成，没有固定的组成，各成分保持各自的性质。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&#34;物质&#34; src=&#34;物质-dcbbc0d.avif&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
-&lt;p&gt;纯净物注意：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;化学式相同，并不一定就是纯净物。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;高聚物，又称高分子化合物，由于其分子中的链节数目不同，相对分子质量也不同，因此高聚物一定是混合物。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;水合盐又称结...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/element/</link>
-      <pubDate>Fri, 03 Apr 2026 15:10:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/element/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/</guid>
       
     </item>
     
