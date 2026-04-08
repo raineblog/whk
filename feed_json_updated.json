@@ -46,6 +46,17 @@
             "tags": null
         },
         {
+            "id": "https://raineblog.dpdns.org/whk/science/mathematics/2/",
+            "url": "https://raineblog.dpdns.org/whk/science/mathematics/2/",
+            "title": "\u96c6\u5408\u4e0e\u903b\u8f91",
+            "content_html": "<h1>\u96c6\u5408\u4e0e\u903b\u8f91</h1>\n<h2>\u57fa\u7840\u77e5\u8bc6</h2>\n<h3>\u96c6\u5408\u7684\u5b9a\u4e49</h3>\n<p>\u96c6\u5408\uff1a</p>\n<ul>\n<li>\n<p>\u67d0\u4e9b\u6307\u5b9a\u7684\u5bf9\u8c61\u96c6\u5728\u2f00\u8d77\u5c31\u5f62\u6210\u2f00\u4e2a\u96c6\u5408\uff08\u7b80\u79f0\u96c6\uff09\u3002</p>\n</li>\n<li>\n<p>\u5143\u7d20\uff1a\u96c6\u5408\u4e2d\u6bcf\u4e2a\u5bf9\u8c61\u53eb\u505a\u8fd9\u4e2a\u96c6\u5408\u7684\u5143\u7d20\u3002</p>\n</li>\n</ul>\n<p>\u96c6\u5408\u7684\u4e09\u8981\u7d20\uff1a</p>\n<ul>\n<li>\n<p>\u786e\u5b9a\u6027\uff1a\u96c6\u5408\u5185\u7684\u5143\u7d20\u662f\u53ef\u4ee5\u88ab\u786e\u5b9a\u7684\u3002</p>\n</li>\n<li>\n<p>\u4e92\u5f02\u6027\uff1a\u96c6\u5408\u5185\u7684\u5404\u5143\u7d20\u90fd\u662f\u552f\u2f00\u4e0d\u91cd\u590d\u7684\u3002</p>\n</li>\n<li>\n<p>\u2f46\u5e8f\u6027\uff1a\u96c6\u5408\u5185\u7684\u5404\u5143\u7d20\u7684\u987a\u5e8f\u662f\u6ca1\u6709\u9650\u5236\u7684\u3002</p>\n</li>\n</ul>\n<p>\u5b50\u96c6\u4e0e\u7a7a\u96c6\uff1a</p>\n<ul>\n<li>\n<p>\u5b50\u96c6\uff1a$A \\subseteq B$ \u6216 $B \\supseteq A$\uff0c\u8868\u793a $A$ \u4e2d\u7684\u4efb\u610f\u5143\u7d20\u90fd\u5c5e\u4e8e $B$</p>\n<p>$A \\subseteq A, \\varnothing \\subseteq A$</p>\n<p>$A \\subseteq B$ \u4e14 $B \\subseteq C \\implies A \\subseteq C$</p>\n<p>$A \\subseteq B$ \u4e14 $B \\subseteq A \\implies A=B$</p>\n</li>\n<li>\n<p>\u771f\u5b50\u96c6\uff1a$A \\subsetneqq B$ \u6216 $B \\supsetneqq A$\uff0c\u8868\u793a $A \\subseteq B$ \u4e14 $B$ \u4e2d\u81f3\u5c11\u6709\u4e00\u5143\u7d20\u4e0d\u5c5e\u4e8e $A$</p>\n<p>$A \\subsetneq...</p>\n</li>\n</ul>",
+            "image": null,
+            "date_modified": "2026-04-06T03:02:00+00:00",
+            "date_published": "2025-08-19T11:57:00+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
             "id": "https://raineblog.dpdns.org/whk/science/function/3/",
             "url": "https://raineblog.dpdns.org/whk/science/function/3/",
             "title": "\u5747\u503c\u4e0d\u7b49\u5f0f",
@@ -94,17 +105,6 @@
             "url": "https://raineblog.dpdns.org/whk/science/mathematics/1/",
             "title": "\u6570\u5b57\u548c\u8ba1\u6570\u7cfb\u7edf",
             "content_html": "<h1>\u6570\u5b57\u548c\u8ba1\u6570\u7cfb\u7edf</h1>\n<h2>\u6570\u5b57\u7cfb\u7edf</h2>\n<p>\u533a\u5206\u6570\u5b57\u7cfb\u7edf\u548c\u8bb0\u6570\u7cfb\u7edf\uff1a</p>\n<ul>\n<li>\n<p>\u6570\u5b57\u7cfb\u7edf\uff1aNumbers can be classified into sets, called <strong>number sets</strong> or <strong>number systems</strong>, such as the natural numbers and the real numbers.</p>\n</li>\n<li>\n<p>\u8bb0\u6570\u7cfb\u7edf\uff1aA <strong>numeral system</strong> is a writing system for expressing numbers without words; that is, a mathematical notation for representing numbers of a given set, using digits (in positional notation) or other symbols (in sign-value notation) in a consistent manner.</p>\n</li>\n</ul>\n<p><img alt=\"alt text\" src=\"Venn_Diagram_of_Numbers_Expanded.svg\">{ width=...</p>",
-            "image": null,
-            "date_modified": "2026-04-05T08:55:00+00:00",
-            "date_published": "2025-08-19T11:57:00+00:00",
-            "authors": [],
-            "tags": null
-        },
-        {
-            "id": "https://raineblog.dpdns.org/whk/science/mathematics/2/",
-            "url": "https://raineblog.dpdns.org/whk/science/mathematics/2/",
-            "title": "\u96c6\u5408\u4e0e\u903b\u8f91",
-            "content_html": "<h1>\u96c6\u5408\u4e0e\u903b\u8f91</h1>\n<h2>\u57fa\u7840\u77e5\u8bc6</h2>\n<h3>\u96c6\u5408\u7684\u5b9a\u4e49</h3>\n<p>\u96c6\u5408\uff1a</p>\n<ul>\n<li>\n<p>\u67d0\u4e9b\u6307\u5b9a\u7684\u5bf9\u8c61\u96c6\u5728\u2f00\u8d77\u5c31\u5f62\u6210\u2f00\u4e2a\u96c6\u5408\uff08\u7b80\u79f0\u96c6\uff09\u3002</p>\n</li>\n<li>\n<p>\u5143\u7d20\uff1a\u96c6\u5408\u4e2d\u6bcf\u4e2a\u5bf9\u8c61\u53eb\u505a\u8fd9\u4e2a\u96c6\u5408\u7684\u5143\u7d20\u3002</p>\n</li>\n</ul>\n<p>\u96c6\u5408\u7684\u4e09\u8981\u7d20\uff1a</p>\n<ul>\n<li>\n<p>\u786e\u5b9a\u6027\uff1a\u96c6\u5408\u5185\u7684\u5143\u7d20\u662f\u53ef\u4ee5\u88ab\u786e\u5b9a\u7684\u3002</p>\n</li>\n<li>\n<p>\u4e92\u5f02\u6027\uff1a\u96c6\u5408\u5185\u7684\u5404\u5143\u7d20\u90fd\u662f\u552f\u2f00\u4e0d\u91cd\u590d\u7684\u3002</p>\n</li>\n<li>\n<p>\u2f46\u5e8f\u6027\uff1a\u96c6\u5408\u5185\u7684\u5404\u5143\u7d20\u7684\u987a\u5e8f\u662f\u6ca1\u6709\u9650\u5236\u7684\u3002</p>\n</li>\n</ul>\n<p>\u5b50\u96c6\u4e0e\u7a7a\u96c6\uff1a</p>\n<ul>\n<li>\n<p>\u5b50\u96c6\uff1a$A \\subseteq B$ \u6216 $B \\supseteq A$\uff0c\u8868\u793a $A$ \u4e2d\u7684\u4efb\u610f\u5143\u7d20\u90fd\u5c5e\u4e8e $B$</p>\n<p>$A \\subseteq A, \\varnothing \\subseteq A$</p>\n<p>$A \\subseteq B$ \u4e14 $B \\subseteq C \\implies A \\subseteq C$</p>\n<p>$A \\subseteq B$ \u4e14 $B \\subseteq A \\implies A=B$</p>\n</li>\n<li>\n<p>\u771f\u5b50\u96c6\uff1a$A \\subsetneqq B$ \u6216 $B \\supsetneqq A$\uff0c\u8868\u793a $A \\subseteq B$ \u4e14 $B$ \u4e2d\u81f3\u5c11\u6709\u4e00\u5143\u7d20\u4e0d\u5c5e\u4e8e $A$</p>\n<p>$A \\subsetneq...</p>\n</li>\n</ul>",
             "image": null,
             "date_modified": "2026-04-05T08:55:00+00:00",
             "date_published": "2025-08-19T11:57:00+00:00",

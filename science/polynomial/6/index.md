@@ -769,4 +769,4 @@ C(m,n)\\times A(n,n)=A(m,n)=m^{\\underline n}
 
   完全不平均分配与题型二相同，只是所有人的球数都不一样，因此不需要除以任何排列数。
 
-[RainPPR](mailto:PPR2125773894@163.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

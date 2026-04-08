@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Wed, 08 Apr 2026 13:11:02 -0000</pubDate>
-    <lastBuildDate>Wed, 08 Apr 2026 13:11:02 -0000</lastBuildDate>
+    <pubDate>Wed, 08 Apr 2026 13:18:51 -0000</pubDate>
+    <lastBuildDate>Wed, 08 Apr 2026 13:18:51 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -150,6 +150,57 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/polynomial/6/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/6/</guid>
+      
+    </item>
+    
+    <item>
+      <title>集合与逻辑</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;集合与逻辑&lt;/h1&gt;
+&lt;h2&gt;基础知识&lt;/h2&gt;
+&lt;h3&gt;集合的定义&lt;/h3&gt;
+&lt;p&gt;集合：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;某些指定的对象集在⼀起就形成⼀个集合（简称集）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;元素：集合中每个对象叫做这个集合的元素。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;集合的三要素：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;确定性：集合内的元素是可以被确定的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;互异性：集合内的各元素都是唯⼀不重复的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;⽆序性：集合内的各元素的顺序是没有限制的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;子集与空集：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;子集：$A \subseteq B$ 或 $B \supseteq A$，表示 $A$ 中的任意元素都属于 $B$&lt;/p&gt;
+&lt;p&gt;$A \subseteq A, \varnothing \subseteq A$&lt;/p&gt;
+&lt;p&gt;$A \subseteq B$ 且 $B \subseteq C \implies A \subseteq C$&lt;/p&gt;
+&lt;p&gt;$A \subseteq B$ 且 $B \subseteq A \implies A=B$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;真子集：$A \subsetneqq B$ 或 $B \supsetneqq A$，表示 $A \subseteq B$ 且 $B$ 中至少有一元素不属于 $A$&lt;/p&gt;
+&lt;p&gt;$A \subsetneq...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/mathematics/2/</link>
+      <pubDate>Mon, 06 Apr 2026 03:02:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mathematics/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/2/</guid>
       
     </item>
     
@@ -392,57 +443,6 @@ $$&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/mathematics/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/1/</guid>
-      
-    </item>
-    
-    <item>
-      <title>集合与逻辑</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;集合与逻辑&lt;/h1&gt;
-&lt;h2&gt;基础知识&lt;/h2&gt;
-&lt;h3&gt;集合的定义&lt;/h3&gt;
-&lt;p&gt;集合：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;某些指定的对象集在⼀起就形成⼀个集合（简称集）。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;元素：集合中每个对象叫做这个集合的元素。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;集合的三要素：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;确定性：集合内的元素是可以被确定的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;互异性：集合内的各元素都是唯⼀不重复的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;⽆序性：集合内的各元素的顺序是没有限制的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;子集与空集：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;子集：$A \subseteq B$ 或 $B \supseteq A$，表示 $A$ 中的任意元素都属于 $B$&lt;/p&gt;
-&lt;p&gt;$A \subseteq A, \varnothing \subseteq A$&lt;/p&gt;
-&lt;p&gt;$A \subseteq B$ 且 $B \subseteq C \implies A \subseteq C$&lt;/p&gt;
-&lt;p&gt;$A \subseteq B$ 且 $B \subseteq A \implies A=B$&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;真子集：$A \subsetneqq B$ 或 $B \supsetneqq A$，表示 $A \subseteq B$ 且 $B$ 中至少有一元素不属于 $A$&lt;/p&gt;
-&lt;p&gt;$A \subsetneq...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/mathematics/2/</link>
-      <pubDate>Sun, 05 Apr 2026 08:55:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/mathematics/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/2/</guid>
       
     </item>
     
