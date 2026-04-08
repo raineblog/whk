@@ -84,6 +84,7 @@ jobs:
         run: ./build-bin --dir site
 
       - name: Push to Branch
+        if: github.event_name != 'pull_request'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -99,6 +100,7 @@ jobs:
           path: site
 
   deploy-artifact:
+    if: github.event_name != 'pull_request'
     name: Deploy to Github Pages
     needs: build
     runs-on: ubuntu-latest
