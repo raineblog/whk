@@ -52,7 +52,7 @@
 
 - **构建引擎**：[mkpandocs](https://github.com/RainPPR/mkpandocs) —— 基于 Pandoc 的增强型静态站点生成器。
 - **UI 主题**：[MkDocs Material](https://squidfunk.github.io/mkdocs-material/) 的深度定制版本。
-- **公式渲染**：KaTeX 服务端渲染 (SSR)，完美支持 `mhchem` 和 `physics` 插件。
+- **公式渲染**：KaTeX 客户端渲染，确保极速构建与公式显示的绝对准确。
 
 ### 特色功能
 
