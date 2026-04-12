@@ -117,17 +117,12 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/home/format/</loc>
-        <lastmod>2026-02-13</lastmod>
+        <lastmod>2026-04-12</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/home/madoka/</loc>
         <lastmod>2026-04-12</lastmod>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>https://raineblog.dpdns.org/whk/home/pymdownx/</loc>
-        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>

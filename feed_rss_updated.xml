@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Sun, 12 Apr 2026 10:45:26 -0000</pubDate>
-    <lastBuildDate>Sun, 12 Apr 2026 10:45:26 -0000</lastBuildDate>
+    <pubDate>Sun, 12 Apr 2026 10:59:35 -0000</pubDate>
+    <lastBuildDate>Sun, 12 Apr 2026 10:59:35 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,29 @@
     
 
     
+    
+    <item>
+      <title>格式手册</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;格式手册&lt;/h1&gt;
+&lt;h2&gt;排版规范&lt;/h2&gt;
+&lt;p&gt;在学术内容方面，排版参考 &lt;a href=&#34;https://oi-wiki.org/intro/format/&#34;&gt;OI Wiki 格式手册&lt;/a&gt;；中文文案排版参考 &lt;a href=&#34;https://rainppr.dpdns.org/chinese-copywriting-guidelines/&#34;&gt;中文文案排版指北&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;本站的核心目标是构建一套适合高中生深度阅读的文化课文档，而非单纯的工具书或教材。因此，在遵循规范的前提下，排版应更侧重于&lt;strong&gt;美观性&lt;/strong&gt;与&lt;strong&gt;易读性&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2&gt;资源托管&lt;/h2&gt;
+&lt;p&gt;为优化仓库性能，GitHub 仓库主要用于存放 Markdown 源码及图片。对于 PDF 等大型资料，请统一存放至 &lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/tree/main&#34;&gt;HuggingFace 仓库&lt;/a&gt;，该平台对大文件拥有更完善的存储与加载支持。&lt;/p&gt;
+&lt;h2&gt;语言风格&lt;/h2&gt;
+&lt;p&gt;我们追求精炼且富有感染力的文字表达。文稿应避免冗长乏味的叙述，建议使用描述性语言引导读者思考，在简洁的文字背后构建丰富的知识图谱。&lt;/p&gt;
+&lt;h2&gt;知识架构（Networked T...&lt;/h2&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/home/format/</link>
+      <pubDate>Sun, 12 Apr 2026 10:58:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/home/format/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/format/</guid>
+      
+    </item>
     
     <item>
       <title>魔法少女小圆</title>
@@ -2448,34 +2471,6 @@ P(AB) = P...&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>语法扩展</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;语法扩展&lt;/h1&gt;
-&lt;p&gt;```python exec=&#34;1&#34; session=&#34;filetree&#34;
-from fnmatch import fnmatch
-from pathlib import Path&lt;/p&gt;
-&lt;p&gt;exclude = {&#34;dist&#34;, &#34;site&#34;, &#34;dest&#34;, &#34;node_modules&#34;, &#34;.cache&#34;, &#34;cache&#34;, &#34;.agents&#34;, &#34;.git&#34;}
-no_recurse = {&#34;.venv*&#34;, &#34;.github&#34;}&lt;/p&gt;
-&lt;p&gt;def exptree(path: str, session: str) -&amp;gt; None:
-    # List files and directories separately.
-    files = []
-    dirs = []
-    for node in Path(path).iterdir():
-        if any(fnmatch(node.name, pattern) for pattern in exclude):
-            continue
-        if node.is_dir()...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/home/pymdownx/</link>
-      <pubDate>Fri, 27 Mar 2026 14:27:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/home/pymdownx/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/pymdownx/</guid>
-      
-    </item>
-    
-    <item>
       <title>简介</title>
       
       
@@ -2536,24 +2531,6 @@ no_recurse = {&#34;.venv*&#34;, &#34;.github&#34;}&lt;/p&gt;
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/cultural/writing/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/cultural/writing/3/</guid>
-      
-    </item>
-    
-    <item>
-      <title>格式手册</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;格式手册&lt;/h1&gt;
-&lt;p&gt;在学术方面，排版大体上参考 &lt;a href=&#34;https://oi-wiki.org/intro/format/&#34;&gt;OI Wiki 格式手册&lt;/a&gt;，中文排版参考 RainPPR 的（就是我自己的）&lt;a href=&#34;https://rainppr.dpdns.org/chinese-copywriting-guidelines/&#34;&gt;中文文案排版指北（个人重制版）&lt;/a&gt;，本网站采用了一些 pymdownx 扩展，相应的语法参考&lt;a href=&#34;./pymdownx.md&#34;&gt;语法扩展&lt;/a&gt;一节。由于本网站的核心目标是，打造一个适合高中生“阅读”而非作为参考书、教科书的文化课文档，因此本网站的排版可以稍微松懈一些，核心目的是易懂和美观。&lt;/p&gt;
-&lt;p&gt;在文件托管上面，这个 Github 仓库默认只存放图片和 Markdown 源码一类的，对于需要存放的 PDF 文件，请迁移到对应的 &lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/tree/main&#34;&gt;HuggingFace 仓库&lt;/a&gt;中，它对大文件支持更好，而且专门为大文件优化。&lt;/p&gt;
-&lt;p&gt;与此同时，我们对文字的设计和语言的描述有着较高的要求和取向，正如前面所说...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/home/format/</link>
-      <pubDate>Fri, 13 Feb 2026 15:22:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/home/format/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/format/</guid>
       
     </item>
     
