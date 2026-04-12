@@ -8,7 +8,6 @@
 - [讨论交流](https://raineblog-whk.pages.dev/home/discussion/index.md)
 - [格式手册](https://raineblog-whk.pages.dev/home/format/index.md)
 - [魔法少女小圆](https://raineblog-whk.pages.dev/home/madoka/index.md)
-- [语法扩展](https://raineblog-whk.pages.dev/home/pymdownx/index.md)
 - [开发进程](https://raineblog-whk.pages.dev/home/roadmap/index.md)
 - [如何使用](https://raineblog-whk.pages.dev/home/usage/index.md)
 
