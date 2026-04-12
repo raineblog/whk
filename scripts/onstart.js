@@ -4,18 +4,21 @@ const path = require('path');
 /**
  * onstart.js
  * 
- * 项目启动和代理规则同步脚本。
- * 支持两种同步模式：
- * 模式 1: 复制到目标目录根文件夹 (例如 .clinerules, .gemini)
- * 模式 2: 复制到目标目录的 rules 文件夹 (例如 .kilo, .kilocode, .qwen)
+ * 项目自动化同步脚本：
+ * 负责将 .agents 中的技能、工作流及规则同步到各个 Agent 配置目录。
+ * 
+ * 核心逻辑：
+ * 1. 模式 1 (Mode 1): 根同步模式，AGENTS.md 更名为 AGENT_GUIDE.md 放在根目录。
+ * 2. 模式 2 (Mode 2): 子目录同步模式，规则文件放入 rules/ 文件夹下。
+ * 3. 定向同步：仅管理 skills/, workflows/, rules/ 和特定的 .md 文件，不破坏用户其它文件。
  */
 
 const projectRoot = path.resolve(__dirname, '..');
 const agentsMd = path.resolve(projectRoot, 'AGENTS.md');
-const agentsDir = path.resolve(projectRoot, '.agents');
+const agentsBaseDir = path.resolve(projectRoot, '.agents');
 
-// 模式定义：1 -> 根目录, 2 -> rules 文件夹
-const modeConfig = {
+// 模式定义：1 -> 根目录, 2 -> 子目录(rules/)
+const agentsConfig = {
     '.clinerules': 1,
     '.gemini': 1,
     '.kilocode': 2,
@@ -23,6 +26,21 @@ const modeConfig = {
     '.qwen': 2
 };
 
+/**
+ * 递归删除
+ */
+function removePathSync(targetPath) {
+    if (!fs.existsSync(targetPath)) return;
+    try {
+        fs.rmSync(targetPath, { recursive: true, force: true });
+    } catch (err) {
+        console.warn(`[onstart] Warning: Could not remove ${targetPath}: ${err.message}`);
+    }
+}
+
+/**
+ * 递归复制
+ */
 function copyRecursiveSync(src, dest) {
     if (!fs.existsSync(src)) return;
     const stats = fs.statSync(src);
@@ -36,65 +54,74 @@ function copyRecursiveSync(src, dest) {
     }
 }
 
-function syncToTarget(targetName, mode) {
-    const targetDir = path.resolve(projectRoot, targetName);
-    
-    console.log(`[onstart] Syncing to ${targetName} (Mode ${mode})...`);
+/**
+ * 同步单个 Agent 目录
+ */
+function syncAgent(agentName, mode) {
+    const targetDir = path.resolve(projectRoot, agentName);
+    const rulesDest = mode === 2 ? path.join(targetDir, 'rules') : targetDir;
 
-    // 清理旧内容
-    if (fs.existsSync(targetDir)) {
-        fs.rmSync(targetDir, { recursive: true, force: true });
-    }
-    
-    fs.mkdirSync(targetDir, { recursive: true });
+    console.log(`[onstart] Syncing ${agentName} (Mode ${mode})...`);
 
-    // 1. 同步 AGENTS.md
+    // 1. 定向清理：只删除受管文件夹，保留用户手动放置的文件
+    const managedFolders = ['skills', 'workflows', 'rules'];
+    managedFolders.forEach(folder => {
+        removePathSync(path.join(targetDir, folder));
+        // 模式 2 特有的子目录 rules 及其内部
+        if (mode === 2) removePathSync(path.join(targetDir, 'rules', folder));
+    });
+    // 删除旧的记录文件
+    removePathSync(path.join(targetDir, 'AGENT_GUIDE.md'));
+    if (mode === 2) removePathSync(path.join(targetDir, 'rules', 'AGENTS.md'));
+
+    // 2. 确保目标目录存在
+    if (!fs.existsSync(targetDir)) fs.mkdirSync(targetDir, { recursive: true });
+    if (mode === 2 && !fs.existsSync(rulesDest)) fs.mkdirSync(rulesDest, { recursive: true });
+
+    // 3. 同步 AGENTS.md
     if (fs.existsSync(agentsMd)) {
-        const destFile = mode === 1 ? path.join(targetDir, 'AGENT_GUIDE.md') : path.join(targetDir, 'rules', 'AGENTS.md');
-        if (mode === 2) fs.mkdirSync(path.join(targetDir, 'rules'), { recursive: true });
-        fs.copyFileSync(agentsMd, destFile);
+        const destFileName = mode === 1 ? 'AGENT_GUIDE.md' : 'AGENTS.md';
+        const destPath = path.join(rulesDest, destFileName);
+        fs.copyFileSync(agentsMd, destPath);
     }
 
-    // 2. 同步 .agents 目录下的内容
-    if (fs.existsSync(agentsDir)) {
-        fs.readdirSync(agentsDir).forEach(item => {
-            const srcPath = path.join(agentsDir, item);
-            let destPath;
+    // 4. 同步 .agents 目录内容
+    if (fs.existsSync(agentsBaseDir)) {
+        fs.readdirSync(agentsBaseDir).forEach(item => {
+            const srcPath = path.join(agentsBaseDir, item);
+            let finalDest;
             
             if (item === 'skills' || item === 'workflows') {
-                // skills 和 workflows 始终在根目录
-                destPath = path.join(targetDir, item);
+                // Skills 和 workflows 始终放置在代理目录根部
+                finalDest = path.join(targetDir, item);
             } else if (item === 'rules') {
-                // rules 文件夹根据模式放置
-                destPath = mode === 2 ? path.join(targetDir, 'rules', 'rules') : path.join(targetDir, 'rules');
-                if (mode === 2) fs.mkdirSync(path.join(targetDir, 'rules'), { recursive: true });
+                // rules 内容根据模式放置
+                // 如果是目录模式，复制为 rules/rules/ 子文件夹，或者如果 rules 下只是 md，直接平铺
+                // 推荐逻辑：.agents/rules 下的内容全部放入 rules 目标子文件夹
+                finalDest = path.join(rulesDest, 'rules');
             } else {
-                // 其它文件（如可能存在的 README）
-                destPath = mode === 2 ? path.join(targetDir, 'rules', item) : path.join(targetDir, item);
+                // 其它文件直接跟随 rules 目标
+                finalDest = path.join(rulesDest, item);
             }
             
-            copyRecursiveSync(srcPath, destPath);
+            copyRecursiveSync(srcPath, finalDest);
         });
     }
 
-    // 3. 写入 .gitignore
+    // 5. 更新 .gitignore
     const gitignorePath = path.join(targetDir, '.gitignore');
-    let ignoreItems = ['skills/', 'workflows/'];
-    if (mode === 1) {
-        ignoreItems.push('rules/', 'AGENT_GUIDE.md');
-    } else {
-        ignoreItems.push('rules/');
-    }
-    fs.writeFileSync(gitignorePath, ignoreItems.join('\n') + '\n');
+    const ignoreList = ['skills/', 'workflows/', 'rules/'];
+    if (mode === 1) ignoreList.push('AGENT_GUIDE.md');
+    fs.writeFileSync(gitignorePath, ignoreList.join('\n') + '\n');
 }
 
-// 执行同步
-Object.entries(modeConfig).forEach(([target, mode]) => {
+// 主程序
+console.log('[onstart] Starting synchronization tasks...');
+Object.entries(agentsConfig).forEach(([name, mode]) => {
     try {
-        syncToTarget(target, mode);
+        syncAgent(name, mode);
     } catch (err) {
-        console.error(`[onstart] Failed to sync ${target}: ${err.message}`);
+        console.error(`[onstart] Critical error syncing ${name}:`, err);
     }
 });
-
-console.log('[onstart] Rules synchronization completed.');
+console.log('[onstart] All synchronization tasks completed.');
