@@ -4,182 +4,88 @@ const path = require('path');
 /**
  * onstart.js
  * 
- * 项目启动和 Git 提交时的自动化同步脚本。
- * 负责同步 AGENTS.md、skills、rules、workflows 到各个 agent 配置目录。
+ * 项目启动和代理规则同步脚本。
+ * 支持两种同步模式：
+ * 模式 1: 复制到目标目录根文件夹 (例如 .clinerules, .gemini)
+ * 模式 2: 复制到目标目录的 rules 文件夹 (例如 .kilo, .kilocode, .qwen)
  */
 
-const sourceFile = path.resolve(__dirname, '../AGENTS.md');
-const skillsDir = path.resolve(__dirname, 'skills');
-const rulesDir = path.resolve(__dirname, 'rules');
-const workflowsDir = path.resolve(__dirname, 'workflows');
+const projectRoot = path.resolve(__dirname, '..');
+const agentsMd = path.resolve(projectRoot, 'AGENTS.md');
+const agentsDir = path.resolve(projectRoot, '.agents');
 
-// 目标目录常量
-const styleguideTargets = [
-    path.resolve(__dirname, '../.agents/rules/styleguide.md'),
-    path.resolve(__dirname, '../.clinerules/styleguide.md'),
-    path.resolve(__dirname, '../.gemini/styleguide.md'),
-    path.resolve(__dirname, '../.kilocode/rules/styleguide.md'),
-    path.resolve(__dirname, '../.kilo/rules/styleguide.md'),
-];
+// 模式定义：1 -> 根目录, 2 -> rules 文件夹
+const modeConfig = {
+    '.clinerules': 1,
+    '.gemini': 1,
+    '.kilocode': 2,
+    '.kilo': 2,
+    '.qwen': 2
+};
 
-const skillsTargets = [
-    path.resolve(__dirname, '../.agents/skills'),
-    path.resolve(__dirname, '../.clinerules/skills'),
-    path.resolve(__dirname, '../.gemini/skills'),
-    path.resolve(__dirname, '../.kilocode/skills'),
-    path.resolve(__dirname, '../.kilo/skills'),
-];
-
-const rulesTargets = [
-    path.resolve(__dirname, '../.agents/rules'),
-    path.resolve(__dirname, '../.clinerules'),
-    path.resolve(__dirname, '../.gemini'),
-    path.resolve(__dirname, '../.kilocode/rules'),
-    path.resolve(__dirname, '../.kilo/rules'),
-];
-
-const workflowsTargets = [
-    path.resolve(__dirname, '../.agents/workflows'),
-    path.resolve(__dirname, '../.clinerules/workflows'),
-    path.resolve(__dirname, '../.gemini/workflows'),
-    path.resolve(__dirname, '../.kilocode/workflows'),
-    path.resolve(__dirname, '../.kilo/workflows'),
-];
-
-/**
- * 递归同步目录
- */
 function copyRecursiveSync(src, dest) {
-    if (!fs.existsSync(src)) {
-        throw new Error(`Source path does not exist: ${src}`);
-    }
+    if (!fs.existsSync(src)) return;
     const stats = fs.statSync(src);
     if (stats.isDirectory()) {
-        if (!fs.existsSync(dest)) {
-            fs.mkdirSync(dest, { recursive: true });
-        }
-        fs.readdirSync(src).forEach(childItemName => {
-            copyRecursiveSync(path.join(src, childItemName), path.join(dest, childItemName));
+        if (!fs.existsSync(dest)) fs.mkdirSync(dest, { recursive: true });
+        fs.readdirSync(src).forEach(child => {
+            copyRecursiveSync(path.join(src, child), path.join(dest, child));
         });
     } else {
         fs.copyFileSync(src, dest);
     }
 }
 
-/**
- * 递归删除目录
- */
-function removeRecursiveSync(dir) {
-    if (fs.existsSync(dir)) {
-        fs.readdirSync(dir).forEach(file => {
-            const curPath = path.join(dir, file);
-            if (fs.lstatSync(curPath).isDirectory()) {
-                removeRecursiveSync(curPath);
-            } else {
-                fs.unlinkSync(curPath);
-            }
-        });
-        fs.rmdirSync(dir);
+function syncToTarget(targetName, mode) {
+    const targetDir = path.resolve(projectRoot, targetName);
+    const rulesDest = mode === 2 ? path.join(targetDir, 'rules') : targetDir;
+    
+    console.log(`[onstart] Syncing to ${targetName} (Mode ${mode})...`);
+
+    // 清理旧内容（如果存在），确保同步后目录干净
+    if (fs.existsSync(targetDir)) {
+        fs.rmSync(targetDir, { recursive: true, force: true });
     }
-}
+    
+    fs.mkdirSync(targetDir, { recursive: true });
+    if (mode === 2) fs.mkdirSync(rulesDest, { recursive: true });
 
-// 1. 同步 AGENTS.md 到各个规则目录
-if (fs.existsSync(sourceFile)) {
-    styleguideTargets.forEach(target => {
-        const targetDir = path.dirname(target);
-        if (!fs.existsSync(targetDir)) {
-            fs.mkdirSync(targetDir, { recursive: true });
-        }
-        try {
-            fs.copyFileSync(sourceFile, target);
-            console.log(`[onstart] Successfully sync AGENTS.md to ${target}`);
-        } catch (err) {
-            console.error(`[onstart] Failed to sync AGENTS.md to ${target}: ${err.message}`);
-        }
-    });
-} else {
-    console.warn(`[onstart] Source file not found: ${sourceFile}`);
-}
+    // 同步 AGENTS.md (更名为该目录所需的规则文件名，或对模式 1 直接复制)
+    // 模式 1 复制为目标对应的专有名称（如 .clinerules），模式 2 复制到 rules 文件夹
+    if (fs.existsSync(agentsMd)) {
+        const destFile = mode === 1 ? path.join(targetDir, 'AGENT_GUIDE.md') : path.join(rulesDest, 'AGENTS.md');
+        fs.copyFileSync(agentsMd, destFile);
+    }
 
-// 2. 同步 skills 文件夹到各个 agent 目录
-if (fs.existsSync(skillsDir)) {
-    const subdirs = fs.readdirSync(skillsDir).filter(file => {
-        const fullPath = path.join(skillsDir, file);
-        return fs.statSync(fullPath).isDirectory();
-    });
-
-    skillsTargets.forEach(targetBase => {
-        if (!fs.existsSync(targetBase)) {
-            fs.mkdirSync(targetBase, { recursive: true });
-        }
-        
-        subdirs.forEach(subdir => {
-            const srcPath = path.join(skillsDir, subdir);
-            const destPath = path.join(targetBase, subdir);
-            try {
-                copyRecursiveSync(srcPath, destPath);
-                console.log(`[onstart] Successfully sync skills/${subdir} to ${destPath}`);
-            } catch (err) {
-                console.error(`[onstart] Failed to sync skills/${subdir} to ${destPath}: ${err.message}`);
-            }
+    // 同步 .agents 目录下的所有内容 (skills, workflows, rules)
+    if (fs.existsSync(agentsDir)) {
+        fs.readdirSync(agentsDir).forEach(item => {
+            const srcPath = path.join(agentsDir, item);
+            const destPath = path.join(rulesDest, item);
+            copyRecursiveSync(srcPath, destPath);
         });
-    });
-} else {
-    console.warn(`[onstart] Skills directory not found: ${skillsDir}`);
+    }
+
+    // 写入 .gitignore
+    const gitignorePath = path.join(targetDir, '.gitignore');
+    let gitignoreContent = '';
+    if (mode === 1) {
+        // 模式 1：忽略复制进去的文件夹
+        gitignoreContent = 'skills/\nworkflows/\nrules/\nAGENT_GUIDE.md\n';
+    } else {
+        // 模式 2：忽略核心文件夹
+        gitignoreContent = 'skills/\nworkflows/\nrules/\n';
+    }
+    fs.writeFileSync(gitignorePath, gitignoreContent);
 }
 
-// 3. 同步 rules 文件夹到各个 agent 目录
-if (fs.existsSync(rulesDir)) {
-    const ruleFiles = fs.readdirSync(rulesDir).filter(file => {
-        const fullPath = path.join(rulesDir, file);
-        return fs.statSync(fullPath).isFile();
-    });
+// 执行同步
+Object.entries(modeConfig).forEach(([target, mode]) => {
+    try {
+        syncToTarget(target, mode);
+    } catch (err) {
+        console.error(`[onstart] Failed to sync ${target}: ${err.message}`);
+    }
+});
 
-    rulesTargets.forEach(targetBase => {
-        if (!fs.existsSync(targetBase)) {
-            fs.mkdirSync(targetBase, { recursive: true });
-        }
-        
-        ruleFiles.forEach(ruleFile => {
-            const srcPath = path.join(rulesDir, ruleFile);
-            const destPath = path.join(targetBase, ruleFile);
-            try {
-                fs.copyFileSync(srcPath, destPath);
-                console.log(`[onstart] Successfully sync rules/${ruleFile} to ${destPath}`);
-            } catch (err) {
-                console.error(`[onstart] Failed to sync rules/${ruleFile} to ${destPath}: ${err.message}`);
-            }
-        });
-    });
-} else {
-    console.warn(`[onstart] Rules directory not found: ${rulesDir}`);
-}
-
-// 4. 同步 workflows 文件夹到各个 agent 目录
-if (fs.existsSync(workflowsDir)) {
-    const workflowFiles = fs.readdirSync(workflowsDir).filter(file => {
-        const fullPath = path.join(workflowsDir, file);
-        return fs.statSync(fullPath).isFile();
-    });
-
-    workflowsTargets.forEach(targetBase => {
-        if (!fs.existsSync(targetBase)) {
-            fs.mkdirSync(targetBase, { recursive: true });
-        }
-        
-        workflowFiles.forEach(workflowFile => {
-            const srcPath = path.join(workflowsDir, workflowFile);
-            const destPath = path.join(targetBase, workflowFile);
-            try {
-                fs.copyFileSync(srcPath, destPath);
-                console.log(`[onstart] Successfully sync workflows/${workflowFile} to ${destPath}`);
-            } catch (err) {
-                console.error(`[onstart] Failed to sync workflows/${workflowFile} to ${destPath}: ${err.message}`);
-            }
-        });
-    });
-} else {
-    console.warn(`[onstart] Workflows directory not found: ${workflowsDir}`);
-}
-
-console.log('[onstart] Sync completed.');
+console.log('[onstart] Rules synchronization completed.');

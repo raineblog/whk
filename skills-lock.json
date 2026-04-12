@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "skills": {
+    "chinese-writing": {
+      "source": "miantiao-me/aigc-weekly",
+      "sourceType": "github",
+      "computedHash": "ee49c347183f228a01fc951c7ca81324b1662712945186b955a307fe6f2f624c"
+    },
+    "doc-coauthoring": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "computedHash": "62cd7744438ee2aecc986c520bb603988a78ff6aaaf70a471bf4584fe0b78dae"
+    },
+    "documentation-writer": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "computedHash": "ee53d65b163cd7eb953a930c95841cfe398cc2c0bd24c06508bbaa07c432be35"
+    },
+    "gaokao-chinese-tutor": {
+      "source": "flysheep-ai/education-skills",
+      "sourceType": "github",
+      "computedHash": "6779814fa2e7defcd5c581ce70f7886001099c323d6525e26e9fec9bfdd6d937"
+    },
+    "gaokao-english-tutor": {
+      "source": "flysheep-ai/education-skills",
+      "sourceType": "github",
+      "computedHash": "1279a3334b648326b181c24b8f5e04e3ceb979bf3a12bb534d0dafe1cbf5bace"
+    },
+    "gaokao-general-tech-tutor": {
+      "source": "flysheep-ai/education-skills",
+      "sourceType": "github",
+      "computedHash": "9503774d447eb97ff064e4e67e3c4e6372d296c2c3b8ef2c29deda05cdda5ad6"
+    },
+    "gaokao-liberal-arts-tutor": {
+      "source": "flysheep-ai/education-skills",
+      "sourceType": "github",
+      "computedHash": "6d87fa44238edd0274c1ea6885298ed0fb1b962b191dadbf7d453d4667ccd007"
+    },
+    "gaokao-science-tutor": {
+      "source": "flysheep-ai/education-skills",
+      "sourceType": "github",
+      "computedHash": "6e34378091a1da92463e7337e4b9b9d4da6e90f0409b49b1c17816374aa92d84"
+    },
+    "skill-creator": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "computedHash": "57f470f512f45bdac598e302bc72fd62bf2b649fc7fad032efe97720149cde4d"
+    }
+  }
+}

@@ -2,6 +2,7 @@
   "name": "whk",
   "private": true,
   "dependencies": {
+    "@intellectronica/ruler": "^0.3.38",
     "autocorrect-node": "^2.14.0",
     "autoprefixer": "^10.4.27",
     "cssnano": "^7.1.3",
