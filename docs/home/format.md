@@ -1,17 +1,29 @@
 # 格式手册
 
-在学术方面，排版大体上参考 [OI Wiki 格式手册](https://oi-wiki.org/intro/format/)，中文排版参考 RainPPR 的（就是我自己的）[中文文案排版指北（个人重制版）](https://rainppr.dpdns.org/chinese-copywriting-guidelines/)，本网站采用了一些 pymdownx 扩展，相应的语法参考[语法扩展](./pymdownx.md)一节。由于本网站的核心目标是，打造一个适合高中生“阅读”而非作为参考书、教科书的文化课文档，因此本网站的排版可以稍微松懈一些，核心目的是易懂和美观。
+## 排版规范
 
-在文件托管上面，这个 Github 仓库默认只存放图片和 Markdown 源码一类的，对于需要存放的 PDF 文件，请迁移到对应的 [HuggingFace 仓库](https://huggingface.co/datasets/RainPPR/whk/tree/main)中，它对大文件支持更好，而且专门为大文件优化。
+在学术内容方面，排版参考 [OI Wiki 格式手册](https://oi-wiki.org/intro/format/)；中文文案排版参考 [中文文案排版指北](https://rainppr.dpdns.org/chinese-copywriting-guidelines/)。
 
-与此同时，我们对文字的设计和语言的描述有着较高的要求和取向，正如前面所说，我们希望打造的文档，是一个适合阅读的，因此可以适当用一些描述性的语言，但是要避免长篇大论的啰唆，用精炼的语言构造出丰富的知识库。
+本站的核心目标是构建一套适合高中生深度阅读的文化课文档，而非单纯的工具书或教材。因此，在遵循规范的前提下，排版应更侧重于**美观性**与**易读性**。
 
-最近，我阅读到了一篇文章，叫作 [Networked Thought](https://jzhao.xyz/posts/networked-thought)，我很欣赏其中指出的一些观点，并且将一些思想融入到这个网站中。尽管这个网站核心仍然是“树状组织”的，而非“根茎式组织”的，但是我认为高中文化课知识自带的零散与系统的一种美妙的杂糅，反而赋予了本网站一定的、在线性和层级式之外的 compounded 架构。
+## 资源托管
 
-不妨引用一些里面我认为很好的话：
+为优化仓库性能，GitHub 仓库主要用于存放 Markdown 源码及图片。对于 PDF 等大型资料，请统一存放至 [HuggingFace 仓库](https://huggingface.co/datasets/RainPPR/whk/tree/main)，该平台对大文件拥有更完善的存储与加载支持。
 
-> A digital garden is not a file cabinet, nor is it fully an index. A digital garden is less so a well-kempt plot for farming and more a mess of entangled growth. It is a network of interconnected ideas and thoughts, clustered by how they are associated with each other.
+## 语言风格
+
+我们追求精炼且富有感染力的文字表达。文稿应避免冗长乏味的叙述，建议使用描述性语言引导读者思考，在简洁的文字背后构建丰富的知识图谱。
+
+## 知识架构（Networked Thought）
+
+本站深受 [Networked Thought](https://jzhao.xyz/posts/networked-thought) 理念启发。尽管目前仍以树状层级为核心组织形式，但我们致力于在高中知识的系统性与零散性之间寻求一种动态平衡，从而形成一种超越线性叙事的复合架构。
+
+正如数字花园（Digital Garden）所倡导的：
+
+> 数字花园既非文件柜，亦非单纯的索引，它更像是一片自由生长、相互交织的丛林。在这个由想法与思考构成的网络中，知识基于内在的关联而聚集。
 >
-> This is not because I don’t like order, but because I think **a dash of chaos and entropy is good for new ideas**. They help connect two separate ideas that you normally would not have associated with each other, and to imagine the ‘what if’ more frequently.
+> 我们认为**适度的非线性与随机性有利于新思想的产生**。它能打破学科间的壁垒，连接看似孤立的观点，并激发更多关于“如果……会怎样”的想象。
 
-我们的终极目标是，尽管这几乎不可能实现，打造一本让学生像读物一样阅读，能在获取新奇的知识的同时，掌握一定的应试技巧，毕竟在现在的中国大陆，教育压力，尤其是应试教育的选拔压力，仍然支配着几代人。
+## 核心愿景
+
+我们的目标是打造一份能够被当作“读物”来自由阅读的系统性知识库。在引导学生探索新知的同时，融入实用的应试技巧。我们希望在当下选拔性教育的压力下，能为学子们提供一个兼具深度与趣味、学习与探索共存的空间。
