@@ -38,45 +38,54 @@ function copyRecursiveSync(src, dest) {
 
 function syncToTarget(targetName, mode) {
     const targetDir = path.resolve(projectRoot, targetName);
-    const rulesDest = mode === 2 ? path.join(targetDir, 'rules') : targetDir;
     
     console.log(`[onstart] Syncing to ${targetName} (Mode ${mode})...`);
 
-    // 清理旧内容（如果存在），确保同步后目录干净
+    // 清理旧内容
     if (fs.existsSync(targetDir)) {
         fs.rmSync(targetDir, { recursive: true, force: true });
     }
     
     fs.mkdirSync(targetDir, { recursive: true });
-    if (mode === 2) fs.mkdirSync(rulesDest, { recursive: true });
 
-    // 同步 AGENTS.md (更名为该目录所需的规则文件名，或对模式 1 直接复制)
-    // 模式 1 复制为目标对应的专有名称（如 .clinerules），模式 2 复制到 rules 文件夹
+    // 1. 同步 AGENTS.md
     if (fs.existsSync(agentsMd)) {
-        const destFile = mode === 1 ? path.join(targetDir, 'AGENT_GUIDE.md') : path.join(rulesDest, 'AGENTS.md');
+        const destFile = mode === 1 ? path.join(targetDir, 'AGENT_GUIDE.md') : path.join(targetDir, 'rules', 'AGENTS.md');
+        if (mode === 2) fs.mkdirSync(path.join(targetDir, 'rules'), { recursive: true });
         fs.copyFileSync(agentsMd, destFile);
     }
 
-    // 同步 .agents 目录下的所有内容 (skills, workflows, rules)
+    // 2. 同步 .agents 目录下的内容
     if (fs.existsSync(agentsDir)) {
         fs.readdirSync(agentsDir).forEach(item => {
             const srcPath = path.join(agentsDir, item);
-            const destPath = path.join(rulesDest, item);
+            let destPath;
+            
+            if (item === 'skills' || item === 'workflows') {
+                // skills 和 workflows 始终在根目录
+                destPath = path.join(targetDir, item);
+            } else if (item === 'rules') {
+                // rules 文件夹根据模式放置
+                destPath = mode === 2 ? path.join(targetDir, 'rules', 'rules') : path.join(targetDir, 'rules');
+                if (mode === 2) fs.mkdirSync(path.join(targetDir, 'rules'), { recursive: true });
+            } else {
+                // 其它文件（如可能存在的 README）
+                destPath = mode === 2 ? path.join(targetDir, 'rules', item) : path.join(targetDir, item);
+            }
+            
             copyRecursiveSync(srcPath, destPath);
         });
     }
 
-    // 写入 .gitignore
+    // 3. 写入 .gitignore
     const gitignorePath = path.join(targetDir, '.gitignore');
-    let gitignoreContent = '';
+    let ignoreItems = ['skills/', 'workflows/'];
     if (mode === 1) {
-        // 模式 1：忽略复制进去的文件夹
-        gitignoreContent = 'skills/\nworkflows/\nrules/\nAGENT_GUIDE.md\n';
+        ignoreItems.push('rules/', 'AGENT_GUIDE.md');
     } else {
-        // 模式 2：忽略核心文件夹
-        gitignoreContent = 'skills/\nworkflows/\nrules/\n';
+        ignoreItems.push('rules/');
     }
-    fs.writeFileSync(gitignorePath, gitignoreContent);
+    fs.writeFileSync(gitignorePath, ignoreItems.join('\n') + '\n');
 }
 
 // 执行同步
