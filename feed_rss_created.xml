@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Sun, 12 Apr 2026 10:37:46 -0000</pubDate>
-    <lastBuildDate>Sun, 12 Apr 2026 10:37:46 -0000</lastBuildDate>
+    <pubDate>Sun, 12 Apr 2026 10:43:34 -0000</pubDate>
+    <lastBuildDate>Sun, 12 Apr 2026 10:43:34 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -306,10 +306,7 @@ git submo...&lt;/p&gt;</description>
       <description>&lt;h1&gt;魔法少女小圆&lt;/h1&gt;
 &lt;div class=&#34;grid cards&#34; markdown&gt;
 
-- &lt;figure markdown=&#34;span&#34;&gt;
-        ![晓美焰](https://q1.qlogo.cn/g?b=qq&amp;nk=1539871957&amp;s=160)
-        &lt;figcaption&gt;晓美焰&lt;/figcaption&gt;
-    &lt;/figure&gt;
+- ![晓美焰](https://q1.qlogo.cn/g?b=qq&amp;nk=1539871957&amp;s=160)
 
     ---
 
@@ -317,14 +314,19 @@ git submo...&lt;/p&gt;</description>
     &lt;b&gt;暁美ほむら Akemi Homura&lt;/b&gt;&lt;br&gt;&lt;i&gt;a.k.a. Starrykiller&lt;/i&gt;
     &lt;/span&gt;&lt;/center&gt;
 
-- &lt;figure markdown=&#34;span&#34;&gt;
-        ![鹿目圆](https://q1.qlogo.cn/g?b=qq&amp;nk=2878953259&amp;s=160)
-        &lt;figcaption&gt;鹿目圆&lt;/figcaption&gt;
-    &lt;/figure&gt;
+- ![鹿目圆](https://q1.qlogo.cn/g?b=qq&amp;nk=2878953259&amp;s=160)
 
     ---
 
-    &lt;center&gt;&lt;span style=&#34;c...</description>
+    &lt;center&gt;&lt;span style=&#34;color:#ff99cc;&#34;&gt;
+    &lt;b&gt;鹿目まどか Kaname Madoka&lt;/b&gt;&lt;br&gt;&lt;i&gt;a.k.a. Madoka&lt;/i&gt;
+    &lt;/span&gt;&lt;/center&gt;
+
+- ![美树沙耶香](https://q1.qlogo.cn/g?b=qq&amp;nk=168527298&amp;s=160)
+
+    ---
+
+    &lt;ce...</description>
       <link>https://raineblog-whk.pages.dev/home/madoka/</link>
       <pubDate>Mon, 09 Feb 2026 10:41:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
