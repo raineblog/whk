@@ -114,7 +114,7 @@ jobs:
           mv download_pdfs/*.pdf build/ || echo "No PDFs to move"
 
       - name: Upload Binaries (Tag Trigger)
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         if: github.event_name != 'workflow_dispatch' && startsWith(github.ref, 'refs/tags/')
         with:
           files: build/*.pdf
@@ -123,7 +123,7 @@ jobs:
 
       - name: Upload Binaries (Manual Trigger with Tag)
         if: github.event_name == 'workflow_dispatch' && inputs.tag_name != ''
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ github.event.inputs.tag_name }}
           files: build/*.pdf
