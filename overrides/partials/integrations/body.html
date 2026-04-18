@@ -17,7 +17,7 @@
 </script>
 
 {% raw %}
-<script defer>
+<script>
     var _macros = {
         "\\RR": "\\mathbb{R}",
         "\\i": "\\mathrm{i}",
@@ -83,12 +83,8 @@
         }
     }
 
-    try {
-        document$.subscribe(function (event) {
-            renderMath();
-        });
-    } catch (error) {
-        document.addEventListener("DOMContentLoaded", renderMath);
-    }
+    document$.subscribe(function (event) {
+        renderMath();
+    });
 </script>
 {% endraw %}
