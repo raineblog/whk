@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Mon, 13 Apr 2026 01:57:59 -0000</pubDate>
-    <lastBuildDate>Mon, 13 Apr 2026 01:57:59 -0000</lastBuildDate>
+    <pubDate>Sat, 18 Apr 2026 08:49:46 -0000</pubDate>
+    <lastBuildDate>Sat, 18 Apr 2026 08:49:46 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -2367,12 +2367,11 @@ P(AB) = P...&lt;/p&gt;</description>
       
       
       <description>&lt;h1&gt;相关及回归分析&lt;/h1&gt;
-&lt;h2&gt;相关及回归分析&lt;/h2&gt;
-&lt;h3&gt;相关与相关系数&lt;/h3&gt;
-&lt;p&gt;相关（correlation）又称相关性、关联，在概率论和统计学中，指一种随机变量或现象与另一种或几种之间变动伴随关系。相关关系又称统计关系，一般会描述这些变量或现象关联程度的强度和方向。&lt;/p&gt;
-&lt;p&gt;在统计学中，相关的意义是：用来衡量两个变量相对于其相互独立的距离。在这个广义的定义下，有许多根据数据特点用来衡量数据相关性而定义的系数，称作相关系数。在评估相关时，利用相关系数来计量的两个或几个随机变量协同变化的程度；当变量间呈现同一方向的变化趋势时，即同时增加或减少，称为正相关，反之，则称为负相关。&lt;/p&gt;
-&lt;p&gt;对于不同测量尺度的变量，有不同的相关系数可用，在高中我们一般默认相关系数指的是&lt;strong&gt;皮尔逊相关系数&lt;/strong&gt;（Pearson&#39;s &lt;em&gt;r&lt;/em&gt;）——衡量两个等距尺度或等比尺度变量之相关性。是最常见的，也是学习统计学时第一个接触的相关系数。&lt;/p&gt;
-&lt;p&gt;在统计学和计量经济学中，对一个变量或参数符号上方加一个“帽子”符号（$\hat{x}$，英文称作 hat 或 circumflex），通常表示该参数的估计值（Estimated Value）或预...&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;相关（correlation）&lt;/strong&gt;又称相关性、关联，在概率论和统计学中，指一种随机变量或现象与另一种或几种之间变动伴随关系。相关关系又称&lt;strong&gt;统计关系&lt;/strong&gt;，一般会描述这些变量或现象关联程度的强度和方向。&lt;/p&gt;
+&lt;p&gt;在统计学中，相关的意义是：用来衡量两个变量相对于其相互独立的距离。在这个广义的定义下，有许多根据数据特点用来衡量数据相关性而定义的系数，称作&lt;strong&gt;相关系数&lt;/strong&gt;。在评估相关时，利用相关系数来计量的两个或几个随机变量协同变化的程度；当变量间呈现同一方向的变化趋势时，即同时增加或减少，称为&lt;strong&gt;正相关&lt;/strong&gt;，反之，则称为&lt;strong&gt;负相关&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;回归分析&lt;/strong&gt;（regression analysis）则是研究变量间依赖关系的一种统计方法，旨在建立数学模型来描述因变量与一个或多个自变量之间的关系。简单来说，相关分析关注「是否一起变」，回归分析关注「怎么变」。&lt;/p&gt;
+&lt;p&gt;统计方法的核心思想可以用一句话概括：数据 $=$ 趋势（可解释部分）$+$ 波动（随机/不可控部分）。&lt;/p&gt;
+&lt;p&gt;统计方法所做的，就是判断「趋势强到足以压过波动了吗？」——回归用&lt;strong&gt;残差平方和&lt;/strong&gt;衡量没解释掉的波动，独立性...&lt;/p&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/probability/4/</link>
       <pubDate>Sun, 18 May 2025 09:51:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>

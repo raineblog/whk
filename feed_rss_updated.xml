@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Mon, 13 Apr 2026 01:57:59 -0000</pubDate>
-    <lastBuildDate>Mon, 13 Apr 2026 01:57:59 -0000</lastBuildDate>
+    <pubDate>Sat, 18 Apr 2026 08:49:46 -0000</pubDate>
+    <lastBuildDate>Sat, 18 Apr 2026 08:49:46 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,176 @@
     
 
     
+    
+    <item>
+      <title>数字和计数系统</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;数字和计数系统&lt;/h1&gt;
+&lt;h2&gt;数字系统&lt;/h2&gt;
+&lt;p&gt;区分数字系统和记数系统：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;数字系统：Numbers can be classified into sets, called &lt;strong&gt;number sets&lt;/strong&gt; or &lt;strong&gt;number systems&lt;/strong&gt;, such as the natural numbers and the real numbers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;记数系统：A &lt;strong&gt;numeral system&lt;/strong&gt; is a writing system for expressing numbers without words; that is, a mathematical notation for representing numbers of a given set, using digits (in positional notation) or other symbols (in sign-value notation) in a consistent manner.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;Venn_Diagram_of_Numbers_Expanded.svg&#34;&gt;{ width=...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/mathematics/1/</link>
+      <pubDate>Sat, 18 Apr 2026 08:48:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/mathematics/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/mathematics/1/</guid>
+      
+    </item>
+    
+    <item>
+      <title>天体运动详解：万有引力机制与卫星轨道应用</title>
+      
+      
+      
+      
+      <description>本文系统阐述天体运动的重力加速度推导，涵盖极点、赤道及星球内部的重力分布与密度计算；详解万有引力定律、壳层定理与开普勒三大定律，并延伸至第一、第二、第三宇宙速度的概念与计算，适合大学物理与天文竞赛学习。</description>
+      <link>https://raineblog-whk.pages.dev/science/mechanics/6/</link>
+      <pubDate>Sat, 18 Apr 2026 08:48:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/mechanics/6/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/mechanics/6/</guid>
+      
+    </item>
+    
+    <item>
+      <title>近代物理守恒定律详解：宇称、平移、旋转对称性应用</title>
+      
+      
+      
+      
+      <description>本文系统阐述近代物理的核心守恒定律，包括宇称、平移、旋转对称性及其对应的能量、动量、角动量守恒；进而探讨绝对与近似定律的适用范围，重点分析黑体辐射的实验困境、普朗克量子化假设、爱因斯坦光电效应及其方程，并延伸至康普顿散射、波粒二象性、粒子标准模型及狭义相对论的时空变换与质能关系。</description>
+      <link>https://raineblog-whk.pages.dev/science/modern/4/</link>
+      <pubDate>Sat, 18 Apr 2026 08:48:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/modern/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/modern/4/</guid>
+      
+    </item>
+    
+    <item>
+      <title>组合数学</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;组合数学&lt;/h1&gt;
+&lt;p&gt;传说早在 $\texttt{114514}$ 年前，&lt;br&gt;一位名为忆哀的神灵来到地球，&lt;br&gt;发现了人类——另一种有智慧的物种。&lt;/p&gt;
+&lt;p&gt;她觉得这很有趣，为了加速人类文明的发展，&lt;br&gt;她向人间传下了一类计数问题——十二重计数，&lt;br&gt;这也正是组合数学的开端。&lt;/p&gt;
+&lt;p&gt;而只有搞明白这类问题，才能在组合数学上继续深入。&lt;/p&gt;
+&lt;/center&gt;
+&lt;h2&gt;基本原理&lt;/h2&gt;
+&lt;p&gt;求证不等式的方法有几种，最简单的是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;设函数，证明函数恒大于或小于零。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;直接对函数求导，尝试证明函数最小值大于零，或最大值小于零。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;注意到多项式只要求够多次数多导数，一定会变为零，因此如果不好解决，继续求导，对高阶导数尝试分析其是否恒正或恒负。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注意：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;解一元一次不等式 $ax&amp;gt;b$，需要按照 $a&amp;gt;0,a=0,a&amp;lt;0$ 分类讨论。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解一元一次不等式 $ax&amp;gt;b$，其中 $x\in[m,n]$，先按照 $a&amp;gt;0,a=0,a&amp;lt;0$ 分类讨论，然后按照 $\dfrac{b}{a}$ 是否落在区间 $[m,n]$ 内。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;边界条件：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;二次项系数不含参数且自变量没有限制时，临界条件是 $...&lt;/li&gt;
+&lt;/ol&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/polynomial/5/</link>
+      <pubDate>Sat, 18 Apr 2026 08:48:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/polynomial/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/polynomial/5/</guid>
+      
+    </item>
+    
+    <item>
+      <title>多项式组合</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;多项式组合&lt;/h1&gt;
+&lt;h2&gt;其他组合数&lt;/h2&gt;
+&lt;p&gt;在掌握了二项式定理和基本组合恒等式之后，我们来学习几种进阶的计数方法和原理。它们在竞赛数学和离散数学中有广泛应用。&lt;/p&gt;
+&lt;h3&gt;多重集&lt;/h3&gt;
+&lt;p&gt;多重集（或称可重集）是集合概念的推广。在普通集合中，相同的元素只能出现一次，因此只能表现出「有或无」的属性；而在多重集中，同一个元素可以出现多次，因此可以表现出元素的个数。&lt;/p&gt;
+&lt;p&gt;我们将其表示为：&lt;/p&gt;
+&lt;p&gt;$$
+{a_1,a_1,\dots,a_1,a_2,\dots}
+$$&lt;/p&gt;
+&lt;p&gt;为简便起见，下文采用如下简记法：&lt;/p&gt;
+&lt;p&gt;$$
+{n_1\cdot a_1,n_2\cdot a_2,\dots}
+$$&lt;/p&gt;
+&lt;p&gt;多重集 $S={n_1\cdot a_1,n_2\cdot a_2,\cdots,n_k\cdot a_k}$ 的全排列个数为：&lt;/p&gt;
+&lt;p&gt;$$
+{n\choose n_1,n_2,\dots,n_k}={n!\over\prod_{1\le i\le k}n_i!}
+$$&lt;/p&gt;
+&lt;p&gt;这个全排列数被称为&lt;strong&gt;多重集的排列数&lt;/strong&gt;，也常被称为&lt;strong&gt;多重组合数&lt;/strong&gt;。容易注意到：&lt;/p&gt;
+&lt;p&gt;$$
+{m\choose n_1,n_2}={m\choose...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/polynomial/6/</link>
+      <pubDate>Sat, 18 Apr 2026 08:48:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/polynomial/6/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/polynomial/6/</guid>
+      
+    </item>
+    
+    <item>
+      <title>相关及回归分析</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;相关及回归分析&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;相关（correlation）&lt;/strong&gt;又称相关性、关联，在概率论和统计学中，指一种随机变量或现象与另一种或几种之间变动伴随关系。相关关系又称&lt;strong&gt;统计关系&lt;/strong&gt;，一般会描述这些变量或现象关联程度的强度和方向。&lt;/p&gt;
+&lt;p&gt;在统计学中，相关的意义是：用来衡量两个变量相对于其相互独立的距离。在这个广义的定义下，有许多根据数据特点用来衡量数据相关性而定义的系数，称作&lt;strong&gt;相关系数&lt;/strong&gt;。在评估相关时，利用相关系数来计量的两个或几个随机变量协同变化的程度；当变量间呈现同一方向的变化趋势时，即同时增加或减少，称为&lt;strong&gt;正相关&lt;/strong&gt;，反之，则称为&lt;strong&gt;负相关&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;回归分析&lt;/strong&gt;（regression analysis）则是研究变量间依赖关系的一种统计方法，旨在建立数学模型来描述因变量与一个或多个自变量之间的关系。简单来说，相关分析关注「是否一起变」，回归分析关注「怎么变」。&lt;/p&gt;
+&lt;p&gt;统计方法的核心思想可以用一句话概括：数据 $=$ 趋势（可解释部分）$+$ 波动（随机/不可控部分）。&lt;/p&gt;
+&lt;p&gt;统计方法所做的，就是判断「趋势强到足以压过波动了吗？」——回归用&lt;strong&gt;残差平方和&lt;/strong&gt;衡量没解释掉的波动，独立性...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/probability/4/</link>
+      <pubDate>Sat, 18 Apr 2026 08:48:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/probability/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/4/</guid>
+      
+    </item>
+    
+    <item>
+      <title>植物激素详解：生长素分布机制与农业技术推广应用</title>
+      
+      
+      
+      
+      <description>本文系统阐述植物激素的发现历程与分类，重点解析生长素的合成途径、极性运输机制及其在细胞伸长、器官发育中的作用，并对比赤霉素、细胞分裂素等其他激素的生理功能与应用场景，提供从分子结构到农业技术的完整技术路线图。</description>
+      <link>https://raineblog-whk.pages.dev/science/species/3/</link>
+      <pubDate>Sat, 18 Apr 2026 08:48:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/species/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/species/3/</guid>
+      
+    </item>
     
     <item>
       <title>格式手册</title>
@@ -132,85 +302,6 @@
       <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/science/element/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/element/</guid>
-      
-    </item>
-    
-    <item>
-      <title>组合数学</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;组合数学&lt;/h1&gt;
-&lt;p&gt;传说早在 $\texttt{114514}$ 年前，&lt;br&gt;一位名为忆哀的神灵来到地球，&lt;br&gt;发现了人类——另一种有智慧的物种。&lt;/p&gt;
-&lt;p&gt;她觉得这很有趣，为了加速人类文明的发展，&lt;br&gt;她向人间传下了一类计数问题——十二重计数，&lt;br&gt;这也正是组合数学的开端。&lt;/p&gt;
-&lt;p&gt;而只有搞明白这类问题，才能在组合数学上继续深入。&lt;/p&gt;
-&lt;/center&gt;
-&lt;h2&gt;基本原理&lt;/h2&gt;
-&lt;p&gt;求证不等式的方法有几种，最简单的是：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;设函数，证明函数恒大于或小于零。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;直接对函数求导，尝试证明函数最小值大于零，或最大值小于零。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;注意到多项式只要求够多次数多导数，一定会变为零，因此如果不好解决，继续求导，对高阶导数尝试分析其是否恒正或恒负。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;注意：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;解一元一次不等式 $ax&amp;gt;b$，需要按照 $a&amp;gt;0,a=0,a&amp;lt;0$ 分类讨论。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;解一元一次不等式 $ax&amp;gt;b$，其中 $x\in[m,n]$，先按照 $a&amp;gt;0,a=0,a&amp;lt;0$ 分类讨论，然后按照 $\dfrac{b}{a}$ 是否落在区间 $[m,n]$ 内。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;边界条件：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;二次项系数不含参数且自变量没有限制时，临界条件是 $...&lt;/li&gt;
-&lt;/ol&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/polynomial/5/</link>
-      <pubDate>Wed, 08 Apr 2026 13:10:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/polynomial/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/polynomial/5/</guid>
-      
-    </item>
-    
-    <item>
-      <title>多项式组合</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;多项式组合&lt;/h1&gt;
-&lt;h2&gt;其他组合数&lt;/h2&gt;
-&lt;p&gt;在掌握了二项式定理和基本组合恒等式之后，我们来学习几种进阶的计数方法和原理。它们在竞赛数学和离散数学中有广泛应用。&lt;/p&gt;
-&lt;h3&gt;多重集&lt;/h3&gt;
-&lt;p&gt;多重集（或称可重集）是集合概念的推广。在普通集合中，相同的元素只能出现一次，因此只能表现出「有或无」的属性；而在多重集中，同一个元素可以出现多次，因此可以表现出元素的个数。&lt;/p&gt;
-&lt;p&gt;我们将其表示为：&lt;/p&gt;
-&lt;p&gt;$$
-{a_1,a_1,\dots,a_1,a_2,\dots}
-$$&lt;/p&gt;
-&lt;p&gt;为简便起见，下文采用如下简记法：&lt;/p&gt;
-&lt;p&gt;$$
-{n_1\cdot a_1,n_2\cdot a_2,\dots}
-$$&lt;/p&gt;
-&lt;p&gt;多重集 $S={n_1\cdot a_1,n_2\cdot a_2,\cdots,n_k\cdot a_k}$ 的全排列个数为：&lt;/p&gt;
-&lt;p&gt;$$
-{n\choose n_1,n_2,\dots,n_k}={n!\over\prod_{1\le i\le k}n_i!}
-$$&lt;/p&gt;
-&lt;p&gt;这个全排列数被称为&lt;strong&gt;多重集的排列数&lt;/strong&gt;，也常被称为&lt;strong&gt;多重组合数&lt;/strong&gt;。容易注意到：&lt;/p&gt;
-&lt;p&gt;$$
-{m\choose n_1,n_2}={m\choose...&lt;/p&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/polynomial/6/</link>
-      <pubDate>Wed, 08 Apr 2026 13:10:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/polynomial/6/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/polynomial/6/</guid>
       
     </item>
     
@@ -478,32 +569,6 @@ $$&lt;/p&gt;
       <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/science/function/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/function/2/</guid>
-      
-    </item>
-    
-    <item>
-      <title>数字和计数系统</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;数字和计数系统&lt;/h1&gt;
-&lt;h2&gt;数字系统&lt;/h2&gt;
-&lt;p&gt;区分数字系统和记数系统：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;数字系统：Numbers can be classified into sets, called &lt;strong&gt;number sets&lt;/strong&gt; or &lt;strong&gt;number systems&lt;/strong&gt;, such as the natural numbers and the real numbers.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;记数系统：A &lt;strong&gt;numeral system&lt;/strong&gt; is a writing system for expressing numbers without words; that is, a mathematical notation for representing numbers of a given set, using digits (in positional notation) or other symbols (in sign-value notation) in a consistent manner.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;Venn_Diagram_of_Numbers_Expanded.svg&#34;&gt;{ width=...&lt;/p&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/mathematics/1/</link>
-      <pubDate>Sun, 05 Apr 2026 08:55:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/mathematics/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/mathematics/1/</guid>
       
     </item>
     
@@ -1159,21 +1224,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>天体运动详解：万有引力机制与卫星轨道应用</title>
-      
-      
-      
-      
-      <description>本文系统阐述天体运动的重力加速度推导，涵盖极点、赤道及星球内部的重力分布与密度计算；详解万有引力定律、壳层定理与开普勒三大定律，并延伸至第一、第二、第三宇宙速度的概念与计算，适合大学物理与天文竞赛学习。</description>
-      <link>https://raineblog-whk.pages.dev/science/mechanics/6/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/mechanics/6/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/mechanics/6/</guid>
-      
-    </item>
-    
-    <item>
       <title>概率初步与随机化</title>
       
       
@@ -1269,27 +1319,6 @@ P(AB) = P...&lt;/p&gt;</description>
       <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/science/probability/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/3/</guid>
-      
-    </item>
-    
-    <item>
-      <title>相关及回归分析</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;相关及回归分析&lt;/h1&gt;
-&lt;h2&gt;相关及回归分析&lt;/h2&gt;
-&lt;h3&gt;相关与相关系数&lt;/h3&gt;
-&lt;p&gt;相关（correlation）又称相关性、关联，在概率论和统计学中，指一种随机变量或现象与另一种或几种之间变动伴随关系。相关关系又称统计关系，一般会描述这些变量或现象关联程度的强度和方向。&lt;/p&gt;
-&lt;p&gt;在统计学中，相关的意义是：用来衡量两个变量相对于其相互独立的距离。在这个广义的定义下，有许多根据数据特点用来衡量数据相关性而定义的系数，称作相关系数。在评估相关时，利用相关系数来计量的两个或几个随机变量协同变化的程度；当变量间呈现同一方向的变化趋势时，即同时增加或减少，称为正相关，反之，则称为负相关。&lt;/p&gt;
-&lt;p&gt;对于不同测量尺度的变量，有不同的相关系数可用，在高中我们一般默认相关系数指的是&lt;strong&gt;皮尔逊相关系数&lt;/strong&gt;（Pearson&#39;s &lt;em&gt;r&lt;/em&gt;）——衡量两个等距尺度或等比尺度变量之相关性。是最常见的，也是学习统计学时第一个接触的相关系数。&lt;/p&gt;
-&lt;p&gt;在统计学和计量经济学中，对一个变量或参数符号上方加一个“帽子”符号（$\hat{x}$，英文称作 hat 或 circumflex），通常表示该参数的估计值（Estimated Value）或预...&lt;/p&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/probability/4/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/probability/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/4/</guid>
       
     </item>
     
@@ -1454,21 +1483,6 @@ P(AB) = P...&lt;/p&gt;</description>
       <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/science/solid/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/solid/2/</guid>
-      
-    </item>
-    
-    <item>
-      <title>植物激素详解：生长素分布机制与农业技术推广应用</title>
-      
-      
-      
-      
-      <description>本文系统阐述植物激素的发现历程与分类，重点解析生长素的合成途径、极性运输机制及其在细胞伸长、器官发育中的作用，并对比赤霉素、细胞分裂素等其他激素的生理功能与应用场景，提供从分子结构到农业技术的完整技术路线图。</description>
-      <link>https://raineblog-whk.pages.dev/science/species/3/</link>
-      <pubDate>Tue, 31 Mar 2026 10:07:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/species/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/species/3/</guid>
       
     </item>
     
@@ -2197,21 +2211,6 @@ P(AB) = P...&lt;/p&gt;</description>
       <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/science/modern/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/modern/2/</guid>
-      
-    </item>
-    
-    <item>
-      <title>近代物理守恒定律详解：宇称、平移、旋转对称性应用</title>
-      
-      
-      
-      
-      <description>本文系统阐述近代物理的核心守恒定律，包括宇称、平移、旋转对称性及其对应的能量、动量、角动量守恒；进而探讨绝对与近似定律的适用范围，重点分析黑体辐射的实验困境、普朗克量子化假设、爱因斯坦光电效应及其方程，并延伸至康普顿散射、波粒二象性、粒子标准模型及狭义相对论的时空变换与质能关系。</description>
-      <link>https://raineblog-whk.pages.dev/science/modern/4/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/modern/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/modern/4/</guid>
       
     </item>
     
