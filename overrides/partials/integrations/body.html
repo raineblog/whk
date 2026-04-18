@@ -1,16 +1,13 @@
-{#-
-  This file was automatically generated - do not edit
--#}
+{#- This file was automatically generated - do not edit -#}
 
 <script defer>
-    const exportParam = new URLSearchParams(location.search).get('export')?.toLowerCase();
+    const exportParam = new URLSearchParams(location.search).get("export")?.toLowerCase();
 
-    if (exportParam === 'true') {
+    if (exportParam === "true") {
         document$.subscribe(({ body }) => {
             console.log("export");
         });
-    }
-    else {
+    } else {
         console.log("attempt to load giscus");
         load_giscus();
         document$.subscribe(({ body }) => {
@@ -21,7 +18,6 @@
 
 {% raw %}
 <script defer>
-(function() {
     var _macros = {
         "\\RR": "\\mathbb{R}",
         "\\i": "\\mathrm{i}",
@@ -87,13 +83,12 @@
         }
     }
 
-    if (typeof document$ !== "undefined" && document$) {
-        document$.subscribe(function(event) {
+    try {
+        document$.subscribe(function (event) {
             renderMath();
         });
-    } else {
+    } catch (error) {
         document.addEventListener("DOMContentLoaded", renderMath);
     }
-})();
 </script>
 {% endraw %}
