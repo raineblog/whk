@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sat, 18 Apr 2026 10:23:58 -0000</pubDate>
-    <lastBuildDate>Sat, 18 Apr 2026 10:23:58 -0000</lastBuildDate>
+    <pubDate>Sat, 18 Apr 2026 10:32:47 -0000</pubDate>
+    <lastBuildDate>Sat, 18 Apr 2026 10:32:47 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -44,7 +44,7 @@
 &lt;p&gt;统计方法的核心思想可以用一句话概括：数据 $=$ 趋势（可解释部分）$+$ 波动（随机/不可控部分）。&lt;/p&gt;
 &lt;p&gt;统计方法所做的，就是判断「趋势强到足以压过波动了吗？」——回归用&lt;strong&gt;残差平方和&lt;/strong&gt;衡量没解释掉的波动，独立性...&lt;/p&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/probability/4/</link>
-      <pubDate>Sat, 18 Apr 2026 10:23:00 +0000</pubDate>
+      <pubDate>Sat, 18 Apr 2026 10:31:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/science/probability/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/4/</guid>
