@@ -113,59 +113,61 @@
     }
 </style>
 
-<script defer="" src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
-<script defer="" src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.js"></script>
-<script defer="" src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/mhchem.min.js"></script>
-<script defer="" src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/render-a11y-string.min.js"></script>
-{% raw %}
-<script>
-    var _macros = {
-        "\\RR": "\\mathbb{R}",
-        "\\i": "\\mathrm{i}",
-        "\\d": "\\mathrm{d}",
-        "\\C": "\\mathbb{C}",
-        "\\R": "\\mathbb{R}",
-        "\\Q": "\\mathbb{Q}",
-        "\\Z": "\\mathbb{Z}",
-        "\\N": "\\mathbb{N}",
-        "\\P": "\\mathbb{P}",
-        "\\degree": "^\\circ",
-        "\\rank": "\\operatorname{rank}",
-        "\\op": "\\operatorname",
-        "\\paren": "\\left({#1}\\right)",
-        "\\bracket": "\\left[{#1}\\right]",
-        "\\brace": "\\left\\{{#1}\\right\\}",
-        "\\ceil": "\\left\\lceil{#1}\\right\\rceil",
-        "\\floor": "\\left\\lfloor{#1}\\right\\rfloor",
-        "\\vert": "\\left\\lvert{#1}\\right\\rvert",
-        "\\vec": "\\bm",
-        "\\vecc": "\\overrightarrow",
-        "\\poly": "\\ce{-\\!\\!\\![ #1 ]_n\\!\\!\\!\\!\\!-}",
-        "\\el": "#1\\mathrm{#2}^{#3}",
-        "\\pH": "p\\ce{H}",
-        "\\pOH": "p\\ce{OH}",
-        "\\con": "\\left[\\ce{#1}\\right]",
-        "\\val": "\\overset{#2}{\\ce{#1}}",
-        "’": "'",
-        "，": ",",
-        "。": ".",
-        "；": ";",
-        "：": ":",
-        "！": "!",
-        "？": "?",
-        "【": "[",
-        "】": "]",
-        "（": "(",
-        "）": ")",
-        "、": ",",
-        "—": "-",
-        "…": "\\dots",
-        "·": "\\cdot",
-        "->": "\\to",
-        "<-": "\\gets",
-    };
+<script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/mhchem.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/render-a11y-string.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/contrib/auto-render.min.js" integrity="sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz" crossorigin="anonymous"></script>
 
+{% raw %}
+<script data-swift-once="true">
     document$.subscribe(({ body }) => {
+        var _macros = {
+            "\\RR": "\\mathbb{R}",
+            "\\i": "\\mathrm{i}",
+            "\\d": "\\mathrm{d}",
+            "\\C": "\\mathbb{C}",
+            "\\R": "\\mathbb{R}",
+            "\\Q": "\\mathbb{Q}",
+            "\\Z": "\\mathbb{Z}",
+            "\\N": "\\mathbb{N}",
+            "\\P": "\\mathbb{P}",
+            "\\degree": "^\\circ",
+            "\\rank": "\\operatorname{rank}",
+            "\\op": "\\operatorname",
+            "\\paren": "\\left({#1}\\right)",
+            "\\bracket": "\\left[{#1}\\right]",
+            "\\brace": "\\left\\{{#1}\\right\\}",
+            "\\ceil": "\\left\\lceil{#1}\\right\\rceil",
+            "\\floor": "\\left\\lfloor{#1}\\right\\rfloor",
+            "\\vert": "\\left\\lvert{#1}\\right\\rvert",
+            "\\vec": "\\bm",
+            "\\vecc": "\\overrightarrow",
+            "\\poly": "\\ce{-\\!\\!\\![ #1 ]_n\\!\\!\\!\\!\\!-}",
+            "\\el": "#1\\mathrm{#2}^{#3}",
+            "\\pH": "p\\ce{H}",
+            "\\pOH": "p\\ce{OH}",
+            "\\con": "\\left[\\ce{#1}\\right]",
+            "\\val": "\\overset{#2}{\\ce{#1}}",
+            "’": "'",
+            "，": ",",
+            "。": ".",
+            "；": ";",
+            "：": ":",
+            "！": "!",
+            "？": "?",
+            "【": "[",
+            "】": "]",
+            "（": "(",
+            "）": ")",
+            "、": ",",
+            "—": "-",
+            "…": "\\dots",
+            "·": "\\cdot",
+            "->": "\\to",
+            "<-": "\\gets",
+        };
+
         renderMathInElement(body, {
             delimiters: [
                 { left: "$$", right: "$$", display: true },
