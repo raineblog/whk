@@ -13,3 +13,69 @@
         });
     }
 </script>
+
+{% raw %}
+<script>
+    document$.subscribe(({ body }) => {
+        var mathElements = document.getElementsByClassName("math");
+        var macros = {
+            "\\RR": "\\mathbb{R}",
+            "\\i": "\\mathrm{i}",
+            "\\d": "\\mathrm{d}",
+            "\\C": "\\mathbb{C}",
+            "\\R": "\\mathbb{R}",
+            "\\Q": "\\mathbb{Q}",
+            "\\Z": "\\mathbb{Z}",
+            "\\N": "\\mathbb{N}",
+            "\\P": "\\mathbb{P}",
+            "\\degree": "^\\circ",
+            "\\rank": "\\operatorname{rank}",
+            "\\op": "\\operatorname",
+            "\\paren": "\\left({#1}\\right)",
+            "\\bracket": "\\left[{#1}\\right]",
+            "\\brace": "\\left\\{{#1}\\right\\}",
+            "\\ceil": "\\left\\lceil{#1}\\right\\rceil",
+            "\\floor": "\\left\\lfloor{#1}\\right\\rfloor",
+            "\\vert": "\\left\\lvert{#1}\\right\\rvert",
+            "\\vec": "\\bm",
+            "\\vecc": "\\overrightarrow",
+            "\\poly": "\\ce{-\\!\\!\\![ #1 ]_n\\!\\!\\!\\!\\!-}",
+            "\\el": "#1\\mathrm{#2}^{#3}",
+            "\\pH": "p\\ce{H}",
+            "\\pOH": "p\\ce{OH}",
+            "\\con": "\\left[\\ce{#1}\\right]",
+            "\\val": "\\overset{#2}{\\ce{#1}}",
+            "’": "'",
+            "，": ",",
+            "。": ".",
+            "；": ";",
+            "：": ":",
+            "！": "!",
+            "？": "?",
+            "【": "[",
+            "】": "]",
+            "（": "(",
+            "）": ")",
+            "、": ",",
+            "—": "-",
+            "…": "\\dots",
+            "·": "\\cdot",
+            "->": "\\to",
+            "<-": "\\gets",
+        };
+        for (var i = 0; i < mathElements.length; i++) {
+            var texText = mathElements[i].firstChild;
+            if (mathElements[i].tagName == "SPAN") {
+                katex.render(texText.data, mathElements[i], {
+                    displayMode: mathElements[i].classList.contains("display"),
+                    throwOnError: false,
+                    macros: macros,
+                    fleqn: false,
+                    strict: false,
+                    trust: true,
+                });
+            }
+        }
+    });
+</script>
+{% endraw %}
