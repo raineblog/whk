@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 20 Apr 2026 01:58:37 -0000</pubDate>
-    <lastBuildDate>Mon, 20 Apr 2026 01:58:37 -0000</lastBuildDate>
+    <pubDate>Wed, 22 Apr 2026 15:10:04 -0000</pubDate>
+    <lastBuildDate>Wed, 22 Apr 2026 15:10:04 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,111 @@
     
 
     
+    
+    <item>
+      <title>概率初步与随机化</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;概率初步与随机化&lt;/h1&gt;
+&lt;p&gt;提示：高中这一部分涉及的非常浅，并且一般的讲解也没有逻辑和思维可言，如果你想要更深刻的了解这些内容，又不想过于深入，建议你阅读 &lt;a href=&#34;http://staff.ustc.edu.cn/~zwp/teach/Prob-Stat/probstat.htm&#34;&gt;Prob-Stat&lt;/a&gt;，以及我爬取的这个课程的&lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/resolve/main/math/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E8%AE%B2%E4%B9%89.pdf&#34;&gt;讲义&lt;/a&gt;和&lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/resolve/main/math/USTC_Prob_Stat_Complete.pdf&#34;&gt;课件&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;以下部分内容来自 &lt;a href=&#34;https://oi-wiki.org/&#34;&gt;&lt;strong&gt;OI Wiki&lt;/strong&gt;&lt;/a&gt;。&lt;/p&gt;
+&lt;h2&gt;样本与事件&lt;/h2&gt;
+&lt;h3&gt;样本空间&lt;/h3&gt;
+&lt;p&gt;简而言之，样本空间 ...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/probability/1/</link>
+      <pubDate>Wed, 22 Apr 2026 15:09:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/probability/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/1/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/probability/1.png" type="image/png" length="36021" />
+      
+    </item>
+    
+    <item>
+      <title>随机变量与条件概率</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;随机变量与条件概率&lt;/h1&gt;
+&lt;h2&gt;条件概率&lt;/h2&gt;
+&lt;h3&gt;条件概率&lt;/h3&gt;
+&lt;p&gt;当某事件已经发生时，一些随机事件的概率会因为已知信息的增加发生变化。&lt;/p&gt;
+&lt;p&gt;若已知事件 $A$ 发生，在此条件下事件 $B$ 发生的概率称为 条件概率，记作 $P(B|A)$。&lt;/p&gt;
+&lt;p&gt;在样本空间中，若事件 $A$ 满足 $P(A) &amp;gt; 0$，则条件概率 $P(\cdot|A)$ 定义为：&lt;/p&gt;
+&lt;p&gt;$$
+P(B|A) = \frac{P(AB)}{P(A)}
+$$&lt;/p&gt;
+&lt;p&gt;条件概率有时候也称为&lt;strong&gt;后验概率&lt;/strong&gt;，与先验概率相对。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$P(\Omega|A)=1$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;若 $B,C$ 互斥（$BC=\varnothing$）则：&lt;/p&gt;
+&lt;p&gt;$$
+P(B\cup C)=P(B)+P(C)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+P(B\cup C|A)=P(B|A)+P(C|A)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+P(\bar B|A)=1-P(B|A)
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;条件概率的计算有还有三个公式，我们详细讲解。&lt;/p&gt;
+&lt;h3&gt;概率乘法公式&lt;/h3&gt;
+&lt;p&gt;若 $P(A) &amp;gt; 0$，则对任意事件 $B$ 都有&lt;/p&gt;
+&lt;p&gt;$$
+P(AB) = P...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/probability/2/</link>
+      <pubDate>Wed, 22 Apr 2026 15:09:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/probability/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/2/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/probability/2.png" type="image/png" length="37466" />
+      
+    </item>
+    
+    <item>
+      <title>统计学概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;统计学概述&lt;/h1&gt;
+&lt;h2&gt;敘述统计学&lt;/h2&gt;
+&lt;p&gt;统计学是在资料分析的基础上，研究测定、收集、整理、归纳和分析反映数据资料，以便给出正确消息的科学。敘述统计，是统计学中，来描绘或总结观察量的基本情况的统计总称。其与统计推断相对应。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;研究者可以透过对数据资料的图像化处理，将资料摘要变为图表，以直观了解整体资料分布的情况。通常会使用的工具是频数分布表与图示法，如折线图、直方图、饼图、散点图等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;研究者也可以透过分析数据资料，以了解各变量内的观察值集中与分散的情况。运用的工具有：&lt;strong&gt;集中量数&lt;/strong&gt;，如平均数、中位数、众数、几何平均数、调和平均数，与&lt;strong&gt;变异量数&lt;/strong&gt;，如全距、平均差、标准差、相对差、四分差。&lt;/p&gt;
+&lt;p&gt;在推论统计中，测量样本的集中量数与变异量数都是变量的无偏估计值，但是以平均数、方差、标准差的有效性最高。数据的次数分配情况，往往会呈现正态分布。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;为了表示测量数据与正态分布偏离的情况，会使用偏度、峰度这两种统计数据。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;为了解个别观察值在整体中所占的位置，会需要将观察值变换为&lt;strong&gt;相对量数&lt;/strong&gt;，如百分等级、标准分数、四分位数等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;统计学中，统计推断与描述统计相对应。...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/probability/3/</link>
+      <pubDate>Wed, 22 Apr 2026 15:09:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/probability/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/3/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/probability/3.png" type="image/png" length="32025" />
+      
+    </item>
     
     <item>
       <title>相关及回归分析</title>
@@ -1306,111 +1411,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/geometry/4/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/geometry/4.png" type="image/png" length="42430" />
-      
-    </item>
-    
-    <item>
-      <title>概率初步与随机化</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;概率初步与随机化&lt;/h1&gt;
-&lt;p&gt;提示：高中这一部分涉及的非常浅，并且一般的讲解也没有逻辑和思维可言，如果你想要更深刻的了解这些内容，又不想过于深入，建议你阅读 &lt;a href=&#34;http://staff.ustc.edu.cn/~zwp/teach/Prob-Stat/probstat.htm&#34;&gt;Prob-Stat&lt;/a&gt;，以及我爬取的这个课程的&lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/resolve/main/math/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E8%AE%B2%E4%B9%89.pdf&#34;&gt;讲义&lt;/a&gt;和&lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/resolve/main/math/USTC_Prob_Stat_Complete.pdf&#34;&gt;课件&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;以下部分内容来自 &lt;a href=&#34;https://oi-wiki.org/&#34;&gt;&lt;strong&gt;OI Wiki&lt;/strong&gt;&lt;/a&gt;。&lt;/p&gt;
-&lt;h2&gt;样本与事件&lt;/h2&gt;
-&lt;h3&gt;样本空间&lt;/h3&gt;
-&lt;p&gt;简而言之，样本空间 ...&lt;/p&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/probability/1/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/probability/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/1/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/probability/1.png" type="image/png" length="36021" />
-      
-    </item>
-    
-    <item>
-      <title>随机变量与条件概率</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;随机变量与条件概率&lt;/h1&gt;
-&lt;h2&gt;条件概率&lt;/h2&gt;
-&lt;h3&gt;条件概率&lt;/h3&gt;
-&lt;p&gt;当某事件已经发生时，一些随机事件的概率会因为已知信息的增加发生变化。&lt;/p&gt;
-&lt;p&gt;若已知事件 $A$ 发生，在此条件下事件 $B$ 发生的概率称为 条件概率，记作 $P(B|A)$。&lt;/p&gt;
-&lt;p&gt;在样本空间中，若事件 $A$ 满足 $P(A) &amp;gt; 0$，则条件概率 $P(\cdot|A)$ 定义为：&lt;/p&gt;
-&lt;p&gt;$$
-P(B|A) = \frac{P(AB)}{P(A)}
-$$&lt;/p&gt;
-&lt;p&gt;条件概率有时候也称为&lt;strong&gt;后验概率&lt;/strong&gt;，与先验概率相对。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;$P(\Omega|A)=1$.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;若 $B,C$ 互斥（$BC=\varnothing$）则：&lt;/p&gt;
-&lt;p&gt;$$
-P(B\cup C)=P(B)+P(C)
-$$&lt;/p&gt;
-&lt;p&gt;$$
-P(B\cup C|A)=P(B|A)+P(C|A)
-$$&lt;/p&gt;
-&lt;p&gt;$$
-P(\bar B|A)=1-P(B|A)
-$$&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;条件概率的计算有还有三个公式，我们详细讲解。&lt;/p&gt;
-&lt;h3&gt;概率乘法公式&lt;/h3&gt;
-&lt;p&gt;若 $P(A) &amp;gt; 0$，则对任意事件 $B$ 都有&lt;/p&gt;
-&lt;p&gt;$$
-P(AB) = P...&lt;/p&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/probability/2/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/probability/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/2/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/probability/2.png" type="image/png" length="37466" />
-      
-    </item>
-    
-    <item>
-      <title>统计学概述</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;统计学概述&lt;/h1&gt;
-&lt;h2&gt;敘述统计学&lt;/h2&gt;
-&lt;p&gt;统计学是在资料分析的基础上，研究测定、收集、整理、归纳和分析反映数据资料，以便给出正确消息的科学。敘述统计，是统计学中，来描绘或总结观察量的基本情况的统计总称。其与统计推断相对应。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;研究者可以透过对数据资料的图像化处理，将资料摘要变为图表，以直观了解整体资料分布的情况。通常会使用的工具是频数分布表与图示法，如折线图、直方图、饼图、散点图等。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;研究者也可以透过分析数据资料，以了解各变量内的观察值集中与分散的情况。运用的工具有：&lt;strong&gt;集中量数&lt;/strong&gt;，如平均数、中位数、众数、几何平均数、调和平均数，与&lt;strong&gt;变异量数&lt;/strong&gt;，如全距、平均差、标准差、相对差、四分差。&lt;/p&gt;
-&lt;p&gt;在推论统计中，测量样本的集中量数与变异量数都是变量的无偏估计值，但是以平均数、方差、标准差的有效性最高。数据的次数分配情况，往往会呈现正态分布。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;为了表示测量数据与正态分布偏离的情况，会使用偏度、峰度这两种统计数据。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;为了解个别观察值在整体中所占的位置，会需要将观察值变换为&lt;strong&gt;相对量数&lt;/strong&gt;，如百分等级、标准分数、四分位数等。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;统计学中，统计推断与描述统计相对应。...&lt;/p&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/probability/3/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/probability/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/3/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/probability/3.png" type="image/png" length="32025" />
       
     </item>
     
