@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Wed, 22 Apr 2026 15:10:04 -0000</pubDate>
-    <lastBuildDate>Wed, 22 Apr 2026 15:10:04 -0000</lastBuildDate>
+    <pubDate>Sun, 26 Apr 2026 12:23:03 -0000</pubDate>
+    <lastBuildDate>Sun, 26 Apr 2026 12:23:03 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -116,36 +116,52 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>胚胎工程详解：受精过程与胚胎移植技术新应用</title>
+      <title>细胞增殖和细胞工程</title>
       
       
       
       
-      <description>本文系统阐述哺乳动物胚胎发育的关键环节，包括减数分裂、受精过程、卵裂、囊胚形成及原肠胚分层。重点分析精子获能、卵母细胞成熟、受精卵融合形成雄、雌原核的机制，并描述胚胎分割、体外受精与胚胎移植的技术流程与成功案例，为胚胎工程提供理论与实践支撑。</description>
+      <description>&lt;h1&gt;细胞增殖和细胞工程&lt;/h1&gt;
+&lt;h2&gt;减数分裂和受精作用与胚胎&lt;/h2&gt;
+&lt;h3&gt;减数分裂的过程&lt;/h3&gt;
+&lt;h3&gt;胚胎工程的理论基础&lt;/h3&gt;
+&lt;p&gt;像培育试管婴儿这样，对动物早期胚胎或配子进行显微操作和处理以获得目标个体的技术称为胚胎工程。其操作的主要对象是生殖细胞、受精卵以及早期胚胎细胞。胚胎发育是胚胎工程的理论基础。那么，动物胚胎是如何发育的呢？虽然脊椎动物种类繁多，胚胎发育过程也存在差异，但其早期发育较为相似，分成受精、卵裂、桑椹胚、囊胚、原肠胚与器官形成等阶段（图 2-29）。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;蛙胚胎形成和发育过程示意图&#34; src=&#34;image-15-749ac2a.avif&#34;&gt;{ width=&#34;90%&#34; }&lt;/p&gt;
+&lt;p&gt;以蛙为例，由于卵黄分布不对称，精子与卵结合之后形成的受精卵分为动物极（发育为外胚层）和植物极（发育为中胚层和内胚层）。受精卵形成后开始卵裂，先分裂成两个细胞，之后细胞通常会逐次倍增，但胚胎的总体积大致不变。受精卵分裂成 $16 \sim 32$ 个细胞的阶段，称为桑椹胚。在这个阶段，动物极细胞的分裂频率会超越靠近植物极且含有较多卵黄的细胞群，形成中空的球状胚，称为囊胚。随后形成的原肠胚具有外胚层、中胚层与内胚层，这三...&lt;/p&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/cell/5/</link>
       <pubDate>Thu, 19 Mar 2026 12:54:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/science/cell/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/5/</guid>
       
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/5.png" type="image/png" length="43249" />
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/5.png" type="image/png" length="32535" />
       
     </item>
     
     <item>
-      <title>植物细胞工程详解：细胞全能性与组织再生技术应用</title>
+      <title>基因工程及其应用</title>
       
       
       
       
-      <description>本文系统阐述植物细胞全能性假说的形成与验证重点解析离体培养中细胞脱分化愈伤组织形成及再分化的激素调控机制包括生长素与细胞分裂素比例对愈伤组织生长的关�影响文章详细描述原生质体制备聚乙二醇诱导融合及电融合技术阐释融合后细胞核的异核体形成与减数分裂同步化过程并说明通过质粒载体构建脱氧核糖核酸表达系统以实现转基因抗虫抗病及快速繁殖的实现路径</description>
+      <description>&lt;h1&gt;基因工程及其应用&lt;/h1&gt;
+&lt;h2&gt;基因工程概论&lt;/h2&gt;
+&lt;h3&gt;基因工程发展简史&lt;/h3&gt;
+&lt;p&gt;基因工程是在生物化学、分子生物学和微生物学等学科的基础上发展起来的，正是这些学科的基础理论和相关技术的发展催生了基因工程。基因工程是指按照人们的愿望，通过转基因等技术，赋予生物新的遗传特性，创造出更符合人们需要的新的生物类型和生物产品。从技术操作层面看，由于基因工程是在 DNA 分子水平上进行设计和施工的，因此又叫作重组 DNA 技术。&lt;/p&gt;
+&lt;p&gt;| 年份/时间 | 人物（其他信息） | 事件/意义 |
+|:---:|:---|:---|
+| 1944 年 | 艾弗里等 | 证明遗传物质是 DNA，且可在同种生物不同个体间转移 |
+| 1950-1952 年 | 埃德曼；桑格 | 发明氨基酸测序方法；完成胰岛素氨基酸序列测定 |
+| 1953 年 | 沃森、克里克 | 建立 DNA 双螺旋结构模型，提出自我复制假说 |
+| 1958 年 | 梅塞尔森、斯塔尔 | 实验证明 DNA 的半保留复制；中心法则确立 |
+| 1961-1966 年 | 尼伦伯格、马太等 | 破译第一个密码子，至1966年全部64个密码子破译...&lt;/p&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/cell/6/</link>
       <pubDate>Thu, 19 Mar 2026 12:54:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/science/cell/6/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/6/</guid>
       
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/6.png" type="image/png" length="42982" />
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/6.png" type="image/png" length="32853" />
       
     </item>
     
