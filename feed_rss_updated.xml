@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 27 Apr 2026 02:02:59 -0000</pubDate>
-    <lastBuildDate>Mon, 27 Apr 2026 02:02:59 -0000</lastBuildDate>
+    <pubDate>Fri, 01 May 2026 14:37:06 -0000</pubDate>
+    <lastBuildDate>Fri, 01 May 2026 14:37:06 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -32,25 +32,112 @@
     
     
     <item>
-      <title>细胞增殖和细胞工程</title>
+      <title>随机事件与概率</title>
       
       
       
       
-      <description>&lt;h1&gt;细胞增殖和细胞工程&lt;/h1&gt;
-&lt;h2&gt;减数分裂和受精作用与胚胎&lt;/h2&gt;
-&lt;h3&gt;减数分裂的过程&lt;/h3&gt;
-&lt;h3&gt;胚胎工程的理论基础&lt;/h3&gt;
-&lt;p&gt;像培育试管婴儿这样，对动物早期胚胎或配子进行显微操作和处理以获得目标个体的技术称为胚胎工程。其操作的主要对象是生殖细胞、受精卵以及早期胚胎细胞。胚胎发育是胚胎工程的理论基础。那么，动物胚胎是如何发育的呢？虽然脊椎动物种类繁多，胚胎发育过程也存在差异，但其早期发育较为相似，分成受精、卵裂、桑椹胚、囊胚、原肠胚与器官形成等阶段（图 2-29）。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;蛙胚胎形成和发育过程示意图&#34; src=&#34;image-15-749ac2a.avif&#34;&gt;{ width=&#34;90%&#34; }&lt;/p&gt;
-&lt;p&gt;以蛙为例，由于卵黄分布不对称，精子与卵结合之后形成的受精卵分为动物极（发育为外胚层）和植物极（发育为中胚层和内胚层）。受精卵形成后开始卵裂，先分裂成两个细胞，之后细胞通常会逐次倍增，但胚胎的总体积大致不变。受精卵分裂成 $16 \sim 32$ 个细胞的阶段，称为桑椹胚。在这个阶段，动物极细胞的分裂频率会超越靠近植物极且含有较多卵黄的细胞群，形成中空的球状胚，称为囊胚。随后形成的原肠胚具有外胚层、中胚层与内胚层，这三...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/5/</link>
-      <pubDate>Sun, 26 Apr 2026 12:21:00 +0000</pubDate>
+      <description>&lt;h1&gt;随机事件与概率&lt;/h1&gt;
+&lt;h2&gt;事件及其运算&lt;/h2&gt;
+&lt;h3&gt;试验与事件&lt;/h3&gt;
+&lt;p&gt;我们把按照一定的想法去作的事情称为随机试验，随机试验的简称是试验。样本空间 $\Omega$ 指明随机现象&lt;strong&gt;所有&lt;/strong&gt;可能出现的结果。&lt;/p&gt;
+&lt;p&gt;具体的，一个随机现象中可能发生的不能再细分的结果被称为&lt;strong&gt;样本点&lt;/strong&gt;，所有样本点的集合称为&lt;strong&gt;样本空间&lt;/strong&gt;，通常用 $\Omega$ 来表示。&lt;/p&gt;
+&lt;p&gt;二维样本空间的列举，表格法：&lt;/p&gt;
+&lt;p&gt;|       |    1      |    2      |    3      |    4      |    5      |    6      |
+|:-----:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+| &lt;strong&gt;1&lt;/strong&gt; | $(1, 1)$ | $(1, 2)$ | $(1, 3)$ | $(1, 4)$ | $(1, 5)$ | $(1, 6)$ |
+| &lt;strong&gt;2&lt;/strong&gt; | $(2, 1)$ | $(2, 2)$ | $(2, 3)$ | $(2, 4)$ | $(2, 5)$ | $...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/probability/1/</link>
+      <pubDate>Fri, 01 May 2026 14:36:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/5/</guid>
+      <comments>https://raineblog.dpdns.org/whk/science/probability/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/5.png" type="image/png" length="32535" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/1.png" type="image/png" length="33783" />
+      
+    </item>
+    
+    <item>
+      <title>随机变量及其分布</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;随机变量及其分布&lt;/h1&gt;
+&lt;h2&gt;随机变量及其分类&lt;/h2&gt;
+&lt;h3&gt;随机变量的定义&lt;/h3&gt;
+&lt;p&gt;随机变量是用来表示随机试验结果的变量，通常用大写字母 $X,Y,Z$ 或小写希腊字母 $\xi,\eta,\zeta$ 表示。随机函数是一个特殊的实函数，对于任意 $e\in S$，都有唯一一个对应 $X(e)$，如图。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;Zufall.avif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;随机变量实质上是样本空间上的函数，可作为因变量，满足其值不大于某数的状况都是事件。我们称随机变量这个函数的值域为随机变量的取值范围，或值域。&lt;/p&gt;
+&lt;p&gt;随机变量在不同的条件下由于偶然因素影响，其可能取各种随机变量不同的值，具有不确定性和随机性，但这些取值落在某个范围的概率是一定的，此种变量称为随机变量。随机变量可以是离散型的，也可以是连续型的。如分析测试中的测定值就是一个以概率取值的随机变量，被测定量的取值可能在某一范围内随机变化，具体取什么值在测定之前是无法确定的，但测定的结果是确定的，多次重复测定所得到的测定值具有统计规律性。随机变量与模糊变量的不确定性的本质差别在于，后者的测定结果仍具有不确定性，即模糊性。&lt;/p&gt;
+&lt;p&gt;随机变量按其值域（根据定义，随机变量是一个...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/probability/2/</link>
+      <pubDate>Fri, 01 May 2026 14:36:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/probability/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/2.png" type="image/png" length="35074" />
+      
+    </item>
+    
+    <item>
+      <title>统计学和数理统计</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;统计学和数理统计&lt;/h1&gt;
+&lt;h2&gt;推论统计学&lt;/h2&gt;
+&lt;h3&gt;描述性统计&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;什么是统计学&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;统计学研究如何收集数据、分析数据、从数据做出有依据的推断结果。一言以蔽之，统计学是研究数据的科学。&lt;/li&gt;
+&lt;li&gt;统计学主要的数学工具是概率论，也广泛使用现代信息技术作为支撑，通过计算机和信息网络获取数据、进行建模、数据分析计算。&lt;/li&gt;
+&lt;li&gt;统计学是一门科学，不再是数学的一个分支。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;描述性统计&lt;/strong&gt;，统计学的做法分为两种：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;描述性统计&lt;/strong&gt;：从数据样本中计算一些平均值、标准差、最小值、最大值等概括统计量，画直方图、散点图等描述图形。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;推断性统计&lt;/strong&gt;：假定要研究的对象服从某种概率模型，收集数据后把数据用模型解释，并做出有概率意义的结论。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;总体、个体和均值&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;所要调查的对象全体叫做&lt;strong&gt;总体&lt;/strong&gt; (population)，总体中每个成员叫做&lt;strong&gt;个体&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;总体参数是描述总体特性的指标，简称&lt;strong&gt;参数&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;如果总体中的个体是有限个，称个体总数 $N$ 为总体容量。&lt;/li&gt;
+&lt;li&gt;总体平均或总体均值是参数，常用 $\mu$ 表示。&lt;/li&gt;
+&lt;li&gt;总体方差是参数，常记为 $\sigma^2...&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/probability/3/</link>
+      <pubDate>Fri, 01 May 2026 14:36:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/probability/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/3.png" type="image/png" length="33557" />
+      
+    </item>
+    
+    <item>
+      <title>随机过程和马氏</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;随机过程和马氏&lt;/h1&gt;
+&lt;p&gt;[TODO]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;条件概率与“状态转移”&lt;/strong&gt;（前后局相关）：当“前一局胜负影响下一局”时，题目本质上考察的是&lt;strong&gt;全概率公式&lt;/strong&gt;与&lt;strong&gt;数列递推（马尔可夫链模型）&lt;/strong&gt;。利用全概率公式，将第 $n$ 局的概率 $P(A_n)$ 拆分为基于第 $n-1$ 局结果的条件概率之和，从而构造数列递推式。&lt;/p&gt;
+&lt;p&gt;解：设事件 $A_n$ 为“甲在第 $n$ 局获胜”，令 $P(A_n) = p_n$。由题意可知，若上一局甲胜，则本局甲胜的概率为 $P(A_n | A_{n-1}) = \alpha$；若上一局甲负，则本局甲胜的概率为 $P(A_n | \bar{A}_{n-1}) = \beta$。&lt;/p&gt;
+&lt;p&gt;由全概率公式 $P(A_n) = P(A_{n-1})P(A_n | A_{n-1}) + P(\bar{A}&lt;em&gt;{n-1})P(A_n | \bar{A}&lt;/em&gt;{n-1})$ 即 $p_n = \alpha \cdot p_{n-1} + \beta \cdot (1 - p_{n-1})$ 整理得：$p_n = (\alpha - \beta)p_{n-1} + \beta$。&lt;/p&gt;
+&lt;p&gt;...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/probability/4/</link>
+      <pubDate>Fri, 01 May 2026 14:36:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/probability/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/4.png" type="image/png" length="33068" />
       
     </item>
     
@@ -72,7 +159,7 @@
 | 1958 年 | 梅塞尔森、斯塔尔 | 实验证明 DNA 的半保留复制；中心法则确立 |
 | 1961-1966 年 | 尼伦伯格、马太等 | 破译第一个密码子，至1966年全部64个密码子破译...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/6/</link>
-      <pubDate>Sun, 26 Apr 2026 12:21:00 +0000</pubDate>
+      <pubDate>Fri, 01 May 2026 11:58:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/cell/6/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/6/</guid>
@@ -82,129 +169,74 @@
     </item>
     
     <item>
-      <title>概率初步与随机化</title>
+      <title>函数的基本性质</title>
       
       
       
       
-      <description>&lt;h1&gt;概率初步与随机化&lt;/h1&gt;
-&lt;p&gt;提示：高中这一部分涉及的非常浅，并且一般的讲解也没有逻辑和思维可言，如果你想要更深刻的了解这些内容，又不想过于深入，建议你阅读 &lt;a href=&#34;http://staff.ustc.edu.cn/~zwp/teach/Prob-Stat/probstat.htm&#34;&gt;Prob-Stat&lt;/a&gt;，以及我爬取的这个课程的&lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/resolve/main/math/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E8%AE%B2%E4%B9%89.pdf&#34;&gt;讲义&lt;/a&gt;和&lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/resolve/main/math/USTC_Prob_Stat_Complete.pdf&#34;&gt;课件&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;以下部分内容来自 &lt;a href=&#34;https://oi-wiki.org/&#34;&gt;&lt;strong&gt;OI Wiki&lt;/strong&gt;&lt;/a&gt;。&lt;/p&gt;
-&lt;h2&gt;样本与事件&lt;/h2&gt;
-&lt;h3&gt;样本空间&lt;/h3&gt;
-&lt;p&gt;简而言之，样本空间 ...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/probability/1/</link>
-      <pubDate>Wed, 22 Apr 2026 15:09:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/probability/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/1.png" type="image/png" length="36021" />
-      
-    </item>
-    
-    <item>
-      <title>随机变量与条件概率</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;随机变量与条件概率&lt;/h1&gt;
-&lt;h2&gt;条件概率&lt;/h2&gt;
-&lt;h3&gt;条件概率&lt;/h3&gt;
-&lt;p&gt;当某事件已经发生时，一些随机事件的概率会因为已知信息的增加发生变化。&lt;/p&gt;
-&lt;p&gt;若已知事件 $A$ 发生，在此条件下事件 $B$ 发生的概率称为 条件概率，记作 $P(B|A)$。&lt;/p&gt;
-&lt;p&gt;在样本空间中，若事件 $A$ 满足 $P(A) &amp;gt; 0$，则条件概率 $P(\cdot|A)$ 定义为：&lt;/p&gt;
+      <description>&lt;h1&gt;函数的基本性质&lt;/h1&gt;
+&lt;h2&gt;基本性质&lt;/h2&gt;
+&lt;h3&gt;奇偶性&lt;/h3&gt;
+&lt;p&gt;函数的奇偶性定义在定义域关于 $0$ 对称的函数上，对于奇函数有：&lt;/p&gt;
 &lt;p&gt;$$
-P(B|A) = \frac{P(AB)}{P(A)}
+f(x)+f(-x)=0
 $$&lt;/p&gt;
-&lt;p&gt;条件概率有时候也称为&lt;strong&gt;后验概率&lt;/strong&gt;，与先验概率相对。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;$P(\Omega|A)=1$.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;若 $B,C$ 互斥（$BC=\varnothing$）则：&lt;/p&gt;
+&lt;p&gt;因此，如果定义域中有 $0$，那么只有 $f(0)=0$ 的函数才可能为奇函数。&lt;/p&gt;
+&lt;p&gt;偶函数为：&lt;/p&gt;
 &lt;p&gt;$$
-P(B\cup C)=P(B)+P(C)
+f(x)=f(-x)
 $$&lt;/p&gt;
-&lt;p&gt;$$
-P(B\cup C|A)=P(B|A)+P(C|A)
-$$&lt;/p&gt;
-&lt;p&gt;$$
-P(\bar B|A)=1-P(B|A)
-$$&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;条件概率的计算有还有三个公式，我们详细讲解。&lt;/p&gt;
-&lt;h3&gt;概率乘法公式&lt;/h3&gt;
-&lt;p&gt;若 $P(A) &amp;gt; 0$，则对任意事件 $B$ 都有&lt;/p&gt;
-&lt;p&gt;$$
-P(AB) = P...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/probability/2/</link>
-      <pubDate>Wed, 22 Apr 2026 15:09:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/probability/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/2.png" type="image/png" length="37466" />
-      
-    </item>
-    
-    <item>
-      <title>统计学概述</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;统计学概述&lt;/h1&gt;
-&lt;h2&gt;敘述统计学&lt;/h2&gt;
-&lt;p&gt;统计学是在资料分析的基础上，研究测定、收集、整理、归纳和分析反映数据资料，以便给出正确消息的科学。敘述统计，是统计学中，来描绘或总结观察量的基本情况的统计总称。其与统计推断相对应。&lt;/p&gt;
+&lt;p&gt;特别地，奇函数的绝对值为偶函数。&lt;/p&gt;
+&lt;p&gt;奇偶性的乘除法则：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;研究者可以透过对数据资料的图像化处理，将资料摘要变为图表，以直观了解整体资料分布的情况。通常会使用的工具是频数分布表与图示法，如折线图、直方图、饼图、散点图等。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;研究者也可以透过分析数据资料，以了解各变量内的观察值集中与分散的情况。运用的工具有：&lt;strong&gt;集中量数&lt;/strong&gt;，如平均数、中位数、众数、几何平均数、调和平均数，与&lt;strong&gt;变异量数&lt;/strong&gt;，如全距、平均差、标准差、相对差、四分差。&lt;/p&gt;
-&lt;p&gt;在推论统计中，测量样本的集中量数与变异量数都是变量的无偏估计值，但是以平均数、方差、标准差的有效性最高。数据的次数分配情况，往往会呈现正态分布。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;为了表示测量数据与正态分布偏离的情况，会使用偏度、峰度这两种统计数据。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;为了解个别观察值在整体中所占的位置，会需要将观察值变换为&lt;strong&gt;相对量数&lt;/strong&gt;，如百分等级、标准分数、四分位数等。&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;奇函数 $\pm$ 奇函数 $=$ 奇函数。&lt;/li&gt;
+&lt;li&gt;偶函数 $\pm$ 偶函数 $=$ 偶函数。&lt;/li&gt;
+&lt;li&gt;奇函数 $\pm$ 偶函数 $=$ 非奇非偶。&lt;/li&gt;
+&lt;li&gt;奇函数 $\times$ 奇函数 $=$ 偶函数。&lt;/li&gt;
+&lt;li&gt;奇函数 $\times$ 偶函数 $=$ 奇函数。&lt;/li&gt;
+&lt;li&gt;偶函数 $\times$ 偶函数 $=$ 偶函数。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;统计学中，统计推断与描述统计相对应。...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/probability/3/</link>
-      <pubDate>Wed, 22 Apr 2026 15:09:00 +0000</pubDate>
+&lt;p&gt;复合函数的奇偶性：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;奇函数 $\circ$ 奇函数 $=$ 奇函数。&lt;/li&gt;
+&lt;li&gt;偶函数 $\circ$ 奇函数 $=$ 偶函数。&lt;/li&gt;
+&lt;li&gt;奇函数 $\circ$ 偶函数 $=$ 偶函数。&lt;/li&gt;
+&lt;li&gt;偶函数 $\circ$ 偶函数 $=$ 偶函数。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;经典做题套路：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;若 $f(x)$ 为偶函数，首先判断是否能转化为奇...&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/function/2/</link>
+      <pubDate>Fri, 01 May 2026 11:58:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/probability/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/3/</guid>
+      <comments>https://raineblog.dpdns.org/whk/science/function/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/3.png" type="image/png" length="32025" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/2.png" type="image/png" length="34568" />
       
     </item>
     
     <item>
-      <title>相关及回归分析</title>
+      <title>细胞增殖和细胞工程</title>
       
       
       
       
-      <description>&lt;h1&gt;相关及回归分析&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;相关（correlation）&lt;/strong&gt;又称相关性、关联，在概率论和统计学中，指一种随机变量或现象与另一种或几种之间变动伴随关系。相关关系又称&lt;strong&gt;统计关系&lt;/strong&gt;，一般会描述这些变量或现象关联程度的强度和方向。&lt;/p&gt;
-&lt;p&gt;在统计学中，相关的意义是：用来衡量两个变量相对于其相互独立的距离。在这个广义的定义下，有许多根据数据特点用来衡量数据相关性而定义的系数，称作&lt;strong&gt;相关系数&lt;/strong&gt;。在评估相关时，利用相关系数来计量的两个或几个随机变量协同变化的程度；当变量间呈现同一方向的变化趋势时，即同时增加或减少，称为&lt;strong&gt;正相关&lt;/strong&gt;，反之，则称为&lt;strong&gt;负相关&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;回归分析&lt;/strong&gt;（regression analysis）则是研究变量间依赖关系的一种统计方法，旨在建立数学模型来描述因变量与一个或多个自变量之间的关系。简单来说，相关分析关注「是否一起变」，回归分析关注「怎么变」。&lt;/p&gt;
-&lt;p&gt;统计方法的核心思想可以用一句话概括：数据 $=$ 趋势（可解释部分）$+$ 波动（随机/不可控部分）。&lt;/p&gt;
-&lt;p&gt;统计方法所做的，就是判断「趋势强到足以压过波动了吗？」——回归用&lt;strong&gt;残差平方和&lt;/strong&gt;衡量没解释掉的波动，独立性...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/probability/4/</link>
-      <pubDate>Sat, 18 Apr 2026 11:50:00 +0000</pubDate>
+      <description>&lt;h1&gt;细胞增殖和细胞工程&lt;/h1&gt;
+&lt;h2&gt;减数分裂和受精作用与胚胎&lt;/h2&gt;
+&lt;h3&gt;减数分裂的过程&lt;/h3&gt;
+&lt;h3&gt;胚胎工程的理论基础&lt;/h3&gt;
+&lt;p&gt;像培育试管婴儿这样，对动物早期胚胎或配子进行显微操作和处理以获得目标个体的技术称为胚胎工程。其操作的主要对象是生殖细胞、受精卵以及早期胚胎细胞。胚胎发育是胚胎工程的理论基础。那么，动物胚胎是如何发育的呢？虽然脊椎动物种类繁多，胚胎发育过程也存在差异，但其早期发育较为相似，分成受精、卵裂、桑椹胚、囊胚、原肠胚与器官形成等阶段（图 2-29）。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;蛙胚胎形成和发育过程示意图&#34; src=&#34;image-15-749ac2a.avif&#34;&gt;{ width=&#34;90%&#34; }&lt;/p&gt;
+&lt;p&gt;以蛙为例，由于卵黄分布不对称，精子与卵结合之后形成的受精卵分为动物极（发育为外胚层）和植物极（发育为中胚层和内胚层）。受精卵形成后开始卵裂，先分裂成两个细胞，之后细胞通常会逐次倍增，但胚胎的总体积大致不变。受精卵分裂成 $16 \sim 32$ 个细胞的阶段，称为桑椹胚。在这个阶段，动物极细胞的分裂频率会超越靠近植物极且含有较多卵黄的细胞群，形成中空的球状胚，称为囊胚。随后形成的原肠胚具有外胚层、中胚层与内胚层，这三...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/5/</link>
+      <pubDate>Sun, 26 Apr 2026 12:21:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/probability/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/4/</guid>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/5/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/4.png" type="image/png" length="32006" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/5.png" type="image/png" length="32535" />
       
     </item>
     
@@ -705,55 +737,6 @@ git submo...&lt;/p&gt;</description>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/roadmap/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/roadmap.png" type="image/png" length="29201" />
-      
-    </item>
-    
-    <item>
-      <title>函数的基本性质</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;函数的基本性质&lt;/h1&gt;
-&lt;h2&gt;基本性质&lt;/h2&gt;
-&lt;h3&gt;奇偶性&lt;/h3&gt;
-&lt;p&gt;函数的奇偶性定义在定义域关于 $0$ 对称的函数上，对于奇函数有：&lt;/p&gt;
-&lt;p&gt;$$
-f(x)+f(-x)=0
-$$&lt;/p&gt;
-&lt;p&gt;因此，如果定义域中有 $0$，那么只有 $f(0)=0$ 的函数才可能为奇函数。&lt;/p&gt;
-&lt;p&gt;偶函数为：&lt;/p&gt;
-&lt;p&gt;$$
-f(x)=f(-x)
-$$&lt;/p&gt;
-&lt;p&gt;特别地，奇函数的绝对值为偶函数。&lt;/p&gt;
-&lt;p&gt;奇偶性的乘除法则：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;奇函数 $\pm$ 奇函数 $=$ 奇函数。&lt;/li&gt;
-&lt;li&gt;偶函数 $\pm$ 偶函数 $=$ 偶函数。&lt;/li&gt;
-&lt;li&gt;奇函数 $\pm$ 偶函数 $=$ 非奇非偶。&lt;/li&gt;
-&lt;li&gt;奇函数 $\times$ 奇函数 $=$ 偶函数。&lt;/li&gt;
-&lt;li&gt;奇函数 $\times$ 偶函数 $=$ 奇函数。&lt;/li&gt;
-&lt;li&gt;偶函数 $\times$ 偶函数 $=$ 偶函数。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;复合函数的奇偶性：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;奇函数 $\circ$ 奇函数 $=$ 奇函数。&lt;/li&gt;
-&lt;li&gt;偶函数 $\circ$ 奇函数 $=$ 偶函数。&lt;/li&gt;
-&lt;li&gt;奇函数 $\circ$ 偶函数 $=$ 偶函数。&lt;/li&gt;
-&lt;li&gt;偶函数 $\circ$ 偶函数 $=$ 偶函数。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;经典做题套路：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;若 $f(x)$ 为偶函数，首先判断是否能转化为奇...&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/function/2/</link>
-      <pubDate>Sun, 05 Apr 2026 08:55:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/function/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/2.png" type="image/png" length="34568" />
       
     </item>
     
