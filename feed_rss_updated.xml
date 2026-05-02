@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sat, 02 May 2026 13:22:03 -0000</pubDate>
-    <lastBuildDate>Sat, 02 May 2026 13:22:03 -0000</lastBuildDate>
+    <pubDate>Sat, 02 May 2026 15:02:22 -0000</pubDate>
+    <lastBuildDate>Sat, 02 May 2026 15:02:22 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,68 @@
     
 
     
+    
+    <item>
+      <title>随机变量及其分布</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;随机变量及其分布&lt;/h1&gt;
+&lt;h2&gt;随机变量及其分类&lt;/h2&gt;
+&lt;h3&gt;随机变量的定义&lt;/h3&gt;
+&lt;p&gt;随机变量是用来表示随机试验结果的变量，通常用大写字母 $X,Y,Z$ 或小写希腊字母 $\xi,\eta,\zeta$ 表示。随机函数是一个特殊的实函数，对于任意 $e\in S$，都有唯一一个对应 $X(e)$，如图。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;Zufall.avif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;随机变量实质上是样本空间上的函数，可作为因变量，满足其值不大于某数的状况都是事件。我们称随机变量这个函数的值域为随机变量的取值范围，或值域。&lt;/p&gt;
+&lt;p&gt;随机变量在不同的条件下由于偶然因素影响，其可能取各种随机变量不同的值，具有不确定性和随机性，但这些取值落在某个范围的概率是一定的，此种变量称为随机变量。随机变量可以是离散型的，也可以是连续型的。如分析测试中的测定值就是一个以概率取值的随机变量，被测定量的取值可能在某一范围内随机变化，具体取什么值在测定之前是无法确定的，但测定的结果是确定的，多次重复测定所得到的测定值具有统计规律性。随机变量与模糊变量的不确定性的本质差别在于，后者的测定结果仍具有不确定性，即模糊性。&lt;/p&gt;
+&lt;p&gt;随机变量按其值域（根据定义，随机变量是一个...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/probability/2/</link>
+      <pubDate>Sat, 02 May 2026 15:01:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/probability/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/2/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/probability/2.png" type="image/png" length="35074" />
+      
+    </item>
+    
+    <item>
+      <title>统计学和数理统计</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;统计学和数理统计&lt;/h1&gt;
+&lt;h2&gt;推论统计学&lt;/h2&gt;
+&lt;h3&gt;描述性统计&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;什么是统计学&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;统计学研究如何收集数据、分析数据、从数据做出有依据的推断结果。一言以蔽之，统计学是研究数据的科学。&lt;/li&gt;
+&lt;li&gt;统计学主要的数学工具是概率论，也广泛使用现代信息技术作为支撑，通过计算机和信息网络获取数据、进行建模、数据分析计算。&lt;/li&gt;
+&lt;li&gt;统计学是一门科学，不再是数学的一个分支。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;描述性统计&lt;/strong&gt;，统计学的做法分为两种：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;描述性统计&lt;/strong&gt;：从数据样本中计算一些平均值、标准差、最小值、最大值等概括统计量，画直方图、散点图等描述图形。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;推断性统计&lt;/strong&gt;：假定要研究的对象服从某种概率模型，收集数据后把数据用模型解释，并做出有概率意义的结论。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;总体、个体和均值&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;所要调查的对象全体叫做&lt;strong&gt;总体&lt;/strong&gt; (population)，总体中每个成员叫做&lt;strong&gt;个体&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;总体参数是描述总体特性的指标，简称&lt;strong&gt;参数&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;如果总体中的个体是有限个，称个体总数 $N$ 为总体容量。&lt;/li&gt;
+&lt;li&gt;总体平均或总体均值是参数，常用 $\mu$ 表示。&lt;/li&gt;
+&lt;li&gt;总体方差是参数，常记为 $\sigma^2...&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/probability/3/</link>
+      <pubDate>Sat, 02 May 2026 15:01:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/probability/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/3/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/probability/3.png" type="image/png" length="33557" />
+      
+    </item>
     
     <item>
       <title>读后续写</title>
@@ -1177,68 +1239,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/1/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/probability/1.png" type="image/png" length="33783" />
-      
-    </item>
-    
-    <item>
-      <title>随机变量及其分布</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;随机变量及其分布&lt;/h1&gt;
-&lt;h2&gt;随机变量及其分类&lt;/h2&gt;
-&lt;h3&gt;随机变量的定义&lt;/h3&gt;
-&lt;p&gt;随机变量是用来表示随机试验结果的变量，通常用大写字母 $X,Y,Z$ 或小写希腊字母 $\xi,\eta,\zeta$ 表示。随机函数是一个特殊的实函数，对于任意 $e\in S$，都有唯一一个对应 $X(e)$，如图。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;Zufall.avif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;随机变量实质上是样本空间上的函数，可作为因变量，满足其值不大于某数的状况都是事件。我们称随机变量这个函数的值域为随机变量的取值范围，或值域。&lt;/p&gt;
-&lt;p&gt;随机变量在不同的条件下由于偶然因素影响，其可能取各种随机变量不同的值，具有不确定性和随机性，但这些取值落在某个范围的概率是一定的，此种变量称为随机变量。随机变量可以是离散型的，也可以是连续型的。如分析测试中的测定值就是一个以概率取值的随机变量，被测定量的取值可能在某一范围内随机变化，具体取什么值在测定之前是无法确定的，但测定的结果是确定的，多次重复测定所得到的测定值具有统计规律性。随机变量与模糊变量的不确定性的本质差别在于，后者的测定结果仍具有不确定性，即模糊性。&lt;/p&gt;
-&lt;p&gt;随机变量按其值域（根据定义，随机变量是一个...&lt;/p&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/probability/2/</link>
-      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/probability/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/2/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/probability/2.png" type="image/png" length="35074" />
-      
-    </item>
-    
-    <item>
-      <title>统计学和数理统计</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;统计学和数理统计&lt;/h1&gt;
-&lt;h2&gt;推论统计学&lt;/h2&gt;
-&lt;h3&gt;描述性统计&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;什么是统计学&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;统计学研究如何收集数据、分析数据、从数据做出有依据的推断结果。一言以蔽之，统计学是研究数据的科学。&lt;/li&gt;
-&lt;li&gt;统计学主要的数学工具是概率论，也广泛使用现代信息技术作为支撑，通过计算机和信息网络获取数据、进行建模、数据分析计算。&lt;/li&gt;
-&lt;li&gt;统计学是一门科学，不再是数学的一个分支。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;描述性统计&lt;/strong&gt;，统计学的做法分为两种：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;描述性统计&lt;/strong&gt;：从数据样本中计算一些平均值、标准差、最小值、最大值等概括统计量，画直方图、散点图等描述图形。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;推断性统计&lt;/strong&gt;：假定要研究的对象服从某种概率模型，收集数据后把数据用模型解释，并做出有概率意义的结论。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;总体、个体和均值&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;所要调查的对象全体叫做&lt;strong&gt;总体&lt;/strong&gt; (population)，总体中每个成员叫做&lt;strong&gt;个体&lt;/strong&gt;。&lt;/li&gt;
-&lt;li&gt;总体参数是描述总体特性的指标，简称&lt;strong&gt;参数&lt;/strong&gt;。&lt;/li&gt;
-&lt;li&gt;如果总体中的个体是有限个，称个体总数 $N$ 为总体容量。&lt;/li&gt;
-&lt;li&gt;总体平均或总体均值是参数，常用 $\mu$ 表示。&lt;/li&gt;
-&lt;li&gt;总体方差是参数，常记为 $\sigma^2...&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/probability/3/</link>
-      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/probability/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/3/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/probability/3.png" type="image/png" length="33557" />
       
     </item>
     
