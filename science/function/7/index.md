@@ -126,8 +126,8 @@
 
 **求积分：**
 
-- **利用奇偶性求积分：** 当 a, b 关于原点对称时奇函数积分为0。
-- **利用几何法求积分** 如 \\int_0^6 \\sqrt{9 - (x - 3)^2} = \\int\_{-3}^3 \\sqrt{9 - x^2} 几何意义为所有到原点距离为3的点的纵坐标之和，即 r = 3 的半圆面积 \\frac{9}{2}\\pi。
+- **利用奇偶性求积分：** 当 a, b 关于原点对称时奇函数积分为 0。
+- **利用几何法求积分** 如 \\int_0^6 \\sqrt{9 - (x - 3)^2} = \\int\_{-3}^3 \\sqrt{9 - x^2} 几何意义为所有到原点距离为 3 的点的纵坐标之和，即 r = 3 的半圆面积 \\frac{9}{2}\\pi。
 - **原函数的构造** nf(x) + f'(x) = \\frac{1}{e^{nx}}[e^{nx} f(x)]' f'(x)g(x) + f(x)g'(x) = [f(x)g(x)]' f'(x)g(x) - f(x)g'(x) = g^2(x)[\\frac{f(x)}{g(x)}]' f(x) + f'(x) \\tan x = \\frac{1}{\\cos x} [f(x) \\sin x]'
 
 ### 几何意义
@@ -383,4 +383,4 @@ Basel 问题即 \\displaystyle\\zeta(2)=\\sum\_{n=1}^{+\\infty}\\frac{1}{n^2}，
 
 \\int_0^nf(x)\\ dx\<\\sum\_{k=1}^nf(k)\<\\int_1^{n+1}f(x)\\ dx-\\frac{f(n+1)-f(1)}{2}
 
-[RainPPR](mailto:PPR2125773894@163.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

@@ -311,4 +311,4 @@ Mg=T\\cos\\theta=M\\omega^2l\\cos\\theta
 - 根据 a=v\\omega，加速度增大。
 - 根据 \\displaystyle T=\\dfrac{2\\pi}{\\omega}，周期减小。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

@@ -74,11 +74,11 @@
 
 ### 八、设 n 是正整数，且 2n+1 与 3n+1 都是完全平方数。请证明：40 \\mid n
 
-**性质1**：奇数的完全平方数模 8 同余于 1。
+**性质 1**：奇数的完全平方数模 8 同余于 1。
 
 (2k+1)^2\\equiv4k(k+1)+1\\equiv1\\pmod8
 
-**性质2**：任何一个数的平方模 5 同余于 0,\\pm1。
+**性质 2**：任何一个数的平方模 5 同余于 0,\\pm1。
 
 \\def\\arraystretch{1.1} \\begin{array}{lcll} t&\\equiv&0,\\pm1,\\pm2&\\pmod5\\ t^2&\\equiv&0,\\pm1&\\pmod5 \\end{array}
 
@@ -144,4 +144,4 @@
 
 (a,b)=(4,6),(6,4),(3,6),(6,3),(4,4)
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

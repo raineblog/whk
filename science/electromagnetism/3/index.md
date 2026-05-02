@@ -46,7 +46,7 @@ U=\\pm Ed
 | 场强 E             | 牛顿每库伦    | 电场的强度，单位电荷所受电场力大小 | E\_{点}=k\\dfrac{Q}{r^2}      |
 | 电场力 F\_{电}     | 牛顿          | 点电荷在电场中受到的力             | E=\\dfrac Fq                  |
 | 电场力做功 W\_{电} | 焦耳          | 电场力对电荷做的功                 | W=Fx\\cos\\theta              |
-| 电势能 E\_{p电}    | 焦耳          | 电场中带电物体所具有的势能         | W\_{电}=-\\Delta E\_{p电}     |
+| 电势能 E\_{p 电}   | 焦耳          | 电场中带电物体所具有的势能         | W\_{电}=-\\Delta E\_{p 电}    |
 | 电势 \\varphi      | 伏特          | 电场中单位电荷所带电势能           | \\varphi=\\dfrac{E_p}q        |
 | 电势差 U           | 伏特          | 电场中两点电势的差值               | U\_{AB}=\\varphi_A-\\varphi_B |
 
@@ -366,7 +366,7 @@ t=\\dfrac{L}{v_0}=\\sqrt{\\dfrac{L^2m}{2U_0q}}
 
 电场偏向型：以电场令电子束产生偏向，产生电场的偏向极板内置在阴极射线管内部。**示波器**使用此种方式的显像管，以利应付不同的扫描频率，但此方式需要较长的管身，主要用于电子仪器。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
 
 ______________________________________________________________________
 

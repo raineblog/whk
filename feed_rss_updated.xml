@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sat, 02 May 2026 09:46:00 -0000</pubDate>
-    <lastBuildDate>Sat, 02 May 2026 09:46:00 -0000</lastBuildDate>
+    <pubDate>Sat, 02 May 2026 13:22:09 -0000</pubDate>
+    <lastBuildDate>Sat, 02 May 2026 13:22:09 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -32,52 +32,1125 @@
     
     
     <item>
-      <title>随机过程和马尔可夫链</title>
+      <title>读后续写</title>
       
       
       
       
-      <description>&lt;h1&gt;随机过程和马尔可夫链&lt;/h1&gt;
-&lt;p&gt;在前面「指示随机变量」一节中，我们曾用递推方法解决了羽毛球发球权问题——第 $n$ 回合的发球状态仅取决于第 $n-1$ 回合的结果。这种「未来只依赖于现在，而与过去无关」的性质，正是随机过程和马尔可夫链的数学本质。&lt;/p&gt;
-&lt;h2&gt;随机过程初步&lt;/h2&gt;
-&lt;h3&gt;随机过程的概念&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;随机过程&lt;/strong&gt;（Stochastic Process）是一族随时间演化的随机变量 ${X_t : t \in T}$。其中 $T$ 称为参数集（或指标集），$X_t$ 在每个时刻 $t$ 都是一个随机变量。根据参数集 $T$ 的取值类型，随机过程可分为两类：&lt;/p&gt;
+      <description>&lt;h1&gt;读后续写&lt;/h1&gt;
+&lt;h2&gt;语料&lt;/h2&gt;
+&lt;h3&gt;情感描写&lt;/h3&gt;
+&lt;p&gt;恐惧 (horror)、痛苦 (sorrow)、愤怒 (anger)、感激 (gratitude)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;离散时间随机过程&lt;/strong&gt;：$T = {0, 1, 2, \dots}$，通常记作 ${X_n}_{n=0}^{\infty}$。例如：每天记录一次股票价格、每轮比赛后的比分状态&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;连续时间随机过程&lt;/strong&gt;：$T = [0, \infty)$ 或 $\mathbb{R}$，通常记作 ${X_t}_{t \ge 0}$。例如：布朗运动、泊松过程&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sb. felt a great sense of [情感名词] welling up in sb&#39;s heart and surging through sb.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A wave of [情感名词] engulfed / enveloped / seized sb. as sb. did sth.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enveloped / Seized by a wave of [情感名词], sb. did sth.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;So [形容词] was sb. that + 从句。&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;随机变量 $X_t$ 所有可能取值的集合称为&lt;strong&gt;状态空间&lt;/strong&gt;（St...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/probability/4/</link>
-      <pubDate>Sat, 02 May 2026 09:44:00 +0000</pubDate>
+&lt;p&gt;喜悦与激动 (Joy &amp;amp; Excitement)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Face lit up with a broad smile&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Heart leaped with excitement&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;悲伤与绝望 (Sadness &amp;amp; Despair)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tears welled up in one&#39;s eyes and streamed down one&#39;s chee...&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/cultural/writing/3/</link>
+      <pubDate>Sat, 02 May 2026 13:12:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/probability/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/4/</guid>
+      <comments>https://raineblog.dpdns.org/whk/cultural/writing/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/cultural/writing/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/4.png" type="image/png" length="37065" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/cultural/writing/3.png" type="image/png" length="30332" />
       
     </item>
     
     <item>
-      <title>随机变量及其分布</title>
+      <title>基因工程及其应用</title>
       
       
       
       
-      <description>&lt;h1&gt;随机变量及其分布&lt;/h1&gt;
-&lt;h2&gt;随机变量及其分类&lt;/h2&gt;
-&lt;h3&gt;随机变量的定义&lt;/h3&gt;
-&lt;p&gt;随机变量是用来表示随机试验结果的变量，通常用大写字母 $X,Y,Z$ 或小写希腊字母 $\xi,\eta,\zeta$ 表示。随机函数是一个特殊的实函数，对于任意 $e\in S$，都有唯一一个对应 $X(e)$，如图。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;Zufall.avif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;随机变量实质上是样本空间上的函数，可作为因变量，满足其值不大于某数的状况都是事件。我们称随机变量这个函数的值域为随机变量的取值范围，或值域。&lt;/p&gt;
-&lt;p&gt;随机变量在不同的条件下由于偶然因素影响，其可能取各种随机变量不同的值，具有不确定性和随机性，但这些取值落在某个范围的概率是一定的，此种变量称为随机变量。随机变量可以是离散型的，也可以是连续型的。如分析测试中的测定值就是一个以概率取值的随机变量，被测定量的取值可能在某一范围内随机变化，具体取什么值在测定之前是无法确定的，但测定的结果是确定的，多次重复测定所得到的测定值具有统计规律性。随机变量与模糊变量的不确定性的本质差别在于，后者的测定结果仍具有不确定性，即模糊性。&lt;/p&gt;
-&lt;p&gt;随机变量按其值域（根据定义，随机变量是一个...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/probability/2/</link>
-      <pubDate>Sat, 02 May 2026 09:37:00 +0000</pubDate>
+      <description>&lt;h1&gt;基因工程及其应用&lt;/h1&gt;
+&lt;h2&gt;基因工程概论&lt;/h2&gt;
+&lt;h3&gt;基因工程发展简史&lt;/h3&gt;
+&lt;p&gt;基因工程是在生物化学、分子生物学和微生物学等学科的基础上发展起来的，正是这些学科的基础理论和相关技术的发展催生了基因工程。基因工程是指按照人们的愿望，通过转基因等技术，赋予生物新的遗传特性，创造出更符合人们需要的新的生物类型和生物产品。从技术操作层面看，由于基因工程是在 DNA 分子水平上进行设计和施工的，因此又叫作重组 DNA 技术。&lt;/p&gt;
+&lt;p&gt;| 年份/时间 | 人物（其他信息） | 事件/意义 |
+|:---:|:---|:---|
+| 1944 年 | 艾弗里等 | 证明遗传物质是 DNA，且可在同种生物不同个体间转移 |
+| 1950-1952 年 | 埃德曼；桑格 | 发明氨基酸测序方法；完成胰岛素氨基酸序列测定 |
+| 1953 年 | 沃森、克里克 | 建立 DNA 双螺旋结构模型，提出自我复制假说 |
+| 1958 年 | 梅塞尔森、斯塔尔 | 实验证明 DNA 的半保留复制；中心法则确立 |
+| 1961-1966 年 | 尼伦伯格、马太等 | 破译第一个密码子，至 1966 年全部 64 个密...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/6/</link>
+      <pubDate>Sat, 02 May 2026 13:12:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/probability/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/2/</guid>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/6/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/6/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/2.png" type="image/png" length="35074" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/6.png" type="image/png" length="32853" />
+      
+    </item>
+    
+    <item>
+      <title>内环境稳态详解：激素调节机制与临床实践</title>
+      
+      
+      
+      
+      <description>本文系统阐释内环境概念，解析血浆、组织液、淋巴液的组成与动态平衡，重点探讨渗透压、酸碱度、温度等理化性质的稳态调控机制，深入说明激素在血糖、体温、水盐调节中的关键作用及反馈回路，涵盖胰岛素、胰高血糖素、甲状腺激素、糖皮质激素等，适用于生物化学与医学学习。</description>
+      <link>https://raineblog.dpdns.org/whk/science/human/3/</link>
+      <pubDate>Sat, 02 May 2026 13:12:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/human/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/3.png" type="image/png" length="47936" />
+      
+    </item>
+    
+    <item>
+      <title>集合与逻辑</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;集合与逻辑&lt;/h1&gt;
+&lt;h2&gt;基础知识&lt;/h2&gt;
+&lt;h3&gt;集合的定义&lt;/h3&gt;
+&lt;p&gt;集合：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;某些指定的对象集在⼀起就形成⼀个集合（简称集）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;元素：集合中每个对象叫做这个集合的元素。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;集合的三要素：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;确定性：集合内的元素是可以被确定的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;互异性：集合内的各元素都是唯⼀不重复的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;⽆序性：集合内的各元素的顺序是没有限制的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;子集与空集：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;子集：$A \subseteq B$ 或 $B \supseteq A$，表示 $A$ 中的任意元素都属于 $B$&lt;/p&gt;
+&lt;p&gt;$A \subseteq A, \varnothing \subseteq A$&lt;/p&gt;
+&lt;p&gt;$A \subseteq B$ 且 $B \subseteq C \implies A \subseteq C$&lt;/p&gt;
+&lt;p&gt;$A \subseteq B$ 且 $B \subseteq A \implies A=B$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;真子集：$A \subsetneqq B$ 或 $B \supsetneqq A$，表示 $A \subseteq B$ 且 $B$ 中至少有一元素不属于 $A$&lt;/p&gt;
+&lt;p&gt;$A \subsetneq...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/mathematics/2/</link>
+      <pubDate>Sat, 02 May 2026 13:12:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mathematics/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mathematics/2.png" type="image/png" length="30842" />
+      
+    </item>
+    
+    <item>
+      <title>有机化学详解：碳原子成键机理与命名应用场景基础</title>
+      
+      
+      
+      
+      <description>本文系统阐释有机化合物的基本概念包括碳原子的四价成键单双三键特性及不饱和度计算公式详细解析链烷烃烯烃炔烃及芳香体系的通式并说明同系物在复杂分子中的局限性与衍生物命名规则同时介绍元素分析质谱核磁共振与红外光谱等现代表征方法阐明其在结构鉴定中的应用</description>
+      <link>https://raineblog.dpdns.org/whk/science/organic/1/</link>
+      <pubDate>Sat, 02 May 2026 13:12:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/organic/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/1.png" type="image/png" length="44926" />
+      
+    </item>
+    
+    <item>
+      <title>烷烃详解：四面体结构与同分异构现象详解与应用场景</title>
+      
+      
+      
+      
+      <description>本文系统阐释烷烃的基本结构，重点描述甲烷的四面体几何、杂化及同分异构体的产生机制。通过光照条件下的自由基氯化过程，展示从甲烷到四氯甲烷的逐步取代路径，并分析沸点、密度等物性趋势。进一步讨论石油裂化与重整工艺，说明如何将长链烷烃裂解为短链烷烃与烯烃，为工业燃料与化工原料提供理论依据。</description>
+      <link>https://raineblog.dpdns.org/whk/science/organic/2/</link>
+      <pubDate>Sat, 02 May 2026 13:12:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/organic/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/2.png" type="image/png" length="41975" />
+      
+    </item>
+    
+    <item>
+      <title>烷烃异构详解：减碳法机理与实验应用实例技巧指南</title>
+      
+      
+      
+      
+      <description>本文系统阐释烷烃同分异构的减碳法原理，包括主链选择、取代基移动的对称性、有序性及互补性原则，详细分析烷烃、烷基的异构计数方法，并结合实例展示一元、二元取代的同分异构体生成过程。还讨论了顺反异构、对映异构的判断规则以及实验中的原子共面判定技巧，帮助读者快速掌握烷烃异构的计数与结构绘制技巧。</description>
+      <link>https://raineblog.dpdns.org/whk/science/organic/3/</link>
+      <pubDate>Sat, 02 May 2026 13:12:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/organic/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/3.png" type="image/png" length="49046" />
+      
+    </item>
+    
+    <item>
+      <title>高分子详解：加聚与缩聚机制与工业应用医用黏合剂</title>
+      
+      
+      
+      
+      <description>本文系统阐述高分子的形成机理，涵盖加聚反应（如乙烯加聚生成聚乙烯）与缩聚反应（如酚醛树脂的脱水缩合），并详细分析碳链延长、环化、官能团转化及保护策略。同时探讨医用黏合剂的聚合物化学、生物降解路径及工业制备工艺，提供从原料到应用的完整技术路线。</description>
+      <link>https://raineblog.dpdns.org/whk/science/organic/4/</link>
+      <pubDate>Sat, 02 May 2026 13:12:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/organic/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/4.png" type="image/png" length="39785" />
+      
+    </item>
+    
+    <item>
+      <title>烃的反应详解：氧化、取代与加成机理与应用场景</title>
+      
+      
+      
+      
+      <description>本文系统阐述烃类的结构特征与反应路线，涵盖烷烃的氧化燃烧、取代反应及自由基机理；烯烃的脱氢、加成与聚合过程，详细分析电子富集与过渡态；炔烃的氧化与加成反应原理；苯及其衍生物的取代与氧化行为；并探讨气态烃燃烧后分子数守恒的条件，提供实验设计与高考复习的实用框架。</description>
+      <link>https://raineblog.dpdns.org/whk/science/organic/5/</link>
+      <pubDate>Sat, 02 May 2026 13:12:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/organic/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/5.png" type="image/png" length="45307" />
+      
+    </item>
+    
+    <item>
+      <title>原子与元素详解：射线与放射性机制与应用场景</title>
+      
+      
+      
+      
+      <description>本文系统阐述原子核结构、射线种类及放射性衰变原理，详细解析α、β、γ射线的物理特性、检测技术及其在测厚、能源、医学和同位素标记等实际应用，展示从实验观察到核模型演进的完整技术路线，文中还涉及半衰期概念、核裂变与核聚变的能量释放机制，以及放射性同位素在科研和工业中的标记技术。</description>
+      <link>https://raineblog.dpdns.org/whk/science/structure/2/</link>
+      <pubDate>Sat, 02 May 2026 13:12:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/structure/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/2.png" type="image/png" length="43781" />
+      
+    </item>
+    
+    <item>
+      <title>晶体结构详解：离子键与金属键的机制与应用场景</title>
+      
+      
+      
+      
+      <description>本文系统阐述晶体与晶胞的基本概念，重点分析离子键、金属键、共价键及配位键的本质，详细推导晶格能计算及玻恩-哈伯循环方法，并探讨晶体的物理特性、结构类型及常见应用场景，为高中与大学化学学习提供深度技术框架。并关联实际实验案例，帮助读者掌握结构分析方法。</description>
+      <link>https://raineblog.dpdns.org/whk/science/structure/4/</link>
+      <pubDate>Sat, 02 May 2026 13:12:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/structure/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/4.png" type="image/png" length="43319" />
+      
+    </item>
+    
+    <item>
+      <title>议论文写作</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;议论文写作&lt;/h1&gt;
+&lt;h2&gt;材料作文&lt;/h2&gt;
+&lt;h2&gt;任务驱动型作文&lt;/h2&gt;
+&lt;h2&gt;例题&lt;/h2&gt;
+&lt;h3&gt;只争朝夕，志在千秋&lt;/h3&gt;
+&lt;p&gt;```md {admonition=&#34;note&#34; title=&#34;青岛统考 2025 高二上期末&#34;}
+按照高考语文作文的标准和规范，完成下面的写作：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;多少事，从来急；天地转，光阴迫。一万年太久，只争朝夕。——毛泽东&lt;/p&gt;
+&lt;p&gt;我们对时间的理解，不是以十年、百年为计，而是以百年、千年为计。——习近平&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以上材料引发了你怎样的联想和思考？写一篇议论文。不少于 800 字。
+```&lt;/p&gt;
+&lt;p&gt;“一万年太久，只争朝夕”，这是革命年代时不我待的呐喊；“以百年、千年为计”，这是新时代放眼未来的宏图。两种时间观看似相悖，实则相辅相成，共同构成了中华民族独特的时间智慧——以只争朝夕的紧迫感，筑就千秋伟业的宏伟蓝图。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;只争朝夕，是因为天地转、光阴迫，时代的洪流不等人。&lt;/strong&gt;历史反复证明，机遇稍纵即逝。当年，无数仁人志士以“朝夕必争”的姿态投身革命，才换来民族独立；改革开放初期，深圳以“三天一层楼”的速度创造奇迹，才奠定今日繁华。反观晚清，因循守旧、不思进取，终致国门洞开、山河破碎。正如逆水行舟...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/cultural/writing/1/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/cultural/writing/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/cultural/writing/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/cultural/writing/1.png" type="image/png" length="31144" />
+      
+    </item>
+    
+    <item>
+      <title>开发进程</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;开发进程&lt;/h1&gt;
+&lt;h2&gt;生物&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;（待完善）孟德尔遗传规律：五三 310 页考法 1, 2, 3。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;细胞活动。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;遗传除了孟德尔以外的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;物理&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;空间测量，参考新概念、初中课本。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;热力学。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;角动量、轨道力学。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;天体概述，补充地理内容。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;数学&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;线性代数：3B1B。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;OI wiki：数论、群论、博弈论、计算理论、线性规划&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;具体数学：微积分、数列进阶与提高。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;统计模型、概率分布。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新高考数学你真的掌握了吗 平面几何与三角函数.pdf P223 圆幂定理&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新高考数学你真的掌握了吗 函数.pdf 4.3 找点（三）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解析几何（第三版） (丘维声) (Z-Library).pdf P141 矩阵&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;```sh
+git submodule add https://github.com/raineblog/mkdocs-material material
+git submodule add https://github.com/raineblog/mkdocs-script script
+git submo...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/home/roadmap/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/home/roadmap/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/roadmap/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/roadmap.png" type="image/png" length="29201" />
+      
+    </item>
+    
+    <item>
+      <title>细胞结构详解：功能机制与医学应用与科研前沿与科研</title>
+      
+      
+      
+      
+      <description>本文系统阐述细胞结构的层次性组成，从核糖体合成到细胞器功能，结合结构生物学的晶体学、核磁共振与电子显微镜技术，解析蛋白质三维空间结构如何决定生化功能，并阐明药物靶标蛋白的结构‑功能关联，为创新药物研发提供理论依据。通过高分辨率三维成像，揭示了蛋白质的构象变化与活性位点，解释了药物如何通过配体结合影响信号转导路径，从而为精准医学提供依据。</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/1/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/1.png" type="image/png" length="44215" />
+      
+    </item>
+    
+    <item>
+      <title>酶抑制剂详解：可逆不可逆机制与生物医药与临床</title>
+      
+      
+      
+      
+      <description>本文系统阐释酶抑制剂的可逆、非竞争及反竞争三类抑制机制，分别解析动力学参数最大反应速率与米氏常数的变化规律，并深入探讨不可逆共价抑制及特殊碱基如 5-溴尿嘧啶、Z 核苷酸、次黄嘌呤在 DNA 复制和药物研发中的应用，适用于高中与大学生物竞赛与实验设计。</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/2/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/2.png" type="image/png" length="25677" />
+      
+    </item>
+    
+    <item>
+      <title>细胞增殖和细胞工程</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;细胞增殖和细胞工程&lt;/h1&gt;
+&lt;h2&gt;减数分裂和受精作用与胚胎&lt;/h2&gt;
+&lt;h3&gt;减数分裂的过程&lt;/h3&gt;
+&lt;h3&gt;胚胎工程的理论基础&lt;/h3&gt;
+&lt;p&gt;像培育试管婴儿这样，对动物早期胚胎或配子进行显微操作和处理以获得目标个体的技术称为胚胎工程。其操作的主要对象是生殖细胞、受精卵以及早期胚胎细胞。胚胎发育是胚胎工程的理论基础。那么，动物胚胎是如何发育的呢？虽然脊椎动物种类繁多，胚胎发育过程也存在差异，但其早期发育较为相似，分成受精、卵裂、桑椹胚、囊胚、原肠胚与器官形成等阶段（图 2-29）。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;蛙胚胎形成和发育过程示意图&#34; src=&#34;image-15-749ac2a.avif&#34;&gt;{ width=&#34;90%&#34; }&lt;/p&gt;
+&lt;p&gt;以蛙为例，由于卵黄分布不对称，精子与卵结合之后形成的受精卵分为动物极（发育为外胚层）和植物极（发育为中胚层和内胚层）。受精卵形成后开始卵裂，先分裂成两个细胞，之后细胞通常会逐次倍增，但胚胎的总体积大致不变。受精卵分裂成 $16 \sim 32$ 个细胞的阶段，称为桑椹胚。在这个阶段，动物极细胞的分裂频率会超越靠近植物极且含有较多卵黄的细胞群，形成中空的球状胚，称为囊胚。随后形成的原肠胚具有外胚层、中胚层与内胚层，这三...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/5/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/5.png" type="image/png" length="32535" />
+      
+    </item>
+    
+    <item>
+      <title>发酵技术详解：酵母发酵机制与工业应用微生物工程</title>
+      
+      
+      
+      
+      <description>本文系统阐述发酵技术的三大定义及其演进重点解析酵母菌酒精发酵乳酸菌乳酸发酵以及醋酸菌氧化乙醇的生化路径通过分子水平描述糖酵解丙酮酸还原及氧化磷酸化过程详细说明在厌氧与好氧条件下 NAD 再生酶活性调控及代谢通量分配并对工业规模化操作中的温度 pH 溶解氧控制提供深度解析</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/7/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/7/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/7/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/7.png" type="image/png" length="26901" />
+      
+    </item>
+    
+    <item>
+      <title>电场电势详解：场论机制与实验设计全方位应用</title>
+      
+      
+      
+      
+      <description>本文从场的本质出发阐释电场的定义与保守性质引入场线几何特性推导电场强度公式详解高斯定理在对称场中的应用进一步解释电势与电势能的关系等势面特性及点电荷电势公式最后讨论电偶极子微元叠加与几何叠加展示在实验设计与竞赛复习中的典型案例</description>
+      <link>https://raineblog.dpdns.org/whk/science/electromagnetism/2/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/2.png" type="image/png" length="43343" />
+      
+    </item>
+    
+    <item>
+      <title>电场运动详解：匀强场加速与偏转原理与实验技术方法</title>
+      
+      
+      
+      
+      <description>本文系统阐述电场中带电粒子的运动规律，涵盖匀强与非匀强场的力学模型、电势与电场强度的计算推导，以及电容器的结构、容量公式及串并联等效模型。重点解析加速电场下的功动能定理、穿板与交变场运动，并延伸至偏转电场的轨迹求解与阴极射线管应用，提供从基础原理到实验技巧的完整技术路线。</description>
+      <link>https://raineblog.dpdns.org/whk/science/electromagnetism/3/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/3.png" type="image/png" length="42777" />
+      
+    </item>
+    
+    <item>
+      <title>电磁感应详解：磁通量与楞次定律在实验中的应用与实践</title>
+      
+      
+      
+      
+      <description>本文深入解析电磁感应的完整技术路线，从磁通量的几何定义出发，推导安培环路定律与楞次定律，阐明感生电动势与动生电动势的产生机制，进一步探讨自感、互感、涡流及其在变压器、电机、探测器中的应用实例。通过公式展示磁场变化与感应电动势的定量关系，并分析能量转化与电磁阻尼的物理意义，为学生提供系统的理论框架与实验思路。</description>
+      <link>https://raineblog.dpdns.org/whk/science/electromagnetism/5/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/5.png" type="image/png" length="46209" />
+      
+    </item>
+    
+    <item>
+      <title>交变电流详解：正弦波机理与电能输送应用实例案例</title>
+      
+      
+      
+      
+      <description>本文系统阐述交变电流的产生机制，从电磁感应原理出发，推导正弦波电动势 ε=E_m sin ωt，分析电感的感抗 X_L=ωL、电容的容抗 X_C=1/(ωC)，并给出有效值 I=I_m/√2、U=U_m/√2 的计算过程。随后讨论变压器的匝数比与电压比关系 U_1/U_2=n_1/n_2，阐明理想变压器的功率守恒 U_1I_1=U_2I_2，并探讨三相交流的相电压与线电压 √3 倍关系，最后介绍电磁振荡的 LC 电路、能量交换及功率因素提升方法。</description>
+      <link>https://raineblog.dpdns.org/whk/science/electromagnetism/6/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/6/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/6/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/6.png" type="image/png" length="51039" />
+      
+    </item>
+    
+    <item>
+      <title>物质及元素</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;物质及元素&lt;/h1&gt;
+&lt;h2&gt;物质的组成和分类&lt;/h2&gt;
+&lt;h3&gt;物质的组成&lt;/h3&gt;
+&lt;p&gt;物质都是由元素组成的。元素是具有相同质子数（核电荷数）的一类原子的总称。自然界中的元素以两种形态存在：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;游离态&lt;/strong&gt;：元素以单质形式存在。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化合态&lt;/strong&gt;：元素以化合物形式存在。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;元素-游离态-单质，自然界中常见存在的单质，例如空气中的某些成分、矿石中的不活泼的金属单质、火山口的硫单质、陨铁中的铁单质。&lt;/p&gt;
+&lt;p&gt;经典问题，$\ce{H2}$ 和 $\ce{HD}$ 的“混合物”是纯净物，因为纯净物的定义中，不考虑原子核同位素等的不同。&lt;/p&gt;
+&lt;p&gt;元素-化合态-化合物。&lt;/p&gt;
+&lt;p&gt;物质按照组成可以分为纯净物和混合物：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;纯净物&lt;/strong&gt;：由一种物质组成，具有固定的组成和性质。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;混合物&lt;/strong&gt;：由两种或多种物质混合而成，没有固定的组成，各成分保持各自的性质。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;物质&#34; src=&#34;物质-dcbbc0d.avif&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
+&lt;p&gt;纯净物注意：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;化学式相同，并不一定就是纯净物。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;高聚物，又称高分子化合物，由于其分子中的链节数目不同，相对分子质量也不同，因此高聚物一定是混合物。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;水合盐又称结...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/index.png" type="image/png" length="32136" />
+      
+    </item>
+    
+    <item>
+      <title>铝单质详解：化学性质与工业制取与应用场景全解析</title>
+      
+      
+      
+      
+      <description>本文系统阐述铝单质的物理化学性质、反应机理及工业制取流程，涵盖铝土矿的拜耳法溶出、氢氧化铝的制备、氧化铝的电解还原等关键环节，详细分析还原性、酸碱反应、合金强化及铝热反应的应用，为高中与大学化学学习提供完整技术路线图。</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/al/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/al/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/al/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/al.png" type="image/png" length="40732" />
+      
+    </item>
+    
+    <item>
+      <title>过渡元素概述详解：铁的氧化机理与工业应用与检验</title>
+      
+      
+      
+      
+      <description>本文系统阐述铁的物理性质、化学反应及氧化物种类，重点分析铁与氧气、酸、水的反应机理，介绍铁盐与亚铁盐的溶解度差异、氧化还原行为及其在补铁剂中的应用，并说明高炉炼铁、实验检验及稀有金属的关键技术路线，文章还讨论了铁的氧化物分类、高炉炼铁流程、铁盐在酸碱条件下的水解与沉淀行为，以及补铁剂的无机、有机弱酸及螯合三代工艺，并涵盖 KSCN 检验、铁氰化物沉淀法等常用除杂手段。</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/fe/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/fe/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/fe/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/fe.png" type="image/png" length="32987" />
+      
+    </item>
+    
+    <item>
+      <title>碱金属详解：钠的化学机制与应用场景全面解析</title>
+      
+      
+      
+      
+      <description>本文系统阐述碱金属中钠的物理化学性质，重点分析其与氧气、水及酸的反应机理，包括氧化生成 Na₂O、Na₂O₂及过氧化钠的形成过程，并详细说明钠在冶金还原、高压钠灯及导热剂等实际应用的化学原理，兼顾实验现象与理论解释，适用于高中与大学化学学习，并探讨实验现象与应用前景。</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/na/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/na/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/na/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/na.png" type="image/png" length="57756" />
+      
+    </item>
+    
+    <item>
+      <title>转基因技术详解：原理机制、社会影响与实际应用场景</title>
+      
+      
+      
+      
+      <description>本文系统阐释转基因技术的分子构建路线包括外源基因导入农杆菌介导转化及基因表达调控机制重点分析抗虫抗除草耐逆境等性状的遗传编辑原理并探讨其在农业生产食品安全医药合成及环境保护中的实际应用与潜在风险此外还讨论了转基因产品在生态系统中的扩散风险监管框架及公众认知的形成机制为政策制定提供科学依据</description>
+      <link>https://raineblog.dpdns.org/whk/science/experiment/3/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/experiment/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/3.png" type="image/png" length="44180" />
+      
+    </item>
+    
+    <item>
+      <title>进阶导数题型</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;进阶导数题型&lt;/h1&gt;
+&lt;h2&gt;恒成立问题&lt;/h2&gt;
+&lt;h3&gt;函数模型&lt;/h3&gt;
+&lt;p&gt;简单的恒成立问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;$f(x)\ge0$ 在定义域内恒成立 $\iff f(x)_{\min}\ge0$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$f(x)\le0$ 在定义域内恒成立 $\iff f(x)_{\max}\le0$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;对于任何单调函数，最值必在端点处取到：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;单调函数 $f(x)\ge0$ 在 $[x_1,x_2]$ 上恒成立等价于 $\begin{cases}f(x_1)&amp;amp;\ge0\ f(x_2)&amp;amp;\ge0\end{cases}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;单调函数 $f(x)\le0$ 在 $[x_1,x_2]$ 上恒成立等价于 $\begin{cases}f(x_1)&amp;amp;\le0\ f(x_2)&amp;amp;\le0\end{cases}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;对任何一个函数 $f(x)$，若它在区间上是先减后增，则其最大值必在端点处取得，同理可得若函数在区间上先增后减，其最小值必在区间端点处取得：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;若 $a &amp;gt; 0$，则 $f(x) = ax^2 + bx + c \le 0$ 在 $[x_1, x_2]$ 上恒成立等价于 $\begin{cases}f...&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/function/5/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/function/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/5.png" type="image/png" length="33562" />
+      
+    </item>
+    
+    <item>
+      <title>极限与微积分</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;极限与微积分&lt;/h1&gt;
+&lt;h2&gt;函数极限&lt;/h2&gt;
+&lt;h3&gt;初等函数&lt;/h3&gt;
+&lt;p&gt;我们研究过常数函数、幂函数、指数函数、对数函数、三角函数、反三角函数，它们经过有限次加、减、乘、除、乘方、开方和复合运算，得到的函数称为初等函数。初等函数是数学中最基本的一类函数，具有相当重要的性质。&lt;/p&gt;
+&lt;h3&gt;极限定义​&lt;/h3&gt;
+&lt;p&gt;对于函数 $f(x)$ 与实数 $a$，如果存在实数 $b$，使得 $\forall \varepsilon &amp;gt; 0$，$\exist \delta &amp;gt; 0$，对任意 $x \in (a - \delta, a) \cup (a, a + \delta)$，有 $|f(x) - b| &amp;lt; \varepsilon$，则 $b$ 称作 $f(x)$ 在点 $a$ 的极限，记作&lt;/p&gt;
+&lt;p&gt;$$
+\lim_{x \to a} f(x) = b
+$$&lt;/p&gt;
+&lt;p&gt;这就是严格定义函数极限的 $\varepsilon \text - \delta$ 语言。也就是说，对于任意 $\varepsilon &amp;gt; 0$，我们都能找到一段 包含 $a$ 但是扣去 $a$ 的区间，使得这个区间上对应的函数值与 $b$ 的距离都小于 $\varep...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/function/7/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/function/7/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/7/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/7.png" type="image/png" length="33713" />
+      
+    </item>
+    
+    <item>
+      <title>变异与进化详解：基因突变机制与自然选择的应用场景</title>
+      
+      
+      
+      
+      <description>本文系统阐述基因变异的来源与类型，包括点突变、插入缺失与染色体重排，分析脱氧核糖核酸复制错误、环境诱变与修复机制；随后探讨自然选择、性状遗传及种群遗传平衡的数学模型，并结合实验案例说明变异在进化中的关键作用。</description>
+      <link>https://raineblog.dpdns.org/whk/science/genetics/1/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/genetics/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/genetics/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/1.png" type="image/png" length="43595" />
+      
+    </item>
+    
+    <item>
+      <title>孟德尔遗传规律详解：分离与自由组合定律及应用场景</title>
+      
+      
+      
+      
+      <description>本文系统阐述孟德尔遗传因子的分离定律与自由组合定律，解析配子形成过程、等位基因配对及表型-基因型关系，重点探讨豌豆杂交实验的统计方法、连续自交比例与致死配子模型，并提供白化病等遗传病的概率推断与育种策略。</description>
+      <link>https://raineblog.dpdns.org/whk/science/genetics/2/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/genetics/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/genetics/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/2.png" type="image/png" length="44194" />
+      
+    </item>
+    
+    <item>
+      <title>基因工程育种详解：杂种优势机制与作物育种应用佳</title>
+      
+      
+      
+      
+      <description>本文系统阐述基因工程育种中的杂种优势机制，涵盖显性假说、超显性、组-胞质互作及表观遗传调控等理论框架，分析三系法、两系法及八倍体小黑麦的育种策略，提供从基因层面到产量提升的完整技术路线，并探讨其在作物抗逆性、品质改良及可持续农业中的应用前景。</description>
+      <link>https://raineblog.dpdns.org/whk/science/genetics/4/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/genetics/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/genetics/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/4.png" type="image/png" length="42466" />
+      
+    </item>
+    
+    <item>
+      <title>笛卡尔坐标系详解：平面坐标变换原理与几何应用</title>
+      
+      
+      
+      
+      <description>本文系统阐述平面笛卡尔坐标系的构建、坐标表示法及点的坐标求法，深入推导皮克定理的面积公式，并详细解析欧几里得平移与旋转的坐标变换公式，进一步探讨点关于点、直线及曲线的对称性，提供完整的几何变换框架与应用示例。</description>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/1/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/1.png" type="image/png" length="40758" />
+      
+    </item>
+    
+    <item>
+      <title>椭圆详解：几何定义与参数化全解析与竞赛复习</title>
+      
+      
+      
+      
+      <description>本文系统阐释椭圆的三大定义：第一定义通过焦点距离之和求标准方程，第二定义利用离心率与准线建立几何比例，第三定义采用点差法分析弦の中点关系。随后推导参数化方程、切线斜率及极点极线理论，并讨论面积、周长近似及光学性质，为高考与竞赛提供完整技术路线，以及应用实例。</description>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/3/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/3.png" type="image/png" length="43359" />
+      
+    </item>
+    
+    <item>
+      <title>圆锥截线详解：离心率机制与天体轨道应用场景</title>
+      
+      
+      
+      
+      <description>本文系统阐释圆锥截线的几何定义、离心率公式 e=cosβ/cosα 以及不同切角对应的椭圆、抛物线、双曲线类型。随后介绍二次曲线的一般方程、矩阵判别条件 Δ2、Δ3，推导标准方程、焦点及离心率统一公式，并结合天体运动中的轨迹分类，提供从纯几何到坐标代数的完整解析路线。</description>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/4/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/4.png" type="image/png" length="42430" />
+      
+    </item>
+    
+    <item>
+      <title>线性代数详解：向量与矩阵的变换机制与应用场景</title>
+      
+      
+      
+      
+      <description>本文系统阐述线性代数中的向量概念、加法、数乘及线性组合，重点解析基向量、张成空间及线性相关性。进一步推导矩阵表示的线性变换，包括旋转、剪切等几何操作，并阐明行列式与维度缩放的关系，最后介绍高斯消元求解线性方程组的方法与矩阵逆的应用。</description>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/5/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/5.png" type="image/png" length="45391" />
+      
+    </item>
+    
+    <item>
+      <title>神经系统详解：信号传导机制与医学临床实践创新篇</title>
+      
+      
+      
+      
+      <description>本文系统阐述神经系统的结构层级与信号传导机制，涵盖中枢与外周神经的解剖功能、突触传递过程及离子通道动力学。进一步分析了神经冲动的产生、传播、以及兴奋-收缩耦联的分子基础，并探讨了脑机接口、神经调节及相关疾病的临床意义。</description>
+      <link>https://raineblog.dpdns.org/whk/science/human/2/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/human/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/2.png" type="image/png" length="44746" />
+      
+    </item>
+    
+    <item>
+      <title>泌尿系统详解：泌尿排泄机制与临床应用场景解析全书</title>
+      
+      
+      
+      
+      <description>本文系统阐述泌尿系统的解剖结构、血液过滤与尿液形成机制，重点分析肾小球滤过、肺泡排泄及膀胱储尿的物理过程，进一步探讨尿路感染、结石形成及其成像技术的最新进展，为临床诊断与治疗提供理论依据，同时介绍了肾单位重吸收、尿酮体代谢以及尿液 pH 调节的生化途径，并对常见的泌尿系统疾病如尿失禁、前列腺增生进行机制解析，结合最新的超声、CT 成像技术阐述诊断流程。</description>
+      <link>https://raineblog.dpdns.org/whk/science/human/7/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/human/7/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/7/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/7.png" type="image/png" length="29693" />
+      
+    </item>
+    
+    <item>
+      <title>深入探讨性传播疾病之艾滋病传播机制与预防策略全解析</title>
+      
+      
+      
+      
+      <description>本文系统阐释性传播疾病的分类与危害，重点解析艾滋病的三大传播途径——性接触、血液传播及母婴传播，并详细说明使用避孕套、避免共用注射器、积极检测治疗、禁止共用生活用品等预防措施的科学依据与公共卫生意义。此外，还探讨了 HIV 感染者的临床症状、抗病毒药物的作用机制以及检测技术的最新进展，为读者提供全景式的防控知识体系。</description>
+      <link>https://raineblog.dpdns.org/whk/science/human/8/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/human/8/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/8/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/8.png" type="image/png" length="32241" />
+      
+    </item>
+    
+    <item>
+      <title>免疫系统详解：机制原理、应用场景与临床意义深入</title>
+      
+      
+      
+      
+      <description>本文系统阐述免疫系统结构与功能，涵盖骨髓、胸腺、脾、淋巴结等器官的发育与分布，深入解析 T 细胞（辅助性、细胞毒性、调节性、记忆细胞）及 B 细胞的分化、抗体产生与记忆形成，探讨巨噬细胞、树突状细胞等抗原呈递细胞的角色，以及细胞因子、补体系统在免疫调节中的网络作用。</description>
+      <link>https://raineblog.dpdns.org/whk/science/human/9/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/human/9/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/9/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/9.png" type="image/png" length="51107" />
+      
+    </item>
+    
+    <item>
+      <title>圆周运动详解：向心力机制与典型应用场景全解析</title>
+      
+      
+      
+      
+      <description>本文系统阐述圆周运动的基本物理量定义，包括线速度、角速度、周期、频率及转速，并推导匀速圆周运动的关键关系 v=ωr、a=vω。进一步分析向心力 F_c=mv^2/r 与向心加速度 a_c=v^2/r 的来源，详细列出列表法求解多圈运动的表格方法，解释传送带、绳杆等关联速度情形，并深入探讨牛顿第二定律在圆锥摆、圆盘模型中的应用，涵盖临界角速度、摩擦极限及多物体协同运动的数学推导。</description>
+      <link>https://raineblog.dpdns.org/whk/science/kinematics/4/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/kinematics/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/4.png" type="image/png" length="28373" />
+      
+    </item>
+    
+    <item>
+      <title>数学史概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;数学史概述&lt;/h1&gt;
+&lt;h2&gt;《梦溪笔谈》&lt;/h2&gt;
+&lt;p&gt;《梦溪笔谈》，或称《笔谈》，是中国北宋沈括所作的笔记体著作，原有 $26$ 卷，分 $17$ 门，题材广泛，记录作者所见所闻及研究心得，当中有三分一以上的内容，叙述有关科学技术的各方面先进成就，涉及天文、数学、物理、地理、医药和乐律等各范畴，使本书成为中国科技史研究的重要著作和珍贵资料。&lt;/p&gt;
+&lt;h3&gt;梦溪笔谈卷十八技艺&lt;/h3&gt;
+&lt;p&gt;《梦溪笔谈》中卷十八技艺中研究了“隙积术”和“会圆术”。隙积术是一种计算有空隙物体的体积的技术，计算在一种特定堆栈法下，酒瓮的总数目：以长方形为底，平铺一层酒瓮，再层层上堆，依次缩小每层的堆栈数，使成为类以跺的平头截体 。隙积术属于高阶等差级数求和问题，是求解垛积问题，具体提到累棋、层坛及酒家积罂等的垛积问题。会圆术是已知弓形的圆径和矢高求弧长的问题，书中推导得求弓形弧长的近似公式。&lt;/p&gt;
+&lt;p&gt;算术求积尺之法，如刍萌、刍童、方池、冥谷、堑堵、鳖臑、圆锥、阳马之类，物形备矣，独未有隙积一术，古法：凡算方积之物，有立方，谓六幂皆方者。其法再自乘则得之。有堑堵，谓如土墙者，两边杀，两头齐。其法并上下广，折半以为之广以直高乘之，以直高以股，...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/mathematics/4/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mathematics/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mathematics/4.png" type="image/png" length="32889" />
+      
+    </item>
+    
+    <item>
+      <title>运动与能量详解：牛顿力学机制与高中实验应用详解</title>
+      
+      
+      
+      
+      <description>本文系统阐述牛顿运动定律在力学分析中的应用，重点解析第一定律的惯性概念、第二定律的 F=ma 定量关系以及第三定律的作用力与反作用力原则。并介绍在非惯性参考系中引入的惯性力、加速参考系的转化公式，以及如何利用功‑能关系计算功、功率及能量守恒，帮助学生掌握从受力到能量的完整链条。</description>
+      <link>https://raineblog.dpdns.org/whk/science/mechanics/2/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mechanics/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/2.png" type="image/png" length="42085" />
+      
+    </item>
+    
+    <item>
+      <title>动力学模型详解：晾衣绳受力机理与斜面应用场景</title>
+      
+      
+      
+      
+      <description>本文系统梳理多种经典力学模型的受力分析路径，包括晾衣绳受力公式、弹簧突变处理、斜面下滑临界条件、直角劈约束方程、狭义连接体质量分配、等时圆下滑时间不变原理以及最速降线的摆线证明。文中详细推导每一步的物理意义、数学表达式及典型例题，帮助读者掌握从基础受力到复杂系统的完整分析流程，适用于高考复习、大学物理实验及竞赛备战。</description>
+      <link>https://raineblog.dpdns.org/whk/science/mechanics/3/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mechanics/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/3.png" type="image/png" length="45597" />
+      
+    </item>
+    
+    <item>
+      <title>热学与热力学详解：热力学温标机制与理想气体应用场景</title>
+      
+      
+      
+      
+      <description>本文从热力学基本概念出发阐明系统分类与状态参量重点解析分子动能与分子势能的来源解释温度与平均动能的对应关系推导理想气体状态方程及热力学第一零定律深入讨论熵增原理与第二定律并分析等温等压绝热过程中的功与能量转换提供从微观机制到宏观应用的完整热力学框架的应用</description>
+      <link>https://raineblog.dpdns.org/whk/science/modern/1/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/modern/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/1.png" type="image/png" length="40705" />
+      
+    </item>
+    
+    <item>
+      <title>光学原理详解：光的传播机制与光学系统全解析</title>
+      
+      
+      
+      
+      <description>本文系统阐述光的传播特性，包括点光源、波前、能流矢量及光线抽象；详细推导小孔成像中的全反射条件；阐明镜面反射、漫反射及逆反射原理；解释折射率、斯涅尔定律及全内反射；并分析光导纤维结构、衍射光栅与 X 射线衍射在生物结构中的应用，同时涉及实验测折射率的步骤与误差分析，提供从几何光学到波动光学的完整框架。</description>
+      <link>https://raineblog.dpdns.org/whk/science/modern/3/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/modern/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/3.png" type="image/png" length="28572" />
+      
+    </item>
+    
+    <item>
+      <title>近代物理守恒定律详解：宇称、平移、旋转对称性应用</title>
+      
+      
+      
+      
+      <description>本文系统阐述近代物理的核心守恒定律，包括宇称、平移、旋转对称性及其对应的能量、动量、角动量守恒；进而探讨绝对与近似定律的适用范围，重点分析黑体辐射的实验困境、普朗克量子化假设、爱因斯坦光电效应及其方程，并延伸至康普顿散射、波粒二象性、粒子标准模型及狭义相对论的时空变换与质能关系。</description>
+      <link>https://raineblog.dpdns.org/whk/science/modern/4/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/modern/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/4.png" type="image/png" length="42811" />
+      
+    </item>
+    
+    <item>
+      <title>种群群落详解：结构机制与生态演替与应用管理</title>
+      
+      
+      
+      
+      <description>本文系统阐述生态学概述、种群结构层级及演替过程，重点分析关键性因子对种群数量的调控机制，包括水、光、温度、土壤等环境因子的耐受性定律，并结合酵母菌计数实验说明种群增长的 logistic 曲线与环境阻力概念，提供了从初生演替到顶极群落的完整理论框架</description>
+      <link>https://raineblog.dpdns.org/whk/science/nature/3/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/nature/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/nature/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/nature/3.png" type="image/png" length="30389" />
+      
+    </item>
+    
+    <item>
+      <title>数论入门</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;数论入门&lt;/h1&gt;
+&lt;h2&gt;因数&lt;/h2&gt;
+&lt;h3&gt;整除&lt;/h3&gt;
+&lt;p&gt;若 $b$ 能整除 $a$，则记为 $a\mid b$，如 $2\mid 12$. 若 $b$ 不能整除 $a$，则记为 $a\nmid b$，如 $5\nmid 12$.&lt;/p&gt;
+&lt;p&gt;若 $a\nmid b$，则 $b\div a$ 存在余数 $r$ 且 $0&amp;lt;r&amp;lt;a$，记 $r=a\ \mathrm{mod}\ b$. 例如，$3\ \mathrm{mod}\ 2=1$.&lt;/p&gt;
+&lt;p&gt;整除具有以下性质：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;若 $a\mid b$ 且 $a\mid c$，则 $\forall x,y$，有 $a\mid xb+yc$.&lt;/li&gt;
+&lt;li&gt;若 $a\mid b$ 且 $b\mid c$，则 $a\mid c$.&lt;/li&gt;
+&lt;li&gt;若 $a\mid b$ 且 $b\mid a$，则 $a=\pm b$.&lt;/li&gt;
+&lt;li&gt;设 $m\neq 0$，则 $a\mid b$，当且仅当 $ma\mid mb$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;最大公因数与最小公倍数&lt;/h3&gt;
+&lt;p&gt;设 $a,b$ 是两个不为 $0$ 的整数，能使 $d\mid a$ 和 $d\mid b$ 成立的最大整数 $d$，称为 $a,b$ 的最大公因数...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/number/3/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/number/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/number/3.png" type="image/png" length="29939" />
+      
+    </item>
+    
+    <item>
+      <title>数论测试</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;数论测试&lt;/h1&gt;
+&lt;h2&gt;一、请给出整除的概念及性质&lt;/h2&gt;
+&lt;p&gt;对于整数 $a,b$ $(b\neq0)$，如果存在整数 $c$，使得 $a=bc$，&lt;/p&gt;
+&lt;p&gt;则称 $b$ 整除 $a$，记作 $b \mid a$；否则称 $b$ 不整除 $a$，记作 $b \nmid a$。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;性质&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;$$
+\def\arraystretch{1.1}
+\begin{array}{rlrl}
+1.&amp;amp;a\mid b&amp;amp;\Longrightarrow&amp;amp;\pm a \mid \pm b\
+2.&amp;amp;a \mid b,\ b\mid c&amp;amp;\Longrightarrow&amp;amp;a \mid c\
+3.&amp;amp;\forall i:b\mid a_i&amp;amp;\Longrightarrow&amp;amp;b\mid\Sigma\ a_ik_i\
+4.&amp;amp;b\mid a&amp;amp;\Longrightarrow&amp;amp;bc\mid ac\ (c\in\mathbb Z,c\neq0)\
+5.&amp;amp;b\mid a\ (a\neq0)&amp;amp;\Longrightarrow&amp;amp;|b|\le|a|\
+5.&amp;amp;b\mid a,\ |a|&amp;lt;|b|&amp;amp;\Longrightarrow&amp;amp;a=0\...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/number/4/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/number/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/number/4.png" type="image/png" length="31524" />
+      
+    </item>
+    
+    <item>
+      <title>组合数学</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;组合数学&lt;/h1&gt;
+&lt;p&gt;传说早在 $\texttt{114514}$ 年前，&lt;br&gt;一位名为忆哀的神灵来到地球，&lt;br&gt;发现了人类——另一种有智慧的物种。&lt;/p&gt;
+&lt;p&gt;她觉得这很有趣，为了加速人类文明的发展，&lt;br&gt;她向人间传下了一类计数问题——十二重计数，&lt;br&gt;这也正是组合数学的开端。&lt;/p&gt;
+&lt;p&gt;而只有搞明白这类问题，才能在组合数学上继续深入。&lt;/p&gt;
+&lt;/center&gt;
+&lt;h2&gt;基本原理&lt;/h2&gt;
+&lt;p&gt;求证不等式的方法有几种，最简单的是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;设函数，证明函数恒大于或小于零。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;直接对函数求导，尝试证明函数最小值大于零，或最大值小于零。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;注意到多项式只要求够多次数多导数，一定会变为零，因此如果不好解决，继续求导，对高阶导数尝试分析其是否恒正或恒负。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注意：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;解一元一次不等式 $ax&amp;gt;b$，需要按照 $a&amp;gt;0,a=0,a&amp;lt;0$ 分类讨论。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解一元一次不等式 $ax&amp;gt;b$，其中 $x\in[m,n]$，先按照 $a&amp;gt;0,a=0,a&amp;lt;0$ 分类讨论，然后按照 $\dfrac{b}{a}$ 是否落在区间 $[m,n]$ 内。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;边界条件：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;二次项系数不含参数且自变量没有限制时，临界条件是 $...&lt;/li&gt;
+&lt;/ol&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/polynomial/5/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/polynomial/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/5.png" type="image/png" length="30416" />
       
     </item>
     
@@ -98,12 +1171,36 @@
 | &lt;strong&gt;1&lt;/strong&gt; | $(1, 1)$ | $(1, 2)$ | $(1, 3)$ | $(1, 4)$ | $(1, 5)$ | $(1, 6)$ |
 | &lt;strong&gt;2&lt;/strong&gt; | $(2, 1)$ | $(2, 2)$ | $(2, 3)$ | $(2, 4)$ | $(2, 5)$ | $...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/probability/1/</link>
-      <pubDate>Fri, 01 May 2026 14:36:00 +0000</pubDate>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/probability/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/1/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/1.png" type="image/png" length="33783" />
+      
+    </item>
+    
+    <item>
+      <title>随机变量及其分布</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;随机变量及其分布&lt;/h1&gt;
+&lt;h2&gt;随机变量及其分类&lt;/h2&gt;
+&lt;h3&gt;随机变量的定义&lt;/h3&gt;
+&lt;p&gt;随机变量是用来表示随机试验结果的变量，通常用大写字母 $X,Y,Z$ 或小写希腊字母 $\xi,\eta,\zeta$ 表示。随机函数是一个特殊的实函数，对于任意 $e\in S$，都有唯一一个对应 $X(e)$，如图。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;Zufall.avif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;随机变量实质上是样本空间上的函数，可作为因变量，满足其值不大于某数的状况都是事件。我们称随机变量这个函数的值域为随机变量的取值范围，或值域。&lt;/p&gt;
+&lt;p&gt;随机变量在不同的条件下由于偶然因素影响，其可能取各种随机变量不同的值，具有不确定性和随机性，但这些取值落在某个范围的概率是一定的，此种变量称为随机变量。随机变量可以是离散型的，也可以是连续型的。如分析测试中的测定值就是一个以概率取值的随机变量，被测定量的取值可能在某一范围内随机变化，具体取什么值在测定之前是无法确定的，但测定的结果是确定的，多次重复测定所得到的测定值具有统计规律性。随机变量与模糊变量的不确定性的本质差别在于，后者的测定结果仍具有不确定性，即模糊性。&lt;/p&gt;
+&lt;p&gt;随机变量按其值域（根据定义，随机变量是一个...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/probability/2/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/probability/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/2.png" type="image/png" length="35074" />
       
     </item>
     
@@ -136,7 +1233,7 @@
 &lt;li&gt;总体方差是参数，常记为 $\sigma^2...&lt;/li&gt;
 &lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/probability/3/</link>
-      <pubDate>Fri, 01 May 2026 14:36:00 +0000</pubDate>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/probability/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/3/</guid>
@@ -146,29 +1243,113 @@
     </item>
     
     <item>
-      <title>基因工程及其应用</title>
+      <title>随机过程和马尔可夫链</title>
       
       
       
       
-      <description>&lt;h1&gt;基因工程及其应用&lt;/h1&gt;
-&lt;h2&gt;基因工程概论&lt;/h2&gt;
-&lt;h3&gt;基因工程发展简史&lt;/h3&gt;
-&lt;p&gt;基因工程是在生物化学、分子生物学和微生物学等学科的基础上发展起来的，正是这些学科的基础理论和相关技术的发展催生了基因工程。基因工程是指按照人们的愿望，通过转基因等技术，赋予生物新的遗传特性，创造出更符合人们需要的新的生物类型和生物产品。从技术操作层面看，由于基因工程是在 DNA 分子水平上进行设计和施工的，因此又叫作重组 DNA 技术。&lt;/p&gt;
-&lt;p&gt;| 年份/时间 | 人物（其他信息） | 事件/意义 |
-|:---:|:---|:---|
-| 1944 年 | 艾弗里等 | 证明遗传物质是 DNA，且可在同种生物不同个体间转移 |
-| 1950-1952 年 | 埃德曼；桑格 | 发明氨基酸测序方法；完成胰岛素氨基酸序列测定 |
-| 1953 年 | 沃森、克里克 | 建立 DNA 双螺旋结构模型，提出自我复制假说 |
-| 1958 年 | 梅塞尔森、斯塔尔 | 实验证明 DNA 的半保留复制；中心法则确立 |
-| 1961-1966 年 | 尼伦伯格、马太等 | 破译第一个密码子，至1966年全部64个密码子破译...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/6/</link>
-      <pubDate>Fri, 01 May 2026 11:58:00 +0000</pubDate>
+      <description>&lt;h1&gt;随机过程和马尔可夫链&lt;/h1&gt;
+&lt;p&gt;在前面「指示随机变量」一节中，我们曾用递推方法解决了羽毛球发球权问题——第 $n$ 回合的发球状态仅取决于第 $n-1$ 回合的结果。这种「未来只依赖于现在，而与过去无关」的性质，正是随机过程和马尔可夫链的数学本质。&lt;/p&gt;
+&lt;h2&gt;随机过程初步&lt;/h2&gt;
+&lt;h3&gt;随机过程的概念&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;随机过程&lt;/strong&gt;（Stochastic Process）是一族随时间演化的随机变量 ${X_t : t \in T}$。其中 $T$ 称为参数集（或指标集），$X_t$ 在每个时刻 $t$ 都是一个随机变量。根据参数集 $T$ 的取值类型，随机过程可分为两类：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;离散时间随机过程&lt;/strong&gt;：$T = {0, 1, 2, \dots}$，通常记作 ${X_n}_{n=0}^{\infty}$。例如：每天记录一次股票价格、每轮比赛后的比分状态&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;连续时间随机过程&lt;/strong&gt;：$T = [0, \infty)$ 或 $\mathbb{R}$，通常记作 ${X_t}_{t \ge 0}$。例如：布朗运动、泊松过程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;随机变量 $X_t$ 所有可能取值的集合称为&lt;strong&gt;状态空间&lt;/strong&gt;（St...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/probability/4/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/6/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/6/</guid>
+      <comments>https://raineblog.dpdns.org/whk/science/probability/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/6.png" type="image/png" length="32853" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/4.png" type="image/png" length="37065" />
+      
+    </item>
+    
+    <item>
+      <title>化学平衡详解：可逆反应机制与实验条件及平衡迁移</title>
+      
+      
+      
+      
+      <description>本文系统阐述化学平衡的可逆反应本质，分析正反应与逆反应的速率动力学及平衡常数表达式以及影响平衡迁移的因素重点推导浓度平衡常数 Kc 与压强平衡常数 Kp 的计算方法阐明恒温恒容恒温恒压等条件下的平衡移动规律并讨论催化剂惰性气体和温度变化对平衡的定性影响适用于高中化学与大学化学平衡章节的深入学习与竞赛复习</description>
+      <link>https://raineblog.dpdns.org/whk/science/reaction/2/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/reaction/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/2.png" type="image/png" length="30216" />
+      
+    </item>
+    
+    <item>
+      <title>溶液行为详解：离子反应机制平衡常数与典型的场景</title>
+      
+      
+      
+      
+      <description>本文系统阐述溶液中电解质的电离与离子反应机理涵盖强弱电解质的分类离子化平衡常数及其与活度系数的关系进一步分析酸碱电离理论质子与路易斯理论的适用范围并讨论盐效应沉淀溶解平衡的溶度积与同离子效应最后结合实际应用场景如实验设计与工业制备</description>
+      <link>https://raineblog.dpdns.org/whk/science/reaction/3/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/reaction/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/3.png" type="image/png" length="46129" />
+      
+    </item>
+    
+    <item>
+      <title>植物激素详解：生长素分布机制与农业技术推广应用</title>
+      
+      
+      
+      
+      <description>本文系统阐述植物激素的发现历程与分类，重点解析生长素的合成途径、极性运输机制及其在细胞伸长、器官发育中的作用，并对比赤霉素、细胞分裂素等其他激素的生理功能与应用场景，提供从分子结构到农业技术的完整技术路线图。</description>
+      <link>https://raineblog.dpdns.org/whk/science/species/3/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/species/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/3.png" type="image/png" length="46205" />
+      
+    </item>
+    
+    <item>
+      <title>物质的量概念详解：阿伏伽德罗常数与摩尔体积应用</title>
+      
+      
+      
+      
+      <description>本文系统阐述物质的量概念，重点解析阿伏伽德罗常数的定义与数值、摩尔质量与摩尔体积的计算方法，并推导浓度公式，展示稀释、离子化合物计数等实用技巧，配合分子动理论解释热运动、扩散与布朗运动的本质，为高中理化实验与竞赛提供完整技术路线。</description>
+      <link>https://raineblog.dpdns.org/whk/science/structure/1/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/structure/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/1.png" type="image/png" length="46752" />
+      
+    </item>
+    
+    <item>
+      <title>共价键详解：分子轨道机制与现代实验室化学的应用</title>
+      
+      
+      
+      
+      <description>本文系统阐述共价键的形成机制，包括分子轨道理论解释氧分子顺磁性、头并头重叠形成的成键以及肩并肩重叠形成的π键特性。进一步分析键能、键长与键角的测定方法，并结合配位键在实验室配合物的形成、溶解与颜色变化中的应用，提供完整的实验路线与理论框架。</description>
+      <link>https://raineblog.dpdns.org/whk/science/structure/3/</link>
+      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/structure/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/3.png" type="image/png" length="43980" />
       
     </item>
     
@@ -222,29 +1403,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>细胞增殖和细胞工程</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;细胞增殖和细胞工程&lt;/h1&gt;
-&lt;h2&gt;减数分裂和受精作用与胚胎&lt;/h2&gt;
-&lt;h3&gt;减数分裂的过程&lt;/h3&gt;
-&lt;h3&gt;胚胎工程的理论基础&lt;/h3&gt;
-&lt;p&gt;像培育试管婴儿这样，对动物早期胚胎或配子进行显微操作和处理以获得目标个体的技术称为胚胎工程。其操作的主要对象是生殖细胞、受精卵以及早期胚胎细胞。胚胎发育是胚胎工程的理论基础。那么，动物胚胎是如何发育的呢？虽然脊椎动物种类繁多，胚胎发育过程也存在差异，但其早期发育较为相似，分成受精、卵裂、桑椹胚、囊胚、原肠胚与器官形成等阶段（图 2-29）。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;蛙胚胎形成和发育过程示意图&#34; src=&#34;image-15-749ac2a.avif&#34;&gt;{ width=&#34;90%&#34; }&lt;/p&gt;
-&lt;p&gt;以蛙为例，由于卵黄分布不对称，精子与卵结合之后形成的受精卵分为动物极（发育为外胚层）和植物极（发育为中胚层和内胚层）。受精卵形成后开始卵裂，先分裂成两个细胞，之后细胞通常会逐次倍增，但胚胎的总体积大致不变。受精卵分裂成 $16 \sim 32$ 个细胞的阶段，称为桑椹胚。在这个阶段，动物极细胞的分裂频率会超越靠近植物极且含有较多卵黄的细胞群，形成中空的球状胚，称为囊胚。随后形成的原肠胚具有外胚层、中胚层与内胚层，这三...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/5/</link>
-      <pubDate>Sun, 26 Apr 2026 12:21:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/5/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/5.png" type="image/png" length="32535" />
-      
-    </item>
-    
-    <item>
       <title>数字和计数系统</title>
       
       
@@ -290,70 +1448,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>近代物理守恒定律详解：宇称、平移、旋转对称性应用</title>
-      
-      
-      
-      
-      <description>本文系统阐述近代物理的核心守恒定律，包括宇称、平移、旋转对称性及其对应的能量、动量、角动量守恒；进而探讨绝对与近似定律的适用范围，重点分析黑体辐射的实验困境、普朗克量子化假设、爱因斯坦光电效应及其方程，并延伸至康普顿散射、波粒二象性、粒子标准模型及狭义相对论的时空变换与质能关系。</description>
-      <link>https://raineblog.dpdns.org/whk/science/modern/4/</link>
-      <pubDate>Sat, 18 Apr 2026 08:48:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/modern/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/4.png" type="image/png" length="42811" />
-      
-    </item>
-    
-    <item>
-      <title>组合数学</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;组合数学&lt;/h1&gt;
-&lt;p&gt;传说早在 $\texttt{114514}$ 年前，&lt;br&gt;一位名为忆哀的神灵来到地球，&lt;br&gt;发现了人类——另一种有智慧的物种。&lt;/p&gt;
-&lt;p&gt;她觉得这很有趣，为了加速人类文明的发展，&lt;br&gt;她向人间传下了一类计数问题——十二重计数，&lt;br&gt;这也正是组合数学的开端。&lt;/p&gt;
-&lt;p&gt;而只有搞明白这类问题，才能在组合数学上继续深入。&lt;/p&gt;
-&lt;/center&gt;
-&lt;h2&gt;基本原理&lt;/h2&gt;
-&lt;p&gt;求证不等式的方法有几种，最简单的是：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;设函数，证明函数恒大于或小于零。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;直接对函数求导，尝试证明函数最小值大于零，或最大值小于零。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;注意到多项式只要求够多次数多导数，一定会变为零，因此如果不好解决，继续求导，对高阶导数尝试分析其是否恒正或恒负。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;注意：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;解一元一次不等式 $ax&amp;gt;b$，需要按照 $a&amp;gt;0,a=0,a&amp;lt;0$ 分类讨论。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;解一元一次不等式 $ax&amp;gt;b$，其中 $x\in[m,n]$，先按照 $a&amp;gt;0,a=0,a&amp;lt;0$ 分类讨论，然后按照 $\dfrac{b}{a}$ 是否落在区间 $[m,n]$ 内。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;边界条件：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;二次项系数不含参数且自变量没有限制时，临界条件是 $...&lt;/li&gt;
-&lt;/ol&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/polynomial/5/</link>
-      <pubDate>Sat, 18 Apr 2026 08:48:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/polynomial/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/5/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/5.png" type="image/png" length="30416" />
-      
-    </item>
-    
-    <item>
       <title>多项式组合</title>
       
       
@@ -386,23 +1480,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/6/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/6.png" type="image/png" length="30849" />
-      
-    </item>
-    
-    <item>
-      <title>植物激素详解：生长素分布机制与农业技术推广应用</title>
-      
-      
-      
-      
-      <description>本文系统阐述植物激素的发现历程与分类，重点解析生长素的合成途径、极性运输机制及其在细胞伸长、器官发育中的作用，并对比赤霉素、细胞分裂素等其他激素的生理功能与应用场景，提供从分子结构到农业技术的完整技术路线图。</description>
-      <link>https://raineblog.dpdns.org/whk/science/species/3/</link>
-      <pubDate>Sat, 18 Apr 2026 08:48:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/species/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/3.png" type="image/png" length="46205" />
       
     </item>
     
@@ -468,104 +1545,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/madoka/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/madoka.png" type="image/png" length="32840" />
-      
-    </item>
-    
-    <item>
-      <title>物质及元素</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;物质及元素&lt;/h1&gt;
-&lt;h2&gt;物质的组成和分类&lt;/h2&gt;
-&lt;h3&gt;物质的组成&lt;/h3&gt;
-&lt;p&gt;物质都是由元素组成的。元素是具有相同质子数（核电荷数）的一类原子的总称。自然界中的元素以两种形态存在：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;游离态&lt;/strong&gt;：元素以单质形式存在。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;化合态&lt;/strong&gt;：元素以化合物形式存在。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;元素-游离态-单质，自然界中常见存在的单质，例如空气中的某些成分、矿石中的不活泼的金属单质、火山口的硫单质、陨铁中的铁单质。&lt;/p&gt;
-&lt;p&gt;经典问题，$\ce{H2}$ 和 $\ce{HD}$ 的&#34;混合物&#34;是纯净物，因为纯净物的定义中，不考虑原子核同位素等的不同。&lt;/p&gt;
-&lt;p&gt;元素-化合态-化合物。&lt;/p&gt;
-&lt;p&gt;物质按照组成可以分为纯净物和混合物：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;纯净物&lt;/strong&gt;：由一种物质组成，具有固定的组成和性质。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;混合物&lt;/strong&gt;：由两种或多种物质混合而成，没有固定的组成，各成分保持各自的性质。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&#34;物质&#34; src=&#34;物质-dcbbc0d.avif&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
-&lt;p&gt;纯净物注意：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;化学式相同，并不一定就是纯净物。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;高聚物，又称高分子化合物，由于其分子中的链节数目不同，相对分子质量也不同，因此高聚物一定是混合物。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;水合盐又称结...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/element/</link>
-      <pubDate>Wed, 08 Apr 2026 13:10:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/element/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/index.png" type="image/png" length="32136" />
-      
-    </item>
-    
-    <item>
-      <title>集合与逻辑</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;集合与逻辑&lt;/h1&gt;
-&lt;h2&gt;基础知识&lt;/h2&gt;
-&lt;h3&gt;集合的定义&lt;/h3&gt;
-&lt;p&gt;集合：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;某些指定的对象集在⼀起就形成⼀个集合（简称集）。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;元素：集合中每个对象叫做这个集合的元素。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;集合的三要素：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;确定性：集合内的元素是可以被确定的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;互异性：集合内的各元素都是唯⼀不重复的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;⽆序性：集合内的各元素的顺序是没有限制的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;子集与空集：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;子集：$A \subseteq B$ 或 $B \supseteq A$，表示 $A$ 中的任意元素都属于 $B$&lt;/p&gt;
-&lt;p&gt;$A \subseteq A, \varnothing \subseteq A$&lt;/p&gt;
-&lt;p&gt;$A \subseteq B$ 且 $B \subseteq C \implies A \subseteq C$&lt;/p&gt;
-&lt;p&gt;$A \subseteq B$ 且 $B \subseteq A \implies A=B$&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;真子集：$A \subsetneqq B$ 或 $B \supsetneqq A$，表示 $A \subseteq B$ 且 $B$ 中至少有一元素不属于 $A$&lt;/p&gt;
-&lt;p&gt;$A \subsetneq...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/mathematics/2/</link>
-      <pubDate>Mon, 06 Apr 2026 03:02:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/mathematics/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mathematics/2.png" type="image/png" length="30842" />
       
     </item>
     
@@ -673,78 +1652,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>开发进程</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;开发进程&lt;/h1&gt;
-&lt;h2&gt;生物&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;（待完善）孟德尔遗传规律：五三 310 页考法 1, 2, 3。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;细胞活动。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;遗传除了孟德尔以外的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;物理&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;空间测量，参考新概念、初中课本。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;热力学。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;角动量、轨道力学。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;天体概述，补充地理内容。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;数学&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;线性代数：3B1B。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;OI wiki：数论、群论、博弈论、计算理论、线性规划&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;具体数学：微积分、数列进阶与提高。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;统计模型、概率分布。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;新高考数学你真的掌握了吗 平面几何与三角函数.pdf P223 圆幂定理&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;新高考数学你真的掌握了吗 函数.pdf 4.3 找点（三）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;解析几何（第三版） (丘维声) (Z-Library).pdf P141 矩阵&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;```sh
-git submodule add https://github.com/raineblog/mkdocs-material material
-git submodule add https://github.com/raineblog/mkdocs-script script
-git submo...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/home/roadmap/</link>
-      <pubDate>Sun, 05 Apr 2026 08:55:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/home/roadmap/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/roadmap/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/roadmap.png" type="image/png" length="29201" />
-      
-    </item>
-    
-    <item>
       <title>多项式入门</title>
       
       
@@ -793,32 +1700,6 @@ a^3-b^3&amp;amp;=(...&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>极限与微积分</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;极限与微积分&lt;/h1&gt;
-&lt;h2&gt;函数极限&lt;/h2&gt;
-&lt;h3&gt;初等函数&lt;/h3&gt;
-&lt;p&gt;我们研究过常数函数、幂函数、指数函数、对数函数、三角函数、反三角函数，它们经过有限次加、减、乘、除、乘方、开方和复合运算，得到的函数称为初等函数。初等函数是数学中最基本的一类函数，具有相当重要的性质。&lt;/p&gt;
-&lt;h3&gt;极限定义​&lt;/h3&gt;
-&lt;p&gt;对于函数 $f(x)$ 与实数 $a$，如果存在实数 $b$，使得 $\forall \varepsilon &amp;gt; 0$，$\exist \delta &amp;gt; 0$，对任意 $x \in (a - \delta, a) \cup (a, a + \delta)$，有 $|f(x) - b| &amp;lt; \varepsilon$，则 $b$ 称作 $f(x)$ 在点 $a$ 的极限，记作&lt;/p&gt;
-&lt;p&gt;$$
-\lim_{x \to a} f(x) = b
-$$&lt;/p&gt;
-&lt;p&gt;这就是严格定义函数极限的 $\varepsilon \text - \delta$ 语言。也就是说，对于任意 $\varepsilon &amp;gt; 0$，我们都能找到一段 包含 $a$ 但是扣去 $a$ 的区间，使得这个区间上对应的函数值与 $b$ 的距离都小于 $\varep...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/function/7/</link>
-      <pubDate>Sun, 05 Apr 2026 08:44:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/function/7/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/7/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/7.png" type="image/png" length="33713" />
-      
-    </item>
-    
-    <item>
       <title>静电力学详解：库仑定律机制及实际应用于电子器件</title>
       
       
@@ -832,57 +1713,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/1/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/1.png" type="image/png" length="43103" />
-      
-    </item>
-    
-    <item>
-      <title>电场电势详解：场论机制与实验设计全方位应用</title>
-      
-      
-      
-      
-      <description>本文从场的本质出发阐释电场的定义与保守性质引入场线几何特性推导电场强度公式详解高斯定理在对称场中的应用进一步解释电势与电势能的关系等势面特性及点电荷电势公式最后讨论电偶极子微元叠加与几何叠加展示在实验设计与竞赛复习中的典型案例</description>
-      <link>https://raineblog.dpdns.org/whk/science/electromagnetism/2/</link>
-      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/2.png" type="image/png" length="43343" />
-      
-    </item>
-    
-    <item>
-      <title>椭圆详解：几何定义与参数化全解析与竞赛复习</title>
-      
-      
-      
-      
-      <description>本文系统阐释椭圆的三大定义：第一定义通过焦点距离之和求标准方程，第二定义利用离心率与准线建立几何比例，第三定义采用点差法分析弦の中点关系。随后推导参数化方程、切线斜率及极点极线理论，并讨论面积、周长近似及光学性质，为高考与竞赛提供完整技术路线，以及应用实例。</description>
-      <link>https://raineblog.dpdns.org/whk/science/geometry/3/</link>
-      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/geometry/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/3.png" type="image/png" length="43359" />
-      
-    </item>
-    
-    <item>
-      <title>内环境稳态详解：激素调节机制与临床实践</title>
-      
-      
-      
-      
-      <description>本文系统阐释内环境概念，解析血浆、组织液、淋巴液的组成与动态平衡，重点探讨渗透压、酸碱度、温度等理化性质的稳态调控机制，深入说明激素在血糖、体温、水盐调节中的关键作用及反馈回路，涵盖胰岛素、胰高血糖素、甲状腺激素、糖皮质激素等，适用于生物化学与医学学习。</description>
-      <link>https://raineblog.dpdns.org/whk/science/human/3/</link>
-      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/human/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/3.png" type="image/png" length="47936" />
       
     </item>
     
@@ -1066,40 +1896,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>原子与元素详解：射线与放射性机制与应用场景</title>
-      
-      
-      
-      
-      <description>本文系统阐述原子核结构、射线种类及放射性衰变原理，详细解析α、β、γ射线的物理特性、检测技术及其在测厚、能源、医学和同位素标记等实际应用，展示从实验观察到核模型演进的完整技术路线，文中还涉及半衰期概念、核裂变与核聚变的能量释放机制，以及放射性同位素在科研和工业中的标记技术。</description>
-      <link>https://raineblog.dpdns.org/whk/science/structure/2/</link>
-      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/structure/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/2.png" type="image/png" length="43781" />
-      
-    </item>
-    
-    <item>
-      <title>共价键详解：分子轨道机制与现代实验室化学的应用</title>
-      
-      
-      
-      
-      <description>本文系统阐述共价键的形成机制，包括分子轨道理论解释氧分子顺磁性、头并头重叠形成的成键以及肩并肩重叠形成的π键特性。进一步分析键能、键长与键角的测定方法，并结合配位键在实验室配合物的形成、溶解与颜色变化中的应用，提供完整的实验路线与理论框架。</description>
-      <link>https://raineblog.dpdns.org/whk/science/structure/3/</link>
-      <pubDate>Sun, 05 Apr 2026 08:40:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/structure/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/3.png" type="image/png" length="43980" />
-      
-    </item>
-    
-    <item>
       <title>机械振动详解：简谐运动机制与波的传播与应用</title>
       
       
@@ -1113,23 +1909,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/5/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/5.png" type="image/png" length="45393" />
-      
-    </item>
-    
-    <item>
-      <title>光学原理详解：光的传播机制与光学系统全解析</title>
-      
-      
-      
-      
-      <description>本文系统阐述光的传播特性，包括点光源、波前、能流矢量及光线抽象；详细推导小孔成像中的全反射条件；阐明镜面反射、漫反射及逆反射原理；解释折射率、斯涅尔定律及全内反射；并分析光导纤维结构、衍射光栅与X射线衍射在生物结构中的应用，同时涉及实验测折射率的步骤与误差分析，提供从几何光学到波动光学的完整框架。</description>
-      <link>https://raineblog.dpdns.org/whk/science/modern/3/</link>
-      <pubDate>Sun, 05 Apr 2026 08:13:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/modern/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/3.png" type="image/png" length="43411" />
       
     </item>
     
@@ -1169,23 +1948,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>烃的反应详解：氧化、取代与加成机理与应用场景</title>
-      
-      
-      
-      
-      <description>本文系统阐述烃类的结构特征与反应路线，涵盖烷烃的氧化燃烧、取代反应及自由基机理；烯烃的脱氢、加成与聚合过程，详细分析电子富集与过渡态；炔烃的氧化与加成反应原理；苯及其衍生物的取代与氧化行为；并探讨气态烃燃烧后分子数守恒的条件，提供实验设计与高考复习的实用框架。</description>
-      <link>https://raineblog.dpdns.org/whk/science/organic/5/</link>
-      <pubDate>Fri, 03 Apr 2026 14:55:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/organic/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/5/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/5.png" type="image/png" length="45307" />
-      
-    </item>
-    
-    <item>
       <title>公理化系统</title>
       
       
@@ -1200,88 +1962,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/3/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mathematics/3.png" type="image/png" length="32245" />
-      
-    </item>
-    
-    <item>
-      <title>数学史概述</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;数学史概述&lt;/h1&gt;
-&lt;h2&gt;《梦溪笔谈》&lt;/h2&gt;
-&lt;p&gt;《梦溪笔谈》，或称《笔谈》，是中国北宋沈括所作的笔记体著作，原有 $26$ 卷，分 $17$ 门，题材广泛，记录作者所见所闻及研究心得，当中有三分一以上的内容，叙述有关科学技术的各方面先进成就，涉及天文、数学、物理、地理、医药和乐律等各范畴，使本书成为中国科技史研究的重要著作和珍贵资料。&lt;/p&gt;
-&lt;h3&gt;梦溪笔谈卷十八技艺&lt;/h3&gt;
-&lt;p&gt;《梦溪笔谈》中卷十八技艺中研究了“隙积术”和“会圆术”。隙积术是一种计算有空隙物体的体积的技术，计算在一种特定堆栈法下，酒瓮的总数目：以长方形为底，平铺一层酒瓮，再层层上堆，依次缩小每层的堆栈数，使成为类以跺的平头截体 。隙积术属于高阶等差级数求和问题，是求解垛积问题，具体提到累棋、层坛及酒家积罂等的垛积问题。会圆术是已知弓形的圆径和矢高求弧长的问题，书中推导得求弓形弧长的近似公式。&lt;/p&gt;
-&lt;p&gt;算术求积尺之法，如刍萌、刍童、方池、冥谷、堑堵、鳖臑、圆锥、阳马之类，物形备矣，独未有隙积一术，古法：凡算方积之物，有立方，谓六幂皆方者。其法再自乘则得之。有堑堵，谓如土墙者，两边杀，两头齐。其法并上下广，折半以为之广以直高乘之，以直高以股，...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/mathematics/4/</link>
-      <pubDate>Tue, 31 Mar 2026 14:18:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/mathematics/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mathematics/4.png" type="image/png" length="32889" />
-      
-    </item>
-    
-    <item>
-      <title>数论入门</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;数论入门&lt;/h1&gt;
-&lt;h2&gt;因数&lt;/h2&gt;
-&lt;h3&gt;整除&lt;/h3&gt;
-&lt;p&gt;若 $b$ 能整除 $a$，则记为 $a\mid b$，如 $2\mid 12$. 若 $b$ 不能整除 $a$，则记为 $a\nmid b$，如 $5\nmid 12$.&lt;/p&gt;
-&lt;p&gt;若 $a\nmid b$，则 $b\div a$ 存在余数 $r$ 且 $0&amp;lt;r&amp;lt;a$，记 $r=a\ \mathrm{mod}\ b$. 例如，$3\ \mathrm{mod}\ 2=1$.&lt;/p&gt;
-&lt;p&gt;整除具有以下性质：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;若 $a\mid b$ 且 $a\mid c$，则 $\forall x,y$，有 $a\mid xb+yc$.&lt;/li&gt;
-&lt;li&gt;若 $a\mid b$ 且 $b\mid c$，则 $a\mid c$.&lt;/li&gt;
-&lt;li&gt;若 $a\mid b$ 且 $b\mid a$，则 $a=\pm b$.&lt;/li&gt;
-&lt;li&gt;设 $m\neq 0$，则 $a\mid b$，当且仅当 $ma\mid mb$.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3&gt;最大公因数与最小公倍数&lt;/h3&gt;
-&lt;p&gt;设 $a,b$ 是两个不为 $0$ 的整数，能使 $d\mid a$ 和 $d\mid b$ 成立的最大整数 $d$，称为 $a,b$ 的最大公因数...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/number/3/</link>
-      <pubDate>Tue, 31 Mar 2026 14:18:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/number/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/number/3.png" type="image/png" length="29939" />
-      
-    </item>
-    
-    <item>
-      <title>数论测试</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;数论测试&lt;/h1&gt;
-&lt;h2&gt;一、请给出整除的概念及性质&lt;/h2&gt;
-&lt;p&gt;对于整数 $a,b$ $(b\neq0)$，如果存在整数 $c$，使得 $a=bc$，&lt;/p&gt;
-&lt;p&gt;则称 $b$ 整除 $a$，记作 $b \mid a$；否则称 $b$ 不整除 $a$，记作 $b \nmid a$。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;性质&lt;/strong&gt;：&lt;/p&gt;
-&lt;p&gt;$$
-\def\arraystretch{1.1}
-\begin{array}{rlrl}
-1.&amp;amp;a\mid b&amp;amp;\Longrightarrow&amp;amp;\pm a \mid \pm b\
-2.&amp;amp;a \mid b,\ b\mid c&amp;amp;\Longrightarrow&amp;amp;a \mid c\
-3.&amp;amp;\forall i:b\mid a_i&amp;amp;\Longrightarrow&amp;amp;b\mid\Sigma\ a_ik_i\
-4.&amp;amp;b\mid a&amp;amp;\Longrightarrow&amp;amp;bc\mid ac\ (c\in\mathbb Z,c\neq0)\
-5.&amp;amp;b\mid a\ (a\neq0)&amp;amp;\Longrightarrow&amp;amp;|b|\le|a|\
-5.&amp;amp;b\mid a,\ |a|&amp;lt;|b|&amp;amp;\Longrightarrow&amp;amp;a=0\...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/number/4/</link>
-      <pubDate>Tue, 31 Mar 2026 14:18:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/number/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/number/4.png" type="image/png" length="31524" />
       
     </item>
     
@@ -1355,47 +2035,6 @@ f...&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>进阶导数题型</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;进阶导数题型&lt;/h1&gt;
-&lt;h2&gt;恒成立问题&lt;/h2&gt;
-&lt;h3&gt;函数模型&lt;/h3&gt;
-&lt;p&gt;简单的恒成立问题：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;$f(x)\ge0$ 在定义域内恒成立 $\iff f(x)_{\min}\ge0$。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$f(x)\le0$ 在定义域内恒成立 $\iff f(x)_{\max}\le0$。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;对于任何单调函数，最值必在端点处取到：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;单调函数 $f(x)\ge0$ 在 $[x_1,x_2]$ 上恒成立等价于 $\begin{cases}f(x_1)&amp;amp;\ge0\ f(x_2)&amp;amp;\ge0\end{cases}$。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;单调函数 $f(x)\le0$ 在 $[x_1,x_2]$ 上恒成立等价于 $\begin{cases}f(x_1)&amp;amp;\le0\ f(x_2)&amp;amp;\le0\end{cases}$。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;对任何一个函数 $f(x)$，若它在区间上是先减后增，则其最大值必在端点处取得，同理可得若函数在区间上先增后减，其最小值必在区间端点处取得：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;若 $a &amp;gt; 0$，则 $f(x) = ax^2 + bx + c \le 0$ 在 $[x_1, x_2]$ 上恒成立等价于 $\begin{cases}f...&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/function/5/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/function/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/5/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/5.png" type="image/png" length="33562" />
-      
-    </item>
-    
-    <item>
       <title>不等式进阶拓展</title>
       
       
@@ -1435,88 +2074,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>圆锥截线详解：离心率机制与天体轨道应用场景</title>
-      
-      
-      
-      
-      <description>本文系统阐释圆锥截线的几何定义、离心率公式 e=cosβ/cosα 以及不同切角对应的椭圆、抛物线、双曲线类型。随后介绍二次曲线的一般方程、矩阵判别条件 Δ2、Δ3，推导标准方程、焦点及离心率统一公式，并结合天体运动中的轨迹分类，提供从纯几何到坐标代数的完整解析路线。</description>
-      <link>https://raineblog.dpdns.org/whk/science/geometry/4/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/geometry/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/4.png" type="image/png" length="42430" />
-      
-    </item>
-    
-    <item>
-      <title>溶液行为详解：离子反应机制平衡常数与典型的场景</title>
-      
-      
-      
-      
-      <description>本文系统阐述溶液中电解质的电离与离子反应机理涵盖强弱电解质的分类离子化平衡常数及其与活度系数的关系进一步分析酸碱电离理论质子与路易斯理论的适用范围并讨论盐效应沉淀溶解平衡的溶度积与同离子效应最后结合实际应用场景如实验设计与工业制备</description>
-      <link>https://raineblog.dpdns.org/whk/science/reaction/3/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/reaction/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/3.png" type="image/png" length="46129" />
-      
-    </item>
-    
-    <item>
-      <title>议论文写作</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;议论文写作&lt;/h1&gt;
-&lt;h2&gt;材料作文&lt;/h2&gt;
-&lt;h2&gt;任务驱动型作文&lt;/h2&gt;
-&lt;h2&gt;例题&lt;/h2&gt;
-&lt;h3&gt;只争朝夕，志在千秋&lt;/h3&gt;
-&lt;p&gt;```md {admonition=&#34;note&#34; title=&#34;青岛统考 2025 高二上期末&#34;}
-按照高考语文作文的标准和规范，完成下面的写作：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;多少事，从来急；天地转，光阴迫。一万年太久，只争朝夕。——毛泽东&lt;/p&gt;
-&lt;p&gt;我们对时间的理解，不是以十年、百年为计，而是以百年、千年为计。——习近平&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;以上材料引发了你怎样的联想和思考？写一篇议论文。不少于 800 字。
-```&lt;/p&gt;
-&lt;p&gt;&#34;一万年太久，只争朝夕&#34;，这是革命年代时不我待的呐喊；&#34;以百年、千年为计&#34;，这是新时代放眼未来的宏图。两种时间观看似相悖，实则相辅相成，共同构成了中华民族独特的时间智慧——以只争朝夕的紧迫感，筑就千秋伟业的宏伟蓝图。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;只争朝夕，是因为天地转、光阴迫，时代的洪流不等人。&lt;/strong&gt;历史反复证明，机遇稍纵即逝。当年，无数仁人志士以&#34;朝夕必争&#34;的姿态投身革命，才换来民族独立；改革开放初期，深圳以&#34;三天一层楼&#34;的速度创造奇迹，才奠定今日繁华。反观晚清，因循守旧、不思进取，终致国门洞开、山河破碎。正如逆水行舟...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/cultural/writing/1/</link>
-      <pubDate>Tue, 31 Mar 2026 10:07:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/cultural/writing/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/cultural/writing/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/cultural/writing/1.png" type="image/png" length="31144" />
-      
-    </item>
-    
-    <item>
-      <title>发酵技术详解：酵母发酵机制与工业应用微生物工程</title>
-      
-      
-      
-      
-      <description>本文系统阐述发酵技术的三大定义及其演进重点解析酵母菌酒精发酵乳酸菌乳酸发酵以及醋酸菌氧化乙醇的生化路径通过分子水平描述糖酵解丙酮酸还原及氧化磷酸化过程详细说明在厌氧与好氧条件下NAD再生酶活性调控及代谢通量分配并对工业规模化操作中的温度pH溶解氧控制提供深度解析</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/7/</link>
-      <pubDate>Tue, 31 Mar 2026 10:07:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/7/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/7/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/7.png" type="image/png" length="40646" />
-      
-    </item>
-    
-    <item>
       <title>化学与电详解：原电池机制与电解池应用实例</title>
       
       
@@ -1534,23 +2091,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>交变电流详解：正弦波机理与电能输送应用实例案例</title>
-      
-      
-      
-      
-      <description>本文系统阐述交变电流的产生机制，从电磁感应原理出发，推导正弦波电动势 ε=E_m sin ωt，分析电感的感抗 X_L=ωL、电容的容抗 X_C=1/(ωC)，并给出有效值 I=I_m/√2、U=U_m/√2 的计算过程。随后讨论变压器的匝数比与电压比关系 U_1/U_2=n_1/n_2，阐明理想变压器的功率守恒 U_1I_1=U_2I_2，并探讨三相交流的相电压与线电压 √3倍关系，最后介绍电磁振荡的 LC 电路、能量交换及功率因素提升方法。</description>
-      <link>https://raineblog.dpdns.org/whk/science/electromagnetism/6/</link>
-      <pubDate>Tue, 31 Mar 2026 10:07:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/6/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/6/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/6.png" type="image/png" length="51039" />
-      
-    </item>
-    
-    <item>
       <title>氮族元素概述详解固氮机理与工业应用与生态全景</title>
       
       
@@ -1564,57 +2104,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/n/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/n.png" type="image/png" length="44632" />
-      
-    </item>
-    
-    <item>
-      <title>免疫系统详解：机制原理、应用场景与临床意义深入</title>
-      
-      
-      
-      
-      <description>本文系统阐述免疫系统结构与功能，涵盖骨髓、胸腺、脾、淋巴结等器官的发育与分布，深入解析T细胞（辅助性、细胞毒性、调节性、记忆细胞）及B细胞的分化、抗体产生与记忆形成，探讨巨噬细胞、树突状细胞等抗原呈递细胞的角色，以及细胞因子、补体系统在免疫调节中的网络作用。</description>
-      <link>https://raineblog.dpdns.org/whk/science/human/9/</link>
-      <pubDate>Tue, 31 Mar 2026 10:07:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/human/9/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/9/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/9.png" type="image/png" length="45471" />
-      
-    </item>
-    
-    <item>
-      <title>种群群落详解：结构机制与生态演替与应用管理</title>
-      
-      
-      
-      
-      <description>本文系统阐述生态学概述、种群结构层级及演替过程，重点分析关键性因子对种群数量的调控机制，包括水、光、温度、土壤等环境因子的耐受性定律，并结合酵母菌计数实验说明种群增长的 logistic 曲线与环境阻力概念，提供了从初生演替到顶极群落的完整理论框架</description>
-      <link>https://raineblog.dpdns.org/whk/science/nature/3/</link>
-      <pubDate>Tue, 31 Mar 2026 10:07:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/nature/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/nature/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/nature/3.png" type="image/png" length="30389" />
-      
-    </item>
-    
-    <item>
-      <title>有机化学详解：碳原子成键机理与命名应用场景基础</title>
-      
-      
-      
-      
-      <description>本文系统阐释有机化合物的基本概念包括碳原子的四价成键单双三键特性及不饱和度计算公式详细解析链烷烃烯烃炔烃及芳香体系的通式并说明同系物在复杂分子中的局限性与衍生物命名规则同时介绍元素分析质谱核磁共振与红外光谱等现代表征方法阐明其在结构鉴定中的应用</description>
-      <link>https://raineblog.dpdns.org/whk/science/organic/1/</link>
-      <pubDate>Tue, 31 Mar 2026 10:07:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/organic/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/1.png" type="image/png" length="44926" />
       
     </item>
     
@@ -1693,40 +2182,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>高分子详解：加聚与缩聚机制与工业应用医用黏合剂</title>
-      
-      
-      
-      
-      <description>本文系统阐述高分子的形成机理，涵盖加聚反应（如乙烯加聚生成聚乙烯）与缩聚反应（如酚醛树脂的脱水缩合），并详细分析碳链延长、环化、官能团转化及保护策略。同时探讨医用黏合剂的聚合物化学、生物降解路径及工业制备工艺，提供从原料到应用的完整技术路线。</description>
-      <link>https://raineblog.dpdns.org/whk/science/organic/4/</link>
-      <pubDate>Sun, 29 Mar 2026 13:41:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/organic/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/4.png" type="image/png" length="39785" />
-      
-    </item>
-    
-    <item>
-      <title>笛卡尔坐标系详解：平面坐标变换原理与几何应用</title>
-      
-      
-      
-      
-      <description>本文系统阐述平面笛卡尔坐标系的构建、坐标表示法及点的坐标求法，深入推导皮克定理的面积公式，并详细解析欧几里得平移与旋转的坐标变换公式，进一步探讨点关于点、直线及曲线的对称性，提供完整的几何变换框架与应用示例。</description>
-      <link>https://raineblog.dpdns.org/whk/science/geometry/1/</link>
-      <pubDate>Sun, 29 Mar 2026 10:02:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/geometry/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/1.png" type="image/png" length="40758" />
-      
-    </item>
-    
-    <item>
       <title>解三角形详解：正弦余弦定理与几何全系统深度解析</title>
       
       
@@ -1740,40 +2195,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/5/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/5.png" type="image/png" length="39888" />
-      
-    </item>
-    
-    <item>
-      <title>细胞结构详解：功能机制与医学应用与科研前沿与科研</title>
-      
-      
-      
-      
-      <description>本文系统阐述细胞结构的层次性组成，从核糖体合成到细胞器功能，结合结构生物学的晶体学、核磁共振与电子显微镜技术，解析蛋白质三维空间结构如何决定生化功能，并阐明药物靶标蛋白的结构‑功能关联，为创新药物研发提供理论依据。通过高分辨率三维成像，揭示了蛋白质的构象变化与活性位点，解释了药物如何通过配体结合影响信号转导路径，从而为精准医学提供依据。</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/1/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/1.png" type="image/png" length="44215" />
-      
-    </item>
-    
-    <item>
-      <title>酶抑制剂详解：可逆不可逆机制与生物医药与临床</title>
-      
-      
-      
-      
-      <description>本文系统阐释酶抑制剂的可逆、非竞争及反竞争三类抑制机制，分别解析动力学参数最大反应速率与米氏常数的变化规律，并深入探讨不可逆共价抑制及特殊碱基如5-溴尿嘧啶、Z核苷酸、次黄嘌呤在DNA复制和药物研发中的应用，适用于高中与大学生物竞赛与实验设计。</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/2/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/2.png" type="image/png" length="40400" />
       
     </item>
     
@@ -1829,23 +2250,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>电场运动详解：匀强场加速与偏转原理与实验技术方法</title>
-      
-      
-      
-      
-      <description>本文系统阐述电场中带电粒子的运动规律，涵盖匀强与非匀强场的力学模型、电势与电场强度的计算推导，以及电容器的结构、容量公式及串并联等效模型。重点解析加速电场下的功动能定理、穿板与交变场运动，并延伸至偏转电场的轨迹求解与阴极射线管应用，提供从基础原理到实验技巧的完整技术路线。</description>
-      <link>https://raineblog.dpdns.org/whk/science/electromagnetism/3/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/3.png" type="image/png" length="42777" />
-      
-    </item>
-    
-    <item>
       <title>磁场详解磁感应原理洛伦兹力机制与实际应用场景</title>
       
       
@@ -1859,40 +2263,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/4/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/4.png" type="image/png" length="50474" />
-      
-    </item>
-    
-    <item>
-      <title>电磁感应详解：磁通量与楞次定律在实验中的应用与实践</title>
-      
-      
-      
-      
-      <description>本文深入解析电磁感应的完整技术路线，从磁通量的几何定义出发，推导安培环路定律与楞次定律，阐明感生电动势与动生电动势的产生机制，进一步探讨自感、互感、涡流及其在变压器、电机、探测器中的应用实例。通过公式展示磁场变化与感应电动势的定量关系，并分析能量转化与电磁阻尼的物理意义，为学生提供系统的理论框架与实验思路。</description>
-      <link>https://raineblog.dpdns.org/whk/science/electromagnetism/5/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/5/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/5.png" type="image/png" length="46209" />
-      
-    </item>
-    
-    <item>
-      <title>铝单质详解：化学性质与工业制取与应用场景全解析</title>
-      
-      
-      
-      
-      <description>本文系统阐述铝单质的物理化学性质、反应机理及工业制取流程，涵盖铝土矿的拜耳法溶出、氢氧化铝的制备、氧化铝的电解还原等关键环节，详细分析还原性、酸碱反应、合金强化及铝热反应的应用，为高中与大学化学学习提供完整技术路线图。</description>
-      <link>https://raineblog.dpdns.org/whk/science/element/al/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/element/al/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/al/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/al.png" type="image/png" length="40732" />
       
     </item>
     
@@ -1914,23 +2284,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>过渡元素概述详解：铁的氧化机理与工业应用与检验</title>
-      
-      
-      
-      
-      <description>本文系统阐述铁的物理性质、化学反应及氧化物种类，重点分析铁与氧气、酸、水的反应机理，介绍铁盐与亚铁盐的溶解度差异、氧化还原行为及其在补铁剂中的应用，并说明高炉炼铁、实验检验及稀有金属的关键技术路线，文章还讨论了铁的氧化物分类、高炉炼铁流程、铁盐在酸碱条件下的水解与沉淀行为，以及补铁剂的无机、有机弱酸及螯合三代工艺，并涵盖KSCN检验、铁氰化物沉淀法等常用除杂手段。</description>
-      <link>https://raineblog.dpdns.org/whk/science/element/fe/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/element/fe/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/fe/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/fe.png" type="image/png" length="45820" />
-      
-    </item>
-    
-    <item>
       <title>碱土金属概述详解：镁的化学性质与海水制备工业</title>
       
       
@@ -1944,23 +2297,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/mg/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/mg.png" type="image/png" length="47668" />
-      
-    </item>
-    
-    <item>
-      <title>碱金属详解：钠的化学机制与应用场景全面解析</title>
-      
-      
-      
-      
-      <description>本文系统阐述碱金属中钠的物理化学性质，重点分析其与氧气、水及酸的反应机理，包括氧化生成Na₂O、Na₂O₂及过氧化钠的形成过程，并详细说明钠在冶金还原、高压钠灯及导热剂等实际应用的化学原理，兼顾实验现象与理论解释，适用于高中与大学化学学习，并探讨实验现象与应用前景。</description>
-      <link>https://raineblog.dpdns.org/whk/science/element/na/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/element/na/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/na/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/na.png" type="image/png" length="45056" />
       
     </item>
     
@@ -2016,57 +2352,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>转基因技术详解：原理机制、社会影响与实际应用场景</title>
-      
-      
-      
-      
-      <description>本文系统阐释转基因技术的分子构建路线包括外源基因导入农杆菌介导转化及基因表达调控机制重点分析抗虫抗除草耐逆境等性状的遗传编辑原理并探讨其在农业生产食品安全医药合成及环境保护中的实际应用与潜在风险此外还讨论了转基因产品在生态系统中的扩散风险监管框架及公众认知的形成机制为政策制定提供科学依据</description>
-      <link>https://raineblog.dpdns.org/whk/science/experiment/3/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/experiment/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/3.png" type="image/png" length="44180" />
-      
-    </item>
-    
-    <item>
-      <title>变异与进化详解：基因突变机制与自然选择的应用场景</title>
-      
-      
-      
-      
-      <description>本文系统阐述基因变异的来源与类型，包括点突变、插入缺失与染色体重排，分析脱氧核糖核酸复制错误、环境诱变与修复机制；随后探讨自然选择、性状遗传及种群遗传平衡的数学模型，并结合实验案例说明变异在进化中的关键作用。</description>
-      <link>https://raineblog.dpdns.org/whk/science/genetics/1/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/genetics/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/genetics/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/1.png" type="image/png" length="43595" />
-      
-    </item>
-    
-    <item>
-      <title>孟德尔遗传规律详解：分离与自由组合定律及应用场景</title>
-      
-      
-      
-      
-      <description>本文系统阐述孟德尔遗传因子的分离定律与自由组合定律，解析配子形成过程、等位基因配对及表型-基因型关系，重点探讨豌豆杂交实验的统计方法、连续自交比例与致死配子模型，并提供白化病等遗传病的概率推断与育种策略。</description>
-      <link>https://raineblog.dpdns.org/whk/science/genetics/2/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/genetics/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/genetics/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/2.png" type="image/png" length="44194" />
-      
-    </item>
-    
-    <item>
       <title>遗传病详解：常染色体显性隐性伴性遗传机制与应用</title>
       
       
@@ -2084,40 +2369,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>基因工程育种详解：杂种优势机制与作物育种应用佳</title>
-      
-      
-      
-      
-      <description>本文系统阐述基因工程育种中的杂种优势机制，涵盖显性假说、超显性、组-胞质互作及表观遗传调控等理论框架，分析三系法、两系法及八倍体小黑麦的育种策略，提供从基因层面到产量提升的完整技术路线，并探讨其在作物抗逆性、品质改良及可持续农业中的应用前景。</description>
-      <link>https://raineblog.dpdns.org/whk/science/genetics/4/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/genetics/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/genetics/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/genetics/4.png" type="image/png" length="42466" />
-      
-    </item>
-    
-    <item>
-      <title>线性代数详解：向量与矩阵的变换机制与应用场景</title>
-      
-      
-      
-      
-      <description>本文系统阐述线性代数中的向量概念、加法、数乘及线性组合，重点解析基向量、张成空间及线性相关性。进一步推导矩阵表示的线性变换，包括旋转、剪切等几何操作，并阐明行列式与维度缩放的关系，最后介绍高斯消元求解线性方程组的方法与矩阵逆的应用。</description>
-      <link>https://raineblog.dpdns.org/whk/science/geometry/5/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/geometry/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/5/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/5.png" type="image/png" length="45391" />
-      
-    </item>
-    
-    <item>
       <title>运动系统详解：生理学机制原理与康复医学应用场景</title>
       
       
@@ -2131,23 +2382,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/1/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/1.png" type="image/png" length="44739" />
-      
-    </item>
-    
-    <item>
-      <title>神经系统详解：信号传导机制与医学临床实践创新篇</title>
-      
-      
-      
-      
-      <description>本文系统阐述神经系统的结构层级与信号传导机制，涵盖中枢与外周神经的解剖功能、突触传递过程及离子通道动力学。进一步分析了神经冲动的产生、传播、以及兴奋-收缩耦联的分子基础，并探讨了脑机接口、神经调节及相关疾病的临床意义。</description>
-      <link>https://raineblog.dpdns.org/whk/science/human/2/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/human/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/2.png" type="image/png" length="44746" />
       
     </item>
     
@@ -2203,40 +2437,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>泌尿系统详解：泌尿排泄机制与临床应用场景解析全书</title>
-      
-      
-      
-      
-      <description>本文系统阐述泌尿系统的解剖结构、血液过滤与尿液形成机制，重点分析肾小球滤过、肺泡排泄及膀胱储尿的物理过程，进一步探讨尿路感染、结石形成及其成像技术的最新进展，为临床诊断与治疗提供理论依据，同时介绍了肾单位重吸收、尿酮体代谢以及尿液pH调节的生化途径，并对常见的泌尿系统疾病如尿失禁、前列腺增生进行机制解析，结合最新的超声、CT成像技术阐述诊断流程。</description>
-      <link>https://raineblog.dpdns.org/whk/science/human/7/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/human/7/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/7/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/7.png" type="image/png" length="43994" />
-      
-    </item>
-    
-    <item>
-      <title>深入探讨性传播疾病之艾滋病传播机制与预防策略全解析</title>
-      
-      
-      
-      
-      <description>本文系统阐释性传播疾病的分类与危害，重点解析艾滋病的三大传播途径——性接触、血液传播及母婴传播，并详细说明使用避孕套、避免共用注射器、积极检测治疗、禁止共用生活用品等预防措施的科学依据与公共卫生意义。此外，还探讨了HIV感染者的临床症状、抗病毒药物的作用机制以及检测技术的最新进展，为读者提供全景式的防控知识体系。</description>
-      <link>https://raineblog.dpdns.org/whk/science/human/8/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/human/8/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/human/8/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/human/8.png" type="image/png" length="46155" />
-      
-    </item>
-    
-    <item>
       <title>物理学史详解：时空统一机制与实验技术全应用解析</title>
       
       
@@ -2267,23 +2467,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/2/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/2.png" type="image/png" length="45531" />
-      
-    </item>
-    
-    <item>
-      <title>圆周运动详解：向心力机制与典型应用场景全解析</title>
-      
-      
-      
-      
-      <description>本文系统阐述圆周运动的基本物理量定义，包括线速度、角速度、周期、频率及转速，并推导匀速圆周运动的关键关系v=ωr、a=vω。进一步分析向心力F_c=mv^2/r与向心加速度a_c=v^2/r的来源，详细列出列表法求解多圈运动的表格方法，解释传送带、绳杆等关联速度情形，并深入探讨牛顿第二定律在圆锥摆、圆盘模型中的应用，涵盖临界角速度、摩擦极限及多物体协同运动的数学推导。</description>
-      <link>https://raineblog.dpdns.org/whk/science/kinematics/4/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/kinematics/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/4.png" type="image/png" length="42187" />
       
     </item>
     
@@ -2322,40 +2505,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>运动与能量详解：牛顿力学机制与高中实验应用详解</title>
-      
-      
-      
-      
-      <description>本文系统阐述牛顿运动定律在力学分析中的应用，重点解析第一定律的惯性概念、第二定律的 F=ma 定量关系以及第三定律的作用力与反作用力原则。并介绍在非惯性参考系中引入的惯性力、加速参考系的转化公式，以及如何利用功‑能关系计算功、功率及能量守恒，帮助学生掌握从受力到能量的完整链条。</description>
-      <link>https://raineblog.dpdns.org/whk/science/mechanics/2/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/mechanics/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/2.png" type="image/png" length="42085" />
-      
-    </item>
-    
-    <item>
-      <title>动力学模型详解：晾衣绳受力机理与斜面应用场景</title>
-      
-      
-      
-      
-      <description>本文系统梳理多种经典力学模型的受力分析路径，包括晾衣绳受力公式、弹簧突变处理、斜面下滑临界条件、直角劈约束方程、狭义连接体质量分配、等时圆下滑时间不变原理以及最速降线的摆线证明。文中详细推导每一步的物理意义、数学表达式及典型例题，帮助读者掌握从基础受力到复杂系统的完整分析流程，适用于高考复习、大学物理实验及竞赛备战。</description>
-      <link>https://raineblog.dpdns.org/whk/science/mechanics/3/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/mechanics/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/3.png" type="image/png" length="45597" />
-      
-    </item>
-    
-    <item>
       <title>动量与碰撞详解：守恒原理与实验模型实例应用</title>
       
       
@@ -2386,23 +2535,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/7/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/7.png" type="image/png" length="41406" />
-      
-    </item>
-    
-    <item>
-      <title>热学与热力学详解：热力学温标机制与理想气体应用场景</title>
-      
-      
-      
-      
-      <description>本文从热力学基本概念出发阐明系统分类与状态参量重点解析分子动能与分子势能的来源解释温度与平均动能的对应关系推导理想气体状态方程及热力学第一零定律深入讨论熵增原理与第二定律并分析等温等压绝热过程中的功与能量转换提供从微观机制到宏观应用的完整热力学框架的应用</description>
-      <link>https://raineblog.dpdns.org/whk/science/modern/1/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/modern/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/1.png" type="image/png" length="40705" />
       
     </item>
     
@@ -2471,40 +2603,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/nature/4/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/nature/4.png" type="image/png" length="47496" />
-      
-    </item>
-    
-    <item>
-      <title>烷烃详解：四面体结构与同分异构现象详解与应用场景</title>
-      
-      
-      
-      
-      <description>本文系统阐释烷烃的基本结构，重点描述甲烷的四面体几何、杂化及同分异构体的产生机制。通过光照条件下的自由基氯化过程，展示从甲烷到四氯甲烷的逐步取代路径，并分析沸点、密度等物性趋势。进一步讨论石油裂化与重整工艺，说明如何将长链烷烃裂解为短链烷烃与烯烃，为工业燃料与化工原料提供理论依据。</description>
-      <link>https://raineblog.dpdns.org/whk/science/organic/2/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/organic/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/2.png" type="image/png" length="41975" />
-      
-    </item>
-    
-    <item>
-      <title>烷烃异构详解：减碳法机理与实验应用实例技巧指南</title>
-      
-      
-      
-      
-      <description>本文系统阐释烷烃同分异构的减碳法原理，包括主链选择、取代基移动的对称性、有序性及互补性原则，详细分析烷烃、烷基的异构计数方法，并结合实例展示一元、二元取代的同分异构体生成过程。还讨论了顺反异构、对映异构的判断规则以及实验中的原子共面判定技巧，帮助读者快速掌握烷烃异构的计数与结构绘制技巧。</description>
-      <link>https://raineblog.dpdns.org/whk/science/organic/3/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/organic/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/3.png" type="image/png" length="49046" />
       
     </item>
     
@@ -2594,23 +2692,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>化学平衡详解：可逆反应机制与实验条件及平衡迁移</title>
-      
-      
-      
-      
-      <description>本文系统阐述化学平衡的可逆反应本质，分析正反应与逆反应的速率动力学及平衡常数表达式以及影响平衡迁移的因素重点推导浓度平衡常数Kc与压强平衡常数Kp的计算方法阐明恒温恒容恒温恒压等条件下的平衡移动规律并讨论催化剂惰性气体和温度变化对平衡的定性影响适用于高中化学与大学化学平衡章节的深入学习与竞赛复习</description>
-      <link>https://raineblog.dpdns.org/whk/science/reaction/2/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/reaction/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/2.png" type="image/png" length="43153" />
-      
-    </item>
-    
-    <item>
       <title>空间体系详解：公理推论与几何关系与应用场景</title>
       
       
@@ -2679,40 +2760,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>物质的量概念详解：阿伏伽德罗常数与摩尔体积应用</title>
-      
-      
-      
-      
-      <description>本文系统阐述物质的量概念，重点解析阿伏伽德罗常数的定义与数值、摩尔质量与摩尔体积的计算方法，并推导浓度公式，展示稀释、离子化合物计数等实用技巧，配合分子动理论解释热运动、扩散与布朗运动的本质，为高中理化实验与竞赛提供完整技术路线。</description>
-      <link>https://raineblog.dpdns.org/whk/science/structure/1/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/structure/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/1.png" type="image/png" length="46752" />
-      
-    </item>
-    
-    <item>
-      <title>晶体结构详解：离子键与金属键的机制与应用场景</title>
-      
-      
-      
-      
-      <description>本文系统阐述晶体与晶胞的基本概念，重点分析离子键、金属键、共价键及配位键的本质，详细推导晶格能计算及玻恩-哈伯循环方法，并探讨晶体的物理特性、结构类型及常见应用场景，为高中与大学化学学习提供深度技术框架。并关联实际实验案例，帮助读者掌握结构分析方法。</description>
-      <link>https://raineblog.dpdns.org/whk/science/structure/4/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/structure/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/4.png" type="image/png" length="43319" />
-      
-    </item>
-    
-    <item>
       <title>简介</title>
       
       
@@ -2730,53 +2777,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/index.png" type="image/png" length="26261" />
-      
-    </item>
-    
-    <item>
-      <title>读后续写</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;读后续写&lt;/h1&gt;
-&lt;h2&gt;语料&lt;/h2&gt;
-&lt;h3&gt;情感描写&lt;/h3&gt;
-&lt;p&gt;恐惧 (horror)、痛苦 (sorrow)、愤怒 (anger)、感激 (gratitude)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Sb. felt a great sense of [情感名词] welling up in sb&#39;s heart and surging through sb.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;A wave of [情感名词] engulfed / enveloped / seized sb. as sb. did sth.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Enveloped / Seized by a wave of [情感名词], sb. did sth.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;So [形容词] was sb. that + 从句。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;喜悦与激动 (Joy &amp;amp; Excitement)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Face lit up with a broad smile&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Heart leaped with excitement&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;悲伤与绝望 (Sadness &amp;amp; Despair)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Tears welled up in one&#39;s eyes and streamed down one&#39;s chee...&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/cultural/writing/3/</link>
-      <pubDate>Thu, 19 Feb 2026 14:33:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/cultural/writing/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/cultural/writing/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/cultural/writing/3.png" type="image/png" length="30332" />
       
     </item>
     

@@ -124,7 +124,7 @@ t=\\sqrt{\\dfrac{4R}{g}}=2\\sqrt{\\dfrac{l\\cos\\alpha}{g(1+\\cos\\alpha)}}
 
 ## 传送带和板块模型
 
-**例题1**：质量为 2\\text{kg} 的物体沿光滑斜面下滑，斜面与水平面的夹角为 37^\\circ，求木块的加速度。
+**例题 1**：质量为 2\\text{kg} 的物体沿光滑斜面下滑，斜面与水平面的夹角为 37^\\circ，求木块的加速度。
 
 列式：
 
@@ -136,7 +136,7 @@ t=\\sqrt{\\dfrac{4R}{g}}=2\\sqrt{\\dfrac{l\\cos\\alpha}{g(1+\\cos\\alpha)}}
 
 所以，加速度为 6\\text{m/s}^2，方向沿斜面向下。
 
-**例题2**：质量为 2\\text{kg} 的物体沿斜面下滑，斜面的摩擦因数为 0.2，斜面与水平面的夹角为 37^\\circ，求木块的加速度。
+**例题 2**：质量为 2\\text{kg} 的物体沿斜面下滑，斜面的摩擦因数为 0.2，斜面与水平面的夹角为 37^\\circ，求木块的加速度。
 
 列式：
 
@@ -148,7 +148,7 @@ t=\\sqrt{\\dfrac{4R}{g}}=2\\sqrt{\\dfrac{l\\cos\\alpha}{g(1+\\cos\\alpha)}}
 
 所以，加速度为 4.4\\text{m/s}^2，方向沿斜面向下。
 
-**例题3**：质量为 2\\text{kg} 的物体静止于水平面的 A 处，AB 间距 L=20\\text{m}，如图：
+**例题 3**：质量为 2\\text{kg} 的物体静止于水平面的 A 处，AB 间距 L=20\\text{m}，如图：
 
 \\begin{matrix} \\underline{\\kern{1em}\\Box\\kern{7em}\\Box\\kern{1em}}\\[-0.8em] \\cdot\\kern{7.5em}\\cdot\\[-0.4em] {\\small{A}}\\kern{7em}{\\small{B}} \\end{matrix}
 
@@ -299,4 +299,4 @@ F=\\dfrac{m}{M}(m+M)(\\mu_1-\\mu_2)g
 
 做题方法：同上，一定要分析的是拐点和端点处的受力分析。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

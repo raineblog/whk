@@ -208,7 +208,7 @@ $\\Omega=$ 重键数 $+$ 最简环数
 
 一旦确定了母体，其他取代基的位置编号遵循以下原则：
 
-1. **母体官能团定为 1 号位：** 例如在“甲苯”中，甲基所在的碳自动定为 1 号，不需要写“1-甲基…“。
+1. **母体官能团定为 1 号位：** 例如在“甲苯”中，甲基所在的碳自动定为 1 号，不需要写“1-甲基…”。
 1. **其余取代基位次最小：** 从 1 号位开始，向其余取代基最近的方向编号。
 1. **邻、间、对：** 对于二取代苯，常用汉字“邻、间、对”或字母 o/m/p 来代替数字编号。
 
@@ -220,9 +220,9 @@ $\\Omega=$ 重键数 $+$ 最简环数
 
 为什么需要半系统命名？
 
-1. **简洁性：** “对硝基甲苯”比“1-甲基 -4-硝基苯”读起来更顺口，且在化工行业（如 TNT 炸药的生产）中是标准术语。
+1. **简洁性：** “对硝基甲苯”比“1-甲基-4-硝基苯”读起来更顺口，且在化工行业（如 TNT 炸药的生产）中是标准术语。
 1. **历史传承：** 许多化合物在被系统命名法统一之前就已经广泛使用（如甲苯、苯酚），强行更改会造成混乱。
-1. **IUPAC 的认可：** IUPAC 蓝皮书中列出了许多“Preferred IUPAC Names (PINs)“，其中包含大量半系统命名。例如，**Toluene（甲苯）** 和 **Phenol（苯酚）** 在 IUPAC 中本身就是优选名，比 Methylbenzene 和 Benzenol 更推荐。
+1. **IUPAC 的认可：** IUPAC 蓝皮书中列出了许多“Preferred IUPAC Names (PINs)”，其中包含大量半系统命名。例如，**Toluene（甲苯）** 和 **Phenol（苯酚）** 在 IUPAC 中本身就是优选名，比 Methylbenzene 和 Benzenol 更推荐。
 
 **半系统命名法是化学界的“通用语”**。它保留了核心习惯（如甲苯、苯乙烯），但在修饰语上遵循逻辑（如 2,4,6-三硝基…）。
 
@@ -373,4 +373,4 @@ $\\Omega=$ 重键数 $+$ 最简环数
 
 \\ce{CH3CHO + 2Cu(OH)2 + NaOH ->[\\triangle] CH3COONa + Cu2O v(砖红色) + 3H2O}
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

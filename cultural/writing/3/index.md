@@ -69,7 +69,7 @@
 
 ### 动作叙述
 
-将一系列简单的动作组合在一起，能瞬间提升叙事的逻辑性和生动性。公式为：“动作A, 动作B and 动作C”。
+将一系列简单的动作组合在一起，能瞬间提升叙事的逻辑性和生动性。公式为：“动作 A, 动作 B and 动作 C”。
 
 - 情节推进示例： ◦ The boys rushed excitedly to the lake, took off their clothes and jumped into the water. (男孩们冲向湖边，脱掉衣服，跳入水中)。 ◦ He put on his coat, stormed out and slammed the door shut. (他穿上大衣，冲了出去，砰地关上门)。
 - 情感融入示例： ◦ She jumped up, dashed forward and hugged the boy tightly. (她跳起来，冲向前，紧紧拥抱住男孩)。 三、高级句式支架：为动作披上“华丽外衣” 无需复杂的语法，用以下三个模板包装动作，即可达到满分作文的质量：
@@ -130,4 +130,4 @@ The deafening blasts shattered the profound silence, **their echoes rolling thro
 
 **Overwhelmed by a powerful wave of relief, I felt tears of joy well up, blurring their approaching figures.** My grandfather reached me first, his worried face softening as he **pulled me into a hug** that anchored me to safety; I could feel the rough texture of his coat and smell the familiar scent of woodsmoke. **It was in that moment I truly understood what he meant by courage: it wasn’t the absence of a pounding heart, but the will to steady a trembling hand and act anyway.**
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

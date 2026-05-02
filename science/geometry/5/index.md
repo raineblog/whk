@@ -342,4 +342,4 @@ A\\vec x=\\vec v\\ AA^{-1}\\vec x=A^{-1}\\vec v\\ \\vec x=A^{-1}\\vec v
 
 NOT THE END.（[TODO]
 
-[RainPPR](mailto:PPR2125773894@163.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

@@ -183,4 +183,4 @@
 - 氨厂与碱厂联合：碱厂直接利用氨厂产出的氨气和二氧化碳。
 - 中国农业化肥需求量大，\\ce{NH4Cl} 直接作为化肥生产，无 \\ce{CaCl2} 污染。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

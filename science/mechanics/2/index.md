@@ -296,7 +296,7 @@ E\_{\\text{机}}=E_k+E_p
 
 ### 机械能与做功
 
-W\_{\\text{除G}}=\\Delta E\_{\\text{机}}
+W\_{\\text{除 G}}=\\Delta E\_{\\text{机}}
 
 做正功，机械能增加；排除了重力做功，因为：
 
@@ -348,7 +348,7 @@ W\_{\\text{合}}=F\_{\\text{合}}x=\\Sigma W
 
 - 表示做功后能量增加。
 
-  \\begin{aligned} W\_{\\text{合}}&=\\Delta E_k\\ W\_{\\text{除G}}&=\\Delta E\_{\\text{机}} \\end{aligned}
+  \\begin{aligned} W\_{\\text{合}}&=\\Delta E_k\\ W\_{\\text{除 G}}&=\\Delta E\_{\\text{机}} \\end{aligned}
 
 - 即，正相关，动能变化量是合外力做功，机械能变化量是除重力外做的功。
 
@@ -461,4 +461,4 @@ E_k=\\dfrac12Mv_c^2+\\sum_i\\dfrac12m_iv_i^2
 - 整体运动：把整个系统看作一个质量集中在质心的质点的运动。
 - 内部运动：各个质点相对于质心的运动。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
