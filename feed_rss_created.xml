@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sat, 02 May 2026 08:56:32 -0000</pubDate>
-    <lastBuildDate>Sat, 02 May 2026 08:56:32 -0000</lastBuildDate>
+    <pubDate>Sat, 02 May 2026 09:46:00 -0000</pubDate>
+    <lastBuildDate>Sat, 02 May 2026 09:46:00 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -2580,24 +2580,28 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>随机过程和马氏</title>
+      <title>随机过程和马尔可夫链</title>
       
       
       
       
-      <description>&lt;h1&gt;随机过程和马氏&lt;/h1&gt;
-&lt;p&gt;[TODO]&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;条件概率与“状态转移”&lt;/strong&gt;（前后局相关）：当“前一局胜负影响下一局”时，题目本质上考察的是&lt;strong&gt;全概率公式&lt;/strong&gt;与&lt;strong&gt;数列递推（马尔可夫链模型）&lt;/strong&gt;。利用全概率公式，将第 $n$ 局的概率 $P(A_n)$ 拆分为基于第 $n-1$ 局结果的条件概率之和，从而构造数列递推式。&lt;/p&gt;
-&lt;p&gt;解：设事件 $A_n$ 为“甲在第 $n$ 局获胜”，令 $P(A_n) = p_n$。由题意可知，若上一局甲胜，则本局甲胜的概率为 $P(A_n | A_{n-1}) = \alpha$；若上一局甲负，则本局甲胜的概率为 $P(A_n | \bar{A}_{n-1}) = \beta$。&lt;/p&gt;
-&lt;p&gt;由全概率公式 $P(A_n) = P(A_{n-1})P(A_n | A_{n-1}) + P(\bar{A}&lt;em&gt;{n-1})P(A_n | \bar{A}&lt;/em&gt;{n-1})$ 即 $p_n = \alpha \cdot p_{n-1} + \beta \cdot (1 - p_{n-1})$ 整理得：$p_n = (\alpha - \beta)p_{n-1} + \beta$。&lt;/p&gt;
-&lt;p&gt;...&lt;/p&gt;</description>
+      <description>&lt;h1&gt;随机过程和马尔可夫链&lt;/h1&gt;
+&lt;p&gt;在前面「指示随机变量」一节中，我们曾用递推方法解决了羽毛球发球权问题——第 $n$ 回合的发球状态仅取决于第 $n-1$ 回合的结果。这种「未来只依赖于现在，而与过去无关」的性质，正是随机过程和马尔可夫链的数学本质。&lt;/p&gt;
+&lt;h2&gt;随机过程初步&lt;/h2&gt;
+&lt;h3&gt;随机过程的概念&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;随机过程&lt;/strong&gt;（Stochastic Process）是一族随时间演化的随机变量 ${X_t : t \in T}$。其中 $T$ 称为参数集（或指标集），$X_t$ 在每个时刻 $t$ 都是一个随机变量。根据参数集 $T$ 的取值类型，随机过程可分为两类：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;离散时间随机过程&lt;/strong&gt;：$T = {0, 1, 2, \dots}$，通常记作 ${X_n}_{n=0}^{\infty}$。例如：每天记录一次股票价格、每轮比赛后的比分状态&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;连续时间随机过程&lt;/strong&gt;：$T = [0, \infty)$ 或 $\mathbb{R}$，通常记作 ${X_t}_{t \ge 0}$。例如：布朗运动、泊松过程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;随机变量 $X_t$ 所有可能取值的集合称为&lt;strong&gt;状态空间&lt;/strong&gt;（St...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/probability/4/</link>
       <pubDate>Sun, 18 May 2025 09:51:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/probability/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/4.png" type="image/png" length="33068" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/4.png" type="image/png" length="37065" />
       
     </item>
     

@@ -137,7 +137,7 @@
 - [随机事件与概率](https://raineblog.dpdns.org/whk/science/probability/1/index.md)
 - [随机变量及其分布](https://raineblog.dpdns.org/whk/science/probability/2/index.md)
 - [统计学和数理统计](https://raineblog.dpdns.org/whk/science/probability/3/index.md)
-- [随机过程和马氏](https://raineblog.dpdns.org/whk/science/probability/4/index.md)
+- [随机过程和马尔可夫链](https://raineblog.dpdns.org/whk/science/probability/4/index.md)
 - [反应速率详解：基础概念、进度浓度与催化机制全解](https://raineblog.dpdns.org/whk/science/reaction/1/index.md)
 - [化学平衡详解：可逆反应机制与实验条件及平衡迁移](https://raineblog.dpdns.org/whk/science/reaction/2/index.md)
 - [溶液行为详解：离子反应机制平衡常数与典型的场景](https://raineblog.dpdns.org/whk/science/reaction/3/index.md)
