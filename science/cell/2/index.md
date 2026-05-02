@@ -88,4 +88,4 @@
 
 沃森-克里克规则认为，腺嘌呤（A）必须与胸腺嘧啶（T）配对，鸟嘌呤（G）必须与胞嘧啶（C）配对，由于现在发现还有很多不同的碱基，这条规则已经不适用，但是一定范围内可以这样认为。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

@@ -142,7 +142,7 @@ W_G=-\\Delta E\_{pG}
 
 类似的，电场力做功会消耗电势能，即：
 
-W\_{电}=-\\Delta E\_{p电}
+W\_{电}=-\\Delta E\_{p 电}
 
 在匀强电场中：
 
@@ -166,7 +166,7 @@ W\_{电}=\\bm F\_{电}\\cdot\\bm x=F\_{电}x\\cos\\theta=EqH
 
 电场中某处的电势等于处于电场中该位置的单位电荷所具有的电势能，单位为伏特：
 
-\\varphi=\\dfrac{E\_{p电}}{q}
+\\varphi=\\dfrac{E\_{p 电}}{q}
 
 一个直观的定义为：检验电荷从零势能点，经过任意路径，克服电场力，以缓慢、没有产生加速度的方式移动到某位置，则在这位置的电势等于因移动检验电荷所做的功与检验电荷的电荷量的比值。
 
@@ -303,7 +303,7 @@ U=\\dfrac{E_p}{q}=k_e\\dfrac{Q}{r}
 
 如图，如果从 A 点静止释放，在 B 点恰好速度为零，则 C 点一定是动能最高的点，OC 方向即为等效重力场方向；根据对称性，OC 一定是角平分线。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
 
 ______________________________________________________________________
 

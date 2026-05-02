@@ -281,11 +281,11 @@ U=U_反+IR
 
 两端同时乘以 I，得到：
 
-UI=U_反I+I^2R
+UI=U_反 I+I^2R
 
 也就是说其实，
 
-U_反I=P_机
+U_反 I=P_机
 
 这就揭示了本质：电能之所以能转化为机械能，正是通过反电动势实现的。反电动势是机械运动和电磁感应的直接结果。
 
@@ -300,4 +300,4 @@ U_反I=P_机
 
 总之，对于电动机来说，无论其是否转动，欧姆定律肯定是适用的。只是当其转动时，加在线圈两端的电压要减掉其产生的反电动势而已。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

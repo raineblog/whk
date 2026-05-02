@@ -304,7 +304,7 @@ f'(x)+p(x)f(x)=0
 
   5\\times A(5,5)=600
 
-  **解法二**（插空法） 五个人排好后，甲插入除开头以外的任一空位：
+  **解法二**（插空法）五个人排好后，甲插入除开头以外的任一空位：
 
   A(5,5)\\times C(5,1)=600
 
@@ -698,4 +698,4 @@ t\\in{1,2,\\dots,11}
 1. 首先由端点效应初步获得参数的取值范围，验证这个范围是否为最终范围；若不是，则判断函数的极值并获取参数的取值范围；
 1. 根据主元函数的形式，判断主元函数的单调性，然后求主元函数的最值（此最值应当是一个函数），最后判断该最值函数是否满足题中的不等式。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

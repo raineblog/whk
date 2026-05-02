@@ -257,7 +257,7 @@
 
 ## 稀有金属
 
-稀土元素（“冶金工业的维生素”）：元素周期表中原子序数从57-71（从镧至镥，称为镧系元素）的15种元素以及钪和钇，共17种元素。
+稀土元素（“冶金工业的维生素”）：元素周期表中原子序数从 57-71（从镧至镥，称为镧系元素）的 15 种元素以及钪和钇，共 17 种元素。
 
 稀土金属广泛应用在冶金、石油化工、材料工业（电子材料、荧光材料、发光材料、永磁材料、超导材料、染色材料、纳米材料、引火合金和催化剂等）、医药及农业等领域。
 
@@ -327,4 +327,4 @@
 | 中性 / 弱碱性 | \\ce{MnO2}（沉淀） | +7 \\rightarrow +4 | 生成棕褐色沉淀                 |
 | 强碱性        | \\ce{MnO4^2-}      | +7 \\rightarrow +6 | 溶液由紫变绿                   |
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

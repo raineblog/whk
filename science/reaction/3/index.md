@@ -675,7 +675,7 @@ K\_{sp}=\\con{A^y+}^x\\con{B^x+}^y
   1. **比较主要离子/分子**：根据等效转换的计算：
      - \\con{NO3-} = 0.2V / 2V = \\pu{0.1 mol/L}
      - \\con{Na+} = 0.1V / 2V = \\pu{0.05 mol/L}
-     - **物料守恒（N元素）**：\\con{NH4+} + \\con{NH3\*H2O} = 0.2V / 2V = \\pu{0.1 mol/L}。
+     - **物料守恒（N 元素）**：\\con{NH4+} + \\con{NH3\*H2O} = 0.2V / 2V = \\pu{0.1 mol/L}。
   1. **利用 \\pH > 7**：溶液呈碱性，说明氨水的电离 (\\ce{NH3\*H2O \<=> NH4+ + OH-}) 程度大于铵根的水解 (\\ce{NH4+ + H2O \<=> NH3\*H2O + H+})。这意味着体系中 **\\ce{NH4+} 的消耗比 \\ce{NH3\*H2O} 的消耗要多**（或者说 \\ce{NH3\*H2O} 的生成比 \\ce{NH4+} 的生成多）。
      - 因此，相比于反应结束时设想的 \\pu{0.05 M}，实际上 \\con{NH4+} 会略微 **小于** \\pu{0.05 M}，而 \\con{NH3\*H2O} 会略微 **大于** \\pu{0.05 M}。
      - **精细比较**：利用**电荷守恒**：\\con{Na+} + \\con{NH4+} + \\con{H+} = \\con{NO3-} + \\con{OH-}。
@@ -942,4 +942,4 @@ c(待测)=\\dfrac{V(标准)}{V(待测)}c(标准)
 
 电位滴定法是分析化学中一种非常重要且精密的手段。它将化学反应与电信号结合，使得滴定分析不再依赖于肉眼观察，特别适合处理复杂基质（如药物、环境水样、石油产品）中的成分分析。对于现代实验室而言，**全自动电位滴定仪**已成为标准配置。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

@@ -166,7 +166,7 @@ ______________________________________________________________________
 
 1 ~ N 中与 N 互质的数的个数被称为欧拉函数，记为 \\varphi(N). 用数学符号表示即为 \\varphi(N)=\\displaystyle\\sum\_{i=1}^{N}[\\gcd(i,N)=1].
 
-若 N = p_1^{c_1}p_2^{c_2}\\dots p_n^{c_n}，则 \\displaystyle\\varphi(N)=N\\times\\frac{p_1-1}{p_1}\\times\\frac{p_2-1}{p_2}\\times\\dots\\times\\frac{p_n-1}{p_n}=N\\cdot\\displaystyle\\prod\_{质数p|N}\\left(1-\\frac{1}{p}\\right)
+若 N = p_1^{c_1}p_2^{c_2}\\dots p_n^{c_n}，则 \\displaystyle\\varphi(N)=N\\times\\frac{p_1-1}{p_1}\\times\\frac{p_2-1}{p_2}\\times\\dots\\times\\frac{p_n-1}{p_n}=N\\cdot\\displaystyle\\prod\_{质数 p|N}\\left(1-\\frac{1}{p}\\right)
 
 证明：设 p,q 为 N 的不同质因子，1 ~ N 中 p 的倍数有 \\displaystyle \\frac{N}{p} 个，q 的倍数有 \\displaystyle \\frac{N}{q} 个。若把 \\displaystyle \\frac{N}{p}+\\frac{N}{q} 个数去掉，则 \\displaystyle\\frac{N}{pq} 被计算了 2 次（容斥原理）。因此， 1 ~ N 中不与 N 含有相同质因子的 p 或 q 数量为 \\displaystyle N-\\frac{N}{p}-\\frac{N}{q}+\\frac{N}{pq}=N\\left(1-\\frac{1}{p}\\right)\\left(1-\\frac{1}{q}\\right)，对 N 的全部质因子继续容斥即可得到公式。
 
@@ -375,4 +375,4 @@ S_n=\\displaystyle\\sum\_{k=1}^{n}\\left\\lfloor\\frac{(d-1)!+1}{d}-\\left\\lflo
 
 若 p 是质数，则对于模 p 意义下的 n 次整系数多项式 f(x)=a_nx^n+a\_{n-1}x^{n-1}+\\dots+a_0(p\\nmid a_n) 同余方程 f(x)\\equiv 0(\\mathrm{mod}\\ p) 至多有 n 个不同的解。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

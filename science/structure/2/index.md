@@ -742,4 +742,4 @@ R\_{\\infty}=\\pu{1.10E7 m^-1}
 - 无论在同一周期中还是在同一族中，元素的电子亲和能没有表现出简单的变化规律。
 - 电子亲和能的数据不易测定，准确性较差，来自不同文献的数据往往不同。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
