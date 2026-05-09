@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 04 May 2026 02:06:11 -0000</pubDate>
-    <lastBuildDate>Mon, 04 May 2026 02:06:11 -0000</lastBuildDate>
+    <pubDate>Sat, 09 May 2026 14:44:38 -0000</pubDate>
+    <lastBuildDate>Sat, 09 May 2026 14:44:38 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,66 @@
     
 
     
+    
+    <item>
+      <title>卤族元素概述详解：氯气性质、反应机理与全应用场景</title>
+      
+      
+      
+      
+      <description>本文系统阐述卤族元素的物理化学性质，详细分析氯气的颜色、密度、溶解度及与金属、非金属的燃烧与置换反应，重点探讨氯气与水生成盐酸与次氯酸的平衡、氧化还原特性，以及工业制氯与废气处理的实际应用，并对比溴、碘的提取与反应路线</description>
+      <link>https://raineblog-whk.pages.dev/science/element/cl/</link>
+      <pubDate>Sat, 09 May 2026 14:43:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/element/cl/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/element/cl/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/element/cl.png" type="image/png" length="46214" />
+      
+    </item>
+    
+    <item>
+      <title>转基因技术详解：原理机制、社会影响与实际应用场景</title>
+      
+      
+      
+      
+      <description>本文系统阐释转基因技术的分子构建路线包括外源基因导入农杆菌介导转化及基因表达调控机制重点分析抗虫抗除草耐逆境等性状的遗传编辑原理并探讨其在农业生产食品安全医药合成及环境保护中的实际应用与潜在风险此外还讨论了转基因产品在生态系统中的扩散风险监管框架及公众认知的形成机制为政策制定提供科学依据</description>
+      <link>https://raineblog-whk.pages.dev/science/experiment/3/</link>
+      <pubDate>Sat, 09 May 2026 14:43:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/experiment/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/experiment/3/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/experiment/3.png" type="image/png" length="44180" />
+      
+    </item>
+    
+    <item>
+      <title>随机事件与概率</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;随机事件与概率&lt;/h1&gt;
+&lt;h2&gt;事件及其运算&lt;/h2&gt;
+&lt;h3&gt;试验与事件&lt;/h3&gt;
+&lt;p&gt;我们把按照一定的想法去作的事情称为随机试验，随机试验的简称是试验。样本空间 $\Omega$ 指明随机现象&lt;strong&gt;所有&lt;/strong&gt;可能出现的结果。&lt;/p&gt;
+&lt;p&gt;具体的，一个随机现象中可能发生的不能再细分的结果被称为&lt;strong&gt;样本点&lt;/strong&gt;，所有样本点的集合称为&lt;strong&gt;样本空间&lt;/strong&gt;，通常用 $\Omega$ 来表示。&lt;/p&gt;
+&lt;p&gt;二维样本空间的列举，表格法：&lt;/p&gt;
+&lt;p&gt;|       |    1      |    2      |    3      |    4      |    5      |    6      |
+|:-----:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+| &lt;strong&gt;1&lt;/strong&gt; | $(1, 1)$ | $(1, 2)$ | $(1, 3)$ | $(1, 4)$ | $(1, 5)$ | $(1, 6)$ |
+| &lt;strong&gt;2&lt;/strong&gt; | $(2, 1)$ | $(2, 2)$ | $(2, 3)$ | $(2, 4)$ | $(2, 5)$ | $...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/probability/1/</link>
+      <pubDate>Mon, 04 May 2026 03:49:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/probability/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/1/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/probability/1.png" type="image/png" length="33783" />
+      
+    </item>
     
     <item>
       <title>随机变量及其分布</title>
@@ -698,23 +758,6 @@ git submo...&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>转基因技术详解：原理机制、社会影响与实际应用场景</title>
-      
-      
-      
-      
-      <description>本文系统阐释转基因技术的分子构建路线包括外源基因导入农杆菌介导转化及基因表达调控机制重点分析抗虫抗除草耐逆境等性状的遗传编辑原理并探讨其在农业生产食品安全医药合成及环境保护中的实际应用与潜在风险此外还讨论了转基因产品在生态系统中的扩散风险监管框架及公众认知的形成机制为政策制定提供科学依据</description>
-      <link>https://raineblog-whk.pages.dev/science/experiment/3/</link>
-      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/experiment/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/experiment/3/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/experiment/3.png" type="image/png" length="44180" />
-      
-    </item>
-    
-    <item>
       <title>进阶导数题型</title>
       
       
@@ -1213,32 +1256,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/polynomial/5/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/polynomial/5.png" type="image/png" length="30416" />
-      
-    </item>
-    
-    <item>
-      <title>随机事件与概率</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;随机事件与概率&lt;/h1&gt;
-&lt;h2&gt;事件及其运算&lt;/h2&gt;
-&lt;h3&gt;试验与事件&lt;/h3&gt;
-&lt;p&gt;我们把按照一定的想法去作的事情称为随机试验，随机试验的简称是试验。样本空间 $\Omega$ 指明随机现象&lt;strong&gt;所有&lt;/strong&gt;可能出现的结果。&lt;/p&gt;
-&lt;p&gt;具体的，一个随机现象中可能发生的不能再细分的结果被称为&lt;strong&gt;样本点&lt;/strong&gt;，所有样本点的集合称为&lt;strong&gt;样本空间&lt;/strong&gt;，通常用 $\Omega$ 来表示。&lt;/p&gt;
-&lt;p&gt;二维样本空间的列举，表格法：&lt;/p&gt;
-&lt;p&gt;|       |    1      |    2      |    3      |    4      |    5      |    6      |
-|:-----:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
-| &lt;strong&gt;1&lt;/strong&gt; | $(1, 1)$ | $(1, 2)$ | $(1, 3)$ | $(1, 4)$ | $(1, 5)$ | $(1, 6)$ |
-| &lt;strong&gt;2&lt;/strong&gt; | $(2, 1)$ | $(2, 2)$ | $(2, 3)$ | $(2, 4)$ | $(2, 5)$ | $...&lt;/p&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/probability/1/</link>
-      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/probability/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/1/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/probability/1.png" type="image/png" length="33783" />
       
     </item>
     
@@ -2263,23 +2280,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/electromagnetism/4/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/electromagnetism/4.png" type="image/png" length="50474" />
-      
-    </item>
-    
-    <item>
-      <title>卤族元素概述详解：氯气性质、反应机理与全应用场景</title>
-      
-      
-      
-      
-      <description>本文系统阐述卤族元素的物理化学性质，详细分析氯气的颜色、密度、溶解度及与金属、非金属的燃烧与置换反应，重点探讨氯气与水生成盐酸与次氯酸的平衡、氧化还原特性，以及工业制氯与废气处理的实际应用，并对比溴、碘的提取与反应路线</description>
-      <link>https://raineblog-whk.pages.dev/science/element/cl/</link>
-      <pubDate>Sat, 28 Mar 2026 10:56:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/element/cl/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/element/cl/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/element/cl.png" type="image/png" length="46214" />
       
     </item>
     
