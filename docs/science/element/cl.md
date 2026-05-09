@@ -157,13 +157,13 @@ $$
 
 方程式书写：
 
-- $\ce{MnO2 + 4HCl(浓) ->[\triangle] MnCl2 + Cl2 ^ + 2H2O}$。
+    - $\ce{MnO2 + 4HCl(浓) ->[\triangle] MnCl2 + Cl2 ^ + 2H2O}$。
 
-- $\ce{2KMnO4 + 16HCl(浓) -> 2KCl + 2MnCl2 + 5Cl2 ^ + 8H2O}$。
+    - $\ce{2KMnO4 + 16HCl(浓) -> 2KCl + 2MnCl2 + 5Cl2 ^ + 8H2O}$。
 
-- $\ce{KClO3 + 6HCl(浓) -> KCl + 3Cl2 ^ + 3H2O}$。
+    - $\ce{KClO3 + 6HCl(浓) -> KCl + 3Cl2 ^ + 3H2O}$。
 
-- $\ce{NaClO + 2HCl -> NaCl + Cl2 ^ + H2O}$。
+    - $\ce{NaClO + 2HCl -> NaCl + Cl2 ^ + H2O}$。
 
     - $\ce{2NaCl(熔融) ->[通电] 2Na + Cl2}$。
 
@@ -183,13 +183,13 @@ $$
 
 氯水成分的检验：
 
-- $\ce{Cl2}$：观察颜色。
+    - $\ce{Cl2}$：观察颜色。
 
-- $\ce{Cl-}$：加入硝酸酸化的硝酸银溶液，产生白色沉淀。
+    - $\ce{Cl-}$：加入硝酸酸化的硝酸银溶液，产生白色沉淀。
 
-- $\ce{H+}$：加入 $\ce{NaHCO3}$ 固体，产生使澄清石灰水变浑浊的气体。
+    - $\ce{H+}$：加入 $\ce{NaHCO3}$ 固体，产生使澄清石灰水变浑浊的气体。
 
-- $\ce{HClO}$：使有色布条褪色，加热产生气泡。
+    - $\ce{HClO}$：使有色布条褪色，加热产生气泡。
 
 - 将新制氯水加入石蕊试液，石蕊先变红后褪色（酸性、漂白性）。
 
@@ -207,17 +207,17 @@ $$
 
 - 将氯气通入**石灰乳**中。
 
-- $\ce{2Ca(OH)2 + 2Cl2 -> CaCl2 + Ca(ClO)2 + 2H2O}$。
+    - $\ce{2Ca(OH)2 + 2Cl2 -> CaCl2 + Ca(ClO)2 + 2H2O}$。
 
 漂白原理：
 
 - 生效原理：
 
-- $\ce{Ca(ClO)2 + H2O + CO2 -> 2HClO + CaCO3 v}$。
+    - $\ce{Ca(ClO)2 + H2O + CO2 -> 2HClO + CaCO3 v}$。
 
 - 失效原理：
 
-- $\ce{Ca(ClO)2 + H2O + CO2 -> 2HClO + CaCO3 v}$。
+    - $\ce{Ca(ClO)2 + H2O + CO2 -> 2HClO + CaCO3 v}$。
 
     - $\ce{2HClO ->[光] 2HCl + O2 ^}$。
 
@@ -239,11 +239,11 @@ $$
 
 - 生效原理：
 
-- $\ce{NaClO + H2O + CO2 -> HClO + NaHCO3}$。
+    - $\ce{NaClO + H2O + CO2 -> HClO + NaHCO3}$。
 
 - 失效原理：
 
-- $\ce{NaClO + H2O + CO2 -> HClO + NaHCO3}$。
+    - $\ce{NaClO + H2O + CO2 -> HClO + NaHCO3}$。
 
     - $\ce{2HClO ->[光] 2HCl + O2 ^}$。
 

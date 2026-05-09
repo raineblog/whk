@@ -83,13 +83,13 @@ $$
 \ce{Al^3+ + 3HCO3^- = Al(OH)3 v + 3CO2 ^}
 $$
 
-![alt text](image.avif){ width=“80%” }
+![alt text](image.avif){ width="80%" }
 
 ### 铝的工业制取
 
 常见的工业制铝为霍尔-埃鲁法，现在常与与拜耳法联用，产铝量大。
 
-![](./Bayer_process-chinese_annotation.avif){ width=“70%” }
+![](./Bayer_process-chinese_annotation.avif){ width="70%" }
 
 1. 粉碎：
 
@@ -161,11 +161,11 @@ $$
 
 实验室制取氢氧化铝：
 
-- $\ce{Al^3+ + 3NH3*H2O -> Al(OH)3 v + 3NH4+}$。
+    - $\ce{Al^3+ + 3NH3*H2O -> Al(OH)3 v + 3NH4+}$。
 
-- $\ce{[Al(OH)4]- + CO2 -> Al(OH)3 v + HCO3-}$。
+    - $\ce{[Al(OH)4]- + CO2 -> Al(OH)3 v + HCO3-}$。
 
-- $\ce{Al^3+ + 3[Al(OH)4]- -> 4Al(OH)3 v}$。
+    - $\ce{Al^3+ + 3[Al(OH)4]- -> 4Al(OH)3 v}$。
 
 容易想到，对于 $\pu{1mol}$ 铝单质，我们用 $\pu{3mol}$ 氢离子将其转化为 $\pu{1mol}$ 铝离子，然后用 $\pu{3mol}$ 氢氧根将其转化为氢氧化铝。但是这很费原料，不妨进行改进：先用水和 $\pu{1mol}$ 氢氧根转化为四羟基合铝离子，然后用 $\pu{1mol}$ 氢离子转化为氢氧化铝。但是我们还有更好的方法：
 
@@ -173,7 +173,7 @@ $$
 
 ### 铝三角
 
-![铝三角](./铝三角.avif){ width=“60%” }
+![铝三角](./铝三角.avif){ width="60%" }
 
 | 编号 | 反应方程式 |
 | :-: | :-: |
