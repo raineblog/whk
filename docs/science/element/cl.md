@@ -157,11 +157,11 @@ $$
 
 方程式书写：
 
-    - $\ce{MnO2 + 4HCl(浓) ->[\triangle] MnCl2 + Cl2 ^ + 2H2O}$。
+- $\ce{MnO2 + 4HCl(浓) ->[\triangle] MnCl2 + Cl2 ^ + 2H2O}$。
 
-    - $\ce{2KMnO4 + 16HCl(浓) -> 2KCl + 2MnCl2 + 5Cl2 ^ + 8H2O}$。
+- $\ce{2KMnO4 + 16HCl(浓) -> 2KCl + 2MnCl2 + 5Cl2 ^ + 8H2O}$。
 
-    - $\ce{KClO3 + 6HCl(浓) -> KCl + 3Cl2 ^ + 3H2O}$。
+- $\ce{KClO3 + 6HCl(浓) -> KCl + 3Cl2 ^ + 3H2O}$。
 
     - $\ce{NaClO + 2HCl -> NaCl + Cl2 ^ + H2O}$。
 
