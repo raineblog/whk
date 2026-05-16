@@ -1,6 +1,12 @@
 {
   "version": 1,
   "skills": {
+    "Geek-skills-gaokao-expert": {
+      "source": "staruhub/claudeskills",
+      "sourceType": "github",
+      "skillPath": "skills/Geek-skills-gaokao-expert/SKILL.md",
+      "computedHash": "47b8416732249a17359ff1ed4c677597e1ec2b333d802c608b287f40ebf4e3c3"
+    },
     "chinese-writing": {
       "source": "miantiao-me/aigc-weekly",
       "sourceType": "github",
