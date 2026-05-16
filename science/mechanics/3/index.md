@@ -6,7 +6,7 @@
 
 等腰三角形、晾衣杆问题，特征为动滑轮通过刚性轻绳固定，有公式：
 
-F=\\dfrac{G}{2\\cos\\theta}
+F=\\dfrac{G}{2 \\cos \\theta}
 
 特征；F 仅与 \\theta 有关，上下移动绳子端点力不变，端点水平靠近拉力下降、远离拉力上升。
 
@@ -25,12 +25,12 @@ F=\\dfrac{G}{2\\cos\\theta}
 
 斜面模型「物体是否会下滑」，设斜面与水平面夹角为 \\theta：
 
-受力分析，得 G_x=mg\\sin\\theta，f=\\mu mg\\cos\\theta。
+受力分析，得 G_x=mg \\sin \\theta，f=\\mu mg \\cos \\theta。
 
-- 若物体下滑：G_x>f \\Rightarrow G_x/f>1 \\Rightarrow \\tan\\theta/\\mu>1 \\Rightarrow \\tan\\theta>\\mu。
-- 同理，若物体静止不动，G_x\\le f \\Rightarrow \\tan\\theta\\le\\mu。
+- 若物体下滑：G_x>f \\Rightarrow G_x/f>1 \\Rightarrow \\tan \\theta/\\mu>1 \\Rightarrow \\tan \\theta>\\mu。
+- 同理，若物体静止不动，G_x\\le f \\Rightarrow \\tan \\theta\\le\\mu。
 
-即，若 \\tan\\theta>\\mu，物体会下滑。
+即，若 \\tan \\theta>\\mu，物体会下滑。
 
 同时也可以根据此探究动摩擦因数 \\mu=\\arctan\\theta。
 
@@ -80,15 +80,15 @@ T=\\dfrac{F_1m_2+F_2m_1}{m_1+m_2}
 
 设下滑的弦与法线的夹角为 \\beta，则弦长：
 
-l=2R\\cos\\beta
+l=2R \\cos \\beta
 
 沿弦方向加速度为：
 
-a=g\\cos\\beta
+a=g \\cos \\beta
 
 列运动学方程：
 
-\\begin{aligned} l&=\\dfrac{1}{2}at^2\\ 2R\\cos\\beta&=\\dfrac{1}{2}(g\\cos\\beta)t^2 \\end{aligned}
+\\begin{aligned} l&=\\dfrac{1}{2}at^2\\ 2R \\cos \\beta&=\\dfrac{1}{2}(g \\cos \\beta)t^2 \\end{aligned}
 
 易得 t 与 \\beta 无关，且：
 
@@ -102,15 +102,15 @@ t=\\sqrt{\\dfrac{4R}{g}}
 
 易知，该圆的直径（Q 为圆与斜面的切点，H 为最高点到斜面的垂足）：
 
-2R=\\dfrac{OQ}{\\cos\\theta}=\\dfrac{OH}{\\cos^2\\theta}=\\dfrac{l\\cos\\alpha}{\\cos^2(\\alpha/2)}
+2R=\\dfrac{OQ}{ \\cos \\theta}=\\dfrac{OH}{ \\cos ^2\\theta}=\\dfrac{l \\cos \\alpha}{ \\cos ^2(\\alpha/2)}
 
 则：
 
-R=\\dfrac{l\\cos\\alpha}{1+\\cos\\alpha}
+R=\\dfrac{l \\cos \\alpha}{1+ \\cos \\alpha}
 
 则最短时间：
 
-t=\\sqrt{\\dfrac{4R}{g}}=2\\sqrt{\\dfrac{l\\cos\\alpha}{g(1+\\cos\\alpha)}}
+t=\\sqrt{\\dfrac{4R}{g}}=2\\sqrt{\\dfrac{l \\cos \\alpha}{g(1+ \\cos \\alpha)}}
 
 等时圆的构造：
 
@@ -122,13 +122,23 @@ t=\\sqrt{\\dfrac{4R}{g}}=2\\sqrt{\\dfrac{l\\cos\\alpha}{g(1+\\cos\\alpha)}}
 
 伯努利（哥哥和弟弟分别）证明了最速降线是一条摆线。
 
+### 摩擦力分配原理
+
+在复杂的板块模型或多物体连接系统中，摩擦力并非简单地取最大值，而是根据受力平衡或加速度约束进行分配。
+
+1. **内摩擦与外摩擦**：系统内部物体间的摩擦为内摩擦，系统与外界（如地面）的摩擦为外摩擦。
+1. **约束方程法**：建立各物体的运动方程。若系统相对静止，则各物体加速度相等；若存在相对滑动，则滑动处的摩擦力为滑动摩擦力。
+1. **分配比例**：对于多个接触面，摩擦力的分配遵循「先满足外约束，再调节内约束」的原则。当外力 F 增大到使某一接触面达到最大静摩擦 f\_{max} 时，该处发生相对滑动。
+
+例如，在三层叠加模型中，通过列出各层的牛顿第二定律方程组，可以求出不同接触面发生相对滑动的临界推力 F。
+
 ## 传送带和板块模型
 
 **例题 1**：质量为 2\\text{kg} 的物体沿光滑斜面下滑，斜面与水平面的夹角为 37^\\circ，求木块的加速度。
 
 列式：
 
-\\begin{cases} F_r&=ma\\ F_r&=G\\sin37^\\circ\\ G&=mg\\ m&=2\\text{kg} \\end{cases}
+\\begin{cases} F_r&=ma\\ F_r&=G \\sin 37^\\circ\\ G&=mg\\ m&=2\\text{kg} \\end{cases}
 
 解得：
 
@@ -140,7 +150,7 @@ t=\\sqrt{\\dfrac{4R}{g}}=2\\sqrt{\\dfrac{l\\cos\\alpha}{g(1+\\cos\\alpha)}}
 
 列式：
 
-\\begin{cases} F_r&=ma\\ F_r&=G\\sin37^\\circ-f\\ f&=\\mu N\\ N&=G\\cos37^\\circ\\ G&=mg\\ m&=2\\text{kg} \\end{cases}
+\\begin{cases} F_r&=ma\\ F_r&=G \\sin 37^\\circ-f\\ f&=\\mu N\\ N&=G \\cos 37^\\circ\\ G&=mg\\ m&=2\\text{kg} \\end{cases}
 
 解得：
 
@@ -184,17 +194,42 @@ t=\\sqrt{\\dfrac{4R}{g}}=2\\sqrt{\\dfrac{l\\cos\\alpha}{g(1+\\cos\\alpha)}}
 
 加速度：
 
-a=g\\sin\\theta\\pm\\mu g\\cos\\theta
+a=g \\sin \\theta\\pm\\mu g \\cos \\theta
 
 表示重力下滑分量和滑动摩擦力的作用。
 
-假设可以共速静止，比较 \\tan\\theta 和 \\mu。
+假设可以共速静止，比较 \\tan \\theta 和 \\mu。
 
 判断共速时的位与和传送带长度之间的关系。
 
 善用 v-t 图像。
 
-### 一板一物模型
+### 板块题型解析
+
+#### 类型一：相对位移求板长（无外力型）
+
+**思路**：物块以初速度冲上木板，系统在内摩擦力作用下最终趋于共速（或一方停止）。
+
+- **分析分段**：共速前，物块减速，木板加速（若地面不光滑则需考虑地面摩擦）。
+- **位移关系**：物块相对于地面的位移 x_1 与木板相对于地面的位移 x_2 之差，即为物块在板上滑行的相对位移。若恰好滑到边缘，则 L = x_1 - x_2。
+- **平均速度法**：对于匀变速过程，x = \\bar{v}t = \\frac{v_0 + v_t}{2}t。
+
+#### 类型二：定外力型临界分析
+
+**关键**：判断物体间是否发生相对滑动。
+
+1. 假设系统整体运动，求出整体加速度 a = \\frac{F - f\_{\\text{地}}}{M + m}。
+
+1. 隔离不受直接外力的物体，求出其所需摩擦力 f\_{\\text{需}} = ma。
+
+1. 比较 f\_{\\text{需}} 与最大静摩擦力 f\_{\\text{max}}：
+
+   - 若 f\_{\\text{需}} \\le f\_{\\text{max}}，假设成立，二者相对静止。
+   - 若 f\_{\\text{需}} > f\_{\\text{max}}，二者发生相对滑动，分别列牛顿第二定律方程求解。
+
+#### 类型三：变力求临界
+
+当外力 F 随时间或位移变化时，系统可能经历「相对静止」到「相对滑动」的转变。临界点在于接触面的静摩擦力达到最大值 f = \\mu N。
 
 地面光滑：
 
@@ -220,9 +255,9 @@ a=g\\sin\\theta\\pm\\mu g\\cos\\theta
 
 可以得出，摩擦力与斜面夹角无关，与摩擦因数有关：
 
-f=\\dfrac{m_1}{m_1+m_2}F-\\mu mg\\cos\\theta
+f=\\dfrac{m_1}{m_1+m_2}F-\\mu mg \\cos \\theta
 
-若斜面是水平面（\\theta=0），那么 \\cos\\theta=1：
+若斜面是水平面（\\theta=0），那么 \\cos \\theta=1：
 
 f=\\dfrac{m_1}{m_1+m_2}F-\\mu mg
 
@@ -236,17 +271,17 @@ f=\\dfrac{m_1}{m_1+m_2}F-\\mu mg
 
 形式一：拉着下面的 M 走，其上表面 \\mu_1、下表面 \\mu_2：
 
-F=(m+M)(\\mu_1+\\mu_2+\\tan\\theta)g\\cdot\\cos\\theta
+F=(m+M)(\\mu_1+\\mu_2+ \\tan \\theta)g\\cdot \\cos \\theta
 
-若斜面是水平面（\\theta=0），那么 \\cos\\theta=1,\\tan\\theta=0：
+若斜面是水平面（\\theta=0），那么 \\cos \\theta=1, \\tan \\theta=0：
 
 F=(m+M)(\\mu_1+\\mu_2)g
 
 形式二：拉着上面的 m 走，其下 M 上表面 \\mu_1、下表面 \\mu_2：
 
-F=\\dfrac{m}{M}(m+M)(\\mu_1-\\mu_2)g\\cdot\\cos\\theta
+F=\\dfrac{m}{M}(m+M)(\\mu_1-\\mu_2)g\\cdot \\cos \\theta
 
-若斜面是水平面（\\theta=0），那么 \\cos\\theta=1：
+若斜面是水平面（\\theta=0），那么 \\cos \\theta=1：
 
 F=\\dfrac{m}{M}(m+M)(\\mu_1-\\mu_2)g
 

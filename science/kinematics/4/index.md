@@ -38,7 +38,7 @@ a_c=\\dfrac{v^2}{r}=\\omega^2r=v\\omega
 
 对于匀速圆周运动多个圈的题目，列表：
 
-\\begin{array}{|c|l|l|l}\\hline &P_c&Q_c&\\dots\\\\hline \\bm r\\\\hline \\bm \\omega\\\\hline \\bm v\\\\hline \\bm a\\\\hline \\end{array}
+\\begin{array}{|c|l|l|l}\\hline &P_c&Q_c&\\dots\\hline \\bm r\\hline \\bm \\omega\\hline \\bm v\\hline \\bm a\\hline \\end{array}
 
 上面对应的就是几个圆周，从上到下填表。
 
@@ -72,7 +72,7 @@ a_c=\\dfrac{v^2}{r}=\\omega^2r=v\\omega
 
 指向圆心和竖直方向建系，列出两个方向上的牛二方程：
 
-\\begin{aligned} F_合=T\\sin\\theta\\ T\\cos\\theta=mg \\end{aligned}
+\\begin{aligned} F_合=T \\sin \\theta\\ T \\cos \\theta=mg \\end{aligned}
 
 其中 \\theta 为绳子和竖直方向的夹角。
 
@@ -82,7 +82,7 @@ F_合=m\\omega^2r
 
 计算得到：
 
-\\omega=\\sqrt{\\dfrac{g}{L\\cos\\theta}}
+\\omega=\\sqrt{\\dfrac{g}{L \\cos \\theta}}
 
 ### 同角不同面模型
 
@@ -90,7 +90,7 @@ F_合=m\\omega^2r
 
 假设接触面光滑：
 
-\\begin{aligned} F_合=F_N\\cos\\theta\\ F_N\\sin\\theta=mg \\end{aligned}
+\\begin{aligned} F_合=F_N \\cos \\theta\\ F_N \\sin \\theta=mg \\end{aligned}
 
 结论是向心加速度相同：
 
@@ -99,7 +99,7 @@ a=\\dfrac{F_合}{m}=g\\cot\\theta
 同角不同面，最常见的是漏斗里面小球转圈圈。
 
 - 根据 F_向=ma，因此质量越大，向心力越大。
-- 根据 \\displaystyle F_N=\\dfrac{mg}{\\sin\\theta}，因此质量越大，对斜面压力越大。
+- 根据 \\displaystyle F_N=\\dfrac{mg}{ \\sin \\theta}，因此质量越大，对斜面压力越大。
 - 根据 a=\\omega^2r，因此半径越大，角速度越小。
 - 根据 \\displaystyle a=\\dfrac{v^2}{r}，因此半径越大，线速度越大。
 
@@ -109,7 +109,7 @@ a=\\dfrac{F_合}{m}=g\\cot\\theta
 
 根据圆锥摆的公式，角速度 \\omega 对各物体相同：
 
-\\omega=\\sqrt{\\dfrac{g}{L\\cos\\theta}}=\\sqrt{\\dfrac{g}{H}}
+\\omega=\\sqrt{\\dfrac{g}{L \\cos \\theta}}=\\sqrt{\\dfrac{g}{H}}
 
 - 根据 a=\\omega^2r，因此半径越大，加速度越大。
 - 根据 v=r\\omega，因此半径越大，线速度越大。
@@ -124,9 +124,9 @@ a=\\dfrac{F_合}{m}=g\\cot\\theta
 
 易得：
 
-\\begin{aligned} T\\cos\\theta&=Mg\\ T\\sin\\theta&=M\\omega^2r=M\\omega^2l\\sin\\theta \\end{aligned}
+\\begin{aligned} T \\cos \\theta&=Mg\\ T \\sin \\theta&=M\\omega^2r=M\\omega^2l \\sin \\theta \\end{aligned}
 
-注意到一个可行解是 \\sin\\theta=0，即 \\theta=0（因为 \\theta=\\pi 是不稳定状态）。
+注意到一个可行解是 \\sin \\theta=0，即 \\theta=0（因为 \\theta=\\pi 是不稳定状态）。
 
 否则，
 
@@ -134,9 +134,9 @@ T=M\\omega^2l
 
 即，
 
-Mg=T\\cos\\theta=M\\omega^2l\\cos\\theta
+Mg=T \\cos \\theta=M\\omega^2l \\cos \\theta
 
-\\cos\\theta=\\dfrac{g}{\\omega^2l},\\theta=\\arccos\\left(\\dfrac{g}{\\omega^2l}\\right)
+\\cos \\theta=\\dfrac{g}{\\omega^2l},\\theta=\\arccos\\left(\\dfrac{g}{\\omega^2l}\\right)
 
 结论：
 
@@ -238,15 +238,38 @@ Mg=T\\cos\\theta=M\\omega^2l\\cos\\theta
 
 - 此时注意到，如果 \\Delta F_1>\\Delta F_2，也就是 m_1r_1>m_2r_2，此时绳子拉力的增大快于了 2 物体向心力的需求增量。那么，2 物体的摩擦力就会减小，然后反向，最终向 1 物体一侧滑开。我们设 \\omega_2 表示恰好 2 物体没有摩擦力，\\omega_3 表示恰好不滑动。
 
-  \\begin{aligned} \\omega_1&=\\sqrt{\\mu g\\over r_1}\\ \\omega_2&=\\sqrt{\\mu g\\over r_1-r_2}\\ \\omega_3&=\\sqrt{2\\mu g\\over r_1-r_2} \\end{aligned}
+\\begin{aligned} \\omega_1&=\\sqrt{\\mu g\\over r_1}\\ \\omega_2&=\\sqrt{\\mu g\\over r_1-r_2}\\ \\omega_3&=\\sqrt{2\\mu g\\over r_1-r_2} \\end{aligned}
 
 - 此时注意到，如果 \\Delta F_1=\\Delta F_2，也就是 m_1r_1=m_2r_2，绳子拉力的增量等于了 2 物体向心力的需求增量。那么，此时绳子拉力不断增大，1 物体保持最大静摩擦状态，2 物体保持原先的摩擦力大小，然而绳子拉力大小不断增大，有拉力 T 和角速度的关系：
 
-  T=m_2(\\omega^2-\\omega_1)^2r_2
+T=m_2(\\omega^2-\\omega_1)^2r_2
 
 - 此时注意到，如果 \\Delta F_1\<\\Delta F_2，也就是 m_1r_1\<m_2r_2，此时绳子拉力的增量不足 2 物体向心力的需求增量，因此 2 物体摩擦力继续增大，因为绳子拉力保持了 1 的静止，因此最终发生 2 的最大静摩擦及滑动，向 2 物体一侧滑开。
 
 注意到这个可以通过质点的形式解决，我们将会在质点系中再次讨论。
+
+### 三维空间的圆周运动
+
+对于圆锥桶、圆柱桶、圆锥摆等三维结构，受力分析的关键是找到物体圆周运动所在的平面 S。
+
+1. **截取 S 面**：该平面必须包含物体，且为标准圆。
+1. **确定圆心**：S 面的圆心必须在三维结构的转轴上。
+1. **角速度关联**：物体在 S 面上的圆周运动角速度等于三维整体旋转的角速度。
+1. **投影分析**：利用投影法将力转移到 S 面上，在指向圆心方向应用 \\sum F = m\\omega^2 R。
+
+### 子圆周模型
+
+当圆盘上放置一个独立的转动系统（如小圆盘）随主圆盘转动时，该系统的中心轨迹即为其圆周运动路径，且该系统的公转角速度等于主圆盘的角速度。
+
+### 连接体圆盘模型深化
+
+对于同侧绳连接模型（m_A, m_B 位于圆心同侧，B 在 A 外侧），当 B 达到最大静摩擦临界时，绳子产生张力 F。
+
+通过换系到转动参考系（引入离心力），隔离分析可得临界角速度 \\omega\_{\\t\\text{max}}：
+
+\\omega\_{\\t\\text{max}} = \\sqrt{\\dfrac{(m_A + m_B)\\mu g}{R_A m_A + R_B m_B}}
+
+该公式反映了系统整体克服摩擦力维持圆周运动的极限状态。
 
 ## 非匀速绳杆模型
 
@@ -272,7 +295,7 @@ Mg=T\\cos\\theta=M\\omega^2l\\cos\\theta
 
 - 在圆上一定满足提供了向心力 F_r=\\dfrac{mv^2}{r}。
 - 脱离的临界态：在圆上、无拉力弹力、向心方向恰好提供了 F_r。
-- 脱离的瞬间重力与所在半径连线夹角 \\cos\\theta=\\dfrac{v^2}{gr}。
+- 脱离的瞬间重力与所在半径连线夹角 \\cos \\theta=\\dfrac{v^2}{gr}。
 
 ### 杆模型
 

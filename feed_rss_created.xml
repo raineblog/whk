@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sat, 16 May 2026 11:30:11 -0000</pubDate>
-    <lastBuildDate>Sat, 16 May 2026 11:30:11 -0000</lastBuildDate>
+    <pubDate>Sat, 16 May 2026 12:13:43 -0000</pubDate>
+    <lastBuildDate>Sat, 16 May 2026 12:13:43 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -2606,19 +2606,21 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>相对运动详解：相对速度计算与实际应用场景全解析</title>
+      <title>相对运动</title>
       
       
       
       
-      <description>本文系统阐述相对运动的概念，从参考系转换出发，推导相对速度与相对加速度的计算公式，重点分析牛顿力学中的相对速度叠加原理与相对速度向量图示。随后讨论相对参考系在实验设计中的应用，包括相对速度测量、相对运动的可视化与相对速度在工程动力学、天体力学及相对论物理中的典型案例，帮助读者构建严谨的物理模型。</description>
+      <description>&lt;h1&gt;相对运动&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-3.avif&#34;&gt;&lt;/p&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-05-05&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-05-05T07:34:38+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-05-16&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=...</description>
       <link>https://raineblog.dpdns.org/whk/science/kinematics/5/</link>
       <pubDate>Mon, 05 May 2025 07:34:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/kinematics/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/5/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/5.png" type="image/png" length="42507" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/5.png" type="image/png" length="29474" />
       
     </item>
     
@@ -2725,53 +2727,117 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>静力与动量详解：力的合成、分解与拉密定理的实应用</title>
+      <title>静力与动量</title>
       
       
       
       
-      <description>本文系统阐述静力学与动力学的核心概念，包括力的基本要素、拉密定理的几何证明、力的合成与分解方法，以及重力、弹力、摩擦力的本质与应用。进一步分析冲量、动量及动能的转化关系，说明在不同参考系下功与冲量的等价性，并提供求重心、平衡稳定性及动量守恒的实例与解题技巧，适合高校物理与高考复习。</description>
+      <description>&lt;h1&gt;静力与动量&lt;/h1&gt;
+&lt;h2&gt;基本性质力&lt;/h2&gt;
+&lt;h3&gt;力&lt;/h3&gt;
+&lt;p&gt;力：力是物体间的相互作用。&lt;/p&gt;
+&lt;p&gt;力是改变物体运动状态或改变物体形状的原因。&lt;/p&gt;
+&lt;p&gt;力有大小、方向、作用点三个要素。&lt;/p&gt;
+&lt;p&gt;当我们把物体理想化为质点或刚体时，即不计物体的大小或不计物体形状变化时：&lt;/p&gt;
+&lt;p&gt;力是改变物体运动状态的原因。&lt;/p&gt;
+&lt;p&gt;力对于刚体具有可传递特性，即可以沿作用线滑移。&lt;/p&gt;
+&lt;p&gt;可以沿作用线方向改变作用点，而不改变该力对刚体的作用效果。&lt;/p&gt;
+&lt;p&gt;所以作用在刚体上的力，三个要素是：大小、方向和作用线。&lt;/p&gt;
+&lt;p&gt;如果物体平衡，即物体静止或保持运动状态不变，作用于物体的各力相互抵消。&lt;/p&gt;
+&lt;p&gt;受力分析的顺序：先主动力（外力、重力）、后被动力（弹力、摩擦力）。&lt;/p&gt;
+&lt;p&gt;注意：效果力由性质力充当，例如拉力支持力向心力。&lt;/p&gt;
+&lt;h3&gt;拉密定理&lt;/h3&gt;
+&lt;p&gt;拉密定理指出，如果三个共点力的合力为零，那么任一力与其相对角的正弦的比值均相等：&lt;/p&gt;
+&lt;p&gt;$$
+\dfrac{A}{\sin\alpha}=\dfrac{B}{\sin\beta}=\dfrac{C}{\sin\gamma}
+$$&lt;/p&gt;
+&lt;p&gt;其中 $A$、$B$、$C$ 为作用在一点（假设为 $P$）力的大小。&lt;/p&gt;
+&lt;p&gt;而 $\alpha$、$\beta...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/mechanics/1/</link>
       <pubDate>Sun, 13 Apr 2025 13:42:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/mechanics/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/1.png" type="image/png" length="40811" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/1.png" type="image/png" length="30067" />
       
     </item>
     
     <item>
-      <title>运动与能量详解：牛顿力学机制与高中实验应用详解</title>
+      <title>运动与能量</title>
       
       
       
       
-      <description>本文系统阐述牛顿运动定律在力学分析中的应用，重点解析第一定律的惯性概念、第二定律的 F=ma 定量关系以及第三定律的作用力与反作用力原则。并介绍在非惯性参考系中引入的惯性力、加速参考系的转化公式，以及如何利用功‑能关系计算功、功率及能量守恒，帮助学生掌握从受力到能量的完整链条。</description>
+      <description>&lt;h1&gt;运动与能量&lt;/h1&gt;
+&lt;p&gt;这一部分的根本是受力分析，因为这里面绝大部分的力都是不平衡的。&lt;/p&gt;
+&lt;p&gt;其实在后面几乎所有的力学都需要受力分析，虽然可能简单题不需要画出来也能想清楚。&lt;/p&gt;
+&lt;p&gt;受力分析的一个常用方法就是整体法，整体法一定是能用就用的。&lt;/p&gt;
+&lt;h2&gt;牛顿运动定律&lt;/h2&gt;
+&lt;h3&gt;牛顿第一定律&lt;/h3&gt;
+&lt;p&gt;牛顿第一定律表述为：不受外力作用的物体必将作匀速直线运动或保持静止。&lt;/p&gt;
+&lt;p&gt;这条定律就其叙述的内容本身提出了力和惯性两个重要概念：牛顿把改变物体运动状态的因素归于物体受到了力，而运动物体自身又具有保持其匀速直线运动或保持静止的属性，并称此属性为惯性。&lt;/p&gt;
+&lt;p&gt;根据运动的相对性，对于不同的参照系，物体往往有不同的加速度，在一个参照系中作匀速运动的物体，在另一个参照系中可能有加速度。&lt;/p&gt;
+&lt;p&gt;牛顿第一定律断言存在着一个参照系，在此参照系中，物体的运动遵循牛顿第一定律。这个参照系称为惯性系，因此，第一定律又称为惯性定律。&lt;/p&gt;
+&lt;p&gt;运动的相对性告诉我们，对于任何两个相互作匀速运动的参照系，同一质点具有相同的加速度。因此，只要存在一个惯性系，那么相对于此惯性系作匀速运动的所有参照系都是惯性系。&lt;/p&gt;
+&lt;p&gt;总结：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;假若施加于某物体的外力为零，则该...&lt;/li&gt;
+&lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/mechanics/2/</link>
       <pubDate>Sun, 13 Apr 2025 13:42:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/mechanics/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/2.png" type="image/png" length="42085" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/2.png" type="image/png" length="30915" />
       
     </item>
     
     <item>
-      <title>动力学模型详解：晾衣绳受力机理与斜面应用场景</title>
+      <title>动力学模型</title>
       
       
       
       
-      <description>本文系统梳理多种经典力学模型的受力分析路径，包括晾衣绳受力公式、弹簧突变处理、斜面下滑临界条件、直角劈约束方程、狭义连接体质量分配、等时圆下滑时间不变原理以及最速降线的摆线证明。文中详细推导每一步的物理意义、数学表达式及典型例题，帮助读者掌握从基础受力到复杂系统的完整分析流程，适用于高考复习、大学物理实验及竞赛备战。</description>
+      <description>&lt;h1&gt;动力学模型&lt;/h1&gt;
+&lt;h2&gt;动力学模型&lt;/h2&gt;
+&lt;h3&gt;晾衣绳模型&lt;/h3&gt;
+&lt;p&gt;等腰三角形、晾衣杆问题，特征为动滑轮通过刚性轻绳固定，有公式：&lt;/p&gt;
+&lt;p&gt;$$
+F=\dfrac{G}{2 \cos \theta}
+$$&lt;/p&gt;
+&lt;p&gt;特征；$F$ 仅与 $\theta$ 有关，上下移动绳子端点力不变，端点水平靠近拉力下降、远离拉力上升。&lt;/p&gt;
+&lt;p&gt;物体的平衡可以分为稳定平衡、不稳定平衡和随遇平衡三种。&lt;/p&gt;
+&lt;h3&gt;弹簧突变&lt;/h3&gt;
+&lt;p&gt;因为弹簧的弹力无法突变，因此我们：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;受力分析初状态，得出弹簧弹力。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;把弹簧弹力当做外力，重新受力分析。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;沿绳方向速度、受力大小一定相等。&lt;/p&gt;
+&lt;h3&gt;斜面模型&lt;/h3&gt;
+&lt;p&gt;斜面模型「物体是否会下滑」，设斜面与水平面夹角为 $\theta$：&lt;/p&gt;
+&lt;p&gt;受力分析，得 $G_x=mg \sin \theta$，$f=\mu mg \cos \theta$。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;若物体下滑：$G_x&amp;gt;f \Rightarrow G_x/f&amp;gt;1 \Rightarrow  \tan \theta/\mu&amp;gt;1 \Rightarrow  \tan \theta&amp;gt;\mu$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;同理，若物体静止不动，$G_x\le f \Rightar...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/mechanics/3/</link>
       <pubDate>Sun, 13 Apr 2025 13:42:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/mechanics/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/3.png" type="image/png" length="45597" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/3.png" type="image/png" length="30852" />
       
     </item>
     
@@ -2823,16 +2889,24 @@ $$&lt;/p&gt;
 &lt;h3&gt;物质的组成&lt;/h3&gt;
 &lt;p&gt;物质都是由元素组成的。元素是具有相同质子数（核电荷数）的一类原子的总称。自然界中的元素以两种形态存在：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;游离态&lt;/strong&gt;：元素以单质形式存在。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;化合态&lt;/strong&gt;：元素以化合物形式存在。&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;游离态&lt;/strong&gt;：元素以单质形式存在。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;化合态&lt;/strong&gt;：元素以化合物形式存在。&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;元素-游离态-单质，自然界中常见存在的单质，例如空气中的某些成分、矿石中的不活泼的金属单质、火山口的硫单质、陨铁中的铁单质。&lt;/p&gt;
 &lt;p&gt;经典问题，$\ce{H2}$ 和 $\ce{HD}$ 的“混合物”是纯净物，因为纯净物的定义中，不考虑原子核同位素等的不同。&lt;/p&gt;
 &lt;p&gt;元素-化合态-化合物。&lt;/p&gt;
 &lt;p&gt;物质按照组成可以分为纯净物和混合物：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;纯净物&lt;/strong&gt;：由一种物质组成，具有固定的组成和性质。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;混合物&lt;/strong&gt;：由两种或多种物质混合而成，没有固定的组成，各成分保持各自的性质。&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;纯净物&lt;/strong&gt;：由一种物质组成，具有固定的组成和性质。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;混合物&lt;/strong&gt;：由两种或多种物质混合而成，没有固定的组成，各成分保持各自的性质。&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img alt=&#34;物质&#34; src=&#34;物质-dcbbc0d.avif&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
 &lt;p&gt;纯净物注意：&lt;/p&gt;
@@ -2844,7 +2918,7 @@ $$&lt;/p&gt;
 &lt;p&gt;高聚物，又称高分子化合物，由于其分子中的链节数目不同，相对分子质量也不同，因此高聚物一定是混合物。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;水合盐又称结...&lt;/p&gt;
+&lt;p&gt;水合盐又...&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/element/</link>
@@ -2858,138 +2932,422 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>铝单质详解：化学性质与工业制取与应用场景全解析</title>
+      <title>硼族元素概述</title>
       
       
       
       
-      <description>本文系统阐述铝单质的物理化学性质、反应机理及工业制取流程，涵盖铝土矿的拜耳法溶出、氢氧化铝的制备、氧化铝的电解还原等关键环节，详细分析还原性、酸碱反应、合金强化及铝热反应的应用，为高中与大学化学学习提供完整技术路线图。</description>
+      <description>&lt;h1&gt;硼族元素概述&lt;/h1&gt;
+&lt;h2&gt;铝单质&lt;/h2&gt;
+&lt;h3&gt;铝单质概况&lt;/h3&gt;
+&lt;p&gt;铝是地壳中含量最高的金属，大多以化合态存在。铝制餐具不宜用来蒸煮或长时间存放酸性或碱性食物。&lt;/p&gt;
+&lt;p&gt;铝土矿是最重要的一种铝矿石，其主要成分为 $\ce{Al2O3}$（也以氢氧化铝形式存在），其中还含有针铁矿、赤铁矿、高岭土（含二氧化硅）和少量的二氧化钛。&lt;/p&gt;
+&lt;p&gt;三氧化二铝同时为绿宝石和蓝宝石的主要成分。&lt;/p&gt;
+&lt;p&gt;纯铝的硬度和强度较小，不适合制造机器零件等。向铝中加入少量合金元素，可制成铝合金。铝合金是目前用途广泛的合金之一。&lt;/p&gt;
+&lt;p&gt;硬铝中含铜、镁、锰、硅，它的密度小、强度高，具有较强的抗腐蚀能力，是制造飞机和宇宙飞船的理想材料。&lt;/p&gt;
+&lt;h3&gt;铝的化学性质&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;还原性：&lt;/p&gt;
+&lt;p&gt;| 氧化剂 | 反应方程式 |
+| :-: | :-: |
+| $\ce{O2}$ | $\ce{4Al + 3O2 -&amp;gt; 2Al2O3}$ |
+| $\ce{Cl2}$ | $\ce{2Al + 3Cl2 -&amp;gt; 2AlCl3}$ |
+| $\ce{S}$ | $\ce{2Al + 3S -&amp;gt; Al2S3}$ |&lt;/p&gt;
+&lt;p&gt;其中三氯...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/element/al/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/element/al/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/al/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/al.png" type="image/png" length="40732" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/al.png" type="image/png" length="34247" />
       
     </item>
     
     <item>
-      <title>卤族元素概述详解：氯气性质、反应机理与全应用场景</title>
+      <title>卤族元素概述</title>
       
       
       
       
-      <description>本文系统阐述卤族元素的物理化学性质，详细分析氯气的颜色、密度、溶解度及与金属、非金属的燃烧与置换反应，重点探讨氯气与水生成盐酸与次氯酸的平衡、氧化还原特性，以及工业制氯与废气处理的实际应用，并对比溴、碘的提取与反应路线</description>
+      <description>&lt;h1&gt;卤族元素概述&lt;/h1&gt;
+&lt;h2&gt;卤素性质概述&lt;/h2&gt;
+&lt;h3&gt;卤素物理性质&lt;/h3&gt;
+&lt;p&gt;卤族元素普遍在 $\ce{CCl4}$ 中溶解度大于水，相似相容。&lt;/p&gt;
+&lt;p&gt;卤族元素颜色：&lt;/p&gt;
+&lt;p&gt;| | 氯元素 $\ce{Cl}$ | 溴元素 $\ce{Br}$ | 碘元素 $\ce{I}$ |
+| :-: | :-: | :-: | :-: |
+| 单质 | 黄绿色气体 | 深红棕色气体 | 紫黑色固体 |
+| 卤化银沉淀 | 白色 | 淡黄色 | 黄色 |
+| 水溶液颜色 | 黄绿色 | 橙色 | 黄褐色 |
+| 四氯化碳溶液颜色 | 黄绿色 | 橙红色 | 紫红色 |&lt;/p&gt;
+&lt;p&gt;从上到下，熔沸点升高，非金属性减弱，与氢气反应依次减弱。&lt;/p&gt;
+&lt;p&gt;$$
+\ce{H2 + F2 -&amp;gt;[暗处爆炸] 2HF}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\ce{H2 + Cl2 -&amp;gt;[光照或点燃] 2HCl}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\ce{H2 + Br2 -&amp;gt;[加热] 2HBr}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\ce{H2 + I2 &amp;lt;=&amp;gt;[高温] 2HI}
+$$&lt;/p&gt;
+&lt;p&gt;氯气的物理性质：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;黄绿色气体。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;有刺激性气味。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;密度大于水。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;可溶于水。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;有毒。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;卤...&lt;/h3&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/element/cl/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/element/cl/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/cl/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/cl.png" type="image/png" length="46214" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/cl.png" type="image/png" length="33909" />
       
     </item>
     
     <item>
-      <title>过渡元素概述详解：铁的氧化机理与工业应用与检验</title>
+      <title>过渡元素概述</title>
       
       
       
       
-      <description>本文系统阐述铁的物理性质、化学反应及氧化物种类，重点分析铁与氧气、酸、水的反应机理，介绍铁盐与亚铁盐的溶解度差异、氧化还原行为及其在补铁剂中的应用，并说明高炉炼铁、实验检验及稀有金属的关键技术路线，文章还讨论了铁的氧化物分类、高炉炼铁流程、铁盐在酸碱条件下的水解与沉淀行为，以及补铁剂的无机、有机弱酸及螯合三代工艺，并涵盖 KSCN 检验、铁氰化物沉淀法等常用除杂手段。</description>
+      <description>&lt;h1&gt;过渡元素概述&lt;/h1&gt;
+&lt;h2&gt;铁单质&lt;/h2&gt;
+&lt;h3&gt;物理性质&lt;/h3&gt;
+&lt;p&gt;固体，铁块为银白色，铁粉为黑色。&lt;/p&gt;
+&lt;p&gt;常见形式为化合态，游离态存在于陨铁中。&lt;/p&gt;
+&lt;p&gt;有矿石：黄铁矿（$\ce{FeS2}$）、赤铁矿（$\ce{Fe2O3}$）、磁铁矿（$\ce{Fe3O4}$）、黄铜矿（$\ce{FeCuS2}$）。&lt;/p&gt;
+&lt;p&gt;不锈钢的合金元素主要是铬（$\ce{Cr}$）和镍（$\ce{Ni}$）。&lt;/p&gt;
+&lt;p&gt;碳素钢的分类：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;低碳钢（含碳量少于 $0.3\%$）：韧性好，焊接性好，强度低。用于制造钢丝、钢管、钢板等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;中碳钢（含碳量在 $0.3\%\sim0.6\%$）：强度高，韧性和加工性好。用于制造钢轨、车轮和建材等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;高碳钢（含碳量大于 $0.6\%$）：硬而脆。用于制造器械、弹簧和刀具等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;化学性质&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;与氧气反应：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;常温：$\ce{Fe + O2 + H2O -&amp;gt; Fe2O3*xH2O}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;点燃：$\ce{3Fe + 2O2 -&amp;gt;[点燃] Fe3O4}$，火星四射。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;与酸反应：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;与非氧化性酸反应：$\ce{Fe + 2H+ -&amp;gt; ...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/element/fe/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/element/fe/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/fe/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/fe.png" type="image/png" length="32987" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/fe.png" type="image/png" length="34173" />
       
     </item>
     
     <item>
-      <title>碱土金属概述详解：镁的化学性质与海水制备工业</title>
+      <title>碱土金属概述</title>
       
       
       
       
-      <description>本文系统阐述碱土金属中镁的化学行为，重点分析镁的燃烧反应机理、氧化物稳定性及在海水提取中的工艺路线。通过石灰乳沉淀、酸化溶解、电解熔融等步骤，详细描述从海水到金属镁的工业制备全过程，涵盖反应方程式、能量变化与工艺参数。</description>
+      <description>&lt;h1&gt;碱土金属概述&lt;/h1&gt;
+&lt;h2&gt;镁概述&lt;/h2&gt;
+&lt;h2&gt;镁的化学性质&lt;/h2&gt;
+&lt;p&gt;镁比较活泼，&lt;/p&gt;
+&lt;p&gt;$$
+\ce{2Mg + O2 = 2MgO}
+$$&lt;/p&gt;
+&lt;p&gt;这个反应剧烈发光发热，通常作为光源，引发氢气、氯气混合气体爆炸，或者作为热源，引发铝热反应。&lt;/p&gt;
+&lt;p&gt;镁也可以在二氧化碳中燃烧，置换出碳单质。&lt;/p&gt;
+&lt;p&gt;$$
+\ce{2Mg + CO2 = 2MgO + C}
+$$&lt;/p&gt;
+&lt;p&gt;氧化镁性质稳定，难溶、难熔，与氧化铝类似可以作为防火材料。&lt;/p&gt;
+&lt;h3&gt;海水制镁&lt;/h3&gt;
+&lt;p&gt;海水中富含镁离子，通常以 $\ce{MgSO4}$ 为主要存在形式。&lt;/p&gt;
+&lt;p&gt;我们向母液（提取粗盐后的海水）中加入石灰乳，产生氢氧化镁沉淀，过滤，加入足量稀盐酸，富集并在氯化氢氛围中蒸干，得到氯化镁固体，电解熔融氯化镁制取镁。&lt;/p&gt;
+&lt;h3&gt;工业应用与扩展&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;耐火材料&lt;/strong&gt;：$\ce{MgO}$ 具有极高的熔点（约 2852℃），是冶金炉衬、干电池填充剂的重要材料。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;有机合成&lt;/strong&gt;：镁单质可与卤代烃在无水乙醚中反应生成&lt;strong&gt;格氏试剂&lt;/strong&gt;（$\ce{R-MgX}$），是构建碳碳键的核心试剂。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;电石工业&lt;/strong&gt;：$\ce{CaC2}$（电石）遇水剧烈反应生成乙炔（$...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/element/mg/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/element/mg/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/mg/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/mg.png" type="image/png" length="47668" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/mg.png" type="image/png" length="33160" />
       
     </item>
     
     <item>
-      <title>氮族元素概述详解固氮机理与工业应用与生态全景</title>
+      <title>氮族元素概述</title>
       
       
       
       
-      <description>本文系统阐述氮族元素的固氮过程，包括自然高能固氮、生物固氮及工业哈伯法合成氨的反应原理、压强、温度、催化剂及气体配比的最佳条件。随后详细分析氮氧化物的物理性质、氧化还原反应路径及其在酸雨形成中的作用，并探讨氨气的溶解性、制取方法、化学性质及其在工业和实验室中的应用，最后介绍氮的其他重要化合物如氢氰酸、氰酸、异氰酸的结构、稳定性、酸性及工业用途，兼顾安全注意事项</description>
+      <description>&lt;h1&gt;氮族元素概述&lt;/h1&gt;
+&lt;h2&gt;氮气及固氮&lt;/h2&gt;
+&lt;h3&gt;固氮概述&lt;/h3&gt;
+&lt;p&gt;固氮的定义：从氮气 $\ce{N2}$ 到各种含氮化合物。&lt;/p&gt;
+&lt;p&gt;$$
+\ce{N2 -&amp;gt;[O2，闪电] NO -&amp;gt;[O2] NO2 -&amp;gt;[H2O] HNO3 -&amp;gt; 降雨}
+$$&lt;/p&gt;
+&lt;p&gt;酸雨的形成过程&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;自然固氮：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;高能固氮：闪电。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;生物固氮：豆科植物的根瘤菌。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;人工固氮：$\ce{N2 + 3H2 &amp;lt;=&amp;gt;[高温高压][催化剂] 2NH3}$（工业合成氨）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;工业合成氨&lt;/h3&gt;
+&lt;p&gt;反应原理：&lt;/p&gt;
+&lt;p&gt;$$
+\ce{N2(g) + 3H2(g) &amp;lt;=&amp;gt; 2NH3(g)}\quad\Delta H = \pu{-91.5kJ/mol}
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;压强效应：增大压强，反应向右移动。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;温度效应：降低温度，反应向右移动。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;哈伯法制氨的过程，即使高温会降低产率，温度仍被设定为较高值以保证反应的速率快速。对于这类放热并且反应速率随温度升高而升高的反应，一般都会取一个折中的反应温度。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;催化剂：铁触媒。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;温度：一般取催化剂的适宜温度，即约 $\pu{700K}$ 或约 $\pu{500^oC...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/element/n/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/element/n/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/n/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/n.png" type="image/png" length="44632" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/n.png" type="image/png" length="35118" />
       
     </item>
     
     <item>
-      <title>碱金属详解：钠的化学机制与应用场景全面解析</title>
+      <title>碱金属概述</title>
       
       
       
       
-      <description>本文系统阐述碱金属中钠的物理化学性质，重点分析其与氧气、水及酸的反应机理，包括氧化生成 Na₂O、Na₂O₂及过氧化钠的形成过程，并详细说明钠在冶金还原、高压钠灯及导热剂等实际应用的化学原理，兼顾实验现象与理论解释，适用于高中与大学化学学习，并探讨实验现象与应用前景。</description>
+      <description>&lt;h1&gt;碱金属概述&lt;/h1&gt;
+&lt;h2&gt;碱金属的性质&lt;/h2&gt;
+&lt;h3&gt;碱金属性质概述&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;碱金属大多为银白色固体（铯 Cs 略带金色）、密度小柔软、熔沸点低。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;按照从上到下，$\ce{Li,Na,K,Rb,Cs}$，熔沸点降低、密度增大（钾反常小），与氧气反应更加复杂。&lt;/p&gt;
+&lt;p&gt;$$
+\ce{Li + O2 -&amp;gt; LiO2}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\ce{Na + O2 -&amp;gt; Na2O, Na2O2}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\ce{K + O2 -&amp;gt; K2O, K2O2, KO2, KO3}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;对应的碱，除了氢氧化锂外均为强碱，且碱性依次增强。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;钠单质的物理性质&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;质软。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;银白色金属光泽。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;常温下是固态。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;密度比水小，比煤油大。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;熔点低。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;钠单质的化学性质&lt;/h2&gt;
+&lt;h3&gt;钠与氧气的反应&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;常温：迅速被氧化为 $\ce{Na2O}$，失去金属光泽。&lt;/p&gt;
+&lt;p&gt;$$
+\ce{4Na + O2 -&amp;gt; 2Na2O}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;加热：先熔化后燃烧，发出黄色火焰，生成淡黄色...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/element/na/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/element/na/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/na/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/na.png" type="image/png" length="57756" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/na.png" type="image/png" length="32774" />
       
     </item>
     
     <item>
-      <title>硫族元素概述详解：氧化机制与工业制酸广泛应用</title>
+      <title>氧族元素概述</title>
       
       
       
       
-      <description>本文系统阐述硫的物理性质、氧化还原反应及其氧化物的化学行为，重点分析硫单质的同素异形体、与金属的直接合成、二氧化硫的酸碱反应及其氧化还原特性，进而描述三氧化硫的升华特性、浓硫酸的强氧化与脱水作用以及工业制硫酸的多步法流程，并指出硫代硫酸钠在滴定中的应用及酸雨形成机制，为高校化学与高中理化提供深度解析。</description>
+      <description>&lt;h1&gt;氧族元素概述&lt;/h1&gt;
+&lt;h2&gt;硫单质&lt;/h2&gt;
+&lt;h3&gt;硫单质的物理性质&lt;/h3&gt;
+&lt;p&gt;游离态主要存在于火山口，化合态包括硫酸盐和硫化物。&lt;/p&gt;
+&lt;p&gt;常见的含硫矿石：黄铁矿（$\ce{FeS2}$）、黄铜矿（$\ce{FeCuS2}$）、辰砂朱砂（$\ce{HgS}$）、雄黄（$\ce{As4S4}$）、雌黄（$\ce{As2S3}$）、芒硝（$\ce{Na2SO4&lt;em&gt;10H2O}$）、生石膏（$\ce{2CaSO4&lt;/em&gt;H2O}$）、熟石膏（$\ce{CaSO4*2H2O}$）。&lt;/p&gt;
+&lt;p&gt;硫（硫磺）为黄色到浅黄色固体，存在同素异形体（正交硫、单斜硫）：$\ce{S2,S4,S6,S8}$。&lt;/p&gt;
+&lt;p&gt;不溶于水、微溶于酒精、易溶于二硫化碳（$\ce{CS2}$），因此常用二硫化碳洗涤试管上的硫磺，硫单质在水溶液中的反应通常先用酒精浸泡硫磺。&lt;/p&gt;
+&lt;h3&gt;硫的化学性质&lt;/h3&gt;
+&lt;p&gt;硫单质的氧化性：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;与金属反应：生成较低价硫化物。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;$\ce{2Na + S -&amp;gt;[研磨] Na2S}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\ce{Fe + S -&amp;gt;[\triangle] FeS}$（黑色固体）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\ce{Cu + S -&amp;gt;[\tr...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/element/s/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/element/s/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/s/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/s.png" type="image/png" length="44836" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/s.png" type="image/png" length="34497" />
       
     </item>
     
     <item>
-      <title>碳族元素概述详解：硅单质物性与工业制取全面解析</title>
+      <title>碳族元素概述</title>
       
       
       
       
-      <description>本文系统阐释硅的物理性质、化学反应及工业制取全流程，重点分析晶体硅的晶体结构、与强碱及氢氟酸的反应机理、粗硅到纯硅的还原路线以及硅氯化物转化为纯硅的步骤，并延伸至二氧化硅、硅酸及硅酸盐在玻璃、陶瓷、金刚砂等领域的应用，为高中与大学化学学习提供完整技术框架。</description>
+      <description>&lt;h1&gt;碳族元素概述&lt;/h1&gt;
+&lt;h2&gt;硅单质&lt;/h2&gt;
+&lt;h3&gt;硅的物理性质&lt;/h3&gt;
+&lt;p&gt;硅有同素异形体：晶体硅、无定形硅。下文除非特殊说明，默认指晶体硅。&lt;/p&gt;
+&lt;p&gt;硅为灰黑色固体，熔沸点高，自然界中主要存在形式为硅酸盐和二氧化硅。&lt;/p&gt;
+&lt;p&gt;硅是现在使用最多的半导体材料，曾经最早使用的是锗 $\ce{Ge}$。&lt;/p&gt;
+&lt;h3&gt;硅的化学性质&lt;/h3&gt;
+&lt;p&gt;与强碱反应：&lt;/p&gt;
+&lt;p&gt;$$
+\ce{Si + 2NaOH + H2O -&amp;gt; Na2SiO3 + 2H2 ^}
+$$&lt;/p&gt;
+&lt;p&gt;与 $\ce{HF}$（唯一可以溶解硅的酸）：&lt;/p&gt;
+&lt;p&gt;$$
+\ce{Si + 4HF -&amp;gt; SiF4 ^ + 2H2 ^}
+$$&lt;/p&gt;
+&lt;h3&gt;硅的工业制取&lt;/h3&gt;
+&lt;p&gt;粗硅的制备：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;$\ce{SiO2 + 2C -&amp;gt;[高温] Si(粗硅) + 2CO}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;注意：此处碳做还原剂，不能说明碳的非金属性比硅强。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;纯硅的制备：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;$\ce{Si + 2Cl2 -&amp;gt;[高温] SiCl4}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\ce{SiCl4 + 2H2 -&amp;gt;[高温] Si(粗硅) + 4HCl}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;总结如下：&lt;/p&gt;
+&lt;p&gt;$$
+\ce{SiO2 -&amp;gt;[C][高温] Si(粗硅) -&amp;gt;[Cl2] SiCl4 -&amp;gt;...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/element/si/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/element/si/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/si/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/si.png" type="image/png" length="46960" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/si.png" type="image/png" length="34845" />
       
     </item>
     
@@ -3045,70 +3403,177 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>物理学史详解：时空统一机制与实验技术全应用解析</title>
+      <title>物理方法</title>
       
       
       
       
-      <description>本文系统梳理物理学从古代自然哲学到现代实验技术的演进脉络，重点解析牛顿力学统一、电磁场理论、量子假设及相对论的核心原理，并阐述量纲分析在长度、质量、功率等物理量测量中的应用方法。除此之外，文章还详细阐述了刻度尺、游标卡尺、螺旋测微器及打点计时器等常用测量工具的原理与误差控制技巧，帮助学生掌握科学实验的基本步骤。</description>
+      <description>&lt;h1&gt;物理方法&lt;/h1&gt;
+&lt;h2&gt;物理学史&lt;/h2&gt;
+&lt;p&gt;| 时期 | 关键人物与事件 | 科学意义与贡献 |
+| :--- | :--- | :--- |
+| &lt;strong&gt;古代&lt;/strong&gt; | 亚里士多德（Aristotle）提出落体论；泰勒斯（Thalēs）发现琥珀吸物；我国古人发明司南及论述“顿牟掇芥” | 物理学的萌芽时期，初步探索自然现象及其背后的逻辑。 |
+| &lt;strong&gt;16-17 世纪&lt;/strong&gt; | 哥白尼（Copernicus）发表《天体运行论》（1543）；伽利略（Galileo）研究落体运动与理想斜面实验（1638） | 标志着现代意义物理学的正式诞生；确立了实验与逻辑推理相结合的研究方法。 |
+| | 开普勒（Kepler）发现行星运动三定律（1609-1619）；牛顿（Newton）发表《自然哲学的数学原理》（1687） | 建立了系统性的力学理论，实现了天体与地面物体运动规律的统一。 |
+| | 惠更斯（Huygens）确定单摆周期公式（1656）；玻意耳（Boyle）发现气体定律（1662） | 推动了动力学和实验技术的发展，确立了波动学说基础。 |
+| &lt;strong&gt;18 世纪&lt;/strong&gt; | 富兰克林（Frankli...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/kinematics/1/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/kinematics/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/1.png" type="image/png" length="44345" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/1.png" type="image/png" length="29897" />
       
     </item>
     
     <item>
-      <title>直线运动详解匀加速与匀减速的力学原理与应用场景</title>
+      <title>直线运动</title>
       
       
       
       
-      <description>本文系统阐述直线运动的基本概念，包括位移、速度、加速度的定义与极限求法，重点推导匀变速直线运动的五大运动学公式，并通过逐差法、函数法与图像法展示求解位移与加速度的实用技巧，配合实例解析加速段与减速段的时间求解，适用于高中理综与大学力学入门。</description>
+      <description>&lt;h1&gt;直线运动&lt;/h1&gt;
+&lt;h2&gt;相关定义&lt;/h2&gt;
+&lt;h3&gt;位移&lt;/h3&gt;
+&lt;p&gt;如果质点做直线运动，我们可以取运动直线为坐标轴，设正方向为 $x$ 方向。&lt;/p&gt;
+&lt;p&gt;质点位置：&lt;/p&gt;
+&lt;p&gt;$$
+x=x(t)
+$$&lt;/p&gt;
+&lt;p&gt;质点的位移：&lt;/p&gt;
+&lt;p&gt;$$
+\Delta x=x(t+\Delta t)-x(t)
+$$&lt;/p&gt;
+&lt;h3&gt;速度&lt;/h3&gt;
+&lt;p&gt;质点的平均速度定义为：&lt;/p&gt;
+&lt;p&gt;$$
+\bar v=\dfrac{\Delta v}{\Delta t}
+$$&lt;/p&gt;
+&lt;p&gt;平均速度是反映质点运动快慢与运动方向的物理量，而且是较为粗糙的反映 $\Delta t$ 时间段内运动的平均快慢和方向。如果要精确的描述质点在各时刻运动的快慢和方向，需取 $\Delta t\to0$ 的极限：&lt;/p&gt;
+&lt;p&gt;$$
+v=\lim_{\Delta t\to0}\dfrac{\Delta v}{\Delta t}
+$$&lt;/p&gt;
+&lt;p&gt;做直线运动的质点的位置随时间变化的关系，可以在 $x-t$ 坐标中用一条曲线（称为位置图线）来表示。速度等于过曲线上一点切线的斜率，它是位置对时间的瞬时变化率。&lt;/p&gt;
+&lt;p&gt;于是，平均速度：&lt;/p&gt;
+&lt;p&gt;$$
+\bar v=\dfrac{x(t+\Delta t)-x(t)}{\Delta t}=\tan\a...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/kinematics/2/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/kinematics/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/2.png" type="image/png" length="45531" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/2.png" type="image/png" length="30518" />
       
     </item>
     
     <item>
-      <title>抛体运动详解：匀变速曲线与极限射程案例全解</title>
+      <title>抛体运动</title>
       
       
       
       
-      <description>本文系统阐述抛体运动的曲线特性、匀变速分解与极限射程计算，涵盖平面平抛、斜抛、斜面斜抛及包络线方程，详细推导轨迹方程、最高点、射程与最大高度，并结合关联速度与接触关联原理，提供从基础概念到典型例题的完整技术路线。</description>
+      <description>&lt;h1&gt;抛体运动&lt;/h1&gt;
+&lt;h2&gt;曲线运动概述&lt;/h2&gt;
+&lt;h3&gt;曲线运动特点&lt;/h3&gt;
+&lt;p&gt;条件：$v,a$ 不共线。&lt;/p&gt;
+&lt;p&gt;特点：瞬时速度方向等于轨迹切线方向，证明：&lt;/p&gt;
+&lt;p&gt;$$
+\dfrac{v_y}{v_x}=\dfrac{\d y}{\d t}\cdot\dfrac{\d t}{\d x}=\dfrac{\d y}{\d x}
+$$&lt;/p&gt;
+&lt;p&gt;合速度加在 $a,v$ 之间，向 $a$ 靠拢，但不会和 $a$ 共线。&lt;/p&gt;
+&lt;p&gt;合运动类型：&lt;/p&gt;
+&lt;p&gt;| | 匀速直线运动 | 匀加速直线运动 |
+| :-: | :-: | :-: |
+| &lt;strong&gt;匀速直线运动&lt;/strong&gt; | 匀速直线运动 | 曲线运动 |
+| &lt;br&gt;&lt;strong&gt;匀加速直线运动&lt;/strong&gt; | &lt;br&gt;曲线运动 | 若 $v_合 $ 与 $a_合 $ 共线则为匀加速直线运动&lt;br&gt;否则为曲线运动 |&lt;/p&gt;
+&lt;h3&gt;小船过河问题&lt;/h3&gt;
+&lt;p&gt;&lt;img alt=&#34;过河问题&#34; src=&#34;./过河问题.avif&#34;&gt;{ align=right width=&#34;40%&#34; }&lt;/p&gt;
+&lt;p&gt;如果船速大于水速：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;垂直河对岸：时间最短。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;斜向上、合速度指向对岸：位移最短。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果船速小于水速：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;垂直河对岸：时间最短。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;斜向上、位与圆的切线：位...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/kinematics/3/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/kinematics/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/3.png" type="image/png" length="46730" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/3.png" type="image/png" length="30373" />
       
     </item>
     
     <item>
-      <title>圆周运动详解：向心力机制与典型应用场景全解析</title>
+      <title>圆周运动</title>
       
       
       
       
-      <description>本文系统阐述圆周运动的基本物理量定义，包括线速度、角速度、周期、频率及转速，并推导匀速圆周运动的关键关系 v=ωr、a=vω。进一步分析向心力 F_c=mv^2/r 与向心加速度 a_c=v^2/r 的来源，详细列出列表法求解多圈运动的表格方法，解释传送带、绳杆等关联速度情形，并深入探讨牛顿第二定律在圆锥摆、圆盘模型中的应用，涵盖临界角速度、摩擦极限及多物体协同运动的数学推导。</description>
+      <description>&lt;h1&gt;圆周运动&lt;/h1&gt;
+&lt;h2&gt;圆周运动相关定义&lt;/h2&gt;
+&lt;h3&gt;物理量&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;线速度：单位时间通过的弧长，$v(\mathrm{m/s})$；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;角速度：单位时间通过的角度，$\omega(\mathrm{rad/s})$；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;周期：完成一次的时间，$T(\mathrm{s})$；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;频率：单位时间完成的次数：$f(\mathrm{s^{-1},Hz})$；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;转速：单位时间完成的圈数：$n(\mathrm{r/s})$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;匀速圆周运动&lt;/h3&gt;
+&lt;p&gt;$$
+T=\dfrac{2\pi r}{v}=\dfrac{2\pi}{\omega}
+$$&lt;/p&gt;
+&lt;p&gt;推导出来：&lt;/p&gt;
+&lt;p&gt;$$
+v=\omega r
+$$&lt;/p&gt;
+&lt;p&gt;即速度（$v$）在（$=$）绕（$r$）弯（$\omega$）。&lt;/p&gt;
+&lt;p&gt;$$
+f=n=\dfrac{1}{T}
+$$&lt;/p&gt;
+&lt;h3&gt;向心力和向心加速度&lt;/h3&gt;
+&lt;p&gt;向心力：&lt;/p&gt;
+&lt;p&gt;$$
+F_c=\dfrac{mv^2}{r}=m\omega^2r=mv\omega
+$$&lt;/p&gt;
+&lt;p&gt;向心加速度：&lt;/p&gt;
+&lt;p&gt;$$
+a_c=\dfrac{v^2}{r}=\omega^2r=v\omega
+$$&lt;/p&gt;
+&lt;h2&gt;圆周运动解题思路&lt;/h2&gt;
+&lt;p&gt;...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/kinematics/4/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/kinematics/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/kinematics/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/4.png" type="image/png" length="28373" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/kinematics/4.png" type="image/png" length="29365" />
       
     </item>
     
