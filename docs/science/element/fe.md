@@ -307,7 +307,7 @@
 - **催化应用**：$\ce{V2O5}$ 是接触法制硫酸中 $\ce{SO2}$ 氧化的核心催化剂。
 
 - **变价与颜色**：
-  $\ce{VO2^+}$（黄，+5）$\r\rightarrow$ $\ce{VO^2+}$（蓝，+4）$\r\rightarrow$ $\ce{V^3+}$（绿，+3）$\r\rightarrow$ $\ce{V^2+}$（紫，+2）。
+  $\ce{VO2^+}$（黄，+5）$\rightarrow$ $\ce{VO^2+}$（蓝，+4）$\rightarrow$ $\ce{V^3+}$（绿，+3）$\rightarrow$ $\ce{V^2+}$（紫，+2）。
 
 ## 铬（Cr）
 
