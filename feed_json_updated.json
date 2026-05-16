@@ -13,6 +13,28 @@
     "language": "zh",
     "items": [
         {
+            "id": "https://raineblog-whk.pages.dev/science/function/3/",
+            "url": "https://raineblog-whk.pages.dev/science/function/3/",
+            "title": "\u5747\u503c\u4e0d\u7b49\u5f0f",
+            "content_html": "<h1>\u5747\u503c\u4e0d\u7b49\u5f0f</h1>\n<h2>\u7b80\u5355\u4e0d\u7b49\u5f0f</h2>\n<h3>\u4e00\u822c\u4e0d\u7b49\u5f0f</h3>\n<p>\u7cd6\u6c34\u4e0d\u7b49\u5f0f\uff1a</p>\n<p>$$\na&gt;b&gt;0,m&gt;0\\implies\\dfrac{b+m}{a+m}&gt;\\dfrac{b}{a}\n$$</p>\n<p>\u4e0d\u7b49\u5f0f\u52a0\u6cd5\uff1a</p>\n<p>$$\na&gt;b,c&gt;d\\implies a+c&gt;b+d\n$$</p>\n<p>\u4e0d\u7b49\u5f0f\u51cf\u6cd5\uff1a</p>\n<p>$$\na&gt;b,c<d\\implies a-c>b-d\n$$</p>\n<p>\u4e0d\u7b49\u5f0f\u8054\u7acb\uff1a</p>\n<p>$$\n\\begin{cases}\na_1&lt;x+y&lt;a_2\\\nb_1&lt;x-y&lt;b_2\n\\end{cases}\\implies\\begin{cases}\na_1+b_1&lt;2x&lt;a_2+b_2\\\na_1-b_1&lt;2y&lt;a_2-b_2\n\\end{cases}\n$$</p>\n<p>\u7b49\u5f0f\u7684\u6027\u8d28\u200b\uff1a</p>\n<ul>\n<li>$a=a$\uff08\u81ea\u53cd\u6027\uff09</li>\n<li>\u200c$a=b\\Rightarrow b=a$\uff08\u5bf9\u79f0\u6027\uff09</li>\n<li>$a=b,b=c\\Rightarrow a=c$\uff08\u4f20\u9012\u6027\uff09</li>\n<li>$a=b\\Rightarrow a\\pm c=b\\pm c,ac=bc,\\frac{a}{c}=\\frac{b}{c}$\uff08$c\\neq 0$\uff09\uff08\u66ff\u4ee3\u6027\uff09</li>\n<li>\u66ff\u4ee3\u6027\uff1a\u5982\u679c\u4e24\u4e2a\u5bf9\u8c61\u76f8\u7b49\uff0c\u90a3\u4e48\u5728\u4efb\u4f55\u51fa\u73b0\u5b83\u4eec\u7684...</li>\n</ul>",
+            "image": "https://raineblog-whk.pages.dev/assets/images/social/science/function/3.png",
+            "date_modified": "2026-05-16T11:29:00+00:00",
+            "date_published": "2025-07-21T03:49:00+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
+            "id": "https://raineblog-whk.pages.dev/science/function/6/",
+            "url": "https://raineblog-whk.pages.dev/science/function/6/",
+            "title": "\u4e0d\u7b49\u5f0f\u8fdb\u9636\u62d3\u5c55",
+            "content_html": "<h1>\u4e0d\u7b49\u5f0f\u8fdb\u9636\u62d3\u5c55</h1>\n<h2>\uff08\u4e8c\uff09\u67ef\u897f-\u65bd\u74e6\u8328\u4e0d\u7b49\u5f0f</h2>\n<h3>\u7b80\u5316\u5f62\u5f0f</h3>\n<p>\u5bf9\u4e8e\u5b9e\u6570 $a_1,a_2,b_1,b_2$\uff1a</p>\n<p>$$\n(a_1^2+a_2^2)(b_1^2+b_2^2)\\ge(a_1b_1+a_2b_2)^2\n$$</p>\n<p>\u8bc1\u660e\uff1a</p>\n<p>$$\n\\begin{aligned}\n&amp;a_1^2b_2^2+a_2^2b_1^2\\ge 2a_1b_1a_2b_2\\\n\\Leftrightarrow\\;&amp;a_1^2b_1^2+a_2^2b_2^2+a_1^2b_2^2+a_2^2b_1^2\\ge a_1^2b_1^2+a_2^2b_2^2+2a_1b_1a_2b_2\\\n\\Leftrightarrow\\;&amp;(a_1^2+a_2^2)(b_1^2+b_2^2)\\ge(a_1b_1+a_2b_2)^2\n\\end{aligned}\n$$</p>\n<p>\u53d6\u7b49\u6761\u4ef6\uff1a</p>\n<p>$$\n{a_1\\over b_1}={a_2\\over b_2}\n$$</p>\n<h3>\u4e00\u822c\u5f62\u5f0f</h3>\n<p>\u5bf9\u4e8e\u5b9e\u6570\u5e8f\u5217 $a,b$\uff1a</p>\n<p>$$\n\\sum_{i=1}^na_i^2\\sum_{i=1}^nb_i^2\\ge\\left(\\sum_{i=1}^na...</p>",
+            "image": "https://raineblog-whk.pages.dev/assets/images/social/science/function/6.png",
+            "date_modified": "2026-05-16T11:29:00+00:00",
+            "date_published": "2026-03-14T13:17:00+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
             "id": "https://raineblog-whk.pages.dev/science/element/cl/",
             "url": "https://raineblog-whk.pages.dev/science/element/cl/",
             "title": "\u5364\u65cf\u5143\u7d20\u6982\u8ff0\u8be6\u89e3\uff1a\u6c2f\u6c14\u6027\u8d28\u3001\u53cd\u5e94\u673a\u7406\u4e0e\u5168\u5e94\u7528\u573a\u666f",
@@ -739,17 +761,6 @@
             "tags": null
         },
         {
-            "id": "https://raineblog-whk.pages.dev/science/function/3/",
-            "url": "https://raineblog-whk.pages.dev/science/function/3/",
-            "title": "\u5747\u503c\u4e0d\u7b49\u5f0f",
-            "content_html": "<h1>\u5747\u503c\u4e0d\u7b49\u5f0f</h1>\n<h2>\u7b80\u5355\u4e0d\u7b49\u5f0f</h2>\n<h3>\u4e00\u822c\u4e0d\u7b49\u5f0f</h3>\n<p>\u7cd6\u6c34\u4e0d\u7b49\u5f0f\uff1a</p>\n<p>$$\na&gt;b&gt;0,m&gt;0\\implies\\dfrac{b+m}{a+m}&gt;\\dfrac{b}{a}\n$$</p>\n<p>\u4e0d\u7b49\u5f0f\u52a0\u6cd5\uff1a</p>\n<p>$$\na&gt;b,c&gt;d\\implies a+c&gt;b+d\n$$</p>\n<p>\u4e0d\u7b49\u5f0f\u51cf\u6cd5\uff1a</p>\n<p>$$\na&gt;b,c<d\\implies a-c>b-d\n$$</p>\n<p>\u4e0d\u7b49\u5f0f\u8054\u7acb\uff1a</p>\n<p>$$\n\\begin{cases}\na_1&lt;x+y&lt;a_2\\\nb_1&lt;x-y&lt;b_2\n\\end{cases}\\implies\\begin{cases}\na_1+b_1&lt;2x&lt;a_2+b_2\\\na_1-b_1&lt;2y&lt;a_2-b_2\n\\end{cases}\n$$</p>\n<p>\u7b49\u5f0f\u7684\u6027\u8d28\u200b\uff1a</p>\n<ul>\n<li>$a=a$\uff08\u81ea\u53cd\u6027\uff09</li>\n<li>\u200c$a=b\\Rightarrow b=a$\uff08\u5bf9\u79f0\u6027\uff09</li>\n<li>$a=b,b=c\\Rightarrow a=c$\uff08\u4f20\u9012\u6027\uff09</li>\n<li>$a=b\\Rightarrow a\\pm c=b\\pm c,ac=bc,\\frac{a}{c}=\\frac{b}{c}$\uff08$c\\neq 0$\uff09\uff08\u66ff\u4ee3\u6027\uff09</li>\n<li>\u66ff\u4ee3\u6027\uff1a\u5982\u679c\u4e24\u4e2a\u5bf9\u8c61\u76f8\u7b49\uff0c\u90a3\u4e48\u5728\u4efb\u4f55\u51fa\u73b0\u5b83\u4eec\u7684...</li>\n</ul>",
-            "image": "https://raineblog-whk.pages.dev/assets/images/social/science/function/3.png",
-            "date_modified": "2026-04-05T08:59:00+00:00",
-            "date_published": "2025-07-21T03:49:00+00:00",
-            "authors": [],
-            "tags": null
-        },
-        {
             "id": "https://raineblog-whk.pages.dev/science/function/4/",
             "url": "https://raineblog-whk.pages.dev/science/function/4/",
             "title": "\u5bfc\u6570\u4e0e\u4e0d\u7b49\u5f0f",
@@ -911,17 +922,6 @@
             "image": "https://raineblog-whk.pages.dev/assets/images/social/science/function/1.png",
             "date_modified": "2026-03-31T13:44:00+00:00",
             "date_published": "2025-05-18T09:51:00+00:00",
-            "authors": [],
-            "tags": null
-        },
-        {
-            "id": "https://raineblog-whk.pages.dev/science/function/6/",
-            "url": "https://raineblog-whk.pages.dev/science/function/6/",
-            "title": "\u4e0d\u7b49\u5f0f\u8fdb\u9636\u62d3\u5c55",
-            "content_html": "<h1>\u4e0d\u7b49\u5f0f\u8fdb\u9636\u62d3\u5c55</h1>\n<h2>\uff08\u4e8c\uff09\u67ef\u897f-\u65bd\u74e6\u8328\u4e0d\u7b49\u5f0f</h2>\n<h3>\u7b80\u5316\u5f62\u5f0f</h3>\n<p>\u5bf9\u4e8e\u5b9e\u6570 $a_1,a_2,b_1,b_2$\uff1a</p>\n<p>$$\n(a_1^2+a_2^2)(b_1^2+b_2^2)\\ge(a_1b_1+a_2b_2)^2\n$$</p>\n<p>\u8bc1\u660e\uff1a</p>\n<p>$$\n\\begin{aligned}\n&amp;a_1^2b_2^2+a_2^2b_1^2\\ge 2a_1b_1a_2b_2\\\n\\Leftrightarrow\\;&amp;a_1^2b_1^2+a_2^2b_2^2+a_1^2b_2^2+a_2^2b_1^2\\ge a_1^2b_1^2+a_2^2b_2^2+2a_1b_1a_2b_2\\\n\\Leftrightarrow\\;&amp;(a_1^2+a_2^2)(b_1^2+b_2^2)\\ge(a_1b_1+a_2b_2)^2\n\\end{aligned}\n$$</p>\n<p>\u53d6\u7b49\u6761\u4ef6\uff1a</p>\n<p>$$\n{a_1\\over b_1}={a_2\\over b_2}\n$$</p>\n<h3>\u4e00\u822c\u5f62\u5f0f</h3>\n<p>\u5bf9\u4e8e\u5b9e\u6570\u5e8f\u5217 $a,b$\uff1a</p>\n<p>$$\n\\sum_{i=1}^na_i^2\\sum_{i=1}^nb_i^2\\ge\\left(\\sum_{i=1}^na...</p>",
-            "image": "https://raineblog-whk.pages.dev/assets/images/social/science/function/6.png",
-            "date_modified": "2026-03-31T13:44:00+00:00",
-            "date_published": "2026-03-14T13:17:00+00:00",
             "authors": [],
             "tags": null
         },
