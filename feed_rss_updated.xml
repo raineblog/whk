@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 11 May 2026 02:28:29 -0000</pubDate>
-    <lastBuildDate>Mon, 11 May 2026 02:28:29 -0000</lastBuildDate>
+    <pubDate>Sat, 16 May 2026 11:30:11 -0000</pubDate>
+    <lastBuildDate>Sat, 16 May 2026 11:30:11 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,94 @@
     
 
     
+    
+    <item>
+      <title>均值不等式</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;均值不等式&lt;/h1&gt;
+&lt;h2&gt;简单不等式&lt;/h2&gt;
+&lt;h3&gt;一般不等式&lt;/h3&gt;
+&lt;p&gt;糖水不等式：&lt;/p&gt;
+&lt;p&gt;$$
+a&amp;gt;b&amp;gt;0,m&amp;gt;0\implies\dfrac{b+m}{a+m}&amp;gt;\dfrac{b}{a}
+$$&lt;/p&gt;
+&lt;p&gt;不等式加法：&lt;/p&gt;
+&lt;p&gt;$$
+a&amp;gt;b,c&amp;gt;d\implies a+c&amp;gt;b+d
+$$&lt;/p&gt;
+&lt;p&gt;不等式减法：&lt;/p&gt;
+&lt;p&gt;$$
+a&amp;gt;b,c&lt;d\implies a-c&gt;b-d
+$$&lt;/p&gt;
+&lt;p&gt;不等式联立：&lt;/p&gt;
+&lt;p&gt;$$
+\begin{cases}
+a_1&amp;lt;x+y&amp;lt;a_2\
+b_1&amp;lt;x-y&amp;lt;b_2
+\end{cases}\implies\begin{cases}
+a_1+b_1&amp;lt;2x&amp;lt;a_2+b_2\
+a_1-b_1&amp;lt;2y&amp;lt;a_2-b_2
+\end{cases}
+$$&lt;/p&gt;
+&lt;p&gt;等式的性质​：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$a=a$（自反性）&lt;/li&gt;
+&lt;li&gt;‌$a=b\Rightarrow b=a$（对称性）&lt;/li&gt;
+&lt;li&gt;$a=b,b=c\Rightarrow a=c$（传递性）&lt;/li&gt;
+&lt;li&gt;$a=b\Rightarrow a\pm c=b\pm c,ac=bc,\frac{a}{c}=\frac{b}{c}$（$c\neq 0$）（替代性）&lt;/li&gt;
+&lt;li&gt;替代性：如果两个对象相等，那么在任何出现它们的...&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/function/3/</link>
+      <pubDate>Sat, 16 May 2026 11:29:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/function/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/3.png" type="image/png" length="30355" />
+      
+    </item>
+    
+    <item>
+      <title>不等式进阶拓展</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;不等式进阶拓展&lt;/h1&gt;
+&lt;h2&gt;（二）柯西-施瓦茨不等式&lt;/h2&gt;
+&lt;h3&gt;简化形式&lt;/h3&gt;
+&lt;p&gt;对于实数 $a_1,a_2,b_1,b_2$：&lt;/p&gt;
+&lt;p&gt;$$
+(a_1^2+a_2^2)(b_1^2+b_2^2)\ge(a_1b_1+a_2b_2)^2
+$$&lt;/p&gt;
+&lt;p&gt;证明：&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+&amp;amp;a_1^2b_2^2+a_2^2b_1^2\ge 2a_1b_1a_2b_2\
+\Leftrightarrow\;&amp;amp;a_1^2b_1^2+a_2^2b_2^2+a_1^2b_2^2+a_2^2b_1^2\ge a_1^2b_1^2+a_2^2b_2^2+2a_1b_1a_2b_2\
+\Leftrightarrow\;&amp;amp;(a_1^2+a_2^2)(b_1^2+b_2^2)\ge(a_1b_1+a_2b_2)^2
+\end{aligned}
+$$&lt;/p&gt;
+&lt;p&gt;取等条件：&lt;/p&gt;
+&lt;p&gt;$$
+{a_1\over b_1}={a_2\over b_2}
+$$&lt;/p&gt;
+&lt;h3&gt;一般形式&lt;/h3&gt;
+&lt;p&gt;对于实数序列 $a,b$：&lt;/p&gt;
+&lt;p&gt;$$
+\sum_{i=1}^na_i^2\sum_{i=1}^nb_i^2\ge\left(\sum_{i=1}^na...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/function/6/</link>
+      <pubDate>Sat, 16 May 2026 11:29:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/function/6/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/6/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/6.png" type="image/png" length="33614" />
+      
+    </item>
     
     <item>
       <title>卤族元素概述详解：氯气性质、反应机理与全应用场景</title>
@@ -1566,55 +1654,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>均值不等式</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;均值不等式&lt;/h1&gt;
-&lt;h2&gt;简单不等式&lt;/h2&gt;
-&lt;h3&gt;一般不等式&lt;/h3&gt;
-&lt;p&gt;糖水不等式：&lt;/p&gt;
-&lt;p&gt;$$
-a&amp;gt;b&amp;gt;0,m&amp;gt;0\implies\dfrac{b+m}{a+m}&amp;gt;\dfrac{b}{a}
-$$&lt;/p&gt;
-&lt;p&gt;不等式加法：&lt;/p&gt;
-&lt;p&gt;$$
-a&amp;gt;b,c&amp;gt;d\implies a+c&amp;gt;b+d
-$$&lt;/p&gt;
-&lt;p&gt;不等式减法：&lt;/p&gt;
-&lt;p&gt;$$
-a&amp;gt;b,c&lt;d\implies a-c&gt;b-d
-$$&lt;/p&gt;
-&lt;p&gt;不等式联立：&lt;/p&gt;
-&lt;p&gt;$$
-\begin{cases}
-a_1&amp;lt;x+y&amp;lt;a_2\
-b_1&amp;lt;x-y&amp;lt;b_2
-\end{cases}\implies\begin{cases}
-a_1+b_1&amp;lt;2x&amp;lt;a_2+b_2\
-a_1-b_1&amp;lt;2y&amp;lt;a_2-b_2
-\end{cases}
-$$&lt;/p&gt;
-&lt;p&gt;等式的性质​：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;$a=a$（自反性）&lt;/li&gt;
-&lt;li&gt;‌$a=b\Rightarrow b=a$（对称性）&lt;/li&gt;
-&lt;li&gt;$a=b,b=c\Rightarrow a=c$（传递性）&lt;/li&gt;
-&lt;li&gt;$a=b\Rightarrow a\pm c=b\pm c,ac=bc,\frac{a}{c}=\frac{b}{c}$（$c\neq 0$）（替代性）&lt;/li&gt;
-&lt;li&gt;替代性：如果两个对象相等，那么在任何出现它们的...&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/function/3/</link>
-      <pubDate>Sun, 05 Apr 2026 08:59:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/function/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/3.png" type="image/png" length="30355" />
-      
-    </item>
-    
-    <item>
       <title>导数与不等式</title>
       
       
@@ -2048,45 +2087,6 @@ f...&lt;/p&gt;</description>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/1/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/1.png" type="image/png" length="34410" />
-      
-    </item>
-    
-    <item>
-      <title>不等式进阶拓展</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;不等式进阶拓展&lt;/h1&gt;
-&lt;h2&gt;（二）柯西-施瓦茨不等式&lt;/h2&gt;
-&lt;h3&gt;简化形式&lt;/h3&gt;
-&lt;p&gt;对于实数 $a_1,a_2,b_1,b_2$：&lt;/p&gt;
-&lt;p&gt;$$
-(a_1^2+a_2^2)(b_1^2+b_2^2)\ge(a_1b_1+a_2b_2)^2
-$$&lt;/p&gt;
-&lt;p&gt;证明：&lt;/p&gt;
-&lt;p&gt;$$
-\begin{aligned}
-&amp;amp;a_1^2b_2^2+a_2^2b_1^2\ge 2a_1b_1a_2b_2\
-\Leftrightarrow\;&amp;amp;a_1^2b_1^2+a_2^2b_2^2+a_1^2b_2^2+a_2^2b_1^2\ge a_1^2b_1^2+a_2^2b_2^2+2a_1b_1a_2b_2\
-\Leftrightarrow\;&amp;amp;(a_1^2+a_2^2)(b_1^2+b_2^2)\ge(a_1b_1+a_2b_2)^2
-\end{aligned}
-$$&lt;/p&gt;
-&lt;p&gt;取等条件：&lt;/p&gt;
-&lt;p&gt;$$
-{a_1\over b_1}={a_2\over b_2}
-$$&lt;/p&gt;
-&lt;h3&gt;一般形式&lt;/h3&gt;
-&lt;p&gt;对于实数序列 $a,b$：&lt;/p&gt;
-&lt;p&gt;$$
-\sum_{i=1}^na_i^2\sum_{i=1}^nb_i^2\ge\left(\sum_{i=1}^na...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/function/6/</link>
-      <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/function/6/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/6/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/6.png" type="image/png" length="33614" />
       
     </item>
     
