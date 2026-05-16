@@ -135,9 +135,9 @@ $$
 
 - $\ce{NaClO + 2HCl -> NaCl + Cl2 ^ + H2O}$。
 
-    - $\ce{2NaCl(熔融) ->[通电] 2Na + Cl2}$。
+- $\ce{2NaCl(熔融) ->[通电] 2Na + Cl2}$。
 
-    - $\ce{2NaCl + 2H2O ->[通电] 2NaOH + H2 ^ + Cl2 ^}$。
+- $\ce{2NaCl + 2H2O ->[通电] 2NaOH + H2 ^ + Cl2 ^}$。
 
 常见改良：用 $\ce{NaCl},\ce{H2SO4}(浓)$ 分别提供氯离子和氢离子，代替浓盐酸。
 
@@ -183,7 +183,11 @@ $$
 
 - 生效原理：
 
-- $\ce{Ca(ClO)2 + H2O + CO2 -> 2HClO + CaCO3 v}$。
+    - $\ce{Ca(ClO)2 + H2O + CO2 -> 2HClO + CaCO3 v}$。
+
+- 失效原理：
+
+    - $\ce{Ca(ClO)2 + H2O + CO2 -> 2HClO + CaCO3 v}$。
 
     - $\ce{2HClO ->[光] 2HCl + O2 ^}$。
 
@@ -199,17 +203,19 @@ $$
 
 - 将氯气通入氢氧化钠溶液中。
 
-    - $\ce{2NaOH + Cl2 -> NaCl + NaClO + H2O}$。
+- $\ce{2NaOH + Cl2 -> NaCl + NaClO + H2O}$。
 
 漂白原理：
 
 - 生效原理：
 
-- $\ce{NaClO + H2O + CO2 -> HClO + NaHCO3}$。
+    - $\ce{NaClO + H2O + CO2 -> HClO + NaHCO3}$。
 
 - 失效原理：
 
-- $\ce{NaClO + H2O + CO2 -> HClO + NaHCO3}$。
+    - $\ce{NaClO + H2O + CO2 -> HClO + NaHCO3}$。
+    
+    - $\ce{2HClO ->[光] 2HCl + O2 ^}$。
 
 1. 弱酸性
 
