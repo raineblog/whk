@@ -132,7 +132,7 @@ $$
 \left\{\begin{aligned}
 \ce{S + O2 &->[点燃] SO2}\\
 \ce{4FeS2 + 11O2 &->[高温] 2Fe2O3 + 8SO2}
-\end{aligned}ight.\tag1
+\end{aligned}\right.\tag1
 $$
 
 <p></p>
