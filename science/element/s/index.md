@@ -124,4 +124,9 @@ ______________________________________________________________________
 
 酸雨的来源常为硫氧化物、氮氧化物，最终形成 \\ce{H2SO4,HNO3} 等酸性雨水。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+### 工业应用与扩展
+
+- **双氧水（\\ce{H2O2}）**：被称为“绿色氧化剂”，其还原产物为 \\ce{H2O}，不引入杂质，在工业氧化、漂白及废水处理中应用极广。
+- **硒（Se）**：位于硫的下方，非金属性减弱。硒是典型的半导体材料，具有光敏性，常用于制造光电池和硒鼓。
+
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

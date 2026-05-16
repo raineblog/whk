@@ -104,4 +104,11 @@
 
 钢化玻璃：将玻璃加热到软化点以上，然后迅速冷却，形成表面压应力，增加强度和韧性。
 
-[RainPPR](mailto:PPR2125773894@163.com)
+### 工业应用与扩展
+
+- **光导纤维**：高纯度的 \\ce{SiO2} 是制造光导纤维的主要材料。
+- **氢氟酸刻蚀**：\\ce{SiO2} 性质稳定，不与除氢氟酸以外的其他酸反应：\\ce{SiO2 + 4HF -> SiF4 ^ + 2H2O}，常用于玻璃刻蚀。
+- **硅胶**：由硅酸缩水得到，具有多孔结构，常用作干燥剂及催化剂载体。
+- **锡与铅**：\\ce{Sn^2+} 具有强还原性；\\ce{PbO2} 具有强氧化性，广泛用于铅酸蓄电池的电极材料。
+
+[RainPPR](mailto:PPR2125773894@163.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com)

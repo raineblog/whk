@@ -183,4 +183,10 @@
 - 氨厂与碱厂联合：碱厂直接利用氨厂产出的氨气和二氧化碳。
 - 中国农业化肥需求量大，\\ce{NH4Cl} 直接作为化肥生产，无 \\ce{CaCl2} 污染。
 
+### 工业应用与扩展
+
+- **侯氏制碱法**：利用 \\ce{NaHCO3} 在含有 \\ce{NH4Cl} 的溶液中溶解度相对较小的性质，通过向氨化的饱和食盐水中通入 \\ce{CO2} 析出 \\ce{NaHCO3}，再热分解得到纯碱。
+- **超氧化钾（\\ce{KO2}）**：比 \\ce{Na2O2} 更高效的供氧剂。遇水或 \\ce{CO2} 释放氧气，常用于潜水及航天器的生命维持系统。
+- **焰色反应**：\\ce{Na} 显黄色，\\ce{K} 透过蓝色钴玻璃显紫色（滤去黄光干扰）。
+
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

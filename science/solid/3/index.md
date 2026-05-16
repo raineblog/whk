@@ -164,12 +164,12 @@ l=\\sqrt{h^2+(R-r)^2}
 
 三棱锥 $ P-ABC $ 中，点 $ P $ 在平面 $ ABC $ 中的射影为 $ O $：
 
-1. 若 $ PA=PB=PC $，则 $ O $ 是 $ \\triangle ABC $ 的**外心**。
-1. 若 $ PA $, $ PB $, $ PC $ 与平面 $ ABC $ 所成角相等，则 $ O $ 是 $ \\triangle ABC $ 的**外心**。
-1. 若 $ P $ 到 $ \\triangle ABC $ 各边的距离相等，则 $ O $ 是 $ \\triangle ABC $ 的**内心**。
-1. 若三侧面与底面所成的二面角相等，则 $ O $ 是 $ \\triangle ABC $ 的**内心**。
-1. 若 $ PA \\perp PB $, $ PA \\perp PC $, $ PB \\perp PC $，则 $ O $ 是 $ \\triangle ABC $ 的**垂心**。
-1. 若 $ PA \\perp BC $, $ PB \\perp AC $, $ PC \\perp AB $，则 $ O $ 是 $ \\triangle ABC $ 的**垂心**。
+1. 若 $ PA=PB=PC $，则 $ O $ 是 $\\triangle ABC $ 的**外心**。
+1. 若 $ PA $, $ PB $, $ PC $ 与平面 $ ABC $ 所成角相等，则 $ O $ 是 $\\triangle ABC $ 的**外心**。
+1. 若 $ P $ 到 $\\triangle ABC $ 各边的距离相等，则 $ O $ 是 $\\triangle ABC $ 的**内心**。
+1. 若三侧面与底面所成的二面角相等，则 $ O $ 是 $\\triangle ABC $ 的**内心**。
+1. 若 $ PA \\perp PB $, $ PA \\perp PC $, $ PB \\perp PC $，则 $ O $ 是 $\\triangle ABC $ 的**垂心**。
+1. 若 $ PA \\perp BC $, $ PB \\perp AC $, $ PC \\perp AB $，则 $ O $ 是 $\\triangle ABC $ 的**垂心**。
 
 ### 补形补体
 
