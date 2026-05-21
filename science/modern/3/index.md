@@ -656,4 +656,4 @@ f'=\\sqrt{\\dfrac{1\\pm V/c}{1\\mp V/c}}\\cdot f
 > - **原理**：用一束激光（参考光）和从物体反射回来的激光（物光）发生干涉，把复杂的干涉条纹记录在底片上。
 > - **再现**：用激光照射这张底片，衍射出的光波能重现物体的立体影像，甚至当你打碎全息底片，每一块碎片都能还原出完整的（虽然模糊）物体像，因为每一个点都记录了整体的信息。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

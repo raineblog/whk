@@ -64,4 +64,4 @@
 
 1. **与现代微积分的联系**：如果用现代数学的方法来解，弧长的精确解涉及反三角函数：s = D \\arcsin\\left(\\dfrac{c}{D}\\right)。在微积分中，我们将反三角函数进行泰勒展开（Taylor Expansion）或麦克劳林级数（Maclaurin Series）展开，取其前几项。根据几何关系近似，弦长 c 与弧长 s 的差在矢高 v 较小时，其第一阶非零修正项恰好与沈括给出的 \\dfrac{2v^2}{D} 高度吻合。这相当于沈括在没有任何微积分工具的情况下，利用几何与代数直觉，找到了弧长的**二次多项式逼近（抛物线逼近）**。这种通过增加修正项来逼近曲线真实长度的思想，比欧洲类似近似公式的出现早了数百年。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

@@ -477,4 +477,4 @@ E_k=\\dfrac12Mv_c^2+\\sum_i\\dfrac12m_iv_i^2
 - 整体运动：把整个系统看作一个质量集中在质心的质点的运动。
 - 内部运动：各个质点相对于质心的运动。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

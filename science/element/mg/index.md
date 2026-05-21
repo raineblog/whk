@@ -29,4 +29,4 @@
 - **电石工业**：\\ce{CaC2}（电石）遇水剧烈反应生成乙炔（\\ce{C2H2}），是合成橡胶、塑料的重要原料。
 - **钡餐与除杂**：\\ce{BaSO4} 不溶于水且不溶于盐酸，用作 X 射线胃肠检查的内服造影剂；\\ce{BaCl2} 常用于检验 \\ce{SO4^2-}。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

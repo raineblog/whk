@@ -152,4 +152,4 @@
 - **净水原理**：明矾 \\ce{KAl(SO4)2\*12H2O} 在水中电离出的 \\ce{Al^3+} 水解生成 \\ce{Al(OH)3} 胶体，其巨大的表面积可吸附水中悬浮杂质而沉降。
 - **硼酸（\\ce{H3BO3}）**：注意硼酸为**一元弱酸**。它在水中的电离并非解离氢离子，而是结合 \\ce{OH-} 释放 \\ce{H+}：\\ce{B(OH)3 + H2O \<=> [B(OH)4]- + H+}。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

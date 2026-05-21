@@ -254,4 +254,4 @@
 
 土壤中生活着肉眼看不见的细菌、丝状真菌和呈放射状的放线菌，这些生物的数量是极其繁多的。例如，一茶匙表层土就可能含有亿万个细菌。由于各地气候与环境等因素不同，落叶在土壤中被分解的时间也是不同的。一般在温暖、湿润的环境中需要一至数月时间。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

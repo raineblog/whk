@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 18 May 2026 02:36:42 -0000</pubDate>
-    <lastBuildDate>Mon, 18 May 2026 02:36:42 -0000</lastBuildDate>
+    <pubDate>Thu, 21 May 2026 11:02:16 -0000</pubDate>
+    <lastBuildDate>Thu, 21 May 2026 11:02:16 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -1184,19 +1184,21 @@ https://chi.lushuyu.site/%E6%96%87%E8%A8%80%E6%96%87/%E6%96%87%E8%A8%80%E8%99%9A
     </item>
     
     <item>
-      <title>烃的反应详解：氧化、取代与加成机理与应用场景</title>
+      <title>生物化学分子</title>
       
       
       
       
-      <description>本文系统阐述烃类的结构特征与反应路线，涵盖烷烃的氧化燃烧、取代反应及自由基机理；烯烃的脱氢、加成与聚合过程，详细分析电子富集与过渡态；炔烃的氧化与加成反应原理；苯及其衍生物的取代与氧化行为；并探讨气态烃燃烧后分子数守恒的条件，提供实验设计与高考复习的实用框架。</description>
+      <description>&lt;h1&gt;生物化学分子&lt;/h1&gt;
+&lt;p&gt;已迁移到 docs\science\cell\2.md&lt;/p&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-11-04&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-11-04T13:16:15+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-05-21&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datet...</description>
       <link>https://raineblog.dpdns.org/whk/science/organic/5/</link>
       <pubDate>Tue, 04 Nov 2025 13:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/organic/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/5/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/5.png" type="image/png" length="45307" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/5.png" type="image/png" length="31342" />
       
     </item>
     
@@ -1524,36 +1526,68 @@ https://chi.lushuyu.site/%E6%96%87%E8%A8%80%E6%96%87/%E6%96%87%E8%A8%80%E8%99%9A
     </item>
     
     <item>
-      <title>自然选择学说详解：适应机制、物种形成与应用案例</title>
+      <title>生物和物种</title>
       
       
       
       
-      <description>本文系统阐释自然选择学说的适应机制，从基因突变、基因频率变化到种群隔离形成新物种的全过程，详述拉马克的用进废退说与达尔文的自然选择理论对比，并结合抗药菌、加拉帕戈斯地雀等典型案例，展示进化生物学的现代综合视角的科学阐释。</description>
+      <description>&lt;h1&gt;生物和物种&lt;/h1&gt;
+&lt;h2&gt;生物的分类&lt;/h2&gt;
+&lt;h3&gt;五界分类系统&lt;/h3&gt;
+&lt;p&gt;五界分类系统是由美国生物学家魏泰克（Whittaker）于 1969 年提出的生物分界方案。它根据&lt;strong&gt;细胞结构&lt;/strong&gt;（原核或真核）、&lt;strong&gt;组织水平&lt;/strong&gt;（单细胞或多细胞）以及&lt;strong&gt;营养方式&lt;/strong&gt;（自养或异养）将生物划分为五个界：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;原核生物界&lt;/strong&gt;：没有成形的细胞核，如细菌、蓝细菌。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;原生生物界&lt;/strong&gt;：结构简单的真核生物，大多数为单细胞，是真核生物中最原始的类群，如草履虫、变形虫、衣藻等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;真菌界&lt;/strong&gt;：营吸收异养的真核生物，如酵母菌、霉菌、蘑菇等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;植物界&lt;/strong&gt;：多细胞真核生物，能够进行光合作用（自养），如苔藓、蕨类、被子植物等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;动物界&lt;/strong&gt;：多细胞真核生物，通过摄取现成的有机物（异养）生活，如昆虫、鸟类、哺乳动物等。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;需要注意的是，由于病毒没有细胞结构，通常不被包含在这个五界分类系统之内。&lt;/p&gt;
+&lt;h2&gt;自然选择学说&lt;/h2&gt;
+&lt;p&gt;适应作为一个生物学术语，包括两方面的含义：一是指生物的形态结构适合于完成一定的功能，二是指生物的形态结构及其功能适合于该生物在一定的环境中生存和繁殖。&lt;/p&gt;
+&lt;p&gt;适应是普遍存在的...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/species/1/</link>
       <pubDate>Sat, 06 Sep 2025 10:39:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/species/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/1.png" type="image/png" length="46530" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/1.png" type="image/png" length="28821" />
       
     </item>
     
     <item>
-      <title>低等生物详解：单细胞结构与演化机制与生态应用</title>
+      <title>低等生物</title>
       
       
       
       
-      <description>本文系统阐述低等生物的细胞组织特征、无性生殖与环境适应机制，重点分析原始细胞壁的化学构成、能量代谢路径及其在生态链中的能量流动方式，并提供实验观察与分类鉴定的实用方法。研究显示，低等生物在缺氧环境中通过乳酸发酵获得能量，细胞分裂采用二分裂，遗传物质以环状形式存在，这些机制为进化提供了基础。</description>
+      <description>&lt;h1&gt;低等生物&lt;/h1&gt;
+&lt;h2&gt;原核生物&lt;/h2&gt;
+&lt;p&gt;我们前面已经提到，原核生物就是没有以核膜为界限的细胞核的生物。原核生物绝大多数都是单细胞生物，但是，部分原核生物（如蓝细菌中的某些种类）可以形成简单的多细胞丝状体或群体结构，其中细胞间甚至存在一定程度的功能分工。&lt;/p&gt;
+&lt;p&gt;细菌，是我们最常提到的一类原核生物，一般来说，带有什么杆菌、什么球菌的，都是细菌。细菌中的多数种类是营腐生或寄生生活的异养生物。细菌的细胞都有细胞壁、细胞膜和细胞质，都没有由核膜包被的细胞核，也没有染色体，但有环状的 DNA 分子，位于细胞内特定的区域，这个区域叫作拟核。&lt;/p&gt;
+&lt;p&gt;我们下面着重讲一些和一般细菌不同的细菌和其他原生生物。&lt;/p&gt;
+&lt;h3&gt;放线菌&lt;/h3&gt;
+&lt;p&gt;放线菌是一种和真菌很相似（尤其是霉菌）的细菌，它们的菌体呈放射状分枝的丝状，因此得名分枝丝状体，菌丝内没有横隔。放线菌的菌丝根据功能分为三类：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;营养菌丝：侵入营养物质内部，吸收其中的营养。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;气生菌丝：生长在空气中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;孢子丝：在气生菌丝顶端形成，专门用于产生孢子。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;放线菌主要通过孢子生殖进行繁衍。当孢子丝发育到一定阶段会产生孢子，孢子在适宜条件下萌发，形成新的菌丝体。放线...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/species/2/</link>
       <pubDate>Sat, 06 Sep 2025 10:39:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/species/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/2.png" type="image/png" length="46396" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/2.png" type="image/png" length="29994" />
       
     </item>
     
@@ -2289,19 +2323,31 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>烷烃详解：四面体结构与同分异构现象详解与应用场景</title>
+      <title>有机物的分类</title>
       
       
       
       
-      <description>本文系统阐释烷烃的基本结构，重点描述甲烷的四面体几何、杂化及同分异构体的产生机制。通过光照条件下的自由基氯化过程，展示从甲烷到四氯甲烷的逐步取代路径，并分析沸点、密度等物性趋势。进一步讨论石油裂化与重整工艺，说明如何将长链烷烃裂解为短链烷烃与烯烃，为工业燃料与化工原料提供理论依据。</description>
+      <description>&lt;h1&gt;有机物的分类&lt;/h1&gt;
+&lt;h2&gt;烷烃概述&lt;/h2&gt;
+&lt;p&gt;烷烃是极佳的有机化学引入之一，在高中有机化学的框架下，我们通常是从烷烃开始，去讨论有机物的化学性质，从引入双键、三键形成不饱和烃，再到引入取代基和各种有机反应。烷烃对于刚刚学习有机化学的人来说，显得格外重要。&lt;/p&gt;
+&lt;h3&gt;甲烷和烷烃&lt;/h3&gt;
+&lt;p&gt;我们熟悉的甲烷（$\ce{CH4}$）是最简单的有机化合物。其分子中的碳原子以最外层的 $4$ 个电子分别与 $4$ 个氢原子的电子形成了 $4$ 个 $\ce{C - H}$ 共价键。&lt;/p&gt;
+&lt;p&gt;实验数据表明，甲烷分子并非平面结构，而是呈正四面体空间构型。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;碳原子位于正四面体的中心。&lt;/li&gt;
+&lt;li&gt;$4$ 个氢原子分别位于 $4$ 个顶点。&lt;/li&gt;
+&lt;li&gt;$4$ 个 $\ce{C - H}$ 键的长度和强度完全相同，任意两个 $\ce{C - H}$ 键之间的夹角均为 $\pu{109.5^\circ C}$。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;与甲烷结构相似的有机化合物还有很多，随着分子中碳原子数的增加，还有乙烷、丙烷、丁烷等一系列有机化合物。这些化合物的碳链呈锯齿状或折线形。&lt;/p&gt;
+&lt;p&gt;烷烃分子中的碳原子都采取 $\text{sp3}$ 杂化，形成四面体结构；碳原子以...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/organic/2/</link>
       <pubDate>Sun, 29 Jun 2025 07:34:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/organic/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/2.png" type="image/png" length="41975" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/2.png" type="image/png" length="32822" />
       
     </item>
     
@@ -2659,53 +2705,93 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>细胞结构详解：功能机制与医学应用与科研前沿与科研</title>
+      <title>细胞及其物质与能量</title>
       
       
       
       
-      <description>本文系统阐述细胞结构的层次性组成，从核糖体合成到细胞器功能，结合结构生物学的晶体学、核磁共振与电子显微镜技术，解析蛋白质三维空间结构如何决定生化功能，并阐明药物靶标蛋白的结构‑功能关联，为创新药物研发提供理论依据。通过高分辨率三维成像，揭示了蛋白质的构象变化与活性位点，解释了药物如何通过配体结合影响信号转导路径，从而为精准医学提供依据。</description>
+      <description>&lt;h1&gt;细胞及其物质与能量&lt;/h1&gt;
+&lt;h2&gt;细胞学说&lt;/h2&gt;
+&lt;h3&gt;细胞学说的概述&lt;/h3&gt;
+&lt;p&gt;细胞学说的建立者主要是两位德国科学家施莱登和施旺。后人根据他们发表的研究结果进行整理并加以修正，综合为以下要点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;细胞是一个有机体，一切动植物都由细胞发育而来，并由细胞和细胞产物所构成；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;细胞是一个相对独立的单位，既有它自己的生命，又对与其他细胞共同组成的整体生命起作用；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新细胞是由老细胞分裂产生的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;细胞学说的建立&lt;/h3&gt;
+&lt;p&gt;细胞学说的建立经历了漫长的过程：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;显微镜的发明使人类打开了微观世界的大门，借助显微镜，人们看到了动物体和植物体中各种各样的细胞。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;维萨里通过大量的尸体解剖研究，揭示了人体在器官水平的结构。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;比夏经过对器官的解剖观察，指出器官由低一层次的结构——组织构成。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;罗伯特·胡克用显微镜观察植物的木栓组织，发现这些木栓组织由许多规则的小室组成，他把观察到的图像画了下来，并把“小室”称为细胞（他观察到的只是死细胞）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;列文虎克用自制的显微镜，观察到不同形态的细菌、红细胞和精子等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;马尔比基用显微镜广泛观察了动植物的微细结构，如细...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/1/</link>
       <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/cell/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/1.png" type="image/png" length="44215" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/1.png" type="image/png" length="36864" />
       
     </item>
     
     <item>
-      <title>酶抑制剂详解：可逆不可逆机制与生物医药与临床</title>
+      <title>细胞中的有机物</title>
       
       
       
       
-      <description>本文系统阐释酶抑制剂的可逆、非竞争及反竞争三类抑制机制，分别解析动力学参数最大反应速率与米氏常数的变化规律，并深入探讨不可逆共价抑制及特殊碱基如 5-溴尿嘧啶、Z 核苷酸、次黄嘌呤在 DNA 复制和药物研发中的应用，适用于高中与大学生物竞赛与实验设计。</description>
+      <description>&lt;h1&gt;细胞中的有机物&lt;/h1&gt;
+&lt;p&gt;细胞是由多种元素和化合物构成的。在构成细胞的化合物中，多糖、蛋白质、核酸都是生物大分子。通过学习，我们知道组成多糖的基本单位是单糖，组成蛋白质的基本单位是氨基酸，组成核酸的基本单位是核苷酸，这些基本单位称为单体。每一个单体都以若干个相连的碳原子构成的碳链为基本骨架。生物大分子是由许多单体连接成的多聚体，因此，生物大分子也是以碳链为基本骨架的。正是由于碳原子在组成生物大分子中的重要作用，科学家才说“碳是生命的核心元素”“没有碳，就没有生命”。&lt;/p&gt;
+&lt;p&gt;碳原子性质不活泼，它的最外层有 4 个电子，不易失去或得到电子而形成离子。在含碳化合物中，碳原子与其他原子通过共用电子对结合在一起。原子间通过共用电子对而形成的化学键叫共价键。碳原子之间也可以形成共价键，这样多个碳原子可以相互结合形成稳定的碳链。&lt;/p&gt;
+&lt;p&gt;以碳链为骨架的多糖、蛋白质、核酸等生物大分子，构成细胞生命大厦的基本框架；糖类和脂质提供了生命活动的重要能源；水和无机盐与其他物质一起，共同承担着构建细胞、参与细胞生命活动等重要功能。细胞中的这些化合物，含量和比例处在不断变化之中，但又保持相对稳定，以保证细胞生命活动的正常...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/2/</link>
       <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/cell/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/2.png" type="image/png" length="25677" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/2.png" type="image/png" length="32451" />
       
     </item>
     
     <item>
-      <title>量子纠缠详解：纠缠原理与量子计算应用技术</title>
+      <title>细胞的结构与功能</title>
       
       
       
       
-      <description>本文系统阐述量子纠缠的产生机制，包括自旋态耦合、贝尔态生成及相干性破坏抑制策略，随后分析纠缠在量子比特传输、错误校正码以及量子门操作中的应用路线，并给出实验实现的关键参数与误差模型。文中还对比了不同物理平台（如离子阱、超导电路）的纠缠生成效率，并讨论了基于纠缠熵与保真度的量子相干性评估指标，为量子计算硬件优化提供理论依据。</description>
+      <description>&lt;h1&gt;细胞的结构与功能&lt;/h1&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-04-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-04-19T14:19:04+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-05-21&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-05-21T09:16:46+00...</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/3/</link>
       <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/cell/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="39060" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="35522" />
       
     </item>
     

@@ -373,4 +373,4 @@ $\\Omega=$ 重键数 $+$ 最简环数
 
 \\ce{CH3CHO + 2Cu(OH)2 + NaOH ->[\\triangle] CH3COONa + Cu2O v(砖红色) + 3H2O}
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

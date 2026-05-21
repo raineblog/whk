@@ -303,7 +303,7 @@ U=\\dfrac{E_p}{q}=k_e\\dfrac{Q}{r}
 
 如图，如果从 A 点静止释放，在 B 点恰好速度为零，则 C 点一定是动能最高的点，OC 方向即为等效重力场方向；根据对称性，OC 一定是角平分线。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
 
 ______________________________________________________________________
 

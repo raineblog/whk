@@ -130,4 +130,4 @@ The deafening blasts shattered the profound silence, **their echoes rolling thro
 
 **Overwhelmed by a powerful wave of relief, I felt tears of joy well up, blurring their approaching figures.** My grandfather reached me first, his worried face softening as he **pulled me into a hug** that anchored me to safety; I could feel the rough texture of his coat and smell the familiar scent of woodsmoke. **It was in that moment I truly understood what he meant by courage: it wasn’t the absence of a pounding heart, but the will to steady a trembling hand and act anyway.**
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

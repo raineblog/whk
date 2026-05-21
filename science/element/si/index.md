@@ -111,4 +111,4 @@
 - **硅胶**：由硅酸缩水得到，具有多孔结构，常用作干燥剂及催化剂载体。
 - **锡与铅**：\\ce{Sn^2+} 具有强还原性；\\ce{PbO2} 具有强氧化性，广泛用于铅酸蓄电池的电极材料。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

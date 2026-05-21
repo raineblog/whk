@@ -581,4 +581,4 @@ AXE 法，又称 ABE 法：用 \\ce{AX_nE_m} 其中 \\ce A 代表中心原子，
 
 笼形水合物属于笼形化合物，其中主体分子为水分子，客体分子一般为气体。若没有客体分子的支撑作用，这类化合物的晶体结构便会坍塌为冰或水的结构。绝大多数相对分子质量较低的气体都能形成笼形水合物，比如 \\ce{O2, H2, N2, CO2, CH4, H2S} 等，其中甲烷水合物成为可燃冰。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
