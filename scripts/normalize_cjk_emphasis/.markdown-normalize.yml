@@ -1,0 +1,166 @@
+name: Normalize CJK Emphasis for Pandoc
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - '**.md'
+      - '**.markdown'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  normalize-cjk-emphasis:
+    runs-on: ubuntu-latest
+    if: github.repository == 'raineblog/whk'  # 安全限制，只在你的仓库运行
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 需要历史记录来正确创建 PR
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Normalize CJK Emphasis in Markdown files
+        run: |
+          python - << 'EOF'
+          import re
+          from pathlib import Path
+          from typing import Tuple
+
+          CJK = r'[\u4e00-\u9fff\u3400-\u4dbf\u20000-\u2a6df\u2a700-\u2b73f\u2b740-\u2b81f\u2b820-\u2ceaf\uf900-\ufaff\u3300-\u33ff\ufe30-\ufe4f]'
+
+          def protect_code_blocks(content: str) -> Tuple[str, dict]:
+              placeholders = {}
+              counter = 0
+
+              # 保护 fenced code blocks
+              def fence_replacer(match):
+                  nonlocal counter
+                  key = f"__CODE_BLOCK_{counter}__"
+                  placeholders[key] = match.group(0)
+                  counter += 1
+                  return key
+
+              content = re.sub(
+                  r'(?s)^(```|~~~).+?^\1\s*$',
+                  fence_replacer,
+                  content,
+                  flags=re.MULTILINE
+              )
+
+              # 保护 inline code
+              def inline_replacer(match):
+                  nonlocal counter
+                  key = f"__INLINE_CODE_{counter}__"
+                  placeholders[key] = match.group(0)
+                  counter += 1
+                  return key
+
+              content = re.sub(r'`+.+?`+', inline_replacer, content)
+
+              return content, placeholders
+
+          def restore_code_blocks(content: str, placeholders: dict) -> str:
+              for key, value in placeholders.items():
+                  content = content.replace(key, value)
+              return content
+
+          def normalize_cjk_emphasis(md_content: str) -> str:
+              if not md_content or not isinstance(md_content, str):
+                  return md_content
+
+              protected, placeholders = protect_code_blocks(md_content)
+
+              # CJK 后面紧跟强调标记
+              protected = re.sub(
+                  f'({CJK})([*_]{{1,2}})(?=[^*_\\s])',
+                  r'\1 \2',
+                  protected
+              )
+
+              # 强调标记后面紧跟 CJK
+              protected = re.sub(
+                  f'(?<=[^*_\\s])([*_]{{1,2}})({CJK})',
+                  r'\1 \2',
+                  protected
+              )
+
+              # 清理可能产生的多余空格
+              protected = re.sub(
+                  f'({CJK})\\s+([*_]{{1,2}})\\s*({CJK})',
+                  r'\1 \2 \3',
+                  protected
+              )
+              protected = re.sub(
+                  f'({CJK})\\s*([*_]{{1,2}})\\s+({CJK})',
+                  r'\1 \2 \3',
+                  protected
+              )
+
+              return restore_code_blocks(protected, placeholders)
+
+          # 处理所有 .md 和 .markdown 文件
+          changed = False
+          for md_file in Path('.').rglob('*.md'):
+              if any(excluded in str(md_file) for excluded in ['node_modules', '.venv', 'dist']):
+                  continue
+              try:
+                  original = md_file.read_text(encoding='utf-8')
+                  normalized = normalize_cjk_emphasis(original)
+                  if original != normalized:
+                      md_file.write_text(normalized, encoding='utf-8')
+                      print(f"Normalized: {md_file}")
+                      changed = True
+              except Exception as e:
+                  print(f"Error processing {md_file}: {e}")
+
+          for md_file in Path('.').rglob('*.markdown'):
+              if any(excluded in str(md_file) for excluded in ['node_modules', '.venv', 'dist']):
+                  continue
+              try:
+                  original = md_file.read_text(encoding='utf-8')
+                  normalized = normalize_cjk_emphasis(original)
+                  if original != normalized:
+                      md_file.write_text(normalized, encoding='utf-8')
+                      print(f"Normalized: {md_file}")
+                      changed = True
+              except Exception as e:
+                  print(f"Error processing {md_file}: {e}")
+
+          print(f"Changes made: {changed}")
+          with open('changed.txt', 'w') as f:
+              f.write(str(changed))
+          EOF
+
+      - name: Check if changes were made
+        id: check_changes
+        run: |
+          CHANGED=$(cat changed.txt)
+          echo "changed=$CHANGED" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request if changes were made
+        if: steps.check_changes.outputs.changed == 'True'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "chore: normalize CJK emphasis for Pandoc compatibility"
+          title: "chore: normalize CJK emphasis markers"
+          body: |
+            Automated normalization of CJK bold/italic markers (`**text**` → ` **text** `).
+
+            This makes the Markdown compatible with Pandoc's stricter emphasis parsing rules
+            while preserving compatibility with `remark-cjk-friendly`.
+
+            Changes made by `.github/workflows/markdown-normalize.yml`.
+          branch: normalize-cjk-emphasis
+          delete-branch: true
+          labels: |
+            automated
+            markdown
+            pandoc

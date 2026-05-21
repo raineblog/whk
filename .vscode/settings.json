@@ -1,0 +1,12 @@
+{
+    "todo-tree.tree.scanMode": "workspace",
+    "editor.renderWhitespace": "all",
+    "editor.fontFamily": "'Maple Mono NF CN', Consolas, 'Courier New', monospace",
+    "editor.detectIndentation": false,
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.mouseWheelZoom": true,
+    "editor.wrappingStrategy": "advanced",
+    "kilo-code.new.autocomplete.enableAutoTrigger": false,
+    "geminicodeassist.inlineSuggestions.enableAuto": false,
+    "workbench.iconTheme": "material-icon-theme"
+}

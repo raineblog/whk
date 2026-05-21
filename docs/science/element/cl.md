@@ -214,7 +214,7 @@ $$
 - 失效原理：
 
     - $\ce{NaClO + H2O + CO2 -> HClO + NaHCO3}$。
-    
+
     - $\ce{2HClO ->[光] 2HCl + O2 ^}$。
 
 1. 弱酸性
