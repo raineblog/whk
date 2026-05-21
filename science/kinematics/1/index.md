@@ -109,4 +109,4 @@
 
 **注意**：上述公式均为矢量式，计算时必须严格注意方向。该方法经常用于解决「小船过河」、「追及相遇」等典型问题，应通过练习熟悉其应用。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

@@ -362,4 +362,4 @@
 | 中性 / 弱碱性 | \\ce{MnO2}（沉淀） | +7 \\rightarrow +4 | 生成棕褐色沉淀                |
 | 强碱性        | \\ce{MnO4^2-}      | +7 \\rightarrow +6 | 溶液由紫变绿                  |
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

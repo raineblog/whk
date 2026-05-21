@@ -475,4 +475,4 @@ H(X)=-\\sum\_{i=1}^n\\frac{1}{n}\\log_2\\frac{1}{n}=\\log_2 n
 
 所以我们至少需要 \\log_2 n 位来存储 1 到 n 的整数。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

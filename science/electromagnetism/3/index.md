@@ -366,7 +366,7 @@ t=\\dfrac{L}{v_0}=\\sqrt{\\dfrac{L^2m}{2U_0q}}
 
 电场偏向型：以电场令电子束产生偏向，产生电场的偏向极板内置在阴极射线管内部。**示波器**使用此种方式的显像管，以利应付不同的扫描频率，但此方式需要较长的管身，主要用于电子仪器。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
 
 ______________________________________________________________________
 

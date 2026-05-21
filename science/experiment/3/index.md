@@ -247,4 +247,4 @@ $\\ce{2NO + 2CO ->[催化剂] N2 + 2CO2}$（尾气净化）
 
 甲醛溶于水为福尔马林，有致癌性，用于保存防腐、杀菌。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

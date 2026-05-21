@@ -189,4 +189,4 @@
 - **超氧化钾（\\ce{KO2}）**：比 \\ce{Na2O2} 更高效的供氧剂。遇水或 \\ce{CO2} 释放氧气，常用于潜水及航天器的生命维持系统。
 - **焰色反应**：\\ce{Na} 显黄色，\\ce{K} 透过蓝色钴玻璃显紫色（滤去黄光干扰）。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

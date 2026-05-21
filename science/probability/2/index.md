@@ -893,4 +893,4 @@ E[X] = \\sum\_{k=1}^{6} P(X \\ge k) = \\sum\_{k=1}^{6} \\left[ 1 - \\left( \\fra
 
 当你面对的问题涉及最大值、最小值的期望，或者需要计算 P(X = k) 非常困难但 P(X \\ge k) 相对容易时，优先考虑尾部求和公式。这本质上是求和与积分的次序交换。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

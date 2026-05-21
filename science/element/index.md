@@ -594,4 +594,4 @@ $\\ce{3H2 + WO3 ->[高温] W + 3H2O}$
 - **萃取**：利用溶剂从天然产物中提取有效成分，如草药的煎煮过程。
 - **过滤**：使用纱布、纸张等介质分离固体和液体，在酿酒、制药中普遍使用。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

@@ -119,4 +119,4 @@ S=i+{b\\over2}-1
 
 **方向靠法线 (A,B)，代点进方程，底下除以方和 (A^2+B^2)，对称乘 -2（垂足乘 -1）。**
 
-[RainPPR](mailto:PPR2125773894@163.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

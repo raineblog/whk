@@ -407,4 +407,4 @@
 
 **一句话概括：**听毛细胞利用耳蜗特殊的“双液环境”和高达 80mV 的“外部电池”（蜗内电位），使得通常代表复极化的**钾离子**，在这里变成了由于电势差被强行压入细胞产生去极化的**兴奋离子**，且它通常不“开枪”（动作电位），而是通过电压的强弱变化（分级电位）来“演奏”声音信号。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
