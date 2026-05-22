@@ -1,0 +1,14 @@
+{# exploration.md.jinja2 - 简单聚合 exploration 目录下的所有 .md 文件 #}
+{# 机械拼接所有技能库文件，不做复杂处理 #}
+
+{% for exploration_file in exploration_files %}
+{{ exploration_file.content }}
+
+---
+
+{% endfor %}
+
+{# 可选：动态插入额外上下文（预留扩展） #}
+{% if extra_context is defined %}
+{{ extra_context }}
+{% endif %}
