@@ -1,7 +1,5 @@
 # 数字和计数系统
 
-## 数字系统
-
 区分数字系统和记数系统：
 
 - 数字系统：Numbers can be classified into sets, called **number sets** or **number systems**, such as the natural numbers and the real numbers.
