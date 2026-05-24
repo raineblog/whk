@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sat, 23 May 2026 14:29:21 -0000</pubDate>
-    <lastBuildDate>Sat, 23 May 2026 14:29:21 -0000</lastBuildDate>
+    <pubDate>Sun, 24 May 2026 12:43:41 -0000</pubDate>
+    <lastBuildDate>Sun, 24 May 2026 12:43:41 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -1658,7 +1658,6 @@ https://chi.lushuyu.site/%E6%96%87%E8%A8%80%E6%96%87/%E6%96%87%E8%A8%80%E8%99%9A
       
       
       <description>&lt;h1&gt;数字和计数系统&lt;/h1&gt;
-&lt;h2&gt;数字系统&lt;/h2&gt;
 &lt;p&gt;区分数字系统和记数系统：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -1668,7 +1667,8 @@ https://chi.lushuyu.site/%E6%96%87%E8%A8%80%E6%96%87/%E6%96%87%E8%A8%80%E8%99%9A
 &lt;p&gt;记数系统：A &lt;strong&gt;numeral system&lt;/strong&gt; is a writing system for expressing numbers without words; that is, a mathematical notation for representing numbers of a given set, using digits (in positional notation) or other symbols (in sign-value notation) in a consistent manner.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;Venn_Diagram_of_Numbers_Expanded.svg&#34;&gt;{ width=...&lt;/p&gt;</description>
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;Venn_Diagram_of_Numbers_Expanded.svg&#34;&gt;{ width=&#34;70%&#34; }&lt;/p&gt;
+&lt;p&gt;...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/mathematics/1/</link>
       <pubDate>Tue, 19 Aug 2025 11:57:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -1709,6 +1709,7 @@ https://chi.lushuyu.site/%E6%96%87%E8%A8%80%E6%96%87/%E6%96%87%E8%A8%80%E8%99%9A
 &lt;p&gt;⽆序性：集合内的各元素的顺序是没有限制的。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image.png&#34;&gt;{ width=&#34;90%&#34; }&lt;/p&gt;
 &lt;p&gt;子集与空集：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -1718,8 +1719,7 @@ https://chi.lushuyu.site/%E6%96%87%E8%A8%80%E6%96%87/%E6%96%87%E8%A8%80%E8%99%9A
 &lt;p&gt;$A \subseteq B$ 且 $B \subseteq A \implies A=B$&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;真子集：$A \subsetneqq B$ 或 $B \supsetneqq A$，表示 $A \subseteq B$ 且 $B$ 中至少有一元素不属于 $A$&lt;/p&gt;
-&lt;p&gt;$A \subsetneq...&lt;/p&gt;
+&lt;p&gt;真子集：$A \subsetneqq B$ 或 $B \supsetneqq A$，表示 $A \subseteq B$ ...&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/mathematics/2/</link>
@@ -2133,6 +2133,7 @@ $$&lt;/p&gt;
 &lt;p&gt;$$
 a&amp;gt;b&amp;gt;0,m&amp;gt;0\implies\dfrac{b+m}{a+m}&amp;gt;\dfrac{b}{a}
 $$&lt;/p&gt;
+&lt;p&gt;这个的实际意义是，溶质糖的质量分数，加糖会更大。这就要求质量分数必须小于 $1$。如果大于 $1$，及 $b&amp;gt;a&amp;gt;0$，上述不等式反向。&lt;/p&gt;
 &lt;p&gt;不等式加法：&lt;/p&gt;
 &lt;p&gt;$$
 a&amp;gt;b,c&amp;gt;d\implies a+c&amp;gt;b+d
@@ -2156,8 +2157,7 @@ $$&lt;/p&gt;
 &lt;li&gt;$a=a$（自反性）&lt;/li&gt;
 &lt;li&gt;‌$a=b\Rightarrow b=a$（对称性）&lt;/li&gt;
 &lt;li&gt;$a=b,b=c\Rightarrow a=c$（传递性）&lt;/li&gt;
-&lt;li&gt;$a=b\Rightarrow a\pm c=b\pm c,ac=bc,\frac{a}{c}=\frac{b}{c}$（$c\neq 0$）（替代性）&lt;/li&gt;
-&lt;li&gt;替代性：如果两个对象相等，那么在任何出现它们的...&lt;/li&gt;
+&lt;li&gt;$a=b\Rightarrow a\pm c=b\pm c,ac...&lt;/li&gt;
 &lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/function/3/</link>
       <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
