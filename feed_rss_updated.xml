@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sat, 23 May 2026 14:29:18 -0000</pubDate>
-    <lastBuildDate>Sat, 23 May 2026 14:29:18 -0000</lastBuildDate>
+    <pubDate>Sun, 24 May 2026 12:43:32 -0000</pubDate>
+    <lastBuildDate>Sun, 24 May 2026 12:43:32 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,136 @@
     
 
     
+    
+    <item>
+      <title>均值不等式</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;均值不等式&lt;/h1&gt;
+&lt;h2&gt;简单不等式&lt;/h2&gt;
+&lt;h3&gt;一般不等式&lt;/h3&gt;
+&lt;p&gt;糖水不等式：&lt;/p&gt;
+&lt;p&gt;$$
+a&amp;gt;b&amp;gt;0,m&amp;gt;0\implies\dfrac{b+m}{a+m}&amp;gt;\dfrac{b}{a}
+$$&lt;/p&gt;
+&lt;p&gt;这个的实际意义是，溶质糖的质量分数，加糖会更大。这就要求质量分数必须小于 $1$。如果大于 $1$，及 $b&amp;gt;a&amp;gt;0$，上述不等式反向。&lt;/p&gt;
+&lt;p&gt;不等式加法：&lt;/p&gt;
+&lt;p&gt;$$
+a&amp;gt;b,c&amp;gt;d\implies a+c&amp;gt;b+d
+$$&lt;/p&gt;
+&lt;p&gt;不等式减法：&lt;/p&gt;
+&lt;p&gt;$$
+a&amp;gt;b,c&lt;d\implies a-c&gt;b-d
+$$&lt;/p&gt;
+&lt;p&gt;不等式联立：&lt;/p&gt;
+&lt;p&gt;$$
+\begin{cases}
+a_1&amp;lt;x+y&amp;lt;a_2\
+b_1&amp;lt;x-y&amp;lt;b_2
+\end{cases}\implies\begin{cases}
+a_1+b_1&amp;lt;2x&amp;lt;a_2+b_2\
+a_1-b_1&amp;lt;2y&amp;lt;a_2-b_2
+\end{cases}
+$$&lt;/p&gt;
+&lt;p&gt;等式的性质​：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$a=a$（自反性）&lt;/li&gt;
+&lt;li&gt;‌$a=b\Rightarrow b=a$（对称性）&lt;/li&gt;
+&lt;li&gt;$a=b,b=c\Rightarrow a=c$（传递性）&lt;/li&gt;
+&lt;li&gt;$a=b\Rightarrow a\pm c=b\pm c,ac...&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/function/3/</link>
+      <pubDate>Sun, 24 May 2026 12:42:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/function/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/function/3/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/function/3.png" type="image/png" length="30355" />
+      
+    </item>
+    
+    <item>
+      <title>数字和计数系统</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;数字和计数系统&lt;/h1&gt;
+&lt;p&gt;区分数字系统和记数系统：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;数字系统：Numbers can be classified into sets, called &lt;strong&gt;number sets&lt;/strong&gt; or &lt;strong&gt;number systems&lt;/strong&gt;, such as the natural numbers and the real numbers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;记数系统：A &lt;strong&gt;numeral system&lt;/strong&gt; is a writing system for expressing numbers without words; that is, a mathematical notation for representing numbers of a given set, using digits (in positional notation) or other symbols (in sign-value notation) in a consistent manner.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;Venn_Diagram_of_Numbers_Expanded.svg&#34;&gt;{ width=&#34;70%&#34; }&lt;/p&gt;
+&lt;p&gt;...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/mathematics/1/</link>
+      <pubDate>Sun, 24 May 2026 12:42:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/mathematics/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/mathematics/1/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/mathematics/1.png" type="image/png" length="34121" />
+      
+    </item>
+    
+    <item>
+      <title>集合与逻辑</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;集合与逻辑&lt;/h1&gt;
+&lt;h2&gt;基础知识&lt;/h2&gt;
+&lt;h3&gt;集合的定义&lt;/h3&gt;
+&lt;p&gt;集合：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;某些指定的对象集在⼀起就形成⼀个集合（简称集）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;元素：集合中每个对象叫做这个集合的元素。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;集合的三要素：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;确定性：集合内的元素是可以被确定的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;互异性：集合内的各元素都是唯⼀不重复的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;⽆序性：集合内的各元素的顺序是没有限制的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image.png&#34;&gt;{ width=&#34;90%&#34; }&lt;/p&gt;
+&lt;p&gt;子集与空集：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;子集：$A \subseteq B$ 或 $B \supseteq A$，表示 $A$ 中的任意元素都属于 $B$&lt;/p&gt;
+&lt;p&gt;$A \subseteq A, \varnothing \subseteq A$&lt;/p&gt;
+&lt;p&gt;$A \subseteq B$ 且 $B \subseteq C \implies A \subseteq C$&lt;/p&gt;
+&lt;p&gt;$A \subseteq B$ 且 $B \subseteq A \implies A=B$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;真子集：$A \subsetneqq B$ 或 $B \supsetneqq A$，表示 $A \subseteq B$ ...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/mathematics/2/</link>
+      <pubDate>Sun, 24 May 2026 12:42:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/mathematics/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/mathematics/2/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/mathematics/2.png" type="image/png" length="30842" />
+      
+    </item>
     
     <item>
       <title>细胞及其物质与能量</title>
@@ -334,34 +464,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/kinematics/1/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/kinematics/1.png" type="image/png" length="29897" />
-      
-    </item>
-    
-    <item>
-      <title>数字和计数系统</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;数字和计数系统&lt;/h1&gt;
-&lt;h2&gt;数字系统&lt;/h2&gt;
-&lt;p&gt;区分数字系统和记数系统：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;数字系统：Numbers can be classified into sets, called &lt;strong&gt;number sets&lt;/strong&gt; or &lt;strong&gt;number systems&lt;/strong&gt;, such as the natural numbers and the real numbers.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;记数系统：A &lt;strong&gt;numeral system&lt;/strong&gt; is a writing system for expressing numbers without words; that is, a mathematical notation for representing numbers of a given set, using digits (in positional notation) or other symbols (in sign-value notation) in a consistent manner.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;Venn_Diagram_of_Numbers_Expanded.svg&#34;&gt;{ width=...&lt;/p&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/mathematics/1/</link>
-      <pubDate>Sat, 16 May 2026 12:06:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/mathematics/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/mathematics/1/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/mathematics/1.png" type="image/png" length="34121" />
       
     </item>
     
@@ -1181,55 +1283,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>均值不等式</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;均值不等式&lt;/h1&gt;
-&lt;h2&gt;简单不等式&lt;/h2&gt;
-&lt;h3&gt;一般不等式&lt;/h3&gt;
-&lt;p&gt;糖水不等式：&lt;/p&gt;
-&lt;p&gt;$$
-a&amp;gt;b&amp;gt;0,m&amp;gt;0\implies\dfrac{b+m}{a+m}&amp;gt;\dfrac{b}{a}
-$$&lt;/p&gt;
-&lt;p&gt;不等式加法：&lt;/p&gt;
-&lt;p&gt;$$
-a&amp;gt;b,c&amp;gt;d\implies a+c&amp;gt;b+d
-$$&lt;/p&gt;
-&lt;p&gt;不等式减法：&lt;/p&gt;
-&lt;p&gt;$$
-a&amp;gt;b,c&lt;d\implies a-c&gt;b-d
-$$&lt;/p&gt;
-&lt;p&gt;不等式联立：&lt;/p&gt;
-&lt;p&gt;$$
-\begin{cases}
-a_1&amp;lt;x+y&amp;lt;a_2\
-b_1&amp;lt;x-y&amp;lt;b_2
-\end{cases}\implies\begin{cases}
-a_1+b_1&amp;lt;2x&amp;lt;a_2+b_2\
-a_1-b_1&amp;lt;2y&amp;lt;a_2-b_2
-\end{cases}
-$$&lt;/p&gt;
-&lt;p&gt;等式的性质​：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;$a=a$（自反性）&lt;/li&gt;
-&lt;li&gt;‌$a=b\Rightarrow b=a$（对称性）&lt;/li&gt;
-&lt;li&gt;$a=b,b=c\Rightarrow a=c$（传递性）&lt;/li&gt;
-&lt;li&gt;$a=b\Rightarrow a\pm c=b\pm c,ac=bc,\frac{a}{c}=\frac{b}{c}$（$c\neq 0$）（替代性）&lt;/li&gt;
-&lt;li&gt;替代性：如果两个对象相等，那么在任何出现它们的...&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/function/3/</link>
-      <pubDate>Sat, 16 May 2026 11:29:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/function/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/function/3/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/function/3.png" type="image/png" length="30355" />
-      
-    </item>
-    
-    <item>
       <title>不等式进阶拓展</title>
       
       
@@ -1609,59 +1662,6 @@ a^3-b^3&amp;amp;=(...&lt;/p&gt;</description>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/human/3/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/human/3.png" type="image/png" length="47936" />
-      
-    </item>
-    
-    <item>
-      <title>集合与逻辑</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;集合与逻辑&lt;/h1&gt;
-&lt;h2&gt;基础知识&lt;/h2&gt;
-&lt;h3&gt;集合的定义&lt;/h3&gt;
-&lt;p&gt;集合：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;某些指定的对象集在⼀起就形成⼀个集合（简称集）。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;元素：集合中每个对象叫做这个集合的元素。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;集合的三要素：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;确定性：集合内的元素是可以被确定的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;互异性：集合内的各元素都是唯⼀不重复的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;⽆序性：集合内的各元素的顺序是没有限制的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;子集与空集：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;子集：$A \subseteq B$ 或 $B \supseteq A$，表示 $A$ 中的任意元素都属于 $B$&lt;/p&gt;
-&lt;p&gt;$A \subseteq A, \varnothing \subseteq A$&lt;/p&gt;
-&lt;p&gt;$A \subseteq B$ 且 $B \subseteq C \implies A \subseteq C$&lt;/p&gt;
-&lt;p&gt;$A \subseteq B$ 且 $B \subseteq A \implies A=B$&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;真子集：$A \subsetneqq B$ 或 $B \supsetneqq A$，表示 $A \subseteq B$ 且 $B$ 中至少有一元素不属于 $A$&lt;/p&gt;
-&lt;p&gt;$A \subsetneq...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/mathematics/2/</link>
-      <pubDate>Sat, 02 May 2026 13:12:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/mathematics/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/mathematics/2/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/mathematics/2.png" type="image/png" length="30842" />
       
     </item>
     
