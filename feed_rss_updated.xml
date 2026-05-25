@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 25 May 2026 10:31:23 -0000</pubDate>
-    <lastBuildDate>Mon, 25 May 2026 10:31:23 -0000</lastBuildDate>
+    <pubDate>Mon, 25 May 2026 11:23:39 -0000</pubDate>
+    <lastBuildDate>Mon, 25 May 2026 11:23:39 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,89 @@
     
 
     
+    
+    <item>
+      <title>细胞中的能量</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;细胞中的能量&lt;/h1&gt;
+&lt;h2&gt;能量概述&lt;/h2&gt;
+&lt;h3&gt;酶的探究历程&lt;/h3&gt;
+&lt;p&gt;这段关于“酶”的探究历程，生动地展示了科学认知是如何通过观察、实验、争论和技术突破而不断演进的。以下是根据你提供的纲要进行的详细展开：&lt;/p&gt;
+&lt;p&gt;早期探索，从物理消化到化学消化的转折：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;斯帕兰札尼的实验（1773 年）&lt;/strong&gt;：在 18 世纪之前，人们普遍认为胃只能通过物理摩擦来磨碎食物。斯帕兰札尼将肉块放入带孔的小金属笼内让鹰吞下，这一设计的精妙之处在于笼子能&lt;strong&gt;排除胃物理摩擦的影响&lt;/strong&gt;，但允许胃液进入。肉块的消失证明了胃液中存在某种能分解有机物的化学物质。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;施旺发现胃蛋白酶（1835 年）&lt;/strong&gt;：德国科学家施旺在研究胃腺分泌物时，发现将其与盐酸混合后，对肉类的分解能力远超盐酸单干。他成功提取出了这种有效成分，并命名为&lt;strong&gt;胃蛋白酶&lt;/strong&gt;，这是人类历史上第一次从动物体内分离出酶。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;核心概念：细胞代谢离不开酶：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;细胞代谢定义&lt;/strong&gt;：细胞内部每时每刻都在进行的成千上万种化学反应统称为细胞代谢，它是生命活动的基础。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;酶的必要性&lt;/strong&gt;：许多化学反应在体外需要高温、高压、强酸或强碱等剧烈条件，但细胞内环境温和且...&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/2/</link>
+      <pubDate>Mon, 25 May 2026 11:09:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/2.png" type="image/png" length="31120" />
+      
+    </item>
+    
+    <item>
+      <title>集合与逻辑</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;集合与逻辑&lt;/h1&gt;
+&lt;h2&gt;基础知识&lt;/h2&gt;
+&lt;h3&gt;集合的定义&lt;/h3&gt;
+&lt;p&gt;集合：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;某些指定的对象集在⼀起就形成⼀个集合（简称集）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;元素：集合中每个对象叫做这个集合的元素。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;集合的三要素：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;确定性：集合内的元素是可以被确定的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;互异性：集合内的各元素都是唯⼀不重复的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;⽆序性：集合内的各元素的顺序是没有限制的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-383b079.avif&#34;&gt;{ width=&#34;90%&#34; }&lt;/p&gt;
+&lt;p&gt;子集与空集：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;子集：$A \subseteq B$ 或 $B \supseteq A$，表示 $A$ 中的任意元素都属于 $B$&lt;/p&gt;
+&lt;p&gt;$A \subseteq A, \varnothing \subseteq A$&lt;/p&gt;
+&lt;p&gt;$A \subseteq B$ 且 $B \subseteq C \implies A \subseteq C$&lt;/p&gt;
+&lt;p&gt;$A \subseteq B$ 且 $B \subseteq A \implies A=B$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;真子集：$A \subsetneqq B$ 或 $B \supsetneqq A$，表示 $A \sub...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/mathematics/2/</link>
+      <pubDate>Mon, 25 May 2026 11:09:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mathematics/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mathematics/2.png" type="image/png" length="30842" />
+      
+    </item>
     
     <item>
       <title>细胞中的物质</title>
@@ -81,36 +164,6 @@
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/1/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/1.png" type="image/png" length="32078" />
-      
-    </item>
-    
-    <item>
-      <title>细胞中的能量</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;细胞中的能量&lt;/h1&gt;
-&lt;h2&gt;能量概述&lt;/h2&gt;
-&lt;h3&gt;酶的探究历程&lt;/h3&gt;
-&lt;p&gt;这段关于“酶”的探究历程，生动地展示了科学认知是如何通过观察、实验、争论和技术突破而不断演进的。以下是根据你提供的纲要进行的详细展开：&lt;/p&gt;
-&lt;p&gt;早期探索，从物理消化到化学消化的转折：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;斯帕兰札尼的实验（1773 年）&lt;/strong&gt;：在 18 世纪之前，人们普遍认为胃只能通过物理摩擦来磨碎食物。斯帕兰札尼将肉块放入带孔的小金属笼内让鹰吞下，这一设计的精妙之处在于笼子能&lt;strong&gt;排除胃物理摩擦的影响&lt;/strong&gt;，但允许胃液进入。肉块的消失证明了胃液中存在某种能分解有机物的化学物质。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;施旺发现胃蛋白酶（1835 年）&lt;/strong&gt;：德国科学家施旺在研究胃腺分泌物时，发现将其与盐酸混合后，对肉类的分解能力远超盐酸单干。他成功提取出了这种有效成分，并命名为&lt;strong&gt;胃蛋白酶&lt;/strong&gt;，这是人类历史上第一次从动物体内分离出酶。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;核心概念：细胞代谢离不开酶：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;细胞代谢定义&lt;/strong&gt;：细胞内部每时每刻都在进行的成千上万种化学反应统称为细胞代谢，它是生命活动的基础。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;酶的必要性&lt;/strong&gt;：许多化学反应在体外需要高温、高压、强酸或强碱等剧烈条件，但细胞内环境温和且...&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/2/</link>
-      <pubDate>Mon, 25 May 2026 10:30:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/2.png" type="image/png" length="31120" />
       
     </item>
     
@@ -448,59 +501,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/1/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mathematics/1.png" type="image/png" length="34121" />
-      
-    </item>
-    
-    <item>
-      <title>集合与逻辑</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;集合与逻辑&lt;/h1&gt;
-&lt;h2&gt;基础知识&lt;/h2&gt;
-&lt;h3&gt;集合的定义&lt;/h3&gt;
-&lt;p&gt;集合：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;某些指定的对象集在⼀起就形成⼀个集合（简称集）。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;元素：集合中每个对象叫做这个集合的元素。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;集合的三要素：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;确定性：集合内的元素是可以被确定的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;互异性：集合内的各元素都是唯⼀不重复的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;⽆序性：集合内的各元素的顺序是没有限制的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image.png&#34;&gt;{ width=&#34;90%&#34; }&lt;/p&gt;
-&lt;p&gt;子集与空集：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;子集：$A \subseteq B$ 或 $B \supseteq A$，表示 $A$ 中的任意元素都属于 $B$&lt;/p&gt;
-&lt;p&gt;$A \subseteq A, \varnothing \subseteq A$&lt;/p&gt;
-&lt;p&gt;$A \subseteq B$ 且 $B \subseteq C \implies A \subseteq C$&lt;/p&gt;
-&lt;p&gt;$A \subseteq B$ 且 $B \subseteq A \implies A=B$&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;真子集：$A \subsetneqq B$ 或 $B \supsetneqq A$，表示 $A \subseteq B$ ...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/mathematics/2/</link>
-      <pubDate>Sun, 24 May 2026 12:42:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/mathematics/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mathematics/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mathematics/2.png" type="image/png" length="30842" />
       
     </item>
     

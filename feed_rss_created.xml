@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 25 May 2026 10:31:23 -0000</pubDate>
-    <lastBuildDate>Mon, 25 May 2026 10:31:23 -0000</lastBuildDate>
+    <pubDate>Mon, 25 May 2026 11:23:39 -0000</pubDate>
+    <lastBuildDate>Mon, 25 May 2026 11:23:39 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -1838,7 +1838,7 @@ https://chi.lushuyu.site/%E6%96%87%E8%A8%80%E6%96%87/%E6%96%87%E8%A8%80%E8%99%9A
 &lt;p&gt;⽆序性：集合内的各元素的顺序是没有限制的。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image.png&#34;&gt;{ width=&#34;90%&#34; }&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-383b079.avif&#34;&gt;{ width=&#34;90%&#34; }&lt;/p&gt;
 &lt;p&gt;子集与空集：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -1848,7 +1848,7 @@ https://chi.lushuyu.site/%E6%96%87%E8%A8%80%E6%96%87/%E6%96%87%E8%A8%80%E8%99%9A
 &lt;p&gt;$A \subseteq B$ 且 $B \subseteq A \implies A=B$&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;真子集：$A \subsetneqq B$ 或 $B \supsetneqq A$，表示 $A \subseteq B$ ...&lt;/p&gt;
+&lt;p&gt;真子集：$A \subsetneqq B$ 或 $B \supsetneqq A$，表示 $A \sub...&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/mathematics/2/</link>
