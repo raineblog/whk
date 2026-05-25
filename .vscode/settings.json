@@ -8,5 +8,7 @@
     "editor.wrappingStrategy": "advanced",
     "kilo-code.new.autocomplete.enableAutoTrigger": false,
     "geminicodeassist.inlineSuggestions.enableAuto": false,
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.wordBasedSuggestions": "off",
+    "editor.acceptSuggestionOnEnter": "smart"
 }
