@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 25 May 2026 02:42:25 -0000</pubDate>
-    <lastBuildDate>Mon, 25 May 2026 02:42:25 -0000</lastBuildDate>
+    <pubDate>Mon, 25 May 2026 10:31:27 -0000</pubDate>
+    <lastBuildDate>Mon, 25 May 2026 10:31:27 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,68 @@
     
 
     
+    
+    <item>
+      <title>基因工程及其应用</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;基因工程及其应用&lt;/h1&gt;
+&lt;h2&gt;基因工程概论&lt;/h2&gt;
+&lt;h3&gt;基因工程发展简史&lt;/h3&gt;
+&lt;p&gt;基因工程是在生物化学、分子生物学和微生物学等学科的基础上发展起来的，正是这些学科的基础理论和相关技术的发展催生了基因工程。基因工程是指按照人们的愿望，通过转基因等技术，赋予生物新的遗传特性，创造出更符合人们需要的新的生物类型和生物产品。从技术操作层面看，由于基因工程是在 DNA 分子水平上进行设计和施工的，因此又叫作重组 DNA 技术。&lt;/p&gt;
+&lt;p&gt;| 年份/时间 | 人物（其他信息） | 事件/意义 |
+|:---:|:---|:---|
+| 1944 年 | 艾弗里等 | 证明遗传物质是 DNA，且可在同种生物不同个体间转移 |
+| 1950-1952 年 | 埃德曼；桑格 | 发明氨基酸测序方法；完成胰岛素氨基酸序列测定 |
+| 1953 年 | 沃森、克里克 | 建立 DNA 双螺旋结构模型，提出自我复制假说 |
+| 1958 年 | 梅塞尔森、斯塔尔 | 实验证明 DNA 的半保留复制；中心法则确立 |
+| 1961-1966 年 | 尼伦伯格、马太等 | 破译第一个密码子，至 1966 年全部 64 个密...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/cell/8/</link>
+      <pubDate>Mon, 25 May 2026 10:30:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/cell/8/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/8/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/8.png" type="image/png" length="32853" />
+      
+    </item>
+    
+    <item>
+      <title>发酵技术与工程</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;发酵技术与工程&lt;/h1&gt;
+&lt;h2&gt;发酵技术与工程&lt;/h2&gt;
+&lt;h3&gt;发酵与发酵技术&lt;/h3&gt;
+&lt;p&gt;1857 年，法国微生物学家巴斯德通过实验证明，酒精发酵是由活的酵母菌引起的。此后，人们才开始了解发酵的本质。这里所说的发酵（fermentation），是指人们利用微生物，在适宜的条件下，将原料通过微生物的代谢转化为人类所需要的产物的过程。不同的微生物具有产生不同代谢物的能力，因此利用它们就可以生产出人们所需要的多种产物。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;深度拓展：发酵的狭义与广义定义&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在不同的学科语境下，「发酵」一词的定义范围差异很大：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. 狭义发酵（教材/考试定义）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;严格限定为利用微生物进行的生产过程&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;必须是&lt;strong&gt;微生物&lt;/strong&gt;（细菌、酵母菌、霉菌等）&lt;/li&gt;
+&lt;li&gt;动植物细胞的无氧呼吸（即使产生酒精或乳酸）&lt;strong&gt;不叫发酵&lt;/strong&gt;，而叫「无氧呼吸」&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;典型例子&lt;/strong&gt;：酵母菌的酒精发酵、乳酸菌的乳酸发酵、醋酸菌的醋酸发酵、谷氨酸棒杆菌的谷氨酸发酵&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2. 广义发酵（生物化学定义）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;指**任何生物在无氧条件下，通过将丙酮酸进一步代谢来再生 NAD⁺，从而维...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/experiment/4/</link>
+      <pubDate>Mon, 25 May 2026 10:30:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/experiment/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/experiment/4/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/experiment/4.png" type="image/png" length="32923" />
+      
+    </item>
     
     <item>
       <title>极限与微积分</title>
@@ -122,12 +184,14 @@ $$&lt;/p&gt;
       
       
       <description>&lt;h1&gt;细胞增殖和细胞工程&lt;/h1&gt;
-&lt;h2&gt;减数分裂和受精作用与胚胎&lt;/h2&gt;
+&lt;h2&gt;细胞的分裂与分化&lt;/h2&gt;
+&lt;h3&gt;细胞的分化&lt;/h3&gt;
 &lt;h3&gt;减数分裂的过程&lt;/h3&gt;
-&lt;h3&gt;胚胎工程的理论基础&lt;/h3&gt;
+&lt;h2&gt;减数分裂与胚胎过程&lt;/h2&gt;
+&lt;h3&gt;胚胎的发育过程&lt;/h3&gt;
 &lt;p&gt;像培育试管婴儿这样，对动物早期胚胎或配子进行显微操作和处理以获得目标个体的技术称为胚胎工程。其操作的主要对象是生殖细胞、受精卵以及早期胚胎细胞。胚胎发育是胚胎工程的理论基础。那么，动物胚胎是如何发育的呢？虽然脊椎动物种类繁多，胚胎发育过程也存在差异，但其早期发育较为相似，分成受精、卵裂、桑椹胚、囊胚、原肠胚与器官形成等阶段（图 2-29）。&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;蛙胚胎形成和发育过程示意图&#34; src=&#34;image-15-749ac2a.avif&#34;&gt;{ width=&#34;90%&#34; }&lt;/p&gt;
-&lt;p&gt;以蛙为例，由于卵黄分布不对称，精子与卵结合之后形成的受精卵分为动物极（发育为外胚层）和植物极（发育为中胚层和内胚层）。受精卵形成后开始卵裂，先分裂成两个细胞，之后细胞通常会逐次倍增，但胚胎的总体积大致不变。受精卵分裂成 $16 \sim 32$ 个细胞的阶段，称为桑椹胚。在这个阶段，动物极细胞的分裂频率会超越靠近植物极且含有较多卵黄的细胞群，形成中空的球状胚，称为囊胚。随后形成的原肠胚具有外胚层、中胚层与内胚层，这三...&lt;/p&gt;</description>
+&lt;p&gt;以蛙为例，由于卵黄分布不对称，精子与卵结合之后形成的受精卵分为动物极（发育为外胚层）和植物极（发育为中胚层和内胚层）。受精卵形成后开始卵裂，先分裂成两个细胞，之后细胞通常会逐次倍增，但胚胎的总体积大致不变。受精卵分裂成 $16 \sim 32$ 个细胞的阶段，称为桑椹胚。在这个阶段，动物极细胞的分裂频率会超越靠近植物极且含有较多卵黄的细胞群，形成中空的球状胚，称为囊胚。随后形成的...&lt;/p&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/cell/5/</link>
       <pubDate>Thu, 19 Mar 2026 12:54:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -139,46 +203,92 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>基因工程及其应用</title>
+      <title>基因及其本质</title>
       
       
       
       
-      <description>&lt;h1&gt;基因工程及其应用&lt;/h1&gt;
-&lt;h2&gt;基因工程概论&lt;/h2&gt;
-&lt;h3&gt;基因工程发展简史&lt;/h3&gt;
-&lt;p&gt;基因工程是在生物化学、分子生物学和微生物学等学科的基础上发展起来的，正是这些学科的基础理论和相关技术的发展催生了基因工程。基因工程是指按照人们的愿望，通过转基因等技术，赋予生物新的遗传特性，创造出更符合人们需要的新的生物类型和生物产品。从技术操作层面看，由于基因工程是在 DNA 分子水平上进行设计和施工的，因此又叫作重组 DNA 技术。&lt;/p&gt;
-&lt;p&gt;| 年份/时间 | 人物（其他信息） | 事件/意义 |
-|:---:|:---|:---|
-| 1944 年 | 艾弗里等 | 证明遗传物质是 DNA，且可在同种生物不同个体间转移 |
-| 1950-1952 年 | 埃德曼；桑格 | 发明氨基酸测序方法；完成胰岛素氨基酸序列测定 |
-| 1953 年 | 沃森、克里克 | 建立 DNA 双螺旋结构模型，提出自我复制假说 |
-| 1958 年 | 梅塞尔森、斯塔尔 | 实验证明 DNA 的半保留复制；中心法则确立 |
-| 1961-1966 年 | 尼伦伯格、马太等 | 破译第一个密码子，至 1966 年全部 64 个密...&lt;/p&gt;</description>
+      <description>&lt;h1&gt;基因及其本质&lt;/h1&gt;
+&lt;h2&gt;基因与染色体&lt;/h2&gt;
+&lt;h3&gt;基因在染色体上&lt;/h3&gt;
+&lt;h3&gt;伴性遗传&lt;/h3&gt;
+&lt;h3&gt;DNA 是主要的遗传物质&lt;/h3&gt;
+&lt;h3&gt;DNA 的结构&lt;/h3&gt;
+&lt;h3&gt;DNA 的复制&lt;/h3&gt;
+&lt;h3&gt;基因通常是有遗传效应的 DNA 片段&lt;/h3&gt;
+&lt;h2&gt;基因突变及其他变异&lt;/h2&gt;
+&lt;h3&gt;基因突变和基因重组&lt;/h3&gt;
+&lt;h3&gt;染色体变异&lt;/h3&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-03-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-03-19T12:54:34+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-...</description>
       <link>https://raineblog-whk.pages.dev/science/cell/6/</link>
       <pubDate>Thu, 19 Mar 2026 12:54:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/science/cell/6/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/6/</guid>
       
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/6.png" type="image/png" length="32853" />
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/6.png" type="image/png" length="31515" />
       
     </item>
     
     <item>
-      <title>发酵技术详解：酵母发酵机制与工业应用微生物工程</title>
+      <title>经典遗传学应用</title>
       
       
       
       
-      <description>本文系统阐述发酵技术的三大定义及其演进重点解析酵母菌酒精发酵乳酸菌乳酸发酵以及醋酸菌氧化乙醇的生化路径通过分子水平描述糖酵解丙酮酸还原及氧化磷酸化过程详细说明在厌氧与好氧条件下 NAD 再生酶活性调控及代谢通量分配并对工业规模化操作中的温度 pH 溶解氧控制提供深度解析</description>
+      <description>&lt;h1&gt;经典遗传学应用&lt;/h1&gt;
+&lt;h2&gt;孟德尔规律基础&lt;/h2&gt;
+&lt;h3&gt;性状和基因&lt;/h3&gt;
+&lt;p&gt;性状：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;性状：生物体具有的形态结构和生理特征。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;相对性状：同种生物的同一性状的不同表现类型。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;隐性性状：一对相对性状的亲本杂交，杂种子一代未显现出来的性状。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;显性性状：一对相对性状的亲本杂交，杂种子一代显现出来的性状。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;性状分离：在杂种后代中，同时出现显性性状和隐性性状的现象。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;丹麦生物学家约翰逊给孟德尔的“遗传因子”一词起了一个新名字，叫作“基因”，并且提出了表型（也叫表现型）和基因型的概念：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;表型指生物个体表现出来的性状，如豌豆的高茎和矮茎。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;与表型有关的基因组成叫作基因型，如高茎豌豆的基因型是 DD 或 Dd，矮茎豌豆的基因型是 dd。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;控制相对性状的基因，叫作等位基因，如 D 和 d。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;基因型与表现型的关系：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;基因型是性状表现的内在因素，在很大程度上决定表现型，而表现型是基因型的表现形式。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;表现型（生物的性状表现）是基因型（遗传物质组成）和环境条件共同作用的结果。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;孟德尔的假说&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;生物的性状是由遗传因子决定的。这些因子就像...&lt;/li&gt;
+&lt;/ol&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/cell/7/</link>
       <pubDate>Thu, 19 Mar 2026 12:54:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/science/cell/7/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/7/</guid>
       
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/7.png" type="image/png" length="26901" />
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/7.png" type="image/png" length="34238" />
       
     </item>
     
@@ -1305,19 +1415,38 @@ https://chi.lushuyu.site/%E6%96%87%E8%A8%80%E6%96%87/%E6%96%87%E8%A8%80%E8%99%9A
     </item>
     
     <item>
-      <title>科学原理详解：物理机制与实验应用全解析指南</title>
+      <title>细胞的基本生命过程</title>
       
       
       
       
-      <description>本文系统阐述基础科学概念的结构框架，涵盖实验观测、理论推导及数学模型构建过程。重点解析关键原理，包括能量转换、信息传递与反馈机制，并对应用场景提供实用指南，帮助读者快速掌握科学方法论。文章还提供了实例分析，展示如何将理论步骤转化为可操作的实验方案，适用于科研教学与跨学科研究。</description>
+      <description>&lt;h1&gt;细胞的基本生命过程&lt;/h1&gt;
+&lt;h2&gt;核酸&lt;/h2&gt;
+&lt;h3&gt;核苷酸&lt;/h3&gt;
+&lt;p&gt;核酸的单体结构为核苷酸，每个核苷酸由一个核苷（一个五碳糖、一个含氮碱基）和一个或多个磷酸基团组成。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;./Nucleotides_zh.avif&#34;&gt;{width=&#34;90%&#34;}&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;如果其五碳糖是脱氧核糖，则此单体的聚合物是脱氧核糖核酸 DNA。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果其五碳糖是核糖，则此单体的聚合物是核糖核酸 RNA。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;./Difference_DNA_RNA-ZH.svg&#34;&gt;{width=&#34;90%&#34;}&lt;/p&gt;
+&lt;p&gt;核酸的结构可分为一级结构、二级结构、三级结构和四级结构。&lt;/p&gt;
+&lt;p&gt;碱基互补配对：&lt;/p&gt;
+&lt;p&gt;| 胞嘧啶、鸟嘌呤 &lt;br/&gt; 之间生成三条氢键 | 腺嘌呤、胸腺嘧啶 &lt;br/&gt; 之间生成两条氢键 |
+| :---------------------------------: | :-----------------------------------: |
+| &lt;img alt=&#34;&#34; src=&#34;./Base_pair_GC.svg&#34;&gt;             | &lt;img alt=&#34;&#34; src=&#34;./Base_pair_AT.svg&#34;&gt;               |&lt;/p&gt;
+&lt;p&gt;最终形成脱氧核糖...&lt;/p&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/cell/4/</link>
       <pubDate>Sun, 12 Oct 2025 13:16:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/science/cell/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/4/</guid>
       
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/4.png" type="image/png" length="47229" />
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/4.png" type="image/png" length="35627" />
       
     </item>
     
@@ -2705,12 +2834,12 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>细胞及其物质与能量</title>
+      <title>细胞中的物质</title>
       
       
       
       
-      <description>&lt;h1&gt;细胞及其物质与能量&lt;/h1&gt;
+      <description>&lt;h1&gt;细胞中的物质&lt;/h1&gt;
 &lt;h2&gt;细胞学说&lt;/h2&gt;
 &lt;h3&gt;细胞学说的概述&lt;/h3&gt;
 &lt;p&gt;细胞学说的建立者主要是两位德国科学家施莱登和施旺。后人根据他们发表的研究结果进行整理并加以修正，综合为以下要点：&lt;/p&gt;
@@ -2744,7 +2873,7 @@ $$&lt;/p&gt;
 &lt;p&gt;列文虎克用自制的显微镜，观察到不同形态的细菌、红细胞和精子等。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;马尔比基用显微镜广泛观察了动植物的微细结构，如细...&lt;/p&gt;
+&lt;p&gt;马尔比基用显微镜广泛观察了动植物的微细结构，如细胞壁和...&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/cell/1/</link>
@@ -2753,62 +2882,67 @@ $$&lt;/p&gt;
       <comments>https://raineblog-whk.pages.dev/science/cell/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/1/</guid>
       
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/1.png" type="image/png" length="36864" />
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/1.png" type="image/png" length="32078" />
       
     </item>
     
     <item>
-      <title>细胞中的有机物</title>
+      <title>细胞中的能量</title>
       
       
       
       
-      <description>&lt;h1&gt;细胞中的有机物&lt;/h1&gt;
-&lt;p&gt;细胞是由多种元素和化合物构成的。在构成细胞的化合物中，多糖、蛋白质、核酸都是生物大分子。通过学习，我们知道组成多糖的基本单位是单糖，组成蛋白质的基本单位是氨基酸，组成核酸的基本单位是核苷酸，这些基本单位称为单体。每一个单体都以若干个相连的碳原子构成的碳链为基本骨架。生物大分子是由许多单体连接成的多聚体，因此，生物大分子也是以碳链为基本骨架的。正是由于碳原子在组成生物大分子中的重要作用，科学家才说“碳是生命的核心元素”“没有碳，就没有生命”。&lt;/p&gt;
-&lt;p&gt;碳原子性质不活泼，它的最外层有 4 个电子，不易失去或得到电子而形成离子。在含碳化合物中，碳原子与其他原子通过共用电子对结合在一起。原子间通过共用电子对而形成的化学键叫共价键。碳原子之间也可以形成共价键，这样多个碳原子可以相互结合形成稳定的碳链。&lt;/p&gt;
-&lt;p&gt;以碳链为骨架的多糖、蛋白质、核酸等生物大分子，构成细胞生命大厦的基本框架；糖类和脂质提供了生命活动的重要能源；水和无机盐与其他物质一起，共同承担着构建细胞、参与细胞生命活动等重要功能。细胞中的这些化合物，含量和比例处在不断变化之中，但又保持相对稳定，以保证细胞生命活动的正常...&lt;/p&gt;</description>
+      <description>&lt;h1&gt;细胞中的能量&lt;/h1&gt;
+&lt;h2&gt;能量概述&lt;/h2&gt;
+&lt;h3&gt;酶的探究历程&lt;/h3&gt;
+&lt;p&gt;这段关于“酶”的探究历程，生动地展示了科学认知是如何通过观察、实验、争论和技术突破而不断演进的。以下是根据你提供的纲要进行的详细展开：&lt;/p&gt;
+&lt;p&gt;早期探索，从物理消化到化学消化的转折：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;斯帕兰札尼的实验（1773 年）&lt;/strong&gt;：在 18 世纪之前，人们普遍认为胃只能通过物理摩擦来磨碎食物。斯帕兰札尼将肉块放入带孔的小金属笼内让鹰吞下，这一设计的精妙之处在于笼子能&lt;strong&gt;排除胃物理摩擦的影响&lt;/strong&gt;，但允许胃液进入。肉块的消失证明了胃液中存在某种能分解有机物的化学物质。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;施旺发现胃蛋白酶（1835 年）&lt;/strong&gt;：德国科学家施旺在研究胃腺分泌物时，发现将其与盐酸混合后，对肉类的分解能力远超盐酸单干。他成功提取出了这种有效成分，并命名为&lt;strong&gt;胃蛋白酶&lt;/strong&gt;，这是人类历史上第一次从动物体内分离出酶。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;核心概念：细胞代谢离不开酶：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;细胞代谢定义&lt;/strong&gt;：细胞内部每时每刻都在进行的成千上万种化学反应统称为细胞代谢，它是生命活动的基础。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;酶的必要性&lt;/strong&gt;：许多化学反应在体外需要高温、高压、强酸或强碱等剧烈条件，但细胞内环境温和且...&lt;/li&gt;
+&lt;/ul&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/cell/2/</link>
       <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/science/cell/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/2/</guid>
       
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/2.png" type="image/png" length="32451" />
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/2.png" type="image/png" length="31120" />
       
     </item>
     
     <item>
-      <title>细胞的结构与功能</title>
+      <title>细胞的结构和功能</title>
       
       
       
       
-      <description>&lt;h1&gt;细胞的结构与功能&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-04-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-04-19T14:19:04+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-05-21&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-05-21T09:16:46+00...</description>
+      <description>&lt;h1&gt;细胞的结构和功能&lt;/h1&gt;
+&lt;h2&gt;细胞的基本结构&lt;/h2&gt;
+&lt;h3&gt;细胞膜的结构和功能&lt;/h3&gt;
+&lt;p&gt;细胞膜（质膜）不仅是细胞的物理边界，更是维持生命活动的关键结构。以下根据你提供的课本内容并结合多方资料，详细展开讲解其结构与功能：&lt;/p&gt;
+&lt;p&gt;细胞膜的化学组成：细胞膜主要由&lt;strong&gt;脂质&lt;/strong&gt;和&lt;strong&gt;蛋白质&lt;/strong&gt;组成，含有少量&lt;strong&gt;糖类&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;脂质（约 50%）&lt;/strong&gt;：磷脂是基本成分，其磷酸“头部”亲水，脂肪酸“尾部”疏水。在水中，磷脂分子自发形成&lt;strong&gt;磷脂双分子层&lt;/strong&gt;，疏水端相对位于内侧，构成膜的基本支架。动物细胞膜还含有&lt;strong&gt;胆固醇&lt;/strong&gt;，用于调节膜的流动性和稳定性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;蛋白质（约 40%）&lt;/strong&gt;：蛋白质是功能的主要执行者，其种类和数量决定了膜功能的复杂程度。膜蛋白以镶、嵌、贯穿等方式分布在脂双层中，担任转运蛋白、受体、酶或细胞连接的角色。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;糖类（2%~10%）&lt;/strong&gt;：仅分布在细胞膜的&lt;strong&gt;外侧&lt;/strong&gt;，与蛋白质结合形成糖蛋白（糖被），或与脂质结合形成糖脂。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;目前公认的结构是 1972 年提出的&lt;strong&gt;流动镶嵌模型&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;流动性&lt;/strong&gt;：磷脂分子和大多数蛋白质分子都不是静止的，可以在膜平面内做横向移动，这使得膜...&lt;/li&gt;
+&lt;/ul&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/cell/3/</link>
       <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/science/cell/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/3/</guid>
       
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/3.png" type="image/png" length="35522" />
-      
-    </item>
-    
-    <item>
-      <title>基因工程育种详解：杂种优势机制与作物育种应用佳</title>
-      
-      
-      
-      
-      <description>本文系统阐述基因工程育种中的杂种优势机制，涵盖显性假说、超显性、组-胞质互作及表观遗传调控等理论框架，分析三系法、两系法及八倍体小黑麦的育种策略，提供从基因层面到产量提升的完整技术路线，并探讨其在作物抗逆性、品质改良及可持续农业中的应用前景。</description>
-      <link>https://raineblog-whk.pages.dev/science/genetics/4/</link>
-      <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/genetics/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/genetics/4/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/genetics/4.png" type="image/png" length="42466" />
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/3.png" type="image/png" length="35623" />
       
     </item>
     
@@ -3434,57 +3568,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/element/si/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/element/si.png" type="image/png" length="34845" />
-      
-    </item>
-    
-    <item>
-      <title>变异与进化详解：基因突变机制与自然选择的应用场景</title>
-      
-      
-      
-      
-      <description>本文系统阐述基因变异的来源与类型，包括点突变、插入缺失与染色体重排，分析脱氧核糖核酸复制错误、环境诱变与修复机制；随后探讨自然选择、性状遗传及种群遗传平衡的数学模型，并结合实验案例说明变异在进化中的关键作用。</description>
-      <link>https://raineblog-whk.pages.dev/science/genetics/1/</link>
-      <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/genetics/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/genetics/1/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/genetics/1.png" type="image/png" length="43595" />
-      
-    </item>
-    
-    <item>
-      <title>孟德尔遗传规律详解：分离与自由组合定律及应用场景</title>
-      
-      
-      
-      
-      <description>本文系统阐述孟德尔遗传因子的分离定律与自由组合定律，解析配子形成过程、等位基因配对及表型-基因型关系，重点探讨豌豆杂交实验的统计方法、连续自交比例与致死配子模型，并提供白化病等遗传病的概率推断与育种策略。</description>
-      <link>https://raineblog-whk.pages.dev/science/genetics/2/</link>
-      <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/genetics/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/genetics/2/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/genetics/2.png" type="image/png" length="44194" />
-      
-    </item>
-    
-    <item>
-      <title>遗传病详解：常染色体显性隐性伴性遗传机制与应用</title>
-      
-      
-      
-      
-      <description>本文系统阐述人类遗传病的分类与遗传规律，涵盖单基因、常染色体显性隐性、伴性遗传及染色体异常等六大类别，重点解析判断方法、显隐性规律、伴性染色体特征及致死突变的遗传概率计算，并提供实例帮助学生掌握遗传概率统计与临床应用。</description>
-      <link>https://raineblog-whk.pages.dev/science/genetics/3/</link>
-      <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/genetics/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/genetics/3/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/genetics/3.png" type="image/png" length="43139" />
       
     </item>
     
