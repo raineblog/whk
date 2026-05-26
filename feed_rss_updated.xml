@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 25 May 2026 11:23:35 -0000</pubDate>
-    <lastBuildDate>Mon, 25 May 2026 11:23:35 -0000</lastBuildDate>
+    <pubDate>Tue, 26 May 2026 10:36:25 -0000</pubDate>
+    <lastBuildDate>Tue, 26 May 2026 10:36:25 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,71 @@
     
 
     
+    
+    <item>
+      <title>细胞的结构和功能</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;细胞的结构和功能&lt;/h1&gt;
+&lt;h2&gt;细胞的基本结构&lt;/h2&gt;
+&lt;h3&gt;细胞膜的结构和功能&lt;/h3&gt;
+&lt;p&gt;细胞膜（质膜）不仅是细胞的物理边界，更是维持生命活动的关键结构。以下根据你提供的课本内容并结合多方资料，详细展开讲解其结构与功能：&lt;/p&gt;
+&lt;p&gt;细胞膜的化学组成：细胞膜主要由&lt;strong&gt;脂质&lt;/strong&gt;和&lt;strong&gt;蛋白质&lt;/strong&gt;组成，含有少量&lt;strong&gt;糖类&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;脂质（约 50%）&lt;/strong&gt;：磷脂是基本成分，其磷酸“头部”亲水，脂肪酸“尾部”疏水。在水中，磷脂分子自发形成&lt;strong&gt;磷脂双分子层&lt;/strong&gt;，疏水端相对位于内侧，构成膜的基本支架。动物细胞膜还含有&lt;strong&gt;胆固醇&lt;/strong&gt;，用于调节膜的流动性和稳定性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;蛋白质（约 40%）&lt;/strong&gt;：蛋白质是功能的主要执行者，其种类和数量决定了膜功能的复杂程度。膜蛋白以镶、嵌、贯穿等方式分布在脂双层中，担任转运蛋白、受体、酶或细胞连接的角色。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;糖类（2%~10%）&lt;/strong&gt;：仅分布在细胞膜的&lt;strong&gt;外侧&lt;/strong&gt;，与蛋白质结合形成糖蛋白（糖被），或与脂质结合形成糖脂。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;目前公认的结构是 1972 年提出的&lt;strong&gt;流动镶嵌模型&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;流动性&lt;/strong&gt;：磷脂分子和大多数蛋白质分子都不是静止的，可以在膜平面内做横向移动，这使得膜...&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/cell/3/</link>
+      <pubDate>Tue, 26 May 2026 10:35:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/cell/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/3/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/3.png" type="image/png" length="35623" />
+      
+    </item>
+    
+    <item>
+      <title>细胞增殖和细胞工程</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;细胞增殖和细胞工程&lt;/h1&gt;
+&lt;h2&gt;细胞的分裂入门&lt;/h2&gt;
+&lt;h3&gt;细胞分裂的主要方式&lt;/h3&gt;
+&lt;p&gt;细胞增殖是生物体生长、发育、繁殖和遗传的基础，是重要的生命活动。它通过细胞分裂增加细胞数量，通常包括物质准备（如 DNA 复制）和细胞分裂两个连续阶段。&lt;/p&gt;
+&lt;p&gt;根据细胞类型的不同，细胞增殖的方式也有所区别：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;原核细胞&lt;/strong&gt;：主要通过&lt;strong&gt;二分分裂&lt;/strong&gt;（Binary Fission）进行增殖，过程相对简单，DNA 复制后细胞直接一分为二。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;真核细胞&lt;/strong&gt;：主要有三种方式：&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;有丝分裂&lt;/strong&gt;：是体细胞增殖的主要方式，能保证亲子代细胞遗传物质的稳定性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;无丝分裂&lt;/strong&gt;：过程简单，不出现纺锤丝和染色体，如蛙的红细胞。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;减数分裂&lt;/strong&gt;：与有性生殖有关，发生在原始生殖细胞产生配子的过程中。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;细胞周期（Cell Cycle）是细胞从一次分裂完成开始，到下一次分裂完成为止所经历的全过程，是生物体增殖的基础。&lt;/p&gt;
+&lt;p&gt;细胞周期主要分为两个阶段：&lt;strong&gt;间期&lt;/strong&gt;和&lt;strong&gt;分裂期（M 期）&lt;/strong&gt;。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;分裂间期 (Interphase)&lt;/strong&gt;：占细胞周期的 90%~95%，是物质准备...&lt;/li&gt;
+&lt;/ol&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/cell/5/</link>
+      <pubDate>Tue, 26 May 2026 10:35:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/cell/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/5/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/5.png" type="image/png" length="32535" />
+      
+    </item>
     
     <item>
       <title>细胞中的能量</title>
@@ -168,36 +233,6 @@
     </item>
     
     <item>
-      <title>细胞的结构和功能</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;细胞的结构和功能&lt;/h1&gt;
-&lt;h2&gt;细胞的基本结构&lt;/h2&gt;
-&lt;h3&gt;细胞膜的结构和功能&lt;/h3&gt;
-&lt;p&gt;细胞膜（质膜）不仅是细胞的物理边界，更是维持生命活动的关键结构。以下根据你提供的课本内容并结合多方资料，详细展开讲解其结构与功能：&lt;/p&gt;
-&lt;p&gt;细胞膜的化学组成：细胞膜主要由&lt;strong&gt;脂质&lt;/strong&gt;和&lt;strong&gt;蛋白质&lt;/strong&gt;组成，含有少量&lt;strong&gt;糖类&lt;/strong&gt;。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;脂质（约 50%）&lt;/strong&gt;：磷脂是基本成分，其磷酸“头部”亲水，脂肪酸“尾部”疏水。在水中，磷脂分子自发形成&lt;strong&gt;磷脂双分子层&lt;/strong&gt;，疏水端相对位于内侧，构成膜的基本支架。动物细胞膜还含有&lt;strong&gt;胆固醇&lt;/strong&gt;，用于调节膜的流动性和稳定性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;蛋白质（约 40%）&lt;/strong&gt;：蛋白质是功能的主要执行者，其种类和数量决定了膜功能的复杂程度。膜蛋白以镶、嵌、贯穿等方式分布在脂双层中，担任转运蛋白、受体、酶或细胞连接的角色。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;糖类（2%~10%）&lt;/strong&gt;：仅分布在细胞膜的&lt;strong&gt;外侧&lt;/strong&gt;，与蛋白质结合形成糖蛋白（糖被），或与脂质结合形成糖脂。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;目前公认的结构是 1972 年提出的&lt;strong&gt;流动镶嵌模型&lt;/strong&gt;。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;流动性&lt;/strong&gt;：磷脂分子和大多数蛋白质分子都不是静止的，可以在膜平面内做横向移动，这使得膜...&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/cell/3/</link>
-      <pubDate>Mon, 25 May 2026 10:30:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/cell/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/3/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/3.png" type="image/png" length="35623" />
-      
-    </item>
-    
-    <item>
       <title>细胞的基本生命过程</title>
       
       
@@ -230,31 +265,6 @@
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/4/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/4.png" type="image/png" length="35627" />
-      
-    </item>
-    
-    <item>
-      <title>细胞增殖和细胞工程</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;细胞增殖和细胞工程&lt;/h1&gt;
-&lt;h2&gt;细胞的分裂与分化&lt;/h2&gt;
-&lt;h3&gt;细胞的分化&lt;/h3&gt;
-&lt;h3&gt;减数分裂的过程&lt;/h3&gt;
-&lt;h2&gt;减数分裂与胚胎过程&lt;/h2&gt;
-&lt;h3&gt;胚胎的发育过程&lt;/h3&gt;
-&lt;p&gt;像培育试管婴儿这样，对动物早期胚胎或配子进行显微操作和处理以获得目标个体的技术称为胚胎工程。其操作的主要对象是生殖细胞、受精卵以及早期胚胎细胞。胚胎发育是胚胎工程的理论基础。那么，动物胚胎是如何发育的呢？虽然脊椎动物种类繁多，胚胎发育过程也存在差异，但其早期发育较为相似，分成受精、卵裂、桑椹胚、囊胚、原肠胚与器官形成等阶段（图 2-29）。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;蛙胚胎形成和发育过程示意图&#34; src=&#34;image-15-749ac2a.avif&#34;&gt;{ width=&#34;90%&#34; }&lt;/p&gt;
-&lt;p&gt;以蛙为例，由于卵黄分布不对称，精子与卵结合之后形成的受精卵分为动物极（发育为外胚层）和植物极（发育为中胚层和内胚层）。受精卵形成后开始卵裂，先分裂成两个细胞，之后细胞通常会逐次倍增，但胚胎的总体积大致不变。受精卵分裂成 $16 \sim 32$ 个细胞的阶段，称为桑椹胚。在这个阶段，动物极细胞的分裂频率会超越靠近植物极且含有较多卵黄的细胞群，形成中空的球状胚，称为囊胚。随后形成的...&lt;/p&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/cell/5/</link>
-      <pubDate>Mon, 25 May 2026 10:30:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/cell/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/5/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/5.png" type="image/png" length="32535" />
       
     </item>
     
