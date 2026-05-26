@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Tue, 26 May 2026 10:36:30 -0000</pubDate>
-    <lastBuildDate>Tue, 26 May 2026 10:36:30 -0000</lastBuildDate>
+    <pubDate>Tue, 26 May 2026 13:44:39 -0000</pubDate>
+    <lastBuildDate>Tue, 26 May 2026 13:44:39 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,133 @@
     
 
     
+    
+    <item>
+      <title>细胞的基本生命过程</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;细胞的基本生命过程&lt;/h1&gt;
+&lt;h2&gt;核酸&lt;/h2&gt;
+&lt;h3&gt;核苷酸&lt;/h3&gt;
+&lt;p&gt;核酸的单体结构为核苷酸，每个核苷酸由一个核苷（一个五碳糖、一个含氮碱基）和一个或多个磷酸基团组成。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;./Nucleotides_zh.avif&#34;&gt;{width=&#34;90%&#34;}&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;如果其五碳糖是脱氧核糖，则此单体的聚合物是脱氧核糖核酸 DNA。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果其五碳糖是核糖，则此单体的聚合物是核糖核酸 RNA。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;./Difference_DNA_RNA-ZH.svg&#34;&gt;{width=&#34;90%&#34;}&lt;/p&gt;
+&lt;p&gt;核酸的结构可分为一级结构、二级结构、三级结构和四级结构。&lt;/p&gt;
+&lt;p&gt;碱基互补配对：&lt;/p&gt;
+&lt;p&gt;| 胞嘧啶、鸟嘌呤 &lt;br/&gt; 之间生成三条氢键 | 腺嘌呤、胸腺嘧啶 &lt;br/&gt; 之间生成两条氢键 |
+| :---------------------------------: | :-----------------------------------: |
+| &lt;img alt=&#34;&#34; src=&#34;./Base_pair_GC.svg&#34;&gt;             | &lt;img alt=&#34;&#34; src=&#34;./Base_pair_AT.svg&#34;&gt;               |&lt;/p&gt;
+&lt;p&gt;最终形成脱氧核糖...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/4/</link>
+      <pubDate>Tue, 26 May 2026 13:43:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/4.png" type="image/png" length="35627" />
+      
+    </item>
+    
+    <item>
+      <title>经典遗传学及其应用</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;经典遗传学及其应用&lt;/h1&gt;
+&lt;h2&gt;孟德尔遗传学概述&lt;/h2&gt;
+&lt;h3&gt;性状和基因&lt;/h3&gt;
+&lt;p&gt;性状：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;性状：生物体具有的形态结构和生理特征。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;相对性状：同种生物的同一性状的不同表现类型。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;隐性性状：一对相对性状的亲本杂交，杂种子一代未显现出来的性状。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;显性性状：一对相对性状的亲本杂交，杂种子一代显现出来的性状。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;性状分离：在杂种后代中，同时出现显性性状和隐性性状的现象。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;丹麦生物学家约翰逊给孟德尔的“遗传因子”一词起了一个新名字，叫作“基因”，并且提出了表型（也叫表现型）和基因型的概念：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;表型指生物个体表现出来的性状，如豌豆的高茎和矮茎。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;与表型有关的基因组成叫作基因型，如高茎豌豆的基因型是 DD 或 Dd，矮茎豌豆的基因型是 dd。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;控制相对性状的基因，叫作等位基因，如 D 和 d。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;基因型与表现型的关系：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;基因型是性状表现的内在因素，在很大程度上决定表现型，而表现型是基因型的表现形式。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;表现型（生物的性状表现）是基因型（遗传物质组成）和环境条件共同作用的结果。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;孟德尔遗传学理论&lt;/h3&gt;
+&lt;p&gt;古典遗传学，亦称孟德尔遗传学，是以奥地...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/7/</link>
+      <pubDate>Tue, 26 May 2026 13:43:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/7/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/7/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/7.png" type="image/png" length="36977" />
+      
+    </item>
+    
+    <item>
+      <title>生物和物种</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;生物和物种&lt;/h1&gt;
+&lt;h2&gt;生物的分类&lt;/h2&gt;
+&lt;h3&gt;五界分类系统&lt;/h3&gt;
+&lt;p&gt;五界分类系统是由美国生物学家魏泰克（Whittaker）于 1969 年提出的生物分界方案。它根据&lt;strong&gt;细胞结构&lt;/strong&gt;（原核或真核）、&lt;strong&gt;组织水平&lt;/strong&gt;（单细胞或多细胞）以及&lt;strong&gt;营养方式&lt;/strong&gt;（自养或异养）将生物划分为五个界：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;原核生物界&lt;/strong&gt;：没有成形的细胞核，如细菌、蓝细菌。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;原生生物界&lt;/strong&gt;：结构简单的真核生物，大多数为单细胞，是真核生物中最原始的类群，如草履虫、变形虫、衣藻等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;真菌界&lt;/strong&gt;：营吸收异养的真核生物，如酵母菌、霉菌、蘑菇等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;植物界&lt;/strong&gt;：多细胞真核生物，能够进行光合作用（自养），如苔藓、蕨类、被子植物等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;动物界&lt;/strong&gt;：多细胞真核生物，通过摄取现成的有机物（异养）生活，如昆虫、鸟类、哺乳动物等。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;需要注意的是，由于病毒没有细胞结构，通常不被包含在这个五界分类系统之内。&lt;/p&gt;
+&lt;h2&gt;自然选择学说&lt;/h2&gt;
+&lt;p&gt;适应作为一个生物学术语，包括两方面的含义：一是指生物的形态结构适合于完成一定的功能，二是指生物的形态结构及其功能适合于该生物在一定的环境中生存和繁殖。&lt;/p&gt;
+&lt;p&gt;适应是普遍存在的...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/species/1/</link>
+      <pubDate>Tue, 26 May 2026 13:43:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/species/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/1.png" type="image/png" length="28821" />
+      
+    </item>
     
     <item>
       <title>细胞的结构和功能</title>
@@ -233,42 +360,6 @@
     </item>
     
     <item>
-      <title>细胞的基本生命过程</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;细胞的基本生命过程&lt;/h1&gt;
-&lt;h2&gt;核酸&lt;/h2&gt;
-&lt;h3&gt;核苷酸&lt;/h3&gt;
-&lt;p&gt;核酸的单体结构为核苷酸，每个核苷酸由一个核苷（一个五碳糖、一个含氮碱基）和一个或多个磷酸基团组成。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;./Nucleotides_zh.avif&#34;&gt;{width=&#34;90%&#34;}&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;如果其五碳糖是脱氧核糖，则此单体的聚合物是脱氧核糖核酸 DNA。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;如果其五碳糖是核糖，则此单体的聚合物是核糖核酸 RNA。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;./Difference_DNA_RNA-ZH.svg&#34;&gt;{width=&#34;90%&#34;}&lt;/p&gt;
-&lt;p&gt;核酸的结构可分为一级结构、二级结构、三级结构和四级结构。&lt;/p&gt;
-&lt;p&gt;碱基互补配对：&lt;/p&gt;
-&lt;p&gt;| 胞嘧啶、鸟嘌呤 &lt;br/&gt; 之间生成三条氢键 | 腺嘌呤、胸腺嘧啶 &lt;br/&gt; 之间生成两条氢键 |
-| :---------------------------------: | :-----------------------------------: |
-| &lt;img alt=&#34;&#34; src=&#34;./Base_pair_GC.svg&#34;&gt;             | &lt;img alt=&#34;&#34; src=&#34;./Base_pair_AT.svg&#34;&gt;               |&lt;/p&gt;
-&lt;p&gt;最终形成脱氧核糖...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/4/</link>
-      <pubDate>Mon, 25 May 2026 10:30:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/4.png" type="image/png" length="35627" />
-      
-    </item>
-    
-    <item>
       <title>基因及其本质</title>
       
       
@@ -293,68 +384,6 @@
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/6/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/6.png" type="image/png" length="31515" />
-      
-    </item>
-    
-    <item>
-      <title>经典遗传学应用</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;经典遗传学应用&lt;/h1&gt;
-&lt;h2&gt;孟德尔规律基础&lt;/h2&gt;
-&lt;h3&gt;性状和基因&lt;/h3&gt;
-&lt;p&gt;性状：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;性状：生物体具有的形态结构和生理特征。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;相对性状：同种生物的同一性状的不同表现类型。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;隐性性状：一对相对性状的亲本杂交，杂种子一代未显现出来的性状。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;显性性状：一对相对性状的亲本杂交，杂种子一代显现出来的性状。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;性状分离：在杂种后代中，同时出现显性性状和隐性性状的现象。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;丹麦生物学家约翰逊给孟德尔的“遗传因子”一词起了一个新名字，叫作“基因”，并且提出了表型（也叫表现型）和基因型的概念：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;表型指生物个体表现出来的性状，如豌豆的高茎和矮茎。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;与表型有关的基因组成叫作基因型，如高茎豌豆的基因型是 DD 或 Dd，矮茎豌豆的基因型是 dd。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;控制相对性状的基因，叫作等位基因，如 D 和 d。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;基因型与表现型的关系：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;基因型是性状表现的内在因素，在很大程度上决定表现型，而表现型是基因型的表现形式。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;表现型（生物的性状表现）是基因型（遗传物质组成）和环境条件共同作用的结果。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3&gt;孟德尔的假说&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;生物的性状是由遗传因子决定的。这些因子就像...&lt;/li&gt;
-&lt;/ol&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/7/</link>
-      <pubDate>Mon, 25 May 2026 10:30:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/7/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/7/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/7.png" type="image/png" length="34238" />
       
     </item>
     
@@ -635,37 +664,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/2/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/2.png" type="image/png" length="32822" />
-      
-    </item>
-    
-    <item>
-      <title>生物和物种</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;生物和物种&lt;/h1&gt;
-&lt;h2&gt;生物的分类&lt;/h2&gt;
-&lt;h3&gt;五界分类系统&lt;/h3&gt;
-&lt;p&gt;五界分类系统是由美国生物学家魏泰克（Whittaker）于 1969 年提出的生物分界方案。它根据&lt;strong&gt;细胞结构&lt;/strong&gt;（原核或真核）、&lt;strong&gt;组织水平&lt;/strong&gt;（单细胞或多细胞）以及&lt;strong&gt;营养方式&lt;/strong&gt;（自养或异养）将生物划分为五个界：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;原核生物界&lt;/strong&gt;：没有成形的细胞核，如细菌、蓝细菌。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;原生生物界&lt;/strong&gt;：结构简单的真核生物，大多数为单细胞，是真核生物中最原始的类群，如草履虫、变形虫、衣藻等。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;真菌界&lt;/strong&gt;：营吸收异养的真核生物，如酵母菌、霉菌、蘑菇等。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;植物界&lt;/strong&gt;：多细胞真核生物，能够进行光合作用（自养），如苔藓、蕨类、被子植物等。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;动物界&lt;/strong&gt;：多细胞真核生物，通过摄取现成的有机物（异养）生活，如昆虫、鸟类、哺乳动物等。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;需要注意的是，由于病毒没有细胞结构，通常不被包含在这个五界分类系统之内。&lt;/p&gt;
-&lt;h2&gt;自然选择学说&lt;/h2&gt;
-&lt;p&gt;适应作为一个生物学术语，包括两方面的含义：一是指生物的形态结构适合于完成一定的功能，二是指生物的形态结构及其功能适合于该生物在一定的环境中生存和繁殖。&lt;/p&gt;
-&lt;p&gt;适应是普遍存在的...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/species/1/</link>
-      <pubDate>Thu, 21 May 2026 09:16:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/species/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/1.png" type="image/png" length="28821" />
       
     </item>
     

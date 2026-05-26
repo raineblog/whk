@@ -43,7 +43,7 @@
 - [细胞的基本生命过程](https://raineblog.dpdns.org/whk/science/cell/4/index.md)
 - [细胞增殖和细胞工程](https://raineblog.dpdns.org/whk/science/cell/5/index.md)
 - [基因及其本质](https://raineblog.dpdns.org/whk/science/cell/6/index.md)
-- [经典遗传学应用](https://raineblog.dpdns.org/whk/science/cell/7/index.md)
+- [经典遗传学及其应用](https://raineblog.dpdns.org/whk/science/cell/7/index.md)
 - [基因工程及其应用](https://raineblog.dpdns.org/whk/science/cell/8/index.md)
 - [恒定电流详解：电流定义与欧姆定律及应用场景](https://raineblog.dpdns.org/whk/science/circuitry/1/index.md)
 - [滑动变阻器详解：电位原理与实验应用实例分析](https://raineblog.dpdns.org/whk/science/circuitry/2/index.md)
