@@ -66,6 +66,8 @@ jobs:
         id: compress_step
         if: github.event.inputs.skip_update != 'true'
         uses: RainPPR/action-image-resize@main
+        with:
+          skip_svg: true
 
       - name: Create Pull Request
         if: github.event.inputs.skip_update != 'true'

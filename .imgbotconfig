@@ -6,7 +6,6 @@
         "*.jpeg",
         "*.webp",
         "*.gif",
-        "*.svg",
         "public/*"
     ],
     "aggressiveCompression": "true",
