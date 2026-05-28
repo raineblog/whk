@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Tue, 26 May 2026 13:44:39 -0000</pubDate>
-    <lastBuildDate>Tue, 26 May 2026 13:44:39 -0000</lastBuildDate>
+    <pubDate>Thu, 28 May 2026 13:52:47 -0000</pubDate>
+    <lastBuildDate>Thu, 28 May 2026 13:52:47 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -1700,24 +1700,22 @@ https://chi.lushuyu.site/%E6%96%87%E8%A8%80%E6%96%87/%E6%96%87%E8%A8%80%E8%99%9A
       
       
       <description>&lt;h1&gt;低等生物&lt;/h1&gt;
-&lt;h2&gt;原核生物&lt;/h2&gt;
-&lt;p&gt;我们前面已经提到，原核生物就是没有以核膜为界限的细胞核的生物。原核生物绝大多数都是单细胞生物，但是，部分原核生物（如蓝细菌中的某些种类）可以形成简单的多细胞丝状体或群体结构，其中细胞间甚至存在一定程度的功能分工。&lt;/p&gt;
-&lt;p&gt;细菌，是我们最常提到的一类原核生物，一般来说，带有什么杆菌、什么球菌的，都是细菌。细菌中的多数种类是营腐生或寄生生活的异养生物。细菌的细胞都有细胞壁、细胞膜和细胞质，都没有由核膜包被的细胞核，也没有染色体，但有环状的 DNA 分子，位于细胞内特定的区域，这个区域叫作拟核。&lt;/p&gt;
-&lt;p&gt;我们下面着重讲一些和一般细菌不同的细菌和其他原生生物。&lt;/p&gt;
-&lt;h3&gt;放线菌&lt;/h3&gt;
-&lt;p&gt;放线菌是一种和真菌很相似（尤其是霉菌）的细菌，它们的菌体呈放射状分枝的丝状，因此得名分枝丝状体，菌丝内没有横隔。放线菌的菌丝根据功能分为三类：&lt;/p&gt;
+&lt;h2&gt;病毒&lt;/h2&gt;
+&lt;h3&gt;什么是病毒&lt;/h3&gt;
+&lt;p&gt;在生物学分类中，病毒处于一个极为特殊的地位，被描述为介于生物与非生物之间的“幽灵”。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;营养菌丝：侵入营养物质内部，吸收其中的营养。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;气生菌丝：生长在空气中。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;孢子丝：在气生菌丝顶端形成，专门用于产生孢子。&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;非细胞特征&lt;/strong&gt;：病毒不具备细胞结构，没有细胞膜、细胞质或细胞器，无法独立进行新陈代谢。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;生命特性的缺失与体现&lt;/strong&gt;：它们不生长、不发育，在宿主细胞外表现为无生命的化学大分子颗粒，甚至可以被结晶化。然而，一旦进入活细胞，它们便能利用宿主的机器进行自我复制，并表现出遗传和变异的特性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;绝对寄生性&lt;/strong&gt;：病毒是专性胞内寄生生物，必须依赖活细胞提供的能量、原料（如氨基酸、核苷酸）和化学合成机器（如核糖体、酶）才能完成生命活动。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;放线菌主要通过孢子生殖进行繁衍。当孢子丝发育到一定阶段会产生孢子，孢子在适宜条件下萌发，形成新的菌丝体。放线...&lt;/p&gt;</description>
+&lt;p&gt;病毒的形体极其微小，通常以纳米（$\text{nm}$）为计量单位（$\pu{20\sim450 nm}$），必须借助电子显微镜才能观察到其结构。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;基本结构（核壳）：&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;核心（髓部）&lt;/strong&gt;：包含遗传物质（DNA 或 RNA），这是病毒的基因组。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;衣壳&lt;/strong&gt;：包围在核心外的蛋白质外壳，由被称为“衣壳粒（capsomeres）”的蛋白质亚基组成，具有保护核酸和介导感染...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/species/2/</link>
       <pubDate>Sat, 06 Sep 2025 10:39:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
