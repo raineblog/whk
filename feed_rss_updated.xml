@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Thu, 28 May 2026 13:52:28 -0000</pubDate>
-    <lastBuildDate>Thu, 28 May 2026 13:52:28 -0000</lastBuildDate>
+    <pubDate>Thu, 28 May 2026 14:06:58 -0000</pubDate>
+    <lastBuildDate>Thu, 28 May 2026 14:06:58 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -52,12 +52,47 @@
 &lt;li&gt;&lt;strong&gt;酶的必要性&lt;/strong&gt;：许多化学反应在体外需要高温、高压、强酸或强碱等剧烈条件，但细胞内环境温和且...&lt;/li&gt;
 &lt;/ul&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/cell/2/</link>
-      <pubDate>Thu, 28 May 2026 13:51:00 +0000</pubDate>
+      <pubDate>Thu, 28 May 2026 13:59:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/science/cell/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/2/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/2.png" type="image/png" length="31120" />
+      
+    </item>
+    
+    <item>
+      <title>细胞增殖和细胞工程</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;细胞增殖和细胞工程&lt;/h1&gt;
+&lt;h2&gt;细胞的分裂入门&lt;/h2&gt;
+&lt;h3&gt;细胞分裂的主要方式&lt;/h3&gt;
+&lt;p&gt;细胞增殖是生物体生长、发育、繁殖和遗传的基础，是重要的生命活动。它通过细胞分裂增加细胞数量，通常包括物质准备（如 DNA 复制）和细胞分裂两个连续阶段。&lt;/p&gt;
+&lt;p&gt;根据细胞类型的不同，细胞增殖的方式也有所区别：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;原核细胞&lt;/strong&gt;：主要通过&lt;strong&gt;二分分裂&lt;/strong&gt;（Binary Fission）进行增殖，过程相对简单，DNA 复制后细胞直接一分为二。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;真核细胞&lt;/strong&gt;：主要有三种方式：&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;有丝分裂&lt;/strong&gt;：是体细胞增殖的主要方式，能保证亲子代细胞遗传物质的稳定性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;无丝分裂&lt;/strong&gt;：过程简单，不出现纺锤丝和染色体，如蛙的红细胞。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;减数分裂&lt;/strong&gt;：与有性生殖有关，发生在原始生殖细胞产生配子的过程中。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;细胞周期（Cell Cycle）是细胞从一次分裂完成开始，到下一次分裂完成为止所经历的全过程，是生物体增殖的基础。&lt;/p&gt;
+&lt;p&gt;细胞周期主要分为两个阶段：&lt;strong&gt;间期&lt;/strong&gt;和&lt;strong&gt;分裂期（M 期）&lt;/strong&gt;。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;分裂间期 (Interphase)&lt;/strong&gt;：占细胞周期的 90%~95%，是物质准备...&lt;/li&gt;
+&lt;/ol&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/cell/5/</link>
+      <pubDate>Thu, 28 May 2026 13:59:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/cell/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/5/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/5.png" type="image/png" length="32535" />
       
     </item>
     
@@ -282,41 +317,6 @@
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/species/1/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/species/1.png" type="image/png" length="28821" />
-      
-    </item>
-    
-    <item>
-      <title>细胞增殖和细胞工程</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;细胞增殖和细胞工程&lt;/h1&gt;
-&lt;h2&gt;细胞的分裂入门&lt;/h2&gt;
-&lt;h3&gt;细胞分裂的主要方式&lt;/h3&gt;
-&lt;p&gt;细胞增殖是生物体生长、发育、繁殖和遗传的基础，是重要的生命活动。它通过细胞分裂增加细胞数量，通常包括物质准备（如 DNA 复制）和细胞分裂两个连续阶段。&lt;/p&gt;
-&lt;p&gt;根据细胞类型的不同，细胞增殖的方式也有所区别：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;原核细胞&lt;/strong&gt;：主要通过&lt;strong&gt;二分分裂&lt;/strong&gt;（Binary Fission）进行增殖，过程相对简单，DNA 复制后细胞直接一分为二。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;真核细胞&lt;/strong&gt;：主要有三种方式：&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;有丝分裂&lt;/strong&gt;：是体细胞增殖的主要方式，能保证亲子代细胞遗传物质的稳定性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;无丝分裂&lt;/strong&gt;：过程简单，不出现纺锤丝和染色体，如蛙的红细胞。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;减数分裂&lt;/strong&gt;：与有性生殖有关，发生在原始生殖细胞产生配子的过程中。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;细胞周期（Cell Cycle）是细胞从一次分裂完成开始，到下一次分裂完成为止所经历的全过程，是生物体增殖的基础。&lt;/p&gt;
-&lt;p&gt;细胞周期主要分为两个阶段：&lt;strong&gt;间期&lt;/strong&gt;和&lt;strong&gt;分裂期（M 期）&lt;/strong&gt;。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;分裂间期 (Interphase)&lt;/strong&gt;：占细胞周期的 90%~95%，是物质准备...&lt;/li&gt;
-&lt;/ol&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/cell/5/</link>
-      <pubDate>Tue, 26 May 2026 10:35:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/cell/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/5/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/5.png" type="image/png" length="32535" />
       
     </item>
     
