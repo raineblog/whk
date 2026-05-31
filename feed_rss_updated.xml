@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Thu, 28 May 2026 14:06:58 -0000</pubDate>
-    <lastBuildDate>Thu, 28 May 2026 14:06:58 -0000</lastBuildDate>
+    <pubDate>Sun, 31 May 2026 11:57:21 -0000</pubDate>
+    <lastBuildDate>Sun, 31 May 2026 11:57:21 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,312 @@
     
 
     
+    
+    <item>
+      <title>细胞的结构和功能</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;细胞的结构和功能&lt;/h1&gt;
+&lt;h2&gt;细胞的基本结构&lt;/h2&gt;
+&lt;h3&gt;细胞膜的结构和功能&lt;/h3&gt;
+&lt;p&gt;细胞膜（质膜）不仅是细胞的物理边界，更是维持生命活动的关键结构。以下根据你提供的课本内容并结合多方资料，详细展开讲解其结构与功能：&lt;/p&gt;
+&lt;p&gt;细胞膜的化学组成：细胞膜主要由&lt;strong&gt;脂质&lt;/strong&gt;和&lt;strong&gt;蛋白质&lt;/strong&gt;组成，含有少量&lt;strong&gt;糖类&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;脂质（约 50%）&lt;/strong&gt;：磷脂是基本成分，其磷酸“头部”亲水，脂肪酸“尾部”疏水。在水中，磷脂分子自发形成&lt;strong&gt;磷脂双分子层&lt;/strong&gt;，疏水端相对位于内侧，构成膜的基本支架。动物细胞膜还含有&lt;strong&gt;胆固醇&lt;/strong&gt;，用于调节膜的流动性和稳定性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;蛋白质（约 40%）&lt;/strong&gt;：蛋白质是功能的主要执行者，其种类和数量决定了膜功能的复杂程度。膜蛋白以镶、嵌、贯穿等方式分布在脂双层中，担任转运蛋白、受体、酶或细胞连接的角色。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;糖类（2%~10%）&lt;/strong&gt;：仅分布在细胞膜的&lt;strong&gt;外侧&lt;/strong&gt;，与蛋白质结合形成糖蛋白（糖被），或与脂质结合形成糖脂。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;目前公认的结构是 1972 年提出的&lt;strong&gt;流动镶嵌模型&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;流动性&lt;/strong&gt;：磷脂分子和大多数蛋白质分子都不是静止的，可以在膜平面内做横向移动，这使得膜...&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/cell/3/</link>
+      <pubDate>Sun, 31 May 2026 11:56:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/cell/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/3/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/3.png" type="image/png" length="35623" />
+      
+    </item>
+    
+    <item>
+      <title>细胞的基本生命过程</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;细胞的基本生命过程&lt;/h1&gt;
+&lt;h2&gt;核酸&lt;/h2&gt;
+&lt;h3&gt;核苷酸&lt;/h3&gt;
+&lt;p&gt;核酸的单体结构为核苷酸，每个核苷酸由一个核苷（一个五碳糖、一个含氮碱基）和一个或多个磷酸基团组成。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;./Nucleotides_zh.avif&#34;&gt;{width=&#34;90%&#34;}&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;如果其五碳糖是脱氧核糖，则此单体的聚合物是脱氧核糖核酸 DNA。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果其五碳糖是核糖，则此单体的聚合物是核糖核酸 RNA。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;./Difference_DNA_RNA-ZH.svg&#34;&gt;{width=&#34;90%&#34;}&lt;/p&gt;
+&lt;p&gt;核酸的结构可分为一级结构、二级结构、三级结构和四级结构。&lt;/p&gt;
+&lt;p&gt;碱基互补配对：&lt;/p&gt;
+&lt;p&gt;| 胞嘧啶、鸟嘌呤 &lt;br/&gt; 之间生成三条氢键 | 腺嘌呤、胸腺嘧啶 &lt;br/&gt; 之间生成两条氢键 |
+| :---------------------------------: | :-----------------------------------: |
+| &lt;img alt=&#34;&#34; src=&#34;./Base_pair_GC.svg&#34;&gt;             | &lt;img alt=&#34;&#34; src=&#34;./Base_pair_AT.svg&#34;&gt;               |&lt;/p&gt;
+&lt;p&gt;最终形成脱氧核糖...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/cell/4/</link>
+      <pubDate>Sun, 31 May 2026 11:56:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/cell/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/4/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/4.png" type="image/png" length="35627" />
+      
+    </item>
+    
+    <item>
+      <title>极限与微积分</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;极限与微积分&lt;/h1&gt;
+&lt;h2&gt;函数极限&lt;/h2&gt;
+&lt;h3&gt;初等函数&lt;/h3&gt;
+&lt;p&gt;我们研究过常数函数、幂函数、指数函数、对数函数、三角函数、反三角函数，它们经过有限次加、减、乘、除、乘方、开方和复合运算，得到的函数称为初等函数。初等函数是数学中最基本的一类函数，具有相当重要的性质。&lt;/p&gt;
+&lt;h3&gt;极限定义​&lt;/h3&gt;
+&lt;p&gt;对于函数 $f(x)$ 与实数 $a$，如果存在实数 $b$，使得 $\forall \varepsilon &amp;gt; 0$，$\exist \delta &amp;gt; 0$，对任意 $x \in (a - \delta, a) \cup (a, a + \delta)$，有 $|f(x) - b| &amp;lt; \varepsilon$，则 $b$ 称作 $f(x)$ 在点 $a$ 的极限，记作&lt;/p&gt;
+&lt;p&gt;$$
+\lim_{x \to a} f(x) = b
+$$&lt;/p&gt;
+&lt;p&gt;这就是严格定义函数极限的 $\varepsilon \text - \delta$ 语言。也就是说，对于任意 $\varepsilon &amp;gt; 0$，我们都能找到一段 包含 $a$ 但是扣去 $a$ 的区间，使得这个区间上对应的函数值与 $b$ 的距离都小于 $\varep...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/function/7/</link>
+      <pubDate>Sun, 31 May 2026 11:56:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/function/7/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/function/7/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/function/7.png" type="image/png" length="33713" />
+      
+    </item>
+    
+    <item>
+      <title>神经系统详解：信号传导机制与医学临床实践创新篇</title>
+      
+      
+      
+      
+      <description>本文系统阐述神经系统的结构层级与信号传导机制，涵盖中枢与外周神经的解剖功能、突触传递过程及离子通道动力学。进一步分析了神经冲动的产生、传播、以及兴奋-收缩耦联的分子基础，并探讨了脑机接口、神经调节及相关疾病的临床意义。</description>
+      <link>https://raineblog-whk.pages.dev/science/human/2/</link>
+      <pubDate>Sun, 31 May 2026 11:56:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/human/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/human/2/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/human/2.png" type="image/png" length="44746" />
+      
+    </item>
+    
+    <item>
+      <title>内环境稳态详解：激素调节机制与临床实践</title>
+      
+      
+      
+      
+      <description>本文系统阐释内环境概念，解析血浆、组织液、淋巴液的组成与动态平衡，重点探讨渗透压、酸碱度、温度等理化性质的稳态调控机制，深入说明激素在血糖、体温、水盐调节中的关键作用及反馈回路，涵盖胰岛素、胰高血糖素、甲状腺激素、糖皮质激素等，适用于生物化学与医学学习。</description>
+      <link>https://raineblog-whk.pages.dev/science/human/3/</link>
+      <pubDate>Sun, 31 May 2026 11:56:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/human/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/human/3/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/human/3.png" type="image/png" length="47936" />
+      
+    </item>
+    
+    <item>
+      <title>机械振动详解：简谐运动机制与波的传播与应用</title>
+      
+      
+      
+      
+      <description>本文系统阐释机械振动的基本概念与简谐运动的数学模型详细推导弹簧振子的回复力与角频率进一步探讨受迫振动与共振现象的发生条件进一步探讨驱动力对振幅的调制规律并扩展至机械波的定义波的要素衍射与干涉原理提供从理论推导到单摆测量重力的完整技术路线与实验示例并可用于竞赛复习科学知识库的构建与应用示范提升学习效率</description>
+      <link>https://raineblog-whk.pages.dev/science/mechanics/5/</link>
+      <pubDate>Sun, 31 May 2026 11:56:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/mechanics/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/mechanics/5/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/mechanics/5.png" type="image/png" length="45393" />
+      
+    </item>
+    
+    <item>
+      <title>热学与热力学详解：热力学温标机制与理想气体应用场景</title>
+      
+      
+      
+      
+      <description>本文从热力学基本概念出发阐明系统分类与状态参量重点解析分子动能与分子势能的来源解释温度与平均动能的对应关系推导理想气体状态方程及热力学第一零定律深入讨论熵增原理与第二定律并分析等温等压绝热过程中的功与能量转换提供从微观机制到宏观应用的完整热力学框架的应用</description>
+      <link>https://raineblog-whk.pages.dev/science/modern/1/</link>
+      <pubDate>Sun, 31 May 2026 11:56:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/modern/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/modern/1/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/modern/1.png" type="image/png" length="40705" />
+      
+    </item>
+    
+    <item>
+      <title>光学原理详解：光的传播机制与光学系统全解析</title>
+      
+      
+      
+      
+      <description>本文系统阐述光的传播特性，包括点光源、波前、能流矢量及光线抽象；详细推导小孔成像中的全反射条件；阐明镜面反射、漫反射及逆反射原理；解释折射率、斯涅尔定律及全内反射；并分析光导纤维结构、衍射光栅与 X 射线衍射在生物结构中的应用，同时涉及实验测折射率的步骤与误差分析，提供从几何光学到波动光学的完整框架。</description>
+      <link>https://raineblog-whk.pages.dev/science/modern/3/</link>
+      <pubDate>Sun, 31 May 2026 11:56:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/modern/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/modern/3/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/modern/3.png" type="image/png" length="28572" />
+      
+    </item>
+    
+    <item>
+      <title>种群群落详解：结构机制与生态演替与应用管理</title>
+      
+      
+      
+      
+      <description>本文系统阐述生态学概述、种群结构层级及演替过程，重点分析关键性因子对种群数量的调控机制，包括水、光、温度、土壤等环境因子的耐受性定律，并结合酵母菌计数实验说明种群增长的 logistic 曲线与环境阻力概念，提供了从初生演替到顶极群落的完整理论框架</description>
+      <link>https://raineblog-whk.pages.dev/science/nature/3/</link>
+      <pubDate>Sun, 31 May 2026 11:56:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/nature/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/nature/3/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/nature/3.png" type="image/png" length="30389" />
+      
+    </item>
+    
+    <item>
+      <title>有机化学详解：碳原子成键机理与命名应用场景基础</title>
+      
+      
+      
+      
+      <description>本文系统阐释有机化合物的基本概念包括碳原子的四价成键单双三键特性及不饱和度计算公式详细解析链烷烃烯烃炔烃及芳香体系的通式并说明同系物在复杂分子中的局限性与衍生物命名规则同时介绍元素分析质谱核磁共振与红外光谱等现代表征方法阐明其在结构鉴定中的应用</description>
+      <link>https://raineblog-whk.pages.dev/science/organic/1/</link>
+      <pubDate>Sun, 31 May 2026 11:56:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/organic/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/organic/1/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/organic/1.png" type="image/png" length="44926" />
+      
+    </item>
+    
+    <item>
+      <title>有机物的分类</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;有机物的分类&lt;/h1&gt;
+&lt;h2&gt;烷烃概述&lt;/h2&gt;
+&lt;p&gt;烷烃是极佳的有机化学引入之一，在高中有机化学的框架下，我们通常是从烷烃开始，去讨论有机物的化学性质，从引入双键、三键形成不饱和烃，再到引入取代基和各种有机反应。烷烃对于刚刚学习有机化学的人来说，显得格外重要。&lt;/p&gt;
+&lt;h3&gt;甲烷和烷烃&lt;/h3&gt;
+&lt;p&gt;我们熟悉的甲烷（$\ce{CH4}$）是最简单的有机化合物。其分子中的碳原子以最外层的 $4$ 个电子分别与 $4$ 个氢原子的电子形成了 $4$ 个 $\ce{C - H}$ 共价键。&lt;/p&gt;
+&lt;p&gt;实验数据表明，甲烷分子并非平面结构，而是呈正四面体空间构型。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;碳原子位于正四面体的中心。&lt;/li&gt;
+&lt;li&gt;$4$ 个氢原子分别位于 $4$ 个顶点。&lt;/li&gt;
+&lt;li&gt;$4$ 个 $\ce{C - H}$ 键的长度和强度完全相同，任意两个 $\ce{C - H}$ 键之间的夹角均为 $\pu{109.5^\circ C}$。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;与甲烷结构相似的有机化合物还有很多，随着分子中碳原子数的增加，还有乙烷、丙烷、丁烷等一系列有机化合物。这些化合物的碳链呈锯齿状或折线形。&lt;/p&gt;
+&lt;p&gt;烷烃分子中的碳原子都采取 $\text{sp3}$ 杂化，形成四面体结构；碳原子以...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/organic/2/</link>
+      <pubDate>Sun, 31 May 2026 11:56:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/organic/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/organic/2/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/organic/2.png" type="image/png" length="32822" />
+      
+    </item>
+    
+    <item>
+      <title>随机变量及其分布</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;随机变量及其分布&lt;/h1&gt;
+&lt;h2&gt;随机变量及其分类&lt;/h2&gt;
+&lt;h3&gt;随机变量的定义&lt;/h3&gt;
+&lt;p&gt;随机变量是用来表示随机试验结果的变量，通常用大写字母 $X,Y,Z$ 或小写希腊字母 $\xi,\eta,\zeta$ 表示。随机函数是一个特殊的实函数，对于任意 $e\in S$，都有唯一一个对应 $X(e)$，如图。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;Zufall.avif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;随机变量实质上是样本空间上的函数，可作为因变量，满足其值不大于某数的状况都是事件。我们称随机变量这个函数的值域为随机变量的取值范围，或值域。&lt;/p&gt;
+&lt;p&gt;随机变量在不同的条件下由于偶然因素影响，其可能取各种随机变量不同的值，具有不确定性和随机性，但这些取值落在某个范围的概率是一定的，此种变量称为随机变量。随机变量可以是离散型的，也可以是连续型的。如分析测试中的测定值就是一个以概率取值的随机变量，被测定量的取值可能在某一范围内随机变化，具体取什么值在测定之前是无法确定的，但测定的结果是确定的，多次重复测定所得到的测定值具有统计规律性。随机变量与模糊变量的不确定性的本质差别在于，后者的测定结果仍具有不确定性，即模糊性。&lt;/p&gt;
+&lt;p&gt;随机变量按其值域（根据定义，随机变量是一个...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/probability/2/</link>
+      <pubDate>Sun, 31 May 2026 11:56:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/probability/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/2/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/probability/2.png" type="image/png" length="35074" />
+      
+    </item>
+    
+    <item>
+      <title>溶液行为详解：离子反应机制平衡常数与典型的场景</title>
+      
+      
+      
+      
+      <description>本文系统阐述溶液中电解质的电离与离子反应机理涵盖强弱电解质的分类离子化平衡常数及其与活度系数的关系进一步分析酸碱电离理论质子与路易斯理论的适用范围并讨论盐效应沉淀溶解平衡的溶度积与同离子效应最后结合实际应用场景如实验设计与工业制备</description>
+      <link>https://raineblog-whk.pages.dev/science/reaction/3/</link>
+      <pubDate>Sun, 31 May 2026 11:56:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/reaction/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/reaction/3/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/reaction/3.png" type="image/png" length="46129" />
+      
+    </item>
+    
+    <item>
+      <title>植物概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;植物概述&lt;/h1&gt;
+&lt;h2&gt;植物的调节&lt;/h2&gt;
+&lt;p&gt;高等植物是由很多细胞组成的高度复杂的有机体，它的正常生长发育需要各个器官、组织、细胞之间的协调和配合。植物生长发育的调控，是由&lt;strong&gt;基因表达调控&lt;/strong&gt;、&lt;strong&gt;激素调节&lt;/strong&gt;和&lt;strong&gt;环境因素调节&lt;/strong&gt;共同完成的。&lt;/p&gt;
+&lt;p&gt;植物细胞里储存着全套基因，但是某个细胞的基因如何表达则会根据需要作调整。植物的生长、发育、繁殖、休眠，都处在&lt;strong&gt;基因适时选择性表达&lt;/strong&gt;的调控之下。&lt;/p&gt;
+&lt;p&gt;对于多细胞植物体来说，细胞与细胞之间、器官与器官之间的协调，需要通过激素传递信息。激素作为&lt;strong&gt;信息分子&lt;/strong&gt;，会影响细胞的基因表达，从而起到调节作用。同时，激素的产生和分布是&lt;strong&gt;基因表达调控的结果&lt;/strong&gt;，也&lt;strong&gt;受到环境因素的影响&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;在个体层次，植物生长、发育、繁殖、休眠，实际上，是&lt;strong&gt;植物响应环境变化&lt;/strong&gt;，&lt;strong&gt;调控基因表达&lt;/strong&gt;以及&lt;strong&gt;激素产生、分布&lt;/strong&gt;，最终表现在器官和个体水平上的变化。&lt;/p&gt;
+&lt;h3&gt;生长素的发现&lt;/h3&gt;
+&lt;p&gt;我国宋代著作《种艺必用》中，记载了一种促进空中压条生根的方法：“凡嫁接矮果及花，用好黄泥晒干，筛过，以小便浸之。又晒干，筛过，再浸之。又晒又浸，凡十余次。以泥封树枝……则根生。”&lt;/p&gt;
+&lt;p&gt;单子...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/species/3/</link>
+      <pubDate>Sun, 31 May 2026 11:56:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/species/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/species/3/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/species/3.png" type="image/png" length="30719" />
+      
+    </item>
     
     <item>
       <title>细胞中的能量</title>
@@ -97,72 +403,6 @@
     </item>
     
     <item>
-      <title>细胞的结构和功能</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;细胞的结构和功能&lt;/h1&gt;
-&lt;h2&gt;细胞的基本结构&lt;/h2&gt;
-&lt;h3&gt;细胞膜的结构和功能&lt;/h3&gt;
-&lt;p&gt;细胞膜（质膜）不仅是细胞的物理边界，更是维持生命活动的关键结构。以下根据你提供的课本内容并结合多方资料，详细展开讲解其结构与功能：&lt;/p&gt;
-&lt;p&gt;细胞膜的化学组成：细胞膜主要由&lt;strong&gt;脂质&lt;/strong&gt;和&lt;strong&gt;蛋白质&lt;/strong&gt;组成，含有少量&lt;strong&gt;糖类&lt;/strong&gt;。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;脂质（约 50%）&lt;/strong&gt;：磷脂是基本成分，其磷酸“头部”亲水，脂肪酸“尾部”疏水。在水中，磷脂分子自发形成&lt;strong&gt;磷脂双分子层&lt;/strong&gt;，疏水端相对位于内侧，构成膜的基本支架。动物细胞膜还含有&lt;strong&gt;胆固醇&lt;/strong&gt;，用于调节膜的流动性和稳定性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;蛋白质（约 40%）&lt;/strong&gt;：蛋白质是功能的主要执行者，其种类和数量决定了膜功能的复杂程度。膜蛋白以镶、嵌、贯穿等方式分布在脂双层中，担任转运蛋白、受体、酶或细胞连接的角色。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;糖类（2%~10%）&lt;/strong&gt;：仅分布在细胞膜的&lt;strong&gt;外侧&lt;/strong&gt;，与蛋白质结合形成糖蛋白（糖被），或与脂质结合形成糖脂。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;目前公认的结构是 1972 年提出的&lt;strong&gt;流动镶嵌模型&lt;/strong&gt;。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;流动性&lt;/strong&gt;：磷脂分子和大多数蛋白质分子都不是静止的，可以在膜平面内做横向移动，这使得膜...&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/cell/3/</link>
-      <pubDate>Thu, 28 May 2026 13:51:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/cell/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/3/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/3.png" type="image/png" length="35623" />
-      
-    </item>
-    
-    <item>
-      <title>细胞的基本生命过程</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;细胞的基本生命过程&lt;/h1&gt;
-&lt;h2&gt;核酸&lt;/h2&gt;
-&lt;h3&gt;核苷酸&lt;/h3&gt;
-&lt;p&gt;核酸的单体结构为核苷酸，每个核苷酸由一个核苷（一个五碳糖、一个含氮碱基）和一个或多个磷酸基团组成。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;./Nucleotides_zh.avif&#34;&gt;{width=&#34;90%&#34;}&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;如果其五碳糖是脱氧核糖，则此单体的聚合物是脱氧核糖核酸 DNA。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;如果其五碳糖是核糖，则此单体的聚合物是核糖核酸 RNA。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;./Difference_DNA_RNA-ZH.svg&#34;&gt;{width=&#34;90%&#34;}&lt;/p&gt;
-&lt;p&gt;核酸的结构可分为一级结构、二级结构、三级结构和四级结构。&lt;/p&gt;
-&lt;p&gt;碱基互补配对：&lt;/p&gt;
-&lt;p&gt;| 胞嘧啶、鸟嘌呤 &lt;br/&gt; 之间生成三条氢键 | 腺嘌呤、胸腺嘧啶 &lt;br/&gt; 之间生成两条氢键 |
-| :---------------------------------: | :-----------------------------------: |
-| &lt;img alt=&#34;&#34; src=&#34;./Base_pair_GC.svg&#34;&gt;             | &lt;img alt=&#34;&#34; src=&#34;./Base_pair_AT.svg&#34;&gt;               |&lt;/p&gt;
-&lt;p&gt;最终形成脱氧核糖...&lt;/p&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/cell/4/</link>
-      <pubDate>Thu, 28 May 2026 13:51:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/cell/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/4/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/4.png" type="image/png" length="35627" />
-      
-    </item>
-    
-    <item>
       <title>低等生物</title>
       
       
@@ -192,23 +432,6 @@
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/species/2/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/species/2.png" type="image/png" length="29994" />
-      
-    </item>
-    
-    <item>
-      <title>植物激素详解：生长素分布机制与农业技术推广应用</title>
-      
-      
-      
-      
-      <description>本文系统阐述植物激素的发现历程与分类，重点解析生长素的合成途径、极性运输机制及其在细胞伸长、器官发育中的作用，并对比赤霉素、细胞分裂素等其他激素的生理功能与应用场景，提供从分子结构到农业技术的完整技术路线图。</description>
-      <link>https://raineblog-whk.pages.dev/science/species/3/</link>
-      <pubDate>Thu, 28 May 2026 13:51:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/species/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/species/3/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/species/3.png" type="image/png" length="46205" />
       
     </item>
     
@@ -706,35 +929,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>有机物的分类</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;有机物的分类&lt;/h1&gt;
-&lt;h2&gt;烷烃概述&lt;/h2&gt;
-&lt;p&gt;烷烃是极佳的有机化学引入之一，在高中有机化学的框架下，我们通常是从烷烃开始，去讨论有机物的化学性质，从引入双键、三键形成不饱和烃，再到引入取代基和各种有机反应。烷烃对于刚刚学习有机化学的人来说，显得格外重要。&lt;/p&gt;
-&lt;h3&gt;甲烷和烷烃&lt;/h3&gt;
-&lt;p&gt;我们熟悉的甲烷（$\ce{CH4}$）是最简单的有机化合物。其分子中的碳原子以最外层的 $4$ 个电子分别与 $4$ 个氢原子的电子形成了 $4$ 个 $\ce{C - H}$ 共价键。&lt;/p&gt;
-&lt;p&gt;实验数据表明，甲烷分子并非平面结构，而是呈正四面体空间构型。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;碳原子位于正四面体的中心。&lt;/li&gt;
-&lt;li&gt;$4$ 个氢原子分别位于 $4$ 个顶点。&lt;/li&gt;
-&lt;li&gt;$4$ 个 $\ce{C - H}$ 键的长度和强度完全相同，任意两个 $\ce{C - H}$ 键之间的夹角均为 $\pu{109.5^\circ C}$。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;与甲烷结构相似的有机化合物还有很多，随着分子中碳原子数的增加，还有乙烷、丙烷、丁烷等一系列有机化合物。这些化合物的碳链呈锯齿状或折线形。&lt;/p&gt;
-&lt;p&gt;烷烃分子中的碳原子都采取 $\text{sp3}$ 杂化，形成四面体结构；碳原子以...&lt;/p&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/organic/2/</link>
-      <pubDate>Thu, 21 May 2026 09:16:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/organic/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/organic/2/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/organic/2.png" type="image/png" length="32822" />
-      
-    </item>
-    
-    <item>
       <title>物理方法</title>
       
       
@@ -989,23 +1183,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>热学与热力学详解：热力学温标机制与理想气体应用场景</title>
-      
-      
-      
-      
-      <description>本文从热力学基本概念出发阐明系统分类与状态参量重点解析分子动能与分子势能的来源解释温度与平均动能的对应关系推导理想气体状态方程及热力学第一零定律深入讨论熵增原理与第二定律并分析等温等压绝热过程中的功与能量转换提供从微观机制到宏观应用的完整热力学框架的应用</description>
-      <link>https://raineblog-whk.pages.dev/science/modern/1/</link>
-      <pubDate>Sat, 16 May 2026 12:03:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/modern/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/modern/1/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/modern/1.png" type="image/png" length="40705" />
-      
-    </item>
-    
-    <item>
       <title>数列基础</title>
       
       
@@ -1044,30 +1221,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/polynomial/1/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/polynomial/1.png" type="image/png" length="30270" />
-      
-    </item>
-    
-    <item>
-      <title>随机变量及其分布</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;随机变量及其分布&lt;/h1&gt;
-&lt;h2&gt;随机变量及其分类&lt;/h2&gt;
-&lt;h3&gt;随机变量的定义&lt;/h3&gt;
-&lt;p&gt;随机变量是用来表示随机试验结果的变量，通常用大写字母 $X,Y,Z$ 或小写希腊字母 $\xi,\eta,\zeta$ 表示。随机函数是一个特殊的实函数，对于任意 $e\in S$，都有唯一一个对应 $X(e)$，如图。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;Zufall.avif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;随机变量实质上是样本空间上的函数，可作为因变量，满足其值不大于某数的状况都是事件。我们称随机变量这个函数的值域为随机变量的取值范围，或值域。&lt;/p&gt;
-&lt;p&gt;随机变量在不同的条件下由于偶然因素影响，其可能取各种随机变量不同的值，具有不确定性和随机性，但这些取值落在某个范围的概率是一定的，此种变量称为随机变量。随机变量可以是离散型的，也可以是连续型的。如分析测试中的测定值就是一个以概率取值的随机变量，被测定量的取值可能在某一范围内随机变化，具体取什么值在测定之前是无法确定的，但测定的结果是确定的，多次重复测定所得到的测定值具有统计规律性。随机变量与模糊变量的不确定性的本质差别在于，后者的测定结果仍具有不确定性，即模糊性。&lt;/p&gt;
-&lt;p&gt;随机变量按其值域（根据定义，随机变量是一个...&lt;/p&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/probability/2/</link>
-      <pubDate>Sat, 16 May 2026 12:03:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/probability/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/probability/2/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/probability/2.png" type="image/png" length="35074" />
       
     </item>
     
@@ -1614,32 +1767,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>极限与微积分</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;极限与微积分&lt;/h1&gt;
-&lt;h2&gt;函数极限&lt;/h2&gt;
-&lt;h3&gt;初等函数&lt;/h3&gt;
-&lt;p&gt;我们研究过常数函数、幂函数、指数函数、对数函数、三角函数、反三角函数，它们经过有限次加、减、乘、除、乘方、开方和复合运算，得到的函数称为初等函数。初等函数是数学中最基本的一类函数，具有相当重要的性质。&lt;/p&gt;
-&lt;h3&gt;极限定义​&lt;/h3&gt;
-&lt;p&gt;对于函数 $f(x)$ 与实数 $a$，如果存在实数 $b$，使得 $\forall \varepsilon &amp;gt; 0$，$\exist \delta &amp;gt; 0$，对任意 $x \in (a - \delta, a) \cup (a, a + \delta)$，有 $|f(x) - b| &amp;lt; \varepsilon$，则 $b$ 称作 $f(x)$ 在点 $a$ 的极限，记作&lt;/p&gt;
-&lt;p&gt;$$
-\lim_{x \to a} f(x) = b
-$$&lt;/p&gt;
-&lt;p&gt;这就是严格定义函数极限的 $\varepsilon \text - \delta$ 语言。也就是说，对于任意 $\varepsilon &amp;gt; 0$，我们都能找到一段 包含 $a$ 但是扣去 $a$ 的区间，使得这个区间上对应的函数值与 $b$ 的距离都小于 $\varep...&lt;/p&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/function/7/</link>
-      <pubDate>Wed, 13 May 2026 14:55:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/function/7/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/function/7/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/function/7.png" type="image/png" length="33713" />
-      
-    </item>
-    
-    <item>
       <title>圆锥截线详解：离心率机制与天体轨道应用场景</title>
       
       
@@ -1910,40 +2037,6 @@ a^3-b^3&amp;amp;=(...&lt;/p&gt;</description>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/cultural/writing/3/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/cultural/writing/3.png" type="image/png" length="30332" />
-      
-    </item>
-    
-    <item>
-      <title>内环境稳态详解：激素调节机制与临床实践</title>
-      
-      
-      
-      
-      <description>本文系统阐释内环境概念，解析血浆、组织液、淋巴液的组成与动态平衡，重点探讨渗透压、酸碱度、温度等理化性质的稳态调控机制，深入说明激素在血糖、体温、水盐调节中的关键作用及反馈回路，涵盖胰岛素、胰高血糖素、甲状腺激素、糖皮质激素等，适用于生物化学与医学学习。</description>
-      <link>https://raineblog-whk.pages.dev/science/human/3/</link>
-      <pubDate>Sat, 02 May 2026 13:12:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/human/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/human/3/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/human/3.png" type="image/png" length="47936" />
-      
-    </item>
-    
-    <item>
-      <title>有机化学详解：碳原子成键机理与命名应用场景基础</title>
-      
-      
-      
-      
-      <description>本文系统阐释有机化合物的基本概念包括碳原子的四价成键单双三键特性及不饱和度计算公式详细解析链烷烃烯烃炔烃及芳香体系的通式并说明同系物在复杂分子中的局限性与衍生物命名规则同时介绍元素分析质谱核磁共振与红外光谱等现代表征方法阐明其在结构鉴定中的应用</description>
-      <link>https://raineblog-whk.pages.dev/science/organic/1/</link>
-      <pubDate>Sat, 02 May 2026 13:12:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/organic/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/organic/1/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/organic/1.png" type="image/png" length="44926" />
       
     </item>
     
@@ -2245,23 +2338,6 @@ git submo...&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>神经系统详解：信号传导机制与医学临床实践创新篇</title>
-      
-      
-      
-      
-      <description>本文系统阐述神经系统的结构层级与信号传导机制，涵盖中枢与外周神经的解剖功能、突触传递过程及离子通道动力学。进一步分析了神经冲动的产生、传播、以及兴奋-收缩耦联的分子基础，并探讨了脑机接口、神经调节及相关疾病的临床意义。</description>
-      <link>https://raineblog-whk.pages.dev/science/human/2/</link>
-      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/human/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/human/2/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/human/2.png" type="image/png" length="44746" />
-      
-    </item>
-    
-    <item>
       <title>泌尿系统详解：泌尿排泄机制与临床应用场景解析全书</title>
       
       
@@ -2335,23 +2411,6 @@ git submo...&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>光学原理详解：光的传播机制与光学系统全解析</title>
-      
-      
-      
-      
-      <description>本文系统阐述光的传播特性，包括点光源、波前、能流矢量及光线抽象；详细推导小孔成像中的全反射条件；阐明镜面反射、漫反射及逆反射原理；解释折射率、斯涅尔定律及全内反射；并分析光导纤维结构、衍射光栅与 X 射线衍射在生物结构中的应用，同时涉及实验测折射率的步骤与误差分析，提供从几何光学到波动光学的完整框架。</description>
-      <link>https://raineblog-whk.pages.dev/science/modern/3/</link>
-      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/modern/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/modern/3/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/modern/3.png" type="image/png" length="28572" />
-      
-    </item>
-    
-    <item>
       <title>近代物理守恒定律详解：宇称、平移、旋转对称性应用</title>
       
       
@@ -2365,23 +2424,6 @@ git submo...&lt;/p&gt;</description>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/modern/4/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/modern/4.png" type="image/png" length="42811" />
-      
-    </item>
-    
-    <item>
-      <title>种群群落详解：结构机制与生态演替与应用管理</title>
-      
-      
-      
-      
-      <description>本文系统阐述生态学概述、种群结构层级及演替过程，重点分析关键性因子对种群数量的调控机制，包括水、光、温度、土壤等环境因子的耐受性定律，并结合酵母菌计数实验说明种群增长的 logistic 曲线与环境阻力概念，提供了从初生演替到顶极群落的完整理论框架</description>
-      <link>https://raineblog-whk.pages.dev/science/nature/3/</link>
-      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/nature/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/nature/3/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/nature/3.png" type="image/png" length="30389" />
       
     </item>
     
@@ -2502,23 +2544,6 @@ git submo...&lt;/p&gt;</description>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/reaction/2/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/reaction/2.png" type="image/png" length="30216" />
-      
-    </item>
-    
-    <item>
-      <title>溶液行为详解：离子反应机制平衡常数与典型的场景</title>
-      
-      
-      
-      
-      <description>本文系统阐述溶液中电解质的电离与离子反应机理涵盖强弱电解质的分类离子化平衡常数及其与活度系数的关系进一步分析酸碱电离理论质子与路易斯理论的适用范围并讨论盐效应沉淀溶解平衡的溶度积与同离子效应最后结合实际应用场景如实验设计与工业制备</description>
-      <link>https://raineblog-whk.pages.dev/science/reaction/3/</link>
-      <pubDate>Sat, 02 May 2026 13:04:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/reaction/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/reaction/3/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/reaction/3.png" type="image/png" length="46129" />
       
     </item>
     
@@ -2894,23 +2919,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/polynomial/3/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/polynomial/3.png" type="image/png" length="31156" />
-      
-    </item>
-    
-    <item>
-      <title>机械振动详解：简谐运动机制与波的传播与应用</title>
-      
-      
-      
-      
-      <description>本文系统阐释机械振动的基本概念与简谐运动的数学模型详细推导弹簧振子的回复力与角频率进一步探讨受迫振动与共振现象的发生条件进一步探讨驱动力对振幅的调制规律并扩展至机械波的定义波的要素衍射与干涉原理提供从理论推导到单摆测量重力的完整技术路线与实验示例并可用于竞赛复习科学知识库的构建与应用示范提升学习效率</description>
-      <link>https://raineblog-whk.pages.dev/science/mechanics/5/</link>
-      <pubDate>Sun, 05 Apr 2026 08:13:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/mechanics/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/mechanics/5/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/mechanics/5.png" type="image/png" length="45393" />
       
     </item>
     
