@@ -144,7 +144,7 @@
 - [空间几何详解：体积公式与几何体应用场景](https://raineblog.dpdns.org/whk/science/solid/3/index.md)
 - [生物和物种](https://raineblog.dpdns.org/whk/science/species/1/index.md)
 - [低等生物](https://raineblog.dpdns.org/whk/science/species/2/index.md)
-- [植物激素详解：生长素分布机制与农业技术推广应用](https://raineblog.dpdns.org/whk/science/species/3/index.md)
+- [植物概述](https://raineblog.dpdns.org/whk/science/species/3/index.md)
 - [动物分类详解：演化机制与生态分布及生物多样性应用](https://raineblog.dpdns.org/whk/science/species/4/index.md)
 - [物质的量概念详解：阿伏伽德罗常数与摩尔体积应用](https://raineblog.dpdns.org/whk/science/structure/1/index.md)
 - [原子与元素详解：射线与放射性机制与应用场景](https://raineblog.dpdns.org/whk/science/structure/2/index.md)

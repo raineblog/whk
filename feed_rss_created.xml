@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Thu, 28 May 2026 14:07:01 -0000</pubDate>
-    <lastBuildDate>Thu, 28 May 2026 14:07:01 -0000</lastBuildDate>
+    <pubDate>Sun, 31 May 2026 11:57:16 -0000</pubDate>
+    <lastBuildDate>Sun, 31 May 2026 11:57:16 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -1321,19 +1321,27 @@ https://chi.lushuyu.site/%E6%96%87%E8%A8%80%E6%96%87/%E6%96%87%E8%A8%80%E8%99%9A
     </item>
     
     <item>
-      <title>植物激素详解：生长素分布机制与农业技术推广应用</title>
+      <title>植物概述</title>
       
       
       
       
-      <description>本文系统阐述植物激素的发现历程与分类，重点解析生长素的合成途径、极性运输机制及其在细胞伸长、器官发育中的作用，并对比赤霉素、细胞分裂素等其他激素的生理功能与应用场景，提供从分子结构到农业技术的完整技术路线图。</description>
+      <description>&lt;h1&gt;植物概述&lt;/h1&gt;
+&lt;h2&gt;植物的调节&lt;/h2&gt;
+&lt;p&gt;高等植物是由很多细胞组成的高度复杂的有机体，它的正常生长发育需要各个器官、组织、细胞之间的协调和配合。植物生长发育的调控，是由&lt;strong&gt;基因表达调控&lt;/strong&gt;、&lt;strong&gt;激素调节&lt;/strong&gt;和&lt;strong&gt;环境因素调节&lt;/strong&gt;共同完成的。&lt;/p&gt;
+&lt;p&gt;植物细胞里储存着全套基因，但是某个细胞的基因如何表达则会根据需要作调整。植物的生长、发育、繁殖、休眠，都处在&lt;strong&gt;基因适时选择性表达&lt;/strong&gt;的调控之下。&lt;/p&gt;
+&lt;p&gt;对于多细胞植物体来说，细胞与细胞之间、器官与器官之间的协调，需要通过激素传递信息。激素作为&lt;strong&gt;信息分子&lt;/strong&gt;，会影响细胞的基因表达，从而起到调节作用。同时，激素的产生和分布是&lt;strong&gt;基因表达调控的结果&lt;/strong&gt;，也&lt;strong&gt;受到环境因素的影响&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;在个体层次，植物生长、发育、繁殖、休眠，实际上，是&lt;strong&gt;植物响应环境变化&lt;/strong&gt;，&lt;strong&gt;调控基因表达&lt;/strong&gt;以及&lt;strong&gt;激素产生、分布&lt;/strong&gt;，最终表现在器官和个体水平上的变化。&lt;/p&gt;
+&lt;h3&gt;生长素的发现&lt;/h3&gt;
+&lt;p&gt;我国宋代著作《种艺必用》中，记载了一种促进空中压条生根的方法：“凡嫁接矮果及花，用好黄泥晒干，筛过，以小便浸之。又晒干，筛过，再浸之。又晒又浸，凡十余次。以泥封树枝……则根生。”&lt;/p&gt;
+&lt;p&gt;单子...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/species/3/</link>
       <pubDate>Fri, 31 Oct 2025 14:20:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/species/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/3.png" type="image/png" length="46205" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/3.png" type="image/png" length="30719" />
       
     </item>
     
