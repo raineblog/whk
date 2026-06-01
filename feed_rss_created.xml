@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 01 Jun 2026 02:52:31 -0000</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2026 02:52:31 -0000</lastBuildDate>
+    <pubDate>Mon, 01 Jun 2026 14:45:39 -0000</pubDate>
+    <lastBuildDate>Mon, 01 Jun 2026 14:45:39 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -3268,42 +3268,17 @@ $$&lt;/p&gt;
       
       <description>&lt;h1&gt;过渡元素概述&lt;/h1&gt;
 &lt;h2&gt;铁单质&lt;/h2&gt;
-&lt;h3&gt;物理性质&lt;/h3&gt;
-&lt;p&gt;固体，铁块为银白色，铁粉为黑色。&lt;/p&gt;
-&lt;p&gt;常见形式为化合态，游离态存在于陨铁中。&lt;/p&gt;
-&lt;p&gt;有矿石：黄铁矿（$\ce{FeS2}$）、赤铁矿（$\ce{Fe2O3}$）、磁铁矿（$\ce{Fe3O4}$）、黄铜矿（$\ce{FeCuS2}$）。&lt;/p&gt;
-&lt;p&gt;不锈钢的合金元素主要是铬（$\ce{Cr}$）和镍（$\ce{Ni}$）。&lt;/p&gt;
-&lt;p&gt;碳素钢的分类：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;低碳钢（含碳量少于 $0.3\%$）：韧性好，焊接性好，强度低。用于制造钢丝、钢管、钢板等。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;中碳钢（含碳量在 $0.3\%\sim0.6\%$）：强度高，韧性和加工性好。用于制造钢轨、车轮和建材等。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;高碳钢（含碳量大于 $0.6\%$）：硬而脆。用于制造器械、弹簧和刀具等。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3&gt;化学性质&lt;/h3&gt;
+&lt;h3&gt;铁的物理性质&lt;/h3&gt;
+&lt;p&gt;铁（Fe）是人类使用量最大、用途最广的金属元素，也是地壳中含量第四高的元素（在金属中居第二位，仅次于铝）。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;与氧气反应：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;常温：$\ce{Fe + O2 + H2O -&amp;gt; Fe2O3*xH2O}$。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;点燃：$\ce{3Fe + 2O2 -&amp;gt;[点燃] Fe3O4}$，火星四射。&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;周期表位置&lt;/strong&gt;：铁原子序数为 $26$，位于元素周期表&lt;strong&gt;第四周期、第 VIII 族&lt;/strong&gt;，属于过渡元素。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;电子排布&lt;/strong&gt;：铁原子的外围电子层排布为 &lt;strong&gt;$3d^6 4s^2$&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化合价&lt;/strong&gt;：在化学反应中，铁原子容易失去最外层的 $2$ 个 $4s$ 电子形成 &lt;strong&gt;$\ce{Fe^{2+}}$&lt;/strong&gt;，也容易进一步失去 $1$ 个 $3d$ 电子（形成 $3d^5$ 半充满的稳定结构）得到 &lt;strong&gt;$\ce{Fe^{3+}}$&lt;/strong&gt;，因此铁通常显 &lt;strong&gt;$+2$ 价和 $+3$ 价&lt;/strong&gt;。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;与酸反应：&lt;/p&gt;
+&lt;p&gt;铁单质的性质：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;与非氧化性酸反应：$\ce{Fe + 2H+ -&amp;gt; ...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;外观与磁性&lt;/strong&gt;：纯净的铁是光亮的&lt;strong&gt;银白色&lt;/strong&gt;金属，具有&lt;strong&gt;铁磁性&lt;/strong&gt;，能被磁铁吸引并在磁场作用下产生磁性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基本常数&lt;/strong&gt;：密度约为 $7.86\ \text{g/cm}^3$，熔点为 $1538\,^\circ\text{C}$，沸点为 $2861\,^\circ\text{C}...&lt;/li&gt;
 &lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/element/fe/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
