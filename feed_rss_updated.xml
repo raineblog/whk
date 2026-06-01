@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 01 Jun 2026 02:52:29 -0000</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2026 02:52:29 -0000</lastBuildDate>
+    <pubDate>Mon, 01 Jun 2026 14:45:43 -0000</pubDate>
+    <lastBuildDate>Mon, 01 Jun 2026 14:45:43 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,89 @@
     
 
     
+    
+    <item>
+      <title>过渡元素概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;过渡元素概述&lt;/h1&gt;
+&lt;h2&gt;铁单质&lt;/h2&gt;
+&lt;h3&gt;铁的物理性质&lt;/h3&gt;
+&lt;p&gt;铁（Fe）是人类使用量最大、用途最广的金属元素，也是地壳中含量第四高的元素（在金属中居第二位，仅次于铝）。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;周期表位置&lt;/strong&gt;：铁原子序数为 $26$，位于元素周期表&lt;strong&gt;第四周期、第 VIII 族&lt;/strong&gt;，属于过渡元素。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;电子排布&lt;/strong&gt;：铁原子的外围电子层排布为 &lt;strong&gt;$3d^6 4s^2$&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化合价&lt;/strong&gt;：在化学反应中，铁原子容易失去最外层的 $2$ 个 $4s$ 电子形成 &lt;strong&gt;$\ce{Fe^{2+}}$&lt;/strong&gt;，也容易进一步失去 $1$ 个 $3d$ 电子（形成 $3d^5$ 半充满的稳定结构）得到 &lt;strong&gt;$\ce{Fe^{3+}}$&lt;/strong&gt;，因此铁通常显 &lt;strong&gt;$+2$ 价和 $+3$ 价&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;铁单质的性质：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;外观与磁性&lt;/strong&gt;：纯净的铁是光亮的&lt;strong&gt;银白色&lt;/strong&gt;金属，具有&lt;strong&gt;铁磁性&lt;/strong&gt;，能被磁铁吸引并在磁场作用下产生磁性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基本常数&lt;/strong&gt;：密度约为 $7.86\ \text{g/cm}^3$，熔点为 $1538\,^\circ\text{C}$，沸点为 $2861\,^\circ\text{C}...&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/element/fe/</link>
+      <pubDate>Mon, 01 Jun 2026 14:44:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/element/fe/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/element/fe/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/element/fe.png" type="image/png" length="34173" />
+      
+    </item>
+    
+    <item>
+      <title>物质及元素</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;物质及元素&lt;/h1&gt;
+&lt;h2&gt;物质的组成和分类&lt;/h2&gt;
+&lt;h3&gt;物质的组成&lt;/h3&gt;
+&lt;p&gt;物质都是由元素组成的。元素是具有相同质子数（核电荷数）的一类原子的总称。自然界中的元素以两种形态存在：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;游离态&lt;/strong&gt;：元素以单质形式存在。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;化合态&lt;/strong&gt;：元素以化合物形式存在。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;元素-游离态-单质，自然界中常见存在的单质，例如空气中的某些成分、矿石中的不活泼的金属单质、火山口的硫单质、陨铁中的铁单质。&lt;/p&gt;
+&lt;p&gt;经典问题，$\ce{H2}$ 和 $\ce{HD}$ 的“混合物”是纯净物，因为纯净物的定义中，不考虑原子核同位素等的不同。&lt;/p&gt;
+&lt;p&gt;元素-化合态-化合物。&lt;/p&gt;
+&lt;p&gt;物质按照组成可以分为纯净物和混合物：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;纯净物&lt;/strong&gt;：由一种物质组成，具有固定的组成和性质。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;混合物&lt;/strong&gt;：由两种或多种物质混合而成，没有固定的组成，各成分保持各自的性质。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;物质&#34; src=&#34;物质-dcbbc0d.avif&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
+&lt;p&gt;纯净物注意：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;化学式相同，并不一定就是纯净物。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;高聚物，又称高分子化合物，由于其分子中的链节数目不同，相对分子质量也不同，因此高聚物一定是混合物。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;水合盐又...&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/element/</link>
+      <pubDate>Mon, 01 Jun 2026 13:33:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/element/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/element/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/element/index.png" type="image/png" length="32136" />
+      
+    </item>
     
     <item>
       <title>细胞的结构和功能</title>
@@ -991,61 +1074,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>过渡元素概述</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;过渡元素概述&lt;/h1&gt;
-&lt;h2&gt;铁单质&lt;/h2&gt;
-&lt;h3&gt;物理性质&lt;/h3&gt;
-&lt;p&gt;固体，铁块为银白色，铁粉为黑色。&lt;/p&gt;
-&lt;p&gt;常见形式为化合态，游离态存在于陨铁中。&lt;/p&gt;
-&lt;p&gt;有矿石：黄铁矿（$\ce{FeS2}$）、赤铁矿（$\ce{Fe2O3}$）、磁铁矿（$\ce{Fe3O4}$）、黄铜矿（$\ce{FeCuS2}$）。&lt;/p&gt;
-&lt;p&gt;不锈钢的合金元素主要是铬（$\ce{Cr}$）和镍（$\ce{Ni}$）。&lt;/p&gt;
-&lt;p&gt;碳素钢的分类：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;低碳钢（含碳量少于 $0.3\%$）：韧性好，焊接性好，强度低。用于制造钢丝、钢管、钢板等。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;中碳钢（含碳量在 $0.3\%\sim0.6\%$）：强度高，韧性和加工性好。用于制造钢轨、车轮和建材等。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;高碳钢（含碳量大于 $0.6\%$）：硬而脆。用于制造器械、弹簧和刀具等。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3&gt;化学性质&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;与氧气反应：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;常温：$\ce{Fe + O2 + H2O -&amp;gt; Fe2O3*xH2O}$。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;点燃：$\ce{3Fe + 2O2 -&amp;gt;[点燃] Fe3O4}$，火星四射。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;与酸反应：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;与非氧化性酸反应：$\ce{Fe + 2H+ -&amp;gt; ...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/element/fe/</link>
-      <pubDate>Sat, 16 May 2026 12:03:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/element/fe/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/element/fe/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/element/fe.png" type="image/png" length="34173" />
-      
-    </item>
-    
-    <item>
       <title>圆周运动</title>
       
       
@@ -1255,59 +1283,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/solid/3/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/solid/3.png" type="image/png" length="41072" />
-      
-    </item>
-    
-    <item>
-      <title>物质及元素</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;物质及元素&lt;/h1&gt;
-&lt;h2&gt;物质的组成和分类&lt;/h2&gt;
-&lt;h3&gt;物质的组成&lt;/h3&gt;
-&lt;p&gt;物质都是由元素组成的。元素是具有相同质子数（核电荷数）的一类原子的总称。自然界中的元素以两种形态存在：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;游离态&lt;/strong&gt;：元素以单质形式存在。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;化合态&lt;/strong&gt;：元素以化合物形式存在。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;元素-游离态-单质，自然界中常见存在的单质，例如空气中的某些成分、矿石中的不活泼的金属单质、火山口的硫单质、陨铁中的铁单质。&lt;/p&gt;
-&lt;p&gt;经典问题，$\ce{H2}$ 和 $\ce{HD}$ 的“混合物”是纯净物，因为纯净物的定义中，不考虑原子核同位素等的不同。&lt;/p&gt;
-&lt;p&gt;元素-化合态-化合物。&lt;/p&gt;
-&lt;p&gt;物质按照组成可以分为纯净物和混合物：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;纯净物&lt;/strong&gt;：由一种物质组成，具有固定的组成和性质。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;混合物&lt;/strong&gt;：由两种或多种物质混合而成，没有固定的组成，各成分保持各自的性质。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&#34;物质&#34; src=&#34;物质-dcbbc0d.avif&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
-&lt;p&gt;纯净物注意：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;化学式相同，并不一定就是纯净物。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;高聚物，又称高分子化合物，由于其分子中的链节数目不同，相对分子质量也不同，因此高聚物一定是混合物。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;水合盐又...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/element/</link>
-      <pubDate>Sat, 16 May 2026 11:57:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/element/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/element/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/element/index.png" type="image/png" length="32136" />
       
     </item>
     
