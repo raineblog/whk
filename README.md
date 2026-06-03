@@ -20,7 +20,7 @@
 
 ---
 
-**RainPPR 的高中文化课（WHK）学习笔记** —— 以理科为核心，涵盖数学、物理、化学、生物等学科的系统性知识总结与深度解析。
+**RainPPR 的高中文化课（WHK）学习笔记** —— 以理科为核心，涵盖数学、物理、化学、生物等学科的系统性知识总结与深度解析。[![wakatime](https://wakatime.com/badge/user/b933bf96-63e5-46e1-a52f-0a2856339f83/project/ebc492fd-43cb-48a1-922f-c4eacb50dbb3.svg)](https://wakatime.com/badge/user/b933bf96-63e5-46e1-a52f-0a2856339f83/project/ebc492fd-43cb-48a1-922f-c4eacb50dbb3)
 
 本项目受 [CTF Wiki](https://ctf-wiki.org/) 和 [OI Wiki](https://oi-wiki.org/) 启发，在高中课程标准基础上，融入竞赛内容与自然科学逻辑。我们不仅记录知识点，更试图通过定理推演，理解世界的运行逻辑。
 
