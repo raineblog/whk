@@ -61,10 +61,13 @@ $$
 
 $$
 \left\{
-\begin{aligned}
+\\begin{
 \ce{2NO + O2 &-> 2NO2}\\
 \ce{3NO2 + H2O &-> 2HNO3 + NO}
-\end{aligned}
+}aligned\\end{
+\ce{2NO + O2 &-> 2NO2}\\
+\ce{3NO2 + H2O &-> 2HNO3 + NO}
+}
 \right.
 $$
 
@@ -84,10 +87,13 @@ $$
 
 $$
 \left\{
-\begin{aligned}
+\\begin{
 \ce{3NO2 + H2O &-> 2HNO3 + NO}\\
 \ce{2NO + O2 &-> 2NO2}
-\end{aligned}
+}aligned\\end{
+\ce{3NO2 + H2O &-> 2HNO3 + NO}\\
+\ce{2NO + O2 &-> 2NO2}
+}
 \right.
 $$
 
@@ -359,7 +365,7 @@ $$
 | 领域 | 具体应用 |
 |------|----------|
 | 工业合成 | 丙烯腈（ABS 塑料、合成纤维）|
-| 冶金 | 金矿氰化提取 $\ce{Au + 4NaCN + O2 + 2H2O -> 4Na[Au(CN)2] + 4NaOH}$ |
+| 冶金 | 金矿氰化提取 $\ce{4Au + 8NaCN + O2 + 2H2O -> 4Na[Au(CN)2] + 4NaOH}$ |
 | 电镀 | 镀金、镀银工艺 |
 | 有机合成 | 合成氨基酸、染料、农药 |
 
