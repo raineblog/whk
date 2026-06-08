@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 08 Jun 2026 02:50:04 -0000</pubDate>
-    <lastBuildDate>Mon, 08 Jun 2026 02:50:04 -0000</lastBuildDate>
+    <pubDate>Mon, 08 Jun 2026 12:26:32 -0000</pubDate>
+    <lastBuildDate>Mon, 08 Jun 2026 12:26:32 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,40 @@
     
 
     
+    
+    <item>
+      <title>碱金属概述</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;碱金属概述&lt;/h1&gt;
+&lt;h2&gt;钠及其化合物&lt;/h2&gt;
+&lt;h3&gt;钠单质&lt;/h3&gt;
+&lt;p&gt;金属钠（Sodium，Na）是一种具有极高化学活性的碱金属元素。在元素周期表中位于&lt;strong&gt;第三周期、第ⅠA 族&lt;/strong&gt;，原子序数为 $11$。钠原子的最外电子层只有一个电子（$\mathrm{3s^1}$），在化学反应中极易失去该电子形成稳定的 $\ce{Na+}$ 离子，因此表现出&lt;strong&gt;极强的还原性&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;钠的物理性质：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;颜色与状态&lt;/strong&gt;：钠单质呈&lt;strong&gt;银白色&lt;/strong&gt;，具有金属光泽的固体。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;硬度&lt;/strong&gt;：质地非常&lt;strong&gt;软&lt;/strong&gt;，可以用小刀切割。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;密度&lt;/strong&gt;：密度约为 $\pu{0.968 g/cm^3}$，比水小但比煤油大。因此在水中会浮在水面，而在煤油中会沉入底部。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;熔沸点&lt;/strong&gt;：熔点较低，约为 $\pu{97.794^oC}$；沸点约为 $\pu{882.94^oC}$。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;导电导热性&lt;/strong&gt;：是热和电的良导体。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;焰色反应&lt;/strong&gt;：钠及其化合物在灼烧时火焰呈&lt;strong&gt;黄色&lt;/strong&gt;，这是钠元素的特征性质，属于物理变化。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;钠的化学性质极度活泼，在自然界中均以化合态形式存在。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;与非金属单质反应&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/element/na/</link>
+      <pubDate>Mon, 08 Jun 2026 11:54:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/element/na/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/element/na/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/element/na.png" type="image/png" length="32774" />
+      
+    </item>
     
     <item>
       <title>过渡元素概述</title>
@@ -1345,76 +1379,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/element/n/</guid>
       
       <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/element/n.png" type="image/png" length="35118" />
-      
-    </item>
-    
-    <item>
-      <title>碱金属概述</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;碱金属概述&lt;/h1&gt;
-&lt;h2&gt;碱金属的性质&lt;/h2&gt;
-&lt;h3&gt;碱金属性质概述&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;碱金属大多为银白色固体（铯 Cs 略带金色）、密度小柔软、熔沸点低。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;按照从上到下，$\ce{Li,Na,K,Rb,Cs}$，熔沸点降低、密度增大（钾反常小），与氧气反应更加复杂。&lt;/p&gt;
-&lt;p&gt;$$
-\ce{Li + O2 -&amp;gt; LiO2}
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\ce{Na + O2 -&amp;gt; Na2O, Na2O2}
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\ce{K + O2 -&amp;gt; K2O, K2O2, KO2, KO3}
-$$&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;对应的碱，除了氢氧化锂外均为强碱，且碱性依次增强。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;钠单质的物理性质&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;质软。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;银白色金属光泽。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;常温下是固态。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;密度比水小，比煤油大。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;熔点低。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;钠单质的化学性质&lt;/h2&gt;
-&lt;h3&gt;钠与氧气的反应&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;常温：迅速被氧化为 $\ce{Na2O}$，失去金属光泽。&lt;/p&gt;
-&lt;p&gt;$$
-\ce{4Na + O2 -&amp;gt; 2Na2O}
-$$&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;加热：先熔化后燃烧，发出黄色火焰，生成淡黄色...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/element/na/</link>
-      <pubDate>Sat, 16 May 2026 11:57:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/element/na/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/element/na/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/element/na.png" type="image/png" length="32774" />
       
     </item>
     
