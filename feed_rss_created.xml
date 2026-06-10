@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Wed, 10 Jun 2026 14:42:05 -0000</pubDate>
-    <lastBuildDate>Wed, 10 Jun 2026 14:42:05 -0000</lastBuildDate>
+    <pubDate>Wed, 10 Jun 2026 15:03:23 -0000</pubDate>
+    <lastBuildDate>Wed, 10 Jun 2026 15:03:23 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -3303,13 +3303,15 @@ $$&lt;/p&gt;
 &lt;p&gt;镁（Magnesium, Mg）是自然界中广泛分布的活泼金属元素，在地壳中的含量约为 2.09%，在海水中占约 0.135%。它在元素周期表中位于&lt;strong&gt;第三周期、第ⅡA族&lt;/strong&gt;（碱土金属），原子序数为 12。以下是对镁单质性质、制备、应用及生物学意义的详细展开讲解。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;外观与结构&lt;/strong&gt;：镁是一种&lt;strong&gt;银白色&lt;/strong&gt;、具有金属光泽的&lt;strong&gt;轻金属&lt;/strong&gt;。其晶体结构属于&lt;strong&gt;六方最密堆积&lt;/strong&gt;（镁型），配位数为 12。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;密度与机械性&lt;/strong&gt;：镁的密度较小，约为 $1.738\text{ g/cm}^3$ 至 $1.74\text{ g/cm}^3$。它的硬度较低，质地较软，具有良好的&lt;strong&gt;延展性&lt;/strong&gt;，即便在粉末状态下也能保持金属光泽。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;热学与电学性质&lt;/strong&gt;：镁的熔点约为 $650^\circ\text{C}$，沸点约为 $1090^\circ\text{C}$。它是电和热的良导体。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;密度与机械性&lt;/strong&gt;：镁的密度较小，约为 $\pu{1.738 g/cm^3}$ 至 $\pu{1.74 g/cm^3}$。它的硬度较低，质地较软，具有良好的&lt;strong&gt;延展性&lt;/strong&gt;，即便在粉末状态下也能保持金属光泽。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;热学与电学性质&lt;/strong&gt;：镁的熔点约为 $\pu{650 ^oC}$，沸点约为 $\pu{1090 ^oC}$。它是电和热的良导体。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;镁原子的最外层有 2 个电子，在化学反应中极易失去电子形成 $\text{Mg}^{2+}$，表现出强还原性。&lt;/p&gt;
+&lt;p&gt;镁原子的最外层有 2 个电子，在化学反应中极易失去电子形成 $\ce{Mg^{2+}}$，表现出强还原性。&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;与非金属单质反应&lt;/strong&gt;：
-...&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;与非金属单质反应&lt;/strong&gt;：&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;氧气&lt;/strong&gt;：在空气...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ol&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/element/mg/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
