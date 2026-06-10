@@ -1,6 +1,6 @@
 ---
 name: review
-description: Markdown 文章审阅与排版检查专家，能够执行 lint 检查、修复错别字和格式问题，确保文章符合项目规范。
+description: Markdown 文章审阅与排版检查专家，能够执行 lint 检查、修复错别字和格式问题，确保文章符合项目规范。当你在提交 commit 或者用户明确指出要用 review skill 才需要读取这个。
 ---
 
 对于用户指定的文件，你需要按照下面的步骤进行（**在项目根目录下执行 `node .agents/skills/review-workflow/review.js <command>`**）：
