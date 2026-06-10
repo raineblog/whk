@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 08 Jun 2026 12:34:54 -0000</pubDate>
-    <lastBuildDate>Mon, 08 Jun 2026 12:34:54 -0000</lastBuildDate>
+    <pubDate>Wed, 10 Jun 2026 14:42:05 -0000</pubDate>
+    <lastBuildDate>Wed, 10 Jun 2026 14:42:05 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -3278,7 +3278,8 @@ $$&lt;/p&gt;
 &lt;p&gt;铁单质的性质：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;外观与磁性&lt;/strong&gt;：纯净的铁是光亮的&lt;strong&gt;银白色&lt;/strong&gt;金属，具有&lt;strong&gt;铁磁性&lt;/strong&gt;，能被磁铁吸引并在磁场作用下产生磁性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;基本常数&lt;/strong&gt;：密度约为 $\pu{7.86 g/cm3}$，熔点为 $1538\,^\circ\text{C}$，沸点为 $2861\,^\circ\text{C}$...&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基本常数&lt;/strong&gt;：密度约为 $\pu{7.86 g/cm^3}$，熔点为 $\pu{1538 ^oC}$，沸点为 $\pu{2861 ^oC}$。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;特性&lt;/strong&gt;：具有...&lt;/li&gt;
 &lt;/ul&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/element/fe/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
@@ -3297,33 +3298,19 @@ $$&lt;/p&gt;
       
       
       <description>&lt;h1&gt;碱土金属概述&lt;/h1&gt;
-&lt;h2&gt;镁概述&lt;/h2&gt;
-&lt;h2&gt;镁的化学性质&lt;/h2&gt;
-&lt;p&gt;镁比较活泼，&lt;/p&gt;
-&lt;p&gt;$$
-\ce{2Mg + O2 = 2MgO}
-$$&lt;/p&gt;
-&lt;p&gt;这个反应剧烈发光发热，通常作为光源，引发氢气、氯气混合气体爆炸，或者作为热源，引发铝热反应。&lt;/p&gt;
-&lt;p&gt;镁也可以在二氧化碳中燃烧，置换出碳单质。&lt;/p&gt;
-&lt;p&gt;$$
-\ce{2Mg + CO2 = 2MgO + C}
-$$&lt;/p&gt;
-&lt;p&gt;氧化镁性质稳定，难溶、难熔，与氧化铝类似可以作为防火材料。&lt;/p&gt;
-&lt;h3&gt;海水制镁&lt;/h3&gt;
-&lt;p&gt;海水中富含镁离子，通常以 $\ce{MgSO4}$ 为主要存在形式。&lt;/p&gt;
-&lt;p&gt;我们向母液（提取粗盐后的海水）中加入石灰乳，产生氢氧化镁沉淀，过滤，加入足量稀盐酸，富集并在氯化氢氛围中蒸干，得到氯化镁固体，电解熔融氯化镁制取镁。&lt;/p&gt;
-&lt;h3&gt;工业应用与扩展&lt;/h3&gt;
+&lt;h2&gt;镁及其化合物&lt;/h2&gt;
+&lt;h3&gt;镁单质&lt;/h3&gt;
+&lt;p&gt;镁（Magnesium, Mg）是自然界中广泛分布的活泼金属元素，在地壳中的含量约为 2.09%，在海水中占约 0.135%。它在元素周期表中位于&lt;strong&gt;第三周期、第ⅡA族&lt;/strong&gt;（碱土金属），原子序数为 12。以下是对镁单质性质、制备、应用及生物学意义的详细展开讲解。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;耐火材料&lt;/strong&gt;：$\ce{MgO}$ 具有极高的熔点（约 2852℃），是冶金炉衬、干电池填充剂的重要材料。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;有机合成&lt;/strong&gt;：镁单质可与卤代烃在无水乙醚中反应生成&lt;strong&gt;格氏试剂&lt;/strong&gt;（$\ce{R-MgX}$），是构建碳碳键的核心试剂。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;电石工业&lt;/strong&gt;：$\ce{CaC2}$（电石）遇水剧烈反应生成乙炔（$...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;li&gt;&lt;strong&gt;外观与结构&lt;/strong&gt;：镁是一种&lt;strong&gt;银白色&lt;/strong&gt;、具有金属光泽的&lt;strong&gt;轻金属&lt;/strong&gt;。其晶体结构属于&lt;strong&gt;六方最密堆积&lt;/strong&gt;（镁型），配位数为 12。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;密度与机械性&lt;/strong&gt;：镁的密度较小，约为 $1.738\text{ g/cm}^3$ 至 $1.74\text{ g/cm}^3$。它的硬度较低，质地较软，具有良好的&lt;strong&gt;延展性&lt;/strong&gt;，即便在粉末状态下也能保持金属光泽。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;热学与电学性质&lt;/strong&gt;：镁的熔点约为 $650^\circ\text{C}$，沸点约为 $1090^\circ\text{C}$。它是电和热的良导体。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;镁原子的最外层有 2 个电子，在化学反应中极易失去电子形成 $\text{Mg}^{2+}$，表现出强还原性。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;与非金属单质反应&lt;/strong&gt;：
+...&lt;/li&gt;
+&lt;/ol&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/element/mg/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
