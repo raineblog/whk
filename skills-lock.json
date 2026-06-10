@@ -47,6 +47,18 @@
       "sourceType": "github",
       "computedHash": "6e34378091a1da92463e7337e4b9b9d4da6e90f0409b49b1c17816374aa92d84"
     },
+    "nopua": {
+      "source": "wuji-labs/nopua",
+      "sourceType": "github",
+      "skillPath": "skills/nopua/SKILL.md",
+      "computedHash": "1594c87a840e45e4214e33939008f9a9eba3ad60be0e7de9b60f90097015ebe0"
+    },
+    "pua": {
+      "source": "tanweai/pua",
+      "sourceType": "github",
+      "skillPath": "skills/pua/SKILL.md",
+      "computedHash": "a33a4f9b7ad4974985446e33048d868d65b438d4eca6dd970ddca37b29d6b75b"
+    },
     "skill-creator": {
       "source": "anthropics/skills",
       "sourceType": "github",
