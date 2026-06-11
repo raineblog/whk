@@ -10,5 +10,9 @@
     "geminicodeassist.inlineSuggestions.enableAuto": false,
     "workbench.iconTheme": "material-icon-theme",
     "editor.wordBasedSuggestions": "off",
-    "editor.acceptSuggestionOnEnter": "smart"
+    "editor.acceptSuggestionOnEnter": "smart",
+    "prettier.printWidth": 999,
+    "prettier.proseWrap": "always",
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "es5"
 }
