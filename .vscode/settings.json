@@ -14,5 +14,10 @@
     "prettier.printWidth": 999,
     "prettier.proseWrap": "always",
     "prettier.tabWidth": 4,
-    "prettier.trailingComma": "es5"
+    "prettier.trailingComma": "es5",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "markdown.validate.enabled": true
 }
