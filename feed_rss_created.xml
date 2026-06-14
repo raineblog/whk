@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Thu, 11 Jun 2026 04:22:35 -0000</pubDate>
-    <lastBuildDate>Thu, 11 Jun 2026 04:22:35 -0000</lastBuildDate>
+    <pubDate>Sun, 14 Jun 2026 14:32:13 -0000</pubDate>
+    <lastBuildDate>Sun, 14 Jun 2026 14:32:13 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -1437,25 +1437,7 @@ https://chi.lushuyu.site/%E6%96%87%E8%A8%80%E6%96%87/%E6%96%87%E8%A8%80%E8%99%9A
       
       
       <description>&lt;h1&gt;细胞的基本生命过程&lt;/h1&gt;
-&lt;h2&gt;核酸&lt;/h2&gt;
-&lt;h3&gt;核苷酸&lt;/h3&gt;
-&lt;p&gt;核酸的单体结构为核苷酸，每个核苷酸由一个核苷（一个五碳糖、一个含氮碱基）和一个或多个磷酸基团组成。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;./Nucleotides_zh.avif&#34;&gt;{width=&#34;90%&#34;}&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;如果其五碳糖是脱氧核糖，则此单体的聚合物是脱氧核糖核酸 DNA。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;如果其五碳糖是核糖，则此单体的聚合物是核糖核酸 RNA。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;./Difference_DNA_RNA-ZH.svg&#34;&gt;{width=&#34;90%&#34;}&lt;/p&gt;
-&lt;p&gt;核酸的结构可分为一级结构、二级结构、三级结构和四级结构。&lt;/p&gt;
-&lt;p&gt;碱基互补配对：&lt;/p&gt;
-&lt;p&gt;| 胞嘧啶、鸟嘌呤 &lt;br/&gt; 之间生成三条氢键 | 腺嘌呤、胸腺嘧啶 &lt;br/&gt; 之间生成两条氢键 |
-| :---------------------------------: | :-----------------------------------: |
-| &lt;img alt=&#34;&#34; src=&#34;./Base_pair_GC.svg&#34;&gt;             | &lt;img alt=&#34;&#34; src=&#34;./Base_pair_AT.svg&#34;&gt;               |&lt;/p&gt;
-&lt;p&gt;最终形成脱氧核糖...&lt;/p&gt;</description>
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-10-12&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-10-12T13:16:14+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-06-12&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-06-12T14:35:35+0...</description>
       <link>https://raineblog-whk.pages.dev/science/cell/4/</link>
       <pubDate>Sun, 12 Oct 2025 13:16:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -1688,9 +1670,9 @@ https://chi.lushuyu.site/%E6%96%87%E8%A8%80%E6%96%87/%E6%96%87%E8%A8%80%E8%99%9A
 &lt;li&gt;&lt;strong&gt;动物界&lt;/strong&gt;：多细胞真核生物，通过摄取现成的有机物（异养）生活，如昆虫、鸟类、哺乳动物等。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;需要注意的是，由于病毒没有细胞结构，通常不被包含在这个五界分类系统之内。&lt;/p&gt;
-&lt;h2&gt;自然选择学说&lt;/h2&gt;
-&lt;p&gt;适应作为一个生物学术语，包括两方面的含义：一是指生物的形态结构适合于完成一定的功能，二是指生物的形态结构及其功能适合于该生物在一定的环境中生存和繁殖。&lt;/p&gt;
-&lt;p&gt;适应是普遍存在的...&lt;/p&gt;</description>
+&lt;blockquote&gt;
+&lt;p&gt;【沪科教版】真核细胞和原核细胞的概念提出后，美国科学家惠特克根据生物细胞的结构特征和能量利用方式，将生物分为五界（表 1-1）。原核生物界、原生生物界的绝大多数生物和真菌界的一部分生物以单...&lt;/p&gt;
+&lt;/blockquote&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/species/1/</link>
       <pubDate>Sat, 06 Sep 2025 10:39:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -1709,21 +1691,15 @@ https://chi.lushuyu.site/%E6%96%87%E8%A8%80%E6%96%87/%E6%96%87%E8%A8%80%E8%99%9A
       
       <description>&lt;h1&gt;低等生物&lt;/h1&gt;
 &lt;h2&gt;病毒&lt;/h2&gt;
-&lt;h3&gt;什么是病毒&lt;/h3&gt;
 &lt;p&gt;在生物学分类中，病毒处于一个极为特殊的地位，被描述为介于生物与非生物之间的“幽灵”。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;非细胞特征&lt;/strong&gt;：病毒不具备细胞结构，没有细胞膜、细胞质或细胞器，无法独立进行新陈代谢。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;生命特性的缺失与体现&lt;/strong&gt;：它们不生长、不发育，在宿主细胞外表现为无生命的化学大分子颗粒，甚至可以被结晶化。然而，一旦进入活细胞，它们便能利用宿主的机器进行自我复制，并表现出遗传和变异的特性。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;绝对寄生性&lt;/strong&gt;：病毒是专性胞内寄生生物，必须依赖活细胞提供的能量、原料（如氨基酸、核苷酸）和化学合成机器（如核糖体、酶）才能完成生命活动。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;病毒的形体极其微小，通常以纳米（$\text{nm}$）为计量单位（$\pu{20\sim450 nm}$），必须借助电子显微镜才能观察到其结构。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;基本结构（核壳）：&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;核心（髓部）&lt;/strong&gt;：包含遗传物质（DNA 或 RNA），这是病毒的基因组。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;衣壳&lt;/strong&gt;：包围在核心外的蛋白质外壳，由被称为“衣壳粒（capsomeres）”的蛋白质亚基组成，具有保护核酸和介导感染...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;blockquote&gt;
+&lt;p&gt;【浙科版】自 19 世纪末烟草花叶病毒（tobacco mosaic virus，TMV）被发现以来，越来越多的病毒被人们熟知。同其他生物一样，病毒具有遗传信息，能自我复制、进化，是一类体积非常小、结构极其简单、生命活动方式十分特殊的生命体。病毒没有细胞结构，一些简单的病毒仅由核酸和蛋白质组成。一种病毒通常只含有一种核酸（DNA 或 RNA）。目前发现的自然界中以 RNA 作为遗传物质的生命体仅有 RNA 病毒。病毒没有细...&lt;/p&gt;
+&lt;/blockquote&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/species/2/</link>
       <pubDate>Sat, 06 Sep 2025 10:39:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
@@ -2854,6 +2830,29 @@ $$&lt;/p&gt;
       
       
       <description>&lt;h1&gt;细胞中的物质&lt;/h1&gt;
+&lt;h2&gt;细胞中的物质&lt;/h2&gt;
+&lt;h3&gt;元素和化合物&lt;/h3&gt;
+&lt;p&gt;生物体总是和外界环境进行着物质交换，细胞生命活动所需要的物质，归根结底是从无机自然界中获取的。因此，组成细胞的化学元素，在无机自然界中都能够找到，没有一种化学元素为细胞所特有。但是，细胞中各种元素的相对含量与无机自然界的大不相同。&lt;/p&gt;
+&lt;p&gt;组成细胞的化学元素，常见的有 20 多种，其中有些含量多，有些含量很少。一般来说，细胞中含量最多的就是碳元素和氧元素，以人和玉米细胞为例，人的干重 C O N H 依次最多，人的鲜重、玉米的干重、玉米的鲜重都是 O C H N 依次最多。核心原因是玉米富含糖类（例如纤维素细胞壁），糖类中氧元素可以在烘干中保留，而不像自由水那样脱去。&lt;/p&gt;
+&lt;p&gt;细胞中常见的化学元素中，含量较多的有 C、H、O、N、P、S、K、Ca、Mg、Na、Cl 等元素，称为大量元素（注意，Na 和 Cl 在中学阶段不被列入大量元素，在植物中钠属于非必需/有益元素，氯是必需微量元素）；有些元素含量很少，如 Fe、Mn、Zn、Cu、B、Mo、Ni、Co、Se 等，称为微量元素。&lt;/p&gt;
+&lt;p&gt;![alt text](image-19.pn...&lt;/p&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/cell/1/</link>
+      <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
+      <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog-whk.pages.dev/science/cell/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/1/</guid>
+      
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/1.png" type="image/png" length="32078" />
+      
+    </item>
+    
+    <item>
+      <title>细胞的结构和功能</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;细胞的结构和功能&lt;/h1&gt;
 &lt;h2&gt;细胞学说&lt;/h2&gt;
 &lt;h3&gt;细胞学说的概述&lt;/h3&gt;
 &lt;p&gt;细胞学说的建立者主要是两位德国科学家施莱登和施旺。后人根据他们发表的研究结果进行整理并加以修正，综合为以下要点：&lt;/p&gt;
@@ -2868,35 +2867,17 @@ $$&lt;/p&gt;
 &lt;p&gt;新细胞是由老细胞分裂产生的。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;细胞学说的建立&lt;/h3&gt;
-&lt;p&gt;细胞学说的建立经历了漫长的过程：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;显微镜的发明使人类打开了微观世界的大门，借助显微镜，人们看到了动物体和植物体中各种各样的细胞。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;维萨里通过大量的尸体解剖研究，揭示了人体在器官水平的结构。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;比夏经过对器官的解剖观察，指出器官由低一层次的结构——组织构成。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;罗伯特·胡克用显微镜观察植物的木栓组织，发现这些木栓组织由许多规则的小室组成，他把观察到的图像画了下来，并把“小室”称为细胞（他观察到的只是死细胞）。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;列文虎克用自制的显微镜，观察到不同形态的细菌、红细胞和精子等。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;马尔比基用显微镜广泛观察了动植物的微细结构，如细胞壁和...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/cell/1/</link>
+&lt;blockquote&gt;
+&lt;p&gt;【沪科技版】20 世纪初，美国生物学家威尔逊（E. B. Wilson）曾预测：“一切生物学问题的答案最终都要到细胞中去寻找。”今天，生物学研究的众多重大成果证明了这一预测的正确性。&lt;/p&gt;
+&lt;p&gt;绿眼虫、草履虫等单细胞生物，整个生物体由一个细胞构成。细胞直接与外界非生物环境进行物质和信息交换，生理活动由细胞的不同结构分工完成。例如，草履虫细胞质膜表面凸起形成的纤毛具有运动功能。高等植物由不同器官组成，如根、茎、叶等。人和动物的消化、呼吸、循环等系统也是由相应的器官组成。显微镜下可观察到这些器官都是由无数细胞构成的，形态相似的细胞排列在一起，执行特定的功能。例如小肠绒毛中，柱状的上皮细胞紧密...&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+      <link>https://raineblog-whk.pages.dev/science/cell/2/</link>
       <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/cell/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/1/</guid>
+      <comments>https://raineblog-whk.pages.dev/science/cell/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/2/</guid>
       
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/1.png" type="image/png" length="32078" />
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/2.png" type="image/png" length="35623" />
       
     </item>
     
@@ -2920,43 +2901,13 @@ $$&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;细胞代谢定义&lt;/strong&gt;：细胞内部每时每刻都在进行的成千上万种化学反应统称为细胞代谢，它是生命活动的基础。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;酶的必要性&lt;/strong&gt;：许多化学反应在体外需要高温、高压、强酸或强碱等剧烈条件，但细胞内环境温和且...&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <link>https://raineblog-whk.pages.dev/science/cell/2/</link>
-      <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
-      <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog-whk.pages.dev/science/cell/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/2/</guid>
-      
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/2.png" type="image/png" length="31120" />
-      
-    </item>
-    
-    <item>
-      <title>细胞的结构和功能</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;细胞的结构和功能&lt;/h1&gt;
-&lt;h2&gt;细胞的基本结构&lt;/h2&gt;
-&lt;h3&gt;细胞膜的结构和功能&lt;/h3&gt;
-&lt;p&gt;细胞膜（质膜）不仅是细胞的物理边界，更是维持生命活动的关键结构。以下根据你提供的课本内容并结合多方资料，详细展开讲解其结构与功能：&lt;/p&gt;
-&lt;p&gt;细胞膜的化学组成：细胞膜主要由&lt;strong&gt;脂质&lt;/strong&gt;和&lt;strong&gt;蛋白质&lt;/strong&gt;组成，含有少量&lt;strong&gt;糖类&lt;/strong&gt;。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;脂质（约 50%）&lt;/strong&gt;：磷脂是基本成分，其磷酸“头部”亲水，脂肪酸“尾部”疏水。在水中，磷脂分子自发形成&lt;strong&gt;磷脂双分子层&lt;/strong&gt;，疏水端相对位于内侧，构成膜的基本支架。动物细胞膜还含有&lt;strong&gt;胆固醇&lt;/strong&gt;，用于调节膜的流动性和稳定性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;蛋白质（约 40%）&lt;/strong&gt;：蛋白质是功能的主要执行者，其种类和数量决定了膜功能的复杂程度。膜蛋白以镶、嵌、贯穿等方式分布在脂双层中，担任转运蛋白、受体、酶或细胞连接的角色。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;糖类（2%~10%）&lt;/strong&gt;：仅分布在细胞膜的&lt;strong&gt;外侧&lt;/strong&gt;，与蛋白质结合形成糖蛋白（糖被），或与脂质结合形成糖脂。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;目前公认的结构是 1972 年提出的&lt;strong&gt;流动镶嵌模型&lt;/strong&gt;。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;流动性&lt;/strong&gt;：磷脂分子和大多数蛋白质分子都不是静止的，可以在膜平面内做横向移动，这使得膜...&lt;/li&gt;
-&lt;/ul&gt;</description>
       <link>https://raineblog-whk.pages.dev/science/cell/3/</link>
       <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
       <source url="https://raineblog-whk.pages.dev/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog-whk.pages.dev/science/cell/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog-whk.pages.dev/science/cell/3/</guid>
       
-      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/3.png" type="image/png" length="35623" />
+      <enclosure url="https://raineblog-whk.pages.dev/assets/images/social/science/cell/3.png" type="image/png" length="31120" />
       
     </item>
     
