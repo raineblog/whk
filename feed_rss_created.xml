@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 15 Jun 2026 08:39:29 -0000</pubDate>
-    <lastBuildDate>Mon, 15 Jun 2026 08:39:29 -0000</lastBuildDate>
+    <pubDate>Thu, 18 Jun 2026 14:13:00 -0000</pubDate>
+    <lastBuildDate>Thu, 18 Jun 2026 14:13:00 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -1431,20 +1431,24 @@ https://chi.lushuyu.site/%E6%96%87%E8%A8%80%E6%96%87/%E6%96%87%E8%A8%80%E8%99%9A
     </item>
     
     <item>
-      <title>细胞的基本生命过程</title>
+      <title>光合作用与光呼吸</title>
       
       
       
       
-      <description>&lt;h1&gt;细胞的基本生命过程&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-10-12&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-10-12T13:16:14+00:00&#39;&gt;&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-06-12&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-06-12T14:35:35+0...</description>
+      <description>&lt;h1&gt;光合作用与光呼吸&lt;/h1&gt;
+&lt;h2&gt;光合作用&lt;/h2&gt;
+&lt;p&gt;在植物工厂里，人工光源可以为植物的生长源源不断地提供能量。在自然界，则是万物生长靠太阳。太阳光能的输入、捕获和转化，是生物圈得以维持运转的基础。光合作用（photosynthesis）是唯一能够捕获和转化光能的生物学途径。因此，有人称光合作用是“地球上最重要的化学反应”。无论是在植物工厂里，还是在自然界，植物捕获光能要依靠特定的物质和结构。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-3-48d53d0.avif&#34;&gt;{width=&#34;80%&#34;}&lt;/p&gt;
+&lt;p&gt;光合作用的强度（简单地说，就是指植物在单位时间内通过光合作用制造糖类的数量），直接关系农作物的产量，研究影响光合作用强度的环境因素很有现实意义。&lt;/p&gt;
+&lt;p&gt;根据光合作用的反应式可以知道，光合作用的原料 —— 水、CO2，动力 —— 光能，都是影响光合作用强度的因素。因此，只要影响到原料、能量的供应，都可能是影响光合作用强度的因素。例如，环境中 CO2 浓度，叶片气孔开闭情况，都会因影响 CO2 的供应量而影响光合作用的进行。叶绿体是光合作用的场所，影响叶绿体的形成和结构的因素，如无机营养、病虫害，也会影响光合作用...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/4/</link>
       <pubDate>Sun, 12 Oct 2025 13:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/cell/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/4.png" type="image/png" length="35627" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/4.png" type="image/png" length="32259" />
       
     </item>
     
@@ -2882,12 +2886,12 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>细胞中的能量</title>
+      <title>酶、代谢与呼吸作用</title>
       
       
       
       
-      <description>&lt;h1&gt;细胞中的能量&lt;/h1&gt;
+      <description>&lt;h1&gt;酶、代谢与呼吸作用&lt;/h1&gt;
 &lt;h2&gt;能量概述&lt;/h2&gt;
 &lt;h3&gt;酶的探究历程&lt;/h3&gt;
 &lt;p&gt;这段关于“酶”的探究历程，生动地展示了科学认知是如何通过观察、实验、争论和技术突破而不断演进的。以下是根据你提供的纲要进行的详细展开：&lt;/p&gt;
@@ -2899,7 +2903,7 @@ $$&lt;/p&gt;
 &lt;p&gt;核心概念：细胞代谢离不开酶：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;细胞代谢定义&lt;/strong&gt;：细胞内部每时每刻都在进行的成千上万种化学反应统称为细胞代谢，它是生命活动的基础。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;酶的必要性&lt;/strong&gt;：许多化学反应在体外需要高温、高压、强酸或强碱等剧烈条件，但细胞内环境温和且...&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;酶的必要性&lt;/strong&gt;：许多化学反应在体外需要高温、高压、强酸或强碱等剧烈条件，但细胞内环境...&lt;/li&gt;
 &lt;/ul&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/3/</link>
       <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
@@ -2907,7 +2911,7 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/cell/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="31120" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="35082" />
       
     </item>
     
