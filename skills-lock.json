@@ -12,6 +12,12 @@
       "sourceType": "github",
       "computedHash": "ee49c347183f228a01fc951c7ca81324b1662712945186b955a307fe6f2f624c"
     },
+    "cuopt-skill-evolution": {
+      "source": "NVIDIA/skills",
+      "sourceType": "github",
+      "skillPath": "skills/cuopt-skill-evolution/SKILL.md",
+      "computedHash": "936493876d599c9bc272f45b8bc5433b2c6e232d393b0a98d8d7f8f9364d00fa"
+    },
     "doc-coauthoring": {
       "source": "anthropics/skills",
       "sourceType": "github",
