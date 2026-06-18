@@ -1,12 +1,9 @@
-name: CI/CD Pipeline
+name: Build and Deploy to GitHub Pages
 
 on:
   schedule:
     - cron: '0 0 * * 1'
   push:
-    branches:
-      - main
-  pull_request:
     branches:
       - main
   workflow_dispatch:
@@ -17,27 +14,9 @@ concurrency:
 
 permissions:
   contents: write
-  pages: write
-  packages: read
-  id-token: write
 
 jobs:
-  build:
-    name: Build for ${{ matrix.name }}
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          - name: Github Pages
-            cache: mkdocs-gh-nkr
-            url: https://raineblog.dpdns.org/whk/
-            branch: gh-pages
-            disable_giscus: 'false'
-          - name: Cloudflare Pages
-            cache: mkdocs-cf-nkr
-            url: https://raineblog-whk.pages.dev/
-            branch: cloudflare-pages
-            disable_giscus: 'true'
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Source Code
@@ -66,12 +45,12 @@ jobs:
         uses: actions/cache@v5
         with:
           path: .cache
-          key: ${{ runner.os }}-${{ matrix.cache }}-${{ github.run_id }}-${{ github.run_attempt }}
+          key: ${{ runner.os }}-mkdocs-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
-            ${{ runner.os }}-${{ matrix.cache }}-
+            ${{ runner.os }}-mkdocs-
 
       - name: Build Static Site
-        run: uv run --no-sync scripts/generate.py --build --site_url=${{ matrix.url }} --disable_giscus=${{ matrix.disable_giscus }}
+        run: uv run --no-sync scripts/generate.py --build --site_url=https://raineblog.dpdns.org/whk/ --disable_giscus=false
         env:
           PYTHONUNBUFFERED: 1
           PYTHONUTF8: 1
@@ -79,35 +58,15 @@ jobs:
 
       - name: Build Bun Executable
         run: bun build --compile --minify --bytecode build.ts --outfile build-bin
-      
+
       - name: Bun Post-processing
         run: ./build-bin --dir site
 
-      - name: Push to Branch
-        if: github.event_name != 'pull_request'
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: ${{ matrix.branch }}
+          publish_branch: gh-pages
           publish_dir: site
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
-
-      - name: Upload Artifact
-        if: matrix.branch == 'gh-pages'
-        uses: actions/upload-pages-artifact@v5
-        with:
-          path: site
-
-  deploy-artifact:
-    if: github.event_name != 'pull_request'
-    name: Deploy to Github Pages
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Upload to GitHub Pages
-        uses: actions/deploy-pages@v5
-        id: deployment
