@@ -311,7 +311,7 @@ $$
 
 ## 相关资源
 
-- 项目规范：`.agents/rules/style.md`
+- 项目规范：`.agents/skills/style-criticial/style.md`
 - 本文额外规范：`.agents/skills/chemistry-markdown-formatter/rules.md`
 - Lint 工具：`./node_modules/.bin/markdownlint-cli2`
 - 自动修正：`./node_modules/.bin/autocorrect`
