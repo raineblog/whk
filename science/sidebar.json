@@ -125,14 +125,13 @@
     {
         "元素与物质性质": [
             "science/element/index.md",
-            "science/element/na.md",
-            "science/element/mg.md",
-            "science/element/al.md",
-            "science/element/si.md",
-            "science/element/n.md",
-            "science/element/s.md",
-            "science/element/cl.md",
-            "science/element/fe.md"
+            "science/element/1.md",
+            "science/element/2.md",
+            "science/element/3.md",
+            "science/element/4.md",
+            "science/element/5.md",
+            "science/element/6.md",
+            "science/element/7.md"
         ]
     },
     {
