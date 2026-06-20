@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Fri, 19 Jun 2026 14:44:29 -0000</pubDate>
-    <lastBuildDate>Fri, 19 Jun 2026 14:44:29 -0000</lastBuildDate>
+    <pubDate>Sat, 20 Jun 2026 14:58:04 -0000</pubDate>
+    <lastBuildDate>Sat, 20 Jun 2026 14:58:04 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,32 @@
     
 
     
+    
+    <item>
+      <title>光合作用与光合呼吸综合</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;光合作用与光合呼吸综合&lt;/h1&gt;
+&lt;h2&gt;光合作用&lt;/h2&gt;
+&lt;h3&gt;光合作用概述&lt;/h3&gt;
+&lt;p&gt;在现代农业的植物工厂中，人工光源通过精确调配红蓝光比例，为植物提供源源不断的能量；而在自然界，则是“万物生长靠太阳”。太阳光能的输入、捕获和转化，是生物圈得以维持运转的动力源泉。&lt;strong&gt;光合作用（Photosynthesis）&lt;/strong&gt;作为地球上唯一能大规模捕获并转化光能的生物学途径，被誉为“地球上最重要的化学反应”。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-3-48d53d0.avif&#34;&gt;{width=&#34;80%&#34;}&lt;/p&gt;
+&lt;p&gt;植物捕获光能高度依赖特定的物质与结构。&lt;strong&gt;叶绿体（Chloroplast）&lt;/strong&gt;是光合作用的场所，其内部由类囊体堆叠而成的&lt;strong&gt;基粒&lt;/strong&gt;极大扩展了膜面积，为光合色素和酶提供了广阔的附着空间。分布在类囊体薄膜上的&lt;strong&gt;叶绿素&lt;/strong&gt;（主要吸收红光和蓝紫光）与&lt;strong&gt;类胡萝卜素&lt;/strong&gt;（主要吸收蓝紫光）构成光系统，如同灵敏的“天线”捕获光子。&lt;strong&gt;镁（Mg）&lt;/strong&gt;作为叶绿素分子的核心元素，其供应充足与否直接决定了光能捕获的效率。&lt;/p&gt;
+&lt;p&gt;光合作用是一个精密的氧化还原过程，主要分为两个耦合的阶段：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;光反应（类囊体膜）&lt;/strong&gt;：色素捕...&lt;/li&gt;
+&lt;/ol&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/4/</link>
+      <pubDate>Sat, 20 Jun 2026 14:56:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/4.png" type="image/png" length="34824" />
+      
+    </item>
     
     <item>
       <title>酶、代谢与呼吸作用</title>
@@ -346,28 +372,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/7/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/7.png" type="image/png" length="34475" />
-      
-    </item>
-    
-    <item>
-      <title>光合作用与光呼吸</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;光合作用与光呼吸&lt;/h1&gt;
-&lt;h2&gt;光合作用&lt;/h2&gt;
-&lt;p&gt;在植物工厂里，人工光源可以为植物的生长源源不断地提供能量。在自然界，则是万物生长靠太阳。太阳光能的输入、捕获和转化，是生物圈得以维持运转的基础。光合作用（photosynthesis）是唯一能够捕获和转化光能的生物学途径。因此，有人称光合作用是“地球上最重要的化学反应”。无论是在植物工厂里，还是在自然界，植物捕获光能要依靠特定的物质和结构。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-3-48d53d0.avif&#34;&gt;{width=&#34;80%&#34;}&lt;/p&gt;
-&lt;p&gt;光合作用的强度（简单地说，就是指植物在单位时间内通过光合作用制造糖类的数量），直接关系农作物的产量，研究影响光合作用强度的环境因素很有现实意义。&lt;/p&gt;
-&lt;p&gt;根据光合作用的反应式可以知道，光合作用的原料 —— 水、$\ce{CO2}$，动力 —— 光能，都是影响光合作用强度的因素。因此，只要影响到原料、能量的供应，都可能是影响光合作用强度的因素。例如，环境中 $\ce{CO2}$ 浓度，叶片气孔开闭情况，都会因影响 $\ce{CO2}$ 的供应量而影响光合作用的进行。叶绿体是光合作用的场所，影响叶绿体的形成和结构的...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/4/</link>
-      <pubDate>Fri, 19 Jun 2026 12:22:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/4.png" type="image/png" length="32259" />
       
     </item>
     
