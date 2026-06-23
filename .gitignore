@@ -374,3 +374,10 @@ properdocs.yml
 mkpandocs.yml
 /temp-test
 .kilo/kilo.json
+
+# Agent scaffolding directories
+.clinerules/
+.gemini/
+.kilo/
+.kilocode/
+.qwen/
