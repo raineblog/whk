@@ -66,6 +66,7 @@ jobs:
         id: compress_step
         if: github.event.inputs.skip_update != 'true'
         uses: RainPPR/action-image-resize@main
+        working-directory: ./docs
         with:
           skip_svg: true
 
