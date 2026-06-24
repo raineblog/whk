@@ -1,94 +1,77 @@
-# 生物文档深度评审报告 (Review Report)
+# 生物文档深度评审报告 (Review Report) - 更新版
 
 **评审对象**：`docs/science/cell/3.md`, `docs/science/cell/4.md`
-**评审标准**：`.agents/skills/biology-markdown-formatter/rules.md` & `.agents/skills/style-criticial/style.md`
+**评审标准**：`.agents/skills/biology-markdown-formatter/rules.md` & `.agents/skills/style-criticial/style.md` & PR #103 反馈
 
-妈妈，我完成了对这两个文档的深度排版审计。虽然文档内容非常丰富且专业，但在生化分子式、单位、数值范围等细节排版上仍存在一些不符合项目严苛规范的地方。
+妈妈，我结合了最新的 PR #103 评论与手动审计，为您整理了这份更新后的报告。虽然部分严重的渲染错误（如嵌套 \ce）已修复，但仍有大量“长尾”排版问题需要处理。
 
 ---
 
-## 一、 核心违规汇总 (Core Violations)
+## 一、 PR 反馈集成与验证 (PR Feedback Integration)
 
-### 1. 生化分子式未规范包裹 (`\ce{}`)
+| 提及的问题 | 状态 | 验证结果 |
+| :--- | :--- | :--- |
+| **嵌套 `\ce{}`** (如 `\ce{$\ce{NADP}+$}`) | ✅ 已修复 | 当前 commit 中已统一为 `$\ce{NADP+}$` 等正确格式。 |
+| **损坏的箭头** (如 `ightarrow`) | ✅ 已修复 | 已恢复为 `$\rightarrow$` 或 `$\to$`。 |
+| **图片属性缺少冒号** (如 `{ width="80%" }`) | ❌ **仍存在** | 在 `3.md` 和 `4.md` 中广泛存在，需改为 `{: width="80%" }`。 |
+| **`.gitignore` 错位** | ❌ **仍存在** | `.gitignore` 文件仍留在自动生成的子目录（如 `.kilo/`）中，面临被覆盖风险。 |
+| **温度范围不规范** | ⚠️ 部分存在 | 部分仍在使用 `25~30` 或 `28-30`，应统一为 `$25 \sim 30$ $\pu{^oC}$`。 |
 
-按照规范，所有的 `ATP`、`ADP`、`NADH` 等必须使用 `$\ce{...}$` 包裹，禁止裸露。
+---
+
+## 二、 核心违规汇总 (Core Violations)
+
+### 1. 图片属性缺失冒号 (Attribute List Syntax)
+
+在 MkDocs (Python-Markdown) 中，使用 `attr_list` 扩展时，大括号内必须以冒号开头。
+
+- **`docs/science/cell/3.md`**
+    - L657: `![alt text](image-3762c8f.avif){ width="100%" }` → `{: width="100%" }`
+    - L701: `![alt text](image-1-138d617.avif){ width="100%" }` → `{: width="100%" }`
+
+- **`docs/science/cell/4.md`**
+    - L9: `![alt text](image-3-48d53d0.avif){ width="80%" }` → `{: width="80%" }`
+    - L283, L400, L414, L447, L553 均存在此类问题。
+
+### 2. 生化分子式未规范包裹 (`\ce{}`)
 
 - **`docs/science/cell/3.md`**
     - L234: `### 能量货币 ATP` → `### 能量货币 $\ce{ATP}$`
-    - L568: `\ce{ADP + Pi + nH+_{out} -> ATP + H2O + nH+_{in}}` (这是在公式内，但 $\ce{}$ 内部应该直接写，这里的问题是公式内的 bare components)
-    - L602: `...所磷酸化的 $\ce{ADP}$ 数量）... $1$ 摩尔 $\ce{NADH}$ 恒定生成 $3$ 摩尔 $\ce{ATP}$...` (这里混合使用了数学模式和 \ce，不统一)
-    - L794/L798: 在 `\ce{}` 内部使用了嵌套结构或 bare $C5$。
+    - L568: `\ce{ADP + Pi + nH+_{out} -> ATP + H2O + nH+_{in}}` (公式内部应避免嵌套或 bare $ATP$)
 
 - **`docs/science/cell/4.md`**
-    - L144: `经 **$\ce{ATP}$ 合酶**` (部分包裹) → `经 **$\ce{ATP}$ 合酶**` (建议检查是否所有 $ATP$ 都已包裹)
     - L149: 表格中的 `NADH (辅酶 I)` → `$\ce{NADH}$ (辅酶 I)`
     - L214: `ATP 合酶是...` → `$\ce{ATP}$ 合酶是...`
 
-### 2. 物理单位未规范包裹 (`\pu{}`)
-
-所有物理量（能量、摩尔、温度等）必须使用 `$\pu{...}$`。
+### 3. 物理单位与数值范围 (`\pu{}` & `\sim`)
 
 - **`docs/science/cell/3.md`**
     - L245: `1 mol $\ce{ATP}$` → `$\pu{1 mol}$ $\ce{ATP}$`
-    - L297: `1 mol 葡萄糖` → `$\pu{1 mol}$ 葡萄糖`
-    - L305: `2 分子 $\ce{ATP}$` → `$2$ 分子 $\ce{ATP}$` (数字用数学模式)
-    - L341: `近 69% 的能量` → `近 $69 \%$ 的能量` (百分号建议也入数学模式或 \pu)
-
-- **`docs/science/cell/4.md`**
-    - L420: `损耗约 $\pu{25 ~ 30 %}$` (这里使用了 $\sim$ 的变体，应遵循 $\pu{25 \sim 30 \%}$)
-
-### 3. 数值范围符号不规范 (`\sim`)
-
-应使用 `$A \sim B$` 而非 `-` 或 `~`。
+    - L341: `近 69% 的能量` → `近 $\pu{69 \%}$ 的能量`
 
 - **`docs/science/cell/4.md`**
     - L105: `1945-1957 年` → `$1945 \sim 1957$ 年`
     - L420: `25 ~ 30 %` → `$\pu{25 \sim 30 \%}$`
 
-### 4. 希腊字母连字符问题
+---
 
-希腊字母前缀（如 $\alpha-$）必须将连字符包含在数学模式内。
+## 三、 工程配置建议 (Configuration)
 
-- **`docs/science/cell/3.md`**
-    - L424: `β-氧化` → `$\beta-$氧化`
+妈妈，PR 评论中提到的 `.gitignore` 问题非常关键。
 
-### 5. 公式与正文空行
+**风险**：
+手动在 `.clinerules/`, `.gemini/`, `.kilo/`, `.kilocode/`, `.qwen/` 下创建的 `.gitignore` 会在执行 `node scripts/onstart.js` 时被删除。
 
-独立公式 `$$` 前后必须有且仅有一个空行。
+**对策**：
 
-- **`docs/science/cell/3.md`** (多处需检查，例如 L322-326)
-- **`docs/science/cell/4.md`**
+1. 删除这些目录下的 `.gitignore`。
+2. 在根目录 `.gitignore` 中统一添加规则，或者在 `.agents/` 源目录中管理（如果构建脚本支持透传）。
 
 ---
 
-## 二、 逐行修正建议 (Suggested Changes)
+## 四、 总体评价 (General Feedback)
 
-### `docs/science/cell/3.md`
-
-| 行号 | 当前内容 (Current) | 建议修改 (Suggested) | 违规类别 |
-| :--- | :--- | :--- | :--- |
-| 234 | `### 能量货币 ATP` | `### 能量货币 $\ce{ATP}$` | 分子式 |
-| 245 | `1 mol $\ce{ATP}$` | `$\pu{1 mol}$ $\ce{ATP}$` | 单位 |
-| 305 | `2 分子 $\ce{ATP}$` | `$2$ 分子 $\ce{ATP}$` | 数值 |
-| 424 | `### 糖异生、脂肪酸合成与 β-氧化` | `### 糖异生、脂肪酸合成与 $\beta-$氧化` | 希腊字母 |
-| 602 | `...所磷酸化的 $\ce{ADP}$ 数量）...` | `...所磷酸化的 $\ce{ADP}$ 数量）...` (OK, 需检查文中所有 $ATP/ADP$) | 分子式 |
-
-### `docs/science/cell/4.md`
-
-| 行号 | 当前内容 (Current) | 建议修改 (Suggested) | 违规类别 |
-| :--- | :--- | :--- | :--- |
-| 105 | `1945-1957 年` | `$1945 \sim 1957$ 年` | 范围 |
-| 149 | `NADH (辅酶 I)` | `$\ce{NADH}$ (辅酶 I)` | 分子式 |
-| 214 | `ATP 合酶是...` | `$\ce{ATP}$ 合酶是...` | 分子式 |
-| 420 | `损耗约 $\pu{25 ~ 30 %}$` | `损耗约 $\pu{25 \sim 30 \%}$` | 范围/单位 |
-
----
-
-## 三、 总体评价 (General Feedback)
-
-妈妈，这两个文件在内容准确性上非常出色。主要问题集中在对项目特定的排版规范（特别是生物/化学扩展规范）的执行不够彻底。特别是 `\ce` 内部不应再写 `\text`，而应直接书写中文。
-
-建议在下一次合并前，根据上述建议进行逐行微调。
+妈妈，文档的生物学专业性极高。目前的改动已经解决了大部分会导致渲染彻底失败的致命错误（Critical Bugs），但为了达到“出版级”的排版质量，建议针对图片属性冒号和数值单位包裹进行最后一次批量校对。
 
 ---
 评审人：Jules
