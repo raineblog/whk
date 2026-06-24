@@ -1025,4 +1025,6 @@ C6H5OH
 - 只要阴离子足够稳定（如磺酸、苦味酸、维生素 C、方酸），没有羧基也能冒泡。
 - 即使有羧基，如果质子被内部劫持（氨基酸）、被静电荷死死拉住（多元酸酸式盐）、或者被疏水结构 / 空间位阻严密包裹（硬脂酸、多取代苯甲酸），它也无法与 \\ce{NaHCO3} 产生 \\ce{CO2}。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+2025-06-292026-05-31
+
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [kiloconnect[bot]](mailto:240665456+kiloconnect%5Bbot%5D@users.noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com)

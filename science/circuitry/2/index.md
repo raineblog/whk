@@ -441,4 +441,6 @@ E=U+\\paren{\\dfrac{U}{R}+\\dfrac{U}{R_V}}\\cdot r
 
 ### 电磁继电器
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+2025-12-242026-03-31
+
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com)

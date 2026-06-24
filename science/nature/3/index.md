@@ -1055,4 +1055,6 @@ x(1-x) = -x^2 + x
 
 Logistic 增长模型不仅适用于低等生物的种群动态分析，也是理解更高层次生物种群生态学的基础。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+2025-11-282026-05-31
+
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com)

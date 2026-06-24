@@ -1202,4 +1202,6 @@
 - **生物活性**：天然生物膜具有生物活性，其选择透过性依赖于活细胞的代谢和转运蛋白。
 - **选择性差异**：仅含脂质成分的人工膜属于**半透膜**，其通透性主要取决于溶质分子的大小和极性（脂溶性）；而含有特定蛋白质的天然生物膜或重建人工膜才具备高度的**选择透过性**。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+2025-04-192026-06-15
+
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com)

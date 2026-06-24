@@ -386,4 +386,6 @@ T=\\begin{bmatrix} 1&0&0&t_x\\ 0&1&0&t_y\\ 0&0&1&t_z\\ 0&0&0&1 \\end{bmatrix}
 
   \\cos\\theta=\\frac{|AD^2+BC^2-AC^2-BD^2|}{2AB\\cdot CD}
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+2025-07-212026-05-16
+
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com)

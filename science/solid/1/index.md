@@ -181,4 +181,6 @@ a\\bot\\alpha,b\\bot\\alpha\\implies a\\parallel b
 
 如果点的轨迹与交线平行，那么二面角不变。
 
-[RainPPR](mailto:PPR2125773894@163.com)
+2025-07-212026-03-28
+
+[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com)

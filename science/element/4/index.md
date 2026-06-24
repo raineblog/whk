@@ -329,4 +329,6 @@
 - **五氧化二磷（\\ce{P4O10}）**：极强的吸水性，是常用的酸性干燥剂，但不能干燥 \\ce{NH3}。
 - **砒霜（\\ce{As2O3}）**：剧毒。在工业流程中，若涉及砷元素的除去，通常利用其在不同 pH 下的沉淀规律或通过生成 \\ce{FeAsO4} 沉淀。
 
-[RainPPR](mailto:PPR2125773894@163.com)
+2026-06-192026-06-19
+
+[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com)

@@ -983,4 +983,6 @@ b_n={a_1\\over p}+{q\\over p^n}\\cdot{p^n-1\\over p-1}-{q\\over p}
 - 对于迭代数列 a\_{n+1} = f(a_n)，若 f(x) 是二次函数，则数列单调递增的充分必要条件为 a_1 < a_2 < a_3，且对于任意 n \\ge 2, n \\in \\mathbb{N}^\*，在 [a_2, a_n] 上，f'(x) \\ge 0。
 - 迭代数列 a\_{n+1} = f(a_n)，其中 f'(x) < 0，则 {a\_{2n}} 与 {a\_{2n-1}} 的单调性相反。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+2025-08-042026-05-16
+
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [devin-ai-integration[bot]](mailto:158243242+devin-ai-integration%5Bbot%5D@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

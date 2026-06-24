@@ -606,7 +606,9 @@ i_1+i_2+i_3=0V/R_0=0V
 
 则电流表示数为 i_1 的绝对值，即电流表示数为 \\dfrac{5}{8}A。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+2025-12-242026-03-31
+
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com)
 
 ______________________________________________________________________
 

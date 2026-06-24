@@ -214,4 +214,6 @@
 - **二氧化氯（\\ce{ClO2}）**：高效、广谱的消毒剂，氧化能力是等质量 \\ce{Cl2} 的 2.6 倍。
 - **卤素互通**：\\ce{I2} 在 \\ce{KI} 溶液中由于生成 \\ce{I3-} 而溶解度大增，这一性质常用于碘量法滴定。
 
-[RainPPR](mailto:PPR2125773894@163.com)
+2026-06-192026-06-19
+
+[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com)

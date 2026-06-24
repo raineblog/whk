@@ -306,4 +306,6 @@
 
 观察恒温恒压、恒温恒容，容易发现，在溶液中常用吉布斯自由能（因为溶液通常是开放的）；在理想气体体系中常用亥姆霍兹自由能（因为反应体系通常是封闭的）。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+2025-10-122026-03-28
+
+[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com)

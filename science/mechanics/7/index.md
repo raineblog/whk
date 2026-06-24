@@ -110,4 +110,6 @@ M=F_1|OA|-F_2|OB|=F\\cdot|AB|
 
 方程就是上面两个合在一起。
 
-[RainPPR](mailto:PPR2125773894@163.com)
+2025-09-062026-03-28
+
+[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com)

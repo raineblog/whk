@@ -454,4 +454,6 @@ S=\\dfrac14\\sqrt{(a+b+c)(a+b-c)(a-b+c)(-a+b+c)}
 
 其中 p 为四边形的半周长。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+2025-07-212026-03-29
+
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com)

@@ -939,4 +939,6 @@ y \\cdot a(t_1+t_2) = 2a(x + at_1t_2) \\implies (t_1+t_2)y = 2x + 2at_1t_2
 
 **La Hire 定理（互反性质）**：若点 P 在点 Q 的极线上，则点 Q 必在点 P 的极线上。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+2025-05-182026-05-02
+
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com),  [devin-ai-integration[bot]](mailto:158243242+devin-ai-integration%5Bbot%5D@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com)

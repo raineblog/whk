@@ -1993,4 +1993,6 @@ B. 晶体场稳定化能（CFSE）与 Jahn-Teller 效应。从配合物化学的
 1. **变价规律**：高氧化态通常具有强氧化性（如 NaBiO_3、PbO_2、OsO_4），低氧化态具有还原性（如 Sn^{2+}、V^{2+}）。
 1. **配合物溶解**：贵金属（Pd, Pt, Au, Ir）通常难溶于酸，但可溶于王水形成氯配合物（如 [PdCl_4]^{2-}）。
 
-[RainPPR](mailto:PPR2125773894@163.com)
+2026-06-192026-06-19
+
+[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com)

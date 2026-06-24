@@ -777,4 +777,6 @@ f(x)=a \\prod\_{k=1}^s (x-a_k) \\cdot \\prod\_{k=1}^t (x^2+b_k x+c_k)
 
 其中 a, a_k, b_k, c_k \\in \\mathbb{R}，s+2t=n，且 c_k > 0，b_k^2 < 4c_k。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+2025-08-192026-05-24
+
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [devin-ai-integration[bot]](mailto:158243242+devin-ai-integration%5Bbot%5D@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com),  [Gemini](mailto:200291788+gemini-code-assist@users.noreply.github.com)

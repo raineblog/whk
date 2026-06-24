@@ -68,4 +68,6 @@ Our school has witnessed tremendous changes.
 
 Not only have we seen significant advances in teaching facilities, but we have also remained committed to providing a holistic education that fosters both knowledge and character.
 
+2025-11-042026-01-30
+
 [RainPPR](mailto:PPR2125773894@163.com)

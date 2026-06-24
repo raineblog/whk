@@ -270,4 +270,6 @@ n=\\dfrac{N}{N_A}=\\dfrac{m}{M}=\\dfrac{V}{V_m}=cV
 
 超分子化学的发展不仅与大环化学（冠醚、穴醚、环糊精、杯芳烃、C60 等）的发展密切相连，而且与分子的自组装（双分子膜、胶束、DNA 双螺旋等）、分子器件和新兴有机材料的研究息息相关。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+2025-03-292026-05-02
+
+[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com)

@@ -723,4 +723,6 @@ g(x)=f(x)+f(2-x)=2\\ln(2x-x^2)-2(2x-x^2)+2
 
 其中 x\\in(0,1)，不妨令 t=2x-x^2\\in(0,1)，由 \\ln t\<x-1，不等式显然成立。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+2025-07-292026-04-05
+
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com)

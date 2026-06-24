@@ -370,4 +370,6 @@ I=\\int\\bm j(\\bm r,t)\\mathrm d\\bm s
 
 流密度是一个关于位置的矢量函数，即矢量场。其中，质量可以替换为不同的物理量，若替换为能量则称为能流密度，若是粒子数则称为粒子流密度，若是电荷量则称为电流密度，等等。
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+2025-05-022026-03-28
+
+[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com)
