@@ -133,6 +133,8 @@
 
 ### 图像
 
+三角函数
+
 ### 周期性
 
 \\begin{aligned} \\sin\\alpha=\\sin(\\alpha+2\\pi)\\ \\cos\\alpha=\\cos(\\alpha+2\\pi) \\end{aligned}
@@ -146,12 +148,9 @@
 ### 对称性
 
 1. 正弦函数：
-
    - 中心对称：(k\\pi,0),k\\in\\mathbb Z；
    - 轴对称：x=k\\pi-\\pi/2,k\\in\\mathbb Z；
-
 1. 余弦函数：
-
    - 中心对称：(k\\pi-\\pi/2),k\\in\\mathbb Z；
    - 轴对称：x=k\\pi,k\\in\\mathbb Z。
 
@@ -160,12 +159,9 @@
 ### 单调性
 
 1. 正弦函数：
-
    - 单调递增：[2k\\pi-\\pi/2,2k\\pi+\\pi/2],k\\in\\mathbb Z；
    - 单调递减：[2k\\pi+\\pi/2,2k\\pi+3\\pi/2],k\\in\\mathbb Z；
-
 1. 余弦函数：
-
    - 单调递增：[2k\\pi-\\pi,2k\\pi],k\\in\\mathbb Z；
    - 单调递减：[2k\\pi,2k\\pi+\\pi],k\\in\\mathbb Z；
 

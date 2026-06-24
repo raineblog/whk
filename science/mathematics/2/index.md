@@ -15,6 +15,8 @@
 - 互异性：集合内的各元素都是唯⼀不重复的。
 - ⽆序性：集合内的各元素的顺序是没有限制的。
 
+alt text
+
 子集与空集：
 
 - 子集：A \\subseteq B 或 B \\supseteq A，表示 A 中的任意元素都属于 B
@@ -163,6 +165,8 @@ A\\cup B=A\\cap B \\iff A=B
 - E={(x,y)\\in S\\times S: x\\prec y \\land ((\\nexists~z\\in S)~~x\\prec z\\prec y)}
 
 如对于集合 {0,1,2} 的幂集 S 和集合的包含关系 \\subseteq，其对应的 Hasse 图为：
+
+alt text
 
 由于偏序具有反对称性，所以 Hasse 图一定是有向无环图，进而我们可以根据拓扑排序对任意有限偏序集构造全序。
 
@@ -439,7 +443,7 @@ n 元布尔函数也可以用含 n 个变量的 **命题公式**（propositional
 
 \\begin{cases}5x-11y \\geq -22 \\ 2x+3y \\geq 9 \\ 2x \\leq 11\\end{cases}
 
-$z = 10x + 10y, \\max{z} = $ ？
+$z = 10x + 10y, = $ ？
 
 1. 画图，数形结合。
 
@@ -455,7 +459,7 @@ $z = 10x + 10y, \\max{z} = $ ？
 
 \\begin{cases}y \\geq x \\ x + y \\leq 2 \\ x \\geq a\\end{cases}
 
-$(2x+y)*{\\mathrm{max}}=4(2x+y)*{\\mathrm{min}},\\ a= $ ?
+$(2x+y)*{}=4(2x+y)*{},\\ a= $ ?
 
 - 求 (2x+y)_{\\mathrm{min}}：x_{\\min}=a \\implies y\_{\\min}=a \\implies (2x+y)\_{\\mathrm{min}}=3a
 - 求 (2x+y)_{\\mathrm{max}}：\\begin{cases}x-y\\leq 0 \\ x+y\\leq 2\\end{cases}\\xRightarrow{\\mathrm{Add\\ }} x\\leq 1\\implies y\\leq 1\\implies (2x+y)_{\\mathrm{max}}=3

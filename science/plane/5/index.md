@@ -230,6 +230,8 @@ S\_{\\triangle BOC}\\cdot\\overrightarrow{OA}+S\_{\\triangle AOC}\\cdot\\overrig
 
 \\vecc{AD}=\\dfrac12\\vecc{AB}+\\dfrac12\\vecc{AC}
 
+交叉定理
+
 即对边比例相乘向量相加。
 
 ### 重心及其性质
@@ -412,6 +414,8 @@ AB^2+BC^2+CD^2+AD^2=AC^2+BD^2+4x^2
 
 ### 边元塞瓦定理
 
+赛瓦定理
+
 其逆定理用于表示三角形内三点共线，角元塞瓦定理较为复杂。
 
 ### 梅涅劳斯定理
@@ -419,6 +423,8 @@ AB^2+BC^2+CD^2+AD^2=AC^2+BD^2+4x^2
 一直线与 \\triangle ABC 的三边 AB,BC,AC 或他们的延长线分别交于 X,Y,Z 三点，则：
 
 \\dfrac{AX}{XB}\\cdot\\dfrac{BY}{YC}\\cdot\\dfrac{CZ}{ZA}=0
+
+梅涅劳斯定理
 
 梅涅劳斯定理的逆定理表示为，满足上述式子，则 X,Y,Z 三点共线。
 

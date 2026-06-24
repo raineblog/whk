@@ -5,6 +5,8 @@
 - 数字系统：Numbers can be classified into sets, called **number sets** or **number systems**, such as the natural numbers and the real numbers.
 - 记数系统：A **numeral system** is a writing system for expressing numbers without words; that is, a mathematical notation for representing numbers of a given set, using digits (in positional notation) or other symbols (in sign-value notation) in a consistent manner.
 
+alt text
+
 ## 记数系统
 
 **记数系统**（numeral system），指的是用以表示数字的书写系统，如[印度–阿拉伯数字系统](https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system)、[罗马数字](https://en.wikipedia.org/wiki/Roman_numerals)、[苏州码子](https://en.wikipedia.org/wiki/Suzhou_numerals)等。记数系统是我们给数做编码的工具。一般来说，一个记数系统下的数字都是一串符号，同时有一套规则将这串符号和对应的数一一对应起来，例如罗马数字 \\text{XLII}、二进制数 101010\_{(2)} 和十进制数 42 均能对应到相同的数。
@@ -245,12 +247,9 @@ pS_n=p\\sum\_{i=0}^{n-1}a\_{ik+1}a\_{ik+2}\\cdots a\_{(i+1)k}/\\left(b^k-1\\righ
 假设一个十进制数 Y\_{10}，存在两个 **不同的平衡三进制数** A_3,B_3 转化成十进制时等于 Y\_{10}，即证 A_3 = B_3。分情况讨论：
 
 1. 当 Y\_{10}=0，显然 A_3 = B_3 = 0_3，与假设矛盾。
-
 1. 当 Y\_{10}>0：
-
    - 将 A_3，B_3 的数位按低位到高位编号，记 a_i 为 A_3 的第 i 位，b_i 为 B 的第 i 位。在 A_3,B_3 中，必存在 i 使得 a_i\\neq b_i。可以发现第 i-1,i-2,\\dots,0 位均与证明无关。因此，将 A_3,B_3 按位右移 i 位，得到 A_3',B_3'，原问题等价于证明 A_3'=B_3'。
    - 对于 A_3',B_3' 第 0 位，a_0 \\neq b_0。假设 b_0 > a_0（a_0>b_0 时结果相同），易知 b_0 - a_0 \\in {1,2}。A_3' 的位 i=1,2,3,\\dots 对于 A_3' 的值的贡献为 S_1 = a_1 \\times 3^1 + a_2 \\times 3^2+ \\dots，B_3' 的位 i=1,2,3,\\dots 对于 B_3' 的值的贡献为 S_2 = b_1 \\times 3^1 + b_2 \\times 3^2 + \\dots。由于 A_3' = B_3'，得 S_1 - S_2 = b_0 - a_0。S_1,S_2 有公因子 3，而 b_0 - a_0 不能被 3 整除，与假设矛盾，因此 A_3'\\neq B_3'
-
 1. 当 Y\_{10}\<0，证法与 Y\_{10}>0 相同。
 
 故对于任意十进制 Y\_{10}，均有唯一对应的平衡三进制 X_3。
@@ -501,6 +500,8 @@ i^2=-1\\ i^3=i^2\\times i=-i\\ i^4=i^3\\times i=-i^2=1\\ i^5=i^4\\times i=i
 我们称 \\xi_0,\\xi_1,\\dots,\\xi\_{n-1} 为 n 次单位根，由定义都满足 \\xi_i^n=1
 
 其中 \\xi_0=1，也就是实数情况下的平凡解。
+
+alt text
 
 根据恒等式：
 

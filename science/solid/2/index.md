@@ -18,6 +18,8 @@
 
 直角坐标系也可以推广至三维空间与高维空间。
 
+空间直角坐标系
+
 在原本的二维直角坐标系，再添加一个垂直于 x 轴、y 轴的坐标轴，称为 z 轴。
 
 - 如果几何体存在互相垂直的三条棱，但是它们不交于一点，那么我们可以将它们平移到某一顶点，
@@ -228,6 +230,8 @@ d=\\dfrac{|\\overrightarrow{AB}\\cdot\\bm n|}{|\\bm n|}
 
 三垂线定理：平面内有一条直线，如果平面外一条直线在这个平面上的射影，垂直于平面内的直线，那么平面外的这条直线与平面内的直线垂直。
 
+alt text
+
 ### 面与面的夹角
 
 即半平面的夹角，注意到这个一定是与两法向量夹角互补的：
@@ -236,10 +240,14 @@ d=\\dfrac{|\\overrightarrow{AB}\\cdot\\bm n|}{|\\bm n|}
 
 注意绝对值。
 
+面面角与二面角
+
 一般方法：
 
 - 从交线上一点做垂线，过两个交点。
 - 从一个面上一点做交线的垂线，然后从垂足做垂线到另一个面。
+
+alt text
 
 ## 空间向量进阶
 
@@ -270,19 +278,29 @@ x_2\\quad\\boxed{y_2\\quad z_2\\quad x_2\\quad y_2}\\quad z_2
 
 三维空间中两个向量：
 
-[ \\bm{a} = \\begin{pmatrix}x_1 \\ y_1 \\ z_1\\end{pmatrix}, \\quad \\bm{b} = \\begin{pmatrix}x_2 \\ y_2 \\ z_2\\end{pmatrix} ]
+\[ = \\begin{pmatrix}x_1 \\ y_1 \\ z_1\\end{pmatrix} , = \\begin{pmatrix}x_2 \\ y_2 \\ z_2\\end{pmatrix}
+
+\]
 
 的叉积定义为：
 
-[ \\bm{a} \\times \\bm{b} = \\begin{pmatrix} y_1z_2 - z_1y_2 \\ z_1x_2 - x_1z_2 \\ x_1y_2 - y_1x_2 \\end{pmatrix} ]
+\[ = \\begin{pmatrix} y_1z_2 - z_1y_2 \\ z_1x_2 - x_1z_2 \\ x_1y_2 - y_1x_2 \\end{pmatrix}
+
+\]
 
 使用行列式：
 
-[ \\begin{vmatrix} i & j & k \\ x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\end{vmatrix} ]
+\[ \\begin{vmatrix} i & j & k \\ x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\end{vmatrix}
+
+\]
 
 具体展开为：
 
-[ \\bm{n} = \\begin{vmatrix}y_1 & z_1 \\ y_2 & z_2\\end{vmatrix} \\bm{i} -\\begin{vmatrix}x_1 & z_1 \\ x_2 & z_2\\end{vmatrix} \\bm{j} +\\begin{vmatrix}x_1 & y_1 \\ x_2 & y_2\\end{vmatrix} \\bm{k} ]
+## \[ = \\begin{vmatrix}y_1 & z_1 \\ y_2 & z_2\\end{vmatrix}
+
+\\begin{vmatrix}x_1 & z_1 \\ x_2 & z_2\\end{vmatrix} + \\begin{vmatrix}x_1 & y_1 \\ x_2 & y_2\\end{vmatrix} \\bm{k}
+
+\]
 
 ### 张成空间法
 
@@ -371,6 +389,8 @@ T=\\begin{bmatrix} 1&0&0&t_x\\ 0&1&0&t_y\\ 0&0&1&t_z\\ 0&0&0&1 \\end{bmatrix}
 ## [todo]
 
 ### 双垂直定理
+
+alt text
 
 ### 双余弦定理
 

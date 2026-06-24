@@ -72,11 +72,11 @@
 将一系列简单的动作组合在一起，能瞬间提升叙事的逻辑性和生动性。公式为：“动作 A, 动作 B and 动作 C”。
 
 - 情节推进示例： ◦ The boys rushed excitedly to the lake, took off their clothes and jumped into the water. (男孩们冲向湖边，脱掉衣服，跳入水中)。 ◦ He put on his coat, stormed out and slammed the door shut. (他穿上大衣，冲了出去，砰地关上门)。
-- 情感融入示例： ◦ She jumped up, dashed forward and hugged the boy tightly. (她跳起来，冲向前，紧紧拥抱住男孩)。 三、高级句式支架：为动作披上“华丽外衣” 无需复杂的语法，用以下三个模板包装动作，即可达到满分作文的质量：
+- 情感融入示例： ◦ She jumped up, dashed forward and hugged the boy tightly. (她跳起来，冲向前，紧紧拥抱住男孩)。三、高级句式支架：为动作披上“华丽外衣” 无需复杂的语法，用以下三个模板包装动作，即可达到满分作文的质量：
 
 1. With 复合结构（画面捕捉器）： ◦ With + 名词 + 动词 (-ing/-ed)/形容词。 ◦ With his heart pounding wildly, he slowly opened the letter. (心跳剧烈，他慢慢打开了信)。
 1. 非谓语动词开头（状态铺垫）： ◦ Doing/Done…, sb did sth. ◦ Exhausted from the long journey, the traveler fell asleep immediately. (长途跋涉筋疲力尽，旅行者立刻睡着了)。
-1. 情绪倒装（强调核心）： ◦ So + 形容词 + was sb that + 从句。 ◦ So absorbed was she in her book that she didn’t notice me enter. (她如此专心读书，以至于没注意到我进来)。 实战应用建议：Show, Don’t Tell
+1. 情绪倒装（强调核心）： ◦ So + 形容词 + was sb that + 从句。 ◦ So absorbed was she in her book that she didn’t notice me enter. (她如此专心读书，以至于没注意到我进来)。实战应用建议：Show, Don’t Tell
 
 - 赛前压力（压抑）： ◦ The air was thick and suffocating; silence hung over the stadium. (空气厚重令人窒息，操场上一片死寂)。 ◦ Dark clouds gathered, mirroring the turmoil in his heart. (乌云密布，映照着内心的焦虑)。
 - 转机与胜利（希望）： ◦ The sun cast a golden glow over the field. (阳光在赛场上镀上了金边)。 ◦ A gentle breeze caressed his cheeks, blowing away his exhaustion. (微风抚面，吹散了疲惫)。
@@ -110,7 +110,7 @@
 
 - 视野模糊（迷茫/悲伤）： ◦ Tears welled up in her eyes and blurred her vision. (泪水涌出，模糊了她的视线)。 ◦ The rain was pouring down, blurring the world outside. (大雨倾盆，模糊了窗外的世界——常用于衬托人物心境的混乱)。 ◦ He peered into the darkness, trying to see something. (他费力地盯着黑暗，试图看清什么)。
 - 眼神闪亮（惊喜/激动/坚定）： ◦ His face lit up, eyes sparkling with delight / excitement. (他的脸瞬间亮了起来，眼中闪烁着喜悦/兴奋的光芒)。 ◦ Eyes glittering with joy, sb. did sth. (眼中闪烁着喜悦，某人做了某事)。 ◦ With his eyes fixed on the target, he… (他的眼睛紧盯着目标，他……)。
-- 眼神突变（震惊/难以置信）： ◦ Her eyes widened in disbelief / astonishment. (她惊讶地睁大了眼睛，不敢相信)。 ◦ He stood there, with his eyes fixed on the screen. (他站在那里，眼睛死死盯着屏幕)。 二、思维的突然闪光：顿悟与空白 描写思维的突发状态，可以有效地交代情节的转折点（Turning Point）：
+- 眼神突变（震惊/难以置信）： ◦ Her eyes widened in disbelief / astonishment. (她惊讶地睁大了眼睛，不敢相信)。 ◦ He stood there, with his eyes fixed on the screen. (他站在那里，眼睛死死盯着屏幕)。二、思维的突然闪光：顿悟与空白描写思维的突发状态，可以有效地交代情节的转折点（Turning Point）：
 - 突然顿悟（闪光时刻）： ◦ It was at that very moment that the true essence of the situation dawned on me. (正是在那一刻，事情的真谛在我脑海中浮现)。 ◦ It finally hit me / It clicked for me. (我终于恍然大悟/一下子想通了)。 ◦ He had an epiphany that failure was just part of the journey. (他突然顿悟，失败只是旅程的一部分)。
 - 思维定格/转动： ◦ My mind went blank. (我的大脑瞬间一片空白——常用于恐惧或震惊)。 ◦ Without a second thought, I… (我毫不犹豫地/不假思索地……)。 ◦ The thought that I might fail never occurred to me. (我从未想过我可能会失败)。
 
