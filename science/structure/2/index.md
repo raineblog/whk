@@ -776,6 +776,6 @@ alt text
 - 无论在同一周期中还是在同一族中，元素的电子亲和能没有表现出简单的变化规律。
 - 电子亲和能的数据不易测定，准确性较差，来自不同文献的数据往往不同。
 
-2025-03-292026-05-13
+2025-03-292026-06-26
 
 [RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

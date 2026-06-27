@@ -396,6 +396,6 @@ E_k=mc^2-m_0c^2\\approx\\dfrac{1}{2}m_0v^2
 
 我们知道高能微观粒子在碰撞中，会损失动能，而 mc^2=E_k+E_0，物体的静质量不变，动能减小，动质量就会减小，这称为**质量亏损**。
 
-2025-10-122026-05-02
+2025-10-122026-06-26
 
-[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

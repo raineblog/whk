@@ -86,6 +86,6 @@
 - **坩埚钳**：夹持坩埚、蒸发皿或正在燃烧的金属。
 - **药匙**：取用粉末状或颗粒状固体。
 
-2026-02-082026-03-28
+2026-02-082026-06-26
 
-[RainPPR](mailto:PPR2125773894@163.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
