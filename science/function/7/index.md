@@ -124,7 +124,7 @@
 
 ## 积分
 
-**求积分：**
+**求积分**：
 
 - **利用奇偶性求积分**：当 a, b 关于原点对称时奇函数积分为 0。
 - **利用几何法求积分**如 \\int_0^6 \\sqrt{9 - (x - 3)^2} = \\int\_{-3}^3 \\sqrt{9 - x^2} 几何意义为所有到原点距离为 3 的点的纵坐标之和，即 r = 3 的半圆面积 \\frac{9}{2}\\pi。
@@ -383,6 +383,6 @@ Basel 问题即 \\displaystyle\\zeta(2)=\\sum\_{n=1}^{+\\infty}\\frac{1}{n^2}，
 
 \\int_0^nf(x)\\ dx\<\\sum\_{k=1}^nf(k)\<\\int_1^{n+1}f(x)\\ dx-\\frac{f(n+1)-f(1)}{2}
 
-2026-04-052026-05-31
+2026-04-052026-06-28
 
 [RainPPR](mailto:PPR2125773894@163.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [devin-ai-integration[bot]](mailto:158243242+devin-ai-integration%5Bbot%5D@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

@@ -494,12 +494,12 @@ alt text
 
 当烷烃分子中有不同类型的氢（一级 1^\\circ、二级 2^\\circ、三级 3^\\circ）时，卤素取代哪里**核心原则**：反应速率取决于**中间体烷基自由基的稳定性**。
 
-- **氯代（低选择性）：**
+- **氯代（低选择性）**：
 
   - 虽然 3^\\circ 氢反应最快，但 \\ce{Cl\*} 太活泼（“饿不择食”），加上 1^\\circ 氢的数量通常更多，所以氯代通常得到各种异构体的混合物。
   - 哈蒙德假说（Hammond’s Postulate）解释：氯代夺氢放热，过渡态出现早，结构像反应物，对自由基稳定性不敏感。
 
-- **溴代（高选择性）：**
+- **溴代（高选择性）**：
 
   - \\ce{Br\*} 比较“挑食”。由于夺氢步骤吸热，过渡态出现晚，结构非常接近中间体烷基自由基。因此，反应速率极度依赖自由基的稳定性。
   - **结论**：如果想在分子的特定位置（特别是三级碳或苄位/烯丙位）引入卤素，**首选溴代**。
@@ -1045,7 +1045,7 @@ alt text
 - 只要阴离子足够稳定（如磺酸、苦味酸、维生素 C、方酸），没有羧基也能冒泡。
 - 即使有羧基，如果质子被内部劫持（氨基酸）、被静电荷死死拉住（多元酸酸式盐）、或者被疏水结构 / 空间位阻严密包裹（硬脂酸、多取代苯甲酸），它也无法与 \\ce{NaHCO3} 产生 \\ce{CO2}。
 
-2025-06-292026-05-31
+2025-06-292026-06-28
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [kiloconnect[bot]](mailto:240665456+kiloconnect%5Bbot%5D@users.noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com)
 

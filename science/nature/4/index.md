@@ -251,7 +251,7 @@ alt text
 
 净生产量 = 流向下一营养级 + 流向分解者 + 未利用
 
-**综上，一个营养级（最高营养级除外）的能量有四个去向：**
+**综上，一个营养级（最高营养级除外）的能量有四个去向**：
 
 1. 通过**呼吸作用**以热能形式散失（大部分）。
 1. 流入**下一营养级**（被捕食）。
@@ -681,6 +681,6 @@ alt text
 
 这一成就与以色列在沙漠地区建立的滴灌农业、荷兰在沿海地区围海造田的生态工程等国际项目一样，都展示了人类通过科学方法改善环境、与自然和谐共生的可能。2017 年，塞罕坝林场建设者获得联合国环保最高荣誉——“地球卫士奖”，这体现了国际社会对中国生态建设成就的认可。
 
-2025-12-202026-06-26
+2025-12-202026-06-28
 
 [RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

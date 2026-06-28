@@ -329,7 +329,7 @@ Normal distribution curve that illustrates standard deviations. Each band has 1 
 - 99.993666% 的面积在平均数左右四个标准差 4 \\sigma 的范围内。
 - 函数曲线的拐点（inflection point）为离平均数一个标准差距离的位置。
 
-**总结 正态曲线的性质：**
+**总结 正态曲线的性质**：
 
 1. 曲线在 x 轴的上方，与 x 轴不相交；
 1. 曲线是单峰的，它关于直线 x=\\mu 对称，且曲线在 x=\\mu 处取得最大值；
@@ -897,6 +897,6 @@ E[X] = \\sum\_{k=1}^{6} P(X \\ge k) = \\sum\_{k=1}^{6} \\left[ 1 - \\left( \\fra
 
 当你面对的问题涉及最大值、最小值的期望，或者需要计算 P(X = k) 非常困难但 P(X \\ge k) 相对容易时，优先考虑尾部求和公式。这本质上是求和与积分的次序交换。
 
-2025-05-182026-05-31
+2025-05-182026-06-28
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [kiloconnect[bot]](mailto:240665456+kiloconnect%5Bbot%5D@users.noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com),  [devin-ai-integration[bot]](mailto:158243242+devin-ai-integration%5Bbot%5D@users.noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com)

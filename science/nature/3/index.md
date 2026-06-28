@@ -842,7 +842,7 @@ r-对策 与 K-对策：
   - **自然保护**追求的是**演替晚期**的特性（高稳定性，高多样性，保护环境）。
   - **启示**：人类经常通过耕作、除草、施肥，强行把生态系统“锁”在早期阶段。这虽然获得了粮食，但也导致系统脆弱、养分易流失、不仅需要投入大量化石能源，还丧失了自然调节能力。
 
-\*\*3. 对生态修复的指导：\*\*在修复受损生态系统时，不能指望一步登天达到成熟期特征（如直接种大树），而应遵循这些规律，先建立 r 对策物种（草本、灌木）改善环境，逐步引导系统向 K 对策和封闭循环转变。
+**3. 对生态修复的指导**：在修复受损生态系统时，不能指望一步登天达到成熟期特征（如直接种大树），而应遵循这些规律，先建立 r 对策物种（草本、灌木）改善环境，逐步引导系统向 K 对策和封闭循环转变。
 
 ### 现代生态学
 
@@ -1094,6 +1094,6 @@ x(1-x) = -x^2 + x
 
 Logistic 增长模型不仅适用于低等生物的种群动态分析，也是理解更高层次生物种群生态学的基础。
 
-2025-11-282026-06-26
+2025-11-282026-06-28
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

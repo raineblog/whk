@@ -737,27 +737,15 @@ alt text
 
 - 直线 x = x\_{0} 是曲线 y = f(x) 的垂直渐近线，当且仅当
 
-  ```
-  <center markdown>
-  $\lim\limits_{x \to x_{0}^{-}} f(x) = \infty$ 或 $\lim\limits_{x \to x_{0}^{+}} f(x) = \infty$
-  </center>
-  ```
+  \\lim\\limits\_{x \\to x\_{0}^{-}} f(x) = \\infty 或 \\lim\\limits\_{x \\to x\_{0}^{+}} f(x) = \\infty
 
 - 直线 y = b 是曲线 y = f(x) 的水平渐近线，当且仅当
 
-  ```
-  <center markdown>
-  $\lim\limits_{x \to +\infty} f(x) = b$ 或 $\lim\limits_{x \to -\infty} f(x) = b$
-  </center>
-  ```
+  \\lim\\limits\_{x \\to +\\infty} f(x) = b 或 \\lim\\limits\_{x \\to -\\infty} f(x) = b
 
 - 直线 y = ax + b (a \\ne 0) 是曲线 y = f(x) 的斜渐近线，当且仅当
 
-  ```
-  <center markdown>
-  $\lim\limits_{x \to +\infty} [f(x) - (ax + b)] = 0$ 或 $\lim\limits_{x \to -\infty} [f(x) - (ax + b)] = 0$
-  </center>
-  ```
+  \\lim\\limits\_{x \\to +\\infty} [f(x) - (ax + b)] = 0 或 \\lim\\limits\_{x \\to -\\infty} [f(x) - (ax + b)] = 0
 
 一般来说，函数图像的绘制有以下步骤：
 
@@ -878,6 +866,6 @@ x\_{i+1} = x_i - \\frac{f(x_i)}{f'(x_i)}
 
 牛顿迭代法的收敛率是平方级别的，这意味着每次迭代后近似解的精确数位会翻倍。关于牛顿迭代法的收敛性证明可参考 [citizendium - Newton method Convergence analysis](http://en.citizendium.org/wiki/Newton%27s_method#Convergence_analysis)。当然牛顿迭代法也同样存在着缺陷，详情参考 [Xiaolin Wu - Roots of Equations 第 18 \\sim 20 页分析](https://www.ece.mcmaster.ca/~xwu/part2.pdf)。
 
-2025-05-182026-05-01
+2025-05-182026-06-28
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com)
