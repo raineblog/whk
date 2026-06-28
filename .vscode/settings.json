@@ -17,7 +17,7 @@
     "prettier.trailingComma": "es5",
     "editor.formatOnSave": false,
     "editor.formatOnSaveMode": "file",
-    "editor.formatOnPaste": true,
+    "editor.formatOnPaste": false,
     "editor.formatOnType": true,
     "markdown.validate.enabled": true,
     "markdown.validate.referenceLinks.enabled": "ignore"
