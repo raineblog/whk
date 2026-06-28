@@ -136,6 +136,12 @@ Aislinn pulled on her sweater and boots and hurried down the hallway. **Without 
 
 The next morning, Aislinn woke beside the horse. The **sun cast its golden rays** through the stable door, replacing the darkness of night and awakening the world. Soon, the sound of heavy boots echoed nearby as Grandfather approached. **Gazing** at Caper’s hooves, he was **taken aback** to find that the heat and swelling had remarkably **faded away**. **Overwhelmed with joy**, he pulled Aislinn into a warm embrace, his face **lighting up** with a broad smile. Looking out at the calm, blue sea, Aislinn had an **epiphany**: just as Grandfather had promised, nature is always kind to those who treat it with love. They could finally take the fish to the market and pay the rent, their hearts filled with profound gratitude.
 
-2025-11-042026-06-10
+### 国际象棋
+
+Our first game began, and I played with extra concentration. I was completely absorbed in every move, my eyes fixed on the checkered board. Grandpa sat opposite me, his earlier restlessness replaced by a masterful focus as he observed my progress. Whenever I made a clever move, a spark of surprise flashed across his face, and his eyes lit up with pride. The heavy silence that had initially filled the apartment was now dispersed by our occasional chuckles and the rhythmic “click” of the pieces. I found him to be not just a patient teacher, but a captivating opponent whose every gesture encouraged me to think deeper.
+
+We were really enjoying ourselves when Mum returned. She stood in the doorway, taken aback by the unexpected scene of shared laughter. A broad smile spreading across her face, she watched us for a moment before stepping inside. Seeing us so involved with each other, she breathed a deep sigh of relief. It dawned on me that Mum was right; Grandpa didn’t dislike me—he had simply been overwhelmed by grief and was struggling to find his way back to joy. As we eventually packed the pieces away, a wave of warmth washed over me. I realized that this simple game had bridged the gap between our hearts, turning an initially uncomfortable afternoon into a cherished memory.
+
+2025-11-042026-06-28
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com)

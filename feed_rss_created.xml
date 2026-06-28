@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sat, 27 Jun 2026 14:16:07 -0000</pubDate>
-    <lastBuildDate>Sat, 27 Jun 2026 14:16:07 -0000</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2026 11:01:36 -0000</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2026 11:01:36 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -236,21 +236,20 @@ $$&lt;/p&gt;
       
       
       <description>&lt;h1&gt;卤族元素概述&lt;/h1&gt;
-&lt;h2&gt;卤素的一般性质&lt;/h2&gt;
-&lt;h3&gt;卤素的物理性质&lt;/h3&gt;
-&lt;p&gt;卤族元素（Halogens）位于元素周期表第ⅦA 族（第 17 列），包括&lt;strong&gt;氟（F）、氯（Cl）、溴（Br）、碘（I）、砹（At）&lt;/strong&gt;以及人工合成的&lt;strong&gt;石田（Ts）&lt;/strong&gt;。在中学及普通化学研究中，卤族元素的物理性质表现出极强的规律性与递变性。&lt;/p&gt;
-&lt;p&gt;卤族元素原子的最外电子层均有 &lt;strong&gt;7 个电子&lt;/strong&gt;（价电子构型为 $ns^2np^5$），这决定了它们具有相似的化学性质，而物理性质的递变则主要源于核外电子层数的增加。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;原子半径&lt;/strong&gt;：从 F 到 I，随着核电荷数的增加，电子层数依次增多，原子半径&lt;strong&gt;逐渐增大&lt;/strong&gt;。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;离子半径&lt;/strong&gt;：卤素原子易得到 1 个电子形成 $-1$ 价简单阴离子（$X^-$）。同主族自上而下，阴离子半径也随电子层数的增加而&lt;strong&gt;逐渐增大&lt;/strong&gt;，且阴离子的半径总比其对应的原子半径大。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;卤素单质（均以双原子分子 $X_2$ 形式存在）的颜色和物理状态随原子序数增大呈现明显的规律性变化：&lt;/p&gt;
+&lt;h2&gt;氯及其化合物&lt;/h2&gt;
+&lt;h3&gt;氯单质的性质与应用&lt;/h3&gt;
+&lt;p&gt;氯（Chlorine）是极其活泼的非金属元素，位于元素周期表第三周期第ⅦA族。其单质&lt;strong&gt;氯气（$\text{Cl}_2$）&lt;/strong&gt;具有强氧化性，在工业、医疗及日常生活中有着极其广泛的应用。以下是关于氯单质性质及其应用的详细展开讲解：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;颜色&lt;/strong&gt;：单质的颜色&lt;strong&gt;逐渐加深&lt;/strong&gt;。&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;氟（$F_2$）&lt;/strong&gt;：淡黄绿色气体...&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;色、态与气味&lt;/strong&gt;：在常温常压下，氯气是一种&lt;strong&gt;黄绿色&lt;/strong&gt;、具有强烈&lt;strong&gt;刺激性气味&lt;/strong&gt;的有毒气体。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;密度&lt;/strong&gt;：氯气的密度比空气大（标准状况下为 $3.214\,\text{g/L}$），约为同体积空气重量的 2.5 倍。在实验室中通常采用向上排空气法收集。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;溶解性&lt;/strong&gt;：氯气可溶于水（25℃时，1 体积水约溶解 2 体积氯气），所得水溶液称为&lt;strong&gt;氯水&lt;/strong&gt;。氯气也易溶于四氯化碳等有机溶剂。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;状态变化&lt;/strong&gt;：氯气易液化。在常温下加压或降温至 $-34.6^\circ\text{C}$ 时，可变为黄绿色油状的&lt;strong&gt;液氯&lt;/strong&gt;；继续冷却至 $-101^\circ\text{C}$ 则凝固为黄色固体。由于干燥液氯不与铁反应，工业上常用钢瓶盛装液氯储运。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;氯原子的最外...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/element/6/</link>
       <pubDate>Fri, 19 Jun 2026 14:43:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
