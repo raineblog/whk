@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 29 Jun 2026 09:12:36 -0000</pubDate>
-    <lastBuildDate>Mon, 29 Jun 2026 09:12:36 -0000</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 10:25:36 -0000</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 10:25:36 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,37 @@
     
 
     
+    
+    <item>
+      <title>氮族活泼非金属</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;氮族活泼非金属&lt;/h1&gt;
+&lt;h2&gt;氮的基本性质&lt;/h2&gt;
+&lt;h3&gt;氮气及其性质&lt;/h3&gt;
+&lt;p&gt;氮气（$\text{N}_2$）是大气中含量最丰富的气体，约占空气总体积的 78%。作为氮族元素（第 15 族）的首位元素，氮气在自然界循环和工业生产中具有举足轻重的地位。&lt;/p&gt;
+&lt;p&gt;氮气分子的结构特征是其化学性质高度稳定的根本原因：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;成键方式&lt;/strong&gt;：氮原子（$1s^2 2s^2 2p^3$）有 3 个未成对电子。两个氮原子通过共用三对电子结合，形成 &lt;strong&gt;共价三键&lt;/strong&gt;（$\text{N}\equiv\text{N}$）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;轨道重叠&lt;/strong&gt;：三键由一个 &lt;strong&gt;$\sigma$ 键&lt;/strong&gt;（原子轨道“头碰头”重叠）和两个 &lt;strong&gt;$\pi$ 键&lt;/strong&gt;（原子轨道“肩并肩”重叠）组成。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高键能与稳定性&lt;/strong&gt;：氮氮三键的键能极高（约为 &lt;strong&gt;941~946 kJ/mol&lt;/strong&gt;），断开此键需要巨大的能量。因此，氮气在常温下表现出极强的 &lt;strong&gt;化学惰性&lt;/strong&gt;，难以与其他物质反应。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;物理性质：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;基本特征&lt;/strong&gt;：纯净的氮气是 &lt;strong&gt;无色、无味、无嗅&lt;/strong&gt; 的气体。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;密度与溶解性&lt;/strong&gt;：密度（1.25 g/L）略小于空气，**难溶...&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/4/</link>
+      <pubDate>Mon, 29 Jun 2026 10:24:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/4.png" type="image/png" length="36206" />
+      
+    </item>
     
     <item>
       <title>议论文写作</title>
@@ -71,37 +102,6 @@
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/cultural/writing/1/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/cultural/writing/1.png" type="image/png" length="31144" />
-      
-    </item>
-    
-    <item>
-      <title>氮族活泼非金属</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;氮族活泼非金属&lt;/h1&gt;
-&lt;h2&gt;氮的基本性质&lt;/h2&gt;
-&lt;h3&gt;氮气及其性质&lt;/h3&gt;
-&lt;p&gt;氮气（$\text{N}_2$）是大气中含量最丰富的气体，约占空气总体积的 78%。作为氮族元素（第 15 族）的首位元素，氮气在自然界循环和工业生产中具有举足轻重的地位。&lt;/p&gt;
-&lt;p&gt;氮气分子的结构特征是其化学性质高度稳定的根本原因：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;成键方式&lt;/strong&gt;：氮原子（$1s^2 2s^2 2p^3$）有 3 个未成对电子。两个氮原子通过共用三对电子结合，形成 &lt;strong&gt;共价三键&lt;/strong&gt;（$\text{N}\equiv\text{N}$）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;轨道重叠&lt;/strong&gt;：三键由一个 &lt;strong&gt;$\sigma$ 键&lt;/strong&gt;（原子轨道“头碰头”重叠）和两个 &lt;strong&gt;$\pi$ 键&lt;/strong&gt;（原子轨道“肩并肩”重叠）组成。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;高键能与稳定性&lt;/strong&gt;：氮氮三键的键能极高（约为 &lt;strong&gt;941~946 kJ/mol&lt;/strong&gt;），断开此键需要巨大的能量。因此，氮气在常温下表现出极强的 &lt;strong&gt;化学惰性&lt;/strong&gt;，难以与其他物质反应。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;物理性质：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;基本特征&lt;/strong&gt;：纯净的氮气是 &lt;strong&gt;无色、无味、无嗅&lt;/strong&gt; 的气体。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;密度与溶解性&lt;/strong&gt;：密度（1.25 g/L）略小于空气，**难溶...&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/element/4/</link>
-      <pubDate>Mon, 29 Jun 2026 05:27:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/element/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/4.png" type="image/png" length="36206" />
       
     </item>
     
