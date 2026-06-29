@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 29 Jun 2026 10:41:31 -0000</pubDate>
-    <lastBuildDate>Mon, 29 Jun 2026 10:41:31 -0000</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 14:37:32 -0000</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 14:37:32 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,43 @@
     
 
     
+    
+    <item>
+      <title>基因与遗传变异和进化</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;基因与遗传变异和进化&lt;/h1&gt;
+&lt;h2&gt;基因与染色体&lt;/h2&gt;
+&lt;h3&gt;基因在染色体上&lt;/h3&gt;
+&lt;h3&gt;伴性遗传&lt;/h3&gt;
+&lt;h3&gt;DNA 是主要的遗传物质&lt;/h3&gt;
+&lt;h3&gt;DNA 的结构&lt;/h3&gt;
+&lt;h3&gt;DNA 的复制&lt;/h3&gt;
+&lt;h3&gt;基因通常是有遗传效应的 DNA 片段&lt;/h3&gt;
+&lt;h2&gt;蛋白质的合成与分泌&lt;/h2&gt;
+&lt;h3&gt;基因指导蛋白质的合成&lt;/h3&gt;
+&lt;p&gt;分泌蛋白的合成与运输是一个高度有序且协调的过程，涉及细胞内多个细胞器的分工合作。这一过程不仅体现了生物膜系统在结构和功能上的连续性，也展示了细胞作为生命基本单位的整体性。&lt;/p&gt;
+&lt;p&gt;科学家通过在豚鼠的胰腺腺泡细胞中注射 $^3\text{H}$ 标记的亮氨酸，利用放射性同位素的示踪作用，观察到标记物质在细胞内的移动路径。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;3 分钟后&lt;/strong&gt;：放射性出现在附着有核糖体的&lt;strong&gt;粗面内质网&lt;/strong&gt;中。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;17 分钟后&lt;/strong&gt;：出现在&lt;strong&gt;高尔基体&lt;/strong&gt;中。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;117 分钟后&lt;/strong&gt;：出现在靠近细胞质膜的&lt;strong&gt;囊泡&lt;/strong&gt;及&lt;strong&gt;细胞外&lt;/strong&gt;分泌物中。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;合成与运输的详细步骤：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;起始阶段：核糖体上的翻译&lt;/strong&gt; 分泌蛋白的合成始于细胞质基质中的&lt;strong&gt;游离核糖体&lt;/strong&gt;。最初合成的一段氨基酸序列被称为&lt;strong&gt;信号肽&lt;/strong&gt;（Si...&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/6/</link>
+      <pubDate>Mon, 29 Jun 2026 14:36:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/6/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/6/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/6.png" type="image/png" length="36809" />
+      
+    </item>
     
     <item>
       <title>氮族活泼非金属</title>
@@ -128,43 +165,6 @@
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/4/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/4.png" type="image/png" length="34824" />
-      
-    </item>
-    
-    <item>
-      <title>基因与遗传变异和进化</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;基因与遗传变异和进化&lt;/h1&gt;
-&lt;h2&gt;基因与染色体&lt;/h2&gt;
-&lt;h3&gt;基因在染色体上&lt;/h3&gt;
-&lt;h3&gt;伴性遗传&lt;/h3&gt;
-&lt;h3&gt;DNA 是主要的遗传物质&lt;/h3&gt;
-&lt;h3&gt;DNA 的结构&lt;/h3&gt;
-&lt;h3&gt;DNA 的复制&lt;/h3&gt;
-&lt;h3&gt;基因通常是有遗传效应的 DNA 片段&lt;/h3&gt;
-&lt;h2&gt;蛋白质的合成与分泌&lt;/h2&gt;
-&lt;h3&gt;基因指导蛋白质的合成&lt;/h3&gt;
-&lt;p&gt;分泌蛋白的合成与运输是一个高度有序且协调的过程，涉及细胞内多个细胞器的分工合作。这一过程不仅体现了生物膜系统在结构和功能上的连续性，也展示了细胞作为生命基本单位的整体性。&lt;/p&gt;
-&lt;p&gt;科学家通过在豚鼠的胰腺腺泡细胞中注射 $^3\text{H}$ 标记的亮氨酸，利用放射性同位素的示踪作用，观察到标记物质在细胞内的移动路径。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;3 分钟后&lt;/strong&gt;：放射性出现在附着有核糖体的&lt;strong&gt;粗面内质网&lt;/strong&gt;中。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;17 分钟后&lt;/strong&gt;：出现在&lt;strong&gt;高尔基体&lt;/strong&gt;中。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;117 分钟后&lt;/strong&gt;：出现在靠近细胞质膜的&lt;strong&gt;囊泡&lt;/strong&gt;及&lt;strong&gt;细胞外&lt;/strong&gt;分泌物中。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;合成与运输的详细步骤：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;起始阶段：核糖体上的翻译&lt;/strong&gt; 分泌蛋白的合成始于细胞质基质中的&lt;strong&gt;游离核糖体&lt;/strong&gt;。最初合成的一段氨基酸序列被称为&lt;strong&gt;信号肽&lt;/strong&gt;（Si...&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/6/</link>
-      <pubDate>Sun, 28 Jun 2026 12:57:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/6/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/6/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/6.png" type="image/png" length="36809" />
       
     </item>
     
