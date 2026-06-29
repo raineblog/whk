@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 29 Jun 2026 02:43:48 -0000</pubDate>
-    <lastBuildDate>Mon, 29 Jun 2026 02:43:48 -0000</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 09:12:36 -0000</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 09:12:36 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,80 @@
     
 
     
+    
+    <item>
+      <title>议论文写作</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;议论文写作&lt;/h1&gt;
+&lt;h2&gt;写作 workflow&lt;/h2&gt;
+&lt;p&gt;严格 Workflow：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;[user]&lt;/code&gt; 先不要写，先详细分析这道高中语文作文题，可能有问题的地方，标准立意，可能的偏题跑题偏差点等等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;[user]&lt;/code&gt; 结合你的分析和原题，写一篇标准立意和结构的，但是适当融入一点思辨性成分，整体较为传统，不要过于灵活的范文。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;[user]&lt;/code&gt; 把这个图片中的内容，转成纯文本给我，我留档用。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;材料作文&lt;/h2&gt;
+&lt;h2&gt;任务驱动型作文&lt;/h2&gt;
+&lt;h2&gt;例题&lt;/h2&gt;
+&lt;h3&gt;只争朝夕，志在千秋&lt;/h3&gt;
+&lt;p&gt;```md {admonition=&#34;note&#34; title=&#34;青岛统考 2025 高二上期末&#34;}
+按照高考语文作文的标准和规范，完成下面的写作：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;多少事，从来急；天地转，光阴迫。一万年太久，只争朝夕。——毛泽东&lt;/p&gt;
+&lt;p&gt;我们对时间的理解，不是以十年、百年为计，而是以百年、千年为计。——习近平&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以上材料引发了你怎样的联想和思考？写一篇议论文。不少于 800 字。
+```&lt;/p&gt;
+&lt;p&gt;“一万年太久，只争朝夕”，这是革命年代时不我待的呐喊；“以百年、千年为计”，这是新时代放眼未来的宏图。两种时间观看似...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/cultural/writing/1/</link>
+      <pubDate>Mon, 29 Jun 2026 05:27:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/cultural/writing/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/cultural/writing/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/cultural/writing/1.png" type="image/png" length="31144" />
+      
+    </item>
+    
+    <item>
+      <title>氮族活泼非金属</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;氮族活泼非金属&lt;/h1&gt;
+&lt;h2&gt;氮的基本性质&lt;/h2&gt;
+&lt;h3&gt;氮气及其性质&lt;/h3&gt;
+&lt;p&gt;氮气（$\text{N}_2$）是大气中含量最丰富的气体，约占空气总体积的 78%。作为氮族元素（第 15 族）的首位元素，氮气在自然界循环和工业生产中具有举足轻重的地位。&lt;/p&gt;
+&lt;p&gt;氮气分子的结构特征是其化学性质高度稳定的根本原因：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;成键方式&lt;/strong&gt;：氮原子（$1s^2 2s^2 2p^3$）有 3 个未成对电子。两个氮原子通过共用三对电子结合，形成 &lt;strong&gt;共价三键&lt;/strong&gt;（$\text{N}\equiv\text{N}$）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;轨道重叠&lt;/strong&gt;：三键由一个 &lt;strong&gt;$\sigma$ 键&lt;/strong&gt;（原子轨道“头碰头”重叠）和两个 &lt;strong&gt;$\pi$ 键&lt;/strong&gt;（原子轨道“肩并肩”重叠）组成。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高键能与稳定性&lt;/strong&gt;：氮氮三键的键能极高（约为 &lt;strong&gt;941~946 kJ/mol&lt;/strong&gt;），断开此键需要巨大的能量。因此，氮气在常温下表现出极强的 &lt;strong&gt;化学惰性&lt;/strong&gt;，难以与其他物质反应。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;物理性质：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;基本特征&lt;/strong&gt;：纯净的氮气是 &lt;strong&gt;无色、无味、无嗅&lt;/strong&gt; 的气体。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;密度与溶解性&lt;/strong&gt;：密度（1.25 g/L）略小于空气，**难溶...&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/element/4/</link>
+      <pubDate>Mon, 29 Jun 2026 05:27:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/element/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/4.png" type="image/png" length="36206" />
+      
+    </item>
     
     <item>
       <title>光合作用与光合呼吸综合</title>
@@ -2811,68 +2885,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>氮族活泼非金属</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;氮族活泼非金属&lt;/h1&gt;
-&lt;h2&gt;氮气及固氮&lt;/h2&gt;
-&lt;h3&gt;固氮概述&lt;/h3&gt;
-&lt;p&gt;固氮的定义：从氮气 $\ce{N2}$ 到各种含氮化合物。&lt;/p&gt;
-&lt;p&gt;$$
-\ce{N2 -&amp;gt;[O2，闪电] NO -&amp;gt;[O2] NO2 -&amp;gt;[H2O] HNO3 -&amp;gt; 降雨}
-$$&lt;/p&gt;
-&lt;p&gt;酸雨的形成过程&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;自然固氮：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;高能固氮：闪电。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;生物固氮：豆科植物的根瘤菌。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;人工固氮：$\ce{N2 + 3H2 &amp;lt;=&amp;gt;[高温高压][催化剂] 2NH3}$（工业合成氨）。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;工业合成氨&lt;/h3&gt;
-&lt;p&gt;反应原理：&lt;/p&gt;
-&lt;p&gt;$$
-\ce{N2(g) + 3H2(g) &amp;lt;=&amp;gt; 2NH3(g)}\quad\Delta H = \pu{-91.5kJ/mol}
-$$&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;压强效应：增大压强，反应向右移动。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;温度效应：降低温度，反应向右移动。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;哈伯法制氨的过程，即使高温会降低产率，温度仍被设定为较高值以保证反应的速率快速。对于这类放热并且反应速率随温度升高而升高的反应，一般都会取一个折中的反应温度。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;催化剂：铁触媒。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;温度：一般取催化剂的适宜温度，即约 $\pu{700K}$ 或约 $\pu{500^o...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/science/element/4/</link>
-      <pubDate>Fri, 19 Jun 2026 14:43:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/element/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/4.png" type="image/png" length="36206" />
-      
-    </item>
-    
-    <item>
       <title>氧族活泼非金属</title>
       
       
@@ -2910,37 +2922,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/5/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/5.png" type="image/png" length="35457" />
-      
-    </item>
-    
-    <item>
-      <title>议论文写作</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;议论文写作&lt;/h1&gt;
-&lt;h2&gt;材料作文&lt;/h2&gt;
-&lt;h2&gt;任务驱动型作文&lt;/h2&gt;
-&lt;h2&gt;例题&lt;/h2&gt;
-&lt;h3&gt;只争朝夕，志在千秋&lt;/h3&gt;
-&lt;p&gt;```md {admonition=&#34;note&#34; title=&#34;青岛统考 2025 高二上期末&#34;}
-按照高考语文作文的标准和规范，完成下面的写作：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;多少事，从来急；天地转，光阴迫。一万年太久，只争朝夕。——毛泽东&lt;/p&gt;
-&lt;p&gt;我们对时间的理解，不是以十年、百年为计，而是以百年、千年为计。——习近平&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;以上材料引发了你怎样的联想和思考？写一篇议论文。不少于 800 字。
-```&lt;/p&gt;
-&lt;p&gt;“一万年太久，只争朝夕”，这是革命年代时不我待的呐喊；“以百年、千年为计”，这是新时代放眼未来的宏图。两种时间观看似相悖，实则相辅相成，共同构成了中华民族独特的时间智慧——以只争朝夕的紧迫感，筑就千秋伟业的宏伟蓝图。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;只争朝夕，是因为天地转、光阴迫，时代的洪流不等人。&lt;/strong&gt;历史反复证明，机遇稍纵即逝。当年，无数仁人志士以“朝夕必争”的姿态投身革命，才换来民族独立；改革开放初期，深圳以“三天一层楼”的速度创造奇迹，才奠定今日繁华。反观晚清，因循守旧、不思进取，终致国门洞开、山河破碎。正如逆水行舟...&lt;/p&gt;</description>
-      <link>https://raineblog.dpdns.org/whk/cultural/writing/1/</link>
-      <pubDate>Fri, 19 Jun 2026 11:48:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/cultural/writing/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/cultural/writing/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/cultural/writing/1.png" type="image/png" length="31144" />
       
     </item>
     
