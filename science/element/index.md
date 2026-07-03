@@ -783,6 +783,6 @@
   - 通入二氧化硫（SO_2）显现其**漂白性**：红色褪去（生成不稳定的无色物质）。
   - **加热后**：溶液**恢复红色**（结合不稳固，高考常考实验鉴别点）。
 
-2025-03-292026-06-30
+2025-03-292026-07-03
 
 [RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [kiloconnect[bot]](mailto:240665456+kiloconnect%5Bbot%5D@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
