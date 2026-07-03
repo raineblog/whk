@@ -142,6 +142,12 @@ Our first game began, and I played with extra concentration. I was completely ab
 
 We were really enjoying ourselves when Mum returned. She stood in the doorway, taken aback by the unexpected scene of shared laughter. A broad smile spreading across her face, she watched us for a moment before stepping inside. Seeing us so involved with each other, she breathed a deep sigh of relief. It dawned on me that Mum was right; Grandpa didn’t dislike me—he had simply been overwhelmed by grief and was struggling to find his way back to joy. As we eventually packed the pieces away, a wave of warmth washed over me. I realized that this simple game had bridged the gap between our hearts, turning an initially uncomfortable afternoon into a cherished memory.
 
-2025-11-042026-06-28
+### 玩也是学习
+
+Paragraph 1: “How about going to the beach?” Mike said. Hearing the suggestion, the girls jumped up instantly, their eyes full of a hope that I could no longer ignore. Although I still wanted to follow my strict plan, the sight of their hopeful faces made me change my mind. With a soft sigh, I finally nodded, and soon we were packing the car and heading to the beach. The moment we arrived, the girls took off their shoes, running toward the water with laughter that filled the air. Watching them build a messy sandcastle, I realized that the real ocean was a much better teacher than any cardboard animal I had carefully made. For the first time in a week, the stress in my heart disappeared, replaced by a feeling of peace.
+
+Paragraph 2: As we drove home, the girls chatted happily about the “best day ever.” They were not only comparing their shiny shells but also talking about every splash and dive with great excitement. Mike caught my eye in the mirror, his smile suggesting that the simplest plans often bring the best results. It suddenly dawned on me that meaningful learning doesn’t always need a list; sometimes, it just needs us to be there. Only then did I understand that the true meaning of “Mommy Camp” was not finishing projects, but creating memories. Looking ahead to next summer, I decided that the only rule for our camp would be: follow the fun.
+
+2025-11-042026-07-03
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com)
