@@ -31,6 +31,9 @@ jobs:
       - name: Install uv dependencies
         run: uv sync --locked --no-dev
 
+      - name: NFK Content
+        run: ./clean_content.sh
+
       - name: Run Description Generation Script
         run: uv run --no-sync scripts/generate_description/main.py
         env:
