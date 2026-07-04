@@ -1,5 +1,5 @@
 # 心理学
 
-2025-11-042025-11-04
+2025-11-042026-07-04
 
-[RainPPR](mailto:PPR2125773894@163.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

@@ -4,6 +4,6 @@
 
 ## 说明文阅读
 
-2025-03-302025-11-04
+2025-03-302026-07-04
 
-[RainPPR](mailto:PPR2125773894@163.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

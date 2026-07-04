@@ -72,6 +72,6 @@ Not only have we seen significant advances in teaching facilities, but we have a
 
 Centered around an iconic smiling sun, this logo symbolizes the boundless warmth and strength of smiles. Believed to have a similar effect to sunshine, a smile can disperse darkness in our lives, enabling us to face challenges with optimism. Moreover, with the smiling sun serving as a radiant reminder of our pleasant memories, it effectively bridges the gap between our hearts and joy. Just as the saying goes, “A second of smiling makes us ten years younger,” let us embrace smiles to keep our spirits up and enjoy a life full of light.
 
-2025-11-042026-06-28
+2025-11-042026-07-04
 
-[RainPPR](mailto:PPR2125773894@163.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
