@@ -9,7 +9,7 @@ client = OpenAI(
 counter = 0
 
 def get_description(file: str, options):
-    file_content = "``````markdown\n{file}\n``````"
+    file_content = f"``````markdown\n{file}\n``````"
     user_content = ""
     
     for key, value in options.items():
@@ -21,7 +21,7 @@ def get_description(file: str, options):
             {
                 "role": "system",
                 "content": "给下面的文章，拟一个纯文本的描述 Description 字段，用于 SEO/GEO，100～200 字左右，不要输出其他任何内容。"
-            }
+            },
             {
                 "role": "user",
                 "content": f"给下面的文章，拟一个纯文本的描述 Description 字段，用于 SEO/GEO，100～200 字左右，不要输出其他任何内容。\n\n{file_content}\n\n{user_content}"

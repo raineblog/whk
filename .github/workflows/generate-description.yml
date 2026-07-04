@@ -1,24 +1,23 @@
-name: Maintain Pipeline
+name: Generate Description
 
 on:
   schedule:
-    - cron: 0 0 * * *
+    - cron: 0 1 * * *
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 concurrency:
-  group: "maintain"
+  group: "generate-description"
   cancel-in-progress: false
 
 permissions:
   contents: write
-#   pages: write
-  packages: read
-#   id-token: write
-#   issues: write
 
 jobs:
-  seo-push:
-    name: SEO Push
+  generate-description:
+    name: Generate Description
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Source Code
@@ -35,22 +34,22 @@ jobs:
       - name: Install uv dependencies
         run: uv sync --locked --no-dev
 
-      - name: Run SEO Push Script
-        run: uv run scripts/seo_pusher/main.py
+      - name: Run Description Generation Script
+        run: uv run scripts/generate_description/main.py
         env:
-          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
-          GOOGLE_INDEXING_CREDENTIALS: ${{ secrets.GOOGLE_INDEXING_CREDENTIALS }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_NIM_API_KEY }}
           PYTHONUNBUFFERED: 1
           PYTHONUTF8: 1
 
-      - name: Commit and Push SEO Indexing DB
+      - name: Commit and Push Description DB
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add google_indexing.json
+          git add description_cache.json
+          git add docs/
           if git diff --staged --quiet; then
-            echo "No changes in Google Indexing DB."
+            echo "No changes."
           else
-            git commit -m "chore: update google indexing database [skip ci]"
+            git commit -m "chore: update description cache [skip ci]"
             git push origin main
           fi

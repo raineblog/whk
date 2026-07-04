@@ -1,0 +1,56 @@
+name: Seo Push
+
+on:
+  schedule:
+    - cron: 0 0 * * *
+  workflow_dispatch:
+
+concurrency:
+  group: "seo"
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+#   pages: write
+  packages: read
+#   id-token: write
+#   issues: write
+
+jobs:
+  seo-push:
+    name: SEO Push
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+
+      - name: Install uv dependencies
+        run: uv sync --locked --no-dev
+
+      - name: Run SEO Push Script
+        run: uv run scripts/seo_pusher/main.py
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          GOOGLE_INDEXING_CREDENTIALS: ${{ secrets.GOOGLE_INDEXING_CREDENTIALS }}
+          PYTHONUNBUFFERED: 1
+          PYTHONUTF8: 1
+
+      - name: Commit and Push SEO Indexing DB
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add google_indexing.json
+          if git diff --staged --quiet; then
+            echo "No changes in Google Indexing DB."
+          else
+            git commit -m "chore: update google indexing database [skip ci]"
+            git push origin main
+          fi
