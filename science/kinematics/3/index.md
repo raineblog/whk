@@ -287,6 +287,6 @@ x_y=\\dfrac{v_t^2-v_0^2}{2a}=\\dfrac{v_y^2}{2g}=\\dfrac{v^2 \\cos ^2\\theta}{20\
 
 (x_0,y_0)=\\left(\\dfrac{v^2 \\sin \\theta \\cos \\theta}{10\\mathrm{m/s^2}},\\dfrac{v^2 \\cos ^2\\theta}{20\\mathrm{m/s^2}}\\right)
 
-2025-03-292026-05-16
+2025-03-292026-07-04
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

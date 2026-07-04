@@ -728,6 +728,6 @@ P = \\frac{dW}{dt} = M \\frac{d\\theta}{dt} = M\\omega
 1. **功与能**：因为接触点无相对位移，**纯滚动时静摩擦力不做功**，系统机械能守恒（若无滚动阻力）。
 1. **经典结论**：均质圆柱体在斜面上纯滚动下落的加速度为 a_c = \\frac{2}{3} g \\sin \\theta，小于无摩擦滑块的 g \\sin \\theta，因为重力势能需要分配给转动动能。
 
-2025-09-062026-07-03
+2025-09-062026-07-04
 
-[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com)
