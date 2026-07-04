@@ -27,37 +27,13 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
-
       - name: Setup uv
         uses: astral-sh/setup-uv@v7
         with:
           enable-cache: true
 
-      - name: Install bun dependencies
-        run: bun install
-
       - name: Install uv dependencies
         run: uv sync --locked --no-dev
-
-      - name: Install pandoc
-        uses: pandoc/actions/setup@v1
-
-      - name: Cache
-        uses: actions/cache@v6
-        with:
-          path: .cache
-          key: ${{ runner.os }}-mkdocs-${{ github.run_id }}-${{ github.run_attempt }}
-          restore-keys: |
-            ${{ runner.os }}-mkdocs-
-
-      - name: Build Static Site
-        run: uv run --no-sync scripts/generate.py --build --site_url=https://raineblog.dpdns.org/whk/ --disable_giscus=false
-        env:
-          PYTHONUNBUFFERED: 1
-          PYTHONUTF8: 1
-          NO_MKDOCS_2_WARNING: 1
 
       - name: Run SEO Push Script
         run: uv run scripts/seo_pusher/main.py

@@ -178,7 +178,7 @@ def main():
 
     # 9. 将成功的 URL 推送至 IndexNow
     if success_urls:
-        submit_to_indexnow(success_urls)
+        submit_to_indexnow(site_host, success_urls)
     else:
         print("[main] 本次没有成功提交的 URL，跳过 IndexNow 提交。")
 

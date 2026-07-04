@@ -10,7 +10,7 @@ INDEXNOW_LIST = {
     "Yep": "https://indexnow.yep.com/indexnow"
 }
 
-def submit_to_indexnow(urls: list[str]) -> None:
+def submit_to_indexnow(site_host: str, urls: list[str]) -> None:
     """
     使用 IndexNow API 推送 URL 列表。
     """
@@ -18,14 +18,13 @@ def submit_to_indexnow(urls: list[str]) -> None:
         print("[IndexNow] 没有待提交的 URL。")
         return
 
-    site_host = os.environ.get("SITE_HOST")
     indexnow_key = os.environ.get("INDEXNOW_KEY")
     
-    if not site_host or not indexnow_key:
-        print("[IndexNow] ⚠️ 未配置 SITE_HOST 或 INDEXNOW_KEY 环境变量，跳过 IndexNow 提交。")
+    if not indexnow_key:
+        print("[IndexNow] ⚠️ 未配置 INDEXNOW_KEY 环境变量，跳过 IndexNow 提交。")
         return
 
-    key_location = os.environ.get("INDEXNOW_KEY_LOCATION") or f"https://{site_host}/{indexnow_key}.txt"
+    key_location = f"https://{site_host}/{indexnow_key}.txt"
 
     payload = {
         "host": site_host,
