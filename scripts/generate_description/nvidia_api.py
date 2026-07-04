@@ -13,9 +13,9 @@ from concurrent.futures import ThreadPoolExecutor, TimeoutError
 from tenacity import retry, stop_after_attempt, retry_if_exception_type
 
 # 1. 定义一个用于单次执行超时的包装函数
-def run_with_timeout(func, timeout_seconds, *args, **kwargs):
+def run_with_timeout(func, file, options, timeout_seconds):
     with ThreadPoolExecutor(max_workers=1) as executor:
-        future = executor.submit(func, *args, **kwargs)
+        future = executor.submit(func, file, options)
         # 在这里设置单次请求的超时时间
         return future.result(timeout=timeout_seconds)
 
@@ -24,7 +24,7 @@ def run_with_timeout(func, timeout_seconds, *args, **kwargs):
     retry=retry_if_exception_type(TimeoutError) # 仅针对超时异常重试
 )
 def get_description(file: str, options):
-    return run_with_timeout(_get_description, file, options, timeout_seconds=30)
+    return run_with_timeout(_get_description, file, options, 30)
 
 def _get_description(file: str, options):
     file_content = f"``````markdown\n{file}\n``````"
