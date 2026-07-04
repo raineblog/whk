@@ -39,7 +39,7 @@ def get_description(file: str, options):
 
     result = ""
 
-    print(counter, end=":")
+    print(counter, end=": ")
 
     for chunk in completion:
         if not getattr(chunk, "choices", None):

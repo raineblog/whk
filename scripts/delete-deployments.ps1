@@ -1,4 +1,4 @@
-# 删除 raineblog-whk 的所有部署，只保留当前最新的 Production 部署
+# 删除 raineblog-whk-rspress 的所有部署，只保留当前最新的 Production 部署
 # 自动循环直到删完
 
 $round = 0
@@ -7,7 +7,7 @@ while ($true) {
     Write-Host "`n===== 第 $round 轮 =====" -ForegroundColor Magenta
 
     # 获取部署列表
-    $response = bunx wrangler pages deployment list --project-name raineblog-whk --json 2>&1
+    $response = bunx wrangler pages deployment list --project-name raineblog-whk-rspress --json 2>&1
     if ($LASTEXITCODE -ne 0) {
         Write-Error "获取部署列表失败: $response"
         exit 1
@@ -43,7 +43,7 @@ while ($true) {
         $id = $d.Id
         Write-Host "  删除: $id [$($d.Environment)]"
 
-        $output = bunx wrangler pages deployment delete "$id" --project-name raineblog-whk --force 2>&1
+        $output = bunx wrangler pages deployment delete "$id" --project-name raineblog-whk-rspress --force 2>&1
 
         if ($output -match "Successfully deleted") {
             Write-Host "    ✓ 已删除" -ForegroundColor Green
