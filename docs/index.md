@@ -1,3 +1,7 @@
+---
+description: 本文介绍了WHK博客的功能与特点，强调其高中知识体系的创新框架，致敬CTF Wiki与OI Wiki的灵感源泉，详述作者在知识整合与原创改造过程中的用心与收获，并展示其在教育领域的价值。
+---
+
 # 简介
 
 ## 这里是 **RainPPR's WHK Blog**！[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/raineblog/whk)
