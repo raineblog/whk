@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sat, 04 Jul 2026 09:07:20 -0000</pubDate>
-    <lastBuildDate>Sat, 04 Jul 2026 09:07:20 -0000</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 10:21:45 -0000</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 10:21:45 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -32,70 +32,36 @@
     
     
     <item>
-      <title>简介</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;简介&lt;/h1&gt;
-&lt;h2&gt;这里是 &lt;strong&gt;RainPPR&#39;s WHK Blog&lt;/strong&gt;！&lt;a href=&#34;https://deepwiki.com/raineblog/whk&#34;&gt;&lt;img alt=&#34;Ask DeepWiki&#34; src=&#34;https://deepwiki.com/badge.svg&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;这个是 WHK 博客，是目前作者比较活跃的百科性质博客。本项目受 &lt;a href=&#34;https://ctf-wiki.org/&#34;&gt;CTF Wiki&lt;/a&gt;、&lt;a href=&#34;https://oi-wiki.org/&#34;&gt;OI Wiki&lt;/a&gt; 的启发。在本项目的编写过程中，作者进行了很多创造性（造轮子性）的改造，尤其是对于高中知识体系框架的构建。&lt;/p&gt;
-&lt;p&gt;在编写过程中参考了诸多资料，主要内容来自于教材、书籍、网课、培训机构（山东青岛地区）等，部分资料来源于一些网站，在此一并致谢！&lt;/p&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; da...</description>
-      <link>https://raineblog.dpdns.org/whk/</link>
-      <pubDate>Sat, 04 Jul 2026 08:57:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/index.png" type="image/png" length="34589" />
-      
-    </item>
-    
-    <item>
       <title>读后续写</title>
       
       
       
       
-      <description>&lt;h1&gt;读后续写&lt;/h1&gt;
-&lt;h2&gt;语料&lt;/h2&gt;
-&lt;h3&gt;情感描写&lt;/h3&gt;
-&lt;p&gt;恐惧 (horror)、痛苦 (sorrow)、愤怒 (anger)、感激 (gratitude)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Sb. felt a great sense of [情感名词] welling up in sb&#39;s heart and surging through sb.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;A wave of [情感名词] engulfed / enveloped / seized sb. as sb. did sth.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Enveloped / Seized by a wave of [情感名词], sb. did sth.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;So [形容词] was sb. that + 从句。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;喜悦与激动 (Joy &amp;amp; Excitement)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Face lit up with a broad smile&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Heart leaped with excitement&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;悲伤与绝望 (Sadness &amp;amp; Despair)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Tears welled up in one&#39;s eyes and streamed down one&#39;s chee...&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>本篇教学系统阐述情感描写、环境渲染、动作叙述与高级句式技巧，提供强动词、Pathetic Fallacy、时间节奏等实用词汇与写作公式，帮助学生提升画面感、感染力和作文层次，以及连贯的段落衔接技巧。</description>
       <link>https://raineblog.dpdns.org/whk/cultural/writing/3/</link>
-      <pubDate>Sat, 04 Jul 2026 08:57:00 +0000</pubDate>
+      <pubDate>Sat, 04 Jul 2026 10:20:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/cultural/writing/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/cultural/writing/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/cultural/writing/3.png" type="image/png" length="40335" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/cultural/writing/3.png" type="image/png" length="62071" />
+      
+    </item>
+    
+    <item>
+      <title>简介</title>
+      
+      
+      
+      
+      <description>RainPPR 的 WHK 博客是面向高中生的百科式知识库，受 CTF Wiki 与 OI Wiki 启发，融合教材、网课和培训资料，并通过作者创新改造构建完整的学科体系，提供精准可靠的学习参考。</description>
+      <link>https://raineblog.dpdns.org/whk/</link>
+      <pubDate>Sat, 04 Jul 2026 09:08:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/index.png" type="image/png" length="51088" />
       
     </item>
     
@@ -105,17 +71,14 @@
       
       
       
-      <description>&lt;h1&gt;讨论交流&lt;/h1&gt;
-&lt;p&gt;本人是退役高中信息学竞赛选手，所以你可以在洛谷 LA 群、菜菜园子等群中找到我。&lt;/p&gt;
-&lt;p&gt;你可以通过我的邮件 &lt;a href=&#34;mailto:whk@raineblog.dpdns.org&#34;&gt;whk@raineblog.dpdns.org&lt;/a&gt; 联系我，这个链接仅限本博客的相关内容。如果你想关于 RaineBlog 与我交流，可以联系 &lt;a href=&#34;mailto:contact@raineblog.dpdns.org&#34;&gt;contact@raineblog.dpdns.org&lt;/a&gt;。以上邮件通过 Proton Mail 接收，回复可能不及时，同时有被认为是垃圾邮件而被退回的可能（我已经将比较常用的一些国内域名加入了白名单，但是仍然可能被屏蔽），请你先尝试修改你的邮件，但不要多次发送。如果你确有急事，可以联系 &lt;a href=&#34;mailto:rainppr@raineblog.dpdns.org&#34;&gt;rainppr@raineblog.dpdns.org&lt;/a&gt; 以直接发送到我的个人邮箱，但是我不建议这样做，因为如果被骚扰，我可能会不耐烦，届时可能关闭这一渠道。&lt;/p&gt;
-&lt;p&gt;有对于本百科的看法，建议直接发到页面下方的评论区（基于 Giscus...&lt;/p&gt;</description>
+      <description>退役高中信息学竞赛选手的交流页面，提供洛谷、菜菜园子等群联系方式，多种安全邮箱可联系，亦可通过 QQ 或页面评论区讨论 RaineBlog 与算法竞赛相关事宜，欢迎分享经验、提问或提出改进建议。</description>
       <link>https://raineblog.dpdns.org/whk/home/discussion/</link>
-      <pubDate>Sat, 04 Jul 2026 08:57:00 +0000</pubDate>
+      <pubDate>Sat, 04 Jul 2026 09:08:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/home/discussion/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/discussion/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/discussion.png" type="image/png" length="40298" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/discussion.png" type="image/png" length="22587" />
       
     </item>
     
@@ -125,22 +88,14 @@
       
       
       
-      <description>&lt;h1&gt;格式手册&lt;/h1&gt;
-&lt;h2&gt;排版规范&lt;/h2&gt;
-&lt;p&gt;在学术内容方面，排版参考 &lt;a href=&#34;https://oi-wiki.org/intro/format/&#34;&gt;OI Wiki 格式手册&lt;/a&gt;；中文文案排版参考 &lt;a href=&#34;https://rainppr.dpdns.org/chinese-copywriting-guidelines/&#34;&gt;中文文案排版指北&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;本站的核心目标是构建一套适合高中生深度阅读的文化课文档，而非单纯的工具书或教材。因此，在遵循规范的前提下，排版应更侧重于&lt;strong&gt;美观性&lt;/strong&gt;与&lt;strong&gt;易读性&lt;/strong&gt;。&lt;/p&gt;
-&lt;h2&gt;资源托管&lt;/h2&gt;
-&lt;p&gt;为优化仓库性能，GitHub 仓库主要用于存放 Markdown 源码及图片。对于 PDF 等大型资料，请统一存放至 &lt;a href=&#34;https://huggingface.co/datasets/RainPPR/whk/tree/main&#34;&gt;HuggingFace 仓库&lt;/a&gt;，该平台对大文件拥有更完善的存储与加载支持。&lt;/p&gt;
-&lt;h2&gt;语言风格&lt;/h2&gt;
-&lt;p&gt;我们追求精炼且富有感染力的文字表达。文稿应避免冗长乏味的叙述，建议使用描述性语言引导读者思考，在简洁的文字背后构建丰富的知识图谱。&lt;/p&gt;
-&lt;h2&gt;知识架构（Networked T...&lt;/h2&gt;</description>
+      <description>本手册详述高校阅读文档的排版规范、资源托管与语言风格，倡导网络化思维与适度非线性结构，致力于打造美观、易读和应试技巧的知识库，文档源码托管于GitHub，体积文件放在HuggingFace，快速加载。</description>
       <link>https://raineblog.dpdns.org/whk/home/format/</link>
-      <pubDate>Sat, 04 Jul 2026 08:57:00 +0000</pubDate>
+      <pubDate>Sat, 04 Jul 2026 09:08:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/home/format/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/format/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/format.png" type="image/png" length="37987" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/format.png" type="image/png" length="43321" />
       
     </item>
     
@@ -150,37 +105,14 @@
       
       
       
-      <description>&lt;h1&gt;魔法少女小圆&lt;/h1&gt;
-&lt;div class=&#34;grid cards&#34; markdown&gt;
-
-- ![晓美焰](https://q1.qlogo.cn/g?b=qq&amp;nk=1539871957&amp;s=160)
-
-    ---
-
-    &lt;center&gt;&lt;span style=&#34;color:#935ba5;&#34;&gt;
-    &lt;b&gt;暁美ほむら Akemi Homura&lt;/b&gt;&lt;br&gt;&lt;i&gt;a.k.a. Starrykiller&lt;/i&gt;
-    &lt;/span&gt;&lt;/center&gt;
-
-- ![鹿目圆](https://q1.qlogo.cn/g?b=qq&amp;nk=2878953259&amp;s=160)
-
-    ---
-
-    &lt;center&gt;&lt;span style=&#34;color:#ff99cc;&#34;&gt;
-    &lt;b&gt;鹿目まどか Kaname Madoka&lt;/b&gt;&lt;br&gt;&lt;i&gt;a.k.a. Madoka&lt;/i&gt;
-    &lt;/span&gt;&lt;/center&gt;
-
-- ![美树沙耶香](https://q1.qlogo.cn/g?b=qq&amp;nk=168527298&amp;s=160)
-
-    ---
-
-    &lt;ce...</description>
+      <description>本页介绍《魔法少女小圆》主要角色，包括暁美焰、鹿目圆、美树沙耶香、佐仓杏子与巴麻美，展示角色图片与昵称，带你快速了解这部经典魔法少女作品，适合新老粉丝欣赏，感受角色魅力与成长故事。</description>
       <link>https://raineblog.dpdns.org/whk/home/madoka/</link>
-      <pubDate>Sat, 04 Jul 2026 08:57:00 +0000</pubDate>
+      <pubDate>Sat, 04 Jul 2026 09:08:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/home/madoka/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/madoka/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/madoka.png" type="image/png" length="43815" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/madoka.png" type="image/png" length="45197" />
       
     </item>
     
@@ -190,69 +122,14 @@
       
       
       
-      <description>&lt;h1&gt;开发进程&lt;/h1&gt;
-&lt;h2&gt;生物&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;（待完善）孟德尔遗传规律：五三 310 页考法 1, 2, 3。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;细胞活动。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;遗传除了孟德尔以外的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;物理&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;空间测量，参考新概念、初中课本。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;热力学。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;角动量、轨道力学。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;天体概述，补充地理内容。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;数学&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;线性代数：3B1B。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;OI wiki：数论、群论、博弈论、计算理论、线性规划&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;具体数学：微积分、数列进阶与提高。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;统计模型、概率分布。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;新高考数学你真的掌握了吗 平面几何与三角函数.pdf P223 圆幂定理&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;新高考数学你真的掌握了吗 函数.pdf 4.3 找点（三）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;解析几何（第三版） (丘维声) (Z-Library).pdf P141 矩阵&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;```sh
-git submodule add https://github.com/raineblog/mkdocs-material material
-git submodule add https://github.com/raineblog/mkdocs-script script
-git submo...&lt;/p&gt;</description>
+      <description>本页面列出生物、物理、数学等学科的学习进度与资源清单，包括孟德尔遗传、热力学、线性代数、数论、图论等关键章节，并提供相关教材、PDF 和 OI Wiki 链接，以及项目 Git 子模块的添加与更新方法。</description>
       <link>https://raineblog.dpdns.org/whk/home/roadmap/</link>
-      <pubDate>Sat, 04 Jul 2026 08:57:00 +0000</pubDate>
+      <pubDate>Sat, 04 Jul 2026 09:08:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/home/roadmap/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/roadmap/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/roadmap.png" type="image/png" length="38742" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/roadmap.png" type="image/png" length="20860" />
       
     </item>
     
@@ -262,37 +139,14 @@ git submo...&lt;/p&gt;</description>
       
       
       
-      <description>&lt;h1&gt;如何使用&lt;/h1&gt;
-&lt;h2&gt;简介&lt;/h2&gt;
-&lt;details class=&#34;recently-updated-box&#34; id=&#34;recently-updated-box&#34;&gt;
-&lt;summary&gt;最新更新&lt;/summary&gt;
-&lt;!-- RECENTLY_UPDATED_DOCS --&gt;
-&lt;/details&gt;
-
-&lt;h2&gt;如何找到文章相关资源&lt;/h2&gt;
-&lt;p&gt;关注作者：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;博客园：&lt;a href=&#34;https://www.cnblogs.com/RainPPR&#34;&gt;RainPPR&lt;/a&gt;。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Github：&lt;a href=&#34;https://github.com/RainPPR&#34;&gt;RainPPR&lt;/a&gt;。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;X (Twitter)：&lt;a href=&#34;https://x.com/rainppr2008&#34;&gt;RainPPR @rainppr2008&lt;/a&gt;。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;安利&lt;/h2&gt;
-&lt;p&gt;欢迎帮我宣传这个博客！&lt;/p&gt;
-&lt;p&gt;本人不是很懂（没有太多经历）搞宣传和 SEO、GEO 什么的 TvT&lt;/p&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; local...</description>
+      <description>本页介绍使用方法与最新更新，提供作者RainPPR的博客园、GitHub、X（Twitter）链接，帮助读者快速获取相关资源并支持博客宣传。欢迎关注并分享，让更多人受益。</description>
       <link>https://raineblog.dpdns.org/whk/home/usage/</link>
-      <pubDate>Sat, 04 Jul 2026 08:57:00 +0000</pubDate>
+      <pubDate>Sat, 04 Jul 2026 09:08:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/home/usage/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/home/usage/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/usage.png" type="image/png" length="37314" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/home/usage.png" type="image/png" length="38045" />
       
     </item>
     
@@ -302,20 +156,14 @@ git submo...&lt;/p&gt;</description>
       
       
       
-      <description>&lt;h1&gt;细胞的结构和功能&lt;/h1&gt;
-&lt;h2&gt;细胞中的物质&lt;/h2&gt;
-&lt;h3&gt;元素和化合物&lt;/h3&gt;
-&lt;p&gt;生物体总是和外界环境进行着物质交换，细胞生命活动所需要的物质，归根结底是从无机自然界中获取的。因此，组成细胞的化学元素，在无机自然界中都能够找到，没有一种化学元素为细胞所特有。但是，细胞中各种元素的相对含量与无机自然界的大不相同。&lt;/p&gt;
-&lt;p&gt;组成细胞的化学元素，常见的有 20 多种，其中有些含量多，有些含量很少。一般来说，细胞中含量最多的就是碳元素和氧元素，以人和玉米细胞为例，人的干重 C O N H 依次最多，人的鲜重、玉米的干重、玉米的鲜重都是 O C H N 依次最多。核心原因是玉米富含糖类（例如纤维素细胞壁），糖类中氧元素可以在烘干中保留，而不像自由水那样脱去。&lt;/p&gt;
-&lt;p&gt;细胞中常见的化学元素中，含量较多的有 C、H、O、N、P、S、K、Ca、Mg、Na、Cl 等元素，称为大量元素（注意，Na 和 Cl 在中学阶段不被列入大量元素，在植物中钠属于非必需/有益元素，氯是必需微量元素）；有些元素含量很少，如 Fe、Mn、Zn、Cu、B、Mo、Ni、Co、Se 等，称为微量元素。&lt;/p&gt;
-&lt;p&gt;![alt text](image-19-...&lt;/p&gt;</description>
+      <description>系统阐述细胞结构与功能，包括元素分布、水的渗透与作用、膜的流动镶嵌模型、各细胞器分工以及主动、被动和胞吞胞吐的物质运输，并探讨细胞膜蛋白、离子通道以及内质网‑高尔基体的分选路径。</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/1/</link>
-      <pubDate>Sat, 04 Jul 2026 08:57:00 +0000</pubDate>
+      <pubDate>Sat, 04 Jul 2026 09:08:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/cell/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/1.png" type="image/png" length="48069" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/1.png" type="image/png" length="51845" />
       
     </item>
     
@@ -325,30 +173,14 @@ git submo...&lt;/p&gt;</description>
       
       
       
-      <description>&lt;h1&gt;细胞代谢与呼吸作用&lt;/h1&gt;
-&lt;h2&gt;糖类&lt;/h2&gt;
-&lt;p&gt;糖类，指的是一系列多羟基醛或多羟基酮及其缩聚物，或者其衍生物的总称。&lt;/p&gt;
-&lt;p&gt;以前所有分子式可写成 $\ce{C_m (H2O)_n}$ 的化学物质皆被称为 &lt;strong&gt;碳水化合物&lt;/strong&gt;，但是现在生物化学理解上的糖类是指除了碳数不为一和二的「碳水化合物」。&lt;/p&gt;
-&lt;p&gt;在旧版教材中，我们说糖类是主要的能源物质，但是在新版高中教材中，将这一描述改成了，糖类是重要的能源物质。葡萄糖是细胞生命活动所需要的主要能源物质，常被形容为“生命的燃料”。&lt;/p&gt;
-&lt;h3&gt;单糖概述&lt;/h3&gt;
-&lt;p&gt;单糖因无法水解为更小的碳水化合物，因此是糖类中最小的分子。它们是一些具有两个或者更多羟基的醛或酮类化合物。&lt;/p&gt;
-&lt;p&gt;单糖是新陈代谢中的主要燃料，能提供能量（当中以葡萄糖最主）及用于生物合成。单糖未需即时使用的话，细胞会先将其转换成较省空间的形式，通常为多糖。在包括人类的许多动物中，这种储存方式是糖原，特别在肝脏及肌肉细胞。在植物中，则储存成淀粉。&lt;/p&gt;
-&lt;p&gt;戊糖又称五碳糖，是含有 $5$ 个碳原子的单糖，分子式为 $\ce{C5H10O5}$。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;在 $1$ 号碳上有醛基的称为五碳醛糖（戊醛糖）。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;在 $2$ 号...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>本文系统阐述细胞代谢中的糖类、脂质及酶的结构与功能，重点解析葡萄糖呼吸、糖原、脂肪合成与β-氧化以及有氧与无氧呼吸的能量转换机制。并结合酶抑制剂的分类与实验探究，帮助学生深入理解细胞能量代谢全景。</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/2/</link>
-      <pubDate>Sat, 04 Jul 2026 08:57:00 +0000</pubDate>
+      <pubDate>Sat, 04 Jul 2026 09:08:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/cell/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/2.png" type="image/png" length="48081" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/2.png" type="image/png" length="52536" />
       
     </item>
     
@@ -358,23 +190,14 @@ git submo...&lt;/p&gt;</description>
       
       
       
-      <description>&lt;h1&gt;光合作用与光合呼吸综合&lt;/h1&gt;
-&lt;h2&gt;光合作用&lt;/h2&gt;
-&lt;h3&gt;光合作用概述&lt;/h3&gt;
-&lt;p&gt;在现代农业的植物工厂中，人工光源通过精确调配红蓝光比例，为植物提供源源不断的能量；而在自然界，则是“万物生长靠太阳”。太阳光能的输入、捕获和转化，是生物圈得以维持运转的动力源泉。&lt;strong&gt;光合作用（Photosynthesis）&lt;/strong&gt;作为地球上唯一能大规模捕获并转化光能的生物学途径，被誉为“地球上最重要的化学反应”。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;叶绿体结构示意图&#34; src=&#34;image-3-48d53d0.avif&#34;&gt;{ width=&#34;80%&#34; }&lt;/p&gt;
-&lt;p&gt;植物捕获光能高度依赖特定的物质与结构。&lt;strong&gt;叶绿体（Chloroplast）&lt;/strong&gt;是光合作用的场所，其内部由类囊体堆叠而成的&lt;strong&gt;基粒&lt;/strong&gt;极大扩展了膜面积，为光合色素和酶提供了广阔的附着空间。分布在类囊体薄膜上的&lt;strong&gt;叶绿素&lt;/strong&gt;（主要吸收红光和蓝紫光）与&lt;strong&gt;类胡萝卜素&lt;/strong&gt;（主要吸收蓝紫光）构成光系统，如同灵敏的“天线”捕获光子。&lt;strong&gt;镁（Mg）&lt;/strong&gt;作为叶绿素分子的核心元素，其供应充足与否直接决定了光能捕获的效率。&lt;/p&gt;
-&lt;p&gt;光合作用是一个精密的氧化还原过程，主要分为两个耦合的阶段：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;光反应（类囊体膜）&lt;/strong&gt;：色...&lt;/li&gt;
-&lt;/ol&gt;</description>
+      <description>深入解析光合作用与光呼吸的机理，包括叶绿体结构、光反应与暗反应、卡尔文循环、C3/C4/CAM路径及其在农业和环境修复中的应用，帮助掌握植物能量转换的全貌。</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/3/</link>
-      <pubDate>Sat, 04 Jul 2026 08:57:00 +0000</pubDate>
+      <pubDate>Sat, 04 Jul 2026 09:08:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/cell/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="46499" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/3.png" type="image/png" length="47376" />
       
     </item>
     

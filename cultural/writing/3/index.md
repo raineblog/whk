@@ -71,15 +71,15 @@
 
 将一系列简单的动作组合在一起，能瞬间提升叙事的逻辑性和生动性。公式为：“动作 A, 动作 B and 动作 C”。
 
-- 情节推进示例： ◦ The boys rushed excitedly to the lake, took off their clothes and jumped into the water. (男孩们冲向湖边，脱掉衣服，跳入水中)。 ◦ He put on his coat, stormed out and slammed the door shut. (他穿上大衣，冲了出去，砰地关上门)。
-- 情感融入示例： ◦ She jumped up, dashed forward and hugged the boy tightly. (她跳起来，冲向前，紧紧拥抱住男孩)。三、高级句式支架：为动作披上“华丽外衣” 无需复杂的语法，用以下三个模板包装动作，即可达到满分作文的质量：
+- 情节推进示例：◦ The boys rushed excitedly to the lake, took off their clothes and jumped into the water. (男孩们冲向湖边，脱掉衣服，跳入水中)。◦ He put on his coat, stormed out and slammed the door shut. (他穿上大衣，冲了出去，砰地关上门)。
+- 情感融入示例：◦ She jumped up, dashed forward and hugged the boy tightly. (她跳起来，冲向前，紧紧拥抱住男孩)。三、高级句式支架：为动作披上“华丽外衣”无需复杂的语法，用以下三个模板包装动作，即可达到满分作文的质量：
 
-1. With 复合结构（画面捕捉器）： ◦ With + 名词 + 动词 (-ing/-ed)/形容词。 ◦ With his heart pounding wildly, he slowly opened the letter. (心跳剧烈，他慢慢打开了信)。
-1. 非谓语动词开头（状态铺垫）： ◦ Doing/Done…, sb did sth. ◦ Exhausted from the long journey, the traveler fell asleep immediately. (长途跋涉筋疲力尽，旅行者立刻睡着了)。
-1. 情绪倒装（强调核心）： ◦ So + 形容词 + was sb that + 从句。 ◦ So absorbed was she in her book that she didn’t notice me enter. (她如此专心读书，以至于没注意到我进来)。实战应用建议：Show, Don’t Tell
+1. With 复合结构（画面捕捉器）：◦ With + 名词 + 动词 (-ing/-ed)/形容词。◦ With his heart pounding wildly, he slowly opened the letter. (心跳剧烈，他慢慢打开了信)。
+1. 非谓语动词开头（状态铺垫）：◦ Doing/Done…, sb did sth. ◦ Exhausted from the long journey, the traveler fell asleep immediately. (长途跋涉筋疲力尽，旅行者立刻睡着了)。
+1. 情绪倒装（强调核心）：◦ So + 形容词 + was sb that + 从句。◦ So absorbed was she in her book that she didn’t notice me enter. (她如此专心读书，以至于没注意到我进来)。实战应用建议：Show, Don’t Tell
 
-- 赛前压力（压抑）： ◦ The air was thick and suffocating; silence hung over the stadium. (空气厚重令人窒息，操场上一片死寂)。 ◦ Dark clouds gathered, mirroring the turmoil in his heart. (乌云密布，映照着内心的焦虑)。
-- 转机与胜利（希望）： ◦ The sun cast a golden glow over the field. (阳光在赛场上镀上了金边)。 ◦ A gentle breeze caressed his cheeks, blowing away his exhaustion. (微风抚面，吹散了疲惫)。
+- 赛前压力（压抑）：◦ The air was thick and suffocating; silence hung over the stadium. (空气厚重令人窒息，操场上一片死寂)。◦ Dark clouds gathered, mirroring the turmoil in his heart. (乌云密布，映照着内心的焦虑)。
+- 转机与胜利（希望）：◦ The sun cast a golden glow over the field. (阳光在赛场上镀上了金边)。◦ A gentle breeze caressed his cheeks, blowing away his exhaustion. (微风抚面，吹散了疲惫)。
 
 田径运动（侧重速度与爆发）
 
@@ -108,11 +108,11 @@
 
 通过描写眼睛的状态，可以极具画面感地展现人物从迷茫、悲伤到惊喜或坚定的过程：
 
-- 视野模糊（迷茫/悲伤）： ◦ Tears welled up in her eyes and blurred her vision. (泪水涌出，模糊了她的视线)。 ◦ The rain was pouring down, blurring the world outside. (大雨倾盆，模糊了窗外的世界——常用于衬托人物心境的混乱)。 ◦ He peered into the darkness, trying to see something. (他费力地盯着黑暗，试图看清什么)。
-- 眼神闪亮（惊喜/激动/坚定）： ◦ His face lit up, eyes sparkling with delight / excitement. (他的脸瞬间亮了起来，眼中闪烁着喜悦/兴奋的光芒)。 ◦ Eyes glittering with joy, sb. did sth. (眼中闪烁着喜悦，某人做了某事)。 ◦ With his eyes fixed on the target, he… (他的眼睛紧盯着目标，他……)。
-- 眼神突变（震惊/难以置信）： ◦ Her eyes widened in disbelief / astonishment. (她惊讶地睁大了眼睛，不敢相信)。 ◦ He stood there, with his eyes fixed on the screen. (他站在那里，眼睛死死盯着屏幕)。二、思维的突然闪光：顿悟与空白描写思维的突发状态，可以有效地交代情节的转折点（Turning Point）：
-- 突然顿悟（闪光时刻）： ◦ It was at that very moment that the true essence of the situation dawned on me. (正是在那一刻，事情的真谛在我脑海中浮现)。 ◦ It finally hit me / It clicked for me. (我终于恍然大悟/一下子想通了)。 ◦ He had an epiphany that failure was just part of the journey. (他突然顿悟，失败只是旅程的一部分)。
-- 思维定格/转动： ◦ My mind went blank. (我的大脑瞬间一片空白——常用于恐惧或震惊)。 ◦ Without a second thought, I… (我毫不犹豫地/不假思索地……)。 ◦ The thought that I might fail never occurred to me. (我从未想过我可能会失败)。
+- 视野模糊（迷茫/悲伤）：◦ Tears welled up in her eyes and blurred her vision. (泪水涌出，模糊了她的视线)。◦ The rain was pouring down, blurring the world outside. (大雨倾盆，模糊了窗外的世界——常用于衬托人物心境的混乱)。◦ He peered into the darkness, trying to see something. (他费力地盯着黑暗，试图看清什么)。
+- 眼神闪亮（惊喜/激动/坚定）：◦ His face lit up, eyes sparkling with delight / excitement. (他的脸瞬间亮了起来，眼中闪烁着喜悦/兴奋的光芒)。◦ Eyes glittering with joy, sb. did sth. (眼中闪烁着喜悦，某人做了某事)。◦ With his eyes fixed on the target, he… (他的眼睛紧盯着目标，他……)。
+- 眼神突变（震惊/难以置信）：◦ Her eyes widened in disbelief / astonishment. (她惊讶地睁大了眼睛，不敢相信)。◦ He stood there, with his eyes fixed on the screen. (他站在那里，眼睛死死盯着屏幕)。二、思维的突然闪光：顿悟与空白描写思维的突发状态，可以有效地交代情节的转折点（Turning Point）：
+- 突然顿悟（闪光时刻）：◦ It was at that very moment that the true essence of the situation dawned on me. (正是在那一刻，事情的真谛在我脑海中浮现)。◦ It finally hit me / It clicked for me. (我终于恍然大悟/一下子想通了)。◦ He had an epiphany that failure was just part of the journey. (他突然顿悟，失败只是旅程的一部分)。
+- 思维定格/转动：◦ My mind went blank. (我的大脑瞬间一片空白——常用于恐惧或震惊)。◦ Without a second thought, I… (我毫不犹豫地/不假思索地……)。◦ The thought that I might fail never occurred to me. (我从未想过我可能会失败)。
 
 ## 范文
 
@@ -147,6 +147,36 @@ We were really enjoying ourselves when Mum returned. She stood in the doorway, t
 Paragraph 1: “How about going to the beach?” Mike said. Hearing the suggestion, the girls jumped up instantly, their eyes full of a hope that I could no longer ignore. Although I still wanted to follow my strict plan, the sight of their hopeful faces made me change my mind. With a soft sigh, I finally nodded, and soon we were packing the car and heading to the beach. The moment we arrived, the girls took off their shoes, running toward the water with laughter that filled the air. Watching them build a messy sandcastle, I realized that the real ocean was a much better teacher than any cardboard animal I had carefully made. For the first time in a week, the stress in my heart disappeared, replaced by a feeling of peace.
 
 Paragraph 2: As we drove home, the girls chatted happily about the “best day ever.” They were not only comparing their shiny shells but also talking about every splash and dive with great excitement. Mike caught my eye in the mirror, his smile suggesting that the simplest plans often bring the best results. It suddenly dawned on me that meaningful learning doesn’t always need a list; sometimes, it just needs us to be there. Only then did I understand that the true meaning of “Mommy Camp” was not finishing projects, but creating memories. Looking ahead to next summer, I decided that the only rule for our camp would be: follow the fun.
+
+### 陌生人帮助
+
+这篇续写的核心在于\*\*“温暖”**和**“感恩”\*\*。前文铺垫了寒冷的暴风雪和绝望的处境，后文必须通过 Daniel 和 Rachel 的善意，将氛围从“冰冷”转向“温暖”，从而升华主题——圣诞节真正的意义不在于目的地，而在于人性中的光辉。
+
+**Paragraph 1: Daniel and Rachel suggested that Emily continue her journey by train.** Hearing this, Emily felt a wave of relief, as it seemed like the only way to reach Toronto in time. Not only did the kind couple help her book a ticket, but they also drove her to the nearest station, ensuring she was safe. As the train sped through the snowy landscape, Emily couldn’t stop thinking about the strangers’ kindness. By the time she finally hugged her boyfriend in Toronto, she realized that the true spirit of Christmas lay in the unexpected help from others.
+
+**Paragraph 2: Three days later, Emily returned to get her car.** Upon arriving at the ditch, she was surprised to find Daniel and Rachel waiting there with a tow truck they had arranged. While the weather was still cold, the warmth of their friendship made the air feel warmer than ever. Never had Emily felt so grateful to people she had only just met. As she drove away, she looked back and waved, knowing that this unexpected detour had brought her the most precious gift of all: the beauty of human kindness.
+
+第一段：逻辑推进 \\rightarrow 情感升华
+
+1. **`Hearing this, Emily felt...`** \\rightarrow (现在分词作状语)
+   - *解析：* 替代 “When she heard this”，让叙述更流畅，这是续写最经典的高分开头方式。
+1. **`Not only did the kind couple help... but they also...`** \\rightarrow (Not only 引导的倒装句)
+   - *解析：* **这是一个强力得分点。** 将简单的两个动作（买票、送站）用倒装结构连接，瞬间提升句子档次。
+1. **`...ensuring she was safe.`** \\rightarrow (现在分词作结果状语)
+   - *解析：* 避免使用 “and they ensured…”，用 `-ing` 形式增加句子的灵活性。
+1. **`By the time she finally hugged...`** \\rightarrow (时间状语从句)
+   - *解析：* 建立时间线，将情节推向高潮（到达目的地）。
+
+第二段：情节收拢 \\rightarrow 主旨升华
+
+1. **`Upon arriving at the ditch...`** \\rightarrow (Upon doing 结构)
+   - *解析：* 替代 “When she arrived”，表示“一……就……”，显得更加地道。
+1. **`While the weather was still cold, ...`** \\rightarrow (While 引导的对比句)
+   - *解析：* 运用“天气冷”与“心情暖”的对比，增强文学色彩。
+1. **`Never had Emily felt so grateful...`** \\rightarrow (否定词置于句首的全部倒装)
+   - *解析：* **全篇最高光句式！** 用 `Never had I...` 表达强烈的情感，是拿到 A 档语言分的关键。
+1. **`...knowing that this unexpected detour had brought...`** \\rightarrow (现在分词引导的伴随状语)
+   - *解析：* 将“感悟”自然地融入在“开车离开”这个动作中，使结尾不显得突兀，且具有深意。
 
 2025-11-042026-07-04
 
