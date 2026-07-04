@@ -6,6 +6,7 @@ on:
     - cron: '0 0 * * 0'
     # 每月 1 号凌晨运行 (补全缺失 Frontmatter 的文件)
     - cron: '0 0 1 * *'
+  workflow_dispatch:
 
 concurrency:
   group: "maintain"
@@ -21,19 +22,70 @@ permissions:
 jobs:
   seo-push:
     name: SEO Push
-    if: github.event.schedule == '0 0 * * 0'
+    if: github.event.schedule == '0 0 * * 0' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/raineblog/mkdocs-seo:latest
     steps:
-      - name: SEO Push
-        run: seo-push
+      - name: Checkout Source Code
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+
+      - name: Install bun dependencies
+        run: bun install
+
+      - name: Install uv dependencies
+        run: uv sync --locked --no-dev
+
+      - name: Install pandoc
+        uses: pandoc/actions/setup@v1
+
+      - name: Cache
+        uses: actions/cache@v6
+        with:
+          path: .cache
+          key: ${{ runner.os }}-mkdocs-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            ${{ runner.os }}-mkdocs-
+
+      - name: Build Static Site
+        run: uv run --no-sync scripts/generate.py --build --site_url=https://raineblog.dpdns.org/whk/ --disable_giscus=false
+        env:
+          PYTHONUNBUFFERED: 1
+          PYTHONUTF8: 1
+          NO_MKDOCS_2_WARNING: 1
+
+      - name: Run SEO Push Script
+        run: uv run scripts/seo_pusher/main.py
         env:
           SITE_HOST: "raineblog.dpdns.org"
           SITE_BASE: "https://raineblog.dpdns.org"
           SITE_NAME: "RainPPR's WHK Wiki"
           SITE_PROJECT: "whk"
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          GOOGLE_INDEXING_CREDENTIALS: ${{ secrets.GOOGLE_INDEXING_CREDENTIALS }}
+          PYTHONUNBUFFERED: 1
+          PYTHONUTF8: 1
+
+      - name: Commit and Push SEO Indexing DB
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add google_indexing.json
+          if git diff --staged --quiet; then
+            echo "No changes in Google Indexing DB."
+          else
+            git commit -m "chore: update google indexing database [skip ci]"
+            git push origin main
+          fi
 
 #   frontmatter-sync:
 #     name: Frontmatter AI Sync
