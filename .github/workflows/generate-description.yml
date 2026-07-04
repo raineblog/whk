@@ -38,6 +38,9 @@ jobs:
           PYTHONUNBUFFERED: 1
           PYTHONUTF8: 1
 
+      - name: NFK Content
+        run: ./clean_content.sh
+
       - name: Commit and Push Description DB
         run: |
           git config --global user.name "github-actions[bot]"
