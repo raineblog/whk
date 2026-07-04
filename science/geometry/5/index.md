@@ -342,6 +342,6 @@ A\\vec x=\\vec v\\ AA^{-1}\\vec x=A^{-1}\\vec v\\ \\vec x=A^{-1}\\vec v
 
 NOT THE END.（[TODO]
 
-2025-05-182026-06-26
+2025-05-182026-07-04
 
 [RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

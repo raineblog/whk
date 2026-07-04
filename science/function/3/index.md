@@ -449,6 +449,6 @@ x(1-3x)=3x(1-3x)\\cdot\\dfrac13
 
 再次强调，取等条件的重要性。直接使用不等式必须判断取等，如果取不了等，可以考虑用对钩函数的性质（大题可以直接求导）。
 
-2025-07-212026-05-24
+2025-07-212026-07-04
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Gemini](mailto:200291788+gemini-code-assist@users.noreply.github.com)

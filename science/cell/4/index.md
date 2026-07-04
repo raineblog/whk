@@ -1667,6 +1667,6 @@ alt text
 
 尽管通过体细胞核移植技术已经获得了多种克隆动物，但该技术的成功率仍然非常低，各个技术环节也有待进一步改进。相对于技术研究，核移植的理论研究较为滞后，需要与发育生物学、细胞生物学和分子遗传学等学科更深层次的理论研究相结合。此外，一些研究者指出，绝大多数克隆动物存在健康问题，许多克隆动物表现出遗传和生理缺陷，如体形过大、异常肥胖、发育困难、脏器缺陷和免疫失调等。总之，体细胞核移植技术的研究仍在继续深入，人类对克隆技术的应用还有许多问题需要解决。期待在不远的将来，克隆技术能更好地造福于人类。
 
-2025-10-122026-07-03
+2025-10-122026-07-04
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com)

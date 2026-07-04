@@ -1182,6 +1182,6 @@
 - **生物富集**：镭在生物体内由于化学性质与钙相似，极易累积在**骨骼组织**中，破坏造血功能并引发骨癌或白血病。
 - **防护要求**：操作镭及其化合物必须在带有屏蔽（如铅室或手套箱）的受控实验环境下进行，并严格防止放射性气溶胶污染环境。
 
-2026-06-192026-06-28
+2026-06-192026-07-04
 
-[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com)

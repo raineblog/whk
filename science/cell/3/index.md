@@ -1339,6 +1339,6 @@ C4 植物 Hatch-Slack 途径示意图
 
 **总结**：环境胁迫是植物细胞代谢的“压力测试”。植物通过**激素调节（如 ABA）**、\*\*能量分流（如光呼吸/NPQ）**以及**代谢途径切换（如无氧呼吸/CAM）\*\*等策略，在受损与保护之间维持脆弱的平衡。
 
-2025-04-192026-07-03
+2025-04-192026-07-04
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com)

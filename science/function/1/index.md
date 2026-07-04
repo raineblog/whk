@@ -461,6 +461,6 @@ f(x) = \\frac{e^x}{x^2}
 
 \\lim\_{x\\to +\\infty} \\frac{\\sin x}{x} = \\lim\_{x\\to +\\infty} \\frac{\\cos x}{1} = \\text{不存在}
 
-2025-05-182026-03-31
+2025-05-182026-07-04
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com)

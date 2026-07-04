@@ -833,6 +833,6 @@
    - **正确方法**：失火时必须使用**干燥的沙土**或专用干粉灭火剂盖灭。
 1. **电解质要求**：由于锂的活泼性，锂电池的电解质必须使用**非水体系**。如果电解质中混入水分，会引起电池内部反应产热甚至爆炸。
 
-2026-06-192026-06-19
+2026-06-192026-07-04
 
-[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com)

@@ -551,6 +551,6 @@ NBIS = K \\alpha \\implies \\alpha = \\dfrac{NBS}{K} I
 
 式中 N、B、S、K 都是定值，所示 I 与 \\alpha 成正比，电流计刻度盘上圆弧的长度也与 \\alpha 成正比，所以电流计刻度盘上表示电流大小的刻度是均匀的。
 
-2025-12-242026-06-26
+2025-12-242026-07-04
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

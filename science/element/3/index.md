@@ -1541,6 +1541,6 @@
 
 为了精确表达，在讨论化学周期律和半导体材料（如 \\ce{Si}, \\ce{Ge}, \\ce{Te}）时，应优先使用\*\*“类金属” (Metalloid)**；在讨论特定能带结构（如石墨，\\ce{Bi}）时，使用物理定义的**“半金属” (Semimetal)**；而涉及电子自旋存储等尖端技术时，则应指明为**“半极性金属” (Half-metal)\*\*。
 
-2026-06-192026-06-30
+2026-06-192026-07-04
 
-[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com)

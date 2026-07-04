@@ -6,6 +6,6 @@
 
 有对于本百科的看法，建议直接发到页面下方的评论区（基于 Giscus）；如果你找我有急事，或者你也是算法竞赛选手，想要讨论的话，也可以加我 QQ 交流！
 
-2026-02-092026-02-09
+2026-02-092026-07-04
 
-[RainPPR](mailto:PPR2125773894@163.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

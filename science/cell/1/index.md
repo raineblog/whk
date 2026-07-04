@@ -1752,6 +1752,6 @@ alt text
 - **精准调控**：如果信号序列基因发生突变（如 MMA-CoA 变位酶突变），会导致蛋白质无法进入细胞器，从而引发严重的遗传性疾病。
 - **协同机制**：细胞核通过控制绝大多数蛋白质的供给，与细胞器自身的遗传系统精密配合，共同维持这些“动力工厂”和“养料车间”的正常运转。
 
-2025-04-192026-07-03
+2025-04-192026-07-04
 
 [RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com)

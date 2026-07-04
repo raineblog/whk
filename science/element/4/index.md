@@ -1205,6 +1205,6 @@
 
 磷与氮虽同族，但**磷的 3d 轨道**使其从“八隅体规则”的束缚中解脱出来。这不仅赋予了磷形成**高配位数化合物**的能力，还通过 **d\\pi - p\\pi 相互作用** 显著增强了它与氧等元素的结合力，并在**生化反应（如磷脂和核酸中的磷酰基转移）**及**工业催化**中展现出氮所不具备的多变性。
 
-2026-06-192026-06-29
+2026-06-192026-07-04
 
-[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com)

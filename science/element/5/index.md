@@ -1112,6 +1112,6 @@
 
 氧族元素与同周期的卤族元素相比，原子半径较大，最外层电子数较少，因此其非金属性（氧化性）弱于相应的卤族元素（如 **F > O**，**Cl > S**）。例如，氟气能置换出水中的氧气。
 
-2026-06-192026-06-30
+2026-06-192026-07-04
 
-[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com)

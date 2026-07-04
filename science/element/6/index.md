@@ -992,6 +992,6 @@
 
 卤素互化物和拟卤素的研究体现了化学中\*\*“类比”**和**“换元”**的思想。**卤素互化物**重点在于不同卤素原子间的电负性差异及其产生的不对称氧化性；而**拟卤素\*\*则展示了特定原子团作为一个整体如何模拟单一原子的化学行为。在处理此类问题时，可将互化物视作极性加强的卤素单质，将拟卤素直接视作 \\text{X}\_2 进行反应推导。
 
-2026-06-192026-06-30
+2026-06-192026-07-04
 
-[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com)
