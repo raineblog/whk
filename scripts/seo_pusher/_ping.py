@@ -4,8 +4,8 @@ import xmlrpc.client
 
 RPC_LIST = [
     "http://rpc.pingomatic.com",
-    "http://blogsearch.google.com/ping/RPC2",
-    "http://ping.feedburner.com",
+    # "http://blogsearch.google.com/ping/RPC2",
+    # "http://ping.feedburner.com",
 ]
 
 
@@ -20,7 +20,7 @@ def submit_sitemap_ping(site_name: str, site_url: str, sitemap_url: str) -> None
     ping_list = {
         "Google": f"http://www.google.com/ping?sitemap={encoded_sitemap}",
         "Bing": f"https://www.bing.com/ping?sitemap={encoded_sitemap}",
-        "Sogou": f"http://ping.sogou.com/ping?sitemap={encoded_sitemap}",
+        # "Sogou": f"http://ping.sogou.com/ping?sitemap={encoded_sitemap}",
         "FeedBurner": f"http://www.feedburner.com/fb/a/pingSubmit?bloglink={encoded_url}",
         "Yandex": f"http://blogs.yandex.ru/pings/?blogname={encoded_name}&blogurl={encoded_url}",
     }
