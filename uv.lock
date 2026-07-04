@@ -1688,7 +1688,6 @@ dependencies = [
     { name = "openai" },
     { name = "pillow" },
     { name = "pyyaml" },
-    { name = "tenacity" },
 ]
 
 [package.dev-dependencies]
@@ -1716,7 +1715,6 @@ requires-dist = [
     { name = "openai", specifier = ">=2.44.0" },
     { name = "pillow", specifier = ">=12.2.0" },
     { name = "pyyaml", specifier = ">=6.0.3" },
-    { name = "tenacity", specifier = ">=9.1.4" },
 ]
 
 [package.metadata.requires-dev]
