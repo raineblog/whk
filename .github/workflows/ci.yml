@@ -53,7 +53,7 @@ jobs:
             ${{ runner.os }}-mkdocs-
 
       - name: NFK Content
-        run: sh ./clean_content.sh
+        run: bash ./clean_content.sh
 
       - name: Build Static Site
         run: uv run --no-sync scripts/generate.py --build --site_url=https://raineblog.dpdns.org/whk/ --disable_giscus=false

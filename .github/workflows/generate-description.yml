@@ -32,7 +32,7 @@ jobs:
         run: uv sync --locked --no-dev
 
       - name: NFK Content
-        run: ./clean_content.sh
+        run: bash ./clean_content.sh
 
       - name: Run Description Generation Script
         run: uv run --no-sync scripts/generate_description/main.py
@@ -42,7 +42,7 @@ jobs:
           PYTHONUTF8: 1
 
       - name: NFK Content
-        run: ./clean_content.sh
+        run: bash ./clean_content.sh
 
       - name: Commit and Push Description DB
         run: |
