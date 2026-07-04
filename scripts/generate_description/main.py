@@ -121,9 +121,9 @@ def main():
                 desc = description.strip()
                 if fm_body:
                     new_fm = build_frontmatter(fm_body, desc)
-                    new_content = f"---\n{new_fm}\n---\n{body}"
+                    new_content = f"---\n{new_fm}\n---\n\n{body}"
                 else:
-                    new_content = f"---\ndescription: {desc}\n---\n{body}"
+                    new_content = f"---\ndescription: {desc}\n---\n\n{body}"
                 write_file(md_file, new_content)
 
                 cache[rel] = {"md5": md5, "last_submitted": now}

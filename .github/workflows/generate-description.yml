@@ -28,6 +28,9 @@ jobs:
         with:
           enable-cache: true
 
+      - name: Install uv dependencies
+        run: uv sync --locked --no-dev
+
       - name: Cache
         uses: actions/cache@v6
         with:
@@ -35,9 +38,6 @@ jobs:
           key: ${{ runner.os }}-mkdocs-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
             ${{ runner.os }}-mkdocs-
-
-      - name: Install uv dependencies
-        run: uv sync --locked --no-dev
 
       - name: Run Description Generation Script
         run: uv run --no-sync scripts/generate_description/main.py

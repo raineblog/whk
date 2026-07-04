@@ -29,6 +29,9 @@ jobs:
         with:
           enable-cache: true
 
+      - name: Install uv dependencies
+        run: uv sync --locked --no-dev
+
       - name: Cache
         uses: actions/cache@v6
         with:
@@ -36,9 +39,6 @@ jobs:
           key: ${{ runner.os }}-mkdocs-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
             ${{ runner.os }}-mkdocs-
-
-      - name: Install uv dependencies
-        run: uv sync --locked --no-dev
 
       - name: Run SEO Push Script
         run: uv --no-sync run scripts/seo_pusher/main.py
