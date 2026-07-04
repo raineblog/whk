@@ -773,6 +773,6 @@ C(m,n)\\times A(n,n)=A(m,n)=m^{\\underline n}
 
   完全不平均分配与题型二相同，只是所有人的球数都不一样，因此不需要除以任何排列数。
 
-2026-03-312026-04-18
+2026-03-312026-07-04
 
 [RainPPR](mailto:PPR2125773894@163.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [devin-ai-integration[bot]](mailto:158243242+devin-ai-integration%5Bbot%5D@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com)

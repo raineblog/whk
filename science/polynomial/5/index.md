@@ -698,6 +698,6 @@ t\\in{1,2,\\dots,11}
 1. 首先由端点效应初步获得参数的取值范围，验证这个范围是否为最终范围；若不是，则判断函数的极值并获取参数的取值范围；
 1. 根据主元函数的形式，判断主元函数的单调性，然后求主元函数的最值（此最值应当是一个函数），最后判断该最值函数是否满足题中的不等式。
 
-2025-08-112026-05-02
+2025-08-112026-07-04
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [devin-ai-integration[bot]](mailto:158243242+devin-ai-integration%5Bbot%5D@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com)

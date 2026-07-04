@@ -241,7 +241,7 @@ k=A\\operatorname{exp}\\left(-\\dfrac{E_a}{RT}\\right)
 - 活化能越高，温度升高时反应速率增加得越快，反应速率对温度越敏感；高温对活化能高的反应有利，低温对活化能低的反应有利。
 - 对于一个 E\_{a 正}> E\_{a 逆} 的反应（吸热反应），若温度升高，正逆反应的速率均增大，但是 $k_正 $ 增大的幅度更大，所以 $v_正 $ 增大的倍数也更大，所以反应正向移动，同时化学平衡常数 K 也增大。
 
-2025-12-242026-06-26
+2025-12-242026-07-04
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
 

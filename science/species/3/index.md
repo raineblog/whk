@@ -379,6 +379,6 @@ alt text
 - **病毒扩散与脱毒应用**：病毒感染植物后，会借助胞间连丝进行扩散。由于植物茎尖分生组织内的胞间连丝很不发达，病毒难以侵入，因此科学家常利用茎尖组织进行组织培养，以生产脱毒苗。
 - **无需受体参与**：这种信息交流方式直接通过通道进行，不需要细胞膜表面的受体参与识别。
 
-2025-10-312026-06-28
+2025-10-312026-07-04
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [kiloconnect[bot]](mailto:240665456+kiloconnect%5Bbot%5D@users.noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com)

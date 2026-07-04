@@ -597,6 +597,6 @@ alt text
 
 笼形水合物属于笼形化合物，其中主体分子为水分子，客体分子一般为气体。若没有客体分子的支撑作用，这类化合物的晶体结构便会坍塌为冰或水的结构。绝大多数相对分子质量较低的气体都能形成笼形水合物，比如 \\ce{O2, H2, N2, CO2, CH4, H2S} 等，其中甲烷水合物成为可燃冰。
 
-2025-03-302026-06-26
+2025-03-302026-07-04
 
 [RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

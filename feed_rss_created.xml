@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sat, 04 Jul 2026 12:25:03 -0000</pubDate>
-    <lastBuildDate>Sat, 04 Jul 2026 12:25:03 -0000</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 13:27:24 -0000</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 13:27:24 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -54,14 +54,14 @@
       
       
       
-      <description>系统阐述碱土金属镁、铍、钙、锶、钡、镭的结构与性质，重点解析其氧化物、氢氧化物及盐类的制备、工业工艺、轻合金、医药、核能等多领域应用，并探讨硬水软化、格氏试剂和铍毒性等关键技术要点。</description>
+      <description>系统阐述碱土金属镁、铍、钙、锶、钡、镭的结构、性质及其氧化物、氢氧化物和盐类的制备工艺，重点解析在轻合金、医药、核能、硬水软化、格氏试剂等领域的关键应用与安全要点，并探讨其在环保、照明弹和核能中的特殊作用。</description>
       <link>https://raineblog.dpdns.org/whk/science/element/2/</link>
       <pubDate>Fri, 19 Jun 2026 14:43:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/element/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/2.png" type="image/png" length="47331" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/2.png" type="image/png" length="46599" />
       
     </item>
     
@@ -173,14 +173,14 @@
       
       
       
-      <description>系统讲解函数极限的ε‑δ定义、唯一性与四则运算，深入探讨连续性、间断点分类以及极限在无穷小中的应用；详述定积分几何意义、牛顿‑莱布尼兹公式、换元与分部积分技巧，并结合微积分方法解析数列估算与Gamma函数等高级主题。</description>
+      <description>系统阐述函数极限的ε‑δ定义、唯一性、四则运算与无穷小；深入分析连续性、间断点分类；详细讲解定积分几何意义、牛顿‑莱布尼兹公式、换元与分部积分技巧；并展示Gamma函数、数列估算等高级微积分应用。</description>
       <link>https://raineblog.dpdns.org/whk/science/function/7/</link>
       <pubDate>Sun, 05 Apr 2026 08:13:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/function/7/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/7/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/7.png" type="image/png" length="49482" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/7.png" type="image/png" length="48606" />
       
     </item>
     
@@ -207,33 +207,14 @@
       
       
       
-      <description>&lt;h1&gt;多项式组合&lt;/h1&gt;
-&lt;h2&gt;其他组合数&lt;/h2&gt;
-&lt;p&gt;在掌握了二项式定理和基本组合恒等式之后，我们来学习几种进阶的计数方法和原理。它们在竞赛数学和离散数学中有广泛应用。&lt;/p&gt;
-&lt;h3&gt;多重集&lt;/h3&gt;
-&lt;p&gt;多重集（或称可重集）是集合概念的推广。在普通集合中，相同的元素只能出现一次，因此只能表现出「有或无」的属性；而在多重集中，同一个元素可以出现多次，因此可以表现出元素的个数。&lt;/p&gt;
-&lt;p&gt;我们将其表示为：&lt;/p&gt;
-&lt;p&gt;$$
-{a_1,a_1,\dots,a_1,a_2,\dots}
-$$&lt;/p&gt;
-&lt;p&gt;为简便起见，下文采用如下简记法：&lt;/p&gt;
-&lt;p&gt;$$
-{n_1\cdot a_1,n_2\cdot a_2,\dots}
-$$&lt;/p&gt;
-&lt;p&gt;多重集 $S={n_1\cdot a_1,n_2\cdot a_2,\cdots,n_k\cdot a_k}$ 的全排列个数为：&lt;/p&gt;
-&lt;p&gt;$$
-{n\choose n_1,n_2,\dots,n_k}={n!\over\prod_{1\le i\le k}n_i!}
-$$&lt;/p&gt;
-&lt;p&gt;这个全排列数被称为&lt;strong&gt;多重集的排列数&lt;/strong&gt;，也常被称为&lt;strong&gt;多重组合数&lt;/strong&gt;。容易注意到：&lt;/p&gt;
-&lt;p&gt;$$
-{m\choose n_1,n_2}={m\choose...&lt;/p&gt;</description>
+      <description>本文系统介绍多项式组合中的多重集、圆排列、错位排列、卡特兰数、斯特林数、贝尔数、伯努利数、恩特林格数、欧拉数、分拆数以及球盒计数的十二种情况，并给出公式推导与递推关系。</description>
       <link>https://raineblog.dpdns.org/whk/science/polynomial/6/</link>
       <pubDate>Tue, 31 Mar 2026 13:44:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/polynomial/6/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/6/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/6.png" type="image/png" length="41192" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/6.png" type="image/png" length="41692" />
       
     </item>
     
@@ -277,14 +258,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>本文系统介绍柯西-施瓦茨不等式的简化形式、一般形式及物理证明，并给出具体求最大值、最小值的例题；随后阐述排序不等式、伯努利不等式、权方和不等式和杨格不等式的定义与应用，帮助读者深入掌握常用不等式技巧。</description>
+      <description>系统阐述柯西-施瓦茨不等式的简化与一般形式、物理证明及最大最小值例题，深入讲解排序、伯努利、权方和、杨格等常用不等式的定义、条件与应用，帮助读者提升不等式技巧。</description>
       <link>https://raineblog.dpdns.org/whk/science/function/6/</link>
       <pubDate>Sat, 14 Mar 2026 13:17:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/function/6/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/6/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/6.png" type="image/png" length="47062" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/6.png" type="image/png" length="49184" />
       
     </item>
     
@@ -532,14 +513,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>探讨STSE教育理念下的转基因技术安全、伦理争议及其在农业、医药、环境中的应用，并分析生物武器、海水资源利用、酸雨与食品添加剂等科技与社会热点议题，进行全面评估。</description>
+      <description>基于STSE教育理念，系统分析转基因技术的安全性与伦理争议，涵盖转基因作物、动物、微生物在农业、医药中的应用，探讨生物武器防控、海水淡化与资源利用、酸雨成因及防治，以及食品添加剂规范和克隆技术伦理，提供全面的科学社会评估。</description>
       <link>https://raineblog.dpdns.org/whk/science/experiment/3/</link>
       <pubDate>Sun, 08 Feb 2026 07:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/experiment/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/3.png" type="image/png" length="43298" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/3.png" type="image/png" length="41847" />
       
     </item>
     
@@ -617,14 +598,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>详解电荷的基本概念、守恒定律与量子化，介绍导体、介质、半导体特性，阐述库仑定律、起电方式、静电屏蔽及等离子体与放电现象，并配合图例说明带电球体相互作用、三点平衡、等边三角平衡以及常见工业应用如静电除尘和电弧焊接。</description>
+      <description>深入解析电荷概念、守恒与量子化，阐明导体、介质、半导体特性，详述库仑定律、起电方式、静电屏蔽、等离子体及放电现象，并配以工业应用如静电除尘和电弧焊接，原理、模型与图例说明。</description>
       <link>https://raineblog.dpdns.org/whk/science/electromagnetism/1/</link>
       <pubDate>Wed, 24 Dec 2025 11:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/1.png" type="image/png" length="37135" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/1.png" type="image/png" length="38180" />
       
     </item>
     
@@ -719,32 +700,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;反应速率&lt;/h1&gt;
-&lt;h2&gt;基本概念&lt;/h2&gt;
-&lt;h3&gt;常用反应速率&lt;/h3&gt;
-&lt;p&gt;对于溶液 $\ce{(aq)}$ 或气体 $\ce{(g)}$，定义：&lt;/p&gt;
-&lt;p&gt;$$
-v(B)=\dfrac{|\Delta c(B)|}{\Delta t}=\dfrac{|\Delta n(B)|}{V\delta t}
-$$&lt;/p&gt;
-&lt;p&gt;这个式子表示一定时间内，&lt;strong&gt;某一物质&lt;/strong&gt;浓度的变化率。&lt;/p&gt;
-&lt;p&gt;单位通常为 $\pu{mol/(L&lt;em&gt;s)}$ 或 $\pu{mol/(L&lt;/em&gt;min)}$，$1\pu{mol/(L&lt;em&gt;s)}=60\pu{mol/(L&lt;/em&gt;min)}$。&lt;/p&gt;
-&lt;p&gt;在高中阶段，反应速率只是反应在某一个阶段的平均速率，瞬时速率高中通常不考虑；对于瞬时反应速率则是考虑 $t$ 经过微小时间的导数。&lt;/p&gt;
-&lt;p&gt;我们知道：在同一个方程式中 $v$ 正比于其化学计量数，即：&lt;/p&gt;
-&lt;p&gt;$$
-\ce{nA + mB -&amp;gt; pC + qD}
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\dfrac{v(A)}{n}=\dfrac{v(B)}{m}=\dfrac{v(C)}{p}=\dfrac{v(D)}{q}
-$$&lt;/p&gt;
-&lt;p&gt;也就是说，对于一个反应，我们可以用这个比值来反映这个反应的速率大小（比值法）。&lt;/p&gt;
-&lt;p&gt;...&lt;/p&gt;</description>
+      <description>详细阐述化学反应速率的基本概念、计算方法与影响因素，包括速率定义、三段式求解、气体与溶液体系、催化剂作用、有效碰撞理论及阿伦尼乌斯方程等内容。温度、压强、浓度等外因对速率的正相关影响。</description>
       <link>https://raineblog.dpdns.org/whk/science/reaction/1/</link>
       <pubDate>Wed, 24 Dec 2025 11:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/reaction/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/1.png" type="image/png" length="40980" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/1.png" type="image/png" length="44561" />
       
     </item>
     
@@ -754,30 +717,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;化学平衡&lt;/h1&gt;
-&lt;h2&gt;平衡状态&lt;/h2&gt;
-&lt;h3&gt;可逆反应&lt;/h3&gt;
-&lt;p&gt;可逆反应通常是指在&lt;strong&gt;同一条件下&lt;/strong&gt;正反应方向和逆反应方向均能进行的化学反应。正反应中定义物质从反应物转换成产物；逆反应则相反，产物转换成反应物。&lt;/p&gt;
-&lt;p&gt;生成物变为反应物的速率小到可以忽略的反应则称做不可逆反应，例如酸碱中和和燃烧。各处的评判标准不同，一般认为平衡常数大于 $\pu{E4}$ 或 $\pu{E5}$ 的反应算是比较彻底的反应；相反的，如果小于 $\pu{E-4}$ 或 $\pu{E-5}$ 则认为反应几乎不会发生。&lt;/p&gt;
-&lt;p&gt;弱电解质的电离平衡，强酸弱碱盐和强碱弱酸盐的水解平衡，还有大多数的有机反应都是可逆反应。我们知道，可逆的绝对的，可逆也就意味着反应物与生成物必定共存，因此反应物与生成物没有明显的界限。&lt;/p&gt;
-&lt;p&gt;注意：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;必须是&lt;strong&gt;相同条件下&lt;/strong&gt;，正逆反应同时进行的反应才叫可逆反应，才能使用 $\ce{&amp;lt;=&amp;gt;}$ 可逆号表示。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;对于条件不同但是反应物和生成物互逆的，我们可以使用 $\ce{&amp;lt;--&amp;gt;}$ 来表示，这在电化学中很常见，例如：&lt;/p&gt;
-&lt;p&gt;$$
-\ce{O2 + 2H2 &amp;lt;--&amp;gt;[点燃][通电] 2...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>系统阐述化学平衡概念，涵盖可逆反应特性、平衡状态与进度、浓度/压强/溶解平衡常数Kc、Kp、Ks的定义与计算，以及勒夏特列原理、范特霍夫方程和常用求解技巧，帮助深入理解平衡移动与转化率。</description>
       <link>https://raineblog.dpdns.org/whk/science/reaction/2/</link>
       <pubDate>Wed, 24 Dec 2025 11:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/reaction/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/2.png" type="image/png" length="38546" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/2.png" type="image/png" length="41696" />
       
     </item>
     
@@ -787,51 +734,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;溶液行为&lt;/h1&gt;
-&lt;h2&gt;基本概念&lt;/h2&gt;
-&lt;h3&gt;电解质&lt;/h3&gt;
-&lt;p&gt;电解质：在水溶液中&lt;strong&gt;或&lt;/strong&gt;熔融状态下导电的&lt;strong&gt;化合物&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;非电解质：在水溶液中&lt;strong&gt;和&lt;/strong&gt;熔融状态下都不导电的&lt;strong&gt;化合物&lt;/strong&gt;。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;常见的电解质：酸、碱、盐、金属氧化物、水。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;常见的非电解质：非金属氧化物（除了水）、$\ce{NH3}$、部分有机物。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;注意，单质和混合物无权参与电解质和非电解质的分类。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;导电能力的比较：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;与离子浓度成正比。&lt;/li&gt;
-&lt;li&gt;与离子电荷量成正比。&lt;/li&gt;
-&lt;li&gt;与离子的摩尔质量成反比。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;注意区分：能导电的物质有酸碱盐的水溶液、熔融的碱性氧化物、石墨和金属、$\ce{Fe(OH)3}$ 胶体。&lt;/p&gt;
-&lt;p&gt;强电解质：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;在水中完全电离的电解质，称为强电解质。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;常见的强电解质有：强酸、强碱、大部分盐、活泼金属氧化物（$\ce{Na2O,Na2O2,CaO}$）。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;六大强酸：氢氯酸 $\ce{HCl}$、氢溴酸 $\ce{HBr}$、氢碘酸 $\ce{HI}$、硫酸 $\ce{H2SO4}$、硝酸 $\ce{HNO3}$、高氯酸 $\ce{HClO4}$。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;高氯酸是自然界最强的含氧酸，详...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>全面解析溶液行为，包括电解质与非电解质概念、强弱电解质区别、离子反应书写、酸碱电离理论、活度与盐效应、溶解度积及沉淀平衡、弱电解质电离常数及pH计算，并提供做题技巧和实验操作要点。</description>
       <link>https://raineblog.dpdns.org/whk/science/reaction/3/</link>
       <pubDate>Wed, 24 Dec 2025 11:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/reaction/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/3.png" type="image/png" length="41170" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/3.png" type="image/png" length="41945" />
       
     </item>
     
@@ -1113,14 +1023,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>本篇教学系统阐述情感描写、环境渲染、动作叙述与高级句式技巧，提供强动词、PatheticFallacy、时间节奏等实用词汇与写作公式，帮助学生提升画面感、感染力和作文层次，以及连贯的段落衔接技巧。</description>
+      <description>系统教学情感描写、环境渲染、动作叙述与高级句式技巧，提供强动词、情感拟人、时间节奏等实用词汇与写作公式，帮助学生提升画面感、感染力和作文层次，实现流畅衔接，以及情绪倒装、非谓语结构等技巧。</description>
       <link>https://raineblog.dpdns.org/whk/cultural/writing/3/</link>
       <pubDate>Tue, 04 Nov 2025 13:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/cultural/writing/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/cultural/writing/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/cultural/writing/3.png" type="image/png" length="43911" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/cultural/writing/3.png" type="image/png" length="44226" />
       
     </item>
     
@@ -1130,16 +1040,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;生物化学分子&lt;/h1&gt;
-&lt;p&gt;已迁移到 docs\science\cell\2.md&lt;/p&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-11-04&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-11-04T13:16:15+00:00&#39;&gt;2025-11-04&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-05-21&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;...</description>
+      <description>本页介绍生物化学分子的基础知识，涵盖分子结构、功能与代谢路径，并提示内容已迁移至docs/science/cell/2.md，方便用户查阅最新的细胞生物化学资源。</description>
       <link>https://raineblog.dpdns.org/whk/science/organic/5/</link>
       <pubDate>Tue, 04 Nov 2025 13:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/organic/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/5/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/5.png" type="image/png" length="41927" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/5.png" type="image/png" length="45325" />
       
     </item>
     
@@ -1149,22 +1057,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;植物概述&lt;/h1&gt;
-&lt;h2&gt;植物的调节&lt;/h2&gt;
-&lt;p&gt;高等植物是由很多细胞组成的高度复杂的有机体，它的正常生长发育需要各个器官、组织、细胞之间的协调和配合。植物生长发育的调控，是由&lt;strong&gt;基因表达调控&lt;/strong&gt;、&lt;strong&gt;激素调节&lt;/strong&gt;和&lt;strong&gt;环境因素调节&lt;/strong&gt;共同完成的。&lt;/p&gt;
-&lt;p&gt;植物细胞里储存着全套基因，但是某个细胞的基因如何表达则会根据需要作调整。植物的生长、发育、繁殖、休眠，都处在&lt;strong&gt;基因适时选择性表达&lt;/strong&gt;的调控之下。&lt;/p&gt;
-&lt;p&gt;对于多细胞植物体来说，细胞与细胞之间、器官与器官之间的协调，需要通过激素传递信息。激素作为&lt;strong&gt;信息分子&lt;/strong&gt;，会影响细胞的基因表达，从而起到调节作用。同时，激素的产生和分布是&lt;strong&gt;基因表达调控的结果&lt;/strong&gt;，也&lt;strong&gt;受到环境因素的影响&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;在个体层次，植物生长、发育、繁殖、休眠，实际上，是&lt;strong&gt;植物响应环境变化&lt;/strong&gt;，&lt;strong&gt;调控基因表达&lt;/strong&gt;以及&lt;strong&gt;激素产生、分布&lt;/strong&gt;，最终表现在器官和个体水平上的变化。&lt;/p&gt;
-&lt;h3&gt;生长素的发现&lt;/h3&gt;
-&lt;p&gt;我国宋代著作《种艺必用》中，记载了一种促进空中压条生根的方法：“凡嫁接矮果及花，用好黄泥晒干，筛过，以小便浸之。又晒干，筛过，再浸之。又晒又浸，凡十余次。以泥封树枝……则根生。”&lt;/p&gt;
-&lt;p&gt;单子...&lt;/p&gt;</description>
+      <description>本文系统阐述植物生长发育的基因、激素与环境三重调控机制，重点解析生长素、赤霉素、细胞分裂素等五大激素及其合成、作用、相互作用和人工生长调节剂的使用原则，辅以光、温度、重力等环境因素对形态的影响，并结合实验案例阐明向光性、顶端优势及根向地性等典型生理现象的激素分布与信号传导。</description>
       <link>https://raineblog.dpdns.org/whk/science/species/3/</link>
       <pubDate>Fri, 31 Oct 2025 14:20:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/species/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/3.png" type="image/png" length="40922" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/3.png" type="image/png" length="43854" />
       
     </item>
     
@@ -1174,31 +1074,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;动物概述&lt;/h1&gt;
-&lt;h3&gt;寄生虫&lt;/h3&gt;
-&lt;p&gt;根据课本及相关资料，提到的寄生虫涵盖了从单细胞生物到多细胞无脊椎动物的多个类群，主要包括以下几类：&lt;/p&gt;
-&lt;p&gt;扁形动物（Platyhelminthes）：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;华枝睾吸虫（肝吸虫）&lt;/strong&gt;：寄生在人体肝胆管内，通常通过食用未煮熟的含有囊蚴的鱼虾感染。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;日本血吸虫&lt;/strong&gt;：寄生在人和动物的肠系膜静脉血管中，幼虫（毛蚴）需在中间宿主&lt;strong&gt;钉螺&lt;/strong&gt;内发育，通过皮肤接触疫水感染。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;猪肉绦虫（猪带绦虫）&lt;/strong&gt;：成虫寄生在人小肠内，幼虫（囊尾蚴）寄生在猪肌肉中（俗称“米猪肉”），因食用未煮熟的受污染猪肉感染。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;牛带绦虫&lt;/strong&gt;：类似于猪带绦虫，通过受污染的牛肉传播。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;线虫动物（Nematoda）：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;人蛔虫&lt;/strong&gt;：人体最常见的肠道寄生虫，寄生在小肠，夺取养料并可能引起肠梗阻。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;蛲虫&lt;/strong&gt;：寄生于大肠，常在夜间爬到肛门周围产卵，引起瘙痒，儿童感染率较高。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;钩虫&lt;/strong&gt;：寄生在小肠，吸食血液，常引起贫血。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;丝虫（如班氏丝虫）&lt;/strong&gt;：由蚊虫传播，寄生在淋巴系统中，可引起象皮肿。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;旋毛虫&lt;/strong&gt;：通过摄入未经烹调好的受污染肉类（如...&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>本页概述寄生虫的主要类别，包括扁形动物、线虫、原生动物和节肢动物，详述华枝睾吸虫、日本血吸虫、人蛔虫、疟原虫等常见寄生虫的宿主、传播途径及危害，以及其对人类健康和农林业的影响。</description>
       <link>https://raineblog.dpdns.org/whk/science/species/4/</link>
       <pubDate>Fri, 31 Oct 2025 14:20:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/species/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/4.png" type="image/png" length="41779" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/4.png" type="image/png" length="41236" />
       
     </item>
     
@@ -1293,26 +1176,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;晶体与晶胞&lt;/h1&gt;
-&lt;h2&gt;化学键与晶体&lt;/h2&gt;
-&lt;h3&gt;化学键&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;分子内部&lt;/strong&gt;相邻原子间&lt;strong&gt;强烈&lt;/strong&gt;的&lt;strong&gt;相互作用&lt;/strong&gt;，称为化学键，主要决定了物质的化学性质。化学反应的过程实质是，旧化学键的断裂（吸收热量），和新化学键的生成（放出热量）。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-2.avif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;化学键分为&lt;strong&gt;离子键&lt;/strong&gt;、&lt;strong&gt;共价键&lt;/strong&gt;、&lt;strong&gt;金属键&lt;/strong&gt;，其中有&lt;strong&gt;配位键&lt;/strong&gt;作为一个特殊的共价键。&lt;/p&gt;
-&lt;p&gt;| 四大晶体类型 | 作用力 | 常见类型 | 常见物质 | 方向性 | 饱和性 |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| 离子晶体 | 离子键 | 碱、盐、金属氧化物 | $\ce{NaH,NH5([NH4]+[H]^-)}$ | ✓ | 相对 |
-| 共价晶体 | 共价键 | | $\ce{AlCl3,C(金刚石),SiC}$ | ✓ | ✓ |
-| 金属晶体 | 金属键 | 金属单质 | $\ce{K,Na,Cu}$ | × | × |
-| 分子晶体 | 分子间作用力 | 气体、酸、有机物 | | | |
-| 混合晶体 | | | $\ce{C...&lt;/p&gt;</description>
+      <description>详细介绍晶体与晶胞的结构原理，涵盖离子、金属、共价、分子及混合晶体的键型特征、熔点规律、晶格能计算、X射线衍射测定方法以及晶胞参数和配位数等知识要点。帮助理解固体化学基本概念。</description>
       <link>https://raineblog.dpdns.org/whk/science/structure/4/</link>
       <pubDate>Sun, 12 Oct 2025 13:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/structure/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/4.png" type="image/png" length="37799" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/4.png" type="image/png" length="39871" />
       
     </item>
     
@@ -1339,14 +1210,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>本文系统阐述了化学反应中的内能、焓、反应热及吸放热原理，涵盖定容定压热、摩尔焓变、盖斯定律、熵与吉布斯自由能等关键概念，帮助读者深入理解自发性判断与能量转换。</description>
+      <description>系统阐述化学反应中的内能、焓、反应热及吸放热原理，介绍定容定压热、摩尔焓变、盖斯定律、熵与吉布斯自由能等概念，帮助读者判断自发性与能量转换及其在实验中的应用。</description>
       <link>https://raineblog.dpdns.org/whk/science/modern/2/</link>
       <pubDate>Sun, 12 Oct 2025 13:04:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/modern/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/modern/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/2.png" type="image/png" length="45357" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/modern/2.png" type="image/png" length="45221" />
       
     </item>
     
@@ -1509,28 +1380,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;生物和物种&lt;/h1&gt;
-&lt;h2&gt;生物的分类&lt;/h2&gt;
-&lt;h3&gt;五界分类系统&lt;/h3&gt;
-&lt;p&gt;五界分类系统是由美国生物学家魏泰克（Whittaker）于 1969 年提出的生物分界方案。它根据&lt;strong&gt;细胞结构&lt;/strong&gt;（原核或真核）、&lt;strong&gt;组织水平&lt;/strong&gt;（单细胞或多细胞）以及&lt;strong&gt;营养方式&lt;/strong&gt;（自养或异养）将生物划分为五个界：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;原核生物界&lt;/strong&gt;：没有成形的细胞核，如细菌、蓝细菌。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;原生生物界&lt;/strong&gt;：结构简单的真核生物，大多数为单细胞，是真核生物中最原始的类群，如草履虫、变形虫、衣藻等。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;真菌界&lt;/strong&gt;：营吸收异养的真核生物，如酵母菌、霉菌、蘑菇等。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;植物界&lt;/strong&gt;：多细胞真核生物，能够进行光合作用（自养），如苔藓、蕨类、被子植物等。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;动物界&lt;/strong&gt;：多细胞真核生物，通过摄取现成的有机物（异养）生活，如昆虫、鸟类、哺乳动物等。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;需要注意的是，由于病毒没有细胞结构，通常不被包含在这个五界分类系统之内。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;【沪科教版】真核细胞和原核细胞的概念提出后，美国科学家惠特克根据生物细胞的结构特征和能量利用方式，将生物分为五界（表 1-1）。原核生物界、原生生物界的绝大多数生物和真菌界的一部分生物以单...&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>本文系统介绍五界分类、原核与真核差异及生物营养方式；详细解析拉马克与达尔文的进化观点，重点阐述自然选择、基因突变、基因库与种群隔离在物种形成中的作用，并探讨协同进化与生物多样性的形成过程。</description>
       <link>https://raineblog.dpdns.org/whk/science/species/1/</link>
       <pubDate>Sat, 06 Sep 2025 10:39:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/species/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/1.png" type="image/png" length="38258" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/1.png" type="image/png" length="42310" />
       
     </item>
     
@@ -1540,24 +1397,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;低等生物&lt;/h1&gt;
-&lt;h2&gt;病毒&lt;/h2&gt;
-&lt;p&gt;在生物学分类中，病毒处于一个极为特殊的地位，被描述为介于生物与非生物之间的“幽灵”。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;非细胞特征&lt;/strong&gt;：病毒不具备细胞结构，没有细胞膜、细胞质或细胞器，无法独立进行新陈代谢。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;生命特性的缺失与体现&lt;/strong&gt;：它们不生长、不发育，在宿主细胞外表现为无生命的化学大分子颗粒，甚至可以被结晶化。然而，一旦进入活细胞，它们便能利用宿主的机器进行自我复制，并表现出遗传和变异的特性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;绝对寄生性&lt;/strong&gt;：病毒是专性胞内寄生生物，必须依赖活细胞提供的能量、原料（如氨基酸、核苷酸）和化学合成机器（如核糖体、酶）才能完成生命活动。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;【浙科版】自 19 世纪末烟草花叶病毒（tobacco mosaic virus，TMV）被发现以来，越来越多的病毒被人们熟知。同其他生物一样，病毒具有遗传信息，能自我复制、进化，是一类体积非常小、结构极其简单、生命活动方式十分特殊的生命体。病毒没有细胞结构，一些简单的病毒仅由核酸和蛋白质组成。一种病毒通常只含有一种核酸（DNA 或 RNA）。目前发现的自然界中以 RNA 作为遗传物质的生命体仅有 RNA 病毒。病毒没有细...&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>全面解析病毒、噬菌体及亚病毒因子结构、复制与分类，并介绍放线菌、蓝细菌、支原体等低等原核生物及衣藻、眼虫、草履虫等原生生物的形态特征与生理功能。还覆盖巴尔摩七类、RNA病毒、逆转录病毒及其在医学、基因工程和生态中的应用。</description>
       <link>https://raineblog.dpdns.org/whk/science/species/2/</link>
       <pubDate>Sat, 06 Sep 2025 10:39:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/species/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/2.png" type="image/png" length="39847" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/2.png" type="image/png" length="41385" />
       
     </item>
     
@@ -1567,27 +1414,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;数论入门&lt;/h1&gt;
-&lt;h2&gt;因数&lt;/h2&gt;
-&lt;h3&gt;整除&lt;/h3&gt;
-&lt;p&gt;若 $b$ 能整除 $a$，则记为 $a\mid b$，如 $2\mid 12$. 若 $b$ 不能整除 $a$，则记为 $a\nmid b$，如 $5\nmid 12$.&lt;/p&gt;
-&lt;p&gt;若 $a\nmid b$，则 $b\div a$ 存在余数 $r$ 且 $0&amp;lt;r&amp;lt;a$，记 $r=a\ \mathrm{mod}\ b$. 例如，$3\ \mathrm{mod}\ 2=1$.&lt;/p&gt;
-&lt;p&gt;整除具有以下性质：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;若 $a\mid b$ 且 $a\mid c$，则 $\forall x,y$，有 $a\mid xb+yc$.&lt;/li&gt;
-&lt;li&gt;若 $a\mid b$ 且 $b\mid c$，则 $a\mid c$.&lt;/li&gt;
-&lt;li&gt;若 $a\mid b$ 且 $b\mid a$，则 $a=\pm b$.&lt;/li&gt;
-&lt;li&gt;设 $m\neq 0$，则 $a\mid b$，当且仅当 $ma\mid mb$.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3&gt;最大公因数与最小公倍数&lt;/h3&gt;
-&lt;p&gt;设 $a,b$ 是两个不为 $0$ 的整数，能使 $d\mid a$ 和 $d\mid b$ 成立的最大整数 $d$，称为 $a,b$ 的最大公因数...&lt;/p&gt;</description>
+      <description>全面讲解数论基础，包括整除、最大公因数、裴蜀定理、质数判定、欧拉函数、同余与费马小定理、线性同余方程及威尔逊定理，深入解析欧几里得算法、欧拉定理、拉格朗日定理和中国剩余定理，配以详细例题与证明。</description>
       <link>https://raineblog.dpdns.org/whk/science/number/3/</link>
       <pubDate>Sun, 24 Aug 2025 11:55:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/number/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/number/3.png" type="image/png" length="39614" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/number/3.png" type="image/png" length="40625" />
       
     </item>
     
@@ -1597,27 +1431,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;数论测试&lt;/h1&gt;
-&lt;h2&gt;一、请给出整除的概念及性质&lt;/h2&gt;
-&lt;p&gt;对于整数 $a,b$ $(b\neq0)$，如果存在整数 $c$，使得 $a=bc$，&lt;/p&gt;
-&lt;p&gt;则称 $b$ 整除 $a$，记作 $b \mid a$；否则称 $b$ 不整除 $a$，记作 $b \nmid a$。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;性质&lt;/strong&gt;：&lt;/p&gt;
-&lt;p&gt;$$
-\def\arraystretch{1.1}
-\begin{array}{rlrl}
-1.&amp;amp;a\mid b&amp;amp;\Longrightarrow&amp;amp;\pm a \mid \pm b\
-2.&amp;amp;a \mid b,\ b\mid c&amp;amp;\Longrightarrow&amp;amp;a \mid c\
-3.&amp;amp;\forall i:b\mid a_i&amp;amp;\Longrightarrow&amp;amp;b\mid\Sigma\ a_ik_i\
-4.&amp;amp;b\mid a&amp;amp;\Longrightarrow&amp;amp;bc\mid ac\ (c\in\mathbb Z,c\neq0)\
-5.&amp;amp;b\mid a\ (a\neq0)&amp;amp;\Longrightarrow&amp;amp;|b|\le|a|\
-5.&amp;amp;b\mid a,\ |a|&amp;lt;|b|&amp;amp;\Longrightarrow&amp;amp;a=0\...&lt;/p&gt;</description>
+      <description>本文系统阐述整数的整除与同余概念及其基本性质，介绍完全剩余系、裴蜀定理和费马小定理，并给出若干数论命题的详细证明，如120整除多项式、40整除条件、求模运算及特殊方程的正整数解。</description>
       <link>https://raineblog.dpdns.org/whk/science/number/4/</link>
       <pubDate>Sun, 24 Aug 2025 11:55:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/number/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/number/4.png" type="image/png" length="41953" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/number/4.png" type="image/png" length="45430" />
       
     </item>
     
@@ -1678,15 +1499,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;数论&lt;/h1&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-08-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-08-19T11:57:22+00:00&#39;&gt;2025-08-19&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-04-05&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-04-05T08:13:3...</description>
+      <description>本文系统介绍数论基本概念与方法，涉及整数性质、素数判定、最大公约数、同余理论以及数列、费马小定理等核心内容，并简要阐述其在密码学中的应用，适合对数学基础感兴趣的读者深入学习。</description>
       <link>https://raineblog.dpdns.org/whk/science/number/1/</link>
       <pubDate>Tue, 19 Aug 2025 11:57:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/number/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/number/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/number/1.png" type="image/png" length="36900" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/number/1.png" type="image/png" length="39627" />
       
     </item>
     
@@ -1696,49 +1516,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;数列训练&lt;/h1&gt;
-&lt;h2&gt;基础题目&lt;/h2&gt;
-&lt;p&gt;求下列数列的通项公式。&lt;/p&gt;
-&lt;h3&gt;题目一&lt;/h3&gt;
-&lt;p&gt;求：$a_n=2a_{n-1}+3(n\ge2),a_1=1$。&lt;/p&gt;
-&lt;p&gt;因为 $q/(p-1)=3$，等式两边同时加三，&lt;/p&gt;
-&lt;p&gt;$$
-a_n+3=2a_{n-1}+6=2^{n+1}\
-a_n=2^{n+1}-3
-$$&lt;/p&gt;
-&lt;p&gt;注意到当 $n=1,a_1=1$ 满足该式，因此，&lt;/p&gt;
-&lt;p&gt;$$
-a_n=2^{n+1}-3
-$$&lt;/p&gt;
-&lt;h3&gt;题目二&lt;/h3&gt;
-&lt;p&gt;求：$a_n=a_{n-1}+n(n\ge2),a_1=1$。&lt;/p&gt;
-&lt;p&gt;注意到，&lt;/p&gt;
-&lt;p&gt;$$
-a_n=a_{n-1}+n\
-a_{n-1}=a{n-2}+n-1\
-\dots\
-a_2=a_1+2=1+2
-$$&lt;/p&gt;
-&lt;p&gt;上式相加，得，&lt;/p&gt;
-&lt;p&gt;$$
-a_n=1+2+3+\dots+n-1+n={n(n+1)\over2}
-$$&lt;/p&gt;
-&lt;p&gt;注意到当 $n=1,a_1=1$ 满足该式，因此，&lt;/p&gt;
-&lt;p&gt;$$
-a_n={n(n+1)\over2}
-$$&lt;/p&gt;
-&lt;h3&gt;题目三&lt;/h3&gt;
-&lt;p&gt;求：$a_n=2a_{n-1}+n(n\ge2),a_1=1$。&lt;/p&gt;
-&lt;p&gt;等式两边同时除以 $2^n$，得，&lt;/p&gt;
-&lt;p&gt;$$
-{a_n\over2^n}={a_...&lt;/p&gt;</description>
+      <description>本篇系统讲解数列递推与通项求法，涵盖线性递推、斐波那契、非齐次与裂项技巧，并提供大量例题与详细推导，帮助掌握数列分析与极限计算。适合高中及竞赛数学学习，提升解题思维。</description>
       <link>https://raineblog.dpdns.org/whk/science/polynomial/3/</link>
       <pubDate>Tue, 19 Aug 2025 11:57:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/polynomial/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/3.png" type="image/png" length="41671" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/3.png" type="image/png" length="46871" />
       
     </item>
     
@@ -1748,45 +1533,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;多项式入门&lt;/h1&gt;
-&lt;h2&gt;基础方法&lt;/h2&gt;
-&lt;h3&gt;乘法公式&lt;/h3&gt;
-&lt;p&gt;分配率：&lt;/p&gt;
-&lt;p&gt;$$
-\begin{aligned}
-(a+b)(c+d)&amp;amp;=ac+ad+bc+bd\
-(a+b)(a-b)&amp;amp;=a^2-b^2
-\end{aligned}
-$$&lt;/p&gt;
-&lt;p&gt;和差方：&lt;/p&gt;
-&lt;p&gt;$$
-\begin{aligned}
-(a+b)^2&amp;amp;=a^2+2ab+b^2\
-(a-b)^2&amp;amp;=a^2-2ab+b^2\
-(a+b)^3&amp;amp;=a^3+3a^2b+3ab^2+b^3\
-(a-b)^3&amp;amp;=a^3-3a^2b+3ab^2-b^3\
-(a+b+c)^2&amp;amp;=a^2+b^2+c^2+2ab+2bc+2ac\
-\end{aligned}
-$$&lt;/p&gt;
-&lt;p&gt;二项式定理：&lt;/p&gt;
-&lt;p&gt;$$
-\begin{aligned}
-(x+y)^n&amp;amp;=\sum_{k=0}^n{n\choose k}x^ky^{n-k}\
-(x+1)^n&amp;amp;=\sum_{k=0}^n{n\choose k}x^k
-\end{aligned}
-$$&lt;/p&gt;
-&lt;p&gt;方和差：&lt;/p&gt;
-&lt;p&gt;$$
-\begin{aligned}
-a^3+b^3&amp;amp;=(a+b)(a^2-ab+b^2)\
-a^3-b^3&amp;amp;=(...&lt;/p&gt;</description>
+      <description>系统梳理多项式基础，包括乘法公式、二项式定理、因式分解、韦达定理、泰勒展开、插值、置换与排列以及生成函数的应用技巧，并覆盖求根、阶乘、组合计数、轮换表示、卡特兰数以及上升/下降幂的转换方法。</description>
       <link>https://raineblog.dpdns.org/whk/science/polynomial/4/</link>
       <pubDate>Tue, 19 Aug 2025 11:57:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/polynomial/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/4.png" type="image/png" length="40033" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/4.png" type="image/png" length="40255" />
       
     </item>
     
@@ -1813,44 +1567,14 @@ a^3-b^3&amp;amp;=(...&lt;/p&gt;</description>
       
       
       
-      <description>&lt;h1&gt;组合数学&lt;/h1&gt;
-&lt;p&gt;传说早在 $\texttt{114514}$ 年前，&lt;br&gt;一位名为忆哀的神灵来到地球，&lt;br&gt;发现了人类——另一种有智慧的物种。&lt;/p&gt;
-&lt;p&gt;她觉得这很有趣，为了加速人类文明的发展，&lt;br&gt;她向人间传下了一类计数问题——十二重计数，&lt;br&gt;这也正是组合数学的开端。&lt;/p&gt;
-&lt;p&gt;而只有搞明白这类问题，才能在组合数学上继续深入。&lt;/p&gt;
-&lt;/center&gt;
-&lt;h2&gt;基本原理&lt;/h2&gt;
-&lt;p&gt;求证不等式的方法有几种，最简单的是：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;设函数，证明函数恒大于或小于零。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;直接对函数求导，尝试证明函数最小值大于零，或最大值小于零。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;注意到多项式只要求够多次数多导数，一定会变为零，因此如果不好解决，继续求导，对高阶导数尝试分析其是否恒正或恒负。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;注意：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;解一元一次不等式 $ax&amp;gt;b$，需要按照 $a&amp;gt;0,a=0,a&amp;lt;0$ 分类讨论。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;解一元一次不等式 $ax&amp;gt;b$，其中 $x\in[m,n]$，先按照 $a&amp;gt;0,a=0,a&amp;lt;0$ 分类讨论，然后按照 $\dfrac{b}{a}$ 是否落在区间 $[m,n]$ 内。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;边界条件：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;二次项系数不含参数且自变量没有限制时，临界条件是 $...&lt;/li&gt;
-&lt;/ol&gt;</description>
+      <description>本文系统介绍组合数学基础，包括不等式证明、容斥原理、鸽巢原理、排列组合、隔板法及常用解题技巧，配合例题帮助读者深入理解计数方法与公式应用，还涵盖递推公式、Lucas 定理及子集计数等高级内容。</description>
       <link>https://raineblog.dpdns.org/whk/science/polynomial/5/</link>
       <pubDate>Mon, 11 Aug 2025 07:26:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/polynomial/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/5/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/5.png" type="image/png" length="40456" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/5.png" type="image/png" length="22762" />
       
     </item>
     
@@ -1860,39 +1584,14 @@ a^3-b^3&amp;amp;=(...&lt;/p&gt;</description>
       
       
       
-      <description>&lt;h1&gt;数列基础&lt;/h1&gt;
-&lt;h2&gt;数列的定义&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;数列&lt;/strong&gt;是由数字组成的有序序列，数列中的每一个数都叫做这个数列的&lt;strong&gt;项&lt;/strong&gt;。&lt;strong&gt;项数&lt;/strong&gt;有限的数列成为&lt;strong&gt;有限数列&lt;/strong&gt;，项数无穷多的成为&lt;strong&gt;无穷数列&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;排在第一位的数称为这个数列的&lt;strong&gt;首项&lt;/strong&gt;，有限数列的最后一个数成为这个数列的&lt;strong&gt;末项&lt;/strong&gt;。注意：无穷数列只有首项，没有末项。&lt;/p&gt;
-&lt;p&gt;对于数列，更严谨的定义，考虑最一般的复数，下文再说。&lt;/p&gt;
-&lt;p&gt;无穷数列：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;一个 $(a:\mathbb N\to\mathbb C)$ 的函数被称为&lt;strong&gt;无穷数列&lt;/strong&gt;。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;可记为 ${a_i}&lt;em&gt;{i\in\mathbb N}$ 或 $(a_i)&lt;/em&gt;{i\in\mathbb N}$ 或 $\langle a_i\rangle_{i\in\mathbb N}$。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;一个数列 $a$ 的第 $i$ 项，通常记为 $a(i)$，简记为 $a_i$。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;有限数列：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;若 $I_n={1,2,\dots,n}$，则一个 $(a:I_n\to\mathbb C)$ 的函数被称为&lt;strong&gt;有限数列&lt;/strong&gt;。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;可记为 ${a_i}&lt;em&gt;{i=1}^n$ 或 $(a&lt;/em&gt;...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>本篇文章系统介绍数列的基本概念、有无限与有限数列的定义、通项与递推公式、等差、等比数列的性质与求和公式，以及数学归纳法、裂项放缩等常用解题技巧，并提供典型例题演示，帮助读者深入掌握数列理论与应用。</description>
       <link>https://raineblog.dpdns.org/whk/science/polynomial/1/</link>
       <pubDate>Mon, 04 Aug 2025 03:43:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/polynomial/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/1.png" type="image/png" length="40181" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/1.png" type="image/png" length="40922" />
       
     </item>
     
@@ -1902,48 +1601,14 @@ a^3-b^3&amp;amp;=(...&lt;/p&gt;</description>
       
       
       
-      <description>&lt;h1&gt;数列提高&lt;/h1&gt;
-&lt;h2&gt;回顾及补充&lt;/h2&gt;
-&lt;h3&gt;经典常量&lt;/h3&gt;
-&lt;p&gt;$$
-\pi\approx3.14159
-$$&lt;/p&gt;
-&lt;p&gt;$$
-e\approx2.71828
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\gamma\approx0.57721
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\varphi={1+\sqrt5\over2}\approx1.61803
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\hat\varphi={1-\sqrt5\over2}\approx-.61803
-$$&lt;/p&gt;
-&lt;h3&gt;基础公式&lt;/h3&gt;
-&lt;p&gt;一些公式，&lt;/p&gt;
-&lt;p&gt;$$
-\sum_{i=1}^ni={n(n+1)\over2}
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\sum_{i=1}^ni^2={n(n+1)(2n+1)\over6}={n(n+1/2)(n+1)\over3}
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\sum_{i=1}^ni^3=\left[{n(n+1)\over2}\right]^2={n^2(n+1)^2\over4}
-$$&lt;/p&gt;
-&lt;p&gt;可以通过扰动法（见下）或者待定系数并归纳得出。&lt;/p&gt;
-&lt;p&gt;$$
-\sum_{i=0}^nc^i={c^{n+1}-1\over c-1},c\neq1
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\sum_{i\ge0}c^i={1\over 1-c...&lt;/p&gt;</description>
+      <description>系统梳理数列与级数的基础公式、线性递推特征方程、固定点法求通项及极限，并辅以换元裂项、迭代放缩等实用技巧，帮助深入理解与解题，覆盖调和级数、等比数列、求和技巧以及极限判别，适合高中及竞赛数学爱好者。</description>
       <link>https://raineblog.dpdns.org/whk/science/polynomial/2/</link>
       <pubDate>Mon, 04 Aug 2025 03:43:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/polynomial/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/polynomial/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/2.png" type="image/png" length="40447" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/polynomial/2.png" type="image/png" length="46164" />
       
     </item>
     
@@ -1987,14 +1652,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>系统讲解均值不等式及其变形，包括算术、几何、调和平均的链式关系，配合绝对值、不等式性质、积分函数和常用求最值技巧，提供丰富例题解析，帮助学生深入理解并灵活运用不等式技巧。</description>
+      <description>系统全面解析均值不等式及其变形，涵盖算术、几何、调和、平方均值链式关系，配合绝对值、不等式性质、积分函数及常用求最值技巧，大量例题详解，帮助学生深入掌握并灵活运用不等式方法。</description>
       <link>https://raineblog.dpdns.org/whk/science/function/3/</link>
       <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/function/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/3.png" type="image/png" length="40931" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/3.png" type="image/png" length="40815" />
       
     </item>
     
@@ -2004,27 +1669,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;平面向量&lt;/h1&gt;
-&lt;h2&gt;有向线段&lt;/h2&gt;
-&lt;p&gt;带有方向的线段称为有向线段。有向线段的三要素为：起点、方向、长度。&lt;/p&gt;
-&lt;p&gt;根据初等几何，那么只要知道这三要素，这个有向线段就已经被确定了，也就是终点可知。&lt;/p&gt;
-&lt;p&gt;从另一个角度思考，也可以认为是知道起点、终点，就可以唯一的确定一个有向线段。&lt;/p&gt;
-&lt;p&gt;一个有向线段由其两个端点表示，记为 $\overrightarrow{AB}$ 或 $\bm{a}$，同时我们记其长度，称为&lt;strong&gt;向量的模&lt;/strong&gt;。&lt;/p&gt;
-&lt;h3&gt;向量&lt;/h3&gt;
-&lt;p&gt;向量（vector）又称欧几里得向量（Euclidean vector）。&lt;/p&gt;
-&lt;p&gt;目前没有准确而统一的中文翻译，在物理、工程中通称矢量。&lt;/p&gt;
-&lt;p&gt;一般指一个同时具有大小和方向，且满足平行四边形法则的几何对象。&lt;/p&gt;
-&lt;p&gt;向量是数学、物理学和工程科学等多个自然科学中的基本概念。&lt;/p&gt;
-&lt;p&gt;与向量相对的概念称标量、纯量、数量，即：&lt;/p&gt;
-&lt;p&gt;只有大小、绝大多数情况下没有方向（电流是特例）、不满足平行四边形法则的量。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;固定向量&lt;/strong&gt;：尤其在物理学领域，有些向量会与起点有关（力与其的作用点有关，质点运动速度与该质点的位置有关），因而假设向量有确定的起点和终点，当起点和终点改变后，构成的向量就不再...&lt;/p&gt;</description>
+      <description>详细介绍平面向量的概念、模长、加法、数乘、点积及其几何意义，阐述三角形法则、平行四边形法则、极化恒等式、基底分解、平行与共线定理、斜坐标系转换和柯西不等式等关键性质，帮助高中数学学习。</description>
       <link>https://raineblog.dpdns.org/whk/science/plane/1/</link>
       <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/plane/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/1.png" type="image/png" length="34990" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/1.png" type="image/png" length="35896" />
       
     </item>
     
@@ -2034,36 +1686,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;三角函数公式&lt;/h1&gt;
-&lt;h2&gt;任意角和角的计量&lt;/h2&gt;
-&lt;h3&gt;任意角的定义&lt;/h3&gt;
-&lt;p&gt;平面内一条射线绕其端点从一个位置旋转到另一个位置形成的图形叫做角。&lt;/p&gt;
-&lt;p&gt;开始的位置称为始边，结束的位置称为终边。并规定：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;按逆时针方向旋转形成的角叫做正角，其角度为正；&lt;/li&gt;
-&lt;li&gt;按顺时针方向旋转形成的角叫做负角，其角度为负；&lt;/li&gt;
-&lt;li&gt;终边相对于始边没有做任何旋转的角叫做零角，其角度为 $0$。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;为什么逆时针是正角？考虑点 $(1,0)$ 绕着 $(0,0)$ 转一个锐角：&lt;/p&gt;
-&lt;p&gt;得到的点 $A(x,y)$ 一定满足 $x,y&amp;gt;0$，因此定义逆时针为正角。&lt;/p&gt;
-&lt;p&gt;这样就把角的概念推向了任意角。&lt;/p&gt;
-&lt;h3&gt;弧度制的定义&lt;/h3&gt;
-&lt;p&gt;弧度用符号 $\text{rad}$ 表示，读作「弧度」。&lt;/p&gt;
-&lt;p&gt;定义正角的弧度为正、负角的弧度为负，零角的弧度为 $0$；&lt;/p&gt;
-&lt;p&gt;如果半径为 $r$ 的圆的圆心角 $\alpha$ 所对弧长为 $l$ ，则：&lt;/p&gt;
-&lt;p&gt;$$
-|\alpha|=\dfrac{l}{r}
-$$&lt;/p&gt;
-&lt;p&gt;与角 $\alpha$ 终边位置相同的角的集合很容易得出，为：&lt;/p&gt;
-&lt;p&gt;$$
-{\varphi \mid \varphi = \alpha - 2k...&lt;/p&gt;</description>
+      <description>全面解析三角函数定义、弧度与角度转换、正弦余弦正切的图像、周期、奇偶性及常用诱导、和差、倍角、半角等公式，帮助快速掌握三角恒等式，涵盖单位圆定义、尼云定理、正弦曲线参数、切比雪夫多项式及辅助角化简技巧。</description>
       <link>https://raineblog.dpdns.org/whk/science/plane/2/</link>
       <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/plane/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/2.png" type="image/png" length="43477" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/2.png" type="image/png" length="45800" />
       
     </item>
     
@@ -2073,29 +1703,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;三角函数题型&lt;/h1&gt;
-&lt;h2&gt;函数思想&lt;/h2&gt;
-&lt;h3&gt;变角思想&lt;/h3&gt;
-&lt;p&gt;在三角函数式的化简中，“次降角升”和“次升角降”是基本的规律，根号中含有三角函数式时，一般需要升次。其化简往往要遵循以下三个原则：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;一看“角”，这是最重要的一环，通过看角之间的差别与联系，把角进行合理的拆分，从而正确使用公式；&lt;/li&gt;
-&lt;li&gt;二看“函数名称”，看函数名称之间的差异，从而确定使用的公式，常见的有“切化弦”等；&lt;/li&gt;
-&lt;li&gt;三看“结构特征”，分析结构特征，可以帮助我们找到变形的方向，如“遇到分式要通分”等。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;我们知道单独考查三角函数式的化简是极少见的，绝大多数的化简其背后就是求值，常见的求值问题有：给值求值、给角求值、给值求角。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;变角&#34; src=&#34;./图片1.avif&#34;&gt;{ width=&#34;30%&#34; align=right }&lt;/p&gt;
-&lt;p&gt;三角函数：角为先，公式特征为要。&lt;/p&gt;
-&lt;p&gt;公式特征注意：用 $\cos2\alpha$ 联系 $\sin\alpha,\cos\alpha$。&lt;/p&gt;
-&lt;p&gt;$$
-4\sin\alpha\cos\alpha=(\sin\alpha+\cos\alpha)^2-(\sin\alpha-\cos\alpha)^2
-$$...&lt;/p&gt;</description>
+      <description>系统阐述三角函数题型与解题思路，涵盖变角、整体角、齐次、弦化切等思想，并提供多例详解和三角恒等式的推导，帮助深入掌握函数求值技巧。并系统归纳角度变换、周期分析及参数求解方法。</description>
       <link>https://raineblog.dpdns.org/whk/science/plane/3/</link>
       <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/plane/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/3.png" type="image/png" length="43176" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/3.png" type="image/png" length="46810" />
       
     </item>
     
@@ -2105,47 +1720,14 @@ $$...&lt;/p&gt;</description>
       
       
       
-      <description>&lt;h1&gt;三角函数例题&lt;/h1&gt;
-&lt;h2&gt;例题一&lt;/h2&gt;
-&lt;p&gt;$$
-2\cos^2{B\over2}+\sqrt3\sin B=3
-$$&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;求 $B$.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;$$
-\cos B=2\cos^2{B\over2}-1\
-\cos B+\sqrt3\sin B=2\
-{\sqrt3\over2}\sin B+{1\over2}\cos B=1\
-\sin B\cos30^\circ+\cos B\sin30^\circ=1\
-\sin(B+30^\circ)=1=\sin90^\circ\
-B=60^\circ
-$$&lt;/p&gt;
-&lt;h2&gt;例题二&lt;/h2&gt;
-&lt;p&gt;$$
-(\sin B-\sin C)^2=\sin^2 A-\sin B\sin C
-$$&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;求 $A$.&lt;/li&gt;
-&lt;li&gt;若 $\sqrt2a + b= 2c$，求 $C$.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;观察到是角的二次齐次式，且都是正弦，考虑正弦定理，&lt;/p&gt;
-&lt;p&gt;$$
-(\sin B-\sin C)^2=\sin^2 A-\sin B\sin C\\
-(b-c)^2=a^2-bc\\
-b^2+c^2-2bc=a^2-bc\\
-a^2=b^2+c^2-bc
-$$&lt;/p&gt;
-&lt;p&gt;于是，&lt;/p&gt;
-&lt;p&gt;$$
-\cos A...&lt;/p&gt;</description>
+      <description>本文系统整理了二十余道三角函数与三角形求解例题，涵盖余弦、正弦定理及角度关系，详细推导角、边以及面积、周长等求法，适合高中及竞赛数学学习。解答过程简明，配合关键公式，便于快速掌握。</description>
       <link>https://raineblog.dpdns.org/whk/science/plane/4/</link>
       <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/plane/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/4.png" type="image/png" length="43828" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/4.png" type="image/png" length="45702" />
       
     </item>
     
@@ -2155,40 +1737,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;解三角形&lt;/h1&gt;
-&lt;h2&gt;基本方法&lt;/h2&gt;
-&lt;h3&gt;基本原理&lt;/h3&gt;
-&lt;p&gt;回忆初中平几，根据全等三角形的判断：&lt;/p&gt;
-&lt;p&gt;如果知道 ASA、AAS、SAS、SSS、HL 就可以唯一的确定一个三角形。&lt;/p&gt;
-&lt;p&gt;总结一下就是两个角全都可以，三个边可以，一个角两个边就需要是夹角。&lt;/p&gt;
-&lt;p&gt;即知道 $aCb$、$cBa$、$bAc$，才可以唯一确定一个两边一角的三角形。&lt;/p&gt;
-&lt;p&gt;至于 SSA，只有一个角是直角才可以唯一确定，不过这个就是 HL 了。&lt;/p&gt;
-&lt;p&gt;三角形确定，意味着我们可以求出所有边的长度以及所有角度的大小。&lt;/p&gt;
-&lt;p&gt;正弦定理、余弦定理就为我们提供了方法：可以利用角度和边长互相表示。&lt;/p&gt;
-&lt;p&gt;像这样，确定三角形边、角的过程，就是解三角形。&lt;/p&gt;
-&lt;p&gt;如何选择正弦定理、余弦定理？&lt;/p&gt;
-&lt;p&gt;遇到正弦选正弦定理，遇到齐次式考虑正弦定理。&lt;/p&gt;
-&lt;p&gt;遇到余弦选余弦定理，遇到边的二次齐次式考虑余弦定理。&lt;/p&gt;
-&lt;p&gt;原则：边角统一。&lt;/p&gt;
-&lt;h3&gt;三角函数&lt;/h3&gt;
-&lt;p&gt;在三角形中，&lt;/p&gt;
-&lt;p&gt;$$
-A+B+C=\pi
-$$&lt;/p&gt;
-&lt;p&gt;因此就有：&lt;/p&gt;
-&lt;p&gt;$$
-\begin{aligned}
-\sin A&amp;amp;=\sin(B+C)\
-\sin B&amp;amp;=\sin(A+C)\
-\sin C&amp;amp;=\sin{A+B}
-\end{a...&lt;/p&gt;</description>
+      <description>本文系统阐述解三角形的基本原理与多种方法，包括正弦、余弦、正切定理、四心、欧拉线、射影、斯图尔特、梅涅劳斯等定理，解析向量基底、平面几何及面积公式，提供完整的解题思路与技巧。</description>
       <link>https://raineblog.dpdns.org/whk/science/plane/5/</link>
       <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/plane/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/5/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/5.png" type="image/png" length="38024" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/5.png" type="image/png" length="40074" />
       
     </item>
     
@@ -2198,62 +1754,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;空间体系&lt;/h1&gt;
-&lt;h2&gt;公理体系&lt;/h2&gt;
-&lt;h3&gt;公理和推论&lt;/h3&gt;
-&lt;p&gt;公理：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;经过不共线三个点，有且仅有一个平面。&lt;/li&gt;
-&lt;li&gt;若点 $A,B$ 在一平面内，则直线 $AB$ 也在该平面内。&lt;/li&gt;
-&lt;li&gt;若两个不重合的平面有公共点，则有且仅有一条过公共点的直线，称为平面和平面的交线。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;推论：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;经过直线和直线外一点，有且仅有一个平面。&lt;/li&gt;
-&lt;li&gt;经过两条相交的直线，有且仅有一个平面。&lt;/li&gt;
-&lt;li&gt;经过两条平行的直线，有且仅有一个平面。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;证明方式：由公理一得出存在性，由公理二得出唯一性。&lt;/p&gt;
-&lt;h3&gt;点线面的关系&lt;/h3&gt;
-&lt;p&gt;点和线的关系：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;点在线上。&lt;/li&gt;
-&lt;li&gt;点在线外。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;线和线的关系：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;线与线相交（与一点）。&lt;/li&gt;
-&lt;li&gt;线与线平行。&lt;/li&gt;
-&lt;li&gt;线与线异面。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;线与面的关系：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;线与面相交。&lt;/li&gt;
-&lt;li&gt;线与面平行。&lt;/li&gt;
-&lt;li&gt;线在面外。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;面与面的关系：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;面与面相交。&lt;/li&gt;
-&lt;li&gt;面与面平行。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;三大关系&lt;/h3&gt;
-&lt;p&gt;相交关系：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;我们认为直线是点的集合，平面亦如此。因此我们可以使用元素属于集合来表示点与直线、平面的关系，使用集合包含来表示直线与平面的关系。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;具体的，我们用大写字母表示点，如点 $A$；使用小写字母表示直...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>本篇系统阐述空间几何的公理体系、点线面相互关系及平行、垂直判定定理，覆盖线面、面面平行垂直性质、距离计算和动点分析，并提供直观的解题思路与常用证明技巧，帮助学生深入掌握空间几何要点。</description>
       <link>https://raineblog.dpdns.org/whk/science/solid/1/</link>
       <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/solid/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/solid/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/solid/1.png" type="image/png" length="39020" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/solid/1.png" type="image/png" length="37892" />
       
     </item>
     
@@ -2263,23 +1771,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;空间向量&lt;/h1&gt;
-&lt;h2&gt;基本概念&lt;/h2&gt;
-&lt;h3&gt;空间向量&lt;/h3&gt;
-&lt;p&gt;我们推导平面向量的基本性质：&lt;/p&gt;
-&lt;p&gt;|  | 平面向量 | 空间向量 |
-| :-: | :-: | :-: |
-| &lt;nowrap&gt;基底分解&lt;/nowrap&gt; | $\bm a=(x,y)=x\bm e_1+y\bm e_2$ | $\bm a=(x,y,z)=x\bm e_1+y\bm e_2+z\bm e_3$ |
-| 线性运算 | $\lambda\bm a=\lambda(x,y)=(\lambda x,\lambda y)$ | $\lambda\bm a=\lambda(x,y,z)=(\lambda x,\lambda y,\lambda z)$ |
-| 向量点积 | $(x_1,y_1)\cdot(x_2,y_2)=x_1x_2+y_1y_2$ | $(x_1,y_1,z_1)\cdot(x_2,y_2,z_2)=x_1x_2+y_1y_2+z_1z_2$ |
-| 点积意义 | $\bm a_1\cdot\bm a_2=\lvert\bm a_1\rvert\cdot\lvert\bm a_2\rvert\cos...&lt;/p&gt;</description>
+      <description>系统介绍空间向量的基本概念、坐标系构建、平面方程及点线面之间的距离、角度计算，详细阐述叉乘、混合积、齐次坐标和体积公式，帮助深入理解三维几何与向量运算。</description>
       <link>https://raineblog.dpdns.org/whk/science/solid/2/</link>
       <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/solid/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/solid/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/solid/2.png" type="image/png" length="36163" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/solid/2.png" type="image/png" length="38700" />
       
     </item>
     
@@ -2289,31 +1788,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;空间几何体&lt;/h1&gt;
-&lt;h2&gt;基础知识&lt;/h2&gt;
-&lt;h3&gt;分类&lt;/h3&gt;
-&lt;p&gt;&lt;img alt=&#34;多面体和旋转体&#34; src=&#34;空间几何体.avif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;多面体是指三维空间中由平面多边形、直边和顶点组成的几何形状。多面体表面积通用公式就是将每一个平面多边形的面积相加求和。&lt;/p&gt;
-&lt;p&gt;旋转体是指平面曲线以同一平面内的一条直线作为旋转轴进行旋转所形成的立体几何图形。&lt;/p&gt;
-&lt;h3&gt;斜二测画法&lt;/h3&gt;
-&lt;p&gt;将平面 $x$ 轴不变，$y$ 轴向右倾斜 $45^\circ$ 并长度缩短到原来的 $1/2$，称为斜二测画法，画出来的图称为直观图。&lt;/p&gt;
-&lt;p&gt;容易知道，直观图的面积是原图形的 $\dfrac{\sqrt2}4$，原图形的面积是直观图的 $2\sqrt2$ 倍。&lt;/p&gt;
-&lt;p&gt;竖直的 $z$ 轴也不变，称所画出的图形称为直观图。&lt;/p&gt;
-&lt;h3&gt;祖暅原理&lt;/h3&gt;
-&lt;p&gt;祖暅（gèng）之《缀术》有云：「缘幂势既同，则积不容异」。&lt;/p&gt;
-&lt;p&gt;$$
-V=\int_{0}^HS(h)\mathrm{d}h
-$$&lt;/p&gt;
-&lt;p&gt;祖暅原理（也称等幂等积定理）指出：所有等高处横截面积相等的两个等高的立体，其体积也必然相等。经典推论是，两个等高的立体，如果其所有等高处横截面积相等，则其体积必然相等。&lt;/p&gt;
-&lt;h3&gt;辛普森法则&lt;/h3&gt;
-&lt;p&gt;...&lt;/p&gt;</description>
+      <description>本文系统介绍空间几何体的分类、体积面积公式及计算方法，包括多面体、棱柱、棱锥、旋转体和球体，详解欧拉公式、祖暅原理和辛普森法则等核心概念，并覆盖投影法、补形技巧、截面分析及外接球求法，帮助深入掌握立体几何计算。</description>
       <link>https://raineblog.dpdns.org/whk/science/solid/3/</link>
       <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/solid/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/solid/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/solid/3.png" type="image/png" length="38270" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/solid/3.png" type="image/png" length="39867" />
       
     </item>
     
@@ -2323,28 +1805,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;有机化学概述&lt;/h1&gt;
-&lt;h2&gt;有机化学&lt;/h2&gt;
-&lt;h3&gt;有机化合物&lt;/h3&gt;
-&lt;p&gt;有机物指的是含碳元素的化合物，研究有机物的化学则称为有机化学。有机物中除了碳通常还含有氢、氧、氮、硫、卤素、磷等元素。碳氧化物、碳酸盐、碳酸氢盐、碳化物等虽然含有碳但是不算为有机物。&lt;/p&gt;
-&lt;p&gt;与无机物相比，有机物普遍具有以下性质：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;物理性质：大多熔点较低，且难溶于水，易溶于汽油、乙醇、苯等有机溶剂。  &lt;/li&gt;
-&lt;li&gt;热稳定性：大多数有机物易燃，受热会分解。  &lt;/li&gt;
-&lt;li&gt;化学反应：有机物的化学反应较为复杂，常伴有副反应，许多反应需在加热、光照或催化剂作用下进行。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;碳的成键特点&lt;/h3&gt;
-&lt;p&gt;碳原子有四个价电子，使其不易失去或得到电子形成离子，故与各非金属元素之间形成共价键，但是有机物不一定就只能是共价化合物，离子化合物如有机酸盐等。&lt;/p&gt;
-&lt;p&gt;碳原子在有机物中，通常与四个原子直接相连，即配位数为 $4$，与一个碳原子相连的原子既可以是碳原子、也可以是其他原子，碳原子的这种独特的成键能力，是有机化合物多样性的根本原因。&lt;/p&gt;
-&lt;p&gt;```md {admonition=&#34;note&#34; title=&#34;为什么硅没有形成硅基有机化合物？&#34;}
-1. 碳碳单键稳定性强...&lt;/p&gt;</description>
+      <description>本篇介绍有机化学基础，包括有机物定义、碳成键特点、不饱和度计算、常见官能团、同系物与命名规则以及结构式表示和实验分析方法，帮助读者系统掌握有机化学概念及其在实验中的应用。</description>
       <link>https://raineblog.dpdns.org/whk/science/organic/1/</link>
       <pubDate>Sun, 29 Jun 2025 07:34:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/organic/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/1.png" type="image/png" length="42841" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/1.png" type="image/png" length="45198" />
       
     </item>
     
@@ -2354,26 +1822,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;有机物的分类&lt;/h1&gt;
-&lt;h2&gt;烷烃概述&lt;/h2&gt;
-&lt;p&gt;烷烃是极佳的有机化学引入之一，在高中有机化学的框架下，我们通常是从烷烃开始，去讨论有机物的化学性质，从引入双键、三键形成不饱和烃，再到引入取代基和各种有机反应。烷烃对于刚刚学习有机化学的人来说，显得格外重要。&lt;/p&gt;
-&lt;h3&gt;甲烷和烷烃&lt;/h3&gt;
-&lt;p&gt;我们熟悉的甲烷（$\ce{CH4}$）是最简单的有机化合物。其分子中的碳原子以最外层的 $4$ 个电子分别与 $4$ 个氢原子的电子形成了 $4$ 个 $\ce{C - H}$ 共价键。&lt;/p&gt;
-&lt;p&gt;实验数据表明，甲烷分子并非平面结构，而是呈正四面体空间构型。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;碳原子位于正四面体的中心。&lt;/li&gt;
-&lt;li&gt;$4$ 个氢原子分别位于 $4$ 个顶点。&lt;/li&gt;
-&lt;li&gt;$4$ 个 $\ce{C - H}$ 键的长度和强度完全相同，任意两个 $\ce{C - H}$ 键之间的夹角均为 $\pu{109.5^\circ C}$。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;与甲烷结构相似的有机化合物还有很多，随着分子中碳原子数的增加，还有乙烷、丙烷、丁烷等一系列有机化合物。这些化合物的碳链呈锯齿状或折线形。&lt;/p&gt;
-&lt;p&gt;烷烃分子中的碳原子都采取 $\text{sp3}$ 杂化，形成四面体结构；碳原子以...&lt;/p&gt;</description>
+      <description>详解有机物分类与性质，涵盖烷烃、烯烃、芳香烃及其同分异构体、醇、酮、羧酸、胺的结构、燃烧、光卤代、加成、氧化等反应，并介绍石油、煤炭的分馏、裂化及工业应用。</description>
       <link>https://raineblog.dpdns.org/whk/science/organic/2/</link>
       <pubDate>Sun, 29 Jun 2025 07:34:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/organic/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/2.png" type="image/png" length="44016" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/2.png" type="image/png" length="46955" />
       
     </item>
     
@@ -2383,41 +1839,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;有机核心考点&lt;/h1&gt;
-&lt;h2&gt;有机物概述&lt;/h2&gt;
-&lt;h3&gt;同分异构现象&lt;/h3&gt;
-&lt;p&gt;化合物具有相同的分子式，但具有不同结构的现象，称为同分异构现象。具有这种现象的化合物互称为同分异构体。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;碳链异构&lt;/strong&gt;：碳链骨架不同。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;$\ce{CH3CH2CH2CH3}$ 和 $\ce{CH3CH(CH3)2}$&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;位置异构&lt;/strong&gt;：官能团或取代基在碳骨架（碳链或碳环）上位置不同。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;$\ce{CH2=CHCH2CH3}$ 和 $\ce{CH3CH=CHCH3}$&lt;/p&gt;
-&lt;p&gt;$\ce{CH3CH2CH2OH}$ 和 $\ce{CH3CH(OH)CH3}$&lt;/p&gt;
-&lt;p&gt;$\ce{CH3OCH2CH2CH3}$ 和 $\ce{CH3CH2OCH2CH3}$&lt;/p&gt;
-&lt;p&gt;$\ce{R1COOR2}$ 和 $\ce{R2COOR1}$ ($R1 \neq R2$，且均为烃基)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;官能团异构&lt;/strong&gt;：官能团不同。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;$\ce{CH3CH2OH}$ 和 $\ce{CH3OCH3}$&lt;/p&gt;
-&lt;p&gt;$\ce{CH3CH2CHO...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>系统阐述有机化学核心考点，涵盖同分异构、原子共平面、烷烃烷基计数、取代计数、手性与对映体、经典实验制取乙烯乙炔溴苯硝化酯化，以及马氏规则、重氮化、逆合成策略、常用试剂与反应机理。</description>
       <link>https://raineblog.dpdns.org/whk/science/organic/3/</link>
       <pubDate>Sun, 29 Jun 2025 07:34:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/organic/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/3.png" type="image/png" length="42422" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/3.png" type="image/png" length="44256" />
       
     </item>
     
@@ -2427,36 +1856,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;有机物与工业&lt;/h1&gt;
-&lt;h2&gt;高分子概述&lt;/h2&gt;
-&lt;h3&gt;有机高分子&lt;/h3&gt;
-&lt;p&gt;高分子化合物，简称高分子，相对分子质量通常在几万到几十万，甚至达到几千万。高分子虽然相对分子质量很大，但结构往往并不复杂。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-31.avif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;高分子的性质：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;在溶剂中的溶解。&lt;/p&gt;
-&lt;p&gt;高分子溶解在有机溶剂中，溶剂分子先深入缠在一起的线性高分子之间，使高分子材料膨胀，然后把高分子包围起来，使其分离开来，能够自由移动，在有机溶剂中形成胶体粒子，成为溶胶。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;不同温度下的性能。&lt;/p&gt;
-&lt;p&gt;热塑性：高分子受热到一定温度范围，开始软化，直到熔化成流动的液体，不像固态小分子物质那样有确定的熔点。加热软化后，可以加工成各种形态。&lt;/p&gt;
-&lt;p&gt;热固性：网状结构中的高分子链已有化学键相互交联，限制了其移动。当温度更高，体系高分子的化学键出现断裂，高分子的结构就被破坏。一经加工成形，就不会受热融化，如酚醛塑料。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;强度和电绝缘性。&lt;/p&gt;
-&lt;p&gt;高分子材料的密度比金属小，但强度可能比较大。&lt;/p&gt;
-&lt;p&gt;大部分有机高分子材料是绝缘的，但也有导电的，如单双键交替的碳链。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3&gt;高分子材...&lt;/h3&gt;</description>
+      <description>系统阐述有机高分子材料与聚合反应机制，涵盖加聚、缩聚、酚醛树脂、聚乙烯醇工业合成、碳骨架构建、官能团转化、油脂提取工艺及医用黏合剂和煤油制备等关键知识。</description>
       <link>https://raineblog.dpdns.org/whk/science/organic/4/</link>
       <pubDate>Sun, 29 Jun 2025 07:34:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/organic/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/organic/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/4.png" type="image/png" length="39972" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/organic/4.png" type="image/png" length="42325" />
       
     </item>
     
@@ -2568,23 +1975,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;随机事件与概率&lt;/h1&gt;
-&lt;h2&gt;事件及其运算&lt;/h2&gt;
-&lt;h3&gt;试验与事件&lt;/h3&gt;
-&lt;p&gt;我们把按照一定的想法去作的事情称为随机试验，随机试验的简称是试验。样本空间 $\Omega$ 指明随机现象&lt;strong&gt;所有&lt;/strong&gt;可能出现的结果。&lt;/p&gt;
-&lt;p&gt;具体的，一个随机现象中可能发生的不能再细分的结果被称为&lt;strong&gt;样本点&lt;/strong&gt;，所有样本点的集合称为&lt;strong&gt;样本空间&lt;/strong&gt;，通常用 $\Omega$ 来表示。&lt;/p&gt;
-&lt;p&gt;二维样本空间的列举，表格法：&lt;/p&gt;
-&lt;p&gt;|       |    1      |    2      |    3      |    4      |    5      |    6      |
-|:-----:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
-| &lt;strong&gt;1&lt;/strong&gt; | $(1, 1)$ | $(1, 2)$ | $(1, 3)$ | $(1, 4)$ | $(1, 5)$ | $(1, 6)$ |
-| &lt;strong&gt;2&lt;/strong&gt; | $(2, 1)$ | $(2, 2)$ | $(2, 3)$ | $(2, 4)$ | $(2, 5)$ | $...&lt;/p&gt;</description>
+      <description>本文系统介绍随机试验、样本空间、事件及其并交补运算，阐释概率的古典与几何概型、概率公理、条件概率、独立性、全概率与贝叶斯公式，并提供实用案例，帮助读者掌握概率基础理论。</description>
       <link>https://raineblog.dpdns.org/whk/science/probability/1/</link>
       <pubDate>Sun, 18 May 2025 09:51:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/probability/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/1.png" type="image/png" length="45304" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/1.png" type="image/png" length="47802" />
       
     </item>
     
@@ -2594,21 +1992,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;随机变量及其分布&lt;/h1&gt;
-&lt;h2&gt;随机变量及其分类&lt;/h2&gt;
-&lt;h3&gt;随机变量的定义&lt;/h3&gt;
-&lt;p&gt;随机变量是用来表示随机试验结果的变量，通常用大写字母 $X,Y,Z$ 或小写希腊字母 $\xi,\eta,\zeta$ 表示。随机函数是一个特殊的实函数，对于任意 $e\in S$，都有唯一一个对应 $X(e)$，如图。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;Zufall.avif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;随机变量实质上是样本空间上的函数，可作为因变量，满足其值不大于某数的状况都是事件。我们称随机变量这个函数的值域为随机变量的取值范围，或值域。&lt;/p&gt;
-&lt;p&gt;随机变量在不同的条件下由于偶然因素影响，其可能取各种随机变量不同的值，具有不确定性和随机性，但这些取值落在某个范围的概率是一定的，此种变量称为随机变量。随机变量可以是离散型的，也可以是连续型的。如分析测试中的测定值就是一个以概率取值的随机变量，被测定量的取值可能在某一范围内随机变化，具体取什么值在测定之前是无法确定的，但测定的结果是确定的，多次重复测定所得到的测定值具有统计规律性。随机变量与模糊变量的不确定性的本质差别在于，后者的测定结果仍具有不确定性，即模糊性。&lt;/p&gt;
-&lt;p&gt;随机变量按其值域（根据定义，随机变量是一个...&lt;/p&gt;</description>
+      <description>系统讲解随机变量的定义、分类与指示变量，深入阐述离散与连续分布、常见概率分布（伯努利、二项、泊松、正态等）、独立性判定、期望与方差计算、全期望公式及期望方程、马尔可夫与切比雪夫不等式的应用，以及基于状态转移的期望DP解题技巧。</description>
       <link>https://raineblog.dpdns.org/whk/science/probability/2/</link>
       <pubDate>Sun, 18 May 2025 09:51:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/probability/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/2.png" type="image/png" length="46891" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/2.png" type="image/png" length="49665" />
       
     </item>
     
@@ -2618,35 +2009,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;统计学和数理统计&lt;/h1&gt;
-&lt;h2&gt;推论统计学&lt;/h2&gt;
-&lt;h3&gt;描述性统计&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;什么是统计学&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;统计学研究如何收集数据、分析数据、从数据做出有依据的推断结果。一言以蔽之，统计学是研究数据的科学。&lt;/li&gt;
-&lt;li&gt;统计学主要的数学工具是概率论，也广泛使用现代信息技术作为支撑，通过计算机和信息网络获取数据、进行建模、数据分析计算。&lt;/li&gt;
-&lt;li&gt;统计学是一门科学，不再是数学的一个分支。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;描述性统计&lt;/strong&gt;，统计学的做法分为两种：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;描述性统计&lt;/strong&gt;：从数据样本中计算一些平均值、标准差、最小值、最大值等概括统计量，画直方图、散点图等描述图形。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;推断性统计&lt;/strong&gt;：假定要研究的对象服从某种概率模型，收集数据后把数据用模型解释，并做出有概率意义的结论。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;总体、个体和均值&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;所要调查的对象全体叫做&lt;strong&gt;总体&lt;/strong&gt; (population)，总体中每个成员叫做&lt;strong&gt;个体&lt;/strong&gt;。&lt;/li&gt;
-&lt;li&gt;总体参数是描述总体特性的指标，简称&lt;strong&gt;参数&lt;/strong&gt;。&lt;/li&gt;
-&lt;li&gt;如果总体中的个体是有限个，称个体总数 $N$ 为总体容量。&lt;/li&gt;
-&lt;li&gt;总体平均或总体均值是参数，常用 $\mu$ 表示。&lt;/li&gt;
-&lt;li&gt;总体方差是参数，常记为 $\sigma^2...&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>全面讲解统计学基础，包括描述性统计、抽样方法、参数估计、相关与回归分析、假设检验的计算技巧，适合高中与入门学习者。涵盖自由度、方差估计、置信区间及卡方检验等关键概念，帮助系统掌握核心技巧。</description>
       <link>https://raineblog.dpdns.org/whk/science/probability/3/</link>
       <pubDate>Sun, 18 May 2025 09:51:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/probability/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/3.png" type="image/png" length="44592" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/3.png" type="image/png" length="46477" />
       
     </item>
     
@@ -2656,23 +2026,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;随机过程和马尔可夫链&lt;/h1&gt;
-&lt;p&gt;在前面「指示随机变量」一节中，我们曾用递推方法解决了羽毛球发球权问题——第 $n$ 回合的发球状态仅取决于第 $n-1$ 回合的结果。这种「未来只依赖于现在，而与过去无关」的性质，正是随机过程和马尔可夫链的数学本质。&lt;/p&gt;
-&lt;h2&gt;随机过程初步&lt;/h2&gt;
-&lt;h3&gt;随机过程的概念&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;随机过程&lt;/strong&gt;（Stochastic Process）是一族随时间演化的随机变量 ${X_t : t \in T}$。其中 $T$ 称为参数集（或指标集），$X_t$ 在每个时刻 $t$ 都是一个随机变量。根据参数集 $T$ 的取值类型，随机过程可分为两类：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;离散时间随机过程&lt;/strong&gt;：$T = {0, 1, 2, \dots}$，通常记作 ${X_n}_{n=0}^{\infty}$。例如：每天记录一次股票价格、每轮比赛后的比分状态&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;连续时间随机过程&lt;/strong&gt;：$T = [0, \infty)$ 或 $\mathbb{R}$，通常记作 ${X_t}_{t \ge 0}$。例如：布朗运动、泊松过程&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;随机变量 $X_t$ 所有可能取值的集合称为&lt;strong&gt;状态空间&lt;/strong&gt;（St...&lt;/p&gt;</description>
+      <description>本文系统介绍随机过程与马尔可夫链的基本概念、状态空间、转移矩阵、平稳分布、周期与吸收链等核心理论，并通过天气模型、两点链和竞答游戏等实例演示递推建模、矩阵求解及长期行为分析的实际技巧。</description>
       <link>https://raineblog.dpdns.org/whk/science/probability/4/</link>
       <pubDate>Sun, 18 May 2025 09:51:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/probability/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/4.png" type="image/png" length="49906" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/4.png" type="image/png" length="53569" />
       
     </item>
     
@@ -2750,14 +2111,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>本文系统阐述细胞代谢中的糖类、脂质及酶的结构与功能，重点解析葡萄糖呼吸、糖原、脂肪合成与β-氧化以及有氧与无氧呼吸的能量转换机制。并结合酶抑制剂的分类与实验探究，帮助学生深入理解细胞能量代谢全景。</description>
+      <description>系统阐述细胞代谢中的糖类、脂质与酶的结构与功能，重点解析葡萄糖呼吸、糖原、脂肪合成、β‑氧化以及有氧、无氧呼吸的能量转换机制，并结合酶抑制剂的分类与实验探究，帮助学生全面掌握细胞能量代谢全貌。</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/2/</link>
       <pubDate>Sat, 19 Apr 2025 14:19:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/cell/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/2.png" type="image/png" length="52536" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/2.png" type="image/png" length="51507" />
       
     </item>
     
@@ -2784,14 +2145,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>全面解析静力与动量的基本概念，包括力的合成分解、拉密定理、重心与弹力、摩擦力及全反力，深入讲解冲量、动量定理、动量守恒以及静、动平衡和稳定性等，并配有实例演示。</description>
+      <description>系统性解析静力与动量的基本概念，包括力的合成分解、拉密定理、重心、弹力、摩擦力、全反力，深入讲解冲量、动量定理、动量守恒及平衡、稳定性，并配有实例和矢量图示，帮助学生掌握力学核心知识。</description>
       <link>https://raineblog.dpdns.org/whk/science/mechanics/1/</link>
       <pubDate>Sun, 13 Apr 2025 13:42:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/mechanics/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/1.png" type="image/png" length="41208" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/1.png" type="image/png" length="41967" />
       
     </item>
     
@@ -2835,48 +2196,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;分子的结构&lt;/h1&gt;
-&lt;h2&gt;共价键模型&lt;/h2&gt;
-&lt;h3&gt;分子轨道理论&lt;/h3&gt;
-&lt;p&gt;根据已学的知识，氧分子的结构是 $\ce{O \bond{2} O}$，因此，氧分子中的电子已经完全配对，氧分子应该是逆磁性分子。但事实上，将液态氧倒入配有磁铁的仪器中时，氧分子被磁场吸引而悬浮在磁场中，这说明氧分子是顺磁性分子，即分子中存在未成对电子。&lt;/p&gt;
-&lt;p&gt;利用分子轨道理论能够很好地解释氧分子是顺磁性分子这一事实。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;分子轨道理论认为，分子中的每个电子都是在整个分子中运动的，分子中的单电子运动状态可以用分子轨道来描述。分子轨道可以用能级相近的原子轨道线性组合来表示。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;光电子能谱为分子轨道理论提供了实验基础，若入射光的能量超过一定值，就能够将电子击出，由此产生的电子称为光电子。通过光电子能谱可以了解分子轨道能级的信息。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;共价键及其性质&lt;/h3&gt;
-&lt;p&gt;定义：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;共价键：原子间通过共用电子对形成的相互作用。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;共价化合物：只有共价键的化合物称为共价化合物。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;根据共用电子对数，可以分为单键、双键、三键。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;注意区分：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;含有离子键即为离子化合物，只有共价键才为共价化合物。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;离子化合物中可能含有共...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>系统阐述分子结构的共价键、键能键长键角、配位键、多中心键及空间构型预测方法，涵盖分子轨道、杂化、VSEPR、手性和超分子，解释氧分子顺磁性、双键规则、δ键、π配位及电子计数等内容。</description>
       <link>https://raineblog.dpdns.org/whk/science/structure/3/</link>
       <pubDate>Sun, 30 Mar 2025 13:51:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/structure/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/3.png" type="image/png" length="41059" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/3.png" type="image/png" length="42359" />
       
     </item>
     
@@ -2988,44 +2315,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;物质与分子&lt;/h1&gt;
-&lt;p&gt;$$
-\textrm{This page intentionally left blank.}
-$$&lt;/p&gt;
-&lt;h2&gt;物质的量相关定义&lt;/h2&gt;
-&lt;h3&gt;物质的量&lt;/h3&gt;
-&lt;p&gt;反映粒子数目：符号 $n$，单位 $\pu{mol}$。&lt;/p&gt;
-&lt;p&gt;重点：指明具体的&lt;strong&gt;微观&lt;/strong&gt;物质粒子（原子、离子、分子、质子、电子、种子）。&lt;/p&gt;
-&lt;h3&gt;阿伏伽德罗常数&lt;/h3&gt;
-&lt;p&gt;数值上：&lt;/p&gt;
-&lt;p&gt;$$
-\begin{aligned}
-N_A&amp;amp;=6.022\ 140\ 76\times10^{23}\pu{mol^-1}
-\end{aligned}
-$$&lt;/p&gt;
-&lt;p&gt;一般取约数为 $6.02$，注意：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;早期的阿伏伽德罗常数定义为 $\pu{12g}$ 的 $\ce{^12C}$ 中所含的原子个数。&lt;/li&gt;
-&lt;li&gt;现代的定义是一个固定的值（上），由阿伏伽德罗常数和质量定义物质的量。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;$$
-n=\dfrac N{N_A}
-$$&lt;/p&gt;
-&lt;p&gt;其中 $N$ 表示微粒个数。&lt;/p&gt;
-&lt;h3&gt;摩尔质量&lt;/h3&gt;
-&lt;p&gt;单位物质的量的物质所具有的质量：&lt;/p&gt;
-&lt;p&gt;$$
-M=\dfrac{m}{n}
-$$&lt;/p&gt;
-&lt;p&gt;标准单位为 $\pu{g/mol}$，此时摩尔质量数值上等于粒子的相对质量。&lt;/p&gt;
-&lt;h3&gt;摩尔...&lt;/h3&gt;</description>
+      <description>系统阐述物质的量、阿伏伽德罗常数、摩尔概念及浓度计算，并深入分子动理论、布朗运动、气体分子作用力、液体表面张力、晶体与非晶体特性、液晶显示原理及纳米超分子应用。</description>
       <link>https://raineblog.dpdns.org/whk/science/structure/1/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/structure/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/1.png" type="image/png" length="40861" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/1.png" type="image/png" length="46378" />
       
     </item>
     
@@ -3035,18 +2332,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;原子与元素&lt;/h1&gt;
-&lt;h2&gt;核物理初步&lt;/h2&gt;
-&lt;h3&gt;射线与放射性&lt;/h3&gt;
-&lt;p&gt;1895 年年末，德国物理学家&lt;strong&gt;伦琴&lt;/strong&gt;发现了一种新的射线——&lt;strong&gt;X 射线&lt;/strong&gt;（即伦琴射线）。它具有一定的辐射性。现在我们知道，X 射线是原子内层电子跃迁时发射的波长很短的电磁波。&lt;/p&gt;
-&lt;p&gt;法国物理学家&lt;strong&gt;贝克勒尔&lt;/strong&gt;对荧光研究了多年，他决定研究荧光与 X 射线的关系。1896 年年初，他选择了在日光照晒时能发出荧光的铀盐——硫酸铀酰钾做实验材料。他用黑纸把照相底片包住，放到这种铀盐的下面，在阳光下曝晒了几小时。底片显影后，发现了铀盐在底片上的黑色轮廓，表示底片已经感“光”。阳光是不能透过黑纸的，贝克勒尔认为，这种铀盐受到阳光照射后除了能够发出可见的荧光外，还能发射 X 射线，是 X 射线透过黑纸使底片感光。再次准备实验的时候遇到了几个阴天，贝克勒尔只好把准备好的铀盐和包好的底片一起放进了抽屉。几天以后，贝克勒尔在检查底片时意外发现底片又已经感光。这个事实使贝克勒尔认为铀盐本身能够发射一种神秘的射线，正是这种射线导致了底片感光。贝克勒尔进一步用不发荧光的其他铀化合物进行实验，发现也能使底片感光。铀化合物发出的射线也像 X ...&lt;/p&gt;</description>
+      <description>本文系统阐述原子结构与核物理基础，涵盖放射性发现、α、β、γ射线特性，卢瑟福核式模型、玻尔量子轨道、电子云与能层结构，元素周期表规律，同位素示踪、放射治疗及核聚变应用等关键知识。</description>
       <link>https://raineblog.dpdns.org/whk/science/structure/2/</link>
       <pubDate>Sat, 29 Mar 2025 11:23:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/structure/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/structure/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/2.png" type="image/png" length="39583" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/structure/2.png" type="image/png" length="43616" />
       
     </item>
     

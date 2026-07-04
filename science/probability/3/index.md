@@ -765,6 +765,6 @@ H_0:\\mu=\\mu_0\\quad\\textit{vs}\\quad H_1:\\mu\\neq\\mu_0
 
 卡方检验的适用条件：卡方检验要求每个格子的**期望频数**不能太小（通常要求 E\_{ij} \\geq 5）。当样本量不够大时，应改用 Fisher 精确检验等方法。
 
-2025-05-182026-06-28
+2025-05-182026-07-04
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com)

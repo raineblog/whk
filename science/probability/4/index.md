@@ -369,6 +369,6 @@ E\_{11} = \\frac{152}{17},\\quad E\_{10} = \\frac{12 + 3 \\cdot \\frac{152}{17}}
 
 通过这一套框架，任何离散时间、有限状态的随机过程问题，都能被降维成你熟悉的线性代数或数列问题。反复训练“建状态-画转移-列方程”的动作，就能从算力堆砌转向结构洞察。
 
-2025-05-182026-05-02
+2025-05-182026-07-04
 
 [RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com)
