@@ -22,15 +22,15 @@ a>b,c\<d\\implies a-c>b-d
 
 \\begin{cases} a_1\<x+y\<a_2\\ b_1\<x-y\<b_2 \\end{cases}\\implies\\begin{cases} a_1+b_1\<2x\<a_2+b_2\\ a_1-b_1\<2y\<a_2-b_2 \\end{cases}
 
-等式的性质​：
+等式的性质：
 
 - a=a（自反性）
-- ‌a=b\\Rightarrow b=a（对称性）
+- a=b\\Rightarrow b=a（对称性）
 - a=b,b=c\\Rightarrow a=c（传递性）
 - a=b\\Rightarrow a\\pm c=b\\pm c,ac=bc,\\frac{a}{c}=\\frac{b}{c}（c\\neq 0）（替代性）
 - 替代性：如果两个对象相等，那么在任何出现它们的位置，都可以用一个替代另一个，等式仍然成立。
 
-不等式的性质​：
+不等式的性质：
 
 - a>b\\Rightarrow b\<a（对称性）
 - a>b,b>c\\Rightarrow a>c（传递性）
@@ -40,7 +40,7 @@ a>b,c\<d\\implies a-c>b-d
 - a>b>0,c>d>0\\Rightarrow ac>bd（乘法单调性）
 - a>b>0,n>0\\Rightarrow a^n>b^n,n\<0\\Rightarrow a^n\<b^n
 
-常用技巧​：
+常用技巧：
 
 - 减法可以转化为加法：a-b=a+(-b)，而除法可以转化为乘法：\\frac{a}{b}=a\\times \\frac{1}{b}。
 - 比较两个正数 a,b>0 的常用方法：通过做差比较 a-b 与 0 的关系；通过做商比较 \\frac{a}{b} 与 1 的关系。
