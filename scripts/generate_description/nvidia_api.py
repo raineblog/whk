@@ -17,7 +17,7 @@ def get_description(file: str, options):
         user_content += f"{key}：{value}\n"
 
     completion = client.chat.completions.create(
-        model="nvidia/nemotron-3-nano-30b-a3b",
+        model="openai/gpt-oss-120b",
         messages=[
             {
                 "role": "system",
@@ -30,11 +30,7 @@ def get_description(file: str, options):
         ],
         temperature=1,
         top_p=1,
-        max_tokens=32768,
-        extra_body={
-            "reasoning_budget": 32768,
-            "chat_template_kwargs": {"enable_thinking": True},
-        },
+        max_tokens=4096,
         stream=True,
     )
 
