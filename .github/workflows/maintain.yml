@@ -2,10 +2,7 @@ name: Maintain Pipeline
 
 on:
   schedule:
-    # 每周日凌晨运行 (SEO Push + Frontmatter 同步 + Autoblog 更新)
     - cron: '0 0 * * 0'
-    # 每月 1 号凌晨运行 (补全缺失 Frontmatter 的文件)
-    - cron: '0 0 1 * *'
   workflow_dispatch:
 
 concurrency:
@@ -22,7 +19,6 @@ permissions:
 jobs:
   seo-push:
     name: SEO Push
-    if: github.event.schedule == '0 0 * * 0' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Source Code
@@ -66,10 +62,6 @@ jobs:
       - name: Run SEO Push Script
         run: uv run scripts/seo_pusher/main.py
         env:
-          SITE_HOST: "raineblog.dpdns.org"
-          SITE_BASE: "https://raineblog.dpdns.org"
-          SITE_NAME: "RainPPR's WHK Wiki"
-          SITE_PROJECT: "whk"
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
           GOOGLE_INDEXING_CREDENTIALS: ${{ secrets.GOOGLE_INDEXING_CREDENTIALS }}
           PYTHONUNBUFFERED: 1
@@ -86,82 +78,3 @@ jobs:
             git commit -m "chore: update google indexing database [skip ci]"
             git push origin main
           fi
-
-#   frontmatter-sync:
-#     name: Frontmatter AI Sync
-#     runs-on: ubuntu-latest
-#     timeout-minutes: 5
-#     steps:
-#       - name: Checkout Source Code
-#         uses: actions/checkout@v4
-#         with:
-#           fetch-depth: 0
-#           token: ${{ secrets.GITHUB_TOKEN }}
-
-#       - name: Setup Node.js
-#         uses: actions/setup-node@v4
-#         with:
-#           node-version: '24'
-
-#       - name: Install Dependencies
-#         run: npm ci
-#         working-directory: scripts/frontmatter
-
-#       - name: Determine Process Flag
-#         id: flags
-#         run: |
-#           if [[ "${{ github.event.schedule }}" == "0 0 1 * *" ]]; then
-#             echo "EXEC_FLAG=--new" >> $GITHUB_OUTPUT
-#           else
-#             echo "EXEC_FLAG=--days 7" >> $GITHUB_OUTPUT
-#           fi
-
-#       - name: Execute Frontmatter Generator
-#         run: node scripts/generate_frontmatter.js ${{ steps.flags.outputs.EXEC_FLAG }}
-#         env:
-#           NVIDIA_NIM_API_KEY: ${{ secrets.NVIDIA_NIM_API_KEY }}
-#           NODE_PATH: ${{ github.workspace }}/scripts/frontmatter/node_modules
-#           CI: true
-
-#       - name: Commit and Push Changes
-#         run: |
-#           git config --global user.name "github-actions[bot]"
-#           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-#           git add docs/
-#           if git diff --staged --quiet; then
-#             echo "没有发现 Frontmatter 变更，跳过提交。"
-#           else
-#             git commit -m "chore: 自动化同步 AI 元数据"
-#             git push origin main
-#           fi
-
-#   autoblog:
-#     name: Autoblog Update
-#     if: github.event.schedule == '0 0 * * 0'
-#     runs-on: ubuntu-latest
-#     container:
-#       image: ghcr.io/raineblog/mkdocs-autoblog:latest
-#     steps:
-#       - name: Checkout repository
-#         uses: actions/checkout@v6
-
-#       - name: Run mkdocs-autoblog
-#         env:
-#           PROVIDER: CEREBRAS
-#           PROVIDER_MODEL: zai-glm-4.7
-#           PROVIDER_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
-#           BASE_URL: https://raineblog.dpdns.org/whk/
-#           FEED_URL: https://raineblog.dpdns.org/whk/feed_json_updated.json
-#         run: mkdocs-autoblog
-
-#       - name: Commit and Push Changes
-#         run: |
-#           git config --global user.name "github-actions[bot]"
-#           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-#           git add docs/blog/posts/*.md .autoblog.json
-#           if git diff --staged --quiet; then
-#             echo "没有发现 Autoblog 变更，跳过提交。"
-#           else
-#             git commit -m "chore: [bot] automatic blog updates"
-#             git push origin main
-#           fi
