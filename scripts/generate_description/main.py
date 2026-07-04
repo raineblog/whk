@@ -11,7 +11,7 @@ from nvidia_api import get_description
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 DOCS_DIR = PROJECT_ROOT / "docs"
 CACHE_FILE = PROJECT_ROOT / "description_cache.json"
-MAX_PER_RUN = 50
+MAX_PER_RUN = 10
 DELAY = 0.2
 
 
