@@ -159,24 +159,24 @@ Paragraph 2: As we drove home, the girls chatted happily about the “best day e
 第一段：逻辑推进 \\rightarrow 情感升华
 
 1. **`Hearing this, Emily felt...`** \\rightarrow (现在分词作状语)
-   - *解析：* 替代 “When she heard this”，让叙述更流畅，这是续写最经典的高分开头方式。
+   - *解析*：替代 “When she heard this”，让叙述更流畅，这是续写最经典的高分开头方式。
 1. **`Not only did the kind couple help... but they also...`** \\rightarrow (Not only 引导的倒装句)
-   - *解析：* **这是一个强力得分点。** 将简单的两个动作（买票、送站）用倒装结构连接，瞬间提升句子档次。
+   - *解析*：**这是一个强力得分点。** 将简单的两个动作（买票、送站）用倒装结构连接，瞬间提升句子档次。
 1. **`...ensuring she was safe.`** \\rightarrow (现在分词作结果状语)
-   - *解析：* 避免使用 “and they ensured…”，用 `-ing` 形式增加句子的灵活性。
+   - *解析*：避免使用 “and they ensured…”，用 `-ing` 形式增加句子的灵活性。
 1. **`By the time she finally hugged...`** \\rightarrow (时间状语从句)
-   - *解析：* 建立时间线，将情节推向高潮（到达目的地）。
+   - *解析*：建立时间线，将情节推向高潮（到达目的地）。
 
 第二段：情节收拢 \\rightarrow 主旨升华
 
 1. **`Upon arriving at the ditch...`** \\rightarrow (Upon doing 结构)
-   - *解析：* 替代 “When she arrived”，表示“一……就……”，显得更加地道。
+   - *解析*：替代 “When she arrived”，表示“一……就……”，显得更加地道。
 1. **`While the weather was still cold, ...`** \\rightarrow (While 引导的对比句)
-   - *解析：* 运用“天气冷”与“心情暖”的对比，增强文学色彩。
+   - *解析*：运用“天气冷”与“心情暖”的对比，增强文学色彩。
 1. **`Never had Emily felt so grateful...`** \\rightarrow (否定词置于句首的全部倒装)
-   - *解析：* **全篇最高光句式！** 用 `Never had I...` 表达强烈的情感，是拿到 A 档语言分的关键。
+   - *解析*：**全篇最高光句式！** 用 `Never had I...` 表达强烈的情感，是拿到 A 档语言分的关键。
 1. **`...knowing that this unexpected detour had brought...`** \\rightarrow (现在分词引导的伴随状语)
-   - *解析：* 将“感悟”自然地融入在“开车离开”这个动作中，使结尾不显得突兀，且具有深意。
+   - *解析*：将“感悟”自然地融入在“开车离开”这个动作中，使结尾不显得突兀，且具有深意。
 
 2025-11-042026-07-04
 
