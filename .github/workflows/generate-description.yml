@@ -22,20 +22,25 @@ jobs:
     steps:
       - name: Checkout Source Code
         uses: actions/checkout@v7
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup uv
         uses: astral-sh/setup-uv@v7
         with:
           enable-cache: true
 
+      - name: Cache
+        uses: actions/cache@v6
+        with:
+          path: .cache
+          key: ${{ runner.os }}-mkdocs-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            ${{ runner.os }}-mkdocs-
+
       - name: Install uv dependencies
         run: uv sync --locked --no-dev
 
       - name: Run Description Generation Script
-        run: uv run scripts/generate_description/main.py
+        run: uv run --no-sync scripts/generate_description/main.py
         env:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_NIM_API_KEY }}
           PYTHONUNBUFFERED: 1
