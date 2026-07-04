@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sat, 04 Jul 2026 11:53:30 -0000</pubDate>
-    <lastBuildDate>Sat, 04 Jul 2026 11:53:30 -0000</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 11:57:38 -0000</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 11:57:38 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -37,31 +37,14 @@
       
       
       
-      <description>&lt;h1&gt;碱金属概述&lt;/h1&gt;
-&lt;h2&gt;钠及其化合物&lt;/h2&gt;
-&lt;h3&gt;钠单质&lt;/h3&gt;
-&lt;p&gt;金属钠（Sodium，Na）是一种具有极高化学活性的碱金属元素。在元素周期表中位于&lt;strong&gt;第三周期、第ⅠA 族&lt;/strong&gt;，原子序数为 $11$。钠原子的最外电子层只有一个电子（$\mathrm{3s^1}$），在化学反应中极易失去该电子形成稳定的 $\ce{Na+}$ 离子，因此表现出&lt;strong&gt;极强的还原性&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;钠的物理性质：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;颜色与状态&lt;/strong&gt;：钠单质呈&lt;strong&gt;银白色&lt;/strong&gt;，具有金属光泽的固体。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;硬度&lt;/strong&gt;：质地非常&lt;strong&gt;软&lt;/strong&gt;，可以用小刀切割。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;密度&lt;/strong&gt;：密度约为 $\pu{0.968 g/cm^3}$，比水小但比煤油大。因此在水中会浮在水面，而在煤油中会沉入底部。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;熔沸点&lt;/strong&gt;：熔点较低，约为 $\pu{97.794^oC}$；沸点约为 $\pu{882.94^oC}$。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;导电导热性&lt;/strong&gt;：是热和电的良导体。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;焰色反应&lt;/strong&gt;：钠及其化合物在灼烧时火焰呈&lt;strong&gt;黄色&lt;/strong&gt;，这是钠元素的特征性质，属于物理变化。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;钠的化学性质极度活泼，在自然界中均以化合态形式存在。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;与非金属单质反应&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;...&lt;/p&gt;</description>
+      <description>详细介绍碱金属钠及其氧化物、氢氧化物、盐类的物理化学性质、制备、反应机理、安全防护及工业应用，并阐述锂、钾、铷、铯等族元素的递变规律和典型用途。常见实验、焰色测试及电池材料。</description>
       <link>https://raineblog.dpdns.org/whk/science/element/1/</link>
       <pubDate>Fri, 19 Jun 2026 14:43:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/element/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/1.png" type="image/png" length="43635" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/1.png" type="image/png" length="44779" />
       
     </item>
     
@@ -71,29 +54,14 @@
       
       
       
-      <description>&lt;h1&gt;碱土金属概述&lt;/h1&gt;
-&lt;h2&gt;镁及其化合物&lt;/h2&gt;
-&lt;h3&gt;镁单质&lt;/h3&gt;
-&lt;p&gt;镁（Magnesium, Mg）是自然界中广泛分布的活泼金属元素，在地壳中的含量约为 2.09%，在海水中占约 0.135%。它在元素周期表中位于&lt;strong&gt;第三周期、第ⅡA 族&lt;/strong&gt;（碱土金属），原子序数为 12。以下是对镁单质性质、制备、应用及生物学意义的详细展开讲解。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;外观与结构&lt;/strong&gt;：镁是一种&lt;strong&gt;银白色&lt;/strong&gt;、具有金属光泽的&lt;strong&gt;轻金属&lt;/strong&gt;。其晶体结构属于&lt;strong&gt;六方最密堆积&lt;/strong&gt;（镁型），配位数为 12。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;密度与机械性&lt;/strong&gt;：镁的密度较小，约为 $\pu{1.738 g/cm^3}$ 至 $\pu{1.74 g/cm^3}$。它的硬度较低，质地较软，具有良好的&lt;strong&gt;延展性&lt;/strong&gt;，即便在粉末状态下也能保持金属光泽。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;热学与电学性质&lt;/strong&gt;：镁的熔点约为 $\pu{650 ^oC}$，沸点约为 $\pu{1090 ^oC}$。它是电和热的良导体。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;镁原子的最外层有 2 个电子，在化学反应中极易失去电子形成 $\ce{Mg^{2+}}$，表现出强还原性。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;与非金属单质反应&lt;/strong&gt;：&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;氧气&lt;/strong&gt;：在空...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</description>
+      <description>系统阐述碱土金属镁、铍、钙、锶、钡、镭的结构与性质，重点解析其氧化物、氢氧化物及盐类的制备、工业工艺、轻合金、医药、核能等多领域应用，并探讨硬水软化、格氏试剂和铍毒性等关键技术要点。</description>
       <link>https://raineblog.dpdns.org/whk/science/element/2/</link>
       <pubDate>Fri, 19 Jun 2026 14:43:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/element/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/2.png" type="image/png" length="44206" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/2.png" type="image/png" length="34514" />
       
     </item>
     
@@ -103,26 +71,14 @@
       
       
       
-      <description>&lt;h1&gt;贫金属与类金属&lt;/h1&gt;
-&lt;h2&gt;铝及其化合物&lt;/h2&gt;
-&lt;h3&gt;铝单质&lt;/h3&gt;
-&lt;p&gt;铝是一种银白色的轻金属，位于元素周期表第 $3$ 周期、第 $\ce{IIIA}$ 族（第 $13$ 族），原子序数为 $13$。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;核外电子排布&lt;/strong&gt;：基态铝原子的核外电子排布式为 $\ce{1s^2 2s^2 2p^6 3s^2 3p^1}$，也可简写为 $\ce{[Ne] 3s^2 3p^1}$。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;价电子特征&lt;/strong&gt;：铝原子的价电子排布为 $\ce{3s^2 3p^1}$，最外层有 $3$ 个电子。在化学反应中，铝原子极易失去这 $3$ 个电子形成带有 $3$ 个单位正电荷的铝离子（$\ce{Al^{3+}}$），因此常表现出 $+3$ 价。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;铝是地壳中含量最丰富的金属元素，丰度约为 $8.23\%$ 至 $8.8\%$，在所有元素中居第三位（仅次于氧和硅）。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;外观与质地&lt;/strong&gt;：铝具有&lt;strong&gt;银白色金属光泽&lt;/strong&gt;，质地较软，具有良好的&lt;strong&gt;延展性&lt;/strong&gt;。$\pu{1 g}$ 铝可以拉成约 $\pu{37 m}$ 的细丝，或展成厚度仅为 $\pu{0.00008 mm}$ 的铝箔。&lt;/li&gt;
-&lt;li&gt;**密度与熔沸...&lt;/li&gt;
-&lt;/ol&gt;</description>
+      <description>全面解析铝、碳、硅、硼等元素的电子结构、化合物特性、工业提取工艺及其在铝热反应、光伏硅、半导体、核能硼等贫金属、类金属领域的应用，并提供常见反应方程式、实验操作要点与安全注意事项。</description>
       <link>https://raineblog.dpdns.org/whk/science/element/3/</link>
       <pubDate>Fri, 19 Jun 2026 14:43:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/element/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/3.png" type="image/png" length="42622" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/3.png" type="image/png" length="44181" />
       
     </item>
     
@@ -132,28 +88,14 @@
       
       
       
-      <description>&lt;h1&gt;氮族活泼非金属&lt;/h1&gt;
-&lt;h2&gt;氮的基本性质&lt;/h2&gt;
-&lt;h3&gt;氮气及其性质&lt;/h3&gt;
-&lt;p&gt;氮气（$\text{N}_2$）是大气中含量最丰富的气体，约占空气总体积的 78%。作为氮族元素（第 15 族）的首位元素，氮气在自然界循环和工业生产中具有举足轻重的地位。&lt;/p&gt;
-&lt;p&gt;氮气分子的结构特征是其化学性质高度稳定的根本原因：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;成键方式&lt;/strong&gt;：氮原子（$1s^2 2s^2 2p^3$）有 3 个未成对电子。两个氮原子通过共用三对电子结合，形成 &lt;strong&gt;共价三键&lt;/strong&gt;（$\text{N}\equiv\text{N}$）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;轨道重叠&lt;/strong&gt;：三键由一个 &lt;strong&gt;$\sigma$ 键&lt;/strong&gt;（原子轨道“头碰头”重叠）和两个 &lt;strong&gt;$\pi$ 键&lt;/strong&gt;（原子轨道“肩并肩”重叠）组成。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;高键能与稳定性&lt;/strong&gt;：氮氮三键的键能极高（约为 &lt;strong&gt;941~946 kJ/mol&lt;/strong&gt;），断开此键需要巨大的能量。因此，氮气在常温下表现出极强的 &lt;strong&gt;化学惰性&lt;/strong&gt;，难以与其他物质反应。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;物理性质：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;基本特征&lt;/strong&gt;：纯净的氮气是 &lt;strong&gt;无色、无味、无嗅&lt;/strong&gt; 的气体。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;密度与溶解性&lt;/strong&gt;：密度（1.25 g/L）略小于空气，**难溶...&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>系统阐述氮族活泼非金属的基本性质、氮气、氮氧化物、硝酸及金属氮化物的制备与应用，详细解析氨、亚硝酸、叠氮、重氮等化合物，探讨氮的工业固氮、尾气处理及磷的同族差异，并介绍其在农业、化工和环境保护中的重要作用。</description>
       <link>https://raineblog.dpdns.org/whk/science/element/4/</link>
       <pubDate>Fri, 19 Jun 2026 14:43:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/element/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/4.png" type="image/png" length="48631" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/4.png" type="image/png" length="50742" />
       
     </item>
     
@@ -163,28 +105,14 @@
       
       
       
-      <description>&lt;h1&gt;氧族活泼非金属&lt;/h1&gt;
-&lt;h2&gt;氧及其化合物&lt;/h2&gt;
-&lt;h3&gt;氧单质与氧气的制取&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;氧（Oxygen）&lt;/strong&gt;是地球上含量最多、分布最广的元素，约占地壳总质量的46.6%。在自然界中，它既以&lt;strong&gt;单质&lt;/strong&gt;（氧气和臭氧）的形式存在，也以&lt;strong&gt;化合态&lt;/strong&gt;（如水、矿物、动植物机体）的形式广泛分布。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;原子结构&lt;/strong&gt;：氧原子的原子序数为8，位于元素周期表第2周期、第16族（氧族元素）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;电负性&lt;/strong&gt;：氧的&lt;strong&gt;电负性极高&lt;/strong&gt;（仅次于氟），这使其具有极强的得电子能力，表现出显著的&lt;strong&gt;强氧化性&lt;/strong&gt;。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;同位素&lt;/strong&gt;：自然界中的氧有三种稳定同位素：$^{16}\text{O}$（占绝对多数）、$^{17}\text{O}$和$^{18}\text{O}$。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;氧单质之一：氧气（$O_2$）。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;外观与状态&lt;/strong&gt;：在通常状况下，氧气是一种&lt;strong&gt;无色、无味、无嗅&lt;/strong&gt;的气体。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;密度与溶解性&lt;/strong&gt;：在标准状况下，其密度为1.429 g/L，比空气（1.293 g/L）&lt;strong&gt;略重&lt;/strong&gt;。它&lt;strong&gt;不易溶于水&lt;/strong&gt;，但在室温下1 L水中仍可溶解约30 mL氧气，这对于维持水生生物的生命至关重要。
--...&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>系统阐述氧、硫、硒等氧族非金属的原子结构、同素异形体、重要氧化物、氢氧合物及其制备、工业应用和环境影响，涵盖氧气、臭氧、硫酸、磺酸及硒化物的性质与用途，以及其在医药、能源和材料中的关键作用。</description>
       <link>https://raineblog.dpdns.org/whk/science/element/5/</link>
       <pubDate>Fri, 19 Jun 2026 14:43:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/element/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/5/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/5.png" type="image/png" length="47631" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/5.png" type="image/png" length="49644" />
       
     </item>
     
@@ -194,28 +122,14 @@
       
       
       
-      <description>&lt;h1&gt;卤族元素概述&lt;/h1&gt;
-&lt;h2&gt;氯及其化合物&lt;/h2&gt;
-&lt;h3&gt;氯单质的性质与应用&lt;/h3&gt;
-&lt;p&gt;氯（Chlorine）是极其活泼的非金属元素，位于元素周期表第三周期第ⅦA族。其单质&lt;strong&gt;氯气（$\text{Cl}_2$）&lt;/strong&gt;具有强氧化性，在工业、医疗及日常生活中有着极其广泛的应用。以下是关于氯单质性质及其应用的详细展开讲解：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;色、态与气味&lt;/strong&gt;：在常温常压下，氯气是一种&lt;strong&gt;黄绿色&lt;/strong&gt;、具有强烈&lt;strong&gt;刺激性气味&lt;/strong&gt;的有毒气体。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;密度&lt;/strong&gt;：氯气的密度比空气大（标准状况下为 $3.214\,\text{g/L}$），约为同体积空气重量的 2.5 倍。在实验室中通常采用向上排空气法收集。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;溶解性&lt;/strong&gt;：氯气可溶于水（25℃时，1 体积水约溶解 2 体积氯气），所得水溶液称为&lt;strong&gt;氯水&lt;/strong&gt;。氯气也易溶于四氯化碳等有机溶剂。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;状态变化&lt;/strong&gt;：氯气易液化。在常温下加压或降温至 $-34.6^\circ\text{C}$ 时，可变为黄绿色油状的&lt;strong&gt;液氯&lt;/strong&gt;；继续冷却至 $-101^\circ\text{C}$ 则凝固为黄色固体。由于干燥液氯不与铁反应，工业上常用钢瓶盛装液氯储运。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;氯原子的最外...&lt;/p&gt;</description>
+      <description>系统介绍氯、溴、碘等卤族元素的物理化学特性、制备工艺、氧化还原规律、工业应用如漂白、消毒、塑料生产及安全防护要点，涵盖氯气、盐酸、次氯酸等关键知识及其在实验室中的典型演示。</description>
       <link>https://raineblog.dpdns.org/whk/science/element/6/</link>
       <pubDate>Fri, 19 Jun 2026 14:43:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/element/6/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/6/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/6.png" type="image/png" length="45413" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/6.png" type="image/png" length="48231" />
       
     </item>
     
@@ -225,28 +139,14 @@
       
       
       
-      <description>&lt;h1&gt;过渡金属概述&lt;/h1&gt;
-&lt;h2&gt;铁及其化合物&lt;/h2&gt;
-&lt;h3&gt;铁的物理性质&lt;/h3&gt;
-&lt;p&gt;铁（Fe）是人类使用量最大、用途最广的金属元素，也是地壳中含量第四高的元素（在金属中居第二位，仅次于铝）。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;周期表位置&lt;/strong&gt;：铁原子序数为 $26$，位于元素周期表&lt;strong&gt;第四周期、第 VIII 族&lt;/strong&gt;，属于过渡元素。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;电子排布&lt;/strong&gt;：铁原子的外围电子层排布为 &lt;strong&gt;$3d^6 4s^2$&lt;/strong&gt;。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;化合价&lt;/strong&gt;：在化学反应中，铁原子容易失去最外层的 $2$ 个 $4s$ 电子形成 &lt;strong&gt;$\ce{Fe^{2+}}$&lt;/strong&gt;，也容易进一步失去 $1$ 个 $3d$ 电子（形成 $3d^5$ 半充满的稳定结构）得到 &lt;strong&gt;$\ce{Fe^{3+}}$&lt;/strong&gt;，因此铁通常显 &lt;strong&gt;$+2$ 价和 $+3$ 价&lt;/strong&gt;。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;铁单质的性质：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;外观与磁性&lt;/strong&gt;：纯净的铁是光亮的&lt;strong&gt;银白色&lt;/strong&gt;金属，具有&lt;strong&gt;铁磁性&lt;/strong&gt;，能被磁铁吸引并在磁场作用下产生磁性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;基本常数&lt;/strong&gt;：密度约为 $\pu{7.86 g/cm^3}$，熔点为 $\pu{1538 ^oC}$，沸点为 $\pu{2861 ^oC}$。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;特性&lt;/strong&gt;：具有...&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>全面解析过渡金属铁、铜等的物理化学性质、冶炼工艺、常见化合物及实验应用，涵盖钢铁、合金、还原铁粉、高铁酸盐等内容，并介绍相关检测试剂、酸碱反应、氧化还原机制及工业废渣处理技术。</description>
       <link>https://raineblog.dpdns.org/whk/science/element/7/</link>
       <pubDate>Fri, 19 Jun 2026 14:43:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/element/7/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/7/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/7.png" type="image/png" length="46047" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/7.png" type="image/png" length="48473" />
       
     </item>
     
@@ -861,22 +761,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;磁场概述&lt;/h1&gt;
-&lt;h2&gt;磁场&lt;/h2&gt;
-&lt;h3&gt;磁现象&lt;/h3&gt;
-&lt;p&gt;如果将一条形磁铁投入铁屑中，再取出时可以发现，靠近两端的地方吸引的铁屑特别多，即磁性特别强，我们称之为磁极。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-18.avif&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
-&lt;p&gt;如果将条形磁铁或狭长磁针的中心悬挂或支撑起来，使其能在水平面内自由转动，则两磁极总是分别指向南北方向。我们称指北的一端为北极，又叫 $N$ 极；指南的一端为南极，又叫 $S$ 极。如果用另一磁铁去接近它们，则会发现同号的磁极互相排斥，异号的磁极互相吸引。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;./Geomagnetisme.svg&#34;&gt;{ align=right width=&#34;50%&#34; }&lt;/p&gt;
-&lt;p&gt;基于上述现象，16 世纪末，英王御医威廉·吉尔伯特指出，指南针之所以指向南北，是因为地球是一个巨大的磁体，它的地理上的北极和南极就是它的磁南极和磁北极。&lt;/p&gt;
-&lt;p&gt;现在我们更进一步地知道，地球的地理两极与地磁两极并不重合，因此磁针并非准确地指南或指北，其间有一个交角，这就是地磁偏角，简称磁偏角。磁偏角的数值因地区不同而异。不仅地球是一个巨大的磁体，宇宙中的许多天体都具有磁...&lt;/p&gt;</description>
+      <description>全面介绍磁场基本概念、磁性分类、磁感应强度与磁感线、洛伦兹力与安培力以及左/右手定则，深入解析磁场在电机、粒子加速器、磁约束与霍尔效应等实际应用，涵盖磁场叠加原理、匀强磁场与磁瓶结构原理阐述。</description>
       <link>https://raineblog.dpdns.org/whk/science/electromagnetism/4/</link>
       <pubDate>Wed, 24 Dec 2025 11:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/4.png" type="image/png" length="42631" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/4.png" type="image/png" length="45881" />
       
     </item>
     
@@ -886,25 +778,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;电磁感应&lt;/h1&gt;
-&lt;h2&gt;感应概述&lt;/h2&gt;
-&lt;h3&gt;磁场的通量&lt;/h3&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;image-31.avif&#34;&gt;{ width=&#34;40%&#34; align=right }&lt;/p&gt;
-&lt;p&gt;为了形象地描绘磁场的方向和强弱，与电场线类似，可以绘制磁场线即磁感应线，简称磁感线。一方面，磁感线上每一点的切线方向都跟这点的磁感应强度 $B$ 的方向一致；另一方面，为了比较 $B$ 的大小，使单位面积的磁感线数目与 $B$ 的大小成正比，即 $B$ 较大处磁感线密集，$B$ 较小处稀疏。&lt;/p&gt;
-&lt;p&gt;为了研究问题的方便，人们还引入一个叫做磁通量的物理量。设在磁感应强度为 $B$ 的匀强磁场中或在一个非匀强磁场中可以视为匀强的小区域中，有一个与磁场方向垂直的平面，面积为 $S$，则 $B$ 和 $S$ 的乘积就叫做穿过这个面积的磁通量，简称磁通。用字母 $\Phi$ 表示，即：&lt;/p&gt;
-&lt;p&gt;$$
-\Phi = BS
-$$&lt;/p&gt;
-&lt;p&gt;如果磁场方向不与我们研究的平面垂直，而是有一个夹角 $\alpha$，我们可用这个面在垂直于磁场方向的投影面积 $S&#39;$ 与 $B$ 的乘积表示磁通量，即：&lt;/p&gt;
-&lt;p&gt;$$
-\Phi = BS&#39; = BS\cos\alph...&lt;/p&gt;</description>
+      <description>系统阐述电磁感应原理，包括磁通量、安培环路定律、楞次定律及法拉第电磁感应定律，详细解析动生、感生、自感与互感电动势、涡流及其在电机、变压器和电磁炉等实际应用中的能量转换与抑制措施。</description>
       <link>https://raineblog.dpdns.org/whk/science/electromagnetism/5/</link>
       <pubDate>Wed, 24 Dec 2025 11:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/5/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/5.png" type="image/png" length="41115" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/5.png" type="image/png" length="43110" />
       
     </item>
     
@@ -914,34 +795,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;交变电流&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;科学的历史不仅是一连串事实、规则和随之而来的数学描述，它也是一部概念的历史。当我们进入一个新的领域时，常常需要新的概念。——普朗克&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;交变电流&lt;/h2&gt;
-&lt;p&gt;我们已经学过了恒定电流。在恒定电流的电路中，电源的电动势不随时间变化，电路中的电流、电压也不随时间变化。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; src=&#34;e-image-43.avif&#34;&gt;{ width=&#34;100%&#34; }&lt;/p&gt;
-&lt;p&gt;很多用电器中的电流、电压（方向）也随时间做周期性变化，这样的电流叫作交变电流（Alternating Current，AC），简称交流。&lt;strong&gt;方向&lt;/strong&gt;不随时间变化的电流称为直流（Direct Current，DC）。干电池供给的电流方向不随时间变化，所以属于直流。交变电流经过电子电路的处理，也能变成直流。&lt;/p&gt;
-&lt;p&gt;注意：基尔霍夫定律定律适用于直流电路和较低频率的交流电路中，而对高频率的交流电路有较大误差。&lt;/p&gt;
-&lt;p&gt;各类交流电波形具有共同特征：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;具有固定的频率（或作周期性的变化）。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;任何非简谐式的交流电都可以分解为一系列不同频率的简谐成分（傅立叶级数）。所以最基本、最重要的是简谐交流电。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;不同频率的简谐波在...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</description>
+      <description>交变电流的产生、正弦波特性与有效值，变压器原理、感抗容抗、三相星形及三角形接法；分析基尔霍夫定律适用频率、励磁电流与损耗，深入讲解LC振荡、麦克斯韦电磁场及无线电波的产生与调制。</description>
       <link>https://raineblog.dpdns.org/whk/science/electromagnetism/6/</link>
       <pubDate>Wed, 24 Dec 2025 11:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/6/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/6/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/6.png" type="image/png" length="39800" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/6.png" type="image/png" length="41995" />
       
     </item>
     
