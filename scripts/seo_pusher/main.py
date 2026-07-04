@@ -10,6 +10,7 @@ from _indexnow import submit_to_indexnow
 from _ping import submit_sitemap_ping, submit_rpc_ping
 from _other import submit_other
 
+
 def calculate_md5(file_path: Path) -> str:
     """计算文件的 MD5 哈希"""
     hash_md5 = hashlib.md5()
@@ -22,6 +23,7 @@ def calculate_md5(file_path: Path) -> str:
         print(f"[main] 计算 {file_path} MD5 失败: {e}")
         return ""
 
+
 def md_path_to_url(file_path: str, site_url: str) -> str:
     """将本地 docs 相对路径转换为绝对 URL"""
     if file_path.startswith("docs/"):
@@ -31,21 +33,22 @@ def md_path_to_url(file_path: str, site_url: str) -> str:
     else:
         rel_path = file_path
 
-    rel_path = rel_path.replace('\\', '/')
+    rel_path = rel_path.replace("\\", "/")
 
-    if rel_path.endswith('.md'):
+    if rel_path.endswith(".md"):
         rel_path = rel_path[:-3]
 
-    if rel_path.endswith('/index'):
+    if rel_path.endswith("/index"):
         rel_path = rel_path[:-5]
-    elif rel_path == 'index':
-        rel_path = ''
+    elif rel_path == "index":
+        rel_path = ""
 
-    if rel_path and not rel_path.endswith('/'):
-        rel_path += '/'
+    if rel_path and not rel_path.endswith("/"):
+        rel_path += "/"
 
-    base_url = site_url.rstrip('/') + '/'
+    base_url = site_url.rstrip("/") + "/"
     return base_url + rel_path
+
 
 def main():
     # 1. 获取基础配置
@@ -53,10 +56,10 @@ def main():
     site_name = os.environ.get("SITE_NAME", "RainPPR's WHK Wiki")
     site_project = os.environ.get("SITE_PROJECT", "whk")
     site_base = os.environ.get("SITE_BASE", f"https://{site_host}")
-    
-    site_url = f"{site_base}/{site_project}".rstrip('/') + '/'
+
+    site_url = f"{site_base}/{site_project}".rstrip("/") + "/"
     sitemap_url = f"{site_url}sitemap.xml"
-    
+
     print("=" * 60)
     print(f"[SEO Pusher] 开始运行...")
     print(f"[SEO Pusher] SITE_NAME: {site_name}")
@@ -86,9 +89,9 @@ def main():
 
     current_files = {}
     for p in docs_dir.glob("**/*.md"):
-        if any(part.startswith('.') for part in p.parts):
+        if any(part.startswith(".") for part in p.parts):
             continue
-        
+
         file_path_str = p.as_posix()
         md5_val = calculate_md5(p)
         if md5_val:
@@ -98,12 +101,12 @@ def main():
 
     # 4. 比对状态，收集待处理任务
     all_tasks = []
-    
+
     # 4.1 检测新增与更新
     for file_path, current_md5 in current_files.items():
         db_item = db.get(file_path)
         is_changed = False
-        
+
         if not db_item:
             is_changed = True
             last_submitted = "1970-01-01T00:00:00+00:00"
@@ -113,25 +116,29 @@ def main():
                 is_changed = True
 
         if is_changed:
-            all_tasks.append({
-                "file_path": file_path,
-                "action": "URL_UPDATED",
-                "url": md_path_to_url(file_path, site_url),
-                "current_md5": current_md5,
-                "last_submitted": last_submitted
-            })
+            all_tasks.append(
+                {
+                    "file_path": file_path,
+                    "action": "URL_UPDATED",
+                    "url": md_path_to_url(file_path, site_url),
+                    "current_md5": current_md5,
+                    "last_submitted": last_submitted,
+                }
+            )
 
     # 4.2 检测已删除文件
     for file_path, db_item in db.items():
         if file_path not in current_files:
             last_submitted = db_item.get("last_submitted", "1970-01-01T00:00:00+00:00")
-            all_tasks.append({
-                "file_path": file_path,
-                "action": "URL_DELETED",
-                "url": md_path_to_url(file_path, site_url),
-                "current_md5": None,
-                "last_submitted": last_submitted
-            })
+            all_tasks.append(
+                {
+                    "file_path": file_path,
+                    "action": "URL_DELETED",
+                    "url": md_path_to_url(file_path, site_url),
+                    "current_md5": None,
+                    "last_submitted": last_submitted,
+                }
+            )
 
     print(f"[main] 共检测到 {len(all_tasks)} 个待处理的变更 (更新/删除)。")
 
@@ -143,10 +150,12 @@ def main():
 
     # 5. 按照 last_submitted 排序并限制每次 100 个
     all_tasks.sort(key=lambda x: (x["last_submitted"], x["file_path"]))
-    
+
     batch_tasks = all_tasks[:100]
     ignored_tasks_count = len(all_tasks) - len(batch_tasks)
-    print(f"[main] 本次处理前 100 个最老的变更，剩余 {ignored_tasks_count} 个变更将留到下次运行。")
+    print(
+        f"[main] 本次处理前 100 个最老的变更，剩余 {ignored_tasks_count} 个变更将留到下次运行。"
+    )
 
     # 6. 推送至 Google Indexing API Batch
     processed_tasks = submit_to_google_indexing(batch_tasks)
@@ -154,16 +163,13 @@ def main():
     # 7. 根据推送结果更新数据库
     now_str = datetime.now(timezone.utc).isoformat()
     success_urls = []
-    
+
     for task in processed_tasks:
         file_path = task["file_path"]
         if task.get("success"):
             success_urls.append(task["url"])
             if task["action"] == "URL_UPDATED":
-                db[file_path] = {
-                    "md5": task["current_md5"],
-                    "last_submitted": now_str
-                }
+                db[file_path] = {"md5": task["current_md5"], "last_submitted": now_str}
             elif task["action"] == "URL_DELETED":
                 if file_path in db:
                     del db[file_path]
@@ -190,6 +196,7 @@ def main():
     submit_other(success_urls)
 
     print("[main] 🎉 本轮 SEO 推送及状态同步任务执行完毕。")
+
 
 if __name__ == "__main__":
     main()

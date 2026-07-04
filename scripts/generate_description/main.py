@@ -40,7 +40,7 @@ def write_file(path, content):
 def parse_frontmatter(content):
     match = re.match(r"^---\s*\n(.*?)\n---\s*\n", content, re.DOTALL)
     if match:
-        return match.group(1), content[match.end():]
+        return match.group(1), content[match.end() :]
     return "", content
 
 
@@ -111,11 +111,15 @@ def main():
 
     print(f"Processing {len(to_process)} file(s)...")
 
-    for i, (rel, md_file, last_ts, content, fm_body, body, md5) in enumerate(to_process):
-        print(f"[{i+1}/{len(to_process)}] {rel}")
+    for i, (rel, md_file, last_ts, content, fm_body, body, md5) in enumerate(
+        to_process
+    ):
+        print(f"[{i + 1}/{len(to_process)}] {rel}")
 
         try:
-            description = get_description(md_file.read_text(encoding="utf-8"), {"路径": rel})
+            description = get_description(
+                md_file.read_text(encoding="utf-8"), {"路径": rel}
+            )
 
             if description and description.strip():
                 desc = description.strip()

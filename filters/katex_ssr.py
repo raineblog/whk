@@ -65,7 +65,10 @@ def _load_katex_config():
         return {}
 
     if yaml is None:
-        print("Warning: pyyaml not installed, using default katex config.", file=sys.stderr)
+        print(
+            "Warning: pyyaml not installed, using default katex config.",
+            file=sys.stderr,
+        )
         return {}
 
     with open(config_path, "r", encoding="utf-8") as f:
@@ -88,16 +91,25 @@ def _render_formulas_with_bun(formulas, options):
 
     bun_cmd = _find_bun()
     if bun_cmd is None:
-        print("Warning: bun/bunx not found. KaTeX formulas will not be rendered.", file=sys.stderr)
+        print(
+            "Warning: bun/bunx not found. KaTeX formulas will not be rendered.",
+            file=sys.stderr,
+        )
         return {}
 
-    input_data = json.dumps({"formulas": formulas, "options": options}, ensure_ascii=False)
+    input_data = json.dumps(
+        {"formulas": formulas, "options": options}, ensure_ascii=False
+    )
 
-    with tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False, encoding="utf-8") as f:
+    with tempfile.NamedTemporaryFile(
+        mode="w", suffix=".json", delete=False, encoding="utf-8"
+    ) as f:
         f.write(input_data)
         input_path = f.name
 
-    with tempfile.NamedTemporaryFile(mode="w", suffix=".mjs", delete=False, encoding="utf-8") as f:
+    with tempfile.NamedTemporaryFile(
+        mode="w", suffix=".mjs", delete=False, encoding="utf-8"
+    ) as f:
         f.write(KATEX_RENDERER_JS)
         renderer_path = f.name
 
@@ -146,13 +158,17 @@ def walk_ast(obj, math_items):
         if obj.get("t") == "Math":
             c = obj.get("c", [])
             if len(c) == 2:
-                math_type = c[0].get("t", "InlineMath") if isinstance(c[0], dict) else str(c[0])
+                math_type = (
+                    c[0].get("t", "InlineMath") if isinstance(c[0], dict) else str(c[0])
+                )
                 content = c[1]
-                math_items.append({
-                    "type": math_type,
-                    "content": content,
-                    "ref": obj,
-                })
+                math_items.append(
+                    {
+                        "type": math_type,
+                        "content": content,
+                        "ref": obj,
+                    }
+                )
         else:
             for value in obj.values():
                 walk_ast(value, math_items)
@@ -176,7 +192,9 @@ def transform_inlines(inlines, content_to_html):
         if isinstance(item, dict) and item.get("t") == "Math":
             c = item.get("c", [])
             if len(c) == 2:
-                math_type = c[0].get("t", "InlineMath") if isinstance(c[0], dict) else str(c[0])
+                math_type = (
+                    c[0].get("t", "InlineMath") if isinstance(c[0], dict) else str(c[0])
+                )
                 content = c[1]
                 is_display = math_type == "DisplayMath"
                 html = content_to_html.get((content, is_display))
@@ -237,11 +255,13 @@ def main():
     for i, item in enumerate(math_items):
         content = item["content"]
         is_display = item["type"] == "DisplayMath"
-        formulas.append({
-            "index": i,
-            "content": content,
-            "displayMode": is_display,
-        })
+        formulas.append(
+            {
+                "index": i,
+                "content": content,
+                "displayMode": is_display,
+            }
+        )
         content_index_map[(content, is_display)] = i
 
     # Load KaTeX configuration from katex_config.yml
@@ -282,7 +302,11 @@ def main():
 
     # Write modified AST to stdout
     output = json.dumps(ast, ensure_ascii=False)
-    output = output.encode("utf-8", errors="surrogateescape").decode("utf-8", errors="replace").encode("utf-8")
+    output = (
+        output.encode("utf-8", errors="surrogateescape")
+        .decode("utf-8", errors="replace")
+        .encode("utf-8")
+    )
     sys.stdout.buffer.write(output)
 
 
