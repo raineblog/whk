@@ -1,6 +1,6 @@
 import os
 import json
-from oauth2client.service_account import ServiceAccountCredentials
+from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
 SCOPES = ['https://www.googleapis.com/auth/indexing']
@@ -26,7 +26,7 @@ def submit_to_google_indexing(tasks: list[dict]) -> list[dict]:
 
     try:
         creds_data = json.loads(creds_json)
-        credentials = ServiceAccountCredentials.from_service_account_info(creds_data, scopes=SCOPES)
+        credentials = service_account.Credentials.from_service_account_info(creds_data, scopes=SCOPES)
         # cache_discovery=False 能够防止在无写权限的临时目录中生成缓存文件警告
         service = build('indexing', 'v3', credentials=credentials, cache_discovery=False)
     except Exception as e:
