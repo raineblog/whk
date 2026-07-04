@@ -16,7 +16,7 @@ def get_description(file: str, options):
         user_content += f"{key}：{value}\n"
     
     completion = client.chat.completions.create(
-        model="openai/gpt-oss-20b",
+        model="openai/gpt-oss-120b",
         messages=[
             {
                 "role": "system",
