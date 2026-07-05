@@ -120,7 +120,7 @@
 - [生物化学分子](https://raineblog.dpdns.org/whk/science/organic/5/index.md)
 - [平面向量](https://raineblog.dpdns.org/whk/science/plane/1/index.md)
 - [三角函数与三角恒等变换](https://raineblog.dpdns.org/whk/science/plane/2/index.md)
-- [解三角形和三角形中的三角函数](https://raineblog.dpdns.org/whk/science/plane/3/index.md)
+- [解三角形与三角形中的三角函数](https://raineblog.dpdns.org/whk/science/plane/3/index.md)
 - [平面几何进阶](https://raineblog.dpdns.org/whk/science/plane/4/index.md)
 - [数列基础](https://raineblog.dpdns.org/whk/science/polynomial/1/index.md)
 - [数列提高](https://raineblog.dpdns.org/whk/science/polynomial/2/index.md)

@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sun, 05 Jul 2026 06:34:51 -0000</pubDate>
-    <lastBuildDate>Sun, 05 Jul 2026 06:34:51 -0000</lastBuildDate>
+    <pubDate>Sun, 05 Jul 2026 06:40:15 -0000</pubDate>
+    <lastBuildDate>Sun, 05 Jul 2026 06:40:15 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -37,18 +37,14 @@
       
       
       
-      <description>&lt;h1&gt;RainPPR 的高中文化课笔记&lt;/h1&gt;
-&lt;p&gt;如果您的页面混乱，请刷新或检查网络良好！&lt;/p&gt;
-&lt;p&gt;这个页面暂时没有完成，您可以从左边的侧边栏查看。&lt;/p&gt;
-&lt;p&gt;目前主要正在更化学和生物的内容，数学的很多还在咕咕咕。&lt;/p&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-07-05&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-07-05T06:10:11+00:00&#39;&gt;2026-07-05&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-07-05&#39;&gt;&lt;sp...</description>
+      <description>访问 RainPPR 高中文化课笔记，获取优质的高中学科学习资料。网站目前正重点更新化学与生物笔记，数学部分也持续完善中。学生可通过侧边栏查阅各章节，帮助高效掌握高中知识点，提升学习效率。</description>
       <link>https://raineblog.dpdns.org/whk/science/</link>
       <pubDate>Sun, 05 Jul 2026 06:10:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/index.png" type="image/png" length="49726" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/index.png" type="image/png" length="52974" />
       
     </item>
     
@@ -262,14 +258,14 @@
       
       
       
-      <description>深入解析基因与染色体关系、孟德尔三大定律、连锁互换及伴性遗传，系统讲解遗传病分类、概率预测与现代育种技术，包括杂交、诱变、单倍体和多倍体育种等，帮助学生掌握经典遗传学要点。</description>
+      <description>本文深入解析基因与染色体关系、孟德尔三大定律、连锁互换及伴性遗传，系统讲解遗传病分类、概率预测与现代育种技术，涵盖杂交、诱变、单倍体及多倍体育种等，帮助学生全面掌握经典遗传学要点与生物进化理论。</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/6/</link>
       <pubDate>Thu, 19 Mar 2026 12:54:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/cell/6/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/6/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/6.png" type="image/png" length="50498" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/6.png" type="image/png" length="50069" />
       
     </item>
     
@@ -1707,31 +1703,76 @@
       
       
       
-      <description>全面解析三角函数定义、弧度与角度转换、正弦余弦正切的图像、周期、奇偶性及常用诱导、和差、倍角、半角等公式，帮助快速掌握三角恒等式，涵盖单位圆定义、尼云定理、正弦曲线参数、切比雪夫多项式及辅助角化简技巧。</description>
+      <description>&lt;h1&gt;三角函数与三角恒等变换&lt;/h1&gt;
+&lt;h2&gt;角和三角函数&lt;/h2&gt;
+&lt;h3&gt;任意角和弧度制&lt;/h3&gt;
+&lt;p&gt;任意角的定义：平面内一条射线绕其端点从一个位置旋转到另一个位置形成的图形叫做角。&lt;/p&gt;
+&lt;p&gt;开始的位置称为始边，结束的位置称为终边。并规定：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;按逆时针方向旋转形成的角叫做正角，其角度为正；&lt;/li&gt;
+&lt;li&gt;按顺时针方向旋转形成的角叫做负角，其角度为负；&lt;/li&gt;
+&lt;li&gt;终边相对于始边没有做任何旋转的角叫做零角，其角度为 $0$。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;为什么逆时针是正角？考虑点 $(1,0)$ 绕着 $(0,0)$ 转一个锐角：&lt;/p&gt;
+&lt;p&gt;得到的点 $A(x,y)$ 一定满足 $x,y&amp;gt;0$，因此定义逆时针为正角。&lt;/p&gt;
+&lt;p&gt;这样就把角的概念推向了任意角。&lt;/p&gt;
+&lt;p&gt;弧度制的定义：弧度用符号 $\text{rad}$ 表示，读作「弧度」。&lt;/p&gt;
+&lt;p&gt;定义正角的弧度为正、负角的弧度为负，零角的弧度为 $0$；&lt;/p&gt;
+&lt;p&gt;如果半径为 $r$ 的圆的圆心角 $\alpha$ 所对弧长为 $l$ ，则：&lt;/p&gt;
+&lt;p&gt;$$
+|\alpha|=\dfrac{l}{r}
+$$&lt;/p&gt;
+&lt;p&gt;与角 $\alpha$ 终边位置相同的角的集合很容易得出，为：&lt;/p&gt;
+&lt;p&gt;$$
+{\varphi \mid \varphi = \alpha...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/plane/2/</link>
       <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/plane/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/2.png" type="image/png" length="51817" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/2.png" type="image/png" length="49616" />
       
     </item>
     
     <item>
-      <title>解三角形和三角形中的三角函数</title>
+      <title>解三角形与三角形中的三角函数</title>
       
       
       
       
-      <description>系统阐述三角函数题型与解题思路，涵盖变角、整体角、齐次、弦化切等思想，并提供多例详解和三角恒等式的推导，帮助深入掌握函数求值技巧。并系统归纳角度变换、周期分析及参数求解方法。</description>
+      <description>&lt;h1&gt;解三角形与三角形中的三角函数&lt;/h1&gt;
+&lt;h2&gt;三角形中的三角函数&lt;/h2&gt;
+&lt;p&gt;条件，在三角形中，有 $x+y+z=\pi$（三角形内角和），那么：&lt;/p&gt;
+&lt;h3&gt;正切恒等式&lt;/h3&gt;
+&lt;h4&gt;形式一&lt;/h4&gt;
+&lt;p&gt;$$
+\tan x+\tan y+\tan z=\tan x\tan y\tan z
+$$&lt;/p&gt;
+&lt;p&gt;证明：&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+\tan z&amp;amp;=\tan(\pi-x-y)=-\tan(x+y)\
+\tan z&amp;amp;=-{\tan x+\tan y\over1-\tan x\tan y}
+\end{aligned}
+$$&lt;/p&gt;
+&lt;p&gt;下面的式子整理即可。&lt;/p&gt;
+&lt;h4&gt;形式二&lt;/h4&gt;
+&lt;p&gt;$$
+\tan{x\over2}\tan{y\over2}+\tan{y\over2}\tan{z\over2}+\tan{z\over2}\tan{x\over2}=1
+$$&lt;/p&gt;
+&lt;p&gt;证明：&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+\tan{z\over2}&amp;amp;=\tan\left({\pi\over2}-{x\over2}-{y\over2}\right)={1\over\tan({x\over2}+{y\over2})}\
+\tan...&lt;/p&gt;</description>
       <link>https://raineblog.dpdns.org/whk/science/plane/3/</link>
       <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/plane/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/3.png" type="image/png" length="52384" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/3.png" type="image/png" length="48674" />
       
     </item>
     
@@ -1741,14 +1782,17 @@
       
       
       
-      <description>本文系统整理了二十余道三角函数与三角形求解例题，涵盖余弦、正弦定理及角度关系，详细推导角、边以及面积、周长等求法，适合高中及竞赛数学学习。解答过程简明，配合关键公式，便于快速掌握。</description>
+      <description>&lt;h1&gt;平面几何进阶&lt;/h1&gt;
+&lt;h2&gt;平面几何三大定理&lt;/h2&gt;
+&lt;h2&gt;平面几何拓展定理&lt;/h2&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-07-21&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-07-21T03:49:40+00:00&#39;&gt;2025-07-21&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-07-05&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;tim...</description>
       <link>https://raineblog.dpdns.org/whk/science/plane/4/</link>
       <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/plane/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/4.png" type="image/png" length="41545" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/4.png" type="image/png" length="39672" />
       
     </item>
     
@@ -2353,14 +2397,14 @@
       
       
       
-      <description>RainPPR 的 WHK 博客是面向高中生的百科式知识库，受 CTF Wiki 与 OI Wiki 启发，融合教材、网课和培训资料，并通过作者创新改造构建完整的学科体系，提供精准可靠的学习参考。</description>
+      <description>RainPPR 的 WHK 博客是面向高中生的百科知识库，受 CTF Wiki 与 OI Wiki 启发，融合教材、网课及培训资料。通过创新构建了完整的高中学科体系，旨在为学生提供精准、可靠的学习参考。</description>
       <link>https://raineblog.dpdns.org/whk/</link>
       <pubDate>Fri, 23 Aug 2024 03:15:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/index.png" type="image/png" length="51088" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/index.png" type="image/png" length="50112" />
       
     </item>
     
