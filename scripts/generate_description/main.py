@@ -6,7 +6,7 @@ import sys
 import time
 from pathlib import Path
 
-from zai_api import get_description
+from nvidia_api import get_description
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 DOCS_DIR = PROJECT_ROOT / "docs"
