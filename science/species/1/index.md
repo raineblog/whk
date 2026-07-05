@@ -16,6 +16,6 @@
 
 > 【沪科教版】真核细胞和原核细胞的概念提出后，美国科学家惠特克根据生物细胞的结构特征和能量利用方式，将生物分为五界（表 1-1）。原核生物界、原生生物界的绝大多数生物和真菌界的一部分生物以单细胞的形式存在，而植物界、动物界的所有生物及大型真菌则是由多细胞构成的。病毒属于一类特殊的生物，没有细胞结构。如何对病毒进行生物学分类尚存在争议。随着分子生物学技术的发展，有学者提出原核生物界因为分子水平的差异还可分为古细菌界和真细菌界。
 
-2025-09-062026-07-04
+2025-09-062026-07-05
 
 [RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [kiloconnect[bot]](mailto:240665456+kiloconnect%5Bbot%5D@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com)

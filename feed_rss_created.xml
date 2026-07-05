@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sat, 04 Jul 2026 15:05:18 -0000</pubDate>
-    <lastBuildDate>Sat, 04 Jul 2026 15:05:18 -0000</lastBuildDate>
+    <pubDate>Sun, 05 Jul 2026 06:11:05 -0000</pubDate>
+    <lastBuildDate>Sun, 05 Jul 2026 06:11:05 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,27 @@
     
 
     
+    
+    <item>
+      <title>RainPPR 的高中文化课笔记</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;RainPPR 的高中文化课笔记&lt;/h1&gt;
+&lt;p&gt;如果您的页面混乱，请刷新或检查网络良好！&lt;/p&gt;
+&lt;p&gt;这个页面暂时没有完成，您可以从左边的侧边栏查看。&lt;/p&gt;
+&lt;p&gt;目前主要正在更化学和生物的内容，数学的很多还在咕咕咕。&lt;/p&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-07-05&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-07-05T06:10:11+00:00&#39;&gt;2026-07-05&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-07-05&#39;&gt;&lt;sp...</description>
+      <link>https://raineblog.dpdns.org/whk/science/</link>
+      <pubDate>Sun, 05 Jul 2026 06:10:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/index.png" type="image/png" length="49726" />
+      
+    </item>
     
     <item>
       <title>碱金属概述</title>
@@ -224,14 +245,14 @@
       
       
       
-      <description>系统阐述核酸结构、DNA复制与转录、基因突变、表观遗传及基因工程技术，包括PCR、CRISPR和转基因应用，助您深入理解分子生物学与生物技术，以及现代生物制药前沿进展。</description>
+      <description>系统阐述核酸结构、DNA复制与转录、基因突变与表观遗传，并深入解析PCR、CRISPR等基因工程技术及其在医药、农业、生物制药中的最新应用，涵盖基因表达调控、染色体异常及现代生物技术前沿。</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/5/</link>
       <pubDate>Thu, 19 Mar 2026 12:54:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/cell/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/5/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/5.png" type="image/png" length="40974" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/5.png" type="image/png" length="41381" />
       
     </item>
     
@@ -1380,14 +1401,14 @@
       
       
       
-      <description>本文系统介绍五界分类、原核与真核差异及生物营养方式；详细解析拉马克与达尔文的进化观点，重点阐述自然选择、基因突变、基因库与种群隔离在物种形成中的作用，并探讨协同进化与生物多样性的形成过程。</description>
+      <description>系统介绍五界分类的依据与代表生物，阐明原核与真核的结构差异和营养方式，并解析自然选择、基因突变及基因库等机制在物种形成和生物多样性中的作用，以及协同进化对生态系统的影响。</description>
       <link>https://raineblog.dpdns.org/whk/science/species/1/</link>
       <pubDate>Sat, 06 Sep 2025 10:39:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/species/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/species/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/1.png" type="image/png" length="42310" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/species/1.png" type="image/png" length="42886" />
       
     </item>
     
@@ -1681,7 +1702,7 @@
     </item>
     
     <item>
-      <title>三角函数公式</title>
+      <title>三角函数与三角恒等变换</title>
       
       
       
@@ -1693,12 +1714,12 @@
       <comments>https://raineblog.dpdns.org/whk/science/plane/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/2.png" type="image/png" length="45800" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/2.png" type="image/png" length="51817" />
       
     </item>
     
     <item>
-      <title>三角函数题型</title>
+      <title>解三角形和三角形中的三角函数</title>
       
       
       
@@ -1710,12 +1731,12 @@
       <comments>https://raineblog.dpdns.org/whk/science/plane/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/3.png" type="image/png" length="46810" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/3.png" type="image/png" length="52384" />
       
     </item>
     
     <item>
-      <title>三角函数例题</title>
+      <title>平面几何进阶</title>
       
       
       
@@ -1727,24 +1748,7 @@
       <comments>https://raineblog.dpdns.org/whk/science/plane/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/4.png" type="image/png" length="45702" />
-      
-    </item>
-    
-    <item>
-      <title>解三角形</title>
-      
-      
-      
-      
-      <description>本文系统阐述解三角形的基本原理与多种方法，包括正弦、余弦、正切定理、四心、欧拉线、射影、斯图尔特、梅涅劳斯等定理，解析向量基底、平面几何及面积公式，提供完整的解题思路与技巧。</description>
-      <link>https://raineblog.dpdns.org/whk/science/plane/5/</link>
-      <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/plane/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/5/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/5.png" type="image/png" length="40074" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/4.png" type="image/png" length="41545" />
       
     </item>
     
