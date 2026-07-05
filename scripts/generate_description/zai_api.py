@@ -6,8 +6,6 @@ client = OpenAI(
     api_key=os.environ.get("ZAI_API_KEY"),
 )
 
-counter = 0
-
 
 def get_description(file: str, options):
     file_content = f"``````markdown\n{file}\n``````"
@@ -33,20 +31,16 @@ def get_description(file: str, options):
         extra_body={"thinking": {"type": "enabled", "clear_thinking": False}},
     )
 
-    global counter
-    counter += 1
-
     result = ""
-
-    print(counter, end=": ")
-
     for chunk in completion:
-        if chunk.choices[0].delta.reasoning_content:
-            print("*", end="")
-        if chunk.choices[0].delta.content:
+        if not getattr(chunk, "choices", None):
+            continue
+        reasoning = getattr(chunk.choices[0].delta, "reasoning_content", None)
+        if reasoning:
+            print("*", end="", flush=True)
+        if chunk.choices and chunk.choices[0].delta.content is not None:
             result += chunk.choices[0].delta.content
-            print("#", end="")
-
-    print("")
+            print("#", end="", flush=True)
+    print("", flush=True)
 
     return result
