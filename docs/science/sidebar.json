@@ -1,4 +1,5 @@
 [
+    "science/index.md",
     {
         "数系与数学初步": [
             "science/mathematics/1.md",
@@ -48,8 +49,7 @@
             "science/plane/1.md",
             "science/plane/2.md",
             "science/plane/3.md",
-            "science/plane/4.md",
-            "science/plane/5.md"
+            "science/plane/4.md"
         ]
     },
     {

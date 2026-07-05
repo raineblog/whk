@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="215px" height="305px" viewBox="0 0 215 305" enable-background="new 0 0 215 305" xml:space="preserve">
+<g id="g-points">
+	<text transform="matrix(1 0 0 1 82.5 220)" font-family="'Arial-ItalicMT'" font-size="16">O</text>
+	<text transform="matrix(1 0 0 1 106 198)" font-family="'Arial-ItalicMT'" font-size="16">α</text>
+	<text transform="matrix(1 0 0 1 117 136.333)" font-family="'Arial-ItalicMT'" font-size="16">P</text>
+	<text transform="matrix(1 0 0 1 139 304)" font-family="'ArialMT'" font-size="16">B</text>
+	<text transform="matrix(1 0 0 1 139 200)" font-family="'Arial-ItalicMT'" font-size="16">M</text>
+	<text transform="matrix(1 0 0 1 190 213.333)" font-family="'Arial-ItalicMT'" font-size="16">A</text>
+	<text transform="matrix(1 0 0 1 80 140)" font-family="'Arial-ItalicMT'" font-size="16">G</text>
+	<text transform="matrix(1 0 0 1 80 110)" font-family="'Arial-ItalicMT'" font-size="16">H</text>
+	<text transform="matrix(1 0 0 1 128 110)" font-family="'Arial-ItalicMT'" font-size="16">K</text>
+	<text transform="matrix(1 0 0 1 190 20)" font-family="'Arial-ItalicMT'" font-size="16">T</text>
+	<text transform="matrix(1 0 0 1 107 160)" font-family="'ArialMT'" font-size="16">1</text>
+</g>
+<g>
+	<g>
+		
+			<line id="line-BC" fill="none" stroke="#808080" stroke-width="1.415" stroke-miterlimit="8" stroke-dasharray="8,3" x1="134" y1="288" x2="134" y2="205"/>
+	</g>
+	<g>
+		<circle id="circle-O-HKDB" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" cx="95" cy="205" r="91.7"/>
+		<path id="arc-DA" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="8" d="M186.7,205
+			c0.003-35.542-20.533-67.884-52.7-83"/>
+		
+			<line id="line-OA-theta" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" x1="95" y1="205" x2="134" y2="122"/>
+		
+			<line id="line-OB-minus-theta" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" stroke-dasharray="8,3" x1="95" y1="205" x2="134" y2="288"/>
+		<path id="path-angle-theta" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" d="M107,205c0-4-3-9-7-11"
+			/>
+		<polyline id="polyline-angle-ortho-O" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" points="85,205 
+			85,195 95,195 		"/>
+		<polyline id="polyline-angle-ortho-C" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" points="124,205 
+			124,195 134,195 		"/>
+		<polyline id="polyline-angle-ortho-D" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" points="
+			176.7,205 176.7,195 186.7,195 		"/>
+		<polyline id="polyline-angle-ortho-G" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" points="95,132 
+			105,132 105,122 		"/>
+		<polyline id="polyline-angle-ortho-H" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" points="95,103 
+			105,103 105,113 		"/>
+		
+			<line id="line-O-ortho" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" stroke-dasharray="3,4" x1="95" y1="205" x2="70" y2="205"/>
+		
+			<line id="line-H-ortho" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" stroke-dasharray="3,4" x1="95" y1="122" x2="95" y2="90"/>
+	</g>
+	
+		<line id="line-AL-exsec" fill="none" stroke="#FF69B4" stroke-width="1.415" stroke-miterlimit="8" x1="134" y1="122" x2="187" y2="10"/>
+	
+		<line id="line-AK-excsc" fill="none" stroke="#006400" stroke-width="1.415" stroke-miterlimit="8" x1="132.5" y1="122" x2="136.5" y2="113.3"/>
+	
+		<line id="line-AD-crd" fill="none" stroke="#C0C0C0" stroke-width="1.415" stroke-miterlimit="8" x1="134" y1="122" x2="186.7" y2="205"/>
+	
+		<line id="line-AG-cos" fill="none" stroke="#0000FF" stroke-width="1.415" stroke-miterlimit="8" x1="95" y1="122" x2="134" y2="122"/>
+	
+		<line id="line-OC-cos" fill="none" stroke="#0000FF" stroke-width="1.415" stroke-miterlimit="8" x1="95" y1="205" x2="134" y2="205"/>
+	
+		<line id="line-CD-versin" fill="none" stroke="#008000" stroke-width="1.415" stroke-miterlimit="8" x1="134" y1="205" x2="186.7" y2="205"/>
+	
+		<line id="line-HK-cot" fill="none" stroke="#FF8C00" stroke-width="1.415" stroke-miterlimit="8" x1="95" y1="113.3" x2="138" y2="113.3"/>
+	
+		<line id="line-DL-tan" fill="none" stroke="#D2B48C" stroke-width="1.415" stroke-miterlimit="8" x1="186.7" y1="205" x2="186.7" y2="10"/>
+	
+		<line id="line-CA-sin" fill="none" stroke="#FF0000" stroke-width="1.415" stroke-miterlimit="8" x1="134" y1="205" x2="134" y2="122"/>
+	
+		<line id="line-OG-sin" fill="none" stroke="#FF0000" stroke-width="1.415" stroke-miterlimit="8" x1="95" y1="205" x2="95" y2="122"/>
+	
+		<line id="line-HG-cvs" fill="none" stroke="#00FFFF" stroke-width="1.415" stroke-miterlimit="8" x1="95" y1="122" x2="95" y2="113.3"/>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 160 140)" font-family="'ArialMT'" font-size="14">arc</text>
+	<text transform="matrix(1 0 0 1 136 170)" fill="#FF0000" font-family="'ArialMT'" font-size="14">sin</text>
+	<text transform="matrix(1 0 0 1 69 125)" fill="#00FFFF" font-family="'ArialMT'" font-size="14">cvs</text>
+	<text transform="matrix(1 0 0 1 140 123)" fill="#006400" font-family="'ArialMT'" font-size="14">excsc</text>
+	<text transform="matrix(1 0 0 1 106 218)" fill="#0000FF" font-family="'ArialMT'" font-size="14">cos</text>
+	<text transform="matrix(1 0 0 1 139 218)" fill="#008000" font-family="'ArialMT'" font-size="14">versin</text>
+	<text transform="matrix(1 0 0 1 118 70)" fill="#FF69B4" font-family="'ArialMT'" font-size="14">exsec</text>
+	<text transform="matrix(1 0 0 1 107 111)" fill="#FF8C00" font-family="'ArialMT'" font-size="14">cot</text>
+	<text transform="matrix(1 0 0 1 190 120)" fill="#D2B48C" font-family="'ArialMT'" font-size="14">tan</text>
+	<text transform="matrix(1 0 0 1 20 30)" enable-background="new    "><tspan x="0" y="0" fill="#008B8B" font-family="'ArialMT'" font-size="14">sec = </tspan><tspan x="37.741" y="0" fill="#008B8B" font-family="'Arial-ItalicMT'" font-size="14">OT</tspan></text>
+	<text transform="matrix(1 0 0 1 20 45)" enable-background="new    "><tspan x="0" y="0" fill="#FFC0CB" font-family="'ArialMT'" font-size="14">csc = </tspan><tspan x="36.955" y="0" fill="#FFC0CB" font-family="'Arial-ItalicMT'" font-size="14">OK</tspan></text>
+	<text transform="matrix(1 0 0 1 20 60)" enable-background="new    "><tspan x="0" y="0" fill="#FF69B4" font-family="'ArialMT'" font-size="14">exsec = </tspan><tspan x="52.527" y="0" fill="#FF69B4" font-family="'Arial-ItalicMT'" font-size="14">PT</tspan></text>
+	<text transform="matrix(1 0 0 1 20 75)" enable-background="new    "><tspan x="0" y="0" fill="#006400" font-family="'ArialMT'" font-size="14">excsc = </tspan><tspan x="51.741" y="0" fill="#006400" font-family="'Arial-ItalicMT'" font-size="14">PK</tspan></text>
+	<g id="g-crd" transform="rotate(56)">
+		<text transform="matrix(1 0 0 1 215.0002 -42.9997)" fill="#C0C0C0" font-family="'ArialMT'" font-size="14">crd</text>
+	</g>
+</g>
+</svg>
