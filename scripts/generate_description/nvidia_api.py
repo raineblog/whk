@@ -40,7 +40,7 @@ def get_description(file: str, options):
             continue
         reasoning = getattr(chunk.choices[0].delta, "reasoning_content", None)
         if reasoning:
-            print("*", end="")
+            print(chunk.choices[0].delta.reasoning_content, end="")
         if chunk.choices and chunk.choices[0].delta.content is not None:
             result += chunk.choices[0].delta.content
             print("#", end="")

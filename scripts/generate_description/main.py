@@ -11,7 +11,7 @@ from nvidia_api import get_description
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 DOCS_DIR = PROJECT_ROOT / "docs"
 CACHE_FILE = PROJECT_ROOT / "description_cache.json"
-MAX_PER_RUN = 50
+MAX_PER_RUN = 80
 DELAY = 1
 
 
@@ -117,9 +117,7 @@ def main():
         print(f"[{i + 1}/{len(to_process)}] {rel}")
 
         try:
-            description = get_description(
-                md_file.read_text(encoding="utf-8"), {"路径": rel}
-            )
+            description = get_description(body, {"路径": rel})
 
             if description and description.strip():
                 desc = description.strip()
