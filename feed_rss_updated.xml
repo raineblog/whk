@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sun, 05 Jul 2026 06:40:15 -0000</pubDate>
-    <lastBuildDate>Sun, 05 Jul 2026 06:40:15 -0000</lastBuildDate>
+    <pubDate>Sun, 05 Jul 2026 06:53:50 -0000</pubDate>
+    <lastBuildDate>Sun, 05 Jul 2026 06:53:50 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -32,40 +32,54 @@
     
     
     <item>
+      <title>基因与基因工程</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;基因与基因工程&lt;/h1&gt;
+&lt;h2&gt;核酸、基因与染色体&lt;/h2&gt;
+&lt;h3&gt;核苷酸与核酸&lt;/h3&gt;
+&lt;p&gt;核酸的单体结构为核苷酸，每个核苷酸由一个核苷（一个五碳糖、一个含氮碱基）和一个或多个磷酸基团组成。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;./Nucleotides_zh.avif&#34;&gt;{width=&#34;90%&#34;}&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;如果其五碳糖是脱氧核糖，则此单体的聚合物是脱氧核糖核酸 DNA。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果其五碳糖是核糖，则此单体的聚合物是核糖核酸 RNA。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;./Difference_DNA_RNA-ZH.svg&#34;&gt;{width=&#34;90%&#34;}&lt;/p&gt;
+&lt;p&gt;核酸的结构可分为一级结构、二级结构、三级结构和四级结构。&lt;/p&gt;
+&lt;p&gt;碱基互补配对：&lt;/p&gt;
+&lt;p&gt;| 胞嘧啶、鸟嘌呤 &lt;br/&gt; 之间生成三条氢键 | 腺嘌呤、胸腺嘧啶 &lt;br/&gt; 之间生成两条氢键 |
+| :-----------------------------------: | :-------------------------------------: |
+|        &lt;img alt=&#34;&#34; src=&#34;./Base_pair_GC.svg&#34;&gt;        |         &lt;img alt=&#34;&#34; src=&#34;./Base_pair_AT.svg&#34;&gt;    ...&lt;/p&gt;</description>
+      <link>https://raineblog.dpdns.org/whk/science/cell/5/</link>
+      <pubDate>Sun, 05 Jul 2026 06:52:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/cell/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/5.png" type="image/png" length="38155" />
+      
+    </item>
+    
+    <item>
       <title>三角函数与三角恒等变换</title>
       
       
       
       
-      <description>&lt;h1&gt;三角函数与三角恒等变换&lt;/h1&gt;
-&lt;h2&gt;角和三角函数&lt;/h2&gt;
-&lt;h3&gt;任意角和弧度制&lt;/h3&gt;
-&lt;p&gt;任意角的定义：平面内一条射线绕其端点从一个位置旋转到另一个位置形成的图形叫做角。&lt;/p&gt;
-&lt;p&gt;开始的位置称为始边，结束的位置称为终边。并规定：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;按逆时针方向旋转形成的角叫做正角，其角度为正；&lt;/li&gt;
-&lt;li&gt;按顺时针方向旋转形成的角叫做负角，其角度为负；&lt;/li&gt;
-&lt;li&gt;终边相对于始边没有做任何旋转的角叫做零角，其角度为 $0$。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;为什么逆时针是正角？考虑点 $(1,0)$ 绕着 $(0,0)$ 转一个锐角：&lt;/p&gt;
-&lt;p&gt;得到的点 $A(x,y)$ 一定满足 $x,y&amp;gt;0$，因此定义逆时针为正角。&lt;/p&gt;
-&lt;p&gt;这样就把角的概念推向了任意角。&lt;/p&gt;
-&lt;p&gt;弧度制的定义：弧度用符号 $\text{rad}$ 表示，读作「弧度」。&lt;/p&gt;
-&lt;p&gt;定义正角的弧度为正、负角的弧度为负，零角的弧度为 $0$；&lt;/p&gt;
-&lt;p&gt;如果半径为 $r$ 的圆的圆心角 $\alpha$ 所对弧长为 $l$ ，则：&lt;/p&gt;
-&lt;p&gt;$$
-|\alpha|=\dfrac{l}{r}
-$$&lt;/p&gt;
-&lt;p&gt;与角 $\alpha$ 终边位置相同的角的集合很容易得出，为：&lt;/p&gt;
-&lt;p&gt;$$
-{\varphi \mid \varphi = \alpha...&lt;/p&gt;</description>
+      <description>本文系统介绍了三角函数基础，涵盖弧度制、单位圆定义及各函数性质。详细汇总了诱导、倍角、半角及和差等恒等变换，并总结了变角、一角一函数、辅助角等解题技巧，是学习三角函数与变换的全面指南。</description>
       <link>https://raineblog.dpdns.org/whk/science/plane/2/</link>
       <pubDate>Sun, 05 Jul 2026 06:39:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/plane/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/2.png" type="image/png" length="49616" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/2.png" type="image/png" length="51902" />
       
     </item>
     
@@ -75,38 +89,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;解三角形与三角形中的三角函数&lt;/h1&gt;
-&lt;h2&gt;三角形中的三角函数&lt;/h2&gt;
-&lt;p&gt;条件，在三角形中，有 $x+y+z=\pi$（三角形内角和），那么：&lt;/p&gt;
-&lt;h3&gt;正切恒等式&lt;/h3&gt;
-&lt;h4&gt;形式一&lt;/h4&gt;
-&lt;p&gt;$$
-\tan x+\tan y+\tan z=\tan x\tan y\tan z
-$$&lt;/p&gt;
-&lt;p&gt;证明：&lt;/p&gt;
-&lt;p&gt;$$
-\begin{aligned}
-\tan z&amp;amp;=\tan(\pi-x-y)=-\tan(x+y)\
-\tan z&amp;amp;=-{\tan x+\tan y\over1-\tan x\tan y}
-\end{aligned}
-$$&lt;/p&gt;
-&lt;p&gt;下面的式子整理即可。&lt;/p&gt;
-&lt;h4&gt;形式二&lt;/h4&gt;
-&lt;p&gt;$$
-\tan{x\over2}\tan{y\over2}+\tan{y\over2}\tan{z\over2}+\tan{z\over2}\tan{x\over2}=1
-$$&lt;/p&gt;
-&lt;p&gt;证明：&lt;/p&gt;
-&lt;p&gt;$$
-\begin{aligned}
-\tan{z\over2}&amp;amp;=\tan\left({\pi\over2}-{x\over2}-{y\over2}\right)={1\over\tan({x\over2}+{y\over2})}\
-\tan...&lt;/p&gt;</description>
+      <description>本文深入解析三角形中的三角函数恒等式，涵盖正切、余切、正弦及余弦的一二倍角公式。详细讲解了正弦定理、余弦定理、三角形四心性质及三线定理。通过18道典型例题，帮助掌握解三角形的数学技巧与方法。</description>
       <link>https://raineblog.dpdns.org/whk/science/plane/3/</link>
       <pubDate>Sun, 05 Jul 2026 06:39:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/plane/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/3.png" type="image/png" length="48674" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/3.png" type="image/png" length="48362" />
       
     </item>
     
@@ -116,17 +106,14 @@ $$&lt;/p&gt;
       
       
       
-      <description>&lt;h1&gt;平面几何进阶&lt;/h1&gt;
-&lt;h2&gt;平面几何三大定理&lt;/h2&gt;
-&lt;h2&gt;平面几何拓展定理&lt;/h2&gt;
-&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-07-21&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-07-21T03:49:40+00:00&#39;&gt;2025-07-21&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-07-05&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;tim...</description>
+      <description>本文专注于平面几何进阶学习，深度解析了平面几何的三大核心定理并提供丰富的拓展定理。旨在帮助读者构建系统的几何知识体系，提升攻克复杂几何题的能力，无论是应考还是深度研究，本文都提供了极具价值的进阶指南。</description>
       <link>https://raineblog.dpdns.org/whk/science/plane/4/</link>
       <pubDate>Sun, 05 Jul 2026 06:39:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/plane/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/4.png" type="image/png" length="39672" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/4.png" type="image/png" length="39581" />
       
     </item>
     
@@ -178,23 +165,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/6/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/6.png" type="image/png" length="50069" />
-      
-    </item>
-    
-    <item>
-      <title>基因与基因工程</title>
-      
-      
-      
-      
-      <description>系统阐述核酸结构、DNA复制与转录、基因突变与表观遗传，并深入解析PCR、CRISPR等基因工程技术及其在医药、农业、生物制药中的最新应用，涵盖基因表达调控、染色体异常及现代生物技术前沿。</description>
-      <link>https://raineblog.dpdns.org/whk/science/cell/5/</link>
-      <pubDate>Sun, 05 Jul 2026 05:25:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/cell/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/5/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/5.png" type="image/png" length="41381" />
       
     </item>
     
