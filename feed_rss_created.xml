@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sun, 05 Jul 2026 06:53:50 -0000</pubDate>
-    <lastBuildDate>Sun, 05 Jul 2026 06:53:50 -0000</lastBuildDate>
+    <pubDate>Sun, 05 Jul 2026 07:35:58 -0000</pubDate>
+    <lastBuildDate>Sun, 05 Jul 2026 07:35:58 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -241,32 +241,14 @@
       
       
       
-      <description>&lt;h1&gt;基因与基因工程&lt;/h1&gt;
-&lt;h2&gt;核酸、基因与染色体&lt;/h2&gt;
-&lt;h3&gt;核苷酸与核酸&lt;/h3&gt;
-&lt;p&gt;核酸的单体结构为核苷酸，每个核苷酸由一个核苷（一个五碳糖、一个含氮碱基）和一个或多个磷酸基团组成。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;./Nucleotides_zh.avif&#34;&gt;{width=&#34;90%&#34;}&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;如果其五碳糖是脱氧核糖，则此单体的聚合物是脱氧核糖核酸 DNA。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;如果其五碳糖是核糖，则此单体的聚合物是核糖核酸 RNA。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;./Difference_DNA_RNA-ZH.svg&#34;&gt;{width=&#34;90%&#34;}&lt;/p&gt;
-&lt;p&gt;核酸的结构可分为一级结构、二级结构、三级结构和四级结构。&lt;/p&gt;
-&lt;p&gt;碱基互补配对：&lt;/p&gt;
-&lt;p&gt;| 胞嘧啶、鸟嘌呤 &lt;br/&gt; 之间生成三条氢键 | 腺嘌呤、胸腺嘧啶 &lt;br/&gt; 之间生成两条氢键 |
-| :-----------------------------------: | :-------------------------------------: |
-|        &lt;img alt=&#34;&#34; src=&#34;./Base_pair_GC.svg&#34;&gt;        |         &lt;img alt=&#34;&#34; src=&#34;./Base_pair_AT.svg&#34;&gt;    ...&lt;/p&gt;</description>
+      <description>本文系统介绍了基因与基因工程，涵盖DNA/RNA结构、遗传物质鉴定实验及基因表达突变。文章详细解析了限制酶、载体等工具及PCR核心技术，并探讨了其在医学医疗、农业育种及食品工业中的广泛应用。</description>
       <link>https://raineblog.dpdns.org/whk/science/cell/5/</link>
       <pubDate>Thu, 19 Mar 2026 12:54:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/cell/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/cell/5/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/5.png" type="image/png" length="38155" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/cell/5.png" type="image/png" length="41285" />
       
     </item>
     
