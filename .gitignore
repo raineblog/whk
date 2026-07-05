@@ -378,3 +378,5 @@ svg_downloads/
 .kilo/
 .kilocode/
 .qwen/
+
+build-bin
