@@ -1,0 +1,393 @@
+site_name: RainPPR's WHK Blog
+site_description: RainPPR 的文化课博客，主要是理科，尤其是数学、物理、化学、生物等高中学科的知识及题型等笔记。
+site_author: RainPPR
+repo_name: raineblog/whk
+repo_url: https://github.com/raineblog/whk
+edit_uri: edit/main/docs/
+copyright: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
+  rel="noopener">Creative Commons Attribution-ShareAlike 4.0 International</a> | <a
+  href="https://github.com/raineblog/whk/blob/main/LICENSE" target="_blank" rel="noopener">MIT</a>
+
+site_url: https://raineblog.dpdns.org/whk/
+
+
+extra:
+  giscus:
+    data_repo: raineblog/giscus
+    data_repo_id: R_kgDOMhpKmw
+    data_category_id: DIC_kwDOMhpKm84ChhZ7
+  mastodon: rainppr
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/RainPPR
+  - icon: fontawesome/brands/x-twitter
+    link: https://x.com/rainppr2008
+  - icon: fontawesome/brands/mastodon
+    link: https://mastodon.social/@rainppr
+
+
+theme:
+    name: materialx
+    custom_dir: overrides/
+    language: zh
+    palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.tooltips
+    icon:
+        repo: fontawesome/brands/git-alt
+        edit: material/pencil
+        view: material/eye
+
+
+nav:
+  - 简介:
+    - index.md
+    - home/discussion.md
+    - home/usage.md
+    - home/format.md
+    - home/roadmap.md
+    - home/madoka.md
+  - 中学文科:
+    - 语法常识:
+      - cultural/grammar/1.md
+      - cultural/grammar/2.md
+      - cultural/grammar/3.md
+      - cultural/grammar/4.md
+      - cultural/grammar/5.md
+    - 阅读理解:
+      - cultural/reading/1.md
+      - cultural/reading/2.md
+      - cultural/reading/3.md
+      - cultural/reading/4.md
+      - cultural/reading/5.md
+    - 语言写作:
+      - cultural/writing/1.md
+      - cultural/writing/2.md
+      - cultural/writing/3.md
+    - 哲学艺术:
+      - cultural/philosophy/1.md
+      - cultural/philosophy/2.md
+      - cultural/philosophy/3.md
+      - cultural/philosophy/4.md
+    - 科学技术:
+      - cultural/technology/1.md
+      - cultural/technology/2.md
+      - cultural/technology/3.md
+      - cultural/technology/4.md
+  - 高中理科:
+    - science/index.md
+    - 数系与数学初步:
+      - science/mathematics/1.md
+      - science/mathematics/2.md
+      - science/mathematics/3.md
+      - science/mathematics/4.md
+    - 数列与组合数学:
+      - science/polynomial/1.md
+      - science/polynomial/2.md
+      - science/polynomial/3.md
+      - science/polynomial/4.md
+      - science/polynomial/5.md
+      - science/polynomial/6.md
+    - 函数导数微积分:
+      - science/function/1.md
+      - science/function/2.md
+      - science/function/3.md
+      - science/function/4.md
+      - science/function/5.md
+      - science/function/6.md
+      - science/function/7.md
+    - 统计学与概率论:
+      - science/probability/1.md
+      - science/probability/2.md
+      - science/probability/3.md
+      - science/probability/4.md
+    - 数论与算法初步:
+      - science/number/1.md
+      - science/number/3.md
+      - science/number/4.md
+    - 三角与平面几何:
+      - science/plane/1.md
+      - science/plane/2.md
+      - science/plane/3.md
+      - science/plane/4.md
+    - 解析几何与圆曲:
+      - science/geometry/1.md
+      - science/geometry/2.md
+      - science/geometry/3.md
+      - science/geometry/4.md
+      - science/geometry/5.md
+    - 空间与立体几何:
+      - science/solid/1.md
+      - science/solid/2.md
+      - science/solid/3.md
+    - 运动与物理方法:
+      - science/kinematics/1.md
+      - science/kinematics/2.md
+      - science/kinematics/3.md
+      - science/kinematics/4.md
+      - science/kinematics/5.md
+    - 力学与天体力学:
+      - science/mechanics/1.md
+      - science/mechanics/2.md
+      - science/mechanics/3.md
+      - science/mechanics/4.md
+      - science/mechanics/5.md
+      - science/mechanics/6.md
+      - science/mechanics/7.md
+    - 电路学与电化学:
+      - science/circuitry/1.md
+      - science/circuitry/2.md
+      - science/circuitry/3.md
+      - science/circuitry/4.md
+    - 电磁场与电磁波:
+      - science/electromagnetism/1.md
+      - science/electromagnetism/2.md
+      - science/electromagnetism/3.md
+      - science/electromagnetism/4.md
+      - science/electromagnetism/5.md
+      - science/electromagnetism/6.md
+    - 热学与近代物理:
+      - science/modern/1.md
+      - science/modern/2.md
+      - science/modern/3.md
+      - science/modern/4.md
+    - 计量与结构化学:
+      - science/structure/1.md
+      - science/structure/2.md
+      - science/structure/3.md
+      - science/structure/4.md
+    - 元素与物质性质:
+      - science/element/index.md
+      - science/element/1.md
+      - science/element/2.md
+      - science/element/3.md
+      - science/element/4.md
+      - science/element/5.md
+      - science/element/6.md
+      - science/element/7.md
+    - 反应速率与平衡:
+      - science/reaction/1.md
+      - science/reaction/2.md
+      - science/reaction/3.md
+    - 有机化学与合成:
+      - science/organic/1.md
+      - science/organic/2.md
+      - science/organic/3.md
+      - science/organic/4.md
+      - science/organic/5.md
+    - 细胞基因与遗传:
+      - science/cell/1.md
+      - science/cell/2.md
+      - science/cell/3.md
+      - science/cell/4.md
+      - science/cell/5.md
+      - science/cell/6.md
+    - 生化实验与应用:
+      - science/experiment/1.md
+      - science/experiment/2.md
+      - science/experiment/3.md
+      - science/experiment/4.md
+    - 人体结构与功能:
+      - science/human/1.md
+      - science/human/2.md
+      - science/human/3.md
+      - science/human/4.md
+      - science/human/5.md
+      - science/human/6.md
+      - science/human/7.md
+      - science/human/8.md
+      - science/human/9.md
+    - 物种与生物概述:
+      - science/species/1.md
+      - science/species/2.md
+      - science/species/3.md
+      - science/species/4.md
+    - 生态学与地理学:
+      - science/nature/1.md
+      - science/nature/2.md
+      - science/nature/3.md
+      - science/nature/4.md
+
+plugins:
+- meta
+- tags
+# -   markdown-exec:
+        # https://github.com/pawamoy/markdown-exec
+        # ansi: required
+        # https://pawamoy.github.io/mkdocs-exec/gallery/
+        # https://pawamoy.github.io/mkdocs-exec/usage/shell/
+-   glightbox:
+        # https://github.com/blueswen/mkdocs-glightbox
+        auto_themed: true
+- table-reader
+        # https://github.com/timvink/mkdocs-table-reader-plugin
+        # 在 Markdown 里面用这个引入 csv（是否是一个好习惯？
+-   document-dates:
+        # https://jaywhj.netlify.app/document-dates-zh
+        position: bottom
+        type: timeago
+        date_format: '%Y-%m-%d'
+        time_format: '%H:%M:%S'
+        show_author: text
+        recently-updated:
+            limit: 50
+            exclude:
+            # 排除不想显示的文档？原因是构建出错了不知道是不是这个版本的问题
+            - index.md
+            - intro/*
+            - blog/*
+        # 这个插件更新好频繁跟不上了真的好诡异（
+-   privacy:
+        assets_fetch: false
+        assets_exclude:
+            - giscus.app/*
+            - github.com/*
+            - api.github.com/*
+            - gist.github.com/*
+            - avatars.githubusercontent.com/*
+            - unpkg.com/*
+            - cdn.jsdelivr.net/*
+            - esm.sh/*
+            - q1.qlogo.cn/*
+            - deepwiki.com/badge.svg
+            - context7.com/widget.js
+        links_attr_map:
+            target: _blank
+
+-   social:
+        cards_layout: default/variant
+        cards_layout_options:
+            font_family: Noto Serif SC
+            background_color: "#132456"
+
+-   advanced-seo:
+        support_document_dates: true
+-   minify_html:
+        # https://docs.rs/minify-html/0.16.4/minify_html/struct.Cfg.html#fields
+        # https://github.com/monosans/mkdocs-minify-html-plugin
+        allow_noncompliant_unquoted_attribute_values: false
+        allow_optimal_entities: false
+        allow_removing_spaces_between_attributes: false
+        keep_closing_tags: true
+        keep_comments: false
+        keep_html_and_head_opening_tags: true
+        keep_input_type_text_attr: true
+        keep_ssi_comments: true
+        minify_css: true
+        minify_doctype: true
+        minify_js: true
+        preserve_brace_template_syntax: true
+        preserve_chevron_percent_template_syntax: true
+        remove_bangs: true
+        remove_processing_instructions: true
+# -   blog:
+#         blog_toc: true
+#         post_date_format: long
+#         post_excerpt: required
+#         post_readtime: false
+#         archive_name: Archive
+#         authors_profiles: true
+#         categories: false
+-   rss:
+    # https://guts.github.io/mkdocs-rss-plugin/
+        abstract_chars_count: 500
+        date_from_meta:
+            as_creation: document_dates_created
+            as_update: document_dates_updated
+        comments_path: "#__comments"
+        length: 500 # 放这么多，会有性能问题吗？
+        pretty_print: true
+-   llmstxt:
+    # https://pawamoy.github.io/mkdocs-llmstxt/
+        sections:
+            关于:
+            - index.md
+            - home/*.md
+            中学文科:
+            - cultural/**/*.md
+            高中理科:
+            - science/**/*.md
+# markdown_extensions:
+# - abbr
+# - admonition
+# - attr_list
+# - def_list
+# - footnotes
+# - md_in_html
+# - tables
+# -   toc:
+#         permalink: false
+#         toc_depth: 4
+# -   pymdownx.arithmatex:
+#         generic: true
+# - pymdownx.caret
+# - pymdownx.keys
+# - pymdownx.mark
+# - pymdownx.tilde
+# - pymdownx.betterem
+# - pymdownx.blocks.admonition
+# - pymdownx.blocks.details
+# - pymdownx.blocks.caption
+# - pymdownx.blocks.tab
+# -   pymdownx.highlight:
+#         anchor_linenums: true
+#         line_spans: __span
+#         pygments_lang_class: true
+#         linenums: true
+# - pymdownx.inlinehilite
+# -   pymdownx.snippets:
+#         auto_append:
+#             - docs/includes/abbreviations.md
+# - pymdownx.superfences
+# - pymdownx.magiclink
+# - pymdownx.smartsymbols
+# - pymdownx.tasklist
+# -   pymdownx.tabbed:
+#         alternate_style: true
+
+
+pandoc:
+  format: markdown+abbreviations+alerts-all_symbols_escapable+angle_brackets_escapable+autolink_bare_uris-blank_before_blockquote-citations+east_asian_line_breaks+emoji-grid_tables+lists_without_preceding_blankline+mark+markdown_attribute
+  to: html5
+  html_parser: lxml
+  
+  lua_filters:
+    - filters/admonition.lua
+  args:
+    - --wrap=none
+    - --syntax-highlighting=tango
+    - --katex
+    - --strip-comments=false
+
