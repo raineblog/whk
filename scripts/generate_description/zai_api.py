@@ -28,7 +28,7 @@ def get_description(file: str, options):
                 "content": f"给下面的文章，拟一个纯文本的描述 Description 字段，用于 SEO/GEO，必须是简体中文，75～100 字左右，不要输出其他任何内容。\n\n{file_content}\n\n{user_content}",
             },
         ],
-        max_tokens=202752,
+        max_tokens=131072,
         stream=True,
         extra_body={"thinking": {"type": "enabled", "clear_thinking": False}},
     )
