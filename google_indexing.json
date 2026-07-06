@@ -104,8 +104,8 @@
     "md5": "206fcaba7ca8053cd5138255ab0d4d1e"
   },
   "docs/index.md": {
-    "last_submitted": "2026-07-05T01:49:20.987333+00:00",
-    "md5": "5d9b3eeb9218ac1ea1fb045165c5f816"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "90eb8304edef99a9296ae1604ee8819b"
   },
   "docs/science/cell/1.md": {
     "last_submitted": "2026-07-05T01:49:20.987333+00:00",
@@ -124,12 +124,12 @@
     "md5": "b216abdee3e66e22c12a059ec94b7b53"
   },
   "docs/science/cell/5.md": {
-    "last_submitted": "2026-07-05T01:49:20.987333+00:00",
-    "md5": "f17b8c2531fd9c6c622bafc763ede4af"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "dac70498588d3dcf88674efc1ff76d91"
   },
   "docs/science/cell/6.md": {
-    "last_submitted": "2026-07-05T01:49:20.987333+00:00",
-    "md5": "2209a4a630928d6be4121fe3e4d9fcfe"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "4326b82e4aafcbf6f4f7bbee6aff3d95"
   },
   "docs/science/circuitry/1.md": {
     "last_submitted": "2026-07-05T01:49:20.987333+00:00",
@@ -180,8 +180,8 @@
     "md5": "0df147a74770be87240e139186864e02"
   },
   "docs/science/element/3.md": {
-    "last_submitted": "2026-07-05T01:49:20.987333+00:00",
-    "md5": "3dfd98f34bdda74001460590d5936e51"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "3096984a269676da9cf31458b0d090a6"
   },
   "docs/science/element/4.md": {
     "last_submitted": "2026-07-05T01:49:20.987333+00:00",
@@ -303,6 +303,10 @@
     "last_submitted": "2026-07-05T01:49:20.987333+00:00",
     "md5": "1fa814c5658962c31bfd9f5caa991b9a"
   },
+  "docs/science/index.md": {
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "feb71d0bba5a00bfef69d95760ba7b2a"
+  },
   "docs/science/kinematics/1.md": {
     "last_submitted": "2026-07-05T01:49:20.987333+00:00",
     "md5": "522263d2309cd06c917a2700e7cbf2af"
@@ -332,72 +336,72 @@
     "md5": "2f078c84a0dda5ac92814cbbd941c9d1"
   },
   "docs/science/mathematics/3.md": {
-    "last_submitted": "2026-07-04T09:03:39.947533+00:00",
-    "md5": "ae6438e917a253446659be4cee3108d1"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "d56905fa7937eb04e4b189a6117da4dc"
   },
   "docs/science/mathematics/4.md": {
-    "last_submitted": "2026-07-04T09:03:39.947533+00:00",
-    "md5": "7bdbd8711f74231d8409bb22fa1afe59"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "32d5b258711c78dd3c303cb576a5d539"
   },
   "docs/science/mechanics/1.md": {
-    "last_submitted": "2026-07-04T09:03:39.947533+00:00",
-    "md5": "f1da917b1781b4e17b90ac07fe28e65c"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "4969b79f0181df0c34ff1bd74d371b64"
   },
   "docs/science/mechanics/2.md": {
-    "last_submitted": "2026-07-04T09:03:39.947533+00:00",
-    "md5": "d55abfb262facabd4aa588ac3cf2560c"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "445dd8296030e9f54495af396377ce6f"
   },
   "docs/science/mechanics/3.md": {
-    "last_submitted": "2026-07-04T09:03:39.947533+00:00",
-    "md5": "2808a17e34328f352aa851b519e2c896"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "5ef8fa2478997f92464c09d8c8a0fe53"
   },
   "docs/science/mechanics/4.md": {
-    "last_submitted": "2026-07-04T09:03:39.947533+00:00",
-    "md5": "79d241a5dbf9d6b643f12e1c65411f4b"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "b3634938f80daaf592260b5d4de3e23b"
   },
   "docs/science/mechanics/5.md": {
-    "last_submitted": "2026-07-04T09:03:39.947533+00:00",
-    "md5": "278db2af09b435e7810d9686fc595d3f"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "5af0ef7fd65f087cc337fe0ecb8efd1b"
   },
   "docs/science/mechanics/6.md": {
-    "last_submitted": "2026-07-04T09:03:39.947533+00:00",
-    "md5": "81c4c1a64353b9b58a0b9a873f9868b1"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "036c144b78d6f05852dfa73f7da3646a"
   },
   "docs/science/mechanics/7.md": {
-    "last_submitted": "2026-07-04T09:03:39.947533+00:00",
-    "md5": "220936e9e315f6be6d2c1210385284c7"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "97acbbec8c4da39b479573bc0da6ecbd"
   },
   "docs/science/modern/1.md": {
-    "last_submitted": "2026-07-04T09:03:39.947533+00:00",
-    "md5": "7cd3494f9b77b8a7293bb6338b0673e3"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "6008411131c9c5f9630f826bc7af2404"
   },
   "docs/science/modern/2.md": {
-    "last_submitted": "2026-07-04T09:03:39.947533+00:00",
-    "md5": "ce178b2186c5977f5911578420cd9d74"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "0fd46967f7baa0b53a18f341c03f729b"
   },
   "docs/science/modern/3.md": {
-    "last_submitted": "2026-07-04T09:03:39.947533+00:00",
-    "md5": "f929c8ceee203e6e029c07219c752662"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "b4a0950b6b4696462f7e5c08634e5dbe"
   },
   "docs/science/modern/4.md": {
-    "last_submitted": "2026-07-04T09:03:39.947533+00:00",
-    "md5": "a5e1debf4cde859a41d5ab2a17845e61"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "90a949af6b2b9b41f0ebd5bcfffeb725"
   },
   "docs/science/nature/1.md": {
-    "last_submitted": "2026-07-04T09:03:39.947533+00:00",
-    "md5": "e87dadad26759330faabb8f8b69a8a8c"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "0829b835773ae8edfd178e6348e8a110"
   },
   "docs/science/nature/2.md": {
-    "last_submitted": "2026-07-04T09:03:39.947533+00:00",
-    "md5": "16d68ac0066e2bd736d6c60af2c86ba1"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "34e148dd64bd00e1fc0471bd34d247cb"
   },
   "docs/science/nature/3.md": {
-    "last_submitted": "2026-07-04T09:03:39.947533+00:00",
-    "md5": "587d3f76301f8ed8c1f9274084a0443c"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "502ff5a28b23bf0d2e4170866520bd8a"
   },
   "docs/science/nature/4.md": {
-    "last_submitted": "2026-07-04T09:03:39.947533+00:00",
-    "md5": "a932a1a9eb31bcefdb3eef2fe710a1f7"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "a5f3401a8705244e3d95334bc0bd1a61"
   },
   "docs/science/number/1.md": {
     "last_submitted": "2026-07-05T01:49:20.987333+00:00",
@@ -436,20 +440,16 @@
     "md5": "d9cf2c66c84b6d3da04f9b92a6f8a300"
   },
   "docs/science/plane/2.md": {
-    "last_submitted": "2026-07-05T01:49:20.987333+00:00",
-    "md5": "3999c6fd835e411a2bb1111f90f24457"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "8bdfd22697b25d18d5e8026e655b40c5"
   },
   "docs/science/plane/3.md": {
-    "last_submitted": "2026-07-05T01:49:20.987333+00:00",
-    "md5": "6856ae252a43c9e2219160a2558cb073"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "898de7adbfdb72e393575218f44d23a4"
   },
   "docs/science/plane/4.md": {
-    "last_submitted": "2026-07-05T01:49:20.987333+00:00",
-    "md5": "7b4a1c4dc595e593d27e82ea05bf4213"
-  },
-  "docs/science/plane/5.md": {
-    "last_submitted": "2026-07-05T01:49:20.987333+00:00",
-    "md5": "5e39c5be4f31cd264affe5e9e69d77da"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "33caaf1e48a1072c94bb68d40e409851"
   },
   "docs/science/polynomial/1.md": {
     "last_submitted": "2026-07-05T01:49:20.987333+00:00",
@@ -516,8 +516,8 @@
     "md5": "0e403778beadabe21ea0dcf06ff4eabc"
   },
   "docs/science/species/1.md": {
-    "last_submitted": "2026-07-05T01:49:20.987333+00:00",
-    "md5": "d07b6f4bae308170ff32e60c7179828b"
+    "last_submitted": "2026-07-06T01:56:41.705757+00:00",
+    "md5": "904335982f6547e1e2e12d9a6d2d68ed"
   },
   "docs/science/species/2.md": {
     "last_submitted": "2026-07-05T01:49:20.987333+00:00",
