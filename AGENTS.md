@@ -86,63 +86,11 @@
 
 ### 提示框语法
 
-```md
 ```md {admonition="note" title="标题"}
 内容支持 Markdown。
 ```
 
-```
-
 类型：`note`、`tip`、`warning`、`details`（默认收缩）。
-
----
-
-## L-Hub MCP 委派
-
-遇到以下任务时，必须通过 `mcp_lhub_ai_ask` 或 `ai_codex_task` 委派给专家模型：
-- 文案创作、翻译
-- 多文件代码实现
-- 复杂多步骤任务
-
----
-
-## 项目文档结构
-
-```text
-docs/
-├── index.md                  # 博客首页
-├── home/                     # 关于/使用说明
-├── cultural/                 # 中学文科
-│   ├── grammar/              # 语法常识
-│   ├── reading/              # 阅读理解
-│   ├── writing/              # 语言写作
-│   ├── philosophy/           # 哲学艺术
-│   └── technology/           # 科学技术
-└── science/                  # 高中理科
-    ├── mathematics/          # 数系与数学初步
-    ├── polynomial/           # 数列与组合数学
-    ├── function/             # 函数导数微积分
-    ├── probability/          # 统计学与概率论
-    ├── number/               # 数论与算法初步
-    ├── plane/                # 三角与平面几何
-    ├── geometry/             # 解析几何与圆曲
-    ├── solid/                # 空间与立体几何
-    ├── kinematics/           # 运动与物理方法
-    ├── mechanics/            # 力学与天体力学
-    ├── circuitry/            # 电路学与电化学
-    ├── electromagnetism/     # 电磁场与电磁波
-    ├── modern/               # 热学与近代物理
-    ├── structure/            # 计量与结构化学
-    ├── element/              # 元素与物质性质（index.md 是过渡元素总览）
-    ├── reaction/             # 反应速率与平衡
-    ├── organic/              # 有机化学与合成
-    ├── cell/                 # 细胞与细胞工程
-    ├── genetics/             # 遗传与基因工程
-    ├── experiment/           # 生化实验与应用
-    ├── human/                # 人体结构与功能
-    ├── species/              # 物种与生物概述
-    └── nature/               # 生态学与地理学
-```
 
 ---
 
@@ -158,3 +106,5 @@ docs/
 ---
 
 - rules 目录由 `scripts/onstart.js` 自动维护。
+
+- 所有 .md 文件的 front matter 自动生成，无须审查也无须修改，提交到 main 分支会自动更新。
