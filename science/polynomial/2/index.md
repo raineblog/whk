@@ -387,8 +387,6 @@ A_3(a_2,f(a_2))=(a_2,a_3)
 
 于是，如果我们这么做下去，能推到不动点附近，那么函数收敛。
 
-alt text
-
 与上文类似，指数函数、幂函数的线性组合，一般都是光滑的，那么有，
 
 - 若 |f'(x_0)|\<1，不动点 x_0 称为吸引不动点，数列迭代过程中会靠近吸引不动点。
@@ -814,6 +812,6 @@ a_n\\to\\infty
 
 同样不存在极限。
 
-2025-08-042026-07-04
+2025-08-042026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [devin-ai-integration[bot]](mailto:158243242+devin-ai-integration%5Bbot%5D@users.noreply.github.com)

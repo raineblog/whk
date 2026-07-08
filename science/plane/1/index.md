@@ -125,8 +125,6 @@
 
   起点为两个向量共有的起点，方向沿平行四边形对角线方向。
 
-alt text
-
 这样，向量的加法就具有了几何意义。并且向量的加法满足交换律与结合律。
 
 然后从几何的角度可以推出一些公式，其中三角形法则的公式比较简单，如下：
@@ -364,6 +362,6 @@ C\\left({x_1+x_2\\over2},{y_1+y_2\\over2}\\right)
 
 等和线
 
-2025-07-212026-07-04
+2025-07-212026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

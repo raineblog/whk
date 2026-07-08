@@ -1,9 +1,5 @@
 # 导数与不等式
 
-alt text
-
-alt text
-
 ## 导数方法
 
 ### 不等式方法
@@ -342,10 +338,6 @@ f(x)=xe^x-\\ln(xe^x)
 
 当且仅当 x=1 时取等，我们对两边同时求积分，如图左。为了使两边依旧在 x=1 时取等，我们将 \\ln x 的积分 (\\ln x-1)x 修正为其加 \\dfrac{1}{2}，如图右
 
-alt text
-
-alt text
-
 利用求导也可以证明下面的不等式：
 
 \\begin{cases} 0\<x\\le1&\\ln x\\ge\\dfrac{1}{2}\\left(x-\\dfrac{1}{x}\\right)\\ x>1&\\ln x\<\\dfrac{1}{2}\\left(x-\\dfrac{1}{x}\\right) \\end{cases}
@@ -499,8 +491,6 @@ f\_{\\max}=\\sqrt{2}
 ### 偏移概述
 
 我们在证明形如 x_1+x_2>m 或 x_1x_2>m 的式子成立时，可以尝试将待证的不等式在形式上进行转化，转而证明转化后的不等式 x_1>m-x_2 或 x_1>\\dfrac{m}{x_2} 成立，之后利用函数的单调性，转化为函数值之间的关系，即 f(x_1) 与 f(m-x_2) 或 f\\left(\\dfrac{m}{x_2}\\right) 进行比较。
-
-alt text
 
 使用构造类对称法解此题时，首先要注意变量的取值范围，我们需要保证构造后不等号两边的变量取值在同一区间内，然后才能使用单调性进行证明。
 
@@ -731,6 +721,6 @@ g(x)=f(x)+f(2-x)=2\\ln(2x-x^2)-2(2x-x^2)+2
 
 其中 x\\in(0,1)，不妨令 t=2x-x^2\\in(0,1)，由 \\ln t\<x-1，不等式显然成立。
 
-2025-07-292026-07-04
+2025-07-292026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com)

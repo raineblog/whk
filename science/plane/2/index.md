@@ -72,8 +72,6 @@
 
 - 三角函数线：设角 \\alpha 的终边与单位圆交于点 P，过 P 做 PM\\perp x 轴，垂足为 M，过 A(1,0) 做单位圆的切线与 \\alpha 的终边或其反向延长线交于 T。
 
-  alt text
-
   则 T 到 x 轴的距离（带有正负号）即为 \\tan\\alpha。据此容易理解，为什么 \\tan90^\\circ 是无意义的，或者说，存在于正负无穷大了。
 
 常见的三角函数定义：
@@ -739,6 +737,6 @@ r_0-l_0\\le\\frac{T}{2}=\\frac{\\pi}{\\omega}
 
 比较难算。
 
-2025-07-212026-07-05
+2025-07-212026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

@@ -5,8 +5,6 @@
 - 数字系统：Numbers can be classified into sets, called **number sets** or **number systems**, such as the natural numbers and the real numbers.
 - 记数系统：A **numeral system** is a writing system for expressing numbers without words; that is, a mathematical notation for representing numbers of a given set, using digits (in positional notation) or other symbols (in sign-value notation) in a consistent manner.
 
-alt text
-
 ## 记数系统
 
 **记数系统**（numeral system），指的是用以表示数字的书写系统，如[印度–阿拉伯数字系统](https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system)、[罗马数字](https://en.wikipedia.org/wiki/Roman_numerals)、[苏州码子](https://en.wikipedia.org/wiki/Suzhou_numerals)等。记数系统是我们给数做编码的工具。一般来说，一个记数系统下的数字都是一串符号，同时有一套规则将这串符号和对应的数一一对应起来，例如罗马数字 \\text{XLII}、二进制数 101010\_{(2)} 和十进制数 42 均能对应到相同的数。
@@ -501,8 +499,6 @@ i^2=-1\\ i^3=i^2\\times i=-i\\ i^4=i^3\\times i=-i^2=1\\ i^5=i^4\\times i=i
 
 其中 \\xi_0=1，也就是实数情况下的平凡解。
 
-alt text
-
 根据恒等式：
 
 x^n-1=(x-1)\\big(x^{n-1}+x^{n-2}+\\cdots+1\\big)
@@ -778,6 +774,6 @@ f(x)=a \\prod\_{k=1}^s (x-a_k) \\cdot \\prod\_{k=1}^t (x^2+b_k x+c_k)
 
 其中 a, a_k, b_k, c_k \\in \\mathbb{R}，s+2t=n，且 c_k > 0，b_k^2 < 4c_k。
 
-2025-08-192026-07-04
+2025-08-192026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [devin-ai-integration[bot]](mailto:158243242+devin-ai-integration%5Bbot%5D@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com),  [Gemini](mailto:200291788+gemini-code-assist@users.noreply.github.com)

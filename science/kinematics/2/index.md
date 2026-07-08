@@ -152,19 +152,11 @@ S=\\sum\_{i=1}^nv(t_i)\\Delta t
 
 - 常规图像：
 
-  alt text
-
-  alt text
-
 - 特殊图像 \\dfrac{x}{t}-t 图像：由 x=v_0t+\\dfrac{1}{2}at^2 可得 \\dfrac{x}{t}=v_0+\\dfrac12at，图线斜率为 \\dfrac12a，图像纵截距为初速度，如图 a。
 
   特殊图像 v^2-x 图像：由 v^2-v_0^2=2ax 可得 v^2=v_0^2+2ax，图线斜率为 2a，图像纵截距为初速度的二次方，如图 b。
 
-  alt text
-
 - 特殊图像 a-x 图像：由 v^2-v_0^2=2ax 可得 ax=\\dfrac{v^2-v_0^2}{2}，图线与 x 轴所围成面积表示速度平方的变化量的一半，如图 c。
-
-  alt text
 
 注意声明正方向。
 
@@ -240,6 +232,6 @@ Ft^2-2It+2am>0
 
 \\begin{aligned} 4I^2-8maF\<0\\ I^2\<2maF \\end{aligned}
 
-2025-03-292026-07-04
+2025-03-292026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com)

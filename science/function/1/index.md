@@ -228,8 +228,6 @@ f(x)=e^x
 
 ### 切线问题
 
-alt text
-
 观察曲线 y = f(x) 的图像。连接曲线上的两点 (x\_{0}, f(x\_{0})) 和 (x\_{0} + \\Delta x, f(x\_{0} + \\Delta x))，可以得到曲线的一条**割线**，其斜率
 
 k = \\dfrac{f(x\_{0} + \\Delta x) - f(x\_{0})}{\\Delta x}
@@ -461,6 +459,6 @@ f(x) = \\frac{e^x}{x^2}
 
 \\lim\_{x\\to +\\infty} \\frac{\\sin x}{x} = \\lim\_{x\\to +\\infty} \\frac{\\cos x}{1} = \\text{不存在}
 
-2025-05-182026-07-04
+2025-05-182026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com)

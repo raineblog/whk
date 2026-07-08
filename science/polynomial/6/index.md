@@ -179,8 +179,6 @@ C_n=C\_{n-1}\\cdot{4n-2\\over n+1}
 
 考虑路径计数问题。这是典型的格路计数问题，可以通过反射原理求解。具体到本问题，考虑用总路径数目减去不合法的路径数目。总路径数一共要走 2n 步，其中 n 步向右，所以方案数为 \\dbinom{2n}{n}。一条路径不合法，当且仅当它碰到了直线 y = x+1。对于任意一条非法路径，可以找到第一次碰到直线 y = x+1 的位置，并将该位置之后的路径关于直线 y=x+1 做对称。此时，可以发现，一条从 (0,0) 到 (n,n) 的非法路径，变成了一条从 (0,0) 到 (n-1,n+1) 的路径。
 
-alt text
-
 由于从 (0,0) 到 (n-1,n+1) 的路径必定要穿过直线 y = x+1，所以每条这样的路径都对应一条从 (0,0) 到 (n,n) 的非法路径。类似总路径数的计算，非法路径数目的总数就是 \\dbinom{2n}{n+1}。因此，合法路径的总数为
 
 C_n = \\binom{2n}{n} - \\binom{2n}{n+1}.
@@ -773,6 +771,6 @@ C(m,n)\\times A(n,n)=A(m,n)=m^{\\underline n}
 
   完全不平均分配与题型二相同，只是所有人的球数都不一样，因此不需要除以任何排列数。
 
-2026-03-312026-07-04
+2026-03-312026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [devin-ai-integration[bot]](mailto:158243242+devin-ai-integration%5Bbot%5D@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com)

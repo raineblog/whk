@@ -135,8 +135,6 @@
 1. 假设移除法。
 1. 受力分析、动力学分析法。
 
-alt text
-
 ### 摩擦力
 
 两固体接触面有相对滑动或有相对滑动趋势时，所产生的阻碍相对滑动（滑动摩擦力）或相对滑动趋势（静摩擦）的力。
@@ -490,6 +488,6 @@ p^2=m^2v^2=\\frac{1}{2}mv^2\\times2m=2m\\cdot E_k
 
 经典例题
 
-2025-04-132026-07-04
+2025-04-132026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

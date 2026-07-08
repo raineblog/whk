@@ -195,8 +195,6 @@ v\_\\xi=\\dfrac{\\xi}{Vt}
 
 每一步反应都成为**基元反应**。这里的 \\ce{I.} 是带有单电子的原子，这种带有单电子的原子或原子团称作**自由基**。自由基的反应活性极强，稳定性极差，寿命极短。
 
-alt text
-
 基元反应发生的条件：
 
 1. 反应物的分子发生碰撞。
@@ -241,7 +239,7 @@ k=A\\operatorname{exp}\\left(-\\dfrac{E_a}{RT}\\right)
 - 活化能越高，温度升高时反应速率增加得越快，反应速率对温度越敏感；高温对活化能高的反应有利，低温对活化能低的反应有利。
 - 对于一个 E\_{a 正}> E\_{a 逆} 的反应（吸热反应），若温度升高，正逆反应的速率均增大，但是 $k_正 $ 增大的幅度更大，所以 $v_正 $ 增大的倍数也更大，所以反应正向移动，同时化学平衡常数 K 也增大。
 
-2025-12-242026-07-04
+2025-12-242026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
 

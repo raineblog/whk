@@ -241,8 +241,6 @@ S = bc|\\sin\\theta| = \\frac{2bc|t|}{1+t^2}
 
 而我们不妨做两条 \\angle CPD 内的线，分别与椭圆交于 A_1,A_2 与 B_1,B_2 点，如图。
 
-alt text
-
 我们发现 A_2B_1,A_1B_2 相交于 T，且 T 在 CD 上。
 
 特殊的，如果 P 在椭圆的右准线上（左准线类似），容易知道极线方程：
@@ -263,8 +261,6 @@ alt text
 
 \\frac{x_i x_j}{a^2} + \\frac{y_i y_j}{b^2} = 1
 
-alt text
-
 如图 9-12 所示，已知 P(x_P, y_P) 和圆 x^2 + y^2 = 1，过点 P 任作一割线交圆于 A,B 两点，交 \\ell : x_Px + y_Py = 1 于点 Q，则
 
 \\begin{aligned} \\dfrac{PA}{PB} = \\dfrac{QA}{QB}\\ \\dfrac{2}{PQ} = \\dfrac{1}{PA} + \\dfrac{1}{PB} \\end{aligned}
@@ -273,23 +269,17 @@ alt text
 
 如图 9-13 所示，特别地，若 PQ 经过圆心并交圆于 R，则有 |OR|^2 = |OP|\\cdot|OQ|。反之，若 |OR|^2 = |OP|\\cdot|OQ|，则 Q 落在点 P 的极线 x_Px + y_Py = 1 上。
 
-alt text
-
 对于一般的圆锥曲线，将切线方程直接搬过来，就是极线方程，也有上面的两条性质。
 
 ### 等角共轭
 
 椭圆的等角共轭：过椭圆外一点 P 做切线 PX,PY，切点为 X,Y。连接 PF_1,PF_2，则 \\angle XPF_1=\\angle YPF_2。
 
-alt text
-
 我们将 F_1,F_2 分别关于 PX,PY 对称，得到 F_1',F_2'，根据初中几何容易知道，\\triangle PF_1'F_2\\cong\\triangle PF_1F_2'，两顶角减去公共部分 \\angle F_1PF_2，即可得到。
 
 根据已经证明的全等，因此 \\angle PF_1X = \\angle PF_1'F_2 = \\angle PF_1F_2' = \\angle PF_1Y，也就是说对于曲线外一点 P 与焦点的连线一定平分两个切点与这个焦点所构成的角。
 
 双曲线有着类似的性质，但是需要注意切点是否位于同一分支上。
-
-alt text
 
 此时有 \\angle F_1PX = \\pi - \\angle F_2PY。
 
@@ -300,8 +290,6 @@ alt text
 x^2+y^2=a^2+b^2
 
 证明：不妨做 F_1 关于 PX 的对称点 F_1'，不难得到 \\angle F_1'PF_2=\\angle XPY=90^\\circ，
-
-alt text
 
 又因为 PF_1'=PF_1，也就是说只需要令
 
@@ -395,8 +383,6 @@ e=\\dfrac{c}{a}=\\sqrt{1+\\dfrac{b^2}{a^2}}>1
 
 做焦点到渐近线的垂线，焦点、垂足、圆心所构成的三角形即为双曲线的特征三角形。
 
-alt text
-
 设焦点 F(c,0)，在渐近线 bx=ay 上的垂足为 P，坐标原点为 O，则
 
 |FP|=\\dfrac{bc}{\\sqrt{a^2+b^2}}=b
@@ -404,8 +390,6 @@ alt text
 根据勾股定理，|OP|=a，这就是双曲线的特征三角形。
 
 与之类似的，我们还可以从双曲线上任意一点向两条渐近线引垂线，如图
-
-alt text
 
 则有
 
@@ -580,8 +564,6 @@ b\\le|PO|\\le a
 
 在圆锥曲线的选择与填空题中，若有中点这样的信息出现，就要联想到原点并连接原点与该点，构造中位线。因为原点是椭圆和双曲线的中心，是两焦点的天然中点。
 
-alt text
-
 通经公式可以作如下推广：过焦点 F 作 n 条夹角相等的射线交椭圆于 P_1, P_2, \\cdots, P_n，则
 
 \\frac{1}{|FP_1|} + \\frac{1}{|FP_2|} + \\cdots + \\frac{1}{|FP_n|} = \\frac{na}{b^2}
@@ -601,14 +583,8 @@ e|\\cos\\theta|=\\dfrac{\\lambda-1}{\\lambda+1}
 焦点三角形的**周长**与圆锥曲线的定义之间存在着紧密联系。
 
 - 已知 F_1, F_2 分别为椭圆 \\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1(a > b > 0) 的左、右焦点，l 过焦点 F_1 且与椭圆交于 A, B 两点，则 \\triangle F_2AB 的周长恒为定值 4a；
-
 - 已知 F_1, F_2 分别为椭圆 \\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1(a > b > 0) 的左、右焦点，P 是椭圆上的动点，则 \\triangle PF_1F_2 的周长恒为定值 2a + 2c。
-
-  alt text
-
 - 已知 F_1, F_2 分别是双曲线 \\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1(a > 0, b > 0) 的左、右焦点，l 过焦点 F_1 且与双曲线交于 A, B 两点，则 |AF_2| + |BF_2| - |AB| = 4a。
-
-  alt text
 
 面积则与顶角有联系，根据余弦定理等可以推导：
 
@@ -641,14 +617,8 @@ $$
 内切圆即角平分线与面积也有着很大的关联：
 
 - P 是椭圆 \\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1(a > b > 0) 上的动点，\\triangle PF_1F_2 的内切圆为圆 I，半径为 r，则 S\_{\\triangle PF_1F_2} = r(a+c)。
-
 - 设椭圆 \\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1(a > b > 0) 的左、右焦点分别为 F_1, F_2，过焦点 F_1 的直线交椭圆于 A, B 两点，\\triangle AF_2B 的内切圆为圆 I，半径为 r，则 S\_{\\triangle AF_2B} = 2ar。
-
-  alt text
-
 - 已知 P 是双曲线 \\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1(a > 0, b > 0) 上的动点，\\triangle PF_1F_2 的内切圆的圆心为 I(x_0, y_0)，则 |S\_{\\triangle PIF_1} - S\_{\\triangle PIF_2}| = \\dfrac{S\_{\\triangle F_1IF_2}}{e}，|x_0| = a。
-
-  alt text
 
 ### 转换关系
 
@@ -662,16 +632,14 @@ $$
 - 定点 Q(x_0, y_0) 在椭圆内部，则 2a - |QF_1| \\le |MF_2| + |MQ| \\le 2a + |QF_1|；
 - 定点 Q(x_0, y_0) 在椭圆外部，则 |QF_2| \\le |MF_2| + |MQ| \\le 2a + |QF_1|。
 
-alt text
-
 设双曲线方程为 \\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1(a > 0, b > 0)，F_1, F_2 分别为双曲线的左、右焦点，平面上一定点 Q(x_0, y_0)，M 为双曲线右支上任意一点。
 
 - 若定点 Q(x_0, y_0) 与双曲线右焦点 F_2 在双曲线右支的同侧，则 |MQ| + |MF_2| 的最小值是 |QF_1| - 2a，最大值不存在；
+
 - 若定点 Q(x_0, y_0) 与双曲线右焦点 F_2 在双曲线右支的异侧，则 |MQ| + |MF_2| 的最小值是 |QF_2|，最大值不存在。
 
-alt text
-
 - 不仅第一定义，我们也可以利用第二定义进行转化，把距离焦点的距离转化为距离准线的距离乘上离心率 e。
+
 - 设 A 为抛物线上的动点，且 F 为焦点，P 为不在抛物线上的一定点，则 |PA| + |PF| 的最值的求法是先利用三角不等式，判断等号成立的条件是否成立。若不成立，则利用准线进行转化。
 
 ### 共焦点型
@@ -688,8 +656,6 @@ alt text
 
 已知 F_1, F_2 是椭圆 C_1 与双曲线 C_2 的公共焦点，e_1, e_2 分别是 C_1, C_2 的离心率。若点 P 为 C_1, C_2 的公共点，\\angle F_1PF_2 = 2\\theta，则 \\dfrac{\\sin^2\\theta}{e_1^2} + \\dfrac{\\cos^2\\theta}{e_2^2} = 1。
 
-alt text
-
 在这个图中，据余弦定理还可以推导：
 
 S\_{\\triangle PF_1F_2}=b_1b_2=\\sqrt{(a_1^2-c^2)(c^2-a_2^2)}
@@ -699,8 +665,6 @@ S\_{\\triangle PF_1F_2}=b_1b_2=\\sqrt{(a_1^2-c^2)(c^2-a_2^2)}
 距离最值：
 
 - 将直线 \\ell 平移到与曲线相切的位置，得到曲线的一条与直线 \\ell 平行的切线 \\ell'，此时直线 \\ell 与 \\ell' 之间的距离即为曲线与 \\ell 距离的最值。
-
-  alt text
 
 - 椭圆内或外一点到椭圆上一定点的最短距离，我们称所有可能是最近点的点为可能点的点集，而最短距离就是这些点集中的点到定点的距离的最小值。
 
@@ -715,22 +679,16 @@ S\_{\\triangle PF_1F_2}=b_1b_2=\\sqrt{(a_1^2-c^2)(c^2-a_2^2)}
 - F 为椭圆 \\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1(a > b > 0) 的一个焦点，若 P 是椭圆上的点，则 a - c \\le |PF| \\le a + c。
 - F 为双曲线 \\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1(a > 0, b > 0) 的右焦点，若 P 是双曲线右支上的动点，则 |PF| \\ge c - a。若 P 是双曲线左支上的动点，则 |PF| \\ge c + a。
 
-alt text
-
 角度最值：
 
 - F_1, F_2 为椭圆 \\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1(a > b > 0) 的左、右焦点，P 是椭圆上的动点，当且仅当 P 为上、下顶点时，\\angle F_1PF_2 最大。
 - A, B 为椭圆 \\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1(a > b > 0) 的左、右顶点，P 是椭圆上的动点，当且仅当 P 为上、下顶点时，\\angle APB 最大。
-
-alt text
 
 对于讨论垂直关系，更常用向量和斜率，或者勾股定理、射影定理等。
 
 ### 光学性质
 
 费马原理：当一束光经过镜子的反射，那么入射角等于出射角，可以证明，这个路径是最短的。设光线从 F_1 经过直线 \\ell 的反射到达 F_2 点，我们将 F_1 关于 \\ell 对称的点设为 F_1'
-
-alt text
 
 则 P 点位于 F_1'F_2 与 \\ell 的交点上，这就是将军饮马模型，也容易证明，入射角和出射角是相等的。
 
@@ -740,15 +698,11 @@ alt text
 
 如图，容易知道，我们只需要证明 \\angle DAF_1=\\angle DAF_2 即可，
 
-alt text
-
 根据角平分线逆定理，只需要证
 
 \\dfrac{AF_1}{AF_2}=\\dfrac{MF_1}{MF_2}
 
 但是这比较复杂，我们发现费马定理可以非常容易的解决这个问题。
-
-alt text
 
 不妨设 X 是 \\ell 上任意一点，则根据 P 在椭圆上、X 在椭圆外，
 
@@ -762,15 +716,11 @@ XF_1+XF_2\\ge PF_1+PF_2
 
 假设 P 为抛物线上一点，做到准线的垂线，垂足为 P'，如图
 
-alt text
-
 我们不妨证明锅 P 点的切线 \\ell 恰好平分 \\angle FPP'。
 
 不妨假设角平分线 \\ell' 与抛物线相交与 P,Q 两点，做 QQ' 垂直于准线。根据抛物线的定义，有 FP=PP'，因此也有 QF=QP'，又因为 FQ=QQ'，因此 P=Q，即 \\ell=\\ell'，证毕。
 
 我们也可以证明角相等，
-
-alt text
 
 不难得到，只需要证 \\angle FPQ=\\angle FQP 即可。
 
@@ -793,8 +743,6 @@ alt text
 ### 一般方程
 
 平面内与一个定点 F 和一条定直线 \\ell（不过 F）的距离相等的点的轨迹叫做抛物线。点 F 叫做抛物线的焦点，直线 \\ell 叫做抛物线的准线。
-
-alt text
 
 不妨设 F 到准线的距离（焦准距）为 p 且垂足为 K，容易知道，抛物线的顶点就是 FK 的中点，即 F=\\paren{\\dfrac{p}{2},0},K=\\paren{-\\dfrac{p}{2},0}，不难得到抛物线的标准方程为
 
@@ -826,16 +774,12 @@ f(x)=a^2+bx+c(a\\neq0)
 
 如图，过抛物线 x^2=2py(p>0) 外的点 P 作抛物线的两条切线 PA, PB，设线段 AB 的中点为 M，则 PM 一定平行（或重合）与抛物线的轴，设线段 PM 的中点为 R，则 R 一定在抛物线上，且抛物线在 R 处的切线与 AB 平行。
 
-alt text
-
 不妨设 P(x_0,y_0)，直线 AB 与 y 轴交于点 Q，则有：
 
 - k\_{AB} \\cdot k\_{PQ} = \\dfrac{2y_0}{p}；
 - k\_{PA} \\cdot k\_{PB} = \\dfrac{2y_0}{p}；
 
 假设 \\triangle ABC 外切于一条抛物线，即直线 AB，BC，CA 均与抛物线相切，那么 \\triangle ABC 的垂心始终过抛物线的准线。
-
-alt text
 
 - 兰伯特定理：由抛物线的三条切线所围成的三角形，其外接圆必经过抛物线的焦点。
 - 西姆松定理：点 P 到 \\triangle ABC 各边的投影共线，当且仅当 P 位于该三角形的外接圆上。
@@ -847,8 +791,6 @@ alt text
 
    证明：做 PP'\\perp\\ell，根据抛物线的性质，FP=PP'。
 
-   alt text
-
    因为 FP'\\perp\\ell'，因此 \\ell' 是 \\angle FPP' 角平分线，所以，F 关于 \\ell' 的反射点即为 P' 在准线上。
 
    推论：抛物线的焦点到其各条切线的投影点，均位于抛物线顶点处的切线上。
@@ -857,29 +799,21 @@ alt text
 
    证明：根据上一条，这两条切线分别是线段 FX' 和 FY' 的中垂线。因此，它们的交点即为三角形 FX'Y' 的外接圆圆心。
 
-   alt text
-
    推论：如果 PX 和 PY 是抛物线的切线，那么点 P 在准线上的投影，是 X 和 Y 在准线上的投影点所构成线段的中点。
 
 1. 做抛物线上两点 X,Y 的切线，相交于点 P，若 PX\\perp PY，则 P 在抛物线的准线上。反过来，过准线上一点 P 做抛物线的两条切线，则他们相互垂直。同时，XY 一定过焦点 F 且 PF\\perp XY。
 
    证明：设 X',Y' 为 X,Y 到准线上的投影，因为 P 在准线上，
 
-   alt text
-
    那么 XF=XX',YF=YY'，因此可以得到两个三角形全等，那么 \\angle XPY=90^\\circ。
 
 1. 我们做推广，两条切线为 \\varphi 或 180^\\circ-\\varphi 的点的集合是一个以 F 焦点，抛物线准线 \\ell 为准线的双曲线，其离心率等于 |\\cos\\varphi|。
-
-   alt text
 
    注意到 P 为 \\triangle FX'Y' 外心，因此 \\angle X'PY'=360^\\circ-2\\varphi，那么 P 到准线的距离为 PF|\\cos(180^\\circ-\\varphi)|=PF|\\cos\\varphi|，证毕。
 
 1. 设 PX 和 PY 为过点 P 的抛物线的两条切线，并设 l 为过 P 且平行于抛物线轴的直线。那么直线 PY 与 l 的夹角等于 \\angle XPF，且 \\triangle XFP\\backsim\\triangle PFY。由此可推知，FP 是角 XFY 的角平分线。
 
    设 X' 和 Y' 是 X 和 Y 在准线上的投影。那么，点 F、X' 和 Y' 位于一个以 P 为圆心的圆上，
-
-   alt text
 
    因此 \\angle X'Y'F = \\dfrac{1}{2}\\angle X'PF = \\angle XPF。因为 \\ell 垂直于 X'Y'，因此 PY 与 \\ell 的夹角等于 Y'F 与 X'Y' 的夹角，而 Y'F 垂直于 PY。
 
@@ -890,20 +824,6 @@ alt text
 过焦点的直线交抛物线与点 A,B 过 A,B 做准线 \\ell 的垂线 AC,BC，锁围成的直角梯形称为抛物线的特征直角梯形。
 
 如下图，M 点的纵坐标是切点 A,B 的纵坐标之和的一半，也就是说，做 AB 的中点 M'，则 MM' 是平行于抛物线的轴（图中为 x 轴）的。
-
-alt text
-
-alt text
-
-alt text
-
-alt text
-
-alt text
-
-alt text
-
-alt text
 
 一些结论：
 
@@ -925,8 +845,6 @@ P:y^2=4cx
 P(t)=(ct^2,2ct)
 
 其实，也可以用其他的形式来作为参数方程，但是这个形式显然是最简洁的，因此我们下面说，或者直接用，都是以这个为标准形式。
-
-alt text
 
 参数方程最好用的地方在于，它将一个点变成了一个纯简洁的参数 t，尽管如果直接设点以 x 或 y 为参数，看似更容易得到结果，但是运算过程会非常复杂，这体现了圆锥曲线部分一个经典的思想——化繁为简，先列后算，最后得到结果，当我们把“列”的过程“变复杂”那么算就会简单，当我们把最后一步变成两步，可能前面就会少一步复杂的运算。
 
@@ -1013,6 +931,6 @@ y \\cdot a(t_1+t_2) = 2a(x + at_1t_2) \\implies (t_1+t_2)y = 2x + 2at_1t_2
 
 **La Hire 定理（互反性质）**：若点 P 在点 Q 的极线上，则点 Q 必在点 P 的极线上。
 
-2025-05-182026-07-04
+2025-05-182026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com),  [devin-ai-integration[bot]](mailto:158243242+devin-ai-integration%5Bbot%5D@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

@@ -66,8 +66,6 @@ PS：此处伪力，只有从非惯性参考系，才会测量出离心力的存
 
 牛顿第二定律指出了力所引起的物体运动的定量变化：动量的变化率正比于力。
 
-alt text
-
 在这条定律中，把受到相同大小作用力的推动下，轻物体容易起动，重物体不易起动的事实，引进了质量的概念。
 
 质量被定义为惯性的定量量度。
@@ -481,6 +479,6 @@ E_k=\\dfrac12Mv_c^2+\\sum_i\\dfrac12m_iv_i^2
 - 整体运动：把整个系统看作一个质量集中在质心的质点的运动。
 - 内部运动：各个质点相对于质心的运动。
 
-2025-04-132026-07-04
+2025-04-132026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

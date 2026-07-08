@@ -184,8 +184,6 @@ l=\\sqrt{h^2+(R-r)^2}
 
 ### 截面问题
 
-alt text
-
 找截面有交线法和平行线法两个常用的方法，本人喜欢先用平行线，然后找交线。
 
 1. 连接被截的若干点。
@@ -260,6 +258,6 @@ V=\\dfrac{1}{3}S_1r+\\dfrac{1}{3}S_2r+\\dfrac{1}{3}S_3r+\\dfrac{1}{3}S_4r
 
 r=\\dfrac{3V}{S_1+S_2+S_3+S_4}=\\dfrac{3V}{S_表}
 
-2025-07-212026-07-04
+2025-07-212026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

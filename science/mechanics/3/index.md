@@ -74,8 +74,6 @@ T=\\dfrac{F_1m_2+F_2m_1}{m_1+m_2}
 
 ### 等时圆模型
 
-alt text
-
 质点自半径为 R 的空心球（对于平面而言是圆环）的最高点由静止开始无摩擦地沿任一弦下滑至球面（或圆环），所需时间相等，且等于：
 
 \\sqrt{\\dfrac{4R}{g}}
@@ -338,6 +336,6 @@ F=\\dfrac{m}{M}(m+M)(\\mu_1-\\mu_2)g
 
 做题方法：同上，一定要分析的是拐点和端点处的受力分析。
 
-2025-04-132026-07-04
+2025-04-132026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

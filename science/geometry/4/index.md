@@ -25,8 +25,6 @@ e = \\dfrac{\\cos\\beta}{\\cos\\alpha}
 
 更加具体的几何构造，由于代数手段可以简单的解决，纯几何手段通常很少使用。但是我们最基本的要掌握用丹德林双球构造，去证明圆锥截线是一个圆锥曲线。其核心原理是，球外一点到球的所有切线，从点到切点的距离相等。根据这个，我们首先猜想平面与双球的两个交点即为二次曲线的焦点，进而取曲线上任意一点，将其到两焦点的距离转化为到圆锥侧面的交点的距离，进而得出距离之和或之差恒定。
 
-alt text
-
 高考中有一类综合问题，把圆锥曲线（或者直线和圆）的部分知识，融合迁移到立体几何中出题。这类问题的核心构想是，将例题问题转化为平面问题，最简单的方法显然是直接推导边角关系，通常也能得出一部分关系，其次就是转化思想，取空间几何体的某个切面，然后通过空间的构造，进而在切面中求解。丹德林双球就是一类经典的问题，如果我们要进一步求解圆锥曲线的特征，通常就需要构造界面，然后通过相似、解三角形的知识求解了，这类问题有一个简化版：
 
 用一个平面截一个无限高的圆柱，设平面与圆柱底面的夹角为 \\theta(0\<\\theta\<90^\\circ)，则截面是一个椭圆，离心率为 \\sin^2\\theta。
@@ -267,27 +265,17 @@ b^2(1-a^2\\lambda^2)+a^2(1-b^2\\mu^2)=0
 - 当 n > 2 时，超椭圆的图形类似圆角矩形，在 (\\pm a, 0) 及 (0, \\pm b) 四点处的曲率为 0。
 - 其中 n = 4 的超椭圆也称为方圆形。n < 2 的超椭圆称为次椭圆，n > 2 的超椭圆称为过椭圆。
 
-alt text
-
 内摆线（圆内螺线）是所有形式为：
 
 \\begin{cases} x = \\cos\\theta + \\dfrac{1}{n}\\cos n\\theta \\ y = \\sin\\theta - \\dfrac{1}{n}\\sin n\\theta \\end{cases}
 
 的曲线，其中 n 为正实数。
 
-alt text
-
 ### 勒洛多边形
 
 勒洛三角形，又被称为弧三角形或曲边三角形，是除了圆形以外，最简单易懂的勒洛多边形，一个定宽曲线。
 
-alt text
-
-alt text
-
 勒洛多边形是勒洛三角形的拓展：
-
-alt text
 
 将一个曲线图放在两条平行线中间，使之与这两平行线相切，则可以做到：无论这个曲线图如何运动，只要它还是在这两条平行线内，就始终与这两条平行线相切。
 
@@ -584,8 +572,6 @@ AB\\cdot CD+AD\\cdot BC\\ge AC\\cdot BD
 
 圆的两条弦 AB,CD 相交于点 P，如图
 
-alt text
-
 则
 
 |PA|\\cdot|PB|=|PC|\\cdot|PD|
@@ -599,10 +585,6 @@ alt text
 \\Pi(p)=|OP|^2-r^2
 
 也就是说，如果 P 在圆外那么 \\Pi(P) 是正数，在圆内是正数。\\Pi(P) 衡量了一个点离圆有多远，而且它不是线性关系，而是平方尺度的不变量，所以经常与相似、勾股、幂等乘积自然兼容。
-
-alt text
-
-alt text
 
 定义了幂，我们就可以快速写出三个关于点幂的定理：相交弦定理、两割线定理、切割线定理。我们这里先给出一个“统一”的视角，方便理解和记忆：**对于园内外任意一点 P，做一条线与圆相交或相切，设其交点分别为 A,B（如果是切线那么 A,B 两点重合），则必有对于所有的做法，都有**
 
@@ -689,10 +671,6 @@ alt text
 ### 西姆松定理
 
 点 P 到 \\triangle ABC 各边的投影共线，当且仅当 P 位于该三角形的外接圆上（如图左）。
-
-alt text
-
-alt text
 
 斯坦纳线定理：一个三角形外接圆上任意一点（该点不为三角形顶点）关于三角形三边的对称点，这三个对称点是共线的，并且这条直线（称为斯坦纳线）必经过该三角形的垂心。
 
@@ -782,6 +760,6 @@ X\\paren{\\dfrac{t}{2},\\dfrac{1}{2t}}
 
 注意到这符合双曲线 xy=\\dfrac{1}{4} 的特征，因此直线为该曲线的包络线。
 
-2025-07-272026-07-04
+2025-07-272026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [kiloconnect[bot]](mailto:240665456+kiloconnect%5Bbot%5D@users.noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

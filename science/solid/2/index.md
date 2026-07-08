@@ -230,8 +230,6 @@ d=\\dfrac{|\\overrightarrow{AB}\\cdot\\bm n|}{|\\bm n|}
 
 三垂线定理：平面内有一条直线，如果平面外一条直线在这个平面上的射影，垂直于平面内的直线，那么平面外的这条直线与平面内的直线垂直。
 
-alt text
-
 ### 面与面的夹角
 
 即半平面的夹角，注意到这个一定是与两法向量夹角互补的：
@@ -246,8 +244,6 @@ alt text
 
 - 从交线上一点做垂线，过两个交点。
 - 从一个面上一点做交线的垂线，然后从垂足做垂线到另一个面。
-
-alt text
 
 ## 空间向量进阶
 
@@ -390,8 +386,6 @@ T=\\begin{bmatrix} 1&0&0&t_x\\ 0&1&0&t_y\\ 0&0&1&t_z\\ 0&0&0&1 \\end{bmatrix}
 
 ### 双垂直定理
 
-alt text
-
 ### 双余弦定理
 
 ### 双正弦定理
@@ -406,6 +400,6 @@ alt text
 
   \\cos\\theta=\\frac{|AD^2+BC^2-AC^2-BD^2|}{2AB\\cdot CD}
 
-2025-07-212026-07-04
+2025-07-212026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

@@ -305,8 +305,6 @@ p(x)=\\begin{cases} \\lambda e^{-\\lambda x}&x\\ge 0\\ 0&x\<0 \\end{cases}
 
 正态分布的概率密度函数中以平均值 \\mu、标准差 \\sigma 为参数，正态分布的数学期望值或期望 \\mu ,可解释为位置参数，决定了分布的位置；其方差 \\sigma ^{2} 的平方根或标准差 \\sigma 可解释尺度参数，决定了分布的幅度。
 
-alt text
-
 中心极限定理指出，在特定条件下，一个具有有限均值和方差的随机变量的多个样本（观察值）的平均值本身就是一个随机变量，其分布随着样本数量的增加而收敛于正态分布。
 
 因此，许多与独立过程总和有关的物理量，例如测量误差，通常可被近似为正态分布。正态分布是一种理想分布，许多典型的分布，比如成年人的身高、汽车轮胎的运转状态、人类的智商值（IQ），都属于或者说至少接近正态分布。
@@ -897,6 +895,6 @@ E[X] = \\sum\_{k=1}^{6} P(X \\ge k) = \\sum\_{k=1}^{6} \\left[ 1 - \\left( \\fra
 
 当你面对的问题涉及最大值、最小值的期望，或者需要计算 P(X = k) 非常困难但 P(X \\ge k) 相对容易时，优先考虑尾部求和公式。这本质上是求和与积分的次序交换。
 
-2025-05-182026-07-04
+2025-05-182026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [kiloconnect[bot]](mailto:240665456+kiloconnect%5Bbot%5D@users.noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com),  [devin-ai-integration[bot]](mailto:158243242+devin-ai-integration%5Bbot%5D@users.noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com)

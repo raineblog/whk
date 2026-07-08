@@ -209,8 +209,6 @@ x^2+y^2-2ax-2by+a^2+b^2-r^2=0
 
 容易知道，这是一个以 (3\\cos\\theta,3\\sin\\theta) 为圆心、半径为 1 的圆，
 
-alt text
-
 这样的圆有无数个，围成了一个圆环。
 
 ## 直线和圆
@@ -278,11 +276,7 @@ alt text
 
 - 圆与圆的位置关系：
 
-  alt text
-
   对应距离图示如下：
-
-  alt text
 
   除了用圆心距离，同样可以联立，解方程可以用加减消元。两个二次项系数相等的圆的直线方程的差，就是交点所确定的直线的直线方程。
 
@@ -406,8 +400,6 @@ alt text
 
 而我们称仿射变换是指在对一个向量空间进行一次线性变换并接上一个**平移**，变换为另一个向量空间。伸缩、平移、对称等都是仿射变换，
 
-alt text
-
 事实上：
 
 - 平行直线依然平行。
@@ -469,8 +461,6 @@ f:\\begin{cases} x&=ax'\\ y&=biy' \\end{cases}
 ### 角度问题
 
 倒角公式：我们知道 \\theta=\\theta_2-\\theta_1，如图
-
-alt text
 
 因此，不妨
 
@@ -538,6 +528,6 @@ alt text
 
 对于含参且参数的次数都是 1 的，不妨以参数为主元，令常数和系数都为零。
 
-2025-05-182026-07-04
+2025-05-182026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

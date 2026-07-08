@@ -281,8 +281,6 @@ Y=kX
 - 上取整函数 f(x) = {x}，其中 {x} 表示不小于 x 的最小整数，例如 {1.1} = 2，{-1.1} = -1，{2} = 2。
 - 非负小数部分函数 f(x) = x - [x]。非负小数部分函数是一个周期为 1，值域为 \[0, 1) 的周期函数。
 
-alt text
-
 基本性质：
 
 - 下取整函数满足 x - 1 < [x] \\le x，[x] \\le x < [x] + 1。
@@ -295,10 +293,6 @@ alt text
 1. 解（2）中的关于整数 k 的不等式，将所得 k 值代入 x = h(k) 得方程的解。
 
 常见函数：
-
-alt text
-
-alt text
 
 ### 函数构造
 
@@ -720,8 +714,6 @@ a=\\dfrac{e^{x_0}(x_0+1)}{e^{x_0}(x_0+1)-2}\\cdot\\dfrac{2x_0-1}{x_0e^{x_0}}
 
 容易想到，我们做出图来，然后根据图像解决，注意，一定要小心有的时候直线可能会与曲线凸出来的部分相交或相切，而不一定是在拐点上，如图。
 
-alt text
-
 虽然交点个数往往可以转化为零点问题，但是这类问题往往在代数上很难算，只能数形结合，简化问题后再带入计算。
 
 有的时候，我们遇到的问题是曲线与曲线的交点，此时有一种简单方法是，等式两边同时乘除 x，也许可以将问题转化为直线与曲线的交点。
@@ -852,8 +844,6 @@ alt text
 
 假设我们目前的近似解是 x_i，我们画出与 f(x) 切于点 (x_i,f(x_i)) 的直线 l，将 l 与 x 轴的交点横坐标记为 x\_{i+1}，那么这就是一个更优的近似解。重复这个迭代的过程。
 
-alt text
-
 根据导数的几何意义，可以得到如下关系：
 
 f'(x_i) = \\frac{f(x_i)}{x\_{i} - x\_{i+1}}
@@ -866,6 +856,6 @@ x\_{i+1} = x_i - \\frac{f(x_i)}{f'(x_i)}
 
 牛顿迭代法的收敛率是平方级别的，这意味着每次迭代后近似解的精确数位会翻倍。关于牛顿迭代法的收敛性证明可参考 [citizendium - Newton method Convergence analysis](http://en.citizendium.org/wiki/Newton%27s_method#Convergence_analysis)。当然牛顿迭代法也同样存在着缺陷，详情参考 [Xiaolin Wu - Roots of Equations 第 18 \\sim 20 页分析](https://www.ece.mcmaster.ca/~xwu/part2.pdf)。
 
-2025-05-182026-07-04
+2025-05-182026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com)

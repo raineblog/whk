@@ -15,8 +15,6 @@
 - 互异性：集合内的各元素都是唯⼀不重复的。
 - ⽆序性：集合内的各元素的顺序是没有限制的。
 
-alt text
-
 子集与空集：
 
 - 子集：A \\subseteq B 或 B \\supseteq A，表示 A 中的任意元素都属于 B
@@ -165,8 +163,6 @@ A\\cup B=A\\cap B \\iff A=B
 - E={(x,y)\\in S\\times S: x\\prec y \\land ((\\nexists~z\\in S)~~x\\prec z\\prec y)}
 
 如对于集合 {0,1,2} 的幂集 S 和集合的包含关系 \\subseteq，其对应的 Hasse 图为：
-
-alt text
 
 由于偏序具有反对称性，所以 Hasse 图一定是有向无环图，进而我们可以根据拓扑排序对任意有限偏序集构造全序。
 
@@ -577,7 +573,7 @@ P/N-Position，此处仅考虑非反常游戏，定义，
 
 <https://oi-wiki.org/math/game-theory/impartial-game/>
 
-2025-08-192026-07-04
+2025-08-192026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com),  [Gemini](mailto:200291788+gemini-code-assist@users.noreply.github.com)
 

@@ -6,8 +6,6 @@
 
 **分子内部**相邻原子间**强烈**的**相互作用**，称为化学键，主要决定了物质的化学性质。化学反应的过程实质是，旧化学键的断裂（吸收热量），和新化学键的生成（放出热量）。
 
-alt text
-
 化学键分为**离子键**、**共价键**、**金属键**，其中有**配位键**作为一个特殊的共价键。
 
 | 四大晶体类型 | 作用力       | 常见类型           | 常见物质                   | 方向性 | 饱和性 |
@@ -192,8 +190,6 @@ alt text
 
 石墨晶体是层状结构，在每一层内，每个碳原子与临近的三个碳原子以共价键结合，形成无限的六边形网状结构。每个碳原子还有一个与碳环平面垂直的未参与杂化的 2p 轨道，并含有一个未成对电子，形成遍及整个平面的超大离域 \\pi 键，电子可以在其中自由运动，因此石墨具有各向异性的导电性。同时，石墨的层与层之间以范德华力结合，因为范德华力远小于共价键，受力很容易散开，因此作为铅笔芯的材料。
 
-alt text
-
 物质组成的复杂性导致晶体中存在多种不同微粒以及不同的微粒相互作用。金属键、离子键、共价键、配位键等都是化学键的典型模型，但是，原子之间形成的化学键往往是介于经典模型之间的过度状态。
 
 熔沸点比较：
@@ -208,8 +204,6 @@ alt text
 ### 晶体晶胞
 
 晶胞是描述晶体结构的最小单元，晶体中晶胞的排列是无隙且并置的，也就是说，不能把一个旋转拼接的单元当作晶胞。
-
-alt text
 
 原子坐标：
 
@@ -237,10 +231,6 @@ alt text
 - 晶胞密度：
 
   \\rho=\\dfrac{n}{V}=\\dfrac{nM}{V}=\\dfrac{M_总}{N_AV}=\\dfrac{\\sum MN}{N_AV}
-
-alt text
-
-alt text
 
 ## 结构推断问题
 
@@ -560,6 +550,6 @@ E_j = \\alpha + 2\\beta \\cos \\frac{j\\pi}{n+1}, \\quad j = 1, 2, \\dots, n
 
 吸电子共轭效应越强 \\rightarrow \\beta 碳正电性越大 \\rightarrow 越容易受到亲核进攻。
 
-2025-10-122026-07-04
+2025-10-122026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

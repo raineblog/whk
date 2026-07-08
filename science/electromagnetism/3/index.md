@@ -141,8 +141,6 @@ U=\\pm Ed
 - 电容器常用在配合电池使用的电子设备中，在更换电池时提供电力，避免储存的资料因没有电力而消失。在电容充电后关闭电源，电容内的电荷仍可能储存很长的一段时间，此电荷足以产生电击，或是破坏相连结的仪器。
 - 在维修具有大电容的设备之前，需确认电容已经放电完毕。为了安全上的考量，所有大电容在组装前需要放电。高电压的电容器若在启动时加入缓启动的机制，限制其突入电流，可以延长其设备寿命，提升器件可靠度，也可以避免高电压下造成的危害。
 
-alt text
-
 假设这两片导板分别载有负电荷与正电荷，所载有的电荷量分别为 −Q、+Q，两片导板之间的电势差为 U，则这电容器的电容 C 为：
 
 C={Q\\over U}
@@ -181,8 +179,6 @@ C={\\varepsilon_rS\\over4\\pi kd}
 - 如果插入绝缘体：则 \\varepsilon 增大，C 增大。
 
 ### 电容器的串并联
-
-alt text
 
 电容器并联：
 
@@ -380,7 +376,7 @@ t=\\dfrac{L}{v_0}=\\sqrt{\\dfrac{L^2m}{2U_0q}}
 
 电场偏向型：以电场令电子束产生偏向，产生电场的偏向极板内置在阴极射线管内部。**示波器**使用此种方式的显像管，以利应付不同的扫描频率，但此方式需要较长的管身，主要用于电子仪器。
 
-2025-12-242026-07-04
+2025-12-242026-07-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
 
