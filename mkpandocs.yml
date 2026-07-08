@@ -229,16 +229,13 @@ nav:
       - science/human/7.md
       - science/human/8.md
       - science/human/9.md
-    - 物种与生物概述:
-      - science/species/1.md
-      - science/species/2.md
-      - science/species/3.md
-      - science/species/4.md
-    - 生态学与地理学:
+    - 生物物种与生态:
       - science/nature/1.md
       - science/nature/2.md
       - science/nature/3.md
       - science/nature/4.md
+      - science/nature/5.md
+      - science/nature/6.md
 
 plugins:
 - meta
