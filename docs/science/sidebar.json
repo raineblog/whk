@@ -89,7 +89,7 @@
         ]
     },
     {
-        "电磁学与电化学": [
+        "电学磁学与其他": [
             "science/electromagnetism/1.md",
             "science/electromagnetism/2.md",
             "science/electromagnetism/3.md",
@@ -115,6 +115,13 @@
         ]
     },
     {
+        "化学反应的原理": [
+            "science/reaction/1.md",
+            "science/reaction/2.md",
+            "science/reaction/3.md"
+        ]
+    },
+    {
         "元素与物质性质": [
             "science/element/index.md",
             "science/element/1.md",
@@ -124,13 +131,6 @@
             "science/element/5.md",
             "science/element/6.md",
             "science/element/7.md"
-        ]
-    },
-    {
-        "反应速率与平衡": [
-            "science/reaction/1.md",
-            "science/reaction/2.md",
-            "science/reaction/3.md"
         ]
     },
     {
