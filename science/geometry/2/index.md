@@ -1,532 +1,741 @@
-# 直线和圆
+# 三角函数与三角恒等变换
 
-## 直线方程
+## 角和三角函数
 
-### 点斜式
+### 任意角和弧度制
 
-确定一条直线需要两条信息，假设我们知道了一条直线过一个点 (x_0,y_0)，那么我们只需要知道这条直线的倾斜角或者斜率，就可以确定这条直线了。
+任意角的定义：平面内一条射线绕其端点从一个位置旋转到另一个位置形成的图形叫做角。
 
-我们定义直线的方向为直线向上的方向，这个方向与 x 轴正半轴的夹角 \\theta，记为这条直线的**倾斜角**，倾斜角的范围是 \\theta\\in\[0,\\pi)。特殊的，规定 x 轴的倾斜角为 0。
+开始的位置称为始边，结束的位置称为终边。并规定：
 
-我们定义直线的**斜率**为：
+- 按逆时针方向旋转形成的角叫做正角，其角度为正；
+- 按顺时针方向旋转形成的角叫做负角，其角度为负；
+- 终边相对于始边没有做任何旋转的角叫做零角，其角度为 0。
 
-k=\\dfrac{y_2-y_1}{x_2-x_1},x_1\\neq x_2
+为什么逆时针是正角？考虑点 (1,0) 绕着 (0,0) 转一个锐角：
 
-也就是，x 每增加 1，y 的变化量就是直线的斜率，特殊的，我们不定义平行于 y 轴的直线的斜率。容易得到：
+得到的点 A(x,y) 一定满足 x,y>0，因此定义逆时针为正角。
 
-- 倾斜角 \\alpha\\in(0,\\pi/2)，斜率 k>0，y 随 x 增大而增大。
-- 倾斜角 \\alpha\\in(\\pi/2,\\pi)，斜率 k\<0，y 随 x 增大而减小。
+这样就把角的概念推向了任意角。
 
-k=\\tan\\theta,\\quad\\theta=\\arctan k
+弧度制的定义：弧度用符号 \\text{rad} 表示，读作「弧度」。
 
-因此，我们就可以得到直线方程的点斜式：
+定义正角的弧度为正、负角的弧度为负，零角的弧度为 0；
 
-\\boxed{y-y_0=k(x-x_0)}\\tag{\\scriptsize\\text{点斜式}}
+如果半径为 r 的圆的圆心角 \\alpha 所对弧长为 l ，则：
 
-### 两点式
+|\\alpha|=\\dfrac{l}{r}
 
-容易知道，两点确定一条直线，如果两点横坐标不相等，我们可以这么写出直线方程：
+与角 \\alpha 终边位置相同的角的集合很容易得出，为：
 
-\\boxed{y-y_1=\\dfrac{y_2-y_1}{x_2-x_1}(x-x_1)}\\tag{\\scriptsize\\text{两点式}}
+{\\varphi \\mid \\varphi = \\alpha - 2k\\pi, k \\in \\mathbb{Z}}
 
-可以认为是把点斜式和斜率的公式带入而已，也可以认为是：
+弧度与角度的转化：关键是，180^\\circ=\\pi，具体的。
 
-\\boxed{\\dfrac{y-y_1}{x-x_1}=\\dfrac{y_2-y_1}{x_2-x_1}}\\tag{\\scriptsize\\text{两点式}}
+以度数表示的角，把数字乘以 \\dfrac{\\pi}{180^\\circ} 便转换成弧度；
 
-等一系列斜率的等式。
+以弧度表示的角，乘以 \\dfrac{180^\\circ}{\\pi} 便转换成度数。
 
-### 点向式
+扇形的面积、周长、弧长公式：
 
-我们知道过一个点的直线可以用法向量或方向向量来表示，我们将在一般式中用到法向量，因此这里用方向向量的方法。假设 M_0(x_0,y_0) 在直线 \\ell 上，直线方向向量 \\bm e=(A,B)，因此直线上任意一点满足：
+- 引入了弧度制后，我们便可以轻松的计算弧长 \\ell=\\alpha r。
+- 面积公式 S=\\dfrac{\\ell r}{2}=\\dfrac{\\alpha r^2}{2}=\\dfrac{\\ell^2}{2\\alpha}。
+- 对于扇形，周长包括两个半径和一个弧长：C=2r+\\ell=2r+\\alpha r。
 
-\\overrightarrow{OM}=\\overrightarrow{OM_0}+\\lambda\\bm e,\\lambda\\in\\R
+上述公式都要代入弧度制，如果是角度值，需要换算。
 
-容易知道，直线斜率就是 B/A。
+### 三角函数的定义
 
-### 参数式
+用直角三角形定义：直角三角形只有锐角三角函数的定义。指定锐角 \\theta，可做出直角三角形，使一个内角为 \\theta。
 
-从向量式出发，可以将参数 \\lambda 引入方程组：
+- 正弦 \\sin\\alpha 表示 \\alpha 的对边与斜边的比值。
+- 余弦 \\cos\\alpha 表示 \\alpha 的邻边与斜边的比值。
+- 正切 \\tan\\alpha 表示 \\alpha 的对边与邻边的比值。
 
-\\begin{cases} x&=x_0+A\\lambda\\ y&=y_0+B\\lambda \\end{cases}
+用直角坐标系定义：设点 P(x,y) 是平面直角坐标系 xOy 中的一点。
 
-或者从点斜式出发：
+- 我们记 \\theta 是从 x 旋转到 OP 的角度，r 是 OP 长度。则：
 
-\\begin{cases} x&=x_0+\\lambda\\cos\\alpha\\ y&=y_0+\\lambda\\sin\\alpha \\end{cases}
+  \\begin{aligned} r=\\sqrt{x^2+y^2}\\ \\sin\\theta=\\frac{y}{r}\\ \\cos\\theta=\\frac{x}{r}\\ \\tan\\theta=\\frac{y}{x}\\ \\end{aligned}
 
-称为参数式，这个表示不常用。
+- 这样可以定义任何角度的三角函数（除非当定义式无意义时）。
 
-### 斜截式
+用单位圆定义：单位圆指半径为单位长度的圆。
 
-当一个点横坐标为 0，点斜式就退化为斜截式，斜截式的通式为：
+- 通常是平面直角坐标系中以 (0,0) 为圆心、半径为 1 的圆。
 
-\\boxed{y=kx+b}\\tag{\\scriptsize\\text{斜截式}}
+- 单位圆上的点满足：x^2+y^2=1，即毕达哥拉斯定理。
 
-其中 b 称为纵截距，这也是初中数学的常用形式。
+- 指定一角 \\theta，点 (1,0) 旋转 \\theta 度得到的点 A(x,y)，那么：
 
-### 截距式
+  \\begin{aligned} x^2+y^2=1\\ \\sin\\theta=y\\ \\cos\\theta=x\\ \\tan\\theta=\\frac{y}{x}\\ \\end{aligned}
 
-当两点分别在 x,y 轴上，两点式退化为截距式：
+- 三角函数线：设角 \\alpha 的终边与单位圆交于点 P，过 P 做 PM\\perp x 轴，垂足为 M，过 A(1,0) 做单位圆的切线与 \\alpha 的终边或其反向延长线交于 T。
 
-\\boxed{\\dfrac{x}{a}+\\dfrac{y}{b}=1}\\tag{\\scriptsize\\text{截距式}}
+  则 T 到 x 轴的距离（带有正负号）即为 \\tan\\alpha。据此容易理解，为什么 \\tan90^\\circ 是无意义的，或者说，存在于正负无穷大了。
 
-注意：正比例函数 y=x 无法写成截距式，这个通常要特殊讨论。
+常见的三角函数定义：
 
-表示两点分别是 (a,0),(0,b)，分别称为横截距和纵截距。
+\\begin{aligned} \\tan\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}\\ \\cot\\alpha=\\frac{1}{\\tan\\alpha}\\ \\sec\\alpha=\\frac{1}{\\cos\\alpha}\\ \\csc\\alpha=\\frac{1}{\\sin\\alpha} \\end{aligned}
 
-### 一般式
+常见角度的三角函数：
 
-我在这里用法向量的方法做截距式，如下：
+| 角度       | 弧度     | 正弦（\\sin） | 余弦（\\cos） | 正切（\\tan） |
+| ---------- | -------- | ------------- | ------------- | ------------- |
+| 0^\\circ   | 0        | 0             | 1             | 0             |
+| 30^\\circ  | \\pi/6   | 1/2           | \\sqrt3/2     | \\sqrt3/3     |
+| 45^\\circ  | \\pi/4   | \\sqrt2/2     | \\sqrt2/2     | 1             |
+| 60^\\circ  | \\pi/3   | \\sqrt3/2     | 1/2           | \\sqrt3       |
+| 90^\\circ  | \\pi/2   | 1             | 0             | 无意义        |
+| 120^\\circ | 2\\pi/3  | \\sqrt3/2     | -1/2          | -\\sqrt3      |
+| 135^\\circ | 3\\pi/4  | \\sqrt2/2     | -\\sqrt2/2    | -1            |
+| 150^\\circ | 5\\pi/6  | 1/2           | -\\sqrt3/2    | -\\sqrt3/3    |
+| 180^\\circ | \\pi     | 0             | -1            | 0             |
+| 210^\\circ | 7\\pi/6  | -1/2          | -\\sqrt3/2    | \\sqrt3/3     |
+| 225^\\circ | 5\\pi/4  | -\\sqrt2/2    | -\\sqrt2/2    | 1             |
+| 240^\\circ | 4\\pi/3  | -\\sqrt3/2    | -1/2          | \\sqrt3       |
+| 270^\\circ | 3\\pi/2  | -1            | 0             | 无意义        |
+| 300^\\circ | 5\\pi/3  | -\\sqrt3/2    | 1/2           | -\\sqrt3      |
+| 315^\\circ | 7/4      | -\\sqrt2/2    | \\sqrt2/2     | -1            |
+| 330^\\circ | 11\\pi/6 | -1/2          | \\sqrt3/2     | -\\sqrt3/3    |
+| 360^\\circ | 2\\pi    | 0             | 1             | 0             |
 
-一条直线过 M_0(x_0,y_0)，且法向量为 \\bm n=(A,B)，则对于直线上一点 M(x,y) 有：
+尼云定理指出，在 0\\sim90^\\circ 范围内，如果正弦函数 \\sin 的自变量和因变量都要求是有理数，那么答案只有：
 
-MM_0\\cdot\\bm n=0
+\\begin{aligned} \\sin0^\\circ&=0\\ \\sin30^\\circ&=1/2\\ \\sin90^\\circ&=1 \\end{aligned}
 
-展开得到：
+### 正弦函数的性质
 
-A(x-x_0)+B(y-y_0)=0
+分析函数的套路：
 
-设 C=-(Ax_0+By_0)，那么可以得到一般式：
+- 定义域、值域、图像。
+- 周期性、单调性。
+- 对称轴、对称中心。
+- 最大值、最小值、零点。
 
-\\boxed{Ax+By+C=0}\\tag{\\scriptsize\\text{一般式}}
+图像：
 
-在这形式下，直线的斜率是 -\\dfrac{A}{B} ，横截距是 -\\dfrac{C}{A} ，纵截距是 -\\dfrac{C}{B}。
+三角函数
 
-特殊的，如果直线过原点，则 C=0；对于斜率不存在的，直线方程就为 x=x_0。
+周期性：
 
-写一般式技巧：
+\\begin{aligned} \\sin\\alpha=\\sin(\\alpha+2\\pi)\\ \\cos\\alpha=\\cos(\\alpha+2\\pi) \\end{aligned}
 
-- 用两种方式表示斜率，比如用 (x,y) 点和任意给定的一点，给定的两点，然后化简。
+可知 \\sin、\\cos 是最小正周期为 2\\pi 的周期函数。
 
-## 圆的方程
+奇偶性：正弦函数是奇函数，余弦函数是偶函数。
 
-在有关圆的问题中几何法往往是第一选择，但解析几何的意思就是用代数的万法研究几何问题。在这里代数方法指的就是坐标法求出坐标成了最关键的一步，而求坐标的大前提就是需要联立直线与圆的方程，我们会在圆锥曲线中详细讨论这个问题。
+对称性：
 
-### 极坐标
+1. 正弦函数：
+   - 中心对称：(k\\pi,0),k\\in\\mathbb Z；
+   - 轴对称：x=k\\pi-\\pi/2,k\\in\\mathbb Z；
+1. 余弦函数：
+   - 中心对称：(k\\pi-\\pi/2),k\\in\\mathbb Z；
+   - 轴对称：x=k\\pi,k\\in\\mathbb Z。
 
-理解：在笛卡尔坐标系中，我们关心的是点到坐标轴的距离，同样，我们也可以关心点到原点的距离，那么，我们还需要一个「方向」信息，于是我们引入点与原点的连线与 x 轴的夹角，即为极坐标。
+- 对称中心：零点；对称轴：极值点。
 
-- 在平面上选一定点 O，称为极点。
-- 自极点引出一条射线 Ox，称为极轴。
-- 选择一个单位长度（在数学问题中通常为 1），一个角度单位（通常为弧度）及其正方向（通常为逆时针方向）。
+解含参对称性问题的套路：不妨代入 \\sin x=0 表示中心对称，代入 \\cos x=\\pm 1 为轴对称，通过这种转化，或者直接写 x=\\dots 用 k\\pi,k\\in\\mathbb Z 的通式。
 
-就建立了平面极坐标系。设 A 为平面上一点。
+单调性：
 
-- 极点 O 与 A 之间的距离 |OA| 称为极径，记为 \\rho。
-- 以极轴为始边，OA 为终边的角 \\angle xOA 称为极角，记为 \\varphi。
-- 那么有序数对 (\\rho,\\varphi) 即为 A 的极坐标。
+1. 正弦函数：
+   - 单调递增：[2k\\pi-\\pi/2,2k\\pi+\\pi/2],k\\in\\mathbb Z；
+   - 单调递减：[2k\\pi+\\pi/2,2k\\pi+3\\pi/2],k\\in\\mathbb Z；
+1. 余弦函数：
+   - 单调递增：[2k\\pi-\\pi,2k\\pi],k\\in\\mathbb Z；
+   - 单调递减：[2k\\pi,2k\\pi+\\pi],k\\in\\mathbb Z；
 
-由终边相同的角的定义可知，(\\rho,\\varphi) 与 (\\rho,\\varphi + 2k\\pi)\\ (k\\in \\mathbf{Z}) 其实表示的是一样的点。特别地，极点的极坐标为 (0,\\varphi)\\ (\\varphi \\in \\mathbf{R})，于是平面内的点的极坐标表示有无数多种。如果规定 \\rho \\ge 0,0 \\le \\varphi < 2\\pi，那么除极点外，其他平面内的点可以用唯一有序数对 (\\rho,\\varphi) 表示，而极坐标 (\\rho,\\varphi) 表示的点是唯一确定的。
+解单调性的套路：设 t=\\omega x+\\varphi，然后不妨解关于 t 的方程。这一部分通常的解法，就是找出所有 t 的关系，有的可以直接写出 t=\\dots 用 k\\pi,2k\\pi 表示，有的可以写 \\dots\\le t\\le\\dots 讨论参数范围，但是总之来说，思考难度不大，计算难度不小，细心即可。
 
-当然，有时候研究极坐标系下的图形有些不方便。要想转到直角坐标系下研究，有互化公式。点 A(\\rho,\\varphi) 的直角坐标 (x,y) 可以如下表示：
+正弦曲线及其性质：正弦曲线，形如 y=A\\sin(\\omega x+\\varphi)。注意到 \\sin、\\cos 其实都属于正弦曲线。
 
-\\begin{cases} x &= \\rho \\cos \\varphi \\ y &= \\rho \\sin \\varphi \\end{cases}
+函数 y=A\\sin x 的性质:
 
-进而可知：
+- 我们发现这个操作其实就是对 y 轴的伸缩：
+- 若 A>1，图像伸长；若 A\<1，图像压缩；伸缩倍率为 A。
+- 也就是图像上任何一个点的纵坐标变成了原来的 A 倍。
+- 其中 A 决定了函数上的点的纵坐标的变化幅度，我们称为振幅。
 
-\\begin{aligned} \\rho^2 &= x^2 + y^2\\ \\tan \\varphi &= \\frac{y}{x}\\quad(x\\not =0) \\end{aligned}
+函数 y=\\sin(x+\\varphi) 的性质:
 
-于是有 \\rho = \\sqrt{x^2+y^2}。但具有相同 \\dfrac{y}{x} 的 \\tan\\varphi 有两个可能的 \\varphi 的值，此时还需要根据 x, y 的值来确定方向。具体地，定义函数：
+- 我们发现这个操作其实就是对 y=\\sin x 图像的平移：
+- 若 \\varphi>0，图像向左平移；若 \\varphi\<0 图像向右平移；平移单位为 |\\varphi|。
+- 也就是点 P(x,\\sin x) 平移到了 P'(x-\\varphi,\\sin x)。
+- 其中 \\varphi 决定了初始时刻的位置，我们称为初相。
 
-\\operatorname{atan2}(y, x) = \\begin{cases} \\arctan(\\frac{y}{x}) & \\text{if } x > 0 \\ \\arctan(\\frac{y}{x}) + \\pi & \\text{if } y \\ge 0, x < 0 \\ \\arctan(\\frac{y}{x}) - \\pi & \\text{if } y < 0, x < 0 \\ \\pi/2 & \\text{if } y > 0, x = 0 \\ -\\pi/2 & \\text{if } y < 0, x = 0 \\ \\text{any} & \\text{if } y = 0, x = 0 \\end{cases}
+函数 y=\\sin(\\omega x) 的性质:
 
-则 \\varphi = \\operatorname{atan2}(y, x)。注意上述函数的值域为 (-\\pi, \\pi\]。
+- 我们发现这个操作其实就是对 x 轴的伸缩：
 
-注意，在极坐标中表示直线或曲线，我们常用 \\rho=f(\\varphi) 的函数。
+- 若 \\omega>1，图像压缩；若 \\omega\<1，图像伸长；伸缩倍率为 1/\\omega。
 
-### 标准方程
+- 也就是点 P(x,\\sin x) 平移到了 P'\\left(\\dfrac{x}{\\omega},\\sin x\\right)。
 
-我们知道圆可以通过圆心和半径确定，我们写出距离公式：
+- 其中 \\omega 决定了函数值的变化快慢，我们称为角速度。
 
-\\boxed{(x-a)^2+(y-b)^2=r^2}
+- 由于 \\sin x 的最小正周期为 2\\pi，因此 \\sin(\\omega x) 的最小正周期为：
 
-即为圆的标准方程，而圆内和圆外分别为小于号和大于号。
+  T=\\frac{2\\pi}{\\omega}
 
-单位圆的标准方程：
+函数 y=\\sin(\\omega x+\\varphi) 的性质：
 
-x^2+y^2=1
+- 一切变换是对于 x,y 的且满足左加右减，上加下减。
+- \\omega,\\varphi 可以统称为相位（初相和角速度）。
 
-### 一般方程
+我们把上面两个操作合在一起，但是，顺序？我们来分析一下。
 
-我们将标准方程展开：
+考虑 y=\\sin x 平移 \\varphi 和 x 轴伸缩 \\omega 这两个操作以不同的顺序会得到什么：
 
-x^2+y^2-2ax-2by+a^2+b^2-r^2=0
+- 先平移 \\varphi，后 x 轴伸缩 \\omega：
+  1. y=\\sin x
+  1. y=\\sin(x+\\varphi)
+  1. y=\\sin(\\omega x+\\varphi)
+- 先 x 轴伸缩 \\omega，后平移 \\varphi：
+  1. y=\\sin x
+  1. y=\\sin(\\omega x)
+  1. y=\\sin(\\omega(x+\\varphi))
+  1. y=\\sin(\\omega x+\\omega\\varphi)
+- 易错点：
+  - 平移是对于 x 的，而伸缩（在 x 轴上）是对应整个函数的。
+  - 把函数 y=\\sin(\\omega x+\\varphi)（可以看为 f(x)=\\sin(\\omega x+\\varphi)）：
+  - 平移 \\varphi' 是 y=\\sin(\\omega(x+\\varphi')+\\varphi)，而不是 y=\\sin(\\omega x+\\varphi'+\\varphi)
+  - 伸缩 \\omega' 是 y=\\sin(\\omega'\\omega x+\\varphi)，而不是 y=\\sin(\\omega'(\\omega x+\\varphi))
+  - 即，平移是对于 x 的操作，伸缩是对于传入函数的值的操作。
 
-分别设：
+注意到 y=\\sin(\\omega x+\\varphi) 相当于 y=\\sin(\\omega x) 平移 \\dfrac{\\varphi}{\\omega} 得到的，
 
-\\begin{cases} D&=-2a\\ E&=-2b\\ F&=a^2+b^2-r^2 \\end{cases}
+这个函数过点 P\\left(-\\dfrac{\\varphi}{\\omega},0\\right)，而不是 y=\\sin(\\omega x+\\omega\\varphi) 过 P'(-\\varphi,0)。
 
-而根据次数，A,B,C 分别为 x^2,y^2,xy 的系数，分别为 1,1,0，我们不在一般方程中体现，但是字母保留，不用写出，因此字母应当从 D 开始写，即一般方程：
+据此，我们得出，从 y=\\sin x 变换到 y=\\sin(\\omega x+\\varphi)，需要：
 
-\\boxed{x^2+y^2+Dx+Ey+F=0}
+- 先平移 \\varphi，再对 x 轴伸缩 \\omega。
 
-一个圆一定可以表示成这个形式，但是满足这个形式的不一定是一个圆，根据配方法：
+因此可以得出，P(x,\\sin x) 平移到了 P'\\left(\\dfrac{x-\\varphi}{\\omega},\\sin x\\right)。
 
-\\boxed{\\left(x+\\dfrac{D}{2}\\right)+\\left(y+\\dfrac{E}{2}\\right)=\\dfrac{D^2+E^2-4F}{4}}
+正弦函数到 y=A\\sin(\\omega x+\\varphi) 的变换：
 
-因此只要 D^2+E^2>4F，该方程就可以表示一个圆了；特殊的，如果 D=E=F 则该方程表示一个点 (0,0)。具体的，圆心：\\left(-\\dfrac{D}{2},-\\dfrac{E}{2}\\right)，半径：\\dfrac{\\sqrt{D^2+E^2-4F}}{2}。
+- 其实就相当于对函数 y=\\sin(\\omega x+\\varphi) 的 y 轴伸缩 A 倍。
+- 注意到 A 只是对 y 轴的伸缩，因此可以在任意时间变换。
+- 注意到 \\omega 是对 x 轴的伸缩，因此需要在 \\varphi 的变换之后（前文已述）。
 
-做题方法：
+当然上面说的是分别进行三个变换各一次的顺序，据此我们进行组合：
 
-- 一般来说，给定三个点，会求一般方程，因为一般方程是一次方程。
-- 如果有两个点某坐标相等，那么做出垂直平分线，然后设出标准方程。
-- 一般方程判断点是否在圆内、外，只需要用左式与 0 比较即可，大于 0 在圆外，小于 0 在园内。
+1. 平移 \\varphi；
+1. x 轴伸缩 \\omega；
+1. y 轴伸缩 A。
 
-直径方程：已知一个圆的一条直径 AB，则圆的方程可以表示为：
+可以从 y=\\sin x 得到 y=A\\sin(\\omega x+\\varphi) 的组合有：
 
-\\boxed{(x-x_1)(x-x_2)+(y-y_1)(y-y_2)=0}
+(1,2,3),(1,3,2),(3,1,2)
 
-容易知道根据直径所对圆周角是直角，向量点积为零得到，即为圆的方程。
+三种方式。
 
-已知点 A(x_1, y_1)，B(x_2, y_2)，若
+注意倒推法的应用。
 
-\\overrightarrow{AP} \\cdot \\overrightarrow{BP} = \\lambda
+函数 y=A\\sin(\\omega x+\\varphi) 的性质：基础性质上文写的很详细了，再梳理一遍。
 
-则点 P 的轨迹是圆，其方程为：
+我们知道，正弦函数和余弦函数只差了一个平移，
 
-(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = \\lambda
+因此下文只讨论了正弦函数对应的正弦曲线，余弦函数的自己脑补。
 
-其中 (x_1 - x_2)^2 + (y_1 - y_2)^2 + 4\\lambda > 0。
+首先我们整理一下各个字母的含义：
 
-### 向量方程
+- A 表示振幅：
+  - 若 A>1，图像在 y 轴上伸长；
+  - 若 A\<1，图像在 y 轴上压缩；
+  - 伸缩倍率为 A。
+- \\omega 表示角速度：
+  - 若 \\omega>1，图像在 x 轴上压缩；
+  - 若 \\omega\<1，图像在 x 轴上伸长；
+  - 伸缩倍率为 1/\\omega。
+- \\varphi 表示初相，但是并不单独决定函数的位置。
 
-在平面中，把所有等长的向量平移到同一起点，则构成的图形必然是圆，而这些以圆心为起点的向量，方向却是任意的，但是长度始终是恒定的。根据圆的定义可以得到标准圆的向量形式：
+这个函数相当于函数 y=\\sin x 进行一定的操作（下面再说）。
 
-- 向量式标准圆 |\\boldsymbol{a} - \\boldsymbol{a}\_0| = r，其中 \\boldsymbol{a}\_0 是确定的，r 为大于零的常数。
+其中，点 P(x,\\sin x) 平移到了 P\\left(\\dfrac{x-\\varphi}{\\omega},A\\sin x\\right)。
 
-在圆的性质之中，率先容易想到的莫过于直径所对的圆周角为直角，而向量的数量积恰恰是角度最好的体现，则有如下知识点：
+定义域和值域：我们在这里统一说明正弦曲线的定义域和值域。
 
-- 向量式直径圆：(\\boldsymbol{c} - \\boldsymbol{a}) \\cdot (\\boldsymbol{c} - \\boldsymbol{b}) = 0。这是以 |\\boldsymbol{a} - \\boldsymbol{b}| 为直径的圆。
+- 定义域，\\mathbb R；值域，[-A,A]。
+- 因此，\\sin、\\cos 函数的值域就是 [-1,1]。
 
-在遇到以线段长为直径的圆的时候，我们要做就是转化圆上的点与线段的两端点所构成的数量积为零。但我们都知道直径是特殊的弦，由特殊性必然可以推广到一般性，即直径圆的向量形式：(\\boldsymbol{c} - \\boldsymbol{a}) \\cdot (\\boldsymbol{c} - \\boldsymbol{b}) = 0。这是以 |\\boldsymbol{a} - \\boldsymbol{b}| 为直径的圆。正是由于角度的特殊性，可以通过数量积体现出直角，若不是直角时，我们发现数量积就没有一般性了，因此我们把直径圆的向量式一般化就可以得到 \\langle \\boldsymbol{c} - \\boldsymbol{a}, \\boldsymbol{c} - \\boldsymbol{b} \\rangle = 90^{\\circ}，其中 |\\boldsymbol{a} - \\boldsymbol{b}| 为定值。由此我们可以得到外接圆的向量形式：
+最小正周期：由于其进行的变换对最小正周期没有影响，因此，
 
-- 向量式外接圆：\\langle \\boldsymbol{c} - \\boldsymbol{a}, \\boldsymbol{c} - \\boldsymbol{b} \\rangle = \\theta 且 |\\boldsymbol{a} - \\boldsymbol{b}| 为定值。
+T=\\frac{2\\pi}{\\omega}
 
-### 圆心系
+绘制简图：**五点作图法**。
 
-我们考虑这个方程：
+- 正弦曲线在一个周期内，一定是上去下来上去（或是歪了的）。
+- 因此我们可以对于周期内的五个点（分为四个区间）画图：
+- 比如，最小正周期为 \\pi 的，我们可以做出 [0,\\pi/4,\\pi/2,3\\pi/4,\\pi] 五个点的图像。
+- 然后用光滑的曲线连接，再根据周期性画出其他部位的图像即可。
+- 也可以先看出来在所求范围内，函数的极大、极小点在哪里。
+- 也就是正弦函数的最值点，求出传入函数的值中 x 对应多少。
+- 然后先把这些点画出来，再找三个或更多上述性质的点求解、画图。
 
-(x-3\\cos\\theta)^2+(y-3\\sin\\theta)^2=1
+如果思考含参比较困难，不妨直接写 F(x)=0,F(x)=\\dfrac{\\pi}{2},\\dots，然后解出一组最好看的解，去讨论即可。
 
-容易知道，这是一个以 (3\\cos\\theta,3\\sin\\theta) 为圆心、半径为 1 的圆，
+**单调区间**可以用下面的方式：
 
-这样的圆有无数个，围成了一个圆环。
+- 我们知道正弦函数的单增区间是 [2k\\pi-\\pi/2,2k\\pi+\\pi/2]。
 
-## 直线和圆
+- 意思是当传入正弦函数的值在这个区间内，函数值单增。
 
-### 平行与垂直
+- 因此可以把传入函数的值当做一个整体，对于 y=A\\sin(\\omega x+\\varphi)：
 
-基本思想：
+  2k\\pi-\\pi/2\\le\\omega x+\\varphi\\le2k\\pi+\\pi/2
 
-- 两条直线平行，当且仅当 k_1=k_2 或 \\theta_1=\\theta_2。
-- 两条直线垂直，当且记得 k_1k_2=-1 或 \\theta_1+\\theta_2=90^\\circ。
+  就是单调区间，化简即可。
 
-做题方法：
+- 单减区间是 [2k\\pi+\\pi/2,2k\\pi+\\pi]，计算同理。
 
-- 验证三点共线：将直线分为两半，证明夹角为 180^\\circ 或两段斜率相等。
-- 验证两直线是否平行：在两直线上任取三个点（不在同一直线上），随便验证两个斜率是否相等即可。
-- 除非特殊优势，一般情况下可以常用点斜式和一般式来进行书写直线方程。
-- 用方向向量和法向量可以规避对斜率不存在的讨论，经常可以快速解题。
-- 关于坐标轴对称，优先用斜截式，因为斜率和纵截距一定是有关系的。
-- 圆上的点与点的距离的最值往往可以转化为圆心与这个点的距离加上半径或者减去半径求出。
-- 已知点 N 是圆 C 内一点，则过点 N 的直线与圆所交得的弦的长度的最大值为圆的直径，最小值为垂直于过点 N 的直径的弦的长度，垂足为点 N。
+- 不过单减区间还有一个求法，就是单增区间的两个端点都加上 T/2。
 
-### 交点与距离
+- 原理就是单增区间往右到下一个单增区间是单减的且长度是半周期。
 
-给出两条直线：
+对于整个图像的最值，就是函数的值域 [-A,A]。
 
-\\begin{cases} \\ell_1:&A_1x+B_1y+C_1=0\\ \\ell_2:&A_2x+B_2y+C_2=0 \\end{cases}
+对于一个区间的最值，可以有两个方法：
 
-求交点，即为 Q(x,y) 满足上述两式，解方程组即可，我们写出矩阵：
+1. 画出函数简图，找到区间在图像上的位置，找到极大极小点求解。
+1. 画出单位圆的示意图，在单位圆上找到函数的极大极小点，求解。
 
-\\begin{bmatrix}A_1 & B_1 \\A_2 & B_2\\end{bmatrix}\\begin{bmatrix} x \\ y\\end{bmatrix}=\\begin{bmatrix}-C_1\\-C_2\\end{bmatrix}
+对称轴、对称中心：
 
-根据克拉默法则，若 A_1B_2-A_2B_1\\neq0 则方程有解，且：
+- 对称轴：最值点。
 
-\\begin{cases} x&=\\dfrac{B_1C_2-B_2C_1}{A_1B_2-A_2B_1}\\ y&=\\dfrac{A_2C_1-A_1C_2}{A_1B_2-A_2B_1} \\end{cases}
+  正弦函数的最值点都可以表示为 k\\pi+\\pi/2,k\\in\\mathbb Z，余弦函数不加 \\pi/2。
 
-两点 A(x_1,y_1),B(x_2,y_2) 间的距离：
+- 对称中心：零点。
 
-\\boxed{\\begin{aligned} \\text{dis}&=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\\ &=\\sqrt{k^2+1}|x_2-x_1| \\end{aligned}}
+  余弦函数的零点都可以表示为 k\\pi+\\pi/2,k\\in\\mathbb Z，正弦函数不加 \\pi/2。
 
-在圆锥曲线中，后者称为弦长公式。
+求正弦曲线解析式：也就是求三个值 A、\\omega、\\varphi。
 
-点 (x_0,y_0) 到直线 Ax+By+C=0 的距离：
+- 其中 A 只与函数的最值有关，因此我们可以求出来它，则 A 就是函数的最值。
 
-\\boxed{\\text{dis}=\\dfrac{Ax_0+By_0+C}{\\sqrt{A^2+B^2}}}
+- 其次 \\omega 表示的是角速度，根据公式 T=2\\pi/\\omega 可以写出 \\omega=2\\pi/T。
 
-两直线的距离，假设两条平行直线可以表示为：
+- 而 T 就是两个相邻极值点的距离的两倍、极值和零点的距离的四倍。
 
-\\begin{cases} \\ell_1:&Ax+By+C_1=0\\ \\ell_2:&Ax+By+C_2=0 \\end{cases}
+- 考虑 \\varphi，易发现最好求的方法就是函数与 y 轴的交点 y|\_{x=0}，那么就有
 
-写出点到直线距离公式，将另一直线带入分子：
+  A\\sin\\varphi=y|\_{x=0}
 
-\\boxed{\\text{dis}=\\dfrac{|C_2-C_1|}{\\sqrt{A^2+B^2}}}
+- 求解即可。其次我们可以用函数的最值点、零点等，列：
 
-### 位置的关系
+  A\\sin(\\omega x_0+\\varphi)=y|\_{x=x_0}
 
-- 直线和圆的位置关系：相离、相切、相交。
+- 解方程时要注意 \\varphi 的取值一般是 0\\le\\varphi\<T，A、\\omega 的取值一般是正数。
 
-  1. 圆心到直线的距离，与圆的半径比较。
+### 正切函数的性质
 
-     d=\\dfrac{Ax_O+By_O+C}{\\sqrt{A^2+B^2}}
+分析函数的套路：
 
-     弦长根据垂径定律，为 2\\sqrt{r^2-d^2}。
+- 定义域：{x\\mid x\\neq k\\pi+\\pi/2,k\\in\\mathbb Z}；
+- 值域：(-\\infty,+\\infty)
+- 周期性：T=\\pi；
+- 单调性：在 (k\\pi-\\pi/2,k\\pi+\\pi/2) 单调递增。
+- 对称性：奇函数，关于 (k\\pi,0),k\\in\\mathbb Z 对称。
 
-  1. 联立，求交点个数，即方程的解的个数，通常用带入消元。得到交点后，可以用距离公式得到弦长。
+齐次和弦化切、切化弦：
 
-- 圆与圆的位置关系：
+- 我们定义正弦和余弦都是一次的，那么正切就是零次的。
+- 根据 \\tan\\alpha=\\dfrac{\\sin\\alpha}{\\cos\\alpha} 且 \\sin^2\\alpha+\\cos^2\\alpha，那么，对于任意齐偶数次式，都可以化为和 \\tan\\alpha 为唯一变量的式子。
+- 后文会再次提到，正切半角公式也是相当好用的一个归一方法。
 
-  对应距离图示如下：
+## 三角恒等变化
 
-  除了用圆心距离，同样可以联立，解方程可以用加减消元。两个二次项系数相等的圆的直线方程的差，就是交点所确定的直线的直线方程。
+### 诱导公式
 
-### 切线的问题
+函数关于 2\\pi 的周期性：是 \\sin、\\cos 的周期。
 
-两圆位置关系与公切线条数的关系：
+\\begin{aligned} \\sin(\\alpha+2\\pi)&=\\sin\\alpha\\ \\cos(\\alpha+2\\pi)&=\\cos\\alpha\\ \\tan(\\alpha+2\\pi)&=\\tan\\alpha \\end{aligned}
 
-- 两圆外离 ⇔ 公切线有 4 条；
-- 两圆外切 ⇔ 公切线有 3 条；
-- 两圆相交 ⇔ 公切线有 2 条；
-- 两圆内切 ⇔ 公切线有 1 条；
-- 两圆内含 ⇔ 公切线有 0 条。
+函数关于 \\pi 的周期性：是 \\tan、\\cot 的周期。
 
-过圆（下面的内容详见 [GeoGebra](https://www.geogebra.org/calculator/z27tcbb5)）：
+\\begin{aligned} \\sin(\\alpha+\\pi)&=-\\sin\\alpha\\ \\cos(\\alpha+\\pi)&=-\\cos\\alpha\\ \\tan(\\alpha+\\pi)&=\\tan\\alpha \\end{aligned}
 
-(x−a)^2+(y−b)^2=r^2
+函数的奇偶性：奇函数 \\sin、\\tan、\\cot，偶函数 \\cos。
 
-- **圆上**一点 P(x_0,y_0) 作圆的切线，则以 P(x_0,y_0) 为切点的切线方程为：
-- **圆外**一点 P(x_0,y_0) 作圆的两条切线，则两切点所在的直线方程为：
+\\begin{aligned} \\sin(-\\alpha )&=-\\sin \\alpha\\ \\cos(-\\alpha )&=\\cos \\alpha\\ \\tan(-\\alpha )&=-\\tan \\alpha\\ \\end{aligned}
 
-\\boxed{(x_0−a)(x−a)+(y_0−b)(y−b)=r^2}
+函数关于 y 轴的对称性：用单位圆象限角理解。
 
-注意：当设出直线，一定要考虑斜率不存在的情况，这个时候是无法通过直线方程解出来的。
+\\begin{aligned} \\sin(\\pi-\\alpha)&=\\sin\\alpha\\ \\cos(\\pi-\\alpha)&=-\\cos\\alpha\\ \\tan(\\pi-\\alpha)&=-\\tan\\alpha \\end{aligned}
 
-- 已知切线：连接圆心和切点，有垂直关系。
-- 过一点求切线：设直线方程，解方程圆心到直线的距离为半径，应该有两条切线。
-- 若直线与圆相交，那么圆心到直线的距离 d、弦长 L 的一半以及圆的半径 r 刚好构成了一个小的直角三角形，则 r^2=d^2+(L/2)^2。
-- 当涉及恒过定点的直线与曲线（完整的圆除外）有交点的时候，首先确定相应的临界情形（初始位置），然后绕着定点旋转直线，直到完全符合题意才终止旋转。
+余函数恒等式：用单位圆象限角理解。
 
-我们知道过圆 (x-a)^2+(y-b)^2=r^2 上一点 P(x_0,y_0) 的切线方程为：
+\\begin{aligned} \\sin(\\pi/2-\\alpha)&=\\cos\\alpha\\ \\cos(\\pi/2-\\alpha)&=\\sin\\alpha\\ \\tan(\\pi/2-\\alpha)&=\\cot\\alpha \\end{aligned}
 
-(x_0-a)(x-a)+(y_0-b)(x-b)=r^2
+在直角三角形中的转换：用单位圆象限角理解。
 
-带入圆的参数方程（x_0=r\\cos\\theta,y_0=r\\sin\\theta）：
+\\begin{aligned} \\sin \\left(\\pi/2+\\alpha\\right)&=\\cos\\alpha\\ \\cos \\left(\\pi/2+\\alpha\\right)&=-\\sin\\alpha\\ \\tan \\left(\\pi/2+\\alpha\\right)&=-\\cot\\alpha\\ \\end{aligned}
 
-\\boxed{(x-a)\\cos\\theta+(y-b)\\sin\\theta=r}
+单位圆象限角：上述所有式子有一个联系。
 
-我们发现该直线所围成的图形就是圆，只要过圆上任意一点作圆的切线构成的集合就可以把整个圆包络在里面。因此我们把该直线称为是圆的包络线。
+\\begin{aligned} \\sin(k\\pi/2\\pm\\alpha)&,k\\in\\mathbb{Z}\\ \\cos(k\\pi/2\\pm\\alpha)&,k\\in\\mathbb{Z}\\ \\tan(k\\pi/2\\pm\\alpha)&,k\\in\\mathbb{Z} \\end{aligned}
 
-### 阿波罗尼斯圆
+转换法则：
 
-1. 到两定点的距离之商为定值（不等于 1）的点的轨迹是阿波罗尼斯圆；
-1. 到两定点的距离之和为定值（大于两定点的距离）的点的轨迹是椭圆；
-1. 到两定点的距离之差的绝对值为定值（大于 0 且小于两定点的距离）的点的轨迹是双曲线；
-1. 到两定点的距离之积为定值（该定值为正数）的点的轨迹是卡西尼卵形线。
+- 当 k 为偶数时，三角函数则不变换。
+- 当 k 为奇数时，\\sin 变为 \\cos，\\cos 变为 \\sin，\\tan 变为 \\cot，\\cot 变为 \\tan。
+- 对于正负号，则要看最后角所在的象限进行判断。
 
-阿波罗尼斯圆（简称阿氏圆）已知平面上两点 A,B，则所有满足 PA/PB=k（k\\neq1）的点 P 的轨迹是一个圆。
+可使用口诀：奇变偶不变，符号看象限（ASTC, All Students Take Calculus）记忆。
 
-\\boxed{\\dfrac{(x-x_a)^2+(y-y_a)^2}{(x-x_b)^2+(y-y_b)^2}=k^2}
+- 第一象限的 A 即是 All（全部皆正）。
+- 第二象限的 S 即是 Sine（正弦以及余割为正）。
+- 第三象限的 T 即是 Tangent（正切以及余切为正）。
+- 第四象限的 C 即是 Cosine（余弦以及正割为正）。
 
-整理可以得到圆的方程，但是阿波罗尼斯圆的常见找法是，在 AB 所在直线上找到满足条件的两个点，以两点中点为圆心作圆即可。
+常见化简方法：周期性（\\sin、\\cos 是 2\\pi，\\tan、\\cot 是 \\pi），奇偶性（\\sin、\\tan、\\cot 是奇函数，\\cos 是偶函数），出现 \\pi/2 系列的要变符号，画出单位圆求解。
 
-阿式圆的逆用：在线段上、其中一侧找两个符合比例关系的点，作出以其为直径的圆即可。
+### 毕达哥拉斯三角恒等式
 
-重点：到两个点 A(x_1,y_1),B(x_2,y_2) 距离的平方和为定值的点的轨迹是一个圆，不妨设轨迹上一点 P(x,y)、这个定值为 C。
+基础形式：
 
-|PA|^2+|PB|^2=(x-x_1)^2+(y-y_1)^2+(x-x_2)^2+(y-y_2)^2=C
+\\begin{aligned} \\sin^2\\alpha+\\cos^2\\alpha=1 \\end{aligned}
 
-化简得：
+也称为三角函数的勾股定理。
 
-2x^2-2(x_1+x_2)x+(x_1^2+x_2^2)+2y^2-2(y_1+y_2)y+(y_1^2+y_2^2)-C=0
+根据上面的，易得：
 
-例题
+\\begin{aligned} \\sin^2\\alpha&=1-\\cos^2\\alpha\\ \\cos^2\\alpha&=1-\\sin^2\\alpha \\end{aligned}
 
-已知 M,N 为圆 x^2+y^2=9 上两点，点 A(1,2)，且 AM\\perp AN，则线段 MN 的长的取值范围是？
+开方，得：
 
-我们发现只需要求出 |OP| 的取值范围即可：
+\\begin{aligned} \\sin\\alpha&=\\pm\\sqrt{1-\\cos^2\\alpha}\\ \\cos\\alpha&=\\pm\\sqrt{1-\\sin^2\\alpha} \\end{aligned}
 
-\\paren{\\dfrac{|MN|}{2}}^2+|OP|^2=|OM|^2
+一定要注意正负号，正负号由该角所在象限决定。
 
-我们不妨取坐标原点 O，MN 中点 P，容易发现方程：
+### 和差恒等式
 
-|OP|^2+|AP|^2=9
+也称为「和差定理」、「和差公式」或「和角公式」。
 
-不妨设 P(x,y)，解得：
+\\begin{aligned} \\sin(\\alpha\\pm\\beta)&=\\sin\\alpha\\cos\\beta\\pm\\cos\\alpha\\sin\\beta\\ \\cos(\\alpha\\pm\\beta)&=\\cos\\alpha\\cos\\beta\\mp\\sin\\alpha\\sin\\beta\\ \\tan(\\alpha\\pm\\beta)&=\\frac{\\tan\\alpha\\pm\\tan\\beta}{1\\mp\\tan\\alpha\\tan\\beta} \\end{aligned}
 
-\\paren{x-\\dfrac12}^2+\\paren{y-1}^2=\\dfrac{13}4
+注意正负号的对应。
 
-即可得到 |OP| 的取值范围。
+由 \\tan 的和角公式，不妨代入某角为 45^\\circ，即可得出：
 
-阿氏圆的性质：\\triangle POA\\backsim\\triangle POB，根据相似。
+\\tan(45^\\circ+\\alpha)=\\dfrac{1+\\tan\\alpha}{1-\\tan\\alpha}
 
-## 代数关系
+\\tan(45^\\circ-\\alpha)=\\dfrac{1-\\tan\\alpha}{1+\\tan\\alpha}
 
-### 参数方程
+同时，正切的和角公式有经典变形：
 
-参数方程和函数相似，都是由一些在指定的集合的数，称为参数或自变数，以决定因变数的结果。
+\\tan\\alpha\\pm\\tan\\beta=\\tan(\\alpha\\pm\\beta)(1\\mp\\tan\\alpha\\tan\\beta)
 
-我们知道，几何中常见的方程是 y 关于 x 的方程，但是我们也可以将 x,y 均视为因变量，钦定其为关于 t 或 \\theta 的方程，称为参数方程。
+\\tan\\alpha\\tan\\beta=1-\\dfrac{\\tan\\alpha+\\tan\\beta}{\\tan(\\alpha+\\beta)}
 
-- 普通方程转为参数方程：利用参数方程，可以很方便的表示不能用函数表达，或者常规的方程难以表达的曲线。
-- 参数方程转为普通方程：消去参数，或者将参数用 x,y 表示，然后解没有参数的方程。
+\\tan\\alpha\\tan\\beta=\\dfrac{\\tan\\alpha-\\tan\\beta}{\\tan(\\alpha-\\beta)}-1
 
-参数方程可以用于消元，当两个未知量具有明显的几何意义，可以设出参数方程。
+因此：
 
-容易知道：
+\\tan\\alpha\\tan\\beta=\\dfrac{\\tan\\alpha-\\tan\\beta}{\\tan(\\alpha-\\beta)}-\\dfrac{\\tan\\alpha+\\tan\\beta}{\\tan(\\alpha+\\beta)}
 
-\\boxed{\\begin{cases} x&=a+r\\cos\\theta\\ y&=b+r\\sin\\theta \\end{cases}}
+### 倍角公式
 
-可以表示一个圆。
+二倍角公式：
 
-容易知道
+\\begin{aligned} \\sin2\\alpha&=2\\sin\\alpha\\cos\\alpha\\ \\cos2\\alpha&=\\cos^2\\alpha-\\sin^2\\alpha\\ &=1-2\\sin^2\\alpha\\ &=2\\cos^2\\alpha-1\\ \\tan2\\alpha&=\\frac{2\\tan\\alpha}{1-\\tan^2\\alpha} \\end{aligned}
 
-\\boxed{\\begin{cases} x&=a\\cos\\theta\\ y&=b\\sin\\theta \\end{cases}}
+可以根据里面的结论推出降次公式。
 
-可以表示一个中心在原点的椭圆。
+这里有一个很好的推论，同时使用二倍角公式和辅助角公式：
 
-容易知道
+(\\sin\\alpha+\\cos\\alpha)^2=\\sin^2\\alpha+\\cos^2\\alpha+2\\sin\\alpha\\cos\\alpha=1+2\\sin2\\alpha
 
-\\boxed{\\begin{cases} x&=\\dfrac{a}{\\cos\\theta}\\ y&=b\\tan\\theta \\end{cases}}
+同时：
 
-可以表示一个中心在原点的双曲线。
+\\sin\\alpha+\\cos\\alpha=\\sqrt{2}\\sin(\\alpha+45^\\circ)
 
-### 仿射变换
+以及用 \\sin\\alpha-\\cos\\alpha 做类似推导，就可以得出：
 
-我们在坐标系部分讲解了线性变换，我们知道线性变换后
+(\\sin\\alpha+\\cos\\alpha)^2=1+2\\sin2\\alpha=2\\sin^2(\\alpha+45^\\circ)
 
-- 直线变换后依然是直线。
-- 直线比例保持不变。
-- 原点变换后依然是原点。
+(\\sin\\alpha-\\cos\\alpha)^2=1-2\\sin2\\alpha=2\\sin^2(\\alpha-45^circ)
 
-而我们称仿射变换是指在对一个向量空间进行一次线性变换并接上一个**平移**，变换为另一个向量空间。伸缩、平移、对称等都是仿射变换，
+以及
 
-事实上：
+\\sqrt{1+\\pm \\sin2\\alpha}=|\\sin\\alpha\\pm\\cos\\alpha|
 
-- 平行直线依然平行。
-- 共线的点依然共线。
-- 直线变换后依然是直线。
-- 直线上的线段比例保持不变。
+用余弦的倍角公式，也可以得到：
 
-使用一增广矩阵与一增广向量，需要所有向量在其末端扩长 1 且所有矩阵都于底部添加一排零，右边扩长一列转换向量，及右下角添加一个 1。
+\\sqrt{1-\\cos2\\alpha}=\\sqrt{2}|\\sin\\alpha|
 
-\\begin{bmatrix}{\\vec {y}}\\1\\end{bmatrix}=\\left[{\\begin{array}{ccc|c},&A&&{\\vec {b}}\\ \\0&\\ldots &0&1\\end{array}}\\right]{\\begin{bmatrix}{\\vec {x}}\\1\\end{bmatrix}}
+\\sqrt{1+\\cos2\\alpha}=\\sqrt{2}|\\cos\\alpha|
 
-等价于
+同时还有一个公式：
 
-\\vec {y}=A{\\vec {x}}+{\\vec {b}}
+\\sin\\alpha=\\dfrac{\\sin2\\alpha}{2\\cos\\alpha}
 
-对于一个椭圆
+\\cos\\alpha=\\dfrac{\\sin2\\alpha}{2\\sin\\alpha}
 
-\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1
+三倍角公式：
 
-我们不妨令 x'=\\dfrac{b}{a}x，则
+\\begin{aligned} \\sin3\\alpha&=3\\sin\\alpha-4\\sin^3\\alpha&&=4\\sin\\left(\\dfrac\\pi3-\\alpha\\right)\\sin\\alpha\\sin\\left(\\dfrac\\pi3+\\alpha\\right)\\ \\cos3\\alpha&=4\\cos^3\\alpha-3\\cos\\alpha&&=4\\cos\\left(\\dfrac\\pi3-\\alpha\\right)\\cos\\alpha\\cos\\left(\\dfrac\\pi3+\\alpha\\right)\\ \\end{aligned}
 
-x'^2+y^2=b^2
+下面的式子即为：
 
-我们不妨令 y'=\\dfrac{a}{b}y，则
+\\cos3\\alpha=4\\cos(\\alpha-60^\\circ)\\cos\\alpha\\cos(\\alpha+60^\\circ)
 
-x^2+y'^2=a^2
+正切同理，也可以用这个式子进行三次降幂。
 
-这样就通过伸缩变换将椭圆变成了圆；一般的，我们讨论变换
+\\cos 3\\theta=\\begin{vmatrix}\\cos\\theta & 1 & 0 \\ 1 & 2\\cos\\theta & 1 \\ 0 & 1 & 2\\cos\\theta\\end{vmatrix}
 
-f:\\begin{cases} x'&=mx\\ y'&=ny \\end{cases}
+\\sin 3\\theta=\\begin{vmatrix}\\sin\\theta & 0 & 0 \\ 0 & 2\\sin\\theta & 1 \\ 0 & 1 & 2\\cos\\theta\\end{vmatrix}
 
-- 任意面积 S 变为 nm 倍：S'=nm\\cdot S。
-- 有椭圆第三定义。
+\\cos n\\theta=\\begin{vmatrix} \\cos\\theta & 1 & 0 & \\cdots & 0 & 0 \\ 1 & 2\\cos\\theta & 1 & \\cdots & 0 & 0 \\ 0 & 1 & 2\\cos\\theta & \\cdots & 0 & 0 \\ \\vdots & \\vdots & \\vdots & \\ddots & \\vdots & \\vdots \\ 0 & 0 & 0 & \\cdots & 2\\cos\\theta & 1 \\ 0 & 0 & 0 & \\cdots & 1 & 2\\cos\\theta \\end{vmatrix}
 
-双曲线也可以用仿射变换，此时令
+\\sin n\\theta=\\begin{vmatrix} \\sin\\theta & 0 & 0 & \\cdots & 0 & 0 \\ 0 & 2\\cos\\theta & 1 & \\cdots & 0 & 0 \\ 0 & 1 & 2\\cos\\theta & \\cdots & 0 & 0 \\ \\vdots & \\vdots & \\vdots & \\ddots & \\vdots & \\vdots \\ 0 & 0 & 0 & \\cdots & 2\\cos\\theta & 1 \\ 0 & 0 & 0 & \\cdots & 1 & 2\\cos\\theta \\end{vmatrix}
 
-f:\\begin{cases} x&=ax'\\ y&=biy' \\end{cases}
+这就是高倍角公式的行列式表示。
 
-带入双曲线方程
+### 半角公式
 
-\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=x^2+y^2=1
+半角公式：
 
-也就是一个单位圆，但是此时引入复数是不完全明智的，可能会存在一些伪证，我们通常需要进行验证才能得到结论，因此双曲线的仿射变换不常用。
+\\begin{aligned} \\sin\\frac{\\alpha}{2}&=\\pm\\sqrt{\\frac{1-\\cos\\alpha}{2}}\\ \\cos\\frac{\\alpha}{2}&=\\pm\\sqrt{\\frac{1+\\cos\\alpha}{2}}\\ \\tan{\\frac{\\alpha}{2}}&=\\pm{\\sqrt{1-\\cos\\theta\\over1+\\cos\\theta}}\\ \\tan{\\frac{\\alpha}{2}}&=\\frac{\\sin\\alpha}{1+\\cos\\alpha}=\\frac{1-\\cos\\alpha}{\\sin\\alpha} \\end{aligned}
 
-### 向量关系
+正负号由半角所在象限决定。
 
-共线长度关系通常以 \\vecc{PA}=\\lambda\\vecc{PB} 的形式给出。
+最后一行的公式相当常用，推导方式，可以直接从右面用正切半径公式展开。如果要从左面推右面，可以用配凑的方法：
 
-此时最常用的方法是先设坐标，然后通过向量的坐标关系解出位置点的坐标，可以一定程度上避免直线与椭圆的联立过程。
+\\tan\\dfrac{\\alpha}{2}=\\dfrac{\\sin\\frac{\\alpha}{2}}{\\cos\\frac{\\alpha}{2}}=\\dfrac{2\\sin\\frac{\\alpha}{2}\\cos\\frac{\\alpha}{2}}{2\\cos^2\\dfrac{\\alpha}{2}}
 
-此时，如果 A,B 都在曲线上，则可以通过韦达定理转化的方法，例如若有 x_2=\\lambda x_1 则
+然后分别用倍角公式展开即可。
 
-\\begin{aligned} \\lambda+\\dfrac{1}{\\lambda}&=\\dfrac{x_1}{x_2}+\\dfrac{x_2}{x_1}\\ &=\\dfrac{(x_1+x_2)^2}{x_1x_2}-2 \\end{aligned}
+### 正切半角公式
 
-若只有一点在曲线上，不妨设 A 在曲线上，B 不再曲线上，利用 B,P 的坐标表示 A 的坐标，利用其在曲线上，带入坐标计算化简即可。
+也称为万能公式。
 
-类似的，若 A, B 两点在曲线上，且点 M 满足 \\overrightarrow{OM} = \\lambda\\overrightarrow{OA} + \\mu\\overrightarrow{OB}，则我们先用 A, B 两点的坐标来表示点 M，然后代入曲线的方程。
+\\begin{aligned} \\sin\\alpha&={2\\tan{\\alpha\\over2}\\over1+\\tan^2{\\alpha\\over2}}\\ \\cos\\alpha&={1-\\tan^2{\\alpha\\over2}\\over1+\\tan^2{\\alpha\\over2}}\\ \\tan\\alpha&={2\\tan{\\alpha\\over2}\\over1-\\tan^2{\\alpha\\over2}} \\end{aligned}
 
-### 角度问题
+其中下面的一个也等价于正切函数的二倍角公式。
 
-倒角公式：我们知道 \\theta=\\theta_2-\\theta_1，如图
+\\tan\\alpha-\\dfrac{1}{\\tan\\alpha}=\\dfrac{\\sin^2\\alpha-\\cos^2\\alpha}{\\sin\\alpha\\cos\\alpha}=-\\dfrac{2}{\\tan2\\alpha}
 
-因此，不妨
+### 升降幂公式
 
-\\begin{aligned} \\tan\\theta&=\\dfrac{\\tan\\theta_2-\\tan\\theta_1}{1+\\tan\\theta_1+\\tan\\theta_2}\\ &=\\dfrac{k_2-k_1}{1+k_1k_2} \\end{aligned}
+降幂公式：
 
-若 \\angle APB 为锐角，则等价转译为 \\overrightarrow{PA} \\cdot \\overrightarrow{PB} > 0（特别注意不能出现三点共线）；若 \\angle APB 为直角，则等价转译为 \\overrightarrow{PA} \\cdot \\overrightarrow{PB} = 0；若 \\angle APB 为钝角，则等价转译为 \\overrightarrow{PA} \\cdot \\overrightarrow{PB} < 0（特别注意不能出现三点共线）。
+\\begin{aligned} \\sin^2\\alpha&=\\frac{1-\\cos2\\alpha}{2}\\ \\cos^2\\alpha&=\\frac{1+\\cos2\\alpha}{2}\\ \\tan^2\\alpha&=\\frac{1-\\cos2\\alpha}{1+\\cos2\\alpha} \\end{aligned}
 
-在很多时候有关“角度”这个字眼并不会那么直接地出现，而是以一种极其隐晦的方式体现夹角问题，例如，点 P 总是在以 AB 为直径的圆内，那么本质上还是在说明 \\overrightarrow{PA} \\cdot \\overrightarrow{PB} < 0；点 P 总是在以 AB 为直径的圆外，直接的转译就是 \\overrightarrow{PA} \\cdot \\overrightarrow{PB} > 0；点 P 总是在以 AB 为直径的圆上，直接的转译就是 \\overrightarrow{PA} \\cdot \\overrightarrow{PB} = 0。
+补充一个属于幂简约公式的：
 
-- 若不垂直于 x 轴的两直线 \\ell_1 与 \\ell_2 的倾斜角分别为 \\alpha, \\beta，则 \\alpha + \\beta = \\pi 等价于 k\_{\\ell_1} + k\_{\\ell_2} = 0。
-- 斜率之和为零的惯用书面表达，例如：两条直线的倾斜角相等（倾斜角为 90^\\circ 除外）；两条直线关于 x 轴对称，或者关于 y 轴对称，或者关于直线 y = m 或 x = n 对称；其中涉及两个角相等（有可能是角平分线问题，本质上是斜率之和为零），及线段比例相等（角平分线定理的应用）
-- 倾斜角为 \\alpha 的直线 \\ell_1 与倾斜角为 \\beta 的直线 \\ell_2 的两相交直线的夹角被倾斜角为 \\theta 的直线 \\ell 平分，则 |\\tan(\\alpha - \\theta)| - |\\tan(\\beta - \\theta)| = 0。
+\\sin^2\\alpha\\cos^2\\alpha={1-\\cos4\\alpha\\over8}
 
-### 轨迹问题
+可以根据里面的结论推出半角公式。
 
-要求轨迹方程，即得到方程式；要求轨迹，则用对应的定义来描述一个曲线。
+升幂公式：
 
-直接求法：若动点的轨迹与某一类圆锥曲线的定义吻合，可直接根据定义来求。
+1+\\cos2\\alpha=2\\cos^2\\alpha
 
-- 定圆上一动点和圆内一定点的垂直平分线与其半径的交点的轨迹是椭圆。
-- 定圆上一动点与圆外一定点的垂直平分线与其半径的交点的轨迹是双曲线。
+1-\\cos2\\alpha=2\\sin^2\\alpha
 
-间接求法：主要有三种方法，虽然各有不同，但是核心思想就是设出点的坐标。
+### 第一类切比雪夫多项式
 
-直译法：
+第一类 Chebyshev（切比雪夫）多项式由以下递推关系确定：
 
-- 通常是给出直线或点的关系。
-- 我们设轨迹上一点 P(x,y)，列出 x,y 满足的调节，化简即可。
+\\begin{aligned} T_0(x)&=1\\ T_1(x)&=x\\ T\_{n+1}(x)&=2xT_n(x)-T\_{n-1}(x) \\end{aligned}
 
-参数法：
+有三角恒等式：
 
-- 如果动点本身所满足的条件式中含有一个参数，或在运动过程中受到某个变量的制约，那么以此变量为参数，建立轨迹的参数方程，再设法消去参数，即可得到轨迹的方程。
-- 如果动点是两条曲线的交点，则其坐标同时满足两个曲线万程，那么消去辅助量，即可求得动点的轨迹。
+cos(n\\theta)=T_n(\\cos\\theta)
 
-相关点法：
+其中：
 
-- 动点满足的限制条件不容易直接列出等式，但是动点随着另—相关点的运动而运动。
-- 这时可用动点（所求点）坐标表示相关点（已知点）的坐标，根据相关点所满足的方程求得动点的轨迹方程。
+\\begin{aligned} T\_{0}(x) & = 1\\ T\_{1}(x) & = x\\ T\_{2}(x) & = 2x^{2}-1\\ T\_{3}(x) & = 4x^{3}-3x\\ T\_{4}(x) & = 8x^{4}-8x^{2}+1\\ T\_{5}(x) & = 16x^{5}-20x^{3}+5x\\ T\_{6}(x) & = 32x^{6}-48x^{4}+18x^{2}-1\\ T\_{7}(x) & = 64x^{7}-112x^{5}+56x^{3}-7x\\ T\_{8}(x) & = 128x^{8}-256x^{6}+160x^{4}-32x^{2}+1\\ T\_{9}(x) & = 256x^{9}-576x^{7}+432x^{5}-120x^{3}+9x \\end{aligned}
 
-空间轨迹：空间点的轨迹的求解绝大多数都需要把平面知识类比到空间来处理，例如中垂线类比到中垂面，角平分线类比到角平分面。当几何体中是—个规则的图形且几何关系比较明确的时候，则通过建立空间直角坐标系把几何问题转化为代数运算来处理。
+### 和差化积与积化和差
 
-### 定点问题
+和差化积恒等式：
 
-- 根据特殊直线、对称性猜定点。
+\\begin{aligned} \\sin\\alpha+\\sin\\beta&=2\\sin{\\alpha+\\beta\\over2}\\cos{\\alpha-\\beta\\over2}\\ \\sin\\alpha-\\sin\\beta&=2\\cos{\\alpha+\\beta\\over2}\\sin {\\alpha-\\beta\\over2}\\ \\cos\\alpha+\\cos\\beta&=2\\cos{\\alpha+\\beta\\over2}\\cos {\\alpha-\\beta\\over2}\\ \\cos\\alpha-\\cos\\beta&=-2\\sin{\\alpha+\\beta\\over2}\\sin {\\alpha-\\beta\\over2} \\end{aligned}
 
-  对称性：关于轴对称，则对称过去交于一点。
+积化和差恒等式：
 
-- 证明定点，或用恒成立求顶点。
+\\begin{aligned} \\sin\\alpha\\cos\\beta&={\\sin(\\alpha+\\beta)+\\sin(\\alpha-\\beta)\\over2}\\ \\cos\\alpha\\sin\\beta&={\\sin(\\alpha+\\beta)-\\sin(\\alpha-\\beta)\\over2}\\ \\cos\\alpha\\cos\\beta&={\\cos(\\alpha+\\beta)+\\cos(\\alpha-\\beta)\\over2}\\ \\sin\\alpha\\sin\\beta&=-{\\cos(\\alpha+\\beta)-\\cos(\\alpha-\\beta)\\over2} \\end{aligned}
 
-  证明，不妨表示直线上两点 A,B，用猜出的 M 坐标验证 k\_{AM}=k\_{MB}。
+轮换 \\alpha,\\beta，令其为相反数，根据 \\sin,\\cos 奇偶性判断。
 
-参变分离法：求定点
+### 平方差公式
 
-(3k+1)x+2ky+4k-3=0
+\\begin{aligned} \\sin(x+y)\\sin(x-y)&&&=\\sin^2x-\\sin^2y&&=\\cos^2y-\\cos^2x\\ \\cos(x+y)\\cos(x-y)&&&=\\cos^2x-\\sin^2y&&=\\cos^2y-\\sin^2x \\end{aligned}
 
-不妨令 k 为主元，
+注意到右边的式子还可以用平方差公式展开。
 
-(3x+2y+4)k+x-3=0
+### 辅助角公式
 
-因此令
+对于式子：
 
-\\begin{cases} 3x+2y+4&=0\\ x-3&=0 \\end{cases}
+a\\sin x+b\\cos x
 
-因此定点 \\paren{3,-\\dfrac{13}{2}}。
+如果 a=r\\cos\\varphi，b=r\\sin\\varphi，
 
-对于含参且参数的次数都是 1 的，不妨以参数为主元，令常数和系数都为零。
+可知
+
+a^2+b^2=r^2(\\sin^2\\varphi+\\cos^2\\varphi)=r^2
+
+即 r=\\sqrt{a^2+b^2}，则有 \\cos\\varphi=a/r，\\sin\\varphi=b/r。
+
+化简式子：
+
+\\begin{aligned} a\\sin x+b\\cos x&=r\\cos\\varphi\\sin x+r\\sin\\varphi\\cos x\\ &=r\\sin(x+\\varphi)=\\sqrt{a^2+b^2}\\sin(x+\\varphi) \\end{aligned}
+
+其中，\\varphi 满足：
+
+\\begin{cases} \\cos\\varphi&=a/r\\ \\sin\\varphi&=b/r \\end{cases}
+
+若 a>0，可以写成 \\varphi=\\arctan b/a 的形式。
+
+也就是 a\\sin x+b\\cos x=\\sqrt{a^2+b^2}\\sin(x+\\arctan b/a)。
+
+## 三角函数思想
+
+### 变角思想
+
+在三角函数式的化简中，“次降角升”和“次升角降”是基本的规律，根号中含有三角函数式时，一般需要升次。其化简往往要遵循以下三个原则：
+
+1. 一看“角”，这是最重要的一环，通过看角之间的差别与联系，把角进行合理的拆分，从而正确使用公式；
+1. 二看“函数名称”，看函数名称之间的差异，从而确定使用的公式，常见的有“切化弦”等；
+1. 三看“结构特征”，分析结构特征，可以帮助我们找到变形的方向，如“遇到分式要通分”等。
+
+我们知道单独考查三角函数式的化简是极少见的，绝大多数的化简其背后就是求值，常见的求值问题有：给值求值、给角求值、给值求角。
+
+变角
+
+三角函数：角为先，公式特征为要。
+
+公式特征注意：用 \\cos2\\alpha 联系 \\sin\\alpha,\\cos\\alpha。
+
+4\\sin\\alpha\\cos\\alpha=(\\sin\\alpha+\\cos\\alpha)^2-(\\sin\\alpha-\\cos\\alpha)^2
+
+右图为这三者的转换关系。
+
+\\left{ \\begin{aligned} x&=\\sin\\alpha-\\sin\\beta\\ y&=\\cos\\alpha-\\cos\\beta \\end{aligned} \\right.
+
+根据上面的可以推出 \\alpha,\\beta 和差角的正余弦。
+
+- 两式平方后作和、平方后作差。
+- 两式相乘。
+
+也可以换元，设 t 为 \\sin,\\cos 等，将原式化为关于 t 的二次函数或分式。
+
+注意求区间上的值域，也可以结合不等式相关内容。
+
+### 一角一函数
+
+一角一函数，可以简单的理解为 y=A\\sin(\\omega x+\\varphi) 的形式。
+
+即一个角在一个三角函数里，可以更好的求解。
+
+### 齐次思想
+
+齐次思想，也可以归为次数的重要性。
+
+三角函数中，弦为一次，切为零次，割为负一次。
+
+例如对于求值类问题，升幂降角、降幂升角，是很关键的。
+
+当一个式子中的函数次数仅为奇数后者偶数的时候，可以补充 \\sin^2+\\cos^2=1 齐次。
+
+也可以结合弦化切，除以一个 \\sin^2+cos^2 的若干次方。
+
+当然也存在次数的奇偶性转化，例如：
+
+\\sin-\\cos=\\pm\\sqrt{(\\sin^2-\\cos^2)}=\\pm\\sqrt{1-2\\sin\\cos}
+
+这种不常用，注意正负号。
+
+### 整体角思想
+
+整体角，即将 y=A\\sin(\\omega x+\\varphi) 中的 \\omega x+\\varphi 设为单独的变量如 t 后进行解决的思想。
+
+化为一角一函数后，用整体角结合三角函数性质进行快速解决。
+
+根据整体角的范围，画出函数图像或者列出关于 k,k\\in\\mathbb Z 的方程。
+
+注意区间的开闭问题。
+
+### 弦化切思想
+
+切化弦通常是很容易想到的，我们直接令：
+
+\\tan\\alpha=\\dfrac{\\sin\\alpha}{\\cos\\alpha}
+
+但是弦化切也有很大的用处，具体体现在：
+
+- 将一个复杂的式子化为仅关于一个变量的式子。
+- 对于某些求值类问题，可以使用正切半角公式（万能公式）。
+
+### 参变分离思想
+
+也就是主元思想的体现，将参数作为主元化简。
+
+然后根据等式右侧的函数性质得到参数的特征。
+
+也可以使用等式相当于左右两侧函数交点问题。
+
+### 不同参数的常见求法
+
+对于：
+
+y=A\\sin(\\omega x+\\varphi)+B
+
+- A：振幅。
+- B：极值。
+- \\omega：周期。
+- \\varphi：通常带入求解。
+
+### 根据周期长度解题
+
+对于有多少零点的问题，可以在还原之前根据区间长度和周期长度得到一个大体的范围。
+
+给定单调区间，首先可以写出，单调区间长度小于等于半周期，即：
+
+r_0-l_0\\le\\frac{T}{2}=\\frac{\\pi}{\\omega}
+
+然后就可以在这个大体的范围内求解，如果不好求解也会方便枚举。
+
+然后如果可以求出 \\omega 的一些其他条件（比如奇偶性），直接求出来。
+
+### 已知起点终点
+
+思想：复合函数、还原。
+
+对于 f(x)=A\\sin(\\omega x+\\varphi)，我们令 t=\\omega x+\\varphi。
+
+注意 \\omega 的正负性，得出 t 的取值范围，进行进一步求解。
+
+比如，给定零点横坐标、对称轴，转化为：
+
+\\omega x_0+\\varphi=\\lambda k\\pi(+\\pi/2)
+
+未知 \\varphi：根据已知点或特殊信息（对称轴、对称中心）带入，列出方程组求出 \\varphi。
+
+### 未知起点终点
+
+可以将问题再分为：正正、正负。
+
+- 对于正负的，通常区间内存在一个已知点（\\omega=0），画图解题。
+- 对于正正的，通常先用周期长度限制，然后列关于 k 的式子。
+
+特殊的，如果 \\omega 的正负不确定，应当讨论 \\operatorname{sgn}(\\omega)。
+
+### \\varphi 未知求 \\omega
+
+这一类问题通常比较难：
+
+- 各种条件，先转化为区间长度，初步限制 \\omega 的范围。
+- 根据特殊信息，限制 \\omega 的奇偶性等性质。
+- 在独立的 \\omega 取值中，一次判断是否满足条件。
+
+比较难算。
 
 2025-05-182026-07-09
 

@@ -552,4 +552,4 @@ E_j = \\alpha + 2\\beta \\cos \\frac{j\\pi}{n+1}, \\quad j = 1, 2, \\dots, n
 
 2026-07-092026-07-09
 
-[RainPPR](mailto:PPR2125773894@163.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

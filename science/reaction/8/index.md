@@ -593,4 +593,4 @@ AXE 法，又称 ABE 法：用 \\ce{AX_nE_m} 其中 \\ce A 代表中心原子，
 
 2026-07-092026-07-09
 
-[RainPPR](mailto:PPR2125773894@163.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

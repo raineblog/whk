@@ -1,935 +1,1033 @@
-# 圆锥曲线
+# 解三角形与三角形中的三角函数
 
-## 椭圆
+## 三角形中的三角函数
 
-### 第一定义
+条件，在三角形中，有 x+y+z=\\pi（三角形内角和），那么：
 
-到两个定点 F_1、F_2 的距离之和为定值（大于 |F_1F_2|）的点所形成的轨迹称为椭圆。这两个定点叫做椭圆的焦点，两焦点间的距离叫做椭圆的焦距，焦距的一半称为半焦距。
+### 正切恒等式
 
-我们不妨设 F_1=(-c,0),F_2=(c,0) 为焦点的椭圆经过 M 点，且 M 到 F_1,F_2 的局里之和为 2a，其中 a>c，那么写出方程：
+#### 形式一
 
-\\sqrt{(x-c)^2+y^2}+\\sqrt{(x+c)^2+y^2}=2a
+\\tan x+\\tan y+\\tan z=\\tan x\\tan y\\tan z
 
-我们把一个根号移到另一侧，然后两边平方，整理后再平方，可以得到：
+证明：
 
-\\dfrac{x^2}{a^2}+\\dfrac{y^2}{a^2-c^2}=1
+\\begin{aligned} \\tan z&=\\tan(\\pi-x-y)=-\\tan(x+y)\\ \\tan z&=-{\\tan x+\\tan y\\over1-\\tan x\\tan y} \\end{aligned}
 
-不妨令 b=\\sqrt{a^2-c^2}，那么**椭圆的标准方程**：
+下面的式子整理即可。
 
-\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1(a>b>0)
+#### 形式二
 
-这个椭圆的焦点在 x 轴上，容易知道焦点在 y 轴上的椭圆
+\\tan{x\\over2}\\tan{y\\over2}+\\tan{y\\over2}\\tan{z\\over2}+\\tan{z\\over2}\\tan{x\\over2}=1
 
-\\dfrac{x^2}{b^2}+\\dfrac{y^2}{a^2}=1(a>b>0)
+证明：
 
-注意 c^2=a^2-b^2 这个式子很重要。
+\\begin{aligned} \\tan{z\\over2}&=\\tan\\left({\\pi\\over2}-{x\\over2}-{y\\over2}\\right)={1\\over\\tan({x\\over2}+{y\\over2})}\\ \\tan{z\\over2}&={1-\\tan{x\\over2}\\tan{y\\over2}\\over\\tan{x\\over2}+\\tan{y\\over2}} \\end{aligned}
 
-### 第二定义
+下面的式子整理即可。
 
-到一定点 F_1 的距离与到一定直线的距离之比为定值（小于 1）的点所形成的轨迹称为椭圆。该定直线称为准线。
+### 余切恒等式
 
-我们不妨设 F_1=(c,0),F_2=(-c,0)，同样还有一个 a 那么：
+#### 形式一
 
-\\sqrt{(x-c)^2+y^2}+\\sqrt{(x+c)^2+y^2}=2a
+\\cot x\\cot y+\\cot y\\cot z+\\cot z\\cot x=1
 
-不妨写出这个式子的共轭根式，
+证明：
 
-\\sqrt{(x-c)^2+y^2}-\\sqrt{(x+c)^2+y^2}=\\dfrac{2cx}{a}
+根据 \\displaystyle\\tan\\alpha={1\\over\\cot\\alpha} 展开正切的形式一即可。
 
-容易知道他们的乘积就是 4cx，因此写出其共轭根式为上式，联立两式，不难得到
+#### 形式二
 
-\\sqrt{(x-c)^2+y^2}=\\dfrac{c}{a}\\vert{x-\\dfrac{a^2}{c}}
+\\cot{x\\over2}+\\cot{y\\over2}+\\cot{y\\over2}=\\cot{x\\over2}\\cot{y\\over2}\\cot{y\\over2}
 
-容易知道准线方程为
+证明：
 
-x=\\dfrac{a^2}{c}
+根据 \\displaystyle\\tan\\alpha={1\\over\\cot\\alpha} 展开正切的形式二即可。
 
-因为我们是取的右焦点，因此这个准线也称为右准线；同理取左焦点
+### 一倍角弦
 
-x=-\\dfrac{a^2}{c}
+#### 形式一
 
-称为左准线，而比值就是 \\dfrac{c}{a}，这称为离心率：
+\\sin x+\\sin y+\\sin z=4\\cos{x\\over2}\\cos{y\\over2}\\cos{z\\over2}
 
-e=\\dfrac{c}{a}=\\sqrt{1-\\dfrac{b^2}{a^2}}\\in(0,1)
+证明：
 
-特别的，圆的离心率为零；离心率越大，椭圆越扁平。
+\\begin{aligned} \\sin x+\\sin y&=2\\sin{x+y\\over2}\\cos{x-y\\over2}\\ &=2\\cos{z\\over2}\\cos{x-y\\over2}\\ \\sin z&=2\\sin{z\\over2}\\cos{z\\over2}\\ &=2\\cos{z\\over2}\\cos{x+y\\over2} \\end{aligned}
 
-### 第三定义
+然后加起来用和差化积公式即可。
 
-第三定义是关于斜率的一种定义，其由两种形式，因为常见做法通常是点差法，因此有的时候也直接称为点差法。设椭圆
+#### 形式二
 
-C:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1
+\\cos x+\\cos y+\\cos z=1+4\\sin{x\\over2}\\sin{y\\over2}\\sin{z\\over2}
 
-1. 在 C 上有一点 P（除左右顶点 A,B 外） ，则
+证明：
 
-   k\_{PA}\\cdot k\_{PB}=-\\dfrac{b^2}{a^2}=e^2-1
+\\begin{aligned} \\cos z&=1-\\sin^2{z\\over2}\\ &=1-\\sin{z\\over2}\\cos{x+y\\over2}\\ \\cos x+\\cos y&=2\\cos{x+y\\over2}\\cos{x-y\\over2}\\ &=2\\sin{z\\over2}\\cos{x-y\\over2} \\end{aligned}
 
-1. 在 C 上有两点 P,Q，M 为 PQ 重点，则
+然后加起来用和差化积公式即可。
 
-   k\_{OM}\\cdot k\_{PQ}=-\\dfrac{b^2}{a^2}=e^2-1
+### 二倍角弦
 
-证明可以用点差法，即设处两点坐标，做差得到直线斜率。这类关于中点、斜率的问题通常可以用点差法，同时因为是椭圆的一条弦与它的中点，我们也称其为中点弦问题。
+#### 形式一
 
-点差法
+\\sin2x+\\sin2y+\\sin2z=4\\sin x\\sin y\\sin z
 
-不妨设
+证明：
 
-P(x_1,y_1),Q(x_2,y_2)
+\\begin{aligned} \\sin2z&=2\\sin z\\cos z\\ &=-2\\sin z\\cos(x+y)\\ \\sin2x+\\sin2y&=2\\sin(x+y)\\cos(x-y)\\ &=2\\sin z\\cos(x-y) \\end{aligned}
 
-因此
+然后加起来用和差化积公式即可。
 
-\\begin{cases} \\dfrac{x_1^2}{a^2}+\\dfrac{y_1^2}{b^2}&=1\\ \\dfrac{x_2^2}{a^2}+\\dfrac{y_2^2}{b^2}&=1 \\end{cases}
+#### 形式二
 
-做差，得到
+\\cos2x+\\cos2y+\\cos2z=-1-\\cos x\\cos y\\cos z
 
-(x_1-x_2)\\cdot\\dfrac{x_1+x_2}{a^2}+(y_1-y_2)\\cdot\\dfrac{y_1+y_2}{b^2}=0
+证明：
 
-根据中点
+\\begin{aligned} \\cos2z&=2\\cos^2z-1\\ &=-2\\cos z\\cos(x+y)-1\\ \\cos2x+\\cos2y&=2\\cos(x+y)\\cos(x-y)\\ &=-2\\cos z\\cos(x-y) \\end{aligned}
 
-\\begin{cases} x_1+x_2&=2x_M\\ y_1+y_2&=2y_M \\end{cases}
+然后加起来用和差化积公式即可。
 
-因此
+## 例题
 
-(x_1-x_2)\\cdot\\dfrac{x_M}{a^2}+(y_1-y_2)\\cdot\\dfrac{y_M}{b^2}
+### 例题一
 
-又因为斜率
+已知 \\tan\\beta 有意义，且 \\sin(\\alpha+\\beta)={1\\over2}，\\sin(\\alpha-\\beta)={1\\over3}，求 \\dfrac{\\tan\\alpha}{\\tan\\beta}。
 
-k=\\dfrac{y_1-y_2}{x_1-x_2}
+S1：和差恒等式
 
-因此就有
+易得：
 
-\\dfrac{x_M}{a^2}+k\\cdot\\dfrac{y_M}{b^2}=0
+\\begin{cases} \\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta={1\\over2}\\ \\sin(\\alpha-\\beta)=\\sin\\alpha\\cos\\beta-\\cos\\alpha\\sin\\beta={1\\over3}\\ \\end{cases}
 
-整理可得出两个结论。
+解得：
 
-在点差法的使用过程中一定要注意检验，首先是涉及到斜率不存在的问题，其次是我们设出直线与圆锥曲线交于两点，前提是要有两个焦点，即要验证求出来的斜率能否使得 \\Delta>0 的问题。
+\\begin{cases} \\sin\\alpha\\cos\\beta={5\\over12}\\ \\cos\\alpha\\sin\\beta={1\\over12}\\ \\end{cases}
 
-同时，我们也可以根据仿射变换轻松得到，这将其视为一种变换。
+易知：
 
-### 几何性质
+{\\tan\\alpha\\over\\tan\\beta}={\\sin\\alpha\\cos\\beta\\over\\cos\\alpha\\sin\\beta}={{5\\over12}\\over{1\\over12}}=5
 
-椭圆有两条对称轴（两个坐标轴）和一个对称中心（原点）。
+S2：和差化积恒等式
 
-\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1(a>b>0)
+易得：
 
-我们注意到，
+\\begin{cases} \\sin(\\alpha+\\beta)+\\sin(\\alpha-\\beta)=2\\sin\\alpha\\cos\\beta={1\\over2}+{1\\over3}={5\\over6}\\ \\sin(\\alpha+\\beta)-\\sin(\\alpha-\\beta)=2\\cos\\alpha\\sin\\beta={1\\over2}-{1\\over3}={1\\over6} \\end{cases}
 
-x^2=a^2\\paren{1-\\dfrac{y^2}{b^2}}
+易知：
 
-因此
+{\\tan\\alpha\\over\\tan\\beta}={2\\sin\\alpha\\cos\\beta\\over2\\cos\\alpha\\sin\\beta}={{5\\over6}\\over{1\\over6}}=5
 
--a\\le x\\le a
+### 例题二
 
-同理
+已知 \\theta\\in\[0,2\\pi) 且 \\sin(x+\\theta) 是偶函数，求 \\theta。
 
--b\\le y\\le b
+根据偶函数定义：
 
-也就是说，椭圆整个图形都在一个中心在原点、长为 b 高为 a 的矩形中心，矩形与椭圆焦点分为上下左右四个。
+\\begin{aligned} \\sin(x+\\theta)=\\sin(-x+\\theta)\\ \\sin\\theta\\cos x+\\cos\\theta\\sin x=\\sin\\theta\\cos x-\\cos\\theta\\sin x\\ \\cos\\theta\\sin x=0 \\end{aligned}
 
-- 椭圆的面积：S=\\pi ab（a,b 分别为长半轴、短半轴的长）。
+因为 x\\in\\mathbb R，所以 \\cos\\theta=0，即： \\displaystyle\\theta={\\pi\\over2}/{3\\pi\\over2}。
 
-  证明：根据仿射变换显然。或利用微积分，此处略。
+知识点：偶函数、和差恒等式。
 
-- 椭圆的周长是一个没有答案的问题，历史上许多伟大的数学家，如拉马努金，都提出了非常精确的近似公式来估算椭圆周长，但它们都只是近似，无法得到精确的有理数结果。现代我们知道可以用第二类完全椭圆积分来表示，但这对高中数学便没有任何意义了。
+### 例题三
 
-椭圆的特征三角形：左右焦点、原点、上下顶点，所构成的三角形称为特征三角形，因为其在一个三角形内完美的展现了 a,b,c 三个非常重要的参数，也被用于求解椭圆的离心率，或者放缩。
+求函数 \\displaystyle g(x)=\\sin^2\\left(x+{\\pi\\over12}\\right)+\\sin^2\\left(x+{\\pi\\over4}\\right) 的值域。
 
-我们发现椭圆的离心率即为椭圆的特征三角形的短边顶点的角的正弦值，这常常用来计算离心率。因为特征三角形某种意义上也是一个焦点三角形（把另一半补上），因此一些用途我们在焦点三角形部分再说。
+化简：
 
-此外，我们知道椭圆的焦点三角形是及其重要的一个模型，因为其过于复杂，我们后面会开一个单独的模块讲解。
+\\begin{aligned} &\\sin^2\\left(x+{\\pi\\over12}\\right)+\\sin^2\\left(x+{\\pi\\over4}\\right)\\ =;&{1\\over2}\\left[1-\\cos\\left(2x+{\\pi\\over6}\\right)+1-\\cos\\left(2x+{\\pi\\over2}\\right)\\right]\\ =;&1-{1\\over2}\\left[\\cos\\left(2x+{\\pi\\over6}\\right)+\\cos\\left(2x+{\\pi\\over2}\\right)\\right]\\ =;&1-{1\\over2}\\left({\\sqrt3\\over2}\\cos2x-{1\\over2}\\sin2x-\\sin2x\\right)\\ =;&1+{1\\over4}\\left(3\\sin2x-\\sqrt3\\cos2x\\right)\\ =;&1+{\\sqrt3\\over2}\\sin\\left(2x-{\\pi\\over6}\\right)\\end{aligned}
 
-### 正切半角
+然后就忒简单了，答案是，函数 g 的值域为 \\displaystyle\\left[1-{\\sqrt3\\over2},1+{\\sqrt3\\over2}\\right]。
 
-我们直到椭圆的偏心角参数形式可以写作：
+知识点：函数、和差恒等式、降次公式、辅助角公式。
 
-(a\\cos\\theta,b\\sin\\theta),\\theta\\in\\R
+另外：最后辅助角公式的应用中，\\arctan b/a 可以不用算出来，因为 x 属于实数域，\\sin 函数里面一定是任何一个实数都取得到，直接取 r=\\sqrt{a^2+b^2}=2\\sqrt3 即可得出答案。
 
-我们在三角函数部分提到过一个很*万能*的公式，正切半角公式（也叫做万能公式），不妨记 \\varphi 为 \\theta 的半角，那么：
+### 例题四
 
-\\sin\\theta=\\sin\\paren{2\\times\\dfrac{\\theta}{2}}=\\dfrac{2\\sin\\varphi\\cos\\varphi}{\\sin^2\\varphi+\\cos^2\\varphi}
+求值：
 
-\\cos\\theta=\\cos\\paren{2\\times\\dfrac{\\theta}{2}}=\\dfrac{\\cos^2\\varphi-\\sin^2\\varphi}{\\sin^2\\varphi+\\cos^2\\varphi}
+\\cos20\\degree\\cos40\\degree\\cos80\\degree
 
-根据正切函数的定义，那么就有正切半角公式系列：
+答案：
 
-\\sin\\theta=\\dfrac{2\\tan\\varphi}{1+\\tan^2\\varphi}\\quad\\cos\\theta=\\dfrac{1-\\tan^2\\varphi}{1+\\tan^2\\varphi}
+\\begin{aligned} S&=\\dfrac{1}{\\sin20\\degree}\\sin20\\degree\\cos20\\degree\\cdot\\cos40\\degree\\cos80\\degree\\ &=\\dfrac{1}{2\\sin20\\degree}\\sin40\\degree\\cos40\\degree\\cdot\\cos80\\degree\\ &=\\dfrac{1}{4\\sin20\\degree}\\sin80\\degree\\cos80\\degree\\ &=\\dfrac{1}{8\\sin20\\degree}\\sin160\\degree=\\dfrac{1}{8} \\end{aligned}
 
-那么，将其带入椭圆的偏心交参数，便可以得出椭圆的一个经典的有理参数方程：
+本质是角的变换。
 
-x(t)=a\\dfrac{1-t^2}{1+t^2}
+### 例题五
 
-y(t)=b\\dfrac{2t}{1+t^2}
+求值：
 
-此时，坐标就变成了关于 t 的有理函数，可以大幅缩小计算量（尤其是用计算机模拟计算多项式、分式方程会比一般形式快很多、方便很多）。
+\\sin10\\degree+\\dfrac{\\sqrt3}4\\tan10\\degree
 
-我们观察这个方程的形式，也可以通过计算机作图来辅助，我们发现：
+答案：
 
-- 当 t\\in\\R 从小到大连续变化时，点 (x(t),y(t)) 从左端点开始，沿着顺时针方向绕一圈，然后回到左端点。
-- 当 t\\to\\pm\\infty 时，点为椭圆的左端点，也就是说这个曲线严格来讲，是取不到左端点的！
+\\begin{aligned} S&=\\dfrac{4\\sin10\\degree\\cos10\\degree+\\sqrt3\\sin10\\degree}{4\\cos10\\degree}\\ &=\\dfrac{2\\sin(30\\degree-10\\degree)+\\sqrt3\\sin10\\degree}{4\\cos10\\degree}\\ &=\\dfrac{\\cos10\\degree}{4\\cos10\\degree}=\\dfrac14 \\end{aligned}
 
-因此，可以把 \\mathbb R\\cup{\\infty}（射影直线）与椭圆建立几乎一一对应。因此，自然也可以由椭圆上一点反求到参数，利用：
+本质也是角的变换。
 
-t=\\tan\\dfrac{\\theta}{2}=\\dfrac{\\sin\\theta}{1+\\cos\\theta}
+## 基本方法
 
-从而：
+### 基本原理
 
-t=\\dfrac{ay}{b(a+x)}\\quad(x\\neq-a)
+回忆初中平几，根据全等三角形的判断：
 
-这在“从点反算参数”“拟合/求交/迭代”里非常好用。
+如果知道 ASA、AAS、SAS、SSS、HL 就可以唯一的确定一个三角形。
 
-如果我们按照 x(t)+a,y(t) 列出来，也就是说，我们会发现：
+总结一下就是两个角全都可以，三个边可以，一个角两个边就需要是夹角。
 
-\\dfrac{y(t)}{x(t)+a}=\\dfrac{b}{a}t
+即知道 aCb、cBa、bAc，才可以唯一确定一个两边一角的三角形。
 
-也就是说，参数 t 本质上就是从左端点向外发射的直线的斜率（差一个比例）。这解释了为何它能把椭圆参数化成有理函数：任何非退化二次曲线都可用“过定点作一束直线取第二交点”的方式有理参数化。
+至于 SSA，只有一个角是直角才可以唯一确定，不过这个就是 HL 了。
 
-一类立刻好用的结论：与直线求交只需解二次方程。这是计算几何里最常用的点，避免三角、避免开方，稳定且快，设直线
+三角形确定，意味着我们可以求出所有边的长度以及所有角度的大小。
 
-y=kx+d
+正弦定理、余弦定理就为我们提供了方法：可以利用角度和边长互相表示。
 
-把有理参数带入，最终化简整理得一个关于 t 的二次方程：
+像这样，确定三角形边、角的过程，就是解三角形。
 
-(ka-d)t^2+2bt-(ka+d)=0
+如何选择正弦定理、余弦定理？
 
-解出 t 就得到焦点，而与竖线求焦点则更简单：
+遇到正弦选正弦定理，遇到齐次式考虑正弦定理。
 
-y^2=\\dfrac{a-x_0}{a+x_0}\\quad(|x_0|\<a)
+遇到余弦选余弦定理，遇到边的二次齐次式考虑余弦定理。
 
-切线公式变得特别“干净”：一条线性方程（且系数有理），带入即可化简得到
+原则：边角统一。
 
-(1-t^2)bx+2tay=(1+t^2)ab
+### 三角函数
 
-外点 P(X,Y) 作椭圆切线（求切点）只需解二次方程：
+在三角形中，
 
-(X+a)t^2-\\dfrac{2aY}{b}t+(a-X)=0
+A+B+C=\\pi
 
-切线斜率 / 法线斜率直接有理表达，根据：
+因此就有：
 
-\\dfrac{\\d x}{\\d t}=-\\dfrac{4at}{(1+t^2)^2}
+\\begin{aligned} \\sin A&=\\sin(B+C)\\ \\sin B&=\\sin(A+C)\\ \\sin C&=\\sin{A+B} \\end{aligned}
 
-\\dfrac{\\d y}{\\d t}=\\dfrac{2b(1-t^2)}{(1+t^2)^2}
+\\begin{aligned} \\cos A&=-\\cos(B+C)\\ \\cos B&=-\\cos(A+C)\\ \\cos C&=-\\cos(A+B) \\end{aligned}
 
-所以切线斜率为：
+\\begin{aligned} \\sin\\dfrac{A}{2}&=\\cos\\left(\\dfrac{B+C}{2}\\right)\\ \\sin\\dfrac{B}{2}&=\\cos\\left(\\dfrac{A+C}{2}\\right)\\ \\sin\\dfrac{C}{2}&=\\cos\\left(\\dfrac{A+B}{2}\\right) \\end{aligned}
 
-\\dfrac{\\d y}{\\d x}=\\dfrac{\\d t}{\\d t}\\cdot\\dfrac{\\d t}{\\dt x}=\\dfrac{b(t^2-1)}{2at}
+\\begin{aligned} \\cos\\dfrac{A}{2}&=\\sin\\left(\\dfrac{B+C}{2}\\right)\\ \\cos\\dfrac{B}{2}&=\\sin\\left(\\dfrac{A+C}{2}\\right)\\ \\cos\\dfrac{C}{2}&=\\sin\\left(\\dfrac{A+B}{2}\\right) \\end{aligned}
 
-结论 1：弦的斜率公式，椭圆上两点 P_1(\\theta_1), P_2(\\theta_2) 连线斜率
+在三角形中，a=b\\cos C+c\\cos B。
 
-k = -\\frac{b}{a} \\cot\\frac{\\theta_1+\\theta_2}{2} = -\\frac{b}{a} \\cdot \\frac{1-t_1t_2}{t_1+t_2}
+若 \\sin^2A+\\sin^2B=\\sin^2C，则该三角形是以 \\angle C 为直角的 \\mathrm{Rt\\triangle}。
 
-结论 2：弦的方程
+解三角形里面常用的奇怪三角函数：
 
-\\frac{x}{a}\\cos\\frac{\\theta_1+\\theta_2}{2} + \\frac{y}{b}\\sin\\frac{\\theta_1+\\theta_2}{2} = \\cos\\frac{\\theta_1-\\theta_2}{2}
+\\sin15^\\circ=\\cos75^\\circ={\\sqrt6-\\sqrt2\\over4}\\[0.5em] \\sin75^\\circ=\\cos15^\\circ={\\sqrt6+\\sqrt2\\over4}
 
-结论 3：弦中点坐标，设 S = t_1 + t_2，P = t_1 t_2，则中点 M(\\bar{x}, \\bar{y})
+特殊的，如果 \\sin 2A=\\sin 2B，则有 2A=2B 或 2A+2B=\\pi，即 A=B 或 A+B=90^\\circ，即等腰或直角三角形。
 
-\\bar{x} = \\frac{a(1-P^2) - aS^2 + 2aP}{(1+t_1^2)(1+t_2^2)} = \\frac{a(1-t_1^2 t_2^2)}{(1+t_1^2)(1+t_2^2)}
+### 平面几何法
 
-\\bar{y} = \\frac{b(t_1+t_2)(1+t_1t_2)}{(1+t_1^2)(1+t_2^2)}
+利用平面几何定理，直接解决。
 
-结论 4：焦点三角形面积，点 P(\\theta) 与两焦点构成的三角形面积为
+通常平面几何关注的是角与边的关系。
 
-S = bc|\\sin\\theta| = \\frac{2bc|t|}{1+t^2}
+角，联系三角函数，倒角解决。
 
-一个“数论 / 构造”层面的好处：生成有理点，若 a,b 为有理数，则对于任意有理 t 有 x(t),y(t) 都是有理数，从而你能系统地产生椭圆上的有理点。这在“构造性几何”“有理近似”“符号计算测试数据”等场景很方便。
+边，通常联系正余弦定理，以及一些特殊的定理。
 
-### 极点极线
+建系法：将数据用坐标表示，详见解析几何。
 
-过椭圆外一点 P(x_0,y_0) 做两条切线 PC,PD，容易知道
+如果直角三角形三边成等差数列，则变长一定为 3,4,5。
 
-\\ell\_{CD}:\\dfrac{x_0x}{a^2}+\\dfrac{y_0y}{b^2}=1
+### 向量基底法
 
-而我们不妨做两条 \\angle CPD 内的线，分别与椭圆交于 A_1,A_2 与 B_1,B_2 点，如图。
+用向量基底分解，利用点乘的性质解决。
 
-我们发现 A_2B_1,A_1B_2 相交于 T，且 T 在 CD 上。
+通常情况下，向量法是一个好用而简洁的方法。
 
-特殊的，如果 P 在椭圆的右准线上（左准线类似），容易知道极线方程：
+算两次原理：用同一组基底，用不同方式表示一个向量，则系数一定相等。
 
-\\dfrac{x}{c}+\\dfrac{yt}{b^2}=1
+### 三角形应用
 
-一定是过右焦点 F(c,0) 的，且 PF\\perp CD，弦长公式为：
+基线：在测量过程中，根据测量的需要而确定的线段叫做基线。
 
-|CD|=\\dfrac{2a(c^2t^2+b^4)}{c^2t^2+a^2b^2}\\ge\\dfrac{2b^2}{a^2}
+仰角：在同一铅垂平面内，视线在水平线上方时与水平线的夹角。
 
-互极：设 ABCD 是椭圆
+俯角：在同一铅垂平面内，视线在水平线下方时与水平线的夹角。
 
-\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1
+方向角：从正北或正南方向到目标方向所形成的小于九十度的角。
 
-的内接四边形，对边 AB，CD 交于点 P(x_1, y_1)，对边 AD，BC 交于点 Q(x_2, y_2)，对角线 AC，BD 交于点 R(x_3, y_3)，则 P,Q,R 三点满足：
+方位角：从某点的指北方向线起依顺时针方向到目标方向线之间的水平夹角。
 
-其中任意两点确定的直线，恰为以第三点为极点关于椭圆的极线。即：对任意 i, j = 1,2,3, i \\ne j，我们有
+### [TODO] 黄金分割比与黄金三角形
 
-\\frac{x_i x_j}{a^2} + \\frac{y_i y_j}{b^2} = 1
+## 三角法定理
 
-如图 9-12 所示，已知 P(x_P, y_P) 和圆 x^2 + y^2 = 1，过点 P 任作一割线交圆于 A,B 两点，交 \\ell : x_Px + y_Py = 1 于点 Q，则
+### 正弦定理
 
-\\begin{aligned} \\dfrac{PA}{PB} = \\dfrac{QA}{QB}\\ \\dfrac{2}{PQ} = \\dfrac{1}{PA} + \\dfrac{1}{PB} \\end{aligned}
+回顾初中几何，三角形面积，
 
-同时，点 P 关于圆 x^2 + y^2 = 1 的极线经过点 Q 当且仅当点 Q 关于圆 x^2 + y^2 = 1 的极线经过点 P。
+S={1\\over2}ab\\sin C={1\\over2}bc\\sin A={1\\over2}ac\\sin B
 
-如图 9-13 所示，特别地，若 PQ 经过圆心并交圆于 R，则有 |OR|^2 = |OP|\\cdot|OQ|。反之，若 |OR|^2 = |OP|\\cdot|OQ|，则 Q 落在点 P 的极线 x_Px + y_Py = 1 上。
+下面的证明过程只考虑锐角三角形，对于钝角三角形，结论不变。
 
-对于一般的圆锥曲线，将切线方程直接搬过来，就是极线方程，也有上面的两条性质。
+做过 \\angle A 的垂线，则该垂线长度 h：
 
-### 等角共轭
+h=b\\sin C=c\\sin B
 
-椭圆的等角共轭：过椭圆外一点 P 做切线 PX,PY，切点为 X,Y。连接 PF_1,PF_2，则 \\angle XPF_1=\\angle YPF_2。
+对每个角应用，最后可得，
 
-我们将 F_1,F_2 分别关于 PX,PY 对称，得到 F_1',F_2'，根据初中几何容易知道，\\triangle PF_1'F_2\\cong\\triangle PF_1F_2'，两顶角减去公共部分 \\angle F_1PF_2，即可得到。
+{a\\over\\sin A}={b\\over\\sin B}={c\\over\\sin C}=k
 
-根据已经证明的全等，因此 \\angle PF_1X = \\angle PF_1'F_2 = \\angle PF_1F_2' = \\angle PF_1Y，也就是说对于曲线外一点 P 与焦点的连线一定平分两个切点与这个焦点所构成的角。
+做出该三角形的外接圆，过圆心做 BC 的高，则，
 
-双曲线有着类似的性质，但是需要注意切点是否位于同一分支上。
+a=2R\\sin A,{a\\over\\sin A}=2R
 
-此时有 \\angle F_1PX = \\pi - \\angle F_2PY。
+即值 k 为三角形外接圆直径 2R。
 
-### 蒙日圆
+常常这么写：
 
-蒙日圆：若过椭圆外一点 P 做椭圆的两条切线相互垂直，则 P 的轨迹为一个圆，轨迹方程为
+a=2R\\sin A,b=2R\\sin B,c=2R\\sin C\\ \\sin A={a\\over2R},\\sin B={b\\over2R},\\sin C={c\\over2R}
 
-x^2+y^2=a^2+b^2
+正弦定理推论：大边对大角，小边对小角。
 
-证明：不妨做 F_1 关于 PX 的对称点 F_1'，不难得到 \\angle F_1'PF_2=\\angle XPY=90^\\circ，
+### 余弦定理
 
-又因为 PF_1'=PF_1，也就是说只需要令
+在 \\triangle ABC 中，
 
-PF_1^2+PF_2^2=F_1F_2^2
+\\begin{array}{c} \\overrightarrow{AB}=\\overrightarrow{CB}-\\overrightarrow{CA}\\[0.5em] |\\overrightarrow{AB}|^2=|\\overrightarrow{CB}|^2+|\\overrightarrow{CA}|^2-2|\\overrightarrow{CB}|\\cdot|\\overrightarrow{CA}|\\cdot\\cos\\theta\\[0.5em] c^2=a^2+b^2-2ab\\cos\\theta \\end{array}
 
-即可，我们设 P(x,y)，而 F_1F_2=2a，带入得
+其中 \\theta 为 c 的对角，即 \\angle C；第二步就是两边平方。
 
-(x+c)^2+y^2+(x-c)^2+y^2=4a^2
+常写作：
 
-整理即可得到上面的轨迹方程。
+\\cos A={b^2+c^2-a^2\\over2bc},\\cos B={a^2+c^2-b^2\\over2ac},\\cos C={a^2+b^2-c^2\\over2ab}
 
-对双曲线而言，这样的圆并不总存在。当双曲线的两条渐近线所成角为锐角时，该圆的半径为虚数；若两条渐近线互相垂直，则该圆退化为双曲线的中心这一点。
+推论：
 
-还有一些奇怪的结论。
+\\begin{aligned} a^2+b^2-c^2>0 &\\Longrightarrow \\cos C>0 \\Longrightarrow C\\in(0,\\pi/2)\\ a^2+b^2-c^2=0 &\\Longrightarrow \\cos C=0 \\Longrightarrow C=\\pi/2\\ a^2+b^2-c^2\<0 &\\Longrightarrow \\cos C\<0 \\Longrightarrow C\\in(\\pi/2,\\pi) \\end{aligned}
 
-- 过点 P 作圆锥曲线的两条切线，若两切线的斜率之积为定值，则点 P 的轨迹为某一圆锥曲线。
-- 将一根绳子套在椭圆 \\alpha 上，并用铅笔把绳子绷紧。若使铅笔绕着椭圆转动，则它将描出另一条与 \\alpha 同焦的椭圆。
-- 一条椭圆内接于一个凸四边形，且它的两个焦点分别落在该四边形的两条（不同的）对角线上，则该四边形两对对边长度的乘积相等。
+### 余切定理
 
-## 双曲线
+\\begin{aligned} \\zeta&=\\sqrt{{1\\over p}(p-a)(p-b)(p-c)}\\ p&={a+b+c\\over2} \\end{aligned}
 
-### 第一定义
+其中 \\zeta 为 \\triangle ABC 内切圆半径，p 为三角形的半周长。
 
-到两定点 F_1,F_2 距离之差的绝对值为常数（小于 |F_1F_2|）的点的轨迹称为双曲线。
+推论，一各三角形内切圆半径为，
 
-与椭圆类似，我们设左焦点 F_1=(-c,0) 和右焦点 F_2=(c,0)，距离之差为 2a，其中 c>a>0，有双曲线的一般方程
+R_内={2S\\over a+b+c}
 
-\\dfrac{x^2}{a^2}-\\dfrac{y^2}{c^2-a^2}=1
+其中 S 表示三角形面积，a,b,c 分别表示三边长。
 
-同样，令 b=\\sqrt{c^2-a^2} 即 c^2=a^2+b^2。
+### 正切定理
 
-\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1
+正切定理指出，三角形中，两条边的和与差的比值，等于这两条边的对角的和与差的一半的正切的比值：
 
-### 第二定义
+{a-b\\over a+b}={\\tan{\\angle A-\\angle B\\over2}\\over\\tan{\\angle A+\\angle B\\over2}}
 
-到一定点 F_1 的距离与到一定直线的距离之比为定值（大于 1）的点所形成的轨迹称为双曲线。该定直线称为准线。
+## 三角形四心
 
-与抛物线一样，我们可以得到
+| 编号   | 心的名称 | 定义                   |
+| ------ | -------- | ---------------------- |
+| X_1(I) | 内心     | 三条**角平分线**的交点 |
+| X_2(G) | 重心     | 三条**中线**的交点     |
+| X_3(O) | 外心     | 三条**中垂线**的交点   |
+| X_4(H) | 垂心     | 三条**高线**的交点     |
 
-\\sqrt{(x-c)^2+y^2}=\\dfrac{c}{a}\\vert{x-\\dfrac{a^2}{c}}
+### 奔驰定理
 
-但是此时 \\dfrac{c}{a} 应当是大于 1 的，同理
+在锐角 \\triangle ABC 中，
 
-\\sqrt{(x+c)^2+y^2}=\\dfrac{c}{a}\\vert{x+\\dfrac{a^2}{c}}
+S\_{\\triangle BOC}\\cdot\\overrightarrow{OA}+S\_{\\triangle AOC}\\cdot\\overrightarrow{OB}+S\_{\\triangle AOB}\\cdot\\overrightarrow{OC}=\\vec0
 
-前者是右焦点与右准线，后者是左焦点与左准线，准线方程依旧是
+推论：
 
-x=\\pm\\dfrac{a^2}{c}
+- 设 I 为内心，则 a\\cdot\\overrightarrow{IA}+b\\cdot\\overrightarrow{IB}+c\\cdot\\overrightarrow{IC}=\\vec0.
+- 设 H 为垂心，则 \\tan A\\cdot\\overrightarrow{HA}+\\tan B\\cdot\\overrightarrow{HB}+\\tan C\\cdot\\overrightarrow{HC}=\\vec0.
+- 设 O 为外心，则 \\sin2A\\cdot\\overrightarrow{OA}+\\sin2B\\cdot\\overrightarrow{OB}+\\sin2C\\cdot\\overrightarrow{OC}=\\vec0.
 
-比值就是 \\dfrac{c}{a}，这称为离心率，定义为
+### 欧拉线定理
 
-e=\\dfrac{c}{a}=\\sqrt{1+\\dfrac{b^2}{a^2}}>1
+- 欧拉定理：O,I 分别为外接圆、内切圆圆心，则有 OI^2=R^2-2Rr.
 
-离心率越大，双曲线的开口越大。
+- 欧拉线定理：三角形的外心 O，垂心 H，重心 G 依次位于同一直线上，且重心到外心的距离是重心到垂心的距离的一半，即
 
-### 焦点三角形
+  \\overrightarrow{OG}=\\frac{1}{3}\\overrightarrow{OH}=\\frac{1}{3}(\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC})
 
-此处写一点双曲线的焦点三角形相关内容，尽管下面的焦点三角形中已经有很多结论，但是大部分还是针对椭圆的，为了不引起歧义或混乱，一些东西在这里列举。
+### 极化恒等式
 
-双曲线左右焦点为 F_1,F_2，双曲线上一点 P 的焦点弦：
+一般形式：
 
-|PF_1|=|a+ex_0|
+- 已知平面上非零向量 \\boldsymbol{a} 与 \\boldsymbol{b}，则 \\boldsymbol{a} \\cdot \\boldsymbol{b} = \\dfrac{1}{4}(|\\boldsymbol{a} + \\boldsymbol{b}|^2 - |\\boldsymbol{a} - \\boldsymbol{b}|^2)。
+- 在 \\triangle ABC 中，若 M 是 BC 的中点，则 \\overrightarrow{AB} \\cdot \\overrightarrow{AC} = |\\overrightarrow{AM}|^2 - \\dfrac{1}{4}|\\overrightarrow{BC}|^2。
 
-|PF_2|=|a-ex_0|
+在 \\triangle ABC 中，对于共起点的数量积 \\overrightarrow{AB} \\cdot \\overrightarrow{AC} 的求解问题，我们首先想到的是找出 BC 的中点 M，则
 
-注意这里要有绝对值符号，里面的式子正负取决于是否在同一侧，因为绝对值的存在，这不影响最终结果。
+\\overrightarrow{AM} = \\dfrac{1}{2}(\\overrightarrow{AB} + \\overrightarrow{AC})
 
-不妨设 \\angle PF_1F_2=\\theta，不妨假设 P 在左支（在 F_1 一侧），这条直线交另一支于点 Q，则：
+所以
 
-|PF_1|=\\dfrac{ep}{e\\cos\\theta+1}=\\dfrac{a(e^2-1)}{e\\cos\\theta+1}
+\\overrightarrow{AB} \\cdot \\overrightarrow{AC} = \\left[\\dfrac{1}{2}(\\overrightarrow{AB} + \\overrightarrow{AC})\\right]^2 - \\dfrac{1}{4}|\\overrightarrow{BC}|^2
 
-|QF_1|=\\dfrac{ep}{e\\cos\\theta-1}=\\dfrac{a(e^2-1)}{e\\cos\\theta-1}
+化简整理便可得到如下结论：在 \\triangle ABC 中，
 
-双曲线的第三定义的主要区别在于，在椭圆的公式中去掉负号即可。
+2\\overrightarrow{AB} \\cdot \\overrightarrow{AC} = |\\overrightarrow{AB}|^2 + |\\overrightarrow{AC}|^2 - |\\overrightarrow{BC}|^2
 
-- M,N 是双曲线 C:\\dfrac{x^2}{A^2}-\\dfrac{y^2}{B^2}=\\pm1 上的两点，则 P 是 MN 的中点，等价于
+任何事物都是由特殊再到一般，我们研究平面几何问题更多的是在研究三角形，因为三角形是我们接触最多也是最熟悉的，然后由三角形再延伸到四边形问题。那么对于向量余弦式是否也可以延伸到四边形呢？我们知道四边形通过对角线是可以分割成三角形的，下面一起来探讨这个问题。在平面四边形 ABCD 中，它可以由 \\triangle ABC 与 \\triangle ACD 组成，则在 \\triangle ABC 中，由向量余弦式可得
 
-  k\_{MN} \\cdot k\_{OP} = \\dfrac{B^2}{A^2}
+\\overrightarrow{AB} \\cdot \\overrightarrow{AC} = \\dfrac{|\\overrightarrow{AB}|^2 + |\\overrightarrow{AC}|^2 - |\\overrightarrow{BC}|^2}{2}
 
-- 已知直线 y=kx+m 与双曲线 C: \\dfrac{x^2}{A^2} - \\dfrac{y^2}{B^2} = 1 的渐近线交于 M, N 两点，则 P 是 MN 的中点，等价于
+那么在 \\triangle ACD 中，则向量余弦式可得
 
-  k\_{MN} \\cdot k\_{OP} = \\dfrac{B^2}{A^2}
+\\overrightarrow{AD} \\cdot \\overrightarrow{AC} = \\dfrac{|\\overrightarrow{AD}|^2 + |\\overrightarrow{AC}|^2 - |\\overrightarrow{DC}|^2}{2}
 
-  令 M(x_1, y_1), N(x_2, y_2)，点 M, N 在渐近线上，可得
+两式相减可得
 
-  \\begin{cases} \\dfrac{x_2^2}{a^2} - \\dfrac{y_2^2}{b^2} = 0 \\ \\dfrac{x_1^2}{a^2} - \\dfrac{y_1^2}{b^2} = 0 \\end{cases} \\implies \\dfrac{y_2^2 - y_1^2}{x_2^2 - x_1^2} = \\dfrac{b^2}{a^2} \\implies \\dfrac{y_2 - y_1}{x_2 - x_1} \\cdot \\dfrac{y_2 + y_1}{x_2 + x_1} = \\dfrac{b^2}{a^2}
+\\overrightarrow{AD} \\cdot \\overrightarrow{AC} - \\overrightarrow{AB} \\cdot \\overrightarrow{AC} = \\dfrac{|\\overrightarrow{AD}|^2 + |\\overrightarrow{AC}|^2 - |\\overrightarrow{DC}|^2}{2} - \\dfrac{|\\overrightarrow{AB}|^2 + |\\overrightarrow{AC}|^2 - |\\overrightarrow{BC}|^2}{2}
 
-  由此可知 k\_{OP} \\cdot k\_{MN} = \\dfrac{b^2}{a^2}。
+整理后可得
 
-### 特征三角形
+\\overrightarrow{AC} \\cdot \\overrightarrow{BD} = \\dfrac{|\\overrightarrow{AD}|^2 + |\\overrightarrow{BC}|^2 - |\\overrightarrow{AB}|^2 - |\\overrightarrow{CD}|^2}{2}
 
-做焦点到渐近线的垂线，焦点、垂足、圆心所构成的三角形即为双曲线的特征三角形。
+这就得到了平面四边形的向量余弦式的形式。
 
-设焦点 F(c,0)，在渐近线 bx=ay 上的垂足为 P，坐标原点为 O，则
+在四边形 ABCD 中，
 
-|FP|=\\dfrac{bc}{\\sqrt{a^2+b^2}}=b
+\\overrightarrow{AC} \\cdot \\overrightarrow{BD} = \\dfrac{|\\overrightarrow{AD}|^2 + |\\overrightarrow{BC}|^2 - |\\overrightarrow{AB}|^2 - |\\overrightarrow{CD}|^2}{2}
 
-根据勾股定理，|OP|=a，这就是双曲线的特征三角形。
+这个结论也称之为对角线定理，它不仅仅可以在平面四边形中得到应用，还可以推广到空间四边形的情形。
 
-与之类似的，我们还可以从双曲线上任意一点向两条渐近线引垂线，如图
+### 分点的向量方程
 
-则有
+特殊的，中点的向量方程：
 
-|PH_1|\\cdot|PH_2|=\\dfrac{a^2b^2}{a^2+b^2}
+\\vecc{AD}=\\dfrac12\\vecc{AB}+\\dfrac12\\vecc{AC}
 
-可以直接设出 P 点坐标，带入化简即可。
+交叉定理
 
-### 特殊双曲线
+即对边比例相乘向量相加。
 
-一些特殊的双曲线：
+### 重心及其性质
 
-- 等轴双曲线（直角双曲线）：渐近线相互垂直 a=b 的双曲线，离心率 e=\\sqrt2。
-- 共轭双曲线：两条虚实轴互换的双曲线，共用两条渐近线，四焦点共圆。
+重心：三角形三边中线交点，在平面直角坐标系中，重心的坐标是顶点坐标的算术平均，也就是说对于平面内任意一点 P：
 
-根据我们在一般方程中的描述，很容易发现以下的函数也都是双曲线：
+\\vecc{PG}=\\dfrac13\\left(\\vecc{PA}+\\vecc{PB}+\\vecc{PC}\\right)
 
-y=\\dfrac{1}{x}
+重心和三角形任意两个顶点组成的三个三角形面积相等，而重心到三条边的距离与三条边的长成反比。
 
-y=x+\\dfrac{1}{x}
+根据奔驰定理，有三角形重心到其各个顶点向量之和为零。
 
-y=x-\\dfrac{1}{x}
+\\vecc{GA}+\\vecc{GB}+\\vecc{GC}=\\vec 0
 
-其实大胆猜测，“形状像”双曲线的，可以化为二元二次实方程的，都是双曲线。
+特性：一个三角形的重心同时也是其中点三角形的重心，中位线证明。
 
-### 几何性质
+根据是中线的性质，做 AG 并延长交 BC 于点 H，则：
+
+\\dfrac{AG}{GH}=\\dfrac21
+
+特殊的，重心到三边距离之积最大、到三角形三个顶点距离的平方和最小。
+
+### 内心及其性质
+
+内心为三角形内切圆圆心，因此为三个角的角平分线交点：
+
+\\vecc{AI}=\\lambda\\left(\\dfrac{\\vecc{AB}}{|\\vecc{AB}}+\\dfrac{\\vecc{AC}}{|\\vecc{AC}|}\\right)
+
+有奔驰定理的形式：
+
+\\sin A\\cdot\\vecc{IA}+\\sin B\\cdot\\vecc{IB}+\\sin C\\cdot\\vecc{IC}=\\vec 0
+
+三角形的内心到边的距离（即内切圆的半径）与三边长及面积之间有关系：
+
+r_内=\\dfrac{2S}{a+b+c}=\\dfrac{2S}{C}
+
+可以连接内心与三顶点，等面积法求解。
+
+### 外心及其性质
+
+外心为三角形外接圆圆心，因此为三边中垂线交点，不一定在三角形内部，到三角形三点距离相等。
+
+\\vecc{OA}^2=\\vecc{OB}^2=\\vecc{OC}^2
+
+有奔驰定理的形式：
+
+\\sin2A\\cdot\\vecc{OA}+\\sin2B\\cdot\\vecc{OB}+\\sin2C\\cdot\\vecc{OC}=\\vec 0
+
+而，
+
+R_外={abc\\over4S}
+
+- 当三角形为锐角三角形时，外心在三角形内部。
+- 当三角形为钝角三角形时，外心在三角形外部。
+- 当三角形为直角三角形时，外心在斜边的中点上。
+
+锐角三角形外心到三边距离之和等于 R+r。
+
+证明：等价于证
+
+R(\\cos A+\\cos B+\\cos C)=R+r
 
 我们知道
 
-x^2=a^2\\paren{1+\\dfrac{y^2}{b^2}}
+\\begin{aligned} S\_{\\Delta ABC}&=\\frac{1}{2}(a+b+c)r\\ &=S\_{\\Delta OAB}+S\_{\\Delta OAC}+S\_{\\Delta OBC}\\ &=\\frac{1}{2}R(a\\cos A+b\\cos B+c\\cos C) \\end{aligned}
 
-因此
+联立上两式（相乘），直接展开易知等式成立。
 
-|x|\\ge a
+### 垂心及其性质
 
-即 x\\ge a 或 x\\le-a，而 y 为实数。
+垂心是三角形三边垂线的交点，因此有点积为零。
 
-双曲线有两个顶点，左顶点 A_1=(-a,0) 和右顶点 A_2=(a,0)，线段 A_1A_2 称为实轴，a 称为实半轴长。
+\\vecc{HA}\\cdot{BC}=\\vecc{HB}\\cdot\\vecc{AC}=\\vecc{HC}\\cdot\\vecc{AB}=0
 
-另外，设 B_1=(0,b) 和 B_2=(0,-b)，则 B_1B_2 称为虚轴，这个轴本身没有太多意义。
+两两整理，得到：
 
-特别的，如果 a=b，则这个双曲线称为等轴双曲线。
+\\vecc{HA}\\cdot\\vecc{HB}=\\vecc{HB}\\cdot\\vecc{HC}=\\vecc{HC}\\cdot\\vecc{HA}
 
-双曲线有对称轴为坐标轴，对称中心为坐标原点。
+有奔驰定理的形式：
 
-双曲线有两条渐近线
+\\tan A\\cdot\\vecc{HA}+\\tan B\\cdot\\vecc{HB}+\\tan C\\cdot\\vecc{HC}=\\vec 0
 
-y=\\pm\\dfrac{b}{a}x
+而垂心到三角形一顶点距离等于此三角形外心到此顶点对边距离的 2 倍。
 
-也就是
+三角形外心 O、重心 G、垂心 H 三点共线且 OG:GH=1:2 此直线称为三角形的欧拉线。
 
-\\dfrac{y}{b}\\pm\\dfrac{x}{a}=0
+## 三角形三线
 
-或者可以记为
+### 中线长定理
 
-\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=0
+在 \\triangle ABC 中，BC 的中点为 M，对于中线 AM，有：
 
-### 双曲函数
+AM^2={1\\over2}b^2+{1\\over2}c^2-{1\\over4}a^2
 
-双曲函数因为其性质极其类似三角函数，因此也称为双曲三角函数。
+或，
 
-我们知道三角函数 \\sin\\theta,\\cos\\theta 是在单位圆上引入一条倾角为 \\theta 的直线，与单位圆相交的点的坐标即为 (\\cos\\theta,\\sin\\theta)，类似的我们推出双曲函数的最初定义：倾角为 \\theta 的直线与双曲线 x^2-y^2=1 交于点 (\\cosh\\theta,\\sinh\\theta)。
+AM^2+BM^2={1\\over2}(AC^2+AB^2)
 
-\\sinh x=\\dfrac{e^x-e^{-x}}{2}
+或，
 
-\\cosh x=\\dfrac{e^x+e^{-x}}{2}
+AM={1\\over2}\\sqrt{2b^2+2c^2-a^2}
 
-\\tanh x=\\dfrac{\\sinh x}{\\cosh x}=\\dfrac{e^x-e^{-x}}{e^x+e^{-x}}
+证明，基底分解：
 
-其图像如图
+\\overrightarrow{AM}={1\\over2}\\overrightarrow{AB}+{1\\over2}\\overrightarrow{AC}\\[0.5em] \\overrightarrow{BM}={1\\over2}\\overrightarrow{AC}-{1\\over2}\\overrightarrow{AB}
 
-我们在复数部分推导了欧拉公式，因此不难知道
+则，
 
-\\begin{cases} \\cos x&=\\cosh(ix)\\ \\sin x&=-i\\sinh(ix) \\end{cases}
+|\\overrightarrow{AM}|^2+|\\overrightarrow{BM}|^2={1\\over2}|\\overrightarrow{AB}|^2+{1\\over2}|\\overrightarrow{AC}|^2
 
-我们利用这个可以从三角函数的几乎所有公式迁移到双曲函数。
+或者中点两个底角分别列余弦定理，相加化简。
 
-一些公式
+### 分角定理
 
-\\cosh^2x-\\sinh^2x=1
+在 \\triangle ABC 中，BC 上有一点 M，则：
 
-\\sinh(x\\pm y)=\\sinh x\\cosh y\\pm \\cosh x\\sinh y
+{BM\\over CM}={AB\\sin\\angle BAM\\over AC\\sin\\angle CAM}
 
-\\cosh(x\\pm y)=\\cosh x\\cosh y\\pm\\sinh x\\sinh y
+证明，左右两边等面积法：
 
-\\tanh (x\\pm y)=\\frac{\\tanh x\\pm \\tanh y}{1\\pm \\tanh x\\tanh y}
+{BM\\over CM}={S\_{\\triangle ABM}\\over S\_{\\triangle ACM}}={AB\\cdot AM\\sin\\angle BAM\\over AC\\cdot AM\\sin\\angle CAM}={AB\\sin\\angle BAM\\over AC\\sin\\angle CAM}
 
-\\sinh 2x=2\\sinh x\\cosh x
+或正弦定理：
 
-\\cosh 2x=\\cosh^2x+\\sinh^2x
+{BM\\over\\sin\\angle BAM}={AB\\over\\sin\\angle AMB}\\[0.5em] {CM\\over\\sin\\angle CAM}={AC\\over\\sin\\angle AMC}
 
-\\tanh 2x=\\frac{2\\tanh x}{1+\\tanh^2x}
+上下做比。
 
-(\\sinh x)'=\\cosh x
+### 角平分线定理
 
-(\\cosh x)'=\\sinh x
+在 \\triangle ABC 中，\\angle A 的平分线 AM，有：
 
-## 焦点三角形
+{BM\\over CM}={AB\\over AC}
 
-焦点三角形，即为圆锥曲线上一点或两点，与两个或一个焦点为顶点，所构成的三角形（或者退化的三角形），其在椭圆中表现的尤为重要，更多是因为双曲线的焦点三角形情况复杂、出题较少，且抛物线更常用到的模型是特征矩形而不是焦点三角形。
+是分角定理的直接推论。
 
-### 离心率
+### 角平分线长定理
 
-离心率问题是初学阶段最重要的一类题目，难度相对较低但是适合练手，对于离心率问题，常见的几种方法有：
+\\begin{aligned} AD&=\\sqrt{AB\\cdot AC-BD\\cdot CD}\\ &=\\sqrt{bc\\left(1-{a^2\\over(b+c)^2}\\right)}\\ &={2bc\\over b+c}\\cos{A\\over2} \\end{aligned}
 
-1. 带入点或者根据定义直接求 a,b,c 的值或其比例。
+## 边长公式
 
-1. 构造关于 a,b,c 的齐次方程，全部化为 a,c 的齐次方程后同除 a^2 得到关于 e 的一元方程。
+### 射影定理
 
-1. 在特征三角形中解决，或者在一般的焦点三角形中，利用余弦定理等解三角形方式解决，设椭圆上一点 P、左右焦点 F_1,F_2 构成三角形，设 \\theta=\\angle F_1PF_2，\\alpha=\\angle PF_1F_2，\\beta=\\angle PF_2F_1。
+射影定理表示为：
 
-   不妨列出正弦定理：
+a=b\\cos C+c\\cos B
 
-   \\dfrac{|PF_1|}{\\sin\\beta}=\\dfrac{|PF_2|}{\\sin\\alpha}=\\dfrac{|F_1F_2|}{\\sin\\theta}
+在初中我们学习过影高乘积等于树高平方的射影定理。
 
-   根据合比定理：
+在 \\triangle ABC 中 BC 上的高为 AD，则：
 
-   \\dfrac{|PF_1|+|PF_2|}{\\sin\\alpha+\\sin\\beta}=\\dfrac{|F_1F_2|}{\\sin\\theta}
+AB^2=BD\\cdot BC
 
-   注意到前者分子为 2a，后者分子为 2c，则
+AD^2=BD\\cdot CD
 
-   e=\\dfrac{2c}{2a}=\\dfrac{\\sin\\theta}{\\sin\\alpha+\\sin\\beta}=\\dfrac{\\sin(\\alpha+\\beta)}{\\sin\\alpha\\sin\\beta}
+AC^2=BC\\cdot CD
 
-   这类问题中要活用几何问题代数化，先思考然后才能简便的计算。
+### 斯图尔特定理
 
-对于离心率的极值问题，我们通常取顶点作为特殊点（顶角的最大角），根据三角函数的单调性、配合离心率与开口大小的关系解决。
+又译斯台沃特定理，在 \\triangle ABC 边 BC 上任意一点 D，
 
-### 长度问题
+AB^2\\cdot CD+AC^2\\cdot BD-AD^2\\cdot BC=BD\\cdot CD\\cdot BC
 
-椭圆左右焦点分别为 F_1,F_2，则椭圆上一点 P(x_0,y_0)，则：
+可以由两次余弦定理推导得出。
 
-|PF_1|=a+\\dfrac{c}{a}x_0=a+ex_0
+### 平行四边形恒等式
 
-|PF_2|=a-\\dfrac{c}{a}x_0=a-ex_0
+AB^2+BC^2+CD^2+AD^2=AC^2+BD^2
 
-据此，我们发现：
+对于一般的四边形，等式不成立，但是有不等式：
 
-b^2-c^2\\le\\vecc{PF_1}\\cdot\\vecc{PF_2}\\le b^2
+AB^2+BC^2+CD^2+AD^2\\ge AC^2+BD^2
 
-a^2\\le|PF_1|\\cdot|PF_2|=a^2-e^2x_0^2\\le b^2
+或者设 x 表示两条对角线中点所连线段的长度：
 
-而根据极化恒等式 \\vecc{PF_1}\\cdot\\vecc{PF_2}=|PO|^2-c^2，得出：
+AB^2+BC^2+CD^2+AD^2=AC^2+BD^2+4x^2
 
-b\\le|PO|\\le a
+注意到平行四边形对角线互相平分，即 x=0，可得上面的第一个恒等式。
 
-双曲线中的一类特殊的长度问题：过一个焦点的直线，已知与双曲线交出的弦的长度 k，求可能的直线条数。分类讨论直线与双曲线交于一支还是两支，容易发现如果小于 k 通经 2b^2/a，则直线不存在；如果大于实轴长 2a，则一定存在四条直线；在中间分界即可。
+### 边元塞瓦定理
 
-用参数方程表示直线：当我们考虑的式子是形如 |PA|，|PB| 的关系，不妨考虑以 P(x_0,y_0) 为极点建立极坐标系（形式上用参数方程），然后表示 AB（倾斜角为 \\theta）的方程即为
+赛瓦定理
 
-\\begin{cases} x&=x_0+\\rho\\cos\\theta\\ y&=y_0+\\rho\\sin\\theta \\end{cases}
+其逆定理用于表示三角形内三点共线，角元塞瓦定理较为复杂。
 
-这样 \\rho 就表示一个点到 P 的距离，将其带入圆锥曲线，利用韦达定理可以快速得到 |PA|，|PB| 的关系。
+### 梅涅劳斯定理
 
-### 角度问题
+一直线与 \\triangle ABC 的三边 AB,BC,AC 或他们的延长线分别交于 X,Y,Z 三点，则：
 
-在上一节中，我们推导了关于 P 点坐标的焦半径公式，那如果不知道坐标呢？此时我们将 P 字母换为 A 字母，反向延长 F_1A 交椭圆于点 B，设 \\theta=\\angle F_1AF_2 那么就有焦半径公式点角度形式：
+\\dfrac{AX}{XB}\\cdot\\dfrac{BY}{YC}\\cdot\\dfrac{CZ}{ZA}=0
 
-|AF_1|=\\dfrac{ep}{1-e\\cos\\theta}=\\dfrac{a(1-e^2)}{1-e\\cos\\theta}=\\dfrac{b^2/a}{1-e\\cos\\theta}
+梅涅劳斯定理
 
-|AF_2|=\\dfrac{ep}{1+e\\cos\\theta}=\\dfrac{a(1-e^2)}{1+e\\cos\\theta}=\\dfrac{b^2/a}{1+e\\cos\\theta}
+梅涅劳斯定理的逆定理表示为，满足上述式子，则 X,Y,Z 三点共线。
 
-这两个东西即为椭圆的极坐标表示，即以左焦点为极点、长轴正方形为极轴，则
+## 面积公式
 
-\\rho=\\dfrac{a(1-e^2)}{1-e\\cos\\theta}
+### 海伦公式
 
-我们不妨推导一些更有意思的东西：
+任意三角形面积可以表示为：
 
-\\dfrac{1}{|AF_1|}+\\dfrac{1}{AF_2}=\\dfrac{2}{ep}=\\dfrac{2}{a(1-e^2)}=\\dfrac{2a}{b^2}
+\\begin{aligned} S&=\\sqrt{p(p-a)(p-b)(p-c)}\\ p&={a+b+c\\over2} \\end{aligned}
 
-|AB|=|AF_1|+|AF_2|=\\dfrac{2b^2/a}{1-e^2\\cos^2\\theta}\\ge\\dfrac{2b^2}{a}
+即：
 
-这个最小值即为椭圆的通经，即过焦点垂直于轴的直线交椭圆的弦。
+S=\\dfrac14\\sqrt{(a+b+c)(a+b-c)(a-b+c)(-a+b+c)}
 
-在圆锥曲线的选择与填空题中，若有中点这样的信息出现，就要联想到原点并连接原点与该点，构造中位线。因为原点是椭圆和双曲线的中心，是两焦点的天然中点。
+其中 p 为三角形的半周长。
 
-通经公式可以作如下推广：过焦点 F 作 n 条夹角相等的射线交椭圆于 P_1, P_2, \\cdots, P_n，则
+### 布雷特施奈德公式
 
-\\frac{1}{|FP_1|} + \\frac{1}{|FP_2|} + \\cdots + \\frac{1}{|FP_n|} = \\frac{na}{b^2}
+任意四边形面积可以表示为：
 
-焦比定理（简化形式）指出，若 |AF_1|=\\lambda|BF_1|，我们列出：
+\\begin{aligned} S&=\\sqrt{(p-a)(p-b)(p-c)(p-d)-abcd\\cos^2{\\alpha+\\beta\\over2}}\\ p&={a+b+c+d\\over2} \\end{aligned}
 
-\\dfrac{1}{1-e\\cos\\theta}=\\dfrac{\\lambda}{1+e\\cos\\theta}
+其中 p 为四边形的半周长，\\alpha,\\beta 为其中二个对角。
 
-那么，
+布雷特施奈德公式可视为婆罗摩笈多公式之推广。
 
-e|\\cos\\theta|=\\dfrac{\\lambda-1}{\\lambda+1}
+### 婆罗摩笈多公式
 
-这个在一些小题可能有快速解题的作用。
+注意到圆内接四边形对角互补，其半角余弦值为零，\\cos90^\\circ=0 则圆内接四边形面积可以简化为：
 
-### 固定关系
+\\begin{aligned} S&=\\sqrt{(p-a)(p-b)(p-c)(p-d)}\\ p&={a+b+c+d\\over2} \\end{aligned}
 
-焦点三角形的**周长**与圆锥曲线的定义之间存在着紧密联系。
+其中 p 为四边形的半周长。
 
-- 已知 F_1, F_2 分别为椭圆 \\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1(a > b > 0) 的左、右焦点，l 过焦点 F_1 且与椭圆交于 A, B 两点，则 \\triangle F_2AB 的周长恒为定值 4a；
-- 已知 F_1, F_2 分别为椭圆 \\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1(a > b > 0) 的左、右焦点，P 是椭圆上的动点，则 \\triangle PF_1F_2 的周长恒为定值 2a + 2c。
-- 已知 F_1, F_2 分别是双曲线 \\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1(a > 0, b > 0) 的左、右焦点，l 过焦点 F_1 且与双曲线交于 A, B 两点，则 |AF_2| + |BF_2| - |AB| = 4a。
+## 解三角形例题
 
-面积则与顶角有联系，根据余弦定理等可以推导：
+### 例题一
 
-- 已知 F_1, F_2 为椭圆 \\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1(a > b > 0) 的两个焦点，M 是椭圆上的动点，则 \\triangle MF_1F_2 的面积 S = c|y_M| = b^2 \\tan\\dfrac{\\angle F_1MF_2}{2}。
+2\\cos^2{B\\over2}+\\sqrt3\\sin B=3
 
-证明
+- 求 B.
 
-不妨令 \\theta=\\angle F_1MF_2，r_1=MF_1,r_2=MF_2，根据余弦定理
+\\cos B=2\\cos^2{B\\over2}-1\\ \\cos B+\\sqrt3\\sin B=2\\ {\\sqrt3\\over2}\\sin B+{1\\over2}\\cos B=1\\ \\sin B\\cos30^\\circ+\\cos B\\sin30^\\circ=1\\ \\sin(B+30^\\circ)=1=\\sin90^\\circ\\ B=60^\\circ
 
-```
-$$
-\cos\theta=\dfrac{r_1^2+r_2^2-4c^2}{2r_1r_2}=\dfrac{(r_1+r_2)^2-2r_1r_2-4c^2}{2r_1r_2}=\dfrac{2b^2}{r_1r_2}-1
-$$
+### 例题二
 
-因此：
+(\\sin B-\\sin C)^2=\\sin^2 A-\\sin B\\sin C
 
-$$
-r_1r_2=\dfrac{2b^2}{\cos\theta+1}\le a^2
-$$
+- 求 A.
+- 若 \\sqrt2a + b= 2c，求 C.
 
-带入三角形面积公式：
+观察到是角的二次齐次式，且都是正弦，考虑正弦定理，
 
-$$
-S=\dfrac12r_1r_2\sin\theta=b^2\dfrac{\sin\theta}{\cos\theta+1}=b^2\tan\dfrac{\theta}2
-$$
-```
+(\\sin B-\\sin C)^2=\\sin^2 A-\\sin B\\sin C\\\\ (b-c)^2=a^2-bc\\\\ b^2+c^2-2bc=a^2-bc\\\\ a^2=b^2+c^2-bc
 
-- 已知 F_1, F_2 为双曲线 \\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1(a > 0, b > 0) 的两个焦点，M 是双曲线上的动点，则 \\triangle MF_1F_2 的面积 S = c|y_M| = b^2\\cot\\dfrac{\\angle F_1MF_2}{2}。
+于是，
 
-内切圆即角平分线与面积也有着很大的关联：
+\\cos A={b^2+c^2-a^2\\over2bc}={1\\over2}\\\\ A=60^\\circ
 
-- P 是椭圆 \\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1(a > b > 0) 上的动点，\\triangle PF_1F_2 的内切圆为圆 I，半径为 r，则 S\_{\\triangle PF_1F_2} = r(a+c)。
-- 设椭圆 \\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1(a > b > 0) 的左、右焦点分别为 F_1, F_2，过焦点 F_1 的直线交椭圆于 A, B 两点，\\triangle AF_2B 的内切圆为圆 I，半径为 r，则 S\_{\\triangle AF_2B} = 2ar。
-- 已知 P 是双曲线 \\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1(a > 0, b > 0) 上的动点，\\triangle PF_1F_2 的内切圆的圆心为 I(x_0, y_0)，则 |S\_{\\triangle PIF_1} - S\_{\\triangle PIF_2}| = \\dfrac{S\_{\\triangle F_1IF_2}}{e}，|x_0| = a。
+观察到 \\sqrt2a + b= 2c 为边的一次齐次，考虑用正弦定理。
 
-### 转换关系
+\\sqrt2a+b=2c\\\\ \\sqrt2\\sin A+\\sin B=2\\sin C
 
-转换问题，通常也是隐焦点问题，通常只给出一个焦点，我们需要作出另一个焦点，来构造三角形、平行四边形等。
+根据上一问，\\sin A=\\sin60^\\circ=\\sqrt3/2，
 
-- 我们注意到，如果 P 在椭圆上，那么 PF_2=2a-PF_1，这暗示我们可以对 PF_1 与令一点 A 应用两边之和大于第三边的同时，对 PF_2=2a-PF_1 应用两边之差小于第三边，同样可以得到求和的形式。
-- 设 A 为椭圆上的动点，且 F 为椭圆的一个焦点，P 为不在椭圆上的一定点，则 |PA|+|PF| 的最值的求法是先利用三角不等式，判断等号成立的条件是否成立？若不成立，则利用另外一个焦点进行转化。
+\\sqrt6/2+\\sin B=2\\sin C\\\\ \\sqrt6/2+\\sin(120-C)=2\\sin C\\\\ \\sqrt6/2+\\sqrt3/2\\cos C+\\sin C/2=2\\sin C
 
-设椭圆方程为 \\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1(a > b > 0)，F_1, F_2 分别为椭圆的左、右焦点，平面上一定点 Q(x_0, y_0)，M 为椭圆上任意一点。
+继续整理，
 
-- 定点 Q(x_0, y_0) 在椭圆内部，则 2a - |QF_1| \\le |MF_2| + |MQ| \\le 2a + |QF_1|；
-- 定点 Q(x_0, y_0) 在椭圆外部，则 |QF_2| \\le |MF_2| + |MQ| \\le 2a + |QF_1|。
+{\\sqrt6\\over2}+{\\sqrt3\\over2}\\cos C+{1\\over2}\\sin C=2\\sin C\\\\ {3\\over2}\\sin C-{\\sqrt3\\over2}\\cos C={\\sqrt6\\over2}\\\\ {\\sqrt3\\over2}\\sin C-{1\\over2}\\cos C={\\sqrt2\\over2}\\\\ \\sin C\\cos30^\\circ-\\cos C\\sin30^\\circ={\\sqrt2\\over2}\\\\ \\sin(C-30^\\circ)={\\sqrt2\\over2}=\\sin45^\\circ
 
-设双曲线方程为 \\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1(a > 0, b > 0)，F_1, F_2 分别为双曲线的左、右焦点，平面上一定点 Q(x_0, y_0)，M 为双曲线右支上任意一点。
+因为 C \\in (0^\\circ,120 ^\\circ)，C-30^\\circ\\in(-30^\\circ,90^\\circ)，因此，
 
-- 若定点 Q(x_0, y_0) 与双曲线右焦点 F_2 在双曲线右支的同侧，则 |MQ| + |MF_2| 的最小值是 |QF_1| - 2a，最大值不存在；
+C-30^\\circ=45^\\circ,\\ C=75^\\circ
 
-- 若定点 Q(x_0, y_0) 与双曲线右焦点 F_2 在双曲线右支的异侧，则 |MQ| + |MF_2| 的最小值是 |QF_2|，最大值不存在。
+### 例题三
 
-- 不仅第一定义，我们也可以利用第二定义进行转化，把距离焦点的距离转化为距离准线的距离乘上离心率 e。
+在锐角 \\triangle ABC 中，
 
-- 设 A 为抛物线上的动点，且 F 为焦点，P 为不在抛物线上的一定点，则 |PA| + |PF| 的最值的求法是先利用三角不等式，判断等号成立的条件是否成立。若不成立，则利用准线进行转化。
+2b\\sin A-\\sqrt3a=0
 
-### 共焦点型
+- 求 B.
+- 求 \\cos A+\\cos B+\\cos C 的取值范围。
 
-共焦点的关键在于两个：c 相等与定义，在设共焦点圆锥曲线的时候，可以关注 a^2,b^2 的和或者差的关系，用一个变量 \\lambda 串联两个圆锥曲线。
+不考虑 \\sin A 是边的二次齐次式，于是应用正弦定理，
 
-例如椭圆 a_1,b_1,c 和双曲线 a_2,b_2,c 共焦点 F_1,F_2，且一交点为 P 不难写出
+2\\sin B\\sin A-\\sqrt2\\sin A=0\\\\ 2\\sin B=\\sqrt3\\ \\sin B=\\sqrt3/2
 
-\\begin{cases} PF_1+PF_2&=2a_1\\ PF_1-PF_2&=2a_2 \\end{cases}
+因为 \\angle B 是锐角，
 
-也就是说
+B=60^\\circ
 
-\\begin{cases} PF_1&=a_1+a_2\\ PF_2&=a_1-a_2 \\end{cases}
+设，
 
-已知 F_1, F_2 是椭圆 C_1 与双曲线 C_2 的公共焦点，e_1, e_2 分别是 C_1, C_2 的离心率。若点 P 为 C_1, C_2 的公共点，\\angle F_1PF_2 = 2\\theta，则 \\dfrac{\\sin^2\\theta}{e_1^2} + \\dfrac{\\cos^2\\theta}{e_2^2} = 1。
+\\def\\degree{^\\circ} \\begin{aligned} S&=\\cos A+\\cos B+\\cos C\\ &=\\cos A+\\cos C+1/2\\ &=\\cos(120\\degree-C)+\\cos C+1/2\\ &=-{1\\over2}\\cos C+{\\sqrt3\\over2}\\sin C+\\cos C+{1\\over2}\\ &={\\sqrt3\\over2}\\sin C+{1\\over2}\\cos C+{1\\over2}\\ &=\\sin C\\cos30\\degree+\\cos C\\sin30\\degree +1/2\\ &=\\sin(C+30\\degree)+1/2 \\end{aligned}
 
-在这个图中，据余弦定理还可以推导：
+因为 0^\\circ\<A,B,C\<90^\\circ，
 
-S\_{\\triangle PF_1F_2}=b_1b_2=\\sqrt{(a_1^2-c^2)(c^2-a_2^2)}
+\\def\\degree{^\\circ} \\begin{cases} 0\\degree\<&C&\<90\\degree\\ 0\\degree\<&B&\<90\\degree \\end{cases} \\Longleftrightarrow \\begin{cases} 0\\degree\<&C&\<90\\degree\\ 0\\degree\<&120-C&\<90\\degree \\end{cases}
 
-### 最值问题
+即，30^\\circ\<C\<90^\\circ，60^\\circ\<C+30^\\circ\<120^\\circ。
 
-距离最值：
+画出单位圆，易得 \\sin(C+30\\degree)\\in(\\sqrt3/2,1\]，即，
 
-- 将直线 \\ell 平移到与曲线相切的位置，得到曲线的一条与直线 \\ell 平行的切线 \\ell'，此时直线 \\ell 与 \\ell' 之间的距离即为曲线与 \\ell 距离的最值。
+\\cos A+\\cos B+\\cos C\\in\\left({\\sqrt3+1\\over2},{3\\over2}\\right\]
 
-- 椭圆内或外一点到椭圆上一定点的最短距离，我们称所有可能是最近点的点为可能点的点集，而最短距离就是这些点集中的点到定点的距离的最小值。
+### 例题四
 
-  理论上，只要这个点集包含了椭圆上所有的点，我们就一定可以找到最小值，但是实际上我们不可能这么做。于是，我们得出几个程序化的方案，将点集缩小到可以手工计算。第一，椭圆的顶点一定是点集内的点。如果图形特征已知，我们也可以只找一两个顶点，取验证其对最小值的贡献即可。
+在 \\triangle ABC 中，a+b=11，
 
-  第二，我们不妨提出法线对齐的概念：当动点 M 在椭圆上运动到某点 M_0 时，如果连接定点 P 与 M_0 的线段 PM_0 恰好是椭圆在 M_0 点的法线，那么 |PM_0| 就是一个极值距离（极大值或极小值）。
+\\cos A={1\\over8},\\cos B={9\\over16}
 
-  将法线方程与椭圆方程联立（同时还需要考虑斜率不存在的情况），解这个方程组，得到所有满足法线对齐条件的候选点 M_i(x_i, y_i) 的坐标。这通常会转化为一个关于 x 或 y 的四次方程，可能有 0, 2, 4 个实数解。只需验证这些点（顶点和极值点），即可得到最小距离。
+- 求 a,b。
 
-长度最值：
+考虑余弦转正弦，因为是三角形的角，因此正弦值非负，
 
-- F 为椭圆 \\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1(a > b > 0) 的一个焦点，若 P 是椭圆上的点，则 a - c \\le |PF| \\le a + c。
-- F 为双曲线 \\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1(a > 0, b > 0) 的右焦点，若 P 是双曲线右支上的动点，则 |PF| \\ge c - a。若 P 是双曲线左支上的动点，则 |PF| \\ge c + a。
+\\sin A=\\sqrt{1-\\cos^2 A}=\\sqrt{63\\over64}={3\\sqrt7\\over8}\\ \\sin B=\\sqrt{1-\\cos^2 B}=\\sqrt{175\\over256}={5\\sqrt7\\over16}
 
-角度最值：
+{a\\over b}={\\sin A\\over\\sin B}={6\\over5}
 
-- F_1, F_2 为椭圆 \\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1(a > b > 0) 的左、右焦点，P 是椭圆上的动点，当且仅当 P 为上、下顶点时，\\angle F_1PF_2 最大。
-- A, B 为椭圆 \\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1(a > b > 0) 的左、右顶点，P 是椭圆上的动点，当且仅当 P 为上、下顶点时，\\angle APB 最大。
+因此 a=6,b=5。
 
-对于讨论垂直关系，更常用向量和斜率，或者勾股定理、射影定理等。
+### 例题五
 
-### 光学性质
+{\\sin A\\over\\sin B-\\sin C}={b+c\\over b-a}
 
-费马原理：当一束光经过镜子的反射，那么入射角等于出射角，可以证明，这个路径是最短的。设光线从 F_1 经过直线 \\ell 的反射到达 F_2 点，我们将 F_1 关于 \\ell 对称的点设为 F_1'
+- 求 \\cos C。
 
-则 P 点位于 F_1'F_2 与 \\ell 的交点上，这就是将军饮马模型，也容易证明，入射角和出射角是相等的。
+考虑 \\cos C 可以怎么表示，可以通过 \\sin C 用毕达哥拉斯定理，也可以余弦定理。
 
-椭圆的光学性质：从一个焦点发出的光线，经过椭圆的反射后一定经过另一个焦点。
+考虑到这个原形式是一次齐次，因此考虑角化变。
 
-证明
+{a\\over b-c}={b+c\\over b-a}\\ b^2-c^2=ab-a^2\\ c^2=a^2+b^2-ab
 
-如图，容易知道，我们只需要证明 \\angle DAF_1=\\angle DAF_2 即可，
+因此，
 
-根据角平分线逆定理，只需要证
+\\cos C={a^2+b^2-c^2\\over2bc}={1\\over2}
 
-\\dfrac{AF_1}{AF_2}=\\dfrac{MF_1}{MF_2}
+### 例题六
 
-但是这比较复杂，我们发现费马定理可以非常容易的解决这个问题。
+若，
 
-不妨设 X 是 \\ell 上任意一点，则根据 P 在椭圆上、X 在椭圆外，
+\\begin{cases} \\sin A=3\\sin B\\ c=\\sqrt5\\ \\cos C=5/6 \\end{cases}
 
-XF_1+XF_2\\ge PF_1+PF_2
+- 求 a。
 
-取等当且仅当 P=X，因此 P 就是费马定理的点，符合入射角等于出射角。
+尝试考虑这三个东西各自什么用。
 
-抛物线的光学性质：从焦点发出的光线，经过抛物线的反射后，一定平行于抛物线的轴。
+最容易发现第二个式子最简单，可以最后带入用。
 
-证明
+因为 \\cos 关于余弦定理，关于边数多，因此考虑后用。
 
-假设 P 为抛物线上一点，做到准线的垂线，垂足为 P'，如图
+第一个式子结构很好，是一次齐次，因此带入第一个正弦定理。
 
-我们不妨证明锅 P 点的切线 \\ell 恰好平分 \\angle FPP'。
+a=3b
 
-不妨假设角平分线 \\ell' 与抛物线相交与 P,Q 两点，做 QQ' 垂直于准线。根据抛物线的定义，有 FP=PP'，因此也有 QF=QP'，又因为 FQ=QQ'，因此 P=Q，即 \\ell=\\ell'，证毕。
+又因为，
 
-我们也可以证明角相等，
+\\cos C={a^2+b^2-c^2\\over2ab}
 
-不难得到，只需要证 \\angle FPQ=\\angle FQP 即可。
+带入即可，解得 a=3。
 
-不妨证明 FP=FQ，容易想到，列出直线方程直接求解，得到点的坐标即可。
+### 例题七
 
-双曲线的光学性质：从一个焦点发出的光线，经过双曲线的发射后反向延长经过另一个焦点。
+若，
 
-证明
+\\begin{cases} b\\sin2A=a\\sin B\\ c=2b \\end{cases}
 
-与椭圆类似，我们取作差的将军饮马模型，即延长线上的点最小。
+- 求 a/b。
 
-与抛物线类似，我们用两边之差小于第三边，也可以证明。
+考虑到第二个式子的形式很简单，因此用于消元。
 
-椭圆的旁心：在椭圆上任取两点 P,Q，做 F_1PF_2,F_1QF_2 的外角角平分线，根据光学性质，也就是说 PR,QR 都是椭圆的切线，交于一点 R，连接 RF_1，则 RF_1\\perp PQ。
+第一个形式中，出现了二倍角，是不好处理的，因此考虑正弦定理。
 
-证明：我们知道 R 是一个旁切圆的圆心，与 PQ 相切与 F'（我们要证明它和 F_1 重合），设椭圆与 F_2P,F_2Q 相切于 X,Y，则 F'P+PF_2=XF_2，F'Q+QF_2=YF_2，因为 RX=RY 所以 XF_2=YF_2，因此 F'=F_1 即为椭圆焦点。
+\\sin B\\sin2A=\\sin A\\sin B\\ \\sin A=\\sin2A\\ \\sin A=2\\sin A\\cos A\\ \\cos A=1/2
 
-## 抛物线
+考虑到 a/b 是一个一次其次的比例式，因此余弦定理，
 
-### 一般方程
+\\cos A={b^2+c^2-a^2\\over2bc}
 
-平面内与一个定点 F 和一条定直线 \\ell（不过 F）的距离相等的点的轨迹叫做抛物线。点 F 叫做抛物线的焦点，直线 \\ell 叫做抛物线的准线。
+带入，解得 a^2=3b^2，即 a/b=\\sqrt3。
 
-不妨设 F 到准线的距离（焦准距）为 p 且垂足为 K，容易知道，抛物线的顶点就是 FK 的中点，即 F=\\paren{\\dfrac{p}{2},0},K=\\paren{-\\dfrac{p}{2},0}，不难得到抛物线的标准方程为
+### 例题八
 
-y^2=2px(p>0)
+在 \\triangle ABC 中，
 
-这个是开口朝向 x 轴正半轴的，同理我们还有另外四个方向。
+S=a^2-(b-c)^2
 
-### 简单性质
+求 \\sin A。
 
-对于抛物线
+这个式子没有很好的性质，考虑展开，
 
-y^2=2px(p>0)
+S=a^2-b^2-c^2+2bc
 
-有 x\\ge0，且关于 y=0 对称，没有对称中心。
+注意到这个形式，而且还是二次齐次式，根据余弦定理，
 
-容易知道，二次函数
+a^2=b^2+c^2-2bc\\cos A
 
-f(x)=a^2+bx+c(a\\neq0)
+有，
 
-就是一条抛物线且定点为
+S=2bc(1-\\cos A)={1\\over2}bc\\sin A\\ \\sin A=4-4\\cos A
 
-\\paren{-\\dfrac{b}{2a},f\\paren{-\\dfrac{b}{2a}}}
+联立得方程，
 
-注意：抛物线的离心率恒为 1，而焦准距则衡量了开口大小。
+(4-4\\cos A)^2+\\cos^2A=1\\ 16(1-\\cos A)^2=(1-\\cos A)(1+\\cos A)\\ 16-16\\cos A=1+\\cos A\\ \\cos A={15\\over17}, \\sin A={8\\over17}
 
-### 几何方法
+### 例题九
 
-圆锥曲线（通常是抛物线）的弦与过弦的端点的两条切线所围成的三角形，称为**阿基米德三角形**。
+在 \\triangle ABC 中，
 
-如图，过抛物线 x^2=2py(p>0) 外的点 P 作抛物线的两条切线 PA, PB，设线段 AB 的中点为 M，则 PM 一定平行（或重合）与抛物线的轴，设线段 PM 的中点为 R，则 R 一定在抛物线上，且抛物线在 R 处的切线与 AB 平行。
+\\sin A=2\\sin B\\cos C\\ a^2=b^2+c^2-bc
 
-不妨设 P(x_0,y_0)，直线 AB 与 y 轴交于点 Q，则有：
+- 求，\\triangle ABC 形状。
 
-- k\_{AB} \\cdot k\_{PQ} = \\dfrac{2y_0}{p}；
-- k\_{PA} \\cdot k\_{PB} = \\dfrac{2y_0}{p}；
+两个式子都很典型，第二个好说，先处理，
 
-假设 \\triangle ABC 外切于一条抛物线，即直线 AB，BC，CA 均与抛物线相切，那么 \\triangle ABC 的垂心始终过抛物线的准线。
+联立二式及余弦定理，
 
-- 兰伯特定理：由抛物线的三条切线所围成的三角形，其外接圆必经过抛物线的焦点。
-- 西姆松定理：点 P 到 \\triangle ABC 各边的投影共线，当且仅当 P 位于该三角形的外接圆上。
-- 斯坦纳线定理：一个三角形外接圆上任意一点（该点不为三角形顶点）关于三角形三边的对称点，这三个对称点是共线的，并且这条直线（称为斯坦纳线）必经过该三角形的垂心。
+a^2=b^2+c^2-bc\\ a^2=b^2+c^2-2bc\\cos A
 
-下面是关于特征矩形的一些经典问题，选自 Geometry of Conics (Mathematical World VOLUME 26)。
+得，
 
-1. 抛物线的焦点关于任意一条切线的对称点一定在准线上。
+\\cos A={1\\over2},A=60^\\circ
 
-   证明：做 PP'\\perp\\ell，根据抛物线的性质，FP=PP'。
+第一个式子，可以不带入 A，尝试通过三角函数的变换，
 
-   因为 FP'\\perp\\ell'，因此 \\ell' 是 \\angle FPP' 角平分线，所以，F 关于 \\ell' 的反射点即为 P' 在准线上。
+\\begin{aligned} \\sin A&=\\sin(\\pi-B-C)=\\sin(B+C)\\ &=\\sin B\\cos C+\\cos B\\sin C \\end{aligned}
 
-   推论：抛物线的焦点到其各条切线的投影点，均位于抛物线顶点处的切线上。
+联立下式及一式，
 
-1. 假设抛物线在点 X 和 Y 的切线相交于点 P。那么 PX'=PY'=PF，其中 X' 和 Y' 是 X 和 Y 在抛物线准线上的投影，而 F 是抛物线的焦点。
+\\sin B\\cos C+\\cos B\\sin C=2\\sin B\\cos C\\ \\sin B\\cos C=\\cos B\\sin C\\ \\tan B=\\tan C
 
-   证明：根据上一条，这两条切线分别是线段 FX' 和 FY' 的中垂线。因此，它们的交点即为三角形 FX'Y' 的外接圆圆心。
+因为 B,C\\in(0,\\pi)，正切函数在此范围内唯一，则
 
-   推论：如果 PX 和 PY 是抛物线的切线，那么点 P 在准线上的投影，是 X 和 Y 在准线上的投影点所构成线段的中点。
+B=C=A=60^\\circ
 
-1. 做抛物线上两点 X,Y 的切线，相交于点 P，若 PX\\perp PY，则 P 在抛物线的准线上。反过来，过准线上一点 P 做抛物线的两条切线，则他们相互垂直。同时，XY 一定过焦点 F 且 PF\\perp XY。
+即 \\triangle ABC 是正三角形。
 
-   证明：设 X',Y' 为 X,Y 到准线上的投影，因为 P 在准线上，
+### 例题十
 
-   那么 XF=XX',YF=YY'，因此可以得到两个三角形全等，那么 \\angle XPY=90^\\circ。
+在 \\triangle ABC 中，
 
-1. 我们做推广，两条切线为 \\varphi 或 180^\\circ-\\varphi 的点的集合是一个以 F 焦点，抛物线准线 \\ell 为准线的双曲线，其离心率等于 |\\cos\\varphi|。
+\\cos(2B+C)+\\cos C>0
 
-   注意到 P 为 \\triangle FX'Y' 外心，因此 \\angle X'PY'=360^\\circ-2\\varphi，那么 P 到准线的距离为 PF|\\cos(180^\\circ-\\varphi)|=PF|\\cos\\varphi|，证毕。
+- 判断三角形是锐角、直角、钝角三角形。
 
-1. 设 PX 和 PY 为过点 P 的抛物线的两条切线，并设 l 为过 P 且平行于抛物线轴的直线。那么直线 PY 与 l 的夹角等于 \\angle XPF，且 \\triangle XFP\\backsim\\triangle PFY。由此可推知，FP 是角 XFY 的角平分线。
+容易发现，\\cos 里面的角有很好的性质，考虑和差化积，
 
-   设 X' 和 Y' 是 X 和 Y 在准线上的投影。那么，点 F、X' 和 Y' 位于一个以 P 为圆心的圆上，
+\\begin{aligned} &\\cos(2B+C)+\\cos C\\ =;&2\\cos(B+C)\\cos B\\ =;&-2\\cos A\\cos B>0 \\end{aligned}
 
-   因此 \\angle X'Y'F = \\dfrac{1}{2}\\angle X'PF = \\angle XPF。因为 \\ell 垂直于 X'Y'，因此 PY 与 \\ell 的夹角等于 Y'F 与 X'Y' 的夹角，而 Y'F 垂直于 PY。
+因此，
 
-   由于 l 平行于 YY'，PY 与 l 的夹角等于角 PYY'，根据光学性质，该角等于角 FYP。因此 \\angle FYP = \\angle XPF。类似地，\\angle FXP = \\angle YPF。因此 \\triangle XFP\\backsim\\triangle PFY。
+\\cos A\\cos B\<0
 
-### 特征梯形
+即 A,B 中有一个钝角，即 \\triangle ABC 为钝角三角形。
 
-过焦点的直线交抛物线与点 A,B 过 A,B 做准线 \\ell 的垂线 AC,BC，锁围成的直角梯形称为抛物线的特征直角梯形。
+### 例题十一
 
-如下图，M 点的纵坐标是切点 A,B 的纵坐标之和的一半，也就是说，做 AB 的中点 M'，则 MM' 是平行于抛物线的轴（图中为 x 轴）的。
+在 \\triangle ABC 中，三边长分别为 a,a+2,a+4，最小角余弦值为 13/14。
 
-一些结论：
+- 求该三角形的面积
 
-- 对于抛物线 y^2=2px(p>0)，任意一条过 B(-2p,0) 的斜率为 k 的割线 PQ，则顶点 O 到两交点 P,Q 的距离之积恒等于 \\dfrac{4p^2}{|k|}。
-- 任意焦点弦的两个端点与原点构成的角都是钝角，即过焦点的直线与抛物线交于 A,B 两点，则 \\angle AOB 一定是钝角。
+因为大边对大角，因此最小角是 a 对的，
 
-### 参数方程
+\\cos A={(a+2)^2+(a+4)^2-a^2\\over2(a+2)(a+4)}={13\\over14}
 
-我们以标准抛物线
+解得，a=3，于是用海伦公式，
 
-P:y^2=2px
+p={3+5+7\\over2}={15\\over2}
 
-为例，为了简化，不妨用半焦距 c 表示为：
+S=\\sqrt{{15\\over2}\\cdot{9\\over2}\\cdot{5\\over2}\\cdot{1\\over2}}={15\\sqrt3\\over4}
 
-P:y^2=4cx
+### 例题十二
 
-用 t 作为参数，不妨设其参数方程为：
+在 \\triangle ABC 中，\\angle A=120^\\circ，BC=6。
 
-P(t)=(ct^2,2ct)
+- 求：其面积最大值。
 
-其实，也可以用其他的形式来作为参数方程，但是这个形式显然是最简洁的，因此我们下面说，或者直接用，都是以这个为标准形式。
+考虑面积可以怎么表示。
 
-参数方程最好用的地方在于，它将一个点变成了一个纯简洁的参数 t，尽管如果直接设点以 x 或 y 为参数，看似更容易得到结果，但是运算过程会非常复杂，这体现了圆锥曲线部分一个经典的思想——化繁为简，先列后算，最后得到结果，当我们把“列”的过程“变复杂”那么算就会简单，当我们把最后一步变成两步，可能前面就会少一步复杂的运算。
+Solution 1:
 
-#### 割线问题
+S={1\\over2}bc\\sin A={\\sqrt3\\over4}bc
 
-参数方程最有用的地方是，抛物线一条弦（割线），我们不妨设弦 PQ 中 P(t_1),Q(t_2)，那么就有如下非常简洁的性质：
+根据余弦定理，
 
-1. 弦 PQ 的方程：
+36=a^2=b^2+c^2-2bc\\cos A=b^2+c^2+bc\\ge3bc
 
-   y(t_1+t_2)=2x+2ct_1t_2
+即，
 
-1. 弦 PQ 的斜率：
+bc\\le12,S\\le3\\sqrt3
 
-   k\_{PQ}=\\dfrac{2}{t_1+t_2}
+Solution 2:
 
-1. 弦 PQ 的中点：
+考虑到顶角不变，则可以固定底边，使顶点移动。
 
-   M\\paren{\\dfrac{c}{2}(t_1^2+t_2^2),ct_1+ct_2}
+易知其轨迹为一个圆弧，则面积最大即底边高线最大。
 
-   其中，M 的纵坐标更为简洁的：
+高线最大即该三角形为等腰三角形，做出高线，
 
-   y_M=c(t_1+t_2)=\\dfrac{2}{K\_{PQ}}
+S={1\\over2}ah=3\\sqrt3
 
-   这就是所谓的“平行弦—直径”定理。
+### 例题十三
 
-1. 做题做的多的同学会发现，求抛物线中一条直线的定点，其实很多时候就是在 x 轴上，甚至就是焦点，因此，我们不妨写出弦与 x 轴的焦点——令 y=0 即可得到：
+在 \\triangle ABC 中，若
 
-   T(-ct_1t_2,0)
+a-b=c(\\cos B-\\cos A)
 
-   因此就有焦弦判定：
+- 判断其形状。
 
-   弦 PQ 过焦点 \\iff t_1t_2=-1
+考虑到余弦定理展开后是三次式，有点复杂，因此正弦定理。
 
-1. 中点弦公式，若某条弦的中点是 M(x_1,y_1)，那么这条弦的方程为：
+\\sin A-\\sin B=\\sin C\\cos B-\\sin C\\cos A
 
-   yy_1-2c(x+x_1)=y_1^2-4cx_1
+考虑凑项，右边的两项很像正弦的和角公式，于是，
 
-   这就是常说的 T=S_1 形式。立刻推出：中点在抛物线上 ⇒ 弦退化为切线。
+\\begin{aligned} &\\sin(B+C)-\\sin(A+C)\\ =;&\\sin B\\cos C+\\sin C\\cos B-\\sin A\\cos C-\\sin C\\cos A\\ =;&\\sin C\\cos B-\\sin C\\cos A \\end{aligned}
 
-   经典题：过顶点 O(0,0) 的所有弦，其中点轨迹是什么？y^2=2cx，与原抛物线 y^2=4cx 相比，就是焦距减半。
+化简，
 
-   更一般：过定点 P(x_2,y_2) 的所有弦，其中点轨迹？也是一条抛物线，但是顶点不在坐标原点了，我们不再考虑了。
+(\\sin B-\\sin A)\\cos C=0
 
-#### 切线问题
+即 \\sin A=\\sin B 或 \\cos C=0，
 
-此外，参数方程还可以用于表示切线，容易发现抛物线在 P(t_0) 处的切线方程为：
+即 \\triangle ABC 为等腰三角形或直角三角形。
 
-T(t):ty=x^2+ct
+### 例题十四
 
-而两条切线 T(m),T(n) 的交点为：
+若 \\triangle ABC 中，\\angle C 为钝角，且其面积，
 
-T(m)\\cap T(n)=(cmn,cm+cn)
+S={\\sqrt3\\over4}(a^2+c^2-b^2)
 
-你会发现：弦方程里出现 t_1t_2,t_1+t_2，而切线交点坐标也只依赖这两个量——这就是抛物线弦题“参数法秒杀”的根源。
+- 求 \\angle B。
 
-#### 焦弦专题
+考虑到 a^2+c^2-b^2 是经典掉牙的形式，
 
-前面已经提到过，焦弦的判定，或者说充要条件是 t_1t_2=-1，也就是说，我们可以设焦弦 PQ 的两点分别是 P(t),Q(-1/t)，因此：
+\\cos B={a^2+c^2-b^2\\over2ac}
 
-|PF|=c(1+t^2)
+于是，
 
-|QF|=c\\paren{1+\\dfrac{1}{t^2}}
+S={\\sqrt3\\over4}\\cdot2ac\\cos B={\\sqrt3\\over2}ac\\cos B
 
-|PQ|=c\\paren{t+\\dfrac{1}{t}}^2\\ge 4c
+考虑很经典的面积公式，
 
-当且仅当 t=\\pm 1 取等号，此时 PQ 就是通径（latus rectum），长度 4a，同时还有一个很漂亮的不变量（常用于竞赛简化）：
+S={1\\over2}ac\\sin B={\\sqrt3\\over2}ac\\cos B\\ \\sin B=\\sqrt3\\cos B\\ \\tan B=\\sqrt3,B=60^\\circ
 
-\\dfrac{1}{|PF|}+\\dfrac{1}{|QF|}=\\dfrac{1}{c}
+### 例题十五
 
-几何拓展：以任意焦弦为直径的圆与准线相切。以任意焦弦为直径作圆，该圆与准线相切。这类题常见于“圆—抛物线—焦点/准线”的综合证明。
+在 \\triangle ABC 中，
 
-#### 极线极点
+\\sin^2A-\\sin^2B-\\sin^2C=\\sin B\\sin C
 
-弦与切线的对偶结构——**关键对偶**：弦 PQ 是其端点切线交点 R 的**极线**（polar）。
+- 求 A.
+- 若 BC=3，求其周长最大值。
 
-- 切线与切点（参数式）：在 P(t) 处切线为 ty=x+at^2。
-- 两切线交点（切线 t_1 与 t_2 的交点）：(at_1t_2,at_1+at_2)。
+因为是正弦的二次齐次式，考虑正弦定理，
 
-**极线理论**：点 (x_1, y_1) 关于抛物线 y^2=4ax 的极线方程为 yy_1 = 2a(x + x_1)。当点在曲线外时，该直线即为接触弦。将切线交点 R(at_1t_2, a(t_1+t_2)) 代入公式：
+a^2=b^2+c^2+bc
 
-y \\cdot a(t_1+t_2) = 2a(x + at_1t_2) \\implies (t_1+t_2)y = 2x + 2at_1t_2
+于是 \\angle A=120^\\circ。
 
-这恰好就是弦 PQ 的方程。你不必在“弦、切线、过定点、轨迹”之间乱跳；把弦看成某个点的极线，把“二点确定一线”升级为“对偶变换”，许多复杂轨迹题会突然变成“某点满足某方程”。
+考虑周长最大，即 b+c 最大，
 
-**La Hire 定理（互反性质）**：若点 P 在点 Q 的极线上，则点 Q 必在点 P 的极线上。
+a^2=9=b^2+c^2+bc\\ge3bc\\ bc\\le3
+
+考虑周长如何建立联系
+
+b+c=\\sqrt{b^2+c^2+2bc}=\\sqrt{9+bc}\\le2\\sqrt3
+
+即周长，
+
+a+b+c\\le2\\sqrt3+3
+
+### 例题十六
+
+在 \\triangle ABC 中，
+
+\\sin A+2\\sin B\\cos C=0\\ c=\\sqrt3b
+
+- 求 \\tan A。
+
+考虑到第二个很适合消元 c，于是第一个式子可以看成一次齐次，
+
+a+2b\\cos C=0\\ \\cos C=-{a\\over2b}={a^2+b^2-c^2\\over2bc}={a^2-2b^2\\over2bc}
+
+因此，
+
+a^2=b^2\\ a=b
+
+因为 c=\\sqrt3b，这是一个 30^\\circ,30^\\circ,120^\\circ 的等腰三角形，
+
+\\tan A=\\tan30^\\circ={\\sqrt3\\over3}
+
+### 例题十七
+
+在 \\triangle ABC 中，
+
+a^2+b^2=2022c^2
+
+求，
+
+{2\\tan A\\tan B\\over\\tan C(\\tan A+\\tan B)}
+
+考虑到没有什么好玩的结构，因此展开正切。
+
+\\begin{aligned} S&={2\\tan A\\tan B\\over\\tan C(\\tan A+\\tan B)}\\ &={2\\sin A\\sin B\\over\\sin C/\\cos C\\cdot(\\sin A\\cos B+\\cos A+\\sin B)}\\ &={2\\sin A\\sin B\\cos C\\over\\sin^2C} \\end{aligned}
+
+考虑到上下正弦构成二次齐次，正弦定理，
+
+\\begin{aligned} S&={2\\sin A\\sin B\\cos C\\over\\sin^2C}\\ &={2ab\\cos C\\over c^2} \\end{aligned}
+
+注意到 2ab 和 \\cos C 的余弦定理的分母类似，
+
+\\cos C={a^2+b^2-c^2\\over2ab}
+
+\\begin{aligned} S&={a^2+b^2-c^2\\over c^2}={a^2+b^2\\over c^2}-1\\ &=2022-1=2021 \\end{aligned}
+
+### 例题十八
+
+在锐角三角形 ABC 中，a^2-b^2=bc。
+
+求证：A=2B。
+
+经典题，因为角不好表示，上式又是边的二次齐次式，考虑，
+
+\\cos A={b^2+c^2-a^2\\over2bc}={c^2-bc\\over2bc}={c-b\\over2b}\\
+
+\\begin{aligned} \\cos 2B&=2\\cos^2B-1=2\\left({a^2+c^2-b^2\\over2ac}\\right)^2-1\\ &=2\\left({c+b\\over2a}\\right)^2-1={2c^2+2b^2+4bc-4a^2\\over4a^2}\\ &={2c^2-2b^2\\over4b^2+4bc}={2(c+b)(c-b)\\over4b(b+c)}={c-b\\over2b} \\end{aligned}
+
+于是，
+
+(\\cos A=\\cos2B)\\Longrightarrow(A=2B)
 
 2025-05-182026-07-09
 

@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Thu, 09 Jul 2026 12:22:24 -0000</pubDate>
-    <lastBuildDate>Thu, 09 Jul 2026 12:22:24 -0000</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2026 12:47:02 -0000</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2026 12:47:02 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,108 @@
     
 
     
+    
+    <item>
+      <title>空间体系</title>
+      
+      
+      
+      
+      <description>本文系统介绍空间几何体系，涵盖公理体系、点线面关系及平行、垂直等概念。详细解析了线面与面面之间的平行、垂直判定定理与性质定理，并总结了空间几何的通用解题方法与动点问题技巧，助力读者快速掌握空间几何的证明逻辑。</description>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/10/</link>
+      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/10/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/10/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/10.png" type="image/png" length="40121" />
+      
+    </item>
+    
+    <item>
+      <title>空间向量</title>
+      
+      
+      
+      
+      <description>本文系统介绍了空间向量核心概念，涵盖基底分解、坐标系建立及平面方程。详细解析了空间中点、线、面间的距离与夹角计算，并涵盖了法向量叉乘、行列式体积及齐次坐标变换等进阶内容，是掌握空间几何计算的实用指南。</description>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/11/</link>
+      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/11/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/11/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/11.png" type="image/png" length="38376" />
+      
+    </item>
+    
+    <item>
+      <title>空间几何体</title>
+      
+      
+      
+      
+      <description>本文系统介绍空间几何体基础，涵盖多面体与旋转体分类。重点解析斜二测画法、祖暅原理、欧拉公式及辛普森法则。详细讲解棱柱、棱锥、棱台、圆柱、圆锥和球的体积公式及外接球、内切球计算技巧。</description>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/12/</link>
+      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/12/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/12/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/12.png" type="image/png" length="42014" />
+      
+    </item>
+    
+    <item>
+      <title>圆锥曲线</title>
+      
+      
+      
+      
+      <description>本文深度解析圆锥曲线，涵盖椭圆、双曲线与抛物线的定义、方程、离心率及几何性质。重点讲解了点差法、参数化方程、极线理论与焦点三角形等核心技巧，帮助读者构建解析几何知识体系，有效提升数学竞赛学习能力。</description>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/7/</link>
+      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/7/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/7/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/7.png" type="image/png" length="41848" />
+      
+    </item>
+    
+    <item>
+      <title>解析几何</title>
+      
+      
+      
+      
+      <description>本文解析几何二次曲线，涵盖椭圆、抛物线、双曲线的定义、离心率及几何构造。详细介绍了一般方程、矩阵判定、旋转平移与齐次化技巧，并扩展了卡西尼卵形线、拉梅曲线、点幂及西姆松定理等知识点，是学习解析几何的实用指南。</description>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/8/</link>
+      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/8/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/8/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/8.png" type="image/png" length="39696" />
+      
+    </item>
+    
+    <item>
+      <title>线性代数</title>
+      
+      
+      
+      
+      <description>本文基于3B1B笔记，系统介绍了向量、线性组合与张成空间。深入解析了线性变换、矩阵乘法的几何意义及行列式的空间缩放作用。涵盖高斯消元、秩与零空间等核心要点，帮助读者直观理解线性代数的数学本质。</description>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/9/</link>
+      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/9/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/9/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/9.png" type="image/png" length="44870" />
+      
+    </item>
     
     <item>
       <title>近代物理初步</title>
@@ -853,61 +955,14 @@
       
       
       
-      <description>&lt;h1&gt;化学反应的热效应&lt;/h1&gt;
-&lt;h2&gt;反应热&lt;/h2&gt;
-&lt;h3&gt;物理量&lt;/h3&gt;
-&lt;p&gt;内能：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;内能用符号 $U$ 表示，是物体所有分子的热运动动能和分子势能的总和。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;内能与物质及其状态、温度压强决定，考虑热力学第一定律 $\Delta U=Q+W$。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;热量：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;一个途径中，热量指因温度不同而在系统与环境之间交换或传递的能量，用 $Q$ 表示。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;系统得到正热量（对应环境失去正热量）时「吸收热量」，途径热量为正；系统失去正热量时「放出热量」，途径热量为负。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;焓：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;焓为人为定义的一种系统的属性，有公式 $H=U+pV$，与温度压强等有关。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;通常上，焓不具有特定的物理意义，只是系统的状态参量，我们稍后讨论其变化量的物理意义。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;有性质：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;通常来说：&lt;/p&gt;
-&lt;p&gt;物质的能量越低越稳定。&lt;/p&gt;
-&lt;p&gt;因此，放热反应产物通常更稳定，吸热反应产物通常不稳定。&lt;/p&gt;
-&lt;p&gt;因此，自然界化学反应放热的更常见。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;等压反应中，焓变等于反应热；等容反应中，内能变化等于反应热。&lt;/p&gt;
-&lt;p&gt;$$
-\Delta H=Q_p
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\Delta U=Q_V
-...&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>深入解析化学反应的热效应，涵盖内能、热量及焓等概念。详细说明定容定压反应热、摩尔反应焓变、中和与燃烧热。文中介绍了盖斯定律、热化学方程式，并利用熵和吉布斯自由能判断反应自发性，是化学热力学的实用参考指南。</description>
       <link>https://raineblog.dpdns.org/whk/science/reaction/1/</link>
       <pubDate>Wed, 24 Dec 2025 11:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/reaction/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/1.png" type="image/png" length="48140" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/1.png" type="image/png" length="50379" />
       
     </item>
     
@@ -1677,19 +1732,19 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>解析几何</title>
+      <title>平面几何进阶</title>
       
       
       
       
-      <description>本文详解解析几何，涵盖椭圆、抛物线、双曲线等二次曲线。详细介绍了一般方程、矩阵表达及齐次化技巧，涵盖了卡西尼卵形线、超椭圆及托勒密、西姆松定理等核心模型，助力读者高效攻克复杂的几何综合题。</description>
+      <description>本文专为平面几何进阶学习设计，深度解析了平面几何三大定理及其多种拓展定理。内容旨在帮助读者构建系统的几何知识体系，掌握高阶几何题的解题思路，无论是学术备考还是深度研究，都是极具参考价值的优质资料。</description>
       <link>https://raineblog.dpdns.org/whk/science/geometry/4/</link>
       <pubDate>Sun, 27 Jul 2025 13:36:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/4/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/4.png" type="image/png" length="39631" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/4.png" type="image/png" length="40707" />
       
     </item>
     
@@ -1707,125 +1762,6 @@ $$&lt;/p&gt;
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/3/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/3.png" type="image/png" length="40815" />
-      
-    </item>
-    
-    <item>
-      <title>平面向量</title>
-      
-      
-      
-      
-      <description>本文系统介绍了平面向量基础知识，涵盖有向线段、向量定义、模及特殊向量。深入解析了向量的数乘、加法与点积运算，并讲解了柯西不等式、极化恒等式、基底分解及共线向量定理，帮助读者掌握向量几何的核心要点。</description>
-      <link>https://raineblog.dpdns.org/whk/science/plane/1/</link>
-      <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/plane/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/1.png" type="image/png" length="36472" />
-      
-    </item>
-    
-    <item>
-      <title>三角函数与三角恒等变换</title>
-      
-      
-      
-      
-      <description>本文系统介绍了三角函数与三角恒等变换，涵盖弧度制、三角函数定义及正弦、余弦函数性质。文中深入解析了诱导公式、倍角与半角公式等核心恒等变换，并总结了辅助角公式、参变分离等解题技巧，帮助学生高效掌握三角函数要点。</description>
-      <link>https://raineblog.dpdns.org/whk/science/plane/2/</link>
-      <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/plane/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/2.png" type="image/png" length="49842" />
-      
-    </item>
-    
-    <item>
-      <title>解三角形与三角形中的三角函数</title>
-      
-      
-      
-      
-      <description>本文系统总结了三角形三角函数，涵盖正切、余切、正弦与余弦的一倍及二倍角恒等式。解析了正弦、余弦及余切定理的应用，剖析了重心、内心、外心与垂心的性质。通过丰富例题，帮助读者高效掌握解三角形的技巧。</description>
-      <link>https://raineblog.dpdns.org/whk/science/plane/3/</link>
-      <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/plane/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/3.png" type="image/png" length="48001" />
-      
-    </item>
-    
-    <item>
-      <title>平面几何进阶</title>
-      
-      
-      
-      
-      <description>本文专注于平面几何进阶学习，深度解析了平面几何的三大核心定理并提供丰富的拓展定理。旨在帮助读者构建系统的几何知识体系，提升攻克复杂几何题的能力，无论是应考还是深度研究，本文都提供了极具价值的进阶指南。</description>
-      <link>https://raineblog.dpdns.org/whk/science/plane/4/</link>
-      <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/plane/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/plane/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/plane/4.png" type="image/png" length="39581" />
-      
-    </item>
-    
-    <item>
-      <title>空间体系</title>
-      
-      
-      
-      
-      <description>本篇系统阐述空间几何的公理体系、点线面相互关系及平行、垂直判定定理，覆盖线面、面面平行垂直性质、距离计算和动点分析，并提供直观的解题思路与常用证明技巧，帮助学生深入掌握空间几何要点。</description>
-      <link>https://raineblog.dpdns.org/whk/science/solid/1/</link>
-      <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/solid/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/solid/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/solid/1.png" type="image/png" length="37892" />
-      
-    </item>
-    
-    <item>
-      <title>空间向量</title>
-      
-      
-      
-      
-      <description>本文系统介绍空间向量，涵盖基底分解、点积、坐标系建立及平面方程。详细解析了空间中点、线、面间的距离与夹角计算，深入讲解向量叉乘、齐次坐标变换矩阵及空间余弦定理，是掌握空间几何核心知识的全面指南。</description>
-      <link>https://raineblog.dpdns.org/whk/science/solid/2/</link>
-      <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/solid/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/solid/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/solid/2.png" type="image/png" length="37414" />
-      
-    </item>
-    
-    <item>
-      <title>空间几何体</title>
-      
-      
-      
-      
-      <description>本文系统介绍空间几何体基础，涵盖多面体与旋转体分类。解析斜二测画法、祖暅原理、辛普森法则及欧拉公式。详细讲解棱柱、棱锥、圆柱、圆锥及球的体积表面积公式，并总结了投影、补形、截面等空间几何解题技巧。</description>
-      <link>https://raineblog.dpdns.org/whk/science/solid/3/</link>
-      <pubDate>Mon, 21 Jul 2025 03:49:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/solid/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/solid/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/solid/3.png" type="image/png" length="41497" />
       
     </item>
     
@@ -1932,24 +1868,24 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>平面体系</title>
+      <title>平面向量</title>
       
       
       
       
-      <description>本文系统介绍平面坐标系的笛卡尔坐标、皮克定理以及欧几里得平移、旋转和点线对称的计算公式，并提供实用记忆技巧，帮助高中解析几何快速掌握核心概念。同时阐述坐标变换的几何意义和对称性的分类讨论。</description>
+      <description>本文系统介绍平面向量核心概念，涵盖有向线段、自由向量、向量的模及基向量。详细解析了直角与斜坐标系下的向量运算、点积的几何意义与极化恒等式，并探讨了向量分解与共线定理，帮助读者深度掌握平面几何知识。</description>
       <link>https://raineblog.dpdns.org/whk/science/geometry/1/</link>
       <pubDate>Sun, 18 May 2025 09:51:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/1.png" type="image/png" length="41198" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/1.png" type="image/png" length="35966" />
       
     </item>
     
     <item>
-      <title>直线和圆</title>
+      <title>三角函数与三角恒等变换</title>
       
       
       
@@ -1961,41 +1897,58 @@ $$&lt;/p&gt;
       <comments>https://raineblog.dpdns.org/whk/science/geometry/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/2.png" type="image/png" length="40354" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/2.png" type="image/png" length="51230" />
       
     </item>
     
     <item>
-      <title>圆锥曲线</title>
+      <title>解三角形与三角形中的三角函数</title>
       
       
       
       
-      <description>本文全面解析圆锥曲线，涵盖椭圆、双曲线及抛物线。详细介绍了其几何定义、标准方程、离心率与性质，并深入探讨了点差法、参数法、焦点三角形及极线理论等核心技巧，旨在帮助读者系统掌握圆锥曲线的数学模型。</description>
+      <description>本文总结了三角形三角函数恒等式，涵盖正切、余切、正弦及余弦等公式。深入解析正弦定理、余弦定理及海伦公式，并介绍重心、内心、外心、垂心的性质。通过典型例题，助你高效掌握解三角形的实战技巧。</description>
       <link>https://raineblog.dpdns.org/whk/science/geometry/3/</link>
       <pubDate>Sun, 18 May 2025 09:51:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/3.png" type="image/png" length="41595" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/3.png" type="image/png" length="47869" />
       
     </item>
     
     <item>
-      <title>线性代数</title>
+      <title>平面体系</title>
       
       
       
       
-      <description>本篇文章系统讲解线性代数基础，包括向量的几何表示、线性组合、基与张成空间，深入阐述线性变换、矩阵运算、行列式及高斯消元等核心概念，帮助读者构建完整的线性代数知识框架。</description>
+      <description>本文介绍了平面体系，涵盖笛卡尔坐标系、皮克定理及欧几里得变换。详细解析了平移、旋转变换，并针对解析几何中的对称性问题，提供了实用的比例式记忆法与参数推导技巧，帮助读者高效掌握公式，提升解题效率。</description>
       <link>https://raineblog.dpdns.org/whk/science/geometry/5/</link>
       <pubDate>Sun, 18 May 2025 09:51:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/5/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/5.png" type="image/png" length="44346" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/5.png" type="image/png" length="40072" />
+      
+    </item>
+    
+    <item>
+      <title>直线和圆</title>
+      
+      
+      
+      
+      <description>本文深度解析解析几何中的直线与圆，涵盖直线的点斜式、两点式、一般式，以及圆的极坐标与标准方程。详细探讨了直线与圆的交位关系、距离计算、轨迹求解及阿波罗尼斯圆等知识，是学生掌握解析几何技巧的实用指南。</description>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/6/</link>
+      <pubDate>Sun, 18 May 2025 09:51:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/6/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/6/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/6.png" type="image/png" length="37532" />
       
     </item>
     
@@ -2153,19 +2106,19 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>直线运动、抛体运动、简谐运动</title>
+      <title>直线和抛体运动、简谐运动和机械波</title>
       
       
       
       
-      <description>本文解析直线运动、抛体与简谐运动。涵盖位移、速度、加速度定义及公式，详解逐差法与图像法。重点探讨了抛体轨迹、波的干涉衍射、驻波及多普勒效应等核心概念，助力读者高效掌握物理要点。</description>
+      <description>本文系统解析了直线与抛体运动、简谐运动及机械波的物理原理。涵盖位移速度加速度定义、运动学方程求解、逐差法与图像法等解题技巧。深入讲解抛体运动、波的干涉衍射及多普勒效应等核心概念，帮助读者高效掌握物理运动学与波动学关键点。</description>
       <link>https://raineblog.dpdns.org/whk/science/mechanics/1/</link>
       <pubDate>Sun, 13 Apr 2025 13:42:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/mechanics/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/1.png" type="image/png" length="53741" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/1.png" type="image/png" length="59564" />
       
     </item>
     
