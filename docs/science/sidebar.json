@@ -89,15 +89,7 @@
         ]
     },
     {
-        "电路学与电化学": [
-            "science/circuitry/1.md",
-            "science/circuitry/2.md",
-            "science/circuitry/3.md",
-            "science/circuitry/4.md"
-        ]
-    },
-    {
-        "电磁场与电磁波": [
+        "电磁学与电化学": [
             "science/electromagnetism/1.md",
             "science/electromagnetism/2.md",
             "science/electromagnetism/3.md",
