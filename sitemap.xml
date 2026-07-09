@@ -157,7 +157,7 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/cell/4/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -187,17 +187,22 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/electromagnetism/4/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/electromagnetism/5/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/electromagnetism/6/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://raineblog.dpdns.org/whk/science/electromagnetism/7/</loc>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -267,7 +272,7 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/function/2/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -277,12 +282,12 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/function/4/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/function/5/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -302,7 +307,7 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/geometry/2/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -312,7 +317,7 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/geometry/4/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -327,12 +332,12 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/human/2/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/human/3/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -362,37 +367,12 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/human/9/</loc>
-        <lastmod>2026-07-08</lastmod>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>https://raineblog.dpdns.org/whk/science/kinematics/1/</loc>
-        <lastmod>2026-07-04</lastmod>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>https://raineblog.dpdns.org/whk/science/kinematics/2/</loc>
-        <lastmod>2026-07-08</lastmod>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>https://raineblog.dpdns.org/whk/science/kinematics/3/</loc>
-        <lastmod>2026-07-04</lastmod>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>https://raineblog.dpdns.org/whk/science/kinematics/4/</loc>
-        <lastmod>2026-07-04</lastmod>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>https://raineblog.dpdns.org/whk/science/kinematics/5/</loc>
-        <lastmod>2026-07-04</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/mathematics/1/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -411,28 +391,33 @@
         <changefreq>daily</changefreq>
     </url>
     <url>
+        <loc>https://raineblog.dpdns.org/whk/science/mechanics/</loc>
+        <lastmod>2026-07-09</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
         <loc>https://raineblog.dpdns.org/whk/science/mechanics/1/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/mechanics/2/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/mechanics/3/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/mechanics/4/</loc>
-        <lastmod>2026-07-04</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/mechanics/5/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -442,27 +427,17 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/mechanics/7/</loc>
-        <lastmod>2026-07-04</lastmod>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>https://raineblog.dpdns.org/whk/science/modern/1/</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>https://raineblog.dpdns.org/whk/science/modern/2/</loc>
-        <lastmod>2026-07-04</lastmod>
+        <loc>https://raineblog.dpdns.org/whk/science/mechanics/8/</loc>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>https://raineblog.dpdns.org/whk/science/modern/3/</loc>
-        <lastmod>2026-07-08</lastmod>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>https://raineblog.dpdns.org/whk/science/modern/4/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <loc>https://raineblog.dpdns.org/whk/science/mechanics/9/</loc>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -492,7 +467,7 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/nature/6/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -517,17 +492,17 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/organic/2/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/organic/3/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/organic/4/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -537,7 +512,7 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/plane/1/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -547,7 +522,7 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/plane/3/</loc>
-        <lastmod>2026-07-05</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -587,7 +562,7 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/probability/1/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -607,17 +582,47 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/reaction/1/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/reaction/2/</loc>
-        <lastmod>2026-07-04</lastmod>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/reaction/3/</loc>
-        <lastmod>2026-07-08</lastmod>
+        <lastmod>2026-07-09</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://raineblog.dpdns.org/whk/science/reaction/4/</loc>
+        <lastmod>2026-07-09</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://raineblog.dpdns.org/whk/science/reaction/5/</loc>
+        <lastmod>2026-07-09</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://raineblog.dpdns.org/whk/science/reaction/6/</loc>
+        <lastmod>2026-07-09</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://raineblog.dpdns.org/whk/science/reaction/7/</loc>
+        <lastmod>2026-07-09</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://raineblog.dpdns.org/whk/science/reaction/8/</loc>
+        <lastmod>2026-07-09</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://raineblog.dpdns.org/whk/science/reaction/9/</loc>
+        <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -632,26 +637,6 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/science/solid/3/</loc>
-        <lastmod>2026-07-08</lastmod>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>https://raineblog.dpdns.org/whk/science/structure/1/</loc>
-        <lastmod>2026-07-08</lastmod>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>https://raineblog.dpdns.org/whk/science/structure/2/</loc>
-        <lastmod>2026-07-08</lastmod>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>https://raineblog.dpdns.org/whk/science/structure/3/</loc>
-        <lastmod>2026-07-08</lastmod>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>https://raineblog.dpdns.org/whk/science/structure/4/</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>daily</changefreq>
     </url>

@@ -475,6 +475,6 @@ H(X)=-\\sum\_{i=1}^n\\frac{1}{n}\\log_2\\frac{1}{n}=\\log_2 n
 
 所以我们至少需要 \\log_2 n 位来存储 1 到 n 的整数。
 
-2025-05-182026-07-08
+2025-05-182026-07-09
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [cubic-dev-ai[bot]](mailto:191113872+cubic-dev-ai%5Bbot%5D@users.noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com)

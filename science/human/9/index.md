@@ -494,7 +494,7 @@ B 细胞激活后可以产生抗体，由于抗体存在于体液中，所以这
 
 当母亲和胎儿的 RhD 不相容时，一般情况下，第一胎生产不会发生临床的症状。但当母亲第二次生育时，就可能发生新生儿溶血。
 
-2025-10-252026-07-08
+2025-10-252026-07-09
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)
 
