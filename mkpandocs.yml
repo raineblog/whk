@@ -137,22 +137,21 @@ nav:
       - science/number/1.md
       - science/number/3.md
       - science/number/4.md
-    - 三角与平面几何:
-      - science/plane/1.md
-      - science/plane/2.md
-      - science/plane/3.md
-      - science/plane/4.md
-    - 解析几何与圆曲:
+    - 平面与立体几何:
       - science/geometry/1.md
       - science/geometry/2.md
       - science/geometry/3.md
       - science/geometry/4.md
       - science/geometry/5.md
-    - 空间与立体几何:
-      - science/solid/1.md
-      - science/solid/2.md
-      - science/solid/3.md
+      - science/geometry/6.md
+      - science/geometry/7.md
+      - science/geometry/8.md
+      - science/geometry/9.md
+      - science/geometry/10.md
+      - science/geometry/11.md
+      - science/geometry/12.md
     - 运动与经典力学:
+      - science/mechanics/index.md
       - science/mechanics/1.md
       - science/mechanics/2.md
       - science/mechanics/3.md
@@ -170,7 +169,15 @@ nav:
       - science/electromagnetism/5.md
       - science/electromagnetism/6.md
       - science/electromagnetism/7.md
-      - science/electromagnetism/8.md
+    - 元素与物质性质:
+      - science/element/index.md
+      - science/element/1.md
+      - science/element/2.md
+      - science/element/3.md
+      - science/element/4.md
+      - science/element/5.md
+      - science/element/6.md
+      - science/element/7.md
     - 原理与结构化学:
       - science/reaction/1.md
       - science/reaction/2.md
@@ -181,15 +188,6 @@ nav:
       - science/reaction/7.md
       - science/reaction/8.md
       - science/reaction/9.md
-    - 元素与物质性质:
-      - science/element/index.md
-      - science/element/1.md
-      - science/element/2.md
-      - science/element/3.md
-      - science/element/4.md
-      - science/element/5.md
-      - science/element/6.md
-      - science/element/7.md
     - 有机化学与合成:
       - science/organic/1.md
       - science/organic/2.md
