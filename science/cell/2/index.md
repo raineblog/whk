@@ -1124,6 +1124,6 @@
 
 并非所有的氧化磷酸化抑制剂都是毒物。在棕色脂肪组织里，称为解偶联蛋白的调节性质子通道可将呼吸作用与 \\ce{ATP} 合成解耦。它能使呼吸作用快速产生热量，对冬眠动物和幼年哺乳动物来说，这对维持体温尤为重要，虽然这些蛋白质可能在细胞的应激反应中有更一般化的功能。
 
-2025-04-192026-07-08
+2025-04-192026-07-09
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [gemini-code-assist[bot]](mailto:176961590+gemini-code-assist%5Bbot%5D@users.noreply.github.com)

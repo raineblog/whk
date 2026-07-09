@@ -1072,6 +1072,6 @@ F_A - F_B = F\_{\\text{壁}} - G
 
 本题的精妙之处在于压力变化量的判断避开了复杂的截面积变化计算，利用**管壁提供的竖直向上分力**这一隐含条件，通过分析托力变化直接得出结论。处理类似变截面管中液柱问题时，切勿遗漏管壁对液体的侧向约束力。
 
-2025-10-122026-07-08
+2025-10-122026-07-09
 
 [RainPPR](mailto:PPR2125773894@163.com),  [RaineMtF](mailto:192512683+RaineMtF@users.noreply.github.com),  [Bot](mailto:bot@noreply.github.com),  [Copilot](mailto:198982749+Copilot@users.noreply.github.com),  [RainPPR](mailto:41764766+RainPPR@users.noreply.github.com),  [google-labs-jules[bot]](mailto:161369871+google-labs-jules%5Bbot%5D@users.noreply.github.com)

@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Thu, 09 Jul 2026 09:39:13 -0000</pubDate>
-    <lastBuildDate>Thu, 09 Jul 2026 09:39:13 -0000</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2026 10:57:40 -0000</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2026 10:57:40 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -576,121 +576,53 @@
     </item>
     
     <item>
-      <title>恒定电流</title>
+      <title>电场与电场运动</title>
       
       
       
       
-      <description>本文深入解析恒定电流的定义与物理机制，详细讲解欧姆定律、焦耳定律及电阻定律等核心理论。内容涵盖电动势、串并联规律、基尔霍夫定律、叠加定理及复杂电路分析，通过详尽例题，帮助读者系统掌握电路分析的核心技巧。</description>
-      <link>https://raineblog.dpdns.org/whk/science/circuitry/1/</link>
-      <pubDate>Wed, 24 Dec 2025 11:16:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/circuitry/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/circuitry/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/circuitry/1.png" type="image/png" length="39467" />
-      
-    </item>
-    
-    <item>
-      <title>电学实验</title>
-      
-      
-      
-      
-      <description>本文系统介绍了电学实验基础，涵盖滑动变阻器、二三极管及多用电表用法。深入解析了等电势法、图像分析等题型，详述了电阻与电源测量的多种方法。同时涵盖了传感器的原理与应用，是物理学习与实验实践的实用指南。</description>
-      <link>https://raineblog.dpdns.org/whk/science/circuitry/2/</link>
-      <pubDate>Wed, 24 Dec 2025 11:16:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/circuitry/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/circuitry/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/circuitry/2.png" type="image/png" length="43608" />
-      
-    </item>
-    
-    <item>
-      <title>化学与电</title>
-      
-      
-      
-      
-      <description>全面解析电化学电池的原理与分类，详述原电池、电解池结构、标准电极电势、常见应用及金属腐蚀防护技术，是高中化学必备指南。包括电池组成、盐桥作用、电极方程式、电解水、电镀、二氧化碳还原等内容。</description>
-      <link>https://raineblog.dpdns.org/whk/science/circuitry/3/</link>
-      <pubDate>Wed, 24 Dec 2025 11:16:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/circuitry/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/circuitry/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/circuitry/3.png" type="image/png" length="37647" />
-      
-    </item>
-    
-    <item>
-      <title>电池概述</title>
-      
-      
-      
-      
-      <description>本文系统介绍一次电池与充电电池的工作原理，详细列出锂离子电池、铅酸蓄电池的正负极化学方程式，并全面解析酸性、碱性及碳酸盐燃料电池的正负极反应，适合化学与电化学学习者参考。</description>
-      <link>https://raineblog.dpdns.org/whk/science/circuitry/4/</link>
-      <pubDate>Wed, 24 Dec 2025 11:16:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/circuitry/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/circuitry/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/circuitry/4.png" type="image/png" length="40247" />
-      
-    </item>
-    
-    <item>
-      <title>静电力学</title>
-      
-      
-      
-      
-      <description>本文系统介绍静电力学，涵盖电荷性质、电荷守恒与量子化概念。深入解析电导体、电介质及半导体原理，详细讲解库仑定律、摩擦与感应起电方式，并探讨静电屏蔽与等离子体特性及应用，助力读者全面掌握电学基础知识。</description>
+      <description>本文深入解析电场与电场运动，涵盖电荷量子化、电荷守恒定律、电场线特性及高斯定理。详细讲解了电势、电势能的计算，并对比了导体与半导体的区别。通过物理模型分析了电荷在电场中的运动规律，是物理学习的优质参考。</description>
       <link>https://raineblog.dpdns.org/whk/science/electromagnetism/1/</link>
       <pubDate>Wed, 24 Dec 2025 11:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/1.png" type="image/png" length="38506" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/1.png" type="image/png" length="41880" />
       
     </item>
     
     <item>
-      <title>电场电势</title>
+      <title>恒定电流与电学实验</title>
       
       
       
       
-      <description>本文深入解析了电场与电势的核心概念，涵盖物理场定义、电场线特性、电场强度及高斯定理。详细阐述了电势能、电势与电势差，并探讨了点电荷、带电球体的电场分布及等效重力场，是掌握电磁学基础知识的实用指南。</description>
+      <description>本文介绍了恒定电流与电学实验，涵盖电流定义、欧姆定律、焦耳定律及基尔霍夫定律。深入解析了串并电路、叠加定理、电动势应用，并详细说明三极管、传感器及万用表实验方法，是物理学习与实验的实用参考指南。</description>
       <link>https://raineblog.dpdns.org/whk/science/electromagnetism/2/</link>
       <pubDate>Wed, 24 Dec 2025 11:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/2.png" type="image/png" length="39968" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/2.png" type="image/png" length="48702" />
       
     </item>
     
     <item>
-      <title>电场运动</title>
+      <title>电化学与化学电池</title>
       
       
       
       
-      <description>本文深入解析电场运动，涵盖带电粒子在匀强电场中的运动规律、电势差与做功等公式。详细讲解了电容器原理、电容计算、串并联，以及加速偏转电场在阴极射线管中的应用，助力读者系统掌握电磁学物理知识点。</description>
+      <description>本文深度解析电化学核心原理，涵盖原电池与电解池的定义、组成及机制。详细探讨了标准氢电极、电极电势、金属腐蚀规律及防腐技术，并介绍了电镀、金属精炼、燃料电池等实际应用，为读者提供全面的电化学知识参考。</description>
       <link>https://raineblog.dpdns.org/whk/science/electromagnetism/3/</link>
       <pubDate>Wed, 24 Dec 2025 11:16:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/3/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/3.png" type="image/png" length="41678" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/3.png" type="image/png" length="42692" />
       
     </item>
     
