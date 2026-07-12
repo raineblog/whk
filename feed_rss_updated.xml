@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Thu, 09 Jul 2026 12:47:02 -0000</pubDate>
-    <lastBuildDate>Thu, 09 Jul 2026 12:47:02 -0000</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 10:35:40 -0000</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 10:35:40 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -32,6 +32,142 @@
     
     
     <item>
+      <title>电化学与化学电池</title>
+      
+      
+      
+      
+      <description>本文深入阐述了电化学与化学电池，涵盖原电池与电解池的定义、组成及原理。重点解析了标准氢电极、电极电势计算、金属腐蚀机制及防护方法，并详细介绍了电解水、电镀、燃料电池等实际应用，是电化学领域的全面指南。</description>
+      <link>https://raineblog.dpdns.org/whk/science/reaction/1/</link>
+      <pubDate>Sun, 12 Jul 2026 10:33:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/reaction/1/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/1/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/1.png" type="image/png" length="39699" />
+      
+    </item>
+    
+    <item>
+      <title>热化学与反应速率</title>
+      
+      
+      
+      
+      <description>本文解析热化学与反应速率，涵盖内能、焓变、熵变及吉布斯自由能。介绍了盖斯定律、波恩-哈伯循环等计算法，并分析了温度、浓度、催化剂等影响因素及阿伦乌斯方程，帮助读者掌握化学反应核心原理。</description>
+      <link>https://raineblog.dpdns.org/whk/science/reaction/2/</link>
+      <pubDate>Sun, 12 Jul 2026 10:33:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/reaction/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/2.png" type="image/png" length="51659" />
+      
+    </item>
+    
+    <item>
+      <title>以气体平衡体系为主的化学平衡</title>
+      
+      
+      
+      
+      <description>本文解析气体平衡体系的化学平衡，涵盖可逆反应特征、动态平衡状态、反应进度及平衡常数Kc、Kp、Ks。详细讲解勒夏列原理中温度、压强、浓度对平衡移动的影响，并总结了等效平衡与转化率技巧。</description>
+      <link>https://raineblog.dpdns.org/whk/science/reaction/3/</link>
+      <pubDate>Sun, 12 Jul 2026 10:33:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/reaction/3/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/3/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/3.png" type="image/png" length="54005" />
+      
+    </item>
+    
+    <item>
+      <title>以水溶液体系为主的溶液行为</title>
+      
+      
+      
+      
+      <description>本文系统介绍了水溶液行为，涵盖电解质分类、离子反应、酸碱理论及电离常数。深入解析了活度、盐效应、盐水解与溶解度平衡，并总结了pH计算、三大守恒法及电位滴定等解题技巧，帮助学生掌握化学核心点。</description>
+      <link>https://raineblog.dpdns.org/whk/science/reaction/4/</link>
+      <pubDate>Sun, 12 Jul 2026 10:33:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/reaction/4/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/4/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/4.png" type="image/png" length="59522" />
+      
+    </item>
+    
+    <item>
+      <title>物质与物质的组成</title>
+      
+      
+      
+      
+      <description>本文系统介绍了物质组成，涵盖物质的量、阿伏伽德罗常数、摩尔质量及浓度计算。深入解析了分子动理论、扩散、布朗运动及分子间作用力，并探讨了晶体与非晶体、固液态性质及液晶应用，帮助读者掌握物质的基础知识。</description>
+      <link>https://raineblog.dpdns.org/whk/science/reaction/5/</link>
+      <pubDate>Sun, 12 Jul 2026 10:33:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/reaction/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/5.png" type="image/png" length="49060" />
+      
+    </item>
+    
+    <item>
+      <title>原子结构与元素规律</title>
+      
+      
+      
+      
+      <description>本文详细介绍了原子结构与元素规律，涵盖放射性及α/β/γ射线知识，解析了从汤姆孙、卢瑟福到玻尔的原子模型演变。深入分析了元素周期表构造、原子半径、电离能及电负性等核心性质，是核物理与化学学习的参考指南。</description>
+      <link>https://raineblog.dpdns.org/whk/science/reaction/6/</link>
+      <pubDate>Sun, 12 Jul 2026 10:33:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/reaction/6/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/6/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/6.png" type="image/png" length="53663" />
+      
+    </item>
+    
+    <item>
+      <title>分子的结构与性质</title>
+      
+      
+      
+      
+      <description>本文系统解析分子的结构与性质，涵盖共价键模型、分子轨道理论及σ/π键特征。分析键能、键长、键角等参数，并讲解配位键、VSEPR空间结构预测、极性手性及范德华力，帮助读者构建分子化学知识体系。</description>
+      <link>https://raineblog.dpdns.org/whk/science/reaction/7/</link>
+      <pubDate>Sun, 12 Jul 2026 10:33:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/reaction/7/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/7/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/7.png" type="image/png" length="48413" />
+      
+    </item>
+    
+    <item>
+      <title>晶体与晶胞的计算</title>
+      
+      
+      
+      
+      <description>本文详细解析晶体与晶胞计算，涵盖化学键类型及离子、金属、共价、分子晶体结构。重点介绍了晶格能计算、玻恩-哈伯循环及晶胞判定，并分析了诱导、共轭与超共轭效应在化学中的应用，帮助读者理解微观结构机理。</description>
+      <link>https://raineblog.dpdns.org/whk/science/reaction/8/</link>
+      <pubDate>Sun, 12 Jul 2026 10:33:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/reaction/8/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/8/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/8.png" type="image/png" length="45165" />
+      
+    </item>
+    
+    <item>
       <title>平面向量</title>
       
       
@@ -39,7 +175,7 @@
       
       <description>本文系统介绍平面向量核心概念，涵盖有向线段、自由向量、向量的模及基向量。详细解析了直角与斜坐标系下的向量运算、点积的几何意义与极化恒等式，并探讨了向量分解与共线定理，帮助读者深度掌握平面几何知识。</description>
       <link>https://raineblog.dpdns.org/whk/science/geometry/1/</link>
-      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 12:48:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/1/</guid>
@@ -56,7 +192,7 @@
       
       <description>本文系统介绍空间几何体系，涵盖公理体系、点线面关系及平行、垂直等概念。详细解析了线面与面面之间的平行、垂直判定定理与性质定理，并总结了空间几何的通用解题方法与动点问题技巧，助力读者快速掌握空间几何的证明逻辑。</description>
       <link>https://raineblog.dpdns.org/whk/science/geometry/10/</link>
-      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 12:48:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/10/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/10/</guid>
@@ -73,7 +209,7 @@
       
       <description>本文系统介绍了空间向量核心概念，涵盖基底分解、坐标系建立及平面方程。详细解析了空间中点、线、面间的距离与夹角计算，并涵盖了法向量叉乘、行列式体积及齐次坐标变换等进阶内容，是掌握空间几何计算的实用指南。</description>
       <link>https://raineblog.dpdns.org/whk/science/geometry/11/</link>
-      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 12:48:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/11/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/11/</guid>
@@ -90,29 +226,12 @@
       
       <description>本文系统介绍空间几何体基础，涵盖多面体与旋转体分类。重点解析斜二测画法、祖暅原理、欧拉公式及辛普森法则。详细讲解棱柱、棱锥、棱台、圆柱、圆锥和球的体积公式及外接球、内切球计算技巧。</description>
       <link>https://raineblog.dpdns.org/whk/science/geometry/12/</link>
-      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 12:48:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/12/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/12/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/12.png" type="image/png" length="42014" />
-      
-    </item>
-    
-    <item>
-      <title>三角函数与三角恒等变换</title>
-      
-      
-      
-      
-      <description>本文系统总结了解析几何中直线与圆的知识，涵盖直线的多种方程形式、圆的极坐标、标准及一般方程。深入解析了直线与圆的相互位置、距离计算、轨迹求解及定点等解题技巧，是数学几何学习的详尽实战参考指南。</description>
-      <link>https://raineblog.dpdns.org/whk/science/geometry/2/</link>
-      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/geometry/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/2.png" type="image/png" length="51230" />
       
     </item>
     
@@ -124,7 +243,7 @@
       
       <description>本文总结了三角形三角函数恒等式，涵盖正切、余切、正弦及余弦等公式。深入解析正弦定理、余弦定理及海伦公式，并介绍重心、内心、外心、垂心的性质。通过典型例题，助你高效掌握解三角形的实战技巧。</description>
       <link>https://raineblog.dpdns.org/whk/science/geometry/3/</link>
-      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 12:48:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/3/</guid>
@@ -141,7 +260,7 @@
       
       <description>本文专为平面几何进阶学习设计，深度解析了平面几何三大定理及其多种拓展定理。内容旨在帮助读者构建系统的几何知识体系，掌握高阶几何题的解题思路，无论是学术备考还是深度研究，都是极具参考价值的优质资料。</description>
       <link>https://raineblog.dpdns.org/whk/science/geometry/4/</link>
-      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 12:48:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/4/</guid>
@@ -158,7 +277,7 @@
       
       <description>本文介绍了平面体系，涵盖笛卡尔坐标系、皮克定理及欧几里得变换。详细解析了平移、旋转变换，并针对解析几何中的对称性问题，提供了实用的比例式记忆法与参数推导技巧，帮助读者高效掌握公式，提升解题效率。</description>
       <link>https://raineblog.dpdns.org/whk/science/geometry/5/</link>
-      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 12:48:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/5/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/5/</guid>
@@ -175,7 +294,7 @@
       
       <description>本文深度解析解析几何中的直线与圆，涵盖直线的点斜式、两点式、一般式，以及圆的极坐标与标准方程。详细探讨了直线与圆的交位关系、距离计算、轨迹求解及阿波罗尼斯圆等知识，是学生掌握解析几何技巧的实用指南。</description>
       <link>https://raineblog.dpdns.org/whk/science/geometry/6/</link>
-      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 12:48:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/6/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/6/</guid>
@@ -192,7 +311,7 @@
       
       <description>本文深度解析圆锥曲线，涵盖椭圆、双曲线与抛物线的定义、方程、离心率及几何性质。重点讲解了点差法、参数化方程、极线理论与焦点三角形等核心技巧，帮助读者构建解析几何知识体系，有效提升数学竞赛学习能力。</description>
       <link>https://raineblog.dpdns.org/whk/science/geometry/7/</link>
-      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 12:48:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/7/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/7/</guid>
@@ -209,7 +328,7 @@
       
       <description>本文解析几何二次曲线，涵盖椭圆、抛物线、双曲线的定义、离心率及几何构造。详细介绍了一般方程、矩阵判定、旋转平移与齐次化技巧，并扩展了卡西尼卵形线、拉梅曲线、点幂及西姆松定理等知识点，是学习解析几何的实用指南。</description>
       <link>https://raineblog.dpdns.org/whk/science/geometry/8/</link>
-      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 12:48:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/8/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/8/</guid>
@@ -226,7 +345,7 @@
       
       <description>本文基于3B1B笔记，系统介绍了向量、线性组合与张成空间。深入解析了线性变换、矩阵乘法的几何意义及行列式的空间缩放作用。涵盖高斯消元、秩与零空间等核心要点，帮助读者直观理解线性代数的数学本质。</description>
       <link>https://raineblog.dpdns.org/whk/science/geometry/9/</link>
-      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 12:48:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/geometry/9/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/9/</guid>
@@ -243,12 +362,29 @@
       
       <description>本文系统解析了直线与抛体运动、简谐运动及机械波的物理原理。涵盖位移速度加速度定义、运动学方程求解、逐差法与图像法等解题技巧。深入讲解抛体运动、波的干涉衍射及多普勒效应等核心概念，帮助读者高效掌握物理运动学与波动学关键点。</description>
       <link>https://raineblog.dpdns.org/whk/science/mechanics/1/</link>
-      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 12:48:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/mechanics/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/1/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/1.png" type="image/png" length="59564" />
+      
+    </item>
+    
+    <item>
+      <title>三角函数与三角恒等变换</title>
+      
+      
+      
+      
+      <description>本文系统介绍了三角函数的基础知识，涵盖弧度制、函数定义及图像性质。详细梳理了诱导、倍角、半角等三角恒等变换，并总结了变角、辅助角法及一角一函数等解题技巧，助力读者高效掌握三角函数的核心知识点。</description>
+      <link>https://raineblog.dpdns.org/whk/science/geometry/2/</link>
+      <pubDate>Thu, 09 Jul 2026 12:27:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/geometry/2/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/geometry/2/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/geometry/2.png" type="image/png" length="52961" />
       
     </item>
     
@@ -742,159 +878,6 @@
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/probability/1/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/probability/1.png" type="image/png" length="47558" />
-      
-    </item>
-    
-    <item>
-      <title>电化学与化学电池</title>
-      
-      
-      
-      
-      <description>本文深度解析电化学与化学电池，涵盖原电池、电解池的定义与原理。重点讲解标准氢电极、电极电势及极化现象，并详述了金属腐蚀机理、防护措施与电解精炼等应用，助力读者全面掌握电化学核心知识。</description>
-      <link>https://raineblog.dpdns.org/whk/science/reaction/2/</link>
-      <pubDate>Thu, 09 Jul 2026 12:23:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/reaction/2/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/2/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/2.png" type="image/png" length="38248" />
-      
-    </item>
-    
-    <item>
-      <title>反应速率</title>
-      
-      
-      
-      
-      <description>本文详细解析反应速率的核心概念、定义及三段式解题方法。深入分析了温度、浓度、催化剂等影响速率的因素，并阐述了碰撞理论、质量作用定律与阿伦乌斯方程，帮助读者全面掌握化学反应动力学的关键知识点。</description>
-      <link>https://raineblog.dpdns.org/whk/science/reaction/3/</link>
-      <pubDate>Thu, 09 Jul 2026 12:23:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/reaction/3/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/3/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/3.png" type="image/png" length="45876" />
-      
-    </item>
-    
-    <item>
-      <title>化学平衡</title>
-      
-      
-      
-      
-      <description>本文系统阐述化学平衡，涵盖可逆反应、动态平衡及反应进度。解析了平衡常数Kc、Kp与Ks，探讨了勒夏特列原理中温度、压强、浓度对平衡移动的影响，并总结等效平衡与解题技巧，是掌握化学平衡的核心指南。</description>
-      <link>https://raineblog.dpdns.org/whk/science/reaction/4/</link>
-      <pubDate>Thu, 09 Jul 2026 12:23:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/reaction/4/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/4/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/4.png" type="image/png" length="40166" />
-      
-    </item>
-    
-    <item>
-      <title>溶液行为</title>
-      
-      
-      
-      
-      <description>本文深度解析溶液行为，涵盖电解质分类、离子反应、酸碱三大理论。详细讲解了活度、盐效应、水电离、盐水解及溶解度平衡等知识点，并总结了电荷、物料、质子三大守恒解题技巧，帮助读者高效掌握溶液化学核心。</description>
-      <link>https://raineblog.dpdns.org/whk/science/reaction/5/</link>
-      <pubDate>Thu, 09 Jul 2026 12:23:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/reaction/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/5/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/5.png" type="image/png" length="44070" />
-      
-    </item>
-    
-    <item>
-      <title>物质与分子</title>
-      
-      
-      
-      
-      <description>本文系统介绍物质与分子，涵盖物质的量、阿伏伽德罗常数、摩尔质量及浓度定义。深入解析分子动理论、扩散与布朗运动，分析分子间作用力对物态的影响，并介绍油膜法测量分子大小、纳米材料及超分子化学等核心知识。</description>
-      <link>https://raineblog.dpdns.org/whk/science/reaction/6/</link>
-      <pubDate>Thu, 09 Jul 2026 12:23:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/reaction/6/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/6/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/6.png" type="image/png" length="44768" />
-      
-    </item>
-    
-    <item>
-      <title>原子与元素</title>
-      
-      
-      
-      
-      <description>本文介绍了核物理基础知识，涵盖放射性元素与α/β/γ射线特征。深入解析了从汤姆孙、卢瑟福到玻尔及量子模型的原子结构演变，并详细讲解了放射性衰变、核裂变原理以及原子半径、电离能、电负性等元素周期规律。</description>
-      <link>https://raineblog.dpdns.org/whk/science/reaction/7/</link>
-      <pubDate>Thu, 09 Jul 2026 12:23:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/reaction/7/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/7/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/7.png" type="image/png" length="45318" />
-      
-    </item>
-    
-    <item>
-      <title>分子的结构</title>
-      
-      
-      
-      
-      <description>本文系统介绍了分子的结构，涵盖分子轨道理论、共价键性质及键能、键长等参数。深度解析了VSEPR空间构型预测与轨道杂化，并详细涵盖了配位键、多中心键及范德华力与氢键，帮助读者全面掌握化学成键原理。</description>
-      <link>https://raineblog.dpdns.org/whk/science/reaction/8/</link>
-      <pubDate>Thu, 09 Jul 2026 12:23:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/reaction/8/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/8/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/8.png" type="image/png" length="45487" />
-      
-    </item>
-    
-    <item>
-      <title>晶体与晶胞</title>
-      
-      
-      
-      
-      <description>本文解析晶体与晶胞的核心概念，涵盖化学键类型及离子、共价、金属、分子晶体结构。详细讲解晶格能计算、玻恩-哈伯循环及XRD衍射，并深入分析了诱导、共轭、超共轭等电子效应在有机化学中的反应机理与应用。</description>
-      <link>https://raineblog.dpdns.org/whk/science/reaction/9/</link>
-      <pubDate>Thu, 09 Jul 2026 12:23:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/reaction/9/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/9/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/9.png" type="image/png" length="40600" />
-      
-    </item>
-    
-    <item>
-      <title>化学反应的热效应</title>
-      
-      
-      
-      
-      <description>深入解析化学反应的热效应，涵盖内能、热量及焓等概念。详细说明定容定压反应热、摩尔反应焓变、中和与燃烧热。文中介绍了盖斯定律、热化学方程式，并利用熵和吉布斯自由能判断反应自发性，是化学热力学的实用参考指南。</description>
-      <link>https://raineblog.dpdns.org/whk/science/reaction/1/</link>
-      <pubDate>Thu, 09 Jul 2026 12:15:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/reaction/1/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/1/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/1.png" type="image/png" length="50379" />
       
     </item>
     

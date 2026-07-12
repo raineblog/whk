@@ -933,4 +933,4 @@ y \\cdot a(t_1+t_2) = 2a(x + at_1t_2) \\implies (t_1+t_2)y = 2x + 2at_1t_2
 
 2026-07-092026-07-09
 
-[RainPPR](mailto:PPR2125773894@163.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
