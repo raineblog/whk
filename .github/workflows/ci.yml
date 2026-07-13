@@ -26,6 +26,11 @@ jobs:
     steps:
       - name: actions-workflow-metrics
         uses: dev-hato/actions-workflow-metrics@v0.0.7
+
+      - name: Force enable mailmap
+        run: |
+          git config --global log.mailmap true
+          git config --global shortlog.mailmap true
         
       - name: Checkout Source Code
         uses: actions/checkout@v7
