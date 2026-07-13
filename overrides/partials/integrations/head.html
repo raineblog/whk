@@ -51,14 +51,16 @@
     }
 
     /* 2. 让中间的 a 标签变成块级，把 100% 的宽度“管道”顺利传递下去 */
-    figure a.glightbox {
+    figure a.glightbox,
+    p a.glightbox {
         display: block !important;
         width: 100% !important;
         margin: 0 auto !important;
     }
 
     /* 3. 对图片进行环境优化 */
-    figure a.glightbox img {
+    figure a.glightbox img,
+    p a.glightbox img {
         display: block !important;
         /* 💡 注意：这里绝对不写 width！ */
         /* 这样浏览器就会去读你在 HTML 源码里生成的 style="width: 80%" 或 50% */
