@@ -128,7 +128,7 @@
 - [随机变量及其分布](https://raineblog.dpdns.org/whk/science/probability/2/index.md)
 - [统计学和数理统计](https://raineblog.dpdns.org/whk/science/probability/3/index.md)
 - [随机过程和马尔可夫链](https://raineblog.dpdns.org/whk/science/probability/4/index.md)
-- [电化学与化学电池](https://raineblog.dpdns.org/whk/science/reaction/1/index.md)
+- [氧化还原与电化学](https://raineblog.dpdns.org/whk/science/reaction/1/index.md)
 - [热化学与反应速率](https://raineblog.dpdns.org/whk/science/reaction/2/index.md)
 - [以气体平衡体系为主的化学平衡](https://raineblog.dpdns.org/whk/science/reaction/3/index.md)
 - [以水溶液体系为主的溶液行为](https://raineblog.dpdns.org/whk/science/reaction/4/index.md)
