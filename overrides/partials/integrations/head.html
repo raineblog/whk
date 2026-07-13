@@ -6,28 +6,14 @@
 
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
 
-<link rel="preload"
-    href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/google/c4mv1nF8G8_swA3J0Q.woff2"
-    as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/google/c4mv1nF8G8_swA3J0Q.woff2" as="font" type="font/woff2" crossorigin />
 
-<link rel="preload"
-    href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/offline/FZXSSJW/377dbe.woff2"
-    as="font" type="font/woff2" crossorigin />
-<link rel="preload"
-    href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/offline/FZXSSJW/17e33e.woff2"
-    as="font" type="font/woff2" crossorigin />
-<link rel="preload"
-    href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/offline/FZXSSJW/d924dd.woff2"
-    as="font" type="font/woff2" crossorigin />
-<link rel="preload"
-    href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/offline/FZXSSJW/9abd9f.woff2"
-    as="font" type="font/woff2" crossorigin />
-<link rel="preload"
-    href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/offline/FZXSSJW/9abf5d.woff2"
-    as="font" type="font/woff2" crossorigin />
-<link rel="preload"
-    href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/offline/FZXSSJW/5c2925.woff2"
-    as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/offline/FZXSSJW/377dbe.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/offline/FZXSSJW/17e33e.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/offline/FZXSSJW/d924dd.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/offline/FZXSSJW/9abd9f.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/offline/FZXSSJW/9abf5d.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/offline/FZXSSJW/5c2925.woff2" as="font" type="font/woff2" crossorigin />
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts.min.css" />
 
@@ -53,11 +39,30 @@
         font-kerning: normal;
     }
 
-    .md-typeset img {
-        display: block;
-        margin: 0 auto;
-        width: auto !important;
+    /* 1. 强行把最外层容器拉满到整个文本区，无视排版工具算出来的 294px 边距 */
+    .md-typeset figure {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    /* 2. 让中间的 a 标签变成块级，老老实实继承 figure 100% 的宽度 */
+    .md-typeset figure a.glightbox {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    /* 3. 此时基准线终于对了！让 img 精准吃满整个文本区的 80%，并自动居中 */
+    .md-typeset figure a.glightbox img {
+        display: block !important;
+        width: 80% !important;
+        /* 强制覆盖内联样式，确保是文本区的 80% */
         height: auto !important;
+        /* 极其重要：确保矢量图按原有 viewBox 比例缩放，绝不变形 */
+        margin: 0 auto !important;
+        /* 真正的水平居中 */
     }
 
     .md-typeset div.arithmatex {
@@ -136,8 +141,6 @@
 <script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/mhchem.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/render-a11y-string.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/auto-render.min.js"
-    integrity="sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz"
-    crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/auto-render.min.js" integrity="sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex-swap.min.css" />
