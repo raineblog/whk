@@ -39,8 +39,10 @@
         font-kerning: normal;
     }
 
-    /* 1. 强行把最外层容器拉满到整个文本区，无视排版工具算出来的 294px 边距 */
-    .md-typeset figure {
+    /* 1. 精准锁定包含大图的 figure，强行把它拉满到整个文本区（100%） */
+    /* 使用 :has 选择器，确保只影响这类图片容器，不破坏排版工具的其他默认布局 */
+    figure:has(a.glightbox),
+    p:has(a.glightbox) {
         display: block !important;
         width: 100% !important;
         max-width: 100% !important;
@@ -48,21 +50,20 @@
         margin-right: 0 !important;
     }
 
-    /* 2. 让中间的 a 标签变成块级，老老实实继承 figure 100% 的宽度 */
-    .md-typeset figure a.glightbox {
+    /* 2. 让中间的 a 标签变成块级，把 100% 的宽度“管道”顺利传递下去 */
+    figure a.glightbox {
         display: block !important;
         width: 100% !important;
     }
 
-    /* 3. 此时基准线终于对了！让 img 精准吃满整个文本区的 80%，并自动居中 */
-    .md-typeset figure a.glightbox img {
+    /* 3. 对图片进行环境优化 */
+    figure a.glightbox img {
         display: block !important;
-        width: 80% !important;
-        /* 强制覆盖内联样式，确保是文本区的 80% */
-        height: auto !important;
-        /* 极其重要：确保矢量图按原有 viewBox 比例缩放，绝不变形 */
-        margin: 0 auto !important;
-        /* 真正的水平居中 */
+        /* 💡 注意：这里绝对不写 width！ */
+        /* 这样浏览器就会去读你在 HTML 源码里生成的 style="width: 80%" 或 50% */
+
+        height: auto !important; /* 极其重要：确保矢量图按比例缩放，绝不变形 */
+        margin: 0 auto !important; /* 无论你输入百分之几，图片都会在文本区里完美水平居中 */
     }
 
     .md-typeset div.arithmatex {
