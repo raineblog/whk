@@ -25,7 +25,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: actions-workflow-metrics
-        uses: dev-hato/actions-workflow-metrics@v0.0.7
+        uses: dev-hato/actions-workflow-metrics@v0.0.8
 
       - name: Checkout Source Code
         uses: actions/checkout@v7
