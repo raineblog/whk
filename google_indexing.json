@@ -72,8 +72,8 @@
     "md5": "91b5871941c4f24c22861005b8635e52"
   },
   "docs/cultural/writing/1.md": {
-    "last_submitted": "2026-07-22T01:21:20.314074+00:00",
-    "md5": "34278252de708d5063cead72bee19b12"
+    "last_submitted": "2026-07-25T01:25:05.647698+00:00",
+    "md5": "82338bba3fd0c052d424262d0ad96535"
   },
   "docs/cultural/writing/2.md": {
     "last_submitted": "2026-07-10T01:29:30.460238+00:00",
@@ -120,16 +120,20 @@
     "md5": "0c997df911094b1389132291c9acfb4d"
   },
   "docs/science/cell/4.md": {
-    "last_submitted": "2026-07-10T01:29:30.460238+00:00",
-    "md5": "6067a30e58b235da9bfe06af5a8f2223"
+    "last_submitted": "2026-07-25T01:25:05.647698+00:00",
+    "md5": "14bd7cb6dd40651d607a12285510c02a"
   },
   "docs/science/cell/5.md": {
-    "last_submitted": "2026-07-09T01:45:09.637560+00:00",
-    "md5": "67f2881c0531113ff0cfa5a445c0d6ca"
+    "last_submitted": "2026-07-25T01:25:05.647698+00:00",
+    "md5": "0664c89ae793d5509b18405a1ab08f61"
   },
   "docs/science/cell/6.md": {
-    "last_submitted": "2026-07-08T01:23:30.524865+00:00",
-    "md5": "e75d06e85194d70763628d10bcfd43c9"
+    "last_submitted": "2026-07-25T01:25:05.647698+00:00",
+    "md5": "d7e1d853b59615d531a87d22bd6f24fc"
+  },
+  "docs/science/cell/7.md": {
+    "last_submitted": "2026-07-25T01:25:05.647698+00:00",
+    "md5": "854bee0ac7818296e4f15d8995705e14"
   },
   "docs/science/electromagnetism/1.md": {
     "last_submitted": "2026-07-10T01:29:30.460238+00:00",
