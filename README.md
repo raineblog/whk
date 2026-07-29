@@ -28,11 +28,11 @@
 
 ## 🌐 访问地址
 
-- **在线阅读**：[raineblog.github.io/whk/](https://raineblog.github.io/whk/)（推荐）
+- **在线阅读**：[raineblog.dpdns.org/whk/](https://raineblog.dpdns.org/whk/)（推荐）。
 
-- **镜像地址**：[raineblog.dpdns.org/whk/](https://raineblog.dpdns.org/whk/)
+- **镜像地址**：[raineblog.github.io/whk/](https://raineblog.github.io/whk/)（如果我换了域名，上面的不能用，暂时请用这个试试）。
 
-- **PDF 下载**：[GitHub Releases](https://github.com/raineblog/whk/releases)（由 GitHub Actions 自动构建）
+- **PDF 下载**：[GitHub Releases](https://github.com/raineblog/whk/releases)（~~由 GitHub Actions 自动构建~~，暂时停用了 PDF 导出，因为作者没想好新的架构怎么实现最方便）。
 
 ## 📚 知识体系
 
@@ -124,5 +124,5 @@ uv run scripts/generate.py --build --site_url=https://your-site-url/
 <p align="center">
   <b>RainPPR's WHK Blog</b> | 在破碎中寻回自我，在火焰中实现永恒
   <br>
-  <a href="https://github.com/raineblog/whk">GitHub</a> · <a href="https://x.com/rainppr2008">Twitter/X</a> · <a href="https://mastodon.social/@rainppr">Mastodon</a>
+  <a href="https://github.com/raineblog/whk">GitHub</a>
 </p>
