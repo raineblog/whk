@@ -32,6 +32,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Action Image Resize
+        id: compress_step
+        uses: RainPPR/action-image-resize@main
+        with:
+          path: './docs'
+
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
 
@@ -108,6 +114,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes."
           else
-            git commit -m "chore: update description cache [skip ci]"
+            git commit -m "chore: update description cache [skip ci]" -m "${{ steps.compress_step.outputs.summary }}"
             git push origin main
           fi
