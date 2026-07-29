@@ -106,7 +106,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v5
 
-      - name: Commit and Push Description DB
+      - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -114,6 +114,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes."
           else
-            git commit -m "chore: update description cache [skip ci]" -m "${{ steps.compress_step.outputs.summary }}"
+            git commit -m "chore: auto update [skip ci]" -m "${{ steps.compress_step.outputs.summary }}"
             git push origin main
           fi
