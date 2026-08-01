@@ -1,5 +1,5 @@
 ---
-description: RainPPR 的 WHK 博客是面向高中生的百科知识库，受 CTF Wiki 与 OI Wiki 启发，融合教材、网课及培训资料。通过创新构建了完整的高中学科体系，旨在为学生提供精准、可靠的学习参考。
+description: RainPPR's WHK Blog 是专注于高中文化课的百科博客，涵盖语、数、英、物、化、生、史、地、政。受 CTF Wiki 和 OI Wiki 启发，构建了完整的高中知识框架，提供系统详尽的参考资料。
 ---
 
 # 简介
