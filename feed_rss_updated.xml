@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Fri, 31 Jul 2026 10:16:03 -0000</pubDate>
-    <lastBuildDate>Fri, 31 Jul 2026 10:16:03 -0000</lastBuildDate>
+    <pubDate>Sat, 01 Aug 2026 07:12:49 -0000</pubDate>
+    <lastBuildDate>Sat, 01 Aug 2026 07:12:49 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -32,19 +32,36 @@
     
     
     <item>
+      <title>简介</title>
+      
+      
+      
+      
+      <description>RainPPR&#39;s WHK Blog 是专注于高中文化课的百科博客，涵盖语、数、英、物、化、生、史、地、政。受 CTF Wiki 和 OI Wiki 启发，构建了完整的高中知识框架，提供系统详尽的参考资料。</description>
+      <link>https://raineblog.dpdns.org/whk/</link>
+      <pubDate>Sat, 01 Aug 2026 07:11:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/index.png" type="image/png" length="37021" />
+      
+    </item>
+    
+    <item>
       <title>议论文写作</title>
       
       
       
       
-      <description>汇总2017～2026年高考语文作文题，涵盖全国卷及多省自主命题。深度解析材料作文与任务驱动型写作要点，附带AI标准议论文范文，助力考生精准把握命题趋势，提升写作技巧，是高考备考实用参考指南。</description>
+      <description>本文汇总2017至2026年高考作文题目，涵盖全国Ⅰ、Ⅱ、Ⅲ卷及苏、浙等地区命题。深度分析材料作文与任务驱动型作文的立意，并附带AI生成的议论文范文，为学生备考及提升写作能力提供全面权威参考。</description>
       <link>https://raineblog.dpdns.org/whk/cultural/writing/1/</link>
-      <pubDate>Fri, 31 Jul 2026 10:11:00 +0000</pubDate>
+      <pubDate>Sat, 01 Aug 2026 07:11:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/cultural/writing/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/cultural/writing/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/cultural/writing/1.png" type="image/png" length="44028" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/cultural/writing/1.png" type="image/png" length="42571" />
       
     </item>
     
@@ -56,7 +73,7 @@
       
       <description>本文提供正统的作文素材积累，为学生及写作爱好者提供系统性参考。内容涵盖优质写作素材、名言佳句与表达技巧，旨在帮助读者在积累过程中提升文采、丰富表达，是提升个人写作能力、撰写高分作文的必备实用素材库。</description>
       <link>https://raineblog.dpdns.org/whk/cultural/writing/4/</link>
-      <pubDate>Fri, 31 Jul 2026 10:11:00 +0000</pubDate>
+      <pubDate>Fri, 31 Jul 2026 10:17:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/cultural/writing/4/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/cultural/writing/4/</guid>
@@ -1354,23 +1371,6 @@
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/element/3/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/element/3.png" type="image/png" length="44658" />
-      
-    </item>
-    
-    <item>
-      <title>简介</title>
-      
-      
-      
-      
-      <description>RainPPR 的 WHK 博客是面向高中生的百科知识库，受 CTF Wiki 与 OI Wiki 启发，融合教材、网课及培训资料。通过创新构建了完整的高中学科体系，旨在为学生提供精准、可靠的学习参考。</description>
-      <link>https://raineblog.dpdns.org/whk/</link>
-      <pubDate>Sun, 05 Jul 2026 06:34:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/index.png" type="image/png" length="50112" />
       
     </item>
     
