@@ -78,6 +78,14 @@
         margin-bottom: 0.1em !important;
     }
 
+    /* 自定义 KaTeX 波浪下划线类 */
+    .katex-uwave {
+        text-decoration: underline wavy !important;
+        text-decoration-skip-ink: none; /* 防止被字母下延笔画断开 */
+        text-underline-offset: 3px; /* 控制波浪线与文字的间距 */
+        /* text-decoration-color: red;  如果需要指定颜色可以解开此行 */
+    }
+
     .md-typeset__table {
         display: block !important;
     }
@@ -91,6 +99,10 @@
     }
 
     .recently-updated {
+        font-family: var(--md-text-font) !important;
+    }
+
+    .katex .cjk_fallback {
         font-family: var(--md-text-font) !important;
     }
 
