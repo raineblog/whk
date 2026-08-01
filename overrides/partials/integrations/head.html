@@ -82,8 +82,34 @@
     .katex-uwave {
         text-decoration: underline wavy !important;
         text-decoration-skip-ink: none; /* 防止被字母下延笔画断开 */
+        text-decoration-thickness: 1px; /* 保持 1px 极细质感 */
         text-underline-offset: 3px; /* 控制波浪线与文字的间距 */
         /* text-decoration-color: red;  如果需要指定颜色可以解开此行 */
+    }
+
+    .katex-underline {
+        text-decoration: underline !important;
+        text-decoration-skip-ink: none; /* 防止被字母下延笔画断开 */
+        text-decoration-thickness: 1px; /* 保持 1px 极细质感 */
+        text-underline-offset: 3px; /* 控制波浪线与文字的间距 */
+        /* text-decoration-color: red;  如果需要指定颜色可以解开此行 */
+    }
+
+    uwave {
+        display: inline;
+        text-decoration: underline wavy;
+        text-decoration-skip-ink: none; /* 防止被字母下延笔画断开 */
+        text-decoration-thickness: 1px; /* 保持 1px 极细质感 */
+        text-underline-offset: 3px; /* 控制波浪线与文字的间距 */
+        /* text-decoration-color: red;  如果需要指定颜色可以解开此行 */
+    }
+
+    u {
+        display: inline;
+        text-decoration: underline;
+        text-decoration-skip-ink: none; /* 防止被字母下延笔画断开 */
+        text-decoration-thickness: 1px; /* 保持 1px 极细质感 */
+        text-underline-offset: 3px; /* 拉开距离，防止划线撞到汉字底部笔画 */
     }
 
     .md-typeset__table {
@@ -104,6 +130,11 @@
 
     .katex .cjk_fallback {
         font-family: var(--md-text-font) !important;
+    }
+
+    .katex .text {
+        white-space: normal !important;
+        overflow-wrap: break-word;
     }
 
     /* h1, */
