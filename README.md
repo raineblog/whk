@@ -97,6 +97,19 @@ uv run scripts/generate.py --serve
 uv run scripts/generate.py --build --site_url=https://your-site-url/
 ```
 
+### 格式化
+
+```pwsh
+(whk) PS D:\Github\blog\whk> bun markdownlint-cli2 docs\cultural\writing\1.md --fix
+markdownlint-cli2 v0.23.0 (markdownlint v0.41.0)
+Finding: docs/cultural/writing/1.md
+Linting: 1 file(s)
+Summary: 0 error(s)
+(whk) PS D:\Github\blog\whk> bun autocorrect docs\cultural\writing\1.md --fix      
+.
+AutoCorrect spend time: 48.392ms
+```
+
 ### 使用 Taskfile（可选）
 
 项目支持 `go-task`：
