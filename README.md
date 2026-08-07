@@ -105,7 +105,7 @@ markdownlint-cli2 v0.23.0 (markdownlint v0.41.0)
 Finding: docs/cultural/writing/1.md
 Linting: 1 file(s)
 Summary: 0 error(s)
-(whk) PS D:\Github\blog\whk> bun autocorrect docs\cultural\writing\1.md --fix      
+(whk) PS D:\Github\blog\whk> bun autocorrect docs\cultural\writing\1.md --fix
 .
 AutoCorrect spend time: 48.392ms
 ```
