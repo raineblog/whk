@@ -103,6 +103,8 @@ n=\\dfrac{N}{N_A}=\\dfrac{m}{M}=\\dfrac{V}{V_m}=cV
 
 十字交叉法
 
+## 物态变化
+
 ## 分子动理论
 
 注意：关于分子动理论的部分，这篇文章作者自己感觉写的并不是很好，建议先阅读[小时百科上的分子动理论（高中）](https://web.archive.org/web/20260221104106/https://wuli.wiki/online/thermo.html)或者[我的 PDF 存档](https://huggingface.co/datasets/RainPPR/whk/blob/main/physics/%E5%88%86%E5%AD%90%E5%8A%A8%E7%90%86%E8%AE%BA%EF%BC%88%E9%AB%98%E4%B8%AD%EF%BC%89%20-%20%E5%B0%8F%E6%97%B6%E7%99%BE%E7%A7%91.pdf)内容，或者看完本文后，结合那个进行记忆。
@@ -270,6 +272,6 @@ n=\\dfrac{N}{N_A}=\\dfrac{m}{M}=\\dfrac{V}{V_m}=cV
 
 超分子化学的发展不仅与大环化学（冠醚、穴醚、环糊精、杯芳烃、C60 等）的发展密切相连，而且与分子的自组装（双分子膜、胶束、DNA 双螺旋等）、分子器件和新兴有机材料的研究息息相关。
 
-2026-07-092026-07-12
+2026-07-092026-08-08
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
