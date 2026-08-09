@@ -22,6 +22,6 @@
 
 ## 透镜中的数学原理
 
-2026-08-082026-08-08
+2026-08-082026-08-09
 
-[RainPPR](mailto:PPR2125773894@163.com)
+[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
