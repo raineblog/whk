@@ -568,8 +568,8 @@
     "last_submitted": 1783599410.9043298
   },
   "docs/science/mechanics/9.md": {
-    "md5": "a64a0696d528d1adddadd6a2711349ec",
-    "last_submitted": 1783599410.9043298
+    "md5": "4a008125dc70cc034bb5cc3f6cd92e10",
+    "last_submitted": 1786270705.3292844
   },
   "docs/science/mechanics/index.md": {
     "md5": "5d914a1cd5d11610c154c9e0e2d88c95",
@@ -642,5 +642,9 @@
   "docs/cultural/writing/6.md": {
     "md5": "a36e8a0e88f5e2d2733b664c2a6d4ce1",
     "last_submitted": 1785591864.6200986
+  },
+  "docs/science/electromagnetism/8.md": {
+    "md5": "cd0251eb502d3293a4b9000be9110742",
+    "last_submitted": 1786270705.3292844
   }
 }
