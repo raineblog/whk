@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 10 Aug 2026 01:07:12 -0000</pubDate>
-    <lastBuildDate>Mon, 10 Aug 2026 01:07:12 -0000</lastBuildDate>
+    <pubDate>Tue, 11 Aug 2026 10:59:46 -0000</pubDate>
+    <lastBuildDate>Tue, 11 Aug 2026 10:59:46 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -32,19 +32,70 @@
     
     
     <item>
+      <title>光学原理初步</title>
+      
+      
+      
+      
+      <description>本文是光学入门科普内容，系统梳理几何光学、波动光学核心知识，涵盖光的传播、反射、折射、干涉、衍射、偏振等基础原理，包含小孔成像、双缝干涉等经典实验，适合中学物理学习者及光学入门者阅读参考。</description>
+      <link>https://raineblog.dpdns.org/whk/science/electromagnetism/7/</link>
+      <pubDate>Tue, 11 Aug 2026 10:56:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/7/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/7/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/7.png" type="image/png" length="43879" />
+      
+    </item>
+    
+    <item>
       <title>物理实验基础</title>
       
       
       
       
-      <description>本文系统汇总中学物理实验核心内容，涵盖物理基础理论、力学/电学/光学等各类实验的操作步骤、数据处理方法、误差分析与高频考点，适合高中物理实验学习、备考及教学参考使用。</description>
+      <description>本页面系统梳理中学物理实验核心知识点，涵盖物理学史、力学、电学、光学等领域实验的原理、操作步骤、误差分析与数据处理，含量纲、有效数字及游标卡尺等仪器使用规范，适合高中生实验备考及物理实验学习者参考。</description>
       <link>https://raineblog.dpdns.org/whk/science/mechanics/</link>
-      <pubDate>Sun, 09 Aug 2026 11:24:00 +0000</pubDate>
+      <pubDate>Tue, 11 Aug 2026 10:56:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/mechanics/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/index.png" type="image/png" length="47475" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/index.png" type="image/png" length="44836" />
+      
+    </item>
+    
+    <item>
+      <title>压强与浮力、热力学与理想气体</title>
+      
+      
+      
+      
+      <description>本文是高中物理学习参考资料，系统梳理液体与气体压强、浮力、阿基米德原理、热力学定律、理想气体状态方程等核心知识点，包含实验方法、典型题型解析与例题，适用于中学阶段物理学习与备考。</description>
+      <link>https://raineblog.dpdns.org/whk/science/mechanics/9/</link>
+      <pubDate>Tue, 11 Aug 2026 10:56:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/mechanics/9/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/9/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/9.png" type="image/png" length="57199" />
+      
+    </item>
+    
+    <item>
+      <title>物质与物质的组成</title>
+      
+      
+      
+      
+      <description>本文系统梳理中学阶段物质结构相关核心知识点，涵盖物质的量（含阿伏伽德罗常数、摩尔质量、物质的量浓度）计算规则、分子动理论、物态变化、油膜法估分子大小、晶体与非晶体性质、液晶显示原理、纳米材料及超分子相关知识，适合中学生复习备考与知识点查阅。</description>
+      <link>https://raineblog.dpdns.org/whk/science/reaction/5/</link>
+      <pubDate>Tue, 11 Aug 2026 10:56:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/science/reaction/5/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/5/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/5.png" type="image/png" length="48976" />
       
     </item>
     
@@ -66,23 +117,6 @@
     </item>
     
     <item>
-      <title>压强与浮力、热力学与理想气体</title>
-      
-      
-      
-      
-      <description>本文系统梳理高中物理压强与浮力、热力学基础及理想气体相关知识，涵盖阿基米德原理、浮沉条件、分子动理论、热力学三定律、气体实验定律、P-V图分析与典型习题解法，是中学物理学习与备考的实用参考资料。</description>
-      <link>https://raineblog.dpdns.org/whk/science/mechanics/9/</link>
-      <pubDate>Sun, 09 Aug 2026 10:20:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/mechanics/9/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/mechanics/9/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/mechanics/9.png" type="image/png" length="57659" />
-      
-    </item>
-    
-    <item>
       <title>近代物理初步</title>
       
       
@@ -96,40 +130,6 @@
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/6/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/6.png" type="image/png" length="47451" />
-      
-    </item>
-    
-    <item>
-      <title>光学原理初步</title>
-      
-      
-      
-      
-      <description>本文系统讲解光学核心原理，涵盖几何光学、波动光学基础内容，包括光的传播、反射、折射、干涉、衍射、偏振等知识点，涉及小孔成像、光导纤维、激光特性与应用等，适合光学入门学习及相关研究参考。</description>
-      <link>https://raineblog.dpdns.org/whk/science/electromagnetism/7/</link>
-      <pubDate>Sat, 08 Aug 2026 14:42:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/electromagnetism/7/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/electromagnetism/7/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/electromagnetism/7.png" type="image/png" length="44092" />
-      
-    </item>
-    
-    <item>
-      <title>物质与物质的组成</title>
-      
-      
-      
-      
-      <description>本文为高中化学配套学习资料，系统梳理物质的量相关定义、计算公式与解题方法，同时涵盖分子动理论、物态变化、晶体与液晶性质、纳米及超分子等物质结构与性质的核心知识点，适合高中阶段学习者参考使用。</description>
-      <link>https://raineblog.dpdns.org/whk/science/reaction/5/</link>
-      <pubDate>Sat, 08 Aug 2026 14:42:00 +0000</pubDate>
-      <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
-      <comments>https://raineblog.dpdns.org/whk/science/reaction/5/#__comments</comments>
-      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/reaction/5/</guid>
-      
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/reaction/5.png" type="image/png" length="49268" />
       
     </item>
     
