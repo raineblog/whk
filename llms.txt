@@ -46,7 +46,7 @@
 - [细胞的生命历程](https://raineblog.dpdns.org/whk/science/cell/4/index.md)
 - [胚胎工程与细胞工程](https://raineblog.dpdns.org/whk/science/cell/5/index.md)
 - [基因与基因工程](https://raineblog.dpdns.org/whk/science/cell/6/index.md)
-- [经典遗传学与遗传病](https://raineblog.dpdns.org/whk/science/cell/7/index.md)
+- [遗传学与遗传病](https://raineblog.dpdns.org/whk/science/cell/7/index.md)
 - [电场与电场运动](https://raineblog.dpdns.org/whk/science/electromagnetism/1/index.md)
 - [恒定电流与电学实验](https://raineblog.dpdns.org/whk/science/electromagnetism/2/index.md)
 - [磁场概述](https://raineblog.dpdns.org/whk/science/electromagnetism/3/index.md)
