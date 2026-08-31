@@ -98,7 +98,7 @@
 - [数字和计数系统](https://raineblog.dpdns.org/whk/science/mathematics/1/index.md)
 - [集合与逻辑](https://raineblog.dpdns.org/whk/science/mathematics/2/index.md)
 - [公理化系统](https://raineblog.dpdns.org/whk/science/mathematics/3/index.md)
-- [数学史概述](https://raineblog.dpdns.org/whk/science/mathematics/4/index.md)
+- [中华优秀传统文化中的数学](https://raineblog.dpdns.org/whk/science/mathematics/4/index.md)
 - [物理实验基础](https://raineblog.dpdns.org/whk/science/mechanics/index.md)
 - [直线和抛体运动、简谐运动和机械波](https://raineblog.dpdns.org/whk/science/mechanics/1/index.md)
 - [静力与动量](https://raineblog.dpdns.org/whk/science/mechanics/2/index.md)

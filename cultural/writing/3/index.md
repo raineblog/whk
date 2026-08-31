@@ -178,6 +178,34 @@ Paragraph 2: As we drove home, the girls chatted happily about the “best day e
 1. **`...knowing that this unexpected detour had brought...`** \\rightarrow (现在分词引导的伴随状语)
    - *解析*：将“感悟”自然地融入在“开车离开”这个动作中，使结尾不显得突兀，且具有深意。
 
-2025-11-042026-07-04
+### 老当益壮
+
+第一段先描写看到画面时的**静态视觉感受**（坐姿、皱纹变光彩），再过渡到**动态心理冲击**（仿佛变成年轻小伙），层层递进，把 *took me completely by surprise* 这个首句要求发挥到了极致。将你原句中稍显突兀的“被嘲笑”顺势引导为 John 的“展示绝活（land-surf）”，把可能发生的敌意瞬间化解为互相吸引，完成了极其丝滑的剧情反转。
+
+1. But what I saw took me completely by surprise. John was sitting among the teenagers, with all of them laughing loudly and sharing their stories. It seemed as if John were no longer an old man, but an energetic boy. I could even see that the deep wrinkles on his face had been replaced by a vibrant glow of life. Had it not been for his grey hair, I would have regarded him as a real young man.
+
+1. When John saw me, he came up smiling, eager to tell me what had happened. When he first returned to the park, the teenagers initially teased him about his slow pace. However, John took their teasing in stride and decided to show them a skill from his sailor days — surfing. He ended up teaching the kids how to land-surf on the pavement while sharing his thrilling sea adventures. “I really soaked up their youthful energy,” he said with a beaming smile. It was at that very moment that I realized true youthfulness lies in one’s mindset, not age. The instant you open your heart to life, you will find yourself forever young.
+
+1. **`vibrant glow of life`（生命活力的光彩）**
+
+   - **亮点**：用 `vibrant`（充满生机的）修饰 `glow`，比一般的 `happy face` 或 `glow of life` 更有画面感，极具视觉冲击力。
+
+1. **`take sth in stride`（从容应对/一笑置之）**
+
+   - **亮点**：极度地道的动词短语！用来描写 John 面对少年们的调侃时那种老水手的豁达与从容，比 `accept` 或 `don't care` 高级得多。
+
+1. **`thrilling sea adventures`（惊险刺激的航海冒险）**
+
+   - **亮点**：`thrilling` 精准传达出航海故事对年轻人的吸引力，紧扣原文 John 的水手身份。
+
+1. **`soak up`（尽情享受/汲取）**
+
+   - **亮点**：替代了普通的 `enjoy`。`soak up energy` 直译为“像海绵一样吸收活力”，生动展现了老人在年轻人感染下重新焕发青春的状态。
+
+1. **`beaming smile`（灿烂开心的笑容）**
+
+   - **亮点**：比起 `smile`，`beaming` 让神态描写瞬间跃然纸上。
+
+2025-11-042026-08-31
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
