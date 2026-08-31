@@ -15,7 +15,7 @@ def get_description(file: str, options):
         user_content += f"{key}：{value}\n"
 
     completion = client.chat.completions.create(
-        model="nvidia/nemotron-3.5-lightning-30b-a3b",
+        model="meta/muse-glimmer-30b",
         messages=[
             {
                 "role": "system",
@@ -27,8 +27,8 @@ def get_description(file: str, options):
             },
         ],
         stream=True,
-        max_tokens=32768,
-        extra_body={"chat_template_kwargs":{"enable_thinking":True},"reasoning_budget":32768},
+        # max_tokens=32768,
+        # extra_body={"chat_template_kwargs":{"enable_thinking":True},"reasoning_budget":32768},
     )
 
     result = ""
