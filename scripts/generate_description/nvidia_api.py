@@ -15,7 +15,7 @@ def get_description(file: str, options):
         user_content += f"{key}：{value}\n"
 
     completion = client.chat.completions.create(
-        model="meta/muse-glimmer-30b",
+        model="nvidia/nemotron-3.5-lightning-30b-a3b",
         messages=[
             {
                 "role": "system",
@@ -26,9 +26,9 @@ def get_description(file: str, options):
                 "content": f"{file_content}\n\n---\n\n给上面的文章，拟一个纯文本的描述 Description 字段，用于 SEO/GEO，必须是简体中文，75～100 字左右，不要输出其他任何内容。\n\n{user_content}",
             },
         ],
-        max_tokens=16353,
         stream=True,
-        # extra_body={"chat_template_kwargs": {"enable_thinking": True}},
+        max_tokens=32768,
+        extra_body={"chat_template_kwargs":{"enable_thinking":True},"reasoning_budget":32768},
     )
 
     result = ""
