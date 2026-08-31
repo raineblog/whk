@@ -376,6 +376,6 @@ pandoc:
   args:
     - --wrap=none
     - --syntax-highlighting=tango
-    - --katex
+    - --math-method=katex
     - --strip-comments=false
 
