@@ -32,12 +32,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Action Image Resize
-        id: compress_step
-        uses: RainPPR/action-image-resize@main
-        with:
-          path: './docs'
-
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
 
@@ -62,6 +56,12 @@ jobs:
           key: ${{ runner.os }}-mkdocs-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
             ${{ runner.os }}-mkdocs-
+
+      - name: Action Image Resize
+        id: compress_step
+        uses: RainPPR/action-image-resize@main
+        with:
+          path: './docs'
 
       - name: Run Description Generation Script
         timeout-minutes: 30
