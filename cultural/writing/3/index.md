@@ -206,6 +206,41 @@ Paragraph 2: As we drove home, the girls chatted happily about the “best day e
 
    - **亮点**：比起 `smile`，`beaming` 让神态描写瞬间跃然纸上。
 
-2025-11-042026-08-31
+### 小孩读书
+
+这是一篇关于**人与社会/自我重构**主题的高考英语读后续写题目。
+
+- **背景（Setting）**：偏远河岛小镇，年轻人流向城市，留守儿童沉迷手机屏幕，街道冷清。
+- **主人公（Character）**：返乡创业的克拉拉（Clara），开办免费书店却无人问津；骑车带绘本送书上门再次屡屡碰壁。
+- **转折点（Turning Point）**：傍晚在河边遇到8岁男孩托比（Toby），正在用木棍在沙地上认真描绘飞鸟的轮廓，展现出丰富的想象力。书包里最后剩下的绘本封面正好是一只展翅高飞的鸟。
+- **第一段首句**：*Clara took a deep breath and walked towards him.*（克拉拉深吸一口气，朝他走了过去。）
+  - **推断走向**：克拉拉主动靠近，展示绘本封面与托比地上的画形成呼应。两人通过阅读建立情感连接，托比被书中的故事深深吸引，打破阅读冰山。
+  - **微动作与环境**：蹲下、展示封面、翻页、夕阳余晖、河畔晚风。
+- **第二段首句**：*The following Saturday, Clara walked into her bookstore, surprised to find Toby was not alone.*（接下来的那个星期六，克拉拉走进书店，惊讶地发现托比并不是一个人。）
+  - **推断走向**：托比带了其他小伙伴来到书店，孩子们的注意力从手机屏幕转移到了绘本故事上，书店重现欢声笑语。
+  - **主题升华**：强调想象力与故事的力量能够唤醒心灵，陪伴与耐心能为乡村带来生机与希望。
+
+> **Clara took a deep breath and walked towards him.** Kneeling gently beside the boy, she placed the open book on the soft grass without saying a word. Toby looked up, his eyes widening with wonder as he noticed the soaring bird on the cover—a striking match to his drawing in the dust. “Would you like to see where he is flying?” Clara asked in a soft, encouraging voice. Mesmerized, Toby nodded and squatted closer. As Clara turned the colorful pages and read aloud, the golden sunset cast a warm glow over them, and the boy’s delighted laughter echoed softly along the quiet riverbank.
+>
+> **The following Saturday, Clara walked into her bookstore, surprised to find Toby was not alone.** Beside him sat three other children, all leaning forward intently as Toby reenacted the story of the flying bird with vivid gestures. The previously empty chairs were now filled, and the room vibrated with hushed whispers and the pleasant sound of rustling pages. A surge of joy and relief swept over Clara as she saw their phones lying forgotten in their pockets. Looking at the lively scene, she realized that imagination, once ignited, possessed an irresistible magic that could bring the forgotten island back to life.
+
+本篇范文融合了高分写作句式与润色技巧：
+
+1. 非谓语动词与独立主格开头（增加句式多样性）
+   - **例句**：*Kneeling gently beside the boy, she placed the open book on the soft grass…*
+   - **解析**：使用现在分词短语 `Kneeling gently...` 作伴随状语，使动作链条自然流畅。
+   - **例句**：*Mesmerized, Toby nodded and squatted closer.*
+   - **解析**：过去分词 `Mesmerized` 独立置于句首表达心理状态，比单纯用 `Because he was attracted...` 更具高级感。
+1. 无灵主语句式（用抽象名词作主语，增强生动性）
+   - **例句**：*A surge of joy and relief swept over Clara as she saw their phones lying forgotten…*
+   - **解析**：采用无灵主语（`A surge of joy and relief`），配合动词 `swept over`，生动形象地烘托出克拉拉看到孩子们放下手机时的欣慰与激动。
+1. 环境与感官描写（渲染氛围）
+   - **例句**：*…the golden sunset cast a warm glow over them, and the boy’s delighted laughter echoed softly along the quiet riverbank.*
+   - **解析**：将夕阳（视觉）、欢笑声（听觉）与静谧的河畔结合，烘托出温馨和谐的阅读氛围。
+1. 万能结尾主题升华句
+   - **例句**：*…she realized that imagination, once ignited, possessed an irresistible magic that could bring the forgotten island back to life.*
+   - **解析**：结尾点题升华，将“阅读绘本”上升到“激发想象力”与“重聚乡村活力”的高度，切合高考第七档（22~25分）作文对正向价值导向的要求。
+
+2025-11-042026-09-13
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
