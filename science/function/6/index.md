@@ -1,38 +1,92 @@
 # 不等式进阶拓展
 
-## （二）柯西-施瓦茨不等式
+## 柯西-施瓦茨不等式
 
-### 简化形式
+### 柯西不等式
 
 对于实数 a_1,a_2,b_1,b_2：
 
 (a_1^2+a_2^2)(b_1^2+b_2^2)\\ge(a_1b_1+a_2b_2)^2
 
-证明：
+证明方法一：直接展开
 
-\\begin{aligned} &a_1^2b_2^2+a_2^2b_1^2\\ge 2a_1b_1a_2b_2\\ \\Leftrightarrow;&a_1^2b_1^2+a_2^2b_2^2+a_1^2b_2^2+a_2^2b_1^2\\ge a_1^2b_1^2+a_2^2b_2^2+2a_1b_1a_2b_2\\ \\Leftrightarrow;&(a_1^2+a_2^2)(b_1^2+b_2^2)\\ge(a_1b_1+a_2b_2)^2 \\end{aligned}
+要证明这个简单的不等式，最方便的做法就是直接展开：
+
+a_1^2b_1^2+a_2^2b_2^2+a_1^2b_2^2+a_2^2b_1^2\\ge a_1^2b_1^2+a_2^2b_2^2+2a_1b_1a_2b_2
+
+约去相同的项，得到
+
+a_1^2b_2^2+a_2^2b_1^2\\ge 2a_1b_1a_2b_2
+
+可以配方，也可以根据均值不等式，
+
+a_1^2b_2^2+a_2^2b_1^2\\ge2\\sqrt{a_1^2a_2^2b_1^2b_2^2}\\ge2a_1a_2b_1b_2
 
 取等条件：
 
 {a_1\\over b_1}={a_2\\over b_2}
 
-### 一般形式
+证明方法二：换元法
 
-对于实数序列 a,b：
+还可以换元，不妨设
+
+A=\\sqrt{a_1^2+a_2^2},B=\\sqrt{b_1^2+b_2^2}
+
+则不等式可以表示为
+
+\\dfrac{(a_1b_1+a_2b_2)}{AB}\\le1
+
+不妨拆开，也就是
+
+\\dfrac{a_1b_1}{AB}+\\dfrac{a_2b_2}{AB}\\le\\dfrac{1}{2}\\left(\\dfrac{a_1^2}{A^2}+\\dfrac{b_1^2}{B^2}+\\dfrac{a_2^2}{A^2}+\\dfrac{b_2^2}{B^2}\\right)=1
+
+对于一般的实数序列 a,b：
 
 \\sum\_{i=1}^na_i^2\\sum\_{i=1}^nb_i^2\\ge\\left(\\sum\_{i=1}^na_ib_i\\right)^2
 
-证明：
-
-\\begin{aligned} &\\sum\_{i=1}^na_i^2\\sum\_{i=1}^nb_i^2-\\left(\\sum\_{i=1}^na_ib_i\\right)^2\\ =;&\\sum\_{1\\le i\<j\\le n}(a_ib_j-a_jb_i)^2 \\end{aligned}
-
-上式即拉格朗日恒等式，可知其 \\ge0 且取等条件为：
+证明可以展开，用拉格朗日恒等式，但是较为复杂，取等条件为：
 
 {a_1\\over b_1}={a_2\\over b_2}=\\dots={a_n\\over b_n}
 
-### 物理证明
+若某个 b 为零，这个式子失效，但是仍然可以用任两 a,b 相乘相等来验证。
 
-转自：<https://www.zhihu.com/question/359244589/answer/3440897794>。
+证明方法三：判别式法
+
+可以用判别式证明，不妨令
+
+A=\\sum\_{i=1}^na_i^2,B=\\sum\_{i=1}^na_ib_i,C=\\sum\_{i=1}^nb_i^2,
+
+要证即 AC\\ge B^2，不妨构造方程，注意到可以将 \\sum 合并，配方为
+
+f(x)=Ax^2+2Bx+C=\\sum\_{i=1}^n(a_ix+b_i)^2\\ge0
+
+因为二次函数恒非负，且二次项系数 A 非负，则一定有判别式非正：
+
+\\dfrac{\\Delta}{4}=B^2-AC\\le 0\\implies AC\\ge B^2
+
+取等可以是存在 x 使得 a_ix+b_i 均为零。
+
+柯西不等式有两个常见的变形，这两个变形无须记忆，重点应该记忆柯西不等式的标准形式
+
+1. 平方和形式：设 a_1, a_2, \\dots, a_n 为任意实数，则
+
+   \\left(\\sum\_{i=1}^n a_i\\right)^2 \\leqslant n \\sum\_{i=1}^n a_i^2,
+
+   等号当且仅当 a_1 = a_2 = \\dots = a_n 时成立。
+
+   在柯西不等式中取 b_i = 1（i = 1, 2, \\dots, n），即得 \\left(\\sum\_{i=1}^n a_i\\right)^2 \\leqslant \\left(\\sum\_{i=1}^n a_i^2\\right) \\cdot n。等号条件为 a_i 与常数 1 成比例，即 a_i 全部相等。
+
+1. 倒数和形式：设 a_1, a_2, \\dots, a_n 为正实数，则
+
+   \\left(\\sum\_{i=1}^n a_i\\right) \\left(\\sum\_{i=1}^n \\frac{1}{a_i}\\right) \\geqslant n^2,
+
+   等号当且仅当 a_1 = a_2 = \\dots = a_n 时成立。
+
+   在柯西不等式中取 b_i = 1/\\sqrt{a_i}，则 a_i b_i = \\sqrt{a_i} \\cdot 1/\\sqrt{a_i} = 1，故 \\left(\\sum\_{i=1}^n 1\\right)^2 = n^2 \\leqslant \\left(\\sum\_{i=1}^n a_i\\right) \\left(\\sum\_{i=1}^n \\frac{1}{a_i}\\right)。等号条件为 \\sqrt{a_i} 与 1/\\sqrt{a_i} 成比例，即 a_i 全部相等。
+
+更常见的推论是分数和形式，我们在下面单独讲解。
+
+证明方法四：物理法
 
 光滑桌子（\\mu=0）上面放着若干个质量不一的薄板，其中间的摩擦因数不为零（\\mu\\neq0）。
 
@@ -66,27 +120,101 @@
 
 即柯西不等式（当然这个结论比柯西不等式弱一些）。
 
-______________________________________________________________________
+在 n 维空间中，夹角余弦值的定义就是内积
 
-柯西-施瓦茨不等式：对于正实数 a,b,x,y，有
+\\cos\\theta=\\dfrac{\\bm a\\cdot \\bm b}{|\\bm a|\\cdot|\\bm b|}
 
-(a^2+b^2)(c^2+d^2)\\ge(ac+bd)^2
+而要证明夹角余弦值的绝对值 \\le 1，即证明
 
-当且仅当 ad=bc 时，等号成立。
+|\\bm a\\cdot\\bm b|\\le|\\bm a|\\cdot|\\bm b|
 
-示例：已知实数 x,y 满足 x^2+y^2=3，求 5x+2y 的最大值。根据柯西不等式：
+不妨设两向量为
 
-(5x+2y)^2=(ac+bd)^2\\le (a^2+b^2)(c^2+d^2)=(5^2+2^2)(x^2+y^2)=87
+\\bm a=(a_1,a_2,\\dots,a_n),\\bm b=(b_1,b_2,\\dots,b_n)
 
-即：
+展开即为柯西不等式，因此夹角余弦值可以用来记忆和理解柯西不等式，但是不能用来证明柯西不等式，因为 |\\cos\\theta|\\le1 本身就是柯西不等式的一种形式。需要注意的是，在二维、三维中，从几何余弦定理可以推出柯西不等式，因为几何角度独立；但 n 维的“夹角”通常没有独立几何定义，是内积诱导的。即使可以嵌入二维平面，也需先建立内积与长度，可能仍依赖柯西不等式。
 
-(5x+2y)^2\\le 87\\Rightarrow 5x+2y\\le\\sqrt{87}
+从向量的角度证明柯西不等式与判别式法类似，对任意实数 t，有
+
+|\\bm a+t\\bm b|=|\\bm a|^2+2t(\\bm a\\cdot\\bm b)+t^2|\\bm b|^2\\ge 0
+
+因此判别式 \\Delta\\le 0，即柯西不等式的向量形式。
+
+### 柯西不等式的例题
+
+例一：已知实数 x,y 满足 x^2+y^2=3，求 5x+2y 的最大值。
+
+(5x+2y)^2\\le(5^2+2^2)(x^2+y^2)=87
 
 所以 5x+2y 的最大值为 \\sqrt{87}。
 
-权方和不等式：
+例二：已知 x,y>0，且 \\dfrac{1}{2x+y}+\\dfrac{1}{y+1}=1，求 x+2y 的最小值。
 
-\\frac{a^2}{x}+\\frac{b^2}{y}\\ge\\frac{(a+b)^2}{x+y}
+观察到分母不好处理，不妨令 m=2x+y,n=y+1，则 y=n-1,x=\\dfrac{m-n+1}{2}，条件即 \\dfrac{1}{m}+\\dfrac{1}{n}=1，所求即为
+
+x+2y=\\dfrac{m-n+1}{2}+2n-2=\\dfrac{m+3n-3}{2}
+
+我们只需要求 m+3n 的最小值，这里自然可以用均值不等式中“1”的代换思路，即
+
+m+3n=(m+3n)\\left(\\dfrac{1}{m}+\\dfrac{1}{n}\\right)=4+\\dfrac{3n}{m}+\\dfrac{m}{n}\\ge4+2\\sqrt{3}
+
+同时也可以用柯西不等式的思路，
+
+m+3n=(m+3n)\\left(\\dfrac{1}{m}+\\dfrac{1}{n}\\right)\\ge(1+\\sqrt{3})^2=4+2\\sqrt{3}
+
+最终可以得到 x+2y\\ge\\sqrt{3}+\\dfrac{1}{2}。
+
+例三：已知 x,y,z 均为正数，证明
+
+\\dfrac{x^2}{y}+\\dfrac{y^2}{z}+\\dfrac{z^2}{x}\\ge x+y+z
+
+可以直接对左侧用柯西不等式，即
+
+(x+y+z)\\left(\\dfrac{x^2}{y}+\\dfrac{y^2}{z}+\\dfrac{z^2}{x}\\right)\\ge(x+y+z)^2
+
+除过去即可，当然也可以用类似上道题的那种均值不等式的朴素做法，即两侧同加
+
+\\dfrac{x^2}{y}+y+\\dfrac{y^2}{z}+z+\\dfrac{z^2}{x}+x\\ge2(x+y+z)
+
+对左侧直接应用三个二元均值不等式即可得到右边。
+
+### 柯西不等式的分式形式
+
+柯西不等式的分式形式，也称为分数和形式、Engel 形式、Titu 引理（或谐音为 T2 引理），更一般化的时候称为权方和不等式，因为权方和不等式的形式很复杂，且用起来也不方便，因此一般只用 Engel 形式。
+
+最简单的二元形式可以写作
+
+\\dfrac{a_1^2}{b_1}+\\dfrac{a_2^2}{b_2}\\ge\\dfrac{(a_1+a_2)^2}{b_1+b_2}
+
+更一般的形式可以写作
+
+\\dfrac{a_1^2}{b_1}+\\dfrac{a_2^2}{b_2}+\\dots+\\dfrac{a_n^2}{b_n}\\ge\\dfrac{(a_1+a_2+\\dots+a_n)^2}{b_1+b_2+\\dots+b_n}
+
+等号成立当且仅当
+
+\\dfrac{a_1}{b_1}=\\dfrac{a_2}{b_2}=\\dots=\\dfrac{a_n}{b_n}
+
+证明由柯西不等式形式
+
+(a_1^2+a_2^2+\\dots+a_n^2)(b_1^2+b_2^2+\\dots+b_n^2)\\ge(a_1b_1+a_2b_2+\\dots+a_nb_n)
+
+令 a_i=\\dfrac{x_i}{\\sqrt{y_i}},b_i=\\sqrt{y_i}，那么
+
+\\left(\\dfrac{x_1^2}{y_1}+\\dfrac{x_2^2}{y_2}+\\dots+\\dfrac{x_n^2}{y_n}\\right)(y_1+y_2+\\dots+y_n)\\ge(x_1+x_2+\\dots+x_n)
+
+除过去即为 Engel 形式。
+
+权方和不等式
+
+设 a_1,a_2,\\dots,a_n>0，b_1,b_2,\\dots,b_n>0，r\\in\\mathbb{R}，则
+
+- 当 r\\ge0，或 r\\le-1 时，有
+
+  \\frac{a_1^{r+1}}{b_1^{r}}+\\frac{a_2^{r+1}}{b_2^{r}}+\\dots+\\frac{a_n^{r+1}}{b_n^{r}}\\ge\\frac{(a_1+a_2+\\dots+a_n)^{r+1}}{(b_1+b_2+\\dots+b_n)^{r}}。
+
+- 当 -1\<r\<0 时，有
+
+  \\frac{a_1^{r+1}}{b_1^{r}}+\\frac{a_2^{r+1}}{b_2^{r}}+\\dots+\\frac{a_n^{r+1}}{b_n^{r}}\\le\\frac{(a_1+a_2+\\dots+a_n)^{r+1}}{(b_1+b_2+\\dots+b_n)^{r}}。
 
 示例：已知实数 x,y>0 满足 \\frac{1}{x}+\\frac{4}{y}=1，求 x+y 的最小值。根据权方和不等式：
 
@@ -135,24 +263,12 @@ A = (x_1, x_2),\\quad B = (x_1, x_2)
 
 (1+x_1)(1+x_2)\\dots(1+x_n)\\ge1+x_1+x_2+\\dots+x_n
 
-### 权方和不等式
-
-设 a_1,a_2,\\cdots,a_n>0，b_1,b_2,\\cdots,b_n>0，r\\in\\mathbb{R}，则
-
-- 当 r\\ge0，或 r\\le-1 时，有
-
-  \\frac{a_1^{r+1}}{b_1^{r}}+\\frac{a_2^{r+1}}{b_2^{r}}+\\cdots+\\frac{a_n^{r+1}}{b_n^{r}}\\ge\\frac{(a_1+a_2+\\cdots+a_n)^{r+1}}{(b_1+b_2+\\cdots+b_n)^{r}}。
-
-- 当 -1\<r\<0 时，有
-
-  \\frac{a_1^{r+1}}{b_1^{r}}+\\frac{a_2^{r+1}}{b_2^{r}}+\\cdots+\\frac{a_n^{r+1}}{b_n^{r}}\\le\\frac{(a_1+a_2+\\cdots+a_n)^{r+1}}{(b_1+b_2+\\cdots+b_n)^{r}}。
-
 ### 杨格不等式
 
 若 a,b>0，p>1，\\dfrac{1}{p}+\\dfrac{1}{q}=1，则有
 
 ab\\le\\dfrac{1}{p}a^{p}+\\dfrac{1}{q}b^{q}。
 
-2026-03-142026-07-04
+2026-03-142026-09-17
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
