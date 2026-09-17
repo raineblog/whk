@@ -33,8 +33,7 @@ override-dependencies = [
 [tool.uv.sources]
 mkdocs-document-dates = { git = "https://github.com/raineblog/mkdocs-document-dates.git" }
 
-[dependency-groups]
-dev = [
-    "pyside6>=6.10.2",
-    "rich>=14.3.3",
-]
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true

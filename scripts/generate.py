@@ -9,6 +9,9 @@ from pathlib import Path
 
 print = functools.partial(print, flush=True)
 
+os.environ["LC_ALL"] = "zh_CN.UTF-8"
+os.environ["LANG"] = "zh_CN.UTF-8"
+
 import yaml
 import json
 from jinja2 import Environment, FileSystemLoader
@@ -153,17 +156,23 @@ def main():
             print(
                 f"🚀 启动 {' '.join(cmd_prefix)} mkpandocs serve (端口: {args.port})..."
             )
-            # try:
-            #     subprocess.run(
-            #         cmd_prefix
-            #         + ["mkdocs", "serve", "--dev-addr", f"0.0.0.0:{args.port}"],
-            #         check=True,
-            #     )
-            # except KeyboardInterrupt:
-            #     print("\n[FINAL] 服务已停止。")
-            # except subprocess.CalledProcessError as e:
-            #     print(f"[ERROR] 服务启动失败: {e}")
-            #     sys.exit(1)
+            try:
+                subprocess.run(
+                    cmd_prefix
+                    + [
+                        "mkpandocs",
+                        "serve",
+                        "--dirty",
+                        "--dev-addr",
+                        f"0.0.0.0:{args.port}",
+                    ],
+                    check=True,
+                )
+            except KeyboardInterrupt:
+                print("\n[FINAL] 服务已停止。")
+            except subprocess.CalledProcessError as e:
+                print(f"[ERROR] 服务启动失败: {e}")
+                sys.exit(1)
 
     else:
         print("⚠️ 错误: 请指定要执行的操作，例如 --build 或 --serve")
