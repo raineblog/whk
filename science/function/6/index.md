@@ -1,154 +1,243 @@
-# 不等式进阶拓展
+# 高中代数与不等式刷题进阶
 
-## 柯西-施瓦茨不等式
+## 均值不等式
 
-### 柯西不等式
+### 对勾函数
 
-对于实数 a_1,a_2,b_1,b_2：
+对于定义在 \\R-{0} 的函数
 
-(a_1^2+a_2^2)(b_1^2+b_2^2)\\ge(a_1b_1+a_2b_2)^2
+f(x)=ax+\\dfrac{b}{x}
 
-证明方法一：直接展开
+设 x_0 满足
 
-要证明这个简单的不等式，最方便的做法就是直接展开：
+ax_0=\\dfrac{b}{x_0}
 
-a_1^2b_1^2+a_2^2b_2^2+a_1^2b_2^2+a_2^2b_1^2\\ge a_1^2b_1^2+a_2^2b_2^2+2a_1b_1a_2b_2
+即
 
-约去相同的项，得到
+x_0^2=\\dfrac{b}{a}
 
-a_1^2b_2^2+a_2^2b_1^2\\ge 2a_1b_1a_2b_2
+不妨取正的一个解（同时 f(x)=f(y) 当且仅当 xy=\\dfrac{b}{a}）。
 
-可以配方，也可以根据均值不等式，
+容易知道，f(x) 在 (0,x_0\] 单调递减，在 \[x_0,+\\infty) 单调递增。
 
-a_1^2b_2^2+a_2^2b_1^2\\ge2\\sqrt{a_1^2a_2^2b_1^2b_2^2}\\ge2a_1a_2b_1b_2
+在负半轴类似，同时因为在正半轴
 
-取等条件：
+f(x)=ax+\\dfrac{b}{x}\\ge2\\sqrt{ab}
 
-{a_1\\over b_1}={a_2\\over b_2}
+也就是说 f(x) 的值域是 (-\\infty,-2\\sqrt{ab})\\cup(2\\sqrt{ab},+\\infty)。
 
-证明方法二：换元法
+### 基本规则
 
-还可以换元，不妨设
+基本不等式的求最值一定要满足“一正、二定、三相等”，即先判定正负性，然后判断放缩后是否为定值，最后验证取等条件。
 
-A=\\sqrt{a_1^2+a_2^2},B=\\sqrt{b_1^2+b_2^2}
+如果不是定值，通常会导致最值不在缩放的点上，我们可以复杂，对于缩放问题，就不需要是定值了。
 
-则不等式可以表示为
+例题：若实数 a,b 满足 \\dfrac{1}{a}+\\dfrac{2}{b}=\\sqrt{ab}，则 ab 的最小值为
 
-\\dfrac{(a_1b_1+a_2b_2)}{AB}\\le1
+我们知道
 
-不妨拆开，也就是
+\\sqrt{ab}=\\dfrac{1}{a}+\\dfrac{2}{b}\\ge2\\sqrt{\\dfrac{2}{ab}}
 
-\\dfrac{a_1b_1}{AB}+\\dfrac{a_2b_2}{AB}\\le\\dfrac{1}{2}\\left(\\dfrac{a_1^2}{A^2}+\\dfrac{b_1^2}{B^2}+\\dfrac{a_2^2}{A^2}+\\dfrac{b_2^2}{B^2}\\right)=1
+因此
 
-对于一般的实数序列 a,b：
+ab\\ge2\\sqrt2
 
-\\sum\_{i=1}^na_i^2\\sum\_{i=1}^nb_i^2\\ge\\left(\\sum\_{i=1}^na_ib_i\\right)^2
+当且仅当 b=2a 时取等。
 
-证明可以展开，用拉格朗日恒等式，但是较为复杂，取等条件为：
+利用基本不等式求函数 f(x) 的最大值通常有三种途径：
 
-{a_1\\over b_1}={a_2\\over b_2}=\\dots={a_n\\over b_n}
+1. 直接利用均值不等式放缩成 f(x) \\le k，其中 k 为常数，最后检查等号能否成立；
+1. 直接利用均值不等式放缩成 f(x) \\le g(x)，然后通过解不等式获得 f(x) 的范围，最后检查等号能否成立。
+1. 多次利用均值不等式放缩成 f(x) \\le g(x) \\le k，其中 k 为常数，最后检查所有等号成立的条件是否一致。
 
-若某个 b 为零，这个式子失效，但是仍然可以用任两 a,b 相乘相等来验证。
+自由变量公式：
 
-证明方法三：判别式法
+- 自由变量的个数等千变堂的个数减去方程的个数。
+- 使用基本不等式的次数等于自由变霆的个数。
 
-可以用判别式证明，不妨令
+凑系数、换元法是最基础的方法，除此之外，我们还有妙用：
 
-A=\\sum\_{i=1}^na_i^2,B=\\sum\_{i=1}^na_ib_i,C=\\sum\_{i=1}^nb_i^2,
+- 若已知 ax+by 为定值，求它们的倒数和 \\dfrac{c}{x} + \\dfrac{d}{y} 的最小值，既可以用消元的方法，也可以利用“1”的代换，但是我们推荐使用“1”的代换；
+- 若已知 \\dfrac{c}{x} + \\dfrac{d}{y} 为定值，求和 ax+by 的最小值，既可以用消元的方法，也可以利用“1”的代换，但是我们推荐使用“1”的代换；
+- 若已知 axy+bx+cy+d=0，求和 ex+fy 的最小值，如果分解因式很显然，使用“1”的代换；否则，使用消元法。
 
-要证即 AC\\ge B^2，不妨构造方程，注意到可以将 \\sum 合并，配方为
+具体的，例如已知 ax+by=C，则
 
-f(x)=Ax^2+2Bx+C=\\sum\_{i=1}^n(a_ix+b_i)^2\\ge0
+\\begin{aligned} \\dfrac{c}{x}+\\dfrac{d}{y}&=\\dfrac{1}{C}(ax+by)\\paren{\\dfrac{c}{x}+\\dfrac{d}{y}}\\ &=\\dfrac{1}{C}\\left(ac+bd+ad\\dfrac{x}{y}+bc\\dfrac{y}{x}\\right)\\ &\\ge\\dfrac{1}{C}\\left(ac+bd+2\\sqrt{ad\\cdot bc}\\right)\\ &=\\dfrac{1}{C}\\left(\\sqrt{ac}+\\sqrt{bd}\\right)^2\\ \\end{aligned}
 
-因为二次函数恒非负，且二次项系数 A 非负，则一定有判别式非正：
+当 x,y>0 时，等号当且仅当 ad\\dfrac{x}{y}=bc\\dfrac{y}{x} 即 \\dfrac{x}{y}=\\sqrt{\\dfrac{bc}{ad}}。
 
-\\dfrac{\\Delta}{4}=B^2-AC\\le 0\\implies AC\\ge B^2
+最常见的方法是分母不变，其他拼凑
 
-取等可以是存在 x 使得 a_ix+b_i 均为零。
+x+\\dfrac{3}{x-2}=x-2+\\dfrac{3}{x-2}+2\\ge\\dots
 
-柯西不等式有两个常见的变形，这两个变形无须记忆，重点应该记忆柯西不等式的标准形式
+x+\\dfrac{3}{2x-3}=x-\\dfrac{3}{2}+\\dfrac{2}{2x-3}+\\dfrac{3}{2}\\ge\\dots
 
-1. 平方和形式：设 a_1, a_2, \\dots, a_n 为任意实数，则
+如果分子的次数比分母高，通常把上面的先分下来，称为分离常数。
 
-   \\left(\\sum\_{i=1}^n a_i\\right)^2 \\leqslant n \\sum\_{i=1}^n a_i^2,
+对于积的不等式，通常用调整常数
 
-   等号当且仅当 a_1 = a_2 = \\dots = a_n 时成立。
+x(1-3x)=3x(1-3x)\\cdot\\dfrac13
 
-   在柯西不等式中取 b_i = 1（i = 1, 2, \\dots, n），即得 \\left(\\sum\_{i=1}^n a_i\\right)^2 \\leqslant \\left(\\sum\_{i=1}^n a_i^2\\right) \\cdot n。等号条件为 a_i 与常数 1 成比例，即 a_i 全部相等。
+形如 ab=a+b 的，通常转化为
 
-1. 倒数和形式：设 a_1, a_2, \\dots, a_n 为正实数，则
+1=\\dfrac{1}{a}+\\dfrac{1}{b}
 
-   \\left(\\sum\_{i=1}^n a_i\\right) \\left(\\sum\_{i=1}^n \\frac{1}{a_i}\\right) \\geqslant n^2,
+### 加权待定
 
-   等号当且仅当 a_1 = a_2 = \\dots = a_n 时成立。
+我们知道了 f(x)=\\ln x 与 g(x)=\\dfrac{2(x-1)}{x+1} 和 h(x)=\\dfrac{1}{2}\\left(x-\\dfrac{1}{x}\\right) 的关系，那么不妨讨论 f(x) 与
 
-   在柯西不等式中取 b_i = 1/\\sqrt{a_i}，则 a_i b_i = \\sqrt{a_i} \\cdot 1/\\sqrt{a_i} = 1，故 \\left(\\sum\_{i=1}^n 1\\right)^2 = n^2 \\leqslant \\left(\\sum\_{i=1}^n a_i\\right) \\left(\\sum\_{i=1}^n \\frac{1}{a_i}\\right)。等号条件为 \\sqrt{a_i} 与 1/\\sqrt{a_i} 成比例，即 a_i 全部相等。
+\\varphi(x)=\\lambda g(x)+(1-\\lambda)h(x)
 
-更常见的推论是分数和形式，我们在下面单独讲解。
+的关系，对 y=\\ln x-\\varphi(x) 求导即可，此处略。
 
-证明方法四：物理法
+我们知道高中常见的均值不等式链：
 
-光滑桌子（\\mu=0）上面放着若干个质量不一的薄板，其中间的摩擦因数不为零（\\mu\\neq0）。
+\\dfrac{2ab}{a+b}\<\\sqrt{ab}\<\\dfrac{a-b}{\\ln a-\\ln b}\<\\dfrac{a+b}{2}\<\\sqrt{\\dfrac{a^2+b^2}{2}}\<\\dfrac{a^2+b^2}{a+b}
 
-设其质量分别为 m_1,m_2,\\dots,m_n，给他们一个互异的初速度 v_1,v_2,\\dots,v_n。
+此处不写等号因为对数平均数部分没有办法取等。
 
-根据能量守恒定律，经过有限的时间后，它们必定会趋于同一个速度，设为 v_f。
+另外还有
 
-那么，根据动量守恒定律和功能关系：
+\\dfrac{2}{3}\\cdot\\dfrac{a^2+b^2}{a+b}+\\dfrac{1}{3}\\cdot\\dfrac{2ab}{a+b}
 
-\\begin{aligned} m_1v_1+m_2v_2+\\dots+m_nv_n&=m_1v_f+m_2v_f+\\dots+m_nv_f\\ {1\\over2}m_1v_1^2+{1\\over2}m_2v_2^2+\\dots+{1\\over2}m_nv_n^2&\\ge {1\\over2}m_1v_f^2+{1\\over2}m_2v_f^2+\\dots+{1\\over2}m_nv_f^2 \\end{aligned}
+\\dfrac{2}{3}\\cdot\\dfrac{a+b}{2}+\\dfrac{1}{3}\\cdot\\sqrt{ab}
 
-化简、移项，得到：
+\\dfrac{1}{3}\\cdot\\dfrac{a+b}{2}+\\dfrac{2}{3}\\cdot\\sqrt{ab}
 
-\\begin{aligned} v_f={\\sum m_iv_i\\over\\sum m_i}\\ \\sum(m_iv_i^2)\\ge(\\sum m_i)v_f^2 \\end{aligned}
+等形式，都可以用加权待定来理解。
 
-上式带入下式，得：
+- 在 x\\in(1,+\\infty)，
 
-\\sum(m_iv_i^2)\\ge{(\\sum m_iv_i)^2\\over\\sum m_i}
+  \\small\\frac{x-1}{x}\<\\frac{2(x-1)}{x+1}\<\\frac{3(x^2-1)}{x^2+4x+1}\<\\ln x\<\\sqrt{x}-\\frac{1}{\\sqrt{x}}\<\\frac{1}{2}\\left(x-\\frac{1}{x}\\right)\<x-1
 
-再移项，得：
+- 在 x\\in(0,1)，
 
-\\sum(m_iv_i^2)\\sum m_i\\ge(\\sum m_iv_i)^2
+  \\small\\frac{x-1}{x}\<\\frac{1}{2}\\left(x-\\frac{1}{x}\\right)\<\\sqrt{x}-\\frac{1}{\\sqrt{x}}\<\\ln x\<\\frac{3(x^2-1)}{x^2+4x+1}\<\\frac{2(x-1)}{x+1}\<x-1
 
-我们取 m\\to a^2，v\\to b/a，即：
+### 简单例题
 
-\\sum{a_i^2}\\sum{b_i^2}\\ge(\\sum{a_ib_i})^2
+例题
 
-取等条件为 v_i=v_g，即初始就共速，则：
+若 x_i > 0，且 \\sum\_{i=1}^{n} x_i = 1，则
 
-{b_1\\over a_1}={b_2\\over a_2}=\\dots={b_n\\over a_n}
+\\left(x_1 + \\dfrac{1}{x_1}\\right)\\left(x_2 + \\dfrac{1}{x_2}\\right)\\cdots\\left(x_n + \\dfrac{1}{x_n}\\right) \\ge \\left(n + \\dfrac{1}{n}\\right)^n
 
-即柯西不等式（当然这个结论比柯西不等式弱一些）。
+当且仅当 x_i = \\dfrac{1}{n} 时等号成立；
 
-在 n 维空间中，夹角余弦值的定义就是内积
+如果 \\sum\_{i=1}^{n} x_i \\ne 1，则上述结论不成立，为了简化，我们只给出两个变量的情形：
 
-\\cos\\theta=\\dfrac{\\bm a\\cdot \\bm b}{|\\bm a|\\cdot|\\bm b|}
+已知 a > 0，b > 0，且 a+b=k，则 \\left(a+\\dfrac{1}{a}\\right)\\left(b+\\dfrac{1}{b}\\right) 的最小值为
 
-而要证明夹角余弦值的绝对值 \\le 1，即证明
+\\begin{cases} \\left(\\dfrac{k}{2} + \\dfrac{2}{k}\\right)^2, & 0 < k \\le 2\\sqrt{2+\\sqrt{5}} \\ 2\\sqrt{1+k^2}-2, & k > 2\\sqrt{2+\\sqrt{5}} \\end{cases}
 
-|\\bm a\\cdot\\bm b|\\le||\\bm a|\\cdot|\\bm b||
+例题
 
-不妨设两向量为
+已知 a,b>0 且 ab=a+b+3，则 ab,a+b 的最小值分别为？
 
-\\bm a=(a_1,a_2,\\dots,a_n),\\bm b=(b_1,b_2,\\dots,b_n)
+方法一：由 ab=a+b+3，得到 a=\\dfrac{b+3}{b-1}，带入消元即可。
 
-展开即为柯西不等式，因此夹角余弦值可以用来记忆和理解柯西不等式，但是不能用来证明柯西不等式，因为 |\\cos\\theta|\\le1 本身就是柯西不等式的一种形式。需要注意的是，在二维、三维中，从几何余弦定理可以推出柯西不等式，因为几何角度独立；但 n 维的“夹角”通常没有独立几何定义，是内积诱导的。即使可以嵌入二维平面，也需先建立内积与长度，可能仍依赖柯西不等式。
+方法二：ab=a+b+3\\ge2\\sqrt{ab}+3，解得 \\sqrt{ab}\\ge3 即 ab\\ge9。
 
-从向量的角度证明柯西不等式与判别式法类似，对任意实数 t，有
+方法三：由 ab-a-b+1=4 得 4=(a-1)(b-1)\\le\\dfrac14(a+b-2)^2，则 a+b\\ge6。
 
-|\\bm a+t\\bm b|=|\\bm a|^2+2t(\\bm a\\cdot\\bm b)+t^2|\\bm b|^2\\ge 0
+例题
 
-因此判别式 \\Delta\\le 0，即柯西不等式的向量形式。
+已知 x,y>0 且 x+3y=5xy，则 3x+4y 的最小值为？
 
-### 柯西不等式的例题
+方法一：我们知道 y=\\dfrac{x}{5x-3}，带入消元即可。
+
+方法二：由 5xy-x-3y+\\dfrac{3}{5}=\\dfrac{3}{5}，得到 (5x-3)(5y-1)=3，因此
+
+\\dfrac{144}{25}=\\paren{3x-\\dfrac{9}{5}}\\paren{4x-\\dfrac{4}{5}}\\le\\paren{3x+4y-\\dfrac{13}{5}}^2
+
+方法三：我们知道 \\dfrac{1}{y}+\\dfrac3x=5，因此
+
+\\begin{aligned} 3x+4y&=\\dfrac15(3x+4y)\\paren{\\dfrac3x+\\dfrac1y}\\ &=\\dfrac15\\paren{13+12\\dfrac yx+3\\dfrac xy}\\ge5 \\end{aligned}
+
+例题
+
+已知 a,b>0 且 2a+b=1，则 \\dfrac1a+\\dfrac ab 的最小值为？
+
+\\dfrac1a+\\dfrac ab=\\dfrac{2a+b}a+\\dfrac{a}{b}=2+\\dfrac ab+\\dfrac ba\\ge4
+
+例题
+
+已知 0\<x\<1，则 \\dfrac9x+\\dfrac{16}{1-x} 的最小值为？
+
+\\begin{aligned} \\dfrac9x+\\dfrac{16}{1-x}&=\\paren{\\dfrac9x+\\dfrac{16}{1-x}}[(x)+(1-x)]\\ &=25+9\\dfrac{1-x}x+16\\dfrac x{1-x}\\ge49 \\end{aligned}
+
+例题
+
+已知 a,b>0 且 (a+3b)(2a+b)=6，则 8a+9b 的最小值为？
+
+注意到形式较为复杂，不妨设 \\lambda,\\mu 化简
+
+\\lambda(a+3b)\\cdot\\mu(2a+b)=6\\lambda\\mu
+
+且使得
+
+\\begin{cases} \\lambda+2\\mu&=8\\ 3\\lambda+\\mu&=9 \\end{cases}
+
+解得 \\lambda=2,\\mu=3，因此
+
+36=(2a+6b)(6a+3b)\\le\\dfrac14(8a+9b)^2
+
+### 拼凑构造
+
+拼凑构造，虽然有些题是对脑电波，或者暴力待定系数，但是在中档题里面是有一定规律的，例如将代数式中一项或几项拆开，齐次化构造，分离常数，并项（通分），或者配凑系数，甚至是配凑某些项。
+
+例题一
+
+已知 a,b>0，求 \\dfrac{a^2+4}{2a}+\\dfrac{2b^2+b+2}{2b+1} 的最小值。
+
+第一反应应该是将前面的除下去，然后将后面的 2b+1 视为一个整体，分离常数，这是显然的，设原式为 S，则 S=\\dfrac{a}{2}+\\dfrac{2}{a}+\\dfrac{2b+1}{2}+\\dfrac{2}{2b+1}-\\dfrac{1}{2}\\ge\\dfrac{7}{2}。
+
+验证取等条件是必不可少的，容易发现 a=2b+1=2 是显然可以取到的。
+
+例题二
+
+已知 a,b>0 且 ab=1，求 \\dfrac{1}{2a}+\\dfrac{1}{2b}+\\dfrac{8}{a+b} 的最小值。
+
+容易发现，第三项 a+b 在分母上，不好化简，考虑可以将前面的也化为和 a+b 有关的式子，容易发现直接通分，代入 ab=1 即可。
+
+具体步骤很简单，我们关注这道题告诉我们 ab=1 这种限制条件给我们带来了什么。第一就是在计算中用已知量去简化式子、化简运算，比如 ab^+a^2b=ab(a+b)=ab。第二就是最后取等条件的验证过程中，作为一种限制。
+
+不妨用自由度的角度分析，我们发现，两个变量（这里是 a,b 比如），两次放缩，两个取等要求，是可以接受的。但是当多了一个初始限制的时候，往往用一次放缩（除非取等条件比较松）。
+
+还有一类经典的配凑系数，比如把 ab 写成 \\dfrac{1}{4}\\cdot a\\cdot 4b，然后将 a,4b 用基本不等式，这个的意义在于，乘法可以把单个系数提出来，但是加法不能，放缩时，可以用这种技巧把系数放进加法中。与此相对应的，还可以配凑加减，这都是很常见的，比如 a+b=(a+1)+b-1，可以把加减偏移量放进乘法中，很好用。
+
+还有比如我们初中物理就接触过的，把分子的 x 除下去，在分母上用不等式放缩。
+
+我们上面提到的就是所谓拼凑的技巧，还是相当常用的。我们在此与 1 的代换做一个联系。我们在前面，包括做题过程中，发现一些次数上的特征，比如 x 和 \\dfrac{1}{x} 一起出现，往往会把后者乘到前者，然后构造齐次化，进行一次放缩。
+
+例如若正数 x,y 满足 x+y=4，求 \\dfrac{x^2}{x+1}+\\dfrac{y^2}{y+2} 的最值。就可以写作 (x+1)+(y+2)=7，乘过去，然后放缩即可。
+
+再次强调，取等条件的重要性。直接使用不等式必须判断取等，如果取不了等，可以考虑用对钩函数的性质（大题可以直接求导）。
+
+## 例题选讲
+
+### 均值不等式例题
+
+### 柯西不等式例题
 
 **例一：已知实数 x,y 满足 x^2+y^2=3，求 5x+2y 的最大值。**
 
-(5x+2y)^2\\le(5^2+2^2)(x^2+y^2)=87
+97=(5^2+2^2)(x^2+y^2)\\ge(5x+2y)^2
 
 所以 5x+2y 的最大值为 \\sqrt{87}。
 
-**例二：已知 x,y>0，且 \\dfrac{1}{2x+y}+\\dfrac{1}{y+1}=1，求 x+2y 的最小值。**
+我们知道这道题还可以用三角代换，所以我们不妨来延伸一下，考虑证明
+
+-\\sqrt{a^2+b^2}\\le a\\sin x+b\\cos x\\le\\sqrt{a^2+b^2}
+
+我们不妨构造
+
+(a^2+b^2)(\\sin^2x+\\cos^2x)\\ge(a\\sin x+b\\cos x)^2
+
+展开讨论即可。
+
+**例二：（1）已知 x,y>0，且 \\dfrac{1}{2x+y}+\\dfrac{1}{y+1}=1，求 x+2y 的最小值。**
 
 观察到分母不好处理，不妨令 m=2x+y,n=y+1，则 y=n-1,x=\\dfrac{m-n+1}{2}，条件即 \\dfrac{1}{m}+\\dfrac{1}{n}=1，所求即为
 
@@ -163,6 +252,20 @@ m+3n=(m+3n)\\left(\\dfrac{1}{m}+\\dfrac{1}{n}\\right)=4+\\dfrac{3n}{m}+\\dfrac{m
 m+3n=(m+3n)\\left(\\dfrac{1}{m}+\\dfrac{1}{n}\\right)\\ge(1+\\sqrt{3})^2=4+2\\sqrt{3}
 
 最终可以得到 x+2y\\ge\\sqrt{3}+\\dfrac{1}{2}。
+
+**（2）已知 a,b>0 满足 a+b=1，求 \\dfrac{1}{a+2b}+\\dfrac{1}{6a+2b} 的最小值。**
+
+我们发现，这次给的是线性，要求的是分式，我们想到在曾经均值不等式中就用过的配凑常数的方法，容易想到一个做法就是
+
+\\dfrac{1}{a+2b}+\\dfrac{1}{6a+2b}=\\dfrac{1}{(a+b)+b}+\\dfrac{1}{2(a+b)+4a}=\\dfrac{1}{b+1}+\\dfrac{1}{4a+2}
+
+这可以省去像上一问那种设 x=a+2b,y=6a+2b 的复杂运算，接下来，我们可以换元，也可以不换，构造
+
+\\left(\\dfrac{1}{b+1}+\\dfrac{1}{4a+2}\\right)[4(b+1)+(4a+2)]\\ge(\\sqrt{4}+1)^2
+
+因此
+
+\\dfrac{1}{b+1}+\\dfrac{1}{4a+2}\\ge\\dfrac{9}{4(a+b)+6}=\\dfrac{9}{10}
 
 **例三：已知 x,y,z 均为正数，证明**
 
@@ -310,97 +413,140 @@ a^2+b^2+c^2\\ge\\dfrac{1}{3}
 
 ab+bc+ca=\\dfrac{1-(a^2+b^2+c^2)}{2}\\le\\dfrac{1}{3}
 
-### 柯西不等式的分式形式
+**例九：若方程组 \\begin{cases}x^2+y^2=2\\ ax+y=2\\end{cases} 有且仅有一组解，求实数 a 的值。**
 
-柯西不等式的分式形式，也称为分数和形式、Engel 形式（虽然中文不常用，但是也可以叫作安多形式）、Titu 引理（或谐音为 T2 引理），更一般化的时候称为权方和不等式，因为权方和不等式的形式很复杂，且用起来也不方便，因此一般只用 Engel 形式。
+由这个形式，我们不妨构造柯西不等式将它们关联起来，即
 
-最简单的二元形式可以写作
+(x^2+y^2)(a^2+1)\\ge(ax+y)^2
 
-\\dfrac{a_1^2}{b_1}+\\dfrac{a_2^2}{b_2}\\ge\\dfrac{(a_1+a_2)^2}{b_1+b_2}
+代入条件得到
 
-更一般的形式可以写作
+a^2+1\\ge2\\implies a^2\\ge1
 
-\\dfrac{a_1^2}{b_1}+\\dfrac{a_2^2}{b_2}+\\dots+\\dfrac{a_n^2}{b_n}\\ge\\dfrac{(a_1+a_2+\\dots+a_n)^2}{b_1+b_2+\\dots+b_n}
+有的时候让你解方程组，恰好只能在取等的时候取到，代入一次的和取等条件，即可得到方程组的解。
 
-等号成立当且仅当
+**例十：（1）求 f(x)=\\sqrt{5-3x}+\\sqrt{1+x} 的最大值。**
 
-\\dfrac{a_1}{b_1}=\\dfrac{a_2}{b_2}=\\dots=\\dfrac{a_n}{b_n}
+接下来我们要进入根式方面，这个是根式的简单题，我们可以对两个根式换元，但是为了更加直观，还是直接写出来，不妨构造
 
-证明由柯西不等式形式
+[(5-3x)+(3+3x)]\\left(1+\\dfrac{1}{3}\\right)\\ge(\\sqrt{5-3x}+\\sqrt{1+x})^2
 
-(a_1^2+a_2^2+\\dots+a_n^2)(b_1^2+b_2^2+\\dots+b_n^2)\\ge(a_1b_1+a_2b_2+\\dots+a_nb_n)
+因此原式 \\le\\sqrt{8\\times\\dfrac{4}{3}}=\\sqrt{\\dfrac{32}{3}}。
 
-令 a_i=\\dfrac{x_i}{\\sqrt{y_i}},b_i=\\sqrt{y_i}，那么
+**（2）求 f(x)=\\dfrac{2+\\sqrt{x^2-2}}{\\sqrt{x^2+1}} 的最大值。**
 
-\\left(\\dfrac{x_1^2}{y_1}+\\dfrac{x_2^2}{y_2}+\\dots+\\dfrac{x_n^2}{y_n}\\right)(y_1+y_2+\\dots+y_n)\\ge(x_1+x_2+\\dots+x_n)
+不妨将原式写作
 
-除过去即为 Engel 形式。
+S=\\dfrac{2}{\\sqrt{x^2+1}}+\\dfrac{\\sqrt{x^2-2}}{\\sqrt{x^2+1}}
 
-权方和不等式
+不妨构造
 
-设 a_1,a_2,\\dots,a_n>0，b_1,b_2,\\dots,b_n>0，r\\in\\mathbb{R}，则
+\\left(3\\cdot\\dfrac{4}{x^2+1}+4\\cdot\\dfrac{x^2-2}{x^2+1}\\right)\\left(\\dfrac{1}{3}+\\dfrac{1}{4}\\right)\\ge S^2
 
-- 当 r\\ge0，或 r\\le-1 时，有
+因此
 
-  \\frac{a_1^{r+1}}{b_1^{r}}+\\frac{a_2^{r+1}}{b_2^{r}}+\\dots+\\frac{a_n^{r+1}}{b_n^{r}}\\ge\\frac{(a_1+a_2+\\dots+a_n)^{r+1}}{(b_1+b_2+\\dots+b_n)^{r}}。
+S^2\\le4\\cdot\\dfrac{7}{12}=\\dfrac{7}{3}\\implies S\\le\\sqrt{\\dfrac{7}{3}}
 
-- 当 -1\<r\<0 时，有
+**例十一：（1）已知 x^2+bx+c=0 在 [1,2] 上有实根，则 b^2+c^2 的最小值为？**
 
-  \\frac{a_1^{r+1}}{b_1^{r}}+\\frac{a_2^{r+1}}{b_2^{r}}+\\dots+\\frac{a_n^{r+1}}{b_n^{r}}\\le\\frac{(a_1+a_2+\\dots+a_n)^{r+1}}{(b_1+b_2+\\dots+b_n)^{r}}。
+这一组题是需要多次操作的，考查的是整体的逻辑构建，我们发现上式，不妨把 b,c 放到等式一边，考虑直接放缩出 b^2+c^2 验等，bx+c=-x^2 构造
 
-示例：已知实数 x,y>0 满足 \\frac{1}{x}+\\frac{4}{y}=1，求 x+y 的最小值。根据权方和不等式：
+(b^2+c^2)(x^2+1)\\ge(bx+c)^2=x^4
 
-1=\\frac{1^2}{x}+\\frac{2^2}{y}=\\frac{a^2}{x}+\\frac{b^2}{y}\\ge\\frac{(a+b)^2}{x+y}=\\frac{(1+2)^2}{x+y}=\\frac{9}{x+y}
+因此
 
-即：
+b^2+c^2\\ge\\dfrac{x^4}{x^2+1}:=g(x)
 
-1\\ge\\frac{9}{x+y}\\Rightarrow x+y\\ge 9
+考虑到 g(x) 的特征是分子简单，分母复杂，不妨做倒数，先验证 g(x)=0 即 x=0 显然不成立，因此
 
-所以 x+y 的最小值为 9。
+\\dfrac{1}{g(x)}=\\dfrac{x^2+1}{x^4}\\xlongequal{t=x^2}\\dfrac{t+1}{t^2}=\\dfrac{1}{t}+\\dfrac{1}{t^2}=\\dfrac{1}{t}\\left(1+\\dfrac{1}{t}\\right)
 
-## （三）排序不等式
+因为 x\\in[1,2]，所以 t\\in[1,4]，那么 g(x) 要求最小值，则上式要取最大值，以 \\dfrac{1}{t} 为主元的二次函数，显然在 t=1 时取到最大值，即
 
-### 基本形式
+\\dfrac{1}{g(x)}\\le2\\implies g(x)\\ge\\dfrac{1}{2}
 
-对于非严格单调递增（或递减）的实数序列 x,y，另 \\sigma(i) 表示 1\\sim n 的任意一个排列，有，
+因此
 
-x_1y_1+\\dots+x_ny_n\\ge x\_{\\sigma(1)}y_1+\\dots+x\_{\\sigma(n)}y_n\\ge x_ny_1+\\dots+x_1y_n
+b^2+c^2\\ge g(x)\\ge\\dfrac{1}{2}
 
-顺序和不小于乱序和，乱序和不小于逆序和；取等为 x,y 分别两两相等。
+验证是否能取等，柯西不等式取等要求 b=cx，二次函数取等要求 x=1，因此 b=c，而 b^2+c^2 取 \\dfrac{1}{2}，即取 b=c=\\dfrac{1}{2}，能取到。如果不放心可以再带回验证。
 
-排序不等式不限正负，证明可以归纳法。
+**（2）已知 f(x)=e^x-a\\sin x，g(x)=b\\sqrt{x}，若曲线 y=f(x) 和 y=g(x) 有公共点，求证 a^2+b^2>e。**
 
-对于两个非负实数 a, b，均值不等式 a+b \\ge 2\\sqrt{ab} 完全可以由排序不等式直接推出。
+有了上一题的启发，我们知道，不妨把 a,b 仍然放到一边，不妨假设公共点为 x_0，即
 
-设 x_1 = \\sqrt{a},; x_2 = \\sqrt{b}，不妨假设 x_1 \\le x_2（即 \\sqrt{a} \\le \\sqrt{b}$）。现在我们有两个完全相同的序列：
+e^{x_0}=a\\sin x_0+b\\sqrt{x_0}
 
-A = (x_1, x_2),\\quad B = (x_1, x_2)
+构造柯西不等式，
 
-根据**排序不等式**，对两个同序序列，顺序和最大，逆序和最小：
+(a^2+b^2)(\\sin^2x_0+x_0)\\ge(a\\sin x_0+b\\sqrt{x_0})^2
 
-- **顺序和**（同序相乘再相加）：x_1x_1 + x_2x_2 = a + b。
-- **逆序和**（一正一反相乘再相加）：x_1x_2 + x_2x_1 = 2\\sqrt{ab}。
+因此
 
-因为顺序和 \\ge 逆序和，所以 a + b \\ge 2\\sqrt{ab} 这正是二元均值不等式。
+a^2+b^2\\ge\\dfrac{e^{2x_0}}{\\sin^2 x_0+x_0}>e
 
-这个推导相当于把均值不等式看作是“自己与自己”的排序不等式：将 (\\sqrt{a}, \\sqrt{b}) 这个序列与自身做同序匹配得到 a+b，做逆序匹配得到 2\\sqrt{ab}。由于同序和最大，便自然得到了算术平均不小于几何平均。
+只需证
 
-因此，二元均值不等式确实可以视为排序不等式在序列 \\sqrt{a}, \\sqrt{b} 上的一个特例。多元均值不等式同样可以看作排序不等式的一个推论，只是此时需要反复应用排序不等式，不像二元时一步到位。我们就不展开讲解了。
+e^{2x_0-1}>\\sin^2x_0+x_0
 
-## 其他不等式
+这个证明并不容易，但是还算常规，这里略过。
 
-### 伯努利不等式
+**例十二：已知 a,b>0 满足 \\dfrac{1}{a}+\\dfrac{3}{b}=1，求 \\dfrac{4a+b+\\sqrt{a^2+b^2}}{ab} 的最小值。**
 
-若 x_1,x_2\\dots,x_n\\ge-1 且 x_2,x_2,\\dots,x_n 同号，则
+注意到右侧的次数是 -1 次，不妨设 m=\\dfrac{1}{a},n=\\dfrac{1}{b}，条件即为 m+3n=1，所求即为
 
-(1+x_1)(1+x_2)\\dots(1+x_n)\\ge1+x_1+x_2+\\dots+x_n
+\\dfrac{4}{b}+\\dfrac{1}{a}+\\sqrt{\\dfrac{1}{a^2}+\\dfrac{1}{b^2}}=m+4n+\\sqrt{m^2+n^2}
 
-### 杨格不等式
+我们知道柯西不等式如果直接用，可以得到
 
-若 a,b>0，p>1，\\dfrac{1}{p}+\\dfrac{1}{q}=1，则有
+(m^2+n^2)(1+1)\\ge(m+n)^2 \\implies \\sqrt{m^2+n^2}\\ge\\dfrac{m+n}{\\sqrt{2}}
 
-ab\\le\\dfrac{1}{p}a^{p}+\\dfrac{1}{q}b^{q}。
+这个形式不好化简，所以不妨我们假设一个 \\bm v=(\\lambda,\\mu)，对其再用柯西不等式
 
-2026-03-142026-09-18
+(m^2+n^2)(\\lambda^2+\\mu^2)\\ge(\\lambda m+\\mu n)^2\\implies\\sqrt{m^2+n^2}\\ge\\dfrac{\\lambda}{\\sqrt{\\lambda^2+\\mu^2}}m+\\dfrac{\\mu}{\\sqrt{\\lambda^2+\\mu^2}}n
+
+我们发现这里 \\lambda,\\mu 惊人的符合三角函数，所以不妨设 |\\bm v|=1 且 \\lambda=\\cos\\theta,\\mu=\\sin\\theta，那么就有了
+
+\\sqrt{m^2+n^2}\\ge m\\cos\\theta+n\\sin\\theta
+
+代入原式，我们试图凑出题设条件
+
+m+4n+\\sqrt{m^2+n^2}\\ge(1+\\cos\\theta)m+(4+\\sin\\theta)n
+
+柯西不等式的取等条件为 m\\sin\\theta=n\\cos\\theta。同时我们希望 m,n 系数与条件成比，即 3=\\dfrac{4+\\sin\\theta}{1+\\cos\\theta}。不妨设
+
+\\begin{cases} 4+\\sin\\theta&=3\\lambda\\ 1+\\cos\\theta&=\\lambda \\end{cases}
+
+根据
+
+\\sin^2\\theta+\\cos^2\\theta=(3\\lambda-4)^2+(\\lambda-1)^2=1
+
+即
+
+10\\lambda^2-26\\lambda+16=0\\implies (5\\lambda-8)(\\lambda-1)=0
+
+因为我们要使 \\sin\\theta,\\cos\\theta 相关的式子最大，且观察到都是正数，因此取 \\lambda=\\dfrac{8}{5}，解得 \\sin\\theta=\\dfrac{4}{5},\\cos\\theta=\\dfrac{3}{5}，我们就可以放缩了，我们不妨在答题卡上写：
+
+(m^2+n^2)\\left(\\dfrac{9}{25}+\\dfrac{16}{25}\\right)\\ge\\left(\\dfrac{3}{5}m+\\dfrac{4}{5}n\\right)
+
+因此
+
+\\sqrt{m^2+n^2}\\ge\\dfrac{3}{5}m+\\dfrac{4}{5}n
+
+代入所求
+
+m+4n+\\sqrt{m^2+n^2}\\ge\\dfrac{8}{5}m+\\dfrac{24}{5}n=\\dfrac{8}{5}(m+3n)=\\dfrac{8}{5}
+
+以上步骤给了我们一个有意思的不等式
+
+\\sqrt{a^2+b^2}\\ge|a\\cos\\theta+b\\sin\\theta|
+
+或者说，当 p^2+q^2=1 时，有
+
+\\sqrt{a^2+b^2}\\ge|ap+bq|
+
+成立。
+
+2026-03-142026-09-22
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
