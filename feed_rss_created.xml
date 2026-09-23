@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Tue, 22 Sep 2026 11:04:09 -0000</pubDate>
-    <lastBuildDate>Tue, 22 Sep 2026 11:04:09 -0000</lastBuildDate>
+    <pubDate>Wed, 23 Sep 2026 10:40:19 -0000</pubDate>
+    <lastBuildDate>Wed, 23 Sep 2026 10:40:19 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -683,14 +683,14 @@
       
       
       
-      <description>本文系统梳理高中代数不等式刷题进阶方法，详解均值不等式对勾函数、基本放缩规则、加权待定与拼凑构造技巧，并结合柯西不等式提供典型例题解析，助力快速掌握最值与范围求解思路。</description>
+      <description>本文系统梳理高中代数不等式进阶技巧，涵盖均值不等式对勾函数、一正二定三相等、自由变量与1的代换，深入讲解柯西不等式在解析几何与最值证明中的应用，并配大量例题解析。</description>
       <link>https://raineblog.dpdns.org/whk/science/function/6/</link>
       <pubDate>Sat, 14 Mar 2026 13:17:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/function/6/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/6/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/6.png" type="image/png" length="58768" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/6.png" type="image/png" length="55553" />
       
     </item>
     
@@ -1941,14 +1941,14 @@
       
       
       
-      <description>本文介绍函数基础，涵盖定义、定义域、解析式、反函数及朗博W函数。详细解析幂、指数、对数等初等函数性质，讲解导数的定义、几何意义、求导法则、高阶导数、偏导及洛必达法则，是掌握微积分知识的核心指南。</description>
+      <description>系统讲解函数概念、定义域与值域、复合函数、反函数、Lambert W函数，详解初等函数、导数定义运算、高阶导数、隐函数求导及洛必达法则。</description>
       <link>https://raineblog.dpdns.org/whk/science/function/1/</link>
       <pubDate>Sun, 18 May 2025 09:51:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/function/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/1/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/1.png" type="image/png" length="45380" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/1.png" type="image/png" length="55829" />
       
     </item>
     
@@ -1958,14 +1958,14 @@
       
       
       
-      <description>本文系统总结了函数的基本性质，涵盖奇偶性、对称性及周期性。详细解析了二次、三次函数模型，并提供单调性、极值、凹凸性求解技巧。文中介绍了积分因子、牛顿迭代法等高阶方法，帮助学生深度掌握函数图像的核心逻辑。</description>
+      <description>本文系统梳理函数奇偶性、对称性、周期性，深入讲解二次三次函数模型、单调性、极值零点、构造方法及图像绘制等高中数学竞赛核心技巧与经典套路。</description>
       <link>https://raineblog.dpdns.org/whk/science/function/2/</link>
       <pubDate>Sun, 18 May 2025 09:51:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/function/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/2/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/2.png" type="image/png" length="47660" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/2.png" type="image/png" length="48082" />
       
     </item>
     

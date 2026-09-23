@@ -38,7 +38,7 @@ f(t)=(t-1)^2=t^2-2t+1
 
 符号函数是一种常用的分段函数：
 
-\\op{sgn}x=\\begin{cases} 1&x>0\\ 0&x=0\\ -1&x\<0 \\end{cases}
+\\operatorname{sgn}x=\\begin{cases} 1&x>0\\ 0&x=0\\ -1&x\<0 \\end{cases}
 
 ### 反函数
 
@@ -459,6 +459,6 @@ f(x) = \\frac{e^x}{x^2}
 
 \\lim\_{x\\to +\\infty} \\frac{\\sin x}{x} = \\lim\_{x\\to +\\infty} \\frac{\\cos x}{1} = \\text{不存在}
 
-2025-05-182026-07-09
+2025-05-182026-09-23
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)

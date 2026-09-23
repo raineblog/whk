@@ -210,11 +210,11 @@ f''(x)=6ax+2b
 
 前面我们没有提到拐点的性质，拐点就是二阶导数为零的点，在大学数学中引入了拐点切线划分平面法，我们后续将用其来处理切线问题。现在我们先考虑拐点的简单性质：容易发现，三次函数的图像关于拐点 W 中心对称，其导函数的图像关于过拐点的竖线成轴对称，这里不妨记：
 
-W\\paren{-\\dfrac{3a}{b},y_w}
+W\\left(-\\dfrac{3a}{b},y_w\\right)
 
 其中：
 
-y_w=f\\paren{-\\dfrac{3a}{b}}
+y_w=f\\left(-\\dfrac{3a}{b}\\right)
 
 我们发现，如果作出函数图像在拐点处的切线，那么函数图像与切线共同将整个平面分为了四个部分，非常美观。根据这些对称性和图像的趋势，容易想到，把坐标原点平移到拐点处，记：
 
@@ -856,6 +856,6 @@ x\_{i+1} = x_i - \\frac{f(x_i)}{f'(x_i)}
 
 牛顿迭代法的收敛率是平方级别的，这意味着每次迭代后近似解的精确数位会翻倍。关于牛顿迭代法的收敛性证明可参考 [citizendium - Newton method Convergence analysis](http://en.citizendium.org/wiki/Newton%27s_method#Convergence_analysis)。当然牛顿迭代法也同样存在着缺陷，详情参考 [Xiaolin Wu - Roots of Equations 第 18 \\sim 20 页分析](https://www.ece.mcmaster.ca/~xwu/part2.pdf)。
 
-2025-05-182026-07-09
+2025-05-182026-09-23
 
 [RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
