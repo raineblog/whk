@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Wed, 23 Sep 2026 10:40:19 -0000</pubDate>
-    <lastBuildDate>Wed, 23 Sep 2026 10:40:19 -0000</lastBuildDate>
+    <pubDate>Thu, 24 Sep 2026 14:22:21 -0000</pubDate>
+    <lastBuildDate>Thu, 24 Sep 2026 14:22:21 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -37,14 +37,14 @@
       
       
       
-      <description>本文系统梳理高中代数不等式进阶技巧，涵盖均值不等式对勾函数、一正二定三相等、自由变量与1的代换，深入讲解柯西不等式在解析几何与最值证明中的应用，并配大量例题解析。</description>
+      <description>系统讲解高中代数与不等式刷题进阶，深入均值不等式对勾函数、一正二定三相等、1的代换、加权待定等核心技巧，详解柯西不等式在解析几何与概率中的应用，附大量典型例题解析与方法总结。</description>
       <link>https://raineblog.dpdns.org/whk/science/function/6/</link>
-      <pubDate>Wed, 23 Sep 2026 10:29:00 +0000</pubDate>
+      <pubDate>Thu, 24 Sep 2026 14:19:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/function/6/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/6/</guid>
       
-      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/6.png" type="image/png" length="55553" />
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/function/6.png" type="image/png" length="55657" />
       
     </item>
     
@@ -56,7 +56,7 @@
       
       <description>系统讲解函数概念、定义域与值域、复合函数、反函数、Lambert W函数，详解初等函数、导数定义运算、高阶导数、隐函数求导及洛必达法则。</description>
       <link>https://raineblog.dpdns.org/whk/science/function/1/</link>
-      <pubDate>Wed, 23 Sep 2026 09:59:00 +0000</pubDate>
+      <pubDate>Wed, 23 Sep 2026 10:41:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/function/1/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/1/</guid>
@@ -73,7 +73,7 @@
       
       <description>本文系统梳理函数奇偶性、对称性、周期性，深入讲解二次三次函数模型、单调性、极值零点、构造方法及图像绘制等高中数学竞赛核心技巧与经典套路。</description>
       <link>https://raineblog.dpdns.org/whk/science/function/2/</link>
-      <pubDate>Wed, 23 Sep 2026 09:59:00 +0000</pubDate>
+      <pubDate>Wed, 23 Sep 2026 10:41:00 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_updated.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/science/function/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/function/2/</guid>
