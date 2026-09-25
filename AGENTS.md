@@ -20,6 +20,7 @@
 - **规范执行**：严格遵循各 Skill 定义的命令格式与流程。
 - **排版合规**：写作或编辑文档时必须遵守 `.agents/skills/style-criticial/style.md` 中定义的排版规范。
 - **禁止批量替换**：禁止使用未经审查的大规模批量替换，必须逐行审查。
+- **禁止本地构建**：严禁在用户本地通过 `uv` 直接或间接运行 `mkdocs` / `mkpandocs` 的 `build` 或 `serve`，包括 `uv run mkdocs ...`、`uv run mkpandocs ...` 以及会调用它们的 `scripts/generate.py --build` / `--serve`；在云端远程虚拟主机上执行时不受此限制。
 
 ---
 
