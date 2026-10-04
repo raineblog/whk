@@ -79,6 +79,11 @@ def parse_args():
 
     parser.add_argument("--build", action="store_true", help="执行构建动作")
     parser.add_argument("--serve", action="store_true", help="启动本地预览服务")
+    parser.add_argument(
+        "--blog",
+        action="store_true",
+        help="启用 blog 模块（默认关闭）",
+    )
 
     parser.add_argument(
         "--disable_giscus",
@@ -116,12 +121,17 @@ def main():
         if disable_giscus:
             extra.pop("giscus", None)
 
+        nav = get_nav()
+        if args.blog:
+            nav.append({"Blog": ["blog/index.md"]})
+
         context = {
             "info": project["info"],
             "extra": extra,
             "site_url": args.site_url,
-            "nav": get_nav(),
+            "nav": nav,
             "has_social_dependencies": has_social_dependencies,
+            "enable_blog": args.blog,
         }
 
         # 创建 Jinja2 环境并注册自定义过滤器

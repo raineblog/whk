@@ -70,14 +70,16 @@ plugins:
         preserve_chevron_percent_template_syntax: true
         remove_bangs: true
         remove_processing_instructions: true
-# -   blog:
-#         blog_toc: true
-#         post_date_format: long
-#         post_excerpt: required
-#         post_readtime: false
-#         archive_name: Archive
-#         authors_profiles: true
-#         categories: false
+{% if enable_blog %}
+-   blog:
+        blog_toc: true
+        post_date_format: long
+        post_excerpt: required
+        post_readtime: false
+        archive_name: Archive
+        authors_profiles: true
+        categories: false
+{% endif %}
 -   rss:
     # https://guts.github.io/mkdocs-rss-plugin/
         abstract_chars_count: 500
@@ -93,6 +95,11 @@ plugins:
             关于:
             - index.md
             - home/*.md
+{% if enable_blog %}
+            博客:
+            - blog/*.md
+            - blog/**/*.md
+{% endif %}
             中学文科:
             - cultural/**/*.md
             高中理科:

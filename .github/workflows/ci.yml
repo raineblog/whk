@@ -75,7 +75,7 @@ jobs:
         run: bash ./clean_content.sh
 
       - name: Build Static Site
-        run: uv run --no-sync scripts/generate.py --build --site_url=https://raineblog.dpdns.org/whk/ --disable_giscus=false
+        run: uv run --no-sync scripts/generate.py --build --site_url=https://raineblog.dpdns.org/whk/ --disable_giscus=false --blog
         env:
           PYTHONUNBUFFERED: 1
           PYTHONUTF8: 1
