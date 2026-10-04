@@ -1,4 +1,5 @@
 import os
+import re
 import shutil
 import sys
 import functools
@@ -72,6 +73,60 @@ def to_yaml(value, indent=0):
     return text.rstrip()
 
 
+BLOG_POSTS_DIR = Path("docs") / "blog" / "posts"
+
+
+def _convert_to_iso(dt_str: str) -> str:
+    """将 '2026-10-02 15:00:00' 转换为 '2026-10-02T15:00:00+0000'"""
+    dt_str = dt_str.strip().strip("'\"")
+    if "T" in dt_str:
+        return dt_str
+    return f"{dt_str.replace(' ', 'T', 1)}+0000"
+
+
+def inject_document_dates():
+    """构建前：为 blog 文章注入 document_dates_created/updated（从 date 字段转换）"""
+    if not BLOG_POSTS_DIR.exists():
+        return
+    for post_file in sorted(BLOG_POSTS_DIR.glob("*.md")):
+        content = post_file.read_text(encoding="utf-8")
+        # 幂等：先删除已有的 document_dates 行
+        content = re.sub(
+            r"^document_dates_(created|updated):[^\n]*\n",
+            "",
+            content,
+            flags=re.MULTILINE,
+        )
+        m_created = re.search(r"^  created:[ \t]*(\S.*)$", content, re.MULTILINE)
+        m_updated = re.search(r"^  updated:[ \t]*(\S.*)$", content, re.MULTILINE)
+        if not (m_created and m_updated):
+            continue
+        created_iso = _convert_to_iso(m_created.group(1))
+        updated_iso = _convert_to_iso(m_updated.group(1))
+        injection = (
+            f"\ndocument_dates_created: {created_iso}\n"
+            f"document_dates_updated: {updated_iso}"
+        )
+        content = content[:m_updated.end()] + injection + content[m_updated.end():]
+        post_file.write_text(content, encoding="utf-8")
+
+
+def cleanup_document_dates():
+    """构建后：删除 blog 文章中的 document_dates_created/updated 行"""
+    if not BLOG_POSTS_DIR.exists():
+        return
+    for post_file in sorted(BLOG_POSTS_DIR.glob("*.md")):
+        content = post_file.read_text(encoding="utf-8")
+        new_content = re.sub(
+            r"^document_dates_(created|updated):[^\n]*\n",
+            "",
+            content,
+            flags=re.MULTILINE,
+        )
+        if new_content != content:
+            post_file.write_text(new_content, encoding="utf-8")
+
+
 def parse_args():
     parser = argparse.ArgumentParser(
         description="我的自定义脚本 CLI", formatter_class=argparse.RawTextHelpFormatter
@@ -134,55 +189,62 @@ def main():
             "enable_blog": args.blog,
         }
 
-        # 创建 Jinja2 环境并注册自定义过滤器
-        env = Environment(
-            loader=FileSystemLoader(script_dir / "templates"),
-            keep_trailing_newline=True,
-        )
-        env.filters["to_yaml"] = to_yaml
+        # 构建前：为 blog 文章注入 document_dates（从 date 字段转换）
+        inject_document_dates()
 
-        template = env.get_template("build.yml.jinja2")
-        output = template.render(context)
-
-        # 写入 mkpandocs.yml
-        with open("mkpandocs.yml", "w", encoding="utf-8") as f:
-            f.write(output)
-
-        print("[PREBUILD] mkpandocs.yml 已更新。")
-
-        # 判断是否使用 uv
-        use_uv = os.path.exists("uv.lock")
-        cmd_prefix = ["uv", "run", "--no-sync"] if use_uv else []
-
-        if args.build:
-            print(f"[BUILD] 执行 {' '.join(cmd_prefix)} mkpandocs build...")
-            try:
-                subprocess.run(cmd_prefix + ["mkpandocs", "build"], check=True)
-                print("[FINAL] 构建成功！")
-            except subprocess.CalledProcessError as e:
-                print(f"[ERROR] 构建失败: {e}")
-                sys.exit(1)
-        elif args.serve:
-            print(
-                f"🚀 启动 {' '.join(cmd_prefix)} mkpandocs serve (端口: {args.port})..."
+        try:
+            # 创建 Jinja2 环境并注册自定义过滤器
+            env = Environment(
+                loader=FileSystemLoader(script_dir / "templates"),
+                keep_trailing_newline=True,
             )
-            try:
-                subprocess.run(
-                    cmd_prefix
-                    + [
-                        "mkpandocs",
-                        "serve",
-                        "--dirty",
-                        "--dev-addr",
-                        f"0.0.0.0:{args.port}",
-                    ],
-                    check=True,
+            env.filters["to_yaml"] = to_yaml
+
+            template = env.get_template("build.yml.jinja2")
+            output = template.render(context)
+
+            # 写入 mkpandocs.yml
+            with open("mkpandocs.yml", "w", encoding="utf-8") as f:
+                f.write(output)
+
+            print("[PREBUILD] mkpandocs.yml 已更新。")
+
+            # 判断是否使用 uv
+            use_uv = os.path.exists("uv.lock")
+            cmd_prefix = ["uv", "run", "--no-sync"] if use_uv else []
+
+            if args.build:
+                print(f"[BUILD] 执行 {' '.join(cmd_prefix)} mkpandocs build...")
+                try:
+                    subprocess.run(cmd_prefix + ["mkpandocs", "build"], check=True)
+                    print("[FINAL] 构建成功！")
+                except subprocess.CalledProcessError as e:
+                    print(f"[ERROR] 构建失败: {e}")
+                    sys.exit(1)
+            elif args.serve:
+                print(
+                    f"🚀 启动 {' '.join(cmd_prefix)} mkpandocs serve (端口: {args.port})..."
                 )
-            except KeyboardInterrupt:
-                print("\n[FINAL] 服务已停止。")
-            except subprocess.CalledProcessError as e:
-                print(f"[ERROR] 服务启动失败: {e}")
-                sys.exit(1)
+                try:
+                    subprocess.run(
+                        cmd_prefix
+                        + [
+                            "mkpandocs",
+                            "serve",
+                            "--dirty",
+                            "--dev-addr",
+                            f"0.0.0.0:{args.port}",
+                        ],
+                        check=True,
+                    )
+                except KeyboardInterrupt:
+                    print("\n[FINAL] 服务已停止。")
+                except subprocess.CalledProcessError as e:
+                    print(f"[ERROR] 服务启动失败: {e}")
+                    sys.exit(1)
+        finally:
+            # 构建后：清理 blog 文章中的 document_dates 行
+            cleanup_document_dates()
 
     else:
         print("⚠️ 错误: 请指定要执行的操作，例如 --build 或 --serve")

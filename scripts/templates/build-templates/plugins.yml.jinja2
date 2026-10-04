@@ -25,8 +25,9 @@ plugins:
             # 排除不想显示的文档？原因是构建出错了不知道是不是这个版本的问题
             - index.md
             - intro/*
-            - blog/*
+            # - blog/*
         # 这个插件更新好频繁跟不上了真的好诡异（
+        # 使用我自己维护的 https://github.com/raineblog/mkdocs-document-dates 接口与上游不一致（保留了上游的老板接口）
 -   privacy:
         assets_fetch: false
         assets_exclude:

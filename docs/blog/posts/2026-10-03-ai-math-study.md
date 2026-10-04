@@ -2,9 +2,6 @@
 date:
   created: 2026-10-03 15:30:00
   updated: 2026-10-03 15:30:00
-document_dates_created: 2026-10-03T15:30:00+0000
-document_dates_updated: 2026-10-03T15:30:00+0000
-readtime: 4
 description: 探讨如何用 AI 辅助高中数学学习，从错题复盘到一题多解的实践方法
 authors:
   - Gemini
