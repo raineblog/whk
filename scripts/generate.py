@@ -1,21 +1,20 @@
 import os
 import re
-import shutil
 import sys
 import functools
 import subprocess
 import argparse
 import importlib.util
 from pathlib import Path
+import yaml
+import json
+from jinja2 import Environment, FileSystemLoader
 
 print = functools.partial(print, flush=True)
 
 os.environ["LC_ALL"] = "zh_CN.UTF-8"
 os.environ["LANG"] = "zh_CN.UTF-8"
 
-import yaml
-import json
-from jinja2 import Environment, FileSystemLoader
 
 script_dir = Path(__file__).resolve().parent
 current_dir = Path.cwd()
@@ -107,7 +106,7 @@ def inject_document_dates():
             f"\ndocument_dates_created: {created_iso}\n"
             f"document_dates_updated: {updated_iso}"
         )
-        content = content[:m_updated.end()] + injection + content[m_updated.end():]
+        content = content[: m_updated.end()] + injection + content[m_updated.end() :]
         post_file.write_text(content, encoding="utf-8")
 
 
