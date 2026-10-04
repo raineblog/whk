@@ -2,9 +2,6 @@
 date:
   created: 2026-10-02 15:00:00
   updated: 2026-10-02 15:00:00
-document_dates_created: 2026-10-02T15:00:00+0000
-document_dates_updated: 2026-10-02T15:00:00+0000
-readtime: 2
 description: 博客功能重启说明，后续将不定期更新高中理科笔记与学习心得
 authors:
   - RainPPR
