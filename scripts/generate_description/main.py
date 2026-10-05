@@ -10,6 +10,7 @@ from nvidia_api import get_description
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 DOCS_DIR = PROJECT_ROOT / "docs"
+BLOG_DIR = DOCS_DIR / "blog"
 CACHE_FILE = PROJECT_ROOT / "description_cache.json"
 MAX_PER_RUN = 80
 DELAY = 1
@@ -79,9 +80,13 @@ def needs_description(content):
 def get_md_files():
     result = []
     for root, dirs, files in os.walk(DOCS_DIR):
+        root_path = Path(root)
+        if root_path == BLOG_DIR:
+            dirs[:] = ["posts"]
+            continue
         for f in files:
             if f.endswith(".md"):
-                result.append(Path(root) / f)
+                result.append(root_path / f)
     return sorted(result)
 
 

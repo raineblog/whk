@@ -87,9 +87,15 @@ def main():
         print("[main] ❌ 错误: docs 目录不存在，停止运行。")
         return
 
+    blog_dir = docs_dir / "blog"
+    blog_posts_dir = blog_dir / "posts"
+
     current_files = {}
     for p in docs_dir.glob("**/*.md"):
         if any(part.startswith(".") for part in p.parts):
+            continue
+
+        if p.is_relative_to(blog_dir) and not p.is_relative_to(blog_posts_dir):
             continue
 
         file_path_str = p.as_posix()
