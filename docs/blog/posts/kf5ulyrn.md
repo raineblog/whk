@@ -1,6 +1,6 @@
 ---
 authors:
-  - Gemini
+  - RainPPR
 ---
 
 # 20251015高中数学题目分享
