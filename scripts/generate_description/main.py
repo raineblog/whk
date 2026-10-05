@@ -65,6 +65,35 @@ def build_frontmatter(fm_body, description):
     return cleaned
 
 
+def strip_more_excerpt(body):
+    """Remove the excerpt between H1 and <!-- more --> for stable hashing.
+
+    Returns the body with the inserted excerpt stripped out,
+    so the MD5 only reflects the actual content.
+    """
+    lines = body.split("\n")
+    h1_idx = None
+    for i, line in enumerate(lines):
+        if re.match(r"^#\s+", line):
+            h1_idx = i
+            break
+    if h1_idx is None:
+        # No H1: treat everything before the first <!-- more --> as excerpt
+        for i, line in enumerate(lines):
+            if line.strip() == "<!-- more -->":
+                return "\n".join(lines[i + 1 :])
+        return body
+    more_idx = None
+    for i, line in enumerate(lines):
+        if i > h1_idx and line.strip() == "<!-- more -->":
+            more_idx = i
+            break
+    if more_idx is None:
+        return body
+    # Remove everything between H1 (exclusive) and <!-- more --> (inclusive)
+    return "\n".join(lines[: h1_idx + 1] + lines[more_idx + 1 :])
+
+
 def body_md5(body):
     stripped = re.sub(r"\s+", "", body)
     return hashlib.md5(stripped.encode("utf-8")).hexdigest()
@@ -114,7 +143,16 @@ def apply_more_excerpt(body, desc):
             break
 
     if h1_idx is None:
-        # No H1 heading found, just prepend excerpt
+        # No H1: if <!-- more --> exists, replace the excerpt before it
+        more_idx = None
+        for i, line in enumerate(lines):
+            if line.strip() == "<!-- more -->":
+                more_idx = i
+                break
+        if more_idx is not None:
+            after = lines[more_idx + 1 :]
+            return "\n".join([desc, "", "<!-- more -->"] + after)
+        # No existing <!-- more -->, just prepend excerpt
         return f"{desc}\n\n<!-- more -->\n\n{body}"
 
     # Find existing <!-- more --> line index
@@ -164,10 +202,13 @@ def main():
 
     needs_update = []
     for md_file in md_files:
-        rel = str(md_file.relative_to(PROJECT_ROOT))
+        rel = md_file.relative_to(PROJECT_ROOT).as_posix()
         content = read_file(md_file)
         fm_body, body = parse_frontmatter(content)
-        md5 = body_md5(body)
+        # For blog posts, strip the inserted excerpt before hashing
+        # so the MD5 stays stable after description insertion
+        hash_body = strip_more_excerpt(body) if is_blog_post(md_file) else body
+        md5 = body_md5(hash_body)
         entry = cache.get(rel)
         old_md5 = entry.get("md5") if entry else None
         last_ts = entry.get("last_submitted", 0) if entry else 0
