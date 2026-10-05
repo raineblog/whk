@@ -212,23 +212,26 @@ def main():
             use_uv = os.path.exists("uv.lock")
             cmd_prefix = ["uv", "run", "--no-sync"] if use_uv else []
 
+            # 使用 run_mkpandocs.py 包装器启动，以注入 blog 插件所需的兼容 shim
+            mkpandocs_cmd = cmd_prefix + [
+                sys.executable,
+                str(script_dir / "run_mkpandocs.py"),
+            ]
+
             if args.build:
-                print(f"[BUILD] 执行 {' '.join(cmd_prefix)} mkpandocs build...")
+                print(f"[BUILD] 执行 {' '.join(mkpandocs_cmd)} build...")
                 try:
-                    subprocess.run(cmd_prefix + ["mkpandocs", "build"], check=True)
+                    subprocess.run(mkpandocs_cmd + ["build"], check=True)
                     print("[FINAL] 构建成功！")
                 except subprocess.CalledProcessError as e:
                     print(f"[ERROR] 构建失败: {e}")
                     sys.exit(1)
             elif args.serve:
-                print(
-                    f"🚀 启动 {' '.join(cmd_prefix)} mkpandocs serve (端口: {args.port})..."
-                )
+                print(f"🚀 启动 {' '.join(mkpandocs_cmd)} serve (端口: {args.port})...")
                 try:
                     subprocess.run(
-                        cmd_prefix
+                        mkpandocs_cmd
                         + [
-                            "mkpandocs",
                             "serve",
                             "--dirty",
                             "--dev-addr",
