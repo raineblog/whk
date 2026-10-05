@@ -11,6 +11,7 @@ from nvidia_api import get_description
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 DOCS_DIR = PROJECT_ROOT / "docs"
 BLOG_DIR = DOCS_DIR / "blog"
+BLOG_POSTS_DIR = BLOG_DIR / "posts"
 CACHE_FILE = PROJECT_ROOT / "description_cache.json"
 MAX_PER_RUN = 80
 DELAY = 1
@@ -77,6 +78,72 @@ def needs_description(content):
     return True
 
 
+def is_blog_post(md_file):
+    """Check if the file is under docs/blog/posts."""
+    try:
+        md_file.relative_to(BLOG_POSTS_DIR)
+        return True
+    except ValueError:
+        return False
+
+
+def apply_more_excerpt(body, desc):
+    """Insert description + <!-- more --> after the H1 heading in blog post body.
+
+    If <!-- more --> already exists, clear the old excerpt between H1 and <!-- more -->,
+    then insert the new description.
+
+    Expected output format (body part, after frontmatter):
+
+        # Title
+
+        <description text>
+
+        <!-- more -->
+
+        <rest of content>
+    """
+    # Split into lines for processing
+    lines = body.split("\n")
+
+    # Find H1 heading line index
+    h1_idx = None
+    for i, line in enumerate(lines):
+        if re.match(r"^#\s+", line):
+            h1_idx = i
+            break
+
+    if h1_idx is None:
+        # No H1 heading found, just prepend excerpt
+        return f"{desc}\n\n<!-- more -->\n\n{body}"
+
+    # Find existing <!-- more --> line index
+    more_idx = None
+    for i, line in enumerate(lines):
+        if i > h1_idx and line.strip() == "<!-- more -->":
+            more_idx = i
+            break
+
+    if more_idx is not None:
+        # Remove old excerpt: everything between H1 and <!-- more --> (exclusive)
+        # Keep H1, remove old excerpt lines, keep <!-- more --> and after
+        before = lines[: h1_idx + 1]
+        after = lines[more_idx + 1 :]  # lines after <!-- more -->
+        # Rebuild: H1 + blank + desc + blank + <!-- more --> + rest
+        new_lines = before + ["", desc, "", "<!-- more -->"] + after
+    else:
+        # No existing <!-- more -->, insert after H1
+        before = lines[: h1_idx + 1]
+        # Skip blank lines immediately after H1
+        rest_start = h1_idx + 1
+        while rest_start < len(lines) and lines[rest_start].strip() == "":
+            rest_start += 1
+        after = lines[rest_start:]
+        new_lines = before + ["", desc, "", "<!-- more -->", ""] + after
+
+    return "\n".join(new_lines)
+
+
 def get_md_files():
     result = []
     for root, dirs, files in os.walk(DOCS_DIR):
@@ -126,6 +193,11 @@ def main():
 
             if description and description.strip():
                 desc = description.strip()
+
+                # For blog posts, apply excerpt with <!-- more -->
+                if is_blog_post(md_file):
+                    body = apply_more_excerpt(body, desc)
+
                 if fm_body:
                     new_fm = build_frontmatter(fm_body, desc)
                     new_content = f"---\n{new_fm}\n---\n\n{body}"
