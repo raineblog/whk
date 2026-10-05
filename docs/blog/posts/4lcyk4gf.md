@@ -43,8 +43,6 @@ authors:
 
 ## 详细解析
 
-由 Gemini 3.6 Flash 生成。
-
 **破题逻辑**：
 
 1. **显色原理**：$\text{Fe}^{3+} + n\text{SCN}^- \rightleftharpoons [\text{Fe(SCN)}]_n^{3-n}$（血红色）。
