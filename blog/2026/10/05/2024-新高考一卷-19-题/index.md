@@ -192,4 +192,4 @@ b_n\\Big/{4m+2\\choose 2}>{1\\over8}\\ {n^2+n+1\\over(2n+1)(4n+1)}>{1\\over8}\\ 
 
 2026-10-052026-10-05
 
-[RainPPR](https://github.com/RainPPR)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
