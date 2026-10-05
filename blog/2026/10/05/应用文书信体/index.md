@@ -1,0 +1,635 @@
+# 应用文·书信体
+
+本文系统讲解新高考英语应用文六大书信体：建议信、感谢信、求助信、邀请信、申请信、告知信。结合讲义任务详解核心特征、黄金模板、金句翻译与微写作范文，提供高分思维点拨，助高三快速掌握写作框架与语料。
+
+> 结合我们老师的课件，详细展开讲解这六大类的应用文，先把讲义上的任务逐一仔细完成，同时可以添加你的适当补充
+>
+> <https://aistudio.google.com/prompts/1o6hclCa6EZt5ZBF8r86fTW3NpyoDkLwr>
+
+这份讲义涵盖了新高考英语应用文写作中最核心的**六大信件体裁**：**建议信、感谢信、求助信、邀请信、申请信、告知信**。
+
+下面将结合讲义内容进行**深度模块化讲解**，逐一完成讲义上的所有练习（基础夯实、金句翻译、模板填空、微写作实战及两套课后作业），并附上**高分思维点拨与高级句式拓展**，助你在高三复习中建立系统的写作认知与高分语料库。
+
+# 第一部分：书信交往类应用文
+
+## 模块一：建议信 (Letter of Advice)
+
+### 一、 核心特征与行文逻辑
+
+1. **交际目的**：针对对方提出的问题或困境提出建设性、可操作的建议。
+1. **黄金逻辑三步走**：
+   - **首段**：表明写信目的（得知对方困扰并主动提供建议）+ 表达同理心。
+   - **主体段**：分层次提出2~3条具体可行的建议，并**简要说明理由或预期效果**（建议+理由/效果，避免空洞罗列）。
+   - **尾段**：表达祝愿、鼓励与期待反馈。
+1. **高分语气（Tone）**：委婉、客观、真诚。多使用软化语气的表达，如 *You might consider…*, *It would be beneficial if…*, *I strongly recommend that…*。
+
+### 二、 讲义任务逐一详解（P1-P2）
+
+#### 1. 基础夯实——句子构建训练
+
+1. **题目**：考虑到你时间紧张，我建议你每天只花 20 分钟背诵单词。(提示词: consider)
+   - **完整句子**：**Considering (that)** you have a tight schedule, I suggest that you spend only 20 minutes memorizing words every day.
+   - *考点精析*：`Considering (that)...` 为介词/连词短语，意为“鉴于/考虑到……”，常位于句首作状语，比简单的 *Because* 更加地道书面化。
+1. **题目**：基于我们之前的讨论，我建议你将演讲的重点放在环保话题上。(提示词: base)
+   - **完整句子**：**Based on** our previous discussion, I suggest that you focus your speech on environmental protection topics.
+   - *考点精析*：`Based on...` 过去分词短语作状语，表“基于……”。
+1. **题目**：如果你同意我的建议，请尽快回复我，以便我们做进一步安排。(提示词: agree)
+   - **完整句子**：**If you agree with** my suggestion, please reply to me as soon as possible so that we can make further arrangements.
+   - *考点精析*：条件状语从句，注意“同意某人建议”用 `agree with sb.'s suggestion`。
+
+#### 2. 能力进阶——话题金句汉译英
+
+1. **我写信是想建议你在考试前制定一个合理的复习计划。**
+   - **基础表达**：I am writing to suggest that you should make a reasonable revision plan before the exam.
+   - **高分进阶**：I am writing to advise you to work out a well-structured revision schedule prior to the upcoming examination.
+1. **考虑到你英语基础很好，我建议你多读一些英文原著。**
+   - **高分表达**：Considering your solid foundation in English, I recommend that you read more original English works.
+1. **为了提高你的口语水平，我建议你每天花 20 分钟跟着录音朗读。**
+   - **高分表达**：To polish your spoken English, it would be a wise choice to allocate 20 minutes each day to reading aloud after recordings.
+1. **如果你想在写作上取得进步，我建议你坚持每周写一篇英语日记。**
+   - **高分表达**：If you desire to make headway in writing, my advice is that you keep a weekly English diary consistently.
+1. **基于你目前的学习情况，我建议你把更多时间花在薄弱科目上。**
+   - **高分表达**：Based on your current academic performance, I suggest that you devote more time to your weak subjects.
+1. **如果你同意我的建议，请尽快回复我，以便我能帮你做进一步安排。**
+   - **高分表达**：Should you agree with my suggestions, please drop me a line at your earliest convenience so that I can make further arrangements for you.
+
+#### 3. 黄金模板深度剖析
+
+- **升级模板精要**：
+
+  > Dear [Name],\
+  > I am awfully sorry to learn that [写信背景：如 you are wrestling with English learning]. However, the situation can’t be unchangeable if you take the following suggestions [写信目的：into account / consideration].\
+  > To begin with, [建议一: 祈使句，如 cultivate a habit of reading daily]. Additionally, it’s highly recommended [that you join an English corner], from which [定语从句：you can boost both your confidence and fluency]. Most importantly, you’ll be [greatly rewarded] if you [条件状语从句：persist in practicing with patience].\
+  > Please take my suggestions into account. I’m convinced everything will be better and may you succeed next time.\
+  > Yours sincerely,\
+  > Li Hua
+
+#### 4. 微写作实战
+
+##### 【模拟题 1】给美国笔友 Lucy 的回信（中文学习困难与气馁）
+
+- **审题构思**：
+
+  - 角色：Li Hua
+  - 收信人：Lucy
+  - 要点：1. 理解并安慰；2. 建议（联想法记汉字、看影视练发音、每日坚持15分钟）；3. 鼓励与祝愿。
+
+- **满分范文**：
+
+  > Dear Lucy,
+  >
+  > I am awfully sorry to hear that you are encountering hurdles in memorizing Chinese characters and pronunciation, and even feeling like giving up. Please rest assured that it is entirely normal for every language beginner to experience such frustration.
+  >
+  > To reverse the situation, I would like to offer several practical tips. To begin with, try the association method to memorize characters, which helps connect abstract strokes with vivid imagery. Additionally, it is highly recommended that you watch Chinese films and TV dramas, from which you can naturally acquire authentic pronunciation and intonation. Most importantly, you will make steady progress if you set aside at least 15 minutes for deliberate daily practice.
+  >
+  > Rome was not built in a day. Keep going, and I am confident that your persistent efforts will pay off soon.
+  >
+  > Yours sincerely,\
+  > Li Hua
+
+##### 【模拟题 2】给初中同学李华的回信（新高一选科迷茫）
+
+- **审题构思**：
+
+  - 要点：1. 表达理解与安慰；2. 建议（结合兴趣优势、了解大学专业选考要求、咨询师长）；3. 祝愿。
+
+- **满分范文**：
+
+  > Dear Li Hua,
+  >
+  > Knowing that you are bewildered about choosing between physics and history tracks, I completely empathize with your anxiety, as this decision plays a vital role in our future academic paths.
+  >
+  > Here are some suggestions that may shed light on your decision. First and foremost, base your choice on your genuine academic interests and competitive strengths, for enthusiasm is the best driver of sustained effort. Furthermore, it is advisable to look into the subject prerequisites of your dream universities and majors. Last but not least, do consult experienced teachers and seniors, whose constructive insights will definitely prevent you from making a hasty choice.
+  >
+  > Take a deep breath and trust your judgment. I believe you will make the most suitable decision.
+  >
+  > Yours sincerely,\
+  > Li Hua
+
+## 模块二：感谢信 (Letter of Thanks)
+
+### 一、 核心特征与高分思维
+
+1. **交际目的**：对收信人提供的帮助、关照或款待表达深切谢意。
+1. **逻辑框架**：
+   - **首段**：开门见山致谢 + 点出感谢的具体事由（回溯背景）。
+   - **主体段**：**回忆细节**（对方的具体付出）+ **阐述影响**（如何帮助自己渡过难关/取得进步）+ **赞赏品质**（如耐心、慷慨、专业）。
+   - **尾段**：再次致谢 + 表达回馈之意（repay your kindness）+ 祝愿。
+1. **高分核心句型**：虚拟语气（*Without your help… / If it had not been for…*）、倒装句、感叹句。
+
+### 二、 讲义任务逐一详解（P3-P4）
+
+#### 1. 基础夯实——句子构建训练
+
+1. **题目**：考虑到你在我备考期间给了我那么多帮助，我写信是想表达我真诚的感谢。(提示词: take into account)
+   - **完整句子**：**Taking into account that** you gave me so much help during my preparation for the exam, I am writing to express my sincere gratitude to you.
+   - *考点精析*：现在分词短语 `Taking into account that...` 作状语，主语为 `I`。
+1. **题目**：我能够克服这些困难，完全是因为你一直以来的鼓励。(提示词: owe to)
+   - **完整句子**：I **owe** all my ability to overcome these difficulties to your constant encouragement.
+   - *考点精析*：`owe A to B` 表示“把 A 归功于 B”，是高考写作中极具高级感的核心动词搭配。
+1. **题目**：你的善良和帮助将永远铭刻在我心中。(提示词: impress)
+   - **完整句子**：Your kindness and help will **be impressed** on my heart forever.
+   - *考点精析*：被动语态 `be impressed on one's mind/heart`，意为“被深深铭刻在……心中”。
+
+#### 2. 能力进阶——话题金句汉译英
+
+1. **我写信是想感谢你在我最困难的时候给我带来的温暖和鼓励。**
+   - **高分表达**：I am writing to convey my heartfelt thanks for the warmth and encouragement you offered when I was in the depth of difficulty.
+1. **如果没有你的鼓励和支持，我不可能取得这么大的进步。**
+   - **高分表达（虚拟语气）**：If it had not been for your constant encouragement and unwavering support, I could never have achieved such tremendous progress.
+1. **每当我遇到困难时，你总是毫不犹豫地向我伸出援手。**
+   - **高分表达**：Whenever I ran into trouble, you never hesitated to extend a helping hand to me.
+1. **你的建议对我非常宝贵，让我最终找到了正确的学习方法。**
+   - **高分表达**：Your invaluable advice enlightened me profoundly, enabling me to eventually identify the most effective study methodology.
+1. **正是因为你的信任和帮助，我才有勇气继续追逐我的梦想。**
+   - **高分表达（强调句）**：It was your trust and timely assistance that endowed me with the courage to pursue my dreams continuously.
+1. **请接受我诚挚的谢意，并期待以后有机会能回报你的帮助。**
+   - **高分表达**：Please accept my sincere gratitude, and I truly look forward to any opportunity to repay your kindness in the future.
+
+#### 3. 黄金模板深度剖析
+
+- **升级模板精要**：
+
+  > Dear [Name],\
+  > I’m extremely grateful for your generous help with [感谢内容：my college entrance examination preparation].\
+  > Our time spent together [背景：remains one of the sweetest memories in my life]. I vividly remember your patient attitude at [the moment] when I struggled even with [帮助内容：basic grammatical rules and speaking confidence]. Your [timely advice and insightful feedback] helped me [帮助内容：overcome my bottlenecks step by step].\
+  > Thanks to you, my progress was so [remarkable] that [再次致谢：words fail to convey my full appreciation]. I wish you plenty of pleasure in your life.\
+  > Yours sincerely,\
+  > Li Hua
+
+#### 4. 微写作实战
+
+##### 【模拟题 1】写给英国笔友 Tom 的感谢信（备战高考英语）
+
+- **审题构思**：
+
+  - 要点：1. 诚挚致谢；2. 细节（定期发资料、视频纠音、鼓励坚持）；3. 渴望回报与祝愿。
+
+- **满分范文**：
+
+  > Dear Tom,
+  >
+  > I am writing to convey my heartfelt appreciation for your generous help during my preparation for the college entrance examination, without which I could not have made such remarkable progress in English.
+  >
+  > Looking back, I vividly remember how selflessly you sent me valuable learning materials on a regular basis. More touchingly, through countless video calls, you patiently corrected my pronunciation and intonation word by word. Whenever I was overwhelmed by anxiety, it was your unwavering encouragement that rekindled my passion and determination to persevere.
+  >
+  > Should you have the opportunity to visit China, please let me be your host and guide. Wishing you all the very best in your health and academic pursuits!
+  >
+  > Yours sincerely,\
+  > Li Hua
+
+##### 【模拟题 2】写给同班同学李华的感谢信（破除高一孤独）
+
+- **审题构思**：
+
+  - 要点：1. 回顾初入高中时的内向孤独；2. 李华的主动交往（聊天、吃饭、介绍新朋友）；3. 珍视友谊与祝福。
+
+- **满分范文**：
+
+  > Dear Li Hua,
+  >
+  > I am writing this letter to express my deep sense of gratitude for everything you did for me at the beginning of our senior high school life.
+  >
+  > At that time, being introverted and timid, I felt painfully isolated and struggled to adapt to the new surroundings. It was you who took the initiative to chat with me, invite me to have lunch together, and warmly introduce me to other classmates. Thanks to your company, I quickly stepped out of my shell and fully integrated into our vibrant class family.
+  >
+  > Words cannot fully express how much I cherish our precious friendship. May our bond remain strong and may you be blessed with happiness every day!
+  >
+  > Yours sincerely,\
+  > Wang Lin
+
+## 模块三：求助信 (Letter of Request / Seeking Help)
+
+### 一、 核心特征与高分思维
+
+1. **交际目的**：阐述自身遇到的棘手问题，礼貌、委婉地请求对方提供特定帮助。
+1. **逻辑框架**：
+   - **首段**：礼貌开篇 + 说明求助意图。
+   - **主体段**：**交代缘由**（具体困境与挑战）+ **明确求助事项**（希望对方做些什么，展现自身已经付出的努力，避免给人“不劳而获”之感）。
+   - **尾段**：表达预先感谢（*I would be more than grateful if…*）+ 期待答复。
+1. **语气规范**：谦逊、得体（polite & considerate），多用虚拟语气（*would, could, wonder if*），避免使用具有命令色彩的祈使句。
+
+### 二、 讲义任务逐一详解（P5-P7）
+
+#### 1. 基础夯实——句子构建训练
+
+1. **题目**：我写信是想请你帮个忙，因为我最近在英语听力方面遇到了很大的困难。(提示词: run into)
+   - **完整句子**：I am writing to ask you for a favor, because I **have run into** a great difficulty in English listening recently.
+   - *考点精析*：现在完成时 `have run into` 表过去发生并对现在产生影响的动作；短语 `run into difficulties` 意为“遭遇困难”。
+1. **题目**：我正在为如何提高英语写作水平而苦恼，不知你是否能帮我一把。(提示词: struggle with)
+   - **完整句子**：I **am struggling with** how to improve my English writing, and I wonder if you could give me a hand.
+   - *考点精析*：进行时态 `am struggling with...` 形象地表现出当前苦苦挣扎的状态。
+1. **题目**：如果你能抽出时间帮我练习一下英语发音，我将感激不尽。(提示词: spare)
+   - **完整句子**：**If you could spare** some time to help me practice my English pronunciation, I would be more than grateful. (或采用高级虚拟倒装: **Should you spare…**)
+   - *考点精析*：条件虚拟句，`spare some time` 意为“抽出时间”。
+
+#### 2. 能力进阶——话题金句汉译英
+
+1. **我写信是想请你帮个忙，因为我在英语听力方面遇到了很大的困难。**
+   - **高分表达**：I am writing to solicit your help, as I have run into great bottlenecks in my English listening comprehension.
+1. **我最近在学习数学时遇到了很多难题，不知您能否给我一些指导。**
+   - **高分表达**：Lately, I have been troubled by numerous challenging math problems, and I wonder whether you could provide me with some valuable guidance.
+1. **我正在为如何选择大学专业而苦恼，希望您能给我一些建议。**
+   - **高分表达**：I am currently in a dilemma about selecting my college major, and I would be immensely grateful if you could offer some insightful suggestions.
+1. **我马上就要参加体育考试了，但在长跑项目上始终无法达标。**
+   - **高分表达**：With the physical examination around the corner, I still fail to reach the required standard in the long-distance running event.
+1. **我在准备志愿者面试时感到非常紧张，想知道如何才能表现得更好。**
+   - **高分表达**：Feeling utterly nervous about the upcoming volunteer interview, I am wondering how I can distinguish myself and perform better.
+1. **我发现自己很难平衡学习和社团活动，您能告诉我该怎么做吗？**
+   - **高分表达**：I find it tricky to strike a balance between academic studies and extracurricular club activities; could you kindly share some tips on this matter?
+
+#### 3. 黄金模板深度剖析
+
+- **升级模板精要**：
+
+  > Dear [Name],\
+  > I am writing to ask whether you could do me a favor, as I am eager to participate in the upcoming English Poetry Reading Contest.\
+  > The truth is that I have been struggling with some difficulties recently. I find it challenging to be qualified for the contest, and my limited vocabulary makes it hard for me to express my ideas accurately. What bothers me most is that I have great difficulty in mastering English rhythm and intonation, which seems to block my way to progress.\
+  > I would genuinely appreciate it if you could spare some time to give me guidance and polish my recitation draft. Your help would mean a lot to me, and I am looking forward to your kind reply.\
+  > Yours sincerely,\
+  > Li Hua
+
+#### 4. 微写作实战
+
+##### 【模拟题 1】给英国笔友 Tom 的求助信（演讲比赛准备）
+
+- **审题构思**：
+
+  - 要点：1. 目的（校英语演讲比赛需帮助）；2. 困难（讲稿结构组织、生词发音不准、临场紧张）；3. 期望帮助与感谢。
+
+- **满分范文**：
+
+  > Dear Tom,
+  >
+  > I am writing to ask if you could do me a favor. An English speech contest will be staged in our school next month, and I am eager to participate but caught in several unexpected dilemmas.
+  >
+  > To begin with, I am struggling with how to organize the speech draft logically so that it can captivate the audience. In addition, I find some polysyllabic words hard to pronounce accurately and naturally. Worst of all, stage fright frequently haunts me, making me feel extremely nervous whenever I speak in front of a crowd. Knowing that you are an eloquent public speaker, I wonder if you could spare some time to review my script and give me some tips on stage performance.
+  >
+  > Any assistance from you would mean the world to me. I am eagerly awaiting your reply!
+  >
+  > Yours sincerely,\
+  > Li Hua
+
+##### 【模拟题 2】给朋友李华的求助信（暑期兼职求职）
+
+- **审题构思**：
+
+  - 要点：1. 目的（暑期寻找兼职家教/服务员）；2. 困难（写吸引人的简历、缺乏面试应答经验）；3. 期望帮助与感谢。
+
+- **满分范文**：
+
+  > Dear Li Hua,
+  >
+  > How is everything going? I am writing to solicit your help, as I intend to take up a part-time job as a tutor during the summer vacation to enrich my social experience.
+  >
+  > However, possessing no previous employment experience, I am currently stuck in a few difficulties. For one thing, I am at a loss as to how to compose an eye-catching and well-formatted resume. For another, I have no idea how to respond properly to interviewers’ questions. Aware that you have rich part-time work experience, I wonder whether you could share some practical interview techniques and help me polish my resume.
+  >
+  > I would be more than grateful if you could lend me a helping hand. Looking forward to hearing from you soon!
+  >
+  > Yours sincerely,\
+  > Zhang Wei
+
+## 模块四：建议类课后作业（P8）精批与高分范文
+
+### 题目回放（山东省潍坊市 2024-2025 学年高三联考）：
+
+> 假设你是李华，你的英国好友 Jim 准备参加中国文化网举办的 “Sharing China” 春节文化影像展全球作品征集活动，他发来邮件询问你的建议。请你用英文给他回复，内容包括：
+>
+> 1. 拍摄内容建议；
+> 1. 简要说明理由。\
+>    注意：词数 80 左右。
+
+### 构思与技巧指导：
+
+- **核心内容**：选择 1~2 个最能代表中国春节且具视觉冲击力的文化元素（如：包饺子/吃年夜饭、贴春联/挂灯笼、舞龙舞狮等），并从“文化内涵”和“情感价值”的角度阐释理由。
+- **高分词汇**：*vibrant, festive atmosphere, reunite, culinary tradition, symbol of prosperity*.
+
+### 满分示范：
+
+> Dear Jim,
+>
+> Delighted to hear that you are entering the “Sharing China” Spring Festival Photo Exhibition, I am writing to share a couple of suggestions regarding your shooting themes.
+>
+> First and foremost, you can focus your camera on a family making dumplings together. Dumplings, resembling ancient gold ingots, are not merely a traditional delicacy but a profound symbol of reunion and good fortune. Furthermore, bustling street celebrations, particularly dragon and lion dances decorated with red lanterns, are highly recommended, as they best capture the vibrant, joy-filled festive atmosphere of the Chinese New Year.
+>
+> Hopefully, these ideas will inspire you. May your work stand out in the contest!
+>
+> Yours,\
+> Li Hua
+
+# 第二部分：活动通知类应用文
+
+## 模块五：邀请信 (Letter of Invitation)
+
+### 一、 核心特征与高分思维
+
+1. **交际目的**：正式邀请某人参加某项活动、典礼或赛事。
+1. **逻辑框架**：
+   - **首段**：发出诚挚邀请（明确活动名称、宗旨、时间地点）。
+   - **主体段**：**详细介绍活动亮点与流程**（Activities & Highlights: 展出内容、特色环节、互动体验等）。
+   - **尾段**：表达期待、确认回复方式及联系渠道（RSVP: *Please let me know if you can make it by…*）。
+1. **句式特色**：定语从句（交代背景）、宾语从句及非谓语结构使信息传达更紧凑。
+
+### 二、 讲义任务逐一详解（P10-P12）
+
+#### 1. 基础夯实——句子构建训练
+
+1. **题目**：我写信是想邀请你参加下周五晚上在我校礼堂举行的英语演讲比赛。(提示词: take place)
+   - **完整句子**：I am writing to invite you to attend the English speech contest which **will take place** next Friday evening in our school hall. (或 **is to take place**)
+   - *考点精析*：定语从句修饰 `contest`，`take place` 没有被动语态，用一般将来时主动形式。
+1. **题目**：如果你能作为嘉宾出席我们的书法展览，我们将不胜荣幸。(提示词: honor)
+   - **完整句子**：We would **be highly honored** (或 **feel honored**) if you could attend our calligraphy exhibition as a distinguished guest.
+   - *考点精析*：虚拟条件句，`be honored if...` 表达礼貌与敬意。
+1. **题目**：我真诚地希望你能接受我的邀请，我相信你的到来将使这次活动更加精彩。(提示词: look forward to)
+   - **完整句子**：I sincerely hope you can accept my invitation, and I **look forward to** your coming to make this event more wonderful.
+   - *考点精析*：`look forward to doing sth.`，注意 `to` 为介词，后接动名词复合结构 `your coming`。
+
+#### 2. 能力进阶——话题金句汉译英
+
+1. **我写信是想邀请你担任我校英语演讲比赛的评委。**
+   - **高分表达**：I am writing to warmly invite you to act as a distinguished judge in our school’s upcoming English Speech Contest.
+1. **我们将于下周五下午三点在图书馆举办读书分享会，希望你能来参加。**
+   - **高分表达**：A book-sharing seminar is scheduled to be held in the library at 3:00 p.m. next Friday, and we sincerely hope for your presence.
+1. **我生日派对将在本周六晚上七点在我家举行，非常希望你能来。**
+   - **高分表达**：My birthday party will be staged at my house at 7:00 p.m. this Saturday, and nothing would give me greater pleasure than having you join us.
+1. **学校下周将组织一次参观科学博物馆的活动，我想邀请你一起参加。**
+   - **高分表达**：Our school is organizing a tour of the Science Museum next week, and I would be thrilled if you could participate alongside me.
+1. **如果你有空的话，我想邀请你和我一起去听周日上午的音乐会。**
+   - **高分表达**：Should you be available, I would like to invite you to accompany me to the concert scheduled for Sunday morning.
+1. **请尽快告诉我你是否能来，我好提前做准备。**
+   - **高分表达**：Please inform me of whether you can make it at your earliest convenience so that I can make adequate preparations beforehand.
+
+#### 3. 黄金模板深度剖析
+
+- **升级模板精要**：
+
+  > Dear [Name],\
+  > In a bid to [活动目的：enrich students’ campus life], a(n) [活动：Annual Cultural and Art Festival] is scheduled to be held in/at [地点：our school playground]. I would like to invite you to participate in it.\
+  > As scheduled, the [activity] falls on [具体日期], lasting from [9:00 a.m.] to [5:00 p.m.], during which time a wide variety of [活动内容：appealing events] will be put on. For example, [学生书画展与才艺展示]. In addition/As far as I can see, [其他活动：a charity bazaar selling handmade crafts will be held to raise funds for children in need].\
+  > Hopefully, you can spare time to join us. Should you have any question, please don’t hesitate to let me know. May you have a good time!\
+  > Yours sincerely,\
+  > Li Hua
+
+#### 4. 微写作实战
+
+##### 【模拟题 1】邀请英国笔友 Tom 参加校园文化艺术节
+
+- **审题构思**：
+
+  - 要点：1. 发出邀请并点明活动名称；2. 时间、地点与活动内容（书画展、才艺表演、义卖）；3. 期待心情。
+
+- **满分范文**：
+
+  > Dear Tom,
+  >
+  > Knowing that you possess a profound keenness on Chinese youth culture, I am writing to sincerely invite you to attend our annual Campus Culture and Art Festival.
+  >
+  > The festival is slated to take place on our school sports field from 9:00 a.m. to 4:00 p.m. next Friday. A rich variety of intriguing activities will be put on. To begin with, an exhibition of student calligraphy and painting will be displayed, offering you a glimpse of traditional artistic beauty. Additionally, you will be entertained by dazzling talent shows featuring music and folk dance. Most meaningfully, a charity bazaar selling handmade crafts will be set up to raise funds for poor students.
+  >
+  > I firmly believe that your coming will make this festival even more delightful. Please drop me a line by Tuesday if you can make it.
+  >
+  > Yours sincerely,\
+  > Li Hua
+
+##### 【模拟题 2】邀请英国笔友 Lucy 参加端午节社区活动
+
+- **审题构思**：
+
+  - 要点：1. 端午节背景；2. 社区活动详情（包粽子比赛、龙舟表演）；3. 期待并愿意全程陪同。
+
+- **满分范文**：
+
+  > Dear Lucy,
+  >
+  > With the traditional Chinese Dragon Boat Festival just around the corner, I am thrilled to invite you to participate in a festive celebration organized by our local community.
+  >
+  > The event will be held in the Riverside Park next Thursday morning. During the celebration, an exciting zongzi-making competition will be staged, where you can learn how to wrap sticky rice in bamboo leaves with the help of hospitable residents. Furthermore, an energetic dragon boat race will take place along the river, accompanied by deafening drumbeats and joyful cheers. I would be more than delighted to accompany you throughout the event and explain the customs behind this festival.
+  >
+  > Looking forward to your affirmative reply!
+  >
+  > Yours sincerely,\
+  > Li Hua
+
+## 模块六：申请信 (Letter of Application)
+
+### 一、 核心特征与高分思维
+
+1. **交际目的**：向招募机构自荐，申请某一职位（如志愿者、编辑、助理等）。
+1. **逻辑框架**：
+   - **首段**：开宗明义表明申请职位 + 信息来源。
+   - **主体段**：**核心优势展示**（Personal Strengths）——从**语言能力、相关经验、性格品质、专业契合度**四个维度精准阐述，佐以具体事例。
+   - **尾段**：重申承诺与决心 + 附带材料说明 + 恳请给予面试机会。
+1. **核心关键词**：*qualified, competent, fluent, proficient, enthusiastic, dedicated, live up to your expectations*.
+
+### 二、 讲义任务逐一详解（P12-P14）
+
+#### 1. 基础夯实——句子构建训练
+
+1. **题目**：我写信是想申请这个志愿者职位，因为我相信我有能力胜任这份工作。(提示词: apply for)
+   - **完整句子**：I am writing **to apply for** this volunteer position, because I believe I am qualified for it.
+   - *考点精析*：动词不定式表目的 `to apply for`；`be qualified for` 意为“有资格胜任”。
+1. **题目**：如果有机会成为你们团队的一员，我将竭尽全力为本次活动做出贡献。(提示词: be accepted as)
+   - **完整句子**：**If accepted as** a member of your team, I will spare no effort to make contributions to this event. (也可填 **Once accepted as…**)
+   - *考点精析*：状语从句的省略（省略了 `I am`），过去分词短语作条件状语。
+1. **题目**：我对这次暑期交换生项目非常感兴趣，希望能获得您的宝贵考虑。(提示词: grateful)
+   - **完整句子**：I would **be extremely grateful** if you could take my application into kind consideration.
+   - *考点精析*：固定套语 `take sth. into kind consideration`（予以考虑），搭配虚拟条件句。
+
+#### 2. 能力进阶——话题金句汉译英
+
+1. **我写信是希望申请贵报社英语编辑的职位，因为我热爱写作并且有相关的经验。**
+   - **高分表达**：I am writing to apply for the position of English editor in your newspaper, for I harbor a deep passion for writing and have accumulated relevant experience.
+1. **我认为自己性格开朗、善于沟通，这使我非常适合担任校园导游这个角色。**
+   - **高分表达**：Possessing an outgoing personality and strong interpersonal skills, I deem myself an ideal candidate for the campus tour guide.
+1. **如果贵社团能给我一个机会，我将用实际行动证明我的能力和诚意。**
+   - **高分表达**：Should your club grant me this precious opportunity, I will spare no effort to prove my competence and sincerity through practical actions.
+1. **我从小就学习绘画，曾多次在校级比赛中获奖，因此我想申请这次展览的志愿者。**
+   - **高分表达**：Having practiced painting since childhood and won numerous school-level awards, I would like to apply to be a volunteer for this exhibition.
+1. **随信附上我的个人简历和获奖证书，希望能帮助您更好地了解我。**
+   - **高分表达**：Enclosed please find my resume and award certificates, which I hope will provide you with a clearer picture of my qualifications.
+1. **无论最终结果如何，我都感激您能抽出时间审阅我的申请。**
+   - **高分表达**：Regardless of the outcome, I genuinely appreciate your taking the time to review my application.
+
+#### 3. 黄金模板深度剖析
+
+- **升级模板精要**：
+
+  > Dear [Sir/Madam],\
+  > Having learned that you are seeking a [职位：student editor] for [组织/专栏：the “Traditional Chinese Stories” column], I am writing to submit my application for this position. My name is Li Hua.\
+  > I firmly believe that I am an ideal candidate for the job. To begin with, I have an excellent command of [技能/能力：both spoken and written English], which enables me to [能做的事情：express intricate ideas with clarity and grace]. Moreover, my previous experience as a [相关经历：journalist for our campus magazine] has not only equipped me with practical skills but also strengthened my sense of responsibility. What deserves special mention is that I possess a solid knowledge of [相关知识：Chinese traditional folklore], allowing me to [带来的好处：select and present captivating cultural stories authentically].\
+  > Should I be fortunate enough to be offered the opportunity, I would spare no effort to live up to your expectations. I would greatly appreciate it if you could take my application into favorable consideration. I am looking forward to your prompt reply.\
+  > Yours sincerely,\
+  > Li Hua
+
+#### 4. 微写作实战
+
+##### 【模拟题 1】申请校英语报“中国传统故事”专栏编辑
+
+- **审题构思**：
+
+  - 要点：1. 申请目的；2. 个人优势（英语好、写作经验、熟悉中国传统文化）；3. 期望与感谢。
+
+- **满分范文**：
+
+  > Dear Sir/Madam,
+  >
+  > Having learned from the school noticeboard that you are recruiting an editor for the “Traditional Chinese Stories” column, I am enthusiastically writing to apply for this coveted position.
+  >
+  > I am confident that my qualifications make me a well-suited candidate. First and foremost, having maintained top performance in English, I possess an excellent command of the language, which guarantees the grammatical precision and readability of the articles. Additionally, as a seasoned contributor to our campus magazine, I have accumulated abundant editing and writing experience. Most importantly, I have read widely in Chinese literature since childhood, endowing me with deep cultural insights to introduce compelling Chinese tales to global readers.
+  >
+  > Thank you for considering my application. I would be immensely honored if given the opportunity to contribute to our school newspaper!
+  >
+  > Yours sincerely,\
+  > Li Hua
+
+##### 【模拟题 2】申请 2026 年国际文化交流营志愿者
+
+- **审题构思**：
+
+  - 要点：1. 申请目的；2. 优势（英语口语流利、开朗善沟通、志愿服务经历）；3. 期望与感谢。
+
+- **满分范文**：
+
+  > Dear Committee,
+  >
+  > Learning that the 2026 International Cultural Exchange Camp is recruiting volunteers from high schools, I am writing to recommend myself for this honorable role.
+  >
+  > I deem myself well-qualified for the following reasons. To begin with, boasting fluent spoken English and accurate pronunciation, I can communicate effortlessly and barriers-free with participants from diverse backgrounds. Moreover, being outgoing, empathetic, and collaborative, I am capable of establishing harmonious team relationships and resolving unexpected conflicts smoothly. Lastly, my previous volunteer service in the municipal museum has equipped me with abundant practical experience in reception and guidance.
+  >
+  > If accepted, I will spare no effort to contribute to the success of the camp. I look forward to your favorable reply!
+  >
+  > Yours faithfully,\
+  > Li Hua
+
+## 模块七：告知信 (Letter of Notice / Announcement)
+
+### 一、 核心特征与高分思维
+
+1. **交际目的**：向特定对象传达最新通知、活动变更、考试安排或日程调整等。
+1. **逻辑框架**：
+   - **首段**：明确通知主题（事由与变动情况）。
+   - **主体段**：**精准列出关键信息点**（Time, Place, Target audience, Specific rules, Contingency plans）。
+   - **尾段**：注意事项（如准时到达、自备物品、携带证件）+ 疑问联络渠道 + 礼貌结语。
+1. **语言风格**：准确、干练、清晰（Clear and Concise）。多用被动语态（*is scheduled to, be informed, be required to*）。
+
+### 二、 讲义任务逐一详解（P14-P16）
+
+#### 1. 基础夯实——句子构建训练
+
+1. **题目**：我写信是想告诉你，我们学校将于下周五下午三点在礼堂举办一场英语演讲比赛。(提示词: hold)
+   - **完整句子**：I am writing to tell you that an English speech contest **will be held** in our school hall at 3:00 p.m. next Friday. (或 **is to be held**)
+   - *考点精析*：被动语态 `be held` 搭配具体时间地点状语。
+1. **题目**：请注意，活动当天请携带学生证准时到达，迟到者将无法入场。(提示词: remind)
+   - **完整句子**：Please **be reminded** that you should bring your student ID card and arrive on time, as latecomers will not be admitted.
+   - *考点精析*：`Please be reminded that...` 为公文告知信中最地道的高频句型，意为“请注意/特此提醒……”。
+1. **题目**：接到通知，明天的春游因大雨取消，请互相转告。(提示词: cancel)
+   - **完整句子**：It has been notified that tomorrow’s spring outing **has been canceled** (或 **is canceled**) due to the heavy rain. Please tell each other.
+   - *考点精析*：主语从句 `It has been notified that...`，事件已成事实，从句谓语用被动语态。
+
+#### 2. 能力进阶——话题金句汉译英
+
+1. **我写信是想告诉你，学校决定将下周一的月考推迟到周五举行。**
+   - **高分表达**：I am writing to inform you that our school has made the decision to postpone next Monday’s monthly examination to Friday.
+1. **请注意，本周五下午的社团活动临时取消，恢复时间将另行通知。**
+   - **高分表达**：Please note that the club activities scheduled for this Friday afternoon have been temporarily called off, and the resumption date will be announced later.
+1. **我谨代表班级通知大家，本周末我们将组织一次社区志愿服务。**
+   - **高分表达**：On behalf of our class, I am writing to notify everyone that a community voluntary service project will be organized this weekend.
+1. **根据学校最新安排，英语听力考试将提前至周三上午八点开始。**
+   - **高分表达**：According to the latest school schedule, the English listening test has been advanced to 8:00 a.m. this Wednesday.
+1. **请各位同学在周四之前把回执单交到班长手里，以便统计人数。**
+   - **高分表达**：All students are required to submit the acknowledgment slips to the monitor before Thursday so as to count the heads.
+1. **如果你对这次活动有任何疑问，可以随时向学生会咨询。**
+   - **高分表达**：Should you have any inquiries regarding this upcoming event, please feel free to consult the Student Union at any time.
+
+#### 3. 黄金模板深度剖析
+
+- **升级模板精要**：
+
+  > Dear [Students/Classmates],\
+  > Knowing that you are interested in [关注内容：mental well-being], I am more than glad to share with you the detailed information about [告知事项：the upcoming psychological lecture].\
+  > As scheduled, the [lecture] falls on [具体日期：next Friday afternoon], lasting from [3:00 p.m.] to [5:00 p.m.]. The event, whose theme is [主题：“How to Cope with Gaokao Stress”], is intended to [活动目的：help students relieve anxiety and maintain emotional resilience]. What’s more, inspired by this activity, participants will be motivated to [积极影响：embrace challenges with confidence].\
+  > Please be reminded to take your notebooks and arrive ten minutes in advance. I would appreciate it if you could give me a reply at your earliest convenience. You are warmly welcome to attend.\
+  > Yours sincerely,\
+  > Li Hua
+
+#### 4. 微写作实战
+
+##### 【模拟题 1】学生会名义发布心理健康讲座通知
+
+- **审题构思**：
+
+  - 要点：1. 目的（高三压力应对讲座）；2. 详情（周五下午报告厅、知名心理师主讲）；3. 注意事项（带笔本、提前入场）。
+
+- **满分范文**：
+
+  > Dear fellow students,
+  >
+  > In order to help us relieve emotional stress and maintain psychological well-being, I am writing on behalf of the Student Union to notify you of an upcoming lecture entitled “How to Cope with Gaokao Stress”.
+  >
+  > The lecture is slated to be held in the school lecture hall from 3:00 p.m. to 5:00 p.m. next Friday. We are exceptionally fortunate to have invited Dr. Zhang, a well-renowned psychologist, to be the keynote speaker. He will share practical strategies on emotional regulation, sleep improvement, and effective test-taking mindset. All students are kindly required to bring a notebook and take your seats ten minutes in advance to ensure orderly entry.
+  >
+  > We are convinced this lecture will be immensely enlightening. Don’t miss this precious opportunity!
+  >
+  > The Student Union
+
+##### 【模拟题 2】体育部负责人发布体育馆维修及临时调整通知
+
+- **审题构思**：
+
+  - 要点：1. 目的（体育馆因施工维修两周）；2. 调整（体育课移至室外操场、部分室内社团活动暂停、预计恢复时间）；3. 注意安全并致歉。
+
+- **满分范文**：
+
+  > Dear students,
+  >
+  > I am writing on behalf of the Physical Education Department to inform you that our school gymnasium will undergo thorough maintenance and repair work for two weeks, starting from next Monday.
+  >
+  > Consequently, temporary adjustments must be made. All PE classes originally scheduled in the gymnasium will be relocated to the outdoor playground. Meanwhile, indoor club activities such as badminton and table tennis will be suspended temporarily. The sports facilities are anticipated to reopen on October 25th. During this transitional period, please pay close attention to personal safety when taking outdoor exercises and keep an eye out for subsequent updates.
+  >
+  > We deeply apologize for any inconvenience caused and appreciate your understanding and cooperation!
+  >
+  > PE Department
+
+## 模块八：活动类课后作业（P17）精批与高分范文
+
+### 题目回放（石家庄二模 2026 届高三二模联考）：
+
+> 假定你是李华，你校下周举办 “阳光体育节”。请你给英国交换生 Chris 写一封邮件，邀请他一起参加师生接力赛。内容包括：
+>
+> 1. 介绍活动；
+> 1. 发出邀请。\
+>    注意：词数 80 左右。
+
+### 构思与技巧指导：
+
+- **核心内容**：
+  - 开门见山介绍“阳光体育节”（Sunshine Sports Festival）的时间与师生接力赛（teacher-student relay race）的特色。
+  - 说明接力赛的意义：展现团队协作、增进师生情谊。
+  - 正式向 Chris 发出邀请，并说明准备事宜与截止回复时间。
+- **高分词汇**：*relay race, team spirit, forge closer bonds, athletic skills, enthusiastic*.
+
+### 满分示范：
+
+> Dear Chris,
+>
+> How is everything going? The annual “Sunshine Sports Festival” is scheduled to kick off in our school stadium next Friday, and I am enthusiastically writing to invite you to join our class team for the teacher-student relay race.
+>
+> As one of the most thrilling highlights of the festival, the 4x100-meter relay race requires four students and one teacher to cooperate seamlessly. It is not only an arena to display our athletic stamina but a marvelous occasion to forge closer bonds with our beloved teachers. Knowing that you are an agile runner, we unanimously believe that your participation will remarkably boost our chances of winning!
+>
+> Please let me know whether you can make it before this Wednesday. I truly hope we can run side by side on the track!
+>
+> Yours,\
+> Li Hua
+
+# 附：高考应用文提分锦囊与高分逻辑图
+
+为了在真实高考中拿到 13~15 分的档次，牢记以下三点：
+
+| 维度           | 扣分陷阱（Low Level）                                          | 提分技巧（High Level）                                                                                                |
+| -------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **词汇搭配**   | 常用词简单堆砌，如 *I want to help you*, *I think it is good*. | 使用动词短语与学术词汇：*extend a helping hand*, *deem it an honor*, *harbor a passion for*.                          |
+| **句式多变**   | 句句都是主谓宾（*I suggest… You should… We will…*）            | 穿插**状语从句省略**（*If accepted…*）、**分词短语作状语**（*Considering…*）、**强调句与虚拟倒装**（*Should you…*）。 |
+| **交际真实性** | 机械套用模板，不理会题目细节要求。                             | 必须把题干中的**身份**（**如体育部负责人、学生会、好朋友**）与情境融入语气中，做到得体自然。                          |
+
+2026-10-052026-10-05
+
+[Gemini](https://gemini.google.com),  [RainPPR](https://github.com/RainPPR)
