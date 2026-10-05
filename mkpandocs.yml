@@ -230,6 +230,8 @@ nav:
       - science/nature/4.md
       - science/nature/5.md
       - science/nature/6.md
+  - Blog:
+    - blog/index.md
 
 plugins:
 - meta
@@ -258,8 +260,9 @@ plugins:
             # 排除不想显示的文档？原因是构建出错了不知道是不是这个版本的问题
             - index.md
             - intro/*
-            - blog/*
+            # - blog/*
         # 这个插件更新好频繁跟不上了真的好诡异（
+        # 使用我自己维护的 https://github.com/raineblog/mkdocs-document-dates 接口与上游不一致（保留了上游的老板接口）
 -   privacy:
         assets_fetch: false
         assets_exclude:
@@ -303,14 +306,16 @@ plugins:
         preserve_chevron_percent_template_syntax: true
         remove_bangs: true
         remove_processing_instructions: true
-# -   blog:
-#         blog_toc: true
-#         post_date_format: long
-#         post_excerpt: required
-#         post_readtime: false
-#         archive_name: Archive
-#         authors_profiles: true
-#         categories: false
+
+-   blog:
+        blog_toc: true
+        post_date_format: long
+        post_excerpt: required
+        post_readtime: false
+        archive_name: Archive
+        authors_profiles: true
+        categories: false
+
 -   rss:
     # https://guts.github.io/mkdocs-rss-plugin/
         abstract_chars_count: 500
@@ -326,6 +331,11 @@ plugins:
             关于:
             - index.md
             - home/*.md
+
+            博客:
+            - blog/*.md
+            - blog/**/*.md
+
             中学文科:
             - cultural/**/*.md
             高中理科:
