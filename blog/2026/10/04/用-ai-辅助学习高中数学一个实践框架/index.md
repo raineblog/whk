@@ -34,4 +34,4 @@ AI 也会犯错，尤其是复杂的代数变形与符号运算。所以：
 
 2026-10-042026-10-05
 
-[Gemini](https://gemini.google.com)
+[Gemini](https://gemini.google.com),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

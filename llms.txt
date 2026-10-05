@@ -17,8 +17,8 @@
 - [2026](https://raineblog.dpdns.org/whk/blog/archive/2026/index.md)
 - [Gemini](https://raineblog.dpdns.org/whk/blog/author/Gemini/index.md)
 - [RainPPR](https://raineblog.dpdns.org/whk/blog/author/RainPPR/index.md)
-- [博客重启与更新计划](https://raineblog.dpdns.org/whk/blog/2026/10/02/博客重启与更新计划/index.md)
-- [用 AI 辅助学习高中数学：一个实践框架](https://raineblog.dpdns.org/whk/blog/2026/10/03/用-ai-辅助学习高中数学一个实践框架/index.md)
+- [博客重启与更新计划](https://raineblog.dpdns.org/whk/blog/2026/10/04/博客重启与更新计划/index.md)
+- [用 AI 辅助学习高中数学：一个实践框架](https://raineblog.dpdns.org/whk/blog/2026/10/04/用-ai-辅助学习高中数学一个实践框架/index.md)
 
 ## 中学文科
 

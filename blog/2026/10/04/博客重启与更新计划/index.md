@@ -19,4 +19,4 @@
 
 2026-10-042026-10-05
 
-[RainPPR](https://github.com/RainPPR)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
