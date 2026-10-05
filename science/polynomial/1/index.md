@@ -985,4 +985,4 @@ b_n={a_1\\over p}+{q\\over p^n}\\cdot{p^n-1\\over p-1}-{q\\over p}
 
 2025-08-042026-07-04
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

@@ -1002,7 +1002,7 @@ t=\\dfrac{L}{v_0}=\\sqrt{\\dfrac{L^2m}{2U_0q}}
 
 2025-12-242026-07-09
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
 
 ______________________________________________________________________
 

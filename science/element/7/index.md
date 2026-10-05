@@ -1834,4 +1834,4 @@ B. 晶体场稳定化能（CFSE）与 Jahn-Teller 效应。从配合物化学的
 
 2026-06-192026-07-04
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

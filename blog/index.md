@@ -1,0 +1,7 @@
+# 博客
+
+这里是博客，记录学习心得、题型整理与 AI 协作的探索。文章由我（RainPPR）和 Gemini 共同维护，会不定期更新。
+
+2026-01-232026-10-04
+
+[RainPPR](https://github.com/RainPPR)

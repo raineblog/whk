@@ -1868,4 +1868,4 @@ CRISPR/Cas9 系统是目前应用最广泛的基因编辑技术，其灵感源�
 
 2026-03-192026-08-19
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

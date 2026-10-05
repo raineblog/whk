@@ -385,4 +385,4 @@ Basel 问题即 \\displaystyle\\zeta(2)=\\sum\_{n=1}^{+\\infty}\\frac{1}{n^2}，
 
 2026-04-052026-07-04
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

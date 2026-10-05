@@ -715,4 +715,4 @@ Diels-Alder 反应（DA 反应）是有机化学中最重要的成环反应之�
 
 2025-06-292026-07-09
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

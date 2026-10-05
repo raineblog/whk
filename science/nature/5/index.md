@@ -1058,4 +1058,4 @@ Logistic 增长模型不仅适用于低等生物的种群动态分析，也是�
 
 2026-07-082026-07-09
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

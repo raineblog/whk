@@ -761,4 +761,4 @@ H_0:\\mu=\\mu_0\\quad\\textit{vs}\\quad H_1:\\mu\\neq\\mu_0
 
 2025-05-182026-07-08
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

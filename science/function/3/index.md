@@ -723,4 +723,4 @@ g(x)=f(x)+f(2-x)=2\\ln(2x-x^2)-2(2x-x^2)+2
 
 2025-07-212026-09-22
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

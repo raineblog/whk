@@ -477,4 +477,4 @@ H(X)=-\\sum\_{i=1}^n\\frac{1}{n}\\log_2\\frac{1}{n}=\\log_2 n
 
 2025-05-182026-07-09
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

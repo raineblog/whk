@@ -1884,4 +1884,4 @@ P(\\text{全部纯合}) = \\left[1 - \\left(\\frac{1}{2}\\right)^n\\right]^m
 
 2026-03-192026-08-19
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

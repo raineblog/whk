@@ -666,4 +666,4 @@ PVA 主链上密布着仲羟基（-OH），这使其具有类似多元醇的化�
 
 2025-06-292026-07-09
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

@@ -398,4 +398,4 @@ K_s=c(\\ce{C12H22O11})
 
 2025-12-242026-07-12
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

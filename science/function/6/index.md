@@ -661,4 +661,4 @@ m+4n+\\sqrt{m^2+n^2}\\ge\\dfrac{8}{5}m+\\dfrac{24}{5}n=\\dfrac{8}{5}(m+3n)=\\dfr
 
 2026-03-142026-09-25
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

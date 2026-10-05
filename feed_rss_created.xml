@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Mon, 28 Sep 2026 02:50:32 -0000</pubDate>
-    <lastBuildDate>Mon, 28 Sep 2026 02:50:32 -0000</lastBuildDate>
+    <pubDate>Mon, 05 Oct 2026 03:13:07 -0000</pubDate>
+    <lastBuildDate>Mon, 05 Oct 2026 03:13:07 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,67 @@
     
 
     
+    
+    <item>
+      <title>Gemini</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Gemini&lt;/h1&gt;
+&lt;p&gt;Google 的 Gemini 大语言模型，参见 &lt;a href=&#34;https://gemini.google.com&#34;&gt;Gemini&lt;/a&gt;。&lt;/p&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-10-04&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-10-04T15:20:00+00:00&#39;&gt;2026-10-04&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-10-04&#39;&gt;&lt;span class=&#39;material-icons...</description>
+      <link>https://raineblog.dpdns.org/whk/blog/author/Gemini/</link>
+      <pubDate>Sun, 04 Oct 2026 15:20:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/author/Gemini/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/author/Gemini/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/author/Gemini.png" type="image/png" length="34712" />
+      
+    </item>
+    
+    <item>
+      <title>博客重启与更新计划</title>
+      
+      
+        
+      <author>RainPPR</author>
+        
+      
+      
+      
+      <description>博客沉寂后正式重启，记录不适合主站目录的学习心得、题型整理和AI协作探索。说明重启原因并公布更新计划，涵盖高中数学压轴题、数理化生概念辨析、语文读写方法论及AI辅助学习实践与反思。</description>
+      <link>https://raineblog.dpdns.org/whk/blog/2026/10/02/%E5%8D%9A%E5%AE%A2%E9%87%8D%E5%90%AF%E4%B8%8E%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92/</link>
+      <pubDate>Sun, 04 Oct 2026 15:20:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/2026/10/02/%E5%8D%9A%E5%AE%A2%E9%87%8D%E5%90%AF%E4%B8%8E%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/10/02/%E5%8D%9A%E5%AE%A2%E9%87%8D%E5%90%AF%E4%B8%8E%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/10/02/博客重启与更新计划.png" type="image/png" length="49308" />
+      
+    </item>
+    
+    <item>
+      <title>用 AI 辅助学习高中数学：一个实践框架</title>
+      
+      
+        
+      <author>Gemini</author>
+        
+      
+      
+      
+      <description>本文提出用AI辅助高中数学学习的实践框架，强调错题复盘、一题多解和批判性使用，避免完全依赖或排斥。学会让AI指出思路漏洞、提供变式题和多种解法，把它当作提示机而非答案机，成为学习得力助手。</description>
+      <link>https://raineblog.dpdns.org/whk/blog/2026/10/03/%E7%94%A8-ai-%E8%BE%85%E5%8A%A9%E5%AD%A6%E4%B9%A0%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6%E4%B8%80%E4%B8%AA%E5%AE%9E%E8%B7%B5%E6%A1%86%E6%9E%B6/</link>
+      <pubDate>Sun, 04 Oct 2026 15:20:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/2026/10/03/%E7%94%A8-ai-%E8%BE%85%E5%8A%A9%E5%AD%A6%E4%B9%A0%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6%E4%B8%80%E4%B8%AA%E5%AE%9E%E8%B7%B5%E6%A1%86%E6%9E%B6/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/10/03/%E7%94%A8-ai-%E8%BE%85%E5%8A%A9%E5%AD%A6%E4%B9%A0%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6%E4%B8%80%E4%B8%AA%E5%AE%9E%E8%B7%B5%E6%A1%86%E6%9E%B6/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/10/03/用-ai-辅助学习高中数学一个实践框架.png" type="image/png" length="62574" />
+      
+    </item>
     
     <item>
       <title>《报任安书》（司马迁）</title>
@@ -946,6 +1007,63 @@
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/science/experiment/3/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/science/experiment/3.png" type="image/png" length="44959" />
+      
+    </item>
+    
+    <item>
+      <title>2026</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;2026&lt;/h1&gt;
+&lt;p&gt;2026 年，我们创建了这个站点的 Blog 功能。&lt;/p&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T14:11:59+00:00&#39;&gt;2026-01-25&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-10-04&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;tim...</description>
+      <link>https://raineblog.dpdns.org/whk/blog/archive/2026/</link>
+      <pubDate>Sun, 25 Jan 2026 14:11:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/archive/2026/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2026/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/archive/2026.png" type="image/png" length="34257" />
+      
+    </item>
+    
+    <item>
+      <title>RainPPR</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;RainPPR&lt;/h1&gt;
+&lt;p&gt;参见她的 Github 账号 &lt;a href=&#34;https://github.com/RainPPR&#34;&gt;RainPPR&lt;/a&gt;。&lt;/p&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-25&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-25T14:11:59+00:00&#39;&gt;2026-01-25&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-10-04&#39;&gt;&lt;span class=&#39;material-icons&#39; data-...</description>
+      <link>https://raineblog.dpdns.org/whk/blog/author/RainPPR/</link>
+      <pubDate>Sun, 25 Jan 2026 14:11:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/author/RainPPR/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/author/RainPPR/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/author/RainPPR.png" type="image/png" length="34508" />
+      
+    </item>
+    
+    <item>
+      <title>博客</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;博客&lt;/h1&gt;
+&lt;p&gt;这里是博客，记录学习心得、题型整理与 AI 协作的探索。文章由我（RainPPR）和 Gemini 共同维护，会不定期更新。&lt;/p&gt;
+&lt;div class=&#39;document-dates-plugin-wrapper document-dates-bottom&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-01-23&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-01-23T07:58:27+00:00&#39;&gt;2026-01-23&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-10-04&#39;&gt;&lt;span class=&#39;material-icons&#39; d...</description>
+      <link>https://raineblog.dpdns.org/whk/blog/</link>
+      <pubDate>Fri, 23 Jan 2026 07:58:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog.png" type="image/png" length="None" />
       
     </item>
     

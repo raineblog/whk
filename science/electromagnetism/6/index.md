@@ -390,4 +390,4 @@ E_k=mc^2-m_0c^2\\approx\\dfrac{1}{2}m_0v^2
 
 2025-12-242026-08-08
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

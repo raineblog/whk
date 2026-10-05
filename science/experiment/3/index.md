@@ -281,4 +281,4 @@ $\\ce{2NO + 2CO ->[催化剂] N2 + 2CO2}$（尾气净化）
 
 2026-02-082026-07-13
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

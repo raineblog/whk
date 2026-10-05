@@ -481,4 +481,4 @@ E_k=\\dfrac12Mv_c^2+\\sum_i\\dfrac12m_iv_i^2
 
 2025-04-132026-07-09
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

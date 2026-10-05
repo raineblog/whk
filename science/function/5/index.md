@@ -719,4 +719,4 @@ A = (x_1, x_2),\\quad B = (x_1, x_2)
 
 2025-08-112026-09-25
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

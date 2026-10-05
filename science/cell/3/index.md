@@ -1341,4 +1341,4 @@ C4 植物 Hatch-Slack 途径示意图
 
 2025-04-192026-07-04
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

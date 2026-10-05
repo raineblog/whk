@@ -887,4 +887,4 @@ H-H 不等式是连接凹凸性与积分的桥梁，其本质是\*\*“面积三
 
 2025-07-292026-09-22
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

@@ -371,4 +371,4 @@ E\_{11} = \\frac{152}{17},\\quad E\_{10} = \\frac{12 + 3 \\cdot \\frac{152}{17}}
 
 2025-05-182026-07-04
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

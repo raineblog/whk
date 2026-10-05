@@ -496,7 +496,7 @@ B 细胞激活后可以产生抗体，由于抗体存在于体液中，所以这
 
 2025-10-252026-07-09
 
-[RainPPR](mailto:PPR2125773894@163.com),  [Bot](mailto:bot@noreply.github.com)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
 
 ______________________________________________________________________
 
