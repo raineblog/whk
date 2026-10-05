@@ -84,46 +84,48 @@ def _convert_to_iso(dt_str: str) -> str:
 
 
 def inject_document_dates():
-    """构建前：为 blog 文章注入 document_dates_created/updated（从 date 字段转换）"""
-    if not BLOG_POSTS_DIR.exists():
-        return
-    for post_file in sorted(BLOG_POSTS_DIR.glob("*.md")):
-        content = post_file.read_text(encoding="utf-8")
-        # 幂等：先删除已有的 document_dates 行
-        content = re.sub(
-            r"^document_dates_(created|updated):[^\n]*\n",
-            "",
-            content,
-            flags=re.MULTILINE,
-        )
-        m_created = re.search(r"^  created:[ \t]*(\S.*)$", content, re.MULTILINE)
-        m_updated = re.search(r"^  updated:[ \t]*(\S.*)$", content, re.MULTILINE)
-        if not (m_created and m_updated):
-            continue
-        created_iso = _convert_to_iso(m_created.group(1))
-        updated_iso = _convert_to_iso(m_updated.group(1))
-        injection = (
-            f"\ndocument_dates_created: {created_iso}\n"
-            f"document_dates_updated: {updated_iso}"
-        )
-        content = content[: m_updated.end()] + injection + content[m_updated.end() :]
-        post_file.write_text(content, encoding="utf-8")
+    pass
+    # """构建前：为 blog 文章注入 document_dates_created/updated（从 date 字段转换）"""
+    # if not BLOG_POSTS_DIR.exists():
+    #     return
+    # for post_file in sorted(BLOG_POSTS_DIR.glob("*.md")):
+    #     content = post_file.read_text(encoding="utf-8")
+    #     # 幂等：先删除已有的 document_dates 行
+    #     content = re.sub(
+    #         r"^document_dates_(created|updated):[^\n]*\n",
+    #         "",
+    #         content,
+    #         flags=re.MULTILINE,
+    #     )
+    #     m_created = re.search(r"^  created:[ \t]*(\S.*)$", content, re.MULTILINE)
+    #     m_updated = re.search(r"^  updated:[ \t]*(\S.*)$", content, re.MULTILINE)
+    #     if not (m_created and m_updated):
+    #         continue
+    #     created_iso = _convert_to_iso(m_created.group(1))
+    #     updated_iso = _convert_to_iso(m_updated.group(1))
+    #     injection = (
+    #         f"\ndocument_dates_created: {created_iso}\n"
+    #         f"document_dates_updated: {updated_iso}"
+    #     )
+    #     content = content[: m_updated.end()] + injection + content[m_updated.end() :]
+    #     post_file.write_text(content, encoding="utf-8")
 
 
 def cleanup_document_dates():
-    """构建后：删除 blog 文章中的 document_dates_created/updated 行"""
-    if not BLOG_POSTS_DIR.exists():
-        return
-    for post_file in sorted(BLOG_POSTS_DIR.glob("*.md")):
-        content = post_file.read_text(encoding="utf-8")
-        new_content = re.sub(
-            r"^document_dates_(created|updated):[^\n]*\n",
-            "",
-            content,
-            flags=re.MULTILINE,
-        )
-        if new_content != content:
-            post_file.write_text(new_content, encoding="utf-8")
+    # """构建后：删除 blog 文章中的 document_dates_created/updated 行"""
+    # if not BLOG_POSTS_DIR.exists():
+    #     return
+    # for post_file in sorted(BLOG_POSTS_DIR.glob("*.md")):
+    #     content = post_file.read_text(encoding="utf-8")
+    #     new_content = re.sub(
+    #         r"^document_dates_(created|updated):[^\n]*\n",
+    #         "",
+    #         content,
+    #         flags=re.MULTILINE,
+    #     )
+    #     if new_content != content:
+    #         post_file.write_text(new_content, encoding="utf-8")
+    pass
 
 
 def parse_args():
