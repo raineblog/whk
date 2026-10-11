@@ -162,6 +162,6 @@
 
 \\mathrm{2Al + 8OH^- - 6e^- \\to 2AlO_2^- + 4H_2O}\\ \\mathrm{6H_2O + 6e^- \\to 3H_2 + 6OH^-}
 
-2026-10-052026-10-05
+2026-10-052026-10-11
 
 [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

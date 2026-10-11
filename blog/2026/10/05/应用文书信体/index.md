@@ -1,6 +1,6 @@
 # 应用文·书信体
 
-本文系统讲解新高考英语应用文六大书信体：建议信、感谢信、求助信、邀请信、申请信、告知信。结合讲义任务详解核心特征、黄金模板、金句翻译与微写作范文，提供高分思维点拨，助高三快速掌握写作框架与语料。
+系统讲解新高考英语应用文六大书信体，建议信、感谢信、求助信、邀请信、申请信、告知信。涵盖核心特征、黄金模板、金句翻译与微写作范文，提供高分思维点拨，助高三快速掌握写作框架与高分语料。
 
 > 结合我们老师的课件，详细展开讲解这六大类的应用文，先把讲义上的任务逐一仔细完成，同时可以添加你的适当补充
 >
@@ -69,42 +69,38 @@
 ##### 【模拟题 1】给美国笔友 Lucy 的回信（中文学习困难与气馁）
 
 - **审题构思**：
-
   - 角色：Li Hua
   - 收信人：Lucy
   - 要点：1. 理解并安慰；2. 建议（联想法记汉字、看影视练发音、每日坚持15分钟）；3. 鼓励与祝愿。
-
 - **满分范文**：
 
-  > Dear Lucy,
-  >
-  > I am awfully sorry to hear that you are encountering hurdles in memorizing Chinese characters and pronunciation, and even feeling like giving up. Please rest assured that it is entirely normal for every language beginner to experience such frustration.
-  >
-  > To reverse the situation, I would like to offer several practical tips. To begin with, try the association method to memorize characters, which helps connect abstract strokes with vivid imagery. Additionally, it is highly recommended that you watch Chinese films and TV dramas, from which you can naturally acquire authentic pronunciation and intonation. Most importantly, you will make steady progress if you set aside at least 15 minutes for deliberate daily practice.
-  >
-  > Rome was not built in a day. Keep going, and I am confident that your persistent efforts will pay off soon.
-  >
-  > Yours sincerely,\
-  > Li Hua
+> Dear Lucy,
+>
+> I am awfully sorry to hear that you are encountering hurdles in memorizing Chinese characters and pronunciation, and even feeling like giving up. Please rest assured that it is entirely normal for every language beginner to experience such frustration.
+>
+> To reverse the situation, I would like to offer several practical tips. To begin with, try the association method to memorize characters, which helps connect abstract strokes with vivid imagery. Additionally, it is highly recommended that you watch Chinese films and TV dramas, from which you can naturally acquire authentic pronunciation and intonation. Most importantly, you will make steady progress if you set aside at least 15 minutes for deliberate daily practice.
+>
+> Rome was not built in a day. Keep going, and I am confident that your persistent efforts will pay off soon.
+>
+> Yours sincerely,\
+> Li Hua
 
 ##### 【模拟题 2】给初中同学李华的回信（新高一选科迷茫）
 
 - **审题构思**：
-
   - 要点：1. 表达理解与安慰；2. 建议（结合兴趣优势、了解大学专业选考要求、咨询师长）；3. 祝愿。
-
 - **满分范文**：
 
-  > Dear Li Hua,
-  >
-  > Knowing that you are bewildered about choosing between physics and history tracks, I completely empathize with your anxiety, as this decision plays a vital role in our future academic paths.
-  >
-  > Here are some suggestions that may shed light on your decision. First and foremost, base your choice on your genuine academic interests and competitive strengths, for enthusiasm is the best driver of sustained effort. Furthermore, it is advisable to look into the subject prerequisites of your dream universities and majors. Last but not least, do consult experienced teachers and seniors, whose constructive insights will definitely prevent you from making a hasty choice.
-  >
-  > Take a deep breath and trust your judgment. I believe you will make the most suitable decision.
-  >
-  > Yours sincerely,\
-  > Li Hua
+> Dear Li Hua,
+>
+> Knowing that you are bewildered about choosing between physics and history tracks, I completely empathize with your anxiety, as this decision plays a vital role in our future academic paths.
+>
+> Here are some suggestions that may shed light on your decision. First and foremost, base your choice on your genuine academic interests and competitive strengths, for enthusiasm is the best driver of sustained effort. Furthermore, it is advisable to look into the subject prerequisites of your dream universities and majors. Last but not least, do consult experienced teachers and seniors, whose constructive insights will definitely prevent you from making a hasty choice.
+>
+> Take a deep breath and trust your judgment. I believe you will make the most suitable decision.
+>
+> Yours sincerely,\
+> Li Hua
 
 ## 模块二：感谢信 (Letter of Thanks)
 
@@ -162,40 +158,36 @@
 ##### 【模拟题 1】写给英国笔友 Tom 的感谢信（备战高考英语）
 
 - **审题构思**：
-
   - 要点：1. 诚挚致谢；2. 细节（定期发资料、视频纠音、鼓励坚持）；3. 渴望回报与祝愿。
-
 - **满分范文**：
 
-  > Dear Tom,
-  >
-  > I am writing to convey my heartfelt appreciation for your generous help during my preparation for the college entrance examination, without which I could not have made such remarkable progress in English.
-  >
-  > Looking back, I vividly remember how selflessly you sent me valuable learning materials on a regular basis. More touchingly, through countless video calls, you patiently corrected my pronunciation and intonation word by word. Whenever I was overwhelmed by anxiety, it was your unwavering encouragement that rekindled my passion and determination to persevere.
-  >
-  > Should you have the opportunity to visit China, please let me be your host and guide. Wishing you all the very best in your health and academic pursuits!
-  >
-  > Yours sincerely,\
-  > Li Hua
+> Dear Tom,
+>
+> I am writing to convey my heartfelt appreciation for your generous help during my preparation for the college entrance examination, without which I could not have made such remarkable progress in English.
+>
+> Looking back, I vividly remember how selflessly you sent me valuable learning materials on a regular basis. More touchingly, through countless video calls, you patiently corrected my pronunciation and intonation word by word. Whenever I was overwhelmed by anxiety, it was your unwavering encouragement that rekindled my passion and determination to persevere.
+>
+> Should you have the opportunity to visit China, please let me be your host and guide. Wishing you all the very best in your health and academic pursuits!
+>
+> Yours sincerely,\
+> Li Hua
 
 ##### 【模拟题 2】写给同班同学李华的感谢信（破除高一孤独）
 
 - **审题构思**：
-
   - 要点：1. 回顾初入高中时的内向孤独；2. 李华的主动交往（聊天、吃饭、介绍新朋友）；3. 珍视友谊与祝福。
-
 - **满分范文**：
 
-  > Dear Li Hua,
-  >
-  > I am writing this letter to express my deep sense of gratitude for everything you did for me at the beginning of our senior high school life.
-  >
-  > At that time, being introverted and timid, I felt painfully isolated and struggled to adapt to the new surroundings. It was you who took the initiative to chat with me, invite me to have lunch together, and warmly introduce me to other classmates. Thanks to your company, I quickly stepped out of my shell and fully integrated into our vibrant class family.
-  >
-  > Words cannot fully express how much I cherish our precious friendship. May our bond remain strong and may you be blessed with happiness every day!
-  >
-  > Yours sincerely,\
-  > Wang Lin
+> Dear Li Hua,
+>
+> I am writing this letter to express my deep sense of gratitude for everything you did for me at the beginning of our senior high school life.
+>
+> At that time, being introverted and timid, I felt painfully isolated and struggled to adapt to the new surroundings. It was you who took the initiative to chat with me, invite me to have lunch together, and warmly introduce me to other classmates. Thanks to your company, I quickly stepped out of my shell and fully integrated into our vibrant class family.
+>
+> Words cannot fully express how much I cherish our precious friendship. May our bond remain strong and may you be blessed with happiness every day!
+>
+> Yours sincerely,\
+> Wang Lin
 
 ## 模块三：求助信 (Letter of Request / Seeking Help)
 
@@ -253,40 +245,36 @@
 ##### 【模拟题 1】给英国笔友 Tom 的求助信（演讲比赛准备）
 
 - **审题构思**：
-
   - 要点：1. 目的（校英语演讲比赛需帮助）；2. 困难（讲稿结构组织、生词发音不准、临场紧张）；3. 期望帮助与感谢。
-
 - **满分范文**：
 
-  > Dear Tom,
-  >
-  > I am writing to ask if you could do me a favor. An English speech contest will be staged in our school next month, and I am eager to participate but caught in several unexpected dilemmas.
-  >
-  > To begin with, I am struggling with how to organize the speech draft logically so that it can captivate the audience. In addition, I find some polysyllabic words hard to pronounce accurately and naturally. Worst of all, stage fright frequently haunts me, making me feel extremely nervous whenever I speak in front of a crowd. Knowing that you are an eloquent public speaker, I wonder if you could spare some time to review my script and give me some tips on stage performance.
-  >
-  > Any assistance from you would mean the world to me. I am eagerly awaiting your reply!
-  >
-  > Yours sincerely,\
-  > Li Hua
+> Dear Tom,
+>
+> I am writing to ask if you could do me a favor. An English speech contest will be staged in our school next month, and I am eager to participate but caught in several unexpected dilemmas.
+>
+> To begin with, I am struggling with how to organize the speech draft logically so that it can captivate the audience. In addition, I find some polysyllabic words hard to pronounce accurately and naturally. Worst of all, stage fright frequently haunts me, making me feel extremely nervous whenever I speak in front of a crowd. Knowing that you are an eloquent public speaker, I wonder if you could spare some time to review my script and give me some tips on stage performance.
+>
+> Any assistance from you would mean the world to me. I am eagerly awaiting your reply!
+>
+> Yours sincerely,\
+> Li Hua
 
 ##### 【模拟题 2】给朋友李华的求助信（暑期兼职求职）
 
 - **审题构思**：
-
   - 要点：1. 目的（暑期寻找兼职家教/服务员）；2. 困难（写吸引人的简历、缺乏面试应答经验）；3. 期望帮助与感谢。
-
 - **满分范文**：
 
-  > Dear Li Hua,
-  >
-  > How is everything going? I am writing to solicit your help, as I intend to take up a part-time job as a tutor during the summer vacation to enrich my social experience.
-  >
-  > However, possessing no previous employment experience, I am currently stuck in a few difficulties. For one thing, I am at a loss as to how to compose an eye-catching and well-formatted resume. For another, I have no idea how to respond properly to interviewers’ questions. Aware that you have rich part-time work experience, I wonder whether you could share some practical interview techniques and help me polish my resume.
-  >
-  > I would be more than grateful if you could lend me a helping hand. Looking forward to hearing from you soon!
-  >
-  > Yours sincerely,\
-  > Zhang Wei
+> Dear Li Hua,
+>
+> How is everything going? I am writing to solicit your help, as I intend to take up a part-time job as a tutor during the summer vacation to enrich my social experience.
+>
+> However, possessing no previous employment experience, I am currently stuck in a few difficulties. For one thing, I am at a loss as to how to compose an eye-catching and well-formatted resume. For another, I have no idea how to respond properly to interviewers’ questions. Aware that you have rich part-time work experience, I wonder whether you could share some practical interview techniques and help me polish my resume.
+>
+> I would be more than grateful if you could lend me a helping hand. Looking forward to hearing from you soon!
+>
+> Yours sincerely,\
+> Zhang Wei
 
 ## 模块四：建议类课后作业（P8）精批与高分范文
 
@@ -374,40 +362,36 @@
 ##### 【模拟题 1】邀请英国笔友 Tom 参加校园文化艺术节
 
 - **审题构思**：
-
   - 要点：1. 发出邀请并点明活动名称；2. 时间、地点与活动内容（书画展、才艺表演、义卖）；3. 期待心情。
-
 - **满分范文**：
 
-  > Dear Tom,
-  >
-  > Knowing that you possess a profound keenness on Chinese youth culture, I am writing to sincerely invite you to attend our annual Campus Culture and Art Festival.
-  >
-  > The festival is slated to take place on our school sports field from 9:00 a.m. to 4:00 p.m. next Friday. A rich variety of intriguing activities will be put on. To begin with, an exhibition of student calligraphy and painting will be displayed, offering you a glimpse of traditional artistic beauty. Additionally, you will be entertained by dazzling talent shows featuring music and folk dance. Most meaningfully, a charity bazaar selling handmade crafts will be set up to raise funds for poor students.
-  >
-  > I firmly believe that your coming will make this festival even more delightful. Please drop me a line by Tuesday if you can make it.
-  >
-  > Yours sincerely,\
-  > Li Hua
+> Dear Tom,
+>
+> Knowing that you possess a profound keenness on Chinese youth culture, I am writing to sincerely invite you to attend our annual Campus Culture and Art Festival.
+>
+> The festival is slated to take place on our school sports field from 9:00 a.m. to 4:00 p.m. next Friday. A rich variety of intriguing activities will be put on. To begin with, an exhibition of student calligraphy and painting will be displayed, offering you a glimpse of traditional artistic beauty. Additionally, you will be entertained by dazzling talent shows featuring music and folk dance. Most meaningfully, a charity bazaar selling handmade crafts will be set up to raise funds for poor students.
+>
+> I firmly believe that your coming will make this festival even more delightful. Please drop me a line by Tuesday if you can make it.
+>
+> Yours sincerely,\
+> Li Hua
 
 ##### 【模拟题 2】邀请英国笔友 Lucy 参加端午节社区活动
 
 - **审题构思**：
-
   - 要点：1. 端午节背景；2. 社区活动详情（包粽子比赛、龙舟表演）；3. 期待并愿意全程陪同。
-
 - **满分范文**：
 
-  > Dear Lucy,
-  >
-  > With the traditional Chinese Dragon Boat Festival just around the corner, I am thrilled to invite you to participate in a festive celebration organized by our local community.
-  >
-  > The event will be held in the Riverside Park next Thursday morning. During the celebration, an exciting zongzi-making competition will be staged, where you can learn how to wrap sticky rice in bamboo leaves with the help of hospitable residents. Furthermore, an energetic dragon boat race will take place along the river, accompanied by deafening drumbeats and joyful cheers. I would be more than delighted to accompany you throughout the event and explain the customs behind this festival.
-  >
-  > Looking forward to your affirmative reply!
-  >
-  > Yours sincerely,\
-  > Li Hua
+> Dear Lucy,
+>
+> With the traditional Chinese Dragon Boat Festival just around the corner, I am thrilled to invite you to participate in a festive celebration organized by our local community.
+>
+> The event will be held in the Riverside Park next Thursday morning. During the celebration, an exciting zongzi-making competition will be staged, where you can learn how to wrap sticky rice in bamboo leaves with the help of hospitable residents. Furthermore, an energetic dragon boat race will take place along the river, accompanied by deafening drumbeats and joyful cheers. I would be more than delighted to accompany you throughout the event and explain the customs behind this festival.
+>
+> Looking forward to your affirmative reply!
+>
+> Yours sincerely,\
+> Li Hua
 
 ## 模块六：申请信 (Letter of Application)
 
@@ -465,40 +449,36 @@
 ##### 【模拟题 1】申请校英语报“中国传统故事”专栏编辑
 
 - **审题构思**：
-
   - 要点：1. 申请目的；2. 个人优势（英语好、写作经验、熟悉中国传统文化）；3. 期望与感谢。
-
 - **满分范文**：
 
-  > Dear Sir/Madam,
-  >
-  > Having learned from the school noticeboard that you are recruiting an editor for the “Traditional Chinese Stories” column, I am enthusiastically writing to apply for this coveted position.
-  >
-  > I am confident that my qualifications make me a well-suited candidate. First and foremost, having maintained top performance in English, I possess an excellent command of the language, which guarantees the grammatical precision and readability of the articles. Additionally, as a seasoned contributor to our campus magazine, I have accumulated abundant editing and writing experience. Most importantly, I have read widely in Chinese literature since childhood, endowing me with deep cultural insights to introduce compelling Chinese tales to global readers.
-  >
-  > Thank you for considering my application. I would be immensely honored if given the opportunity to contribute to our school newspaper!
-  >
-  > Yours sincerely,\
-  > Li Hua
+> Dear Sir/Madam,
+>
+> Having learned from the school noticeboard that you are recruiting an editor for the “Traditional Chinese Stories” column, I am enthusiastically writing to apply for this coveted position.
+>
+> I am confident that my qualifications make me a well-suited candidate. First and foremost, having maintained top performance in English, I possess an excellent command of the language, which guarantees the grammatical precision and readability of the articles. Additionally, as a seasoned contributor to our campus magazine, I have accumulated abundant editing and writing experience. Most importantly, I have read widely in Chinese literature since childhood, endowing me with deep cultural insights to introduce compelling Chinese tales to global readers.
+>
+> Thank you for considering my application. I would be immensely honored if given the opportunity to contribute to our school newspaper!
+>
+> Yours sincerely,\
+> Li Hua
 
 ##### 【模拟题 2】申请 2026 年国际文化交流营志愿者
 
 - **审题构思**：
-
   - 要点：1. 申请目的；2. 优势（英语口语流利、开朗善沟通、志愿服务经历）；3. 期望与感谢。
-
 - **满分范文**：
 
-  > Dear Committee,
-  >
-  > Learning that the 2026 International Cultural Exchange Camp is recruiting volunteers from high schools, I am writing to recommend myself for this honorable role.
-  >
-  > I deem myself well-qualified for the following reasons. To begin with, boasting fluent spoken English and accurate pronunciation, I can communicate effortlessly and barriers-free with participants from diverse backgrounds. Moreover, being outgoing, empathetic, and collaborative, I am capable of establishing harmonious team relationships and resolving unexpected conflicts smoothly. Lastly, my previous volunteer service in the municipal museum has equipped me with abundant practical experience in reception and guidance.
-  >
-  > If accepted, I will spare no effort to contribute to the success of the camp. I look forward to your favorable reply!
-  >
-  > Yours faithfully,\
-  > Li Hua
+> Dear Committee,
+>
+> Learning that the 2026 International Cultural Exchange Camp is recruiting volunteers from high schools, I am writing to recommend myself for this honorable role.
+>
+> I deem myself well-qualified for the following reasons. To begin with, boasting fluent spoken English and accurate pronunciation, I can communicate effortlessly and barriers-free with participants from diverse backgrounds. Moreover, being outgoing, empathetic, and collaborative, I am capable of establishing harmonious team relationships and resolving unexpected conflicts smoothly. Lastly, my previous volunteer service in the municipal museum has equipped me with abundant practical experience in reception and guidance.
+>
+> If accepted, I will spare no effort to contribute to the success of the camp. I look forward to your favorable reply!
+>
+> Yours faithfully,\
+> Li Hua
 
 ## 模块七：告知信 (Letter of Notice / Announcement)
 
@@ -556,38 +536,34 @@
 ##### 【模拟题 1】学生会名义发布心理健康讲座通知
 
 - **审题构思**：
-
   - 要点：1. 目的（高三压力应对讲座）；2. 详情（周五下午报告厅、知名心理师主讲）；3. 注意事项（带笔本、提前入场）。
-
 - **满分范文**：
 
-  > Dear fellow students,
-  >
-  > In order to help us relieve emotional stress and maintain psychological well-being, I am writing on behalf of the Student Union to notify you of an upcoming lecture entitled “How to Cope with Gaokao Stress”.
-  >
-  > The lecture is slated to be held in the school lecture hall from 3:00 p.m. to 5:00 p.m. next Friday. We are exceptionally fortunate to have invited Dr. Zhang, a well-renowned psychologist, to be the keynote speaker. He will share practical strategies on emotional regulation, sleep improvement, and effective test-taking mindset. All students are kindly required to bring a notebook and take your seats ten minutes in advance to ensure orderly entry.
-  >
-  > We are convinced this lecture will be immensely enlightening. Don’t miss this precious opportunity!
-  >
-  > The Student Union
+> Dear fellow students,
+>
+> In order to help us relieve emotional stress and maintain psychological well-being, I am writing on behalf of the Student Union to notify you of an upcoming lecture entitled “How to Cope with Gaokao Stress”.
+>
+> The lecture is slated to be held in the school lecture hall from 3:00 p.m. to 5:00 p.m. next Friday. We are exceptionally fortunate to have invited Dr. Zhang, a well-renowned psychologist, to be the keynote speaker. He will share practical strategies on emotional regulation, sleep improvement, and effective test-taking mindset. All students are kindly required to bring a notebook and take your seats ten minutes in advance to ensure orderly entry.
+>
+> We are convinced this lecture will be immensely enlightening. Don’t miss this precious opportunity!
+>
+> The Student Union
 
 ##### 【模拟题 2】体育部负责人发布体育馆维修及临时调整通知
 
 - **审题构思**：
-
   - 要点：1. 目的（体育馆因施工维修两周）；2. 调整（体育课移至室外操场、部分室内社团活动暂停、预计恢复时间）；3. 注意安全并致歉。
-
 - **满分范文**：
 
-  > Dear students,
-  >
-  > I am writing on behalf of the Physical Education Department to inform you that our school gymnasium will undergo thorough maintenance and repair work for two weeks, starting from next Monday.
-  >
-  > Consequently, temporary adjustments must be made. All PE classes originally scheduled in the gymnasium will be relocated to the outdoor playground. Meanwhile, indoor club activities such as badminton and table tennis will be suspended temporarily. The sports facilities are anticipated to reopen on October 25th. During this transitional period, please pay close attention to personal safety when taking outdoor exercises and keep an eye out for subsequent updates.
-  >
-  > We deeply apologize for any inconvenience caused and appreciate your understanding and cooperation!
-  >
-  > PE Department
+> Dear students,
+>
+> I am writing on behalf of the Physical Education Department to inform you that our school gymnasium will undergo thorough maintenance and repair work for two weeks, starting from next Monday.
+>
+> Consequently, temporary adjustments must be made. All PE classes originally scheduled in the gymnasium will be relocated to the outdoor playground. Meanwhile, indoor club activities such as badminton and table tennis will be suspended temporarily. The sports facilities are anticipated to reopen on October 25th. During this transitional period, please pay close attention to personal safety when taking outdoor exercises and keep an eye out for subsequent updates.
+>
+> We deeply apologize for any inconvenience caused and appreciate your understanding and cooperation!
+>
+> PE Department
 
 ## 模块八：活动类课后作业（P17）精批与高分范文
 
@@ -630,6 +606,6 @@
 | **句式多变**   | 句句都是主谓宾（*I suggest… You should… We will…*）            | 穿插**状语从句省略**（*If accepted…*）、**分词短语作状语**（*Considering…*）、**强调句与虚拟倒装**（*Should you…*）。 |
 | **交际真实性** | 机械套用模板，不理会题目细节要求。                             | 必须把题干中的**身份**（**如体育部负责人、学生会、好朋友**）与情境融入语气中，做到得体自然。                          |
 
-2026-10-052026-10-05
+2026-10-052026-10-11
 
 [Gemini](https://gemini.google.com),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

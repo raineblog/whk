@@ -60,6 +60,6 @@ f=\\dfrac{F}{s}=\\dfrac{2d^2\\cdot nmv^2}{6d^2}=\\dfrac{1}{3}nmv^2
 
 欢迎帮忙检查我的思路有什么错误（PS：答案是对的。
 
-2026-10-052026-10-05
+2026-10-052026-10-11
 
 [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

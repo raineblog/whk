@@ -20,6 +20,6 @@
 
 类似题型：若半径 R=2+\\sqrt6 的空心球内部装有四个半径为 r 的实心球，则 r 所能取得的最大值为？刮开 \\boxed{[\\textcolor{white}{2}]} 查看答案。
 
-2026-10-052026-10-05
+2026-10-052026-10-11
 
 [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

@@ -98,6 +98,6 @@ m_1v_1+m_2v_2=\\mathrm{const.}
 
 Q.E.D.
 
-2026-10-052026-10-05
+2026-10-052026-10-11
 
 [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

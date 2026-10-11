@@ -16,6 +16,6 @@
 
 因此 a=-k=-2\\sqrt{2}，然后我们验证取等条件，kx=\\dfrac{1}{x^2}，因此 x=\\dfrac{\\sqrt{2}}{2}，取等点在定义域内，解法成立。
 
-2026-10-052026-10-05
+2026-10-052026-10-11
 
 [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

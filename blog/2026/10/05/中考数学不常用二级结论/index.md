@@ -280,6 +280,6 @@ S\_{ABC}^2=S\_{\\color{blue}ABO}^2+S\_{\\color{green}ACO}^{2}+S\_{\\color{red}BC
 
 即切下的物块的斜面面积平方等于其余各面表面积的平方和。
 
-2026-10-052026-10-05
+2026-10-052026-10-11
 
 [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

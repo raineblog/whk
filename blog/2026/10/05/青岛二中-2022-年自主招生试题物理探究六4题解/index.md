@@ -119,6 +119,6 @@ i_1+i_2+i_3=0V/R_0=0V
 
 则电流表示数为 i_1 的绝对值，即电流表示数为 \\dfrac{5}{8}A。
 
-2026-10-052026-10-05
+2026-10-052026-10-11
 
 [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
