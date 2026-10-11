@@ -1,7 +1,7 @@
 ---
 description: 探究Fe2+还原性实验中H2O2使溶液显血红后过量褪色的原因，验证SCN-被氧化的假设，给出离子方程式配平、复原实验及硫酸根检验方法。
 authors:
-  - Gemini
+    - Gemini
 ---
 
 # KSCN 被氧化的探究实验
