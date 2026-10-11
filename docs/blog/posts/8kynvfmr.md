@@ -45,7 +45,7 @@ authors:
 9. （2024 浙江 6 月卷）化合物 $\text{HA}(\text{RO}-\text{C}(=\text{Se})-\text{OH})$、$\text{HB}(\text{RO}-\text{C}(=\text{S})-\text{OH})$、$\text{HC}(\text{RO}-\text{C}(=\text{O})-\text{OH})$、$\text{HD}(\text{RO}-\text{C}(=\text{O})-\text{SH})$ 中，$\text{HA}$、$\text{HB}$ 和 $\text{HC}$ 中羟基与水均可形成氢键，按照氢键由强到弱对三种酸排序，并说明理由；已知 $\text{HC}$、$\text{HD}$ 钠盐的碱性 $\text{NaC}>\text{NaD}$，请从结构角度说明理由。
 
     **【答案】**电负性 $\text{O} > \text{S} > \text{Se}$，双键极性 $\text{C}=\text{O} > \text{C}=\text{S} > \text{C}=\text{Se}$，使得酸分子中羟基（$-\text{OH}$）的极性 $\text{HC} > \text{HB} > \text{HA}$；羟基上 $\text{H}$ 原子的正电性越强，与水分子形成的氢键越强。
-    
+
     **【答案】**原子半径 $\text{O} < \text{S}$，键长 $\text{O}-\text{H} < \text{S}-\text{H}$，$\text{S}-\text{H}$ 键更易断裂电离出 $\text{H}^+$；且 $\text{HC}$ 分子间易通过氢键形成稳定二聚体，阻碍其电离出 $\text{H}^+$，故酸性 $\text{HD} > \text{HC}$；酸性越弱，对应酸根阴离子水解能力越强，故钠盐碱性 $\text{NaC} > \text{NaD}$。
 
 10. （2024 山东卷）$\text{MnO}_x$ 可作 $\text{HMF}$ 转化为 $\text{FDCA}$ 的催化剂（如下图）。$\text{FDCA}$ 的熔沸点远大于 $\text{HMF}$，除相对分子质量存在差异外，另一重要的原因是？
@@ -119,5 +119,5 @@ authors:
     $\text{Na}$ 与 $\text{Si}$ 均为第三周期元素，$\text{NaCl}$ 熔点明显高于 $\text{SiCl}_4$，原因是 \_\_\_\_\_\_；分析同族元素的氯化物 $\text{SiCl}_4$、$\text{GeCl}_4$、$\text{SnCl}_4$ 熔点变化趋势及其原因：\_\_\_\_\_\_。
 
     **【答案】**$\text{NaCl}$ 为离子晶体，熔化时破坏离子键；$\text{SiCl}_4$ 为分子晶体，熔化时破坏范德华力，**离子键强度远大于分子间范德华力**。
-    
+
     **【答案】**熔点依次升高（$\text{SiCl}_4 < \text{GeCl}_4 < \text{SnCl}_4$）；三者均为结构相似的分子晶体，**从 $\text{SiCl}_4$ 到 $\text{SnCl}_4$ 相对分子质量依次增大，分子间范德华力依次增强**。

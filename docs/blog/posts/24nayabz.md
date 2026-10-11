@@ -17,9 +17,11 @@ authors:
 ---
 
 # English Intensive Reinforcement Exercise: The Acoustic Niche
+
 **专项强化训练：声学生态位理论**
 
 ## Part I: Reading Comprehension (对标高考 C/D 篇)
+
 *Read the following passage and choose the best answer for each question.*
 
 In the heart of a tropical rainforest, a symphony of sounds unfolds every dawn. To a casual listener, it may seem like a chaotic wall of noise. However, biologists see it as a highly organized system. This brings us to the concept of the **acoustic niche (声学生态位)**, a theory suggesting that animals evolve to communicate in a way that avoids interference from others.
@@ -28,7 +30,7 @@ Just as two species cannot occupy the same physical space or eat the same food w
 
 To solve this, nature employs **niche partitioning (生态位分化)**. Some species shift their frequency, while others adjust their timing. For instance, certain insects may chirp at a piercingly high pitch that birds simply do not use. Others may wait for a "gap" in the forest's sonic schedule, calling only during the brief silence between the songs of more dominant species. Through millions of years of natural selection, the rainforest becomes a complex puzzle where every piece—every sound—fits perfectly without overlapping.
 
-However, this delicate balance is now under threat from **anthropophony (人为噪音)**. The roar of chainsaws and the hum of highways occupy the lower frequencies of the soundscape. Unlike the rhythmic calls of animals, human noise is often constant and overwhelming. Many species are now forced to change their pitch to be heard, a process that requires immense energy and may alter the meaning of their calls. 
+However, this delicate balance is now under threat from **anthropophony (人为噪音)**. The roar of chainsaws and the hum of highways occupy the lower frequencies of the soundscape. Unlike the rhythmic calls of animals, human noise is often constant and overwhelming. Many species are now forced to change their pitch to be heard, a process that requires immense energy and may alter the meaning of their calls.
 
 The acoustic niche tells us that silence is not the absence of sound, but the space that allows life to be heard. Protecting the "quiet" of our wilderness is, therefore, not just about peace and quiet—it is about preserving the invisible channels of survival.
 
@@ -56,13 +58,14 @@ A. Indifferent $\quad$ B. Supportive $\quad$ C. Concerned $\quad$ D. Optimistic
 ---
 
 ## Part II: Cloze Test (完形填空)
+
 *Read the passage and choose the best word or phrase to fill in the blanks.*
 
-Dr. Miller, a bioacoustician, spent three years in the Amazon. At first, he was \_\_1\_\_ by the deafening noise of the jungle. He thought it was just a random mess of screams and chirps. However, as he began to record the sounds and analyze them on a computer, he noticed something \_\_2\_\_. 
+Dr. Miller, a bioacoustician, spent three years in the Amazon. At first, he was \_\_1\_\_ by the deafening noise of the jungle. He thought it was just a random mess of screams and chirps. However, as he began to record the sounds and analyze them on a computer, he noticed something \_\_2\_\_.
 
-He found that the different species of frogs in the area did not call at the same time. One species would call for ten minutes, and then, \_\_3\_\_ it stopped, another species would begin. This was not a coincidence; it was a survival strategy. By taking turns, these frogs ensured that their mating calls were \_\_4\_\_ to the females without being drowned out by their neighbors. 
+He found that the different species of frogs in the area did not call at the same time. One species would call for ten minutes, and then, \_\_3\_\_ it stopped, another species would begin. This was not a coincidence; it was a survival strategy. By taking turns, these frogs ensured that their mating calls were \_\_4\_\_ to the females without being drowned out by their neighbors.
 
-This discovery led Miller to realize that the "soundscape" is like a crowded city. If everyone shouts at once, no one is heard. Therefore, animals have evolved to find their own "acoustic address." \_\_5\_\_ this balance is crucial, as any shift in one species' behavior could trigger a chain reaction. 
+This discovery led Miller to realize that the "soundscape" is like a crowded city. If everyone shouts at once, no one is heard. Therefore, animals have evolved to find their own "acoustic address." \_\_5\_\_ this balance is crucial, as any shift in one species' behavior could trigger a chain reaction.
 
 Unfortunately, when Miller introduced a loud speaker playing city traffic noise into the forest, the frogs became \_\_6\_\_. Some stopped calling altogether, while others tried to scream louder, which quickly \_\_7\_\_ their energy reserves. This experiment proved that human noise acts as an "invader," stealing the acoustic niches of native species and threatening their \_\_8\_\_ in the wild.
 
@@ -78,6 +81,7 @@ Unfortunately, when Miller introduced a loud speaker playing city traffic noise 
 ---
 
 ## Part III: Grammar Filling (语法填空)
+
 *Fill in the blanks with the proper forms of the words in brackets.*
 
 The study of the acoustic niche provides us with a fascinating look into the survival of species. In a healthy ecosystem, animals **\_\_1\_\_**(compete) for a variety of resources, not only for food and territory but also for the ability to be heard. To avoid interference, different species develop **\_\_2\_\_**(distinguish) call patterns.
@@ -91,12 +95,14 @@ However, the rise of global urbanization has brought about severe noise pollutio
 # 【答案与解析】 (Answer Key & Analysis)
 
 ## Part I: Reading Comprehension
+
 1. **B**. (主旨题) 文章从雨林声音开始，引入声学生态位理论，解释动物如何避免干扰以生存，最后提到人类噪音的威胁。故选 B。
 2. **C**. (细节题) 第二段明确提到 "their signals will overlap... cannot distinguish the signal from the background noise"，即信号与噪声无法区分。故选 C。
 3. **B**. (推理题) 段落提到分化（频率、时间）让物种在不重叠的情况下共存，类似于“分割空间”。故选 B。
 4. **C**. (态度题) 作者提到 "under threat", "invader", "survival crisis" 等词汇，表现出对人为噪音的担忧。故选 C。
 
 ## Part II: Cloze Test
+
 1. **B**. (overwhelmed 被淹没/压倒) $\rightarrow$ 对应原文 "deafening noise" (震耳欲聋)。
 2. **C**. (remarkable 卓越的/显著的) $\rightarrow$ 发现了规律，而非随机。
 3. **A**. (as soon as 一旦...就) $\rightarrow$ 逻辑衔接： A停止，B立即开始。
@@ -107,6 +113,7 @@ However, the rise of global urbanization has brought about severe noise pollutio
 8. **B**. (reproduction 繁殖) $\rightarrow$ 鸣叫的主要目的是求偶繁殖 $\rightarrow$ 影响生存。
 
 ## Part III: Grammar Filling
+
 1. **compete** (一般现在时，主语为 animals 复数)
 2. **distinguishable** (形容词作定语，修饰 patterns，意为“可区分的”)
 3. **favors** (一般现在时，主语为 natural selection 单数)
