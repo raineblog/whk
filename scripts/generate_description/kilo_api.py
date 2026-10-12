@@ -2,7 +2,7 @@ from openai import OpenAI
 import os
 
 client = OpenAI(
-    base_url="https://api.kilo.ai/api/gateway ",
+    base_url="https://api.kilo.ai/api/gateway",
     api_key=os.environ.get("KILO_API_KEY"),
 )
 
