@@ -15,7 +15,7 @@ def get_description(file: str, options):
         user_content += f"{key}：{value}\n"
 
     completion = client.chat.completions.create(
-        model="DeepSeek-V4.1-Flash",
+        model="GLM-5.3-Flash",
         messages=[
             {
                 "role": "system",
@@ -28,7 +28,7 @@ def get_description(file: str, options):
         ],
         reasoning_effort="max",
         stream=True,
-        # max_tokens=32768,
+        max_tokens=1048576,
         # extra_body={"chat_template_kwargs":{"enable_thinking":True},"reasoning_budget":32768},
     )
 
