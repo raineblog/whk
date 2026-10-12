@@ -1,0 +1,13 @@
+{
+    "schedule": "daily",
+    "ignoredFiles": [
+        "*.png",
+        "*.jpg",
+        "*.jpeg",
+        "*.webp",
+        "*.gif",
+        "public/*"
+    ],
+    "aggressiveCompression": "true",
+    "compressWiki": "true"
+}

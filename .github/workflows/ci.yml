@@ -1,0 +1,119 @@
+name: Build and Deploy to GitHub Pages
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: actions-workflow-metrics
+        uses: dev-hato/actions-workflow-metrics@v0.0.8
+
+      - name: Checkout Source Code
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+
+      - name: Install bun dependencies
+        run: bun install
+
+      - name: Install uv dependencies
+        run: uv sync --locked --no-dev
+
+      - name: Install pandoc
+        uses: pandoc/actions/setup@v1
+
+      - name: Cache
+        uses: actions/cache@v6
+        with:
+          path: .cache
+          key: ${{ runner.os }}-mkdocs-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            ${{ runner.os }}-mkdocs-
+
+      - name: Action Image Resize
+        id: compress_step
+        uses: RainPPR/action-image-resize@main
+        with:
+          path: './docs'
+
+      - name: Run Description Generation Script
+        timeout-minutes: 30
+        run: uv run --no-sync scripts/generate_description/main.py
+        env:
+          KILO_API_KEY: ${{ secrets.KILO_API_KEY }}
+          PYTHONUNBUFFERED: 1
+          PYTHONUTF8: 1
+
+      - name: NFK Content
+        run: bash ./clean_content.sh
+
+      - name: Build Static Site
+        run: uv run --no-sync scripts/generate.py --build --site_url=https://raineblog.dpdns.org/whk/ --disable_giscus=false --blog
+        env:
+          PYTHONUNBUFFERED: 1
+          PYTHONUTF8: 1
+          NO_MKDOCS_2_WARNING: 1
+
+      - name: Build Bun Executable
+        run: bun build --compile --minify --bytecode build.ts --outfile build-bin
+
+      - name: Bun Post-processing
+        run: ./build-bin --dir site
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: site
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -u -- '*.md'
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: auto update [skip ci]" -m "${{ steps.compress_step.outputs.summary }}"
+            git push origin main
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v6
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

@@ -1,0 +1,17 @@
+{{ info | to_yaml }}
+
+site_url: {{ site_url }}
+
+{% if extra %}
+extra:
+{{ extra | to_yaml(2) }}
+{% endif %}
+
+{% include "build-templates/theme.yml.jinja2" %}
+
+nav:
+{{ nav | to_yaml(2) }}
+
+{% include "build-templates/plugins.yml.jinja2" %}
+
+{% include "build-templates/pandoc.yml.jinja2" %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block fonts %}{% endblock %}
+
+{% block extrahead %}
+    {% include "partials/integrations/head.html" %}
+{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+    {% include "partials/integrations/body.html" %}
+{% endblock %}
+
+{% block site_meta %}
+    {{ super() }}
+    {% if config.extra.mastodon %}
+        <meta name="fediverse:creator" content="@{{ config.extra.mastodon }}@mastodon.social">
+    {% endif %}
+    {% if "rss" in config.plugins %}
+        <link rel="alternate" type="application/feed+json" title="{{ lang.t('rss.created') }}" href="{{ 'feed_json_created.json' | url }}">
+        <link rel="alternate" type="application/feed+json" title="{{ lang.t('rss.updated') }}" href="{{ 'feed_json_updated.json' | url }}">
+    {% endif %}
+{% endblock %}

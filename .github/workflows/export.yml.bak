@@ -1,0 +1,138 @@
+name: Export to PDF
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: 'Tag name for release (optional)'
+        required: false
+        default: ''
+# git tag v20260101
+# git push origin v20260101
+
+permissions:
+  contents: write
+  packages: read
+  id-token: write
+
+jobs:
+  export_build:
+    name: "Prepare: Build MkDocs Site"
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/raineblog/mkdocs-exporter:latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: Initialize repository checkout
+        uses: actions/checkout@v7
+      - name: Cache
+        uses: actions/cache@v6
+        with:
+          path: .cache
+          key: ${{ runner.os }}-mkdocs-export-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            ${{ runner.os }}-mkdocs-export-
+      - name: Execute Compile & Generate Details
+        id: set-matrix
+        run: |
+          mkdocs-export
+          if [ -s matrix.out ]; then
+            cat matrix.out >> $GITHUB_OUTPUT
+          fi
+      - name: Upload Raw Site Artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: tex-raw
+          path: site/
+          retention-days: 1
+
+  export_process:
+    name: "Process: PDF Synthesis & Book Generation"
+    needs: export_build
+    runs-on: ubuntu-latest
+    if: ${{ needs.export_build.outputs.matrix != '' && needs.export_build.outputs.matrix != '[]' }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJSON(needs.export_build.outputs.matrix) }}
+    container:
+      image: ghcr.io/raineblog/mkdocs-exporter-build:latest
+    steps:
+      - name: Initialize repository checkout
+        uses: actions/checkout@v7
+      - name: Download Site Artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: tex-raw
+          path: site/
+      
+      - name: Puppeteer - Print Web to PDF
+        run: |
+          npx puppeteer browsers install chrome
+          export-pdf-1-print "${{ matrix.book }}"
+        env:
+          CONCURRENCY: 4
+      
+      - name: Python - Prepare TeX & Planning
+        run: export-pdf-2-plan "${{ matrix.book }}"
+          
+      - name: LaTeX - Compile Decorations
+        uses: docker://ghcr.io/rainppr/texlive-full:latest
+        with:
+          entrypoint: /bin/sh
+          args: -c "if [ -f build/tex_tasks.txt ]; then while read f; do latexmk -xelatex -output-directory=build \"$f\"; done < build/tex_tasks.txt; else echo 'No TeX tasks found'; fi"
+          
+      - name: Python - Final Synthesis & Bookmarks
+        run: export-pdf-3-merge "${{ matrix.book }}"
+          
+      - name: Upload Book Product
+        uses: actions/upload-artifact@v7
+        with:
+          name: tex-pdf-${{ matrix.book }}
+          path: build/*.pdf
+          retention-days: 1
+
+  export_publish:
+    name: "Publish: Collect and Release"
+    needs: export_process
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download all compiled PDFs
+        uses: actions/download-artifact@v8
+        with:
+          path: download_pdfs
+          pattern: tex-pdf-*
+          merge-multiple: true
+          
+      - name: Move to build directory
+        run: |
+          mkdir -p build
+          mv download_pdfs/*.pdf build/ || echo "No PDFs to move"
+
+      - name: Upload Binaries (Tag Trigger)
+        uses: softprops/action-gh-release@v3
+        if: github.event_name != 'workflow_dispatch' && startsWith(github.ref, 'refs/tags/')
+        with:
+          files: build/*.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Binaries (Manual Trigger with Tag)
+        if: github.event_name == 'workflow_dispatch' && inputs.tag_name != ''
+        uses: softprops/action-gh-release@v3
+        with:
+          tag_name: ${{ github.event.inputs.tag_name }}
+          files: build/*.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Artifact (Manual Trigger without Tag)
+        if: github.event_name == 'workflow_dispatch' && (inputs.tag_name == '' || !inputs.tag_name)
+        uses: actions/upload-artifact@v7
+        with:
+          name: pdf-documentation
+          path: build/*.pdf

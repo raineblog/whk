@@ -1,0 +1,185 @@
+<meta http-equiv="content-language" content="zh-CN" />
+
+<link rel="alternate" hreflang="zh-Hans" href="{{ page.canonical_url }}" />
+<link rel="alternate" hreflang="zh-CN" href="{{ page.canonical_url }}" />
+<link rel="alternate" hreflang="x-default" href="{{ page.canonical_url }}" />
+
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/google/c4mv1nF8G8_swA3J0Q.woff2" as="font" type="font/woff2" crossorigin />
+
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/offline/FZXSSJW/377dbe.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/offline/FZXSSJW/17e33e.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/offline/FZXSSJW/d924dd.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/offline/FZXSSJW/9abd9f.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/offline/FZXSSJW/9abf5d.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts/offline/FZXSSJW/5c2925.woff2" as="font" type="font/woff2" crossorigin />
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@raineblog/mkdocs-fontkit@latest/dist/fonts.min.css" />
+
+<style>
+    :root {
+        --fontkit-text-font: "Aleo", "FZNewShuSong", "Zen Old Mincho", "Chiron Sung HK", "Noto Serif SC", serif;
+        --fontkit-code-font: "Fira Code", "Cascadia Code", "Consolas", "Inconsolata", "Menlo", "Monaco", "SF Mono", "Ubuntu Mono", "DejaVu Sans Mono", "Courier New", monospace;
+        --md-code-font: var(--fontkit-code-font);
+        --md-text-font: var(--fontkit-text-font);
+    }
+
+    * {
+        font-variant-ligatures: contextual;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    html {
+        scroll-behavior: smooth;
+        hyphens: auto;
+        overflow-wrap: break-word;
+        text-rendering: optimizeLegibility;
+        font-kerning: normal;
+    }
+
+    /* 1. 精准锁定包含大图的 figure，强行把它拉满到整个文本区（100%） */
+    /* 使用 :has 选择器，确保只影响这类图片容器，不破坏排版工具的其他默认布局 */
+    figure:has(a.glightbox),
+    p:has(a.glightbox) {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    /* 2. 让中间的 a 标签变成块级，把 100% 的宽度“管道”顺利传递下去 */
+    figure a.glightbox,
+    p a.glightbox {
+        display: block !important;
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+
+    /* 3. 对图片进行环境优化 */
+    figure a.glightbox img,
+    p a.glightbox img {
+        display: block !important;
+        /* 💡 注意：这里绝对不写 width！ */
+        /* 这样浏览器就会去读你在 HTML 源码里生成的 style="width: 80%" 或 50% */
+
+        height: auto !important; /* 极其重要：确保矢量图按比例缩放，绝不变形 */
+        margin: 0 auto !important; /* 无论你输入百分之几，图片都会在文本区里完美水平居中 */
+    }
+
+    .md-typeset div.arithmatex {
+        overflow: hidden !important;
+    }
+
+    .md-typeset div.arithmatex .katex-display {
+        margin-top: 0.1em !important;
+        margin-bottom: 0.1em !important;
+    }
+
+    /* 自定义 KaTeX 波浪下划线类 */
+    .katex-uwave {
+        text-decoration: underline wavy !important;
+        text-decoration-skip-ink: none !important; /* 防止被字母下延笔画断开 */
+        text-decoration-thickness: 1px !important; /* 保持 1px 极细质感 */
+        text-underline-offset: 3.5px !important; /* 控制波浪线与文字的间距 */
+    }
+
+    .katex-underline {
+        text-decoration: underline !important;
+        text-decoration-skip-ink: none; /* 防止被字母下延笔画断开 */
+        text-decoration-thickness: 1px !important; /* 保持 1px 极细质感 */
+        text-underline-offset: 3.5px !important; /* 控制波浪线与文字的间距 */
+    }
+
+    uwave {
+        display: inline;
+        text-decoration: underline wavy !important;
+        text-decoration-skip-ink: none; /* 防止被字母下延笔画断开 */
+        text-decoration-thickness: 1px !important; /* 保持 1px 极细质感 */
+        text-underline-offset: 3.5px !important; /* 控制波浪线与文字的间距 */
+    }
+
+    u {
+        display: inline;
+        text-decoration: underline !important;
+        text-decoration-skip-ink: none !important; /* 防止被字母下延笔画断开 */
+        text-decoration-thickness: 1px !important; /* 保持 1px 极细质感 */
+        text-underline-offset: 3.5px !important; /* 拉开距离，防止划线撞到汉字底部笔画 */
+    }
+
+    .md-typeset__table {
+        display: block !important;
+    }
+
+    .md-typeset table:not(.highlighttable) {
+        display: table !important;
+    }
+
+    .md-typeset table:not([class]) th {
+        min-width: 0rem;
+    }
+
+    .recently-updated {
+        font-family: var(--md-text-font) !important;
+    }
+
+    .katex .cjk_fallback {
+        font-family: var(--md-text-font) !important;
+    }
+
+    /* h1, */
+    h2,
+    h3 {
+        text-align: center;
+    }
+
+    @media print {
+        .not-printable {
+            display: none !important;
+        }
+
+        #context7-widget {
+            display: none !important;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .md-typeset .grid {
+            grid-template-columns: 1fr 1fr !important;
+        }
+
+        a {
+            text-decoration: underline !important;
+        }
+    }
+
+    no-wrap,
+    .no-wrap {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-break: keep-all;
+    }
+
+    .md-typeset .Box-body {
+        overflow: hidden !important;
+    }
+
+    .md-typeset .math.inline,
+    .md-typeset .math.math-inline {
+        margin-right: auto;
+        float: none;
+    }
+</style>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/mhchem.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/render-a11y-string.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/auto-render.min.js" integrity="sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex-swap.min.css" />
