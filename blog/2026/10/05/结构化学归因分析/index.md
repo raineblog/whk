@@ -112,6 +112,6 @@
 
    \*\*【答案】\*\*熔点依次升高（\\text{SiCl}\_4 < \\text{GeCl}\_4 < \\text{SnCl}\_4）；三者均为结构相似的分子晶体，**从 \\text{SiCl}\_4 到 \\text{SnCl}\_4 相对分子质量依次增大，分子间范德华力依次增强**。
 
-2026-10-052026-10-11
+2026-10-052026-10-12
 
-[Gemini](https://gemini.google.com),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
+[AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

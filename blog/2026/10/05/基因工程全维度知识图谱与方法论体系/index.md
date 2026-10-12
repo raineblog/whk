@@ -326,6 +326,6 @@ ______________________________________________________________________
    - **表面电荷与疏水核优化**：突变活性中心以外的残基，增强分子内盐桥或疏水相互作用；
    - **保守度（Conservation）分析原则**：进化上高度保守的氨基酸位点通常对酶的催化活性起生死决定作用，改造时**优先选择保守度低、位于分子表面的非功能中心位点**进行突变，以防破坏酶的催化活力。
 
-2026-10-052026-10-11
+2026-10-052026-10-12
 
-[Gemini](https://gemini.google.com),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
+[AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

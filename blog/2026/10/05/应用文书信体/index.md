@@ -606,6 +606,6 @@
 | **句式多变**   | 句句都是主谓宾（*I suggest… You should… We will…*）            | 穿插**状语从句省略**（*If accepted…*）、**分词短语作状语**（*Considering…*）、**强调句与虚拟倒装**（*Should you…*）。 |
 | **交际真实性** | 机械套用模板，不理会题目细节要求。                             | 必须把题干中的**身份**（**如体育部负责人、学生会、好朋友**）与情境融入语气中，做到得体自然。                          |
 
-2026-10-052026-10-11
+2026-10-052026-10-12
 
-[Gemini](https://gemini.google.com),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
+[AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

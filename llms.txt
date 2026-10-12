@@ -15,7 +15,7 @@
 
 - [博客](https://raineblog.dpdns.org/whk/blog/index.md)
 - [2026](https://raineblog.dpdns.org/whk/blog/archive/2026/index.md)
-- [Gemini](https://raineblog.dpdns.org/whk/blog/author/Gemini/index.md)
+- [AIGC](https://raineblog.dpdns.org/whk/blog/author/AIGC/index.md)
 - [RainPPR](https://raineblog.dpdns.org/whk/blog/author/RainPPR/index.md)
 - [青岛二中 2022 年自主招生试题（物理）探究六（4）题解](https://raineblog.dpdns.org/whk/blog/2026/10/05/青岛二中-2022-年自主招生试题物理探究六4题解/index.md)
 - [应用文·书信体](https://raineblog.dpdns.org/whk/blog/2026/10/05/应用文书信体/index.md)
@@ -24,6 +24,9 @@
 - [新高考山东卷化学结构化学（物质的结构与性质）分题型总结热点](https://raineblog.dpdns.org/whk/blog/2026/10/12/新高考山东卷化学结构化学物质的结构与性质分题型总结热点/index.md)
 - [新高考山东卷化学结构化学（物质的结构与性质）总结热点](https://raineblog.dpdns.org/whk/blog/2026/10/12/新高考山东卷化学结构化学物质的结构与性质总结热点/index.md)
 - [新高考山东卷化学有机化学总结热点](https://raineblog.dpdns.org/whk/blog/2026/10/12/新高考山东卷化学有机化学总结热点/index.md)
+- [新高考山东卷化学无机化学总结热点](https://raineblog.dpdns.org/whk/blog/2026/10/12/新高考山东卷化学无机化学总结热点/index.md)
+- [新高考山东卷化学原理化学总结热点](https://raineblog.dpdns.org/whk/blog/2026/10/12/新高考山东卷化学原理化学总结热点/index.md)
+- [新高考山东卷化学学科总结热点](https://raineblog.dpdns.org/whk/blog/2026/10/12/新高考山东卷化学学科总结热点/index.md)
 - [英语阅读——声学生态位理论](https://raineblog.dpdns.org/whk/blog/2026/10/05/英语阅读声学生态位理论/index.md)
 - [KSCN 被氧化的探究实验](https://raineblog.dpdns.org/whk/blog/2026/10/05/kscn-被氧化的探究实验/index.md)
 - [20250920高中数学题目分享](https://raineblog.dpdns.org/whk/blog/2026/10/05/20250920高中数学题目分享/index.md)

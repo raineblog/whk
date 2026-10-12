@@ -443,6 +443,6 @@ D. 在0～a、a～b和b～c三个阶段，幼苗根细胞中葡萄糖的能量�
 
 **【最终答案】**：**B**
 
-2026-10-052026-10-11
+2026-10-052026-10-12
 
-[Gemini](https://gemini.google.com),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
+[AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
