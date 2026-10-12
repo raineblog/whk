@@ -387,4 +387,4 @@ g(n) < \\frac{128}{256 - 1} = \\frac{128}{255} \\approx 0.50196
 
 2026-10-122026-10-12
 
-[Gemini](https://gemini.google.com),  [RainPPR](https://github.com/RainPPR)
+[Gemini](https://gemini.google.com),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

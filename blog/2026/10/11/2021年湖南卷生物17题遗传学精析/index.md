@@ -134,6 +134,6 @@ alt text
 
 - **无效陷阱：** 如本题中的 \\text{Aabb} \\times \\text{aaBb}，每个亲本仅有一对基因处于杂合状态，只能证明分离定律，绝不能证明两对非等位基因之间的自由组合。
 
-2026-10-112026-10-11
+2026-10-112026-10-12
 
-[RainPPR](https://github.com/RainPPR)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
