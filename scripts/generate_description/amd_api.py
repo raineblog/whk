@@ -28,7 +28,6 @@ def get_description(file: str, options):
         ],
         reasoning_effort="high",
         stream=True,
-        max_tokens=1048576,
         # extra_body={"chat_template_kwargs":{"enable_thinking":True},"reasoning_budget":32768},
     )
 
