@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sun, 11 Oct 2026 09:22:52 -0000</pubDate>
-    <lastBuildDate>Sun, 11 Oct 2026 09:22:52 -0000</lastBuildDate>
+    <pubDate>Mon, 12 Oct 2026 03:52:58 -0000</pubDate>
+    <lastBuildDate>Mon, 12 Oct 2026 03:52:58 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -39,7 +39,7 @@
       
       <description>&lt;h1&gt;Gemini&lt;/h1&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/author/Gemini/page/2/</link>
-      <pubDate>Sun, 11 Oct 2026 09:23:36 +0000</pubDate>
+      <pubDate>Mon, 12 Oct 2026 03:53:44 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/author/Gemini/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/author/Gemini/page/2/</guid>
@@ -56,7 +56,7 @@
       
       <description>&lt;h1&gt;2026&lt;/h1&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2026/page/3/</link>
-      <pubDate>Sun, 11 Oct 2026 09:23:36 +0000</pubDate>
+      <pubDate>Mon, 12 Oct 2026 03:53:44 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2026/page/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2026/page/3/</guid>
@@ -73,7 +73,7 @@
       
       <description>&lt;h1&gt;2026&lt;/h1&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/archive/2026/page/2/</link>
-      <pubDate>Sun, 11 Oct 2026 09:23:36 +0000</pubDate>
+      <pubDate>Mon, 12 Oct 2026 03:53:44 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/archive/2026/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/archive/2026/page/2/</guid>
@@ -90,7 +90,7 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/page/3/</link>
-      <pubDate>Sun, 11 Oct 2026 09:23:36 +0000</pubDate>
+      <pubDate>Mon, 12 Oct 2026 03:53:44 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/page/3/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/page/3/</guid>
@@ -107,12 +107,50 @@
       
       <description>&lt;h1&gt;博客&lt;/h1&gt;</description>
       <link>https://raineblog.dpdns.org/whk/blog/page/2/</link>
-      <pubDate>Sun, 11 Oct 2026 09:23:36 +0000</pubDate>
+      <pubDate>Mon, 12 Oct 2026 03:53:44 +0000</pubDate>
       <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
       <comments>https://raineblog.dpdns.org/whk/blog/page/2/#__comments</comments>
       <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/page/2/</guid>
       
       <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/page/2.png" type="image/png" length="None" />
+      
+    </item>
+    
+    <item>
+      <title>高中数学：西尔维斯特序列</title>
+      
+      
+        
+      <author>Gemini</author>
+        
+      
+      
+      
+      <description>深度解析西尔维斯特序列核心性质与高中数学压轴题破解模板，涵盖裂项相消、互素性证明、倒数求和放缩及参数化离散最值搜索的完整解题矩阵。</description>
+      <link>https://raineblog.dpdns.org/whk/blog/2026/10/12/%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6%E8%A5%BF%E5%B0%94%E7%BB%B4%E6%96%AF%E7%89%B9%E5%BA%8F%E5%88%97/</link>
+      <pubDate>Mon, 12 Oct 2026 03:33:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/2026/10/12/%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6%E8%A5%BF%E5%B0%94%E7%BB%B4%E6%96%AF%E7%89%B9%E5%BA%8F%E5%88%97/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/10/12/%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6%E8%A5%BF%E5%B0%94%E7%BB%B4%E6%96%AF%E7%89%B9%E5%BA%8F%E5%88%97/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/10/12/高中数学西尔维斯特序列.png" type="image/png" length="58606" />
+      
+    </item>
+    
+    <item>
+      <title>2021年湖南卷生物17题遗传学精析</title>
+      
+      
+      
+      
+      <description>深度解析2021年湖南高考生物17题，聚焦油菜半矮秆性状的重叠遗传模型（15∶1比例）。详细拆解亲本基因型、F₂分离规律、测交验证及F₃自交分群（7∶4∶4）计算逻辑，重点剖析为何Aabb×aaBb杂交无法验证自由组合定律，归纳经典变式比值速记表与判定准则，助力高考遗传学满分突围。</description>
+      <link>https://raineblog.dpdns.org/whk/blog/2026/10/11/2021%E5%B9%B4%E6%B9%96%E5%8D%97%E5%8D%B7%E7%94%9F%E7%89%A917%E9%A2%98%E9%81%97%E4%BC%A0%E5%AD%A6%E7%B2%BE%E6%9E%90/</link>
+      <pubDate>Sun, 11 Oct 2026 14:18:00 +0000</pubDate>
+      <source url="https://raineblog.dpdns.org/whk/feed_rss_created.xml">RainPPR's WHK Blog</source>
+      <comments>https://raineblog.dpdns.org/whk/blog/2026/10/11/2021%E5%B9%B4%E6%B9%96%E5%8D%97%E5%8D%B7%E7%94%9F%E7%89%A917%E9%A2%98%E9%81%97%E4%BC%A0%E5%AD%A6%E7%B2%BE%E6%9E%90/#__comments</comments>
+      <guid isPermaLink="true">https://raineblog.dpdns.org/whk/blog/2026/10/11/2021%E5%B9%B4%E6%B9%96%E5%8D%97%E5%8D%B7%E7%94%9F%E7%89%A917%E9%A2%98%E9%81%97%E4%BC%A0%E5%AD%A6%E7%B2%BE%E6%9E%90/</guid>
+      
+      <enclosure url="https://raineblog.dpdns.org/whk/assets/images/social/blog/2026/10/11/2021年湖南卷生物17题遗传学精析.png" type="image/png" length="63835" />
       
     </item>
     
