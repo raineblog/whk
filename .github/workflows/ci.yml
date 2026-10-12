@@ -67,7 +67,7 @@ jobs:
         timeout-minutes: 30
         run: uv run --no-sync scripts/generate_description/main.py
         env:
-          AMD_API_KEY: ${{ secrets.AMD_API_KEY }}
+          KILO_API_KEY: ${{ secrets.KILO_API_KEY }}
           PYTHONUNBUFFERED: 1
           PYTHONUTF8: 1
 

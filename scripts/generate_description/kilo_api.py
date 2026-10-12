@@ -2,8 +2,8 @@ from openai import OpenAI
 import os
 
 client = OpenAI(
-    base_url="https://developer.amd.com.cn/radeon/api/v1",
-    api_key=os.environ.get("AMD_API_KEY"),
+    base_url="https://api.kilo.ai/api/gateway ",
+    api_key=os.environ.get("KILO_API_KEY"),
 )
 
 
@@ -15,7 +15,7 @@ def get_description(file: str, options):
         user_content += f"{key}：{value}\n"
 
     completion = client.chat.completions.create(
-        model="GLM-5.3-Flash",
+        model="kilo-auto/free",
         messages=[
             {
                 "role": "system",
