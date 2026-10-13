@@ -15,6 +15,8 @@ BLOG_POSTS_DIR = BLOG_DIR / "posts"
 CACHE_FILE = PROJECT_ROOT / "description_cache.json"
 MAX_PER_RUN = 80
 DELAY = 1
+MAX_RETRIES = 5
+RETRY_DELAY = 1
 
 
 def load_cache():
@@ -195,6 +197,18 @@ def get_md_files():
     return sorted(result)
 
 
+def get_description_with_retry(body, rel):
+    """Call get_description, retrying up to MAX_RETRIES times on failure."""
+    for attempt in range(MAX_RETRIES + 1):
+        try:
+            return get_description(body, {"路径": rel})
+        except Exception as e:
+            if attempt >= MAX_RETRIES:
+                raise
+            print(f"  !! retry {attempt + 1}/{MAX_RETRIES} after error: {e}")
+            time.sleep(RETRY_DELAY)
+
+
 def main():
     cache = load_cache()
     md_files = get_md_files()
@@ -230,7 +244,7 @@ def main():
         print(f"[{i + 1}/{len(to_process)}] {rel}")
 
         try:
-            description = get_description(body, {"路径": rel})
+            description = get_description_with_retry(body, rel)
 
             if description and description.strip():
                 desc = description.strip()
