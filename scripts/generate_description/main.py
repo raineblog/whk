@@ -214,7 +214,21 @@ def main():
     md_files = get_md_files()
     now = time.time()
 
+    current_rels = {f.relative_to(PROJECT_ROOT).as_posix() for f in md_files}
+
+    # 收集在当前磁盘上已不存在的旧缓存项索引（按 md5 归类），用于识别文件移动/重命名
+    missing_by_md5 = {}
+    for k, v in cache.items():
+        if k not in current_rels:
+            m = v.get("md5")
+            if m:
+                missing_by_md5.setdefault(m, []).append(k)
+
     needs_update = []
+    cache_modified = False
+    migrated_count = 0
+    reused_count = 0
+
     for md_file in md_files:
         rel = md_file.relative_to(PROJECT_ROOT).as_posix()
         content = read_file(md_file)
@@ -224,10 +238,50 @@ def main():
         hash_body = strip_more_excerpt(body) if is_blog_post(md_file) else body
         md5 = body_md5(hash_body)
         entry = cache.get(rel)
-        old_md5 = entry.get("md5") if entry else None
+
+        # 1. 当前路径已有缓存且 MD5 一致，无需更新
+        if entry and entry.get("md5") == md5:
+            continue
+
+        # 2. 从已移动/删除的旧文件中匹配相同 MD5，重命名缓存键
+        if md5 in missing_by_md5 and missing_by_md5[md5]:
+            # 若有多个相同 md5 候选，优先匹配文件名相同的项
+            matching_idx = 0
+            for idx, cand in enumerate(missing_by_md5[md5]):
+                if Path(cand).name == md_file.name:
+                    matching_idx = idx
+                    break
+            old_rel = missing_by_md5[md5].pop(matching_idx)
+            cache[rel] = cache.pop(old_rel)
+            cache_modified = True
+            migrated_count += 1
+            print(f"  [cache migrated] {old_rel} -> {rel}")
+            continue
+
+        # 3. 若有磁盘上其他文件具有相同 MD5（如文件复制），复用缓存
+        matching_k = next((k for k, v in cache.items() if v.get("md5") == md5 and k != rel), None)
+        if matching_k:
+            cache[rel] = {
+                "md5": md5,
+                "last_submitted": cache[matching_k].get("last_submitted", now),
+            }
+            cache_modified = True
+            reused_count += 1
+            print(f"  [cache reused] {matching_k} -> {rel}")
+            continue
+
+        # 4. 全新文件或内容发生实质变动，加入待更新队列
         last_ts = entry.get("last_submitted", 0) if entry else 0
-        if old_md5 != md5:
-            needs_update.append((rel, md_file, last_ts, content, fm_body, body, md5))
+        needs_update.append((rel, md_file, last_ts, content, fm_body, body, md5))
+
+    # 若发生了缓存迁移或复用，先持久化保存
+    if cache_modified:
+        save_cache(cache)
+        print(f"Updated cache: {migrated_count} migrated, {reused_count} reused.")
+
+    if "--migrate-only" in sys.argv:
+        print("Migrate-only mode requested. Exiting.")
+        return
 
     needs_update.sort(key=lambda x: x[2])
     to_process = needs_update[:MAX_PER_RUN]
