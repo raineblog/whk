@@ -131,4 +131,4 @@
 
 2026-10-142026-10-14
 
-[AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
+[AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR)
