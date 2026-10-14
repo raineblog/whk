@@ -203,4 +203,4 @@ v_2 = \\frac{(m_1 + m_2 + 2 B^2 l^2 C) E}{B l (m_1 + m_2 + B^2 l^2 C)}
 
 2026-10-142026-10-14
 
-[AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR)
+[AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
