@@ -210,31 +210,49 @@ v=\\dfrac{(R+r)F}{BL^2}
 
 通电导体棒在磁场中运动，我们取一个极小的时间 \\Delta t，则
 
-\\begin{aligned} F\_{安}\\cdot\\Delta t&=m\\Delta v\\ BIL\\cdot\\Delta t&=m\\Delta v\\ BLq&=m\\Delta v \\end{aligned}
+F\_{安}\\cdot\\Delta t=m\\Delta v
 
-我们用积分的思想，就可以得到通过导体棒对电荷量即为 \\dfrac{m(v_t-v_0)}{BL}。
+BIL\\cdot\\Delta t=m\\Delta v\\qquad(1)
 
-我们总结一下求电荷量的方式：
+\\dfrac{B^2L^2v}{R+r}\\Delta t=m\\Delta v\\qquad(2)
 
-\\begin{aligned} q&=N\\dfrac{\\Delta\\Phi}{R+r}\\ q&=\\dfrac{m(v_t-v_0)}{BL} \\end{aligned}
+我们用积分的思想，对 (1) 就可以得到
 
-我们假设匝数 N=1，然后化简上式
+BqL=m\\Delta v=-I\_{安}
 
-q=\\dfrac{BL\\Delta x}{R+r}
+结合前面动生电动势一节中得到的，我们总结一下，通过导体棒的电荷量
 
-已知前进的位移 \\Delta x 就可以用这个方式。
+q=N\\dfrac{\\Delta\\Phi}{R+r}=\\dfrac{m\\Delta v}{BL}
 
-同时我们还可以将 q 联立，得到
+而如果我们继续把 I 展开，而不是直接变成电荷量，即 (2)，就可以得到
+
+\\dfrac{B^2L^2}{R+r}x=m\\Delta v=-I\_{安}
+
+这个式子可以化简为
 
 \\dfrac{\\Delta v}{\\Delta x}=\\dfrac{B^2L^2}{m(R+r)}
 
 也就是说，位移长度与速度变化量是成正比的。
 
+请注意，以上推导看起来很混乱，但是逻辑是很清晰，比如，公式
+
+q=N\\dfrac{\\Delta\\Phi}{R+r}
+
+的推导是没有经过任何力学分析的，也就是说这个式子是适用于任何情况的，但是由动量定理得出的，因为前面假设了没有任何其余外力，也就是说结论本质上不是通用的，而通用的是安培力冲量公式
+
+I\_{安}=-BqL=-\\dfrac{B^2L^2}{R+r}x
+
+如果有外力，需要用这个去分析，而不是直接用 I\_{安}=\\Delta v 得出的公式，例如
+
+q=\\dfrac{m\\Delta v}{BL}\\qquad\\dfrac{\\Delta v}{\\Delta x}=\\dfrac{B^2L^2}{m(R+r)}
+
+这两个，就是无法直接使用的。
+
 总体来说，末速度是一定要求或者利用的，时间通常可以通过动量定理，或者电量来求。
 
 我们在动量里面一个经典的结论是，如果题目问时间，首先考虑动量定理，因为：
 
-F\_{其他}t+Blq=mv_t-mv_0
+F\_{恒力}t+BLq=m\\Delta v
 
 在有其他力的参与下，除了运动学解运动方程，就是这种方法。我们结合前面的推导，其实也可以理解为电荷量和电流可以表示时间，而这通常是和动量定理结合的。
 
@@ -304,6 +322,6 @@ U_反 I=P_机
 
 总之，对于电动机来说，无论其是否转动，欧姆定律肯定是适用的。只是当其转动时，加在线圈两端的电压要减掉其产生的反电动势而已。
 
-2025-12-242026-07-26
+2025-12-242026-10-14
 
 [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
