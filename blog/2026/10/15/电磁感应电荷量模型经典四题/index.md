@@ -180,6 +180,6 @@ alt text
   - 若相对速度 v\_{\\text{rel}} = v\_{\\text{后}} - v\_{\\text{前}} > 0 恒成立，则**间距单调减小**，最小距离必在**运动边界点**（如出磁场瞬间）取得；
   - 若两棒速度能达到相等（共速状态），则**共速时刻**为距离的极值点。利用整体动量守恒优先求出临界速度，是快速破解追及问题的捷径。
 
-2026-10-152026-10-15
+2026-10-152026-10-16
 
-[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
+[AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
