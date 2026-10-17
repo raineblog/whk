@@ -4,8 +4,12 @@
     "md5": "1cc4423e4af575d32378e61f3df6bb48"
   },
   "docs/blog/posts/20261015-dc-dhl/index.md": {
-    "last_submitted": "2026-10-16T01:57:27.571131+00:00",
-    "md5": "6c6dedee21903214be5c5d9294b39cd6"
+    "last_submitted": "2026-10-17T01:52:09.041511+00:00",
+    "md5": "8bc5efdaafd72b091a01e9022b6497b3"
+  },
+  "docs/blog/posts/20261016-dc-gan/index.md": {
+    "last_submitted": "2026-10-17T01:52:09.041511+00:00",
+    "md5": "be1df43e7bccb7d527db2cd94b3f6468"
   },
   "docs/blog/posts/luogu-post/05djkf1u.md": {
     "last_submitted": "2026-10-15T02:07:08.372040+00:00",
@@ -138,6 +142,10 @@
   "docs/blog/posts/shengwu-yichuan/5.md": {
     "last_submitted": "2026-10-15T02:07:08.372040+00:00",
     "md5": "1b6c364da0cb219840c133fe712c85ea"
+  },
+  "docs/blog/posts/shengwu-yichuan/6.md": {
+    "last_submitted": "2026-10-17T01:52:09.041511+00:00",
+    "md5": "4e38ea724ae26eca0a07e323e177688e"
   },
   "docs/blog/posts/sylvesters-sequence.md": {
     "last_submitted": "2026-10-13T04:13:37.553637+00:00",
@@ -396,8 +404,8 @@
     "md5": "b29b077d0e6043a179c7ca39fad1c09d"
   },
   "docs/science/function/5.md": {
-    "last_submitted": "2026-10-15T02:07:08.372040+00:00",
-    "md5": "69b657bbabd48d1069820953c2a81886"
+    "last_submitted": "2026-10-17T01:52:09.041511+00:00",
+    "md5": "e08b8cd717ebc768b0c999281bc7ac31"
   },
   "docs/science/function/6.md": {
     "last_submitted": "2026-09-26T02:17:37.129150+00:00",
