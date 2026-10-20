@@ -100,6 +100,20 @@ In my eyes, true growth lies in integrating into the collective. While individua
 
 By joining a team, we learn empathy, cooperation, and responsibility. Working with diverse peers exposes us to different perspectives, broadening our horizons and tempering our character. Growth is not a solitary journey; it is through connecting with others and contributing to a shared goal that we truly mature and discover our value in the world.
 
-2025-11-042026-09-13
+### 用英语讲好中国故事
+
+Dear Sophia,
+
+Delighted to learn about your interest in our recent “Reading China” festival, I’m writing to share some highlights of this rewarding experience with you.
+
+Aimed at telling Chinese stories in English, the week-long event featured a variety of engaging activities. We not only immersed ourselves in English adaptations of Chinese classics—such as the works of Confucius—but also explored stories showcasing modern China’s achievements. In group book talks, we actively shared our insights in English.
+
+Through this event, I have not merely sharpened my English reading skills, but also gained a deeper appreciation of our ancestors’ wisdom and the enduring Chinese spirit.
+
+If you are curious about Chinese culture, I’d be thrilled to recommend some great English books to you. Looking forward to your thoughts!
+
+Best wishes, Li Hua
+
+2025-11-042026-10-20
 
 [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
