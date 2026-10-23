@@ -240,7 +240,7 @@ Ft^2-2It+2am>0
 
 特点：瞬时速度方向等于轨迹切线方向，证明：
 
-\\dfrac{v_y}{v_x}=\\dfrac{\\d y}{\\d t}\\cdot\\dfrac{\\d t}{\\d x}=\\dfrac{\\d y}{\\d x}
+\\dfrac{v_y}{v_x}=\\dfrac{\\mathrm{d}y}{\\mathrm{d}t}\\cdot\\dfrac{\\mathrm{d}t}{\\mathrm{d}x}=\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}
 
 合速度加在 a,v 之间，向 a 靠拢，但不会和 a 共线。
 
@@ -1029,6 +1029,6 @@ f'=\\dfrac{v\\pm v\_{\\text{o}}}{v\\mp v\_{\\text{s}}}\\cdot f
 
 ### 声学
 
-2025-04-132026-07-09
+2025-04-132026-10-23
 
 [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

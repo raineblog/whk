@@ -208,7 +208,7 @@ f(x)=e^x
 
 \\boxed{\\lim\\limits\_{\\Delta x \\to 0} \\dfrac{f(x\_{0} + \\Delta x) - f(x\_{0})}{\\Delta x}}
 
-存在，那么称这个极限为 f 在 x\_{0} 的**导数**，记作 f'(x\_{0}) 或 \\dfrac{\\d f}{\\d x}(x\_{0})。此时称 f 在 x\_{0} **可导**。
+存在，那么称这个极限为 f 在 x\_{0} 的**导数**，记作 f'(x\_{0}) 或 \\dfrac{\\mathrm{d}f}{\\mathrm{d}x}(x\_{0})。此时称 f 在 x\_{0} **可导**。
 
 如果函数 f(x) 在 x\_{0} 的一个**左邻域** (x\_{0} - \\delta, x\_{0}\] 有定义，且极限
 
@@ -224,7 +224,7 @@ f(x)=e^x
 
 函数在 x\_{0} 可导的充要条件是它在 x\_{0} 的左导数和右导数存在且相等，即 f 在点 x\_{0} 连续。（更加严谨的是，可导 ⇒ 连续，连续 ⇏ 可导）。
 
-如果函数 f 在区间 I 内的每一点都可导，且在端点单侧可导，那么称 f 在区间 I 上可导。此时 x \\mapsto f'(x), x \\in I 确定了一个函数，称为 f 的**导函数**，简称**导数**，记作 f'(x) 或 \\dfrac{\\d f}{\\d x}(x)。后一种符号由德国数学家莱布尼茨发明。
+如果函数 f 在区间 I 内的每一点都可导，且在端点单侧可导，那么称 f 在区间 I 上可导。此时 x \\mapsto f'(x), x \\in I 确定了一个函数，称为 f 的**导函数**，简称**导数**，记作 f'(x) 或 \\dfrac{\\mathrm{d}f}{\\mathrm{d}x}(x)。后一种符号由德国数学家莱布尼茨发明。
 
 ### 切线问题
 
@@ -273,7 +273,7 @@ f'(x)\\cdot\\dfrac{f(x)-b}{x-a}=-1
 
 极限法求导数，是最简单的方法，高中数学中需要求导的函数基本上都是连续的，我们无需考虑不连续的情况，因此我们设出一个 \\Delta x 表示增量，用微分的思想，例如 f(x)=ax^2：
 
-\\begin{aligned} \\dfrac{\\d f}{\\d x}(x) &= \\lim\_{\\Delta x\\to 0} \\dfrac{f(x+\\Delta x)-f(x)}{\\Delta x} \\ &= \\lim\_{\\Delta x\\to 0} \\dfrac{a(x+\\Delta x)^2-ax^2}{\\Delta x} \\ &= \\lim\_{\\Delta x\\to 0} \\dfrac{2ax\\Delta x+a(\\Delta x)^2}{\\Delta x} \\ &= \\lim\_{\\Delta x\\to 0} (2ax+a\\Delta x) \\end{aligned}
+\\begin{aligned} \\dfrac{\\mathrm{d}f}{\\mathrm{d}x}(x) &= \\lim\_{\\Delta x\\to 0} \\dfrac{f(x+\\Delta x)-f(x)}{\\Delta x} \\ &= \\lim\_{\\Delta x\\to 0} \\dfrac{a(x+\\Delta x)^2-ax^2}{\\Delta x} \\ &= \\lim\_{\\Delta x\\to 0} \\dfrac{2ax\\Delta x+a(\\Delta x)^2}{\\Delta x} \\ &= \\lim\_{\\Delta x\\to 0} (2ax+a\\Delta x) \\end{aligned}
 
 我们知道，\\Delta x 是趋近于 0，但是 0/0 没有意义，所以我们继续化简，化简到最后，我们的 a\\Delta x 也是趋近于 0 的，因此就可以忽略了，即导函数：
 
@@ -325,11 +325,11 @@ f'(x)=2ax
 
 容易知道：
 
-\\boxed{\\dfrac{\\d y}{\\d x}=\\dfrac{\\d y}{\\d z}\\cdot\\dfrac{\\d z}{\\d x}}
+\\boxed{\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=\\dfrac{\\mathrm{d}y}{\\mathrm{d}z}\\cdot\\dfrac{\\mathrm{d}z}{\\mathrm{d}x}}
 
 此时，我们令 y=f[g(x)]，z=g(x)，那么：
 
-\\dfrac{\\d f(g(x))}{\\d x}=\\dfrac{\\d f(g(x))}{\\d g(x)}\\cdot\\dfrac{\\d g(x)}{\\d x}
+\\dfrac{\\mathrm{d}f(g(x))}{\\mathrm{d}x}=\\dfrac{\\mathrm{d}f(g(x))}{\\mathrm{d}g(x)}\\cdot\\dfrac{\\mathrm{d}g(x)}{\\mathrm{d}x}
 
 也就是说：
 
@@ -337,7 +337,7 @@ f'(x)=2ax
 
 这就是复合函数的导数，根据这个可以推导反函数求导：
 
-\\dfrac{\\d y}{\\d x}\\cdot\\dfrac{\\d x}{\\d y}=1
+\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}\\cdot\\dfrac{\\mathrm{d}x}{\\mathrm{d}y}=1
 
 也就是说函数的导数与其反函数的导数互为倒数：
 
@@ -421,7 +421,7 @@ y'=-\\dfrac{x}{4y}
 
 那么，根据下面的式子：
 
-\\boxed{\\dfrac{\\d y}{\\d x}=-\\dfrac{F_x}{F_y}}
+\\boxed{\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=-\\dfrac{F_x}{F_y}}
 
 也可以得出上面的导数，可以用于求曲线的切线方程。容易发现，后面的这个分数，相反数，完全就是 (F_y,F_x) 的法线斜率，这也可以用曲面的倾斜方向来解释。但是这个观点过于高深，我们不去涉及。
 
@@ -459,6 +459,6 @@ f(x) = \\frac{e^x}{x^2}
 
 \\lim\_{x\\to +\\infty} \\frac{\\sin x}{x} = \\lim\_{x\\to +\\infty} \\frac{\\cos x}{1} = \\text{不存在}
 
-2025-05-182026-09-23
+2025-05-182026-10-23
 
 [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

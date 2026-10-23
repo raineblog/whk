@@ -91,11 +91,11 @@ I\_{有效}=\\sqrt{\\dfrac{I_a^2+I_b^2}{2}}
 
 即电流的平方平均数。其实对于任意周期为 T 的函数 v(t)，其有效值为：
 
-U\_{有效}^2=\\dfrac{1}{T}\\int_0^T[u(t)]^2\\d t
+U\_{有效}^2=\\dfrac{1}{T}\\int_0^T[u(t)]^2\\mathrm{d}t
 
 例如对于简单的正弦电压 u=U_m\\sin\\omega t，我们根据一些简单的微积分法则：
 
-\\begin{aligned} U\_{有效}&=\\dfrac{1}{T}\\int_0^T[U_m\\sin\\omega t]^2\\d t\\ &=\\dfrac{U_m^2}{T}\\int_0^T\\sin^2(\\omega t)\\d t \\end{aligned}
+\\begin{aligned} U\_{有效}&=\\dfrac{1}{T}\\int_0^T[U_m\\sin\\omega t]^2\\mathrm{d}t\\ &=\\dfrac{U_m^2}{T}\\int_0^T\\sin^2(\\omega t)\\mathrm{d}t \\end{aligned}
 
 我们根据三角恒等式的幂简约公式中的：
 
@@ -103,7 +103,7 @@ U\_{有效}^2=\\dfrac{1}{T}\\int_0^T[u(t)]^2\\d t
 
 容易发现 \\sin^2(\\omega t) 的周期是 2T，可以直接积掉，也就是说：
 
-\\int_0^T\\sin^2(\\omega t)\\d t=\\int_0^T\\dfrac{1-\\cos2\\omega t}{2}\\d t=\\dfrac{T}{2}
+\\int_0^T\\sin^2(\\omega t)\\mathrm{d}t=\\int_0^T\\dfrac{1-\\cos2\\omega t}{2}\\mathrm{d}t=\\dfrac{T}{2}
 
 那么：
 
@@ -214,11 +214,11 @@ R=\\dfrac{U_1^2}{U_2^2}R_0=\\dfrac{n_1^2}{n_2^2}R_0
 
   根据电磁感应定律和自感的定义，电感两端的电压与电流的变化率成正比：
 
-  v_L=L\\dfrac{\\d i}{\\d t}=\\omega LI_m\\cos\\omega t
+  v_L=L\\dfrac{\\mathrm{d}i}{\\mathrm{d}t}=\\omega LI_m\\cos\\omega t
 
   如果从电感的角度出发，则可以得到：
 
-  u_L=L\\dfrac{\\d i}{\\d t}
+  u_L=L\\dfrac{\\mathrm{d}i}{\\mathrm{d}t}
 
   W_L=\\dfrac{1}{2}LI_L^2
 
@@ -250,11 +250,11 @@ R=\\dfrac{U_1^2}{U_2^2}R_0=\\dfrac{n_1^2}{n_2^2}R_0
 
   而电流是电荷随时间的变化率，即对电荷量求导：
 
-  i=\\dfrac{\\d q}{\\d t}=CV_m\\omega\\cos\\omega t
+  i=\\dfrac{\\mathrm{d}q}{\\mathrm{d}t}=CV_m\\omega\\cos\\omega t
 
   如果从电容的角度来看，则有：
 
-  i_C=C\\dfrac{\\d u}{\\d t}
+  i_C=C\\dfrac{\\mathrm{d}u}{\\mathrm{d}t}
 
   W_C=\\dfrac{1}{2}Cu_C^2
 
@@ -396,9 +396,9 @@ f=\\dfrac{1}{T}=\\dfrac{1}{2\\pi\\sqrt{LC}}
 
 式中的周期 T、频率 f、电感 L、电容 C 的单位分别是秒（s）、赫兹（Hz）、亨利（H）、法拉（F）。推导需要用到二阶微分方程，根据基尔霍夫电压定律（KVL）：
 
-\\begin{aligned} L\\frac{\\d i}{\\d t} + \\frac{q}{C} &= 0\\ L\\frac{\\d^2q}{\\d t^2} + \\frac{1}{C}q &= 0 \\end{aligned}
+\\begin{aligned} L\\frac{\\mathrm{d}i}{\\mathrm{d}t} + \\frac{q}{C} &= 0\\ L\\frac{\\d^2q}{\\mathrm{d}t^2} + \\frac{1}{C}q &= 0 \\end{aligned}
 
-类比：这与弹簧振子 m\\dfrac{\\d^2x}{\\d t^2} + kx = 0 完全一致！
+类比：这与弹簧振子 m\\dfrac{\\d^2x}{\\mathrm{d}t^2} + kx = 0 完全一致！
 
 - 电感 L \\leftrightarrow 质量 m （惯性）。
 - 电容倒数 1/C \\leftrightarrow 劲度系数 k （弹性）。
@@ -504,6 +504,6 @@ X 射线和 \\gamma 射线：波长比紫外线更短的电磁波就是 X 射线
 
 产生机制的统一理解：加速电荷辐射电磁波——这是所有电磁波产生的根本原因。无线电波，导线中电子的振荡加速；热辐射，分子热运动（加速运动）；原子光谱，电子在轨道间跃迁（加速）；\\gamma 射线，核子的跃迁。
 
-2025-12-242026-07-09
+2025-12-242026-10-23
 
 [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

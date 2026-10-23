@@ -98,4 +98,4 @@ Q.E.D.
 
 2026-10-142026-10-20
 
-[RainPPR](https://github.com/RainPPR)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

@@ -205,13 +205,13 @@ y^2=\\dfrac{a-x_0}{a+x_0}\\quad(|x_0|\<a)
 
 切线斜率 / 法线斜率直接有理表达，根据：
 
-\\dfrac{\\d x}{\\d t}=-\\dfrac{4at}{(1+t^2)^2}
+\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=-\\dfrac{4at}{(1+t^2)^2}
 
-\\dfrac{\\d y}{\\d t}=\\dfrac{2b(1-t^2)}{(1+t^2)^2}
+\\dfrac{\\mathrm{d}y}{\\mathrm{d}t}=\\dfrac{2b(1-t^2)}{(1+t^2)^2}
 
 所以切线斜率为：
 
-\\dfrac{\\d y}{\\d x}=\\dfrac{\\d t}{\\d t}\\cdot\\dfrac{\\d t}{\\dt x}=\\dfrac{b(t^2-1)}{2at}
+\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=\\dfrac{\\mathrm{d}t}{\\mathrm{d}t}\\cdot\\dfrac{\\mathrm{d}t}{\\dt x}=\\dfrac{b(t^2-1)}{2at}
 
 结论 1：弦的斜率公式，椭圆上两点 P_1(\\theta_1), P_2(\\theta_2) 连线斜率
 
@@ -931,6 +931,6 @@ y \\cdot a(t_1+t_2) = 2a(x + at_1t_2) \\implies (t_1+t_2)y = 2x + 2at_1t_2
 
 **La Hire 定理（互反性质）**：若点 P 在点 Q 的极线上，则点 Q 必在点 P 的极线上。
 
-2026-07-092026-07-09
+2026-07-092026-10-23
 
 [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
