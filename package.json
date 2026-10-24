@@ -2,16 +2,16 @@
   "name": "whk",
   "private": true,
   "dependencies": {
-    "@go-task/cli": "^3.52.0",
-    "@intellectronica/ruler": "^0.3.44",
+    "@go-task/cli": "^3.54.0",
+    "@intellectronica/ruler": "^0.3.46",
     "autocorrect-node": "^2.14.0",
-    "autoprefixer": "^10.5.2",
-    "cssnano": "^8.0.2",
+    "autoprefixer": "^10.6.1",
+    "cssnano": "^9.9.0",
     "html-minifier-terser": "^7.2.0",
-    "katex": "^0.17.0",
-    "markdownlint-cli2": "^0.23.0",
-    "postcss": "^8.5.19",
-    "postcss-nested": "^7.0.2",
+    "katex": "^0.19.1",
+    "markdownlint-cli2": "^0.24.0",
+    "postcss": "^8.5.31",
+    "postcss-nested": "^9.0.1",
     "posthtml": "^0.16.7",
     "posthtml-alt-always": "^1.0.1",
     "posthtml-external-link": "^0.1.2",
@@ -19,7 +19,7 @@
     "posthtml-postcss": "^1.0.5",
     "posthtml-postcss-merge-longhand": "^3.1.4",
     "posthtml-remove-duplicates": "^0.0.4",
-    "terser": "^5.49.0"
+    "terser": "^5.51.2"
   },
   "allowScripts": {
     "@go-task/cli@3.51.1": true
