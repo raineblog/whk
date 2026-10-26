@@ -309,4 +309,4 @@ p = n k_B T
 
 2026-10-252026-10-25
 
-[AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR)
+[AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
