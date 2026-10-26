@@ -23,6 +23,7 @@
 - [电磁感应单双杆创新模型三题](https://raineblog.dpdns.org/whk/blog/2026/10/16/电磁感应单双杆创新模型三题/index.md)
 - [破译电磁感应“双杆切割”的物理本质](https://raineblog.dpdns.org/whk/blog/2026/10/24/破译电磁感应双杆切割的物理本质/index.md)
 - [理想气体压强公式的深度推导与系数](https://raineblog.dpdns.org/whk/blog/2026/10/25/理想气体压强公式的深度推导与系数/index.md)
+- [离散数学（集合论、数理逻辑、图论、组合计数）目录结构及核心内容概要](https://raineblog.dpdns.org/whk/blog/2026/10/26/离散数学集合论数理逻辑图论组合计数目录结构及核心内容概要/index.md)
 - [青岛二中 2022 年自主招生试题（物理）探究六（4）题解](https://raineblog.dpdns.org/whk/blog/2026/10/14/青岛二中-2022-年自主招生试题物理探究六4题解/index.md)
 - [应用文·书信体](https://raineblog.dpdns.org/whk/blog/2026/10/14/应用文书信体/index.md)
 - [英语阅读——声学生态位理论](https://raineblog.dpdns.org/whk/blog/2026/10/14/英语阅读声学生态位理论/index.md)
