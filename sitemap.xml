@@ -57,7 +57,7 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/blog/2026/10/26/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E9%9B%86%E5%90%88%E8%AE%BA%E6%95%B0%E7%90%86%E9%80%BB%E8%BE%91%E5%9B%BE%E8%AE%BA%E7%BB%84%E5%90%88%E8%AE%A1%E6%95%B0%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E5%8F%8A%E6%A0%B8%E5%BF%83%E5%86%85%E5%AE%B9%E6%A6%82%E8%A6%81/</loc>
-        <lastmod>2026-10-26</lastmod>
+        <lastmod>2026-10-29</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -273,6 +273,11 @@
     <url>
         <loc>https://raineblog.dpdns.org/whk/blog/2026/10/26/%E9%AB%98%E4%B8%AD%E5%8C%96%E5%AD%A6%E8%83%BD%E6%BA%90%E4%B8%8E%E7%87%83%E6%96%99/</loc>
         <lastmod>2026-10-26</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://raineblog.dpdns.org/whk/blog/2026/10/29/%E9%AB%98%E4%B8%AD%E6%9C%89%E6%9C%BA%E9%AB%98%E5%88%86%E5%AD%90%E6%9D%90%E6%96%99%E5%85%A8%E6%99%AF%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E4%B8%8E%E5%BE%AE%E9%A1%B9%E7%9B%AE%E6%B7%B1%E5%BA%A6%E7%A0%94%E4%BF%AE%E6%8C%87%E5%8D%97/</loc>
+        <lastmod>2026-10-29</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
@@ -957,6 +962,10 @@
         <changefreq>daily</changefreq>
     </url>
     <url>
+        <loc>https://raineblog.dpdns.org/whk/blog/page/6/</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
         <loc>https://raineblog.dpdns.org/whk/blog/archive/2026/page/2/</loc>
         <changefreq>daily</changefreq>
     </url>
@@ -970,6 +979,10 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/blog/archive/2026/page/5/</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://raineblog.dpdns.org/whk/blog/archive/2026/page/6/</loc>
         <changefreq>daily</changefreq>
     </url>
     <url>

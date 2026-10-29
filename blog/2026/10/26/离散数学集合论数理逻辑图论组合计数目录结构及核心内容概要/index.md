@@ -298,6 +298,6 @@
   - 多重集全排列的多项式系数定理；
   - 平面直角坐标系非降网格路径（从 (0,0) 到 (m,n)）与二项式系数 \\binom{m+n}{m} 的双射构造。
 
-2026-10-262026-10-26
+2026-10-262026-10-29
 
 [AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
