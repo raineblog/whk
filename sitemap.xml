@@ -281,6 +281,11 @@
         <changefreq>daily</changefreq>
     </url>
     <url>
+        <loc>https://raineblog.dpdns.org/whk/blog/2026/11/01/%E9%AB%98%E8%80%83%E8%8B%B1%E8%AF%AD%E4%BC%A0%E7%BB%9F%E5%9E%8B%E8%AF%BB%E5%90%8E%E7%BB%AD%E5%86%99%E5%86%99%E4%BD%9C%E6%96%B9%E6%B3%95%E5%8D%81%E5%8F%A5%E4%BA%94%E5%AE%9A%E6%B3%95%E4%B8%8Eptsd%E5%8F%8C%E5%BC%95%E6%93%8E%E5%86%99%E4%BD%9C%E4%BD%93%E7%B3%BB/</loc>
+        <lastmod>2026-11-01</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
         <loc>https://raineblog.dpdns.org/whk/cultural/article/bao-ren-an-shu/</loc>
         <lastmod>2026-08-31</lastmod>
         <changefreq>daily</changefreq>
@@ -995,6 +1000,10 @@
     </url>
     <url>
         <loc>https://raineblog.dpdns.org/whk/blog/author/AIGC/page/4/</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://raineblog.dpdns.org/whk/blog/author/AIGC/page/5/</loc>
         <changefreq>daily</changefreq>
     </url>
 </urlset>
