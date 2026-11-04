@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.14"
 resolution-markers = [
     "sys_platform == 'win32'",
@@ -953,7 +953,6 @@ version = "1.6.1"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "click" },
-    { name = "colorama", marker = "python_version < '0'" },
     { name = "ghp-import" },
     { name = "jinja2" },
     { name = "markdown" },
@@ -1543,7 +1542,6 @@ version = "1.6.7"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "click" },
-    { name = "colorama", marker = "python_version < '0'" },
     { name = "ghp-import" },
     { name = "jinja2" },
     { name = "markdown" },
