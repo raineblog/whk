@@ -1,8 +1,8 @@
-# 20260918生物题
+# 20260918生物小题狂刷
 
-本文整理2026年生物高考模拟例题16题，涵盖细胞膜结构、信号转导、光合作用、呼吸代谢等核心考点，提供题目复述、概念辨析、逐项剖析及标准答案，助力高效备考。
+2026届高考生物模拟题精选，涵盖膜结构、信号转导、光合呼吸、遗传变异等核心考点，附详细时空线索与易错点深度解析，助力一轮复习精准突破。
 
-20260918生物题
+alt text
 
 ### 第一题：[例 1] (2025·广东卷, 3) 罗伯特森细胞膜结构模型
 
@@ -443,6 +443,6 @@ D. 在0～a、a～b和b～c三个阶段，幼苗根细胞中葡萄糖的能量�
 
 **【最终答案】**：**B**
 
-2026-10-142026-10-14
+2026-11-162026-11-16
 
-[AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR)
+[RainPPR](https://github.com/RainPPR),  [AIGC](https://www.ibm.com/think/insights/ai-generated-content)

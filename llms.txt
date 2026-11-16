@@ -30,7 +30,6 @@
 - [KSCN 被氧化的探究实验](https://raineblog.dpdns.org/whk/blog/2026/10/14/kscn-被氧化的探究实验/index.md)
 - [20250920高中数学题目分享](https://raineblog.dpdns.org/whk/blog/2026/10/14/20250920高中数学题目分享/index.md)
 - [文言文实词·虚词·高频通关背诵全手册](https://raineblog.dpdns.org/whk/blog/2026/10/14/文言文实词虚词高频通关背诵全手册/index.md)
-- [20260918生物题](https://raineblog.dpdns.org/whk/blog/2026/10/14/20260918生物题/index.md)
 - [结构化学归因分析](https://raineblog.dpdns.org/whk/blog/2026/10/14/结构化学归因分析/index.md)
 - [滑块、光线和圆周率](https://raineblog.dpdns.org/whk/blog/2026/10/14/滑块光线和圆周率/index.md)
 - [基因工程大总结](https://raineblog.dpdns.org/whk/blog/2026/10/14/基因工程大总结/index.md)
@@ -68,6 +67,8 @@
 - [高中化学绿色化学](https://raineblog.dpdns.org/whk/blog/2026/10/26/高中化学绿色化学/index.md)
 - [高中化学能源与燃料](https://raineblog.dpdns.org/whk/blog/2026/10/26/高中化学能源与燃料/index.md)
 - [高中有机高分子材料全景知识图谱与微项目深度研修指南](https://raineblog.dpdns.org/whk/blog/2026/10/29/高中有机高分子材料全景知识图谱与微项目深度研修指南/index.md)
+- [20260918生物小题狂刷](https://raineblog.dpdns.org/whk/blog/2026/11/16/20260918生物小题狂刷/index.md)
+- [20261116生物小题狂刷](https://raineblog.dpdns.org/whk/blog/2026/11/16/20261116生物小题狂刷/index.md)
 - [高考英语传统型读后续写写作方法：十句五定法与PTSD双引擎写作体系](https://raineblog.dpdns.org/whk/blog/2026/11/01/高考英语传统型读后续写写作方法十句五定法与ptsd双引擎写作体系/index.md)
 
 ## 中学文科
