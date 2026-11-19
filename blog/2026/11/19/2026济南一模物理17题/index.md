@@ -1,6 +1,6 @@
 # 2026济南一模物理17题
 
-2026济南一模物理17题解析：带电粒子在交替电磁场中穿越y轴，求第n次通过点纵坐标yn公式。给出逐次增量、数列递推、微元冲量能量、旋转坐标系四种推导，含奇偶分段与验算，适合高考物理难题冲刺。
+2026济南一模物理第17题详解：带电粒子在交替电磁场中穿越y轴，求第n次通过点纵坐标yn公式。提供逐次增量、数列递推、微元冲量能量、旋转坐标系四种推导，含奇偶分段与验算，适合高考物理难题冲刺与复习。
 
 2026济南一模物理17题
 
@@ -524,4 +524,4 @@ y_n = \\begin{cases} -(n-1)(n+2)L & (n = 1, 3, 5, \\dots) \\ -n(n-1)L & (n = 2, 
 
 2026-11-192026-11-19
 
-[AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR)
+[AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

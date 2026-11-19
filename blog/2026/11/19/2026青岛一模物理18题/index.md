@@ -345,4 +345,4 @@ Q = -\\Delta\\left(\\frac{1}{2}\\mu\_{\\text{折}} v\_{\\text{相}}^2\\right) = 
 
 2026-11-192026-11-19
 
-[AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR)
+[AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
