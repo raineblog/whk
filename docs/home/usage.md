@@ -4,13 +4,6 @@ description: 本页介绍使用方法与最新更新，提供作者RainPPR的博
 
 # 如何使用
 
-## 简介
-
-<details class="recently-updated-box" id="recently-updated-box">
-<summary>最新更新</summary>
-<!-- RECENTLY_UPDATED_DOCS -->
-</details>
-
 ## 如何找到文章相关资源
 
 关注作者：
