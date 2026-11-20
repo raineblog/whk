@@ -340,4 +340,4 @@ F\_{\\text{库}} = mg\\frac{AB}{OA} \\implies \\frac{kq_Aq_B}{r^2} = mg\\frac{r}
 
 2026-11-202026-11-20
 
-[RainPPR](https://github.com/RainPPR)
+[RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)

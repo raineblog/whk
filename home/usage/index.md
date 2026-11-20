@@ -1,9 +1,5 @@
 # 如何使用
 
-## 简介
-
-最新更新
-
 ## 如何找到文章相关资源
 
 关注作者：
@@ -18,6 +14,6 @@
 
 本人不是很懂（没有太多经历）搞宣传和 SEO、GEO 什么的 TvT
 
-2026-02-092026-07-04
+2026-02-092026-11-20
 
 [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
