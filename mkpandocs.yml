@@ -261,6 +261,10 @@ plugins:
             - index.md
             - intro/*
             # - blog/*
+            - blog/index.md
+            - blog/archive/*
+            - blog/author/*
+            - blog/page/*
         # 这个插件更新好频繁跟不上了真的好诡异（
         # 使用我自己维护的 https://github.com/raineblog/mkdocs-document-dates 接口与上游不一致（保留了上游的老板接口）
 -   privacy:
