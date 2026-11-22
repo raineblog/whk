@@ -58,6 +58,14 @@ if not hasattr(pages, "_RelativePathTreeprocessor"):
 
     pages._RelativePathTreeprocessor = _RelativePathTreeprocessor
 
+# 兼容 mkdocs-material 的 blog 插件导入
+if not hasattr(pages, "AMP_SUBSTITUTE"):
+    try:
+        from markdown.util import AMP_SUBSTITUTE
+        pages.AMP_SUBSTITUTE = AMP_SUBSTITUTE
+    except ImportError:
+        pages.AMP_SUBSTITUTE = "\x02amp\x03"
+
 from properdocs.__main__ import cli
 
 if __name__ == "__main__":
