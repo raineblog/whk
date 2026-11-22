@@ -12,6 +12,14 @@ plugins:
 - table-reader
         # https://github.com/timvink/mkdocs-table-reader-plugin
         # 在 Markdown 里面用这个引入 csv（是否是一个好习惯？
+-   search:
+        provider: pagefind # pagefind (default) or lunr
+        # pagefind:
+        #     # Index configuration
+        #     include_characters: ._
+        #     keep_index_url: true
+        #     exclude_selectors:
+        #         - .md-banner
 -   document-dates:
         # https://jaywhj.netlify.app/document-dates-zh
         position: bottom
@@ -51,6 +59,7 @@ plugins:
 {% if has_social_dependencies %}
 -   social:
         cards_layout: default/variant
+        concurrency: 4
         cards_layout_options:
             font_family: Noto Serif SC
             background_color: "#132456"
@@ -78,12 +87,14 @@ plugins:
 {% if enable_blog %}
 -   blog:
         blog_toc: true
-        post_date_format: long
+        archive_toc: true
+        authors_profiles_toc: true
+        categories_toc: true
+        authors_profiles_toc: true
+        post_date_format: full
         post_excerpt: required
-        post_readtime: false
         archive_name: Archive
         authors_profiles: true
-        categories: false
 {% endif %}
 -   rss:
     # https://guts.github.io/mkdocs-rss-plugin/
