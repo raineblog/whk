@@ -72,4 +72,4 @@
 
 2026-11-222026-11-22
 
-[AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR)
+[AIGC](https://www.ibm.com/think/insights/ai-generated-content),  [RainPPR](https://github.com/RainPPR),  [Bot](mailto:bot@noreply.github.com)
